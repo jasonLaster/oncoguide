@@ -1,0 +1,6 @@
+{
+  "name": "oncoguide-content",
+  "private": true,
+  "packageManager": "bun@1.3.12",
+  "scripts": { "build": "bash scripts/build-site.sh" }
+}

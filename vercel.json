@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "installCommand": "echo 'Content-only repository: dependencies install during build'",
+  "buildCommand": "bash scripts/build-site.sh",
+  "outputDirectory": ".renderer/apps/oncoguide/out",
+  "trailingSlash": true
+}
