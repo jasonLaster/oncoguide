@@ -1,95 +1,113 @@
 ---
 title: "Autophagy: traffic, flow, and dependence"
-tags: [education, autophagy, PARP, functional-testing]
 type: guide-lesson
+guide: parp-and-cell-survival
+step: 2
+minutes: 12
+objectives:
+  - "Distinguish recycling machinery abundance from completed autophagic flux."
+  - "Explain why a static marker can rise when clearance is blocked."
+  - "Read a perturbation result without assuming autophagy always protects a tumor."
+prerequisites:
+  - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
+  - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
 sensitive: false
 reviewed: pending
 reviewed_by: ""
-guide: parp-and-cell-survival
-step: 2
-objectives: ["Interpret autophagy: traffic, flow, and dependence without treating an observation as validated clinical benefit."]
-prerequisites: ["[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+review_status: "Expert and learner review pending"
+source_checked: 2026-10-09
+tags: [education, autophagy, PARP, functional-testing]
 ---
 
 # Autophagy: traffic, flow, and dependence
 
-**A busy-looking recycling system can be productive, blocked, or irrelevant to drug resistance.** Three questions have to be separated: how much machinery is present, whether cargo completes the trip, and whether that trip helps the cancer cell survive.
+**A busy-looking recycling system may be working quickly, waiting at a blockage, or doing something that does not determine survival. Amount, completed flow, and dependence are separate questions.**
 
-[[wiki/education/molecular-profiling/parp-and-cell-survival/index|Guide]] · Previous: [[wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling|PARP trapping]] · Next: [[wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair|PI3K, AKT, and mTOR]]
+**Before you start:** [DNA, RNA, and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) separates genetic instructions from the machinery they encode; [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) is a DNA repair process that can change drug vulnerability. DNA means deoxyribonucleic acid, and RNA means ribonucleic acid.
 
-## Count the packages, then watch the deliveries
+## Where this step sits
 
-<img src="./images/autophagy-flow-and-dependence-light.png" alt="Four panels distinguish recycling messages, completed flow, blocked clearance and survival dependence" data-theme-pair>
+After identifying the [PARP obstacle](./01-parp-trapping-and-recycling), we ask what recycling is doing. PARP stands for poly(ADP-ribose) polymerase, an enzyme that builds chemical signals at DNA damage. The next lesson follows growth signals that can affect repair and recycling together.
 
-*Measure completed flow over time, then test whether changing it alters survival.*
+## Count packages, then watch deliveries
 
-Autophagy encloses cargo in a membrane package, an **autophagosome**, and delivers it to a **lysosome** for breakdown. The resulting components can be reused. This is part of normal cell maintenance as well as cancer biology.
+**Autophagy** is a cell process that encloses material in a membrane package, an **autophagosome**, and sends it to a **lysosome** for breakdown. The cell can reuse the resulting components. It is normal maintenance machinery as well as a possible stress response.
 
-A photograph of many packages has two possible explanations: packages are arriving rapidly, or deliveries have stopped. Likewise, increased LC3-II or many autophagosomes can reflect increased formation **or** impaired clearance. A high RNA pathway score is one step further removed: it measures relative expression of selected instructions, not packages completing the trip.
+Think of a delivery depot. A photograph showing many packages could mean many deliveries are arriving. It could also mean the trucks stopped leaving. The photograph alone does not tell you how much material completes its trip.
 
-The laboratory therefore follows the process **over time**, often comparing conditions with and without lysosomal blockade. LC3 processing, p62/SQSTM1 turnover, lysosome function, and dual-color reporters can provide complementary information. None is self-interpreting: p62 production can change, and a reporter requires appropriate controls. These are examples of experimental approaches, not a universal clinical test panel. [Bellare 2021](https://pubmed.ncbi.nlm.nih.gov/33473172/).
+**Autophagic flux** means material progressing through the process over time, including breakdown at the end. More autophagosomes at one moment do not establish greater flux. Likewise, [bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) measures instructions in a sampled mixture. It does not watch cargo move or show that a tumor depends on recycling.
 
-## A worked example: one snapshot, two different systems
+## What the markers can and cannot tell you
 
-These are imaginary delivery counts, **not patient measurements or assay cutoffs**.
+Two common laboratory markers need careful interpretation:
 
-| Observation over one hour | System A | System B |
+- **LC3-II** is a lipid-attached form of microtubule-associated protein 1 light chain 3. It associates with autophagic membranes. More LC3-II can reflect more package formation or less clearance.
+- **p62**, also called sequestosome 1, is a cargo adaptor that can be broken down through autophagy. Its amount also depends on production and other processes. An increase alone does not establish a blockage.
+
+Researchers therefore compare time points and conditions, often with and without a controlled block of lysosomal degradation. They may add a reporter with two colors that respond differently as cargo reaches an acidic compartment. The interpretation depends on controls for the marker, lysosome, and experiment. Expert assay guidelines recommend complementary measurements rather than a single static marker. [Klionsky 2021](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+
+## A worked example: the same queue, different flow
+
+These are invented delivery counts over one hour. They are an analogy, not assay values or thresholds.
+
+| Observation | Depot A | Depot B |
 |---|---:|---:|
 | Packages initially waiting | 20 | 20 |
 | New packages arriving | 30 | 5 |
 | Packages processed | 30 | 0 |
 | Packages left waiting | 20 | 25 |
 
-Both systems started with 20 packages. A single starting photograph could not distinguish A's productive flow from B's blockage. Measuring change and completion makes the difference visible. The biological analogy has limits: autophagy cargo, synthesis, and degradation are more complex than identical packages on a belt.
+Both start with the same queue. Depot A processes many packages while keeping its queue stable. Depot B accumulates packages because nothing leaves. A single starting snapshot misses that difference.
+
+Cells are more complicated than depots: cargo types differ, markers are made and degraded, and drug exposure can change several steps. The analogy's useful lesson is to measure *completion over time*, rather than infer it from the queue.
 
 ## Flow still does not establish dependence
 
-Suppose a tumor has high, productive autophagy during PARP treatment. There are at least three experimentally distinguishable possibilities:
+Suppose recycling completes efficiently during drug treatment. Does it help the cell survive? To ask that question, change the process and measure survival under controlled conditions.
 
-| Perturbation result | What it would suggest | What still needs checking |
+| Result after disrupting the process | Possible interpretation | Important remaining check |
 |---|---|---|
-| Blocking the pathway increases cancer-cell death | Autophagy may have been protective in that setting | Was the effect actually due to autophagy, and were exposures relevant? |
-| Blocking it reduces drug-induced death | The pathway may have contributed to the death response | Is the observation reproducible with a separate perturbation? |
-| Blocking it changes flux but not survival | The measured pathway may not limit survival under those conditions | Could timing, compensation, or the model conceal an effect? |
+| More tumor-cell death | Recycling may have been protective. | Did the perturbation act through the intended process? |
+| Less drug-induced death | Recycling may have contributed to the death response. | Does an independent perturbation reproduce the result? |
+| Changed flux, similar survival | Recycling may not limit survival in these conditions. | Could timing or compensation conceal an effect? |
 
-Both directions have published precedents. In HR-proficient breast models, autophagy disruption or chloroquine increased talazoparib sensitivity. In a different experiment using BRCA2-mutant HCC-1428 cells, ATG5 knockdown reduced olaparib-induced apoptosis. These were different models and perturbations; neither establishes an individual treatment effect. [Bellare 2021](https://pubmed.ncbi.nlm.nih.gov/33473172/) and its [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/); [Arun 2015](https://pubmed.ncbi.nlm.nih.gov/25975349/).
+Published breast cancer experiments illustrate why both directions deserve attention. Bellare and colleagues found that disrupting autophagy increased talazoparib sensitivity in the HR-proficient models they studied. Arun and colleagues found that reducing ATG5, an autophagy machinery protein, partly reduced olaparib-induced apoptosis in the BRCA2-mutant HCC-1428 cell line. **Apoptosis** is a regulated cell-death process. These studies used different models, drugs, and perturbations. Their results do not define a universal tumor label or individual treatment effect. [Bellare 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8007595/), [Arun 2015](https://www.spandidos-publications.com/10.3892/ijo.2015.3003).
 
-The Bellare correction replaced an incorrectly assembled representative liver-histology image in Figure 6f. It should be read with the original report.
+Read Bellare's report with its [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/), which replaced an incorrectly assembled representative liver-histology image in Figure 6f.
 
-This is why “protective or cytotoxic?” is a useful experimental question but an incomplete binary label for an entire tumor. Timing, cell population, and the particular drug can change the answer.
+## What can go wrong at this step
 
-## What the 90th percentile means
+An RNA signal can be mistaken for a pathway rate. A static marker can be mistaken for completed recycling. A toxic lysosomal drug can be mistaken for a selective autophagy perturbation. Each move skips a measurement.
 
-A percentile near 90 places a specified RNA score near the upper end of a particular comparison group. It does **not** mean “90% of cells use autophagy,” “90% pathway activity,” or “90% probability that HCQ works.” Tumor purity, immune/stromal cells, gene-set choice, and measurement differences can affect the rank.
-
-A percentile can inform a hypothesis only if the inputs and comparator are appropriate. A confounded RNA rank cannot prioritize a dependency. For a combination experiment, pair survival with evidence that the intended process changed.
-
-## Explain it back
-
-**Can RNA and a drug screen replace a flux measurement?** They answer useful adjacent questions, but neither directly shows the rate of autophagic cargo clearance.
-
-**If blocking autophagy harms a tumor cell, is adding HCQ settled?** No. The result still has to survive checks of mechanism, exposure, normal-tissue effects, and evidence in the relevant clinical setting.
-
+It is also easy to call autophagy “protective” for an entire tumor. Dependence is conditional: the sampled cells, drug, timing, and environment shape the answer. A separate intervention that changes the intended process strengthens the explanation, especially if restoring the function reverses the result.
 
 ## Try it
 
-An assay reports a striking value. Which sample, measurement method and comparator do you need before interpreting it?
+A fictional experiment shows more LC3-II after a drug and lower metabolic signal after adding a lysosomal blocker. A report calls this “high protective autophagy.” What is still missing?
 
-**Answer:** Identify the sampled cells, assay definition and reference group before moving from the number to a biological or treatment claim.
+<details>
+<summary>Show the answer</summary>
 
+The LC3-II snapshot cannot distinguish increased formation from blocked clearance. A controlled flux measurement is needed. Lower metabolic signal also does not prove cell death or autophagy dependence. The researcher needs survival or death measurements and evidence that the intended pathway caused the effect.
+
+</details>
+
+## Explain it back
+
+“Amount asks ___; flux asks ___; dependence asks ___.”
+
+One possible answer: “how much machinery or cargo is present; how much material completes the process over time; whether changing the process changes survival.”
 
 ## Takeaway
 
-**The meaning of a measurement depends on its sample, method and comparison.**
+**Measure amount, flow, and survival dependence as three different claims.**
 
-
-## Applied to Diana
-
-[[wiki/care/molecular-profile|The molecular profile]] owns current qualified findings.
+**Next:** [Follow growth signals and their competing effects](./03-pi3k-akt-mtor-and-repair).
 
 ## Sources and scope
 
-General teaching; expert and learner review pending.
+Source check: 2026-10-09. General measurement education; expert and learner review pending. Delivery counts are fictional. Published drug interactions discussed here come from preclinical models.
 
-- [Bellare 2021](https://pubmed.ncbi.nlm.nih.gov/33473172/) and [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/).
-- [Arun 2015](https://pubmed.ncbi.nlm.nih.gov/25975349/).
+- [Klionsky 2021: fourth-edition guidelines for interpreting autophagy assays](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+- [Bellare 2021: autophagy perturbation in HR-proficient breast cancer models](https://pmc.ncbi.nlm.nih.gov/articles/PMC8007595/); [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/).
+- [Arun 2015: autophagy and apoptosis in BRCA-mutant breast cancer cell models](https://www.spandidos-publications.com/10.3892/ijo.2015.3003).

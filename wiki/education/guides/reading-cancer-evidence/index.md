@@ -1,11 +1,13 @@
 ---
 title: "Read trial claims and survival statistics"
 type: guide
-goal: "Identify what a study measured, how strong its comparison is and how far its result can be applied."
+goal: "Identify what a study compared and measured, describe its effect with uncertainty, and judge how far the result can be applied."
 audience: "Curious reader; no specialist training assumed"
+minutes: 36
 sensitive: false
 tags: [education, guide]
-updated: 2026-10-08
+updated: 2026-10-09
+source_checked: 2026-10-09
 review_status: "Source-checked; expert and learner review pending"
 reviewed: pending
 reviewed_by: ""
@@ -13,78 +15,64 @@ reviewed_by: ""
 
 # Read trial claims and survival statistics
 
-**Identify what a study measured, how strong its comparison is and how far its result can be applied.**
+**Identify what a study compared and measured, describe its effect with uncertainty, and judge how far the result can be applied.**
 
-This guide is for anyone reading a paper abstract, an assay report or a treatment claim. Its goal is to make the claim assessable, not to turn every percentage into a personal forecast.
+A paper can feel persuasive before you know what its main number means. This guide gives you a slower way to read it. Start with the question, look at the result, then ask which conclusion the study supports. You do not need to calculate a personal prognosis to do this well.
 
 ## The big ideas
 
-1. Population, intervention, comparator and endpoint travel together.
-2. A marker associated with outcome does not necessarily tell us what action helps.
-3. Relative effects and absolute differences answer different questions.
-4. Earlier detection and longer measured follow-up are not automatically added benefit.
+1. A result belongs to its population, comparison, event definition, and starting time.
+2. A relative effect and an absolute difference answer different questions. Keep the time horizon attached to both.
+3. Precision, study design, and relevance each matter. A narrow interval cannot repair the wrong comparison.
+4. An outcome association does not establish that acting on a marker improves care.
 
 ## The map
 
 ```mermaid
-flowchart LR
-  A[Name the claim] --> B[Identify the comparison]
-  B --> C[Read the endpoint and follow-up]
-  C --> D[Inspect size and uncertainty]
-  D --> E[Check applicability and actionability]
+flowchart TD
+  A[1. Name the comparison and endpoint] --> B[2. Read the curve and effect]
+  B --> C[3. Check applicability and uncertainty]
+  click A "/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint"
+  click B "/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect"
+  click C "/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty"
 ```
 
-*The study design determines which conclusion is available.*
+*Keep the study's question attached to its result through all three steps.*
 
 ## Lessons
 
-| Step | Concept | What you will learn |
-|---|---|---|
-| 1 | [Prognostic versus predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) | Association, treatment effect and clinical utility |
-| 2 | [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) | What event and starting time define the percentage |
-| 3 | [Kaplan–Meier](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier) | Censoring, risk tables and uncertain tails |
-| 4 | [Hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) | Relative hazards versus absolute event differences |
-| 5 | [PPV and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) | Why specificity alone does not establish a positive’s reliability |
-| 6 | [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) | Why earlier detection needs a separate benefit comparison |
-| 7 | [Clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) | How assay validity, clinical evidence and eligibility differ |
-
-## What trial phases contribute
-
-Phase I usually examines dose, safety and feasibility. Phase II can examine activity and may be randomized. Phase III usually tests a comparative clinical question in a larger population. The phase label does not replace reading the actual design. A randomized phase II can provide stronger comparative evidence than a large uncontrolled series for a particular question.
-
-Randomization helps balance baseline differences on average. Blinding and consistent assessment can reduce other biases. A single-arm cohort lacks a concurrent comparator. Confounding occurs when another factor affects both the exposure or marker and the outcome, creating or changing an apparent relationship.
-
-## A worked claim
-
-A small cohort reports favorable five-year outcomes in patients whose blood marker is negative. Before applying it, find the draw timing, cancer stage, treatment era, assay, group size and confidence interval. Then ask whether the study merely observed outcomes or tested a strategy after the result. It cannot establish safe treatment omission unless that question was actually addressed.
-
-## Try it
-
-A hypothetical treatment lowers five-year event risk from 20% to 14%. State the absolute and relative risk changes.
-
-**Answer:** Six percentage points absolute and 30% relative risk reduction. Neither is automatically the trial’s hazard reduction.
-
-**Explain it back:** “I can say what happened in this comparison; I still need to check whether it supports this person’s proposed action.”
-
-## Applied to Diana
-
-Current evidence interpretation belongs in [[wiki/prognosis/survival-statistics|the survival evidence review]] and [[wiki/care/treatment-plan|the care plan]]. The concepts explain how to inspect those claims without importing another cohort’s percentage as her prognosis.
-
-**Takeaway:** Keep the design, population, endpoint and uncertainty attached to every result.
-
-## Sources and scope
-
-Source check: October 8, 2026; expert and learner review pending. Hypothetical arithmetic is not clinical data.
-
-- [NCI clinical trial phases](https://www.cancer.gov/about-cancer/treatment/clinical-trials/what-are-trials/phases).
-- [FDA–NIH biomarker evidence definitions](https://www.ncbi.nlm.nih.gov/books/NBK326791/).
-
+| Step | Lesson | Question it answers | Minutes | Learning aid |
+|---|---|---|---|---|
+| 1 | [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint) | What was actually tested? | 11 | A study question card and two event examples |
+| 2 | [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect) | How much changed, by when, and with what precision? | 13 | A censoring example and worked risk arithmetic |
+| 3 | [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty) | What can this result justify? | 12 | A claim comparison and an explain-it-back sentence |
 
 ## Concepts you will use
 
-- [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic versus predictive biomarkers]]
-- [[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints|Survival endpoints]]
-- [[wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier|Kaplan–Meier curves]]
-- [[wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio|Hazard ratio]]
-- [[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates|Positive predictive value and base rates]]
-- [[wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias|Lead-time bias]]
+Start with [trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) for how comparisons are built. [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) explain which events count and when the clock starts. [Prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) separate an outcome association from evidence about treatment differences.
+
+For the numbers, use the [Kaplan–Meier curve](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier), [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio), [absolute risk, relative risk, and number needed to treat](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt), and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) pages. They are reference stops, not extra lessons you must memorize.
+
+When a test result becomes a proposed action, bring in [analytical validity, clinical validity, and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility). [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) explains why earlier detection needs its own benefit comparison.
+
+## A claim to carry through the guide
+
+A fictional trial reports fewer recurrences or deaths with strategy A than strategy B by five years. First, identify the participants and both strategies. Next, describe the size of the difference and its uncertainty. Finally, ask whether the trial tested the action now being proposed. A trial of an entire treatment sequence does not automatically isolate the value of its last component.
+
+## Applied to Diana
+
+Use these reading steps alongside [the survival evidence review](/wiki/prognosis/survival-statistics), [the care plan](/wiki/care/treatment-plan), and [the adjuvant treatment question](/wiki/questions/adjuvant-treatment). Those pages own the case application and decisions. This guide teaches how to inspect a study without turning another group's outcome into her personal forecast.
+
+## What is still uncertain
+
+Studies can leave the durability of an effect, less common harms, or relevance to a smaller group unresolved. More follow-up may sharpen one answer while a different comparison remains untested. Writing that missing question down is useful progress.
+
+After the three lessons, [practice on cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence). For a test or commercial claim, continue with [judging a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index).
+
+## Sources and scope
+
+Source check: 2026-10-09. General evidence-reading education; expert and learner review pending. All worked studies and numbers in this guide are fictional.
+
+- [National Cancer Institute: how cancer clinical trials work](https://www.cancer.gov/research/participate/clinical-trials/how-trials-work).
+- [FDA 2018: clinical trial endpoints for cancer drugs and biologics](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics).
+- [CONSORT 2025: reporting randomized trials](https://www.bmj.com/content/389/bmj-2024-081123).

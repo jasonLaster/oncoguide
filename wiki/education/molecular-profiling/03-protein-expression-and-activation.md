@@ -1,50 +1,92 @@
-# Protein — expression and activation
+---
+title: "Ask whether protein is present, placed and active"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 11
+minutes: 10
+objectives: ["Choose a protein assay for abundance, location or modification.", "Explain why protein presence is different from drug-accessible target or dependence."]
+prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
+sensitive: false
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
+reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
+---
 
-Protein measurements ask what was made, where it is, and whether relevant machinery is active. Different assays answer different parts of that question. RNA is useful evidence about messages; it cannot directly establish the protein's abundance, location, or function.
+# Ask whether protein is present, placed and active
 
-<img src="/api/file?path=wiki%2Feducation%2Fmolecular-profiling%2Fimages%2Fprotein-construction-site-light.png" alt="Protein machinery made from RNA instructions" data-theme-pair>
+**Protein presence, cellular location, activation and dependence are separate questions. Choose the assay that fits the proposed mechanism.**
 
-## Four questions to keep separate
+**Before you start:** [[wiki/education/concepts/biology-basics/genetics/central-dogma|DNA, RNA and protein]] supplies the layers. [[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry|Immunohistochemistry (IHC)]] explains localized staining. [[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq|Bulk RNA]] explains why a message cannot replace a protein measurement.
 
-| Question | Useful measurement | Limit |
+## Where this step sits
+
+This is step 11 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. A workshop may contain a tool without using it, and the tool may be stored where a visitor cannot reach it. A protein can similarly be present but inactive or inaccessible. The comparison is useful until we need a molecular mechanism: proteins have specific structures, modifications and interactions.
+
+## Four different questions
+
+| Question | A useful approach | What it leaves open |
 |---|---|---|
-| **Is protein present?** | IHC, immunofluorescence, targeted or broader mass spectrometry | A bulk total may include normal and malignant cells |
-| **Which cells and location?** | Tissue staining with cell identification and localization | A membrane, cytoplasmic, or nuclear signal can have different implications |
-| **Is a signaling component activated?** | Appropriate phospho-specific assay, including RPPA or phospho-IHC | One modification does not establish a whole pathway or drug dependency |
-| **Does the tumor depend on it?** | Suitable perturbation and functional testing | A model's response still needs reproducibility and clinical context |
+| Is protein present? | Validated staining or mass spectrometry | Cell origin and useful location in a mixed sample |
+| Where is it? | Tissue staining with morphology and localization | Accessibility to the proposed medicine |
+| Is a component activated? | Suitable modification-specific measurement | Whole-pathway dependence |
+| Does the model need it? | Controlled perturbation | Benefit and toxicity in patients |
 
-**Phosphorylation** adds a phosphate group to a protein and can alter signaling; its effect depends on the protein and site. **RPPA**, reverse-phase protein array, measures selected proteins using antibodies against spotted sample lysates. It can measure total or phosphorylated forms when the panel includes suitable antibodies. It does not preserve tissue location.
+**Phosphorylation** adds a phosphate group and can change a protein's behavior. Its meaning depends on the protein and site. A phospho-signal is not a universal on/off switch for an entire pathway.
 
-A surface target used to deliver an ADC does not need to be the tumor's essential growth driver. Its presence, accessibility, distribution, normal-tissue expression, and drug mechanism matter. A signaling inhibitor asks a different dependency question. See [[wiki/education/multi-omics-foundations/07-comparisons-and-evidence|targets, selectivity, and dependence]].
+**Reverse-phase protein array (RPPA)** uses antibodies on sample lysates to measure selected proteins or modifications. The tissue has been mixed, so this method does not preserve original cell coordinates. **Mass spectrometry** identifies or quantifies molecules from their physical signatures. A targeted panel measures selected analytes, not every protein.
 
-## IHC and tissue location
+## Read a unit without changing its denominator
 
-**IHC**, immunohistochemistry, uses antibodies to stain proteins in tissue. Pathologists score the relevant cells, intensity, fraction, and location according to the particular assay. **Immunofluorescence (IF)** uses fluorescent labeling; multiplex IF studies multiple markers in a tissue map.
+An abundance per mass of assayed protein is not molecules per malignant cell or surface receptors per cell. A **limit of quantification (LOQ)** defines where reliable quantification is supported under the method. **Not detected** must be read with the analyte list and threshold; the marker may be absent, below detection or not assayed.
 
-Clinical ER, PR, and HER2 tests classify breast cancers under defined criteria. Negative classification does not always mean literally zero molecules. HER2 RNA, total protein, membrane staining, and DNA amplification are related measurements with different clinical definitions. [NCI: breast biomarker tests](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests)
+For staining, retain which cells were scored, intensity, proportion and location. A membrane stain can answer a different question from nuclear or cytoplasmic staining. Clinical receptor categories use marker-specific rules; research RNA cannot quietly replace them.
 
-A **tumor mask** is an image-based assignment of the malignant compartment. Epithelial markers can help construct it, but normal epithelium also expresses epithelial markers; morphology and additional evidence matter. A tissue measurement must identify which cells were scored.
+## A worked repair finding
 
-## Targeted proteomics
+The fictional repair-gene R has an abnormal RNA product. Protein staining then shows reduced R signal in malignant cells, while normal neighbors retain a signal. That supports a cell-specific staining difference better than a bulk total alone. It does not establish the amount of intact R. An antibody may recognize a fragment or one of several forms; that question needs an assay validated to distinguish the relevant products.
 
-**Mass spectrometry** identifies or quantifies molecules using their physical signatures. A **targeted panel** measures predefined proteins; absence from its output can mean the marker was not assayed. Diana's mProbe OncoOmics report is targeted proteomics, distinct from the Oncoomics computational report collection.
+It still does not measure repair. A suitable functional assay with damage, cell-state and positive controls addresses whether the system works now. Protein is a bridge in the chain, rather than the final answer.
 
-**amol/µg** means attomoles of the measured analyte per microgram of assayed protein. It is a bulk abundance unit, not molecules per malignant cell or per cell surface. **LOQ**, limit of quantification, is the assay's reliable quantification boundary. **ND**, not detected, should be read with the method and threshold; it does not mean biological absence.
+## A second example: a delivery address
 
-The October 4 integration uses TROP-2 total protein as supporting target-presence evidence while keeping membrane localization separate. It also treats bulk vimentin as a mixture signal that cannot identify malignant versus stromal origin. For current values and specimen attribution, use [[wiki/omics/oncoomics-proteomics-integration|the integrated protein interpretation]] and [[wiki/omics/specimen-to-sample-map|the specimen map]].
+A surface receptor is abundant on cancer cells. A medicine may use it as an address to deliver a payload. The receptor need not be the growth driver for that delivery strategy to work. Conversely, a signaling inhibitor seeks a useful change in pathway behavior; surface abundance is not the same selection rule.
 
-## Isoforms and access
+The target's particular **isoform**, a molecular version, can also matter. A gene-level signal does not identify every protein form. Normal-tissue expression, target access and heterogeneous distribution remain part of the proposed drug mechanism.
 
-An **isoform** is a particular version of an RNA or protein, often produced through alternative processing. A gene-level CD44 signal does not specify the CD44v6 protein isoform. Likewise, a PSMA signal needs cell localization before assigning it to cancer cells rather than vessels. RNA abundance alone cannot make those assignments. [October 4 integrated targets](https://github.com/jasonLaster/oncoomics/blob/6c4e5438ca135835f0d5196df6f1fea42c243036/results/diana_multiomic_review_20261004/step14-integrated-targets/integrated_targets_report.md)
+[[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics|Immunopeptidomics]] asks a different protein-related question: which peptides were recovered from human leukocyte antigen complexes? Presentation is closer to an immune-target question than total gene expression, but does not establish recognition by itself.
 
-## Immunopeptidomics
+## What can go wrong at this step
 
-Immunopeptidomics measures peptides recovered from HLA complexes. It addresses presentation more directly than gene expression or a binding prediction. Recovery depends on the material, assay sensitivity, and analysis; a detected peptide still needs a recognition/function question. Continue to [[wiki/education/designing-a-vaccine/03-immunopeptidomics|the detailed lesson]] and [[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition|the immune evidence ladder]].
+- Treating a bulk protein quantity as a surface density.
+- Treating one modification as a whole-pathway dependency.
+- Treating unassayed or below-limit as biological absence.
+- Assigning a vessel-cell signal to cancer cells without localization.
 
-## Say it in your own words
+## Try it
 
-**“Protein presence, surface location, pathway activation, and dependence are different measurements. I want the one that answers the proposed treatment mechanism.”**
+A bulk panel detects receptor R, but no assay identifies its cells or membrane location. Has it shown an antibody can bind cancer cells?
 
-**Check yourself:** If a bulk protein panel detects a receptor, has it proved that an antibody can bind it on cancer cells? **No.** The right cell and accessible location still need evidence.
+**Answer:** No. Protein presence in the mixture is established under that assay. Cell-specific location and access need further evidence.
 
-Next: [[wiki/education/molecular-profiling/04-spatial-biology|spatial biology]] or [[wiki/education/molecular-profiling/05-functional-drug-response|functional response]]. Return to [[wiki/education/molecular-profiling/index|the course]].
+## Explain it back
+
+“The protein assay measured ______. For this mechanism, the unanswered question is ______.”
+
+One answer: “total abundance; whether the relevant product lies at an accessible cancer-cell surface.”
+
+## Takeaway
+
+**The useful protein assay measures the part of the mechanism that RNA left open.**
+
+**Next:** [[wiki/education/molecular-profiling/04-spatial-biology|Add the geography of cells and signals]].
+
+## Sources and scope
+
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+
+- [NCI immunohistochemistry](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/immunohistochemistry).
+- [NCI breast biomarker testing](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests).
+- [[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics|Presentation measurement and sources]].

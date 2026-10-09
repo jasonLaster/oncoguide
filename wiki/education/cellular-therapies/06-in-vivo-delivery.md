@@ -8,11 +8,11 @@ minutes: 10
 objectives: ["Distinguish engineering location and the administered product.", "Separate delivery targeting from cancer targeting."]
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle]]"]
 sensitive: false
-source_checked: "2026-10-08"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-08"
+updated: "2026-10-09"
 ---
 
 # How to engineer T cells inside the body
@@ -25,18 +25,18 @@ Before this lesson: [[wiki/education/cellular-therapies/05-engineered-t-cell-bui
 
 ## Two manufacturing routes
 
-<img src="https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/where-cells-are-engineered-light.png" alt="Two routes: cells engineered in a laboratory and infused, or instructions delivered to engineer cells inside the body" data-theme-pair>
+<img src="./images/where-cells-are-engineered-light.png" alt="Two routes: cells engineered in a laboratory and infused, or instructions delivered to engineer cells inside the body" data-theme-pair>
 
 *What is administered differs from the cells that ultimately perform the work.*
 
-View full-size: [light illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/where-cells-are-engineered-light.png) · [dark illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/where-cells-are-engineered-dark.png).
+View full-size: [light illustration](./images/where-cells-are-engineered-light.png) · [dark illustration](./images/where-cells-are-engineered-dark.png).
 
 | Route | What happens | What is administered |
 |---|---|---|
-| **Ex vivo**: outside the body | Collect cells, engineer them in a laboratory, grow and test them, then infuse them | A manufactured population of cells |
-| **In vivo**: inside the body | Manufacture and test a genetic delivery product; administer it so it engineers selected cells within the patient | The delivery product carrying genetic instructions |
+| **[Ex vivo](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering)**: outside the body | Collect cells, engineer them in a laboratory, grow and test them, then infuse them | A manufactured population of cells |
+| **[In vivo](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering)**: inside the body | Manufacture and test a genetic delivery product; administer it so it engineers selected cells within the patient | The delivery product carrying genetic instructions |
 
-In vivo engineering could remove patient-specific cell processing. It still requires manufacturing, quality control, and monitoring. The patient's starting T-cell number and state remain important. Whether lymphodepleting chemotherapy is needed is a property of a particular protocol, not something the words “in vivo” settle. [1,2]
+The [engineering-location comparison](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) defines these routes. In vivo engineering could remove patient-specific cell processing. It still requires [manufacturing and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), quality control, and monitoring. The patient's starting T-cell number and state remain important. Whether lymphodepleting chemotherapy is needed is a property of a particular protocol, not something the words “in vivo” settle. [1,2]
 
 **Autologous versus allogeneic answers a different question:** whose cells? Autologous cells come from the patient; allogeneic cells come from a donor. An off-the-shelf delivery vial may engineer the patient's own cells. “Off-the-shelf” does not necessarily mean donor cells.
 
@@ -53,7 +53,7 @@ The word “targeted” can hide two separate tasks:
 
 A **vector** or carrier transports genetic material. The **payload** is the material transported. **Expression** means the recipient cell uses those instructions to make a product. **Transduction** commonly describes gene delivery by a viral vector.
 
-| Feature | Targeted mRNA lipid nanoparticles | Targeted integrating lentiviral vectors |
+| Feature | Targeted mRNA lipid nanoparticles | Targeted integrating [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) |
 |---|---|---|
 | Carrier | Small particles made from lipids, with a targeting strategy | Engineered viral particles with a targeting strategy |
 | Delivered instructions | mRNA | A vector RNA genome that is reverse-transcribed into DNA |
@@ -63,13 +63,17 @@ A **vector** or carrier transports genetic material. The **payload** is the mate
 
 These are representative approaches, not rules for every nanoparticle or virus. Some viral designs do not integrate. Integration describes what happens to the genetic material; it does not guarantee indefinite cell survival or permanent tumor control. [1,2]
 
-## Why a vial dose is not a final cell dose
+## Worked example: one vial, an uncertain cell population
 
-For in vivo engineering, the administered amount of carrier is an input. The number and behavior of engineered cells are downstream outcomes.
+Imagine a fictional delivery vial with a measured functional vector dose. For in vivo engineering, the administered amount of carrier is an input. The number and behavior of engineered cells are downstream outcomes.
 
 The chain is: carrier distribution → contact with intended cells → successful entry → functional expression → cell expansion or loss → movement into tumor tissue.
 
 A construct containing both a CAR and an added receptor also needs **co-expression**: the relevant cells must make both components at useful levels. Detecting one component somewhere in the body does not establish that.
+
+## What can go wrong at this step
+
+Delivery can miss the intended cells, reach unintended cells, or produce too little useful receptor. An integrating design also needs product-specific assessment of delayed genetic effects. A transient design needs evidence about how long protein and downstream immune activity last; RNA disappearance is not an instant off switch.
 
 ## Try it: resolve an ambiguous headline
 
@@ -95,9 +99,7 @@ Next: [[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptor
 
 ## Sources and scope
 
-Checked September 15, 2026. Published examples validate particular constructs and experimental settings; they do not validate every in vivo CAR-T product or every solid-tumor indication.
+Source check: October 9, 2026. Expert and learner review pending. Published examples validate particular constructs and experimental settings; they do not validate every in vivo CAR-T product or every solid-tumor indication.
 
 1. [Hunter et al., Science, 2025: In vivo CAR T-cell generation to treat cancer and autoimmune disease](https://pubmed.ncbi.nlm.nih.gov/40536974/). Targeted mRNA nanoparticles; human-cell experiments, tumor control in humanized mice, and B-cell depletion in monkeys. This is not evidence of human solid-tumor efficacy.
 2. [A targeting lentiviral vector for generation of CAR-T cells in vivo, Scientific Reports](https://www.nature.com/articles/s41598-025-17342-1). CD19-targeted activity in a lymphoma mouse model; possible solid-tumor adaptations are not the same as tested solid-tumor efficacy.
-
-<!-- Local illustration sources: [source](./images/where-cells-are-engineered-light.png) [source](./images/where-cells-are-engineered-dark.png) -->

@@ -1,78 +1,94 @@
 ---
-title: ctDNA and residual disease over time
-type: guide-lesson
-guide: multi-omics
-step: 6
-level: intermediate
-updated: 2026-10-08
-objectives:
-  - Distinguish monitoring from blood-based mutation discovery.
-  - Interpret not detected without equating it with zero disease.
-prerequisites:
-  - "[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"
-reviewed: pending
+title: "Read blood measurements as a time series"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 14
+minutes: 10
+objectives: ["Distinguish blood-based mutation discovery from residual-disease monitoring.", "Interpret detection, units and serial changes within assay limits."]
+prerequisites: ["[[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
+sensitive: false
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# ctDNA and residual disease over time
+# Read blood measurements as a time series
 
-**Blood testing adds repeated measurements, but each measurement has a sampling limit.** Circulating tumor DNA (ctDNA) is the tumor-derived portion of cell-free DNA (cfDNA) in blood. Most cfDNA comes from non-tumor cells.
+**A blood result is an assay-specific snapshot in a time series. Detection, location and useful intervention remain different questions.**
 
-**Before you start:** [[wiki/education/reading-a-tumor/omics-and-multi-omics|Review tissue snapshots and blood time series]]. Molecular residual disease (MRD) means a molecular signal remaining after treatment. Detection is different from proving which intervention improves outcomes.
+**Before you start:** [[about/Terminology#ctdna|Circulating tumor DNA (ctDNA)]] and [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|its units]] distinguishes fractions and concentrations. [[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction|Variant allele fraction (VAF)]] names a different denominator. [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic versus predictive biomarkers]] separates forecasting from treatment selection.
 
-## Three questions, three assay designs
+## Where this step sits
 
-| Question | Design | What it does not establish |
+This is step 14 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|Cell-free DNA (cfDNA) versus ctDNA]] explains the mixed-origin material in a blood sample.
+
+**[[about/Terminology#mrd|Molecular residual disease (MRD)]]** means a molecular signal remaining after treatment. Detection can precede visible disease in some contexts, but it does not by itself identify a useful treatment or show where disease lies. The [[about/Terminology#mrd|MRD definition]] keeps those claims separate.
+
+## Begin with the assay's job
+
+| Design | Main question | What it does not promise |
 |---|---|---|
-| Are this tumor's known variants detectable? | Tumor-informed: sequence tumor and matched normal, then track selected variants in plasma | Disease location or discovery of every new resistance variant |
-| Is there a tumor signal without sequencing tissue first? | Tumor-naive MRD: use features such as DNA methylation | A complete mutation profile or identical performance across cancers |
-| Which alterations are detectable in blood? | Plasma genomic profiling: examine cancer-related genes | The same sensitivity as an MRD assay at very low tumor fractions |
+| [Tumor-informed monitoring](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay) | Are selected known tumor features detectable in blood? | Discovery of every new resistance change |
+| Tumor-naive monitoring | Is a qualifying cancer signal present without prior tumor sequencing? | A complete mutation profile |
+| Plasma genomic profiling | Which profiled alterations are detectable? | Identical low-signal sensitivity to a monitoring assay |
 
-Guardant Reveal and Guardant360 answer different questions. Reveal is a tissue-free, methylation-led MRD assay; Guardant360 is plasma genomic profiling for treatment-related alterations. A blood-only MRD test is not automatically a resistance-mutation discovery panel. [Guardant assay descriptions](https://about.guardanthealth.com/precision-oncology/for-institutional-partners/).
+Actual platforms can combine features. Read the assay specification rather than inferring its job from “liquid biopsy.” An assay that tracks a fixed list may miss a newly evolved alteration outside that list.
 
-Signatera and NeXT Personal are tumor-informed platforms. Variant count and performance depend on assay version and sample input. SCANDARE used **NeXT Personal**, not Signatera; one assay's study should not be relabeled as validation of another. [SCANDARE primary abstract](https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.552).
+## Keep units and calls together
 
-## Keep the units attached
+Some reports estimate tumor fraction in **parts per million (PPM)**. Others use a concentration quantity such as tumor molecules per milliliter. VAF uses variant-supporting observations at a location. These quantities cannot be universally converted into one another.
 
-| Unit | Meaning | Common mistake |
-|---|---|---|
-| Variant allele fraction (VAF) | Fraction of reads or molecules at a position carrying a variant | Treating it as cancer-cell fraction without purity and copy number |
-| Parts per million (PPM) | An assay-defined estimated tumor fraction per million | Assuming all platforms estimate the same quantity |
-| Mean tumor molecules per milliliter (MTM/mL) | Signatera's concentration-based quantity | Converting directly to PPM without a model and denominator |
-| Tumor fraction | Estimated tumor-derived proportion of the assayed material | Assuming it equals one mutation's VAF |
+Record assay version, collection time, input, units, detection call and quantitation qualification together. Below a reliable quantification boundary, the report may support detection more strongly than a precise trend. A smaller number is not automatically a precisely measured biological reduction.
 
-There is no universal MTM/mL-to-PPM conversion. Record assay, units, collection date, detection call, and quantitation caveat together.
+## A worked negative result
 
-## Detection limit is not clinical sensitivity
+Imagine a fictional tumor that sheds little DNA into blood. Its sample returns “not detected.” That means no qualifying signal was found under the assay's conditions. It does not mean no cancer cells exist anywhere.
 
-An analytical limit asks how often a test detects a specified signal under laboratory conditions. Clinical sensitivity asks how often it detects disease in a defined population at a defined time. Excellent analytical performance cannot compensate for a tumor shedding little DNA.
+An **analytical detection limit** asks how reliably a specified signal can be found under test conditions. **Clinical sensitivity** asks how often disease is detected in a defined population at a defined time. Excellent laboratory performance cannot retrieve tumor DNA that did not enter the tube.
 
-The published legacy Signatera specification reports a limit down to **0.01% VAF**. This is a version-specific analytical claim, not a guarantee that every negative result excludes recurrence. Do not directly compare it with another assay's tumor-fraction PPM as if the denominators matched. [Natera specification](https://www.natera.com/wp-content/uploads/2022/05/SGN_MD_CRC_BRO_20220308_NAT-8020221_DWNLD.pdf).
+Now imagine a detectable signal on a later draw. Check sample quality, timing, assay consistency and tumor origin before interpreting the change. The test does not locate a lesion. Imaging, tissue and clinical assessment answer complementary questions.
 
-## False signal and real evolution
+## False attribution and genuine evolution differ
 
-Clonal hematopoiesis means blood-cell clones carry acquired mutations. Their DNA can resemble a tumor signal. Matched-normal or white-blood-cell sequencing helps distinguish origins; methods vary by platform.
+**Clonal hematopoiesis** means a blood-cell lineage carries acquired changes. Its released DNA can be mistaken for tumor origin without suitable controls. White-blood-cell or normal-sample analysis can help under the platform's method.
 
-A confirmed **tumor-derived BRCA reversion** is different: it can be a real resistance alteration, not false-positive noise. A fixed tumor-informed panel may miss it if the new variant is outside its tracked positions.
+A confirmed new tumor alteration is a different issue. It can be genuine evolution rather than false-positive noise. Repeated monitoring of old positions may not detect it. Disagreement between assays should prompt examination of scope, input, timing and denominators.
 
-Two assays need not agree at their detection floors. Disagreement calls for inspecting input, timing, units, and methods. It does not prove the more sensitive result is false.
+## What can go wrong at this step
+
+- Reading “not detected” as proof of zero disease.
+- Treating an analytical limit as clinical sensitivity.
+- Converting concentration into PPM without a specified model.
+- Turning a prognostic association into proven benefit from intervention.
+- Calling a blood signal a disease location.
+
+Clinical utility depends on the disease setting, assay and proposed action. Current evidence and trial status belong in the clinical reference; this lesson teaches how to ask the question.
 
 ## Try it
 
-A sample is “not detected.” What follows?
+Two monitoring methods disagree near their detection limits. Does that prove the more sensitive method is false?
 
-**Answer:** “No qualifying signal was detected in this sample under this assay's conditions.” It does not follow that there are no cancer cells anywhere in the body.
+**Answer:** No. Compare input, target scope, units, thresholds and timing. Confirmation and tumor attribution matter; the disagreement alone does not settle origin.
 
 ## Explain it back
 
-A ctDNA result is a dated, assay-specific observation, not a location, a treatment order, or a personal survival percentage.
+“This result means ______ in ______, under ______. It does not by itself tell us ______.”
+
+One answer: “a qualifying signal was or was not detected; this dated sample; this assay's conditions; location or a beneficial treatment.”
 
 ## Takeaway
 
-**A ctDNA result is a dated, assay-specific observation, not a location, a treatment order, or a personal survival percentage.**
+**Read a blood result with its date, assay, denominator and limit attached.**
 
-**Next:** [[wiki/education/molecular-profiling/07-from-data-to-care-plan|From a finding to a treatment question]]. For imaging discordance, see [[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]. Clinical evidence lives in [[wiki/diagnostics/ctdna-mrd]]; results and scheduling live in [[wiki/care/ctdna-monitoring]].
+**Next:** [[wiki/education/molecular-profiling/07-from-data-to-care-plan|Build an integrated claim without skipping the clinical question]].
 
 ## Sources and scope
 
-Source check: October 8, 2026. Assay descriptions do not establish a survival benefit from MRD-directed intervention in early TNBC. [ESMO recommendations](https://doi.org/10.1016/j.annonc.2022.05.520) distinguish prognostic detection from demonstrated clinical utility.
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+
+- [ESMO 2022 ctDNA recommendations: validity versus utility](https://pubmed.ncbi.nlm.nih.gov/35809752/).
+- [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|Units, examples and assay-specific sources]].
+- [NCI biomarker testing](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).

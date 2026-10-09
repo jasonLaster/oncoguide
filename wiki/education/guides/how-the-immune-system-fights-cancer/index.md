@@ -1,102 +1,106 @@
 ---
 title: "Understand how the immune system recognizes cancer"
-type: guide
-goal: "Explain recognition, activation and access before comparing checkpoint drugs, vaccines or engineered cells."
+type: "guide"
+goal: "Follow recognition, priming, access and function, then explain what checkpoint drugs, vaccines and engineered cells try to change."
 audience: "Curious reader; no specialist training assumed"
+minutes: 62
 sensitive: false
-tags: [education, guide]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-reviewed: pending
+tags: ["education", "immunology"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
-minutes: 55
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # Understand how the immune system recognizes cancer
 
-**Explain recognition, activation and access before comparing checkpoint drugs, vaccines or engineered cells.**
+**Follow an immune response from its first clue to its possible effect on cancer, and learn why each step needs its own evidence.**
 
-This is a foundation path for readers new to immunology. Treatment names become easier to understand once we separate what a cell can recognize from whether it is able to act.
+A treatment name becomes easier to understand when you can place it on a biological route. We will build that route together: signals, priming, cell states, access, measurement and escape. Short worked examples let you practice before comparing treatment formats.
+
+The suggested reading budget is 62 minutes. It is fine to take longer with a concept that feels new.
 
 ## The big ideas
 
-1. Innate immunity uses broad sensing systems; adaptive immunity uses diverse antigen-specific receptors and can form memory.
-2. Antigen display, receptor recognition and immune-cell activation are separate steps.
-3. More immune cells in a sample do not guarantee tumor-specific killing.
-4. Therapy formats solve different problems and can share different failure points.
+1. **Recognition, activation and killing are different events.** A displayed target needs a suitable responder and a supporting context.
+2. **Cells have both identities and states.** A receptor sequence, a cell count and a functional response answer different questions.
+3. **Location matters.** Cells in blood, surrounding stroma and cancer-cell regions are different observations.
+4. **Immune regulation is normal biology.** A tumor may exploit an inhibitory pathway, but releasing it can also harm healthy tissue.
+5. **Each therapy changes selected parts of the route.** A useful mechanism still needs safety and clinical evidence.
 
 ## The map
 
 ```mermaid
-flowchart LR
-  A[Immune cells and signals] --> B[Antigen collection and display]
-  B --> C[Recognition and activation]
-  C --> D[Access to tumor and cell state]
-  D --> E[Treatment mechanisms and evidence]
+flowchart TD
+  A[1. Signals and binding] --> B[2. Antigen display and priming]
+  B --> C[3. T-cell states and function]
+  C --> D[4. Cell location in tissue]
+  D --> E[5. Measurements and their limits]
+  E --> F[6. Failure points and escape]
+  F --> G[7. Compare recognition systems]
+  click A "/education/oncology-101/1-ligands" "Open lesson 1"
+  click B "/education/oncology-101/2-dendritic-cells" "Open lesson 2"
+  click C "/education/oncology-101/3-t-cell-states" "Open lesson 3"
+  click D "/education/reading-a-tumor/immune-hot-vs-cold" "Open lesson 4"
+  click E "/education/reading-a-tumor/measuring-t-cell-engagement" "Open lesson 5"
+  click F "/education/oncology-101/4-escape-mechanisms" "Open lesson 6"
+  click G "/education/cellular-therapies/02-car-tcr-til-comparison" "Open lesson 7"
 ```
 
-*Effective killing needs the whole chain, rather than one positive marker.*
+*The map is a learning order. The biological [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle) overlaps and repeats these jobs.*
 
-## Meet the cells
+## Lessons
 
-Begin with [innate and adaptive immunity](/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity) and [the immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster). Then distinguish [cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation), [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) and [cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states). These explanations supply the vocabulary for the lessons rather than treating every immune cell as a cancer-killing cell.
-
-A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) reads a peptide–display complex; a [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) usually reads an accessible surface target.
-
-## Follow these lessons
-
-Suggested reading budgets, not measured completion times:
-
-| Step | Lesson | Question | Minutes |
-|---|---|---|---|
-| 1 | [Dendritic cells](/wiki/education/oncology-101/2-dendritic-cells) | How does a T cell encounter a tumor-derived antigen? | 8 |
-| 2 | [HLA](/wiki/education/concepts/immunology/antigen-presentation/hla) | What is displayed, and on which molecule? | 5 |
-| 3 | [TCRs and sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing) | What does receptor identity establish? | 10 |
-| 4 | [T-cell states](/wiki/education/oncology-101/3-t-cell-states) | What changes a cell’s ability to act? | 8 |
-| 5 | [Hot, excluded and cold patterns](/wiki/education/reading-a-tumor/immune-hot-vs-cold) | Where are the immune cells? | 8 |
-| 6 | [Escape mechanisms](/wiki/education/oncology-101/4-escape-mechanisms) | Which step can the tumor disrupt? | 8 |
-| 7 | [CAR, TCR and TIL comparison](/wiki/education/cellular-therapies/02-car-tcr-til-comparison) | Which recognition system does a cell therapy use? | 8 |
-
-## Where treatments intervene
-
-Checkpoint drugs block inhibitory pathways in existing immune responses. Vaccines aim to prime or expand antigen-reactive responses. Engineered TCR (T-cell receptor)-T gives cells a receptor for a peptide–HLA (human leukocyte antigen) complex. Surface-antigen CAR (chimeric antigen receptor)-T uses an engineered receptor for an accessible surface target. Antibody-based engagers can link a target to immune-cell activation; TCR-based engagers still require a peptide–HLA complex.
-
-Antibodies have binding regions called Fab and a constant region called Fc. Fc can recruit immune functions depending on format. Blocking a signal, recruiting an effector and delivering an attached payload are different uses of antibody binding. An anti-PD-1 antibody is not simply a tumor-targeted cell-killing antibody.
-
-## Try it
-
-A clone expands in blood after a vaccine. What would strengthen the claim that it can kill tumor?
-
-**Answer:** Evidence for specificity to the intended peptide–HLA complex, tumor-cell recognition, appropriate function and access. Expansion alone is a candidate signal.
-
-**Explain it back:** “Recognition selects a target; activation and access determine whether a response can happen.”
-
-## Applied to Diana
-
-Use [[wiki/questions/is-tumor-hot|the immune-context question]] and [[wiki/questions/pembrolizumab-rechallenge|the checkpoint safety decision]] for current interpretation. A favorable mechanism does not authorize a treatment combination.
-
-**Takeaway:** Ask what is recognized, how the cell is activated and whether it reaches the tumor.
-
-
-**Vocabulary:** TIL means tumor-infiltrating lymphocyte.
-
-## What remains uncertain
-
-A measured cell pattern or response does not identify every bottleneck. Mechanism evidence and treatment effects vary by cancer, product and setting. No single marker establishes useful recognition or clinical benefit.
-
-## Sources and scope
-
-Source check: October 8, 2026; expert and learner review pending. Detailed lessons carry their mechanism sources.
-
-- [NCI immune system and cancer](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy).
-- [NCI checkpoint inhibitors](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).
-
+| Step | Lesson | Question | Minutes | Learning aid |
+|---|---|---|---|---|
+| 1 | [Ask what happens after binding](/wiki/education/oncology-101/1-ligands) | What changes after a molecule finds its partner? | 8 | One address, two packages |
+| 2 | [How dendritic cells help start a response](/wiki/education/oncology-101/2-dendritic-cells) | How does display become a priming opportunity? | 8 | Two cells, one fragment |
+| 3 | [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states) | What separates presence, specificity and function? | 8 | Three samples with many T cells |
+| 4 | [Read an immune map](/wiki/education/reading-a-tumor/immune-hot-vs-cold) | What does a hot, excluded or cold pattern establish? | 9 | The edge and the center |
+| 5 | [Measure each part of a response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement) | Which assay supports which claim? | 12 | A clone on the evidence ladder |
+| 6 | [Find the step a response can lose](/wiki/education/oncology-101/4-escape-mechanisms) | Which dependency failed, and what could [checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) change? | 9 | The target remains; the holder changes |
+| 7 | [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison) | Which rules does each living treatment use? | 8 | Three recognition systems |
 
 ## Concepts you will use
 
-- [HLA (human leukocyte antigen)](/wiki/education/concepts/immunology/antigen-presentation/hla)
-- [Neoantigen](/wiki/education/concepts/immunology/antigen-presentation/neoantigen)
-- [Antigen processing](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery)
-- [B2M (beta-2 microglobulin)](/wiki/education/concepts/immunology/antigen-presentation/b2m)
-- [TCR (T-cell receptor)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)
-- [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape)
+- **Foundations:** [innate versus adaptive immunity](/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity), [the immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster), [ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor), [antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure).
+- **Recognition and response:** [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla), [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals), [repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire), [states](/wiki/education/concepts/immunology/t-cells/t-cell-states).
+- **Regulation and location:** [checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint), [cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine), [tissue patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor), [missing self](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self).
+
+- **Interventions and harm:** [immune checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor), [immune-related adverse events (irAEs)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event).
+
+The lessons introduce assay concepts where each measurement is used.
+
+## Place a checkpoint drug on the map
+
+Blocking an inhibitory interaction can support a response. It does not supply a missing target or guarantee that every T cell can act. Lesson 3 asks which cells can respond; lesson 6 asks which other requirements may still fail. The checkpoint-inhibitor concept compares [programmed cell death protein 1 (PD-1), programmed death-ligand 1 (PD-L1) and cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint). They regulate different interactions.
+
+Normal immune regulation also protects healthy organs. An irAE can start during treatment or after it ends. That timing matters when reading a safety report. Symptoms, suspected cause and severity are separate questions, and clinical assessment guides care. The adverse-event concept explains how this differs from the named inflammatory and neurologic syndromes in the engineered-cell safety lesson.
+
+## Check your understanding
+
+A fictional clone becomes more frequent after vaccination. Why is that promising, and what is still open?
+
+**One answer:** It gives a candidate response to investigate. Its antigen, natural tumor recognition, access and function still need testing. Clinical benefit is another claim.
+
+**Explain it back:** “To explain an immune treatment, I would name what it recognizes, which response step it changes and which evidence shows an effect.”
+
+## Applied to Diana
+
+Use [the immune-context question](/wiki/questions/is-tumor-hot) and [the checkpoint safety decision](/wiki/questions/pembrolizumab-rechallenge) for current interpretation. Those pages own case findings and decisions. This guide supplies the shared biological vocabulary.
+
+## What is still uncertain
+
+A response can have several bottlenecks, and different sites can differ. No single marker maps the whole route. Whether changing one step improves an outcome depends on the cancer, treatment and clinical setting.
+
+Continue with [personalized vaccine design](/wiki/education/guides/personalized-cancer-vaccine/index), [engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index) or [reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index).
+
+## Sources and scope
+
+Source check: October 9, 2026. A general foundation path; fictional exercises and suggested reading budgets. Expert and learner review remain pending. Lessons and concepts carry their detailed sources.
+
+- [National Cancer Institute (NCI): immunotherapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy).
+- [Chen and Mellman: the cancer-immunity-cycle framework](https://pubmed.ncbi.nlm.nih.gov/23890059/).
+- [NCI: checkpoint inhibitors](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).
+- [Brahmer et al., 2021: Society for Immunotherapy of Cancer guideline on checkpoint-related adverse events](https://pmc.ncbi.nlm.nih.gov/articles/PMC8237720/).

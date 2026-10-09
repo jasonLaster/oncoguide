@@ -3,7 +3,7 @@ title: "Dose a vaccine and measure its response"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
+updated: "2026-10-09"
 source_checked: "2026-10-08"
 reviewed: "pending"
 reviewed_by: ""
@@ -19,7 +19,7 @@ prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"
 
 **Immune monitoring tests whether a response occurred; clinical comparison tests whether the intervention helped patients.** This is step eight of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index).
 
-**Before you start:** [T-cell receptors (TCRs)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) identify sampled receptor sequences. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) describe functional programs. [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) provides peptide display. The [evidence guide](/wiki/education/guides/reading-cancer-evidence/index) separates endpoints and comparisons.
+**Before you start:** [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) [sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) reads sampled receptor sequences; a sequence alone does not identify its antigen. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) describe functional programs. [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) provides peptide display. The [evidence guide](/wiki/education/guides/reading-cancer-evidence/index) separates endpoints and comparisons.
 
 ## Where this step sits
 
@@ -41,9 +41,9 @@ There is no general rule that every cancer vaccine belongs in a chemotherapy off
 
 | Measurement | What it supports | What remains unresolved |
 |---|---|---|
-| [TCR sequencing](/about/Terminology#tcr-seq) | Sampled identities and abundance changes | Antigen specificity and useful function |
-| Peptide–HLA multimer binding | Cells bind the tested peptide–human leukocyte antigen complex | Functional response and natural tumor recognition |
-| Enzyme-linked immunospot (ELISpot) or intracellular cytokine assay | A response under defined stimulation | Killing, tissue access and clinical benefit |
+| [TCR sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) | Sampled identities and abundance changes | Antigen specificity and useful function |
+| [Peptide–HLA multimer binding](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) | Cells bind the tested peptide–human leukocyte antigen complex | Functional response and natural tumor recognition |
+| [Enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot) or intracellular cytokine assay | A response under defined stimulation | Killing, tissue access and clinical benefit |
 | Controlled tumor-cell killing assay | Function against those cells under those conditions | Distribution, durability and safety in patients |
 | Clinical outcome with a suitable comparison | Benefit estimate in the enrolled setting | Transferability to another product or population |
 
@@ -59,7 +59,7 @@ Blood may miss tissue-resident responses. Artificial peptide loading may bypass 
 
 ## Try it
 
-Circulating tumor DNA becomes undetectable after standard treatment plus vaccine. Does that establish the vaccine caused clearance?
+[[about/Terminology#ctdna|Circulating tumor DNA (ctDNA)]] becomes undetectable after standard treatment plus vaccine. Does that establish the vaccine caused clearance?
 
 **Answer:** No. Timing, assay limits, standard treatment and a suitable comparison matter. A blood result does not isolate one component of a combined intervention.
 

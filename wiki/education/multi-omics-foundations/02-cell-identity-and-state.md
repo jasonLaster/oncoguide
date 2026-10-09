@@ -1,52 +1,93 @@
 ---
-title: Cell identity, state, and subtype
-tags: [education, epithelial, lineage, TNBC, EMT]
+title: "Separate cell identity from cell state"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 3
+minutes: 8
+objectives: ["Distinguish cell lineage, current activity and clinical classification.", "Explain why an RNA cluster is not automatically a genetic clone."]
+prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
+sensitive: false
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
+reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Cell identity, state, and subtype
+# Separate cell identity from cell state
 
-Three questions often appear in the same paragraph: **what kind of cell is this, what is it doing, and how is the cancer classified?** They describe different things.
+**What kind of cell is it, what is it doing, and how is the cancer classified? These are three different questions.**
 
-## Identity and state
+**Before you start:** [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Tumor heterogeneity]] includes genetic and state differences. [[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq|Bulk RNA sequencing]] shows why cell mixture affects expression labels.
 
-<img src="/api/file?path=wiki%2Feducation%2Fmulti-omics-foundations%2Fimages%2Fcell-family-state-and-classification-light.png" alt="cell family activity state and classification cartoon" data-theme-pair>
+## Where this step sits
 
-<!-- Cartoon source: [generation prompt](/api/file?path=wiki%2Feducation%2Fimages%2Fprompts%2Fcell-family-state-and-classification.txt) -->
+This is step 3 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. A person's job title does not tell you what they are doing this minute. A cell's family also differs from its current activity. This distinction makes a long expression report easier to read.
 
-<!-- Theme asset: [dark variant](/api/file?path=wiki%2Feducation%2Fmulti-omics-foundations%2Fimages%2Fcell-family-state-and-classification-dark.png) -->
+## Name the identity, then the activity
 
-*We can describe a cell’s family and current activity separately. Receptor tests and RNA classifiers also answer different questions.*
+**Lineage** describes a cell family and its developmental relationships. **Differentiation** describes specialization. A **progenitor** is a less mature cell that can produce more specialized descendants. A cancer cell can resemble a progenitor program without being a normal stem cell.
 
-| Term | Meaning | What the label alone cannot establish |
+A **cell state** describes a pattern of activity, such as division, stress response or secretion. A **marker** is a feature used to help identify or characterize cells. It may be useful without being unique to one cell family.
+
+A computational **cluster** groups similar measured profiles. Clusters depend on assay resolution, chosen features and analysis settings. They can reveal important structure without proving a separate lineage or clone.
+
+| Label | Question it answers | What it does not establish |
 |---|---|---|
-| **Malignant** | Cancerous | A specific treatment sensitivity |
-| **Lineage** | A cell family and its developmental relationships | The exact ancestral cell of an individual tumor |
-| **Progenitor** | A less mature cell able to give rise to more specialized descendants | That a progenitor-like cancer cell is a normal stem cell |
-| **Differentiation** | Becoming more specialized in structure or function | How aggressive a cancer is from one RNA label |
-| **Cell state / program** | A coordinated pattern of activity, such as proliferation or hormone response | A permanent identity; states can change |
-| **Marker** | A feature used to help identify or characterize cells | A unique identity from one gene |
-| **Cluster** | A computational group of similar measured profiles | A proven cell type or clone |
+| Epithelial | Which broad cell family? | Malignancy |
+| Malignant | Is there evidence this cell is cancerous? | A specific treatment response |
+| Proliferating | Is a cell-division program prominent? | Permanent identity |
+| Luminal-progenitor-like | What reference program does the RNA resemble? | The exact cell the tumor began in |
+| RNA cluster | Which profiles were grouped together? | Shared acquired DNA ancestry |
 
-Normal breast atlases distinguish luminal hormone-responsive, luminal secretory, and basal/myoepithelial populations, with further states within them. **Luminal-progenitor-like** means resemblance to a less mature luminal program. It is an expression comparison, not a direct observation of the tumor's birth. [Human breast atlas](https://pmc.ncbi.nlm.nih.gov/articles/PMC11443819/)
+## Clinical classification has its own evidence
 
-## Why “basal” and “luminal” are confusing
+[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) names a clinical receptor classification. Its validated tissue tests are not replaced by an RNA resemblance label.
 
-**Basal** can refer to the outer epithelial layer of normal breast structures. **Basal-like** can also name a tumor expression subtype. **Luminal** can describe normal lining cells, while **luminal A/B** names tumor expression classes commonly associated with hormone-receptor-positive biology.
+[PAM50](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) supplies an intrinsic expression label. Intrinsic expression subtypes, normal-cell reference programs and receptor categories describe related biology through different measurements. **Basal** can name a normal outer epithelial population, while **basal-like** names an expression pattern in cancer. **Luminal** can describe a normal lining cell without making the tumor hormone-receptor-positive.
 
-**TNBC** is a clinical receptor category: estrogen receptor, progesterone receptor, and HER2 testing are negative under their clinical criteria. **PAM50** is a classifier based on expression of 50 genes. [NCI: clinical receptor classification](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests) A lineage-like RNA state is another description again. A basal-like tumor can resemble luminal progenitors; primary research in BRCA1 carriers illustrates this distinction. It does not establish the origin of every TNBC. [Lim et al., Nature Medicine](https://pubmed.ncbi.nlm.nih.gov/19648928/)
+The names feel contradictory only if we treat them as answering the same question. A receptor-negative cancer can resemble a luminal-progenitor RNA program. That resemblance does not demonstrate hormone dependence or rewrite a signed clinical diagnosis.
 
-The October 4 review's luminal-progenitor-like result therefore does not reclassify Diana's clinical TNBC as hormone-receptor-positive cancer.
+## A worked example: one marker, two explanations
 
-## Epithelial and mesenchymal features
+Imagine high vimentin RNA in a mixed specimen. **Vimentin** is associated with mesenchymal features and is also expressed by supporting cells. **Epithelial–mesenchymal transition (EMT)** describes changes in epithelial organization and related motility programs; mixed and intermediate states can occur.
 
-**Mesenchymal** describes connective-tissue-associated features. **Epithelial–mesenchymal transition (EMT)** describes changes in adhesion, organization, and motility programs; cells can have mixed features. **E-cadherin** participates in cell adhesion. **Keratins** are structural proteins often used as epithelial markers. **Vimentin** is associated with mesenchymal features but also occurs in normal supporting cells.
+The bulk signal could come from fibroblasts or from altered programs in cancer cells. Cell-specific measurements help distinguish these explanations. Even then, one marker does not establish invasion, metastatic behavior or drug resistance.
 
-[EMT definitions and intermediate states](https://www.nature.com/articles/s41580-020-0237-9) provide the framework for describing those changes.
+Now imagine two cancer cells fall in the same RNA cluster. They may have similar activity but different acquired mutations. Conversely, cells from the same genetic clone can use different programs. Genetic ancestry and transcriptional similarity need separate evidence.
 
-A high vimentin signal in a whole biopsy cannot tell us whether cancer cells adopted an EMT-like program or whether the sample contained many stromal cells. The October 4 review uses cell-specific comparisons to address this mixture problem; one marker still does not prove invasion, metastatic behavior, or drug resistance. [Report findings and qualifications](https://github.com/jasonLaster/oncoomics/blob/6c4e5438ca135835f0d5196df6f1fea42c243036/results/diana_multiomic_review_20261004/step16-problems-report/problems_report.md)
+## What can go wrong at this step
 
-## Say it in your own words
+- Turning “resembles” into “originated from.”
+- Turning one marker into a definitive cell identity.
+- Turning an expression subtype into a treatment indication.
+- Counting each RNA cluster as a genetically distinct clone.
 
-**“TNBC describes the clinical receptor tests. Luminal-progenitor-like describes an RNA pattern in the cancer cells. Those labels answer different questions and can coexist.”**
+Keep the evidence type in the sentence: “The RNA resembles this program” is clearer than “The tumor is this cell.”
 
-**Check yourself:** Do two nuclei in one RNA cluster necessarily belong to the same genetic clone? **No.** Similar activity is different from shared acquired DNA changes. Next: [[wiki/education/multi-omics-foundations/03-reading-rna-counts|reading RNA counts]].
+## Try it
+
+A report describes malignant cells as luminal-progenitor-like, while clinical receptor testing is triple-negative. Must one result be wrong?
+
+**Answer:** No. One describes an RNA resemblance and the other a clinical receptor category. Check both methods, but the labels can coexist.
+
+## Explain it back
+
+“Identity tells me ______; state tells me ______; clinical classification tells me ______.”
+
+One answer: “the cell family; its current measured program; the category defined by validated clinical tests.”
+
+## Takeaway
+
+**A cell family, an activity pattern and a clinical diagnosis deserve separate labels.**
+
+**Next:** [[wiki/education/multi-omics-foundations/03-reading-rna-counts|Read RNA counts without counting proteins]].
+
+## Sources and scope
+
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+
+- [Kumar et al., human breast cell families and states](https://www.nature.com/articles/s41586-023-06252-9).
+- [Lim et al., primary BRCA1-carrier progenitor study](https://pubmed.ncbi.nlm.nih.gov/19648928/).
+- [EMT research definitions](https://www.nature.com/articles/s41580-020-0237-9).

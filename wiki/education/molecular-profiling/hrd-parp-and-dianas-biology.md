@@ -1,97 +1,116 @@
 ---
-title: "Understand HRD and PARP biology"
-type: "guide"
+title: "Connect repair biology to PARP sensitivity"
+type: "guide-lesson"
+guide: "from-variant-to-drug"
+step: 2
+minutes: 16
+objectives: ["Trace a repair-gene finding through RNA, protein, and current repair function.", "Distinguish biallelic inactivation, genomic scars, and functional repair assays.", "Explain why PARP mechanism and model sensitivity do not establish a clinical indication."]
+prerequisites: ["[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]", "[[wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"]
 sensitive: false
+tags: ["education", "molecular-interpretation"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
-updated: "2026-10-08"
-review_status: "Expert and learner review pending"
-tags: ["education"]
-goal: "Separate repair deficiency, a genomic scar, drug sensitivity and clinical eligibility."
-audience: "Curious reader; no specialist training assumed"
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Understand HRD and PARP biology
+# Connect repair biology to PARP sensitivity
 
-**Separate repair deficiency, a genomic scar, drug sensitivity and clinical eligibility.**
+**Repair-gene evidence, a genomic scar, present repair function, and drug response answer different questions. A stronger hypothesis connects them without substituting one for another.**
 
-## The big ideas
+**Before you start:** [Homologous recombination and HRD](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) explains template-based DNA repair. [Synthetic lethality](/wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality) describes two impairments that become lethal together. [Germline and somatic](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic) describes variant origin rather than the degree of repair failure.
 
-1. Homologous recombination is a DNA-repair pathway, not one gene.
-2. A genomic scar records accumulated damage rather than current repair capacity.
-3. PARP inhibitors inhibit enzyme activity and can trap PARP–DNA complexes.
-4. Biological plausibility does not satisfy a drug label or trial's eligibility criteria.
+## Where this step sits
 
-## The map
+This is step 2 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). [Step 1](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding) established finding credibility and attribution. Here we connect a measured consequence before step 3 checks clinical evidence and access.
 
 ```mermaid
-flowchart TD
- A[Authentic gene alteration] --> B[Molecular consequence]
- B --> C[Possible repair deficiency]
- C --> D[Accumulated genomic scars]
- C --> E[Possible drug sensitivity]
- E --> F[Clinical evidence and eligibility]
- D --> G[Historical biomarker requiring context]
+flowchart LR
+ A["Credible repair-gene finding"] --> B["RNA and protein consequence"]
+ B --> C["Current repair function"]
+ C --> D["Model drug response"]
+ C --> E["Accumulated genomic damage"]
+ D --> F["Separate clinical-evidence check"]
 ```
 
-## Lessons
+## Follow the repair team, not just one name
 
-| Lesson | Question | Minutes |
+**Homologous recombination (HR)** uses a matching DNA template to repair certain lesions. BRCA1, PALB2, BRCA2, RAD51, and other proteins cooperate in this process. **Homologous recombination deficiency (HRD)** means the process is impaired. It is a biological state, not the name of one mutation.
+
+Many cells carry two copies of a repair gene. **Biallelic inactivation** means both alleles, the copies at a locus, are functionally disrupted in the relevant cells. Evidence may combine a damaging variant and loss of the other copy. Purity, copy number, and cell-lineage mixture affect that interpretation. A high variant allele fraction (VAF) or two events somewhere in a tissue does not automatically show both copies are disabled in the same malignant population.
+
+Pan-cancer studies have connected particular biallelic repair-gene changes with characteristic damage patterns. These associations are useful, but they do not make every repair-gene variant equivalent. [Nguyen 2020](https://pubmed.ncbi.nlm.nih.gov/33149131/).
+
+## Measure the consequence at the right layer
+
+Return to fictional repair gene R from step 1. The sequence change is now credible. RNA testing shows an abnormal junction. That supports altered processing of captured RNA. It does not yet establish the amount or function of the usable protein.
+
+A protein stain shows reduced R staining in malignant cells. That supports a cell-specific protein signal. Whether intact R protein remains is an assay-specific question: antibody binding can detect some fragments or miss particular forms. A method validated for the intended protein form is needed before declaring that the intact product is absent.
+
+Finally, researchers measure a repair response under adequate assay conditions. This can add functional evidence beyond the sequence and protein observations. Each additional layer narrows the hypothesis; none should silently replace the others.
+
+## A scar records a history
+
+A **genomic scar** summarizes patterns of accumulated chromosome damage. Different assays use different features and cutoffs. A scar compatible with past repair deficiency is not a clock that reports today's repair capacity.
+
+Repair can partly return while old scars remain. A **BRCA reversion** is a later change that restores function to a previously disrupted repair protein. Selected resistant metastatic breast cancers have demonstrated repair-restoring changes. That finding explains a mechanism; it is not a prevalence estimate for every cancer. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+
+One present-function readout is **RAD51 foci**, visible assemblies of a repair protein. Interpretation requires adequate damaged and cycling cells, suitable scoring, and controls. Few foci in a sample with too few informative cells can be an uninformative result rather than proof of HRD. [Cruz 2018](https://pubmed.ncbi.nlm.nih.gov/29635390/).
+
+## PARP inhibition creates another challenge
+
+**Poly(ADP-ribose) polymerase (PARP)** proteins help coordinate responses to DNA damage. An inhibitor can reduce enzyme activity and can trap PARP–DNA complexes. Trapping can create an obstacle for DNA-copying machinery. Cells then need ways to tolerate or resolve the resulting stress.
+
+Some HR-deficient cells are especially vulnerable to that challenge, illustrating synthetic lethality. Experiments also show that catalytic inhibition and trapping strength can differ between compounds. Laboratory trapping measurements do not rank the best medicine for a person. Exposure, normal-tissue effects, resistance, and clinical setting remain important. [Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).
+
+## A worked example: the same scar, different present function
+
+Two fictional tumor models have similar historical scar patterns. Both have technically adequate current assays.
+
+| Evidence | Model A | Model B |
 |---|---|---|
-| [Copies and alleles](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones) | What would disabling both copies mean? | 10 |
-| [Splicing and repair](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair) | How could a DNA change alter a usable message? | 10 |
-| [PARP trapping](/wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling) | What obstacle does a PARP inhibitor create? | 10 |
-| [Functional experiments](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment) | What could establish a current dependence? | 12 |
+| Current repair measurement | Supports impaired HR | Supports partial restoration |
+| PARP target engagement | Demonstrated | Demonstrated |
+| Survival after the tested exposure | Falls substantially | Changes little |
+| Careful conclusion | Repair-related sensitivity is supported in this model. | The historical scar overstates this model's current vulnerability. |
 
-## Repair is a cooperative pathway
+A matched repair restoration in model A could further test causality. Neither model result determines a treatment indication. Clinical evidence must match the disease, biomarker, treatment line, and intended outcome.
 
-Homologous recombination (HR) uses a matching DNA template to repair certain lesions. BRCA1, PALB2, BRCA2 and RAD51 cooperate in that process. Disrupting an essential component can impair HR; this does not mean that every other component was deleted. Homologous-recombination deficiency (HRD (homologous recombination deficiency)) names a biological state rather than one mutation.
+## What can go wrong at this step
 
-Most cells carry two copies of BRCA1. A variant in one copy can coexist with a functioning second copy. Evidence of biallelic inactivation needs to establish the consequence of each event in the relevant cancer cells. Purity, copy number, clone composition and mapping can affect that interpretation.
+A scar score can be treated as a universal threshold even when the pipeline differs from the validated assay. A protein stain can be overread as complete protein loss. A functional assay can be overread despite inadequate informative cells.
 
-A genomic scar summarizes accumulated chromosome damage under a specified method. Loss of heterozygosity, telomeric allelic imbalance and large-scale transitions are common components. A cutoff validated for one assay does not automatically validate another pipeline. A tumor can restore repair while retaining the old scar, for example through a BRCA reversion.
-
-## Drug mechanism is another evidence layer
-
-Poly(ADP-ribose) polymerase (PARP) proteins help coordinate responses to DNA damage and replication stress. Inhibitors can reduce PARP activity and trap PARP–DNA complexes. Those complexes can obstruct DNA copying, creating lesions that require other repair functions for survival.
-
-Synthetic lethality describes a combination of defects that is more harmful than either alone under specified conditions. HR deficiency can make PARP inhibition selectively stressful in some tumors. It is not perfect tumor selectivity: normal tissues can still be injured, and resistance mechanisms can change the response.
-
-## What the measurements establish
-
-| Evidence | Supports | Does not establish alone |
-|---|---|---|
-| Variant and copy number | A possible genetic cause | Protein consequence or current repair failure |
-| RNA processing | A transcript consequence | Protein abundance, function or drug response |
-| Genomic scar or signature | A compatible history | Current repair state or guaranteed sensitivity |
-| Functional perturbation | A response under model conditions | Clinical benefit at a safe exposure |
-| Clinical trial and label | Evidence and eligibility in a specified setting | Automatic applicability to another biomarker or disease |
-
-## Concepts you will use
-
-[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|Clinical actionability]] and [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|biomarker evidence]] explain why a biological match and a treatment-selection rule differ.
-
-## Applied to Diana
-
-[[wiki/care/molecular-profile|The molecular profile]] owns the qualified research findings and [[wiki/questions/adjuvant-treatment|the postoperative question]] owns treatment decisions. Source-specific measurements remain in [[sources/research/syntheses/10-04-diana-multiomic-review/analysis|the research review]].
-
-## What is still uncertain
-
-For any proposed use, ask whether repair is currently impaired, which validated test supports the intended decision and whether the study accepts the actual biomarker. Somatic-BRCA responses in metastatic studies do not establish adjuvant benefit in somatic-only early breast cancer. The U.S. adjuvant olaparib indication requires a qualifying germline BRCA variant; a scar alone cannot meet that gate.
+Drug-associated death can also be attributed entirely to HRD without controls. Use target engagement, appropriate exposure, matched comparators, and causal experiments where feasible. [The functional-experiment lesson](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment) explains the next checks.
 
 ## Try it
 
-A tumor has an HRD-associated scar. Does that prove it remains HR-deficient and qualifies for adjuvant olaparib?
+A culture has an HRD-associated scar and few RAD51 foci, but almost no cycling cells. It survives the tested PARP exposure. Which conclusion is most defensible?
 
-**Answer:** No. Current function and the indication's germline eligibility are separate questions.
+<details>
+<summary>Show the answer</summary>
 
-**Takeaway:** A scar supports a history, a mechanism supports a hypothesis, and clinical evidence supports a specified use.
+The scar supports a compatible damage history. The low-foci result may be uninformative because the assay lacks enough relevant cells. The culture did not show sensitivity at that tested exposure. Current repair deficiency and the reason for survival remain unresolved.
+
+</details>
+
+## Explain it back
+
+“A scar tells us ___; a valid repair assay tells us ___; a drug-response assay tells us ___.”
+
+One possible answer: “what damage accumulated; how a repair function behaves under the assay conditions; what the tested model does at a specified exposure.”
+
+## Takeaway
+
+**Connect the genetic cause, current function, and drug response, then evaluate clinical applicability as a separate step.**
+
+**Next:** [Check clinical evidence and access](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access).
 
 ## Sources and scope
 
-Updated October 8, 2026; general teaching; expert and learner review pending.
+Source check: 2026-10-09. General education; worked scenarios are fictional. Named studies and labels illustrate their specified populations and evidence boundaries. Expert and learner review pending.
 
-- [NCI BRCA genes and repair](https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet).
-- [FDA olaparib prescribing information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf).
-- [TBCRC 048 metastatic-breast-cancer study](https://pubmed.ncbi.nlm.nih.gov/33119476/).
-- [OlympiA overall-survival analysis](https://pubmed.ncbi.nlm.nih.gov/36228963/).
+- [Nguyen 2020: pan-cancer genetic causes and HRD scars](https://pubmed.ncbi.nlm.nih.gov/33149131/).
+- [Cruz 2018: RAD51 foci as a functional repair biomarker](https://pubmed.ncbi.nlm.nih.gov/29635390/).
+- [Waks 2020: repair restoration in selected resistant metastatic breast cancers](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+- [Murai 2012: catalytic inhibition and differential PARP trapping](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).

@@ -1,85 +1,99 @@
 ---
-title: "T-cell states: presence and function"
-type: guide-lesson
-goal: "Explain why a T-cell count or checkpoint marker does not establish effective tumor killing."
+title: "Why a T-cell count does not tell the whole story"
+type: "guide-lesson"
+guide: "how-the-immune-system-fights-cancer"
+step: 3
+minutes: 8
+objectives: ["Separate T-cell abundance, target specificity and function.", "Explain why one checkpoint marker cannot assign a complete cell state."]
+prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]", "[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]"]
 sensitive: false
-tags: [education, immunology]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: oncology-101
-step: 8
-objectives: ["Explain t-cell states: presence and function and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+tags: ["education", "immunology"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# T-cell states: presence and function
+# Why a T-cell count does not tell the whole story
 
-**You will be able to:** Explain why a T-cell count or checkpoint marker does not establish effective tumor killing.
+**To understand a T-cell response, ask which cells are present, what they recognize and what they can do. A count answers only the first question.**
 
-T cells change state as they develop, encounter antigen and experience sustained stimulation. Their identity, receptor specificity, location and functional state are separate questions. A tumor containing many T cells may still lack effective tumor-directed killing.
+It is reassuring to see immune cells in a picture. It is also tempting to give them a job before checking. Some may recognize cancer. Others may respond to an infection, regulate inflammation or simply share the neighborhood.
 
-**Before starting:** [Dendritic-cell priming](/wiki/education/oncology-101/2-dendritic-cells) and [TCR recognition](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing).
+**Before you start:** [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) explains the biological categories. [The T-cell repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) explains the sampled receptor collection. [Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) introduces regulation.
 
-## States to distinguish
+## Where this step sits
 
-| State | What the label describes | What it does not prove |
+This is lesson 3 of [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). After priming, we ask what kind of response has developed.
+
+**Priming → expansion and differentiation → location, recognition and function.**
+
+## A roster is not a performance review
+
+Imagine counting everyone in a workshop. The count does not tell you who has the right tool, who knows the task or who is able to work today. In biology, those differences correspond loosely to receptor specificity, cell state and function. The analogy ends before assigning fixed roles: cells can change state, and several roles overlap.
+
+A **naive** T cell has not undergone its initial antigen-driven activation. An **effector** cell has acquired response functions. **Memory** describes persistence and potential for a renewed response. These are starting categories rather than promises about one cell’s future.
+
+Two other labels need care. **Anergy** describes antigen-related hyporesponsiveness, often involving inadequate supporting signals. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. They are different mechanisms. An exhausted population can include cells with different capacities to divide and respond.
+
+## Read a marker as a clue
+
+Programmed cell death protein 1, or PD-1, can be expressed during activation as well as during persistent stimulation. A PD-1-positive cell is not automatically terminally exhausted. A high signal for one protein cannot assign a complete cell state.
+
+Some progenitor-like exhausted populations help supply responses to [checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor). More differentiated exhausted cells can have restricted responses. Primary tumor experiments and observations in melanoma support this distinction, while chronic-infection experiments describe a related but different setting. The [state concept](/wiki/education/concepts/immunology/t-cells/t-cell-states) holds the shared biology; clinical response still depends on the cancer and treatment.
+
+## A worked example: three samples with many T cells
+
+Consider three fictional samples:
+
+| Observation | Reasonable question | Unsupported shortcut |
 |---|---|---|
-| Naive | A cell that has not yet undergone its initial antigen-driven activation | That a suitable tumor-reactive receptor will be present in a sample |
-| Effector | Differentiated functions after activation, including cytotoxic activity in appropriate cells | That the recognized target is the cancer |
-| Memory | Persistence after a response and potential for renewed response | Permanent protection or uniform behavior |
-| Anergic | Antigen-related hyporesponsiveness, often involving inadequate supporting signals | The same mechanism as chronic-stimulation exhaustion |
-| Exhausted | A differentiation program associated with persistent antigen and altered function | Complete silence, or a universal inability to respond to checkpoint blockade |
-| Senescent | Restricted proliferative capacity and related cellular features | That every cytotoxic function is absent |
+| Many T cells in tumor tissue | Which cells enter cancer-cell regions and what do they recognize? | “The immune system is killing the tumor.” |
+| A receptor population becomes more common in blood | Which antigen and which change in cell abundance explain it? | “The vaccine created a tumor-specific receptor.” |
+| Many PD-1-positive cells | Which activation and differentiation features accompany the marker? | “Every cell can be revived by one drug.” |
 
-These are useful biological categories, not a deterministic timetable. Marker patterns overlap, and a single protein cannot assign a complete functional state.
+These samples all contain encouraging clues for follow-up. They support different claims. Keeping the rows separate makes a report more useful, not less hopeful.
 
-## Anergy and exhaustion differ
+Now imagine two PD-1-positive populations. In controlled tests, one recognizes a viral fragment and the other recognizes a tumor fragment. Blocking an inhibitory pathway does not replace either population's receptor. The first is not thereby assigned a cancer target. The second remains a candidate tumor-directed response: recognition in a test still needs to connect to natural display, access and useful function.
 
-Priming depends on antigen recognition and supporting signals. In some contexts, recognition without sufficient costimulation leads to anergy or tolerance. The outcome is not automatic every time a T cell contacts a tumor cell.
+The intervention changes regulation, while the marker is an observation. Keeping those jobs separate helps you explain why a plausible drug mechanism is not a prediction for every marked cell.
 
-Exhaustion occurs under persistent stimulation and involves regulatory and epigenetic changes. Exhausted populations can contain **progenitor-like** cells with self-renewal capacity and more differentiated cells with restricted responses. Progenitor-like populations can help supply the expansion seen after PD-1 blockade; the exact behavior is context-dependent.
+## Combine measurements deliberately
 
-PD-1 expression also occurs during activation. “PD-1 positive” therefore does not mean “terminally exhausted,” and checkpoint blockade does not simply revive every inactive T cell. There is no fixed week-by-week sequence that identifies a patient's functional state.
+[T-cell receptor sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) can connect sequence identities across samples. Compatible single-cell methods add gene-expression features to a receptor identity. Protein measurements and functional assays add other layers.
 
-## Measurement needs context
+[Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) holds displayed fragments. A [peptide–HLA multimer assay](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) tests binding to a defined display complex. An [enzyme-linked immunospot (ELISpot) assay](/wiki/education/concepts/measurement/immune-monitoring/elispot) measures a secreted response under defined stimulation. Neither alone proves killing of naturally presenting cancer cells.
 
-```mermaid
-flowchart LR
-  A[Count and locate cells] --> B[Characterize state and receptor]
-  B --> C[Test antigen-specific response]
-  C --> D[Test killing and clinical relevance separately]
-```
+## What can go wrong at this step
 
-*Cell presence, state markers, antigen response and killing are different readouts.*
+Labels can outrun their measurements. An expression program may be described as cytotoxic without directly testing killing. A nearby cell may be described as tumor-reactive without testing its target. A blood clone may be described as an intratumoral clone without a tissue comparator.
 
-Flow cytometry measures selected proteins; RNA profiling describes expression programs; paired TCR (T-cell receptor) sequencing connects some programs to clonotypes. Cytokine assays such as ELISpot or intracellular cytokine staining test responses under defined stimulation. They do not directly establish tumor-cell killing. Spatial proximity also does not prove recognition.
-
-## Implications for therapy
-
-A vaccine depends on generating useful antigen-specific responses. A surface-target engager bypasses the need for native TCR specificity, but still requires suitable effector function and access. It does not bypass exhaustion or all cell-state constraints.
-
-Engineering peripheral T cells with a CAR (chimeric antigen receptor) or TCR changes recognition and signaling. It does not guarantee a permanently functional population: engineered cells can also encounter suppression and become dysfunctional. Banking cells is a product-specific logistical option, not a standard universal rescue for chemotherapy-related repertoire changes.
+Engineering recognition does not eliminate state constraints. A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) can change what a cell responds to, but engineered cells still encounter local suppression, metabolic limits and chronic stimulation.
 
 ## Try it
 
-A biopsy contains PD-1-high CD8 cells next to tumor cells. Has effective tumor recognition been demonstrated?
+A biopsy contains PD-1-high T cells beside cancer cells. What additional claim can you make from that image alone?
 
-**Explain it back:** No. The cells could be activated, exhausted, tumor-reactive or bystanders. More state and specificity evidence is needed, followed by functional testing.
+**Answer:** You can describe the marker and proximity in the sampled tissue. You cannot yet establish the target, effective killing or response to checkpoint blockade.
 
 ## Explain it back
 
-Ask who the cells recognize and what they do, in addition to how many are present.
+“Cell presence tells me ___; useful tumor-directed activity also needs ___.”
+
+One possible answer: “who is in the sample; the right recognition, access and functional response.”
 
 ## Takeaway
 
-**Ask who the cells recognize and what they do, in addition to how many are present.**
+**Treat cell count, receptor identity, state and function as separate pieces of evidence.**
 
-## Sources
+**Next:** [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold).
 
-Checked October 8, 2026.
+## Sources and scope
 
-- [Siddiqui et al., exhausted T-cell subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30778252/) — primary tumor experiments and melanoma observations.
-- [Utzschneider et al., TCF1 and chronic-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — primary mechanistic work in a distinct disease context.
-- [NCI: T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
+Source check: October 9, 2026. General cell-state interpretation; fictional examples. Expert and learner review remain pending.
+
+- [Siddiqui et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30635237/) — tumor experiments and melanoma observations.
+- [Utzschneider et al., 2016: TCF1 and chronic-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct disease context.
+- [Han et al., 2014: receptor identity and cell phenotype](https://www.nature.com/articles/nbt.2938).
+- [National Cancer Institute (NCI): checkpoint-inhibitor mechanism](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).

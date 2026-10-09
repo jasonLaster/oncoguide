@@ -1,91 +1,97 @@
 ---
-title: "Immunopeptidomics: measuring peptide display"
+title: "Measure presentation, binding and response"
 type: "guide-lesson"
-goal: "Interpret a detected or undetected HLA-associated peptide without equating presentation with immunogenicity."
-sensitive: false
-tags: [education, immunology]
-updated: "2026-10-08"
-review_status: "Source-checked; expert and learner review pending"
 guide: "personalized-cancer-vaccine"
 step: 5
-objectives: ["Interpret measured presentation and non-detection."]
-prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]"]
+minutes: 12
+objectives: ["Identify which question each immune assay answers.", "Explain why a positive peptide test does not establish tumor killing."]
+prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics]]", "[[wiki/education/concepts/measurement/immune-monitoring/elispot]]", "[[wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining]]"]
+sensitive: false
+tags: ["education", "lesson"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
-minutes: 8
-source_checked: "2026-10-08"
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Immunopeptidomics: measuring peptide display
+# Measure presentation, binding and response
 
-**Before you start:** [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla), [antigen processing](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery).
+**Three useful immune measurements can agree without proving the final clinical claim.** Read each result as an answer to a specific question. This is step five of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index).
 
-**You will be able to:** Interpret a detected or undetected HLA (human leukocyte antigen)-associated peptide without equating presentation with immunogenicity.
+**Before you start:** [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) displays protein fragments. [Immunopeptidomics](/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics) identifies recovered fragments. [Peptide–HLA multimers](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) label binding cells. [Enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot) measures secretion under test conditions.
 
-**Immunopeptidomics** analyzes peptides associated with HLA molecules in a sampled preparation. It can supply measured evidence of peptide display that complements computational prediction. It is an incomplete measurement, not an exhaustive list of what every tumor cell presents.
+## Where this step sits
 
-**Before starting:** [HLA and presentation](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation).
+You have a candidate board with evidence and open questions. Before treating a score as a target, ask what an experiment could add. The aim is to reduce a named uncertainty, not simply collect more positive-looking graphs.
 
-## From tissue to a peptide list
+## The intuition: ask the experiment a smaller question
 
-```mermaid
-flowchart LR
-  A[Suitable specimen] --> B[Recover HLA-peptide complexes]
-  B --> C[Release peptides]
-  C --> D[LC-MS/MS analysis]
-  D --> E[Identify sequences with confidence criteria]
-```
+Suppose a candidate has a credible mutation and a promising binding prediction. You might reasonably feel excited. Now pause and ask: was the peptide actually recovered with HLA? Can a receptor bind it? Do cells respond? Each question deserves its own evidence.
 
-*Peptide identification is a measured presentation result with sampling and identification limits.*
+The short methods pages explain how the assays work. Here we connect their outputs. A measurement can be useful even when it leaves the next step open; that is how an evidence chain becomes more informative.
 
-The laboratory isolates HLA-associated material, releases the peptides and analyzes them with liquid chromatography and tandem mass spectrometry (**LC-MS/MS**). Fragment patterns support candidate amino-acid sequences. Identification depends on quality thresholds, databases and the handling of uncertain spectra.
+## Three assays, three questions
 
-Mutation-aware analyses can ask whether a peptide corresponds to a tumor alteration. Shared antigens can also be detected. In mixed tissue, detecting a peptide does not automatically prove which cell type presented it or that it occurs nowhere in healthy tissue.
+<img src="./images/three-assays-three-questions-light.png" alt="Three independent panels showing peptide identification, peptide-HLA multimer binding and stimulated cell secretion, with tumor killing and patient benefit left as separate questions" data-theme-pair>
 
-## Positive evidence and non-detection
+*Presentation, binding and secretion each answer one question; none alone establishes patient benefit. The ELISpot panel is schematic: in the assay, cells incubate on the capture membrane.*
 
-| Result | Supported interpretation | Further question |
+| Measurement | The question it answers | What remains open |
 |---|---|---|
-| Peptide detected with adequate identification confidence | The preparation contained that HLA-associated peptide | Which cell population supplied it, and do useful T cells recognize it? |
-| Candidate not detected | The assay did not identify it under these conditions | Was abundance, recovery, coverage or sampling sufficient to make absence informative? |
-| Many predicted candidates not detected | Prediction and measurement differ | How much is biological absence versus the assay's detection limits? |
+| Immunopeptidomics | Which HLA-associated peptides were identified in this preparation? | Cell of origin, completeness, recognition and function |
+| Peptide–HLA multimer staining | Which sampled cells bound this specified reagent? | Activation, natural tumor recognition and safe killing |
+| Peptide-stimulated ELISpot | Did sampled cells release the measured molecule after stimulation? | Which receptors responded and whether naturally presenting tumor cells are recognized |
+| Controlled tumor-cell assay | Did the cells recognize or affect the tested tumor cells under defined conditions? | Tissue safety, access, persistence and patient benefit |
 
-An undetected peptide is not automatically a failed prediction. A detected peptide is not automatically **immunogenic**, meaning capable of eliciting a useful immune response. Recognition, activation, killing, normal-tissue specificity and clinical benefit are separate steps.
+These are complementary experiments, not interchangeable substitutes. Not every study uses all of them. Read the peptide sequence, allele, cell preparation, controls and analysis method before comparing the answers.
 
-## Specimen and method constraints
+## Natural presentation changes the question
 
-Conventional recovery of HLA-bound peptides often uses suitable fresh or frozen tissue. Fixation changes the chemistry and requires method-specific assessment; a [formalin-fixed, paraffin-embedded (FFPE)](/about/Terminology#ffpe) proteomics result is not automatically a valid conventional HLA-peptidome result.
+Adding synthetic peptide to cells can provide abundant target without asking the tumor to make or process it. That helps test a response, but can bypass a weak biological step. A positive result after artificial loading needs a separate bridge to natural tumor recognition.
 
-Tissue input, tumor content, HLA recovery and analytical sensitivity affect yield. There is no universal mass requirement, two-week turnaround or product tier that determines suitability. Ask the receiving laboratory which preservation, input and quality conditions its validated method requires.
+For HLA-associated peptide identification, mixed tissue adds another issue: the peptide may come from cancer, immune or stromal cells. Detection can support presentation in the sampled preparation without proving tumor exclusivity. Recovery and identification are also incomplete, so non-detection needs sensitivity context.
 
-Detection can be biased toward more abundant peptides or better-recovered alleles. Sampling one piece also misses some spatial and [clonal heterogeneity](/about/Terminology#clonal-heterogeneity). These limitations belong beside the positive findings, not only in a methods appendix.
+The [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) is only part of a responding cell. Its state and signaling matter too. A binding reagent can label cells whose functional behavior differs, while a secretion assay may miss cells that use another response program.
 
-## How it informs a design
+## Worked example: four lines in an evidence notebook
 
-Measured presentation can strengthen a candidate's evidence, identify candidates absent from a prediction shortlist or help investigate an uncertain allele. It does not dictate a universal ranking rule: an abundant shared normal-tissue peptide may be less suitable than a lower-abundance tumor-specific candidate.
+Here is an invented experiment. No line is a personal treatment rule.
 
-The test's value depends on the unresolved question, available material and alternatives. TNBC is not uniformly high [tumor mutational burden (TMB)](/about/Terminology#tmb) or immune-hot, so those labels cannot decide its marginal value for every case.
+1. **Peptide A is identified in a mixed-tissue HLA preparation.** Record the identification confidence and ask which cells supplied it.
+2. **An A–HLA multimer labels blood cells.** Record the allele, staining controls and denominator. These cells bind the test reagent.
+3. **Post-dose cells make more spots when stimulated with A.** Check background, viability and whether the cells were expanded in culture first.
+4. **Recognition of naturally presenting tumor cells is not yet tested.** Keep this line visible. Three positive readouts do not fill it in.
+
+The next experiment should address that gap. If a controlled tumor-cell test is positive, the evidence becomes stronger for that target under those conditions. Healthy-tissue specificity and clinical benefit still require their own evidence.
+
+## What can go wrong at this step
+
+A negative assay can reflect poor sample quality, incomplete recovery or the wrong reagent. A positive assay can reflect background, artificial loading or culture selection. Check the controls before interpreting either.
+
+Matched methods also matter over time. Changing cell preparation or counting rules between baseline and follow-up can create an apparent response. Keep the specimen, method version and analysis rules tied to each result.
 
 ## Try it
 
-One of 100 predicted peptides is detected. Were the other 99 false predictions?
+A candidate was not detected by immunopeptidomics, but peptide-loaded cells trigger a strong ELISpot response. Does this prove that the tumor naturally displays it?
 
-**Explain it back:** That cannot be determined from this fraction alone. We need detection sensitivity, tissue composition, HLA recovery and appropriate validation of the prediction task.
+**Answer:** No. The response supports activity against the test stimulus. Non-detection may be biological or technical, and artificial loading bypasses natural presentation. A suitable natural-presentation experiment would address the unresolved question.
 
 ## Explain it back
 
-Use immunopeptidomics as evidence about sampled presentation, then test recognition and function separately.
+“This assay measured ___ under ___; it has not yet established ___.” One answer: “secretion after peptide stimulation; those laboratory conditions; safe recognition of naturally presenting tumor cells.”
 
 ## Takeaway
 
-**Use immunopeptidomics as evidence about sampled presentation, then test recognition and function separately.**
+**Name the measured step, then keep the untested steps visible.**
 
-**Next:** [Write the message](/wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message).
+**Next:** [Write the vaccine message](/wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message).
 
-## Sources
+## Sources and scope
 
-Checked October 8, 2026.
+Source check: October 9, 2026. Assay teaching and a fictional example; expert and learner review pending.
 
-- [Sarkizova et al., HLA-associated peptide dataset](https://www.nature.com/articles/s41587-019-0322-9).
-- [TNBC-MERIT primary paper](https://www.nature.com/articles/s41586-025-10004-2) — one clinical vaccine study; not a universal assay-selection rule.
-- [Verification and feedback loops](/wiki/education/modeling-tumor-response/verification-and-feedback-loops) — linked primary functional evidence.
+- [HLA-peptide isolation and identification protocol](https://www.nature.com/articles/s41596-019-0133-y).
+- [Primary antigen-specific T-cell labeling study](https://pubmed.ncbi.nlm.nih.gov/8810254/).
+- [Peptide-specific ELISpot protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC8410284/).
+- [Primary neoantigen prediction/recognition benchmark](https://pubmed.ncbi.nlm.nih.gov/33038342/).

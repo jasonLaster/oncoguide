@@ -1,98 +1,40 @@
 ---
-title: "Targeted therapy modalities"
-type: guide
-goal: "Separate what a therapy recognizes from how it acts and what evidence supports its use."
-audience: "Curious reader; basic cancer vocabulary helpful"
+title: "Targeted therapy mechanisms and comparisons"
+type: "navigation"
+summary: "Learn how a targeted product connects molecular recognition to biological action, delivery, safety, and evidence."
 sensitive: false
-tags: [education]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: targeted-therapy-modalities
-step: 1
-objectives: ["Explain targeted therapy modalities and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+tags: ["education", "therapeutics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Targeted therapy modalities
+# Targeted therapy mechanisms and comparisons
 
-**You will be able to:** Separate what a therapy recognizes from how it acts and what evidence supports its use.
+Start with [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index). This 44-minute guide helps you inspect the whole claim: the target that is recognized, the action attached to recognition, the product's delivery and exposure, and the safety and clinical evidence still needed.
 
-Two therapies can recognize the same protein and act differently. Two therapies can recruit T cells and recognize entirely different target types. Keeping recognition, drug format and clinical evidence separate makes comparisons much easier.
+A promising address is a useful beginning. It can support different product ideas, each with additional requirements. An antibody, chemical payload, recruited T cell, radionuclide, or engineered receptor brings a different action and a different set of questions.
 
-**Before starting:** [HLA](/wiki/education/concepts/immunology/antigen-presentation/hla) explains peptide presentation; [the immunotherapy guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index) introduces the relevant cells and checkpoints.
+## The ordered learning path
 
-## The map
+| Step | Lesson | What you will practice |
+|---|---|---|
+| 1 | [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism) | Distinguish binding, action, and recognition routes |
+| 2 | [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing) | Follow forms of the product and biological effects through time |
+| 3 | [Compare formats with evidence and normal-tissue risk](/wiki/education/targeted-therapy-modalities/06-comparisons) | Link a measured bottleneck to a safety question and scoped evidence |
 
-```mermaid
-flowchart TD
-  A[What is recognized?] --> B[Intact surface target]
-  A --> C[Peptide displayed on HLA]
-  B --> D[Antibody, ADC, surface-target engager or CAR]
-  C --> E[TCR therapy or peptide-HLA engager]
-  D --> F[Validate delivery, effect and safety]
-  E --> F
-  F --> G[Evaluate benefit in the relevant clinical setting]
-```
+## Keep the foundation concepts nearby
 
-*Target type, therapeutic format and clinical use are separate decisions.*
+[Antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) separates a binder from the rest of the product. [Antibody-drug conjugates (ADCs)](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) add chemical cargo and processing. [T-cell engagers](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager) add redirected immune activation. [Chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) explains the cytotoxic payload's neighboring treatment family.
 
-## Lessons
+[Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) and [the T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) explain peptide–HLA recognition. [CAR (chimeric antigen receptor) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) explains an engineered receptor on a living cell.
 
-| Question | Lesson |
-|---|---|
-| What does each format do? | [Mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism) |
-| What determines readiness and duration? | [Timing](/wiki/education/targeted-therapy-modalities/02-timing) |
-| What can be developed or given together? | [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing) |
-| How do I assess a proposal? | [Decision questions](/wiki/education/targeted-therapy-modalities/04-decision-questions) |
-| Which specimens support which experiments? | [Tissue and sample budget](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget) |
-| Which comparisons are easy to confuse? | [Comparisons](/wiki/education/targeted-therapy-modalities/06-comparisons) |
+## Supporting topics
 
-## The big ideas
+- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing) distinguishes parallel development from evidence for combining treatments.
+- [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions) turns a proposal into an assessable claim.
+- [Tissue and sample requirements](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget) explains which questions different specimen preparations can answer.
 
-**A target is not a dependency.** A surface protein can help a drug enter a cell without being a growth driver. Its presence also does not show that an antibody can reach it or spare normal tissue.
-
-**HLA (human leukocyte antigen) independence is specific to recognition.** A surface-target CAR (chimeric antigen receptor) or antibody engager can recognize its target without peptide display on HLA. A TCR (T-cell receptor)-based engager still requires its particular peptide–HLA target. Neither format automatically overcomes poor T-cell function, failed trafficking or suppression in the tumor.
-
-**Availability is specific to the product and setting.** An approved therapy for one cancer does not establish an approved use in early TNBC. A laboratory binder is an experimental reagent until format-specific engineering, manufacture, safety testing and a clinical pathway are established. One binder cannot be assumed to work unchanged in every format.
-
-Local ablation has a different starting point: it destroys tissue without molecular target recognition. Its proposed systemic immune effects are a separate hypothesis, covered in [local-treatment modalities](/wiki/education/local-treatment-modalities/index).
-
-## Try it
-
-A proposal says, “This therapy recruits any T cell, so HLA loss cannot affect it.” What is missing?
-
-**Explain it back:** The target-recognition arm. A surface-protein engager can be independent of HLA for recognition; a peptide–HLA engager cannot. Effective killing also depends on T-cell function, access and target expression.
-
-## Explain it back
-
-Name the target, recognition system, format, intended clinical setting and supporting evidence before comparing therapies.
-
-## Takeaway
-
-**Name the target, recognition system, format, intended clinical setting and supporting evidence before comparing therapies.**
-
-## Applied to Diana
-
-Treatment status belongs in [the care plan](/wiki/care/treatment-plan), unresolved choices in [questions](/wiki/questions/index), and provider-specific capabilities in [companies](/wiki/companies/index). A mechanism lesson does not establish eligibility or a treatment plan.
-
-
-**Vocabulary:** ADC means antibody-drug conjugate.
-
-## Sources
-
-Checked October 8, 2026.
-
-- [NCI: targeted therapy](https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies).
-- [FDA: tebentafusp mechanism review](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000ChemR.pdf) — a TCR–CD3 engager recognizing gp100 peptide on HLA-A*02:01.
-- [NCI: T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
-
-
-## Concepts you will use
-
-[[wiki/education/concepts/immunology/antigen-presentation/hla|HLA]] and [[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|clinical actionability]].
-
-## What is still uncertain
-
-Clinical benefit and combination safety require evidence for the actual product, population and setting. Mechanism alone cannot resolve those questions.
+For a claim that starts with a variant, use [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). For a claim about a test's performance, use [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index). Read a clinical result with its disease, biomarker, treatment setting, comparator, and endpoint attached.

@@ -1,84 +1,104 @@
 ---
-title: "Modeling tumor response"
-type: guide-lesson
-goal: "Match a prediction question to a model and identify the biology it leaves out."
-audience: "Curious reader; basic cancer vocabulary helpful"
-sensitive: false
-tags: [education]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: modeling-tumor-response
+title: "Choose a tumor model for the question"
+type: "guide-lesson"
+guide: "predicting-response-before-treating"
 step: 1
-objectives: ["Explain modeling tumor response and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+minutes: 12
+objectives: ["Match a biological question to a model and an observable response.", "Explain what changes when patient tissue is cultured, implanted or represented computationally."]
+prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/measurement/functional-models/organoid]]", "[[wiki/education/concepts/measurement/computational-analysis/virtual-cell-model]]"]
+sensitive: false
+tags: ["education", "functional-models"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Modeling tumor response
+# Choose a tumor model for the question
 
-**You will be able to:** Match a prediction question to a model and identify the biology it leaves out.
+**A model is useful when it contains the biology your question needs and produces a readout you can interpret.**
 
-A model is a deliberately incomplete representation of a tumor. Its usefulness depends on the question, the measurements and validation against independent outcomes. More elaborate construction does not automatically make a model more accurate.
+**Before you start:** [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) explains why one sample can miss populations. An [organoid](/wiki/education/concepts/measurement/functional-models/organoid) preserves selected tissue features in culture. A [virtual cell model](/wiki/education/concepts/measurement/computational-analysis/virtual-cell-model) computes selected properties or responses.
 
-**Before starting:** [What multi-omics measures](/wiki/education/reading-a-tumor/omics-and-multi-omics) explains DNA, RNA, protein and tissue location. [Actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) distinguishes a measurable signal from a useful treatment decision.
+## Where this step sits
 
-## Start with the question
+This is step 1 of [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index). First choose a question and model. The next lessons check the experiment, then ask how far its result can travel toward patient care.
 
-```mermaid
-flowchart TD
-  A[What do I need to predict?] --> B[Choose the relevant biology]
-  B --> C[Choose model and readout]
-  C --> D[Run controls and quantify uncertainty]
-  D --> E[Validate in an independent clinical setting]
-```
+## Begin with the sentence you want to test
 
-*Choose the model for the question; validate the prediction for its intended use.*
+A model is a deliberately incomplete representation. Think of trying out a bicycle brake on a workbench. The bench can test the brake, but not the rider's journey through traffic. Tumor models similarly answer selected questions. Adding more parts helps only if they matter to the claim.
 
-| Approach | What is measured or estimated | What can be missing |
+Write the question with a biological action and an endpoint: “Does drug A reduce the number of living malignant cells at these exposures?” That is clearer than “Which drug works?” The second question hides delivery, immune interactions, toxicity, timing and clinical outcomes inside one word.
+
+A [molecular profile](/wiki/education/reading-a-tumor/omics-and-multi-omics) can suggest an intervention. Detecting a sequence change or high [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma) is different from exposing living cells to a drug. A computed response is also a prediction, even when the input came from measured patient tissue.
+
+## Choose what must be present
+
+| Model | A question it can help test | What must still be checked |
 |---|---|---|
-| Molecular profiling and computational models | A mutation, expression pattern or predicted response | Protein activity, delivery, immune interactions and biology absent from the training data |
-| Short-term ex vivo assays | A response of sampled living cells to a perturbation | Long-term evolution, systemic exposure and the patient's complete immune environment |
-| Organoids and immune co-cultures | Responses in a three-dimensional culture; immune effects when the design includes relevant cells | Some stromal populations, circulation and stable immune composition |
-| Patient-derived xenografts (PDX) | Human tumor growth in an animal and response to treatment | Human immunity in conventional immunodeficient hosts; human stroma is progressively replaced |
-| Engineered tissue and organ-on-chip systems | Selected architecture, matrix, flow or tissue interactions | The rest of the body and any omitted cell populations |
-| Patient imaging and blood monitoring | Tracer uptake, structure, metabolism or tumor DNA over time | A counterfactual response to a drug the patient has never received |
+| [Ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) using cells or fragments | What response follows a defined exposure outside the original body? | Viability, tumor-cell attribution, retained neighbors and exposure |
+| Patient-derived organoid | What do selected cultured populations do under repeated experiments? | Malignant identity, culture selection, matrix and missing cell types |
+| [Patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) | What happens to tumor growth after dosing an animal host? | Host immunity, species-specific compartments, engraftment and passage |
+| Immune co-culture or a method retaining immune cells | Do specified immune and tumor populations interact after an intervention? | Compatibility, cell persistence, recognition controls and readout |
+| Virtual cell model | Which measured cellular response might follow an intervention? | Task, version, training context, independent tests and uncertainty |
 
-These categories overlap. An organoid is both a physical three-dimensional structure and a functional model when drugs are tested on it. PDX experiments are **in vivo**, not ex vivo. Imaging observes a person; it is not interchangeable with a laboratory perturbation.
+These categories overlap. An organoid can supply an ex vivo screen. A model can retain selected immune cells without retaining an entire immune system. The name tells you where to begin checking; it does not complete the check.
 
-## What engineered context adds
+A living animal experiment is **in vivo**. A later experiment on cells removed from that animal is outside-body testing. A computer simulation is **in silico**. These labels describe the experimental setting rather than a ranking of fidelity.
 
-A three-dimensional matrix can change cell movement and access to drugs. Endothelial cells and perfusion can help study movement from vessels into tissue. Both bioprinting and microfluidic organ-on-chip designs can incorporate three-dimensional tissue; neither label guarantees that the necessary biology is present.
+## The surroundings can change the question
 
-In bioprinting, living cells may be deposited in a hydrogel. A removable material can create a channel that is later lined with endothelial cells. Pluronic F-127 is a **poloxamer block copolymer**, not a sugar. The ink, stiffness, cell sources, flow and readout all become experimental variables. A construct is not fully patient-matched merely because its tumor cells came from one person.
+Conventional epithelial organoids commonly lack the original immune populations. Specialized cultures can retain or add selected components. Primary organoid studies demonstrate that immune experiments are possible; they do not establish that every culture has that ability.
 
-## What a virtual cell predicts
+Conventional PDX hosts commonly have impaired immunity. Human supporting tissue can also give way to mouse-derived stroma and vessels. A drug needing a human immune or stromal interaction may therefore need another design. Humanized models add selected human components whose source and compatibility still matter.
 
-A computational model learns relationships from its training data. Predicting an RNA pattern from an image, predicting drug sensitivity and simulating a gene perturbation are separate tasks. Success on one task does not validate the others.
+Engineered matrices and perfused channels can help study selected access or architecture questions. They do not add every missing organ or reproduce human metabolism. Likewise, a virtual model that predicts RNA after gene disruption has not automatically learned safe drug dosing or whole-body response.
 
-Ask whether the model was tested on held-out patients, the relevant cancer type and the proposed intervention. Check whether patient and laboratory batches leaked between training and evaluation. A predicted molecular measurement remains a prediction; it does not become a performed assay.
+## Work through a fictional choice
+
+Imagine a team testing three ideas in a breast-tumor sample. All observations here are invented.
+
+First, drug A may directly disrupt a tumor-cell repair process. A verified living tumor culture could test that response under defined exposures. Its endpoint needs to distinguish slowed growth from death.
+
+Second, antibody B may release a T-cell response through an [immune checkpoint](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint). A tumor-only culture lacks the relevant interaction. A characterized immune-containing model is a closer choice, with target-specific controls. Mouse growth alone is not a substitute for those missing cells.
+
+Third, a computational model predicts that disrupting gene C changes an RNA program. That can prioritize a measured experiment. It has not shown that a drug achieves the same perturbation, kills the tumor or benefits a patient.
+
+There may be several suitable models, each exposing a different bridge. The strongest plan names that bridge rather than declaring one platform universally best.
+
+## What can go wrong at this step
+
+- A model omits the cells required by the medicine's mechanism.
+- Culture or engraftment favors only part of the original tumor.
+- A mouse-derived compartment is mistaken for patient tissue.
+- A computed prediction is described as a performed intervention.
+- Model establishment takes too long for the intended decision window.
+
+A failed culture or graft means that model did not yield an interpretable experiment. It is not a direct statement about whether the patient's cancer would resist the drug.
 
 ## Try it
 
-A tumor-only culture shrinks after anti-PD-1 treatment. Does that establish which checkpoint inhibitor will help the patient?
+A tumor-only organoid is available. Researchers want to know whether a checkpoint-blocking antibody improves tumor killing by immune cells. What is missing?
 
-**Explain it back:** No. Checkpoint blockade depends on relevant immune interactions. We need the cell composition, controls, exposure and outcome validation. Even an immune co-culture result is preclinical evidence rather than a validated choice between drugs.
+**Answer:** The required immune interaction, including suitable immune cells and their compatibility with the tumor. Adding them creates a new experiment whose composition, controls and response need characterization. Even a positive result still needs clinical validation.
 
 ## Explain it back
 
-A model becomes useful by answering a defined question reliably, not by reproducing the largest number of biological features.
+“Our question is ______. The model contains ______, but leaves out ______. Its readout can establish ______.”
+
+One answer: “a direct drug effect on living malignant cells; selected tumor populations; the full body and immunity; a response under the tested conditions.”
 
 ## Takeaway
 
-**A model becomes useful by answering a defined question reliably, not by reproducing the largest number of biological features.**
+**Choose the model by the missing biological question, and keep its omissions beside the result.**
 
-**Next:** [Verification and feedback loops](/wiki/education/modeling-tumor-response/verification-and-feedback-loops) and [reading a functional experiment](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment). Current specimen plans belong in [tissue and data](/wiki/care/tissue-and-data); provider details belong in [companies](/wiki/companies/index).
+**Next:** [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment).
 
-## Sources
+## Sources and scope
 
-Checked October 8, 2026.
+Source check: October 9, 2026. Model-selection education, not a testing recommendation or universal accuracy ranking. Expert and learner review remain pending.
 
-- [Neal et al., organoid modeling of the tumor immune microenvironment](https://pubmed.ncbi.nlm.nih.gov/30550791/) — primary demonstration that selected organoid systems retain immune components.
-- [Dijkstra et al., tumor organoid–lymphocyte co-culture](https://pubmed.ncbi.nlm.nih.gov/30100188/) — primary functional co-culture work; its cancer populations do not establish TNBC clinical utility.
-- [PDX stromal replacement experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/) — human and mouse compartments must be distinguished.
-- [Sacrificial-channel bioprinting experiments](https://doi.org/10.1002/adma.201305506) — engineered vascularized tissues; not validation of patient-specific treatment selection.
+- [Neal et al., 2018: selected immune-containing organoid systems](https://pubmed.ncbi.nlm.nih.gov/30550791/).
+- [DeRose et al., 2011: breast-tumor graft features and species-specific stroma](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/).
+- [Lotfollahi et al., 2019: a specified computational perturbation-response model](https://www.nature.com/articles/s41592-019-0494-8).

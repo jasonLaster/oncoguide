@@ -1,105 +1,109 @@
 ---
-tags: [education, EVEE, oxidative-phosphorylation, ROS, ferroptosis, metabolism, research-only]
+title: "Oxidative metabolism and stress: energy, damage, and dependence"
+type: "guide-lesson"
+guide: "pathway-mechanisms"
+step: 5
+minutes: 12
+objectives: ["Separate respiratory RNA, oxygen consumption, and ATP-linked respiration.", "Distinguish mitochondrial energy production, general ROS, and ferroptosis.", "Use normalization and functional controls to test a metabolic dependence."]
+prerequisites: ["[[wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
+sensitive: false
+tags: ["education", "pathway-biology"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
+reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Oxidative metabolism and stress — engine, sparks, and shields
+# Oxidative metabolism and stress: energy, damage, and dependence
 
-**October 4 evidence correction:** the EVEE headline variants did not reproduce, and earlier bulk-RNA ranks are confounded by capture chemistry and cell composition. This lesson teaches general pathway biology and preserves the historical hypotheses; it does not establish a current dependency in Diana. [[wiki/education/molecular-profiling/evee-proposed-pathways|Course context and current qualifications]].
+**A busy energy system, a strong stress defense, and a vulnerable membrane are different biological states. Each needs a measurement suited to the question.**
 
-**Course index:** [[wiki/education/molecular-profiling/evee-proposed-pathways]]
+**Before you start:** [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) couples electron transport to ATP production. [NRF2–KEAP1](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) regulates stress defenses. [Ferroptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis) concerns uncontrolled lipid damage. [Bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) measures a tissue mixture of messages.
 
-**RNA pathway comparison:** [[sources/research/syntheses/08-20-all-10-hypotheses-rank-based-ssgsea-vs-tcga-brca|All 10 hypotheses versus TCGA-BRCA Basal/TNBC]]
+## Where this step sits
 
-## The plain-language model
+This final lesson in [the pathway library](/wiki/education/molecular-profiling/evee-proposed-pathways) brings the amount–flow–dependence distinction to metabolism. Then return to [the variant-to-drug guide](/wiki/education/guides/from-variant-to-drug/index) to check clinical evidence.
 
-Think of a cell as a workshop:
+## The workshop needs power and protection
 
-- **Oxidative phosphorylation (OXPHOS)** is the mitochondrial engine that uses fuel and oxygen to make ATP.
-- **Reactive oxygen species (ROS)** are sparks that can leak from the engine and also arise elsewhere.
-- **Antioxidant and detox systems** are the ventilation, fire alarms, and cleanup crew that contain those sparks.
-- **Ferroptosis** is a particular iron-dependent membrane fire caused by runaway lipid oxidation when protective systems such as glutathione and GPX4 cannot keep up.
+A workshop can use more power while improving its fire protection. These are related changes, but they answer different questions. A power bill does not tell you whether the workshop will stop functioning when one generator is removed.
 
-These systems interact, but they are not synonyms.
+**Oxidative phosphorylation**, often abbreviated OXPHOS, uses electron transport and a gradient across the inner mitochondrial membrane to make **adenosine triphosphate (ATP)**. ATP powers many cellular processes. **Glycolysis** is another route that processes glucose and can produce ATP. Cells can use both routes and can adapt their balance.
 
-```mermaid
-flowchart LR
-    Fuel["Fuel + oxygen"] --> Mito["Mitochondrial OXPHOS"]
-    Mito --> ATP["ATP energy"]
-    Mito --> ROS["ROS sparks"]
-    ROS --> Detox["ROS detox and glutathione"]
-    ROS --> Lipid["Lipid oxidation"]
-    Iron["Iron"] --> Lipid
-    Detox -->|"contains"| Lipid
-    Lipid -->|"if defenses fail"| Ferro["Ferroptosis"]
+**Reactive oxygen species (ROS)** are reactive oxygen-containing molecules. They can arise from mitochondrial reactions and from other sources. Stress-defense systems limit their effects. A general ROS signal does not show where the molecules came from, which cellular material was damaged, or which death mechanism occurred.
 
-    classDef engine fill:#dbeafe,color:#1e3a8a,stroke:#2563eb
-    classDef shield fill:#dcfce7,color:#14532d,stroke:#16a34a
-    classDef danger fill:#fee2e2,color:#7f1d1d,stroke:#dc2626
-    class Mito,ATP engine
-    class Detox shield
-    class ROS,Lipid,Ferro danger
-```
+Ferroptosis is more specific: iron-dependent lipid peroxidation overwhelms protective systems. It cannot be diagnosed from a respiratory RNA program or a general ROS signal alone.
 
-## What the August 20 comparison reported — historical
+## A message, a rate, and a requirement
 
-| Module | Basal percentile | TNBC percentile | What it measures |
-|---|---:|---:|---|
-| Hallmark oxidative phosphorylation | 87.3% | 83.7% | Mitochondrial electron transport and ATP-production program |
-| Reactome detoxification of ROS | 72.5% | 73.2% | Enzymes that handle reactive oxygen byproducts |
-| **H10 average** | **79.9%** | **78.5%** | A combined oxidative-metabolism/stress clue |
-| H5 NRF2/ferroptosis summary | 23.9% | 22.0% | A separate antioxidant/lipid-death hypothesis |
+| Evidence layer | The question it answers | What remains open |
+|---|---|---|
+| Respiratory gene-expression program | Which selected messages are prominent? | Cell origin, respiration rate, and dependence |
+| Oxygen-consumption rate | How fast does this model consume oxygen under the assay conditions? | ATP coupling, fuel source, and survival importance |
+| ATP-linked respiratory estimate | Which respiratory component changes after a controlled ATP-synthase perturbation? | Compensation and selective survival effects |
+| Controlled functional experiment | Does disrupting a defined function affect survival? | Patient exposure, toxicity, and benefit |
 
-H10 is the second-highest RNA-ranked hypothesis in the report. H5 remains low. That is not a contradiction: a tumor can use mitochondrial respiration and ROS-detox programs without having a dominant NRF2/ferroptosis signature.
+Mitochondrial **respiration** consumes oxygen through electron transport. Some oxygen consumption is not mitochondrial, and some mitochondrial respiration is not coupled to ATP production. A sequence of controlled perturbations helps separate these components. Baseline oxygen use alone cannot do that.
 
-## Three ways to read a high OXPHOS rank
+## A worked example: more cells or more respiration?
 
-1. **A real fuel dependency:** the malignant cells may rely more heavily on mitochondrial ATP production.
-2. **A stress adaptation:** surviving cells may raise both energy production and ROS defenses without becoming selectively vulnerable to either.
-3. **A composition or technical signal:** mitochondrial content, stromal/immune admixture, FFPE degradation, gene detection, or patient-versus-TCGA processing differences may shift the rank.
+Researchers study fictional cultures A and B. A consumes more oxygen per well. But A also contains more viable cells. After normalization to viable-cell number, their baseline rates are similar.
 
-RNA tells us which engine instructions are prominent. It does not show how much oxygen the engine consumes, which fuel it needs, or whether blocking it selectively harms tumor cells.
+| Assay question | Fictional observation | Careful interpretation |
+|---|---|---|
+| Total oxygen use | Higher in A | Cell number may explain the difference. |
+| Rate per viable cell | Similar in A and B | No large baseline difference in this condition. |
+| After ATP-synthase inhibition | A falls more than B | ATP-linked components may differ. |
+| After a prolonged respiratory perturbation | A maintains ATP and growth | Compensation remains possible. |
 
-## Why this is not automatically a ferroptosis result
+The last result is particularly useful. Even if a respiratory component differs, A has not demonstrated a survival dependence under the tested condition. Follow-up experiments could examine compensatory glycolysis and fuel use.
 
-High OXPHOS can increase electron leakage and ROS, but ferroptosis specifically requires iron-dependent lipid peroxidation that escapes GPX4/glutathione and related defenses. A cell with high ROS-detox capacity may be **more resistant**, not more sensitive. Conversely, a cell can become dependent on those defenses and reveal a vulnerability only when they are perturbed.
+Measure growth and death separately. A lower ATP-based viability signal can reflect less ATP per living cell rather than fewer cells. Direct cell counts and an independent health readout reduce that ambiguity.
 
-The deciding evidence is reversible function: lipid peroxidation and cell death that are rescued by a ferroptosis-specific inhibitor, not general toxicity from a metabolic compound.
+## Follow the proposed mechanism
 
-## The decisive metabolic experiment
+Suppose a perturbation increases a general ROS readout. The next question is what changed before cells died. Did respiration fall? Did ATP fall? Did membrane-lipid oxidation rise? Could an independent genetic perturbation reproduce the pattern?
 
-Use a tumor-relevant model and separate the layers:
+A matched restoration or rescue can support a proposed cause, but it must fit the question. A general antioxidant rescue can reduce several kinds of damage. A ferroptosis interpretation becomes stronger with lipid-damage measurements, iron dependence, appropriate lipid-radical rescue, and independent controls. [Dixon 2012](https://pubmed.ncbi.nlm.nih.gov/22632970/), [Yang 2014](https://pubmed.ncbi.nlm.nih.gov/24439385/).
 
-1. repeat the RNA ranking with the frozen patient/TCGA matrices and canonical GSVA/ssGSEA or another validated pathway model;
-2. measure oxygen-consumption and glycolytic rates with a mitochondrial stress test;
-3. measure mitochondrial mass, electron-transport-chain proteins, ATP, ROS, glutathione, and lipid peroxidation;
-4. perturb specific respiratory complexes, fuels, GPX4, or system xC− at on-target exposures; and
-5. require biochemical target engagement plus rescue by the matched metabolite, gene correction, or pathway-specific rescue compound.
+## What can go wrong at this step
 
-If the RNA rank does not reproduce, respiration is not elevated, or the effect cannot be rescued, the dependency story weakens.
+Mixed tissue can make a respiratory program appear to belong to malignant cells when another population contributes. Different RNA preparation and analysis methods can also distort comparisons. A pathway rank is relative to its reference and method; it is not a calibrated dependency score.
 
-## Relevance for Diana
+Culture fuel, oxygen, cell density, and measurement timing change metabolic behavior. Document them and use relevant comparators. Do not generalize a single supply condition to every tumor environment.
 
-The October 4 audit withdraws the variant-specific premise and qualifies the earlier bulk-RNA comparisons. This general pathway biology does not establish a current dependency or priority for Diana. Any renewed hypothesis needs tumor-cell evidence, appropriate comparators, and functional testing tied to a concrete clinical question. [[sources/research/syntheses/10-04-diana-multiomic-review/analysis|Current findings and qualifications]].
+Finally, extracellular acidification is often treated as pure glycolysis. Respiratory carbon dioxide can contribute to that acidification. Quantitative interpretation needs to account for both sources. [Mookerjee 2015](https://pubmed.ncbi.nlm.nih.gov/25449966/).
 
-## Teach it back
+## Try it
 
-1. Why are OXPHOS, ROS detoxification, NRF2, and ferroptosis related but different?
-2. How can high ROS-detox activity produce either resistance or dependency?
-3. What does oxygen-consumption testing add beyond RNA?
-4. Why is ferroptosis rescue more informative than cell death alone?
+A high respiratory RNA score is followed by a decline in an ATP-based assay after a compound. No direct cell count or respiration assay was done. What can be concluded?
 
-**One-sentence answer:** The RNA report suggests a relatively busy mitochondrial engine and ROS cleanup crew, but only direct respiration, redox, perturbation, and rescue experiments can show whether that state is a selective vulnerability.
+<details>
+<summary>Show the answer</summary>
 
-## Related reading
+The sample has a relative RNA-program observation, and the ATP-related signal fell in the tested model. Neither establishes high respiratory flux or selective cell death. Direct respiration, viable-cell normalization, independent health measurements, and target controls would clarify the chain.
 
-- [[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]] — the higher-ranked recycling/flux hypothesis.
-- [[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]] — the separate NRF2/ferroptosis hypothesis.
-- [[wiki/education/molecular-profiling/03-protein-expression-and-activation]] — why RNA rank and pathway activation are different evidence layers.
-- [[wiki/education/molecular-profiling/05-functional-drug-response]] — how perturbation and rescue test dependence.
-- [[sources/research/syntheses/08-20-all-10-hypotheses-rank-based-ssgsea-vs-tcga-brca]] — source report and method boundary.
+</details>
 
-## Continue
+## Explain it back
 
-Previous: [[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet|CUL3, NRF2, ferroptosis, and BET]]
+“RNA measures ___; oxygen consumption measures ___; a dependence claim needs ___.”
 
-Return to: [[wiki/education/molecular-profiling/evee-proposed-pathways|EVEE pathway course index]]
+One possible answer: “captured messages; a rate under specified conditions; a controlled functional effect attributed to the proposed process.”
+
+## Takeaway
+
+**Measure energy production, stress damage, and survival dependence separately before combining them into a drug hypothesis.**
+
+**Next:** [Check clinical evidence and access](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access), or return to [the supporting library](/wiki/education/molecular-profiling/evee-proposed-pathways).
+
+## Sources and scope
+
+Source check: 2026-10-09. General education; all worked scenarios and numerical examples are fictional. Mechanistic experiments describe their tested systems, not a treatment-selection rule. Expert and learner review pending.
+
+- [Racker and Stoeckenius 1974: proton-driven ATP formation](https://pubmed.ncbi.nlm.nih.gov/4272126/).
+- [Mookerjee 2015: respiratory and glycolytic acid production](https://pubmed.ncbi.nlm.nih.gov/25449966/).
+- [Mookerjee 2015: measuring extracellular acid production](https://pubmed.ncbi.nlm.nih.gov/26709455/).
+- [Dixon 2012: iron-dependent ferroptosis](https://pubmed.ncbi.nlm.nih.gov/22632970/).
+- [Yang 2014: lipid protection by GPX4](https://pubmed.ncbi.nlm.nih.gov/24439385/).

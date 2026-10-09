@@ -3,8 +3,8 @@ title: "Read the safety plan for engineered cells"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,11 +43,17 @@ Preclinical safety tests can reveal particular hazards. They cannot fully reprod
 
 ## Two named toxicities
 
-**Cytokine release syndrome (CRS)** is a systemic inflammatory syndrome associated with immune activation. Fever and, in more severe cases, low blood pressure or low oxygen can occur. The engineered cells and other responding immune cells can contribute to the cascade. CRS is different from direct destruction of a healthy tissue bearing the antigen.
+**[Cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome)** is systemic inflammatory activation. Read its concept page for the mechanism and reporting questions. It differs from [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity), where the intended target is recognized in healthy tissue.
 
-**Immune effector cell-associated neurotoxicity syndrome (ICANS)** describes a neurologic syndrome associated with immune-effector-cell treatment. It can occur with or separately from CRS. Speech, attention, consciousness and other neurologic findings matter; a cytokine value alone does not grade it.
+**[Immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans)** concerns neurologic function. It can occur with or separately from CRS, so read the clinical neurologic assessment as its own safety result.
 
 Consensus grading systems standardize reporting. The named version, treatment setting and management protocol should accompany clinical claims. This lesson does not provide an individual treatment algorithm.
+
+## Delayed risks need their own follow-up
+
+An integrating [lentiviral vector](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) can leave genetic changes in cells. Follow-up therefore considers product-specific persistence and delayed effects. A reassuring acute safety window cannot answer a late-effect question.
+
+In April 2024, the Food and Drug Administration (FDA) required T-cell-malignancy warnings for approved B-cell maturation antigen (BCMA)- or CD19-directed genetically modified autologous CAR T-cell products. That is a specific safety signal from those products and populations, not an incidence estimate for experimental solid-tumor products or proof of one mechanism in every event. The actual product's protocol must address its relevant acute and delayed risks.
 
 ## Worked example: “drug off” is an incomplete safety claim
 
@@ -77,8 +83,11 @@ A product secretes no added cytokine. Does that eliminate CRS or ICANS risk?
 
 ## Sources and scope
 
-Source check: October 8, 2026; expert and learner review pending. These are evidence-reading questions, not clinical management instructions.
+Source check: October 9, 2026; expert and learner review pending. These are evidence-reading questions, not clinical management instructions.
 
 - [ASTCT 2019 consensus definitions and grading](https://pubmed.ncbi.nlm.nih.gov/30592986/) — identify the version used by a study rather than assuming all reports use it.
 - [NCI CAR T-cell toxicity overview](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 - [FDA product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
+
+- [FDA April 2024 T-cell-malignancy safety communication](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-requires-boxed-warning-t-cell-malignancies-following-treatment-bcma-directed-or-cd19-directed).
+- [FDA gene-therapy long-term follow-up guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/long-term-follow-after-administration-human-gene-therapy-products).

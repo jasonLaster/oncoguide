@@ -3,12 +3,12 @@ title: "Read a neoantigen design board"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-minutes: 12
+minutes: 15
 guide: "personalized-cancer-vaccine"
 step: 4
 objectives: ["Distinguish candidate count from independent coverage.", "Read the evidence and uncertainty behind each rank."]
@@ -49,18 +49,32 @@ One event can produce several windows or peptide–HLA pairs. Ten windows from o
 
 Non-detection requires assay coverage and sensitivity context. Artificial peptide loading can bypass natural processing. The board should name exactly what was tested, with method and version.
 
-## Worked example: choose what to investigate next
+## Worked example: a ten-row candidate board
 
-These candidates are invented. The table is a reasoning exercise, not a clinical ranking algorithm.
+These rows are invented. Use them to practise asking questions, not to compute a clinical ranking. “Supported” and “uncertain” summarize evidence categories; they are not validated scoring weights.
 
-| Candidate | Strength | Open issue | Follow-up question |
-|---|---|---|---|
-| A | Credible alteration and mutant RNA | Display only predicted | Is a naturally presented peptide detectable? |
-| B | Measured peptide in mixed tissue | Cell of origin and recognition unresolved | Which cells display it, and which receptors respond? |
-| C | Peptide-reactive T cells in vitro | Tumor-recognition test missing | Does the actual tumor present enough target? |
-| D | Distinct allele and source event | Healthy-sequence similarity | What specificity and cross-reactivity tests address the concern? |
+| Row | Source event | Display route | Strongest support | Open question |
+|---|---|---|---|---|
+| A | Event 1 | HLA allele X | Credible alteration and mutant RNA | Display only predicted |
+| B | Event 1 | HLA allele X | Alternate peptide window predicted | Does it add independent coverage beyond A? |
+| C | Event 2 | HLA allele X | HLA-associated peptide identified | Cancer-cell origin and recognition |
+| D | Event 3 | HLA allele Y | Peptide-stimulated response | Natural tumor recognition |
+| E | Event 4 | HLA allele Y | Broad tumor-cell fraction supported | RNA support is weak |
+| F | Event 5 | HLA allele Z | RNA and display prediction agree | Alteration may cover a small subclone |
+| G | Event 6 | Class-II route | Peptide-responsive helper population | Which cells present it and in what context? |
+| H | Event 7 | HLA allele Y | Credible tumor-specific sequence | Similar healthy sequence needs specificity testing |
+| I | Event 8 | HLA allele Z | Strong computational rank | Predictor validation for this allele is limited |
+| J | Event 9 | HLA allele X | Controlled tumor-cell recognition | Healthy-tissue specificity and durability |
 
-A stronger-looking column does not settle every other column. Candidate C is not automatically better than B if the recognition assay used high artificial peptide concentrations. Candidate D adds diversity only if its failure dependencies differ meaningfully from the rest.
+Start by grouping shared dependencies. A and B come from one event and use one allele. C and J use that allele too. If allele X is lost, adding B does not rescue that branch. Y and Z diversify allele dependence, but class-I routes can still share B2M and processing requirements.
+
+Next ask which uncertainty the next assay should reduce. D suggests a natural tumor-recognition experiment. C needs cell-of-origin and recognition evidence. H needs specificity work. E and F raise expression and tumor-coverage questions before any automatic rank can be trusted.
+
+Now imagine only one experiment can run this week. Choose a candidate, state the uncertainty, and explain what a positive **and** negative result would mean. Several choices can be reasonable because resource allocation depends on the actual goal. There is no universal A-to-J order hidden in this table.
+
+One defensible answer is to test D against naturally presenting tumor cells, with relevant controls. A positive result would connect peptide responsiveness to those tested tumor cells. A negative result would prompt examination of processing, display, cell state and assay adequacy. Neither result alone estimates patient benefit.
+
+A broad tumor-cell fraction is also an estimate, not a direct photograph of every cell. [Variant allele fraction and cancer-cell fraction](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction) depend on tumor purity, copy number and the altered copy count. Do not label a target truncal merely because it has a high raw read fraction.
 
 ## What can go wrong at this step
 
@@ -86,7 +100,7 @@ A board adds ten peptide windows, all from one alteration and all restricted to 
 
 ## Sources and scope
 
-Source check: October 8, 2026; expert and learner review pending. The candidate example is fictional. Company-specific ranking remains in its owner bundle.
+Source check: October 9, 2026; expert and learner review pending. The ten-row candidate example is fictional. Company-specific ranking remains in its owner bundle.
 
 - [Primary HLA presentation dataset](https://www.nature.com/articles/s41587-019-0322-9).
 - [Wells et al., primary neoantigen-prediction benchmark](https://pubmed.ncbi.nlm.nih.gov/33038342/) — measured binding/recognition support has task-specific scope.

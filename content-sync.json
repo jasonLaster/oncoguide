@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "sourceRepository": "jasonLaster/diana-tnbc",
+  "sourceCommit": "0271924b9b2b860b3801cc1ac64774e54779589d",
+  "sourcePrefix": "obsidian/",
+  "rendererCommit": "a0a74ba66afd466d4fd2fe8b30e4c9ede13ef9f0",
+  "files": {
+    "wiki/education/cellular-therapies/01-cell-therapy-primer.md": "a3eeab10e5e9b283f6b1b4d4a56449e95ab67f09db142469f859c68b6cc9c317",
+    "wiki/education/cellular-therapies/02-car-tcr-til-comparison.md": "1ca356ff057d105b70af75ceab6d7fa8c5415266e3f2305d8f59c27e8bdd6a75",
+    "wiki/education/cellular-therapies/03-gamma-delta-foundations.md": "172f34cc300886581254d9792c254291f04e9cd696928f48da9ca97ebeb322cb",
+    "wiki/education/cellular-therapies/04-gamma-delta-decision-framework.md": "514b6e343edd90729f25e74bb4652e80d8a9149ebf2f0a8e9299ace079a38499",
+    "wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks.md": "8671288ec36e3871c597148865cb59e749acae2491adab9e613ff0bd27e95969",
+    "wiki/education/cellular-therapies/06-in-vivo-delivery.md": "0c79c600c93d6831591d631cab5df0fad28ef28d91712f9515b425dce2624164",
+    "wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors.md": "ec884569d27d462cb9b4ffc6df67b7a9526dc98aea795930c64f496e388fde6a",
+    "wiki/education/cellular-therapies/08-solid-tumor-barriers.md": "d9e9eb9bd9156ad1b77d6ee196276039350f06ff686cee85d64d0013828d36e6",
+    "wiki/education/cellular-therapies/09-reading-cell-therapy-evidence.md": "136a683ad0178bd70e94b4363dd637f7a4431ebe1ee6384fbff1099c71c3b8b5",
+    "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-dark.png": "6ba66292f659473ffb017ce3aef2978eada52e0c21954a1212cc469a5b91a255",
+    "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-light.png": "edc27038f4b3db4559ccf0c4e1a25527a3dbbd16dce615381c951fcccdb70ce1",
+    "wiki/education/cellular-therapies/images/gamma-delta-go-no-go-gates-dark.png": "143e9cb15c6892ac2c3c551f2cc53ce581f1c0d82663072ff6f4be820fee010b",
+    "wiki/education/cellular-therapies/images/gamma-delta-go-no-go-gates-light.png": "5ad5a8b2b07905714142ff516fb4cd58f15e32fd6dc14e8a74a86d642c8110ff",
+    "wiki/education/cellular-therapies/images/gamma-delta-two-sensor-recognition-dark.png": "163e9277ef8e3b0b2a4cb291d10a3576909b5e7c30039fb39c968aa1aea3137a",
+    "wiki/education/cellular-therapies/images/gamma-delta-two-sensor-recognition-light.png": "d6923f26e4711e42ea50484002df0c20392a4493253909e08b423eccb915dd5b",
+    "wiki/education/cellular-therapies/images/instructions-to-car-dark.png": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
+    "wiki/education/cellular-therapies/images/instructions-to-car-light.png": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
+    "wiki/education/cellular-therapies/images/prompts/cytokine-message-and-receptor.txt": "519f14de96ab841d54d48ce1c545dd7fc9eda59628b889e937b2fc034a72dade",
+    "wiki/education/cellular-therapies/images/prompts/instructions-to-car.txt": "8f4c3e7659033d128b56c29295d88a089f5041f143c721e41a802f18e01ee179",
+    "wiki/education/cellular-therapies/images/prompts/solid-tumor-journey.txt": "92f2ba31de059fdde80dd98e76b703e0b0be49759bcab8bdfee5e8c5f98e36b0",
+    "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered.txt": "445cefab6669dd286ac77daf729c1d6cd69d27bcd1090d5bb907869cc723262e",
+    "wiki/education/cellular-therapies/images/solid-tumor-journey-dark.png": "e32b9a19a99fad4724cd8a07f3416c0d60ad473df6f2121277e4b63a15190d3b",
+    "wiki/education/cellular-therapies/images/solid-tumor-journey-light.png": "cb6a2174b19399f437ee1e0c0b0691b2f447b4b1d7fb413ae84b56f52e43f58f",
+    "wiki/education/cellular-therapies/images/where-cells-are-engineered-dark.png": "5850160673feca0c8e26fd64f3469485b4ceb0f29a6268c75df0572e437ce53a",
+    "wiki/education/cellular-therapies/images/where-cells-are-engineered-light.png": "7670b3c219fc76a83db9736a4a192c67321241de1cc35bce754fef29a590c94b",
+    "wiki/education/cellular-therapies/index.md": "956d877ad24b05c007686e7f18ac6a4bf976a0ff78a0dc5672e24c685cf94a0f",
+    "wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.zip": "8b15dfeb4c975bf7d577ce8532164275008c581e056caf949e378721d476ed47",
+    "wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use.md": "fd2b819a748e0a6337020b68fd031d128588fbef8d43e43213002275607fbb42",
+    "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md": "9c910751d72258143eb35e1823022f7565d484eb9ae55f07d1d956b6890b5fa0",
+    "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md": "6a70b4aa78968c3e10dd7038281bc3ab51cdf2480b9439c7e0cb1a838fbb1279",
+    "wiki/education/concepts/biology-basics/genetics/central-dogma.md": "117c3da44f8b3ac4696f71426dbd205ab207918b376b5444de01d5f845a30ebd",
+    "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md": "4acfa350d8e283fbf6343380a1179c606d28518fff065eacb45b229e710886f6",
+    "wiki/education/concepts/biology-basics/genetics/mutation-types.md": "8a812c1e06105a6b19d3d73525a28796ca515b10bfcb874bd7171491a06f6868",
+    "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md": "ea8809dcb927a78772ca70c9fb32f1c925536a5f6cf1d947d9bb5a0f9c73ee89",
+    "wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade.md": "e5acea069770dba550183ee2bb25a8fcff58febe27d2185f7382f2736612a71c",
+    "wiki/education/concepts/breast-cancer/grade-and-stage/ki-67.md": "b0cb1b09445951aabfb5543410234689a654d5e48a039591139ddfc2a9fe5a18",
+    "wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging.md": "22bfe44326f33a062fa128e9dd7ffede0047a92c1c9a6736a1b5fa03795ea87f",
+    "wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor.md": "1d19bcfcc88716fd836308527bf83c15914cbe80762ab1e137dba6e2ce964ebd",
+    "wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2.md": "7bc1624adb4b96ffe11f69c037093175641ce0ffa4d5afc144a8113bf4c20601",
+    "wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype.md": "b0a73e799910642cfcffe43b5110b11dfcff6e50069ad4b7a79ca87531219177",
+    "wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor.md": "61462ba95f23aeaec0241a322f25addfb19398f0232f9cbac4ab0e704ec260c2",
+    "wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc.md": "9d402a0cd3e86a2373eb034ed6329a53e3f04cc8b3c57490d29c12054923b7e7",
+    "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md": "1c6f218e37670c2c8fd6eb5283ec68d5505475e0eb639c2a53fe89f6627138e1",
+    "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md": "61859ccb7010777d358129cea70688847b50dd2c7ec466e694bbd5035c0a79a8",
+    "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md": "58f1ca3419cc50018ade619b8d753e18efc3459d6d6d4f3695f2e9fc40ce1666",
+    "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md": "97dbd94e0e03e5fcd94119c5c6f3ca81493b0828f2003da95946f48fecca11e2",
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md": "132dda0ca513b916bb2e5611ce72976662efd05b30d6342d59226c3310bdbb45",
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md": "e2c62e0313bda8530ae67ee4ccedd2c12493180571b6ebef44df3b51b8f2bab6",
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md": "7191afbd2eb566f94e1e3844febd8e46a3df9c9aab46e2052db20ff83f527a0e",
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md": "4c1be2bcdb747c7ad2d80600a9856424876a52601e0d2283f1aca0177c23fb6a",
+    "wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp.md": "2867f1622710ad9cb5326dd444c693955c8ac4be141256d070bc79146cbdebf8",
+    "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md": "f85f1234640bd8b1c487647b6ab95f2cf17f0804ab39c3df2645abfe8b8630c4",
+    "wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling.md": "8ee7fa4fc21b90caed9eef13ca15a6c5ba9ccfb58a5ea6f3b7eb6ea196b2e3fa",
+    "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md": "d5baaad81d924eb91367614ef0c84dc9b2e7ca0ad8d870aef54c9b92754c4de3",
+    "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md": "9c69cf0d73b2e7b132609fc1d62fa318ebbfce59f9e973718289539d7a9392b2",
+    "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md": "b42e2f0a2d54b30725c49bf8c7a8ca438d559f4089429cc64e183eded2f828b5",
+    "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md": "94b13ffe3aaafd393be1ce83ac4d73cff86ae3abb6db771c3431bbbccd87f00e",
+    "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md": "7390821bd76b9ca2640927fee5a92173497a40873426bd30d6d4788d4e16441f",
+    "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md": "0cad6fdfcb37191384888b3cbe168309ea5e80705f04736e6edd25892192d263",
+    "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release.md": "8cbf7b6da7a65c93e6397e1562e91ae0f06427e4a98051cd66557ff4435905ee",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md": "c0f8c5ab06250f6ff515f7dbb34aceea2cd63026122931e87ed89a74df2fdcaf",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md": "0d0ec8d3aacf62c8917409d483ecb7cd514b315c7c4aa6af55733d003caf2b60",
+    "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md": "169f10d8328e3b5632f2ac6a1c2966a42e413b536df27ff1d1bf3682e15f5757",
+    "wiki/education/concepts/evidence-and-statistics/biomarkers/actionability.md": "5963bd7deb40e8fb31835f09f8debc548fc1c2f2f741a6c7af04d6b5fb467ca5",
+    "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md": "b0f11f49cd9e7601bc161e18b1dad8fee7b4995250704224b9ba2c9b1586c6f7",
+    "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md": "f20e578468391ffaf438dd212964345f70f08c1dc31f91ffdc1f06e96cb8f84c",
+    "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md": "a6bd86ec04e070bb5ee61f1936dd34e7245a41a12b0495b0f8fc92bfab0581f1",
+    "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md": "4b83729a24ffdab2aa0ddc35e505b03e2c61a4bb1525f50a0e0851cb7a3c0e60",
+    "wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md": "ed41a03ac0513d4ec3fe43869c8b814738ef48d671bc4694beb59962c9acf01c",
+    "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md": "85e5ebbced734b02086700fe29800a457439b4c9d85434eff6b3eea81e017e79",
+    "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md": "a635d1d7f7f6d071e30bfd07a15eca44ee8d89e74486e6dd72843eee4334a38d",
+    "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md": "8e3acf7a9631d50600b5eda447a02bc72b674afda9b9b9d8ce2be0eaa49c9cf9",
+    "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md": "ef5444fd8cb7fa0e15a1b7431a7443ae0d5e19068896ebd2934b1420c3847f8d",
+    "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md": "12dbb599a309ea1ab3343517bbe696965e27cd47caf4f9436092d11cedf9f73c",
+    "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md": "66dab9fda757e771289d0c4a47c05ab3c47c17b3937d7fca17b90b88c57a5496",
+    "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md": "507d10d24b294cdfb2741c4977511ecc5d771e55bdaab6f1a2259d7592088b34",
+    "wiki/education/concepts/immunology/antigen-presentation/b2m.md": "663de0c41335a57582555c3d64baaee965b5a04cf68b50e8b5bc39fcc0f0852c",
+    "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md": "08ad6730946ed706328913ad3084706fc69e1b269985be92497b6f1c1b420577",
+    "wiki/education/concepts/immunology/antigen-presentation/hla.md": "a8192332b46d57be15e099c031c34bbad027b6d9df832d5a34f517e5d6eec0c4",
+    "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md": "64ce14e52562fffb6fe1fdc5402deea0c3f84b954a4e98c5bc653e6cc412cfa4",
+    "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md": "969e0af1f843011a99d4d7229097ca330e2336d502d93389e550cda8996c17b4",
+    "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md": "86fd51f7bb788fad2d84b00c504064f7edaaa8703cdb542f23636c6079bd1fc4",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md": "5150d3dcba3de4607cd982575a8353e8da28176a65dd3c28e593b963c06d1bf5",
+    "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md": "8e9f2eec81b6afe2ffc5a0d6259eec538444b7ba6e36c97b04b08bbe4fb63c1f",
+    "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md": "5e0cb754288aaba4616987aa0dbc531199aadc0f2a857179b3e1a1aedfa9bac3",
+    "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md": "e5bab1763b6381c3677090216171b5b68dda3f36902922787a3741b52e1afe92",
+    "wiki/education/concepts/immunology/t-cells/t-cell-states.md": "2fcf030ade9d12ba01f12cd09de3ccf02fd367d5c91b08cd894a15b8ea25fd3c",
+    "wiki/education/concepts/immunology/the-immune-system/immune-cell-roster.md": "5127d19e5f05bd942e7816f6e9eb24ba94d70e56053b66c1d60b1d0451ca5c92",
+    "wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity.md": "8989f565be4e36c9dc78e4c4d524c118955fe702097dceb1191bf625666819b5",
+    "wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle.md": "6ad397898cf1e43f78fed917dd3721cb2168e49d8d7ef750cb5d1de968d2f426",
+    "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md": "3ec8a62d2bafdd3d191f87cfe221241fc2cc24a7e49d941390430d88d928413f",
+    "wiki/education/concepts/immunology/tumor-immunology/immune-escape.md": "96c14b48d238619ce3a7543836785bb99774bc754327a4b033e3c1a5c59cff0b",
+    "wiki/education/concepts/index.md": "64e212090ecd46dd9b272f75a12f0aea0b8779cbde4634d4016e2a5be8fcb44b",
+    "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md": "5b67713eb10974e4a10b6b42e14eadd41ff4273d0ab463fd7e97c788ed6cbafa",
+    "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md": "e763fe93bcbea383abb7b6e5df7850531351e1d33cede80a50ec08faf9e53323",
+    "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md": "561f1c4a51b55c21345a2954911f224f0830151338161e5bd6a4050442d55f27",
+    "wiki/education/concepts/measurement/functional-models/organoid.md": "0153df06f03a30f987717852da5d726684c3526f2cd26680b87c820eea1ee574",
+    "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md": "418c42d8f6c40e6afd7aab6c03647da61fd53388da8978afcfbc7893773f1c10",
+    "wiki/education/concepts/measurement/immune-monitoring/elispot.md": "3fa696077b1634dde239200ac8a74f1b0f569d0acc7fddbc6d8755f927fbb658",
+    "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md": "e7c0ec9f997ff552fd3de4fb73f3215726e5a4411e9ffbeeb3b7a0300e95544f",
+    "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md": "7ff92835515192a8c99de6aaaa7b9f1ed58bb255b22d31ea0d37df6a8a301633",
+    "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md": "5108f0425b5d4d3771c79925b937cc0cc0b7ffea290c6b2fe41f3bdffc0324d3",
+    "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md": "ff63b68ace4e1be107c5dd5bc519ab00f227d4bc55aa9959e71252ab1804efdb",
+    "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md": "0e23f06042736727e266951dfdf0d5935993474f6f22f363f9db654b03ead111",
+    "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md": "e193749ac2807dab9f9a04bf5c795eb62150c5b87c332995d4ce4624f237cefd",
+    "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md": "28ed374fd298a75023ff40a1d7ee62761f657dfdc188ec0c005ecffee0e5e8db",
+    "wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics.md": "15996a615b37098e37753b8135c4ca4437bd4f307ddde13812a440215f54bd2e",
+    "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md": "516b8a0eac7a81bc765bdb9fc9eee8b19908bf32b70c272806733ab5de018ea5",
+    "wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction.md": "b9933c840d1fb8f9ca3c666d6d2be8c953d7c79a8dc8b3fb2d1e008e02bbe4fc",
+    "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md": "a498a652bf4067fc97e67ea6aed017148c3837a786c65ea95a13119f4aa3bf51",
+    "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md": "a8da4b4296490e37491773da19560142a78a1b8badd03c2679c89df16d97a239",
+    "wiki/education/concepts/therapeutics/antibody-based/t-cell-engager.md": "e11ab6c940a74c5c10fa50d9f0226cfd9b07a46478cdc48e3e8dbf7b2ec1a0fc",
+    "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md": "a226879b38aea6c4cfc4f170a478da27d5f9398fa392e787c41dc9b50fb5982c",
+    "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md": "1659056f9590c89a6913acf0022d6c70c6873314a085d1a155110a3626266d55",
+    "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md": "3aa138c89ca77679c0c46a2a0607468a8b4c60a5ce8e3a3602c3ce6b36c8af91",
+    "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md": "1be26af3b1c6c634095c4736fd731d736fb572ea5bf297966568135c45a68222",
+    "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md": "a5feb12dea581ec3bbb244c170d0227d44d22804ea0d964ab28eea6844296920",
+    "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md": "15319f3c4e3ff815952785146b087bb9f62f44e9b29d004a70d6abf0442f7c53",
+    "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event.md": "e560691cb5af4eccb4385bfc454d295269ae897fb711ae287bc59041ef527761",
+    "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md": "57d4ce67216d32f69991b5dd7c2c949490361f2c072635a52244e295e37f5638",
+    "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md": "2ab18963cef42d3ac18bc18107e3e88d377b0f41a81f894236e3fea21031df81",
+    "wiki/education/designing-a-vaccine/03-immunopeptidomics.md": "0ad5ed29a5cbd6dcbbdf40753b94c4e39f7253964bd9128aba95727fc726cc53",
+    "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md": "d87e2861aa04baf83da7efeb9eb009716ac9856995b5093762a1d9b29aed7c47",
+    "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md": "92af77bd93a9553bdec0d17586dfa4d20b09bf22b5271abf326171c65e3af348",
+    "wiki/education/designing-a-vaccine/06-leukapheresis-and-tcr-t.md": "8a0bfc791b5f0096db7ca56951d8d7af2e18f59863e9ea5efa28c510c25a6843",
+    "wiki/education/designing-a-vaccine/07-tcr-and-tcr-sequencing.md": "de1679c387bbefc514186d5afd53c8baa4907cd731e9021847d3929755fac167",
+    "wiki/education/designing-a-vaccine/08-porton-mrna-manufacturing.md": "08f7976ceebc656008b01f4aa3363582bae8d660e8fc9561c753ce2aaa52f5b5",
+    "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-dark.png": "eb1d3cf0a6cfc2744cbb5f52d7a7841781b324bd2d1d4856e7c3c8d057c10f6a",
+    "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-light.png": "0e8aefc2dbac9e361ffe73d09cee55122501c8cd69c7d77715e6b564bc1997f9",
+    "wiki/education/designing-a-vaccine/images/porton-sequence-to-vials-dark.png": "8e4206a28530f96cc67fc6f11a239ed192e8029860aa2549fa45f65d5d3c29f7",
+    "wiki/education/designing-a-vaccine/images/porton-sequence-to-vials-light.png": "831eb86fad6522ac8bdadb80d76598db6c5e650e53f2317ba638fa4e76278799",
+    "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions.txt": "04c8923b64230ea22af815959ec886871080723047849f0d23932118a46768c5",
+    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-dark.png": "446127018bade1a5fff1a61e7da4554ede02b75426ada80e9c9596933427c572",
+    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-light.png": "5263f8430942ca1db0281c56edd23073838fc7f7b361506cd15d9f315aa0411a",
+    "wiki/education/designing-a-vaccine/index.md": "184f398624b16521c51f864fe76d6761ca3f1e9912910bf81dc39c7ddfbaa7f8",
+    "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md": "270264e543687c349fcc7843b9999bb07f0a5878b90cb94f43340b6b3d3983c7",
+    "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md": "d1d8fe818e041d49c22d95610a81391a516352ce15497580c92f2ae103c41ad7",
+    "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md": "81cd776bf48b80ceb021e2f66a498debeb63afa1b1acfbba1c4954c5f3010ffb",
+    "wiki/education/guides/accessing-experimental-therapy/index.md": "2c770f88d119021ff6e9a64f1668e99eaa3c7744229820f4a8d51c28dbfeaa22",
+    "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md": "69f18f71d2b5bf7231399eec47b2f03f265977e0a13c1f21adafc9cf9b7e7196",
+    "wiki/education/guides/engineered-cell-therapy/02-choosing-a-target.md": "d7d3937ffd49945e0ef2c799e6b195912cacb763c9b4d964486dc92c1bc664e2",
+    "wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan.md": "6d49bccff6bfd470881d6984473018276ee73dddc773bb12496473c83fc42f5a",
+    "wiki/education/guides/engineered-cell-therapy/index.md": "18be804e6391f5baa91642efb30e618f75051b26d3a458adb7e8dad7ec2a0d18",
+    "wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding.md": "04a787e796a755db454c8c17138329e0f7359c918a3347e54a126ee8adc7c428",
+    "wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access.md": "504d8efc9fce5c540b055e239cd2d279e236b586404accd5f26ec28600420e38",
+    "wiki/education/guides/from-variant-to-drug/index.md": "72d0892b07033942334506b98322116239afa21824a3fe7d4a5567fbadc9df8c",
+    "wiki/education/guides/how-the-immune-system-fights-cancer/index.md": "c23a8c9c868e58ae6031d2172bdd7e61da0d7d96f892b8edd8d8d2b9d4cac32a",
+    "wiki/education/guides/index.md": "479847bc93e780333142de840f90cefba866e1dbcde7d252bc821aa8cea5434f",
+    "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md": "c33e6b540c407a1b30c6ddb81d63c9a680ac6c742a9d0b46021caf7182b4fd6f",
+    "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md": "3bdcb1cfc31ceb9b353a2d05d1cc64870dca6eb15df2191c43c233afb9ee45ba",
+    "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md": "ae6f5b01637913a3d765983c79df5f9c2e6972b9bd52877be25cee4460041bdd",
+    "wiki/education/guides/judging-a-test-or-vendor-claim/index.md": "f6e9953067282959cb106529642d4655f28e993a73f5162c5897ac80b55b5107",
+    "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md": "d7e79048b79673235487da83915ec75b4248c6bc15656b5c9baf0aa0c7a14e9c",
+    "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md": "32155406dbe450dfa5eaea680ce160e5663f60184c6975eaabfade4d21047bf1",
+    "wiki/education/guides/monitoring-residual-disease/index.md": "33468511cf0aec39f3bf8b1ddc8a921e2e3eed5fd160c6197a96c4abf35b6033",
+    "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md": "e56641ad187466a9ff3f5cb799c647504ddfd70d317fc04b745bcd1ac64eecec",
+    "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md": "cdc963b443837b956327d0f8d868a82df8e4556ab81457fb443985fefaae24de",
+    "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md": "d35283483ae38abdee508e59a88a0c3ceb718ad083fcc9e6762d0536234dc2b3",
+    "wiki/education/guides/personalized-cancer-vaccine/index.md": "59b90da1988312a2408b95a2ead70630a4fbba180af067fcba79e47548d9047c",
+    "wiki/education/guides/predicting-response-before-treating/02-check-the-experiment.md": "0ebfc4babbf2e4c38748e4cad2a9ff9815d04cdf89f1e9dbbb81a1e3eca83cff",
+    "wiki/education/guides/predicting-response-before-treating/index.md": "5f9db753e4db551c04b55e780f9ad0596b9d647ec69b4dcd600a1ad9df4b0342",
+    "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md": "69ad1363c1a6339fd9350d5bba91fbdc41512bbf37b92fe781424643aaa46925",
+    "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md": "ed2060089fa2d8d55ab8456cabe7e374f53acf58047dcbd492dbc55aca2bfbd0",
+    "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md": "6768aa463e89deea90abe60616655575102e10026eb574bfc4a0749413cc5237",
+    "wiki/education/guides/reading-cancer-evidence/index.md": "766dad45b3e41fb56bc692bb9feaf3f9e04812e36faeb99c40306b302d1cb2ef",
+    "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md": "2591d094da2056b8abb87566f4cd472606e5f1d9af6da475ab0bb0187cbd5f15",
+    "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md": "7c816ff8d55ba211df7e4ab97c9fc3626e183513b5854e7dbb02d153ca006e64",
+    "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md": "30941f58233f3338d89cf2430a7d7e6c0ce6120e918c433f35b7539ea3c4746f",
+    "wiki/education/guides/reading-pathology-and-surgery-results/index.md": "3ff80e3184057acdc18a02ba2e2ea2aeb3e6e13b403072a884427fcb2722470a",
+    "wiki/education/guides/start-here/01-read-the-labels.md": "ec1af0970f1a2d8d5aaf61f676105f4b5081b13f829614a3cfc2fa0d81c4ea0e",
+    "wiki/education/guides/start-here/02-follow-immune-recognition.md": "e2122c0e31f5807957f696623f084754e6a9ec0e25855d3eef78009601d9ef42",
+    "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md": "95e58cce75ca5a99a32e0967c7fc759ef75a7ca7f9ff38060548bac073ebb875",
+    "wiki/education/guides/start-here/images/prompts/report-questions.txt": "b5b45f51f7e9ab385117c98166a09d8049683074a75a42de89c01129df41b7ce",
+    "wiki/education/guides/start-here/images/report-questions-dark.png": "76cc540e5a6c4ae5780b3352565489ec5232eefe5de3de57d26d0631a4ff465b",
+    "wiki/education/guides/start-here/images/report-questions-light.png": "51f92cf7400ed7aa51b793cc2aa619fa9121d3a054131b898450c76bbf2bb34c",
+    "wiki/education/guides/start-here/index.md": "5eccb9c831bcf8c1c0cad75e01e0f2f4677d31156390b2a196a114f00aafd846",
+    "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md": "6850a792fedf544b6da34dffdf4afaa3d106a941ba08c0b0a1765499ae1f5782",
+    "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md": "5fe4a3be9bb5678fa98b8a8ee5db08134164d511cf9983c5805663734c40083c",
+    "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md": "4372dc0d721979dc033c6fa76b97e11047752eabb33a72b986241fac35ede20e",
+    "wiki/education/guides/treating-early-tnbc/index.md": "50307aa9854a1dfff6a2560c5d1166de845400c82c541b922c1be473d2047f66",
+    "wiki/education/images/index.md": "db0624e407ff509f089abd3453fb21b5fd682f4f5798f37368b01a74241b3eba",
+    "wiki/education/index.md": "888d07b30540a7ef661318f3cc11292d8293f250c856551f31a376649fd62046",
+    "wiki/education/intratumoral-therapy.md": "06c45edb893027e8b2eb4b5dbb48faa77f130d82e3fa07330142dbe47e578d5e",
+    "wiki/education/local-treatment-modalities/01-mechanism.md": "6a9005b375af66bb46d3f2172a3eac77c138875c2ccce12f9456ec9f2aa32854",
+    "wiki/education/local-treatment-modalities/02-timing.md": "804e8373e814e25499176eb2b823fd8c5ffeb0140714b8ad71453327f657b8c9",
+    "wiki/education/local-treatment-modalities/03-overlap-and-sequencing.md": "c40253a65879f61cea3c2a666748ab8c616fb6c5a27734d9ae60a311c054ef3c",
+    "wiki/education/local-treatment-modalities/04-decision-questions.md": "6e7d1084781e63e03557db1aa5079bcac5d90138eb7c3e10036e0be25bf29d9f",
+    "wiki/education/local-treatment-modalities/05-tissue-and-sample-budget.md": "51c46d73fa5fee8b948c283837818098f5407e25aac27883a4843b3fba778afc",
+    "wiki/education/local-treatment-modalities/06-comparisons.md": "c5308cf6c1453244e5eb6e231f0774961a6aa7c05fc3d792259bf0689a5d6673",
+    "wiki/education/local-treatment-modalities/index.md": "75db2f59173f23f9b4934bc371a86cf6e907a75e74db1c4921ec5eb19b674577",
+    "wiki/education/modeling-tumor-response/index.md": "c260825b45670d395c5130343c1701255cd691724a9e32560d854d60953d6cb7",
+    "wiki/education/modeling-tumor-response/verification-and-feedback-loops.md": "9b50d0c1096dfca06b5329d07d517737f995fe91e60670a00c2ef9ab0cac70d0",
+    "wiki/education/molecular-profiling/01-dna-the-blueprint.md": "93ec65aec04e53756f439da52ea50c60a0be48fb10d9dd42db3bf36986d79861",
+    "wiki/education/molecular-profiling/02-rna-the-activity-layer.md": "da1dc00db3143eefc64edce691637873fff269e0621687eb8612db947f202d90",
+    "wiki/education/molecular-profiling/03-protein-expression-and-activation.md": "b1bbd44be5888c5da621b7af83b2140176858f24547a5ecead29a2a2451bbdaa",
+    "wiki/education/molecular-profiling/04-spatial-biology.md": "69a024f4662b781aea5fb21663e3fe211abd0df6dc489c07149d11d7788ab6ff",
+    "wiki/education/molecular-profiling/05-functional-drug-response.md": "4f4b55cc3089960f7b2fa0fbbd4bc5077b562abd6c40882ac797a1edef1d30cd",
+    "wiki/education/molecular-profiling/06-ctdna-and-mrd.md": "8c2e39c460ac1bf34f95476e8b1a13d719cb049132853eb6877a85827fedc077",
+    "wiki/education/molecular-profiling/07-from-data-to-care-plan.md": "dac6e7122df94d020e837ca72b8a425b72183a14b1633258b4b245034869ba1c",
+    "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md": "5c5a401509d7ca4c4c685829b1b137cf557d88d691ff9d62e03630b2860e4af9",
+    "wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis.md": "0c1ad4e1ec800a22be3605ccbeda88773b63056efa91ffc483b044d44c45f8c9",
+    "wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor.md": "da6945aa3c6e713ab220cc9384d55948a40ee1f2076a6075b47be1c2ca1fa64d",
+    "wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr.md": "5e304f2462bc8a94ad9445a7dbe6bf342083db325926666a51c67ce421b99a01",
+    "wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet.md": "e14dd597c2685938f1fec90cd2b6a0ccc028181cdfa71decd59ce42485471c91",
+    "wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress.md": "afd2ee7f8d7c52cc86ecccdc1592fd6da41b3669421541f6b4f0e8fcc9a7117d",
+    "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow.txt": "86f9a3d312318a2ab78cdf03b52a0af6112e8011a34a5d49ab7470d666f9f749",
+    "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-dark.png": "1ba2edd4e22508cd2f8a652a65df9a1acf39869045061f1f418b84fd50eeb35d",
+    "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-light.png": "945f3eade5c31f1cd3c445baf620f87dc755fd4cc52983eee0b7eae1cef42744",
+    "wiki/education/molecular-profiling/evee-proposed-pathways.md": "89582f0d06f1d1277d452fa62040cac45e9b6084dc977827dc2fb1ef6859a87c",
+    "wiki/education/molecular-profiling/hrd-parp-and-dianas-biology.md": "05481596293012a012c97da8bdc839f5c10f46b1715eb4a1cca9518db03dad52",
+    "wiki/education/molecular-profiling/images/blood-and-imaging-windows-dark.png": "826eb40d2579a9cd0512bde238e5177416a97e279ea27a1192827d6c7a86e949",
+    "wiki/education/molecular-profiling/images/blood-and-imaging-windows-light.png": "eb087ca929daccfdf2c8845b6f71f8b34f96b4b497b8177361267b4fa3812be9",
+    "wiki/education/molecular-profiling/images/prompts/blood-and-imaging-windows.txt": "3a2dd48ac18008dc149ea305b17c5dacdb330ba323b664f00f12926c5fa4fe03",
+    "wiki/education/molecular-profiling/index.md": "a8a9f205f8bd86a4f56e472af7a20074a5005ca3fd0a62cc1d759d5ed39b6534",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling.md": "512eb39b64b6e130825ac65c6d046eae51e4b9654186a94b95070ed5c1418d21",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/02-autophagy-flux-and-dependence.md": "51e247b18afeb48aae3b94a5d33b794bf0224617e8aac9a12c88e44f10c39c48",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair.md": "40d613174486a5a8b47ebe7595f7f8adb35f8a94f30a6082fdde355c0c715888",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment.md": "4e39a44d7ef28fe559d2f76193be81cb519577b96e4f2eca9e7ab55ab6facfb1",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/functional-experiment-evidence-dark.png": "69ef859bd014b8c65f336935c3163c47412c26fe32dd0355266a103cd636144c",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/functional-experiment-evidence-light.png": "ff4c1c9ccd1f1bf17197d7ba21f46b9a6190873f09f10732f94e45ef6499ddc6",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/parp-obstacle-and-clearance-dark.png": "6d08d5d0fb4838426c80aad4db48c85dc8ecb766a0bcf60389b2cc26133ba318",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/parp-obstacle-and-clearance-light.png": "6927b149881bfd7fd2e27e1dc35dd40238cea590c44e8751c80f02d744014fa9",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/pi3k-repair-recycling-tradeoff-dark.png": "9f7bd16482517d2481d2c12ba16721856446ad1917c29e7c63cbe660b87f58ca",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/pi3k-repair-recycling-tradeoff-light.png": "cf1a6e486190a2ef14b6531281c7ea2d26755717bd985c4807c6a2862fef9011",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/prompts/functional-experiment-evidence.txt": "3c220aaa826afd9a9844e231e43bed1c3870ba768c7e58785fe23adc00aa10e1",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/prompts/parp-obstacle-and-clearance.txt": "acd43145cad5e8802024b9f733e0b3b99428f7f2cce892ccadc50c50e614a8d3",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/prompts/pi3k-repair-recycling-tradeoff.txt": "6f26cc0abadab0c85900cfb4706cca64977d46e58ab11725c6cfa91fb3082921",
+    "wiki/education/molecular-profiling/parp-and-cell-survival/index.md": "913afe5c9c76c25f5bfd2fdfa55fe87a57ea99f6bfa785f68e1b9026b955551e",
+    "wiki/education/molecular-profiling/rag1-s382-stop-pathway-hypothesis.md": "3eebf23a8c534ae75242e48bf31e9a359a65588edb12dc8edbafaaf12f48f401",
+    "wiki/education/molecular-profiling/tcr-and-tcr-sequencing.md": "768d23efd41544a2b793ced78a0f02653e578314f1ed55f169812ebe73084cdf",
+    "wiki/education/multi-omics-foundations/00-genes-rna-and-protein.md": "144d1a97d8edcb6bd5f54699bf11090267db8dd8331a38a94e734b4df8c613d1",
+    "wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue.md": "71d8a64fb05ef9f46204e0568d9c04810a3a95fea3e2713506f47b78220e9f2c",
+    "wiki/education/multi-omics-foundations/02-cell-identity-and-state.md": "81de62ec1b93b49c07caa0ed067892d5f417825b4be607230765e84400278556",
+    "wiki/education/multi-omics-foundations/03-reading-rna-counts.md": "425758c058a1a793a547168a9ec9601b176ab25b2863bd232be5d7a1f4f70631",
+    "wiki/education/multi-omics-foundations/04-copies-alleles-and-clones.md": "cff38dcc5ccd16828e05aa44ff74f5c6c1f0db6de618b94d86bac562b8525403",
+    "wiki/education/multi-omics-foundations/05-splicing-and-dna-repair.md": "f3e18d06fddcc89f965c80124290b6d900421da53713de667433df4c76192e6d",
+    "wiki/education/multi-omics-foundations/06-immune-presence-and-recognition.md": "def12453234916d6eadebdf95611473c2e44613f0f946969e2d34ab790cd78c1",
+    "wiki/education/multi-omics-foundations/07-comparisons-and-evidence.md": "9f61bb5450ce6efd8d887e1f3e532ca1cffc6550e62ce9358005418a6dcebec1",
+    "wiki/education/multi-omics-foundations/images/prompts/three-layers-three-questions.txt": "edcc5e05bcf50471672708795bfb9a6b15b23befe3e37b699d29304317b95d92",
+    "wiki/education/multi-omics-foundations/images/three-layers-three-questions-dark.png": "62a05cac8c82820e3da50e7b7bbccfaddfc49755a2025216dd106bccd0d61bdc",
+    "wiki/education/multi-omics-foundations/images/three-layers-three-questions-light.png": "56743b82a1a7fc83e701e3c2330bcf901ebd5b2c3f86fb78a99cb6c8b93cbc27",
+    "wiki/education/multi-omics-foundations/index.md": "219c45a3247ebbbf808a2959d0bbc9072ad99bb43baf47fdc87714eb3c87757c",
+    "wiki/education/oncology-101/1-ligands.md": "1cfb982a00cb8441523eb58e69daa714631d7b51fb1f7bf4193d267140f383dc",
+    "wiki/education/oncology-101/2-dendritic-cells.md": "5c514d1e0ebea0c58e854c092f82b5481e13e830f1690f7946693ede752b8d46",
+    "wiki/education/oncology-101/3-t-cell-states.md": "20d667fb7d82b404e3dace643dea51b787868b55ec8d9fc78f5ab514aced1d7d",
+    "wiki/education/oncology-101/4-escape-mechanisms.md": "391a1c5fe4793784b6bcd7109c6f2868d8f90f8be7ad87937f27c9c0b3ae4ba2",
+    "wiki/education/oncology-101/index.md": "4c7c85156661cca343d1a4d042e793272b50fae390c9af357000459d9354173b",
+    "wiki/education/reading-a-tumor/immune-hot-vs-cold.md": "057125faf15f82f6092e3d7ebd9831ec451d885470f976dbf8b3fd81cc75945f",
+    "wiki/education/reading-a-tumor/index.md": "599f4e8f4fa3b7de398e3185a57d9d62f50ad4dd9af4a3f13c68bb5f317fa720",
+    "wiki/education/reading-a-tumor/measuring-t-cell-engagement.md": "fd3ab384995a8820cfd7a49b080de5134a9ee84f9faa7d7430a485998d9634b3",
+    "wiki/education/reading-a-tumor/omics-and-multi-omics.md": "7126cf813361da5106a9aff070f9dd5a6bab48096f91043b3b5664c4b97bee9f",
+    "wiki/education/targeted-therapy-modalities/01-mechanism.md": "019ebae4cecac247e9e563537aa892b83d3537b0319ee37191146c67d1a9a4ef",
+    "wiki/education/targeted-therapy-modalities/02-timing.md": "50331b317e8f9e5f3684afed984bec36b74dfcf16054d014a83ef76ede6f839d",
+    "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md": "6a90c834577bb9b01edbc674bc6c0695263061eeab4c52c919c2dd0fda1ff2d3",
+    "wiki/education/targeted-therapy-modalities/04-decision-questions.md": "137813d21891199b36d287973c3801386d6d116a496c90211a35f58659c66372",
+    "wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget.md": "460291df0f2ca55d036b9b9300b49c42bd44ccd3af56039c1822a03ee49abe6e",
+    "wiki/education/targeted-therapy-modalities/06-comparisons.md": "37b4df04e7b7ab38ec6fedab3ebb6dcb35b1b2f81745a76353f6fa1586a7cfe5",
+    "wiki/education/targeted-therapy-modalities/index.md": "3cfafad03e9c66a0740d268426088a925f92d8da8f7a8130462cac741ed251f0"
+  },
+  "retainedFiles": {
+    "wiki/education/molecular-profiling/images/cul3-nrf2-ferroptosis-dark.png": {
+      "hash": "23f89f2508d1968890d648dedc089de30a86c8b2411e03419de99fdd39e4ed34",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/cul3-nrf2-ferroptosis-light.png": {
+      "hash": "cdf9f50f4632ee43c1afcd542199b9ebc9020aa8224b400167cce1f2d9fd8339",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/dna-blueprint-with-errors-dark.png": {
+      "hash": "55df1675ceeca4c7d3b80227c4167a392b6c259b64eff9818c535b6f72b0c0a6",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/dna-blueprint-with-errors-light.png": {
+      "hash": "21eb4da61f8f0e0907722b16afeb446cb796c388e7af0779493e532af9f91f3c",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/mri-ctdna-discordance-dark.png": {
+      "hash": "f3e0c1d6124bb871b6a8997ac6365613734c76ac440558306b0db27d34151c9b",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/mri-ctdna-discordance-light.png": {
+      "hash": "7e00e569f5a7009cda70918498a88c8aa791de42e37c53dfcf613f157b1763cf",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/no-shedding-residual-tumor-dark.png": {
+      "hash": "da0c5deafc46d3fd02c2b8894bfe1d6b865c8dadec0c934a7909547058e9bd5e",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/no-shedding-residual-tumor-light.png": {
+      "hash": "595e8806fb2588fb0f680dcdf85479c70328977f6d048e6eaf1841140e5c5275",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/notch-wnt-signals-dark.png": {
+      "hash": "37f2df5cd05aaeecb424ac81c8d1cc7b0cb56707744e6b0fe2d813091ebff280",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/notch-wnt-signals-light.png": {
+      "hash": "1acac04b151add691a5dcde239adc77f6c54e99f841c6e5dd8fabf0e9fcc732e",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/nutrient-economy-dark.png": {
+      "hash": "697b88194c7620a7bd654f5bb6d1a734d535c800ee4f0462968c84ea66654787",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/nutrient-economy-light.png": {
+      "hash": "4cc22ce32372e468eb80862c3c49b42fb7de1975ac0272c1cc916f299c01fafe",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/ppm-blood-snapshot-dark.png": {
+      "hash": "42f299ed8213162b904308f358452623ffd7d035e81926f913d5cf75ace22a55",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/ppm-blood-snapshot-light.png": {
+      "hash": "26c247a542648331b8ed1d9fd3f7e5aadc13e9dad61c6d6f323414557d233b38",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/protein-construction-site-dark.png": {
+      "hash": "4b55ff4b09063f3a56909f632971d82cb2e4a6fe3d6fceea1189999cd26b772e",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/protein-construction-site-light.png": {
+      "hash": "5566e8b9ccb7f2fe59d460497f46f340dd1cef5e1e986c50d6109dca8c8daffa",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/rna-transcription-architect-dark.png": {
+      "hash": "3d8e1f9700db2ee5e7605ad4341bcea2200ae0bfe61e7bbd4f03566602fd375f",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/images/rna-transcription-architect-light.png": {
+      "hash": "e707aa682c4088a1dd2c0b76e4a0210a5e5d9237febebd1a4943db8d1f8e1fe4",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/autophagy-flow-and-dependence-dark.png": {
+      "hash": "ef146b916117adeed29fc291616d3728b23aaf5b62678404594d3aac7d52fcc5",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/molecular-profiling/parp-and-cell-survival/images/autophagy-flow-and-dependence-light.png": {
+      "hash": "47299dd9284975c9e59544a55e48934231fff2b63ae674e1cafaa91b8b3a8155",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/cell-family-state-and-classification-dark.png": {
+      "hash": "be12f77a591bd77828f54bb19289956e925ca918c989620b591cb9b69e5e67f5",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/cell-family-state-and-classification-light.png": {
+      "hash": "9c73ecc7c9b2670416502e57ae741eb725270c41ea3010f19d6ad7916cbbd9bb",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/copy-number-and-loh-dark.png": {
+      "hash": "4537cfe47fbb6f7ec426fefa708a7ab512f61498814f1ee449e213c84654ef8e",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/copy-number-and-loh-light.png": {
+      "hash": "e79ea57220d022570ee22e5d281a75df4fad73972847bd753c1a8ea5081b492f",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/epithelial-duct-and-tissue-mixture-dark.png": {
+      "hash": "4355ad3287d5837a5a3df3194771c6680ead0c1afe5444fb80b0d696a405dac4",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/epithelial-duct-and-tissue-mixture-light.png": {
+      "hash": "dcfc07ca8542cf78e965810db307f07e8f8d389b0189e6a78deca485f444d8ef",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/immune-presence-presentation-and-recognition-dark.png": {
+      "hash": "e40a643935efc2d3921f9b07f74ee75c0be6f5b6dd76bd336330715b32cb76dc",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/immune-presence-presentation-and-recognition-light.png": {
+      "hash": "8eff007fab8a653cd908fea45f05008a7338f24d82f5111b12ec6c403225e7fd",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/rna-molecules-background-and-doublets-dark.png": {
+      "hash": "32d3c14acfd2f3653773d21224b7c36107283fe889745e2977372418856439d2",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/rna-molecules-background-and-doublets-light.png": {
+      "hash": "b479236f6b00713f92220c95672a719660fca469df1b8b14e955762c8a3eb71e",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/rna-protein-location-and-function-dark.png": {
+      "hash": "488a3395d8a3757a947d0d5d0a9a50b8979c32c7f1670af9fa798f12fb6ba0d0",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/rna-protein-location-and-function-light.png": {
+      "hash": "78dbde432c97c7aa2a15522c942973516c772188bd8860b9cd72a80d4bfa8ec7",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/splicing-edits-the-rna-message-dark.png": {
+      "hash": "8e9be2fea846447c67c543e18d562a1c290418b9c28d41a9df39c648d7e2db66",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/multi-omics-foundations/images/splicing-edits-the-rna-message-light.png": {
+      "hash": "a57d69c43c5c2eed898d536d6567fe4f424cae0644517ff9e2984e5973fa7c72",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/reading-a-tumor/images/immune-monitoring-two-lane-dark.png": {
+      "hash": "657e03cf28633985164ea21cace5b304ad11f8f01eed8fe29748595adf061594",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/reading-a-tumor/images/immune-monitoring-two-lane-light.png": {
+      "hash": "6b5c71efa2edadee0b2f28df44b618c5d98d4e7a6fc208a51e91293c8ab65c40",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/reading-a-tumor/images/paired-ctdna-tcr-interpretation-dark.png": {
+      "hash": "945182bcf6e7870372b7f87c476e02c031bf8e063b2f24a1a82384e7bcaf90aa",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    },
+    "wiki/education/reading-a-tumor/images/paired-ctdna-tcr-interpretation-light.png": {
+      "hash": "19d76096706ea94e2dddcea39dcb579d245e6936ed7acfc7135fec1b0606f669",
+      "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
+    }
+  }
+}

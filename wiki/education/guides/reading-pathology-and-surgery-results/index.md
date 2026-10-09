@@ -1,87 +1,74 @@
 ---
 title: "Read pathology and surgery results"
-type: guide
-goal: "Understand what remains after treatment, what the margins mean and which findings affect the next clinical conversation."
-audience: "Curious reader; no specialist training assumed"
 sensitive: false
-tags: [education, guide]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-reviewed: pending
+tags: ["education"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
+type: "guide"
+goal: "Read the specimen, residual disease and margins before deciding which clinical question each finding informs."
+audience: "Curious reader or family member; no pathology training needed"
+minutes: 32
 ---
 
 # Read pathology and surgery results
 
-**Understand what remains after treatment, what the margins mean and which findings affect the next clinical conversation.**
+**Read what was sampled, what remained and which clinical question each finding informs.**
 
-A pathology report describes tissue the laboratory received. It gives both measurements and interpretations. You do not need to learn every abbreviation before reading it; begin with the question each section answers.
+A pathology report describes submitted tissue. Its observations and final interpretation help establish diagnosis, response and local findings. It does not directly inspect every part of the body or select a whole treatment plan.
+
+This path begins with the specimen and its treatment context. It then separates breast response, nodes and margins before turning those findings into questions. Each lesson has a fictional report excerpt and a short exercise. You can use the linked concepts as a reference without memorizing a staging or scoring formula.
+
+The lessons focus on breast specimens, particularly after treatment before surgery. A biopsy, a surgery-first specimen and a post-treatment specimen are different settings. Keep that distinction visible rather than treating every pathology label as interchangeable.
 
 ## The big ideas
 
-1. The breast and nodes are evaluated separately, then combined for some response endpoints.
-2. The tumor bed’s footprint and its cancer cellularity are different quantities.
-3. A margin asks about a cut edge; a node category asks about regional spread.
-4. Grade, TNM stage and residual cancer burden describe different aspects of the disease.
+1. Collection date, report date and treatment timing provide different information. Read the specimen before the summary label.
+2. A treated tumor bed's footprint is not the same as the amount of invasive cancer within it.
+3. Breast and regional-node findings jointly inform some response endpoints, but margins ask about evaluated cut edges.
+4. A response or risk category does not by itself identify the best added treatment. Local completion, systemic benefit and safety need their own questions.
 
 ## The map
 
 ```mermaid
-flowchart LR
-  A[Specimen and timing] --> B[Invasive cancer and DCIS]
-  B --> C[Breast and node response]
-  C --> D[Margins and residual stage]
-  D --> E[Questions for the clinical team]
+flowchart TD
+  A[1. Specimen and treatment context] --> B[2. Residual disease and margins]
+  B --> C[3. Questions for the next conversation]
+  click A "/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time" "Place the specimen in time"
+  click B "/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins" "Read residual findings"
+  click C "/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question" "Build the next question"
 ```
-
-*Read the components before compressing them into a stage or response label.*
 
 ## Lessons
 
-| Step | Lesson | Question |
-|---|---|---|
-| 1 | [pCR](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) | Is there residual invasive cancer in breast or nodes? |
-| 2 | [RCB](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) | How are the bed, cellularity and nodes combined? |
-| 3 | [Surgical margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins) | Does cancer reach an evaluated edge? |
-| 4 | [TNM staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging) | What do c, p, y, T, N and M mean? |
-| 5 | [Prognostic versus predictive evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) | Which findings describe risk, and which select a treatment? |
-
-## A worked report
-
-A hypothetical report describes a 40 mm treated tumor bed, sparse invasive cells, one involved regional node, residual ductal carcinoma in situ (DCIS) and an involved invasive margin. This is not pCR (pathologic complete response) because invasive disease remains. A large bed with sparse cells is not the same as a dense 40 mm invasive mass. The margin creates a local completion question; the involved node contributes to RCB and ypN. Neither alone establishes distant metastasis.
-
-DCIS means abnormal cancer cells remain confined within ducts. Invasive cancer has crossed that boundary. Extranodal extension means cancer extends outside a node’s capsule; it is a local nodal feature, not a synonym for distant spread. A sentinel-node suffix records how nodes were sampled.
-
-## Questions to bring to the appointment
-
-Ask which report is signed and whether addenda remain pending. Clarify the final interpretation of separately submitted margins, node findings and receptor tests. Then ask how those findings affect completion surgery, radiation and postoperative systemic care. Keep those three decisions separate enough to understand how they constrain each other.
-
-## Try it
-
-A blood assay is negative while the surgical report contains invasive cancer. Which is wrong?
-
-**Answer:** Neither necessarily is. They sample different compartments and answer different questions. Tissue establishes the residual local findings; blood detection depends on shedding and assay limits.
-
-**Explain it back:** “The report tells me what was found in the removed tissue; its components guide the next clinical questions.”
-
-## Applied to Diana
-
-[[wiki/care/diagnosis|The diagnosis record]], [[wiki/prognosis/rcb-calculation-and-diana|the surgical RCB calculation]] and [[wiki/care/treatment-plan|the treatment plan]] own current findings and choices. This guide teaches the terms without copying a changing status table.
-
-**Takeaway:** Read breast, nodes and margins individually before interpreting the combined summary.
-
-## Sources and scope
-
-General teaching, source-checked October 8, 2026; expert and learner review pending. Each concept links to its measurement definition and primary evidence.
-
-- [NCI pathology reports](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet).
-- [MD Anderson RCB method](https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).
-
+| Step | Lesson | The question it answers | Minutes | Learning aid |
+|---|---|---|---|---|
+| 1 | [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time) | Which tissue and treatment moment does this report describe? | 10 | Report card and three-date exercise |
+| 2 | [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins) | What do breast, node, bed and edge findings establish? | 12 | Two-bed comparison and combined-response example |
+| 3 | [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question) | What decision needs which additional evidence? | 10 | Observation-to-question worksheet |
 
 ## Concepts you will use
 
-- [[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr|Pathologic complete response (pCR)]]
-- [[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden|Residual cancer burden (RCB)]]
-- [[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins|Surgical margins]]
-- [[wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging|TNM staging]]
-- [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic versus predictive biomarkers]]
+**Timing and classification:** [Neoadjuvant versus adjuvant](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant), [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade), [Ki-67](/wiki/education/concepts/breast-cancer/grade-and-stage/ki-67) and [TNM staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging).
+
+**Residual findings:** [Pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) and [surgical margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins).
+
+**Interpretation:** [Prognostic versus predictive evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) and [clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability).
+
+## Applied to Diana
+
+[The diagnosis record](/wiki/care/diagnosis), [results](/wiki/care/results), [the surgical residual-burden calculation](/wiki/prognosis/rcb-calculation-and-diana) and [the treatment plan](/wiki/care/treatment-plan) own the current findings and decisions. This path teaches the terms without copying a changing result table.
+
+## What is still uncertain
+
+A report can require addenda or integration of separately submitted margins. A specimen describes sampled tissue; recurrence risk and additional treatment benefit require clinical context and appropriate evidence. A teaching example cannot supply a final stage, margin interpretation or treatment decision for an individual.
+
+## Sources and scope
+
+Source-checked October 9, 2026; expert and learner review pending. The lessons cite the definitions and primary evidence they use.
+
+- [NCI: Pathology reports](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet).
+- [MD Anderson: residual cancer burden method](https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).
+- [CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/).

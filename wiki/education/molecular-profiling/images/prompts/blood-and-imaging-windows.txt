@@ -1,0 +1,16 @@
+An educational cartoon explaining that blood testing and breast MRI observe different evidence.
+
+Two large side-by-side panels:
+1. “Blood test”: a sample tube contains many neutral DNA fragments and a few distinct tumor-derived fragments. A magnifier examines the tube. Callouts: “Sampled tumor signal” and “Does not locate disease”.
+2. “Breast MRI”: a scanner screen shows a schematic breast region with a highlighted imaging finding. A boundary marks the examined region. Callouts: “Features in scanned region” and “Not a cancer-cell count”.
+
+Below both panels, a shared box reads “Combine with clinical and tissue evidence”.
+A final small callout reads “No signal ≠ zero disease”.
+
+Flat vector illustration, rounded shapes, friendly cartoon proportions, clean sans-serif labels, matching the composition style of tcr-tcr-t.png. No generic people.
+
+Accuracy guardrails: DNA fragments are outside cells, not intact cancer cells. Blood is a finite sample and cannot identify lesion location. MRI findings reflect imaging features, not direct counts of living cancer cells. Neither panel is a whole-body census. Do not label a negative blood test as cure or show MRI enhancement as proof of viable tumor.
+
+No photorealism, medical photography, logos, watermarks, anatomical horror, extra labels, numerical detection thresholds or treatment recommendations.
+
+Keep semantic colors consistent within each variant: tumor-derived DNA uses one distinct color in the tube, magnifier, legend and Sampled tumor signal callout. Non-tumor DNA uses a different neutral color. Connect the Sampled tumor signal callout only to matching tumor-derived fragments. Never put a non-tumor-colored DNA icon beside that callout.

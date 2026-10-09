@@ -1,91 +1,106 @@
 ---
-title: "How targeted therapies act"
-type: guide-lesson
-goal: "Explain the recognition system and killing mechanism of antibody, engager, ADC, radioligand and cellular therapies."
-audience: "Curious reader; basic cancer vocabulary helpful"
-sensitive: false
-tags: [education]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: targeted-therapy-modalities
+title: "Separate the address from the killing mechanism"
+type: "guide-lesson"
+guide: "aiming-a-drug-at-a-surface-target"
 step: 1
-objectives: ["Explain how targeted therapies act and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+minutes: 14
+objectives: ["Distinguish an accessible surface target from a peptide–HLA target.", "Explain how an antibody, conjugate, engager, or engineered receptor connects recognition to action.", "Identify which part of a therapeutic claim a binding assay actually tests."]
+prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
+sensitive: false
+tags: ["education", "therapeutics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# How targeted therapies act
+# Separate the address from the killing mechanism
 
-**You will be able to:** Explain the recognition system and killing mechanism of antibody, engager, ADC (antibody-drug conjugate), radioligand and cellular therapies.
+**Recognizing a tumor-associated target is the first part of a mechanism. The therapeutic format determines what can happen after recognition.**
 
-A binder determines what a molecule recognizes. The rest of the therapeutic product determines delivery, signaling, payload release, persistence and safety. Changing the format can change the binder's behavior as well as the killing mechanism.
+A promising surface protein can feel like an answer: “We found something to aim at.” That is a useful beginning. Now ask what reaches it, what binds it, and what the product does next. These questions let you inspect a claim without guessing which treatment should win.
 
-**Before starting:** [HLA](/wiki/education/concepts/immunology/antigen-presentation/hla) and [the modality map](/wiki/education/targeted-therapy-modalities/index).
+**Before you start:** [Antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) separates recognition from other antibody functions. [Antibody-drug conjugates (ADCs)](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) connect an antibody to chemical cargo. [T-cell engagers](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager) connect target recognition to T-cell activation. [Immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) explains what a tissue stain measures.
 
-## Recognition and action
+## Where this step sits
 
-| Format | Recognition | How it can act |
-|---|---|---|
-| Monoclonal antibody | A defined accessible target | Blocks signaling or engages immune effectors, depending on target and antibody design |
-| Surface-target T-cell engager | A surface target plus CD3 on T cells | Brings T cells and target-bearing cells together and activates cytotoxic functions |
-| Peptide–HLA (human leukocyte antigen) T-cell engager | A particular peptide–HLA complex plus CD3 | Redirects T cells while retaining the HLA requirement of its target arm |
-| Antibody–drug conjugate (ADC) | An accessible target recognized by an antibody | Delivers a chemical payload through product-specific binding, trafficking and release |
-| Radioligand or radioimmunotherapy | A target recognized by a small molecule, peptide or antibody | Delivers radiation; distribution and dosimetry determine exposure |
-| CAR (chimeric antigen receptor)-T | Usually an intact surface target recognized by a synthetic receptor | Engineered T cells activate and kill after recognition |
-| TCR (T-cell receptor)-T | A peptide displayed on a particular HLA molecule | Engineered T cells use a selected TCR to recognize and attack target-bearing cells |
+This is step 1 of [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index): **recognition and action** → delivery and exposure → safety and clinical evidence.
 
-## Antibodies and engagers
+## The address and the action
 
-An antibody may block a growth signal, flag a cell for immune attack or block an immune checkpoint. These are distinct mechanisms. Anti-PD-1 antibodies primarily modify immune interactions; a tumor-only drug-sensitivity score does not validate a switch from one anti-PD-1 drug to another.
+Imagine four products recognizing the same surface protein. One blocks a signal. One carries a chemical payload. One recruits a T cell. One carries a radionuclide, a radioactive atom. Their address may be similar, but the action and its requirements differ. Even attaching cargo can change a binder's behavior, so a tested binder is not automatically a tested therapeutic product.
 
-A surface-target engager can recruit T cells without their native TCR recognizing the tumor peptide. It still needs functional, accessible effector cells. Exhaustion, low cell numbers, trafficking barriers and a suppressive environment can limit activity. Peptide–HLA engagers remain HLA-dependent: tebentafusp is a concrete example.
+A **binder** is the part that recognizes a molecular feature. An **epitope** is the particular feature it recognizes. Finding the protein's name in a report does not establish that the epitope is exposed on living tumor cells. Tissue preparation, location on the cell, and the product's access all matter.
 
-Engager size, half-life and dosing depend on the product. Some require continuous infusion; others use intermittent dosing. Cytokine release syndrome (CRS) and neurotoxicity can occur with both engagers and cell therapies. There is no universal toxicity ordering between formats.
+A surface protein can also be an address without being a survival dependency. Blocking its signal requires evidence that the blocked process matters. Delivering a payload asks whether recognition and processing deliver a damaging chemical. Redirecting T cells asks whether recognition becomes productive immune contact.
 
-## ADCs: target, linker and payload
+| Format | What finds the target? | What can act after recognition? | An additional requirement |
+|---|---|---|---|
+| Unconjugated antibody | Antibody binding region | Signal blocking or recruitment of immune effectors, depending on design | The intended biological effect must follow binding |
+| Cytotoxic ADC | Antibody binding region | Chemical payload | Appropriate delivery, processing, and payload sensitivity |
+| Surface-target T-cell engager | A binding region plus a CD3-binding region | Recruited T cells | Accessible, functional T cells and productive contact |
+| Radioligand or radioimmunotherapy | A small molecule, peptide, or antibody | Radiation from a radionuclide | Suitable distribution and absorbed radiation dose |
+| Receptor-engineered T cells | An engineered receptor on a living cell | That cell's activation and cytotoxic machinery | Cell access, function, and an appropriate recognition system |
 
-An ADC combines an antibody, linker and cytotoxic drug. Binding and internalization often lead to intracellular payload release; some linkers also permit extracellular release. A membrane-permeable payload can affect neighboring cells, called a bystander effect.
+The table is a mechanism map. It does not rank efficacy, toxicity, or readiness for a person.
 
-Resistance can involve target changes, altered trafficking, payload targets or efflux. Keeping the target while changing payload is a plausible strategy, not a guarantee. Two different payloads can share a mechanism and potentially share resistance. An assay showing target expression is only one part of the evidence.
+## Two kinds of target at the surface
 
-## Radioligands: distribution and dose
+An antibody can recognize an exposed part of an intact surface protein. The protein does not need to be broken into a peptide and presented by [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) for that recognition.
 
-A radioligand carries a radionuclide to sites where its binder accumulates. Therapeutic beta or alpha emissions damage cells; their ranges and energy deposition differ. Alpha particles have short tissue ranges, so “deeper penetration” is not the explanation for their action.
+A different route recognizes a short protein fragment displayed in a peptide–HLA complex. The source protein can be intracellular, but the presented complex must be accessible at the surface. A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes the paired peptide and HLA, rather than the source protein alone.
 
-Imaging a related tracer may help map distribution, but imaging and therapy can differ in molecule, dose and kinetics. Uptake does not itself establish a safe therapeutic dose. Marrow, kidney and other organ exposures require product-specific evaluation. Antibodies can also carry radionuclides; they are not categorically excluded by size.
+This distinction cuts across product formats. A peptide–HLA-directed soluble TCR can be part of a dosed engager protein. TCR-engineered T cells carry a receptor on living cells. Tebentafusp illustrates the protein format: its target arm recognizes a specific peptide–HLA-A*02:01 complex while its CD3 arm recruits T cells. The protein remains HLA-dependent for target recognition.
 
-Radiation may alter immune biology, but systemic immune benefit and synergy with checkpoint blockade need clinical evidence. A single patient's response after multiple treatments cannot isolate that effect.
+A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) usually recognizes an intact surface target and contains its own intracellular signaling design. A surface-target engager instead recruits the T cell through CD3. Neither requires that cell's native TCR to recognize the tumor peptide, but both still depend on immune-cell function.
 
-## Living cell products
+## Worked example: the fictional target M
 
-A CAR provides an engineered recognition and signaling system. A TCR recognizes peptide–HLA; this opens intracellular antigen targets but creates an HLA-specific requirement. Engineering a receptor into peripheral T cells is different from expanding naturally tumor-infiltrating lymphocytes.
+A tissue stain finds protein M in a fictional tumor. Investigators then show that a proposed antibody binds living M-positive cells more strongly than matched M-negative cells. These are two connected observations: protein signal in tissue and target-associated binding in a live-cell model.
 
-Manufacturing, lymphodepletion and supportive treatment depend on the product and protocol. IL-2 is not a universal TCR-T requirement. Cells may expand and persist, but neither persistence nor durable benefit is assured. Both target loss and normal-tissue recognition matter.
+Now consider three proposed products made around that antibody:
+
+- **A blocking antibody:** investigators must test whether it changes the relevant signal and whether that change affects survival.
+- **An ADC:** investigators must follow delivery and active payload production, then measure the cells' response.
+- **A T-cell engager:** investigators must test T-cell-dependent activation and killing, with target-negative and no-T-cell controls.
+
+Suppose only binding has been measured. All three remain mechanistic proposals beyond binding. You do not have to dismiss the target; simply attach the unanswered question to each product.
+
+## What can go wrong at this step
+
+**Expression can be mistaken for access.** A stain does not recreate every feature of a living tissue or establish delivery throughout a tumor. Start with the assay's actual [measurement scope](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry).
+
+**Recognition can be mistaken for dependence.** A delivery address need not drive cancer growth, while a blocking strategy needs its own functional rationale.
+
+**HLA independence can be stretched into immune independence.** A surface-target approach avoids one recognition requirement. It does not remove [T-cell functional constraints](/wiki/education/concepts/immunology/t-cells/t-cell-states).
+
+**A shared target can be mistaken for shared safety.** A drug's action, distribution, and exposure change the consequences of recognizing healthy tissue. [On-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity) concerns correct recognition in the wrong tissue.
 
 ## Try it
 
-A tumor loses B2M (beta-2 microglobulin) and no longer presents a class-I peptide target. Which distinction helps assess a proposed rescue?
+A fictional tumor model loses [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m), and an assay confirms loss of the class-I peptide–HLA complex a proposed engager recognizes. A different intact surface target M remains accessible. What survives from the proposal, and what needs a new test?
 
-**Explain it back:** Surface-target recognition may remain possible, while the affected peptide–HLA recognition cannot. This does not prove that a CAR or engager will work; its target, delivery, immune function, safety and clinical evidence still need assessment.
+**Possible answer:** the affected peptide–HLA recognition route has lost its measured target. A product recognizing intact M could still bind through a different route. That observation does not show that it delivers payload, recruits effective T cells, spares healthy tissue, or improves a clinical outcome. Those claims need their own evidence.
 
 ## Explain it back
 
-A mechanism explains a possibility. It does not establish efficacy, eligibility, a preferred format or a safe combination.
+Complete: “The binder tells me ______. The format tells me ______. A binding assay alone cannot show ______.”
+
+**One possible answer:** the binder tells me which molecular feature can be recognized. The format tells me which action and additional requirements follow. A binding assay alone cannot show useful killing, a safety window, or benefit in people.
 
 ## Takeaway
 
-**A mechanism explains a possibility. It does not establish efficacy, eligibility, a preferred format or a safe combination.**
+**Keep recognition, biological action, and clinical benefit as separate claims, each supported by an appropriate measurement.**
 
-## Current application
+**Next:** [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing).
 
-Treatment status belongs in [the care plan](/wiki/care/treatment-plan), unresolved choices in [questions](/wiki/questions/index), and provider-specific capabilities in [companies](/wiki/companies/index). A mechanism lesson does not establish eligibility or a treatment plan.
+## Sources and scope
 
-## Sources
+Source check: October 9, 2026. General mechanisms with fictional exercises; expert and learner review remain pending. This lesson does not establish treatment selection or access.
 
-Checked October 8, 2026.
-
-- [FDA tebentafusp review](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000ChemR.pdf).
-- [NCI targeted therapy](https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies).
-- [NCI CAR-T overview](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
-- [FDA: therapeutic radiopharmaceutical products](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/oncology-therapeutic-radiopharmaceuticals-nonclinical-studies-and-labeling-recommendations-guidance).
+- [NCI: monoclonal antibodies](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) — recognition and immune-effector mechanisms.
+- [FDA, 2024: ADC clinical pharmacology](https://www.fda.gov/media/155997/download) — components and product-specific action.
+- [Tebentafusp prescribing information, mechanism section](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=24a49f57-d2fc-4ffe-9eb1-fe0460c6b067) — a soluble TCR/CD3 engager with a specific peptide–HLA target.
+- [NCI: CAR T cells](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells) — receptor signaling and living-cell behavior.
+- [FDA, 2019: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download) — ligand, radiation, distribution, and dosimetry questions.

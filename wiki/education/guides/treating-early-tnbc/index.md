@@ -1,91 +1,76 @@
 ---
-title: "Understand how standard treatment works"
-type: guide
-goal: "Explain the distinct jobs of chemotherapy, immunotherapy, surgery and radiation in a curative-intent TNBC plan."
-audience: "Curious reader; no specialist training assumed"
+title: "Understand how treatment is sequenced"
 sensitive: false
-tags: [education, guide]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-reviewed: pending
+tags: ["education"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
+type: "guide"
+goal: "Explain the jobs and timing of systemic treatment, surgery and radiation in nonmetastatic triple-negative breast cancer."
+audience: "Curious reader or family member; basic cancer labels are helpful"
+minutes: 33
 ---
 
-# Understand how standard treatment works
+# Understand how treatment is sequenced
 
-**Explain the distinct jobs of chemotherapy, immunotherapy, surgery and radiation in a curative-intent TNBC plan.**
+**Understand why a plan combines different treatment jobs, why treatment may begin before surgery and what the surgical findings contribute afterward.**
 
-This guide teaches the roles of treatment. Actual drug choices, dose changes and appointment dates belong in the clinical plan. Understanding the purpose of each part helps explain why a blood result or a molecular hypothesis cannot choose the whole regimen.
+The path focuses on nonmetastatic [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc), including locally advanced disease. “Early” in a trial or treatment discussion can include a broader nonmetastatic population than everyday usage suggests. Read the actual population and stage criteria.
+
+There is no single schedule that every person with this receptor category follows. Disease extent, clinical evidence, prior treatment and safety affect the plan. The lessons teach how to read those decisions. Actual drugs, doses, appointment dates and changes belong in the clinical plan.
 
 ## The big ideas
 
-1. Systemic medicines and local treatments address different parts of the problem.
-2. Combining drug classes can attack different cell processes while adding distinct risks.
-3. A trial schedule and a person’s delivered schedule must be kept separate.
-4. Response, side effects and eligibility each affect the next decision.
+1. Systemic medicines and local treatments have different jobs. Combining them requires a reason and evidence for the clinical setting.
+2. Neoadjuvant and adjuvant describe timing around surgery; they do not identify one drug class or guarantee an outcome.
+3. A planned course and delivered treatment are different records. Holds and substitutions deserve their own explanations.
+4. Surgery supplies tissue evidence about response, margins and nodes. That evidence informs distinct local and systemic conversations.
 
 ## The map
 
 ```mermaid
-flowchart LR
-  A[Diagnosis and extent] --> B[Preoperative systemic treatment]
-  B --> C[Surgery and pathology]
-  C --> D[Completion local treatment]
-  C --> E[Postoperative systemic decision]
+flowchart TD
+  A[1. Read the jobs in the plan] --> B[2. Read timing around surgery]
+  B --> C[3. Use findings in the next conversation]
+  click A "/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan" "Read treatment jobs"
+  click B "/education/guides/treating-early-tnbc/02-read-timing-around-surgery" "Read treatment timing"
+  click C "/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation" "Use the findings"
 ```
 
-*The map explains the questions; a clinician’s plan determines their actual order and timing.*
+## Lessons
 
-## What each part does
-
-| Treatment | Plain-language mechanism | Important boundary |
-|---|---|---|
-| Paclitaxel, a taxane | Interferes with microtubule dynamics needed for cell division | Neuropathy and other toxicities can limit delivery |
-| Carboplatin, a platinum | Forms DNA lesions that make replication and repair difficult | Blood counts and other toxicity matter |
-| Doxorubicin, an anthracycline | Disrupts topoisomerase II-related DNA processes and creates cellular stress | Cumulative cardiac risk needs monitoring |
-| Cyclophosphamide | Produces DNA-damaging metabolites | Dose and schedule determine supportive-care requirements |
-| Pembrolizumab | Blocks PD-1 inhibitory signaling in immune responses | Can cause immune inflammation, including pneumonitis |
-| Surgery | Removes selected local tissue for control and examination | Margins and nodes inform completion questions |
-| Radiation | Deposits ionizing energy in planned tissue volumes | Normal-organ exposure and prior treatment constrain dose |
-
-Mesna is not routine support for standard breast-cancer AC. It is used with particular high-dose cyclophosphamide or ifosfamide regimens. Loratadine research concerning growth-factor bone pain does not establish routine paclitaxel bone-pain prophylaxis. Supportive care should follow the actual prescribed regimen.
-
-## Understand the calendar
-
-KEYNOTE-522 used approximately 12 weeks of taxane/carboplatin followed by 12 weeks of anthracycline/cyclophosphamide with pembrolizumab, surgery, then nine adjuvant pembrolizumab cycles. Dose-dense AC adaptations can use a shorter interval. Holds, substitutions and toxicity can change an individual’s delivery. Do not infer completed doses from an expected calendar.
-
-Pembrolizumab is given intravenously in the regimen. Capecitabine is an oral chemotherapy used in relevant postoperative discussions; olaparib is an oral PARP inhibitor with its own germline-BRCA eligibility gate. Routes, cycles and duration matter, but a general education page cannot set a personal schedule.
-
-## Response and toxicity are different axes
-
-A treatment can help and still cause a serious side effect. Pneumonitis is lung inflammation that can occur with checkpoint therapy, while infection, tumor and other causes may produce overlapping symptoms. The evaluation and any rechallenge decision require medical assessment. A promising assay or proposed combination does not eliminate that safety gate.
-
-## Lessons and try it
-
-Read [[wiki/education/guides/reading-pathology-and-surgery-results/index|pathology]] to understand the postoperative findings, then [[wiki/education/guides/reading-cancer-evidence/index|trial evidence]] to inspect added-treatment claims.
-
-A negative blood assay arrives before surgery. Does it prove that surgery and radiation are unnecessary?
-
-**Answer:** No. It does not establish pCR (pathologic complete response) or validate omission of indicated local treatment.
-
-**Explain it back:** “Medicines treat systemically; surgery and radiation have local roles; pathology and clinical evidence guide what comes next.”
-
-## Applied to Diana
-
-[[wiki/care/treatment-plan|The treatment plan]], [[wiki/treatment/medications|medications]] and [[wiki/questions/pembrolizumab-rechallenge|the rechallenge question]] own current delivery and safety decisions.
-
-**Takeaway:** Understand each treatment’s job, then read the actual plan for dose, route, cadence and duration.
-
-## Sources and scope
-
-Source check: October 8, 2026; expert and learner review pending.
-
-- [NCI chemotherapy](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy).
-- [NCI radiation](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy).
-- [KEYNOTE-522 primary trial](https://pubmed.ncbi.nlm.nih.gov/32101663/).
-
+| Step | Lesson | The question it answers | Minutes | Learning aid |
+|---|---|---|---|---|
+| 1 | [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan) | What does each part attempt to do? | 11 | Fictional regimen card |
+| 2 | [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery) | Why treat before or after an operation? | 11 | Planned-versus-delivered calendar |
+| 3 | [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation) | Which question does each postoperative finding inform? | 11 | Local, systemic and safety cards |
 
 ## Concepts you will use
 
-- [[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|Clinical actionability]]
-- [[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr|Pathologic complete response (pCR)]]
+**Classification and timing:** [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc), [TNM staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging) and [neoadjuvant versus adjuvant therapy](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant).
+
+**Mechanism and safety:** [Chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy), [checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) and [immune-related adverse events](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event).
+
+**Response:** [Pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) and [margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins).
+
+## Understand the calendar
+
+A trial's tested schedule is evidence about that regimen and population. It is not a record of what a particular person received. The actual record must retain route, dose, dates, holds, substitutions and supportive care. The second lesson shows this distinction without turning a general course into a personal schedule.
+
+## Applied to Diana
+
+[The treatment plan](/wiki/care/treatment-plan), [medication reference](/wiki/treatment/medications) and [checkpoint-rechallenge question](/wiki/questions/pembrolizumab-rechallenge) own current delivery and safety decisions. [Results](/wiki/care/results) owns the findings that inform those conversations.
+
+## What is still uncertain
+
+A mechanism cannot establish whether adding, omitting or combining treatments improves outcomes. Those changes require matched evidence and clinical assessment of benefit and harm. Research about an assay or a proposed pathway does not remove that requirement.
+
+## Sources and scope
+
+General teaching, source-checked October 9, 2026; expert and learner review pending. Practice cases are fictional.
+
+- [NCI: Breast cancer treatment by stage](https://www.cancer.gov/types/breast/treatment/by-stage).
+- [NCI: Triple-negative breast cancer treatment](https://www.cancer.gov/types/breast/treatment/triple-negative-breast-cancer).
+- [KEYNOTE-522 primary trial](https://pubmed.ncbi.nlm.nih.gov/32101663/), for one studied strategy; its schedule is not an individual administration record.

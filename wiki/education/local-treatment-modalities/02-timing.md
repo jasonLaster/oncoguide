@@ -3,7 +3,7 @@ title: "Why disease setting changes the timing question"
 type: guide-lesson
 sensitive: false
 tags: [education, local-treatment, radiation, evidence]
-updated: 2026-10-08
+updated: 2026-10-09
 review_status: "Source-checked; expert and learner review pending"
 guide: local-treatment-modalities
 step: 2
@@ -17,13 +17,13 @@ reviewed_by: ""
 
 **Timing starts with the treatment goal and confirmed disease extent, rather than an automatic sequence of ablation, SBRT (stereotactic body radiation therapy) and radioligands.**
 
-**Before you start:** [[wiki/education/local-treatment-modalities/01-mechanism|Local injury]] describes mechanisms. [[wiki/education/molecular-profiling/06-ctdna-and-mrd|ctDNA and MRD]] explains why blood detection and visible lesions differ.
+**Before you start:** [[wiki/education/local-treatment-modalities/01-mechanism|Local injury]] describes mechanisms. [Circulating tumor DNA (ctDNA)](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) and [molecular residual disease (MRD)](/about/Terminology#mrd) introduce the blood-testing terms; the [[wiki/education/molecular-profiling/06-ctdna-and-mrd|blood-testing lesson]] explains why detection and visible lesions differ.
 
 ## Define the goal first
 
 Local treatment may aim to relieve pain, protect an organ, control a selected growing lesion or contribute to a curative plan in an established setting. Investigational immune priming is a different goal. Combining those goals in one sentence can make experimental benefit sound like standard care.
 
-Neoadjuvant treatment occurs before surgery; adjuvant treatment follows it. Oligometastatic disease means a limited metastatic burden under a specified definition. Oligoprogression means a limited number of sites progress while other disease remains controlled. Definitions and permitted lesion counts vary by study.
+The [timing concept](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant) defines neoadjuvant and adjuvant roles. Oligometastatic disease means a limited metastatic burden under a specified definition. Oligoprogression means a limited number of sites progress while other disease remains controlled. Definitions and permitted lesion counts vary by study.
 
 A preoperative immune-priming study, postoperative breast radiation and local therapy for metastatic progression ask different questions. Results from one do not define the timing of another.
 

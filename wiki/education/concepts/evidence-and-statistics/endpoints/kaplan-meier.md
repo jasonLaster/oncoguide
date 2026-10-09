@@ -1,20 +1,20 @@
 ---
-title: "Kaplan\u2013Meier curves"
+title: "Kaplan–Meier curves"
 type: concept
 domain: evidence-and-statistics/endpoints
-summary: "A Kaplan\u2013Meier curve estimates the probability of remaining free of a defined event over time while accounting for incomplete follow-up."
+summary: "A Kaplan–Meier curve estimates the probability of remaining free of a defined event over time while accounting for incomplete follow-up."
 glossary_anchor: kaplan-meier
-aliases: ["kaplan-meier"]
-prerequisites: []
+aliases: ["kaplan-meier", "Kaplan–Meier curve", "Kaplan-Meier curve", "survival curve", "number at risk", "censoring"]
+level: foundation
+prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+sensitive: false
 reviewed: pending
 reviewed_by: ""
-level: foundation
-sensitive: false
+review_status: "Source-checked; expert and learner review pending"
+source_checked: 2026-10-09
+updated: 2026-10-09
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/index]]"]
-updated: 2026-10-08
-source_checked: 2026-10-08
-review_status: "Expert and learner review pending"
 ---
 
 # Kaplan–Meier curves
@@ -25,45 +25,66 @@ A Kaplan–Meier curve estimates the probability of remaining free of a defined 
 
 ## The intuition
 
-The curve steps down when events occur. People whose follow-up ends without an observed event contribute information until that time. They are not counted as permanently event-free; their later outcome is unknown to the analysis.
+A **Kaplan–Meier curve** follows a group along a clock. The line steps down when the defined event occurs. Some people's observation ends before an event is seen. Their earlier follow-up still contributes information, while their later outcome remains unknown to the analysis.
+
+The line is therefore an estimate, rather than a photograph showing that every original participant reached every date.
 
 ## How it works
 
-The horizontal axis is time from a specified origin. The vertical axis is the estimated probability of remaining free of the endpoint. A death curve and a recurrence curve can have different steps because they count different events.
+Start with the [survival endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints): the origin of the clock and the events that count. A curve for death from any cause and a curve for recurrence or death can take different steps. The vertical axis estimates the probability of remaining free of that endpoint; the horizontal axis gives time since the specified origin.
 
-Censoring means follow-up ends before an event is observed. It may occur at a data cutoff, loss to follow-up or another prespecified circumstance. Standard interpretation assumes censoring is sufficiently non-informative; patients dropping out because they are worsening can threaten that assumption.
+**Censoring** means observation of the time to the event ends without that event being observed. It can occur at a planned data cutoff or through loss to follow-up. A censoring mark does not count as a recurrence or death. Nor does it mean the person is permanently event-free.
 
-The number-at-risk table shows how many people remain observed and event-free at each interval. Estimates near the tail can rest on very few people. Confidence bands often widen there, even when the line looks flat. A five-year point is an estimate under that follow-up, rather than a count showing every enrolled person reached five years.
+At each event time, the method uses the number of events and people still **at risk** just before that time. It multiplies the previous estimate by the fraction of that risk set that avoided the event at that step. Censored people leave later risk sets, without causing a downward step at their censoring time. [Kaplan and Meier 1958](https://doi.org/10.1080/01621459.1958.10501452).
 
-Median survival is the time the estimated curve reaches 50%. If it never reaches 50% by the cutoff, the median is not reached. That does not mean no events occurred or that the outcome is infinite. A hazard ratio summarizes another aspect of the comparison; medians and a ratio cannot be substituted for each other.
+Interpretation assumes censoring is sufficiently independent of the future event time within the analysis. If people disappear from follow-up because their disease is worsening, simply treating their later outcomes as comparable to those still followed can bias the estimate.
+
+## A worked example
+
+Five fictional participants are followed for first recurrence, with the clock starting at enrollment. Nobody dies during this small example.
+
+| Month | People at risk just before this time | Observation at this time | Estimated recurrence-free probability after this time |
+|---|---:|---|---:|
+| 0 | 5 | Follow-up starts | 100% |
+| 1 | 5 | One recurrence | `1 × (4/5) = 80%` |
+| 2 | 4 | One person is censored without observed recurrence | 80% |
+| 3 | 3 | One recurrence | `0.80 × (2/3) ≈ 53.3%` |
+
+Censoring at month 2 does not cause a fall. It changes the denominator for the later event. This estimate differs from simply counting the two observed recurrences among five original participants, because one participant's outcome after month 2 is unavailable.
+
+The tiny example teaches the calculation. It cannot support a precise clinical conclusion or establish what happened to the censored participant.
 
 ## Why it matters in cancer
 
-It helps readers inspect time, event definitions and follow-up before quoting a survival percentage.
+The **number-at-risk table** beneath a graph shows how many people remain observed and event-free at selected times. A late flat line may rest on very few participants. Read the risk table and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) before quoting the tail.
 
-## Worked example
-
-A study enrolls 100 people but only ten remain at risk near six years. A flat late segment does not demonstrate a precise six-year result for all 100. Inspect censoring, the risk table and confidence interval before quoting the tail.
+**Median survival** is the time the estimated curve reaches 50% for its endpoint. If it does not reach 50% during observed follow-up, the median is “not reached.” That does not mean there were no events or that survival is infinite. Median follow-up instead describes observation time; it is not median survival.
 
 ## Common confusions
 
-- Censored does not mean cured or known to have had an event.
-- “Median not reached” does not mean all patients are event-free.
-- Apparent curve separation is not alone proof of a meaningful or causal treatment effect.
+- **Censoring versus an event:** a tick mark is incomplete observation, not a recurrence or death.
+- **A flat tail versus proof of cure:** there may be little information supporting the late estimate.
+- **Curve separation versus a causal treatment effect:** study design, uncertainty, and the comparator still matter.
+- **Recurrence alone versus recurrence or death:** death may be a competing event for recurrence alone. Treating it as ordinary censoring does not automatically estimate the real-world chance of recurrence; a competing-risk analysis may be needed.
+- **Curve height versus hazard ratio:** a [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) summarizes a rate comparison, not the vertical difference at one date.
 
 ## Related concepts
 
-[[wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio|Hazard ratios]] and [[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints|endpoints]].
+- [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) define the clock and event rules.
+- [Absolute risk and number needed to treat](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt) compare suitable estimates at the same time.
+- [Confidence intervals](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) show precision under the analysis.
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+Source check: 2026-10-09. General curve-reading education; expert and learner review pending. The five-participant example is fictional. An endpoint with competing events needs its own appropriate analysis.
 
-- [Original Kaplan–Meier method](https://doi.org/10.1080/01621459.1958.10501452).
-- [NCI survival curve definition](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/survival-curve).
+- [Kaplan and Meier 1958: original estimation method](https://doi.org/10.1080/01621459.1958.10501452).
+- [U.S. Food and Drug Administration: cancer-trial endpoint guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics).
+- [Fine and Gray 1999: original competing-risk regression method](https://doi.org/10.1080/01621459.1999.10474144).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
 <!-- END GENERATED USED IN -->

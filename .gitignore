@@ -1,2 +1,4 @@
 .renderer/
 .vercel/
+test-results/
+playwright-report/

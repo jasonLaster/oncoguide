@@ -1,0 +1,16 @@
+An educational cartoon explaining why the same amount of recycling material can come from different processes.
+
+Two side-by-side recycling-center panels with identical piles of bags:
+1. “Flow continues”: incoming bags move through a working processing machine, with outgoing recycled material.
+2. “Clearance may be blocked”: the same-sized pile sits before a stalled processing machine. Show a stop symbol, with no outgoing flow.
+
+Above both panels: “Same snapshot”.
+Below both panels: “Follow the flow over time”.
+At the bottom, a separate experiment-card icon reads “Dependence needs a separate test”.
+A short note reads “Check alternative explanations”.
+
+Flat vector illustration, rounded shapes, friendly cartoon proportions and clean sans-serif labels, matching the composition style of tcr-tcr-t.png. No people.
+
+Accuracy guardrails: this is an analogy for autophagy measurement, not a literal cell diagram. Both piles must contain the same number of bags. The blocked route is a possible interpretation requiring controls. Neither pile size nor flow establishes a survival dependence. Do not show cell death, patient benefit, drug choice or a proven causal conclusion.
+
+No photorealism, medical photography, logos, watermarks, extra labels or treatment recommendations.

@@ -1,84 +1,97 @@
 ---
-title: "Dendritic cells and T-cell priming"
-type: guide-lesson
-goal: "Distinguish presenting an antigen from activating a naive T cell."
+title: "How dendritic cells help start a T-cell response"
+type: "guide-lesson"
+guide: "how-the-immune-system-fights-cancer"
+step: 2
+minutes: 8
+objectives: ["Separate antigen display from priming a naive T cell.", "Distinguish direct presentation from cross-presentation in a worked scenario."]
+prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
 sensitive: false
-tags: [education, immunology]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: oncology-101
-step: 8
-objectives: ["Explain dendritic cells and T-cell priming and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+tags: ["education", "immunology"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Dendritic cells and T-cell priming
+# How dendritic cells help start a T-cell response
 
-**You will be able to:** Distinguish presenting an antigen from activating a naive T cell.
+**Displaying a target and starting a useful T-cell response are different jobs. Dendritic cells help connect them.**
 
-**Dendritic cells (DCs)** are professional antigen-presenting cells with a central role in initiating T-cell responses. They can collect antigen, process it, display peptides and supply the additional signals needed for priming. A tumor cell displaying a peptide is not equivalent to a dendritic cell activating a naive T cell.
+Think of the difference between finding a clue and briefing someone who can act on it. A tumor cell may display a clue on its surface. That does not make it a good place to train a T cell encountering that clue for the first time.
 
-**Before starting:** [HLA](/wiki/education/concepts/immunology/antigen-presentation/hla) explains the display molecules; [TCR recognition](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing) explains the reader.
+**Before you start:** [The immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster) introduces the cast. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) explains one route from collected material to display. [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) separates recognition from supporting signals.
 
-## Antigen presentation and priming
+## Where this step sits
 
-**Presentation** means displaying a peptide on an HLA (human leukocyte antigen) molecule. **Priming** means the initial activation and differentiation of a naive T cell by suitable antigen and supporting signals. Professional antigen-presenting cells include dendritic cells, B cells and macrophages; dendritic cells are especially important for naive T-cell priming. “Only dendritic cells can ever present or prime” is too absolute.
+This is lesson 2 of [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). It connects molecular recognition to the start of a response.
 
-```mermaid
-flowchart TD
-  A[Antigen reaches a dendritic cell] --> B[Peptide displayed on HLA]
-  B --> C[TCR recognition]
-  D[Costimulation and cytokine context] --> E[T-cell priming and differentiation]
-  C --> E
-  E --> F[Effector and memory responses]
-```
+**Collect antigen → display a fragment → prime suitable cells → expand and differentiate.**
 
-*Antigen recognition alone does not determine the response.*
+## Collection is only the beginning
 
-## Three signals
+Dendritic cells can collect material, process it and present protein fragments. In suitable conditions, they also provide support that helps naive T cells become activated. **Naive** means a cell has not yet undergone its initial antigen-driven activation; it does not mean the cell lacks a receptor.
 
-| Signal | Plain-language role | Important limit |
+[Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) molecules hold displayed fragments. A compatible [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) can contact the fragment–holder pair. That contact selects what the response is directed toward. The surrounding signal context helps determine whether and how the cell responds.
+
+## Ask which presentation route was used
+
+There are two situations worth keeping separate. A dendritic cell can acquire a protein made elsewhere. Routing that external material onto class I HLA is **cross-presentation**. A cell can also make an antigen internally and present material derived from it. That creates a direct-presentation route.
+
+This distinction matters for vaccines. If a dendritic cell receives messenger RNA, or mRNA, and makes the encoded protein, its class I display need not be called cross-presentation. Antigen transfer between cells can create other routes. Delivery chemistry, route and cell uptake determine which possibilities need testing. “All vaccines use one route” is too broad.
+
+The [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains how an RNA message leads to protein. The [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index) follows that application in more detail.
+
+## A worked example: two cells, one fragment
+
+In a fictional experiment, two cells display the same peptide–HLA complex:
+
+| Cell | What is observed | What is not established |
 |---|---|---|
-| Peptide–HLA recognition by TCR (T-cell receptor) | Identifies what the response is directed against | Not every displayed peptide is recognized |
-| Costimulation, such as CD80/CD86 interacting with CD28 | Helps support activation | Missing or inhibitory signals can favor nonresponse or tolerance |
-| Cytokine environment | Helps shape differentiation and function | Different cytokines and contexts produce different outcomes |
+| A cancer cell | The target can be displayed under these conditions | That it can efficiently prime a naive response |
+| A dendritic cell with suitable supporting signals | The target is displayed in a priming context | That every responding cell reaches and kills the cancer |
 
-The three-signal model is a teaching framework. Real responses also depend on dose, timing, cell state, location and additional receptors. Dendritic-cell maturation is not one universal on/off switch.
+Now imagine the dendritic cell displays the peptide but supporting activation signals are inadequate. The peptide has not vanished. The problem is the response context. Display and priming deserve different measurements.
 
-## Cross-presentation versus direct presentation
+## Three questions for a priming experiment
 
-Class-I HLA commonly displays peptides from proteins made within a cell. **Cross-presentation** routes an externally acquired antigen onto class-I HLA. It allows a dendritic cell to display tumor-derived material without being a tumor cell.
+Use the [three-signal model](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) as a reading aid:
 
-Conventional type-1 dendritic cells, **cDC1**, are particularly important in this pathway. Other subsets have different and overlapping functions. Cross-presentation is not exclusive to one cell type in every experimental setting.
+1. **Recognition:** Did a suitable receptor encounter the intended peptide–HLA pair?
+2. **Support:** Were appropriate costimulatory and inhibitory interactions present?
+3. **Differentiation context:** Which [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) and other conditions shaped the response?
 
-For an RNA vaccine, an antigen-presenting cell may receive RNA and produce the encoded protein itself. That creates a route to **direct presentation** as well as pathways involving antigen transfer and cross-presentation. It is inaccurate to say that every RNA vaccine must first cross-present external tumor debris. Delivery chemistry and route matter.
+This is a framework, not a literal three-switch panel. Dose, timing, location and cell history also matter. Expansion, memory formation and killing function are different outcomes.
 
-## Why this matters in cancer
+## What can go wrong at this step
 
-Tumor-derived signals can alter DC recruitment, maturation and migration. The presence of antigen or of T cells alone does not show the full chain is functioning. Conversely, a low DC count in a small specimen cannot prove that no priming occurred elsewhere.
+Antigen can be unavailable, collected poorly or processed into a different fragment. Display can occur without useful priming. A response can also be generated elsewhere than the tissue being sampled. A low dendritic-cell count in one small biopsy therefore does not prove that no priming occurred anywhere.
 
-Chemotherapy or radiation can release antigens and danger signals, but the resulting immune effect is context-dependent. A mechanism does not establish that adding either treatment improves a vaccine or checkpoint regimen.
+Different dendritic-cell subsets have overlapping roles. Conventional type 1 dendritic cells, often written cDC1, are especially important in cross-presentation. They are not the only cells capable of presenting antigen in every setting.
 
 ## Try it
 
-A DC produces an antigen after receiving vaccine RNA. Must its class-I presentation be called cross-presentation?
+A dendritic cell receives vaccine RNA and makes the target protein itself. Does all subsequent class I display have to be called cross-presentation?
 
-**Explain it back:** No. Presentation of antigen produced within that cell can be direct presentation. Cross-presentation specifically concerns external antigen routed onto class I.
+**Answer:** No. Material made inside that cell can enter direct presentation. Cross-presentation specifically concerns external antigen routed onto class I.
 
 ## Explain it back
 
-Separate antigen display, initial priming and later tumor-cell recognition; a functioning response needs more than peptide availability.
+“Display shows ___; priming shows ___.”
+
+One possible answer: “a fragment can be presented; a naive T cell begins an antigen-driven response in a supporting context.”
 
 ## Takeaway
 
-**Separate antigen display, initial priming and later tumor-cell recognition; a functioning response needs more than peptide availability.**
+**The clue, the briefing and the later attack are separate steps.**
 
-## Sources
+**Next:** [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states).
 
-Checked October 8, 2026.
+## Sources and scope
 
-- [Kranz et al., systemic RNA delivery to dendritic cells](https://pubmed.ncbi.nlm.nih.gov/27281205/) — primary delivery and immune-response experiments.
-- [NCI: cancer treatment vaccines](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines).
-- [TNBC-MERIT primary paper](https://www.nature.com/articles/s41586-025-10004-2) — a particular clinical RNA-lipoplex platform, not proof for every vaccine design.
+Source check: October 9, 2026. General priming mechanisms; the comparison is fictional. Expert and learner review remain pending.
+
+- [Molecular Biology of the Cell: T cells and antigen-presenting cells](https://www.ncbi.nlm.nih.gov/books/NBK26926/).
+- [Primary signal-three experiments in naive CD8 cells](https://pmc.ncbi.nlm.nih.gov/articles/PMC2193970/).
+- [Kranz et al., 2016: systemic RNA delivery and immune responses](https://pubmed.ncbi.nlm.nih.gov/27281205/) — a particular delivery platform, not every vaccine formulation.

@@ -6,7 +6,7 @@ summary: "Immune escape occurs when cancer cells survive by avoiding recognition
 glossary_anchor: "immune-escape"
 aliases: ["immune escape", "antigen escape"]
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]"]
 level: "intermediate"
 sensitive: false
 tags: ["education", "immunology"]
@@ -51,7 +51,7 @@ A fictional tumor keeps an antigen but loses the HLA allele used by an engineere
 
 ## Related concepts
 
-- [[Beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m)](/wiki/education/concepts/immunology/antigen-presentation/b2m)
+- [Beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m)
 - [Antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery)
 - [t cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
 - [Chimeric antigen receptor (CAR) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy)
@@ -69,6 +69,9 @@ Source check: October 8, 2026. This is a mechanism explanation, not a treatment 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+- [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
+- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
+- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

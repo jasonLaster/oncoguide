@@ -3,7 +3,7 @@ title: "Choose a target with a usable safety window"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
+updated: "2026-10-09"
 source_checked: "2026-10-08"
 reviewed: "pending"
 reviewed_by: ""
@@ -19,7 +19,7 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anato
 
 **A target must support enough tumor recognition while limiting harmful recognition of healthy tissue.** A disease name is not a target specification. This is step two of the [engineered-cell guide](/wiki/education/guides/engineered-cell-therapy/index).
 
-**Before you start:** [A chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) usually recognizes an accessible surface feature. [A conventional T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a peptide–human leukocyte antigen complex.
+**Before you start:** [A chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) usually recognizes an accessible surface feature. [A conventional T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a peptide–[[wiki/education/concepts/immunology/antigen-presentation/hla|human leukocyte antigen (HLA)]] complex.
 
 ## Where this step sits
 
@@ -51,7 +51,7 @@ Now add a healthy tissue with low X expression. Increasing sensitivity might imp
 
 ## On-target and off-target are different
 
-**On-target, off-tumor injury** occurs when the receptor correctly recognizes its intended antigen on healthy cells. **Off-target recognition** involves an unintended molecular target. A normal-tissue problem can exist even with a highly specific binder.
+[[wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity|On-target, off-tumor injury]] involves the intended antigen on healthy cells; **off-target recognition** involves an unintended molecular target. A normal-tissue problem can exist even with a highly specific binder. Use the concept page for the mechanism and a product-specific clinical example.
 
 A second target or a logic gate may broaden coverage or restrict activation. It also introduces a new design whose expression patterns, timing and failure behavior require testing. A diagram of two conditions does not prove a reliable safety system.
 

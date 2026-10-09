@@ -11,7 +11,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, breast-cancer]
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/index]]"]
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
 updated: 2026-10-08
 source_checked: 2026-10-08
 review_status: "Expert and learner review pending"
@@ -65,5 +65,10 @@ General teaching, source-checked October 8, 2026. The examples are hypothetical 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
+- [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
+- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
+- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 <!-- END GENERATED USED IN -->

@@ -1,73 +1,110 @@
 ---
-title: "How tumors escape a treatment"
-type: guide-lesson
+title: "Find the step an immune response can lose"
+type: "guide-lesson"
+guide: "how-the-immune-system-fights-cancer"
+step: 6
+minutes: 9
+objectives: ["Locate immune failure at target, display, access or cell function.", "Explain why a plausible bypass needs its own safety and clinical evidence."]
+prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self]]", "[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]"]
 sensitive: false
-tags: [education]
-updated: 2026-10-08
-review_status: source-checked; expert and learner review pending
-guide: oncology-101
-step: 8
-objectives: ["Explain how tumors escape a treatment and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+tags: ["education", "immunology"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# How tumors escape a treatment
+# Find the step an immune response can lose
 
-**Resistance can arise when tumor cells lose a target, bypass a pathway, prevent immune recognition, or tolerate the damage a treatment causes.** A mechanism suggests experiments; it does not automatically select the next drug.
+**An immune response can lose its target, its display route, its access or its ability to act. Name the failed step before proposing a way around it.**
 
-**Before you start:** [[wiki/education/concepts/immunology/antigen-presentation/hla|HLA]] displays peptides, and [[wiki/education/cellular-therapies/02-car-tcr-til-comparison|CAR-T and TCR-T]] recognize different kinds of targets.
+A treatment mechanism can sound elegant and still meet a roadblock. That is frustrating, but it gives us a useful reading habit: trace the route and ask which link the evidence actually tests.
 
-## Selection and new changes both matter
+**Before you start:** [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape) names the category. [The cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle) supplies the map. [Natural killer (NK) cells and missing self](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self) explains a different recognition system. [Checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) explain an intervention on immune regulation.
 
-A tumor is a mixed population. Treatment can select cells that already resist it. New changes can also arise during growth. Finding a change in a resistant biopsy does not establish that it caused resistance; comparison with earlier tissue and functional evidence help test that claim.
+## Where this step sits
 
-## Recognition has several failure points
+This is lesson 6 of [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). We use the earlier steps to interpret failure rather than treating “resistance” as one mechanism.
 
-Human leukocyte antigen (HLA) class I molecules display peptides to many CD8 T cells. Beta-2 microglobulin (B2M) supports the conventional class I complex. Loss of a presenting HLA allele, B2M disruption or altered antigen processing can weaken recognition.
+**Target → display → recognition → access and function → possible killing.**
 
-**Allele-specific loss is different from complete loss of presentation.** A receptor restricted to the lost allele may fail while receptors using retained alleles remain active. More targets do not overcome a shared failure of their presentation system. Reduced expression can also be reversible; a DNA deletion and an expression change are different findings.
+## Follow the route the therapy requires
 
-The small, single-arm TNBC-MERIT vaccine study includes an instructive B2M-loss relapse. It does not establish that this is the dominant TNBC resistance mechanism. The earlier “18% before treatment to 50% after six cycles” population claim was not supported by the cited evidence and has been removed. Evidence and assay questions belong in [[wiki/questions/hla-b2m-loss|the HLA/B2M assessment]].
+A conventional [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) reads a peptide together with its [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) holder. A tumor can lose the antigen, lose the relevant holder or change the machinery that generates display. These are different failures.
 
-## Match the broken step to the therapy
+A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) aimed at an accessible surface target usually uses a different recognition route. That can avoid the particular peptide–HLA dependency. It does not avoid target loss, poor access, suppressed function or healthy tissue carrying the target.
 
-| Therapy | Required step | Possible resistance mechanism | What would need testing |
-|---|---|---|---|
-| Vaccine or engineered TCR (T-cell receptor)-T | Intended peptide displayed by the matching HLA | Antigen loss, allele loss, processing failure | Target expression, retained alleles, presentation and recognition |
-| Surface-antigen CAR (chimeric antigen receptor)-T or antibody-based engager | Accessible surface target and competent effector cells | Target loss, poor access, suppressive environment | Target distribution, immune context and off-tumor binding |
-| TCR-based engager | Its specific peptide–HLA complex | Same display failures as other TCR-based approaches | HLA restriction and peptide presentation |
-| Antibody–drug conjugate | Binding, delivery and payload activity | Target changes, trafficking changes or payload resistance | Which step failed; a different payload is not automatically effective |
-| Targeted kinase inhibitor | Continued dependence on the inhibited pathway | Target mutation or bypass signaling | Pathway activity and causal dependence |
-| Radioligand | Adequate target uptake and absorbed dose | Heterogeneous uptake or repair/tolerance | Dosimetry, distribution and normal-tissue limits |
+The comparison is about requirements, not a ranking of therapies. Each finished product must show that its own route works in the intended setting.
 
-HLA-independent recognition does not mean resistance-free therapy. Surface targets can disappear, T cells can be excluded, and normal tissue can express the same target. Natural killer cells can respond to missing-self signals, but inhibitory and activating inputs determine their response; HLA loss does not guarantee NK killing.
+## Place immune treatments at their actual step
 
-## Why a combination needs its own evidence
+An immune checkpoint inhibitor blocks a specific inhibitory interaction. Blocking [programmed cell death protein 1 (PD-1) or programmed death-ligand 1 (PD-L1)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes that pathway. Blocking [cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes access to supporting activation signals. CTLA-4 is often emphasized during priming and PD-1 during tissue responses, but their effects are not confined to those places or stages. The canonical concept holds the detailed comparison.
 
-Two mechanisms may cover different vulnerabilities. They can also share resistance or add toxicity. A diagram showing complementary biology is a hypothesis, not proof of benefit. No universal rule supports a vendor “stack,” automatic checkpoint switch, or ablation for any blood-positive lesion.
+Neither intervention installs a new target receptor or rebuilds a lost HLA holder. That matters when reading a proposed combination:
 
-For a confirmed recurrence, clinicians first establish the extent and setting of disease. Biopsy and molecular results can inform an evidence-based treatment or a trial discussion. A ctDNA (circulating tumor DNA) result alone does not show which escape mechanism is present.
+| Intervention | Input it tries to change | Requirement still open |
+|---|---|---|
+| Checkpoint blockade | A particular inhibitory interaction | Suitable recognition and cells able to respond |
+| [Treatment vaccine](/wiki/education/guides/personalized-cancer-vaccine/index) | Target-directed priming and response | Natural tumor display and useful function |
+| [Cytokine therapy](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) | Signals affecting cell growth or function | Target specificity and a safe response |
+| [Engineered cells](/wiki/education/guides/engineered-cell-therapy/index) | The responders and their recognition route | Target availability, access and safe activity |
+
+The table describes intended jobs, not guaranteed outcomes. A checkpoint combination also changes safety questions: [immune-related adverse events (irAEs)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event) can involve healthy organs and can start after treatment ends. A plausible immune benefit does not establish a tolerable regimen.
+
+## A worked example: the target remains, the holder changes
+
+Imagine a fictional tumor still makes protein A. An engineered TCR recognizes a fragment of A only when HLA allele X displays it. A later sample shows loss of X.
+
+More copies of the same TCR do not restore the missing holder. Adding more target peptides that all depend on X may not solve the shared problem either. A retained HLA allele might support another recognition route, but that requires new evidence of display, recognition and safety.
+
+Now change the scenario. Instead of a gene deletion, the sample shows reduced display under one condition. Expression can change without permanent deletion. Reversibility becomes a testable question. The report should distinguish a sequence change from a protein-expression observation.
+
+## Several failures can coexist
+
+| Possible bottleneck | What to test | What the label alone cannot tell you |
+|---|---|---|
+| Antigen loss | Target expression across relevant regions | Whether every site lost the target |
+| Display failure | Retained HLA, processing and presentation | Which alternative receptor would work |
+| Access limitation | Cell location, vessels, tissue context | Which barrier is causal |
+| Functional limitation | State and controlled response assays | Whether one checkpoint intervention reverses it |
+| Shared healthy-tissue target | Relevant normal-tissue recognition | Whether an apparent tumor response has a usable safety window |
+
+A tumor can contain several cell populations. Treatment can select a pre-existing resistant population; new changes can also appear over time. Finding a change in resistant tissue therefore starts a causal question. Earlier samples and functional comparisons help answer it.
+
+## What can go wrong at this step
+
+The tempting shortcut is a rescue story: “This system failed, so the other system will work.” Losing one HLA allele does not guarantee NK killing. Missing-self recognition depends on activating and inhibitory inputs, the NK population and its environment.
+
+Another shortcut is a combination diagram. Two arrows aimed at different obstacles may represent a reasonable hypothesis. They do not establish useful sequencing, safe dosing or clinical benefit together. A combination can also share a failure point or increase toxicity.
+
+Finally, a blood marker does not identify an escape mechanism by itself. It can signal a change in sampled tumor material without explaining target loss, access or cell state. Mechanism testing and disease assessment answer different questions.
 
 ## Try it
 
-A TCR-T target peptide remains expressed, but the tumor has lost that receptor’s presenting HLA allele. Would adding more copies of the same TCR solve the problem?
+Three target peptides are added to a design. All require the same HLA allele, which the tested cancer cells have lost. Does the larger target count establish broader effective coverage?
 
-**Answer:** It would not restore the missing display complex. Another retained allele might support another target, but that requires new validation.
+**Answer:** No. The three candidates share a display dependency. Broader effective coverage would require validated targets using a functioning recognition route, not merely more entries on a list.
 
 ## Explain it back
 
-“Before calling a finding a rescue strategy, I need to show which step broke, whether the alternative bypasses it, and what clinical evidence supports the alternative.”
+“A proposed bypass must show ___, then ___.”
+
+One possible answer: “that it avoids the measured failure; that the new route works safely and has appropriate clinical evidence.”
 
 ## Takeaway
 
-**Identify and test the failed step; do not turn a plausible bypass into a treatment instruction.**
+**A different route creates a new set of testable requirements; it is not an automatic rescue.**
+
+**Next:** [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison), then explore [vaccine design](/wiki/education/guides/personalized-cancer-vaccine/index) or [engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index).
 
 ## Sources and scope
 
-General mechanisms, source-checked October 8, 2026; expert and learner review pending.
+Source check: October 9, 2026. General immune-escape reasoning; the allele-loss scenario is fictional. Expert and learner review remain pending.
 
-- [TNBC-MERIT primary vaccine study](https://www.nature.com/articles/s41586-025-10004-2).
-- [[wiki/questions/hla-b2m-loss|Source assessment of HLA loss]].
-- [[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence|Evidence needed for cell therapy]].
+- [Chen and Mellman, 2013: the cancer-immunity cycle](https://pubmed.ncbi.nlm.nih.gov/23890059/).
+- [Zaretsky et al., 2016: acquired resistance in melanoma](https://pubmed.ncbi.nlm.nih.gov/27433843/) — a small mechanistic study in a specific cancer setting, not a universal frequency estimate.
+- [Kärre et al., 1986: missing-self recognition in mouse lymphoma](https://pubmed.ncbi.nlm.nih.gov/3951539/).
+- [NCI: T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
+- [Qureshi et al., 2011: CTLA-4 regulates supporting ligands](https://pubmed.ncbi.nlm.nih.gov/21474713/) — a mechanistic experiment, not a clinical combination comparison.
+- [Brahmer et al., 2021: Society for Immunotherapy of Cancer guideline on checkpoint-related adverse events](https://pmc.ncbi.nlm.nih.gov/articles/PMC8237720/).

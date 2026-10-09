@@ -12,7 +12,7 @@ source_checked: "2026-10-08"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-08"
+updated: "2026-10-09"
 ---
 
 # Cytokines and programmable receptors
@@ -25,25 +25,25 @@ Before this lesson: [[wiki/education/cellular-therapies/06-in-vivo-delivery|How 
 
 ## Message, receiver, and response
 
-<img src="https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-light.png" alt="A cytokine binds a receptor and changes intracellular signaling and cell behavior" data-theme-pair>
+<img src="./images/cytokine-message-and-receptor-light.png" alt="A cytokine binds a receptor and changes intracellular signaling and cell behavior" data-theme-pair>
 
 *Supportive signaling is a separate job from recognizing a tumor antigen.*
 
 View full-size: [light illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-light.png) · [dark illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-dark.png).
 
-A **cytokine** is a signaling protein. A **receptor** receives a compatible signal. A **signaling pathway** relays that information inside the cell. The resulting **phenotype** is the cell's observable state or behavior.
+[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine|Cytokines]] are signaling proteins; [[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor|receptors]] receive compatible signals. Follow the response into the cell: a **signaling pathway** relays information, and the resulting **phenotype** is its observable state or behavior.
 
 The sequence is:
 
 **Extracellular signal → receptor activation → intracellular signaling → altered cell behavior.**
 
-A cytokine does not carry a literal command such as “cure cancer.” The response depends on the receptor, dose, duration, cell type, and other signals. The same cytokine can affect different cell populations differently. For example, IL-2 can support both effector T cells and regulatory T cells; more signaling is not automatically better for antitumor activity.
+A cytokine does not carry a literal command such as “cure cancer.” The response depends on the receptor, dose, duration, cell type, and other signals. The same cytokine can affect different cell populations differently. For example, interleukin-2 (IL-2) can support both effector T cells and regulatory T cells; more signaling is not automatically better for antitumor activity.
 
 **Cytokines are messages, not nutritional fuel.** Cells still require nutrients and suitable metabolic conditions to act on a signal.
 
 ## What happens inside the membrane
 
-Many cytokine receptors use **JAK–STAT signaling**. JAK proteins are enzymes associated with the receptor; activation can add phosphate groups to signaling proteins. STAT proteins can then influence which genes are expressed. This links an external message to a change in the cell's internal program.
+Many cytokine receptors use **Janus kinase–signal transducer and activator of transcription (JAK–STAT) signaling**. JAK proteins are enzymes associated with the receptor; activation can add phosphate groups to signaling proteins. STAT proteins can then influence which genes are expressed. This links an external message to a change in the cell's internal program.
 
 That is one common route, not the only route. Cytokine receptors can engage other pathways, and receptor activation has feedback and timing effects. A diagram with one arrow summarizes a network, not a guaranteed response. Synthetic-receptor experiments demonstrate that changing the receptor's external trigger can still activate selected intracellular pathways. [1]
 

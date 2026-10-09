@@ -1,86 +1,92 @@
 ---
-title: "Spatial biology: where are the cells?"
-type: guide-lesson
+title: "Add the geography of cells and signals"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 12
+minutes: 10
+objectives: ["Separate immune-cell abundance from location.", "Distinguish direct spatial measurement from computational prediction."]
+prerequisites: ["[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
 sensitive: false
-tags: [education]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: molecular-profiling
-step: 4
-objectives: ["Explain spatial biology: where are the cells? and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Spatial biology: where are the cells?
+# Add the geography of cells and signals
 
-**Spatial measurements preserve location so we can distinguish who is present from who reaches the tumor.** Bulk measurements blend contributions from different cells and regions.
+**Spatial methods keep location attached to a measurement. They help show which cells and neighbors supplied a signal.**
 
-**Before you start:** [[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue|Tissue contains cancer and normal neighbors]]. [[wiki/education/concepts/immunology/antigen-presentation/hla|HLA]] describes peptide display. [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Biomarker evidence]] separates association from treatment selection.
+**Before you start:** [[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry|Immunohistochemistry (IHC)]] preserves tissue location. [[wiki/education/concepts/measurement/pathology-readouts/stil-scoring|Stromal tumor-infiltrating lymphocyte (TIL) scoring]] defines the denominator. [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Heterogeneity]] explains regional differences. [[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster|Immune-cell families]] identifies the neighbors.
 
-## Count and geography are different axes
+## Where this step sits
 
-An inflamed region contains immune cells among malignant cells. An excluded region has immune cells concentrated in surrounding stroma or at a boundary. A desert region has few relevant immune cells. These are useful patterns, not three exhaustive permanent categories for every tumor.
+This is step 12 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. A head count and a seating chart describe different features of the same room. Tissue measurements also need both abundance and geography. Lots of immune cells nearby do not establish that they enter the malignant nests.
 
-```mermaid
-flowchart TD
-  A[Measure abundance and location separately]
-  A --> B[Immune-rich and intratumoral]
-  A --> C[Immune-rich but outside malignant nests]
-  A --> D[Low immune abundance in the sampled region]
-```
+## A map can answer a new question
 
-*The first two can have similar bulk abundance; a genuine desert need not have that same abundance.*
+An **inflamed** pattern has relevant immune cells among malignant cells. An **excluded** pattern has them concentrated at a boundary or surrounding stroma. A **desert** pattern has few relevant immune cells in the assessed region. These are useful descriptions, rather than exhaustive permanent labels.
 
-The earlier image and diagram asserted an identical “20% T cells” for all three patterns and assigned guaranteed checkpoint outcomes. They have been replaced. Location can add information, but no pattern alone proves that pembrolizumab will work or that a stromal therapy should be added.
+An inflamed and an excluded region can have similar total immune abundance. A desert need not have that same abundance. No one pattern alone establishes that a checkpoint inhibitor will work or that another treatment should be added.
 
-## Which methods answer which question?
-
-| Method | Measured quantity | Main limit |
+| Method | What it measures | Main interpretation issue |
 |---|---|---|
-| H&E review and stromal TIL score | Fraction of evaluated tumor-associated stromal area occupied by mononuclear inflammatory cells | Does not type every lymphocyte or establish tumor specificity |
-| Immunohistochemistry | Protein staining with morphology | Marker, localization, scoring and controls matter |
-| Multiplex immunofluorescence | Several protein markers with coordinates | Segmentation, marker quality and phenotype definitions can introduce errors |
-| Spatial RNA assay | Captured transcripts assigned to locations | Resolution and coverage are platform-specific; assignment may include modeling |
-| Computational inference from an image | Predicted feature under a trained model | A prediction is different from measuring that molecular feature |
+| Hematoxylin and eosin (H&E) microscopy | Morphology and eligible stromal inflammatory-cell area | Does not identify every functional immune subtype |
+| IHC | Selected proteins with tissue location | Antibody, scoring and cell assignment |
+| Multiplex immunofluorescence | Several protein markers with coordinates | Marker quality and segmentation |
+| Spatial RNA assay | Captured messages at locations | Platform-specific coverage and resolution |
+| Model inferred from an image | A predicted feature | Validation of the prediction in the intended population |
 
-A stromal tumor-infiltrating lymphocyte (sTIL) score uses a stromal-area denominator. It is not the fraction of all tumor cells that are CD8 T cells. H&E cannot alone distinguish all functional subtypes. A marker-positive population also need not be tumor-reactive.
+**Segmentation** assigns image regions to cells or structures. If boundaries are wrong, messages or stains can be assigned to the wrong neighbor. High coordinate precision does not guarantee a correct cell boundary.
 
-## Resolution is not one number
+## Resolution, section and region all matter
 
-A spot-based measurement can combine several cells. Imaging-based transcript methods may localize individual molecules, then assign them to cells through segmentation. More precise coordinates do not guarantee correct cell boundaries, complete detection or a clinically useful report.
+Some spatial assays sample spots containing several cells. Others localize molecules and assign them to segmented cells. Ask which physical quantity was directly measured and which assignments were inferred.
 
-Ask whether layers are measured on the same physical section or adjacent sections. Neighboring sections are similar, not identical. Preserve the sampled region, treatment time, tumor mask, units and segmentation uncertainty. Dissociation-based single-cell data can describe states while losing the original geography.
+Two methods can use the same section, adjacent sections or different blocks. Adjacent sections are similar but not identical. A small region can miss a relevant nest or immune pocket. Tissue orientation, sampling and treatment timing must remain attached to the map.
 
-## A worked interpretation
+Dissociated cell profiles can describe states while losing original geography. A reference model may suggest where those states belong, but modeled placement is a different claim from direct localization.
 
-A bulk specimen has substantial immune RNA. Spatial staining finds most CD8 cells outside malignant nests. These findings can agree: immune cells are present, but location matters. The next question is whether a validated comparison links that pattern to the intended outcome. It does not establish that adding anti-CTLA-4, ablation, antihistamines or FAP-targeted treatment improves benefit.
+## A worked apparent contradiction
 
-HLA (human leukocyte antigen) staining can show tumor-cell localization and patchiness; DNA analysis addresses allele loss. Protein expression and genomic loss are different quantities. Both may help investigate a hypothesis, but neither establishes a complete vaccine-selection rule.
+A fictional specimen has strong immune RNA. Spatial staining places most relevant T cells outside malignant nests. These findings can agree. The bulk profile says the cells contributed messages; the map says where many cells sat.
+
+The next question might concern access, target presentation or clinical association. It should not become an automatic instruction to add a stromal treatment. A location finding gives a biological question, while benefit needs the corresponding evidence.
+
+In another region, a protein signal appears mainly in vessels. Localization changes its interpretation as a tumor-cell delivery target. It does not erase the earlier bulk measurement; it tells us whose protein we measured.
+
+## What can go wrong at this step
+
+- Converting an sTIL score into a CD8-cell percentage.
+- Calling image-inferred RNA a measured transcript count.
+- Treating adjacent sections as exactly the same cells.
+- Reading a pattern label as a treatment-response guarantee.
+- Ignoring an uncertain malignant-cell mask.
 
 ## Try it
 
-A model infers a high spatial RNA value from H&E. Can the report call it a measured transcript count?
+A machine-learning model predicts a high gene value from H&E. Can its report call that a direct RNA measurement?
 
-**Answer:** No. Label it a model prediction and retain its validation scope. Direct assay counts are another evidence layer.
-
-**Explain it back:** “Abundance says how much; spatial analysis says where; function and clinical utility need further evidence.”
+**Answer:** No. It is a model prediction. State its training, validation and uncertainty, then distinguish it from an actual molecular assay.
 
 ## Explain it back
 
-Location adds context without becoming an automatic treatment instruction.
+“Abundance tells me ______; spatial analysis tells me ______; a model adds ______.”
+
+One answer: “how much was measured; where it was measured or assigned; an inference whose validation must be stated.”
 
 ## Takeaway
 
-**Location adds context without becoming an automatic treatment instruction.**
+**A tissue map adds context while preserving the difference between observation, assignment and prediction.**
 
-**Next:** [[wiki/education/molecular-profiling/05-functional-drug-response|Functional drug response]]. The concise immune-pattern reference is [[wiki/education/reading-a-tumor/immune-hot-vs-cold|hot, excluded and cold]].
+**Next:** [[wiki/education/molecular-profiling/05-functional-drug-response|Test a mechanism in a living model]].
 
 ## Sources and scope
 
-General assay teaching, source-checked October 8, 2026; expert and learner review pending.
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
 
-- [International TILs Working Group scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).
-- [[sources/research/papers/biorxiv/mukund-2025-spatially-distinct-cellular-molecular/mukund-2025-spatially-distinct-cellular-molecular-analysis|Spatial TNBC research, labeled preprint]].
-- [[sources/research/papers/bilous-2026-xenium-split/bilous-2026-xenium-split-analysis|Spatial transcript assignment and segmentation limitations]].
+- [Salgado et al., stromal TIL-scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).
+- [Kumar et al., primary spatial human breast atlas](https://www.nature.com/articles/s41586-023-06252-9).
+- [Single-cell morphological and topological breast-cancer atlas](https://www.nature.com/articles/s41467-023-42504-y).

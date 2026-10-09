@@ -1,53 +1,91 @@
 ---
-title: Epithelial cells and breast tissue
-tags: [education, epithelial, luminal, stroma]
+title: "See what is inside a tissue sample"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 2
+minutes: 8
+objectives: ["Distinguish normal epithelial cells from malignant cells.", "Explain why a tissue measurement can include normal neighbors."]
+prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
+sensitive: false
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
+reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Epithelial cells and breast tissue
+# See what is inside a tissue sample
 
-**Epithelial** is pronounced *eh-pih-THEE-lee-ul*. It describes cells that form linings and glands. **Epithelium** is the tissue they form. Skin, the gut lining, and breast ducts contain different kinds of epithelial cells. **Carcinoma** means a cancer arising from epithelial cells. Epithelial is a normal biological category; it does not itself mean malignant. [NCI: carcinoma and epithelial tissue](https://www.cancer.gov/about-cancer/understanding/what-is-cancer)
+**A tumor specimen is a piece of tissue, not a jar of pure cancer cells. Know the neighbors before interpreting its signal.**
 
-## Picture a breast duct from the inside out
+**Before you start:** [[wiki/education/concepts/biology-basics/genetics/central-dogma|Genes, messages and products]] separates the measured layers. [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Tumor heterogeneity]] explains why one sampled region may not represent every cancer cell.
 
-<img src="/api/file?path=wiki%2Feducation%2Fmulti-omics-foundations%2Fimages%2Fepithelial-duct-and-tissue-mixture-light.png" alt="normal breast duct layers and biopsy cell mixture cartoon" data-theme-pair>
+## Where this step sits
 
-<!-- Cartoon source: [generation prompt](/api/file?path=wiki%2Feducation%2Fimages%2Fprompts%2Fepithelial-duct-and-tissue-mixture.txt) -->
+This is step 2 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. The word **epithelial**, pronounced *eh-pih-THEE-lee-ul*, describes cells that form linings and glands. **Epithelium** is the tissue they form. Both normal breast cells and many breast-cancer cells belong to this family. **Carcinoma** is cancer arising from epithelial cells; epithelial by itself does not mean malignant.
 
-<!-- Theme asset: [dark variant](/api/file?path=wiki%2Feducation%2Fmulti-omics-foundations%2Fimages%2Fepithelial-duct-and-tissue-mixture-dark.png) -->
+## Picture the breast duct from the inside out
 
-*Conceptual illustration of normal duct layers and the cell families that can share a biopsy. Epithelial identity alone does not establish malignancy.*
+The **lumen** is the hollow space. **Luminal** means facing that space. A normal breast duct has inner luminal epithelial cells, an outer myoepithelial layer and a basement membrane. **Myoepithelial** cells have contractile features. The **basement membrane** is a thin support boundary beneath the epithelium.
 
-The **lumen** is the hollow space. **Luminal** means facing that space. Around it sit luminal epithelial cells, an outer myoepithelial layer, and a basement membrane. Outside is supporting tissue. This simplified cross-section describes normal organization; a tumor can disrupt it. [Normal human breast atlas](https://pmc.ncbi.nlm.nih.gov/articles/PMC11443819/)
+Outside those structures sits **stroma**, supporting tissue containing connective material, vessels and neighboring cells. **Fibroblasts** build and remodel extracellular material. **Endothelial** cells line blood vessels. Immune cells can also occupy this neighborhood.
 
-```mermaid
-flowchart TD
-    A["Lumen: hollow space"] --> B["Luminal epithelial cells: inner lining"]
-    B --> C["Myoepithelial cells: outer contractile layer"]
-    C --> D["Basement membrane: thin supporting boundary"]
-    D --> E["Stroma: connective tissue, vessels, and neighboring cells"]
-```
+These are normal architectural descriptions. A tumor can disrupt the organization. A pathologist interprets whether malignant cells have invaded surrounding tissue; a molecular epithelial label alone cannot answer that question.
 
-| Word | What to picture |
+## The sample is a neighborhood
+
+| Component | What it can contribute to a molecular report |
 |---|---|
-| **Duct** | A passage carrying milk toward the nipple |
-| **Lobule / alveolus** | Milk-producing glandular structures; alveoli are small secretory units within lobules |
-| **Luminal epithelial cell** | A cell on the inner side of a duct or gland; different luminal states have different hormone-response or secretory programs |
-| **Myoepithelial cell** | An epithelial cell with contractile features around ducts and glands; “myo” refers to those muscle-like features |
-| **Basement membrane** | A thin extracellular support layer beneath epithelium; invasion beyond this boundary is a pathology question |
-| **Stroma** | The supporting tissue surrounding the epithelial structures |
+| Malignant epithelial cells | Cancer-cell messages, proteins and acquired DNA changes |
+| Normal epithelial cells | Many of the same lineage markers and normal tissue functions |
+| Fibroblasts and other supporting cells | Matrix, signaling and connective-tissue programs |
+| Vessel cells | Vascular markers and proteins |
+| Immune cells | Antibody, inflammation and immune-response messages |
 
-The **stroma** includes connective tissue and vessels. **Fibroblasts** help build and remodel its extracellular matrix; **endothelial cells** line blood vessels. Immune cells can occupy this surrounding tissue too. **Extracellular matrix (ECM)** means material outside cells, including structural proteins such as collagen. [NCI: stroma](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/stroma)
+A bulk assay combines contributions from the piece it receives. The amount of RNA contributed need not be proportional to the number of cells. A small population with abundant messages can make a visible contribution.
 
-## Why a “tumor sample” contains normal cells
+An analyst may try to enrich malignant cells or assign individual cells to groups. Those steps can help, but the resulting label needs evidence. Cell appearance, multiple markers, acquired DNA changes and copy patterns can support malignancy. One epithelial marker cannot distinguish normal lining cells from cancer.
 
-A biopsy takes a piece of tissue. It can contain malignant epithelial cells, normal epithelial cells, fibroblasts, endothelial cells, and immune cells. A gene measured in that piece might come from any of them.
+## A worked example: choose the normal neighbor
 
-“Tumor versus normal epithelial” therefore compares two groups within the same broad cell family. It asks whether the cancer cells differ from an appropriate normal lining-cell population. Comparing cancer cells only with fibroblasts could make an ordinary epithelial marker look highly enriched.
+A fictional gene is high in cancer cells and low in fibroblasts. The first interpretation is “higher than fibroblasts.” That is an accurate comparison if the measurements are sound.
 
-In the October 4 [tumor-versus-normal report](https://github.com/jasonLaster/oncoomics/blob/6c4e5438ca135835f0d5196df6f1fea42c243036/results/diana_multiomic_review_20261004/step18-tumor-vs-normal-epi/tumor_vs_normal_report.md), the small normal luminal comparison group may contain tumor nuclei and background RNA. Its result raises a selectivity question; it does not establish a clean normal reference or quantify treatment toxicity.
+Now measure normal luminal epithelial cells. The gene is similarly high there. The stronger statement “cancer-selective” no longer follows. The original contrast mainly captured an epithelial-versus-supporting-cell difference.
 
-## Say it in your own words
+If the normal epithelial group is tiny or contaminated, the result becomes less certain. We should say the normal comparison is unresolved, rather than declaring either selectivity or perfect equality. A useful next step is a better matched comparator, with compatible preparation and clear cell labels.
 
-**“Epithelial means lining or gland-forming cells. Breast cancer cells come from that family, but normal breast lining cells are epithelial too. I need to know which group produced the signal.”**
+## What can go wrong at this step
 
-**Check yourself:** If a report says “epithelial cluster,” does that prove the cells are cancerous? **No.** Malignancy needs additional evidence. Continue to [[wiki/education/multi-omics-foundations/02-cell-identity-and-state|cell identity and state]].
+- Treating “tumor sample” as meaning every measured cell is malignant.
+- Using fibroblasts as the only normal comparison for an epithelial target.
+- Reading a basement-membrane drawing as a diagnostic image of an individual tumor.
+- Assuming a computational tumor mask cannot include normal epithelium.
+
+A **tumor mask** is an image-based assignment of a region or cells to the malignant compartment. It is an analysis aid, not a substitute for validating that assignment.
+
+## Try it
+
+A tissue profile contains a strong antibody-production signal. Does that establish that the cancer cells produce antibodies?
+
+**Answer:** No. Plasma cells and other immune populations can supply that RNA. The next question is which cells produced the signal, using a suitable cell-specific or spatial measurement.
+
+## Explain it back
+
+“Epithelial describes a ______. To call a cell malignant, I need ______. To interpret a bulk signal, I need ______.”
+
+One answer: “normal cell family; additional evidence of cancer; the sample's cell mixture.”
+
+## Takeaway
+
+**The right molecular question starts with the right cells and the right normal comparison.**
+
+**Next:** [[wiki/education/multi-omics-foundations/02-cell-identity-and-state|Separate cell identity from cell state]].
+
+## Sources and scope
+
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+
+- [Kumar et al., primary human breast atlas](https://www.nature.com/articles/s41586-023-06252-9).
+- [NCI SEER epithelial tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html).
+- [NCI stroma](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/stroma).

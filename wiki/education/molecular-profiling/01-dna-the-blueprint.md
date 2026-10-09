@@ -1,125 +1,94 @@
 ---
-title: "DNA \u2014 the blueprint"
-type: guide-lesson
+title: "Read a DNA assay as a coverage-and-confidence claim"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 9
+minutes: 10
+objectives: ["Match a DNA question to assay coverage and detectable change classes.", "Separate authentic sequence evidence from biological consequence."]
+prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"]
 sensitive: false
-reviewed: pending
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
-guide: molecular-profiling
-step: 1
-objectives: ["Interpret dNA \u2014 the blueprint without treating an observation as validated clinical benefit."]
-prerequisites: ["[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# DNA — the blueprint
+# Read a DNA assay as a coverage-and-confidence claim
 
-DNA sequencing examines the stored sequence of the tested cells. Tumor analysis asks which changes are acquired, how many copies of each region remain, and how confidently those findings describe the cancer-cell population.
+**A DNA assay describes sequence and copy evidence in its tested material. Coverage and confidence come before the treatment story.**
 
-<img src="/api/file?path=wiki%2Feducation%2Fmolecular-profiling%2Fimages%2Fdna-blueprint-with-errors-light.png" alt="Different classes of DNA changes in a blueprint analogy" data-theme-pair>
+**Before you start:** [[wiki/education/concepts/biology-basics/genetics/mutation-types|Mutation types]] names the edits. [[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic|Germline versus somatic]] names their origin. [[wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome|Panel, exome and genome sequencing]] names coverage. [[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction|Variant allele fraction (VAF) versus cancer cell fraction (CCF)]] names the mixture problem.
 
-Start with [[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones|Copies, alleles, and clones]] for allele, haplotype, LOH, purity, ploidy, VAF (variant allele fraction), and CCF. Use [[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair|Splicing and DNA repair]] to decode BRCA1 and TP53 splice notation.
+## Where this step sits
 
-## The main classes of DNA change
+This is step 9 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. A result table is a set of claims about observed sequence. Before interpreting what a change could do, check whether this assay could measure it reliably.
 
-| Class | What changed | What it does not establish alone |
-|---|---|---|
-| **SNV** | One DNA base | A damaging protein effect, driver role, or treatment response |
-| **Indel** | A small insertion or deletion | A frameshift; that depends on location and coding-frame consequences |
-| **Copy-number alteration (CNA/CNV)** | Number of copies of a DNA region | Which amplified gene matters or whether it is expressed |
-| **Structural variant (SV)** | Arrangement of DNA segments | An expressed fusion RNA or fusion protein |
-| **Mutational signature** | A statistical pattern across many mutations | A unique cause or a measured current functional state |
+## Match the question to the tested regions
 
-A **driver** contributes to cancer development or maintenance; a **passenger** accompanies the tumor without an established driving role. A predicted damaging variant is not automatically a driver. Calling a gene a driver also differs from proving a drug-sensitive dependency.
+A targeted panel samples predefined regions. An exome assay focuses on selected exonic regions and sometimes nearby splice boundaries. A genome assay examines a broader sequence landscape. These categories differ in scope, but scope is only one part of performance.
 
-## WES, WGS, and targeted panels
+For each candidate finding, ask whether the exact region and change class were in the assay's validated scope. A panel might detect a known alteration deeply and reliably. A broader research assay might discover a rearrangement outside that panel. Neither result automatically supersedes every feature of the other.
 
-| Method | Main coverage | Important limits |
-|---|---|---|
-| **WES — whole-exome sequencing** | Selected exonic regions, often including nearby splice boundaries | Coverage varies; many intronic rearrangements and noncoding regions are missed |
-| **WGS — whole-genome sequencing** | Broader coding and noncoding sequence | Broad coverage does not mean every base or variant is detectable; depth, mapping, and analysis matter |
-| **Targeted panel** | A predefined set of regions | Narrower scope, but often deeper coverage and a validated clinical workflow for its intended uses |
+## Build a small assay card
 
-WGS and WES offer broader discovery. They are not automatically a strict analytical or clinical substitute for every targeted test. Clinical reporting, variant classes, sensitivity, and companion-diagnostic requirements differ. Choosing a method requires the actual question and assay specification.
-
-**Depth / coverage** describes observations at a position or the fraction of a region adequately observed. Average depth does not guarantee coverage at every site. **Mapping** aligns short sequence reads to a reference; repeated or similar regions can create misleading alignments.
-
-## Somatic and germline
-
-**Germline** changes can be inherited. **Somatic** changes are acquired in a cell lineage. A tumor biopsy includes normal cells, so its DNA signal is a mixture.
-
-A **matched-normal** sample provides that person's non-tumor baseline. It helps identify somatic candidates and inherited variants; a clinical germline panel has its own tested regions, variant classes, quality standards, and reporting rules. Some tumor assays use tumor-only analysis, so matched-normal sequencing is a design choice rather than a universal feature.
-
-Clinical germline and tumor testing answer different questions. A research cross-check does not replace a clinical hereditary report.
-
-## Copies, clones, and confidence
-
-An allele-specific model estimates copy numbers from the two parental chromosome sides. **LOH** is loss of one distinguishable inherited version; total copy number can fall or remain unchanged. **Phasing** asks which chromosome copy carries a variant. **Biallelic inactivation** asks whether both functional gene copies are disabled in the relevant cells.
-
-**VAF** is the fraction of reads carrying a variant. **CCF** estimates the fraction of cancer cells carrying it. Purity and copy number connect those quantities; one cannot be substituted for the other. A **subclone** is a genetically distinct branch within the sampled cancer population. See [[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones|the worked VAF example]].
-
-**PASS** is a software filter result. **Consensus** describes agreement under a stated calling rule. Neither automatically means the variant is real or clinically validated. Independent supporting fragments, matched-normal evidence, positive controls, mapping review, and reproducibility strengthen the call. See [[wiki/education/multi-omics-foundations/07-comparisons-and-evidence|the evidence checklist]].
-
-## Mutational signatures and HRD scars
-
-```mermaid
-flowchart LR
-  A[Observed mutations] --> B[Fit a signature model]
-  B --> C[Estimate past mutational processes]
-  C --> D[Separately test current function and clinical eligibility]
-```
-
-*An HRD (homologous recombination deficiency)-associated pattern records evidence about past processes; it is not a treatment-selection result.*
-
-A signature estimates patterns in a mutation set. **SBS3** is associated with homologous-recombination deficiency, but its fit depends on mutation selection and analysis. Chromosome-scale **HRD scars** commonly combine LOH regions, telomeric allelic imbalance, and large-scale transitions under a specified method.
-
-A genomic-scar fit can change with purity and ploidy assumptions. Scars describe accumulated history and do not establish current repair failure or guaranteed drug response.
-
-Continue to [[wiki/education/molecular-profiling/hrd-parp-and-dianas-biology|HRD and PARP]] for mechanism and clinical interpretation.
-
-## What follows a DNA finding
-
-| DNA result | Next question |
+| Field | What to record |
 |---|---|
-| A candidate mutation | Is it authentic, acquired, and in the relevant cancer cells? |
-| A splice-site variant | What RNA products are actually made? |
-| A copy-number gain | Which genes are expressed, and what function matters? |
-| A structural rearrangement | Is there a reproducible RNA junction and relevant protein product? |
-| A possible neoantigen source | Is it expressed, processed, presented, and recognized? |
-| A repair scar | Is the corresponding repair defect still present? |
+| Input | Tissue or blood, preparation and sampled region |
+| Coverage | Targeted regions and usable observations at the location |
+| Change classes | Sequence substitutions, indels, copy changes and rearrangements actually analyzed |
+| Normal comparison | Matched normal, tumor-only inference or another design |
+| Output | Exact reference, variant notation, sequence support and copy-model uncertainty |
+| Validation | Research discovery or a clinical assay validated for the intended use |
 
-**Say it back:** “DNA identifies sequence and copy changes. RNA, protein, and functional evidence test the consequences.”
+Extraction uses finite material. Fixed tissue can suit validated DNA workflows, but preservation, damage and input requirements vary. Do not infer a universal tissue amount from the assay's broad label.
 
-Next: [[wiki/education/molecular-profiling/02-rna-the-activity-layer|RNA]]. For current patient results, use [[wiki/care/molecular-profile|Molecular profile]]; for repeated blood measurements, use [[wiki/education/molecular-profiling/06-ctdna-and-mrd|ctDNA and MRD]].
+## Confidence has several parts
 
+Software **PASS** means a call meets specified filters. Agreement between callers can reduce some errors, but shared alignments can preserve shared artifacts. Independent fragments, a suitable normal comparison, mapping review and reproducibility add different kinds of support.
 
-**Vocabulary:** ctDNA means circulating tumor DNA.
+Average depth does not guarantee depth at a specific position. A “not found” result needs its tested scope and detection limits. Read support can be affected by contamination or damaged material. The strongest report tells the reader which limitations apply to this call.
 
+## A worked finding: mutation plus copy loss
 
-**Vocabulary:** MRD means molecular residual disease.
+A fictional tumor has a splice-site change in repair gene R and loss of the other parental region. Its normal comparison does not show the variant within the assay's scope. A copy-aware model estimates that the retained cancer-cell copies carry it.
 
-## Sources
+Together, these observations support a somatic, potentially two-copy-disruption hypothesis. They do not show which RNA products were made or whether useful protein remains. If phase or copy-state alternatives are unresolved, preserve those alternatives before drawing the stronger mechanism.
 
-- [NHGRI: genetic and genomic definitions](https://www.genome.gov/genetics-glossary)
-- [[sources/research/syntheses/10-04-diana-multiomic-review/index|October 4 report collection]]
-- [[sources/research/syntheses/10-04-diana-multiomic-review/analysis|Findings and qualifications]]
-- [[wiki/education/multi-omics-foundations/index|Foundations and supporting scientific sources]]
+The next assay should test the proposed consequence. A splice question calls for suitable RNA-junction evidence. A predicted fusion calls for the relevant transcript or protein question. A copy gain calls for expression, localization or functional investigation as appropriate.
 
+## What can go wrong at this step
+
+- Equating a predicted damaging change with a functional loss.
+- Calling a research copy model a perfectly measured cell count.
+- Declaring a gene normal when its relevant change class was not assayed.
+- Replacing a clinical hereditary test with tumor-only inference.
+
+A useful sentence is: “This assay supports this specific DNA finding within this tested scope.” It leaves room for the next biological question without making the first finding sound weak.
 
 ## Try it
 
-An assay reports a striking value. Which sample, measurement method and comparator do you need before interpreting it?
+A tumor panel is negative, but it does not examine the intron containing a proposed rearrangement. Has it disproved the rearrangement?
 
-**Answer:** Identify the sampled cells, assay definition and reference group before moving from the number to a biological or treatment claim.
-
+**Answer:** No. Its negative result excludes qualifying findings within its actual scope. Another appropriately validated method is needed for the untested question.
 
 ## Explain it back
 
-The meaning of a measurement depends on its sample, method and comparison.
+“Before I interpret a DNA change, I check ______. Then I ask whether ______ was measured.”
+
+One answer: “region, change class, support and reference; the proposed RNA, protein or functional consequence.”
 
 ## Takeaway
 
-**The meaning of a measurement depends on its sample, method and comparison.**
+**A credible DNA finding is the beginning of a consequence test, rather than its conclusion.**
 
+**Next:** [[wiki/education/molecular-profiling/02-rna-the-activity-layer|Use RNA to test the message and its source]].
 
-## Applied to Diana
+## Sources and scope
 
-[[wiki/care/molecular-profile|The molecular profile]] owns current DNA/RNA interpretations.
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+
+- [NHGRI DNA-sequencing fact sheet](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet).
+- [Carter et al., purity and copy-aware DNA inference](https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/).
+- [HGVS exact variant descriptions](https://hgvs-nomenclature.org/stable/).

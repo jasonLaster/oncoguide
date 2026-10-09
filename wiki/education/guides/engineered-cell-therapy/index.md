@@ -3,8 +3,8 @@ title: "How engineered immune cells can attack a solid tumor"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -63,6 +63,8 @@ Suggested reading budgets help pace the course; they are not measured completion
 
 **Product and context:** [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape), [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) and the receptor concepts above. A mechanism explains a dependency; the trial or clinical owner establishes an option.
 
+**Manufacturing and safety:** [ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering), [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector), [good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), [cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome), [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) and [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity).
+
 ## Applied to Diana
 
 [The cell-therapy decision framework](/wiki/treatment/therapeutics/cell-therapy-decision-framework), [the HLA/B2M question](/wiki/questions/hla-b2m-loss) and [the care plan](/wiki/care/treatment-plan) own case suitability and current choices. [The therapeutic landscape](/wiki/treatment/therapeutics/car-t) owns dated programs and access evidence.
@@ -73,4 +75,4 @@ Delivery, receptor design and target selection interact. Findings in blood cance
 
 ## Sources and scope
 
-Source check: October 8, 2026; expert and learner review pending. The lessons cite their primary examples. [FDA product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products) separates product characterization and clinical development questions.
+Source check: October 9, 2026; expert and learner review pending. The lessons cite their primary examples. [FDA product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products) separates product characterization and clinical development questions.

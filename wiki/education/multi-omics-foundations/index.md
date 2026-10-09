@@ -1,53 +1,51 @@
 ---
-title: "Multi-omics foundations"
-tags: [education, multi-omics, epithelial, single-nucleus, terminology]
-type: navigation
+title: "Multi-omics foundations: the vocabulary lessons"
+type: "navigation"
 sensitive: false
-reviewed: pending
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Multi-omics foundations
+# Multi-omics foundations: the vocabulary lessons
 
-Start with **epithelial**: a cell family that forms linings and glands. In the breast, epithelial cells line ducts and milk-producing structures. Both normal breast cells and breast-cancer cells can be epithelial. That distinction unlocks much of the vocabulary in a multi-omics report.
+**Build the few distinctions that make a molecular report readable.** This is the supporting lesson library for [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics, one question at a time]]. The main guide supplies the complete order, assay lessons and clinical evidence bridge.
 
-This supporting course builds the vocabulary needed to discuss tumor reports. The goal path is [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. Each lesson pairs a cartoon with plain-language definitions, a sentence to practice, and a question to check your understanding. The examples teach how to interpret a finding. Diana's current results remain in the molecular profile and source reports.
+If you are new to biology, begin with genes, messages and products. If you already know those layers, start with the tissue mixture. You can pause whenever a distinction clicks; this is a conversation you are learning to follow, not an exam in gene names.
 
-## Start with the cells, then follow the measurements
+## Follow the foundations in order
 
-| Lesson | You will be able to explain | Vocabulary |
-|---|---|---|
-| [1. Epithelial cells and breast tissue](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue) | Why epithelial does not mean cancerous | Epithelium, lumen, duct, lobule, luminal, myoepithelial, basement membrane, stroma, fibroblast, endothelium |
-| [2. Cell identity, state, and subtype](/wiki/education/multi-omics-foundations/02-cell-identity-and-state) | How TNBC and a luminal-progenitor-like state can coexist | Malignant, lineage, progenitor, differentiation, basal, PAM50, EMT, keratin, marker, cluster |
-| [3. Reading RNA counts](/wiki/education/multi-omics-foundations/03-reading-rna-counts) | What single-nucleus RNA measures and where misleading signals arise | Bulk, scRNA-seq, snRNA-seq, barcode, droplet, UMI, ambient RNA, doublet, pseudobulk, CPM, TPM, detection fraction, module score |
-| [4. Copies, alleles, and clones](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones) | Why a variant percentage is different from the percentage of cancer cells carrying it | Somatic, germline, allele, haplotype, phasing, LOH, biallelic, copy number, amplicon, purity, ploidy, whole-genome doubling, VAF, CCF, clone |
-| [5. Splicing and DNA repair](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair) | How a DNA splice variant can affect RNA, and what an HRD scar records | Exon, intron, pre-mRNA, splice donor/acceptor, cryptic site, exon skipping, frameshift, premature stop, NMD, HRD, LST, TAI, SBS3, microhomology, POLQ, ATR |
-| [6. Immune presence and tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition) | Why an immune-rich sample does not prove tumor cells are being recognized | Antigen, neoantigen, HLA-I, B2M, antigen-processing machinery, interferon, sTIL, plasma cell, IgA, IgG, chemokine, CXCL12 |
-| [7. Comparisons and the evidence ladder](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence) | What must be checked before calling a gene a selective target or a dependency | Comparator, fold change, log2FC, percentile, batch effect, capture chemistry, enrichment, selectivity, localization, isoform, biomarker, dependency, validation |
+| Step | Lesson | You will be able to explain | Minutes |
+|---|---|---|---|
+| 1 | [Start with genes, RNA and protein](/wiki/education/multi-omics-foundations/00-genes-rna-and-protein) | Why a message is different from its product | 8 |
+| 2 | [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue) | Why normal neighbors can supply a signal | 8 |
+| 3 | [Separate cell identity from cell state](/wiki/education/multi-omics-foundations/02-cell-identity-and-state) | Why family, activity and clinical category differ | 8 |
+| 4 | [Read RNA counts without counting proteins](/wiki/education/multi-omics-foundations/03-reading-rna-counts) | What a captured count and its denominator mean | 10 |
+| 5 | [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones) | Why copy state changes a variant fraction | 10 |
+| 6 | [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair) | Why repair history differs from repair now | 10 |
+| 7 | [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition) | Why nearby immune cells are not proof of recognition | 10 |
+| 8 | [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence) | Why enrichment, selectivity and dependence differ | 10 |
 
 ## Translate a report sentence
 
-“The malignant epithelial pseudobulk shows a luminal-progenitor-like program” contains four separate ideas:
+“The malignant epithelial pseudobulk resembles a luminal-progenitor program” contains four separate claims.
 
-1. **Epithelial:** the family of cells being studied.
-2. **Malignant:** evidence identifies these as cancer cells.
-3. **Pseudobulk:** their RNA counts were pooled computationally.
-4. **Luminal-progenitor-like:** a group of expressed genes resembles a reference cell state.
+- **Epithelial:** a cell family that includes normal lining cells.
+- **Malignant:** additional evidence identifies cancer cells.
+- **Pseudobulk:** counts from a selected cell group were pooled computationally.
+- **Resembles:** an RNA pattern was compared with a reference program.
 
-A comfortable translation is: **“They grouped the cancer cells' RNA together and found a pattern resembling an immature breast lining-cell program.”** The word *resembling* matters: this does not prove the exact cell the cancer began in or change the clinical receptor diagnosis.
+A comfortable translation is: “They pooled the cancer-cell messages and found a pattern resembling a less mature breast lining-cell program.” This does not prove the cell the cancer began in or change a clinical receptor diagnosis.
 
-## A discussion card
+## Keep a small discussion card
 
-Before interpreting any new term, ask:
+For any new term, ask which cells supplied the signal, which object was measured and what comparison supports the adjective. Then ask whether the conclusion is observed, inferred, predicted or clinically validated. The next test should answer the missing claim.
 
-- Which cells or tissue piece supplied the signal?
-- Is this a DNA change, an RNA pattern, a protein measurement, or a functional test?
-- Compared with what, using which preparation and units?
-- Is the conclusion observed, inferred, predicted, or clinically validated?
-- What additional measurement would establish the next claim?
-
-Then return to [[wiki/education/reading-a-tumor/index|Reading a tumor report]] or [[wiki/education/molecular-profiling/index|the molecular-profiling course]] for the broader assay tour.
+When you are ready, continue to [[wiki/education/molecular-profiling/01-dna-the-blueprint|the DNA assay lesson]]. For a result in front of you, use [[wiki/education/reading-a-tumor/index|the report-reading checklist]].
 
 ## Sources and scope
 
-Each lesson links to scientific definitions, methods or primary studies supporting the biological explanation. These are vocabulary lessons, not a case-result summary. Expert and learner review remain pending.
+Source check: October 9, 2026. Each linked lesson has its own scientific sources, worked example and practice answer. Expert and learner review remain pending.

@@ -11,7 +11,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, breast-cancer]
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/index]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
 updated: 2026-10-08
 source_checked: 2026-10-08
 review_status: "Expert and learner review pending"
@@ -66,9 +66,11 @@ General teaching, source-checked October 8, 2026. The examples are hypothetical 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
+- [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
-- [Understand how standard treatment works](/wiki/education/guides/treating-early-tnbc/index)
-- [PARP, recycling, and cell survival](/wiki/education/molecular-profiling/parp-and-cell-survival/index)
-- [Oncology 101 — the minimum vocabulary](/wiki/education/oncology-101/index)
-- [Understand omics and multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
+- [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
+- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
+- [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
 <!-- END GENERATED USED IN -->

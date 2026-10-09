@@ -4,16 +4,16 @@ type: concept
 domain: evidence-and-statistics/tests-and-prediction
 summary: "Positive predictive value is the probability of the defined condition among people with a positive test result."
 glossary_anchor: ppv
-aliases: ["ppv"]
+aliases: ["ppv", "NPV", "negative predictive value", "base rate"]
 prerequisites: []
 reviewed: pending
 reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/index]]"]
-updated: 2026-10-08
-source_checked: 2026-10-08
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/index]]"]
+updated: 2026-10-09
+source_checked: 2026-10-09
 review_status: "Expert and learner review pending"
 ---
 
@@ -37,17 +37,29 @@ These measures also depend on the chosen threshold and reference standard. A res
 
 For a hypothetical test with 80% sensitivity and 90% specificity, consider 1,000 people with 10% prevalence. Of 100 affected people, 80 test positive. Of 900 unaffected people, 90 test positive. PPV is **80 / (80 + 90) = 47%**, despite specificity of 90%. At 50% prevalence, 400 true positives and 50 false positives give PPV of about 89%. These are arithmetic examples, not assay-validation results.
 
+**Negative predictive value (NPV)** asks the companion question: among those testing negative, what fraction lacks the defined condition? In the 10%-prevalence example, there are 810 true negatives and 20 false negatives. NPV is **810 / (810 + 20) = 97.6%**. At 50% prevalence, there are 450 true negatives and 100 false negatives, so NPV is about 81.8%.
+
+Here sensitivity and specificity were held fixed for a teaching calculation. In real studies, differences in disease spectrum, timing and thresholds can also change performance. A high NPV when the condition is uncommon is not proof that the test detects every affected person.
+
+| Start with this group | Ask this question | Measure |
+|---|---|---|
+| People with the condition | How many test positive? | Sensitivity |
+| People without the condition | How many test negative? | Specificity |
+| People who test positive | How many have the condition? | PPV |
+| People who test negative | How many lack the condition? | NPV |
+
 ## Why it matters in cancer
 
 It explains why specificity alone cannot establish the reliability of a positive result in a cancer-testing population.
 
 ## Worked example
 
-The early-response reference formerly said 90% specificity made a positive highly reliable. Specificity alone cannot answer that question. The worked counts above show exactly why the outcome’s frequency is needed before interpreting a positive.
+A fictional screening report advertises “90% specificity,” then claims every positive result is 90% likely to be correct. The counts above show why the conclusion needs the condition's frequency and sensitivity too. For a negative result, use the negative group as the denominator instead.
 
 ## Common confusions
 
 - 90% specificity is not 90% PPV.
+- NPV is not one minus sensitivity: they start with different groups.
 - A negative prediction of early shrinkage does not necessarily rule out eventual pCR.
 - AUC summarizes ranking across thresholds; PPV concerns a defined threshold and population.
 
@@ -57,7 +69,7 @@ The early-response reference formerly said 90% specificity made a positive highl
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+General teaching, source-checked October 9, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
 
 - [FDA guidance on diagnostic test statistical reporting](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
 - [NCI positive predictive value definition](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/positive-predictive-value).
@@ -65,5 +77,7 @@ General teaching, source-checked October 8, 2026. The examples are hypothetical 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
+- [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
+- [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 <!-- END GENERATED USED IN -->

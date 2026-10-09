@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync education content"
+  short_description: "Keep Diana and Oncoguide education content aligned"
+  default_prompt: "Use $sync-education-content to compare and synchronize the committed public education content in Diana and Oncoguide."

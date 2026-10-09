@@ -6,7 +6,7 @@ summary: "Immune cells perform different sensing, presentation, killing, antibod
 glossary_anchor: "immune-cell-roster"
 aliases: ["immune cells", "CD4", "CD8", "NK"]
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
@@ -69,4 +69,10 @@ Source check: October 8, 2026. This is a mechanism explanation, not a treatment 
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+- [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
+- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)
+- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
+- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
+- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

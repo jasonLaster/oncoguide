@@ -1,93 +1,122 @@
 ---
-title: "Verification and feedback loops"
-type: guide-lesson
-goal: "Distinguish evidence for target presence, immune recognition, laboratory killing and patient benefit."
-audience: "Curious reader; basic cancer vocabulary helpful"
+title: "Test clinical relevance and learn from feedback"
+type: "guide-lesson"
+guide: "predicting-response-before-treating"
+step: 3
+minutes: 12
+objectives: ["Distinguish an interpretable model response, clinical prediction and clinical utility.", "Design feedback that preserves the original prediction, independent outcomes and model version."]
+prerequisites: ["[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
 sensitive: false
-tags: [education]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: modeling-tumor-response
-step: 2
-objectives: ["Explain verification and feedback loops and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
-reviewed: pending
+tags: ["education", "functional-models"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Verification and feedback loops
+# Test clinical relevance and learn from feedback
 
-**You will be able to:** Distinguish evidence for target presence, immune recognition, laboratory killing and patient benefit.
+**A model response earns a clinical prediction through independent, intended-use validation; improving care is a further question.**
 
-Different tests check different links in a biological chain. Agreement is useful only after we name what each test actually measured. A sequence prediction, a mass-spectrometry result, a cell-killing experiment and a PET signal are not four versions of the same measurement.
+**Before you start:** [Analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) separates reliable measurement, relevant prediction and improved decisions. [Controlled perturbation](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls) supports an interpretable experiment. [Prognostic versus predictive evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) separates outcome association from treatment selection.
 
-**Before starting:** [HLA](/wiki/education/concepts/immunology/antigen-presentation/hla), [modeling tumor response](/wiki/education/modeling-tumor-response/index) and [prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive).
+## Where this step sits
 
-## Follow the claim through the chain
+This is step 3 of [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index). The first lessons chose and checked a model. This final step asks what independent evidence connects its result to the proposed decision, and how later observations should update that evidence.
+
+## Climb one claim at a time
+
+Think of a rehearsal that successfully tests one scene. It helps prepare the performance, but the audience response remains a new observation. A tumor model can also do its job well without answering every clinical question.
+
+| Evidence rung | What it supports | What remains open |
+|---|---|---|
+| Characterized model and reliable readout | A trustworthy measurement in a stated preparation | Whether the intervention response is interpretable |
+| Controlled perturbation | A response under the tested conditions | How closely it represents the relevant patient biology |
+| Mechanistic evidence | A particular explanation within the model | Delivery, achievable exposure and normal-tissue toxicity |
+| Independent clinical prediction study | Performance for the specified assay, population and endpoint | Whether acting on its result improves care |
+| Appropriate study of model-guided decisions | Clinical utility for its evaluated strategy and setting | Applicability to other settings and individuals |
+
+This is an evidence map, not a demand that every validated clinical biomarker be retested through every rung. Follow the evidence pathway for the actual intended use. Keep research discoveries and established treatment-selection tests accurately labeled.
+
+## Match the validation to the decision
+
+A useful validation description names the disease, treatment setting, specimen timing, assay version, drugs, decision rule and patient outcome. “Breast cancer validation” is too broad if the experiment used a particular chemotherapy before surgery and the proposed use is a different postoperative medicine.
+
+Separate the endpoint too. Tumor shrinkage on imaging, a pathology result, a blood signal and survival measure different outcomes. Agreement with one does not automatically validate the others. A combined regimen also complicates attributing response to a single component tested in the model.
+
+Report how many specimens could not yield a result and why. A high agreement rate among successfully established models describes that selected group. It does not tell us how often the strategy can supply an answer for everyone offered testing.
+
+A **prospective** evaluation fixes a prediction before observing the relevant outcome. A **retrospective** study looks back at already observed material and outcomes. Both can be informative. Independence, comparison and the intended question still matter; the label alone does not establish utility.
+
+## Work through a fictional transfer
+
+A laboratory's model predicts response to drug A in a defined advanced-cancer setting. Independent testing finds useful agreement with its prespecified imaging endpoint. The laboratory then proposes using the same score to choose postoperative drug B.
+
+Several bridges changed: the drug, treatment setting, disease state and relevant outcome. The earlier validation is useful background, but it did not test that new use. The appropriate next claim is that the strategy needs evaluation in the proposed setting, rather than that one published performance number travels unchanged.
+
+Now suppose an individual later improves after several treatments. That observation matters clinically. It cannot isolate which treatment caused the improvement or prove that the model selected the best option. A useful feedback record retains the complete treatment context.
+
+## Write the prediction before the outcome
+
+A disciplined feedback loop starts with a dated, versioned prediction and a defined assessment plan. Keep the following fields together:
+
+- The specimen and model version, including culture or passage history where relevant.
+- The predicted endpoint, threshold or ranking rule, and its uncertainty.
+- The drug exposure and clinical treatment context being evaluated.
+- The time window and independent method used to assess the outcome.
+- Failed, uninterpretable and discordant results as well as apparent successes.
+
+These are evaluation records, not a personal treatment or sampling schedule. Changing the rule after an outcome can generate a new hypothesis. It cannot rewrite the earlier prediction into a successful independent test.
 
 ```mermaid
-flowchart LR
-  A[Variant or target nominated] --> B[Relevant protein or peptide present]
-  B --> C[Recognition demonstrated]
-  C --> D[Functional effect demonstrated]
-  D --> E[Clinical benefit evaluated]
+flowchart TD
+  A["Record the prediction and version"] --> B["Measure an independent outcome"]
+  B --> C["Compare with the original rule"]
+  C --> D["Investigate agreement, discordance and failures"]
+  D --> E["Develop a revised model or hypothesis"]
+  E --> F["Evaluate on new reserved data"]
 ```
 
-*Each arrow needs evidence. Failure to detect a signal can also reflect the test's limitations.*
+*Learning from the test set creates a new model. That model needs another independent evaluation.*
 
-| Test | Supports | Does not establish alone |
-|---|---|---|
-| DNA or RNA sequencing | A variant or transcript in the sampled material | Surface protein abundance or immune recognition |
-| Immunohistochemistry or protein assays | Protein signal in a defined specimen and compartment | Safe targeting across all normal tissues |
-| Immunopeptidomics | Detection of selected peptides displayed on HLA (human leukocyte antigen) | Recognition by an effective T cell or completeness of the peptide list |
-| T-cell binding, activation and killing assays | Different steps in a functional immune response | Benefit or acceptable toxicity in a person |
-| Ex vivo drug testing | An effect under the assay's conditions | A validated patient-level ranking of treatments |
-| Target-specific PET | Tracer uptake across detectable locations | A direct count of target molecules or the therapeutic dose delivered |
-| Clinical trial | Outcomes for a population under a specified comparison | Certainty about an individual's outcome |
+## Treat disagreement as information
 
-## Detection is not an exhaustive census
+If the model responds and the patient does not, check model selection, exposure, cell composition, timing and the clinical endpoint. If a computer prediction differs from a living experiment, inspect inputs, task and portability. A disagreement need not have one simple explanation.
 
-Mass spectrometry has sampling, abundance and identification limits. A peptide absent from its results may be genuinely absent or below detection. A low fraction of computational candidates detected by mass spectrometry cannot be translated directly into the fraction of all predictions that are biologically wrong.
+[Blood monitoring](/wiki/education/molecular-profiling/06-ctdna-and-mrd), imaging and clinical assessment can supply complementary observations. A changing blood signal does not identify the effect of one drug, establish that every cancer site responded or measure every surviving population. Feedback should preserve those limits.
 
-Conversely, detecting a displayed peptide does not prove immunogenicity. T-cell receptors recognize a peptide–HLA combination, and relevant T cells must recognize, activate and kill. Specificity testing also matters: an engineered receptor can react with another peptide or tissue.
+## What can go wrong at this step
 
-## An immune assay needs immune controls
-
-Anti-PD-1 treatment acts through immune interactions. A tumor-only viability or mass-response score is insufficient to rank pembrolizumab versus another checkpoint inhibitor. An assay intended to compare them needs characterized immune populations, an interpretable endpoint, controls and independent validation for that intended use.
-
-A single person's response after several therapies cannot identify the contribution of one treatment or validate an assay's clinical utility. [Confounding and predictive claims](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) explain the distinction.
-
-## What granzyme-B imaging can add
-
-Granzyme B participates in cytotoxic immune responses from T cells and natural killer cells. Research PET tracers can provide a spatial readout related to this biology. The original experiments demonstrated response-associated imaging signals in tumor models; that is not a universally validated treatment-selection test.
-
-Uptake depends on tracer design, delivery, timing and clearance. A bright location is not a direct measurement of how many cancer cells were killed. A negative scan does not exclude all immune activity. Tracers for a target protein, granzyme B and glucose metabolism answer different questions.
-
-## Design a useful feedback loop
-
-Write down the prediction before obtaining the outcome. Fix the intended use, threshold, time window and comparator. Record failed or uninterpretable tests as well as successes. Validate on independent patients rather than changing the prediction until it fits the observed result.
-
-For monitoring, pair molecular measurements with clinical assessment and appropriate imaging. A falling ctDNA (circulating tumor DNA) result may support response; it does not prove that a specific clone was eradicated or that an unmeasured lesion disappeared.
+- A validated drug or disease setting is replaced by an untested one.
+- A model establishes a growth response, but the report promises patient survival.
+- Only successful cultures or favorable cases enter the headline.
+- The prediction is changed until it matches the observed outcome.
+- A revised model is evaluated on the same data used to revise it.
+- One person's course is treated as proof of comparative clinical benefit.
 
 ## Try it
 
-A peptide is predicted to bind HLA, detected by mass spectrometry and associated with an expanded T-cell clone. Which claim remains untested?
+A model made an incorrect prediction. Researchers inspect the outcome, adjust the threshold and now call the prediction correct. What has the adjustment established?
 
-**Explain it back:** Direct antigen-specific recognition and killing may still be untested, as are patient benefit and safety. Clonal expansion alone does not identify what the clone recognizes.
+**Answer:** It created a revised rule that fits this observation. The original prediction remains incorrect under its original rule. Evaluate the revision on new reserved data before claiming improved performance, and assess clinical utility separately.
 
 ## Explain it back
 
-Verification should test the next biological claim, then separately establish whether acting on the result helps patients.
+“The model supports ______ in ______. To use it for this decision, the missing evidence is ______. After updating it, we must ______.”
+
+One answer: “an interpretable laboratory response; the tested model and exposure; intended-use clinical validation; evaluate on independent new data.”
 
 ## Takeaway
 
-**Verification should test the next biological claim, then separately establish whether acting on the result helps patients.**
+**Preserve the original prediction, validate the actual decision and let feedback create a new testable claim.**
 
-## Sources
+**Next:** Revisit [the course map](/wiki/education/guides/predicting-response-before-treating/index), or [judge a test's validation claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation).
 
-Checked October 8, 2026.
+## Sources and scope
 
-- [Neal et al., immune organoid experiments](https://pubmed.ncbi.nlm.nih.gov/30550791/).
-- [Larimer et al., granzyme-B PET experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC5474226/) — preclinical imaging and translational observations.
-- [Dijkstra et al., functional tumor–lymphocyte co-cultures](https://pubmed.ncbi.nlm.nih.gov/30100188/).
-- [TCR cross-reactivity experiments](https://pubmed.ncbi.nlm.nih.gov/17559580/) — one receptor can recognize multiple peptide ligands.
+Source check: October 9, 2026. Model validation and feedback principles, rather than treatment advice. Expert and learner review remain pending.
+
+- [Ladan et al., 2023: a specified ex vivo assay and neoadjuvant breast-cancer response study](https://pubmed.ncbi.nlm.nih.gov/37777518/).
+- [Ahlmann-Eltze et al., 2025: task-specific independent perturbation evaluation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/).
+- [NCI biomarker testing: methods, clinical context and treatment evidence](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).

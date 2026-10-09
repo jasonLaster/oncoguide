@@ -1,0 +1,104 @@
+---
+title: "Read the jobs in the treatment plan"
+sensitive: false
+tags: ["education"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
+reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
+type: "guide-lesson"
+guide: "treating-early-tnbc"
+step: 1
+minutes: 11
+objectives: ["Identify the distinct jobs of systemic medicines and local treatment.", "Separate mechanism, evidence and safety in a combination."]
+prerequisites: ["[[wiki/education/concepts/therapeutics/chemotherapy/chemotherapy]]", "[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]"]
+---
+
+# Read the jobs in the treatment plan
+
+**Read a combination as several jobs that need clinical evidence and compatible delivery. A list of mechanisms alone does not establish a useful regimen.**
+
+**Before you start:** [Chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) introduces medicines that affect cellular processes. [Immune-checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) explains intervention in particular immune-regulatory interactions.
+
+## Where this step sits
+
+This is step 1 of [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index). Name the jobs before interpreting their calendar. The final lesson connects findings with the next questions.
+
+```mermaid
+flowchart TD
+  A[1. Treatment jobs] --> B[2. Timing and delivery]
+  B --> C[3. Findings and next questions]
+  classDef current fill:#dbeafe,stroke:#2563eb,color:#111827
+  class A current
+```
+
+## A team does not have one universal tool
+
+Imagine a plan containing systemic medicines, an operation and planned radiation. Medicines can reach tissues through the body. Surgery removes selected tissue. External-beam radiation delivers energy to planned volumes. These jobs can work together while asking different questions about benefit and risk.
+
+“Systemic” does not mean every cancer cell receives the same exposure or is sensitive to the medicine. “Local” does not mean unimportant to the whole treatment goal. The terms describe reach and roles; they are not a ranking of importance.
+
+[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) helps frame the receptor classification. It does not supply disease extent, previous treatment, eligibility or safety assessment.
+
+## Build a regimen card
+
+| Field | The question to ask |
+|---|---|
+| Setting and goal | What disease setting and treatment goal is this plan addressing? |
+| Mechanism | Which cellular or immune process does each medicine affect? |
+| Clinical evidence | Which population and comparison support this use? |
+| Delivery | What route, cadence and sequence were planned? |
+| Safety | Which risks, monitoring and supportive care accompany that delivery? |
+| Local treatment | What tissue or regional question does surgery or radiation address? |
+
+This card is a reading aid. It does not replace orders, consent or clinical assessment. It helps a reader notice when a proposed change supplies a mechanism but leaves the other fields blank.
+
+## Distinct mechanisms can bring distinct constraints
+
+Chemotherapy is a broad category, rather than one cell process. Its concept page describes important mechanism families. Checkpoint inhibition has another job: changing a specified regulatory interaction in immune responses. A treatment can combine cellular injury with immune modulation. Whether that combination helps is tested clinically.
+
+Distinct mechanisms can also bring overlapping harms. A side effect may interrupt one component while another can continue. The clinician must consider the actual drugs, their interactions and the purpose of each component. Adding a medicine is therefore more than adding a box to a diagram.
+
+Normal tissues remain part of the picture. A drug's activity against cancer cells does not establish cancer-only activity. Local treatment also needs a normal-tissue assessment: a radiation plan considers nearby structures as well as its intended target volume.
+
+## A worked proposal: fill in the missing fields
+
+Consider a fictional proposal to add a new pathway inhibitor to an established preoperative regimen. It includes a convincing mechanism diagram and cell-killing data from a laboratory model.
+
+Those observations belong in the mechanism and experimental-evidence fields. The proposal still needs evidence about the clinical population, combination, achievable exposure and toxicity. It also needs an explanation of where the intervention fits around surgery and the other medicines.
+
+The next statement is “this raises a combination question.” It is too early to conclude that adding a mechanism necessarily adds benefit. A pathway can matter biologically while the intervention is ineffective or difficult to deliver.
+
+## What can go wrong at this step
+
+- Calling every infusion chemotherapy hides differences among drug classes and immune treatment.
+- Calling systemic treatment a replacement for local treatment assumes an omission strategy has been established.
+- Borrowing a safety profile from one drug ignores the combination and schedule.
+- Borrowing supportive care from another regimen ignores its dose, route and risk profile.
+
+## Try it
+
+A fictional combination is described as “better because it attacks three mechanisms.” What would make that an assessable clinical claim?
+
+**Answer:** The population, comparator, outcome, follow-up, actual delivery and harms. Three mechanisms explain a rationale; a relevant study tests the benefit.
+
+## Explain it back
+
+“I can explain each part's job, then check ___ before judging the combination.”
+
+**One possible answer:** “I can explain each part's job, then check matched clinical evidence and compatible safety and delivery before judging the combination.”
+
+## Takeaway
+
+**A useful regimen needs more than a plausible collection of mechanisms.**
+
+**Next:** [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery).
+
+## Sources and scope
+
+General teaching, source-checked October 9, 2026; expert and learner review pending. The proposal is fictional.
+
+- [NCI: Chemotherapy](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy), for systemic and normal-tissue roles.
+- [NCI: Breast cancer surgery](https://www.cancer.gov/types/breast/treatment/surgery), for removal and node examination.
+- [NCI: Radiation for breast cancer](https://www.cancer.gov/types/breast/treatment/radiation), for external-beam treatment and normal-tissue risk.

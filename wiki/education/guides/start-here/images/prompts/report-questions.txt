@@ -1,0 +1,9 @@
+Create a four-panel educational cartoon titled “A report answers several questions.”
+Panel 1: A microscope beside a small schematic tissue pattern. Labels: “Appearance” and “Grade”.
+Panel 2: A laboratory result card with three blank test fields. Labels: “Receptor tests” and “Classification”. Do not show positive or negative results.
+Panel 3: Three separate schematic icons for a breast region, regional lymph nodes and other body sites, each with a question mark. Labels: “Anatomic extent” and “Tumor · nodes · distant spread”. Do not imply cancer is present in any pictured site.
+Panel 4: A specimen container, calendar and report. Labels: “Specimen and timing” and “What was sampled?” No patient identifiers or invented dates.
+Connect the four panels to a friendly reader holding a report. Final labels: “Different questions. Read together.” and “No single label is the whole picture.”
+Use rounded shapes, friendly cartoon proportions and clear sans-serif labels, in the style of the existing educational posters.
+Accuracy guardrails: grade describes microscopic features, not stage. Anatomic extent and receptor classification are distinct observations; breast prognostic staging may combine extent, grade and biomarkers. Show no prognosis, treatment recommendation or automatic outcome.
+No photography, logos, watermarks or additional text.

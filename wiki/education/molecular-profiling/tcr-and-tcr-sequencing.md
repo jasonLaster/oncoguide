@@ -3,7 +3,7 @@ title: "T-cell receptors and TCR sequencing"
 type: guide-lesson
 sensitive: false
 tags: [education]
-updated: 2026-10-08
+updated: 2026-10-09
 review_status: source-checked; expert and learner review pending
 guide: molecular-profiling
 step: 8
@@ -15,9 +15,9 @@ reviewed_by: ""
 
 # T-cell receptors and TCR sequencing
 
-**A T-cell receptor recognizes a peptide together with the HLA molecule displaying it; sequencing identifies receptor sequences, rather than proving what they recognize.**
+**A T-cell receptor recognizes a peptide together with the [human leukocyte antigen (HLA) molecule](/wiki/education/concepts/immunology/antigen-presentation/hla) displaying it; sequencing identifies receptor sequences, rather than proving what they recognize.**
 
-**Before you start:** [[wiki/education/concepts/immunology/antigen-presentation/hla|HLA]] is the display system. A peptide is a short protein fragment. This lesson explains what a receptor readout adds to those two pieces.
+**Before you start:** [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) displays fragments. [T-cell receptors (TCRs)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) inspect them. [The repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) describes the sampled set; [TCR sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) measures receptor sequences. This lesson connects those ideas to an assay report.
 
 ## Recognition is a three-part contact
 
@@ -35,11 +35,9 @@ flowchart LR
 
 *Display, recognition and response are separate steps.*
 
-## Diversity continues to change in adults
+## Repertoire change needs a comparison
 
-Developing T cells rearrange receptor gene segments in the thymus. Selection removes many cells that strongly react to self or cannot use HLA. The thymus produces fewer new cells with age, but it does not switch off at age 20. Existing naive T cells also maintain themselves through homeostatic proliferation.
-
-A vaccine mainly selects and expands pre-existing antigen-reactive clones. Expansion changes their frequency; it does not mean the vaccine rewrote their receptors. Infection, chemotherapy, aging and sampling can also alter the measured repertoire. A pre-dose sample offers a comparison point, not a complete archive of every receptor in the body.
+The [repertoire concept](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) explains receptor diversity, continued adult thymic output and clone maintenance. Here, the practical question is which changes a sampled report can show. Vaccination, infection, treatment and sampling can all change clone frequencies. A baseline draw gives a comparison point, not a complete archive of every receptor in the body.
 
 ## What each assay measures
 
@@ -56,7 +54,11 @@ Blood and tumor are different compartments. A clone abundant in blood might resp
 
 A clone rises from 0.1% to 2% of sampled blood receptors after vaccination. That is evidence of expansion in that compartment. It could reflect vaccine response, another immune event, or sampling variation. A paired functional assay against the intended peptide can strengthen the response claim. Tumor-cell killing and clinical benefit require further evidence.
 
-Extracting and expanding native antigen-reactive T cells is **adoptive transfer of selected cells**. Engineering cells to express a selected receptor is **engineered TCR-T**. They can share discovery assays, but differ in manufacturing, safety checks and regulatory requirements. Banking is neither a universal prerequisite nor a guarantee that a future product can be made. See [[wiki/questions/should-we-bank-leukopak|the collection decision]].
+Extracting and expanding native antigen-reactive T cells is **adoptive transfer of selected cells**. Engineering cells to express a selected receptor is **engineered TCR-T**. They can share discovery assays, but differ in manufacturing, safety checks and regulatory requirements. Banking is neither a universal prerequisite nor a guarantee that a future product can be made.
+
+## What can go wrong
+
+A dominant blood clone can be a viral response. A shared blood/tumor clone can still be a bystander. Culture can select particular clones, and read counts depend on the assay. Link [ELISpot](/wiki/education/concepts/measurement/immune-monitoring/elispot) or [multimer staining](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) to the exact sequence and specimen when connecting functional evidence.
 
 ## Try it
 
@@ -72,17 +74,11 @@ A clone expands after dosing but fails the intended-peptide stimulation test. Ca
 
 **Receptor identity, expansion, antigen recognition and clinical effect are four different claims.**
 
-**Next:** [[wiki/education/cellular-therapies/02-car-tcr-til-comparison|Compare CAR-T, TCR-T and TIL therapy]].
-
-
-**Vocabulary:** CAR means chimeric antigen receptor.
-
-
-**Vocabulary:** TIL means tumor-infiltrating lymphocyte.
+**Next:** [[wiki/education/cellular-therapies/02-car-tcr-til-comparison|Compare immune-cell recognition systems]].
 
 ## Sources and scope
 
-Source check: October 8, 2026; this is a general assay lesson. Expert and learner review remain pending.
+Source check: October 9, 2026; this is a general assay lesson. Expert and learner review remain pending.
 
 - [Adult thymic output measured with receptor-excision circles](https://pubmed.ncbi.nlm.nih.gov/9872319/).
 - [Primary study of TCR cross-reactivity](https://pubmed.ncbi.nlm.nih.gov/17559580/).

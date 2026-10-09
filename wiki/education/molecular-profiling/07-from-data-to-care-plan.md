@@ -1,76 +1,95 @@
 ---
-title: From a molecular finding to a treatment question
-type: guide-lesson
-guide: multi-omics
-step: 7
-level: intermediate
-updated: 2026-10-08
-objectives:
-  - Separate biological plausibility from a treatment indication.
-  - Identify missing evidence between a finding and clinical benefit.
-prerequisites:
-  - "[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"
-reviewed: pending
+title: "Build an integrated claim without skipping the clinical question"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 15
+minutes: 12
+objectives: ["Construct a specimen-attributed evidence chain across molecular layers.", "Identify independent evidence, conflicting findings and clinical gaps."]
+prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
+sensitive: false
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# From a molecular finding to a treatment question
+# Build an integrated claim without skipping the clinical question
 
-**Several tests can support the same biological story without proving that a drug will help a patient.** A result becomes useful when it answers a defined clinical question in the right treatment setting.
+**Integration is a careful argument: name the claim, connect compatible observations and state the gap before the clinical conclusion.**
 
-**Before you start:** [[wiki/education/reading-a-tumor/omics-and-multi-omics|Learn what the molecular layers measure]]. This final lesson asks how findings travel into a decision.
+**Before you start:** [[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|Actionability]] distinguishes a plausible target from an evidence-supported option. [[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic|Germline versus somatic]] preserves origin. [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic versus predictive evidence]] distinguishes association and selection. [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Heterogeneity]] preserves sampled scope.
 
-## Follow the claim through five gates
+## Where this step sits
 
-| Gate | Question | What still needs evidence |
-|---|---|---|
-| A real finding | Is the variant or measurement reproducible and from the tumor? | Sample quality, tumor purity, matched normal, and assay validity |
-| A biological effect | Does it change RNA, protein, or function? | A predicted effect is not a measured one |
-| A dependence | Does the tumor need this pathway to survive? | Activity alone does not establish dependence |
-| A usable treatment | Can a drug reach and inhibit that target safely? | Exposure, resistance, normal-tissue toxicity, and delivery |
-| Clinical benefit | Does treatment help people in this setting? | Population, comparator, outcomes, indication, and eligibility |
+This is step 15 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. After several reports, it is tempting to count how many agree. A stronger approach asks exactly what each one confirms. Five tests answering the same narrow question do not answer a sixth question they never measured.
 
-Independent agreement can strengthen a particular gate. It does not let a result skip later gates. Some validated biomarkers require one clinical assay; testing every molecular layer is not a prerequisite for effective standard care.
+## Follow one fictional repair finding
 
-## A worked example: a DNA-repair finding
+Here is the complete teaching case. Every value and observation is invented. The samples are attributed to the same pretreatment tissue region, except where the table names a derived model.
 
-Imagine a tumor with a BRCA1 alteration, reduced repair activity, and a strong response to a poly(ADP-ribose) polymerase (PARP) inhibitor in a model. These are made-up teaching observations.
+| Evidence | Observation | Claim strengthened | Gap that remains |
+|---|---|---|---|
+| DNA | A repair-gene R splice-site variant, with suitable sequence support | A candidate acquired sequence change | Its transcript consequence |
+| Copy model | Other parental side lost; retained-side assignment supported | A potential two-copy-disruption mechanism | Copy/phase uncertainty and actual function |
+| RNA | Reproducible abnormal junction in malignant-cell-enriched material | A changed message product | Intact protein and cellular location |
+| Protein | Reduced R staining in malignant cells, with suitable staining controls | A cell-specific protein-signal difference | Whether intact R remains; current repair capacity |
+| Function | A suitable model shows impaired repair with positive controls | Repair defect under those conditions | Fidelity to all original cells and timepoints |
+| Drug perturbation | Replicated model response at relevant exposure ranges | A drug-sensitivity hypothesis in the model | Safe exposure and patient benefit |
 
-Together they support a PARP-sensitivity hypothesis. They do not establish the U.S. adjuvant olaparib indication. That indication requires qualifying **germline** BRCA1/2 mutations and high-risk, HER2-negative early breast cancer after chemotherapy. A somatic alteration or homologous-recombination-deficiency (HRD (homologous recombination deficiency)) score does not substitute. [FDA approval](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-olaparib-adjuvant-treatment-high-risk-early-breast-cancer).
+This is more informative than “multi-omics found a repair problem.” It lets another reader inspect each step and see exactly where confidence changed.
 
-A metastatic trial, an expert-reviewed off-label discussion, and approved adjuvant treatment have separate evidence and eligibility. See [[wiki/education/molecular-profiling/hrd-parp-and-dianas-biology|The repair evidence layers]].
+## The clinical gate has a different job
 
-## Four tempting shortcuts
+Even when the biological chain is persuasive, treatment evidence still needs the disease, setting, comparator, outcome and eligibility. Standard clinical care does not require measuring every molecular layer for every validated biomarker. Follow the evidence pathway that applies to the actual decision.
 
-- **“The protein is abundant, so its drug is indicated.”** Expression supports target biology. An antibody–drug conjugate still needs the relevant clinical indication; research RNA or proteomics cannot replace required clinical pathology.
-- **“One checkpoint antibody scored higher, so switch drugs.”** A single unvalidated ex vivo result cannot establish clinical superiority. Technical variation, viability, exposure, and culture conditions must be assessed before proposing a biological explanation.
-- **“ctDNA is detectable, so ablate a small lesion.”** Circulating tumor DNA (ctDNA) does not locate a lesion. Confirmation, imaging, pathology, disease extent, and clinical evidence remain separate requirements.
-- **“No ctDNA was found, so recurrence risk is a fixed low percentage.”** A negative sample means no signal detected under that assay's conditions. It is not a personal forecast or evidence that indicated treatment can be omitted.
+For example, a somatic repair-gene finding and a genomic scar are not automatically substitutes for an eligibility rule requiring a qualifying germline variant. A model response also does not turn a metastatic study into adjuvant evidence. Check the current clinical reference when applying a drug-specific rule.
+
+The distinction is constructive: the result can support a research hypothesis, a confirmatory test or a trial question even when it does not support the stronger prescription claim.
+
+## Ask whether the observations are independent
+
+DNA, RNA and protein can strengthen a consequence chain because they inspect different objects. They remain linked biologically. They can also share specimen contamination, wrong cell assignments or the same assumed variant list.
+
+If three reports merely repeat one variant call, they are not three raw confirmations. If an RNA junction was independently measured, that adds a new observation. Write which kind of agreement occurred rather than counting report titles.
+
+## Treat disagreement as a clue
+
+Suppose a high RNA result and low protein result came from different tissue blocks after different treatment exposures. That is not yet a same-sample contradiction. Preserve the specimen map and dates before invoking unusual biology.
+
+If compatible samples still disagree, consider transcript forms, protein degradation, assay coverage and regional heterogeneity. A well-attributed unresolved conflict is more useful than forced agreement. State what next measurement could distinguish the explanations.
+
+## What can go wrong at this step
+
+- Linking a predicted variant to a pathway story before establishing the variant.
+- Treating activity as dependence or a drug list as clinical benefit.
+- Combining specimens without preserving their site, time and preparation.
+- Counting correlated observations as independent votes.
+- Declaring the whole tumor represented by one biopsy or culture.
 
 ## Try it
 
-A report shows increased AKT-pathway RNA and names an AKT inhibitor. Which gate has it reached?
+A report shows high RNA for pathway P and names a drug that inhibits it. Which steps are still missing?
 
-**Answer:** it may suggest activity. It has not yet demonstrated protein activation, dependence, drug sensitivity, or clinical benefit in this treatment setting.
+**Answer:** Depending on the mechanism, protein activation, relevant cell attribution, dependence, suitable exposure and clinical evidence may remain. The RNA observation suggests a question rather than answering them all.
 
 ## Explain it back
 
-“Agreement between tests strengthens ______, while a treatment choice also requires ______.”
+“Our integrated claim is ______. Its strongest direct evidence is ______. The untested bridge is ______.”
 
-One answer: “a specific biological claim; clinical evidence, eligibility, and a benefit–risk assessment.”
+One answer: “a current repair-defect hypothesis; compatible transcript, protein and controlled functional observations; clinical benefit in the intended setting.”
 
 ## Takeaway
 
-**Ask which claim each test supports and which gate remains untested.**
+**A useful integration names both the claim it supports and the bridge it has not crossed.**
 
-## Applied to Diana
-
-Current application belongs in [[wiki/care/molecular-profile|Diana's molecular profile]], [[wiki/care/treatment-plan|the treatment plan]], and [[wiki/questions/index|the decision pages]]. Ordering and timing belong in [[about/overview/test-tracker|the test tracker]].
+**Next:** [[wiki/education/reading-a-tumor/index|Use the report-reading checklist]].
 
 ## Sources and scope
 
-Source check: October 8, 2026. This lesson teaches reasoning, not a treatment prescription.
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
 
-- [FDA: adjuvant olaparib](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-olaparib-adjuvant-treatment-high-risk-early-breast-cancer).
-- [ESMO ctDNA recommendations](https://doi.org/10.1016/j.annonc.2022.05.520).
-- [[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence|Reading cell-therapy evidence]] — keeping evidence rungs separate.
+- [NCI biomarker testing: assay and treatment context](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).
+- [European Society for Medical Oncology (ESMO) 2022 circulating tumor DNA (ctDNA) recommendations](https://pubmed.ncbi.nlm.nih.gov/35809752/).
+- [[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|Actionability and clinical evidence]].

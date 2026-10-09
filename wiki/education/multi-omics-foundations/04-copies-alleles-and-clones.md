@@ -1,80 +1,94 @@
 ---
-title: "Copies, alleles, and clones"
-tags: [education, genomics, copy-number, LOH, clonality]
-type: guide-lesson
+title: "Separate DNA copies from cancer-cell fractions"
+type: "guide-lesson"
+guide: "what-multi-omics-tells-us"
+step: 5
+minutes: 10
+objectives: ["Distinguish sequence versions, copy number and loss of an inherited version.", "Explain a variant read fraction using purity and local copy state."]
+prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 sensitive: false
-reviewed: pending
+tags: ["education", "multi-omics"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
 reviewed_by: ""
-guide: multi-omics-foundations
-step: 4
-objectives: ["Interpret copies, alleles, and clones without treating an observation as validated clinical benefit."]
-prerequisites: ["[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Copies, alleles, and clones
+# Separate DNA copies from cancer-cell fractions
 
-A tumor DNA result describes a mixture of genomes. To interpret it, separate **which sequence version exists**, **how many copies exist**, and **which cells carry it**.
+**Which sequence version, how many copies, and how many cancer cells? Keep those three questions separate.**
 
-## Sequence versions and parental copies
+**Before you start:** [[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic|Germline versus somatic]] distinguishes variant origin. [[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction|Variant allele fraction (VAF) versus cancer cell fraction (CCF)]] supplies the mixture model. [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Tumor heterogeneity]] explains branches within a cancer.
 
-An **allele** is a sequence version at a genomic location. **Heterozygous** means two different versions are present; **homozygous** means the versions match. A **haplotype** is a set of nearby variants carried together on a chromosome. **Phasing** assigns variants to those chromosome copies. [NHGRI: allele](https://www.genome.gov/genetics-glossary/Allele), [haplotype](https://www.genome.gov/genetics-glossary/haplotype)
+## Where this step sits
 
-**Germline** variants can be inherited and occur broadly across the body's cells. **Somatic** variants are acquired in a cell lineage. **Matched normal** means a non-tumor comparison sample from the same person, used to help distinguish acquired tumor changes from their baseline DNA. A research matched-normal analysis and a clinical hereditary-risk test have different validation and reporting scopes.
+This is step 5 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. When a report says “one copy lost,” it describes a physical count. When it says “function lost,” it describes a biological effect. The two can connect, but the connection must be established.
 
-## Copy number and LOH
+## First name the sequence versions
 
-<img src="/api/file?path=wiki%2Feducation%2Fmulti-omics-foundations%2Fimages%2Fcopy-number-and-loh-light.png" alt="Four cells illustrate two parental copies, deletion, copy-neutral loss and copy gain" data-theme-pair>
+An **allele** is a sequence version at a location. In an ordinary diploid region, a cell has two chromosome copies, one from each parental side. **Heterozygous** means the versions differ; **homozygous** means they match.
 
-*Copy number and loss of a parental version are different descriptions; neither measures gene function.*
+A **haplotype** is a group of nearby variants carried together on a chromosome. **Phasing** assigns variants to chromosome copies. It can help answer whether two changes lie on the same side. It is different from estimating the fraction of cancer cells carrying a change.
 
-<!-- Cartoon source: [generation prompt](/api/file?path=wiki%2Feducation%2Fimages%2Fprompts%2Fcopy-number-and-loh.txt) -->
+## Then count the local copies
 
-<!-- Theme asset: [dark variant](/api/file?path=wiki%2Feducation%2Fmulti-omics-foundations%2Fimages%2Fcopy-number-and-loh-dark.png) -->
+**Copy number** describes how many copies of a DNA region exist. **Allele-specific copy number** estimates contributions from the two parental sides. **Loss of heterozygosity (LOH)** means one distinguishable inherited version has been lost from the relevant population. Total copies can fall or remain the same.
 
-*Copies of one region, with A and B representing inherited versions. Losing B does not establish that A is nonfunctional.*
-
-**Copy number** is the number of copies of a DNA region. **Allele-specific copy number** separates the contributions of the two parental chromosome copies. **LOH**, loss of heterozygosity, means the loss of one of the distinguishable inherited versions. It can arise through deletion or through replacement/duplication that preserves total copy number.
-
-| Simplified state | Copies from the two parental sides | Meaning |
+| Idealized local state | Copies from parental sides | What it says |
 |---|---|---|
-| Ordinary diploid region | 1 + 1 | Both sides represented |
+| Ordinary diploid | 1 + 1 | Both sides represented |
 | Deletion with LOH | 1 + 0 | One side lost |
-| Copy-neutral LOH | 2 + 0 | Two copies remain, both from one side |
-| Gain with both sides retained | 2 + 1 | Extra copy, without complete loss of either side |
+| Copy-neutral LOH | 2 + 0 | Two copies remain, from one side |
+| Gain with both sides retained | 2 + 1 | An extra copy, both sides still present |
 
-**Biallelic inactivation** means both functional gene copies are disabled. A mutation plus deletion can support this if the mutation is on the retained copy in the same cancer-cell population. LOH alone does not establish that the retained gene is nonfunctional. [NHGRI: LOH](https://www.genome.gov/genetics-glossary/Loss-of-Heterozygosity-LOH), [Carter et al.: absolute copy-number analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/)
+Letters used for parental sides do not identify good and bad copies. LOH alone does not say the retained gene is disabled. **Biallelic inactivation** asks whether both functional copies are disabled in the relevant cells. A damaging variant on the retained side plus loss of the other can support that mechanism, provided the phase and cell population fit.
 
-**Amplification** is an increase in gene/region copy number. An **amplicon** is an amplified DNA segment that may contain several neighboring genes. **Structural variants** rearrange larger DNA segments; **tandem duplication** repeats a segment next to itself. A **fusion** joins sequences from different genes, but a DNA rearrangement does not guarantee an expressed fusion RNA or protein.
+An **amplicon** is an amplified segment that can contain several genes. More copies need not make every gene more active or identify the gene driving the cancer.
 
-## Purity and ploidy
+## Account for the mixture
 
-**Purity** estimates how much of the tested material comes from cancer cells. Specify whether a number refers to cells, DNA, or a model estimate. **Ploidy** describes genome copy content; tumor analyses often report average copy number across the genome. **Whole-genome doubling** is a past duplication of the genome. Subsequent gains and losses can obscure that history. Purity and ploidy are fitted together, and more than one plausible fit may explain the data. [ABSOLUTE primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/)
+**Purity** describes the cancer-cell contribution under a stated definition. A model's cell purity and a directly measured DNA fraction need not be the same quantity. **Ploidy** describes genome copy content; a tumor report often gives an average across the genome. Whole-genome doubling can be followed by losses and gains, so a later genome is not a neat four-copy book.
 
-## VAF is different from CCF
+Purity and ploidy are estimated together in many analyses. More than one plausible solution can explain the observations. Preserve the alternatives rather than turning one selected fit into a perfect cell count.
 
-**VAF**, variant allele fraction, is the proportion of usable reads at a site carrying the alternate base. **CCF**, cancer cell fraction, estimates the proportion of cancer cells carrying the alteration, accounting for purity and copy state. A **clone** shares acquired DNA changes; a **subclone** is a branch within that population. “Clonal” is always relative to the sampled tumor and the model.
+## A worked example: two different read fractions
 
-**Hypothetical example:** A diploid sample is half cancer cells. Each cancer cell has one mutated copy; normal cells have none. Expected VAF is 25%, although every cancer cell carries the mutation. With a deletion leaving one mutated copy per cancer cell at the same 50% purity, expected VAF is about 33%: `0.5 / (0.5 × 1 + 0.5 × 2)`. In a simple uniform-copy model, `VAF = purity × CCF × mutated copies / (purity × tumor copy number + (1 − purity) × normal copy number)`. Subclonal copy changes, mapping bias, and uncertainty make real inference harder. [Primary tumor-mixture model](https://pmc.ncbi.nlm.nih.gov/articles/PMC4054893/).
+Use the idealized VAF/CCF example from the concept page. A sample is half cancer cells. Every cancer cell has one tumor-specific mutated copy, while normal cells have none.
 
-## Explain it back
+With two local copies in every cell, expected VAF is 25%. If each cancer cell loses its other local copy, expected VAF becomes about 33%. Every cancer cell still carries the change in both scenarios. The denominator changed; the clone did not need to expand.
 
-**“A 25% VAF means a quarter of the reads carry the variant. It does not mean only a quarter of the cancer cells carry it. We need purity, tumor copy number, and the number of mutated copies to estimate how many cancer cells carry it. Phasing answers a different question: which chromosome copy carries each variant.”**
+Real samples add uneven sequencing, subclonal copy changes and uncertainty in purity. The example is a mental check, not a calculator that resolves every tumor.
 
-**Check yourself:** Does “one copy left” mean “no working copy left”? **No.** The retained copy's function is the next question. Continue to [[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair|splicing and DNA repair]].
+## What can go wrong at this step
 
+- Calling a VAF a cancer-cell percentage.
+- Calling one lost copy “no working copies.”
+- Equating a nine-copy gain with nine times the protein.
+- Treating phasing, clonality and copy number as synonyms.
 
 ## Try it
 
-An assay reports a striking value. Which sample, measurement method and comparator do you need before interpreting it?
+A region has copy-neutral LOH, and no disabling change is established on the retained side. Can you call the gene fully inactivated?
 
-**Answer:** Identify the sampled cells, assay definition and reference group before moving from the number to a biological or treatment claim.
+**Answer:** No. The inherited-version loss is established under the model. Sequence and functional evidence on the retained copies address inactivation.
 
+## Explain it back
+
+“The report tells me ______ copies remain. To know whether the gene works, I need ______. To know how many cancer cells carry the variant, I need ______.”
+
+One answer: “the local copy count; consequence and functional evidence; a purity- and copy-aware CCF model.”
 
 ## Takeaway
 
-**The meaning of a measurement depends on its sample, method and comparison.**
+**Copy loss, gene-function loss and cancer-cell fraction are different claims.**
 
+**Next:** [[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair|Follow a splice change toward repair function]].
 
 ## Sources and scope
 
-General measurement teaching; expert and learner review pending. Sources and definitions are linked beside the relevant methods above.
+Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+
+- [NHGRI allele definition](https://www.genome.gov/genetics-glossary/Allele).
+- [NHGRI loss of heterozygosity](https://www.genome.gov/genetics-glossary/Loss-of-Heterozygosity-LOH).
+- [Carter et al., ABSOLUTE primary method](https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/).

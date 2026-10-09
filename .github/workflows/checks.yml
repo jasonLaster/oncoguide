@@ -17,8 +17,9 @@ jobs:
         with:
           bun-version: 1.3.12
       - run: bash scripts/build-site.sh
+      - run: bun run test:content-sync
       - run: bun --cwd .renderer/apps/oncoguide test:unit
       - run: bun --cwd .renderer/apps/oncoguide typecheck
       - run: bunx playwright install --with-deps chromium
         working-directory: .renderer/apps/oncoguide
-      - run: bun --cwd .renderer/apps/oncoguide test:e2e --reporter=line
+      - run: bun run test:reader --reporter=line

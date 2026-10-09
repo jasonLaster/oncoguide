@@ -1,78 +1,109 @@
-# ctDNA PPM and MRI reads
-
-ctDNA and MRI answer different questions. A blood test asks, **"Did this plasma tube contain tumor-matching DNA fragments above the assay's detection floor?"** MRI asks, **"What tissue still enhances, shrinks, persists, or looks structurally abnormal?"**
-
-Those questions overlap, but they are not the same measurement. The hardest part is that both can be true at once: a tumor can be present but not shedding enough ctDNA to detect, and ctDNA can be detectable when MRI cannot localize anything.
-
-For Diana's current moment, the useful frame is:
-
-- **Personalis 304 PPM -> 1 PPM** means the shedding signal collapsed.
-- **1 PPM detected** means molecular response, not molecular clearance.
-- **0 PPM / not detected** would mean below detection in that draw, not proof that every tumor cell is gone.
-- **MRI** will translate that molecular response into an anatomic read: how much breast enhancement, nodal abnormality, and treatment-effect signal remains.
-
-This page is an educational mental model. Diana's live result trend stays in [[wiki/care/results]] and the operational MRD evidence stack stays in [[wiki/diagnostics/ctdna-mrd]].
-
+---
+title: "Compare blood results with imaging"
+sensitive: false
+tags: ["education", "monitoring"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
+reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
+type: "guide-lesson"
+guide: "monitoring-residual-disease"
+step: 2
+minutes: 12
+objectives: ["Explain why imaging and blood testing can disagree.", "Keep anatomical, molecular and tissue claims separate."]
+prerequisites: ["[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]", "[[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units]]"]
 ---
 
-## 1 PPM is a sparse blood-sample signal
+# Compare blood results with imaging
 
-<img src="./images/ppm-blood-snapshot-light.png" alt="ppm blood snapshot cartoon" data-theme-pair>
+**Blood testing asks whether qualifying tumor material reached a sampled tube. Imaging asks what a scan shows in the region it examines. Different answers can coexist.**
 
-`1 PPM` means the assay found tumor-matching fragments at roughly **one part per million cell-free DNA molecules**. It does not mean one tumor cell was floating in the blood.
+**Before you start:** [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|Circulating tumor DNA (ctDNA)]] names tumor-derived fragments. [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|ctDNA units and detection limits]] keeps report quantities distinct. [[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr|Pathologic complete response (pCR)]] is a tissue finding after treatment, not a blood or scan label.
 
-The tube contains mostly normal cell-free DNA. The tumor-derived fragments are the rare marked pieces in that background. At very low levels, the qualitative call carries more weight than the exact number: **detected** versus **not detected** is sturdier than arguing whether `1 PPM` is exactly half or twice some nearby value.
+## Where this step sits
 
-That is why Personalis' own low-PPM caution matters for Diana's June 9 result. `1 PPM` should be read as **very-low-positive**, not a precise body-wide tumor-volume estimate.
+This is step 2 of [[wiki/education/guides/monitoring-residual-disease/index|Understand blood tests and imaging after treatment]]. After reading the blood report, align it with imaging and tissue evidence before making a combined claim.
 
-## 0 PPM is not the same as zero tumor cells
+```mermaid
+flowchart TD
+  A[1. Sample and assay] --> B[2. Blood and imaging]
+  B --> C[3. Evidence for action]
+  classDef current fill:#dbeafe,stroke:#2563eb,color:#111827
+  class B current
+```
 
-<img src="./images/no-shedding-residual-tumor-light.png" alt="no shedding residual tumor cartoon" data-theme-pair>
+## Two windows onto different evidence
 
-`0 PPM` or `not detected` means the assay did not find enough tumor-derived DNA in that blood draw. It does **not** prove there is no residual tumor anywhere.
+<img src="./images/blood-and-imaging-windows-light.png" alt="Two panels compare sampled tumor-derived DNA fragments in a blood tube with an imaging finding inside a breast MRI region" data-theme-pair>
 
-A tumor can be present but under-shed into plasma for several reasons:
+*Blood and imaging observe different evidence. The green symbol is a schematic imaging finding, not an individual cell; neither window is a complete disease census.*
 
-- **Tiny remaining volume**: too few cells are turning over to cross the detection floor.
-- **Local compartment**: a residual breast or nodal focus may not release much DNA into systemic blood.
-- **Quiet biology**: treatment can leave lower-turnover viable cells or dormant microscopic disease.
-- **Sampling limits**: the tube captures a finite slice of a fast-moving blood compartment.
-- **Clearance is fast**: ctDNA fragments are short-lived, so a draw reflects recent shedding, not a permanent archive.
+Imagine looking at a garden through a camera while also sampling material carried away in its stream. The camera shows a region. The sample contains material that reached the collection point. Neither is a full census.
 
-This is the clean way to say the paradox: **ctDNA negativity is reassuring, but it is not omniscient.**
+The analogy is only about scope. Tumor DNA is not a guaranteed runoff signal, and a scan is not a direct picture of every living cancer cell. The absence of one signal cannot automatically erase evidence from the other window.
 
-## MRI sees anatomy; ctDNA sees shedding
+A breast magnetic resonance imaging (MRI) examination shows anatomical and sequence-dependent features within its field of view. Contrast enhancement reflects how contrast behaves in tissue, including vascular properties. It can help assess a lesion, but enhancement is not a one-to-one count of viable cancer cells. A breast scan also does not answer every question about disease elsewhere.
 
-<img src="./images/mri-ctdna-discordance-light.png" alt="mri ctdna discordance cartoon" data-theme-pair>
+Blood testing detects selected molecular features under an assay's rules. It may collect tumor DNA from more than one site, yet it does not tell you where the fragments originated. Low shedding and limited input can leave a real tumor without a qualifying blood signal.
 
-MRI and ctDNA can land in four broad patterns:
+## Align the clocks and questions
 
-| Pattern | What it can mean |
-|---|---|
-| **MRI smaller + ctDNA falling/clearing** | Best-aligned response pattern. Tumor burden is falling by both anatomy and shedding. |
-| **MRI abnormal + ctDNA low/negative** | Could be residual tumor, but also treatment effect, fibrosis, necrosis, edema, or non-mass enhancement. |
-| **MRI clean + ctDNA positive** | Could be microscopic residual disease below imaging resolution or outside the MRI field. |
-| **MRI abnormal + ctDNA positive** | Higher concern for viable residual disease, especially if both are persistent at later gates. |
+Before calling results concordant or discordant, compare collection and examination dates, treatment timing, regions examined and assay scope. A blood draw before treatment and a scan several weeks later are not simultaneous observations. A trend needs its own uncertainty, not only an arrow.
 
-MRI is especially tricky after neoadjuvant therapy because enhancement is not pure tumor. Treated tissue can still enhance, and non-mass enhancement can overstate residual viable disease. The opposite is also possible: microscopic tumor can be below MRI resolution while ctDNA still detects molecular activity.
+| Pattern | What the two observations support | What they do not settle |
+|---|---|---|
+| Smaller measured lesion, lower detectable blood signal | Both recorded measures moved downward in their own units | Exact tumor-cell reduction, pCR or elimination of distant disease |
+| Residual imaging finding, blood not detected | Imaging still shows a finding; the sample lacked a qualifying signal | Whether the finding is viable tumor, treatment change or another process |
+| No suspicious finding in the scanned region, blood detected | The scan did not identify a suspicious finding there; the assay found qualifying signal | Disease location, its full extent or the best intervention |
+| Neither shows qualifying evidence | Neither method identified its target under those conditions | Zero microscopic disease or permission to omit indicated treatment |
 
-## What this means for Friday's MRI
+The table is an interpretation aid, not a clinical algorithm. Suspicion, confirmation and urgency depend on the full clinical context. A new finding belongs in a clinical review even if another measurement seems reassuring.
 
-Diana's Personalis result makes a **strong anatomic response** more likely than stable or progressive disease. The current result is not "molecularly clean," though, so a Friday MRI that still shows residual enhancement or residual nodal abnormality would not contradict the blood trend.
+## A worked disagreement
 
-The most coherent expectation is:
+In a fictional example, a breast lesion becomes less enhancing during treatment. A blood assay changes from detectable to not detected. Later surgery still finds residual invasive cancer.
 
-- **Marked response** would fit the `304 -> 1 PPM` collapse.
-- **Near-complete MRI response** would be excellent, but still not the same as pCR or MRD clearance.
-- **Residual MRI abnormality** would remain plausible because MRI sees anatomy and treatment effect, not just living tumor.
-- **Clear progression** would be more surprising and would deserve careful reconciliation against the molecular response.
+There is no mathematical contradiction. The scan tracked imaging features, and the assay tracked molecular signal in a finite sample. Surgical pathology examined removed tissue. Only that tissue finding establishes the residual invasive disease described here.
 
-The final risk interpretation will come from the combined matrix: **MRI response now, late-June / post-NAT ctDNA status, and surgical pathology / RCB later.**
+Now change the example: blood becomes detectably positive while breast imaging has no suspicious finding. The blood result does not establish distant metastasis. Nor can a breast scan exclude all sources. Appropriate review asks about assay qualification, origin, timing and clinical evaluation; it does not assign a location from the number alone.
 
-## Cross-links
+## Read combined studies carefully
 
-- [[wiki/care/results]] — Diana's actual result trend
-- [[wiki/diagnostics/ctdna-mrd]] — operational MRD evidence and schedule
-- [[wiki/education/molecular-profiling/06-ctdna-and-mrd]] — ctDNA as the temporal axis
-- [[wiki/care/ctdna-monitoring]] — draw timing and interpretation gates
-- [[sources/diagnostics/06-09-personalis-next-personal-mrd/06-09-personalis-next-personal-mrd]] — June 9 Personalis NeXT Personal Dx report
+A 2021 I-SPY2 pilot studied 84 patients with high-risk early breast cancer receiving neoadjuvant treatment. It examined serial ctDNA and MRI functional tumor volume. These were correlated measurements, with possible additional prognostic information from ctDNA. The study did not establish a universal formula converting a blood result into MRI volume or show that changing treatment using the pair improved survival. [Primary paper](https://doi.org/10.1038/s41523-021-00239-3).
+
+A 2025 I-SPY2 analysis examined ctDNA with residual cancer burden in a larger high-risk cohort. It supports studying combined risk information; it does not turn a negative presurgical draw into a tissue pCR or establish a treatment-omission rule. [Primary paper](https://www.nature.com/articles/s41467-025-65432-5).
+
+## What can go wrong at this step
+
+- Declaring a residual scan finding dead tissue solely because blood is negative.
+- Calling a positive blood result a map of disease.
+- Treating less enhancement as an exact count of cancer cells killed.
+- Calling discordance proof of pseudoprogression.
+- Treating combined prognostic information as proven benefit from a new treatment strategy.
+
+## Try it
+
+A fictional scan shows a smaller lesion and the blood report says “not detected.” Which statement is best supported: “pCR is confirmed” or “these are favorable observations with different limits”?
+
+**Answer:** The second. pCR requires the specified pathological assessment. The blood result and scan can add useful information without replacing it.
+
+## Explain it back
+
+“Imaging tells us ______, blood testing tells us ______, and tissue can answer ______.”
+
+One answer: “what appears in an examined region; whether qualifying tumor material reached this sample; whether the removed tissue contains residual invasive cancer.”
+
+## Takeaway
+
+**Combine observations while keeping each method's question and blind spots visible.**
+
+**Next:** [[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change|Ask what a result should change]].
+
+## Sources and scope
+
+Source check: October 9, 2026. Examples are fictional; this lesson does not choose a scan schedule or treatment. Expert and learner review pending.
+
+- [Magbanua et al. 2021, MRI and ctDNA](https://doi.org/10.1038/s41523-021-00239-3) — I-SPY2 pilot; [full text at UCSF](https://escholarship.org/content/qt18n94421/qt18n94421.pdf).
+- [Magbanua et al. 2025, ctDNA and residual burden](https://www.nature.com/articles/s41467-025-65432-5) — defined high-risk neoadjuvant cohort.
+- [FDA 2024 ctDNA guidance](https://www.fda.gov/media/183874/download) — assay context and study design.
