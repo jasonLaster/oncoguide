@@ -18,7 +18,19 @@ test("new curriculum routes, aliases and metadata work without JavaScript",async
 });
 test("search, themes, mobile navigation and the current report cartoon work",async({page})=>{
  const errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
+ // The initial heading is static HTML; wait for the shortcut listener before
+ // sending the one keyboard event whose behavior this test verifies.
+ await page.addInitScript(()=>{
+  const nativeAdd=window.addEventListener.bind(window);
+  let keyboardReady=false;
+  Object.defineProperty(window,"__oncoguideKeyboardReady",{get:()=>keyboardReady});
+  window.addEventListener=((type:string,listener:EventListenerOrEventListenerObject,options?:boolean|AddEventListenerOptions)=>{
+   nativeAdd(type,listener,options);
+   if(type==="keydown")keyboardReady=true;
+  }) as typeof window.addEventListener;
+ });
  await page.goto("/");await expect(page.getByRole("heading",{name:"The education library"})).toBeVisible();
+ await page.waitForFunction(()=>(window as Window & {__oncoguideKeyboardReady?:boolean}).__oncoguideKeyboardReady===true);
  await page.keyboard.press("ControlOrMeta+k");const input=page.getByRole("searchbox",{name:"Search education"});
  await expect(input).toBeFocused();await input.fill("autophagy");await input.press("Enter");
  await expect.poll(()=>page.locator(".edu-result").count()).toBeGreaterThan(0);
