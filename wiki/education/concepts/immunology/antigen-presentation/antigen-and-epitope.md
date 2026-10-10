@@ -7,7 +7,7 @@ glossary_anchor: antigen-and-epitope
 aliases: [antigen, epitope, antigenic determinant]
 level: foundation
 prerequisites: []
-used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
@@ -73,4 +73,5 @@ Source-checked October 9, 2026. The example is fictional. This page focuses on a
 
 - [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
+- [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
 <!-- END GENERATED USED IN -->

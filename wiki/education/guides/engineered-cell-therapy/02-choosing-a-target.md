@@ -29,7 +29,7 @@ Choose the recognition requirement before tuning the receptor or delivery. A per
 
 “Target-positive” compresses a distribution into a label. Ask which cells carry the target, how much is accessible, and where else it occurs. Expression can differ within one lesion, between lesions and after treatment.
 
-An **epitope** is the particular feature the recognition element binds. Receptor geometry and epitope accessibility can matter even when the underlying protein is present. RNA abundance does not directly measure accessible surface density.
+The [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) must be accessible to the recognition element. Receptor geometry and epitope accessibility can matter even when the underlying protein is present. RNA abundance does not directly measure accessible surface density.
 
 ## A target worksheet
 
@@ -53,13 +53,27 @@ Now add a healthy tissue with low X expression. Increasing sensitivity might imp
 
 [[wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity|On-target, off-tumor injury]] involves the intended antigen on healthy cells; **off-target recognition** involves an unintended molecular target. A normal-tissue problem can exist even with a highly specific binder. Use the concept page for the mechanism and a product-specific clinical example.
 
-[logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars) may broaden coverage or restrict activation, depending on the input rule. An OR-like system accepts either target; an AND-like system aims to require a combination. Coverage and selectivity are different objectives. It also introduces a new design whose expression patterns, timing and failure behavior require testing. A diagram of two conditions does not prove a reliable safety system.
+[Logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars) may broaden coverage or restrict activation, depending on the input rule. An OR-like system accepts either target; an AND-like system aims to require a combination. Coverage and selectivity are different objectives. A new recognition rule also needs testing of expression, timing and failure behavior.
 
 ## Specify the target at the level the receptor reads
 
 For [engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t), the recognition target is a peptide–HLA complex. Source-protein abundance, compatible HLA type and actual presentation are separate measurements. An intracellular protein can supply a peptide target without becoming an accessible surface protein for a conventional CAR.
 
 For a CAR, identify the binding region's epitope and its accessibility on intact cells. A [single-chain variable fragment (scFv) or single-domain binder](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies) supplies one recognition module. Its format does not establish safe expression of the antigen. A more sensitive receptor can notice target-low cancer cells and target-low healthy cells alike.
+
+## Read two real recognition designs
+
+**TECELRA (afamitresgene autoleucel): a peptide target.** The June 2026 FDA label describes a patient's own T cells engineered with a receptor for a melanoma-associated antigen A4 (MAGE-A4) peptide on particular HLA-A*02 molecules. MAGE-A4 is intracellular. Its name on a protein report does not establish the receptor's complete target. The label concerns a defined synovial-sarcoma population; it does not establish a breast-cancer indication. See the [label's recognition and manufacturing descriptions](https://www.fda.gov/media/180565/download?attachment=).
+
+**B7-H3/TROP2 synthetic Notch design: a conditional surface target.** A 2025 primary study tested a B7-H3 sensor that induced a CAR against trophoblast cell-surface antigen 2 (TROP2). Human-cell experiments assessed tumor activity. Separate mouse-cell versions tested injury in mice engineered to express human TROP2. The ungated design damaged lungs; the gated version avoided the measured injury in that model. This is [preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence), not demonstrated patient safety. B7-H3 detection, induction delay and persistence of the induced receptor remain distinct questions. [Primary study](https://jitc.bmj.com/content/13/9/e012442).
+
+| Recognition specification | What must be present? | Measurement still needed |
+|---|---|---|
+| TROP2-directed surface CAR | Accessible TROP2 epitope | Tumor coverage and normal-tissue recognition by that CAR |
+| B7-H3-induced TROP2 CAR | Priming signal plus the induced receptor's target | Joint distribution, induction, persistence and function |
+| MAGE-A4-directed TCR | The correct peptide–HLA complex | HLA compatibility, natural presentation and receptor-specific function |
+
+Treat this as a design-reading exercise. Neither a shared target name nor success with another drug format transfers a product's safety window.
 
 ## What can go wrong at this step
 
@@ -88,3 +102,5 @@ Source check: October 9, 2026; expert and learner review pending. The example is
 - [FDA CAR T-cell product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
 - [NCI solid-tumor barriers](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 - [Morgan et al., 2010: serious event after ERBB2-directed cells](https://pubmed.ncbi.nlm.nih.gov/20179677/) — one product and dose; the authors proposed recognition of normal lung tissue as the mechanism. This is not a universal risk estimate.
+- [TECELRA prescribing information, revised June 2026](https://www.fda.gov/media/180565/download?attachment=) — recognition architecture in a specified synovial-sarcoma setting.
+- [TROP2 and B7-H3/TROP2 CAR experiments, 2025](https://jitc.bmj.com/content/13/9/e012442) — distinct human-cell and mouse-cell preclinical systems.

@@ -4,7 +4,7 @@ type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
 updated: "2026-10-09"
-source_checked: "2026-10-08"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -39,15 +39,27 @@ There is no general rule that every cancer vaccine belongs in a chemotherapy off
 
 ## Match each assay to a claim
 
+<img src="./images/immune-assay-questions-light.png" alt="Four panels show a T cell binding a test reagent, releasing signals, killing in a lab dish, and a separate clinical comparison with a question mark" data-theme-pair>
+
+*Binding, signaling, killing in a test and patient benefit each need their own evidence.*
+
 | Measurement | What it supports | What remains unresolved |
 |---|---|---|
 | [TCR sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) | Sampled identities and abundance changes | Antigen specificity and useful function |
 | [Peptide–HLA multimer binding](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) | Cells bind the tested peptide–human leukocyte antigen complex | Functional response and natural tumor recognition |
-| [Enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot) or intracellular cytokine assay | A response under defined stimulation | Killing, tissue access and clinical benefit |
-| Controlled tumor-cell killing assay | Function against those cells under those conditions | Distribution, durability and safety in patients |
+| [Enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot) or [intracellular cytokine staining](/wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining) | A response under defined stimulation | Killing, tissue access and clinical benefit |
+| [Controlled tumor-cell killing assay](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) | Function against those cells under those conditions | Distribution, durability and safety in patients |
 | Clinical outcome with a suitable comparison | Benefit estimate in the enrolled setting | Transferability to another product or population |
 
 Assays need controls, a baseline when informative, prespecified interpretation and an adequate sampling plan. Technical repeats on one sample do not establish reproducibility across people.
+
+The starting material also matters. [Peripheral blood mononuclear cells (PBMCs)](/wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells) are a mixed blood-cell fraction. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) helps identify tested populations. A change in [TCR clonality](/wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics) describes a frequency distribution, not the antigen or absolute expansion of each clone.
+
+## A real example: the assay changes the answer
+
+The exploratory TNBC-MERIT study evaluated a personalized RNA vaccine after standard therapy in triple-negative breast cancer. Among 14 evaluable participants, overnight ELISpot detected responses in 12. Eight participants had enough remaining cells for additional testing after culture and stimulation. A response appeared in every participant using at least one ELISpot approach. These denominators describe different assay opportunities, not competing estimates of the same direct blood measurement. [Primary report, immune-monitoring methods and Figure 2](https://www.nature.com/articles/s41586-025-10004-2).
+
+Culture can reveal rare responders by changing their number and state. It also changes what the sample represents. Ask whether a result concerns freshly tested cells or an expanded culture before comparing response frequencies. This non-comparative study demonstrates immune responses; its assay results cannot isolate a recurrence-prevention effect.
 
 ## Worked example: a positive assay and a recurrence
 
@@ -75,7 +87,7 @@ Blood may miss tissue-resident responses. Artificial peptide loading may bypass 
 
 ## Sources and scope
 
-Source check: October 8, 2026; expert and learner review pending. No schedule or combination is recommended.
+Source check: October 9, 2026; expert and learner review pending. The TNBC-MERIT example retains its assay-specific denominators. The cartoon is a question map, not a guaranteed sequence. No schedule or combination is recommended.
 
 - [TNBC-MERIT primary study](https://www.nature.com/articles/s41586-025-10004-2) — small single-arm intravenous RNA-lipoplex study in triple-negative breast cancer.
 - [Primary pancreatic-cancer RNA-lipoplex study](https://www.nature.com/articles/s41586-023-06063-y) — a different population and combined treatment setting.

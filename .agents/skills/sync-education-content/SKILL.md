@@ -34,12 +34,16 @@ Use a fresh JSON filename for each report, outside both repositories, the render
 
 For a read-only request, report drift without applying. For an authorized copy or shared-content update, reconcile destination changes into the canonical source first; source release and generation checks still belong to Diana's normal workflow.
 
+When a curriculum rewrite reveals a conflicting claim in a current Diana care, question or treatment owner, correct or qualify it in Diana under that owner's workflow. Preserve recorded decisions and source custody, and verify any redacted spans stay protected. Those owner corrections are part of the Diana release; they remain outside the Oncoguide export. Check the revised lesson's links to the owner so the shared copy does not point readers to a contradictory explanation.
+
 ## Apply the reviewed update
 
     bun scripts/education-content-sync.ts apply --source <diana-repo-or-vault> --ref <same-commit>
     bun scripts/education-content-sync.ts check --source <diana-repo-or-vault> --ref <same-commit>
 
 The helper stages a committed export, validates all conflicts and hashes before writing, updates the receipt last and rechecks destination bytes. Repeating the comparison should show no additions, updates or conflicts. An unrelated Diana commit with identical education bytes does not require a new transfer.
+
+For new illustrations, verify the active light/dark pair and its saved prompt are in the export, then check their published bytes against the receipt. Keep source checking and automated validation separate from actual expert or learner review; copying a page must preserve pending review metadata.
 
 Page moves or removals require reviewed exact paths using repeated --remove <vault-relative-path> arguments in both plan and apply. A path must have been imported, be absent from the new export, and have no independent destination edit. Never use a broad mirror-delete command to clean up retired media.
 

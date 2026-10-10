@@ -29,14 +29,14 @@ This is step 11 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Unders
 
 | Question | A useful approach | What it leaves open |
 |---|---|---|
-| Is protein present? | Validated staining or mass spectrometry | Cell origin and useful location in a mixed sample |
+| Is protein present? | Validated staining or [mass spectrometry proteomics](/wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics) | Cell origin and useful location in a mixed sample |
 | Where is it? | Tissue staining with morphology and localization | Accessibility to the proposed medicine |
 | Is a component activated? | Suitable modification-specific measurement | Whole-pathway dependence |
 | Does the model need it? | Controlled perturbation | Benefit and toxicity in patients |
 
-**Phosphorylation** adds a phosphate group and can change a protein's behavior. Its meaning depends on the protein and site. A phospho-signal is not a universal on/off switch for an entire pathway.
+**Phosphorylation** adds a phosphate group and can change a protein's behavior. [Phosphoproteomics](/wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics) measures phosphorylated molecules and supported sites. Its interpretation needs the source protein's amount, the exact site and specimen-handling context. A phospho-signal is not a universal on/off switch for an entire pathway.
 
-**Reverse-phase protein array (RPPA)** uses antibodies on sample lysates to measure selected proteins or modifications. The tissue has been mixed, so this method does not preserve original cell coordinates. **Mass spectrometry** identifies or quantifies molecules from their physical signatures. A targeted panel measures selected analytes, not every protein.
+**Reverse-phase protein array (RPPA)** uses antibodies on sample lysates to measure selected proteins or modifications. The tissue has been mixed, so this method does not preserve original cell coordinates. Common bottom-up mass spectrometry workflows digest proteins into peptides. Their peptide evidence does not automatically establish an intact protein form; a targeted panel also measures selected analytes rather than every protein.
 
 ## Read a unit without changing its denominator
 
@@ -90,3 +90,6 @@ Source check: October 9, 2026. The examples are fictional and teach interpretati
 - [NCI immunohistochemistry](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/immunohistochemistry).
 - [NCI breast biomarker testing](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests).
 - [[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics|Presentation measurement and sources]].
+- [Carr et al., targeted peptide assays and fit-for-purpose validation (2014)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3945918/).
+- [Beausoleil et al., phosphorylation-site localization (2006)](https://doi.org/10.1038/nbt1240).
+- [Mertins et al., specimen ischemia and phosphoprotein interpretation (2014)](https://pubmed.ncbi.nlm.nih.gov/24719451/).

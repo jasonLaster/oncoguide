@@ -4,8 +4,8 @@ type: "guide-lesson"
 guide: "engineered-cell-therapy"
 step: 4
 minutes: 12
-objectives: ["Identify the administered product and the cells being engineered.", "Separate delivery targeting, therapeutic targeting and genetic persistence.", "Keep each delivery example attached to its experimental model."]
-prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting]]"]
+objectives: ["Identify the administered product and the cells being engineered.", "Separate delivery targeting, therapeutic targeting and genetic persistence.", "Identify the manufacturing gates that remain when patient-specific cell processing is removed.", "Keep each delivery example attached to its experimental model."]
+prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting]]", "[[wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy]]"]
 sensitive: false
 tags: ["education", "CAR-T", "in-vivo", "lentivirus", "mRNA", "LNP"]
 updated: "2026-10-09"
@@ -40,7 +40,23 @@ View full-size: [light illustration](./images/where-cells-are-engineered-light.p
 
 In vivo engineering could remove patient-specific cell processing. It still needs [manufacturing and release testing](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), monitoring and a defined protocol. Starting T-cell number and state matter. The words “in vivo” do not settle whether a particular protocol requires lymphodepleting treatment.
 
-**Autologous versus allogeneic asks whose cells are used.** Autologous cells come from the patient; allogeneic cells come from a donor. A ready-made delivery vial can engineer the patient's own cells. “Off-the-shelf” does not necessarily mean donor cells.
+**[Autologous versus allogeneic](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy) names the cell source.** A ready-made delivery vial can engineer the patient's own cells. “Off-the-shelf” does not necessarily mean donor cells.
+
+## What changes in the manufacturing calendar?
+
+Picture the ex vivo route as several gates, each answering a different question:
+
+| Gate | Read the manufacturing concept | Question it answers |
+| --- | --- | --- |
+| Starting material | [Leukapheresis](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis) | Were suitable cells collected and accepted? |
+| Growing the population | [Ex vivo expansion](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion) | Did cell number, composition and state meet the process requirements? |
+| Storage and recovery | [Cryopreservation](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation) | Does the recovered product retain suitable properties? |
+| Correct material and recipient | [Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody) | Are the source, lot, recipient and handoffs connected? |
+| Relevant activity | [Potency assays](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) | Does the tested product perform its specified biological task? |
+
+For patient-derived cells, [vein-to-vein time](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time) includes transport, testing and clinical readiness, beyond time in culture. An in vivo carrier changes the collection-to-return workflow. Its manufacture, traceability, stability and release still need evidence.
+
+A process revision also raises [manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability): can earlier quality and clinical evidence still describe the changed product? Removing one production step does not establish an equivalent treatment.
 
 ## Two different targeting jobs
 
@@ -101,6 +117,10 @@ Delivery can miss intended cells or reach unintended ones. [Targeted LNPs](/wiki
 **Second card:** A fictional nonviral product uses a transposon. Does nonviral mean nonintegrating?
 
 **Answer:** No. Engineered DNA transposons are designed to insert cassettes into cellular DNA. The delivery method and genetic fate must be described separately.
+
+**Manufacturing card:** A fictional in vivo product removes patient-specific cell culture. Does that remove potency testing?
+
+**Answer:** No. The carrier needs relevant product-quality testing, while the cells generated later need downstream measurement. Those are different samples at different stages.
 
 ## Explain it back
 

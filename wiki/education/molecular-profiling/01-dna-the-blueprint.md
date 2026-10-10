@@ -27,7 +27,7 @@ This is step 9 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Underst
 
 ## Match the question to the tested regions
 
-A targeted panel samples predefined regions. An exome assay focuses on selected exonic regions and sometimes nearby splice boundaries. A genome assay examines a broader sequence landscape. These categories differ in scope, but scope is only one part of performance.
+[Panel, exome and genome sequencing](/wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome) differ in which regions they examine. Scope is only one part of performance. [Sequencing reads](/wiki/education/concepts/measurement/sequencing-basics/sequencing-reads) are observations from prepared molecules; paired ends or copied fragments do not automatically add independent molecular support.
 
 For each candidate finding, ask whether the exact region and change class were in the assay's validated scope. A panel might detect a known alteration deeply and reliably. A broader research assay might discover a rearrangement outside that panel. Neither result automatically supersedes every feature of the other.
 
@@ -36,9 +36,9 @@ For each candidate finding, ask whether the exact region and change class were i
 | Field | What to record |
 |---|---|
 | Input | Tissue or blood, preparation and sampled region |
-| Coverage | Targeted regions and usable observations at the location |
+| Coverage | [Depth and breadth](/wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage), with usable evidence at the exact location |
 | Change classes | Sequence substitutions, indels, copy changes and rearrangements actually analyzed |
-| Normal comparison | Matched normal, tumor-only inference or another design |
+| Normal comparison | [Tumor–normal versus tumor-only](/wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing) design and attribution limits |
 | Output | Exact reference, variant notation, sequence support and copy-model uncertainty |
 | Validation | Research discovery or a clinical assay validated for the intended use |
 
@@ -46,9 +46,9 @@ Extraction uses finite material. Fixed tissue can suit validated DNA workflows, 
 
 ## Confidence has several parts
 
-Software **PASS** means a call meets specified filters. Agreement between callers can reduce some errors, but shared alignments can preserve shared artifacts. Independent fragments, a suitable normal comparison, mapping review and reproducibility add different kinds of support.
+[Variant calling](/wiki/education/concepts/measurement/sequencing-basics/variant-calling) evaluates sequence evidence under a model and filters. Software **PASS** is one layer of support. Agreement between callers can reduce some errors, but shared alignments can preserve shared artifacts. Independent fragments, a suitable normal comparison, mapping review and reproducibility add different kinds of support.
 
-Average depth does not guarantee depth at a specific position. A “not found” result needs its tested scope and detection limits. Read support can be affected by contamination or damaged material. The strongest report tells the reader which limitations apply to this call.
+An average can hide poorly measured positions. Check the exact location, the counting rules and the assay's validated detection limits before interpreting “not found.” More reads from the same few fragments do not create more independent DNA molecules. The strongest report tells the reader which limitations apply to this call.
 
 ## A worked finding: mutation plus copy loss
 
@@ -92,3 +92,4 @@ Source check: October 9, 2026. The examples are fictional and teach interpretati
 - [NHGRI DNA-sequencing fact sheet](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet).
 - [Carter et al., purity and copy-aware DNA inference](https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/).
 - [HGVS exact variant descriptions](https://hgvs-nomenclature.org/stable/).
+- [AMP/CAP, end-to-end oncology sequencing validation (2017)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6941185/).

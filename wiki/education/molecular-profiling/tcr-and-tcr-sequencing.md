@@ -4,11 +4,13 @@ type: guide-lesson
 sensitive: false
 tags: [education]
 updated: 2026-10-09
+source_checked: 2026-10-09
+minutes: 10
 review_status: source-checked; expert and learner review pending
 guide: molecular-profiling
 step: 8
 objectives: ["Explain t-cell receptors and TCR sequencing and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
+prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing]]"]
 reviewed: pending
 reviewed_by: ""
 ---
@@ -26,11 +28,11 @@ Most conventional T cells use a receptor made from an alpha and a beta chain. Th
 A receptor can cross-recognize multiple peptide–HLA complexes. A clone means cells descended from the same T cell, usually carrying the same receptor sequence. Neither a sequence match nor binding alone proves safe tumor killing. Receptor affinity, peptide density, cell state and signaling all matter.
 
 ```mermaid
-flowchart LR
-  P[Protein fragment] --> H[Peptide displayed by HLA]
-  H --> R[TCR contacts peptide and HLA]
-  R --> S[Signaling and cell-state gates]
-  S --> F[Possible T-cell response]
+flowchart TD
+  P[Protein fragment] --> H[Peptide displayed<br/>by HLA]
+  H --> R[TCR contacts<br/>peptide and HLA]
+  R --> S[Signaling and<br/>cell-state gates]
+  S --> F[Possible T-cell<br/>response]
 ```
 
 *Display, recognition and response are separate steps.*
@@ -52,13 +54,13 @@ Blood and tumor are different compartments. A clone abundant in blood might resp
 
 ## A worked example
 
-A clone rises from 0.1% to 2% of sampled blood receptors after vaccination. That is evidence of expansion in that compartment. It could reflect vaccine response, another immune event, or sampling variation. A paired functional assay against the intended peptide can strengthen the response claim. Tumor-cell killing and clinical benefit require further evidence.
+Invented numbers for learning: a clone rises from 0.1% to 2% of sampled blood receptors after vaccination. That is relative enrichment in those samples. It does not alone prove absolute expansion: other clones could have declined. Compatible cell counts, sampling and assay denominators are needed for the absolute-number claim. [Clonality metrics](/wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics) describe the distribution. A paired functional assay against the intended peptide can strengthen a specificity claim. Tumor-cell killing and clinical benefit require further evidence.
 
 Extracting and expanding native antigen-reactive T cells is **adoptive transfer of selected cells**. Engineering cells to express a selected receptor is **engineered TCR-T**. They can share discovery assays, but differ in manufacturing, safety checks and regulatory requirements. Banking is neither a universal prerequisite nor a guarantee that a future product can be made.
 
 ## What can go wrong
 
-A dominant blood clone can be a viral response. A shared blood/tumor clone can still be a bystander. Culture can select particular clones, and read counts depend on the assay. Link [ELISpot](/wiki/education/concepts/measurement/immune-monitoring/elispot) or [multimer staining](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) to the exact sequence and specimen when connecting functional evidence.
+A dominant blood clone can be a viral response. A shared blood/tumor clone can still be a bystander. Culture can select particular clones, and read counts depend on the assay. Link [enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot) or [multimer staining](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) to the exact sequence and specimen when connecting functional evidence.
 
 ## Try it
 

@@ -4,7 +4,7 @@ type: "guide-lesson"
 guide: "personalized-cancer-vaccine"
 step: 7
 minutes: 14
-objectives: ["Separate RNA synthesis, purification, formulation and batch release.", "Compare RNA-LPX and RNA-LNP study products without transferring their protocols.", "Identify missing evidence at a manufacturing handoff."]
+objectives: ["Separate RNA synthesis, purification, formulation and batch release.", "Compare RNA-LPX and RNA-LNP study products without transferring their protocols.", "Distinguish potency, traceability and comparability evidence at a manufacturing handoff."]
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex]]", "[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
 sensitive: false
 tags: ["education", "lesson"]
@@ -87,7 +87,11 @@ A TNBC-MERIT run-in subgroup also received a bridging shared-antigen vaccine. Th
 | Manufacturing and release | Does this lot meet its identity, purity, potency, sterility and formulation criteria? |
 | Clinical and regulatory | Who owns the protocol, authorization, administration and adverse-event monitoring? |
 
-A fictional manufacturer shortens a spacer to improve production. The team records a controlled revision, reassesses affected biology and connects the released lot to the final specification. A “manufacturability edit” can still change antigen processing.
+[Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody) connects the intended recipient, construct version, lot and handoffs. A passing assay on a wrongly assigned vial cannot repair that connection.
+
+[Potency assays](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) test relevant biological activity. An expression assay may address part of an RNA product's mechanism. It does not prove peptide presentation, tumor recognition or clinical benefit.
+
+A fictional manufacturer shortens a spacer to improve production. The team records a controlled revision, reassesses affected biology and connects the released lot to the final specification. A “manufacturability edit” can still change antigen processing. [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) asks whether earlier evidence remains relevant after a change. Matching RNA amounts and passing routine release limits alone may miss important differences.
 
 ## What can go wrong at this step
 
@@ -98,6 +102,10 @@ A batch may have the correct sequence but inadequate integrity or functional act
 A fictional RNA-LNP product passes its identity test. Its team borrows an intravenous RNA-LPX study's handling instructions and claims that nondetectable dsRNA means the lot is sterile. Identify two unsupported transfers.
 
 **Answer:** Formulation and route do not justify borrowing handling or stability requirements. A dsRNA assay answers one impurity question, not microbial sterility. Use the product's own validated specifications and complete release criteria.
+
+**Second card:** A fictional team moves manufacture to a new facility. The final RNA amount is unchanged. Is that enough to bridge the process?
+
+**Answer:** No. Assess the properties the change could affect, including impurities, formulation, activity and stability. The relevant evidence depends on the actual change and product.
 
 ## Explain it back
 

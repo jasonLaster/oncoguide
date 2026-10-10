@@ -31,13 +31,13 @@ A recipe, a controlled kitchen and a checked batch answer different questions. A
 
 Good manufacturing practice (GMP) builds quality into the process. Chemistry, manufacturing and controls (CMC) describes the product, its production and the evidence that supports consistent quality. Applicable requirements depend on the product and development setting; a slogan on a website cannot establish compliance for a particular lot.
 
-Specifications define what the product must be and which limits it must meet. Testing may assess identity, purity, potency and microbiological safety, together with product-specific features. Potency is an assay of relevant biological activity. It is not the same as clinical efficacy.
+Specifications define what the product must be and which limits it must meet. Testing may assess identity, purity, [potency](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) and microbiological safety, together with product-specific features. These tests answer different quality questions; a functional result is not clinical efficacy.
 
 Release review brings together test results and manufacturing records. A deviation needs investigation and a justified disposition; retesting until a passing number appears does not make the problem disappear. Stability and handling data also matter between manufacture and administration.
 
 ## Why it matters in cancer
 
-Personalized products can change sequence between patients while depending on a controlled manufacturing platform. A sequence revision, new formulation or changed cell-processing step may affect biology as well as production. Change control documents the revision and the assessment needed for that specific change.
+Personalized products can change sequence between patients while depending on a controlled manufacturing platform. A sequence revision, new formulation or changed cell-processing step may affect biology as well as production. Change control documents the revision. [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) assesses whether earlier evidence remains relevant. [Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody) connects the intended source, recipient, lot and handling.
 
 For a [messenger RNA construct](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy), a correct sequence file is only one input. For a [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) cell product, receptor expression alone is only one characterization result. Neither is a complete release package.
 
@@ -47,7 +47,7 @@ For a [messenger RNA construct](/wiki/education/concepts/engineering-and-manufac
 |---|---|
 | Is it the intended product? | Identity testing and traceable version records |
 | Are unwanted materials controlled? | Purity, impurity and process-control results |
-| Does it perform a relevant biological task? | Product-specific potency assay |
+| Does it perform a relevant biological task? | Product-specific functional or justified surrogate testing |
 | Is microbiological risk controlled? | Applicable contamination, sterility and related testing |
 | Does quality persist through use? | Stability, transport, container and handling evidence |
 

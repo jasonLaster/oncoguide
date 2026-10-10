@@ -4,8 +4,8 @@ type: "guide-lesson"
 guide: "how-the-immune-system-fights-cancer"
 step: 5
 minutes: 12
-objectives: ["Match an immune assay to the claim it supports.", "Separate tissue location, receptor identity, function and tumor-response attribution."]
-prerequisites: ["[[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]"]
+objectives: ["Match an immune assay to the claim it supports.", "Separate tissue location, receptor identity, function and tumor-response attribution.", "Explain how cell boundaries and frequency denominators can change an immune interpretation."]
+prerequisites: ["[[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/immune-monitoring/flow-cytometry]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -21,7 +21,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 “Are the T cells doing useful work?” is a reasonable question. It is also several questions packed together. This lesson unpacks them so you can read a report one claim at a time.
 
-**Before you start:** A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) is the reader. [TCR sequencing (TCR-seq)](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) explains sequence identities. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) separates markers from function. [Hot, excluded and cold patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor) explains tissue location.
+**Before you start:** A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) is the reader. [TCR sequencing (TCR-seq)](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) explains sequence identities. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) separates markers from function. [Hot, excluded and cold patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor) explains tissue location. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) groups prepared cells by measured features; [cell segmentation](/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation) estimates cell regions in images.
 
 ## Where this step sits
 
@@ -33,9 +33,21 @@ This is lesson 5 of [the immune-system guide](/wiki/education/guides/how-the-imm
 
 A tissue sample preserves a local view. A blood sample allows repeated views of circulating populations. Neither is the universal first step. The right sample depends on the question, available material and assay requirements.
 
-Tissue imaging can show where cells sit. Blood repertoire sequencing can track which sampled receptor populations become more common. Matching receptors across compartments adds evidence of overlap. It does not identify their target, and a bulk tissue sequence does not show where in the section that cell sat.
+Blood assays often begin with [peripheral blood mononuclear cells (PBMCs)](/wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells). This prepared mixture is neither all blood cells nor a substitute for tumor tissue. Flow measures selected features of recovered cells; it loses their original tissue arrangement when tissue is dissociated.
+
+[Multiplex immunofluorescence (mIF)](/wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence) and [imaging mass cytometry (IMC)](/wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry) preserve a section's geography through different marker-detection methods. Their per-cell interpretations depend on segmentation. A merged boundary can falsely assign an immune marker and a cancer-cell marker to one cell. Inspecting the original image and boundary overlay comes before interpreting that combination.
+
+Blood repertoire sequencing can track which sampled receptor identities become more common. [Clonality metrics](/wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics) summarize how uneven the distribution is. Matching receptors across compartments adds evidence of overlap. It does not identify their target, and a bulk tissue sequence does not show where in the section that cell sat.
 
 A third job is functional testing. The [enzyme-linked immunospot (ELISpot) assay](/wiki/education/concepts/measurement/immune-monitoring/elispot) measures secretion under defined stimulation. [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) displays fragments. [Peptide–HLA multimer staining](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) tests binding to a defined display complex. Tumor-cell response assays ask another question: does natural presentation on the tested cancer cells support recognition or killing?
+
+## Match the readout to the missing question
+
+If the question is **which sampled population responded**, [intracellular cytokine staining (ICS)](/wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining) can connect a cytokine response to stained cell types. Its output still lacks a receptor sequence unless an additional identification strategy supplies one.
+
+If the question is **whether specified targets died**, [functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) test that outcome with target-only and other appropriate controls. A peptide-loaded target and a naturally presenting cancer cell are different test systems. The latter helps address the processing-and-presentation bridge that added peptide can bypass.
+
+Read the units before comparing results: spots per input cells, percent positive within a flow gate, relative receptor frequency, cells per tissue area and percent target death are different quantities. More positive-looking measurements do not remove those distinctions.
 
 ## Read the evidence ladder
 
@@ -54,7 +66,7 @@ The steps are related, but each has its own controls. A laboratory result does n
 
 In a fictional vaccine study, clonotype A becomes more frequent after dosing. The same sequence is found in a tumor sample. An intended-peptide stimulation test is positive.
 
-This is stronger than expansion alone. Still, several questions remain. Did the frequency rise because A increased, because other cells declined, or both? Is the sequence definition precise enough to identify the intended receptor? Do cancer cells naturally display the peptide? Can responding cells reach them and act safely?
+This is more informative than a frequency change alone. Still, several questions remain. Did the frequency rise because A increased, because other cells declined, or both? Is the sequence definition precise enough to identify the intended receptor? Did A's cells produce the peptide-stimulation response, or did another population respond? Do cancer cells naturally display the peptide? Can responding cells reach them and act safely?
 
 A compatible single-cell method can pair receptor identity with gene-expression features. That may help select candidates for testing. “Cytotoxic-looking” gene expression still does not replace a killing assay.
 
@@ -68,7 +80,7 @@ Attribution becomes stronger through appropriate comparison groups, timing, targ
 
 ## What can go wrong at this step
 
-Samples can differ in handling, timing, quality and depth. A relative frequency is easily mistaken for an absolute cell count. An antigen assay can use conditions that differ from natural tumor presentation. A negative blood result can miss a tissue-localized response.
+Samples can differ in handling, timing, quality and depth. A relative frequency is easily mistaken for an absolute cell count. A tissue section or selected field can miss another region's biology. An antigen assay can use conditions that differ from natural tumor presentation. A negative blood result can miss a tissue-localized response.
 
 The remedy is to write the claim beside the readout and name its limit. This keeps a promising signal useful while making the next experiment clear.
 
@@ -98,3 +110,5 @@ Source check: October 9, 2026. General immune-monitoring logic; no personal spec
 - [Han et al., 2014: linking receptor sequence and cell phenotype](https://www.nature.com/articles/nbt.2938).
 - [Salgado et al., 2015: tissue lymphocyte assessment](https://pubmed.ncbi.nlm.nih.gov/25214542/).
 - [NCI: liquid biopsy and circulating tumor material](https://www.cancer.gov/news-events/cancer-currents-blog/2017/liquid-biopsy-detects-treats-cancer).
+- [Windhager et al., 2023: multiplex image processing and analysis](https://www.nature.com/articles/s41596-023-00881-0). Primary protocol for checking images, segmentation and spatial summaries.
+- [Rabinovich et al., 2019: flow-based cytotoxicity assay](https://pubmed.ncbi.nlm.nih.gov/31525367/). Primary controlled cell-function method; its model-specific result is not a clinical-benefit endpoint.

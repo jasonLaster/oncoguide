@@ -41,7 +41,7 @@ A report saying “repair gene R is expressed” is compatible with an abnormal 
 
 A sequencing **library** is prepared material, not the original tissue. Some methods select polyadenylated RNA, some enrich targeted messages and some count short transcript ends. These choices influence gene recovery and splice or isoform resolution.
 
-**[[about/Terminology#ffpe|Formalin-fixed, paraffin-embedded (FFPE)]]** tissue preserves architecture but alters molecules. Suitability depends on the protocol. A universal quality cutoff is inappropriate across all RNA assays. Fresh-frozen molecular preservation is also different from preserving viable cells for culture.
+**[[about/Terminology#ffpe|Formalin-fixed, paraffin-embedded (FFPE)]]** tissue preserves architecture but alters molecules. [RNA integrity](/wiki/education/concepts/measurement/specimens/rna-integrity) helps match recovered material to the intended assay. A preparation that supports short-target gene counts may leave full-length transcript questions unanswered. Fresh-frozen molecular preservation is also different from preserving viable cells for culture.
 
 **[[about/Terminology#scrna-seq|Single-cell RNA sequencing (scRNA-seq)]]** measures cell-assigned profiles; **single-nucleus RNA sequencing (snRNA-seq)** measures nuclear profiles. Neither is a complete census of every original cell and message. Dissociation, capture and filtering can change the populations represented.
 
@@ -54,6 +54,8 @@ Next ask whether the messages came from malignant cells. Normal neighbors can co
 Now consider a surface-target gene with high bulk RNA. Cell-resolved data place much of it in normal epithelial cells. The original bulk measurement can remain correct; its attribution changes. That is integration doing useful work.
 
 ## Programs and classifications need their own scope
+
+Before comparing profiles, check for [batch effects](/wiki/education/concepts/measurement/transcriptomics/batch-effects): systematic differences associated with preparation or analysis. If all baseline samples use one method and all follow-up samples another, their contributions cannot be separated from that comparison alone. Normalizing counts does not supply the missing comparison.
 
 An expression classifier such as [PAM50](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) compares profiles with a reference framework. A pathway module summarizes a selected gene set. A similarity label is not the exact cell of origin, measured pathway activity or a drug-response rule.
 
@@ -91,3 +93,5 @@ Source check: October 9, 2026. The examples are fictional and teach interpretati
 - [Conesa et al., RNA-seq design and analysis](https://doi.org/10.1186/s13059-016-0881-8).
 - [10x Genomics, intronic-read interpretation](https://www.10xgenomics.com/support/software/cell-ranger/8.0/miscellaneous/cr-intron-mode-rec).
 - [[wiki/education/multi-omics-foundations/03-reading-rna-counts|RNA-count methods and practice]].
+- [Hatzis et al., tissue handling and RNA measurement (2011)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3243675/).
+- [Risso et al., control-based normalization and unwanted variation (2014)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4404308/).

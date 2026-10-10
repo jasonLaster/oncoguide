@@ -1,0 +1,15 @@
+Generated with the built-in image_gen tool on October 9, 2026.
+Canonical owner: guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md
+Both variants visually reviewed for labels, assay scope and the separate clinical comparison.
+
+Light generation prompt:
+Use case: scientific-educational. Create a portrait educational cartoon for curious adult non-scientists learning cancer vaccine immune monitoring. Four stacked spacious panels, each with a large clean sans-serif heading and exactly one short question. Consistent friendly rounded cartoon T cells and flat vector diagram style, soft pastel accents, no generic doctor or patient portraits. Overall title "What did the test show?".
+Panel 1 heading "Binding"; question "Does it attach?" Show a purple T cell with a receptor touching a small laboratory peptide-display reagent; label reagent "Test reagent". No activation lightning or killed cells.
+Panel 2 heading "Signals"; question "Does it respond?" Show a purple T cell in a laboratory well releasing a few small orange dots; label dots "Signals". No dead tumor cells.
+Panel 3 heading "Killing"; question "Does it kill in the assay?" Show one purple T cell beside one damaged pink target cell inside a clearly drawn lab dish; label "Lab dish". This is a controlled assay, not inside a patient.
+Panel 4 heading "Clinical benefit"; question "Does it help patients?" Show two separate simple study-group icons and a balanced comparison symbol between them, plus a question mark. Label only "Clinical comparison". Keep this panel visually separated from the laboratory panels by a clear dotted divider. No arrow from killing to benefit. Footer "Each question needs its own evidence".
+Scientific guardrails: binding, cytokine response, controlled cytotoxicity and clinical efficacy are separate measurements. Do not depict a guaranteed sequence, a cure, a receptor recognizing all targets, or artificial peptide display as natural tumor presentation. No chain of arrows or success checkmarks. No doses, percentages, survival estimates, molecular detail that invents biology, logos, watermarks, photorealism, or additional text. Large labels readable on a phone, broad negative space.
+Light theme: near-white warm background, dark navy text, muted pastel purple, orange and pink accents with clear high contrast.
+
+Dark variant edit prompt (reference: final light PNG):
+Create the dark-theme variant of the attached educational cartoon. Change only background and text/accent colors for dark-mode viewing. Preserve the entire portrait layout, every exact word, all four panels, question marks, cell illustrations, dotted divider and absence of arrows. Dark navy-charcoal overall background, muted dark panel fills, soft purple/orange/pink accents, high-contrast warm ivory labels. Keep every label large and legible on a phone. No added text, no logos, no factual or content changes. Clinical benefit must remain a separate comparison question, not a guaranteed result of laboratory activity.
