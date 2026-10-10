@@ -48,7 +48,7 @@ flowchart TD
 
 *The letters track fictional exons; intervening introns are omitted. Different joins do not establish the protein consequences.*
 
-An altered splice product can also introduce a premature stop during protein production. It may yield a shortened protein, or its message may be reduced by **nonsense-mediated decay (NMD)**, a cellular RNA-surveillance process. The outcome depends on the transcript and termination context. Human beta-globin experiments showed that changing a stop’s position relative to an intron could change RNA loss; a splice-site prediction alone does not establish either outcome. [Zhang 1998](https://pubmed.ncbi.nlm.nih.gov/9671053/).
+An altered splice product can also introduce a premature stop during protein production. It may yield a shortened protein, or its message may be reduced by [nonsense-mediated decay (NMD)](/wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay), a cellular RNA-surveillance process. The outcome depends on the transcript and termination context. Human beta-globin experiments showed that changing a stop’s position relative to an intron could change RNA loss; a splice-site prediction alone does not establish either outcome. [Zhang 1998](https://pubmed.ncbi.nlm.nih.gov/9671053/).
 
 ## Why it matters in cancer
 

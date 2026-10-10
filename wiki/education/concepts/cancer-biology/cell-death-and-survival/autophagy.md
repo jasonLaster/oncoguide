@@ -4,7 +4,7 @@ type: "concept"
 domain: "cancer-biology/cell-death-and-survival"
 summary: "Autophagy delivers cellular material to lysosomes for breakdown and reuse; measuring how much material is present does not establish how fast it moves."
 glossary_anchor: "autophagy"
-aliases: ["autophagy", "autophagic flux", "autophagosome", "lysosome"]
+aliases: ["autophagy", "autophagic flux", "autophagosome"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
 used_by: ["[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]]","[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
@@ -29,7 +29,7 @@ Picture a recycling service with collection bags, trucks, and a processing cente
 
 ## How it works
 
-Here, autophagy means **macroautophagy**, the route most often meant in cancer discussions. A membrane grows around cargo and closes into an **autophagosome**, a double-membrane compartment. It joins a **lysosome**, a compartment containing enzymes that break material down. Released building blocks can be reused.
+Here, autophagy means **macroautophagy**, the route most often meant in cancer discussions. A membrane grows around cargo and closes into an **autophagosome**, a double-membrane compartment. It joins a [lysosome](/wiki/education/concepts/biology-basics/cells/organelles-overview), where enzymes break material down. Released building blocks can be reused.
 
 The cargo can include proteins, damaged organelles, or other cellular material. Some cargo is selected by recognition proteins. Different cargo and routes need different experiments; a general autophagy marker cannot establish that one particular protein is being cleared.
 

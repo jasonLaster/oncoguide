@@ -34,9 +34,9 @@ This is step 11 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Unders
 | Is a component activated? | Suitable modification-specific measurement | Whole-pathway dependence |
 | Does the model need it? | Controlled perturbation | Benefit and toxicity in patients |
 
-**Phosphorylation** adds a phosphate group and can change a protein's behavior. [Phosphoproteomics](/wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics) measures phosphorylated molecules and supported sites. Its interpretation needs the source protein's amount, the exact site and specimen-handling context. A phospho-signal is not a universal on/off switch for an entire pathway.
+[Phosphorylation](/wiki/education/concepts/biology-basics/signaling/phosphorylation) can change a protein's behavior; the consequence depends on the site and context. [Phosphoproteomics](/wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics) measures phosphorylated molecules and supported sites. Its interpretation needs the source protein's amount, the exact site and specimen-handling context. A phospho-signal is not a universal on/off switch for an entire pathway.
 
-**Reverse-phase protein array (RPPA)** uses antibodies on sample lysates to measure selected proteins or modifications. The tissue has been mixed, so this method does not preserve original cell coordinates. Common bottom-up mass spectrometry workflows digest proteins into peptides. Their peptide evidence does not automatically establish an intact protein form; a targeted panel also measures selected analytes rather than every protein.
+**Reverse-phase protein array (RPPA)** uses antibodies on sample lysates to measure selected proteins or modifications. The tissue has been mixed, so this method does not preserve original cell coordinates. Common bottom-up mass spectrometry workflows digest [proteins into peptides](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). Their peptide evidence does not automatically establish an intact protein form; a targeted panel also measures selected analytes rather than every protein.
 
 ## Read a unit without changing its denominator
 
@@ -54,7 +54,7 @@ It still does not measure repair. A suitable functional assay with damage, cell-
 
 A surface receptor is abundant on cancer cells. A medicine may use it as an address to deliver a payload. The receptor need not be the growth driver for that delivery strategy to work. Conversely, a signaling inhibitor seeks a useful change in pathway behavior; surface abundance is not the same selection rule.
 
-The target's particular **isoform**, a molecular version, can also matter. A gene-level signal does not identify every protein form. Normal-tissue expression, target access and heterogeneous distribution remain part of the proposed drug mechanism.
+The target's particular **isoform**, a molecular version, can also matter. A gene-level signal does not identify every protein form. Normal-tissue expression, target access and heterogeneous distribution remain part of the proposed [drug mechanism](/wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism).
 
 [[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics|Immunopeptidomics]] asks a different protein-related question: which peptides were recovered from human leukocyte antigen complexes? Presentation is closer to an immune-target question than total gene expression, but does not establish recognition by itself.
 

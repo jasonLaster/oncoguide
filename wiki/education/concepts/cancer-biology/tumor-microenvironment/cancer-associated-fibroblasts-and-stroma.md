@@ -4,7 +4,7 @@ type: "concept"
 domain: "cancer-biology/tumor-microenvironment"
 summary: "Cancer-associated fibroblasts are fibroblast cells in a tumor's surrounding tissue that can shape its matrix, signals and interactions with other cells."
 glossary_anchor: "cancer-associated-fibroblasts-and-stroma"
-aliases: ["CAF", "CAFs", "cancer-associated fibroblast", "cancer-associated fibroblasts", "stroma", "stromal fibroblasts"]
+aliases: ["CAF", "CAFs", "cancer-associated fibroblast", "cancer-associated fibroblasts", "stromal fibroblasts"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
@@ -29,7 +29,7 @@ Picture a neighborhood's builders and maintenance workers. They shape paths, rep
 
 ## How it works
 
-**Stroma** is the supporting tissue around and between other tissue structures. It includes [extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix), vessels and several cell populations. Stroma is not synonymous with fibroblasts, and a stromal signal is not automatically a malignant-cell signal.
+[Stroma](/wiki/education/concepts/biology-basics/cells/epithelium-and-stroma) is the tissue compartment that contains fibroblasts and other support structures. It includes [extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix), vessels and several cell populations. Stroma is not synonymous with fibroblasts, and a stromal signal is not automatically a malignant-cell signal.
 
 **Fibroblasts** help produce and remodel connective tissue. In tumors, cancer-associated fibroblasts, often shortened to **CAFs**, can deposit matrix, alter its organization and exchange signals with cancer, immune and vascular cells. They are generally distinct from the malignant epithelial cells in many solid tumors.
 

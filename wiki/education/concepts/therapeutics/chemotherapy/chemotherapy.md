@@ -31,7 +31,7 @@ Picture a busy workshop that must copy instructions and move materials to make n
 
 Chemotherapy is a family of treatments, rather than one mechanism. Here, the word means conventional **cytotoxic** drugs: drugs whose effects can damage or kill cells. The same word is sometimes used more broadly for drug treatment, so check which meaning a source intends.
 
-[DNA, RNA (ribonucleic acid), and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) provide a starting map. A cell preparing to divide must copy its DNA and organize the machinery that separates its contents. Drugs can interfere with these tasks in different ways.
+[DNA, RNA (ribonucleic acid), and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) provide a starting map. The [cell cycle](/wiki/education/concepts/biology-basics/cells/cell-cycle) organizes DNA copying and division; [division-related drug vulnerability](/wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells) depends on the drug and process. Drugs can interfere with these tasks in different ways.
 
 The class map gives each mechanism its own explanation:
 
@@ -61,7 +61,7 @@ Chemotherapy also helps explain [antibody-drug conjugates](/wiki/education/conce
 
 In a fictional laboratory study, Drug A reduces survival in two tumor cell populations after the same exposure. One population recovers more readily after the drug is removed. The result supports different sensitivity under those conditions. It does not establish which population a person contains, whether a safe dose reaches it, or whether treatment improves a clinical outcome.
 
-A second experiment uses a different drug. Its result is a separate observation. Failure of Drug A does not prove that every cytotoxic drug will fail, and a new drug name does not prove that the relevant resistance mechanism has been bypassed.
+A second experiment uses a different drug. Its result is a separate observation. Failure of Drug A does not prove that every cytotoxic drug will fail, and a new drug name does not prove that the relevant [resistance mechanism](/wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance) has been bypassed.
 
 ## Common confusions
 

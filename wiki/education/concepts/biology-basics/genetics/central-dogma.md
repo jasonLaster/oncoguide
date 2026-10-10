@@ -29,7 +29,7 @@ A stored recipe, a working copy and a finished dish are different objects. DNA s
 
 ## How it works
 
-DNA means deoxyribonucleic acid; RNA means ribonucleic acid. A gene is a sequence used to make a functional product. For a protein-coding gene, transcription produces RNA. Processing can remove intervening sequences and join the remaining segments. Translation reads a coding sequence to join amino acids into a protein.
+[DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/molecules/dna), a [gene](/wiki/education/concepts/biology-basics/molecules/gene), [RNA (ribonucleic acid)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) and [protein](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide) are distinct objects; this page follows information between them. For a protein-coding gene, transcription produces RNA. Processing can remove intervening sequences and join the remaining segments. Translation reads a coding sequence to join amino acids into a protein.
 
 A protein can then fold, be modified, move to a particular compartment or be degraded. These steps help explain why a DNA change does not guarantee an altered protein on the cell surface.
 

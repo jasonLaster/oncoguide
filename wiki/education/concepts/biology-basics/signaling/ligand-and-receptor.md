@@ -4,7 +4,7 @@ type: "concept"
 domain: "biology-basics/signaling"
 summary: "A ligand is a molecule that binds a particular partner; a receptor is a protein that senses a signal and can change a cell\u2019s behavior."
 glossary_anchor: "ligand"
-aliases: ["ligand", "receptor", "agonist", "antagonist"]
+aliases: ["ligand", "receptor"]
 level: "foundation"
 prerequisites: []
 used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/index]]"]
@@ -29,9 +29,9 @@ Think of a doorbell. Someone presses a button outside; a signal reaches somethin
 
 ## How it works
 
-A ligand can be a protein, a small molecule or a molecule displayed on another cell. Many receptors sit in the cell membrane. Others work inside the cell, as receptors for some hormones do. Location matters when asking whether a drug can reach its target. [Cell-signaling principles](https://www.ncbi.nlm.nih.gov/books/NBK9924/) describe both routes.
+A ligand can be a protein, a small molecule or a molecule displayed on another cell. [Receptor types](/wiki/education/concepts/biology-basics/signaling/receptor-types) differ in location and how they pass a signal onward. Location matters when asking whether a drug can reach its target. [Cell-signaling principles](https://www.ncbi.nlm.nih.gov/books/NBK9924/) describe both routes.
 
-An **agonist** activates a receptor. An **antagonist** blocks a relevant interaction or activation. A molecule can bind well yet produce little signal. Receptors also depend on partners, internal signaling machinery and the cell’s state. The same signal can therefore have different effects in different cells.
+[Agonists and antagonists](/wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist) can bind a receptor yet produce different responses. A molecule can bind well yet produce little signal. Receptors also depend on partners, internal signaling machinery and the cell’s state. The same signal can therefore have different effects in different cells.
 
 Not every molecular target is a signaling receptor. An accessible protein can be an address for a drug carrying a payload. That drug may work through payload delivery rather than through the target’s normal function. Ask three separate questions: does it bind, does binding alter a signal, and does the finished treatment produce the intended effect?
 

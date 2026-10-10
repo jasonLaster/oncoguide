@@ -29,7 +29,7 @@ A workshop has both a timetable for moving work between stations and a team that
 
 ## How it works
 
-A **kinase** transfers phosphate groups to other molecules. **Cyclins** are protein partners that help regulate particular CDKs. These partnerships influence when a cell copies its DNA, divides, or produces RNA instructions. DNA means deoxyribonucleic acid; RNA means ribonucleic acid, as explained in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma).
+A [kinase](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) transfers phosphate groups to other molecules. **Cyclins** are protein partners that help regulate particular CDKs. These partnerships influence the [cell cycle](/wiki/education/concepts/biology-basics/cells/cell-cycle) and RNA production. DNA means deoxyribonucleic acid; RNA means ribonucleic acid, as explained in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma).
 
 | Group | A central role | Mechanism boundary |
 |---|---|---|
@@ -38,7 +38,7 @@ A **kinase** transfers phosphate groups to other molecules. **Cyclins** are prot
 | CDK7 | Contributes to transcription initiation and activation of other CDKs | A transcription effect and a cell-cycle effect must be distinguished |
 | CDK9 | Supports transcription elongation, continuation of RNA production along a gene | Effects on short-lived transcripts can differ from CDK4/6-mediated arrest |
 
-RB helps restrain a set of transcription factors needed for cell-cycle progression. CDK4/6-mediated phosphorylation can release that restraint. Inhibiting CDK4/6 can preserve it when the necessary machinery works. Loss of RB1 can remove this route, but RB protein presence alone does not prove the circuit is intact or the tumor will respond.
+RB helps restrain a set of transcription factors needed for cell-cycle progression. CDK4/6-mediated [phosphorylation](/wiki/education/concepts/biology-basics/signaling/phosphorylation) can release that restraint. Inhibiting CDK4/6 can preserve it when the necessary machinery works. Loss of RB1 can remove this route, but RB protein presence alone does not prove the circuit is intact or the tumor will respond.
 
 A drug's target profile matters: compounds can inhibit several CDKs at achieved exposures. [Target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) and the resulting cellular effect are separate observations.
 

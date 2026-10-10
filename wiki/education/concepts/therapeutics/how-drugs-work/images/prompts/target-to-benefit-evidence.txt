@@ -1,0 +1,23 @@
+Generation route: built-in image_gen tool. Exact model identity was not exposed.
+Concept owner: drug-target-and-mechanism.md, How it works.
+Style: friendly multi-panel educational illustration; the historical tcr-tcr-t.png is a composition reference only, not a biology source.
+
+LIGHT GENERATION PROMPT
+Create a new scientific educational cartoon for an adult non-scientist cancer education page. Landscape aspect ratio 3:2. Four large panels in a 2-by-2 grid, with spacious labels readable on a mobile image viewer. Title exactly: "A target is a starting point". Friendly rounded molecular forms, clean illustrative outlines, clear sans-serif type, polished textbook poster style. No people or clinical photography.
+Panel 1, heading "1. Binding": a small rounded drug molecule attaching to a purified target protein in a simple laboratory sample. Question exactly "Does it attach?" Small label "Purified target".
+Panel 2, heading "2. Engagement": show a simplified cell bounded by a membrane, with the same drug molecule and its target interacting clearly INSIDE the cell. Question exactly "Does it reach the target?" Small label "Cell". Keep the protein recognizable from panel 1. This is an example of an intracellular target, not a claim all targets are inside cells.
+Panel 3, heading "3. Effect": show the target connected to a small signaling pathway, beside a neutral measurement display. Question exactly "What changes?" Small label "Measured response". Do not show dead cells or imply every interaction inhibits a target.
+Panel 4, heading "4. Benefit and harm": show two neutral comparison-chart cards under a magnifying glass, labeled "Benefit" and "Harm". Question exactly "Does it help safely?" Small label "Clinical comparison". No actual plotted numerical result, no check marks claiming success.
+Use a small dashed connector between successive panel numbers labeled only "Test"; do not make a continuous guaranteed-success pipeline. Footer exactly "Each step needs evidence".
+Scientific guardrails: purified binding is not cellular engagement; engagement is not necessarily a cellular effect; a measured cellular effect does not prove clinical benefit or safety. Drug exposure, mechanism, clinical setting and harms require independent testing. Binding molecule is a generic schematic, not a named drug. No DNA, no antibody-payload drawing, no immune cells needed.
+No extra text beyond the listed labels, no logos, no watermarks, no photorealism, no stock people, no anatomical horror. LIGHT THEME: warm white background, soft pastel panel headers, dark crisp labels and ample contrast.
+
+DARK EDIT PROMPT
+Make the DARK THEME version of this educational cartoon. Preserve the exact 2 by 2 panel layout, all text, molecules, relationships, and the evidence questions. Change the background to deep near-black/navy, use readable pale text and restrained saturated panel accents. Preserve crisp high contrast at mobile width. Keep the generic charts schematic, with no numbers or asserted clinical results. Preserve 'Each step needs evidence'. Do not introduce new labels, medical claims, people, drug names, watermarks, or logos.
+
+OUTPUT CUSTODY
+Light generated original: exec-a632a501-3987-471d-bc94-7d2ff3dad91f.png
+Dark generated original: exec-c65f41b5-49c5-40ca-8a0c-ffaea744c28a.png
+Both originals remain in the image tool output folder. Workspace copies are unchanged PNG bytes.
+Inspect both themes for exact labels, correct target location, readable contrast and no claim of guaranteed clinical success.
+The charts are schematic illustrations, not study data. Panel 2 illustrates an intracellular target; targets can also be on the cell surface.

@@ -27,7 +27,7 @@ This is step 5 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Underst
 
 ## First name the sequence versions
 
-An **allele** is a sequence version at a location. In an ordinary diploid region, a cell has two chromosome copies, one from each parental side. **Heterozygous** means the versions differ; **homozygous** means they match.
+[Alleles and zygosity](/wiki/education/concepts/biology-basics/genetics/allele-and-zygosity) describe sequence versions, which must be interpreted alongside the number of copies in the measured population.
 
 A **haplotype** is a group of nearby variants carried together on a chromosome. **Phasing** assigns variants to chromosome copies. It can help answer whether two changes lie on the same side. It is different from estimating the fraction of cancer cells carrying a change.
 

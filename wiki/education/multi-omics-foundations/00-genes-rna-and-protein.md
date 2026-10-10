@@ -27,11 +27,11 @@ This is step 1 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Underst
 
 ## Three layers, three questions
 
-DNA means **deoxyribonucleic acid**. It stores sequence information. A **gene** is a region whose information is used to make a functional product. For a protein-coding gene, that product is a protein.
+[DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/molecules/dna) stores the sequence of a [gene](/wiki/education/concepts/biology-basics/molecules/gene); a sequence finding leaves its use open.
 
-RNA means **ribonucleic acid**. **Transcription** makes an RNA copy from DNA. A protein-coding message is called **messenger RNA (mRNA)**. Cells process that message before and after it is made. Not all RNA becomes protein; some RNA molecules have other jobs.
+[RNA (ribonucleic acid) and messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) describe captured messages and other RNA products, rather than a count of finished tools.
 
-**Translation** reads the message and joins amino acids into a protein. A protein can fold, move, receive modifications or be broken down. Finding its message does not establish that the finished product reached its useful location.
+A [protein](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide) is the product whose form, location and function need their own measurements.
 
 The recipe analogy helps: DNA is the stored recipe, RNA a working copy and protein a tool or product made from the instructions. A cell is more than a kitchen, though. It controls which recipes are copied, which messages persist and which products are used.
 
