@@ -58,7 +58,7 @@ A fictional trial reports fewer recurrences or deaths with strategy A than strat
 
 ## Applied to Diana
 
-Use these reading steps alongside [the survival evidence review](/wiki/prognosis/survival-statistics), [the care plan](/wiki/care/treatment-plan), and [the adjuvant treatment question](/wiki/questions/adjuvant-treatment). Those pages own the case application and decisions. This guide teaches how to inspect a study without turning another group's outcome into her personal forecast.
+Use these reading steps alongside [the survival evidence review](/wiki/research/reviews/2026-10-postoperative-pathology), [the care plan](/wiki/care/treatment-plan), and [the adjuvant treatment question](/wiki/questions/adjuvant-treatment). Those pages own the case application and decisions. This guide teaches how to inspect a study without turning another group's outcome into her personal forecast.
 
 ## What is still uncertain
 

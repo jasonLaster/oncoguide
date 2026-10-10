@@ -9,6 +9,7 @@ objectives:
   - "Explain why an outcome association or response result may leave clinical benefit untested."
   - "Read subgroup results without treating different significance labels as proof of different effects."
   - "Write a conclusion that names the remaining evidence gap."
+  - "Check calculator inputs and measurement timing before interpreting a prognosis estimate."
 prerequisites:
   - "[[wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval]]"
   - "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"
@@ -41,7 +42,7 @@ flowchart TD
 
 ## Three checks belong side by side
 
-Think of a study as a photograph. It can be sharp but taken from the wrong angle. It can show the right subject but blur an important detail. This analogy helps separate precision from relevance; it does not capture every source of bias.
+Think of a sharp photograph taken from the wrong angle. Precision and relevance both matter; neither alone accounts for bias.
 
 | Check | What to ask | What a reassuring answer cannot fix |
 |---|---|---|
@@ -53,7 +54,7 @@ Read the planned outcomes and analysis beside the published result. Find how man
 
 In an [observational study](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding), treatment choice can share causes with outcome. Check how that confounding was addressed. A [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1) offers a timeline and a hypothesis, with much less ability to isolate a treatment effect.
 
-Also check the [publication version](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed). A conference abstract, a full report and later follow-up from the same participants provide different amounts of information; they are not independent replications. [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) answers questions in the studied model before clinical applicability is tested.
+Also check the [publication version](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed). An abstract, full report and later follow-up from the same participants add information, not independent replications. Link reports by trial identifier, centers and recruitment dates; differently named analyses may share or partly overlap participants. Count independent cohorts, not papers. [Cochrane: linking study reports](https://training.cochrane.org/handbook/current/chapter-05). [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) answers questions in the studied model before clinical applicability is tested.
 
 ## A worked comparison: two different questions
 
@@ -84,11 +85,29 @@ A marker may reliably measure something and identify people with different outco
 
 For earlier detection, ask whether the study measured a benefit from the earlier action. [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) can increase measured survival from detection without changing the time of death. The starting point matters again.
 
+## Check a calculator before its number
+
+A calculator can make uncertain inputs look settled. Keep this record beside its output:
+
+- **Identity:** exact model, software version and any recalibration; a familiar name is insufficient.
+- **Inputs:** required values, units, definitions, specimen dates and the model's documented handling of missing values. Unknown is not automatically negative.
+- **Setting:** treatment era, received treatments and intended population. Older treatment context needs an applicability check.
+- **Question:** [endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints), time origin and prediction horizon.
+- **Validation:** development and separate evaluation populations, including relevant treatment context. **Calibration** asks whether predicted probabilities agree with observed outcomes; ranking people well is a different property.
+
+[TRIPOD+AI](https://doi.org/10.1136/bmj-2023-078378) describes the reporting needed to inspect prediction models. It covers regression and machine-learning methods. A checklist or published calculator is not proof of usefulness for every setting. Do not adjust its output by multiplying unrelated prognostic hazard ratios or adding benefits from other trials.
+
+## Keep the sample on the right clock
+
+A pretreatment biopsy, an on-treatment sample and a surgical specimen represent different moments. Preserve the actual tissue, assay and treatment timing; one cannot automatically assign a stratum defined using another.
+
+A **landmark analysis** defines a later time and follows eligible people from there. For a recurrence-free landmark, people with an earlier recurrence are excluded. The result concerns those who reached that point, not everyone enrolled initially. A “last available sample during year one” also differs from a uniform early postoperative draw. [Anderson, Cain and Gelber: time-dependent response comparisons](https://doi.org/10.1200/JCO.1983.1.11.710).
+
 ## Bring harms into the same comparison
 
-Look for the absolute frequency of important harms in each group, their severity, and the observation period. Ask whether symptoms, treatment discontinuation, and quality of life were assessed. A report that does not mention a harm has not shown its absence. Longer follow-up can reveal different harms from those observed during treatment. [CONSORT 2025 explanation and elaboration](https://www.bmj.com/content/389/bmj-2024-081124).
+Compare absolute harm frequencies, severity and observation periods. Check symptoms, discontinuation and quality of life. An omitted harm is not proven absent; longer follow-up may reveal later effects. [CONSORT 2025](https://www.bmj.com/content/389/bmj-2024-081123).
 
-An updated report from the same participants adds follow-up, not an independent replication. Results from different populations also cannot simply be added to create a combined benefit estimate.
+Results from different populations cannot simply be added to create a combined benefit estimate.
 
 ## What can go wrong at this step
 
@@ -102,6 +121,10 @@ An updated report from the same participants adds follow-up, not an independent 
 A fictional cohort finds favorable five-year outcomes after a negative blood test. Everyone received standard treatment, and the study did not assign care based on the result. A headline says the test proves treatment can be stopped. What is missing?
 
 **Answer:** A comparison of the proposed treatment strategy after that result. The cohort can describe an association in treated people. It does not test the safety or benefit of stopping treatment. You also need test timing, event definition, precision, missing follow-up, and the population to interpret the association.
+
+**Calculator card:** A fictional model requires a residual-tissue marker after surgery. Only a pretreatment biopsy result is available. Can the reader substitute it?
+
+**Answer:** Check the specified input and missing-value rules. An earlier specimen does not establish the required postoperative value; an improvised hazard-ratio adjustment cannot fix that mismatch.
 
 ## Explain it back
 
@@ -119,9 +142,9 @@ Finish: “The study supports ___ in ___. It does not directly test ___. The mai
 
 Source check: 2026-10-09. General evidence appraisal; expert and learner review pending. All evidence cards, studies, and numerical results are fictional. This lesson does not calculate a personal prognosis or choose treatment.
 
-- [CONSORT 2025: reporting randomized trials](https://www.bmj.com/content/389/bmj-2024-081123).
-- [CONSORT 2025: explanation and elaboration, including outcomes and harms](https://www.bmj.com/content/389/bmj-2024-081124).
+- [CONSORT 2025: reporting randomized trials, outcomes and harms](https://www.bmj.com/content/389/bmj-2024-081123).
 - [FDA 2021, ICH E9(R1): treatment-effect questions and sensitivity analysis](https://www.fda.gov/media/148473/download).
 - [Sun and colleagues 2010: credibility of subgroup analyses](https://www.bmj.com/content/340/bmj.c117.long).
-- [Greenland and colleagues 2016: statistical tests and confidence-interval misinterpretations](https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/).
-- [FDA–NIH BEST: biomarker evidence definitions](https://www.ncbi.nlm.nih.gov/books/NBK326791/).
+- [Collins and colleagues 2024, TRIPOD+AI: reporting prediction-model inputs, outcomes and evaluation](https://doi.org/10.1136/bmj-2023-078378).
+- [Cochrane Handbook, chapter 5: studies rather than reports as the unit of evidence](https://training.cochrane.org/handbook/current/chapter-05).
+- [Anderson, Cain and Gelber 1983: survival comparisons using response observed during follow-up](https://doi.org/10.1200/JCO.1983.1.11.710).

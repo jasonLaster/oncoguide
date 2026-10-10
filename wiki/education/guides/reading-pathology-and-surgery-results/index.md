@@ -56,7 +56,7 @@ flowchart TD
 
 ## Applied to Diana
 
-[The diagnosis record](/wiki/care/diagnosis), [results](/wiki/care/results), [the surgical residual-burden calculation](/wiki/prognosis/rcb-calculation-and-diana) and [the treatment plan](/wiki/care/treatment-plan) own the current findings and decisions. This path teaches the terms without copying a changing result table.
+[The diagnosis record](/wiki/care/diagnosis), [results](/wiki/care/results) and [the treatment plan](/wiki/care/treatment-plan) own the current findings and decisions. This path teaches the terms without copying a changing result table.
 
 ## What is still uncertain
 

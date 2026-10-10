@@ -39,6 +39,8 @@ The calculation uses two tumor-bed dimensions, overall [cancer cellularity](/abo
 | `N` | Number of positive regional lymph nodes under the assessment protocol |
 | `dmet` | Largest nodal metastasis diameter, in **millimeters** |
 
+The [MD Anderson protocol](https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf) uses the largest residual tumor bed for multicentric disease and revises its gross dimensions when microscopic findings show a different extent. Cellularity is averaged across that defined bed, including sparse areas; sampling only the densest cancer foci would misrepresent the input.
+
 First calculate `dprim = sqrt(d1 × d2)` and `finv = (C / 100) × (1 − S / 100)`. The original formula then combines breast and nodal contributions:
 
 ```text
