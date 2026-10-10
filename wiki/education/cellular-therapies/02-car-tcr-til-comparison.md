@@ -90,4 +90,4 @@ Source check: October 9, 2026; expert and learner review pending. This compariso
 - [Receptor-transfer study in metastatic melanoma](https://pubmed.ncbi.nlm.nih.gov/16946036/) — genetic installation rather than native-cell expansion.
 - [Bystander cells in human lung and colorectal tumors](https://pubmed.ncbi.nlm.nih.gov/29769722/) — tissue origin does not establish tumor specificity.
 - [Cord-blood CAR-NK study](https://pubmed.ncbi.nlm.nih.gov/32023374/) — one construct and population, not a family-wide risk estimate.
-- [Gamma-delta biology lesson](/wiki/education/cellular-therapies/03-gamma-delta-foundations) — specialist reading with scoped sources.
+- [Gamma-delta biology lesson](/wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells) — specialist reading with scoped sources.

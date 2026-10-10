@@ -33,7 +33,7 @@ Start with [the engineered-cell guide](/wiki/education/guides/engineered-cell-th
 
 ## Specialist reading and practice
 
-[Gamma-delta foundations](/wiki/education/cellular-therapies/03-gamma-delta-foundations) extends the recognition comparison. The [chimeric antigen receptor (CAR) T-cell learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) supplies interactive component, graph and quiz exercises in the reader.
+[Gamma-delta foundations](/wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells) extends the recognition comparison. The [chimeric antigen receptor (CAR) T-cell learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) supplies interactive component, graph and quiz exercises in the reader.
 
 ## Apply the concepts
 

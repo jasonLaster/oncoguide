@@ -44,6 +44,8 @@ A sound experiment needs a stated endpoint, dose range, timing and controls. **V
 
 Replicates address variability, but repeated wells from one preparation are not independent patients. A dose that works in a dish may not be reachable safely in a person. Reduced growth and cell death are different endpoints. Normal-tissue toxicity is often missing from a tumor-only readout.
 
+Some functional tests ask a narrower question. [BH3 profiling](/wiki/education/concepts/measurement/functional-models/bh3-profiling) probes mitochondrial readiness for apoptosis under defined conditions. Keep that assay endpoint separate from whole-drug response and demonstrated clinical benefit.
+
 ## A worked repair experiment
 
 The fictional repair finding now has supporting DNA, RNA and protein evidence. A suitable model shows impaired repair under controlled conditions. A drug then reduces model growth across replicated, relevant exposures.

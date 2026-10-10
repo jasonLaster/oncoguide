@@ -47,6 +47,8 @@ For new illustrations, verify the active light/dark pair and its saved prompt ar
 
 Page moves or removals require reviewed exact paths using repeated --remove <vault-relative-path> arguments in both plan and apply. A path must have been imported, be absent from the new export, and have no independent destination edit. Never use a broad mirror-delete command to clean up retired media.
 
+For a consolidation, record the exact old-to-new page mapping and preserve unique material at its substantive owner before removing the old page. Check public destination metadata and reroute authored inbound links; immutable source captures retain their original references. Verify replacement pages on Diana before its exact server-side retirement. A move to a company, research or care owner removes the education copy from Oncoguide while keeping that owner in Diana; retain the artwork hashes and historical provenance in the sync receipt.
+
 ## Validate and release
 
 Run the focused sync tests and the pinned site build:

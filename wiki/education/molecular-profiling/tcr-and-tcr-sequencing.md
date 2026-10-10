@@ -17,7 +17,7 @@ reviewed_by: ""
 
 # T-cell receptors and TCR sequencing
 
-**A T-cell receptor recognizes a peptide together with the [human leukocyte antigen (HLA) molecule](/wiki/education/concepts/immunology/antigen-presentation/hla) displaying it; sequencing identifies receptor sequences, rather than proving what they recognize.**
+**For conventional alpha-beta T cells, the receptor recognizes a peptide together with the [human leukocyte antigen (HLA) molecule](/wiki/education/concepts/immunology/antigen-presentation/hla) displaying it; sequencing identifies receptor sequences, rather than proving what they recognize.**
 
 **Before you start:** [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) displays fragments. [T-cell receptors (TCRs)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) inspect them. [The repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) describes the sampled set; [TCR sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) measures receptor sequences. This lesson connects those ideas to an assay report.
 
@@ -26,6 +26,8 @@ reviewed_by: ""
 Most conventional T cells use a receptor made from an alpha and a beta chain. The receptor contacts both the peptide and its human leukocyte antigen (HLA) molecule. The **peptide sits in the HLA binding groove**; the TCR does not hold it in a separate peptide pocket. The receptor works with CD3 signaling proteins and, often, a CD4 or CD8 co-receptor.
 
 A receptor can cross-recognize multiple peptide–HLA complexes. A clone means cells descended from the same T cell, usually carrying the same receptor sequence. Neither a sequence match nor binding alone proves safe tumor killing. Receptor affinity, peptide density, cell state and signaling all matter.
+
+[V(D)J recombination](/wiki/education/concepts/biology-basics/genetics/vdj-recombination) explains how developing lymphocytes assemble varied receptor genes. [Gamma-delta T cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells) use a different receptor family with subset-specific recognition systems. The conventional peptide–HLA example here is not a rule for every T cell.
 
 ```mermaid
 flowchart TD

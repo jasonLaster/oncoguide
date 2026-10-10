@@ -35,6 +35,14 @@ A tumor event supplies altered sequence. A longer **source window** encodes surr
 
 One event can produce several windows or peptide–HLA pairs. Ten windows from one event are therefore different from ten independent tumor alterations. Similarly, several alleles may still share a [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) dependency.
 
+### Ask what sequence actually changed
+
+A [mutation label](/wiki/education/concepts/biology-basics/genetics/mutation-types) is not an encoded peptide. A simple stop-gain changes a codon into a stop signal; it does not insert a new amino acid at that position. If the upstream sequence is unchanged, it does not by itself specify a new mutant peptide sequence. A frameshift can instead change the downstream amino-acid sequence before translation stops. Reconstruct the relevant transcript and translated sequence rather than treating every truncating event as the same target.
+
+Imagine two fictional rows: M ends an otherwise unchanged protein early, while N shifts the reading frame and creates a new tail. N supplies a candidate altered sequence; M's stop label alone does not. Neither row establishes that a cancer cell displays a recognized peptide.
+
+Premature stops can also trigger **nonsense-mediated RNA decay**, which reduces some altered transcripts. Its efficiency depends on transcript context. Ask for mutant RNA support and downstream presentation and recognition evidence; a decay prediction is another model output, not a universal exclusion rule.
+
 ## The evidence ladder
 
 | Rung | What it supports | What it leaves open |
@@ -110,3 +118,5 @@ Source check: October 9, 2026; expert and learner review pending. The ten-row ca
 - [Wells et al., primary neoantigen-prediction benchmark](https://pubmed.ncbi.nlm.nih.gov/33038342/) — measured binding/recognition support has task-specific scope.
 - [TNBC-MERIT clinical example](https://www.nature.com/articles/s41586-025-10004-2).
 - [Official NetMHCpan-4.1 output documentation](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/), for prediction tasks and score interpretation. The linked concepts carry the primary sources for tolerance, immunodominance and spreading.
+- [Lindeboom et al., transcript-context rules for nonsense-mediated decay](https://www.nature.com/articles/ng.3664), derived from matched cancer exomes and transcriptomes.
+- [Litchfield et al., frameshift expression and immune recognition](https://www.nature.com/articles/s41467-020-17526-5), including melanoma cohorts and functional screens; this does not validate a specific candidate or predict vaccine benefit in TNBC.

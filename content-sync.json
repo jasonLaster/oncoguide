@@ -1,14 +1,12 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279",
+  "sourceCommit": "a33667063bdf62e597eef54e161345b4f8b93785",
   "sourcePrefix": "obsidian/",
   "rendererCommit": "4b99b42a8a61fd87da911f05b6b06dac031ff6fe",
   "files": {
     "wiki/education/cellular-therapies/01-cell-therapy-primer.md": "20aded4193156dc833c8b84fdb39c66496b90f8b518504d65a1fc455516fbf74",
-    "wiki/education/cellular-therapies/02-car-tcr-til-comparison.md": "92c0ee6bac55a195b9af391fb34118dd41ac3cbfa5c515144bade5f1bc029106",
-    "wiki/education/cellular-therapies/03-gamma-delta-foundations.md": "172f34cc300886581254d9792c254291f04e9cd696928f48da9ca97ebeb322cb",
-    "wiki/education/cellular-therapies/04-gamma-delta-decision-framework.md": "514b6e343edd90729f25e74bb4652e80d8a9149ebf2f0a8e9299ace079a38499",
+    "wiki/education/cellular-therapies/02-car-tcr-til-comparison.md": "3509f4a97374fc63c607796417f787be12be631c155ceafd35265a10928f1b32",
     "wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks.md": "e1b041655f5e19580f6ccabe2c7d7f4e406dc6175d415841913dfcbed085b764",
     "wiki/education/cellular-therapies/06-in-vivo-delivery.md": "fead0105fb0cecfaebe7291881599ca7ac8418cb208c99dbc8106663823e2296",
     "wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors.md": "21ccad023601dfb668e7965799df0029a238eb269c0b170991d57294630fb504",
@@ -16,10 +14,6 @@
     "wiki/education/cellular-therapies/09-reading-cell-therapy-evidence.md": "23917d23e32a640bd7a2d42bdd80227d424c34d3839b77b295dbe1941f5f1d3a",
     "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-dark.png": "6ba66292f659473ffb017ce3aef2978eada52e0c21954a1212cc469a5b91a255",
     "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-light.png": "edc27038f4b3db4559ccf0c4e1a25527a3dbbd16dce615381c951fcccdb70ce1",
-    "wiki/education/cellular-therapies/images/gamma-delta-go-no-go-gates-dark.png": "143e9cb15c6892ac2c3c551f2cc53ce581f1c0d82663072ff6f4be820fee010b",
-    "wiki/education/cellular-therapies/images/gamma-delta-go-no-go-gates-light.png": "5ad5a8b2b07905714142ff516fb4cd58f15e32fd6dc14e8a74a86d642c8110ff",
-    "wiki/education/cellular-therapies/images/gamma-delta-two-sensor-recognition-dark.png": "163e9277ef8e3b0b2a4cb291d10a3576909b5e7c30039fb39c968aa1aea3137a",
-    "wiki/education/cellular-therapies/images/gamma-delta-two-sensor-recognition-light.png": "d6923f26e4711e42ea50484002df0c20392a4493253909e08b423eccb915dd5b",
     "wiki/education/cellular-therapies/images/instructions-to-car-dark.png": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
     "wiki/education/cellular-therapies/images/instructions-to-car-light.png": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
     "wiki/education/cellular-therapies/images/prompts/cytokine-message-and-receptor.txt": "519f14de96ab841d54d48ce1c545dd7fc9eda59628b889e937b2fc034a72dade",
@@ -30,7 +24,7 @@
     "wiki/education/cellular-therapies/images/solid-tumor-journey-light.png": "cb6a2174b19399f437ee1e0c0b0691b2f447b4b1d7fb413ae84b56f52e43f58f",
     "wiki/education/cellular-therapies/images/where-cells-are-engineered-dark.png": "5850160673feca0c8e26fd64f3469485b4ceb0f29a6268c75df0572e437ce53a",
     "wiki/education/cellular-therapies/images/where-cells-are-engineered-light.png": "7670b3c219fc76a83db9736a4a192c67321241de1cc35bce754fef29a590c94b",
-    "wiki/education/cellular-therapies/index.md": "ca5cbdab87b430fa97fc2bae750325b936ab952478f7d5c2ba3ef8f9bfb4031f",
+    "wiki/education/cellular-therapies/index.md": "18803bde015ad2566534c7ef2f83c5ca7fa319cd6fedc9b030d07ccd95bf10a0",
     "wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.html": "d09cd1f96e04040769e093dba310b1f8022c7dfa8f19eccdf5fa353d6b820ab8",
     "wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.zip": "8b15dfeb4c975bf7d577ce8532164275008c581e056caf949e378721d476ed47",
     "wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use.md": "fd2b819a748e0a6337020b68fd031d128588fbef8d43e43213002275607fbb42",
@@ -38,7 +32,8 @@
     "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md": "6a70b4aa78968c3e10dd7038281bc3ab51cdf2480b9439c7e0cb1a838fbb1279",
     "wiki/education/concepts/biology-basics/genetics/central-dogma.md": "f1164df15dcb39cfe37307f16a7ad9c84eebb13a28a7d3a11a6892f93e51d993",
     "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md": "4acfa350d8e283fbf6343380a1179c606d28518fff065eacb45b229e710886f6",
-    "wiki/education/concepts/biology-basics/genetics/mutation-types.md": "8a812c1e06105a6b19d3d73525a28796ca515b10bfcb874bd7171491a06f6868",
+    "wiki/education/concepts/biology-basics/genetics/mutation-types.md": "cb5df74ef46fa3e8a2efb33ec5ae67a906d97d72f1fe2fd30c73dd5b16685027",
+    "wiki/education/concepts/biology-basics/genetics/vdj-recombination.md": "66de1ed630d015b3c8cb56d5ca4147d33ca12b821ebea99b6feb0507790867e9",
     "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md": "ea8809dcb927a78772ca70c9fb32f1c925536a5f6cf1d947d9bb5a0f9c73ee89",
     "wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade.md": "e5acea069770dba550183ee2bb25a8fcff58febe27d2185f7382f2736612a71c",
     "wiki/education/concepts/breast-cancer/grade-and-stage/ki-67.md": "b0cb1b09445951aabfb5543410234689a654d5e48a039591139ddfc2a9fe5a18",
@@ -117,6 +112,7 @@
     "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md": "0153433a5b993dc42dea4a33c567138b87523f35793bc465d46c22a3178541c0",
     "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md": "969e0af1f843011a99d4d7229097ca330e2336d502d93389e550cda8996c17b4",
     "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md": "86fd51f7bb788fad2d84b00c504064f7edaaa8703cdb542f23636c6079bd1fc4",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md": "40552c01be3f78d9b2d8e4b5a1486dff0e868baaccfe532255b9992af77683c8",
     "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md": "5150d3dcba3de4607cd982575a8353e8da28176a65dd3c28e593b963c06d1bf5",
     "wiki/education/concepts/immunology/t-cells/epitope-spreading.md": "da27221865c9223aadd3ba526a79b875ef4df262bf1b1dcd7cc173383db46e0a",
     "wiki/education/concepts/immunology/t-cells/immunodominance.md": "61168df714d95f088d2402ff5803dd55e8547c1fab9698b9d84c410e902de199",
@@ -131,10 +127,11 @@
     "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md": "3ec8a62d2bafdd3d191f87cfe221241fc2cc24a7e49d941390430d88d928413f",
     "wiki/education/concepts/immunology/tumor-immunology/immune-escape.md": "96c14b48d238619ce3a7543836785bb99774bc754327a4b033e3c1a5c59cff0b",
     "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md": "c041044cd61aa9161205b1b86e27c7dfc9264b7933421dc720c19f098f417f6f",
-    "wiki/education/concepts/index.md": "55c4f08dbb1af34b995cac9c89537b9f017905f269b25fe30f8851dd5d55baaf",
+    "wiki/education/concepts/index.md": "0b4988dce3415a91764d2ab94e0fe8a9e6ac42cdd420fa3bab7d0000d1f8532a",
     "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md": "5b67713eb10974e4a10b6b42e14eadd41ff4273d0ab463fd7e97c788ed6cbafa",
     "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md": "fc333110221e7a687762fcd72cf0276b062e892961b14403b4dfa25fcb558576",
     "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md": "e763fe93bcbea383abb7b6e5df7850531351e1d33cede80a50ec08faf9e53323",
+    "wiki/education/concepts/measurement/functional-models/bh3-profiling.md": "88f0eb9834e84fe75ac3b3faf3647651ef014651f1b888e532d04af13c7fd97b",
     "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md": "561f1c4a51b55c21345a2954911f224f0830151338161e5bd6a4050442d55f27",
     "wiki/education/concepts/measurement/functional-models/organoid.md": "0153df06f03a30f987717852da5d726684c3526f2cd26680b87c820eea1ee574",
     "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md": "418c42d8f6c40e6afd7aab6c03647da61fd53388da8978afcfbc7893773f1c10",
@@ -191,15 +188,8 @@
     "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md": "57d4ce67216d32f69991b5dd7c2c949490361f2c072635a52244e295e37f5638",
     "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md": "93edc9df7e1633c97fbac58ff093c58c4c852e198cf8d2d9847a484333f8a47c",
     "wiki/education/designing-a-vaccine/03-immunopeptidomics.md": "7a41cf4ad8cac6ebe26f73d28cb9cd700bc236502107738bd0b2cbd24ae449d0",
-    "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md": "c841b376c00683596087115505ebc472acfe2c6fe6910849d2c3e1516d1bbe9a",
+    "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md": "593a10f1349c82c16ac5e29019624995098f316bc01b0895890c2bdccd4870ff",
     "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md": "2f57071de701354f0879ef0ccc05aa72fe248cbdee89a016511826495c9f6b68",
-    "wiki/education/designing-a-vaccine/06-leukapheresis-and-tcr-t.md": "8a0bfc791b5f0096db7ca56951d8d7af2e18f59863e9ea5efa28c510c25a6843",
-    "wiki/education/designing-a-vaccine/07-tcr-and-tcr-sequencing.md": "de1679c387bbefc514186d5afd53c8baa4907cd731e9021847d3929755fac167",
-    "wiki/education/designing-a-vaccine/08-porton-mrna-manufacturing.md": "08f7976ceebc656008b01f4aa3363582bae8d660e8fc9561c753ce2aaa52f5b5",
-    "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-dark.png": "eb1d3cf0a6cfc2744cbb5f52d7a7841781b324bd2d1d4856e7c3c8d057c10f6a",
-    "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-light.png": "0e8aefc2dbac9e361ffe73d09cee55122501c8cd69c7d77715e6b564bc1997f9",
-    "wiki/education/designing-a-vaccine/images/porton-sequence-to-vials-dark.png": "8e4206a28530f96cc67fc6f11a239ed192e8029860aa2549fa45f65d5d3c29f7",
-    "wiki/education/designing-a-vaccine/images/porton-sequence-to-vials-light.png": "831eb86fad6522ac8bdadb80d76598db6c5e650e53f2317ba638fa4e76278799",
     "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions.txt": "04c8923b64230ea22af815959ec886871080723047849f0d23932118a46768c5",
     "wiki/education/designing-a-vaccine/images/three-assays-three-questions-dark.png": "446127018bade1a5fff1a61e7da4554ede02b75426ada80e9c9596933427c572",
     "wiki/education/designing-a-vaccine/images/three-assays-three-questions-light.png": "5263f8430942ca1db0281c56edd23073838fc7f7b361506cd15d9f315aa0411a",
@@ -253,7 +243,7 @@
     "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md": "5fe4a3be9bb5678fa98b8a8ee5db08134164d511cf9983c5805663734c40083c",
     "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md": "4372dc0d721979dc033c6fa76b97e11047752eabb33a72b986241fac35ede20e",
     "wiki/education/guides/treating-early-tnbc/index.md": "0b0558096fa576fbff623621257b1a0ab6303e5fb1e0606fc7dfb71e135f9a19",
-    "wiki/education/images/index.md": "27ea8813707e814c02165a32833ed2f6237bccb05c87bc356a8ec2b0e7988cc6",
+    "wiki/education/images/index.md": "050cb23e466a6a686196ffabd0e2891e42402f3d95196bfaa76940c5d360c40a",
     "wiki/education/index.md": "7bfa81e89fa5eadf4529e1cf21eb5fff1b8742166741e421a7707ee579633ea4",
     "wiki/education/intratumoral-therapy.md": "06c45edb893027e8b2eb4b5dbb48faa77f130d82e3fa07330142dbe47e578d5e",
     "wiki/education/local-treatment-modalities/01-mechanism.md": "a6055bafdabf29607703eb0c940865783a282563af53a6f98f46ce3e0ee81d7c",
@@ -272,7 +262,7 @@
     "wiki/education/molecular-profiling/02-rna-the-activity-layer.md": "691ce74a7d389be5ccabb2c0565da9cb280fe46a2eb225bd9ae6864eb8a5203e",
     "wiki/education/molecular-profiling/03-protein-expression-and-activation.md": "3ecf58d0d3b15516e666426ea788d44670ee21c6c91e04ef156597231f768e7e",
     "wiki/education/molecular-profiling/04-spatial-biology.md": "69a024f4662b781aea5fb21663e3fe211abd0df6dc489c07149d11d7788ab6ff",
-    "wiki/education/molecular-profiling/05-functional-drug-response.md": "4f4b55cc3089960f7b2fa0fbbd4bc5077b562abd6c40882ac797a1edef1d30cd",
+    "wiki/education/molecular-profiling/05-functional-drug-response.md": "f1abb8d0cb287481fe64bf1f31bf99c29e7b67efa63a23c697c1c8fac94d5ba5",
     "wiki/education/molecular-profiling/06-ctdna-and-mrd.md": "8c2e39c460ac1bf34f95476e8b1a13d719cb049132853eb6877a85827fedc077",
     "wiki/education/molecular-profiling/07-from-data-to-care-plan.md": "dac6e7122df94d020e837ca72b8a425b72183a14b1633258b4b245034869ba1c",
     "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md": "5c5a401509d7ca4c4c685829b1b137cf557d88d691ff9d62e03630b2860e4af9",
@@ -304,8 +294,7 @@
     "wiki/education/molecular-profiling/parp-and-cell-survival/images/prompts/parp-obstacle-and-clearance.txt": "acd43145cad5e8802024b9f733e0b3b99428f7f2cce892ccadc50c50e614a8d3",
     "wiki/education/molecular-profiling/parp-and-cell-survival/images/prompts/pi3k-repair-recycling-tradeoff.txt": "6f26cc0abadab0c85900cfb4706cca64977d46e58ab11725c6cfa91fb3082921",
     "wiki/education/molecular-profiling/parp-and-cell-survival/index.md": "c74e4887c02e6dbbd54f28487476eb8fbfce339b06c2b3a2eadb4e61badd4f8b",
-    "wiki/education/molecular-profiling/rag1-s382-stop-pathway-hypothesis.md": "3eebf23a8c534ae75242e48bf31e9a359a65588edb12dc8edbafaaf12f48f401",
-    "wiki/education/molecular-profiling/tcr-and-tcr-sequencing.md": "26c1c6912140b03425d4bcb836c7098df150cfd0f7127a5cdd6857fea2d8513d",
+    "wiki/education/molecular-profiling/tcr-and-tcr-sequencing.md": "1a0b6c45fe20681ce9d560ee6cbe9384e1165153936e5eac3265cb4edb0f9e73",
     "wiki/education/multi-omics-foundations/00-genes-rna-and-protein.md": "144d1a97d8edcb6bd5f54699bf11090267db8dd8331a38a94e734b4df8c613d1",
     "wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue.md": "71d8a64fb05ef9f46204e0568d9c04810a3a95fea3e2713506f47b78220e9f2c",
     "wiki/education/multi-omics-foundations/02-cell-identity-and-state.md": "81de62ec1b93b49c07caa0ed067892d5f417825b4be607230765e84400278556",
@@ -337,6 +326,38 @@
     "wiki/education/tools/in-vivo-car-t-learning-lab.md": "b29353f1b9fc07e0b0e43d230cb435a0e229fc23e735b378a881e2193676e095"
   },
   "retainedFiles": {
+    "wiki/education/cellular-therapies/images/gamma-delta-go-no-go-gates-dark.png": {
+      "hash": "143e9cb15c6892ac2c3c551f2cc53ce581f1c0d82663072ff6f4be820fee010b",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/cellular-therapies/images/gamma-delta-go-no-go-gates-light.png": {
+      "hash": "5ad5a8b2b07905714142ff516fb4cd58f15e32fd6dc14e8a74a86d642c8110ff",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/cellular-therapies/images/gamma-delta-two-sensor-recognition-dark.png": {
+      "hash": "163e9277ef8e3b0b2a4cb291d10a3576909b5e7c30039fb39c968aa1aea3137a",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/cellular-therapies/images/gamma-delta-two-sensor-recognition-light.png": {
+      "hash": "d6923f26e4711e42ea50484002df0c20392a4493253909e08b423eccb915dd5b",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-dark.png": {
+      "hash": "eb1d3cf0a6cfc2744cbb5f52d7a7841781b324bd2d1d4856e7c3c8d057c10f6a",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-light.png": {
+      "hash": "0e8aefc2dbac9e361ffe73d09cee55122501c8cd69c7d77715e6b564bc1997f9",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/designing-a-vaccine/images/porton-sequence-to-vials-dark.png": {
+      "hash": "8e4206a28530f96cc67fc6f11a239ed192e8029860aa2549fa45f65d5d3c29f7",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/designing-a-vaccine/images/porton-sequence-to-vials-light.png": {
+      "hash": "831eb86fad6522ac8bdadb80d76598db6c5e650e53f2317ba638fa4e76278799",
+      "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
     "wiki/education/molecular-profiling/images/cul3-nrf2-ferroptosis-dark.png": {
       "hash": "23f89f2508d1968890d648dedc089de30a86c8b2411e03419de99fdd39e4ed34",
       "sourceCommit": "01a6c4ee948734925e77e5122b4968b59f76a777"
