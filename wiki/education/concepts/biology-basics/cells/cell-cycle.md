@@ -7,7 +7,7 @@ glossary_anchor: "cell-cycle"
 aliases: ["cell cycle", "G0", "G1", "S phase", "G2", "M phase", "cell-cycle checkpoint"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/organelles-overview]]"]
-used_by: []
+used_by: ["[[wiki/education/oncology-101/3-t-cell-states]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: "2026-10-09"
@@ -108,5 +108,5 @@ Source-checked October 9, 2026; expert and learner review pending. The exercise 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
 <!-- END GENERATED USED IN -->

@@ -12,7 +12,7 @@ source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-09"
+updated: 2026-10-10
 ---
 
 # The journey through a solid tumor
@@ -35,19 +35,21 @@ View full-size: [light illustration](https://4pdxqyvytfd88yy1.public.blob.vercel
 
 **Trafficking** means movement toward a site; **infiltration** means entering the tissue. Cells measured in blood or spleen have not necessarily entered the cancer. Tumor blood vessels, physical tissue structure, and local chemical signals can impede access. [1,2]
 
-The **tumor microenvironment** includes cancer cells, immune cells, blood vessels, fibroblasts, and extracellular material. A tumor is an ecosystem, not just a pile of identical cancer cells.
+The [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment) supplies the tissue context for this journey. [Angiogenesis](/wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis), the growth of vessels from existing vessels, is one part of it. A dense vessel network does not by itself establish useful blood flow or immune-cell entry.
 
 ### 2. Recognize enough cancer cells
 
 A surface target must be accessible and present at a level the CAR can respond to. A high RNA measurement does not automatically establish high surface-protein expression.
 
-**Heterogeneity** means variation. Some cancer cells may display much of a target, others little, and others none. Different metastases may also differ. **Antigen escape** occurs when cells that are not effectively recognized survive and grow; this can involve selection of pre-existing target-low cells as well as changes over time. [1]
+[Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) can leave some cancer cells with much of a target, others with little, and others with none. Different metastases may also differ. **Antigen escape** occurs when cells that are not effectively recognized survive and grow. [Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) explains how pre-existing populations and later changes can contribute; it does not mean treatment deliberately teaches a cell to resist. [1]
 
 Conventional CAR recognition does not require a peptide to be displayed on [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). That removes one recognition dependency; it does not remove the need for an appropriate surface target. See [[wiki/education/cellular-therapies/02-car-tcr-til-comparison|the recognition comparison]].
 
 ### 3. Keep working in a hostile environment
 
 Suppressive signals, limited nutrients, low oxygen, and repeated stimulation can undermine function. **Exhaustion** describes a biological state associated with chronic stimulation and altered function; it is not simply a cell being briefly tired.
+
+Give a proposed barrier a specific name. [Adenosine and indoleamine 2,3-dioxygenase (IDO) pathways](/wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido) describe different local regulatory mechanisms. [Tumor-associated macrophages](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-associated-macrophages) and [myeloid-derived suppressor cells](/wiki/education/concepts/cancer-biology/tumor-microenvironment/myeloid-derived-suppressor-cells) require careful identity and function measurements. A high cell count or gene-expression signal alone cannot prove which barrier is causing failure.
 
 **Persistence** means cells remain present. **Functional persistence** means they remain capable of useful activity. [armoring](/wiki/education/concepts/therapeutics/cell-therapies/armoring) can add support or resistance to one inhibitory pathway. A supportive cytokine receptor might help with one aspect of this problem; it does not supply oxygen or guarantee access to every cancer cell. Experimental approaches that deliver cytokines locally have improved mouse outcomes, but their results are specific to the tested constructs and models. [2]
 
@@ -65,7 +67,9 @@ Healthy-tissue recognition is only one safety question. [Cytokine release syndro
 
 The tumor has become much smaller, but 20 target-negative cells remain. Making ten times as many CAR-X cells does not create target X on those survivors. Real treatments can recruit other immune effects, but that requires evidence; it should not be assumed from the CAR's specificity.
 
-**What might address this gap?** A second recognition target, carefully tested [logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars), or a demonstrated broader immune response might help. Each introduces its own design and safety questions.
+Now keep target X unchanged and change the neighborhood. A tumor-only culture supports killing, while a tissue model containing additional cells shows less activity. That difference opens a context question. It does not identify one macrophage state, vessel defect or suppressive pathway as the cause. Check the preserved cell populations and the experiment's controls before choosing a mechanism to test.
+
+**What might address the target-coverage gap?** A second recognition target, carefully tested [logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars), or a demonstrated broader immune response might help. Each introduces its own design and safety questions.
 
 ## Match the tool to the problem
 
@@ -100,6 +104,8 @@ The indication name is not a molecular target. Even [triple-negative breast canc
 ## Sources and scope
 
 Source check: October 9, 2026; expert and learner review pending. The numerical example is deliberately fictional. These lessons do not infer eligibility for a particular treatment.
+
+Tissue-ecosystem links and the controlled neighborhood comparison added October 10, 2026. Linked concepts hold the mechanism sources and their measurement limits. [NCI's tumor biology and microenvironment portfolio](https://www.cancer.gov/about-nci/organization/dcb/research-portfolio/tbmr) describes these interacting tissue questions.
 
 1. [NCI: CAR T cells, including barriers in solid tumors](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7). Preclinical evidence for locally controlled cytokine expression; not in vivo generation of the CAR-T cells.

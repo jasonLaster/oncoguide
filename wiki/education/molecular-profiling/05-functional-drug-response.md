@@ -8,7 +8,7 @@ objectives: ["Choose a living model that contains the biology required by the me
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -45,6 +45,18 @@ A sound experiment needs a stated endpoint, dose range, timing and controls. **V
 Replicates address variability, but repeated wells from one preparation are not independent patients. A dose that works in a dish may not be reachable safely in a person. Reduced growth and cell death are different endpoints. Normal-tissue toxicity is often missing from a tumor-only readout.
 
 Some functional tests ask a narrower question. [BH3 profiling](/wiki/education/concepts/measurement/functional-models/bh3-profiling) probes mitochondrial readiness for apoptosis under defined conditions. Keep that assay endpoint separate from whole-drug response and demonstrated clinical benefit.
+
+## Compare with the starting cells as well as the control
+
+Imagine a fictional experiment begins with 1,000 viable cells in each condition. Later, the vehicle control contains 2,000 cells and the treated condition contains 1,000. The treated count is half the control, yet it is unchanged from the start.
+
+That endpoint does not show that half the original cells died. It shows no net increase under treatment. Reduced division is one possible explanation; division balanced by cell death is another. Measuring the start and following the time course helps separate those possibilities. Growth-rate methods address this control-growth problem under their stated assumptions. [Hafner et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/).
+
+[Apoptosis and its B-cell lymphoma 2 (BCL-2) family control](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family), [necrosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis) and [senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence) also need different evidence. A lower endpoint signal cannot assign a death mechanism or establish senescence. Combine suitable viability, division and cell-state measurements with controls. A single marker should not carry the whole interpretation.
+
+**Try the denominator:** In that fictional experiment, does “50% of control” mean “50% cell killing”?
+
+**Answer:** No. The reference is the later growing control. The treated population remained at its starting size, and the underlying division and death processes still need measurement.
 
 ## A worked repair experiment
 
@@ -90,6 +102,9 @@ One answer: “defined cells, exposure and readout; model relevance, reproducibi
 
 Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
 
+The starting-count exercise and cell-fate links were source-checked October 10, 2026. This is a model-interpretation example, rather than a response prediction for a patient.
+
 - [Neal et al., primary organoid immune-microenvironment experiment](https://doi.org/10.1016/j.cell.2018.11.021).
 - [Primary breast-tumor graft study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/).
+- [Hafner et al., 2016: growth-rate inhibition metrics](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/) — primary simulations and cell-line experiments; control growth can confound endpoint drug-response scores.
 - [[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment|Controls and combination experiments]].

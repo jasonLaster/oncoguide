@@ -8,7 +8,7 @@ objectives: ["Separate T-cell abundance, target specificity and function.", "Exp
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]", "[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]", "[[wiki/education/concepts/immunology/t-cells/regulatory-t-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -38,6 +38,8 @@ A **naive** T cell has not undergone its initial antigen-driven activation. An *
 Two other labels need care. [**Anergy**](/wiki/education/concepts/immunology/t-cells/anergy) describes reduced antigen-driven responsiveness in a defined context. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. They are different mechanisms. An exhausted population can include cells with different capacities to divide and respond.
 
 Quiet cells need an explanation before an intervention. In a fictional test, a viable population responds poorly to one peptide. The matching receptor may be absent; the stimulus may be unsuitable; or a responsive population may be restrained. A weak test result alone cannot choose among these explanations. An anergy experiment needs a defined response history and a controlled later response test.
+
+Not dividing is a separate observation from weak antigen responsiveness. [Cell-cycle state](/wiki/education/concepts/biology-basics/cells/cell-cycle), [senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence) and exhaustion answer different biological questions. An alive, non-dividing cell is not automatically senescent or exhausted. Assign the state using appropriate evidence rather than treating these labels as synonyms for an inactive cell.
 
 ## Regulation is another job, not an exhausted state
 
@@ -106,6 +108,8 @@ One possible answer: “who is in the sample; the right recognition, access and 
 ## Sources and scope
 
 Source check: October 9, 2026. General cell-state interpretation; fictional examples. Expert and learner review remain pending.
+
+The proliferation/senescence distinction was added October 10, 2026. The linked cell-state concepts carry the focused sources and measurement limits.
 
 - [Siddiqui et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30635237/) — tumor experiments and melanoma observations.
 - [Utzschneider et al., 2016: TCF1 and chronic-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct disease context.

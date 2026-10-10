@@ -8,7 +8,7 @@ objectives: ["Separate a tumor's classification, appearance and extent.", "Attac
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 sensitive: false
 tags: [education, foundations, breast-cancer]
-updated: 2026-10-09
+updated: 2026-10-10
 source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
@@ -19,7 +19,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 **A cancer report gives several answers about one specimen. Keep each answer attached to its question before combining them into a picture.**
 
-**Before you start:** [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) explains why different cells and regions can differ. This matters whenever a small specimen is used to describe a larger tumor.
+**Before you start:** [Cancer](/wiki/education/concepts/cancer-biology/what-cancer-is/cancer) names the disease category. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) explains why different cells and regions can differ. This matters whenever a small specimen is used to describe a larger tumor.
 
 ## Where this step sits
 
@@ -35,7 +35,7 @@ flowchart TD
 
 ## Begin with the specimen
 
-Cancer develops when cells acquire changes that let them grow and survive outside normal controls. Some can invade nearby tissue and spread. A tumor can also contain immune cells, support cells and treated or damaged tissue. The name of a tumor does not mean every cell in a sample is a cancer cell.
+A specimen can contain cancer cells alongside immune cells, support tissue and treatment effects. The [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment) supplies that surrounding biological context. The name of a tumor does not mean every cell in a sample is a cancer cell.
 
 Ask where the specimen came from and when it was collected. A biopsy before treatment and a surgical specimen after treatment describe different moments. A report date tells you when a report was issued; it does not replace the collection date. An addendum may answer a new question about the earlier specimen.
 
@@ -67,6 +67,16 @@ Imagine a fictional biopsy describes a high-grade invasive breast cancer with tr
 
 Now imagine a later surgical report finds sparse residual invasive cancer in a treated tumor bed. That later finding does not rewrite the earlier biopsy into a post-treatment measurement. You need both dates and settings to understand the change.
 
+## Keep three kinds of change apart
+
+The same tumor name can cover a changing picture:
+
+- **The cancer-cell mixture can change.** [Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) concerns related cancer-cell populations and their changing representation. A difference between two small samples does not by itself prove that a new resistant clone evolved.
+- **Cells can change state.** An alive cell can stop dividing without having died. [Senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence) is one specific state; a low proliferation marker alone cannot assign it.
+- **The neighborhood can change.** Different vessels, immune populations and support tissue can alter the context. A mixed-sample signal may change because its contributors changed, even when a cancer-cell feature stayed the same.
+
+[Hallmarks of cancer](/wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer) organize biological capabilities and enabling conditions. They are a teaching framework, rather than a stage assignment or a checklist of findings in this specimen. [Metastasis and dormancy](/wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy) explain spread and forms of persistence; they do not supply a personal recurrence clock.
+
 ## What can go wrong at this step
 
 - Treating grade as stage merges appearance with extent. Some breast prognostic staging systems also incorporate grade and biomarkers; read the named staging system.
@@ -95,6 +105,8 @@ A fictional report says “grade 3.” A friend reads this as “stage III” an
 ## Sources and scope
 
 General report-reading education, source-checked October 9, 2026; expert and learner review pending. The report is fictional and is not a staging calculation.
+
+Cancer, evolution, ecosystem and cell-state links added October 10, 2026. Their linked concepts carry the scoped mechanism sources; this lesson keeps the emphasis on interpreting the specimen.
 
 - [NCI: What is cancer?](https://www.cancer.gov/about-cancer/understanding/what-is-cancer), for altered cell behavior and tumor diversity.
 - [NCI: Pathology reports](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet), for specimen, description and final diagnosis.

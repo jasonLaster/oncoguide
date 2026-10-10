@@ -8,7 +8,7 @@ objectives: ["Distinguish inflamed, excluded and desert observations.", "Explain
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -35,7 +35,13 @@ Imagine a map showing people inside a building, gathered outside or scarce throu
 
 A report may use **inflamed** or **hot** for cells within tumor regions. **Excluded** describes a concentration outside cancer-cell regions. **Desert** describes scarcity in examined regions. “Cold” sometimes includes both excluded and desert patterns. Ask the author what the word means rather than assuming everyone uses it the same way.
 
-A map can also show a mixed pattern. One edge may contain many cells while another region has few. Different disease sites can differ. Sampling one region does not erase the rest of the map.
+A map can also show a mixed pattern. One edge may contain many cells while another region has few. Different disease sites can differ. Sampling one region does not erase the rest of the map. The [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment) places these cells alongside vessels, support cells and extracellular material.
+
+## Give the other neighbors their own questions
+
+Lymphocyte scoring is one view of the tissue. [Tumor-associated macrophages](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-associated-macrophages) are macrophages associated with tumor tissue; the location label does not assign a suppressive job. [Macrophage states](/wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states) vary beyond a fixed M1/M2 pair.
+
+[Myeloid-derived suppressor cells](/wiki/education/concepts/cancer-biology/tumor-microenvironment/myeloid-derived-suppressor-cells) need an appropriate cell definition and evidence of suppressive function. A marker-positive cell in an image does not by itself establish that function. Keep the observation, proposed job and functional test in separate sentences.
 
 ## Choose the measurement for the question
 
@@ -93,6 +99,8 @@ One possible answer: “presence and distribution in sampled tissue; tumor speci
 ## Sources and scope
 
 Source check: October 9, 2026. Descriptive immune patterns and measurement limits; the biopsy example is fictional. Expert and learner review remain pending.
+
+The tissue-ecosystem and myeloid-cell links were added October 10, 2026. Linked concepts carry their scoped cell-definition and function sources.
 
 - [Chen and Mellman, 2017: the cancer–immune set point](https://www.nature.com/articles/nature21349).
 - [Salgado et al., 2015: breast-cancer lymphocyte-scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).

@@ -8,7 +8,7 @@ objectives: ["Locate immune failure at target, display, access or cell function.
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self]]", "[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -72,7 +72,9 @@ Now change the scenario. Instead of a gene deletion, the sample shows reduced di
 | Functional limitation | State and controlled response assays | Whether one checkpoint intervention reverses it |
 | Shared healthy-tissue target | Relevant normal-tissue recognition | Whether an apparent tumor response has a usable safety window |
 
-A tumor can contain several cell populations. Treatment can select a pre-existing resistant population; new changes can also appear over time. Finding a change in resistant tissue therefore starts a causal question. Earlier samples and functional comparisons help answer it.
+[Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) explains changes in related cancer-cell populations. Finding a change in resistant tissue starts a causal question; earlier samples and functional comparisons help investigate it.
+
+The [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment) adds another layer. A change in [macrophage state](/wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states) is different from a change in the malignant clone. [Adenosine and indoleamine 2,3-dioxygenase (IDO) pathways](/wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido) name distinct regulatory mechanisms. Their possible involvement needs evidence beside the expression or cell-count observation.
 
 ## What can go wrong at this step
 
@@ -103,6 +105,8 @@ One possible answer: “that it avoids the measured failure; that the new route 
 ## Sources and scope
 
 Source check: October 9, 2026. General immune-escape reasoning; the allele-loss scenario is fictional. Expert and learner review remain pending.
+
+Evolution and tissue-context links added October 10, 2026; their concepts carry the focused mechanism sources.
 
 - [Chen and Mellman, 2013: the cancer-immunity cycle](https://pubmed.ncbi.nlm.nih.gov/23890059/).
 - [Zaretsky et al., 2016: acquired resistance in melanoma](https://pubmed.ncbi.nlm.nih.gov/27433843/) — a small mechanistic study in a specific cancer setting, not a universal frequency estimate.

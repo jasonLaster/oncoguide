@@ -3,7 +3,7 @@ title: "Cell therapies as living drugs"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -30,6 +30,10 @@ Identify the cell source and what is administered before comparing targets or re
 A [cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug) has a starting population rather than a fixed downstream dose. Its size may change through division, death and movement between compartments. A high blood count does not establish tumor entry. Persistence means cells remain detectable; useful functional persistence requires additional evidence.
 
 A cell integrates recognition, activation, inhibition and its environment. Calling this “decision-making” is an analogy for biological signaling, not intention. More cells are not automatically more effective or safer.
+
+## Name the starting cell family
+
+A [natural killer (NK) cell](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self) and a [natural killer T (NKT) cell](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells) use different native recognition systems. An NKT cell is a T-cell population, rather than an NK cell renamed after engineering. The starting cell's biology and an added receptor are separate inputs to the finished product. Neither a family name nor an engineered receptor establishes useful activity or safety.
 
 ## Source and engineering are separate axes
 
@@ -79,6 +83,8 @@ A vial is off the shelf and creates engineered cells inside the patient. Must th
 ## Sources and scope
 
 Source check: October 9, 2026; expert and learner review pending. This explains product categories without recommending a treatment.
+
+The NK/NKT recognition link was added October 10, 2026; the linked NKT concept supplies its scoped biology sources.
 
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
 - [Primary targeted mRNA cell-engineering experiments](https://pubmed.ncbi.nlm.nih.gov/40536974/).

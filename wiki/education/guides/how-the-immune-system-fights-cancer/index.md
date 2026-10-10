@@ -6,7 +6,7 @@ audience: "Curious reader; no specialist training assumed"
 minutes: 66
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -63,6 +63,8 @@ flowchart TD
 
 - **Interventions and harm:** [immune checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor), [immune-related adverse events (irAEs)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event).
 
+- **The shared tissue:** [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment), [angiogenesis](/wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis), [tumor-associated macrophages](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-associated-macrophages), [macrophage states beyond M1/M2](/wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states), [myeloid-derived suppressor cells](/wiki/education/concepts/cancer-biology/tumor-microenvironment/myeloid-derived-suppressor-cells) and [adenosine and indoleamine 2,3-dioxygenase (IDO) pathways](/wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido).
+
 Optional foundations:
 
 - **Alarms and restraint:** [damage-associated and pathogen-associated molecular patterns (DAMPs and PAMPs)](/wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps), [inflammation](/wiki/education/concepts/immunology/the-immune-system/inflammation), [anergy](/wiki/education/concepts/immunology/t-cells/anergy), [peripheral tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) and [thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging).
@@ -82,6 +84,10 @@ A fictional clone becomes more frequent after vaccination. Why is that promising
 
 **Explain it back:** “To explain an immune treatment, I would name what it recognizes, which response step it changes and which evidence shows an effect.”
 
+Now imagine two fictional tissue sections with similar macrophage counts. Can you label both populations “suppressive” from the count?
+
+**One answer:** No. The cell family, its state and its measured function are different questions. Location and a marker panel help describe the population; a suitable functional test addresses the proposed suppressive job. Neither result alone chooses a treatment.
+
 ## Applied to Diana
 
 Use [the immune-context question](/wiki/questions/is-tumor-hot), [the presentation-loss question](/wiki/questions/hla-b2m-loss) and [the checkpoint safety decision](/wiki/questions/pembrolizumab-rechallenge) for current interpretation. Those pages own case findings and decisions. This guide supplies the shared biological vocabulary.
@@ -95,6 +101,8 @@ Continue with [personalized vaccine design](/wiki/education/guides/personalized-
 ## Sources and scope
 
 Source check: October 9, 2026. A general foundation path; fictional exercises and suggested reading budgets. Expert and learner review remain pending. Lessons and concepts carry their detailed sources.
+
+Tissue-ecosystem concepts and the macrophage exercise added October 10, 2026. The linked concepts separate cell identity, state, location and measured function.
 
 - [National Cancer Institute (NCI): immunotherapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy).
 - [Chen and Mellman: the cancer-immunity-cycle framework](https://pubmed.ncbi.nlm.nih.gov/23890059/).

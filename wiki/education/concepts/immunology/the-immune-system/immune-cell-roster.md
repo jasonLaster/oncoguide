@@ -10,7 +10,7 @@ used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-08"
+updated: 2026-10-10
 source_checked: "2026-10-08"
 reviewed: "pending"
 reviewed_by: ""
@@ -31,9 +31,11 @@ A team roster names the players, but it does not tell us how they are playing to
 
 T cells include CD8 cells, which often provide direct killing, and CD4 cells, which include helper and regulatory populations. CD4 and CD8 are cluster-of-differentiation surface markers. Neither marker alone proves tumor specificity or a useful functional state.
 
-B cells can develop into plasma cells that secrete antibodies. Dendritic cells collect and present antigens and are important for activating naive T cells. Macrophages engulf material and can support defense, tissue repair or immune suppression.
+B cells can develop into plasma cells that secrete antibodies. Dendritic cells collect and present antigens and are important for activating naive T cells. [Macrophage states](/wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states) help explain why this cell family can perform varied jobs. [Tumor-associated macrophage](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-associated-macrophages) names a tissue association; it does not prove one function.
 
 Natural killer (NK) cells integrate activating and inhibitory signals. Neutrophils help respond to damage and infection and can have varied roles in tumors. These groups cooperate rather than acting as isolated alternatives.
+
+[Natural killer T (NKT) cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells) are a distinct T-cell population with lipid-recognition biology. They are not NK cells with an interchangeable name. [Myeloid-derived suppressor cells](/wiki/education/concepts/cancer-biology/tumor-microenvironment/myeloid-derived-suppressor-cells) also require a stated cell definition and suppressive-function evidence; a generic myeloid-cell count does not establish that job.
 
 ## Why it matters in cancer
 
@@ -58,6 +60,8 @@ Two fictional specimens each contain 100 immune cells. One contains many lymphoc
 ## Sources and scope
 
 Source check: October 8, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+
+Macrophage-state, NKT and suppressor-cell routing was added October 10, 2026. The linked canonical concepts supply the detailed mechanism and measurement sources.
 
 - [NCI: immune cells and their functions](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/immune-cell).
 - [NCI: T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
