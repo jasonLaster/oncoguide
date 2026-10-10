@@ -27,11 +27,17 @@ This is step 6 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Underst
 
 ## Splicing edits the message
 
-**Exons** are segments retained in a processed transcript; some contain untranslated sequence. **Introns** are intervening segments removed during processing. A **splice donor** and **splice acceptor** help mark the boundaries. A **junction read** crosses a join and supplies evidence about the resulting RNA.
+[RNA splicing](/wiki/education/concepts/biology-basics/genetics/splicing) joins retained segments into a processed message. The concept explains exons, introns, splice boundaries and the ways processing can change. Here, use that vocabulary to choose the next measurement rather than predict one protein outcome from a DNA label.
 
-A damaged splice site can lead to exon skipping, intron retention or use of an alternative, **cryptic** site. Different RNA products can arise from the same DNA change. Prediction is useful for choosing a test, but actual RNA measurement distinguishes the products present.
+Imagine a fictional report with a donor-site variant and detectable gene-level RNA. There are at least two questions: which RNA products are present, and how much of each was captured? A junction joining the usual retained segments supports one product; a junction skipping a segment supports another. Their coexistence is possible. Neither observation alone shows whether a useful protein remains.
 
-A **frameshift** changes the grouping of the coding sequence into three-base units. A skipped exon does not necessarily create one: its coding length and boundaries matter. An early stop can produce a shortened product or trigger **nonsense-mediated decay (NMD)**, which removes certain messages. The outcome depends on transcript context and must not be assumed from the label alone.
+| Layer | A useful question | What must remain separate |
+|---|---|---|
+| DNA | Is the processing-boundary finding technically credible? | Prediction of a consequence. |
+| RNA | Which junctions and transcript products are actually observed? | Total gene signal and normal protein production. |
+| Protein | Which forms and amounts does the assay distinguish? | A stain's signal and intact biological function. |
+
+A skipped segment does not automatically establish a frameshift or complete loss. A shortened message may have several possible consequences. The practical skill is to ask which observation distinguishes them and what the assay can miss.
 
 ## Decode what the notation establishes
 
@@ -41,9 +47,9 @@ For teaching, imagine a fictional variant named `c.200+1G>A` on a stated transcr
 
 ## Repair scars and repair now
 
-**Homologous recombination (HR)** repairs certain DNA breaks using a matching template. **Homologous recombination deficiency (HRD)** describes impaired function in that system. A **genomic scar** is a persistent pattern accumulated during tumor evolution. It can retain evidence of past repair problems after present function changes.
+[DNA damage and repair](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview) includes double-strand breaks, where both strands of the DNA backbone are broken. [Homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) repairs certain DNA breaks using a matching template; homologous recombination deficiency (HRD) describes impaired function. A [genomic scar](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) records accumulated damage history, which can differ from present function.
 
-Different scar methods summarize different features. **Large-scale transitions (LST)** count certain chromosome-scale boundaries. **Telomeric allelic imbalance (TAI)** summarizes selected imbalance toward chromosome ends. Other methods assess mutation patterns. Their scores and thresholds are method- and setting-specific.
+Different scar methods summarize different features. The scar concept defines loss of heterozygosity (LOH), telomeric allelic imbalance (TAI), and large-scale transitions (LST), including the original LST segment-size and filtering rules. Those method rules differ from a validated clinical score cutoff. [Mutational signatures](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures) provide another kind of pattern; none should be treated as the same measurement.
 
 A research **RAD51-foci assay** examines clusters of a repair protein under defined conditions. Interpretation requires suitable cells, evidence of relevant damage and controls. A low result in a poorly cycling or unsuitable sample may not establish repair failure.
 

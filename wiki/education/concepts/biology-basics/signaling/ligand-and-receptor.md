@@ -7,7 +7,7 @@ glossary_anchor: "ligand"
 aliases: ["ligand", "receptor", "agonist", "antagonist"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/index]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: "2026-10-09"
@@ -81,10 +81,9 @@ Source check: October 9, 2026. General molecular interactions; no treatment sele
 ## Used in
 
 - [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
+- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Notch, Wnt, and FGFR: locate the signal before choosing a target](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr)
-- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair)
-- [PARP, recycling, and cell survival](/wiki/education/molecular-profiling/parp-and-cell-survival/index)
 - [Ask what happens after binding](/wiki/education/oncology-101/1-ligands)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

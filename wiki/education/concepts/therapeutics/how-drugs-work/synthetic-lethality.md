@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/molecular-profiling/hrd-parp-and-dianas-biology]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/index]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -58,7 +58,7 @@ Selectivity is also incomplete. Normal tissues can be harmed by the drug. The ap
 
 - [Homologous recombination and HRD](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) describe the repair weakness in the classic example.
 - [Germline versus somatic variants](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic) describe where a genetic change belongs.
-- [Reading a functional experiment](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment) distinguishes response, interaction, and mechanism.
+- [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment) distinguishes response, interaction, and mechanism.
 
 ## Sources
 
@@ -72,10 +72,9 @@ Source check: 2026-10-09. General mechanism education; expert and learner review
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
+- [PARP trapping and recycling](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling)
+- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
+- [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
-- [Connect repair biology to PARP sensitivity](/wiki/education/molecular-profiling/hrd-parp-and-dianas-biology)
-- [PARP trapping and recycling](/wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling)
-- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair)
-- [Reading a functional experiment](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment)
-- [PARP, recycling, and cell survival](/wiki/education/molecular-profiling/parp-and-cell-survival/index)
 <!-- END GENERATED USED IN -->

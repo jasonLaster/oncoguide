@@ -62,7 +62,7 @@ Record what changed, the comparator, the readout and units, timing, dose range, 
 ## Related concepts
 
 - [Ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen)
-- [Reading a functional experiment](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment)
+- [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
 - [Analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility)
 
 ## Sources and scope

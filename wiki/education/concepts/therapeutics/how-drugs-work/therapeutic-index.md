@@ -7,7 +7,7 @@ glossary_anchor: "therapeutic-index"
 aliases: ["therapeutic index","therapeutic window","therapeutic margin"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity]]"]
-used_by: ["[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-09"
@@ -88,5 +88,6 @@ Source-checked October 9, 2026; expert and learner review pending. Conceptual be
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 <!-- END GENERATED USED IN -->

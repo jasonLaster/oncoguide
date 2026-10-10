@@ -2,14 +2,14 @@
 title: "Homologous recombination and HRD"
 type: concept
 domain: cancer-biology/genome-instability-and-repair
-aliases: [homologous recombination, HR, HRD, homologous recombination deficiency, genomic scar]
+aliases: [homologous recombination, HR, HRD, homologous recombination deficiency]
 summary: "Homologous recombination repairs damaged DNA using a matching template; homologous recombination deficiency means this repair process is impaired."
 glossary_anchor: homologous-recombination-and-hrd
 level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/molecular-profiling/hrd-parp-and-dianas-biology]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/02-autophagy-flux-and-dependence]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment]]","[[wiki/education/molecular-profiling/parp-and-cell-survival/index]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -32,9 +32,9 @@ Imagine repairing a torn page by looking at an intact copy. **Homologous recombi
 
 After a cell copies its DNA, each chromosome has a closely matching sister copy. HR uses this template to repair certain DNA breaks and damage associated with DNA copying. Its availability therefore depends partly on where the cell is in its cycle of growth and division.
 
-BRCA1 and BRCA2 are repair proteins, named for the genes that encode them. Together with partners, they help coordinate HR. RAD51, another repair protein, helps find and pair with the matching template. A damaging change in a repair gene can impair the pathway, but finding *any* variant in that gene does not establish HRD. The variant's effect, remaining working copies, and other repair machinery matter.
+[BRCA1 and BRCA2](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2) are repair proteins, named for the genes that encode them. Together with partners, they help coordinate HR. RAD51, another repair protein, helps find and pair with the matching template. A damaging change in a repair gene can impair the pathway, but finding *any* variant in that gene does not establish HRD. The variant's effect, remaining working copies, and other repair machinery matter.
 
-Repair failure can leave **genomic scars**: persistent patterns of chromosome imbalance and rearrangement. A scar assay measures these accumulated patterns. It does not watch the repair machinery operate today. Different assays and cutoffs need their own validation for a defined treatment and cancer setting. Telli and colleagues studied one scar-based score in triple-negative breast cancer treated with chemotherapy before surgery; that setting does not establish a universal drug-response cutoff. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
+Repair failure can leave [genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars), persistent patterns that describe accumulated damage rather than today's repair capacity. Different assays and cutoffs need their own validation for a defined treatment and cancer setting. Telli and colleagues studied one scar-based score in triple-negative breast cancer treated with chemotherapy before surgery; that setting does not establish a universal drug-response cutoff. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
 
 A tumor can retain old scars while a surviving population restores repair. A **BRCA reversion** is a later genetic change that restores a previously disrupted protein's function, sometimes by restoring its readable coding sequence. Such changes were observed in a selected metastatic breast cancer cohort after resistance to repair-targeting treatment. That study did not estimate their frequency in all breast cancers. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 
@@ -75,11 +75,11 @@ Source check: 2026-10-09. Mechanism and measurement education; expert and learne
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
+- [PARP trapping and recycling](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling)
+- [Autophagy: traffic, flow, and dependence](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence)
+- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
+- [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
-- [Connect repair biology to PARP sensitivity](/wiki/education/molecular-profiling/hrd-parp-and-dianas-biology)
-- [PARP trapping and recycling](/wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling)
-- [Autophagy: traffic, flow, and dependence](/wiki/education/molecular-profiling/parp-and-cell-survival/02-autophagy-flux-and-dependence)
-- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair)
-- [Reading a functional experiment](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment)
-- [PARP, recycling, and cell survival](/wiki/education/molecular-profiling/parp-and-cell-survival/index)
+- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
 <!-- END GENERATED USED IN -->

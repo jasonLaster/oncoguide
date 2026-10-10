@@ -28,7 +28,7 @@ For the ordered learning path, use [[wiki/education/reading-a-tumor/omics-and-mu
 ## Continue by question
 
 - **“How do DNA copies affect a variant fraction?”** → [[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones|Copies, alleles and clones]].
-- **“Does a splice change impair repair now?”** → [[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair|Splicing and repair]] → [[wiki/education/molecular-profiling/parp-and-cell-survival/index|PARP, recycling and cell survival]].
+- **“Does a splice change impair repair now?”** → [[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair|Splicing and repair]] → [[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity|Connect repair biology to PARP sensitivity]].
 - **“What does high expression actually prove?”** → [[wiki/education/multi-omics-foundations/03-reading-rna-counts|RNA counts]] → [[wiki/education/molecular-profiling/03-protein-expression-and-activation|Protein]] → [[wiki/education/multi-omics-foundations/07-comparisons-and-evidence|Comparisons and evidence]].
 - **“Does an immune-rich sample mean tumor recognition?”** → [[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition|Presence and recognition]] → [[wiki/education/reading-a-tumor/measuring-t-cell-engagement|Measuring T-cell engagement]].
 - **“How should I read an individual report?”** → [[wiki/education/reading-a-tumor/index|Reading a tumor report]].

@@ -92,4 +92,4 @@ Source check: October 9, 2026. The examples are fictional and teach interpretati
 
 - [Neal et al., primary organoid immune-microenvironment experiment](https://doi.org/10.1016/j.cell.2018.11.021).
 - [Primary breast-tumor graft study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/).
-- [[wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment|Controls and combination experiments]].
+- [[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment|Controls and combination experiments]].

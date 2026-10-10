@@ -1,8 +1,8 @@
 ---
 title: "Autophagy: traffic, flow, and dependence"
 type: guide-lesson
-guide: parp-and-cell-survival
-step: 2
+guide: from-variant-to-drug
+step: 5
 minutes: 12
 objectives:
   - "Distinguish recycling machinery abundance from completed autophagic flux."
@@ -27,11 +27,11 @@ tags: [education, autophagy, PARP, functional-testing]
 
 ## Where this step sits
 
-After identifying the [PARP obstacle](./01-parp-trapping-and-recycling), we ask what recycling is doing. PARP stands for poly(ADP-ribose) polymerase, an enzyme that builds chemical signals at DNA damage. The next lesson follows growth signals that can affect repair and recycling together.
+This is optional step 5 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). After identifying the [PARP obstacle](./04-parp-trapping-and-recycling), we ask what recycling is doing. PARP stands for poly(ADP-ribose) polymerase, an enzyme that builds chemical signals at DNA damage. The next lesson follows growth signals that can affect repair and recycling together.
 
 ## Count packages, then watch deliveries
 
-**Autophagy** is a cell process that encloses material in a membrane package, an **autophagosome**, and sends it to a **lysosome** for breakdown. The cell can reuse the resulting components. It is normal maintenance machinery as well as a possible stress response.
+[Autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy) is a cell process that encloses material in a membrane package, an **autophagosome**, and sends it to a **lysosome** for breakdown. The cell can reuse the resulting components. It is normal maintenance machinery as well as a possible stress response.
 
 Think of a delivery depot. A photograph showing many packages could mean many deliveries are arriving. It could also mean the trucks stopped leaving. The photograph alone does not tell you how much material completes its trip.
 
@@ -102,7 +102,7 @@ One possible answer: “how much machinery or cargo is present; how much materia
 
 **Measure amount, flow, and survival dependence as three different claims.**
 
-**Next:** [Follow growth signals and their competing effects](./03-pi3k-akt-mtor-and-repair).
+**Next:** [Follow growth signals and their competing effects](./06-pi3k-akt-mtor-and-repair).
 
 ## Sources and scope
 

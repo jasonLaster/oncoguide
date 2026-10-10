@@ -53,9 +53,11 @@ Suppressive signals, limited nutrients, low oxygen, and repeated stimulation can
 
 ### 4. Preserve healthy tissue
 
-The same antigen can appear on cancer and normal cells. **On-target, off-tumor toxicity** means the receptor recognizes its intended antigen in an unwanted place. It differs from **off-target recognition**, in which the binding machinery reacts with an unintended molecular target.
+The same antigen can appear on cancer and normal cells. Read [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity) for direct recognition of healthy tissue. It differs from **off-target recognition**, where binding reacts with an unintended molecular target.
 
-Stronger activation can increase useful killing and harmful activity. **Therapeutic window** means the range in which benefit is achievable without unacceptable toxicity. It must be measured for the actual product and setting. [1,3]
+Stronger activation can increase useful killing and harmful activity. The [therapeutic index](/wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index) relates useful effects to harm; the actual product and setting must supply the evidence. [1,3]
+
+Healthy-tissue recognition is only one safety question. [Cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) and [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) need distinct clinical assessment. Target binding and tumor killing cannot establish the absence of systemic or neurologic harm. [ASTCT 2026](https://pubmed.ncbi.nlm.nih.gov/42711241/).
 
 ## A worked example: target coverage
 
@@ -102,5 +104,7 @@ Source check: October 9, 2026; expert and learner review pending. The numerical 
 1. [NCI: CAR T cells, including barriers in solid tumors](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7). Preclinical evidence for locally controlled cytokine expression; not in vivo generation of the CAR-T cells.
 3. [FDA: CAR T-cell product development considerations](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
+
+4. [Perales et al., 2026: ASTCT immune-effector toxicity consensus](https://pubmed.ncbi.nlm.nih.gov/42711241/) — separate clinical toxicity categories, rather than a universal product safety profile.
 
 <!-- Local illustration sources: [source](./images/solid-tumor-journey-light.png) [source](./images/solid-tumor-journey-dark.png) -->

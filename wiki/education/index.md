@@ -33,7 +33,7 @@ reviewed_by: ""
 | How do treatment formats reach a target? | [Aim a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index): recognition, delivery and matched evidence |
 | Can local injury create an immune response? | [Local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index): injury, disease setting, combination evidence and measurements |
 | What does injection into a tumor change? | [Intratumoral immunotherapy](/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy) and [reading an injection study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study): route, measurements and attribution |
-| How do repair and survival pathways connect? | [PARP and cell survival](/wiki/education/molecular-profiling/parp-and-cell-survival/index): repair, recycling, growth signals and experiments |
+| How do repair and survival pathways connect? | [Explore repair and survival mechanisms](/wiki/education/guides/from-variant-to-drug/index#supporting-mechanistic-lessons): repair, recycling, growth signals and experiments |
 
 If all of this is new, begin with **Start here**, then follow **standard treatment**, **pathology**, **immunotherapy** and **reading evidence** as your questions arise. Use the multi-omics vocabulary course when a report introduces unfamiliar cell or molecular terms; it is a supporting reference within the multi-omics path.
 

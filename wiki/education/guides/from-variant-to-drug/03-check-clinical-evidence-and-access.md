@@ -23,7 +23,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-This is step 3 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). [Step 1](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding) authenticated the finding. [Step 2](/wiki/education/molecular-profiling/hrd-parp-and-dianas-biology) connected repair biology to a model response. Now test whether the clinical evidence answers the intended question.
+This is step 3 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). [Step 1](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding) authenticated the finding. [Step 2](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity) connected repair biology to a model response. Now test whether the clinical evidence answers the intended question.
 
 ## Turn the hypothesis into an answerable question
 

@@ -7,7 +7,7 @@ glossary_anchor: "irae"
 aliases: ["irAE", "irAEs", "immune-related adverse event", "immune-related adverse events", "immune-mediated adverse reaction"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
 updated: "2026-10-09"
@@ -29,19 +29,18 @@ The immune system needs permission to act and limits on where it acts. A treatme
 
 ## How it works
 
-The term is commonly used with [immune checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor). These drugs interrupt regulation that helps protect healthy tissue. Immune-mediated injury can involve several interacting processes; there is no single mechanism that explains every event. [The Society for Immunotherapy of Cancer (SITC) 2021 guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC8237720/) distinguishes events of likely immune origin from other adverse events.
+The term is commonly used with [immune checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor). These drugs interrupt regulation involved in [peripheral tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance), the mechanisms that limit harmful responses to healthy tissue. Immune-mediated injury can involve several interacting processes; there is no single mechanism that explains every event. [The Society for Immunotherapy of Cancer (SITC) 2021 guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC8237720/) distinguishes events of likely immune origin from other adverse events.
 
-Examples include inflammation of the bowel, called **colitis**; the lung, called **pneumonitis**; or hormone-producing glands. Liver, skin, heart, kidney and nervous-system injury are also possible. Some events appear through symptoms; others first appear through laboratory changes. The suffix “-itis” means inflammation, but a symptom alone does not establish its cause. [The National Cancer Institute (NCI) organ-inflammation explanation](https://www.cancer.gov/about-cancer/treatment/side-effects/organ-inflammation).
+Examples include inflammation of the bowel, called **colitis**; the lung, called [pneumonitis](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pneumonitis); or hormone-producing glands. Liver, skin, heart, kidney and nervous-system injury are also possible. Some events appear through symptoms; others first appear through laboratory changes. The suffix “-itis” means inflammation, but a symptom alone does not establish its cause. [The National Cancer Institute (NCI) organ-inflammation explanation](https://www.cancer.gov/about-cancer/treatment/side-effects/organ-inflammation).
 
 Onset can occur during treatment or after it ends. Resolution also varies. Some hormone-gland injuries leave lasting loss of function even after inflammation settles. An infusion calendar therefore cannot define the entire safety-observation window. [Pembrolizumab prescribing information, section 5.1](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), [SITC 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8237720/).
 
 ```mermaid
 flowchart TD
-  A[New symptom or laboratory change] --> B[Clinical assessment]
-  B --> C[Evaluate immune-mediated injury]
-  B --> D[Evaluate infection, other treatment effects and other causes]
-  C --> E[Care depends on organ, severity and findings]
-  D --> E
+  A[New symptom<br/>or laboratory change] --> B[Clinical assessment]
+  B --> C[Immune injury and<br/>competing explanations]
+  C --> D[Organ, severity<br/>and clinical findings]
+  D --> E[Care-team plan]
 ```
 
 *These are assessment questions, not a home diagnostic or treatment algorithm.*
@@ -58,7 +57,9 @@ For a patient, the practical task is to use the team's reporting and urgent-care
 
 Fictional patient Mina develops a new cough after finishing checkpoint treatment. “Treatment ended, so it cannot be related” closes the question too early. “It must be pneumonitis” also skips the assessment: infection and other causes remain possible. Mina reports the change using her care team's plan and shares the treatment history.
 
-**Check your understanding:** Does an irAE prove that the cancer treatment is working?
+## Try it
+
+Does Mina's suspected irAE prove that her cancer treatment is working?
 
 **Answer:** No. A harm assessment does not measure tumor response or clinical benefit. Those need their own evidence.
 
@@ -68,6 +69,10 @@ Fictional patient Mina develops a new cough after finishing checkpoint treatment
 - [Cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) is a systemic inflammatory syndrome associated with immune activation.
 - [Immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) is a separately assessed neurologic syndrome associated with immune-effector treatments. CRS and ICANS are distinct reporting frameworks, not substitute labels for checkpoint-related organ injury.
 - Stopping a treatment input does not guarantee that an immune effect has stopped.
+
+## Explain it back
+
+“An irAE names ___, while clinical assessment establishes ___.” One answer: “a proposed immune cause of harm; the affected organ, severity and competing explanations.”
 
 ## Related concepts
 
@@ -89,6 +94,7 @@ Source check: October 9, 2026. General vocabulary, timing and reporting; the cas
 
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
+- [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 - [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)

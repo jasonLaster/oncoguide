@@ -73,7 +73,9 @@ Now suppose the treated tumor is 30 instead. That shows shrinkage below its 100 
 | Can harmful engineered cells be removed? | Direct evidence for a cell-elimination mechanism, if included |
 | Could effects persist or emerge later? | Follow-up appropriate to the vector and cell product |
 
-[Cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) is an inflammatory complication. [Immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) is a neurologic toxicity associated with immune-effector-cell therapies. They are distinct from injury caused by recognition of a healthy tissue antigen. Avoiding externally administered cytokines does not eliminate all of these risks. [3,4]
+Read [cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) and [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) as separate clinical outcomes, with their grading version, attribution and observation window visible. An ICE (immune effector cell-associated encephalopathy) score contributes to neurologic assessment; it is not an ICANS diagnosis. Avoiding externally administered cytokines does not eliminate these risks. [ASTCT 2026](https://pubmed.ncbi.nlm.nih.gov/42711241/).
+
+Also separate immune activation from preparatory-treatment and blood-count effects. [Neutropenia and granulocyte colony-stimulating factor (G-CSF)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf) explain count-related supportive care. A low neutrophil count does not establish infection, and a growth-factor medicine is not evidence of tumor killing. Product-specific safety reports need blood-count trends and infection outcomes as well as CRS and ICANS reporting.
 
 A proposed [safety switch](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) also needs direct evidence: how quickly does the intervention reduce activity or remove cells, how completely, and under which conditions? A mechanism included in the construct is a design feature before those measurements are established.
 
@@ -129,5 +131,8 @@ Source-checked October 9, 2026. The graph exercise uses invented numbers and can
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7): example of preclinical component and outcome measurements.
 3. [NCI: CAR T-cell therapy and adverse effects](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 4. [FDA: CAR T-cell product development considerations](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
+
+5. [Perales et al., 2026: ASTCT toxicity consensus](https://pubmed.ncbi.nlm.nih.gov/42711241/) — clinical grading, attribution and distinct toxicity categories.
+6. [NCI: Infection and neutropenia during cancer treatment](https://www.cancer.gov/about-cancer/treatment/side-effects/infection) — count-related risk and infection as separate clinical observations.
 
 <!-- Local learning lab source: [archive](./tools/in-vivo-car-t-learning-lab.zip) -->

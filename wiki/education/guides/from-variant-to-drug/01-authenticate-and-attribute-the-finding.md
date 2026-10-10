@@ -101,7 +101,7 @@ One possible answer: “whether the finding is credible; which lineage or tissue
 
 **An authentic and well-attributed variant is a starting fact, not a completed drug prediction.**
 
-**Next:** [Connect repair biology to PARP sensitivity](/wiki/education/molecular-profiling/hrd-parp-and-dianas-biology).
+**Next:** [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity).
 
 ## Sources and scope
 

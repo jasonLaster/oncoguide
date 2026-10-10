@@ -1,8 +1,8 @@
 ---
 title: "PI3K, AKT, and mTOR: competing effects on repair and recycling"
 type: guide-lesson
-guide: parp-and-cell-survival
-step: 3
+guide: from-variant-to-drug
+step: 6
 minutes: 12
 objectives:
   - "Explain how growth signaling can affect repair and recycling through different branches."
@@ -28,13 +28,13 @@ tags: [education, PI3K, AKT, mTOR, PARP, autophagy]
 
 ## Where this step sits
 
-The previous lesson separates [recycling amount, flow, and dependence](./02-autophagy-flux-and-dependence). This step adds growth signals to that picture. The final lesson tests the complete combination rather than predicting its outcome from one arrow.
+This is optional step 6 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). The previous lesson separates [recycling amount, flow, and dependence](./05-autophagy-flux-and-dependence). This step adds growth signals to that picture. The final lesson tests the complete combination rather than predicting its outcome from one arrow.
 
 ## Follow the signal, then look for the brakes
 
 Imagine a control panel with several linked switches. Turning one down may slow an output. It may also release a safety brake that turns another switch back up. Cells use feedback like this, although their switches are chemical reactions rather than knobs.
 
-The familiar **PI3K → AKT → mTORC1** pathway is a simplified growth-signaling route:
+The familiar [PI3K → AKT → mTORC1 pathway](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) is a simplified growth-signaling route:
 
 | Component | Full name or meaning | A role in this simplified route |
 |---|---|---|
@@ -53,7 +53,7 @@ A **kinase** adds phosphate groups to a target; a **phosphatase** removes them. 
 
 The first branch concerns repair. In some BRCA-proficient triple-negative breast cancer models, PI3K inhibition lowered BRCA1 and BRCA2 expression and increased sensitivity to a **poly(ADP-ribose) polymerase (PARP)** inhibitor. PARP enzymes build chemical signals at DNA damage. This provides a mechanism worth testing. It does not show that every PI3K drug creates the same repair defect in every tumor. [Ibrahim 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC5125254/).
 
-The second branch concerns **autophagy**, the recycling process from lesson 2. mTORC1 restrains machinery that starts this process. Reducing that restraint can make initiation easier. It does not show that cargo completes degradation or that the increased recycling helps the cell survive. Those are separate measurements. Experiments connecting mTORC1 to the initiation protein ULK1 support this control mechanism. ULK1 is a kinase involved in starting autophagy. [Kim 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3987946/).
+The second branch concerns [autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy), the recycling process from [supporting lesson 5](./05-autophagy-flux-and-dependence). mTORC1 restrains machinery that starts this process. Reducing that restraint can make initiation easier. It does not show that cargo completes degradation or that the increased recycling helps the cell survive. Those are separate measurements. Experiments connecting mTORC1 to the initiation protein ULK1 support this control mechanism. ULK1 is a kinase involved in starting autophagy. [Kim 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3987946/).
 
 A different preclinical experiment found that mTOR inhibition increased talazoparib resistance in HeLa cervical cancer cells; reducing ATG7, an autophagy machinery protein, partly reversed that effect. This was a particular model and intervention, rather than a demonstrated effect of every growth-pathway drug in breast cancer. [Hoslett 2026](https://www.nature.com/articles/s41556-026-01961-5).
 
@@ -63,7 +63,7 @@ An intervention can therefore make repair less effective while also changing a s
 
 **Rapalogs** are drugs related to rapamycin that inhibit signaling through mTORC1. In some studied systems, mTORC1 inhibition relieved feedback that had been suppressing upstream growth signals. AKT activity then rose while the targeted mTORC1 output fell. This is a measured feedback response, rather than a contradiction of the pathway diagram. It is conditional, not an inevitable result in every tumor. [O'Reilly 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/).
 
-A PI3K inhibitor, an AKT inhibitor, a rapalog, and a drug that inhibits mTOR's kinase activity act differently. The last can affect a broader set of mTOR functions than a rapalog. They cannot stand in for one another merely because their targets appear on the same diagram.
+[PI3K and AKT inhibitors](/wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors), a rapalog, and a drug that inhibits mTOR's kinase activity act differently. The last can affect a broader set of mTOR functions than a rapalog. They cannot stand in for one another merely because their targets appear on the same diagram.
 
 ## A worked example: expression is not the activity switch
 
@@ -105,7 +105,7 @@ One possible answer: “which instructions are present; whether a specified prot
 
 **A combination's net effect must be measured across its competing mechanisms.**
 
-**Next:** [Read the experiment and bound its claim](./04-reading-a-functional-experiment).
+**Next:** [Read the experiment and bound its claim](./07-reading-a-functional-experiment).
 
 ## Sources and scope
 

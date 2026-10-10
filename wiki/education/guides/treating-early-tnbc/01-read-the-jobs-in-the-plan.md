@@ -75,6 +75,16 @@ Distinct mechanisms can also bring overlapping harms. A side effect may interrup
 
 Normal tissues remain part of the picture. A drug's activity against cancer cells does not establish cancer-only activity. Local treatment also needs a normal-tissue assessment: a radiation plan considers nearby structures as well as its intended target volume.
 
+Give supportive care and toxicity their own rows on the card:
+
+| Question | Concept that helps you read the plan |
+|---|---|
+| Could immune activity harm a healthy organ? | [Immune-related adverse events (irAEs)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event), including [pneumonitis](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pneumonitis), require clinical attribution rather than a symptom-only diagnosis |
+| Could blood-cell recovery affect safe delivery? | [Neutropenia and granulocyte colony-stimulating factor (G-CSF)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf) distinguish a low neutrophil count, infection risk and selected growth-factor support |
+| What symptoms need prevention and reporting? | [Chemotherapy-induced nausea](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea) distinguishes nausea from vomiting and their acute, delayed and anticipatory patterns |
+
+These questions explain different jobs, not one universal side-effect plan. A supportive medicine can improve tolerability without directly treating the cancer. A symptom occurring during combination treatment can also have more than one possible cause.
+
 ## A worked proposal: fill in the missing fields
 
 Consider a fictional proposal to add a new pathway inhibitor to an established preoperative regimen. It includes a convincing mechanism diagram and cell-killing data from a laboratory model.
@@ -115,3 +125,6 @@ General teaching, source-checked October 9, 2026; expert and learner review pend
 - [NCI: Chemotherapy](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy), for systemic and normal-tissue roles.
 - [NCI: Breast cancer surgery](https://www.cancer.gov/types/breast/treatment/surgery), for removal and node examination.
 - [NCI: Radiation for breast cancer](https://www.cancer.gov/types/breast/treatment/radiation), for external-beam treatment and normal-tissue risk.
+- [NCI: Organ-related inflammation and immunotherapy](https://www.cancer.gov/about-cancer/treatment/side-effects/organ-inflammation) — symptoms need clinical assessment and treatment-specific reporting.
+- [NCI: Infection and neutropenia](https://www.cancer.gov/about-cancer/treatment/side-effects/infection) — count changes and infection risk.
+- [NCI: Nausea and vomiting](https://www.cancer.gov/about-cancer/treatment/side-effects/nausea) — symptoms and communication with the care team.

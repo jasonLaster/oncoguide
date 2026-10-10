@@ -59,7 +59,7 @@ Timing matters too. A short experiment can miss a delayed effect or recovery. Re
 
 A vehicle comparison checks the surrounding carrier conditions. A positive control checks whether a relevant response can be detected. Mechanism controls ask whether the proposed target effect explains the response. The [controlled-perturbation concept](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls) gives those distinctions a stable home.
 
-For combinations, compare both single drugs and the combination under a defined design. A larger effect than either single drug does not automatically demonstrate synergy. The [functional-experiment lesson](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment) explains why a stated interaction reference matters.
+For combinations, compare both single drugs and the combination under a defined design. A larger effect than either single drug does not automatically demonstrate synergy. The [functional-experiment lesson](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment) explains why a stated interaction reference matters.
 
 Repeated wells estimate variability within a preparation. Independently obtained specimens address biological variation. Ten wells from one tumor are not ten independent patients.
 

@@ -70,7 +70,7 @@ Even a convincing result would apply to that model and intervention. It would no
 
 One error is substituting a gene name for a measured process. ATG13 and FIP200 (the protein encoded by RB1CC1) help regulate autophagy initiation. Their involvement does not establish that every alteration increases or decreases completed recycling. [Ganley 2009](https://pubmed.ncbi.nlm.nih.gov/19258318/).
 
-Another error is assuming that more cell death with two interventions proves a shared mechanism. The interventions could have independent toxic effects. A controlled combination analysis, dose and time series, individual-agent conditions, and mechanistic readouts are needed. [Reading a functional experiment](/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment) develops that reasoning.
+Another error is assuming that more cell death with two interventions proves a shared mechanism. The interventions could have independent toxic effects. A controlled combination analysis, dose and time series, individual-agent conditions, and mechanistic readouts are needed. [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment) develops that reasoning.
 
 A final error is measuring only surviving cells after a long exposure. Death itself can alter markers. Early biochemical measurements help establish whether the proposed change happened before the outcome.
 

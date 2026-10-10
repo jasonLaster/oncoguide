@@ -1,8 +1,8 @@
 ---
 title: "Reading a functional experiment"
 type: guide-lesson
-guide: parp-and-cell-survival
-step: 4
+guide: from-variant-to-drug
+step: 7
 minutes: 12
 objectives:
   - "Identify the controls needed to interpret a two-drug experiment."
@@ -27,7 +27,7 @@ tags: [education, functional-testing, PARP, autophagy, synergy]
 
 ## Where this step sits
 
-The preceding lessons identified an obstacle, recycling responses, and competing growth signals. This final step asks whether an experiment actually tests that story. Keep [the guide's map](/wiki/education/molecular-profiling/parp-and-cell-survival/index#the-map) nearby if you want to trace a measurement back to its proposed mechanism.
+This is optional step 7 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). The preceding lessons identified an obstacle, recycling responses, and competing growth signals. This final step asks whether an experiment actually tests that story. Keep [the guide's map](/wiki/education/guides/from-variant-to-drug/index#the-map) nearby if you want to trace a measurement back to its proposed mechanism.
 
 ## Compare the full set of conditions
 
@@ -74,7 +74,7 @@ An assay based on **adenosine triphosphate (ATP)**, a cellular energy molecule, 
 
 A cell-death assay asks a different question. **Apoptosis** is one regulated death process. Regrowth after drug removal tests whether survivors can recover under the culture conditions. Measuring tumor-cell identity and composition helps establish which cells supplied the signal. A mixed culture may include nonmalignant cells, and culture can favor only some tumor populations.
 
-Mechanism measurements are another layer. **Autophagic flux** measures completed recycling over time. **Poly(ADP-ribose) polymerase (PARP)** trapping measures a protein obstacle on [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma). **RAD51 foci** are repair-protein assemblies that need adequate damage and cycling-cell controls to inform present [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) function. Each readout should be matched to the exact proposed explanation.
+Mechanism measurements are another layer. **Autophagic flux** measures completed recycling over time. [Poly(ADP-ribose) polymerase (PARP) trapping](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping) measures a protein obstacle on [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma). **RAD51 foci** are repair-protein assemblies that need adequate damage and cycling-cell controls to inform present [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) function. Each readout should be matched to the exact proposed explanation.
 
 A genetic perturbation that independently disrupts the proposed function can strengthen a causal claim. Restoring that function in a **rescue experiment** can add further support. These are research methods, not features guaranteed by every drug screen. Autophagy assay guidelines are especially clear about combining appropriate measurements and controls. [Klionsky 2021](https://pubmed.ncbi.nlm.nih.gov/33634751/).
 
