@@ -8,7 +8,7 @@ objectives: ["Separate immune-cell abundance from location.", "Distinguish direc
 prerequisites: ["[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -36,14 +36,14 @@ An inflamed and an excluded region can have similar total immune abundance. A de
 | Hematoxylin and eosin (H&E) microscopy | Morphology and eligible stromal inflammatory-cell area | Does not identify every functional immune subtype |
 | IHC | Selected proteins with tissue location | Antibody, scoring and cell assignment |
 | Multiplex immunofluorescence | Several protein markers with coordinates | Marker quality and segmentation |
-| Spatial RNA assay | Captured messages at locations | Platform-specific coverage and resolution |
+| [Spatial transcriptomics](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics) | Captured or imaged RNA evidence at locations | Platform-specific target coverage, capture unit and resolution |
 | Model inferred from an image | A predicted feature | Validation of the prediction in the intended population |
 
 **Segmentation** assigns image regions to cells or structures. If boundaries are wrong, messages or stains can be assigned to the wrong neighbor. High coordinate precision does not guarantee a correct cell boundary.
 
 ## Resolution, section and region all matter
 
-Some spatial assays sample spots containing several cells. Others localize molecules and assign them to segmented cells. Ask which physical quantity was directly measured and which assignments were inferred.
+Sequencing-based spatial assays attach positions to captured RNA evidence. Imaging-based methods localize selected RNA targets by repeated imaging. A “spatial” label does not specify which method was used. Some capture units include several cells; assigning molecules to segmented cells adds another analysis step. Keep observed and imputed values distinct.
 
 Two methods can use the same section, adjacent sections or different blocks. Adjacent sections are similar but not identical. A small region can miss a relevant nest or immune pocket. Tissue orientation, sampling and treatment timing must remain attached to the map.
 

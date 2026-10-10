@@ -8,7 +8,7 @@ objectives: ["Distinguish sequence versions, copy number and loss of an inherite
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -45,6 +45,8 @@ A **haplotype** is a group of nearby variants carried together on a chromosome. 
 Letters used for parental sides do not identify good and bad copies. LOH alone does not say the retained gene is disabled. **Biallelic inactivation** asks whether both functional copies are disabled in the relevant cells. A damaging variant on the retained side plus loss of the other can support that mechanism, provided the phase and cell population fit.
 
 An **amplicon** is an amplified segment that can contain several genes. More copies need not make every gene more active or identify the gene driving the cancer.
+
+[Human leukocyte antigen loss of heterozygosity (HLA-LOH)](/wiki/education/concepts/measurement/sequencing-basics/hla-loh) applies this copy question to antigen-presentation loci. Loss of one inherited HLA version does not establish absent surface expression or complete loss of presentation.
 
 ## Account for the mixture
 

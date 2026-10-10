@@ -8,7 +8,7 @@ objectives: ["Distinguish blood-based mutation discovery from residual-disease m
 prerequisites: ["[[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -37,6 +37,8 @@ This is step 14 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Unders
 
 Actual platforms can combine features. Read the assay specification rather than inferring its job from “liquid biopsy.” An assay that tracks a fixed list may miss a newly evolved alteration outside that list.
 
+[Fragmentomics and methylation](/wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation) use DNA fragment or modified-base patterns. Their output depends on the particular assay and model; it need not be a mutation list. [Circulating tumor cells (CTCs)](/wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells) are cells captured from blood, a different object from released DNA fragments.
+
 ## Keep units and calls together
 
 Some reports estimate tumor fraction in **parts per million (PPM)**. Others use a concentration quantity such as tumor molecules per milliliter. VAF uses variant-supporting observations at a location. These quantities cannot be universally converted into one another.
@@ -53,9 +55,11 @@ Now imagine a detectable signal on a later draw. Check sample quality, timing, a
 
 ## False attribution and genuine evolution differ
 
-**Clonal hematopoiesis** means a blood-cell lineage carries acquired changes. Its released DNA can be mistaken for tumor origin without suitable controls. White-blood-cell or normal-sample analysis can help under the platform's method.
+[Clonal hematopoiesis and clonal hematopoiesis of indeterminate potential (CHIP)](/wiki/education/concepts/measurement/liquid-biopsy/chip) concern blood-cell clones; the terms have different scopes. A blood-cell signal must not quietly become a tumor signal. White-blood-cell comparison helps under the assay's method and limits.
 
 A confirmed new tumor alteration is a different issue. It can be genuine evolution rather than false-positive noise. Repeated monitoring of old positions may not detect it. Disagreement between assays should prompt examination of scope, input, timing and denominators.
+
+For [ctDNA–imaging discordance](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance), align dates and the questions each method asks. A negative tube does not erase a scan finding, and a positive tube does not supply a disease location.
 
 ## What can go wrong at this step
 

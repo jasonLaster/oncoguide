@@ -8,7 +8,7 @@ objectives: ["Match a DNA question to assay coverage and detectable change class
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -30,6 +30,8 @@ This is step 9 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Underst
 [Panel, exome and genome sequencing](/wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome) differ in which regions they examine. Scope is only one part of performance. [Sequencing reads](/wiki/education/concepts/measurement/sequencing-basics/sequencing-reads) are observations from prepared molecules; paired ends or copied fragments do not automatically add independent molecular support.
 
 For each candidate finding, ask whether the exact region and change class were in the assay's validated scope. A panel might detect a known alteration deeply and reliably. A broader research assay might discover a rearrangement outside that panel. Neither result automatically supersedes every feature of the other.
+
+[Long-read and methylation sequencing](/wiki/education/concepts/measurement/sequencing-basics/long-read-and-methylation-sequencing) adds another scope question: long molecules and modified-base signals are different capabilities. Check which the actual workflow supports.
 
 ## Build a small assay card
 
@@ -57,6 +59,14 @@ A fictional tumor has a splice-site change in repair gene R and loss of the othe
 Together, these observations support a somatic, potentially two-copy-disruption hypothesis. They do not show which RNA products were made or whether useful protein remains. If phase or copy-state alternatives are unresolved, preserve those alternatives before drawing the stronger mechanism.
 
 The next assay should test the proposed consequence. A splice question calls for suitable RNA-junction evidence. A predicted fusion calls for the relevant transcript or protein question. A copy gain calls for expression, localization or functional investigation as appropriate.
+
+[Variant-effect prediction](/wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction) can prioritize that question. Keep a predicted effect separate from a measured consequence.
+
+## Summary metrics need their own assay scope
+
+[Tumor mutational burden (TMB)](/wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden) summarizes counted mutations over a defined sequenced territory. [Microsatellite instability (MSI)](/wiki/education/concepts/measurement/sequencing-basics/msi) examines instability at repetitive loci. Neither is a general “immunotherapy will work” score. Preserve the method, threshold and intended clinical setting.
+
+[Human leukocyte antigen loss of heterozygosity (HLA-LOH)](/wiki/education/concepts/measurement/sequencing-basics/hla-loh) is a locus-specific copy question. Genomic allele loss, surface expression and peptide presentation remain different readouts.
 
 ## What can go wrong at this step
 

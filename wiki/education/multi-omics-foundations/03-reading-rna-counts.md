@@ -8,7 +8,7 @@ objectives: ["Distinguish reads, captured molecules and normalized expression.",
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -31,7 +31,7 @@ A **read** is a sequence observation. In some assays, a **unique molecular ident
 
 A **barcode** assigns material to a compartment or sample. In a droplet workflow, a small reaction compartment ideally contains one cell or nucleus. The barcode tells us where the captured message was assigned. It does not prove its biological origin without quality checks.
 
-**[[about/Terminology#scrna-seq|Single-cell RNA sequencing (scRNA-seq)]]** assigns profiles to cells. **Single-nucleus RNA sequencing (snRNA-seq)** assigns them to nuclei. Nuclear preparations include more unfinished RNA, so intron-containing reads can be useful expression evidence. They do not by themselves establish abnormal splicing.
+[Single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq)](/wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq) sample different compartments. Nuclear preparations include more unfinished RNA, so intron-containing reads can be useful expression evidence. They do not by themselves establish abnormal splicing.
 
 ## Two ways messages can appear in the wrong place
 
@@ -50,6 +50,8 @@ A **doublet** contains contributions from two cells or nuclei under one barcode.
 | Module score | Summary of selected genes under a stated scoring and reference rule |
 
 CPM and TPM are not interchangeable. Neither is a direct surface-protein count. Standard length-based TPM is not the default interpretation of every UMI-tagged counting assay.
+
+[Gene-expression signatures](/wiki/education/concepts/measurement/transcriptomics/gene-expression-signatures) combine selected counts under a specified rule. A module score belongs to that rule and reference, rather than directly measuring a pathway's function.
 
 ## A worked count example
 

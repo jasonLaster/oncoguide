@@ -6,7 +6,7 @@ audience: "Curious reader; no specialist biology assumed"
 minutes: 146
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -24,26 +24,21 @@ This is the canonical learning path. The foundations lessons build the vocabular
 1. [[wiki/education/concepts/biology-basics/genetics/central-dogma|DNA, RNA and protein]] are related objects, not interchangeable evidence.
 2. A tissue contains cancer cells and normal neighbors. [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Heterogeneity]] also means the sampled cancer cells can differ.
 3. Preparation, location and time are part of every result.
-4. Integration tests a defined claim; related reports are not automatically independent votes.
+4. [Multi-omic integration](/wiki/education/concepts/measurement/computational-analysis/multi-omic-integration) tests a defined claim; related reports are not automatically independent votes.
 5. A persuasive mechanism and a clinically useful treatment require different evidence.
 
 ## The map
 
 ```mermaid
 flowchart TD
-  A["Foundations: molecules, cells and comparisons"] --> B["DNA: authentic change and copy state"]
-  B --> C["RNA: message and transcript form"]
-  C --> D["Protein: product, state and location"]
+  A["Foundations: molecules and cells"] --> B["DNA: change and copy state"]
+  B --> C["RNA: message and form"]
+  C --> D["Protein: product and state"]
   D --> E["Function: controlled response"]
-  S["Cell identity, geography and sample time"] -.-> B
-  S -.-> C
-  S -.-> D
-  S -.-> E
-  E --> Q["Clinical question: evidence, eligibility and benefit"]
-  T["Blood time series: repeated assay-specific snapshots"] --> Q
+  E --> Q["Clinical evidence and benefit"]
 ```
 
-*The arrows name questions to investigate. A measured box does not guarantee the next one.* Use the lesson table for each linked step.
+*The arrows name questions to investigate. A measured box does not guarantee the next one.* Check cell identity, location and sample time at every layer. Blood time series add repeated assay-specific snapshots; eligibility and benefit still need their own clinical evidence. Use the lesson table for each linked step.
 
 ## Lessons
 
@@ -74,6 +69,8 @@ flowchart TD
 **Reasoning:** [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic versus predictive evidence]] and [[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|clinical actionability]]. Concept pages supply the stable definitions; the lessons supply decisions and practice.
 
 **Go deeper into assay confidence:** [sequencing reads](/wiki/education/concepts/measurement/sequencing-basics/sequencing-reads), [depth and coverage](/wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage), [tumor-normal comparison](/wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing), [variant calling](/wiki/education/concepts/measurement/sequencing-basics/variant-calling), [RNA integrity](/wiki/education/concepts/measurement/specimens/rna-integrity) and [batch effects](/wiki/education/concepts/measurement/transcriptomics/batch-effects). For protein questions, compare [mass-spectrometry proteomics](/wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics) with [phosphoproteomics](/wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics). For spatial questions, pair [multiplex immunofluorescence](/wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence) or [imaging mass cytometry](/wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry) with [cell segmentation](/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation). The result's meaning depends on its measurement method.
+
+**Choose a specialist question:** [cell versus nucleus RNA](/wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq), [fusion or splice evidence](/wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection), [gene-expression signatures](/wiki/education/concepts/measurement/transcriptomics/gene-expression-signatures), [targeted protein quantification](/wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq), [reverse-phase protein array (RPPA)](/wiki/education/concepts/measurement/proteins-and-spatial/rppa) and [spatial RNA](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics). The DNA and blood lessons introduce their additional readouts at the point of use.
 
 ## Follow one fictional repair finding
 

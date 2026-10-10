@@ -8,7 +8,7 @@ objectives: ["Choose a protein assay for abundance, location or modification.", 
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -36,11 +36,11 @@ This is step 11 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Unders
 
 [Phosphorylation](/wiki/education/concepts/biology-basics/signaling/phosphorylation) can change a protein's behavior; the consequence depends on the site and context. [Phosphoproteomics](/wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics) measures phosphorylated molecules and supported sites. Its interpretation needs the source protein's amount, the exact site and specimen-handling context. A phospho-signal is not a universal on/off switch for an entire pathway.
 
-**Reverse-phase protein array (RPPA)** uses antibodies on sample lysates to measure selected proteins or modifications. The tissue has been mixed, so this method does not preserve original cell coordinates. Common bottom-up mass spectrometry workflows digest [proteins into peptides](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). Their peptide evidence does not automatically establish an intact protein form; a targeted panel also measures selected analytes rather than every protein.
+[Reverse-phase protein array (RPPA)](/wiki/education/concepts/measurement/proteins-and-spatial/rppa) measures selected targets in sample lysates. It does not preserve original cell coordinates. Common bottom-up mass spectrometry workflows digest [proteins into peptides](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). Their peptide evidence does not automatically establish an intact protein form. A [targeted proteomics assay](/wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq) also measures selected analytes rather than every protein.
 
 ## Read a unit without changing its denominator
 
-An abundance per mass of assayed protein is not molecules per malignant cell or surface receptors per cell. A **limit of quantification (LOQ)** defines where reliable quantification is supported under the method. **Not detected** must be read with the analyte list and threshold; the marker may be absent, below detection or not assayed.
+An abundance per mass of assayed protein is not molecules per malignant cell or surface receptors per cell. Read the method's [limit of quantification (LOQ)](/wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq) before interpreting a numerical change. **Not detected** must be read with the analyte list and threshold; the marker may be absent, below detection or not assayed.
 
 For staining, retain which cells were scored, intensity, proportion and location. A membrane stain can answer a different question from nuclear or cytoplasmic staining. Clinical receptor categories use marker-specific rules; research RNA cannot quietly replace them.
 

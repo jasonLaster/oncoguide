@@ -8,7 +8,7 @@ objectives: ["Distinguish gene-level abundance from mutant or splice-product evi
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -43,11 +43,11 @@ A sequencing **library** is prepared material, not the original tissue. Some met
 
 **[[about/Terminology#ffpe|Formalin-fixed, paraffin-embedded (FFPE)]]** tissue preserves architecture but alters molecules. [RNA integrity](/wiki/education/concepts/measurement/specimens/rna-integrity) helps match recovered material to the intended assay. A preparation that supports short-target gene counts may leave full-length transcript questions unanswered. Fresh-frozen molecular preservation is also different from preserving viable cells for culture.
 
-**[[about/Terminology#scrna-seq|Single-cell RNA sequencing (scRNA-seq)]]** measures cell-assigned profiles; **single-nucleus RNA sequencing (snRNA-seq)** measures nuclear profiles. Neither is a complete census of every original cell and message. Dissociation, capture and filtering can change the populations represented.
+[Single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq)](/wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq) sample different compartments. Match the preparation to the question; neither profiles every original cell and message completely.
 
 ## A worked splice question
 
-Use the fictional repair-gene R finding from the DNA lesson. A [[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq|bulk RNA assay]] detects abundant R messages. Junction analysis finds a reproducible abnormal splice product. The second observation is more specific to the proposed mechanism than gene abundance.
+Use the fictional repair-gene R finding from the DNA lesson. A [[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq|bulk RNA assay]] detects abundant R messages. [Fusion and splice detection](/wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection) finds a reproducible abnormal junction. The second observation is more specific to the proposed mechanism than gene abundance. A gene-counting library may not cover the junction needed to test it.
 
 Next ask whether the messages came from malignant cells. Normal neighbors can contribute intact R RNA and conceal a cancer-cell loss. Cell-resolved or enriched measurements may help, provided their labels and preparation are suitable. Protein and repair assays still answer different questions.
 
@@ -57,7 +57,7 @@ Now consider a surface-target gene with high bulk RNA. Cell-resolved data place 
 
 Before comparing profiles, check for [batch effects](/wiki/education/concepts/measurement/transcriptomics/batch-effects): systematic differences associated with preparation or analysis. If all baseline samples use one method and all follow-up samples another, their contributions cannot be separated from that comparison alone. Normalizing counts does not supply the missing comparison.
 
-An expression classifier such as [PAM50](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) compares profiles with a reference framework. A pathway module summarizes a selected gene set. A similarity label is not the exact cell of origin, measured pathway activity or a drug-response rule.
+[Gene-expression signatures](/wiki/education/concepts/measurement/transcriptomics/gene-expression-signatures) need their algorithm, preprocessing and reference population. A classifier such as [PAM50](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) and a pathway module answer different questions. A similarity label is not the exact cell of origin, measured pathway activity or a drug-response rule.
 
 A luminal-progenitor-like RNA program can coexist with [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). Its resemblance does not make the tumor hormone-receptor-positive. The [[wiki/education/multi-omics-foundations/02-cell-identity-and-state|identity-and-state lesson]] applies that distinction.
 

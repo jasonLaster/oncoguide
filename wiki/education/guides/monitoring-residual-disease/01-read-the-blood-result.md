@@ -2,7 +2,7 @@
 title: "Read the blood result before reading the trend"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -41,6 +41,8 @@ Start with the collection date, rather than only the report date. A result drawn
 
 Next identify the assay's job. A test can look for selected known tumor features, a cancer-associated pattern without a tumor reference, or a broader set of alterations. “Liquid biopsy” names a specimen approach, not one universal method.
 
+[Fragmentomics and methylation](/wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation) examine patterns rather than necessarily reporting a mutation list. [Circulating tumor cells (CTCs)](/wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells) are a different captured object from cell-free DNA fragments.
+
 ## Build a small result ledger
 
 | Question | What to record | Why it matters |
@@ -53,6 +55,8 @@ Next identify the assay's job. A test can look for selected known tumor features
 | What is the limit? | Applicable detection or quantitation criteria | Sets the boundary of the claim |
 
 An invalid or failed sample is not a negative result. Likewise, a detected signal below a reliable quantitation range may support “present” more strongly than an exact fold change. The report's own qualifications deserve to stay beside its number.
+
+For mutation-based signals, record how the method checks blood-cell origin. [Clonal hematopoiesis and clonal hematopoiesis of indeterminate potential (CHIP)](/wiki/education/concepts/measurement/liquid-biopsy/chip) can contribute DNA to plasma. A white-blood-cell comparison helps within its sensitivity and coverage; it is not a perfect origin certificate.
 
 ## A worked trend near the limit
 

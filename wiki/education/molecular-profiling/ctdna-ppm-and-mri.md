@@ -2,7 +2,7 @@
 title: "Compare blood results with imaging"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -50,6 +50,8 @@ Blood testing detects selected molecular features under an assay's rules. It may
 ## Align the clocks and questions
 
 Before calling results concordant or discordant, compare collection and examination dates, treatment timing, regions examined and assay scope. A blood draw before treatment and a scan several weeks later are not simultaneous observations. A trend needs its own uncertainty, not only an arrow.
+
+The [ctDNA–imaging discordance concept](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance) keeps the recurring interpretation rules in one place. The examples below practice applying them to particular observations.
 
 | Pattern | What the two observations support | What they do not settle |
 |---|---|---|

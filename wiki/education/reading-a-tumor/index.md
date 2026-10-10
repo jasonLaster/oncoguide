@@ -4,7 +4,7 @@ type: "navigation"
 document_role: "educational-entry"
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -27,6 +27,8 @@ For the full learning path, use [[wiki/education/reading-a-tumor/omics-and-multi
 6. **What decision could it change?** Identify the evidence and eligibility needed for that actual question, with the relevant clinical owner.
 
 A report may answer only part of the card. That is useful too: an explicit missing field tells you what to request rather than what to assume.
+
+If the report contains a [variant-effect prediction](/wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction), keep its task and model distinct from an observed sequence. If it combines layers, use the [multi-omic integration card](/wiki/education/concepts/measurement/computational-analysis/multi-omic-integration#how-it-is-measured) to preserve which values were measured and which were inferred.
 
 ## Follow the measurement
 

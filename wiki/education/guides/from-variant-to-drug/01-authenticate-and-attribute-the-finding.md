@@ -8,7 +8,7 @@ objectives: ["Write an exact finding with its specimen, assay, coordinates, and 
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"]
 sensitive: false
 tags: ["education", "molecular-interpretation"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -26,9 +26,9 @@ review_status: "Source-checked; expert and learner review pending"
 This is step 1 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). A credible finding comes before a measured biological consequence and clinical translation.
 
 ```mermaid
-flowchart LR
- A["1. Authenticate and attribute"] --> B["2. Measure biological consequence"]
- B --> C["3. Check clinical evidence and access"]
+flowchart TD
+ A["1. Authenticate and attribute"] --> B["2. Measure biological effect"]
+ B --> C["3. Check evidence and access"]
 ```
 
 ## Begin with a sentence you can check
@@ -39,7 +39,7 @@ flowchart LR
 
 A **transcript** is one RNA message produced from a gene. Different transcripts can change how a DNA coordinate maps to a protein consequence. A **reference genome** is the comparison sequence used by an analysis. Its version matters when coordinates are compared.
 
-The report should distinguish a measured sequence from an inferred protein effect. A predicted splice consequence is a hypothesis about RNA processing. It is not the same evidence as measuring the relevant junctions in RNA.
+The report should distinguish a measured sequence from [variant-effect prediction](/wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction). A predicted splice consequence is a hypothesis about RNA processing. It is not the same evidence as measuring the relevant junctions in RNA. Keep the model version, transcript and score interpretation attached to that hypothesis.
 
 ## Authenticate the observation
 

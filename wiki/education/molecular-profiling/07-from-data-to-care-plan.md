@@ -8,7 +8,7 @@ objectives: ["Construct a specimen-attributed evidence chain across molecular la
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -17,7 +17,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Build an integrated claim without skipping the clinical question
 
-**Integration is a careful argument: name the claim, connect compatible observations and state the gap before the clinical conclusion.**
+**[Multi-omic integration](/wiki/education/concepts/measurement/computational-analysis/multi-omic-integration) is a careful argument: name the claim, connect compatible observations and state the gap before the clinical conclusion.**
 
 **Before you start:** [[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|Actionability]] distinguishes a plausible target from an evidence-supported option. [[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic|Germline versus somatic]] preserves origin. [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic versus predictive evidence]] distinguishes association and selection. [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Heterogeneity]] preserves sampled scope.
 
@@ -31,7 +31,7 @@ Here is the complete teaching case. Every value and observation is invented. The
 
 | Evidence | Observation | Claim strengthened | Gap that remains |
 |---|---|---|---|
-| DNA | A repair-gene R splice-site variant, with suitable sequence support | A candidate acquired sequence change | Its transcript consequence |
+| DNA | A repair-gene R splice-site variant, with suitable sequence support | A candidate acquired sequence change | Its [predicted or measured transcript consequence](/wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction) |
 | Copy model | Other parental side lost; retained-side assignment supported | A potential two-copy-disruption mechanism | Copy/phase uncertainty and actual function |
 | RNA | Reproducible abnormal junction in malignant-cell-enriched material | A changed message product | Intact protein and cellular location |
 | Protein | Reduced R staining in malignant cells, with suitable staining controls | A cell-specific protein-signal difference | Whether intact R remains; current repair capacity |
@@ -53,6 +53,8 @@ The distinction is constructive: the result can support a research hypothesis, a
 DNA, RNA and protein can strengthen a consequence chain because they inspect different objects. They remain linked biologically. They can also share specimen contamination, wrong cell assignments or the same assumed variant list.
 
 If three reports merely repeat one variant call, they are not three raw confirmations. If an RNA junction was independently measured, that adds a new observation. Write which kind of agreement occurred rather than counting report titles.
+
+For a computed integration, add the model version, missing inputs and evaluation design. Keep measured values separate from values filled in by the model. A shared pattern can reflect preparation differences as well as biology.
 
 ## Treat disagreement as a clue
 
