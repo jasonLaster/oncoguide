@@ -78,7 +78,7 @@ Source check: October 9, 2026. General biology and assay interpretation; expert 
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
-- [Why disease setting changes the timing question](/wiki/education/local-treatment-modalities/02-timing)
+- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 - [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 - [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
 <!-- END GENERATED USED IN -->

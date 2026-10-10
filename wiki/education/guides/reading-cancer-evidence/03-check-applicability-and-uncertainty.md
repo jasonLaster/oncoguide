@@ -51,6 +51,10 @@ Think of a study as a photograph. It can be sharp but taken from the wrong angle
 
 Read the planned outcomes and analysis beside the published result. Find how many people were assigned, followed, and analyzed, and why some were missing. Check whether important outcomes or harms were omitted. Reporting standards help readers find these details; compliance with a checklist is not itself proof that a study is sound. [CONSORT 2025](https://www.bmj.com/content/389/bmj-2024-081123).
 
+In an [observational study](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding), treatment choice can share causes with outcome. Check how that confounding was addressed. A [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1) offers a timeline and a hypothesis, with much less ability to isolate a treatment effect.
+
+Also check the [publication version](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed). A conference abstract, a full report and later follow-up from the same participants provide different amounts of information; they are not independent replications. [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) answers questions in the studied model before clinical applicability is tested.
+
 ## A worked comparison: two different questions
 
 Consider two fictional evidence cards. Neither supplies an individual prognosis.

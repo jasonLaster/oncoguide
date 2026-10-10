@@ -7,7 +7,7 @@ glossary_anchor: "trial-phases-and-randomization"
 aliases: ["trial phases", "randomization", "randomized controlled trial", "RCT"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
 updated: "2026-10-09"
@@ -88,7 +88,9 @@ Source check: October 9, 2026. Examples are fictional; no trial outcomes or enro
 - [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
+- [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

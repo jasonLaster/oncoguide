@@ -60,7 +60,7 @@ Now suppose the treated tumor is 30 instead. That shows shrinkage below its 100 
 
 **Log-scale reminder:** A cell-count axis labeled 100, 1,000, 10,000, 100,000 uses equal visual spacing for tenfold changes. Read the numbers, not just the line's apparent height.
 
-**Practice interactively:** Download the [CAR-T learning lab](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.zip) to change these numbers, explore the components, and answer six questions. Unzip it and open the included HTML file in a browser.
+**Practice interactively:** Open the [CAR-T learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) to change these numbers, explore the components, and answer six questions. The activities run in the reader; an offline ZIP remains available on the lab page.
 
 ## Safety is a separate set of outcomes
 

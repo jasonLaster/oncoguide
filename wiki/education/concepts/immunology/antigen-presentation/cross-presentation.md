@@ -6,7 +6,7 @@ summary: "Cross-presentation occurs when a cell displays externally acquired ant
 glossary_anchor: "cross-presentation"
 aliases: ["cross-presentation", "cross-priming"]
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
@@ -77,7 +77,9 @@ Source check: October 8, 2026. This is a mechanism explanation, not a treatment 
 ## Used in
 
 - [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
+- [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

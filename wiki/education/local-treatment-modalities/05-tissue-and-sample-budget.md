@@ -1,84 +1,92 @@
 ---
-title: "What imaging and tissue can tell us after local treatment"
+title: "Match each measurement to its claim"
 type: guide-lesson
-sensitive: false
-tags: [education, local-treatment, radiation, evidence]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: local-treatment-modalities
+guide: local-therapy-and-the-immune-system
 step: 5
-objectives: ["Explain what imaging and tissue can tell us after local treatment and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
+minutes: 14
+objectives: ["Distinguish anatomical response, tissue measurements and functional immune evidence.", "Explain how sample location, timing, handling and denominators change interpretation."]
+prerequisites: ["[[wiki/education/local-treatment-modalities/04-decision-questions]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
+sensitive: false
+tags: [education, local-treatment, measurement]
+updated: 2026-10-09
+source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# What imaging and tissue can tell us after local treatment
+# Match each measurement to its claim
 
-**Imaging maps lesions and treatment exposure; tissue samples biology at a particular place and time. Neither alone proves a systemic immune benefit.**
+**You will learn to ask what an imaging or tissue result actually measured before using it to explain a treatment response.** Start with [immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry), which stains selected proteins in tissue, and [bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq), which measures a sample's combined ribonucleic acid messages.
 
-**Before you start:** [[wiki/education/local-treatment-modalities/01-mechanism|Local injury and immune signals]] separates physical destruction from priming. [[wiki/education/molecular-profiling/tcr-and-tcr-sequencing|TCR sequencing]] explains receptor identity and specificity.
+## The intuition: choose the evidence for the question
 
-## Start with the measured quantity
+A photograph, a head count and a conversation tell you different things about a classroom. The same is true of a tumor. A scan can locate a lesion. A stain can show cells and proteins in one piece of tissue. A functional experiment can test a specified activity. None is a complete substitute for the others.
 
-| Measurement | What it can establish | What it does not establish alone |
+First name the claim: “The treated site is controlled,” “immune cells entered this sampled area,” “these T cells recognize tumor material,” or “adding the treatment improves outcomes.” Then choose the measurements and comparison that could address it.
+
+## What each measurement can contribute
+
+| Measurement | Useful question | What it cannot establish alone |
 |---|---|---|
-| CT or MRI | Anatomy, lesion dimensions and change under a defined assessment | Viable-cell count or cause of a response |
-| Planning imaging | Geometry, motion and dose constraints | Later tumor control |
-| Target PET | Tracer distribution and uptake at the scan time | Universal target density or safe exposure for another therapy format |
-| Pathology or immunohistochemistry | Sampled morphology and protein localization | Whole-body uniformity or live-cell killing |
-| RNA profiling | Sampled expression under the preparation used | Surface protein accessibility or dependence |
-| TCR (T-cell receptor) sequencing | Sampled clones and their abundance | Antigen specificity, killing or clinical benefit |
+| Anatomical imaging, such as computed tomography or magnetic resonance imaging | Where is disease detected, and how does a lesion change? | Which immune mechanism caused the change |
+| Positron emission tomography with a specified tracer | Where was that tracer detected under the scan conditions? | Effective therapeutic radiation dose or complete coverage of unseen disease |
+| Immunohistochemistry | Which cells stain for a selected protein, where, and using what scoring method? | Whole-body expression or T-cell killing capacity |
+| Bulk RNA sequencing | Which messages were captured from this tissue mixture? | Accessible surface protein or the activity of each individual cell |
+| [T-cell receptor sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) | Which sampled receptor sequences are present and change in abundance? | Which target every sequence recognizes or whether those cells can kill |
+| A specified functional immune assay | Can sampled cells perform the tested recognition or killing activity? | That the same activity occurs throughout the person's tumors |
 
-The specimen, timepoint and denominator belong beside the result. For example, CD8 cells as a fraction of all cells differs from CD8 cells per tissue area. A percentage can rise because tumor cells declined even if the number of CD8 cells did not increase.
+RNA is ribonucleic acid; it participates in the [path from genetic information to protein](/wiki/education/concepts/biology-basics/genetics/central-dogma). RNA abundance, protein staining and accessible binding sites are related but different measurements.
 
-## Tissue is consumed even when it is archived
+For a [radioligand](/wiki/education/local-treatment-modalities/06-comparisons), dosimetry estimates absorbed radiation dose. Uptake, retention and normal-organ exposure need product-specific interpretation. A diagnostic image does not replace that work. [Food and Drug Administration guidance, 2019](https://www.fda.gov/media/129547/download).
 
-Pathology takes priority in a clinical specimen. Sections, curls and cores consumed for immunohistochemistry, sequencing or other assays are no longer available for another use. Existing tissue can avoid a new procedure, but it is not “zero tissue cost.”
+## Worked example: the percentage rose, but what changed?
 
-Fixed tissue can support many histology and molecular assays. Fresh-frozen tissue preserves some molecular measurements but usually does not provide viable cells. Controlled viable-cell cryopreservation is different from flash freezing. Single-cell immune experiments and functional models need method-compatible inputs.
+**Fictional counting exercise.** A research assay counts cells in two equal-sized sampled areas using the same method. Before treatment it finds 10 immune cells among 50 total cells. Afterwards it finds 10 immune cells among 20 total cells.
 
-Before combining assays, ask the laboratory for its actual input, tumor-content criteria, expected failure rate and return of unused material. There is no generic three-core budget that guarantees enough material for all tests.
+The immune-cell fraction rose from 20% to 50%, but the immune-cell count stayed at 10. Loss of other cells can explain the fraction change without additional immune-cell entry. The conclusion is narrower than “treatment recruited more immune cells.”
 
-## Target validation is a chain
+Now suppose the second sample came from a different lesion or a different-sized area. Even the count comparison needs more caution. Ask about site, viable tissue area, timing and assay comparability. This exercise uses a simple cell fraction; it is not the clinical [stromal tumor-infiltrating lymphocyte scoring method](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring), which has a different denominator.
 
-RNA may motivate a target hypothesis. Protein staining adds localization. Surface accessibility, normal-tissue expression and tracer uptake add other evidence. These steps can disagree. A tumor-specific RNA signal can coexist with substantial normal-organ uptake of a binder.
+## How tissue planning changes the answer
 
-For radioligands, diagnostic imaging and therapeutic dosimetry answer related but distinct questions. Some validated pathways use PET selection; other products use different imaging or measurements. A single scan is not universally sufficient to calculate therapeutic exposure. The exact product and protocol determine requirements.
+A specimen records a place and time. The center of an injured lesion, its viable edge and an untreated lesion can answer different questions. An early sample may capture transient injury signals; a later sample may capture a changed mixture of surviving cells.
 
-## Sampling before and after treatment
+Collection and handling also matter. Fixed tissue can support morphology and selected molecular assays. Fresh-frozen material preserves analytes under a defined workflow. Viable-cell preservation aims to retain living cells for suitable experiments. “Frozen” alone does not guarantee live cells or compatibility with every assay.
 
-A post-treatment biopsy can measure local cell composition, expression or damage markers. Its timing and location strongly affect interpretation. A lesion center, viable rim and distant site can look different. Repeated biopsy adds bleeding, infection and organ-specific risk; it is a clinical or protocol decision, not an automatic research step.
+Diagnostic needs, patient safety and consent come before an exploratory sample wish list. Research planning should specify the question, accepted material, minimum usable amount, processing timeline, assay controls and what remains for other needs. There is no universal number of biopsy cores that can be allocated from an educational checklist. Archive material is finite too: cutting sections and extracting material consume it. [National Cancer Institute best practices, fourth edition 2026](https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources).
 
-A useful comparison prespecifies sites, timing, assays, denominator and controls. An increase in T cells can support recruitment but does not by itself prove tumor-specific priming. Pairing receptors with stimulation or killing experiments can address specificity; patient outcomes remain a later evidence layer.
+## From a signal to a mechanism
 
-## A worked example
+[Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death) cannot be established by calling any increase in inflammation “vaccination.” Signals from dying cells need interpretation alongside evidence about the immune response.
 
-A treated lesion changes from 20% to 60% immune cells. One explanation is recruitment. Another is loss of cancer cells changing the denominator. A third is sampling a different region. Absolute density, matched location and assay details help distinguish them. Even real recruitment does not isolate which component of a combination caused it.
+Formenti and colleagues combined clinical response observations with blood, receptor-sequence and functional analyses in a lung-cancer study of radiation plus checkpoint treatment. Those complementary measurements were informative about mechanism. Their findings did not turn a single stain or a receptor-sequence increase into a universal response test. [Formenti and colleagues, 2018](https://pubmed.ncbi.nlm.nih.gov/30397353/).
+
+## Common failure modes
+
+Watch for a tissue percentage reported without its denominator, a new sample compared with an incompatible old one, or a blood response described as proof of activity inside every tumor. A measurement may be accurate while the conclusion attached to it is too broad.
 
 ## Try it
 
-Can archived RNA expression prove a recurrent lesion has enough surface target for a new radioligand?
+A fictional study finds more copies of a T-cell receptor sequence after local treatment. It concludes that those cells killed the untreated tumor. What evidence is missing?
 
-**Answer:** No. The sample is from another time and RNA is a different quantity. Current, product-specific validation is needed where the decision depends on it.
-
-**Explain it back:** “Every assay answers one question in one sample, and combining them needs compatible timing and units.”
+**Answer:** The sequence's target specificity, relevant recognition and killing activity, tumor access and a comparison supporting the clinical attribution remain unresolved. Sequencing measures sampled receptor abundance; it does not directly observe all those steps.
 
 ## Explain it back
 
-Record specimen, timing, units and limits before claiming a mechanism worked.
+Explain how 20% can become 50% without adding an immune cell. Then name one sampling difference that would make even that comparison harder.
 
 ## Takeaway
 
-**Record specimen, timing, units and limits before claiming a mechanism worked.**
+Keep the sample's location, timing, handling and denominator beside the result. Match evidence to the claim rather than asking one test to stand in for the whole immune response.
 
-**Next:** [[wiki/education/local-treatment-modalities/06-comparisons|Compare the tools]].
+Next: [compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons).
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. Expert and learner review remain pending. These lessons explain mechanisms and study interpretation; current choices are owned by [[wiki/care/treatment-plan|the care plan]] and [[wiki/questions/abscopal-effect|the local-priming question]].
+Source check: 2026-10-09. All counting numbers and practice studies are fictional; expert and learner review pending.
 
-- [BOOSTER randomized ablation-plus-immunotherapy trial in advanced NSCLC](https://www.nature.com/articles/s41392-025-02460-z).
-- [Primary TREX1 radiation-dose study](https://pubmed.ncbi.nlm.nih.gov/28598415/).
-- [PACIFIC: durvalumab after chemoradiotherapy in unresectable stage III NSCLC](https://www.nejm.org/doi/full/10.1056/NEJMoa1709937).
-- [CURB randomized trial; benefit in NSCLC, no demonstrated benefit in the breast cohort](https://doi.org/10.1016/S0140-6736(23)01857-3).
+- [NCI 2026: Best Practices for Biospecimen Resources, fourth edition](https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources) — collection, handling, quality and planned uses.
+- [Galluzzi et al., 2020: immunogenic cell death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/) — distinguishing signals from demonstrated adaptive immunity.
+- [Formenti et al., 2018: radiation plus checkpoint blockade in lung cancer](https://pubmed.ncbi.nlm.nih.gov/30397353/) — complementary clinical and immune measurements in a specific study.
+- [FDA 2019: oncology therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download) — biodistribution and absorbed-dose questions.

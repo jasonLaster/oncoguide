@@ -34,9 +34,6 @@ There is no single schedule that every person with this receptor category follow
 flowchart TD
   A[1. Read the jobs in the plan] --> B[2. Read timing around surgery]
   B --> C[3. Use findings in the next conversation]
-  click A "/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan" "Read treatment jobs"
-  click B "/education/guides/treating-early-tnbc/02-read-timing-around-surgery" "Read treatment timing"
-  click C "/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation" "Use the findings"
 ```
 
 ## Lessons

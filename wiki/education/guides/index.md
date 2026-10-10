@@ -29,7 +29,7 @@ If the terms are new, begin with [Start here](/wiki/education/guides/start-here/
 | How a personalized cancer vaccine is designed | [Personalized cancer vaccine](/wiki/education/guides/personalized-cancer-vaccine/index) |
 | How engineered immune-cell therapies differ | [Engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index) |
 | How a treatment reaches and acts on a surface target | [Surface-target treatments](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index) |
-| What local treatment can do and what immune claims need | [Local-treatment supporting lessons](/wiki/education/local-treatment-modalities/index) |
+| What local treatment can do and what immune claims need | [Local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index) |
 | Whether a molecular finding supports a drug question | [From a variant to a drug question](/wiki/education/guides/from-variant-to-drug/index) |
 | What an experiment or tumor model predicts | [Predicting response before treating](/wiki/education/guides/predicting-response-before-treating/index) |
 | What a study's comparison, effect size and uncertainty establish | [Reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index) |
@@ -40,6 +40,6 @@ If the terms are new, begin with [Start here](/wiki/education/guides/start-here/
 
 The [concept library](/wiki/education/concepts/index) explains building blocks. [Terminology](/about/Terminology) supplies short definitions and links. Each path identifies useful prerequisites and the next lesson; you do not need to learn the whole library before starting.
 
-These pages teach general biology and evidence reading. Each guide links current findings and clinical decisions to their existing owners. Source checking and practice answers help you use a page; they do not replace expert review. Expert and learner review remain pending, and the fuller local-treatment path is still on the [curriculum checklist](/project-management/audits/2026-10-08-education-content-audit/implementation#remaining-curriculum-work).
+These pages teach general biology and evidence reading. Each guide links current findings and clinical decisions to their existing owners. Source checking and practice answers help you use a page; they do not replace expert review. Expert and learner review remain pending. The [curriculum checklist](/project-management/audits/2026-10-08-education-content-audit/implementation#remaining-curriculum-work) tracks the advanced concepts and migrations still to come.
 
 **Takeaway:** Choose one question, follow its path, and bring the evidence limits along with the explanation.

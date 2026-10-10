@@ -99,5 +99,5 @@ General education; fictional treatment plans. Source-checked October 9, 2026. Ex
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
-- [Why disease setting changes the timing question](/wiki/education/local-treatment-modalities/02-timing)
+- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 <!-- END GENERATED USED IN -->

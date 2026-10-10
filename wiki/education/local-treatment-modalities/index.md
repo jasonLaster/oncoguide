@@ -1,76 +1,58 @@
 ---
-title: "Understand local treatment and immune priming"
-type: guide
+title: "Local-treatment reference shelf"
+type: navigation
 sensitive: false
-tags: [education, local-treatment, radiation, evidence]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-goal: "Learn how probe ablation, focused radiation and radioligands deliver injury\u2014and why local control is different from a systemic immune effect."
-audience: "Curious reader; no specialist training assumed"
+tags: [education, local-treatment, reference]
+updated: 2026-10-09
+source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Understand local treatment and immune priming
+# Local-treatment reference shelf
 
-**Learn how probe ablation, focused radiation and radioligands deliver injury—and why local control is different from a systemic immune effect.**
+Use this page when you need a source or a quick comparison while reading a local-treatment claim. For a step-by-step learning path with worked examples and practice, begin with [understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index).
 
-This guide is for readers who know that treatment can kill a tumor but want to understand where it acts. Start with [[wiki/education/concepts/immunology/antigen-presentation/hla|HLA]] and [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|prognostic versus predictive evidence]] if those terms are unfamiliar.
+## Find the tool's practical question
 
-## The big ideas
+The three delivery approaches below call for different planning evidence. A technology name does not establish a safe plan or an added clinical benefit.
 
-1. Ablation and external-beam radiation target a location. Radioligands distribute through the body according to uptake and pharmacology.
-2. Local injury can release antigens and inflammatory signals. That does not guarantee useful T-cell priming or distant tumor regression.
-3. Anatomy, dose, disease extent and normal-tissue risk all matter. A lesion-size rule alone cannot choose a treatment.
-4. The clinical evidence must match the cancer, setting and combination. A positive lung-cancer trial cannot establish a breast-cancer standard.
+| Delivery approach | Planning information to look for | A common shortcut to question | Detailed reference |
+|---|---|---|---|
+| [Probe-based ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation) | Access path, treatment-zone coverage, margin and nearby structures | “A small diameter automatically makes the procedure suitable” | [Ablation concept](/wiki/education/concepts/therapeutics/local-therapies/ablation) |
+| External [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics) | Defined volume, motion, dose distribution, prior exposure and normal-tissue constraints | “Precise aiming eliminates normal-tissue exposure” | [Radiation concept](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics) |
+| Radioligand therapy | Product-specific uptake, retention, absorbed dose and normal-organ exposure | “A positive tracer scan proves complete therapeutic coverage” | [Delivery comparison](/wiki/education/local-treatment-modalities/06-comparisons) |
 
-## Follow the questions
+[Stereotactic body radiation therapy (SBRT)](/wiki/education/concepts/therapeutics/local-therapies/sbrt) and [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation) describe different aspects of radiation delivery. A short schedule alone does not make a treatment SBRT. These distinctions are useful before looking up any combination study.
 
-| Lesson | Question it answers |
-|---|---|
-| [1. Injury and immune signals](/wiki/education/local-treatment-modalities/01-mechanism) | What is physically damaged, and what could the immune system learn? |
-| [2. Timing and disease setting](/wiki/education/local-treatment-modalities/02-timing) | What is known before deciding whether local treatment fits? |
-| [3. Combination evidence](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing) | How do we distinguish a rationale from added clinical benefit? |
-| [4. Read a proposal](/wiki/education/local-treatment-modalities/04-decision-questions) | Which evidence and safety gates must a proposal answer? |
-| [5. Measure the result](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget) | What do imaging and biopsies actually establish? |
-| [6. Compare the tools](/wiki/education/local-treatment-modalities/06-comparisons) | Which physical and biological differences matter? |
+## Find the clinical comparison
 
-## Keep the evidence in its setting
+This is a bibliography organized by question, rather than a ranking of treatments. Preserve the study's cancer, disease setting and comparator when quoting it.
 
-BOOSTER randomized **ablation plus checkpoint inhibition** against checkpoint inhibition alone in advanced non-small-cell lung cancer (NSCLC). It is not an SBRT (stereotactic body radiation therapy) trial. PACIFIC established benefit from durvalumab after conventional chemoradiotherapy in a different NSCLC setting. Neither establishes a universal local-treatment-plus-checkpoint schedule for TNBC.
+| Question to investigate | Primary report | Scope to keep beside the citation |
+|---|---|---|
+| Does ablation add to ongoing checkpoint treatment after a response leaves limited residual disease? | [BOOSTER, Yang et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41213939/) | Selected advanced non-small-cell lung cancer; randomized phase-2 comparison; ablation, not SBRT |
+| Does consolidation checkpoint treatment improve outcomes after concurrent chemotherapy and radiation? | [PACIFIC five-year report, Spigel et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35108059/) | Unresectable stage-III non-small-cell lung cancer without progression after concurrent platinum chemoradiation |
+| Does treating a few progressing sites add to standard systemic care? | [CURB, Tsai et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38104577/) | Oligoprogressive breast and lung cohorts; the breast cohort did not show significant progression-free survival improvement |
+| Does treating detected metastases add to first-line systemic therapy in limited metastatic breast cancer? | [NRG-BR002, Chmura et al., 2026](https://ascopubs.org/doi/10.1200/JCO-26-00201) | Full report published October 7, 2026; no demonstrated progression-free survival improvement; planned phase 3 did not proceed |
 
-Randomized breast-cancer evidence is an essential counterweight: NRG-BR002 did not demonstrate a progression-free or overall survival benefit from metastasis-directed treatment in its studied oligometastatic population; CURB did not demonstrate a benefit in its breast cohort. Local treatment can still have roles such as symptom relief or selected local control. The purpose and supporting evidence must be explicit.
+“Benefit” is incomplete without an outcome. [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) distinguish progression-free and overall survival. A null added-outcome comparison does not make symptom relief irrelevant; a successful treated-site response does not prove benefit at distant sites.
 
-A peer journey can show what questions arose. Sid received dostarlimab and ipilimumab before and during his radioligand course; describing that as “RLT (radioligand therapy) without ICI” was incorrect. Simultaneous interventions and changing disease make one patient’s response unsuitable for assigning causality to one treatment.
+## Find the mechanism or measurement boundary
 
-## Applied to Diana
+For a claim that local injury acts as [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination), consult [Galluzzi et al.'s 2020 immunogenic-cell-death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/). It explains why released signals need evidence of a corresponding immune response. Use the [mechanism lesson](/wiki/education/local-treatment-modalities/01-mechanism) to follow presentation, priming and recognition.
 
-Use [[wiki/care/treatment-plan|the current care plan]] and [[wiki/questions/abscopal-effect|the local-priming question]] for decisions. This guide supplies vocabulary and evidence boundaries; it carries no treatment schedule or vendor commitment.
+For a radioactive-drug exposure claim, consult [FDA's 2019 therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download). It separates biodistribution, absorbed radiation dose and normal-organ questions. Use the [measurement lesson](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget) to distinguish imaging, tissue readouts and functional evidence.
 
-**Takeaway:** Ask separately whether a treatment controls the treated site and whether the exact combination improves a meaningful patient outcome.
+## A citation check to keep nearby
 
+Before carrying a source into a proposal, record the enrolled population, both strategies, endpoint, starting time and remaining uncertainty. Then write the action now proposed. Any mismatch between those two descriptions needs explanation.
 
-**Vocabulary:** HLA means human leukocyte antigen.
+If the source is a [conference abstract or full paper](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed), state which version you inspected. If it is a [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1), keep the observation attached to that person rather than estimating a treatment's added effect.
+
+For more practice, use [reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index). For a structured proposal review, use [the five-question lesson](/wiki/education/local-treatment-modalities/04-decision-questions).
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. Expert and learner review remain pending. These lessons explain mechanisms and study interpretation; current choices are owned by [[wiki/care/treatment-plan|the care plan]] and [[wiki/questions/abscopal-effect|the local-priming question]].
-
-- [BOOSTER randomized ablation-plus-immunotherapy trial in advanced NSCLC](https://www.nature.com/articles/s41392-025-02460-z).
-- [Primary TREX1 radiation-dose study](https://pubmed.ncbi.nlm.nih.gov/28598415/).
-- [PACIFIC: durvalumab after chemoradiotherapy in unresectable stage III NSCLC](https://www.nejm.org/doi/full/10.1056/NEJMoa1709937).
-- [CURB randomized trial; benefit in NSCLC, no demonstrated benefit in the breast cohort](https://doi.org/10.1016/S0140-6736(23)01857-3).
-
-
-## Lessons
-
-| Lesson | Question | Minutes |
-|---|---|---|
-| [Pathology](/wiki/education/guides/reading-pathology-and-surgery-results/index) | What did tissue examination establish? | 10 |
-| [Evidence](/wiki/education/guides/reading-cancer-evidence/index) | What does a study justify? | 15 |
-
-
-## Concepts you will use
-
-- [[wiki/education/concepts/immunology/antigen-presentation/hla|HLA (human leukocyte antigen)]]
-- [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic versus predictive biomarkers]]
+Source check: 2026-10-09. The six linked primary reports and official guidance documents above form this reference shelf. Clinical results apply to their stated populations and strategies; expert and learner review pending.

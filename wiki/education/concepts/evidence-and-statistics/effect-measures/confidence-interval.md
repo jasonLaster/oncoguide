@@ -7,7 +7,7 @@ glossary_anchor: confidence-interval
 aliases: ["confidence interval", "CI", "confidence limits"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -85,4 +85,5 @@ Source check: 2026-10-09. Conventional frequentist interval interpretation; expe
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
+- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

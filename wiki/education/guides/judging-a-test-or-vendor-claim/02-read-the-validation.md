@@ -51,6 +51,8 @@ Use a small evidence table while you read:
 
 A **prespecified** rule is written before seeing the relevant results. An **exploratory** analysis generates ideas after looking at data. Exploration is valuable, but the resulting claim needs confirmation that did not reuse the same search.
 
+If the evidence begins in cells or animals, identify what the [preclinical model](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) actually tested. If it comes from patient care without assigned treatment, ask about [confounding](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding). Neither a useful laboratory result nor an outcome association automatically validates the proposed clinical action.
+
 ## Worked example: two fictional validation slides
 
 Slide A shows the performance of a risk score on the same patients used to choose its variables and threshold. Slide B evaluates a locked version on a separate hospital's patients, with a defined outcome and failed tests reported.

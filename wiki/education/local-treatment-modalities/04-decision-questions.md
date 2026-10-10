@@ -1,86 +1,91 @@
 ---
-title: "Read a local-treatment proposal"
+title: "Read a proposal through five questions"
 type: guide-lesson
-sensitive: false
-tags: [education, local-treatment, radiation, evidence]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: local-treatment-modalities
+guide: local-therapy-and-the-immune-system
 step: 4
-objectives: ["Explain read a local-treatment proposal and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
+minutes: 12
+objectives: ["Turn a local-treatment proposal into a goal, evidence question and feasibility question.", "Identify assumptions hidden by size, target-uptake or immune-priming claims."]
+prerequisites: ["[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]", "[[wiki/education/concepts/therapeutics/local-therapies/ablation]]", "[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]"]
+sensitive: false
+tags: [education, local-treatment, evidence]
+updated: 2026-10-09
+source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Read a local-treatment proposal
+# Read a proposal through five questions
 
-**A useful proposal states the goal, evidence, anatomy and safety requirements before naming a preferred procedure.**
+**You will learn to unpack a local-treatment proposal without turning a reading framework into a treatment recipe.** Start with [the evidence lesson](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing), [ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation) and [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics).
 
-**Before you start:** [[wiki/education/local-treatment-modalities/02-timing|Disease setting]] explains why one blood result can lead to different questions. [[wiki/education/local-treatment-modalities/03-overlap-and-sequencing|Combination evidence]] explains which comparisons matter.
+## The intuition: make the hidden assumptions visible
 
-## Five gates to inspect
+A proposal may sound complete because it names a technology: “Freeze the lesion,” “use focused radiation,” or “send radiation to the target.” The name leaves out the goal, anatomy, comparison and risk. Good questions bring those missing pieces into view.
 
-```mermaid
-flowchart TD
-  A[Confirmed clinical question] --> B[Extent and location of disease]
-  B --> C[Relevant intervention evidence]
-  C --> D[Technical feasibility and safety]
-  D --> E[Alternatives and measured goal]
-```
+Think of the five questions below as a way to read a plan with a clinical team. They are not a sequence that authorizes treatment when five boxes are checked.
 
-*This is a reading framework, not an automatic treatment algorithm.*
+## 1. What outcome is the procedure meant to improve?
 
-First, ask what the proposal aims to accomplish: symptom relief, local control or improvement in a broader outcome. Next, determine how disease was confirmed and staged. A molecular signal alone is not the same as a localizable lesion or proven radiographic progression.
+Ask whether the main goal is symptom relief, protection of a threatened structure, durable control of a selected site, or an investigational immune effect. More than one goal may exist, but each needs a measurement.
 
-Third, identify supporting evidence in the same cancer, setting and prior-treatment context. A protocol, label or randomized comparison answers a different question from an animal mechanism paper. Fourth, check technical feasibility and safety. Finally, ask how success and failure will be measured and what alternatives exist.
+A smaller treated lesion measures local activity. A response at untreated sites is a distant response. For radiation, response outside the irradiated field concerns a possible [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect); for ablation, name the procedure when describing a distant or abscopal-like response. Time without progression, survival, quality of life and harms are additional outcomes. A claim about one cannot silently stand in for the others.
 
-## Questions specific to each tool
+## 2. What evidence matches this proposal?
 
-| Tool | Questions that clarify the proposal |
-|---|---|
-| Ablation | Can the operator cover tumor plus a margin while protecting nearby structures? What imaging verifies coverage? What anesthesia and recovery are needed? |
-| SBRT (stereotactic body radiation therapy) | What target volume and motion are included? What prior radiation and cumulative organ constraints apply? Why this fractionation? |
-| Radioligand | What exact ligand and radionuclide are proposed? Is access established for this setting? What imaging, organ function and dosimetry are required by the protocol? |
-| Checkpoint combination | Is benefit supported in this setting? What sequence was tested? What prior immune toxicity changes feasibility? |
+Name the cancer, disease setting, prior treatment, exact combination and comparator. Then ask whether the cited study tested that action.
 
-A diagnostic PET tracer can show uptake. Uptake can reflect expression, vascularity, delivery, clearance or background. It does not independently predict cell-therapy safety or therapeutic absorbed dose. A paired diagnostic and therapeutic ligand can support theranostics, but the pair, kinetics and protocol need validation.
+A mechanistic explanation can support research rationale. It does not establish that adding a procedure improves care. A positive result in a selected lung-cancer population cannot become an absolute breast-cancer benefit claim. Likewise, a study that did not demonstrate an added survival benefit does not answer every symptom-relief question.
 
-## Avoid one-variable rules
+## 3. Can the intended treatment cover the intended site?
 
-“One lesion means ablation” ignores anatomy, pathology, disease elsewhere and systemic options. “Many lesions means SBRT” ignores volume and organ limits. “Invisible disease means radioligand” assumes uptake and benefit that have not been demonstrated. Size thresholds are protocol-specific selection criteria, rather than universal branches.
+For a probe procedure, questions include a safe access path, coverage of the tumor and an appropriate surrounding margin, plus nearby nerves, vessels, bowel or other structures. For external radiation, questions include the target volume, motion, prior radiation and normal-tissue exposure. [Stereotactic body radiation therapy (SBRT)](/wiki/education/concepts/therapeutics/local-therapies/sbrt) requires a specific planning approach; “small lesion” is not a complete plan.
 
-Likewise, a surface-antigen engager and a TCR (T-cell receptor)-based engager are not interchangeable HLA (human leukocyte antigen)-bypass strategies. The latter requires its peptide–HLA complex. A proposed alternative must bypass the actual failed step and have evidence for its own benefit and safety.
+Size matters, but a single size cutoff is not universal across organs, devices, goals or protocols. An imageable lesion deep in the body can sometimes be accessible; a superficially located lesion can still have a difficult margin. “Only one lesion” and “under a certain diameter” are descriptions, not enough information to choose a tool. [RadiologyInfo, reviewed 2024](https://www.radiologyinfo.org/en/info/thermal-ablation).
 
-## A worked proposal
+## 4. What does exposure mean for benefit and harm?
 
-A patient has one growing lung lesion after prior systemic treatment. A proposal says “local control,” names a biopsy/staging basis, compares continued systemic care with a local addition, and includes pulmonary dose limits. That is assessable. A proposal saying “small lesion → SBRT → immune cure” hides the clinical goal, comparator and uncertainty.
+For [radioligand therapy](/wiki/education/local-treatment-modalities/06-comparisons), a binding molecule carries a radioactive component through the body. Ask what evidence supports tumor uptake, retention and absorbed radiation dose, and which normal tissues also receive exposure. Dosimetry estimates absorbed dose; an uptake image is not the same measurement.
 
-The question set should also include what might be lost: delaying systemic therapy, damaging tissue needed for diagnosis, limiting later radiation or surgery, and adding toxicity. These are concrete tradeoffs, not reasons to reject every local procedure.
+A diagnostic tracer and its therapeutic counterpart may differ in amount, kinetics or other properties. Visible tracer uptake supports a distribution observation under that scan's conditions. It does not by itself prove an effective therapeutic dose, complete coverage of unseen disease or safety. The Food and Drug Administration's radiopharmaceutical guidance treats biodistribution and organ exposure as specific development questions. [FDA, 2019](https://www.fda.gov/media/129547/download).
+
+An [immune-checkpoint inhibitor](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) adds another risk profile. [Immune-related adverse events](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event) can affect normal organs and can arise after treatment has ended. Prior toxicity, organ function and overlapping exposure belong in clinician assessment. This lesson supplies no restart, medication or self-treatment instructions. [Society for Immunotherapy of Cancer guidance, 2021](https://pubmed.ncbi.nlm.nih.gov/34172516/).
+
+## 5. What alternatives and uncertainties remain?
+
+Ask what happens with systemic treatment alone, another local approach, observation where appropriate, or participation in a study. Include burdens such as visits, recovery and additional sampling. Write down which hoped-for effect remains investigational and how the proposal would test it.
+
+## Worked example: the diameter shortcut
+
+**Fictional example.** A presentation shows two tumors of similar diameter. One is next to a sensitive airway; the other has a more accessible approach. It labels both “ideal for ablation” because they are small.
+
+Sam, the reader, rewrites the claim: “Their sizes are similar. We still need organ-specific feasibility, access, margin and safety assessment, plus evidence for the intended clinical goal.” Sam has not chosen radiation instead. He has identified what the size label omitted.
+
+## Common failure modes
+
+A visible treatment boundary is not necessarily the full lethal boundary. A probe's operating temperature is not the temperature throughout the tumor margin. Precise beam placement does not eliminate normal-tissue dose. A targeted radioactive drug does not eliminate normal-organ exposure. These shortcuts can make a proposal look more certain than its plan.
 
 ## Try it
 
-A target PET is positive. A proposal treats that as proof of safe radioligand treatment and future safe CAR (chimeric antigen receptor)-T against the same target. Which gate is missing?
+A fictional proposal says, “The tracer scan is positive, so the therapeutic radioligand will kill every remaining tumor cell.” What questions should replace that certainty?
 
-**Answer:** The imaging result does not validate either product’s delivered dose, normal-tissue toxicity or clinical benefit. Each format needs its own evidence.
-
-**Explain it back:** “I can assess a proposal when I know what it aims to improve, what evidence applies, and what limits the treatment.”
+**Answer:** Ask about therapeutic uptake and retention, absorbed dose, distribution across lesions, normal-organ exposure, and evidence for clinical outcomes in the relevant setting. The scan alone cannot establish complete disease coverage.
 
 ## Explain it back
 
-Ask for a concrete, evidence-matched proposal instead of following a modality-only decision tree.
+Describe the five questions in your own words: goal, matched evidence, coverage, exposure and alternatives. Give one missing fact for each.
 
 ## Takeaway
 
-**Ask for a concrete, evidence-matched proposal instead of following a modality-only decision tree.**
+A useful proposal makes its intended outcome and assumptions inspectable. Technology names and size labels cannot do that work on their own.
 
-**Next:** [[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget|Measure the result]].
+Next: [match measurements to claims](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget).
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. Expert and learner review remain pending. These lessons explain mechanisms and study interpretation; current choices are owned by [[wiki/care/treatment-plan|the care plan]] and [[wiki/questions/abscopal-effect|the local-priming question]].
+Source check: 2026-10-09. Sam and the proposals are fictional; expert and learner review pending.
 
-- [BOOSTER randomized ablation-plus-immunotherapy trial in advanced NSCLC](https://www.nature.com/articles/s41392-025-02460-z).
-- [Primary TREX1 radiation-dose study](https://pubmed.ncbi.nlm.nih.gov/28598415/).
-- [PACIFIC: durvalumab after chemoradiotherapy in unresectable stage III NSCLC](https://www.nejm.org/doi/full/10.1056/NEJMoa1709937).
-- [CURB randomized trial; benefit in NSCLC, no demonstrated benefit in the breast cohort](https://doi.org/10.1016/S0140-6736(23)01857-3).
+- [RadiologyInfo: thermal ablation](https://www.radiologyinfo.org/en/info/thermal-ablation) — image guidance, procedure limits and site-dependent risks.
+- [National Cancer Institute: external-beam radiation](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam) — target planning and normal-tissue sparing.
+- [FDA 2019: oncology therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download) — biodistribution, dosimetry and organ exposure.
+- [Brahmer et al., 2021: immune-checkpoint toxicity guidance](https://pubmed.ncbi.nlm.nih.gov/34172516/) — clinician assessment of immune toxicities and timing.

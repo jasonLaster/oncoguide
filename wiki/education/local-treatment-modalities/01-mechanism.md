@@ -1,83 +1,83 @@
 ---
-title: "How local injury can create immune signals"
+title: "Separate local injury from immune learning"
 type: guide-lesson
-sensitive: false
-tags: [education, local-treatment, radiation, evidence]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: local-treatment-modalities
+guide: local-therapy-and-the-immune-system
 step: 1
-objectives: ["Explain how local injury can create immune signals and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
+minutes: 12
+objectives: ["Distinguish physical tumor injury from an antigen-specific immune response.", "Name the gates between local injury and a response at an untreated site."]
+prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
+sensitive: false
+tags: [education, local-treatment, immunology]
+updated: 2026-10-09
+source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# How local injury can create immune signals
+# Separate local injury from immune learning
 
-**Killing tumor cells and producing a useful immune response are separate biological events.**
+**You will learn to distinguish killing a treated tumor from teaching the immune system to recognize cancer elsewhere.** Read the short [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle) and [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) pages first if antigen presentation is unfamiliar.
 
-**Before you start:** an antigen is material an immune receptor can recognize. [[wiki/education/oncology-101/2-dendritic-cells|Dendritic cells]] can collect protein fragments and present them to T cells. [[wiki/education/concepts/immunology/antigen-presentation/hla|HLA]] is the peptide-display system.
+## The intuition: damage is an opening, not a promise
 
-## Three ways to deliver injury
+Imagine a library after a storm. Scattered pages contain information, but someone still has to collect them, understand them and deliver the right message. Injured tumor cells can supply material for immune learning. The presence of that material does not tell us whether the rest of the process worked.
 
-Ablation places a probe into or beside a selected lesion. Cryoablation freezes tissue. Radiofrequency and microwave ablation heat it. External-beam radiation directs energy from outside the body into a planned target. A radioligand carries a radionuclide on a targeting molecule through the bloodstream; its distribution determines exposure.
+[Ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation) destroys tissue at a selected site, for example through freezing or heating. [Radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics) deposits energy that can damage cells and impair their ability to reproduce. These physical effects can act without a T cell recognizing a cancer antigen. Antigen-specific T-cell killing has additional requirements.
 
-Ablation and radiation damage tumor and normal cells within their treatment volume. Radioligands also expose normal tissues through uptake, clearance and emitted radiation. The intended target is only one contributor to the delivered dose.
+## How immune learning could follow injury
 
-## Freezing is a temperature field
+<img src="./images/local-injury-gates-light.png" alt="Four panels show local tumor injury, a dendritic cell collecting and presenting fragments, T-cell activation with supporting signals, and travel toward a distant tumor whose recognition remains a question; dashed arrows mark conditional steps" data-theme-pair>
 
-Cryoablation uses rapid freezing, slower thawing and repeated cycles in common protocols. Equipment and organ protocols differ. Argon probes can reach approximately −140 to −185 °C at the tip; this is different from the **roughly −20 to −40 °C lethal temperature region inside the visible ice ball**. The outer edge is warmer and is not proof of complete cell killing.
+*Local injury opens a possible route to immune learning. Presentation, activation, access and recognition each need evidence; the simplified drawing does not establish a distant response.*
 
-The visible ice ball, required treatment margin and nearby nerves, vessels or organs guide planning. Three centimeters is a common selection threshold in particular studies, not a universal physical ceiling. Multiple probes can alter geometry. Larger or hazardous lesions require a different assessment rather than an automatic next modality.
+The useful sequence is conditional:
 
-Heat ablation causes protein damage and coagulative necrosis. Blood flow can remove heat, and different systems interact differently with tissue. Antigen preservation is a mechanistic consideration; it does not establish a universal cryo > radiofrequency > microwave ranking for systemic clinical benefit.
+1. Injury makes tumor material available, with a signal context that supports an immune response.
+2. Cells such as [dendritic cells](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster) collect and process that material. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) can display acquired protein fragments on class-I HLA.
+3. [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) requires recognition and supporting activation signals; displaying a fragment alone is insufficient.
+4. Activated cells must reach other tumors and function there.
+5. A distant cancer cell must display a recognizable fragment. Antigen-specific CD8 T cells, a T-cell population carrying the CD8 coreceptor, recognize a peptide–HLA combination rather than loose tumor debris.
 
-## From damage to a possible immune response
+[Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death) is defined by the ability of dying cells to provoke an adaptive immune response in an appropriate setting. A danger signal or a dead-cell stain is evidence about part of that process, not proof of the full response. The consensus guidance on detecting it makes this distinction explicit. [Galluzzi and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/32209603/).
 
-```mermaid
-flowchart LR
-  A[Local injury] --> B[Antigen and danger signals]
-  B --> C[Uptake and presentation]
-  C --> D[Possible T-cell priming]
-  D --> E[Trafficking and recognition at another site]
-  E --> F[Possible distant response]
-```
+[In-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination) describes an attempt to use tumor material within the body to stimulate immune learning. An [immune-checkpoint inhibitor](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) may help some immune responses function, but it does not replace missing presentation, recognition or tumor access. Neither phrase guarantees a vaccine-like protective result.
 
-*Each arrow is a gate; injury alone does not establish the final outcome.*
+## Worked example: the treated site and the distant site
 
-Damage-associated molecular patterns (DAMPs) include signals released or exposed by stressed cells. Their timing, location and surrounding immune populations affect whether priming or suppression follows. Apoptosis is not always silent, and necrosis is not always beneficial.
+**Fictional example.** Leah has two imageable tumors in a research study. One is treated locally; the other receives no local treatment. The treated tumor becomes smaller. A blood test also finds more T cells recognizing a tumor-derived fragment.
 
-The cGAS–STING pathway senses misplaced DNA and can trigger type I interferon signals. Radiation-induced cytosolic DNA may activate it in relevant models. **More dose does not mean more activation:** in a primary preclinical study, doses above roughly 12–18 Gy per fraction induced the DNA-degrading enzyme TREX1 in the tested models and reduced the signal. That range is model-dependent, not a universal clinical prescription. A gray (Gy) is one joule of absorbed energy per kilogram.
+That supports local activity and a measured immune change. It does not yet establish that those cells entered the untreated tumor or recognized its cancer cells. Suppose the untreated tumor has lost the relevant HLA display. Local treatment could still injure the first tumor while antigen-specific T cells struggle to recognize the second.
 
-## Why distant effects are harder
+Now imagine the untreated tumor also shrinks while Leah receives a systemic drug. That is a distant response worth studying. A comparison is still needed to estimate how much adding local treatment contributed beyond the drug. For radiation, an [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect) concerns a response outside the irradiated field. For ablation, describe the distant response and name the procedure; calling it abscopal-like still leaves its cause unresolved. Shrinkage of the treated lesion is a local response. Local control concerns keeping that site from progressing during follow-up.
 
-A distant CD8 T-cell response needs relevant targets, presentation, immune-cell access and functional effectors. The local physical injury can occur even when these are absent. An **abscopal effect** means a response outside the irradiated field; convincing attribution requires attention to concurrent systemic therapy and disease history. It is uncommon and cannot be promised.
+## Where the story can break
+
+Material can be released without useful presentation. T cells can be primed without reaching a tumor. A tumor can be reached without being recognized. Physical treatment can also damage nearby normal tissue or immune cells. These are different failure modes, so “more injury” is a poor substitute for measuring the relevant gate.
+
+In experimental cell and mouse models, sufficiently high single radiation doses induced a DNA-degrading enzyme that reduced a DNA-sensing immune signal. Here DNA means deoxyribonucleic acid. Thresholds varied across models. This is a reason to test schedules, not a universal clinical dose ceiling or proof that one schedule best stimulates immunity. [Vanpouille-Box and colleagues, 2017](https://pubmed.ncbi.nlm.nih.gov/28598415/).
 
 ## Try it
 
-The ice ball covers a lesion and a blood cytokine rises. Does that prove complete local kill and a distant immune benefit?
+A study reports complete destruction of a treated lesion and increased danger signals in that tissue. Has it demonstrated a systemic antitumor immune response? Name two observations that would strengthen the claim.
 
-**Answer:** Neither follows automatically. Margins and later local assessment address control; appropriately designed immune and clinical measurements address systemic effects.
+**Answer:** No. It demonstrated local injury and measured signals. Useful additional evidence could include tumor-specific T-cell function and response at untreated sites, with controls that help distinguish local treatment's contribution from concurrent drugs. Even these observations need appropriate sampling and follow-up.
 
 ## Explain it back
 
-“The probe or radiation supplies injury. Antigen release may support priming, but distant killing needs several additional steps.”
+Complete this sentence: “Local injury may make immune learning possible, but a distant response also needs ___.” Try naming presentation, priming, tumor access and recognition without looking above.
 
 ## Takeaway
 
-**Physical destruction is established locally; immune benefit must be measured separately.**
+Local control, immune learning and distant tumor response are separate achievements. Follow the gates between them before calling a treatment an in-situ vaccine.
 
-**Next:** [[wiki/education/local-treatment-modalities/02-timing|Timing and disease setting]].
-
-
-**Vocabulary:** HLA means human leukocyte antigen.
+Next: [put the disease setting before the timing question](/wiki/education/local-treatment-modalities/02-timing).
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. Expert and learner review remain pending. These lessons explain mechanisms and study interpretation; current choices are owned by [[wiki/care/treatment-plan|the care plan]] and [[wiki/questions/abscopal-effect|the local-priming question]].
+Source check: 2026-10-09. Leah and her measurements are fictional. Mechanisms do not establish a clinical regimen; expert and learner review pending.
 
-- [BOOSTER randomized ablation-plus-immunotherapy trial in advanced NSCLC](https://www.nature.com/articles/s41392-025-02460-z).
-- [Primary TREX1 radiation-dose study](https://pubmed.ncbi.nlm.nih.gov/28598415/).
-- [PACIFIC: durvalumab after chemoradiotherapy in unresectable stage III NSCLC](https://www.nejm.org/doi/full/10.1056/NEJMoa1709937).
-- [CURB randomized trial; benefit in NSCLC, no demonstrated benefit in the breast cohort](https://doi.org/10.1016/S0140-6736(23)01857-3).
+- [Galluzzi et al., 2020: definition and detection of immunogenic cell death](https://pubmed.ncbi.nlm.nih.gov/32209603/) — consensus framework for distinguishing signals from demonstrated immunity.
+- [Vanpouille-Box et al., 2017: radiation dose and DNA sensing](https://pubmed.ncbi.nlm.nih.gov/28598415/) — experimental models, not a patient dosing rule.
+- [Chen and Mellman, 2013: the cancer-immunity cycle](https://pubmed.ncbi.nlm.nih.gov/23890059/) — conceptual framework for the intervening immune steps.
+- [National Cancer Institute: radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy) — physical treatment effects and normal-tissue exposure.

@@ -11,7 +11,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
 updated: 2026-10-08
 source_checked: 2026-10-08
 review_status: "Expert and learner review pending"
@@ -65,6 +65,9 @@ General teaching, source-checked October 8, 2026. The examples are hypothetical 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
+- [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

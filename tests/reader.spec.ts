@@ -68,3 +68,53 @@ test("every lesson, alias and image variant loads without Diana runtime dependen
  console.info("Oncoguide audit: "+manifest.pages.length+" lessons, "+images+" image elements, "+manifest.assets.length+" assets, "+failures.length+" failures");
  expect(images).toBeGreaterThan(0);expect(failures).toEqual([]);
 });
+
+test("local-therapy lessons and the learning lab work in both themes at mobile width",async({browser,request})=>{
+ test.setTimeout(180_000);
+ const guide=await request.get("/education/guides/local-therapy-and-the-immune-system/index/");
+ expect(guide.ok()).toBe(true);
+ for(const theme of ["light","dark"])for(const width of [1280,390]){
+  const context=await browser.newContext({viewport:{width,height:844},colorScheme:null});
+  await context.addInitScript((value:string)=>{if(window===window.top)localStorage.setItem("theme",value)},theme);
+  const page=await context.newPage(),errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
+  try{
+   await page.goto(String(test.info().project.use.baseURL)+"/education/guides/local-therapy-and-the-immune-system/index/");
+   await expect(page.getByTestId("education-article").locator("table").first().locator("tbody tr")).toHaveCount(6);
+   await page.goto(String(test.info().project.use.baseURL)+"/education/local-treatment-modalities/01-mechanism/");
+   const cartoon=page.locator('article img[data-theater-image]:visible').first();
+   await expect(cartoon).toHaveAttribute("src",new RegExp("local-injury-gates-"+theme+"\\.png"));
+   await cartoon.evaluate((element:HTMLImageElement)=>element.decode());
+   await page.goto(String(test.info().project.use.baseURL)+"/education/tools/in-vivo-car-t-learning-lab/");
+   const iframe=page.locator("iframe[data-education-lab]");
+   await expect(iframe).toHaveAttribute("sandbox","allow-scripts allow-popups");
+   await expect(iframe).toHaveAttribute("referrerpolicy","no-referrer");
+   const frame=page.frameLocator("iframe[data-education-lab]");
+   await expect(frame.locator("#parts button")).toHaveCount(5);
+   for(let i=0;i<5;i++){
+    await frame.locator("#parts button").nth(i).click();
+    await expect(frame.locator("#component-detail")).not.toBeEmpty();
+   }
+   const art=await frame.locator("img.figure").evaluate(async(element:HTMLImageElement)=>{
+    await element.decode();return {decoded:element.complete&&element.naturalWidth>0,theme:matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"};
+   });expect(art).toEqual({decoded:true,theme});
+   expect(await frame.locator("body").evaluate(()=>{try{void window.parent.document.body;return false}catch{return true}})).toBe(true);
+   await frame.getByRole("button",{name:"2 · Read a graph",exact:true}).click();
+   await expect(frame.locator("#graph-results")).toContainText("70.0% smaller");
+   await frame.locator("#treated").fill("0");await expect(frame.locator("#graph-results")).toContainText("does not establish durable cure");
+   await frame.locator("#baseline").fill("");await expect(frame.locator("#graph-results")).toContainText("Enter a positive baseline");
+   await frame.getByRole("button",{name:"Reset example",exact:true}).click();await expect(frame.locator("#treated")).toHaveValue("300");
+   await frame.getByRole("button",{name:"3 · Check your understanding",exact:true}).click();
+   const answers=[0,1,0,1,1,0];
+   for(let i=0;i<answers.length;i++){
+    await expect(frame.locator("#progress")).toContainText(`Question ${i+1} of 6`);
+    if(i===0){await frame.locator("#options button").nth(1).click();await expect(frame.locator("#feedback")).toContainText("Reconsider")}
+    await frame.locator("#options button").nth(answers[i]).click();await expect(frame.locator("#feedback")).toContainText("Correct.");
+    await frame.locator("#next").click();
+   }
+   await expect(frame.locator("#progress")).toContainText("Question 1 of 6");
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+   expect(await frame.locator("body").evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+   expect(errors).toEqual([]);
+  }finally{await context.close()}
+ }
+});

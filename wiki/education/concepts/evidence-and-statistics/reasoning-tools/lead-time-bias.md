@@ -70,5 +70,5 @@ General teaching, source-checked October 8, 2026. The examples are hypothetical 
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
-- [Why disease setting changes the timing question](/wiki/education/local-treatment-modalities/02-timing)
+- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 <!-- END GENERATED USED IN -->

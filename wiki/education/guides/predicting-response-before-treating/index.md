@@ -37,9 +37,6 @@ flowchart TD
   A --> B["2. Check the experiment"]
   B --> C["3. Test clinical relevance and feedback"]
   C --> U["State the justified claim and remaining gap"]
-  click A "/education/modeling-tumor-response/index" "Choose a model"
-  click B "/education/guides/predicting-response-before-treating/02-check-the-experiment" "Check the experiment"
-  click C "/education/modeling-tumor-response/verification-and-feedback-loops" "Test clinical relevance"
 ```
 
 *Each box asks a new question. A positive result does not automatically complete the next box.*

@@ -7,7 +7,7 @@ glossary_anchor: "ici"
 aliases: ["ICI", "immune checkpoint inhibitor", "immune checkpoint inhibitors", "checkpoint inhibitor", "checkpoint blockade"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
 updated: "2026-10-09"
@@ -98,6 +98,10 @@ Source check: October 9, 2026. General mechanism, with a fictional exercise; no 
 - [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
+- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
+- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
+- [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)
+- [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 <!-- END GENERATED USED IN -->

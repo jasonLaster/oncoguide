@@ -3,8 +3,8 @@ title: "Cell-therapy lesson library"
 type: "navigation"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,7 +33,7 @@ Start with [the engineered-cell guide](/wiki/education/guides/engineered-cell-th
 
 ## Specialist reading and practice
 
-[Gamma-delta foundations](/wiki/education/cellular-therapies/03-gamma-delta-foundations) extends the recognition comparison. The [learning lab download](./tools/in-vivo-car-t-learning-lab.zip) supplies graph exercises; serving it as a reader tool remains tracked work.
+[Gamma-delta foundations](/wiki/education/cellular-therapies/03-gamma-delta-foundations) extends the recognition comparison. The [chimeric antigen receptor (CAR) T-cell learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) supplies interactive component, graph and quiz exercises in the reader.
 
 ## Apply the concepts
 

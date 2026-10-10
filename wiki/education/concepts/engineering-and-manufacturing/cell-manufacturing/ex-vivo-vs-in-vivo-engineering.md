@@ -7,7 +7,7 @@ glossary_anchor: "ex-vivo-vs-in-vivo-engineering"
 aliases: ["ex vivo engineering", "in vivo engineering"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/tools/in-vivo-car-t-learning-lab]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-09"
@@ -77,4 +77,5 @@ Source check: October 9, 2026. This page explains a method or mechanism. Expert 
 
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [CAR-T learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab)
 <!-- END GENERATED USED IN -->

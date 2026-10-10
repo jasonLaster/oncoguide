@@ -34,9 +34,6 @@ This path is a starting point. Read the bold core idea at the top of each lesson
 flowchart TD
   A[1. What does the label describe?] --> B[2. What must an immune response do?]
   B --> C[3. What does the evidence support?]
-  click A "/education/guides/start-here/01-read-the-labels" "Read the labels"
-  click B "/education/guides/start-here/02-follow-immune-recognition" "Follow the immune response"
-  click C "/education/guides/start-here/03-connect-treatment-and-evidence" "Connect treatment and evidence"
 ```
 
 ## Lessons

@@ -7,7 +7,7 @@ glossary_anchor: "irae"
 aliases: ["irAE", "irAEs", "immune-related adverse event", "immune-related adverse events", "immune-mediated adverse reaction"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
 updated: "2026-10-09"
@@ -91,5 +91,6 @@ Source check: October 9, 2026. General vocabulary, timing and reporting; the cas
 - [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
+- [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 <!-- END GENERATED USED IN -->

@@ -1,77 +1,94 @@
 ---
-title: "Compare ablation, radiation and radioligands"
+title: "Compare delivery and recognition separately"
 type: guide-lesson
-sensitive: false
-tags: [education, local-treatment, radiation, evidence]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: local-treatment-modalities
+guide: local-therapy-and-the-immune-system
 step: 6
-objectives: ["Explain compare ablation, radiation and radioligands and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
+minutes: 14
+objectives: ["Distinguish probe ablation, external radiation and blood-distributed radioligands.", "Separate physical cell injury, antigen-specific immune recognition and evidence for patient benefit."]
+prerequisites: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]", "[[wiki/education/concepts/therapeutics/local-therapies/hypofractionation]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
+sensitive: false
+tags: [education, local-treatment, therapeutics]
+updated: 2026-10-09
+source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Compare ablation, radiation and radioligands
+# Compare delivery and recognition separately
 
-**The main comparison is how energy reaches tissue; immune effects and clinical evidence are separate axes.**
+**You will learn to compare how a treatment reaches a site, how it injures cells and what evidence supports the hoped-for outcome.** Review [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation) and [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) before the final comparison.
 
-**Before you start:** [[wiki/education/local-treatment-modalities/01-mechanism|Mechanisms]] explains temperature fields and radiation signals. [[wiki/education/local-treatment-modalities/03-overlap-and-sequencing|Combination evidence]] explains why trials cannot be relabeled by modality.
+## The intuition: an address and an effect are different
 
-## Compare physical delivery
+The word “targeted” can describe a probe placed in a tumor, a shaped radiation field, or a molecule that binds a target. These are different ways of directing exposure. They do not imply the same coverage, normal-tissue risk or immune response.
 
-| Axis | Probe ablation | External-beam SBRT (stereotactic body radiation therapy) | Radioligand therapy |
+Make two passes through a comparison. First trace delivery and cell injury. Then trace any proposed immune learning. Keeping those passes separate helps you see which parts are measured and which are still hypotheses.
+
+## How delivery differs
+
+| Approach | How exposure reaches tissue | What limits its reach | Main distinction |
 |---|---|---|---|
-| Delivery | Probe places cold or heat at a selected site | Beams deposit dose in a planned volume | A targeting molecule distributes a radioactive payload |
-| Main targeting basis | Anatomy and accessible margin | Anatomy, motion and radiation plan | Uptake, pharmacology and radionuclide emissions |
-| What limits coverage | Safe access, geometry, nearby structures | Normal-organ dose, motion, prior radiation | Heterogeneous uptake, organ exposure and supply/protocol constraints |
-| Meaning of “local” | Selected treatment volume | Selected treatment volume | Radiation is emitted locally after systemic distribution |
-| Evidence question | Benefit for the defined organ, cancer and goal | Benefit for the defined disease setting and dose | Benefit for the exact ligand, isotope, setting and selection criteria |
+| [Probe-based ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation), such as freezing or heating | Image-guided placement of one or more probes | Access, treatment-zone coverage, margins and nearby structures | Treats selected tissue; it does not physically treat every distant site |
+| External [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics), including [stereotactic body radiation therapy (SBRT)](/wiki/education/concepts/therapeutics/local-therapies/sbrt) where appropriate | Planned beams deliver energy from outside the body | Target definition, motion, dose distribution and normal-tissue constraints | Treats a planned volume; precise aiming still gives some normal tissue exposure |
+| Radioligand therapy | A target-binding molecule carries a radioactive component through the body | Delivery, binding, retention, clearance and absorbed dose in tumors and normal organs | A systemic radiopharmaceutical approach, rather than simply another externally aimed local tool |
 
-RLT is therefore systemically delivered, even though radiation deposits energy near the ligand. It is not simply the final step after ablation and SBRT fail. A disease-setting-specific systemic treatment plan remains central in metastatic TNBC.
+Radioligand therapy does not require a T cell to recognize a cancer cell for radiation to injure that cell. It also does not guarantee exposure to every microscopic deposit. Normal-organ uptake and elimination can constrain treatment even when a tumor expresses the binding target. See [FDA radiopharmaceutical guidance](https://www.fda.gov/media/129547/download).
 
-## Compare cold and heat
+These approaches are not a ladder from “one lesion” to “many lesions” to “invisible disease.” Their possible roles depend on the goal and evidence, as well as how exposure is delivered.
 
-Cryoablation freezes and thaws tissue; radiofrequency ablation uses electrical energy to heat it; microwave ablation uses electromagnetic heating. All can provide local destruction in selected settings. Their geometry, motion sensitivity, vessel effects and nearby-structure risks differ.
+## Fractionation is a separate comparison
 
-The cryoprobe tip temperature is not the ice-ball edge temperature. A tip near −140 to −185 °C can create a field containing a lethal region around −20 to −40 °C inside a warmer visible edge. Common protocols use rapid freezing, slow thawing and repeated cycles. Organ- and device-specific protocols take precedence.
+A fraction is a radiation treatment session. Hypofractionation describes dose per session relative to a specified conventional schedule. SBRT adds a particular approach to precise, high-dose treatment of a defined body target; session count alone cannot identify it.
 
-Cryo can preserve some antigen structure better than heating in experimental contexts. That is not proof that it provides the best immune benefit in every cancer. No universal clinical ranking supports choosing cryo, radiofrequency or microwave solely for “vaccine strength.” Local coverage and safety are immediate technical requirements.
+FAST-Forward compared postoperative whole-breast or chest-wall schedules in a defined early-breast-cancer population, including a five-session schedule. That supplies evidence about local control and normal-tissue effects in that setting. It does not establish that every five-session course is SBRT or that fewer sessions cause more systemic immunity. [Brunt and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/32580883/).
 
-## Compare fractionation
+## Physical killing and immune recognition
 
-A fraction is one radiation treatment. SBRT commonly uses fewer, larger fractions with tight geometric planning; conventional and moderately hypofractionated regimens distribute dose differently. Breast adjuvant radiation now includes several shorter schedules. Do not assume every breast course is 25–40 sessions.
+Physical injury from heat, cold or radiation can occur without peptide–HLA recognition. If the hoped-for additional effect is antigen-specific CD8 T-cell killing, the requirements change. CD8 T cells, which carry the CD8 coreceptor, need appropriate peptide–HLA display, access to the tumor and capacity to function there.
 
-Dose per fraction affects tumor damage, normal-tissue effects and signaling. In preclinical models, sufficiently high doses induced TREX1 and reduced cytosolic-DNA signaling. The approximate 12–18 Gy range from that study is model-dependent. It is not a universal cutoff for a clinical “immune dose.”
+[Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death) and [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination) concern possible immune consequences. They are not automatic properties of every successfully destroyed tumor.
 
-Conventional chemoradiotherapy can pair with checkpoint inhibition: PACIFIC tested durvalumab afterwards in unresectable stage III NSCLC. BOOSTER tested **ablation**, rather than SBRT, plus checkpoint therapy in advanced NSCLC. These examples establish specific regimens; neither establishes a TNBC abscopal schedule.
+A [personalized manufactured cancer vaccine](/wiki/education/guides/personalized-cancer-vaccine/index) selects and delivers antigen material through a defined product and process. An in-situ vaccination strategy instead attempts to use material in the tumor within the body. It does not provide the same control over antigen selection or guarantee which fragments will be presented. Both approaches still need evidence of immune activity and clinical outcomes.
 
-## Two uses of “vaccine”
+## Worked example: three uses of “targeted”
 
-A manufactured cancer vaccine supplies selected antigen or instructions to produce it. “In-situ vaccination” describes an attempt to use a treated lesion as an antigen source. The latter does not guarantee that the right antigens are presented, that responding cells reach other lesions, or that clinical benefit follows. Both can be investigated, but they are not equivalent interventions.
+**Fictional proposals.** An educational workshop gives Alex three cards:
 
-## Try it
+- Card A places a probe in a visible liver lesion to control that site.
+- Card B aims external beams at a defined lung lesion while limiting exposure to nearby structures.
+- Card C gives a target-binding radioactive drug and studies its distribution in tumor and normal organs.
 
-A comparison table labels one modality “strongest randomized evidence” using a trial of another modality. What is the first repair?
+All three direct exposure, but by different routes. Alex asks A about access and coverage, B about motion and the radiation plan, and C about uptake, retention and dosimetry. Dosimetry estimates absorbed radiation dose.
 
-**Answer:** Restore the actual intervention and population, then state the outcome and limits. Do not transfer a positive result through an analogy.
+The workshop then adds the same sentence to every card: “This will train T cells to eliminate the other tumors.” Alex marks it as a separate hypothesis. Delivery information alone has not measured presentation, T-cell recognition, distant response or patient benefit.
 
-**Explain it back:** “I compare delivery, safety and matched clinical evidence separately.”
+## Common failure modes
+
+Do not infer universal superiority of freezing over heating from antigen-preservation arguments. Do not equate higher dose with greater immune learning. Do not assume an [immune-checkpoint inhibitor](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) repairs every missing recognition step. Compare complete strategies in matching populations rather than ranking tools by a single mechanism.
+
+## Try it: finish the claim ladder
+
+A fictional study reports that a probe covered its planned zone and the treated tumor remained controlled. Another study reports a response at an untreated site. What additional comparison would be needed to assess whether adding the local treatment improved progression-free survival?
+
+**Answer:** A suitable comparison of the systemic strategy with and without the local addition, using the same defined endpoint, starting time and follow-up. Local coverage and distant response observations do not themselves answer the added-outcome question. Harms and other patient outcomes need assessment too.
 
 ## Explain it back
 
-Physical differences explain the tools; trials in the relevant setting explain their benefits.
+Choose a card and give three sentences: “It reaches tissue by ___.” “Its direct effect depends on ___.” “The proposed immune effect still needs evidence of ___.”
 
 ## Takeaway
 
-**Physical differences explain the tools; trials in the relevant setting explain their benefits.**
+Compare delivery, recognition and clinical evidence on their own terms. A convincing mechanism is a reason to investigate a strategy, not a substitute for its outcome comparison.
+
+Continue with [reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index), or use [the local-treatment reference shelf](/wiki/education/local-treatment-modalities/index) to find a source for a particular question.
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. Expert and learner review remain pending. These lessons explain mechanisms and study interpretation; current choices are owned by [[wiki/care/treatment-plan|the care plan]] and [[wiki/questions/abscopal-effect|the local-priming question]].
+Source check: 2026-10-09. Alex and the cards are fictional; expert and learner review pending.
 
-- [BOOSTER randomized ablation-plus-immunotherapy trial in advanced NSCLC](https://www.nature.com/articles/s41392-025-02460-z).
-- [Primary TREX1 radiation-dose study](https://pubmed.ncbi.nlm.nih.gov/28598415/).
-- [PACIFIC: durvalumab after chemoradiotherapy in unresectable stage III NSCLC](https://www.nejm.org/doi/full/10.1056/NEJMoa1709937).
-- [CURB randomized trial; benefit in NSCLC, no demonstrated benefit in the breast cohort](https://doi.org/10.1016/S0140-6736(23)01857-3).
+- [National Cancer Institute: external-beam radiation](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam) — planned volumes and beam delivery.
+- [RadiologyInfo: thermal ablation](https://www.radiologyinfo.org/en/info/thermal-ablation) — probe-based heating and freezing.
+- [FDA 2019: oncology therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download) — systemic distribution, absorbed dose and normal-organ questions.
+- [Brunt et al., 2020: FAST-Forward](https://pubmed.ncbi.nlm.nih.gov/32580883/) — short postoperative breast-radiation schedules in a defined trial.
+- [Galluzzi et al., 2020: immunogenic cell death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/) — evidence requirements for adaptive immune consequences.

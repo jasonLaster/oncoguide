@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 ---
 
 # Stromal TIL scoring: what the percentage counts
@@ -70,6 +70,7 @@ Source check: October 9, 2026. This describes the 2014 Working Group breast-tumo
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
 - [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)

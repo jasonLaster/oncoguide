@@ -7,7 +7,7 @@ glossary_anchor: "cancer-immunity-cycle"
 aliases: ["cancer-immunity cycle", "immune cycle"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -81,7 +81,9 @@ Source check: October 9, 2026. A biological teaching framework, not a patient cl
 ## Used in
 
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
+- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)

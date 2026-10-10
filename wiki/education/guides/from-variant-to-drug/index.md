@@ -35,9 +35,6 @@ The core path takes about 46 minutes. Start with [DNA, RNA, and protein](/wiki/e
 flowchart LR
  A["Authenticate and attribute the finding"] --> B["Connect a measured biological consequence"]
  B --> C["Check clinical evidence and access"]
- click A "/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding"
- click B "/wiki/education/molecular-profiling/hrd-parp-and-dianas-biology"
- click C "/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access"
 ```
 
 ## Lessons

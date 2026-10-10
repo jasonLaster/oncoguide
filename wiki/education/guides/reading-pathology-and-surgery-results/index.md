@@ -36,9 +36,6 @@ The lessons focus on breast specimens, particularly after treatment before surge
 flowchart TD
   A[1. Specimen and treatment context] --> B[2. Residual disease and margins]
   B --> C[3. Questions for the next conversation]
-  click A "/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time" "Place the specimen in time"
-  click B "/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins" "Read residual findings"
-  click C "/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question" "Build the next question"
 ```
 
 ## Lessons

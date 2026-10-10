@@ -35,9 +35,6 @@ The core path takes about 44 minutes. Start with [antibody structure](/wiki/educ
 flowchart LR
  A["Separate recognition from action"] --> B["Follow delivery and exposure"]
  B --> C["Compare safety and clinical evidence"]
- click A "/wiki/education/targeted-therapy-modalities/01-mechanism"
- click B "/wiki/education/targeted-therapy-modalities/02-timing"
- click C "/wiki/education/targeted-therapy-modalities/06-comparisons"
 ```
 
 ## Lessons

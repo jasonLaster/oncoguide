@@ -34,10 +34,6 @@ flowchart TD
  A[1. Create a DNA obstacle] --> B[2. Measure recycling and survival]
  B --> C[3. Follow competing growth signals]
  C --> D[4. Test the combination and its mechanism]
- click A "/wiki/education/molecular-profiling/parp-and-cell-survival/01-parp-trapping-and-recycling"
- click B "/wiki/education/molecular-profiling/parp-and-cell-survival/02-autophagy-flux-and-dependence"
- click C "/wiki/education/molecular-profiling/parp-and-cell-survival/03-pi3k-akt-mtor-and-repair"
- click D "/wiki/education/molecular-profiling/parp-and-cell-survival/04-reading-a-functional-experiment"
 ```
 
 ## Lessons

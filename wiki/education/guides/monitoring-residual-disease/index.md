@@ -34,9 +34,6 @@ flowchart TD
   A[1. Read the sample and assay] --> B[2. Compare blood and imaging]
   B --> C[3. Match a proposed action to evidence]
   C --> D[Clinical review or protocol-defined next step]
-  click A "/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result" "Read the blood result"
-  click B "/wiki/education/molecular-profiling/ctdna-ppm-and-mri" "Compare blood and imaging"
-  click C "/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change" "Ask what a result should change"
 ```
 
 *Follow the numbered lessons below. Each result keeps its date, scope and limits attached.*

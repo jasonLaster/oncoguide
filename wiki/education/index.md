@@ -31,13 +31,13 @@ reviewed_by: ""
 | How do blood tests and scans fit together? | [Understand residual-disease monitoring](/wiki/education/guides/monitoring-residual-disease/index): sample limits, discordance and evidence for action |
 | Does a molecular finding support a drug? | [From a variant to a drug question](/wiki/education/guides/from-variant-to-drug/index): origin, functional consequence and matched clinical evidence |
 | How do treatment formats reach a target? | [Aim a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index): recognition, delivery and matched evidence |
-| Can local injury create an immune response? | [Local treatment](/wiki/education/local-treatment-modalities/index): delivery, immune signals and matched clinical evidence |
+| Can local injury create an immune response? | [Local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index): injury, disease setting, combination evidence and measurements |
 | What does injection into a tumor change? | [Intratumoral therapy](/wiki/education/intratumoral-therapy): route, agents and trial claims |
 | How do repair and survival pathways connect? | [PARP and cell survival](/wiki/education/molecular-profiling/parp-and-cell-survival/index): repair, recycling, growth signals and experiments |
 
 If all of this is new, begin with **Start here**, then follow **standard treatment**, **pathology**, **immunotherapy** and **reading evidence** as your questions arise. Use the multi-omics vocabulary course when a report introduces unfamiliar cell or molecular terms; it is a supporting reference within the multi-omics path.
 
-The [Learning paths index](/wiki/education/guides/index) collects the ordered paths and the local-treatment supporting library in one place.
+The [Learning paths index](/wiki/education/guides/index) collects the ordered paths in one place. The [local-treatment reference shelf](/wiki/education/local-treatment-modalities/index) helps you find modality and study references after the lessons.
 
 ## Look up a concept
 

@@ -6,7 +6,7 @@ summary: "T-cell priming is the initial activation of a naive T cell by antigen 
 glossary_anchor: "t-cell-priming-three-signals"
 aliases: ["priming", "costimulation", "three signals"]
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
@@ -80,7 +80,9 @@ Source check: October 8, 2026. This is a mechanism explanation, not a treatment 
 - [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

@@ -32,9 +32,6 @@ A paper can feel persuasive before you know what its main number means. This gui
 flowchart TD
   A[1. Name the comparison and endpoint] --> B[2. Read the curve and effect]
   B --> C[3. Check applicability and uncertainty]
-  click A "/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint"
-  click B "/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect"
-  click C "/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty"
 ```
 
 *Keep the study's question attached to its result through all three steps.*

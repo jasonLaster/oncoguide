@@ -1,80 +1,85 @@
 ---
-title: "Read evidence for local and systemic combinations"
+title: "Ask what a combination trial actually proved"
 type: guide-lesson
-sensitive: false
-tags: [education, local-treatment, radiation, evidence]
-updated: 2026-10-08
-review_status: "Source-checked; expert and learner review pending"
-guide: local-treatment-modalities
+guide: local-therapy-and-the-immune-system
 step: 3
-objectives: ["Explain read evidence for local and systemic combinations and distinguish a biological claim from clinical evidence."]
-prerequisites: ["[[wiki/education/index]]"]
+minutes: 16
+objectives: ["Keep a combination trial's population, treatment sequence and endpoint attached to its result.", "Distinguish a distant response from evidence that adding local treatment improves outcomes."]
+prerequisites: ["[[wiki/education/local-treatment-modalities/02-timing]]", "[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
+sensitive: false
+tags: [education, local-treatment, evidence]
+updated: 2026-10-09
+source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Read evidence for local and systemic combinations
+# Ask what a combination trial actually proved
 
-**A combination can be biologically plausible and still fail to improve outcomes in a clinical trial.**
+**You will learn to read a local-plus-systemic treatment result without turning it into a universal combination rule.** Review [survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) and [trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) first. They explain what counts as an event and how a comparison is built.
 
-**Before you start:** [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Prognostic and predictive evidence]] separates association from treatment selection. [[wiki/education/local-treatment-modalities/01-mechanism|The injury lesson]] explains the priming hypothesis.
+## The intuition: keep the label on the evidence
 
-## Why combine treatments?
+A promising result is like a parcel addressed to a particular setting. Changing the cancer, disease history or treatment sequence changes the address. Before using a study to support a proposal, write down who entered, what each group received and what was measured.
 
-A local intervention can reduce tumor burden and release material. Systemic therapy may treat disease elsewhere. Checkpoint inhibition can support some existing T-cell responses. These are distinct contributions, and their overlap does not establish synergy. Synergy requires a defined comparison demonstrating more than an expected combined effect; clinical benefit requires an appropriate patient outcome.
+[Local ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation), [stereotactic body radiation therapy (SBRT)](/wiki/education/concepts/therapeutics/local-therapies/sbrt) and [immune-checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) are different components. A trial of their combination does not automatically prove that an immune mechanism caused its clinical result.
 
-The order could affect inflammation, immune-cell availability and toxicity. That motivates experiments comparing sequences. It does not justify a universal rule that every patient must receive a checkpoint drug before and after ablation.
+## Four study cards
 
-## Match the study to the claim
+Here progression-free survival means time to the study's defined progression event or death; overall survival concerns death from any cause. Read each protocol's starting time and assessment rules.
 
-| Study | Actual intervention and population | What it cannot establish |
-|---|---|---|
-| BOOSTER | Randomized ablation plus checkpoint inhibition versus checkpoint inhibition alone in advanced NSCLC | SBRT (stereotactic body radiation therapy) efficacy, TNBC benefit or a universal immune-priming schedule |
-| PACIFIC | Randomized durvalumab after conventional chemoradiotherapy in unresectable stage III NSCLC without progression | That SBRT is required for checkpoint combinations, or that the regimen transfers to breast cancer |
-| CURB | Randomized SBRT added to standard systemic care in oligoprogressive NSCLC or breast cancer | A demonstrated benefit in its breast cohort; pooled positivity does not erase subgroup differences |
-| NRG-BR002 | Randomized metastasis-directed treatment in a studied oligometastatic breast-cancer population | Routine survival benefit from treating every limited breast recurrence locally |
+| Study | Population and comparison | What the result supports | Boundary to carry with it |
+|---|---|---|---|
+| BOOSTER, 2025 | Advanced non-small-cell lung cancer with limited residual disease after a response to checkpoint treatment; ablation plus continued immunotherapy versus continued immunotherapy | A progression-free survival signal for the tested strategy in this selected phase-2 setting | This was probe-based ablation, not an SBRT trial, and not a breast-cancer trial |
+| PACIFIC, five-year report 2022 | Unresectable stage-III non-small-cell lung cancer without progression after concurrent platinum-based chemotherapy and radiation; durvalumab consolidation versus placebo | Sustained progression-free and overall survival benefit for that sequence | It did not require SBRT or test whether shrinkage elsewhere was an abscopal effect |
+| CURB, 2024 | Oligoprogressive metastatic breast cancer or non-small-cell lung cancer; standard care with or without SBRT to progressing sites | Progression-free survival improvement was seen in the lung cohort; the breast cohort did not show a significant improvement | A lung result cannot be assigned to breast cancer; the breast cohort does not establish every subtype's effect precisely |
+| NRG-BR002, full report 2026 | Oligometastatic breast cancer with a controlled primary and no progression on first-line systemic treatment; systemic treatment with or without metastasis-directed ablation, mainly SBRT | The phase-2 comparison did not demonstrate improved progression-free survival; no significant overall survival difference was detected | The planned phase-3 portion did not proceed; this does not erase symptom-relief or other established local-treatment goals |
 
-A negative study narrows a claim; it does not prove that every local intervention is useless. Population, goal, endpoint and study size determine the conclusion. Symptom relief and local control can remain legitimate goals when a survival benefit is unproven.
+BOOSTER measured its primary progression-free survival from immunotherapy initiation, before later ablation. That clock and enrollment below the planned sample size matter when comparing headlines or generalizing its estimate. [BOOSTER full report](https://www.nature.com/articles/s41392-025-02460-z.pdf).
 
-## Local control is not an abscopal endpoint
+The cards summarize the primary reports linked below. In NRG-BR002, “metastasis-directed ablation” included SBRT or surgery; it does not mean the probe-based heating or freezing used in BOOSTER. NRG-BR002 is cited here as a [full journal report](https://ascopubs.org/doi/10.1200/JCO-26-00201). Publication format matters because a [conference abstract and a full paper](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed) allow different amounts of inspection.
 
-A treated lesion shrinking shows response at that site. An untreated lesion shrinking during systemic therapy has several possible explanations. An immune-cell percentage rising in a biopsy could reflect tumor loss, sampling location, inflammation or real recruitment. These are different claims requiring different controls.
+## A distant response is a narrower observation
 
-Sid’s radioligand course occurred after dostarlimab and ipilimumab had begun in July 2024. The earlier teaching argument that RLT (radioligand therapy) alone produced his immune changes was based on an incorrect “no ICI yet” timeline. His story can suggest questions but cannot isolate the contribution of RLT, checkpoint drugs, sampling or other treatment.
+For radiation, an [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect) concerns tumor response outside the irradiated field. For ablation, describe a distant or abscopal-like response and name the procedure. When a systemic drug is also being given, that observation alone cannot isolate local treatment's added contribution.
 
-## Ask what randomization added
+For example, Ho and colleagues' single-arm study of radiation plus pembrolizumab in metastatic triple-negative breast cancer reported responses in unirradiated lesions. Without a randomized drug-only group, it could not establish how much radiation added. The denominator also mattered: three responses among all 17 enrolled participants differed from three among nine assessed at week 13. Eight participants died from progression before that assessment. These are descriptions of one small study, not a general response rate. [Ho and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/31747077/).
 
-Randomization balances many measured and unmeasured differences on average. A single-arm series has no concurrent control for natural history, selection or concomitant care. Historical comparisons can differ in imaging frequency, treatment era and eligibility. A striking response is worth investigating, but its size does not replace a comparator.
+A [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1) may show what happened to one person. An [observational comparison](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding) can be distorted by who was selected for local treatment. [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) can explain why to test a strategy. These designs answer useful but different questions.
 
-Check whether a trial’s endpoint was local control, progression-free survival, overall survival or an exploratory immune marker. A hazard ratio and median survival describe different aspects of a curve. A mechanistic biomarker change does not itself prove that people live longer or better.
+## Worked example: local success, uncertain added benefit
 
-## A worked reading exercise
+**Fictional study.** Investigators randomize people receiving the same systemic drug to add local treatment or continue the drug alone. Treated lesions are well controlled in the add-on group. New lesions elsewhere occur in both groups. The progression-free survival comparison has a wide [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) spanning effects in both directions.
 
-An early study reports immune-cell recruitment after local treatment. A later randomized trial shows improved local control but no demonstrated overall survival benefit. The defensible account keeps both observations: an immune effect may occur, and the tested strategy has not established a survival benefit. Calling the procedure a “systemic vaccine” would skip that distinction.
+The defensible report is: “Local control was achieved; the study leaves the size and direction of the added progression-free survival effect uncertain.” Neither “local treatment failed at everything” nor “the procedure created systemic immunity” follows. Pain, quality of life, overall survival and harms would need their own measurements.
+
+## Common failure modes
+
+Watch for an unnamed “benefit,” an omitted comparator, or a switch from lung to breast cancer midway through a claim. Also watch for a nonrandomized comparison of freezing versus heating inside a trial whose randomization addressed ablation versus no ablation. The original randomization does not make every subgroup comparison randomized.
 
 ## Try it
 
-A lung-cancer ablation trial is positive. Can a table label SBRT as the most evidence-supported immune-priming method for TNBC using that result?
+A fictional summary says: “PACIFIC proves focused radiation should always precede checkpoint treatment to generate an abscopal response.” Identify three overextensions.
 
-**Answer:** No. It changes both the intervention and the cancer, neither of which the trial tested.
-
-**Explain it back:** “Mechanism explains why to test a combination; the matched comparison explains what it actually improved.”
+**Answer:** PACIFIC tested a specific unresectable stage-III lung-cancer sequence after concurrent chemoradiation. It did not require SBRT, establish a universal order across cancers, or identify abscopal response as the explanation for survival benefit.
 
 ## Explain it back
 
-Preserve the population, intervention, comparator and endpoint when translating trial results.
+Choose one study card. Say its population, comparison and endpoint aloud, then add one sentence explaining what it cannot establish.
 
 ## Takeaway
 
-**Preserve the population, intervention, comparator and endpoint when translating trial results.**
+Keep local control, distant response and patient outcomes separate. A combination result belongs to the strategy and population actually studied.
 
-**Next:** [[wiki/education/local-treatment-modalities/04-decision-questions|Read a local-treatment proposal]].
+Next: [read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions).
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. Expert and learner review remain pending. These lessons explain mechanisms and study interpretation; current choices are owned by [[wiki/care/treatment-plan|the care plan]] and [[wiki/questions/abscopal-effect|the local-priming question]].
+Source check: 2026-10-09. The worked study is fictional; the named clinical trials are real. Expert and learner review pending.
 
-- [BOOSTER randomized ablation-plus-immunotherapy trial in advanced NSCLC](https://www.nature.com/articles/s41392-025-02460-z).
-- [Primary TREX1 radiation-dose study](https://pubmed.ncbi.nlm.nih.gov/28598415/).
-- [PACIFIC: durvalumab after chemoradiotherapy in unresectable stage III NSCLC](https://www.nejm.org/doi/full/10.1056/NEJMoa1709937).
-- [CURB randomized trial; benefit in NSCLC, no demonstrated benefit in the breast cohort](https://doi.org/10.1016/S0140-6736(23)01857-3).
+- [Yang et al., 2025: BOOSTER](https://pubmed.ncbi.nlm.nih.gov/41213939/) — randomized phase-2 ablation after an immunotherapy response in lung cancer.
+- [Spigel et al., 2022: PACIFIC five-year outcomes](https://pubmed.ncbi.nlm.nih.gov/35108059/) — consolidation after concurrent chemoradiation in unresectable stage-III lung cancer.
+- [Tsai et al., 2024: CURB](https://pubmed.ncbi.nlm.nih.gov/38104577/) — breast and lung oligoprogression; separate the cohorts.
+- [Chmura et al., 2026: NRG-BR002](https://ascopubs.org/doi/10.1200/JCO-26-00201) — full randomized report published October 7, 2026.
+- [Ho et al., 2020: radiation plus pembrolizumab](https://pubmed.ncbi.nlm.nih.gov/31747077/) — small single-arm metastatic triple-negative breast-cancer study.

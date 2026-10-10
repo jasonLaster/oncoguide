@@ -39,13 +39,6 @@ flowchart TD
   D --> E[5. Measurements and their limits]
   E --> F[6. Failure points and escape]
   F --> G[7. Compare recognition systems]
-  click A "/education/oncology-101/1-ligands" "Open lesson 1"
-  click B "/education/oncology-101/2-dendritic-cells" "Open lesson 2"
-  click C "/education/oncology-101/3-t-cell-states" "Open lesson 3"
-  click D "/education/reading-a-tumor/immune-hot-vs-cold" "Open lesson 4"
-  click E "/education/reading-a-tumor/measuring-t-cell-engagement" "Open lesson 5"
-  click F "/education/oncology-101/4-escape-mechanisms" "Open lesson 6"
-  click G "/education/cellular-therapies/02-car-tcr-til-comparison" "Open lesson 7"
 ```
 
 *The map is a learning order. The biological [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle) overlaps and repeats these jobs.*
