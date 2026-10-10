@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/
 used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,23 +31,27 @@ Before opening an envelope, you write down what would answer your question. Afte
 
 A trial's protocol and statistical analysis plan identify outcomes, comparisons, populations, methods and how multiple claims will be handled. Their dates and amendments help readers establish what was planned before relevant information became available. Merely writing a plan before publication is insufficient.
 
-An analysis can be prespecified without being a confirmatory primary test. Exploratory endpoints can also be planned in advance. Check the analysis's assigned role and [multiplicity](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing), rather than treating “planned” as an automatic certificate of proof. [FDA: endpoint hierarchy and exploration](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-endpoints-clinical-trials).
+An analysis can be prespecified without being a confirmatory primary test. Exploratory endpoints can also be planned in advance. Check the analysis's assigned role and [multiplicity](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing), rather than treating “planned” as an automatic certificate of proof. [FDA: endpoint hierarchy and exploration](https://www.fda.gov/media/162416/download).
 
 **Post hoc** means developed after the relevant results were available. Such analyses can generate hypotheses, investigate unexpected patterns or clarify limitations. Report what was searched and why. A new independent comparison can test the resulting hypothesis.
 
-An amendment made for a reason unrelated to unblinded results is different from choosing the most favorable analysis after examining outcomes. Retain the amendment, timing, access to data and rationale. [CONSORT 2025: transparent trial reporting](https://www.bmj.com/content/389/bmj-2024-081123).
+An amendment made for a reason unrelated to unblinded results is different from choosing the most favorable analysis after examining outcomes. Retain the amendment, timing, access to data and rationale. [CONSORT 2025: transparent trial reporting](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004587).
 
 ## Why it matters in cancer
 
 Trials measure many markers and subgroups. An attractive response pattern in a small selected subgroup may suggest a next study. It does not establish that the marker selects a treatment benefit, especially when the subgroup was chosen after the outcome was known.
 
-Two significance labels cannot establish that effects differ. A significant result in one subgroup and a non-significant result in another need a direct comparison of treatment effects, often an interaction test. [Sun and colleagues: subgroup credibility](https://www.bmj.com/content/340/bmj.c117).
+Two significance labels cannot establish that effects differ. A [p-value](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) describes compatibility with a specified statistical model; it is not the probability that a subgroup claim is true. A significant result in one subgroup and a non-significant result in another need a direct comparison of treatment effects, often an interaction test. [Sun and colleagues: subgroup credibility](https://www.bmj.com/content/340/bmj.c117).
 
 ## Worked example
 
-A fictional protocol names event-free survival as the primary outcome and a baseline marker-positive subgroup as exploratory. After seeing results, investigators test 12 further marker cutoffs and highlight the one with the smallest p-value.
+A fictional protocol names [event-free survival (EFS)](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) as the primary outcome and a baseline marker-positive subgroup as exploratory. After seeing results, investigators test 12 further marker cutoffs and highlight the one with the smallest p-value.
 
 Keep three statements separate: the planned primary result; the planned exploratory subgroup result; and the new cutoff-generated hypothesis. The last search should include all tested cutoffs and its selection method. A new study can lock the cutoff and evaluate whether it predicts a treatment difference.
+
+## The analysis record
+
+Retain the dated protocol and plan, endpoint and clock, analysis population, subgroup or cutoff definition, primary/secondary/exploratory role, amendment rationale, access to unblinded results, number of searches and uncertainty. A subgroup effect also needs enough relevant events; a prespecified label cannot manufacture precision.
 
 ## Common confusions
 
@@ -63,6 +67,14 @@ The paper says an analysis was planned, but its uploaded plan is dated after the
 
 **Answer:** The relevant protocol and earlier plan versions, amendments, their dates, and who had access to the outcomes. Do not infer either fraud or confirmation from the label alone.
 
+## Explain it back
+
+“A planned exploratory analysis remains exploratory because ___.” One answer: “its assigned evidence role and multiple-testing context still limit the conclusion.”
+
+## Takeaway
+
+**Keep the original plan, the later search and the resulting claim visibly connected.**
+
 ## Related concepts
 
 - [Trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization)
@@ -71,10 +83,10 @@ The paper says an analysis was planned, but its uploaded plan is dated after the
 
 ## Sources and scope
 
-Source check: October 9, 2026. Fictional protocol and searches. Expert and learner review remain pending.
+Source check: October 10, 2026. Fictional protocol and searches. Expert and learner review remain pending.
 
-- [FDA, 2022: multiple endpoints and exploratory analyses](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-endpoints-clinical-trials).
-- [CONSORT 2025: trial reporting, protocols and changes](https://www.bmj.com/content/389/bmj-2024-081123).
+- [FDA, 2022: multiple endpoints and exploratory analyses](https://www.fda.gov/media/162416/download).
+- [CONSORT 2025: trial reporting, protocols and changes](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004587).
 - [Sun et al., 2010: assessing subgroup claims](https://www.bmj.com/content/340/bmj.c117).
 
 <!-- BEGIN GENERATED USED IN -->

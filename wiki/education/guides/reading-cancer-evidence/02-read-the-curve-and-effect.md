@@ -19,7 +19,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-10
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -41,11 +41,7 @@ flowchart TD
 
 ## Give the graph a careful first look
 
-Start at the axes. The vertical axis may show the probability of being alive, or of remaining free of a combined event. Those are different outcomes. The horizontal axis should identify time and its starting point. Check whether the vertical scale is shortened, which can make a modest difference look large.
-
-Next, read the **number at risk** below the graph. These are people still being observed without the defined event at that time. Late parts of a curve may depend on only a few participants. A long horizontal tail is not proof of cure.
-
-Finally, find the small **censoring** marks. They mean observation ended without a recorded event up to that point. A mark can reflect the study's cutoff or someone leaving follow-up. It does not mean recurrence, death, or guaranteed future event-free survival. The reasons for missing follow-up matter: if they relate to outcome, the estimate can be biased. [Kaplan and Meier: the original method](https://doi.org/10.1080/01621459.1958.10501452).
+Start with [the five-pass graph method](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes). For this survival figure, carry the event definition and starting clock into every comparison. The [Kaplan–Meier concept](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier) explains the number at risk, censoring marks and assumptions; keep those beside the curve, especially when few people remain in late follow-up.
 
 ## A small curve you can check by hand
 

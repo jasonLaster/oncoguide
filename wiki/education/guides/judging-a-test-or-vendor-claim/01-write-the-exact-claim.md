@@ -3,7 +3,7 @@ title: "Write the exact claim before judging it"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -35,7 +35,7 @@ Try this sentence:
 
 You can leave blanks. A blank is a good question for the next conversation, rather than a reason to fill the gap with an assumption.
 
-For a risk model, name the time horizon and the care context. Risk under usual treatment is different from risk without treatment. For a drug-ranking service, name the actual treatment, dose or combination being proposed. A drug's name alone cannot tell you whether the tested conditions resemble patient care.
+For a risk model, name the time horizon and the care context. [Population versus individual risk](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk) keeps a model estimate distinct from a promise about one person. Risk under usual treatment is different from risk without treatment. For a drug-ranking service, name the actual treatment, dose or combination being proposed. A drug's name alone cannot tell you whether the tested conditions resemble patient care.
 
 ## Separate the claims inside the claim
 
@@ -70,13 +70,13 @@ A helpful question is: “What comparison shows that choosing Drug A with this r
 - **A broad title hides a narrow result.** “Predicts benefit” may mean an association with response among treated patients. Write the outcome and comparison.
 - **A gene or target name becomes a drug recommendation.** [Actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) requires a more complete evidence chain.
 - **A research measurement is mistaken for a clinical report.** Ask which service, version and intended use produced it.
-- **A negative test becomes “nothing to worry about.”** Detection limits, timing and the [base rate](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) affect interpretation.
+- **A negative test becomes “nothing to worry about.”** [Detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation), timing and the [base rate](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) affect interpretation.
 
 ## Try it
 
 A fictional brochure says, “Our blood test detects recurrence earlier, so patients live longer.” What are the two claims?
 
-**Answer:** First, the test may detect a signal before another method. Second, a test-guided care strategy may improve survival. Earlier detection alone does not establish the second claim; [lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) can make survival measured from detection look longer without postponing death.
+**Answer:** First, the test may detect a signal before another method; [measured lead time](/wiki/education/concepts/measurement/liquid-biopsy/lead-time) needs both detection dates and the studied population. Second, a test-guided care strategy may improve survival. Earlier detection alone does not establish the second claim; [lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) can make survival measured from detection look longer without postponing death.
 
 ## Explain it back
 

@@ -12,8 +12,8 @@ sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: 2026-10-09
-updated: 2026-10-09
+source_checked: 2026-10-10
+updated: 2026-10-10
 tags: [education, evidence-and-statistics]
 ---
 
@@ -25,41 +25,65 @@ A hazard ratio compares the instantaneous event rates of two groups among people
 
 ## The intuition
 
-Picture two groups being followed for the same [survival endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints). At each moment, ask how quickly new events are occurring among people who have not yet had that event. This conditional rate is the **hazard**. A **hazard ratio (HR)** compares the rates. It is a pace comparison, rather than the fraction of the original group that has had an event by a particular date.
-
-The pace analogy has a limit: the people still at risk change over time. The comparison is not a race between two fixed, unchanged groups.
+Imagine comparing how quickly events occur in two groups among people who have not yet had that event. The eligible groups change as follow-up proceeds. A hazard is an instantaneous rate conditional on remaining event-free; it is not the fraction of everyone enrolled who has an event by five years. The moving-group analogy cannot supply an individual's future outcome.
 
 ## How it works
 
-First identify the event, population, numerator group, reference group, and analysis. An HR below 1 indicates a lower estimated event hazard in the numerator group; above 1 indicates a higher hazard. Reversing the comparison reverses the ratio.
+A **hazard ratio (HR)** divides one group's hazard by the reference group's hazard for a defined [endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints). HR 1 means equal hazards under the comparison; direction depends on which group is in the numerator.
 
-Many reports use a **Cox proportional-hazards model**, a statistical model that can compare hazards while accounting for specified baseline factors. **Proportional hazards** means the hazard ratio stays constant over time under the model. The hazards themselves can rise or fall; they need not be constant. [Cox 1972](https://doi.org/10.1111/j.2517-6161.1972.tb00899.x).
+A Cox proportional-hazards model often estimates this ratio. **Proportional hazards** means the hazard ratio is constant over time, not that either group's hazard itself stays constant. An adjusted HR depends on the model, included covariates and their coding. It is not automatically a causal effect. [Cox](https://doi.org/10.1111/j.2517-6161.1972.tb00899.x).
 
-When effects change with time, a fitted single ratio can hide early and late differences. Crossing curves are a warning to investigate, but visual inspection alone does not prove or disprove the assumption. Read the reported checks, time-specific results, and [Kaplan–Meier curve](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier) alongside the model.
+An HR of 0.70 for treatment versus control describes a 30% lower hazard under that model. It does not mean 30 percentage points fewer events, 30% longer survival or a 30% reduction in each person's probability. [NCI definition](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hazard-ratio).
 
-**Risk** is the chance of a defined event by a specified time. A [risk ratio and absolute risk difference](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt) compare those cumulative chances. An HR does not directly provide either quantity. To describe the absolute effect, use the appropriate outcome estimates at the same time point in both groups.
+## Worked example: a rate is not a risk
 
-## A worked example
+For illustration only, assume hazards stay constant at 0.10 per year with control and 0.07 per year with treatment. Assume one event type and no competing events. HR is `0.07/0.10 = 0.70`.
 
-A fictional randomized study compares treatment A with treatment B for time to first recurrence or death, starting at randomization. Its model reports HR 0.70, with a [95% confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) from 0.50 to 0.98. These invented values are for teaching.
+Under this deliberately simple exponential model, event risk by time t is `1 − exp(−hazard × t)`:
 
-Under the stated proportional-hazards analysis, A has an estimated 30% lower event hazard than B. That does **not** mean 30 percentage points fewer people have an event, that 30% of participants benefit, or that any person's recurrence risk falls by exactly 30%.
+| At five years | Event risk |
+|---|---:|
+| Control | `1 − exp(−0.10 × 5) ≈ 39.3%` |
+| Treatment | `1 − exp(−0.07 × 5) ≈ 29.5%` |
 
-The reader still needs absolute outcomes at a useful time, adequacy of follow-up, adverse effects, and how well the studied comparison answers the proposed question. The ratio alone cannot supply those answers.
+The risk ratio is about `29.5/39.3 = 0.75`, and the absolute difference is about 9.8 percentage points. Neither is HR 0.70. These invented assumptions explain the distinction; cancer studies need their actual curves and model.
+
+## What is measured
+
+| Reading question | Information needed |
+|---|---|
+| Input | Event and censoring times, group labels and modeled covariates. |
+| Output | HR and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval), with comparator direction. |
+| Model check | Proportional-hazards assessment, time-varying effects and analysis population. |
+| Failure | Treating an average rate comparison as a fixed-time risk reduction. |
+| Cannot tell | Absolute benefit or [number needed to treat](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt) from HR alone. |
+
+A reported HR may summarize changing effects when proportional hazards is unsuitable. Crossing curves can raise that concern but do not, by themselves, diagnose every model failure. Time-specific rates or other prespecified summaries may be needed.
 
 ## Why it matters in cancer
 
-Cancer studies often report a time-to-event comparison. Keeping the hazard separate from cumulative risk prevents a striking relative number from becoming an unsupported claim about how many people benefit.
-
-A hazard ratio from an observational biomarker study may describe an association with outcome. It does not automatically describe a treatment effect. An adjusted model accounts for its specified factors; adjustment alone does not guarantee causal interpretation.
+Trial reports often headline HRs. Read the endpoint, actual survival curves, absolute estimates at a useful horizon and uncertainty alongside the ratio. A biomarker association may be adjusted for prognostic variables without proving that selecting treatment using it improves outcomes.
 
 ## Common confusions
 
-- **HR 0.70 versus 30 percentage points:** the first is a relative hazard comparison; the second is an absolute difference in event probabilities.
-- **Constant ratio versus constant rate:** proportional hazards can hold while both groups' hazards change.
-- **HR versus median survival:** median survival is a time at which a curve reaches 50%, not a hazard ratio.
-- **HR versus number needed to treat:** never calculate that number as `1/HR` or `1/(1 − HR)`.
-- **A group comparison versus a personal forecast:** multiplying unrelated prognostic hazard ratios does not create a validated individual prediction.
+- “Lower hazard” does not equal “lower risk by the same percentage.”
+- HR 1 is a model's rate comparison, not proof that every aspect of two curves is identical.
+- An adjusted HR does not repair unmeasured confounding.
+- A cause-specific HR and a competing-risk subdistribution HR have different meanings; do not substitute one for the other.
+
+## Try it
+
+An article reverses the comparison from treatment/control HR 0.70 to control/treatment. What happens? Can either ratio supply five-year absolute benefit?
+
+**Answer:** The reciprocal is `1/0.70 ≈ 1.43`. Neither supplies absolute benefit without additional outcome information and appropriate assumptions.
+
+## Explain it back
+
+Explain why the people still at risk matter when defining a hazard.
+
+## Takeaway
+
+Read HR as a conditional rate comparison, with its endpoint, direction, model and curves attached.
 
 ## Related concepts
 
@@ -69,7 +93,7 @@ A hazard ratio from an observational biomarker study may describe an association
 
 ## Sources and scope
 
-Source check: 2026-10-09. General statistics education; expert and learner review pending. The study and numerical example are fictional, not personal prognosis estimates.
+Source check: 2026-10-10. General statistics education; expert and learner review pending. The study and numerical example are fictional, not personal prognosis estimates.
 
 - [Cox 1972: original proportional-hazards regression method](https://doi.org/10.1111/j.2517-6161.1972.tb00899.x).
 - [National Cancer Institute: hazard ratio](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hazard-ratio).

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/
 used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: [education, evidence, study-design]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,14 +35,14 @@ A **case report** documents a person's clinical course, interventions, measureme
 
 They usually lack a concurrent comparison showing the outcome under another approach. People with memorable experiences may be more likely to be reported. A collection of published successes therefore does not reveal how many people received the treatment without that success.
 
-A **planned N-of-1 trial** can compare treatment periods, sometimes with randomized order and blinding. It specifies the question, measurements and analysis before interpreting the results. Repeated comparison within the same person can reduce some between-person differences.
+In the crossover framework used here, a **planned N-of-1 trial** compares treatment periods, sometimes with [randomized order and blinding](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization). “N-of-1” is also used for personalized single-patient studies; inspect the actual design rather than assuming crossover or randomization. It specifies the question, measurements and analysis before interpreting the results. Repeated comparison within the same person can reduce some between-person differences.
 
 ```mermaid
 flowchart TD
-  A["Individual clinical experience"] --> B["Case report documents timeline and outcomes"]
-  B --> C["Generate questions and signals"]
-  D["Prospectively planned individual comparison"] --> E["N-of-1 trial compares defined treatment periods"]
-  E --> F["Estimate an individual effect if assumptions hold"]
+  A["Clinical<br/>experience"] --> B["Case<br/>timeline"]
+  B --> C["Questions<br/>and signals"]
+  D["Planned<br/>comparison"] --> E["Treatment<br/>periods"]
+  E --> F["Effect under<br/>assumptions"]
 ```
 
 *A documented experience and a planned comparison support different claims; neither alone establishes the average effect in a wider population.*
@@ -50,6 +50,8 @@ flowchart TD
 That design needs a suitable clinical situation. Repeated crossover is most informative when the condition is relatively stable and effects begin and end quickly enough for the periods to be interpretable. A **carryover effect** is an effect of an earlier intervention that persists into a later comparison period.
 
 Progressive disease, lasting immune effects and irreversible procedures can undermine that logic. Cancer surgery followed by a continuing systemic therapy cannot simply be reversed to recreate an untreated comparison. Changing or interrupting cancer care to create a comparison is not a learning exercise; any proposed clinical experiment requires its own appropriate clinical and research oversight.
+
+Random order does not erase carryover or a changing condition. A **period effect** is a change over time apart from the compared treatment; **autocorrelation** means nearby measurements are related. The analysis must address those features and missing observations. Keep period lengths, assigned order, background care, outcome units and assessment times beside the result.
 
 ## A worked fictional example
 
@@ -71,6 +73,20 @@ Peer experiences can help people navigate care and formulate questions. They can
 - “After treatment” establishes temporal order. “Because of treatment” needs a stronger causal argument.
 - A rigorous individual comparison does not establish the average effect in everyone with the same cancer label.
 
+## Try it
+
+In a fictional randomized A–B symptom comparison, A has lasting effects during B. Does random order establish a clean A–B effect?
+
+**Answer:** No. Carryover still mixes the periods. A suitable design and analysis need interpretable treatment periods; some clinical situations cannot provide them.
+
+## Explain it back
+
+“A detailed timeline shows ___; a controlled individual comparison additionally needs ___.” One answer: “what happened; a planned, interpretable alternative under stated assumptions.”
+
+## Takeaway
+
+**Value the individual observation while keeping attribution and generalization separate.**
+
 ## Related concepts
 
 - [Observational studies and confounding](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding)
@@ -79,7 +95,7 @@ Peer experiences can help people navigate care and formulate questions. They can
 
 ## Sources and scope
 
-Source check: October 9, 2026. Both examples are fictional. This page explains study interpretation, not a proposal to change a person's care. Expert and learner review remain pending.
+Source check: October 10, 2026. Both examples are fictional. This page explains study interpretation, not a proposal to change a person's care. Expert and learner review remain pending.
 
 - [Case-report reporting guidelines](https://pmc.ncbi.nlm.nih.gov/articles/PMC3784031/) — complete clinical timelines, outcomes and the role of case reports.
 - [CENT 2015 statement](https://www.bmj.com/content/350/bmj.h1738) — planned N-of-1 trial design and situations suited to repeated comparisons.

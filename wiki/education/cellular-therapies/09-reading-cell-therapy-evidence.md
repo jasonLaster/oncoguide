@@ -38,13 +38,7 @@ The steps are not interchangeable, and development does not progress through the
 
 ## Read a graph in five passes
 
-1. **Population:** mice, human cells, or patients? How many independent animals, donors, or people?
-2. **Intervention:** infused cells or genetic carrier? Which target, receptor design, dose, and schedule?
-3. **Outcome:** cell count, surface expression, tumor volume, survival, or symptoms? Where and when was it measured?
-4. **Comparison:** does the control differ only in the component under study? Were starting tumor burdens and relevant doses comparable?
-5. **Uncertainty:** individual observations, error bars, missing observations, repeat experiments, and adverse effects?
-
-**Biological replicates** represent independent biological samples, such as different donors. **Technical replicates** repeat a measurement on the same material. Many technical repeats from one donor do not demonstrate consistency across patients.
+Use [the five-pass graph method](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes) to check population, intervention, outcome, comparison and uncertainty. For a cell product, record whether the administered material was engineered cells or a genetic carrier, and whether repeated measurements came from independent donors.
 
 A line that ends early may reflect a planned endpoint, animal removal, death, or missing data. Read the methods before comparing that line with another group's later time points.
 

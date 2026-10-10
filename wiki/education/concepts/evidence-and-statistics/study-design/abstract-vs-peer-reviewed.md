@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/
 used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: [education, evidence, publications]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -46,9 +46,9 @@ When newer results appear, compare study identifiers, population, follow-up, out
 
 ```mermaid
 flowchart TD
-  A["Identify the format and version"] --> B["Check the population, data cutoff and participants"]
-  B --> C["Inspect methods, comparison, endpoints and harms"]
-  C --> D["Judge the claim with its remaining uncertainty"]
+  A["Format and version"] --> B["Population<br/>and data cutoff"]
+  B --> C["Methods and outcomes"]
+  C --> D["Supported claim<br/>and remaining gap"]
 ```
 
 *The format affects what can be inspected; study design and data determine which conclusions are supported.*
@@ -65,13 +65,31 @@ If the full report supplies a comparison that the abstract omitted, that can cha
 
 Early oncology findings often appear at conferences before a full report. They can be useful for understanding an emerging question. A treatment decision claim needs enough methods and matched clinical evidence to assess it; a polished slide or journal logo does not substitute for that assessment.
 
+## Keep a version card
+
+Record the study identifier, document type/date/version, recruitment population, denominator, endpoint and starting clock, data cutoff, follow-up, analysis role and where methods are available. Check the publisher for corrections or retraction notices. A correction notice explains a change; it is not a replacement for reading the relevant study report. [International Committee of Medical Journal Editors (ICMJE): corrections and version control](https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/corrections-and-version-control.html).
+
 ## Common confusions
 
 - Peer review and independent replication are different forms of scrutiny.
 - More recent does not automatically mean better designed.
-- A full paper can still contain exploratory analyses or missing information.
+- A full paper can still contain [exploratory analyses](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis) or missing information.
 - A study report, a news release and a commentary are different source types.
 - Repeated reports from the same participants are not independent confirmations.
+
+## Try it
+
+A fictional full paper has an abstract and a later correction. A summary calls it “conference-only evidence.” What needs checking?
+
+**Answer:** Identify the full report and correction, inspect the affected claim, and cite the applicable version. The existence of an abstract does not make the study conference-only.
+
+## Explain it back
+
+“Publication format changes what I can inspect; validity still depends on ___.” One answer: “design, conduct, analysis and the supported comparison.”
+
+## Takeaway
+
+**Attach every claim to its study and publication version.**
 
 ## Related concepts
 
@@ -81,11 +99,13 @@ Early oncology findings often appear at conferences before a full report. They c
 
 ## Sources and scope
 
-Source check: October 9, 2026. Counts are invented to illustrate version tracking. A publication category is not a clinical evidence grade. Expert and learner review remain pending.
+Source check: October 10, 2026. Counts are invented to illustrate version tracking. A publication category is not a clinical evidence grade. Expert and learner review remain pending.
 
 - [CONSORT for abstracts](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0050020) — essential information in randomized trial summaries.
 - [ICMJE: responsibilities in submission and peer review](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/responsibilities-in-the-submission-and-peer-peview-process.html) — editorial and reviewer roles.
 - [CONSORT 2025 statement](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004587) — transparent reporting of the full trial and supporting materials.
+
+- [ICMJE: corrections and version control](https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/corrections-and-version-control.html) — current and prior versions, correction notices and retraction.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

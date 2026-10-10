@@ -3,7 +3,7 @@ title: "Judge a test or company claim"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -52,6 +52,8 @@ The minutes are suggested reading budgets. Each lesson uses a fictional report, 
 | 3 | [Connect evidence to a decision](/wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision) | What would change, and is that change supported? | 12 | Decision ledger and stopping rule |
 
 ## Concepts you will use
+
+For a plotted claim, use [the five-pass graph method](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes) and [denominators and conditional probability](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability). For a risk report or a new proposed setting, use [population versus individual risk](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk) and [transportability and eligibility](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility).
 
 Start with the [three validity questions](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) and [prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive). Then read [laboratory and test labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers), [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) and [positive predictive value and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) when inspecting a report.
 

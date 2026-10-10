@@ -48,7 +48,7 @@ Think of a sharp photograph taken from the wrong angle. Precision and relevance 
 |---|---|---|
 | Precision | How wide is the interval? How many relevant events informed the result? | A narrow interval cannot remove systematic error |
 | Bias | Did assignment, assessment, missing data, or selective reporting distort the comparison? | Randomization cannot answer an endpoint the trial never measured |
-| Applicability | Do the population, treatment sequence, comparator, and endpoint match the proposed action? | A similar patient description cannot create a missing comparison |
+| [Applicability](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility) | Do the population, treatment sequence, comparator, and endpoint match the proposed action? | A similar patient description cannot create a missing comparison |
 
 Read the [prespecified analysis and exploratory questions](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis) beside the published result. Retain plan dates and amendments. Check how many people were assigned, followed and analyzed, why some were missing, and whether outcomes or harms were omitted. A reporting checklist helps locate information; compliance alone cannot establish a sound study. [CONSORT 2025](https://www.bmj.com/content/389/bmj-2024-081123).
 
@@ -91,7 +91,7 @@ For earlier detection, ask whether the study measured a benefit from the earlier
 
 ## Check a calculator before its number
 
-A calculator can make uncertain inputs look settled. Keep this record beside its output:
+A calculator can make uncertain inputs look settled. [Population versus individual risk](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk) explains what a model can estimate and what a probability cannot promise. Keep this record beside its output:
 
 - **Identity:** exact model, software version and any recalibration; a familiar name is insufficient.
 - **Inputs:** required values, units, definitions, specimen dates and the model's documented handling of missing values. Unknown is not automatically negative.
@@ -105,7 +105,7 @@ A calculator can make uncertain inputs look settled. Keep this record beside its
 
 A pretreatment biopsy, an on-treatment sample and a surgical specimen represent different moments. Preserve the actual tissue, assay and treatment timing; one cannot automatically assign a stratum defined using another.
 
-A **landmark analysis** defines a later time and follows eligible people from there. For a recurrence-free landmark, people with an earlier recurrence are excluded. The result concerns those who reached that point, not everyone enrolled initially. A “last available sample during year one” also differs from a uniform early postoperative draw. [Anderson, Cain and Gelber: time-dependent response comparisons](https://doi.org/10.1200/JCO.1983.1.11.710).
+A **landmark analysis** defines a later time and follows eligible people from there. For a recurrence-free landmark, people with an earlier recurrence are excluded. The result concerns those who reached that point, not everyone enrolled initially. This is a [conditional denominator](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability). A “last available sample during year one” also differs from a uniform early postoperative draw. [Anderson, Cain and Gelber: time-dependent response comparisons](https://doi.org/10.1200/JCO.1983.1.11.710).
 
 ## Bring harms into the same comparison
 

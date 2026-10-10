@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/
 used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: [education, evidence, study-design]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,12 +31,12 @@ Cancer treatment comparisons face a similar problem: people receive different ca
 
 ## How it works
 
-An **observational study** follows or reconstructs what happened without assigning the treatment or exposure being compared. A **cohort** follows a defined group over time. Other designs compare people with and without an outcome, or take a snapshot at one time.
+An **observational study** follows or reconstructs what happened without assigning the treatment or exposure being compared. A **cohort** follows a defined group over time. A **case-control study** selects people with and without an outcome and examines earlier exposures; a **cross-sectional study** measures a population at a particular time. “Prospective” describes forward follow-up, not random assignment.
 
 A **confounder** is a factor that helps explain both who receives an intervention and how the outcome develops, outside the effect being estimated. Disease burden, fitness, access to care and prior treatment can make groups different before an intervention begins.
 
 ```mermaid
-flowchart LR
+flowchart TD
   F["Baseline fitness"] --> T["Treatment received"]
   F --> O["Outcome"]
   T --> O
@@ -46,9 +46,13 @@ The diagram shows two possible paths to the outcome. Observing a treatment–out
 
 Researchers can restrict eligibility, match participants or statistically adjust for measured differences. Each method depends on assumptions and adequate data. Recording a variable poorly, missing an important difference, or having groups with little overlap can leave the comparison misleading. Adjusting for every available variable is not a universal remedy; a consequence of treatment is not automatically a baseline confounder.
 
+### Check the starting clock
+
+An observational comparison that tries to emulate a trial should align eligibility, treatment-strategy assignment and the start of follow-up. Selecting treated people because they survived long enough to receive treatment, while counting the comparison group from an earlier date, can build a survival advantage into the design. More data do not fix that mismatch. [Hernán and Robins, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4832051/).
+
 ## A worked fictional example
 
-Two groups each contain 100 people. A fictional beneficial outcome occurs equally often within each baseline-health category:
+Two groups each contain 100 people. A defined symptom-improvement outcome by six weeks from treatment start occurs equally often within each baseline-health category:
 
 | Baseline health | Treatment A | Treatment B |
 |---|---|---|
@@ -69,6 +73,20 @@ Observational evidence can describe uncommon harms, care patterns and outcomes i
 - **Reverse causation** is a related problem: developing disease can change an exposure, making its direction of influence easy to misread.
 - [Randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) helps form comparable groups; it does not guarantee flawless follow-up or universal applicability.
 
+## Try it
+
+A fictional database compares people who started a treatment with people who did not. The article follows both groups forward. Has it become a randomized trial?
+
+**Answer:** No. Treatment was not assigned by chance. Inspect baseline differences, aligned starting times, outcome measurement, missing follow-up and adjustment assumptions.
+
+## Explain it back
+
+“One reason groups may differ before treatment is ___.” One answer: “the same disease severity can influence treatment choice and outcome.”
+
+## Takeaway
+
+**Ask how groups and clocks were formed before reading the adjusted estimate.**
+
 ## Related concepts
 
 - [Absolute and relative risk](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt)
@@ -77,11 +95,11 @@ Observational evidence can describe uncommon harms, care patterns and outcomes i
 
 ## Sources and scope
 
-Source check: October 9, 2026. The table is invented to explain selection and confounding, not a treatment result. Expert and learner review remain pending.
+Source check: October 10, 2026. The table is invented to explain selection and confounding, not a treatment result. Expert and learner review remain pending.
 
 - [National Cancer Institute: observational studies](https://www.cancer.gov/research/participate/how/observational-studies) — purposes and designs.
-- [STROBE statement](https://pmc.ncbi.nlm.nih.gov/articles/PMC2048894/) — reporting eligibility, potential confounders, methods and limitations.
-- [FDA: research on bias and confounding in real-world evidence](https://www.fda.gov/science-research/advancing-regulatory-science/evaluating-utility-negative-controls-drug-safety-and-effectiveness-studies-using-real-world-data) — why bias assessment matters in treatment comparisons.
+- [Strengthening the Reporting of Observational Studies in Epidemiology (STROBE), 2007](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296) — reporting guidance, not a study-quality score or causal guarantee.
+- [Hernán and Robins, 2016: emulating a target trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4832051/) — explicit comparison rules, confounding and time zero.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

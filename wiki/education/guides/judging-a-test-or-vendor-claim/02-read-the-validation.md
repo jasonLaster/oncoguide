@@ -3,7 +3,7 @@ title: "Read the validation behind the claim"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -27,7 +27,7 @@ You have [written the claim](/wiki/education/guides/judging-a-test-or-vendor-cla
 
 ## Follow the sample through the study
 
-Imagine that the impressive chart is the last page of a story. To understand it, go back to the people and samples that entered the study.
+Imagine that the impressive chart is the last page of a story. To understand it, go back to the people and samples that entered the study. Use [the five-pass graph method](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes) to attach labels to its pattern.
 
 Who was eligible? How were participants chosen? Which samples failed, and where did those failures go? Were researchers given the outcomes before choosing a threshold? Were patients receiving the same care as the population for whom the claim is now made?
 
@@ -67,7 +67,7 @@ Even a well-calibrated risk score does not establish benefit from the treatment 
 
 ## What can go wrong at this step
 
-- **Successful samples become the whole denominator.** Request the number attempted, the number reported and why others failed.
+- **Successful samples become the whole denominator.** Request the number attempted, the number reported and why others failed. [The denominator](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability) changes when only successful samples are counted.
 - **A chosen threshold travels silently.** Ask whether it was set in advance, tuned here, and evaluated again independently.
 - **A cross-disease dataset supports a same-disease claim.** Keep the mismatch attached to the conclusion.
 - **Laboratory status replaces clinical evidence.** [Certification and authorization](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) answer another question.

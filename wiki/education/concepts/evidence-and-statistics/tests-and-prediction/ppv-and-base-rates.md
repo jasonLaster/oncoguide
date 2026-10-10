@@ -12,9 +12,9 @@ level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
 used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/index]]"]
-updated: 2026-10-09
-source_checked: 2026-10-09
-review_status: "Expert and learner review pending"
+updated: 2026-10-10
+source_checked: 2026-10-10
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # Positive predictive value and base rates
@@ -25,43 +25,70 @@ Positive predictive value is the probability of the defined condition among peop
 
 ## The intuition
 
-A good test can generate many false alarms when the condition is rare. Start with people rather than percentages: count how many have the condition, then apply the test to each group. The positive group contains both true and false positives.
+A positive result feels like a direct answer, but its meaning depends on how common the condition is in the tested population. When a condition is uncommon, even a modest false-positive fraction among people without it can produce many positive calls. The intuition concerns comparable groups; it does not assign a personal probability from a borrowed cohort.
 
 ## How it works
 
-Sensitivity is the fraction testing positive among people with the condition. Specificity is the fraction testing negative among people without it. Positive predictive value (PPV) reverses that conditioning: among everyone testing positive, what fraction actually has the condition?
+Use a defined **reference standard** to distinguish the condition from the test result:
 
-Prevalence, or the base rate, determines how many people begin in each group. When sensitivity and specificity are fixed, PPV rises as the condition becomes more common. The clinical population, endpoint definition and timing therefore belong beside a test-performance claim.
+- **Sensitivity:** positive test results among people with the condition.
+- **Specificity:** negative results among people without the condition.
+- **Positive predictive value (PPV):** people with the condition among positive test results.
+- **Negative predictive value (NPV):** people without the condition among negative test results.
 
-These measures also depend on the chosen threshold and reference standard. A response-prediction test must state whether its positive outcome means [pCR (pathologic complete response)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), imaging response or another endpoint. Performance in one treatment setting is not automatically transferable to another.
-
-For a hypothetical test with 80% sensitivity and 90% specificity, consider 1,000 people with 10% prevalence. Of 100 affected people, 80 test positive. Of 900 unaffected people, 90 test positive. PPV is **80 / (80 + 90) = 47%**, despite specificity of 90%. At 50% prevalence, 400 true positives and 50 false positives give PPV of about 89%. These are arithmetic examples, not assay-validation results.
-
-**Negative predictive value (NPV)** asks the companion question: among those testing negative, what fraction lacks the defined condition? In the 10%-prevalence example, there are 810 true negatives and 20 false negatives. NPV is **810 / (810 + 20) = 97.6%**. At 50% prevalence, there are 450 true negatives and 100 false negatives, so NPV is about 81.8%.
-
-Here sensitivity and specificity were held fixed for a teaching calculation. In real studies, differences in disease spectrum, timing and thresholds can also change performance. A high NPV when the condition is uncommon is not proof that the test detects every affected person.
-
-| Start with this group | Ask this question | Measure |
-|---|---|---|
-| People with the condition | How many test positive? | Sensitivity |
-| People without the condition | How many test negative? | Specificity |
-| People who test positive | How many have the condition? | PPV |
-| People who test negative | How many lack the condition? | NPV |
-
-## Why it matters in cancer
-
-It explains why specificity alone cannot establish the reliability of a positive result in a cancer-testing population.
+The denominator changes when you reverse the question. The **base rate**, or prevalence of the defined condition in the tested population, connects these quantities. [FDA diagnostic reporting guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
 
 ## Worked example
 
-A fictional screening report advertises “90% specificity,” then claims every positive result is 90% likely to be correct. The counts above show why the conclusion needs the condition's frequency and sensitivity too. For a negative result, use the negative group as the denominator instead.
+In a fictional population of 1,000 people, 10% have the condition. Assume sensitivity 80%, specificity 90%, complete reference assessment and no indeterminate results.
+
+| Test result | Condition present | Condition absent | Total |
+|---|---:|---:|---:|
+| Positive | 80 true positives | 90 false positives | 170 |
+| Negative | 20 false negatives | 810 true negatives | 830 |
+| Total | 100 | 900 | 1,000 |
+
+Sensitivity is `80/100 = 80%`; specificity is `810/900 = 90%`. PPV is `80/170 ≈ 47.1%`, while NPV is `810/830 ≈ 97.6%`. Sensitivity 80% is therefore not an 80% chance that a positive call is correct.
+
+Now suppose the base rate is 50%, keeping the **assumed** sensitivity and specificity unchanged: 400 true positives, 100 false negatives, 50 false positives and 450 true negatives. PPV becomes `400/450 ≈ 88.9%`, while NPV is `450/550 ≈ 81.8%`. Real populations can change sensitivity and specificity too; this example isolates the base-rate effect.
+
+## What is measured
+
+| Check | Information needed |
+|---|---|
+| Input | Test results and independent reference outcomes in the intended population. |
+| Method | Locked threshold, condition definition, assay version and treatment of missing/indeterminate results. |
+| Output | Four counts, performance estimates and confidence intervals. |
+| Failure | Verifying mainly positive results, using an imperfect comparator or borrowing another population's base rate. |
+| Cannot tell | Whether acting on the test improves outcomes. |
+
+When a study compares two methods without establishing which reflects the condition, positive and negative **percent agreement** may be appropriate instead of sensitivity and specificity. Agreement is not proof that either method is correct.
+
+## Why it matters in cancer
+
+Radiologic complete response and [pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) are separate assessments. If imaging is the test and surgical pathology the reference, performance depends on the exact population, regimen, response definition and timing. A subgroup's observed fraction does not establish an individual's outcome or the safety of omitting surgery.
 
 ## Common confusions
 
-- 90% specificity is not 90% PPV.
-- NPV is not one minus sensitivity: they start with different groups.
-- A negative prediction of early shrinkage does not necessarily rule out eventual pCR.
-- [ROC area (AUC)](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index) summarizes ranking across thresholds; PPV concerns a defined threshold and population.
+- Sensitivity asks about affected people; PPV asks about positive calls.
+- Specificity asks about unaffected people; NPV asks about negative calls.
+- A high NPV can occur when the condition is rare, even with missed cases.
+- A positive result is not a treatment-benefit prediction.
+- Changing the threshold changes test performance; prevalence alone does not describe every difference between populations.
+
+## Try it
+
+For 1,000 fictional people with 5% prevalence, assume the same 80% sensitivity and 90% specificity. Calculate PPV.
+
+**Answer:** Of 50 affected people, 40 test positive. Of 950 unaffected people, 95 test positive. PPV is `40/(40 + 95) ≈ 29.6%`. Lower prevalence produces lower PPV under these held-constant assumptions.
+
+## Explain it back
+
+Explain why “among affected people” and “among positive results” need different denominators.
+
+## Takeaway
+
+Keep the reference condition, four counts, threshold and intended population beside every accuracy claim.
 
 ## Related concepts
 
@@ -69,7 +96,7 @@ A fictional screening report advertises “90% specificity,” then claims every
 
 ## Sources and scope
 
-General teaching, source-checked October 9, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+General teaching, source-checked October 10, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
 
 - [FDA guidance on diagnostic test statistical reporting](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
 - [NCI positive predictive value definition](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/positive-predictive-value).

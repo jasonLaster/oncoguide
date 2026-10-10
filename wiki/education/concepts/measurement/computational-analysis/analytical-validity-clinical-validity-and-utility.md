@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,53 +25,68 @@ Analytical validity asks whether a test measures correctly, clinical validity as
 
 ## The intuition
 
-Imagine a bathroom scale that always reads your weight correctly. That is useful, but it cannot tell you which medicine to take. A sound measurement, a meaningful medical interpretation and a helpful action are three different achievements.
+A bathroom scale can measure weight well without telling you which medicine helps. A sound measurement, a meaningful clinical interpretation and a helpful action are three different achievements.
 
-This analogy has limits. Cancer tests may measure a molecule, produce a risk estimate, or classify a tumor. There may be no single perfect reference. Still, the three questions help you keep the evidence in order.
+The analogy has limits. Cancer tests may detect a molecule, classify a tumor or estimate risk, and there may be no perfect reference. Still, the three questions help you ask for the right evidence.
 
 ## How it works
 
-**Analytical validity** concerns the measurement itself. Does a test find the signal it claims to find, with acceptable error? Studies examine accuracy, repeatability, interference and the smallest signal the method can reliably detect. Validation depends on the specimen and method. Performance in carefully prepared material may not transfer to damaged clinical samples.
+**Analytical validity** concerns measurement performance. Can the stated workflow detect or measure its intended feature with acceptable error? Evaluate accuracy, repeatability, interference, failure rates and [limits of detection and quantitation](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation). Validation is specific to the specimen, analyte, input, workflow and software version. Performance in prepared material may not transfer to damaged clinical specimens.
 
-**Clinical validity** concerns the link between a result and a defined clinical condition or outcome. Does a positive result identify disease, or does a score relate to later recurrence, in the relevant population? The setting matters: a test studied before treatment may behave differently after surgery. A useful association must be distinguished from a treatment-selection claim; see [prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive).
+**Clinical validity** concerns the result's relationship to a defined clinical condition or outcome. Does a positive call identify the condition, or does a score predict later recurrence in the relevant population? Attach disease stage, treatment, specimen timing, endpoint and follow-up. Missing specimens and exclusions can select a different analyzed group from the people for whom the claim is advertised. Independent validation matters, especially for models whose features or thresholds were chosen using outcomes.
 
-**Clinical utility** concerns using the information. Compare a specified test-guided strategy with a meaningful alternative. Does the strategy improve health, avoid harm, or improve a decision patients value? A test can predict risk accurately while the best response to that risk remains unknown. Utility includes downsides such as unnecessary treatment and missed disease.
+An outcome association differs from identifying who benefits more from a treatment. [Prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) separates those claims. Good discrimination between risk groups also does not guarantee accurate individual probability estimates.
 
-These are dimensions of evidence, rather than prizes awarded once for every future use.
+**Clinical utility** concerns the use of information. Compare a specified test-guided strategy with a meaningful alternative: the test, its result rule, the resulting action and the care setting together form the strategy. Does using it improve health or a decision patients value, after accounting for harms? A highly informative risk marker can leave the best response to that risk uncertain.
+
+These are dimensions of evidence, not a certificate covering every future use.
+
+## How evidence is assessed
 
 | Question | Evidence to inspect | Tempting overread |
 |---|---|---|
-| Does it measure correctly? | Reference samples, repeat runs, detection limits, failed samples | A reliable measurement must predict benefit |
-| Does the result mean something clinically? | A defined population, outcome and follow-up; independent validation | Association means the proposed action works |
-| Does acting on it help? | Outcomes of the stated decision strategy, including harms | A treatment changed, therefore care improved |
+| Does it measure correctly? | Reference specimens, repeats, background, input range and failures | Reliable measurement must predict benefit |
+| Does the result mean something clinically? | Appropriate population, endpoint, follow-up and independent validation | Association means the proposed intervention works |
+| Does acting on it help? | Defined decision strategy versus comparator, meaningful outcomes and harms | A changed decision must be improved care |
+
+The “input cost” here is not one laboratory aliquot: each evidence question may require specimens, follow-up or a comparative clinical study. The output is an evidence claim with uncertainty, not a universal validated/unvalidated score. Any cutoffs must be justified for the intended use.
 
 ## Why it matters in cancer
 
-A laboratory can report an alteration correctly without showing that a named drug helps people with that alteration. Likewise, a recurrence-risk model can separate higher- and lower-risk groups without showing that adding a particular treatment improves their outcomes.
-
-## Worked example
-
-In a fictional study, a blood test repeatedly detects a tumor-associated signal. A separate cohort shows that people with that signal recur more often. Neither study tests whether starting Drug A after a positive result helps. Measurement and risk association have support; the Drug A strategy remains a research question.
+A laboratory can accurately report an alteration without showing that a named drug helps people carrying it. A blood result can anticipate recurrence without proving that treatment at that earlier time improves survival. [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) is one reason to examine the outcome clock carefully.
 
 ## Common confusions
 
-- **Validation is use-specific.** A study in one disease, specimen or treatment setting does not establish every proposed use.
-- **Changing a decision is not itself a health benefit.** The changed decision may help, harm, or do neither.
-- **Regulatory status is a separate question.** [Laboratory and product labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) describe oversight or intended use; they do not replace the evidence for a claim.
+- Laboratory accreditation or a product label does not establish every proposed clinical use. See [testing and oversight categories](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers).
+- Commercial availability does not complete a clinical-utility study.
+- Utility includes harms from false positives, missed disease and unnecessary intervention, not just how often a clinician changes a plan.
+
+## Try it
+
+In a fictional sequence, a blood test detects a spiked target reproducibly. A separate cohort shows more recurrences after positive calls. No study compares starting Drug A after positivity with a specified alternative. Which claim remains unsupported?
+
+**Answer:** The Drug A test-guided strategy's clinical utility. Analytical performance and a scoped clinical association have evidence, but neither tests whether that action helps more than it harms.
+
+## Explain it back
+
+What experiment or comparison would you need for each of the three questions?
+
+## Takeaway
+
+Match each claim to its own evidence; measurement, meaning and helpful action cannot substitute for one another.
 
 ## Related concepts
 
-- [Prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive)
-- [Actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability)
-- [Positive predictive value and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates)
+- [prognostic vs predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive)
+- [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability)
 
 ## Sources and scope
 
-Source check: October 9, 2026. The scale and blood-test examples are fictional. Expert and learner review remain pending.
+Source check: October 10, 2026. Fictional exercise; expert and learner review remain pending.
 
-- [MedlinePlus Genetics: how to judge a valid and useful genetic test](https://medlineplus.gov/genetics/understanding/testing/validtest/) — the three evidence questions.
-- [National Human Genome Research Institute: regulation of genetic tests](https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests) — definitions and the distinction between laboratory quality and clinical evidence.
-- [FDA–NIH BEST: predictive biomarker](https://www.ncbi.nlm.nih.gov/books/NBK402283/) — a treatment-effect claim differs from a general outcome association.
+- [MedlinePlus Genetics: judging a valid and useful test](https://medlineplus.gov/genetics/understanding/testing/validtest/) — validity/utility definitions and laboratory-quality scope.
+- [FDA–NIH BEST: prognostic versus predictive biomarkers](https://www.ncbi.nlm.nih.gov/books/NBK402284/) — outcome associations and treatment effects are distinct.
+- [FDA 2024 circulating tumor DNA (ctDNA) drug-development guidance](https://www.fda.gov/media/183874/download) — validation and comparative strategy design in early-stage solid-tumor drug development.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

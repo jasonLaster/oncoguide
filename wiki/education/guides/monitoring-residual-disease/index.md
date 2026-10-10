@@ -2,7 +2,7 @@
 title: "Understand blood tests and imaging after treatment"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -47,6 +47,8 @@ flowchart TD
 | 3 | [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change) | Does evidence support the proposed next action? | 12 | Evidence ladder and fictional protocol |
 
 ## Concepts you will use
+
+[Molecular residual disease](/wiki/education/concepts/measurement/liquid-biopsy/mrd) defines the signal being discussed. [Detection limits and finite sampling](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) explains a tube's boundary; [blank, detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) separates finding a signal from measuring its amount. [Measured lead time](/wiki/education/concepts/measurement/liquid-biopsy/lead-time) identifies the two dates behind an earlier-detection claim.
 
 Begin with [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|cfDNA versus ctDNA]], [[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay|tumor-informed monitoring]] and [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|units and limits]].
 

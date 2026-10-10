@@ -3,7 +3,7 @@ title: "Connect evidence to a decision"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -52,7 +52,7 @@ The ledger does not calculate a treatment choice for you. It makes assumptions v
 
 ## Worked example: a fictional protein test
 
-A patient and clinician are discussing Drug A after surgery. A research assay reports whether a protein is abundant. The assay's biological rationale is plausible, but its treatment-selection evidence comes from a different cancer setting.
+A patient and clinician are discussing Drug A after surgery. A research assay reports whether a protein is abundant. The assay's biological rationale is plausible, but its treatment-selection evidence comes from a different cancer setting. [Transportability and eligibility](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility) asks whether that evidence supports this new use; access to a drug answers a separate question.
 
 There are several reasonable learning branches. The team could check whether Drug A's label requires a [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) and whether the existing result meets that specified context. It could inspect the exact Drug A evidence. It could consider a trial that tests the relevant strategy. Or it could decide the new test would consume tissue without changing the current choice.
 

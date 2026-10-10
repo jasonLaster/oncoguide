@@ -12,8 +12,8 @@ sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: 2026-10-09
-updated: 2026-10-09
+source_checked: 2026-10-10
+updated: 2026-10-10
 tags: [education, evidence-and-statistics]
 ---
 
@@ -25,44 +25,59 @@ A confidence interval shows an estimate's precision using a method with a stated
 
 ## The intuition
 
-A study gives an estimate, but another comparable sample would not produce exactly the same number. A **confidence interval (CI)** puts a range beside the estimate to express this sampling uncertainty under a stated analysis.
-
-Think of repeatedly taking samples and drawing a new interval each time. A method with 95% coverage would contain the fixed true value in about 95% of those intervals in the long run, if its assumptions hold. The 95% belongs to the **method's repeated performance**, not a 95% probability assigned to the fixed true value after seeing one interval. [National Institute of Standards and Technology](https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm).
+An estimate comes with uncertainty because another sample could produce a different estimate. A **confidence interval (CI)** describes precision under a specified method. Think of repeatedly casting a net: the method has a coverage rate across valid repetitions. The analogy stops once a particular net has landed; it does not assign a new probability to a fixed parameter.
 
 ## How it works
 
-First name what was estimated. An interval around a [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) describes a relative event-rate comparison. An interval around an [absolute risk difference](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt) describes a difference in event probabilities at a named time. These are different scales.
+For a frequentist 95% CI, the method would include the true parameter in 95% of intervals across repeated valid applications, under its assumptions. It does not mean this observed interval has a 95% probability of containing the fixed parameter. [Neyman](https://doi.org/10.1098/rsta.1937.0005); [NIST](https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm).
 
-The analysis calculates lower and upper bounds using the data, confidence level, and method. The interval can be asymmetric. Its width depends on the information and variability available; in time-to-event analyses, the observed events and follow-up matter as well as the number enrolled.
+The interval depends on the data, estimator, confidence level and calculation method. Larger samples often narrow intervals, but more observations do not remove biased measurement, confounding or an incorrect model.
 
-The method's assumptions matter too. A narrow interval does not account for every possible bias, missing-data problem, or mismatch between the study population and the question being asked. Confidence intervals describe precision under an analysis, rather than certify that its design or interpretation is valid. [Neyman 1937](https://doi.org/10.1098/rsta.1937.0005), [Greenland and colleagues 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/).
+For a difference, the no-difference value is usually zero. For a ratio such as a [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) or [odds ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio), it is one. Crossing that value does not prove equality; the interval may remain compatible with meaningful benefit and harm.
 
-## A worked example
+## Worked example
 
-Two fictional studies estimate the same hazard ratio of 0.70 for treatment A versus B. Both analyze time to first recurrence or death from randomization.
+A fictional survey observes a binary outcome in 50 of 100 independent people. A simple **normal approximation** estimates the proportion's standard error as `sqrt(0.50 × 0.50/100) = 0.05`. An approximate 95% interval is `0.50 ± 1.96 × 0.05`, or **40.2%–59.8%**.
 
-| Fictional result | What the interval adds |
+With 5,000 of 10,000 people having the outcome, the same calculation gives standard error 0.005 and interval **49.02%–50.98%**. The proportion is unchanged, but sampling precision improves. These are fictional calculations with independent observations; small counts, proportions near zero or one, clustering and incomplete outcomes can require different methods.
+
+## What is measured
+
+| Check | Information needed |
 |---|---|
-| HR 0.70, 95% CI 0.65–0.76 | The estimate is comparatively precise under this analysis. |
-| HR 0.70, 95% CI 0.35–1.40 | The estimate is imprecise; the interval includes much lower hazard, equal hazard, and higher hazard. |
+| Inputs | Estimate, data structure, sampling or statistical model. |
+| Output | Lower and upper bounds on the estimate's scale, with confidence level. |
+| Method | Calculation method, adjustment set, missing-data handling and any multiplicity adjustment. |
+| Failure | Calling narrow bounds proof of validity or treating an approximate interval as universally reliable. |
+| Cannot tell | The range containing 95% of patients or the outcome of a particular person. |
 
-HR means hazard ratio. For a ratio, **1** is the no-difference value. The second interval does not prove there is no benefit. It shows that this analysis cannot distinguish a wide range of effects with the chosen precision criterion. The first still needs absolute outcomes, safety, and a relevant population before its medical importance can be assessed.
-
-These invented bounds illustrate interpretation; they do not establish real treatment effects.
+A **prediction interval** addresses a future observation and includes additional variability. A **Bayesian credible interval** has a probability interpretation conditional on its model and prior. Those are different constructions, not alternative names for a frequentist CI.
 
 ## Why it matters in cancer
 
-Small subgroups can yield striking point estimates with wide intervals. Reading both together prevents a precise-looking decimal from carrying more confidence than the data support.
-
-An interval also helps ask whether the range includes effects that would matter clinically. A statistically detectable difference can be small in absolute terms. A wide interval can leave both worthwhile benefit and meaningful harm unresolved.
+Consider fictional HR 0.70 with CI 0.35–1.40: the estimate suggests lower hazard, but substantial benefit and harm remain compatible with this analysis. HR 0.70 with CI 0.65–0.76 is more precise. Neither establishes relevance to a different population or a personal benefit.
 
 ## Common confusions
 
-- **Probability of the parameter:** a conventional 95% CI does not assign a 95% probability to the fixed true effect being inside that observed interval.
-- **Probability of an individual outcome:** it is not a patient's 95% survival range or a range containing 95% of patients.
-- **Crossing the null versus no effect:** a ratio interval crossing 1, or a difference interval crossing 0, does not establish equivalence or absence of benefit.
-- **Outside the interval versus impossible:** values outside it are not logically ruled out; the interval depends on its method and assumptions.
-- **Overlapping intervals versus equal effects:** compare the groups directly; overlap alone is not a valid test of whether their effects differ.
+- A CI is not a distribution of patient outcomes.
+- Including the null value does not establish no effect or equivalence.
+- Overlapping intervals are not a substitute for directly estimating or testing the difference between groups.
+- Repeating many unadjusted intervals can create a multiplicity problem.
+- Statistical precision is not protection against bias. [Greenland and colleagues](https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/).
+
+## Try it
+
+A fictional difference has a 95% CI from −8 to +10 percentage points. Does it prove equivalence?
+
+**Answer:** No. It includes potentially important differences in both directions. Equivalence requires a prespecified acceptable margin and an appropriate analysis; merely failing to demonstrate a difference is insufficient.
+
+## Explain it back
+
+Explain why 95% belongs to repeated coverage of the method rather than the proportion of patients inside the interval.
+
+## Takeaway
+
+Read the estimate, interval and method together, keeping precision separate from validity.
 
 ## Related concepts
 
@@ -72,7 +87,7 @@ An interval also helps ask whether the range includes effects that would matter 
 
 ## Sources and scope
 
-Source check: 2026-10-09. Conventional frequentist interval interpretation; expert and learner review pending. Bayesian credible intervals use a different framework. All worked estimates are fictional, not personal prognosis calculations.
+Source check: 2026-10-10. Conventional frequentist interval interpretation; expert and learner review pending. Bayesian credible intervals use a different framework. All worked estimates are fictional, not personal prognosis calculations.
 
 - [Neyman 1937: original confidence-interval framework](https://doi.org/10.1098/rsta.1937.0005).
 - [National Institute of Standards and Technology: confidence limits and repeated coverage](https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm).

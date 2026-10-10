@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/tests-and-pre
 used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,19 +25,15 @@ Calibration describes how closely predicted probabilities agree with observed ou
 
 ## The intuition
 
-If a weather service says “20% chance of rain” on many comparable days, you would hope about one in five turns rainy. It can predict which days are wetter without getting that percentage right. Cancer-risk models face the same distinction between [ordering](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index) and probability agreement. The weather analogy does not supply evidence about a patient's outcome.
+If a weather service predicts a 20% chance of rain on many comparable days, you would hope about one in five turns rainy. It can order days from drier to wetter without getting the percentages right. Cancer-risk models face the same distinction between [ordering](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index) and probability agreement. The weather analogy does not supply evidence about a patient's outcome.
 
 ## How it works
 
-Calibration compares predictions with observed outcomes at the same defined horizon. Grouped observations or a smooth calibration curve can show whether predictions are systematically too high, too low or too extreme. Finite samples create uncertainty; a rough comparison is not an exact verdict.
+Calibration compares predicted probabilities with observed outcome frequencies for the same endpoint, population and horizon. Grouped comparisons or a smooth calibration curve can reveal predictions that are too high, too low or too extreme. Finite samples add uncertainty.
 
-**Calibration in the large** compares the overall predicted event frequency with the observed frequency. That average can look right while predictions for lower- and higher-risk people remain wrong. A **calibration slope** examines how the strength of predictions compares with outcomes under a specified model. A slope of one and a suitable intercept are useful targets, but they do not guarantee agreement everywhere. [Riley and colleagues: external validation](https://www.bmj.com/content/384/bmj-2023-074820).
+**Calibration in the large** checks average predicted against observed frequency. That average can be right while lower- and higher-risk predictions are wrong. A **calibration slope** evaluates prediction strength under a specified model. A slope below one commonly signals predictions that are too extreme; a slope above one indicates too little spread in that calibration model. A suitable intercept and slope of one do not guarantee agreement everywhere. [Van Calster and colleagues](https://doi.org/10.1186/s12916-019-1466-7).
 
-Changing treatment era, eligibility, measurement or baseline event frequency can change calibration. **Recalibration** updates parts of a model to fit a new setting; it creates a version that needs its own evaluation. A familiar calculator name cannot stand in for that record. [TRIPOD+AI reporting guidance](https://www.bmj.com/content/385/bmj-2023-078378).
-
-## Why it matters in cancer
-
-A person may use a predicted recurrence probability to understand a discussion. Before reading it as a reliable probability, check the model's endpoint, time origin, inputs and relevant independent validation. Even good calibration does not establish that choosing treatment with the model improves outcomes.
+Changing treatment era, eligibility, assay or baseline event frequency can change calibration. **Recalibration** updates a model for another setting; the updated version needs evaluation. A familiar calculator name does not replace that record. [TRIPOD+AI](https://www.bmj.com/content/385/bmj-2023-078378).
 
 ## Worked example
 
@@ -45,30 +41,54 @@ A person may use a predicted recurrence probability to understand a discussion. 
 
 *Correct ordering can coexist with probabilities that are too high; the fictional counts below share one five-year endpoint.*
 
-Two equally sized fictional groups each contain 100 people assessed for the same event by five years, with complete follow-up.
+Two equally sized fictional groups each contain 100 people with complete five-year follow-up.
 
-| Group | Model's predicted risk | Observed events |
+| Group | Predicted risk | Observed events |
 |---|---|---|
 | Lower scores | 20% | 10 of 100 |
 | Higher scores | 40% | 30 of 100 |
 
-The model distinguishes the groups in the right direction. Both percentages overstate their observed frequencies. Overall it predicts 60 events but observes 40. These invented counts illustrate poor agreement; they do not measure any cancer model's performance.
+The groups are ordered correctly, but both risks are overstated. The model predicts `20 + 40 = 60` events and observes `10 + 30 = 40`. These invented counts do not measure any cancer model's performance.
 
-Now imagine predictions of 10% and 50%, with 20 and 40 events in those groups. Both the predicted and observed total are 60 events, yet each group is miscalibrated. Checking only the overall average would miss this.
+Now imagine predictions of 10% and 50%, with 20 and 40 events in those groups. Predicted and observed totals are both 60. Overall agreement hides errors in both groups.
+
+## What is measured
+
+| Check | Information needed |
+|---|---|
+| Input | Stored predictions made before outcomes, model version, endpoint and follow-up. |
+| Method | Calibration curve or named summary, uncertainty and suitable outcome estimation. |
+| Output | Predicted versus observed frequencies at the same horizon. |
+| Failure | Counting every censored participant as event-free, or checking only the overall average. |
+| Cannot tell | Which individual has an event or whether using the model improves outcomes. |
+
+For survival predictions, incomplete follow-up needs an appropriate time-to-event method. Competing-event predictions need their corresponding outcome definition and estimation. Check relevant subgroups as well as overall agreement. [Riley and colleagues](https://www.bmj.com/content/384/bmj-2023-074820).
+
+## Why it matters in cancer
+
+A recurrence probability may inform a discussion only with its endpoint, clock, inputs and relevant validation attached. A calibrated 20% prediction describes agreement across comparable observations; it cannot say which person will recur. Even accurate probabilities do not establish that choosing treatment with the model helps patients.
 
 ## Common confusions
 
 - A high AUC does not establish calibration.
-- Calibration belongs to a population, endpoint and horizon, not every future setting.
-- A calibrated 20% prediction cannot tell which particular person will have the event.
-- A narrow range displayed by software is not evidence that model or input uncertainty is small.
-- A model can agree with observed frequencies while offering no useful treatment decision.
+- Calibration in one era does not automatically transfer to another.
+- Correct overall frequency does not guarantee correct subgroup predictions.
+- A model assigning everyone the same probability can match the average yet offer no ranking information.
+- Software's narrow display range is not proof that model or input uncertainty is small.
 
 ## Try it
 
-A calculator was validated before a new treatment became routine. Does its original validation settle the probabilities under the new treatment?
+In the second fictional example, is an overall predicted average of 30% sufficient evidence of calibration?
 
-**Answer:** No. The new treatment context needs evaluation. Do not repair the output by multiplying unrelated trial effect estimates.
+**Answer:** No. Observed overall frequency is also `60/200 = 30%`, but the lower group is predicted at 10% and observed at 20%; the higher group is predicted at 50% and observed at 40%. The average conceals both errors.
+
+## Explain it back
+
+Explain how correct ordering, correct overall frequency and correct probabilities across risk groups can come apart.
+
+## Takeaway
+
+Check probability agreement at the relevant endpoint and horizon, including uncertainty and subgroup context.
 
 ## Related concepts
 
@@ -78,7 +98,7 @@ A calculator was validated before a new treatment became routine. Does its origi
 
 ## Sources and scope
 
-Source check: October 9, 2026. Examples are fictional; expert and learner review remain pending.
+Source check: October 10, 2026. Examples are fictional; expert and learner review remain pending.
 
 - [Riley et al., 2024: external validation and calibration evaluation](https://www.bmj.com/content/384/bmj-2023-074820).
 - [Van Calster et al., 2019: calibration definitions and evaluation](https://doi.org/10.1186/s12916-019-1466-7).

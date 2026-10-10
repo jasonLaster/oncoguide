@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/effect-measur
 used_by: []
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,38 +25,70 @@ The false discovery rate is the expected fraction of false findings among a proc
 
 ## The intuition
 
-Suppose a search returns a basket of candidates. You care how many selected candidates could be false finds, rather than only how many searches were performed. **False discovery rate (FDR)** concerns the basket produced by a defined procedure. It does not certify each item in it.
+A large molecular screen needs a way to keep a promising shortlist from filling with false leads. **False discovery rate (FDR)** concerns the shortlist as a set, averaged across repetitions of the procedure. It is not a truth label attached to each gene. The shortlist analogy also does not guarantee a fixed number of false findings in today's list.
 
 ## How it works
 
-Imagine repeating the entire procedure on comparable data. In each repeat, divide false selections by all selections, using zero if there are no selections. FDR is the average of that fraction across repeats under the statistical model. The false labels are generally unknown in a real dataset.
+Let V be the number of false rejections and R the total number of rejections. The false discovery proportion is `V/R` when R is positive, and zero when no findings are selected. FDR is the **expected value** of that proportion.
 
-An FDR-controlling procedure therefore targets an expected proportion. It is different from controlling the probability of even one false selection, called the **family-wise error rate**. The original Benjamini–Hochberg procedure establishes its control under independent test statistics; dependence conditions and the method used need attention. [Benjamini and Hochberg, 1995](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1995.tb02031.x).
+This differs from the **family-wise error rate**, the probability of at least one false rejection. If every null hypothesis is true, any nonempty selected list is entirely false, so those two error rates coincide. Otherwise they generally differ. [Benjamini and Hochberg](https://doi.org/10.1111/j.2517-6161.1995.tb02031.x).
 
-For that procedure, sort the [p-values](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing). With `m` tests and target `q`, compare the p-value at rank `i` with `(i/m) × q`. Find the largest rank meeting its threshold, then select all findings up to that rank. This step-up rule is a teaching description, not a substitute for choosing a method appropriate to the data.
+The **Benjamini–Hochberg (BH)** step-up method sorts m p-values. For a target q, compare rank i with `(i/m) × q`. Find the **largest passing rank**, then select all findings through that rank. Do not stop at the first failed comparison.
 
-## Why it matters in cancer
-
-Gene-expression screens and [mass spectrometry](/wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics) can make many comparisons or identifications. Retain the tested family, procedure and reporting level. A protein-level error estimate and a peptide-level estimate describe different sets. A controlled selection error still does not establish the biological importance of a change.
+The original theorem establishes control under independence. Later results cover specified positive-dependence structures; other methods or corrections address broader dependence. Correlated genes are not permission to ignore the method's assumptions. [Benjamini and Yekutieli](https://doi.org/10.1214/aos/1013699998).
 
 ## Worked example
 
-Five fictional tests give sorted p-values of 0.001, 0.008, 0.026, 0.080 and 0.200. At `q = 0.05`, the rank thresholds are 0.010, 0.020, 0.030, 0.040 and 0.050. The largest passing rank is three, so the step-up procedure selects the first three findings.
+Five fictional tests have sorted p-values 0.001, 0.008, 0.026, 0.080 and 0.200. With q = 0.05:
 
-You do not know which, if any, of those three are false. The calculation does not say each has a 5% error probability, or that exactly 5% of this particular basket is false. It describes the procedure's expected behavior when its assumptions hold.
+| Rank | p-value | BH comparison value |
+|---:|---:|---:|
+| 1 | 0.001 | 0.010 |
+| 2 | 0.008 | 0.020 |
+| 3 | 0.026 | 0.030 |
+| 4 | 0.080 | 0.040 |
+| 5 | 0.200 | 0.050 |
+
+Rank 3 is the largest that passes, so the first three are selected. This does not mean exactly 5% of those three are false, or that each has a 5% probability of being false.
+
+## What is measured
+
+| Check | Information needed |
+|---|---|
+| Input | All tested hypotheses and valid p-values, not just the published hits. |
+| Method | Defined test family, target, procedure and dependence assumptions. |
+| Output | Selected set or adjusted values under that procedure. |
+| Failure | Running many separate corrections, then presenting a combined list as if one family was controlled. |
+| Cannot tell | Which finding is false, biological importance or clinical benefit. |
+
+“q-value” and “FDR-adjusted p-value” can refer to different calculations; read the method. Molecular identification FDR at peptide, protein or gene levels also concerns different units. A protein-level claim cannot inherit a peptide-level guarantee without its own procedure.
+
+## Why it matters in cancer
+
+Omics screens often use FDR to prioritize hypotheses for replication or functional experiments. Passing the screen is a discovery step, not evidence that a treatment selected from it helps patients.
+
+A diagnostic paper may call `1 − positive predictive value` a “false discovery rate”: the observed false fraction among positive calls. That diagnostic fraction is distinct from BH-style multiple-testing control. Read the denominator and intended meaning. See [test results and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates).
 
 ## Common confusions
 
-- An FDR control target does not supply a patient's false-positive probability. Clinical [positive predictive value](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) needs its population and test-performance information.
-- An FDR target of 5% is not a guarantee about a particular gene or patient.
-- Screening more hypotheses and reporting only selected ones without the method obscures the error claim.
-- Different adjusted p-values or q-value methods should not be treated as interchangeable labels without checking their definitions.
+- An FDR target is not an individual finding's probability of being false.
+- Five percent FDR does not guarantee one false result in every list of 20.
+- Corrected significance does not establish a large effect or a useful treatment.
+- Changing the test family changes the question being controlled.
 
 ## Try it
 
-A researcher reports 20 selected genes at FDR 5%. Must exactly one be false?
+For three fictional tests, sorted p-values are 0.018, 0.030 and 0.060. At q = 0.05, the comparison values are 0.0167, 0.0333 and 0.050. How many does BH select?
 
-**Answer:** No. The realized number is unknown. The target concerns an expected fraction across repetitions under the procedure's assumptions.
+**Answer:** Two. Rank 1 fails its own comparison, but rank 2 passes and is the largest passing rank. The step-up rule selects both first and second findings.
+
+## Explain it back
+
+Explain why controlling an expected fraction does not identify the false findings in a particular list.
+
+## Takeaway
+
+FDR belongs to a defined procedure and family of findings, with assumptions and a replication step attached.
 
 ## Related concepts
 
@@ -65,7 +97,7 @@ A researcher reports 20 selected genes at FDR 5%. Must exactly one be false?
 
 ## Sources and scope
 
-Source check: October 9, 2026. Invented p-values; expert and learner review remain pending.
+Source check: October 10, 2026. Invented p-values; expert and learner review remain pending.
 
 - [Benjamini and Hochberg, 1995: the original step-up procedure](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1995.tb02031.x).
 - [Benjamini and Yekutieli, 2001: dependence conditions](https://doi.org/10.1214/aos/1013699998).

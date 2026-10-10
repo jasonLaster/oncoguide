@@ -1,23 +1,23 @@
 ---
-title: "Clinical actionability"
+title: "Clinical actionability and evidence tiers"
 type: concept
 domain: evidence-and-statistics/biomarkers
 summary: "Clinical actionability asks whether a finding supports a specific medical decision in the relevant disease and treatment setting."
 glossary_anchor: actionability
-aliases: ["actionability"]
-prerequisites: []
-reviewed: pending
+aliases: ["actionability", "ESCAT", "OncoKB", "levels of evidence and actionability tiers"]
+prerequisites: ["[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
+reviewed: "pending"
 reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, measurement]
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
-updated: 2026-10-09
-source_checked: 2026-10-09
-review_status: "Expert and learner review pending"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
+review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Clinical actionability
+# Clinical actionability and evidence tiers
 
 ## In one sentence
 
@@ -25,46 +25,71 @@ Clinical actionability asks whether a finding supports a specific medical decisi
 
 ## The intuition
 
-A molecular match is the beginning of a question. It names a finding and perhaps a drug class. The full answer also needs reliable measurement, evidence of benefit, clinical eligibility and a feasible, safe intervention. Those are separate gates.
+A map can identify a possible route without proving that it is suitable or open for today's journey. An evidence annotation is similar: it summarizes a defined claim. The actual decision still needs the finding's reliability, disease setting, intervention, eligibility and access.
+
+The analogy stops at the map. Evidence tiers are formal frameworks with different rules; their labels cannot be swapped by intuition.
 
 ## How it works
 
-An analytical validation establishes how an assay measures its intended quantity. Clinical validity relates that measurement to a condition or outcome. Clinical utility asks whether using the information improves a meaningful decision or outcome. A laboratory’s quality certification is not a universal guarantee of treatment benefit.
+First separate [measurement, clinical meaning and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility). A variant can be genuinely present and biologically consequential while evidence for a matched drug remains weak. “Pathogenic” is not synonymous with treatment-sensitive. Target engagement, response and survival are different claims.
 
-[Research-use-only (RUO) status and clinical laboratory standards](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) describe different testing requirements. [Companion diagnostics](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) have a specified intended use linked to a therapy; another assay or gene result is not automatically interchangeable.
+**ESCAT**, the European Society for Medical Oncology Scale for Clinical Actionability of molecular Targets, grades evidence for genomic targets. Its original 2018 framework has six broad categories:
 
-Evidence frameworks such as ESCAT rank the strength of clinical evidence for a target–drug match. OncoKB annotations also depend on cancer and setting. A database tier, a pathogenicity prediction and a trial’s inclusion criterion describe different claims. The actual source and version matter.
+| ESCAT tier | Broad evidence category |
+|---|---|
+| I | Ready for routine clinical implementation |
+| II | Investigational target with likely benefit needing further evidence |
+| III | Clinical benefit shown in another tumor type or for similar targets |
+| IV | Preclinical evidence |
+| V | Evidence supporting co-targeting approaches |
+| X | Insufficient evidence for actionability |
 
-An approved drug used outside its authorized indication is an off-label use. Evidence for that use may still be exploratory or under investigation. That differs from accessing a never-approved product; [approval types and intended use](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) keep those questions separate. Likewise, a tumor-only BRCA alteration can support a research question while failing a breast-cancer adjuvant label requiring a germline variant. Feasibility adds current eligibility, availability, formulation, tissue requirements and clinical safety. High-quality mechanistic evidence cannot bypass these gates.
+Subtiers and the actual dated assessment matter. Tier V is a defined co-targeting category, not permission to invent any combination, and X does not prove that a target can never become useful.
+
+**OncoKB** has a different annotation system for a biomarker–drug–cancer context. Its therapeutic response levels distinguish 1 (FDA-recognized biomarker for an FDA-approved drug in that indication), 2 (standard-care guideline-supported biomarker for an FDA-approved drug in that indication), 3A (compelling clinical evidence in that indication), 3B (standard-care or investigational evidence in another indication), and 4 (compelling biological evidence). Separate R1/R2 levels address resistance: standard-care and compelling clinical resistance evidence, respectively.
+
+These summaries describe the checked framework definitions, not a current inventory of therapies. ESCAT and OncoKB are **not numerical crosswalks**. A tier-I label cannot automatically be rewritten as OncoKB level 1. Read the original annotation, assessment date, tumor type, alteration, drug, evidence and framework version.
 
 ## Why it matters in cancer
 
-It makes the intended decision explicit before a molecular match is treated as a clinical option.
+A database annotation does not establish that a person meets a label or trial's full inclusion criteria. A [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) has a specified therapy-linked intended use; another assay is not automatically equivalent. Formulation, treatment line, prior therapies, safety and current availability add separate questions. High evidence quality does not eliminate those gates.
 
-## Worked example
+## How evidence is assessed
 
-A genomic scar suggests past repair deficiency. The proposed medicine has an adjuvant label requiring a qualifying germline BRCA variant. The scar does not satisfy that label. A trial or expert-reviewed off-label question would need its own evidence, rather than being described as automatically on-label.
+Write the proposed decision in a sentence. Confirm the exact finding and source, then ask whether the evidence concerns the same disease, treatment setting and outcome. Preserve the publication/annotation version. A research signature, a predicted variant effect and an evidence tier must retain their distinct meanings.
 
 ## Common confusions
 
-- Pathogenicity is not drug sensitivity.
-- CLIA certification does not establish predictive utility for every reported assay.
-- Target engagement, tumor response and survival benefit are distinct outcomes.
+- “Actionable” may mean worth researching, trial-matched, standard care or something else; ask which claim is intended.
+- A low evidence tier is not a measured personal response probability.
+- Trial eligibility and actual access require their own current checks.
+
+## Try it
+
+A fictional report quotes OncoKB level 3B for an alteration–drug pair and calls it established standard treatment in the reported tumor type. What is missing?
+
+**Answer:** Level 3B concerns evidence in another indication. The report needs evidence and an appropriate assessment in the current disease/setting, plus the decision's eligibility and safety context. It cannot promote the annotation by dropping its indication.
+
+## Explain it back
+
+Why should an evidence tier always travel with its framework, version and cancer context?
+
+## Takeaway
+
+Evidence tiers organize claims. They do not make a clinical decision on their own.
 
 ## Related concepts
 
-[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|Biomarker evidence]] and [[wiki/education/molecular-profiling/07-from-data-to-care-plan|five clinical gates]].
-
-
-**Vocabulary:** HRD means homologous recombination deficiency.
+- [prognostic vs predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive)
+- [companion diagnostics](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics)
 
 ## Sources and scope
 
-General teaching, source-checked October 9, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+Source check: October 10, 2026. Fictional report; expert and learner review remain pending. No current drug-availability inventory is asserted.
 
-- [FDA companion diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics).
-- [FDA: off-label use of an approved drug](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label).
-- [ESCAT primary framework](https://pubmed.ncbi.nlm.nih.gov/30137196/).
+- [Mateo et al. 2018 ESCAT framework](https://doi.org/10.1093/annonc/mdy263) — original broad tier definitions; not a complete current target listing.
+- [OncoKB official therapeutic levels](https://www.oncokb.org/content/files/levelOfEvidence/V2/LevelsOfEvidence.pdf) — checked response and resistance definitions; the annotation date/version must accompany actual use.
+- [FDA companion diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics) — therapy-linked intended-use scope.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/effect-measur
 used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,42 +25,61 @@ A p-value describes how incompatible the observed data are with a specified stat
 
 ## The intuition
 
-If you search many drawers, you have more chances to find something surprising. A statistical test asks how surprising a result would be under a stated model. Searching many outcomes and showing only the most striking one hides the size of the search. The analogy stops at probability: the tests may be related, and their assumptions matter.
+Searching many drawers gives you more opportunities to find something surprising. A test asks how unusual a result would be under a stated model. Showing only the most striking result hides the search. The analogy stops at probability: tests can be related, and their assumptions matter.
 
 ## How it works
 
-A **null hypothesis** specifies the comparison being tested, such as no treatment effect on a defined endpoint. A p-value is calculated under that hypothesis and the other analysis assumptions. It concerns results at least as extreme as the observed one under the chosen test.
+A **null hypothesis** states the comparison being tested, such as no treatment effect on a defined endpoint. A p-value is calculated under that hypothesis and the other analysis assumptions. It concerns results at least as extreme as the observed result under the chosen test.
 
-It is not the probability that the hypothesis is true, that the result occurred “by chance,” or that a selected finding is false. A small value also does not measure effect size. [American Statistical Association statement](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf).
+It is not the probability that the hypothesis is true, that the result happened “by chance,” or that a selected finding is false. A small p-value does not measure effect size. [ASA statement](https://doi.org/10.1080/00031305.2016.1154108).
 
-**Multiple testing** occurs when many hypotheses are examined. A confirmatory trial may plan an order of endpoints or allocate its error allowance among comparisons. This plan should be read beside each claim. A later exploratory analysis has a different evidentiary role. [FDA: multiple endpoints](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-endpoints-clinical-trials).
+**Multiple testing** means examining many hypotheses. **Family-wise error rate** is the probability of making at least one false rejection within a defined family. By contrast, [false discovery rate](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate) concerns the expected false fraction among selected findings. They are different error quantities.
 
-One possible method, the **Bonferroni correction**, divides a family-level error allowance by the number of tests. Other methods can use an ordered testing plan or control a different error quantity, such as the [false discovery rate](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate). The right method depends on the question and assumptions.
-
-## Why it matters in cancer
-
-Large molecular datasets contain many genes, pathways and possible subgroups. Finding one small p-value after examining many choices can generate a useful hypothesis. It cannot erase the unreported choices or establish drug benefit.
-
-Keep the effect estimate and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) beside the test result. Check the [analysis plan](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis) and whether the proposed action was actually studied.
+A confirmatory trial may allocate its error allowance across endpoints or use a prespecified testing sequence. A later exploratory analysis has a different role. One method, **Bonferroni correction**, divides the family-level allowance by the number of tests. Its control does not require independent tests, provided the individual tests are valid. The choice of family and method still matters. [FDA multiple-endpoint guidance](https://www.fda.gov/media/162416/download).
 
 ## Worked example
 
-Imagine 20 independent tests, each with a 5% false-positive rate when its null hypothesis is true. Assume every null is true. The probability of at least one false positive is `1 − 0.95^20`, about **64%**. This is invented arithmetic under independence, not a rate measured in cancer research.
+Imagine 20 independent tests, all with true null hypotheses and each with a 5% false-positive probability. The chance of at least one false positive is `1 − 0.95^20 ≈ 64%`. This is fictional arithmetic under independence, not a measured cancer-research rate.
 
-For that same family, dividing 0.05 by 20 gives a Bonferroni threshold of 0.0025 per test. A p-value of 0.03 passes the unadjusted 0.05 threshold but does not pass that planned correction. Real endpoints can be correlated; the 64% calculation cannot simply be carried over.
+For a family-level allowance of 0.05, Bonferroni gives `0.05/20 = 0.0025` per test. A p-value of 0.03 passes an unadjusted 0.05 threshold but fails this correction. Correlation changes the 64% calculation; it does not automatically invalidate Bonferroni.
+
+## What is measured
+
+| Check | Information needed |
+|---|---|
+| Input | The full tested family, hypotheses, test statistics and analysis assumptions. |
+| Specification | One- or two-sided testing, prespecified order and error-control method. |
+| Output | Raw or adjusted p-values, identified as such, beside effect estimates and intervals. |
+| Failure | Choosing outcomes, cutpoints or subgroups after seeing results and hiding those choices. |
+| Cannot tell | Clinical importance, personal benefit or the probability that a hypothesis is true. |
+
+A result that misses a threshold does not demonstrate no effect. Equivalence needs its own margin and analysis. Conversely, a tiny p-value can accompany an effect too small to matter clinically.
+
+## Why it matters in cancer
+
+Molecular studies can examine thousands of genes and pathways. A selected small p-value may generate a useful hypothesis, but cannot establish a drug dependency or benefit. Keep the effect estimate and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) beside it, and read the [analysis plan](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis).
 
 ## Common confusions
 
-- “Not significant” does not prove no effect.
-- A p-value of 0.03 does not mean a 97% probability of benefit.
-- Passing a statistical threshold does not establish clinical importance.
-- A multiplicity-adjusted result cannot repair biased measurements or an irrelevant comparison.
+- p = 0.03 does not mean a 97% probability of benefit.
+- A statistical threshold does not establish clinical importance.
+- Error control cannot repair biased measurements or an irrelevant comparison.
+- A diagnostic false-positive rate describes a test against a reference condition; it is not automatically a multiple-testing allowance.
+- Prespecification reduces analytical flexibility; it does not guarantee a study is well designed.
 
 ## Try it
 
-A report tested 50 pathways and mentions only one with p = 0.04. What is missing?
+A report tested 50 pathways but mentions only one with p = 0.04. What would a Bonferroni threshold be for that family at 0.05?
 
-**Answer:** The full search, analysis choices, correction method, estimated effect and uncertainty. Write down the hypothesis rather than treating the selected pathway as an established dependency.
+**Answer:** `0.05/50 = 0.001`; 0.04 does not pass it. Ask for all tested pathways, the actual planned method, estimated effect and uncertainty. This calculation does not prove the selected pathway has no biological role.
+
+## Explain it back
+
+Explain how “probability of any false finding” differs from “expected false fraction among selected findings.”
+
+## Takeaway
+
+A p-value belongs to a hypothesis and analysis; read it with the full search, effect size and uncertainty.
 
 ## Related concepts
 
@@ -69,10 +88,12 @@ A report tested 50 pathways and mentions only one with p = 0.04. What is missing
 
 ## Sources and scope
 
-Source check: October 9, 2026. Hypothetical arithmetic; expert and learner review remain pending.
+Source check: October 10, 2026. Hypothetical arithmetic; expert and learner review remain pending.
 
-- [American Statistical Association, 2016: principles for p-value interpretation](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf).
+- [Wasserstein and Lazar, 2016: ASA statement on p-values](https://doi.org/10.1080/00031305.2016.1154108).
 - [FDA, 2022: multiple endpoints in clinical trials](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-endpoints-clinical-trials).
+
+- [ASA official 2016 press release summarizing the principles](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

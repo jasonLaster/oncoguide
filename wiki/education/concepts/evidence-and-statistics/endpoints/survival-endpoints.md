@@ -12,8 +12,8 @@ level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -25,55 +25,74 @@ A survival endpoint specifies the starting time and which events count during fo
 
 ## The intuition
 
-A survival curve is a clock with a rule for stopping it. Changing either the starting point or the stop rule changes what the percentage means. “Survival” alone is not enough information to compare studies.
+A survival curve is a clock with a rule for stopping it. Changing the starting point or stop rule changes what its percentage means. The analogy has a limit: a curve estimates a group's experience with incomplete follow-up; it does not predict an individual's stopping time.
 
 ## How it works
 
-Overall survival (OS) counts death from any cause. Progression-free survival (PFS) typically counts progression or death. Event-free survival (EFS) uses a protocol-defined set of events; in a neoadjuvant study it can include progression preventing definitive surgery. Invasive disease-free survival (IDFS) concerns defined invasive disease events and often death after a specified starting point.
+An **event set** specifies which outcomes count, usually taking the first qualifying event. The acronym alone is insufficient. These are useful starting descriptions, with the protocol supplying the actual rules:
 
-Distant recurrence-free interval and distant recurrence-free survival can handle death and other events differently. Disease-free survival also has study-specific definitions. Read the protocol and endpoint definition, rather than assuming a familiar acronym always means the same thing.
+| Endpoint | Event set to check |
+|---|---|
+| **Overall survival (OS)** | Death from any cause. |
+| **Event-free survival (EFS)** | Prespecified events; neoadjuvant trials may include progression that prevents definitive surgery, recurrence, second primary cancer and death. |
+| **Invasive disease-free survival (IDFS)** | Under STEEP definitions: invasive local, regional, distant or contralateral breast events, a second nonbreast invasive primary, or death from any cause. In situ disease is excluded. |
+| **Disease-free survival (DFS)** | Study-defined recurrence, new cancer and/or death events. Do not automatically substitute IDFS or EFS. |
+| **Distant recurrence-free interval (DRFI)** | Under STEEP: distant recurrence or breast-cancer death. A study's death rules must still be checked. |
+| **Progression-free survival (PFS)** | Usually objective progression or death; scan criteria, assessment times and missing assessments matter. |
 
-KEYNOTE-522’s co-primary endpoints were [pCR (pathologic complete response)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) and EFS. Calling its five-year EFS an IDFS result changes the endpoint. Likewise, a postoperative biomarker cohort using a last available draw during the first year is not equivalent to a trial measuring from randomization or a uniform early postoperative draw.
+STEEP 2.0 also defines an invasive breast cancer–free survival endpoint excluding second nonbreast primaries. That is a distinct endpoint, rather than a reason to silently change IDFS. [STEEP 2.0](https://doi.org/10.1200/JCO.20.03613).
 
-An endpoint occurring sooner can make a study feasible, but it is not automatically a validated surrogate for overall survival. Regulatory approval can use different evidence depending on the indication and pathway. There is no universal requirement that a cancer drug demonstrate PFS for full approval. [FDA: cancer-trial endpoints](https://www.fda.gov/media/71195/download).
+Distant recurrence-free **survival** can count any-cause death, unlike the STEEP DRFI definition. Keep the actual paper's rules. A person with a local invasive recurrence who remains alive without distant recurrence may have an IDFS event without an OS or DRFI event.
+
+The clock can begin at randomization, consent, surgery or a biomarker assessment. KEYNOTE-522 used [pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) and EFS as co-primary endpoints; renaming its EFS result IDFS changes the claim. A postoperative cohort's clock is another comparison.
+
+## What is measured
+
+| Reading question | Information needed |
+|---|---|
+| Input | Participant-level dates, event types and follow-up status. |
+| Method | Protocol event set, time origin, censoring rules and analysis cutoff. |
+| Output | A time-specific probability, curve or rate comparison with uncertainty. |
+| Main failure | Mixing clocks, event sets or analysis populations. |
+| Cannot tell | Which individual benefits, or whether an earlier endpoint is a validated substitute for OS. |
+
+Regulatory evidence depends on the indication and pathway. There is no universal requirement that every cancer drug demonstrate PFS for full approval. [FDA endpoint guidance](https://www.fda.gov/media/71195/download).
 
 ## Why it matters in cancer
 
-It makes comparisons between trial results meaningful by retaining their starting points and event definitions.
+A favorable distant-event result does not settle local control or overall survival. A biomarker's association with an endpoint also differs from evidence that acting on that biomarker improves outcomes.
 
-## Worked example
+## Worked example: keep the denominator
 
-A person has a local invasive recurrence but remains alive without distant recurrence. That event may count in IDFS and not yet in a distant-recurrence endpoint; OS still has no death event. All three descriptions can be correct under their definitions.
+Among 1,000 fictional participants, 50 first recurrences are recorded; 20 are assigned to site X. Some follow-up is incomplete.
 
-## An event share is not patient risk
+| Calculation | Question answered |
+|---|---|
+| `20/50 = 40%` | What share of recorded first recurrences was assigned to X? |
+| `20/1000 = 2%` | What crude fraction of enrolled participants had that recorded event? |
 
-Imagine 1,000 fictional participants followed for first recurrence. At the data cutoff, 50 first recurrences have been recorded, with each assigned to one site category; 20 are assigned to site X. Some participants have incomplete follow-up.
-
-```mermaid
-flowchart TD
-  A[1000 enrolled participants] --> B[50 recorded first recurrences]
-  B --> C[20 first recurrences assigned to site X]
-  C --> D[Event share: 20 divided by 50]
-  C --> E[Crude participant fraction: 20 divided by 1000]
-```
-
-*The numerator is the same; the denominators answer different questions.*
-
-The **event share**, 20/50 = 40%, describes site X among recorded first recurrences. The **crude observed participant fraction**, 20/1,000 = 2%, describes those events relative to everyone enrolled. Neither automatically supplies five-year patient risk when follow-up is incomplete or unequal.
-
-A **cumulative incidence** estimate gives the probability of a specified event by a specified time, accounting for follow-up and **competing events** under the analysis's assumptions. A competing event prevents the event as defined: death before recurrence, or a different first-recurrence category when studying site X as the first site. A later recurrence at X is a different question. [Fine and Gray: competing-risk analysis](https://doi.org/10.1080/01621459.1999.10474144).
-
-## Try it
-
-A fictional headline says: “Site X accounts for 40% of first recurrences, so each participant has a 40% risk at that site.” What changed?
-
-**Answer:** The headline switched from the recurrence denominator to the participant denominator and omitted the time horizon. Even the crude 2% participant fraction is not automatically a time-specific incidence estimate. Ask for the endpoint, clock, follow-up and appropriate analysis.
+Neither calculation automatically gives five-year risk. A **cumulative incidence** estimate accounts for follow-up and competing events. Death before recurrence prevents that recurrence; a different first site prevents X from being the first site. A later recurrence at X is a different endpoint. [Fine and Gray](https://doi.org/10.1080/01621459.1999.10474144).
 
 ## Common confusions
 
-- IDFS, EFS, PFS and OS cannot be relabeled to simplify a table.
-- A five-year estimate needs its origin, event definition and population. An event-location share uses a different denominator.
-- A biomarker’s association with an endpoint is different from evidence that acting on it improves that endpoint.
+- Event-location share is not participant risk.
+- A second operation is not automatically an EFS event.
+- “Five-year” needs a starting date; it does not reset when you read the result.
+- DFS, EFS, IDFS, DRFI and PFS are not interchangeable labels.
+
+## Try it
+
+A headline turns “X caused 40% of recorded first recurrences” into “everyone has a 40% five-year risk at X.” What changed?
+
+**Answer:** The denominator changed from recurrences to participants, and a time horizon was added without a supporting time-to-event analysis. Ask for the clock, event set and follow-up.
+
+## Explain it back
+
+Explain how local recurrence, distant recurrence and death can produce different endpoints for the same person.
+
+## Takeaway
+
+Name the clock, event set and denominator before interpreting a survival percentage.
 
 ## Related concepts
 
@@ -81,8 +100,9 @@ A fictional headline says: “Site X accounts for 40% of first recurrences, so e
 
 ## Sources and scope
 
-General teaching, source-checked October 9, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+General teaching, source-checked October 10, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
 
+- [STEEP 2.0: updated event sets and distinct invasive breast cancer–free survival](https://doi.org/10.1200/JCO.20.03613).
 - [STEEP standardized breast-trial endpoint definitions](https://pubmed.ncbi.nlm.nih.gov/17513820/).
 - [KEYNOTE-522 EFS primary report](https://pubmed.ncbi.nlm.nih.gov/35139274/).
 - [Fine and Gray 1999: cumulative incidence and competing risks](https://doi.org/10.1080/01621459.1999.10474144).

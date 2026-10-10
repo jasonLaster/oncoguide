@@ -35,7 +35,7 @@ flowchart TD
 
 ## Read the address on the envelope
 
-Think of a blood tube as a small sample of material moving through the body. It is not a survey of every tumor cell. Some tumors shed more DNA than others. The sampled volume, collection conditions and molecule recovery influence what reaches the test.
+[Detection limits and finite molecule sampling](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) explains why a blood tube is not a survey of every tumor cell. Keep the specimen and input notes attached to this result. [Molecular residual disease (MRD)](/wiki/education/concepts/measurement/liquid-biopsy/mrd) names an assay-defined signal after treatment; it does not locate disease or select an effective intervention.
 
 Start with the collection date, rather than only the report date. A result drawn during treatment answers a different time-point question from one drawn after surgery. Two reports received together may describe different biological moments.
 
@@ -54,7 +54,7 @@ Next identify the assay's job. A test can look for selected known tumor features
 | What was measured? | Quantity, units and numerical qualifications | Prevents comparing unlike scales |
 | What is the limit? | Applicable detection or quantitation criteria | Sets the boundary of the claim |
 
-An invalid or failed sample is not a negative result. Likewise, a detected signal below a reliable quantitation range may support “present” more strongly than an exact fold change. The report's own qualifications deserve to stay beside its number.
+An invalid or failed sample is not a negative result. [Blank, detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) answer different analytical questions. A detected signal below a reliable quantitation range may support “present” more strongly than an exact fold change. The report's own qualifications deserve to stay beside its number.
 
 For mutation-based signals, record how the method checks blood-cell origin. [Clonal hematopoiesis and clonal hematopoiesis of indeterminate potential (CHIP)](/wiki/education/concepts/measurement/liquid-biopsy/chip) can contribute DNA to plasma. A white-blood-cell comparison helps within its sensitivity and coverage; it is not a perfect origin certificate.
 

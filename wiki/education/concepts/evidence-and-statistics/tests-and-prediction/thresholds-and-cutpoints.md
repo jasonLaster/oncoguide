@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/tests-and-pre
 used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,41 +25,74 @@ A threshold or cutpoint turns a continuous measurement or score into categories,
 
 ## The intuition
 
-A thermostat has a setting that changes what the heating system does. Moving the setting changes how often it acts; it does not change what temperature was measured. A test threshold similarly changes who is called positive. The analogy ends at consequences: a clinical action can have much greater and more varied costs.
+A ruler measures a continuum; drawing a line on it creates categories. Moving the line changes who lands on each side without changing the measurements. The analogy cannot decide where a clinically useful line belongs: actions, harms and validation supply that context.
 
 ## How it works
 
-A threshold can serve different jobs. An analytical threshold describes reliable detection. A diagnostic threshold classifies a condition. A treatment-selection threshold identifies a group studied with a particular intervention. A decision threshold may reflect the balance of benefit, harms and preferences. These are not interchangeable.
+A **threshold** or **cutpoint** applies a rule to a continuous measurement or score. These different thresholds answer different questions:
 
-For a continuous score, lowering the positive threshold commonly increases sensitivity while reducing specificity when higher values indicate the condition. Keep the direction and the [reference standard](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) explicit. Report performance for the intended population and locked threshold. [FDA: diagnostic test reporting](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
+| Threshold | Question |
+|---|---|
+| Analytical | Can the assay detect or reliably quantify this signal? |
+| Diagnostic | Does the result classify a defined condition? |
+| Study eligibility | Does a person meet the protocol's entry criterion? |
+| Treatment selection or decision | Does evidence support a particular action at this value? |
 
-An **outcome-optimized cutpoint** is selected because it makes groups look most different in the available outcome data. Trying many cutpoints and reporting the winner creates a [multiple-testing](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) problem and optimistic performance. A locked rule needs suitable independent evaluation. [Altman and colleagues: choosing cutpoints](https://doi.org/10.1093/jnci/86.11.829).
+An assay's detection limit is not automatically a treatment threshold. A study entry cutoff is not proof of greater benefit above it.
 
-## Why it matters in cancer
+If higher scores are called positive, lowering the threshold generally increases sensitivity and decreases specificity in the same fully assessed sample. Check equality at the boundary, units and handling of missing or indeterminate results. [FDA diagnostic reporting guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
 
-Assay scores and expression percentages often sit beside a proposed drug. Ask who chose the cutoff, for which specimen and disease setting, and whether the rule predicted a treatment difference. A detectable target and a treatment-validated cutoff answer different questions.
+Picking the “best” cutoff from the same outcomes used to report performance can exaggerate separation. Searching many cutpoints adds analytical choices; categories also discard information within each group. Lock the rule, then evaluate it in independent data. [Altman and colleagues](https://doi.org/10.1093/jnci/86.11.829); [Altman and Royston](https://pmc.ncbi.nlm.nih.gov/articles/PMC1458573/).
 
 ## Worked example
 
-Ten fictional samples include four with the defined condition and six without it. A threshold of 0.7 calls two affected and one unaffected sample positive. Sensitivity is `2/4 = 50%`; specificity is `5/6 = 83.3%`.
+Ten fictional samples have a defined condition in four and lack it in six. All have test and reference results. Higher scores are positive.
 
-Lowering the threshold to 0.4 calls three affected and three unaffected samples positive. Sensitivity rises to `3/4 = 75%`; specificity falls to `3/6 = 50%`. You gained one true positive and added two false positives. Whether that tradeoff helps depends on what happens next. These counts are invented, with complete classification and no missing samples.
+| Rule | True positives | False positives | Sensitivity | Specificity | PPV |
+|---|---:|---:|---:|---:|---:|
+| Positive at score ≥0.7 | 2 | 1 | `2/4 = 50%` | `5/6 ≈ 83.3%` | `2/3 ≈ 66.7%` |
+| Positive at score ≥0.4 | 3 | 3 | `3/4 = 75%` | `3/6 = 50%` | `3/6 = 50%` |
 
-The [positive predictive value](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) also changes: from `2/3` to `3/6` in this sample. Neither rule is established for a clinical use by ten examples.
+Lowering the line finds one more affected sample and adds two false positives. It does not create a universally better test. These tiny invented counts illustrate tradeoffs, not a validated cutoff.
+
+## What is measured
+
+| Check | Information needed |
+|---|---|
+| Input | Continuous measurements, reference outcomes and intended action. |
+| Rule | Exact value, units, assay/model version, direction, equality and missing-result handling. |
+| Output | Classification counts and performance with uncertainty. |
+| Validation | Independent population, locked rule and endpoint appropriate to the action. |
+| Failure | Choosing a cutoff after seeing outcomes, then reporting the same data as independent validation. |
+| Cannot tell | Clinical benefit merely from statistical separation. |
+
+An optimization criterion can weight errors differently from the real decision. The harms of a missed condition and an unnecessary intervention need not be equal. A mathematical maximum therefore does not establish the best clinical threshold for every setting.
+
+## Why it matters in cancer
+
+Scores may be continuous even when reports use “high” and “low.” A value just across the line need not represent a sharp biological switch. Two platforms may report different scales; copying a cutoff without its assay and version can change the meaning. Follow [test performance and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) through to the intended-use evidence.
 
 ## Common confusions
 
-- Crossing a cutoff does not turn uncertainty off.
-- A threshold validated with one antibody, assay or specimen may not transfer to another.
-- The best-looking cutoff in training data is not automatically the best clinical rule.
-- An analytical limit of detection is not a threshold proving benefit from treatment.
-- Keeping a continuous result can preserve information lost by dividing it into two groups.
+- Detectable, quantifiable, positive and actionable are distinct claims.
+- A statistically optimized cutoff is not automatically clinically useful.
+- An eligibility boundary is not a treatment-benefit boundary.
+- Dichotomizing a score does not make underlying biology binary.
+- A threshold from one platform cannot be assumed equivalent on another.
 
 ## Try it
 
-A company picks the cutoff after seeing which participants responded, then reports excellent accuracy on those same participants. What would strengthen the claim?
+Which fictional rule has fewer missed conditions? Does that establish the better treatment decision?
 
-**Answer:** Report the selection process, lock the method and cutoff, then test the intended use in suitably independent data. If the claim is improved care, that action needs its own evidence too.
+**Answer:** The ≥0.4 rule misses one rather than two, but produces three rather than one false positive. Choosing an action requires its evidence and consequences; sensitivity alone does not settle it.
+
+## Explain it back
+
+Explain why detecting a signal and deciding to act on it require different thresholds and evidence.
+
+## Takeaway
+
+Keep the exact rule, platform, validation population and intended action beside a cutoff.
 
 ## Related concepts
 
@@ -69,10 +102,12 @@ A company picks the cutoff after seeing which participants responded, then repor
 
 ## Sources and scope
 
-Source check: October 9, 2026. Fictional sample counts; expert and learner review remain pending.
+Source check: October 10, 2026. Fictional sample counts; expert and learner review remain pending.
 
 - [FDA, 2007: reporting diagnostic test performance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
 - [Altman et al., 1994: dangers of optimal cutpoints](https://doi.org/10.1093/jnci/86.11.829).
+
+- [Altman and Royston, 2006: information loss and data-selected cutpoints](https://pmc.ncbi.nlm.nih.gov/articles/PMC1458573/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

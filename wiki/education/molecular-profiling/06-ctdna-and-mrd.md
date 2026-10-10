@@ -25,7 +25,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 This is step 14 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|Cell-free DNA (cfDNA) versus ctDNA]] explains the mixed-origin material in a blood sample.
 
-**[[about/Terminology#mrd|Molecular residual disease (MRD)]]** means a molecular signal remaining after treatment. Detection can precede visible disease in some contexts, but it does not by itself identify a useful treatment or show where disease lies. The [[about/Terminology#mrd|MRD definition]] keeps those claims separate.
+[Molecular residual disease (MRD)](/wiki/education/concepts/measurement/liquid-biopsy/mrd) owns the stable definition. In this multi-omics workflow, keep the molecular signal separate from disease location and the evidence for an effective intervention.
 
 ## Begin with the assay's job
 
@@ -43,13 +43,13 @@ Actual platforms can combine features. Read the assay specification rather than 
 
 Some reports estimate tumor fraction in **parts per million (PPM)**. Others use a concentration quantity such as tumor molecules per milliliter. VAF uses variant-supporting observations at a location. These quantities cannot be universally converted into one another.
 
-Record assay version, collection time, input, units, detection call and quantitation qualification together. Below a reliable quantification boundary, the report may support detection more strongly than a precise trend. A smaller number is not automatically a precisely measured biological reduction.
+Record assay version, collection time, input, units, detection call and quantitation qualification together. [Blank, detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) explains those qualifications. Below a reliable quantification boundary, the report may support detection more strongly than a precise trend. A smaller number is not automatically a precisely measured biological reduction.
 
 ## A worked negative result
 
 Imagine a fictional tumor that sheds little DNA into blood. Its sample returns “not detected.” That means no qualifying signal was found under the assay's conditions. It does not mean no cancer cells exist anywhere.
 
-An **analytical detection limit** asks how reliably a specified signal can be found under test conditions. **Clinical sensitivity** asks how often disease is detected in a defined population at a defined time. Excellent laboratory performance cannot retrieve tumor DNA that did not enter the tube.
+An **analytical detection limit** asks how reliably a specified signal can be found under test conditions. **Clinical sensitivity** asks how often disease is detected in a defined population at a defined time. Excellent laboratory performance cannot retrieve tumor DNA that did not enter the tube. [Finite molecule sampling](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) explains that boundary.
 
 Now imagine a detectable signal on a later draw. Check sample quality, timing, assay consistency and tumor origin before interpreting the change. The test does not locate a lesion. Imaging, tissue and clinical assessment answer complementary questions.
 
