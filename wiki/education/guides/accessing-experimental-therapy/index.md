@@ -24,10 +24,10 @@ You do not need to solve every regulatory detail yourself. The useful goal is to
 ## The big ideas
 
 1. [Off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) concerns an approved drug used outside its labeling. A never-approved product needs a different access route.
-2. [Clinical trials and expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) serve different primary purposes. A single-patient Investigational New Drug (IND) application is one expanded-access mechanism.
+2. [Clinical trials and expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) serve different primary purposes. A single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) is one expanded-access mechanism, rather than a marketing approval.
 3. A trial's [phase and assignment design](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) describe its scientific plan. They do not establish an individual's eligibility or guarantee the experimental arm.
-4. “Recruiting” is an invitation to check availability. A site and the relevant cohort must still be open, and screening must establish eligibility.
-5. Supplier agreement, review, consent, product readiness and monitoring are separate gates. Authorization to proceed is not evidence that treatment will help.
+4. [Finding a trial](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial) starts with a registry record. “Recruiting” is an invitation to check availability. A site and the relevant cohort must still be open, and screening must establish eligibility.
+5. [Approval pathways and expedited designations](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) distinguish authorization from development support. Supplier agreement, review, consent, product readiness and monitoring are separate gates. Authorization to proceed is not evidence that treatment will help.
 
 ## The map
 
@@ -58,6 +58,8 @@ Minutes are suggested reading budgets. Each lesson includes a fictional case, a 
 ## Concepts you will use
 
 Start with [drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) and [clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access). Then read [trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) before interpreting a study invitation.
+
+An [investigator-initiated trial](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials) needs the same clear responsibility questions: who sponsors, investigates and supplies? [IND versus marketing applications](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) explains the different regulatory jobs.
 
 For a therapy suggested by a report, [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) and [judging a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index) help separate the access question from the evidence question.
 

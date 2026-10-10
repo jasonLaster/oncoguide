@@ -55,7 +55,11 @@ The minutes are suggested reading budgets. Each lesson uses a fictional report, 
 
 Start with the [three validity questions](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) and [prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive). Then read [laboratory and test labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers), [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) and [positive predictive value and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) when inspecting a report.
 
+[Companion diagnostics](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) help check a treatment's actual testing requirement. [Approval pathways and expedited designations](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) prevent a regulatory badge from answering the wrong question.
+
 If the claim includes a drug, the next foundations are [drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) and [trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization).
+
+For laboratory compound claims, [chemical probes and target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) help interpret mechanism experiments. [Pharmacokinetics and half-life](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) separates the administered amount from exposure in the body.
 
 ## Applied to Diana
 

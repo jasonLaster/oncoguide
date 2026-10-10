@@ -44,7 +44,7 @@ flowchart TD
   E --> F[Infer and quantify supported proteins]
 ```
 
-An estimated **false discovery rate (FDR)** describes the expected proportion of incorrect identifications in a defined accepted set under the method's assumptions. Peptide, spectrum and protein levels require their own reporting. An acceptable set-level FDR does not guarantee every individual identification.
+An estimated [false discovery rate (FDR)](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate) concerns the expected proportion of incorrect identifications in the defined accepted set under the method's assumptions. Peptide, spectrum and protein levels require their own reporting. An acceptable set-level FDR does not guarantee every individual identification.
 
 ## Why it matters in cancer
 

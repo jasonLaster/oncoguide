@@ -3,9 +3,9 @@ title: "Why a T-cell count does not tell the whole story"
 type: "guide-lesson"
 guide: "how-the-immune-system-fights-cancer"
 step: 3
-minutes: 8
+minutes: 9
 objectives: ["Separate T-cell abundance, target specificity and function.", "Explain why one checkpoint marker cannot assign a complete cell state."]
-prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]", "[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]"]
+prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]", "[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]", "[[wiki/education/concepts/immunology/t-cells/regulatory-t-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -19,7 +19,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 **To understand a T-cell response, ask which cells are present, what they recognize and what they can do. A count answers only the first question.**
 
-It is reassuring to see immune cells in a picture. It is also tempting to give them a job before checking. Some may recognize cancer. Others may respond to an infection, regulate inflammation or simply share the neighborhood.
+It is reassuring to see immune cells in a picture. It is also tempting to give them a job before checking. Some may recognize cancer. Others may respond to an infection, [regulate immune responses](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) or simply share the neighborhood.
 
 **Before you start:** [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) explains the biological categories. [The T-cell repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) explains the sampled receptor collection. [Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) introduces regulation.
 
@@ -36,6 +36,12 @@ Imagine counting everyone in a workshop. The count does not tell you who has the
 A **naive** T cell has not undergone its initial antigen-driven activation. An **effector** cell has acquired response functions. **Memory** describes persistence and potential for a renewed response. These are starting categories rather than promises about one cell’s future.
 
 Two other labels need care. **Anergy** describes antigen-related hyporesponsiveness, often involving inadequate supporting signals. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. They are different mechanisms. An exhausted population can include cells with different capacities to divide and respond.
+
+## Regulation is another job, not an exhausted state
+
+**Regulatory T cells**, often shortened to **Tregs**, help protect tolerance and limit excessive responses. Some can also restrain useful immunity near a tumor. They are not simply worn-out effector cells. Their regulatory role and an effector cell's exhaustion program describe different things.
+
+A stain for forkhead box P3, or FOXP3, is a clue to a regulatory program. In human cells, FOXP3 expression alone does not establish suppressive function. The [regulatory-cell concept](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) explains the marker panel and functional distinction. A report should preserve cell identity, region and measured function before concluding which population is limiting a response.
 
 ## Read a marker as a clue
 
@@ -96,4 +102,5 @@ Source check: October 9, 2026. General cell-state interpretation; fictional exam
 - [Siddiqui et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30635237/) — tumor experiments and melanoma observations.
 - [Utzschneider et al., 2016: TCF1 and chronic-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct disease context.
 - [Han et al., 2014: receptor identity and cell phenotype](https://www.nature.com/articles/nbt.2938).
+- [Tran et al., 2007: induced FOXP3 without suppressive function](https://pubmed.ncbi.nlm.nih.gov/17644734/) — human T-cell culture experiments.
 - [National Cancer Institute (NCI): checkpoint-inhibitor mechanism](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).

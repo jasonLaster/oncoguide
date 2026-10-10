@@ -61,7 +61,7 @@ A fictional screening report advertises “90% specificity,” then claims every
 - 90% specificity is not 90% PPV.
 - NPV is not one minus sensitivity: they start with different groups.
 - A negative prediction of early shrinkage does not necessarily rule out eventual pCR.
-- AUC summarizes ranking across thresholds; PPV concerns a defined threshold and population.
+- [ROC area (AUC)](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index) summarizes ranking across thresholds; PPV concerns a defined threshold and population.
 
 ## Related concepts
 

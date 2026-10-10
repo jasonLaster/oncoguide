@@ -31,11 +31,21 @@ Picture a fire spreading through a cell's oily membrane. Fire prevention, the ma
 
 **Lipid peroxidation** is oxidative damage to lipids. Some membrane lipids are especially vulnerable because their fatty-acid chains contain several double bonds. Iron participates in chemistry that can amplify damage. If damage exceeds defenses, the membrane system fails and the cell can die.
 
-One protective enzyme is **glutathione peroxidase 4 (GPX4)**. It reduces lipid hydroperoxides, damaged lipid products, using the antioxidant molecule glutathione. This is one important defense, not the only defense. [Yang 2014](https://pubmed.ncbi.nlm.nih.gov/24439385/).
+One protective enzyme is **glutathione peroxidase 4 (GPX4)**. It reduces lipid hydroperoxides, damaged lipid products, using the antioxidant molecule glutathione. This is one important defense, not the only defense. **Ferroptosis suppressor protein 1 (FSP1)** supplies a parallel defense by regenerating reduced coenzyme Q, which can trap lipid radicals. Primary experiments showed why resistance to GPX4 disruption varies across models. [Bersuker 2019](https://pubmed.ncbi.nlm.nih.gov/31634900/). [Yang 2014](https://pubmed.ncbi.nlm.nih.gov/24439385/).
 
 Cells can supply building blocks for glutathione through nutrient transport and metabolism. System xC− is a transporter that exchanges extracellular cystine for intracellular glutamate. Cystine can support cysteine supply for glutathione synthesis. Disrupting this route can trigger ferroptosis in susceptible experimental conditions. [Dixon 2012](https://pubmed.ncbi.nlm.nih.gov/22632970/).
 
-**Reactive oxygen species (ROS)** is a broad name for reactive oxygen-containing molecules. A rise in a general ROS signal does not identify membrane-lipid damage or ferroptosis. Other kinds of cell death can occur under oxidative stress.
+[**Reactive oxygen species (ROS)**](/wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species) is a broad name for reactive oxygen-containing molecules. A rise in a general ROS signal does not identify membrane-lipid damage or ferroptosis. Other kinds of cell death can occur under oxidative stress.
+
+```mermaid
+flowchart TD
+  A[Lipid oxidation] --> B[Uncontrolled membrane damage]
+  B --> C[Cell death]
+  D[GPX4 defense] --> E[Limit lipid damage]
+  F[FSP1 defense] --> E
+```
+
+*Several defenses can contain damage; their presence alone does not quantify their protective function.*
 
 ## Why it matters in cancer
 
@@ -58,7 +68,23 @@ Together, these findings support ferroptosis in this model. General cell death a
 
 ## How it is measured
 
-Researchers combine viability, timing of lipid peroxidation, iron dependence, and rescue experiments. They may also compare genetic and pharmacologic perturbation of a proposed defense. Probe specificity, concentration, culture nutrients, and cell density can alter the result. Use a converging set of measurements rather than a single color change.
+Researchers combine viability, timing of lipid peroxidation, iron dependence, and rescue experiments. They may also compare genetic and pharmacologic perturbation of a proposed defense. Probe specificity, concentration, culture nutrients, and cell density can alter the result. Live death/rescue tests consume viable cells or models. Outputs can include a lipid-probe oxidation ratio and independently measured death percentage over a specified interval. No single staining threshold establishes ferroptosis or selects a treatment. These are research readouts with protocol-specific controls. Use a converging set of measurements rather than a single color change.
+
+## Try it
+
+A fictional culture has abundant GPX4 protein. Its general ROS signal rises after treatment, but no death occurs. Has ferroptosis been demonstrated?
+
+**Answer:** No. GPX4 amount does not measure its function, and the ROS signal does not establish lipid damage or death. Measure the proposed sequence, relevant rescue and alternative defenses before assigning the mechanism.
+
+## Explain it back
+
+“Ferroptosis needs evidence of ___, rather than only ___.”
+
+One answer: “iron-dependent lipid damage causing death; general oxidation or an antioxidant protein amount.”
+
+## Takeaway
+
+**Diagnose the damage-driven death process with converging evidence, then test its clinical relevance separately.**
 
 ## Related concepts
 
@@ -71,6 +97,7 @@ Source check: 2026-10-09. General mechanism education; the worked example is fic
 - [Dixon 2012: experimental definition of ferroptosis](https://pubmed.ncbi.nlm.nih.gov/22632970/).
 - [Yang 2014: GPX4 regulation of ferroptotic cancer-cell death](https://pubmed.ncbi.nlm.nih.gov/24439385/).
 - [Yang 2016: peroxidation of polyunsaturated fatty acids and ferroptosis](https://pubmed.ncbi.nlm.nih.gov/27506793/).
+- [Bersuker 2019: FSP1 and coenzyme-Q protection parallel to GPX4](https://pubmed.ncbi.nlm.nih.gov/31634900/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

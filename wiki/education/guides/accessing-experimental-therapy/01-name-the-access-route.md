@@ -12,14 +12,14 @@ guide: "accessing-experimental-therapy"
 step: 1
 minutes: 12
 objectives: ["Distinguish off-label prescribing, clinical trials, expanded access and federal Right to Try.", "Separate permission to proceed from evidence of patient benefit."]
-prerequisites: ["[[wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use]]", "[[wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access]]"]
+prerequisites: ["[[wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use]]", "[[wiki/education/concepts/access-and-regulation/approval/fda-approval-types]]"]
 ---
 
 # Name the access route
 
 **Start with the exact product and proposed use, then identify the pathway that could make it available.** The name of a pathway tells you how access might work. It does not tell you whether treatment is a good choice.
 
-**Before you start:** [Drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) separates an approved medicine from an approved use. [Clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) explains the research and treatment routes for investigational products.
+**Before you start:** [Drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) separates an approved medicine from an approved use. [Approval pathways and expedited designations](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) separates a marketing decision from development or review support.
 
 ## Where this step sits
 
@@ -27,7 +27,7 @@ This is the first lesson in [accessing experimental therapy](/wiki/education/gui
 
 ## Ask two opening questions
 
-First: “Is this product approved for any use in the United States?” Second: “Does its current labeling include the proposed use?”
+First: “Is this product approved for any use in the United States?” Second: “Does its current labeling include the proposed use?” A breakthrough designation, a priority-review announcement or a submitted application cannot substitute for the actual approval decision.
 
 If the answer to both is yes, the discussion concerns a label-matched treatment, along with clinical suitability and practical access. If the product is approved but the use differs, the discussion may concern off-label prescribing. If the product has never been approved, ordinary prescribing does not by itself provide access.
 
@@ -45,9 +45,7 @@ Be specific about the product. A redesigned cell product or a new personalized f
 
 These are categories to clarify with the treating team. They are not interchangeable shortcuts.
 
-A **clinical trial** follows a study protocol. It can include established drugs as well as investigational products. The purpose is to answer research questions, and the exact treatment may depend on assignment.
-
-**Expanded access** considers an investigational product outside a trial when the required criteria are met. An **Investigational New Drug (IND) application** is a regulatory submission that can support that use. A single-patient IND is one form of expanded access; it is not a separate competing pathway. Supplier willingness, clinical risk assessment and applicable reviews still matter.
+Use [clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) to identify which purpose and safeguards apply. A trial can study established drugs, and a single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) can support expanded access. Supplier willingness and applicable clinical and review requirements remain separate questions.
 
 **Federal Right to Try** has distinct patient and product requirements. Among them, the patient must have a life-threatening condition, have exhausted approved options, and be unable to participate in a trial of the eligible drug. Product requirements include completed phase 1 testing and active development under specified conditions. The Food and Drug Administration (FDA) does not review individual Right to Try requests, and the law does not require the supplier to provide treatment. Ask the responsible physician and supplier to verify the full current criteria.
 
@@ -61,6 +59,7 @@ The next useful question is different for each. For Drug A, ask for the evidence
 
 ## What can go wrong at this step
 
+- **A designation becomes approval.** Ask for the actual decision and current label.
 - **Availability becomes a benefit claim.** Authorization to proceed does not establish effectiveness.
 - **Off-label and never-approved products are merged.** Their access mechanisms differ.
 - **A supplier's earlier authorization becomes this patient's authorization.** Verify the exact product and proposed plan.
@@ -90,4 +89,5 @@ U.S. source check: October 9, 2026. Mara and all products are fictional. Expert 
 
 - [FDA: understanding off-label use](https://www.fda.gov/understanding-unapproved-use-approved-drugs-label) — approved drug, unapproved use.
 - [FDA: expanded-access overview](https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-treatment-expanded-access-overview) — criteria and submission categories.
+- [FDA: expedited development and review programs](https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review) — designation and approval distinctions.
 - [FDA: Right to Try](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try) — patient and product criteria, review and supply limitations.

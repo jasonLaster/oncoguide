@@ -77,6 +77,8 @@ Suppose the same trial separately reports a **hazard ratio (HR)** of 0.68, with 
 
 ## Keep the interval in the sentence
 
+For a binary response endpoint, a report may use an [odds ratio (OR)](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio). In a separate fictional comparison, 40 responses among 100 people versus 20 among 100 give a risk ratio of two and an odds ratio of 2.67. Odds divide responses by non-responses. Calling 2.67 “times the chance” changes the denominator. Keep this distinct from both the five-year risk ratio and the hazard ratio above.
+
 Suppose the fictional five-year absolute reduction has a 95% confidence interval from 2 to 10 percentage points. The corresponding number-needed-to-treat limits are 10 to 50, reversing the positive risk-difference limits. Do not report 17 as though it were exact. If a risk-difference interval crosses zero, the transformed interval can span benefit, infinity, and harm. Reporting the risk difference and its interval is often clearer. [Altman: confidence intervals for number needed to treat](https://doi.org/10.1136/bmj.317.7168.1309).
 
 A confidence interval is not a range containing 95% of patients. Its coverage describes the method across repeated studies under its assumptions, not a 95% probability assigned to a fixed effect after seeing this interval.

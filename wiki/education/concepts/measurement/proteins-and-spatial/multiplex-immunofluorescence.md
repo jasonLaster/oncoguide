@@ -7,7 +7,7 @@ aliases: [multiplex immunofluorescence, mIF, multiplexed immunofluorescence, cyc
 glossary_anchor: "mif"
 level: advanced
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 sensitive: false
 tags: [education, measurement]
 updated: "2026-10-09"
@@ -96,6 +96,7 @@ Source-checked October 9, 2026. Spatial measurement principles and a fictional i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 - [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
 - [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

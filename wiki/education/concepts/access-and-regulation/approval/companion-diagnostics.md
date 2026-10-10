@@ -1,0 +1,87 @@
+---
+title: "Companion diagnostics"
+type: "concept"
+domain: "access-and-regulation/approval"
+summary: "A companion diagnostic supplies information essential to the safe and effective use of a corresponding treatment in its specified context."
+glossary_anchor: "companion-diagnostics"
+aliases: ["companion diagnostic","CDx"]
+level: "intermediate"
+prerequisites: ["[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]"]
+sensitive: false
+tags: ["education", "access-and-regulation"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
+reviewed: "pending"
+reviewed_by: ""
+review_status: "Source-checked; expert and learner review pending"
+---
+
+# Companion diagnostics
+
+## In one sentence
+
+A companion diagnostic supplies information essential to the safe and effective use of a corresponding treatment in its specified context.
+
+## The intuition
+
+Think of a treatment and a required information check that belong together. The check might identify a molecular feature needed for the treatment decision. Knowing the feature's name is only part of the task: the assay, specimen and decision rule also matter.
+
+This is not a guarantee that someone with a positive result will benefit. The pairing identifies an essential information requirement, while the clinical team still assesses the whole treatment context.
+
+## How it works
+
+The **Food and Drug Administration (FDA)** defines a companion diagnostic, often abbreviated **CDx**, as a device that provides information essential to the safe and effective use of a corresponding therapeutic product. It is often an in vitro test on a specimen; some authorized companion devices are imaging tools.
+
+The information can identify people more likely to benefit, people at increased risk of serious adverse effects, or a treatment-monitoring circumstance specified in the labeling. Read the actual authorization and instructions rather than assuming that every companion diagnostic performs the same job.
+
+The treatment's label and the device's instructions identify the intended context. That may include a cancer type, biomarker, specimen and decision rule. Some diagnostic devices have appropriate labeling for a group of oncology therapies. Group labeling is a documented scope, not permission to extend the result to every drug with a similar target.
+
+An ordinary molecular report does not become a companion diagnostic because it lists medicines. Likewise, two tests measuring a similarly named feature are not automatically interchangeable. They may examine different material, variants or thresholds.
+
+The [three validity questions](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) remain useful: does the test measure correctly, does its result have clinical meaning here, and does its intended use support helpful care? An authorization applies to its specified use. It does not validate every later claim attached to a report.
+
+## Why it matters in cancer
+
+A treatment-selection rule may require a particular molecular result. A research score, a broad gene-panel finding and an authorized companion result can each contain useful information while answering different questions. Ask which evidence satisfies the proposed treatment's actual label.
+
+A failed or inadequate test is also a distinct result. It should not silently become biomarker-negative. Sample quality, prior treatment and the intended specimen can matter.
+
+## How it is checked and measured
+
+There is no universal companion-diagnostic unit. Outputs might be a variant detected, a stain category or an imaging assessment. Use the device-specific method, thresholds and limitations.
+
+Inspect the exact device version, specimen, laboratory method, reported result, corresponding treatment and both labels. FDA's authorized-device list is a starting point, followed by the underlying authorization and instructions. Laboratory certification and [research-use labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) answer separate questions.
+
+## Common confusions
+
+- A report's drug list is not a companion-diagnostic authorization.
+- The same gene name does not establish assay interchangeability.
+- A positive label-matched biomarker does not promise response.
+- A test can be clinically useful without being a companion diagnostic; the category has a specific regulatory meaning.
+
+## Try it
+
+In a fictional case, Drug A's label requires Marker M under a defined test context. A research assay reports an M-related score from a different specimen. Has the requirement been met?
+
+**Answer:** The shared marker name is insufficient. Compare the actual result, intended use and assay evidence with the treatment and device labels. The responsible clinical team must resolve whether additional testing is needed.
+
+## Related concepts
+
+[Drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) explains the proposed use. [Clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) connects findings to specific decisions.
+
+## Sources and scope
+
+U.S. source check: October 9, 2026. The example is fictional; no product interchangeability or patient eligibility is decided. Expert and learner review pending.
+
+- [FDA: companion diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics) — definition and purposes.
+- [FDA: authorized companion devices](https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools) — specific and group-label contexts.
+- [FDA: group or class labeling for oncology companion diagnostics](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/developing-and-labeling-in-vitro-companion-diagnostic-devices-specific-group-oncology-therapeutic) — April 2020 final guidance.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
+- [Connect evidence to a decision](/wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision)
+- [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
+<!-- END GENERATED USED IN -->

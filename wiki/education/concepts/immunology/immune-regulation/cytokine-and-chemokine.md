@@ -33,9 +33,9 @@ Many immune and nonimmune cells make cytokines. A compatible [receptor](/wiki/ed
 
 Chemokines can form local concentration gradients. Cells bearing compatible receptors can respond to those gradients and to signals displayed at vessel walls or within tissue. Reaching a destination also requires movement through vessels and tissue. A chemokine signal cannot by itself open every physical barrier. [The immune-response chapter](https://www.ncbi.nlm.nih.gov/books/NBK27122/) describes how these signals cooperate with cell trafficking.
 
-Responses depend on dose, duration, receptor availability, cell state and other signals. One cytokine can support several populations. **Interleukin 2 (IL-2)**, for example, can support both effector and regulatory T cells. Regulatory cells help restrain immune responses. More cytokine therefore does not mean more cancer killing.
+Responses depend on dose, duration, receptor availability, cell state and other signals. One cytokine can support several populations. **Interleukin 2 (IL-2)**, for example, can support both effector and [regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells). Regulatory cells help restrain immune responses. More cytokine therefore does not mean more cancer killing.
 
-Some cytokines are called interleukins; others are called interferons or have different names. The name alone does not tell you the full biological effect. Chemokine names also do not establish which cells will enter a particular tumor. Measurements of the receiver and the surrounding tissue add context.
+Some cytokines are called interleukins; others are called [interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) or have different names. The name alone does not tell you the full biological effect. Chemokine names also do not establish which cells will enter a particular tumor. Measurements of the receiver and the surrounding tissue add context.
 
 ## Why it matters in cancer
 

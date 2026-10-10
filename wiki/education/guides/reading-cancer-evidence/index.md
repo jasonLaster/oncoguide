@@ -50,6 +50,8 @@ Start with [trial phases and randomization](/wiki/education/concepts/evidence-an
 
 For the numbers, use the [Kaplan–Meier curve](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier), [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio), [absolute risk, relative risk, and number needed to treat](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt), and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) pages. They are reference stops, not extra lessons you must memorize.
 
+For a response result, check the [odds ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio). For a statistical claim, bring in [p-values and multiple testing](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) and [planned versus exploratory analysis](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis). [Meta-analysis](/wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis) explains what pooling studies adds and what it leaves unresolved.
+
 When a test result becomes a proposed action, bring in [analytical validity, clinical validity, and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility). [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) explains why earlier detection needs its own benefit comparison.
 
 ## A claim to carry through the guide

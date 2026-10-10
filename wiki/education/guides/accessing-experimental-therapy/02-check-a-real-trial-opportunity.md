@@ -12,14 +12,14 @@ guide: "accessing-experimental-therapy"
 step: 2
 minutes: 12
 objectives: ["Check protocol fit, site availability and relevant cohort separately.", "Explain randomization, controls and the difference between pre-screening and enrollment."]
-prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]", "[[wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access]]"]
+prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]", "[[wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial]]"]
 ---
 
 # Check a real trial opportunity
 
 **A trial becomes a real option only when the relevant site and cohort can evaluate the patient under the current protocol.** A registry listing is the beginning of that check.
 
-**Before you start:** [Trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) explains what a study asks and how it assigns treatment. [Clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) separates trial participation from treatment outside a study.
+**Before you start:** [Trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) explains what a study asks and how it assigns treatment. [Finding a trial](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial) moves from a registry record to a dated site and cohort check.
 
 ## Where this step sits
 
@@ -37,7 +37,9 @@ A clinician and study team can distinguish a clear mismatch from a question requ
 
 ## Ask about the cohort and the site
 
-A study may have several cohorts: groups defined by disease, biomarker, dose or treatment history. The overall study can be recruiting while the cohort of interest is closed. Likewise, one site may be listed but not currently enrolling that cohort.
+Carry the exact cohort and site into the conversation. An overall recruiting record does not confirm that either can enroll the relevant patient now.
+
+An [investigator-initiated trial](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials) describes who initiated the research; it is not a phase or an exemption from safeguards. Ask who sponsors the protocol, who conducts care at this site, and who supplies the product.
 
 Use a compact screening record:
 
@@ -96,4 +98,5 @@ Source check: October 9, 2026. Mara's study is fictional, with no claim of a cur
 
 - [NCI: steps to find a clinical trial](https://www.cancer.gov/research/participate/clinical-trials-search/steps) — eligibility preparation and site contact.
 - [NCI: how clinical trials work](https://www.cancer.gov/research/participate/clinical-trials/how-trials-work) — assignment and controls.
+- [FDA: investigator-initiated IND resources](https://www.fda.gov/drugs/investigational-new-drug-ind-application/investigator-initiated-investigational-new-drug-ind-applications) — research origin and regulatory responsibilities.
 - [NCI: what to expect during a clinical trial](https://www.cancer.gov/research/participate/clinical-trials/what-to-expect) — pre-screening, consent and screening stages.

@@ -51,7 +51,9 @@ A report often carries a chain of reasoning:
 
 Mark each part as measured, inferred, proposed, or unknown. An observation can be sound while later steps remain hypotheses. That preserves the value of the measurement without silently extending it.
 
-The [status label](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) deserves its own line. Expand **research use only (RUO)** when that label appears. Identify the laboratory that produced the result and the exact test service. A company's clinical offering and research offering may have different intended uses.
+The [research-use, laboratory and test-status label](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) deserves its own line. Identify the exact laboratory, service and intended use. If treatment requires a [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics), check that label-defined requirement separately from a report's drug list.
+
+For a medicine, [approval pathways and expedited designations](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) answer a different status question. A development designation does not validate a test or authorize a drug's marketing.
 
 ## Worked example: a fictional “Drug A responder” report
 
@@ -94,4 +96,6 @@ Source check: October 9, 2026. All reports and drugs in the exercises are fictio
 
 - [MedlinePlus Genetics: valid and useful testing](https://medlineplus.gov/genetics/understanding/testing/validtest/) — separate validity and utility questions.
 - [FDA–NIH BEST: predictive biomarker](https://www.ncbi.nlm.nih.gov/books/NBK402283/) — treatment-effect claims require the appropriate comparison.
+- [FDA: companion diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics) — essential information in a specified treatment context.
+- [FDA: expedited development and review programs](https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review) — designation versus approval.
 - [FDA: RUO and investigational-use diagnostic guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/distribution-in-vitro-diagnostic-products-labeled-research-use-only-or-investigational-use-only) — intended-use labeling.

@@ -65,7 +65,7 @@ Notice how the conclusion grows with each assay. “Binds M,” “enters cells,
 
 ## Exposure is more than the amount infused
 
-**Dose** is the amount administered. **Exposure** concerns concentration and time in a named place. **Pharmacokinetics** describes how the body handles the product; **pharmacodynamics** concerns its biological effects. These are related but distinct questions.
+**Dose** is the amount administered. **Exposure** concerns concentration and time in a named place. [**Pharmacokinetics**](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) describes how the body handles the product; **pharmacodynamics** concerns its biological effects. These are related but distinct questions.
 
 An ADC can generate several measurable species. The antibody carrying payload, the total antibody signal, and unconjugated payload need not follow identical time courses. A long-lasting antibody signal cannot, by itself, show sustained exposure to active payload at the tumor. The FDA's ADC guidance recommends product-appropriate measurements of the conjugate and its constituent parts to interpret benefit and harm.
 

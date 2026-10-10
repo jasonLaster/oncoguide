@@ -4,10 +4,10 @@ type: "concept"
 domain: "access-and-regulation/trials-and-access"
 summary: "A clinical trial studies a treatment under a research protocol, while expanded access uses an investigational product for treatment outside a trial under applicable safeguards."
 glossary_anchor: "clinical-trial-vs-expanded-access"
-aliases: ["expanded access", "compassionate use", "single-patient IND", "spIND", "IND", "Investigational New Drug application"]
+aliases: ["expanded access", "compassionate use", "single-patient IND", "spIND"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
+used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
 updated: "2026-10-09"
@@ -35,7 +35,7 @@ A **clinical trial** follows a research protocol. It defines eligibility, treatm
 
 **Expanded access**, also called compassionate use, permits treatment use of an investigational product outside a trial in qualifying circumstances. U.S. criteria include serious or immediately life-threatening illness, no comparable or satisfactory alternative, a favorable enough anticipated benefit–risk balance, and no interference with the product's clinical development.
 
-An **Investigational New Drug (IND) application** is the regulatory submission supporting investigation or expanded-access use of a drug. A single-patient IND is one expanded-access route, rather than a competing category. An access protocol may also be submitted under an existing IND. An IND number is not a marketing approval or proof of benefit.
+A single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) supports one expanded-access route; an access protocol may also be submitted under an existing IND. Neither arrangement supplies marketing approval or proof of benefit.
 
 The product supplier must agree to supply the treatment and supporting information. A treating physician needs a feasible treatment and monitoring plan. Food and Drug Administration (FDA) authorization, applicable institutional review board (IRB) review, and informed consent form part of the expanded-access process. Special procedures apply in emergencies.
 
@@ -81,7 +81,6 @@ U.S. source check: October 9, 2026. Expert and learner review remain pending. Th
 ## Used in
 
 - [Name the access route](/wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route)
-- [Check a real trial opportunity](/wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity)
 - [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture)
 - [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
 <!-- END GENERATED USED IN -->

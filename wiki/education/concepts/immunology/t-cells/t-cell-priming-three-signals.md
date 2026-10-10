@@ -4,7 +4,7 @@ type: "concept"
 domain: "immunology/t-cells"
 summary: "T-cell priming is the initial activation of a naive T cell by antigen recognition and a supporting signal context."
 glossary_anchor: "t-cell-priming-three-signals"
-aliases: ["priming", "costimulation", "three signals"]
+aliases: ["priming", "three signals"]
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
 used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
 level: "foundation"
@@ -29,7 +29,7 @@ Finding a matching reader does not mean the reader acts. A naive T cell needs co
 
 ## How it works
 
-Signal one is recognition of a peptide–human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) complex by a T-cell receptor ([TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)). Signal two includes costimulatory interactions, such as CD80/CD86 on an antigen-presenting cell interacting with CD28 on a T cell.
+Signal one is recognition of a peptide–human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) complex by a T-cell receptor ([TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)). Signal two includes [costimulatory interactions](/wiki/education/concepts/immunology/t-cells/costimulation), such as CD80/CD86 on an antigen-presenting cell interacting with CD28 on a T cell.
 
 Signal three describes cytokines that influence differentiation, growth and function. Cytokines are signaling proteins; they do not provide nutritional fuel. Timing, strength, cell state and inhibitory inputs influence the combined response.
 

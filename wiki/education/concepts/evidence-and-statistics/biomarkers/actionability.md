@@ -12,8 +12,8 @@ level: foundation
 sensitive: false
 tags: [education, measurement]
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
-updated: 2026-10-08
-source_checked: 2026-10-08
+updated: 2026-10-09
+source_checked: 2026-10-09
 review_status: "Expert and learner review pending"
 ---
 
@@ -31,11 +31,11 @@ A molecular match is the beginning of a question. It names a finding and perhaps
 
 An analytical validation establishes how an assay measures its intended quantity. Clinical validity relates that measurement to a condition or outcome. Clinical utility asks whether using the information improves a meaningful decision or outcome. A laboratory’s quality certification is not a universal guarantee of treatment benefit.
 
-Research-use-only (RUO) measurements can support hypotheses and experiments. Clinical laboratory standards concern testing quality and scope. FDA-cleared or approved companion diagnostics have a specified intended use linked to a therapy; another assay or gene result is not automatically interchangeable.
+[Research-use-only (RUO) status and clinical laboratory standards](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) describe different testing requirements. [Companion diagnostics](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) have a specified intended use linked to a therapy; another assay or gene result is not automatically interchangeable.
 
 Evidence frameworks such as ESCAT rank the strength of clinical evidence for a target–drug match. OncoKB annotations also depend on cancer and setting. A database tier, a pathogenicity prediction and a trial’s inclusion criterion describe different claims. The actual source and version matter.
 
-A drug approved for one cancer or biomarker can remain investigational for another. Likewise, a tumor-only BRCA alteration can support a research question while failing a breast-cancer adjuvant label requiring a germline variant. Feasibility adds current eligibility, availability, formulation, tissue requirements and clinical safety. High-quality mechanistic evidence cannot bypass these gates.
+An approved drug used outside its authorized indication is an off-label use. Evidence for that use may still be exploratory or under investigation. That differs from accessing a never-approved product; [approval types and intended use](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) keep those questions separate. Likewise, a tumor-only BRCA alteration can support a research question while failing a breast-cancer adjuvant label requiring a germline variant. Feasibility adds current eligibility, availability, formulation, tissue requirements and clinical safety. High-quality mechanistic evidence cannot bypass these gates.
 
 ## Why it matters in cancer
 
@@ -60,9 +60,10 @@ A genomic scar suggests past repair deficiency. The proposed medicine has an adj
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+General teaching, source-checked October 9, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
 
 - [FDA companion diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics).
+- [FDA: off-label use of an approved drug](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label).
 - [ESCAT primary framework](https://pubmed.ncbi.nlm.nih.gov/30137196/).
 
 <!-- BEGIN GENERATED USED IN -->

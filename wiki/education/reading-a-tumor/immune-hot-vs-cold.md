@@ -3,9 +3,9 @@ title: "Read an immune map without overreading it"
 type: "guide-lesson"
 guide: "how-the-immune-system-fights-cancer"
 step: 4
-minutes: 9
+minutes: 10
 objectives: ["Distinguish inflamed, excluded and desert observations.", "Explain why tissue pattern, receptor specificity and treatment prediction are different claims."]
-prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]"]
+prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -44,11 +44,19 @@ Routine pathology and molecular profiling add different layers:
 | Question | Useful measurement | Limit to keep beside it |
 |---|---|---|
 | How much sampled stroma contains lymphocytes? | sTIL scoring under a stated method | Does not assign every cell a subtype or target |
-| Which proteins identify cells and their location? | [Immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) or multiplex imaging | Selected markers and sampled regions constrain the view |
+| Which proteins identify cells and their location? | [Immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) or [multiplex immunofluorescence](/wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence) | Selected markers and sampled regions constrain the view |
 | Which immune expression programs appear in a mixed sample? | [Bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) | Mixed signals do not directly preserve cell location |
 | Which receptors are sampled? | [T-cell receptor sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) | Sequence does not establish antigen specificity or position inside a tissue section |
 
 The stromal denominator matters. A high stromal lymphocyte score is not the percentage of all cancer cells that are immune cells. Nor is it identical to a count inside cancer-cell nests.
+
+## A gathering can have its own organization
+
+[Tertiary lymphoid structures (TLS)](/wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures) are organized immune gatherings that develop outside native lymphoid organs. A tumor-associated TLS can contain B-cell and T-cell regions. Some mature structures include germinal centers, where B-cell responses undergo selection. A loose lymphocyte cluster does not automatically meet those criteria.
+
+This adds another spatial question: are the cells merely numerous, or do they form a structure under a stated scoring definition? Density, organization and maturity are separate properties. A lymph-node specimen naturally contains lymphoid architecture; do not relabel its native structure as a TLS.
+
+Breast-cancer and immunotherapy cohort studies have linked organized immune features with outcomes in their defined settings. Those associations do not establish that making a TLS causes benefit or that one image selects a drug. Ask which population, specimen and treatment support the proposed interpretation.
 
 ## A worked example: the edge and the center
 
@@ -89,3 +97,5 @@ Source check: October 9, 2026. Descriptive immune patterns and measurement limit
 - [Chen and Mellman, 2017: the cancer–immune set point](https://www.nature.com/articles/nature21349).
 - [Salgado et al., 2015: breast-cancer lymphocyte-scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).
 - [Kos et al., 2020: scoring pitfalls and heterogeneity](https://pubmed.ncbi.nlm.nih.gov/32411819/).
+- [Gu-Trantien et al., 2013: organized infiltrates in breast cancer](https://pubmed.ncbi.nlm.nih.gov/23778140/).
+- [Vanhersecke et al., 2021: mature TLS in retrospective immunotherapy cohorts](https://pubmed.ncbi.nlm.nih.gov/35118423/) — study-specific associations, not an intervention proof.

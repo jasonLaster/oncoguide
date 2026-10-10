@@ -43,7 +43,7 @@ The tumor must make a suitable source product, generate a peptide, load it and d
 
 [[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics|Immunopeptidomics]] recovers HLA-bound peptides for measurement. A detected peptide supports presentation in the sampled material. It does not alone establish a useful T-cell response or clinical benefit.
 
-**Interferons** are signaling proteins that can change immune and presentation programs. A low baseline RNA score does not prove cells cannot respond to stimulation. RNA induction, assembled surface complexes and useful recognition remain different observations.
+[**Interferons**](/wiki/education/concepts/immunology/the-immune-system/interferons) are signaling proteins that can change immune and presentation programs. A low baseline RNA score does not prove cells cannot respond to stimulation. RNA induction, assembled surface complexes and useful recognition remain different observations.
 
 ## What an immune-rich sample can mean
 

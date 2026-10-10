@@ -5,7 +5,7 @@ guide: "pathway-mechanisms"
 step: 4
 minutes: 14
 objectives: ["Explain how KEAP1–CUL3 regulates NRF2 turnover.", "Distinguish antioxidant protection from dependence on a lipid-defense system.", "Explain why a BET-family alteration does not predict response to broad BET inhibition."]
-prerequisites: ["[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis]]"]
+prerequisites: ["[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins]]"]
 sensitive: false
 tags: ["education", "pathway-biology"]
 updated: "2026-10-09"
@@ -17,91 +17,97 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Stress defenses and chromatin readers: test the direction
 
-**A stress-defense program may protect a cell, and a transcription regulator may support many genes. A useful drug hypothesis needs a measured direction and a specific dependence, not a shared category label.**
+**A defense program can protect a cell without revealing its weak point. A regulator's family name does not identify which function an inhibitor must reach.**
 
-**Before you start:** [Ubiquitin and the proteasome](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome) controls selected protein lifetimes. [NRF2–KEAP1](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) regulates stress responses. [Ferroptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis) is iron-dependent death through uncontrolled membrane-lipid damage.
+**Before you start:** [Ubiquitin and the proteasome](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome) regulates selected protein lifetimes. [NRF2–KEAP1](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) controls a stress-defense program. [Ferroptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis) is iron-dependent death through uncontrolled lipid damage. [Bromodomain and extra-terminal (BET) proteins](/wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins) read acetyl marks and help regulate gene expression.
 
 ## Where this step sits
 
-This is the fourth supporting lesson in [the pathway library](/wiki/education/molecular-profiling/evee-proposed-pathways). It develops the direction-of-effect question in [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index).
+The fourth lesson in [the pathway library](/wiki/education/molecular-profiling/evee-proposed-pathways) practices direction and attribution before the [variant-to-drug guide](/wiki/education/guides/from-variant-to-drug/index) asks about clinical evidence.
 
-## A stronger shield can mean several things
+## Count the shields, then ask what they do
 
-Imagine a workshop with more fire extinguishers. Perhaps fires are frequent. Perhaps the building is well protected. Perhaps workers have become reliant on that protection. Counting extinguishers cannot tell you which explanation is correct.
+Picture a workshop with many fire extinguishers. Perhaps it faces frequent sparks. Perhaps it is well protected. Perhaps it needs one particular extinguisher to keep operating. The count cannot choose among these explanations.
 
-**NRF2** is a transcription factor, a protein that helps regulate gene expression. **KEAP1** serves as an adaptor for a **CUL3**-based ubiquitin-ligase complex. Under suitable conditions, that machinery promotes NRF2 destruction through the proteasome. Stress can alter this regulation and permit more NRF2 to participate in nuclear gene control. [Kobayashi 2004](https://pubmed.ncbi.nlm.nih.gov/15282312/).
+The concept pages supply the mechanisms. Your task here is to separate three questions:
 
-The mechanism involves altered turnover; it need not mean that all NRF2 physically separates from KEAP1. CUL3 also works with other adaptors and targets. Therefore, a CUL3 sequence change needs characterization before being assigned a particular NRF2 consequence. [Zhang 2004](https://pubmed.ncbi.nlm.nih.gov/15572695/).
+1. What changed in the regulatory system?
+2. What protection or transcriptional output followed?
+3. What specific function became necessary for survival?
 
-A stress-response transcript alone is also insufficient. Combine localization, several responsive genes or proteins, turnover, and controlled perturbation to test the proposed regulatory state.
+A fourth question follows later: can an intervention safely reach that function and improve outcomes in the relevant clinical setting?
 
-## Protection is different from dependence
+## Worked example: the stress-defense card
 
-NRF2-associated defenses can reduce oxidative damage. In specific oncogene-driven models, this regulation helped support detoxification and tumor development. That is a context-bound experimental finding. [DeNicola 2011](https://pubmed.ncbi.nlm.nih.gov/21734707/).
+All cards in this lesson are fictional, with illustrative laboratory observations.
 
-**Ferroptosis** concerns a more specific failure: iron-dependent lipid peroxidation overwhelms membrane protection. **Glutathione peroxidase 4 (GPX4)** is one important protective enzyme. High defenses can resist this kind of damage. A cell may nevertheless depend on one defense, but that requires testing what happens when the defense is disrupted. [Yang 2014](https://pubmed.ncbi.nlm.nih.gov/24439385/).
+Culture A contains a cullin 3 (**CUL3**) variant. Its antioxidant transcripts are high. The researcher proposes that the variant disabled Kelch-like ECH-associated protein 1 (**KEAP1**) regulation of nuclear factor erythroid 2-related factor 2 (**NRF2**).
 
-These observations can coexist without contradiction. A shield can make ordinary stress less harmful while leaving the cell vulnerable if that particular shield is removed.
+That is a hypothesis with several missing links. CUL3 participates in complexes with different adaptors. The variant's presence does not establish impaired KEAP1 function. High transcripts could also have other causes. Test allele function, NRF2 turnover/localization and several expected outputs before assigning the direction.
 
-## A worked example: what caused the death?
+Suppose restoring a suitable reference component lowers nuclear NRF2 and several responsive readouts in a well-controlled model. This supports a regulatory consequence. It still does not identify which defense the cells need to survive.
 
-In a fictional culture, researchers find nuclear NRF2 and several responsive proteins. They then perturb GPX4 and follow early lipid oxidation and later survival.
+A broadly acting compound then lowers NRF2 and kills cells. That result cannot supply the missing specificity. Primary A549 experiments found that brusatol inhibited global protein synthesis; lowering NRF2 was part of that broader effect. An independent genetic test and early controls for general translation help distinguish mechanisms.
 
-| Observation | What it supports | What it leaves open |
-|---|---|---|
-| Nuclear NRF2 and a coherent response program | An active stress-response state | Its cause and effect on survival |
-| Lipid oxidation rises before death | Damage consistent with the proposed route | Whether ferroptosis explains the death |
-| Independent iron and lipid-radical rescue conditions reduce death | A stronger ferroptosis interpretation | Selectivity, exposure, and clinical benefit |
-| Genetic GPX4 perturbation produces a similar pattern | More specific support for GPX4 involvement | Whether the same dependence exists in a person |
+## Worked example: the membrane-protection card
 
-The experiment should include vehicle, rescue-only, matched control-cell, and unrelated-death conditions. Rescue compounds can have broader effects. Converging evidence is stronger than one rescue result. A laboratory probe remains an experimental tool, even when its mechanism is useful.
+Culture B has a measured antioxidant program. Researchers perturb glutathione peroxidase 4 (**GPX4**), a lipid-defense enzyme. They observe the following sequence:
 
-## Chromatin readers are a different mechanism
+| Fictional observation | Careful interpretation |
+|---|---|
+| Lipid oxidation rises before death | Consistent with the proposed damage route |
+| Iron chelation and lipid-radical-trapping rescue each reduce death | Stronger support for a ferroptosis interpretation |
+| Genetic GPX4 perturbation gives a similar pattern | Stronger attribution to this defense |
+| A matched control culture retains survival | A context-specific difference needing confirmation |
 
-**Chromatin** is DNA packaged with proteins, including histones. Chemical marks on histones help regulate how genes are used. **Bromodomains** are protein regions that recognize acetylated lysines, a particular chemical modification.
+Use vehicle, rescue-only and unrelated-death controls. Rescue compounds can affect more than one process. Converging evidence supports the mechanism better than a single color change or one rescue.
 
-The **BET family**, short for bromodomain and extra-terminal proteins, includes BRD2, BRD3, BRD4, and BRDT. They help connect acetyl marks to transcriptional machinery. Experimental BET inhibitors can occupy these reading sites in several family members. They do not repair a damaged BRD3 gene or isolate every BRD3 function. [Filippakopoulos 2010](https://www.nature.com/articles/nature09504).
+Ferroptosis suppressor protein 1 (**FSP1**) supplies a parallel defense. Its existence helps explain why GPX4 perturbation need not affect every culture equally. High defense abundance can resist damage, while a particular functional dependence must be tested. Neither statement makes a [laboratory probe](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) a clinical treatment.
 
-A fictional BRD3 variant might reduce one function, change interactions, or have little effect. Broad BET inhibition could still act through another family member. To connect the variant to response, compare the specific alteration, separate family-member perturbations, transcriptional outputs, and survival. The same category name does not complete that chain.
+## Worked example: the chromatin-reader card
+
+Culture C contains an uncharacterized BRD3 variant. A BET bromodomain inhibitor changes selected transcripts, but growth persists. Independent BRD4 depletion impairs growth.
+
+These results can coexist. Pocket inhibition and removal of an entire protein affect different functions. Primary breast-cancer model experiments identified inhibitor-resistant cells that still depended on BRD4 through bromodomain-independent regulation. That is a model finding, not a rule assigning sensitivity to a BRD3 allele.
+
+To attribute the fictional result, verify inhibitor engagement, perturbation specificity, suitable reference restoration and the sequence of transcriptional and growth changes. Compare family members rather than treating BRD2, BRD3 and BRD4 as interchangeable.
 
 ## What can go wrong at this step
 
-A proposed loss of a ubiquitin-ligase component can be translated into an assumed increase in every substrate. Complex membership and substrate choice must be established.
+Three shortcuts are especially tempting: turning a CUL3 variant into assumed NRF2 activation; turning antioxidant amount into ferroptosis sensitivity; and turning a BET-family alteration into response to any BET inhibitor.
 
-A high antioxidant program can then be misread as ferroptosis sensitivity. Protection is the starting observation; dependence on a particular defense is an additional question.
-
-Finally, reducing a short-lived protein with a broadly toxic compound does not demonstrate selective inhibition of that protein. Early target measurements, controls for general transcription or translation changes, and independent perturbations help distinguish mechanisms.
+Several plausible pathways also do not establish a useful drug combination. The combination needs its own attribution, exposure, normal-cell and clinical evidence. Adding two hypotheses does not remove either uncertainty.
 
 ## Try it
 
-A culture has high antioxidant transcripts and dies after a chemical probe. No lipid-damage assay or rescue experiment was done. Can the researcher claim NRF2-driven ferroptosis dependence?
+A fictional culture has high antioxidant RNA and dies after a chemical probe. No lipid-damage, rescue or specificity test was done. Can the researcher claim NRF2-driven ferroptosis dependence?
 
 <details>
 <summary>Show the answer</summary>
 
-No. The observations are transcript abundance and probe-associated death. The NRF2 mechanism, ferroptosis diagnosis, and dependence each need their own evidence. A general stress or toxicity effect remains possible.
+No. The observations are transcript abundance and probe-associated death. NRF2 regulation, ferroptosis and dependence each need their own evidence. General translation inhibition or another toxicity mechanism remains possible.
 
 </details>
 
 ## Explain it back
 
-“An active defense can produce ___; dependence means ___; a broad inhibitor's response does not identify ___.”
+“Protection describes ___; dependence means ___; a family label does not establish ___.”
 
-One possible answer: “protection; survival requires a defined defense under specified conditions; which altered gene caused the response.”
+One answer: “what a defense does under specified conditions; survival requires a defined function; the variant's effect or an inhibitor's response.”
 
 ## Takeaway
 
-**Measure the direction of a regulatory change, then test its causal role before translating it into a vulnerability.**
+**Measure direction, attribute the mechanism, and test the specific requirement before calling a defense a vulnerability.**
 
 **Next:** [Oxidative metabolism and stress](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress).
 
 ## Sources and scope
 
-Source check: 2026-10-09. General education; all worked scenarios and numerical examples are fictional. Mechanistic experiments describe their tested systems, not a treatment-selection rule. Expert and learner review pending.
+Source check: October 9, 2026; expert and learner review pending. Every culture and card is fictional. Model mechanisms do not provide matched therapies or combination recommendations.
 
-- [Kobayashi 2004: KEAP1–CUL3 control of NRF2 turnover](https://pubmed.ncbi.nlm.nih.gov/15282312/).
-- [Zhang 2004: redox regulation of the KEAP1 ligase complex](https://pubmed.ncbi.nlm.nih.gov/15572695/).
-- [DeNicola 2011: context-specific NRF2-dependent detoxification](https://pubmed.ncbi.nlm.nih.gov/21734707/).
-- [Dixon 2012: defining ferroptosis experimentally](https://pubmed.ncbi.nlm.nih.gov/22632970/).
-- [Yang 2014: GPX4 and ferroptotic cancer-cell death](https://pubmed.ncbi.nlm.nih.gov/24439385/).
-- [Filippakopoulos 2010: selective BET bromodomain inhibition](https://www.nature.com/articles/nature09504).
+- [Kobayashi et al., 2004: KEAP1 as an adaptor in CUL3-dependent NRF2 turnover](https://pubmed.ncbi.nlm.nih.gov/15282312/).
+- [Vartanian et al., 2016: brusatol and global protein synthesis](https://pubmed.ncbi.nlm.nih.gov/26711467/).
+- [Yang et al., 2014: GPX4 and ferroptotic death](https://pubmed.ncbi.nlm.nih.gov/24439385/).
+- [Bersuker et al., 2019: the parallel FSP1 defense](https://pubmed.ncbi.nlm.nih.gov/31634900/).
+- [Filippakopoulos et al., 2010: BET pocket inhibition](https://pubmed.ncbi.nlm.nih.gov/20871596/).
+- [Shu et al., 2016: BET-inhibitor resistance with retained BRD4 dependence in models](https://pubmed.ncbi.nlm.nih.gov/26735014/).

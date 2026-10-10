@@ -54,7 +54,7 @@ The ledger does not calculate a treatment choice for you. It makes assumptions v
 
 A patient and clinician are discussing Drug A after surgery. A research assay reports whether a protein is abundant. The assay's biological rationale is plausible, but its treatment-selection evidence comes from a different cancer setting.
 
-There are several reasonable learning branches. The team could ask whether an established clinical assay measures the same protein. It could inspect the exact Drug A evidence. It could consider a trial that tests the relevant strategy. Or it could decide the new test would consume tissue without changing the current choice.
+There are several reasonable learning branches. The team could check whether Drug A's label requires a [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) and whether the existing result meets that specified context. It could inspect the exact Drug A evidence. It could consider a trial that tests the relevant strategy. Or it could decide the new test would consume tissue without changing the current choice.
 
 What the result cannot do alone is turn protein abundance into proven postoperative benefit. **Confirmation** of the measurement answers “is the signal real?” Clinical evidence must still answer “does the proposed action help?”
 
@@ -65,6 +65,8 @@ If Drug A is approved for another indication, [off-label use](/wiki/education/co
 A research question can be valuable even when no treatment changes today. Examples include checking a mechanism, learning why two assays disagree, or generating a hypothesis for a future study.
 
 State the goal honestly: “We want to learn whether this mechanism is present. The result will not independently select treatment.” Also name who will review it and what would count as a useful answer. That gives curiosity a direction and helps avoid an endless chain of follow-up tests.
+
+If research uses a [chemical probe](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement), learning about a mechanism does not establish a clinical drug. Ask which target-engagement result was obtained and under which conditions. Translation also requires [exposure and half-life evidence](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) for the actual product; an experiment's concentration does not specify a person's dose.
 
 When a company supplies unpublished performance data, record who supplied it and what was available to inspect. A statement that evidence is unavailable is different from a finding that the claim is false. Keep that distinction clear.
 

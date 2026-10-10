@@ -3,7 +3,7 @@ title: "Find the step an immune response can lose"
 type: "guide-lesson"
 guide: "how-the-immune-system-fights-cancer"
 step: 6
-minutes: 9
+minutes: 10
 objectives: ["Locate immune failure at target, display, access or cell function.", "Explain why a plausible bypass needs its own safety and clinical evidence."]
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self]]", "[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]"]
 sensitive: false
@@ -39,7 +39,7 @@ The comparison is about requirements, not a ranking of therapies. Each finished 
 
 ## Place immune treatments at their actual step
 
-An immune checkpoint inhibitor blocks a specific inhibitory interaction. Blocking [programmed cell death protein 1 (PD-1) or programmed death-ligand 1 (PD-L1)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes that pathway. Blocking [cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes access to supporting activation signals. CTLA-4 is often emphasized during priming and PD-1 during tissue responses, but their effects are not confined to those places or stages. The canonical concept holds the detailed comparison.
+An immune checkpoint inhibitor blocks a specific inhibitory interaction. Blocking [programmed cell death protein 1 (PD-1) or programmed death-ligand 1 (PD-L1)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes that pathway. Blocking [cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes access to [costimulatory signals](/wiki/education/concepts/immunology/t-cells/costimulation). CTLA-4 is often emphasized during priming and PD-1 during tissue responses, but their effects are not confined to those places or stages. The canonical concept holds the detailed comparison.
 
 Neither intervention installs a new target receptor or rebuilds a lost HLA holder. That matters when reading a proposed combination:
 
@@ -59,6 +59,8 @@ Imagine a fictional tumor still makes protein A. An engineered TCR recognizes a 
 More copies of the same TCR do not restore the missing holder. Adding more target peptides that all depend on X may not solve the shared problem either. A retained HLA allele might support another recognition route, but that requires new evidence of display, recognition and safety.
 
 Now change the scenario. Instead of a gene deletion, the sample shows reduced display under one condition. Expression can change without permanent deletion. Reversibility becomes a testable question. The report should distinguish a sequence change from a protein-expression observation.
+
+[Interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) are signals that can change presentation programs. Low baseline expression and inability to respond to a signal are different findings. A controlled stimulation test can investigate inducibility; it does not automatically repair a deleted display dependency or prove tumor killing. The melanoma resistance study cited below illustrates distinct signaling and [beta-2-microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) defects in a small patient series, rather than a universal direction of change after treatment.
 
 ## Several failures can coexist
 

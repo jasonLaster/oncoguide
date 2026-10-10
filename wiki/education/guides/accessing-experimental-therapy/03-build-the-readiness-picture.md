@@ -31,14 +31,14 @@ Think of a treatment plan as a relay with several handoffs. The treating clinici
 
 For U.S. expanded access, the **Food and Drug Administration (FDA)** assesses whether treatment may proceed. An **institutional review board (IRB)** provides the applicable review of patient protections and consent. Individual-patient pathways can use specific review procedures; emergency situations have special rules. Those details belong with the physician and responsible institution.
 
-The practical questions stay concrete: Who is prescribing or sponsoring the request? Who receives and stores product? Who administers it? Where does the patient go if a serious problem occurs? Who records and reports adverse events? A supplier's willingness is useful, but it does not create the clinical service around the product.
+The practical questions stay concrete: Who is prescribing or sponsoring the request? In an [investigator-initiated trial](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials), identify the sponsor and investigator separately even when one person carries both responsibilities. Who receives and stores product? Who administers it? Where does the patient go if a serious problem occurs? Who records and reports adverse events? A supplier's willingness is useful, but it does not create the clinical service around the product.
 
 ## Use a readiness ledger
 
 | Gate | Question for the responsible team |
 |---|---|
 | Clinical rationale | Why consider this treatment, and which alternatives remain? |
-| Exact product | What formulation, dose, route and schedule are proposed? |
+| Exact product | What formulation, dose, route and schedule are proposed, with what supporting exposure and safety evidence? |
 | Supply | Has the supplier agreed, and is usable product available? |
 | Pathway and review | What submissions, permissions and institutional reviews apply? |
 | Consent | Are known risks, unknowns, alternatives and responsibilities clear? |
@@ -50,11 +50,13 @@ Record “confirmed,” “proposed,” or “unknown” beside each item. Keep 
 
 ## Understand the clock you are looking at
 
-For a **non-emergency single-patient Investigational New Drug (IND) application**, FDA states that treatment can begin 30 days after receipt or earlier if FDA tells the physician it may proceed, with applicable reviews and informed consent. That clock concerns the regulatory submission. It does not include every step needed to prepare a patient-specific product or arrange care.
+For a non-emergency single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla), FDA states that treatment can begin 30 days after receipt or earlier if FDA tells the physician it may proceed, with applicable reviews and informed consent. That clock concerns the regulatory submission. It does not include every step needed to prepare a patient-specific product or arrange care.
 
 **Emergency expanded access** can receive rapid authorization before the later written submission. The emergency pathway has its own requirements and follow-up. It is not a way to label every time-sensitive plan as an emergency.
 
 Ask which clock a quoted timeline refers to: supplier review, product manufacture, FDA review, institutional review, shipping, or clinical scheduling. Some tasks may run in parallel. Others depend on earlier answers. The team needs a plan for delays as well as an ideal schedule.
+
+A medicine's [pharmacokinetics and half-life](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) describe exposure, not the entire clinical preparation clock. The treating and study teams must assess interactions, lasting effects and protocol washout rules; one half-life calculation cannot establish safe sequencing.
 
 ## Worked example: a fictional “ready next week” message
 
@@ -104,4 +106,5 @@ U.S. source check: October 9, 2026. The product and timeline example is fictiona
 - [FDA: how physicians request single-patient expanded access](https://www.fda.gov/drugs/investigational-new-drug-application-ind/physicians-how-request-single-patient-expanded-access-compassionate-use) — non-emergency and emergency timing.
 - [FDA: expanded access information for IRBs](https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs) — responsibility, review, consent and monitoring.
 - [NCI: clinical trial safety and consent](https://www.cancer.gov/research/participate/clinical-trials/safety) — ongoing consent and participant rights.
+- [FDA, December 2016: clinical pharmacology labeling guidance](https://www.fda.gov/media/74346/download) — exposure and effective versus terminal half-life.
 - [NCI: who pays for clinical trials](https://www.cancer.gov/research/participate/clinical-trials/paying) — routine care, research and practical costs.

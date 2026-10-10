@@ -3,7 +3,7 @@ title: "Understand how the immune system recognizes cancer"
 type: "guide"
 goal: "Follow recognition, priming, access and function, then explain what checkpoint drugs, vaccines and engineered cells try to change."
 audience: "Curious reader; no specialist training assumed"
-minutes: 62
+minutes: 66
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -19,7 +19,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 A treatment name becomes easier to understand when you can place it on a biological route. We will build that route together: signals, priming, cell states, access, measurement and escape. Short worked examples let you practice before comparing treatment formats.
 
-The suggested reading budget is 62 minutes. It is fine to take longer with a concept that feels new.
+The suggested reading budget is 66 minutes. It is fine to take longer with a concept that feels new.
 
 ## The big ideas
 
@@ -48,18 +48,18 @@ flowchart TD
 | Step | Lesson | Question | Minutes | Learning aid |
 |---|---|---|---|---|
 | 1 | [Ask what happens after binding](/wiki/education/oncology-101/1-ligands) | What changes after a molecule finds its partner? | 8 | One address, two packages |
-| 2 | [How dendritic cells help start a response](/wiki/education/oncology-101/2-dendritic-cells) | How does display become a priming opportunity? | 8 | Two cells, one fragment |
-| 3 | [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states) | What separates presence, specificity and function? | 8 | Three samples with many T cells |
-| 4 | [Read an immune map](/wiki/education/reading-a-tumor/immune-hot-vs-cold) | What does a hot, excluded or cold pattern establish? | 9 | The edge and the center |
+| 2 | [How dendritic cells help start a response](/wiki/education/oncology-101/2-dendritic-cells) | How does display become a priming opportunity? | 9 | Two cells, one fragment |
+| 3 | [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states) | What separates presence, specificity and function? | 9 | Three samples with many T cells |
+| 4 | [Read an immune map](/wiki/education/reading-a-tumor/immune-hot-vs-cold) | What does a hot, excluded or cold pattern establish? | 10 | The edge and the center |
 | 5 | [Measure each part of a response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement) | Which assay supports which claim? | 12 | A clone on the evidence ladder |
-| 6 | [Find the step a response can lose](/wiki/education/oncology-101/4-escape-mechanisms) | Which dependency failed, and what could [checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) change? | 9 | The target remains; the holder changes |
+| 6 | [Find the step a response can lose](/wiki/education/oncology-101/4-escape-mechanisms) | Which dependency failed, and what could [checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) change? | 10 | The target remains; the holder changes |
 | 7 | [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison) | Which rules does each living treatment use? | 8 | Three recognition systems |
 
 ## Concepts you will use
 
-- **Foundations:** [innate versus adaptive immunity](/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity), [the immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster), [ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor), [antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure).
-- **Recognition and response:** [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla), [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals), [repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire), [states](/wiki/education/concepts/immunology/t-cells/t-cell-states).
-- **Regulation and location:** [checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint), [cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine), [tissue patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor), [missing self](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self).
+- **Foundations:** [innate versus adaptive immunity](/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity), [the immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster), [ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor), [antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure), [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells), [lymph nodes and lymphatics](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics).
+- **Recognition and response:** [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla), [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals), [repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire), [states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [costimulation](/wiki/education/concepts/immunology/t-cells/costimulation).
+- **Regulation and location:** [checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint), [cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine), [tissue patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor), [missing self](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self), [regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells), [interferons](/wiki/education/concepts/immunology/the-immune-system/interferons), [cGAS–STING DNA sensing](/wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting) and [tertiary lymphoid structures](/wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures).
 
 - **Interventions and harm:** [immune checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor), [immune-related adverse events (irAEs)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event).
 
@@ -81,7 +81,7 @@ A fictional clone becomes more frequent after vaccination. Why is that promising
 
 ## Applied to Diana
 
-Use [the immune-context question](/wiki/questions/is-tumor-hot) and [the checkpoint safety decision](/wiki/questions/pembrolizumab-rechallenge) for current interpretation. Those pages own case findings and decisions. This guide supplies the shared biological vocabulary.
+Use [the immune-context question](/wiki/questions/is-tumor-hot), [the presentation-loss question](/wiki/questions/hla-b2m-loss) and [the checkpoint safety decision](/wiki/questions/pembrolizumab-rechallenge) for current interpretation. Those pages own case findings and decisions. This guide supplies the shared biological vocabulary.
 
 ## What is still uncertain
 

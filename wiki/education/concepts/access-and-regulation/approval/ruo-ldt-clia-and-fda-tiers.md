@@ -25,21 +25,21 @@ Research-use labeling, laboratory certification and product authorization answer
 
 ## The intuition
 
-A driver's license, a vehicle inspection and a route map tell you different things. None can stand in for all the others. Testing labels work similarly: one describes intended use, another describes the laboratory, and another describes a product's regulatory status.
+A driver's license, a vehicle inspection and a route map answer different questions. Testing labels likewise describe intended use, laboratory standards or product status.
 
-The comparison is only a memory aid. The precise rules depend on the test, jurisdiction and intended use. Start by asking what the label actually belongs to.
+This is a memory aid. Actual rules depend on the test, jurisdiction and intended use. Ask what each label belongs to.
 
 ## How it works
 
 **Research use only (RUO)** is an intended-use label on a research product. It does not establish that the product is suitable for clinical diagnosis. A research result may motivate a question, but the label does not make it a validated treatment-selection report.
 
-A **laboratory-developed test (LDT)** describes a test developed and used within a laboratory. That term describes where and how the test is made, rather than how useful it is. It is not a synonym for research-only testing, and it is not a statement that the Food and Drug Administration (FDA) has approved the test.
+A **laboratory-developed test (LDT)** describes a test developed and used within a laboratory. It describes the test's origin rather than its usefulness. LDT does not mean research-only, and does not mean the Food and Drug Administration (FDA) approved it.
 
-The **Clinical Laboratory Improvement Amendments (CLIA)** program sets standards for laboratories testing human specimens for health assessment or diagnosis, prevention or treatment. Laboratory certification concerns laboratory quality and applicable requirements. It does not establish clinical validity or utility for every claimed use of every test offered there.
+The **Clinical Laboratory Improvement Amendments (CLIA)** program sets laboratory standards for testing human specimens for health assessment, diagnosis, prevention or treatment. Certification concerns laboratory quality. It does not establish [clinical validity or clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) for every claimed test use.
 
-**FDA authorization** concerns a specific product and intended use through an applicable regulatory pathway. Clearance, approval and emergency authorization have different meanings. When someone says “FDA-approved,” request the actual product record and labeling. Check the specimen, disease, biomarker, purpose and limitations.
+**FDA authorization** concerns a product and intended use through a specific pathway. Clearance, approval and emergency authorization differ. For an “FDA-approved” claim, request the product record and labeling: specimen, disease, biomarker, purpose and limitations.
 
-A **companion diagnostic** provides information essential to the safe and effective use of a corresponding treatment. A biomarker assay does not become a companion diagnostic merely because its report lists drugs.
+For treatment-linked requirements, check the exact [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) and both labels. A report's drug list alone does not meet a label-defined testing requirement.
 
 | Label or status | What to check | What it does not establish alone |
 |---|---|---|
@@ -49,15 +49,27 @@ A **companion diagnostic** provides information essential to the safe and effect
 | FDA-cleared or approved test | Exact product, pathway and intended use | Uses outside the labeling |
 | Companion diagnostic | Corresponding treatment and label-defined context | Benefit from any drug sharing a target name |
 
+The dated LDT legal-status note in Sources and scope identifies which historical rule changed. The procedural history does not determine a particular test's evidence, permitted use or every applicable requirement.
+
 ## Why it matters in cancer
 
-The same company may offer separate research and clinical services. A clinical report and a research file can look equally polished. Ask which service produced this result and what decision it is validated to support.
+The same company may offer separate research and clinical services. Both reports can look polished. Ask which service produced the result and which decision its evidence supports.
 
-For the evidence questions behind those labels, use [analytical validity, clinical validity and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility).
+## How status is checked
+
+These categories have no shared biological unit or quality score. Record the laboratory, product or service, intended use, applicable authorization, version and check date. The assay defines measurement units and thresholds; a status badge does not.
 
 ## Worked example
 
 A fictional laboratory has CLIA certification and offers a new research score. Its brochure says the score predicts benefit from Drug A. Certification identifies a laboratory-quality framework. It does not supply the missing study of that particular score, population and treatment.
+
+The reader asks which service produced the result and which study supports choosing Drug A with it in this setting. Research value can remain while that clinical claim is open.
+
+## Try it
+
+The laboratory says, “Our CLIA certificate confirms that this new score chooses the best treatment.” Which part needs more evidence?
+
+**Answer:** The treatment-selection claim. Request studies of the actual score, population, comparator and clinical action. The certificate concerns laboratory standards; it does not replace that evaluation.
 
 ## Common confusions
 
@@ -75,7 +87,7 @@ A fictional laboratory has CLIA certification and offers a new research score. I
 
 U.S. regulatory source check: October 9, 2026. Expert and learner review remain pending. Rules can change, so verify a specific test's current status before using it.
 
-**Current LDT correction:** FDA states that the 2024 LDT final rule was vacated on March 31, 2025. FDA reverted the regulatory text on September 19, 2025. The vacated rule's phaseout schedule should not be taught as current policy. This procedural update does not establish the validity of a particular test.
+**LDT legal-status check, October 9, 2026:** FDA reports that its 2024 rule was vacated on March 31, 2025, and regulatory text reverted on September 19, 2025. The vacated phaseout schedule is not current policy. This history does not establish a test's validity or utility. Check the actual service and official records.
 
 - [FDA: laboratory-developed tests](https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests) — current vacatur and regulatory-text update.
 - [CMS: Clinical Laboratory Improvement Amendments](https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments) — laboratory-quality program.

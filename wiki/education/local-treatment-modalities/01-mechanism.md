@@ -34,7 +34,7 @@ Imagine a library after a storm. Scattered pages contain information, but someon
 The useful sequence is conditional:
 
 1. Injury makes tumor material available, with a signal context that supports an immune response.
-2. Cells such as [dendritic cells](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster) collect and process that material. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) can display acquired protein fragments on class-I HLA.
+2. Cells such as [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) collect and process that material. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) can display acquired protein fragments on class-I HLA.
 3. [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) requires recognition and supporting activation signals; displaying a fragment alone is insufficient.
 4. Activated cells must reach other tumors and function there.
 5. A distant cancer cell must display a recognizable fragment. Antigen-specific CD8 T cells, a T-cell population carrying the CD8 coreceptor, recognize a peptide–HLA combination rather than loose tumor debris.

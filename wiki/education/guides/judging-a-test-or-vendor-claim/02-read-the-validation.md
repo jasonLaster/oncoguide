@@ -49,9 +49,11 @@ Use a small evidence table while you read:
 | Missing information | Failed samples, dropout, unavailable outcomes | The visible chart may omit difficult cases |
 | Uncertainty | Intervals, sample size and remaining limits | A point estimate is not a promise for a person |
 
-A **prespecified** rule is written before seeing the relevant results. An **exploratory** analysis generates ideas after looking at data. Exploration is valuable, but the resulting claim needs confirmation that did not reuse the same search.
+[Prespecified and exploratory analyses](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis) carry different evidentiary roles. Keep the search and tuning history attached to any resulting claim, and look for confirmation that did not reuse it.
 
 If the evidence begins in cells or animals, identify what the [preclinical model](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) actually tested. If it comes from patient care without assigned treatment, ask about [confounding](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding). Neither a useful laboratory result nor an outcome association automatically validates the proposed clinical action.
+
+For a compound claim, distinguish a [chemical probe and target-engagement experiment](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) from a usable medicine. Cell killing at one concentration does not establish a selective mechanism. [Pharmacokinetics](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) adds the next question: can the relevant exposure occur in the body without unacceptable harm? Culture concentrations are not patient doses.
 
 ## Worked example: two fictional validation slides
 
@@ -59,7 +61,7 @@ Slide A shows the performance of a risk score on the same patients used to choos
 
 Slide B answers a more useful question about performance outside development. It still needs careful reading. Perhaps that hospital treated advanced disease while the current request concerns patients after surgery. Perhaps the score ranks patients well but overestimates their risk.
 
-Ranking and risk accuracy are different. A method can put higher-risk patients above lower-risk patients while its reported probabilities are poorly calibrated. **Calibration** asks whether stated probabilities agree with observed outcomes in comparable groups. There is no single performance cutoff that makes every clinical use appropriate.
+Ranking and risk accuracy are different. A method can put higher-risk patients above lower-risk patients while its reported probabilities are poorly calibrated. [Calibration](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration) asks whether stated probabilities agree with observed outcomes in comparable groups. There is no single performance cutoff that makes every clinical use appropriate.
 
 Even a well-calibrated risk score does not establish benefit from the treatment suggested in the report. The [prognostic versus predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) distinction remains in place.
 
@@ -95,4 +97,6 @@ Source check: October 9, 2026. The slides are fictional. This is a reading metho
 
 - [FDA–NIH BEST: glossary](https://www.ncbi.nlm.nih.gov/books/NBK338448/) — validation in a specified context of use.
 - [FDA: clinical research](https://www.fda.gov/patients/drug-development-process/step-3-clinical-research) — populations, comparators and planned analyses.
+- [Molina and colleagues, 2013: cellular thermal shift assay](https://pubmed.ncbi.nlm.nih.gov/23828940/) — a target-engagement measurement method, not a clinical benefit result.
+- [FDA, December 2016: clinical pharmacology labeling guidance](https://www.fda.gov/media/74346/download) — named analytes and exposure measures.
 - [TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) checklist](https://www.tripod-statement.org/resources/) — transparent reporting of prediction-model development and validation.

@@ -5,7 +5,7 @@ guide: "pathway-mechanisms"
 step: 3
 minutes: 12
 objectives: ["Compare contact-dependent Notch, canonical Wnt, and receptor-kinase signaling.", "Identify the sending cell, receiving cell, and intervention point.", "Separate ligand dependence, target engagement, and tumor response."]
-prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin]]"]
+prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases]]"]
 sensitive: false
 tags: ["education", "pathway-biology"]
 updated: "2026-10-09"
@@ -17,85 +17,88 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Notch, Wnt, and FGFR: locate the signal before choosing a target
 
-**A signal's source and position in the circuit determine what an intervention can change. Receptor presence or a gene name does not establish a tumor dependence.**
+**Locate the active step before judging an intervention. A changed signal still needs a separate test of tumor dependence.**
 
-**Before you start:** [Ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) describes sending and sensing signals. [Notch](/wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling) commonly carries a message between neighbors. [Canonical Wnt](/wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin) controls β-catenin stability and gene regulation.
+**Before you start:** [Ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) separates binding from signaling. [Notch](/wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling) commonly carries a contact-dependent message. [Canonical Wnt](/wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin) regulates β-catenin stability. [Receptor tyrosine kinases](/wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases) connect surface signals to protein phosphorylation.
 
 ## Where this step sits
 
-This is a supporting comparison in [the pathway library](/wiki/education/molecular-profiling/evee-proposed-pathways). Use it when [the variant-to-drug guide](/wiki/education/guides/from-variant-to-drug/index) asks which biological consequence was actually measured.
+This supporting lesson in [the pathway library](/wiki/education/molecular-profiling/evee-proposed-pathways) practices the biological-consequence step of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index).
 
-## Ask who is speaking and who is listening
+## Three circuits ask different questions
 
-Think of three ways a workshop receives an instruction: a neighbor delivers it at the door, a message arrives from farther away, or a surface sensor activates machinery inside. All can influence behavior. They do so through different equipment.
+Think of a workshop receiving an instruction. A neighbor can deliver it at the door, a message can arrive from elsewhere, or a surface sensor can activate machinery inside. Knowing the equipment helps you choose a useful test. The analogy does not make the three molecular circuits interchangeable.
 
-Notch commonly begins when a ligand-bearing cell contacts a receptor-bearing neighbor. Sequential cutting of the receptor releases the **Notch intracellular domain (NICD)**. This fragment can enter the nucleus and help regulate transcription. **Gamma-secretase** performs a membrane cutting step; it is not the ligand itself. [Schroeter 1998](https://pubmed.ncbi.nlm.nih.gov/9620803/), [De Strooper 1999](https://pubmed.ncbi.nlm.nih.gov/10206645/).
-
-Wnt ligands are secreted signals. In the canonical route, receptor signaling changes β-catenin destruction. More β-catenin can then participate in nuclear regulation. The enzyme **PORCN** supports ligand modification and secretion. Blocking secretion acts upstream of the intracellular control system. [Liu 2002](https://pubmed.ncbi.nlm.nih.gov/11955436/).
-
-**Fibroblast growth factor receptors (FGFRs)** are receptor tyrosine kinases. A kinase adds phosphate groups to proteins; a tyrosine kinase acts on the amino acid tyrosine. Receptor activation can send signals through several intracellular branches. FGFR family members and alterations are distinct. Evidence about one member or allele cannot be assigned to all of them.
-
-## Find the relevant step
-
-| Circuit | An activity question | Why the intervention point matters |
+| Circuit | Locate the active step | A tempting overread |
 |---|---|---|
-| Notch | Is the receptor being cleaved in the receiving cells? | Ligand blockade and cleavage blockade affect different steps. |
-| Canonical Wnt | Is β-catenin signaling active and still ligand-dependent? | A downstream change may bypass secretion blockade. |
-| FGFR | Is a particular receptor active and contributing to survival? | A compound must engage that receptor at an interpretable exposure. |
+| Notch | Sending cell, receptor cleavage and received nuclear signal | Ligand abundance proves tumor-cell signaling |
+| Canonical Wnt | β-catenin regulation and continued ligand dependence | Total β-catenin proves a secretion inhibitor will work |
+| Fibroblast growth factor receptor (FGFR) | Exact receptor, phosphorylation and downstream response | Any FGFR alteration predicts any FGFR inhibitor |
 
-“Engage” means change the intended target or process. Engagement does not establish that the changed process is essential to survival.
+The concept pages explain the machinery. Here, your job is to keep amount, activity and dependence separate. A variant may motivate a question about the circuit, but its effect cannot be assigned from its gene name.
 
-## A worked example: two Wnt cultures
+## Worked example: three fictional experiment cards
 
-Two fictional cultures show nuclear β-catenin and a pathway-responsive transcript. The first depends on signals supplied by neighboring cells. The second has a downstream defect in β-catenin regulation.
+All observations below are fictional and assume suitable assay controls. They are reasoning examples, not treatment-selection criteria.
 
-Researchers block ligand secretion and confirm that secretion falls. The first culture loses its nuclear signal. The second keeps it. That difference is biologically coherent: the second culture can bypass the upstream intervention.
+**Card A: a Notch sender near vessels.** Spatial staining finds Delta-like ligand 4 (**DLL4**) mainly in vessel cells. Tumor cells have total Notch receptor but little detectable nuclear Notch intracellular domain (**NICD**). You have found a sender and receptor amount. You have not established a received signal in the malignant cells. A useful next test identifies the receiver and receptor processing, with a positive staining control.
 
-Researchers next measure growth. Suppose the first culture continues growing despite reduced signaling. The experiment supports target engagement, but it has not shown growth dependence. This distinction also appears in a clinical phase I study of WNT974, which measured tissue pathway effects and patient response separately. [Rodon 2021](https://pubmed.ncbi.nlm.nih.gov/33941878/).
+Now suppose a controlled contact experiment reduces nuclear NICD but leaves tumor-cell growth unchanged. That supports a pathway output effect. It has not shown a growth requirement. Contact changes could also affect other signals, so an independent perturbation matters.
 
-## The cell population can change the story
+**Card B: two Wnt cultures.** Both show nuclear β-catenin and a responsive transcript. Researchers block Porcupine (**PORCN**), the enzyme supporting Wnt-ligand modification and secretion, and confirm less ligand secretion. Culture A loses the nuclear response; culture B retains it through an experimentally established downstream regulatory defect.
 
-A ligand detected near vessels may be supplied by vessel cells. A signal measured in a mixed sample may come from stromal or immune cells. Before calling it a malignant-cell dependency, identify the receiving cells and the relevant output.
+A supports a ligand-dependent route. B can bypass the upstream intervention. If A keeps growing after its signal falls, the experiment has not demonstrated growth dependence. Target engagement and tumor response were also distinct measurements in the primary WNT974 phase I study. Its human findings cannot be used as a response prediction for these fictional cultures.
 
-A fictional FGFR4 missense variant creates another uncertainty. A missense variant changes one amino acid. Some FGFR4 alterations have been functionally characterized in rhabdomyosarcoma models, but that does not establish the effect of every FGFR4 variant in another disease. [Taylor 2009](https://pubmed.ncbi.nlm.nih.gov/19809159/).
+**Card C: an FGFR4 sequence change.** Researchers compare a variant receptor with a reference receptor at matched expression. Total protein is similar, but neither receptor shows increased phosphorylation in the tested condition. This does not support activation under that condition. It also does not prove the variant is harmless in every environment.
 
-A useful next experiment compares the specific variant with a matched reference receptor. It checks receptor phosphorylation, downstream signals, expression level, and survival. Independent genetic and pharmacologic tests can strengthen attribution. A gene's appearance in an important pathway is only the starting point.
+Known activating kinase-domain FGFR4 mutations were studied in rhabdomyosarcoma models. An uncharacterized alteration, a different protein domain and another cancer are additional evidence gaps. Testing a drug that hits a related receptor would not resolve them.
+
+## Choose the next experiment by the unresolved claim
+
+| Gap | Useful next evidence | What remains separate |
+|---|---|---|
+| Cell of origin | Spatial localization or appropriately separated populations | A bulk signal alone cannot assign a tumor-cell mechanism |
+| Activity | A validated proximal readout and expected downstream change | Protein amount is insufficient |
+| Attribution | Matched genetic perturbation, reference restoration and independent controls | A broad compound may have other effects |
+| Dependence | Growth and death after the attributed perturbation | Clinical benefit, exposure and normal-tissue effects |
+
+“Target engagement” needs a definition here. Suppressing ligand secretion, changing receptor phosphorylation and reducing a downstream transcript are different readouts. Report the step actually measured. Do not call every downstream change proof that a compound bound its intended protein.
 
 ## What can go wrong at this step
 
-A protein can be mistaken for a whole circuit. A DLL4 ligand alteration does not mimic an antibody blocking DLL4, and it does not prove Notch cleavage increased. Similarly, a secretion inhibitor cannot be assumed to overcome ligand-independent downstream signaling.
+A sending-cell signal can be assigned to the wrong receiver. A downstream alteration can make an upstream block irrelevant. A compound can lower a readout through broad toxicity, while another drug sharing its family label has a different target profile.
 
-Another mistake is treating reduced signaling as proof of selective cancer killing. Developmental circuits also support normal tissues. Mechanism, tumor dependence, and a tolerable clinical effect each need evidence.
+Normal tissues also use these circuits. Even a well-supported tumor-model dependence leaves an exposure and safety question before patient benefit can be assessed.
 
 ## Try it
 
-A researcher sees high total β-catenin in tissue and proposes a Wnt-secretion inhibitor. What two questions should come before a response prediction?
+A fictional sample has high total β-catenin. A researcher proposes a Wnt-secretion inhibitor. Which two biological questions come first?
 
 <details>
 <summary>Show the answer</summary>
 
-First, is canonical nuclear signaling active in the relevant malignant cells? Total β-catenin can include its cell-junction role. Second, does that signaling depend on secreted Wnt ligands? A downstream alteration could bypass secretion. Growth and selectivity testing would follow.
+Is canonical nuclear signaling active in the relevant malignant cells? Total β-catenin includes its cell-junction role. Does the active signal still require secreted Wnt ligands? A downstream change could bypass secretion. Functional selectivity and clinical evidence would follow.
 
 </details>
 
 ## Explain it back
 
-“To connect a signal to an intervention, locate ___, measure ___, and test whether ___.”
+“Locate ___, measure the expected ___, and test whether ___.”
 
-One possible answer: “the sender, receiver, and active step; the expected biochemical change; the relevant cells depend on that step.”
+One answer: “the sender, receiver and active step; biological change; the relevant cells depend on it.”
 
 ## Takeaway
 
-**An intervention must fit the active step, and changing that step must matter to the tumor before a drug-response claim follows.**
+**Fit the intervention to the active step, then test whether changing that step matters to survival.**
 
-**Next:** [Stress defenses, ferroptosis, and chromatin readers](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet).
+**Next:** [Stress defenses and chromatin readers](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet).
 
 ## Sources and scope
 
-Source check: 2026-10-09. General education; all worked scenarios and numerical examples are fictional. Mechanistic experiments describe their tested systems, not a treatment-selection rule. Expert and learner review pending.
+Source check: October 9, 2026; expert and learner review pending. All experiment cards are fictional. Primary findings concern their studied systems; no exact-variant drug match or treatment recommendation is supplied.
 
-- [Schroeter 1998: Notch intracellular-domain release](https://pubmed.ncbi.nlm.nih.gov/9620803/).
-- [De Strooper 1999: gamma-secretase-like Notch cleavage](https://pubmed.ncbi.nlm.nih.gov/10206645/).
-- [Liu 2002: β-catenin phosphorylation and degradation](https://pubmed.ncbi.nlm.nih.gov/11955436/).
-- [Taylor 2009: selected activating FGFR4 mutations in rhabdomyosarcoma models](https://pubmed.ncbi.nlm.nih.gov/19809159/).
-- [Rodon 2021: WNT974 phase I study](https://pubmed.ncbi.nlm.nih.gov/33941878/).
+- [Mumm et al., 2000: ligand-regulated Notch cleavage](https://pubmed.ncbi.nlm.nih.gov/10882062/).
+- [Tamai et al., 2000: the Wnt co-receptor mechanism](https://pubmed.ncbi.nlm.nih.gov/11029007/).
+- [Takada et al., 2006: PORCN and Wnt secretion](https://pubmed.ncbi.nlm.nih.gov/17141155/).
+- [Taylor et al., 2009: specified activating FGFR4 mutations in rhabdomyosarcoma models](https://pubmed.ncbi.nlm.nih.gov/19809159/).
+- [Rodon et al., 2021: separate tissue pathway and clinical response measurements](https://pubmed.ncbi.nlm.nih.gov/33941878/).
