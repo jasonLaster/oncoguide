@@ -1,114 +1,123 @@
 ---
 title: "How a personalized vaccine is manufactured"
 type: "guide-lesson"
-sensitive: false
-tags: [education]
-updated: "2026-10-09"
-review_status: "Source-checked; expert and learner review pending"
 guide: "personalized-cancer-vaccine"
 step: 7
-objectives: ["Separate construct specification, formulation and batch release."]
-prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle]]"]
+minutes: 14
+objectives: ["Separate RNA synthesis, purification, formulation and batch release.", "Compare RNA-LPX and RNA-LNP study products without transferring their protocols.", "Identify missing evidence at a manufacturing handoff."]
+prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex]]", "[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
+sensitive: false
+tags: ["education", "lesson"]
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
-minutes: 10
-source_checked: "2026-10-09"
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # How a personalized vaccine is manufactured
 
 **Personalization chooses what to encode; manufacturing turns the design into a defined product that can be tested and released.** This is step seven of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index).
 
-**Before you start:** [Messenger RNA (mRNA) construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy) describes the message. A [lipid nanoparticle (LNP)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) is one delivery formulation. [Good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) define the quality questions.
+**Before you start:** [Messenger RNA (mRNA) construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy) describes the message. [In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription) explains RNA synthesis. [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) introduces one formulation. [Good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) explain the quality system.
 
 ## Where this step sits
 
-The target set and message have been specified. The next task is to make and characterize the exact product, with a controlled route from design version to administered lot. A clean batch can contain an ineffective design; a promising design can fail manufacturing.
+The target windows and message have been specified. The next task is to make the exact product, with a controlled route from approved design to administered lot. Quality, access authorization and evidence of benefit answer different questions.
 
 ## The intuition: a recipe is the beginning
 
-Think about the handoff between a recipe writer and a kitchen. The kitchen needs more than the ingredient names. It needs the quantities, preparation, handling and criteria for a usable batch. For a vaccine, the specifications also include biological activity and the delivery formulation. The analogy stops at clinical benefit: neither a sound recipe nor consistent production proves that a treatment helps patients.
+A kitchen needs more than ingredient names: preparation, handling and criteria for a usable batch matter too. A vaccine adds biological activity and a defined delivery formulation. The analogy stops at clinical benefit. Consistent production does not prove that the encoded targets are useful or that the treatment helps patients.
 
 ## The format changes the factory
 
-| Format | What is made | How the antigen reaches the immune system | A limit to keep in view |
-|---|---|---|---|
-| Synthetic peptide | Short amino-acid chains, usually purified separately | Antigen-presenting cells take up or load peptide; adjuvants support priming | Formulation and peptide length affect processing and response |
-| mRNA with lipid nanoparticles | Coding RNA plus a defined delivery formulation | Cells take up RNA and translate the encoded antigen | Particle composition, RNA chemistry and route are product-specific |
-| RNA-lipoplex | RNA complexed with lipids using a different formulation architecture | Delivery can target antigen-presenting compartments after intravenous administration | Do not assume it behaves like an intramuscular COVID-vaccine LNP |
-| DNA or viral vector | DNA or an engineered vector encoding antigen | Cells produce antigen following delivery | Expression, delivery and vector immunity differ from RNA |
+| Format | What is manufactured | A question that remains |
+|---|---|---|
+| Synthetic peptide | Defined amino-acid chains plus their formulation | How will antigen-presenting cells process or load them and prime a response? |
+| mRNA with [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) | RNA and a specified particle formulation | Which cells translate the message after the intended route? |
+| [RNA-lipoplex (RNA-LPX)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) | RNA complexed with specified lipids | How do this composition and route affect expression and sensing? |
+| DNA or a viral vector | A DNA-containing product or engineered vector | Which cells express the cassette, for how long, and with what vector-specific risks? |
 
-**Autogene cevumeran (BNT122) and the TNBC-MERIT RNA vaccine use intravenously delivered RNA-lipoplex formulations.** They should not be described as intramuscular LNP products. Some other personalized RNA programs use LNPs. Shared use of RNA does not establish interchangeable chemistry, dose, route or schedule.
+Peptide synthesis assembles and purifies the selected amino-acid chains. RNA manufacture instead produces an instruction molecule. Neither format dispenses with identity, purity, stability, handling and functional testing.
 
-## Peptide manufacture
-
-Solid-phase peptide synthesis grows a chain on a support through repeated coupling and deprotection steps. Purification separates the desired sequence from incomplete products and impurities. Identity, purity and stability must then be checked. The formulation also specifies adjuvant, dose, container and handling.
-
-A facility's experience with a different peptide product does not establish that it can release this investigational vaccine. The product's own synthesis, formulation and testing requirements still apply.
-
-## RNA manufacture
+## Follow RNA from template to formulated lot
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Approved sequence and specification] --> B[DNA template]
-  B --> C[In-vitro transcription]
+  B --> C[In vitro transcription]
   C --> D[Purification and RNA testing]
-  D --> E[Product-specific delivery formulation]
-  E --> F[Aseptic fill and release testing]
-  F --> G[Controlled transport and administration]
+  D --> E[Defined delivery formulation]
+  E --> F[Aseptic fill and product release]
+  F --> G[Controlled transport and protocol administration]
 ```
 
-*Every step has a specification; a sequence file alone is not a released drug.*
+*Each arrow is a handoff with specifications, rather than a promise that a sequence file becomes a usable vial.*
 
-The DNA template encodes the intended RNA. In-vitro transcription makes RNA using an enzyme. The product’s design determines its cap, untranslated regions, coding sequence, poly(A) strategy and whether modified nucleotides are used. Modified uridine is not a universal requirement for cancer RNA vaccines.
+[In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription) uses enzymes to make RNA outside living cells. The DNA is the manufacturing pattern, not the intended payload of a conventional mRNA vaccine. The approved design specifies the cap, untranslated regions, coding sequence, poly(A) strategy and chemical building blocks.
 
-Purification removes residual template, enzymes, truncated products and unwanted double-stranded RNA. Formulation protects and delivers RNA, but its performance depends on lipid composition, particle properties, payload and route. Changing the formulation can change which cells translate the message and what inflammatory response occurs.
+[Modified nucleosides](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides) can change sensing and translation, but are not a universal requirement for cancer RNA vaccines. Chemistry, sequence and purification are separate decisions.
 
-Aseptic filling and the storage plan preserve the product through administration. Shelf life and permissible pauses come from product-specific stability data, not a generic “RNA lasts six months” rule.
+Purification addresses residual DNA, proteins, incomplete RNA and [double-stranded RNA impurities](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification). Ask what each method removes and what each assay detects. A purity result cannot establish integrity or sterility by itself.
+
+Formulation then defines how the RNA is packaged and delivered. Particle composition, RNA amount and integrity, particle properties and relevant biological activity belong to that product's specification. Aseptic filling, storage and transport preserve the material until administration. Shelf life and allowable storage excursions come from product-specific stability evidence.
+
+## Worked comparison: three published RNA-vaccine protocols
+
+All three examples below encode personalized antigens. They differ in formulation, route, cancer setting and treatment sequence. Some papers call lipoplexes nanoparticles; inspect the actual formulation rather than relying on the label alone. Read each row as a study record, not as a dosing recommendation.
+
+| Study product and population | Formulation and route | Published protocol context | What the comparison can establish |
+|---|---|---|---|
+| **TNBC-MERIT**, early-stage triple-negative breast cancer after standard treatment | Non-nucleoside-modified uridine RNA; **RNA-LPX, intravenous** | Phase I, single arm; the personalized course used eight administrations, with six weekly followed by two every other week | Feasibility and immune-response findings in this setting; it does not isolate recurrence-prevention benefit |
+| **Autogene cevumeran**, Rojas et al., resected pancreatic ductal adenocarcinoma | Uridine RNA; **RNA-LPX, intravenous** | Phase I, single arm; surgery followed by atezolizumab, vaccine priming, chemotherapy and a later vaccine booster | Immune-response and clinical associations within a combined treatment sequence; it cannot isolate vaccine benefit |
+| **mRNA-4157/V940**, KEYNOTE-942, completely resected high-risk melanoma | **RNA-LNP, intramuscular**; the category name does not disclose an interchangeable chemical recipe | Randomized phase IIb; vaccine up to nine administrations every three weeks plus pembrolizumab versus pembrolizumab alone | Tests adding this product to this treatment backbone in this population; it does not compare LPX with LNP |
+
+The TNBC-MERIT paper describes two RNA strands, each encoding up to ten selected target windows. This architecture is a specific [multi-epitope design](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs), not a requirement for every RNA vaccine. Its methods explicitly use ordinary uridine. The pancreatic study also uses an RNA-lipoplex approach, but its cancer and combined treatment sequence differ.
+
+KEYNOTE-942 supplies the randomized melanoma comparison and intramuscular schedule. A primary V940 protocol abstract explicitly describes LNP encapsulation. Neither “mRNA” nor “LNP” supplies the complete lipid composition, cap, RNA chemistry, impurity limits or stability specification. Do not fill missing details from a different vaccine's methods.
+
+A TNBC-MERIT run-in subgroup also received a bridging shared-antigen vaccine. This is another reason to read the actual participant protocol when interpreting a schedule. Cross-trial percentages cannot tell us which formulation is intrinsically more effective, and these examples do not establish equivalence of routes or manufacturing processes.
 
 ## Four reviews answer different questions
 
 | Review | Question |
 |---|---|
-| Antigen/design | Are the intended antigens plausible, sufficiently tumor-specific, expressed and safely presented? |
-| Handoff/change control | Is the exact sequence and specification version approved, and who may change it? |
-| [Manufacturing/release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) | Does the batch meet identity, purity, potency, sterility and formulation requirements? |
-| Clinical/regulatory | Who owns the investigational protocol, access authorization, dosing and adverse-event monitoring? |
+| Antigen and construct | Does the exact design encode plausible, appropriately specific targets? |
+| Handoff and change control | Which version is approved, and what happens after a proposed edit? |
+| Manufacturing and release | Does this lot meet its identity, purity, potency, sterility and formulation criteria? |
+| Clinical and regulatory | Who owns the protocol, authorization, administration and adverse-event monitoring? |
 
-A clean batch can contain an ineffective design. A promising design can fail manufacturing. Regulatory authorization, batch release and evidence of benefit are separate gates. Timelines include design, material procurement, queue time, production, failed-lot handling, testing and review; no universal sequence-to-vial duration applies.
-
-## Worked example: a spacer changes at handoff
-
-A fictional designer sends a sequence. The manufacturer proposes a spacer change to improve production. The team needs a controlled revision, renewed biological assessment where appropriate, a final approved specification and a record tying the released lot to it. “Manufacturability edit” does not mean the biological meaning stayed unchanged.
-
-RNA and peptide vaccine trials differ in cancer, burden, antigen selection, adjuvant and combination treatment. Cross-trial response percentages cannot establish that one platform is universally more immunogenic or more effective. Long peptides can support both class I and class II responses; they do not inherently require separate products for each.
+A fictional manufacturer shortens a spacer to improve production. The team records a controlled revision, reassesses affected biology and connects the released lot to the final specification. A “manufacturability edit” can still change antigen processing.
 
 ## What can go wrong at this step
 
-A production change can alter antigen processing, expression or formulation behavior. A passing identity test cannot cancel a failing potency result. A storage excursion also needs an assessed disposition rather than an assumption that the original shelf life still applies. Record the actual version and lot at every handoff.
+A batch may have the correct sequence but inadequate integrity or functional activity. A new formulation may change which cells translate the message. A storage excursion needs an assessed disposition. Timelines also include testing, review, queue time and failed-lot handling; no universal sequence-to-vial duration applies.
 
 ## Try it
 
-Two vaccines encode the same targets, but one is RNA-lipoplex given intravenously and the other RNA-LNP given intramuscularly. Can the first trial’s schedule and safety data be assigned to the second?
+A fictional RNA-LNP product passes its identity test. Its team borrows an intravenous RNA-LPX study's handling instructions and claims that nondetectable dsRNA means the lot is sterile. Identify two unsupported transfers.
 
-**Answer:** No. The exact formulation, route, dose and clinical context need their own evidence.
+**Answer:** Formulation and route do not justify borrowing handling or stability requirements. A dsRNA assay answers one impurity question, not microbial sterility. Use the product's own validated specifications and complete release criteria.
 
 ## Explain it back
 
-“Sequence design determines what to teach; formulation determines delivery; release tests check the product; the clinical study tests benefit.”
+“Shared targets do not make products interchangeable because ___; a passing release panel does not prove ___.”
+
+One answer: “RNA design, chemistry, formulation, route and protocol can differ; tumor recognition or clinical benefit.”
 
 ## Takeaway
 
-**A shared antigen or RNA label does not make two vaccine products interchangeable.**
+**Compare the exact message, formulation, route and protocol, then keep product quality separate from evidence that patients benefit.**
 
 **Next:** [Dose and measure response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response).
 
 ## Sources and scope
 
-Source check: October 9, 2026; no product or schedule is recommended here. Expert and learner review pending.
+Source check: October 9, 2026; expert and learner review pending. Protocol details are descriptions of published studies, not recommendations for dose, schedule or access. The practice cards are fictional. No head-to-head LPX-versus-LNP benefit comparison is supplied here.
 
-- [TNBC-MERIT primary study and methods](https://www.nature.com/articles/s41586-025-10004-2).
-- [Autogene cevumeran pancreatic-cancer study](https://www.nature.com/articles/s41586-023-06063-y).
-- [FDA investigational-drug access requirements](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.310).
-
-- [FDA vaccine chemistry, manufacturing and controls guidance](https://www.fda.gov/media/73614/download).
+- [Sahin et al., 2026: TNBC-MERIT primary study and manufacturing methods](https://www.nature.com/articles/s41586-025-10004-2).
+- [Rojas et al., 2023: autogene cevumeran pancreatic-cancer study and protocol](https://www.nature.com/articles/s41586-023-06063-y).
+- [Weber et al., 2024: randomized KEYNOTE-942 melanoma trial](https://pubmed.ncbi.nlm.nih.gov/38246194/).
+- [AACR primary protocol abstract CT251, 2025: V940 formulation and route](https://doi.org/10.1158/1538-7445.AM2025-CT251) — a formulation description, not outcome evidence for KEYNOTE-942.
+- [Karikó et al., 2011: experimental purification and translation of mRNA](https://pubmed.ncbi.nlm.nih.gov/21890902/).
+- [FDA: vaccine chemistry, manufacturing and controls guidance](https://www.fda.gov/media/73614/download).

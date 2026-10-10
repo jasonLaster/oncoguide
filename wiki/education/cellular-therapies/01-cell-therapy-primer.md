@@ -3,8 +3,8 @@ title: "Cell therapies as living drugs"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -27,7 +27,7 @@ Identify the cell source and what is administered before comparing targets or re
 
 ## Living behavior changes the dose question
 
-A dose of cells is a starting population. Its size may change through division, death and movement between compartments. A high blood count does not establish tumor entry. Persistence means cells remain detectable; useful functional persistence requires additional evidence.
+A [cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug) has a starting population rather than a fixed downstream dose. Its size may change through division, death and movement between compartments. A high blood count does not establish tumor entry. Persistence means cells remain detectable; useful functional persistence requires additional evidence.
 
 A cell integrates recognition, activation, inhibition and its environment. Calling this “decision-making” is an analogy for biological signaling, not intention. More cells are not automatically more effective or safer.
 
@@ -52,9 +52,11 @@ The carrier dose also does not specify the final number of engineered cells. Del
 
 Stopping further doses prevents additional administration. It does not instantly remove a persistent cell population, receptor or downstream inflammatory effect. An antibody also has a clearance time; doseable biologics are not instantaneous off switches.
 
-A drug-responsive signaling switch may reduce one pathway. A cell-elimination mechanism aims to remove engineered cells. Both require evidence for speed, completeness and remaining effects. Product persistence can offer durable activity while making adverse effects harder to terminate.
+Engineered [safety switches](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) may adjust activity or eliminate cells. A drug-responsive signaling switch may reduce one pathway. A cell-elimination mechanism aims to remove engineered cells. Both require evidence for speed, completeness and remaining effects. Product persistence can offer durable activity while making adverse effects harder to terminate.
 
 ## What can go wrong at this step
+
+Preparatory [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion) can change immune competition while adding blood-cell and infection risks. Its regimen belongs beside the cell dose when evaluating the complete treatment.
 
 Collection and manufacture can fail. Starting cells may be insufficient or dysfunctional. Donor cells introduce immune-compatibility questions. In vivo carriers can reach unintended cells. These problems are distinct from selecting an unsafe tumor antigen.
 
@@ -76,7 +78,7 @@ A vial is off the shelf and creates engineered cells inside the patient. Must th
 
 ## Sources and scope
 
-Source check: October 8, 2026; expert and learner review pending. This explains product categories without recommending a treatment.
+Source check: October 9, 2026; expert and learner review pending. This explains product categories without recommending a treatment.
 
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
 - [Primary targeted mRNA cell-engineering experiments](https://pubmed.ncbi.nlm.nih.gov/40536974/).

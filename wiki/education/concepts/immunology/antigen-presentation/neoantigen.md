@@ -10,8 +10,8 @@ used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-desi
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -46,18 +46,20 @@ A fictional mutation has strong RNA support and predicted HLA binding. It is a p
 ## Common confusions
 
 - Tumor-specific sequence does not guarantee immune recognition or safety.
-- A tumor-associated antigen can also occur in normal tissue.
+- A [tumor-associated antigen](/wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen) can also occur in normal tissue.
 - More predicted targets do not necessarily mean broader effective coverage.
 
 ## Related concepts
 
 - [HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)
 - [Antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery)
-- [[TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)
+- [TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)
+- [Antigen and epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope)
+- [Self-similarity and tolerance](/wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance)
 
 ## Sources and scope
 
-Source check: October 8, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source check: October 9, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
 
 - [NCI neoantigen definition](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/neoantigen).
 - [Primary HLA presentation dataset](https://www.nature.com/articles/s41587-019-0322-9).

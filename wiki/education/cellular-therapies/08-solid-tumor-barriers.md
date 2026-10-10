@@ -8,24 +8,24 @@ minutes: 10
 objectives: ["Separate access, recognition, function and safety barriers."]
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]"]
 sensitive: false
-source_checked: "2026-10-08"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-08"
+updated: "2026-10-09"
 ---
 
 # The journey through a solid tumor
 
-**Before you start:** [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy), [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape).
+**A T cell bearing a [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) must reach the cancer, recognize it, remain functional, and do enough damage without unacceptable harm.** Increasing the cell count addresses only part of that chain.
 
-**A useful CAR-T cell must reach the cancer, recognize it, remain functional, and do enough damage without unacceptable harm.** Increasing the cell count addresses only part of that chain.
+**Before you start:** [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy), [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape).
 
 Before this lesson: [[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors|Cytokines and programmable receptors]].
 
 ## Four obstacles to follow
 
-<img src="https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/solid-tumor-journey-light.png" alt="Engineered cells encounter separate barriers to tumor entry, target recognition, useful function and healthy-tissue safety" data-theme-pair>
+<img src="./images/solid-tumor-journey-light.png" alt="Engineered cells encounter separate barriers to tumor entry, target recognition, useful function and healthy-tissue safety" data-theme-pair>
 
 *Improving one link does not guarantee that the whole treatment chain works.*
 
@@ -49,7 +49,7 @@ Conventional CAR recognition does not require a peptide to be displayed on [huma
 
 Suppressive signals, limited nutrients, low oxygen, and repeated stimulation can undermine function. **Exhaustion** describes a biological state associated with chronic stimulation and altered function; it is not simply a cell being briefly tired.
 
-**Persistence** means cells remain present. **Functional persistence** means they remain capable of useful activity. A supportive cytokine receptor might help with one aspect of this problem; it does not supply oxygen or guarantee access to every cancer cell. Experimental approaches that deliver cytokines locally have improved mouse outcomes, but their results are specific to the tested constructs and models. [2]
+**Persistence** means cells remain present. **Functional persistence** means they remain capable of useful activity. [armoring](/wiki/education/concepts/therapeutics/cell-therapies/armoring) can add support or resistance to one inhibitory pathway. A supportive cytokine receptor might help with one aspect of this problem; it does not supply oxygen or guarantee access to every cancer cell. Experimental approaches that deliver cytokines locally have improved mouse outcomes, but their results are specific to the tested constructs and models. [2]
 
 ### 4. Preserve healthy tissue
 
@@ -63,7 +63,7 @@ Stronger activation can increase useful killing and harmful activity. **Therapeu
 
 The tumor has become much smaller, but 20 target-negative cells remain. Making ten times as many CAR-X cells does not create target X on those survivors. Real treatments can recruit other immune effects, but that requires evidence; it should not be assumed from the CAR's specificity.
 
-**What might address this gap?** A second recognition target or a demonstrated broader immune response might help. Each introduces its own design and safety questions.
+**What might address this gap?** A second recognition target, carefully tested [logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars), or a demonstrated broader immune response might help. Each introduces its own design and safety questions.
 
 ## Match the tool to the problem
 
@@ -73,7 +73,7 @@ The tumor has become much smaller, but 20 target-negative cells remain. Making t
 | Another CAR target | Recognition coverage | Safe expression of both targets in normal tissue |
 | Added cytokine receptor | Growth, survival, or functional state | Missing antigen or inaccessible tissue |
 | Improved trafficking machinery | Reaching tumor sites | Retaining activity after arrival |
-| Drug-controlled signaling | Adjusting a particular pathway | Immediate removal of all engineered cells |
+| [safety switches](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) | Adjusting a pathway or removing expressing cells | Immediate reversal of every downstream injury |
 
 ## Try it: read a biopsy and a blood result together
 
@@ -83,7 +83,7 @@ The tumor has become much smaller, but 20 target-negative cells remain. Making t
 
 ## What “breast cancer” tells us
 
-The indication name is not a molecular target. Even the label TNBC does not identify one universal CAR antigen. A program needs a defined target, evidence of accessible expression across relevant cancer cells, normal-tissue testing, and a named development or clinical protocol. A pipeline label alone does not establish eligibility or access.
+The indication name is not a molecular target. Even [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) does not identify one universal CAR antigen. A program needs a defined target, evidence of accessible expression across relevant cancer cells, normal-tissue testing, and a named development or clinical protocol. A pipeline label alone does not establish eligibility or access.
 
 ## Explain it back
 
@@ -97,7 +97,7 @@ The indication name is not a molecular target. Even the label TNBC does not iden
 
 ## Sources and scope
 
-Checked September 15, 2026. The numerical example is deliberately fictional. These lessons do not infer eligibility for a particular treatment.
+Source check: October 9, 2026; expert and learner review pending. The numerical example is deliberately fictional. These lessons do not infer eligibility for a particular treatment.
 
 1. [NCI: CAR T cells, including barriers in solid tumors](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7). Preclinical evidence for locally controlled cytokine expression; not in vivo generation of the CAR-T cells.

@@ -8,11 +8,11 @@ minutes: 12
 objectives: ["Match evidence to delivery, function and outcome claims."]
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]"]
 sensitive: false
-source_checked: "2026-10-08"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-08"
+updated: "2026-10-09"
 ---
 
 # Reading cell-therapy evidence
@@ -73,7 +73,9 @@ Now suppose the treated tumor is 30 instead. That shows shrinkage below its 100 
 | Can harmful engineered cells be removed? | Direct evidence for a cell-elimination mechanism, if included |
 | Could effects persist or emerge later? | Follow-up appropriate to the vector and cell product |
 
-**CRS**, cytokine release syndrome, is an inflammatory complication. **ICANS**, immune effector cell-associated neurotoxicity syndrome, is a neurologic toxicity associated with immune-effector-cell therapies. They are distinct from injury caused by recognition of a healthy tissue antigen. Avoiding externally administered cytokines does not eliminate all of these risks. [3,4]
+[Cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) is an inflammatory complication. [Immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) is a neurologic toxicity associated with immune-effector-cell therapies. They are distinct from injury caused by recognition of a healthy tissue antigen. Avoiding externally administered cytokines does not eliminate all of these risks. [3,4]
+
+A proposed [safety switch](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) also needs direct evidence: how quickly does the intervention reduce activity or remove cells, how completely, and under which conditions? A mechanism included in the construct is a design feature before those measurements are established.
 
 ## A component claim versus a finished-product claim
 
@@ -121,7 +123,7 @@ Copy these headings when reading a paper or company presentation:
 
 ## Sources and scope
 
-Checked September 15, 2026. The graph exercise uses invented numbers and cannot estimate an individual response.
+Source-checked October 9, 2026. The graph exercise uses invented numbers and cannot estimate an individual response. Expert and learner review remain pending.
 
 1. [Hunter et al., Science, 2025](https://pubmed.ncbi.nlm.nih.gov/40536974/): example of distinguishing human-cell, mouse, and monkey findings.
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7): example of preclinical component and outcome measurements.

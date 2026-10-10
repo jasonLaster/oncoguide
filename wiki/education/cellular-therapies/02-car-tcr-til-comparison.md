@@ -3,8 +3,8 @@ title: "Compare immune-cell recognition systems"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -30,12 +30,20 @@ The guide has separated target, delivery, behavior and safety. The family names 
 | Family | Recognition | Distinct question |
 |---|---|---|
 | CAR-T | An engineered receptor, commonly binding a surface antigen | Is the target safely accessible across enough tumor cells? |
-| Engineered TCR-T | A selected receptor for a peptide–HLA complex | Does the tumor retain the exact presentation requirement? |
-| Tumor-infiltrating lymphocyte (TIL) therapy | Expanded cells harvested from tumor, using native receptors | Which cells are tumor-reactive, and can they be expanded usefully? |
-| CAR natural killer (NK) cells | Engineered recognition plus endogenous NK signals | How do target binding, inhibitory inputs and cell persistence interact? |
+| [Engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t) | A selected receptor for a peptide–HLA complex | Does the tumor retain the exact presentation requirement? |
+| [Tumor-infiltrating lymphocyte (TIL) therapy](/wiki/education/concepts/therapeutics/cell-therapies/til-therapy) | Expanded cells harvested from tumor, using native receptors | Which cells are tumor-reactive, and can they be expanded usefully? |
+| [CAR natural killer (NK) cells](/wiki/education/concepts/therapeutics/cell-therapies/car-nk) | Engineered recognition plus endogenous NK signals | How do target binding, inhibitory inputs and cell persistence interact? |
 | Gamma-delta T cells, with or without a CAR | Diverse stress, metabolic or nonclassical recognition systems | Which recognition mechanism does the actual product use? |
 
 Conventional alpha-beta TCR approaches depend on their presenting HLA. CAR recognition often avoids that particular requirement. NK and gamma-delta biology cannot be reduced to a single universal “HLA-independent” switch. Natural killer T cells are also a distinct family, rather than another name for NK cells.
+
+## Ask what was installed and what was expanded
+
+Engineered TCR therapy installs selected receptor instructions. Expanding native antigen-reactive T cells does not itself do that. The distinction matters when a paper moves from finding a receptor sequence to proposing a cell product: sequence identity, expression, tumor recognition and healthy-tissue safety remain separate steps.
+
+TIL therapy starts with cells collected from tumor tissue. Some manufacturing methods select for measured tumor reactivity; others expand a broader mixture. Not every infiltrating cell recognizes cancer. A high pathology infiltration score also does not establish that a usable infusion product can be manufactured.
+
+CAR-NK adds a recognition receptor to a different effector family. Native activating and inhibitory signals remain. The source, cytokine support and other engineering can change persistence, so “NK cells are short-lived” is not a universal product rule. Favorable findings in one small blood-cancer trial do not establish a family-wide safety ranking.
 
 ## A retained allele is different from a shared defect
 
@@ -75,8 +83,11 @@ A cell is harvested from a tumor. Does that prove its receptor recognizes cancer
 
 ## Sources and scope
 
-Source check: October 8, 2026; expert and learner review pending. This comparison contains no case-specific ranking or approval inventory.
+Source check: October 9, 2026; expert and learner review pending. This comparison contains no case-specific ranking or approval inventory.
 
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
 - [FDA CAR T-cell product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
+- [Receptor-transfer study in metastatic melanoma](https://pubmed.ncbi.nlm.nih.gov/16946036/) — genetic installation rather than native-cell expansion.
+- [Bystander cells in human lung and colorectal tumors](https://pubmed.ncbi.nlm.nih.gov/29769722/) — tissue origin does not establish tumor specificity.
+- [Cord-blood CAR-NK study](https://pubmed.ncbi.nlm.nih.gov/32023374/) — one construct and population, not a family-wide risk estimate.
 - [Gamma-delta biology lesson](/wiki/education/cellular-therapies/03-gamma-delta-foundations) — specialist reading with scoped sources.

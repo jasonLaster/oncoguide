@@ -6,7 +6,7 @@ summary: "Antigen-processing machinery generates protein fragments and loads the
 glossary_anchor: "antigen-processing-machinery"
 aliases: ["APM", "TAP", "antigen processing"]
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
@@ -76,6 +76,7 @@ Source check: October 8, 2026. This is a mechanism explanation, not a treatment 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 - [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
 - [Turn selected targets into an mRNA message](/wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message)

@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor]]", "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor]]", "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2]]"]
-used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]"]
 ---
 
 # Triple-negative breast cancer (TNBC)
@@ -94,6 +94,7 @@ General education about invasive breast cancer; fictional examples. Source-check
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
 - [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)

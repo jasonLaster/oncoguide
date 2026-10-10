@@ -11,8 +11,10 @@ The teaching page is the owner of an illustration's meaning and sources. This ge
 
 | Teaching page | Alternative text | Asset | Dark pair | Saved prompt |
 |---|---|---|---|---|
+| [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks) | Three panels show genetic instructions becoming receptor protein, the receptor crossing a T-cell membrane and contact with a cancer-cell antigen | `instructions-to-car-light.png` | Present | Present |
 | [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery) | Two routes: cells engineered in a laboratory and infused, or instructions delivered to engineer cells inside the body | `where-cells-are-engineered-light.png` | Present | Present |
 | [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors) | A cytokine binds a receptor and changes intracellular signaling and cell behavior | `cytokine-message-and-receptor-light.png` | Present | Present |
+| [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers) | Engineered cells encounter separate barriers to tumor entry, target recognition, useful function and healthy-tissue safety | `solid-tumor-journey-light.png` | Present | Present |
 | [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics) | Three independent panels showing peptide identification, peptide-HLA multimer binding and stimulated cell secretion, with tumor killing and patient benefit left as separate questions | `three-assays-three-questions-light.png` | Present | Present |
 | [Porton mRNA manufacturing handoff](/wiki/education/designing-a-vaccine/08-porton-mrna-manufacturing) | porton design manufacturing boundary cartoon | `porton-design-manufacturing-boundary-light.png` | Present | Present |
 | [Porton mRNA manufacturing handoff](/wiki/education/designing-a-vaccine/08-porton-mrna-manufacturing) | porton sequence to vials cartoon | `porton-sequence-to-vials-light.png` | Present | Present |

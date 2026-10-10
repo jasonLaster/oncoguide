@@ -1,27 +1,29 @@
 ---
 title: "How to engineer T cells inside the body"
-tags: [education, CAR-T, in-vivo, lentivirus, mRNA, LNP]
 type: "guide-lesson"
 guide: "engineered-cell-therapy"
 step: 4
-minutes: 10
-objectives: ["Distinguish engineering location and the administered product.", "Separate delivery targeting from cancer targeting."]
-prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle]]"]
+minutes: 12
+objectives: ["Identify the administered product and the cells being engineered.", "Separate delivery targeting, therapeutic targeting and genetic persistence.", "Keep each delivery example attached to its experimental model."]
+prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting]]"]
 sensitive: false
+tags: ["education", "CAR-T", "in-vivo", "lentivirus", "mRNA", "LNP"]
+updated: "2026-10-09"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-09"
 ---
 
 # How to engineer T cells inside the body
 
-**Before you start:** [DNA, RNA and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma), [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy), [lipid nanoparticle (LNP)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle).
+**In vivo [chimeric antigen receptor (CAR) T-cell engineering](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) describes where T cells are engineered: inside the patient. Delivery, genetic persistence and cancer recognition are separate design questions.**
 
-**In vivo CAR-T describes where the T cells are engineered: inside the patient.** It does not describe which cancer they recognize or prove that they can control a solid tumor.
+**Before you start:** [DNA → RNA → protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains the instructions; [chimeric antigen receptor (CAR) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) explains the resulting receptor; [delivery targeting versus cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting) separates the two addresses. [Lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) introduce one delivery carrier.
 
-Before this lesson: [[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks|Building an engineered T cell]].
+## Where this step sits
+
+After [building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks), ask how the instructions reach the cell and what is administered. This is step four of the [engineered-cell guide](/wiki/education/guides/engineered-cell-therapy/index). Later lessons ask what the engineered cells do.
 
 ## Two manufacturing routes
 
@@ -34,72 +36,91 @@ View full-size: [light illustration](./images/where-cells-are-engineered-light.p
 | Route | What happens | What is administered |
 |---|---|---|
 | **[Ex vivo](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering)**: outside the body | Collect cells, engineer them in a laboratory, grow and test them, then infuse them | A manufactured population of cells |
-| **[In vivo](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering)**: inside the body | Manufacture and test a genetic delivery product; administer it so it engineers selected cells within the patient | The delivery product carrying genetic instructions |
+| **[In vivo](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering)**: inside the body | Make and test a delivery product that modifies cells after administration | A product carrying genetic instructions |
 
-The [engineering-location comparison](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) defines these routes. In vivo engineering could remove patient-specific cell processing. It still requires [manufacturing and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), quality control, and monitoring. The patient's starting T-cell number and state remain important. Whether lymphodepleting chemotherapy is needed is a property of a particular protocol, not something the words “in vivo” settle. [1,2]
+In vivo engineering could remove patient-specific cell processing. It still needs [manufacturing and release testing](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), monitoring and a defined protocol. Starting T-cell number and state matter. The words “in vivo” do not settle whether a particular protocol requires lymphodepleting treatment.
 
-**Autologous versus allogeneic answers a different question:** whose cells? Autologous cells come from the patient; allogeneic cells come from a donor. An off-the-shelf delivery vial may engineer the patient's own cells. “Off-the-shelf” does not necessarily mean donor cells.
+**Autologous versus allogeneic asks whose cells are used.** Autologous cells come from the patient; allogeneic cells come from a donor. A ready-made delivery vial can engineer the patient's own cells. “Off-the-shelf” does not necessarily mean donor cells.
 
 ## Two different targeting jobs
 
-The word “targeted” can hide two separate tasks:
+The carrier's binding feature can address a T cell, while the resulting CAR recognizes a different antigen on another cell. This is [delivery targeting versus cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting). Successful delivery does not prove tumor recognition, and selective engineering does not make a cancer-associated antigen absent from healthy tissue.
 
-1. **Delivery targeting:** the carrier must enter the intended immune cells. A carrier that binds a T-cell marker is addressing the T cell.
-2. **Cancer targeting:** the resulting CAR must recognize the chosen cancer-cell antigen. That antigen may be entirely different from the carrier's target.
+A **carrier** transports material. The **payload** is that material. **Expression** means a recipient cell uses the instructions to make a product. Viral gene delivery is commonly called **transduction**. **Integration** is insertion into chromosomal DNA; it is a different property from cell targeting.
 
-**A package addressed to a T cell can contain instructions for recognizing a cancer cell.** Neither targeting job proves the other worked. Delivery to the wrong cells and recognition of healthy tissue are different failure modes.
+## Compare the instruction paths
 
-## Carrier, payload, and expression
-
-A **vector** or carrier transports genetic material. The **payload** is the material transported. **Expression** means the recipient cell uses those instructions to make a product. **Transduction** commonly describes gene delivery by a viral vector.
-
-| Feature | Targeted mRNA lipid nanoparticles | Targeted integrating [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) |
+| Approach | Instructions and path to protein | Persistence question |
 |---|---|---|
-| Carrier | Small particles made from lipids, with a targeting strategy | Engineered viral particles with a targeting strategy |
-| Delivered instructions | mRNA | A vector RNA genome that is reverse-transcribed into DNA |
-| Typical route to protein | mRNA reaches cytoplasm and is translated | Vector-derived DNA integrates; the cell transcribes RNA and translates protein |
-| Persistence of expression | Usually transient; depends on RNA and protein lifetime | Can persist through cell division if the engineered cells survive and expression is maintained |
-| Important questions | Which cells receive RNA, endosomal escape, duration, repeat dosing, inflammation | Which cells receive the vector, integration sites, copy number, durability, immune responses |
+| [Targeted lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps) carrying messenger RNA (mRNA) | RNA must reach the cytoplasm and be translated | Ordinary CAR-encoding RNA is transient; measure RNA, receptor and immune-activity timelines separately |
+| Integrating [lentiviral vector](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) | Vector RNA is copied into DNA, which integrates and supplies new RNA transcripts | Expression can persist through division if cells survive and maintain it; assess integration and unintended-cell exposure |
+| [AAV (adeno-associated virus) vector](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector) | DNA must reach the nucleus and become usable for transcription | Often episomal, outside chromosomes; persistence depends on tissue and division, and possible integration still requires assessment |
+| [Engineered DNA transposon](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon) | A cassette and transposase require a separate delivery method before genomic insertion | Insertion can support persistence through cell division; assess sites, copy number and cell behavior |
 
-These are representative approaches, not rules for every nanoparticle or virus. Some viral designs do not integrate. Integration describes what happens to the genetic material; it does not guarantee indefinite cell survival or permanent tumor control. [1,2]
+The table compares mechanisms. It does not mean all four are equally validated for direct T-cell engineering inside patients. A transposon is an insertion system, not a self-sufficient delivery carrier. RNA encoding a genome editor could also produce lasting DNA changes; temporary RNA alone does not guarantee a temporary intervention.
 
-## Worked example: one vial, an uncertain cell population
+An administration route cannot be read from a carrier's name. The product's route affects distribution. Likewise, [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) vaccine delivery to antigen-presenting cells does not establish LNP delivery to T cells. Reuse evidence only at the step it actually tested.
 
-Imagine a fictional delivery vial with a measured functional vector dose. For in vivo engineering, the administered amount of carrier is an input. The number and behavior of engineered cells are downstream outcomes.
+## Worked comparison: read what was administered
 
-The chain is: carrier distribution → contact with intended cells → successful entry → functional expression → cell expansion or loss → movement into tumor tissue.
+**Rurik et al., 2022:** In a mouse cardiac-injury model, CD5-directed LNPs carried RNA for a CAR recognizing fibroblast activation protein (FAP). The delivery address was a T-cell marker; the therapeutic address was FAP. The intent was to affect activated fibroblasts in injured tissue. This was not a cancer trial or evidence of human tumor control.
 
-A construct containing both a CAR and an added receptor also needs **co-expression**: the relevant cells must make both components at useful levels. Detecting one component somewhere in the body does not establish that.
+**Kebriaei et al., 2016:** In phase I cancer trials, T cells were collected and engineered using a DNA transposon system outside the body, then expanded and infused. The administered product was engineered cells. This supports a particular ex vivo workflow, not direct patient injection of transposon components.
+
+**Hunter et al., 2025:** Targeted LNP engineering was studied in human cells, humanized mouse tumor models and monkeys. Human-cell experiments are not a clinical treatment result. Tumor control in mice and B-cell depletion in monkeys answer different questions from human solid-tumor benefit.
+
+These examples show why route, recipient cell, payload, genetic fate and model belong in the same evidence note. A result from one column cannot fill every other column.
+
+## Worked example: one vial, an uncertain population
+
+A fictional vial has a measured amount of RNA and a cell-binding feature. The number of successfully engineered cells is a downstream outcome, not the administered input.
+
+```mermaid
+flowchart TD
+  A[Administered delivery product] --> B[Distribution and cell contact]
+  B --> C[Entry and usable cargo release]
+  C --> D[Expression in identified cell populations]
+  D --> E[Cell expansion survival and movement]
+  E --> F[Recognition and effects in tumor and normal tissue]
+```
+
+*Measure the relevant cell populations at each gate.*
+
+A fluorescent particle signal in an organ is not proof of useful receptor expression in T cells. If a design adds a second receptor, **co-expression** asks whether the relevant cells make both components, rather than one being detected somewhere in the body.
 
 ## What can go wrong at this step
 
-Delivery can miss the intended cells, reach unintended cells, or produce too little useful receptor. An integrating design also needs product-specific assessment of delayed genetic effects. A transient design needs evidence about how long protein and downstream immune activity last; RNA disappearance is not an instant off switch.
+Delivery can miss intended cells or reach unintended ones. [Targeted LNPs](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps) can enter uptake compartments without enough RNA escaping into the cytoplasm. An integrating system needs delayed-effect assessment. A transient system still needs duration and safety evidence: RNA decay is not an instant immune off switch.
 
-## Try it: resolve an ambiguous headline
+## Try it
 
-**Headline:** “CAR-T cells eliminate tumors in vivo.”
+**Headline:** “CAR T cells eliminate tumors in vivo.” Does that prove they were engineered inside the animal?
 
-**Question:** Does that mean the cells were engineered inside the animal?
+**Answer:** No. Laboratory-engineered cells may have been infused and tested in a living animal. Read what was administered. “Tested in vivo” and “generated in vivo” are different claims.
 
-**Answer:** No. It may mean laboratory-engineered cells were infused and then tested in a living animal. Read what was administered: cells, a vector, or nanoparticles. “Tested in vivo” and “generated in vivo” are distinct findings.
+**Second card:** A fictional nonviral product uses a transposon. Does nonviral mean nonintegrating?
 
-**Second question:** If mRNA expression fades, does the immune response stop instantly?
-
-**Answer:** No. RNA decay, receptor-protein decay, cell survival, and downstream immune effects operate on different timelines.
+**Answer:** No. Engineered DNA transposons are designed to insert cassettes into cellular DNA. The delivery method and genetic fate must be described separately.
 
 ## Explain it back
 
-“Which claim was measured, and which next step remains untested?” Name one measurement from this lesson and the limit beside it.
+“The product administered is ___; the cell meant to receive it is ___; the resulting receptor recognizes ___; persistence was measured by ___.”
 
-## Takeaway and next step
+One fictional answer: “an RNA particle; a defined T-cell subset; antigen B; receptor measurements over time in identified cells.” That still leaves tumor and healthy-tissue effects to test.
 
-**In vivo engineering changes the delivery and manufacturing route. Tumor recognition, useful cell behavior, and safety still need their own evidence.**
+## Takeaway
 
-Next: [[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors|Cytokines and programmable receptors]].
+**Read the delivery address, therapeutic address and genetic fate separately, then ask which were measured in the relevant model.**
+
+**Next:** [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors).
 
 ## Sources and scope
 
-Source check: October 9, 2026. Expert and learner review pending. Published examples validate particular constructs and experimental settings; they do not validate every in vivo CAR-T product or every solid-tumor indication.
+Source check: October 9, 2026; expert and learner review pending. Examples describe their tested models and workflows. They do not validate every carrier for in vivo CAR-T or establish universal targeting, safety or solid-tumor benefit.
 
-1. [Hunter et al., Science, 2025: In vivo CAR T-cell generation to treat cancer and autoimmune disease](https://pubmed.ncbi.nlm.nih.gov/40536974/). Targeted mRNA nanoparticles; human-cell experiments, tumor control in humanized mice, and B-cell depletion in monkeys. This is not evidence of human solid-tumor efficacy.
-2. [A targeting lentiviral vector for generation of CAR-T cells in vivo, Scientific Reports](https://www.nature.com/articles/s41598-025-17342-1). CD19-targeted activity in a lymphoma mouse model; possible solid-tumor adaptations are not the same as tested solid-tumor efficacy.
+- [Rurik et al., Science, 2022: CAR T cells generated in a mouse cardiac-injury model](https://pubmed.ncbi.nlm.nih.gov/34990237/).
+- [Hunter et al., Science, 2025: targeted RNA engineering in human-cell experiments and animal models](https://pubmed.ncbi.nlm.nih.gov/40536974/).
+- [Kebriaei et al., JCI, 2016: ex vivo transposon-engineered CAR T-cell phase I trials](https://www.jci.org/articles/view/86721).
+- [Schnepp et al., 2016: episomal AAV vector genomes in human muscle](https://pubmed.ncbi.nlm.nih.gov/26650966/).
+- [Tuerxunyiming et al., Scientific Reports, 2026: a targeted lentiviral vector tested in a lymphoma mouse model](https://www.nature.com/articles/s41598-025-17342-1).
+- [FDA, 2020: risk-based long-term follow-up after gene therapy](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/long-term-follow-after-administration-human-gene-therapy-products).

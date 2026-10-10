@@ -36,7 +36,7 @@ A carrier may reach the wrong cell. A receptor may bind healthy tissue. Immune a
 | Healthy-tissue recognition | Does the intended or unintended target occur in important normal cells? | Binding, functional and tissue-distribution studies |
 | Excess inflammatory activation | Do cells trigger systemic inflammation? | Cytokines, clinical symptoms, organ effects and timing |
 | Neurologic effects | Are cognition, speech or other neurologic functions affected? | Prespecified assessment and clinical event reporting |
-| Conditioning-related injury | What harms arise from preparatory treatment? | Cytopenia, infection and other protocol-specific reporting |
+| [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion) and other conditioning-related injury | What harms arise from preparatory treatment? | Cytopenia, infection and other protocol-specific reporting |
 | Delivery and genetic effects | Which cells receive instructions, and how long do changes persist? | Cell-type distribution, vector characterization and appropriate follow-up |
 
 Preclinical safety tests can reveal particular hazards. They cannot fully reproduce the immune system, tissue distribution or rare effects of treatment in patients.
@@ -51,15 +51,19 @@ Consensus grading systems standardize reporting. The named version, treatment se
 
 ## Delayed risks need their own follow-up
 
+[insertional mutagenesis](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/insertional-mutagenesis) is a change caused by a genomic insertion disrupting a gene or its regulation. Integration, expansion of a cell clone and malignancy are different observations. A cancer appearing after therapy needs molecular investigation before attributing it to one insertion.
+
 An integrating [lentiviral vector](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) can leave genetic changes in cells. Follow-up therefore considers product-specific persistence and delayed effects. A reassuring acute safety window cannot answer a late-effect question.
 
 In April 2024, the Food and Drug Administration (FDA) required T-cell-malignancy warnings for approved B-cell maturation antigen (BCMA)- or CD19-directed genetically modified autologous CAR T-cell products. That is a specific safety signal from those products and populations, not an incidence estimate for experimental solid-tumor products or proof of one mechanism in every event. The actual product's protocol must address its relevant acute and delayed risks.
 
 ## Worked example: “drug off” is an incomplete safety claim
 
+Read [safety switches](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) by the outcome they control: signal reduction or cell elimination. An inducible caspase-9 system can trigger regulated death in expressing cells; a drug-gated receptor changes a specific signaling input. Speed, completeness, tissue access and surviving cells need measurements. A switch does not remove the need for a clinical rescue plan.
+
 A fictional product has a drug-triggered growth receptor. Removing the drug reduces that receptor’s signal over time. The cells and their CAR may remain. Their other signals and inflammatory effects may also continue.
 
-Ask how quickly activity falls, which outcomes were measured and whether a separate cell-elimination mechanism works in the relevant setting. A reversible input does not establish instantaneous reversal of every downstream effect.
+Ask how quickly activity falls, which outcomes were measured and whether a separate cell-elimination mechanism works in the relevant setting. A reversible input does not establish instantaneous reversal of every downstream effect. Removing engineered cells can also remove useful antitumor activity, while previously released signals or tissue injury may persist.
 
 ## What can go wrong at this step
 
@@ -86,8 +90,9 @@ A product secretes no added cytokine. Does that eliminate CRS or ICANS risk?
 Source check: October 9, 2026; expert and learner review pending. These are evidence-reading questions, not clinical management instructions.
 
 - [ASTCT 2019 consensus definitions and grading](https://pubmed.ncbi.nlm.nih.gov/30592986/) — identify the version used by a study rather than assuming all reports use it.
-- [NCI CAR T-cell toxicity overview](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
+- [Di Stasi et al., 2011](https://pubmed.ncbi.nlm.nih.gov/22047558/) — inducible caspase-9 in donor T cells after transplantation. This does not establish reversal of every CAR-T toxicity.
 - [FDA product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
 
 - [FDA April 2024 T-cell-malignancy safety communication](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-requires-boxed-warning-t-cell-malignancies-following-treatment-bcma-directed-or-cd19-directed).
+- [Hamilton et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38865660/) — a secondary T-cell lymphoma investigation without evidence of oncogenic vector integration.
 - [FDA gene-therapy long-term follow-up guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/long-term-follow-after-administration-human-gene-therapy-products).

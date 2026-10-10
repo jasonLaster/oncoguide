@@ -8,7 +8,7 @@ source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-minutes: 97
+minutes: 107
 goal: "Understand the evidence chain from tumor sample to personalized vaccine and clinical outcome."
 audience: "Curious reader; foundational concepts linked at first use"
 ---
@@ -48,11 +48,11 @@ Times are suggested reading budgets, not measured completion times. The final ev
 |---|---|---|---|---|
 | 1 | [Why vaccination can help](/wiki/education/designing-a-vaccine/index) | How does a pre-existing receptor become a larger response? | 8 | Priming-versus-killing example |
 | 2 | [Read tumor and normal data](/wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data) | Which alterations are credible candidate sources? | 12 | Evidence ledger |
-| 3 | [Match HLA and presentation](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation) | What does an HLA type constrain? | 8 | Display-versus-recognition map |
+| 3 | [Match HLA and presentation](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation) | What does an HLA type constrain? | 12 | HLA allele and presentation exercise |
 | 4 | [Read a target design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board) | Which gates are measured, predicted or missing? | 15 | Ten-row candidate board |
 | 5 | [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics) | Which immune question did the assay answer? | 12 | Three-assay cartoon and worked notebook |
-| 6 | [Write the message](/wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message) | What changes when targets become one construct? | 10 | Linker-change scenario |
-| 7 | [Make the product](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured) | How do sequence, formulation and release differ? | 10 | Controlled handoff |
+| 6 | [Write the message](/wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message) | What changes when targets become one construct? | 12 | Three-version construct review |
+| 7 | [Make the product](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured) | How do sequence, formulation and release differ? | 14 | Formulation-and-protocol comparison |
 | 8 | [Dose and measure response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response) | What shows immunogenicity, safety or benefit? | 12 | Assay-to-claim exercise |
 | 9 | [Read cancer evidence](/wiki/education/guides/reading-cancer-evidence/index) | What comparison can establish clinical benefit? | 10 | Endpoint and denominator check |
 
@@ -64,7 +64,11 @@ Times are suggested reading budgets, not measured completion times. The final ev
 
 **Measurement:** [immunopeptidomics](/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics), [enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot), [peptide–HLA multimer staining](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) and [TCR sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing).
 
-**Product and failure modes:** [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape) [good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) and the construct page above. Return to these explanations whenever a lesson uses an unfamiliar term.
+**Message design:** [mRNA construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy), [multi-epitope constructs](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs), [codon optimization](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization) and [modified nucleosides](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides).
+
+**Manufacturing and delivery:** [in vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription), [double-stranded RNA impurities and purification](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification), [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) and [good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release).
+
+**Downstream targeting and failure:** [delivery targeting versus cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting) and [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape). Return to the linked concept whenever a lesson uses an unfamiliar term.
 
 ## Applied to Diana
 

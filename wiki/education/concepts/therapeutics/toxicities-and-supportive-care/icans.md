@@ -7,7 +7,7 @@ glossary_anchor: "icans"
 aliases: ["ICANS", "immune effector cell-associated neurotoxicity syndrome"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-09"
@@ -72,6 +72,7 @@ Source check: October 9, 2026. This page explains a method or mechanism. Expert 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
 - [Read the safety plan for engineered cells](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

@@ -4,7 +4,7 @@ type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
 updated: "2026-10-09"
-source_checked: "2026-10-08"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -53,7 +53,13 @@ Now add a healthy tissue with low X expression. Increasing sensitivity might imp
 
 [[wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity|On-target, off-tumor injury]] involves the intended antigen on healthy cells; **off-target recognition** involves an unintended molecular target. A normal-tissue problem can exist even with a highly specific binder. Use the concept page for the mechanism and a product-specific clinical example.
 
-A second target or a logic gate may broaden coverage or restrict activation. It also introduces a new design whose expression patterns, timing and failure behavior require testing. A diagram of two conditions does not prove a reliable safety system.
+[logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars) may broaden coverage or restrict activation, depending on the input rule. An OR-like system accepts either target; an AND-like system aims to require a combination. Coverage and selectivity are different objectives. It also introduces a new design whose expression patterns, timing and failure behavior require testing. A diagram of two conditions does not prove a reliable safety system.
+
+## Specify the target at the level the receptor reads
+
+For [engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t), the recognition target is a peptide–HLA complex. Source-protein abundance, compatible HLA type and actual presentation are separate measurements. An intracellular protein can supply a peptide target without becoming an accessible surface protein for a conventional CAR.
+
+For a CAR, identify the binding region's epitope and its accessibility on intact cells. A [single-chain variable fragment (scFv) or single-domain binder](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies) supplies one recognition module. Its format does not establish safe expression of the antigen. A more sensitive receptor can notice target-low cancer cells and target-low healthy cells alike.
 
 ## What can go wrong at this step
 
@@ -77,8 +83,8 @@ A CAR kills every target-positive cell in a dish. What remains unresolved before
 
 ## Sources and scope
 
-Source check: October 8, 2026; expert and learner review pending. The example is fictional; no threshold or target is recommended.
+Source check: October 9, 2026; expert and learner review pending. The example is fictional; no threshold or target is recommended.
 
 - [FDA CAR T-cell product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
 - [NCI solid-tumor barriers](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
-- [Primary report of ERBB2-targeted off-tumor toxicity](https://pubmed.ncbi.nlm.nih.gov/20179677/) — one specific clinical product and dose, not a universal risk estimate.
+- [Morgan et al., 2010: serious event after ERBB2-directed cells](https://pubmed.ncbi.nlm.nih.gov/20179677/) — one product and dose; the authors proposed recognition of normal lung tissue as the mechanism. This is not a universal risk estimate.

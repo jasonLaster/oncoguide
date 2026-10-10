@@ -31,7 +31,7 @@ One candidate may have stronger expression evidence; another may cover more tumo
 
 ## Keep the biological objects separate
 
-A tumor event supplies altered sequence. A longer **source window** encodes surrounding amino acids. Processing may produce a shorter **epitope**, the particular fragment recognized. The true target for a conventional TCR is a peptide–HLA pair.
+A tumor event supplies altered sequence. A longer **source window** encodes surrounding amino acids. Processing may produce a shorter [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope), the particular fragment recognized. The true target for a conventional TCR is a peptide–HLA pair.
 
 One event can produce several windows or peptide–HLA pairs. Ten windows from one event are therefore different from ten independent tumor alterations. Similarly, several alleles may still share a [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) dependency.
 
@@ -48,6 +48,10 @@ One event can produce several windows or peptide–HLA pairs. Ten windows from o
 | Clinical outcome with a suitable comparison | Benefit estimate in that population | Transfer to another product or setting |
 
 Non-detection requires assay coverage and sensitivity context. Artificial peptide loading can bypass natural processing. The board should name exactly what was tested, with method and version.
+
+### Keep the score's meaning attached
+
+For [binding predictions](/wiki/education/concepts/measurement/computational-analysis/binding-prediction), distinguish affinity estimates from eluted-ligand ranks. Suppose fictional candidate K has a 0.4% ligand rank and L has a predicted affinity of 40 nanomolar. Their numbers cannot establish an order: the columns estimate different things. Request matched outputs, allele names and model versions before comparing them. A percentile rank is not a probability of benefit.
 
 ## Worked example: a ten-row candidate board
 
@@ -68,7 +72,7 @@ These rows are invented. Use them to practise asking questions, not to compute a
 
 Start by grouping shared dependencies. A and B come from one event and use one allele. C and J use that allele too. If allele X is lost, adding B does not rescue that branch. Y and Z diversify allele dependence, but class-I routes can still share B2M and processing requirements.
 
-Next ask which uncertainty the next assay should reduce. D suggests a natural tumor-recognition experiment. C needs cell-of-origin and recognition evidence. H needs specificity work. E and F raise expression and tumor-coverage questions before any automatic rank can be trusted.
+Next ask which uncertainty the next assay should reduce. D suggests a natural tumor-recognition experiment. C needs cell-of-origin and recognition evidence. H needs [self-similarity and tolerance](/wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance) work: a tumor-specific sequence does not establish receptor selectivity over healthy targets. E and F raise expression and tumor-coverage questions before any automatic rank can be trusted.
 
 Now imagine only one experiment can run this week. Choose a candidate, state the uncertainty, and explain what a positive **and** negative result would mean. Several choices can be reasonable because resource allocation depends on the actual goal. There is no universal A-to-J order hidden in this table.
 
@@ -80,7 +84,7 @@ A broad tumor-cell fraction is also an estimate, not a direct photograph of ever
 
 A board can double-count correlated windows, conceal normal-tissue similarity or overinterpret a rare-allele predictor. A weighted ensemble needs appropriate held-out evaluation; agreement among models is not itself validation.
 
-Selecting class-I and class-II candidates can support different response components. It does not guarantee useful recognition or overcome complete shared presentation failure. Record selection reasons, exclusions, model versions, manual overrides and the approved construct version.
+Selecting class-I and class-II candidates can support different response components. It does not guarantee useful recognition or overcome complete shared presentation failure. [Immunodominance](/wiki/education/concepts/immunology/t-cells/immunodominance) can concentrate the measured response on a few encoded targets. [Epitope spreading](/wiki/education/concepts/immunology/t-cells/epitope-spreading) may extend detected recognition to unencoded targets, but is an observed immune finding rather than a substitute for demonstrating clinical benefit. Record selection reasons, exclusions, model versions, manual overrides and the approved construct version.
 
 ## Try it
 
@@ -105,3 +109,4 @@ Source check: October 9, 2026; expert and learner review pending. The ten-row ca
 - [Primary HLA presentation dataset](https://www.nature.com/articles/s41587-019-0322-9).
 - [Wells et al., primary neoantigen-prediction benchmark](https://pubmed.ncbi.nlm.nih.gov/33038342/) — measured binding/recognition support has task-specific scope.
 - [TNBC-MERIT clinical example](https://www.nature.com/articles/s41586-025-10004-2).
+- [Official NetMHCpan-4.1 output documentation](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/), for prediction tasks and score interpretation. The linked concepts carry the primary sources for tolerance, immunodominance and spreading.
