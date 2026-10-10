@@ -32,10 +32,10 @@ review_status: "Source-checked; expert and learner review pending"
 This supplementary lesson extends [Understand multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics) to residual tumor: cancer remaining in sampled tissue after treatment.
 
 ```mermaid
-flowchart LR
-  A[Sampled residual tissue] --> B[Check identity and recovery]
-  B --> C[Separate RNA questions]
-  C --> D[Matched protein, spatial and functional validation]
+flowchart TD
+  A[Sampled residual tissue] --> B["Check identity<br/>and recovery"]
+  B --> C["Separate<br/>RNA questions"]
+  C --> D["Matched protein,<br/>spatial and functional<br/>validation"]
   D --> E[Clinical evidence gate]
 ```
 

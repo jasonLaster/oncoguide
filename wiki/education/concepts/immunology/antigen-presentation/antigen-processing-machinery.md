@@ -43,11 +43,11 @@ A display case needs a supply chain. A cell makes proteins, cuts some into fragm
 
 ```mermaid
 flowchart TD
-  A[Intracellular protein] --> B[Proteasome generates fragments]
-  B --> C[TAP1 and TAP2 transport into ER]
-  C --> D[Trimming and loading with HLA-I heavy chain and B2M]
-  D --> E[Surface peptide-HLA display]
-  E --> F[Separate gate: compatible CD8 T-cell recognition]
+  A[Intracellular protein] --> B["Proteasome<br/>generates fragments"]
+  B --> C["TAP1 and TAP2<br/>transport into ER"]
+  C --> D["Trimming and loading<br/>with HLA-I heavy chain<br/>and B2M"]
+  D --> E["Surface<br/>peptide-HLA display"]
+  E --> F["Separate gate:<br/>compatible CD8 T-cell<br/>recognition"]
 ```
 
 Class-II HLA commonly loads peptides in vesicles that process acquired proteins. An **invariant chain** protects the new groove and directs it there. After it is cut, a remaining fragment is exchanged for other peptides with help from **HLA-DM**, a loading helper. Conventional **CD4 T cells** inspect these displays and can provide immune help. [Class-II teaching](https://www.ncbi.nlm.nih.gov/books/NBK26926/) explains why this differs from the TAP/ERAP/B2M chain.
