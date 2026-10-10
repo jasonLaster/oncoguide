@@ -77,6 +77,16 @@ Start with an [antigen and its epitope](/wiki/education/concepts/immunology/anti
 
 [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) lets an antigen-presenting cell display material it took up on HLA class I. Starting a new T-cell response still needs the [priming context](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals). Later, the cancer cell must itself meet the recognition rules of the responding T cell. A successful early step therefore gives you a useful next question; it does not certify the entire route.
 
+## Read a signal and a tissue sample separately
+
+A [cytokine or chemokine](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) helps describe communication; its effect depends on the responding cells and context. [Interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) are a family of signals, not one universal tumor-killing switch. [cGAS–STING](/wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting) describes a DNA-sensing route whose consequences also depend on where and for how long it acts.
+
+Now turn to the tissue. [Tumor-infiltrating lymphocytes (TILs)](/wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes) name lymphocytes found in the tumor setting. A count or area estimate cannot establish their targets or function. [Tertiary lymphoid structures](/wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures) describe organized immune structures; an immune-cell cluster alone does not establish their maturity.
+
+**Try it:** A fictional section contains many lymphocytes, and a separate assay detects an interferon-related signal. Has this established that those cells kill the cancer?
+
+**One answer:** No. These observations describe tissue presence and a signal. Cell identity, location, recognition and measured function still need their corresponding evidence. Start with what each test actually measured, then name the next question.
+
 ## Place a checkpoint drug on the map
 
 Blocking an inhibitory interaction can support a response. It does not supply a missing target or guarantee that every T cell can act. Lesson 3 asks which cells can respond; lesson 6 asks which other requirements may still fail. The checkpoint-inhibitor concept compares [programmed cell death protein 1 (PD-1), programmed death-ligand 1 (PD-L1) and cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint). They regulate different interactions.

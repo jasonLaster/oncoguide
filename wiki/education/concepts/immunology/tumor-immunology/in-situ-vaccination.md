@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/cross
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,66 +25,81 @@ In-situ vaccination is a strategy that uses tumor material within the body as an
 
 ## The intuition
 
-“In situ” means “in place.” Instead of selecting tumor antigens and manufacturing a vaccine containing them, researchers try to help the immune system learn from a tumor already in the body. Think of bringing teaching support to the material. Making that material available is only the beginning; a useful immune lesson still needs to be taught and acted on.
+“In situ” means in place. Rather than bringing all teaching material from outside, the strategy tries to use material already in a tumor and help immune cells learn from it. Having material nearby is not enough: someone must collect it, present it appropriately and support a response. The analogy also leaves out direct treatment effects and procedural risks.
 
 ## How it works
 
-The strategy has several jobs. A local intervention may injure cancer cells or otherwise make antigens accessible. Additional signals can recruit or activate **antigen-presenting cells**, which collect material and display protein fragments to T cells. These jobs can be distributed across different interventions; there is no single procedure that defines every in-situ vaccine.
-
-[Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) can connect collected tumor material to responding T cells. Display uses [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) molecules. [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) also needs a supporting activation context. Releasing antigens without that context can fail to produce a useful response.
+An **in-situ vaccination (ISV)** strategy has several jobs. Tumor material must supply relevant [antigens](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope). Presenting cells, often [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells), must be available and suitably activated. Processing and [cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) can connect that material to responding T cells. Appropriate [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) may involve draining lymph nodes. Responders must then reach cancer, recognize its naturally displayed targets and sustain useful function.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A["Tumor material becomes available in place"] --> C["Collection and antigen presentation"]
-  B["Support recruits and activates presenting cells"] --> C
-  C --> D["Tumor-reactive immune response may develop"]
-  D --> E["Access and recognition at other sites are still required"]
+  A["Available antigens"] --> B["Presenting cells"]
+  B --> C[Priming]
+  C --> D["Tumor access"]
+  D --> E["Test outcomes"]
 ```
 
-*In-situ vaccination describes an attempt to support this chain; the label does not prove that every step occurred.*
+*These are conditional jobs in a strategy; an injection or local injury does not establish the sequence.*
 
-In an [early lymphoma trial](https://pubmed.ncbi.nlm.nih.gov/20697067/), investigators combined radiation to one tumor site with an injection that stimulated an innate immune sensor there. They assessed distant untreated sites and tumor-reactive T-cell responses. A [later lymphoma study](https://pubmed.ncbi.nlm.nih.gov/30962585/) combined a dendritic-cell growth factor, radiation and another innate-sensor stimulus to support recruitment, antigen loading and activation. These were defined experimental regimens in particular lymphoma populations, not evidence that local injury alone is a vaccine for every solid tumor.
+Different interventions can attempt different jobs: releasing material, recruiting presenting cells, stimulating innate sensors or relieving inhibition. [Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death) is one proposed bridge from injury to adaptive immunity. It requires more evidence than cell death or danger-signal release.
 
-A response can still stop after priming. Responders may fail to enter another lesion, the lesion may display different targets, or inhibitory conditions may limit function. [Immune checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) are sometimes studied as partners, but a complementary mechanism does not establish added clinical benefit or an optimal sequence.
+A route is not the strategy. [Intratumoral immunotherapy](/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy) describes an immune-directed treatment delivered inside a tumor. Some such treatments aim at in-situ vaccination; others have different principal jobs. An injected cytotoxic substance is not automatically an immune vaccine.
 
 ## Why it matters in cancer
 
-The appeal is access to the tumor's own mixture of antigens without choosing every target beforehand. That also introduces uncertainty: which antigens were collected, which responders expanded, and whether those responders recognize cancer elsewhere. Local damage can have clinical value independent of vaccination. A study must measure the proposed immune and systemic effects separately.
+This framework helps organize missing evidence. Local shrinkage, assay-defined immune recognition, distant response and longer-term clinical benefit are different outcomes. A positive result at one step can help locate the next question without establishing success at every later step.
 
-## How it is measured
+Brody's early study tested local radiation plus an innate immune stimulus in low-grade B-cell lymphoma. Hammerich's work combined presenting-cell recruitment, radiation and an innate stimulus in indolent lymphoma, alongside mechanistic models. Their settings do not validate every injection or establish a breast-cancer treatment. In Hammerich's report, restored responsiveness to checkpoint blockade was demonstrated in mice; that combination result should not be presented as established benefit in people. [Brody 2010](https://pubmed.ncbi.nlm.nih.gov/20697067/), [Hammerich 2019](https://pubmed.ncbi.nlm.nih.gov/30962585/).
 
-Useful evidence spans local tissue changes, antigen-reactive immune responses, untreated-site outcomes and toxicity. Each answers a different question. A blood immune response supports activity under the assay conditions; it does not establish tumor entry or survival benefit. Comparison groups help determine what the local intervention adds to concurrent systemic treatment.
+## Assay card
 
-## Worked example and practice
+| Field | Keep with the result |
+|---|---|
+| Measures | Local injury, presentation, antigen-reactive immunity and untreated-site outcomes as separate claims |
+| How | Combine local sampling, controlled immune assays and serial treated/untreated-lesion measurements |
+| Input and tissue cost | Tissue, blood and viable cells where required; sampling and laboratory tests consume material |
+| Output and units | Local changes, specified reactive-cell counts/function and response proportions under stated rules |
+| Thresholds | Method- and study-specific; no universal “vaccination succeeded” marker |
+| Failure modes | Nonspecific inflammation, artificial peptide loading, poor cell viability, missed timing or confounded concurrent treatment |
+| What it cannot tell you | Which component caused benefit, whole-body tumor killing or an individual's preferred regimen |
+| Validation tier | Mechanistic assays and model findings need separate clinical validation of the complete intervention |
 
-In a fictional trial, a lesion receives local injury plus an immune stimulus. Blood T cells respond to collected tumor material, but untreated lesions remain unchanged. Was the strategy disproved, or was a clinical vaccine success established?
-
-**Answer:** Neither conclusion is complete. The study detected an immune response under its assay conditions, while the measured distant lesions did not respond. The result helps locate a bottleneck and does not demonstrate systemic clinical benefit.
+A response to a supplied peptide can bypass the tumor's own processing. [Functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) using appropriate naturally presenting targets help address that bridge, with their own model limits.
 
 ## Common confusions
 
-- Injection into a tumor is not automatically vaccination.
-- [Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death) is a biological process; in-situ vaccination is a strategy that may try to use it.
-- An [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect) is a distant response pattern, not another name for the strategy.
-- A manufactured vaccine and an in-situ approach supply and select antigens differently.
+- Local immune activation is not automatically antigen-specific learning.
+- A blood response does not show that responders entered another tumor.
+- A local response is not a distant response.
+- A multi-component result cannot identify the contribution of each component without suitable comparisons.
+
+## Try it
+
+After a fictional injected treatment, blood cells react to supplied tumor peptides. The treated lesion shrinks, but an untreated lesion does not change. Was a successful systemic vaccine demonstrated?
+
+**Answer:** Local activity and peptide-assay reactivity were observed. Natural tumor recognition, access and useful distant function remain unresolved. The unchanged distant lesion does not prove no immune learning occurred; it shows that distant control was not demonstrated at that assessment.
 
 ## Explain it back
 
-“The tumor provides material. The intervention tries to make immune learning useful, and the study checks whether that learning reaches other cancer sites.”
+“Material in the tumor is a starting point; useful vaccination still needs ___.” One answer: “presentation, priming, access, recognition and tested outcomes.”
+
+## Takeaway
+
+**An in-situ vaccine is a multi-step strategy to test, not a name for any tumor injection.**
 
 ## Related concepts
 
-- [The cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle)
-- [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape)
-- [Ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation)
+- [Cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle)
+- [Abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect)
 
 ## Sources and scope
 
-Source check: October 9, 2026. A general investigational strategy, with specific examples from early lymphoma studies; no transfer of benefit to another disease or regimen. Expert and learner review remain pending.
+Source-checked October 10, 2026. General strategy, defined lymphoma studies and bounded model evidence; fictional practice. Expert and learner review remain pending.
 
-- [Brody et al., 2010: an early in-situ vaccination trial with local radiation and an innate-sensor agonist in low-grade B-cell lymphoma](https://pubmed.ncbi.nlm.nih.gov/20697067/).
-- [Hammerich et al., 2019: dendritic-cell recruitment, antigen loading and activation in an in-situ vaccine study in indolent non-Hodgkin lymphoma](https://pubmed.ncbi.nlm.nih.gov/30962585/).
-- [Galluzzi et al., 2020: conditions and measurements needed to interpret immunogenic cell death](https://pubmed.ncbi.nlm.nih.gov/32209603/).
+- [Brody et al., 2010: an early lymphoma in-situ vaccination study](https://pubmed.ncbi.nlm.nih.gov/20697067/).
+- [Hammerich et al., 2019: presenting cells, cross-presentation and a multi-component strategy](https://pubmed.ncbi.nlm.nih.gov/30962585/).
+- [Galluzzi et al., 2020: evidence needed to establish immunogenic cell death](https://pubmed.ncbi.nlm.nih.gov/32209603/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

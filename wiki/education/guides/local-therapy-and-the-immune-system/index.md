@@ -6,8 +6,8 @@ audience: "Curious reader or family member; introductory immune and evidence con
 minutes: 94
 sensitive: false
 tags: [education, guide, local-treatment]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -66,6 +66,16 @@ The [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology
 
 For the physical tools, use [ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation), [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics), [stereotactic body radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/sbrt) and [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation). [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) and [randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) help you judge outcome claims.
 
+## Practice with two sites
+
+A fictional study treats one lesion with radiation. That lesion becomes smaller, while an untreated lesion is unchanged. This supports a treated-site observation. It does not show an [abscopal response](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect).
+
+**Try it:** Later, the untreated lesion shrinks while the participant also receives systemic treatment. Can the scan assign the change to radiation alone?
+
+**One answer:** No. The distant response is worth recording, but attribution needs the treatment context and a suitable comparison. Keep the treated site, untreated sites, measurement times and concurrent therapies visible. An immune marker does not replace a distant-site outcome.
+
+For reported frequencies, keep the numerator, denominator and population together. The abscopal concept walks through a specific combination-study example; its proportion is not a universal probability for radiation or for an individual patient.
+
 ## Applied to Diana
 
 Read these lessons alongside [the care plan](/wiki/care/treatment-plan) and [the local-treatment and abscopal question](/wiki/questions/abscopal-effect/index). Those pages own the case application and current decisions. This guide supplies a reusable way to inspect their evidence.
@@ -78,7 +88,7 @@ After the course, use [the local-treatment reference shelf](/wiki/education/loca
 
 ## Sources and scope
 
-Source check: 2026-10-09. General education; all named practice patients are fictional. Expert and learner review pending. Each lesson identifies the sources supporting its specific claims.
+Source check: 2026-10-09; the two-site practice addition was checked October 10, 2026 through the linked concepts. General education; all named practice patients are fictional. Expert and learner review pending. Each lesson identifies the sources supporting its specific claims.
 
 - [National Cancer Institute: radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy) — treatment goals and physical exposure.
 - [Galluzzi et al., 2020: immunogenic cell death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/) — signals, immune responses and measurement boundaries.

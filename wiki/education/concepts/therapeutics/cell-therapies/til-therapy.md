@@ -4,7 +4,7 @@ type: "concept"
 domain: "therapeutics/cell-therapies"
 summary: "Tumor-infiltrating lymphocyte therapy collects immune cells from a tumor, expands them outside the body and transfers them back to seek useful antitumor activity."
 glossary_anchor: "til-therapy"
-aliases: ["TIL", "TIL therapy", "tumor-infiltrating lymphocyte therapy"]
+aliases: [ "TIL therapy", "tumor-infiltrating lymphocyte therapy"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]", "[[wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug]]"]
 used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]

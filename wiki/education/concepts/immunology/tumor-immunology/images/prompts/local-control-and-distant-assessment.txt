@@ -1,0 +1,48 @@
+# Scientific approval and literal native image calls
+
+Owner: wiki/education/concepts/immunology/tumor-immunology/abscopal-effect.md
+Root and independent abscopal author approved proposal before generation. Built-in image_gen; light new generation, dark edit of inspected light original. No image transformations.
+
+## Base scientific prompt
+
+Create a warm, restrained educational cartoon for a curious adult learning cancer terminology. Make a native light-theme illustration. Use a clean, hand-drawn medical teaching style with friendly rounded lines and ample empty space. The diagram is a FICTIONAL OBSERVATION, not a prediction or a treatment recommendation. Sparse legible labels only, no percentages, sizes, dose values, response rates or clinical schedules.
+
+Show two separate measurement cards, arranged vertically for a narrow mobile reader. At the top, a small schematic torso with two distinct lesion symbols: one marked A inside a narrowly drawn external-radiation field, and one marked B clearly outside that field. A thin legend says "Fictional follow-up". Do not imply the schematic is a complete map of disease or anatomically precise treatment planning.
+
+Below it, show two separate rounded report cards. Card A says "Treated site: controlled" and includes a small scan/report icon. Card B says "Outside field: assess separately" and includes its own small scan/report icon. Do NOT draw a causal arrow from A to B, immune cells traveling between sites, an antigen stream, a vaccine syringe, guaranteed shrinking distant tumors, or a check mark implying systemic cure. Do not make a beam touch B. Use a small separator between cards, emphasizing that these are distinct outcomes rather than stages of an inevitable sequence.
+
+Final short label: "Local control ≠ distant response". All lettering must remain clear at mobile enlargement. The ordinary page caption supplies the explanatory limits; the raster should not contain dense prose.
+
+Scientific guardrails:
+- Radiation-specific: a possible abscopal response is outside the irradiated field. Do not silently substitute ablation for radiation.
+- "Controlled" is a stated fictional follow-up observation under defined assessment, not a guarantee of complete cell killing or future control.
+- Distant response needs its own measurement. It is not established by successful delivery, shrinkage at A, or an immune marker.
+- Concurrent systemic treatment complicates attribution; an observed response at B would not alone isolate radiation's added contribution.
+- Local control, distant response, overall disease control, survival and harms are different outcomes.
+- Two visible symbols do not assert absence of unseen disease, and the field does not imply zero normal-tissue exposure.
+- No protocol, prescription, technique ranking, universal margin or response probability.
+
+## Exact light invocation
+
+Create a warm, restrained educational cartoon for a curious adult learning cancer terminology. Make a native light-theme illustration. Use a clean, hand-drawn medical teaching style with friendly rounded lines and ample empty space. The diagram is a FICTIONAL OBSERVATION, not a prediction or a treatment recommendation. Sparse legible labels only, no percentages, sizes, dose values, response rates or clinical schedules.
+
+Show two separate measurement cards, arranged vertically for a narrow mobile reader. At the top, a small schematic torso with two distinct lesion symbols: one marked A inside a narrowly drawn external-radiation field, and one marked B clearly outside that field. A thin legend says "Fictional follow-up". Do not imply the schematic is a complete map of disease or anatomically precise treatment planning.
+
+Below it, show two separate rounded report cards. Card A says "Treated site: controlled" and includes a small scan/report icon. Card B says "Outside field: assess separately" and includes its own small scan/report icon. Do NOT draw a causal arrow from A to B, immune cells traveling between sites, an antigen stream, a vaccine syringe, guaranteed shrinking distant tumors, or a check mark implying systemic cure. Do not make a beam touch B. Use a small separator between cards, emphasizing that these are distinct outcomes rather than stages of an inevitable sequence.
+
+Final short label: "Local control ≠ distant response". All lettering must remain clear at mobile enlargement. The ordinary page caption supplies the explanatory limits; the raster should not contain dense prose.
+
+Scientific guardrails:
+- Radiation-specific: a possible abscopal response is outside the irradiated field. Do not silently substitute ablation for radiation.
+- "Controlled" is a stated fictional follow-up observation under defined assessment, not a guarantee of complete cell killing or future control.
+- Distant response needs its own measurement. It is not established by successful delivery, shrinkage at A, or an immune marker.
+- Concurrent systemic treatment complicates attribution; an observed response at B would not alone isolate radiation's added contribution.
+- Local control, distant response, overall disease control, survival and harms are different outcomes.
+- Two visible symbols do not assert absence of unseen disease, and the field does not imply zero normal-tissue exposure.
+- No protocol, prescription, technique ranking, universal margin or response probability.
+
+Generate only the single native light-theme image described above. Use a light neutral background, soft pastel accents and dark high-contrast lettering. Friendly rounded educational illustration, sparse labels, no stock characters, logos or watermark. Portrait composition.
+
+## Exact dark invocation
+
+Create only the native dark-theme companion of this inspected educational illustration. Preserve the exact composition, every biological object, the A and B labels, the radiation field surrounding only A, all existing exact words, both separate assessment/report cards, the separator and the final inequality. Do not change lesion sizes, imply distant shrinkage, add a causal arrow, immune cells, response rates or treatment instructions. The stated treated-site control remains an explicitly fictional follow-up assessment, not guaranteed killing or future control. Change only the background, panel fill, line and label colors for high contrast in a dark reader: deep neutral navy background, restrained muted accents and clear light lettering. Keep native dimensions and portrait composition. No cropping, watermark or new text. This is a scientific teaching illustration: two observed outcomes are assessed separately; local control does not demonstrate distant response or radiation's added clinical benefit.

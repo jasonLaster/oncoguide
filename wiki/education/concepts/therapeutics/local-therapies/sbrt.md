@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/radiatio
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,7 +25,7 @@ Stereotactic body radiation therapy (SBRT) delivers a high dose per fraction to 
 
 ## The intuition
 
-Think of concentrating a treatment into a tightly planned volume. That concentration creates two linked demands: reach the intended target reliably and control the dose to nearby tissues. A short course depends on extensive preparation. The number of treatment visits is only the visible part of the work.
+Think of concentrating a treatment into a tightly planned volume. That concentration creates two linked demands: reach the intended target reliably and control the dose to nearby tissues. A short course depends on extensive preparation. The number of treatment visits is only the visible part of the work. Unlike an ideal spotlight, radiation does not stop exactly at a drawn border.
 
 ## How it works
 
@@ -34,18 +34,19 @@ Stereotactic body radiation therapy (SBRT) is a form of [external-beam radiation
 Planning defines the target and nearby organs, models the dose, and accounts for uncertainty. During treatment, immobilization and imaging help reproduce the planned position. For moving targets, such as a lesion affected by breathing, motion assessment and a chosen management method are important parts of the plan. A small positioning error can matter when the dose changes rapidly near a critical structure.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A["Identify a target and nearby organs"] --> B["Measure motion and positioning uncertainty"]
-  B --> C["Plan concentrated dose with organ limits"]
-  C --> D["Verify position and deliver the fractions"]
-  D --> E["Follow target control and adverse effects"]
+  A["Map target"] --> B["Assess motion"]
+  B --> C["Plan organ limits"]
+  C --> D["Verify position"]
+  D --> E["Follow local outcome"]
 ```
 
 *Precision describes how exposure is controlled; follow-up is still needed to establish control and safety.*
 
-A **fraction** is one radiation treatment dose. SBRT usually concentrates treatment into a few fractions with a higher dose per fraction than a conventional course. Exact numbers, spacing and total dose depend on the treated organ, target location, disease setting and protocol. There is no single SBRT dose or universal lesion-size cutoff.
+A **fraction** is one radiation treatment dose. Dose uses **gray (Gy)**, or energy absorbed per mass of tissue. SBRT usually concentrates treatment into a few fractions with a higher dose per fraction than a conventional course. Exact numbers, spacing and total dose depend on the treated organ, target location, disease setting and protocol. There is no single SBRT dose or universal lesion-size cutoff.
 
-The target receives the intended high dose, but nearby tissues receive some exposure too. A steep falloff is useful only if the target is correctly located and organ limits are respected. Prior radiation, overlapping dose, lesion motion and closeness to sensitive structures can change feasibility. The [ASTRO safety guidance](https://pubmed.ncbi.nlm.nih.gov/35283342/) treats specialized planning, delivery and quality checks as central requirements.
+The plan aims to cover the target with the intended high dose, but nearby tissues receive some exposure too. A steep falloff is useful only if the target is correctly located and organ limits are respected. Prior radiation, overlapping dose, lesion motion and closeness to sensitive structures can change feasibility. The [American Society for Radiation Oncology (ASTRO) safety guidance](https://pubmed.ncbi.nlm.nih.gov/35283342/) treats specialized planning, delivery and quality checks as central requirements.
 
 ## Why it matters in cancer
 
@@ -55,13 +56,20 @@ Other studies test SBRT in more limited metastatic patterns or alongside systemi
 
 ## How it is measured
 
-Planning evaluates target coverage and doses to nearby organs. Delivery checks evaluate positioning, motion and machine output. Later imaging and clinical follow-up evaluate control and adverse effects. A report should name the organ, site, disease setting, total dose and fractionation before comparing outcomes.
+| Measurement | Units or definition | Limit to keep in view |
+|---|---|---|
+| Target and organ geometry | Lengths in millimeters or centimeters; volumes in cubic centimeters | One diameter does not describe shape, motion or a sensitive neighbor |
+| Planned dose | Gy, Gy per fraction and distribution across volumes | A planned dose is not a measured cell-killing percentage |
+| Position and motion | Imaging-based displacement and the protocol's tolerances | Imaging reduces uncertainty; it does not eliminate it |
+| Local outcome and harms | Defined follow-up time and assessment rules | Local control does not establish distant response or longer survival |
+
+There is no universal target-size, dose or safe-distance threshold. Record the organ, disease setting and protocol before borrowing a result.
 
 ## Worked example and practice
 
-A fictional report says a liver lesion remained controlled after SBRT. It gives no information about disease elsewhere. Can its conclusion be “the treatment controlled the cancer throughout the body”?
+**Fictional report:** At a defined follow-up visit, a liver lesion remains controlled after SBRT, while an untreated lesion has grown. This illustrates how local control and disease elsewhere can diverge. Can the conclusion be “the treatment controlled the cancer throughout the body”?
 
-**Answer:** The report supports treated-site control for the observed period. Systemic control requires information about other sites and follow-up. A local result should retain its local scope.
+**Answer:** The report supports treated-site control for the observed period and documents progression elsewhere. Neither finding cancels the other. An added systemic benefit would need a suitable comparison and patient-level outcomes; a local result should retain its local scope.
 
 ## Common confusions
 
@@ -72,7 +80,13 @@ A fictional report says a liver lesion remained controlled after SBRT. It gives 
 
 ## Explain it back
 
-“SBRT concentrates radiation in a few treatments, so accurate geometry and nearby-organ limits are essential.”
+What does a five-visit label leave out?
+
+**One answer:** Target localization, motion management, dose distribution, organ constraints, delivery verification and evidence for that setting.
+
+## Takeaway
+
+A short schedule is only one part of SBRT. Concentrated exposure makes geometry, quality checks and separately measured outcomes essential.
 
 ## Related concepts
 
@@ -82,11 +96,11 @@ A fictional report says a liver lesion remained controlled after SBRT. It gives 
 
 ## Sources and scope
 
-Source check: October 9, 2026. Delivery principles and evidence interpretation; doses, indications and safety depend on the actual setting. Expert and learner review remain pending.
+Source check: October 10, 2026. Delivery principles and evidence interpretation; doses, indications and safety depend on the actual setting. Expert and learner review remain pending.
 
-- [NCI: definition of stereotactic body radiation therapy](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/stereotactic-body-radiation-therapy).
-- [ASTRO, 2022: stereotactic radiation quality and safety white paper](https://pubmed.ncbi.nlm.nih.gov/35283342/).
-- [Timmerman et al., 2010: a prospective study in medically inoperable, peripheral early-stage lung cancer](https://pubmed.ncbi.nlm.nih.gov/20233825/).
+- [NCI: external-beam radiation and SBRT](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam) — patient-education sections on positioning, imaging, stereotactic delivery and fractionation checked.
+- [American Society for Radiation Oncology, 2022: stereotactic radiation quality and safety white paper](https://pubmed.ncbi.nlm.nih.gov/35283342/) — complete primary abstract and selected publicly indexed program requirements checked; full paper not checked.
+- [Timmerman et al., 2010: a prospective study in adults with medically inoperable, peripheral early-stage non-small-cell lung cancer](https://pubmed.ncbi.nlm.nih.gov/20233825/) — complete primary abstract checked for population, local endpoints, distant failure and toxicity; no numerical outcome is transferred here.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

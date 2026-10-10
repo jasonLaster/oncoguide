@@ -9,7 +9,7 @@ prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic
 sensitive: false
 tags: ["education", "lesson"]
 updated: "2026-10-10"
-source_checked: "2026-10-09"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -19,7 +19,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 **Personalization chooses what to encode; manufacturing turns the design into a defined product that can be tested and released.** This is step seven of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index).
 
-**Before you start:** [Messenger RNA (mRNA) construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy) describes the message. [In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription) explains RNA synthesis. [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) introduces one formulation. [Good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) explain the quality system.
+**Before you start:** [Messenger RNA (mRNA) construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy) describes the message. [In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription) explains RNA synthesis. [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) introduces one formulation. [Good manufacturing practice (GMP)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) explains process quality controls; [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) describes lot disposition.
 
 ## Where this step sits
 
@@ -97,6 +97,14 @@ A fictional manufacturer shortens a spacer to improve production. The team recor
 
 Use [platform versus personalized components](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components) to locate the change: a patient-specific sequence and a shared formulation raise different review questions.
 
+## Read the quality handoff
+
+Separate the [GMP quality system](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) from the [chemistry, manufacturing and controls (CMC) evidence package](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls), a [certificate of analysis](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis) and the [batch-release decision](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release). They connect, but answer different questions.
+
+**Try it:** A fictional lot report lists acceptable RNA identity and purity results. A transport excursion is still being assessed. Does the report alone resolve whether this lot can be used?
+
+**One answer:** No. The results support their named tests. The quality function must also assess the relevant records and handling information before disposition. Release, hold and rejection are different outcomes; none independently establishes clinical benefit.
+
 ## What can go wrong at this step
 
 A batch may have the correct sequence but inadequate integrity or functional activity. A new formulation may change which cells translate the message. A storage excursion needs an assessed disposition. Timelines also include testing, review, queue time and failed-lot handling; no universal sequence-to-vial duration applies.
@@ -125,7 +133,7 @@ One answer: “RNA design, chemistry, formulation, route and protocol can differ
 
 ## Sources and scope
 
-Protocol source check: October 9, 2026; manufacturing-role and peptide-synthesis additions checked October 10, 2026. Expert and learner review pending. Published protocols describe studies, not recommendations for dose, schedule or access. Practice cards are fictional; no head-to-head LPX-versus-LNP benefit comparison is supplied.
+Protocol source check: October 9, 2026; manufacturing-role, peptide-synthesis and quality-handoff additions checked October 10, 2026. Expert and learner review pending. Published protocols describe studies, not recommendations for dose, schedule or access. Practice cards are fictional; no head-to-head LPX-versus-LNP benefit comparison is supplied.
 
 - [Sahin et al., 2026: TNBC-MERIT primary study and manufacturing methods](https://www.nature.com/articles/s41586-025-10004-2).
 - [Rojas et al., 2023: autogene cevumeran pancreatic-cancer study and protocol](https://www.nature.com/articles/s41586-023-06063-y).

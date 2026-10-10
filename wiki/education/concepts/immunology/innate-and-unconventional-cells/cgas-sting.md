@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,67 +25,85 @@ cGAS–STING is a cellular DNA-sensing pathway that can trigger inflammatory sig
 
 ## The intuition
 
-Picture an alarm responding to material in an unexpected place. DNA, or deoxyribonucleic acid, is normally kept in organized cellular compartments. DNA exposed in a different context can activate an alarm pathway. The analogy has an important limit: the alarm does not determine whether the DNA came from a virus, a tumor or a damaged healthy cell. Nor does sounding it guarantee a useful immune response.
+A smoke alarm detects material where it should not be. It does not identify the whole emergency or guarantee that the response helps. Likewise, misplaced [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) can activate sensing machinery, but the responding cell, timing and downstream response determine the consequences. Cells have multiple sensors; this analogy covers only one pathway.
 
 ## How it works
 
-**Cyclic guanosine monophosphate–adenosine monophosphate synthase (cGAS)** is an enzyme involved in sensing DNA. Its long name refers to the messenger it makes. In the canonical pathway, DNA binding enables cGAS to make **cyclic guanosine monophosphate–adenosine monophosphate (cGAMP)**, a small signaling messenger. Sun and colleagues demonstrated this DNA-to-messenger mechanism experimentally.
+**Cyclic GMP–AMP synthase (cGAS)** is an enzyme that can bind accessible DNA and make the messenger **cyclic GMP–AMP (cGAMP)**; The name combines guanosine monophosphate (GMP) and adenosine monophosphate (AMP). DNA availability and compartment matter. Knowing that DNA is present does not measure cGAS activity; access and downstream signaling need evidence. [Sun et al.](https://pubmed.ncbi.nlm.nih.gov/23258413/).
 
-cGAMP activates **stimulator of interferon genes (STING)**, a signaling protein associated with intracellular membranes. STING connects sensing to downstream pathways, including ones that activate inflammatory gene programs. **Interferon regulatory factor 3 (IRF3)** and **nuclear factor kappa B (NF-κB)** are transcription factors involved in these responses. A transcription factor helps control which genes a cell expresses.
+cGAMP binds **stimulator of interferon genes (STING)**, a membrane-associated signaling protein. STING normally resides in the endoplasmic reticulum, one of the cell's [organelles](/wiki/education/concepts/biology-basics/cells/organelles-overview). Activation involves trafficking toward the Golgi and downstream signaling. Mukai's cell experiments showed a role for Golgi-localized lipid modification of STING in the tested response. This is intracellular trafficking, not release of STING as a circulating immune messenger. [Mukai et al.](https://pubmed.ncbi.nlm.nih.gov/27324217/).
 
-One possible output is type I [interferon](/wiki/education/concepts/immunology/the-immune-system/interferons), such as interferon beta. These signals can affect the sensing cell and neighboring cells with compatible receptors. This is **innate sensing**: it responds to molecular context rather than selecting one tumor peptide recognized by a particular T-cell receptor.
-
-The receiving cell matters. In mouse tumor experiments, Woo and colleagues showed that host STING signaling supported type I interferon production and antitumor T-cell priming. Tumor-derived DNA could supply an input to host antigen-presenting cells. This provides a possible bridge between tissue injury and immune teaching, with several intervening requirements.
-
-A different context can produce a different outcome. Bakhoum and colleagues studied chromosomally unstable cancer cells. Ruptured micronuclei, small compartments containing chromosome material, exposed DNA to the cytosol. Persistent signaling through a noncanonical NF-κB route promoted invasion and metastasis in their models. Those findings show why pathway activation cannot be labeled universally antitumor.
+Downstream signaling can induce [type I interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) and other inflammatory programs. These signals do not specify a tumor antigen. Antigen presentation and compatible responding cells remain separate steps.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A["DNA in a<br/>sensing context"] --> B["cGAS makes<br/>cGAMP"]
-  B --> C[STING signaling]
-  C --> D["Inflammatory<br/>gene programs"]
-  E["Cell type<br/>and duration"] --> D
-  D --> F["Test the<br/>biological outcome"]
+  A["Accessible DNA"] --> B[cGAMP]
+  B --> C["STING traffic"]
+  C --> D["Gene signals"]
+  D --> E["Test outcome"]
 ```
 
-*DNA sensing, inflammatory signaling and an antitumor outcome are separate claims.*
+*The compartment, responding cell and exposure history belong beside every arrow; the final outcome is not necessarily antitumor.*
 
 ## Why it matters in cancer
 
-DNA damage or tissue injury can make DNA available to sensing pathways. That is one reason local treatment may change the immune environment. It does not establish an [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect), effective tumor recognition or a useful treatment schedule.
+In Woo's mouse tumor models, host STING helped support innate sensing and antitumor T-cell priming. That is a host-cell mechanism under tested conditions. [Woo et al.](https://pubmed.ncbi.nlm.nih.gov/25517615/).
 
-Therapeutic attempts to activate this pathway need to specify the relevant cells, delivery and duration. A pathway that functions in a mouse model may be altered or inaccessible in a human tumor. More signal is not a universal measure of better therapy.
+Cancer-cell signaling can behave differently. Bakhoum's experiments linked chromosome instability and ruptured micronuclei—small abnormal nuclear compartments—to persistent DNA sensing and metastatic behavior. Li's experiments further connected chronic tumor-cell signaling to altered inflammatory programs and an immune-suppressive environment. Their controlled model results and human associations do not establish a clinical rule for activating or inhibiting STING. [Bakhoum 2018](https://pubmed.ncbi.nlm.nih.gov/29342134/), [Li 2023](https://pubmed.ncbi.nlm.nih.gov/37612508/).
+
+Acute and repeated stimulation can produce different responses. That is not a universal rule that short stimulation helps and long stimulation harms. Preserve the cell identity, pathway state, duration and measured outcome.
+
+## Assay card
+
+| Field | Keep with the result |
+|---|---|
+| Measures | DNA location, messenger production, signaling state or downstream output: identify the layer |
+| How | Localization, messenger assays, protein-state measurements and timed response assays; perturb the proposed pathway with suitable controls |
+| Input and tissue cost | Fixed sections for location or viable cells/lysates for function; tests consume aliquots and may alter cells |
+| Output and units | Stained-cell fractions, messenger concentration or relative gene/protein signal under a stated method |
+| Thresholds | Method-specific; no universal “STING-active” clinical cutoff |
+| Failure modes | Mixed cell sources, another sensor's response, poor viability or a missed transient response |
+| What it cannot tell you | Antigen specificity, useful tumor killing or benefit from a STING-directed drug |
+| Validation tier | Mechanistic model evidence; a clinical selection claim needs its own validation |
+
+A bulk [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) interferon signal cannot identify its source cell or prove which sensor caused it.
 
 ## Common confusions
 
-- cGAS senses DNA in a permissive context; it does not recognize one mutation as a tumor-specific antigen.
-- STING expression is not the same as STING activation.
-- Inflammation and antigen-specific adaptive immunity are different achievements.
-- Host immune-cell signaling and cancer-cell signaling need not have the same consequence.
-
-## How it is measured
-
-Experiments can measure messenger production, downstream signaling proteins, interferon output and controlled cell responses. [RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) can show a related gene program. Gene abundance alone does not demonstrate active sensing. Perturbing cGAS or STING, with suitable controls, tests pathway dependence rather than merely association.
+- cGAS senses DNA; STING receives a cyclic messenger.
+- A pathway's abundance is not a measurement of its activation.
+- An interferon response is not proof of tumor-specific immunity.
+- Host and cancer-cell signaling can have different consequences.
 
 ## Try it
 
-A fictional injured-tumor sample has increased interferon-related RNA. Does it prove cGAS–STING caused a tumor-specific T-cell response?
+A fictional tumor sample has a high interferon RNA signal. Has it demonstrated useful cancer-cell cGAS–STING activity?
 
-**Answer:** No. Other pathways can produce related signals. Pathway-dependence tests, identified sensing cells and antigen-specific response measurements would address different missing steps.
+**Answer:** No. Identify the producing cells, timing and sensing route. Controlled pathway perturbations help test causation; presentation, antigen-specific function and patient benefit remain further questions.
+
+## Explain it back
+
+“Before interpreting STING, I need the ___, ___ and ___.” One answer: “cell, compartment and measured consequence.”
+
+## Takeaway
+
+**A DNA alarm needs interpretation through the cell and context that receive it.**
 
 ## Related concepts
 
-- [Dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells)
+- [Pattern recognition and danger signals](/wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps)
 - [Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death)
 
 ## Sources and scope
 
-Source check: October 9, 2026. Experimental mechanisms, not a clinical activation or dosing rule. Expert and learner review remain pending.
+Source-checked October 10, 2026. Molecular mechanisms and context-dependent model findings; fictional practice. Expert and learner review remain pending.
 
-- [Sun et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23258413/) — cGAS produces the DNA-triggered messenger cGAMP.
-- [Ishikawa and Barber, 2008](https://pubmed.ncbi.nlm.nih.gov/18724357/) — STING as a signaling mediator.
-- [Woo et al., 2014](https://pubmed.ncbi.nlm.nih.gov/25517615/) — host STING and spontaneous antitumor priming in mouse models.
-- [Bakhoum et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29342134/) — chromosomal instability and a prometastatic DNA-response pathway in cancer models.
+- [Sun et al., 2013: cGAS and cGAMP](https://pubmed.ncbi.nlm.nih.gov/23258413/).
+- [Mukai et al., 2016: STING activation and Golgi trafficking](https://pubmed.ncbi.nlm.nih.gov/27324217/).
+- [Woo et al., 2014: host sensing and antitumor priming in mouse models](https://pubmed.ncbi.nlm.nih.gov/25517615/).
+- [Bakhoum et al., 2018: chromosome instability and metastatic behavior](https://pubmed.ncbi.nlm.nih.gov/29342134/).
+- [Li et al., 2023: chronic signaling and non-cell-autonomous progression](https://pubmed.ncbi.nlm.nih.gov/37612508/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

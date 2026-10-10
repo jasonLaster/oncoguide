@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,41 +25,55 @@ Tumor ablation destroys tissue at a selected site using a defined physical or ch
 
 ## The intuition
 
-Ablation treats a place. Imagine a three-dimensional treatment zone surrounding a target, with vessels, nerves and other tissues nearby. Reaching the center is not the same as safely covering the whole target. The important questions are where the injury extends, whether the intended boundary was reached, and how the result is checked.
+Ablation treats a place. Imagine a three-dimensional treatment zone surrounding a target, with vessels, nerves and other tissues nearby. Reaching the center is not the same as safely covering the whole target. The important questions are where the injury extends and how the result is checked. The zone is not a cookie cutter: temperature, tissue and geometry make its boundary uneven.
 
 ## How it works
 
-Many tumor-ablation procedures place a probe or applicator within or beside a lesion under imaging guidance. Other methods deliver energy differently, such as focused ultrasound. The [international terminology consensus](https://pubmed.ncbi.nlm.nih.gov/25442132/) distinguishes thermal, chemical and other ablative methods. “Ablation” should therefore be followed by the actual technique when comparing studies.
+Many procedures place an applicator near or within a lesion under imaging guidance; others use focused ultrasound. The [international consensus](https://pubmed.ncbi.nlm.nih.gov/25442132/) distinguishes thermal, chemical and other methods. Name the actual technique when comparing studies.
 
-**Radiofrequency ablation (RFA)** uses electrical energy to heat tissue. **Microwave ablation (MWA)** uses microwave energy to generate heat. Heating damages proteins and tissue structures. **Cryoablation** uses freezing and thawing to injure cells. Chemical ablation introduces a tissue-damaging substance, while irreversible electroporation uses electrical pulses to disrupt cell membranes. These are different physical mechanisms; evidence for one is not evidence for all.
+| Method | How injury is produced | What the name does not guarantee |
+|---|---|---|
+| **Radiofrequency ablation (RFA)** | Alternating electrical current passes through conductive tissue, producing resistive heating near the electrode; heat also spreads by conduction | Uniform temperature throughout the target |
+| **Microwave ablation (MWA)** | An antenna produces an oscillating electromagnetic field; polar molecules, particularly water, respond and generate heat in tissue | Immunity to blood-flow cooling or a universal coverage advantage |
+| **Cryoablation** | Cooling extracts heat; freezing and thawing injure cells and local tissue | That every visibly frozen point receives lethal exposure |
+
+Heat damages proteins and tissue structures. Chemical ablation uses a tissue-damaging substance; irreversible electroporation uses membrane-disrupting pulses. These mechanisms differ from ionizing [radiation](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics). Name and test the method.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A["Locate the target and nearby structures"] --> B["Choose a method and plan safe coverage"]
-  B --> C["Create the intended zone of injury"]
-  C --> D["Assess coverage and complications"]
-  D --> E["Follow local disease over time"]
+  A["Map anatomy"] --> B["Plan coverage"]
+  B --> C["Apply named method"]
+  C --> D["Check zone and harm"]
+  D --> E["Follow local control"]
 ```
 
 *Placing a device is a delivery step; coverage and later local control require their own assessment.*
 
-In thermal procedures, temperature changes across tissue and over time. The probe tip is not the edge of the treatment zone. A visible ice ball helps guide cryoablation, but freezing on an image does not establish lethal exposure everywhere within it. An [animal experiment in normal kidney tissue](https://pubmed.ncbi.nlm.nih.gov/22933102/) measured a nonlethal margin inside the visible ice ball; its dimensions do not define a universal human treatment margin. With heating, nearby blood flow can carry heat away, as tested in [experimental liver models](https://pubmed.ncbi.nlm.nih.gov/25738477/). The relevant issue is the tissue's actual exposure and the selected method's response to its environment.
+Temperature varies across tissue and time. Probe temperature does not describe the whole zone. A visible ice ball guides cryoablation; it does not establish lethal exposure everywhere inside. An [animal experiment in normal kidney tissue](https://pubmed.ncbi.nlm.nih.gov/22933102/) measured a nonlethal margin inside the visible ice ball; its dimensions do not define a universal human treatment margin. With heating, nearby blood flow can carry heat away, as tested in [experimental liver models](https://pubmed.ncbi.nlm.nih.gov/25738477/). These observations explain why exposure must be assessed in context; they do not rank methods universally.
 
-Planning may include a treatment margin around the visible tumor, accounting for disease at its edge and uncertainty. Whether that coverage is possible depends on anatomy, lesion geometry, equipment and protection of nearby structures. A study's selection threshold is not a universal physical size limit. Several devices may alter coverage, but adding devices does not remove safety constraints.
+A margin around visible tumor accounts for edge disease and uncertainty. Feasibility depends on anatomy, geometry, equipment and nearby structures. A study's size threshold is not a universal physical limit; adding devices does not remove safety constraints.
 
 ## Why it matters in cancer
 
-Ablation can be used for local tumor control or symptom relief in selected settings. Its role depends on the organ, cancer, disease distribution, alternatives and evidence for the stated goal. Local destruction does not treat all microscopic disease throughout the body. It can also damage normal tissue and affect tissue available for later pathology or testing.
+Ablation can support local control or symptom relief in selected settings, depending on organ, cancer, distribution, alternatives and evidence. It does not physically treat all microscopic disease throughout the body. It can also damage normal tissue and affect tissue available for later pathology or testing. Risks depend on the approach and nearby structures; bleeding, infection or injury to vessels, ducts or nerves remain possible.
 
-Tumor injury can release antigens and signals that motivate [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination) research. Physical destruction does not establish useful immune priming or distant clinical benefit. Preserving some antigen structure in an experiment does not determine which ablation technique provides the best systemic benefit in people.
+Released material motivates [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination) research. Physical destruction or experimental antigen preservation does not establish immune priming, distant benefit or a best technique.
 
 ## How it is measured
 
-Reports should separate procedural completion, initial evidence of target coverage and control during follow-up. The method, imaging criteria, time point, retreatments and complications belong with the result. “Technically successful” and “no later local progression” answer different questions. Imaging findings need interpretation appropriate to the procedure; a changed treatment zone is not a direct count of living cancer cells.
+| Readout | Units or definition | Limit |
+|---|---|---|
+| Device exposure | Method, power in watts where relevant, duration and temperature in degrees Celsius where measured | Generator power or probe temperature is not exposure everywhere in tissue |
+| Zone coverage | Three-dimensional lengths/margins in millimeters or centimeters, imaging method and time | An iceball or changed zone is not a direct viable-cell count |
+| Initial technique efficacy | Defined follow-up evidence of complete ablation | Procedural completion alone does not establish it |
+| Later local progression | Tumor appearing at the treated margin after initial adequate ablation by the stated criteria | New disease elsewhere is a separate outcome |
+
+Keep retreatments and complications attached to the result. There is no universal safe size, temperature or margin for every method and organ.
 
 ## Worked example and practice
 
-In a fictional procedure, the probe reaches the lesion and the visible treatment zone covers its center. One edge is close to a sensitive structure. Does the team now know the entire target was destroyed safely?
+**Fictional procedure:** A probe reaches a lesion and the visible zone covers its center. One edge is near a sensitive structure. Is complete safe destruction established?
 
 **Answer:** No. Access and central coverage are demonstrated. Coverage at the edge, protection of the nearby structure and subsequent local assessment still matter. A central image does not establish the full three-dimensional result.
 
@@ -72,7 +86,13 @@ In a fictional procedure, the probe reaches the lesion and the visible treatment
 
 ## Explain it back
 
-“Ablation uses a named method to injure a selected tissue volume. The target boundary and nearby anatomy matter as much as reaching its center.”
+Why is “the probe got cold” different from “the target received lethal exposure”?
+
+**One answer:** Probe temperature is local. Tissue temperature varies with distance, time, blood flow and the freeze–thaw process; an image needs method-specific interpretation.
+
+## Takeaway
+
+Name the physics, assess the whole boundary and follow the local result. None of those steps alone establishes a distant immune benefit.
 
 ## Related concepts
 
@@ -82,11 +102,11 @@ In a fictional procedure, the probe reaches the lesion and the visible treatment
 
 ## Sources and scope
 
-Source check: October 9, 2026. Local-ablation mechanisms, coverage and reporting vocabulary; no universal size threshold, technique ranking or systemic-benefit claim. Expert and learner review remain pending.
+Source check: October 10, 2026. Local-ablation mechanisms, coverage and reporting vocabulary; no universal size threshold, technique ranking or systemic-benefit claim. Expert and learner review remain pending.
 
-- [Ahmed et al., 2014: international consensus on ablation methods, terminology and reporting](https://pubmed.ncbi.nlm.nih.gov/25442132/).
+- [Ahmed et al., 2014: international consensus on ablation methods, terminology and reporting](https://pubmed.ncbi.nlm.nih.gov/25442132/) — complete abstract and selected author-manuscript measurement/reporting passages checked.
 - [NCI: cryosurgery mechanisms, local targeting and normal-tissue risks](https://www.cancer.gov/about-cancer/treatment/types/surgery/cryosurgery).
-- [Galluzzi et al., 2020: requirements for interpreting immune effects of dying cells](https://pubmed.ncbi.nlm.nih.gov/32209603/).
+- [Lubner et al., 2010: microwave and radiofrequency heating mechanisms](https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/) — selected author-manuscript mechanism passages checked; historical device or approval inventory not used.
 - [Georgiades et al., 2013: the visible ice ball and nonlethal margin in normal swine kidney tissue](https://pubmed.ncbi.nlm.nih.gov/22933102/).
 - [Pillai et al., 2015: the cooling effect of flow during radiofrequency and microwave ablation in an ex-vivo calf liver model](https://pubmed.ncbi.nlm.nih.gov/25738477/).
 

@@ -10,8 +10,8 @@ used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guide
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,47 +25,77 @@ Innate immunity uses inherited sensing systems, while adaptive immunity expands 
 
 ## The intuition
 
-An alarm system and a library of matching readers do different jobs. Innate sensing detects patterns and damage; adaptive cells can expand a particular response. They constantly communicate. The analogy is incomplete because innate responses can also change after past exposure.
+Think of an alarm system working alongside a library of different readers. The alarm detects certain signs of disturbance; a matching reader can respond to a particular feature. The two systems exchange information rather than taking turns in isolation.
+
+The analogy has limits. Innate cells are not identical alarms, and previous exposure can change their responses. Adaptive receptors also exist before the first encounter: exposure selects suitable cells rather than designing a receptor to order.
 
 ## How it works
 
-Innate defenses include barriers, phagocytes that engulf material, and natural killer cells. Their receptors detect recurring molecular patterns or altered cell states. They can act without first expanding a new antigen-specific clone.
+**Innate immunity** includes barriers, soluble defenses and cells using inherited receptor systems. [Pattern-recognition receptors](/wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps) can sense microbial features or material released or misplaced during tissue damage. Phagocytes engulf material. [Natural killer (NK) cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self) integrate activating and inhibitory signals. These are different recognition mechanisms, not one universal detector.
 
-Adaptive immunity includes T cells and B cells. Developing cells generate diverse receptors before a particular exposure. An antigen can select matching cells for activation and expansion. Some descendants support later recall responses.
+**Adaptive immunity** involves [T cells](/wiki/education/concepts/immunology/t-cells/t-cell) and [B cells](/wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells) with diverse receptors assembled during development. A suitable antigen encounter, with the necessary supporting context, can select cells that expand and differentiate. Some descendants persist as memory cells. Antigen specificity describes what a receptor recognizes; it does not guarantee activation or a beneficial response.
 
-Speed is a tendency, not the defining difference. A previously primed adaptive response may act quickly. Innate cells also help determine whether adaptive recognition produces activation, tolerance or another outcome.
+[Dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells), [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) and [lymph nodes](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics) help connect sensing with adaptive responses. Adaptive antibodies and T cells can, in turn, guide or change innate-cell activity.
 
-| Axis | Innate immunity | Adaptive immunity |
+| Question | Innate systems | Adaptive T/B systems |
 |---|---|---|
-| Recognition | Inherited sensing systems | Diverse receptors generated in developing lymphocytes |
-| Expansion | Activation and changes in cell populations | Selection and expansion of antigen-reactive clones |
-| History | Responses can be altered by prior exposure | Antigen-specific recall is a central feature |
+| Where does recognition equipment come from? | Inherited receptor systems | Diversified antigen receptors assembled in developing cells |
+| What can exposure change? | Activation, recruitment and later responsiveness | Selection, expansion, differentiation and memory |
+| Is speed the definition? | No: often early, but responses can persist | No: a first response takes development time; recall can be rapid |
+
+“Fast versus slow” is therefore a starting tendency, not a stopwatch rule. Nor is “innate has no memory” absolute. Quintin and colleagues demonstrated monocyte-dependent protection after fungal exposure in mice lacking functional T and B cells. Sun and colleagues demonstrated memory-like NK responses in a particular mouse viral model. These findings qualify the simple division without making every innate response equivalent to conventional T/B memory.
+
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+  A["Innate sensing"] -->|"presentation<br/>and signals"| B["Adaptive response"]
+  B -->|"antibodies<br/>and signals"| C["Innate effector activity"]
+  A -->|"can act directly"| C
+```
+
+*The arrows show cooperation, not a compulsory sequence for every immune response.*
 
 ## Why it matters in cancer
 
-A vaccine depends on antigen-specific responses and on the context supplied by innate sensing and antigen-presenting cells. More inflammation alone does not establish a useful antitumor response.
+A vaccine can create inflammatory context without establishing a response to its intended antigen. Conversely, an antigen-specific response may be detected in blood without reaching or recognizing cancer. “Immune activation” needs a named cell, target, compartment and outcome.
 
-## Worked example
+## How it is measured
 
-A hypothetical vaccine produces strong local inflammation but no detectable response to its intended antigen. This shows an inflammatory effect. It leaves antigen delivery, presentation, appropriate receptors and priming unresolved. The alarm and the matching response need separate measurements.
+Cell counts, inflammatory-protein concentrations and antigen-matched functional assays answer different questions. A concentration in picograms per milliliter is not a count of responding cells. Report specimen, timing, stimulation and background controls. Neither an innate signal nor adaptive specificity alone proves cancer-cell killing or clinical benefit.
 
 ## Common confusions
 
-- Innate does not mean biologically simple or irrelevant to memory-like effects.
-- Adaptive does not mean every response is protective.
-- An antibody drug is manufactured binding protein; it is different from asking a patient’s B cells to make antibodies.
+- Innate does not mean simple, unchanging or unregulated.
+- Adaptive does not mean every response is protective; tolerance and harmful responses also occur.
+- Giving a manufactured antibody is not evidence that the recipient's B cells made it.
+- Early inflammation does not demonstrate recognition of a vaccine's target.
+
+## Try it
+
+A fictional vaccine produces inflammation. Blood cells later respond equally to its proposed antigen and an unrelated control antigen. Has a selective adaptive response to the proposed target been established?
+
+**Answer:** No. The comparison has not separated target-specific activity from background or broader stimulation. Confirm cell identity and assay controls; tumor display, recognition and killing remain further questions.
+
+## Explain it back
+
+Why is receptor architecture a better distinction than “fast versus slow”? Name one exception to the timing or memory shorthand.
+
+## Takeaway
+
+**Separate the sensing system, the recognized target and the measured response.**
 
 ## Related concepts
 
-- [immune cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
+- [Immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
 - [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals)
 
 ## Sources and scope
 
-Source check: October 8, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source-checked October 10, 2026. Foundation mechanisms and bounded experimental exceptions; the practice is fictional. Expert and learner review remain pending.
 
-- [Immunobiology: principles of innate and adaptive immunity](https://www.ncbi.nlm.nih.gov/books/NBK27090/).
-- [NCI immune-system overview](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy).
+- [Janeway et al.: principles of innate and adaptive immunity](https://www.ncbi.nlm.nih.gov/sites/books/NBK27090/) — textbook receptor diversity, selection and cooperation; simple timing and memory distinctions are qualified here.
+- [Quintin et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22901542/) — monocyte-dependent trained immunity in specified fungal experiments, including mice lacking functional T/B cells.
+- [Sun et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19136945/) — memory-like NK behavior in a mouse cytomegalovirus model, not a universal recall rule.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

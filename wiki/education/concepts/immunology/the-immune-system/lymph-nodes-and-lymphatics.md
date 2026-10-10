@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,60 +25,79 @@ Lymphatic vessels return tissue fluid to the blood and carry immune material to 
 
 ## The intuition
 
-Imagine a neighborhood with collection routes and meeting halls. The routes bring material from nearby streets; the halls bring people together to inspect it. Lymphatic vessels and lymph nodes do related jobs. The analogy ends there: lymph is living tissue fluid, cells actively navigate, and a node can support tolerance as well as an immune response.
+Imagine collection routes connected to meeting halls. The routes gather fluid and information from tissue; the halls bring that material near immune cells that may respond.
+
+The analogy stops at automatic action. Cells actively move and exchange signals, and an encounter may support activation or tolerance. A node is neither a passive pipe nor proof that cancer has spread there.
 
 ## How it works
 
-Fluid leaves blood vessels and enters tissues. Lymphatic vessels collect some of that fluid, now called **lymph**, and eventually return it to the blood. They also transport dissolved substances and cells. This drainage network helps manage tissue fluid while connecting tissues to immune surveillance.
+Fluid leaves small blood vessels and enters tissue. Lymphatic vessels collect part of that fluid, now called **lymph**, and ultimately return it to the blood. Lymph can carry dissolved material and migrating cells. Vessels are the transport routes; **lymph nodes** are organized organs along those routes.
 
-A **draining lymph node** receives lymph from a particular tissue territory. Incoming, or afferent, lymphatic vessels deliver it. Outgoing, or efferent, vessels carry lymph onward. A node contains organized regions for different [immune cells](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster), including T-cell areas and B-cell follicles. These arrangements create opportunities for rare compatible cells to meet.
+**Afferent** vessels bring lymph into a node; **efferent** vessels carry it out. A **draining node** receives lymph from a particular tissue territory. That phrase identifies a route, not a finding of cancer involvement.
 
-There is more than one delivery route. [Dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) can collect antigen in tissue and migrate to a node. **Antigen** is material that an immune receptor can recognize. Soluble antigen can also enter with lymph and reach cells already in the node. Sixt and colleagues demonstrated a conduit route to resident dendritic cells in mice; arriving antigen need not wait for an antigen-carrying cell to arrive.
+Nodes contain [B cells](/wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells) organized in follicles and [T cells](/wiki/education/concepts/immunology/t-cells/t-cell) in neighboring regions. Naive lymphocytes commonly arrive from the blood through specialized vessels. Material and potential responders need not travel together.
 
-Naive T cells commonly enter nodes from the blood through specialized vessels, rather than traveling the entire tissue-to-node lymphatic route. **Naive** means not yet initially activated by antigen. [Chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) and their receptors help position cells. Mouse experiments removing the chemokine receptor CCR7 disrupted migration and node organization, illustrating why location is part of immune function.
+Some [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) collect antigen in tissue and migrate to a draining node. Soluble antigen can also arrive in lymph and reach resident cells. Sixt and colleagues demonstrated this earlier soluble-antigen route in mouse lymph nodes: it did not require every antigen to wait for a migrating DC.
+
+[Chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine), receptor expression and adhesion help organize cell movement. Förster and colleagues showed that disrupting **C-C chemokine receptor 7 (CCR7)** in mice altered lymphoid organization and migration. This identifies a trafficking dependency, not a guarantee that providing one signal produces useful immunity.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A["Tissue fluid<br/>and antigen"] --> B["Incoming<br/>lymphatics"]
-  B --> C["Draining<br/>lymph node"]
-  D["Naive cells<br/>from blood"] --> C
-  C --> E["Encounter<br/>and context"]
-  C --> F["Outgoing<br/>lymph"]
+  A["Tissue fluid<br/>and material"] -->|"afferent lymph"| B["Draining node"]
+  B -->|"efferent lymph"| C["Return toward blood"]
+  D["Naive<br/>lymphocytes"] -->|"from blood"| B
 ```
 
-*Material and cells arrive by different routes. Meeting in a node makes a response possible; it does not prove one occurred.*
+*Material and lymphocytes have different entry routes. Meeting in a node does not demonstrate successful priming.*
 
 ## Why it matters in cancer
 
-Nodes can help organize [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals). Successful priming still needs a recognizable target and supporting signals. The lymphatic network can also carry cancer cells. Finding tumor in a node and finding immune activity in a node are different observations; neither erases the other.
+Tumor material can reach a node without a successful antitumor response. The node may offer a [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) setting, but relevant display, receptors and supporting signals still matter.
 
-A lymph-node specimen naturally contains many immune cells. Its immune density cannot be interpreted as though it were an equivalent piece of primary-tumor stroma. Preserve the specimen site and sampled compartment when reading a report.
+Cancer cells can also travel in lymph. This possibility does not make every draining or enlarged node cancer-positive. **Pathologic involvement** means cancer was identified in examined tissue; it differs from an anatomical drainage route, immune-cell accumulation or an imaging observation. A sampled negative node does not certify every unsampled node. Breast-specific [regional anatomy](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla) and [node assessment](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection) provide the next layer.
+
+## How it is measured
+
+Imaging can describe location, shape and dimensions in millimeters. Mapping can identify drainage. Pathology examines sampled tissue for cells and architecture. Immune experiments can count defined cells or test antigen-dependent responses. Those outputs answer different questions; size alone establishes neither cancer nor functional priming.
+
+Record which node, collection method, timing and tissue regions were examined. A [tertiary lymphoid structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures) is an organized immune gathering outside native lymphoid organs, not another name for a lymph node.
 
 ## Common confusions
 
-- A lymph node is an organ; a lymphatic vessel is a transport route.
-- Blood and lymph are connected circulations with different contents and routes.
-- A node enlarged during inflammation is not automatically a node containing cancer.
-- [Tertiary lymphoid structures](/wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures) arise in other tissues; they are not native lymph nodes.
+- Lymphatic drainage is not demonstrated cancer spread.
+- Blood and lymph are connected circulation systems, not interchangeable samples.
+- Enlargement can accompany an immune response; it is not a cancer diagnosis.
+- Antigen arrival, presentation and priming are separate events.
 
 ## Try it
 
-In a fictional experiment, dissolved antigen reaches a draining node before labeled dendritic cells arrive from the tissue. Must the observation be a technical error?
+In a fictional mouse experiment, soluble antigen appears in a draining node before antigen-carrying DCs arrive. Is that impossible? Does it prove a T-cell response started?
 
-**Answer:** No. Soluble material and migrating cells have different routes and timing. The experiment still needs controls identifying where the antigen went and which cells presented it. Arrival alone does not establish productive priming.
+**Answer:** Neither. Lymph can carry soluble material to resident cells. Uptake, appropriate presentation and antigen-dependent activation need their own measurements and controls. Arrival also says nothing about whether cancer cells are present.
+
+## Explain it back
+
+Why can a node be “draining,” enlarged and cancer-negative at the same time?
+
+## Takeaway
+
+**Separate the route into a node from what the sampled node contains or does.**
 
 ## Related concepts
 
+- [Immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
 - [Dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells)
-- [Costimulation](/wiki/education/concepts/immunology/t-cells/costimulation)
 
 ## Sources and scope
 
-Source check: October 9, 2026. General anatomy and trafficking; the exercise is fictional. Expert and learner review remain pending.
+Source-checked October 10, 2026. General drainage and immune organization; the exercise is fictional and is not a staging or surgery rule. Expert and learner review remain pending.
 
-- [National Cancer Institute (NCI): lymph system](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymph-system) — anatomy, fluid return and immune roles.
-- [Sixt et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15664156/) — soluble-antigen conduits and resident dendritic cells in mouse lymph nodes.
-- [Förster et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10520991/) — CCR7-dependent organization and trafficking in gene-targeted mice.
+- [NCI: lymph system](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymph-system) — fluid return and immune organization.
+- [Janeway et al.: components of the immune system](https://www.ncbi.nlm.nih.gov/sites/books/NBK27092/) — node compartments and lymphocyte entry routes.
+- [Sixt et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15664156/) — soluble-antigen access to resident DCs in mouse nodes.
+- [Förster et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10520991/) — CCR7-dependent organization and migration in gene-targeted mice.
+- [NCI: sentinel lymph node biopsy](https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet) — drainage mapping, tissue examination and sampling limits.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

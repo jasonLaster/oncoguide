@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-r
 used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,49 +25,75 @@ Cytokines are signaling proteins that change cell behavior; chemokines are a cyt
 
 ## The intuition
 
-A team needs both messages about what to do and directions about where to go. Cytokines help change behavior. Chemokines often help guide movement. The distinction is useful, but the categories overlap: a direction signal can also change activation, and the same message can affect different cells differently.
+Think of messages and directions. A message can change what a cell does; a directional pattern can help a cell navigate. The same tissue can contain many senders and receivers.
+
+Cells do not read literal orders. A message only matters when a suitable [receptor](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) and response machinery are present. Chemokines can affect activation as well as movement, so the analogy is a starting point rather than two sealed job descriptions.
 
 ## How it works
 
-Many immune and nonimmune cells make cytokines. A compatible [receptor](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) senses the signal and relays information inside the receiving cell. Growth, survival, differentiation or inflammatory activity may change. A cytokine is a message, not nutritional fuel.
+Immune and nonimmune cells produce cytokines. A signal can act on its producer, nearby cells or, if it reaches circulation and remains available, distant cells. Receptor engagement can alter survival, division, differentiation, inflammatory activity or movement. Cytokines supply information, not nutritional fuel.
 
-Chemokines can form local concentration gradients. Cells bearing compatible receptors can respond to those gradients and to signals displayed at vessel walls or within tissue. Reaching a destination also requires movement through vessels and tissue. A chemokine signal cannot by itself open every physical barrier. [The immune-response chapter](https://www.ncbi.nlm.nih.gov/books/NBK27122/) describes how these signals cooperate with cell trafficking.
+**Pleiotropy** means one cytokine can produce different effects in different receiving cells or settings. **Redundancy** means different signals can contribute to overlapping outputs. Receptor availability, concentration, exposure duration, cell state and accompanying signals all shape the response. One cytokine name therefore does not specify one outcome.
 
-Responses depend on dose, duration, receptor availability, cell state and other signals. One cytokine can support several populations. **Interleukin 2 (IL-2)**, for example, can support both effector and [regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells). Regulatory cells help restrain immune responses. More cytokine therefore does not mean more cancer killing.
+**Interleukin-2 (IL-2)** illustrates this. It can support effector T cells and [regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells). Boyman and colleagues used different IL-2–antibody complexes to favor different subsets in mice. The formulation and receiving cells mattered; this was not a universal instruction to raise or lower IL-2 in cancer.
 
-Some cytokines are called interleukins; others are called [interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) or have different names. The name alone does not tell you the full biological effect. Chemokine names also do not establish which cells will enter a particular tumor. Measurements of the receiver and the surrounding tissue add context.
+Chemokines help create **gradients**, spatial patterns of availability. Some bind tissue matrix or vessel surfaces, where cells encounter them. Movement also requires compatible receptors, adhesion and a traversable route. A chemokine is not a magnet that pulls every immune cell through every barrier.
+
+Weber and colleagues demonstrated an immobilized **C-C motif chemokine ligand 21 (CCL21)** gradient guiding dendritic cells toward lymphatic vessels in mouse skin. Disrupting that pattern impaired directed migration. This is evidence about a particular ligand, tissue and cell pair, not proof that any high chemokine concentration improves tumor entry.
+
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+  A["Producing cell"] -->|"release or display"| B["Local signal pattern"]
+  B -->|"compatible receptor"| C["Receiving cell"]
+  C -->|"state and exposure"| D["Behavior to measure"]
+```
+
+*Amount, location and the receiver are separate parts of the mechanism. A bulk average omits the pattern.*
 
 ## Why it matters in cancer
 
-Cytokines can help shape [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) and later function. Chemokines can help recruit immune populations. Tumors and surrounding cells can also produce signals that support suppression or growth. Each claim needs its own context.
-
-## Worked example
-
-A fictional cell product produces more of a supportive cytokine. More engineered cells survive in a dish. That is one useful result. It leaves open whether unwanted cells also respond, whether local inflammation increases, and whether the cells still reach and kill cancer in tissue.
-
-## Common confusions
-
-- Chemokines belong to the cytokine family; they are not an unrelated substance.
-- A cytokine does not specify the tumor antigen a T cell recognizes.
-- Higher blood concentration does not reveal the concentration at a tumor site.
-- A message that helps one cell population may also help another.
+Cytokines can shape priming, recruitment and local regulation. The same signal can act on several populations with different consequences. A tumor-associated signal, or increased cytokine production by a cell product, does not identify a safe target or demonstrate cancer-cell killing. [Interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) are one cytokine group with particularly important timing and receiver effects.
 
 ## How it is measured
 
-Protein assays measure cytokines in a defined sample. Gene-expression assays measure related transcripts, which need not equal secreted protein. Functional tests ask what receiving cells actually do. These are different outputs.
+Protein assays can report picograms per milliliter (pg/mL) in a specified fluid. [Intracellular cytokine staining](/wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining) can report the percentage of a defined cell gate producing a measured protein after stimulation. [Ribonucleic acid (RNA)](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) expression is another layer; it does not establish released protein concentration.
+
+Specify fluid or tissue, collection time, stimulation, assay calibration and detection limit. A blood concentration does not reconstruct a tumor gradient. Migration or downstream signaling requires a functional experiment, with viability, background and receptor-related controls appropriate to the hypothesis.
+
+## Try it: an average is not a gradient
+
+Two fictional preparations have equal-sized compartments. In A, chemokine concentrations are 0 and 20 pg/mL; in B, both are 10 pg/mL. Each average is (0 + 20)/2 or (10 + 10)/2 = 10 pg/mL. Does that make the spatial information or movement equivalent?
+
+**Answer:** No. A has a concentration difference; B does not. This simplified two-compartment example is not a physiological gradient or an optimal-dose claim. Whether cells move depends on the actual spatial pattern, receptor system and other conditions. Equal averages do not establish equal function.
+
+## Common confusions
+
+- Chemokines are cytokines, not an unrelated category.
+- A growth-support signal does not choose the antigen a T cell recognizes.
+- A gene-expression increase is not a measured secreted-protein increase.
+- More signal is not automatically more useful or safer immunity.
+
+## Explain it back
+
+Why can the same cytokine produce different responses, and why can two equal concentrations hide different spatial patterns?
+
+## Takeaway
+
+**Read the message together with its receiver, distribution and measured effect.**
 
 ## Related concepts
 
-- [Immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
-- [Hot, excluded and cold tumor patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor)
+- [Lymph nodes and lymphatics](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics)
+- [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals)
 
 ## Sources and scope
 
-Source check: October 9, 2026. General signaling and trafficking; no cytokine dose or treatment recommendation is implied. Expert and learner review remain pending.
+Source-checked October 10, 2026. Signaling and migration foundations; invented concentrations, no dose or clinical cutoff. Expert and learner review remain pending.
 
-- [Immunobiology: induced innate responses to infection](https://www.ncbi.nlm.nih.gov/books/NBK27122/).
-- [Molecular Biology of the Cell: innate immunity](https://www.ncbi.nlm.nih.gov/books/NBK26846/).
-- [NCBI Bookshelf: cytokines, chemokines and their receptors](https://www.ncbi.nlm.nih.gov/books/NBK6294/).
+- [Janeway et al.: induced innate responses, sections 2-19 and 2-20](https://www.ncbi.nlm.nih.gov/sites/books/NBK27122/) — cytokine actions, chemokines, receptors and spatial presentation.
+- [Weber et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23329049/) — immobilized chemokine gradients and DC movement in mouse skin.
+- [Boyman et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16484453/) — different IL-2–antibody complexes supporting different T-cell subsets in mouse experiments.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

@@ -1,81 +1,109 @@
 ---
-title: "Good manufacturing practice and batch release"
+title: "Good manufacturing practice: building quality into the process"
 type: "concept"
 domain: "engineering-and-manufacturing/cmc-and-quality"
-summary: "Good manufacturing practice controls how a product is made, while batch release checks whether a particular lot meets its specified requirements."
+summary: "Good manufacturing practice is a system of controls that builds consistent product quality into manufacturing."
 glossary_anchor: "gmp-and-batch-release"
-aliases: ["GMP", "good manufacturing practice", "batch release", "CMC"]
-level: "intermediate"
-prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
+aliases: ["GMP", "cGMP", "good manufacturing practice", "current good manufacturing practice"]
+level: "foundation"
+prerequisites: []
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Good manufacturing practice and batch release
+# Good manufacturing practice: building quality into the process
 
 ## In one sentence
 
-Good manufacturing practice controls how a product is made, while batch release checks whether a particular lot meets its specified requirements.
+Good manufacturing practice is a system of controls that builds consistent product quality into manufacturing.
 
 ## The intuition
 
-A recipe, a controlled kitchen and a checked batch answer different questions. A reliable kitchen can consistently make the intended product. It cannot prove that the recipe will treat cancer. Here the “kitchen” includes facilities, materials, trained people, records and qualified equipment.
+Imagine a bakery that checks its ingredients, cleans its equipment, trains staff and records each batch. Tasting one loaf cannot reveal every mix-up or handling problem. The process has to protect the loaves that nobody samples.
+
+The analogy has limits. Medical products need controls designed for their particular risks, not a generic cleanliness score. A careful factory also cannot establish that a treatment benefits a patient.
 
 ## How it works
 
-Good manufacturing practice (GMP) builds quality into the process. Chemistry, manufacturing and controls (CMC) describes the product, its production and the evidence that supports consistent quality. Applicable requirements depend on the product and development setting; a slogan on a website cannot establish compliance for a particular lot.
+**Good manufacturing practice (GMP)** combines people, procedures, materials, equipment and records into a working quality system. The “current” in current good manufacturing practice means the controls must remain suitable as methods and knowledge develop. [The United States Food and Drug Administration (FDA) explains this framework](https://www.fda.gov/drugs/pharmaceutical-quality-resources/facts-about-current-good-manufacturing-practice-cgmp).
 
-Specifications define what the product must be and which limits it must meet. Testing may assess identity, purity, [potency](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) and microbiological safety, together with product-specific features. These tests answer different quality questions; a functional result is not clinical efficacy.
+Manufacturing staff follow controlled instructions and record what actually happened. An **in-process control** checks a relevant step while manufacture is underway. A final sample answers a narrower question about tested material; it cannot reconstruct an unrecorded process.
 
-Release review brings together test results and manufacturing records. A deviation needs investigation and a justified disposition; retesting until a passing number appears does not make the problem disappear. Stability and handling data also matter between manufacture and administration.
+The **quality unit** reviews procedures, evidence and departures from the intended process. These departures are called deviations. Investigating a deviation asks what happened, which material may be affected and how to prevent recurrence. A missing record and a failed laboratory test are different findings, but both deserve an explanation.
+
+Changes also need control. Replacing a supplier or changing a processing step may alter the product. [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) asks whether relevant quality remains comparable. It does not assume that a familiar product name means unchanged biology.
+
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TB
+  A["Materials, people<br/>Equipment, procedures"] --> B["Controlled process"]
+  B --> C["Records and results"]
+  C --> D["Quality review"]
+```
+
+*Quality depends on a controlled process and its records. The map shows review relationships, not a guarantee that every lot passes.*
 
 ## Why it matters in cancer
 
-Personalized products can change sequence between patients while depending on a controlled manufacturing platform. A sequence revision, new formulation or changed cell-processing step may affect biology as well as production. Change control documents the revision. [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) assesses whether earlier evidence remains relevant. [Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody) connects the intended source, recipient, lot and handling.
+Personalized sequences and living cells can vary between products. That makes process control important; it does not make every product interchangeable. [Chemistry, manufacturing and controls (CMC)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls) describes the supporting product evidence. [Batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) is the disposition of a particular lot.
 
-For a [messenger RNA construct](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy), a correct sequence file is only one input. For a [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) cell product, receptor expression alone is only one characterization result. Neither is a complete release package.
+Requirements depend on jurisdiction, product and development stage. FDA's Phase 1 guidance describes an exemption from certain detailed regulations alongside continuing statutory manufacturing-quality duties. “Investigational” therefore does not mean “quality controls optional.” This page explains the framework, rather than certifying a facility or applying a rule to an individual product.
 
-## How it is measured
+## How it is assessed
 
-| Quality question | Illustrative evidence |
+| Question | Relevant evidence |
 |---|---|
-| Is it the intended product? | Identity testing and traceable version records |
-| Are unwanted materials controlled? | Purity, impurity and process-control results |
-| Does it perform a relevant biological task? | Product-specific functional or justified surrogate testing |
-| Is microbiological risk controlled? | Applicable contamination, sterility and related testing |
-| Does quality persist through use? | Stability, transport, container and handling evidence |
+| Was the intended process followed? | Batch records and in-process observations |
+| Were methods and equipment suitable? | Qualification, maintenance and assay evidence |
+| Was a departure understood? | Investigation and its documented disposition |
+| Was a change evaluated? | Change-control and comparability evidence |
 
-This table is a teaching map, not a universal release checklist. The actual tests and acceptance criteria belong to the authorized product specification.
+No single measurement or badge establishes the whole system.
 
-## Worked example
+## Worked example and practice
 
-A fictional vaccine lot has the correct sequence and acceptable purity. Its potency result fails the approved criterion. Those passing tests do not cancel the failure. The manufacturer and sponsor must investigate and decide under the controlled process; the lesson does not tell them to administer it.
+A fictional lot's final sample meets its listed tests. The batch record shows an unexplained material substitution. The sample results remain useful, but do not establish that the substitution was harmless or appropriately controlled.
+
+**Try it:** Does a passing final test close the process question?
+
+<details><summary>One possible answer</summary>
+
+No. Test evidence and process evidence have different scopes. The substitution needs a documented assessment; the example supplies no final release decision.
+
+</details>
 
 ## Common confusions
 
-- GMP is a manufacturing framework, not a treatment-benefit claim.
-- A certificate of analysis reports named results; it does not answer every quality or clinical question.
-- Regulatory authorization, lot release and patient eligibility are separate gates.
-- A platform's prior experience does not establish the quality of every future lot.
+- A clean room is one part of a manufacturing system, not proof of compliance by itself.
+- GMP, a product dossier and a lot's release decision answer different questions.
+- Manufacturing quality supports reliable clinical investigation; it does not establish clinical efficacy.
+
+## Explain it back
+
+“GMP helps control ___; a passing sample does not establish ___.” One answer: “how the product is made; the entire manufacturing history or treatment benefit.”
+
+## Takeaway
+
+**Build quality into the process, then review the lot and its evidence.**
 
 ## Related concepts
 
-- [Ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering)
-- [Lipid nanoparticles](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle)
+- [Certificate of analysis](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis)
+- [Potency assays](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays)
 
 ## Sources and scope
 
-Source check: October 9, 2026. This page explains a method or mechanism. Expert and learner review remain pending.
+Source check: October 10, 2026. General manufacturing education; requirements are product-, phase- and jurisdiction-specific. Actual expert and learner review remains pending.
 
-- [FDA vaccine CMC guidance](https://www.fda.gov/media/73614/download).
-- [FDA CAR T-cell product-development guidance](https://www.fda.gov/media/156896/download).
-- [FDA investigational-product CMC overview](https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information).
+- [FDA: facts about current good manufacturing practice](https://www.fda.gov/drugs/pharmaceutical-quality-resources/facts-about-current-good-manufacturing-practice-cgmp).
+- [FDA: quality systems approach to pharmaceutical CGMP](https://www.fda.gov/media/71023/download), especially the quality-unit discussion.
+- [FDA: current good manufacturing practice for Phase 1 investigational drugs](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/current-good-manufacturing-practice-phase-1-investigational-drugs).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
