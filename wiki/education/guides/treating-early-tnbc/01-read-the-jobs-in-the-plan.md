@@ -56,7 +56,20 @@ This card is a reading aid. It does not replace orders, consent or clinical asse
 
 ## Distinct mechanisms can bring distinct constraints
 
-Chemotherapy is a broad category, rather than one cell process. Its concept page describes important mechanism families. Checkpoint inhibition has another job: changing a specified regulatory interaction in immune responses. A treatment can combine cellular injury with immune modulation. Whether that combination helps is tested clinically.
+Chemotherapy is a broad category, rather than one cell process. Use a short class map to translate drug names into jobs:
+
+| Family and example | What the mechanism helps explain |
+|---|---|
+| [Taxane](/wiki/education/concepts/therapeutics/chemotherapy/taxanes), such as paclitaxel | Disrupted reorganization of microtubules, the protein structures used in division and cellular transport |
+| [Platinum agent](/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents), such as carboplatin | Chemical attachments and cross-links in DNA (deoxyribonucleic acid) |
+| [Anthracycline](/wiki/education/concepts/therapeutics/chemotherapy/anthracyclines), such as doxorubicin | Several injury mechanisms, including disruption of an enzyme's DNA cut-and-reseal process |
+| [Classic alkylating agent](/wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents), such as cyclophosphamide | Activation to metabolites that chemically modify DNA |
+
+This is a mechanism map, not a required drug list. Platinum and classic alkylating agents can have related consequences through different chemistry. Another class, [fluoropyrimidines such as capecitabine](/wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines), can arise in separate postoperative evidence questions. Oral delivery does not make that medicine mild, and its mechanism does not establish that it should be added to every plan.
+
+Checkpoint inhibition has another job: changing a specified regulatory interaction in immune responses. A treatment can combine cellular injury with immune modulation. Whether that combination helps is tested clinically.
+
+Read delivery separately from mechanism. [Dose and dose intensity](/wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity) distinguish amount from amount over time. [Dose-dense scheduling](/wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling) names shorter intervals relative to a specified comparison schedule. The [therapeutic index](/wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index) asks about useful effects relative to harm. These concepts help fill the card; none supplies a personal dose or proves that more frequent delivery always helps.
 
 Distinct mechanisms can also bring overlapping harms. A side effect may interrupt one component while another can continue. The clinician must consider the actual drugs, their interactions and the purpose of each component. Adding a medicine is therefore more than adding a box to a diagram.
 

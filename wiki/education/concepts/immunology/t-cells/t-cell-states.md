@@ -4,14 +4,14 @@ type: "concept"
 domain: "immunology/t-cells"
 summary: "T-cell states describe changing differentiation and functional programs, rather than simply whether a T cell is present."
 glossary_anchor: "t-cell-states"
-aliases: ["T-cell states", "anergy", "exhaustion"]
+aliases: ["T-cell states", "exhaustion"]
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
 used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 level: "intermediate"
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-09"
+source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -27,40 +27,77 @@ T-cell states describe changing differentiation and functional programs, rather 
 
 A roster entry and a readiness report answer different questions. A cell can be present yet fail to recognize cancer, enter a tumor or perform useful killing. “Exhausted” is not a synonym for briefly tired, and “memory” is not a promise of permanent protection.
 
+The analogy is limited: biological categories overlap and change. A cell's current features, response history and measured function matter more than a single fixed job label.
+
 ## How it works
 
-Naive cells have not undergone initial antigen-driven activation. Effector cells develop functions after activation. Memory populations can persist and support later responses. These broad categories contain varied subsets.
+A **naive** T cell has not undergone its initial antigen-driven activation. This says something about response history, not that it left the thymus yesterday. [Thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging) separates new-cell development from the survival and division of existing naive cells.
 
-Anergy is antigen-related hyporesponsiveness often associated with inadequate supporting signals. Exhaustion is a differentiation program associated with persistent stimulation and altered function. Exhausted populations can contain progenitor-like and more differentiated subsets with different capacities.
+**Effector** cells develop response functions after activation. Those functions vary: helping another cell and directly killing a target are different jobs. **Memory** populations can persist and support renewed responses. Neither label establishes that a cell recognizes cancer or provides lasting clinical protection.
 
-Programmed cell death protein 1 (PD-1) can rise during activation as well as in exhausted populations. A single marker therefore cannot assign a complete state. RNA programs, surface-protein patterns, receptor identity and functional experiments provide complementary evidence.
+[Anergy](/wiki/education/concepts/immunology/t-cells/anergy) describes antigen-related reduced responsiveness in defined contexts. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. These are different mechanisms, not two names for any inactive cell. External suppression and a missing target encounter are further possibilities.
+
+Exhausted populations can contain progenitor-like and more differentiated subsets with different capacities. Miller and colleagues tested these differences in tumor models and studied related features in human melanoma. The chronic-infection study by Utzschneider and colleagues described a related response context. These settings support biological distinctions; they do not make one subset count a universal treatment-selection test.
+
+Progenitor-like exhausted cells can help sustain a response under persistent stimulation. They are not automatically ordinary memory cells. A shared marker or capacity to divide does not make two differentiation programs identical.
+
+[Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) have another role: helping restrain responses. They are not simply exhausted effector cells. Their effect on other cells belongs to the wider [peripheral-tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) system.
+
+**Programmed cell death protein 1 (PD-1)** can rise during activation as well as in exhausted populations. In human T-cell cultures, expression of the regulatory-associated protein **forkhead box P3 (FOXP3)** also did not, by itself, establish suppressive function. A single marker cannot assign a complete state or job.
+
+```mermaid
+flowchart TD
+  A["A sampled T-cell population"] --> B["Response history<br/>and receptor specificity"]
+  B --> C["RNA and protein<br/>state features"]
+  C --> D["Controlled<br/>functional measurements"]
+  D --> E["A bounded interpretation,<br/>not a guaranteed future"]
+```
+
+*Cell identity, state and function are complementary observations.*
 
 ## Why it matters in cancer
 
-Checkpoint blockade does not restore every inactive cell. Vaccines and engineered cells also encounter state-dependent constraints. A high count or a favorable marker pattern cannot replace evidence of specificity and function.
+[Checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) does not restore every inactive cell or replace its receptor specificity. Vaccines and engineered cells also encounter state-dependent constraints. A high count or favorable marker pattern cannot replace evidence of target recognition and useful function.
+
+Stronger activation is not automatically beneficial. Normal tolerance protects healthy tissue, while the actual tumor and treatment determine whether changing a response produces benefit or harm.
+
+## How it is measured
+
+RNA programs, surface-protein panels, receptor identities and controlled functional assays supply different layers. Preserve tissue location, sampling time and population definitions. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) characterizes selected features; [functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) test specified target interactions. Neither provides an unrestricted label for every cell in the body.
 
 ## Worked example
 
-A fictional biopsy shows PD-1-positive CD8 cells close to cancer cells. The cells could include activated, exhausted or bystander populations. A specificity experiment and controlled functional readouts would address questions the marker image cannot settle.
+A fictional biopsy shows PD-1-positive CD8 T cells close to cancer cells. Compatible measurements suggest several differentiation programs. One receptor responds to a viral target, while another responds to a tumor peptide in a controlled assay.
+
+The stain did not establish either specificity. The peptide response also does not yet establish natural tumor-cell recognition, access or killing. Even cells sharing a marker can therefore support different interpretations.
 
 ## Common confusions
 
 - Anergy and exhaustion do not describe identical mechanisms.
 - Memory and progenitor-like exhaustion are distinct categories.
+- Regulatory cells are not simply worn-out effectors.
 - Proximity to a tumor cell does not establish recognition of that cell.
+
+## Try it
+
+A fictional population is PD-1-positive and divides after stimulation. Can you classify it as ordinary memory and predict checkpoint-drug benefit?
+
+**Answer:** No. Those observations need response-history, specificity and differentiation context. Division under one stimulus does not establish that classification or clinical effect.
 
 ## Related concepts
 
-- [immune cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
+- [Immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
 - [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals)
-- [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape)
+- [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape)
 
 ## Sources and scope
 
-Source check: October 8, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source check: October 9, 2026. Mechanism interpretation and fictional exercises, not a treatment recommendation. Expert and learner review remain pending.
 
-- [Primary tumor and melanoma exhausted-subset study](https://pubmed.ncbi.nlm.nih.gov/30778252/).
-- [Primary chronic-infection TCF1 study](https://pubmed.ncbi.nlm.nih.gov/27533016/).
+- [Miller et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30778252/) — tumor models and related human melanoma observations.
+- [Utzschneider et al., 2016: persistent viral-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct experimental disease setting.
+- [Macián et al., 2002: anergy signaling and transcription](https://pubmed.ncbi.nlm.nih.gov/12086671/) — controlled mechanistic experiments.
+- [Tran et al., 2007: induced FOXP3 without suppressive function](https://pubmed.ncbi.nlm.nih.gov/17644734/) — human T-cell culture experiments.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

@@ -29,7 +29,7 @@ This is step 2 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Underst
 
 The **lumen** is the hollow space. **Luminal** means facing that space. A normal breast duct has inner luminal epithelial cells, an outer myoepithelial layer and a basement membrane. **Myoepithelial** cells have contractile features. The **basement membrane** is a thin support boundary beneath the epithelium.
 
-Outside those structures sits **stroma**, supporting tissue containing connective material, vessels and neighboring cells. **Fibroblasts** build and remodel extracellular material. **Endothelial** cells line blood vessels. Immune cells can also occupy this neighborhood.
+Outside those structures sits [stroma](/wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma), supporting tissue containing connective material, vessels and neighboring cells. **Fibroblasts** build and remodel the [extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix). **Endothelial** cells line blood vessels. Immune cells can also occupy this neighborhood.
 
 These are normal architectural descriptions. A tumor can disrupt the organization. A pathologist interprets whether malignant cells have invaded surrounding tissue; a molecular epithelial label alone cannot answer that question.
 
@@ -68,7 +68,7 @@ A **tumor mask** is an image-based assignment of a region or cells to the malign
 
 A tissue profile contains a strong antibody-production signal. Does that establish that the cancer cells produce antibodies?
 
-**Answer:** No. Plasma cells and other immune populations can supply that RNA. The next question is which cells produced the signal, using a suitable cell-specific or spatial measurement.
+**Answer:** No. [Plasma cells](/wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells) and other immune populations can supply that RNA. The next question is which cells produced the signal, using a suitable cell-specific or spatial measurement.
 
 ## Explain it back
 

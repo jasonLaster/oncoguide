@@ -17,7 +17,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 **Follow an immune response from its first clue to its possible effect on cancer, and learn why each step needs its own evidence.**
 
-A treatment name becomes easier to understand when you can place it on a biological route. We will build that route together: signals, priming, cell states, access, measurement and escape. Short worked examples let you practice before comparing treatment formats.
+Place a treatment on a biological route: signals, priming, cell states, access, measurement and escape. We will build that route together, with short worked examples to practice.
 
 The suggested reading budget is 66 minutes. It is fine to take longer with a concept that feels new.
 
@@ -63,7 +63,10 @@ flowchart TD
 
 - **Interventions and harm:** [immune checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor), [immune-related adverse events (irAEs)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event).
 
-The lessons introduce assay concepts where each measurement is used.
+Optional foundations:
+
+- **Alarms and restraint:** [damage-associated and pathogen-associated molecular patterns (DAMPs and PAMPs)](/wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps), [inflammation](/wiki/education/concepts/immunology/the-immune-system/inflammation), [anergy](/wiki/education/concepts/immunology/t-cells/anergy), [peripheral tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) and [thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging).
+- **Antibody responses:** [B cells and plasma cells](/wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells), [isotypes and Fc silencing](/wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing) and [antibody-guided effector mechanisms](/wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc).
 
 ## Place a checkpoint drug on the map
 

@@ -37,6 +37,8 @@ The relevant signal is more specific than “total cellular cholesterol.” Ster
 
 **mTOR** is a kinase, an enzyme that adds phosphate groups to proteins. It works in distinct complexes. mTORC1 regulates protein production and parts of autophagy initiation. mTORC2 contributes to AKT regulation and other functions. A compound's effects on one complex do not automatically describe the other. [Sarbassov 2005](https://pubmed.ncbi.nlm.nih.gov/15718470/), [Ganley 2009](https://pubmed.ncbi.nlm.nih.gov/19258318/).
 
+Energy state supplies another input. [AMP-activated protein kinase (AMPK)](/wiki/education/concepts/cancer-biology/metabolism-and-stress/nutrient-sensing-ampk) can restrain mTORC1 through defined molecular steps. That restraint can reduce expensive cellular work. It does not make AMPK activation a universal death signal: stress adaptation and slower growth can coexist.
+
 A **phosphoprotein** is a protein carrying a phosphate modification. Reports may describe phosphorylated S6, 4E-BP1, or AKT. Each is a named readout at a specified site and time. None is a universal gauge for the entire network. Feedback can also increase one branch while another falls.
 
 Similarly, [bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) measures a combined tissue profile of messages. A gene-set score summarizes selected messages relative to a method and comparator. It is not a direct measurement of lipid synthesis, mTOR kinase activity, or drug response.
@@ -54,7 +56,7 @@ Researchers study a fictional cancer culture under lipid-poor and lipid-rich con
 
 These are fictional observations. They support a supply-dependent hypothesis and biochemical target engagement. To attribute compensation to uptake, researchers should measure uptake and test that route. The medium comparison alone cannot name every contributing metabolite.
 
-Now an mTORC1-directed perturbation reduces an expected phosphoprotein readout in both conditions. Growth remains unchanged in the lipid-rich condition. This shows why engaging a signaling target and finding a survival bottleneck are distinct steps.
+Now an mTORC1-directed perturbation reduces an expected phosphoprotein readout in both conditions. Growth remains unchanged in the lipid-rich condition. This shows why engaging a signaling target and finding a survival bottleneck are distinct steps. If AMPK-linked phosphorylation also increases, that adds an energy-response hypothesis; it does not identify the trigger or prove that the response caused death.
 
 ## A rescue experiment needs a precise question
 
@@ -101,3 +103,4 @@ Source check: 2026-10-09. General education; all worked scenarios and numerical 
 - [Lange 2008: rapid cholesterol-homeostasis responses](https://pubmed.ncbi.nlm.nih.gov/18024962/).
 - [Sarbassov 2005: mTOR complex 2 and AKT phosphorylation](https://pubmed.ncbi.nlm.nih.gov/15718470/).
 - [Ganley 2009: mTOR and autophagy-initiation machinery](https://pubmed.ncbi.nlm.nih.gov/19258318/).
+- [Gwinn et al., 2008: AMPK phosphorylation of raptor and mTORC1 restraint](https://pubmed.ncbi.nlm.nih.gov/18439900/).

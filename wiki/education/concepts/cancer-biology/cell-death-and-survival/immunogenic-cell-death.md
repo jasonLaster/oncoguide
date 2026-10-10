@@ -4,7 +4,7 @@ type: "concept"
 domain: "cancer-biology/cell-death-and-survival"
 summary: "Immunogenic cell death is regulated cell death that can initiate an antigen-specific adaptive immune response in a compatible, immune-competent host."
 glossary_anchor: "immunogenic-cell-death"
-aliases: ["ICD", "immunogenic death", "danger signals", "damage-associated molecular patterns", "DAMPs"]
+aliases: ["ICD", "immunogenic death"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/local-treatment-modalities/06-comparisons]]"]
@@ -31,7 +31,7 @@ A dying cell leaves material behind. The immune system can quietly clear that ma
 
 The [operational consensus definition](https://pubmed.ncbi.nlm.nih.gov/32209603/) connects a dying cell to an adaptive response in its host. **Antigenicity** means that the material contains targets the host's immune repertoire can recognize. **Adjuvanticity** means that the accompanying signals support immune activation. Neither property alone completes the process.
 
-Stressed or dying cells can expose or release **damage-associated molecular patterns (DAMPs)**. These are molecules whose location and timing can signal tissue injury. Surface exposure of the protein calreticulin can help phagocytes collect dying cells. Extracellular **adenosine triphosphate (ATP)** can support immune-cell recruitment and activation. Released **high-mobility group box 1 (HMGB1)** can support antigen processing through particular sensing pathways. These are studied mechanisms, not a universal three-marker checklist.
+Stressed or dying cells can expose or release [damage-associated molecular patterns (DAMPs)](/wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps). These are molecules whose location and timing can signal tissue injury. Surface exposure of the protein calreticulin can help phagocytes collect dying cells. Extracellular **adenosine triphosphate (ATP)** can support immune-cell recruitment and activation. Released **high-mobility group box 1 (HMGB1)** can support antigen processing through particular sensing pathways. These are studied mechanisms, not a universal three-marker checklist.
 
 Collected tumor material still needs to be processed and displayed. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) lets a presenting cell display externally acquired antigen to a suitable T cell. [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) requires recognition and a supporting signal context. Suppressive tissue conditions, missing responders or inadequate presentation can interrupt this route.
 

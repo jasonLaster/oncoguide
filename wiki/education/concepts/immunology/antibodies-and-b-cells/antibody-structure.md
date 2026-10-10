@@ -29,11 +29,23 @@ Imagine a tool with a gripping end and a handle that can connect to other machin
 
 ## How it works
 
-A typical **immunoglobulin G (IgG)** antibody has two heavy and two light protein chains. Variable regions from a heavy and a light chain form each binding site. Each site recognizes an **epitope**, a particular molecular feature. The target may be a folded protein or another accessible structure; it need not be a short peptide displayed to a T cell. [The antibody-structure chapter](https://www.ncbi.nlm.nih.gov/books/NBK27144/) explains this architecture.
+A typical **immunoglobulin G (IgG)** antibody has two heavy and two light protein chains. Variable regions from a heavy and a light chain form each binding site. Each site recognizes an [**epitope**](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope), a particular molecular feature. The target may be a folded protein or another accessible structure; it need not be a short peptide displayed to a T cell. [The antibody-structure chapter](https://www.ncbi.nlm.nih.gov/books/NBK27144/) explains this architecture.
 
-The two arms are often called **Fab**, for fragment antigen-binding. The base is **Fc**, for fragment crystallizable. Fc can interact with receptors on immune cells and with complement, a collection of immune proteins. Those interactions can help recruit other cells or clear a target. The effect depends on antibody class, molecular design and context. Some therapeutic antibodies deliberately reduce these functions.
+The two arms are often called **Fab**, for fragment antigen-binding. The base is **Fc**, for fragment crystallizable. Fc can interact with receptors on immune cells and with complement, a collection of immune proteins. Those interactions can help recruit other cells or clear a target. [Antibody isotype and Fc silencing](/wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing) explain how class and engineering affect selected interactions. [Antibody-guided effector mechanisms](/wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc) distinguish target killing, engulfment and complement-mediated damage. Fc recruitment does not automatically establish any of those completed effects.
 
 Binding and recruitment are separate jobs. An antibody can block a receptor interaction. Another can recruit an immune cell. An antibody–drug conjugate carries an attached payload. An engineered engager can bind two different partners. These formats reuse binding parts without necessarily sharing the same Fc behavior. [NCI’s antibody overview](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) separates these uses.
+
+[B cells and plasma cells](/wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells) explain the cells that generate and secrete antibodies. Antibody structure alone does not identify its producing cell or antigen specificity.
+
+```mermaid
+flowchart TD
+  A["Antibody<br/>binding regions"] --> B["Epitope<br/>recognition"]
+  C["Other structural<br/>features"] --> D["Selected interactions,<br/>distribution<br/>and function"]
+  B --> E["Test the actual molecule"]
+  D --> E
+```
+
+*Recognition regions and other structural features make different contributions.*
 
 ## Why it matters in cancer
 

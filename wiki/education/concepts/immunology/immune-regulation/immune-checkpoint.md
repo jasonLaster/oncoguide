@@ -7,7 +7,7 @@ glossary_anchor: "immune-checkpoint"
 aliases: ["checkpoint", "PD-1", "PD-L1", "CTLA-4"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -71,6 +71,7 @@ Source check: October 9, 2026. Mechanisms of inhibitory checkpoints; approved us
 ## Used in
 
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
 - [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 - [Ask what happens after binding](/wiki/education/oncology-101/1-ligands)

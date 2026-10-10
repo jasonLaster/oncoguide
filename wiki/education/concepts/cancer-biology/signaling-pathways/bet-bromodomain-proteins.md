@@ -33,7 +33,7 @@ Imagine a book with tabs that help a reading team find particular passages. A re
 
 A **bromodomain** is a protein region that recognizes acetylated lysines. Many proteins contain bromodomains; they do not all belong to the BET family. The BET family includes **BRD2, BRD3, BRD4 and BRDT**. Its members contain two bromodomains and an extra-terminal region involved in protein interactions.
 
-BET proteins help connect chromatin to transcription, the production of RNA messages described in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma). BRD4, for example, can recruit machinery that helps RNA polymerase continue along a gene. Which genes respond depends on the cell and its regulatory state.
+BET proteins help connect chromatin to transcription, the production of RNA messages described in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma). BRD4, for example, can recruit machinery that helps RNA polymerase continue along a gene. Which genes respond depends on the cell and its regulatory state. [MYC](/wiki/education/concepts/cancer-biology/signaling-pathways/myc) is a transcriptional regulator studied in some BET experiments. Lower MYC RNA does not, by itself, prove that reduced MYC function caused a later growth effect.
 
 A bromodomain inhibitor can compete for an acetyl-recognition pocket. The experimental compound **JQ1** established that this reading interaction could be perturbed. Occupying a pocket differs from removing the entire protein: other domains and interactions may still function. A compound acting on several BET family members also differs from a BRD3-specific perturbation.
 

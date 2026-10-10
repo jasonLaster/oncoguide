@@ -79,7 +79,7 @@ test("local-therapy lessons and the learning lab work in both themes at mobile w
   const page=await context.newPage(),errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
   try{
    await page.goto(String(test.info().project.use.baseURL)+"/education/guides/local-therapy-and-the-immune-system/index/");
-   await expect(page.getByTestId("education-article").locator("table").first().locator("tbody tr")).toHaveCount(6);
+   await expect(page.getByTestId("education-article").locator("table").first().locator("tbody tr")).toHaveCount(7);
    await page.goto(String(test.info().project.use.baseURL)+"/education/local-treatment-modalities/01-mechanism/");
    const cartoon=page.locator('article img[data-theater-image]:visible').first();
    await expect(cartoon).toHaveAttribute("src",new RegExp("local-injury-gates-"+theme+"\\.png"));

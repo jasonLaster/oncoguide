@@ -4,7 +4,7 @@ type: "guide-lesson"
 guide: "pathway-mechanisms"
 step: 5
 minutes: 12
-objectives: ["Separate respiratory RNA, oxygen consumption, and ATP-linked respiration.", "Distinguish mitochondrial energy production, general ROS, and ferroptosis.", "Use normalization and functional controls to test a metabolic dependence."]
+objectives: ["Separate respiratory RNA, oxygen consumption, and ATP-linked respiration.", "Distinguish mitochondrial energy production, general ROS, and ferroptosis.", "Use normalization and functional controls to test a metabolic dependence.", "Distinguish lactate-producing metabolism, energy sensing and folding-stress responses."]
 prerequisites: ["[[wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species]]"]
 sensitive: false
 tags: ["education", "pathway-biology"]
@@ -38,6 +38,18 @@ A workshop can use more power while improving its fire protection. Its power bil
 
 Respiratory RNA belongs to an amount layer: captured messages. [Bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) also averages multiple cell populations. More respiratory transcripts do not establish a higher rate in malignant cells, or a survival requirement.
 
+## Ask three additional questions about adaptation
+
+A metabolic program is easier to read when you name the process it describes:
+
+| Question | Concept to use | What the observation cannot establish |
+|---|---|---|
+| Does glucose become lactate while oxygen is available? | [Warburg effect](/wiki/education/concepts/cancer-biology/metabolism-and-stress/warburg-effect) | Absent mitochondrial respiration or a survival dependence |
+| Is the cell adjusting work to its energy state? | [AMP-activated protein kinase (AMPK)](/wiki/education/concepts/cancer-biology/metabolism-and-stress/nutrient-sensing-ampk) | A universal growth or death outcome |
+| Is protein-folding demand stressing local capacity? | [Endoplasmic reticulum stress and the unfolded protein response (UPR)](/wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response) | Failed adaptation or lethal stress |
+
+The [hypoxia concept](/wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia) adds the oxygen-supply question. Lactate release does not establish low oxygen: it can occur with oxygen available. Likewise, a hypoxia-associated RNA signature is a response-pattern measurement, not an exact oxygen reading.
+
 ## Worked example: normalize before comparing
 
 All numbers below are fictional. They illustrate reasoning, rather than assay cutoffs or expected tumor behavior. Assume independently confirmed viable-cell numbers and suitable technical controls.
@@ -62,6 +74,14 @@ A fictional compound lowers Culture A's ATP-based luminescence signal. Direct vi
 Longer follow-up could show recovery, slower growth or death. Independent target measurements and genetic controls help determine which process caused the change. A respiratory compound can also have effects outside the proposed pathway.
 
 Now suppose a peroxide-sensitive reporter increases. Validate its chemical response and compartment first. A general oxidation-sensitive dye cannot identify every ROS species or establish mitochondrial origin. The [ROS concept](/wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species) explains why reporter chemistry matters.
+
+## Worked example: several stress responses can coexist
+
+Now suppose the same fictional culture releases more lactate under documented oxygen conditions and continues consuming oxygen. An AMPK substrate becomes more phosphorylated, and the fraction of spliced XBP1 RNA increases. **XBP1**, X-box binding protein 1, is one branch readout of the UPR. Direct viable-cell counts stay stable.
+
+There is no contradiction. Lactate production and respiration can coexist. The phosphorylation and splice-form measurements support particular response observations if their controls hold. They do not establish the upstream trigger, whole-pathway activity or a death mechanism. AMPK and the UPR can support adaptation in some settings.
+
+To connect the chain, measure energy state and folding-related outputs, then perturb the proposed branch independently. Track growth and death over time. The useful sentence is “these responses coexist under these conditions,” until experiments establish which response causes which consequence.
 
 ## Test the proposed consequence
 
@@ -102,7 +122,7 @@ One answer: “captured messages; a rate under specified conditions; an attribut
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. All cultures and numbers are fictional. Research rates, ranks and rescue results do not supply treatment recommendations.
+Source check: October 9, 2026; expert and learner review pending. All cultures and numbers are fictional. Research rates, ranks and rescue results do not supply treatment recommendations. The linked Warburg, AMPK, UPR and hypoxia concepts provide their primary mechanism sources; the references below support this lesson's respiratory calculation and damage-readout examples.
 
 - [Racker and Stoeckenius, 1974: proton-driven ATP formation in a reconstituted system](https://pubmed.ncbi.nlm.nih.gov/4272126/).
 - [Mookerjee et al., 2015: respiratory and glycolytic contributions to acid production](https://pubmed.ncbi.nlm.nih.gov/25449966/).

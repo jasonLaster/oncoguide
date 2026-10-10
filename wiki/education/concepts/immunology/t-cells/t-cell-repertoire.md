@@ -4,7 +4,7 @@ type: "concept"
 domain: "immunology/t-cells"
 summary: "The T-cell repertoire is the collection of different T-cell receptors in a population and their abundances at a particular time."
 glossary_anchor: "t-cell-repertoire"
-aliases: ["T-cell repertoire", "repertoire", "thymic output", "clonotype"]
+aliases: ["T-cell repertoire", "repertoire", "clonotype"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]"]
@@ -33,7 +33,7 @@ Developing cells rearrange receptor gene segments to generate diversity. They th
 
 When cells respond to antigen, selected clones can multiply. Their frequency changes in the measured repertoire. A vaccine generally expands cells with pre-existing [T-cell receptors (TCRs)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor); it does not rewrite the receptor genes of each mature responding cell. The expanded cells’ target and function still need testing.
 
-The thymus becomes less productive with age, but it does not close at a fixed adult birthday. New-cell output can continue in adults. Existing naive cells also survive and divide outside the thymus, helping maintain the pool. [Adult kinetic studies](https://pubmed.ncbi.nlm.nih.gov/22365666/) show that peripheral division contributes strongly to human maintenance; mouse findings cannot simply be applied to humans.
+[Thymic output](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging) declines with age, but the thymus does not close at a fixed adult birthday. New-cell output can continue in adults. Existing naive cells also survive and divide outside the thymus, helping maintain the pool. [Adult kinetic studies](https://pubmed.ncbi.nlm.nih.gov/22365666/) show that peripheral division contributes strongly to human maintenance; mouse findings cannot simply be applied to humans.
 
 Infection, treatment, aging and cell movement can change a sample. Blood, tumor and lymph nodes contain overlapping but different populations. A receptor absent from one tube may exist elsewhere or fall below detection. A pre-treatment blood sample is therefore a useful comparison, not a complete backup of the immune system.
 

@@ -35,11 +35,13 @@ Imagine counting everyone in a workshop. The count does not tell you who has the
 
 A **naive** T cell has not undergone its initial antigen-driven activation. An **effector** cell has acquired response functions. **Memory** describes persistence and potential for a renewed response. These are starting categories rather than promises about one cell’s future.
 
-Two other labels need care. **Anergy** describes antigen-related hyporesponsiveness, often involving inadequate supporting signals. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. They are different mechanisms. An exhausted population can include cells with different capacities to divide and respond.
+Two other labels need care. [**Anergy**](/wiki/education/concepts/immunology/t-cells/anergy) describes reduced antigen-driven responsiveness in a defined context. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. They are different mechanisms. An exhausted population can include cells with different capacities to divide and respond.
+
+Quiet cells need an explanation before an intervention. In a fictional test, a viable population responds poorly to one peptide. The matching receptor may be absent; the stimulus may be unsuitable; or a responsive population may be restrained. A weak test result alone cannot choose among these explanations. An anergy experiment needs a defined response history and a controlled later response test.
 
 ## Regulation is another job, not an exhausted state
 
-**Regulatory T cells**, often shortened to **Tregs**, help protect tolerance and limit excessive responses. Some can also restrain useful immunity near a tumor. They are not simply worn-out effector cells. Their regulatory role and an effector cell's exhaustion program describe different things.
+**Regulatory T cells**, often shortened to **Tregs**, help protect tolerance and limit excessive responses. Some can also restrain useful immunity near a tumor. They are not simply worn-out effector cells. Their regulatory role and an effector cell's exhaustion program describe different things. [Peripheral tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) includes several ways to restrain mature cells, including reduced responsiveness, deletion and regulatory suppression. Those mechanisms protect normal tissue as well as creating constraints near tumors.
 
 A stain for forkhead box P3, or FOXP3, is a clue to a regulatory program. In human cells, FOXP3 expression alone does not establish suppressive function. The [regulatory-cell concept](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) explains the marker panel and functional distinction. A report should preserve cell identity, region and measured function before concluding which population is limiting a response.
 
@@ -64,6 +66,12 @@ These samples all contain encouraging clues for follow-up. They support differen
 Now imagine two PD-1-positive populations. In controlled tests, one recognizes a viral fragment and the other recognizes a tumor fragment. Blocking an inhibitory pathway does not replace either population's receptor. The first is not thereby assigned a cancer target. The second remains a candidate tumor-directed response: recognition in a test still needs to connect to natural display, access and useful function.
 
 The intervention changes regulation, while the marker is an observation. Keeping those jobs separate helps you explain why a plausible drug mechanism is not a prediction for every marked cell.
+
+## New arrivals are not the whole repertoire
+
+[Thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging) explain where newly developed T cells come from. Output generally declines with age and can continue in adults; there is no fixed adult birthday when it stops. Existing naive cells also survive and divide outside the thymus. Neither a naive phenotype nor chronological age measures which cancer targets a person can recognize.
+
+A vaccine usually recruits suitable existing mature receptors rather than rewriting them. A blood sample records part of the repertoire at that time. It is not a complete stored copy of every receptor throughout the body.
 
 ## Combine measurements deliberately
 

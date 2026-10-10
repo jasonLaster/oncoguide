@@ -3,7 +3,7 @@ title: "Understand local therapy and the immune system"
 type: guide
 goal: "Explain what local treatment can control, how immune learning might follow and what evidence supports an added clinical benefit."
 audience: "Curious reader or family member; introductory immune and evidence concepts are linked"
-minutes: 80
+minutes: 94
 sensitive: false
 tags: [education, guide, local-treatment]
 updated: 2026-10-09
@@ -39,6 +39,7 @@ flowchart TD
   C --> D[4. Inspect the proposal]
   D --> E[5. Match measurements to claims]
   E --> F[6. Compare delivery and recognition]
+  F --> G[7. Read an injected-treatment study]
 ```
 
 *Each lesson adds a question to carry into the next one. Open a lesson from the linked table below.*
@@ -53,12 +54,15 @@ flowchart TD
 | 4 | [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions) | Which assumptions need evidence or planning? | 12 | A diameter shortcut and an uptake claim |
 | 5 | [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget) | What did this sample or scan actually measure? | 14 | A worked percentage-and-denominator example |
 | 6 | [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons) | How do different tools direct exposure and produce effects? | 14 | Three fictional “targeted” proposals and a capstone |
+| 7 | [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study) | What did the injection add to the background treatment? | 14 | A fictional twelve-participant route and outcome exercise |
 
-The full path is about 80 minutes, including practice. If you are reading one proposal today, lesson 4 can help organize your questions; use its prerequisite links to fill in the earlier steps.
+The full path is about 94 minutes, including practice. The first six lessons take about 80 minutes; the injection-study extension adds 14. If you are reading one proposal today, lesson 4 can help organize your questions; use its prerequisite links to fill in the earlier steps.
 
 ## Concepts you will use
 
 The [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle), [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) and [cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) explain the immune gates. [Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death), [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination) and the [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect) name distinct parts of the local-to-distant hypothesis.
+
+[Intratumoral immunotherapy](/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy) explains the route; [oncolytic viruses](/wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus) explain one payload category.
 
 For the physical tools, use [ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation), [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics), [stereotactic body radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/sbrt) and [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation). [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) and [randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) help you judge outcome claims.
 

@@ -33,9 +33,21 @@ Chemotherapy is a family of treatments, rather than one mechanism. Here, the wor
 
 [DNA, RNA (ribonucleic acid), and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) provide a starting map. A cell preparing to divide must copy its DNA and organize the machinery that separates its contents. Drugs can interfere with these tasks in different ways.
 
-For example, doxorubicin can promote DNA damage through topoisomerase II, an enzyme that helps manage DNA's twisting and cutting. This is one established mechanism; it is not a complete account of everything the drug does. Paclitaxel stabilizes microtubules, protein structures that normally assemble and disassemble. Disrupting that movement affects cell division and other cellular functions. These examples show why “chemotherapy damages DNA” is too narrow a definition.
+The class map gives each mechanism its own explanation:
 
-Rapidly renewing healthy tissues can also be affected. Treatment schedules balance drug exposure with tolerability and recovery. The dose delivered is not identical to the concentration that reaches each cell; distribution and clearance affect exposure. A rest interval does not mean all biological effects have ended.
+| Family | One cellular job it disrupts | Mechanism example |
+|---|---|---|
+| [Taxanes](/wiki/education/concepts/therapeutics/chemotherapy/taxanes) | Microtubule reorganization for division and other functions | Paclitaxel |
+| [Platinum agents](/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents) | DNA use and copying through platinum attachments and cross-links | Carboplatin |
+| [Anthracyclines](/wiki/education/concepts/therapeutics/chemotherapy/anthracyclines) | DNA handling, including topoisomerase II cut-and-reseal processes | Doxorubicin |
+| [Classic alkylating agents](/wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents) | Cellular functions through reactive chemical attachments, including DNA lesions | Cyclophosphamide's active metabolites |
+| [Fluoropyrimidines](/wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines) | Nucleotide metabolism and RNA biology | Fluorouracil; capecitabine supplies a prodrug route |
+
+These mechanisms can overlap in their consequences without sharing identical chemistry. They also show why “chemotherapy damages DNA” is too narrow a definition.
+
+Rapidly renewing healthy tissues can also be affected. The [therapeutic index](/wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index) concerns the separation between useful effects and harm. [Dose and dose intensity](/wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity) describe administered amounts and delivery over time. [Dose-dense scheduling](/wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling) shortens intervals relative to a comparison regimen; it does not necessarily increase each dose.
+
+The dose delivered is not identical to the concentration that reaches each cell. [Pharmacokinetics](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) explains how distribution and clearance affect exposure. A rest interval does not mean all biological effects have ended.
 
 A tumor's response depends on more than its growth speed. Cells can differ in drug uptake, damage repair, survival pathways, and ability to withstand the insult. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) means sensitive and less sensitive populations can coexist.
 
