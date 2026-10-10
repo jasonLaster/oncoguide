@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "sourceCommit": "f0bf46fbc05a41438d16dbf881e3e3174d796a0d",
+  "sourceCommit": "e8f93862880411512fd644c591b16876459215f3",
   "sourcePrefix": "obsidian/",
   "rendererCommit": "055625254e37f260d479349a2c91cf7929814ca7",
   "files": {
@@ -230,7 +230,7 @@
     "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md": "85ed5c448c2295d4ab0a455d0e325cd341c097a130fc7414de4c5e1408e2f9f1",
     "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md": "3f71195237b425a4c92c3c29a174eb405ace7c718a47ceb3b7b8dc7a37b5148b",
     "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md": "445f1558884167b39ebce44e724982cde316442eeb6d1ef3ca1b809d6a7b044b",
-    "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md": "917772d93ba164f0b1a0c6d19d47b747ad8e755970f14f55816bc9188bd9f129",
+    "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md": "3f8c2a1cbb4012f911c3136caf8d75356b94baf54bf570fd6626c6a986c929ab",
     "wiki/education/concepts/immunology/antigen-presentation/b2m.md": "c5d193b9402f0004f368d64ecd2399aeb7cf598525f73b82d127149b81a0f362",
     "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md": "a7ae3f599ae50e87c2c73beba9aa4708fbd54dcf6e0a7ec6732880f9c9a50c94",
     "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md": "107809f1374131c2d5c3202dc3221363bdb14cc601c6d29c42c523309a1c00d0",

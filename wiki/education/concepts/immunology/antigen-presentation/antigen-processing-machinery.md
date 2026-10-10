@@ -47,7 +47,7 @@ flowchart TD
   B --> C["TAP1 and TAP2<br/>transport into ER"]
   C --> D["Trimming and loading<br/>with HLA-I heavy chain<br/>and B2M"]
   D --> E["Surface<br/>peptide-HLA display"]
-  E --> F["Separate gate:<br/>compatible CD8 T-cell<br/>recognition"]
+  E --> F["Separate CD8 T-cell<br/>recognition gate"]
 ```
 
 Class-II HLA commonly loads peptides in vesicles that process acquired proteins. An **invariant chain** protects the new groove and directs it there. After it is cut, a remaining fragment is exchanged for other peptides with help from **HLA-DM**, a loading helper. Conventional **CD4 T cells** inspect these displays and can provide immune help. [Class-II teaching](https://www.ncbi.nlm.nih.gov/books/NBK26926/) explains why this differs from the TAP/ERAP/B2M chain.
