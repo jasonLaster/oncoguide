@@ -7,11 +7,11 @@ glossary_anchor: "nk-cell-and-missing-self"
 aliases: ["NK", "NK cell", "missing-self"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -47,10 +47,28 @@ A fictional tumor loses one HLA allele. A TCR restricted to that allele may lose
 
 ## Common confusions
 
-- NK cells and natural killer T cells are different cell families.
+- NK cells and [natural killer T cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells) are different cell families.
 - Loss of one HLA allele is not loss of all class I expression.
 - “Innate” does not mean unregulated or always active.
 - Missing self is a recognition principle, not a treatment-selection test.
+
+## Read the functional test
+
+A controlled [cytotoxicity assay](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) tests an actual effector–target pair. Keep NK preparation, target HLA and activating ligands, effector-to-target ratio, incubation time and target-only death attached. A fraction of dead targets is different from a fraction of NK cells releasing granule contents. Neither laboratory endpoint establishes tumor entry or benefit in a patient.
+
+## Try it
+
+Fictional targets with reduced HLA are killed more than matched targets with restored HLA, with other conditions controlled. Does this prove that any HLA-low tumor will respond to an NK therapy?
+
+**Answer:** No. It supports an HLA-related effect for the tested pair and conditions. Other receptor inputs, cell state, access and product-specific clinical evidence remain relevant.
+
+## Explain it back
+
+Explain why losing a restraint and supplying a sufficient activation signal are different events.
+
+## Takeaway
+
+**Missing self can change the balance; measure the resulting function.**
 
 ## Related concepts
 
@@ -60,16 +78,18 @@ A fictional tumor loses one HLA allele. A TCR restricted to that allele may lose
 
 ## Sources and scope
 
-Source check: October 9, 2026. General NK recognition, with animal and human experiments distinguished. Expert and learner review remain pending.
+Source check: October 10, 2026. General NK recognition, with animal and human experiments distinguished. Expert and learner review remain pending.
 
 - [Kärre et al., 1986: rejection of display-deficient mouse lymphoma variants](https://pubmed.ncbi.nlm.nih.gov/3951539/).
 - [Juelke et al., 2009: education of hyporesponsive human NK cells by cytokines](https://pubmed.ncbi.nlm.nih.gov/19701893/).
-- [NCBI Bookshelf: natural killer cell function](https://www.ncbi.nlm.nih.gov/books/NBK565844/).
+- [NCBI Bookshelf: natural killer cell function](https://www.ncbi.nlm.nih.gov/books/NBK565844/), general recognition and effector context.
+- [Rabinovich et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31525367/), a defined flow-based target-death assay, including NK-cell experiments.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
+- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/3-t-cell-states]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ A team needs ways to stop a response from damaging the workplace. Regulatory T c
 
 ## How it works
 
-The best-characterized regulatory T cells, or **Tregs**, belong to the CD4 T-cell population. CD4 is a coreceptor associated with this broad group. Tregs can develop in the thymus or arise from other T cells in peripheral tissues under suitable conditions. They help prevent responses against the body's own tissues and limit excessive inflammation.
+The best-characterized regulatory T cells, or **Tregs**, belong to the [CD4 T-cell population](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8), a broad co-receptor group with several functions. Tregs can develop in the thymus or arise from other T cells in peripheral tissues under suitable conditions. They help prevent responses against the body's own tissues and limit excessive inflammation.
 
 **Forkhead box P3 (FOXP3)** is a transcription factor: a protein that helps control gene expression. It is important for the regulatory-cell program. Classic mouse experiments connected Foxp3 to regulatory development and suppression. A gene program is more informative than a single label, especially when translating between species.
 
@@ -37,7 +37,7 @@ One regulatory mechanism involves **cytotoxic T-lymphocyte-associated protein 4 
 
 Other mechanisms depend on the setting. Tregs can influence the local cytokine environment and access to growth signals such as interleukin 2, a signaling protein. These mechanisms can cooperate; one marker does not specify which mechanism is active. Counting cells and measuring suppression therefore answer different questions.
 
-Importantly, activated human T cells can express FOXP3 without acquiring a suppressive regulatory function. Tran and colleagues demonstrated this under defined culture conditions. Saito and colleagues also distinguished functionally different FOXP3-positive populations in colorectal cancer. A FOXP3 stain needs additional cell-identity, expression and functional context.
+Activated human T cells can express FOXP3 without acquiring a suppressive regulatory function. Tran and colleagues demonstrated this under defined culture conditions. Saito and colleagues also distinguished functionally different FOXP3-positive populations in colorectal cancer. A FOXP3 stain needs additional cell-identity, expression and functional context.
 
 ```mermaid
 flowchart TD
@@ -61,7 +61,7 @@ Removing all restraint would carry its own risk. Mouse tolerance experiments sho
 - Tregs are not simply exhausted cancer-killing cells waiting to be revived.
 - FOXP3 positivity alone does not prove suppression in a human sample.
 - CD25, a component of the interleukin-2 receptor, can also appear on activated nonregulatory cells.
-- A Treg-associated signature in mixed RNA does not establish the location or function of every contributing cell.
+- A Treg-associated signature in mixed [ribonucleic acid (RNA)](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) does not establish the location or function of every contributing cell.
 
 ## How it is measured
 
@@ -73,6 +73,14 @@ A fictional biopsy has many FOXP3-positive cells. A report calls every one a sup
 
 **Answer:** Cell identity, the marker panel and functional context. Even confirmed suppression would not by itself establish that a particular intervention is safe or beneficial in that clinical setting.
 
+## Explain it back
+
+Explain why a CD4/FOXP3 label is not equivalent to measured suppression.
+
+## Takeaway
+
+Regulatory identity and suppressive function require context; changing these populations is not automatically beneficial.
+
 ## Related concepts
 
 - [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
@@ -80,7 +88,7 @@ A fictional biopsy has many FOXP3-positive cells. A report calls every one a sup
 
 ## Sources and scope
 
-Source check: October 9, 2026. Regulatory mechanisms and marker limits; the exercise is fictional. Expert and learner review remain pending.
+Source check: October 10, 2026. Regulatory mechanisms and marker limits; the exercise is fictional. Expert and learner review remain pending.
 
 - [Sakaguchi et al., 1995](https://pubmed.ncbi.nlm.nih.gov/7636184/) — regulatory cells and self-tolerance in mouse experiments.
 - [Hori et al., 2003](https://pubmed.ncbi.nlm.nih.gov/12522256/) — Foxp3 and the regulatory program in mice.

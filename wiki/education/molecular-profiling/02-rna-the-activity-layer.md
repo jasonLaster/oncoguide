@@ -61,6 +61,8 @@ Before comparing profiles, check for [batch effects](/wiki/education/concepts/me
 
 A luminal-progenitor-like RNA program can coexist with [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). Its resemblance does not make the tumor hormone-receptor-positive. The [[wiki/education/multi-omics-foundations/02-cell-identity-and-state|identity-and-state lesson]] applies that distinction.
 
+For a sample collected after treatment, continue to [[wiki/education/molecular-profiling/08-profile-residual-tumor|Read single-cell data after treatment]]. That lesson connects cell identity, presentation genes, target coverage and recoverable tumor yield.
+
 ## What can go wrong at this step
 
 - Comparing capture-based and whole-transcript preparations as if all genes are recovered identically.

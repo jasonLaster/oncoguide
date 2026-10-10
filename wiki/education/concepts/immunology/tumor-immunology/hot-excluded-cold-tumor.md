@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -62,6 +62,35 @@ A fictional biopsy has many lymphocytes in surrounding stroma but few inside can
 
 Routine pathology counts or scores cells under specified rules. Multiplex imaging distinguishes cell identities and locations. Gene-expression profiles describe mixed activity programs but usually lose direct location. The [immune-readout lesson](/wiki/education/reading-a-tumor/measuring-t-cell-engagement) explains how the layers fit together. Breast-cancer stromal lymphocyte guidelines define a particular scoring method, rather than a universal hot/cold test. [The working-group recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/) give that scope.
 
+## Assay card: report a tissue pattern
+
+| Field | What to keep with the pattern |
+|---|---|
+| Measures | Presence and distribution of specified immune cells in sampled tissue |
+| How | Define regions; identify or stain cells; score or count; report regional variation |
+| Input and tissue cost | A tissue section or biopsy under a stated preparation; sectioning and staining consume finite material |
+| Output and units | A descriptive pattern, counts per area or a method-defined score; these are different outputs |
+| Thresholds | Defined by the method and study, not a universal hot/cold cutoff |
+| Failure modes | Unrepresentative region, damaged section, poor staining, incorrect cell boundaries or wrong regional denominator |
+| What it cannot tell you | Cell targets, causal barriers, killing at all sites or benefit from a particular drug |
+| Validation tier | Depends on the exact method and use; a research pattern classifier is not automatically a clinical treatment-selection test |
+
+[Stromal tumor-infiltrating lymphocyte scoring](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring) uses stromal **area** as its denominator. It does not mean the fraction of all cells that are lymphocytes. [Multiplex imaging](/wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence) adds selected identities and locations, with its own controls.
+
+## Try it
+
+A fictional section shows many T cells at the border but few within cancer-cell nests. Has the image identified collagen as the cause?
+
+**Answer:** No. It supports a distribution consistent with exclusion under the stated definition. Matrix, vessels, signals and sampling are candidate explanations requiring their own evidence.
+
+## Explain it back
+
+“The pattern says where ___; it leaves ___ unresolved.” One answer: “specified cells were seen; their targets, function and the cause of the distribution.”
+
+## Takeaway
+
+**Keep the cell identity, region, specimen and scoring rule beside every immune-pattern label.**
+
 ## Related concepts
 
 - [Cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle)
@@ -70,11 +99,12 @@ Routine pathology counts or scores cells under specified rules. Multiplex imagin
 
 ## Sources and scope
 
-Source check: October 9, 2026. Descriptive tissue patterns; clinical predictions require assay-, population- and treatment-specific evidence. Expert and learner review remain pending.
+Source check: October 10, 2026. Descriptive tissue patterns; clinical predictions require assay-, population- and treatment-specific evidence. Expert and learner review remain pending.
 
 - [Chen and Mellman, 2017: immune profiles in the cancer–immune set-point framework](https://www.nature.com/articles/nature21349).
 - [Salgado et al., 2015: breast-cancer lymphocyte-scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).
 - [Kos et al., 2020: variability and pitfalls in stromal lymphocyte assessment](https://pubmed.ncbi.nlm.nih.gov/32411819/).
+- [Preclinical in-situ tumor-array study, 2023](https://www.nature.com/articles/s41586-023-06132-2). Spatially distinct and changing patterns in mouse models support keeping location and timing attached; model associations do not create a universal clinical cutoff.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

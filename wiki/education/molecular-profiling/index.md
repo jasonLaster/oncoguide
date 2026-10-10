@@ -27,6 +27,8 @@ For the ordered learning path, use [[wiki/education/reading-a-tumor/omics-and-mu
 
 ## Continue by question
 
+- **“What can single-cell data add after treatment?”** → [[wiki/education/molecular-profiling/08-profile-residual-tumor|Read single-cell data after treatment]]: surviving cell states, antigen presentation, target coverage and sample yield.
+
 - **“How do DNA copies affect a variant fraction?”** → [[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones|Copies, alleles and clones]].
 - **“Does a splice change impair repair now?”** → [[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair|Splicing and repair]] → [[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity|Connect repair biology to PARP sensitivity]].
 - **“What does high expression actually prove?”** → [[wiki/education/multi-omics-foundations/03-reading-rna-counts|RNA counts]] → [[wiki/education/molecular-profiling/03-protein-expression-and-activation|Protein]] → [[wiki/education/multi-omics-foundations/07-comparisons-and-evidence|Comparisons and evidence]].

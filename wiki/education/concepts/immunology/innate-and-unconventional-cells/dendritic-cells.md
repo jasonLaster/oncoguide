@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,22 +29,33 @@ Finding information and giving a useful briefing are different tasks. A dendriti
 
 ## How it works
 
-**Antigen** is material recognized by an immune receptor. Dendritic cells, often abbreviated **DCs**, acquire material from their surroundings or make antigen internally. They process proteins and display fragments using [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). A suitable [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a displayed peptide–HLA pair.
+An [antigen](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) is material recognized by an immune receptor. Dendritic cells, often abbreviated **DCs**, acquire material from their surroundings or make antigen internally. They process proteins and display fragments using [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). A suitable [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a displayed peptide–HLA pair.
 
 For class I presentation, internally made proteins can supply peptides. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) routes acquired external material onto class I. Class II presentation is another route, commonly involving acquired proteins and CD4 T cells. These categories describe processing and recognition; they do not establish successful priming by themselves.
 
 DCs are a family with distinct subsets and overlapping functions. **Conventional type 1 dendritic cells (cDC1)** are particularly important in cross-presentation. Hildner and colleagues used Batf3-deficient mice to show how losing a key DC population impaired cross-presentation and antitumor responses in their models. That is a specific dependency, not proof that every DC performs the same job or that a human biopsy count predicts benefit.
 
+### Identity and state are different axes
+
+| Identity | Commonly studied specialization | Boundary |
+|---|---|---|
+| Conventional type 1, cDC1 | Cross-presentation and CD8 responses | Capacity depends on antigen and activation context |
+| Conventional type 2, cDC2 | Class-II presentation and CD4 responses | A diverse group, with overlapping functions |
+| Plasmacytoid, pDC | Type-I interferon responses to suitable sensing cues | A distinct population, not simply an immature cDC |
+
+Human blood studies subdivide familiar marker-defined groups. “One marker positive” is therefore weaker than a well-supported subset assignment.
+
+**Immature** and **mature** describe response-related states. Maturation can change antigen handling, costimulation, cytokines and migration. It does not convert cDC2 into cDC1. More mature-looking markers do not prove tumor-specific priming, and presentation can support tolerance as well as activation. Human CD141-positive DC experiments also show that stimulation conditions change functional outputs.
+
 Some DCs migrate from tissue to [draining lymph nodes](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics). Others already reside in lymphoid tissue and acquire incoming material. Sixt and colleagues demonstrated soluble-antigen access to resident DCs through lymph-node conduits. Both routes can connect tissue information with responding cells.
 
-Presentation comes with a signal context. [Costimulation](/wiki/education/concepts/immunology/t-cells/costimulation), inhibitory interactions and [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) shape what a responding T cell does. **Priming** means initiating an antigen-driven response in a naive T cell. Mature-looking markers, antigen uptake and functional priming are different observations.
+Presentation comes with a signal context. [Costimulation](/wiki/education/concepts/immunology/t-cells/costimulation), inhibitory interactions and [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) shape what a responding T cell does. [Priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) means initiating an antigen-driven response in a naive T cell. Mature-looking markers, antigen uptake and functional priming are different observations.
 
 ```mermaid
 flowchart TD
   A["Acquire or<br/>make antigen"] --> B["Process and<br/>display fragments"]
-  B --> C["Compatible<br/>T-cell encounter"]
-  D["Support and<br/>signal context"] --> C
-  C --> E["Activation or<br/>other response outcome"]
+  B --> C["T-cell encounter<br/>with signal context"]
+  C --> D["Test activation<br/>or other outcome"]
 ```
 
 *Dendritic cells connect antigen information with response context. Every arrow has requirements.*
@@ -64,13 +75,21 @@ A vaccine may reach a DC that then makes the encoded protein. Its class I displa
 
 ## How it is measured
 
-[Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) and tissue staining use combinations of markers to identify populations. Spatial methods add location; RNA methods add programs. Functional tests ask whether identified cells present a defined target and stimulate a suitable responder under controlled conditions. Preserve subset definitions, specimen site and timing when comparing results.
+[Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) and tissue staining use combinations of markers to identify populations. Spatial methods add location; [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) methods add programs. Functional tests ask whether identified cells present a defined target and stimulate a suitable responder under controlled conditions. Preserve subset definitions, specimen site and timing when comparing results.
 
 ## Try it
 
 A fictional DC displays a tumor peptide and activates a matching naive T cell. The cancer cells have lost the relevant HLA allele. Has the experiment established that the activated cells can recognize those cancer cells?
 
 **Answer:** No. The DC supplied a priming opportunity. Natural cancer-cell display is a separate requirement and needs its own test.
+
+## Explain it back
+
+“Subset tells me which family; maturation tells me about its state; a functional assay tells me what it did under those conditions.” Give one result that would test priming rather than merely count cells.
+
+## Takeaway
+
+**Identify the cell, describe its state, then measure the proposed job.**
 
 ## Related concepts
 
@@ -79,12 +98,13 @@ A fictional DC displays a tumor peptide and activates a matching naive T cell. T
 
 ## Sources and scope
 
-Source check: October 9, 2026. Presentation, trafficking and cooperation; the exercise is fictional. Expert and learner review remain pending.
+Source check: October 10, 2026. Presentation, trafficking and cooperation; the exercise is fictional. Expert and learner review remain pending.
 
 - [Hildner et al., 2008](https://pubmed.ncbi.nlm.nih.gov/19008445/) — DC-subset dependence in mouse cross-presentation and tumor-rejection models.
 - [Sixt et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15664156/) — soluble material reaching resident DCs in mouse lymph nodes.
 - [Böttcher et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29429633/) — natural killer-cell/DC cooperation in tumor models and human associations.
-- [NCBI Bookshelf: T cells and antigen-presenting cells](https://www.ncbi.nlm.nih.gov/books/NBK26926/) — the broader presentation and priming framework.
+- [Jongbloed et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20479116/) — human CD141-positive DC function under specified stimulation conditions.
+- [Villani et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28428369/) — human blood DC diversity and the limits of broad marker-defined groups.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

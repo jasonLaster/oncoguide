@@ -11,10 +11,10 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, immunology]
-used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]","[[wiki/education/targeted-therapy-modalities/index]]"]
-updated: 2026-10-08
-source_checked: 2026-10-08
-review_status: "Expert and learner review pending"
+used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]","[[wiki/education/targeted-therapy-modalities/index]]"]
+updated: 2026-10-10
+source_checked: 2026-10-10
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # HLA (human leukocyte antigen)
@@ -25,15 +25,25 @@ HLA molecules display protein fragments for T-cell recognition.
 
 ## The intuition
 
-A display case is a useful analogy: the cell exposes a small sample of its proteins. The case and the fragment both matter. A T-cell receptor recognizes a peptide together with a particular HLA molecule, rather than simply recognizing any version of the original protein.
+A display case is a useful analogy: the cell exposes a small sample of its proteins. The case and the fragment both matter. A [T-cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a peptide together with a particular HLA molecule, rather than simply recognizing any version of the original protein.
 
 ## How it works
 
-HLA is the human major histocompatibility complex (MHC). Class I molecules generally display peptides to CD8 T cells; class II molecules generally display peptides to CD4 T cells. The pathways and cell types differ, with important exceptions such as cross-presentation.
+**Human leukocyte antigen (HLA)** is the human **major histocompatibility complex (MHC)** system. Its peptide-display molecules have two main classes. [CD4 and CD8](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) name coreceptors and usual recognition partners, rather than two guarantees about what a cell will do.
 
-HLA alleles are shared across people. A person inherits a combination; it is not necessarily unique. HLA typing identifies that combination. Binding predictors estimate whether a candidate peptide can fit a specified allele’s groove. Processing, transport, loading and cell-surface expression still determine whether it is actually displayed.
+| Feature | Classical class I | Class II |
+|---|---|---|
+| Common examples | HLA-A, HLA-B, HLA-C | HLA-DR, HLA-DP, HLA-DQ |
+| Structure | A heavy chain, [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) and a bound peptide | Alpha and beta chains with a bound peptide |
+| Common location | Most nucleated cells | Mainly professional antigen-presenting cells; expression can be induced elsewhere |
+| Usual peptide supply | Proteins made inside the presenting cell | Proteins processed in intracellular vesicles, often acquired from outside |
+| Conventional T-cell partner | CD8 | CD4 |
 
-Most conventional class I complexes require [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m). Tumors can lose a presenting allele, alter processing or reduce expression. Allele-specific loss is different from complete loss of conventional class I display. Targets using retained alleles may remain possible.
+These are common routes, not exclusive lists. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) puts externally acquired antigen onto class I. It changes the antigen's origin; it does not turn that complex into class II. Likewise, a CD4 response is not proof of matching class-I tumor display.
+
+HLA alleles are shared across people. A person inherits a combination; it is not necessarily unique. [HLA typing](/wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature) identifies that combination. [Binding predictors](/wiki/education/concepts/measurement/computational-analysis/binding-prediction) estimate whether a candidate peptide can fit a specified allele’s groove. Processing, transport, loading and cell-surface expression still determine whether it is actually displayed.
+
+Most conventional class I complexes require B2M. Tumors can lose a presenting allele, alter processing or reduce expression. Allele-specific loss is different from complete loss of conventional class I display. Targets using retained alleles may remain possible.
 
 HLA-C has lower surface expression than HLA-A/B in many contexts. Its smaller observed peptide share is not evidence that it is universally more permissive. Dataset representation and allele-specific prediction quality also matter. A measured peptide in a mixed tissue preparation does not establish its source cell or a safe tumor-specific T-cell response.
 
@@ -49,18 +59,40 @@ A mutation produces a plausible peptide for HLA-A*02:01. If the tumor loses the 
 
 - The HLA groove holds the peptide; the [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) contacts the peptide–HLA complex.
 - Binding prediction is not measured presentation or T-cell recognition.
-- A surface-antigen engager can bypass HLA; a TCR-based engager cannot.
+- A conventional surface-target engager can avoid peptide–HLA recognition; a peptide–HLA-directed engager retains that dependency.
+
+## What each measurement adds
+
+Typing describes inherited sequence. Tissue staining or [flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) can measure selected HLA proteins under a defined protocol. [Immunopeptidomics](/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics) identifies recovered peptides. None alone demonstrates that every cancer cell displays one exact peptide–HLA pair. Mixed tissue, allele specificity, location and timing matter.
+
+## Try it
+
+A fictional sample has class-II staining and a peptide-responsive CD4 population. Is a proposed class-I/CD8 tumor target now demonstrated?
+
+**Answer:** No. The observations concern another presentation class and response. Test the proposed peptide, exact class-I allele and relevant tumor cells.
+
+## Explain it back
+
+“Typing identifies ___; display measures ___; recognition tests ___.”
+
+## Takeaway
+
+**Keep class, allele, cell and peptide attached to an HLA claim.**
 
 ## Related concepts
 
-[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing|TCR sequencing]] and [[wiki/questions/hla-b2m-loss|case assessment]].
+- [HLA loss of heterozygosity](/wiki/education/concepts/measurement/sequencing-basics/hla-loh)
+- [Beta-2 microglobulin](/wiki/education/concepts/immunology/antigen-presentation/b2m)
+- [TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
 
 ## Sources and scope
 
-General teaching, source-checked October 8, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+General teaching, source-checked October 10, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
 
-- [Primary HLAthena immunopeptidomics study](https://doi.org/10.1038/s41587-019-0322-9).
-- [[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation|Detailed antigen-presentation lesson and sources]].
+- [NCBI Bookshelf: T cells and MHC proteins](https://www.ncbi.nlm.nih.gov/books/NBK26926/), for the common class-I/class-II structures and recognition routes.
+- [Official HLA nomenclature](https://hla.alleles.org/pages/nomenclature/naming_alleles/), for shared named alleles.
+- [Kaur et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28649982/), functional and structural study of allele-dependent HLA-C expression.
+- [Sarkizova et al., HLAthena](https://doi.org/10.1038/s41587-019-0322-9), allele-specific recovered peptide data and prediction, rather than proof of every cell's display.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
@@ -85,6 +117,7 @@ General teaching, source-checked October 8, 2026. The examples are hypothetical 
 - [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
 - [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons)
+- [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
 - [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)

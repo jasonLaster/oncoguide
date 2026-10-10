@@ -8,8 +8,8 @@ objectives: ["Identify which question each immune assay answers.", "Separate bin
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics]]", "[[wiki/education/concepts/measurement/immune-monitoring/flow-cytometry]]", "[[wiki/education/concepts/measurement/immune-monitoring/elispot]]", "[[wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays]]"]
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -64,7 +64,9 @@ A cytotoxicity assay brings the question to specified target cells. Check target
 
 Adding synthetic peptide to cells can provide abundant target without asking the tumor to make or process it. That helps test a response, but can bypass a weak biological step. A positive result after artificial loading needs a separate bridge to natural tumor recognition.
 
-For HLA-associated peptide identification, mixed tissue adds another issue: the peptide may come from cancer, immune or stromal cells. Detection can support presentation in the sampled preparation without proving tumor exclusivity. Recovery and identification are also incomplete, so non-detection needs sensitivity context.
+The [immunopeptidome](/wiki/education/concepts/immunology/antigen-presentation/immunopeptidome) is the biological repertoire in a defined cell/HLA/time context. An immunopeptidomics list is a recovered subset. Record the capture reagent, class-I or class-II scope, sequence database and identification-confidence rules. A computational allele assignment is different from directly isolating that allele.
+
+For HLA-associated peptide identification, mixed tissue adds another issue: the peptide may come from cancer, immune or stromal cells. Whole-cell extraction can also recover intracellular HLA complexes. Detection therefore supports the sampled preparation, without proving cancer-cell surface display or tumor exclusivity. Recovery and identification are incomplete, so non-detection needs sensitivity context.
 
 The [T-cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) is only part of a responding cell. Its state and signaling matter too. A binding reagent can label cells whose functional behavior differs, while a secretion assay may miss cells that use another response program. Naturally presenting cancer-cell tests strengthen the recognition bridge; they still do not establish comprehensive healthy-tissue safety or patient benefit.
 
@@ -104,7 +106,7 @@ A candidate was not detected by immunopeptidomics, but peptide-loaded cells trig
 
 ## Sources and scope
 
-Source check: October 9, 2026. Assay teaching and a fictional example; expert and learner review pending.
+Source check: October 10, 2026. Assay teaching and a fictional example; expert and learner review pending.
 
 - [HLA-peptide isolation and identification protocol](https://www.nature.com/articles/s41596-019-0133-y).
 - [Primary antigen-specific T-cell labeling study](https://pubmed.ncbi.nlm.nih.gov/8810254/).

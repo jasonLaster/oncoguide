@@ -3,8 +3,8 @@ title: "Read a neoantigen design board"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -37,11 +37,11 @@ One event can produce several windows or peptide–HLA pairs. Ten windows from o
 
 ### Ask what sequence actually changed
 
-A [mutation label](/wiki/education/concepts/biology-basics/genetics/mutation-types) is not an encoded peptide. A simple stop-gain changes a codon into a stop signal; it does not insert a new amino acid at that position. If the upstream sequence is unchanged, it does not by itself specify a new mutant peptide sequence. A frameshift can instead change the downstream amino-acid sequence before translation stops. Reconstruct the relevant transcript and translated sequence rather than treating every truncating event as the same target.
+A [mutation label](/wiki/education/concepts/biology-basics/genetics/mutation-types) is not an encoded peptide. A simple stop-gain changes a codon into a stop signal; it does not insert a new amino acid at that position. If the upstream sequence is unchanged, it does not by itself specify a new mutant peptide sequence. A frameshift can instead change the downstream amino-acid sequence before translation stops. Reconstruct the relevant [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) transcript and translated sequence rather than treating every truncating event as the same target.
 
 Imagine two fictional rows: M ends an otherwise unchanged protein early, while N shifts the reading frame and creates a new tail. N supplies a candidate altered sequence; M's stop label alone does not. Neither row establishes that a cancer cell displays a recognized peptide.
 
-Premature stops can also trigger **nonsense-mediated RNA decay**, which reduces some altered transcripts. Its efficiency depends on transcript context. Ask for mutant RNA support and downstream presentation and recognition evidence; a decay prediction is another model output, not a universal exclusion rule.
+Premature stops can also trigger [nonsense-mediated RNA decay](/wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay), which reduces some altered transcripts. Its efficiency depends on transcript context. Ask for mutant RNA support and downstream presentation and recognition evidence; a decay prediction is another model output, not a universal exclusion rule.
 
 ## The evidence ladder
 
@@ -55,11 +55,11 @@ Premature stops can also trigger **nonsense-mediated RNA decay**, which reduces 
 | Controlled tumor-cell recognition or killing | Function against tested targets | Distribution, durability and benefit in patients |
 | Clinical outcome with a suitable comparison | Benefit estimate in that population | Transfer to another product or setting |
 
-Non-detection requires assay coverage and sensitivity context. Artificial peptide loading can bypass natural processing. The board should name exactly what was tested, with method and version.
+A recovered [immunopeptidome](/wiki/education/concepts/immunology/antigen-presentation/immunopeptidome) subset needs cell, HLA class, time and assay context. Non-detection requires coverage and sensitivity context. Artificial peptide loading can bypass natural processing. The board should name exactly what was tested, with method and version.
 
 ### Keep the score's meaning attached
 
-For [binding predictions](/wiki/education/concepts/measurement/computational-analysis/binding-prediction), distinguish affinity estimates from eluted-ligand ranks. Suppose fictional candidate K has a 0.4% ligand rank and L has a predicted affinity of 40 nanomolar. Their numbers cannot establish an order: the columns estimate different things. Request matched outputs, allele names and model versions before comparing them. A percentile rank is not a probability of benefit.
+For [binding predictions](/wiki/education/concepts/measurement/computational-analysis/binding-prediction), distinguish affinity estimates from eluted-ligand ranks. Suppose fictional candidate K has a 0.4% eluted-ligand rank and L has a predicted competitive-binding **half-maximal inhibitory concentration (IC50)** of 40 nanomolar. Their numbers cannot establish an order: rank and predicted assay concentration have different units and tasks. IC50 is not automatically an equilibrium binding constant. Request matched outputs, allele names and model versions before comparing them. A percentile rank is not a probability of benefit.
 
 ## Worked example: a ten-row candidate board
 
@@ -112,7 +112,7 @@ A board adds ten peptide windows, all from one alteration and all restricted to 
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. The ten-row candidate example is fictional. Company-specific ranking remains in its owner bundle.
+Source check: October 10, 2026; expert and learner review pending. The ten-row candidate example is fictional. Company-specific ranking remains in its owner bundle.
 
 - [Primary HLA presentation dataset](https://www.nature.com/articles/s41587-019-0322-9).
 - [Wells et al., primary neoantigen-prediction benchmark](https://pubmed.ncbi.nlm.nih.gov/33038342/) — measured binding/recognition support has task-specific scope.

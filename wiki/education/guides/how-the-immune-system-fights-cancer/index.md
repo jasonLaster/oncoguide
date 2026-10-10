@@ -7,7 +7,7 @@ minutes: 66
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
-source_checked: "2026-10-09"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -58,6 +58,7 @@ flowchart TD
 ## Concepts you will use
 
 - **Foundations:** [innate versus adaptive immunity](/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity), [the immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster), [ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor), [antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure), [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells), [lymph nodes and lymphatics](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics).
+- **T-cell foundations:** [what makes a T cell](/wiki/education/concepts/immunology/t-cells/t-cell) and [CD4 versus CD8](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) separate cell identity, receptor and usual recognition partners.
 - **Recognition and response:** [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla), [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals), [repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire), [states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [costimulation](/wiki/education/concepts/immunology/t-cells/costimulation).
 - **Regulation and location:** [checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint), [cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine), [tissue patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor), [missing self](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self), [regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells), [interferons](/wiki/education/concepts/immunology/the-immune-system/interferons), [cGAS–STING DNA sensing](/wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting) and [tertiary lymphoid structures](/wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures).
 
@@ -69,6 +70,12 @@ Optional foundations:
 
 - **Alarms and restraint:** [damage-associated and pathogen-associated molecular patterns (DAMPs and PAMPs)](/wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps), [inflammation](/wiki/education/concepts/immunology/the-immune-system/inflammation), [anergy](/wiki/education/concepts/immunology/t-cells/anergy), [peripheral tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) and [thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging).
 - **Antibody responses:** [B cells and plasma cells](/wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells), [isotypes and Fc silencing](/wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing) and [antibody-guided effector mechanisms](/wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc).
+
+## Follow a fragment through the route
+
+Start with an [antigen and its epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope). [Processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) helps produce and load fragments. The [immunopeptidome](/wiki/education/concepts/immunology/antigen-presentation/immunopeptidome) is the biological collection of HLA-associated peptides in a defined context; an [immunopeptidomics experiment](/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics) recovers and identifies a limited measured subset.
+
+[Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) lets an antigen-presenting cell display material it took up on HLA class I. Starting a new T-cell response still needs the [priming context](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals). Later, the cancer cell must itself meet the recognition rules of the responding T cell. A successful early step therefore gives you a useful next question; it does not certify the entire route.
 
 ## Place a checkpoint drug on the map
 
@@ -100,7 +107,7 @@ Continue with [personalized vaccine design](/wiki/education/guides/personalized-
 
 ## Sources and scope
 
-Source check: October 9, 2026. A general foundation path; fictional exercises and suggested reading budgets. Expert and learner review remain pending. Lessons and concepts carry their detailed sources.
+Source check: October 10, 2026. A general foundation path; fictional exercises and suggested reading budgets. Expert and learner review remain pending. Lessons and concepts carry their detailed sources.
 
 Tissue-ecosystem concepts and the macrophage exercise added October 10, 2026. The linked concepts separate cell identity, state, location and measured function.
 

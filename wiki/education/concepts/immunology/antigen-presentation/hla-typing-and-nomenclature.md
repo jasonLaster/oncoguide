@@ -12,8 +12,8 @@ reviewed: pending
 reviewed_by: ""
 sensitive: false
 tags: [education, immunology]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -64,6 +64,24 @@ Those results concern different peptide–HLA pairs. Before combining them, ask 
 - A negative display assay does not by itself prove the inherited typing was wrong.
 - A typing result cannot establish clinical benefit from an HLA-restricted therapy.
 
+## Readout and limits
+
+A sequence-based typing assay reports allele names, resolution and possible ambiguity from a specified specimen. It is not an HLA protein-count assay. Ask which loci and sequence regions were tested, whether alternative allele assignments remain, and whether the accepted method matches the proposed research or eligibility question. Sample requirements, turnaround and cost belong to the laboratory protocol; there is no universal blood-volume or price rule.
+
+## Try it
+
+A fictional report says HLA-A*02 at group-level resolution. A study requires A*02:01. Can you silently fill in the missing field?
+
+**Answer:** No. The group contains different protein variants. More resolving evidence is needed before claiming the exact allele, and eligibility still belongs to the study team.
+
+## Explain it back
+
+Explain how a more detailed inherited name can resolve sequence ambiguity while leaving tumor expression open.
+
+## Takeaway
+
+**Read the name and the laboratory resolution together.**
+
 ## Related concepts
 
 - [Antigen and epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope)
@@ -72,7 +90,7 @@ Those results concern different peptide–HLA pairs. Before combining them, ask 
 
 ## Sources and scope
 
-Source-checked October 9, 2026. The report is fictional. This page teaches how to read a name, rather than how to interpret an individual laboratory result or establish trial eligibility. Expert and learner review remain pending.
+Source-checked October 10, 2026. The report is fictional. This page teaches how to read a name, rather than how to interpret an individual laboratory result or establish trial eligibility. Expert and learner review remain pending.
 
 - [Official HLA nomenclature: naming alleles](https://hla.alleles.org/pages/nomenclature/naming_alleles/), for allele fields and expression suffixes.
 - [IPD-IMGT/HLA database](https://www.ebi.ac.uk/ipd/imgt/hla/), the curated sequence and nomenclature resource.

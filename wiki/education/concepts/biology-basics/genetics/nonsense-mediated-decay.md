@@ -7,7 +7,7 @@ glossary_anchor: nonsense-mediated-decay
 aliases: ["NMD", "nonsense-mediated decay", "nonsense-mediated mRNA decay"]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]", "[[wiki/education/concepts/biology-basics/genetics/splicing]]", "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"]
-used_by: []
+used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -103,5 +103,5 @@ Source check: October 9, 2026. General surveillance mechanisms and research inte
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 <!-- END GENERATED USED IN -->

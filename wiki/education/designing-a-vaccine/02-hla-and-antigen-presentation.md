@@ -4,8 +4,8 @@ type: guide-lesson
 goal: "Read an HLA type and distinguish allele matching, peptide display and immune recognition."
 sensitive: false
 tags: [education, immunology]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
 guide: personalized-cancer-vaccine
 step: 3
@@ -48,8 +48,8 @@ People can share these alleles, so the report is not a unique barcode. HLA-C*07:
 
 | System | Main display context | Conventional reader |
 | --- | --- | --- |
-| Class I, including HLA-A, HLA-B and HLA-C | Most nucleated cells; commonly intracellular protein-derived peptides | CD8 T cells |
-| Class II, including HLA-DR, HLA-DP and HLA-DQ | Mainly professional antigen-presenting cells, with inducible expression elsewhere | CD4 T cells |
+| Class I, including HLA-A, HLA-B and HLA-C | Most nucleated cells; commonly intracellular protein-derived peptides | [CD8 T cells](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) |
+| Class II, including HLA-DR, HLA-DP and HLA-DQ | Mainly professional antigen-presenting cells, with inducible expression elsewhere | [CD4 T cells](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) |
 
 Typical class-I peptides are shorter than class-II peptides, although lengths and processing vary. CD4 help can support a response, and some CD4 cells have cytotoxic functions. Detecting a helper response does not by itself demonstrate that a tumor displays the same target through class I.
 
@@ -57,15 +57,15 @@ Typical class-I peptides are shorter than class-II peptides, although lengths an
 
 ```mermaid
 flowchart TD
-  A[Inherited HLA typing] --> B[Is the relevant allele retained and expressed in tumor?]
-  B --> C[Is the candidate peptide processed and displayed?]
-  C --> D[Does a relevant T cell recognize that peptide-HLA pair?]
-  D --> E[Test function, safety and clinical benefit]
+  A["Inherited<br/>HLA type"] --> B["Tumor allele<br/>retention and expression"]
+  B --> C["Natural peptide<br/>processing and display"]
+  C --> D["Matched<br/>T-cell recognition"]
+  D --> E["Separate function,<br/>safety and benefit tests"]
 ```
 
-Typing answers the first question. Tumor measurements address the next questions. Changes in [antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) can interrupt the chain after an accurate typing result.
+Typing answers the first question. Tumor measurements address the next questions. Changes in [antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) can interrupt the chain after an accurate typing result. Proteasome cutting, transporter associated with antigen processing (TAP) transport and endoplasmic reticulum aminopeptidase (ERAP) trimming shape the candidate fragment; trimming can generate or destroy a particular sequence. The concept explains those steps. Merely encoding more source windows does not bypass a shared processing defect.
 
-[Beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) supports classical class-I structure. Its loss can affect several class-I targets together without removing class-II presentation by that same mechanism. RNA expression alone does not establish assembled surface peptide–HLA.
+[Beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) supports classical class-I structure. Its loss can affect several class-I targets together without removing class-II presentation by that same mechanism. [Ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) expression alone does not establish assembled surface peptide–HLA.
 
 [Binding prediction](/wiki/education/concepts/measurement/computational-analysis/binding-prediction) is a computational filter. Predicted affinity, eluted-ligand scores and percentile ranks describe different outputs. Keep the allele, model version and output label attached. A 0.5% rank is not a 99.5% chance of clinical benefit. Training coverage also varies by allele; weak coverage calls for additional scrutiny rather than a blanket claim that an allele cannot present useful targets.
 
@@ -77,9 +77,9 @@ These observations do not yet connect into one demonstrated target. The receptor
 
 ## Where clinical observations fit
 
-The TNBC-MERIT study described B2M-associated presentation escape in a relapse specimen. That observation illustrates a possible failure mode in a particular small study; it does not supply an individual's recurrence probability or prescribe a rescue treatment.
+The TNBC-MERIT study described downregulated antigen-presentation genes, including B2M, and almost complete class-I protein loss in one relapse specimen. The authors interpreted B2M downregulation as the probable driver; this was not a demonstration of a new B2M [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) mutation. That observation illustrates a possible failure mode in a particular small study; it does not supply an individual's recurrence probability or prescribe a rescue treatment.
 
-Surface-target [chimeric antigen receptors (CARs)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) can avoid that particular peptide–HLA recognition requirement. Natural killer (NK) cells can respond to altered inhibitory and activating signals. Neither route becomes automatically effective because HLA presentation is lost: target availability, cell access, activating signals, safety and clinical evidence still matter.
+Surface-target [chimeric antigen receptors (CARs)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) can avoid that particular peptide–HLA recognition requirement. [Natural killer (NK) cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self) can respond to altered inhibitory and activating signals. Neither route becomes automatically effective because HLA presentation is lost: target availability, cell access, activating signals, safety and clinical evidence still matter.
 
 ## Try it
 
@@ -99,7 +99,7 @@ Tell a friend why inherited typing, tumor retention, peptide display and T-cell 
 
 ## Sources
 
-Source-checked October 9, 2026. The typing report, peptide and receptor comparison are fictional. Expert and learner review remain pending.
+Source-checked October 10, 2026. The typing report, peptide and receptor comparison are fictional. Expert and learner review remain pending.
 
 - [Official HLA nomenclature](https://hla.alleles.org/pages/nomenclature/naming_alleles/), for allele fields and expression suffixes.
 - [Official NetMHCpan-4.1 documentation](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/), for prediction tasks and percentile ranks.

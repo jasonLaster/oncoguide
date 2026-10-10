@@ -9,7 +9,7 @@ prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/immune-es
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
-source_checked: "2026-10-09"
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -39,7 +39,7 @@ The comparison is about requirements, not a ranking of therapies. Each finished 
 
 ## Place immune treatments at their actual step
 
-An immune checkpoint inhibitor blocks a specific inhibitory interaction. Blocking [programmed cell death protein 1 (PD-1) or programmed death-ligand 1 (PD-L1)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes that pathway. Blocking [cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes access to [costimulatory signals](/wiki/education/concepts/immunology/t-cells/costimulation). CTLA-4 is often emphasized during priming and PD-1 during tissue responses, but their effects are not confined to those places or stages. The canonical concept holds the detailed comparison.
+An immune checkpoint inhibitor blocks a specific inhibitory interaction. Blocking [programmed cell death protein 1 (PD-1) or programmed death-ligand 1 (PD-L1)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes that pathway. Blocking [cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) changes access to [costimulatory signals](/wiki/education/concepts/immunology/t-cells/costimulation). CTLA-4 is often emphasized during priming and PD-1 during tissue responses, but their effects are not confined to those places or stages. The [checkpoint sites-of-action comparison](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint#checkpoint-sites-of-action) explains these nonexclusive emphases. It also distinguishes lymphocyte activation gene 3 (LAG-3), T-cell immunoglobulin and mucin domain-containing protein 3 (TIM-3), and T-cell immunoreceptor with immunoglobulin and inhibitory motif domains (TIGIT). Measuring one receptor does not establish that its pathway causes the functional limitation.
 
 Neither intervention installs a new target receptor or rebuilds a lost HLA holder. That matters when reading a proposed combination:
 
@@ -47,7 +47,7 @@ Neither intervention installs a new target receptor or rebuilds a lost HLA holde
 |---|---|---|
 | Checkpoint blockade | A particular inhibitory interaction | Suitable recognition and cells able to respond |
 | [Treatment vaccine](/wiki/education/guides/personalized-cancer-vaccine/index) | Target-directed priming and response | Natural tumor display and useful function |
-| [Cytokine therapy](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) | Signals affecting cell growth or function | Target specificity and a safe response |
+| [Cytokine therapy](/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy) | Signals affecting cell growth or function | Target specificity and a safe response |
 | [Engineered cells](/wiki/education/guides/engineered-cell-therapy/index) | The responders and their recognition route | Target availability, access and safe activity |
 
 The table describes intended jobs, not guaranteed outcomes. A checkpoint combination also changes safety questions: [immune-related adverse events (irAEs)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event) can involve healthy organs and can start after treatment ends. A plausible immune benefit does not establish a tolerable regimen.
@@ -60,7 +60,9 @@ More copies of the same TCR do not restore the missing holder. Adding more targe
 
 Now change the scenario. Instead of a gene deletion, the sample shows reduced display under one condition. Expression can change without permanent deletion. Reversibility becomes a testable question. The report should distinguish a sequence change from a protein-expression observation.
 
-[Interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) are signals that can change presentation programs. Low baseline expression and inability to respond to a signal are different findings. A controlled stimulation test can investigate inducibility; it does not automatically repair a deleted display dependency or prove tumor killing. The melanoma resistance study cited below illustrates distinct signaling and [beta-2-microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) defects in a small patient series, rather than a universal direction of change after treatment.
+[Interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) are signals that can change presentation programs. Low baseline expression and inability to respond to a signal are different findings. A controlled stimulation test can investigate inducibility; it does not automatically repair a deleted display dependency or prove tumor killing. The [controlled IFNγ example](/wiki/education/concepts/immunology/tumor-immunology/immune-escape#worked-example-test-the-missing-response) separates baseline display from inducibility. A matched control, another stimulus and restoration of the candidate component can strengthen a mechanism claim. They do not establish a clinical rescue.
+
+In the cited selected metastatic-melanoma series, Janus kinase (JAK) defects affected interferon responses, while a [beta-2-microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) defect affected class-I display. Tested JAK-knockout melanoma cells still supported recognition by the chosen antigen-specific TCR. **Signal-response loss is not automatically recognition loss.** Keep that model and the small series attached to the claim; do not use it as a frequency estimate for breast cancer.
 
 ## Several failures can coexist
 
@@ -104,9 +106,9 @@ One possible answer: “that it avoids the measured failure; that the new route 
 
 ## Sources and scope
 
-Source check: October 9, 2026. General immune-escape reasoning; the allele-loss scenario is fictional. Expert and learner review remain pending.
+Source check: October 10, 2026. General immune-escape reasoning; the allele-loss scenario is fictional. Expert and learner review remain pending.
 
-Evolution and tissue-context links added October 10, 2026; their concepts carry the focused mechanism sources.
+The October 10 focused update checked checkpoint contacts and the melanoma functional experiments; linked concepts carry their exact source and model boundaries.
 
 - [Chen and Mellman, 2013: the cancer-immunity cycle](https://pubmed.ncbi.nlm.nih.gov/23890059/).
 - [Zaretsky et al., 2016: acquired resistance in melanoma](https://pubmed.ncbi.nlm.nih.gov/27433843/) — a small mechanistic study in a specific cancer setting, not a universal frequency estimate.

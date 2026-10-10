@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/immune-regulation/immune-c
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -39,14 +39,14 @@ Immune checkpoint inhibitors, often shortened to **ICIs**, include [antibodies](
 
 CTLA-4 shares the partner proteins CD80 and CD86 with the supporting receptor CD28. It can compete for these partners and remove them from another cell's surface. PD-1 regulates signaling within the responding cell, including CD28 signaling. These examples explain why the drugs are not interchangeable. They are not a complete list of checkpoint targets. [Qureshi et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21474713/), [Hui et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28280247/).
 
-CTLA-4 is often emphasized during [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals); PD-1 is often emphasized during ongoing responses in tissues. Those are useful teaching emphases, not exclusive locations or rigid stages.
+CTLA-4 is often emphasized during [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals); PD-1 is often emphasized during ongoing responses in tissues. Those are useful teaching emphases, not exclusive locations or rigid stages. The [checkpoint sites-of-action comparison](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint#checkpoint-sites-of-action) also distinguishes LAG-3, TIM-3 and TIGIT mechanisms. A target that regulates a model response does not thereby establish benefit from blocking it in another population.
 
 ```mermaid
 flowchart TD
-  A[Block a particular inhibitory interaction] --> B[Change the immune response]
-  B --> C[Possible stronger activity against cancer]
-  B --> D[Possible injury to healthy tissue]
-  E[Recognition, access and cell state] --> C
+  A[Block one<br/>inhibitory contact] --> B[Change the<br/>immune response]
+  B --> C[Possible activity<br/>against cancer]
+  B --> D[Possible injury<br/>to healthy tissue]
+  E[Recognition, access<br/>and cell state] --> C
 ```
 
 *Blocking a pathway creates possibilities on both branches; it does not guarantee either outcome.*
@@ -55,7 +55,7 @@ flowchart TD
 
 Blocking an inhibitory interaction does not install a new [T-cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) or rebuild a genetically lost [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) display route. Recognition, tissue access and [T-cell state](/wiki/education/concepts/immunology/t-cells/t-cell-states) remain important.
 
-Other immune treatments change other inputs. [Treatment vaccines](/wiki/education/guides/personalized-cancer-vaccine/index) supply antigen instructions or material to support target-directed responses. [Cell therapies](/wiki/education/guides/engineered-cell-therapy/index) supply or engineer living responders. [Cytokine therapies](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) alter signaling that can affect growth and function. A combination rationale needs evidence for the actual regimen.
+Other immune treatments change other inputs. [Treatment vaccines](/wiki/education/guides/personalized-cancer-vaccine/index) supply antigen instructions or material to support target-directed responses. [Cell therapies](/wiki/education/guides/engineered-cell-therapy/index) supply or engineer living responders. [Cytokine therapies](/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy) alter signaling that can affect growth and function. A combination rationale needs evidence for the actual regimen.
 
 These pathways also protect normal tissues. Their interruption can cause an [immune-related adverse event](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event). Benefit and harm must each be assessed in the relevant population.
 
@@ -63,9 +63,19 @@ These pathways also protect normal tissues. Their interruption can cause an [imm
 
 A fictional sample contains many PD-1-positive T cells. A reader concludes, “An anti-PD-1 drug will wake all of them up.” The marker does not identify every cell's target or its capacity to respond. It gives a biological question to investigate, not a result for that drug.
 
-**Check your understanding:** If a genetic loss prevents required HLA display, does checkpoint blockade rebuild that missing machinery?
+## Try it
+
+ If a genetic loss prevents required HLA display, does checkpoint blockade rebuild that missing machinery?
 
 **Answer:** No. Changing inhibition and restoring target display are different jobs.
+
+## Explain it back
+
+“Blocking a checkpoint changes ___; evidence for patient benefit requires ___.” One answer: “a specified regulatory pathway; a suitable clinical comparison in the relevant setting.”
+
+## Takeaway
+
+**Pathway blockade, tumor-directed function and clinical benefit are separate claims.**
 
 ## Common confusions
 
@@ -82,7 +92,7 @@ A fictional sample contains many PD-1-positive T cells. A reader concludes, “A
 
 ## Sources and scope
 
-Source check: October 9, 2026. General mechanism, with a fictional exercise; no approval inventory or individual treatment prediction. Expert and learner review remain pending.
+Source check: October 10, 2026. General mechanism, with a fictional exercise; no approval inventory or individual treatment prediction. Expert and learner review remain pending.
 
 - [National Cancer Institute (NCI): immune checkpoint inhibitors](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).
 - [NCI: different types of immunotherapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy).

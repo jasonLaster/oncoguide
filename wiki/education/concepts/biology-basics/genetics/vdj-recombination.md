@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]"]
 sensitive: false
 tags: ["education", "biology-basics", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -74,6 +74,14 @@ No. The receptor sequences could come from the lymphocytes. First establish whic
 
 </details>
 
+## Explain it back
+
+Explain how receptor generation differs from activation of a cell that already carries a receptor.
+
+## Takeaway
+
+V(D)J recombination generates receptor diversity; later selection and antigen encounters determine which cells persist and respond.
+
 ## Related concepts
 
 - [[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic|Germline and somatic variants]]
@@ -82,7 +90,7 @@ No. The receptor sequences could come from the lymphocytes. First establish whic
 
 ## Sources and scope
 
-Source-checked October 9, 2026. General receptor biology; human expert and learner review pending.
+Source-checked October 10, 2026. General receptor biology; human expert and learner review pending.
 
 1. [McBlane et al. 1995: purified RAG1/RAG2 cleavage and coding-end formation](https://doi.org/10.1016/0092-8674(95)90116-7).
 2. [Mombaerts et al. 1992: RAG1-deficient mouse lymphocyte development](https://pubmed.ncbi.nlm.nih.gov/1547488/).

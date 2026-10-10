@@ -7,7 +7,7 @@ summary: "Single-cell and single-nucleus RNA sequencing profile captured RNA ass
 glossary_anchor: "single-cell-and-single-nucleus-rna-seq"
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
-used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/multi-omics-foundations/03-reading-rna-counts]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/03-reading-rna-counts]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-10-10"
@@ -107,6 +107,7 @@ Source check: October 10, 2026. The exercise is fictional. Expert and learner re
 ## Used in
 
 - [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
+- [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
 - [Read RNA counts without counting proteins](/wiki/education/multi-omics-foundations/03-reading-rna-counts)
 - [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

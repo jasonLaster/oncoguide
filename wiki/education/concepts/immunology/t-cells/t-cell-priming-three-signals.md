@@ -10,8 +10,8 @@ used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-rec
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,53 +25,77 @@ T-cell priming is the initial activation of a naive T cell by antigen recognitio
 
 ## The intuition
 
-Finding a matching reader does not mean the reader acts. A naive T cell needs context as well as recognition. The “three signals” framework separates those jobs. It is a teaching model, rather than a literal three-button machine.
+Finding a matching reader does not mean the reader acts. A naive [T cell](/wiki/education/concepts/immunology/t-cells/t-cell) needs context as well as recognition. The “three signals” framework separates those jobs so that we can ask what was displayed, what support was available and what response developed.
+
+It is a teaching model, rather than a literal three-button machine. Signals overlap in time, and prior experience changes a cell's requirements.
 
 ## How it works
 
-Signal one is recognition of a peptide–human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) complex by a T-cell receptor ([TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)). Signal two includes [costimulatory interactions](/wiki/education/concepts/immunology/t-cells/costimulation), such as CD80/CD86 on an antigen-presenting cell interacting with CD28 on a T cell.
+**Signal one** is recognition of a peptide–human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) complex by a [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor). A naive cell already has that receptor; the encounter selects a responsive cell rather than creating a receptor designed for this tumor.
 
-Signal three describes cytokines that influence differentiation, growth and function. Cytokines are signaling proteins; they do not provide nutritional fuel. Timing, strength, cell state and inhibitory inputs influence the combined response.
+**Signal two** includes [costimulatory interactions](/wiki/education/concepts/immunology/t-cells/costimulation). One established example is cluster of differentiation 80/86 (CD80/CD86) on an antigen-presenting cell engaging CD28 on a T cell. Inhibitory inputs also shape the combined response. “More support” is not a general instruction to remove every brake.
 
-Dendritic cells are especially important for naive T-cell priming. Antigen recognition without appropriate support can favor tolerance or hyporesponsiveness. Previously activated cells and engineered receptors have different requirements; the framework is not a universal checklist for every effector response.
+**Signal three** describes [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) that influence growth, differentiation and function. Cytokines are signaling proteins, not nutritional fuel. Interleukin 12 (IL-12) helped naive CD8 cells develop cytolytic function in Curtsinger and colleagues' defined experiments. Antigen-driven division without that supporting context did not provide the same function. This is a model-specific demonstration that proliferation and effector differentiation can separate, not a universal cytokine prescription.
+
+[Dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) are especially important for naive-cell priming, often after acquiring antigen and reaching a lymphoid meeting site. A tumor's ability to display a target is distinct from an antigen-presenting cell's ability to initiate the response. Recognition without appropriate support can favor tolerance or reduced responsiveness.
+
+Previously activated cells, memory populations and engineered receptors can have different requirements. [CD4/CD8 populations](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) also include different response programs. The three-signal model is not a checklist that proves every effector encounter will work.
 
 ```mermaid
 flowchart TD
-  A[Peptide-HLA recognition] --> D[Integrated response]
-  B[Costimulation and inhibition] --> D
-  C[Cytokine context] --> D
-  D --> E[Expansion and differentiation]
-  D --> F[Possible tolerance or hyporesponsiveness]
+  A["Recognition<br/>Costimulation and inhibition<br/>Cytokines"] --> B["Integrated<br/>signal context"]
+  B --> C["Measure expansion<br/>and function separately"]
 ```
 
-*The signal context shapes the response; recognition is not an automatic activation command.*
+*Context influences the response; recognition is not an automatic activation command.*
 
 ## Why it matters in cancer
 
-A tumor can display an antigen without being good at initiating a naive response. Vaccine delivery and antigen-presenting-cell context matter separately from the eventual tumor target.
+Vaccine antigen selection, delivery and antigen-presenting-cell context address different steps. Successful priming still does not prove that the resulting cells reach a tumor, encounter naturally displayed antigen or kill its cells. These questions need their own measurements.
+
+## How it is measured
+
+A controlled priming experiment identifies the starting population and antigen-presenting system, varies a specified supporting signal, and compares outcomes at matched times. Measure viable-cell numbers and division alongside cytokine production or target-cell death. Keep peptide loading, HLA compatibility, cell ratios and culture conditions visible; negative and positive controls help distinguish biological failure from assay failure.
 
 ## Worked example
 
-In a hypothetical assay, naive T cells recognize a peptide and divide, but show little killing function. Cell expansion is one outcome. Differentiation and effector activity still need testing. Counting descendants cannot answer whether the cells can perform the desired task.
+In a fictional experiment, two naive-cell cultures receive the same antigen and costimulatory setup. Both show three divisions. Only culture B kills appropriately presenting targets above target-only background.
+
+## Try it
+
+Can division establish equivalent priming outcomes?
+
+**Answer:** No. Division is one outcome; cytolytic function is another. The comparison motivates checking the differing signal context while controlling viable-cell input, target identity and exposure. It does not establish clinical benefit for B.
 
 ## Common confusions
 
-- Presentation is display; priming is an activation process.
-- Antigen recognition alone does not guarantee useful differentiation.
-- Increasing cytokine exposure can add toxicity or support unwanted populations.
+- Presentation is display; priming is initial activation in a context.
+- A cytokine concentration or division count does not prove a complete effector program.
+- Priming a naive cell differs from restimulating an antigen-experienced population.
+- Stronger stimulation can create harm or support unwanted populations.
+
+## Explain it back
+
+Use the three-signal framework to explain how two dividing populations could develop different functions.
+
+## Takeaway
+
+Priming combines recognition and supporting signals, while each resulting function still needs measurement.
 
 ## Related concepts
 
-- [cross presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation)
-- [TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)
-- [t cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
+- [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation)
+- [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
+- [Anergy](/wiki/education/concepts/immunology/t-cells/anergy)
 
 ## Sources and scope
 
-Source check: October 8, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source-checked October 10, 2026. The cultures are fictional; the cited experiments establish mechanisms within their stated systems. Expert and learner review remain pending.
 
-- [Primary signal-three experiments in naive CD8 cells](https://pmc.ncbi.nlm.nih.gov/articles/PMC2193970/).
-- [T cells and antigen-presenting cells](https://www.ncbi.nlm.nih.gov/books/NBK26926/).
+- [Curtsinger et al., 2003: signal three and naive CD8 cells](https://pmc.ncbi.nlm.nih.gov/articles/PMC2193970/) — controlled in vitro and mouse experiments separating proliferation from cytolytic function.
+- [Linsley et al., 1991: B7–CD28 costimulation](https://pubmed.ncbi.nlm.nih.gov/1847722/) — binding and cellular activation experiments.
+- [Bennett et al., 1998: antigen-presenting-cell help](https://pubmed.ncbi.nlm.nih.gov/9624004/) — CD40 signaling in experimental cross-priming.
+- [Alberts et al.: T cells and antigen-presenting cells](https://www.ncbi.nlm.nih.gov/books/NBK26926/) — foundational textbook context.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

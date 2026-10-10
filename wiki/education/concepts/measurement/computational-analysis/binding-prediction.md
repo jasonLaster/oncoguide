@@ -12,8 +12,8 @@ reviewed: pending
 reviewed_by: ""
 sensitive: false
 tags: [education, measurement]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -31,14 +31,18 @@ For a vaccine candidate, the “key” is a peptide and the “lock” is a part
 
 ## How it works
 
-Peptide–HLA models learn relationships from experimental data. Some outputs predict **binding affinity**; others predict likelihood of naturally eluted ligands, using presentation datasets. These related tasks have different labels and training data. An eluted-ligand score is not simply a binding measurement with another name.
+Peptide–HLA models learn relationships from experimental data. Some outputs predict [binding affinity](/wiki/education/concepts/biology-basics/molecules/enzymes-and-binding); others predict likelihood of naturally eluted ligands, using presentation datasets. These related tasks have different labels and training data. An eluted-ligand score is not simply a binding measurement with another name.
+
+**Half-maximal inhibitory concentration (IC50)** describes the concentration producing half inhibition of the named assay response. In a peptide–HLA competitive-binding assay, the response concerns displacement of a reference ligand. A model can estimate that assay value; it has not performed the experiment. IC50 is not automatically the equilibrium **dissociation constant (Kd)**, and a cell-growth IC50 describes another endpoint entirely.
 
 Two common outputs need careful reading:
 
 | Output | How to interpret it | What it does not establish |
 | --- | --- | --- |
-| Predicted affinity in nanomolar units | Lower values usually indicate stronger predicted binding for that output | An experimentally measured affinity or a functional T-cell response |
+| Predicted binding IC50 in nanomolar units | Lower values indicate stronger predicted competitive binding for this output | A measured concentration, equilibrium Kd or functional T-cell response |
 | Percentile rank | A lower rank places the candidate nearer the model's stronger-scoring reference peptides | A percent chance of tumor killing or the fraction of tumor cells covered |
+
+An **eluted-ligand (EL)** output is trained toward recovered HLA-associated peptides. Its percentile rank compares a score with the model's reference-peptide distribution. A 0.4% rank denotes position in that reference scoring distribution, not a 99.6% probability of presentation, recognition or benefit.
 
 Record the model and version, allele, peptide length, prediction task, units, reference ranking and threshold. A score from one column cannot be directly compared with a different output because both numbers happen to be small. Performance can vary with allele coverage and how closely the candidate resembles the training setting.
 
@@ -61,6 +65,24 @@ Request matched outputs for the relevant allele and method. If both later receiv
 - Binding, natural presentation and T-cell recognition are different endpoints.
 - A threshold cannot compensate for using the wrong allele or an unsupported prediction task.
 
+## Readout and validation
+
+Inputs are peptide or source-protein sequences and an exact HLA allele or sequence; computational scoring itself does not consume tumor tissue. Outputs and thresholds are model-specific. Document held-out validation, relevant allele and peptide coverage, and whether the endpoint was measured binding, peptide recovery or T-cell recognition. A model can perform well on one of those tasks without validating all three.
+
+## Try it
+
+Fictional candidate A has a 0.4% EL rank; candidate B has a predicted binding IC50 of 40 nanomolar. Which single number establishes tumor coverage?
+
+**Answer:** Neither. They have different units and tasks; neither measures the fraction of tumor cells naturally displaying the target.
+
+## Explain it back
+
+Explain why rank, competitive-binding IC50 and equilibrium Kd should not share one unlabeled score column.
+
+## Takeaway
+
+**Keep the task and units beside the prediction.**
+
 ## Related concepts
 
 - [HLA typing and nomenclature](/wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature)
@@ -69,7 +91,7 @@ Request matched outputs for the relevant allele and method. If both later receiv
 
 ## Sources and scope
 
-Source-checked October 9, 2026. The example is fictional. NetMHCpan-4.1 is a documented example, rather than a claim about which software version or model is currently best. Expert and learner review remain pending.
+Source-checked October 10, 2026. The example is fictional. NetMHCpan-4.1 is a documented example, rather than a claim about which software version or model is currently best. Expert and learner review remain pending.
 
 - [Official NetMHCpan-4.1 documentation](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/), for affinity and eluted-ligand outputs, percentile ranks and configurable thresholds.
 - [Reynisson and colleagues: NetMHCpan-4.1 and NetMHCIIpan-4.0](https://pubmed.ncbi.nlm.nih.gov/32406916/), the primary model-development paper.

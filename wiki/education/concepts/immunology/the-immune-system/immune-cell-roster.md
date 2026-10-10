@@ -4,7 +4,7 @@ type: "concept"
 domain: "immunology/the-immune-system"
 summary: "Immune cells perform different sensing, presentation, killing, antibody-producing and regulatory jobs that depend on their state and location."
 glossary_anchor: "immune-cell-roster"
-aliases: ["immune cells", "CD4", "CD8", "NK"]
+aliases: ["immune cells"]
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity]]"]
 used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
 level: "foundation"

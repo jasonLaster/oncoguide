@@ -1,0 +1,48 @@
+BASE PROMPT
+An educational cartoon showing that a biological HLA-associated peptide repertoire is different from the list a laboratory identifies.
+
+Use four compact, vertically stacked scenes:
+1. “Biological repertoire”: anonymous cells with varied peptide–HLA complexes at the surface and inside the cells.
+2. “Prepared sample”: cells and material entering a laboratory vessel.
+3. “Recovered material”: selected molecular material beside a simple instrument.
+4. “Identified list”: a notebook with a few schematic sequence marks.
+
+Style: friendly outlined cartoon, rounded shapes, soft colors, clean sans-serif labels and generous spacing. Match the local educational style anchor’s visual language, without copying its biological claims. No people. Make labels legible on mobile.
+
+Use only the four labels above and one small footer:
+“Schematic—not a census”.
+
+Scientific guardrails:
+Show the starting repertoire in a defined cell/context, without claiming tumor-cell purity. Include both intracellular and surface complexes; whole-cell recovery is not a surface-only survey. Preparation, recovery and identification are distinct method-dependent steps. Icons and sequence marks have no numerical meaning: do not show counts, percentages or recovery fractions. Missing entries must not be crossed out or labeled absent. Do not depict T-cell activation, tumor killing, safety or clinical benefit.
+
+Avoid photorealism, medical photography, brands, watermarks, numerical scores, extra claims or dense text.
+
+Light variant: warm pale background with readable dark outlines.
+Dark companion: preserve the same scenes, labels and scientific content; use a deep neutral background with readable lighter outlines.
+
+LIGHT TOOL PROMPT
+An educational cartoon showing that a biological HLA-associated peptide repertoire is different from the list a laboratory identifies.
+
+Use four compact, vertically stacked scenes:
+1. “Biological repertoire”: anonymous cells with varied peptide–HLA complexes at the surface and inside the cells.
+2. “Prepared sample”: cells and material entering a laboratory vessel.
+3. “Recovered material”: selected molecular material beside a simple instrument.
+4. “Identified list”: a notebook with a few schematic sequence marks.
+
+Style: friendly outlined cartoon, rounded shapes, soft colors, clean sans-serif labels and generous spacing. Match the local educational style anchor’s visual language, without copying its biological claims. No people. Make labels legible on mobile.
+
+Use only the four labels above and one small footer:
+“Schematic—not a census”.
+
+Scientific guardrails:
+Show the starting repertoire in a defined cell/context, without claiming tumor-cell purity. Include both intracellular and surface complexes; whole-cell recovery is not a surface-only survey. Preparation, recovery and identification are distinct method-dependent steps. Icons and sequence marks have no numerical meaning: do not show counts, percentages or recovery fractions. Missing entries must not be crossed out or labeled absent. Do not depict T-cell activation, tumor killing, safety or clinical benefit.
+
+Avoid photorealism, medical photography, brands, watermarks, numerical scores, extra claims or dense text.
+
+Light variant: warm pale background with readable dark outlines.
+Dark companion: preserve the same scenes, labels and scientific content; use a deep neutral background with readable lighter outlines.
+
+EXECUTION — LIGHT: Generate only one light-theme image now, portrait orientation, four stacked scenes. The dark companion will be requested separately. No side-by-side theme comparison.
+
+DARK EDIT TOOL PROMPT
+EXECUTION — DARK EDIT: Edit the generated light image into its dark-theme companion. Preserve the exact four-scene composition, objects, peptide glyphs, text, ordering and scientific relationships. Change only colors: deep neutral background, softly luminous pastel objects, pale readable text/linework and dark panel fills. Preserve all four exact labels and “Schematic—not a census”. Do not add objects, numbers, percentages, claims or new labels. Keep the same dimensions and portrait orientation. No transparency.

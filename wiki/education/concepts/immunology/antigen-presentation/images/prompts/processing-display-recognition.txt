@@ -1,0 +1,23 @@
+An educational cartoon explaining the common HLA class-I pathway: a cell cuts proteins into peptides, transports them into the endoplasmic reticulum, loads a suitable peptide onto HLA class I with B2M, and displays the assembled complex at the surface; T-cell recognition is a separate conditional step.
+
+Create one clear landscape educational poster with five large numbered panels in reading order: panels 1–3 across the top row, panels 4–5 below. Generous spacing and readable typography. Title: "From protein to possible recognition". Subtitle: "A common class-I pathway".
+
+Panel 1, header "1  Cut": show one folded ribbon labeled "Protein" entering a rounded barrel labeled "Proteasome" in the cell interior. Several short fragments emerge, labeled "Peptides". Show a directional arrow from protein to proteasome to peptides.
+
+Panel 2, header "2  Transport": show one curved membrane separating "Cell interior" from "ER interior". In that membrane, draw one transporter channel made of two neighboring subunits, collectively labeled "TAP1 + TAP2". A short peptide moves through this channel with an arrow pointing INTO the ER interior. Label the compartment "ER: endoplasmic reticulum". Do not show a whole folded protein passing through TAP.
+
+Panel 3, header "3  Load": inside the ER show the HLA class-I heavy chain with a groove holding one short peptide. Show a small separate support component alongside the heavy chain, labeled "B2M". Place precise pointer labels "HLA class I", "Peptide", and "B2M". Only the HLA heavy chain is anchored in the ER membrane; B2M has no membrane-spanning tail. Assembly helpers and trimming are deliberately omitted from this simplified illustration.
+
+Panel 4, header "4  Display": show the same assembled peptide–HLA class-I–B2M complex anchored in a cell-surface membrane. Its peptide-binding groove faces outside the cell. Label membrane "Cell surface" and use precise pointers "Peptide" and "HLA class I". Show "B2M" beside the heavy chain with no membrane-spanning tail. A solid sequence arrow links panels 1 through 4; the route from ER to surface is simplified and not intended to skip Golgi trafficking.
+
+Panel 5, header "5  Possible recognition": separated from the first four panels by a clear divider and a dashed connector labeled "If receptor matches". Show a friendly round "CD8 T cell" above the cell surface. Its "T-cell receptor" contacts the peptide sitting within HLA class I, recognizing the combined peptide–HLA complex. Keep B2M alongside the HLA heavy chain. No explosion or killing illustration. Short callout: "Recognition does not guarantee killing".
+
+Visual style: flat vector illustration, softly rounded molecular shapes, friendly cartoon proportions, clean sans-serif labels, thin crisp outlines, matching the multi-panel educational poster composition of tcr-tcr-t.png. No generic human figures. Consistent colors for protein fragments, HLA heavy chain, B2M, and T cell throughout. Theme-neutral base style: do not force a background color or palette saturation.
+
+Exact text allowed: "From protein to possible recognition", "A common class-I pathway", "1  Cut", "2  Transport", "3  Load", "4  Display", "5  Possible recognition", "Protein", "Proteasome", "Peptides", "Peptide", "Cell interior", "ER interior", "ER: endoplasmic reticulum", "TAP1 + TAP2", "HLA class I", "B2M", "Cell surface", "If receptor matches", "CD8 T cell", "T-cell receptor", "Recognition does not guarantee killing".
+
+Scientific accuracy guardrails: this is the common class-I pathway, not all antigen presentation. TAP1 and TAP2 together form one transporter in the ER membrane. HLA class I consists of one membrane-anchored heavy chain with beta-2 microglobulin (B2M) alongside it and a short peptide in the groove. Peptide loading occurs inside the ER before surface display. The T-cell receptor recognizes peptide together with HLA, not free peptide alone. Recognition is conditional on an appropriate T-cell receptor; display and recognition do not establish killing or clinical benefit. Do not imply class-II presentation uses this same pathway.
+
+Negative constraints: no photorealism, no medical photography, no stock-image people, no logos, no watermarks, no anatomical horror, no private case details, no companies, no text outside the exact labels listed above.
+
+Scientific sources verified for regeneration: Blum et al., Pathways of Antigen Processing, https://pmc.ncbi.nlm.nih.gov/articles/PMC4026165/ ; Janeway et al., The generation of T-cell receptor ligands, https://www.ncbi.nlm.nih.gov/books/NBK27137/ . Do not render source text on the image.

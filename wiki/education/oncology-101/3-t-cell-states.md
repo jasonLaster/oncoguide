@@ -9,7 +9,7 @@ prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", 
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
-source_checked: "2026-10-09"
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -21,7 +21,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 It is reassuring to see immune cells in a picture. It is also tempting to give them a job before checking. Some may recognize cancer. Others may respond to an infection, [regulate immune responses](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) or simply share the neighborhood.
 
-**Before you start:** [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) explains the biological categories. [The T-cell repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) explains the sampled receptor collection. [Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) introduces regulation.
+**Before you start:** [T cells](/wiki/education/concepts/immunology/t-cells/t-cell) introduces the family; [CD4 versus CD8](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) separates co-receptors from functions. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) explains the biological categories. [The T-cell repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) explains the sampled receptor collection. [Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) introduces regulation.
 
 ## Where this step sits
 
@@ -51,7 +51,7 @@ A stain for forkhead box P3, or FOXP3, is a clue to a regulatory program. In hum
 
 Programmed cell death protein 1, or PD-1, can be expressed during activation as well as during persistent stimulation. A PD-1-positive cell is not automatically terminally exhausted. A high signal for one protein cannot assign a complete cell state.
 
-Some progenitor-like exhausted populations help supply responses to [checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor). More differentiated exhausted cells can have restricted responses. Primary tumor experiments and observations in melanoma support this distinction, while chronic-infection experiments describe a related but different setting. The [state concept](/wiki/education/concepts/immunology/t-cells/t-cell-states) holds the shared biology; clinical response still depends on the cancer and treatment.
+**Progenitor-like exhausted T cells (Tpex)** can help sustain responses to [checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor). More differentiated exhausted cells can have restricted responses. Primary tumor experiments and observations in melanoma support this distinction, while chronic-infection experiments describe a related but different setting. The [state concept](/wiki/education/concepts/immunology/t-cells/t-cell-states) holds the shared biology and marker limits. Neither a Tpex label nor T-cell factor 1 (TCF1) positivity is a universal predictor; clinical response still depends on the cancer and treatment.
 
 ## A worked example: three samples with many T cells
 
@@ -107,7 +107,7 @@ One possible answer: “who is in the sample; the right recognition, access and 
 
 ## Sources and scope
 
-Source check: October 9, 2026. General cell-state interpretation; fictional examples. Expert and learner review remain pending.
+Source check: October 10, 2026. General cell-state interpretation; fictional examples. Expert and learner review remain pending.
 
 The proliferation/senescence distinction was added October 10, 2026. The linked cell-state concepts carry the focused sources and measurement limits.
 

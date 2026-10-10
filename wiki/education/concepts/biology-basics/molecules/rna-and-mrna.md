@@ -7,7 +7,7 @@ glossary_anchor: rna-and-mrna
 aliases: ["RNA", "mRNA", "ribonucleic acid", "messenger RNA"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]", "[[wiki/education/concepts/biology-basics/molecules/gene]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -105,5 +105,9 @@ Source check: October 9, 2026. General RNA biology; the assay example is fiction
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
+- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 - [Start with genes, RNA and protein](/wiki/education/multi-omics-foundations/00-genes-rna-and-protein)
+- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
+- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 <!-- END GENERATED USED IN -->

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -70,6 +70,14 @@ Two fictional presenting cells show the same peptide–HLA pair. One also provid
 
 **Answer:** No. Antigen recognition can be the same while response support differs. You would measure the response under matched conditions rather than infer it from the displayed peptide alone.
 
+## Explain it back
+
+Explain how a TCR match and a CD28-supporting interaction answer different questions.
+
+## Takeaway
+
+Costimulation changes the context of a recognition signal; it does not supply antigen specificity or guarantee benefit.
+
 ## Related concepts
 
 - [Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells)
@@ -77,7 +85,7 @@ Two fictional presenting cells show the same peptide–HLA pair. One also provid
 
 ## Sources and scope
 
-Source check: October 9, 2026. Supporting interactions and experimental interpretation, not a treatment-selection assay. Expert and learner review remain pending.
+Source check: October 10, 2026. Supporting interactions and experimental interpretation, not a treatment-selection assay. Expert and learner review remain pending.
 
 - [Linsley et al., 1991](https://pubmed.ncbi.nlm.nih.gov/1847722/) — CD28/B7 binding and costimulatory function.
 - [Qureshi et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21474713/) — CTLA-4 removes shared supporting ligands.

@@ -8,8 +8,8 @@ objectives: ["Match an immune assay to the claim it supports.", "Separate tissue
 prerequisites: ["[[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/immune-monitoring/flow-cytometry]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -21,7 +21,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 “Are the T cells doing useful work?” is a reasonable question. It is also several questions packed together. This lesson unpacks them so you can read a report one claim at a time.
 
-**Before you start:** A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) is the reader. [TCR sequencing (TCR-seq)](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) explains sequence identities. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) separates markers from function. [Hot, excluded and cold patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor) explains tissue location. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) groups prepared cells by measured features; [cell segmentation](/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation) estimates cell regions in images.
+**Before you start:** [T cells](/wiki/education/concepts/immunology/t-cells/t-cell) establishes cell identity. A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) is the reader. [TCR sequencing (TCR-seq)](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) explains sequence identities. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) separates markers from function. [Hot, excluded and cold patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor) explains tissue location. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) groups prepared cells by measured features; [cell segmentation](/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation) estimates cell regions in images.
 
 ## Where this step sits
 
@@ -43,7 +43,7 @@ A third job is functional testing. The [enzyme-linked immunospot (ELISpot) assay
 
 ## Match the readout to the missing question
 
-If the question is **which sampled population responded**, [intracellular cytokine staining (ICS)](/wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining) can connect a cytokine response to stained cell types. Its output still lacks a receptor sequence unless an additional identification strategy supplies one.
+If the question is **which sampled population responded**, [intracellular cytokine staining (ICS)](/wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining) can connect a cytokine response to stained cell types. [CD4 and CD8](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) distinguish co-receptor populations; neither is a complete function label. State whether a percentage uses all viable T cells or a particular subset as its denominator. Its output still lacks a receptor sequence unless an additional identification strategy supplies one.
 
 If the question is **whether specified targets died**, [functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) test that outcome with target-only and other appropriate controls. A peptide-loaded target and a naturally presenting cancer cell are different test systems. The latter helps address the processing-and-presentation bridge that added peptide can bypass.
 
@@ -68,7 +68,9 @@ In a fictional vaccine study, clonotype A becomes more frequent after dosing. Th
 
 This is more informative than a frequency change alone. Still, several questions remain. Did the frequency rise because A increased, because other cells declined, or both? Is the sequence definition precise enough to identify the intended receptor? Did A's cells produce the peptide-stimulation response, or did another population respond? Do cancer cells naturally display the peptide? Can responding cells reach them and act safely?
 
-A compatible single-cell method can pair receptor identity with gene-expression features. That may help select candidates for testing. “Cytotoxic-looking” gene expression still does not replace a killing assay.
+A compatible single-cell method can pair receptor identity with gene-expression features. Paired alpha-beta sequences supply a more complete identity than a beta-chain junction alone; a match under one chain definition does not establish the same complete receptor. That may help select candidates for testing. “Cytotoxic-looking” gene expression still does not replace a killing assay.
+
+Uneven per-target responses can describe [immunodominance](/wiki/education/concepts/immunology/t-cells/immunodominance). Newly detected responses to targets outside a vaccine set can support [epitope spreading](/wiki/education/concepts/immunology/t-cells/epitope-spreading) when baseline, specificity and assay controls are suitable. Additional receptor sequences alone establish neither finding. Both remain immune observations rather than proof of clinical benefit.
 
 ## Pair tumor and immune readouts carefully
 
@@ -104,7 +106,7 @@ One possible answer: “which receptor identities were sampled; what they recogn
 
 ## Sources and scope
 
-Source check: October 9, 2026. General immune-monitoring logic; no personal specimen calendar or assay procurement plan is prescribed. The study example is fictional. Expert and learner review remain pending.
+Source check: October 10, 2026. General immune-monitoring logic; no personal specimen calendar or assay procurement plan is prescribed. The study example is fictional. Expert and learner review remain pending.
 
 - [Ruggiero et al., 2015: receptor repertoire analysis](https://www.nature.com/articles/ncomms9081).
 - [Han et al., 2014: linking receptor sequence and cell phenotype](https://www.nature.com/articles/nbt.2938).

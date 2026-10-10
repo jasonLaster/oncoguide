@@ -7,13 +7,13 @@ glossary_anchor: epitope-spreading
 aliases: [epitope spreading, antigen spreading]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
 tags: [education, immunology]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -56,6 +56,20 @@ Before attributing it to vaccination, ask whether the assay conditions were matc
 - Multiple receptor sequences do not establish multiple antigen specificities without supporting experiments.
 - An immune biomarker is not a recurrence-prevention endpoint.
 
+## Try it
+
+A fictional A/B vaccine is followed by ten additional TCR sequences in blood, but no target-specific experiment. Has spreading to C been demonstrated?
+
+**Answer:** No. Additional sequences show a sampled repertoire change. Establishing an additional specificity needs a defined target assay with matched baseline, background and presentation controls. Even a newly detected C response would not by itself prove vaccine causation or clinical benefit.
+
+## Explain it back
+
+Explain why a larger response to A and a newly detected response to C are different findings.
+
+## Takeaway
+
+Spreading describes additional detected specificities beyond the original set; its cause and clinical value need separate evidence.
+
 ## Related concepts
 
 - [Immunodominance](/wiki/education/concepts/immunology/t-cells/immunodominance)
@@ -64,7 +78,7 @@ Before attributing it to vaccination, ask whether the assay conditions were matc
 
 ## Sources and scope
 
-Source-checked October 9, 2026. The example is fictional. The clinical study concerns a personalized long-peptide vaccine in melanoma; it does not establish the same result for every platform, cancer or treatment sequence. Expert and learner review remain pending.
+Source-checked October 10, 2026. The example is fictional. The clinical study concerns a personalized long-peptide vaccine in melanoma; it does not establish the same result for every platform, cancer or treatment sequence. Expert and learner review remain pending.
 
 - [Hu and colleagues: persistent memory responses and epitope spreading](https://pubmed.ncbi.nlm.nih.gov/33479501/), a primary follow-up study that detected responses to non-vaccine targets and discussed baseline detection limits and accompanying checkpoint treatment.
 - [Ott and colleagues: personalized neoantigen vaccination in melanoma](https://www.nature.com/articles/nature22991/), the primary earlier study of that peptide-vaccine approach.
@@ -74,4 +88,5 @@ Source-checked October 9, 2026. The example is fictional. The clinical study con
 ## Used in
 
 - [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
+- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
 <!-- END GENERATED USED IN -->

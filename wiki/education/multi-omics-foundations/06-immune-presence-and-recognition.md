@@ -8,8 +8,8 @@ objectives: ["Distinguish immune abundance, peptide presentation and specific re
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,7 +35,7 @@ This is step 7 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Underst
 | Do cells respond to the target? | Controlled immune-response assay | Do they recognize and kill actual tumor cells? |
 | Does treatment help? | Clinical study in the intended setting | Whether its result applies to this decision |
 
-**T cells** inspect targets through their receptors. For many CD8 T-cell responses, the relevant target is a peptide, a short protein fragment, displayed on HLA class I. A [[wiki/education/concepts/immunology/antigen-presentation/neoantigen|neoantigen]] arises from a tumor-specific change. Its source gene being expressed is only one step toward recognition.
+[**T cells**](/wiki/education/concepts/immunology/t-cells/t-cell) inspect targets through their receptors. The conventional alpha-beta [T-cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) reads a peptide together with its HLA display. [CD4 versus CD8](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) explains the co-receptor/class relationship; it does not assign a complete job to either population. For many CD8 responses, the relevant display is HLA class I. A [[wiki/education/concepts/immunology/antigen-presentation/neoantigen|neoantigen]] arises from a tumor-specific change. Its source gene being expressed is only one step toward recognition.
 
 ## Presentation is an assembled process
 
@@ -43,11 +43,13 @@ The tumor must make a suitable source product, generate a peptide, load it and d
 
 [[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics|Immunopeptidomics]] recovers HLA-bound peptides for measurement. A detected peptide supports presentation in the sampled material. It does not alone establish a useful T-cell response or clinical benefit.
 
-[**Interferons**](/wiki/education/concepts/immunology/the-immune-system/interferons) are signaling proteins that can change immune and presentation programs. A low baseline RNA score does not prove cells cannot respond to stimulation. RNA induction, assembled surface complexes and useful recognition remain different observations.
+[**Interferons**](/wiki/education/concepts/immunology/the-immune-system/interferons) are signaling proteins that can change immune and presentation programs. A low baseline [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) score does not prove cells cannot respond to stimulation. RNA induction, assembled surface complexes and useful recognition remain different observations.
 
 ## What an immune-rich sample can mean
 
 **Stromal tumor-infiltrating lymphocytes (sTILs)** are scored using the relevant stromal-area denominator. The score is not the fraction of all cells that are CD8 T cells. **Plasma cells** make antibodies. Antibody-class RNA identifies a kind of message, not what the antibodies recognize.
+
+A [T-cell state](/wiki/education/concepts/immunology/t-cells/t-cell-states) inferred from an RNA program describes features under a classification method. A cytotoxic-looking program or progenitor-like marker does not identify the receptor target or prove killing.
 
 Likewise, a **chemokine** signal can suggest a recruitment or positioning process. Measuring its RNA does not show where responding cells moved. Cell abundance, spatial access and function need the corresponding observations.
 
@@ -56,6 +58,8 @@ Likewise, a **chemokine** signal can suggest a recruitment or positioning proces
 A fictional biopsy has high immune RNA. Spatial staining finds most T cells around malignant nests. Presentation testing finds a candidate peptide on some tumor cells. A peptide-stimulation assay shows an immune response.
 
 These findings support several parts of the story, but they do not prove that responding cells reach every malignant nest and recognize naturally presented peptide at useful levels. An actual tumor-recognition experiment answers a closer question than stimulation with excess peptide. Its controls and model relevance still matter.
+
+[[wiki/education/molecular-profiling/08-profile-residual-tumor|Read single-cell data after treatment]] applies these separate questions to a cell-resolved report. It explains why a presentation-gene profile can guide follow-up without proving peptide display or tumor killing.
 
 ## What can go wrong at this step
 
@@ -85,7 +89,7 @@ One answer: “immune cells were measured; a peptide display was measured; a rec
 
 ## Sources and scope
 
-Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+Source check: October 10, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
 
 - [McGranahan et al., primary allele-specific HLA-loss study in lung cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC5720478/).
 - [Salgado et al., stromal TIL-scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).

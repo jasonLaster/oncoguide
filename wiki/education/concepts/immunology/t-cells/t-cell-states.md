@@ -6,12 +6,12 @@ summary: "T-cell states describe changing differentiation and functional program
 glossary_anchor: "t-cell-states"
 aliases: ["T-cell states", "exhaustion"]
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 level: "intermediate"
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,19 +31,19 @@ The analogy is limited: biological categories overlap and change. A cell's curre
 
 ## How it works
 
-A **naive** T cell has not undergone its initial antigen-driven activation. This says something about response history, not that it left the thymus yesterday. [Thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging) separates new-cell development from the survival and division of existing naive cells.
+A **naive** T cell has not undergone its initial antigen-driven activation. This describes response history, not recent thymic arrival. [Thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging) separates new-cell development from the survival and division of existing naive cells.
 
 **Effector** cells develop response functions after activation. Those functions vary: helping another cell and directly killing a target are different jobs. **Memory** populations can persist and support renewed responses. Neither label establishes that a cell recognizes cancer or provides lasting clinical protection.
 
 [Anergy](/wiki/education/concepts/immunology/t-cells/anergy) describes antigen-related reduced responsiveness in defined contexts. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. These are different mechanisms, not two names for any inactive cell. External suppression and a missing target encounter are further possibilities.
 
-Exhausted populations can contain progenitor-like and more differentiated subsets with different capacities. Miller and colleagues tested these differences in tumor models and studied related features in human melanoma. The chronic-infection study by Utzschneider and colleagues described a related response context. These settings support biological distinctions; they do not make one subset count a universal treatment-selection test.
+Exhausted populations can contain **progenitor-like exhausted T cells (Tpex)** and more differentiated subsets with different capacities. Tpex can maintain a response and produce more differentiated descendants under persistent stimulation. The transcription factor **T-cell factor 1 (TCF1)** is associated with such populations, but it also appears in other T-cell contexts; TCF1 positivity alone does not assign Tpex identity. Miller and colleagues tested these differences in tumor models and studied related features in human melanoma. The chronic-infection study by Utzschneider and colleagues described a related response context. These settings support biological distinctions; they do not make one subset count a universal treatment-selection test.
 
-Progenitor-like exhausted cells can help sustain a response under persistent stimulation. They are not automatically ordinary memory cells. A shared marker or capacity to divide does not make two differentiation programs identical.
+Tpex are not automatically ordinary memory cells. A shared marker or capacity to divide does not make two differentiation programs identical. Burger and colleagues also found heterogeneous TCF1-positive populations in a mouse lung-tumor model: marker positivity did not imply equivalent responses. Their human analyses were associations, not a validated universal marker requirement for vaccination or checkpoint therapy.
 
-[Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) have another role: helping restrain responses. They are not simply exhausted effector cells. Their effect on other cells belongs to the wider [peripheral-tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) system.
+[Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) have another role: helping restrain responses. They are not simply exhausted effector cells. They contribute to the [peripheral-tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) system.
 
-**Programmed cell death protein 1 (PD-1)** can rise during activation as well as in exhausted populations. In human T-cell cultures, expression of the regulatory-associated protein **forkhead box P3 (FOXP3)** also did not, by itself, establish suppressive function. A single marker cannot assign a complete state or job.
+**Programmed cell death protein 1 (PD-1)** can rise during activation as well as in exhausted populations. In human cultures, **forkhead box P3 (FOXP3)** expression alone did not establish suppressive function. A single marker cannot assign a complete state or job.
 
 ```mermaid
 flowchart TD
@@ -63,7 +63,7 @@ Stronger activation is not automatically beneficial. Normal tolerance protects h
 
 ## How it is measured
 
-RNA programs, surface-protein panels, receptor identities and controlled functional assays supply different layers. Preserve tissue location, sampling time and population definitions. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) characterizes selected features; [functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) test specified target interactions. Neither provides an unrestricted label for every cell in the body.
+[Ribonucleic acid (RNA) programs](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq), surface-protein panels, receptor identities and controlled functional assays supply different layers. Preserve tissue location, sampling time and population definitions. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) characterizes selected features; [functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) test specified target interactions. Neither provides an unrestricted label for every cell in the body.
 
 ## Worked example
 
@@ -84,6 +84,14 @@ A fictional population is PD-1-positive and divides after stimulation. Can you c
 
 **Answer:** No. Those observations need response-history, specificity and differentiation context. Division under one stimulus does not establish that classification or clinical effect.
 
+## Explain it back
+
+Describe why TCF1 or PD-1 positivity needs response-history and functional context.
+
+## Takeaway
+
+State labels summarize a bounded biological program; they do not replace specificity, function or outcome evidence.
+
 ## Related concepts
 
 - [Immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
@@ -92,12 +100,13 @@ A fictional population is PD-1-positive and divides after stimulation. Can you c
 
 ## Sources and scope
 
-Source check: October 9, 2026. Mechanism interpretation and fictional exercises, not a treatment recommendation. Expert and learner review remain pending.
+Source check: October 10, 2026. Mechanism interpretation and fictional exercises, not a treatment recommendation. Expert and learner review remain pending.
 
 - [Miller et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30778252/) — tumor models and related human melanoma observations.
 - [Utzschneider et al., 2016: persistent viral-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct experimental disease setting.
 - [Macián et al., 2002: anergy signaling and transcription](https://pubmed.ncbi.nlm.nih.gov/12086671/) — controlled mechanistic experiments.
 - [Tran et al., 2007: induced FOXP3 without suppressive function](https://pubmed.ncbi.nlm.nih.gov/17644734/) — human T-cell culture experiments.
+- [Burger et al., 2021: antigen dominance and progenitor phenotypes](https://pmc.ncbi.nlm.nih.gov/articles/PMC8522630/) — engineered mouse lung tumors, defined vaccine/checkpoint experiments and separate human associations.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
@@ -109,6 +118,7 @@ Source check: October 9, 2026. Mechanism interpretation and fictional exercises,
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)

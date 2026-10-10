@@ -7,7 +7,7 @@ glossary_anchor: cytokine-therapy
 aliases: ["cytokine immunotherapy"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]", "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: [education, immunotherapy]
 updated: "2026-10-10"
@@ -101,4 +101,5 @@ Source-checked October 10, 2026. General education and a fictional exercise; exp
 ## Used in
 
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 <!-- END GENERATED USED IN -->

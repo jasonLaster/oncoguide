@@ -84,6 +84,10 @@ New to the words? Read steps 1–5 before jumping to an assay. Reading a splice 
 
 These shortcuts save time while keeping the prerequisites available. They are learning routes, rather than testing recommendations.
 
+## Explore the tumor after treatment
+
+[[wiki/education/molecular-profiling/08-profile-residual-tumor|Read single-cell data after treatment]] is a supplementary 12-minute lesson. It connects the RNA and immune-recognition foundations to a new question: which cancer-cell states and potential targets are present in the sampled residual tissue? Work through a fictional sample-yield example, then choose the protein, spatial or functional measurement that would address the remaining gap.
+
 ## Applied to Diana
 
 [[wiki/care/molecular-profile|The molecular profile]] owns case interpretation. [[wiki/omics/specimen-to-sample-map|The specimen map]] preserves attribution across samples, and [[wiki/questions/index|the decision pages]] own clinical questions. Use those current owners when applying the general teaching here.

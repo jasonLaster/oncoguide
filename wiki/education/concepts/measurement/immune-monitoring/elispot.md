@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"
 used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ Picture a plate that catches small droplets where each cell sits. A cell releasi
 
 ## How it works
 
-Antibodies on a membrane capture a selected molecule, often interferon gamma, released by nearby cells. After stimulation and incubation, detection reagents make localized spots visible. The laboratory reports spot-forming units relative to the number of cells tested, with the method and background stated.
+Antibodies on a membrane capture a selected molecule, often [interferon gamma (IFNγ)](/wiki/education/concepts/immunology/the-immune-system/interferons), released by nearby cells. After stimulation and incubation, detection reagents make localized spots visible. The laboratory reports spot-forming units relative to the number of cells tested, with the method and background stated.
 
 For antigen testing, cells may receive a candidate peptide or peptide pool. A negative control estimates background; a positive control checks whether the sample can respond. Replicates and predefined criteria help distinguish a response from noise. Viability, prior freezing and sample handling also matter.
 
@@ -43,11 +43,14 @@ A vaccine study can compare responses before and after dosing under a consistent
 
 | Field | Interpretation |
 |---|---|
-| Input | A suitable viable-cell preparation, often blood-derived immune cells |
-| Output | Spot-forming units per stated number of input cells, with background handling |
-| Controls | Unstimulated or vehicle wells, positive stimulation, replicates and viability |
-| Failure modes | High background, dead cells, weak stimulation, merged spots or inconsistent counting |
-| Cannot establish alone | The target of each receptor, natural tumor recognition, tissue safety or clinical benefit |
+| Measures | Cells secreting the selected molecule under defined stimulation, estimated through spots |
+| How | Capture secretion on an antibody-coated membrane; incubate; detect localized spots; count with controls |
+| Input and tissue cost | Viable cells, often [peripheral blood mononuclear cells (PBMCs)](/wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells); testing and any expansion consume cells |
+| Output and units | Spot-forming units per stated input-cell number, with background subtraction or other handling specified |
+| Thresholds | Predefined assay-specific response and quality rules; subtraction alone does not establish positivity |
+| Failure modes | High background, dead cells, weak stimulation, merged spots, inconsistent counting or failed controls |
+| What it cannot tell you | Each receptor's target, natural tumor recognition, healthy-tissue safety or clinical benefit |
+| Validation tier | Must match the preparation, stimulus, species and intended use; protocol validation is not clinical efficacy |
 
 The response cutoff belongs to the specific assay and study. Do not import one paper's positivity rule into a different laboratory report.
 
@@ -61,6 +64,20 @@ In a fictional experiment, post-dose cells produce more spots with a candidate p
 - A negative result can reflect sample or assay limitations rather than no relevant cells anywhere.
 - [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) sequencing tracks receptor sequences; its [assay concept](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) explains the readout; ELISpot measures secretion after stimulation.
 
+## Try it
+
+A fictional well with 100,000 input cells has 30 spots after peptide stimulation; a matched vehicle well has 5. What is the background-subtracted signal per million input cells?
+
+**Answer:** (30 − 5) × 10 = 250 spot-forming units per million input cells. This is an arithmetic summary, not a validated positivity cutoff. Replicates, controls and the prespecified response rule still matter. In mixed PBMCs it is not automatically the frequency of a particular T-cell subset.
+
+## Explain it back
+
+“ELISpot measures ___ under ___; tumor killing requires ___.” One answer: “secretion; defined stimulation conditions; a separate controlled assay with suitable targets.”
+
+## Takeaway
+
+**Keep the stimulus, input denominator, background and preparation beside every spot count.**
+
 ## Related concepts
 
 - [Peptide–HLA multimer staining](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining)
@@ -68,7 +85,7 @@ In a fictional experiment, post-dose cells produce more spots with a candidate p
 
 ## Sources and scope
 
-Source check: October 9, 2026. This page explains a method or mechanism. Expert and learner review remain pending.
+Source check: October 10, 2026. This page explains a method or mechanism. Expert and learner review remain pending.
 
 - [Peptide-specific interferon-gamma ELISpot protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC8410284/).
 - [IFN-gamma ELISpot protocol and interpretation in vaccine research](https://www.nature.com/articles/nprot.2009.7).

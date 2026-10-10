@@ -8,7 +8,7 @@ minutes: 10
 objectives: ["Separate access, recognition, function and safety barriers."]
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]"]
 sensitive: false
-source_checked: "2026-10-09"
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,11 +43,11 @@ A surface target must be accessible and present at a level the CAR can respond t
 
 [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) can leave some cancer cells with much of a target, others with little, and others with none. Different metastases may also differ. **Antigen escape** occurs when cells that are not effectively recognized survive and grow. [Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) explains how pre-existing populations and later changes can contribute; it does not mean treatment deliberately teaches a cell to resist. [1]
 
-Conventional CAR recognition does not require a peptide to be displayed on [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). That removes one recognition dependency; it does not remove the need for an appropriate surface target. See [[wiki/education/cellular-therapies/02-car-tcr-til-comparison|the recognition comparison]].
+Conventional CAR recognition does not require a peptide to be displayed on [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). That removes one recognition dependency; it does not remove the need for an appropriate surface target. See [[wiki/education/cellular-therapies/02-car-tcr-til-comparison|the recognition comparison]]. [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape) also separates baseline display from its ability to increase after an interferon signal. A signaling defect is not automatically total display loss. Which dependency matters depends on the receptor and tested target.
 
 ### 3. Keep working in a hostile environment
 
-Suppressive signals, limited nutrients, low oxygen, and repeated stimulation can undermine function. **Exhaustion** describes a biological state associated with chronic stimulation and altered function; it is not simply a cell being briefly tired.
+Suppressive signals, limited nutrients, low oxygen, and repeated stimulation can undermine function. **Exhaustion** describes a biological state associated with chronic stimulation and altered function; it is not simply a cell being briefly tired. [Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) provide several distinct regulatory contacts. PD-1, LAG-3, TIM-3 or TIGIT staining alone does not identify the causal restraint or establish that blocking it restores useful activity. Compare a defined perturbation with appropriate controls before assigning that job to the pathway.
 
 Give a proposed barrier a specific name. [Adenosine and indoleamine 2,3-dioxygenase (IDO) pathways](/wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido) describe different local regulatory mechanisms. [Tumor-associated macrophages](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-associated-macrophages) and [myeloid-derived suppressor cells](/wiki/education/concepts/cancer-biology/tumor-microenvironment/myeloid-derived-suppressor-cells) require careful identity and function measurements. A high cell count or gene-expression signal alone cannot prove which barrier is causing failure.
 
@@ -103,9 +103,9 @@ The indication name is not a molecular target. Even [triple-negative breast canc
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. The numerical example is deliberately fictional. These lessons do not infer eligibility for a particular treatment.
+Source check: October 10, 2026; expert and learner review pending. The numerical example is deliberately fictional. These lessons do not infer eligibility for a particular treatment.
 
-Tissue-ecosystem links and the controlled neighborhood comparison added October 10, 2026. Linked concepts hold the mechanism sources and their measurement limits. [NCI's tumor biology and microenvironment portfolio](https://www.cancer.gov/about-nci/organization/dcb/research-portfolio/tbmr) describes these interacting tissue questions.
+Tissue-ecosystem links, the controlled neighborhood comparison, checkpoint-marker limits and baseline-versus-inducible display distinctions added October 10, 2026. Linked concepts hold the mechanism sources and their measurement limits. [NCI's tumor biology and microenvironment portfolio](https://www.cancer.gov/about-nci/organization/dcb/research-portfolio/tbmr) describes these interacting tissue questions.
 
 1. [NCI: CAR T cells, including barriers in solid tumors](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7). Preclinical evidence for locally controlled cytokine expression; not in vivo generation of the CAR-T cells.

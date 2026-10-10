@@ -7,11 +7,11 @@ glossary_anchor: "cancer-immunity-cycle"
 aliases: ["cancer-immunity cycle", "immune cycle"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,12 +35,12 @@ The display step uses [human leukocyte antigen (HLA)](/wiki/education/concepts/i
 
 ```mermaid
 flowchart TD
-  A[1. Tumor antigens become available] --> B[2. Antigens are collected and displayed]
-  B --> C[3. T cells are primed]
-  C --> D[4. Responding cells travel]
-  D --> E[5. Cells enter the tumor]
-  E --> F[6. A displayed target is recognized]
-  F --> G[7. Susceptible cancer cells are killed]
+  A[1. Antigens<br/>become available] --> B[2. Collect<br/>and display]
+  B --> C[3. Prime<br/>T cells]
+  C --> D[4. Responders<br/>travel]
+  D --> E[5. Enter<br/>the tumor]
+  E --> F[6. Recognize<br/>a displayed target]
+  F --> G[7. Kill susceptible<br/>cancer cells]
   G --> A
 ```
 
@@ -63,6 +63,20 @@ In a fictional vaccine study, a peptide-stimulation assay becomes positive in bl
 - A diagram’s return arrow is not proof of lasting protection.
 - Identifying a bottleneck does not establish a safe way to overcome it.
 
+## Try it
+
+A fictional blood assay shows secretion after added-peptide stimulation. Which two later steps should you leave unclaimed?
+
+**Answer:** Entry into the sampled tumor and recognition of naturally presenting cancer cells remain untested. Added peptide can bypass natural processing. Useful killing and benefit need further evidence too.
+
+## Explain it back
+
+“The cycle helps me locate ___; it cannot by itself prove ___.” One answer: “a proposed bottleneck; that every step works or that a combination helps patients.”
+
+## Takeaway
+
+**Use the cycle as a question map, and attach a matching measurement to each claimed step.**
+
 ## Related concepts
 
 - [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation)
@@ -71,7 +85,7 @@ In a fictional vaccine study, a peptide-stimulation assay becomes positive in bl
 
 ## Sources and scope
 
-Source check: October 9, 2026. A biological teaching framework, not a patient classifier or treatment algorithm. Expert and learner review remain pending.
+Source check: October 10, 2026. A biological teaching framework, not a patient classifier or treatment algorithm. Expert and learner review remain pending.
 
 - [Chen and Mellman, 2013: the original cancer-immunity-cycle framework](https://pubmed.ncbi.nlm.nih.gov/23890059/).
 - [NCI: how immunotherapy works](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy).
@@ -82,6 +96,7 @@ Source check: October 9, 2026. A biological teaching framework, not a patient cl
 
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
+- [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
 - [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)

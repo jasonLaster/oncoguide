@@ -12,8 +12,8 @@ reviewed: pending
 reviewed_by: ""
 sensitive: false
 tags: [education, immunology]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -31,13 +31,13 @@ Sequence comparison is useful, but a molecular “looks familiar” score is not
 
 ## How it works
 
-During T-cell development, **central tolerance** removes many cells that react strongly to self targets and supports the development of regulatory populations. **Peripheral tolerance** restrains mature cells through mechanisms such as limited activation signals, functional unresponsiveness and regulatory T cells. These mechanisms differ from having no receptor capable of binding a self molecule.
+During [T-cell](/wiki/education/concepts/immunology/t-cells/t-cell) development, **central tolerance** removes many cells that react strongly to self targets and supports the development of regulatory populations. [Peripheral tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) restrains mature cells through mechanisms such as limited activation signals, functional unresponsiveness and regulatory T cells. These mechanisms differ from having no receptor capable of binding a self molecule.
 
 A tumor-specific mutation may make a peptide distinguishable from its normal counterpart. That can create an opportunity for recognition, but the altered peptide still needs suitable human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) display and a responsive T-cell receptor ([TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)). A large sequence change does not guarantee either step.
 
 Conversely, a small change can matter if it alters peptide binding or a receptor-contact surface. There is no universal percentage of sequence identity that turns a candidate into a safe or effective treatment. Receptors can cross-react with different peptides, including peptides from unrelated proteins. Molecular shape and the presenting HLA molecule contribute alongside sequence.
 
-Engineering receptor affinity can change the balance. Stronger binding is not automatically more selective. Evaluation therefore includes the normal counterpart, other plausible cross-reactive peptides and relevant healthy-cell systems, with controls that test the actual recognition route.
+Engineering receptor [affinity](/wiki/education/concepts/biology-basics/molecules/enzymes-and-binding) can change the balance. Stronger binding is not automatically more selective. Evaluation therefore includes the normal counterpart, other plausible cross-reactive peptides and relevant healthy-cell systems, with controls that test the actual recognition route.
 
 ## Why it matters in cancer
 
@@ -56,6 +56,24 @@ The prediction did not establish mutant-specific recognition. The next questions
 - A stronger receptor can increase unwanted recognition as well as intended recognition.
 - A negative result in one healthy-cell model does not cover every tissue or experimental condition.
 
+## Read the specificity experiment
+
+A peptide-concentration series can compare responses to mutant and normal sequences using the same HLA and responder. Keep concentration units, background and activation endpoint attached: a response threshold in this experiment is not a patient safety threshold. Artificial peptide loading also leaves natural processing open. Similarity models can identify candidates for these tests; they cannot certify an entire healthy proteome as safe.
+
+## Try it
+
+The fictional receptor responds to M and N after artificial loading. A writer calls it “tumor-exclusive” because only M's sequence was found in tumor [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna). What is missing?
+
+**Answer:** The sequence distinction did not produce exclusive receptor recognition in that assay. Natural display and broader healthy-target tests are still needed; the existing normal-peptide response is a relevant warning.
+
+## Explain it back
+
+Explain how sequence specificity and receptor specificity can disagree.
+
+## Takeaway
+
+**Use similarity to ask better questions, not to certify safety.**
+
 ## Related concepts
 
 - [Tumor-associated antigen](/wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen)
@@ -64,7 +82,7 @@ The prediction did not establish mutant-specific recognition. The next questions
 
 ## Sources and scope
 
-Source-checked October 9, 2026. The example is fictional and supplies no clinical selection threshold. Expert and learner review remain pending.
+Source-checked October 10, 2026. The example is fictional and supplies no clinical selection threshold. Expert and learner review remain pending.
 
 - [Janeway's Immunobiology: self-tolerance and its loss](https://www.ncbi.nlm.nih.gov/books/NBK27174/), for central and peripheral tolerance mechanisms.
 - [Cameron and colleagues: a titin-derived cross-reactive target](https://pubmed.ncbi.nlm.nih.gov/23926201/), a primary demonstration that an engineered MAGE-A3-directed TCR recognized another peptide.

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"
 used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ A repertoire is like a library with many titles and different numbers of copies.
 
 ## How it works
 
-Developing cells rearrange receptor gene segments to generate diversity. They then undergo selection in the thymus, an organ where many T cells mature. A **clone** is a lineage descended from a T cell. **Clonotype** is an operational sequence label used to group sampled receptors. Depending on the assay, that label may use one chain or a paired receptor. Those are not equally precise identities.
+Developing [T cells](/wiki/education/concepts/immunology/t-cells/t-cell) use [V(D)J recombination](/wiki/education/concepts/biology-basics/genetics/vdj-recombination) to generate receptor diversity. They then undergo selection in the thymus, an organ where many T cells mature. A **clone** is a lineage descended from a T cell. **Clonotype** is an operational sequence label used to group sampled receptors. Depending on the assay, that label may use one chain or a paired receptor. Those are not equally precise identities.
 
 When cells respond to antigen, selected clones can multiply. Their frequency changes in the measured repertoire. A vaccine generally expands cells with pre-existing [T-cell receptors (TCRs)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor); it does not rewrite the receptor genes of each mature responding cell. The expanded cells’ target and function still need testing.
 
@@ -56,6 +56,20 @@ A fictional blood sample becomes dominated by a few clones after a recent infect
 
 [T-cell receptor sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) reports sequences, relative frequencies and diversity summaries under a specified method. Sampling depth and chain definitions must be included when comparing studies.
 
+## Try it
+
+A fictional paired-receptor sample contains 10 cells of clonotype A among 1,000 sampled T cells at baseline, and 10 among 100 at follow-up. Has the sampled number of A cells increased tenfold?
+
+**Answer:** No. A's measured fraction rose from 1% to 10%, while its sampled count stayed at 10. The changed denominator creates the frequency increase. Estimating absolute expansion in blood or tissue needs comparable sampling and calibrated cell counts; neither fraction identifies A's target.
+
+## Explain it back
+
+Explain why a larger receptor fraction can occur without more cells of that clonotype.
+
+## Takeaway
+
+A repertoire is a sampled distribution of receptor identities and abundance, not a complete map of targets or function.
+
 ## Related concepts
 
 - [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
@@ -63,7 +77,7 @@ A fictional blood sample becomes dominated by a few clones after a recent infect
 
 ## Sources and scope
 
-Source check: October 9, 2026. General repertoire dynamics; no cell-banking recommendation or personal immune-age claim is implied. Expert and learner review remain pending.
+Source check: October 10, 2026. General repertoire dynamics; no cell-banking recommendation or personal immune-age claim is implied. Expert and learner review remain pending.
 
 - [Douek et al., 1998: adult thymic function](https://pubmed.ncbi.nlm.nih.gov/9872319/) — receptor-excision-circle measurements in humans.
 - [Vrisekoop et al., 2008: production and maintenance of human naive cells](https://pubmed.ncbi.nlm.nih.gov/18420820/) — kinetic labeling and modeling.

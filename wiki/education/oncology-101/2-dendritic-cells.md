@@ -8,8 +8,8 @@ objectives: ["Separate antigen display from priming a naive T cell.", "Distingui
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]", "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells]]", "[[wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -47,7 +47,7 @@ The concepts hold the detailed trafficking and sensing mechanisms. Here the prac
 
 There are two situations worth keeping separate. A dendritic cell can acquire a protein made elsewhere. Routing that external material onto class I HLA is **cross-presentation**. A cell can also make an antigen internally and present material derived from it. That creates a direct-presentation route.
 
-This distinction matters for vaccines. If a dendritic cell receives messenger RNA, or mRNA, and makes the encoded protein, its class I display need not be called cross-presentation. Antigen transfer between cells can create other routes. Delivery chemistry, route and cell uptake determine which possibilities need testing. “All vaccines use one route” is too broad.
+This distinction matters for vaccines. If a dendritic cell receives [messenger ribonucleic acid (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna), and makes the encoded protein, its class I display need not be called cross-presentation. Antigen transfer between cells can create other routes. Delivery chemistry, route and cell uptake determine which possibilities need testing. “All vaccines use one route” is too broad.
 
 The [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains how an RNA message leads to protein. The [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index) follows that application in more detail.
 
@@ -76,7 +76,9 @@ This is a framework, not a literal three-switch panel. Dose, timing, location an
 
 Antigen can be unavailable, collected poorly or processed into a different fragment. Display can occur without useful priming. A response can also be generated elsewhere than the tissue being sampled. A low dendritic-cell count in one small biopsy therefore does not prove that no priming occurred anywhere.
 
-Different dendritic-cell subsets have overlapping roles. Conventional type 1 dendritic cells, often written cDC1, are especially important in cross-presentation. They are not the only cells capable of presenting antigen in every setting.
+Different dendritic-cell subsets have overlapping roles. Conventional type 1 dendritic cells (**cDC1**) are especially important in cross-presentation. Conventional type 2 (**cDC2**) cells are often studied for class-II/CD4 responses, while plasmacytoid (**pDC**) cells have prominent type-I interferon roles under suitable conditions. The [dendritic-cell concept](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) compares these identities and their limits.
+
+An immature or mature label describes state, rather than another subset. Antigen uptake, maturation markers and measured priming remain different observations. No single subset count proves that the right target was displayed in a useful context.
 
 ## Try it
 
@@ -98,10 +100,11 @@ One possible answer: “a fragment can be presented; a naive T cell begins an an
 
 ## Sources and scope
 
-Source check: October 9, 2026. General priming mechanisms; the comparison is fictional. Expert and learner review remain pending.
+Source check: October 10, 2026. General priming mechanisms; the comparison is fictional. Expert and learner review remain pending.
 
 - [Molecular Biology of the Cell: T cells and antigen-presenting cells](https://www.ncbi.nlm.nih.gov/books/NBK26926/).
 - [Primary signal-three experiments in naive CD8 cells](https://pmc.ncbi.nlm.nih.gov/articles/PMC2193970/).
 - [Sixt et al., 2005: soluble antigen and resident dendritic cells](https://pubmed.ncbi.nlm.nih.gov/15664156/) — mouse lymph-node trafficking.
 - [Woo et al., 2014: host DNA sensing and antitumor priming](https://pubmed.ncbi.nlm.nih.gov/25517615/) — mouse tumor models, not a clinical activation rule.
+- [Villani et al., 2017: human blood dendritic-cell diversity](https://pubmed.ncbi.nlm.nih.gov/28428369/) — subset assignment and overlapping marker-defined populations.
 - [Kranz et al., 2016: systemic RNA delivery and immune responses](https://pubmed.ncbi.nlm.nih.gov/27281205/) — a particular delivery platform, not every vaccine formulation.
