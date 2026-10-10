@@ -8,8 +8,8 @@ objectives: ["Distinguish an accessible surface target from a peptide–HLA targ
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -45,7 +45,7 @@ An antibody can recognize an exposed part of an intact surface protein. The prot
 
 A different route recognizes a short protein fragment displayed in a peptide–HLA complex. The source protein can be intracellular, but the presented complex must be accessible at the surface. A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes the paired peptide and HLA, rather than the source protein alone.
 
-This distinction cuts across product formats. A peptide–HLA-directed soluble TCR can be part of a dosed engager protein. TCR-engineered T cells carry a receptor on living cells. Tebentafusp illustrates the protein format: its target arm recognizes a specific peptide–HLA-A*02:01 complex while its CD3 arm recruits T cells. The protein remains HLA-dependent for target recognition.
+This distinction cuts across product formats. The [TCR-mimic and engager explanation](/wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers) separates an antibody-derived peptide–HLA binder from an engineered soluble TCR, and shows how either can be joined to a T-cell-recruiting arm. An antibody-like mimic is not automatically an engager. [TCR-engineered T cells](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t) instead carry a receptor on living cells. Tebentafusp illustrates a dosed TCR/CD3 protein: its target arm recognizes a specific peptide–HLA-A*02:01 complex while its CD3 arm recruits T cells. Changing the product format does not remove that recognition requirement.
 
 A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) usually recognizes an intact surface target and contains its own intracellular signaling design. A surface-target engager instead recruits the T cell through CD3. Neither requires that cell's native TCR to recognize the tumor peptide, but both still depend on immune-cell function.
 
@@ -92,7 +92,7 @@ Complete: “The binder tells me ______. The format tells me ______. A binding a
 
 ## Sources and scope
 
-Source check: October 9, 2026. General mechanisms with fictional exercises; expert and learner review remain pending. This lesson does not establish treatment selection or access.
+Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General mechanisms with fictional exercises; expert and learner review remain pending. This lesson does not establish treatment selection or access.
 
 - [NCI: monoclonal antibodies](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) — recognition and immune-effector mechanisms.
 - [FDA, 2024: ADC clinical pharmacology](https://www.fda.gov/media/155997/download) — components and product-specific action.

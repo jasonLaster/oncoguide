@@ -7,7 +7,7 @@ glossary_anchor: "tcr-t"
 aliases: ["TCR-T", "engineered TCR-T", "T-cell receptor therapy"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]"]
-used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: 2026-10-10
@@ -104,4 +104,5 @@ Source check: October 10, 2026; expert and learner review pending. This is found
 - [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison)
 - [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
 <!-- END GENERATED USED IN -->

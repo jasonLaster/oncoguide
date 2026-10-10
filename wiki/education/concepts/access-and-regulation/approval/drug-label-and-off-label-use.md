@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -41,11 +41,34 @@ Evidence and labeling are related but distinct. Some off-label uses have substan
 
 A drug never approved for any use is investigational, rather than simply off label. Obtaining it involves a different pathway, such as a [clinical trial or expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access).
 
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+ A["Identify the product"] --> B["Read its label"]
+ B --> C["Compare the use"]
+ C --> D["Assess the evidence"]
+```
+
+*These checks separate regulatory classification from whether the proposed treatment helps.*
+
 ## Why it matters in cancer
 
 A gene alteration and a drug targeting that gene's protein do not, together, establish that the drug helps this tumor. Ask whether the relevant alteration changes protein function, whether the drug reaches the target, and whether clinical evidence matches the disease and setting.
 
 Similarly, evidence in metastatic disease does not automatically establish prevention of recurrence after surgery. The proposed goal and acceptable risk may be different.
+
+## Intended-use card
+
+Compare the actual proposal with the current prescribing information, field by field:
+
+| Field | Question |
+|---|---|
+| Product | Is this exact drug and formulation approved for any use? |
+| Population | Does the disease, setting, biomarker and prior treatment match? |
+| Administration | Do dose, route, schedule and combination match the labeling? |
+| Evidence and practical access | What supports the proposed use, and what do the clinician, institution and payer require? |
+
+The classification has no biological unit. It comes from documents; a laboratory signal cannot rewrite a drug label.
 
 ## Worked example
 
@@ -58,6 +81,22 @@ In a fictional report, Drug A is approved for advanced Cancer X with Alteration 
 - Insurance authorization answers a payment question, rather than establishing a treatment's effectiveness.
 - A label change can alter the regulatory status of a use. Check the current prescribing information.
 
+## Try it
+
+Fictional Drug A is approved as a tablet at a specified dose for Cancer X. A proposal uses the same approved tablet at a different dose for Cancer Y. Product B has never been approved. Are both simply off label?
+
+**Answer:** A's proposed disease and dose differ from its label: these are off-label features requiring separate assessment. The example retains the same approved product. B is investigational, requiring an applicable access pathway. Neither category tells us that treatment will help. Consent, institutional and payment requirements need plan-specific answers.
+
+## Explain it back
+
+“The product is approved for ____, but the proposed use differs in ____; the supporting evidence is ____.”
+
+One answer: “Cancer X; disease and dose; still a separate question.”
+
+## Takeaway
+
+**Approval of a medicine and evidence for its proposed use must travel as separate statements.**
+
 ## Related concepts
 
 - [Actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability)
@@ -66,11 +105,11 @@ In a fictional report, Drug A is approved for advanced Cancer X with Alteration 
 
 ## Sources and scope
 
-U.S. source check: October 9, 2026. The drug example is fictional. This page explains categories, not the suitability of an individual prescription. Expert and learner review remain pending.
+U.S. source check: October 10, 2026. The drug example is fictional. This page explains categories, not the suitability of an individual prescription. Expert and learner review remain pending.
 
-- [FDA: understanding unapproved use of approved drugs](https://www.fda.gov/understanding-unapproved-use-approved-drugs-label) — meaning and boundaries of off-label use.
+- [FDA: understanding unapproved use of approved drugs](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label) — meaning and boundaries of off-label use.
 - [FDA: learn about expanded access and other treatment options](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options) — separate paths for approved and investigational products.
-- [FDA: Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm) — a starting point for a specific drug's current approval and labeling records.
+- [FDA: about Drugs@FDA](https://www.fda.gov/drugs/drug-approvals-and-databases/about-drugsfda) — approval letters and labeling records; a starting point rather than a claim that this database covers every biological product.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

@@ -3,8 +3,8 @@ title: "Understand access to an experimental therapy"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -32,15 +32,18 @@ You do not need to solve every regulatory detail yourself. The useful goal is to
 ## The map
 
 ```mermaid
+%%{init: {"htmlLabels":false,"themeVariables":{"fontSize":"13px"},"flowchart":{"htmlLabels":false,"padding":4,"nodeSpacing":8,"rankSpacing":28}}}%%
 flowchart TD
-  A[1. Identify the product and proposed use] --> B{Which route applies?}
-  B --> C[Approved drug: review on-label or off-label use]
-  B --> D[Investigational product: check trial opportunity]
-  D --> E[2. Confirm protocol, site and cohort]
-  D --> F[If trial access is not feasible: assess other pathways]
-  E --> G[3. Confirm consent, supply and clinical readiness]
+  A[1. Identify<br/>the product<br/>and proposed<br/>use] --> B{Which<br/>route<br/>applies?}
+  B --> C[Approved<br/>drug:<br/>review<br/>on-label<br/>or<br/>off-label<br/>use]
+  B --> D[Investigational<br/>product: check<br/>trial opportunity]
+  D --> E[2.<br/>Confirm<br/>protocol,<br/>site and<br/>cohort]
+  D --> F[If trial<br/>access is<br/>not<br/>feasible:<br/>assess<br/>other<br/>pathways]
+  E --> G[3. Confirm<br/>consent,<br/>supply and<br/>clinical<br/>readiness]
   F --> G
   C --> G
+  E --- F
+  linkStyle 8 stroke:transparent,stroke-width:0
 ```
 
 *Follow the numbered lesson links below. A pathway becomes usable only when the relevant gates have been resolved.*
@@ -59,6 +62,8 @@ Minutes are suggested reading budgets. Each lesson includes a fictional case, a 
 
 Start with [drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) and [clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access). Then read [trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) before interpreting a study invitation.
 
+[Federal Right to Try](/wiki/education/concepts/access-and-regulation/trials-and-access/right-to-try) has its own patient and product criteria. For expanded access, the [submission and timing explanation](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) distinguishes a new IND from a protocol under an active IND. Neither route supplies a guaranteed treatment start date.
+
 An [investigator-initiated trial](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials) needs the same clear responsibility questions: who sponsors, investigates and supplies? [IND versus marketing applications](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) explains the different regulatory jobs.
 
 For a therapy suggested by a report, [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) and [judging a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index) help separate the access question from the evidence question.
@@ -75,7 +80,7 @@ Practical availability changes. A study may pause enrollment, a cohort may fill,
 
 ## Sources and scope
 
-U.S. source check: October 9, 2026. General education; expert and learner review pending. No individual eligibility or access determination is made here.
+U.S. integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General education; expert and learner review pending. No individual eligibility or access determination is made here.
 
 - [FDA: expanded access and other treatment options](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options) — route categories.
 - [NCI: steps to find a clinical trial](https://www.cancer.gov/research/participate/clinical-trials-search/steps) — search and site confirmation.

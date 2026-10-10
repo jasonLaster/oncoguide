@@ -3,8 +3,8 @@ title: "Check a real trial opportunity"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,7 +33,7 @@ Check the disease and treatment setting first. A trial for advanced cancer may r
 
 Then inspect prior treatments, relevant medical conditions, current medicines, laboratory requirements and sample needs. A **washout period** is a protocol-defined interval after a prior treatment or medication. Do not guess its start date or assume that one study's rule applies to another.
 
-A clinician and study team can distinguish a clear mismatch from a question requiring review. Keep the uncertain items marked uncertain. A self-made eligibility sheet is useful preparation; it is not an enrollment decision.
+A clinician and study team can distinguish a clear mismatch from a question requiring review. Keep the uncertain items marked uncertain. A self-made eligibility sheet is useful preparation; it is not an enrollment decision. The [finding-and-checking-a-trial concept](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial) keeps two jobs distinct: searching for a plausible lead, then having the study team check formal eligibility and current site/cohort availability. Keep the protocol version and date with each answer.
 
 ## Ask about the cohort and the site
 
@@ -94,7 +94,7 @@ Complete: “The study is recruiting overall, but we still need to confirm ____,
 
 ## Sources and scope
 
-Source check: October 9, 2026. Mara's study is fictional, with no claim of a current opening. Expert and learner review pending.
+Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. Mara's study is fictional, with no claim of a current opening. Expert and learner review pending.
 
 - [NCI: steps to find a clinical trial](https://www.cancer.gov/research/participate/clinical-trials-search/steps) — eligibility preparation and site contact.
 - [NCI: how clinical trials work](https://www.cancer.gov/research/participate/clinical-trials/how-trials-work) — assignment and controls.

@@ -3,8 +3,8 @@ title: "Name the access route"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -47,7 +47,7 @@ These are categories to clarify with the treating team. They are not interchange
 
 Use [clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) to identify which purpose and safeguards apply. A trial can study established drugs, and a single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) can support expanded access. Supplier willingness and applicable clinical and review requirements remain separate questions.
 
-**Federal Right to Try** has distinct patient and product requirements. Among them, the patient must have a life-threatening condition, have exhausted approved options, and be unable to participate in a trial of the eligible drug. Product requirements include completed phase 1 testing and active development under specified conditions. The Food and Drug Administration (FDA) does not review individual Right to Try requests, and the law does not require the supplier to provide treatment. Ask the responsible physician and supplier to verify the full current criteria.
+[**Federal Right to Try**](/wiki/education/concepts/access-and-regulation/trials-and-access/right-to-try) has separate patient and product criteria, which the linked concept explains together. The Food and Drug Administration (FDA) does not review individual requests under this route, and the route does not compel supply. Ask the physician and supplier to verify the full criteria and practical readiness before treating it as an available option.
 
 ## Worked example: three fictional proposals
 
@@ -85,7 +85,7 @@ Complete: “This product is ____, and this proposed use is ____. The route we n
 
 ## Sources and scope
 
-U.S. source check: October 9, 2026. Mara and all products are fictional. Expert and learner review pending. The Right to Try summary is introductory; use the complete current criteria for an actual request.
+U.S. integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. Mara and all products are fictional. Expert and learner review pending. The Right to Try summary is introductory; use the complete current criteria for an actual request.
 
 - [FDA: understanding off-label use](https://www.fda.gov/understanding-unapproved-use-approved-drugs-label) — approved drug, unapproved use.
 - [FDA: expanded-access overview](https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-treatment-expanded-access-overview) — criteria and submission categories.

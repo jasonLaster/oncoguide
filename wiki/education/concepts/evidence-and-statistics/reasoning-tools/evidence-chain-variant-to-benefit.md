@@ -48,7 +48,7 @@ An assay must fit the mechanism it is asked to test. A protein-only expression c
 
 An activating change, a loss of function and high protein abundance are different biological findings. Inhibiting the named protein does not follow from all three. Other cells in the sample, parallel pathways and treatment history can also change the hypothesis.
 
-[Target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) means a drug affects its intended target under the measured conditions. It does not by itself show cancer-cell death, tumor response or survival benefit. Those outcomes need their own measurements.
+[Target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) asks whether a compound reaches and interacts with its intended target under the measured conditions; an effect on the target or downstream biology needs its own measurement. It does not by itself show cancer-cell death, tumor response or survival benefit. Those outcomes need their own measurements.
 
 [Clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) asks whether the finding supports a specific decision. The European Society for Medical Oncology's clinical-actionability framework separates relevant human evidence, adjacent clinical evidence and preclinical support. A plausible pathway match cannot erase the disease and treatment-setting boundary. [Mateo et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30137196/).
 

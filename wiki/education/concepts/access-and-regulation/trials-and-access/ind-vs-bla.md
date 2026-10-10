@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,58 +25,84 @@ An investigational application supports defined human use during research or acc
 
 ## The intuition
 
-Permission to investigate a product and permission to market it are different doors. Passing through the first can let researchers gather the evidence needed for the second. It does not mean the second door will open.
+Permission to investigate and permission to market are different doors. Passing through the first can let researchers gather evidence for the second. It does not mean the second door will open.
 
-This is a memory aid rather than a universal straight line. Some investigations concern already marketed products, and treatment access outside a trial can also use an investigational application.
+This memory aid is not a universal straight line. Some investigations concern marketed products. Treatment access outside a trial can also use an investigational application.
 
 ## How it works
 
-An **Investigational New Drug (IND) application** is the U.S. regulatory mechanism supporting specified investigational use of a drug or biologic. It includes relevant nonclinical information, manufacturing information and clinical protocols. The **Food and Drug Administration (FDA)** assesses whether the proposed use can proceed without unreasonable risk under the applicable framework.
+An **Investigational New Drug (IND) application** is a U.S. mechanism supporting specified investigational use of a drug or biologic. It contains relevant nonclinical information, manufacturing information and clinical protocols. The **Food and Drug Administration (FDA)** evaluates whether the proposed investigation can proceed under the applicable framework without unreasonable risk.
 
-An IND becoming effective or a use being allowed to proceed is not marketing approval. A clinical hold can prevent or interrupt an investigation. An IND number identifies the application; it does not certify benefit, establish enrollment or authorize every future product version and protocol.
+An IND becoming effective is **not marketing approval**. A **clinical hold** can prevent or interrupt an investigation. The application number does not establish benefit, enrollment or authorization for every later product version and protocol. The new-IND clock is ordinarily 30 calendar days after FDA receipt, absent a hold, or earlier FDA notification that investigation may begin. [Expanded-access submissions have route-specific rules](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access).
 
-A **Biologics License Application (BLA)** requests authorization to market a biological product. Its evidence package addresses safety, effectiveness, manufacturing quality and proposed labeling. Biological products include categories such as vaccines and certain cell or gene therapies. The applicable regulatory center and pathway depend on the actual product.
+A **Biologics License Application (BLA)** asks for authorization to market an applicable biological product. Its package addresses safety, effectiveness, manufacturing quality and proposed labeling. Examples include vaccines and certain cell or gene therapy products. The actual product determines the regulatory pathway; a broad “biological” description is not enough to classify every product.
 
-A **New Drug Application (NDA)** is a drug marketing application. It is another marketing door, rather than an earlier stage that every BLA must pass through. A BLA submission, FDA filing review and an approval decision are different milestones.
+A **New Drug Application (NDA)** is another drug marketing application. It is an alternative marketing route, not an earlier milestone every BLA must pass through. Submission, acceptance for filing and an approval decision are separate events.
 
-Both investigational and marketing pathways can concern product quality. “They looked at manufacturing” therefore cannot tell you which regulatory decision occurred. A new formulation or manufacturing change needs its applicable review; sharing an ingredient or platform name does not automatically carry forward another authorization.
+| Document or milestone | What it tells you | What it does not tell you |
+|---|---|---|
+| IND in effect | Defined investigation may proceed, subject to applicable requirements | Product is approved for marketing or benefits this person |
+| BLA or NDA submitted | Marketing review is being requested | Request was filed for substantive review or approved |
+| Approval and current label | Authorized marketing and the approved conditions of use | Every proposed use is supported, suitable or covered |
+
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+  A[Investigate] --> B[Collect evidence]
+  B --> C[Request marketing]
+  C --> D[FDA decision]
+```
+
+*This is a simplified development sequence. The arrows represent work and review, not guaranteed advancement or approval.*
+
+Both IND and marketing review address product quality. “They reviewed manufacturing” therefore cannot identify which decision occurred. A changed formulation or manufacturing process needs its applicable assessment; sharing an ingredient or platform name does not automatically transfer authorization.
 
 ## Why it matters in cancer
 
-A clinic or company may mention an IND when discussing an investigational treatment. Ask what product, protocol and sponsor it covers. An existing application may support a new protocol only through the applicable submission and review steps.
+A sponsor may mention an active IND when discussing a proposed therapy. Ask which product, protocol and sponsor it covers. A single-patient IND can support treatment through expanded access without granting a marketing license.
 
-A single-patient IND is one mechanism for [expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access). It concerns a proposed treatment use, not a new marketing approval. Supplier agreement, clinical readiness and required reviews remain separate.
+For a marketed product, read the actual decision and [label](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use). Approval status, evidence for a different proposed use and feasibility of delivering treatment are separate questions.
 
 ## How the status is checked
 
-The output is documentary, without a biological unit. Ask for the exact application type, sponsor, covered product/use, current decision and limitations. For a marketed product, inspect the current approval and [label](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use). An application number or a submitted dossier alone is insufficient.
-
-An IND is not a public catalogue guaranteeing access. The clinical team and sponsor confirm the relevant protocol and any required permissions. Product availability and institutional ability to deliver it remain practical questions.
+This is a documentary check with no biological unit. Record the application type, sponsor, product/use, decision date and current limitations. A submitted dossier or application number alone is insufficient. An IND is not a public catalogue guaranteeing product availability; the responsible sponsor and clinical team confirm the applicable protocol and permissions.
 
 ## Common confusions
 
-- An IND allowed to proceed is not an approved BLA.
-- A BLA filed for review is not an approved BLA.
-- A new use of an approved drug may be [off label](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use), while a never-approved product requires an investigational route.
-- Application type does not identify the strength of every clinical claim; [approval pathways](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) explain another axis.
+- “IND allowed to proceed” is not “FDA-approved product.”
+- “BLA filed” is not “BLA approved.”
+- [Off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) concerns an approved product, whereas a never-approved product needs an investigational route.
+- An expedited designation and a [marketing approval pathway](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) answer different questions.
 
 ## Try it
 
-A fictional message says, “Our biologic has an active IND and we submitted the BLA, so it is FDA-approved.” What needs correction?
+A fictional sponsor says, “Our IND may proceed. We plan to submit a BLA next year, so the biologic is approved.” Which parts can the reader retain?
 
-**Answer:** The described milestones are investigation and a marketing request. An actual approval decision and label are still needed before calling the product approved for a use. Neither milestone guarantees access for a particular person.
+**Answer:** Retain the stated investigational milestone and planned marketing request as separate attributed facts. Neither is an issued marketing approval. Ask for the actual approval decision and label before calling the product approved, and verify the exact protocol before assuming a particular use is permitted.
+
+## Explain it back
+
+“An IND asks about ____, while a BLA asks about ____.”
+
+**One possible answer:** “Defined investigational use; authorization to market an applicable biological product.”
+
+## Takeaway
+
+**Investigational permission, a marketing request and marketing approval are different milestones.**
 
 ## Related concepts
 
-[Investigator-initiated trials](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials) identifies sponsor duties. [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) asks how process changes affect earlier evidence.
+- [Investigator-initiated trials](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials)
+- [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability)
 
 ## Sources and scope
 
-U.S. source check: October 9, 2026. The example is fictional. No individual application status or authorization is asserted. Expert and learner review pending.
+U.S. source check: October 10, 2026. Fictional exercise. No individual application status or authorization is asserted. Expert and learner review pending.
 
-- [FDA: Investigational New Drug application](https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind).
-- [FDA: BLA process for CBER-regulated products](https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products) — biologic marketing and quality review.
-- [FDA: New Drug Application](https://www.fda.gov/drugs/types-applications/new-drug-application-nda).
+- [FDA: Investigational New Drug application](https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind) — contents and calendar-day clock.
+- [21 CFR 312.40](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40) — IND becoming effective, earlier notification and holds.
+- [FDA: BLA process for CBER-regulated products](https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products) — biologic marketing and quality review; CBER is the Center for Biologics Evaluation and Research.
+- [FDA: New Drug Application](https://www.fda.gov/drugs/types-applications/new-drug-application-nda) — drug marketing, labeling and manufacturing review.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

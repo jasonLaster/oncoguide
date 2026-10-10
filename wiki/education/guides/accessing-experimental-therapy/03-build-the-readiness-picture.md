@@ -3,8 +3,8 @@ title: "Build the readiness picture"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -50,7 +50,9 @@ Record “confirmed,” “proposed,” or “unknown” beside each item. Keep 
 
 ## Understand the clock you are looking at
 
-For a non-emergency single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla), FDA states that treatment can begin 30 days after receipt or earlier if FDA tells the physician it may proceed, with applicable reviews and informed consent. That clock concerns the regulatory submission. It does not include every step needed to prepare a patient-specific product or arrange care.
+First identify the submission. A **new non-emergency individual-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla)** generally goes into effect 30 calendar days after FDA receives it, or sooner if FDA gives earlier notification, unless placed on clinical hold. Applicable review and consent requirements still need to be met.
+
+An **individual-patient protocol submitted under an existing active IND** does not have that same 30-day waiting period: submission to FDA and applicable IRB approval must precede treatment, and FDA can place the protocol on hold. These are different submission routes, not two estimates for the same request. The [expanded-access timing concept](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) covers the route-specific clocks and emergency follow-up rules. [FDA, April 2026, Q6 and Q24–26](https://www.fda.gov/media/162793/download); [FDA IND introduction](https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind).
 
 **Emergency expanded access** can receive rapid authorization before the later written submission. The emergency pathway has its own requirements and follow-up. It is not a way to label every time-sensitive plan as an emergency.
 
@@ -101,7 +103,7 @@ Complete: “Permission, supply and clinical readiness are separate because ____
 
 ## Sources and scope
 
-U.S. source check: October 9, 2026. The product and timeline example is fictional. No end-to-end preparation time or individual authorization is promised. Expert and learner review pending.
+U.S. integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. The product and timeline example is fictional. No end-to-end preparation time or individual authorization is promised. Expert and learner review pending.
 
 - [FDA: how physicians request single-patient expanded access](https://www.fda.gov/drugs/investigational-new-drug-application-ind/physicians-how-request-single-patient-expanded-access-compassionate-use) — non-emergency and emergency timing.
 - [FDA: expanded access information for IRBs](https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs) — responsibility, review, consent and monitoring.

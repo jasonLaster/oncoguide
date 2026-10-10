@@ -8,8 +8,8 @@ objectives: ["Separate binding, internalization, active payload formation, and c
 prerequisites: ["[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/therapeutics/chemotherapy/chemotherapy]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -32,10 +32,11 @@ This is step 2 of [Aiming a drug at a surface target](/wiki/education/guides/aim
 For a familiar ADC route, the product reaches a cell, binds its target, enters the cell, and is processed. An active payload or breakdown product must then reach a susceptible process. The route is product-specific; a diagram should never turn these stages into universal guarantees.
 
 ```mermaid
-flowchart LR
- A["Reach accessible target"] --> B["Bind"]
- B --> C["Enter and undergo product-specific processing"]
- C --> D["Active payload reaches its site of action"]
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TB
+ A["Reach accessible<br/>target"] --> B["Bind"]
+ B --> C["Enter and undergo<br/>product-specific<br/>processing"]
+ C --> D["Active payload reaches<br/>its site of action"]
  D --> E["Cellular response"]
 ```
 
@@ -68,6 +69,8 @@ Notice how the conclusion grows with each assay. “Binds M,” “enters cells,
 **Dose** is the amount administered. **Exposure** concerns concentration and time in a named place. [**Pharmacokinetics**](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) describes how the body handles the product; **pharmacodynamics** concerns its biological effects. These are related but distinct questions.
 
 An ADC can generate several measurable species. The antibody carrying payload, the total antibody signal, and unconjugated payload need not follow identical time courses. A long-lasting antibody signal cannot, by itself, show sustained exposure to active payload at the tumor. The FDA's ADC guidance recommends product-appropriate measurements of the conjugate and its constituent parts to interpret benefit and harm.
+
+An engager's format also shapes the exposure question. The [T-cell-engager explanation](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager) distinguishes compact constructs, antibody-like structures and half-life-extension strategies; these descriptions can overlap. A format name alone does not supply a concentration curve, dose schedule or safety advantage.
 
 For an engager, declining protein exposure can reduce continued engagement, but inflammation or tissue injury may continue. For receptor-engineered cells, the relevant product is living cells that can expand, decline, or persist. A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) on a T cell is not cleared like a freely circulating protein. Cell persistence itself does not prove continued tumor control.
 
@@ -115,7 +118,7 @@ Complete: “The dose tells me ______; the exposure measurement tells me ______;
 
 ## Sources and scope
 
-Source check: October 9, 2026. General delivery and timing concepts with fictional examples; expert and learner review remain pending. No treatment duration, dose, or access promise is supplied here.
+Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General delivery and timing concepts with fictional examples; expert and learner review remain pending. No treatment duration, dose, or access promise is supplied here.
 
 - [FDA, 2024: ADC clinical pharmacology](https://www.fda.gov/media/155997/download) — measurement of conjugate, constituent parts, and exposure–response.
 - [Tomabechi and colleagues, 2022: active payload-product transport](https://pubmed.ncbi.nlm.nih.gov/36741448/) — a specific intracellular delivery step.

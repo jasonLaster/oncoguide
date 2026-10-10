@@ -8,8 +8,8 @@ objectives: ["Compare targeted formats by recognition, action, and bottleneck ra
 prerequisites: ["[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -46,7 +46,7 @@ A radioligand delivers radiation rather than a chemical payload. [Chemotherapy](
 
 ## Keep the recognition requirement explicit
 
-A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes peptide displayed on [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). TCR-engineered cells and peptide–HLA-directed soluble engagers both retain requirements imposed by their chosen target complex. They are different products using a related recognition route.
+A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes peptide displayed on [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). TCR-engineered cells and peptide–HLA-directed soluble engagers both retain requirements imposed by their chosen target complex. They are different products using a related recognition route. Use [TCR mimics and TCR engagers](/wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers) to distinguish the recognition module from a dosed protein or an engineered cell. Record the exact peptide–HLA complex before comparing what follows recognition.
 
 An intact surface-target engager or a typical CAR can avoid the HLA requirement for that recognition. This is a specific advantage when that is the measured bottleneck. It does not solve every other barrier. Target-negative populations, poor tissue access, immune dysfunction, and normal-tissue expression remain relevant.
 
@@ -110,7 +110,7 @@ For a reference map of recognition and action, use [target versus therapeutic fo
 
 ## Sources and scope
 
-Source check: October 9, 2026. General comparisons and fictional exercises; expert and learner review remain pending. The dated clinical example illustrates evidence scope, not an approval inventory or treatment recommendation.
+Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General comparisons and fictional exercises; expert and learner review remain pending. The dated clinical example illustrates evidence scope, not an approval inventory or treatment recommendation.
 
 - [Nathan and colleagues, 2021: randomized tebentafusp trial](https://pubmed.ncbi.nlm.nih.gov/34551229/) — defined product, HLA group, disease, setting, and comparator.
 - [Primary ERBB2 CAR T-cell case report, 2010](https://pubmed.ncbi.nlm.nih.gov/20179677/) — a specific serious event and proposed normal-tissue mechanism.

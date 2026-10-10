@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,58 +25,88 @@ Finding a trial means identifying a study and then confirming its protocol, rele
 
 ## The intuition
 
-A trial registry is like a directory of possible appointments. It tells you which study to investigate and how to reach its team. It cannot reserve a place, complete screening or decide whether the study fits someone's care.
+A trial registry is like a directory of possible appointments. It helps you find a study and reach its team. It cannot reserve a place or complete screening.
 
-The analogy breaks because a study is research, with a protocol that controls treatment and follow-up. A useful shortlist needs both scientific fit and current practical confirmation.
+The analogy breaks because a study is research. Its protocol controls who may join, treatment and follow-up. A useful shortlist therefore keeps two jobs separate: finding plausible studies and checking whether someone can actually participate.
 
 ## How it works
 
-Start with the disease and treatment setting, then add relevant intervention, biomarker and location terms. Search several sensible synonyms. A target-name search alone can miss studies organized by a drug or platform name, and it can find studies in unrelated cancers.
+Start with the disease and treatment setting, then add intervention, biomarker and location terms. Search sensible synonyms. A target-name search can miss studies filed under a drug name and find studies in unrelated cancers. The **National Cancer Institute (NCI)** and ClinicalTrials.gov offer complementary search routes; a center's list may provide additional leads.
 
-Use the registry identifier to keep the study distinct from similar titles. ClinicalTrials.gov identifiers begin with **NCT** followed by digits. The identifier is a record key, not an approval or eligibility certificate.
+Use the registry identifier to distinguish similar titles. ClinicalTrials.gov numbers begin with **NCT**, the registry's study-identifier prefix, followed by digits. This is a record key, not an approval or eligibility certificate.
 
-Read the inclusion and exclusion criteria, study groups, [phase and assignment design](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization), outcomes, contacts, locations and record dates. Note what was actually tested or proposed. An [investigator-initiated study](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials) still needs the same careful reading.
+Read the protocol summary, study groups, [phase and assignment design](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization), outcomes and contacts. Record the protocol version when available, registry verification/update dates and search date. A registry record and site answer may be updated at different times.
 
-Recruitment status belongs to a defined scope. “Recruiting” describes a study inviting potential participants; it does not establish that the relevant cohort at a nearby site has a slot. “Active, not recruiting” means the study continues but is not currently recruiting or enrolling new participants. “Not yet recruiting” is a future possibility rather than a current opening.
+“Recruiting” describes the study as a whole. For a multisite record, one recruiting facility can make the overall status recruiting. It does not confirm a slot in the relevant cohort at a nearby site. “Active, not recruiting” means follow-up or treatment continues without recruiting or enrolling new participants. Contact the team to check the exact site and cohort.
 
-Contact the study team through the registry or verified institutional route. Ask about the exact cohort, site, screening window and remaining eligibility questions. Keep the date and source of each answer. A registry change and a site answer may occur on different dates.
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+  A[Search] --> B[Shortlist]
+  B --> C[Site check]
+  C --> D[Screening]
+```
+
+*These are successive checks, not a promise that a search result will reach enrollment.*
+
+### Check eligibility separately
+
+**Eligibility criteria** are protocol rules defining who may participate. A matching cancer type or molecular feature is only part of the check.
+
+| Check | What to carry into the conversation |
+|---|---|
+| Disease and setting | Diagnosis, stage, measurable disease or postoperative requirements |
+| Prior treatment and time | Treatments received, recovery, protocol-defined washouts and enrollment windows |
+| Biomarker | Exact result, assay and specimen; ask whether the study accepts that method |
+| Safety and current health | Medical history, medicines and required organ-function or laboratory tests |
+| Participation | Visits, sample needs, randomization and practical costs |
+
+This worksheet prepares questions. The study team interprets the current protocol and performs formal screening. Pre-screening is an initial fit discussion; screening reviews history and required tests around the consent process. An invitation to screen is not enrollment. Do not change treatment or medicines to satisfy a guessed rule.
 
 ## Why it matters in cancer
 
-Eligibility may depend on stage, prior therapy, organ function, safety history, medication use and biomarker definitions. The treating and study teams interpret those rules. Do not change care or stop medicines to satisfy an inferred rule.
-
-Formal screening is a later stage than finding a plausible match. Even an invitation to screen does not guarantee enrollment, and enrollment in a randomized study does not guarantee the experimental treatment.
+The same target can appear in early-disease and advanced-disease trials with very different entry rules. Also, [eligibility is separate from evidence that a treatment helps](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility). In a randomized study, enrollment may not mean receiving the experimental arm.
 
 ## How the search is documented
 
-This is a record check rather than a measurement with a biological unit. A useful row names the registry identifier, protocol/cohort, site, status, update/verification dates, current team answer and unresolved questions. Mark “unknown” rather than estimating enrollment or assigning an opening based on an old page.
-
-ClinicalTrials.gov listing does not mean the U.S. government has approved the safety and science of the study. Registration, regulatory permission and a well-designed trial are different checks.
+Keep one row per study: identifier, search terms/date, protocol/cohort, site, recorded status, dated team answer and unresolved questions. Estimated enrollment is a planned participant count, not open slots.
 
 ## Common confusions
 
-- An estimated enrollment count is not a count of open slots.
-- An overall recruiting status is not confirmation for every site or cohort.
-- A biomarker match is not a full eligibility determination.
-- A closed cohort alone does not establish eligibility for [expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access).
+- Overall recruiting status is not local availability.
+- A biomarker match is not complete eligibility.
+- Consent does not guarantee successful screening.
+- A closed cohort does not by itself qualify someone for [expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access).
 
 ## Try it
 
-A fictional registry record says “Recruiting,” but the hospital confirms that its relevant cohort is closed. What belongs in the shortlist?
+A fictional record says “Recruiting.” The nearby hospital says its relevant cohort is closed. The protocol also requires Assay X, while the applicant has Assay Y. What can the shortlist say?
 
-**Answer:** Record the study as a scientific lead with local availability unconfirmed or closed, including the dated hospital answer. Another site might be worth asking, but access is not established.
+**Answer:** This is a scientific lead with a closed local cohort and an unresolved assay requirement. Record the dated hospital answer. Ask whether another site has availability and whether the study team accepts Assay Y. Neither availability elsewhere nor eligibility has been established.
+
+## Explain it back
+
+“The search found ____, but we still need ____.”
+
+**One possible answer:** “A plausible study; dated cohort/site confirmation and formal eligibility screening.”
+
+## Takeaway
+
+**Keep search results, current availability and formal eligibility as separate checks.**
 
 ## Related concepts
 
-[IND versus marketing applications](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) distinguishes investigation from marketing. The [trial-access lesson](/wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity) provides a fuller worksheet.
+- [Investigator-initiated trials](/wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials)
+- [IND investigation versus marketing review](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla)
+- [Trial-access worksheet](/wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity)
 
 ## Sources and scope
 
-Source check: October 9, 2026. The case is fictional; no actual recruitment or eligibility is inferred. Expert and learner review pending.
+U.S. source check: October 10, 2026. The exercise is fictional. No actual recruitment, screening result or individual eligibility is asserted. Expert and learner review remain pending.
 
-- [NCI: steps to find a clinical trial](https://www.cancer.gov/research/participate/clinical-trials-search/steps) — search preparation and study-team contact.
-- [ClinicalTrials.gov: protocol data definitions](https://clinicaltrials.gov/policy/protocol-definitions) — status, record dates, contacts and locations.
-- [NLM: ClinicalTrials.gov modernization information](https://www.nlm.nih.gov/oet/ed/ct/2024/6-6_ctg-modern_508c.pdf) — registry purpose and the government-review disclaimer.
+- [NCI: steps to find a clinical trial](https://www.cancer.gov/research/participate/clinical-trials-search/steps) — search preparation, protocol questions and team contact.
+- [NCI: what to expect during a clinical trial](https://www.cancer.gov/research/participate/clinical-trials/what-to-expect) — pre-screening, consent and screening.
+- [ClinicalTrials.gov: protocol data definitions](https://clinicaltrials.gov/policy/protocol-definitions) — overall/site status, record dates and estimated enrollment.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

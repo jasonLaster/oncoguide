@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/targeted-therapy-modalities/02-timing]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,70 +25,89 @@ Pharmacokinetics describes a product's concentration over time as the body handl
 
 ## The intuition
 
-A dose is what enters a system; exposure is what remains in a particular place over time. Imagine pouring dye into flowing water. Mixing, transport and removal determine what a sample contains later.
-
-The body is more complicated than one stream. Drugs can bind proteins, enter tissues, generate active breakdown products or follow several clearance routes. One blood sample cannot describe all those compartments.
+Imagine adding dye to a stream. The amount poured in differs from the concentration at a particular downstream point. Flow, mixing and removal change the pattern over time. This helps separate dose from exposure, but a body has many compartments, transport processes and active metabolites; one stream cannot represent them all.
 
 ## How it works
 
-**Pharmacokinetics (PK)** studies absorption, distribution, metabolism and excretion. **Dose** is the amount administered. **Exposure** is the concentration–time history of a named substance in a named place. The same dose can produce different exposure because of route, organ function, interactions or product properties.
+**Pharmacokinetics (PK)** studies absorption, distribution, metabolism and excretion. **Dose** is the amount administered. **Exposure** is a named substance's concentration–time history in a named place. Route, organ function, interactions and product properties can make the same dose produce different exposure.
 
-**Half-life** is the time associated with a halving of concentration in a specified phase or model. Many medicines have an initial distribution phase and a different terminal decline. The reported terminal half-life may not be the best summary of accumulation or relevant activity.
+- **Absorption** concerns entry into systemic circulation after a nonintravenous dose. **Bioavailability** concerns how much reaches that circulation; first-pass metabolism or other losses can reduce it. An oral dose and an intravenous dose are not interchangeable inputs.
+- **Distribution** concerns movement between blood and tissues, including protein binding. Plasma concentration need not equal unbound concentration at an intracellular target.
+- **Metabolism and excretion** change or remove material. Metabolites may have their own activity and exposure. **Clearance** expresses removal relative to concentration, commonly as volume per time.
 
-**Clearance** describes removal of a substance relative to its concentration, commonly in volume per time. A simple exponential decline can be a useful model, but nonlinear handling or changing physiology can invalidate a constant half-life assumption.
+**Half-life** describes a halving of concentration in a specified phase or model. Early distribution and a terminal decline can have different slopes. An **effective half-life** can characterize accumulation and time toward steady state during repeated dosing; it need not equal a long terminal half-life. With nonlinear handling, a reported half-life can depend on dose or concentration. Always ask which substance, phase, model and conditions the number describes.
 
-**Pharmacodynamics** concerns biological effects. Exposure can fall while a downstream effect or injury persists. Conversely, detectable material does not guarantee productive [target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement). These are reasons to measure exposure and effects separately, rather than choosing treatment timing from one number.
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+ A["Specified dose + route"] --> B["Absorption, distribution<br/>and elimination"]
+ B --> C["Named concentration<br/>over time"]
+ C --> D["Compare separate<br/>effect measurements"]
+```
+
+PK describes measured exposure. Comparing it with effects is another task, not proof that exposure produces benefit.
+
+**Pharmacodynamics** concerns biological effects. Exposure can fall while downstream effects or injury persist. Conversely, detectable material does not guarantee productive [target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement). One half-life cannot choose a treatment interval or establish that harm has ended.
 
 ## How it is measured
 
-Serial samples and validated chemical or biological assays generate a concentration–time curve. Specify the analyte: parent drug, active metabolite, unconjugated payload or another product component. Also specify whether concentration is total or unbound when that distinction matters.
+Repeated samples measure a named analyte: parent drug, metabolite, total or unbound substance, or a specified biological product. Sampling must capture the phases the question requires. A sparse late sample cannot reconstruct an unobserved early peak reliably.
 
-| Quantity | Typical units | What it describes |
+| Measure | Example units | What it describes |
 |---|---|---|
-| Concentration | ng/mL or micromolar | Amount of a named substance per volume at a time |
-| Maximum concentration, Cmax | Same concentration units | Peak exposure in the measured profile |
-| Area under the concentration–time curve, AUC | ng·hour/mL, for example | Integrated exposure over a specified interval |
-| Half-life | Hours or days | Concentration decline in a specified phase/model |
-| Clearance | mL/minute or L/hour | Removal relative to concentration |
+| Concentration | Nanograms per milliliter (ng/mL) | Amount per sampled volume |
+| Maximum concentration (Cmax) | ng/mL | Peak under the stated sampling/model |
+| Concentration–time area under the curve (AUC) | ng·hour/mL | Exposure integrated over a specified interval |
+| Half-life | Hours or days | Decline in a specified phase/model |
+| Clearance | Liters per hour (L/hour) | Removal relative to concentration |
 
-A concentration–time AUC must name its interval and carries concentration × time units. It is different from the dimensionless [ROC area used to assess prediction ranking](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index). A plasma measurement is not automatically an intracellular tumor concentration. For [antibody-drug conjugates](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate), conjugated antibody, total antibody and free payload can have different profiles. One component's persistence cannot stand in for the others.
+Record dose, route, assay, analyte, time interval and population. Validated bioanalysis and an appropriate model are needed; no generic concentration threshold establishes target action. This AUC differs from the [area under a prediction curve](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index).
 
 ## Why it matters in cancer
 
-Development teams use exposure alongside benefit and harm to study appropriate dosing. A culture experiment's concentration and duration should not be converted directly into a person's dose. Delivery, protein binding, metabolism and normal-tissue exposure differ.
+[Antibody-drug conjugates](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) can have different concentration histories for conjugated antibody, total antibody, unconjugated payload and active breakdown products. A long-lasting antibody signal does not prove active payload exposure in every cancer cell.
 
-Living cell therapies can expand or persist, and radiopharmaceuticals add radioactive decay to biological clearance. A freely circulating drug's half-life does not supply a universal clock for these modalities.
+Living cell products can expand or persist. [Radioligand therapy](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy) adds radioactive decay alongside biological clearance. A freely circulating drug's half-life supplies no universal clock for these modalities.
 
 ## Worked example
 
-In a fictional, single-compartment model, concentration starts at 100 ng/mL after input has stopped. Assume a constant four-hour half-life: it is 50 ng/mL after four hours and 25 ng/mL after eight.
-
-This arithmetic describes the model. It does not show when effects end, when a drug is safe to combine, or what a protocol's washout period should be.
+In a fictional single-compartment model, input has stopped and concentration is 100 ng/mL. Assume a constant four-hour half-life: concentration is 50 ng/mL after four hours and 25 ng/mL after eight. The assumptions make this arithmetic valid; they do not describe every medicine.
 
 ## Common confusions
 
-- Half-life does not mean “completely gone” after one interval.
-- A longer half-life is not automatically better tumor delivery.
-- Dose and exposure are different quantities.
-- Drug elimination and physical radioactive decay are different clocks.
+- **Dose is not exposure.** Administered amount and sampled concentration have different units.
+- **Half-life is not time until completely gone.** Halving leaves material present.
+- **Terminal is not automatically effective.** Distribution and accumulation can have different time scales.
+- **Longer persistence is not automatically better delivery.** Location, active species and safety matter.
+- **PK is not biological benefit.** Exposure and effects need separate evidence.
 
 ## Try it
 
-Under that fictional model, what remains after 12 hours? Can the answer determine a clinical washout?
+What concentration does the fictional model predict after 12 hours? Does that determine a safe next treatment time?
 
-**Answer:** 12.5 ng/mL, after three halvings. No clinical washout follows from this toy model. The actual product, metabolites, effects, safety evidence and protocol rules determine that question.
+**Answer:** Three halvings give 100 ÷ 2³ = 12.5 ng/mL. No: the model predicts one substance's concentration under its assumptions. Active metabolites, persistent effects, injury and clinical evidence are not supplied by the arithmetic.
+
+## Explain it back
+
+“Before using a half-life, I need to know ___.”
+
+**One answer:** the analyte, phase/model, dose conditions, compartment and question it was measured to answer.
+
+## Takeaway
+
+**Follow named exposure and named effects separately, rather than treating half-life as a universal biological timer.**
 
 ## Related concepts
 
-[Chemical probes and target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) distinguishes exposure from mechanism. [Radioligand therapy](/wiki/treatment/therapeutics/radioligand-therapy) distinguishes biological delivery from radiation effects.
+- [Dose and dose intensity](/wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity)
 
 ## Sources and scope
 
-Source check: October 9, 2026. Numbers are fictional arithmetic under an explicit simplified model, not dosing instructions. Expert and learner review pending.
+Source check: October 10, 2026. General PK teaching with an idealized fictional model, not dosing or sequencing advice. Expert and learner review remain pending.
 
-- [FDA, December 2016: clinical pharmacology labeling guidance](https://www.fda.gov/media/74346/download) — exposure measures, clearance and effective versus terminal half-life.
-- [FDA, 2024: clinical pharmacology of antibody-drug conjugates](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-pharmacology-considerations-antibody-drug-conjugates-guidance-industry) — product components and exposure–response; scope is oncology conjugates with cytotoxic small-molecule payloads.
-- [FDA: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download) — biodistribution and radiation-dose assessment.
+- [FDA, December 2016: clinical pharmacology labeling](https://www.fda.gov/media/74346/download) — exposure, absorption, clearance and effective versus terminal half-life.
+- [FDA, 2024: ADC clinical pharmacology](https://www.fda.gov/media/155997/download) — named constituent-part exposure and appropriate bioanalysis.
+- [FDA, 2019: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download) — biodistribution and radioactive/biological time considerations.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

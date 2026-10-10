@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/access-and-regulation/trials-and-acce
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,59 +25,84 @@ An investigator-initiated trial starts with a researcher's study proposal, while
 
 ## The intuition
 
-An investigator-initiated trial is a research project whose question begins with an investigator, rather than simply a manufacturer-designed program. Think of a teacher proposing a new classroom study: starting the idea does not tell you who funds it, approves it or runs every part.
+Think of a teacher proposing a classroom study. Starting the idea does not tell you who funds it, approves it or runs every part. Similarly, an investigator can originate a clinical question without personally holding every responsibility.
 
-The analogy stops at responsibility. Clinical research has formal duties, safety requirements and records. A friendly academic setting does not remove those duties.
+The analogy stops at oversight. Clinical research has formal safety duties and records. A familiar academic setting does not remove them.
 
 ## How it works
 
-**Investigator-initiated trial (IIT)** describes how a study originated. It is not a separate phase, a special efficacy grade or a general exemption from drug regulation. The protocol still specifies the research question, participants, treatments, measurements and follow-up.
+**Investigator-initiated trial (IIT)** describes a study's origin. It is not a separate [trial phase](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization), an efficacy grade or a general exemption from drug regulation. Its protocol specifies the question, participants, interventions, measurements and follow-up.
 
-A **sponsor** initiates and takes responsibility for a clinical investigation. An **investigator** conducts it and directs the investigational treatment at the site. A **sponsor-investigator** is an individual who both initiates and conducts the investigation and takes on both sets of duties. An investigator-initiated study may have an institution as sponsor; do not infer the sponsor solely from its title.
+A **sponsor** initiates and takes responsibility for the clinical investigation. An **investigator** conducts it and directs investigational treatment at the site. A **sponsor-investigator** is an individual who both initiates and conducts the investigation and has both sets of duties. An academic institution can sponsor an IIT; do not infer the sponsor from the brochure's title.
 
-For a U.S. drug or biologic study, the team must determine whether an [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) is required or whether the proposed investigation qualifies for an exemption. Certain studies of marketed drugs can be exempt when all applicable conditions are met. Academic sponsorship or use of a marketed drug does not itself establish exemption.
+| Role | Question to verify |
+|---|---|
+| Sponsor | Who holds overall study responsibility and any required application? |
+| Investigator | Who conducts the protocol and directs treatment at this site? |
+| Product supplier | Who provides product and supporting information? |
+| Funder | Who pays for which study activities? |
 
-Product supply can come from a manufacturer, pharmacy or other qualified arrangement. Funding and supply do not necessarily identify the regulatory sponsor. Clarify who owns the product information, protocol, reporting, monitoring, drug accountability and required submissions.
+One organization or individual may perform several roles. Manufacturer funding or donated drug does not by itself identify the regulatory sponsor. The protocol and agreements settle that question.
 
-Applicable **institutional review board (IRB)** review and informed consent protect participants. Approval of a protocol to proceed is not a finding that its experimental strategy improves outcomes. Its design determines how much the eventual observations can establish.
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+  A[Research question] --> B[Assign duties]
+  B --> C[Check requirements]
+  C --> D[Conduct study]
+```
+
+*The map orders planning questions. It does not imply that an academic proposal is authorized to proceed.*
+
+For U.S. drug and biologic research, the team determines whether an [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) is required. Certain studies of lawfully marketed drugs can be exempt only when **all applicable conditions** are met. These include the study's labeling/advertising intent, whether route, dose or population significantly changes risk, and compliance with review, consent and investigational-promotion rules. Neither approved-drug status nor academic origin alone establishes exemption.
+
+An **institutional review board (IRB)** reviews participant protections under the applicable framework. Informed consent addresses known risks, uncertainty, alternatives and participation. An IND exemption does not mean exemption from the IRB and consent conditions required for that route.
 
 ## Why it matters in cancer
 
-Investigators can ask important questions about combinations, biomarkers or settings that existing development programs do not address. The study can be valuable while its answer remains unknown.
+Investigators can ask about combinations, biomarkers or disease settings overlooked by larger development programs. Their question can be valuable while the answer remains unknown.
 
-A small academic study may have limited comparison groups, specialized manufacturing or a single site. Read those features directly. “Investigator initiated” does not imply either stronger independence or weaker quality without inspecting funding, conduct and design.
+Read the design, comparison group, [endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) and conduct directly. A small academic trial is not automatically either independent, poorly controlled or effective. Funding, conflicts, manufacturing and monitoring need their own assessment.
 
-## How it is checked
+## How responsibilities are checked
 
-There is no biological unit for this category. Record the sponsor, responsible investigator, protocol, registry identifier, applicable regulatory route, review status and supply arrangement. Ask the study team which responsibilities are confirmed.
-
-The [trial-search concept](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial) explains why registry status and actual site readiness still need separate confirmation.
+This is a documentary category without a biological unit. Record the sponsor, responsible investigator, protocol/version, registry identifier, IND or documented exemption rationale, applicable review, supply and reporting arrangements. Confirm site/cohort availability through the [trial-search process](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial).
 
 ## Common confusions
 
-- A researcher's idea is not the same as personal prescribing.
-- Manufacturer support does not automatically make the manufacturer the sponsor.
-- A registered IIT is not automatically exempt from an IND requirement.
-- A single participant does not turn research into [expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access); purpose and regulatory arrangement matter.
+- Originating an idea is not the same as holding the IND.
+- Providing drug is not the same as sponsoring the study.
+- A marketed drug does not automatically make a proposed study IND-exempt.
+- One participant does not convert research into [expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access). Purpose and arrangement matter.
 
 ## Try it
 
-A fictional university team proposes studying an approved drug in a new combination. The brochure calls it an IIT and says the manufacturer will supply Drug A. Who holds the IND?
+A fictional university proposes an IIT using a marketed drug by a new route. The manufacturer will supply it. The protocol team says the route significantly increases risk. Is the study automatically IND-exempt, and is the manufacturer the sponsor?
 
-**Answer:** The brochure does not settle that question. Ask whether an IND is required, who is the sponsor, and who holds any required application. Supply and study origin are separate from regulatory responsibility.
+**Answer:** Neither conclusion follows. A significantly risk-increasing route fails one marketed-drug exemption condition, so that exemption cannot be assumed. The team must determine the required regulatory arrangement. Supply also does not establish sponsorship; verify who accepts the sponsor duties and holds any required IND.
+
+## Explain it back
+
+“Investigator initiated tells me ____. To understand responsibility, I still need ____.”
+
+**One possible answer:** “Who originated the question; the actual sponsor, investigator, supplier and applicable regulatory route.”
+
+## Takeaway
+
+**Study origin, funding, supply and regulatory responsibility are separate facts.**
 
 ## Related concepts
 
-[Trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) explains design. [Good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) explains product-quality responsibilities.
+- [Trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization)
+- [Good manufacturing practice and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release)
 
 ## Sources and scope
 
-U.S. source check: October 9, 2026. The scenario is fictional. This introduces responsibilities; it does not determine an actual study's exemption or authorization. Expert and learner review pending.
+U.S. source check: October 10, 2026. Fictional exercise. This page explains roles; it does not determine any actual protocol's exemption, approval or site readiness. Expert and learner review pending.
 
-- [FDA: IND clinical-investigation overview](https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-overview).
-- [FDA: investigator-initiated IND resources](https://www.fda.gov/drugs/investigational-new-drug-ind-application/investigator-initiated-investigational-new-drug-ind-applications).
-- [21 CFR 312.3: sponsor and investigator definitions](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.3).
-- [FDA: determining whether a human drug study can proceed without an IND](https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements).
+- [21 CFR 312.3](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.3) — sponsor, investigator and sponsor-investigator definitions.
+- [21 CFR 312.2](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.2) — applicability and marketed-drug exemption conditions.
+- [FDA: exemptions from IND requirements](https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements) — how to assess a proposed investigation, including limits of educational decision tools.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/access-and-regulation/approval/drug-l
 used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,11 +33,11 @@ The analogy breaks because drug review evaluates benefits, risks and manufacturi
 
 The **Food and Drug Administration (FDA)** evaluates a drug for a defined indication and conditions of use. Read the current [drug label](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use), including disease, biomarker, treatment setting and combination requirements.
 
-**Traditional approval** and **accelerated approval** are approval pathways. Traditional approval can rely on direct clinical benefit or a validated surrogate endpoint. A surrogate is a measure used in place of the clinical outcome of interest; its evidentiary role depends on context. It is inaccurate to say that every traditional approval requires a demonstrated survival increase.
+**Traditional approval**, often called full approval, and **accelerated approval** are approval pathways. Traditional approval can rely on direct clinical benefit or a validated [surrogate endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints). A surrogate substitutes for the clinical outcome of interest; its evidentiary role depends on context. Traditional approval does not always require a demonstrated survival increase.
 
 Accelerated approval can use a surrogate or intermediate endpoint reasonably likely to predict clinical benefit for a serious condition with unmet need. Confirmatory studies must verify the anticipated benefit. The indication can later receive traditional approval or be withdrawn through the applicable process. Check the current indication rather than relying on an old announcement.
 
-**Fast track** and **breakthrough therapy** designations support development and communication with FDA under different qualifying criteria. Breakthrough therapy designation involves preliminary clinical evidence of possible substantial improvement on a clinically significant endpoint over available therapy. It remains a designation, not a marketing approval.
+**Fast track** supports development for serious conditions where a drug has potential to address unmet medical need. **Breakthrough therapy** designation requires preliminary clinical evidence suggesting substantial improvement over available therapy on a clinically significant endpoint. Both support development and communication with FDA. Neither authorizes marketing; later evidence can fail to support the early promise.
 
 **Priority review** concerns the review of a marketing application. A shorter review goal does not guarantee a favorable decision or a date when a particular person can receive treatment. These programs can overlap.
 
@@ -48,6 +48,16 @@ Accelerated approval can use a surrogate or intermediate endpoint reasonably lik
 | Fast track or breakthrough designation | Does the development program qualify for particular expedited support? | A separate marketing decision |
 | Priority review | Does this application receive an expedited review goal? | The actual decision and labeling |
 
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+ A["Read the claim"] --> B["Name the status"]
+ B --> C["Check the decision"]
+ C --> D["Match the use"]
+```
+
+*This is a document-reading sequence, not a drug-development timeline or a promise of approval.*
+
 ## Why it matters in cancer
 
 A headline may combine several statuses. Write each on its own line, then return to the exact proposed use. Approval does not establish individual eligibility for a study, institutional availability or payment.
@@ -56,7 +66,16 @@ Device clearance, device approval and emergency authorization use other framewor
 
 ## How status is checked
 
-This is a document check, without a biological unit. Inspect the approval letter, current prescribing information and any indication-specific accelerated-approval record. Record the product, indication, status and date checked. A press release or designation letter alone does not answer every question.
+This is a document check, without a biological unit or a personal response probability. Keep a small intended-use card:
+
+| Field | What to record |
+|---|---|
+| Product and proposed use | Exact product, disease, biomarker, setting and combination |
+| Decision | Approval letter and current label, or a designation/application awaiting a decision |
+| Evidence basis | Clinical outcome or specified surrogate, its population and remaining uncertainty |
+| Follow-up | Indication-specific confirmatory evidence, conversion or withdrawal record; check date |
+
+A press release is a lead. The underlying decision and label establish its actual scope.
 
 ## Common confusions
 
@@ -67,21 +86,31 @@ This is a document check, without a biological unit. Inspect the approval letter
 
 ## Try it
 
-A fictional announcement says Drug A has breakthrough designation and its marketing application is under priority review. Can the family call it approved?
+A fictional announcement gives Drug A breakthrough designation and priority review, with a decision still pending. Drug B has accelerated approval for a specified use, with benefit confirmation still required. Which is approved?
 
-**Answer:** Those statements describe development and review status. Look for an actual approval decision and label. No individual access or benefit is established by the announcement.
+**Answer:** B has an approval for that use; its uncertainty and confirmatory requirement remain. A's designation and review do not supply an approval decision. Neither description establishes individual benefit, eligibility or practical access.
+
+## Explain it back
+
+“An expedited designation tells me ____. An approval tells me ____.”
+
+One answer: “how development or review is supported; which product and use have been authorized on the reviewed evidence.”
+
+## Takeaway
+
+**Name the program, the actual decision and the exact use before interpreting an approval headline.**
 
 ## Related concepts
 
-[IND versus marketing applications](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) separates permission to investigate from permission to market. [Clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) explains investigational routes.
+[Investigational New Drug (IND) versus marketing applications](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) separates permission to investigate from permission to market. [Clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) explains investigational routes.
 
 ## Sources and scope
 
-U.S. source check: October 9, 2026. The example is fictional. Expert and learner review pending. These are durable distinctions, not an inventory of current approvals or every expedited initiative.
+U.S. source check: October 10, 2026. The example is fictional. Expert and learner review pending. These are durable distinctions, not an inventory of current approvals or every expedited initiative.
 
 - [FDA: expedited development and review programs](https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review).
 - [FDA: accelerated approval program](https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program).
-- [FDA, July 30, 2026: approval-pathway distinctions, slide 10](https://www.fda.gov/media/193936/download) — direct clinical benefit, validated surrogates and reasonably likely surrogates; no product decision inferred from the meeting.
+- [FDA: expedited-programs final guidance, May 2014](https://www.fda.gov/media/86377/download) — designation criteria and validated versus reasonably likely surrogate distinction; selected relevant sections checked. Current accelerated-approval status comes from the program records above.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
