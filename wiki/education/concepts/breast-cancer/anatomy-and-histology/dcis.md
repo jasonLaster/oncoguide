@@ -8,7 +8,7 @@ summary: "Ductal carcinoma in situ (DCIS) describes abnormal breast cells confin
 level: foundation
 prerequisites:
   - "[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]"]
 sensitive: false
 tags: [education, breast-cancer, pathology]
 updated: 2026-10-09
@@ -72,4 +72,5 @@ Source check: October 9, 2026. General pathology terminology; the example is fic
 ## Used in
 
 - [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
+- [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
 <!-- END GENERATED USED IN -->

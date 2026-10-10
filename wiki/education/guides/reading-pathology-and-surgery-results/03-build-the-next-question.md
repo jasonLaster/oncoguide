@@ -2,8 +2,8 @@
 title: "Build the next question"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -51,6 +51,8 @@ This approach makes an appointment easier to follow. You can ask why a finding m
 | A safety problem interrupted treatment | Which continuing options remain feasible? | Cause, severity, recovery and clinician assessment |
 
 These are examples, not a required decision tree. The clinical team integrates the report with the other findings and the person's goals.
+
+A receptor question also needs the exact scoring rule. [PD-L1 (programmed death-ligand 1) scoring](/wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring) depends on the assay, counted cells and disease setting. A threshold used for a defined advanced-cancer treatment question cannot automatically decide an early-cancer question. Ask: “Which specimen and scoring method produced this result, and what evidence makes it relevant here?”
 
 ## A worked conversation: risk is not a drug test
 
@@ -101,7 +103,7 @@ A fictional treatment study reports overall benefit but a small residual-disease
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. Scenarios are fictional.
+Source-checked October 10, 2026; expert and learner review pending. Scenarios are fictional.
 
 - [CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/), for response-outcome association and the separate treatment-surrogacy question.
 - [Symmans and colleagues, 2007](https://doi.org/10.1200/JCO.2007.10.6823), for residual-burden prognostic evidence.

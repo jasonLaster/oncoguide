@@ -2,8 +2,8 @@
 title: "Place the specimen in time"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,7 +35,9 @@ flowchart TD
 
 ## Read the label on the container before the result
 
-A specimen can be a small biopsy, an operation's breast tissue, a sampled lymph node or a separately submitted margin. Each has a location and a sampling method. They may answer connected questions without being one interchangeable sample.
+A [core needle biopsy](/wiki/education/concepts/measurement/specimens/core-needle-biopsy) preserves small tissue cylinders; [fine needle aspiration](/wiki/education/concepts/measurement/specimens/fine-needle-aspiration) usually collects cells and fluid. A [vacuum-assisted biopsy](/wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy) collects tissue using a vacuum-assisted device. These approaches differ in the material and architecture available to examine.
+
+A [surgical specimen](/wiki/education/concepts/measurement/specimens/surgical-resection-specimen) can include the operation's breast tissue, nodes or a separately submitted margin. Keep each part's site and collection context. More tissue does not mean every region in the body was examined.
 
 The gross description records features visible during examination of the specimen. The microscopic description records tissue observations under the microscope. The final diagnosis integrates the pathologist's interpretation. A dramatic word in one description should not replace that final interpretation.
 
@@ -58,6 +60,8 @@ Imagine a fictional biopsy collected before systemic treatment. It identifies in
 The addendum's issue date is the newest date, but its tissue is the oldest. It cannot be described as a new post-treatment receptor measurement. The surgical specimens provide the postoperative tissue findings. The treatment record establishes the intervening delivery.
 
 Build a card for each report: specimen and site, collection date, treatment context, method, final interpretation and pending qualifications. Do not combine fields from different cards until you can say which specimen each field came from.
+
+Imagine a fictional core showing invasive cancer, followed later by a resection with a treated bed. The core establishes findings in its sampled tissue; the operation adds a different extent of examination. A negative finding in one sampled region cannot cancel a positive finding in another by averaging the reports.
 
 ## Clinical and pathologic categories keep their context
 
@@ -94,7 +98,7 @@ A fictional receptor addendum is issued after surgery but states that it tested 
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. The chronology is fictional.
+Source-checked October 10, 2026; expert and learner review pending. The chronology is fictional.
 
 - [NCI: Pathology reports](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet), for specimen, description and interpretation.
 - [NCI: Breast cancer stages](https://www.cancer.gov/types/breast/stages), for clinical and pathological staging contexts.

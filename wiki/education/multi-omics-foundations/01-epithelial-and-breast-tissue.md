@@ -8,8 +8,8 @@ objectives: ["Distinguish normal epithelial cells from malignant cells.", "Expla
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -23,13 +23,21 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-This is step 2 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. The word **epithelial**, pronounced *eh-pih-THEE-lee-ul*, describes cells that form linings and glands. **Epithelium** is the tissue they form. Both normal breast cells and many breast-cancer cells belong to this family. **Carcinoma** is cancer arising from epithelial cells; epithelial by itself does not mean malignant.
+This is step 2 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. Start with [epithelium and stroma](/wiki/education/concepts/biology-basics/cells/epithelium-and-stroma): an epithelial cell family can include normal cells as well as cancer cells. Carcinoma names a cancer of epithelial origin; an epithelial label alone cannot establish malignancy.
 
 ## Picture the breast duct from the inside out
 
-The **lumen** is the hollow space. **Luminal** means facing that space. A normal breast duct has inner luminal epithelial cells, an outer myoepithelial layer and a basement membrane. **Myoepithelial** cells have contractile features. The **basement membrane** is a thin support boundary beneath the epithelium.
+In [breast anatomy](/wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy), small milk-producing lobules and their terminal duct form a **terminal duct lobular unit (TDLU)**. A lumen is an inner space; luminal cells face it. [Myoepithelial cells and the basement membrane](/wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane) help define normal compartments. Surrounding stroma contains cells, vessels and [extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix).
 
-Outside those structures sits [stroma](/wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma), supporting tissue containing connective material, vessels and neighboring cells. **Fibroblasts** build and remodel the [extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix). **Endothelial** cells line blood vessels. Immune cells can also occupy this neighborhood.
+```mermaid
+flowchart TD
+  U[Terminal duct and lobules<br/>A normal breast tissue unit] --- L[Lumen and luminal epithelium]
+  L --- M[Myoepithelial cell layer]
+  M --- B[Basement membrane]
+  B --- S[Surrounding stroma<br/>Matrix, vessels and neighboring cells]
+```
+
+*This map shows neighboring compartments in a simplified normal breast unit. It is not a diagnostic image or a path of invasion.*
 
 These are normal architectural descriptions. A tumor can disrupt the organization. A pathologist interprets whether malignant cells have invaded surrounding tissue; a molecular epithelial label alone cannot answer that question.
 
@@ -84,7 +92,7 @@ One answer: “normal cell family; additional evidence of cancer; the sample's c
 
 ## Sources and scope
 
-Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+Source check: October 10, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
 
 - [Kumar et al., primary human breast atlas](https://www.nature.com/articles/s41586-023-06252-9).
 - [NCI SEER epithelial tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html).

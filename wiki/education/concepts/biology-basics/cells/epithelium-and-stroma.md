@@ -7,11 +7,11 @@ glossary_anchor: "epithelium-and-stroma"
 aliases: ["epithelium", "epithelial", "epithelial cells", "stroma", "stromal compartment"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/cell-and-membrane]]"]
-used_by: []
+used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,7 +35,7 @@ A typical epithelial structure has a surface facing a space or lumen and a basal
 
 **Stroma** includes supporting connective tissue, vessels and other structures around and between tissue units. [Extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix), material outside cells, contributes to that support. Fibroblasts produce and remodel matrix; vascular cells form vessel structures. Immune cells can also occupy stromal regions. Stroma is therefore broader than fibroblasts or collagen alone.
 
-In normal breast ducts, luminal epithelial cells line the inner space. Myoepithelial cells form an outer cell layer, with a basement-membrane boundary and surrounding supporting tissue. This is a useful tissue example, not a blueprint for every gland, every sampled region or every cancer.
+In normal breast ducts, luminal epithelial cells line the inner space. [Myoepithelial cells and the basement membrane](/wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane) define different parts of that normal tissue boundary. This is a useful tissue example, not a blueprint for every gland, every sampled region or every cancer.
 
 ```mermaid
 flowchart TD
@@ -91,7 +91,7 @@ A fictional breast biopsy has high RNA for a protein made by fibroblasts. A writ
 
 ## Sources
 
-Source-checked October 9, 2026; expert and learner review pending. The exercise is fictional. Normal breast architecture and research atlases do not replace diagnostic pathology.
+Source-checked October 10, 2026; expert and learner review pending. The exercise is fictional. Normal breast architecture and research atlases do not replace diagnostic pathology.
 
 - [NCI SEER: epithelial tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html) — tissue organization and basement membrane.
 - [NCI Dictionary: stroma](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/stroma) — supporting tissue and its components.
@@ -101,5 +101,5 @@ Source-checked October 9, 2026; expert and learner review pending. The exercise 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
 <!-- END GENERATED USED IN -->

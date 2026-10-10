@@ -2,8 +2,8 @@
 title: "Read the jobs in the treatment plan"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -40,6 +40,8 @@ Imagine a plan containing systemic medicines, an operation and planned radiation
 “Systemic” does not mean every cancer cell receives the same exposure or is sensitive to the medicine. “Local” does not mean unimportant to the whole treatment goal. The terms describe reach and roles; they are not a ranking of importance.
 
 [Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) helps frame the receptor classification. It does not supply disease extent, previous treatment, eligibility or safety assessment.
+
+For the local part, [lumpectomy and mastectomy](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy) describe different extents of breast surgery. [Sentinel-node biopsy and axillary dissection](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection) describe different node procedures. Breast removal and node evaluation therefore need separate entries on the plan. The [lymphatic map](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla) explains which regions are being discussed. Clinical findings and the whole local-treatment plan determine the operation; a mechanism diagram cannot choose it.
 
 ## Build a regimen card
 
@@ -120,7 +122,7 @@ A fictional combination is described as “better because it attacks three mecha
 
 ## Sources and scope
 
-General teaching, source-checked October 9, 2026; expert and learner review pending. The proposal is fictional.
+General teaching, source-checked October 10, 2026; expert and learner review pending. The proposal is fictional.
 
 - [NCI: Chemotherapy](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy), for systemic and normal-tissue roles.
 - [NCI: Breast cancer surgery](https://www.cancer.gov/types/breast/treatment/surgery), for removal and node examination.

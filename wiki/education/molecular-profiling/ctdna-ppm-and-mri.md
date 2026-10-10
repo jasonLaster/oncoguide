@@ -2,8 +2,8 @@
 title: "Compare blood results with imaging"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,7 +43,7 @@ Imagine looking at a garden through a camera while also sampling material carrie
 
 The analogy is only about scope. Tumor DNA is not a guaranteed runoff signal, and a scan is not a direct picture of every living cancer cell. The absence of one signal cannot automatically erase evidence from the other window.
 
-A breast magnetic resonance imaging (MRI) examination shows anatomical and sequence-dependent features within its field of view. Contrast enhancement reflects how contrast behaves in tissue, including vascular properties. It can help assess a lesion, but enhancement is not a one-to-one count of viable cancer cells. A breast scan also does not answer every question about disease elsewhere.
+A [breast magnetic resonance imaging (MRI)](/wiki/education/concepts/measurement/imaging/breast-mri) examination shows anatomical and sequence-dependent features within its field of view. Contrast enhancement reflects how contrast behaves in tissue, including vascular properties. It can help assess a lesion, but enhancement is not a one-to-one count of viable cancer cells. A breast scan also does not answer every question about disease elsewhere.
 
 Blood testing detects selected molecular features under an assay's rules. It may collect tumor DNA from more than one site, yet it does not tell you where the fragments originated. Low shedding and limited input can leave a real tumor without a qualifying blood signal.
 
@@ -60,6 +60,8 @@ Before calling results concordant or discordant, compare collection and examinat
 
 The table is an interpretation aid, not a clinical algorithm. Suspicion, confirmation and urgency depend on the full clinical context. A new finding belongs in a clinical review even if another measurement seems reassuring.
 
+Keep the imaging method visible too. [Mammography](/wiki/education/concepts/measurement/imaging/mammography) uses X-rays, [breast ultrasound](/wiki/education/concepts/measurement/imaging/breast-ultrasound) uses sound waves, and [positron emission tomography with computed tomography (PET/CT)](/wiki/education/concepts/measurement/imaging/pet-ct) pairs tracer distribution with anatomical imaging. They do not measure one interchangeable “tumor number.” For a formal response category, read the [response criteria](/wiki/education/concepts/measurement/imaging/response-criteria), comparison timepoint and all required disease observations.
+
 ## A worked disagreement
 
 In a fictional example, a breast lesion becomes less enhancing during treatment. A blood assay changes from detectable to not detected. Later surgery still finds residual invasive cancer.
@@ -70,7 +72,7 @@ Now change the example: blood becomes detectably positive while breast imaging h
 
 ## Read combined studies carefully
 
-A 2021 I-SPY2 pilot studied 84 patients with high-risk early breast cancer receiving neoadjuvant treatment. It examined serial ctDNA and MRI functional tumor volume. These were correlated measurements, with possible additional prognostic information from ctDNA. The study did not establish a universal formula converting a blood result into MRI volume or show that changing treatment using the pair improved survival. [Primary paper](https://doi.org/10.1038/s41523-021-00239-3).
+A 2021 I-SPY2 pilot studied 84 patients with high-risk early breast cancer receiving neoadjuvant treatment. It examined serial ctDNA and MRI **functional tumor volume (FTV)**, a protocol-defined volume based on contrast-enhancement behavior. FTV is an imaging measure, rather than a direct viable-cell count. These were correlated measurements, with possible additional prognostic information from ctDNA. The study did not establish a universal formula converting a blood result into MRI volume or show that changing treatment using the pair improved survival. [Primary paper](https://doi.org/10.1038/s41523-021-00239-3).
 
 A 2025 I-SPY2 analysis examined ctDNA with residual cancer burden in a larger high-risk cohort. It supports studying combined risk information; it does not turn a negative presurgical draw into a tissue pCR or establish a treatment-omission rule. [Primary paper](https://www.nature.com/articles/s41467-025-65432-5).
 
@@ -102,7 +104,7 @@ One answer: “what appears in an examined region; whether qualifying tumor mate
 
 ## Sources and scope
 
-Source check: October 9, 2026. Examples are fictional; this lesson does not choose a scan schedule or treatment. Expert and learner review pending.
+Source check: October 10, 2026. Examples are fictional; this lesson does not choose a scan schedule or treatment. Expert and learner review pending.
 
 - [Magbanua et al. 2021, MRI and ctDNA](https://doi.org/10.1038/s41523-021-00239-3) — I-SPY2 pilot; [full text at UCSF](https://escholarship.org/content/qt18n94421/qt18n94421.pdf).
 - [Magbanua et al. 2025, ctDNA and residual burden](https://www.nature.com/articles/s41467-025-65432-5) — defined high-risk neoadjuvant cohort.

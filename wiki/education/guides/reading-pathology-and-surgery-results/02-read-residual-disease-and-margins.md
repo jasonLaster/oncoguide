@@ -2,8 +2,8 @@
 title: "Read residual disease and margins"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,7 +35,7 @@ flowchart TD
 
 ## A footprint is not a count of remaining cells
 
-A treated tumor bed is the region where the tumor and its treatment effects are evaluated. Its dimensions describe a footprint. [Tumor cellularity](/about/Terminology#tumor-cellularity) describes how much of the evaluated bed is occupied by cancer under the scoring method. Invasive and in situ components also need separation.
+A treated tumor bed is the region where the tumor and its [treatment effects](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology) are evaluated. Its dimensions describe a footprint. Scarring or other treatment changes and viable invasive cancer are separate observations. [Tumor cellularity](/about/Terminology#tumor-cellularity) describes how much of the evaluated bed is occupied by cancer under the scoring method. Invasive and in situ components also need separation.
 
 Imagine two fictional treated beds with the same dimensions. One contains sparse invasive cells; the other contains dense invasive cancer. The footprints match, but their residual findings differ. A large bed is not automatically an equally large dense invasive mass.
 
@@ -43,7 +43,7 @@ RCB combines specified breast measurements with regional-node findings. The size
 
 ## Read breast and nodes before the combined endpoint
 
-A commonly used pCR definition requires no residual invasive cancer in the breast or sampled regional nodes. It can permit ductal carcinoma in situ (DCIS), in which abnormal cells remain within ducts. Check the actual endpoint definition because protocols can differ.
+A commonly used pCR definition requires no residual invasive cancer in the breast or sampled regional nodes. It can permit [ductal carcinoma in situ (DCIS)](/wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis), a distinct in situ finding. Check the actual endpoint definition because protocols can differ.
 
 If invasive cancer remains in an examined node, a clear breast alone does not establish this combined pCR endpoint. Conversely, negative nodes do not erase residual invasive cancer in the breast. Keep the component findings visible.
 
@@ -61,6 +61,8 @@ A fictional report finds DCIS in the breast, no residual invasive cancer in brea
 Now change the fictional report: one node has a residual invasive deposit. The combined pCR endpoint is no longer met, even if the breast has no invasive cancer. This change also contributes to residual burden and nodal staging. It does not by itself establish distant spread.
 
 Separately submitted margins may affect the final margin interpretation. Do not decide which edge is final from one specimen's isolated line. The operative context and integrated pathology interpretation matter. Different recommendations apply to invasive cancer and pure DCIS in defined treatment settings.
+
+A report can also describe [extranodal extension](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension): cancer extending beyond a node's capsule into surrounding tissue. This describes a local feature of the involved node. It does not turn a regional-node finding into distant metastasis. Keep the node location, deposit and final interpretation beside that detail.
 
 ## Response, anatomic extent and local edges remain distinct
 
@@ -95,7 +97,7 @@ A fictional report has no invasive breast cancer, one involved regional node and
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. All examples are fictional and do not calculate an individual's score or final margins.
+Source-checked October 10, 2026; expert and learner review pending. All examples are fictional and do not calculate an individual's score or final margins.
 
 - [MD Anderson: residual cancer burden method](https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).
 - [Symmans and colleagues, 2007](https://doi.org/10.1200/JCO.2007.10.6823), for the measure and prognostic evidence.

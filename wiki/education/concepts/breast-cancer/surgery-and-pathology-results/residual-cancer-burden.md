@@ -2,7 +2,7 @@
 title: "Residual cancer burden (RCB)"
 type: concept
 domain: breast-cancer/surgery-and-pathology-results
-summary: "Residual cancer burden combines breast tumor-bed measurements and regional-node findings into a score after neoadjuvant treatment."
+summary: "Residual cancer burden combines breast tumor-bed measurements and regional-node findings into a score after neoadjuvant chemotherapy."
 glossary_anchor: rcb
 aliases: ["rcb"]
 prerequisites: []
@@ -12,8 +12,8 @@ level: foundation
 sensitive: false
 tags: [education, breast-cancer]
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-10-10
+source_checked: 2026-10-10
 review_status: "Expert and learner review pending"
 ---
 
@@ -21,13 +21,15 @@ review_status: "Expert and learner review pending"
 
 ## In one sentence
 
-Residual cancer burden combines breast tumor-bed measurements and regional-node findings into a score after neoadjuvant treatment.
+Residual cancer burden combines breast tumor-bed measurements and regional-node findings into a score after neoadjuvant chemotherapy.
 
 ## The intuition
 
 Imagine describing what is left using both its footprint and how much of that footprint contains invasive cancer. A large treated bed can contain sparse viable cells. RCB combines this with node findings rather than using the longest tumor dimension alone.
 
 ## How it works
+
+The method is not validated for neoadjuvant endocrine therapy. The College of American Pathologists' June 2026 breast-resection protocol advises against reporting an RCB score or class in that setting, even though individual [cellularity observations](/about/Terminology#tumor-cellularity) may still describe remaining disease. [CAP version 4.11.0.0, note K](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true).
 
 The calculation uses two tumor-bed dimensions, overall [cancer cellularity](/about/Terminology#tumor-cellularity) and the proportion that is in situ, plus the number of involved nodes and the largest nodal metastasis. These are pathology measurements obtained under the scoring protocol, rather than values inferred from an imaging report or the longest invasive focus alone.
 
@@ -93,12 +95,13 @@ This describes residual burden. It does not mean “stage II,” a 2.811% recurr
 
 ## Sources and scope
 
-General teaching, source-checked October 9, 2026. The numeric specimen is fictional. Arithmetic illustrates the published formula; clinical scoring depends on a valid pathology assessment. Expert and learner review remain pending.
+General teaching, source-checked October 10, 2026. The numeric specimen is fictional. Arithmetic illustrates the published formula; clinical scoring depends on a valid pathology assessment. Expert and learner review remain pending.
 
 - [MD Anderson RCB calculator and method](https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).
 - [MD Anderson pathology assessment protocol](https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf), for obtaining the inputs.
 - [Symmans and colleagues, original RCB development and validation](https://pubmed.ncbi.nlm.nih.gov/17785706/), for the formula and class cutoffs.
 - [Multicenter pooled RCB analysis](https://pubmed.ncbi.nlm.nih.gov/34902335/).
+- [CAP breast-resection protocol, June 2026, version 4.11.0.0, note K](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true) — applicability boundary for endocrine treatment.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

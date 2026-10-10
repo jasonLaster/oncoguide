@@ -4,8 +4,8 @@ type: "navigation"
 document_role: "educational-entry"
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -19,7 +19,7 @@ For the full learning path, use [[wiki/education/reading-a-tumor/omics-and-multi
 
 ## Read the report in this order
 
-1. **What was sampled?** Record tissue site, collection time, treatment context and which cells or material were analyzed.
+1. **What was sampled?** Record tissue site, collection time, treatment context and which cells or material were analyzed. A [core biopsy](/wiki/education/concepts/measurement/specimens/core-needle-biopsy) and a [resection specimen](/wiki/education/concepts/measurement/specimens/surgical-resection-specimen) sample different amounts and arrangements of tissue.
 2. **What was measured?** Name DNA, RNA, protein, location, function or a blood time series. Keep units, assay version and threshold beside the value.
 3. **What is its evidence status?** Distinguish a signed clinical finding, preliminary result, research observation, model prediction and interpreted claim.
 4. **Compared with what?** Identify controls, reference population, normalization or earlier timepoint. Check whether preparations and sample attribution fit the comparison.
@@ -41,7 +41,7 @@ A report may answer only part of the card. That is useful too: an explicit missi
 | Repeated blood measurements | [Blood as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd) |
 | Combined interpretation | [The integrated claim ledger](/wiki/education/molecular-profiling/07-from-data-to-care-plan) |
 
-Fixed tissue, frozen molecular material and preserved viable cells support different method-specific questions. One preparation is not a universal substitute for another. A test's input requirements and tissue consumption belong in its assay card.
+[Fixed, fresh-frozen and viable preparations](/wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable) support method-specific questions. Record accepted input and [tissue consumption](/wiki/education/concepts/measurement/specimens/tissue-is-non-renewable) on the assay card before allocating material. For a slide or image-derived result, distinguish [direct morphology](/wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology) from a [digital measurement or model prediction](/wiki/education/concepts/measurement/pathology-readouts/digital-pathology).
 
 ## Work through a fictional result
 
@@ -73,7 +73,7 @@ One answer: “RNA; this tissue mixture; captured expression; surface protein or
 
 ## Sources and scope
 
-Source check: October 9, 2026. A general reading aid; expert and learner review remain pending.
+Source check: October 10, 2026. A general reading aid; expert and learner review remain pending.
 
 - [NCI biomarker testing: samples, methods and interpretation](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).
 - [[wiki/education/reading-a-tumor/omics-and-multi-omics|The linked lessons' method-specific sources]].

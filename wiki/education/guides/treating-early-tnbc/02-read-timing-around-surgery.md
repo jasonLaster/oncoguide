@@ -2,8 +2,8 @@
 title: "Read timing around surgery"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -64,7 +64,7 @@ This record supports the observations. It does not establish that a delayed visi
 
 ## A response still needs the right assessment
 
-An imaging response measures a region. A blood assay measures circulating material. [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is a tissue endpoint with a specified definition. These results can be related without being substitutes.
+An imaging response needs the modality, examined region and [response definition](/wiki/education/concepts/measurement/imaging/response-criteria). A change in one lesion is not automatically a complete patient-level response assessment. A blood assay measures circulating material. [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is a tissue endpoint with a specified definition. These results can be related without being substitutes.
 
 A trial evaluating treatment omission must establish that strategy in the relevant population. A favorable interim test alone does not do so. It also cannot decide an individual's operation date or the timing of other treatment.
 
@@ -95,7 +95,7 @@ A fictional calendar lists six planned doses. Five administration records are pr
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. The calendar is fictional.
+Source-checked October 10, 2026; expert and learner review pending. The calendar is fictional.
 
 - [NCI: Breast cancer treatment by stage](https://www.cancer.gov/types/breast/treatment/by-stage).
 - [NCI: Triple-negative breast cancer treatment](https://www.cancer.gov/types/breast/treatment/triple-negative-breast-cancer).

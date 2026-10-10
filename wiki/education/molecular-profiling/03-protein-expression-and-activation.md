@@ -8,8 +8,8 @@ objectives: ["Choose a protein assay for abundance, location or modification.", 
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,6 +43,16 @@ This is step 11 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Unders
 An abundance per mass of assayed protein is not molecules per malignant cell or surface receptors per cell. A **limit of quantification (LOQ)** defines where reliable quantification is supported under the method. **Not detected** must be read with the analyte list and threshold; the marker may be absent, below detection or not assayed.
 
 For staining, retain which cells were scored, intensity, proportion and location. A membrane stain can answer a different question from nuclear or cytoplasmic staining. Clinical receptor categories use marker-specific rules; research RNA cannot quietly replace them.
+
+## Clinical scores answer marker-specific questions
+
+[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) combines ER-negative, PR-negative and HER2-negative classifications. These are marker-specific pathology interpretations, rather than three absent RNA signals.
+
+Breast receptor classification uses validated tests. Estrogen receptor (ER) and progesterone receptor (PR) are negative when fewer than 1% of invasive tumor-cell nuclei stain under the applicable criteria. ER staining of 1–10% is reported as ER low positive, with its own interpretation. A low RNA signal cannot replace those nuclear staining results. [ASCO/CAP receptor guidance, 2020](https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/).
+
+Human epidermal growth factor receptor 2 (HER2) has different rules. An IHC 2+ result requires the guideline's additional workup, usually **in situ hybridization (ISH)** to examine gene amplification. Preserve the integrated result rather than calling 2+ positive or negative on its own. [ASCO/CAP HER2 guidance, 2023](https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/).
+
+[PD-L1 (programmed death-ligand 1) scoring](/wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring) illustrates another denominator: the combined positive score and tumor proportion score count different eligible cells. Neither is a universal measure of immune effectiveness. For current repair behavior, [RAD51 foci](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd#how-it-is-measured) need their own damage and cell-state controls. A protein total, a receptor category and a controlled repair readout answer different questions.
 
 ## A worked repair finding
 
@@ -85,10 +95,10 @@ One answer: “total abundance; whether the relevant product lies at an accessib
 
 ## Sources and scope
 
-Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+Source check: October 10, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
 
-- [NCI immunohistochemistry](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/immunohistochemistry).
-- [NCI breast biomarker testing](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests).
+- [ASCO/CAP ER/PR guideline, 2020](https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/) — nuclear staining thresholds and ER low-positive reporting.
+- [ASCO/CAP HER2 guideline, 2023](https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/) — integrated IHC/ISH workup; preserves the marker-specific testing algorithm.
 - [[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics|Presentation measurement and sources]].
 - [Carr et al., targeted peptide assays and fit-for-purpose validation (2014)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3945918/).
 - [Beausoleil et al., phosphorylation-site localization (2006)](https://doi.org/10.1038/nbt1240).

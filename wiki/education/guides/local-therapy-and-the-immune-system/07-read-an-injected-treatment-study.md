@@ -8,8 +8,8 @@ objectives: ["Identify the route of every component in an injected-treatment stu
 prerequisites: ["[[wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy]]", "[[wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
 sensitive: false
 tags: [education, local-treatment, immunotherapy, evidence]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,10 +31,10 @@ This extension applies the guide's measurement and comparison questions to an in
 
 ```mermaid
 flowchart TD
-  A[Identify each drug and route] --> B[Describe the disease and accessible lesions]
-  B --> C[Separate local, immune and distant outcomes]
-  C --> D[Identify the background treatment and comparator]
-  D --> E[State the supported claim and remaining gap]
+  A[Identify each drug and route] --> B[Disease and accessible lesions]
+  B --> C[Local, immune and distant outcomes]
+  C --> D[Background care and comparator]
+  D --> E[Supported claim and remaining gap]
 ```
 
 *Follow these as reading steps. They do not describe a treatment sequence.*
@@ -71,6 +71,8 @@ Three notes are justified:
 
 You cannot add the counts together as “15 responders.” Participants can appear in more than one group. The systemic drug also prevents attributing an uninjected response to the injection alone. Even a participant with all three observations has not supplied a controlled estimate of added clinical benefit.
 
+If the paper reports a patient-level radiographic response, look up its [response criteria](/wiki/education/concepts/measurement/imaging/response-criteria). Selected target-lesion changes, non-target disease and new lesions can all matter. Our fictional lesion counts use the exercise's stated definition; they do not supply the measurements needed to calculate a formal response category. An uninjected-lesion response is also not automatically an injection-caused effect.
+
 ## What can go wrong
 
 - A paper's overall response can hide different behavior at injected and uninjected sites.
@@ -99,7 +101,7 @@ One possible completion is: “the treated lesion; response; antigen-reactive ce
 
 ## Sources and scope
 
-Source check: October 9, 2026. The 12-participant exercise is invented. General study-reading education; product protocols govern actual procedures. Expert and learner review pending.
+Source check: October 10, 2026. The 12-participant exercise is invented. General study-reading education; product protocols govern actual procedures. Expert and learner review pending.
 
 - [Marabelle et al., 2018: human intratumoral immunotherapy development and reporting recommendations](https://pubmed.ncbi.nlm.nih.gov/30295695/).
 - [Hammerich et al., 2019: a defined in-situ vaccination regimen in indolent lymphoma](https://pubmed.ncbi.nlm.nih.gov/30962585/).

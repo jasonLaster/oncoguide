@@ -7,7 +7,7 @@ glossary_anchor: "cancer-associated-fibroblasts-and-stroma"
 aliases: ["CAF", "CAFs", "cancer-associated fibroblast", "cancer-associated fibroblasts", "stromal fibroblasts"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
+used_by: []
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -106,5 +106,5 @@ Source check: October 9, 2026; expert and learner review pending. The exercise i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

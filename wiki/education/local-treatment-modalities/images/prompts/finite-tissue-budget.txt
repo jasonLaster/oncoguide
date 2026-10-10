@@ -1,0 +1,10 @@
+Use case: scientific-educational
+Asset type: educational cartoon in Match each measurement to its claim
+Primary request: Show that sectioning and extraction consume finite archived tissue.
+Composition: three wide panels in a single horizontal row, suitable for a landscape teaching poster. Panel 1 shows a small neutral tissue inclusion inside a paraffin archive block. Panel 2 shows several thin sections being taken from the same block and placed on slides for examination, without a blade or graphic detail. Panel 3 shows a visibly smaller remaining tissue inclusion in the block, with a small material-extraction tube alongside it. Use friendly rounded shapes, simple line drawing and clean sans-serif labels. Clear visual continuity across panels.
+Text (verbatim): "Stored tissue", "Sections used", "Material remaining", "Plan the question first".
+Scientific guardrails: The tissue inclusion, not merely the paraffin shell, gets smaller as it is sectioned. Do not show tissue regenerating or a new tissue block appearing. This is a conceptual archive budget, not a universal core count, slice count or assay allocation. Do not label all stored material compatible with any assay. No numbers, patient identifiers, brands, people, anatomy photography, gore, logos or watermarks. No other text.
+Base prompt is theme-neutral. Light and dark variants use the same composition and labels.
+Generation provenance: OpenAI built-in image_gen tool; exact model route is not exposed. 2026-10-10. Source: this lesson's tissue-planning section and linked NCI biospecimen best practices. Generation outputs are copied unchanged into the page's images directory. Clinical diagnosis and consent take priority over research allocation.
+
+Variant instructions: Light: near-white background, pastel blue/green/purple panels, dark readable text. Dark: edit the saved light image, preserving all four exact labels and all objects; deep charcoal background, subdued blue/green/purple panels, pale readable text. Generated original paths and immutable copied SHA-256 values are recorded in the anatomy-and-measurement batch mapping.

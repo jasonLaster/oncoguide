@@ -8,8 +8,8 @@ objectives: ["Distinguish anatomical response, tissue measurements and functiona
 prerequisites: ["[[wiki/education/local-treatment-modalities/04-decision-questions]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
 sensitive: false
 tags: [education, local-treatment, measurement]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -30,7 +30,7 @@ First name the claim: “The treated site is controlled,” “immune cells ente
 | Measurement | Useful question | What it cannot establish alone |
 |---|---|---|
 | Anatomical imaging, such as computed tomography or magnetic resonance imaging | Where is disease detected, and how does a lesion change? | Which immune mechanism caused the change |
-| Positron emission tomography with a specified tracer | Where was that tracer detected under the scan conditions? | Effective therapeutic radiation dose or complete coverage of unseen disease |
+| [Positron emission tomography with computed tomography (PET/CT)](/wiki/education/concepts/measurement/imaging/pet-ct), with a specified tracer | Where was that tracer detected under the scan conditions? | Effective therapeutic radiation dose or complete coverage of unseen disease |
 | Immunohistochemistry | Which cells stain for a selected protein, where, and using what scoring method? | Whole-body expression or T-cell killing capacity |
 | Bulk RNA sequencing | Which messages were captured from this tissue mixture? | Accessible surface protein or the activity of each individual cell |
 | [T-cell receptor sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) | Which sampled receptor sequences are present and change in abundance? | Which target every sequence recognizes or whether those cells can kill |
@@ -38,7 +38,9 @@ First name the claim: “The treated site is controlled,” “immune cells ente
 
 RNA is ribonucleic acid; it participates in the [path from genetic information to protein](/wiki/education/concepts/biology-basics/genetics/central-dogma). RNA abundance, protein staining and accessible binding sites are related but different measurements.
 
-For a [radioligand](/wiki/education/local-treatment-modalities/06-comparisons), dosimetry estimates absorbed radiation dose. Uptake, retention and normal-organ exposure need product-specific interpretation. A diagnostic image does not replace that work. [Food and Drug Administration guidance, 2019](https://www.fda.gov/media/129547/download).
+For [target PET and theranostic imaging](/wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging), record the tracer, binding component and radionuclide. [Immuno-PET](/wiki/education/concepts/measurement/imaging/immuno-pet) uses a radiolabeled antibody or antibody-derived binding component. The detected signal still needs cell origin and distribution context.
+
+For a [radioligand](/wiki/education/local-treatment-modalities/06-comparisons), dosimetry estimates absorbed radiation dose. Uptake, retention and normal-organ exposure need product-specific interpretation. A diagnostic image does not replace that work. Joint guidance from the European Association of Nuclear Medicine and the Medical Internal Radiation Dose Committee describes quantitative imaging for dosimetry of lutetium-177 therapies; its method scope does not establish a treatment's benefit in breast cancer. [Ljungberg and colleagues, 2016](https://pubmed.ncbi.nlm.nih.gov/26471692/).
 
 ## Worked example: the percentage rose, but what changed?
 
@@ -50,11 +52,15 @@ Now suppose the second sample came from a different lesion or a different-sized 
 
 ## How tissue planning changes the answer
 
+<img src="./images/finite-tissue-budget-light.png" alt="Three panels show archived tissue, sections taken onto slides, and a smaller amount of tissue remaining after use" data-theme-pair>
+
+*Sectioning and extraction consume finite archive material. Shapes and amounts are schematic; diagnostic needs and assay requirements govern allocation.*
+
 A specimen records a place and time. The center of an injured lesion, its viable edge and an untreated lesion can answer different questions. An early sample may capture transient injury signals; a later sample may capture a changed mixture of surviving cells.
 
-Collection and handling also matter. Fixed tissue can support morphology and selected molecular assays. Fresh-frozen material preserves analytes under a defined workflow. Viable-cell preservation aims to retain living cells for suitable experiments. “Frozen” alone does not guarantee live cells or compatibility with every assay.
+Collection and handling also matter. [Fixed, fresh-frozen and viable preparations](/wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable) support different questions. Ask which input the actual assay accepts before allocating material. A label such as “frozen” cannot guarantee living cells or compatibility.
 
-Diagnostic needs, patient safety and consent come before an exploratory sample wish list. Research planning should specify the question, accepted material, minimum usable amount, processing timeline, assay controls and what remains for other needs. There is no universal number of biopsy cores that can be allocated from an educational checklist. Archive material is finite too: cutting sections and extracting material consume it. [National Cancer Institute best practices, fourth edition 2026](https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources).
+Diagnostic needs, patient safety and consent come before an exploratory sample wish list. Research planning should specify the question, accepted material, minimum usable amount, processing timeline, assay controls and what remains for other needs. There is no universal number of biopsy cores that can be allocated from an educational checklist. Archive [tissue is finite](/wiki/education/concepts/measurement/specimens/tissue-is-non-renewable): cutting sections and extracting material consume it. [Repeat blood sampling](/wiki/education/concepts/measurement/specimens/blood-as-a-renewable-sample) can provide later observations, but it collects a new timepoint and requires its own safety, volume and method planning. [National Cancer Institute best practices, fourth edition 2026](https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/appendices/2026-4th-edition-best-practices.pdf).
 
 ## From a signal to a mechanism
 
@@ -84,9 +90,10 @@ Next: [compare delivery and recognition separately](/wiki/education/local-treatm
 
 ## Sources and scope
 
-Source check: 2026-10-09. All counting numbers and practice studies are fictional; expert and learner review pending.
+Source check: 2026-10-10. All counting numbers and practice studies are fictional; expert and learner review pending.
 
-- [NCI 2026: Best Practices for Biospecimen Resources, fourth edition](https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources) — collection, handling, quality and planned uses.
+- [NCI 2026: Best Practices for Biospecimen Resources, fourth edition](https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/appendices/2026-4th-edition-best-practices.pdf) — targeted sections C.2.1 and C.2.4.1.2: application compatibility, medical-care priority and collection/handling variables.
 - [Galluzzi et al., 2020: immunogenic cell death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/) — distinguishing signals from demonstrated adaptive immunity.
 - [Formenti et al., 2018: radiation plus checkpoint blockade in lung cancer](https://pubmed.ncbi.nlm.nih.gov/30397353/) — complementary clinical and immune measurements in a specific study.
-- [FDA 2019: oncology therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download) — biodistribution and absorbed-dose questions.
+- [Ljungberg et al., 2016: joint EANM/MIRD quantitative lutetium-177 imaging guidance](https://pubmed.ncbi.nlm.nih.gov/26471692/) — activity measurements and absorbed-dose estimates for that radiopharmaceutical-therapy method.
+- [FDA 2019: oncology therapeutic radiopharmaceutical nonclinical guidance](https://www.fda.gov/media/129547/download) — animal biodistribution, dosimetry and development-program scope; it is not a clinical dosing protocol.
