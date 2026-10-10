@@ -8,7 +8,7 @@ objectives: ["Check model identity, composition, exposure and controls before in
 prerequisites: ["[[wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]", "[[wiki/education/concepts/measurement/computational-analysis/virtual-cell-model]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -45,7 +45,7 @@ This card is a way to read an experiment, not a universal protocol. A particular
 
 Normal cells can contribute a mixed-culture signal. A culture labeled “tumor-derived” can contain normal epithelial cells, or lose less easily grown cancer populations. Identity should have evidence suited to the preparation, rather than one marker or the original container label.
 
-Composition can also change during the experiment. In an immune co-culture, relevant cells must remain viable and capable of the proposed interaction. Immune cells from a different person can attack because of donor mismatch. That is a different explanation from recognizing a specific tumor target after treatment.
+Composition can also change during the experiment. In an immune [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture), relevant cells must remain viable and capable of the proposed interaction. Immune cells from a different person can attack because of donor mismatch. That is a different explanation from recognizing a specific tumor target after treatment.
 
 For an animal graft, distinguish human malignant cells from host-derived vessels and stroma. For a computer model, distinguish the directly measured inputs from predicted cell assignments or molecular values. A polished map does not settle either attribution.
 
@@ -63,6 +63,8 @@ For combinations, compare both single drugs and the combination under a defined 
 
 Repeated wells estimate variability within a preparation. Independently obtained specimens address biological variation. Ten wells from one tumor are not ten independent patients.
 
+A [genetic dependency experiment](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) can ask whether disrupting a gene affects survival in that model. A medicine may inhibit only part of its function, reach a different exposure or affect other targets. Agreement between the two strengthens a specified mechanism claim; a genetic result alone cannot supply the missing drug experiment.
+
 ## Work through a fictional count
 
 At the experiment's start, a culture has 100 verified living malignant cells. Vehicle-treated wells reach 200. Drug-treated wells remain at 100. These invented values illustrate an endpoint comparison, not clinical efficacy.
@@ -71,9 +73,11 @@ The drug condition has half as many cells as vehicle at the end. That supports a
 
 Now imagine the assay measured only a metabolic signal. A lower value could reflect fewer cells or changed metabolism per cell. A suitable cell-death measurement and tumor-cell attribution would answer a closer killing question. Regrowth after drug removal asks yet another question: whether survivors can recover under those conditions.
 
+A [single-cell mass assay](/wiki/education/concepts/measurement/functional-models/single-cell-mass-assays) introduces another measured object. A cell accumulating less mass after exposure is not the same observation as a cell dying. Check the instrument's mass definition, time window and cell attribution before translating its response into a killing claim.
+
 ## Give a computer model an equally demanding test
 
-Ask what was kept out of training and model selection. Additional cells from a familiar intervention are different from a **held-out perturbation**, an intervention whose response the model did not see while learning. A new patient, cell type or laboratory asks a different portability question again.
+Use [model-validation basics](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) to ask what was kept out of training and model selection. Additional cells from a familiar intervention are different from a **held-out perturbation**, an intervention whose response the model did not see while learning. A new patient, cell type or laboratory asks a different portability question again.
 
 Compare with meaningful simple baselines, such as an average response. Evaluate the response change that matters, not only agreement dominated by genes that barely changed. A predicted [ribonucleic acid (RNA) pattern](/wiki/education/concepts/biology-basics/genetics/central-dogma) should be compared with appropriate measured RNA; that evaluation does not turn it into a demonstrated killing result.
 

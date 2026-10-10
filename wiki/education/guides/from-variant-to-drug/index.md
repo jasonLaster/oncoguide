@@ -6,7 +6,7 @@ audience: "Curious reader or caregiver; basic DNA, RNA, and protein familiarity 
 minutes: 94
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -32,9 +32,9 @@ The core path takes about 46 minutes. Start with [DNA, RNA, and protein](/wiki/e
 ## The map
 
 ```mermaid
-flowchart LR
- A["Authenticate and attribute the finding"] --> B["Connect a measured biological consequence"]
- B --> C["Check clinical evidence and access"]
+flowchart TD
+ A["Authenticate and attribute<br/>the finding"] --> B["Connect a measured<br/>biological consequence"]
+ B --> C["Check clinical evidence<br/>and access"]
 ```
 
 ## Lessons
@@ -70,7 +70,7 @@ For translation, use [clinical actionability](/wiki/education/concepts/evidence-
 
 ## Keep an evidence ledger
 
-At each step, record the observation, its source, the conclusion it supports, and the next unresolved question. A fictional repair-gene variant may be confirmed in DNA, alter an RNA junction, and accompany a protein signal. A functional assay then asks whether repair is impaired. A clinical study asks a different question about benefit in a defined population.
+Use the [variant-to-benefit evidence chain](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) to keep the bridges visible. At each step, record the observation, its source, the conclusion it supports, and the next unresolved question. A fictional repair-gene variant may be confirmed in DNA, alter an RNA junction, and accompany a protein signal. A functional assay then asks whether repair is impaired. A clinical study asks a different question about benefit in a defined population.
 
 [From data to a care plan](/wiki/education/molecular-profiling/07-from-data-to-care-plan) is the shared supporting lesson for this ledger. [Judging a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index) helps assess the claim's wording and validation. [Accessing experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index) develops the practical final gate.
 

@@ -8,7 +8,7 @@ objectives: ["Distinguish an interpretable model response, clinical prediction a
 prerequisites: ["[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -27,7 +27,7 @@ This is step 3 of [Predict response before treating](/wiki/education/guides/pred
 
 ## Climb one claim at a time
 
-Think of a rehearsal that successfully tests one scene. It helps prepare the performance, but the audience response remains a new observation. A tumor model can also do its job well without answering every clinical question.
+[How a model earns trust](/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust) begins with a precise purpose. Think of a rehearsal that successfully tests one scene. It helps prepare the performance, but the audience response remains a new observation. A tumor model can also do its job well without answering every clinical question.
 
 | Evidence rung | What it supports | What remains open |
 |---|---|---|
@@ -43,7 +43,7 @@ This is an evidence map, not a demand that every validated clinical biomarker be
 
 A useful validation description names the disease, treatment setting, specimen timing, assay version, drugs, decision rule and patient outcome. “Breast cancer validation” is too broad if the experiment used a particular chemotherapy before surgery and the proposed use is a different postoperative medicine.
 
-Separate the endpoint too. Tumor shrinkage on imaging, a pathology result, a blood signal and survival measure different outcomes. Agreement with one does not automatically validate the others. A combined regimen also complicates attributing response to a single component tested in the model.
+Separate the endpoint too. [Response rates](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) on imaging, a pathology result, a blood signal and survival measure different outcomes. An early measurement used to stand in for another outcome is a [surrogate endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints), with its own evidence question. Agreement with one does not automatically validate the others. A combined regimen also complicates attributing response to a single component tested in the model.
 
 Report how many specimens could not yield a result and why. A high agreement rate among successfully established models describes that selected group. It does not tell us how often the strategy can supply an answer for everyone offered testing.
 
@@ -67,7 +67,7 @@ A disciplined feedback loop starts with a dated, versioned prediction and a defi
 - The time window and independent method used to assess the outcome.
 - Failed, uninterpretable and discordant results as well as apparent successes.
 
-These are evaluation records, not a personal treatment or sampling schedule. Changing the rule after an outcome can generate a new hypothesis. It cannot rewrite the earlier prediction into a successful independent test.
+These are evaluation records, not a personal treatment or sampling schedule. Changing the rule after an outcome can generate a new hypothesis. It cannot rewrite the earlier prediction into a successful independent test. [Model-validation basics](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) explains which data are used for fitting, choosing and independently testing a rule.
 
 ```mermaid
 flowchart TD

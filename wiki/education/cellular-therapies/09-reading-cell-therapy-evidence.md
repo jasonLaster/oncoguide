@@ -12,7 +12,7 @@ source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-09"
+updated: 2026-10-10
 ---
 
 # Reading cell-therapy evidence
@@ -50,6 +50,8 @@ A line that ends early may reflect a planned endpoint, animal removal, death, or
 
 ## Worked example: reduction is not regression
 
+The [reduction-versus-regression concept](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression) keeps two reference points distinct: the concurrent control and the treated group's own starting value.
+
 **Fictional numbers for practice:** Both groups start at 100 cubic millimeters. At day 28, the control tumor is 1,000 and the treated tumor is 300.
 
 - The treated tumor is **70% smaller than the control** at day 28: `(1,000 - 300) / 1,000`.
@@ -61,6 +63,10 @@ Now suppose the treated tumor is 30 instead. That shows shrinkage below its 100 
 **Log-scale reminder:** A cell-count axis labeled 100, 1,000, 10,000, 100,000 uses equal visual spacing for tenfold changes. Read the numbers, not just the line's apparent height.
 
 **Practice interactively:** Open the [CAR-T learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) to change these numbers, explore the components, and answer six questions. The activities run in the reader; an offline ZIP remains available on the lab page.
+
+## Read the patient-response denominator
+
+[Objective response rate (ORR)](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) counts people meeting a stated response definition. Disease control rate (DCR) and clinical benefit rate (CBR) may include defined stable disease; retain their duration, confirmation and denominator rules. Neither is a fraction of cancer cells killed. Response duration, symptoms, survival and harms remain distinct outcomes. Comparing separate products' trial headlines needs the [cross-trial comparison checks](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison).
 
 ## Safety is a separate set of outcomes
 

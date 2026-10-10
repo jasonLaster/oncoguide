@@ -17,7 +17,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-10
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -62,7 +62,19 @@ The last row matters because patients' paths can change after assignment. An ana
 
 Randomization makes assignment independent of baseline patient characteristics through a chance process. It helps balance groups in expectation; a particular trial can still have imbalances. Consistent outcome assessment and follow-up also matter.
 
-A study with one treated group can describe what happened in that group. It has no concurrent untreated or differently treated group to show what would otherwise have happened. Comparing its result with an older published cohort introduces differences in entry criteria, treatment era, and assessment. A larger sample does not remove those differences. The phase label is a useful orientation, but you still need the actual comparison. [NCI: how trials work](https://www.cancer.gov/research/participate/clinical-trials/how-trials-work).
+A study with one treated group can describe what happened in that group. It has no concurrent untreated or differently treated group to show what would otherwise have happened. Comparing its result with an older published cohort introduces differences in entry criteria, treatment era, and assessment. A larger sample does not remove those differences. [Cross-trial comparison](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) keeps those mismatches beside the numbers. The phase label is a useful orientation, but you still need the actual comparison. [NCI: how trials work](https://www.cancer.gov/research/participate/clinical-trials/how-trials-work).
+
+## Check what the response label counts
+
+[Objective response rate (ORR)](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) counts participants meeting the study's defined complete or partial response criteria. **Disease control rate (DCR)** may also count stable disease. **Clinical benefit rate (CBR)** often includes stable disease lasting a specified period. Read the actual protocol: the assessment rule, required duration, confirmation and denominator belong to the result. The name “clinical benefit rate” alone does not establish longer survival or better quality of life.
+
+In a fictional cohort of 20 assessed people, the only responses are four qualifying partial responses. Six others have qualifying stable disease. Under a stated DCR definition counting both, ORR is 4/20 and DCR is 10/20. A CBR result requiring durable stable disease still needs the duration record. Neither proportion is a percentage of tumor cells killed.
+
+## Ask whether an earlier endpoint carries another claim
+
+A [surrogate endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) stands in for a different clinical outcome. The needed evidence goes beyond finding that people with a favorable marker also have better outcomes. Does changing treatment improve the marker and reliably predict an improvement in the clinical outcome?
+
+[Pathological complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) illustrates this distinction. The Collaborative Trials in Neoadjuvant Breast Cancer (CTNeoBC) pooled analysis asked both questions. It found favorable outcome associations among people achieving pCR. It did not validate treatment effects on pCR as a surrogate for effects on event-free or overall survival in its included trials. That finding does not turn pCR into a personal prognosis or make every use of it meaningless. Read its definition, context and the later clinical outcomes together. [Cortazar et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24529560/).
 
 ## A worked example: a sequence is the tested intervention
 
@@ -107,3 +119,4 @@ Source check: 2026-10-09. General study-reading methods; expert and learner revi
 - [FDA 2018: clinical trial endpoints for cancer drugs and biologics](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics).
 - [FDA 2021, ICH E9(R1): treatment-effect questions and sensitivity analysis](https://www.fda.gov/media/148473/download).
 - [CONSORT 2025: reporting randomized trials](https://www.bmj.com/content/389/bmj-2024-081123).
+- [Cortazar et al., 2014: CTNeoBC patient-level associations and trial-level surrogacy analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/) — primary pooled analysis of specified neoadjuvant breast-cancer trials; checked October 10, 2026.

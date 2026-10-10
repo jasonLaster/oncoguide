@@ -8,7 +8,7 @@ objectives: ["Match a drug claim to the studied disease, biomarker, treatment se
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]", "[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]"]
 sensitive: false
 tags: ["education", "molecular-interpretation"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -37,7 +37,7 @@ For example: “In early breast cancer after initial treatment, does adding drug
 
 Check the study's exact inclusion criteria, prior treatments, biomarker assay, and whether the relevant subgroup was large enough to interpret. “BRCA-altered” can conceal germline and somatic findings, different genes, or variants with different classifications.
 
-A single-arm study follows a treatment group without a randomized comparator. It can provide a useful response signal, but it cannot by itself isolate the treatment's comparative benefit. Randomization helps compare groups under a specified treatment strategy. Neither design automatically applies to an unstudied biomarker or setting.
+A single-arm study follows a treatment group without a randomized comparator. It can provide a useful [response-rate signal](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates), but it cannot by itself isolate the treatment's comparative benefit. A [cross-trial comparison](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) with a different cohort leaves a separate comparability question. Randomization helps compare groups under a specified treatment strategy. Neither design automatically applies to an unstudied biomarker or setting.
 
 The SHIVA randomized study tested one molecular-matching strategy in refractory advanced cancers. Its results did not establish that matching pathway names to drugs was generally superior to conventional treatment in that tested setting. This limits that strategy; it does not invalidate every precision treatment. [Le Tourneau 2015](https://pubmed.ncbi.nlm.nih.gov/26342236/).
 
@@ -75,7 +75,7 @@ An indication defines a specified approved use. **Off-label** use involves an ap
 
 A treatment effect in another disease can be transferred without justification. A subgroup response can be quoted without its population or comparator. A target-engagement result can be presented as efficacy. A permissive access route can be treated as evidence that treatment is appropriate.
 
-Write an **evidence ledger**, a short table recording each observation, its source, the conclusion it supports, and the remaining gap. [The shared care-plan lesson](/wiki/education/molecular-profiling/07-from-data-to-care-plan) supplies a model. A transparent “unknown” is more useful than a chain whose weakest link is hidden.
+Write an **evidence ledger**, a short table recording each observation, its source, the conclusion it supports, and the remaining gap. [The shared care-plan lesson](/wiki/education/molecular-profiling/07-from-data-to-care-plan) supplies a model. The [variant-to-benefit chain](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) makes those links explicit. An untested use leaves [an evidence gap](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence), rather than proving benefit or proving failure. A transparent “unknown” is more useful than a chain whose weakest link is hidden.
 
 ## Try it
 

@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-
 used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -29,13 +29,13 @@ A weather model can explore tomorrow's conditions without creating tomorrow's we
 
 ## How it works
 
-Some models use equations describing mechanisms. Others learn statistical relationships from measured data, including machine learning. These approaches can be combined. “Virtual cell” names an ambition or model category; it does not establish one architecture or a complete simulation of life.
+Some models use equations describing mechanisms. Others learn statistical relationships from measured data, including machine learning. These approaches can be combined. A [foundation model](/wiki/education/concepts/measurement/computational-analysis/foundation-models) learns a representation for reuse across tasks. That training approach does not itself specify a virtual-cell intervention task or validate its clinical use. “Virtual cell” names an ambition or model category; it does not establish one architecture or a complete simulation of life.
 
 The **task** defines what the output means. Predicting a missing RNA value from an image, estimating a drug response and predicting a gene-disruption response are different tasks. Success at filling a measurement gap does not validate an intervention prediction.
 
 A **virtual perturbation** changes a model input and calculates an output. It is not a performed cellular experiment. In particular, masking a gene value is not automatically equivalent to removing that gene's function. The biological intervention must be represented and evaluated appropriately.
 
-**Held-out** data are reserved for evaluation rather than model fitting or selection. Holding out more cells from a familiar experiment asks a different question from holding out an entire intervention, donor or cell type. Tests should match the intended new use. Avoid shared patients, batches or labels leaking information across the split.
+**Held-out** data are reserved for evaluation rather than model fitting or selection. Holding out more cells from a familiar experiment asks a different question from holding out an entire intervention, donor or cell type. Tests should match the intended new use; [model-validation basics](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) explains the fitting, selection and testing roles. Avoid shared patients, batches or labels leaking information across the split.
 
 **Portability** asks whether the model still works when its context changes. A new cancer type, preparation, drug dose or laboratory may differ from training data. Inputs must be compatible, and performance needs fresh evaluation. A broadly trained model is not automatically validated everywhere.
 
@@ -65,6 +65,22 @@ A fictional model learns RNA responses after interventions in one cell line. It 
 | Evaluation | What was held out, comparator baselines, error measures and external data |
 | Failure modes | Leakage, incompatible inputs, context shift or prediction of the wrong endpoint |
 | Cannot establish alone | A performed perturbation, complete cell biology or improved clinical outcomes |
+
+## Try it
+
+A fictional model accurately fills missing RNA values from images of familiar samples. Can researchers claim it predicts what happens after a never-tested drug?
+
+**Answer:** No. Measurement completion and intervention prediction are different tasks. Define the intervention and outcome, reserve appropriate independent experiments, and compare the prediction with measured responses and useful baselines.
+
+## Explain it back
+
+“The model predicts ___ from ___. Its independent test held out ___. That still leaves ___ untested.”
+
+One answer: “RNA values; images; new donors; a drug response and clinical benefit.”
+
+## Takeaway
+
+**Name the predicted object and independent test before assigning a virtual cell a new capability.**
 
 ## Related concepts
 

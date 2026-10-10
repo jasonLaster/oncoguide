@@ -8,7 +8,7 @@ objectives: ["Match a biological question to a model and an observable response.
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/measurement/functional-models/organoid]]", "[[wiki/education/concepts/measurement/computational-analysis/virtual-cell-model]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -37,10 +37,11 @@ A [molecular profile](/wiki/education/reading-a-tumor/omics-and-multi-omics) can
 
 | Model | A question it can help test | What must still be checked |
 |---|---|---|
-| [Ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) using cells or fragments | What response follows a defined exposure outside the original body? | Viability, tumor-cell attribution, retained neighbors and exposure |
+| [Cell line](/wiki/education/concepts/measurement/functional-models/cell-lines) | What happens after a controlled intervention in a maintained cell population? | Identity, selection, passage and relevance to the intended cancer |
+| [Ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) using cells or [tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments) | What response follows a defined exposure outside the original body? | Viability, tumor-cell attribution, retained neighbors and exposure |
 | Patient-derived organoid | What do selected cultured populations do under repeated experiments? | Malignant identity, culture selection, matrix and missing cell types |
 | [Patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) | What happens to tumor growth after dosing an animal host? | Host immunity, species-specific compartments, engraftment and passage |
-| Immune co-culture or a method retaining immune cells | Do specified immune and tumor populations interact after an intervention? | Compatibility, cell persistence, recognition controls and readout |
+| Immune [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture) or a method retaining immune cells | Do specified immune and tumor populations interact after an intervention? | Compatibility, cell persistence, recognition controls and readout |
 | Virtual cell model | Which measured cellular response might follow an intervention? | Task, version, training context, independent tests and uncertainty |
 
 These categories overlap. An organoid can supply an ex vivo screen. A model can retain selected immune cells without retaining an entire immune system. The name tells you where to begin checking; it does not complete the check.
@@ -53,7 +54,9 @@ Conventional epithelial organoids commonly lack the original immune populations.
 
 Conventional PDX hosts commonly have impaired immunity. Human supporting tissue can also give way to mouse-derived stroma and vessels. A drug needing a human immune or stromal interaction may therefore need another design. Humanized models add selected human components whose source and compatibility still matter.
 
-Engineered matrices and perfused channels can help study selected access or architecture questions. They do not add every missing organ or reproduce human metabolism. Likewise, a virtual model that predicts RNA after gene disruption has not automatically learned safe drug dosing or whole-body response.
+[Bioprinting](/wiki/education/concepts/measurement/functional-models/bioprinting) places cells and materials in a designed arrangement. A [tumor-on-chip](/wiki/education/concepts/measurement/functional-models/tumor-on-chip) controls selected tissue conditions, sometimes including flow. The two can be combined. Neither name guarantees the required immune cells, a working blood vessel or human drug metabolism.
+
+A [foundation model](/wiki/education/concepts/measurement/computational-analysis/foundation-models) describes how a computational representation is trained and reused. It is not automatically a virtual cell with a validated intervention task. A prediction of RNA after gene disruption does not establish safe drug dosing or whole-body response.
 
 ## Work through a fictional choice
 
@@ -65,7 +68,9 @@ Second, antibody B may release a T-cell response through an [immune checkpoint](
 
 Third, a computational model predicts that disrupting gene C changes an RNA program. That can prioritize a measured experiment. It has not shown that a drug achieves the same perturbation, kills the tumor or benefits a patient.
 
-There may be several suitable models, each exposing a different bridge. The strongest plan names that bridge rather than declaring one platform universally best.
+Now suppose the team wants the tumor cells in a particular layout and wants fluid to move through defined channels. Bioprinting addresses placement; a chip addresses the controlled environment. Those are design choices within the experiment, rather than a new clinical-validation result.
+
+There may be several suitable models, each exposing a different bridge. [How a model earns trust](/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust) starts with that question, rather than declaring one platform universally best.
 
 ## What can go wrong at this step
 

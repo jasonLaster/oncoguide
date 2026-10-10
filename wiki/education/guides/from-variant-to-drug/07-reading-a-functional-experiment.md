@@ -17,6 +17,7 @@ reviewed_by: ""
 review_status: "Expert and learner review pending"
 source_checked: 2026-10-09
 tags: [education, functional-testing, PARP, autophagy, synergy]
+updated: 2026-10-10
 ---
 
 # Reading a functional experiment
@@ -70,13 +71,13 @@ The reference model is part of the claim, rather than a technical detail to omit
 
 ## Ask what the readout actually measures
 
-An assay based on **adenosine triphosphate (ATP)**, a cellular energy molecule, or another metabolic signal can fall because there are fewer cells or because their metabolism changed. It cannot alone establish irreversible death.
+An assay based on **adenosine triphosphate (ATP)**, a cellular energy molecule, or another metabolic signal can fall because there are fewer cells or because their metabolism changed. It cannot alone establish irreversible death. A [single-cell mass assay](/wiki/education/concepts/measurement/functional-models/single-cell-mass-assays) measures a different response again; slower mass accumulation alone does not establish death.
 
 A cell-death assay asks a different question. **Apoptosis** is one regulated death process. Regrowth after drug removal tests whether survivors can recover under the culture conditions. Measuring tumor-cell identity and composition helps establish which cells supplied the signal. A mixed culture may include nonmalignant cells, and culture can favor only some tumor populations.
 
 Mechanism measurements are another layer. **Autophagic flux** measures completed recycling over time. [Poly(ADP-ribose) polymerase (PARP) trapping](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping) measures a protein obstacle on [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma). **RAD51 foci** are repair-protein assemblies that need adequate damage and cycling-cell controls to inform present [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) function. Each readout should be matched to the exact proposed explanation.
 
-A genetic perturbation that independently disrupts the proposed function can strengthen a causal claim. Restoring that function in a **rescue experiment** can add further support. These are research methods, not features guaranteed by every drug screen. Autophagy assay guidelines are especially clear about combining appropriate measurements and controls. [Klionsky 2021](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+[Genetic dependency mapping](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) tests specified genetic disruptions. An independent disruption of the proposed function can strengthen a causal claim, while leaving the drug's actual effects to be tested. Restoring that function in a **rescue experiment** can add further support. These are research methods, not features guaranteed by every drug screen. Autophagy assay guidelines are especially clear about combining appropriate measurements and controls. [Klionsky 2021](https://pubmed.ncbi.nlm.nih.gov/33634751/).
 
 ## Separate response, mechanism, and benefit
 

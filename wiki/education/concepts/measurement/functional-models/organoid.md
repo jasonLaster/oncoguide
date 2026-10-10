@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-h
 used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: "2026-10-09"
+updated: "2026-10-10"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -33,7 +33,7 @@ Cells are grown under conditions that support organization, often within a gel-l
 
 The starting material and growth conditions select which cells survive. Some cancer populations expand well; others disappear. Normal epithelial cells can also grow. Comparing identity and relevant molecular features with the source specimen helps establish what the culture contains.
 
-Many conventional epithelial organoids lack the original immune and supporting-cell populations. Specialized methods can retain selected neighbors or add them in a **co-culture**, a culture containing more than one cell population. That capability must be demonstrated for the actual experiment. The word organoid alone does not establish immune competence.
+Many conventional epithelial organoids lack the original immune and supporting-cell populations. Specialized methods can retain selected neighbors or add them in a [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture), a culture containing more than one cell population. That capability must be demonstrated for the actual experiment. The word organoid alone does not establish immune competence.
 
 A culture's matrix, size, oxygen supply and treatment duration can affect its response. Expansion and repeated transfer into fresh cultures, called **passaging**, can change its composition. Record those conditions alongside the result.
 
@@ -56,11 +56,31 @@ A fictional tumor organoid contains verified malignant epithelial cells but no d
 
 | Assay-card field | What to retain |
 |---|---|
+| Measures | The selected structure, molecular feature or response in a characterized culture; the organoid is a model, rather than one universal assay |
+| How | Establish culture under a stated matrix and medium; check identity and composition; apply the defined intervention and measure its endpoint |
 | Input and tissue cost | Viable starting material under the method's protocol; derivation and experiments consume material |
 | Identity and composition | Evidence of malignancy, retained populations, matrix, medium and passage |
-| Output | The chosen growth, death, molecular or interaction readout, with its units |
-| Controls and thresholds | Defined separately for the experiment; no universal organoid-response cutoff |
-| Validation | Model characterization and intended-use evidence, rather than the culture label alone |
+| Output and units | The chosen readout, such as cell counts, a death-marker fraction or a molecular signal; preserve its units and normalization |
+| Controls and thresholds | Defined separately for the experiment, population and intended use; no universal organoid-response cutoff |
+| Failure modes | Failed establishment, normal-cell overgrowth, lost populations, altered composition or an inadequate exposure/readout |
+| What it cannot tell you | Whether every source-tumor population was retained, a whole-body drug response or patient benefit from the result alone |
+| Validation tier | Model characterization and intended-use evidence; the culture label establishes no regulatory status or clinical authorization |
+
+## Try it
+
+A fictional tumor organoid grows well and shows a lower metabolic signal after treatment. Its immune cells disappeared during culture. Can the team call this demonstrated immune-mediated tumor killing?
+
+**Answer:** No. Check the current cells and what supplied the signal. A metabolic decrease does not establish death, and the missing immune cells leave the proposed interaction untested. A suitable co-culture would be a different experiment needing its own controls.
+
+## Explain it back
+
+“This organoid retains ___. The experiment measured ___. It leaves ___ outside its scope.”
+
+One answer: “selected verified tumor cells; a metabolic response at the tested exposure; the missing immune interaction and clinical benefit.”
+
+## Takeaway
+
+**Describe the organoid's current contents and measured endpoint before assigning it a biological or clinical claim.**
 
 ## Related concepts
 
@@ -71,6 +91,8 @@ A fictional tumor organoid contains verified malignant epithelial cells but no d
 ## Sources and scope
 
 Source check: October 9, 2026. General model teaching; expert and learner review remain pending.
+
+Assay-card and practice completion checked October 10, 2026. The methods below concern their stated preparations; immune retention is method-specific.
 
 - [Sachs et al., 2018: primary breast-cancer organoid biobank](https://doi.org/10.1016/j.cell.2017.11.010).
 - [Neal et al., 2018: selected organoid systems retaining tumor immune components](https://pubmed.ncbi.nlm.nih.gov/30550791/).

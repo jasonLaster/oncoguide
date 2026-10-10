@@ -6,7 +6,7 @@ audience: "Curious reader; no specialist training assumed"
 minutes: 36
 sensitive: false
 tags: [education, guide]
-updated: 2026-10-09
+updated: 2026-10-10
 source_checked: 2026-10-09
 review_status: "Source-checked; expert and learner review pending"
 reviewed: pending
@@ -50,7 +50,7 @@ Start with [trial phases and randomization](/wiki/education/concepts/evidence-an
 
 For the numbers, use the [Kaplan–Meier curve](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier), [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio), [absolute risk, relative risk, and number needed to treat](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt), and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) pages. They are reference stops, not extra lessons you must memorize.
 
-For a response result, check the [odds ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio). For a statistical claim, bring in [p-values and multiple testing](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) and [planned versus exploratory analysis](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis). [Meta-analysis](/wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis) explains what pooling studies adds and what it leaves unresolved.
+For a response result, first name the [response-rate definition](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) and its denominator. [Surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) explain the separate question of whether a treatment's effect on an earlier measure predicts another benefit. The [odds ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio) then describes one way to compare binary outcomes. For a statistical claim, bring in [p-values and multiple testing](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) and [planned versus exploratory analysis](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis). [Meta-analysis](/wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis) explains what pooling studies adds and what it leaves unresolved.
 
 When a test result becomes a proposed action, bring in [analytical validity, clinical validity, and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility). [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) explains why earlier detection needs its own benefit comparison.
 
@@ -64,7 +64,7 @@ Use these reading steps alongside [the survival evidence review](/wiki/research/
 
 ## What is still uncertain
 
-Studies can leave the durability of an effect, less common harms, or relevance to a smaller group unresolved. More follow-up may sharpen one answer while a different comparison remains untested. Writing that missing question down is useful progress.
+Studies can leave the durability of an effect, less common harms, or relevance to a smaller group unresolved. More follow-up may sharpen one answer while a different comparison remains untested. Writing that missing question down is useful progress. [Absence of evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence) helps distinguish an unanswered question from informative evidence against a claim. [Cross-trial comparison](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) explains why separate study headlines cannot establish a treatment ranking.
 
 After the three lessons, [practice on cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence). For a test or commercial claim, continue with [judging a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index).
 

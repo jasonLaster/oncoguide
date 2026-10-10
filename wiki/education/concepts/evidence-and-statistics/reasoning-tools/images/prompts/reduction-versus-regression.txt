@@ -1,0 +1,27 @@
+Educational cartoon: reduction versus regression
+Generated October 10, 2026 with the built-in image_gen tool. Fictional example, not a clinical study result. Original source files remain in the generated_images directory.
+
+INITIAL LIGHT PROMPT
+Use case: scientific-educational. Asset: cartoon for the concept Reduction is not necessarily regression. Create one landscape educational cartoon, about 1536 by 1024, with three large clearly separated panels and very large readable clean sans-serif labels. Flat vector illustration, rounded friendly cartoon tumor clusters, soft pastel accents, simple composition with generous space. Do not add people. Panel 1 heading exactly: "START". Show two equally small rounded tumor clusters, labeled "Control: 100 mm³" and "Treated: 100 mm³". Panel 2 heading exactly: "DAY 28: CONTROL". Show one large rounded tumor cluster labeled "1,000 mm³". Panel 3 heading exactly: "DAY 28: TREATED". Show one medium rounded tumor cluster, larger than either starting cluster but smaller than the control at day 28, labeled "300 mm³". Under the day 28 panels, include two separate very prominent callouts exactly "70% below control" and "3× its own start". Title exactly "Smaller than control can still mean growth". Small footer exactly "Fictional tumor volumes. Illustrations are not to scale." Scientific guardrails: both groups start at100; (1000-300)/1000=70% lower than concurrent control; 300/100=3 times own starting volume; this does not establish regression from baseline. Do not draw shrinking arrows, dead cells, cell elimination, treatment cure, drugs, a RECIST classification or patient-response probabilities. Use only listed text. No photorealism, photography, logos or watermarks. Theme: LIGHT variant, warm ivory background, dark ink text, pale blue and lavender cards with amber callouts, high contrast.
+
+CLARIFICATION EDIT PROMPT
+Edit only the amber callout beneath the middle Day 28 Control panel in this educational cartoon. Replace its current text "70% below control" with exactly "Treated: 70% below control". You may wrap this corrected callout into two lines to keep large readable text, but keep its existing box, position, style and colors. This clarifies that the treated volume is the one being compared. Preserve every other pixel as closely as possible: all panels, tumor drawings, START and DAY 28 headings, both 100 mm³ starting labels, 1,000 mm³ control, 300 mm³ treated, "3× its own start", the title and footer. Do not add arrows, death, a cure claim, drugs, a RECIST category, logos or other text. Preserve the light theme and landscape dimensions.
+
+DARK RECOLOR PROMPT
+Create the DARK THEME variant of this educational cartoon by recoloring only. Preserve exactly its landscape composition, all panel geometry, every tumor-cluster drawing, relative cluster sizes, all labels and arithmetic, the title and footer. Replace ivory backgrounds with deep midnight navy, use slightly lighter navy panel bodies, subdued teal/lavender panel headers and borders, pale off-white high-contrast text, vibrant lavender tumor illustrations and readable warm amber callouts with dark ink. Preserve all text verbatim: "Smaller than control can still mean growth", "START", "Control: 100 mm³", "Treated: 100 mm³", "DAY 28: CONTROL", "1,000 mm³", "DAY 28: TREATED", "300 mm³", "Treated: 70% below control", "3× its own start", "Fictional tumor volumes. Illustrations are not to scale." Both groups start100; treated300 is70% below control1000 yet3× itsownstart, not regression. No arrows, deaths, cure, drugs, logos, extra text or clinical-response category. Do not change any label wording or position. This is a recoloring of a fictional arithmetic illustration.
+
+Selected native outputs
+[
+  {
+    "theme": "light",
+    "source": "/Users/jasonlaster/.codex/generated_images/01a11cc7-6817-75c1-88d7-80eec55221cc/exec-7d5f3312-3a73-4521-b9a3-99a7f094fd25.png",
+    "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/reduction-versus-regression-light.png",
+    "sha256": "fb0831309c1c406c8d541e026b5457e3e57ffbc1166c888d751323a20048438f"
+  },
+  {
+    "theme": "dark",
+    "source": "/Users/jasonlaster/.codex/generated_images/01a11cc7-6817-75c1-88d7-80eec55221cc/exec-1a9e2aa8-0bbc-4500-b2f0-ae25457f9ac6.png",
+    "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/reduction-versus-regression-dark.png",
+    "sha256": "ad0e4038b0f83d147a5610882daa52d653668e2bab6f99e88ebaf22b8d5a6bfb"
+  }
+]

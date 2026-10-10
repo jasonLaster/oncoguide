@@ -6,7 +6,7 @@ audience: "Curious reader; basic cancer vocabulary helpful"
 minutes: 36
 sensitive: false
 tags: ["education", "functional-models"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -53,9 +53,11 @@ Follow the lessons in order: choose the model, inspect the experiment, then test
 
 ## Concepts you will use
 
-**Living models:** [Organoid](/wiki/education/concepts/measurement/functional-models/organoid), [patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) and [ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen).
+**Living models:** A [cell line](/wiki/education/concepts/measurement/functional-models/cell-lines) supplies a maintained population. An [organoid](/wiki/education/concepts/measurement/functional-models/organoid) preserves selected tissue features; [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture) combines defined cell populations. [Ex vivo tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments) retain pieces of the sampled tissue. A [patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) grows in an animal. An [ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) can use several of these preparations.
 
-**Prediction and comparison:** [Virtual cell model](/wiki/education/concepts/measurement/computational-analysis/virtual-cell-model), [controlled perturbation](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls) and [analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility).
+**Build and measure:** [Bioprinting](/wiki/education/concepts/measurement/functional-models/bioprinting) arranges materials and cells; a [tumor-on-chip](/wiki/education/concepts/measurement/functional-models/tumor-on-chip) controls selected tissue and flow conditions. [Single-cell mass assays](/wiki/education/concepts/measurement/functional-models/single-cell-mass-assays) measure another kind of response. [Genetic dependency mapping](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) tests specified genetic interventions.
+
+**Prediction and comparison:** A [virtual cell model](/wiki/education/concepts/measurement/computational-analysis/virtual-cell-model) has a defined prediction task. A [foundation model](/wiki/education/concepts/measurement/computational-analysis/foundation-models) describes a reusable training approach. Learn [how a model earns trust](/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust) and [how independent evaluation works](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) before comparing its performance with [analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility).
 
 **Foundations:** [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) explains selection and sampling. [Multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics) separates the objects measured.
 

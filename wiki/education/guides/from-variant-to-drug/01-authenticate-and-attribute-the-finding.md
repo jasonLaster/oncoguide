@@ -49,7 +49,7 @@ Technical errors can arise before sequencing, during preparation, or during anal
 
 A meaningful confirmation should address the suspected weakness. Depending on the claim, this might use a separate preparation, an orthogonal method, or a technically different assay. **Orthogonal** means the method has sufficiently different strengths and failure modes. Different brand names alone do not establish that independence.
 
-Disagreement also needs a fair comparison. Check whether both assays cover the exact site, detect that alteration class, and examine comparable tissue and time points. A negative test with inadequate local evidence is uninformative. Two adequate tests on different tumor samples can disagree because the biology changed or different cell populations were sampled.
+Disagreement also needs a fair comparison. Check whether both assays cover the exact site, detect that alteration class, and examine comparable tissue and time points. A negative test with inadequate local evidence is uninformative. [Absence of evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence) separates a test that failed to answer the question from informative evidence against the finding. Two adequate tests on different tumor samples can disagree because the biology changed or different cell populations were sampled.
 
 ## Attribute the finding
 
@@ -72,7 +72,7 @@ A fictional sample reports a splice-site change in repair gene R. It has 32 alte
 
 Under a simplified diploid model with one altered copy per affected cell and no normal-cell admixture, 20% VAF could fit about 40% affected cells. Those assumptions do not hold automatically in a tumor. The exercise illustrates the conversion problem; it is not a cancer-cell-fraction estimate for this sample.
 
-A second adequate assay supports the same change. The finding becomes more credible. Researchers still need RNA and functional evidence before claiming repair failure. This is progress: one uncertainty has been reduced without pretending the whole chain is complete.
+A second adequate assay supports the same change. The finding becomes more credible. Researchers still need RNA and functional evidence before claiming repair failure. This is progress: one uncertainty has been reduced without pretending the whole [variant-to-benefit evidence chain](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) is complete.
 
 ## What can go wrong at this step
 

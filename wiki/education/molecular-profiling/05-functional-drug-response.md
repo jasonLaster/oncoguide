@@ -29,12 +29,12 @@ This is step 13 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Unders
 
 | Model | What researchers do | Useful feature | Main limitation |
 |---|---|---|---|
-| Dissociated cells | Separate cells and expose them to a perturbation | Controlled cell measurements | Tissue interactions change |
+| Dissociated cells or [cell lines](/wiki/education/concepts/measurement/functional-models/cell-lines) | Separate cells or maintain a selected population, then perturb them | Controlled cell measurements | Tissue interactions and population selection change |
 | Organoids or spheroids | Grow cells in three dimensions | Some organization and cell diversity | Culture selects populations; immune components vary |
-| Tissue fragments | Test short-lived pieces | Some original neighbors and structure | Viability and penetration vary |
+| [Ex vivo tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments) | Test pieces of the sampled tissue | Some original neighbors and structure | Viability, attribution and penetration vary |
 | Patient-derived xenograft (PDX) | Grow human tumor in an animal | Whole-animal exposure and many tumor features | Host biology differs; conventional models lack an intact human immune system |
 
-An organoid is not a promise of complete biology. A tumor-only culture cannot reproduce an immune medicine's full mechanism. Specialized co-cultures or other methods can add selected immune cells. Ask which cells are present, where they came from and what endpoint was actually measured.
+An organoid is not a promise of complete biology. A tumor-only culture cannot reproduce an immune medicine's full mechanism. Specialized [co-cultures](/wiki/education/concepts/measurement/functional-models/co-culture) or other methods can add selected immune cells. Ask which cells are present, where they came from and what endpoint was actually measured.
 
 A PDX drug experiment is **in vivo**, inside a living animal. A culture removed from a tumor is tested **ex vivo**, outside its original organism. Growing an animal-derived organoid in a dish does not make that dish experiment in vivo.
 
@@ -50,7 +50,7 @@ Some functional tests ask a narrower question. [BH3 profiling](/wiki/education/c
 
 Imagine a fictional experiment begins with 1,000 viable cells in each condition. Later, the vehicle control contains 2,000 cells and the treated condition contains 1,000. The treated count is half the control, yet it is unchanged from the start.
 
-That endpoint does not show that half the original cells died. It shows no net increase under treatment. Reduced division is one possible explanation; division balanced by cell death is another. Measuring the start and following the time course helps separate those possibilities. Growth-rate methods address this control-growth problem under their stated assumptions. [Hafner et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/).
+[Reduction is not regression](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression): that endpoint does not show that half the original cells died. It shows no net increase under treatment. Reduced division is one possible explanation; division balanced by cell death is another. Measuring the start and following the time course helps separate those possibilities. Growth-rate methods address this control-growth problem under their stated assumptions. [Hafner et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/).
 
 [Apoptosis and its B-cell lymphoma 2 (BCL-2) family control](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family), [necrosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis) and [senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence) also need different evidence. A lower endpoint signal cannot assign a death mechanism or establish senescence. Combine suitable viability, division and cell-state measurements with controls. A single marker should not carry the whole interpretation.
 
@@ -60,7 +60,7 @@ That endpoint does not show that half the original cells died. It shows no net i
 
 ## A worked repair experiment
 
-The fictional repair finding now has supporting DNA, RNA and protein evidence. A suitable model shows impaired repair under controlled conditions. A drug then reduces model growth across replicated, relevant exposures.
+The fictional repair finding now has supporting DNA, RNA and protein evidence. A suitable model shows impaired repair under controlled conditions. [Genetic dependency mapping](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) could test a related genetic intervention, but losing a gene and exposing cells to a drug are different experiments. A drug then reduces model growth across replicated, relevant exposures.
 
 This strengthens the biological hypothesis. It does not establish that the same exposure is safe, that every original clone survived culture or that treatment improves patient outcomes. The clinical evidence question remains even after a persuasive laboratory sequence.
 

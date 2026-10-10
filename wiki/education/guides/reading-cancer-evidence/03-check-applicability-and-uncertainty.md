@@ -20,7 +20,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-10
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -56,7 +56,7 @@ In an [observational study](/wiki/education/concepts/evidence-and-statistics/stu
 
 Also check the [publication version](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed). An abstract, full report and later follow-up from the same participants add information, not independent replications. Link reports by trial identifier, centers and recruitment dates; differently named analyses may share or partly overlap participants. Count independent cohorts, not papers. [Cochrane: linking study reports](https://training.cochrane.org/handbook/current/chapter-05). [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) answers questions in the studied model before clinical applicability is tested.
 
-For a [meta-analysis](/wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis), inspect those study identities and questions before its pooled estimate. More precise averaging cannot repair mismatched endpoints or biased comparisons.
+For a [meta-analysis](/wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis), inspect those study identities and questions before its pooled estimate. More precise averaging cannot repair mismatched endpoints or biased comparisons. A [cross-trial comparison](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) also needs compatible populations, treatment histories and assessment rules; two response headlines do not create a randomized comparison.
 
 ## A worked comparison: two different questions
 
@@ -75,7 +75,7 @@ Card B can support a comparative conclusion about its assigned sequence and meas
 
 ## A subgroup result needs another question
 
-A **subgroup** is a smaller category within a study, such as participants with a baseline marker. Suppose a fictional subgroup has a [hazard ratio (HR)](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) of 0.70, with a 95% confidence interval from 0.35 to 1.40, for recurrence or death from randomization. The estimate favors the new strategy, but the interval includes substantially lower hazard, equal hazard, and higher hazard. It is imprecise evidence, not proof of no effect.
+A **subgroup** is a smaller category within a study, such as participants with a baseline marker. Suppose a fictional subgroup has a [hazard ratio (HR)](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) of 0.70, with a 95% confidence interval from 0.35 to 1.40, for recurrence or death from randomization. The estimate favors the new strategy, but the interval includes substantially lower hazard, equal hazard, and higher hazard. It is imprecise evidence, not proof of no effect. [Absence of evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence) asks whether the study could meaningfully exclude the effect in question.
 
 Now suppose an article labels the effect “statistically significant” in marker-positive participants and “not significant” in marker-negative participants. Those labels alone do not demonstrate different treatment effects. That requires a direct comparison of effects, often called an **interaction test**. Ask whether the subgroup was defined before treatment, the question was planned, and many comparisons were examined. A [p-value and its multiple-testing context](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) cannot be replaced by one significance label. [Sun and colleagues: evaluating subgroup claims](https://www.bmj.com/content/340/bmj.c117.long).
 
