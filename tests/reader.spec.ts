@@ -51,6 +51,7 @@ test("every lesson, alias and image variant loads without Diana runtime dependen
     try{
      await page.goto("/education/"+entry.slug.slice("wiki/education/".length)+"/",{waitUntil:"domcontentloaded"});
      const article=page.getByTestId("education-article");await expect(article.getByRole("heading",{level:1})).toHaveText(entry.title);
+     if(await article.locator(".mermaid-placeholder").count())failures.push("Unrendered diagram: "+entry.slug);
      const result=await article.locator("img").evaluateAll(async els=>Promise.all(els.map(async el=>{
       const img=el as HTMLImageElement;img.loading="eager";let timer:ReturnType<typeof setTimeout>|undefined,decoded=false;
       try{await Promise.race([img.decode(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error("timeout")),15000)})]);decoded=true}

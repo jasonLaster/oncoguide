@@ -23,3 +23,4 @@ jobs:
       - run: bunx playwright install --with-deps chromium
         working-directory: .renderer/apps/oncoguide
       - run: bun run test:reader --reporter=line
+      - run: bun --cwd .renderer/apps/oncoguide test:e2e e2e/themes.spec.ts --reporter=line
