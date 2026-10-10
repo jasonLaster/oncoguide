@@ -3,7 +3,7 @@ title: "How engineered immune cells can attack a solid tumor"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
+updated: "2026-10-10"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -64,6 +64,10 @@ Suggested reading budgets help pace the course; they are not measured completion
 **Recognition families:** [engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t), [tumor-infiltrating lymphocyte (TIL) therapy](/wiki/education/concepts/therapeutics/cell-therapies/til-therapy) and [CAR natural killer (NK) cells](/wiki/education/concepts/therapeutics/cell-therapies/car-nk). Each name identifies a strategy, not a clinical ranking.
 
 **Design choices:** [single-chain variable fragments (scFvs) and single-domain nanobodies](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies), [armoring](/wiki/education/concepts/therapeutics/cell-therapies/armoring), [logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars) and [safety switches](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches). Their contribution depends on the finished product and intended setting.
+
+**Inspect the binding module:** [binder discovery](/wiki/education/concepts/engineering-and-manufacturing/binders/binder-discovery) generates and tests candidates. [A binder as a targeting module](/wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module) separates recognition from action. [Affinity, epitope and developability](/wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability) describe a candidate's profile; [format constraints](/wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders) explain why a promising module needs new tests in its finished product.
+
+**Added signals:** [cytokine therapy](/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy) explains administered signaling proteins. A cytokine drug, a cytokine measured in an assay and an engineered cell that produces a cytokine are distinct interventions or observations.
 
 **Product and context:** [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape), [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) and the receptor concepts above. A mechanism explains a dependency; the trial or clinical owner establishes an option.
 

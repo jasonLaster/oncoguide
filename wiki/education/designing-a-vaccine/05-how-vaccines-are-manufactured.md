@@ -8,7 +8,7 @@ objectives: ["Separate RNA synthesis, purification, formulation and batch releas
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex]]", "[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-09"
+updated: "2026-10-10"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -38,7 +38,7 @@ A kitchen needs more than ingredient names: preparation, handling and criteria f
 | [RNA-lipoplex (RNA-LPX)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) | RNA complexed with specified lipids | How do this composition and route affect expression and sensing? |
 | DNA or a viral vector | A DNA-containing product or engineered vector | Which cells express the cassette, for how long, and with what vector-specific risks? |
 
-Peptide synthesis assembles and purifies the selected amino-acid chains. RNA manufacture instead produces an instruction molecule. Neither format dispenses with identity, purity, stability, handling and functional testing.
+[Solid-phase peptide synthesis (SPPS)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps) assembles selected amino-acid chains on a support, then releases and purifies them. RNA manufacture instead produces instructions. Neither format dispenses with identity, purity, stability, handling and functional testing.
 
 ## Follow RNA from template to formulated lot
 
@@ -80,6 +80,8 @@ A TNBC-MERIT run-in subgroup also received a bridging shared-antigen vaccine. Th
 
 ## Four reviews answer different questions
 
+A [contract development and manufacturing organization (CDMO)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/cdmo-role) can perform agreed development, manufacturing or testing activities. Name who owns the design, approves changes and reviews quality. Outsourcing an activity does not erase applicable responsibilities.
+
 | Review | Question |
 |---|---|
 | Antigen and construct | Does the exact design encode plausible, appropriately specific targets? |
@@ -92,6 +94,8 @@ A TNBC-MERIT run-in subgroup also received a bridging shared-antigen vaccine. Th
 [Potency assays](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) test relevant biological activity. An expression assay may address part of an RNA product's mechanism. It does not prove peptide presentation, tumor recognition or clinical benefit.
 
 A fictional manufacturer shortens a spacer to improve production. The team records a controlled revision, reassesses affected biology and connects the released lot to the final specification. A “manufacturability edit” can still change antigen processing. [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) asks whether earlier evidence remains relevant after a change. Matching RNA amounts and passing routine release limits alone may miss important differences.
+
+Use [platform versus personalized components](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components) to locate the change: a patient-specific sequence and a shared formulation raise different review questions.
 
 ## What can go wrong at this step
 
@@ -121,7 +125,7 @@ One answer: “RNA design, chemistry, formulation, route and protocol can differ
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. Protocol details are descriptions of published studies, not recommendations for dose, schedule or access. The practice cards are fictional. No head-to-head LPX-versus-LNP benefit comparison is supplied here.
+Protocol source check: October 9, 2026; manufacturing-role and peptide-synthesis additions checked October 10, 2026. Expert and learner review pending. Published protocols describe studies, not recommendations for dose, schedule or access. Practice cards are fictional; no head-to-head LPX-versus-LNP benefit comparison is supplied.
 
 - [Sahin et al., 2026: TNBC-MERIT primary study and manufacturing methods](https://www.nature.com/articles/s41586-025-10004-2).
 - [Rojas et al., 2023: autogene cevumeran pancreatic-cancer study and protocol](https://www.nature.com/articles/s41586-023-06063-y).
@@ -129,3 +133,5 @@ Source check: October 9, 2026; expert and learner review pending. Protocol detai
 - [AACR primary protocol abstract CT251, 2025: V940 formulation and route](https://doi.org/10.1158/1538-7445.AM2025-CT251) — a formulation description, not outcome evidence for KEYNOTE-942.
 - [Karikó et al., 2011: experimental purification and translation of mRNA](https://pubmed.ncbi.nlm.nih.gov/21890902/).
 - [FDA: vaccine chemistry, manufacturing and controls guidance](https://www.fda.gov/media/73614/download).
+- [FDA, 2016: contract manufacturing and quality agreements](https://www.fda.gov/media/86193/download) — commercial scope; investigational-work limits are explained in the linked CDMO concept.
+- [Primary neoantigen peptide-synthesis study, 2020](https://www.nature.com/articles/s41598-019-56943-5) — synthesis and purification, not clinical efficacy.

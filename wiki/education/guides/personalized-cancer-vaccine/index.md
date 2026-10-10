@@ -3,7 +3,7 @@ title: "How a personalized cancer vaccine is designed"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-09"
+updated: "2026-10-10"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -58,6 +58,8 @@ Times are suggested reading budgets, not measured completion times. The final ev
 
 ## Concepts you will use
 
+**Place the strategy:** [cancer-vaccine families](/wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview) distinguish personalized from shared antigens, and designed products from in situ strategies. [Vaccine adjuvants](/wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants) explain a component's immune role; “adjuvant treatment” describes timing. [Immunoediting](/wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting) introduces how immune pressure can shape cancer populations.
+
 **Foundations:** [DNA → RNA → protein](/wiki/education/concepts/biology-basics/genetics/central-dogma), [innate and adaptive immunity](/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity), [the immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster).
 
 **Recognition:** [neoantigen](/wiki/education/concepts/immunology/antigen-presentation/neoantigen), [antigen processing](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery), [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m), [cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation), [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) and [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states).
@@ -71,6 +73,8 @@ Times are suggested reading budgets, not measured completion times. The final ev
 **Manufacturing and delivery:** [in vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription), [double-stranded RNA impurities and purification](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification), [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) and [good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release).
 
 **Quality across versions:** [potency assays](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) test relevant biological activity; [manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) investigates whether a process change affects quality. Neither substitutes for clinical outcome evidence.
+
+**Manufacturing responsibilities:** [solid-phase peptide synthesis (SPPS)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps) makes amino-acid chains; [the contract development and manufacturing organization (CDMO) role](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/cdmo-role) identifies agreed activities and oversight. [Platform versus personalized components](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components) locates which parts change between products.
 
 **Downstream targeting and failure:** [delivery targeting versus cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting) and [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape). Return to the linked concept whenever a lesson uses an unfamiliar term.
 

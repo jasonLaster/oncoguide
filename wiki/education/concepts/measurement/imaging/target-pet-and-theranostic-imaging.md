@@ -2,7 +2,7 @@
 title: "Target PET and theranostic imaging"
 type: "concept"
 domain: "measurement/imaging"
-aliases: ["target PET", "target-directed PET", "theranostic imaging", "theranostics"]
+aliases: ["target PET", "target-directed PET", "theranostic imaging"]
 summary: "Target-directed PET maps a specified tracer's distribution around a molecular target, while theranostic use requires evidence connecting that imaging result to a particular therapeutic product and setting."
 glossary_anchor: "target-pet-and-theranostic-imaging"
 level: "intermediate"
@@ -38,7 +38,7 @@ Uptake reflects delivery, accessible target, binding and retention together with
 
 ## From imaging to theranostics
 
-**Theranostics** connects diagnostic information with a related therapeutic approach, often through a shared molecular target. In radiopharmaceutical therapy, the treatment delivers radiation from its chosen radionuclide.
+[Theranostics](/wiki/education/concepts/therapeutics/local-therapies/theranostics) connects a diagnostic result to a related therapeutic strategy. The therapeutic owner explains that bridge; here the question is what the particular image can establish. In [radioligand therapy](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy), the treatment delivers radiation from its chosen radionuclide.
 
 For a concrete mechanism example, gallium-68-labeled PSMA ligands can produce PET images, while lutetium-177-labeled PSMA ligands deliver mainly beta-particle radiation. **PSMA** means prostate-specific membrane antigen. That example concerns a particular target and studied prostate-cancer setting; the name does not establish a breast-cancer therapy or access route.
 

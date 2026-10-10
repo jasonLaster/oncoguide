@@ -8,7 +8,7 @@ objectives: ["Distinguish an accessible surface target from a peptide–HLA targ
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
+updated: "2026-10-10"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -31,7 +31,7 @@ This is step 1 of [Aiming a drug at a surface target](/wiki/education/guides/aim
 
 Imagine four products recognizing the same surface protein. One blocks a signal. One carries a chemical payload. One recruits a T cell. One carries a radionuclide, a radioactive atom. Their address may be similar, but the action and its requirements differ. Even attaching cargo can change a binder's behavior, so a tested binder is not automatically a tested therapeutic product.
 
-A **binder** is the part that recognizes a molecular feature. An **epitope** is the particular feature it recognizes. Finding the protein's name in a report does not establish that the epitope is exposed on living tumor cells. Tissue preparation, location on the cell, and the product's access all matter.
+A [binder is a targeting module](/wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module) that recognizes a molecular feature. The [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) is the particular feature it recognizes. Finding the protein's name in a report does not establish that the epitope is exposed on living tumor cells. Tissue preparation, location on the cell, and product access all matter.
 
 A surface protein can also be an address without being a survival dependency. Blocking its signal requires evidence that the blocked process matters. Delivering a payload asks whether recognition and processing deliver a damaging chemical. Redirecting T cells asks whether recognition becomes productive immune contact.
 
@@ -44,6 +44,8 @@ A surface protein can also be an address without being a survival dependency. Bl
 | Receptor-engineered T cells | An engineered receptor on a living cell | That cell's activation and cytotoxic machinery | Cell access, function, and an appropriate recognition system |
 
 The table is a mechanism map. It does not rank efficacy, toxicity, or readiness for a person.
+
+Follow the linked [monoclonal-antibody](/wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies) and [radioligand-therapy](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy) explanations to inspect those formats. [Theranostics](/wiki/education/concepts/therapeutics/local-therapies/theranostics) connects a target-based diagnostic with a therapeutic strategy; a positive diagnostic scan still needs product-specific interpretation.
 
 ## Two kinds of target at the surface
 
@@ -64,8 +66,9 @@ Now consider three proposed products made around that antibody:
 - **A blocking antibody:** investigators must test whether it changes the relevant signal and whether that change affects survival.
 - **An ADC:** investigators must follow delivery and active payload production, then measure the cells' response.
 - **A T-cell engager:** investigators must test T-cell-dependent activation and killing, with target-negative and no-T-cell controls.
+- **A radiolabeled product:** investigators must measure distribution over time and absorbed radiation dose in tumor and vulnerable tissues. Binding alone supplies neither.
 
-Suppose only binding has been measured. All three remain mechanistic proposals beyond binding. You do not have to dismiss the target; simply attach the unanswered question to each product.
+Suppose only binding has been measured. All four remain mechanistic proposals beyond binding. [Binder discovery](/wiki/education/concepts/engineering-and-manufacturing/binders/binder-discovery) has found a candidate; [format-specific constraints](/wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders) now determine the next tests. Attach the unanswered question to each product.
 
 ## What can go wrong at this step
 

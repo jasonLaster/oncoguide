@@ -1,0 +1,24 @@
+Generated with the native image_gen tool on October 10, 2026. Scientific-educational use. Owner: binder-as-a-targeting-module.md, section The intuition. No prior artwork was overwritten. Light original needed a targeted CD3 correction; final light and its dark companion preserve the corrected distinct engager arms. Expert and learner review remain pending.
+
+BASE LIGHT PROMPT
+Use case: scientific-educational.
+Create a friendly, three-panel educational cartoon titled "Binding is only one step." Wide landscape composition, approximately 1536 by 1024 pixels. Flat illustration with rounded shapes, personable cartoon researcher, clean readable sans-serif labels, generous breathing room.
+Panel 1 title "1. Recognition": draw the same small purple recognition module touching an exposed blue target shape on two cell membranes. One cell is labeled "Cancer cell", the other "Healthy cell". Label one module "Binder" and one feature "Target". This is molecular contact only: no killing marks or cargo transfer.
+Panel 2 title "2. Format changes the job": three separate miniature diagrams show a purple recognition module connected to a chemical cargo; a soluble two-arm protein bridging a target cell and a T cell; and a membrane receptor on a T cell with purple external recognition module and internal signaling tail. Exact labels respectively "Cargo", "T-cell contact", "Cell signaling". These are alternative schematic product designs, not one molecule transforming without development.
+Panel 3 title "3. Separate evidence": a calm friendly researcher holds a worksheet containing exactly four separate questions "Delivery?", "Function?", "Safety?", "Benefit?". No checked boxes or universal passing symbols. A magnifying glass signals measurement.
+Between panels use thin dotted connectors labeled "New tests", then "Separate evidence". Footer verbatim "Binding is only one step."
+Accuracy guardrails: recognition requires accessible molecular features, and intended target can also exist on healthy cells. A binder need not be a whole antibody. Cargo delivery/processing, productive immune contact and receptor signaling require their own evidence. Binding does not establish uptake, useful function, whole-body safety or benefit in people. Do not imply all formats need internalization. Diagram alternatives must be visually separate.
+No photorealism, medical photographs, brands, logos, vendors, patient details, numerical efficacy claims, guaranteed killing, watermarks or text beyond the listed labels.
+Light theme: warm near-white background, soft pastel panels, dark navy text and outlines. Preserve legibility at mobile width.
+
+TARGETED LIGHT CORRECTION
+Edit this educational cartoon with one scientific correction, preserving its layout, colors, typography, text, researcher, footer and all other diagrams. Only change the small "T-cell contact" diagram in the center panel: the LEFT target-cell recognition arm stays purple and binds the blue feature on the target cell. The RIGHT T-cell arm must be distinct: color that recognition arm orange and make it bind an ORANGE, visibly different cell-surface feature on the T cell. Add a small clear label "CD3" pointing to that orange T-cell feature. The soluble bridging molecule should therefore have one purple target arm and one orange CD3 arm. Do not depict two copies of the same blue target or two identical purple recognition arms on the two cells. The T-cell engager recognizes two different features. Do not alter the adjacent Cargo or Cell signaling diagrams. Everything else remains identical.
+
+DARK COMPANION PROMPT
+Create the dark-theme companion of this exact educational cartoon. Change only background/panel/text palette for dark reading: deep navy/slate backdrop, restrained softly colored dark panels, light cream text, bright enough purple recognition modules, blue target shapes, orange CD3 T-cell arm/feature and clear boundaries. Preserve the exact three-panel layout, all scientific diagrams, all wording and labels, researcher, dotted connectors and footer. In particular keep the T-cell engager's left arm purple recognizing a blue target on the target cell, and its distinct right arm orange recognizing an orange CD3 feature on the T cell. Keep CD3 label readable. Preserve all questions on the worksheet. No new text, changed mechanism, added ticks, logos or guaranteed benefit. Wide landscape 1536 by 1024 pixels; contrast suitable for a dark website and mobile image viewer.
+
+GENERATED ORIGINALS AND CUSTODY
+Light: /Users/jasonlaster/.codex/generated_images/01a11cc7-6817-75c1-88d7-80eec55221cc/exec-1726957b-f4e7-4db9-be24-4833c0852fe3.png
+Dark: /Users/jasonlaster/.codex/generated_images/01a11cc7-6817-75c1-88d7-80eec55221cc/exec-59685c71-4ce1-43e4-903e-841745e1c5b6.png
+Unselected initial light remains in generated_images; it is not active teaching.
+
