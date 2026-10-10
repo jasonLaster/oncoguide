@@ -4,12 +4,12 @@ type: "concept"
 domain: "measurement/pathology-readouts"
 summary: "Immunohistochemistry uses antibodies to visualize selected proteins in tissue while preserving information about the stained cells and their location."
 glossary_anchor: "immunohistochemistry"
-aliases: ["IHC", "ihc", "immunohistochemistry", "H-score"]
+aliases: ["IHC", "ihc", "immunohistochemistry", "H-score", "Allred score", "Allred"]
 level: "foundation"
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,51 +29,82 @@ A labeled highlighter marks one feature on a tissue map. You can see which cells
 
 ## How it works
 
-**Immunohistochemistry (IHC)** combines antibody binding with a visible signal, often a colored product. The laboratory prepares a tissue section, makes the target accessible under a specified protocol, applies antibodies and develops the signal. A pathologist interprets staining alongside cell shape and tissue organization.
+**Immunohistochemistry (IHC)** combines [antibody binding](/wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies) with a visible signal, often a colored product. The laboratory prepares a tissue section, makes the target accessible under a specified protocol, applies antibodies and develops the signal. A pathologist interprets staining alongside cell shape and tissue organization.
 
-Different questions require different targets and scoring rules. A nuclear stain and a membrane stain do not mean the same thing. The fraction of relevant cells, staining intensity and distribution can each matter. A report must say which cells were scored and how.
+A nuclear stain and a membrane stain answer different questions. Keep the scored cell population, location, intensity and distribution together. [Immunofluorescence](/wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence) uses fluorescent labels. More markers can add context, but antibody performance and cell-boundary assignment still need validation.
 
-**Immunofluorescence** uses fluorescent labels rather than a conventional color product. Multiplex methods can examine several markers together. More markers can add context, but antibody performance and cell-boundary assignment still require validation.
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+    A[Prepared section] --> B[Controlled stain]
+    B --> C[Eligible cells]
+    C --> D[Named scoring rule]
+```
+
+*The score follows a specified assay and cell-selection rule; a visible stain does not validate every clinical claim.*
+
+### Two scores combine different information
+
+An **H-score** weights each intensity category by its percentage of eligible cells: `1 × weak% + 2 × moderate% + 3 × strong%`. Unstained cells contribute zero. Under this convention the scale is **0–300**, not 0–100%. It is an index, not a protein molecule count.
+
+Historically used for breast hormone-receptor staining, an **Allred score** adds a proportion category to an intensity score. The conventional proportion bins are 0 for no positive cells, 1 for less than 1%, 2 for 1–10%, 3 for 11–33%, 4 for 34–66% and 5 for at least 67%. Intensity contributes 0 for absent staining, or 1/2/3 for weak/moderate/strong staining. Possible totals are **0 and 2–8**. Name the convention; a composite score does not replace marker-specific interpretation.
 
 ## Why it matters in cancer
 
-IHC supports diagnosis and selected clinical biomarker assessments. It can also test whether a proposed protein lies on malignant cells or normal neighbors. A cell-surface treatment needs an accessible target; total protein in a tissue lysate cannot supply that localization alone.
+IHC supports diagnosis and selected biomarker assessments. It can test whether a proposed protein lies on malignant cells or normal neighbors. [HER2](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2) and hormone-receptor tests have their own reporting rules; a generic H-score cannot replace them. A surface-directed medicine needs an accessible target, which tissue-wide protein abundance cannot establish alone.
 
 ## Worked example
 
 A fictional bulk protein assay detects a receptor. Tissue staining shows it mainly on blood-vessel cells, with little staining on malignant cells. Both results can be correct. The first found protein in the mixture; the second identified where the signal sits. Neither alone quantifies how a proposed medicine will behave in a patient.
 
-## Common confusions
-
-- A negative clinical category does not always mean literally zero protein molecules.
-- Research staining does not automatically replace a validated treatment-selection assay.
-- A generic H-score is not interchangeable with every marker's clinical scoring system.
-- A stained protein is not necessarily active, accessible to a medicine or essential for survival.
-
 ## How it is measured
 
 | Assay-card field | What to retain |
 |---|---|
-| Input | Tissue type, fixation and section; the assay uses a section of finite material |
-| Output | Relevant cell population, intensity, proportion and localization under the scoring rules |
-| Threshold | Marker-specific cutoff, protocol and intended use |
-| Controls | Known-positive and negative/background controls that support interpretation |
-| Failure modes | Poor preservation, nonspecific binding, inadequate cells, heterogeneous staining and scoring error |
-| Validation | Whether this is research measurement or a clinical assay validated for the intended decision |
+| Input and tissue cost | Tissue/block, fixation and section; staining consumes finite material |
+| Method | Antibody clone, retrieval/detection system, scored cells and compartment |
+| Output and units | Percentage positive, intensity, location and named score with its scale |
+| Controls | Expected-positive tissue, relevant internal controls and background assessment |
+| Limits | Poor preservation, nonspecific binding, few eligible cells, heterogeneity or scoring variation |
+| Intended use | Assay/scoring-system validation; research measurement and clinical selection are separate |
 
-There is no universal IHC positivity threshold. The specific marker, assay and clinical question define the meaning.
+There is no universal IHC positivity threshold. Current breast-biomarker reporting retains percentage and intensity even when optional composite scores are supplied.
+
+## Common confusions
+
+- A negative clinical category need not mean literally zero protein molecules.
+- Research staining does not automatically replace a validated treatment-selection assay.
+- Stained protein is not necessarily active, accessible or essential for survival.
+- Equal H-scores can hide different intensity distributions.
+
+## Try it
+
+In a fictional 100-cell sample, 50 are unstained, 10 weak, 20 moderate and 20 strong. What are its H-score and positive percentage? Separately, what is the conventional Allred score for 30% positive cells with uniformly moderate staining?
+
+**Answer:** H-score = `10 + 2×20 + 3×20 = 110`; **50%** are positive. In the separate Allred example, proportion category 3 plus intensity 2 gives **5**. Neither fictional result supplies a treatment threshold or benefit prediction.
+
+## Explain it back
+
+“I need the cell population and scoring method because ___.” One answer: “110 is an intensity-weighted index, while 50% counts positive cells; neither tells me how many protein molecules each cell carries.”
+
+## Takeaway
+
+**Read the location, denominator, scoring convention and validation scope before interpreting the number.**
 
 ## Related concepts
 
-- [[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq|Why an RNA signal cannot replace staining]]
-- [[wiki/education/concepts/measurement/pathology-readouts/stil-scoring|Scoring immune cells in stroma]]
+- [Analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility)
+- [Why an RNA signal cannot replace staining](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq)
+- [Scoring immune cells in stroma](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring)
 
 ## Sources and scope
 
-Source check: October 9, 2026. General measurement teaching; expert and learner review remain pending.
+Source check: October 10, 2026. Measurement teaching; expert and learner review remain pending.
 
-- [NCI immunohistochemistry definition](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/immunohistochemistry).
-- [College of American Pathologists IHC validation guidance](https://www.cap.org/cap-guidelines/principles-of-analytic-validation-of-immunohistochemical-assays/).
+- [NCI: immunohistochemistry](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/immunohistochemistry) — antibody-based tissue detection.
+- [CAP IHC analytic-validation update, 2024](https://www.cap.org/cap-guidelines/principles-of-analytic-validation-of-immunohistochemical-assays/) — assay/scoring combinations and specimen conditions.
+- [CAP archived breast-biomarker protocol, 2018, Tables 2–3](https://documents.cap.org/protocols/cp-breast-18biomarker-1201.pdf) — checked indexed tables support scoring arithmetic; historical positivity labels are not taught as current generic cutoffs.
+- [CAP breast-biomarker protocol v1.6.2.0, September 2026](https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true) — selected reporting fields and Note B; composite scores remain optional.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

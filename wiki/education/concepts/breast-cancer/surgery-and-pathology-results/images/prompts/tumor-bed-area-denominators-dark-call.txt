@@ -1,0 +1,17 @@
+Use case: scientific-educational.
+Create a friendly educational cartoon showing that two tumor-bed percentages can use different denominators. This is a fictional area-arithmetic schematic, not a pathology image or a cell census.
+
+Composition: a clear two-panel landscape educational poster, generous spacing, clean sans-serif type, rounded panel frames and a sparse title. Match the friendly flat illustration and labeled-diagram style of the supplied style anchor, without copying any of its clinical content. No people, cells, nuclei or tissue microscopy. Use distinct fill AND pattern so the categories remain identifiable without color. Keep all labels large enough to read when enlarged on a phone.
+
+Title, exactly: "A percentage needs a denominator".
+Small subtitle, exactly: "Fictional area example".
+
+LEFT PANEL: Draw exactly twenty equal square AREA TILES in a five-column, four-row rectangle. The whole rectangle represents a defined bed of 100 area units. Each tile represents five area units, not one cell. In the top row only, make the first tile hatched and the next three tiles solid-filled. These four tiles together represent the cancer area. The fifth tile in that row and all fifteen tiles in the other three rows are a quiet neutral fill representing other bed area. Thus there are exactly one hatched in-situ tile, three solid invasive tiles, and sixteen other-area tiles. A thin outlined bracket groups only the four cancer tiles, without an arrow or any transformation. Put these exact labels outside the grid: "Whole bed: 100 units", "Cancer: 20% of bed", and "Each tile = 5 area units". A simple two-item key says "In situ" beside the hatched sample and "Invasive" beside the solid sample. Do not depict normal tissue cells or imply that all other area is scar.
+
+RIGHT PANEL: Repeat only the same four cancer-area tiles as a larger horizontal row: one hatched in-situ tile and three solid invasive tiles, with the SAME category patterns as the left grid. This is a change of denominator, not cancer progression. No arrow between the hatched and solid tiles. Put the exact labels "Within cancer area", "25% in situ", and "75% invasive" near this row. Beneath it, a large simple arithmetic card says "20% × 75% = 15%" and then "Invasive: 15% of bed".
+
+Final short footer, exactly: "Area, not cell counts".
+
+Scientific constraints: The whole bed has 100 fictional AREA units. Cancer occupies 20 units. Of those 20 cancer units, five are in situ and fifteen invasive. The in-situ percentage is 25% of cancer, not 25% of the bed. The invasive share is 75% of cancer, not 75% of the bed. The grid is a teaching aid, not a prescribed pixel-counting workflow or evidence that visual pathology estimates have exact precision. Do not show an in-situ-to-invasive conversion, a treatment response trajectory, a prognostic result, an RCB category or score, sequencing purity, a patient, a drug, a clinical threshold, a cure claim or an anatomical specimen. No causal arrows. No additional numbers or labels beyond those specified. Do not put one category inside a nucleus or show individual biological cells. Do not duplicate the grid or add extra colored tiles. No logos, watermarks, medical photography, gore or text outside the specified labels.
+
+DARK THEME: Use a deep slate background, light legible text, subdued panel accents and clear distinct hatch/solid/neutral fills. Maintain high contrast and the exact scientific layout and labels above. Preserve the tile counts, labels and composition of the light variant.

@@ -8,8 +8,8 @@ aliases: ["histologic grade", "Nottingham grade", "Nottingham score", "tumor gra
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,61 +25,77 @@ Histologic grade describes a breast cancer's microscopic features; the Nottingha
 
 ## The intuition
 
-Grade describes what the cancer looks like under a microscope. Stage describes its extent in the body. Think of one as a description of the tissue and the other as a map of where disease is found. A striking microscopic appearance does not tell you how far the cancer has traveled.
+Grade describes what the cancer looks like under a microscope. Anatomic stage describes its extent in the body. Think of one as a tissue description and the other as a map of where disease is found. A striking appearance does not tell us how far the cancer has traveled.
 
-The distinction is useful when the numbers sound alike: **grade 3 is not stage III**. They can appear together or separately because they answer different questions.
+The analogy leaves out how clinical assessments combine information: breast-cancer prognostic stage can incorporate grade and receptor findings alongside extent. Still, **grade 3 is not stage III**. The individual measurements answer different questions.
 
 ## How it works
 
-For invasive breast cancer, the **Nottingham system** scores three features:
+For invasive breast cancer, the **Nottingham system** combines three features:
 
 | Feature | What the pathologist assesses |
 | --- | --- |
-| Tubule formation | How much of the tumor forms gland-like or tubular structures |
-| Nuclear pleomorphism | How much the nuclei vary in size and appearance compared with normal breast cells |
-| Mitotic activity | How many recognizable dividing cells appear in specified microscope fields |
+| Tubule formation | How much tumor forms gland-like or tubular structures |
+| Nuclear pleomorphism | Variation in nuclear size and appearance compared with normal breast cells |
+| Mitotic activity | Recognizable dividing cells in specified microscope fields |
 
-A **nucleus** contains the cell's genetic material. **Pleomorphism** means variation in appearance. A **mitotic figure** is a cell visibly dividing; a dark or damaged nucleus does not automatically count as one.
+A **nucleus** contains genetic material; **pleomorphism** means variation in appearance. A **mitotic figure** is a cell visibly dividing. A dark, damaged or dying nucleus does not automatically qualify.
 
-Each component receives a score from **1 to 3**. The scores are added, then mapped to the overall grade: **3–5 means grade 1; 6–7 means grade 2; 8–9 means grade 3**. [The CAP invasive-breast protocol](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true) specifies this system. The mitotic scoring thresholds account for microscope field area; a raw count without its method is incomplete.
+Each feature receives a score from **1 to 3**. Add the three scores: **3–5 gives grade 1; 6–7 gives grade 2; 8–9 gives grade 3**. These are component scores and a mapped category, rather than percentages.
+
+The mitotic score depends on the observation area. The College of American Pathologists (CAP) describes counting clearly identifiable figures across ten consecutive high-power fields in the most mitotically active region. A **high-power field** is the area visible at that microscope setting. Its area must be established because two microscopes can show different areas at the same nominal magnification. A raw count without field area and method is incomplete.
 
 ```mermaid
-flowchart LR
-    A["Tubule-formation score"] --> D["Add three scores"]
-    B["Nuclear-appearance score"] --> D
-    C["Mitotic-activity score"] --> D
-    D --> E["Nottingham grade 1, 2 or 3"]
-    F["Separate assessment of extent"] --> G["TNM staging"]
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+    A["Three component scores:<br/>tubules, nuclei, mitoses"] --> B["Add scores: 3 to 9"]
+    B --> C["Nottingham grade:<br/>1, 2 or 3"]
+    C --> D["Read with separate<br/>extent assessment"]
 ```
 
-The diagram deliberately keeps the microscopic score separate from [tumor, node and metastasis (TNM) staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging). Breast-cancer **prognostic stage** can incorporate grade and receptor findings alongside extent. That combination does not make the individual measurements interchangeable.
+The map summarizes scoring. It does not turn grade into [tumor, node and metastasis (TNM) categories](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging).
 
 ## Why it matters in cancer
 
-Grade adds prognostic information: across groups of patients, higher-grade tumors generally behave differently from lower-grade tumors. [NCI explains why grade is considered with stage and other features](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade). It is one part of a clinical assessment, not a personal forecast or a standalone treatment rule.
+Grade adds prognostic information: across patient groups, tumors with different grades can have different outcomes. It is part of an assessment with stage, receptor findings and clinical context. It is not a personal forecast or a standalone treatment rule.
 
-It also helps a reader distinguish three descriptions on a pathology report. **Histologic type** names the kind of tumor, such as ductal or lobular. **Grade** scores microscopic features. **Stage** describes extent under a specified system. A report can contain all three.
-
-## Worked example
-
-A fictional invasive breast tumor has component scores of 2 for tubule formation, 3 for nuclear appearance and 3 for mitotic activity. The sum is 8, so its Nottingham grade is 3. Those scores do not supply tumor size, lymph-node status or distant-metastasis information. You cannot assign stage III from them.
-
-If a later specimen contains a different-looking area, first check which tissue was sampled and whether treatment occurred in between. One sample is not a microscope view of every part of the cancer.
-
-## Common confusions
-
-- Grade 3 is not stage III, and a high grade does not prove distant spread.
-- Grade is not just a [Ki-67](/wiki/education/concepts/breast-cancer/grade-and-stage/ki-67) percentage. Mitotic activity is one component of grade; Ki-67 measures a broader cell-cycle-associated stain.
-- Nottingham grading of invasive cancer is not identical to nuclear grading of **ductal carcinoma in situ (DCIS)**, a noninvasive lesion.
-- A low grade does not mean benign, and a high grade does not determine an individual's outcome.
+Three report terms can now stay distinct. **Histologic type** describes the tumor's morphology, such as [invasive carcinoma of no special type](/wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma). **Grade** scores microscopic features. **Stage** describes extent or combines it with specified prognostic inputs under a particular system.
 
 ## How it is measured
 
-A pathologist evaluates tissue morphology and counts mitotic figures under defined conditions. Read the overall grade and component scores, specimen identity and any limitations. Small biopsies, heterogeneity and treatment-related changes can affect what is assessable and how specimens compare.
+| Observation | What to retain |
+| --- | --- |
+| Measures and method | Tissue morphology and defined mitotic counting under the Nottingham system |
+| Input and tissue use | Named biopsy/resection, tissue sections and treatment timing; microscopy samples part of the tissue |
+| Output and units | Three component scores, their sum and grade; mitotic count with field-area context |
+| Quality and failure | Limited tissue, heterogeneous regions or treatment effects can restrict assessment and comparison |
+| Cannot infer | Tumor size, nodal involvement, distant spread or an individual's treatment benefit |
+| Validation context | Invasive breast carcinoma; in situ nuclear grading is a different assessment |
+
+## Worked example
+
+A fictional report assigns 2 for tubule formation, 3 for nuclear appearance and 3 for mitotic activity. The sum is 8, so the Nottingham grade is 3. If another sample looks different, first check the tissue sampled and whether treatment occurred between collections. One section is not a view of every part of the cancer.
+
+## Try it
+
+Can those three scores establish stage III? Could a Ki-67 percentage replace the mitotic score?
+
+**Answer:** No. The scores do not supply tumor extent, regional-node findings or distant-spread assessment. [Ki-67](/wiki/education/concepts/breast-cancer/grade-and-stage/ki-67) stains cells across active cycle phases, while mitotic counting identifies visible division under defined conditions; it does not replace that component.
+
+## Common confusions
+
+- Grade 3 does not prove distant spread, and low grade does not mean benign.
+- A Nottingham sum of 8 is a score, not “8%” or a stage.
+- Invasive-cancer grade differs from nuclear grading of ductal carcinoma in situ (DCIS).
+- Equal mitotic counts can require different scoring interpretation if the observation areas differ.
 
 ## Explain it back
 
-What extra information would you need to turn a grade-3 report into a stage assessment? The tumor's extent, regional-node findings, distant-spread assessment and the applicable staging rules; grade alone supplies none of that map.
+Explain which extra measurements are needed to describe extent after reading a grade-3 report.
+
+## Takeaway
+
+Read all three microscopic components and their method, then keep grade distinct from extent and personal outcome.
 
 ## Related concepts
 
@@ -89,11 +105,11 @@ What extra information would you need to turn a grade-3 report into a stage asse
 
 ## Sources and scope
 
-General education about invasive breast cancer; fictional example. Source-checked October 9, 2026. Expert and learner review remain pending.
+General education about invasive breast cancer; fictional example. Source-checked October 10, 2026. Expert and learner review remain pending.
 
-- [CAP, invasive-breast resection protocol, version 4.11.0.0 (June 2026)](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true): Nottingham components, sums and field-area requirements.
+- [CAP, invasive-breast protocol v4.11.0.0 (June 2026)](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true): components, sums and mitotic field-area requirements.
 - [NCI, tumor grade](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade): grade versus stage and combined interpretation.
-- [NCI, breast-cancer treatment PDQ, staging](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq): anatomic versus prognostic stage.
+- [NCI, breast-cancer treatment PDQ](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq): anatomic and prognostic staging context.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

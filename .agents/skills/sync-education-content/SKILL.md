@@ -12,7 +12,7 @@ This skill owns transfer and consistency checks between the two content reposito
 - Author the shared curriculum in diana-tnbc/obsidian/wiki/education/. Oncoguide keeps a byte-for-byte public copy under wiki/education/.
 - Preserve Markdown, citations, review metadata and paths. The pinned renderer converts education links to local routes and sends other wiki links back to Diana; do not rewrite clinical owner pages into Oncoguide.
 - provenance.json is the immutable initial import receipt. content-sync.json records the latest committed source, active page/asset/prompt hashes and retired assets with their original source revisions.
-- The exporter includes referenced media, inferred dark companions and associated saved prompts. Retired artwork is retained by default; it is not presented as current teaching.
+- The exporter includes referenced media, inferred dark companions and associated saved prompts, including exact `-light-call.txt` and `-dark-call.txt` invocations when saved beside the active image pair. Retired artwork is retained by default; it is not presented as current teaching.
 - Restricted metadata, redacted spans, unhydrated LFS media and symlinked content are rejected. A public source page does not authorize copying private case bundles or the source repository's Git history.
 
 ## Find and compare
@@ -43,7 +43,7 @@ When a curriculum rewrite reveals a conflicting claim in a current Diana care, q
 
 The helper stages a committed export, validates all conflicts and hashes before writing, updates the receipt last and rechecks destination bytes. Repeating the comparison should show no additions, updates or conflicts. An unrelated Diana commit with identical education bytes does not require a new transfer.
 
-For new illustrations, verify the active light/dark pair and its saved prompt are in the export, then check their published bytes against the receipt. Keep source checking and automated validation separate from actual expert or learner review; copying a page must preserve pending review metadata.
+For new illustrations, verify the active light/dark pair and its saved base prompt and any exact theme invocation prompts are in the export, then check their published bytes against the receipt. Keep source checking and automated validation separate from actual expert or learner review; copying a page must preserve pending review metadata.
 
 Page moves or removals require reviewed exact paths using repeated --remove <vault-relative-path> arguments in both plan and apply. A path must have been imported, be absent from the new export, and have no independent destination edit. Never use a broad mirror-delete command to clean up retired media.
 

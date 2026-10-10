@@ -12,7 +12,7 @@ guide: "reading-pathology-and-surgery-results"
 step: 2
 minutes: 12
 objectives: ["Separate tumor-bed footprint, invasive cancer and in situ disease.", "Read breast, node and margin findings before using a combined response label."]
-prerequisites: ["[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins]]"]
+prerequisites: ["[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins]]"]
 ---
 
 # Read residual disease and margins
@@ -35,7 +35,7 @@ flowchart TD
 
 ## A footprint is not a count of remaining cells
 
-A treated tumor bed is the region where the tumor and its [treatment effects](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology) are evaluated. Its dimensions describe a footprint. Scarring or other treatment changes and viable invasive cancer are separate observations. [Tumor cellularity](/about/Terminology#tumor-cellularity) describes how much of the evaluated bed is occupied by cancer under the scoring method. Invasive and in situ components also need separation.
+A treated tumor bed is the region where the tumor and its [treatment effects](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology) are evaluated. Its dimensions describe a footprint. Scarring or other treatment changes and viable invasive cancer are separate observations. [Tumor-bed cellularity](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) describes how much of the evaluated bed is occupied by cancer under the scoring method. Invasive and in situ components also need separation. Label each percentage: overall cancer uses the defined bed area; the in situ share uses the cancer component.
 
 Imagine two fictional treated beds with the same dimensions. One contains sparse invasive cells; the other contains dense invasive cancer. The footprints match, but their residual findings differ. A large bed is not automatically an equally large dense invasive mass.
 
@@ -50,7 +50,7 @@ If invasive cancer remains in an examined node, a clear breast alone does not es
 | Finding | What it contributes | What it does not establish alone |
 |---|---|---|
 | Bed dimensions | Extent of the evaluated treated bed | Remaining invasive cancer quantity or an RCB score |
-| Cellularity and in situ fraction | Composition under the scoring method | Whether nodes or margins are clear |
+| Cancer-occupied bed area and in situ share of cancer | Two percentages with different denominators | Sequencing purity or whether nodes or margins are clear |
 | Node findings | Residual regional disease | Distant metastasis or all breast findings |
 | Margin interpretation | Cancer at an evaluated edge and relevant distances | Whole-body absence of disease |
 
@@ -99,7 +99,7 @@ A fictional report has no invasive breast cancer, one involved regional node and
 
 Source-checked October 10, 2026; expert and learner review pending. All examples are fictional and do not calculate an individual's score or final margins.
 
-- [MD Anderson: residual cancer burden method](https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).
+- [MD Anderson: detailed RCB pathology method](https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf), pages 1–4, for bed-area and cancer-component denominators.
 - [Symmans and colleagues, 2007](https://doi.org/10.1200/JCO.2007.10.6823), for the measure and prognostic evidence.
 - [CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/), for response definitions.
 - [SSO–ASTRO invasive margin guideline](https://pubmed.ncbi.nlm.nih.gov/24516019/) and [SSO–ASTRO–ASCO DCIS margin guideline](https://pubmed.ncbi.nlm.nih.gov/27528719/), for distinct population-specific recommendations.

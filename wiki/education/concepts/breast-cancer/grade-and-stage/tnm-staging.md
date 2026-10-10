@@ -5,7 +5,8 @@ domain: breast-cancer/grade-and-stage
 summary: "TNM staging describes the primary tumor, regional lymph nodes and distant metastasis using a cancer-specific classification."
 glossary_anchor: tnm-staging
 aliases: ["tnm-staging"]
-prerequisites: []
+prerequisites:
+  - "[[wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade]]"
 reviewed: pending
 reviewed_by: ""
 level: foundation
@@ -13,8 +14,8 @@ sensitive: false
 tags: [education, breast-cancer]
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
 updated: 2026-10-10
-source_checked: "2026-10-10"
-review_status: "Expert and learner review pending"
+source_checked: 2026-10-10
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # TNM staging
@@ -25,58 +26,79 @@ TNM staging describes the primary tumor, regional lymph nodes and distant metast
 
 ## The intuition
 
-A stage is a map of extent, while grade describes how cells look. The letters keep three locations separate: the original tumor, nearby nodes and distant sites. Their combinations and prefixes must be interpreted under the system used.
+Think of TNM as a map with a date and a legend. **T** describes the primary tumor, **N** regional lymph nodes and **M** distant metastasis. The map describes extent; [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade) describes microscopic appearance. Neither word supplies the other's information.
+
+The map analogy has a limit: staging combines evidence and defined rules, rather than photographing every cancer cell. A negative examination of one sample does not establish absence everywhere.
 
 ## How it works
 
-T describes size or local extension, N describes regional nodes, and M describes distant spread. Clinical c staging uses examination, imaging and biopsy before definitive treatment. Pathologic p staging uses surgical findings. The y prefix denotes assessment after treatment: ypT and ypN describe residual findings after neoadjuvant therapy.
+In breast cancer, T uses tumor size and specified local extension; N uses regional-node findings; M concerns distant spread. For example, T3 means a tumor larger than 5 cm, whereas T4 requires defined skin or chest-wall involvement. Size alone does not make T4. Regional nodes can be involved without M1 distant disease.
 
-For breast cancer, T3 describes a tumor larger than five centimeters. T4 concerns specified chest-wall or skin involvement; size alone does not make T4. [N categories](/wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden) have clinical and pathologic definitions. Clinical N3b can apply when [internal mammary nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes) and [axillary nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla) are clinically involved. It does not simply mean ten positive surgical nodes.
+[N categories and nodal burden](/wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden) require location and assessment context, not simply a node count. Clinical N3b, for example, includes ipsilateral internal mammary and axillary involvement; it is not a synonym for ten positive surgically examined nodes.
 
-Anatomic stage groups differ from [AJCC prognostic groups](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging) incorporating grade and receptor information. An overall group should come from the correct staging rules, rather than mechanically combining a pretreatment clinical T with post-treatment pathologic N.
+### Read the prefix and the moment
 
-Regional-node involvement is not the same as distant metastasis. A ypN-positive result can coexist with no known distant disease. Imaging suspicion, biopsy confirmation and pathologic findings are different evidence levels. Preserve those qualifiers when summarizing a record.
+| Prefix | Evidence and timing | What to retain |
+|---|---|---|
+| c | Clinical assessment using examination, imaging and biopsy information | The pretreatment assessment and its supporting evidence |
+| p | Pathologic classification incorporating surgery and examined tissue | Specimen, operation and relevant prior evidence |
+| yc | Clinical reassessment after neoadjuvant treatment | Which treatment preceded that assessment |
+| yp | Pathologic assessment after neoadjuvant treatment | What remains in the post-treatment surgical specimens |
+
+[Neoadjuvant treatment](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant) comes before the main treatment, usually surgery. A later report addendum on a pretreatment biopsy still describes that old specimen. Its issue date does not turn it into a yp finding.
+
+Post-treatment categories complement the original assessment. Do not splice a pretreatment T into a post-treatment N and call the combination one contemporaneous classification. The College of American Pathologists (CAP) protocol also distinguishes a formal course of preoperative endocrine treatment from a brief exposure when applying the y prefix.
+
+The M field has its own rules: **pM0 is not a valid designation**. Examining breast and regional nodes cannot pathologically certify that all distant sites are clear; M0 is clinical. Record the actual assigned categories rather than filling a missing field yourself.
+
+### A category is not the whole stage group
+
+Anatomic grouping combines TNM. [American Joint Committee on Cancer (AJCC) prognostic staging](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging) also uses grade and receptor information. The applicable table matters: a surgery-first pathological prognostic table cannot simply be reused for a post-neoadjuvant record.
 
 ## Why it matters in cancer
 
-It keeps pretreatment extent, post-treatment pathology and distant disease separate when reading a cancer record.
+Two reports can describe different treatment moments without contradicting each other. Stage supports communication and comparison within defined populations; it does not supply an exact personal recurrence probability or choose a treatment by itself. [Residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) answers a related post-treatment measurement question, with different inputs.
 
 ## Worked example
 
-A breast tumor larger than five centimeters without T4 skin or chest-wall criteria is cT3. Suspicious internal mammary nodes can change the working N assumption when considered clinically involved. After treatment, ypT2 ypN1a is a new residual description; it does not erase the baseline map.
+A fictional pretreatment assessment identifies a 6 cm tumor without a qualifying T4 feature. That supports cT3, rather than T4 from size alone. After neoadjuvant treatment, surgery yields a report of ypT2 ypN1a. Both records belong in the timeline; the postoperative categories do not erase the pretreatment extent.
+
+Anatomic stage IIIB involves T4 with defined N/M combinations. cT3 alone does not establish IIIB. A prognostic grouping needs its additional inputs and appropriate table.
 
 ## Common confusions
 
-- Stage is not grade, [RCB (residual cancer burden)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) class or a molecular subtype.
-- Clinical and post-treatment pathologic prefixes are not interchangeable.
-- Anatomic stage IIIB requires the relevant T4 criteria; cT3 is not enough for that anatomic group. Clinical prognostic stage groups also use grade and receptor results, so their assignments can differ.
+- Stage, grade and response describe different features.
+- Regional-node disease or [extranodal extension](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension) does not automatically mean M1.
+- A post-treatment result is not a new untreated baseline.
+- A late report date does not change when its specimen was collected.
 
 ## Try it
 
-A fictional report describes cancer beyond the capsule of an involved regional node. Does this finding alone establish M1 distant metastasis?
+A fictional biopsy was collected before therapy. Its addendum arrives after surgery. Can its finding be called yp solely because the addendum is recent? Can negative surgical nodes establish pM0?
 
-**Answer:** No. [Extranodal extension](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension) describes extension around that node. Distant metastasis requires its own evidence and classification.
+**Answer:** No to both. Attach the biopsy to its pretreatment collection context. The examined nodes describe regional findings; pM0 is not a valid distant-metastasis category.
 
 ## Explain it back
 
-“Regional nodes describe ___; distant metastasis describes ___.”
+Explain why two TNM records need both a prefix and a treatment moment before you compare them.
 
-**One possible answer:** “A defined drainage region; disease in distant sites under the staging system.”
+**One possible answer:** The prefix identifies how and when extent was assessed; otherwise I might mistake response or new evidence for inconsistent staging.
 
 ## Takeaway
 
-**Keep region, evidence level and assessment time attached to every staging category.**
+**Read the categories, prefix, specimen time and applicable staging table together.**
 
 ## Related concepts
 
-[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden|RCB]] and [[wiki/education/guides/reading-pathology-and-surgery-results/index|pathology guide]].
+- [AJCC prognostic staging](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging)
+- [N categories and nodal burden](/wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden)
 
 ## Sources and scope
 
-General teaching, source-checked October 10, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
+Source-checked October 10, 2026; expert and learner review pending. Examples are fictional. This explains classification rather than assigning an individual's stage.
 
-- [NCI cancer staging](https://www.cancer.gov/about-cancer/diagnosis-staging/staging).
-- [NCI breast-cancer treatment PDQ, staging tables](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq).
+- [NCI: Breast Cancer Treatment PDQ, AJCC staging tables](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq), for categories, M0 and stage-group contexts.
+- [CAP invasive breast resection protocol, June 2026, version 4.11](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true), Notes K and N, for post-treatment prefixes and pathologic classification.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

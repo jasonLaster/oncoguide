@@ -29,7 +29,7 @@ Imagine describing what is left using both its footprint and how much of that fo
 
 ## How it works
 
-The method is not validated for neoadjuvant endocrine therapy. The College of American Pathologists' June 2026 breast-resection protocol advises against reporting an RCB score or class in that setting, even though individual [cellularity observations](/about/Terminology#tumor-cellularity) may still describe remaining disease. [CAP version 4.11.0.0, note K](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true).
+The method is not validated for neoadjuvant endocrine therapy. The College of American Pathologists' June 2026 breast-resection protocol advises against reporting an RCB score or class in that setting, even though individual [tumor-bed cellularity observations](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) may still describe remaining disease. [CAP version 4.11.0.0, note K](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true).
 
 The calculation uses two tumor-bed dimensions, overall [cancer cellularity](/about/Terminology#tumor-cellularity) and the proportion that is in situ, plus the number of involved nodes and the largest nodal metastasis. These are pathology measurements obtained under the scoring protocol, rather than values inferred from an imaging report or the longest invasive focus alone.
 
@@ -61,7 +61,7 @@ The entire bracketed nodal contribution is raised to `0.17`. A zero breast or no
 
 RCB-0 corresponds to [pCR (pathologic complete response)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) under this definition. A clinical report should use the pathology team's validated assessment and official calculator, including protocol rules for unusual findings.
 
-Cellularity is the proportion of the evaluated tumor bed occupied by cancer under the scoring method. It differs from the purity estimate used in sequencing a selected sample. A low cellularity does not mean every part of the bed or every node is free of cancer.
+The [cellularity explanation](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity#worked-example) names the two area denominators before calculating the invasive share. Neither percentage is the purity estimate used in sequencing a selected sample. A low cellularity does not mean every part of the bed or every node is free of cancer.
 
 RCB is prognostic in studied breast-cancer populations, but an RCB class is not a single personal recurrence probability. Receptor subtype, treatment era, follow-up, clinical stage and subsequent therapy affect how a cohort applies. The score does not establish that an investigational vaccine works best in one class or needs more boosters in another.
 

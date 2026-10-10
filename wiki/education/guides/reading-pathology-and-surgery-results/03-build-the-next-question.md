@@ -47,6 +47,7 @@ This approach makes an appointment easier to follow. You can ask why a finding m
 |---|---|---|
 | Final margin is involved | What local completion is appropriate? | Which edge, disease type, submitted margins and operative/radiation context |
 | Residual invasive disease is found | How does this inform risk and systemic options? | Prior therapy, subtype, relevant cohorts and comparative treatment evidence |
+| A report lists a bed-cellularity percentage | Which region and denominator does it describe? | [Tumor-bed cellularity](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity), separate in situ share and the assessment method |
 | A new receptor result differs | What explains the difference and changes interpretation? | Specimen, methods, controls, sampling and integrated assessment |
 | A safety problem interrupted treatment | Which continuing options remain feasible? | Cause, severity, recovery and clinician assessment |
 

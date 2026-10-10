@@ -32,6 +32,7 @@ review_status: "Source-checked; expert and learner review pending"
 This supplementary lesson extends [Understand multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics) to residual tumor: cancer remaining in sampled tissue after treatment.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
   A[Sampled residual tissue] --> B["Check identity<br/>and recovery"]
   B --> C["Separate<br/>RNA questions"]
@@ -85,7 +86,7 @@ Whole-cell and nuclear methods recover different compartments and populations. T
 
 In a **fictional arithmetic exercise**, suppose an input suspension truly contains 4% malignant nuclei. If 6,000 nuclei are recovered, the expectation is 0.04 × 6,000 = 240 malignant profiles, **only under an unrealistic equal-recovery assumption**.
 
-A histology tumor percentage is **not** the recovered malignant-nucleus fraction. Its denominator and sampled region differ, and preparation or filtering can preferentially lose cells. The arithmetic illustrates dilution; it is not a laboratory yield forecast or adequacy threshold.
+A [tumor-bed cellularity percentage](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) uses assessed tissue area; it is **not** the recovered malignant-nucleus fraction. Its denominator and sampled region differ, and preparation or filtering can preferentially lose cells. The arithmetic illustrates dilution; it is not a laboratory yield forecast or adequacy threshold.
 
 ## What can go wrong at this step
 

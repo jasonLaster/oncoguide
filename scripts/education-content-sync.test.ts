@@ -4,7 +4,7 @@ import os from "node:os";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import matter from "../.renderer/node_modules/gray-matter/index.js";
-import { reconcile, validateReceipt, inventory, applySnapshot, assertPublic, hash, sourceTreeFiles, safeReportPath, type Receipt } from "./education-content-sync";
+import { associatedArtworkPrompts, assertArtworkPrompt, reconcile, validateReceipt, inventory, applySnapshot, assertPublic, hash, sourceTreeFiles, safeReportPath, type Receipt } from "./education-content-sync";
 
 const a="wiki/education/concepts/a.md", b="wiki/education/concepts/b.md", image="wiki/education/images/a-light.png";
 const old="baseline", next="upstream revision", local="local revision";
@@ -111,4 +111,19 @@ test("a destination change after planning prevents any apply write",()=>{
   fs.writeFileSync(path.join(root,a),local);expect(()=>applySnapshot(root,stage,base,future,plan,actual)).toThrow("Destination changed");
   expect(fs.readFileSync(path.join(root,a),"utf8")).toBe(local);expect(fs.existsSync(path.join(root,"content-sync.json"))).toBe(false);
  }finally{fs.rmSync(root,{recursive:true,force:true});fs.rmSync(stage,{recursive:true,force:true});}
+});
+
+test("active artwork carries its base prompt and exact theme invocations only", () => {
+ const dir="wiki/education/concepts/example/images/", prompt=dir+"prompts/";
+ const expected=[prompt+"area-dark-call.txt",prompt+"area-light-call.txt",prompt+"area.txt"];
+ const source=[...expected,prompt+"area-light-call-old.txt",prompt+"area-other.txt",prompt+"retired.txt",prompt+"retired-dark-call.txt"].map(p=>"obsidian/"+p);
+ expect(associatedArtworkPrompts([dir+"area-light.png",dir+"area-dark.png",dir+"area-light.png"], source)).toEqual(expected);
+ expect(associatedArtworkPrompts([dir+"area-light.png"], source)).toEqual([prompt+"area-light-call.txt",prompt+"area.txt"]);
+ expect(associatedArtworkPrompts([dir+"area.png"], source)).toEqual([prompt+"area.txt"]);
+ expect(associatedArtworkPrompts([dir+"area-light.png"], ["obsidian/"+prompt+"area.txt"])).toEqual([prompt+"area.txt"]);
+ expect(()=>associatedArtworkPrompts(["wiki/education/../private/light.png"],source)).toThrow("Unsafe artwork");
+});
+test("artwork invocation prompts reject redactions and unhydrated LFS bytes before transfer", () => {
+ for(const text of ["<redact>private</redact>",":::redact[private]\nsecret\n:::","version https://git-lfs.github.com/spec/v1\noid sha256:000"]) expect(()=>assertArtworkPrompt(Buffer.from(text),"prompt.txt")).toThrow();
+ expect(()=>assertArtworkPrompt(Buffer.from("Draw a fictional area grid.\nUse a dark background."),"prompt.txt")).not.toThrow();
 });

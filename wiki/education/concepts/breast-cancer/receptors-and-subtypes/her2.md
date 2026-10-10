@@ -8,13 +8,13 @@ aliases: ["HER2", "HER2/neu", "ERBB2", "human epidermal growth factor receptor 2
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]"]
+used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
 ---
 
 # HER2: receptor biology and test status
@@ -25,77 +25,92 @@ Human epidermal growth factor receptor 2 (HER2) is a cell-surface signaling prot
 
 ## The intuition
 
-Picture a cell's surface as a place where messages reach its internal growth machinery. HER2 is part of that signaling system. Some cancers have many more copies of the HER2 gene and abundant receptor protein. This can make the pathway important to their growth.
+Picture the cell surface as a place where messages reach internal growth machinery. HER2 is part of that signaling system. Some cancers have increased copies of its gene and abundant receptor protein, making this pathway important to their growth.
 
-Two questions follow: “How is the cancer classified?” and “Does this particular treatment have evidence and eligibility for this setting?” They are related, but a test category cannot answer the second question by itself.
+The analogy cannot tell us how much a particular cancer depends on that pathway. It also leaves two questions open: “How is the cancer classified?” and “Does a particular treatment have evidence and eligibility in this setting?”
 
 ## How it works
 
-The gene called **ERBB2** encodes HER2. **Amplification** means increased gene copies; **overexpression** means increased protein abundance. [NCI's biomarker overview](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests) explains the growth-related role of excess HER2. Gene copies, RNA (ribonucleic acid) abundance and receptor protein are different measurements.
+**ERBB2** is the gene encoding HER2. **Amplification** means increased gene copies; **overexpression** means increased protein abundance. Gene copies, [ribonucleic acid (RNA) abundance](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) and receptor protein are different measurements.
 
-**Immunohistochemistry (IHC)** is [protein staining in tissue](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry). For HER2, the pattern is assessed at tumor-cell membranes. **In situ hybridization (ISH)** uses nucleic-acid probes in tissue to assess gene copies. The clinical interpretation follows integrated testing rules, including confirmatory work for equivocal IHC patterns. It is not assigned from one isolated copy-number cutoff.
+[Immunohistochemistry (IHC)](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) assesses protein staining at invasive tumor-cell membranes. **In situ hybridization (ISH)** uses nucleic-acid probes in tissue to assess gene copies. Clinical interpretation integrates the applicable testing rules; an equivocal IHC result needs further workup, usually ISH.
 
-The simplified IHC map below follows [ASCO/CAP guidance](https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/) and the [current CAP biomarker protocol](https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true). Unusual patterns and heterogeneous areas need the full rules.
+This simplified map uses the September 2026 College of American Pathologists (CAP) reporting template. Uncommon patterns, artifacts and heterogeneous areas need the full rules.
 
-| IHC score | Basic interpretation for overexpression |
+| IHC score | Basic overexpression interpretation |
 | --- | --- |
-| 0 | Negative; no membrane staining detected |
+| 0 | Negative; absent membrane staining |
 | 0+ | Negative; faint, incomplete membrane staining in at most 10% of tumor cells |
 | 1+ | Negative; faint, incomplete membrane staining in more than 10% |
-| 2+ | Equivocal; commonly weak to moderate complete membrane staining in more than 10%; requires further assessment, usually ISH |
-| 3+ | Positive; intense, complete membrane staining in more than 10% |
+| 2+ | Equivocal; commonly weak to moderate complete membrane staining in more than 10%; requires workup |
+| 3+ | Positive; intense, complete membrane staining in more than 10% of a homogeneous, contiguous invasive tumor-cell population |
 
-**HER2-low** generally describes IHC 1+ or IHC 2+/ISH-negative cancers. **HER2-ultralow** describes faint, limited membrane staining, historically included within IHC 0. CAP's 2026 reporting template separates absent staining as **0** from that limited-staining pattern as **0+**. Neither low nor ultralow means HER2-positive overexpression/amplification.
+**HER2-low** describes IHC 1+ or IHC 2+/ISH-negative staining. **HER2-ultralow** describes the limited faint membrane-staining pattern historically within IHC 0. The 2026 template separates that pattern as **0+** from absent staining as **0**. Both remain negative for overexpression/amplification. Intense complete staining limited to at most 10%, and some incomplete patterns, also fall into the equivocal workup group.
 
 ```mermaid
-flowchart LR
-    A["Tumor tissue"] --> B["IHC: membrane protein staining"]
-    A --> C["ISH when indicated: gene copies"]
-    B --> D["Integrated HER2 interpretation"]
-    C --> D
-    D --> E["Separate clinical question: treatment evidence and eligibility"]
-    F["Disease setting, hormone receptors and prior therapy"] --> E
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+    A["IHC membrane pattern"] --> B["Add ISH<br/>when indicated"]
+    B --> C["Integrated HER2 status"]
+    C --> D["Separate evidence<br/>and eligibility question"]
 ```
+
+This is a report-reading route. The last arrow does not promise a treatment benefit.
 
 ## Why it matters in cancer
 
-HER2 testing informs treatment pathways. A receptor can also serve as an address for an [antibody–drug conjugate](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/antibody-drug-conjugate), which delivers a payload. Receptor overexpression driving growth and receptor availability for payload delivery are different biological questions. Accordingly, some HER2-negative cancers can be considered for particular HER2-directed treatments in defined settings. Retain the exact result and check the treatment-specific evidence; “negative” alone is too coarse for every question.
-
-## Worked example
-
-A fictional tumor is IHC 2+ and ISH negative. Its completed classification is HER2 negative, with a HER2-low expression category. The initial 2+ result was equivocal, not “half positive.” Neither result alone establishes eligibility or predicts benefit from a medicine.
-
-## Common confusions
-
-- IHC 0 is an assay category, not proof that every cell contains zero HER2 molecules.
-- An ERBB2 RNA signal or a gene mutation does not substitute for the clinical IHC/ISH interpretation.
-- [HER2-enriched intrinsic subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) is an RNA classification, not a synonym for HER2-positive pathology.
-- HER2-low can coexist with [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc).
+HER2 can be a growth-related receptor and an address for an [antibody–drug conjugate](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) payload. Those are different biological jobs. Some HER2-negative cancers have treatment options in defined settings, but the exact score, disease context and treatment-specific evidence matter. A test label alone cannot establish eligibility.
 
 ## How it is measured
 
-Keep the specimen, assay, IHC score and pattern, ISH findings when performed, final interpretation and relevant comments together. Small differences at low staining levels, tissue handling and heterogeneity can affect classification. Do not infer an IHC score from [bulk RNA](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) or bulk protein abundance.
+| Observation | What to retain |
+| --- | --- |
+| Measures and method | IHC membrane protein pattern; ISH gene signals in evaluated invasive tumor cells |
+| Input and tissue use | Named specimen/block and tissue sections used for each assay |
+| Output and units | IHC category; mean HER2 and CEP17 signals/cell, their ratio and cells counted for dual-probe ISH |
+| Rules and quality | Integrated guideline interpretation, controls, preservation, artifacts and distinct populations |
+| Cannot infer | Protein activity, an IHC score from [bulk RNA](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq), or benefit from a specific medicine |
+| Validation context | Clinical breast-cancer tissue testing; assay and population matter |
+
+**CEP17** is a probe for a centromeric region of chromosome 17. A HER2/CEP17 ratio compares signals; it is different from the average HER2 signals per cell. Some uncommon ISH groups require concurrent IHC review and recounting. A ratio alone cannot supply the final category.
+
+## Try it
+
+A fictional, adequately assessed report has IHC 2+, a HER2/CEP17 ratio of 1.8, mean HER2 signals of 3.5 per invasive tumor cell, and a final ISH-negative interpretation, with no omitted distinct population. What do those numbers mean?
+
+**Answer:** 1.8 is a dimensionless ratio; 3.5 is an average number of signals per cell, not a percentage. The completed result is HER2 negative and within the HER2-low staining range. It does not establish drug eligibility or benefit. This is a simple teaching report, not a complete classification algorithm.
+
+## Common confusions
+
+- IHC 2+ is equivocal, not “half positive.”
+- IHC 0 does not prove every cell has zero HER2 molecules.
+- An ERBB2 mutation or RNA signal does not replace clinical IHC/ISH.
+- [HER2-enriched intrinsic subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) is an RNA label; HER2-low can coexist with [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc).
 
 ## Explain it back
 
-How can a tumor be both HER2 negative and HER2 low? “Negative” refers to the overexpression/amplification classification; “low” describes a staining range within that negative group.
+Explain how “HER2 negative” and “HER2-low” can describe the same completed report.
+
+## Takeaway
+
+Keep protein pattern, gene-signal units, integrated status and treatment eligibility as distinct questions.
 
 ## Related concepts
 
 - [Immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry)
 - [Intrinsic subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype)
-- [Estrogen receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor)
 
 ## Sources and scope
 
-General education about invasive breast cancer; fictional example. Source-checked October 9, 2026. Expert and learner review remain pending. Treatment indications need their own current clinical assessment.
+General education; fictional example. Source-checked October 10, 2026. Expert and learner review remain pending.
 
-- [ASCO/CAP, HER2 testing guideline update (2023)](https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/): integrated interpretation and limitations of low-level scoring.
-- [CAP, breast biomarker reporting protocol, version 1.6.2.0 (September 2026)](https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true): IHC categories, low/ultralow descriptions and 0/0+ reporting.
-- [NCI, breast-cancer biomarker tests](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests): HER2 biology and the role of tissue testing.
+- [CAP, breast biomarker template v1.6.2.0 (September 2026)](https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true): 0/0+, other IHC patterns and ISH units.
+- [ASCO/CAP, HER2 recommendations (2023)](https://www.cap.org/wp-content/uploads/documents/her2_breast_update_sor_2023.pdf?download=true): integrated interpretation and uncommon ISH groups.
+- [NCI, breast-cancer biomarker tests](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests): HER2 biology and tissue testing.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
+- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
 <!-- END GENERATED USED IN -->

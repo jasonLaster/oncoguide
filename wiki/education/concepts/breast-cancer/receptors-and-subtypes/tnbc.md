@@ -8,8 +8,8 @@ aliases: ["TNBC", "triple-negative breast cancer", "triple negative breast cance
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -27,71 +27,83 @@ Triple-negative breast cancer (TNBC) is breast cancer classified as negative for
 
 TNBC is a name built from three clinical test results. Imagine three entries on a report, each interpreted under its own rules. When all three are negative, they define the category. They do not provide a complete description of the tumor's biology.
 
-That distinction matters because “negative” can sound like “nothing there” or “nothing to treat.” Neither follows. The category describes three selected biomarkers, not every pathway, immune interaction or potential treatment target.
+“Negative” can sound like “nothing there” or “nothing to treat.” Neither follows. The name concerns three selected biomarkers, not every pathway, immune interaction or potential treatment target. The report-entry analogy also cannot show how the tumor changes across sites or time.
 
 ## How it works
 
-The hormone-receptor tests are [estrogen receptor (ER)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor) and [progesterone receptor (PR)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor). In invasive breast cancer, American Society of Clinical Oncology and College of American Pathologists (ASCO/CAP) testing recommendations call **less than 1%** positive tumor-cell nuclei negative for each. **ER-low positive**, the 1–10% ER range, is still positive under that guideline. The category is not defined by rounding every result to zero. [The hormone-receptor guideline](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf) provides the thresholds.
+The hormone-receptor tests are [estrogen receptor (ER)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor) and [progesterone receptor (PR)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor). For invasive breast cancer, American Society of Clinical Oncology and College of American Pathologists (ASCO/CAP) recommendations call **less than 1%** positive tumor-cell nuclei negative for each. **ER-low positive**, the 1–10% ER range, is still positive. The category is not defined by rounding every result to zero.
 
-The third result is the completed [HER2 interpretation](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2). It is negative for overexpression/amplification under the applicable testing rules. IHC 0 and 1+ are negative; IHC 2+ requires further assessment, usually ISH, before the final result can be used. **Immunohistochemistry (IHC)** stains protein in tissue; **in situ hybridization (ISH)** assesses gene copies. [ASCO/CAP HER2 guidance](https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/) explains why an equivocal starting result is not a completed negative result.
+The third result is the completed [HER2 interpretation](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2), negative for overexpression/amplification under the testing rules. **Immunohistochemistry (IHC)** stains protein in tissue; **in situ hybridization (ISH)** assesses gene copies. HER2 IHC 0, 0+ and 1+ are negative; IHC 2+ is equivocal and needs further workup, usually ISH, before it can supply a completed result.
 
 ```mermaid
-flowchart LR
-    A["ER negative"] --> D["All three completed results are negative"]
-    B["PR negative"] --> D
-    C["HER2 negative for overexpression or amplification"] --> D
-    D --> E["TNBC clinical category"]
-    E --> F["Further biology and disease-setting information still matter"]
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+    A["Completed ER<br/>and PR results"] --> B["Completed HER2 result"]
+    B --> C["Are all three negative?"]
+    C --> D["TNBC receptor category<br/>if yes"]
 ```
 
-An unknown, pending or uninterpretable result belongs in its own category. Absence of a reported positive result is not evidence that all three tests are negative.
+The map gathers independent tests; it does not imply that one receptor causes another. Unknown, pending and uninterpretable results remain distinct from negative results.
 
 ## Why it matters in cancer
 
-The classification helps organize treatment pathways and research cohorts. It separates cancers without the usual positive hormone-receptor or HER2-overexpression findings from cancers that have them. [NCI defines TNBC through these three receptors](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/triple-negative-breast-cancer).
+The classification organizes treatment pathways and research cohorts, separating cancers without the usual positive hormone-receptor or HER2-overexpression findings from cancers that have them. It is useful because it answers a limited question clearly.
 
-Within TNBC, tumors differ in gene-expression programs and other biological features. **Basal-like** is a common [intrinsic expression subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype), but it is not the definition of TNBC. Research directly comparing expression subtypes with clinical markers found that the systems do not map one to one. Preserve which assay supplied each label.
+Within TNBC, tumors differ in gene-expression programs and other features. **Basal-like** is an [intrinsic expression subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype), not the definition of TNBC. Direct comparisons show that expression labels and receptor categories do not map one to one.
 
-[TNBC molecular subtypes](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes) ask a separate RNA research question. [SOX10 and basal markers](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers) provide contextual protein clues rather than assigning those expression profiles.
-
-The name also does not specify stage, [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade), immune activity or treatment response. Those require their own measurements. A receptor classification is useful precisely because it answers a limited question clearly.
-
-## Worked example
-
-A fictional invasive tumor has ER below 1%, PR below 1% and HER2 IHC 1+. It meets the TNBC receptor classification. The same IHC 1+ result also falls in the HER2-low staining range. Both labels can be true because HER2-low is within the HER2-negative overexpression/amplification group.
-
-Now change only ER to 4%, with adequate controls. That report is ER-low positive and no longer meets this three-negative classification. A basal-like [RNA (ribonucleic acid) expression result](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) would describe a different measurement; it would not overwrite the ER result.
-
-## Common confusions
-
-- “Triple negative” does not mean that the reported numbers must all be zero.
-- TNBC and basal-like overlap, but are not interchangeable labels.
-- A clinical trial may use its own enrollment threshold; that threshold should not silently redefine the standard pathology category.
-- TNBC is not a stage or a prediction that all people in the category will respond alike.
+[TNBC molecular subtypes](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes) ask a separate ribonucleic acid (RNA) research question. [SOX10 and basal markers](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers) provide protein clues rather than assigning those profiles. The TNBC name also does not specify stage, [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade), immune activity or response.
 
 ## How it is measured
 
-Read the three completed tissue-test interpretations, the relevant percentages or scores, specimen identity and control comments. A general RNA classifier cannot supply missing clinical receptor tests. If separate specimens have different results, retain their dates and sites rather than combining selected results into a new synthetic profile.
+| Observation | What to retain |
+| --- | --- |
+| Measures and method | Three validated tissue-test interpretations, with the HER2 workup completed when required |
+| Input and tissue use | Specimen/block, site and collection date; individual assays use section material |
+| Output and units | ER/PR nuclear-staining percentages and categories; HER2 score/ISH findings and final status |
+| Quality and limits | Control comments, adequate invasive tumor and any unresolved result; a general RNA classifier cannot replace these tests |
+| Validation context | Standard pathology classification; trial enrollment thresholds may differ |
+
+If specimens disagree, retain their dates and sites. Combining selected results from different specimens into a synthetic three-negative profile loses the evidence of where each result came from.
+
+## Worked example
+
+A fictional invasive tumor has ER below 1%, PR below 1% and HER2 IHC 1+, with adequate controls. It meets the TNBC receptor classification. The same HER2 result also falls in the HER2-low staining range: low expression is within the HER2-negative overexpression/amplification group.
+
+## Try it
+
+Change only ER to 4%. Does the report still meet the standard TNBC classification? Would a basal-like RNA label change the answer?
+
+**Answer:** No. ER 4% is ER-low positive, so the three results are no longer all negative. A basal-like RNA label measures a different feature and does not overwrite the ER tissue result.
+
+## Common confusions
+
+- Triple negative does not require three literal zeroes.
+- HER2-low and TNBC can coexist.
+- A trial's enrollment threshold does not silently redefine standard pathology terminology.
+- TNBC is neither a stage nor a prediction that everyone in the category responds alike.
 
 ## Explain it back
 
-Why can TNBC and HER2-low appear on the same report? Because TNBC requires a negative HER2 overexpression/amplification classification, and HER2-low is a staining category within that group.
+Explain why TNBC, basal-like and HER2-low can answer different questions about the same specimen.
+
+## Takeaway
+
+Use the three completed receptor results to read the category, then ask separate questions about biology, extent and evidence.
 
 ## Related concepts
 
 - [Estrogen receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor)
 - [Progesterone receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor)
 - [HER2](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2)
-- [Intrinsic subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype)
 
 ## Sources and scope
 
-General education about invasive breast cancer; fictional examples. Source-checked October 9, 2026. Expert and learner review remain pending.
+General education about invasive breast cancer; fictional examples. Source-checked October 10, 2026. Expert and learner review remain pending.
 
-- [NCI, definition of triple-negative breast cancer](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/triple-negative-breast-cancer): the clinical receptor category.
-- [ASCO/CAP, ER and PR testing recommendation summary (2020)](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf): negative and ER-low-positive thresholds.
-- [ASCO/CAP, HER2 testing guideline update (2023)](https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/): completed HER2 classification.
-- [Bastien et al., PAM50 subtyping and concordance with clinical markers (2012)](https://pubmed.ncbi.nlm.nih.gov/23035882/): expression subtypes and receptor categories are distinct.
+- [NCI, definition of TNBC](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/triple-negative-breast-cancer): the receptor category.
+- [ASCO/CAP, ER and PR recommendations (2020)](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf): negative and ER-low thresholds.
+- [CAP, breast biomarker template v1.6.2.0 (September 2026)](https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true): HER2 scoring and workup context.
+- [Bastien et al., PAM50 and clinical markers (2012)](https://pubmed.ncbi.nlm.nih.gov/23035882/): incomplete correspondence between the classifications.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

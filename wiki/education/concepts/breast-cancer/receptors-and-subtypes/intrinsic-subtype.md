@@ -8,8 +8,8 @@ aliases: ["intrinsic subtype", "molecular subtype", "PAM50", "luminal A", "lumin
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,77 +25,96 @@ An intrinsic breast-cancer subtype is a category assigned by comparing a tumor s
 
 ## The intuition
 
-One description of a song names its instruments; another describes its musical style. Both can be informative, but they answer different questions. Clinical receptor tests describe selected proteins and gene amplification. An intrinsic subtype summarizes a broader pattern of gene activity in the sample.
+One description of a song names its instruments; another describes its musical style. Clinical receptor tests describe selected proteins and gene amplification. An intrinsic subtype summarizes a broader pattern of gene activity in the sample. Both descriptions can be informative without being interchangeable.
 
-The analogy stops there: a tumor is a changing mixture of cells, and a classifier's label depends on its measurements and rules. “Intrinsic” in this name does not mean inherited from a parent or impossible to change.
+The analogy stops there: a tumor is a changing mixture of cells, and a classifier's label depends on its measurements and rules. “Intrinsic” does not mean inherited from a parent or impossible to change.
 
 ## How it works
 
-**Gene expression** is the production of RNA (ribonucleic acid) from genes. Expression profiling asks which transcripts are relatively abundant. The original intrinsic-subtype research identified recurring breast-tumor patterns, rather than defining groups solely by [estrogen receptor (ER)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor), [progesterone receptor (PR)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor) and [human epidermal growth factor receptor 2 (HER2)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2) test results. [Perou and colleagues' original study](https://www.nature.com/articles/35021093) established this expression-based approach.
+**Gene expression** includes the production of [ribonucleic acid (RNA)](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) from genes. Expression profiling measures transcripts and compares their pattern with reference patterns. The original intrinsic-subtype research identified recurring breast-tumor expression patterns, rather than defining groups solely by [estrogen receptor (ER)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor), [progesterone receptor (PR)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor) and [human epidermal growth factor receptor 2 (HER2)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2) tissue-test results.
 
-**PAM50** is a classifier built around a 50-gene expression panel. It compares a sample's pattern with reference patterns; one high gene does not determine the label. In the classic research framework, the groups include the following. These are relative expression patterns, not treatment guarantees.
+**PAM50** is a classifier built around a 50-gene expression panel. It compares a pattern across genes with reference patterns; one highly expressed gene does not determine the label. The classic research framework includes these labels:
 
-| Expression label | The pattern it summarizes |
+| Expression label | What the pattern describes |
 | --- | --- |
-| Luminal A | Luminal and hormone-related expression, usually with less proliferation-related expression than luminal B |
+| Luminal A | Luminal and hormone-related expression, generally with less proliferation-related expression than luminal B |
 | Luminal B | Luminal expression with more proliferation-related expression than luminal A |
-| HER2-enriched | A reference pattern involving HER2-related and other growth-related expression |
-| Basal-like | Expression resembling aspects of basal breast epithelial programs |
-| Normal-like | Similarity to a normal-breast reference pattern; sample composition is an important concern |
+| HER2-enriched | Similarity to a HER2-related and broader growth-related reference pattern |
+| Basal-like | Similarity to aspects of basal breast epithelial expression programs |
+| Normal-like | Similarity to a normal-breast reference pattern; sample composition needs particular attention |
 
-[The PAM50 development study](https://pmc.ncbi.nlm.nih.gov/articles/PMC2667820/) and [a direct clinical-marker comparison](https://pubmed.ncbi.nlm.nih.gov/23035882/) support this distinction between expression classes and receptor categories.
+These are relative expression patterns, not treatment guarantees. A particular clinical assay need not report every research category. Its preprocessing, allowed outputs and intended use belong to the assay, rather than to the label alone.
 
 ```mermaid
-flowchart LR
-    A["Breast-tumor specimen"] --> B["Clinical receptor tests"]
-    A --> C["RNA expression profiling"]
-    B --> D["Receptor category such as TNBC"]
-    C --> E["Specified classifier and reference patterns"]
-    E --> F["Intrinsic expression subtype"]
-    D --> G["Keep both descriptions and their methods"]
-    F --> G
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+    A["Named tissue sample"] --> B["RNA expression pattern"]
+    B --> C["Specified classifier<br/>and references"]
+    C --> D["Expression subtype"]
+    D --> E["Keep receptor results<br/>alongside it"]
 ```
 
-Clinical assays and research implementations differ in preprocessing, permitted outputs and intended use. A particular assay need not report every research category; check its permitted outputs and intended use. A subtype label is also different from a **risk-of-recurrence score**, which may combine expression features and clinical inputs under a separate validated model.
+The map follows classification. It does not convert RNA into a protein test, establish a cell's ancestry or show a treatment effect.
 
 ## Why it matters in cancer
 
-Intrinsic subtypes help researchers organize biologically different tumors that share a clinical receptor category. They can support defined prognostic applications when the assay, population and intended use have been validated. A research label alone does not establish treatment eligibility or benefit.
+Expression subtypes help researchers distinguish tumors that share a clinical receptor category. Defined assays can support prognostic applications in validated populations. A research subtype alone does not establish treatment eligibility or benefit.
 
-The names can mislead. HER2-enriched does not automatically mean HER2-positive pathology; basal-like does not automatically mean [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). “Luminal” describes an expression program rather than proving a tumor's exact cell of origin. A normal-like label does not mean the tissue is benign: normal cells in a bulk specimen can influence the measured pattern, a concern raised by the PAM50 investigators.
+HER2-enriched does not automatically mean HER2-positive pathology, and basal-like does not automatically mean [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). “Luminal” describes an expression program rather than proving the tumor's exact cell of origin. A normal-like label does not establish benign tissue. Experiments using paired tumor and adjacent normal tissue showed that changing the normal-tissue contribution could alter expression classifications; this is a sample-composition concern, not proof that every normal-like result has the same cause.
 
-## Worked example
-
-A fictional tumor is ER negative, PR negative and HER2 negative on validated tissue tests. A separate, quality-controlled RNA analysis classifies it as HER2-enriched. These results can coexist. The RNA label does not create HER2 amplification or replace the tissue tests. The next interpretation depends on the classifier, specimen composition and clinical question.
-
-## Common confusions
-
-- A receptor-based “luminal-like” surrogate is not the same measurement as a PAM50 intrinsic subtype.
-- “Molecular subtype” is a broad phrase; [Lehmann TNBCtype-4](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes) is a different framework from PAM50.
-- A subtype is a pattern across genes, not necessarily a single actionable mutation or pathway dependency.
-- Basal-like does not prove that the cancer began in a mature basal cell.
+A subtype is also different from a **risk-of-recurrence score**. A risk model may combine expression features and clinical inputs under its own validated rules. Its population, endpoint and time horizon must travel with the score.
 
 ## How it is measured
 
-Record the tissue sample, tumor content, platform, classifier version, preprocessing and allowed output labels. [Bulk RNA measurements](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) mix transcripts from malignant cells and their neighbors. A label from one platform should not be treated as interchangeable with every expression label produced elsewhere.
+| Observation | What to retain |
+| --- | --- |
+| Measures and method | An RNA expression pattern compared with a specified classifier's references |
+| Input and tissue use | Named tissue, tumor content and RNA extraction; testing consumes sample material |
+| Output and units | A category and any assay-defined scores; a subtype is not a percentage of tumor cells |
+| Quality and limits | RNA quality, mixture of cells, platform and preprocessing can affect assignment; failed qualification is not a subtype |
+| Validation context | Classifier/version, permitted labels and intended population; research and clinical implementations differ |
+
+[Bulk RNA](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) mixes transcripts from malignant cells and their neighbors. Preserve specimen identity rather than assuming that every transcript came from cancer cells.
+
+## Worked example
+
+A fictional tumor is ER negative, PR negative and HER2 negative on validated tissue tests. A separate, quality-controlled RNA analysis calls it HER2-enriched. These descriptions can coexist: the RNA label does not create gene amplification or replace the tissue tests.
+
+## Try it
+
+Does the RNA label establish HER2-directed treatment eligibility? Does “normal-like” prove a sample is benign?
+
+**Answer:** No to both. Eligibility needs treatment-specific clinical evidence and testing. A normal-like pattern requires attention to the classifier and sample composition; it is not a diagnosis of benign tissue.
+
+## Common confusions
+
+- A receptor-based “luminal-like” surrogate is not a PAM50 measurement.
+- [Lehmann TNBCtype-4](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes) is a different expression framework.
+- A subtype is not a single actionable mutation or proof of pathway dependence.
+- Basal-like does not prove origin in a mature basal cell.
 
 ## Explain it back
 
-Why should a receptor category and an intrinsic subtype stay as two descriptions? They measure different features with different methods, and their overlap is substantial but incomplete.
+Explain why a receptor category, an intrinsic subtype and a recurrence score should retain separate names and methods.
+
+## Takeaway
+
+Read the expression pattern through its specified classifier, and keep its scope beside the clinical receptor results.
 
 ## Related concepts
 
 - [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc)
 - [HER2](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2)
-- [Bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq)
 
 ## Sources and scope
 
-General education; fictional example. Source-checked October 9, 2026. Expert and learner review remain pending. The subtype list describes the classic research framework, not every clinical assay's output or indication.
+General education; fictional example. Source-checked October 10, 2026. Expert and learner review remain pending. No universal assay preprocessing or treatment indication is supplied here.
 
-- [Perou et al., Molecular portraits of human breast tumours (2000)](https://www.nature.com/articles/35021093): original expression-based subtype framework.
-- [Parker et al., Supervised risk predictor of breast cancer based on intrinsic subtypes (2009)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2667820/): PAM50 development, subtype versus risk models and normal-like sample-composition concerns.
-- [Bastien et al., PAM50 subtyping and concordance with standard clinical molecular markers (2012)](https://pubmed.ncbi.nlm.nih.gov/23035882/): luminal proliferation patterns and incomplete correspondence with receptor results.
+- [Perou et al. (2000)](https://pubmed.ncbi.nlm.nih.gov/10963602/): original expression-pattern framework.
+- [Parker et al. (2009)](https://pubmed.ncbi.nlm.nih.gov/19204204/): 50-gene development and separate subtype/risk models.
+- [Bastien et al. (2012)](https://pubmed.ncbi.nlm.nih.gov/23035882/): expression patterns and incomplete receptor concordance.
+- [Elloumi et al. (2011)](https://pubmed.ncbi.nlm.nih.gov/21718502/): paired-tissue contamination experiments and classification bias.
+- [FDA, K130010 decision summary (2013)](https://www.accessdata.fda.gov/cdrh_docs/reviews/K130010.pdf): a dated example of implementation-specific outputs and intended use.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

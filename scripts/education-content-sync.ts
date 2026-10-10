@@ -160,6 +160,26 @@ function verifyLocal(root: string) {
   }
   return { receipt, actual };
 }
+export function associatedArtworkPrompts(activePaths: string[], sourcePaths: string[]): string[] {
+  const available = new Set(sourcePaths);
+  const prompts = new Set<string>();
+  for (const p of activePaths.filter(p => /\.(png|jpe?g|webp|avif|svg)$/i.test(p))) {
+    if (!validPath(p)) throw Error("Unsafe artwork path: " + p);
+    const filename = path.posix.basename(p, path.posix.extname(p));
+    const base = filename.replace(/-(light|dark)$/, "");
+    const names = [base, filename];
+    if (base !== filename) names.push(filename + "-call");
+    for (const name of names) {
+      const candidate = path.posix.join(path.posix.dirname(p), "prompts", name + ".txt");
+      if (available.has("obsidian/" + candidate)) prompts.add(candidate);
+    }
+  }
+  return [...prompts].sort();
+}
+export function assertArtworkPrompt(bytes: Buffer, p: string) {
+  if (bytes.subarray(0, 80).toString().startsWith("version https://git-lfs.github.com/spec/v1")) throw Error("Unhydrated LFS artwork prompt: " + p);
+  if (/<redact\b|^\s*:::redact\b/im.test(bytes.toString())) throw Error("Redacted artwork prompt: " + p);
+}
 function exportSnapshot(root: string, source: string, ref: string, staging: string) {
   const repo = git(source, "rev-parse", "--show-toplevel").toString().trim();
   if (fs.realpathSync(repo) === fs.realpathSync(root)) throw Error("Source and destination must be different repositories");
@@ -175,23 +195,14 @@ function exportSnapshot(root: string, source: string, ref: string, staging: stri
   }
   execFileSync("bun", [path.join(root, ".renderer/apps/oncoguide/scripts/copy-content.ts"), repo, staging, commit], { stdio: ["ignore", "pipe", "pipe"], maxBuffer: 16 * 1024 * 1024 });
   const receipt = validateReceipt(JSON.parse(fs.readFileSync(path.join(staging,"provenance.json"),"utf8")));
-  // Preserve saved prompts for the active artwork; do not import all historical media.
-  const prompts = new Set<string>();
-  const available = new Set(sourcePaths);
-  for (const p of Object.keys(receipt.files).filter(p => /\.(png|jpe?g|webp|avif|svg)$/i.test(p))) {
-    const extension = path.posix.extname(p), filename = path.posix.basename(p, extension);
-    const base = filename.replace(/-(light|dark)$/, "");
-    for (const name of [base,filename]) {
-      const candidate = path.posix.join(path.posix.dirname(p),"prompts",name + ".txt");
-      if (available.has("obsidian/" + candidate)) prompts.add(candidate);
-    }
-  }
+  // Preserve saved prompts and exact theme invocations for the active artwork.
+  const prompts = associatedArtworkPrompts(Object.keys(receipt.files), sourcePaths);
   for (const p of [...prompts].sort()) {
     const bytes = git(repo, "show", commit + ":obsidian/" + p);
-    if (/<redact\b|^\s*:::redact\b/im.test(bytes.toString())) throw Error("Redacted artwork prompt: " + p);
+    assertArtworkPrompt(bytes, p);
     const target = path.join(staging,p);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,bytes);receipt.files[p]=hash(bytes);
   }
-  return { receipt, renderer, prompts: prompts.size };
+  return { receipt, renderer, prompts: prompts.length };
 }
 function atomicWrite(target: string, bytes: Buffer | string) {
   fs.mkdirSync(path.dirname(target), { recursive: true });

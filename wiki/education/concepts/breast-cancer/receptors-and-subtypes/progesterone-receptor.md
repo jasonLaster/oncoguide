@@ -8,13 +8,13 @@ aliases: ["PR", "PgR", "progesterone receptor", "PR positive", "PR negative"]
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]"]
+used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
 ---
 
 # Progesterone receptor (PR)
@@ -25,54 +25,72 @@ The progesterone receptor (PR) is a protein inside cells that responds to proges
 
 ## The intuition
 
-The two hormone-receptor results on a breast-cancer report are like two separate entries in a description of the cell's signaling machinery. They often appear together, but one entry cannot stand in for the other. Progesterone is the hormone; its receptor is the protein that can receive that signal.
+The two hormone-receptor results on a breast-cancer report are like separate entries in a description of the cell's signaling machinery. They often appear together, but one entry cannot stand in for the other. Progesterone is the hormone; PR is the protein that can receive its signal.
 
-A PR stain examines tissue. It is not a blood progesterone test, and “PR positive” does not mean the laboratory has measured a hormone level.
+The analogy has a limit: a receptor entry does not show every interaction within the cell. A PR stain also examines tissue, rather than measuring progesterone in the blood.
 
 ## How it works
 
-Progesterone can bind its receptor inside a cell and influence gene activity. In breast cancer, PR is interpreted alongside [estrogen receptor (ER)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor), which has a central role in identifying potential benefit from endocrine therapy. Endocrine therapy means cancer treatment that interferes with hormone production or action. [NCI describes the receptor mechanism](https://www.cancer.gov/types/breast/treatment/hormone-therapy).
+Progesterone can bind its receptor inside a cell and influence gene activity. In breast cancer, PR is interpreted alongside [estrogen receptor (ER)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor). ER has a central role in identifying potential benefit from **endocrine therapy**, cancer treatment that interferes with hormone production or action.
 
-PR and ER have different clinical jobs. The American Society of Clinical Oncology and College of American Pathologists (ASCO/CAP) describe PR testing as used **primarily for prognosis in ER-positive invasive breast cancer**. Prognosis concerns likely disease outcomes; prediction of treatment benefit asks whether a particular treatment changes those outcomes. A PR percentage is not a direct forecast of either one. [The testing guideline](https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/) makes this distinction.
+PR and ER have different clinical jobs. The American Society of Clinical Oncology and College of American Pathologists (ASCO/CAP) describe PR testing as used **primarily for prognosis in ER-positive invasive breast cancer**. Prognosis concerns disease outcomes; prediction of treatment benefit asks whether a treatment changes those outcomes. A PR percentage is not a direct forecast of either.
 
-The laboratory uses [immunohistochemistry (IHC)](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry), an antibody stain that preserves tissue location. The pathologist identifies tumor cells and assesses staining in their nuclei, the compartments holding genetic material. Under ASCO/CAP recommendations, **at least 1%** positive tumor-cell nuclei is PR positive; **less than 1%** is negative. The **ER-low positive** reporting category is specific to ER, not a shared category for both receptors. [The recommendation summary](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf) gives these rules.
+The laboratory uses [immunohistochemistry (IHC)](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry), an antibody stain that retains tissue location. The pathologist identifies the tumor-cell nuclei, the compartments holding genetic material, and assesses their staining. **At least 1%** positive tumor-cell nuclei is PR positive; **less than 1%** is negative. The **ER-low positive** reporting category is specific to ER, rather than a shared category for both receptors.
 
 ```mermaid
-flowchart LR
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
     A["Tumor tissue"] --> B["PR nuclear stain"]
-    B --> C["Percentage, intensity and controls"]
+    B --> C["Percentage,<br/>intensity, controls"]
     C --> D["PR interpretation"]
-    E["Separate ER test"] --> F["Read the hormone-receptor profile together"]
-    D --> F
-    F --> G["Consider clinical setting and other findings"]
+    D --> E["Read beside<br/>the separate ER result"]
 ```
 
-The arrows combine information, not hormone levels. Each assay keeps its own identity.
+The arrows follow a tissue result through interpretation. They do not measure hormone levels or show that a PR result controls the ER result.
 
 ## Why it matters in cancer
 
-PR adds context to the hormone-receptor profile. **Hormone receptor positive** generally means ER positive, PR positive or both, but preserving the individual results helps a reader understand what was actually found.
+PR adds context to the hormone-receptor profile. **Hormone receptor positive** generally means ER positive, PR positive or both, but preserving the individual results tells the reader what was actually found.
 
-An ER-positive cancer can be PR negative. That combination does not automatically make the cancer hormone receptor negative or [triple negative](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). Unusual combinations, such as an ER-negative/PR-positive report, deserve careful assessment of test quality and the overall pathology rather than a treatment rule invented from one label.
-
-## Worked example
-
-In a fictional report, ER is positive in 80% of tumor-cell nuclei and PR is below 1%. A learner says, “One hormone receptor is negative, so hormone therapy cannot be relevant.” The missing step is the ER result: this is an ER-positive, PR-negative profile. The two measurements can coexist. The report does not tell us by itself which treatment to choose or how much benefit to expect.
-
-## Common confusions
-
-- A PR stain measures receptor protein, not progesterone in the blood.
-- A negative PR result does not cancel a positive ER result.
-- A positive PR result is not a prescription for giving progesterone.
-- The percent staining and staining intensity are different features; neither is a percent chance of recurrence.
+An ER-positive cancer can be PR negative. That combination does not automatically make the cancer hormone receptor negative or [triple negative](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). Unusual combinations, such as ER-negative/PR-positive findings, need attention to test quality and overall pathology rather than an invented treatment rule.
 
 ## How it is measured
 
-Read the specimen, percentage of positive tumor-cell nuclei, intensity, final interpretation and control comments. An inadequate sample or failed controls can prevent a reliable interpretation. Keep invasive cancer and any in situ component distinct if their results are separately reported.
+| Observation | What to keep beside the result |
+| --- | --- |
+| Measures and method | Receptor protein in tumor-cell nuclei, assessed by validated IHC |
+| Input and tissue use | A section from an identified specimen/block; staining uses section material |
+| Output and units | Percent positive tumor-cell nuclei, intensity and final PR interpretation |
+| Rules and controls | At least 1% positive; less than 1% negative; assay controls and concordance with morphology |
+| Failure and limits | Poor preservation or inadequate controls can prevent interpretation; the stain is not a hormone level or personal risk estimate |
+| Validation context | Interpret invasive cancer and any separately tested in situ component in their own contexts |
+
+A percentage, an intensity description and a composite IHC score should retain their names and units. They are not interchangeable numbers.
+
+## Worked example
+
+A fictional report has ER positive in 80% of tumor-cell nuclei and PR below 1%, with adequate controls. A learner says, “One hormone receptor is negative, so endocrine therapy cannot be relevant.” That loses the positive ER finding. This is an ER-positive, PR-negative profile; the report alone does not choose a treatment or quantify benefit.
+
+## Try it
+
+What should a short summary preserve from that report? Does PR negativity cancel ER positivity?
+
+**Answer:** Preserve both results: “ER positive, PR negative.” They describe different proteins. A negative PR result does not cancel a positive ER result.
+
+## Common confusions
+
+- PR protein staining is not a blood progesterone measurement.
+- PR positivity is not a prescription for giving progesterone.
+- ER-low reporting does not automatically create a “PR-low” category.
+- Percent staining is not a percent chance of recurrence or treatment benefit.
 
 ## Explain it back
 
-Why should “ER positive, PR negative” stay as two results? Because they describe different proteins and carry different information. Collapsing them into “hormone negative” loses the positive ER finding.
+Explain why combining “ER positive, PR negative” into “hormone negative” changes the meaning of the report.
+
+## Takeaway
+
+Keep ER and PR as separate observations before interpreting their shared hormone-receptor profile.
 
 ## Related concepts
 
@@ -82,14 +100,15 @@ Why should “ER positive, PR negative” stay as two results? Because they desc
 
 ## Sources and scope
 
-General education about invasive breast cancer; fictional example. Source-checked October 9, 2026. Expert and learner review remain pending.
+General education about invasive breast cancer; fictional example. Source-checked October 10, 2026. Expert and learner review remain pending.
 
-- [ASCO/CAP, ER and PR testing guideline update (2020), summary of recommendations](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf): separate receptor results, nuclear-staining thresholds and ER-specific low-positive reporting.
-- [CAP, active ER/PR testing guideline and explanatory questions](https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/): PR's primarily prognostic role in ER-positive invasive cancer and interpretation of unusual results.
+- [ASCO/CAP, ER and PR testing recommendations (2020)](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf): separate nuclear-staining results and ER-specific low-positive reporting.
+- [CAP, active ER/PR guideline and explanatory questions](https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/): PR's primarily prognostic role in ER-positive invasive cancer.
 - [NCI, hormone therapy for breast cancer](https://www.cancer.gov/types/breast/treatment/hormone-therapy): hormone receptors and endocrine-treatment mechanisms.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
+- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
 <!-- END GENERATED USED IN -->
