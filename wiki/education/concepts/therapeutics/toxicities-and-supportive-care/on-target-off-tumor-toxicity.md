@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anato
 used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,6 +35,10 @@ This differs from off-target cross-reactivity, where the receptor recognizes an 
 
 Developers assess target distribution and function in relevant healthy cells, using complementary methods. A stained tissue section is useful evidence but does not fully reproduce the living tissue's accessibility and treatment response. Animal models may not express the human target in the same places.
 
+A historical [human epidermal growth factor receptor 2 (HER2, also called ERBB2)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2)-directed CAR-T case in metastatic colon cancer ended in fatal respiratory toxicity. The authors proposed recognition of low ERBB2 expression on lung cells as a mechanism; a single case cannot establish class-wide incidence or prove every causal step. [Morgan et al.](https://pubmed.ncbi.nlm.nih.gov/20179677/).
+
+Contrast **off-target cross-reactivity** in an affinity-enhanced [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) study in myeloma and melanoma. The intended MAGE-A3 peptide was not detected in heart tissue, while functional testing identified recognition of an unrelated titin peptide. That is an unintended molecular target, not simply the intended target in the wrong tissue. [Linette et al.](https://pubmed.ncbi.nlm.nih.gov/23770775/).
+
 ## Why it matters in cancer
 
 Solid-tumor target selection asks two connected questions: does the tumor offer enough accessible target, and do important healthy tissues offer it too? A highly expressed tumor target can still have an unacceptable safety profile. A poorly expressed healthy-tissue target can still matter if the receptor responds at low density.
@@ -43,9 +47,11 @@ Affinity tuning, recognition logic and control switches may help particular desi
 
 ## Worked example
 
-A fictional surface protein is abundant on a tumor and also present on normal airway cells. The tumor stain supports availability; it cannot settle safe recognition. Controlled healthy-cell testing and evidence about tissue accessibility are needed before a therapeutic claim can be assessed.
+A fictional receptor kills X-positive tumor cells. In a separate test it also kills normal airway cells carrying the same X. Another normal-cell population lacks X but is still killed; investigators find binding to a different protein, Y.
 
-Compare a second fictional target with no signal in one normal-tissue assay. Ask whether the relevant organs, preparation methods and sensitivity were covered. An undetected signal is a result under named conditions, not proof of absence everywhere.
+**Try it:** Which observation is on-target, off-tumor, and which is off-target? Has a low tumor/normal staining ratio settled safety?
+
+**Answer:** Recognition of X on airway cells is on-target, off-tumor. Recognition of unintended Y is off-target. Neither is resolved by a staining ratio alone. Accessible protein, receptor response, exposure and functional tissue injury need their own measurements. A negative result in one normal-tissue panel does not prove absence everywhere.
 
 ## Common confusions
 
@@ -56,7 +62,22 @@ Compare a second fictional target with no signal in one normal-tissue assay. Ask
 
 ## How it is measured
 
-Read the target distribution, tissue panel, receptor cross-reactivity studies and controlled functional tests. Clinical reports then add the actual organ effects, severity, timing and outcomes. No single “high expression” cutoff serves as a universal safety threshold.
+| Test | Readout and limit |
+|---|---|
+| Target distribution | Staining intensity, positive-cell fraction or calibrated molecules/cell; retain tissue, assay and sensitivity |
+| Binding specificity | Recognition of intended and unintended molecular features; binding is not injury |
+| Healthy-cell function | Percent killing or released cytokine at a named time; viable-cell tests consume the sample |
+| Clinical observation | Organ injury, severity, timing and outcomes in the actual population and regimen |
+
+No single “high expression” cutoff serves as a universal safety threshold. Fixed tissue may conceal or expose features differently from a living organ, and a model may lack the relevant human target. Use complementary tests rather than treating one negative result as a safety certificate.
+
+## Explain it back
+
+“Accurate recognition can still harm ___ because ___.” One answer: “healthy tissue; it also displays the intended target.”
+
+## Takeaway
+
+**Molecular specificity and healthy-tissue safety answer different questions.**
 
 ## Related concepts
 
@@ -65,10 +86,10 @@ Read the target distribution, tissue panel, receptor cross-reactivity studies an
 
 ## Sources and scope
 
-Source check: October 9, 2026. This page explains a method or mechanism. Expert and learner review remain pending.
+Source check: October 10, 2026. This page explains a method or mechanism. Expert and learner review remain pending.
 
 - [Primary ERBB2 CAR T-cell case report](https://pubmed.ncbi.nlm.nih.gov/20179677/) — a specific serious event, not an incidence estimate for all CAR therapies.
-- [Primary claudin18.2 CAR study in preclinical models](https://www.nature.com/articles/s41467-025-61858-z).
+- [Linette et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23770775/) — unintended titin-peptide recognition in an affinity-enhanced TCR study, illustrating the distinct off-target mechanism.
 - [FDA CAR T-cell preclinical and clinical-development guidance](https://www.fda.gov/media/156896/download).
 
 <!-- BEGIN GENERATED USED IN -->

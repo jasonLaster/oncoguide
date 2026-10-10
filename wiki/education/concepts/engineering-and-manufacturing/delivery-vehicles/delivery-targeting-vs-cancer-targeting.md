@@ -7,11 +7,11 @@ summary: "Delivery targeting determines which cells receive an intervention, whi
 aliases: ["delivery targeting", "cancer targeting", "two targeting jobs"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,64 +25,95 @@ Delivery targeting determines which cells receive an intervention, while cancer 
 
 ## The intuition
 
-A package can be addressed to a T cell and contain instructions for recognizing a different cell. The delivery address and the recognition address perform different jobs. This distinction is especially useful for in vivo cell engineering, where a carrier's binding molecule and the engineered receptor can target completely different proteins.
+Imagine delivering a tool to its operator, then asking what job the operator can do. Those are two addresses. In cell engineering, a carrier may favor T cells while its payload encodes a receptor for a different antigen. The analogy stops at delivery: a cell must use the instructions, reach a target and respond appropriately.
 
-**Before you start:** [Lipid nanoparticles](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) explain one carrier; [chimeric antigen receptor (CAR) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) explains the protein an engineered cell may make.
+**Before you start:** [Lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) introduce one carrier; [CAR anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) explains a chimeric antigen receptor.
 
 ## How it works
 
-A delivery system may favor a cell type by recognizing one of its surface molecules. Successful delivery also requires useful cargo release and expression. The carrier's targeting feature is not necessarily the therapeutic receptor's binding part.
-
-After engineering, a CAR T cell recognizes an antigen through the newly expressed CAR. That antigen may be on cancer cells and also on normal tissue. The delivery marker says which cells are meant to become therapeutic cells; the CAR antigen says which cells those therapeutic cells can recognize.
+A carrier can use a cell-binding feature directed at marker **A** on a T cell. Its cargo can encode a CAR directed at antigen **B** on another cell. A and B need not be the same molecule.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A[Carrier binds delivery marker A] --> B[T cell receives instructions]
-  B --> C[T cell expresses receptor for antigen B]
-  C --> D[Tumor cell expressing B]
-  C --> E[Normal cell expressing B]
+  A["Carrier addresses<br/>cell marker A"] --> B["Recipient uses<br/>the instructions"]
+  B --> C["CAR recognizes<br/>antigen B"]
+  C --> D["Tumor cell<br/>with B"]
+  C --> E["Healthy cell<br/>with B"]
 ```
 
-*The two addresses are fictional. The normal-cell branch is part of the recognition question.*
+*Delivery selectivity does not establish exclusive tumor recognition or killing.*
 
-In a vaccine, the desired delivery recipient can be an antigen-presenting cell. That cell makes or acquires antigen and helps prime T cells. The primed T cells then need to recognize relevant fragments on tumor cells. Delivery to an immune cell is not a failure merely because the carrier did not enter the tumor.
+[Targeted LNPs](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps) must distribute, enter cells and release usable cargo. Detectable binding or particle uptake may occur without useful expression. Likewise, a CAR that binds B may fail to activate or kill. Binding, expression, signaling and target-cell effects need distinct tests.
+
+The delivery address can also be an antigen-presenting cell in a vaccine. That cell makes antigen for immune priming; the eventual immune response must recognize the relevant display on tumor cells. Vaccine-carrier targeting is not necessarily direct tumor delivery.
 
 ## Why it matters in cancer
 
-Claims about “tumor-targeted” treatments can refer to different stages. Ask whether a study measured where the carrier went, which cells expressed the payload, what the resulting receptor recognized or which tumors responded. Each is useful evidence, but none can silently replace the next.
+There are at least three separate targeting questions:
 
-Delivery to unintended cells is different from [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity), where the therapeutic receptor recognizes its intended antigen on healthy tissue. Both can matter in the same product. A cancer-associated antigen is not necessarily cancer-exclusive.
+| Question | Measurement needed | Remaining boundary |
+| --- | --- | --- |
+| Which cells receive usable cargo? | Expression in identified recipient populations, including unintended ones | Tissue-level signal can mix many cell types |
+| What does the resulting receptor recognize? | Binding and activation with the relevant antigen and controls | Cancer-associated antigens can also occur in healthy tissue |
+| Where do engineered cells act? | Location and function in relevant tumor and healthy compartments | Blood expression does not establish tumor entry or killing |
 
-## Try it
+Selective engineering does not remove [on-target, off-tumor risk](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity): the receptor may recognize its intended antigen on a healthy cell. Conversely, finding little unintended-cell expression in a sampled experiment does not establish its absence everywhere.
 
-A fictional carrier binds marker A on T cells. Its RNA encodes a CAR recognizing antigen B. B is present on tumor cells and a healthy epithelial population. A report says that selective T-cell delivery solves all targeting risks.
+## How it is measured
 
-**Answer:** It addresses only the delivery job. The resulting CAR still needs evidence about B expression, recognition thresholds, tumor-cell activity and healthy-tissue effects. Selective engineering cannot make B cancer-exclusive.
+**Measurement card — two targeting jobs**
+
+- **Input and consumption:** Defined carrier or cell-product samples; identified cell populations and relevant target/healthy-cell controls. Sorting and functional tests use finite cells; tissue sampling has limits.
+- **How and output:** [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) can report receptor-positive fractions within live, identified subsets. Functional assays report activation or target-cell death under stated conditions, with matched antigen-positive and antigen-negative controls.
+- **Thresholds and failures:** Cell identification, background controls, sampling time and antigen measurement must be defined. A percentage among all expressing cells differs from a percentage of all T cells that express the receptor.
+- **Limits and validation:** No universal expression percentage certifies safe targeting. Cell-culture function and animal distribution support their tested conditions; neither alone establishes human antitumor benefit.
+
+## Worked example
+
+A fictional carrier addresses A and encodes a CAR for B. In a sampled preparation, 60 of 200 live T cells express the receptor; 5 of 100 live non-T cells do too. These are 30% and 5% within their respective sampled populations. Report both rather than calling delivery exclusive.
+
+A controlled culture test then finds activity against B-positive tumor cells and B-positive healthy cells, with little activity against matched B-negative controls. This supports B-dependent activity in that experiment and exposes a safety concern. It does not prove selective cancer killing or forecast patient benefit.
 
 ## Common confusions
 
-- **Targeted carrier versus tumor-homing cell:** Engineering a T cell does not prove it reaches tumor tissue.
-- **Binding versus useful delivery:** Surface contact can occur without payload expression.
-- **Antigen recognition versus benefit:** Killing cells in an assay does not establish clinical tumor control.
-- **Two targets versus two required tumor antigens:** The delivery marker can be on the immune cell, not on the cancer.
+- **Carrier binding equals useful cargo release:** Several steps intervene.
+- **T-cell delivery equals T-cell tumor homing:** Engineering and movement are different jobs.
+- **Cancer target equals cancer-only antigen:** Healthy-cell expression needs assessment.
+
+## Try it
+
+A fictional summary says, “The carrier selectively engineers T cells, so the B-directed CAR cannot damage healthy tissue.” What measurement is missing?
+
+**Answer:** The resulting receptor's recognition and function against relevant healthy tissues, alongside tumor cells. Delivery specificity cannot settle whether healthy cells display B or are affected by the engineered cells.
+
+## Explain it back
+
+“A is the ___ address; B is the ___ address.” One answer: “carrier's cell-entry; resulting receptor's recognition.”
+
+## Takeaway
+
+**A delivery result answers who receives instructions; receptor and functional tests answer what the resulting cells can do.**
 
 ## Related concepts
 
-- [Targeted LNPs](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps) explore the first address.
-- [Antigen processing](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) connects vaccine expression with display.
-- [Ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) separates delivery workflows.
+- [Functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays)
+- [Ex vivo and in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering)
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. The practice example is fictional. The primary studies demonstrate different delivery and therapeutic targets in defined settings.
+Source check: October 10, 2026; expert and learner review pending. Named experiments show particular delivery and recognition designs, not universal targeting or clinical efficacy.
 
-- [Rurik et al., 2022: CD5-directed RNA delivery and a FAP-directed CAR in a mouse cardiac-injury model](https://pubmed.ncbi.nlm.nih.gov/34990237/) — not a cancer trial.
-- [Hunter et al., 2025: targeted delivery for immune-cell engineering in human-cell experiments and animal models](https://pubmed.ncbi.nlm.nih.gov/40536974/).
-- [Kranz et al., 2016: RNA delivery to dendritic cells for cancer immunotherapy](https://pubmed.ncbi.nlm.nih.gov/27281205/).
+- [Rurik et al., 2022](https://pubmed.ncbi.nlm.nih.gov/34990237/) — CD5-directed delivery and FAP-directed recognition in a mouse cardiac-injury model.
+- [Hunter et al., 2025](https://pubmed.ncbi.nlm.nih.gov/40536974/) — targeted T-cell RNA engineering in human-cell experiments and animals.
+- [Kranz et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27281205/) — vaccine RNA delivery to antigen-presenting cells in defined experiments.
+- [FDA, January 2024: CAR T-cell product development](https://www.fda.gov/media/156896/download) — antigen-dependent function and healthy-cell recognition assessment for ex vivo CAR products.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
+- [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 <!-- END GENERATED USED IN -->

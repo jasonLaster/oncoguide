@@ -69,7 +69,9 @@ The tumor has become much smaller, but 20 target-negative cells remain. Making t
 
 Now keep target X unchanged and change the neighborhood. A tumor-only culture supports killing, while a tissue model containing additional cells shows less activity. That difference opens a context question. It does not identify one macrophage state, vessel defect or suppressive pathway as the cause. Check the preserved cell populations and the experiment's controls before choosing a mechanism to test.
 
-**What might address the target-coverage gap?** A second recognition target, carefully tested [logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars), or a demonstrated broader immune response might help. Each introduces its own design and safety questions.
+**What might address the target-coverage gap?** A second recognition target, a tested [logic rule](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars), or a demonstrated broader immune response might help. Ask which rule is proposed before expecting broader coverage.
+
+Continue the **fictional** model: of the 100 cancer cells, 20 display both X and Y, 60 only X, 10 only Y, and 10 neither. An idealized **OR rule**, recognizing X or Y, would cover 90 cells. An idealized **AND rule**, requiring both, would cover 20. These are candidate coverage counts, not measured killing. Neither calculation includes normal tissue, access, signal strength or cell state. Requiring two targets can narrow coverage; it does not automatically make a design safe. [3]
 
 ## Match the tool to the problem
 
@@ -103,13 +105,15 @@ The indication name is not a molecular target. Even [triple-negative breast canc
 
 ## Sources and scope
 
-Source check: October 10, 2026; expert and learner review pending. The numerical example is deliberately fictional. These lessons do not infer eligibility for a particular treatment.
+Source check: October 10, 2026; expert and learner review pending. Both numerical target-coverage examples are deliberately fictional. These lessons do not infer eligibility for a particular treatment.
 
 Tissue-ecosystem links, the controlled neighborhood comparison, checkpoint-marker limits and baseline-versus-inducible display distinctions added October 10, 2026. Linked concepts hold the mechanism sources and their measurement limits. [NCI's tumor biology and microenvironment portfolio](https://www.cancer.gov/about-nci/organization/dcb/research-portfolio/tbmr) describes these interacting tissue questions.
 
 1. [NCI: CAR T cells, including barriers in solid tumors](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7). Preclinical evidence for locally controlled cytokine expression; not in vivo generation of the CAR-T cells.
 3. [FDA: CAR T-cell product development considerations](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
+
+The recognition-rule extension was checked October 10 against FDA sections V.A and V.D: target recognition and added control elements need product-specific testing. The numerical rules are invented teaching models, not a clinical performance comparison.
 
 4. [Perales et al., 2026: ASTCT immune-effector toxicity consensus](https://pubmed.ncbi.nlm.nih.gov/42711241/) — separate clinical toxicity categories, rather than a universal product safety profile.
 

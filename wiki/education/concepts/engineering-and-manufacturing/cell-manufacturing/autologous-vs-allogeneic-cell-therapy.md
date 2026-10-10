@@ -7,7 +7,7 @@ glossary_anchor: "autologous-vs-allogeneic-cell-therapy"
 aliases: ["autologous","allogeneic","autologous cell therapy","allogeneic cell therapy"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
 updated: "2026-10-09"
@@ -98,6 +98,7 @@ Source check: October 9, 2026; expert and learner review pending. These are sour
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

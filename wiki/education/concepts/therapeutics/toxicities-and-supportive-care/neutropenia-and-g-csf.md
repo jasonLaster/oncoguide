@@ -7,7 +7,7 @@ glossary_anchor: "neutropenia-and-g-csf"
 aliases: ["neutropenia", "absolute neutrophil count", "ANC", "G-CSF", "granulocyte colony-stimulating factor"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/therapeutics/chemotherapy/chemotherapy]]", "[[wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity]]"]
-used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
+used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-09"
@@ -92,5 +92,6 @@ Source-checked October 9, 2026; expert and learner review pending. This is suppo
 ## Used in
 
 - [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
+- [Read the safety plan for engineered cells](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 <!-- END GENERATED USED IN -->

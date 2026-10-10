@@ -7,11 +7,11 @@ glossary_anchor: "safety-switches"
 aliases: ["safety switch", "kill switch", "inducible caspase-9", "iCasp9"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,7 +31,7 @@ Turning down a machine and removing it are different actions. The distinction is
 
 An **activity switch** changes what cells can do. A drug-gated [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) may require a supplied molecule to assemble or activate its signaling machinery. Removing that input can reduce the controlled pathway as the drug clears. [Primary drug-gated receptor experiments](https://pubmed.ncbi.nlm.nih.gov/26405231/) demonstrated control in defined preclinical systems. They do not establish instantaneous removal of the cells.
 
-A **cell-elimination switch** aims to remove engineered cells. **Inducible caspase-9** links a drug-responsive component to a protein involved in apoptosis, a regulated cell-death process. A dimerizing drug brings components together and triggers the death pathway in cells expressing the switch.
+A **cell-elimination switch** aims to remove engineered cells. **Inducible caspase-9** links a drug-responsive component to a protein involved in [apoptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family), a regulated cell-death process. A dimerizing drug brings components together and triggers the death pathway in cells expressing the switch.
 
 The [original clinical switch study](https://pubmed.ncbi.nlm.nih.gov/22047558/) tested genetically modified donor T cells after stem-cell transplantation. It demonstrated rapid reduction of those cells and control of graft-versus-host disease in that setting. This was not a trial proving reversal of every form of CAR-T toxicity. The disease, cells, trigger and measured harms matter.
 
@@ -41,12 +41,9 @@ Every switch needs evidence for baseline leakage, speed, completeness and remain
 
 ```mermaid
 flowchart TD
-  A["Control input"] --> B["Activity switch: reduce a pathway"]
-  A --> C["Elimination switch: remove expressing cells"]
-  B --> D["Measure residual cells and other activity"]
-  C --> E["Measure completeness and surviving cells"]
-  D --> F["Measure remaining inflammation and injury"]
-  E --> F
+  A["Name the control"] --> B["Activity reduction<br/>or cell removal"]
+  B --> C["Measure residual<br/>cells and function"]
+  C --> D["Assess regrowth<br/>and remaining injury"]
 ```
 
 *Signal reduction, cell removal and reversal of injury are three different outcomes.*
@@ -57,13 +54,25 @@ A [cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-the
 
 Safety evaluation should test the switch within the finished product. The added sequence can itself change cell behavior or manufacturing. A diagram of an off position is not enough.
 
+## Read the control experiment
+
+| Measure | What to record |
+|---|---|
+| Trigger | Exact molecule, concentration and exposure time; an available trigger is part of the system |
+| Input | Viable cells carrying the finished construct, with expressing and nonexpressing controls |
+| Activity | Separate receptor signal, cytokine secretion, division and target-cell killing |
+| Elimination | Absolute viable engineered-cell counts before and after triggering, plus the remaining fraction |
+| Limits | Sampled blood or culture is not every tissue; surviving cells and previously released signals can matter |
+
+Drug concentration may be reported in nanomoles/L or mass/volume, while elimination uses cell counts or percent remaining at a named time. Thresholds are construct- and assay-specific. These functional tests consume cells; a [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) result confirming the switch sequence does not show that the switch works.
+
 ## Worked example and practice
 
-A fictional drug controls a growth receptor on engineered cells. Withholding the drug lowers growth signaling, while the tumor-recognition receptor remains functional.
+A fictional drug controls a growth receptor. After withdrawal, its signaling readout falls to one-fifth of its earlier value. Of 100 viable engineered cells at the start, 80 remain viable at the next measurement, and those survivors still kill targets in a separate assay.
 
-**Try it:** Is this a demonstrated cell-elimination switch?
+**Try it:** Which claim is supported: reduced signaling, complete cell elimination or reversal of injury?
 
-**Answer:** No. Measure cell survival and residual recognition separately. The experiment has changed one pathway; it has not shown that cells disappear or that previous inflammatory effects resolve.
+**Answer:** Reduced signaling in that assay. Eighty viable cells remain; the separate killing result confirms residual function under its conditions. Neither measurement establishes what happens in every tissue or whether earlier inflammation and organ injury resolve. A small signal is not a small number of cells.
 
 ## Common confusions
 
@@ -76,6 +85,10 @@ A fictional drug controls a growth receptor on engineered cells. Withholding the
 
 “This switch controls ___, and its remaining limit is ___.” One answer: “one receptor signal; the cells and downstream effects may persist.”
 
+## Takeaway
+
+**Specify what the switch controls, then measure its speed, completeness and remaining effects.**
+
 ## Related concepts
 
 - [Cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug)
@@ -83,7 +96,7 @@ A fictional drug controls a growth receptor on engineered cells. Withholding the
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
+Source check: October 10, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
 
 - [Di Stasi et al., 2011](https://pubmed.ncbi.nlm.nih.gov/22047558/) — inducible caspase-9 in donor T cells after stem-cell transplantation.
 - [Wu et al., 2015](https://pubmed.ncbi.nlm.nih.gov/26405231/) — drug-gated CAR signaling in preclinical experiments.
@@ -93,6 +106,7 @@ Source check: October 9, 2026; expert and learner review pending. This is founda
 ## Used in
 
 - [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
+- [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
 - [Read the safety plan for engineered cells](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan)

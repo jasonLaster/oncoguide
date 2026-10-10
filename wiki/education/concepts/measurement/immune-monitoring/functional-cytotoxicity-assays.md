@@ -7,7 +7,7 @@ aliases: [functional cytotoxicity assays, cytotoxicity assay, killing assay, tar
 glossary_anchor: "functional-cytotoxicity-assays"
 level: advanced
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 sensitive: false
 tags: [education, measurement]
 updated: "2026-10-09"
@@ -94,6 +94,8 @@ Source-checked October 9, 2026. Laboratory function and a fictional interpretati
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison)
+- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
 - [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)

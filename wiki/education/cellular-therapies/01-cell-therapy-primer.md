@@ -4,7 +4,7 @@ type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
 updated: 2026-10-10
-source_checked: "2026-10-09"
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,6 +31,12 @@ A [cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-the
 
 A cell integrates recognition, activation, inhibition and its environment. Calling this “decision-making” is an analogy for biological signaling, not intention. More cells are not automatically more effective or safer.
 
+## Count the same thing before interpreting a change
+
+In a fictional blood test, 20% of 100 viable T cells per microliter carry the receptor. A later test finds 10% of 200. Calculate **0.20 × 100 = 20** and **0.10 × 200 = 20 receptor-positive cells per microliter**. The percentage fell, but the estimated absolute concentration did not.
+
+This example assumes comparable samples, viability gates and counting methods. A blood concentration still cannot tell you the total number across all tissues. Sequence copies, viable cells, receptor-positive cells and functional cells also have different denominators. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) explains the measurement; the [living-drug concept](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug) separates persistence from function.
+
 ## Name the starting cell family
 
 A [natural killer (NK) cell](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self) and a [natural killer T (NKT) cell](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells) use different native recognition systems. An NKT cell is a T-cell population, rather than an NK cell renamed after engineering. The starting cell's biology and an added receptor are separate inputs to the finished product. Neither a family name nor an engineered receptor establishes useful activity or safety.
@@ -44,7 +50,7 @@ A [natural killer (NK) cell](/wiki/education/concepts/immunology/innate-and-unco
 | What is administered? | Manufactured cells or a genetic delivery product | The intervention whose dose and quality must be defined |
 | What recognizes the target? | Selected native receptors or engineered receptors | A recognition strategy that still needs validation |
 
-An off-the-shelf carrier may engineer the patient’s own cells. A donor-derived cell product can be prepared in advance. Those are different meanings of an immediately available product.
+[Autologous versus allogeneic source](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy) and [ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) remain separate. An off-the-shelf carrier may engineer the patient’s own cells. A donor-derived cell product can be prepared in advance. Those are different meanings of an immediately available product.
 
 ## A worked example
 
@@ -70,6 +76,10 @@ A vial is off the shelf and creates engineered cells inside the patient. Must th
 
 **Answer:** No. Availability describes the vial. The cells can still be the patient’s own cells.
 
+**Another check:** If the receptor-positive percentage rises, which measurement would help distinguish a larger sampled cell concentration from a changed mixture?
+
+**Answer:** A comparable absolute viable-cell count with the same parent population and volume. It still would not prove tumor entry, useful function or clinical benefit.
+
 ## Explain it back
 
 “Source tells me ___; engineering location tells me ___.” One answer: “whose cells; where genetic changes are introduced.”
@@ -82,9 +92,9 @@ A vial is off the shelf and creates engineered cells inside the patient. Must th
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. This explains product categories without recommending a treatment.
+Source check: October 10, 2026; expert and learner review pending. This explains product categories without recommending a treatment.
 
-The NK/NKT recognition link was added October 10, 2026; the linked NKT concept supplies its scoped biology sources.
+The linked NK/NKT and measurement concepts supply their scoped biology and assay sources. The arithmetic examples are fictional and are not dosing calculations.
 
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
 - [Primary targeted mRNA cell-engineering experiments](https://pubmed.ncbi.nlm.nih.gov/40536974/).

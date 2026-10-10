@@ -7,11 +7,11 @@ summary: "An AAV vector is an engineered adeno-associated virus particle that de
 aliases: ["AAV", "rAAV", "adeno-associated viral vector", "adeno-associated virus vector"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]"]
+used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,64 +25,84 @@ An AAV vector is an engineered adeno-associated virus particle that delivers a D
 
 ## The intuition
 
-An AAV vector is a protein package carrying a DNA instruction cassette. The package helps determine which cells it can enter; the instructions determine what those cells may make. The parcel analogy does not tell you how long the instructions remain, whether immune defenses reject the package or whether the expressed product is safe.
+Picture a small package carrying a set of instructions. The **capsid**, its protein shell, influences which cells the package can enter. The payload determines what those cells might make. A package's address is not its payload's job, and the analogy cannot predict expression duration or immune reactions.
 
-**Before you start:** [DNA → RNA → protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains the expression path; [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) provide a comparison with a commonly integrating design.
+**Before you start:** [DNA → RNA → protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains transcription and translation; [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) provide a contrasting delivery design. AAV is distinct from adenovirus.
 
 ## How it works
 
-**AAV** means adeno-associated virus. It is a different virus from adenovirus. A recombinant AAV (**rAAV**) vector replaces much of the viral genetic content with a designed DNA cassette. A **capsid** is the surrounding protein shell. An **expression cassette** contains the instructions and regulatory features needed to produce the intended product.
-
-Capsid design, the route of administration and the recipient's biology affect **tropism**, the tendency to enter particular cells or tissues. Entry alone is insufficient: vector-derived DNA must reach the nucleus and become usable for transcription. The cell then makes RNA and, for a protein-encoding cassette, translates it into protein.
+Recombinant AAV, abbreviated **rAAV**, replaces viral coding material with a designed cassette and regulatory sequences. Capsid design, route and cell biology influence entry and subsequent steps. The DNA must reach the nucleus and become a usable transcription template. RNA production and translation then make protein.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A[AAV capsid with DNA cassette] --> B[Cell entry and nuclear delivery]
-  B --> C[Usable vector-derived DNA]
-  C --> D[Often persists as episomal DNA]
-  D --> E[RNA transcription and protein expression]
-  C -. Possible integration .-> F[Chromosomal DNA]
+  A["AAV carries DNA"] --> B["Cell entry<br/>and nuclear delivery"]
+  B --> C["Usable vector DNA"]
+  C --> D["Often outside<br/>chromosomes"]
+  C --> E["Integration<br/>is possible"]
+  D --> F["Measure RNA,<br/>protein and function"]
+  E --> F
 ```
 
-*An episome is DNA outside the chromosomes. “Often episomal” is not “never integrates.”*
+*Vector DNA, its physical form and its expressed product are separate measurements.*
 
-Primary human-muscle studies found persistent, transcriptionally active episomal vector genomes. That finding cannot be transferred unchanged to rapidly dividing cells. Episomal DNA can be lost or diluted as cells divide, and persistence also depends on the vector and tissue. Low-frequency integration is possible; the label AAV does not establish zero genetic risk.
+An **episome** is DNA outside the chromosomes. A study of sampled human muscle found persistent circular vector genomes and tested the expression competence of recovered sequences. This supports that tissue and construct; it is not a guarantee for every cell type. Episomal genomes can be diluted during cell division. Mouse liver-regeneration experiments also showed that extrachromosomal expression and genome persistence differ from a chromosomally integrated control.
+
+“Often episomal” does not mean “never integrates.” Nor does persistent DNA ensure an intact cassette, adequate protein or a surviving functional cell. Capsid-directed immunity can also affect delivery or persistence; a human liver-directed study showed expression loss alongside evidence consistent with an immune response against transduced cells. The response and repeat-administration questions belong to the particular product and setting.
 
 ## Why it matters in cancer
 
-AAV can be considered as a gene-delivery tool, but a demonstration in muscle or liver does not prove selective engineering of T cells or control of cancer. Long expression may be useful for one purpose and undesirable for another. A cassette has finite packaging space, so a large multi-component design requires its own feasibility assessment.
+An AAV carrier can be part of a cell-engineering or genome-editing workflow. Its name alone does not establish direct T-cell targeting inside a patient. For an editing design, the lasting genomic change can come from the editor rather than long-term persistence of the carrier DNA.
 
-Pre-existing or newly formed immunity to the capsid can affect delivery and repeat administration. The consequences of systemic exposure and the expressed product also need assessment. Persistence outside chromosomes does not make a product automatically safe or easily reversible.
+Packaging capacity is limited, so a complex multi-component design cannot simply assume that all its sequences fit or are delivered together. Whether intended and unintended cells receive an intact, functional construct requires direct testing. AAV's usual genetic behavior does not supply a universal safety advantage over another carrier.
 
-## Try it
+## How it is measured
 
-A fictional team observes protein expression months after AAV delivery into nondividing muscle cells. It describes the same cassette as guaranteed to persist through rapid T-cell expansion. What is missing?
+**Measurement card — AAV DNA and expression**
 
-**Answer:** Evidence in the relevant dividing cells. Persistence, expression, integration and immune effects need to be measured for that design and setting. Muscle expression is not a T-cell delivery validation.
+- **Input and consumption:** Vector-lot aliquots; sampled cells or tissue at defined times. Tissue extraction consumes material and represents a limited region.
+- **How and output:** Nucleic-acid assays report vector-genome copies per volume or sample denominator. Sequence and DNA-form analyses examine cassette integrity, episomes or integration; RNA and protein assays test expression in identified cells.
+- **Thresholds and failures:** Acceptance criteria are construct- and assay-specific. Counting one short sequence does not prove an intact functional genome. Cell mixtures and sampling time can distort apparent persistence.
+- **Limits and validation:** Copy counts alone cannot determine chromosomal location or antitumor function. Human muscle or mouse liver results cannot validate a T-cell application. Clinical safety and benefit require the relevant product and population.
 
 ## Common confusions
 
-- **AAV versus adenovirus:** Similar names, different vectors.
-- **DNA payload versus mRNA payload:** AAV expression usually requires nuclear DNA and transcription before translation.
-- **Episomal versus harmless:** Genetic location answers one question, not the entire safety question.
-- **Persistent DNA versus useful expression:** Retained genomes can exist without adequate protein production.
+- **Nonintegrating category means zero integration:** It describes usual behavior, not an absolute exclusion.
+- **Persistent expression means expression survives every division:** Tissue turnover and genome maintenance matter.
+- **Capsid targeting means cancer targeting:** The encoded receptor or editor has a separate task.
+
+## Try it
+
+A fictional proposal takes long-lived expression in human muscle as proof that an AAV-delivered [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) will stay expressed through rapid T-cell expansion. Is the evidence sufficient?
+
+**Answer:** No. The cell type, division history, cassette and delivery differ. Measure genome form and receptor expression over time in the intended T cells, alongside their function; do not assign the muscle result to them.
+
+## Explain it back
+
+“Episomal tells me where DNA is relative to ___, not whether ___.” One answer: “chromosomes; a therapeutic effect has occurred.”
+
+## Takeaway
+
+**Assess AAV entry, DNA fate, expression and function in the intended cells instead of treating episomal persistence as a complete product result.**
 
 ## Related concepts
 
-- [Delivery targeting versus cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting).
-- [Transposons](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon) deliberately support genomic insertion in engineered systems.
+- [Delivery and cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting)
+- [Insertional mutagenesis](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/insertional-mutagenesis)
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. Mechanism and risk questions do not constitute a recommendation for an AAV cancer product.
+Source check: October 10, 2026; expert and learner review pending. These primary studies concern muscle or liver biology, not demonstrated human solid-tumor CAR-T efficacy.
 
-- [Schnepp et al., 2016: long-lived episomal vector genomes in human muscle](https://pubmed.ncbi.nlm.nih.gov/26650966/).
-- [Hagedorn et al., 2017: experimental episomal-maintenance strategies in proliferating cells](https://doi.org/10.1089/hum.2017.025).
-- [Manno et al., 2006: human liver gene transfer and limitations from capsid-directed immunity](https://pubmed.ncbi.nlm.nih.gov/16474400/).
-- [FDA, 2020: risk-based long-term follow-up after human gene therapy](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/long-term-follow-after-administration-human-gene-therapy-products).
+- [Schnepp et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5374867/) — vector forms and recovered-cassette expression in a human muscle study.
+- [Nakai et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11435577/) — extrachromosomal genomes and expression after mouse liver regeneration.
+- [Manno et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16474400/) — human liver-directed expression and capsid-immune limitations.
+- [Wu et al., 2010](https://pubmed.ncbi.nlm.nih.gov/19904234/) — construct size, packaged-genome integrity and expression in specified vectors.
+- [FDA, January 2020: long-term follow-up](https://www.fda.gov/media/113768/download) — risk-based, product-specific assessment.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

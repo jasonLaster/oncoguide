@@ -7,7 +7,7 @@ glossary_anchor: antigen-and-epitope
 aliases: [antigen, epitope, antigenic determinant]
 level: foundation
 prerequisites: []
-used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
@@ -90,6 +90,7 @@ Source-checked October 10, 2026. The example is fictional. This page focuses on 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
 - [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 - [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)

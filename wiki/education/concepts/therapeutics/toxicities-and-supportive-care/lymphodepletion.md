@@ -7,11 +7,11 @@ glossary_anchor: "lymphodepletion"
 aliases: ["lymphodepletion", "lymphodepleting chemotherapy", "conditioning"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]", "[[wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ Lymphodepletion reduces existing lymphocytes before some cell therapies to chang
 
 ## How it works
 
-**Lymphocytes** include T cells, B cells and natural killer cells. Lymphodepletion reduces some of these populations. Many cell-therapy protocols use chemotherapy, with the actual agents, intensity and timing set by the protocol. The term describes a preparatory aim, not one universal drug regimen.
+[**Lymphocytes**](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster) include T cells, B cells and natural killer cells. Lymphodepletion reduces some of these populations. Many cell-therapy protocols use chemotherapy, with the actual agents, intensity and timing set by the protocol. The term describes a preparatory aim, not one universal drug regimen.
 
 Existing immune cells can consume homeostatic [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine): signals that help maintain immune-cell populations. Reducing those cells can increase availability of signals such as interleukin-7 and interleukin-15. [Primary mouse experiments](https://pubmed.ncbi.nlm.nih.gov/16203864/) supported this cytokine-competition mechanism and showed that greater useful function need not simply reflect higher cell numbers.
 
@@ -37,16 +37,13 @@ Preparatory treatment can also reduce regulatory or suppressive populations. For
 
 Lymphodepleting chemotherapy may affect cancer directly as well. When a study tests a regimen of conditioning, transferred cells and cytokine support, the observed response belongs to that package. A cell contribution needs appropriate evidence rather than assuming that all tumor change came from the infusion.
 
-The same treatment can injure normal blood-cell production and raise infection risk. **Cytopenia** means a low blood-cell count; effects can involve more than lymphocytes. **Nonmyeloablative** means the regimen is not intended to completely eliminate marrow blood production; it can still suppress counts substantially. Prior therapy, the conditioning regimen, the cell treatment and the underlying disease can each contribute. Reporting should identify timing, severity, recovery and relevant supportive care.
+The same treatment can injure normal blood-cell production and raise infection risk. [Neutropenia](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf), a low neutrophil count, is distinct from a low lymphocyte count. **Cytopenia** means a low blood-cell count; effects can involve more than lymphocytes. **Nonmyeloablative** means the regimen is not intended to completely eliminate marrow blood production; it can still suppress counts substantially. Prior therapy, the conditioning regimen, the cell treatment and the underlying disease can each contribute. Reporting should identify timing, severity, recovery and relevant supportive care.
 
 ```mermaid
 flowchart TD
-  A["Specified preparatory regimen"] --> B["Fewer existing immune cells"]
-  B --> C["Changed competition, regulation or rejection"]
-  C --> D["Therapeutic-cell environment changes"]
-  A --> E["Blood-cell injury and infection risk"]
-  D --> F["Measure benefit and harms of the whole regimen"]
-  E --> F
+  A["Specify preparation"] --> B["Measure the changed<br/>immune environment"]
+  B --> C["Measure blood-cell<br/>and organ harms"]
+  C --> D["Evaluate the<br/>whole regimen"]
 ```
 
 *Changing the environment can help a cell therapy while adding treatment-related harm.*
@@ -57,13 +54,27 @@ Cell-therapy outcomes cannot be interpreted from the infused cells alone. Condit
 
 Lymphodepletion does not supply a missing tumor antigen or ensure entry into a solid tumor. Nor does the cell-therapy category determine whether conditioning is needed. That decision belongs to a defined clinical protocol and treating team.
 
+## Read the preparation and the measurements together
+
+The advanced-melanoma trial by [Rohaan et al.](https://pubmed.ncbi.nlm.nih.gov/36477031/) tested tumor-infiltrating lymphocyte transfer after cyclophosphamide/fludarabine preparation and followed by interleukin-2. Its outcomes belong to that treatment strategy. The authors reported substantial chemotherapy-related marrow suppression. This is one defined regimen, not a template for every engineered-cell product.
+
+| Field | What the report should retain |
+|---|---|
+| Input and cost | Serial blood samples; counts do not consume tumor tissue |
+| Units | Absolute lymphocytes and neutrophils per microliter, with sampling time and laboratory range |
+| Cell-product readout | Engineered-cell number, location and function measured separately |
+| Harms | Severity and duration of low counts, infection and relevant organ injury; attribution to the whole regimen |
+| Limits | A percentage of white cells is not an absolute count; more depletion is not automatically more benefit |
+
+The appropriate preparation and recovery thresholds belong to the named protocol and clinical team. This page supplies no dose, timing or self-treatment rule.
+
 ## Worked example and practice
 
-A fictional study reports low white-cell counts after preparatory chemotherapy and engineered-cell infusion. The authors show that the engineered cells expand in blood.
+Fictional blood results: before preparation, there are 2,000 white cells per microliter and 20% are lymphocytes. Later there are 500 white cells per microliter and 40% are lymphocytes.
 
-**Try it:** Do these observations prove that the low counts came from the cells or that more conditioning would improve treatment?
+**Try it:** Have the lymphocytes increased? Does either result measure cancer killing?
 
-**Answer:** No. Trace timing and the regimen's known effects, and assess competing causes. Expansion is a separate readout from tumor benefit and overall harm. A stronger preparatory regimen requires its own comparison.
+**Answer:** Their proportion has increased, but their absolute count has fallen: 400 per microliter before, 200 after. Neither result measures cancer killing. Timing and competing causes are needed to interpret low counts, while tumor activity and the benefit–harm tradeoff need separate evidence.
 
 ## Common confusions
 
@@ -76,6 +87,10 @@ A fictional study reports low white-cell counts after preparatory chemotherapy a
 
 “The intended preparation changes ___, at the cost of ___.” One answer: “immune competition and regulation; loss of useful cells and protocol-specific toxicity.”
 
+## Takeaway
+
+**Lymphodepletion changes the treatment environment while adding risks; judge the complete regimen, not the infused cells alone.**
+
 ## Related concepts
 
 - [Immune cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
@@ -84,7 +99,7 @@ A fictional study reports low white-cell counts after preparatory chemotherapy a
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
+Source check: October 10, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
 
 - [Gattinoni et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16203864/) — cytokine-sink mechanism in mouse adoptive-transfer experiments.
 - [Rohaan et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36477031/) — conditioning, tumor-infiltrating lymphocyte (TIL) transfer and cytokine support in a specified advanced-melanoma regimen.
@@ -94,6 +109,7 @@ Source check: October 9, 2026; expert and learner review pending. This is founda
 ## Used in
 
 - [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
+- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
 - [Read the safety plan for engineered cells](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

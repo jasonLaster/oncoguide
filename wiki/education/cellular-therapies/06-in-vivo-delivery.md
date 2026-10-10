@@ -8,8 +8,8 @@ objectives: ["Identify the administered product and the cells being engineered."
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting]]", "[[wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy]]"]
 sensitive: false
 tags: ["education", "CAR-T", "in-vivo", "lentivirus", "mRNA", "LNP"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ After [building an engineered T cell](/wiki/education/cellular-therapies/05-engi
 
 <img src="./images/where-cells-are-engineered-light.png" alt="Two routes: cells engineered in a laboratory and infused, or instructions delivered to engineer cells inside the body" data-theme-pair>
 
-*What is administered differs from the cells that ultimately perform the work.*
+*What is administered differs from the cells that ultimately perform the work. The cartoon separates two targeting jobs; it does not show exclusive delivery, cancer-only antigen expression or a proven treatment effect. Cell compartments are schematic: the depicted DNA/nuclear route is one example. [Messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) is translated in the cytoplasm, while DNA expression cassettes require nuclear delivery; the inset does not depict every carrier mechanism.*
 
 View full-size: [light illustration](./images/where-cells-are-engineered-light.png) · [dark illustration](./images/where-cells-are-engineered-dark.png).
 
@@ -62,7 +62,7 @@ A process revision also raises [manufacturing comparability](/wiki/education/con
 
 The carrier's binding feature can address a T cell, while the resulting CAR recognizes a different antigen on another cell. This is [delivery targeting versus cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting). Successful delivery does not prove tumor recognition, and selective engineering does not make a cancer-associated antigen absent from healthy tissue.
 
-A **carrier** transports material. The **payload** is that material. **Expression** means a recipient cell uses the instructions to make a product. Viral gene delivery is commonly called **transduction**. **Integration** is insertion into chromosomal DNA; it is a different property from cell targeting.
+A **carrier** transports material. The **payload** is that material. **Expression** means a recipient cell uses the instructions to make a product. Viral gene delivery is commonly called **transduction**. **Integration** is insertion into chromosomal [DNA](/wiki/education/concepts/biology-basics/molecules/dna); it is a different property from cell targeting.
 
 ## Compare the instruction paths
 
@@ -73,7 +73,7 @@ A **carrier** transports material. The **payload** is that material. **Expressio
 | [AAV (adeno-associated virus) vector](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector) | DNA must reach the nucleus and become usable for transcription | Often episomal, outside chromosomes; persistence depends on tissue and division, and possible integration still requires assessment |
 | [Engineered DNA transposon](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon) | A cassette and transposase require a separate delivery method before genomic insertion | Insertion can support persistence through cell division; assess sites, copy number and cell behavior |
 
-The table compares mechanisms. It does not mean all four are equally validated for direct T-cell engineering inside patients. A transposon is an insertion system, not a self-sufficient delivery carrier. RNA encoding a genome editor could also produce lasting DNA changes; temporary RNA alone does not guarantee a temporary intervention.
+The table compares mechanisms. It does not mean all four are equally validated for direct T-cell engineering inside patients. A lentiviral design can be integrating or integration-deficient; “self-inactivating” does not by itself mean nonintegrating. Each product needs its actual design identified. A transposon is an insertion system, not a self-sufficient delivery carrier. RNA encoding a genome editor could also produce lasting DNA changes; temporary RNA alone does not guarantee a temporary intervention.
 
 An administration route cannot be read from a carrier's name. The product's route affects distribution. Likewise, [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) vaccine delivery to antigen-presenting cells does not establish LNP delivery to T cells. Reuse evidence only at the step it actually tested.
 
@@ -93,16 +93,31 @@ A fictional vial has a measured amount of RNA and a cell-binding feature. The nu
 
 ```mermaid
 flowchart TD
-  A[Administered delivery product] --> B[Distribution and cell contact]
-  B --> C[Entry and usable cargo release]
-  C --> D[Expression in identified cell populations]
-  D --> E[Cell expansion survival and movement]
-  E --> F[Recognition and effects in tumor and normal tissue]
+  A["Administered carrier"] --> B["Distribution<br/>and cell contact"]
+  B --> C["Entry and usable<br/>cargo release"]
+  C --> D["Expression in<br/>identified cells"]
+  D --> E["Cell survival,<br/>expansion and movement"]
+  E --> F["Recognition and effects<br/>in tumor and healthy tissue"]
 ```
 
 *Measure the relevant cell populations at each gate.*
 
 A fluorescent particle signal in an organ is not proof of useful receptor expression in T cells. If a design adds a second receptor, **co-expression** asks whether the relevant cells make both components, rather than one being detected somewhere in the body.
+
+## Read the measurement chain
+
+**Assay card — the cells produced after administration**
+
+- **Input and consumption:** A carrier-lot aliquot tests the administered product. Blood or tissue collected at specified times samples the cells produced later. These samples represent limited populations and consume material.
+- **How and output:** [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) identifies live cell subsets and receptor expression, reported as a fraction with a stated denominator. Nucleic-acid tests report sequences or copy numbers; controlled [cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) measure effects on target cells.
+- **Thresholds and failures:** Product-specific methods and acceptance criteria matter. Fluorescent material can be present without expression. Mixed populations, incomplete recovery and a single sampling time can hide distribution or duration.
+- **Limits and validation:** Neither a copy count nor receptor positivity measures all required biological tasks. Laboratory controls and animal evidence support their models; clinical safety and benefit require the relevant human product and setting. FDA's cited CAR guidance concerns ex vivo products and supplies testing principles, not a validated in vivo-carrier specification.
+
+### A controlled fictional comparison
+
+At 48 hours, a fictional experiment finds receptor expression in 60 of 200 sampled live T cells and 5 of 100 live non-T cells. That is **30% of T cells and 5% of non-T cells**, not exclusive T-cell delivery. Among the 65 expressing cells in this sample, about **92% are T cells**. Both descriptions are mathematically correct, but answer different questions.
+
+Next compare otherwise matched receptor-bearing and control T cells against antigen-positive and antigen-negative targets under stated conditions. Include relevant antigen-positive healthy cells. Preferential killing of antigen-positive targets supports antigen-dependent function in the assay; healthy-cell killing identifies a concern. Neither result establishes whole-body distribution, tumor access or clinical benefit.
 
 ## What can go wrong at this step
 
@@ -136,7 +151,7 @@ One fictional answer: “an RNA particle; a defined T-cell subset; antigen B; re
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. Examples describe their tested models and workflows. They do not validate every carrier for in vivo CAR-T or establish universal targeting, safety or solid-tumor benefit.
+Source check: October 10, 2026; expert and learner review pending. Examples describe their tested models and workflows. They do not validate every carrier for in vivo CAR-T or establish universal targeting, safety or solid-tumor benefit.
 
 - [Rurik et al., Science, 2022: CAR T cells generated in a mouse cardiac-injury model](https://pubmed.ncbi.nlm.nih.gov/34990237/).
 - [Hunter et al., Science, 2025: targeted RNA engineering in human-cell experiments and animal models](https://pubmed.ncbi.nlm.nih.gov/40536974/).
@@ -144,3 +159,4 @@ Source check: October 9, 2026; expert and learner review pending. Examples descr
 - [Schnepp et al., 2016: episomal AAV vector genomes in human muscle](https://pubmed.ncbi.nlm.nih.gov/26650966/).
 - [Tuerxunyiming et al., Scientific Reports, 2026: a targeted lentiviral vector tested in a lymphoma mouse model](https://www.nature.com/articles/s41598-025-17342-1).
 - [FDA, 2020: risk-based long-term follow-up after gene therapy](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/long-term-follow-after-administration-human-gene-therapy-products).
+- [FDA, January 2024: CAR T-cell product development](https://www.fda.gov/media/156896/download) — product-specific functional testing and sampling principles for ex vivo products.

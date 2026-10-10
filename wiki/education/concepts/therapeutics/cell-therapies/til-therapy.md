@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"
 used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -37,15 +37,15 @@ Conventional alpha-beta T cells recognize peptide plus [human leukocyte antigen 
 
 In many protocols, [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion) precedes infusion and cytokine support follows it. Those treatments have their own biological effects and risks. The regimen, manufacturing method and disease setting belong beside any efficacy claim. The [randomized advanced-melanoma study](https://pubmed.ncbi.nlm.nih.gov/36477031/) evaluated a complete treatment package, not expanded cells in isolation.
 
-Transferred cells must still reach relevant lesions and remain functional. Tumor entry before collection does not guarantee entry after transfer, and culture expansion does not prove durable activity. [Primary human-tumor studies](https://pubmed.ncbi.nlm.nih.gov/29769722/) also show that infiltrating T cells can recognize viral antigens unrelated to the cancer.
+Transferred cells must still reach relevant lesions and remain functional. [Expansion](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion) changes both cell number and the mixture of clones; culture yield and useful recognition are different endpoints. Tumor entry before collection does not guarantee entry after transfer, and culture expansion does not prove durable activity. [Primary human-tumor studies](https://pubmed.ncbi.nlm.nih.gov/29769722/) also show that infiltrating T cells can recognize viral antigens unrelated to the cancer.
 
 ```mermaid
 flowchart TD
-  A["Tumor tissue contains mixed lymphocytes"] --> B["Recover and culture cells"]
-  B --> C["Selection and expansion vary by protocol"]
-  C --> D["Characterize final cell population"]
-  D --> E["Transfer with specified treatment regimen"]
-  E --> F["Measure tumor recognition, function and patient outcomes"]
+  A["Mixed lymphocytes<br/>in tumor tissue"] --> B["Recover<br/>and culture"]
+  B --> C["Protocol-specific<br/>selection and expansion"]
+  C --> D["Characterize<br/>finished cells"]
+  D --> E["Specified<br/>treatment regimen"]
+  E --> F["Measure function<br/>and patient outcomes"]
 ```
 
 *Tumor origin, manufacturing success and useful tumor reactivity are distinct claims.*
@@ -55,6 +55,12 @@ flowchart TD
 TIL therapy starts with naturally occurring recognition in the person's tumor. This can offer several recognition routes without selecting one artificial surface receptor. It also depends on obtaining usable tissue, recovering appropriate cells and producing a suitable product.
 
 Clinical evidence from one cancer and protocol cannot establish benefit in another. Feasibility, activity and comparative benefit remain different questions even when the biological idea is attractive.
+
+## How it is measured
+
+A pathology [stromal TIL score](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring) estimates the percentage of tumor stromal area occupied by specified mononuclear inflammatory cells. It does not count the viable cells recovered for manufacture. Product characterization can measure viable-cell yield, identity and receptor repertoire. Functional tests ask which naturally presenting tumor targets the product recognizes, using appropriate HLA, unmodified-effector and target-only controls.
+
+A percentage responding to one test target does not describe every clone or every lesion. Report preparation, target material, readout and conditions. Recognition, target death and clinical outcomes must remain separate.
 
 ## Worked example and practice
 
@@ -75,6 +81,10 @@ A fictional culture contains many cells whose receptors recognize a common virus
 
 “TIL describes ___; useful therapy still requires ___.” One answer: “the cells' tissue origin; suitable recognition, function, manufacturing and clinical evidence.”
 
+## Takeaway
+
+**Tumor origin offers a starting population; manufacture, specificity and clinical usefulness require their own evidence.**
+
 ## Related concepts
 
 - [T cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)
@@ -83,7 +93,7 @@ A fictional culture contains many cells whose receptors recognize a common virus
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
+Source check: October 10, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
 
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy) — basic collection and expansion approach.
 - [Simoni et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29769722/) — bystander T cells in human lung and colorectal tumor infiltrates.

@@ -3,8 +3,8 @@ title: "Compare immune-cell recognition systems"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,7 +33,7 @@ The guide has separated target, delivery, behavior and safety. The family names 
 | [Engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t) | A selected receptor for a peptide–HLA complex | Does the tumor retain the exact presentation requirement? |
 | [Tumor-infiltrating lymphocyte (TIL) therapy](/wiki/education/concepts/therapeutics/cell-therapies/til-therapy) | Expanded cells harvested from tumor, using native receptors | Which cells are tumor-reactive, and can they be expanded usefully? |
 | [CAR natural killer (NK) cells](/wiki/education/concepts/therapeutics/cell-therapies/car-nk) | Engineered recognition plus endogenous NK signals | How do target binding, inhibitory inputs and cell persistence interact? |
-| Gamma-delta T cells, with or without a CAR | Diverse stress, metabolic or nonclassical recognition systems | Which recognition mechanism does the actual product use? |
+| [Gamma-delta T cells, with or without a CAR](/wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells) | Diverse stress, metabolic or nonclassical recognition systems | Which recognition mechanism does the actual product use? |
 
 Conventional alpha-beta TCR approaches depend on their presenting HLA. CAR recognition often avoids that particular requirement. NK and gamma-delta biology cannot be reduced to a single universal “HLA-independent” switch. Natural killer T cells are also a distinct family, rather than another name for NK cells.
 
@@ -44,6 +44,19 @@ Engineered TCR therapy installs selected receptor instructions. Expanding native
 TIL therapy starts with cells collected from tumor tissue. Some manufacturing methods select for measured tumor reactivity; others expand a broader mixture. Not every infiltrating cell recognizes cancer. A high pathology infiltration score also does not establish that a usable infusion product can be manufactured.
 
 CAR-NK adds a recognition receptor to a different effector family. Native activating and inhibitory signals remain. The source, cytokine support and other engineering can change persistence, so “NK cells are short-lived” is not a universal product rule. Favorable findings in one small blood-cancer trial do not establish a family-wide safety ranking.
+
+## Match a proposed mechanism to a test
+
+A fictional lab compares each engineered cell preparation with matched cells lacking the introduced receptor. It also changes one feature on otherwise matched targets. These are experiments about dependency, not therapy rankings:
+
+| Change in the test target | Question it can help answer |
+|---|---|
+| Remove surface antigen X | Does an X-binding CAR route require X? |
+| Remove the HLA allele presenting peptide P | Does the tested conventional TCR route require that display? |
+| Change an NK inhibitory ligand | Does that input alter this NK preparation's measured response? |
+| Block the added CAR on gamma-delta cells | Is a remaining response consistent with a separate native route? |
+
+Confirm that target viability and other relevant features did not change unintentionally. Loss of killing can support a dependency; retained killing does not identify every alternative route. Test activation and [target-cell death](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) separately.
 
 ## A retained allele is different from a shared defect
 
@@ -71,6 +84,10 @@ A cell is harvested from a tumor. Does that prove its receptor recognizes cancer
 
 **Answer:** No. Tumor tissue can contain bystander cells. Specificity, useful function and manufacturing suitability still need evidence.
 
+**Try a second question:** A gamma-delta CAR product still kills one X-negative line. Has that shown escape-proof treatment?
+
+**Answer:** No. It supports activity for that preparation and target under those conditions. Native-route controls, other tumor targets, relevant healthy tissue and clinical evaluation remain necessary.
+
 ## Explain it back
 
 “The family name tells me ___, but suitability still needs ___.” One answer: “a recognition and cell strategy; target, safety, clinical evidence and access assessment.”
@@ -83,7 +100,7 @@ A cell is harvested from a tumor. Does that prove its receptor recognizes cancer
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. This comparison contains no case-specific ranking or approval inventory.
+Source check: October 10, 2026; expert and learner review pending. This comparison contains no case-specific ranking or approval inventory.
 
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy).
 - [FDA CAR T-cell product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).

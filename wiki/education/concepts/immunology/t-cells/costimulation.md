@@ -7,7 +7,7 @@ glossary_anchor: "costimulation"
 aliases: ["costimulation", "co-stimulation", "signal two"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -40,6 +40,7 @@ The [three-signal model of priming](/wiki/education/concepts/immunology/t-cells/
 Costimulation also matters after initial priming. Kamphorst and colleagues found that rescue by programmed cell death protein 1, or PD-1, blockade depended on CD28 in their experimental systems. Their related observations in lung-cancer patients help connect the mechanism to human responses. They do not establish a stand-alone CD28 test that selects treatment for every patient.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
   A["Antigen recognition<br/>+ supporting interactions<br/>+ inhibitory context"] --> B["Integrated<br/>T-cell response"]
   B --> C["Measure activation<br/>and function"]
@@ -94,6 +95,7 @@ Source check: October 10, 2026. Supporting interactions and experimental interpr
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anato
 used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-10-10
+source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,17 +35,17 @@ Some inhibitory NK receptors recognize particular [human leukocyte antigen (HLA)
 
 Cell sources include donor blood, umbilical cord blood and cells derived from induced pluripotent stem cells. These are different starting materials with different manufacturing and quality questions. Donor-derived products face host immune rejection; the absence of a conventional T-cell receptor does not remove every compatibility or contamination risk.
 
-Engineering can add supportive signaling or a cell-elimination switch. Those features may change expansion and persistence, so a short lifespan should not be assigned to every CAR-NK product. [One cord-blood CAR-NK study](https://pubmed.ncbi.nlm.nih.gov/32023374/) combined a CAR with interleukin-15 support and inducible caspase-9. Its observed behavior belongs to that construct and treated population.
+Engineering can add [supportive signaling](/wiki/education/concepts/therapeutics/cell-therapies/armoring) or a [cell-elimination switch](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches). Those features may change expansion and persistence, so a short lifespan should not be assigned to every CAR-NK product. [One cord-blood CAR-NK study](https://pubmed.ncbi.nlm.nih.gov/32023374/) combined a CAR with interleukin-15 support and inducible caspase-9. Its observed behavior belongs to that construct and treated population.
 
 The living cells must reach the tumor, recognize enough cells and function under local inhibition. An endogenous recognition route might complement CAR binding, but that contribution needs measurement. A laboratory result against a target-negative cell cannot by itself establish durable control of mixed solid tumors.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A["CAR binds accessible antigen"] --> D["NK cell integrates inputs"]
-  B["Native activating receptors"] --> D
-  C["Native inhibitory receptors"] --> D
-  E["Cell source, support and environment"] --> D
-  D --> F["Measure killing, persistence and harms"]
+  A["CAR<br/>recognition"] --> C["NK cell integrates<br/>the inputs"]
+  B["Native inputs:<br/>activation<br/>and inhibition"] --> C
+  C --> D["Test in specified<br/>conditions"]
+  D --> E["Measure activity<br/>and harms"]
 ```
 
 *A CAR adds an input to an NK cell; it does not erase the cell's other regulatory machinery.*
@@ -55,6 +55,12 @@ flowchart TD
 CAR-NK therapy explores engineered recognition in a different effector family. That motivates comparisons of manufacture, persistence, tumor access and toxicity. It does not justify ranking all NK products as safer than all T-cell products.
 
 A small blood-cancer study with favorable observations cannot establish that a new construct has no inflammatory or neurologic risk. Nor can it establish efficacy against a solid tumor with different access and target conditions.
+
+## How it is measured
+
+To separate the added CAR from native NK activity, compare engineered and matched unmodified cells against otherwise matched target-positive and target-negative cells. Perturbing the target or a native receptor can help attribute an effect, but changed target viability and other ligand changes need controls. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) can establish identity, viable-cell counts and CAR expression; a [cytotoxicity assay](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) measures target death under stated conditions.
+
+Keep cell source, engineering, culture history, effector-to-target ratio and observation time attached to the result. Cytokine release or granule release is not the same endpoint as completed target killing. Neither proves tumor entry or clinical benefit.
 
 ## Worked example and practice
 
@@ -75,6 +81,10 @@ A fictional tumor loses a presenting HLA allele but retains surface antigen X. A
 
 “CAR-NK names ___ plus ___.” One answer: “an engineered recognition tool; an NK-cell effector with its own regulatory inputs.”
 
+## Takeaway
+
+**Test the added CAR route and the NK cell's native regulation in the same product context.**
+
 ## Related concepts
 
 - [CAR anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy)
@@ -83,7 +93,7 @@ A fictional tumor loses a presenting HLA allele but retains surface antigen X. A
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
+Source check: October 10, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
 
 - [Liu et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32023374/) — one cord-blood construct in relapsed or refractory CD19-positive lymphoid cancers.
 - [Kärre et al., 1986](https://pubmed.ncbi.nlm.nih.gov/3951539/) — missing-self recognition in mouse lymphoma experiments.

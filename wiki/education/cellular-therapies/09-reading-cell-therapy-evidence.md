@@ -8,7 +8,7 @@ minutes: 12
 objectives: ["Match evidence to delivery, function and outcome claims."]
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]"]
 sensitive: false
-source_checked: "2026-10-09"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -58,6 +58,16 @@ Now suppose the treated tumor is 30 instead. That shows shrinkage below its 100 
 
 **Practice interactively:** Open the [CAR-T learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) to change these numbers, explore the components, and answer six questions. The activities run in the reader; an offline ZIP remains available on the lab page.
 
+## Which cells are in the denominator?
+
+**Fictional assay for practice:** Among 1,000 sampled viable cells, 100 are the intended T cells. A validated surface-receptor assay detects the new CAR on 50 of those T cells and 150 other cells.
+
+- **Within intended T cells:** 50/100 = **50%** express the measured receptor.
+- **Within all receptor-positive cells:** 50/(50 + 150) = **25%** are the intended T cells.
+- **Within the entire sample:** 200/1,000 = **20%** are receptor-positive.
+
+All three percentages describe the same sample. None measures killing, proves safe engineering of other cell types, or establishes distribution throughout the body. Keep cell identity, sampling location and time visible. A surface-protein result also cannot substitute for a separate measurement of genetic delivery. Compare [delivery targeting with cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting).
+
 ## Read the patient-response denominator
 
 [Objective response rate (ORR)](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) counts people meeting a stated response definition. Disease control rate (DCR) and clinical benefit rate (CBR) may include defined stable disease; retain their duration, confirmation and denominator rules. Neither is a fraction of cancer cells killed. Response duration, symptoms, survival and harms remain distinct outcomes. Comparing separate products' trial headlines needs the [cross-trial comparison checks](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison).
@@ -75,7 +85,7 @@ Now suppose the treated tumor is 30 instead. That shows shrinkage below its 100 
 
 Read [cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) and [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) as separate clinical outcomes, with their grading version, attribution and observation window visible. An ICE (immune effector cell-associated encephalopathy) score contributes to neurologic assessment; it is not an ICANS diagnosis. Avoiding externally administered cytokines does not eliminate these risks. [ASTCT 2026](https://pubmed.ncbi.nlm.nih.gov/42711241/).
 
-Also separate immune activation from preparatory-treatment and blood-count effects. [Neutropenia and granulocyte colony-stimulating factor (G-CSF)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf) explain count-related supportive care. A low neutrophil count does not establish infection, and a growth-factor medicine is not evidence of tumor killing. Product-specific safety reports need blood-count trends and infection outcomes as well as CRS and ICANS reporting.
+Also separate immune activation from [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion), the preparatory reduction of lymphocytes, and blood-count effects. [Neutropenia and granulocyte colony-stimulating factor (G-CSF)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf) explain count-related supportive care. A low neutrophil count does not establish infection, and a growth-factor medicine is not evidence of tumor killing. Product-specific safety reports need blood-count trends and infection outcomes as well as CRS and ICANS reporting.
 
 A proposed [safety switch](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) also needs direct evidence: how quickly does the intervention reduce activity or remove cells, how completely, and under which conditions? A mechanism included in the construct is a design feature before those measurements are established.
 
@@ -125,7 +135,7 @@ Copy these headings when reading a paper or company presentation:
 
 ## Sources and scope
 
-Source-checked October 9, 2026. The graph exercise uses invented numbers and cannot estimate an individual response. Expert and learner review remain pending.
+Source-checked October 10, 2026 for the added exercise and concept route. Earlier study examples and adverse-event discussion retain their October 9 source scope. The graph exercise uses invented numbers and cannot estimate an individual response. Expert and learner review remain pending. The cell-denominator exercise added October 10 is also fictional; its three ratios use the same assumed validated sample. FDA sections V and VI were checked for separate product, function and safety questions. This is a reading exercise, not a laboratory protocol.
 
 1. [Hunter et al., Science, 2025](https://pubmed.ncbi.nlm.nih.gov/40536974/): example of distinguishing human-cell, mouse, and monkey findings.
 2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7): example of preclinical component and outcome measurements.

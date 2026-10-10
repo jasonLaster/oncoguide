@@ -4,7 +4,7 @@ type: "guide"
 sensitive: false
 tags: ["education", "guide"]
 updated: "2026-10-10"
-source_checked: "2026-10-09"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -21,22 +21,23 @@ audience: "Curious reader; foundational concepts linked at first use"
 
 1. A [cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug) can change number, location and state. The cell, its genetic instructions and its receptor protein are different objects.
 2. A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) usually reads an accessible surface target. A conventional [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) reads peptide plus [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla).
-3. Delivery targeting selects which cells receive instructions. Cancer targeting selects what the resulting receptor recognizes.
+3. [Delivery targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting) selects which cells receive instructions. Cancer targeting selects what the resulting receptor recognizes.
 4. More cells cannot restore a missing target or guarantee access and function.
 5. Safety and benefit need measurements for the complete product, not just a promising component.
 
 ## The map
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A[Living cell and source] --> B[Choose a target with a safety window]
-  B --> C[Build the receptor]
-  C --> D{Where are cells engineered?}
-  D --> E[Outside the body: manufacture cells]
-  D --> F[Inside the body: administer delivery product]
-  E --> G[Measure cell behavior and tumor access]
+  A["Living cell<br/>and source"] --> B["Choose target<br/>and safety window"]
+  B --> C["Build the<br/>receptor"]
+  C --> D{"Where are cells<br/>engineered?"}
+  D --> E["Outside body:<br/>manufacture<br/>cells"]
+  D --> F["Inside body:<br/>administer<br/>delivery product"]
+  E --> G["Measure behavior<br/>and tumor access"]
   F --> G
-  G --> H[Measure toxicity and durable benefit]
+  G --> H["Measure toxicity<br/>and durable benefit"]
 ```
 
 *The numbered lessons supply the links through this map. The engineering route changes the manufactured product, while recognition and safety remain separate questions.*
@@ -61,7 +62,7 @@ Suggested reading budgets help pace the course; they are not measured completion
 
 **Foundations:** [DNA, RNA and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma), [immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster) and [T-cell activation](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals).
 
-**Recognition families:** [engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t), [tumor-infiltrating lymphocyte (TIL) therapy](/wiki/education/concepts/therapeutics/cell-therapies/til-therapy) and [CAR natural killer (NK) cells](/wiki/education/concepts/therapeutics/cell-therapies/car-nk). Each name identifies a strategy, not a clinical ranking.
+**Recognition families:** [engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t), [tumor-infiltrating lymphocyte (TIL) therapy](/wiki/education/concepts/therapeutics/cell-therapies/til-therapy) and [CAR natural killer (NK) cells](/wiki/education/concepts/therapeutics/cell-therapies/car-nk). [Gamma-delta T cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells) have native recognition systems; adding a CAR supplies another defined recognition system. Each name identifies a strategy, not a clinical ranking.
 
 **Design choices:** [single-chain variable fragments (scFvs) and single-domain nanobodies](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies), [armoring](/wiki/education/concepts/therapeutics/cell-therapies/armoring), [logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars) and [safety switches](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches). Their contribution depends on the finished product and intended setting.
 
@@ -71,7 +72,7 @@ Suggested reading budgets help pace the course; they are not measured completion
 
 **Product and context:** [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape), [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) and the receptor concepts above. A mechanism explains a dependency; the trial or clinical owner establishes an option.
 
-**Manufacturing and safety:** [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion), [insertional mutagenesis](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/insertional-mutagenesis), [ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering), [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector), [good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), [cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome), [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) and [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity).
+**Manufacturing and safety:** [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion), [insertional mutagenesis](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/insertional-mutagenesis), [ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering), [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector), [adeno-associated virus (AAV) vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector), [transposons](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon), [good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), [cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome), [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) and [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity).
 
 **Follow the cell product:** [autologous versus allogeneic sources](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy), [leukapheresis](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis), [ex vivo expansion](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion), [identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody), [cryopreservation](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation) and [vein-to-vein time](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time). [Potency assays](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) and [manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) explain the quality questions at release and after a process change. These links support the delivery lesson's worked route.
 
@@ -85,4 +86,4 @@ Delivery, receptor design and target selection interact. Findings in blood cance
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. The lessons cite their primary examples. [FDA product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products) separates product characterization and clinical development questions.
+Source check: October 10, 2026 for the added mechanism routes; expert and learner review pending. Earlier lesson examples retain their stated source scopes. The lessons cite their primary examples. [FDA product-development guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products) separates product characterization and clinical development questions.
