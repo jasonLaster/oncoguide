@@ -10,8 +10,8 @@ used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/ed
 level: "foundation"
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,53 +25,84 @@ A lipid nanoparticle is a formulated lipid carrier that can protect RNA and help
 
 ## The intuition
 
-A delivery package needs the right destination and a way to release its contents. A lipid nanoparticle (LNP) must do more than enter a cell. The RNA needs access to the cytoplasm, where translation occurs. The package analogy does not predict which cells receive it.
+A delivery package needs a destination and a way to release its contents. A **lipid nanoparticle (LNP)** must do more than enter a cell: its [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) must become usable. The parcel analogy cannot predict which cells receive it, how much escapes or whether the resulting protein works.
+
+**Before you start:** [DNA → RNA → protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains expression; [mRNA construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy) explains the message.
 
 ## How it works
 
-RNA-delivery LNPs often combine an ionizable lipid with helper lipids, cholesterol and a polyethylene glycol-linked lipid. Composition and particle properties affect stability, distribution, uptake and inflammatory effects.
+Many RNA-delivery LNPs combine an **ionizable lipid**, whose electrical charge changes with acidity, with helper lipids, cholesterol and a polyethylene glycol-linked lipid. This is a common design, not a universal ingredient list. Lipid identity, proportions, preparation and RNA cargo affect particle structure and behavior. “LNP” alone does not specify a product.
 
-After uptake, RNA can remain trapped in membrane-bound endosomes. Endosomal escape is therefore a separate delivery requirement. Detecting particles in tissue does not establish useful cytoplasmic RNA delivery or protein expression.
-
-The payload, formulation, dose and administration route jointly affect behavior. An intramuscular vaccine formulation cannot simply be assigned the distribution of an intravenous formulation. Targeting a carrier to a T-cell marker is also different from designing the encoded receptor to recognize a cancer antigen.
+Cells often take particles into **endosomes**, membrane-bound uptake compartments within the [cell's organelles](/wiki/education/concepts/biology-basics/cells/organelles-overview). For **messenger RNA (mRNA)**, useful delivery requires access to the **cytosol**, the fluid part of the cytoplasm outside membrane-bound compartments, where accessible ribosomes make protein. Ionizable lipids can become more positively charged in acidic conditions; lipid interactions and membrane changes can help RNA leave a compartment. Escape pathways depend on the formulation and cell. A picture of an endosome bursting is not an established universal mechanism.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A[Carrier administered] --> B[Distribution and cell uptake]
-  B --> C[Endosomal compartment]
-  C --> D[RNA escape into cytoplasm]
-  D --> E[Translation and functional protein]
-  B --> F[Unintended-cell uptake needs assessment]
+  A["Particle exposure"] --> B["Cell uptake"]
+  B --> C["Cytosolic RNA"]
+  C --> D["Protein expression"]
+  D --> E["Function tested"]
 ```
 
-*Cell uptake and useful cytoplasmic delivery are different requirements.*
+*Each step needs evidence. Uptake does not guarantee escape, expression or function; unintended cells also need assessment. Ordinary mRNA is translated in the cytosol and does not require nuclear entry.*
+
+<img src="./images/uptake-is-not-expression-light.png" alt="Three schematic panels separate RNA particle uptake into an endosome, RNA escape into cytosol and possible protein expression" data-theme-pair>
+
+*Uptake, cytosolic RNA release and protein expression are separate checks. The panels show possible steps, not a measured efficiency or guaranteed sequence. Endosomes are already inside the cytoplasm; ordinary mRNA must become accessible outside those membrane-bound compartments for translation and does not require nuclear entry. Protein function, immune effects and clinical benefit need further evidence.*
+
+View full-size: [light illustration](./images/uptake-is-not-expression-light.png) · [dark illustration](./images/uptake-is-not-expression-dark.png).
+
+In Paramasivam et al.'s experiments with six formulations in human adipocytes, fibroblasts and HeLa cells, total uptake did not adequately predict useful delivery. RNA could accumulate in compartments without productive release. The formulation with the brightest uptake signal need not make the most protein.
+
+**Biodistribution** means where administered material goes. Many intravenously administered LNP formulations favor liver delivery, but that is not a law for every composition or route. Di et al. compared routes and particle sizes in mice: some intramuscularly administered particles also reached liver and spleen. Local injection does not establish exclusively local delivery. Neither mouse distribution nor one vaccine formulation supplies another product's human distribution claim.
 
 ## Why it matters in cancer
 
-LNPs can carry antigen instructions or instructions for engineering cells. Neither use proves that a particular product has reached the right cell population safely or produced clinical benefit.
+LNPs can carry antigen instructions or instructions for engineering immune cells. [Delivery targeting versus cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting) separates the cell receiving the message from the target recognized later. Expression, immune effects and clinical benefit require different evidence.
 
-## Worked example
+## What to measure
 
-A fictional targeted particle accumulates near T cells. The next experiments identify which cells received the message, whether RNA escaped the endosome, and whether the intended protein works. A location image alone establishes none of those downstream claims.
+**Assay card — a defined RNA formulation**
+
+- **Input and consumption:** Lot aliquots, identified cells or sampled tissue at stated times; these tests consume material and sample only part of the system.
+- **Readouts and units:** Particle size in nanometers and size distribution; RNA amount, integrity and encapsulated fraction in percent; labeled lipid or RNA location; protein amount or the fraction of identified live cells expressing it. State every denominator.
+- **Thresholds and limits:** No universal size or encapsulation cutoff proves useful delivery. A fluorescent lipid is not intact RNA, and encapsulation is not endosomal escape. Pair distribution measurements with expression, viability and relevant function using controls.
+- **Validation boundary:** Performance belongs to the tested formulation, route, cells, species and sampling time. Product quality measurements do not establish clinical safety or benefit.
+
+## Try it
+
+At the same time point and RNA exposure, two fictional formulations are tested in matched cell cultures. Among 100 sampled live cells per formulation, A has 70 uptake-positive cells and 10 protein-positive cells; B has 40 and 25, respectively. Which made protein in more sampled cells?
+
+**Answer:** B: 25%, versus A's 10%. A had more uptake-positive cells, 70% versus 40%. These results separate uptake from expression; they do not calculate the fraction of RNA escaping, establish protein function or show an effect in a patient. Biological replication and viability measurements still matter.
+
+A fictional targeted particle accumulating near T cells needs the same follow-up: identify recipients, measure useful RNA delivery, then test the protein's task.
 
 ## Common confusions
 
-- An LNP and an RNA-lipoplex are distinct formulation architectures.
-- Transient RNA does not imply every downstream effect stops immediately.
-- The same RNA sequence in another carrier can be a meaningfully different product.
+- **LNP versus RNA-lipoplex:** Names can overlap. Inspect the [lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) composition and preparation rather than assume a strict category boundary.
+- **Temporary message versus immediate off switch:** RNA, protein and immune-effect timelines differ.
+- **Same RNA versus same product:** Changing carrier or route can change delivery and safety.
+
+## Explain it back
+
+“We measured ___ in ___ cells at ___ time; the next delivery step still needing evidence is ___.”
+
+## Takeaway
+
+**Ask where the carrier went, where usable RNA reached, and which cells made functional protein. These are separate questions.**
 
 ## Related concepts
 
-- [mRNA construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy)
-- [DNA, RNA and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma)
-- [Chimeric antigen receptor (CAR) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy)
+- [Targeted LNPs](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps) explain delivery preferences.
+- [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) explains a related formulation name.
 
 ## Sources and scope
 
-Source check: October 8, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source check: October 10, 2026; expert and learner review pending. These primary experiments support mechanism and measurement boundaries, not a universal recipe or treatment recommendation.
 
-- [Lipid nanoparticle composition and delivery](https://www.nature.com/articles/s41578-021-00358-0).
-- [Primary targeted mRNA cell-engineering experiments](https://pubmed.ncbi.nlm.nih.gov/40536974/).
+- [Paramasivam et al., 2021: uptake, endosomal trafficking and RNA escape in defined human-cell models](https://pubmed.ncbi.nlm.nih.gov/34882187/).
+- [Di et al., 2022: route, particle size, distribution and expression in mice](https://pubmed.ncbi.nlm.nih.gov/35080707/).
+- [Cheng et al., 2020: formulation changes and organ delivery in mouse experiments](https://pubmed.ncbi.nlm.nih.gov/32251383/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

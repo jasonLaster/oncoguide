@@ -102,7 +102,7 @@ flowchart TD
 
 *Measure the relevant cell populations at each gate.*
 
-A fluorescent particle signal in an organ is not proof of useful receptor expression in T cells. If a design adds a second receptor, **co-expression** asks whether the relevant cells make both components, rather than one being detected somewhere in the body.
+A fluorescent particle signal in an organ is not proof of useful receptor expression in T cells. In a [targeted LNP](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps), binding, uptake, cytoplasmic RNA release and expression are distinct gates. A brighter uptake signal does not tell us which later gate improved. If a design adds a second receptor, **co-expression** asks whether the relevant cells make both components, rather than one being detected somewhere in the body.
 
 ## Read the measurement chain
 

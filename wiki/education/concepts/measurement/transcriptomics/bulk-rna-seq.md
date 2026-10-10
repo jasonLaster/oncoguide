@@ -2,14 +2,14 @@
 title: "Bulk RNA sequencing: a tissue mixture of messages"
 type: "concept"
 domain: "measurement/transcriptomics"
-summary: "Bulk RNA sequencing measures captured RNA from a sample as one combined profile, without directly assigning each message to its cell of origin."
+summary: "Bulk RNA sequencing measures captured ribonucleic acid (RNA) from a sample as one combined profile, without directly assigning each message to its cell of origin."
 glossary_anchor: "bulk-rna"
 aliases: ["bulk RNA", "bulk RNA-seq", "RNA-seq", "transcriptomics", "bulk-rna"]
 level: "foundation"
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -21,7 +21,7 @@ used_by: ["[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-de
 
 ## In one sentence
 
-Bulk RNA sequencing measures captured RNA from a sample as one combined profile, without directly assigning each message to its cell of origin.
+Bulk RNA sequencing measures captured ribonucleic acid (RNA) from a sample as one combined profile, without directly assigning each message to its cell of origin.
 
 ## The intuition
 
@@ -29,45 +29,79 @@ If you record a choir with one microphone, you hear the combined voices. A loude
 
 ## How it works
 
-RNA means ribonucleic acid. A laboratory extracts RNA, prepares a **library** of material for sequencing and obtains sequence **reads**. Analysis assigns usable observations to genes or transcripts and estimates relative abundance. The preparation can enrich selected RNA classes or targeted regions, so “bulk” does not mean every RNA molecule was captured equally.
+A laboratory extracts [RNA](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) and prepares a **library**, the material presented to the sequencer. Many workflows convert RNA into complementary DNA (cDNA), a deoxyribonucleic acid copy, before sequencing. The protocol may select messenger RNA, remove abundant ribosomal RNA, or capture particular transcript regions. “Bulk” does not mean every molecule was captured equally.
 
-A tissue piece can contain cancer cells, normal epithelial cells, immune cells and supporting cells. They contribute different amounts and kinds of RNA. A high gene signal can reflect more of one cell population, more expression within that population or both.
+Analysis assigns usable [sequence reads](/wiki/education/concepts/measurement/sequencing-basics/sequencing-reads) or estimated fragments to genes or transcripts. Shared sequences can make assignment ambiguous. [Count normalization](/wiki/education/concepts/measurement/transcriptomics/counts-normalization) then defines the comparison and denominator. A count table is already shaped by preparation and analysis.
 
-A **transcript** is an RNA product. Alternative processing can produce different transcript versions from one gene. Gene-level counts pool information and may hide those differences. When the question concerns a mutant sequence or a splice product, inspect the relevant sequence or junction evidence.
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+    A[Mixed tissue] --> B[Captured RNA]
+    B --> C[Sequence observations]
+    C --> D[Assigned counts]
+    D --> E[Defined comparison]
+```
 
-**Counts per million (CPM)** scale counts by a library-size denominator. **Transcripts per million (TPM)** account for transcript length and sequencing depth under the method's assumptions. These are relative measures, not universal molecules-per-cell units. TPM is not a drop-in substitute for every tag-counting workflow.
+Each arrow introduces choices; it does not recover all messages in the original tissue.
+
+Cancer cells, normal epithelial cells, immune cells and supporting cells contribute different amounts and kinds of RNA. A high signal can reflect more cells of one kind, more expression within those cells, or both. [Immune deconvolution](/wiki/education/concepts/measurement/transcriptomics/immune-deconvolution) estimates mixture contributions under a model; it does not physically separate cells.
+
+A **transcript** is an RNA product. [Alternative splicing](/wiki/education/concepts/biology-basics/genetics/splicing) can produce different versions from one gene. Gene-level counts may hide those differences. A mutant sequence or splice product needs the relevant sequence or junction evidence.
 
 ## Why it matters in cancer
 
-Bulk RNA can nominate expressed targets, describe measured programs and reveal transcript processing. It cannot directly establish which cells expressed a gene, how much surface protein exists or whether the tumor depends on that pathway. Computational cell-mixture estimates can help, but they remain model-dependent.
-
-## Worked example
-
-Two fictional tissue pieces have the same cancer-cell expression of an immune marker: none. The second contains more lymphocytes. Its bulk marker signal is higher even though the cancer cells did not change. The next measurement must resolve cell origin, rather than labeling the bulk increase as cancer-cell activation.
-
-## Common confusions
-
-- High RNA is not the same as abundant functional protein.
-- Zero detected RNA is not proof of complete biological absence.
-- A pathway score summarizes chosen messages; it does not directly measure pathway flux or drug dependence.
-- Thousands of genes from one biopsy do not supply thousands of independent patient replicates.
+Bulk RNA can nominate expressed targets and summarize programs through [RNA pathway scores](/wiki/education/concepts/measurement/transcriptomics/rna-pathway-scoring). These are useful questions to investigate. They do not directly establish cell origin, surface protein, pathway flux or drug dependence.
 
 ## How it is measured
 
-Input may be [[about/Terminology#fresh-frozen|fresh-frozen]] or fixed tissue under an assay-specific protocol; extraction consumes material. Output includes count tables, normalized quantities and transcript calls. Record the preparation, quality metrics, normalization and comparator. There is no universal RNA-quality cutoff or expression threshold that fits every assay.
+| Assay card | What to record |
+|---|---|
+| Measures | Captured RNA abundance and sequence features in a combined sample. |
+| How | Extract RNA; prepare a library; sequence; assign observations; compare with stated rules. |
+| Input and tissue cost | Fresh-frozen or fixed tissue accepted by the protocol; extraction consumes material. Record sampled region and [RNA integrity](/wiki/education/concepts/measurement/specimens/rna-integrity). |
+| Time and controls | Preparation and analysis times vary. Reference material, processing controls and suitable replicates test different parts of the workflow. |
+| Output and units | Assigned read/fragment counts, normalized quantities and transcript calls; name the counting unit. |
+| Thresholds | Quality and expression cutoffs belong to a specified assay and purpose. |
+| Failure modes | Degradation, contamination, ambiguous mapping, annotation differences, [batch effects](/wiki/education/concepts/measurement/transcriptomics/batch-effects) and changing cell mixtures. |
+| What it cannot tell you | Every cell's expression, protein amount, biological absence from zero reads, or treatment benefit. |
+| Validation tier | Research profiling is distinct from a validated clinical RNA test with a defined intended use. |
+
+## Common confusions
+
+- **High RNA versus functional protein:** production, turnover and localization also matter.
+- **Zero detected versus absent:** capture, depth and mapping can miss a message.
+- **Many genes versus many replicates:** thousands of genes from one biopsy are not thousands of independent patients.
+- **Gene count versus transcript identity:** pooling can conceal isoforms.
+
+## Try it
+
+Two fictional pieces contain 100 cells each. The first has 20 lymphocytes; the second has 40. Assume equal RNA contribution per cell, the same preparation, and an immune marker expressed identically by lymphocytes and not by cancer cells. Does a higher bulk marker signal prove cancer-cell activation?
+
+**Answer:** No. The lymphocyte share rose from 20% to 40%. Under these deliberately simple assumptions, mixture alone can raise the marker signal. Real cells need not contribute equal RNA. Cell-specific evidence would test origin.
+
+## Explain it back
+
+“A bulk signal can change because ______ or ______.”
+
+One answer: “the mixture changed, or expression within a contributing population changed.”
+
+## Takeaway
+
+**Read bulk RNA as a sampled mixture of messages, then test the biological interpretation separately.**
 
 ## Related concepts
 
-- [[wiki/education/concepts/biology-basics/genetics/central-dogma|Messages versus proteins]]
-- [[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry|Measuring protein in tissue]]
+- [Single-cell and single-nucleus RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq)
+- [Protein measurement in tissue](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry)
 
 ## Sources and scope
 
-Source check: October 9, 2026. General assay teaching; expert and learner review remain pending.
+Source check: October 10, 2026. General assay teaching and fictional practice; expert and learner review remain pending.
 
-- [NHGRI RNA fact sheet](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet).
-- [Conesa et al., RNA-seq methods and design](https://doi.org/10.1186/s13059-016-0881-8).
-- [GEUVADIS primary study of technical variation](https://www.nature.com/articles/nbt.2702).
+- [NHGRI RNA fact sheet](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet) — RNA classes and message processing.
+- [Conesa et al., RNA-seq methods and design](https://doi.org/10.1186/s13059-016-0881-8) — a methods review; preparation, assignment and comparison choices.
+- [GEUVADIS technical-variation study](https://www.nature.com/articles/nbt.2702) — primary lymphoblastoid-cell study, not a universal tissue-quality rule.
+- [SEQC primary reference-RNA comparison](https://pubmed.ncbi.nlm.nih.gov/25150838/) — annotation, depth and pipeline effects in its tested materials.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

@@ -10,8 +10,8 @@ used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured
 level: "intermediate"
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-08"
-source_checked: "2026-10-08"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,42 +25,87 @@ An mRNA construct combines a protein-coding message with sequence features that 
 
 ## The intuition
 
-A message needs readable instructions and usable packaging cues. In messenger ribonucleic acid (mRNA), the protein-coding section is only part of the design. The analogy ends where biology begins: changing a cue can alter several downstream properties at once.
+Think of a message with opening instructions, a main text and a closing section. The main text specifies a protein; the surrounding features help the cell use the message. Here the message is [messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna). The analogy has a limit: these are interacting molecules, not a reader following every instruction reliably. A well-designed message still needs to reach a cell and its translation machinery.
 
 ## How it works
 
-A conventional non-replicating mRNA includes a cap, untranslated regions, a coding sequence and a poly(A) tail. Untranslated regions are not translated into the encoded protein but can affect how the message behaves. Ribosomes translate the coding sequence.
+For a conventional engineered mRNA, **5′ and 3′ name the two ends** of the molecule. Reading from 5′ to 3′, the main features are:
 
-A multi-antigen cancer-vaccine construct can encode longer segments containing altered sequences. Ordering and linkers affect the combined protein and its processing. New junctions can also create unintended fragments. A signal peptide can redirect protein trafficking; its benefit depends on the antigen and desired presentation route.
+| Feature | Job and limit |
+|---|---|
+| **5′ cap** | A modified guanosine joined to the RNA end; it supports recognition by translation-initiation proteins and helps protect the message. It is not a delivery coating. |
+| **5′ untranslated region (UTR)** | Sequence before the main protein-coding region. Its sequence and structure can affect initiation. Untranslated does not mean inactive. |
+| **Kozak context** | Bases around the start codon that affect how efficiently a scanning ribosome starts there. This is an RNA translation feature, not a [DNA](/wiki/education/concepts/biology-basics/molecules/dna) transcription promoter or a guarantee of correct initiation. |
+| **Open reading frame (ORF)** | The intended coding sequence, read in three-base codons from a start to a stop. It specifies the [protein's amino-acid sequence](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). |
+| **3′ UTR** | Sequence after the coding region that can influence RNA persistence, translation and localization. |
+| **Poly(A) tail** | A stretch of adenosines at the 3′ end that works with binding proteins to support stability and translation. It is not a protein segment; a longer tail is not universally better. |
 
-RNA chemistry, sequence design and formulation are different choices. Modified nucleosides are used in some products, but are not a universal requirement. Manufacturing edits need controlled versions and biological review; keeping the same target list does not guarantee an identical antigen product.
+Kozak's start-context experiments and Gallie's cap/tail experiments tested particular constructs and cell systems. They support the mechanisms, not one universally best sequence. Holtkamp and colleagues separately altered 3′ features in antigen-encoding RNA delivered to dendritic cells; those comparisons do not establish a clinical specification for every formulation.
+
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+  A[Cap] --> B[5′ UTR]
+  B --> C[Start context]
+  C --> D[Coding region]
+  D --> E[3′ UTR]
+  E --> F[Poly A]
+```
+
+*Arrows trace schematic molecular order, not scale or delivery. The Kozak start context overlaps the beginning of the coding region; it is not a separate segment. Poly(A) names the adenosine tail.*
 
 ## Why it matters in cancer
 
-A list of promising targets is not a finished construct. Designers must connect the encoded sequence to expression, processing, display and safety. Batch quality and target quality remain separate reviews.
+A vaccine target list is not the finished construct. [Multi-epitope designs](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs) add coding windows, spacers and sometimes protein-trafficking features. Changing a UTR can leave the intended protein unchanged while altering expression; changing a coding spacer changes the combined protein and may alter processing. [Nucleoside chemistry](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides) and delivery formulation are additional specifications.
 
-## Worked example
+## How it is measured
 
-A fictional manufacturer proposes changing the linker between two encoded targets. The change may improve production, but may also alter processing or create a new junction. The approved specification must record the revision and the evidence used to accept it.
+| Assay question | What to record |
+|---|---|
+| **Measures / how** | Sequence analysis for identity; size analysis for integrity; appropriate cap/tail characterization; a cell-based expression comparison. One test does not cover them all. |
+| **Input / consumption** | A defined RNA lot and consumed aliquots, plus cells for expression testing. Record handling and formulation. |
+| **Output / units** | Sequence and length in nucleotides; method-defined cap/tail results; protein amount or reporter signal at stated times. |
+| **Thresholds** | Analytical reporting limits and product-specific acceptance criteria; no universal “good construct” score. |
+| **Failure modes** | Wrong revision, degraded RNA, mixtures of transcript lengths, unequal delivery or an insensitive readout. |
+| **Cannot tell** | RNA identity alone cannot establish protein identity, antigen display, tumor recognition or patient benefit. |
+| **Validation context** | A reporter comparison supports that model. Product release requires justified, fit-for-purpose methods and specifications. |
 
 ## Common confusions
 
-- mRNA is an instruction molecule, not the antigen protein.
-- More translation does not automatically mean better tumor-specific presentation.
-- A signal peptide or helper segment that works in one experiment is not universally optimal.
+- **Cap versus carrier:** the cap is part of the molecule; a lipid formulation helps delivery.
+- **UTR versus disposable sequence:** untranslated regions can regulate use of the message.
+- **Kozak versus promoter:** initiation of protein translation differs from synthesis of RNA from DNA.
+- **Same target names versus same product:** retain the complete RNA and intended protein revisions.
+
+## Try it
+
+Two fictional constructs encode the same antigen protein. Version B changes only its 3′ UTR and produces twice the reporter signal in matched cells. Is B a different antigen? Does it have twice the cancer benefit?
+
+**Answer:** Its intended antigen sequence is unchanged. The result supports greater reporter output under those conditions. It does not establish antigen processing, tumor recognition or clinical benefit. Confirm identity and integrity, then investigate the next relevant biological question.
+
+## Explain it back
+
+“The ORF specifies ___; the surrounding features influence ___; a sequence record alone cannot establish ___.”
+
+One answer: “the intended protein; how the RNA is used; the measured protein and its biological effect.”
+
+## Takeaway
+
+**A construct is a complete molecular specification whose identity and biological performance need separate checks.**
 
 ## Related concepts
 
-- [DNA, RNA and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma)
-- [Antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery)
-- [Lipid nanoparticles](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle)
+- [In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription)
+- [Multi-epitope constructs](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs)
 
 ## Sources and scope
 
-Source check: October 8, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source check: October 10, 2026. The example is fictional. These textbook mechanisms and experimental comparisons do not prescribe a clinical construct. Expert and learner review remain pending.
 
-- [mRNA design and translation principles](https://www.nature.com/articles/s41573-021-00283-5).
-- [Primary RNA-lipoplex cancer-vaccine methods](https://www.nature.com/articles/s41586-023-06063-y).
+- [Cooper, The Cell: translation of mRNA, including ends and UTRs](https://www.ncbi.nlm.nih.gov/books/NBK9849/).
+- [Kozak, 1986: start-context mutagenesis in a preproinsulin construct](https://pubmed.ncbi.nlm.nih.gov/3943125/).
+- [Gallie, 1991: cap/poly(A) interaction in tested cell systems](https://pubmed.ncbi.nlm.nih.gov/1682219/).
+- [Holtkamp et al., 2006: antigen-RNA 3′ features in dendritic-cell experiments](https://pubmed.ncbi.nlm.nih.gov/16940422/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

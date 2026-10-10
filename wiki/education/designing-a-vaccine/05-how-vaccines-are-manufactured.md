@@ -58,7 +58,7 @@ flowchart TD
 
 [Modified nucleosides](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides) can change sensing and translation, but are not a universal requirement for cancer RNA vaccines. Chemistry, sequence and purification are separate decisions.
 
-Purification addresses residual DNA, proteins, incomplete RNA and [double-stranded RNA impurities](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification). Ask what each method removes and what each assay detects. A purity result cannot establish integrity or sterility by itself.
+Purification addresses residual DNA, proteins, incomplete RNA and [double-stranded RNA impurities](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification). Ask what each method removes and what each assay detects. Changing RNA chemistry and removing unwanted double-stranded RNA solve different problems. A purity result cannot establish integrity or sterility by itself.
 
 Formulation then defines how the RNA is packaged and delivered. Particle composition, RNA amount and integrity, particle properties and relevant biological activity belong to that product's specification. Aseptic filling, storage and transport preserve the material until administration. Shelf life and allowable storage excursions come from product-specific stability evidence.
 

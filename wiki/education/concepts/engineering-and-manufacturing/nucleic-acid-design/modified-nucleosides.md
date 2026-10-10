@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,58 +25,79 @@ Modified nucleosides are chemically altered RNA building blocks that can change 
 
 ## The intuition
 
-You can print the same instructions with a different kind of ink. The words may stay the same while the material behaves differently. For messenger ribonucleic acid (**mRNA**), the “ink” is the chemistry of its building blocks. Cells both read the message and inspect the molecule. The analogy breaks because biological inspection can change whether translation continues at all.
-
-**Before you start:** [DNA → RNA → protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains translation; [mRNA construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy) explains the message's regions.
+Imagine printing the same instructions with a different ink. The intended words remain, but the material can change how the message is handled. For [messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna), chemistry affects molecular interactions, sensing and translation. The analogy stops at intention: using a different building block does not guarantee that every translated protein has the expected identity or that every immune response improves.
 
 ## How it works
 
-A **nucleoside** consists of a base attached to a sugar. A **nucleotide** adds phosphate; nucleotide building blocks are used to make RNA. Ordinary RNA contains adenine, cytosine, guanine and uracil bases. Some manufactured messages use an altered form of a nucleoside, such as pseudouridine or N1-methylpseudouridine, in place of ordinary uridine.
+A **nucleoside** is a base joined to a sugar; a **nucleotide** also includes phosphate. RNA synthesis uses nucleotide building blocks. Pseudouridine (Ψ) and N1-methylpseudouridine (m1Ψ) are alternatives to the ordinary uridine building block. The intended coding message can remain the same while its chemistry changes.
 
-These substitutions can preserve the intended amino-acid sequence while changing interactions with innate immune sensors. Those sensors detect molecular patterns; they do not recognize a particular cancer antigen the way a T cell does. Primary experiments found that certain modifications reduced particular sensing responses and improved protein production in the tested systems. The result depends on the modification, RNA design, cell and assay.
+Cells sense RNA through several pathways. Karikó and colleagues tested human Toll-like-receptor systems and dendritic cells, showing that particular modifications reduced the activation they measured. Andries and colleagues compared m1Ψ with Ψ in cell lines and mice. These are defined experimental comparisons, not proof that all modified RNA is invisible to every sensor.
+
+The intended antigen sequence and RNA sensing are different questions. So are chemistry and [purity](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification): modified transcripts can still contain unwanted double-stranded RNA. Karikó's purification study tested that additional source of activation.
+
+Translation fidelity also deserves its own check. Mulroney and colleagues demonstrated sequence-dependent +1 reading-frame shifts with m1Ψ-containing RNA in experimental systems, and reduced them through synonymous sequence changes. This does not mean every modified construct mistranslates, nor did the study establish adverse clinical outcomes from the observed products. It shows why intended coding identity and measured translation products should not be treated as identical evidence.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
-  A[Same intended protein sequence] --> B[RNA with ordinary uridine]
-  A --> C[RNA with a modified uridine]
-  B --> D[Measure sensing and translation]
-  C --> D
-  D --> E[Check the complete formulated product]
+  A[RNA chemistry] --> B[Molecular interactions]
+  B --> C[Sensing and translation]
 ```
 
-*The comparison concerns RNA chemistry. It does not establish a clinical winner.*
-
-Chemistry is one design variable. RNA sequence, cap, purity, delivery and recipient cells also influence expression and inflammation. [Double-stranded RNA impurities](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification) can remain in a modified-RNA preparation. Changing the ink does not remove every manufacturing byproduct.
+*Sensing and translation are distinct outcomes of RNA interactions; the map does not promise a universal change in either.*
 
 ## Why it matters in cancer
 
-A vaccine needs antigen production and an appropriate immune response. Suppressing a particular RNA-sensing pathway is not identical to suppressing all immunity, and stronger innate stimulation is not automatically better either. Some cancer-vaccine designs deliberately use unmodified RNA. Their evidence belongs to the entire product and protocol.
+RNA sensing can influence antigen production and immune activation. Lower innate activation in one assay does not mean lower antigen-specific immunity, and greater protein output does not establish a stronger T-cell response. Unmodified and modified RNA designs need comparisons in their intended delivery and biological context. Chemistry does not choose the tumor target or establish benefit.
 
-## Try it
+## How it is measured
 
-A fictional team reports more protein from a modified message in one cell line. Can it conclude that the vaccine will produce stronger tumor-specific T-cell responses?
-
-**Answer:** It has shown a translation result in that assay. Antigen processing, display, T-cell recognition and clinical benefit remain separate questions. The comparison also needs matched purity and delivery conditions.
+| Assay question | What to record |
+|---|---|
+| **Measures / how** | Chemistry/identity analysis, impurity testing, protein identity and quantity, and selected innate-sensing readouts. |
+| **Input / consumption** | Consumed RNA aliquots and cells. For a comparison, match sequence, amount, cap, untranslated regions, purity, formulation and handling as far as the question requires. |
+| **Output / units** | Building-block composition; protein amount or reporter units; specified cytokine concentrations or activation signals at stated times. |
+| **Thresholds** | Method-specific detection/reporting limits and justified specifications; no universal modification score. |
+| **Failure modes** | Unequal uptake, residual impurities, different viability or a reporter that does not identify the protein produced. |
+| **Cannot tell** | A single translation or cytokine readout cannot establish antigen display, T-cell recognition, clinical safety or efficacy. |
+| **Validation context** | Cell-line and animal comparisons support those systems. Product-quality and clinical claims require their own evidence. |
 
 ## Common confusions
 
-- **Modified nucleoside versus codon choice:** [Codon optimization](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization) changes the letter sequence; nucleoside modification changes chemical building blocks.
-- **Reduced sensing versus no inflammation:** Other RNA features and the formulation can still activate immune pathways.
-- **Modified versus purified:** These are separate choices and need separate tests.
-- **Cap chemistry versus internal substitutions:** A cap is a feature at the message's end; modifications can occur within the message.
+- **Modification versus codon choice:** chemistry changes the building block; [codon optimization](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization) changes sequence.
+- **Reduced sensing versus no sensing:** the conclusion belongs to the measured pathway and conditions.
+- **Modified versus purified:** both specifications matter; neither substitutes for the other.
+- **More signal versus correct product:** protein amount and identity are distinct checks.
+
+## Try it
+
+In a fictional matched cell-line comparison, modified RNA produces more reporter signal and less of one cytokine. A researcher concludes, “It must make a stronger cancer-specific T-cell response.” What is missing?
+
+**Answer:** The experiments establish reporter output and that cytokine readout in that model. They have not measured antigen display or antigen-specific recognition. Check protein identity and comparable impurity/delivery conditions, then test the relevant downstream biology. Neither higher expression nor lower sensing proves benefit.
+
+## Explain it back
+
+“Changing RNA chemistry can affect ___, while purification addresses ___; neither alone establishes ___.”
+
+One answer: “sensing and translation; unwanted material; useful tumor-specific immunity.”
+
+## Takeaway
+
+**Evaluate RNA chemistry, impurities and translation products separately before connecting them to immune function.**
 
 ## Related concepts
 
-- [In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription) makes the specified RNA.
-- [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) explains the immune-learning step.
+- [Construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy)
+- [Impurities and purification](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification)
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. These primary experiments establish mechanisms in their tested systems, not a universal product specification.
+Source check: October 10, 2026. The practice is fictional. Findings below are bounded to their experimental systems; expert and learner review remain pending.
 
-- [Karikó et al., 2005: nucleoside modification and Toll-like-receptor sensing](https://pubmed.ncbi.nlm.nih.gov/16111635/).
-- [Andries et al., 2015: N1-methylpseudouridine compared with pseudouridine in cell and mouse experiments](https://pubmed.ncbi.nlm.nih.gov/26342664/).
-- [Karikó et al., 2011: purification of nucleoside-modified mRNA](https://pubmed.ncbi.nlm.nih.gov/21890902/).
+- [Karikó et al., 2005: modified nucleosides and Toll-like-receptor sensing](https://pubmed.ncbi.nlm.nih.gov/16111635/).
+- [Andries et al., 2015: m1Ψ/Ψ comparisons in cell lines and mice](https://pubmed.ncbi.nlm.nih.gov/26342664/).
+- [Karikó et al., 2011: purification as a separate determinant](https://pubmed.ncbi.nlm.nih.gov/21890902/).
+- [Mulroney et al., 2024: sequence-dependent frameshifting and sequence changes](https://www.nature.com/articles/s41586-023-06800-3).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

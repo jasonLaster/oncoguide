@@ -8,7 +8,7 @@ objectives: ["Trace target windows into the final encoded protein.", "Separate s
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]", "[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs]]"]
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-09"
+updated: "2026-10-10"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -23,7 +23,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-You have candidate targets and an evidence board. Now you need a versioned message that faithfully encodes them. Manufacturing will make and test that specified material.
+You have candidate targets and an evidence board. Now you need a versioned message that faithfully encodes them. Manufacturing will make and test that specified material. [In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription) makes the RNA; [purification](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification) addresses unwanted products. Neither step answers whether the intended peptides will be displayed.
 
 ```mermaid
 flowchart TD
@@ -70,7 +70,7 @@ Suppose Version 1 produces more protein in a reporter assay. That is useful expr
 
 The approved record needs the complete sequence, each window's source, the intended protein, supporting RNA features and the rationale for changes. Predictions should retain their method and version. Measured results should retain the specimen, assay and conditions.
 
-Keep this record separate from the delivery specification. An [LNP (lipid nanoparticle)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) and an [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) are different formulation categories. The same message can behave differently with a new formulation or route. The released lot must remain traceable to the approved design and manufacturing specification.
+Keep this record separate from the delivery specification. An [LNP (lipid nanoparticle)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) or an [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) describes a lipid-based delivery formulation. These names can overlap in the literature; inspect composition and architecture rather than treating the label as the specification. The same message can behave differently with a new formulation or route. The released lot must remain traceable to the approved design and manufacturing specification.
 
 ## What can go wrong at this step
 

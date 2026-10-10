@@ -49,9 +49,9 @@ A **doublet** contains contributions from two cells or nuclei under one barcode.
 | Detection fraction | Fraction of analyzed cells with a detected signal |
 | Module score | Summary of selected genes under a stated scoring and reference rule |
 
-CPM and TPM are not interchangeable. Neither is a direct surface-protein count. Standard length-based TPM is not the default interpretation of every UMI-tagged counting assay.
+For the denominator and units behind this table, use [counts and normalization](/wiki/education/concepts/measurement/transcriptomics/counts-normalization). CPM and TPM are not interchangeable. Neither is a direct surface-protein count. A UMI helps count captured molecules; it is not itself a normalization rule. Standard length-based TPM is not the default interpretation of every UMI-tagged counting assay.
 
-[Gene-expression signatures](/wiki/education/concepts/measurement/transcriptomics/gene-expression-signatures) combine selected counts under a specified rule. A module score belongs to that rule and reference, rather than directly measuring a pathway's function.
+[Gene-expression signatures](/wiki/education/concepts/measurement/transcriptomics/gene-expression-signatures) combine selected counts under a specified rule. A module score belongs to that rule and reference, rather than directly measuring a pathway's function. [RNA pathway scoring](/wiki/education/concepts/measurement/transcriptomics/rna-pathway-scoring) explains how a coordinated message pattern can be useful while leaving biochemical activity unmeasured.
 
 ## A worked count example
 
