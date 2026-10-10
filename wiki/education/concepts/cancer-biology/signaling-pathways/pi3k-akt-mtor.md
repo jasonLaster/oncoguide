@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,52 +25,71 @@ PI3K–AKT–mTOR signaling links growth cues and available resources to cellula
 
 ## The intuition
 
-A workshop needs both a request to build and enough supplies. Growth signals resemble the request; nutrients and energy resemble the supplies. This network coordinates them. It is a branching control system with feedback, so a straight arrow diagram is only a starting sketch.
+A workshop needs both a request to build and enough supplies. Growth cues resemble the request; nutrients and energy resemble the supplies. This network coordinates them. It branches and responds to its own outputs, so a straight arrow diagram is only a starting sketch.
+
+The cell has no manager choosing a plan. Molecular location, partners and timing determine which connections operate.
 
 ## How it works
 
-**Phosphoinositide 3-kinase (PI3K)** modifies membrane lipids that help recruit signaling proteins. **AKT**, also called protein kinase B, is a kinase: an enzyme that adds phosphate groups to proteins. Its activation depends on location and phosphorylation at particular sites. Experiments identified roles for PDK1 and mTOR complex 2 in this regulation. [Alessi 1997](https://pubmed.ncbi.nlm.nih.gov/9368760/), [Sarbassov 2005](https://pubmed.ncbi.nlm.nih.gov/15718470/).
+**Phosphoinositide 3-kinase (PI3K)** is a family of [kinases](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) that modify lipids. In this growth-signaling route, **class I PI3K** produces **phosphatidylinositol 3,4,5-trisphosphate (PIP3)** at membranes. This lipid helps recruit proteins to the right location. It is not phosphorylation of a protein. **Phosphatase and tensin homolog (PTEN)** can remove the lipid's phosphate at position 3, opposing this signal.
 
-**Mechanistic target of rapamycin (mTOR)** is another kinase. It works in different protein complexes. **mTORC1** integrates growth and nutrient signals and regulates processes including protein synthesis and autophagy. **mTORC2** has distinct roles, including a contribution to AKT phosphorylation. Sharing mTOR does not make the two complexes interchangeable.
+**AKT**, also called protein kinase B, modifies proteins. Its activation involves recruitment and [phosphorylation](/wiki/education/concepts/biology-basics/signaling/phosphorylation) at specific sites. **3-phosphoinositide-dependent protein kinase 1 (PDK1)** phosphorylates threonine 308, abbreviated **Thr308**, in the well-studied AKT1 route. **Mechanistic target of rapamycin complex 2 (mTORC2)** phosphorylates serine 473, or **Ser473**. A report should name the form and site rather than simply say “phospho-AKT.”
 
-mTORC1 can promote biosynthesis and restrain parts of the autophagy-initiation machinery when conditions favor growth. Reducing this signal can release that restraint, but completed recycling still depends on the rest of the machinery. [Ganley 2009](https://pubmed.ncbi.nlm.nih.gov/19258318/).
+**Mechanistic target of rapamycin (mTOR)** is a protein kinase that works in distinct complexes. **mTOR complex 1 (mTORC1)** integrates growth and nutrient signals and regulates protein production and [autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy). mTORC2 has different partners and functions, including AKT regulation. Sharing mTOR does not make the complexes interchangeable.
 
-**Feedback** means a downstream change alters an upstream signal. A drug may reduce one output while increasing another through feedback. The network therefore needs measurements at specified proteins, sites, and times.
+When growth conditions favor production, mTORC1 can restrain autophagy-initiation machinery. Reducing that signal can release the restraint; completed recycling still requires downstream machinery. Initiation is not the same as flux.
+
+[Feedback](/wiki/education/concepts/biology-basics/signaling/feedback-loops) can change another branch after an intervention. O'Reilly and colleagues observed increased AKT signaling after mTOR inhibition in studied cancer-cell models and treated patient tumor samples. That demonstrates a possible response, not universal rebound or proof that a combination improves outcomes.
 
 ## Why it matters in cancer
 
-Cancer-associated changes can disturb growth signaling. Some tumors depend on a particular branch. Others can compensate through another route. A variant in a network member does not by itself reveal gain of function, loss of function, or drug sensitivity.
+Cancer-associated changes can disturb this network. Some cells depend on a branch; others compensate through another route. A variant alone does not establish gain of function, loss of function or drug sensitivity.
 
-An RNA gene-set score summarizes messages related to the pathway. It does not directly measure kinase activity or identify the best point to inhibit.
-
-## A worked example
-
-In a fictional culture, an mTORC1-directed perturbation lowers phosphorylation of a protein-production regulator. AKT phosphorylation later increases. This is compatible with a network response involving feedback, rather than proof that the drug failed to touch mTORC1.
-
-Growth remains unchanged. The experiment supports a biochemical effect but has not demonstrated a growth dependence. A second assay, suitable controls, and a survival measurement help separate those conclusions.
-
-## Common confusions
-
-- **Protein amount versus activity:** abundance and phosphorylation state are distinct measurements.
-- **mTORC1 versus mTORC2:** the complex determines which functions are being tested.
-- **One readout versus the entire pathway:** phosphorylated S6 is a downstream clue, not a universal activity meter.
-- **Reduced signaling versus clinical benefit:** target engagement is one step in an evidence chain.
+A [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) gene-set score summarizes messages associated with the pathway. It does not directly measure lipid production, kinase activity or survival dependence.
 
 ## How it is measured
 
-Research assays follow phosphorylation at named sites, protein localization, synthesis, recycling, and cell survival. A report should state the specimen, timing, normalization, and comparator. Antibodies and preservation conditions matter. Pair the expected biochemical effect with genetic controls or a second perturbation when testing dependence.
+Specify the specimen, protein and site, time after perturbation, comparator and normalization. Readouts may use phosphosite signal relative to parent-protein amount, lipid concentration or synthesis rates. A larger signal can reflect more protein as well as a larger modified fraction. Preservation and antibody specificity matter.
+
+One downstream site is not a universal pathway meter. Pair biochemical measurements with appropriate engagement and specificity controls, then measure growth and death when testing dependence. A pathway diagram cannot substitute for these experiments.
+
+## Common confusions
+
+- **Lipid versus protein phosphorylation:** PI3K's product and AKT's substrates are different molecular kinds.
+- **mTORC1 versus mTORC2:** the complex changes the question being tested.
+- **Initiation versus completed recycling:** releasing a restraint need not increase flux.
+- **A changed signal versus dependence:** cells can tolerate or compensate for a biochemical change.
+
+## Try it
+
+In a fictional culture, an mTORC1-directed perturbation lowers phosphorylation of a protein-production regulator. AKT1 Ser473 signal later rises. Growth remains unchanged. Has the intervention failed, or proved mTORC1 is essential?
+
+**Answer:** Neither conclusion follows. The first readout supports a biochemical effect; the later change is compatible with feedback or another network response. Test the proposed connection rather than infer it from timing alone. Unchanged growth provides no growth-dependence result under these conditions, and death needs its own measurement.
+
+## Explain it back
+
+“PI3K modifies ___; AKT and mTOR modify ___; a dependence claim additionally needs ___.”
+
+One answer: “lipids; proteins; controlled functional perturbation and cellular outcomes.”
+
+## Takeaway
+
+**Name the molecular branch, measured site and time before interpreting the network—or predicting dependence.**
 
 ## Related concepts
 
-[Ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) explains incoming cues. [Autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy) explains the recycling output. [Cholesterol homeostasis](/wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp) is another resource-control system. [The growth lesson](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor) puts these measurements side by side.
+- [Ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor): incoming cues.
+- [The growth-and-resource lesson](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor).
 
-## Sources
+## Sources and scope
 
-Source check: 2026-10-09. General mechanism education; the worked example is fictional. Expert and learner review pending.
+Source check: October 10, 2026. General mechanism education; the culture is fictional. Expert and learner review remain pending.
 
-- [Alessi 1997: PDK1 and AKT activation](https://pubmed.ncbi.nlm.nih.gov/9368760/).
-- [Sarbassov 2005: AKT phosphorylation by the rictor–mTOR complex](https://pubmed.ncbi.nlm.nih.gov/15718470/).
-- [Ganley 2009: mTOR signaling and autophagy initiation](https://pubmed.ncbi.nlm.nih.gov/19258318/).
+- [Maehama and Dixon (1998)](https://pubmed.ncbi.nlm.nih.gov/9593664/): PTEN removal of the PIP3 lipid phosphate in biochemical and human 293-cell experiments.
+- [Alessi et al. (1997)](https://pubmed.ncbi.nlm.nih.gov/9368760/): PDK1-mediated AKT/PKB phosphorylation and lipid-dependent recruitment context.
+- [Sarbassov et al. (2005)](https://pubmed.ncbi.nlm.nih.gov/15718470/): rictor–mTOR complex phosphorylation of AKT Ser473 in cellular and biochemical experiments.
+- [Ganley et al. (2009)](https://pubmed.ncbi.nlm.nih.gov/19258318/): nutrient-regulated initiation machinery; not a completed-flux or clinical-benefit test.
+- [O'Reilly et al. (2006)](https://pubmed.ncbi.nlm.nih.gov/16452206/): feedback release in cancer models and patient-tumor pharmacodynamic observations.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

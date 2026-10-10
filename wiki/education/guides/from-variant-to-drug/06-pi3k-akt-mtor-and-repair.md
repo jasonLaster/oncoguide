@@ -32,7 +32,7 @@ This is optional step 6 of [From a variant to a drug claim](/wiki/education/guid
 
 ## Follow the signal, then look for the brakes
 
-Imagine a control panel with several linked switches. Turning one down may slow an output. It may also release a safety brake that turns another switch back up. Cells use feedback like this, although their switches are chemical reactions rather than knobs.
+Imagine a control panel with several linked switches. Turning one down may slow an output. It may also release a safety brake that turns another switch back up. Cells use [feedback](/wiki/education/concepts/biology-basics/signaling/feedback-loops) like this, although their switches are chemical reactions rather than knobs.
 
 The familiar [PI3K → AKT → mTORC1 pathway](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) is a simplified growth-signaling route:
 
@@ -43,7 +43,7 @@ The familiar [PI3K → AKT → mTORC1 pathway](/wiki/education/concepts/cancer-b
 | mTORC1 | Mechanistic target of rapamycin complex 1 | Integrates growth and nutrient inputs, promotes biosynthesis, and restrains autophagy initiation. |
 | PTEN | Phosphatase and tensin homolog | Removes a phosphate from a lipid signal made by PI3K, acting as a brake on this route. |
 
-A **kinase** adds phosphate groups to a target; a **phosphatase** removes them. These modifications can change activity without changing how much protein is present. PTEN's lipid-phosphatase activity was demonstrated experimentally; loss of its relevant function can remove a restraint on PI3K signaling. RNA abundance alone cannot establish whether that restraint is working. [Maehama and Dixon 1998](https://pubmed.ncbi.nlm.nih.gov/9593664/).
+A [**kinase**](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) adds phosphate groups to a target; a **phosphatase** removes them. The target may be a lipid or a protein. [Protein phosphorylation](/wiki/education/concepts/biology-basics/signaling/phosphorylation) can change activity without changing how much protein is present; the meaning depends on the measured site. PTEN's lipid-phosphatase activity was demonstrated experimentally; loss of its relevant function can remove a restraint on PI3K signaling. RNA abundance alone cannot establish whether that restraint is working. [Maehama and Dixon 1998](https://pubmed.ncbi.nlm.nih.gov/9593664/).
 
 <img src="./images/pi3k-repair-recycling-tradeoff-light.png" alt="Panels connect PI3K, AKT, and mTORC1 signaling to DNA repair and an autophagy initiation brake, then show that competing effects require a measured outcome" data-theme-pair>
 

@@ -41,7 +41,7 @@ The **proteasome** cuts suitable protein cargo into small pieces. Ubiquitin tags
 | Is material moving through the route? | Turnover with controlled clearance blockade and complementary cargo tracking | “The cell must depend on this route.” |
 | Does survival depend on a defined function? | Perturbation, target engagement, viability, and specificity controls | “The intervention will benefit patients.” |
 
-**Target engagement** means showing that an intervention changed its intended biochemical target or process. It is useful evidence, but it answers a narrower question than survival or clinical benefit.
+[Target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) asks whether the intervention reaches and interacts with its intended molecular target. A changed downstream process is a separate readout. Neither alone establishes survival dependence or clinical benefit.
 
 For autophagy, the membrane-associated LC3-II marker can accumulate through increased formation or slowed clearance. **Flux** means throughput over time. Comparing conditions with and without a short, verified lysosomal block can help estimate turnover. A tandem fluorescent reporter can provide a complementary view of compartment maturation. No single marker settles every interpretation. [Kimura 2007](https://pubmed.ncbi.nlm.nih.gov/17534139/), [assay guidance](https://pubmed.ncbi.nlm.nih.gov/33634751/).
 
@@ -105,3 +105,5 @@ Source check: 2026-10-09. General education; all worked scenarios and numerical 
 - [Ganley 2009: the ULK1–ATG13–FIP200 initiation complex](https://pubmed.ncbi.nlm.nih.gov/19258318/).
 - [Hershko 1983: ubiquitin-ligase components](https://pubmed.ncbi.nlm.nih.gov/6305978/).
 - [Klionsky 2021: autophagy assay interpretation, fourth edition](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+
+Target-engagement wording checked October 10, 2026, against the [CETSA primary study](https://pubmed.ncbi.nlm.nih.gov/23828940/). This bounded terminology correction does not refresh the other study or treatment claims above.

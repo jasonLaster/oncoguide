@@ -26,6 +26,7 @@ review_status: "Source-checked; expert and learner review pending"
 This is step 1 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). A credible finding comes before a measured biological consequence and clinical translation.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
  A["1. Authenticate and attribute"] --> B["2. Measure biological effect"]
  B --> C["3. Check evidence and access"]
@@ -43,7 +44,7 @@ The report should distinguish a measured sequence from [variant-effect predictio
 
 ## Authenticate the observation
 
-Ask about specimen identity, tissue type, assay design, local coverage, and quality control. **Coverage** describes how much sequencing evidence exists at a location. A high overall sequencing average does not guarantee usable evidence at the one site that matters.
+Ask about specimen identity, tissue type, assay design, local coverage, and quality control. [Sequencing depth and breadth](/wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage) answer different questions: depth counts usable evidence at a location; breadth describes how much of the intended territory meets a stated requirement. A high overall sequencing average does not guarantee usable evidence at the one site that matters.
 
 Technical errors can arise before sequencing, during preparation, or during analysis. A call supported mainly by poor-quality or unusually aligned reads needs investigation. Repeating the same data through another report template is not independent confirmation.
 
@@ -57,9 +58,9 @@ A tumor specimen is a mixture. The finding may belong to malignant cells, other 
 
 [Germline testing](/wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing) and [hereditary breast-cancer genes](/wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes) supply the inherited-risk context. A variant of uncertain significance cannot be promoted to a pathogenic inherited finding merely because the gene is familiar.
 
-Next, distinguish origin from **clonality**, the distribution of a finding among cancer-cell lineages. Variant allele fraction, or VAF, is the fraction of informative sequencing reads carrying the variant. Cancer-cell fraction estimates how many cancer cells carry it. Purity, copy number, and the number of altered copies affect the relationship.
+Next, distinguish origin from **clonality**, the distribution of a finding among cancer-cell lineages. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) explains why one sample may miss a branch elsewhere. Variant allele fraction, or VAF, is the fraction of usable reads, or assay-defined molecules, carrying the variant at that location. Cancer-cell fraction estimates what fraction of cancer cells carry it. Purity, copy number, and the number of altered copies affect the relationship.
 
-A driver helps promote cancer behavior. A passenger travels with the cancer without an established driving role. Authenticity does not establish which category a particular finding belongs to.
+A **driver** helps promote cancer behavior. A **passenger** travels with the cancer without an established driving role. [Oncogenes and tumor suppressors](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor) explain different ways a change can affect that behavior. Authenticity does not establish which role a particular finding has, or whether the cells depend on it for survival.
 
 ## A worked example: one number, several explanations
 

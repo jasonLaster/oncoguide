@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -25,57 +25,80 @@ A ligand is a molecule that binds a particular partner; a receptor is a protein 
 
 ## The intuition
 
-Think of a doorbell. Someone presses a button outside; a signal reaches something inside. Binding is the press. Signaling is what happens afterward. The analogy has limits: molecules are flexible, binding is reversible, and several signals can arrive together. Some drugs occupy a binding site without ringing the bell.
+Think of a doorbell: a visitor makes contact, and something inside may respond. The analogy separates an interaction from its consequence. It breaks down if it suggests one fixed response. Molecular binding is often reversible, and a cell's partners and state affect what follows.
+
+A molecule can bind without ringing the bell. It might block another visitor or use the address to deliver a package. Those possibilities deserve different experiments.
 
 ## How it works
 
-A ligand can be a protein, a small molecule or a molecule displayed on another cell. [Receptor types](/wiki/education/concepts/biology-basics/signaling/receptor-types) differ in location and how they pass a signal onward. Location matters when asking whether a drug can reach its target. [Cell-signaling principles](https://www.ncbi.nlm.nih.gov/books/NBK9924/) describe both routes.
+A receptor is a [protein](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). Some receptors receive signals at the [cell membrane](/wiki/education/concepts/biology-basics/cells/cell-and-membrane); others receive them inside the cell. A ligand must reach the relevant binding site. [Receptor types](/wiki/education/concepts/biology-basics/signaling/receptor-types) explain these receiving mechanisms and why location does not determine every function.
 
-[Agonists and antagonists](/wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist) can bind a receptor yet produce different responses. A molecule can bind well yet produce little signal. Receptors also depend on partners, internal signaling machinery and the cell’s state. The same signal can therefore have different effects in different cells.
+Binding can change a receptor's shape or interactions. That may open an ion channel, alter an enzyme's activity or change gene regulation. An ion is an electrically charged particle. The resulting [signal transduction](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) depends on the receptor, cellular partners and timing.
 
-Not every molecular target is a signaling receptor. An accessible protein can be an address for a drug carrying a payload. That drug may work through payload delivery rather than through the target’s normal function. Ask three separate questions: does it bind, does binding alter a signal, and does the finished treatment produce the intended effect?
+[Agonists and antagonists](/wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist) describe functional effects through a receptor. They are not alternative words for a ligand. A ligand can activate a measured response, oppose another ligand's action or have no detected effect on that response.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":4,"nodeSpacing":12}}}%%
 flowchart TD
-  A[Binding to a molecular partner] --> B[Activate a signal]
-  A --> C[Block an interaction]
-  A --> D[Localize a payload]
-  B --> E[Measure the resulting behavior]
-  C --> E
-  D --> E
+    A["Binding to a<br/>molecular partner"] -->|may| B["Activate<br/>a signal"]
+    A -->|may| C["Block<br/>an interaction"]
+    A -->|may| D["Localize<br/>a payload"]
+    B --> E["Measure the<br/>resulting behavior"]
+    C --> E
+    D --> E
 ```
 
-*Binding identifies an interaction; the response needs its own measurement.*
+The branches show possible jobs after binding. Each needs its own action measurement; binding alone does not establish any branch.
+
+An [antibody–drug conjugate](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) illustrates the last job. An accessible protein can serve as an address for delivery without being the cancer's main growth driver. Whether delivery works depends on the finished construct and its target; binding alone does not prove that it does.
 
 ## Why it matters in cancer
 
-- Some cancers rely on altered signaling for growth or survival.
-- A targeting address does not have to be a growth driver.
-- An inhibitory [immune checkpoint](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) is a signaling interaction, not a tumor-specific address.
+Keep four questions apart: can the molecule bind; does it change a function; does the cell depend on that function; and does the treatment help patients? An experiment can answer the first while leaving the other three open.
 
-## Worked example
+A receptor's presence does not establish dependence. Conversely, targeting a surface address can support a delivery strategy even when blocking that protein alone does not slow growth. Normal cells may share the address, so accessible binding is not evidence of tumor-only exposure or safety.
 
-In a fictional experiment, an antibody binds protein A on cancer cells. Cell growth stays unchanged. That establishes binding under those conditions. It does not establish that protein A drives growth, or that this antibody blocks its function. Adding a payload would create a different experiment and a new safety question.
+## How it is measured
+
+[Affinity](/wiki/education/concepts/biology-basics/molecules/enzymes-and-binding) describes binding strength under specified conditions. A dissociation constant, **Kd**, commonly has molar units, such as nanomolar. A concentration–response experiment measures a defined function instead. Receptor amount and signal amplification can separate these measurements; a binding number is not a response percentage.
+
+Record the partner, accessible location, free versus added ligand concentration, timing and controls. Surface staining, purified-protein binding and a living-cell response are different assays. To test dependence, perturb the proposed function and measure growth and survival, with controls for unrelated effects.
 
 ## Common confusions
 
-- “Ligand” does not mean “activator.”
-- Strong binding is not the same as strong signaling.
-- A target can help deliver a drug without controlling cancer growth.
-- A membrane drawing does not describe an intracellular receptor.
+- **Ligand versus agonist:** a binding partner need not activate the measured response.
+- **Strong binding versus strong response:** the cell's receiving machinery matters.
+- **Targeting address versus driver:** an address may be useful for delivery without driving growth.
+- **Binding versus benefit:** delivery, dependence, exposure and clinical outcomes remain separate tests.
+
+## Try it
+
+In a fictional experiment, an antibody binds surface protein A on viable cells. Growth is unchanged. A colleague concludes, “A cannot be a useful targeting address.” Does that follow?
+
+**Answer:** No. The experiment supports binding without growth inhibition by this antibody under these conditions. It has not tested an attached payload, immune-effector recruitment or a different blocking mechanism. Those require construct-specific experiments, including effects on normal cells. It also has not established that A is a growth dependency.
+
+## Explain it back
+
+“Binding tells me ___; activation or delivery requires ___; dependence requires ___.”
+
+One answer: “which partners interact; a measurement of the proposed action; a controlled perturbation with a relevant cellular outcome.”
+
+## Takeaway
+
+**Name the binding partner, the proposed action and the experiment that actually measured that action.**
 
 ## Related concepts
 
-- [Antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure)
-- [Cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine)
+- [Drug targets and mechanisms](/wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism).
+- [The supporting binding lesson](/wiki/education/oncology-101/1-ligands).
 
 ## Sources and scope
 
-Source check: October 9, 2026. General molecular interactions; no treatment selection or binding threshold is implied. Expert and learner review remain pending.
+Source check: October 10, 2026. General mechanism education; the antibody experiment is fictional. Expert and learner review remain pending.
 
-- [The Cell: signaling molecules and their receptors](https://www.ncbi.nlm.nih.gov/books/NBK9924/).
-- [Molecular Biology of the Cell: cell communication](https://www.ncbi.nlm.nih.gov/books/NBK26813/).
-- [NCI: monoclonal antibodies](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies).
+- [Cooper, Signaling Molecules and Their Receptors (2000)](https://www.ncbi.nlm.nih.gov/books/NBK9924/): textbook receptor locations and receiving mechanisms.
+- [Black and Leff (1983)](https://pubmed.ncbi.nlm.nih.gov/6141562/): a pharmacological model separating binding, receptor amount and transduction into response; no clinical benefit model.
+- [NCI: targeted therapy](https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies): distinct signaling, immune and payload-delivery mechanisms, with treatment toxicity remaining possible.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

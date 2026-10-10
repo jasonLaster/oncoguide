@@ -56,9 +56,9 @@ An average can hide poorly measured positions. Check the exact location, the cou
 
 ## A worked finding: mutation plus copy loss
 
-A fictional tumor has a splice-site change in repair gene R and loss of the other parental region. Its normal comparison does not show the variant within the assay's scope. A copy-aware model estimates that the retained cancer-cell copies carry it.
+A fictional tumor has a splice-site change in repair gene R and loss of the other parental region. [Copy number and loss of heterozygosity (LOH)](/wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh) separate the total count from which parental contributions remain. Its normal comparison does not show the variant within the assay's scope. A copy-aware model estimates that the retained cancer-cell copies carry it.
 
-Together, these observations support a somatic, potentially two-copy-disruption hypothesis. They do not show which RNA products were made or whether useful protein remains. If phase or copy-state alternatives are unresolved, preserve those alternatives before drawing the stronger mechanism.
+Together, these observations support a somatic, potential biallelic-inactivation hypothesis. They do not show which RNA products were made or whether useful protein remains. [Tumor purity and cancer-cell fraction](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction) depend on the sampled mixture and the model's copy assumptions. A tissue-area cellularity estimate cannot simply replace the model's cancer-cell fraction. If phase or copy-state alternatives are unresolved, preserve those alternatives before drawing the stronger mechanism.
 
 The next assay should test the proposed consequence. A splice question calls for suitable RNA-junction evidence. A predicted fusion calls for the relevant transcript or protein question. A copy gain calls for expression, localization or functional investigation as appropriate.
 

@@ -27,9 +27,9 @@ This step supplies the source list. [Human leukocyte antigen (HLA)](/wiki/educat
 
 ## The intuition: compare before calling a difference
 
-A laboratory reads many short pieces of sequence. **Variant calling** is the process of inferring an alteration from those observations. The program compares reads with a reference and evaluates support, quality and competing explanations. It does not observe a perfectly complete tumor genome directly.
+A laboratory reads sequence from many prepared molecules. [**Variant calling**](/wiki/education/concepts/measurement/sequencing-basics/variant-calling) is the process of inferring an alteration from those observations. The program compares reads with a reference and evaluates support, quality and competing explanations. It does not observe a perfectly complete tumor genome directly.
 
-Matched normal material helps distinguish inherited differences from tumor-associated changes. The normal specimen’s suitability and contamination still need review. Tumor-only analysis estimates some of these distinctions, but cannot always establish them confidently.
+Matched normal material helps distinguish [germline from somatic findings](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic). Somatic changes can occur in nonmalignant cells too. The normal specimen’s suitability and contamination still need review. Tumor-only analysis estimates some of these distinctions, but cannot always establish them confidently.
 
 ## What the measurements contribute
 
@@ -40,13 +40,13 @@ Matched normal material helps distinguish inherited differences from tumor-assoc
 | Tumor RNA | Is the altered transcript supported? | Mixed-cell composition, expression depth and processing |
 | Protein or peptide evidence | Does a downstream product exist? | Method coverage, cell origin and detection limits |
 
-A targeted panel reads selected regions. Whole-exome sequencing focuses largely on coding regions. Whole-genome sequencing covers a broader range of sequence. Greater breadth does not by itself guarantee adequate depth, accurate structural calls or a useful antigen.
+[Panel, exome and genome sequencing](/wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome) examine different territories. A targeted panel reads selected regions. Whole-exome sequencing focuses largely on coding regions. Whole-genome sequencing covers a broader range of sequence. Greater breadth does not by itself guarantee adequate depth, accurate structural calls or a useful antigen.
 
 ## Allele fraction is not tumor coverage
 
-Variant allele fraction is the proportion of reads at a locus supporting the variant. Normal-cell admixture, copy-number changes and the number of mutant copies affect it. It is not automatically the percentage of cancer cells carrying a target.
+[Variant allele fraction (VAF)](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction) is the proportion of usable reads, or assay-defined molecules, at a locus supporting the variant. Normal-cell admixture, copy-number changes and the number of mutant copies affect it. It is not automatically the percentage of cancer cells carrying a target.
 
-Use [copies, alleles and clones](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones) for a worked interpretation. A **truncal** alteration is shared broadly across a tumor’s evolutionary branches; a **subclonal** alteration occurs in a subset. One small biopsy may not establish either pattern across every site.
+Use [copies, alleles and clones](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones) for a worked interpretation. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) separates a local cancer-cell estimate from a **truncal** ancestry inference across sampled branches. A **subclonal** alteration occurs in a subset of cancer cells. One small biopsy may not establish either pattern across every site. Neither ancestry nor read fraction proves that a peptide is displayed.
 
 ## Worked example: maintain an evidence ledger
 

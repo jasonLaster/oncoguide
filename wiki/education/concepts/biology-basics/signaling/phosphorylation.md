@@ -7,7 +7,7 @@ summary: "Protein phosphorylation attaches a phosphate group at a particular sit
 glossary_anchor: "phosphorylation"
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]", "[[wiki/education/concepts/biology-basics/molecules/enzymes-and-binding]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 source_checked: "2026-10-09"
@@ -90,5 +90,6 @@ Source check: October 9, 2026. General mechanism education; practice values are 
 ## Used in
 
 - [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
+- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
 - [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
 <!-- END GENERATED USED IN -->

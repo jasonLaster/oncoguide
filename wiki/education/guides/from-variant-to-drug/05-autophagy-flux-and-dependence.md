@@ -31,7 +31,7 @@ This is optional step 5 of [From a variant to a drug claim](/wiki/education/guid
 
 ## Count packages, then watch deliveries
 
-[Autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy) is a cell process that encloses material in a membrane package, an **autophagosome**, and sends it to a **lysosome** for breakdown. The cell can reuse the resulting components. It is normal maintenance machinery as well as a possible stress response.
+In the [macroautophagy process](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy) used in this lesson, an **autophagosome** carries cell material to a **lysosome** for breakdown and reuse. The concept page explains the machinery; here we ask which measurement can distinguish a moving queue from a blocked one.
 
 Think of a delivery depot. A photograph showing many packages could mean many deliveries are arriving. It could also mean the trucks stopped leaving. The photograph alone does not tell you how much material completes its trip.
 

@@ -13,8 +13,9 @@ used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biolog
 sensitive: false
 reviewed: pending
 reviewed_by: ""
-review_status: "Expert and learner review pending"
-source_checked: 2026-10-09
+review_status: "Source-checked; expert and learner review pending"
+updated: 2026-10-10
+source_checked: 2026-10-10
 tags: [education, synthetic-lethality, PARP, targeted-therapy]
 ---
 
@@ -26,48 +27,70 @@ Synthetic lethality occurs when two impairments together kill a cell even though
 
 ## The intuition
 
-Picture a town with two routes for an essential delivery. Closing either route still leaves a way through. Closing both stops the delivery. A cell can likewise tolerate losing one function while depending on another. **Synthetic lethality** names the damaging interaction between the two losses. Real cells have more than two routes, and a drug rarely closes one route perfectly.
+Picture a town with two routes for an essential delivery. Closing either still leaves a way through. Closing both stops the delivery. A cell can likewise tolerate losing one function while depending on another. Real cells have more than two routes, and a drug rarely closes one route perfectly.
+
+The useful question is, “What becomes essential after the first loss?” It is different from simply asking which protein is abundant.
 
 ## How it works
 
-One impairment may already exist in a tumor. A drug can then create the second. The treatment aims to exploit a vulnerability created by the first loss, rather than simply attack the altered gene itself.
+One impairment may already exist in a tumor. A drug can create the second, exploiting a consequence of the first loss. A two-loss mechanism therefore does not necessarily require two drugs.
 
-A classic example involves [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd), a DNA repair process, and **poly(ADP-ribose) polymerase (PARP)** inhibitors. ADP-ribose is a small chemical unit that PARP enzymes use to build signals at DNA damage. In experimental models, loss of BRCA1 or BRCA2 repair function made cells much more vulnerable to PARP inhibition. [Farmer 2005](https://www.nature.com/articles/nature03445), [Bryant 2005](https://pubmed.ncbi.nlm.nih.gov/15829966/).
+A classic example involves [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd), a [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) repair process, and [poly(ADP-ribose) polymerase (PARP) inhibitors](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping). Adenosine diphosphate-ribose, or ADP-ribose, is a chemical unit used to build damage-response signals. In experimental models, impaired BRCA1 or BRCA2 repair function increased sensitivity to PARP inhibition. This was mechanistic evidence in cells and experimental tumors, not a guarantee for every genetic finding.
 
-Homologous recombination deficiency (HRD) means this repair process is impaired. This is a useful starting model, rather than a full account of drug action. PARP inhibitors both suppress enzyme activity and can trap PARP on DNA. Cells also vary in how they protect DNA copying, restore repair, or handle the resulting stress. A repair defect therefore creates a hypothesis about vulnerability, not certainty that a specific drug will work.
+**Homologous recombination deficiency (HRD)** means this repair process is impaired. PARP drugs can suppress enzyme activity and trap PARP on DNA; these effects are not identical. Cells also vary in repair restoration and management of replication stress, stress during DNA copying. The two-route analogy is therefore useful but incomplete.
 
-To demonstrate a proposed interaction, researchers compare each impairment alone with both together. They check that the intended functions changed and that the combined loss caused cell death. Independent ways of disrupting the function help rule out an unrelated drug effect. Restoring the impaired function, called a **rescue experiment**, can further strengthen the causal explanation.
+To test a proposed interaction, compare matched cells with neither impairment, each alone and both together. Verify that the intended functions changed. [Target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) and a downstream biochemical effect are separate measurements. Independent perturbations help exclude an unrelated drug effect.
+
+A **rescue experiment** restores a relevant function and asks whether the predicted harm diminishes. Rescue strengthens the causal explanation when restoration works and appropriate controls are included. Failed rescue is not automatically disproof: expression, localization or timing may be inadequate.
 
 ## Why it matters in cancer
 
-Synthetic lethality offers a way to target the *consequence* of losing a protective function. Some [tumor suppressors](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor) are missing or inactive; it may be easier to inhibit a remaining dependency than to replace the lost protein.
+A [tumor suppressor](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor) may be missing or inactive. It can be easier to disrupt a remaining dependency experimentally than replace the lost function. But the first genetic label does not establish its functional effect, and high expression does not establish dependence.
 
-The first impairment can be genetic, while the second is pharmacological. Thus a “two-loss” mechanism does not necessarily require two drugs. A tumor with impaired BRCA repair may already have the first loss before a PARP inhibitor is given.
+Normal tissues can still be harmed. Exposure, tumor context and clinical safety evidence remain necessary. A synthetic-lethal mechanism does not settle an indication or a post-treatment decision.
 
-Selectivity is also incomplete. Normal tissues can be harmed by the drug. The approved clinical setting, exposure, and safety evidence remain essential; the synthetic-lethal explanation does not replace them.
+## How it is measured
+
+Measure death separately from slower growth. A metabolic “viability” signal can fall because cells divide less or change metabolism. Cell counts combine division and loss. Pair suitable death measurements with longer-term survival or colony formation, recording concentration, time and the denominator. Colony formation itself measures reproductive survival, not the mechanism of death.
+
+An interaction can weaken growth without meeting the strict lethal definition. Specify the measured outcome rather than upgrade reduced proliferation to cell killing.
 
 ## Common confusions
 
-**Synthetic lethality versus oncogene addiction.** Oncogene addiction means a cancer depends strongly on an active cancer-driving gene or pathway. Inhibiting that driver can stop growth or cause death. Synthetic lethality instead describes the interaction between two impairments. The concepts can coexist in a tumor, but they ask different questions: “what active signal does this cell need?” versus “what remaining function becomes essential because another is lost?” Oncogene dependence has been studied directly in experimental kinase-driven cancer models. [Sharma 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC2673136/), with its [2009 figure correction](https://doi.org/10.1016/j.ccr.2009.10.010).
+- **Synthetic lethality versus oncogene addiction:** oncogene addiction is dependence on an active cancer-driving signal for survival or proliferation. Synthetic lethality asks how two impairments interact. They can coexist, but are not interchangeable explanations.
+- **Synthetic lethality versus synergy:** [combination synergy](/wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale) exceeds a stated expectation from single-drug effects. Its value depends on the reference model, concentrations and endpoint. A synergy score does not identify the paired causal functions.
+- **Rescue versus benefit:** restoring function in a model supports attribution; it does not establish patient benefit.
+- **More target versus more dependence:** abundance is a snapshot, not a loss-of-function test.
 
-**Synthetic lethality versus combination synergy.** Synergy means a drug combination exceeds a stated expectation derived from its single-drug effects. A screen can show that interaction without establishing which paired biological losses caused it. Conversely, an existing tumor defect plus one drug can be synthetic lethal without a two-drug combination.
+## Try it
 
-**High expression versus dependence.** Lots of a protein, or many instructions for making it, do not establish that its loss would kill the cell. Dependence requires an appropriate perturbation and outcome measurement.
+Four fictional, matched cultures have neither impairment, A only, B only or A plus B. Only the pair shows substantial death by a validated assay; each single impairment is tolerated over the same interval. Independent perturbations reproduce the result. Restoring A's function while B remains impaired reduces death. A separate short assay reports only fewer cells in the paired condition. Which evidence supports synthetic lethality?
+
+**Answer:** The controlled paired-death result, independent perturbations and appropriate rescue support that interpretation in this model. The short cell-count result alone cannot distinguish slower division from death. Testing other cell backgrounds and normal cells would examine context and selectivity; neither experiment establishes clinical benefit.
+
+## Explain it back
+
+“To call the interaction lethal, I need ___; rescue tests ___; a synergy score alone does not tell me ___.”
+
+One answer: “death from the pair with tolerated single impairments; causal attribution to a restored function; which biological losses caused the interaction.”
+
+## Takeaway
+
+**Test the two impairments and the lethal outcome before turning a plausible dependency into a mechanism claim.**
 
 ## Related concepts
 
-- [Homologous recombination and HRD](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) describe the repair weakness in the classic example.
-- [Germline versus somatic variants](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic) describe where a genetic change belongs.
-- [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment) distinguishes response, interaction, and mechanism.
+- [Germline versus somatic variants](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic): where a change belongs.
+- [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment).
 
-## Sources
+## Sources and scope
 
-Source check: 2026-10-09. General mechanism education; expert and learner review pending. The route analogy is illustrative, not a model of every repair pathway.
+Source check: October 10, 2026. General mechanism education; cultures are fictional. Expert and learner review remain pending.
 
-- [Farmer 2005: BRCA-related repair defects and PARP inhibition](https://www.nature.com/articles/nature03445).
-- [Bryant 2005: PARP inhibition in BRCA2-deficient experimental tumors](https://pubmed.ncbi.nlm.nih.gov/15829966/).
-- [Sharma 2006: dependence on oncogenic signaling in experimental models](https://pmc.ncbi.nlm.nih.gov/articles/PMC2673136/); [2009 correction to Figure 3A](https://doi.org/10.1016/j.ccr.2009.10.010).
-- [Yadav 2015: drug-interaction reference models](https://pmc.ncbi.nlm.nih.gov/articles/PMC4759128/).
+- [Farmer et al. (2005)](https://www.nature.com/articles/nature03445) and [Bryant et al. (2005)](https://pubmed.ncbi.nlm.nih.gov/15829966/): complementary BRCA/PARP experimental studies, not universal clinical selection rules.
+- [Murai et al. (2012)](https://pubmed.ncbi.nlm.nih.gov/23118055/): PARP trapping and catalytic inhibition differ in experimental models.
+- [Sharma et al. (2006)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2673136/), with its [2009 Figure 3A correction](https://doi.org/10.1016/j.ccr.2009.10.010): dependence on active oncogenic signals in studied kinase-driven models.
+- [Yadav et al. (2015)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4759128/): drug-interaction reference models and concentration-dependent synergy.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

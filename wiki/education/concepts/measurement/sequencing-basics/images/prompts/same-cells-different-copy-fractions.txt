@@ -1,0 +1,53 @@
+Create a friendly educational cartoon showing that an unchanged mixture of cancer and normal cells can have different expected variant allele fractions when the local DNA-copy denominator changes.
+
+Use a portrait 1024×1536 composition with two generously spaced, vertically stacked panels. Keep the same layout and cell identities in both panels. This is a comparison of two idealized mixtures, not a time sequence.
+
+Title: “Same cells, different copy fractions”.
+
+UPPER PANEL:
+Heading: “Two copies per cancer cell”.
+A prominent cell-count strip says “50 cancer cells” and “50 normal cells”.
+Below it, show exactly one representative cancer-cell icon and one representative normal-cell icon. These are per-cell schematics, not a drawing of all 100 cells.
+The cancer-cell icon contains two short DNA-copy bars: exactly one marked V for the variant, and one unmarked bar. The normal-cell icon contains two unmarked bars and no V.
+Label the cancer icon “2 local copies” and the normal icon “2 local copies”.
+A compact DNA ledger reads:
+“Variant copies: 50”
+“Total copies: 100 + 100 = 200”
+Make the result very prominent: “50 / 200 = 25%”.
+Label this result “Expected VAF”.
+
+LOWER PANEL:
+Heading: “Only variant copy remains”.
+The identical cell-count strip says “50 cancer cells” and “50 normal cells”.
+Show the same representative cancer-cell and normal-cell icons.
+The cancer-cell icon now contains exactly one DNA-copy bar marked V; the other copy is absent. The normal-cell icon still contains two unmarked bars and no V.
+Label the cancer icon “1 local copy” and the normal icon “2 local copies”.
+A compact DNA ledger reads:
+“Variant copies: 50”
+“Total copies: 50 + 100 = 150”
+Make the result very prominent: “50 / 150 ≈ 33%”.
+Label this result “Expected VAF”.
+
+SHARED FOOTER:
+“Same cell mixture”
+“Cell purity: 50% of all cells”
+“CCF: 100% of cancer cells”
+“Idealized model”
+“Cell icons are illustrative”
+A small simple legend identifies “V = variant copy”.
+
+Style: flat vector illustration, rounded cells and panels, friendly cartoon proportions, clean sans-serif labels and generous whitespace, consistent with the existing Diana education posters. Keep the composition theme-neutral; the generation script supplies the light or dark palette. Use large clear type throughout, approximately 44–64 pixels for ordinary labels and larger for the two fraction results. Avoid crowded fine print. The two panels should look like the same schematic with just one local cancer-cell copy removed.
+
+Scientific guardrails:
+- Each of the 50 cancer cells carries exactly one variant copy in both mixtures. Normal cells carry no variant copy.
+- Upper mixture: 50×2 cancer copies plus 50×2 normal copies = 200 local copies.
+- Lower mixture: 50×1 cancer copies plus 50×2 normal copies = 150 local copies.
+- The numerator stays 50; the DNA-copy denominator changes.
+- Cell purity is 50 cancer cells among 100 total cells. Cancer cell fraction (CCF) is 50 carrier cancer cells among 50 cancer cells, hence 100% in both panels.
+- The VAF values are expected fractions under an idealized model with diploid normal cells, uniform local cancer-cell copies and unbiased recovery/sequencing observations; this is not a direct census of sequence reads.
+- Do not portray 25% or 33% as the fraction of cancer cells, and do not portray CCF 100% as sample purity.
+- The single cell icons are explicitly illustrative. Do not invent 50 literal icons, divide them into new clones, show cell proliferation, or suggest the mixtures are longitudinal observations.
+- Copy bars represent copies of one local DNA region, not whole-genome ploidy or gene activity.
+- No gene-function claim, treatment implication, patient-specific conclusion or therapeutic arrow.
+
+Negative constraints: no photorealism, medical photography, people, organs, logos, watermarks, gradients, anatomical detail, decorative DNA helices or additional text. Do not add good/bad labels to the two panels. Use only the exact short labels specified above.

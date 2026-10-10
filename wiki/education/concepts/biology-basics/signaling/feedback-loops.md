@@ -7,7 +7,7 @@ summary: "A feedback loop returns an effect to an earlier part of a circuit, whe
 glossary_anchor: "feedback-loops"
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases]]", "[[wiki/education/concepts/biology-basics/signaling/phosphorylation]]"]
-used_by: []
+used_by: ["[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 source_checked: "2026-10-09"
@@ -97,5 +97,5 @@ Source check: October 9, 2026. General mechanism education; the culture experime
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
 <!-- END GENERATED USED IN -->

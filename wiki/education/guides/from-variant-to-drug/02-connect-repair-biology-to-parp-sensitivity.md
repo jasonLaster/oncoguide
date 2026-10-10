@@ -26,6 +26,7 @@ review_status: "Source-checked; expert and learner review pending"
 This is step 2 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). [Step 1](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding) established finding credibility and attribution. Here we connect a measured consequence before step 3 checks clinical evidence and access.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
  A["Credible repair-gene<br/>finding"] --> B["RNA and protein<br/>consequence"]
  B --> C["Current repair<br/>function"]
@@ -42,7 +43,7 @@ flowchart TD
 
 Other repair routes have different jobs. [Non-homologous end joining (NHEJ) and microhomology-mediated end joining (MMEJ)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej) join broken ends without the same long matching template. Their existence does not guarantee that an HR-deficient cell tolerates every lesion.
 
-Many cells carry two copies of a repair gene. **Biallelic inactivation** means both alleles, the copies at a locus, are functionally disrupted in the relevant cells. Evidence may combine a damaging variant and loss of the other copy. Purity, copy number, and cell-lineage mixture affect that interpretation. A high variant allele fraction (VAF) or two events somewhere in a tissue does not automatically show both copies are disabled in the same malignant population.
+Many cells carry two copies of a repair gene. [Alleles](/wiki/education/concepts/biology-basics/genetics/allele-and-zygosity) are sequence versions, rather than a physical copy count. **Biallelic inactivation** means neither parental allele supplies working gene function in the relevant cells. Evidence may combine a damaging variant and loss of the other parental contribution. Gains and losses can change the number of physical copies. [Purity and local copy state](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction), together with cell-lineage mixture, affect that interpretation. A high variant allele fraction (VAF) or two events somewhere in a tissue does not automatically show both parental contributions are disabled in the same malignant population.
 
 Pan-cancer studies have connected particular biallelic repair-gene changes with characteristic damage patterns. These associations are useful, but they do not make every repair-gene variant equivalent. [Nguyen 2020](https://pubmed.ncbi.nlm.nih.gov/33149131/).
 
@@ -75,7 +76,7 @@ A repair story becomes easier to read when each claim gets its own evidence. The
 | Claim | Evidence that can support it | The tempting overread |
 |---|---|---|
 | A repair-gene change is real | Technically credible DNA calls with sample identity and attribution. | A real variant must damage repair. |
-| Both copies are functionally disrupted | Allele-specific copy number, phasing, and a damaging consequence in the relevant cells. | A large read fraction proves biallelic loss. |
+| Neither parental gene contribution supplies useful function | Allele-specific copy number, phasing, and a damaging consequence in the relevant cells. | A large read fraction proves biallelic loss. |
 | The genome carries a compatible damage history | Method-specific scars and [mutational signatures](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures). | Past damage proves present HRD. |
 | Repair is impaired now | Fit-for-purpose protein or functional assays with adequate informative cells and controls. | One weak stain or uninformative foci result proves complete loss. |
 | A drug improves an outcome in the intended setting | Applicable clinical evidence and the actual indication or protocol. | A mechanism or culture response establishes clinical benefit. |

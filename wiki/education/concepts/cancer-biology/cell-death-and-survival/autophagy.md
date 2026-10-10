@@ -1,5 +1,5 @@
 ---
-title: "Autophagy: recycling through lysosomes"
+title: "Autophagy: recycling, flow, and dependence"
 type: "concept"
 domain: "cancer-biology/cell-death-and-survival"
 summary: "Autophagy delivers cellular material to lysosomes for breakdown and reuse; measuring how much material is present does not establish how fast it moves."
@@ -10,14 +10,14 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]]","[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-10-10"
+source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Autophagy: recycling through lysosomes
+# Autophagy: recycling, flow, and dependence
 
 ## In one sentence
 
@@ -25,50 +25,69 @@ Autophagy delivers cellular material to lysosomes for breakdown and reuse; measu
 
 ## The intuition
 
-Picture a recycling service with collection bags, trucks, and a processing center. Many bags on the curb might mean busy collection or a broken truck. One photograph cannot tell you which. Autophagy has the same measurement problem, although a cell's recycling machinery is much more complex than a city's.
+Imagine recycling bags waiting beside a collection point. A large pile could mean busy collection, slow pickup or a blocked processing center. A photograph cannot distinguish them. Autophagy needs measurements over time for the same reason.
+
+The analogy is limited: cells can select particular cargo, and their recycling machinery also interacts with other processes. A count of “bags” does not reveal everything inside them or whether recycling keeps the cell alive.
 
 ## How it works
 
-Here, autophagy means **macroautophagy**, the route most often meant in cancer discussions. A membrane grows around cargo and closes into an **autophagosome**, a double-membrane compartment. It joins a [lysosome](/wiki/education/concepts/biology-basics/cells/organelles-overview), where enzymes break material down. Released building blocks can be reused.
+This page focuses on **macroautophagy**, the route that encloses material in a double-membrane compartment called an **autophagosome**. It eventually delivers cargo to a [lysosome](/wiki/education/concepts/biology-basics/cells/organelles-overview), an acidic compartment containing breakdown enzymes. The resulting building blocks can be reused. Other autophagy routes exist; not every lysosomal process uses an autophagosome.
 
-The cargo can include proteins, damaged organelles, or other cellular material. Some cargo is selected by recognition proteins. Different cargo and routes need different experiments; a general autophagy marker cannot establish that one particular protein is being cleared.
+**Autophagic flux** means movement through the process, including delivery and degradation. Formation, fusion with lysosomes and degradation are separate steps. A block late in the process can increase the amount of visible material while reducing completed recycling.
 
-**Flux** is the movement of material through the whole route over time. LC3 is a protein used to follow autophagy-related membranes. Its membrane-associated form, LC3-II, can rise when formation increases or clearance slows. Dynamic comparisons and complementary readouts distinguish these possibilities. [Kimura 2007](https://pubmed.ncbi.nlm.nih.gov/17534139/).
+**Microtubule-associated protein 1 light chain 3 (LC3)** is a commonly studied marker. Its lipid-attached form, **LC3-II**, associates with autophagic membranes. More LC3-II can reflect increased formation or reduced removal. Its abundance alone is not a flux measurement or proof of selective cargo degradation.
+
+A controlled, short lysosomal-block experiment compares LC3-II with and without blocked degradation. Additional accumulation can support ongoing turnover during that interval. Complementary reporters can track delivery into acidic compartments: Kimura and colleagues developed a tandem fluorescent LC3 reporter whose green and red signals respond differently to those conditions. A reporter needs controls for expression, acidity and handling; it is not an infallible cargo census.
 
 ## Why it matters in cancer
 
-Recycling can help stressed cells survive. It can also remove damaged material that would otherwise accumulate. Its effect depends on the cell, cargo, disease stage, and surrounding conditions. Therefore “more autophagy” is not automatically good or bad for cancer.
+Recycling can help cells cope with nutrient shortage and damage. Its importance varies with the cell and conditions. “Autophagy is present,” “flux increased” and “survival depends on autophagy” are different claims.
 
-**Dependence** asks a different question: does disrupting a defined recycling function impair survival? That requires a perturbation, meaning an experimental change, with suitable controls. A result in one model does not establish a safe clinical treatment.
-
-## A worked example
-
-Two fictional cultures have equally high LC3-II. In culture A, LC3-II rises further during a short, controlled lysosomal block. In culture B, it changes little. A also shows cargo reaching acidic compartments in a complementary reporter assay.
-
-A supports ongoing delivery and clearance. B could have a late block, low new formation, or an unsuitable measurement window. It needs more testing. Neither result alone establishes whether either culture depends on autophagy to survive.
-
-## Common confusions
-
-- **Amount versus flow:** counting autophagosomes does not measure completed recycling.
-- **Flow versus dependence:** active recycling need not be a survival bottleneck.
-- **Autophagy versus proteasomes:** [the ubiquitin–proteasome system](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome) is another protein-handling route, with distinct machinery.
-- **Broad lysosomal disruption versus selective cargo removal:** a compound can affect several processes at once.
+Specific cargo can be selected. A general marker cannot establish that a particular protein is being cleared. Likewise, lowering [mTOR signaling](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) can change initiation without guaranteeing completed recycling or cell death.
 
 ## How it is measured
 
-Common research approaches compare LC3 turnover with and without controlled lysosomal inhibition, track cargo clearance, and use tandem fluorescent reporters. Reporter colors depend on compartment acidity and experimental conditions. No single marker answers every question. Use multiple readouts, adequate time points, viable cells, and a verified block. [Assay guidance, fourth edition](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+Useful readouts include normalized LC3-II band intensity, reporter-positive compartments per cell and disappearance of a specified cargo over time. Units and normalization belong beside the result; none supplies a universal treatment cutoff.
+
+Use matched viable cultures, several times, verified lysosomal inhibition and an independent readout. Prolonged inhibition itself can disturb the system. To test survival dependence, disrupt the process in independent ways and measure death as well as growth. Restoration of the relevant function can strengthen attribution. Autophagy-related proteins may have other jobs, so changing one gene or using a broad inhibitor is not a complete specificity control.
+
+## Common confusions
+
+- **Abundance versus flux:** a pile-up can indicate a blockage.
+- **Flux versus dependence:** active recycling need not be essential for survival.
+- **General marker versus selected cargo:** LC3 does not identify every material being degraded.
+- **Initiation versus completion:** making autophagosomes is only part of the route.
+
+## Try it
+
+Two fictional cultures have equally high LC3-II. In A, a controlled short lysosomal block produces further accumulation, and a complementary reporter supports delivery into acidic compartments. In B, little additional accumulation occurs. Which culture's survival depends on autophagy?
+
+**Answer:** Neither dependence is established. A's measurements support ongoing flux under the tested conditions. B could have a late block, low formation or an unsuitable measurement window; additional controls are needed. Survival dependence requires a separate, specific perturbation and outcome experiment. The equal starting snapshot answered neither question.
+
+## Explain it back
+
+“Abundance measures ___; flux tests ___; dependence asks ___.”
+
+One answer: “material present at a moment; movement through recycling over time; whether disrupting that process harms survival in this setting.”
+
+## Takeaway
+
+**Read the amount, the movement and the survival requirement as three separate pieces of evidence.**
 
 ## Related concepts
 
-[DNA, RNA, and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) supplies the foundation. [PI3K–AKT–mTOR](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) helps explain growth and recycling signals. Continue with [the recycling lesson](/wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis).
+- [Ubiquitin and the proteasome](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome): another route for controlled protein breakdown.
+- [The flux-and-dependence lesson](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence).
 
-## Sources
+## Sources and scope
 
-Source check: 2026-10-09. General mechanism education; the worked example is fictional. Expert and learner review pending.
+Source check: October 10, 2026. General macroautophagy methods; cultures are fictional. Expert and learner review remain pending.
 
-- [Kimura 2007: a tandem reporter of autophagosome maturation](https://pubmed.ncbi.nlm.nih.gov/17534139/).
-- [Ganley 2009: ULK1, ATG13, and FIP200 in starvation-induced autophagy](https://pubmed.ncbi.nlm.nih.gov/19258318/).
-- [Klionsky 2021: fourth-edition autophagy assay guidance](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+- [Kimura et al. (2007)](https://pubmed.ncbi.nlm.nih.gov/17534139/): tandem fluorescent LC3 reporter for maturation and lysosomal delivery in cell experiments.
+- [Ganley et al. (2009)](https://pubmed.ncbi.nlm.nih.gov/19258318/): starvation-regulated initiation machinery and mTOR signaling in cellular and reconstituted experiments.
+- [Klionsky et al., fourth-edition assay guidelines (2021)](https://pubmed.ncbi.nlm.nih.gov/33634751/): complementary assays and specificity limits of individual markers or genetic perturbations.
+- [Kirkin et al. (2009)](https://pubmed.ncbi.nlm.nih.gov/19250911/): selective handling of ubiquitinated cargo in experimental models.
+- [Plaza-Zabala et al. (2021)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7878397/): formation-versus-degradation analysis in cultured microglia; method context, not cancer-treatment validation.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

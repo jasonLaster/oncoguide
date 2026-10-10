@@ -33,7 +33,7 @@ A **haplotype** is a group of nearby variants carried together on a chromosome. 
 
 ## Then count the local copies
 
-**Copy number** describes how many copies of a DNA region exist. **Allele-specific copy number** estimates contributions from the two parental sides. **Loss of heterozygosity (LOH)** means one distinguishable inherited version has been lost from the relevant population. Total copies can fall or remain the same.
+[Copy number and loss of heterozygosity (LOH)](/wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh) explain the mechanism and its measurement limits. Use this four-state table to interpret the different claims: total copies, parental contributions and retained function.
 
 | Idealized local state | Copies from parental sides | What it says |
 |---|---|---|
@@ -42,7 +42,7 @@ A **haplotype** is a group of nearby variants carried together on a chromosome. 
 | Copy-neutral LOH | 2 + 0 | Two copies remain, from one side |
 | Gain with both sides retained | 2 + 1 | An extra copy, both sides still present |
 
-Letters used for parental sides do not identify good and bad copies. LOH alone does not say the retained gene is disabled. **Biallelic inactivation** asks whether both functional copies are disabled in the relevant cells. A damaging variant on the retained side plus loss of the other can support that mechanism, provided the phase and cell population fit.
+Letters used for parental sides do not identify good and bad copies. LOH alone does not say the retained gene is disabled. **Biallelic inactivation** asks whether neither parental gene contribution supplies useful function in the relevant cells. It does not specify the number of physical copies remaining. A damaging variant on the retained side plus loss of the other can support that mechanism, provided the phase and cell population fit.
 
 An **amplicon** is an amplified segment that can contain several genes. More copies need not make every gene more active or identify the gene driving the cancer.
 
@@ -50,7 +50,7 @@ An **amplicon** is an amplified segment that can contain several genes. More cop
 
 ## Account for the mixture
 
-**Purity** describes the cancer-cell contribution under a stated definition. A model's cell purity and a directly measured DNA fraction need not be the same quantity. **Ploidy** describes genome copy content; a tumor report often gives an average across the genome. Whole-genome doubling can be followed by losses and gains, so a later genome is not a neat four-copy book.
+[**Purity and ploidy**](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction) belong to a stated mixture model. Cell purity is the fraction of cells that are malignant; their DNA contribution can differ because they carry different numbers of copies. **Ploidy** describes genome copy content; a tumor report often gives an average across the genome. Whole-genome doubling can be followed by losses and gains, so a later genome is not a neat four-copy book.
 
 Purity and ploidy are estimated together in many analyses. More than one plausible solution can explain the observations. Preserve the alternatives rather than turning one selected fit into a perfect cell count.
 

@@ -7,7 +7,7 @@ glossary_anchor: allele-and-zygosity
 aliases: ["allele", "zygosity", "heterozygous", "homozygous", "hemizygous"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]", "[[wiki/education/concepts/biology-basics/molecules/gene]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -32,7 +32,7 @@ A **locus** is a genomic location. An [allele](https://www.genome.gov/genetics-g
 
 If the versions at a locus are identical, the genotype is **homozygous**. If they differ, it is **heterozygous**. These labels describe sequence state; they do not themselves say “healthy” or “damaging.” A **hemizygous** region has only one copy in an otherwise diploid setting, where most chromosome sets are paired. [NCI hemizygous](https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/hemizygous).
 
-In cancer, **copy number** can change through loss or gain. Two copies do not guarantee two different alleles. **Loss of heterozygosity (LOH)** means that the different versions previously present are no longer both retained in the relevant cells or region. It can occur with copy loss, or be **copy-neutral**, with two copies of one version instead of one of each. Allele-aware data can reveal differences hidden by total copy number. [Ciani 2022](https://pubmed.ncbi.nlm.nih.gov/34731645/).
+In cancer, [copy number and loss of heterozygosity (LOH)](/wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh) describe how many copies and which parental contributions remain. Two copies do not guarantee two different alleles. Here, use the sequence labels to distinguish zygosity from a change relative to the original state. [Ciani 2022](https://pubmed.ncbi.nlm.nih.gov/34731645/).
 
 Use these fictional states to keep the axes separate:
 
@@ -46,6 +46,7 @@ Use these fictional states to keep the axes separate:
 The letters are sequence labels, not functional labels. The same state could have different biological consequences at different loci.
 
 ```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
  A["Original A/B"] --> B["A only<br/>Copy-loss LOH"]
  A --> C["A/A<br/>Copy-neutral LOH"]
@@ -110,5 +111,6 @@ Source check: October 9, 2026. General allele reasoning; the letters and copy-st
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
 - [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ summary: "Signal transduction converts an input into a cellular response through
 glossary_anchor: "signal-transduction-and-kinases"
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/receptor-types]]", "[[wiki/education/concepts/biology-basics/molecules/enzymes-and-binding]]", "[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 source_checked: "2026-10-09"
@@ -90,4 +90,5 @@ Source check: October 9, 2026. General mechanism education; the culture experime
 ## Used in
 
 - [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
+- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
 <!-- END GENERATED USED IN -->
