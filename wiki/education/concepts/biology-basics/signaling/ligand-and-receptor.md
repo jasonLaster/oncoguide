@@ -40,15 +40,15 @@ Binding can change a receptor's shape or interactions. That may open an ion chan
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":4,"nodeSpacing":12}}}%%
 flowchart TD
-    A["Binding to a<br/>molecular partner"] -->|may| B["Activate<br/>a signal"]
-    A -->|may| C["Block<br/>an interaction"]
-    A -->|may| D["Localize<br/>a payload"]
+    A["Binding to a<br/>molecular partner<br/>may:"] --> B["Signal"]
+    A --> C["Block"]
+    A --> D["Target"]
     B --> E["Measure the<br/>resulting behavior"]
     C --> E
     D --> E
 ```
 
-The branches show possible jobs after binding. Each needs its own action measurement; binding alone does not establish any branch.
+The short labels name three possible jobs: signal means activating a signal, block means blocking an interaction, and target means localizing a payload. These are possible jobs, not guaranteed outcomes. Each needs its own action measurement; binding alone does not establish any branch.
 
 An [antibody–drug conjugate](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) illustrates the last job. An accessible protein can serve as an address for delivery without being the cancer's main growth driver. Whether delivery works depends on the finished construct and its target; binding alone does not prove that it does.
 

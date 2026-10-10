@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "sourceCommit": "312b26bb044216bd031f4976a8ae3bda4ac51816",
+  "sourceCommit": "250b1accc6e9eef19291ad789fa257ed04d16fee",
   "sourcePrefix": "obsidian/",
   "rendererCommit": "055625254e37f260d479349a2c91cf7929814ca7",
   "files": {
@@ -58,7 +58,7 @@
     "wiki/education/concepts/biology-basics/molecules/rna-and-mrna.md": "24168e3d3ddf0eb0059f00d23727b2f0a48423fa62e620db636fdea1719ef8e8",
     "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md": "e10b4b866cc9d51c2bc60ea57be2bbde54b913f7e18218891b352888623e8102",
     "wiki/education/concepts/biology-basics/signaling/feedback-loops.md": "d6d0831a1b70fd652ff6447c998cc0263b75626539b4637b97995277adfb9120",
-    "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md": "82b98f53607e7b25603dcada40f702ebb0bb1794eb1b3092ca38a302632d5439",
+    "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md": "b66423680fb626ac404f91a977df689bd7de207fbb875f9b315baadc6c131d81",
     "wiki/education/concepts/biology-basics/signaling/phosphorylation.md": "a2a6fc6e51ce6ee186c44284c2e1672bba4b7d5f9b173e28d5e101aae51ba017",
     "wiki/education/concepts/biology-basics/signaling/receptor-types.md": "f41edc7f7841f71de213207801b41a9c2c87595b0370573a41e5fe6043eaffe5",
     "wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases.md": "077c1dafee4e8a333d9881940683d23f523ef585d9c456310d3b63244981820c",
