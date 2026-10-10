@@ -2,7 +2,7 @@
 title: "Understand how treatment is sequenced"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -51,6 +51,8 @@ flowchart TD
 **Mechanism and safety:** [Chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy), [checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) and [immune-related adverse events](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event).
 
 **Response:** [Pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) and [margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins).
+
+**Purpose and sequence:** [Curative intent](/wiki/education/concepts/breast-cancer/treatment-setting/curative-intent) names the goal. [Breast surgery basics](/wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics) explains removal, sampling and reconstruction. [The KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) illustrates one studied sequence; [lines of therapy](/wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy) and [response-adapted treatment](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) answer different questions about treatment history and changes.
 
 ## Understand the calendar
 

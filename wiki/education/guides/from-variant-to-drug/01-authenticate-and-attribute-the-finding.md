@@ -55,6 +55,8 @@ Disagreement also needs a fair comparison. Check whether both assays cover the e
 
 A tumor specimen is a mixture. The finding may belong to malignant cells, other cells, or a variant shared with nonmalignant tissues. Paired tumor and matched-normal analysis can help separate somatic from germline findings. A normal comparator must have adequate coverage and an appropriate source. Tumor-only analysis cannot always determine origin reliably. [Jones 2015](https://pubmed.ncbi.nlm.nih.gov/25877891/).
 
+[Germline testing](/wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing) and [hereditary breast-cancer genes](/wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes) supply the inherited-risk context. A variant of uncertain significance cannot be promoted to a pathogenic inherited finding merely because the gene is familiar.
+
 Next, distinguish origin from **clonality**, the distribution of a finding among cancer-cell lineages. Variant allele fraction, or VAF, is the fraction of informative sequencing reads carrying the variant. Cancer-cell fraction estimates how many cancer cells carry it. Purity, copy number, and the number of altered copies affect the relationship.
 
 A driver helps promote cancer behavior. A passenger travels with the cancer without an established driving role. Authenticity does not establish which category a particular finding belongs to.

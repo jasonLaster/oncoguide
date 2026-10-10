@@ -2,7 +2,7 @@
 title: "Read the jobs in the treatment plan"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -35,7 +35,7 @@ flowchart TD
 
 ## A team does not have one universal tool
 
-Imagine a plan containing systemic medicines, an operation and planned radiation. Medicines can reach tissues through the body. Surgery removes selected tissue. External-beam radiation delivers energy to planned volumes. These jobs can work together while asking different questions about benefit and risk.
+Imagine a plan containing systemic medicines, an operation and planned radiation. Medicines can reach tissues through the body. [Breast surgery](/wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics) removes selected tissue. External-beam radiation delivers energy to planned volumes. These jobs can work together while asking different questions about benefit and risk.
 
 “Systemic” does not mean every cancer cell receives the same exposure or is sensitive to the medicine. “Local” does not mean unimportant to the whole treatment goal. The terms describe reach and roles; they are not a ranking of importance.
 
@@ -86,6 +86,8 @@ Give supportive care and toxicity their own rows on the card:
 | What symptoms need prevention and reporting? | [Chemotherapy-induced nausea](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea) distinguishes nausea from vomiting and their acute, delayed and anticipatory patterns |
 
 These questions explain different jobs, not one universal side-effect plan. A supportive medicine can improve tolerability without directly treating the cancer. A symptom occurring during combination treatment can also have more than one possible cause.
+
+[Curative intent](/wiki/education/concepts/breast-cancer/treatment-setting/curative-intent) describes the plan's aim, while measured response and long-term outcome describe what happens. The intensity or number of medicines cannot establish that aim by itself.
 
 ## A worked proposal: fill in the missing fields
 

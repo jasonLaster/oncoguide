@@ -8,7 +8,7 @@ aliases: ["neoadjuvant", "adjuvant", "neoadjuvant therapy", "adjuvant therapy", 
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -54,7 +54,7 @@ This is a map of possible positions, not a requirement to receive every step. So
 
 Timing shapes what can be learned. With neoadjuvant treatment, examination, imaging and later surgical pathology can describe response. With adjuvant treatment, there may be no measurable tumor left to watch; the aim is to reduce future recurrence risk, not to prove that a visible mass is shrinking.
 
-Keep **timing** separate from **intent**. Curative intent means that the plan aims to eliminate the cancer durably; it is not a promise of cure. Treatment directed at disease control or symptom relief has a different goal. [NCI describes these different purposes for chemotherapy](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy). A treatment's position on the calendar alone cannot tell you its intent.
+Keep **timing** separate from [**curative intent**](/wiki/education/concepts/breast-cancer/treatment-setting/curative-intent): timing describes where treatment sits; intent describes the plan's goal. A treatment's position on the calendar alone cannot tell you its intent.
 
 Also distinguish palliative treatment intent from **palliative care**, supportive care addressing symptoms, distress and quality of life. Palliative care can accompany a curative treatment plan, as [NCI explains](https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet).
 

@@ -8,7 +8,7 @@ objectives: ["Compare targeted formats by recognition, action, and bottleneck ra
 prerequisites: ["[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -105,6 +105,8 @@ Complete: “Before comparing formats, I need to know ______. Before claiming be
 **A useful comparison links a measured problem to a product-specific mechanism, safety question, and appropriately scoped clinical evidence.**
 
 **Next:** [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index), or revisit [the guide map](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index) to apply the evidence ledger again.
+
+For a reference map of recognition and action, use [target versus therapeutic format](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis).
 
 ## Sources and scope
 

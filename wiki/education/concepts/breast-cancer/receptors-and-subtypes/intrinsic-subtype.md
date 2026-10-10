@@ -8,7 +8,7 @@ aliases: ["intrinsic subtype", "molecular subtype", "PAM50", "luminal A", "lumin
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -71,7 +71,7 @@ A fictional tumor is ER negative, PR negative and HER2 negative on validated tis
 ## Common confusions
 
 - A receptor-based “luminal-like” surrogate is not the same measurement as a PAM50 intrinsic subtype.
-- “Molecular subtype” is a broad phrase; it can describe other frameworks besides intrinsic subtyping.
+- “Molecular subtype” is a broad phrase; [Lehmann TNBCtype-4](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes) is a different framework from PAM50.
 - A subtype is a pattern across genes, not necessarily a single actionable mutation or pathway dependency.
 - Basal-like does not prove that the cancer began in a mature basal cell.
 

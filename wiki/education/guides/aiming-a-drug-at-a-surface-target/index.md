@@ -6,7 +6,7 @@ audience: "Curious reader or caregiver; no specialist knowledge assumed."
 minutes: 44
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -49,7 +49,7 @@ flowchart LR
 
 For recognition, use [antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure), [the T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), and [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). An exposed part of an intact surface protein and a peptide–HLA complex are different targets, even though both can be encountered at the surface.
 
-For action, use [chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy), [antibody-drug conjugates (ADCs)](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate), and [T-cell engagers](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager). [CAR (chimeric antigen receptor) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) introduces the living-cell comparison.
+For the distinction, use [target versus therapeutic format](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis). For action, use [chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy), [antibody-drug conjugates (ADCs)](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate), and [T-cell engagers](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager). [CAR (chimeric antigen receptor) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) introduces the living-cell comparison.
 
 For evidence and risk, use [immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry), [tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity), [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity), and [clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability).
 

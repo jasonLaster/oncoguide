@@ -2,7 +2,7 @@
 title: "Use the findings in the next conversation"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -65,7 +65,7 @@ Now add a negative blood assay. It does not erase the invasive tissue findings o
 
 An RCB category can be associated with outcomes in studied groups: prognostic evidence. To claim that an added treatment helps, identify a study with the relevant population, prior therapy, comparator and endpoint. To claim it helps especially in that category, inspect the subgroup evidence and uncertainty.
 
-A high-risk group does not automatically respond to every intervention. A promising mechanism also does not establish benefit after a particular prior regimen. Eligibility for access, evidence for benefit and the choice to use treatment are separate steps.
+[Response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) tests a defined next step after an assessed response. A high-risk group does not automatically respond to every intervention. A promising mechanism also does not establish benefit after a particular prior regimen. Eligibility for access, evidence for benefit and the choice to use treatment are separate steps.
 
 [Immune-related adverse events](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event) illustrates why safety remains explicit. An intended immune effect does not establish that inflammatory harm is acceptable or restarting treatment is appropriate.
 

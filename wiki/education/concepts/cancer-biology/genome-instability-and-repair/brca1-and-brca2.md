@@ -17,6 +17,7 @@ reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: "2026-10-09"
 tags: [education, DNA-repair]
+updated: 2026-10-10
 ---
 
 # BRCA1 and BRCA2
@@ -43,7 +44,7 @@ BRCA1 and BRCA2 act as [tumor suppressors](/wiki/education/concepts/cancer-biolo
 
 An inherited, or [germline](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic), pathogenic variant can increase cancer susceptibility. A tumor may lose or disable its remaining working copy. **Biallelic inactivation** means both gene copies are functionally disrupted. A tumor test must assess the actual context; one variant call does not automatically establish that state. Acquired, or **somatic**, changes can also affect these genes.
 
-The origin of the variant, its classification, the remaining allele and current repair function are separate questions. A tumor-only test does not by itself establish inheritance. Genetic findings also have different implications from a [genomic-scar](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) score.
+[Hereditary breast-cancer genes](/wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes) places BRCA1/2 alongside other susceptibility genes. The origin of the variant, its classification, the remaining allele and current repair function are separate questions. A tumor-only test does not by itself establish inheritance. Genetic findings also have different implications from a [genomic-scar](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) score.
 
 ```mermaid
 flowchart TD

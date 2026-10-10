@@ -2,7 +2,7 @@
 title: "Build the next question"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -67,6 +67,8 @@ Now imagine a clinical trial accepts people with that residual category. Eligibi
 A cohort describes people with a range of stages, biological features and treatments. A numerical estimate needs its population, treatment era, follow-up and uncertainty. It should not be presented as a clock counting down for one individual.
 
 [Residual cancer burden (RCB)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) is useful prognostic information, but its category is not a universal personal percentage. [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is associated with favorable outcomes in relevant groups, but is not a promise of cure.
+
+A result from [germline testing](/wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing) creates another interpretation question. Ask which variant, classification and tested scope are established before treating a hereditary finding as a tumor repair result. A variant of uncertain significance leaves its effect unresolved.
 
 The same discipline applies to a proposed additional test. Ask what its result would establish and what decision has been validated around it. More measurements do not automatically make every remaining uncertainty answerable.
 

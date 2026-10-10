@@ -12,7 +12,7 @@ level: foundation
 sensitive: false
 tags: [education, breast-cancer]
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 review_status: "Expert and learner review pending"
 ---
@@ -31,9 +31,9 @@ A stage is a map of extent, while grade describes how cells look. The letters ke
 
 T describes size or local extension, N describes regional nodes, and M describes distant spread. Clinical c staging uses examination, imaging and biopsy before definitive treatment. Pathologic p staging uses surgical findings. The y prefix denotes assessment after treatment: ypT and ypN describe residual findings after neoadjuvant therapy.
 
-For breast cancer, T3 describes a tumor larger than five centimeters. T4 concerns specified chest-wall or skin involvement; size alone does not make T4. N categories have clinical and pathologic definitions. Clinical N3b can apply when [internal mammary nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes) and [axillary nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla) are clinically involved. It does not simply mean ten positive surgical nodes.
+For breast cancer, T3 describes a tumor larger than five centimeters. T4 concerns specified chest-wall or skin involvement; size alone does not make T4. [N categories](/wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden) have clinical and pathologic definitions. Clinical N3b can apply when [internal mammary nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes) and [axillary nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla) are clinically involved. It does not simply mean ten positive surgical nodes.
 
-Anatomic stage groups differ from prognostic groups incorporating grade and receptor information. An overall group should come from the correct staging rules, rather than mechanically combining a pretreatment clinical T with post-treatment pathologic N.
+Anatomic stage groups differ from [AJCC prognostic groups](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging) incorporating grade and receptor information. An overall group should come from the correct staging rules, rather than mechanically combining a pretreatment clinical T with post-treatment pathologic N.
 
 Regional-node involvement is not the same as distant metastasis. A ypN-positive result can coexist with no known distant disease. Imaging suspicion, biopsy confirmation and pathologic findings are different evidence levels. Preserve those qualifiers when summarizing a record.
 

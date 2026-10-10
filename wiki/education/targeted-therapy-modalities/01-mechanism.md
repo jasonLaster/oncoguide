@@ -8,7 +8,7 @@ objectives: ["Distinguish an accessible surface target from a peptide–HLA targ
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -17,7 +17,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Separate the address from the killing mechanism
 
-**Recognizing a tumor-associated target is the first part of a mechanism. The therapeutic format determines what can happen after recognition.**
+**Recognizing a tumor-associated target is the first part of a mechanism. The [therapeutic format](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis) determines what can happen after recognition.**
 
 A promising surface protein can feel like an answer: “We found something to aim at.” That is a useful beginning. Now ask what reaches it, what binds it, and what the product does next. These questions let you inspect a claim without guessing which treatment should win.
 
@@ -35,15 +35,7 @@ A [binder is a targeting module](/wiki/education/concepts/engineering-and-manufa
 
 A surface protein can also be an address without being a survival dependency. Blocking its signal requires evidence that the blocked process matters. Delivering a payload asks whether recognition and processing deliver a damaging chemical. Redirecting T cells asks whether recognition becomes productive immune contact.
 
-| Format | What finds the target? | What can act after recognition? | An additional requirement |
-|---|---|---|---|
-| Unconjugated antibody | Antibody binding region | Signal blocking or recruitment of immune effectors, depending on design | The intended biological effect must follow binding |
-| Cytotoxic ADC | Antibody binding region | Chemical payload | Appropriate delivery, processing, and payload sensitivity |
-| Surface-target T-cell engager | A binding region plus a CD3-binding region | Recruited T cells | Accessible, functional T cells and productive contact |
-| Radioligand or radioimmunotherapy | A small molecule, peptide, or antibody | Radiation from a radionuclide | Suitable distribution and absorbed radiation dose |
-| Receptor-engineered T cells | An engineered receptor on a living cell | That cell's activation and cytotoxic machinery | Cell access, function, and an appropriate recognition system |
-
-The table is a mechanism map. It does not rank efficacy, toxicity, or readiness for a person.
+The [target-versus-format comparison](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis) owns the five-format mechanism map. Use it to name recognition, action and the extra requirement before considering efficacy or safety.
 
 Follow the linked [monoclonal-antibody](/wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies) and [radioligand-therapy](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy) explanations to inspect those formats. [Theranostics](/wiki/education/concepts/therapeutics/local-therapies/theranostics) connects a target-based diagnostic with a therapeutic strategy; a positive diagnostic scan still needs product-specific interpretation.
 
@@ -61,7 +53,7 @@ A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-t
 
 A tissue stain finds protein M in a fictional tumor. Investigators then show that a proposed antibody binds living M-positive cells more strongly than matched M-negative cells. These are two connected observations: protein signal in tissue and target-associated binding in a live-cell model.
 
-Now consider three proposed products made around that antibody:
+Now consider four proposed products made around that antibody:
 
 - **A blocking antibody:** investigators must test whether it changes the relevant signal and whether that change affects survival.
 - **An ADC:** investigators must follow delivery and active payload production, then measure the cells' response.

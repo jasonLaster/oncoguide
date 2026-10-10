@@ -2,7 +2,7 @@
 title: "Read pathology and surgery results"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -49,6 +49,8 @@ flowchart TD
 ## Concepts you will use
 
 **Timing and classification:** [Neoadjuvant versus adjuvant](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant), [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade), [Ki-67](/wiki/education/concepts/breast-cancer/grade-and-stage/ki-67) and [TNM staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging).
+
+**Extent and diagnostic clues:** [N categories and nodal burden](/wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden) explains the regional-node assessment; [AJCC prognostic staging](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging) separates anatomic and prognostic groups. [SOX10 and basal markers](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers) shows why one stain cannot supply origin, RNA subtype and treatment benefit. [Breast surgery basics](/wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics) places the submitted tissue in the operation's broader jobs.
 
 **Residual findings:** [Pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) and [surgical margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins).
 

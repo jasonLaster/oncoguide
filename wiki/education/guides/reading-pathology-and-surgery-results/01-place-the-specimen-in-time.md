@@ -2,7 +2,7 @@
 title: "Place the specimen in time"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -65,7 +65,7 @@ Imagine a fictional core showing invasive cancer, followed later by a resection 
 
 ## Clinical and pathologic categories keep their context
 
-A clinical assessment can combine examination, imaging and biopsy findings. A pathologic category uses examined tissue in its defined setting. A y prefix indicates assessment after treatment. The linked staging concept explains the combinations in more detail.
+A clinical assessment can combine examination, imaging and biopsy findings. A pathologic category uses examined tissue in its defined setting. A y prefix indicates assessment after treatment. [N categories and nodal burden](/wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden) adds deposit size, node location and assessment context. [AJCC prognostic staging](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging) explains why a post-neoadjuvant record should not be forced into a surgery-first prognostic table.
 
 A suspicious node on a scan is not automatically a pathologically positive node. A negative sampled node also does not directly examine every node or every distant organ. Read the assigned category and its scope, rather than completing missing fields from intuition.
 

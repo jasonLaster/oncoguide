@@ -2,7 +2,7 @@
 title: "Read timing around surgery"
 sensitive: false
 tags: ["education"]
-updated: "2026-10-10"
+updated: 2026-10-10
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -47,6 +47,8 @@ The first clock is **biological sampling**: when the biopsy, scan or blood draw 
 
 A report issued after surgery may describe a sample collected before it. A later appointment may review an earlier scan. Attaching only the reporting date can create a false sequence of response and treatment.
 
+[The KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) supplies one concrete example of a studied perioperative sequence. Its planned blocks and postoperative phase are not automatically separate [lines of therapy](/wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy).
+
 Next separate the tested trial schedule, the clinician's planned adaptation and the delivered course. These can be related without being identical. Retain holds or changes and their documented reasons. Expected visits are not proof of completed doses.
 
 ## A worked calendar
@@ -66,7 +68,7 @@ This record supports the observations. It does not establish that a delayed visi
 
 An imaging response needs the modality, examined region and [response definition](/wiki/education/concepts/measurement/imaging/response-criteria). A change in one lesion is not automatically a complete patient-level response assessment. A blood assay measures circulating material. [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is a tissue endpoint with a specified definition. These results can be related without being substitutes.
 
-A trial evaluating treatment omission must establish that strategy in the relevant population. A favorable interim test alone does not do so. It also cannot decide an individual's operation date or the timing of other treatment.
+[Response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) needs a defined assessment, timing and decision rule. A trial evaluating treatment omission must establish that strategy in the relevant population. A favorable interim test alone does not do so. It also cannot decide an individual's operation date or the timing of other treatment.
 
 ## What can go wrong at this step
 

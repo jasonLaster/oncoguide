@@ -8,7 +8,7 @@ aliases: ["TNBC", "triple-negative breast cancer", "triple negative breast cance
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-09"
+updated: 2026-10-10
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -51,6 +51,8 @@ An unknown, pending or uninterpretable result belongs in its own category. Absen
 The classification helps organize treatment pathways and research cohorts. It separates cancers without the usual positive hormone-receptor or HER2-overexpression findings from cancers that have them. [NCI defines TNBC through these three receptors](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/triple-negative-breast-cancer).
 
 Within TNBC, tumors differ in gene-expression programs and other biological features. **Basal-like** is a common [intrinsic expression subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype), but it is not the definition of TNBC. Research directly comparing expression subtypes with clinical markers found that the systems do not map one to one. Preserve which assay supplied each label.
+
+[TNBC molecular subtypes](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes) ask a separate RNA research question. [SOX10 and basal markers](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers) provide contextual protein clues rather than assigning those expression profiles.
 
 The name also does not specify stage, [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade), immune activity or treatment response. Those require their own measurements. A receptor classification is useful precisely because it answers a limited question clearly.
 

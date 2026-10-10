@@ -1,0 +1,30 @@
+# TNBC: receptor category, research profile and tissue mixture
+
+Generated with the built-in image_gen tool on 2026-10-10. The prompts below are the complete prompts used for the native light and dark PNGs. Reference style inspected: wiki/education/molecular-profiling/images/tcr-tcr-t.png. Source owner: tnbc-molecular-subtypes.md, How it works, Lehmann 2011 and 2016.
+
+## Light prompt
+
+Use case: scientific-educational.
+Create an educational cartoon teaching three different questions about a triple-negative breast cancer sample, landscape 1536 by 1024 composition with three spacious equal panels, friendly rounded cellular shapes and very large clean sans-serif typography, matching the softly shaded multi-panel educational poster style of the project's tcr-tcr-t.png. No people.
+Title, exactly: "Three different questions".
+Panel 1 header: "Receptor category". Draw a simple laboratory report with three separate rows, exactly "ER−", "PR−", "HER2−", and a small label "TNBC". Do not draw receptor counts or zero-number values. Callout: "Different measurements".
+Panel 2 header: "RNA research profiles". Draw a simple abstract multigene expression-pattern card leading with one arrow to four equally sized cards, exactly "BL1", "BL2", "M", "LAR". Label the arrow "TNBCtype-4". Callout: "Classifier matters". The four cards are categories, not sequential stages, rankings or treatment options.
+Panel 3 header: "Tissue mixture". Draw a friendly cancer cell, immune cell and elongated stromal cell, each contributing several small RNA-message symbols into one sample icon. Exact labels: "Cancer cells", "Immune cells", "Stromal cells". Callout: "Neighbors contribute RNA".
+Across the bottom, a large clear takeaway box, exactly: "Profile ≠ treatment choice".
+Scientific constraints: TNBC is receptor-defined, RNA classification is a separate measurement. The refined Lehmann TNBCtype-4 contains exactly BL1, BL2, M and LAR; original IM and MSL reflect immune/stromal contributions and must not appear as two additional tumor groups. Do not imply all TNBC is one RNA subtype, receptor-negative means literally no receptor molecules, or one SOX10 stain proves a subtype. Show no treatment recommendation, outcome percentages, response rankings, DNA sequences or real patient data.
+Style: clean rounded cartoon diagrams, generous margins, minimal decoration, readable labels even in a mobile image viewer. Do not add text outside the exact labels above. No photos, logos, watermarks, stock doctors, anatomical horror or realistic tissue.
+Theme: LIGHT. Warm near-white opaque background, soft pastel blue, green, lavender and peach panels, dark navy text and high-contrast outlines; clear readable scientific labels.
+
+## Dark prompt
+
+Use case: scientific-educational.
+Create an educational cartoon teaching three different questions about a triple-negative breast cancer sample, landscape 1536 by 1024 composition with three spacious equal panels, friendly rounded cellular shapes and very large clean sans-serif typography, matching the softly shaded multi-panel educational poster style of the project's tcr-tcr-t.png. No people.
+Title, exactly: "Three different questions".
+Panel 1 header: "Receptor category". Draw a simple laboratory report with three separate rows, exactly "ER−", "PR−", "HER2−", and a small label "TNBC". Do not draw receptor counts or zero-number values. Callout: "Different measurements".
+Panel 2 header: "RNA research profiles". Draw a simple abstract multigene expression-pattern card leading with one arrow to four equally sized cards, exactly "BL1", "BL2", "M", "LAR". Label the arrow "TNBCtype-4". Callout: "Classifier matters". The four cards are categories, not sequential stages, rankings or treatment options.
+Panel 3 header: "Tissue mixture". Draw a friendly cancer cell, immune cell and elongated stromal cell, each contributing several small RNA-message symbols into one sample icon. Exact labels: "Cancer cells", "Immune cells", "Stromal cells". Callout: "Neighbors contribute RNA".
+Across the bottom, a large clear takeaway box, exactly: "Profile ≠ treatment choice".
+Scientific constraints: TNBC is receptor-defined, RNA classification is a separate measurement. The refined Lehmann TNBCtype-4 contains exactly BL1, BL2, M and LAR; original IM and MSL reflect immune/stromal contributions and must not appear as two additional tumor groups. Do not imply all TNBC is one RNA subtype, receptor-negative means literally no receptor molecules, or one SOX10 stain proves a subtype. Show no treatment recommendation, outcome percentages, response rankings, DNA sequences or real patient data.
+Style: clean rounded cartoon diagrams, generous margins, minimal decoration, readable labels even in a mobile image viewer. Do not add text outside the exact labels above. No photos, logos, watermarks, stock doctors, anatomical horror or realistic tissue.
+Theme: DARK. Opaque deep navy background, luminous muted blue, green, lavender and peach panels, warm pale text and high-contrast outlines; clear readable scientific labels. Keep all labels and the three-panel layout exactly as specified.
+

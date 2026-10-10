@@ -52,6 +52,8 @@ Extraction uses finite material. Fixed tissue can suit validated DNA workflows, 
 
 An average can hide poorly measured positions. Check the exact location, the counting rules and the assay's validated detection limits before interpreting “not found.” More reads from the same few fragments do not create more independent DNA molecules. The strongest report tells the reader which limitations apply to this call.
 
+[Hereditary breast-cancer genes](/wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes) explains why a familiar gene name does not establish inherited risk. [Germline testing](/wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing) adds the distinction between a pathogenic result, an uncertain variant and an informative or uninformative negative. Tumor-only inference cannot replace that interpretation.
+
 ## A worked finding: mutation plus copy loss
 
 A fictional tumor has a splice-site change in repair gene R and loss of the other parental region. Its normal comparison does not show the variant within the assay's scope. A copy-aware model estimates that the retained cancer-cell copies carry it.

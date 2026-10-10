@@ -73,6 +73,8 @@ Card A can establish observed activity under its response definition. Tumor shri
 
 Card B can support a comparative conclusion about its assigned sequence and measured endpoint, subject to the trial's methods and uncertainty. It still cannot isolate an unrandomized component of the sequence. Strong evidence for one question can leave another question unanswered. [FDA: defining the treatment-effect question](https://www.fda.gov/media/148473/download).
 
+Two setting examples show why those details matter. [Brain-metastasis risk](/wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk) depends on the population, starting point, follow-up and competing events; an older metastatic cohort cannot supply an early-disease personal risk. [Oligometastatic disease](/wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease) describes limited detected metastatic burden, while the benefit of treating those sites needs its own comparison. Neither label bridges an untested treatment decision.
+
 ## A subgroup result needs another question
 
 A **subgroup** is a smaller category within a study, such as participants with a baseline marker. Suppose a fictional subgroup has a [hazard ratio (HR)](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) of 0.70, with a 95% confidence interval from 0.35 to 1.40, for recurrence or death from randomization. The estimate favors the new strategy, but the interval includes substantially lower hazard, equal hazard, and higher hazard. It is imprecise evidence, not proof of no effect. [Absence of evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence) asks whether the study could meaningfully exclude the effect in question.
