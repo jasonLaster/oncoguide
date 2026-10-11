@@ -35,6 +35,10 @@ The **plasma membrane**, or cell membrane, forms the outer boundary. Its main fr
 
 **Selective permeability** means that substances cross with different ease. Small uncharged molecules such as oxygen can cross the lipid layer. Charged ions and many larger or water-soluble molecules require other routes. Size alone does not determine access; charge, chemical properties and available transport proteins matter.
 
+<img src="./images/where-is-the-cargo-v1-light.png" alt="A cell-boundary cutaway separates an outside-bound molecule, a small ion passing through a channel, and larger cargo enclosed by vesicle uptake; a close-up keeps vesicle contents separate from cytosol and asks whether escape occurs." data-theme-pair>
+
+*Surface attachment, channel passage and vesicle uptake put molecules in different places. The illustrative small-ion route follows a favorable electrochemical gradient. Cargo enclosed by a vesicle remains separate from cytosol; the dashed question does not show escape. Shapes and counts are schematic, and entry alone does not establish activity or benefit.*
+
 | Route | What makes it different |
 |---|---|
 | Passive transport | Net movement follows a favorable gradient, directly through lipids or through a channel or carrier |

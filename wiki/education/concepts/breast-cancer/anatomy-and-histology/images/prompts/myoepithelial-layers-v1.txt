@@ -1,0 +1,124 @@
+CURRENT CUSTODY NOTE
+The composition header below is preserved from the historical unexecuted source brief. Candidate 2 has since been drawn as an original editable SVG pair, source-checked and independently inspected in four actual local theme/width cases. The portable source following that historical composition reproduces the accepted candidate-2 SVG and geometry bytes. Integration and publication are still pending; this record does not certify clinical accuracy, human review or coverage credit.
+
+DRAFT COMPOSITION INSTRUCTIONS — UNAPPROVED AND UNEXECUTED
+
+Prepare an original editable vector diagram, not a photomicrograph or an image-generation call. Its one learner question is: “Which layer is a living cell, and which is extracellular material?”
+
+Use two vertically stacked physical views of the same illustrative normal breast duct: a transverse duct cross-section and one magnified basal edge. Do not make a progression sequence. Draw a central open lumen, a luminal epithelial cell ring facing it, an outer layer of visibly separate living myoepithelial cells, an extracellular basement-membrane band outside the epithelial structure, and surrounding stroma. The cell count, thicknesses and circular shape are schematic. Myoepithelial cells may be flattened; depict their cytoplasm and nuclei so they are not mistaken for a matrix sheet. Draw each cell’s thin closed plasma-membrane outline differently from the extracellular basement band. The basement band has restrained fibrous/hatch texture and no nuclei. Do not draw basement membrane between all neighboring epithelial cells, around every individual cell, or as a second cell membrane.
+
+Five main labels: “Lumen”, “Luminal cells”, “Myoepithelial cells”, “Basement membrane”, “Stroma”. A leader for Lumen ends in the empty lumen. Luminal cells and Myoepithelial cells leaders end inside one member of the intended cell layer, not on the outer matrix band. The Basement membrane leader ends on the extracellular band outside the myoepithelial layer. The Stroma leader ends in the surrounding connective-tissue field. Leader lines carry no arrowheads: they identify locations, not movement or causal progression.
+
+A modest outlined selection on the basal duct edge connects to the enlarged physical inset with a neutral magnification connector. Keep the luminal side above, one living myoepithelial cell below it, extracellular basement material below the cell, and stroma beneath that. Use the labels “Cell plasma membrane” and “Extracellular matrix” in the inset; their endpoints respectively touch the closed cell outline and the separate fibrous band. The space between the drawn outlines is a visual separation, not a measured anatomical gap. Do not specify molecular ultrastructure or a micrometre scale.
+
+Use compatible restrained colors and different shapes/textures: softly blue luminal cells, sage myoepithelial cells, ochre fibrous basement material, pale sand stroma. Color is illustrative, not a stain or data legend. Label living cells and matrix in ordinary text as well as by color. Use one clean sans-serif font with editable text. Target 28–32 native-unit core labels on a 600-unit-wide composition so the intended 312px embedded width can support approximately 14–17px labels; actual future renders must be measured and independently inspected. Split long labels onto two lines. Avoid clipping, crossed leaders, decorative clinicians, badges, excessive caveat cards, checkmarks and red/green good/bad coding. Preserve the same objects, endpoints, layer order and quantities if a quiet dark theme is later implemented.
+
+Do not add cancer cells, an invasion arrow, a “missing stain” panel, a torn boundary, progression, treatment or response. This normal architecture alone cannot establish a diagnosis, marker sufficiency, basal-like ancestry or cell proportions. Preserve the owner’s separate existing morphology/marker/control discussion and answered exercise.
+
+Proposed ordinary caption:
+From the lumen outward: luminal cells, living myoepithelial cells, extracellular basement membrane and stroma. The close-up separates a cell’s plasma membrane from the matrix outside it. This is simplified normal anatomy, with schematic sizes and cell counts; it does not show a stain result or diagnose invasion.
+
+Proposed alt text:
+A normal breast duct cross-section has a central lumen, inner luminal cells, outer myoepithelial cells, a separate extracellular basement-membrane band and surrounding stroma. A magnified inset shows one myoepithelial cell’s plasma membrane beside the separate matrix layer.
+
+
+Reproducible original editable diagram source. The source below writes both theme variants and semantic geometry; it makes no patient finding or diagnostic claim.
+
+"""Original editable SVG normal-duct schematic; Python standard library only.
+Use: python3 render_diagram.py --output-dir /absolute/output/directory
+Geometry and text reproduce the independently reviewed candidate pair. No raw sources,
+publication figures, raster input or current repository reads are required.
+"""
+from pathlib import Path
+import argparse, math, json, html, xml.etree.ElementTree as ET
+parser=argparse.ArgumentParser()
+parser.add_argument('--output-dir', type=Path, default=Path(__file__).resolve().parent)
+args=parser.parse_args();D=args.output_dir;D.mkdir(parents=True,exist_ok=True)
+b={'proposedAlt': 'A normal breast duct cross-section has a central lumen, inner luminal cells, outer myoepithelial cells, a separate extracellular basement-membrane band and surrounding stroma. A magnified inset shows one myoepithelial cell’s plasma membrane beside the separate matrix layer.', 'proposedCaption': 'From the lumen outward: luminal cells, living myoepithelial cells, extracellular basement membrane and stroma. The close-up separates a cell’s plasma membrane from the matrix outside it. This is simplified normal anatomy, with schematic sizes and cell counts; it does not show a stain result or diagnose invasion.'}
+PAL={
+'light':{'ground':'#fff9ef','ink':'#243b42','muted':'#657279','luminal':'#bfd3e7','luminalAlt':'#caddec','myo':'#a9c7ad','myoAlt':'#b8d2ba','cellOutline':'#3d6266','nucleus':'#617384','myoNucleus':'#516f5e','matrix':'#ead29b','matrixThread':'#a27840','stroma':'#f1e7d5','stromaThread':'#baaa91','lumen':'#fffdf5','selection':'#6c838a','panel':'#f8f0e3'},
+'dark':{'ground':'#17242a','ink':'#eff2e9','muted':'#b9c4c5','luminal':'#60839d','luminalAlt':'#7291a7','myo':'#678e77','myoAlt':'#789e84','cellOutline':'#d7e3db','nucleus':'#263e4e','myoNucleus':'#284f3a','matrix':'#baa270','matrixThread':'#6d512f','stroma':'#344046','stromaThread':'#77807d','lumen':'#243238','selection':'#a9bfc3','panel':'#202f35'}}
+NESTING=[{'id':'lumen','innerRadius':0,'outerRadius':68,'kind':'open space'}, {'id':'luminal-cells','innerRadius':68,'outerRadius':111,'kind':'living cells'}, {'id':'myoepithelial-cells','innerRadius':111,'outerRadius':136,'kind':'living cells'}, {'id':'basement-membrane','innerRadius':139,'outerRadius':148,'kind':'extracellular material'}, {'id':'stroma','innerRadius':152,'outerRadius':183,'kind':'surrounding connective tissue'}]
+LEADERS=[{'id':'luminal-leader','label':'Luminal cells','points':[[171,159],[199,188],[233,218]],'endpoint':[233,218],'target':'luminal-cells','endpointRule':'inside one inner epithelial cell; not the nucleus or cell outline'}, {'id':'myo-leader','label':'Myoepithelial cells','points':[[424,171],[411,194],[398.45,227.5]],'endpoint':[398.45,227.5],'target':'myoepithelial-cells','endpointRule':'inside one outer epithelial cell'}, {'id':'basement-leader','label':'Basement membrane','points':[[414,419],[395,415],[377.88,403.69]],'endpoint':[377.88,403.69],'target':'basement-membrane','endpointRule':'extracellular band outside the epithelial structure'}, {'id':'stroma-leader','label':'Stroma','points':[[137,435],[151,426],[169.06,417.33]],'endpoint':[169.06,417.33],'target':'stroma','endpointRule':'surrounding connective tissue field'}, {'id':'plasma-leader','label':'Cell plasma membrane','points':[[477,635],[525,658],[542,711]],'endpoint':[542,711],'target':'inset-cell-outline','endpointRule':'right edge of the closed myoepithelial-cell capsule'}, {'id':'matrix-leader','label':'Extracellular matrix','points':[[349,842],[330,819],[300,782]],'endpoint':[300,782],'target':'inset-basement-material','endpointRule':'inside separate matrix band at y770–795'}]
+C=(285,293)
+def polar(r,a):t=math.radians(a);return(C[0]+r*math.cos(t),C[1]+r*math.sin(t))
+def sector(r1,r2,a1,a2):
+ p1=polar(r1,a1);p2=polar(r2,a1);p3=polar(r2,a2);p4=polar(r1,a2)
+ return f'M {p1[0]:.3f} {p1[1]:.3f} L {p2[0]:.3f} {p2[1]:.3f} A {r2} {r2} 0 0 1 {p3[0]:.3f} {p3[1]:.3f} L {p4[0]:.3f} {p4[1]:.3f} A {r1} {r1} 0 0 0 {p1[0]:.3f} {p1[1]:.3f} Z'
+def label(id,x,y,lines,size=28,anchor='start'):
+ lines=[lines] if isinstance(lines,str) else lines
+ return f'<text id="{id}" x="{x}" y="{y}" font-size="{size}" text-anchor="{anchor}" class="label">'+''.join(f'<tspan x="{x}" dy="{0 if i==0 else 32}">{html.escape(s)}</tspan>' for i,s in enumerate(lines))+'</text>'
+def draw(theme):
+ c=PAL[theme];out=[];w=out.append
+ w(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1000" width="600" height="1000" role="img" aria-labelledby="diagram-title diagram-desc" lang="en">
+<title id="diagram-title">Living cells or matrix? Normal breast duct layers</title>
+<desc id="diagram-desc">{html.escape(b['proposedAlt'])}</desc>
+<!-- Original editable schematic. Quantities, shape and thicknesses are illustrative. No stain result. -->
+<defs>
+ <pattern id="basement-texture" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="{c['matrix']}"/><path d="M-2 13 Q5 3 16 1 M-2 5 Q7 13 16 7" fill="none" stroke="{c['matrixThread']}" stroke-width="1.4"/></pattern>
+ <pattern id="stroma-texture" width="76" height="52" patternUnits="userSpaceOnUse"><rect width="76" height="52" fill="{c['stroma']}"/><path d="M-6 19 Q25 2 80 18 M-6 37 Q30 19 82 34" fill="none" stroke="{c['stromaThread']}" stroke-width="1.7" opacity=".55"/></pattern>
+ <style>.label{{font-family:Arial,Helvetica,sans-serif;fill:{c['ink']};font-weight:600}} .leader{{fill:none;stroke:{c['ink']};stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}} .endpoint{{fill:{c['ink']}}}</style>
+</defs>
+<rect width="600" height="1000" rx="18" fill="{c['ground']}"/>
+''')
+ w(label('question',300,46,'Living cells or matrix?',34,'middle'))
+ w(label('normal-label',300,82,'Normal breast duct',28,'middle'))
+ w('<g id="normal-duct-cross-section" aria-label="Nested normal duct cross-section">')
+ w(f'<circle id="stroma-field" cx="285" cy="293" r="183" fill="url(#stroma-texture)"/>')
+ w(f'<circle id="basement-band" cx="285" cy="293" r="148" fill="url(#basement-texture)"/><circle cx="285" cy="293" r="139" fill="{c["ground"]}"/>')
+ w('<g id="living-myoepithelial-cells" aria-label="Outer living myoepithelial cells">')
+ for i in range(16):
+  a1=i*22.5+.45;a2=(i+1)*22.5-.45;theta=(a1+a2)/2;nx,ny=polar(124,theta)
+  w(f'<g id="myo-cell-{i+1}"><path id="myo-plasma-{i+1}" d="{sector(111,136,a1,a2)}" fill="{c["myo" if i%2==0 else "myoAlt"]}" stroke="{c["cellOutline"]}" stroke-width="1.55"/><ellipse cx="{nx:.3f}" cy="{ny:.3f}" rx="4.6" ry="8.1" transform="rotate({theta:.3f} {nx:.3f} {ny:.3f})" fill="{c["myoNucleus"]}"/></g>')
+ w('</g><g id="living-luminal-cells" aria-label="Inner living luminal epithelial cells">')
+ for i in range(12):
+  a1=i*30+.55;a2=(i+1)*30-.55;theta=(a1+a2)/2;nx,ny=polar(91,theta)
+  w(f'<g id="luminal-cell-{i+1}"><path id="luminal-plasma-{i+1}" d="{sector(68,111,a1,a2)}" fill="{c["luminal" if i%2==0 else "luminalAlt"]}" stroke="{c["cellOutline"]}" stroke-width="1.6"/><ellipse cx="{nx:.3f}" cy="{ny:.3f}" rx="5.6" ry="8.1" transform="rotate({theta:.3f} {nx:.3f} {ny:.3f})" fill="{c["nucleus"]}"/></g>')
+ w(f'</g><circle id="open-lumen" cx="285" cy="293" r="67" fill="{c["lumen"]}"/>')
+ w(label('lumen-label',285,301,'Lumen',28,'middle'))
+ w(label('luminal-label',27,127,['Luminal','cells']))
+ w(label('myo-label',382,128,['Myoepithelial','cells']))
+ w(label('basement-label',399,447,['Basement','membrane']))
+ w(label('stroma-label',29,454,'Stroma'))
+ for lead in LEADERS[:4]:
+  w(f'<polyline id="{lead["id"]}" class="leader" points="'+ ' '.join(f'{x},{y}' for x,y in lead['points'])+'"/>')
+  x,y=lead['endpoint'];w(f'<circle id="{lead["id"]}-endpoint" class="endpoint" cx="{x}" cy="{y}" r="3.6"/>')
+ w(f'<rect id="basal-edge-selection" x="267" y="390" width="36" height="60" rx="5" fill="none" stroke="{c["selection"]}" stroke-width="2.8" stroke-dasharray="5 4"/>')
+ w('</g>')
+ w(f'<g id="magnification-connectors" aria-label="Same basal edge enlarged"><path d="M267 450 L267 545 L77 562 M303 450 L526 562" fill="none" stroke="{c["selection"]}" stroke-width="1.8" stroke-dasharray="6 5"/></g>')
+ w(label('zoom-title',30,530,'A closer look',30))
+ w('<g id="basal-edge-inset" aria-label="One living cell boundary beside separate extracellular matrix">')
+ w(f'<rect x="25" y="562" width="550" height="396" rx="14" fill="{c["panel"]}"/>')
+ w(f'<path id="inset-luminal-side" d="M43 563 H316 Q331 604 306 632 H43Z" fill="{c["luminal"]}" stroke="{c["cellOutline"]}" stroke-width="2"/>')
+ w(label('inset-luminal-label',60,605,'Luminal side',28))
+ w(f'<path id="inset-cell-plasma-membrane" d="M95 662 H460 C512 662 542 685 542 711 C542 737 512 764 460 764 H95 C55 764 38 741 38 711 C38 685 55 662 95 662 Z" fill="{c["myo"]}" stroke="{c["cellOutline"]}" stroke-width="3.2"/>')
+ w(f'<ellipse id="inset-myo-nucleus" cx="120" cy="712" rx="43" ry="25" fill="{c["myoNucleus"]}" opacity=".92"/>')
+ w(label('inset-living-cell-label',335,706,['Myoepithelial','cell'],28,'middle'))
+ w(label('plasma-label',342,590,['Cell plasma','membrane']))
+ w(f'<rect id="inset-extracellular-basement-material" x="43" y="770" width="499" height="25" rx="4" fill="url(#basement-texture)"/>')
+ w(f'<path id="inset-stroma-field" d="M43 801 H542 V938 H43Z" fill="url(#stroma-texture)"/>')
+ w(label('matrix-label',343,877,['Extracellular','matrix']))
+ w(label('inset-stroma-label',62,914,'Stroma',28))
+ for lead in LEADERS[4:]:
+  w(f'<polyline id="{lead["id"]}" class="leader" points="'+' '.join(f'{x},{y}' for x,y in lead['points'])+'"/>')
+  x,y=lead['endpoint'];w(f'<circle id="{lead["id"]}-endpoint" class="endpoint" cx="{x}" cy="{y}" r="3.6"/>')
+ w('</g></svg>\n')
+ return ''.join(out)
+for theme in PAL:(D/f'myoepithelial-layers-{theme}.svg').write_text(draw(theme))
+# Save semantic geometry independently of presentation colors.
+geometry={'viewBox':[0,0,600,1000],'ductCenter':[285,293],'nestedLayers':NESTING,'livingCellShapes':'12 inner and16 outer schematic closed cell shapes with nuclei; not a count estimate','leaders':LEADERS,'lumenLabelEndpoint':[285,301],'magnification':{'selection':[267,390,36,60],'connectorHasArrowheads':False,'leftConnectorPoints':[[267,450],[267,545],[77,562]],'rightConnectorPoints':[[303,450],[526,562]]},'inset':{'cellOutline':'closed capsule path; rightmost point542,711','extracellularBand':[43,770,499,25],'schematicSeparation':'6 SVG units for visual distinction, not measured tissue spacing'},'coreFontUnits':28,'effectiveCoreFontAt312px':14.56,'predictedSizeOnly':True}
+(D/'geometry.json').write_text(json.dumps(geometry,indent=2)+'\n')
+# Finite source-level checks: geometry/ring membership; themed structures are identical.
+for lead in LEADERS[:4]:
+ x,y=lead['endpoint'];r=math.hypot(x-285,y-293);layer=next(s for s in NESTING if s['id']==lead['target']);assert layer['innerRadius']<r<layer['outerRadius'],(lead['id'],r)
+# Dot must land in cell cytoplasm rather than on a schematic nucleus.
+x,y=LEADERS[0]['endpoint'];nx,ny=polar(91,225);dx=x-nx;dy=y-ny;theta=math.radians(225)
+u=dx*math.cos(theta)+dy*math.sin(theta);v=-dx*math.sin(theta)+dy*math.cos(theta)
+assert (u/5.6)**2+(v/8.1)**2>1
+assert LEADERS[4]['endpoint']==[542,711]
+assert 770<LEADERS[5]['endpoint'][1]<795
+for theme in PAL:ET.fromstring((D/f'myoepithelial-layers-{theme}.svg').read_text())
+light=draw('light');dark=draw('dark')
+for key,color in PAL['light'].items():light=light.replace(color,'{'+key+'}')
+for key,color in PAL['dark'].items():dark=dark.replace(color,'{'+key+'}')
+assert light==dark,'theme structural difference'

@@ -29,6 +29,10 @@ Picture a room's lining, an outer layer of living helpers and the material under
 
 ## How it works
 
+<img src="./images/myoepithelial-layers-v1-light.svg" alt="A normal breast duct cross-section has a central lumen, inner luminal cells, outer myoepithelial cells, a separate extracellular basement-membrane band and surrounding stroma. A magnified inset shows one myoepithelial cell’s plasma membrane beside the separate matrix layer." data-theme-pair>
+
+*From the lumen outward: luminal cells, living myoepithelial cells, extracellular basement membrane and stroma. The close-up separates a cell’s plasma membrane from the matrix outside it. This is simplified normal anatomy, with schematic sizes and cell counts; it does not show a stain result or diagnose invasion.*
+
 **Luminal epithelial cells** face the duct or acinus lumen, the inner space. **Myoepithelial cells** lie toward the outside. “Myo” refers to their contractile features; they are epithelial cells with muscle-like properties, rather than the chest muscle. Their contraction helps expel milk during lactation.
 
 The **basement membrane** is specialized [extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix), including proteins such as laminins and type IV collagen. It lies beneath the epithelial structure. It is not the [plasma membrane](/wiki/education/concepts/biology-basics/cells/cell-and-membrane) enclosing an individual cell, and it is not itself a layer of living cells.

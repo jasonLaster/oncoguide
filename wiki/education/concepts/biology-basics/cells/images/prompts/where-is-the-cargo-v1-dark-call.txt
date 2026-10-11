@@ -1,0 +1,7 @@
+{
+  "prompt": "Convert only the actual accepted light reference to a dark theme. Preserve all object positions, geometry, quantities, labels, leader endpoints, compartment boundaries, arrow styles and semantic color identities exactly. Use a quiet charcoal/navy ground, pale readable lettering and restrained versions of the same blue, sage, cyan, orange and violet. No added glow, neon outlines, glossy surfaces, new objects, relabeling or scene rearrangement.",
+  "transparent_background": false,
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-c797baba-a1c0-4b96-963e-50443e9fbef7.png"
+  ]
+}

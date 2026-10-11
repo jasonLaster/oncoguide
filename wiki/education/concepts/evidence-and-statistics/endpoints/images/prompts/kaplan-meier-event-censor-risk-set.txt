@@ -1,0 +1,28 @@
+Editable reproducible chart specification: next-gap-007
+
+Learning task: read an event step, censor tick and changing risk-set denominator in the canonical Kaplan–Meier worked example. Use the existing five fictional participants followed for first recurrence from enrollment, with no deaths. No clinical dataset, prognosis or treatment claim.
+
+Exact data and geometry
+- Month 0:5 at risk; start 100%.
+- Month 1:one first recurrence with 5 at risk; estimate4/5=80%.
+- Month 2:one right-censored observation with 4 at risk; mark a vertical tick at 80%, without a curve step. Remove this observation from later risk sets.
+- Month 3:one first recurrence with 3 at risk; (4/5)*(2/3)=8/15, about 53.3%.
+- Stop the curve at month 3, with no later tail or confidence interval.
+- Plot points: (0,1),(1,1),(1,4/5),(3,4/5),(3,8/15). Censor at (2,4/5). SVG canvas960x1380; plot left170/top310/width705/height470. Exact rational inputs and computed SVG coordinates are preserved in chart-data.json and chart-coordinates.json.
+- Use matched light/dark geometry, zero-based probability axis, months 0–3, event-circle and censor-tick legend, and separate Month 1/2/3 risk-set cards. Core editable text minimum 38SVG units, yielding 12.35CSSpx at 312px width. Keep exact endpoint, clock, stopping limitation and caption.
+
+Creation method and reproduction
+This is a standard plotting artifact made by render-chart.py with Matplotlib 3.10.8, not an image-generation tool output. No raster reconstruction or synthetic source figure is involved.
+Portable source bundle: images/source/kaplan-meier-event-censor-risk-set/ beside the canonical owner contains render-chart.py, requirements.txt, chart-data.json, chart-coordinates.json, reproduction-environment.json and render-receipt.json.
+To reproduce on a host with Python 3 and a venv, from that source directory:
+  python3 -m venv .venv
+  .venv/bin/python -m pip install -r requirements.txt
+  .venv/bin/python render-chart.py --output-dir reproducibility-output
+Compare generated SVG/data/coordinates SHA256 values to the reviewed manifest before replacing accepted assets. Package installation is from the known PyPI registry.
+Exact typography was measured with Arial on macOS; reproduction-environment.json records the font path/hash. The SVG declares editable Arial text with a sans-serif fallback. Hosts lacking the same font can vary typography, so do not claim byte-exact reproduction or delivered font sizes without checking actual results. Do not distribute an unlicensed font merely to match the hash. On the recorded author host, both author and independent repeated renders reproduce all five output files byte-for-byte.
+Determinism: metadata date omitted; fixed SVG hash salt; no path simplification. Palette-derived marker IDs can differ between themes; every reference resolves and geometry/words match after canonical ID/palette comparison.
+
+Caption and inference guards
+Censoring is incomplete follow-up, not an event or proof of permanent event freedom. The group estimate does not supply the censored individual's missing month 3 outcome. The original table, answered practice and censoring/competing-risk caveats remain in the owner unchanged. This chart does not certify censoring assumptions, clinical endpoint suitability, competing-risk equivalence, expert/learner acceptance or benefit.
+
+Official supporting method: NIST/SEMATECH e-Handbook, Kaplan–Meier product-limit calculation/censoring paragraphs, https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm . Accessed 2026-10-10; mathematics only.

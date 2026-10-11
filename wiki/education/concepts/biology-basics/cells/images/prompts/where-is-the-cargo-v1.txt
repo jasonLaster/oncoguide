@@ -1,0 +1,261 @@
+CURRENT CUSTODY NOTE
+The source-bound base prompt below records the approved initial intent. Actual accepted light is attempt 3 after two independently approved topology corrections; actual dark is attempt 4 derived from that accepted light. Attempts 1 and 2 are rejected and preserved. Exact accepted argument files and the complete historical calls/reference/output hashes are recorded below and in the generation receipt. Model identity was not returned by the tool. These are local author/native records; final independent pair, integration, production and human review are separate gates.
+
+APPROVED INITIAL BASE PROMPT (verbatim)
+Create a restrained physical educational cartoon, portrait 1024 by 1536, teaching one question: "Where is the cargo?" Use rounded scientific objects, a gentle flat watercolor texture, strong readable lettering and generous margins. No faces, decorative sparkle, glow, glossy 3-D objects or text-heavy poster. All sizes and counts are schematic. Use three independent examples along one clearly recognizable cell-boundary cutaway, with a small matched vesicle close-up below. They are alternatives, NOT a sequence that every molecule follows. Do not draw arrows between the three examples.
+
+A vertical plasma-membrane lipid bilayer separates the left extracellular space from the right cytosol. Draw two rows of lipid heads facing their respective watery spaces, with hydrophobic tails facing inward toward one shared bilayer core. The bilayer is one cell boundary, not a cell wall or two separate cell membranes. Large exact labels "Outside", "Cell membrane" and "Cytosol" identify the left space, the bilayer and the right space. The "Cell membrane" leader terminates on the bilayer itself, never on a protein. Keep all core labels at least 50 native pixels, and title/footer about 64 native pixels, so the central lesson is comfortably readable at an ordinary 312px embedded width.
+
+Upper example: exact large label "Surface bound". An orange hexagonal illustrative molecule stays entirely outside the cell, physically attached to the extracellular tip of a blue membrane receptor. The receptor spans the bilayer but the orange molecule does not. No entry arrow or receptor-to-interior cargo chain. Surface attachment is a location, not proof of internal delivery or signaling.
+
+Middle example: exact large labels "Small ion" and "Channel". Draw a small cyan circle carrying a plus sign, visibly unlike the orange bound molecule and the larger violet vesicle cargo. A sage open channel spans the bilayer and has a clear water-filled pore through its center. A local thin solid arrow takes the small ion from outside through that pore to cytosol. This illustrative net direction assumes a favorable electrochemical gradient; do not add a battery, ATP symbol, pump or universal energy-use claim. The "Channel" leader lands on the channel, not the lipid layer. No large macromolecule passes through this pore. The small ion on the cytosolic side may be shown because this route actually depicts crossing that boundary.
+
+Lower example: exact large label "Vesicle uptake". The same cell membrane bends inward into a pocket around two large violet irregular cargo shapes that are visibly different from the small ion and the orange surface-bound molecule. The pocket is open to outside before closing. A short local process arrow leads from this pocket to a closed round membrane-bounded vesicle entirely on the cytosolic side. Inside that closed vesicle, the violet cargo remains surrounded by the vesicle membrane. Do not put any violet cargo freely into cytosol. The membrane-derived closed vesicle retains a lumen that is spatially distinct from the surrounding cytosol. No clathrin coat, lysosome, nucleus, RNA, protein-expression machinery or automatic delivery success is shown.
+
+Matched close-up below: a single enlarged closed vesicle uses the same membrane and violet cargo geometry as the lower example. Exact large label "In a vesicle" points to enclosed cargo/lumen, while a separate exact "Cytosol" label points OUTSIDE this closed vesicle. Keep the vesicle membrane unbroken. A gray dashed question connector starts at the vesicle boundary and ends in otherwise empty cytosol beside exact large "Escape?". It is only an unresolved crossing question: no released cargo, ruptured membrane, successful delivery icon or activity arrow. Do not connect the small-ion scene to this vesicle, and do not turn the question into a guaranteed next step.
+
+Use one concise full-width footer: "Entry is not activity". No nuclear delivery, target-cell exclusivity, patient values, clinical outcome, tumor shrinkage or benefit. Keep all named core words legible without enlargement; fine lipid details may be inspected in the full-size image. Space the leaders so their endpoints are unambiguous. Use object shape plus label as well as color. The eventual dark variant must preserve every object, label, leader target, compartment, route, arrow style and position exactly.
+
+
+ACTUAL GENERATION ARGUMENTS AND NATIVE CUSTODY
+[
+  {
+    "attempt": 1,
+    "theme": "light",
+    "disposition": "rejected-topology-preserved",
+    "exactToolArguments": {
+      "prompt": "Create a restrained physical educational cartoon, portrait 1024 by 1536, teaching one question: \"Where is the cargo?\" Use rounded scientific objects, a gentle flat watercolor texture, strong readable lettering and generous margins. No faces, decorative sparkle, glow, glossy 3-D objects or text-heavy poster. All sizes and counts are schematic. Use three independent examples along one clearly recognizable cell-boundary cutaway, with a small matched vesicle close-up below. They are alternatives, NOT a sequence that every molecule follows. Do not draw arrows between the three examples.\n\nA vertical plasma-membrane lipid bilayer separates the left extracellular space from the right cytosol. Draw two rows of lipid heads facing their respective watery spaces, with hydrophobic tails facing inward toward one shared bilayer core. The bilayer is one cell boundary, not a cell wall or two separate cell membranes. Large exact labels \"Outside\", \"Cell membrane\" and \"Cytosol\" identify the left space, the bilayer and the right space. The \"Cell membrane\" leader terminates on the bilayer itself, never on a protein. Keep all core labels at least 50 native pixels, and title/footer about 64 native pixels, so the central lesson is comfortably readable at an ordinary 312px embedded width.\n\nUpper example: exact large label \"Surface bound\". An orange hexagonal illustrative molecule stays entirely outside the cell, physically attached to the extracellular tip of a blue membrane receptor. The receptor spans the bilayer but the orange molecule does not. No entry arrow or receptor-to-interior cargo chain. Surface attachment is a location, not proof of internal delivery or signaling.\n\nMiddle example: exact large labels \"Small ion\" and \"Channel\". Draw a small cyan circle carrying a plus sign, visibly unlike the orange bound molecule and the larger violet vesicle cargo. A sage open channel spans the bilayer and has a clear water-filled pore through its center. A local thin solid arrow takes the small ion from outside through that pore to cytosol. This illustrative net direction assumes a favorable electrochemical gradient; do not add a battery, ATP symbol, pump or universal energy-use claim. The \"Channel\" leader lands on the channel, not the lipid layer. No large macromolecule passes through this pore. The small ion on the cytosolic side may be shown because this route actually depicts crossing that boundary.\n\nLower example: exact large label \"Vesicle uptake\". The same cell membrane bends inward into a pocket around two large violet irregular cargo shapes that are visibly different from the small ion and the orange surface-bound molecule. The pocket is open to outside before closing. A short local process arrow leads from this pocket to a closed round membrane-bounded vesicle entirely on the cytosolic side. Inside that closed vesicle, the violet cargo remains surrounded by the vesicle membrane. Do not put any violet cargo freely into cytosol. The membrane-derived closed vesicle retains a lumen that is spatially distinct from the surrounding cytosol. No clathrin coat, lysosome, nucleus, RNA, protein-expression machinery or automatic delivery success is shown.\n\nMatched close-up below: a single enlarged closed vesicle uses the same membrane and violet cargo geometry as the lower example. Exact large label \"In a vesicle\" points to enclosed cargo/lumen, while a separate exact \"Cytosol\" label points OUTSIDE this closed vesicle. Keep the vesicle membrane unbroken. A gray dashed question connector starts at the vesicle boundary and ends in otherwise empty cytosol beside exact large \"Escape?\". It is only an unresolved crossing question: no released cargo, ruptured membrane, successful delivery icon or activity arrow. Do not connect the small-ion scene to this vesicle, and do not turn the question into a guaranteed next step.\n\nUse one concise full-width footer: \"Entry is not activity\". No nuclear delivery, target-cell exclusivity, patient values, clinical outcome, tumor shrinkage or benefit. Keep all named core words legible without enlargement; fine lipid details may be inspected in the full-size image. Space the leaders so their endpoints are unambiguous. Use object shape plus label as well as color. The eventual dark variant must preserve every object, label, leader target, compartment, route, arrow style and position exactly.\n\nLight theme: warm pale ground, dark lettering, quiet cool-blue membrane/receptor, sage channel, cyan small ion, orange surface-bound molecule and violet vesicle cargo. Use restrained matte watercolor shading and clear contrast, with no glow or shiny highlights.",
+      "transparent_background": false
+    },
+    "callJSON": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-1-light-call.json",
+      "sha256": "4c7923e33372e21f0880d5f40cb19ee1b91b42a8e14142d943ba1c9ac64e186d"
+    },
+    "literalPromptSHA256": "9d93a48418624530d9446b3dbf726e3820ba44a43d6239dddd4e23f2fa3fbca3",
+    "references": [],
+    "nativeOutput": {
+      "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-6ba39a9b-6c12-4bef-b0b5-cf6be94cf9b7.png",
+      "sha256": "2b673909e28cc53c215b745312b7f86811918b3e28707e06e4a2c3835e31eb52"
+    },
+    "scratchOutput": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-1-light.png",
+      "sha256": "2b673909e28cc53c215b745312b7f86811918b3e28707e06e4a2c3835e31eb52"
+    },
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "tool": "image_gen__imagegen",
+    "reportedModel": null,
+    "rasterPostprocessing": false,
+    "attemptReceipt": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-1-generation.json",
+      "sha256": "6a9fadc240a76810398357e824269e94f41982d04cf2d62b3648e713082dad87"
+    }
+  },
+  {
+    "attempt": 2,
+    "theme": "light",
+    "disposition": "rejected-topology-preserved",
+    "exactToolArguments": {
+      "prompt": "Edit the supplied actual light image with only two local scientific geometry corrections. Preserve the portrait1024 by1536 canvas, all words and their large readable sizes, the title/footer, all other object identities, the channel and small-ion route, the closed-vesicle close-up, the dashed unresolved Escape? question, quantities, colors and quiet light theme.\n\nFirst correct the lower open uptake pocket. Outside remains LEFT of the vertical bilayer and cytosol remains RIGHT. The plasma membrane must INVAGINATE INTO THE RIGHT cytosolic side, not bulge left into outside. Draw the open membrane as a continuous U-shaped inward pocket extending right, with its mouth/open neck connected to the left outside space. The two violet cargo shapes lie inside the pocket's fluid lumen, which is still connected to outside through that open mouth. The pocket's bilayer bends continuously from the upper vertical membrane into its rightward cup and back to the lower vertical membrane. No separate straight membrane closes its mouth. Then retain a distinct fully closed membrane-bounded vesicle farther right on the cytosolic side, with exactly two violet cargo shapes enclosed. A short local process arrow may lead from the open inward pocket to that closed vesicle. No violet cargo is free in cytosol. Keep the large \"Vesicle uptake\" words on the left; adjust only their leader so it lands on the corrected inward pocket. Preserve two head rows around each true bilayer and tails pointing toward the shared hydrophobic core.\n\nSecond correct only the blue surface receptor's transmembrane portion. Keep its orange hexagonal bound molecule entirely outside on the extracellular tip. Make a continuous narrow blue receptor stem visibly span BOTH lipid head rows and the full bilayer core, ending in a short visible blue cytosolic stub on the RIGHT. Do not add a cargo transport arrow or signaling chain. The outside orange molecule does not cross. Keep the \"Surface bound\" leader on the orange molecule.\n\nNo other changes. Do not move or change the small ion/channel, isolated lower vesicle close-up, compartment labels, title, footer, or unresolved escape connector. No activity, nuclear delivery, expression or clinical outcome. Preserve large phone-readable labels.",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-1-light.png"
+      ]
+    },
+    "callJSON": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-2-light-call-proposed.json",
+      "sha256": "a8856900515832a5749d1da97470927833dcc705f90e04de4f608cc627b82274"
+    },
+    "literalPromptSHA256": "1619aefffedfde6546387fd3a629e11d6e5ce794a31ee822df17ca2c8470de24",
+    "references": [
+      {
+        "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-1-light.png",
+        "sha256": "2b673909e28cc53c215b745312b7f86811918b3e28707e06e4a2c3835e31eb52"
+      }
+    ],
+    "nativeOutput": {
+      "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-457d7b89-7ddf-4976-8232-5d8e22eec8b1.png",
+      "sha256": "bd7a8135877a9d5857518e5bc797f1190d9caec2d04d107eb7d03507a0434ed4"
+    },
+    "scratchOutput": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-2-light.png",
+      "sha256": "bd7a8135877a9d5857518e5bc797f1190d9caec2d04d107eb7d03507a0434ed4"
+    },
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "tool": "image_gen__imagegen",
+    "reportedModel": null,
+    "rasterPostprocessing": false,
+    "attemptReceipt": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-2-generation.json",
+      "sha256": "6fadd0ae5a3eb57d012b471ce5cbd3a8f9e850c38e9ccc944badf7e171e16ee9"
+    }
+  },
+  {
+    "attempt": 3,
+    "theme": "light",
+    "disposition": "accepted-light-for-theme-derivation",
+    "exactToolArguments": {
+      "prompt": "Correct only the uptake pocket and blue receptor stem in this actual reference. Retain all exact large labels, the portrait canvas, title/footer, the ion/channel, the closed round vesicle on the right, the bottom close-up, the dashed Escape? question and all other geometry/colors.\n\nThe current open uptake cup is WRONG: it is a C-shaped cup on the LEFT of the cell boundary, opening toward RIGHT cytosol. Replace it with the horizontally opposite topology: a RIGHTWARD cup shaped like a closing parenthesis \")\", whose mouth faces LEFT and is visibly connected to the blue Outside space. The continuous vertical cell bilayer is near x500. Draw the inward pocket mainly between x500 and x720, inside the yellow cytosolic region, with the cup's deepest point to the RIGHT. At the upper and lower mouth margins the curved bilayer joins the existing vertical bilayer. Both lipid leaflets must follow that curve. Leave the middle LEFT mouth OPEN, with a wide blue-fluid corridor from the outside blue region into the pocket lumen. There must be NO straight membrane wall blocking that corridor. The two violet cargo shapes are now inside this blue-fluid pocket lumen to the RIGHT of the original vertical boundary, enclosed on their upper, right and lower sides, but the lumen still opens to extracellular LEFT. Do NOT show any opening from the lumen toward right-hand yellow cytosol. Do NOT draw a left-bulging C cup again. The separately closed round vesicle remains farther RIGHT, its two violet shapes fully enclosed; a short process arrow runs from pocket to closed vesicle without implying cargo passes through the bilayer. Repoint only the Vesicle uptake leader to this corrected inward pocket.\n\nExtend only the blue receptor's horizontal stem visibly through the full bilayer and beyond the RIGHT row of lipid heads into the yellow cytosol. Its blue cytosolic stub should end around x590, conspicuously to the right of both head rows, rather than stop inside the membrane. Keep the same orange molecule at the extracellular LEFT tip, with no molecule movement, entry or signaling arrow.\n\nThis is a localized topology repair. No word, large label size, other scene, cargo count, question or outcome changes. Keep all larger violet cargo within pocket/vesicle lumens; no free violet cargo appears in cytosol.",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-2-light.png"
+      ]
+    },
+    "callJSON": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-3-light-call-proposed.json",
+      "sha256": "4fcf3b672537e2231b6cc0954c28e5826bdc2d08c26e6b9fbc9d2890402c04c2"
+    },
+    "literalPromptSHA256": "719d46049f91b89b43093ae7633f32fe4969a9c02ef17c80def2bfaad8f864f1",
+    "references": [
+      {
+        "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-2-light.png",
+        "sha256": "bd7a8135877a9d5857518e5bc797f1190d9caec2d04d107eb7d03507a0434ed4"
+      }
+    ],
+    "nativeOutput": {
+      "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-c797baba-a1c0-4b96-963e-50443e9fbef7.png",
+      "sha256": "bf68ebbfaf0f7f72568bd54fd5b4036d33fa2c0009eeab2fea1efbfad553de2a"
+    },
+    "scratchOutput": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-3-light.png",
+      "sha256": "bf68ebbfaf0f7f72568bd54fd5b4036d33fa2c0009eeab2fea1efbfad553de2a"
+    },
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "tool": "image_gen__imagegen",
+    "reportedModel": null,
+    "rasterPostprocessing": false,
+    "attemptReceipt": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-3-generation.json",
+      "sha256": "8dd80475b3df9632403e9c15148353bacb6375fda42028ed34e43bffc848bffa"
+    }
+  },
+  {
+    "attempt": 4,
+    "theme": "dark",
+    "disposition": "final-native-dark-awaiting-pair-review",
+    "exactToolArguments": {
+      "prompt": "Convert only the actual accepted light reference to a dark theme. Preserve all object positions, geometry, quantities, labels, leader endpoints, compartment boundaries, arrow styles and semantic color identities exactly. Use a quiet charcoal/navy ground, pale readable lettering and restrained versions of the same blue, sage, cyan, orange and violet. No added glow, neon outlines, glossy surfaces, new objects, relabeling or scene rearrangement.",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-c797baba-a1c0-4b96-963e-50443e9fbef7.png"
+      ]
+    },
+    "callJSON": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-4-dark-call.json",
+      "sha256": "c6af84ac2bc6e2923a5658841312244a4e95902214501d9dd5041214781300bd"
+    },
+    "literalPromptSHA256": "23c7a48f9426d9f5e075176d2973fdb6adf4a8d0fc62820233c1bfd3e7a8597d",
+    "references": [
+      {
+        "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-c797baba-a1c0-4b96-963e-50443e9fbef7.png",
+        "sha256": "bf68ebbfaf0f7f72568bd54fd5b4036d33fa2c0009eeab2fea1efbfad553de2a"
+      }
+    ],
+    "nativeOutput": {
+      "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-ea6b88a1-8199-4161-adad-143eb21e8fe4.png",
+      "sha256": "92884b44aa8ad71b6244308b73daaa53d1d029f2a91a7cecac372cd913b54bbc"
+    },
+    "scratchOutput": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-4-dark.png",
+      "sha256": "92884b44aa8ad71b6244308b73daaa53d1d029f2a91a7cecac372cd913b54bbc"
+    },
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "tool": "image_gen__imagegen",
+    "reportedModel": null,
+    "rasterPostprocessing": false,
+    "attemptReceipt": {
+      "path": "/tmp/education-visual-gap-production-wave1/cell-boundary/attempt-4-generation.json",
+      "sha256": "1df755a3641fb79f3ee395847f7ee589c2e404936cd922cb5329134be07523a2"
+    }
+  }
+]
+
+SOURCE ACCESS AND DEPICTED-CLAIM LIMITS
+[
+  {
+    "id": "openstax-passive",
+    "title": "OpenStax Biology 2e, 5.2 Passive Transport",
+    "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+    "kind": "official publisher textbook",
+    "status": "accessed",
+    "accessMechanism": "web__run, initial and targeted follow-up open",
+    "actualReadDepth": "Selected complete Selective Permeability, Facilitated Transport, Channels and Carrier Proteins passages, including Figure 5.9 caption text. No source illustration copied.",
+    "locator": "Channels paragraph and Figure 5.9 caption; Facilitated Transport preceding paragraph",
+    "exactBoundedExcerpt": "when a channel opens, select ions diffuse through the channel.",
+    "supports": "An open membrane-spanning channel provides a hydrophilic path for selected ions; facilitated transport follows the relevant favorable gradient. The drawn small ion is not a large macromolecule.",
+    "limits": "Only this illustrative open-channel route is depicted, not every transport protein or all cargo. No prevalence, efficiency, rate or universal direction is inferred.",
+    "rawSourceSHA256": null
+  },
+  {
+    "id": "openstax-gradient",
+    "title": "OpenStax Biology 2e, 5.3 Active Transport",
+    "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+    "kind": "official publisher textbook",
+    "status": "accessed",
+    "accessMechanism": "web__run",
+    "actualReadDepth": "Selected Electrochemical Gradient and primary-versus-secondary transport passages.",
+    "supports": "For ions, concentration and electrical differences together determine the electrochemical gradient; a protein route does not justify drawing a universal direct-ATP step.",
+    "limits": "No active pump is depicted. This passage is used only to qualify the illustrative passive arrow.",
+    "rawSourceSHA256": null
+  },
+  {
+    "id": "openstax-vesicles",
+    "title": "OpenStax Biology 2e, 5.4 Bulk Transport",
+    "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+    "kind": "official publisher textbook",
+    "status": "accessed",
+    "accessMechanism": "web__run, initial and targeted follow-up open",
+    "actualReadDepth": "Selected Endocytosis paragraph, phagocytosis/pinocytosis/receptor-mediated uptake text and transport table; not a claim of reviewing every cited study.",
+    "supports": "A plasma-membrane pocket can enclose extracellular cargo and separate as an intracellular membrane-bounded vesicle. Its lumen is distinct from surrounding cytosol.",
+    "limits": "Do not generalize a specific coat, lysosome route or cargo to every uptake process. Vesicle formation does not by itself depict cytosolic release.",
+    "rawSourceSHA256": null
+  },
+  {
+    "id": "seer-cell",
+    "title": "NCI SEER, Cell Structure",
+    "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html",
+    "kind": "official educational resource",
+    "status": "accessed",
+    "accessMechanism": "web__run",
+    "actualReadDepth": "Complete short substantive cell-structure page; membrane bilayer and embedded channel/receptor/carrier roles read.",
+    "supports": "Cell boundary and embedded proteins can be shown separately; receptors can attach extracellular molecules at the surface.",
+    "limits": "Generalized schematic, not a measured delivery or receptor-signaling experiment.",
+    "rawSourceSHA256": null
+  },
+  {
+    "id": "gilleron-2013",
+    "title": "Gilleron et al., Image-based analysis of lipid nanoparticle-mediated siRNA delivery, intracellular trafficking and endosomal escape",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23792630/",
+    "doi": "10.1038/nbt.2612",
+    "kind": "primary experimental study",
+    "status": "accessed",
+    "accessMechanism": "web__run PubMed open",
+    "actualReadDepth": "Complete primary abstract read freshly; full Methods/Results and source figures not read in this task.",
+    "supports": "In the studied LNP-siRNA cell/mouse systems, uptake, intracellular transport and endosomal release were experimentally distinguishable. This supports keeping release a separate question.",
+    "limits": "No numerical escape estimate or formulation-specific route is carried into the generic illustration. No universal efficiency, mechanism or clinical effect is asserted.",
+    "rawSourceSHA256": null
+  },
+  {
+    "id": "cooper-small-solutes",
+    "title": "Cooper, Transport of Small Molecules",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK9847/",
+    "kind": "official NCBI-hosted textbook",
+    "status": "browser-challenge",
+    "accessMechanism": "fresh web__run open",
+    "actualReadDepth": "No textbook body accessed; challenge page only.",
+    "supports": null,
+    "limits": "Not used as newly verified evidence. Exact small-ion/channel passage was obtained from OpenStax instead.",
+    "rawSourceSHA256": null
+  }
+]

@@ -48,6 +48,10 @@ Five fictional participants are followed for first recurrence from enrollment. N
 | 2 | 4 | One person is censored | 80% |
 | 3 | 3 | One recurrence | `0.80 × 2/3 ≈ 53.3%` |
 
+<img src="./images/kaplan-meier-event-censor-risk-set-light.svg" alt="Fictional Kaplan–Meier recurrence-free curve beginning at 100%, falling to 80% after one event at month 1, showing a censor tick without a drop at month 2, then falling to 8/15 (about 53.3%) at month 3. Event cards show 5 and 3 participants at risk immediately before the respective events; the plot stops at month 3." data-theme-pair>
+
+*In this five-person fictional example, events lower the estimate; the month-2 censor tick leaves it unchanged but removes a person from the next risk set. With 3 at risk just before the month-3 event, the estimate is (4/5) × (2/3) = 8/15 ≈ 53.3%. The plot ends there: no later outcome, confidence interval or individual prognosis is shown. Censoring assumptions still matter.*
+
 The month-2 censoring changes the next denominator. Simply subtracting two observed recurrences from five original participants would ignore the missing later observation.
 
 ## A fixed-time rate versus a landmark analysis
