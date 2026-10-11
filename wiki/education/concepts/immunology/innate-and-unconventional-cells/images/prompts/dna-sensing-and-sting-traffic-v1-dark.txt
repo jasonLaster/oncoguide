@@ -1,0 +1,63 @@
+{
+  "id": "next-gap-016",
+  "attempt": 4,
+  "theme": "dark",
+  "author": "immune_foundations",
+  "independentReviewer": "claims_access",
+  "tool": "image_gen__imagegen",
+  "model": null,
+  "actualCall": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-4-dark/actual-call.json",
+    "sha256": "f68838a5d67ca4fc2170659e622c362288bb1b79a9b2ba813f4051e57f4d5660",
+    "bytes": 2316
+  },
+  "actualPrompt": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-4-dark/actual-prompt.txt",
+    "sha256": "c2b58998d8278c663000e2bae8c6a99509dff5939319990ba6c91a8ae509b7ae",
+    "bytes": 2139
+  },
+  "toolMetadata": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-4-dark/tool-result-metadata.json",
+    "sha256": "089844d8d681620051b6773242bad3668478269e4c9622e7bc8ee5decf67054c",
+    "bytes": 560
+  },
+  "nativeOriginal": {
+    "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-b229a1ac-8d7d-4da3-802f-bcad943d2432.png",
+    "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+    "bytes": 2182881
+  },
+  "nativeCopy": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-4-dark/dark.png",
+    "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+    "bytes": 2182881
+  },
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "references": [
+    {
+      "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-3/light.png",
+      "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+      "bytes": 2176699
+    }
+  ],
+  "independentPromptReview": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-4-dark-proposal/independent-dark-prompt-review.json",
+    "sha256": "c7f494cb252840eb6bde2f794bf2924c7275490449cb85ea6447a2b60a01553b",
+    "bytes": 4390
+  },
+  "invocationPreflight": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-4-dark/invocation-preflight.json",
+    "sha256": "a5773ef2dc9ac3479aa6eb9ab4a1622df9f705a410bee249898e9a2a0ca50b5a",
+    "bytes": 514
+  },
+  "invocationCount": 1,
+  "nativeBytesCopiedExactly": true,
+  "noCropResizeReencode": true,
+  "phase": "actual palette-only dark; independent native and measured312 review pending",
+  "repositoryWrites": false,
+  "coverageCredit": false,
+  "humanReview": "pending",
+  "createdUTC": "2026-10-11T14:38:54.790069+00:00"
+}

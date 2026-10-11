@@ -35,6 +35,11 @@ cGAMP binds **stimulator of interferon genes (STING)**, a membrane-associated si
 
 Downstream signaling can induce [type I interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) and other inflammatory programs. These signals do not specify a tumor antigen. Antigen presentation and compatible responding cells remain separate steps.
 
+<div data-education-visual="next-gap-016">
+<img src="./images/dna-sensing-and-sting-traffic-v1-light.png" width="1024" height="1536" alt="A cell cutaway places accessible DNA and cGAS in the cytosol, cGAMP at the cytosolic side of membrane-bound STING, intracellular traffic from the endoplasmic reticulum (ER) to Golgi and a separate nuclear gene-response question, with host and cancer-cell contexts shown separately." data-theme-pair>
+<p>Follow the messenger inside the cell: cGAS senses accessible DNA and makes cGAMP; membrane-bound STING moves from the endoplasmic reticulum (ER) toward the Golgi. Downstream gene responses need compatible signaling machinery. Read host and cancer-cell results separately; this simplified route does not establish tumor benefit.</p>
+</div>
+
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD

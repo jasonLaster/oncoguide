@@ -37,6 +37,11 @@ Proteolytic processing in the Golgi releases an SREBP fragment that can enter th
 
 The family has several members and overlapping roles. SREBP-2 is especially associated with cholesterol regulation; SREBP-1 has major roles in fatty-acid production. A claim should identify the member and readout being tested.
 
+<div data-education-visual="next-gap-017">
+<img src="./images/sterol-sensing-to-nuclear-fragment-v1-light.png" width="1024" height="1536" alt="A three-compartment schematic follows a membrane-bound sterol regulatory element-binding protein 2 (SREBP-2) precursor with SCAP from the endoplasmic reticulum (ER) through a transport vesicle to Golgi processing. Only the released fragment enters the nucleus. A separate ER example shows the complex retained when local sterol supply is sufficient." data-theme-pair>
+<p>Follow SREBP-2 from membrane precursor to released nuclear fragment. Local endoplasmic reticulum (ER) sterol conditions help control SCAP-mediated transport; sufficient supply can retain the complex in the ER. Golgi processing releases the fragment, rather than sending the whole precursor into the nucleus. Shapes and counts are schematic. Total cholesterol or SREBP RNA alone does not establish this processing.</p>
+</div>
+
 ## Why it matters in cancer
 
 Growing cells need membrane material. Some cancer models change lipid production, uptake, or storage. Dependence on one route depends partly on what the environment supplies and whether another route compensates.

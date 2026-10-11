@@ -1,0 +1,63 @@
+{
+  "id": "next-gap-016",
+  "attempt": 3,
+  "theme": "light",
+  "author": "immune_foundations",
+  "independentReviewer": "claims_access",
+  "tool": "image_gen__imagegen",
+  "model": null,
+  "actualCall": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-3/actual-call.json",
+    "sha256": "7e0b60d9fd933a53141c03d1195654e13ea81d19e8d4c6e2bf574e406fd5cfed",
+    "bytes": 3229
+  },
+  "actualPrompt": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-3/actual-prompt.txt",
+    "sha256": "27027128d800f78921716f20cc0002bb386998c73485c6995c997a3dede5618d",
+    "bytes": 3052
+  },
+  "toolMetadata": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-3/tool-result-metadata.json",
+    "sha256": "6a1174335bfe9e50a41ac708e41a452bae5d3c978368e69cc26b1e3aa27568b1",
+    "bytes": 560
+  },
+  "nativeOriginal": {
+    "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-bb824d7b-6734-401a-83c8-df468f7441e9.png",
+    "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+    "bytes": 2176699
+  },
+  "nativeCopy": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-3/light.png",
+    "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+    "bytes": 2176699
+  },
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "references": [
+    {
+      "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-2/light.png",
+      "sha256": "32899b16bc2ee75e795e171ba869bcd569475cec09b5d03d43889f7d3995e0fa",
+      "bytes": 2270739
+    }
+  ],
+  "independentPromptReview": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-3/independent-edit-prompt-review.json",
+    "sha256": "0743813f0e288d59f3f7886d759d60cc7c21db7a47da04e353daf59129844a65",
+    "bytes": 3940
+  },
+  "invocationPreflight": {
+    "path": "/tmp/education-visual-gap-production-wave6/next-gap-016/attempt-3/invocation-preflight.json",
+    "sha256": "828cd968ad8951b6029f3d004de2af2991e57d4d2538c6844d7ae2a27a811f6b",
+    "bytes": 521
+  },
+  "invocationCount": 1,
+  "nativeBytesCopiedExactly": true,
+  "noCropResizeReencode": true,
+  "phase": "actual edited light; independent native and measured312 review pending",
+  "repositoryWrites": false,
+  "coverageCredit": false,
+  "humanReview": "pending",
+  "createdUTC": "2026-10-11T14:31:59.880789+00:00"
+}

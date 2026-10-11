@@ -1,0 +1,7 @@
+{
+  "prompt": "Using ONLY the actual accepted light image as the reference, make a DARK palette variant of the same cartoon. Preserve every object, location, quantity, word, wrap, label scale, leader endpoint, compartment boundary, membrane crossing, vesicle cargo, cleavage gap, free-fragment identity, nuclear pore and conditional transport/retention relation exactly. Use quiet charcoal/navy background, pale readable labels, slightly lighter compartment surfaces and the same muted purple/sage/blue identity colors. No scene regeneration, new objects, numbers, words, rearrangement, glow or decorative rays. Preserve all ordinary-label readability.",
+  "transparent_background": false,
+  "referenced_image_paths": [
+    "/tmp/education-visual-gap-production-wave6/next-gap-017/attempt-2/light.png"
+  ]
+}

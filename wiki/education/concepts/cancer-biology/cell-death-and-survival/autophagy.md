@@ -33,11 +33,21 @@ The analogy is limited: cells can select particular cargo, and their recycling m
 
 This page focuses on **macroautophagy**, the route that encloses material in a double-membrane compartment called an **autophagosome**. It eventually delivers cargo to a [lysosome](/wiki/education/concepts/biology-basics/cells/organelles-overview), an acidic compartment containing breakdown enzymes. The resulting building blocks can be reused. Other autophagy routes exist; not every lysosomal process uses an autophagosome.
 
+<div class="my-6">
+<img src="./images/macroautophagy-cargo-route-v1-light.png" alt="Three macroautophagy scenes show cargo inside a closed double-membrane autophagosome, outer-membrane fusion with a lysosome, and later breakdown products returning to the cytosol." data-theme-pair width="1024" height="1536">
+<p><em>Enclosure, lysosomal delivery and breakdown are separate steps. A completed macroautophagy route returns building blocks for reuse; membranes, cargo shapes and sizes are schematic.</em></p>
+</div>
+
 **Autophagic flux** means movement through the process, including delivery and degradation. Formation, fusion with lysosomes and degradation are separate steps. A block late in the process can increase the amount of visible material while reducing completed recycling.
 
 **Microtubule-associated protein 1 light chain 3 (LC3)** is a commonly studied marker. Its lipid-attached form, **LC3-II**, associates with autophagic membranes. More LC3-II can reflect increased formation or reduced removal. Its abundance alone is not a flux measurement or proof of selective cargo degradation.
 
 A controlled, short lysosomal-block experiment compares LC3-II with and without blocked degradation. Additional accumulation can support ongoing turnover during that interval. Complementary reporters can track delivery into acidic compartments: Kimura and colleagues developed a tandem fluorescent LC3 reporter whose green and red signals respond differently to those conditions. A reporter needs controls for expression, acidity and handling; it is not an infallible cargo census.
+
+<div class="my-6">
+<img src="./images/macroautophagy-amount-and-flow-v1-light.png" alt="Two identical two-autophagosome starting snapshots lead to possible later breakdown-product release or hypothetical post-delivery degradation blockage with persistent cargo; survival dependence remains a separate test." data-theme-pair width="1122" height="1402">
+<p><em>The same starting amount can have different later fates. These illustrative routes do not diagnose culture B: follow cargo over time, and test survival dependence separately. LC3-II abundance alone does not settle either question.</em></p>
+</div>
 
 ## Why it matters in cancer
 
