@@ -1,0 +1,352 @@
+Original editable chart specification and reproducible source. Scratch candidate; independent pixels and integration are pending.
+
+CURRENT FULL SPECIFICATION
+DRAFT CHART SPECIFICATION — not approved, rendered, integrated or released
+Question: Of the positive calls, how many have the condition?
+
+An editable portrait count chart, two aligned population panels stacked vertically.
+Use a reproducible Matplotlib renderer, not generative raster art. Same exact shapes,
+coordinates, text, values, hatches and axes in light/dark; quiet palette swap only.
+Keep every core label at least 24 SVG points on a 576-point-wide canvas (planned
+312px display minimum 13px). Final actual pixels govern; no current size claim.
+
+Header: Same test assumptions / Different base rates
+Fictional. 1,000 people in each group. Assumed sensitivity 80%, specificity 90%.
+
+Panel 1: 10% have the condition
+Row 1 reference-status pool: 100 have condition; bar TP 80 + FN 20.
+  Explicit count labels: Positive 80 / Negative 20. Sensitivity 80/100=80%.
+Row 2 reference-status pool: 900 without condition; bar FP 90 + TN 810.
+  Explicit count labels: Positive 90 / Negative 810. Specificity 810/900=90%.
+Neutral regrouping divider: Same people, positive calls only.
+Row 3 positive-call pool: 170 positive calls; bar TP 80 + FP 90.
+  Explicit endpoint/component labels: True positive 80 / False positive 90.
+  PPV 80/170≈47.1%.
+
+Panel 2: 50% have the condition
+Row 1: 500 have condition; bar TP 400 + FN 100.
+  Positive 400 / Negative 100. Sensitivity 400/500=80%.
+Row 2: 500 without condition; bar FP 50 + TN 450.
+  Positive 50 / Negative 450. Specificity 450/500=90%.
+Same regrouping divider.
+Row 3: 450 positive calls; bar TP 400 + FP 50.
+  True positive 400 / False positive 50. PPV 400/450≈88.9%.
+
+All six stacked count bars use the SAME linear count scale 0–1,000 with zero origin;
+no independent autoscaling, normalized 100%-bar substitution or decorative areas.
+Explicit small segment counts sit OUTSIDE their segments; do not squeeze text into
+20/50-person sections. Count anchors/leaders must point to exact segment endpoints.
+Positive-call TP and FP colors AND hatches stay consistent with the upper status
+rows; negatives remain neutral and are identified by context/count labels.
+TP: teal, solid. FP: amber, diagonal hatch. Negative result: gray, dotted pattern.
+No green/red right/wrong moral coding. Labels/context distinguish FN from TN.
+The plot encodes counts; printed equations encode conditional percentages.
+Show reference-status row totals and positive-call total as explicit denominators.
+
+Ordinary caption explains all counts, regrouping and fixed-performance assumption.
+Keep existing owner table, NPV discussion, fictional 5% practice and limitations.
+No patient silhouettes, actual test/vender/cancer labels, benefit inference, threshold
+recommendation, confidence interval, individual posterior or missing-data shortcut.
+
+Acceptance: exact 8 counts / 2 PPV ratios/common axes from JSON, matches retained owner;
+both themes geometry/text equality; independent actual 312px image/390px document
+and desktop contexts show denominators/bar labels/ordinary caption without clipping.
+If crowded, increase portrait height or wrap words; never shrink core type or delete
+one prevalence, assumption or denominator. Fine reference citations can stay in text.
+
+EXACT RENDERER SOURCE
+#!/usr/bin/env python3
+"""Original editable natural-frequency chart; exact data, deterministic theme pair."""
+import argparse
+from fractions import Fraction
+import hashlib
+import importlib.metadata
+import json
+from pathlib import Path
+import re
+import sys
+import xml.etree.ElementTree as ET
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle, FancyBboxPatch
+from matplotlib import font_manager
+
+HERE = Path(__file__).resolve().parent
+W, H = 576, 1520
+LEFT, RIGHT = 24, 552
+SCALE = (RIGHT - LEFT) / 1000
+STEM = 'positive-calls-and-base-rates-v1'
+PALETTES = {
+    'light': {'bg':'#FBF8F2','panel':'#FFFDF8','ink':'#203447','muted':'#50677B',
+              'line':'#BAC8CE','tp':'#287F89','fp':'#D8A448','neg':'#B7C2CC','hatch':'#485F70'},
+    'dark': {'bg':'#13202D','panel':'#1B2D3C','ink':'#EDF1EF','muted':'#B9CAD2',
+             'line':'#597080','tp':'#70C3C8','fp':'#EBC170','neg':'#637B8E','hatch':'#DFE7E8'},
+}
+
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+def dump(x):
+    return (json.dumps(x, ensure_ascii=False, indent=2) + '\n').encode()
+
+def verify_data(data):
+    assert data['fictional'] is True and data['populationPerPanel'] == 1000
+    checks = []
+    for s in data['populations']:
+        tp, fn, fp, tn = [s[k] for k in ['truePositive','falseNegative','falsePositive','trueNegative']]
+        assert tp + fn == s['hasCondition'] and fp + tn == s['withoutCondition']
+        assert tp + fn + fp + tn == 1000 and tp + fp == s['positiveCalls']
+        assert Fraction(tp, tp+fn) == Fraction(4,5) and Fraction(tn,fp+tn) == Fraction(9,10)
+        assert str(Fraction(tp,tp+fp)) == s['ppv']['exactFraction']
+        assert f'{100*tp/(tp+fp):.1f}%' == s['ppv']['displayPercent']
+        checks.append({'id':s['id'],'TP':tp,'FN':fn,'FP':fp,'TN':tn,
+                       'sensitivity':str(Fraction(tp,tp+fn)), 'specificity':str(Fraction(tn,fp+tn)),
+                       'PPV':str(Fraction(tp,tp+fp)), 'NPV':str(Fraction(tn,tn+fn))})
+    return checks
+
+def draw(theme, data, output):
+    c = PALETTES[theme]
+    plt.rcParams.update({'font.family':'Arial','svg.fonttype':'none','svg.hashsalt':'ppv-base-rates-v1',
+        'hatch.linewidth':1.25,'text.color':c['ink'],'axes.unicode_minus':False})
+    fig = plt.figure(figsize=(W/72,H/72), dpi=72, facecolor=c['bg'])
+    ax = fig.add_axes([0,0,1,1]);ax.set_xlim(0,W);ax.set_ylim(H,0);ax.axis('off')
+    texts, coords = [], []
+    def text(x,y,value,size=24,color=None,weight='normal',ha='left',core=True):
+        item = ax.text(x,y,value,fontsize=size,color=color or c['ink'],va='top',ha=ha,fontweight=weight)
+        texts.append((item,core));return item
+    def line(x1,y1,x2,y2,color=None,width=1.5):
+        ax.plot([x1,x2],[y1,y2],color=color or c['line'],linewidth=width,solid_capstyle='round')
+    text(24,24,'Of the positive calls,',32,weight='bold')
+    text(24,66,'how many have the condition?',32,weight='bold')
+    text(24,117,'Fictional: 1,000 people per group')
+    text(24,150,'Sensitivity 80% · Specificity 90%')
+    for i,s in enumerate(data['populations']):
+        offset = i * 658
+        ax.add_patch(FancyBboxPatch((12,195+offset),552,636,boxstyle='round,pad=0,rounding_size=16',
+                                   facecolor=c['panel'],edgecolor=c['line'],linewidth=1.2))
+        text(24,212+offset,f"{s['prevalence']['percent']}% have the condition",28,weight='bold')
+        def row(row_id, y, label, counts, kinds, labels, equation):
+            text(LEFT,y,label,24,weight='bold')
+            bar_y, bar_h = y+37, 25
+            x = LEFT
+            segments = []
+            for count,kind in zip(counts,kinds):
+                width = count*SCALE
+                patch = Rectangle((x,bar_y),width,bar_h,facecolor=c[kind],edgecolor=c['hatch'],
+                                  linewidth=1.1,hatch={'tp':None,'fp':'///','neg':'..'}[kind])
+                ax.add_patch(patch)
+                segments.append({'kind':kind,'count':count,'x':x,'y':bar_y,'width':width,'height':bar_h,
+                                 'leaderEndpoint':[x+width/2,bar_y+bar_h]})
+                x += width
+            assert abs(x - (LEFT+sum(counts)*SCALE)) < 1e-9
+            for seg,tx,label_text in zip(segments,[LEFT,304],labels):
+                t = text(tx,bar_y+46,label_text)
+                leader_x = tx + (78 if tx == LEFT else 92)
+                line(leader_x,bar_y+39,seg['leaderEndpoint'][0],seg['leaderEndpoint'][1],c['muted'],1.1)
+                seg['externalLabel'] = label_text
+            text(LEFT,y+119,equation,24)
+            coords.append({'population':s['id'],'row':row_id,'title':label,'total':sum(counts),
+                           'commonScale':[0,1000],'segments':segments,'equation':equation})
+        row('condition',248+offset, f"Has condition: {s['hasCondition']}",
+            [s['truePositive'],s['falseNegative']],['tp','neg'],
+            [f"Positive {s['truePositive']}",f"Negative {s['falseNegative']}"],
+            f"Sensitivity {s['truePositive']}/{s['hasCondition']} = 80%")
+        row('without-condition',395+offset,f"Without condition: {s['withoutCondition']}",
+            [s['falsePositive'],s['trueNegative']],['fp','neg'],
+            [f"Positive {s['falsePositive']}",f"Negative {s['trueNegative']}"],
+            f"Specificity {s['trueNegative']}/{s['withoutCondition']} = 90%")
+        line(LEFT,547+offset,RIGHT,547+offset)
+        text(LEFT,557+offset,'Regroup the same positive people',24,color=c['muted'])
+        row('positive-calls',600+offset,f"Positive calls: {s['positiveCalls']}",
+            [s['truePositive'],s['falsePositive']],['tp','fp'],
+            [f"True positive {s['truePositive']}",f"False positive {s['falsePositive']}"],
+            f"PPV {s['truePositive']}/{s['positiveCalls']} ≈ {s['ppv']['displayPercent']}")
+        axis_y=755+offset
+        line(LEFT,axis_y,RIGHT,axis_y,c['muted'],1.2)
+        for n in [0,500,1000]:
+            x=LEFT+n*SCALE;line(x,axis_y,x,axis_y+7,c['muted'],1.2)
+            text(x,axis_y+12,f'{n:,}',24,ha='left' if n==0 else 'right' if n==1000 else 'center')
+        text(W/2,axis_y+43,'People · same 0–1,000 scale',24,ha='center')
+    fig.canvas.draw()
+    renderer=fig.canvas.get_renderer()
+    bounds=[]
+    for item,core in texts:
+        box=item.get_window_extent(renderer)
+        assert box.x0 >= 0 and box.y0 >= 0 and box.x1 <= W and box.y1 <= H, (item.get_text(),box.bounds)
+        if core:assert item.get_fontsize() >= 24
+        bounds.append({'text':item.get_text(),'fontPoints':item.get_fontsize(),
+                       'bbox':list(box.bounds),'core':core})
+    from io import StringIO
+    stream=StringIO();fig.savefig(stream,format='svg',metadata={'Date':None,'Creator':'Original reproducible PPV natural-frequency chart'})
+    plt.close(fig)
+    raw=stream.getvalue()
+    description='Two fictional populations of 1,000 people use the same assumed sensitivity and specificity; reference-condition pools and regrouped positive-call pools use one count scale.'
+    raw=re.sub(r'(<svg\b[^>]*>)',lambda m:m.group(1)+'\n <title>Positive calls and base rates</title>\n <desc>'+description+'</desc>',raw,count=1)
+    output.write_text(raw)
+    ET.fromstring(raw)
+    return coords,bounds
+
+def canonical_svg(path):
+    text=path.read_text()
+    # Matplotlib hatch definition IDs derive from palette; normalize by definition order.
+    identifiers=re.findall(r'\bid="([^"]+)"',text)
+    for i,name in enumerate(identifiers):
+        text=text.replace('id="'+name+'"','id="canonical-'+str(i)+'"')
+        text=text.replace('#'+name+'"','#canonical-'+str(i)+'"').replace('#'+name+')','#canonical-'+str(i)+')')
+    return re.sub(r'#[0-9a-fA-F]{6}', '#PALETTE',text)
+
+def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--output-dir',required=True);args=parser.parse_args()
+    output=Path(args.output_dir);output.mkdir(parents=True,exist_ok=False)
+    data_raw=(HERE/'chart-data-draft.json').read_bytes();data=json.loads(data_raw)
+    checks=verify_data(data)
+    results={}
+    for theme in ['light','dark']:
+        path=output/(STEM+'-'+theme+'.svg');coords,bounds=draw(theme,data,path)
+        results[theme]={'path':path.name,'sha256':sha(path.read_bytes()),'bytes':path.stat().st_size,
+                         'coordinates':coords,'textBounds':bounds}
+    assert results['light']['coordinates']==results['dark']['coordinates']
+    assert results['light']['textBounds']==results['dark']['textBounds']
+    assert canonical_svg(output/results['light']['path'])==canonical_svg(output/results['dark']['path'])
+    font=Path(font_manager.findfont(font_manager.FontProperties(family='Arial'),fallback_to_default=False))
+    environment={'python':sys.version.split()[0],'matplotlib':matplotlib.__version__,
+        'numpy':importlib.metadata.version('numpy'),'font':{'family':'Arial','path':str(font),'sha256':sha(font.read_bytes())},
+        'platformFontRequired':True,'fontFallbackAllowed':False}
+    (output/'chart-data.json').write_bytes(data_raw)
+    (output/'chart-coordinates.json').write_bytes(dump({'canvasPoints':[W,H],'countScale':[0,1000],
+        'xBaseline':LEFT,'xMax':RIGHT,'pointsPerPerson':SCALE,'rows':results['light']['coordinates'],
+        'textBounds':results['light']['textBounds'],'minimumCoreFontPoints':24,'at312pxPrediction':13.0,
+        'plannedNotActualBrowserSize':True}))
+    (output/'reproduction-environment.json').write_bytes(dump(environment))
+    receipt={'schemaVersion':1,'id':'next-gap-006','fictional':True,'rendererSHA256':sha(Path(__file__).read_bytes()),
+        'inputDataSHA256':sha(data_raw),'exactMath':checks,'themeGeometryTextEqualAfterPaletteAndHatchIdNormalization':True,
+        'palette':PALETTES,'outputs':[{k:results[t][k] for k in ['path','sha256','bytes']} for t in ['light','dark']],
+        'canvasPoints':[W,H],'minimumCoreFontPoints':24,'browserPixelsVerified':False,'environment':environment}
+    (output/'render-receipt.json').write_bytes(dump(receipt))
+    print(json.dumps({'verdict':'SOURCE_RENDER_PASS','output':str(output),'outputs':receipt['outputs'],
+        'browserPixelsVerified':False}))
+
+if __name__=='__main__':main()
+
+EXACT DATA
+{
+  "schemaVersion": 1,
+  "status": "Unapproved planned chart data; no rendered chart or integration",
+  "id": "next-gap-006",
+  "units": "fictional people, one reference assessment and one test result per person",
+  "fictional": true,
+  "populationPerPanel": 1000,
+  "heldConstantAssumptions": {
+    "sensitivity": "80%",
+    "specificity": "90%",
+    "completeReferenceAssessment": true,
+    "indeterminateResults": 0,
+    "missingResults": 0
+  },
+  "populations": [
+    {
+      "id": "base-rate-10",
+      "population": 1000,
+      "prevalence": {
+        "numerator": 1,
+        "denominator": 10,
+        "percent": 10
+      },
+      "hasCondition": 100,
+      "withoutCondition": 900,
+      "truePositive": 80,
+      "falseNegative": 20,
+      "falsePositive": 90,
+      "trueNegative": 810,
+      "positiveCalls": 170,
+      "negativeCalls": 830,
+      "sensitivity": {
+        "numerator": 80,
+        "denominator": 100,
+        "fraction": "4/5",
+        "percent": "80%"
+      },
+      "specificity": {
+        "numerator": 810,
+        "denominator": 900,
+        "fraction": "9/10",
+        "percent": "90%"
+      },
+      "ppv": {
+        "numerator": 80,
+        "denominator": 170,
+        "exactFraction": "8/17",
+        "displayPercent": "47.1%"
+      },
+      "npvRetainedInOwnerNotDrawn": {
+        "numerator": 810,
+        "denominator": 830,
+        "exactFraction": "81/83",
+        "displayPercent": "97.6%"
+      }
+    },
+    {
+      "id": "base-rate-50",
+      "population": 1000,
+      "prevalence": {
+        "numerator": 1,
+        "denominator": 2,
+        "percent": 50
+      },
+      "hasCondition": 500,
+      "withoutCondition": 500,
+      "truePositive": 400,
+      "falseNegative": 100,
+      "falsePositive": 50,
+      "trueNegative": 450,
+      "positiveCalls": 450,
+      "negativeCalls": 550,
+      "sensitivity": {
+        "numerator": 400,
+        "denominator": 500,
+        "fraction": "4/5",
+        "percent": "80%"
+      },
+      "specificity": {
+        "numerator": 450,
+        "denominator": 500,
+        "fraction": "9/10",
+        "percent": "90%"
+      },
+      "ppv": {
+        "numerator": 400,
+        "denominator": 450,
+        "exactFraction": "8/9",
+        "displayPercent": "88.9%"
+      },
+      "npvRetainedInOwnerNotDrawn": {
+        "numerator": 450,
+        "denominator": 550,
+        "exactFraction": "9/11",
+        "displayPercent": "81.8%"
+      }
+    }
+  ],
+  "checks": {
+    "fourCellsSumTo1000Both": true,
+    "sameAssumedSensitivityAndSpecificity": true,
+    "ppvDifferentDenominatorsFromSensitivity": true,
+    "positivePoolRegroupsExistingParticipantsNotAdditionalPeople": true
+  }
+}
+
+EXACT ENVIRONMENT
+{
+  "python": "3.14.5",
+  "matplotlib": "3.10.8",
+  "numpy": "2.5.4",
+  "font": {
+    "family": "Arial",
+    "path": "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9"
+  },
+  "platformFontRequired": true,
+  "fontFallbackAllowed": false
+}

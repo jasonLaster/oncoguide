@@ -30,6 +30,11 @@ For a [protein](/wiki/education/concepts/biology-basics/molecules/protein-and-pe
 
 ## How it works
 
+<div class="my-6">
+  <img src="/api/file?path=wiki/education/concepts/biology-basics/signaling/images/phosphate-site-and-protein-amount-v1-light.svg" data-theme-pair alt="Two separate reactions add phosphate to and remove it from the same serine site. Below, fictional phosphopeptide and parent-protein signals both change from one to two while their ratio stays one; possible functional effects remain a separate question." />
+  <p class="text-sm text-muted-foreground mt-2">This serine-site example uses adenosine triphosphate (ATP) to add phosphate and makes adenosine diphosphate (ADP); phosphatase removal uses water and releases phosphate, without making ATP. In the fictional comparable measurements, both signals double and their ratio stays unchanged. That does not establish an occupancy percentage or activation. The effect depends on the protein, site and context.</p>
+</div>
+
 Protein [kinases](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) are enzymes that commonly transfer a phosphate group from **adenosine triphosphate (ATP)** to particular amino acids, often serine, threonine or tyrosine. **Protein phosphatases** remove phosphate groups by hydrolysis, a reaction using water. This removal is called **dephosphorylation**; it does not reverse the kinase reaction to make ATP again.
 
 The added group can change a protein's shape, catalytic activity, binding partners or location. Some modified sites become docking positions for other proteins. A molecule can contain multiple sites with different roles, and the balance between adding and removing phosphate groups changes over time.

@@ -1,0 +1,157 @@
+CURRENT CUSTODY NOTE
+The source-bound composition below is preserved from the historical planning draft. The accepted original editable SVG pair has since been drawn, source-checked, reproduced and independently inspected by multiomics in four actual local theme/width cases plus one ordinary-scrolled phone supplement. The portable standard-library renderer below reproduces both accepted SVG outputs exactly. Root owns any integration/publication; local review is not a production or human-review claim. Historical source-only layout attempt 1 was not pixel approved.
+
+ORIGINAL EDITABLE SVG COMPOSITION DRAFT — NOT DRAWN OR APPROVED
+
+Question: Site, amount, or function?
+Make one original 600 × 1680 viewBox SVG with three vertically stacked panels, warm pale light theme and quiet dark palette equivalent. Keep text as editable SVG text; no raster text, foreignObject, external resources, scripts or remote fonts. Use a system sans-serif. Core object/reaction/axis labels at least 28 viewBox units (14.56px at312px image width), panel headings34, overall question40. No core label may depend on enlargement; native/312px/desktop themed pixels must be reviewed later. Exact palette changes alone may differ between light and dark. The same geometry, text, arrow endpoints, counts and numerical bars must match.
+
+Panel1 y110–810: Same protein, specified site. Two stacked, distinct reaction rows, not an ATP-regenerating cycle. The same generic rounded protein shape and same highlighted serine side-chain location occur at each row's left and right state. Label the site “Specified site” and mark its oxygen-containing state as “Ser–OH” versus “Ser–O–P”; P is a shorthand phosphate-group mark, not a claim that a phosphorus atom alone is the whole group. Keep the oxygen: do not replace the hydroxyl oxygen with phosphorus. States are illustrative and not molecule counts. No activation glow or generic nuclear/clinical outcome.
+
+Addition row: left unmodified serine-site protein, right modified serine-site protein; a clear left-to-right reaction arrow, labeled “Kinase”. A separately placed donor/product label “ATP → ADP” and a local transfer cue locate the transferred phosphate at that specified protein oxygen, not at a different protein position. If nucleotide icons are used, ATP has three phosphate badges, ADP two, and only the terminal badge is transferred. Keep ATP/ADP chemistry separate from protein-count measurement. Exact visible equation relation: ATP + unmodified protein → ADP + phosphoprotein. Protonation/charges, Mg and intermediates are omitted, not contradicted.
+
+Removal row: left modified same-site protein, right unmodified same-site protein; its own left-to-right arrow, labeled “Phosphatase”. Water is an input to this removal, and a separate free phosphate group is an output beside the unmodified product. Visible short labels “Water” and “Free phosphate”. No arrow from this released group to ADP or ATP; no reversal of the top reaction or ATP synthesis. Exact visible relation: modified serine site + water → unmodified serine site + free phosphate. Label the two rows “Add phosphate” and “Remove phosphate”; do not merge them into a universal functional on/off switch.
+
+Panel2 y835–1370: Fictional matched measurements. Keep relative assay signals separate from molecular-state drawings. Use an explicit horizontal signal axis with0/1/2 and exact label “Relative signal (A=1)”. SampleA contains two labeled bars, “Phosphopeptide” and “Parent protein”, each value1. SampleB contains the same two bars at exactly twice their lengths, value2. Bars share one common scale and baseline. Reserve x24–240 for wrapped labels, x270–560 for bars; use28-unit or larger text. Use labeled neutral blue/sand or patterned fills, not red/green good/bad coding. Parent protein means measured parent-protein abundance proxy, not a count of added phosphate groups or every protein in the sample. Do not draw molecule icons as literal measured counts. Numeric summary: A1/1=1; B2/2=1. Exact summary words “Ratio unchanged”. Exact nearby limit “No occupancy % established” and “Comparable measurements assumed”. This is normalized fictional signal arithmetic from the retained Try it, not raw instrument data, empirical absolute molecule counts, calibrated occupancy or a kinase-activity test.
+
+Panel3 y1395–1660: Function needs its own test. Three equal alternatives, labeled “Can increase”, “Can decrease”, and “Context matters”. Pair each with an independent neutral symbol (up/down/question) and text; no causal arrow connecting this panel to an asserted successful outcome. Heading/subline state “Protein + site + context”. These are possible different effects across proteins/sites/conditions, not three simultaneously established effects of the generic serine glyph. Do not show a specific tissue, drug, pathway dependence, response or benefit.
+
+Leader endpoints must land at the specified side-chain oxygen/phosphate or named reaction molecule. All panel shapes/arrows/text must stay within bounds; no hidden overflow. Keep the concise ordinary caption/alt from brief.json. This instruction file is a planning composition, not an executed tool call, generated file, rendered-pixel pass or release proof.
+
+SOURCE / CUSTODY RECORD
+
+- https://iubmb.qmul.ac.uk/enzyme/EC2/7/11/1.html — Complete short nomenclature entry, with reaction and comments. References listed by the entry were not individually read.
+- https://iubmb.qmul.ac.uk/enzyme/EC3/1/3/16.html — Complete short nomenclature entry, with reaction and comments. Linked underlying papers not individually read.
+- https://pubmed.ncbi.nlm.nih.gov/2432403/ — Complete primary PubMed abstract freshly read. Full paper Methods/results/figure pixels not read.
+- https://pubmed.ncbi.nlm.nih.gov/21551504/ — Fresh complete PubMed abstract and selected primary PMC introduction/results/discussion text and Figure 5 caption text from web search retrieval; not full Methods, supplementary materials or figure pixels. Direct PMC open returned a challenge.
+- https://pubmed.ncbi.nlm.nih.gov/21725298/ — Complete primary PubMed abstract freshly read; full Methods/results/figure pixels not read.
+- https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal — Selected phosphorylation and context-dependent signal paragraphs and figure-caption text. Not all section facts independently verified; no source image copied.
+
+Approved brief SHA256: ec4f69c7b269584a9afe6742cb4e98390203d7fda3aebc409548a7bb41223c4d
+Independent planning review SHA256: 5ac2484dac0ea19c8fe60037971fa8310a047e94276da557b435d4026050df3a
+Independent actual-candidate review SHA256: cd3230c4dd4adc99787d1143d415bcb449719c6652db9413d96288d13694e08b
+Original guarded SVG source SHA256: fd96637bd99d5d8fd9de3ac0b55cb4dd11d8ce5ac5c8ad0a6ae393adaaf15f61
+Portable renderer SHA256: 7b2b2ae0159ee5c5b3c1d2eec1acc4c64db9a02470cbba742777180ec62e2272
+Capture receipt SHA256: 8438b050a5c7e62c48b978b460a0e91153b1f93c31b05631e25916c581887acb
+Light SVG SHA256: 12bea328cf37d27e331235c496f6c205235903ddf3940663bda1d9b1a93287ed
+Dark SVG SHA256: a4e176994b8c6aa7c8184fd90349f858abdfe674e926e0425a8369b7c8b3ecee
+Native dimensions: 600 × 1680 SVG units. Model: null; original editable SVG source, no image-generation call.
+
+REPRODUCIBLE PORTABLE ORIGINAL SVG SOURCE
+
+"""Original editable SVG source, Python standard library only.
+Use: python3 render_diagram_portable.py --output-dir /absolute/fresh/directory
+Reproduces independently reviewed candidate pair without temporary brief or live
+repository dependencies. No raster input, image-generation model or source figure.
+Output files are exclusive-created; metadata checks are source checks, not pixels.
+"""
+from pathlib import Path
+from html import escape
+import argparse, json, hashlib, xml.etree.ElementTree as ET
+parser=argparse.ArgumentParser()
+parser.add_argument('--output-dir',type=Path,required=True)
+args=parser.parse_args()
+P=args.output_dir.resolve();P.mkdir(parents=True,exist_ok=True)
+H=lambda b:hashlib.sha256(b).hexdigest()
+# Historical guarded source SHA256: fd96637bd99d5d8fd9de3ac0b55cb4dd11d8ce5ac5c8ad0a6ae393adaaf15f61
+# Approved source-bound brief SHA256: ec4f69c7b269584a9afe6742cb4e98390203d7fda3aebc409548a7bb41223c4d
+brief = {'proposedAlt': 'Two separate reactions add phosphate to and remove it from the same serine site. Below, fictional phosphopeptide and parent-protein signals both change from one to two while their ratio stays one; possible functional effects remain a separate question.'}
+palette = {
+ 'light': {'bg':'#fbf7ef','panel':'#fffdf8','ink':'#243440','muted':'#536473','line':'#bdc8ce','protein':'#d5e4eb','proteinEdge':'#52778a','phosphate':'#ebc37b','phosphateEdge':'#8a6331','blue':'#6189a3','sand':'#cfad73','card':'#f2f0e9'},
+ 'dark': {'bg':'#17232d','panel':'#20313e','ink':'#f1eee6','muted':'#c1cfd4','line':'#6d8491','protein':'#385d70','proteinEdge':'#b3d1de','phosphate':'#c49c60','phosphateEdge':'#ead1a5','blue':'#9bbfd4','sand':'#dbbd8c','card':'#293e4b'}
+}
+def build(theme):
+ c=palette[theme]; parts=[]
+ def add(s): parts.append(s)
+ def text(x,y,label,size=28,weight=400,anchor='start',color='ink'):
+  add(f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}" fill="{c[color]}">{escape(label)}</text>')
+ def box(x,y,w,h,fill='panel',rx=18,stroke='line'):
+  add(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{c[fill]}" stroke="{c[stroke]}" stroke-width="2"/>')
+ def line(x1,y1,x2,y2,color='muted',arrow=False,dash=False):
+  add(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{c[color]}" stroke-width="3"'+(' marker-end="url(#arrow)"' if arrow else '')+(' stroke-dasharray="6 5"' if dash else '')+'/>')
+ def circle(x,y,r,fill='phosphate',stroke='phosphateEdge'):
+  add(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{c[fill]}" stroke="{c[stroke]}" stroke-width="2"/>')
+ def protein(cx,y,modified):
+  # Identical generic body and oxygen site, with H or shorthand phosphate.
+  box(cx-60,y-40,120,80,'protein',20,'proteinEdge')
+  add(f'<path d="M{cx-40} {y} q20 -23 40 0 t40 0" fill="none" stroke="{c["proteinEdge"]}" stroke-width="3"/>')
+  line(cx+60,y,cx+70,y,'proteinEdge')
+  text(cx+82,y+9,'O',28,600,'middle')
+  line(cx+96,y,cx+104,y,'proteinEdge')
+  if modified:
+   circle(cx+120,y,17);text(cx+120,y+9,'P',28,600,'middle')
+  else: text(cx+120,y+9,'H',28,600,'middle')
+ add('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1680" viewBox="0 0 600 1680" role="img" aria-labelledby="title desc">')
+ add('<title id="title">Site, amount, or function?</title>')
+ add('<desc id="desc">'+escape(brief['proposedAlt'])+'</desc>')
+ add('<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10 Z" fill="'+c['muted']+'"/></marker></defs>')
+ add('<g font-family="Arial, Helvetica, sans-serif">')
+ add(f'<rect width="600" height="1680" fill="{c["bg"]}"/>')
+ text(24,45,'Site, amount,',40,700);text(24,90,'or function?',40,700)
+ box(12,110,576,700)
+ text(36,160,'Same protein, specified site',34,700)
+ text(36,202,'Add phosphate',28,600)
+ text(300,242,'Kinase',28,600,'middle')
+ protein(124,310,False);protein(442,310,True)
+ line(274,310,362,310,arrow=True)
+ text(300,366,'Specified site',28,400,'middle')
+ line(230,354,213,318,'proteinEdge')
+ text(124,397,'Ser–OH',28,400,'middle');text(442,397,'Ser–O–P',28,400,'middle')
+ text(300,440,'ATP → ADP',28,600,'middle')
+ # A transfer cue ends at the added P group. It is separate from the main reaction arrow.
+ add(f'<path d="M330 418 Q490 415 550 328" fill="none" stroke="{c["muted"]}" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>')
+ line(36,459,564,459,'line')
+ text(36,499,'Remove phosphate',28,600)
+ text(300,539,'Phosphatase',28,600,'middle')
+ text(300,575,'Water',28,400,'middle')
+ line(300,582,300,621,arrow=True)
+ protein(124,622,True);protein(442,622,False)
+ line(274,622,362,622,arrow=True)
+ text(124,699,'Ser–O–P',28,400,'middle');text(442,699,'Ser–OH',28,400,'middle')
+ line(440,710,521,731,arrow=True)
+ circle(541,739,17);text(541,748,'P',28,600,'middle')
+ text(310,754,'Free phosphate',28,400)
+ text(36,792,'P = phosphate group',28,400)
+ box(12,835,576,535)
+ text(36,879,'Fictional matched',34,700);text(36,918,'measurements',34,700)
+ text(300,958,'Relative signal (A=1)',28,400,'middle')
+ line(270,1001,510,1001,'muted')
+ for x,n in [(270,'0'),(390,'1'),(510,'2')]:
+  line(x,995,x,1007,'muted');text(x,991,n,28,400,'middle')
+ text(30,1038,'Sample A',28,700)
+ text(30,1086,'Phosphopeptide',28);text(30,1123,'Parent protein',28)
+ text(30,1155,'Sample B',28,700)
+ text(30,1193,'Phosphopeptide',28);text(30,1230,'Parent protein',28)
+ bars=[(270,1066,120,22,'blue','1'),(270,1103,120,22,'sand','1'),(270,1173,240,22,'blue','2'),(270,1210,240,22,'sand','2')]
+ for x,y,w,height,col,value in bars:
+  add(f'<rect x="{x}" y="{y}" width="{w}" height="{height}" fill="{c[col]}"/>')
+  text(x+w+12,y+23,value,28,600)
+ text(36,1262,'A: 1/1 = 1',28);text(326,1262,'B: 2/2 = 1',28)
+ text(300,1294,'Ratio unchanged',28,600,'middle')
+ text(300,1326,'No occupancy % established',28,400,'middle')
+ text(300,1358,'Comparable measurements assumed',28,400,'middle')
+ box(12,1395,576,265)
+ text(300,1448,'Function needs its own test',34,700,'middle')
+ for x,symbol,first,second in [(24,'↑','Can','increase'),(206,'↓','Can','decrease'),(388,'?','Context','matters')]:
+  box(x,1480,176,129,'card',12)
+  text(x+88,1520,symbol,32,600,'middle');text(x+88,1561,first,28,600,'middle');text(x+88,1595,second,28,600,'middle')
+ text(300,1643,'Protein + site + context',28,400,'middle')
+ add('</g></svg>')
+ return ('\n'.join(parts)+'\n').encode()
+
+def geometry(root):
+ return [(el.tag,tuple(sorted((k,v) for k,v in el.attrib.items() if k not in ['fill','stroke'])),el.text or '') for el in root.iter()]
+if __name__=='__main__':
+ outputs={}
+ for theme in ['light','dark']:
+  name='phosphate-site-and-protein-amount-v1-'+theme+'.svg';b=build(theme);p=P/name
+  assert not p.exists();p.write_bytes(b);outputs[theme]=b
+ light=ET.fromstring(outputs['light']);dark=ET.fromstring(outputs['dark'])
+ assert geometry(light)==geometry(dark)
+ textels=[e for e in light.iter() if e.tag.endswith('text')]
+ assert min(float(e.attrib['font-size']) for e in textels)==28
+ assert not any(bad in outputs['light'] for bad in [b'<script',b'foreignObject',b'<image'])
+ assert outputs['light'].count(b'http://')==1 and b'http://www.w3.org/2000/svg' in outputs['light']
+ checks={'source':'Original editable SVG code, not image generation or raster postprocessing','nativeDimensions':[600,1680],'identicalThemeGeometryAndText':True,'editableCoreTextMinimumUnits':28,'predictedCoreFontAt312px':14.56,'actualPixelsReviewed':False,'sameProteinSiteGeometry':True,'barWidths':[120,120,240,240],'fictionalRatios':[1,1],'noOccupancyPercentage':True,'renderedPreviewPending':True,'repositoryWrites':0,'humanReview':'pending'}
+ (P/'drawing-source-checks.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2)+'\n')
+ print(json.dumps({'outputs':[{'path':str(P/('phosphate-site-and-protein-amount-v1-'+t+'.svg')),'sha256':H(outputs[t])} for t in ['light','dark']],**checks}))
