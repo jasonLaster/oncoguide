@@ -1,0 +1,7 @@
+{
+  "prompt": "Convert the referenced actual light cartoon into its dark-theme companion. This is a theme edit only: preserve exactly the same canvas size, geometry, panels, compartment identities, labels, text spelling, membrane arrangement, every object and every arrow direction. Keep the upper cutaway and lower magnified scene aligned to the light version. Preserve ATP synthase catalytic head on the matrix side, pumping from matrix into intermembrane space, and both synthase and leak return paths from intermembrane space into matrix. Preserve electron transfer distinct from proton movement and preserve the exact oxygen-use caveat. Quiet deep navy ground and readable pale ink, muted coral H+ and violet electron path with restrained sage/sand regions. Retain the same warm hand-drawn texture without glow or 3D effects. Change colors and contrast only, no scientific or compositional additions. Portrait 1024 x 1536 pixels, same size as reference. Generate the actual native file in /tmp/education-curriculum-fanout/oxphos-cartoon/ if the tool allows an output location. Do not write to a repository. Preserve the v2 repair: proton return stops immediately below the inner membrane above the ATP-making head, and the separate ADP + phosphate \u2192 ATP arrow has no H+ next to it.",
+  "referenced_image_paths": [
+    "/tmp/education-curriculum-fanout/oxphos-cartoon/mitochondrial-proton-paths-v2-light.png"
+  ],
+  "transparent_background": false
+}

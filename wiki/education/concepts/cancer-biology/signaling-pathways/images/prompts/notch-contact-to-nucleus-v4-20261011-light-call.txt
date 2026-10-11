@@ -1,0 +1,7 @@
+{
+  "referenced_image_paths": [
+    "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v3-20261011-light.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Edit only one text label in the supplied actual portrait cartoon; keep every object, arrow, cut location, panel, color, background, other text and exact dimensions unchanged. In panel 3 the long two-line label 'Notch intracellular domain (NICD)' at the lower left should instead read simply 'NICD' in large 50-pixel clean sans-serif bold dark navy letters, one line. Keep its leader line ending on the same ochre protein. This large short label must be legible at 358px display width. All other pixels stay the same; no added labels, no other changes."
+}

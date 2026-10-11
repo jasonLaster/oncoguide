@@ -7,7 +7,7 @@ glossary_anchor: "batch-release"
 aliases: ["batch release", "lot release", "release testing", "batch disposition"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-10"
@@ -111,4 +111,5 @@ Source check: October 10, 2026. A general quality-decision model; actual require
 ## Used in
 
 - [How a personalized vaccine is manufactured](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured)
+- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

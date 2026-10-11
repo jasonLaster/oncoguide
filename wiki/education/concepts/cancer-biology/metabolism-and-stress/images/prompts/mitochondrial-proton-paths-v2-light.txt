@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "versionedStem": "mitochondrial-proton-paths-v2",
+  "reason": "Prevent proton-to-ATP material-conversion ambiguity",
+  "lightEditCall": {
+    "prompt": "Correct only one scientific teaching ambiguity in the referenced mitochondrial cartoon. Preserve canvas 1024x1536, all upper cutaway anatomy, all text, membranes, colors, objects, labels and geometry except the following precise lower ATP-synthase proton/reaction detail. The red downward proton return arrow must pass through the membrane-embedded part of ATP synthase and STOP just below the inner membrane in the matrix, near the stalk, ABOVE the rounded matrix-facing ATP-making head. Do not draw the red proton arrow through the catalytic head. Remove the short red arrow and the H+ circle currently immediately below the ATP synthase head, just above \u201cADP + phosphate \u2192 ATP\u201d. Restore the quiet sand matrix background there. The dark-blue \u201cADP + phosphate \u2192 ATP\u201d reaction below the matrix-facing head must be a simple chemical arrow from ADP + phosphate to ATP, spatially separate from proton arrows and without a curved arrow or H+ feeding it. Keep the ATP synthase head on the matrix side. Protons cross the membrane; they do not become ATP. Keep the leak return and the upward pumping exactly as they are. Do not add extra labels or claim a fixed stoichiometry. Preserve the exact footer oxygen-use caveat and all other details. Native image edit only, no overlays, no cropping, no new visual style. Save in /tmp/education-curriculum-fanout/oxphos-cartoon/ if output location is supported; never write to repository.",
+    "referenced_image_paths": [
+      "/tmp/education-curriculum-fanout/oxphos-cartoon/mitochondrial-proton-paths-v1-light.png"
+    ],
+    "transparent_background": false
+  },
+  "referenceSHA256": "6fc02ddeabd362f12dc74986bf1b7cf544d369d0eb6e3713c441f75ee0c4bcd2",
+  "model": "unknown; not returned by tool",
+  "preparedBeforeGeneration": true
+}

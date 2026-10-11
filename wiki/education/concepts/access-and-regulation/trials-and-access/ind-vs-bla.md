@@ -7,7 +7,7 @@ glossary_anchor: "ind-vs-bla"
 aliases: ["IND","Investigational New Drug application","BLA","Biologics License Application","NDA","New Drug Application"]
 level: "intermediate"
 prerequisites: []
-used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
+used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
 updated: 2026-10-10
@@ -110,4 +110,5 @@ U.S. source check: October 10, 2026. Fictional exercise. No individual applicati
 - [Name the access route](/wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route)
 - [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture)
 - [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
+- [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)
 <!-- END GENERATED USED IN -->

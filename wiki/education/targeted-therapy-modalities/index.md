@@ -33,6 +33,8 @@ A promising address is a useful beginning. It can support different product idea
 
 ## Supporting topics
 
+After the core path, use these in order when a proposal needs more than a format comparison. Their worksheet answers address research planning, evidence and specimen use; they do not select a treatment.
+
 - [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing) distinguishes parallel development from evidence for combining treatments.
 - [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions) turns a proposal into an assessable claim.
 - [Tissue and sample requirements](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget) explains which questions different specimen preparations can answer.

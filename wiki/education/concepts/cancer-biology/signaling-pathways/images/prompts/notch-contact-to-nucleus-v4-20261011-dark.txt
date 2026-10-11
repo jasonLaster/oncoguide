@@ -1,0 +1,36 @@
+{
+  "brief_id": "brief-032",
+  "final_stem": "notch-contact-to-nucleus-v4-20261011",
+  "base_prompt_file": "/tmp/education-curriculum-fanout/notch-cartoon/images/prompts/notch-contact-to-nucleus-v4-20261011.txt",
+  "pre_generation_original_prompt": "/tmp/education-curriculum-fanout/notch-cartoon/prompt.json",
+  "pre_generation_portrait_prompt": "/tmp/education-curriculum-fanout/notch-cartoon/portrait-prompt.json",
+  "exact_call_history": "/tmp/education-curriculum-fanout/notch-cartoon/calls.json",
+  "lineage": "light-draft1 -> light-repair1 -> light-repair2; v2dark from actual corrected v2light; new portraitv3light -> portraitv3dark; v4shortNICDlabel edit from actualv3light -> v4dark from actualv4light",
+  "model": "unknown; no model identifier exposed by image_gen",
+  "actual_dimensions": [
+    1024,
+    1536
+  ],
+  "citations": [
+    {
+      "key": "sender_receiver_ownership",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4481192/",
+      "checked_scope": "Full primary article retrieved; selected Introduction/Results supporting transmembrane ligand/receptor on adjacent cells and cell-generated activation. Pulling is omitted in drawing and identified in caption."
+    },
+    {
+      "key": "outside_then_membrane_cut",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10882062/",
+      "checked_scope": "Complete primary abstract through indexed official PubMed web result. Raw HTTP203 custody file is an interstitial, not article content. No full Methods certification."
+    },
+    {
+      "key": "released_domain_and_nuclear_helpers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9620803/",
+      "checked_scope": "Complete primary abstract through indexed official PubMed result; publisher HTML snapshot retained."
+    },
+    {
+      "key": "gamma_secretase_cut_non_specificity",
+      "url": "https://www.nature.com/articles/19083",
+      "checked_scope": "Primary publisher abstract and figure headings; Notch and APP processing, nuclear transport. No full Methods certification."
+    }
+  ]
+}

@@ -116,6 +116,8 @@ Complete: “The dose tells me ______; the exposure measurement tells me ______;
 
 **Next:** [Compare formats with evidence and normal-tissue risk](/wiki/education/targeted-therapy-modalities/06-comparisons).
 
+**Related supporting topic:** [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing) separates parallel research dependencies from concurrent treatment.
+
 ## Sources and scope
 
 Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General delivery and timing concepts with fictional examples; expert and learner review remain pending. No treatment duration, dose, or access promise is supplied here.

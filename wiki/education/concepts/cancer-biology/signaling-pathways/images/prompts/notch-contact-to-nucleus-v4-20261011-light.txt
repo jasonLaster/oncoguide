@@ -1,0 +1,208 @@
+{
+  "calls": [
+    {
+      "id": "light-draft1",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Create a friendly scientific educational cartoon teaching how a contact signal between adjacent cells reaches the receiving cell nucleus through Notch receptor cleavage. Landscape canvas, target 1536 by 1024 pixels. Title: \"Notch: from contact to nucleus\". Use a large top scene and two smaller scenes below, numbered 1, 2, 3, with comfortable margins. Scene-first art: warm hand-painted vector/watercolor texture, rounded biological objects, clean readable sans-serif labels. Quiet outlines, no faces. Match the gentle physical detail of the current tumor-neighborhood educational anchor, rather than a text-card poster.\n\nPanel 1, top full width, heading \"1  Neighbor contact\". Draw two adjacent cutaway cells: signal-sending cell on the left with sage cytoplasm; signal-receiving cell on the right with dusty blue cytoplasm. Each cell has a clearly outlined membrane and its own nucleus. Their facing membranes remain separate with a narrow extracellular gap. Draw one coral/orange elongated membrane-bound ligand inserted THROUGH the sender membrane, reaching right across the gap. Draw one purple elongated Notch receptor inserted THROUGH the receiver membrane, extending left to visibly touch the ligand. Both proteins cross only their own cell membrane; the membranes never fuse. The Notch receptor has a distinct ochre/orange intracellular tail inside the RECEIVER, not in the gap. Draw thin object leader lines ending precisely on each object. Exact labels: \"Sender cell\", \"Receiver cell\", \"Membrane-bound ligand\", \"Notch receptor\". No unattached ligands or floating signaling dots. Cell cytoplasm and extracellular gap visibly differ.\n\nPanel 2, lower left, heading \"2  Receptor cuts\". A close-up cutaway of ONLY the RECEIVER membrane: extracellular space above, receiver cytoplasm below. Draw a two-state left-to-right sequence of the SAME purple receptor with SAME ochre intracellular tail. First state has long extracellular segment, membrane-spanning stub and tail; a small scissors symbol makes the first cut JUST OUTSIDE the membrane. An arrow leads to a second state with shortened extracellular stub and same intracellular tail. Show a simple membrane-embedded protein cutter labeled \"Gamma-secretase\" next to the stub; a second cut marker is IN the membrane. Show the released ochre tail physically detached INSIDE receiver cytoplasm, with a clear small gap from membrane. Exact labels only: \"Outside cut\", \"Membrane cut\", \"Gamma-secretase\", \"Released inner piece\". Scissors/cutter are explicitly simplified symbols, not literal molecular structures. No drawing of ligand cleavage or of the entire receptor entering the nucleus.\n\nPanel 3, lower right, heading \"3  Signal reaches nucleus\". Show the interior of the SAME dusty blue RECEIVER cell, a purple nuclear envelope with a small pore and DNA line inside. The SAME ochre released inner receptor piece is in receiver cytoplasm; a curved arrow leads through the nuclear pore to one matching ochre piece beside two small neutral helper protein shapes and a short DNA strand within the nucleus. This represents successive positions, not multiplying molecules. Exact labels: \"Notch intracellular domain (NICD)\", \"Receiver nucleus\", \"Gene regulation\". The released piece is not DNA or RNA; label goes to a small protein blob. DNA remains inside nucleus. NICD works with helper proteins, no claim it independently binds DNA. Make the path from membrane release to receiver nucleus immediately visible.\n\nAt bottom one quiet short line: \"Simplified contact-dependent pathway\". Labels exactly as listed, no other text. Use consistent receptor, ligand and fragment shapes/colors across all panels. Label and shape reinforce color, not red/green good/bad coding. Keep title and numbered scene headings large; use few generous labels, not paragraphs. Anatomical/protein shapes and sizes are schematic. This is the common ligand-dependent route, not a claim that all Notch activity needs neighbor contact. No tumor growth, cure, drug treatment, universal cancer effect, success checkmarks or efficacy coding. Gamma-secretase is depicted performing this cut, never as Notch-specific. No invented pathway branches, free secreted ligand, membrane fusion, receptor translocation to nucleus, photorealism, clinicians, logos, neon glow, watermarks or medical photography.\n\nLIGHT THEME: warm pale ivory ground, dark navy ink, muted sage/dusty blue/lavender/coral/ochre colors. Fine textured shading without glossy depth. Preserve clear separation of two adjacent cell membranes.\nSave native output in /tmp/education-curriculum-fanout/notch-cartoon/ if supported.",
+        "transparent_background": false
+      },
+      "model": "unknown",
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-09096001-4804-415a-a715-f640662bc62a.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v2-20261011-light-draft1.png",
+      "sha256": "374faf45ab4dfa8af1b83a07cff41e7f057133773b93da61de81086c9a09063f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "status": "author identified cut-site teaching risk; repair planned"
+    },
+    {
+      "id": "light-repair1",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "referenced_image_paths": [
+          "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v2-20261011-light-draft1.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Edit this actual cartoon only to correct cut locations in panel 2, the lower-left scene. Preserve ALL other artwork, text, labels, layout, texture, colors, and exact dimensions. Critical biological repair: first extracellular cut (left receptor) must be placed immediately ABOVE the membrane, close to the top row of blue phospholipid heads, in the purple extracellular receptor stalk. Move its small white dashed cut mark and scissors down to that juxtamembrane position; keep the existing 'Outside cut' label with a leader pointing to the corrected mark. The second, labeled 'Membrane cut' (right shortened receptor), MUST occur INSIDE the bilayer: move its white dashed cut mark to the purple transmembrane stem exactly BETWEEN the upper and lower blue phospholipid head rows, around the central blue hydrocarbon-tail region. Its scissors/leader should point INSIDE the membrane, not above it. The second receptor should have a much SHORTER extracellular purple stub than the first receptor. Keep the membrane-embedded gamma-secretase cutter at the second receptor. Preserve the ochre tail and detached ochre released inner piece in receiver cytosol below membrane; preserve its release arrow. Keep all other panels identical. Do not add text or other molecules. Save native output in /tmp/education-curriculum-fanout/notch-cartoon/ if supported."
+      },
+      "model": "unknown",
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-b732f54b-2264-4ec8-9db3-2ba147a8ebfc.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v2-20261011-light-draft2.png",
+      "sha256": "6adbaff4b3dbc1fda611f8cf567e64ada5475318cfd1d1bc62326b8ceb1baa59",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reference_sha256": "374faf45ab4dfa8af1b83a07cff41e7f057133773b93da61de81086c9a09063f",
+      "status": "author-inspected; independent review pending"
+    },
+    {
+      "id": "light-repair2",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "referenced_image_paths": [
+          "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v2-20261011-light-draft2.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Make one tiny precision repair in this educational cartoon. All other pixels and text/layout/colors remain the same. In lower-left panel 2, at the RIGHT receptor only, there are currently TWO white dashed cut marks. Delete the upper mark that is just above the phospholipid bilayer. Keep ONLY the lower cut mark which is centered within the bilayer (between top and bottom rows of phospholipid heads). Remove the red scissors at the right receptor; instead the dark blue leader line from the text 'Membrane cut' must end in a small dark dot DIRECTLY on the retained lower cut mark inside the purple transmembrane segment at center of the bilayer. A single membrane-cut marker, with label pointing inside the bilayer, is essential. Do not change the left receptor or its outside cut/scissors. Preserve all other objects, panel labels, protein colors, NICD nuclear route and image dimensions. No other edits."
+      },
+      "model": "unknown",
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-d1f6a544-c11e-492a-87d2-753785294f6b.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v2-20261011-light.png",
+      "sha256": "49e1f7a5b0b1ff9f57b69cc619c1afe244fbdb6eb43355a3ebc351e9a5678f21",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reference_sha256": "6adbaff4b3dbc1fda611f8cf567e64ada5475318cfd1d1bc62326b8ceb1baa59",
+      "status": "author-inspected; independent review pending"
+    },
+    {
+      "id": "dark",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Re-render the supplied actual light cartoon as its matching DARK THEME version. Change palette and contrast only: quiet deep slate/navy ground, readable pale warm ink, muted sage/dusty blue/lavender/coral/ochre fills. Preserve warm watercolor/vector texture, no glowing borders, no neon, no glossy 3D. Preserve EVERY object, label, arrow, quantity, cut location, panel geometry, protein identity, relative position, scale and reading order from the light reference exactly. The membranes remain distinct; ligand stays anchored in sender; Notch and released intracellular protein remain owned by receiver; cuts stay outside then within receiver membrane; released ochre protein reaches receiver nucleus. Keep all text exactly as it appears in the reference and all leader lines pointing to the same objects. This is only a theme conversion of the same lesson. Landscape, retain the reference dimensions. Save native output in /tmp/education-curriculum-fanout/notch-cartoon/ if supported.",
+        "referenced_image_paths": [
+          "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v2-20261011-light.png"
+        ],
+        "transparent_background": false
+      },
+      "model": "unknown",
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-720aef22-7b5b-42ae-a3d2-133187c47f16.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v2-20261011-dark.png",
+      "sha256": "3745e7abc717ae1f7200121418d2af3497815c2c49126dc7cd1f4cb8ee4ccc78",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reference_sha256": "49e1f7a5b0b1ff9f57b69cc619c1afe244fbdb6eb43355a3ebc351e9a5678f21",
+      "status": "author-inspected; independent review pending"
+    },
+    {
+      "id": "portrait-light",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Create a friendly scientific educational cartoon teaching how a contact signal between adjacent cells reaches the receiving cell nucleus through Notch receptor cleavage. PORTRAIT canvas, 1024 pixels wide by 1536 pixels tall. Title: \"Notch: from contact to nucleus\". Use THREE full-width panels STACKED VERTICALLY, one above the other, numbered 1, 2, 3. Each panel spans entire 1024-pixel width. Make the title 60px, panel headings 54px, and ALL object labels at least 40px at native 1024px width. Ensure all labels can be read when whole image is displayed at 358px CSS width (label size at least 14px CSS). Reduce decorative organelles to allow generous labels. No side-by-side lower panels. Scene-first art: warm hand-painted vector/watercolor texture, rounded biological objects, clean readable sans-serif labels. Quiet outlines, no faces. Match the gentle physical detail of the current tumor-neighborhood educational anchor, rather than a text-card poster.\n\nPanel 1, first full-width row, heading \"1  Neighbor contact\". Draw two adjacent cutaway cells: signal-sending cell on the left with sage cytoplasm; signal-receiving cell on the right with dusty blue cytoplasm. Each cell has a clearly outlined membrane and its own nucleus. Their facing membranes remain separate with a narrow extracellular gap. Draw one coral/orange elongated membrane-bound ligand inserted THROUGH the sender membrane, reaching right across the gap. Draw one purple elongated Notch receptor inserted THROUGH the receiver membrane, extending left to visibly touch the ligand. Both proteins cross only their own cell membrane; the membranes never fuse. The Notch receptor has a distinct ochre/orange intracellular tail inside the RECEIVER, not in the gap. Draw thin object leader lines ending precisely on each object. Exact labels: \"Sender cell\", \"Receiver cell\", \"Membrane-bound ligand\", \"Notch receptor\". No unattached ligands or floating signaling dots. Cell cytoplasm and extracellular gap visibly differ.\n\nPanel 2, second full-width row, heading \"2  Receptor cuts\". A close-up cutaway of ONLY the RECEIVER membrane: extracellular space above, receiver cytoplasm below. Draw a two-state left-to-right sequence of the SAME purple receptor with SAME ochre intracellular tail. First state has long extracellular segment, membrane-spanning stub and tail; a small scissors symbol makes the first cut JUST OUTSIDE the membrane. An arrow leads to a second state with shortened extracellular stub and same intracellular tail. Show a simple membrane-embedded protein cutter labeled \"Gamma-secretase\" next to the stub; a second cut marker is IN the membrane. Show the released ochre tail physically detached INSIDE receiver cytoplasm, with a clear small gap from membrane. Exact labels only: \"Outside cut\", \"Membrane cut\", \"Gamma-secretase\", \"Released inner piece\". Scissors/cutter are explicitly simplified symbols, not literal molecular structures. No drawing of ligand cleavage or of the entire receptor entering the nucleus.\n\nPanel 3, third full-width row, heading \"3  Signal reaches nucleus\". Show the interior of the SAME dusty blue RECEIVER cell, a purple nuclear envelope with a small pore and DNA line inside. The SAME ochre released inner receptor piece is in receiver cytoplasm; a curved arrow leads through the nuclear pore to one matching ochre piece beside two small neutral helper protein shapes and a short DNA strand within the nucleus. This represents successive positions, not multiplying molecules. Exact labels: \"Notch intracellular domain (NICD)\", \"Receiver nucleus\", \"Gene regulation\". The released piece is not DNA or RNA; label goes to a small protein blob. DNA remains inside nucleus. NICD works with helper proteins, no claim it independently binds DNA. Make the path from membrane release to receiver nucleus immediately visible.\n\nAt bottom one quiet short line: \"Simplified contact-dependent pathway\". Labels exactly as listed, no other text. Use consistent receptor, ligand and fragment shapes/colors across all panels. Label and shape reinforce color, not red/green good/bad coding. Keep title and numbered scene headings large; use few generous labels, not paragraphs. Anatomical/protein shapes and sizes are schematic. This is the common ligand-dependent route, not a claim that all Notch activity needs neighbor contact. No tumor growth, cure, drug treatment, universal cancer effect, success checkmarks or efficacy coding. Gamma-secretase is depicted performing this cut, never as Notch-specific. No invented pathway branches, free secreted ligand, membrane fusion, receptor translocation to nucleus, photorealism, clinicians, logos, neon glow, watermarks or medical photography.\nCritical cut precision: the Outside cut is immediately above the TOP phospholipid heads in the first receptor, just outside the bilayer (not at distal tip). The Membrane cut is a SINGLE white dashed mark in the second receptor BETWEEN top and bottom phospholipid head rows. Use direct label leader ending in a dot ON this intra-bilayer mark. Do not put a second scissors icon or extra outside cut mark on this second receptor. Retain just one scissors near the first outside cut. The second receptor extracellular stub is much shorter than the first. Do not draw cut markers detached from the receptor. Picture repeats successive positions/states of the same signaling protein; do not imply multiplication.\nLIGHT THEME: warm pale ivory ground, dark navy ink, muted sage/dusty blue/lavender/coral/ochre colors. Gentle flat watercolor texture, no glossy depth. Save native output in /tmp/education-curriculum-fanout/notch-cartoon/ if supported.",
+        "transparent_background": false
+      },
+      "model": "unknown",
+      "available_tool_metadata": {
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "model_not_reported": true
+      },
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-155a50da-1d44-499e-9a2d-73326d36b355.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v3-20261011-light.png",
+      "sha256": "ad7fd67c972e86cf0a14a11712ac2a39de35e07a2b6715a68f7b3fb43609d5e5",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_hashes": [],
+      "status": "author-inspected; independent review pending"
+    },
+    {
+      "id": "portrait-dark",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Re-render the supplied actual light cartoon as its matching DARK THEME version. Change palette and contrast only: quiet deep slate/navy ground, readable pale warm ink, muted sage/dusty blue/lavender/coral/ochre fills. Preserve warm watercolor/vector texture, no glowing borders, no neon, no glossy 3D. Preserve EVERY object, label, arrow, quantity, cut location, panel geometry, protein identity, relative position, scale and reading order from the light reference exactly. The membranes remain distinct; ligand stays anchored in sender; Notch and released intracellular protein remain owned by receiver; cuts stay outside then within receiver membrane; released ochre protein reaches receiver nucleus. Keep all text exactly as it appears in the reference and all leader lines pointing to the same objects. This is only a theme conversion of the same lesson. PORTRAIT, retain the reference dimensions 1024 by 1536 and three stacked full-width scenes. Save native output in /tmp/education-curriculum-fanout/notch-cartoon/ if supported.",
+        "referenced_image_paths": [
+          "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v3-20261011-light.png"
+        ],
+        "transparent_background": false
+      },
+      "model": "unknown",
+      "available_tool_metadata": {
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "model_not_reported": true
+      },
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-120fe563-26c4-4f20-9ede-7abc55a1d3f2.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v3-20261011-dark.png",
+      "sha256": "d63dfae2b4f073566bd23d9764816ff3bbf7256d63a70373d13f394582ecc353",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_hashes": [
+        {
+          "path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v3-20261011-light.png",
+          "sha256": "ad7fd67c972e86cf0a14a11712ac2a39de35e07a2b6715a68f7b3fb43609d5e5"
+        }
+      ],
+      "status": "author-inspected; independent review pending"
+    },
+    {
+      "id": "v4-label-edit",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "referenced_image_paths": [
+          "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v3-20261011-light.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Edit only one text label in the supplied actual portrait cartoon; keep every object, arrow, cut location, panel, color, background, other text and exact dimensions unchanged. In panel 3 the long two-line label 'Notch intracellular domain (NICD)' at the lower left should instead read simply 'NICD' in large 50-pixel clean sans-serif bold dark navy letters, one line. Keep its leader line ending on the same ochre protein. This large short label must be legible at 358px display width. All other pixels stay the same; no added labels, no other changes."
+      },
+      "model": "unknown",
+      "available_tool_metadata": {
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "model_not_reported": true
+      },
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-c10406f4-cf39-4281-86b3-5dac9cbffbc2.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v4-20261011-light.png",
+      "sha256": "bcb40f4b8d87c7c0d0bcb04e2aefd3200923aa7cc787e9cf307956348a24f20c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_hashes": [
+        {
+          "path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v3-20261011-light.png",
+          "sha256": "ad7fd67c972e86cf0a14a11712ac2a39de35e07a2b6715a68f7b3fb43609d5e5"
+        }
+      ],
+      "status": "author-inspected; independent review pending"
+    },
+    {
+      "id": "v4-dark",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Re-render the supplied actual light cartoon as its matching DARK THEME version. Change palette and contrast only: quiet deep slate/navy ground, readable pale warm ink, muted sage/dusty blue/lavender/coral/ochre fills. Preserve warm watercolor/vector texture, no glowing borders, no neon, no glossy 3D. Preserve EVERY object, label, arrow, quantity, cut location, panel geometry, protein identity, relative position, scale and reading order from the light reference exactly. The membranes remain distinct; ligand stays anchored in sender; Notch and released intracellular protein remain owned by receiver; cuts stay outside then within receiver membrane; released ochre protein reaches receiver nucleus. Keep all text exactly as it appears in the reference and all leader lines pointing to the same objects. This is only a theme conversion of the same lesson. PORTRAIT, retain the reference dimensions 1024 by 1536 and three stacked full-width scenes. Save native output in /tmp/education-curriculum-fanout/notch-cartoon/ if supported.",
+        "referenced_image_paths": [
+          "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v4-20261011-light.png"
+        ],
+        "transparent_background": false
+      },
+      "model": "unknown",
+      "available_tool_metadata": {
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "model_not_reported": true
+      },
+      "tool_native_path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-5db4-7f02-baf5-ab5e0684adb6/exec-a9222b1c-5e72-405a-982b-48753c9d09dc.png",
+      "scratch_path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v4-20261011-dark.png",
+      "sha256": "96773634d1b462fafd764ed57e3a1f335e441325015c9384f0ca4b04a5d39747",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_hashes": [
+        {
+          "path": "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v4-20261011-light.png",
+          "sha256": "bcb40f4b8d87c7c0d0bcb04e2aefd3200923aa7cc787e9cf307956348a24f20c"
+        }
+      ],
+      "status": "author-inspected; independent review pending"
+    }
+  ]
+}

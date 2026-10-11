@@ -35,6 +35,10 @@ A membrane-bound ligand from the Delta-like or Jagged families can engage a Notc
 
 Different ligand, receptor, and cell combinations produce different outcomes. Notch helps regulate cell identity and behavior during development and tissue maintenance. A receptor's mere presence does not establish that the cutting sequence or nuclear response occurred.
 
+<img src="./images/notch-contact-to-nucleus-v4-20261011-light.png" alt="Three stacked scenes show a membrane-bound ligand on a sender cell touching Notch on a separate receiver cell, outside and membrane cuts releasing its inner domain, and that domain entering the receiver nucleus with helper proteins." width="1024" height="1536" data-theme-pair />
+
+*Contact can lead to receptor cuts that release the Notch intracellular domain (NICD) into the receiver cell and then its nucleus. Shapes and successive positions are schematic; receptor maturation and sender pulling are omitted. Activation alone does not establish a growth effect.*
+
 ```mermaid
 flowchart TD
   A[Neighbor ligand] --> B[Receptor cleavage]

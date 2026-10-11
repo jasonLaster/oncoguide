@@ -13,7 +13,7 @@ level: "foundation"
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/cell-and-membrane]]"
   - "[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]"
-used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/reading-a-tumor/index]]"]
+used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/reading-a-tumor/index]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
 reviewed: "pending"
 source_checked: 2026-10-10
 reviewed_by: ""
@@ -106,4 +106,6 @@ Source check: October 10, 2026. Preparation principles, not a laboratory operati
 - [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
 - [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
 - [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
+- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
+- [Match a specimen to the test before spending tissue](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

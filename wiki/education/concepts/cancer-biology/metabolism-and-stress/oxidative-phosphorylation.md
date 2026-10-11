@@ -29,6 +29,10 @@ Think of a water reservoir feeding a turbine. Electron transport builds a gradie
 
 ## How it works
 
+<img src="./images/mitochondrial-proton-paths-v2-light.png" alt="Mitochondrial cutaway locates outer and inner membranes, matrix and intermembrane space; a magnified inner membrane shows proton pumping from matrix to intermembrane space, return through ATP synthase and a separate leak, and a distinct electron path ending in oxygen reduction." width="1024" height="1536" data-theme-pair>
+
+*Electron transport pumps protons from the matrix to the intermembrane space; their return through ATP synthase can power ATP production, while leak bypasses synthase. Oxygen use alone does not prove ATP-linked coupling; arrows and proton symbols show directions, not fixed ratios.*
+
 **Mitochondria** are cellular compartments with inner and outer membranes. Metabolism supplies electron carriers, including reduced nicotinamide adenine dinucleotide (**NADH**). The **electron transport chain** passes electrons through a series of reactions, with oxygen serving as the final electron acceptor in mitochondrial respiration.
 
 Some of these reactions move protons across the inner membrane. A proton is a positively charged hydrogen ion. The resulting electrical and chemical gradient can drive **ATP synthase**. This enzyme combines adenosine diphosphate and phosphate to make **adenosine triphosphate (ATP)**, a molecule cells use to power many processes. Reconstitution experiments helped establish that a proton gradient can support ATP formation. [Racker and Stoeckenius 1974](https://pubmed.ncbi.nlm.nih.gov/4272126/).

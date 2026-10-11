@@ -45,6 +45,10 @@ flowchart LR
 | 2 | [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing) | Which forms of the product reaches which place over time? | 14 | A delivery chain and two contrasting models |
 | 3 | [Compare formats with evidence and normal-tissue risk](/wiki/education/targeted-therapy-modalities/06-comparisons) | What bottleneck, safety question, and evidence fit the proposed use? | 16 | Three fictional evidence cards |
 
+## Supporting topics
+
+For a proposal with several workstreams, continue to [overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing), [questions for a complete proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions), and [tissue and sample requirements](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget). These supporting topics are additional to the 44-minute core path.
+
 ## Concepts you will use
 
 For recognition, use [antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure), [the T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), and [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). An exposed part of an intact surface protein and a peptide–HLA complex are different targets, even though both can be encountered at the surface.

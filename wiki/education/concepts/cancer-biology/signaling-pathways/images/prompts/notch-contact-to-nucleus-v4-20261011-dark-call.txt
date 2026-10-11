@@ -1,0 +1,7 @@
+{
+  "prompt": "Re-render the supplied actual light cartoon as its matching DARK THEME version. Change palette and contrast only: quiet deep slate/navy ground, readable pale warm ink, muted sage/dusty blue/lavender/coral/ochre fills. Preserve warm watercolor/vector texture, no glowing borders, no neon, no glossy 3D. Preserve EVERY object, label, arrow, quantity, cut location, panel geometry, protein identity, relative position, scale and reading order from the light reference exactly. The membranes remain distinct; ligand stays anchored in sender; Notch and released intracellular protein remain owned by receiver; cuts stay outside then within receiver membrane; released ochre protein reaches receiver nucleus. Keep all text exactly as it appears in the reference and all leader lines pointing to the same objects. This is only a theme conversion of the same lesson. PORTRAIT, retain the reference dimensions 1024 by 1536 and three stacked full-width scenes. Save native output in /tmp/education-curriculum-fanout/notch-cartoon/ if supported.",
+  "referenced_image_paths": [
+    "/tmp/education-curriculum-fanout/notch-cartoon/notch-contact-to-nucleus-v4-20261011-light.png"
+  ],
+  "transparent_background": false
+}

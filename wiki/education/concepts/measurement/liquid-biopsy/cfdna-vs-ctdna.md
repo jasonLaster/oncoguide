@@ -14,7 +14,7 @@ summary: "Cell-free DNA is DNA outside intact cells in a sample; circulating tum
 aliases: ["cfDNA", "ctDNA", "cell-free DNA", "circulating tumor DNA"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]"]
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
 ---
 
 # Cell-free DNA versus circulating tumor DNA
@@ -93,4 +93,6 @@ Source check: October 10, 2026. The exercise is fictional. Expert and learner re
 - [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 - [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 - [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
+- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
+- [Match a specimen to the test before spending tissue](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

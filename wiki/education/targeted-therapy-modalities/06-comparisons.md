@@ -108,6 +108,8 @@ Complete: “Before comparing formats, I need to know ______. Before claiming be
 
 For a reference map of recognition and action, use [target versus therapeutic format](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis).
 
+**Related supporting path:** [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing) → [assess a proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions) → [check specimen requirements](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget).
+
 ## Sources and scope
 
 Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General comparisons and fictional exercises; expert and learner review remain pending. The dated clinical example illustrates evidence scope, not an approval inventory or treatment recommendation.

@@ -31,6 +31,10 @@ The workshop analogy leaves out chemistry: labels must be attached, recognized a
 
 ## How it works
 
+<img src="./images/ubiquitin-selected-cargo-v5-light.png" alt="Three stacked scenes show E1 activating ubiquitin, E2 carrying it and E3 helping tag substrate P; P threads downward through an open proteasome motor into fragments while detached ubiquitin returns to a separate free pool; intact tagged Q contacts a partner." width="1024" height="1536" data-theme-pair>
+
+*Selected proteins can be tagged, unfolded and broken into fragments while ubiquitin is reused; other tagged proteins can organize interactions. These schematic tag patterns are not a universal destruction code.*
+
 **Ubiquitin** is a small [protein](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide) that can be attached to another protein. A series of [enzymes](/wiki/education/concepts/biology-basics/molecules/enzymes-and-binding) performs the attachment:
 
 | Component | Its distinct job |

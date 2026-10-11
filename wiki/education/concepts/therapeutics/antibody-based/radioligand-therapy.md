@@ -9,7 +9,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]"
   - "[[wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging]]"
-used_by: ["[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-10"
@@ -102,4 +102,5 @@ Source-checked October 10, 2026. Expert and learner review remain pending. No ge
 ## Used in
 
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
+- [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)
 <!-- END GENERATED USED IN -->

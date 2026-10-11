@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism]]"
   - "[[wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module]]"
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
 sensitive: false
 tags: [education, therapeutics]
 updated: 2026-10-10
@@ -111,5 +111,6 @@ Source check: October 10, 2026. Surface-target formats and a fictional exercise;
 
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
+- [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)
 - [Compare formats with evidence and normal-tissue risk](/wiki/education/targeted-therapy-modalities/06-comparisons)
 <!-- END GENERATED USED IN -->

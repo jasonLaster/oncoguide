@@ -7,7 +7,7 @@ glossary_anchor: dna
 aliases: ["DNA", "deoxyribonucleic acid", "DNA sequence"]
 level: foundation
 prerequisites: []
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]"]
+used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -105,4 +105,6 @@ Source check: October 9, 2026. General molecular biology; the practice case is f
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
 - [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Start with genes, RNA and protein](/wiki/education/multi-omics-foundations/00-genes-rna-and-protein)
+- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
+- [Match a specimen to the test before spending tissue](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

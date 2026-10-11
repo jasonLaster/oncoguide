@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "briefId": "brief-022",
+  "sourceCommit": "f75aec76d59e9cf368663776ce2ef5333aa6b9c3",
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+  "ownerSHA256": "c588626903f95c7e2f13f2379b5e1fa8efc2ce58bb1aff8983156006318bce35",
+  "stem": "ubiquitin-selected-cargo-v5",
+  "prompt": "Recompose this reviewed scientific educational cartoon as a NEW portrait 1024x1536 teaching image for inline phone reading at 358 pixels wide. Use the supplied v3 light solely as science/object/style reference; completely reorganize layout into THREE STACKED FULL-WIDTH SCENES. Keep the established identities and mechanisms. All essential text must be genuinely LARGE: minimum 46 native pixels, clean semibold sans-serif, navy ink, no miniature text or fine-print captions. At358px every label should read at about16px or larger. Use line breaks instead of shrinking font. Portrait scientific cartoon for adults, warm pale ivory, matte watercolor/pigment shading, rounded molecular shapes, useful cutaways, no gloss/neon. Remove the overall title to reserve space for three scene headings. No explanatory text cards, tiny inset or dense legends.\nScene 1 occupies upper third. Heading \"1. Select and tag\". Use one spacious molecular scene with E1 and E2 along the upper row and E3 docking/substrate contact below. Distinct sage E1 activates an ochre ubiquitin using ATP; an arrow transfers ubiquitin to blue E2. Labels \"E1 activates\", \"ATP\", \"E2 carries\" must be46px or larger. Blue E2 carrying ochre ubiquitin approaches violet E3 docking shape contacting folded coral P. Transfer arrow points from E2-carried ubiquitin onto P; E3 is not universally a carrier. Label \"E3 selects\", \"Substrate P\", \"Ubiquitin tag\" in same large size, with short unmistakable leaders. Several linked ochre ubiquitin shapes attach to P. Connected tag shape is schematic with no chain identifiers or length code. A downward continuation arrow from selected tagged P to scene2 carries the large two-line label \"Suitable cargo\".\nScene 2 occupies the middle and slightly largest third. Heading \"2. Unfold and break down\" on two lines if needed, no small font. Make the proteasome VERTICAL to fit phone width: blue regulatory ATPase motor at TOP of violet barrel chamber, coral fragments emerging BELOW. Folded coral P approaches from above; a continuous coral polypeptide becomes unfolded and passes DOWNWARD through the motor's visibly OPEN CENTRAL AXIAL PORE into the chamber. Keep the functional front-facing cutaway through the blue cap, with blue rim on both sides and actual negative space channel containing the coral chain. It must not be laid across an outside surface. The vertical violet barrel is also cutaway, showing that coral chain inside its chamber. At the lower processing region, the chain terminates; disconnected short connected coral peptide fragments emerge below, distinct from ochre ubiquitin. Labels \"Unfold\", \"ATP supports unfolding\" (wrap over two or three large lines), \"Proteasome\" and \"Fragments\" all46px or larger, arranged in generous side gutters with precise short leader endpoints. Near the motor entrance, ochre ubiquitin tags come OFF P and remain OUTSIDE. An ochre curved return arrow runs upward along LEFT gutter, from removed external Ub back to free Ub near E1 in scene1. Label \"Ubiquitin recycled\" on two large lines in that gutter. This arrow is distinct from the coral cargo threading downward; no fragment-to-ubiquitin conversion.\nScene 3 occupies lower third. Heading \"3. Other tagged fates\". A folded intact sage Q bears ochre tags near its contact with a blue protein partner. Partner physically contacts the tag-bearing region; Q stays intact. Show no degradation arrow or fragments in this scene. Large labels \"Substrate Q\", \"Organize interactions\" (two lines), \"Protein stays intact\" (two lines) identify the protein and interface. Q has a different folded shape and label from P, not only a different color. No rescue arrow from P or connection to the proteasome. This is a separate non-destructive tagging context.\nExact label vocabulary: \"1. Select and tag\", \"E1 activates\", \"ATP\", \"E2 carries\", \"E3 selects\", \"Substrate P\", \"Ubiquitin tag\", \"Suitable cargo\", \"2. Unfold and break down\", \"Unfold\", \"ATP supports unfolding\", \"Proteasome\", \"Fragments\", \"Ubiquitin recycled\", \"3. Other tagged fates\", \"Substrate Q\", \"Organize interactions\", \"Protein stays intact\". Use natural sentence case. Render ALL labels at46px MINIMUM on the1024px-wide canvas; headings52px or larger. It is acceptable to simplify fine surface molecular texture to leave room for LARGE text. Keep illustrations primary, no wall of prose. Use thin panel borders, modest margins and full-width scene reading. Do not include a title, footer, source citations, arbitrary extra text or tiny diagrams.\nScientific invariants: E1 uses ATP; E2 carries activated ubiquitin; E3 selects/promotes attachment without claiming one universal transfer chemistry. ATP-supported unfolding differs from tag removal/recycling. Substrate breakdown yields peptides; intact ubiquitin is reused. Other ubiquitin contexts can organize interactions without immediate destruction. No universal ubiquitin destruction code, chain-length threshold, atomistic subunit claim, all-degradation/proteasome equivalence, E3-global-defect claim or clinical efficacy/safety result. Molecular shapes and tag patterns are schematic. No photorealism, smiling cells, stock people, laboratory ornaments, drugs, logos, watermarks, neon/glowing text or tiny labels.",
+  "caption": "Selected proteins can be tagged, unfolded and broken into fragments while ubiquitin is reused; other tagged proteins can organize interactions. These schematic tag patterns are not a universal destruction code.",
+  "alt": "Three stacked scenes show E1 activating ubiquitin, E2 carrying it and E3 helping tag substrate P; P threads downward through an open proteasome motor into fragments while removed ubiquitin returns upward for reuse; a separate intact tagged Q contacts a partner.",
+  "requestedDimensions": [
+    1024,
+    1536
+  ],
+  "minimumEssentialNativeLabelPixels": 46,
+  "inlineTargetWidth": 358,
+  "referencePath": "/tmp/education-curriculum-fanout/proteasome-cartoon/ubiquitin-selected-cargo-v3-light.png",
+  "referenceSHA256": "7bb03aca106e4154be4dd1e1bf48d1402721160a07b2fb00eda732f131e680ff",
+  "model": "unknown; image_gen does not expose model metadata",
+  "reviewStatus": "independent portrait prompt and final pixel review requested",
+  "citations": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6305978/",
+      "supports": "E1 E2 E3 distinct attachment jobs"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3031653/",
+      "supports": "Ub recycling distinct from substrate proteolysis"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2017.00018/full",
+      "supports": "ATP-supported substrate unfolding and translocation; biochemical archaeal PAN model, not exact human architecture"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19345192/",
+      "supports": "Chain functions partly overlap; nonproteolytic roles and substrate-specific degradation in yeast"
+    }
+  ],
+  "finalAlt": "Three stacked scenes show E1 activating ubiquitin, E2 carrying it and E3 helping tag substrate P; P threads downward through an open proteasome motor into fragments while detached ubiquitin returns to a separate free pool; intact tagged Q contacts a partner.",
+  "status": "Portrait v5 native outlet repair complete; independent final pair review pending",
+  "actualDimensions": [
+    1024,
+    1536
+  ],
+  "typographyBoundary": "46px was prompt instruction, not a measured returned font size; actual358px screenshots inspected",
+  "finalLight": "/tmp/education-curriculum-fanout/proteasome-cartoon/ubiquitin-selected-cargo-v5-light.png",
+  "finalDark": "/tmp/education-curriculum-fanout/proteasome-cartoon/ubiquitin-selected-cargo-v5-dark.png",
+  "exactCalls": [
+    "light-v5-call.json",
+    "dark-v5-call.json"
+  ],
+  "revisionScience": "Root/team spotted ochre outlet fragment ambiguity; recolor whole object coral throughout, preserving all19labels/geometry and externalochre Ub. Darkderivedfromcorrectedlight.",
+  "exactV5Calls": [
+    "light-v5-call.json",
+    "dark-v5-call.json"
+  ],
+  "parentVersionCalls": [
+    "light-v4-call.json",
+    "light-v4-revision-call.json",
+    "light-v4-revision2-call.json",
+    "dark-v4-call.json"
+  ]
+}

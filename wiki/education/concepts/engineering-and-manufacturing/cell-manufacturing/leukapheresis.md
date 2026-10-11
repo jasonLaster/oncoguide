@@ -7,7 +7,7 @@ glossary_anchor: "leukapheresis"
 aliases: ["leukapheresis","leukopak","leukopac","leucapheresis"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
 updated: "2026-10-09"
@@ -91,4 +91,6 @@ Source check: October 9, 2026; expert and learner review pending. This explains 
 
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
+- [Match a specimen to the test before spending tissue](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->
