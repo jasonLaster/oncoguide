@@ -1,14 +1,14 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e",
+  "sourceCommit": "3f916f59e10eed89c4419bf8196c9750c4724689",
   "sourcePrefix": "obsidian/",
   "rendererCommit": "055625254e37f260d479349a2c91cf7929814ca7",
   "files": {
     "wiki/education/cellular-therapies/01-cell-therapy-primer.md": "8388446142dfe269972c7d1e85eb08afb647f66b52bbcc319ffdcf2903d487d3",
     "wiki/education/cellular-therapies/02-car-tcr-til-comparison.md": "7ac84c5029e4da78c8a14ff07ddff7ddb7b673c584d548e3c6d318519adf8dd4",
     "wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks.md": "52772b05375acaa2982500c187e6783e9d0a93f7ffd349b4957d2bbc2b637b85",
-    "wiki/education/cellular-therapies/06-in-vivo-delivery.md": "be95588351a4b8da4b9bc1ee03e087817d5148bb173eb87f7f1d76d28cbe50d5",
+    "wiki/education/cellular-therapies/06-in-vivo-delivery.md": "4b72a023dbcc2095010d01f8232cd9a330596474b6aa652e2ddf586ebd0cd228",
     "wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors.md": "da50344d63232f1d4223d0badc6079baddd660461463fbebc52ba1b9c7087337",
     "wiki/education/cellular-therapies/08-solid-tumor-barriers.md": "40cc6e5f43ad82372f1df228e02e90ca29631f57189cc4f9926b3e9e7f7b8e96",
     "wiki/education/cellular-therapies/09-reading-cell-therapy-evidence.md": "05cab5990b705b96d1dcbc48b4f3a77d8c6d1b673d1b9a03df7597ae0f131d89",
@@ -19,11 +19,13 @@
     "wiki/education/cellular-therapies/images/prompts/cytokine-message-and-receptor.txt": "519f14de96ab841d54d48ce1c545dd7fc9eda59628b889e937b2fc034a72dade",
     "wiki/education/cellular-therapies/images/prompts/instructions-to-car.txt": "8f4c3e7659033d128b56c29295d88a089f5041f143c721e41a802f18e01ee179",
     "wiki/education/cellular-therapies/images/prompts/solid-tumor-journey.txt": "92f2ba31de059fdde80dd98e76b703e0b0be49759bcab8bdfee5e8c5f98e36b0",
-    "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered.txt": "445cefab6669dd286ac77daf729c1d6cd69d27bcd1090d5bb907869cc723262e",
+    "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-dark-call.txt": "506382cdd71c552f790d0d123c1e068d01cbcc58012d368d852e568bf14431e8",
+    "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-light-call.txt": "822efde98e05ccf00bf1ecc3d2a88dc5740121a1c6f9119ed45830544eea32b0",
+    "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2.txt": "b1725d894fb0ccdd143ed7e784549395bb6a7d29b46c92080bb589d8bf7ec2c5",
     "wiki/education/cellular-therapies/images/solid-tumor-journey-dark.png": "e32b9a19a99fad4724cd8a07f3416c0d60ad473df6f2121277e4b63a15190d3b",
     "wiki/education/cellular-therapies/images/solid-tumor-journey-light.png": "cb6a2174b19399f437ee1e0c0b0691b2f447b4b1d7fb413ae84b56f52e43f58f",
-    "wiki/education/cellular-therapies/images/where-cells-are-engineered-dark.png": "5850160673feca0c8e26fd64f3469485b4ceb0f29a6268c75df0572e437ce53a",
-    "wiki/education/cellular-therapies/images/where-cells-are-engineered-light.png": "7670b3c219fc76a83db9736a4a192c67321241de1cc35bce754fef29a590c94b",
+    "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+    "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
     "wiki/education/cellular-therapies/index.md": "18803bde015ad2566534c7ef2f83c5ca7fa319cd6fedc9b030d07ccd95bf10a0",
     "wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.html": "d09cd1f96e04040769e093dba310b1f8022c7dfa8f19eccdf5fa353d6b820ab8",
     "wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.zip": "8b15dfeb4c975bf7d577ce8532164275008c581e056caf949e378721d476ed47",
@@ -251,13 +253,15 @@
     "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md": "a7ae3f599ae50e87c2c73beba9aa4708fbd54dcf6e0a7ec6732880f9c9a50c94",
     "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md": "e9f17efeaa6e9bca3676cd12e60b91791b43174c499e05d2c37052606f86eabb",
     "wiki/education/concepts/immunology/antigen-presentation/hla.md": "ab069b111c110ae408a24e00b201e51a61e061ca713d083b9b4320e951e22fe5",
-    "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-dark.png": "e9ffbe753559e3ffcd69e7244ad840adc1b881f068cbc8d97c40684dc1ac4165",
-    "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-light.png": "487cee421388eabc35aacebb7633557e87ebc093acb99f911777be2f94efb51e",
+    "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-v2-dark.png": "3ce5d131e87f6da0c21d315274ab115e948c6cbc67d39a6ab87ca2e2c105028e",
+    "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-v2-light.png": "de42ec37f9f657427493c863ee49d18972befc3877085a30ed46d98316aec0a9",
     "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-dark.png": "c6a7be6ab9414b7bf7cd6132aee4350d0cffb569222948e3160e0609c15da9ea",
     "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-light.png": "f87a8d934d35e10f8d5f7a88412379b82d792333ab42493ba3c2fae7b14e4915",
-    "wiki/education/concepts/immunology/antigen-presentation/images/prompts/immunopeptidome-repertoire-and-recovery.txt": "bb3895552e5b1a5122e0e92fd621c4c810976cb9eadf7162ae1f89186f58ed03",
+    "wiki/education/concepts/immunology/antigen-presentation/images/prompts/immunopeptidome-repertoire-and-recovery-v2-dark-call.txt": "06f14dde80f118d19c97d257981732e6b97666fd283a305567ab9a8940c8c0b7",
+    "wiki/education/concepts/immunology/antigen-presentation/images/prompts/immunopeptidome-repertoire-and-recovery-v2-light-call.txt": "065ad34b4d4d51ffd56ea33b15bb2b843816204e3de9447a5063c90c94ef8165",
+    "wiki/education/concepts/immunology/antigen-presentation/images/prompts/immunopeptidome-repertoire-and-recovery-v2.txt": "323c7e7abdc6846d4b7636b19cda1455eb7fe8d5b81446ea4b98c5650c87c37c",
     "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition.txt": "e0c67acd8c978fa236e77b7a574219fe310e2adbfbf9e17bf6f5e6deaf2f9c59",
-    "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md": "03c3e75134496cda59708aa93f9c662d6fa3f2d4460bc1c446e9d0899bc23a9c",
+    "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md": "7610256c676757573806d530bc1aff76d63eef7d9d86596de8e18d3b4238a638",
     "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md": "cde2f028b44b347c03513a64be3e10dfcb5ff107062b3f2263ad01017d32dcce",
     "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md": "bfa9108a1361a39b84635c654b8c55b514d67a9b86a102bc95cd01180ca4e17f",
     "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md": "a6a894a30af6a896b5ea564520acd38aa64a30258ebc4a6cffa782b576a2c77a",
@@ -424,20 +428,24 @@
     "wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale.md": "97d96bc95b886a8109fe3e2c5ba3ed1e52126e85c12683552a622825a4afe9e2",
     "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md": "b36bd080b2eba3e2083c2c9f73673a379c2cac8bdf0a583206954c1dea2dd48c",
     "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md": "ee84286f476771b97a09378cb362d079db4739f798cc11a1a9aeb46009474d56",
-    "wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism.md": "a37fa50282a9b60a9853b2421b3371ec8809e7e6fdce2a7ff612dbe4db335119",
-    "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/target-to-benefit-evidence.txt": "956d67f5334f82777d6b0697087f5d13ed6b1840fd1cec5b7ef54f287c8bfce0",
-    "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-dark.png": "0cf0f719b5abecad61e91096a50197192ebbe6416d6d211b462f911efb58e440",
-    "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-light.png": "39adcc2d2f229d26881a779f878073d6ea1ff74659627d2811194b936d8bea70",
+    "wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism.md": "a2c4a0e709457adea4616b88b4a268ca8d05435bfb2cc554c0ec9ee2c1723208",
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/target-to-benefit-evidence-v2-dark-call.txt": "c4ca30560c4f0e028accf977c1699d6c3fc829acb2d94c40191036664e92a207",
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/target-to-benefit-evidence-v2-light-call.txt": "240f2b7c53f1fd5627cb8e655cfb20da02b2fdea742865d41314609ee9430993",
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/target-to-benefit-evidence-v2.txt": "439417f639cc8f9653b1617193d6d8d2a98abee0003b9e10462193f056ae020c",
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-v2-dark.png": "1cd2c05263b306d994601b0a4bd04392a96ff09dd1dfef33f6402dfbb2fb57f1",
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-v2-light.png": "902439d3e6babd404e5a39fc9ae36463eb41e23541fda2e83ef0609ec15efe94",
     "wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life.md": "1a69e989684fbe79f69c38add045de6534d8af165cc937de5de81e60cd886808",
     "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md": "4b542f08f65a2cacba4e1c6f161a42682200ad81db3df6aa2fdd2053ba992716",
     "wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index.md": "f0492b8f692a80c18c51ed84ea44a4e909b21469240290230b8e1da980bd912e",
     "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md": "6fc113d52858db02a789cdbaed0017ca4b387cf65ff326aa9fd48eecb1a9bd8d",
     "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md": "9cbdc936230de197c25509cb50341e050d629ff9858b2ad377fc2c38bdd97c23",
-    "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-dark.png": "6a83dedb4ef8d61ca2c024717da7b02b019e7a4957498f132b21559656266faf",
-    "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-light.png": "d35aa93808b554132343bdf24cf6b0d2329202d4aa77b43dfc5d72ad5aefb774",
-    "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/injection-learning-and-distant-effect.txt": "d53801e2e674924f2368e40dae8d65c7b7ef110a86e5aa0392e67b1c4302008e",
+    "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-dark.png": "bb38937e75e15f6b9674bcabdc7acb96721f337e43b7272d1496a37e55c3d54b",
+    "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-light.png": "90673e24d7f6129702e7bc530f067d4ebfede556c4923967c213cb17a421aab8",
+    "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/injection-learning-and-distant-effect-v2-dark-call.txt": "3d50b7509dd58fa83a44cbf56841b6af77da0de7fb48af11567330cfe2a77c30",
+    "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/injection-learning-and-distant-effect-v2-light-call.txt": "5178f474125f6cc3472f8b4c4817ac5b0315d4fd20005a71805dd48072951e23",
+    "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/injection-learning-and-distant-effect-v2.txt": "6f59b1ff0ecf95d460b217634ba20fc742d41dcd85ac0a57b451d8f051c298fb",
     "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md": "897599158cfddce62e1b257773b563fe1f82b74d94d15602aa23a9a0899850e9",
-    "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md": "af8e6ca47ddbb2842dae362afc946131e16225d675646cec24a78dc66ee5069f",
+    "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md": "72a55d35e654aa997bef0ab0a6a4de6c55cc6b769f303eccf7581db6ea446dbe",
     "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md": "59f0dc8c105b5706f84220947e81e4094aad18ff5f5c13d66aef934cac05d66b",
     "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md": "844b2c41f23bbfe2ef9446fe155f22a57a57dc12807a5d70f3f0b5a85f90d3c1",
     "wiki/education/concepts/therapeutics/local-therapies/ablation.md": "a07872dfd31ae554040cf6566a1444cb97b38b077ed521631e4de6bfa18d4ccb",
@@ -536,7 +544,7 @@
     "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md": "4fc6c6f90d90d24fb33404fc33724221153c6bbe44afbab12262a40f0577d538",
     "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md": "f2785b54259f6522b25b0af766a23d572eb422b9c718131b95e113d33e12882a",
     "wiki/education/guides/treating-early-tnbc/index.md": "f277205a62197fa076c448d77fe25ad8c6925901581c1af63d1c2d248101610b",
-    "wiki/education/images/index.md": "18fd9cb503e0e3c257949d1a40d642de6b514434d78a780c941b94ca07df44a4",
+    "wiki/education/images/index.md": "25068abe1dd4b0685bdac2370147d8bfa46b3ce25723ec026617c07b84d90410",
     "wiki/education/index.md": "899554c4649d1751c5536940f93adc6c71963d573ecb33d8bbe7586a9009ddc9",
     "wiki/education/local-treatment-modalities/01-mechanism.md": "5df1429610b074c6141c16a332f516b0421f27d57961c8b0bc70127b0632ba23",
     "wiki/education/local-treatment-modalities/02-timing.md": "7a76bdd6cb456ae6a7435081168530cca46ead48ff28d86c26e82dae49b6868a",
@@ -623,6 +631,18 @@
       "hash": "d6923f26e4711e42ea50484002df0c20392a4493253909e08b423eccb915dd5b",
       "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
     },
+    "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered.txt": {
+      "hash": "445cefab6669dd286ac77daf729c1d6cd69d27bcd1090d5bb907869cc723262e",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/cellular-therapies/images/where-cells-are-engineered-dark.png": {
+      "hash": "5850160673feca0c8e26fd64f3469485b4ceb0f29a6268c75df0572e437ce53a",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/cellular-therapies/images/where-cells-are-engineered-light.png": {
+      "hash": "7670b3c219fc76a83db9736a4a192c67321241de1cc35bce754fef29a590c94b",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/uptake-is-not-expression.txt": {
       "hash": "8c5435b8e0d66958a73b543c143d93b9a58f9a98ab59298eb93c116967895032",
       "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
@@ -634,6 +654,42 @@
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-light.png": {
       "hash": "2c085111b36aac729d77d1efb0a6fad3c37705c257d59a65740fe671259e9c62",
       "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
+    },
+    "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-dark.png": {
+      "hash": "e9ffbe753559e3ffcd69e7244ad840adc1b881f068cbc8d97c40684dc1ac4165",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-light.png": {
+      "hash": "487cee421388eabc35aacebb7633557e87ebc093acb99f911777be2f94efb51e",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/immunology/antigen-presentation/images/prompts/immunopeptidome-repertoire-and-recovery.txt": {
+      "hash": "bb3895552e5b1a5122e0e92fd621c4c810976cb9eadf7162ae1f89186f58ed03",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/target-to-benefit-evidence.txt": {
+      "hash": "956d67f5334f82777d6b0697087f5d13ed6b1840fd1cec5b7ef54f287c8bfce0",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-dark.png": {
+      "hash": "0cf0f719b5abecad61e91096a50197192ebbe6416d6d211b462f911efb58e440",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-light.png": {
+      "hash": "39adcc2d2f229d26881a779f878073d6ea1ff74659627d2811194b936d8bea70",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-dark.png": {
+      "hash": "6a83dedb4ef8d61ca2c024717da7b02b019e7a4957498f132b21559656266faf",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-light.png": {
+      "hash": "d35aa93808b554132343bdf24cf6b0d2329202d4aa77b43dfc5d72ad5aefb774",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
+    },
+    "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/injection-learning-and-distant-effect.txt": {
+      "hash": "d53801e2e674924f2368e40dae8d65c7b7ef110a86e5aa0392e67b1c4302008e",
+      "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e"
     },
     "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-dark.png": {
       "hash": "eb1d3cf0a6cfc2744cbb5f52d7a7841781b324bd2d1d4856e7c3c8d057c10f6a",

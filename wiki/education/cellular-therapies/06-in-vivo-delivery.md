@@ -27,11 +27,11 @@ After [building an engineered T cell](/wiki/education/cellular-therapies/05-engi
 
 ## Two manufacturing routes
 
-<img src="./images/where-cells-are-engineered-light.png" alt="Two routes: cells engineered in a laboratory and infused, or instructions delivered to engineer cells inside the body" data-theme-pair>
+<img src="./images/where-cells-are-engineered-v2-light.png" alt="Four scenes contrast laboratory-engineered T cells with instruction delivery inside the body, show mRNA translation outside the nucleus and DNA transcription inside it, and distinguish carrier targeting from CAR recognition." data-theme-pair>
 
-*What is administered differs from the cells that ultimately perform the work. The cartoon separates two targeting jobs; it does not show exclusive delivery, cancer-only antigen expression or a proven treatment effect. Cell compartments are schematic: the depicted DNA/nuclear route is one example. [Messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) is translated in the cytoplasm, while DNA expression cassettes require nuclear delivery; the inset does not depict every carrier mechanism.*
+*In the ex vivo route, engineered cells are infused; in these in vivo examples, a carrier delivers instructions. Usable [messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) is translated outside the nucleus. A DNA cassette reaches the nucleus for transcription, then its RNA is translated outside it. The two routes are alternatives; uptake, cargo release and detailed protein processing are omitted. Delivery targeting and CAR recognition are separate jobs, and neither drawing establishes exclusive delivery, cancer-only antigen expression, persistence or treatment benefit.*
 
-View full-size: [light illustration](./images/where-cells-are-engineered-light.png) · [dark illustration](./images/where-cells-are-engineered-dark.png).
+View full-size: [light illustration](./images/where-cells-are-engineered-v2-light.png) · [dark illustration](./images/where-cells-are-engineered-v2-dark.png).
 
 | Route | What happens | What is administered |
 |---|---|---|

@@ -1,0 +1,7 @@
+{
+  "prompt": "Create the dark companion of the actual accepted new light reference. Preserve its complete composition, object shapes, geometry, cell numbers, measurement ruler, syringe, lymph-node detail, every label and every dashed possible-step connector exactly. The right title must remain \"Uninjected lesion\". Recolor only for a quiet deep navy/charcoal canvas and panels with readable cream/pale text and clear muted blue borders, warm muted peach lesions, lavender dendritic cell and blue/teal immune cells. Preserve the footer \"Local activity does not prove distant benefit.\" No added molecular contacts, receptor magnifiers, efficacy or shrinkage, objects, arrows, words, logos, watermarks or transparency.",
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-d95f2b82-aea6-4415-8674-0a07f7a49de8.png"
+  ],
+  "transparent_background": false
+}

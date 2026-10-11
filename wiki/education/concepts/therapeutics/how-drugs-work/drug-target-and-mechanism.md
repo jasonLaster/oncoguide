@@ -31,9 +31,9 @@ The analogy has limits: drugs can interact with several targets, and cells can c
 
 ## How it works
 
-<img src="./images/target-to-benefit-evidence-light.png" alt="Four panels ask whether a molecule binds a purified target, engages it inside a cell, changes a measured response, and produces useful clinical benefit with acceptable harm" data-theme-pair>
+<img src="./images/target-to-benefit-evidence-v2-light.png" alt="Four evidence-question panels show purified drug–target binding, actual interaction inside a relevant cell, separate biological-effect measurement, and neutral clinical benefit and harm evidence." data-theme-pair>
 
-*Binding, engagement, effect and benefit require separate evidence. The charts are schematic; the cell panel illustrates one intracellular target.*
+*Target engagement asks whether a drug interacts with its target in the relevant cells; reaching the compartment alone is insufficient. Binding, effect, benefit and harm require separate evidence. The cell shows one intracellular example; molecular shapes and measurement displays are schematic.*
 
 Start with **binding**, an interaction between molecules. [Affinity and specificity](/wiki/education/concepts/biology-basics/molecules/enzymes-and-binding) describe different aspects of that interaction. Binding to a purified protein does not show that a compound reaches it inside a cell.
 

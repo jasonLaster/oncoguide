@@ -37,9 +37,9 @@ An immune strategy might recruit or activate [dendritic cells](/wiki/education/c
 
 ## Keep three measurements separate
 
-<img src="./images/injection-learning-and-distant-effect-light.png" alt="Three cartoon panels distinguish an injected lesion, immune learning in a lymph node and measurement of a separate uninjected lesion, joined by dashed arrows marking possible steps" data-theme-pair>
+<img src="./images/injection-learning-and-distant-effect-v2-light.png" alt="Three cartoon panels distinguish an injected lesion, immune learning in a lymph node and measurement of a separate uninjected lesion, joined by dashed arrows marking possible steps" data-theme-pair>
 
-*Local activity, immune recognition and effects elsewhere require separate measurements; the dashed arrows show possible steps.*
+*Local activity, immune recognition and effects elsewhere require separate measurements. “Uninjected” does not mean untreated: systemic therapy may accompany the injection. The dashed arrows show possible steps.*
 
 | Question | Useful observation | Remaining gap |
 |---|---|---|
@@ -51,7 +51,7 @@ An immune strategy might recruit or activate [dendritic cells](/wiki/education/c
 
 ## Why it matters in cancer
 
-Local delivery offers a way to investigate a tumor's immune environment. It also creates an attribution problem when systemic drugs are given alongside it. A study should identify the route for each component and assess treated and untreated lesions separately.
+Local delivery offers a way to investigate a tumor's immune environment. It also creates an attribution problem when systemic drugs are given alongside it. A study should identify the route for each component and assess injected and uninjected lesions separately.
 
 The approved oncolytic product talimogene laherparepvec has a defined melanoma indication involving certain recurrent, unresectable lesions. Its prescribing information does not establish an overall-survival improvement or an effect on visceral metastases. This illustrates why a local-treatment indication does not settle a whole-body benefit claim or establish a breast-cancer indication. [FDA prescribing information, sections 1 and 2](https://www.fda.gov/media/94129/download).
 

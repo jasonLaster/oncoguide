@@ -31,10 +31,6 @@ Think of a changing exhibition. The collection is what is displayed in that part
 
 The analogy has limits: peptides are generated, loaded and removed continuously, and laboratory recovery has chemical and computational biases. A notebook's omissions cannot tell us how many exhibits were truly absent.
 
-<img src="./images/immunopeptidome-repertoire-and-recovery-light.png" alt="Four scenes showing a contextual peptide–HLA repertoire, a prepared sample, recovered material and a method-dependent identified list, including intracellular and surface complexes" data-theme-pair>
-
-*Preparation, recovery and sequence identification shape the list; recovered complexes are processed to release peptides for identification. Whole-cell extraction can include intracellular and surface complexes, and mixed tissue leaves each peptide's cell of origin open. Icons have no numerical meaning. A missing entry does not prove biological absence; a listed peptide does not establish recognition or benefit.*
-
 ## How it works
 
 [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) molecules carry short [protein fragments, or peptides](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). Different alleles favor different sequences. [Antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery), source-protein supply, loading and turnover shape which complexes exist.
@@ -44,6 +40,10 @@ Class I and class II have distinct common processing routes. A class-I repertoir
 The repertoire depends on cell identity and state. In ovarian- and lung-cancer cell-line experiments, inflammatory signals changed HLA-associated peptide patterns. That demonstrates context-dependent remodeling; it does not mean inflammation always adds useful tumor targets. One specimen's repertoire need not represent another site, time or treatment condition.
 
 For recognition at a living cell's surface, the relevant object is the surface peptide–HLA complex. An assay that captures HLA from whole-cell lysate can also recover intracellular complexes. The biological claim must therefore say which compartment was examined.
+
+<img src="./images/immunopeptidome-repertoire-and-recovery-v2-light.png" alt="Four physical scenes show surface and intracellular peptide–HLA complexes, laboratory capture, release and separation of connected peptide chains, and peptide-only input for identification." data-theme-pair>
+
+*Recovered HLA–peptide complexes are dissociated; separated peptides enter the identification workflow. Whole-cell recovery can include intracellular and surface complexes; the identified list is method-dependent, not a census. Molecular shapes and quantities are schematic.*
 
 ## Why it matters in cancer
 

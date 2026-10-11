@@ -1,0 +1,7 @@
+{
+  "prompt": "Convert the supplied final light illustration to a quiet dark theme. Preserve its exact four panels, all labels, cell identities, quantities, geometry, arrows and scientific relationships. Use a deep restrained background, muted colors, pale readable labels and the same illustration texture; no glow or glossy 3D restyling.\n\nKeep scene 2’s mRNA outside its empty nucleus. Keep scene 3’s DNA transcription inside the nucleus, mRNA export and translation outside. In both scenes preserve the short protein chain, visible gap, dashed gray localization connector and separate surface CAR. Preserve RNA squiggles in the mRNA vial, DNA helices in the DNA vial and neutral cargo in the targeting scene. Add no claims or text. Preserve exact 1024×1536 portrait dimensions and all current enlarged words. The dark version is the same physical lesson, not a new layout.",
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-7748193b-42cd-45dd-a08d-31a5afaafc6e.png"
+  ],
+  "transparent_background": false
+}
