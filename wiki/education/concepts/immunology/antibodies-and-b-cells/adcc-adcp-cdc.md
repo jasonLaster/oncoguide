@@ -41,9 +41,25 @@ An [antibody's binding regions](/wiki/education/concepts/immunology/antibodies-a
 
 In the familiar natural killer-cell ADCC route, **CD16**, an Fc gamma receptor, engages target-bound IgG, or **immunoglobulin G**. Receptor clustering can trigger release of damaging granule contents. Other immune populations can contribute antibody-dependent cytotoxicity; ADCC is not an exclusive cell-identity label.
 
+<div class="education-figure">
+<img src="./images/antibody-coating-adcc-v1-light.png" alt="A natural killer (NK)-cell example remains outside an antibody-coated target; its membrane-attached receptor contacts outward antibody Fc, conditional granule release is directed toward the target, and target death remains a question." width="1254" height="1254" data-theme-pair>
+<p><em>An NK cell stays outside the coated target. Its surface receptor meets the antibody’s outward Fc region; if triggered, the cell can release damaging cargo. This NK example does not make contact proof of target death.</em></p>
+</div>
+
 For ADCP, Fc-receptor engagement helps a phagocyte surround and internalize a coated target. Gül and colleagues directly imaged macrophage uptake and degradation of circulating tumor cells in a mouse model. Contact or uptake of a small fragment is not automatically engulfment and elimination of an entire viable cancer cell.
 
+<div class="education-figure">
+<img src="./images/antibody-coating-adcp-v1-light.png" alt="An earlier macrophage contact is contrasted with a whole antibody-coated target and its nucleus inside a closed phagosome; the macrophage nucleus remains outside that inner compartment, and internalization is conditional." width="1254" height="1254" data-theme-pair>
+<p><em>Contact comes first. In the second scene, the whole coated target sits inside a closed phagosome; the macrophage’s own nucleus stays outside that inner compartment. Surface attachment or a sampled fragment would be a different observation.</em></p>
+</div>
+
 In antibody-triggered complement activation, C1q recognizes a suitable arrangement of Fc regions. Diebolder and colleagues showed how surface-bound IgG assemblies can support this step. Downstream complement can promote coating and inflammation as well as membrane damage. Complement deposition therefore does not prove completed CDC.
+
+<div class="education-figure">
+<img src="./images/antibody-coating-cdc-v1-light.png" alt="Complement deposition on a correctly antibody-coated target is separate from a membrane-attack pore spanning both lipid leaflets; outside and cytosol are labeled, the cascade is conditional and lysis remains a question." width="1254" height="1254" data-theme-pair>
+<p><em>Complement deposition is an earlier step. If the cascade completes, a membrane-attack pore can span the bilayer. A pore and measured target lysis are separate observations. The single highlighted antibody illustrates orientation, not an activation requirement.</em></p>
+<p><em>Sizes and object counts are illustrative. These scenes do not rank the mechanisms or predict treatment benefit.</em></p>
+</div>
 
 These routes can overlap or influence one another. [Isotype and Fc design](/wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing), target density, inhibitory signals and effector availability shape the result. There is no universal ranking of the three mechanisms.
 
