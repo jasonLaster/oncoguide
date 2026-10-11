@@ -70,6 +70,10 @@ What are the three rates?
 
 **Answer:** ORR is 6/20 = 30%; week-8 DCR is 14/20 = 70%; protocol-defined CBR is 9/20 = 45%. None alone establishes survival benefit. These definitions belong to this invented protocol.
 
+<img src="./images/response-rates-participants-and-clocks-v1-light.svg" alt="Three independent charts repeat the same 20 fictional participant markers. Six confirmed complete or partial responses count for objective response rate, 30%; those six plus eight stable-disease cases count for week-8 disease control, 70%; the six responses plus only three stable-disease cases qualifying through week 24 count for the protocol-defined clinical benefit rate, 45%. All 20 have complete assessments; excluded markers remain in every denominator. The 24-week threshold applies only to the stable-disease branch." width="780" height="1500" data-theme-pair>
+
+*The same 20 fictional participants give three answers: confirmed CR + PR = 6/20 (30%); week-8 CR + PR + SD = 14/20 (70%); confirmed CR + PR or SD lasting at least 24 weeks = 9/20 (45%). The 24-week rule applies to SD in this invented protocol. Excluded participants stay in the denominator; this chart supplies no individual trajectory or survival-benefit estimate.*
+
 ## Explain it back
 
 “This percentage counts ___ out of ___ using ___.” One answer: “confirmed complete or partial responses; all 20 participants; the stated criteria and confirmation rules.”

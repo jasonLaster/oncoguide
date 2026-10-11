@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1740" viewBox="0 0 600 1740" role="img" aria-labelledby="title desc">
+<title id="title">Two donor sources, twelve assigned wells, nested cell observations</title>
+<desc id="desc">Fictional design. Donor A supplies wells A1 to A6; donor B supplies B1 to B6. Wells 1 to 3 are controls and wells 4 to 6 are treated within each donor. Each well contains only its own measured-cell group; cell counts are not supplied. Under within-donor random allocation, separate treatment application and no mutual influence, wells receive the assignment and analysis retains donor nesting. Twelve wells do not become twelve donors. If treatment is assigned to donor preparations before splitting, wells are subsamples.</desc>
+<rect width="600" height="1740" fill="#faf7f0"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#26332f}.secondary{fill:#47564f}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#596d62"/></marker></defs>
+<text x="28" y="40" font-size="24" font-weight="600" class="secondary" text-anchor="start">Fictional design</text>
+<text x="28" y="88" font-size="38" font-weight="700" class="" text-anchor="start">What did we count?</text>
+<text x="28" y="130" font-size="28" font-weight="600" class="" text-anchor="start">2 donors → 12 assigned wells</text>
+<text x="28" y="170" font-size="26" font-weight="400" class="" text-anchor="start">Cells stay in their own wells.</text>
+<rect x="22" y="202" width="556" height="624" rx="24" fill="#eeeae0" stroke="#b5beb4" stroke-width="2" id="donor-A"/>
+<text x="44" y="248" font-size="34" font-weight="700" class="" text-anchor="start">Donor A</text>
+<text x="44" y="284" font-size="26" font-weight="400" class="secondary" text-anchor="start">One independent donor source</text>
+<text x="168" y="325" font-size="27" font-weight="600" class="" text-anchor="middle">Control</text>
+<text x="432" y="325" font-size="27" font-weight="600" class="" text-anchor="middle">Treated</text>
+<rect x="44" y="344" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-A1"/>
+<text x="168" y="378" font-size="28" font-weight="700" class="" text-anchor="middle">Well A1</text>
+<path id="sampling-A1" d="M 168 387 V 407" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="54" y="413" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-A1"/>
+<text x="168" y="439" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in A1</text>
+<text x="168" y="466" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="44" y="500" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-A2"/>
+<text x="168" y="534" font-size="28" font-weight="700" class="" text-anchor="middle">Well A2</text>
+<path id="sampling-A2" d="M 168 543 V 563" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="54" y="569" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-A2"/>
+<text x="168" y="595" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in A2</text>
+<text x="168" y="622" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="44" y="656" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-A3"/>
+<text x="168" y="690" font-size="28" font-weight="700" class="" text-anchor="middle">Well A3</text>
+<path id="sampling-A3" d="M 168 699 V 719" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="54" y="725" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-A3"/>
+<text x="168" y="751" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in A3</text>
+<text x="168" y="778" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="308" y="344" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-A4"/>
+<text x="432" y="378" font-size="28" font-weight="700" class="" text-anchor="middle">Well A4</text>
+<path id="sampling-A4" d="M 432 387 V 407" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="318" y="413" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-A4"/>
+<text x="432" y="439" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in A4</text>
+<text x="432" y="466" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="308" y="500" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-A5"/>
+<text x="432" y="534" font-size="28" font-weight="700" class="" text-anchor="middle">Well A5</text>
+<path id="sampling-A5" d="M 432 543 V 563" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="318" y="569" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-A5"/>
+<text x="432" y="595" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in A5</text>
+<text x="432" y="622" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="308" y="656" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-A6"/>
+<text x="432" y="690" font-size="28" font-weight="700" class="" text-anchor="middle">Well A6</text>
+<path id="sampling-A6" d="M 432 699 V 719" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="318" y="725" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-A6"/>
+<text x="432" y="751" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in A6</text>
+<text x="432" y="778" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="22" y="852" width="556" height="624" rx="24" fill="#eeeae0" stroke="#b5beb4" stroke-width="2" id="donor-B"/>
+<text x="44" y="898" font-size="34" font-weight="700" class="" text-anchor="start">Donor B</text>
+<text x="44" y="934" font-size="26" font-weight="400" class="secondary" text-anchor="start">One independent donor source</text>
+<text x="168" y="975" font-size="27" font-weight="600" class="" text-anchor="middle">Control</text>
+<text x="432" y="975" font-size="27" font-weight="600" class="" text-anchor="middle">Treated</text>
+<rect x="44" y="994" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-B1"/>
+<text x="168" y="1028" font-size="28" font-weight="700" class="" text-anchor="middle">Well B1</text>
+<path id="sampling-B1" d="M 168 1037 V 1057" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="54" y="1063" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-B1"/>
+<text x="168" y="1089" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in B1</text>
+<text x="168" y="1116" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="44" y="1150" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-B2"/>
+<text x="168" y="1184" font-size="28" font-weight="700" class="" text-anchor="middle">Well B2</text>
+<path id="sampling-B2" d="M 168 1193 V 1213" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="54" y="1219" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-B2"/>
+<text x="168" y="1245" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in B2</text>
+<text x="168" y="1272" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="44" y="1306" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-B3"/>
+<text x="168" y="1340" font-size="28" font-weight="700" class="" text-anchor="middle">Well B3</text>
+<path id="sampling-B3" d="M 168 1349 V 1369" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="54" y="1375" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-B3"/>
+<text x="168" y="1401" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in B3</text>
+<text x="168" y="1428" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="308" y="994" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-B4"/>
+<text x="432" y="1028" font-size="28" font-weight="700" class="" text-anchor="middle">Well B4</text>
+<path id="sampling-B4" d="M 432 1037 V 1057" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="318" y="1063" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-B4"/>
+<text x="432" y="1089" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in B4</text>
+<text x="432" y="1116" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="308" y="1150" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-B5"/>
+<text x="432" y="1184" font-size="28" font-weight="700" class="" text-anchor="middle">Well B5</text>
+<path id="sampling-B5" d="M 432 1193 V 1213" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="318" y="1219" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-B5"/>
+<text x="432" y="1245" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in B5</text>
+<text x="432" y="1272" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<rect x="308" y="1306" width="248" height="142" rx="16" fill="#fffdf7" stroke="#596d62" stroke-width="2" id="well-B6"/>
+<text x="432" y="1340" font-size="28" font-weight="700" class="" text-anchor="middle">Well B6</text>
+<path id="sampling-B6" d="M 432 1349 V 1369" fill="none" stroke="#596d62" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="318" y="1375" width="228" height="63" rx="10" fill="#e5eeeb" stroke="#596d62" stroke-width="2" stroke-dasharray="5 4" id="cells-B6"/>
+<text x="432" y="1401" font-size="26" font-weight="600" class="" text-anchor="middle">Cells in B6</text>
+<text x="432" y="1428" font-size="24" font-weight="400" class="secondary" text-anchor="middle">Count not given</text>
+<text x="28" y="1536" font-size="27" font-weight="600" class="" text-anchor="start">Here, wells get the assignment.</text>
+<text x="28" y="1576" font-size="26" font-weight="400" class="" text-anchor="start">Randomised within each donor;</text>
+<text x="28" y="1614" font-size="26" font-weight="400" class="" text-anchor="start">separate treatment, no mutual influence.</text>
+<text x="28" y="1654" font-size="26" font-weight="400" class="" text-anchor="start">Keep donor nesting in the analysis.</text>
+<text x="28" y="1706" font-size="27" font-weight="600" class="" text-anchor="start">More cells do not add donors.</text>
+</svg>

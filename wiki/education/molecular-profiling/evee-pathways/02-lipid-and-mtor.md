@@ -8,7 +8,7 @@ objectives: ["Trace SCAP–SREBP regulation from sterol sensing to a nuclear reg
 prerequisites: ["[[wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy]]"]
 sensitive: false
 tags: ["education", "pathway-biology"]
-updated: "2026-10-09"
+updated: "2026-10-11"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -54,9 +54,9 @@ Researchers study a fictional cancer culture under lipid-poor and lipid-rich con
 | Does growth slow? | Yes | Little change |
 | What might explain the difference? | External supply cannot compensate adequately | Uptake may compensate |
 
-These are fictional observations. They support a supply-dependent hypothesis and biochemical target engagement. To attribute compensation to uptake, researchers should measure uptake and test that route. The medium comparison alone cannot name every contributing metabolite.
+These are fictional observations. They support a supply-dependent hypothesis and a biochemical effect: new lipid synthesis fell under the tested conditions. They do not by themselves establish [target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement), which requires evidence that the compound interacts with its intended target. To attribute compensation to uptake, researchers should measure uptake and test that route. The medium comparison alone cannot name every contributing metabolite.
 
-Now an mTORC1-directed perturbation reduces an expected phosphoprotein readout in both conditions. Growth remains unchanged in the lipid-rich condition. This shows why engaging a signaling target and finding a survival bottleneck are distinct steps. If AMPK-linked phosphorylation also increases, that adds an energy-response hypothesis; it does not identify the trigger or prove that the response caused death.
+Now an mTORC1-directed perturbation reduces an expected phosphoprotein readout in both conditions. Growth remains unchanged in the lipid-rich condition. This shows why changing a downstream signaling readout and finding a survival bottleneck are distinct steps. If AMPK-linked phosphorylation also increases, that adds an energy-response hypothesis; it does not identify the trigger or prove that the response caused death.
 
 ## A rescue experiment needs a precise question
 
@@ -104,3 +104,5 @@ Source check: 2026-10-09. General education; all worked scenarios and numerical 
 - [Sarbassov 2005: mTOR complex 2 and AKT phosphorylation](https://pubmed.ncbi.nlm.nih.gov/15718470/).
 - [Ganley 2009: mTOR and autophagy-initiation machinery](https://pubmed.ncbi.nlm.nih.gov/19258318/).
 - [Gwinn et al., 2008: AMPK phosphorylation of raptor and mTORC1 restraint](https://pubmed.ncbi.nlm.nih.gov/18439900/).
+
+Bounded wording check: 2026-10-11. The distinction between a downstream biochemical effect and interaction with the intended target was checked against the PubMed-indexed abstract of [Martinez Molina et al., 2013: measuring target engagement in cells and tissues](https://pubmed.ncbi.nlm.nih.gov/23828940/). This check does not re-certify the lesson's other mechanisms or clinical claims. Expert and learner review pending.

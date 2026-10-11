@@ -1,0 +1,1121 @@
+ORIGINAL PORTABLE VECTOR SOURCE
+#!/usr/bin/env python3
+"""Portable original vector renderer. Default verifies/prints hashes without writes.
+Use --out-dir <scratch-dir> to reproduce a pair, --verify-dir <assets-dir> to
+compare existing exact bytes. Data, geometry, labels and palettes embedded.
+"""
+import json,html,re,hashlib,argparse
+from pathlib import Path
+spec=json.loads('{"schemaVersion": 1, "status": "SPECIFICATION_ONLY_NOT_RENDERED", "viewBox": [0, 0, 390, 720], "nativeOutputType": "SVG, two native theme variants from one shared geometry/data source", "mobileWidth": 390, "desktopMaxEmbeddedWidth": 480, "horizontalScrollRequired": false, "axis": {"domain": [0, 20], "units": "counted people", "baselineX": 32, "slotPitch": 16, "tickCounts": [0, 5, 10, 15, 20], "tickX": [32, 112, 192, 272, 352], "tickY": 498, "title": "Counted people; same slot size", "titleX": 24, "titleY": 524, "fontSize": 13, "note": "Common absolute count axis. Do not normalize each row to full width or encode percentages as bar widths."}, "rowGeometry": [{"key": "enrolled", "label": "Enrolled: 20 people", "denominator": 20, "observedResponses": 5, "fraction": "5/20 = 25%", "headerY": 116, "glyphY": 132, "fractionY": 176}, {"key": "treated", "label": "Treated: 14 people", "denominator": 14, "observedResponses": 5, "fraction": "5/14 \\u2248 35.7%", "headerY": 260, "glyphY": 276, "fractionY": 320}, {"key": "evaluable", "label": "Scan-evaluable: 10 people", "denominator": 10, "observedResponses": 5, "fraction": "5/10 = 50%", "headerY": 404, "glyphY": 420, "fractionY": 464}], "glyphs": [{"row": "enrolled", "fictionalPersonId": "P01", "slot": 1, "category": "observed-response", "x": 34, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P02", "slot": 2, "category": "observed-response", "x": 50, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P03", "slot": 3, "category": "observed-response", "x": 66, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P04", "slot": 4, "category": "observed-response", "x": 82, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P05", "slot": 5, "category": "observed-response", "x": 98, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P06", "slot": 6, "category": "evaluable-rule-not-met", "x": 114, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P07", "slot": 7, "category": "evaluable-rule-not-met", "x": 130, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P08", "slot": 8, "category": "evaluable-rule-not-met", "x": 146, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P09", "slot": 9, "category": "evaluable-rule-not-met", "x": 162, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P10", "slot": 10, "category": "evaluable-rule-not-met", "x": 178, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P11", "slot": 11, "category": "treated-no-evaluable-scan", "x": 194, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P12", "slot": 12, "category": "treated-no-evaluable-scan", "x": 210, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P13", "slot": 13, "category": "treated-no-evaluable-scan", "x": 226, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P14", "slot": 14, "category": "treated-no-evaluable-scan", "x": 242, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P15", "slot": 15, "category": "not-treated", "x": 258, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P16", "slot": 16, "category": "not-treated", "x": 274, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P17", "slot": 17, "category": "not-treated", "x": 290, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P18", "slot": 18, "category": "not-treated", "x": 306, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P19", "slot": 19, "category": "not-treated", "x": 322, "y": 132, "width": 12, "height": 22}, {"row": "enrolled", "fictionalPersonId": "P20", "slot": 20, "category": "not-treated", "x": 338, "y": 132, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P01", "slot": 1, "category": "observed-response", "x": 34, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P02", "slot": 2, "category": "observed-response", "x": 50, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P03", "slot": 3, "category": "observed-response", "x": 66, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P04", "slot": 4, "category": "observed-response", "x": 82, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P05", "slot": 5, "category": "observed-response", "x": 98, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P06", "slot": 6, "category": "evaluable-rule-not-met", "x": 114, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P07", "slot": 7, "category": "evaluable-rule-not-met", "x": 130, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P08", "slot": 8, "category": "evaluable-rule-not-met", "x": 146, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P09", "slot": 9, "category": "evaluable-rule-not-met", "x": 162, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P10", "slot": 10, "category": "evaluable-rule-not-met", "x": 178, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P11", "slot": 11, "category": "treated-no-evaluable-scan", "x": 194, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P12", "slot": 12, "category": "treated-no-evaluable-scan", "x": 210, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P13", "slot": 13, "category": "treated-no-evaluable-scan", "x": 226, "y": 276, "width": 12, "height": 22}, {"row": "treated", "fictionalPersonId": "P14", "slot": 14, "category": "treated-no-evaluable-scan", "x": 242, "y": 276, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P01", "slot": 1, "category": "observed-response", "x": 34, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P02", "slot": 2, "category": "observed-response", "x": 50, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P03", "slot": 3, "category": "observed-response", "x": 66, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P04", "slot": 4, "category": "observed-response", "x": 82, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P05", "slot": 5, "category": "observed-response", "x": 98, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P06", "slot": 6, "category": "evaluable-rule-not-met", "x": 114, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P07", "slot": 7, "category": "evaluable-rule-not-met", "x": 130, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P08", "slot": 8, "category": "evaluable-rule-not-met", "x": 146, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P09", "slot": 9, "category": "evaluable-rule-not-met", "x": 162, "y": 420, "width": 12, "height": 22}, {"row": "evaluable", "fictionalPersonId": "P10", "slot": 10, "category": "evaluable-rule-not-met", "x": 178, "y": 420, "width": 12, "height": 22}], "text": {"titleLines": [{"x": 24, "y": 30, "text": "Same five responses", "fontSize": 20}, {"x": 24, "y": 56, "text": "Three denominators", "fontSize": 19}], "subtitle": {"x": 24, "y": 80, "text": "Fictional study; nested sets of people", "fontSize": 13}, "subsetConnectors": [{"x": 364, "y1": 186, "y2": 238, "labelLines": [{"x": 24, "y": 206, "text": "6 not treated", "fontSize": 13}, {"x": 24, "y": 224, "text": "Outcome not supplied", "fontSize": 13}]}, {"x": 364, "y1": 330, "y2": 382, "labelLines": [{"x": 24, "y": 350, "text": "4 without an evaluable scan", "fontSize": 13}, {"x": 24, "y": 368, "text": "Response outcome unknown", "fontSize": 13}]}], "rowLabelFontSize": 16, "fractionFontSize": 16, "footerLines": [{"x": 24, "y": 680, "text": "Same five response marks in every row.", "fontSize": 13}, {"x": 24, "y": 702, "text": "Unknown does not mean non-response.", "fontSize": 13}]}, "legend": {"x": 24, "startY": 555, "lineHeight": 25, "fontSize": 13, "items": [{"category": "observed-response", "text": "Observed response (5)", "pattern": "solid-fill"}, {"category": "evaluable-rule-not-met", "text": "Evaluable scan: rule not met (5)", "pattern": "open-square"}, {"category": "treated-no-evaluable-scan", "text": "Treated: no evaluable scan (4)", "pattern": "diagonal-hatch"}, {"category": "not-treated", "text": "Not treated: outcome not supplied (6)", "pattern": "dashed-outline"}]}, "themeTokens": {"light": {"ground": "#FBF8F2", "ink": "#202B32", "response": "#286788", "ruleNotMet": "#FBF8F2", "unknown": "#C3AD83", "stroke": "#435460"}, "dark": {"ground": "#182229", "ink": "#EDF1F2", "response": "#82BDD6", "ruleNotMet": "#182229", "unknown": "#B9A783", "stroke": "#B9C9D2"}}, "themeEquivalence": "Only palette tokens change. Identical marks, person identity, coordinates, text, axis, hatch and counts.", "encodingLimits": ["One mark equals one fictional person; row labels plus patterns distinguish status.", "The same five IDs remain the first five slots in every row.", "No new responses appear in later rows.", "Subset arrows mean filtering a set, not temporal response improvement or causal effect.", "The blank space after each row is outside that row\\u2019s counted set, not a zero outcome."], "prospectiveOutputs": ["analysis-population-denominators-v1-light.svg", "analysis-population-denominators-v1-dark.svg"], "renderingPerformed": false}')
+brief=json.loads('{"schemaVersion": 1, "status": "PROPOSED_NEXT_BATCH_BRIEF_NOT_SELECTED", "sourceCommit": "95a095c980ed6973221de8544b2838ce5003f7a5", "frozenProductionBriefId": "brief-051", "frozenReviewerProposalId": "analysis-population-denominators", "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md", "ownerSHA256": "3cb38a548ac0389394d8a92f73d50f95a73d3fe92e2d664a3cb853f63a52e075", "targetSection": "## A worked example", "learnerTask": "Track the same5 observed responses through enrolled20, treated14 and evaluable10 denominators.", "medium": "editable count chart", "rootSelectionRequiredBeforeRendering": true, "generationPerformed": false, "composition": "Three vertically aligned count strips on a common0\\u201320 people scale, preserving exactly the same five response marks. Full enrolled strip shows all20 categories; treated strip shows its14-person subset; evaluable strip shows its10-person subset. Between-row notes retain the excluded6 and4 and their distinct unavailable-outcome status.", "dataArtifact": "chart-data.json", "coordinateArtifact": "chart-coordinates.json", "caption": "Fictional data: the same five observed responses give 5/20, 5/14 and 5/10 because the counted group changes. Scan-evaluable people are a subset of treated people, who are a subset of enrolled people. Four treated people lack an evaluable scan; six were not treated. Neither group\\u2019s response outcomes are supplied.", "alt": "Three count strips show the same five observed responses among twenty enrolled, fourteen treated and ten scan-evaluable people. Five other evaluable scans did not meet the response rule, four treated people lack evaluable scans, and six were not treated; these last two groups have no supplied response outcome.", "proposedProductionStem": "analysis-population-denominators-v1", "newExplanatoryClaims": "Only visualize existing fictional data and missing-outcome distinctions; no new empirical/clinical conclusion.", "nativePlan": "Editable deterministic SVG pair, same shared source and geometry, palettes change only. No raster/model generation.", "insertionPlan": {"artifact": "proposed-insertion.md", "position": "Immediately after the existing missing-outcome paragraph following the20/14/10 table, before the separate100-person cohort.", "changes": 1, "mode": "additive insertion only; no text or metadata rewrite", "inverse": "inverse.patch"}, "humanReview": "pending", "independentReview": "pending", "coverageCredit": 0, "acceptanceContract": "acceptance-contract.json", "limitations": ["Not selected, produced, rendered, scientifically approved by a human, integrated or released.", "Illustrative IDs are a bookkeeping convention derived from counts, not recorded trial data.", "Fictional study does not state randomization, protocol analysis set, fixed observation window or reasons missing scans/non-treatment occurred. Do not infer them.", "Source retrieval and selected primary sections are bounded; no full source recertification.", "Prospective SVG embed will not resolve until approved assets exist; projected owner is not release-ready."]}')
+data=json.loads('{"schemaVersion": 1, "fictional": true, "observationUnit": "people", "numeratorEvent": "Meets the stated response rule on an evaluable follow-up scan", "personIds": "Invented identifiers for diagram consistency only; repeated rows are the same people, not new cohorts.", "participants": [{"fictionalPersonId": "P01", "slot": 1, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": true, "category": "observed-response", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P02", "slot": 2, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": true, "category": "observed-response", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P03", "slot": 3, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": true, "category": "observed-response", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P04", "slot": 4, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": true, "category": "observed-response", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P05", "slot": 5, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": true, "category": "observed-response", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P06", "slot": 6, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": false, "category": "evaluable-rule-not-met", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P07", "slot": 7, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": false, "category": "evaluable-rule-not-met", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P08", "slot": 8, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": false, "category": "evaluable-rule-not-met", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P09", "slot": 9, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": false, "category": "evaluable-rule-not-met", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P10", "slot": 10, "enrolled": true, "treated": true, "scanEvaluable": true, "responseRuleMet": false, "category": "evaluable-rule-not-met", "responseOutcomeStatus": "observed"}, {"fictionalPersonId": "P11", "slot": 11, "enrolled": true, "treated": true, "scanEvaluable": false, "responseRuleMet": null, "category": "treated-no-evaluable-scan", "responseOutcomeStatus": "unknown-no-evaluable-scan"}, {"fictionalPersonId": "P12", "slot": 12, "enrolled": true, "treated": true, "scanEvaluable": false, "responseRuleMet": null, "category": "treated-no-evaluable-scan", "responseOutcomeStatus": "unknown-no-evaluable-scan"}, {"fictionalPersonId": "P13", "slot": 13, "enrolled": true, "treated": true, "scanEvaluable": false, "responseRuleMet": null, "category": "treated-no-evaluable-scan", "responseOutcomeStatus": "unknown-no-evaluable-scan"}, {"fictionalPersonId": "P14", "slot": 14, "enrolled": true, "treated": true, "scanEvaluable": false, "responseRuleMet": null, "category": "treated-no-evaluable-scan", "responseOutcomeStatus": "unknown-no-evaluable-scan"}, {"fictionalPersonId": "P15", "slot": 15, "enrolled": true, "treated": false, "scanEvaluable": false, "responseRuleMet": null, "category": "not-treated", "responseOutcomeStatus": "not-supplied-not-treated"}, {"fictionalPersonId": "P16", "slot": 16, "enrolled": true, "treated": false, "scanEvaluable": false, "responseRuleMet": null, "category": "not-treated", "responseOutcomeStatus": "not-supplied-not-treated"}, {"fictionalPersonId": "P17", "slot": 17, "enrolled": true, "treated": false, "scanEvaluable": false, "responseRuleMet": null, "category": "not-treated", "responseOutcomeStatus": "not-supplied-not-treated"}, {"fictionalPersonId": "P18", "slot": 18, "enrolled": true, "treated": false, "scanEvaluable": false, "responseRuleMet": null, "category": "not-treated", "responseOutcomeStatus": "not-supplied-not-treated"}, {"fictionalPersonId": "P19", "slot": 19, "enrolled": true, "treated": false, "scanEvaluable": false, "responseRuleMet": null, "category": "not-treated", "responseOutcomeStatus": "not-supplied-not-treated"}, {"fictionalPersonId": "P20", "slot": 20, "enrolled": true, "treated": false, "scanEvaluable": false, "responseRuleMet": null, "category": "not-treated", "responseOutcomeStatus": "not-supplied-not-treated"}], "rows": [{"key": "enrolled", "label": "Enrolled: 20 people", "denominator": 20, "observedResponses": 5, "fraction": "5/20 = 25%", "headerY": 116, "glyphY": 132, "fractionY": 176}, {"key": "treated", "label": "Treated: 14 people", "denominator": 14, "observedResponses": 5, "fraction": "5/14 \\u2248 35.7%", "headerY": 260, "glyphY": 276, "fractionY": 320}, {"key": "evaluable", "label": "Scan-evaluable: 10 people", "denominator": 10, "observedResponses": 5, "fraction": "5/10 = 50%", "headerY": 404, "glyphY": 420, "fractionY": 464}], "sets": {"enrolled": ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09", "P10", "P11", "P12", "P13", "P14", "P15", "P16", "P17", "P18", "P19", "P20"], "treated": ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09", "P10", "P11", "P12", "P13", "P14"], "evaluable": ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09", "P10"], "responders": ["P01", "P02", "P03", "P04", "P05"]}, "unknownVersusOutside": {"treatedMissingScans": 4, "notTreated": 6, "otherEvaluableRuleNotMet": 5, "notTreatedResponseOutcomes": "not supplied; not recoded as missing scans or confirmed non-response"}, "arithmetic": {"fiveOver20": 0.25, "fiveOver14": 0.35714285714285715, "fiveOver10": 0.5}}')
+ref=json.loads('{"version": 2, "fontScale": 1.2, "paletteOverrides": {"light": {"unknown": "#886E43"}}, "notes": ["Based on actual initial 312px light/dark screenshots: enlarged all typography 20%.", "Minimum nominal 13px text becomes15.6px native,12.48px at312px; visual inspection remains required.", "Deeper light hatch color; original mark/axis/set geometry, wording and every participant identity unchanged.", "Same refined geometry shared by both final themes."]}')
+scale=ref["fontScale"]
+def esc(s):return html.escape(str(s),quote=True)
+def render(theme):
+    t={**spec['themeTokens'][theme],**ref.get('paletteOverrides',{}).get(theme,{})};out=[]
+    out.extend([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 720" width="390" height="720" role="img" aria-labelledby="title desc" data-theme="{theme}">',
+        '<title id="title">Same five responses, three denominators</title>',f'<desc id="desc">{esc(brief["alt"])}</desc>',
+        f'<style>:root{{--ground:{t["ground"]};--ink:{t["ink"]};--response:{t["response"]};--unknown:{t["unknown"]};--stroke:{t["stroke"]}}} text{{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}} .thin{{stroke:var(--stroke);fill:none}} .response{{fill:var(--response);stroke:var(--response)}} .open{{fill:var(--ground);stroke:var(--stroke)}} .hatch{{fill:url(#hatch);stroke:var(--stroke)}} .outside{{fill:var(--ground);stroke:var(--stroke);stroke-dasharray:2 2}}</style>',
+        '<defs><pattern id="hatch" patternUnits="userSpaceOnUse" width="5" height="5"><rect width="5" height="5" fill="var(--ground)"/><path d="M-1 1 L1 -1 M0 5 L5 0 M4 6 L6 4" stroke="var(--unknown)" stroke-width="1.5"/></pattern></defs>',
+        '<rect width="390" height="720" rx="12" fill="var(--ground)"/>'])
+    def text(x,y,s,size=13,weight='normal',anchor='start',extra=''):
+        out.append(f'<text x="{x}" y="{y}" font-size="{size*scale:g}" font-weight="{weight}" text-anchor="{anchor}" {extra}>{esc(s)}</text>')
+    def glyph(x,y,w,h,category,attrs=''):
+        cls={'observed-response':'response','evaluable-rule-not-met':'open','treated-no-evaluable-scan':'hatch','not-treated':'outside'}[category]
+        out.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="1" class="{cls}" stroke-width="1.25" {attrs}/>')
+    for x in spec['text']['titleLines']:text(x['x'],x['y'],x['text'],x['fontSize'],'bold')
+    x=spec['text']['subtitle'];text(x['x'],x['y'],x['text'],x['fontSize'])
+    # A static sampling chart, no motion, causal progress, or inferred outcomes.
+    for row in spec['rowGeometry']:
+        text(24,row['headerY'],row['label'],spec['text']['rowLabelFontSize'],'bold')
+        out.append(f'<g data-row="{row["key"]}" data-denominator="{row["denominator"]}">')
+        for g in spec['glyphs']:
+            if g['row']==row['key']:
+                glyph(g['x'],g['y'],g['width'],g['height'],g['category'],f'data-person-id="{g["fictionalPersonId"]}" data-category="{g["category"]}"')
+        out.append('</g>')
+        text(24,row['fractionY'],row['fraction'],spec['text']['fractionFontSize'],'bold')
+    for c in spec['text']['subsetConnectors']:
+        out.append(f'<path d="M{c["x"]-6} {c["y1"]} h6 v{c["y2"]-c["y1"]} h-6" class="thin" stroke-width="1.25"/>')
+        for x in c['labelLines']:text(x['x'],x['y'],x['text'],x['fontSize'])
+    axis=spec['axis'];out.append('<path d="M32 482 H352" class="thin" stroke-width="1"/>')
+    for count,x in zip(axis['tickCounts'],axis['tickX']):
+        out.append(f'<path d="M{x} 479 V487" class="thin" stroke-width="1"/>');text(x,axis['tickY'],count,axis['fontSize'],anchor='middle')
+    text(axis['titleX'],axis['titleY'],axis['title'],axis['fontSize'])
+    for i,x in enumerate(spec['legend']['items']):
+        y=spec['legend']['startY']+i*spec['legend']['lineHeight'];glyph(24,y-13,12,17,x['category']);text(48,y,x['text'],spec['legend']['fontSize'])
+    for x in spec['text']['footerLines']:text(x['x'],x['y'],x['text'],x['fontSize'])
+    out.append('</svg>');return '\n'.join(out)+'\n'
+def canonical_svg(s):
+    s=re.sub(r'data-theme="(light|dark)"','data-theme="PALETTE"',s)
+    for tokens in list(spec['themeTokens'].values())+list(ref.get('paletteOverrides',{}).values()):
+        for color in set(tokens.values()):s=s.replace(color,'COLOR')
+    return s
+
+assert len(data['sets']['enrolled'])==20 and len(data['sets']['treated'])==14 and len(data['sets']['evaluable'])==10
+assert data['sets']['responders']==['P01','P02','P03','P04','P05']
+assert canonical_svg(render('light'))==canonical_svg(render('dark'))
+a=argparse.ArgumentParser();a.add_argument('--out-dir');a.add_argument('--verify-dir');args=a.parse_args();results=[]
+for theme in ['light','dark']:
+ b=render(theme).encode();name=brief['proposedProductionStem']+'-'+theme+'.svg'
+ if args.out_dir:
+  p=Path(args.out_dir);p.mkdir(parents=True,exist_ok=True);(p/name).write_bytes(b)
+ if args.verify_dir:assert (Path(args.verify_dir)/name).read_bytes()==b
+ results.append({'filename':name,'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b),'exactMatch':True if args.verify_dir else None})
+print(json.dumps({'method':'Original deterministic vector source; no image model','geometryAndDataIdentical':True,'assets':results},indent=2))
+
+
+PRODUCTION SPECIFICATION
+{
+  "schemaVersion": 1,
+  "status": "RENDERED_SCRATCH_CANDIDATE_NOT_INTEGRATED",
+  "frozenBriefId": "brief-051",
+  "frozenProposalId": "analysis-population-denominators",
+  "acceptedGeometrySHA256": "3477a6c268f6f1f1b814d3f3d8f8be0b22def7fbe8fcb33f87ae15236725dd5e",
+  "acceptedGeometry": {
+    "schemaVersion": 1,
+    "status": "SPECIFICATION_ONLY_NOT_RENDERED",
+    "viewBox": [
+      0,
+      0,
+      390,
+      720
+    ],
+    "nativeOutputType": "SVG, two native theme variants from one shared geometry/data source",
+    "mobileWidth": 390,
+    "desktopMaxEmbeddedWidth": 480,
+    "horizontalScrollRequired": false,
+    "axis": {
+      "domain": [
+        0,
+        20
+      ],
+      "units": "counted people",
+      "baselineX": 32,
+      "slotPitch": 16,
+      "tickCounts": [
+        0,
+        5,
+        10,
+        15,
+        20
+      ],
+      "tickX": [
+        32,
+        112,
+        192,
+        272,
+        352
+      ],
+      "tickY": 498,
+      "title": "Counted people; same slot size",
+      "titleX": 24,
+      "titleY": 524,
+      "fontSize": 13,
+      "note": "Common absolute count axis. Do not normalize each row to full width or encode percentages as bar widths."
+    },
+    "rowGeometry": [
+      {
+        "key": "enrolled",
+        "label": "Enrolled: 20 people",
+        "denominator": 20,
+        "observedResponses": 5,
+        "fraction": "5/20 = 25%",
+        "headerY": 116,
+        "glyphY": 132,
+        "fractionY": 176
+      },
+      {
+        "key": "treated",
+        "label": "Treated: 14 people",
+        "denominator": 14,
+        "observedResponses": 5,
+        "fraction": "5/14 \u2248 35.7%",
+        "headerY": 260,
+        "glyphY": 276,
+        "fractionY": 320
+      },
+      {
+        "key": "evaluable",
+        "label": "Scan-evaluable: 10 people",
+        "denominator": 10,
+        "observedResponses": 5,
+        "fraction": "5/10 = 50%",
+        "headerY": 404,
+        "glyphY": 420,
+        "fractionY": 464
+      }
+    ],
+    "glyphs": [
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P01",
+        "slot": 1,
+        "category": "observed-response",
+        "x": 34,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P02",
+        "slot": 2,
+        "category": "observed-response",
+        "x": 50,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P03",
+        "slot": 3,
+        "category": "observed-response",
+        "x": 66,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P04",
+        "slot": 4,
+        "category": "observed-response",
+        "x": 82,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P05",
+        "slot": 5,
+        "category": "observed-response",
+        "x": 98,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P06",
+        "slot": 6,
+        "category": "evaluable-rule-not-met",
+        "x": 114,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P07",
+        "slot": 7,
+        "category": "evaluable-rule-not-met",
+        "x": 130,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P08",
+        "slot": 8,
+        "category": "evaluable-rule-not-met",
+        "x": 146,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P09",
+        "slot": 9,
+        "category": "evaluable-rule-not-met",
+        "x": 162,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P10",
+        "slot": 10,
+        "category": "evaluable-rule-not-met",
+        "x": 178,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P11",
+        "slot": 11,
+        "category": "treated-no-evaluable-scan",
+        "x": 194,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P12",
+        "slot": 12,
+        "category": "treated-no-evaluable-scan",
+        "x": 210,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P13",
+        "slot": 13,
+        "category": "treated-no-evaluable-scan",
+        "x": 226,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P14",
+        "slot": 14,
+        "category": "treated-no-evaluable-scan",
+        "x": 242,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P15",
+        "slot": 15,
+        "category": "not-treated",
+        "x": 258,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P16",
+        "slot": 16,
+        "category": "not-treated",
+        "x": 274,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P17",
+        "slot": 17,
+        "category": "not-treated",
+        "x": 290,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P18",
+        "slot": 18,
+        "category": "not-treated",
+        "x": 306,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P19",
+        "slot": 19,
+        "category": "not-treated",
+        "x": 322,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "enrolled",
+        "fictionalPersonId": "P20",
+        "slot": 20,
+        "category": "not-treated",
+        "x": 338,
+        "y": 132,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P01",
+        "slot": 1,
+        "category": "observed-response",
+        "x": 34,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P02",
+        "slot": 2,
+        "category": "observed-response",
+        "x": 50,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P03",
+        "slot": 3,
+        "category": "observed-response",
+        "x": 66,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P04",
+        "slot": 4,
+        "category": "observed-response",
+        "x": 82,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P05",
+        "slot": 5,
+        "category": "observed-response",
+        "x": 98,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P06",
+        "slot": 6,
+        "category": "evaluable-rule-not-met",
+        "x": 114,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P07",
+        "slot": 7,
+        "category": "evaluable-rule-not-met",
+        "x": 130,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P08",
+        "slot": 8,
+        "category": "evaluable-rule-not-met",
+        "x": 146,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P09",
+        "slot": 9,
+        "category": "evaluable-rule-not-met",
+        "x": 162,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P10",
+        "slot": 10,
+        "category": "evaluable-rule-not-met",
+        "x": 178,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P11",
+        "slot": 11,
+        "category": "treated-no-evaluable-scan",
+        "x": 194,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P12",
+        "slot": 12,
+        "category": "treated-no-evaluable-scan",
+        "x": 210,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P13",
+        "slot": 13,
+        "category": "treated-no-evaluable-scan",
+        "x": 226,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "treated",
+        "fictionalPersonId": "P14",
+        "slot": 14,
+        "category": "treated-no-evaluable-scan",
+        "x": 242,
+        "y": 276,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P01",
+        "slot": 1,
+        "category": "observed-response",
+        "x": 34,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P02",
+        "slot": 2,
+        "category": "observed-response",
+        "x": 50,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P03",
+        "slot": 3,
+        "category": "observed-response",
+        "x": 66,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P04",
+        "slot": 4,
+        "category": "observed-response",
+        "x": 82,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P05",
+        "slot": 5,
+        "category": "observed-response",
+        "x": 98,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P06",
+        "slot": 6,
+        "category": "evaluable-rule-not-met",
+        "x": 114,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P07",
+        "slot": 7,
+        "category": "evaluable-rule-not-met",
+        "x": 130,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P08",
+        "slot": 8,
+        "category": "evaluable-rule-not-met",
+        "x": 146,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P09",
+        "slot": 9,
+        "category": "evaluable-rule-not-met",
+        "x": 162,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "row": "evaluable",
+        "fictionalPersonId": "P10",
+        "slot": 10,
+        "category": "evaluable-rule-not-met",
+        "x": 178,
+        "y": 420,
+        "width": 12,
+        "height": 22
+      }
+    ],
+    "text": {
+      "titleLines": [
+        {
+          "x": 24,
+          "y": 30,
+          "text": "Same five responses",
+          "fontSize": 20
+        },
+        {
+          "x": 24,
+          "y": 56,
+          "text": "Three denominators",
+          "fontSize": 19
+        }
+      ],
+      "subtitle": {
+        "x": 24,
+        "y": 80,
+        "text": "Fictional study; nested sets of people",
+        "fontSize": 13
+      },
+      "subsetConnectors": [
+        {
+          "x": 364,
+          "y1": 186,
+          "y2": 238,
+          "labelLines": [
+            {
+              "x": 24,
+              "y": 206,
+              "text": "6 not treated",
+              "fontSize": 13
+            },
+            {
+              "x": 24,
+              "y": 224,
+              "text": "Outcome not supplied",
+              "fontSize": 13
+            }
+          ]
+        },
+        {
+          "x": 364,
+          "y1": 330,
+          "y2": 382,
+          "labelLines": [
+            {
+              "x": 24,
+              "y": 350,
+              "text": "4 without an evaluable scan",
+              "fontSize": 13
+            },
+            {
+              "x": 24,
+              "y": 368,
+              "text": "Response outcome unknown",
+              "fontSize": 13
+            }
+          ]
+        }
+      ],
+      "rowLabelFontSize": 16,
+      "fractionFontSize": 16,
+      "footerLines": [
+        {
+          "x": 24,
+          "y": 680,
+          "text": "Same five response marks in every row.",
+          "fontSize": 13
+        },
+        {
+          "x": 24,
+          "y": 702,
+          "text": "Unknown does not mean non-response.",
+          "fontSize": 13
+        }
+      ]
+    },
+    "legend": {
+      "x": 24,
+      "startY": 555,
+      "lineHeight": 25,
+      "fontSize": 13,
+      "items": [
+        {
+          "category": "observed-response",
+          "text": "Observed response (5)",
+          "pattern": "solid-fill"
+        },
+        {
+          "category": "evaluable-rule-not-met",
+          "text": "Evaluable scan: rule not met (5)",
+          "pattern": "open-square"
+        },
+        {
+          "category": "treated-no-evaluable-scan",
+          "text": "Treated: no evaluable scan (4)",
+          "pattern": "diagonal-hatch"
+        },
+        {
+          "category": "not-treated",
+          "text": "Not treated: outcome not supplied (6)",
+          "pattern": "dashed-outline"
+        }
+      ]
+    },
+    "themeTokens": {
+      "light": {
+        "ground": "#FBF8F2",
+        "ink": "#202B32",
+        "response": "#286788",
+        "ruleNotMet": "#FBF8F2",
+        "unknown": "#C3AD83",
+        "stroke": "#435460"
+      },
+      "dark": {
+        "ground": "#182229",
+        "ink": "#EDF1F2",
+        "response": "#82BDD6",
+        "ruleNotMet": "#182229",
+        "unknown": "#B9A783",
+        "stroke": "#B9C9D2"
+      }
+    },
+    "themeEquivalence": "Only palette tokens change. Identical marks, person identity, coordinates, text, axis, hatch and counts.",
+    "encodingLimits": [
+      "One mark equals one fictional person; row labels plus patterns distinguish status.",
+      "The same five IDs remain the first five slots in every row.",
+      "No new responses appear in later rows.",
+      "Subset arrows mean filtering a set, not temporal response improvement or causal effect.",
+      "The blank space after each row is outside that row\u2019s counted set, not a zero outcome."
+    ],
+    "prospectiveOutputs": [
+      "analysis-population-denominators-v1-light.svg",
+      "analysis-population-denominators-v1-dark.svg"
+    ],
+    "renderingPerformed": false
+  },
+  "renderRefinements": {
+    "version": 2,
+    "fontScale": 1.2,
+    "paletteOverrides": {
+      "light": {
+        "unknown": "#886E43"
+      }
+    },
+    "notes": [
+      "Based on actual initial 312px light/dark screenshots: enlarged all typography 20%.",
+      "Minimum nominal 13px text becomes15.6px native,12.48px at312px; visual inspection remains required.",
+      "Deeper light hatch color; original mark/axis/set geometry, wording and every participant identity unchanged.",
+      "Same refined geometry shared by both final themes."
+    ]
+  },
+  "effectiveFonts": {
+    "acceptedFontSizeMultiplier": 1.2,
+    "minimumNativeFontSize": 15.6,
+    "minimumAt312px": 12.48
+  },
+  "paletteOnlyThemeDifference": true,
+  "setAndCountGeometryUnchanged": true,
+  "sourceDataSHA256": "94f8adbec3d596b46aef1f4d46e40edebdf698412a790c3b902db2185d0a85c8",
+  "humanReview": "pending",
+  "independentFinalArtworkReview": "pending"
+}
+
+ORIGINAL DATA
+{
+  "schemaVersion": 1,
+  "fictional": true,
+  "observationUnit": "people",
+  "numeratorEvent": "Meets the stated response rule on an evaluable follow-up scan",
+  "personIds": "Invented identifiers for diagram consistency only; repeated rows are the same people, not new cohorts.",
+  "participants": [
+    {
+      "fictionalPersonId": "P01",
+      "slot": 1,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": true,
+      "category": "observed-response",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P02",
+      "slot": 2,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": true,
+      "category": "observed-response",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P03",
+      "slot": 3,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": true,
+      "category": "observed-response",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P04",
+      "slot": 4,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": true,
+      "category": "observed-response",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P05",
+      "slot": 5,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": true,
+      "category": "observed-response",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P06",
+      "slot": 6,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": false,
+      "category": "evaluable-rule-not-met",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P07",
+      "slot": 7,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": false,
+      "category": "evaluable-rule-not-met",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P08",
+      "slot": 8,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": false,
+      "category": "evaluable-rule-not-met",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P09",
+      "slot": 9,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": false,
+      "category": "evaluable-rule-not-met",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P10",
+      "slot": 10,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": true,
+      "responseRuleMet": false,
+      "category": "evaluable-rule-not-met",
+      "responseOutcomeStatus": "observed"
+    },
+    {
+      "fictionalPersonId": "P11",
+      "slot": 11,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "treated-no-evaluable-scan",
+      "responseOutcomeStatus": "unknown-no-evaluable-scan"
+    },
+    {
+      "fictionalPersonId": "P12",
+      "slot": 12,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "treated-no-evaluable-scan",
+      "responseOutcomeStatus": "unknown-no-evaluable-scan"
+    },
+    {
+      "fictionalPersonId": "P13",
+      "slot": 13,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "treated-no-evaluable-scan",
+      "responseOutcomeStatus": "unknown-no-evaluable-scan"
+    },
+    {
+      "fictionalPersonId": "P14",
+      "slot": 14,
+      "enrolled": true,
+      "treated": true,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "treated-no-evaluable-scan",
+      "responseOutcomeStatus": "unknown-no-evaluable-scan"
+    },
+    {
+      "fictionalPersonId": "P15",
+      "slot": 15,
+      "enrolled": true,
+      "treated": false,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "not-treated",
+      "responseOutcomeStatus": "not-supplied-not-treated"
+    },
+    {
+      "fictionalPersonId": "P16",
+      "slot": 16,
+      "enrolled": true,
+      "treated": false,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "not-treated",
+      "responseOutcomeStatus": "not-supplied-not-treated"
+    },
+    {
+      "fictionalPersonId": "P17",
+      "slot": 17,
+      "enrolled": true,
+      "treated": false,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "not-treated",
+      "responseOutcomeStatus": "not-supplied-not-treated"
+    },
+    {
+      "fictionalPersonId": "P18",
+      "slot": 18,
+      "enrolled": true,
+      "treated": false,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "not-treated",
+      "responseOutcomeStatus": "not-supplied-not-treated"
+    },
+    {
+      "fictionalPersonId": "P19",
+      "slot": 19,
+      "enrolled": true,
+      "treated": false,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "not-treated",
+      "responseOutcomeStatus": "not-supplied-not-treated"
+    },
+    {
+      "fictionalPersonId": "P20",
+      "slot": 20,
+      "enrolled": true,
+      "treated": false,
+      "scanEvaluable": false,
+      "responseRuleMet": null,
+      "category": "not-treated",
+      "responseOutcomeStatus": "not-supplied-not-treated"
+    }
+  ],
+  "rows": [
+    {
+      "key": "enrolled",
+      "label": "Enrolled: 20 people",
+      "denominator": 20,
+      "observedResponses": 5,
+      "fraction": "5/20 = 25%",
+      "headerY": 116,
+      "glyphY": 132,
+      "fractionY": 176
+    },
+    {
+      "key": "treated",
+      "label": "Treated: 14 people",
+      "denominator": 14,
+      "observedResponses": 5,
+      "fraction": "5/14 \u2248 35.7%",
+      "headerY": 260,
+      "glyphY": 276,
+      "fractionY": 320
+    },
+    {
+      "key": "evaluable",
+      "label": "Scan-evaluable: 10 people",
+      "denominator": 10,
+      "observedResponses": 5,
+      "fraction": "5/10 = 50%",
+      "headerY": 404,
+      "glyphY": 420,
+      "fractionY": 464
+    }
+  ],
+  "sets": {
+    "enrolled": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20"
+    ],
+    "treated": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14"
+    ],
+    "evaluable": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10"
+    ],
+    "responders": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05"
+    ]
+  },
+  "unknownVersusOutside": {
+    "treatedMissingScans": 4,
+    "notTreated": 6,
+    "otherEvaluableRuleNotMet": 5,
+    "notTreatedResponseOutcomes": "not supplied; not recoded as missing scans or confirmed non-response"
+  },
+  "arithmetic": {
+    "fiveOver20": 0.25,
+    "fiveOver14": 0.35714285714285715,
+    "fiveOver10": 0.5
+  }
+}
+
+ACCEPTED SOURCE ACCESS LIMITS
+{
+  "checkedLocalDate": "2026-10-11",
+  "ownerAccess": "Explicit sensitive:false header checked first, then complete public owner body read at committed95a095c bytes. No protected/redacted linked body followed.",
+  "mathematicalData": "All20/14/10/5 counts are existing fictional owner values. Four treated/no-scan and six untreated are supplied or directly subtractable. The five other evaluable scans do not meet the binary stated response rule. Person IDs are only invented bookkeeping for repeated marks.",
+  "sources": [
+    {
+      "title": "CONSORT 2025 explanation and elaboration / official item22a",
+      "ownerCitationURL": "https://www.bmj.com/content/389/bmj-2024-081124",
+      "accessedURL": "https://www.consort-spirit.org/item-22a-randomized",
+      "accessDepth": "Read official item22a participant-flow explanation and reporting distinction among assigned, received, followed and analyzed participants. No clinical trial underlying the examples was audited.",
+      "supports": "Retain entry, treatment and observed/analysis population counts and distinguish losses from exclusions.",
+      "limitation": "BMJ direct open returned403; PMC direct open returned reCAPTCHA. Indexed primary BMJ/PMC excerpts were inspected, then official item body directly read. This is not full-paper recertification. Fictional owner study does not specify randomization."
+    },
+    {
+      "title": "CONSORT official item21c: missing data",
+      "accessedURL": "https://www.consort-spirit.org/item21c-missingdata",
+      "accessDepth": "Selected Explanation and reporting-method paragraphs, including explicit missing-data handling and assumption/sensitivity reporting. Example study analyses were not independently assessed.",
+      "supports": "Unknown outcomes remain distinct from observed rule-not-met results; analysis/imputation rules must be explicit.",
+      "limitation": "No missing-data model or imputed outcomes applied to the toy chart. No intention-to-treat estimate claimed."
+    },
+    {
+      "title": "CONSORT official item26: numbers analyzed",
+      "accessedURL": "https://www.consort-spirit.org/item-26-numbers-analysed",
+      "accessDepth": "Read item definition and initial explanation identifying outcome-specific/time-specific analysis counts and available data.",
+      "supports": "A denominator must retain its named group and data-availability scope.",
+      "limitation": "No actual effect estimate, confidence interval or population risk is invented."
+    },
+    {
+      "title": "FDA2018 cancer-trial endpoint guidance",
+      "ownerCitationURL": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics",
+      "accessedURL": "https://www.fda.gov/media/71195/download",
+      "accessDepth": "Guidance overview plus selected PDF sectionIII.B.2 on predefined objective response assessment and context; not entire19-page guidance reviewed.",
+      "supports": "Response depends on a stated assessment rule; this chart does not upgrade observed proportions into survival or benefit.",
+      "limitation": "Toy endpoint is the owner's unnamed response rule, not a claimed RECIST or regulatory endpoint analysis."
+    },
+    {
+      "title": "Hernan and Robins: Causal Inference What If",
+      "ownerCitationURL": "https://miguelhernan.org/whatifbook",
+      "accessDepth": "Author landing page read. Latest-book click failed in web tool; linked PDF chapters were not read in this session.",
+      "supports": "No new chart claim relies on a newly verified book chapter. Existing citation and formula remain unchanged.",
+      "limitation": "No fresh chapters1–2 or August2026 edition recertification; retain original owner's source scope."
+    }
+  ],
+  "rawResponseCustody": "primary-response-hashes.json records actual retrieved-byte SHA256 for accessible official responses. Raw hashes are retrieval receipts, not whole-source read certificates. Raw response bodies were not saved or copied into teaching.",
+  "protectedBodiesRead": false,
+  "fullClinicalSourceRecertification": false,
+  "humanReview": "pending"
+}
+
+
+AUTHORSHIP INSTRUCTIONS
+Original deterministic vector chart from accepted brief-051 / analysis-population-denominators. Same five observed response identities in 20 enrolled, 14 treated, 10 evaluable. Five other evaluable scans do not meet the rule; four treated have no evaluable scan; six untreated outcomes not supplied. Common 0–20 count scale. Unknown outcomes never imputed as non-response. No new randomisation, history, ITT, efficacy or patient prediction. Same data/geometry/text/patterns for both themes; palette-only theme change. No image model used. Full caption and accessible description from accepted brief. Scratch candidate only, root owns integration and release. Author pixel inspection is separate from independent and human review.

@@ -53,6 +53,10 @@ A fictional study enrolls twenty people. Six never receive the product. Of fourt
 
 These descriptions do not establish the missing participants' outcomes. The first two count **observed** responses; calling everyone else a confirmed non-responder would add an unsupported assumption. A protocol may define an analysis that treats missing assessments as non-response. Report that rule and its sensitivity analyses rather than silently improvising one. [CONSORT 2025: participant flow and analysis counts](https://www.bmj.com/content/389/bmj-2024-081124).
 
+<img src="./images/analysis-population-denominators-v1-light.svg" alt="Three count strips show the same five observed responses among twenty enrolled, fourteen treated and ten scan-evaluable people. Five other evaluable scans did not meet the response rule, four treated people lack evaluable scans, and six were not treated; these last two groups have no supplied response outcome." width="390" height="720" data-theme-pair>
+
+*Fictional data: the same five observed responses give 5/20, 5/14 and 5/10 because the counted group changes. Scan-evaluable people are a subset of treated people, who are a subset of enrolled people. Four treated people lack an evaluable scan; six were not treated. Neither group’s response outcomes are supplied.*
+
 Now take a separate, complete fictional cohort of one hundred people: twenty have recurrence, and five of those twenty have brain involvement. The proportion with brain involvement **among those with recurrence** is 5/20 = 25%. The proportion **among the original cohort** is 5/100 = 5%. Neither number is a personal forecast.
 
 ## Try it

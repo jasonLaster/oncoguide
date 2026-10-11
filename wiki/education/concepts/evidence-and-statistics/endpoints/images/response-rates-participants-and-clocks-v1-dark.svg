@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1500" viewBox="0 0 780 1500" role="img" aria-labelledby="title desc" data-theme="dark">
+<title id="title">Same 20, different response rules</title>
+<desc id="desc">Three independent endpoint charts repeat all twenty fictional assessed participants. ORR6/20=30%; week8DCR14/20=70%; protocol-definedCBR9/20=45%. The24week threshold applies only to stable disease; no individual history is implied.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="780" height="1500" rx="20" fill="#17252D"/>
+<text x="36" y="56" font-size="44" font-weight="700" fill="#F0F2EF">Same 20, different rules</text>
+<text x="36" y="104" font-size="32" font-weight="400" fill="#CDD8DD">Fictional study • all 20 assessed</text>
+<text x="36" y="145" font-size="32" font-weight="400" fill="#CDD8DD">0 unassessed • each mark = 1 person</text>
+<g id="ORR" data-denominator="20" data-numerator="6">
+<rect x="24" y="178" width="732" height="284" rx="22" fill="#21323D" stroke="#526976" stroke-width="2"/>
+<text x="44" y="222" font-size="36" font-weight="650" fill="#F0F2EF">Objective response rate</text>
+<text x="44" y="266" font-size="40" font-weight="700" fill="#F0F2EF">6 / 20 = 30%</text>
+<text x="44" y="307" font-size="32" font-weight="400" fill="#F0F2EF">Confirmed CR + PR</text>
+<g class="participant" data-slot="1" data-group="confirmed-cr" data-counted="true">
+<rect x="55" y="319" width="42" height="42" rx="8" fill="#91CEE0" stroke="#91CEE0" stroke-width="3"/>
+<path d="M 66 340 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="2" data-group="confirmed-cr" data-counted="true">
+<rect x="125" y="319" width="42" height="42" rx="8" fill="#91CEE0" stroke="#91CEE0" stroke-width="3"/>
+<path d="M 136 340 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="3" data-group="confirmed-pr" data-counted="true">
+<rect x="192" y="324" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 206 340 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="4" data-group="confirmed-pr" data-counted="true">
+<rect x="262" y="324" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 276 340 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="5" data-group="confirmed-pr" data-counted="true">
+<rect x="332" y="324" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 346 340 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="6" data-group="confirmed-pr" data-counted="true">
+<rect x="402" y="324" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 416 340 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="7" data-group="sd-through-week24" data-counted="false">
+<path d="M 496 316 L 520 340 L 496 364 L 472 340 Z" fill="#21323D" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 486 340 h 20" fill="none" stroke="#D8B58B" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="8" data-group="sd-through-week24" data-counted="false">
+<path d="M 566 316 L 590 340 L 566 364 L 542 340 Z" fill="#21323D" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 556 340 h 20" fill="none" stroke="#D8B58B" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="9" data-group="sd-through-week24" data-counted="false">
+<path d="M 636 316 L 660 340 L 636 364 L 612 340 Z" fill="#21323D" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 626 340 h 20" fill="none" stroke="#D8B58B" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="10" data-group="other-week8-sd" data-counted="false">
+<path d="M 683 340 L 694 319 L 718 319 L 729 340 L 718 361 L 694 361 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 696 340 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="11" data-group="other-week8-sd" data-counted="false">
+<path d="M 53 392 L 64 371 L 88 371 L 99 392 L 88 413 L 64 413 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 66 392 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="12" data-group="other-week8-sd" data-counted="false">
+<path d="M 123 392 L 134 371 L 158 371 L 169 392 L 158 413 L 134 413 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 136 392 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="13" data-group="other-week8-sd" data-counted="false">
+<path d="M 193 392 L 204 371 L 228 371 L 239 392 L 228 413 L 204 413 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 206 392 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="14" data-group="other-week8-sd" data-counted="false">
+<path d="M 263 392 L 274 371 L 298 371 L 309 392 L 298 413 L 274 413 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 276 392 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="15" data-group="outside-week8-control" data-counted="false">
+<circle cx="356" cy="392" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 346 392 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="16" data-group="outside-week8-control" data-counted="false">
+<circle cx="426" cy="392" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 416 392 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="17" data-group="outside-week8-control" data-counted="false">
+<circle cx="496" cy="392" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 486 392 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="18" data-group="outside-week8-control" data-counted="false">
+<circle cx="566" cy="392" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 556 392 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="19" data-group="outside-week8-control" data-counted="false">
+<circle cx="636" cy="392" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 626 392 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="20" data-group="outside-week8-control" data-counted="false">
+<circle cx="706" cy="392" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 696 392 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<text x="44" y="443" font-size="30" font-weight="400" fill="#CDD8DD">Follow-up window not supplied</text>
+</g>
+<g id="week8DCR" data-denominator="20" data-numerator="14">
+<rect x="24" y="482" width="732" height="284" rx="22" fill="#21323D" stroke="#526976" stroke-width="2"/>
+<text x="44" y="526" font-size="36" font-weight="650" fill="#F0F2EF">Disease control at week 8</text>
+<text x="44" y="570" font-size="40" font-weight="700" fill="#F0F2EF">14 / 20 = 70%</text>
+<text x="44" y="611" font-size="32" font-weight="400" fill="#F0F2EF">Week-8 CR + PR + SD</text>
+<g class="participant" data-slot="1" data-group="confirmed-cr" data-counted="true">
+<rect x="55" y="623" width="42" height="42" rx="8" fill="#91CEE0" stroke="#91CEE0" stroke-width="3"/>
+<path d="M 66 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="2" data-group="confirmed-cr" data-counted="true">
+<rect x="125" y="623" width="42" height="42" rx="8" fill="#91CEE0" stroke="#91CEE0" stroke-width="3"/>
+<path d="M 136 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="3" data-group="confirmed-pr" data-counted="true">
+<rect x="192" y="628" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 206 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="4" data-group="confirmed-pr" data-counted="true">
+<rect x="262" y="628" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 276 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="5" data-group="confirmed-pr" data-counted="true">
+<rect x="332" y="628" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 346 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="6" data-group="confirmed-pr" data-counted="true">
+<rect x="402" y="628" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 416 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="7" data-group="sd-through-week24" data-counted="true">
+<path d="M 496 620 L 520 644 L 496 668 L 472 644 Z" fill="#D8B58B" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 486 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="8" data-group="sd-through-week24" data-counted="true">
+<path d="M 566 620 L 590 644 L 566 668 L 542 644 Z" fill="#D8B58B" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 556 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="9" data-group="sd-through-week24" data-counted="true">
+<path d="M 636 620 L 660 644 L 636 668 L 612 644 Z" fill="#D8B58B" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 626 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="10" data-group="other-week8-sd" data-counted="true">
+<path d="M 683 644 L 694 623 L 718 623 L 729 644 L 718 665 L 694 665 Z" fill="#B7CCE1" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 696 644 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="11" data-group="other-week8-sd" data-counted="true">
+<path d="M 53 696 L 64 675 L 88 675 L 99 696 L 88 717 L 64 717 Z" fill="#B7CCE1" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 66 696 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="12" data-group="other-week8-sd" data-counted="true">
+<path d="M 123 696 L 134 675 L 158 675 L 169 696 L 158 717 L 134 717 Z" fill="#B7CCE1" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 136 696 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="13" data-group="other-week8-sd" data-counted="true">
+<path d="M 193 696 L 204 675 L 228 675 L 239 696 L 228 717 L 204 717 Z" fill="#B7CCE1" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 206 696 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="14" data-group="other-week8-sd" data-counted="true">
+<path d="M 263 696 L 274 675 L 298 675 L 309 696 L 298 717 L 274 717 Z" fill="#B7CCE1" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 276 696 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="15" data-group="outside-week8-control" data-counted="false">
+<circle cx="356" cy="696" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 346 696 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="16" data-group="outside-week8-control" data-counted="false">
+<circle cx="426" cy="696" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 416 696 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="17" data-group="outside-week8-control" data-counted="false">
+<circle cx="496" cy="696" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 486 696 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="18" data-group="outside-week8-control" data-counted="false">
+<circle cx="566" cy="696" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 556 696 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="19" data-group="outside-week8-control" data-counted="false">
+<circle cx="636" cy="696" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 626 696 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="20" data-group="outside-week8-control" data-counted="false">
+<circle cx="706" cy="696" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 696 696 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<text x="44" y="747" font-size="30" font-weight="400" fill="#CDD8DD">Fixed assessment: week 8</text>
+</g>
+<g id="durableSDCBR" data-denominator="20" data-numerator="9">
+<rect x="24" y="786" width="732" height="340" rx="22" fill="#21323D" stroke="#526976" stroke-width="2"/>
+<text x="44" y="830" font-size="36" font-weight="650" fill="#F0F2EF">Protocol-defined clinical benefit</text>
+<text x="44" y="874" font-size="40" font-weight="700" fill="#F0F2EF">9 / 20 = 45%</text>
+<text x="44" y="915" font-size="32" font-weight="400" fill="#F0F2EF">Confirmed CR + PR OR</text>
+<text x="44" y="951" font-size="32" font-weight="400" fill="#F0F2EF">SD ≥ 24 weeks</text>
+<g class="participant" data-slot="1" data-group="confirmed-cr" data-counted="true">
+<rect x="55" y="963" width="42" height="42" rx="8" fill="#91CEE0" stroke="#91CEE0" stroke-width="3"/>
+<path d="M 66 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="2" data-group="confirmed-cr" data-counted="true">
+<rect x="125" y="963" width="42" height="42" rx="8" fill="#91CEE0" stroke="#91CEE0" stroke-width="3"/>
+<path d="M 136 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="3" data-group="confirmed-pr" data-counted="true">
+<rect x="192" y="968" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 206 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="4" data-group="confirmed-pr" data-counted="true">
+<rect x="262" y="968" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 276 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="5" data-group="confirmed-pr" data-counted="true">
+<rect x="332" y="968" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 346 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="6" data-group="confirmed-pr" data-counted="true">
+<rect x="402" y="968" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+<path d="M 416 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="7" data-group="sd-through-week24" data-counted="true">
+<path d="M 496 960 L 520 984 L 496 1008 L 472 984 Z" fill="#D8B58B" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 486 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="8" data-group="sd-through-week24" data-counted="true">
+<path d="M 566 960 L 590 984 L 566 1008 L 542 984 Z" fill="#D8B58B" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 556 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="9" data-group="sd-through-week24" data-counted="true">
+<path d="M 636 960 L 660 984 L 636 1008 L 612 984 Z" fill="#D8B58B" stroke="#D8B58B" stroke-width="3"/>
+<path d="M 626 984 l 7 7 l 14 -16" fill="none" stroke="#17252D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="participant" data-slot="10" data-group="other-week8-sd" data-counted="false">
+<path d="M 683 984 L 694 963 L 718 963 L 729 984 L 718 1005 L 694 1005 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 696 984 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="11" data-group="other-week8-sd" data-counted="false">
+<path d="M 53 1036 L 64 1015 L 88 1015 L 99 1036 L 88 1057 L 64 1057 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 66 1036 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="12" data-group="other-week8-sd" data-counted="false">
+<path d="M 123 1036 L 134 1015 L 158 1015 L 169 1036 L 158 1057 L 134 1057 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 136 1036 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="13" data-group="other-week8-sd" data-counted="false">
+<path d="M 193 1036 L 204 1015 L 228 1015 L 239 1036 L 228 1057 L 204 1057 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 206 1036 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="14" data-group="other-week8-sd" data-counted="false">
+<path d="M 263 1036 L 274 1015 L 298 1015 L 309 1036 L 298 1057 L 274 1057 Z" fill="#21323D" stroke="#B7CCE1" stroke-width="3"/>
+<path d="M 276 1036 h 20" fill="none" stroke="#B7CCE1" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="15" data-group="outside-week8-control" data-counted="false">
+<circle cx="356" cy="1036" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 346 1036 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="16" data-group="outside-week8-control" data-counted="false">
+<circle cx="426" cy="1036" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 416 1036 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="17" data-group="outside-week8-control" data-counted="false">
+<circle cx="496" cy="1036" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 486 1036 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="18" data-group="outside-week8-control" data-counted="false">
+<circle cx="566" cy="1036" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 556 1036 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="19" data-group="outside-week8-control" data-counted="false">
+<circle cx="636" cy="1036" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 626 1036 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="participant" data-slot="20" data-group="outside-week8-control" data-counted="false">
+<circle cx="706" cy="1036" r="21" fill="#21323D" stroke="#B9C7CE" stroke-width="3"/>
+<path d="M 696 1036 h 20" fill="none" stroke="#B9C7CE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<text x="44" y="1107" font-size="30" font-weight="400" fill="#CDD8DD">24-week threshold on SD only</text>
+</g>
+<text x="36" y="1170" font-size="32" font-weight="650" fill="#F0F2EF">The same groups in every panel</text>
+<g class="legend-item">
+<g transform="translate(58 1198) scale(0.72) translate(-58 -1198)">
+<rect x="37" y="1177" width="42" height="42" rx="8" fill="#91CEE0" stroke="#91CEE0" stroke-width="3"/>
+</g>
+<text x="98" y="1208" font-size="30" font-weight="400" fill="#F0F2EF">2 confirmed complete responses (CR)</text>
+</g>
+<g class="legend-item">
+<g transform="translate(58 1237) scale(0.72) translate(-58 -1237)">
+<rect x="34" y="1221" width="48" height="32" rx="16" fill="#C3B3D9" stroke="#C3B3D9" stroke-width="3"/>
+</g>
+<text x="98" y="1247" font-size="30" font-weight="400" fill="#F0F2EF">4 confirmed partial responses (PR)</text>
+</g>
+<g class="legend-item">
+<g transform="translate(58 1276) scale(0.72) translate(-58 -1276)">
+<path d="M 58 1252 L 82 1276 L 58 1300 L 34 1276 Z" fill="#D8B58B" stroke="#D8B58B" stroke-width="3"/>
+</g>
+<text x="98" y="1286" font-size="30" font-weight="400" fill="#F0F2EF">3 week-8 SD; qualifies through week 24</text>
+</g>
+<g class="legend-item">
+<g transform="translate(58 1315) scale(0.72) translate(-58 -1315)">
+<path d="M 35 1315 L 46 1294 L 70 1294 L 81 1315 L 70 1336 L 46 1336 Z" fill="#B7CCE1" stroke="#B7CCE1" stroke-width="3"/>
+</g>
+<text x="98" y="1325" font-size="30" font-weight="400" fill="#F0F2EF">5 other week-8 stable disease (SD)</text>
+</g>
+<g class="legend-item">
+<g transform="translate(58 1354) scale(0.72) translate(-58 -1354)">
+<circle cx="58" cy="1354" r="21" fill="#B9C7CE" stroke="#B9C7CE" stroke-width="3"/>
+</g>
+<text x="98" y="1364" font-size="30" font-weight="400" fill="#F0F2EF">6 other assessed outcomes</text>
+</g>
+<text x="36" y="1430" font-size="30" font-weight="400" fill="#F0F2EF">✓ Counts here • — does not count here</text>
+<text x="36" y="1474" font-size="32" font-weight="650" fill="#F0F2EF">All 20 stay in each denominator</text>
+</g>
+</svg>

@@ -1,0 +1,375 @@
+ORIGINAL EDITABLE VECTOR RECIPE / FULL REPRODUCTION SOURCE
+No image model was used. Original SVG authored by Codex assistant and rendered with Python standard library.
+Source commit: 95a095c980ed6973221de8544b2838ce5003f7a5
+Owner before SHA256: 090fdd83fd5eab530b86de22cdfbc898b9176acdf5d2e7f677f5c47bd4f6aa70
+Accepted independent scoped brief review SHA256: 4d66a39005b881405ae56d6ce0360f48543d746f936ac6b426be2566cff83a6c
+All20 assessed,0 unassessed;24week threshold is SD-only. Anonymous glyph slots are counting aids, not patient records.
+Portable reproduction command: python3 wiki/education/concepts/evidence-and-statistics/endpoints/images/source/response-rates-participants-and-clocks-v1/render-chart.py wiki/education/concepts/evidence-and-statistics/endpoints/images
+Source custody: primary-web-receipt.json is raw tool text. RECIST4.6.1–4.6.3 printed locator is p236; historical originals preserved. Selected sections and indexed study excerpts only; no full-paper recertification.
+
+===== ACCEPTED BRIEF =====
+
+# Count the same participants under different clocks
+
+**Proposed source-bound chart brief only.** Frozen `brief-048`, reviewer task `response-rate-denominators`, P1 chart, target `## Try it` in `wiki/education/concepts/evidence-and-statistics/endpoints/response-rates.md`. Current owner SHA256 `090fdd83fd5eab530b86de22cdfbc898b9176acdf5d2e7f677f5c47bd4f6aa70` equals the frozen task hash and committed source `95a095c980ed6973221de8544b2838ce5003f7a5`. Public metadata was checked before the full body; expert and learner review remain pending.
+
+Teach one task: identify who counts, keep all 20 in the denominator, and attach each endpoint's own rule and clock. Use the current fictional exercise only.
+
+| Independent endpoint | Supplied numerator rule | Arithmetic |
+|---|---|---|
+| Objective response rate | Confirmed complete + partial response | (2 + 4) / 20 = 30% |
+| Disease control at week 8 | Complete + partial response + stable disease at week 8 | (2 + 4 + 8) / 20 = 70% |
+| Protocol-defined clinical benefit | Confirmed complete + partial response OR stable disease lasting at least 24 weeks | (2 + 4 + 3) / 20 = 45% |
+
+The 24-week threshold belongs to the stable-disease branch; do not impose it on complete/partial responses. The exercise does not provide an exact ORR follow-up window or confirmation dates. Leave them unspecified. These three rates happen to have overlapping qualifying groups in this fictional example; no general nested endpoint hierarchy follows.
+
+Use three independently labeled, vertically stacked unit charts. Each repeats 20 anonymous display markers grouped by supplied counts: 2 confirmed complete responses, 4 partial responses, 3 stable-disease cases qualifying through week 24, 5 other week-8 stable-disease cases, and 6 other assessed outcomes. Marker position is a counting aid, not a patient ID or history. Counted and noncounted markers have different shapes/ink, while all remain visible. Show each formula, the 20 denominator and the applicable clock beside its chart. Keep the same geometry, labels and quantities in light/dark SVGs from one deterministic plotting/data source.
+
+Do not draw trajectories, lesion shrinkage, censoring, survival curves or progression dates. The other six outcomes are not specified; the later fates/times of the five nonqualifying stable-disease cases are not specified. No confidence-interval method is supplied. A figure must not fill in those gaps.
+
+The frozen reviewer scene suggested displaying unassessed participants. The actual exercise says everyone has complete assessments. Preserve the frozen record; resolve its scene against the current source by showing **all 20 assessed, zero unassessed**. Independent source review must accept this interpretation; do not invent missing cases to satisfy the scene wording.
+
+Insert the eventual chart plus exact alt/caption once, after the original worked answer. `insert.patch` and `inverse.patch` preserve every original byte; the inverse is proven to restore the full page. Planned SVG references are absent, so `response-rates.after-proposal.md` is a review proposal, not a publication candidate.
+
+The existing definition table stays. Adjacent Kaplan–Meier artwork depicts a different five-person censor/risk-set example; it cannot supply these data or geometry. Response-criteria teaching remains with its canonical owner. The current source-fit and released-gap records contain no response-rates owner update; keep `brief-048` identity and add no credit.
+
+Relevant official/primary source checks were bounded: [FDA endpoint guidance, section III.B.2](https://www.fda.gov/media/71195/download) supports CR/PR-only ORR; [RECIST 1.1, sections 4.6.1–4.6.3](https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf) supports specified confirmation and protocol-defined duration rules. Primary Gucalp/Traina abstract/design search excerpts confirm their different definitions; direct PubMed/PMC retrieval was challenged, so no full-paper recertification is claimed. Neither study supplies the fictional chart data.
+
+Independent acceptance must recompute all rates, check every displayed count/rule/clock, approve the frozen-scene resolution, verify source access limitations and the exact insertion/inverse. Root selection precedes chart generation. Actual native/mobile/theme/both-reader/release receipts and human review remain separate. No images, canonical changes or coverage credit are produced by this brief.
+
+
+===== ACCEPTED CHART SPECIFICATION =====
+
+{
+  "question": "Which participants count under each endpoint, and which clock applies?",
+  "format": "Three independently labeled stacked unit charts; exact marker counts generated from chart-data.json using standard plotting or deterministic SVG, never an image model for numeric placement.",
+  "panelCount": 3,
+  "labels": [
+    {
+      "heading": "Objective response rate",
+      "rule": "Confirmed CR + PR",
+      "result": "6 / 20 = 30%",
+      "clock": "Confirmed responses; follow-up window not supplied"
+    },
+    {
+      "heading": "Disease control at week 8",
+      "rule": "Week-8 CR + PR + SD",
+      "result": "14 / 20 = 70%",
+      "clock": "Fixed assessment: week 8"
+    },
+    {
+      "heading": "Protocol-defined clinical benefit",
+      "rule": "Confirmed CR + PR OR SD \u2265 24 weeks",
+      "result": "9 / 20 = 45%",
+      "clock": "24-week threshold on SD only"
+    }
+  ],
+  "markerRules": {
+    "eachPanelMarkers": 20,
+    "groupOrder": [
+      "confirmed-cr",
+      "confirmed-pr",
+      "sd-through-week24",
+      "other-week8-sd",
+      "outside-week8-control"
+    ],
+    "groupCounts": [
+      2,
+      4,
+      3,
+      5,
+      6
+    ],
+    "layout": "Two rows of ten anonymous markers per endpoint; deterministic order is a counting aid, not observed patient order.",
+    "inclusion": "Counted markers solid with a check shape; noncounted markers outlined with dash shape, still visible. Colors and patterns reinforce category legend; no efficacy/safety moral coding.",
+    "categoryLegend": "2 confirmed CR; 4 confirmed PR; 3 week-8 SD qualifying through week24; 5 other week-8 SD; 6 other assessed outcomes. No PD/missing label for the six; no fate for the five.",
+    "noTimeline": "Use time callouts, not trajectories, swimlanes, survival curves, censor ticks or interpolation. Aggregate facts cannot support those."
+  },
+  "mobileDesign": {
+    "plannedViewBox": [
+      0,
+      0,
+      780,
+      1500
+    ],
+    "maximumEmbeddedWidthCSSpx": 520,
+    "targetViewportCSSpx": 390,
+    "nativeMinimumLabelSize": 26,
+    "expectedMinimumDisplayedLabelPxAt390": 13,
+    "layout": "Vertical flow without horizontal scroll; wrapped exact rules; rows remain same length and mark size.",
+    "actualReadability": "pending generation/native and embedded review; planning dimensions are not pixel certification"
+  },
+  "themePair": "One deterministic geometry/data source generates both SVG themes with identical objects, ordering, counts, labels and clocks; only ink/background/palette change. Embed through data-theme-pair.",
+  "reuse": {
+    "activeOwnerVisuals": "None: no raster, SVG, Mermaid or interactive on this owner; existing endpoint-definition table remains.",
+    "adjacentKaplanMeier": "Reuse typographic/palette conventions only if independently inspected; do not reuse the five-person recurrence/censor data or curve geometry. Its changing risk-set denominator would teach a different task.",
+    "responseCriteria": "Route criteria details to the canonical linked response-criteria concept; no additional RECIST threshold scene or lesson rewrite.",
+    "sourceFitDuplicates": "No response-rates.md owner record found in current source-fit-updates or gap-production-status; task remains brief048, not a new registry identity."
+  },
+  "frozenSceneAdaptation": {
+    "frozenInstruction": "Display the owner fictional analyzed cohort, with unassessed participants visible.",
+    "sourceResolution": "Current owner states everyone has complete assessments. Show all20 markers and all20 denominator; label All20 assessed. Do not invent unassessed cases. Frozen record remains unchanged; independent source reviewer must approve this source-bound panel interpretation."
+  },
+  "negativeConstraints": [
+    "No new participant-level/lesion/time data",
+    "No progression category or progression dates invented for residual six",
+    "No later fate or dates invented for five nonqualifying SD cases",
+    "No mandatory 24-week duration applied to CR/PR",
+    "No universal CBR duration",
+    "No evaluable-only denominator or removed excluded participants",
+    "No nested efficacy hierarchy or treatment ranking",
+    "No ORR window invented",
+    "No survival/symptom/QOL claim or cure icon",
+    "No CI calculated without a specified method",
+    "No chart art generated before root selection"
+  ]
+}
+
+
+===== ACCEPTED AGGREGATE DATA =====
+
+{
+  "fictional": true,
+  "sourceOwner": "wiki/education/concepts/evidence-and-statistics/endpoints/response-rates.md",
+  "sourceSection": "## Try it",
+  "datasetScope": "Aggregate fictional counts already in the page; no new patient/lesion-level measurements",
+  "denominator": 20,
+  "allHaveCompleteAssessments": true,
+  "unassessedCount": 0,
+  "groups": [
+    {
+      "key": "confirmed-cr",
+      "count": 2,
+      "label": "Confirmed complete response",
+      "source": "two have confirmed CR",
+      "qualifies": {
+        "ORR": true,
+        "week8DCR": true,
+        "durableSDCBR": true
+      }
+    },
+    {
+      "key": "confirmed-pr",
+      "count": 4,
+      "label": "Confirmed partial response",
+      "source": "four confirmed PR",
+      "qualifies": {
+        "ORR": true,
+        "week8DCR": true,
+        "durableSDCBR": true
+      }
+    },
+    {
+      "key": "sd-through-week24",
+      "count": 3,
+      "label": "Week-8 SD; qualifies through week 24",
+      "source": "Only three of those eight retain qualifying SD through week 24",
+      "qualifies": {
+        "ORR": false,
+        "week8DCR": true,
+        "durableSDCBR": true
+      }
+    },
+    {
+      "key": "other-week8-sd",
+      "count": 5,
+      "label": "Other week-8 stable disease",
+      "source": "8 week-8 SD minus 3 qualifying through week24; no later state/time specified",
+      "qualifies": {
+        "ORR": false,
+        "week8DCR": true,
+        "durableSDCBR": false
+      }
+    },
+    {
+      "key": "outside-week8-control",
+      "count": 6,
+      "label": "Other assessed outcomes",
+      "source": "20 minus (2+4+8); exact categories unspecified",
+      "qualifies": {
+        "ORR": false,
+        "week8DCR": false,
+        "durableSDCBR": false
+      }
+    }
+  ],
+  "endpoints": [
+    {
+      "key": "ORR",
+      "expanded": "Objective response rate",
+      "rule": "Confirmed CR + confirmed PR",
+      "timeRule": {
+        "confirmed": true,
+        "responseFollowUpWindowWeeks": null,
+        "windowStatus": "not supplied; do not invent",
+        "stableDiseaseQualifies": false
+      },
+      "count": 6,
+      "denominator": 20,
+      "percent": 30
+    },
+    {
+      "key": "week8DCR",
+      "expanded": "Disease control rate at week 8",
+      "rule": "CR + PR + SD at week 8",
+      "timeRule": {
+        "assessmentWeek": 8,
+        "stableDiseaseMinimumWeeksForThisCalculation": null,
+        "minimumStatus": "Use week-8 rule supplied by the toy protocol; do not import a separate 24-week rule"
+      },
+      "count": 14,
+      "denominator": 20,
+      "percent": 70
+    },
+    {
+      "key": "durableSDCBR",
+      "expanded": "Protocol-defined clinical benefit rate",
+      "rule": "Confirmed CR + confirmed PR OR qualifying SD lasting at least 24 weeks",
+      "timeRule": {
+        "stableDiseaseThresholdWeeks": 24,
+        "stableDiseaseComparator": ">=",
+        "thresholdAppliesTo": "SD branch only",
+        "responseBranches": "Confirmed CR/PR as supplied; no extra 24-week CR/PR-duration rule"
+      },
+      "count": 9,
+      "denominator": 20,
+      "percent": 45
+    }
+  ],
+  "arithmetic": {
+    "ORR": "(2 + 4) / 20 = 30%",
+    "week8DCR": "(2 + 4 + 8) / 20 = 70%",
+    "durableSDCBR": "(2 + 4 + 3) / 20 = 45%"
+  },
+  "notSupplied": [
+    "Individual identifiers",
+    "Lesion sizes or shrinkage magnitudes",
+    "Response/confirmation dates",
+    "Exact scan schedule or intermediate dates",
+    "Specific categories for six other participants",
+    "Outcome or time for the five SD cases not qualifying at week24",
+    "ORR data-cutoff/follow-up window",
+    "Survival, symptoms or quality of life",
+    "Confidence-interval method"
+  ],
+  "displaySlotPolicy": "A glyph is one anonymous display slot from an aggregate count, not a fictional patient record. Repeat the same group order for all endpoints; do not assign IDs or histories."
+}
+
+
+===== EXACT ORIGINAL VECTOR PROGRAM =====
+
+#!/usr/bin/env python3
+"""Original editable vector authorship; standard Python only, no model/images."""
+from pathlib import Path
+from html import escape
+import json
+import sys
+
+ROOT = Path(__file__).resolve().parent
+DATA = json.loads((ROOT/'chart-data.json').read_text())
+SPEC = json.loads((ROOT/'chart-spec.json').read_text())
+STEM = 'response-rates-participants-and-clocks-v1'
+PALETTES = {
+    'light': {'ground':'#FBF8F1','panel':'#FFFFFF','ink':'#21333E','muted':'#425A68','edge':'#CBD3D4','groups':['#2C657E','#705E8C','#8B6541','#596D82','#5C6569'],'check':'#FFFFFF'},
+    'dark': {'ground':'#17252D','panel':'#21323D','ink':'#F0F2EF','muted':'#CDD8DD','edge':'#526976','groups':['#91CEE0','#C3B3D9','#D8B58B','#B7CCE1','#B9C7CE'],'check':'#17252D'}
+}
+
+def render(theme):
+    p=PALETTES[theme]
+    elements=[]
+    def text(x,y,content,size=32,weight=400,color=None):
+        elements.append(f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" fill="{color or p["ink"]}">{escape(content)}</text>')
+    def shape(cx,cy,group,counted,legend=False):
+        fill = p['groups'][group] if counted else p['panel']
+        stroke = p['groups'][group]
+        common=f'fill="{fill}" stroke="{stroke}" stroke-width="3"'
+        # Category geometry remains recognizable without color.
+        if group==0:
+            elem=f'<rect x="{cx-21}" y="{cy-21}" width="42" height="42" rx="8" {common}/>'
+        elif group==1:
+            elem=f'<rect x="{cx-24}" y="{cy-16}" width="48" height="32" rx="16" {common}/>'
+        elif group==2:
+            elem=f'<path d="M {cx} {cy-24} L {cx+24} {cy} L {cx} {cy+24} L {cx-24} {cy} Z" {common}/>'
+        elif group==3:
+            elem=f'<path d="M {cx-23} {cy} L {cx-12} {cy-21} L {cx+12} {cy-21} L {cx+23} {cy} L {cx+12} {cy+21} L {cx-12} {cy+21} Z" {common}/>'
+        else:
+            elem=f'<circle cx="{cx}" cy="{cy}" r="21" {common}/>'
+        if legend:
+            elements.append(f'<g transform="translate({cx} {cy}) scale(0.72) translate({-cx} {-cy})">')
+        elements.append(elem)
+        if legend:
+            elements.append('</g>')
+        if not legend:
+            ink=p['check'] if counted else stroke
+            if counted:
+                elements.append(f'<path d="M {cx-10} {cy} l 7 7 l 14 -16" fill="none" stroke="{ink}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>')
+            else:
+                elements.append(f'<path d="M {cx-10} {cy} h 20" fill="none" stroke="{ink}" stroke-width="4" stroke-linecap="round"/>')
+    elements.append(f'<rect width="780" height="1500" rx="20" fill="{p["ground"]}"/>')
+    text(36,56,'Same 20, different rules',44,700)
+    text(36,104,'Fictional study • all 20 assessed',32,color=p['muted'])
+    text(36,145,'0 unassessed • each mark = 1 person',32,color=p['muted'])
+    group_order=[]
+    for i,g in enumerate(DATA['groups']): group_order.extend([i]*g['count'])
+    positions=[(76+(i%10)*70, i//10) for i in range(20)]
+    for panel,(endpoint,label,y,h) in enumerate(zip(DATA['endpoints'],SPEC['labels'],[178,482,786],[284,284,340])):
+        elements.append(f'<g id="{endpoint["key"]}" data-denominator="20" data-numerator="{endpoint["count"]}">')
+        elements.append(f'<rect x="24" y="{y}" width="732" height="{h}" rx="22" fill="{p["panel"]}" stroke="{p["edge"]}" stroke-width="2"/>')
+        text(44,y+44,label['heading'],36,650)
+        text(44,y+88,label['result'],40,700)
+        if panel<2:
+            text(44,y+129,label['rule'],32)
+            rowbase=y+162
+        else:
+            text(44,y+129,'Confirmed CR + PR OR',32)
+            text(44,y+165,'SD ≥ 24 weeks',32)
+            rowbase=y+198
+        for i,((x,row),g) in enumerate(zip(positions,group_order)):
+            counted=DATA['groups'][g]['qualifies'][endpoint['key']]
+            elements.append(f'<g class="participant" data-slot="{i+1}" data-group="{DATA["groups"][g]["key"]}" data-counted="{str(counted).lower()}">')
+            shape(x,rowbase+row*52,g,counted)
+            elements.append('</g>')
+        clock=['Follow-up window not supplied','Fixed assessment: week 8','24-week threshold on SD only'][panel]
+        text(44,y+h-19,clock,30,color=p['muted'])
+        elements.append('</g>')
+    text(36,1170,'The same groups in every panel',32,650)
+    legend=['2 confirmed complete responses (CR)','4 confirmed partial responses (PR)','3 week-8 SD; qualifies through week 24','5 other week-8 stable disease (SD)','6 other assessed outcomes']
+    for i,txt in enumerate(legend):
+        cy=1208+i*39
+        elements.append('<g class="legend-item">')
+        shape(58,cy-10,i,True,legend=True)
+        text(98,cy,txt,30)
+        elements.append('</g>')
+    text(36,1430,'✓ Counts here • — does not count here',30)
+    text(36,1474,'All 20 stay in each denominator',32,650)
+    description='Three independent endpoint charts repeat all twenty fictional assessed participants. ORR6/20=30%; week8DCR14/20=70%; protocol-definedCBR9/20=45%. The24week threshold applies only to stable disease; no individual history is implied.'
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1500" viewBox="0 0 780 1500" role="img" aria-labelledby="title desc" data-theme="{theme}">
+<title id="title">Same 20, different response rules</title>
+<desc id="desc">{escape(description)}</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+{chr(10).join(elements)}
+</g>
+</svg>
+'''
+
+if __name__=='__main__':
+    out=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'assets'
+    out.mkdir(parents=True,exist_ok=True)
+    for theme in PALETTES:
+        (out/f'{STEM}-{theme}.svg').write_text(render(theme))
+    print('Rendered original editable light/dark SVGs from shared geometry/data; palette-only variants.')
+
+
+===== REPRODUCTION ENVIRONMENT =====
+
+{
+  "runtime": "Python standard library; no external dependencies",
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "fontStack": "Arial, Helvetica, sans-serif",
+  "originalVectorAuthor": "Codex assistant; original vector paths and text, not image model generation",
+  "browserPixelInspection": "CUA Codex in-app browser screenshots,312 and600 CSSpx, both themes",
+  "numericRenderMethod": "Explicit aggregate glyph mapping from accepted chart-data.json; one shared geometry function; palette tokens only differ",
+  "portableCommand": "python3 wiki/education/concepts/evidence-and-statistics/endpoints/images/source/response-rates-participants-and-clocks-v1/render-chart.py wiki/education/concepts/evidence-and-statistics/endpoints/images"
+}
+

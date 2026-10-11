@@ -43,6 +43,14 @@ A **biological unit** is what you want to draw conclusions about, such as donors
 
 “Biological replicate” usually means independently obtained biological material; “technical replicate” usually means repeated processing or measurement of the same material. The labels are inconsistent across papers, so inspect the actual hierarchy. Wells may be experimental units for a within-culture question, while donors determine breadth across human samples. Independent runs test reproducibility under repeated conditions without adding new donor identities. Treating correlated subsamples as independent is **pseudoreplication**. [Lazic and colleagues, 2018](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005282).
 
+**Fictional design.** Wells are randomised within donor, treated separately and assumed not to affect one another. The balanced allocation below illustrates this design; it is not a sample-size recommendation.
+
+<img src="./images/preclinical-donor-well-cells-v1-light.svg" alt="Two stacked donor panels contain twelve distinct wells: donor A has A1–A6 and donor B has B1–B6. In each panel, wells 1–3 are controls and 4–6 are treated. Each well contains only its own measured-cell group; cell counts are not supplied. Under within-donor random allocation, separate treatment and no mutual influence, wells receive the assignment while analysis retains donor nesting. Twelve wells remain two donor sources; no effect quantities are shown." width="600" height="1740" data-theme-pair>
+
+*Two fictional donor sources supply twelve wells, with three control and three treated wells per donor. Cells stay nested in their own wells; arrows show sampling, not effects. Under the stated allocation assumptions, wells support this within-culture comparison. They do not add donor breadth, and cell counts are unspecified.*
+
+If treatment were assigned to each donor preparation before splitting, the wells would be subsamples. Extra measured cells would not add independently assigned wells.
+
 ```mermaid
 flowchart TD
   A["Model and question"] --> B["Perturbation<br/>and controls"]

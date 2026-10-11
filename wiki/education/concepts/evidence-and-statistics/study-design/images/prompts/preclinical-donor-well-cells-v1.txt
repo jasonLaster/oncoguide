@@ -1,0 +1,111 @@
+Original editable vector specification for brief-054 / independent-unit-hierarchy.
+Root selected portrait SVG reflow; independent new layout review remains pending.
+No image model or raster reference used.
+
+===== FULL PORTABLE spec.json =====
+{
+  "schemaVersion": 1,
+  "layout": "portrait SVG; two vertically stacked donor panels, each containing six well cards arranged control left / treated right, three rows; each well contains one well-specific measured-cell group",
+  "viewBox": [0, 0, 600, 1740],
+  "minimumCoreLabelSize": 26,
+  "secondaryLabelSize": 24,
+  "arrowMeaning": "sampling hierarchy, not treatment effect; arrow goes from well label into its own observation group",
+  "donorMeaning": "two independent biological source identities, not a universal treatment-analysis n",
+  "wellMeaning": "assignment units conditional on within-donor randomisation, independent application, no mutual influence and nested analysis",
+  "cellMeaning": "nested observations with unspecified counts; no cell icons or invented point counts",
+  "palettes": {
+    "light": {"ground": "#faf7f0", "panel": "#eeeae0", "well": "#fffdf7", "observation": "#e5eeeb", "ink": "#26332f", "secondary": "#47564f", "line": "#596d62", "border": "#b5beb4"},
+    "dark": {"ground": "#16201d", "panel": "#202d27", "well": "#28382f", "observation": "#30453b", "ink": "#f4f1e8", "secondary": "#d0dacf", "line": "#a6bcae", "border": "#708c7b"}
+  },
+  "themePolicy": "palette substitutions only; identical text, paths, coordinates, objects, ordering and data",
+  "generation": "original deterministic vector authorship with Python stdlib; no image model, raster reference, biological drawing or empirical data",
+  "pending": ["independent review of changed SVG layout", "both public-reader integration", "human expert and learner review"]
+}
+
+===== FULL PORTABLE data.json =====
+{
+  "fictional": true,
+  "donorCount": 2,
+  "wellCount": 12,
+  "measurementCount": null,
+  "donors": [
+    {"id": "A", "wells": [
+      {"id": "A1", "number": 1, "condition": "control", "cells": null},
+      {"id": "A2", "number": 2, "condition": "control", "cells": null},
+      {"id": "A3", "number": 3, "condition": "control", "cells": null},
+      {"id": "A4", "number": 4, "condition": "treated", "cells": null},
+      {"id": "A5", "number": 5, "condition": "treated", "cells": null},
+      {"id": "A6", "number": 6, "condition": "treated", "cells": null}
+    ]},
+    {"id": "B", "wells": [
+      {"id": "B1", "number": 1, "condition": "control", "cells": null},
+      {"id": "B2", "number": 2, "condition": "control", "cells": null},
+      {"id": "B3", "number": 3, "condition": "control", "cells": null},
+      {"id": "B4", "number": 4, "condition": "treated", "cells": null},
+      {"id": "B5", "number": 5, "condition": "treated", "cells": null},
+      {"id": "B6", "number": 6, "condition": "treated", "cells": null}
+    ]}
+  ],
+  "assumptions": ["random allocation of wells within donor", "separate application of treatment to each well", "no mutual influence of wells on measured outcomes", "analysis retains donor nesting"],
+  "counterfactual": "If treatment is assigned to donor preparations before splitting, wells are subsamples.",
+  "notSupplied": ["cell counts per well", "effect quantities", "dose", "time", "p-values", "power or minimum sample size", "independent repeated runs"]
+}
+
+===== FULL PORTABLE render.py =====
+"""Original deterministic SVG authorship. Python stdlib only; colocated inputs."""
+from pathlib import Path
+import json
+from html import escape
+
+ROOT = Path(__file__).resolve().parent
+data = json.loads((ROOT / 'data.json').read_text())
+spec = json.loads((ROOT / 'spec.json').read_text())
+
+def render(theme):
+    c = spec['palettes'][theme]
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1740" viewBox="0 0 600 1740" role="img" aria-labelledby="title desc">',
+             '<title id="title">Two donor sources, twelve assigned wells, nested cell observations</title>',
+             '<desc id="desc">Fictional design. Donor A supplies wells A1 to A6; donor B supplies B1 to B6. Wells 1 to 3 are controls and wells 4 to 6 are treated within each donor. Each well contains only its own measured-cell group; cell counts are not supplied. Under within-donor random allocation, separate treatment application and no mutual influence, wells receive the assignment and analysis retains donor nesting. Twelve wells do not become twelve donors. If treatment is assigned to donor preparations before splitting, wells are subsamples.</desc>',
+             f'<rect width="600" height="1740" fill="{c["ground"]}"/>',
+             f'<style>text{{font-family:Arial,Helvetica,sans-serif;fill:{c["ink"]}}}.secondary{{fill:{c["secondary"]}}}</style>',
+             f'<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="{c["line"]}"/></marker></defs>']
+    def text(x,y,value,size=26,weight=400,klass='',anchor='start'):
+        parts.append(f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" class="{klass}" text-anchor="{anchor}">{escape(value)}</text>')
+    def rect(x,y,w,h,fill,stroke,rx=18,dash=None,ident=None):
+        extra = (f' stroke-dasharray="{dash}"' if dash else '') + (f' id="{ident}"' if ident else '')
+        parts.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{fill}" stroke="{stroke}" stroke-width="2"{extra}/>')
+    text(28,40,'Fictional design',24,600,'secondary')
+    text(28,88,'What did we count?',38,700)
+    text(28,130,'2 donors → 12 assigned wells',28,600)
+    text(28,170,'Cells stay in their own wells.',26)
+    for i,donor in enumerate(data['donors']):
+        y=202+i*650
+        rect(22,y,556,624,c['panel'],c['border'],24,ident='donor-'+donor['id'])
+        text(44,y+46,'Donor '+donor['id'],34,700)
+        text(44,y+82,'One independent donor source',26,400,'secondary')
+        text(168,y+123,'Control',27,600,anchor='middle')
+        text(432,y+123,'Treated',27,600,anchor='middle')
+        for well in donor['wells']:
+            col=0 if well['condition']=='control' else 1
+            row=(well['number']-1)%3
+            x=44+col*264;wy=y+142+row*156
+            rect(x,wy,248,142,c['well'],c['line'],16,ident='well-'+well['id'])
+            text(x+124,wy+34,'Well '+well['id'],28,700,anchor='middle')
+            parts.append(f'<path id="sampling-{well["id"]}" d="M {x+124} {wy+43} V {wy+63}" fill="none" stroke="{c["line"]}" stroke-width="2.5" marker-end="url(#arrow)"/>')
+            rect(x+10,wy+69,228,63,c['observation'],c['line'],10,'5 4',ident='cells-'+well['id'])
+            text(x+124,wy+95,'Cells in '+well['id'],26,600,anchor='middle')
+            text(x+124,wy+122,'Count not given',24,400,'secondary',anchor='middle')
+    text(28,1536,'Here, wells get the assignment.',27,600)
+    text(28,1576,'Randomised within each donor;',26)
+    text(28,1614,'separate treatment, no mutual influence.',26)
+    text(28,1654,'Keep donor nesting in the analysis.',26)
+    text(28,1706,'More cells do not add donors.',27,600)
+    parts.append('</svg>')
+    return '\n'.join(parts)+'\n'
+
+for theme in ['light','dark']:
+    (ROOT / f'preclinical-donor-well-cells-v1-{theme}.svg').write_text(render(theme))
+
+if __name__ == '__main__':
+    print('Rendered original deterministic paired SVGs; no image model used.')
+
