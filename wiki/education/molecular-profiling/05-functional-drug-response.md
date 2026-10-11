@@ -50,6 +50,11 @@ Some functional tests ask a narrower question. [BH3 profiling](/wiki/education/c
 
 Imagine a fictional experiment begins with 1,000 viable cells in each condition. Later, the vehicle control contains 2,000 cells and the treated condition contains 1,000. The treated count is half the control, yet it is unchanged from the start.
 
+<div class="cartoon-frame">
+<img src="./images/starting-count-and-control-denominators-v1-light.svg" width="600" height="1190" alt="Fictional viable-cell count chart. Both control and treated conditions start at 1,000 cells. Later, control has 2,000 and treated has 1,000, on the same zero-to-2,000 scale. The treated endpoint is 50% of later control and 100% of treated start; these net counts do not show individual cell fates." data-theme-pair>
+<p class="cartoon-caption">Half the later control can equal the full starting count. These fictional counts show no net increase under treatment, not 50% cell killing; division and death still need separate measurements.</p>
+</div>
+
 [Reduction is not regression](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression): that endpoint does not show that half the original cells died. It shows no net increase under treatment. Reduced division is one possible explanation; division balanced by cell death is another. Measuring the start and following the time course helps separate those possibilities. Growth-rate methods address this control-growth problem under their stated assumptions. [Hafner et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/).
 
 [Apoptosis and its B-cell lymphoma 2 (BCL-2) family control](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family), [necrosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis) and [senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence) also need different evidence. A lower endpoint signal cannot assign a death mechanism or establish senescence. Combine suitable viability, division and cell-state measurements with controls. A single marker should not carry the whole interpretation.

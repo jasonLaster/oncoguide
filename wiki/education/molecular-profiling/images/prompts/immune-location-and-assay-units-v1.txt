@@ -1,0 +1,501 @@
+Original editable spatial geography diagram
+
+Method: original stdlib Python SVG authorship. Image model: null (not applicable). No raster-image generation or source-figure tracing. Both themes are drawn by one renderer with identical geometry and words; palette alone differs. Full acquired third-party bodies and literal source selections are not included.
+
+Reproduce in a fresh directory: extract the complete python block below byte-for-byte to render_diagram.py, preserving its one terminal newline, then run python3 -B render_diagram.py OUTPUT_DIR. Expected outputs: immune-location-and-assay-units-v1-light.svg, immune-location-and-assay-units-v1-dark.svg, drawing-source-checks.json. This validates deterministic editable source, not production or human acceptance.
+
+Literal authored composition
+```text
+Create an original editable portrait SVG pair, 600 × 2260 viewBox units, teaching immune geography and assay assignment. Use meaningful rounded tissue/cell objects, calm surfaces, generous clear annotation space and restrained colour. This is an authored schematic, not copied from a source figure or a patient assay.
+
+Use four clearly separated teaching panels. Beside the paired geography scenes, visibly state the separate fictional premise with the exact three lines "Fictional assumption", "Similar bulk immune RNA", "in both regions". This premise is stipulated independently of the equal icon counts, not inferred or calculated from them. Draw no numerical RNA values or measured-data-looking scale. The first two share the same malignant-nest ellipse, six malignant-cell objects, region frame, stroma, and exactly twelve immune-cell objects. In Inflamed, eight immune-cell centers are among the nest and four outside. In Excluded, all twelve are outside. Change immune-cell locations only. Do not imply that equality of illustrative cell counts guarantees equal bulk RNA. Do not draw a wall, attack, cell death, outcome ranking or treatment benefit. Identify the nest contour as a region boundary, not a plasma membrane or proven transport barrier.
+
+The separate capture inset shows a dashed amber circular Unit U overlapping three cell profiles. Its associated blank RNA-counts-for-unit card is an analytical readout, not a cell identity or patient value. The unit is nonliteral platform geometry; no calibrated instrument, micrometre size, count scale, expression intensity or heatmap is permitted.
+
+The separate assignment inset repeats the same nuclei and violet observed-RNA coordinates twice. Two dashed closed estimated-cell-mask contours differ locally at their intercell boundary. One highlighted RNA location falls within the left estimate in Mask estimate 1 and the right estimate in Mask estimate 2. Keep all RNA locations and nuclei fixed apart from the common vertical row translation. A nuclear landmark is not a whole-cell boundary. Do not invent an imputed molecule or label either mask validated truth. Dashed mask contours are analytical estimates, not cell plasma membranes.
+
+Use the exact labels from the brief and coordinate file. Core labels are 32 units or larger with wrapping; actual 312-CSS-pixel review governs acceptance. Fine secondary detail may be 25 units. Every annotation leader lands on its named object. Avoid text over objects or ambiguously landing between them.
+
+Light: warm pale neutral page/cards, rose malignant cells, blue immune cells, subdued amber capture unit and violet RNA/estimated masks. Dark: quiet charcoal/navy surfaces with matching object colours and high legible text contrast. Generate both themes from one original stdlib SVG renderer, identical geometry, words, quantities, boundaries and leaders, palette only. Save full editable source, literal toy data, exact reproduction instructions and SHA custody. No raster editing or image-generation model is involved.
+
+Retain the complete public owner body, frontmatter, method table, sources, practice, and historical assets. Propose one insertion under A worked apparent contradiction, after the existing fictional-specimen paragraph. Expert and learner review remain pending; no source-fit, release or coverage credit comes from this brief or render.
+```
+
+Literal illustrative geometry/data
+```json
+{
+  "schemaVersion": 1,
+  "dimensions": {
+    "width": 600,
+    "height": 2260,
+    "unit": "SVG viewBox units; not tissue micrometres"
+  },
+  "pairedThemeRule": "Identical geometry, labels, object IDs, counts and leader endpoints; palette changes only.",
+  "tissueScene": {
+    "sameInBothRegions": {
+      "nestEllipse": {
+        "cx": 300,
+        "cy": 300,
+        "rx": 168,
+        "ry": 100
+      },
+      "malignantCellCenters": [
+        [
+          240,
+          262
+        ],
+        [
+          302,
+          262
+        ],
+        [
+          364,
+          262
+        ],
+        [
+          220,
+          333
+        ],
+        [
+          290,
+          330
+        ],
+        [
+          358,
+          330
+        ]
+      ],
+      "malignantCellRadius": 23,
+      "immuneCellRadius": 12,
+      "immuneTotal": 12,
+      "malignantTotal": 6,
+      "assessedRegionArea": "same frame; no area scoring"
+    },
+    "inflamedImmuneCenters": [
+      [
+        196,
+        276
+      ],
+      [
+        224,
+        226
+      ],
+      [
+        284,
+        224
+      ],
+      [
+        346,
+        224
+      ],
+      [
+        402,
+        282
+      ],
+      [
+        401,
+        325
+      ],
+      [
+        250,
+        364
+      ],
+      [
+        323,
+        367
+      ],
+      [
+        95,
+        220
+      ],
+      [
+        94,
+        286
+      ],
+      [
+        92,
+        348
+      ],
+      [
+        504,
+        239
+      ]
+    ],
+    "excludedImmuneCenters": [
+      [
+        95,
+        220
+      ],
+      [
+        95,
+        280
+      ],
+      [
+        95,
+        340
+      ],
+      [
+        126,
+        170
+      ],
+      [
+        174,
+        190
+      ],
+      [
+        234,
+        170
+      ],
+      [
+        300,
+        164
+      ],
+      [
+        375,
+        171
+      ],
+      [
+        444,
+        190
+      ],
+      [
+        504,
+        245
+      ],
+      [
+        511,
+        308
+      ],
+      [
+        493,
+        375
+      ]
+    ],
+    "regionalContourMeaning": "Malignant nest boundary, not a cell membrane or physical exclusion barrier.",
+    "panelPlacements": {
+      "inflamed": {
+        "top": 230,
+        "height": 370
+      },
+      "excluded": {
+        "top": 620,
+        "height": 370
+      }
+    },
+    "coordinateTransform": "For each panel draw the local tissue geometry translated by (0, panelTop-140); keep all shared objects identical."
+  },
+  "captureInset": {
+    "top": 1010,
+    "height": 420,
+    "unitCircle": {
+      "cx": 205,
+      "cy": 1230,
+      "r": 83
+    },
+    "cellProfiles": [
+      [
+        145,
+        1210,
+        42
+      ],
+      [
+        227,
+        1194,
+        42
+      ],
+      [
+        232,
+        1274,
+        42
+      ]
+    ],
+    "unitSymbol": "U",
+    "measurementCard": {
+      "x": 370,
+      "y": 1160,
+      "width": 176,
+      "height": 134
+    },
+    "meaning": "One schematic capture unit overlaps three cell profiles; blank unit-level RNA readout has no numeric value. Arrow is an analytical link, not molecular transport."
+  },
+  "assignmentInset": {
+    "top": 1450,
+    "height": 650,
+    "rows": [
+      {
+        "name": "Mask estimate 1",
+        "centerY": 1635,
+        "intercellBoundaryX": 275,
+        "borderRNAAssignedTo": "left estimate"
+      },
+      {
+        "name": "Mask estimate 2",
+        "centerY": 1920,
+        "intercellBoundaryX": 235,
+        "borderRNAAssignedTo": "right estimate"
+      }
+    ],
+    "nucleusCentersX": [
+      165,
+      370
+    ],
+    "nucleusRadius": 22,
+    "rnaOffsets": [
+      [
+        190,
+        -30
+      ],
+      [
+        255,
+        20
+      ],
+      [
+        350,
+        -35
+      ],
+      [
+        410,
+        32
+      ]
+    ],
+    "highlightedRNAOffset": [
+      255,
+      20
+    ],
+    "sameRNAAndImageCoordinates": "Both rows have the same nucleus and RNA geometry, translated only by row y. The highlighted RNA coordinate changes analytic membership when the estimated boundary moves.",
+    "maskStyle": "Closed dashed contours with low-opacity fills; explicitly labelled estimate, not a biological membrane or validated truth."
+  },
+  "coreTypography": {
+    "fontSize": 32,
+    "headlineSize": 36,
+    "intent": "Comfortable core reading at actual 312 CSS-pixel figure width; no nominal output-size certification. Long words wrap in clear spaces.",
+    "optionalDetailSize": 25
+  },
+  "leaders": [
+    {
+      "label": "Malignant nest",
+      "endpoint": "The common regional contour; not an individual malignant cell"
+    },
+    {
+      "label": "Unit U",
+      "endpoint": "Dashed capture-circle perimeter"
+    },
+    {
+      "label": "Observed RNA",
+      "endpoint": "Violet detected-RNA dot, not nucleus/mask"
+    },
+    {
+      "label": "Estimated boundary",
+      "endpoint": "Dashed mask contour only"
+    }
+  ],
+  "fictionalBulkRNAAssumption": {
+    "text": [
+      "Fictional assumption",
+      "Similar bulk immune RNA",
+      "in both regions"
+    ],
+    "location": {
+      "top": 76,
+      "height": 106,
+      "aboveBothGeographyPanels": true
+    },
+    "source": "Explicit fictional premise of the worked lesson; not calculated from the illustrative cell icons and not an acquired patient measurement.",
+    "fontSize": 32,
+    "numericRNAValue": null
+  }
+}
+```
+
+Proposed ordinary alt/caption/labels
+```json
+{
+  "alt": "Two fictional tissue regions assume similar bulk immune RNA and each contain twelve illustrative immune cells: one places cells among malignant nests, the other outside them. Separate insets show one RNA capture unit spanning several cells and unchanged observed RNA locations receiving different cell assignments under two estimated boundaries.",
+  "caption": "These fictional regions assume similar bulk immune RNA independently of their equal illustrative cell counts; equal counts do not guarantee equal RNA. Capture units and estimated cell masks are different from observed RNA locations. These examples are not a patient map, an sTIL score or a treatment-response prediction.",
+  "labels": [
+    "Same count, different places",
+    "Fictional assumption",
+    "Similar bulk immune RNA",
+    "in both regions",
+    "Inflamed",
+    "Excluded",
+    "12 immune cells",
+    "Immune cell",
+    "Malignant cell",
+    "Malignant nest",
+    "Surrounding stroma",
+    "Capture unit ≠ cell",
+    "Unit U",
+    "RNA counts for unit",
+    "May mix cells",
+    "Coordinate ≠ assigned cell",
+    "Mask estimate 1",
+    "Mask estimate 2",
+    "Observed RNA",
+    "Estimated boundary",
+    "Assigned left",
+    "Assigned right",
+    "Same RNA locations",
+    "Schematic, not patient data"
+  ],
+  "ownerMetadataChanged": false
+}
+```
+
+Complete portable renderer
+```python
+"""Original editable SVG authorship. Reproduce with: python3 -B render_diagram.py OUTDIR.
+
+The literal data are authored examples, not patient data. No network or image model.
+Both themes share every geometry/text call; only the palette differs.
+"""
+from pathlib import Path
+import sys, json, hashlib, html, xml.etree.ElementTree as ET
+
+STEM='immune-location-and-assay-units-v1'
+DATA={
+ 'width':600,'height':2260,
+ 'malignant':[[240,262],[302,262],[364,262],[220,333],[290,330],[358,330]],
+ 'inflamed':[[196,276],[224,226],[284,224],[346,224],[402,282],[401,325],[250,364],[323,367],[95,220],[94,286],[92,348],[504,239]],
+ 'excluded':[[95,220],[95,280],[95,340],[126,170],[174,190],[234,170],[300,164],[375,171],[444,190],[504,245],[511,308],[493,375]],
+ 'tissuePanelTops':[230,620],
+ 'unit':[205,1230,83],'captureProfiles':[[145,1210,42],[227,1194,42],[232,1274,42]],
+ 'maskRows':[[1635,275,'Mask estimate 1','Assigned left'],[1920,235,'Mask estimate 2','Assigned right']],
+ 'nucleusX':[165,370], 'rnaOffsets':[[190,-30],[255,20],[350,-35],[410,32]]
+}
+PALETTES={
+ 'light':{'page':'#f6f2e9','card':'#fffdf8','edge':'#d8d3c9','text':'#203640','muted':'#53656a','nest':'#f7e2df','nestEdge':'#ba7b83','cancer':'#df9ea5','cancerNucleus':'#a85b6c','immune':'#679fcb','immuneNucleus':'#325f88','profile':'#e2e9e8','nucleus':'#879da0','capture':'#a67928','unitFill':'#efdca8','rna':'#76549e','maskLeft':'#879db7','maskRight':'#c096ad','mask':'#725197'},
+ 'dark':{'page':'#15242d','card':'#20323c','edge':'#46545b','text':'#f1eee6','muted':'#c4cbd0','nest':'#513841','nestEdge':'#b88895','cancer':'#bd7887','cancerNucleus':'#e3b0b5','immune':'#82b3d9','immuneNucleus':'#315875','profile':'#3c535b','nucleus':'#a4b5bb','capture':'#e0b865','unitFill':'#6d5930','rna':'#c2a6e4','maskLeft':'#729ab9','maskRight':'#b48da8','mask':'#cfb2e9'}
+}
+class Drawing:
+ def __init__(self,theme):
+  self.p=PALETTES[theme];self.items=[]
+  self.items.append('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="2260" viewBox="0 0 600 2260" role="img" aria-labelledby="diagram-title diagram-desc">')
+  self.items.append('<title id="diagram-title">Same count, different places; capture units and assigned cells</title>')
+  self.items.append('<desc id="diagram-desc">Original fictional regions stipulate similar bulk immune RNA independently of twelve illustrative immune cells per region. Insets separate a multicell capture unit from repeated observed RNA locations assigned with different estimated masks. No patient measurement or treatment outcome.</desc>')
+  self.items.append('<g font-family="Arial, Helvetica, sans-serif" stroke-linecap="round" stroke-linejoin="round">')
+  self.rect('page',0,0,600,2260,'page',radius=0)
+ def element(self,tag,attrs):
+  self.items.append('<'+tag+' '+' '.join(k+'="'+html.escape(str(v),quote=True)+'"' for k,v in attrs.items())+'/>')
+ def rect(self,id,x,y,w,h,fill,stroke=None,radius=22,opacity=None):
+  a={'id':id,'x':x,'y':y,'width':w,'height':h,'rx':radius,'fill':self.p[fill]}
+  if stroke:a.update({'stroke':self.p[stroke],'stroke-width':2})
+  if opacity is not None:a['opacity']=opacity
+  self.element('rect',a)
+ def circle(self,id,x,y,r,fill,stroke=None,width=2,opacity=None):
+  a={'id':id,'cx':x,'cy':y,'r':r,'fill':self.p[fill]}
+  if stroke:a.update({'stroke':self.p[stroke],'stroke-width':width})
+  if opacity is not None:a['opacity']=opacity
+  self.element('circle',a)
+ def ellipse(self,id,x,y,rx,ry,fill,stroke=None,width=2,opacity=None):
+  a={'id':id,'cx':x,'cy':y,'rx':rx,'ry':ry,'fill':self.p[fill]}
+  if stroke:a.update({'stroke':self.p[stroke],'stroke-width':width})
+  if opacity is not None:a['opacity']=opacity
+  self.element('ellipse',a)
+ def path(self,id,d,stroke='muted',fill=None,width=2,dash=None,opacity=None):
+  a={'id':id,'d':d,'fill':self.p[fill] if fill else 'none','stroke':self.p[stroke],'stroke-width':width}
+  if dash:a['stroke-dasharray']=dash
+  if opacity is not None:a['opacity']=opacity
+  self.element('path',a)
+ def text(self,id,x,y,text,size=32,color='text',anchor='start',weight=400):
+  self.items.append('<text id="'+id+'" x="'+str(x)+'" y="'+str(y)+'" fill="'+self.p[color]+'" font-size="'+str(size)+'" font-weight="'+str(weight)+'" text-anchor="'+anchor+'">'+html.escape(text)+'</text>')
+ def cell(self,id,x,y,kind,r):
+  self.circle(id,x,y,r,kind)
+  self.circle(id+'-nucleus',x-2,y+1,r*.36,kind+'Nucleus')
+ def finish(self):return '\n'.join(self.items+['</g>','</svg>'])+'\n'
+
+def draw(theme):
+ d=Drawing(theme)
+ d.text('heading',300,46,'Same count, different places',36,anchor='middle',weight=700)
+ d.text('assumption-kind',300,89,'Fictional assumption',32,color='muted',anchor='middle')
+ d.text('assumption-rna',300,128,'Similar bulk immune RNA',32,anchor='middle',weight=700)
+ d.text('assumption-region',300,164,'in both regions',32,anchor='middle')
+ for label,top in zip(['inflamed','excluded'],DATA['tissuePanelTops']):
+  dy=top-140
+  d.rect(label+'-card',24,175 if label=='inflamed' else 585,552,400,'card','edge')
+  d.text(label+'-heading',48,top+2,label.title(),36,weight=700)
+  d.text(label+'-count',552,top+2,'12 immune cells',32,anchor='end')
+  d.ellipse(label+'-nest',300,300+dy,168,100,'nest','nestEdge',3)
+  for i,(x,y) in enumerate(DATA['malignant']):d.cell(label+'-malignant-'+str(i+1),x,y+dy,'cancer',23)
+  for i,(x,y) in enumerate(DATA[label]):d.cell(label+'-immune-'+str(i+1),x,y+dy,'immune',12)
+  d.path(label+'-nest-leader','M300 '+str(500+dy-90)+' L300 '+str(490+dy-90),'muted',width=2)
+  d.text(label+'-nest-label',300,top+306,'Malignant nest',32,anchor='middle')
+  d.text(label+'-stroma-label',300,top+333,'Surrounding stroma',32,color='muted',anchor='middle')
+ d.cell('immune-key',72,998,'immune',12)
+ d.text('immune-key-label',94,1009,'Immune cell',32)
+ d.cell('cancer-key',320,998,'cancer',15)
+ d.text('cancer-key-label',343,1009,'Malignant cell',32)
+
+ d.rect('capture-card',24,1030,552,400,'card','edge')
+ d.text('capture-heading',300,1073,'Capture unit ≠ cell',36,anchor='middle',weight=700)
+ for i,(x,y,r) in enumerate(DATA['captureProfiles']):
+  d.circle('capture-profile-'+str(i),x,y,r,'profile','edge')
+  d.circle('capture-nucleus-'+str(i),x-5,y+2,12,'nucleus')
+ x,y,r=DATA['unit']
+ d.circle('unit-fill',x,y,r,'unitFill',opacity=.25)
+ d.element('circle',{'id':'capture-unit-boundary','cx':x,'cy':y,'r':r,'fill':'none','stroke':d.p['capture'],'stroke-width':4,'stroke-dasharray':'10 7'})
+ d.text('capture-unit-label',205,1120,'Unit U',32,anchor='middle')
+ d.path('capture-unit-leader','M205 1131 L205 1147','capture',width=2)
+ d.rect('unit-readout',370,1160,176,134,'page','edge',radius=15)
+ d.text('unit-readout-1',458,1206,'RNA counts',32,anchor='middle')
+ d.text('unit-readout-2',458,1244,'for unit',32,anchor='middle')
+ d.path('readout-association','M297 1230 L357 1230','capture',width=3)
+ d.path('readout-association-head','M349 1222 L357 1230 L349 1238','capture',width=3)
+ d.text('mixed-unit-limit',300,1371,'May mix cells',32,anchor='middle')
+
+ d.rect('assignment-card',24,1438,552,672,'card','edge')
+ d.text('assignment-heading',300,1481,'Coordinate ≠ assigned cell',34,anchor='middle',weight=700)
+ d.text('assignment-same',300,1518,'Same RNA locations',32,color='muted',anchor='middle')
+ for row,(cy,b,name,assignment) in enumerate(DATA['maskRows'],1):
+  d.text('mask-row-'+str(row)+'-title',48,cy-84,name,32,weight=700)
+  for k,x in enumerate(DATA['nucleusX']):
+   d.ellipse('mask-row-'+str(row)+'-morphology-'+str(k),x,cy,88,63,'profile',opacity=.6)
+   d.circle('mask-row-'+str(row)+'-nucleus-'+str(k),x,cy,22,'nucleus')
+  left='M74 '+str(cy-60)+' C100 '+str(cy-87)+' '+str(b-30)+' '+str(cy-84)+' '+str(b)+' '+str(cy-60)+' L'+str(b)+' '+str(cy+60)+' C'+str(b-30)+' '+str(cy+83)+' 100 '+str(cy+87)+' 74 '+str(cy+60)+' Z'
+  right='M'+str(b)+' '+str(cy-60)+' C'+str(b+35)+' '+str(cy-84)+' 489 '+str(cy-84)+' 518 '+str(cy-60)+' L518 '+str(cy+60)+' C489 '+str(cy+86)+' '+str(b+35)+' '+str(cy+84)+' '+str(b)+' '+str(cy+60)+' Z'
+  d.path('mask-row-'+str(row)+'-left-estimate',left,'mask','maskLeft',3,'9 6',.55)
+  d.path('mask-row-'+str(row)+'-right-estimate',right,'mask','maskRight',3,'9 6',.55)
+  for k,(x,dy) in enumerate(DATA['rnaOffsets']):
+   d.circle('mask-row-'+str(row)+'-rna-'+str(k),x,cy+dy,7,'rna')
+   if k==1:d.element('circle',{'id':'mask-row-'+str(row)+'-highlight','cx':x,'cy':cy+dy,'r':12,'fill':'none','stroke':d.p['rna'],'stroke-width':2})
+  ax=165 if row==1 else 370
+  d.text('mask-row-'+str(row)+'-assignment',ax,cy+103,assignment,32,anchor='middle')
+  if row==1:
+   d.text('estimated-boundary-1',456,cy+108,'Estimated',30,anchor='middle')
+   d.text('estimated-boundary-2',456,cy+142,'boundary',30,anchor='middle')
+   d.path('estimated-boundary-leader','M383 '+str(cy+111)+' L275 '+str(cy+48),'mask',width=2)
+ d.circle('observed-rna-key',151,2073,7,'rna')
+ d.text('observed-rna-label',172,2085,'Observed RNA',32)
+ d.text('footer-schematic',300,2162,'Schematic, not patient data',32,anchor='middle',weight=700)
+ d.text('footer-response',300,2205,'Pattern is not a response prediction',28,color='muted',anchor='middle')
+ return d.finish()
+
+def sha(b):return hashlib.sha256(b).hexdigest()
+def normalize_geometry(root):
+ """Palette attribute values may vary; geometry, labels and opacity must not."""
+ for e in root.iter():
+  for attr in ['fill','stroke']:
+   if attr in e.attrib and e.attrib[attr]!='none':e.attrib[attr]='PALETTE'
+ return ET.tostring(root)
+def main(out):
+ out.mkdir(parents=True,exist_ok=True)
+ results={}
+ for theme in ['light','dark']:
+  p=out/(STEM+'-'+theme+'.svg');b=draw(theme).encode();p.write_bytes(b);r=ET.fromstring(b)
+  ids=[e.attrib.get('id') for e in r.iter() if 'id' in e.attrib]
+  assert len(ids)==len(set(ids))
+  for scene in ['inflamed','excluded']:
+   assert sum(x.startswith(scene+'-immune-') and not x.endswith('-nucleus') for x in ids)==12
+   assert sum(x.startswith(scene+'-malignant-') and not x.endswith('-nucleus') for x in ids)==6
+  assert len([x for x in ids if x.startswith('mask-row-') and '-rna-' in x])==8
+  results[theme]={'path':p.name,'sha256':sha(b),'bytes':len(b),'dimensions':[600,2260]}
+ light=ET.fromstring(draw('light'));dark=ET.fromstring(draw('dark'))
+ assert normalize_geometry(light)==normalize_geometry(dark)
+ nest=lambda q: ((q[0]-300)/168)**2+((q[1]-300)/100)**2<1
+ assert sum(map(nest,DATA['inflamed']))==8 and sum(map(nest,DATA['excluded']))==0
+ assert DATA['rnaOffsets'][1][0]<DATA['maskRows'][0][1] and DATA['rnaOffsets'][1][0]>DATA['maskRows'][1][1]
+ checks={'schemaVersion':1,'method':'Original stdlib editable SVG; no image model','model':None,'sourceSHA256':sha(Path(__file__).read_bytes()),'outputs':results,'immuneCounts':[12,12],'malignantCounts':[6,6],'sameNestsAndCellCoordinatesExceptImmuneLocation':True,'fictionalRNAAssumptionIndependentOfCounts':True,'sameObservedRNAOffsetsInBothMaskRows':True,'highlightedRNAMembership':['left estimate','right estimate'],'paletteOnlyGeometryAndTextEquality':True,'validXML':True,'uniqueIDs':True,'coverageCredit':0,'humanReview':'pending','pixelAcceptance':False}
+ (out/'drawing-source-checks.json').write_text(json.dumps(checks,indent=2,ensure_ascii=False)+'\n')
+ print(json.dumps(checks,indent=2))
+if __name__=='__main__':main(Path(sys.argv[1] if len(sys.argv)>1 else '.'))
+```

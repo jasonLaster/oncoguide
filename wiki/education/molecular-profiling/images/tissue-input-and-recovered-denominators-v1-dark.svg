@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1860" viewBox="0 0 600 1860" role="img" aria-labelledby="title description">
+<title id="title">Follow the denominator</title>
+<desc id="description">Three separate denominators: cancer-occupied tissue area, malignant nuclei among input nuclei, and malignant profiles among all recovered profiles. Recovered profiles mean retained nucleus RNA profiles and their fraction may differ from input. Only fictional equal inclusion through recovery, capture and quality filtering gives 240 expected malignant profiles from 4% of 6,000 retained profiles.</desc>
+<rect x="0" y="0" width="600" height="1860" rx="0" fill="#142936"/>
+<text x="300" y="58" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="middle">
+<tspan x="300" dy="0">Follow the denominator</tspan>
+</text>
+<text x="300" y="103" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="300" dy="0">Three views, three denominators</tspan>
+</text>
+<rect x="28" y="132" width="544" height="330" rx="23" fill="#1D3845" stroke="#ADC4CB" stroke-width="2"/>
+<text x="52" y="185" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start">
+<tspan x="52" dy="0">1  Tissue area</tspan>
+</text>
+<rect x="28" y="550" width="544" height="320" rx="23" fill="#1D3845" stroke="#ADC4CB" stroke-width="2"/>
+<text x="52" y="603" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start">
+<tspan x="52" dy="0">2  Input nuclei</tspan>
+</text>
+<rect x="28" y="1035" width="544" height="735" rx="23" fill="#1D3845" stroke="#ADC4CB" stroke-width="2"/>
+<text x="52" y="1088" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start">
+<tspan x="52" dy="0">3  Recovered profiles</tspan>
+</text>
+<rect x="60" y="220" width="200" height="160" rx="18" fill="#43555B" stroke="#ADC4CB" stroke-width="3"/>
+<path d="M 110 247 C 142 230 161 254 181 249 C 205 244 230 264 226 284 C 225 306 192 312 179 302 C 150 313 139 298 121 294 C 98 288 95 261 110 247 Z" fill="#F29BAD" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 83 338 C 98 329 121 341 116 356 C 112 367 88 366 83 354 Z" fill="#F29BAD" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="294" y="254" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="294" dy="0">Cancer-occupied</tspan>
+<tspan x="294" dy="35">area</tspan>
+</text>
+<text x="294" y="338" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="294" dy="0">Assessed</tspan>
+<tspan x="294" dy="35">tumor-bed area</tspan>
+</text>
+<text x="52" y="417" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="start">
+<tspan x="52" dy="0">Area; not a nucleus count</tspan>
+</text>
+<path d="M 287 254 L 184 264" fill="none" stroke="#ADC4CB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="184" cy="264" r="3.5" fill="#F5F0E5"/>
+<path d="M 287 338 L 260 350" fill="none" stroke="#ADC4CB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="260" cy="350" r="3.5" fill="#F5F0E5"/>
+<text x="80" y="512" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" text-anchor="middle">
+<tspan x="80" dy="0">≠</tspan>
+</text>
+<text x="343" y="508" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">
+<tspan x="343" dy="0">Different denominator</tspan>
+</text>
+<ellipse cx="88" cy="666" rx="18" ry="22" fill="#87BDCE" stroke="#ADC4CB" stroke-width="3"/>
+<ellipse cx="84" cy="669" rx="5" ry="6" fill="#1D3845" stroke="#ADC4CB" stroke-width="1.5"/>
+<ellipse cx="148" cy="648" rx="18" ry="22" fill="#87BDCE" stroke="#ADC4CB" stroke-width="3"/>
+<ellipse cx="144" cy="651" rx="5" ry="6" fill="#1D3845" stroke="#ADC4CB" stroke-width="1.5"/>
+<ellipse cx="208" cy="674" rx="18" ry="22" fill="#87BDCE" stroke="#ADC4CB" stroke-width="3"/>
+<ellipse cx="204" cy="677" rx="5" ry="6" fill="#1D3845" stroke="#ADC4CB" stroke-width="1.5"/>
+<ellipse cx="98" cy="734" rx="18" ry="22" fill="#87BDCE" stroke="#ADC4CB" stroke-width="3"/>
+<ellipse cx="94" cy="737" rx="5" ry="6" fill="#1D3845" stroke="#ADC4CB" stroke-width="1.5"/>
+<ellipse cx="159" cy="719" rx="18" ry="22" fill="#87BDCE" stroke="#ADC4CB" stroke-width="3"/>
+<ellipse cx="155" cy="722" rx="5" ry="6" fill="#1D3845" stroke="#ADC4CB" stroke-width="1.5"/>
+<ellipse cx="218" cy="738" rx="18" ry="22" fill="#87BDCE" stroke="#ADC4CB" stroke-width="3"/>
+<ellipse cx="214" cy="741" rx="5" ry="6" fill="#1D3845" stroke="#ADC4CB" stroke-width="1.5"/>
+<text x="279" y="663" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="start">
+<tspan x="279" dy="0">Assume 4%</tspan>
+<tspan x="279" dy="37">malignant nuclei</tspan>
+</text>
+<text x="52" y="807" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="52" dy="0">Malignant nuclei /</tspan>
+<tspan x="52" dy="35">all input nuclei</tspan>
+</text>
+<rect x="66" y="913" width="468" height="85" rx="17" fill="#504A37" stroke="#ADC4CB" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="300" y="945" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+<tspan x="300" dy="0">Recovery + filtering</tspan>
+</text>
+<text x="300" y="982" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="300" dy="0">May change representation</tspan>
+</text>
+<path d="M 300 876 L 300 902" fill="none" stroke="#ADC4CB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 293 895 L 300 907 L 307 895" fill="none" stroke="#ADC4CB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 300 1003 L 300 1023" fill="none" stroke="#ADC4CB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 293 1016 L 300 1028 L 307 1016" fill="none" stroke="#ADC4CB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="52" y="1134" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="52" dy="0">Retained nucleus RNA profiles</tspan>
+</text>
+<rect x="62" y="1165" width="138" height="75" rx="10" fill="#142936" stroke="#ADC4CB" stroke-width="2"/>
+<text x="131.0" y="1201" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="131.0" dy="0">Profile</tspan>
+</text>
+<path d="M 81 1221 L 181 1221" fill="none" stroke="#87BDCE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 81 1235 L 181 1235" fill="none" stroke="#87BDCE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="231" y="1165" width="138" height="75" rx="10" fill="#142936" stroke="#ADC4CB" stroke-width="2"/>
+<text x="300.0" y="1201" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="300.0" dy="0">Profile</tspan>
+</text>
+<path d="M 250 1221 L 350 1221" fill="none" stroke="#87BDCE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 250 1235 L 350 1235" fill="none" stroke="#87BDCE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="400" y="1165" width="138" height="75" rx="10" fill="#142936" stroke="#ADC4CB" stroke-width="2"/>
+<text x="469.0" y="1201" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="469.0" dy="0">Profile</tspan>
+</text>
+<path d="M 419 1221 L 519 1221" fill="none" stroke="#87BDCE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 419 1235 L 519 1235" fill="none" stroke="#87BDCE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="52" y="1283" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="start">
+<tspan x="52" dy="0">Malignant profiles /</tspan>
+<tspan x="52" dy="35">all recovered profiles</tspan>
+</text>
+<text x="52" y="1354" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="start">
+<tspan x="52" dy="0">Fraction may differ from input</tspan>
+</text>
+<rect x="52" y="1390" width="496" height="334" rx="17" fill="#504A37" stroke="#ADC4CB" stroke-width="2"/>
+<text x="76" y="1432" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="start">
+<tspan x="76" dy="0">Fictional equal inclusion only</tspan>
+</text>
+<text x="76" y="1476" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="76" dy="0">Recovery, capture and</tspan>
+<tspan x="76" dy="35">quality filtering</tspan>
+</text>
+<text x="76" y="1561" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="76" dy="0">6,000 retained profiles</tspan>
+</text>
+<text x="76" y="1613" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start">
+<tspan x="76" dy="0">× 4% = 240 expected</tspan>
+</text>
+<text x="76" y="1654" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="76" dy="0">malignant profiles</tspan>
+</text>
+<text x="76" y="1705" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">
+<tspan x="76" dy="0">Not a forecast or cutoff</tspan>
+</text>
+<text x="300" y="1816" fill="#F5F0E5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" text-anchor="middle">
+<tspan x="300" dy="0">Symbols are not counts or proportions.</tspan>
+</text>
+</svg>

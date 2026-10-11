@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1190" viewBox="0 0 600 1190" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Half the later control, equal to the starting count</title>
+<desc id="chart-desc">Fictional viable-cell count chart. Both control and treated conditions start at 1,000 cells. Later, control has 2,000 and treated has 1,000, on the same zero-to-2,000 scale. The treated endpoint is 50% of later control and 100% of treated start; these net counts do not show individual cell fates.</desc>
+<rect width="600" height="1190" fill="#172530"/>
+<defs>
+<pattern id="treated-hatch" width="12" height="12" patternUnits="userSpaceOnUse">
+<path d="M -3 3 L 3 -3 M 0 12 L 12 0 M 9 15 L 15 9" fill="none" stroke="#713e50" stroke-width="2"/>
+</pattern>
+</defs>
+<g font-family="Arial, Helvetica, sans-serif" fill="#f1eee8">
+<text x="36" y="66" font-size="36" font-weight="700" text-anchor="start">50% of control.</text>
+<text x="36" y="110" font-size="36" font-weight="700" text-anchor="start">100% of start.</text>
+<text x="36" y="154" font-size="26" font-weight="400" text-anchor="start" fill="#c8d3da">Fictional viable-cell counts</text>
+<text x="48" y="205" font-size="32" font-weight="700" text-anchor="start">Start</text>
+<text x="48" y="514" font-size="32" font-weight="700" text-anchor="start">Later</text>
+<text x="48" y="247" font-size="28" font-weight="600" text-anchor="start">Control</text>
+<rect id="bar-start-control" data-count="1000" x="48" y="260" width="252" height="42" fill="#7fa9c5"/>
+<text x="312" y="288" font-size="28" font-weight="700" text-anchor="start">1,000</text>
+<text x="48" y="338" font-size="28" font-weight="600" text-anchor="start">Treated</text>
+<rect id="bar-start-treated" data-count="1000" x="48" y="351" width="252" height="42" fill="#d18ca0"/>
+<rect x="48" y="351" width="252" height="42" fill="url(#treated-hatch)"/>
+<text x="312" y="379" font-size="28" font-weight="700" text-anchor="start">1,000</text>
+<text x="48" y="556" font-size="28" font-weight="600" text-anchor="start">Control</text>
+<rect id="bar-later-control" data-count="2000" x="48" y="569" width="504" height="42" fill="#7fa9c5"/>
+<text x="538" y="597" font-size="28" font-weight="700" text-anchor="end" fill="#13222d">2,000</text>
+<text x="48" y="647" font-size="28" font-weight="600" text-anchor="start">Treated</text>
+<rect id="bar-later-treated" data-count="1000" x="48" y="660" width="252" height="42" fill="#d18ca0"/>
+<rect x="48" y="660" width="252" height="42" fill="url(#treated-hatch)"/>
+<text x="312" y="688" font-size="28" font-weight="700" text-anchor="start">1,000</text>
+<path d="M 48 417 H 552" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<path d="M 48 417 V 426" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<text x="48" y="453" font-size="26" font-weight="400" text-anchor="middle">0</text>
+<path d="M 300 417 V 426" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<text x="300" y="453" font-size="26" font-weight="400" text-anchor="middle">1,000</text>
+<path d="M 552 417 V 426" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<text x="552" y="453" font-size="26" font-weight="400" text-anchor="middle">2,000</text>
+<text x="300" y="481" font-size="26" font-weight="400" text-anchor="middle" fill="#c8d3da">Viable cells • same scale</text>
+<path d="M 48 726 H 552" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<path d="M 48 726 V 735" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<text x="48" y="762" font-size="26" font-weight="400" text-anchor="middle">0</text>
+<path d="M 300 726 V 735" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<text x="300" y="762" font-size="26" font-weight="400" text-anchor="middle">1,000</text>
+<path d="M 552 726 V 735" fill="none" stroke="#c8d3da" stroke-width="2"/>
+<text x="552" y="762" font-size="26" font-weight="400" text-anchor="middle">2,000</text>
+<text x="300" y="790" font-size="26" font-weight="400" text-anchor="middle" fill="#c8d3da">Viable cells • same scale</text>
+<rect x="36" y="836" width="252" height="256" rx="12" fill="#213441"/>
+<text x="162" y="878" font-size="26" font-weight="400" text-anchor="middle">Compare with</text>
+<text x="162" y="913" font-size="28" font-weight="700" text-anchor="middle">later control</text>
+<text x="162" y="961" font-size="26" font-weight="400" text-anchor="middle">1,000 ÷ 2,000</text>
+<text x="162" y="1026" font-size="44" font-weight="700" text-anchor="middle">= 50%</text>
+<rect x="312" y="836" width="252" height="256" rx="12" fill="#213441"/>
+<text x="438" y="878" font-size="26" font-weight="400" text-anchor="middle">Compare with</text>
+<text x="438" y="913" font-size="28" font-weight="700" text-anchor="middle">treated start</text>
+<text x="438" y="961" font-size="26" font-weight="400" text-anchor="middle">1,000 ÷ 1,000</text>
+<text x="438" y="1026" font-size="44" font-weight="700" text-anchor="middle">= 100%</text>
+<text x="300" y="1150" font-size="27" font-weight="600" text-anchor="middle">Net counts are not cell fates.</text>
+</g>
+</svg>

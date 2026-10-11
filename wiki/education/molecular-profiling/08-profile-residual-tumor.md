@@ -88,6 +88,13 @@ In a **fictional arithmetic exercise**, suppose an input suspension truly contai
 
 A [tumor-bed cellularity percentage](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) uses assessed tissue area; it is **not** the recovered malignant-nucleus fraction. Its denominator and sampled region differ, and preparation or filtering can preferentially lose cells. The arithmetic illustrates dilution; it is not a laboratory yield forecast or adequacy threshold.
 
+
+<div class="my-6">
+<img src="./images/tissue-input-and-recovered-denominators-v1-light.svg" alt="Three separate denominators: cancer-occupied tissue area, malignant nuclei among input nuclei, and malignant profiles among all recovered profiles. Recovered profiles mean retained nucleus RNA profiles and their fraction may differ from input. Only fictional equal inclusion through recovery, capture and quality filtering gives 240 expected malignant profiles from 4% of 6,000 retained profiles." width="600" height="1860" data-theme-pair>
+
+*Area, input nuclei and retained nucleus RNA profiles have different denominators. The fictional 240 expectation from 6,000 retained profiles assumes equal inclusion of malignant and other nuclei through recovery, capture and quality filtering; the recovered fraction may differ in practice. This is not a yield forecast or adequacy cutoff.*
+</div>
+
 ## What can go wrong at this step
 
 - **A missing cluster becomes “eliminated.”** Region, recovery, low counts or changed clustering can explain non-detection.

@@ -53,6 +53,11 @@ Dissociated cell profiles can describe states while losing original geography. A
 
 A fictional specimen has strong immune RNA. Spatial staining places most relevant T cells outside malignant nests. These findings can agree. The bulk profile says the cells contributed messages; the map says where many cells sat.
 
+<div class="education-visual">
+<img src="./images/immune-location-and-assay-units-v1-light.svg" alt="Two fictional tissue regions assume similar bulk immune RNA and each contain twelve illustrative immune cells: one places cells among malignant nests, the other outside them. Separate insets show one RNA capture unit spanning several cells and unchanged observed RNA locations receiving different cell assignments under two estimated boundaries." data-theme-pair width="600" height="2260">
+<p><em>These fictional regions assume similar bulk immune RNA independently of their equal illustrative cell counts; equal counts do not guarantee equal RNA. Capture units and estimated cell masks are different from observed RNA locations. These examples are not a patient map, an sTIL score or a treatment-response prediction.</em></p>
+</div>
+
 The next question might concern access, target presentation or clinical association. It should not become an automatic instruction to add a stromal treatment. A location finding gives a biological question, while benefit needs the corresponding evidence.
 
 In another region, a protein signal appears mainly in vessels. Localization changes its interpretation as a tumor-cell delivery target. It does not erase the earlier bulk measurement; it tells us whose protein we measured.

@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="2260" viewBox="0 0 600 2260" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">Same count, different places; capture units and assigned cells</title>
+<desc id="diagram-desc">Original fictional regions stipulate similar bulk immune RNA independently of twelve illustrative immune cells per region. Insets separate a multicell capture unit from repeated observed RNA locations assigned with different estimated masks. No patient measurement or treatment outcome.</desc>
+<g font-family="Arial, Helvetica, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<rect id="page" x="0" y="0" width="600" height="2260" rx="0" fill="#f6f2e9"/>
+<text id="heading" x="300" y="46" fill="#203640" font-size="36" font-weight="700" text-anchor="middle">Same count, different places</text>
+<text id="assumption-kind" x="300" y="89" fill="#53656a" font-size="32" font-weight="400" text-anchor="middle">Fictional assumption</text>
+<text id="assumption-rna" x="300" y="128" fill="#203640" font-size="32" font-weight="700" text-anchor="middle">Similar bulk immune RNA</text>
+<text id="assumption-region" x="300" y="164" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">in both regions</text>
+<rect id="inflamed-card" x="24" y="175" width="552" height="400" rx="22" fill="#fffdf8" stroke="#d8d3c9" stroke-width="2"/>
+<text id="inflamed-heading" x="48" y="232" fill="#203640" font-size="36" font-weight="700" text-anchor="start">Inflamed</text>
+<text id="inflamed-count" x="552" y="232" fill="#203640" font-size="32" font-weight="400" text-anchor="end">12 immune cells</text>
+<ellipse id="inflamed-nest" cx="300" cy="390" rx="168" ry="100" fill="#f7e2df" stroke="#ba7b83" stroke-width="3"/>
+<circle id="inflamed-malignant-1" cx="240" cy="352" r="23" fill="#df9ea5"/>
+<circle id="inflamed-malignant-1-nucleus" cx="238" cy="353" r="8.28" fill="#a85b6c"/>
+<circle id="inflamed-malignant-2" cx="302" cy="352" r="23" fill="#df9ea5"/>
+<circle id="inflamed-malignant-2-nucleus" cx="300" cy="353" r="8.28" fill="#a85b6c"/>
+<circle id="inflamed-malignant-3" cx="364" cy="352" r="23" fill="#df9ea5"/>
+<circle id="inflamed-malignant-3-nucleus" cx="362" cy="353" r="8.28" fill="#a85b6c"/>
+<circle id="inflamed-malignant-4" cx="220" cy="423" r="23" fill="#df9ea5"/>
+<circle id="inflamed-malignant-4-nucleus" cx="218" cy="424" r="8.28" fill="#a85b6c"/>
+<circle id="inflamed-malignant-5" cx="290" cy="420" r="23" fill="#df9ea5"/>
+<circle id="inflamed-malignant-5-nucleus" cx="288" cy="421" r="8.28" fill="#a85b6c"/>
+<circle id="inflamed-malignant-6" cx="358" cy="420" r="23" fill="#df9ea5"/>
+<circle id="inflamed-malignant-6-nucleus" cx="356" cy="421" r="8.28" fill="#a85b6c"/>
+<circle id="inflamed-immune-1" cx="196" cy="366" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-1-nucleus" cx="194" cy="367" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-2" cx="224" cy="316" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-2-nucleus" cx="222" cy="317" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-3" cx="284" cy="314" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-3-nucleus" cx="282" cy="315" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-4" cx="346" cy="314" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-4-nucleus" cx="344" cy="315" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-5" cx="402" cy="372" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-5-nucleus" cx="400" cy="373" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-6" cx="401" cy="415" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-6-nucleus" cx="399" cy="416" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-7" cx="250" cy="454" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-7-nucleus" cx="248" cy="455" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-8" cx="323" cy="457" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-8-nucleus" cx="321" cy="458" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-9" cx="95" cy="310" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-9-nucleus" cx="93" cy="311" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-10" cx="94" cy="376" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-10-nucleus" cx="92" cy="377" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-11" cx="92" cy="438" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-11-nucleus" cx="90" cy="439" r="4.32" fill="#325f88"/>
+<circle id="inflamed-immune-12" cx="504" cy="329" r="12" fill="#679fcb"/>
+<circle id="inflamed-immune-12-nucleus" cx="502" cy="330" r="4.32" fill="#325f88"/>
+<path id="inflamed-nest-leader" d="M300 500 L300 490" fill="none" stroke="#53656a" stroke-width="2"/>
+<text id="inflamed-nest-label" x="300" y="536" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">Malignant nest</text>
+<text id="inflamed-stroma-label" x="300" y="563" fill="#53656a" font-size="32" font-weight="400" text-anchor="middle">Surrounding stroma</text>
+<rect id="excluded-card" x="24" y="585" width="552" height="400" rx="22" fill="#fffdf8" stroke="#d8d3c9" stroke-width="2"/>
+<text id="excluded-heading" x="48" y="622" fill="#203640" font-size="36" font-weight="700" text-anchor="start">Excluded</text>
+<text id="excluded-count" x="552" y="622" fill="#203640" font-size="32" font-weight="400" text-anchor="end">12 immune cells</text>
+<ellipse id="excluded-nest" cx="300" cy="780" rx="168" ry="100" fill="#f7e2df" stroke="#ba7b83" stroke-width="3"/>
+<circle id="excluded-malignant-1" cx="240" cy="742" r="23" fill="#df9ea5"/>
+<circle id="excluded-malignant-1-nucleus" cx="238" cy="743" r="8.28" fill="#a85b6c"/>
+<circle id="excluded-malignant-2" cx="302" cy="742" r="23" fill="#df9ea5"/>
+<circle id="excluded-malignant-2-nucleus" cx="300" cy="743" r="8.28" fill="#a85b6c"/>
+<circle id="excluded-malignant-3" cx="364" cy="742" r="23" fill="#df9ea5"/>
+<circle id="excluded-malignant-3-nucleus" cx="362" cy="743" r="8.28" fill="#a85b6c"/>
+<circle id="excluded-malignant-4" cx="220" cy="813" r="23" fill="#df9ea5"/>
+<circle id="excluded-malignant-4-nucleus" cx="218" cy="814" r="8.28" fill="#a85b6c"/>
+<circle id="excluded-malignant-5" cx="290" cy="810" r="23" fill="#df9ea5"/>
+<circle id="excluded-malignant-5-nucleus" cx="288" cy="811" r="8.28" fill="#a85b6c"/>
+<circle id="excluded-malignant-6" cx="358" cy="810" r="23" fill="#df9ea5"/>
+<circle id="excluded-malignant-6-nucleus" cx="356" cy="811" r="8.28" fill="#a85b6c"/>
+<circle id="excluded-immune-1" cx="95" cy="700" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-1-nucleus" cx="93" cy="701" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-2" cx="95" cy="760" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-2-nucleus" cx="93" cy="761" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-3" cx="95" cy="820" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-3-nucleus" cx="93" cy="821" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-4" cx="126" cy="650" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-4-nucleus" cx="124" cy="651" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-5" cx="174" cy="670" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-5-nucleus" cx="172" cy="671" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-6" cx="234" cy="650" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-6-nucleus" cx="232" cy="651" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-7" cx="300" cy="644" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-7-nucleus" cx="298" cy="645" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-8" cx="375" cy="651" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-8-nucleus" cx="373" cy="652" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-9" cx="444" cy="670" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-9-nucleus" cx="442" cy="671" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-10" cx="504" cy="725" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-10-nucleus" cx="502" cy="726" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-11" cx="511" cy="788" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-11-nucleus" cx="509" cy="789" r="4.32" fill="#325f88"/>
+<circle id="excluded-immune-12" cx="493" cy="855" r="12" fill="#679fcb"/>
+<circle id="excluded-immune-12-nucleus" cx="491" cy="856" r="4.32" fill="#325f88"/>
+<path id="excluded-nest-leader" d="M300 890 L300 880" fill="none" stroke="#53656a" stroke-width="2"/>
+<text id="excluded-nest-label" x="300" y="926" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">Malignant nest</text>
+<text id="excluded-stroma-label" x="300" y="953" fill="#53656a" font-size="32" font-weight="400" text-anchor="middle">Surrounding stroma</text>
+<circle id="immune-key" cx="72" cy="998" r="12" fill="#679fcb"/>
+<circle id="immune-key-nucleus" cx="70" cy="999" r="4.32" fill="#325f88"/>
+<text id="immune-key-label" x="94" y="1009" fill="#203640" font-size="32" font-weight="400" text-anchor="start">Immune cell</text>
+<circle id="cancer-key" cx="320" cy="998" r="15" fill="#df9ea5"/>
+<circle id="cancer-key-nucleus" cx="318" cy="999" r="5.3999999999999995" fill="#a85b6c"/>
+<text id="cancer-key-label" x="343" y="1009" fill="#203640" font-size="32" font-weight="400" text-anchor="start">Malignant cell</text>
+<rect id="capture-card" x="24" y="1030" width="552" height="400" rx="22" fill="#fffdf8" stroke="#d8d3c9" stroke-width="2"/>
+<text id="capture-heading" x="300" y="1073" fill="#203640" font-size="36" font-weight="700" text-anchor="middle">Capture unit ≠ cell</text>
+<circle id="capture-profile-0" cx="145" cy="1210" r="42" fill="#e2e9e8" stroke="#d8d3c9" stroke-width="2"/>
+<circle id="capture-nucleus-0" cx="140" cy="1212" r="12" fill="#879da0"/>
+<circle id="capture-profile-1" cx="227" cy="1194" r="42" fill="#e2e9e8" stroke="#d8d3c9" stroke-width="2"/>
+<circle id="capture-nucleus-1" cx="222" cy="1196" r="12" fill="#879da0"/>
+<circle id="capture-profile-2" cx="232" cy="1274" r="42" fill="#e2e9e8" stroke="#d8d3c9" stroke-width="2"/>
+<circle id="capture-nucleus-2" cx="227" cy="1276" r="12" fill="#879da0"/>
+<circle id="unit-fill" cx="205" cy="1230" r="83" fill="#efdca8" opacity="0.25"/>
+<circle id="capture-unit-boundary" cx="205" cy="1230" r="83" fill="none" stroke="#a67928" stroke-width="4" stroke-dasharray="10 7"/>
+<text id="capture-unit-label" x="205" y="1120" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">Unit U</text>
+<path id="capture-unit-leader" d="M205 1131 L205 1147" fill="none" stroke="#a67928" stroke-width="2"/>
+<rect id="unit-readout" x="370" y="1160" width="176" height="134" rx="15" fill="#f6f2e9" stroke="#d8d3c9" stroke-width="2"/>
+<text id="unit-readout-1" x="458" y="1206" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">RNA counts</text>
+<text id="unit-readout-2" x="458" y="1244" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">for unit</text>
+<path id="readout-association" d="M297 1230 L357 1230" fill="none" stroke="#a67928" stroke-width="3"/>
+<path id="readout-association-head" d="M349 1222 L357 1230 L349 1238" fill="none" stroke="#a67928" stroke-width="3"/>
+<text id="mixed-unit-limit" x="300" y="1371" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">May mix cells</text>
+<rect id="assignment-card" x="24" y="1438" width="552" height="672" rx="22" fill="#fffdf8" stroke="#d8d3c9" stroke-width="2"/>
+<text id="assignment-heading" x="300" y="1481" fill="#203640" font-size="34" font-weight="700" text-anchor="middle">Coordinate ≠ assigned cell</text>
+<text id="assignment-same" x="300" y="1518" fill="#53656a" font-size="32" font-weight="400" text-anchor="middle">Same RNA locations</text>
+<text id="mask-row-1-title" x="48" y="1551" fill="#203640" font-size="32" font-weight="700" text-anchor="start">Mask estimate 1</text>
+<ellipse id="mask-row-1-morphology-0" cx="165" cy="1635" rx="88" ry="63" fill="#e2e9e8" opacity="0.6"/>
+<circle id="mask-row-1-nucleus-0" cx="165" cy="1635" r="22" fill="#879da0"/>
+<ellipse id="mask-row-1-morphology-1" cx="370" cy="1635" rx="88" ry="63" fill="#e2e9e8" opacity="0.6"/>
+<circle id="mask-row-1-nucleus-1" cx="370" cy="1635" r="22" fill="#879da0"/>
+<path id="mask-row-1-left-estimate" d="M74 1575 C100 1548 245 1551 275 1575 L275 1695 C245 1718 100 1722 74 1695 Z" fill="#879db7" stroke="#725197" stroke-width="3" stroke-dasharray="9 6" opacity="0.55"/>
+<path id="mask-row-1-right-estimate" d="M275 1575 C310 1551 489 1551 518 1575 L518 1695 C489 1721 310 1719 275 1695 Z" fill="#c096ad" stroke="#725197" stroke-width="3" stroke-dasharray="9 6" opacity="0.55"/>
+<circle id="mask-row-1-rna-0" cx="190" cy="1605" r="7" fill="#76549e"/>
+<circle id="mask-row-1-rna-1" cx="255" cy="1655" r="7" fill="#76549e"/>
+<circle id="mask-row-1-highlight" cx="255" cy="1655" r="12" fill="none" stroke="#76549e" stroke-width="2"/>
+<circle id="mask-row-1-rna-2" cx="350" cy="1600" r="7" fill="#76549e"/>
+<circle id="mask-row-1-rna-3" cx="410" cy="1667" r="7" fill="#76549e"/>
+<text id="mask-row-1-assignment" x="165" y="1738" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">Assigned left</text>
+<text id="estimated-boundary-1" x="456" y="1743" fill="#203640" font-size="30" font-weight="400" text-anchor="middle">Estimated</text>
+<text id="estimated-boundary-2" x="456" y="1777" fill="#203640" font-size="30" font-weight="400" text-anchor="middle">boundary</text>
+<path id="estimated-boundary-leader" d="M383 1746 L275 1683" fill="none" stroke="#725197" stroke-width="2"/>
+<text id="mask-row-2-title" x="48" y="1836" fill="#203640" font-size="32" font-weight="700" text-anchor="start">Mask estimate 2</text>
+<ellipse id="mask-row-2-morphology-0" cx="165" cy="1920" rx="88" ry="63" fill="#e2e9e8" opacity="0.6"/>
+<circle id="mask-row-2-nucleus-0" cx="165" cy="1920" r="22" fill="#879da0"/>
+<ellipse id="mask-row-2-morphology-1" cx="370" cy="1920" rx="88" ry="63" fill="#e2e9e8" opacity="0.6"/>
+<circle id="mask-row-2-nucleus-1" cx="370" cy="1920" r="22" fill="#879da0"/>
+<path id="mask-row-2-left-estimate" d="M74 1860 C100 1833 205 1836 235 1860 L235 1980 C205 2003 100 2007 74 1980 Z" fill="#879db7" stroke="#725197" stroke-width="3" stroke-dasharray="9 6" opacity="0.55"/>
+<path id="mask-row-2-right-estimate" d="M235 1860 C270 1836 489 1836 518 1860 L518 1980 C489 2006 270 2004 235 1980 Z" fill="#c096ad" stroke="#725197" stroke-width="3" stroke-dasharray="9 6" opacity="0.55"/>
+<circle id="mask-row-2-rna-0" cx="190" cy="1890" r="7" fill="#76549e"/>
+<circle id="mask-row-2-rna-1" cx="255" cy="1940" r="7" fill="#76549e"/>
+<circle id="mask-row-2-highlight" cx="255" cy="1940" r="12" fill="none" stroke="#76549e" stroke-width="2"/>
+<circle id="mask-row-2-rna-2" cx="350" cy="1885" r="7" fill="#76549e"/>
+<circle id="mask-row-2-rna-3" cx="410" cy="1952" r="7" fill="#76549e"/>
+<text id="mask-row-2-assignment" x="370" y="2023" fill="#203640" font-size="32" font-weight="400" text-anchor="middle">Assigned right</text>
+<circle id="observed-rna-key" cx="151" cy="2073" r="7" fill="#76549e"/>
+<text id="observed-rna-label" x="172" y="2085" fill="#203640" font-size="32" font-weight="400" text-anchor="start">Observed RNA</text>
+<text id="footer-schematic" x="300" y="2162" fill="#203640" font-size="32" font-weight="700" text-anchor="middle">Schematic, not patient data</text>
+<text id="footer-response" x="300" y="2205" fill="#53656a" font-size="28" font-weight="400" text-anchor="middle">Pattern is not a response prediction</text>
+</g>
+</svg>

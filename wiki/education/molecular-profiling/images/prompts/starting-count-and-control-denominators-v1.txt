@@ -1,0 +1,376 @@
+Original editable chart: starting-count-and-control-denominators-v1
+Author: claims_access. Deterministic Python standard library, not an image-generation model.
+Current public owner SHA256: b2f6b488d636ff222a7de352809dbdfe161470c05ffe461c8197c9fa690777b4
+Counts are fictional teaching values, not Hafner primary data. Net counts cannot establish individual cell fates, absence of division or patient benefit.
+
+Reproduction: save each literal block below to the named file in one directory. Use Python 3.10 or later with no third-party modules. Run: python3 -B render_chart.py --inputs . --output-dir output
+The renderer writes the exact light/dark SVGs. Their intrinsic size is 600 × 1190 with viewBox0 0 600 1190. Geometry/text are identical; only the named palettes differ. Never rasterize or convert fonts to paths. No third-party raw body or excerpt is included.
+
+BEGIN_LITERAL_RENDERER_PY render_chart.py
+#!/usr/bin/env python3
+"""Render the original fictional count chart; only the standard library is used."""
+import argparse
+from fractions import Fraction
+from html import escape
+import json
+from pathlib import Path
+
+STEM = "starting-count-and-control-denominators-v1"
+PALETTES = {
+    "light": {
+        "background": "#faf7f1", "ink": "#263640", "muted": "#465967",
+        "grid": "#d8ddd9", "control": "#4c7796", "treated": "#bb637a",
+        "hatch": "#733a4b", "card": "#f0ece5", "inside": "#ffffff",
+    },
+    "dark": {
+        "background": "#172530", "ink": "#f1eee8", "muted": "#c8d3da",
+        "grid": "#40515c", "control": "#7fa9c5", "treated": "#d18ca0",
+        "hatch": "#713e50", "card": "#213441", "inside": "#13222d",
+    },
+}
+
+
+def number(value):
+    """Write exact terminating coordinates without binary float drift."""
+    value = Fraction(value)
+    if value.denominator == 1:
+        return str(value.numerator)
+    scaled = value * 1000
+    assert scaled.denominator == 1, "Only exact three-place geometry is needed."
+    return f"{scaled.numerator / 1000:.3f}".rstrip("0").rstrip(".")
+
+
+def render(theme, data, coordinates, copy):
+    palette = PALETTES[theme]
+    assert coordinates["nativeViewBox"] == [0, 0, 600, 1190]
+    assert [(x["condition"], x["count"]) for x in data["observations"]] == [
+        ("Control", 1000), ("Treated", 1000), ("Control", 2000), ("Treated", 1000)
+    ]
+    assert [x["width"] for x in coordinates["bars"]] == [252, 252, 504, 252]
+    assert Fraction(1000, 2000) == Fraction(1, 2)
+    assert Fraction(1000, 1000) == 1
+    svg = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1190" '
+        'viewBox="0 0 600 1190" role="img" aria-labelledby="chart-title chart-desc">',
+        '<title id="chart-title">Half the later control, equal to the starting count</title>',
+        f'<desc id="chart-desc">{escape(copy["alt"])}</desc>',
+        f'<rect width="600" height="1190" fill="{palette["background"]}"/>',
+        '<defs>',
+        '<pattern id="treated-hatch" width="12" height="12" patternUnits="userSpaceOnUse">',
+        f'<path d="M -3 3 L 3 -3 M 0 12 L 12 0 M 9 15 L 15 9" '
+        f'fill="none" stroke="{palette["hatch"]}" stroke-width="2"/>',
+        '</pattern>',
+        '</defs>',
+        f'<g font-family="Arial, Helvetica, sans-serif" fill="{palette["ink"]}">',
+    ]
+
+    def text(x, y, content, size=28, weight=400, anchor="start", fill=None, extra=""):
+        svg.append(
+            f'<text x="{number(x)}" y="{number(y)}" font-size="{size}" '
+            f'font-weight="{weight}" text-anchor="{anchor}"'
+            + (f' fill="{fill}"' if fill else "")
+            + (f' {extra}' if extra else "")
+            + f'>{escape(content)}</text>'
+        )
+
+    text(36, 66, "50% of control.", 36, 700)
+    text(36, 110, "100% of start.", 36, 700)
+    text(36, 154, "Fictional viable-cell counts", 26, fill=palette["muted"])
+    text(48, 205, "Start", 32, 700)
+    text(48, 514, "Later", 32, 700)
+
+    for observation, bar, label_y, count_y in zip(
+        data["observations"], coordinates["bars"],
+        coordinates["conditionLabelYs"], coordinates["countLabelYs"],
+    ):
+        condition = observation["condition"]
+        count = observation["count"]
+        expected_width = Fraction(count) * Fraction(504, 2000)
+        assert expected_width == bar["width"]
+        x, y, width, height = bar["x"], bar["y"], bar["width"], bar["height"]
+        text(x, label_y, condition, 28, 600)
+        svg.append(
+            f'<rect id="bar-{observation["id"]}" data-count="{count}" '
+            f'x="{number(x)}" y="{number(y)}" width="{number(width)}" '
+            f'height="{number(height)}" fill="{palette[condition.lower()]}"/>'
+        )
+        if condition == "Treated":
+            svg.append(
+                f'<rect x="{number(x)}" y="{number(y)}" width="{number(width)}" '
+                f'height="{number(height)}" fill="url(#treated-hatch)"/>'
+            )
+        if count == 2000:
+            text(538, count_y, "2,000", 28, 700, "end", palette["inside"])
+        else:
+            text(x + width + 12, count_y, "1,000", 28, 700)
+
+    for axis_y in coordinates["axisYs"]:
+        svg.append(
+            f'<path d="M 48 {axis_y} H 552" fill="none" '
+            f'stroke="{palette["muted"]}" stroke-width="2"/>'
+        )
+        for tick in coordinates["ticks"]:
+            x = tick["x"]
+            svg.append(
+                f'<path d="M {x} {axis_y} V {axis_y + 9}" fill="none" '
+                f'stroke="{palette["muted"]}" stroke-width="2"/>'
+            )
+            text(x, axis_y + 36, f'{tick["count"]:,}', 26, anchor="middle")
+        text(300, axis_y + 64, "Viable cells • same scale", 26, anchor="middle", fill=palette["muted"])
+
+    for comparison, card in zip(data["comparisons"], coordinates["denominatorCards"]):
+        x, y, width, height = card["x"], card["y"], card["width"], card["height"]
+        svg.append(
+            f'<rect x="{x}" y="{y}" width="{width}" height="{height}" '
+            f'rx="12" fill="{palette["card"]}"/>'
+        )
+        cx = x + Fraction(width, 2)
+        text(cx, y + 42, "Compare with", 26, anchor="middle")
+        label = "later control" if comparison["id"] == "relative-to-later-control" else "treated start"
+        text(cx, y + 77, label, 28, 700, "middle")
+        formula = f'{comparison["numeratorCount"]:,} ÷ {comparison["denominatorCount"]:,}'
+        text(cx, y + 125, formula, 26, anchor="middle")
+        text(cx, y + 190, f'= {comparison["percentage"]}%', 44, 700, "middle")
+    text(300, 1150, "Net counts are not cell fates.", 27, 600, "middle")
+    svg.extend(["</g>", "</svg>"])
+    return "\n".join(svg) + "\n"
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--inputs", type=Path, default=Path(__file__).parent)
+    parser.add_argument("--output-dir", type=Path, required=True)
+    args = parser.parse_args()
+    data = json.loads((args.inputs / "chart-data.json").read_text())
+    coordinates = json.loads((args.inputs / "chart-coordinates.json").read_text())
+    copy = json.loads((args.inputs / "proposed-copy.json").read_text())
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    for theme in PALETTES:
+        (args.output_dir / f"{STEM}-{theme}.svg").write_text(render(theme, data, coordinates, copy))
+
+
+if __name__ == "__main__":
+    main()
+END_LITERAL_RENDERER_PY
+
+BEGIN_LITERAL_CHART_DATA_JSON chart-data.json
+{
+  "schemaVersion": 1,
+  "population": "Fictional experiment with 1,000 viable cells initially in each condition",
+  "units": "viable cells",
+  "timePoints": [
+    "Start",
+    "Later"
+  ],
+  "elapsedTimeSpecified": false,
+  "observations": [
+    {
+      "id": "start-control",
+      "time": "Start",
+      "condition": "Control",
+      "count": 1000
+    },
+    {
+      "id": "start-treated",
+      "time": "Start",
+      "condition": "Treated",
+      "count": 1000
+    },
+    {
+      "id": "later-control",
+      "time": "Later",
+      "condition": "Control",
+      "count": 2000
+    },
+    {
+      "id": "later-treated",
+      "time": "Later",
+      "condition": "Treated",
+      "count": 1000
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "relative-to-later-control",
+      "numerator": "later-treated",
+      "denominator": "later-control",
+      "numeratorCount": 1000,
+      "denominatorCount": 2000,
+      "exactRatio": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "percentage": 50,
+      "meaning": "Count relative to the later vehicle control, not percent of starting cells killed."
+    },
+    {
+      "id": "relative-to-treated-start",
+      "numerator": "later-treated",
+      "denominator": "start-treated",
+      "numeratorCount": 1000,
+      "denominatorCount": 1000,
+      "exactRatio": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "percentage": 100,
+      "meaning": "Same total as treated start, not the same individual cells."
+    }
+  ],
+  "netChangeTreated": 0,
+  "unmeasured": [
+    "division/death history",
+    "original-cell lineage",
+    "uncertainty/replicate distribution",
+    "patient response"
+  ],
+  "clinicalClaim": false
+}
+END_LITERAL_CHART_DATA_JSON
+
+BEGIN_LITERAL_CHART_COORDINATES_JSON chart-coordinates.json
+{
+  "schemaVersion": 1,
+  "nativeViewBox": [
+    0,
+    0,
+    600,
+    1190
+  ],
+  "intrinsicDimensions": {
+    "width": 600,
+    "height": 1190
+  },
+  "commonCountScale": {
+    "minimum": 0,
+    "maximum": 2000,
+    "originX": 48,
+    "rightX": 552,
+    "plotWidth": 504,
+    "unitsPerCount": {
+      "numerator": 63,
+      "denominator": 250
+    }
+  },
+  "bars": [
+    {
+      "id": "start-control",
+      "x": 48,
+      "y": 260,
+      "width": 252,
+      "height": 42,
+      "count": 1000,
+      "condition": "Control"
+    },
+    {
+      "id": "start-treated",
+      "x": 48,
+      "y": 351,
+      "width": 252,
+      "height": 42,
+      "count": 1000,
+      "condition": "Treated"
+    },
+    {
+      "id": "later-control",
+      "x": 48,
+      "y": 569,
+      "width": 504,
+      "height": 42,
+      "count": 2000,
+      "condition": "Control"
+    },
+    {
+      "id": "later-treated",
+      "x": 48,
+      "y": 660,
+      "width": 252,
+      "height": 42,
+      "count": 1000,
+      "condition": "Treated"
+    }
+  ],
+  "axisYs": [
+    417,
+    726
+  ],
+  "ticks": [
+    {
+      "count": 0,
+      "x": 48
+    },
+    {
+      "count": 1000,
+      "x": 300
+    },
+    {
+      "count": 2000,
+      "x": 552
+    }
+  ],
+  "conditionLabelYs": [
+    247,
+    338,
+    556,
+    647
+  ],
+  "countLabelYs": [
+    288,
+    379,
+    597,
+    688
+  ],
+  "minimumCoreTextNativeUnits": 26,
+  "denominatorCards": [
+    {
+      "id": "relative-to-later-control",
+      "x": 36,
+      "y": 836,
+      "width": 252,
+      "height": 256
+    },
+    {
+      "id": "relative-to-treated-start",
+      "x": 312,
+      "y": 836,
+      "width": 252,
+      "height": 256
+    }
+  ],
+  "nativeTo312CSSScale": {
+    "numerator": 13,
+    "denominator": 25
+  },
+  "intendedCore26UnitTextAt312CSS": 13.52,
+  "pixelReadabilityCertification": false,
+  "geometryLimits": "Bars share the exact same zero/count mapping. No trajectory connectors or inferred time course."
+}
+END_LITERAL_CHART_COORDINATES_JSON
+
+BEGIN_LITERAL_PROPOSED_COPY_JSON proposed-copy.json
+{
+  "alt": "Fictional viable-cell count chart. Both control and treated conditions start at 1,000 cells. Later, control has 2,000 and treated has 1,000, on the same zero-to-2,000 scale. The treated endpoint is 50% of later control and 100% of treated start; these net counts do not show individual cell fates.",
+  "caption": "Half the later control can equal the full starting count. These fictional counts show no net increase under treatment, not 50% cell killing; division and death still need separate measurements.",
+  "firstUse": "No new acronym. Vehicle control is defined earlier in the preserved lesson.",
+  "scientificLimit": "Net counts do not reconstruct individual division, survival, death or lineage."
+}
+END_LITERAL_PROPOSED_COPY_JSON
+
+BEGIN_LITERAL_SPECIFICATION_TXT editable-chart-specification.txt
+Original editable exact-count chart specification
+
+Create a 600 × 1190 SVG with selectable text, title/description, role=img and aria-labelledby. Use only Python standard-library SVG string/XML generation, with no font/path conversion, raster image or third-party chart geometry. The viewBox and intrinsic width/height must both be explicit.
+
+Use the exact chart-data.json observations and chart-coordinates.json mappings. At Start, Control and Treated each show 1,000 viable cells. Later, Control shows 2,000 and Treated 1,000. All four horizontal bars start at x=48, 0 count; width=504 × count/2,000. Hence the exact widths are 252,252,504,252. Axes in both temporal groups share ticks x=48/300/552 for 0/1,000/2,000; never rescale a group or condition. Bar heights are 42. This is a pair of endpoint snapshots, not a continuous time curve or a lineage movie.
+
+Place short Control/Treated labels immediately above their bars; counts are outside 1,000 bars or legibly inside the full 2,000 bar. The two denominator strips below say Compare with later control, 1,000 ÷ 2,000=50%; Compare with treated start, 1,000 ÷ 1,000=100%. Put ordinary spaces around numbers in all prose. Header: 50% of control / 100% of start; subtitle: Fictional viable-cell counts. At least 26 native units for core condition/count/axis/denominator words; record actual 312px visual review later rather than treating this intended size as proof.
+
+Quiet warm pale background/dark ink for light; quiet navy background/pale ink for dark. Control is blue and solid; Treated is rose and diagonally hatched in both groups and themes. Labels reinforce these identities. Do not color any state as efficacy, death, safety or success. Keep all SVG geometry and text identical between themes; colors alone differ.
+
+No drug names, clone labels, arrows linking specific cells across time, dead-cell pictograms, trajectories, distributions, uncertainty bars, GR formulas, new treatment timing, clinical response or recommendation. No net increase is an arithmetic statement; it does not prove zero division or preserve the same cells.
+
+Alt and caption must be the exact strings in proposed-copy.json. One future image insertion in the retained worked-count section will use a relative light SVG src, width 600 height 1190 and boolean data-theme-pair. Remove that exact block to restore the original owner SHA. Preserve all existing lesson bytes and pending human metadata.
+
+Portable publication TXT will retain this specification plus the complete original renderer source and literal exact JSON data/coordinate/copy blocks with unambiguous extractors/reproduction instructions. Direct and extracted fresh output reproduction must be recorded before independent handoff. Third-party acquired XML/selected excerpts stay local.
+END_LITERAL_SPECIFICATION_TXT
