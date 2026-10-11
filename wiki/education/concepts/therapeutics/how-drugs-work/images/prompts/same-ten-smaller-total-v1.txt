@@ -1,0 +1,416 @@
+Original editable quantitative chart specification — next-gap-011
+
+Question: A larger fraction, not more resistant cells.
+Medium: original SVG quantitative chart, not generated raster art.
+Scope: preserve the exact fictional Worked example in the current drug-resistance owner. Do not edit the owner or any repository in this planning step.
+
+DATA AND DERIVATION
+Use chart-data-draft.json exactly. Before: sensitive 990 + resistant 10 = total 1000. After: sensitive 99 + resistant 10 = total 109. Removal is sensitive 891, resistant 0. Resistant fractions are Fraction(10,1000)=1/100 and Fraction(10,109). Multiply by100 for percentage: 1 and1000/109 =9.174311926605505...; display second result as about 9.2%, never as a resistant count or growth rate. No interpolation, confidence intervals, replicates or population estimates. No new division, state change or mutation is modeled.
+
+LAYOUT
+Portrait editable SVG viewBox 0 0 600 1440. Exact coordinate plan is coordinate-specification-draft.json. Two stacked count bars use one common linear cells scale 0–1000 at x 96..552. Stack sensitive first, resistant second, with all bars at their exact quantitative widths. Resistant segment width is 4.56 SVG units in each row; do not enlarge it for legibility. Give each a readable external '10 resistant' label with a thin leader whose endpoint is the segment center. Before label 'Total 1,000'; after 'Total 109'; exact sensitive labels990 and99. No cell icons claiming a one-icon-per-cell census, death mechanism or equal culture volume. No broken/logarithmic/truncated count axes.
+
+A distinct lower panel is titled 'Resistant fraction', with 'Percentage axis: 0–10%' explicit. Its independent linear percent scale runs 0–10, x 96..552. Label each bar with its complete denominator formula: '10/1,000 = 1%' and '10/109 ≈ 9.2%'. It is allowed to use a 0–10% domain solely because it is prominently identified as percentage and shown with 0%, 5%, 10% ticks; never imply this plot uses the cell-count scale or is a 100-cell population. Use exact unrounded10/109 percentage for bar geometry; round only display text. Both count rows share one count axis; both fraction rows share one percentage axis. No covert per-row normalization.
+
+TYPOGRAPHY AND THEMES
+Native core words >=28 SVG units on a 600-unit canvas, predicted>=14.56 CSSpx at312px embed. Axis numerals >=26 and optional small qualifier >=24. These are intended sizes, not actual pixel acceptance. Ordinary phone and desktop both-theme pixels must be inspected after rendering; reflow labels instead of shrinking core fonts. Use Arial, DejaVu Sans, sans-serif and editable native text, not outlines/rasterized lettering. Palette-only themes: warm pale/light ink versus quiet navy/pale ink. Sensitive and resistant identities stay fixed, with text + hatch supporting color. The same text, counts, segment boundaries, axes, leaders, data and geometry must appear in both themes. No red/green moral coding or outcome trend beyond the stipulated counts.
+
+CORE LABELS
+'A larger fraction, not more resistant cells'; 'Fictional selection toy'; 'Absolute cell counts'; 'Cells: same 0–1,000 axis'; 'Before'; 'After'; 'Total 1,000'; 'Total 109'; '990 sensitive'; '99 sensitive'; '10 resistant'; 'Resistant fraction'; 'Percentage axis: 0–10%'; '10/1,000 = 1%'; '10/109 ≈ 9.2%'; 'Resistant count stays 10'; 'No division or state change'; 'No new mutation is established'. All final visible strings use ordinary spaces around words/numbers, mathematical glyphs and separators. Source data/spec use exact values, not a screenshot transcription.
+
+PORTABLE REPRODUCTION CONTRACT
+Implement an original stdlib-only Python 3 renderer after independent plan approval. Read the frozen JSON data; calculate all integer totals and fractions with fractions.Fraction; explicitly format one-place percent display. Read named palette dictionaries; write identical SVG element/text/coordinate sequences for light and dark, changing only palette attributes. Escape XML text with html.escape. Deterministic file order, UTF-8 and LF endings, no run-specific timestamps, random IDs, hash salts, external fonts, network assets or JavaScript. SVG width 600 height 1440, xmlns valid, title/desc describe the real chart and assumptions; no scripts/foreignObject. Derive geometry from the declared axes (do not hard-code a rounded 9.2% bar width).
+Save render_chart.py, its exact input data, coordinate ledger, light.svg/dark.svg and chart-checks.json. Two fresh directories must reproduce every deterministic output byte-exact from the same source/data. The canonical saved TXT will contain this guarded specification PLUS the entire literal portable renderer and data/requirements/reproduction instructions, not a link to a transient environment. Actual source/outputs/call hashes must be frozen before root integration. No renderer or SVG output is authorized by this brief alone.
+
+ACCEPTANCE AND LIMITS
+Independent non-author review must check source/task bindings, integer/Fraction arithmetic, every bar endpoint and tick, separate axes, label leaders, core 312px reading and all theme-matched objects. Root separately authorizes render, integrates the owner and verifies actual public readers/media/viewer/native hashes before release. The historical source-fit partial row and all human metadata remain unchanged. No coverage, treatment, patient, mechanism, regimen or goal-completion credit is claimed by planning/rendering.
+
+PORTABLE SOURCE BUNDLE
+Python 3 standard library only. Extract each BEGIN FILE / END FILE block to the named UTF-8/LF file; keep its trailing newline. Run: python3 render_chart.py --input-dir . --output-dir ./new-render-directory
+The frozen coordinate input records its historical planning stage; the renderer validates actual bar geometry and outputs chart-checks.json. No install or internet access is required.
+
+BEGIN FILE: render_chart.py
+#!/usr/bin/env python3
+"""Original portable renderer for the frozen fictional resistance selection toy.
+
+Preparation only until the independently reviewed brief and coordinator readiness
+are satisfied. This module has no filesystem effects when imported.
+Run: python3 render_chart.py --input-dir . --output-dir /fresh/output/directory
+Python 3 standard library only; no fonts, images, scripts, network or packages.
+"""
+from __future__ import annotations
+
+import argparse
+from fractions import Fraction
+from hashlib import sha256
+from html import escape
+import json
+from pathlib import Path
+
+STEM = "same-ten-smaller-total-v1"
+WIDTH, HEIGHT = 600, 1440
+PALETTES = {
+    "light": {
+        "ground": "#fbf8f1", "panel": "#fffdf8", "ink": "#17324a",
+        "quiet": "#526577", "border": "#d5d8d7", "grid": "#e3e4df",
+        "sensitive": "#83b6b6", "sensitiveEdge": "#426f73",
+        "resistant": "#b8a4d8", "resistantEdge": "#675486",
+        "hatch": "#675486", "takeaway": "#eee9f5",
+    },
+    "dark": {
+        "ground": "#172631", "panel": "#20323e", "ink": "#edf2ef",
+        "quiet": "#bccbd0", "border": "#4b626e", "grid": "#3a505d",
+        "sensitive": "#659d9e", "sensitiveEdge": "#b0d2cf",
+        "resistant": "#ac93ce", "resistantEdge": "#dacced",
+        "hatch": "#e4d8f1", "takeaway": "#33364b",
+    },
+}
+
+
+def number(value: int | float | Fraction) -> str:
+    """Stable decimal coordinates; geometry derives from exact rational data."""
+    if isinstance(value, int):
+        return str(value)
+    return f"{float(value):.9f}".rstrip("0").rstrip(".")
+
+
+def validate(data: dict, coords: dict) -> dict:
+    before, after, removed = data["before"], data["after"], data["removed"]
+    assert (before["sensitive"], before["resistant"]) == (990, 10)
+    assert (after["sensitive"], after["resistant"]) == (99, 10)
+    assert before["total"] == before["sensitive"] + before["resistant"] == 1000
+    assert after["total"] == after["sensitive"] + after["resistant"] == 109
+    assert removed["sensitive"] == before["sensitive"] - after["sensitive"] == 891
+    assert removed["resistant"] == 0
+    assert removed["total"] == 891
+    assert Fraction(after["sensitive"], before["sensitive"]) == Fraction(1, 10)
+    fractions = [Fraction(r["resistant"], r["total"]) for r in (before, after)]
+    assert fractions == [Fraction(1, 100), Fraction(10, 109)]
+    assert data["fractions"] == ["10/1,000 = 1%", "10/109 ≈ 9.2%"]
+    assert data["plotAxes"]["absoluteCount"]["min"] == 0
+    assert data["plotAxes"]["absoluteCount"]["max"] == 1000
+    assert data["plotAxes"]["absoluteCount"]["ticks"] == [0, 250, 500, 750, 1000]
+    assert data["plotAxes"]["resistantFraction"]["min"] == 0
+    assert data["plotAxes"]["resistantFraction"]["max"] == 10
+    assert data["plotAxes"]["resistantFraction"]["ticks"] == [0, 5, 10]
+    assert coords["canvas"] == {"width": WIDTH, "height": HEIGHT, "svgViewBox": "0 0 600 1440"}
+    for k in ("countPlot", "fractionPlot"):
+        assert (coords[k]["xMin"], coords[k]["xMax"]) == (96, 552)
+    assert coords["countPlot"]["rowCenters"] == {"before": 346, "after": 510}
+    assert coords["fractionPlot"]["rowCenters"] == {"before": 896, "after": 1046}
+    count_length = Fraction(456)
+    percent_length = Fraction(456)
+    count_rows = []
+    fraction_rows = []
+    for name, state, frac in zip(("before", "after"), (before, after), fractions):
+        sensitive_width = count_length * state["sensitive"] / 1000
+        resistant_width = count_length * state["resistant"] / 1000
+        resistant_start = Fraction(96) + sensitive_width
+        count_rows.append({"state": name, "sensitive": state["sensitive"], "resistant": state["resistant"], "total": state["total"],
+                           "sensitiveStartX": 96, "sensitiveWidth": float(sensitive_width),
+                           "resistantStartX": float(resistant_start), "resistantWidth": float(resistant_width),
+                           "resistantLeaderEndpointX": float(resistant_start + resistant_width / 2),
+                           "totalEndX": float(resistant_start + resistant_width)})
+        percent = frac * 100
+        fraction_rows.append({"state": name, "numerator": state["resistant"], "denominator": state["total"],
+                              "exactFraction": str(frac), "exactPercent": str(percent), "barWidth": float(percent_length * percent / 10)})
+    assert count_rows[0]["resistantWidth"] == count_rows[1]["resistantWidth"] == 4.56
+    assert abs(fraction_rows[1]["barWidth"] - coords["fractionPlot"]["afterBarWidth"]) < 1e-9
+    return {"id": "next-gap-011", "fictional": True, "counts": count_rows, "fractions": fraction_rows,
+            "assumptions": data["assumptions"], "countAxis": data["plotAxes"]["absoluteCount"],
+            "percentageAxis": data["plotAxes"]["resistantFraction"],
+            "coreSize": 28, "predictedCoreCssPixelsAt312": 28 * 312 / WIDTH,
+            "actualPixelAcceptance": "pending independent actual previews", "allArithmeticChecksPassed": True}
+
+
+class Drawing:
+    def __init__(self, palette: dict):
+        self.p = palette
+        self.lines = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-labelledby="chart-title chart-description">',
+                      '<title id="chart-title">A larger fraction, not more resistant cells</title>',
+                      '<desc id="chart-description">Fictional selection toy. Before: 990 sensitive plus 10 resistant cells, total 1,000. After: 99 sensitive plus the same 10 resistant cells, total 109. Both count bars use one linear 0 to 1,000 cell axis. A separate 0 to 10 percent axis shows 10/1,000 equals 1 percent and 10/109 approximately 9.2 percent. No division, state change, new mutation or clinical treatment effect is established.</desc>',
+                      '<defs>',
+                      f'<pattern id="resistant-hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M -2 2 L 2 -2 M 0 10 L 10 0 M 8 12 L 12 8" fill="none" stroke="{palette["hatch"]}" stroke-width="1.5"/></pattern>',
+                      '</defs>',
+                      f'<g font-family="Arial, DejaVu Sans, sans-serif" fill="{palette["ink"]}">']
+    def rect(self, x, y, width, height, fill, stroke=None, radius=0, element_id=None):
+        attrs = f' x="{number(x)}" y="{number(y)}" width="{number(width)}" height="{number(height)}" fill="{fill}"'
+        if stroke:
+            attrs += f' stroke="{stroke}" stroke-width="1.5"'
+        if radius:
+            attrs += f' rx="{number(radius)}"'
+        if element_id:
+            attrs += f' id="{escape(element_id, quote=True)}"'
+        self.lines.append(f'<rect{attrs}/>')
+    def text(self, x, y, value, size=28, anchor="start", weight="normal", quiet=False):
+        color = self.p["quiet"] if quiet else self.p["ink"]
+        self.lines.append(f'<text x="{number(x)}" y="{number(y)}" font-size="{size}" text-anchor="{anchor}" font-weight="{weight}" fill="{color}">{escape(value)}</text>')
+    def path(self, points, stroke=None, width=1.5, element_id=None):
+        d = "M " + " L ".join(f"{number(x)} {number(y)}" for x, y in points)
+        identity = f' id="{escape(element_id, quote=True)}"' if element_id else ""
+        self.lines.append(f'<path{identity} d="{d}" fill="none" stroke="{stroke or self.p["quiet"]}" stroke-width="{number(width)}"/>')
+    def finish(self):
+        return "\n".join(self.lines + ['</g>', '</svg>', '']).encode("utf-8")
+
+
+def render(theme: str, data: dict, coords: dict, checks: dict) -> bytes:
+    p = PALETTES[theme]
+    d = Drawing(p)
+    d.rect(0, 0, WIDTH, HEIGHT, p["ground"])
+    d.text(40, 62, "A larger fraction,", 34, weight="bold")
+    d.text(40, 106, "not more resistant cells", 34, weight="bold")
+    d.text(40, 152, "Fictional selection toy", 28, quiet=True)
+    d.rect(24, 181, 552, 514, p["panel"], p["border"], 16)
+    d.text(48, coords["countPlot"]["headerY"], "Absolute cell counts", 30, weight="bold")
+    d.text(48, 248, "Cells: same 0–1,000 axis", 28)
+    count = coords["countPlot"]
+    xmin, xmax = count["xMin"], count["xMax"]
+    for tick in data["plotAxes"]["absoluteCount"]["ticks"]:
+        x = Fraction(xmin) + Fraction(xmax - xmin) * tick / 1000
+        d.path([(x, 310), (x, count["axisY"])], p["grid"], 1)
+        d.path([(x, count["axisY"]), (x, count["axisY"] + 7)], p["quiet"], 1.5)
+        d.text(x, count["axisY"] + 38, f"{tick:,}", 26, anchor="middle")
+    d.path([(xmin, count["axisY"]), (xmax, count["axisY"])])
+    for name, state, row in zip(("before", "after"), (data["before"], data["after"]), checks["counts"]):
+        y = count["rowCenters"][name]
+        h = count["barHeight"]
+        heading_y = count["beforeHeadingY" if name == "before" else "afterHeadingY"]
+        label_y = count["beforeExactLabelY" if name == "before" else "afterExactLabelY"]
+        d.text(xmin, heading_y, name.capitalize(), 28, weight="bold")
+        d.text(xmax, heading_y, f'Total {state["total"]:,}', 28, anchor="end")
+        sensitive_width = Fraction(xmax - xmin) * state["sensitive"] / 1000
+        resistant_width = Fraction(xmax - xmin) * state["resistant"] / 1000
+        rx = Fraction(xmin) + sensitive_width
+        d.rect(xmin, y - h / 2, sensitive_width, h, p["sensitive"], p["sensitiveEdge"], element_id=f"{name}-sensitive-count")
+        d.rect(rx, y - h / 2, resistant_width, h, p["resistant"], element_id=f"{name}-resistant-count")
+        d.rect(rx, y - h / 2, resistant_width, h, "url(#resistant-hatch)")
+        d.text(xmin, label_y, f'{state["sensitive"]} sensitive', 28)
+        d.text(xmax, label_y, "10 resistant", 28, anchor="end")
+        endpoint = rx + resistant_width / 2
+        leader_y = label_y - 30
+        d.path([(endpoint, y + h / 2), (endpoint, leader_y - 4), (472, leader_y - 4), (472, leader_y)], p["resistantEdge"], 1.8, element_id=f"{name}-resistant-leader")
+    d.rect(24, 703, 552, 497, p["panel"], p["border"], 16)
+    d.text(48, coords["fractionPlot"]["headerY"], "Resistant fraction", 30, weight="bold")
+    d.text(48, coords["fractionPlot"]["explicitLimitY"], "Percentage axis: 0–10%", 28)
+    fraction = coords["fractionPlot"]
+    for tick in data["plotAxes"]["resistantFraction"]["ticks"]:
+        x = Fraction(xmin) + Fraction(xmax - xmin) * tick / 10
+        d.path([(x, 864), (x, fraction["axisY"])], p["grid"], 1)
+        d.path([(x, fraction["axisY"]), (x, fraction["axisY"] + 7)])
+        d.text(x, fraction["axisY"] + 36, f"{tick}%", 26, anchor="middle")
+    d.path([(xmin, fraction["axisY"]), (xmax, fraction["axisY"])])
+    for name, state, formula in zip(("before", "after"), (data["before"], data["after"]), data["fractions"]):
+        y = fraction["rowCenters"][name]
+        h = fraction["barHeight"]
+        fy = fraction["beforeFormulaY" if name == "before" else "afterFormulaY"]
+        d.text(48, fy, name.capitalize(), 28, weight="bold")
+        d.text(xmax, fy, formula, 28, anchor="end")
+        percentage = Fraction(state["resistant"], state["total"]) * 100
+        width = Fraction(xmax - xmin) * percentage / 10
+        d.rect(xmin, y - h / 2, width, h, p["resistant"], p["resistantEdge"], element_id=f"{name}-resistant-fraction")
+        d.rect(xmin, y - h / 2, width, h, "url(#resistant-hatch)")
+    d.rect(24, 1210, 552, 67, p["takeaway"], radius=12)
+    d.text(300, coords["ending"]["takeawayY"], "Resistant count stays 10", 30, anchor="middle", weight="bold")
+    d.text(40, coords["ending"]["assumptionsY"][0], "No division or state change", 28)
+    d.text(40, coords["ending"]["assumptionsY"][1], "No new mutation is established", 28)
+    d.text(40, coords["ending"]["assumptionsY"][2], "Exact counts; not clinical results", 26, quiet=True)
+    return d.finish()
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input-dir", type=Path, default=Path(__file__).resolve().parent)
+    parser.add_argument("--output-dir", type=Path, required=True)
+    args = parser.parse_args()
+    data_path = args.input_dir / "chart-data-draft.json"
+    coords_path = args.input_dir / "coordinate-specification-draft.json"
+    data_bytes, coords_bytes = data_path.read_bytes(), coords_path.read_bytes()
+    assert sha256(data_bytes).hexdigest() == "342bf930a3f174a49e9fc3180a34959514db6c72b85ff38568a6d084f77e7eb8"
+    assert sha256(coords_bytes).hexdigest() == "2261298e3625b9c0c0ccb6cb8947e78000f1b59c49e71a1292338bc0b4ea56e3"
+    data, coords = json.loads(data_bytes), json.loads(coords_bytes)
+    checks = validate(data, coords)
+    checks["inputHashes"] = {"chart-data-draft.json": sha256(data_bytes).hexdigest(), "coordinate-specification-draft.json": sha256(coords_bytes).hexdigest()}
+    output = args.output_dir
+    output.mkdir(parents=True, exist_ok=False)
+    for theme in ("light", "dark"):
+        (output / f"{STEM}-{theme}.svg").write_bytes(render(theme, data, coords, checks))
+    (output / "chart-checks.json").write_text(json.dumps(checks, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (output / "chart-data.json").write_bytes(data_bytes)
+    (output / "coordinate-specification.json").write_bytes(coords_bytes)
+
+
+if __name__ == "__main__":
+    main()
+END FILE: render_chart.py
+
+BEGIN FILE: chart-data-draft.json
+{
+  "schemaVersion": 1,
+  "id": "next-gap-011",
+  "population": "One invented culture; two time states of the same toy population",
+  "assumptions": [
+    "Treatment removes 90% of sensitive cells and no resistant cells.",
+    "No new cell division, state change or mutation is modeled.",
+    "The word resistant is a defined starting category in this fictional example; the chart does not establish a molecular mechanism.",
+    "These are exact fictional counts, not a clinical observation, estimated survival curve, treatment efficacy or population rate."
+  ],
+  "before": {
+    "sensitive": 990,
+    "resistant": 10,
+    "total": 1000,
+    "resistantFraction": {
+      "numerator": 10,
+      "denominator": 1000,
+      "decimal": 0.01,
+      "percent": 1.0
+    }
+  },
+  "after": {
+    "sensitive": 99,
+    "resistant": 10,
+    "total": 109,
+    "resistantFraction": {
+      "numerator": 10,
+      "denominator": 109,
+      "decimal": 0.09174311926605505,
+      "percent": 9.174311926605505
+    }
+  },
+  "removed": {
+    "sensitive": 891,
+    "resistant": 0,
+    "total": 891
+  },
+  "units": {
+    "absolute": "cells",
+    "fraction": "resistant cells / total remaining cells",
+    "percent": "100 × resistant cells / total remaining cells"
+  },
+  "fractions": [
+    "10/1,000 = 1%",
+    "10/109 ≈ 9.2%"
+  ],
+  "plotAxes": {
+    "absoluteCount": {
+      "type": "linear",
+      "min": 0,
+      "max": 1000,
+      "ticks": [
+        0,
+        250,
+        500,
+        750,
+        1000
+      ],
+      "unit": "cells",
+      "sharedBetweenBeforeAndAfter": true
+    },
+    "resistantFraction": {
+      "type": "linear",
+      "min": 0,
+      "max": 10,
+      "ticks": [
+        0,
+        5,
+        10
+      ],
+      "unit": "percent of the indicated total",
+      "separateFromAbsoluteCount": true,
+      "limitLabel": "Percentage axis: 0–10%, not cell counts"
+    }
+  }
+}
+END FILE: chart-data-draft.json
+
+BEGIN FILE: coordinate-specification-draft.json
+{
+  "schemaVersion": 1,
+  "plannedNotRendered": true,
+  "canvas": {
+    "width": 600,
+    "height": 1440,
+    "svgViewBox": "0 0 600 1440"
+  },
+  "font": {
+    "family": "Arial, DejaVu Sans, sans-serif",
+    "coreSize": 28,
+    "titleSize": 34,
+    "axisSize": 26,
+    "smallestOptionalSize": 24,
+    "predictedCoreCSSAt312": 14.56,
+    "actualPixelCheck": "pending"
+  },
+  "countPlot": {
+    "xMin": 96,
+    "xMax": 552,
+    "axisY": 620,
+    "rowCenters": {
+      "before": 346,
+      "after": 510
+    },
+    "barHeight": 54,
+    "equation": "x(cells) = 96 + 456 × cells/1000",
+    "beforeBar": {
+      "sensitive": [
+        96,
+        319,
+        451.44,
+        54
+      ],
+      "resistant": [
+        547.44,
+        319,
+        4.56,
+        54
+      ]
+    },
+    "afterBar": {
+      "sensitive": [
+        96,
+        483,
+        45.144,
+        54
+      ],
+      "resistant": [
+        141.144,
+        483,
+        4.56,
+        54
+      ]
+    },
+    "leaders": "Each 10 resistant label points to the actual resistant segment center; never enlarge its quantitative width.",
+    "headerY": 212,
+    "beforeHeadingY": 282,
+    "beforeExactLabelY": 420,
+    "afterHeadingY": 448,
+    "afterExactLabelY": 584
+  },
+  "fractionPlot": {
+    "xMin": 96,
+    "xMax": 552,
+    "axisY": 1150,
+    "rowCenters": {
+      "before": 896,
+      "after": 1046
+    },
+    "barHeight": 42,
+    "equation": "x(percent) = 96 + 456 × percent/10",
+    "beforeBarWidth": 45.6,
+    "afterBarWidth": 418.34862385321105,
+    "headerY": 742,
+    "explicitLimitY": 788,
+    "beforeFormulaY": 844,
+    "afterFormulaY": 996
+  },
+  "ending": {
+    "takeawayY": 1246,
+    "assumptionsY": [
+      1302,
+      1340,
+      1378
+    ],
+    "noDiagramCausalArrow": true
+  },
+  "themeConstraint": "Every coordinate, datum, label, leader and hatch identical in light/dark; palette changes only."
+}
+END FILE: coordinate-specification-draft.json

@@ -45,6 +45,11 @@ Consequences depend on where the change sits. Within a protein-coding sequence, 
 
 A **frameshift** changes the grouping of the translated sequence into three-base units, or codons. A net coding insertion or deletion not divisible by three can shift that frame. An **in-frame** change preserves the downstream grouping. This reasoning assumes the stated transcript and coding sequence; an indel outside the coding region is not automatically a frameshift.
 
+<div class="my-6">
+  <img src="./images/mutation-edit-and-reading-frame-v1-light.svg" alt="A fictional coding-strand DNA window grouped into triplets shows a one-base substitution, a three-base deletion that retains downstream grouping, and a one-base deletion that shifts it; a separate six-segment DNA exchange leaves RNA and protein unmeasured." data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">In this fictional coding-strand window, ATG|GAA|TCC|GCT|AAC|GGT becomes ATG|GCA|TCC|GCT|AAC|GGT after one substitution, ATG|TCC|GCT|AAC|GGT after deleting GAA, and ATG|AAT|CCG|CTA|ACG|GT… after deleting reference position 4 (the G in GAA). The same transcript and left-edge frame are assumed; the final GT continues beyond the window. Rearranged DNA alone does not measure RNA or protein.</p>
+</div>
+
 A change near a splice boundary may affect how RNA segments are joined. A prediction does not demonstrate the altered transcript. Likewise, a DNA fusion does not establish that its proposed RNA or protein is produced, and a joined RNA does not establish a DNA rearrangement. [Human Genome Variation Society (HGVS) recommendations](https://hgvs-nomenclature.org/stable/recommendations/general/) distinguish observed changes from predicted consequences and retain reference-sequence versions.
 
 ## Why it matters in cancer

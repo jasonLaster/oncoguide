@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "reportedModel": null,
+  "status": "typography-refined light pending independent actual phone review",
+  "actualCall": {
+    "path": "/tmp/education-visual-gap-production-wave4/009/attempt-2-light-call.json",
+    "sha256": "793512608d175741a2ee678021b726a0bf50ce56cee4942cb8b80ab8cb634e89"
+  },
+  "independentCallReview": {
+    "path": "/tmp/education-visual-gap-production-wave4/009/attempt-2-call-independent-review.json",
+    "sha256": "5b3508bc9f91f70b003265ae9c2626a0bf74632cc765b03b10e8eaf3cdcb253a"
+  },
+  "reference": {
+    "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-0b2c5816-806a-45cb-969c-127f16ed9c52.png",
+    "sha256": "2a15700db2b822fc78a26ff080d921074da16acc2f8751562b32ec0d1d821f50"
+  },
+  "returnedNativePath": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-fc0f4a40-ead7-4b5e-bae4-12dddb61e50c.png",
+  "scratchCopyPath": "/tmp/education-visual-gap-production-wave4/009/attempt-2-light.png",
+  "outputSHA256": "14b01ed07a1fe71a70760cb2787e063267134438576e4ac66b9291924ab3736e",
+  "actualDimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "nativeUnmodified": true,
+  "pixelPostprocessing": false,
+  "authorSelfReview": "Labels visibly enlarged; same objects, membrane lumens, ribosome branch targets, cargo and outward fusion retained. Independent actual312px review remains required.",
+  "humanReview": "pending",
+  "sourceFitCredit": 0,
+  "noVaultWrites": true
+}

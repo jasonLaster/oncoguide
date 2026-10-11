@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1440" viewBox="0 0 600 1440" role="img" aria-labelledby="chart-title chart-description">
+<title id="chart-title">A larger fraction, not more resistant cells</title>
+<desc id="chart-description">Fictional selection toy. Before: 990 sensitive plus 10 resistant cells, total 1,000. After: 99 sensitive plus the same 10 resistant cells, total 109. Both count bars use one linear 0 to 1,000 cell axis. A separate 0 to 10 percent axis shows 10/1,000 equals 1 percent and 10/109 approximately 9.2 percent. No division, state change, new mutation or clinical treatment effect is established.</desc>
+<defs>
+<pattern id="resistant-hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M -2 2 L 2 -2 M 0 10 L 10 0 M 8 12 L 12 8" fill="none" stroke="#675486" stroke-width="1.5"/></pattern>
+</defs>
+<g font-family="Arial, DejaVu Sans, sans-serif" fill="#17324a">
+<rect x="0" y="0" width="600" height="1440" fill="#fbf8f1"/>
+<text x="40" y="62" font-size="34" text-anchor="start" font-weight="bold" fill="#17324a">A larger fraction,</text>
+<text x="40" y="106" font-size="34" text-anchor="start" font-weight="bold" fill="#17324a">not more resistant cells</text>
+<text x="40" y="152" font-size="28" text-anchor="start" font-weight="normal" fill="#526577">Fictional selection toy</text>
+<rect x="24" y="181" width="552" height="514" fill="#fffdf8" stroke="#d5d8d7" stroke-width="1.5" rx="16"/>
+<text x="48" y="212" font-size="30" text-anchor="start" font-weight="bold" fill="#17324a">Absolute cell counts</text>
+<text x="48" y="248" font-size="28" text-anchor="start" font-weight="normal" fill="#17324a">Cells: same 0–1,000 axis</text>
+<path d="M 96 310 L 96 620" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 96 620 L 96 627" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="96" y="658" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">0</text>
+<path d="M 210 310 L 210 620" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 210 620 L 210 627" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="210" y="658" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">250</text>
+<path d="M 324 310 L 324 620" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 324 620 L 324 627" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="324" y="658" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">500</text>
+<path d="M 438 310 L 438 620" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 438 620 L 438 627" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="438" y="658" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">750</text>
+<path d="M 552 310 L 552 620" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 552 620 L 552 627" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="552" y="658" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">1,000</text>
+<path d="M 96 620 L 552 620" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="96" y="282" font-size="28" text-anchor="start" font-weight="bold" fill="#17324a">Before</text>
+<text x="552" y="282" font-size="28" text-anchor="end" font-weight="normal" fill="#17324a">Total 1,000</text>
+<rect x="96" y="319" width="451.44" height="54" fill="#83b6b6" stroke="#426f73" stroke-width="1.5" id="before-sensitive-count"/>
+<rect x="547.44" y="319" width="4.56" height="54" fill="#b8a4d8" id="before-resistant-count"/>
+<rect x="547.44" y="319" width="4.56" height="54" fill="url(#resistant-hatch)"/>
+<text x="96" y="420" font-size="28" text-anchor="start" font-weight="normal" fill="#17324a">990 sensitive</text>
+<text x="552" y="420" font-size="28" text-anchor="end" font-weight="normal" fill="#17324a">10 resistant</text>
+<path id="before-resistant-leader" d="M 549.72 373 L 549.72 386 L 472 386 L 472 390" fill="none" stroke="#675486" stroke-width="1.8"/>
+<text x="96" y="448" font-size="28" text-anchor="start" font-weight="bold" fill="#17324a">After</text>
+<text x="552" y="448" font-size="28" text-anchor="end" font-weight="normal" fill="#17324a">Total 109</text>
+<rect x="96" y="483" width="45.144" height="54" fill="#83b6b6" stroke="#426f73" stroke-width="1.5" id="after-sensitive-count"/>
+<rect x="141.144" y="483" width="4.56" height="54" fill="#b8a4d8" id="after-resistant-count"/>
+<rect x="141.144" y="483" width="4.56" height="54" fill="url(#resistant-hatch)"/>
+<text x="96" y="584" font-size="28" text-anchor="start" font-weight="normal" fill="#17324a">99 sensitive</text>
+<text x="552" y="584" font-size="28" text-anchor="end" font-weight="normal" fill="#17324a">10 resistant</text>
+<path id="after-resistant-leader" d="M 143.424 537 L 143.424 550 L 472 550 L 472 554" fill="none" stroke="#675486" stroke-width="1.8"/>
+<rect x="24" y="703" width="552" height="497" fill="#fffdf8" stroke="#d5d8d7" stroke-width="1.5" rx="16"/>
+<text x="48" y="742" font-size="30" text-anchor="start" font-weight="bold" fill="#17324a">Resistant fraction</text>
+<text x="48" y="788" font-size="28" text-anchor="start" font-weight="normal" fill="#17324a">Percentage axis: 0–10%</text>
+<path d="M 96 864 L 96 1150" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 96 1150 L 96 1157" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="96" y="1186" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">0%</text>
+<path d="M 324 864 L 324 1150" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 324 1150 L 324 1157" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="324" y="1186" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">5%</text>
+<path d="M 552 864 L 552 1150" fill="none" stroke="#e3e4df" stroke-width="1"/>
+<path d="M 552 1150 L 552 1157" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="552" y="1186" font-size="26" text-anchor="middle" font-weight="normal" fill="#17324a">10%</text>
+<path d="M 96 1150 L 552 1150" fill="none" stroke="#526577" stroke-width="1.5"/>
+<text x="48" y="844" font-size="28" text-anchor="start" font-weight="bold" fill="#17324a">Before</text>
+<text x="552" y="844" font-size="28" text-anchor="end" font-weight="normal" fill="#17324a">10/1,000 = 1%</text>
+<rect x="96" y="875" width="45.6" height="42" fill="#b8a4d8" stroke="#675486" stroke-width="1.5" id="before-resistant-fraction"/>
+<rect x="96" y="875" width="45.6" height="42" fill="url(#resistant-hatch)"/>
+<text x="48" y="996" font-size="28" text-anchor="start" font-weight="bold" fill="#17324a">After</text>
+<text x="552" y="996" font-size="28" text-anchor="end" font-weight="normal" fill="#17324a">10/109 ≈ 9.2%</text>
+<rect x="96" y="1025" width="418.348623853" height="42" fill="#b8a4d8" stroke="#675486" stroke-width="1.5" id="after-resistant-fraction"/>
+<rect x="96" y="1025" width="418.348623853" height="42" fill="url(#resistant-hatch)"/>
+<rect x="24" y="1210" width="552" height="67" fill="#eee9f5" rx="12"/>
+<text x="300" y="1246" font-size="30" text-anchor="middle" font-weight="bold" fill="#17324a">Resistant count stays 10</text>
+<text x="40" y="1302" font-size="28" text-anchor="start" font-weight="normal" fill="#17324a">No division or state change</text>
+<text x="40" y="1340" font-size="28" text-anchor="start" font-weight="normal" fill="#17324a">No new mutation is established</text>
+<text x="40" y="1378" font-size="26" text-anchor="start" font-weight="normal" fill="#526577">Exact counts; not clinical results</text>
+</g>
+</svg>

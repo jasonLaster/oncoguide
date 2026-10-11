@@ -29,6 +29,11 @@ Think of rooms in a shared workspace. A kitchen and a document archive need diff
 
 ## How it works
 
+<div class="my-6">
+  <img src="./images/organelle-compartments-and-one-cargo-route-v1-light.png" alt="A cell cutaway locates its nucleus, cytosol, ribosomes and membrane compartments; an enlarged selected secreted-protein route keeps cargo inside the endoplasmic reticulum (ER), Golgi and vesicles until release outside the cell." data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">Locate the compartments, then follow one secreted protein: cargo stays in the endoplasmic reticulum (ER), Golgi and vesicle lumens (inner spaces) until fusion releases it outside. This is one simplified route; sizes and counts do not measure abundance, transport rate or function.</p>
+</div>
+
 Start with [the cell and its membrane](/wiki/education/concepts/biology-basics/cells/cell-and-membrane). Within most human cells, additional membranes separate specialized spaces. The word organelle is also used broadly for structures such as ribosomes, which have no surrounding membrane. The table focuses on the compartments most often encountered in cancer explanations. **DNA** means deoxyribonucleic acid; **RNA** means ribonucleic acid.
 
 | Structure | A central job | A useful boundary |

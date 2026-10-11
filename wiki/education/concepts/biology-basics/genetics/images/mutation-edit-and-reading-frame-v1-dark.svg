@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1780" viewBox="0 0 600 1780" role="img" aria-labelledby="title desc">
+<title id="title">Mutation edits and the reading frame: a fictional DNA comparison</title>
+<desc id="desc">The same internal coding-strand DNA window is partitioned from the same left edge. A substitution preserves grouping; deletion of three bases preserves downstream triplets; deletion of reference position four shifts the downstream partitions and leaves a two-base incomplete fragment. A separate DNA-segment exchange does not measure RNA or protein.</desc>
+<defs><marker id="leader-tip" markerWidth="5" markerHeight="5" refX="4.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 5 2.5 L 0 5 Z" fill="#BCCBD2"/></marker></defs>
+<rect x="0" y="0" width="600" height="1780" rx="0" fill="#14242F"/>
+<text x="300" y="58" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#E9ECE6">What changed in the DNA?</text>
+<text x="300" y="105" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#E9ECE6">Toy coding-strand window · 5′ → 3′</text>
+<text x="300" y="148" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#E9ECE6">Same transcript · same left-edge frame</text>
+<text x="300" y="188" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#BDC8CC">Triplets are a coding prediction</text>
+<rect x="32" y="204" width="536" height="206" rx="12" fill="#1E333F"/>
+<text x="54" y="230" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="start" fill="#E9ECE6">Reference</text>
+<text x="542" y="230" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="end" fill="#BDC8CC">18 bases</text>
+<rect x="54" y="276" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="72.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="92.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="112.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="92.5" y="360" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">1–3</text>
+<rect x="136" y="276" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="154.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="174.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="194.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="174.5" y="360" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">4–6</text>
+<rect x="218" y="276" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="236.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="256.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="276.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="256.5" y="360" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">7–9</text>
+<rect x="300" y="276" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="318.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="338.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="358.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="338.5" y="360" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">10–12</text>
+<rect x="382" y="276" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="400.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="420.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="440.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="420.5" y="360" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">13–15</text>
+<rect x="464" y="276" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="482.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="502.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="522.5" y="320" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="502.5" y="360" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">16–18</text>
+<text x="230" y="264" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start" fill="#BDC8CC">Reference position 4</text>
+<path d="M 218 256 L 192 256 L 154.5 304" fill="none" stroke="#BCCBD2" stroke-width="1.7" marker-end="url(#leader-tip)"/>
+<text x="54" y="391" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start" fill="#E9ECE6">Six complete triplets in this window</text>
+<rect x="32" y="414" width="536" height="206" rx="12" fill="#1E333F"/>
+<text x="54" y="440" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="start" fill="#E9ECE6">One-base substitution</text>
+<text x="542" y="440" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="end" fill="#BDC8CC">18 bases</text>
+<rect x="54" y="486" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="72.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="92.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="112.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="92.5" y="570" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">1–3</text>
+<rect x="136" y="486" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<rect x="164.5" y="498" width="20" height="39" rx="3" fill="#654536"/>
+<text x="154.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="174.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="bold" text-anchor="middle" fill="#FFC4AA">C</text>
+<text x="194.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="174.5" y="570" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">4–6</text>
+<rect x="218" y="486" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="236.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="256.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="276.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="256.5" y="570" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">7–9</text>
+<rect x="300" y="486" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="318.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="338.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="358.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="338.5" y="570" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">10–12</text>
+<rect x="382" y="486" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="400.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="420.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="440.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="420.5" y="570" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">13–15</text>
+<rect x="464" y="486" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="482.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="502.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="522.5" y="530" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="502.5" y="570" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">16–18</text>
+<text x="54" y="606" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start" fill="#E9ECE6">Position 5: A → C · same grouping</text>
+<rect x="32" y="628" width="536" height="206" rx="12" fill="#1E333F"/>
+<text x="54" y="654" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="start" fill="#E9ECE6">Delete GAA · 3 bases</text>
+<text x="542" y="654" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="end" fill="#BDC8CC">15 bases</text>
+<rect x="54" y="700" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="72.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="92.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="112.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="92.5" y="784" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">1–3</text>
+<rect x="136" y="700" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="154.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="174.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="194.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="174.5" y="784" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">7–9</text>
+<rect x="218" y="700" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="236.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="256.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="276.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="256.5" y="784" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">10–12</text>
+<rect x="300" y="700" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="318.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="338.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="358.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="338.5" y="784" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">13–15</text>
+<rect x="382" y="700" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="400.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="420.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="440.5" y="744" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="420.5" y="784" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">16–18</text>
+<text x="54" y="816" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start" fill="#E9ECE6">In-frame: same downstream grouping</text>
+<rect x="32" y="838" width="536" height="272" rx="12" fill="#1E333F"/>
+<text x="54" y="864" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="start" fill="#E9ECE6">Delete G · 1 base</text>
+<text x="542" y="864" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="end" fill="#BDC8CC">17 bases</text>
+<rect x="54" y="910" width="77" height="64" rx="8" fill="#29454F" stroke="#78939C" stroke-width="1.6"/>
+<text x="72.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="92.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="112.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="92.5" y="994" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">1–3</text>
+<rect x="136" y="910" width="77" height="64" rx="8" fill="#293F58" stroke="#78939C" stroke-width="1.6"/>
+<text x="154.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="174.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="194.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="174.5" y="994" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">5–7</text>
+<rect x="218" y="910" width="77" height="64" rx="8" fill="#293F58" stroke="#78939C" stroke-width="1.6"/>
+<text x="236.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="256.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="276.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="256.5" y="994" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">8–10</text>
+<rect x="300" y="910" width="77" height="64" rx="8" fill="#293F58" stroke="#78939C" stroke-width="1.6"/>
+<text x="318.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="338.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="358.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="338.5" y="994" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">11–13</text>
+<rect x="382" y="910" width="77" height="64" rx="8" fill="#293F58" stroke="#78939C" stroke-width="1.6"/>
+<text x="400.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">A</text>
+<text x="420.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">C</text>
+<text x="440.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="420.5" y="994" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">14–16</text>
+<rect x="464" y="910" width="77" height="64" rx="8" fill="#293F58" stroke="#78939C" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="482.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">G</text>
+<text x="502.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">T</text>
+<text x="522.5" y="954" font-family="Courier New, DejaVu Sans Mono, monospace" font-size="32" font-weight="normal" text-anchor="middle" fill="#E9ECE6">…</text>
+<text x="502.5" y="994" font-family="Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#BDC8CC">17–18</text>
+<text x="54" y="1032" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start" fill="#E9ECE6">Frameshift: downstream regrouped</text>
+<text x="54" y="1076" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start" fill="#E9ECE6">GT… continues beyond this window</text>
+<rect x="32" y="1122" width="536" height="398" rx="12" fill="#1E333F"/>
+<text x="300" y="1162" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">Larger DNA segments</text>
+<text x="300" y="1202" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#BDC8CC">Toy exchange · not to scale</text>
+<text x="170" y="1244" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#E9ECE6">Before</text>
+<text x="436" y="1244" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#E9ECE6">After</text>
+<rect x="72" y="1266" width="58" height="54" rx="5" fill="#CDA09E"/>
+<text x="101" y="1304" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">U</text>
+<rect x="138" y="1266" width="58" height="54" rx="5" fill="#A1BDCF"/>
+<text x="167" y="1304" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">V</text>
+<rect x="204" y="1266" width="58" height="54" rx="5" fill="#CEB686"/>
+<text x="233" y="1304" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">W</text>
+<path d="M 130 1293 H 138" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<path d="M 196 1293 H 204" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<rect x="72" y="1346" width="58" height="54" rx="5" fill="#AAC0A8"/>
+<text x="101" y="1384" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">X</text>
+<rect x="138" y="1346" width="58" height="54" rx="5" fill="#B9A9CE"/>
+<text x="167" y="1384" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">Y</text>
+<rect x="204" y="1346" width="58" height="54" rx="5" fill="#8DBBB8"/>
+<text x="233" y="1384" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">Z</text>
+<path d="M 130 1373 H 138" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<path d="M 196 1373 H 204" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<rect x="338" y="1266" width="58" height="54" rx="5" fill="#CDA09E"/>
+<text x="367" y="1304" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">U</text>
+<rect x="404" y="1266" width="58" height="54" rx="5" fill="#A1BDCF"/>
+<text x="433" y="1304" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">V</text>
+<rect x="470" y="1266" width="58" height="54" rx="5" fill="#8DBBB8"/>
+<text x="499" y="1304" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">Z</text>
+<path d="M 396 1293 H 404" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<path d="M 462 1293 H 470" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<rect x="338" y="1346" width="58" height="54" rx="5" fill="#AAC0A8"/>
+<text x="367" y="1384" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">X</text>
+<rect x="404" y="1346" width="58" height="54" rx="5" fill="#B9A9CE"/>
+<text x="433" y="1384" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">Y</text>
+<rect x="470" y="1346" width="58" height="54" rx="5" fill="#CEB686"/>
+<text x="499" y="1384" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#E9ECE6">W</text>
+<path d="M 396 1373 H 404" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<path d="M 462 1373 H 470" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<path d="M 281 1336 H 319" fill="none" stroke="#BCCBD2" stroke-width="1.7" marker-end="url(#leader-tip)"/>
+<text x="300" y="1442" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#E9ECE6">One of each segment retained</text>
+<text x="300" y="1486" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#BDC8CC">Other rearrangements can change copies</text>
+<path d="M 54 1552 H 546" fill="none" stroke="#BCCBD2" stroke-width="1.7"/>
+<text x="54" y="1600" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="start" fill="#E9ECE6">DNA arrangement: shown</text>
+<text x="54" y="1650" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="normal" text-anchor="start" fill="#E9ECE6">RNA: not measured</text>
+<text x="54" y="1700" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="normal" text-anchor="start" fill="#E9ECE6">Protein: not measured</text>
+<text x="54" y="1750" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start" fill="#BDC8CC">No automatic product inference</text>
+</svg>

@@ -1,0 +1,479 @@
+ORIGINAL EDITABLE DNA DIAGRAM — PORTABLE SOURCE BUNDLE
+Author: multiomics. No raster/image model or image-editing tool was used.
+The source/composition brief was independently approved for scratch rendering; actual output/pixel and release review remain separate.
+Extract each FILE block literally. Reproduce with Python 3.11 or later: python3 -B render_diagram.py --data toy-sequence-data.json --output-dir fresh-output
+SVG text uses local system font fallbacks. Byte output is deterministic; rendered font appearance remains a browser/pixel gate.
+Source and source-access receipts are in the bound candidate, not asserted as complete papers.
+
+BEGIN FILE render_diagram.py SHA256 599e3a8878eaa8f8fd0f75b1e81e616e53dbdfd8736f8bf1d9def682553f6608
+#!/usr/bin/env python3
+"""Original deterministic, editable teaching SVG. Python standard library only."""
+import argparse, collections, hashlib, html, json, pathlib, re, sys, xml.etree.ElementTree as ET
+WIDTH, HEIGHT = 600, 1780
+STEM = 'mutation-edit-and-reading-frame-v1'
+PALETTES = {
+ 'light': {'ground':'#F7F3EB','ink':'#233748','muted':'#536674','card':'#FFFCF6','line':'#81939A','box':'#E9F0EF','shift':'#EAF0F7','changed':'#F4D8C9','accent':'#9A493E','arrow':'#526879','U':'#D7A19D','V':'#A0BED3','W':'#D5BC86','X':'#A7BFA4','Y':'#B7A7CA','Z':'#88BAB6'},
+ 'dark': {'ground':'#14242F','ink':'#E9ECE6','muted':'#BDC8CC','card':'#1E333F','line':'#78939C','box':'#29454F','shift':'#293F58','changed':'#654536','accent':'#FFC4AA','arrow':'#BCCBD2','U':'#CDA09E','V':'#A1BDCF','W':'#CEB686','X':'#AAC0A8','Y':'#B9A9CE','Z':'#8DBBB8'}
+}
+def dumps(obj):return json.dumps(obj, ensure_ascii=False, indent=2)+'\n'
+def digest(b):return hashlib.sha256(b).hexdigest()
+def validate(data):
+ rows=data['rows'];reference=rows[0]['sequence'];assert reference=='ATGGAATCCGCTAACGGT'
+ seqs=[reference,reference[:4]+'C'+reference[5:],reference[:3]+reference[6:],reference[:3]+reference[4:]]
+ maps=[list(range(1,19)),list(range(1,19)),[1,2,3]+list(range(7,19)),[1,2,3]+list(range(5,19))]
+ for row,seq,positions in zip(rows,seqs,maps):
+  assert row['sequence']==seq and row['baseCount']==len(seq)
+  assert [r['text'] for r in row['tripletPartitions']]==[seq[i:i+3] for i in range(0,len(seq),3)]
+  assert [i for r in row['tripletPartitions'] for i in r['sourcePositions']]==positions
+  assert all(r['completeTriplet']==(len(r['text'])==3) for r in row['tripletPartitions'])
+ assert rows[2]['tripletPartitions'][1:]==rows[0]['tripletPartitions'][2:]
+ assert rows[3]['tripletPartitions'][1]['sourcePositions']==[5,6,7]
+ assert rows[3]['tripletPartitions'][-1]['text']=='GT' and not rows[3]['tripletPartitions'][-1]['completeTriplet']
+ seg=data['segmentExample'];assert collections.Counter(sum(seg['before'],[]))==collections.Counter(sum(seg['after'],[]))==collections.Counter('UVWXYZ')
+ return {'verdict':'PASS_SOURCE_ARITHMETIC_ONLY','reference':reference,'triplets':{r['id']:[x['text'] for x in r['tripletPartitions']] for r in rows},'baseCounts':[len(s) for s in seqs],'frame':'Same left edge and transcript; internal coding-strand window','finalFragment':'GT is incomplete and continues, not a stop','segmentQuantities':'One of each U,V,W,X,Y,Z in both arrangements; this toy only','actualPixels':'pending independent review'}
+def render(data, palette):
+ out=[];ledger={'canvas':[WIDTH,HEIGHT],'font':{'coreMinimum':26,'dna':32,'rowTitles':30,'optionalSourcePositionDetail':18,'predictedCoreAt312':13.52,'actualPixelAcceptance':'pending'},'rows':[],'leaders':[],'segments':[],'measuredLayers':['DNA arrangement: shown','RNA: not measured','Protein: not measured']}
+ def add(s):out.append(s)
+ def text(x,y,value,size=26,weight='normal',anchor='start',color='ink',family='Arial, DejaVu Sans, sans-serif'):
+  add(f'<text x="{x:g}" y="{y:g}" font-family="{family}" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}" fill="{palette[color]}">{html.escape(value)}</text>')
+ def rect(x,y,w,h,fill,rx=0,stroke=None,dash=None):
+  attrs=f'x="{x:g}" y="{y:g}" width="{w:g}" height="{h:g}" rx="{rx:g}" fill="{palette[fill]}"'
+  if stroke:attrs+=f' stroke="{palette[stroke]}" stroke-width="1.6"'
+  if dash:attrs+=f' stroke-dasharray="{dash}"'
+  add('<rect '+attrs+'/>')
+ def path(d,arrow=False):add(f'<path d="{d}" fill="none" stroke="{palette["arrow"]}" stroke-width="1.7"'+(' marker-end="url(#leader-tip)"' if arrow else '')+'/>')
+ add(f'<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1780" viewBox="0 0 600 1780" role="img" aria-labelledby="title desc">')
+ add('<title id="title">Mutation edits and the reading frame: a fictional DNA comparison</title>')
+ add('<desc id="desc">The same internal coding-strand DNA window is partitioned from the same left edge. A substitution preserves grouping; deletion of three bases preserves downstream triplets; deletion of reference position four shifts the downstream partitions and leaves a two-base incomplete fragment. A separate DNA-segment exchange does not measure RNA or protein.</desc>')
+ add(f'<defs><marker id="leader-tip" markerWidth="5" markerHeight="5" refX="4.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 5 2.5 L 0 5 Z" fill="{palette["arrow"]}"/></marker></defs>')
+ rect(0,0,600,1780,'ground')
+ text(300,58,'What changed in the DNA?',34,'bold','middle')
+ text(300,105,'Toy coding-strand window · 5′ → 3′',26,anchor='middle')
+ text(300,148,'Same transcript · same left-edge frame',26,anchor='middle')
+ text(300,188,'Triplets are a coding prediction',26,anchor='middle',color='muted')
+ specs=[
+  ('Reference',204,230,276,320,360),
+  ('One-base substitution',414,440,486,530,570),
+  ('Delete GAA · 3 bases',628,654,700,744,784),
+  ('Delete G · 1 base',838,864,910,954,994)]
+ for row,(label,top,title_y,box_y,base_y,index_y) in zip(data['rows'],specs):
+  rect(32,top,536,206 if row['id']!='frameshift-deletion' else 272,'card',12)
+  text(54,title_y,label,30,'bold')
+  text(542,title_y,f'{row["baseCount"]} bases',26,anchor='end',color='muted')
+  rowledger={'id':row['id'],'sequence':row['sequence'],'baseCount':row['baseCount'],'boxOrigin':[54,box_y],'boxWidth':77,'gap':5,'partitions':[]}
+  for n,part in enumerate(row['tripletPartitions']):
+   x=54+n*82;center=x+38.5;partial=not part['completeTriplet'];fill='shift' if row['id']=='frameshift-deletion' and n>0 else 'box'
+   rect(x,box_y,77,64,fill,8,'line','5 4' if partial else None)
+   display=part['text']+('…' if partial else '');centers=[center+(i-(len(display)-1)/2)*20 for i in range(len(display))]
+   if row['id']=='substitution' and n==1:rect(center-10,box_y+12,20,39,'changed',3)
+   for i,(char,charx) in enumerate(zip(display,centers)):
+    changed=row['id']=='substitution' and n==1 and i==1
+    text(charx,base_y,char,32,'bold' if changed else 'normal','middle','accent' if changed else 'ink','Courier New, DejaVu Sans Mono, monospace')
+   positions=part['sourcePositions'];positionlabel='–'.join(map(str,[positions[0],positions[-1]]))
+   text(center,index_y,positionlabel,18,anchor='middle',color='muted')
+   rowledger['partitions'].append({'text':part['text'],'completeTriplet':part['completeTriplet'],'sourcePositions':positions,'box':[x,box_y,77,64],'letterCenters':[[charx,base_y] for charx in centers],'display':display})
+  ledger['rows'].append(rowledger)
+  if row['id']=='reference':
+   text(230,264,'Reference position 4',26,color='muted')
+   path('M 218 256 L 192 256 L 154.5 304',True)
+   ledger['leaders'].append({'label':'Reference position 4','target':'G at reference position 4, first base in GAA','endpoint':[154.5,304],'glyphCenter':[154.5,320],'path':'M 218 256 L 192 256 L 154.5 304'})
+   text(54,391,'Six complete triplets in this window',26)
+  elif row['id']=='substitution':text(54,606,'Position 5: A → C · same grouping',26)
+  elif row['id']=='in-frame-deletion':
+   text(54,816,'In-frame: same downstream grouping',26)
+  else:
+   text(54,1032,'Frameshift: downstream regrouped',26)
+   text(54,1076,'GT… continues beyond this window',26)
+ # Separate scale; neither a progression nor a measured RNA/protein product.
+ rect(32,1122,536,398,'card',12)
+ text(300,1162,'Larger DNA segments',30,'bold','middle')
+ text(300,1202,'Toy exchange · not to scale',26,anchor='middle',color='muted')
+ text(170,1244,'Before',28,'bold','middle');text(436,1244,'After',28,'bold','middle')
+ for state,origin in [('before',72),('after',338)]:
+  for rownum,segments in enumerate(data['segmentExample'][state]):
+   y=1266+rownum*80
+   for i,label in enumerate(segments):
+    x=origin+i*66;rect(x,y,58,54,label,5)
+    text(x+29,y+38,label,30,'bold','middle')
+    ledger['segments'].append({'state':state,'strand':rownum+1,'label':label,'box':[x,y,58,54]})
+   path(f'M {origin+58} {y+27} H {origin+66}');path(f'M {origin+124} {y+27} H {origin+132}')
+ path('M 281 1336 H 319',True)
+ text(300,1442,'One of each segment retained',26,anchor='middle')
+ text(300,1486,'Other rearrangements can change copies',26,anchor='middle',color='muted')
+ path('M 54 1552 H 546')
+ text(54,1600,'DNA arrangement: shown',28,'bold')
+ text(54,1650,'RNA: not measured',28)
+ text(54,1700,'Protein: not measured',28)
+ text(54,1750,'No automatic product inference',26,color='muted')
+ add('</svg>')
+ svg='\n'.join(out)+'\n';root=ET.fromstring(svg)
+ assert not root.findall('.//{http://www.w3.org/2000/svg}script') and not root.findall('.//{http://www.w3.org/2000/svg}foreignObject')
+ return svg.encode('utf-8'),ledger
+
+def main():
+ ap=argparse.ArgumentParser();ap.add_argument('--data',type=pathlib.Path,default=pathlib.Path(__file__).with_name('toy-sequence-data.json'));ap.add_argument('--output-dir',type=pathlib.Path,required=True);args=ap.parse_args()
+ data=json.loads(args.data.read_text());checks=validate(data);args.output_dir.mkdir(parents=True,exist_ok=True)
+ outputs=[];ledgers=[];svgbytes=[]
+ for theme in ['light','dark']:
+  native,ledger=render(data,PALETTES[theme]);f=args.output_dir/(STEM+'-'+theme+'.svg');f.write_bytes(native);outputs.append({'file':f.name,'sha256':digest(native),'bytes':len(native),'width':600,'height':1780});ledgers.append(ledger);svgbytes.append(native)
+ assert ledgers[0]==ledgers[1]
+ normal=lambda b:re.sub(rb'#[0-9A-Fa-f]{6}',b'#PALETTE',b)
+ assert normal(svgbytes[0])==normal(svgbytes[1])
+ checks.update({'paletteOnlyThemes':True,'editableText':True,'optionalFineDetailFont':18,'coreMinimumFont':26,'referenceLeaderEndpoint':ledgers[0]['leaders'][0]['endpoint'],'scriptOrForeignObject':False})
+ (args.output_dir/'diagram-coordinates.json').write_text(dumps(ledgers[0]));(args.output_dir/'diagram-checks.json').write_text(dumps(checks));(args.output_dir/'output-manifest.json').write_text(dumps({'schemaVersion':1,'stem':STEM,'dataSHA256':digest(args.data.read_bytes()),'outputs':outputs}))
+if __name__=='__main__':main()
+END FILE render_diagram.py
+
+BEGIN FILE toy-sequence-data.json SHA256 5cd4627353589eb96b5ab31207fff175d4db2f0bf38da4fb3a2766692aa359ae
+{
+  "schemaVersion": 1,
+  "kind": "Fictional teaching sequence, not a patient variant or HGVS report",
+  "toyReference": "TOY-CODING-WINDOW-v1",
+  "orientation": "5′ to 3′ coding/sense DNA strand",
+  "frame": "Read triplets from the left edge at reference position 1.",
+  "assumptions": [
+    "An internal window of one explicitly assumed protein-coding transcript.",
+    "The same left-edge reading frame is retained in every comparison.",
+    "These changes lie within the coding sequence and do not alter splicing in this toy.",
+    "The displayed window continues beyond its right edge; two final bases in the frameshift row are not a biological stop.",
+    "Triplet partitions illustrate the predicted coding frame; actual RNA, translation and protein are not measured."
+  ],
+  "rows": [
+    {
+      "id": "reference",
+      "sequence": "ATGGAATCCGCTAACGGT",
+      "baseCount": 18,
+      "edit": {
+        "kind": "none"
+      },
+      "tripletPartitions": [
+        {
+          "text": "ATG",
+          "sourcePositions": [
+            1,
+            2,
+            3
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GAA",
+          "sourcePositions": [
+            4,
+            5,
+            6
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "TCC",
+          "sourcePositions": [
+            7,
+            8,
+            9
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GCT",
+          "sourcePositions": [
+            10,
+            11,
+            12
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "AAC",
+          "sourcePositions": [
+            13,
+            14,
+            15
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GGT",
+          "sourcePositions": [
+            16,
+            17,
+            18
+          ],
+          "completeTriplet": true
+        }
+      ]
+    },
+    {
+      "id": "substitution",
+      "sequence": "ATGGCATCCGCTAACGGT",
+      "baseCount": 18,
+      "edit": {
+        "kind": "substitution",
+        "referencePosition": 5,
+        "before": "A",
+        "after": "C"
+      },
+      "tripletPartitions": [
+        {
+          "text": "ATG",
+          "sourcePositions": [
+            1,
+            2,
+            3
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GCA",
+          "sourcePositions": [
+            4,
+            5,
+            6
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "TCC",
+          "sourcePositions": [
+            7,
+            8,
+            9
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GCT",
+          "sourcePositions": [
+            10,
+            11,
+            12
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "AAC",
+          "sourcePositions": [
+            13,
+            14,
+            15
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GGT",
+          "sourcePositions": [
+            16,
+            17,
+            18
+          ],
+          "completeTriplet": true
+        }
+      ]
+    },
+    {
+      "id": "in-frame-deletion",
+      "sequence": "ATGTCCGCTAACGGT",
+      "baseCount": 15,
+      "edit": {
+        "kind": "deletion",
+        "referencePositions": [
+          4,
+          5,
+          6
+        ],
+        "deleted": "GAA"
+      },
+      "tripletPartitions": [
+        {
+          "text": "ATG",
+          "sourcePositions": [
+            1,
+            2,
+            3
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "TCC",
+          "sourcePositions": [
+            7,
+            8,
+            9
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GCT",
+          "sourcePositions": [
+            10,
+            11,
+            12
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "AAC",
+          "sourcePositions": [
+            13,
+            14,
+            15
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GGT",
+          "sourcePositions": [
+            16,
+            17,
+            18
+          ],
+          "completeTriplet": true
+        }
+      ]
+    },
+    {
+      "id": "frameshift-deletion",
+      "sequence": "ATGAATCCGCTAACGGT",
+      "baseCount": 17,
+      "edit": {
+        "kind": "deletion",
+        "referencePositions": [
+          4
+        ],
+        "deleted": "G"
+      },
+      "tripletPartitions": [
+        {
+          "text": "ATG",
+          "sourcePositions": [
+            1,
+            2,
+            3
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "AAT",
+          "sourcePositions": [
+            5,
+            6,
+            7
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "CCG",
+          "sourcePositions": [
+            8,
+            9,
+            10
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "CTA",
+          "sourcePositions": [
+            11,
+            12,
+            13
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "ACG",
+          "sourcePositions": [
+            14,
+            15,
+            16
+          ],
+          "completeTriplet": true
+        },
+        {
+          "text": "GT",
+          "sourcePositions": [
+            17,
+            18
+          ],
+          "completeTriplet": false
+        }
+      ]
+    }
+  ],
+  "segmentExample": {
+    "kind": "Separate toy exchange of larger DNA segments, not codons or genes",
+    "before": [
+      [
+        "U",
+        "V",
+        "W"
+      ],
+      [
+        "X",
+        "Y",
+        "Z"
+      ]
+    ],
+    "after": [
+      [
+        "U",
+        "V",
+        "Z"
+      ],
+      [
+        "X",
+        "Y",
+        "W"
+      ]
+    ],
+    "breaksAfter": [
+      "V",
+      "Y"
+    ],
+    "eachSegmentCopyCountBeforeAndAfter": {
+      "U": 1,
+      "V": 1,
+      "W": 1,
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "notToScale": true,
+    "observedLayer": "DNA in this fictional comparison",
+    "rnaMeasurement": "Not measured",
+    "proteinMeasurement": "Not measured",
+    "limits": [
+      "This illustrative exchange preserves one of each segment; other structural variants can change copy counts.",
+      "A new DNA adjacency alone does not demonstrate a joined RNA, joined protein, function or dependence."
+    ]
+  }
+}
+END FILE toy-sequence-data.json
+
+BEGIN FILE requirements.txt SHA256 d7f4fa3898d480086d56a83f9b1e488b519d1ba88e73d2b4f59d7887cadca978
+# Planned original renderer: Python 3.11 or later, standard library only.
+# No third-party packages, network or external fonts required.
+END FILE requirements.txt
+
+BEGIN FILE editable-diagram-composition-draft.txt SHA256 29162f4ca1ba1158af83cb4c483a6870706147818983a845cb105dfe9ba02adf
+UNAPPROVED / UNEXECUTED ORIGINAL EDITABLE DIAGRAM SPECIFICATION
+Question: What changed, and did the coding frame move?
+Owner: wiki/education/concepts/biology-basics/genetics/mutation-types.md
+Target: ## How it works, after the retained coding-frame paragraph and before the retained splice-boundary paragraph.
+
+Create an original portrait, editable SVG pair using a deterministic Python standard-library renderer. Do not call a raster/image model. Planned viewBox 0 0 600 1780; warm pale light ground and quiet deep dark ground. Same geometry, sequence, text, marker endpoints and object quantities in both themes. Compatible rose, blue, sage and sand colors support labels rather than good/bad outcomes. All lettering remains SVG text, not paths; no external assets, fonts, scripts or network dependencies.
+
+Top title: "What changed in the DNA?". Subheading: "Toy coding-strand window · 5′ → 3′". Scope lines: "Same transcript. Same left-edge frame." and "Triplets are a coding prediction." This is an internal coding window, not a complete gene or observed translated product. Do not label it normal/healthy, imply a real variant accession or invent a stop.
+
+Four aligned comparison rows at the same left origin, each with six possible adjacent triplet positions. Planned triplet box width 77, gap 5, left x54 (6 boxes span 487 units). Reference six boxes: ATG | GAA | TCC | GCT | AAC | GGT. Substitution six boxes: ATG | GCA | TCC | GCT | AAC | GGT. Highlight only changed position5 (A→C) within GCA. Label "One-base substitution" and "Same grouping". Three-base deletion row has five CONTIGUOUS boxes: ATG | TCC | GCT | AAC | GGT. Label "Delete GAA · 3 bases" and "In-frame: same downstream grouping". Do not insert a fake empty codon/base to hold alignment. One-base deletion has ATG | AAT | CCG | CTA | ACG | GT…; last GT is an explicitly incomplete window fragment in a dashed box, not a codon or stop. Label "Delete G · 1 base" and "Frameshift: downstream regrouped". A short leader next to the deletion operation identifies reference position4, the first G of GAA, without landing on the wrong base.
+
+Treat every row as the same specified frame, grouping successive REMAINING bases from the left. Attach optional source-position ranges from exact JSON under the boxes; they are detail, not a substitute for legible triplets. Core monospaced DNA letters at least30 native SVG units; row titles30; main labels28; all core text at least26 (13.52px expected at312px display width). Any smaller source-position index must be explicitly recorded as enlargement-assisted detail. Planned row titles around y230/440/650/860, triplet baselines around y320/530/740/950; reflow only after independent geometry review if necessary. No raster label-size claim before actual pixels.
+
+Lower separately framed scene: "Larger DNA segments". This is a different scale, not codons or genes. Before: strand1 U—V—W and strand2 X—Y—Z. After the illustrated terminal exchange: U—V—Z and X—Y—W. A single before/after comparison connector identifies the arrangement change; do not connect the coding edit rows to this scene as a progression. Each segment appears once across the two arrangements; their letter/shape identity follows them. Label "Toy exchange · not to scale" and "One of each segment retained". It is one copy-preserving example, not a claim that all rearrangements preserve copy number. The retained table explains overlapping copy/structural classes.
+
+Separate measured-layer labels below: "DNA arrangement: shown"; "RNA: not measured"; "Protein: not measured". No automatic arrows from rearranged DNA to a joined message, hybrid protein, drug target, function, dependence or benefit. No efficacy ticks, success/failure red-green coding, patient figures, clinical data, decorative nucleus, molecular anatomy or unrelated worksheet cards.
+
+Use the exact accepted alt and caption in proposed-copy.json. Preserve every current owner body/YAML/generated byte; integration later is one bounded image+caption insertion with exact inverse. New planned stem mutation-edit-and-reading-frame-v1-{light,dark}.svg and images/prompts/mutation-edit-and-reading-frame-v1.txt. At render stage the TXT must contain this full approved specification AND literal original renderer, exact JSON data and requirements/version contract with hashes, permitting a fresh-directory byte-exact repeat.
+
+Acceptance after approval: independently calculate all literal triplets and source-position mappings; assert no row-specific frame reset; parse editable SVGs; confirm only palette differs; inspect exact contact/leader endpoints; actual ordinary312px and desktop both-theme image/caption pixels via CUA; fresh portable-source extraction/reproduction; guarded owner inverse and both reader release proofs before credit. This specification alone grants no rendering, source-fit or human-review approval.
+END FILE editable-diagram-composition-draft.txt
+

@@ -61,6 +61,11 @@ An **invented culture** begins with 990 sensitive cells and ten resistant cells.
 
 There are now 99 sensitive cells and ten resistant cells. The resistant fraction rose from `10/1,000 = 1%` to `10/109 ≈ 9.2%`, although its absolute count stayed ten. Enrichment does not require the treatment to have created a new mutation. Real cultures need direct counts, time points and controls; these are fictional values.
 
+<div class="my-6">
+  <img src="./images/same-ten-smaller-total-v1-light.svg" alt="Two fictional before-and-after charts separate absolute cell counts from resistant fractions. On the same 0–1,000-cell count axis, sensitive cells fall from 990 to 99 while resistant cells stay at ten; totals are 1,000 and 109. A separate, explicitly labeled 0–10% axis shows 10/1,000 = 1% and 10/109 ≈ 9.2%. No division, new mutation or state change is modeled." data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">A larger share does not mean more resistant cells. In this invented culture, resistant cells stay at ten while the total falls from 1,000 to 109, so their fraction rises from 1% to about 9.2%. The count and percentage axes are separate; no division or state change is assumed, and the chart does not establish a new mutation or a clinical treatment effect.</p>
+</div>
+
 ## How it is measured
 
 Clinical disease assessments establish whether treatment benefit persists under specified criteria. They do not identify the mechanism alone. Research compares earlier and later samples, [drug exposure](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life), target engagement, pathway activity and response in suitable models.

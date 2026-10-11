@@ -1,0 +1,7 @@
+{
+  "prompt": "Create the dark counterpart of the actual referenced accepted light image. Change only palette: quiet deep ground, muted compartment colors, readable pale ink, restrained texture and gloss. Keep every object, position, label, quantity, leader endpoint, arrow, membrane topology and uncertainty exactly the same. Do not add, remove or rearrange anything. No luminous three-dimensional makeover.",
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-fc0f4a40-ead7-4b5e-bae4-12dddb61e50c.png"
+  ],
+  "transparent_background": false
+}

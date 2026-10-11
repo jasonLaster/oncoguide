@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "reportedModel": null,
+  "status": "actual dark pending independent native and ordinary review",
+  "actualCall": {
+    "path": "/tmp/education-visual-gap-production-wave4/009/attempt-3-dark-call.json",
+    "sha256": "2b0d2af6848ea4354077694776fc8647e7fe22b7fabcaf5a5545ba3618523619"
+  },
+  "acceptedLightReview": {
+    "path": "/tmp/education-visual-gap-production-wave4/009/attempt-2-light-independent-review.json",
+    "sha256": "4c454123d066e744e5e63ca9f323e18f546a364fdab07b854f6a6b3dd263c593"
+  },
+  "reference": {
+    "path": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-fc0f4a40-ead7-4b5e-bae4-12dddb61e50c.png",
+    "sha256": "14b01ed07a1fe71a70760cb2787e063267134438576e4ac66b9291924ab3736e"
+  },
+  "returnedNativePath": "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-87fd33ac-8955-4f0b-8dc9-5e2432de3b89.png",
+  "scratchCopyPath": "/tmp/education-visual-gap-production-wave4/009/attempt-3-dark.png",
+  "outputSHA256": "bdb20b4bc5dbbe2a4b6b8e9d68244b2a9c4d3274ce7b2012ca7f2c13e4860706",
+  "actualDimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "nativeUnmodified": true,
+  "pixelPostprocessing": false,
+  "authorSelfReview": "Labels, organelles, DNA identities, ribosome branch targets, luminal cargo and outside-directed fusion visibly match light; palette darker. Independent final theme/native/context review remains required.",
+  "humanReview": "pending",
+  "sourceFitCredit": 0,
+  "noVaultWrites": true
+}
