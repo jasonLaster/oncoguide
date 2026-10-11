@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "sourceCommit": "46de185c4484517fe6bcbc931c63b403adae25c1",
+  "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e",
   "sourcePrefix": "obsidian/",
   "rendererCommit": "055625254e37f260d479349a2c91cf7929814ca7",
   "files": {
@@ -249,7 +249,7 @@
     "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md": "3f8c2a1cbb4012f911c3136caf8d75356b94baf54bf570fd6626c6a986c929ab",
     "wiki/education/concepts/immunology/antigen-presentation/b2m.md": "c5d193b9402f0004f368d64ecd2399aeb7cf598525f73b82d127149b81a0f362",
     "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md": "a7ae3f599ae50e87c2c73beba9aa4708fbd54dcf6e0a7ec6732880f9c9a50c94",
-    "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md": "d2a752f2a5f07028aac0a8107db2c06669903ca14f8a61100e832b8b6916651c",
+    "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md": "e9f17efeaa6e9bca3676cd12e60b91791b43174c499e05d2c37052606f86eabb",
     "wiki/education/concepts/immunology/antigen-presentation/hla.md": "ab069b111c110ae408a24e00b201e51a61e061ca713d083b9b4320e951e22fe5",
     "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-dark.png": "e9ffbe753559e3ffcd69e7244ad840adc1b881f068cbc8d97c40684dc1ac4165",
     "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-light.png": "487cee421388eabc35aacebb7633557e87ebc093acb99f911777be2f94efb51e",
@@ -462,7 +462,7 @@
     "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md": "d07258559085afff0b6b172e4120aa86646bc10bfd85f9e253d48aec039d0217",
     "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md": "d3edff0894ce233e181738a4ba28243bbffba5d8cfb1a5d16d28ece0db56ac36",
     "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pneumonitis.md": "25bfde6943636afb6d773d78ba9eff2ea55398b9f56100a94790739a85857bc5",
-    "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md": "d7744a1ab32fddcfae4d6cd39ac09d092bef5415164528ee0abb7909f5926404",
+    "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md": "41fa5e415e4603df95ccaecd02a12844c219c773b2fb972d0c31e19b4d1c24d9",
     "wiki/education/designing-a-vaccine/03-immunopeptidomics.md": "ea3aec947a3e7b0bc51266edf5ab5e3bf85c565a5910b839662d7d97115ee7f6",
     "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md": "9e8bb6aa94cdf00a5d538d891bda735dc7db1514aab740e71482ac4528a65155",
     "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md": "628a60c8bb527d4eaa7475a8c99c89f571f40b3702124d4423cc20e05a2c9842",

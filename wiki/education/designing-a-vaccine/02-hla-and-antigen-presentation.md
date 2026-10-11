@@ -36,13 +36,13 @@ That is a useful first constraint. Several further steps still stand between a c
 
 | Locus | Allele from one inherited copy | Allele from the other copy |
 | --- | --- | --- |
-| HLA-A | HLA-A*02:01 | HLA-A*24:02 |
-| HLA-B | HLA-B*07:02 | HLA-B*08:01 |
-| HLA-C | HLA-C*07:01 | HLA-C*07:02 |
+| HLA-A | `HLA-A*02:01` | `HLA-A*24:02` |
+| HLA-B | `HLA-B*07:02` | `HLA-B*08:01` |
+| HLA-C | `HLA-C*07:01` | `HLA-C*07:02` |
 
 In `HLA-A*02:01`, `HLA-A` names the gene, `02` names an allele group, and the next field distinguishes the protein sequence. Further fields can distinguish synonymous coding or noncoding differences. Some names also have expression suffixes: for example, `N` means a null allele. Read the laboratory's resolution and ambiguity notes before assuming a report settles every sequence question.
 
-People can share these alleles, so the report is not a unique barcode. HLA-C*07:01 and HLA-C*07:02 also share a first field without being interchangeable proteins. A study performed with one allele needs evidence before its peptide or receptor findings can be transferred to another.
+People can share these alleles, so the report is not a unique barcode. `HLA-C*07:01` and `HLA-C*07:02` also share a first field without being interchangeable proteins. A study performed with one allele needs evidence before its peptide or receptor findings can be transferred to another.
 
 ## How a method becomes an allele report
 
@@ -77,7 +77,7 @@ Typing answers the first question. Tumor [allele-retention measurements](/wiki/e
 
 ## Worked example: the missing bridge
 
-Using the fictional report above, a team predicts strong binding of peptide P to HLA-A*02:01. Another experiment finds that a receptor recognizes P on HLA-A*24:02. The tumor sample contains RNA for the source protein.
+Using the fictional report above, a team predicts strong binding of peptide P to `HLA-A*02:01`. Another experiment finds that a receptor recognizes P on `HLA-A*24:02`. The tumor sample contains RNA for the source protein.
 
 These observations do not yet connect into one demonstrated target. The receptor experiment concerns a different peptide–HLA surface. The RNA result supports source expression, rather than naturally processed peptide display. Request matched-allele recognition evidence and assess whether the tumor retains and displays the relevant pair. A well-controlled tumor-recognition experiment can then test a more direct functional claim.
 
@@ -89,7 +89,7 @@ Surface-target [chimeric antigen receptors (CARs)](/wiki/education/concepts/ther
 
 ## Try it
 
-A candidate has an excellent prediction for HLA-C*07:01. The patient's report lists HLA-C*07:02. Is “both are HLA-C*07” enough to accept the score?
+A candidate has an excellent prediction for `HLA-C*07:01`. The patient's report lists `HLA-C*07:02`. Is “both are `HLA-C*07`” enough to accept the score?
 
 **Answer:** No. The names identify different protein variants. Request the prediction for the reported allele and check its resolution and model support. Even an appropriate prediction would still leave presentation, recognition and outcome questions.
 

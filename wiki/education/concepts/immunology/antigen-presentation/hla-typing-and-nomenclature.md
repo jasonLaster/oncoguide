@@ -25,7 +25,7 @@ Human leukocyte antigen typing identifies inherited alleles, whose standardized 
 
 ## The intuition
 
-A [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) name resembles a part number. “HLA-A” names a peptide-display gene; “HLA-A*02:01” specifies a protein version. Results for a predictor or receptor tested with one version cannot automatically transfer to another.
+A [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) name resembles a part number. “HLA-A” names a peptide-display gene; “`HLA-A*02:01`” specifies a protein version. Results for a predictor or receptor tested with one version cannot automatically transfer to another.
 
 Typing identifies inherited versions. It does not tell us whether a particular tumor still makes those parts, displays the proposed peptide, or is recognized by a T cell.
 
@@ -53,9 +53,9 @@ Peptide prediction and many T-cell receptor approaches require a particular HLA 
 
 ## Worked example
 
-A fictional report lists `HLA-A*02:01` and `HLA-A*24:02`. A candidate is predicted to bind A*02:01. A second laboratory tests a receptor against the same peptide on A*24:02.
+A fictional report lists `HLA-A*02:01` and `HLA-A*24:02`. A candidate is predicted to bind `A*02:01`. A second laboratory tests a receptor against the same peptide on `A*24:02`.
 
-Those results concern different peptide–HLA pairs. Before combining them, ask whether the receptor was tested on A*02:01 and whether the tumor displays that pair. The report does not make the two HLA molecules interchangeable.
+Those results concern different peptide–HLA pairs. Before combining them, ask whether the receptor was tested on `A*02:01` and whether the tumor displays that pair. The report does not make the two HLA molecules interchangeable.
 
 ## Common confusions
 
@@ -91,7 +91,7 @@ Software can infer HLA from genome, exome or [ribonucleic acid (RNA)](/wiki/educ
 
 ## Try it
 
-A fictional report says HLA-A*02 at group-level resolution. A study requires A*02:01. Can you silently fill in the missing field?
+A fictional report says `HLA-A*02` at group-level resolution. A study requires `A*02:01`. Can you silently fill in the missing field?
 
 **Answer:** No. The group contains different protein variants. More resolving evidence is needed before claiming the exact allele, and eligibility still belongs to the study team.
 
