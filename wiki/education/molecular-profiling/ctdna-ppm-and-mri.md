@@ -35,9 +35,9 @@ flowchart TD
 
 ## Two windows onto different evidence
 
-<img src="./images/blood-and-imaging-windows-light.png" alt="Two panels compare sampled tumor-derived DNA fragments in a blood tube with an imaging finding inside a breast MRI region" data-theme-pair>
+<img src="./images/blood-and-imaging-windows-v2-light.png" alt="Two stacked physical scenes compare DNA fragments outside cells in a finite plasma sample with a diffuse imaging feature inside the examined breast MRI region; no individual cancer cell is shown in either measurement." data-theme-pair>
 
-*Blood and imaging observe different evidence. The green symbol is a schematic imaging finding, not an individual cell; neither window is a complete disease census.*
+*A finite plasma sample contains DNA outside cells; tumor-derived fragments are one possible portion. Breast MRI depicts features in its scanned region, not individual cancer cells. Symbols and amounts are schematic; neither window is a disease census.*
 
 Imagine looking at a garden through a camera while also sampling material carried away in its stream. The camera shows a region. The sample contains material that reached the collection point. Neither is a full census.
 

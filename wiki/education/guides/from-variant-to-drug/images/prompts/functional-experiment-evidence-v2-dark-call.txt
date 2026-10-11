@@ -1,0 +1,7 @@
+{
+  "prompt": "Use the actual accepted new light image as the geometry and semantic reference. Re-render the identical composition on a quiet deep ground with readable pale ink. Keep every object, quantity, shape, label, color identity, contact, arrow and conditional question in exactly the same position. Preserve the quiet flat watercolor texture; no extra warnings, objects, glow, gloss or changed endpoints.",
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-58c6f974-0495-49d0-bc6b-f91988281f77.png"
+  ],
+  "transparent_background": false
+}

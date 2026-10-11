@@ -45,9 +45,9 @@ For a two-drug experiment, the basic comparison has four conditions:
 
 A positive control helps establish that the assay can detect a response. Replicates show variation. A range of concentrations and suitable time points helps distinguish a consistent result from a narrow exposure artifact. The intended human exposure and schedule still need a separate comparison.
 
-<img src="./images/functional-experiment-evidence-light.png" alt="Panels follow a viable specimen through cell-identity checks, vehicle and single-drug controls, combination treatment, survival readouts, and limits on the final clinical claim" data-theme-pair>
+<img src="./images/functional-experiment-evidence-v2-light.png" alt="Four panels show specimen identity, matched vehicle and two-drug controls, separate viability and death measurements, regrowth of survivors after washout, and the distinct evidence needed for a clinical claim." data-theme-pair>
 
-*Controls define the comparison; additional evidence defines how far its conclusion can travel.*
+*Viability, cell death and regrowth after washout answer different questions. Regrowth concerns surviving cells; a lower laboratory signal alone establishes neither death nor patient benefit. Non-malignant cells identify a sample population, not a validated healthy-cell control. The cell mixtures, drug symbols and charts are schematic.*
 
 ## A worked example: stronger than either drug
 

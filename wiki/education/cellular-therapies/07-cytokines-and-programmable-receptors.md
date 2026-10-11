@@ -27,11 +27,11 @@ After [engineering and delivery](/wiki/education/cellular-therapies/06-in-vivo-d
 
 ## Message, receiver and response
 
-<img src="./images/cytokine-message-and-receptor-light.png" alt="A cytokine binds a receptor and changes intracellular signaling and cell behavior" data-theme-pair>
+<img src="./images/cytokine-message-and-receptor-v2-light.png" alt="Three scenes show an extracellular cytokine signaling through its receptor, a separate engineered trigger with conditional growth, and a T cell whose labeled CAR contacts a cancer-cell antigen while a different receptor receives a supportive signal." data-theme-pair>
 
-*Supportive signaling is a separate job from recognizing a tumor antigen.*
+*The CAR that contacts the target and the added supportive receptor perform separate jobs. A growth response depends on the receptor and cell context; signaling or cell accumulation alone does not establish safe tumor killing. Shapes and relays are schematic.*
 
-View full-size: [light illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-light.png) · [dark illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-dark.png).
+View full-size: [light illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-light.png) · [dark illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-dark.png).
 
 [Cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) are signaling proteins. [Receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) receive compatible signals, and [signal transduction](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) relays them within the cell. The resulting **phenotype** is an observable state or behavior.
 
@@ -117,4 +117,4 @@ Source check: October 10, 2026; expert and learner review pending. The table use
 - [Roybal et al., 2016](https://pubmed.ncbi.nlm.nih.gov/26830879/) — sequential synNotch-to-CAR circuit experiments.
 - [Kloss et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23242161/) — combined recognition with balanced activation and costimulation.
 
-<!-- Local illustration sources: [source](./images/cytokine-message-and-receptor-light.png) [source](./images/cytokine-message-and-receptor-dark.png) -->
+<!-- Local illustration sources: [source](./images/cytokine-message-and-receptor-v2-light.png) [source](./images/cytokine-message-and-receptor-v2-dark.png) -->

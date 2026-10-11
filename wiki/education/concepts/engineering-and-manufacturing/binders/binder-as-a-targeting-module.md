@@ -27,9 +27,9 @@ A binder is a recognition module that attaches to a particular molecular feature
 
 Think of a binder as a parcel's address-reading device. It can recognize a destination, but it does not tell you what the parcel contains or whether it arrives intact. The analogy stops at recognition: molecules meet through shape and chemistry, and the same destination can occur on cancer and healthy cells.
 
-<img src="./images/binding-is-only-one-step-light.png" alt="Three panels show a binder contacting a shared target on cancer and healthy cells, different therapeutic formats, and separate delivery, function, safety and benefit questions" data-theme-pair>
+<img src="./images/binding-is-only-one-step-v2-light.png" alt="Four physical scenes show a shared binder contacting a target on cancer and healthy cells, a linked cargo format, a soluble target/CD3 engager and a T-cell membrane receptor, with separate access and function questions." data-theme-pair>
 
-*Recognition is one step: the complete product needs separate evidence for delivery, useful function, safety and patient benefit. The engager's distinct T-cell arm recognizes CD3; the diagrams are schematic.*
+*Shared recognition can be built into different formats. Target and CD3 arms are distinct; payload access, productive contact and cell function need their own tests. An intended target may also occur on healthy cells. Shapes and quantities are schematic; no successful outcome is shown.*
 
 ## How it works
 
