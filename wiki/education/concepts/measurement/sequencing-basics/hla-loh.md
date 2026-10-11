@@ -6,7 +6,7 @@ aliases: ["HLA-LOH", "HLA loss of heterozygosity", "allele-specific HLA loss"]
 summary: "Loss of heterozygosity at a class-I human leukocyte antigen locus removes one previously present inherited allele from a tumor-cell population, which can narrow the peptides those cells present."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/biology-basics/genetics/allele-and-zygosity]]", "[[wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
 glossary_anchor: "hla-loh"
 sensitive: false
 tags: ["education", "measurement"]
@@ -90,6 +90,7 @@ Source check: October 10, 2026. Mechanism and assay interpretation; the exercise
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
 - [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
 <!-- END GENERATED USED IN -->

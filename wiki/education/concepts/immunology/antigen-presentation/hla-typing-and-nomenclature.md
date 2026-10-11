@@ -25,9 +25,9 @@ Human leukocyte antigen typing identifies inherited alleles, whose standardized 
 
 ## The intuition
 
-A [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) name is a precise part number. “HLA-A” identifies a family of peptide-display molecules. “HLA-A*02:01” specifies more of the sequence. A predictor or engineered receptor tested with one part number cannot automatically be transferred to another.
+A [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) name resembles a part number. “HLA-A” names a peptide-display gene; “HLA-A*02:01” specifies a protein version. Results for a predictor or receptor tested with one version cannot automatically transfer to another.
 
-Typing tells us which parts a person can inherit. It does not tell us whether a particular tumor still makes those parts, displays the proposed peptide, or is recognized by a T cell.
+Typing identifies inherited versions. It does not tell us whether a particular tumor still makes those parts, displays the proposed peptide, or is recognized by a T cell.
 
 ## How it works
 
@@ -45,11 +45,11 @@ An optional suffix carries additional information: for example, `N` indicates a 
 
 People generally inherit one copy of each HLA gene from each parent. A report can therefore list two alleles at a locus; identical inherited alleles can appear as the same name. Class I and class II typing describe different display molecules and do not substitute for one another.
 
-For a tumor-targeting project, keep four separate observations: inherited typing, retention and expression in the tumor, peptide display, and receptor recognition. Tumor loss of an allele or changes in [antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) can interrupt that chain after an accurate typing result.
+For a tumor-targeting project, keep four separate observations: inherited typing, retention and expression in the tumor, peptide display, and receptor recognition. [Tumor loss of an allele](/wiki/education/concepts/measurement/sequencing-basics/hla-loh) or changes in [antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) can interrupt that chain after an accurate typing result.
 
 ## Why it matters in cancer
 
-Peptide prediction and many T-cell receptor approaches depend on a particular HLA context. An “HLA-matched” label is therefore a starting condition, rather than a complete demonstration of targetability. Trial eligibility may also specify a particular allele and an accepted testing method; a similar-looking name is insufficient.
+Peptide prediction and many T-cell receptor approaches require a particular HLA context. Matching starts the assessment. A trial may specify an allele and accepted method; neither a similar name nor correct typing demonstrates targetability.
 
 ## Worked example
 
@@ -64,9 +64,30 @@ Those results concern different peptide–HLA pairs. Before combining them, ask 
 - A negative display assay does not by itself prove the inherited typing was wrong.
 - A typing result cannot establish clinical benefit from an HLA-restricted therapy.
 
-## Readout and limits
+## From specimen to report
 
-A sequence-based typing assay reports allele names, resolution and possible ambiguity from a specified specimen. It is not an HLA protein-count assay. Ask which loci and sequence regions were tested, whether alternative allele assignments remain, and whether the accepted method matches the proposed research or eligibility question. Sample requirements, turnaround and cost belong to the laboratory protocol; there is no universal blood-volume or price rule.
+Laboratory typing starts with an accepted specimen and extracted [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna). Methods can test sequence patterns with primers or probes, or read selected regions using Sanger or next-generation sequencing. **Polymerase chain reaction (PCR)** can amplify regions first. No platform name guarantees complete HLA coverage.
+
+The measured patterns or sequences are compared with an HLA reference database. **Phasing** connects differences on the same inherited copy. Missing distinguishing regions or unresolved phase can leave alternative allele pairs despite good-quality bases. Suitable additional coverage or phase-resolving evidence can help; no method resolves every ambiguity.
+
+```mermaid
+%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
+flowchart TD
+  A["Accepted specimen<br/>and DNA"] --> B["Test selected<br/>HLA regions"]
+  B --> C["Compare alleles<br/>and resolve phase"]
+  C --> D["Report names<br/>and remaining limits"]
+```
+
+This is an assignment workflow, not a measurement of tumor HLA abundance or peptide display.
+
+| Report question | What to look for |
+| --- | --- |
+| Input/method | Specimen, tested loci/regions, method |
+| Output | Names or alternative pairs, resolution/ambiguity; not protein counts |
+| Quality | Coverage, missed-allele checks, database version, validation |
+| Resources | Protocol-specific consumption, turnaround and cost |
+
+Software can infer HLA from genome, exome or [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) sequencing. OptiType's primary study evaluated class-I inference in specified datasets. Capture, coverage and expression affect the evidence. Retain the dataset, algorithm/version and validation context: inference is not automatically a laboratory result accepted for a clinical use.
 
 ## Try it
 
@@ -74,9 +95,15 @@ A fictional report says HLA-A*02 at group-level resolution. A study requires A*0
 
 **Answer:** No. The group contains different protein variants. More resolving evidence is needed before claiming the exact allele, and eligibility still belongs to the study team.
 
+## Try it: an ambiguous assignment
+
+In a **fictional** assay, two different allele pairs fit every region tested. An untested region would distinguish them. Can extra reads of only the same tested regions settle the assignment?
+
+**Answer:** Not in this example: the distinguishing information is missing. Preserve both alternatives and ask about validated testing of that region. Resolving the inherited assignment would still leave tumor display unmeasured.
+
 ## Explain it back
 
-Explain how a more detailed inherited name can resolve sequence ambiguity while leaving tumor expression open.
+Explain why “more sequencing” needs to mean useful distinguishing evidence, rather than simply more copies of the same information.
 
 ## Takeaway
 
@@ -92,9 +119,11 @@ Explain how a more detailed inherited name can resolve sequence ambiguity while 
 
 Source-checked October 10, 2026. The report is fictional. This page teaches how to read a name, rather than how to interpret an individual laboratory result or establish trial eligibility. Expert and learner review remain pending.
 
-- [Official HLA nomenclature: naming alleles](https://hla.alleles.org/pages/nomenclature/naming_alleles/), for allele fields and expression suffixes.
-- [IPD-IMGT/HLA database](https://www.ebi.ac.uk/ipd/imgt/hla/), the curated sequence and nomenclature resource.
-- [Sarkizova and colleagues: primary peptide–HLA presentation study](https://www.nature.com/articles/s41587-019-0322-9), for allele-specific presentation modeling.
+- [Official HLA nomenclature](https://hla.alleles.org/pages/nomenclature/naming_alleles/): fields and suffixes.
+- [IPD-IMGT/HLA database](https://www.ebi.ac.uk/ipd/imgt/hla/): curated reference sequences.
+- [Hosomichi et al., 2013](https://link.springer.com/article/10.1186/1471-2164-14-355): targeted sequencing, phasing and coverage limits.
+- [Szolek et al., 2014: OptiType](https://pubmed.ncbi.nlm.nih.gov/25143287/): class-I inference in specified datasets.
+- [Sarkizova et al.](https://www.nature.com/articles/s41587-019-0322-9): allele-specific presentation modeling.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

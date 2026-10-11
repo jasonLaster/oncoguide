@@ -45,6 +45,8 @@ A sequencing **library** is prepared material, not the original tissue. Some met
 
 [Single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq)](/wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq) sample different compartments. Match the preparation to the question; neither profiles every original cell and message completely.
 
+For a shared method-choice exercise, use the [bulk vs single-cell vs spatial RNA comparison](/wiki/education/concepts/measurement/transcriptomics/bulk-vs-single-cell-vs-spatial-rna).
+
 ## A worked splice question
 
 Use the fictional repair-gene R finding from the DNA lesson. A [[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq|bulk RNA assay]] detects abundant R messages. [Fusion and splice detection](/wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection) finds a reproducible abnormal junction. The second observation is more specific to the proposed mechanism than gene abundance. A gene-counting library may not cover the junction needed to test it.

@@ -44,6 +44,12 @@ In `HLA-A*02:01`, `HLA-A` names the gene, `02` names an allele group, and the ne
 
 People can share these alleles, so the report is not a unique barcode. HLA-C*07:01 and HLA-C*07:02 also share a first field without being interchangeable proteins. A study performed with one allele needs evidence before its peptide or receptor findings can be transferred to another.
 
+## How a method becomes an allele report
+
+Start with the method column, not just the printed name. Laboratory typing uses an accepted specimen to test HLA sequence patterns or to sequence selected regions. Sanger and next-generation sequencing are approaches within that family; their coverage and ability to connect sequence differences to the same inherited copy (**phase**) depend on the protocol. Compare the output with the tested loci, regions, resolution and remaining alternative assignments. The [typing concept's method-to-report bridge](/wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature#from-specimen-to-report) explains this workflow.
+
+HLA can also be inferred computationally from an existing genome, exome or RNA sequencing dataset. That is a different evidence route: retain the dataset, software/version and relevant validation. A tumor dataset's capture, coverage and expression may limit inference. Do not silently present a research inference as a laboratory result accepted for a clinical purpose, or treat either route as a peptide-display assay.
+
 ## Class I and class II serve different recognition routes
 
 | System | Main display context | Conventional reader |
@@ -63,7 +69,7 @@ flowchart TD
   D --> E["Separate function,<br/>safety and benefit tests"]
 ```
 
-Typing answers the first question. Tumor measurements address the next questions. Changes in [antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) can interrupt the chain after an accurate typing result. Proteasome cutting, transporter associated with antigen processing (TAP) transport and endoplasmic reticulum aminopeptidase (ERAP) trimming shape the candidate fragment; trimming can generate or destroy a particular sequence. The concept explains those steps. Merely encoding more source windows does not bypass a shared processing defect.
+Typing answers the first question. Tumor [allele-retention measurements](/wiki/education/concepts/measurement/sequencing-basics/hla-loh) and other assays address the next questions. Changes in [antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) can interrupt the chain after an accurate typing result. Proteasome cutting, transporter associated with antigen processing (TAP) transport and endoplasmic reticulum aminopeptidase (ERAP) trimming shape the candidate fragment; trimming can generate or destroy a particular sequence. The concept explains those steps. Merely encoding more source windows does not bypass a shared processing defect.
 
 [Beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) supports classical class-I structure. Its loss can affect several class-I targets together without removing class-II presentation by that same mechanism. [Ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) expression alone does not establish assembled surface peptide–HLA.
 
@@ -87,6 +93,12 @@ A candidate has an excellent prediction for HLA-C*07:01. The patient's report li
 
 **Answer:** No. The names identify different protein variants. Request the prediction for the reported allele and check its resolution and model support. Even an appropriate prediction would still leave presentation, recognition and outcome questions.
 
+## Try it: read the uncertainty note
+
+A **fictional** report lists two possible allele pairs because phase remains unresolved: the tested sequence changes could be arranged differently between the two inherited copies. A design team chooses its preferred pair because it gives more favorable peptide predictions. Has the ambiguity been resolved?
+
+**Answer:** No. A prediction preference does not connect the measured sequence changes to their inherited copies. Carry both alternatives forward and request appropriate phase-resolving evidence from the laboratory. Even a resolved pair would not establish tumor retention, peptide display or recognition.
+
 ## Explain it back
 
 Tell a friend why inherited typing, tumor retention, peptide display and T-cell recognition need separate evidence. Include one experiment that would move the candidate beyond prediction.
@@ -102,6 +114,8 @@ Tell a friend why inherited typing, tumor retention, peptide display and T-cell 
 Source-checked October 10, 2026. The typing report, peptide and receptor comparison are fictional. Expert and learner review remain pending.
 
 - [Official HLA nomenclature](https://hla.alleles.org/pages/nomenclature/naming_alleles/), for allele fields and expression suffixes.
+- [Hosomichi and colleagues: phase-defined HLA sequencing](https://link.springer.com/article/10.1186/1471-2164-14-355), for the scoped laboratory sequence/phasing example.
+- [Szolek and colleagues: OptiType](https://pubmed.ncbi.nlm.nih.gov/25143287/), for class-I computational inference from specified sequencing datasets.
 - [Official NetMHCpan-4.1 documentation](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/), for prediction tasks and percentile ranks.
 - [Sarkizova and colleagues: HLAthena](https://www.nature.com/articles/s41587-019-0322-9), a primary allele-specific presentation dataset and modeling study.
 - [TNBC-MERIT primary paper](https://www.nature.com/articles/s41586-025-10004-2), for the scoped presentation-escape observation.

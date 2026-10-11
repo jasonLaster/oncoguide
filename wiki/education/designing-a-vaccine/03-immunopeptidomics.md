@@ -33,9 +33,9 @@ The short methods pages explain how the assays work. Here we connect their outpu
 
 ## Three assays, three questions
 
-<img src="./images/three-assays-three-questions-light.png" alt="Three independent panels showing peptide identification, peptide-HLA multimer binding and stimulated cell secretion, with tumor killing and patient benefit left as separate questions" data-theme-pair>
+<img src="./images/three-assays-three-questions-v2-light.png" alt="Three independent assay scenes showing connected peptides released from captured HLA complexes, a shared peptide–HLA multimer scaffold binding a T cell, and cells incubating on a capture membrane before a separate washed spot readout" data-theme-pair>
 
-*Presentation, binding and secretion each answer one question; none alone establishes patient benefit. The ELISpot panel is schematic: in the assay, cells incubate on the capture membrane.*
+*Molecular shapes and spot counts are schematic. Recovered peptides, reagent binding and stimulated secretion are different measurements; none alone establishes tumor killing or patient benefit.*
 
 | Measurement | The question it answers | What remains open |
 |---|---|---|

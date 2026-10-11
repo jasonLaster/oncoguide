@@ -46,11 +46,11 @@ flowchart TD
 
 *Each step needs evidence. Uptake does not guarantee escape, expression or function; unintended cells also need assessment. Ordinary mRNA is translated in the cytosol and does not require nuclear entry.*
 
-<img src="./images/uptake-is-not-expression-light.png" alt="Three schematic panels separate RNA particle uptake into an endosome, RNA escape into cytosol and possible protein expression" data-theme-pair>
+<img src="./images/uptake-is-not-expression-v2-light.png" alt="Three schematic panels separate RNA particle uptake into an endosome, RNA escape into cytosol and possible protein expression" data-theme-pair>
 
 *Uptake, cytosolic RNA release and protein expression are separate checks. The panels show possible steps, not a measured efficiency or guaranteed sequence. Endosomes are already inside the cytoplasm; ordinary mRNA must become accessible outside those membrane-bound compartments for translation and does not require nuclear entry. Protein function, immune effects and clinical benefit need further evidence.*
 
-View full-size: [light illustration](./images/uptake-is-not-expression-light.png) · [dark illustration](./images/uptake-is-not-expression-dark.png).
+View full-size: [light illustration](./images/uptake-is-not-expression-v2-light.png) · [dark illustration](./images/uptake-is-not-expression-v2-dark.png).
 
 In Paramasivam et al.'s experiments with six formulations in human adipocytes, fibroblasts and HeLa cells, total uptake did not adequately predict useful delivery. RNA could accumulate in compartments without productive release. The formulation with the brightest uptake signal need not make the most protein.
 

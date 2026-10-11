@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea",
+  "sourceCommit": "46de185c4484517fe6bcbc931c63b403adae25c1",
   "sourcePrefix": "obsidian/",
   "rendererCommit": "055625254e37f260d479349a2c91cf7929814ca7",
   "files": {
@@ -181,11 +181,13 @@
     "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md": "bdef249b7e6fcc363901437fe68f6ab031e69e62f0d8fac61b593a52ce8db1fa",
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md": "3d58d8158c87b50b31ff38e510aa3f29fdd68d0e63a98ee5cfdad9f290759a51",
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md": "73c911a89f5d84bbcbd404cc10dbfbef16eb18ac94a89aa7bc2653872af29ab7",
-    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/uptake-is-not-expression.txt": "8c5435b8e0d66958a73b543c143d93b9a58f9a98ab59298eb93c116967895032",
-    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-dark.png": "ac146b75b94496cad76bf0667870b750e1236e6fc71f74024e94eee51b6bc73b",
-    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-light.png": "2c085111b36aac729d77d1efb0a6fad3c37705c257d59a65740fe671259e9c62",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/uptake-is-not-expression-v2-dark-call.txt": "83488253d815430cb119a8cd204027e862e49845d75f808b7769292116453d38",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/uptake-is-not-expression-v2-light-call.txt": "8d673a72828f1e849a82d743e75088cc137d9d05c2a200434027781d6fe84f72",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/uptake-is-not-expression-v2.txt": "5f561fd45555d841401bd8d7eedc18d96ab4c80dda976b483d77c376163f9223",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-dark.png": "9aacdfa52d801cb7b4f95655e710ac9a7c126c618713dbf76149a661f24e5e9d",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-light.png": "2c80056cf85f47914b351130e39d4d97f762cdb7ad95763f8dac0d5eacb7d656",
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md": "62f1c59c218fee86e148e331567de358f013dffc65a9fb11dc1f604d20405db4",
-    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md": "86e82e2d49801cb5371903d67526f9ace160469c2d97110e70f1ce252d2144bd",
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md": "a4c11b5253b55ad74a6f39250e16f521f303034dc600904dd5cc869b087f5d61",
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md": "8411e9205485783665083739d97800812fd4e0067997dc51068357d120f167ef",
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md": "3e07ce917c5c8d90d7ca2a5405cd0e9d9e2bbd155c5ef0ca5dd650ce13aa1ea6",
     "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md": "b648d4a74cea0a704a8df315188a908cba9b26058efc8357ad2e2f34cc9144d5",
@@ -247,7 +249,7 @@
     "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md": "3f8c2a1cbb4012f911c3136caf8d75356b94baf54bf570fd6626c6a986c929ab",
     "wiki/education/concepts/immunology/antigen-presentation/b2m.md": "c5d193b9402f0004f368d64ecd2399aeb7cf598525f73b82d127149b81a0f362",
     "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md": "a7ae3f599ae50e87c2c73beba9aa4708fbd54dcf6e0a7ec6732880f9c9a50c94",
-    "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md": "107809f1374131c2d5c3202dc3221363bdb14cc601c6d29c42c523309a1c00d0",
+    "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md": "d2a752f2a5f07028aac0a8107db2c06669903ca14f8a61100e832b8b6916651c",
     "wiki/education/concepts/immunology/antigen-presentation/hla.md": "ab069b111c110ae408a24e00b201e51a61e061ca713d083b9b4320e951e22fe5",
     "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-dark.png": "e9ffbe753559e3ffcd69e7244ad840adc1b881f068cbc8d97c40684dc1ac4165",
     "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-light.png": "487cee421388eabc35aacebb7633557e87ebc093acb99f911777be2f94efb51e",
@@ -359,7 +361,7 @@
     "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md": "4526a3bf242434f4d52be73d637878d415331f7df1eadc1b8b8f800b6ec64729",
     "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md": "151dbc6288c0cdf7625f79b36b1ab81e52922bc6f186c5e8f00e1d016e14b297",
     "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md": "f77a1258d4a44548447a70848917b6ef357131e6f19d9f23730404cf09034904",
-    "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md": "49f95b350757a6a9ebb891a02fed7399ad164a2a0ba6687844f3ba19e5940fd1",
+    "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md": "006294da67e954e5f635eb3e129934cf7294e0a9a41ede8a26ee02f398fae663",
     "wiki/education/concepts/measurement/sequencing-basics/images/prompts/same-cells-different-copy-fractions.txt": "1b21d8dcc391c265ac2251edd1e480103e0d7b36dc4388c7d4276d96e29916a0",
     "wiki/education/concepts/measurement/sequencing-basics/images/same-cells-different-copy-fractions-dark.png": "c74abced7aded3be78860600d6d082dc370e0729fb62a950f90064e9b717cd6d",
     "wiki/education/concepts/measurement/sequencing-basics/images/same-cells-different-copy-fractions-light.png": "034e312695a3ccabd4ba0d90aba31f57dd473524fa46c32089af9d83a22dd9b6",
@@ -382,6 +384,7 @@
     "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md": "d8147e85a290be3ca34422bb7a9b7553e8fd678129572ad9ec419b0295dd182d",
     "wiki/education/concepts/measurement/transcriptomics/batch-effects.md": "e46be04478405c92c9be610e3acd99e198bf04253184295d85d8567e117d9c9e",
     "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md": "60b67689eb92b52a5b6dae1a2fe746cd37a75cf6f6fd0d56b1447b0066f6ae85",
+    "wiki/education/concepts/measurement/transcriptomics/bulk-vs-single-cell-vs-spatial-rna.md": "42000481e23c4f049ae9baad038071c965cb47c41f7bea187e525ca07cc2996c",
     "wiki/education/concepts/measurement/transcriptomics/counts-normalization.md": "3594589dc3fbfa02a529c176c82f91dc3e65c50f25c179b8d63d0ebbc61f4ff7",
     "wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection.md": "ad9b2603048b82dc23a7602e68b8d31858276b164ad3d310f7a4bb3560dae949",
     "wiki/education/concepts/measurement/transcriptomics/gene-expression-signatures.md": "d502059a307d395de64e9fc98b793ad1f25c3da1e0b45b1cc0a716e64b88b262",
@@ -459,13 +462,15 @@
     "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md": "d07258559085afff0b6b172e4120aa86646bc10bfd85f9e253d48aec039d0217",
     "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md": "d3edff0894ce233e181738a4ba28243bbffba5d8cfb1a5d16d28ece0db56ac36",
     "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pneumonitis.md": "25bfde6943636afb6d773d78ba9eff2ea55398b9f56100a94790739a85857bc5",
-    "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md": "b1a18779073ecabebad20b6c8e01a721c9de2d1195e4e0a2833f6e9bc86c20bf",
-    "wiki/education/designing-a-vaccine/03-immunopeptidomics.md": "38f416bd85d7bf89e4d5c0befa4445fb73379610bf2ec1c1fb42912e51be1cba",
+    "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md": "d7744a1ab32fddcfae4d6cd39ac09d092bef5415164528ee0abb7909f5926404",
+    "wiki/education/designing-a-vaccine/03-immunopeptidomics.md": "ea3aec947a3e7b0bc51266edf5ab5e3bf85c565a5910b839662d7d97115ee7f6",
     "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md": "9e8bb6aa94cdf00a5d538d891bda735dc7db1514aab740e71482ac4528a65155",
     "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md": "628a60c8bb527d4eaa7475a8c99c89f571f40b3702124d4423cc20e05a2c9842",
-    "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions.txt": "04c8923b64230ea22af815959ec886871080723047849f0d23932118a46768c5",
-    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-dark.png": "446127018bade1a5fff1a61e7da4554ede02b75426ada80e9c9596933427c572",
-    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-light.png": "5263f8430942ca1db0281c56edd23073838fc7f7b361506cd15d9f315aa0411a",
+    "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d",
+    "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-light-call.txt": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
+    "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2.txt": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",
+    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
     "wiki/education/designing-a-vaccine/index.md": "184f398624b16521c51f864fe76d6761ca3f1e9912910bf81dc39c7ddfbaa7f8",
     "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md": "923096ad9f0b9780bacabfcf0c43d2082cb548a134aef74cead3572a1f51a9d5",
     "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md": "8668e38206a84324f8485eefc50376a3ec774cbcb76bda761b8305a185f5cf41",
@@ -531,7 +536,7 @@
     "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md": "4fc6c6f90d90d24fb33404fc33724221153c6bbe44afbab12262a40f0577d538",
     "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md": "f2785b54259f6522b25b0af766a23d572eb422b9c718131b95e113d33e12882a",
     "wiki/education/guides/treating-early-tnbc/index.md": "f277205a62197fa076c448d77fe25ad8c6925901581c1af63d1c2d248101610b",
-    "wiki/education/images/index.md": "1730d58d86a26e8a2b7a361f008804a1ab236e7b448db7dda59e44786737cdb4",
+    "wiki/education/images/index.md": "18fd9cb503e0e3c257949d1a40d642de6b514434d78a780c941b94ca07df44a4",
     "wiki/education/index.md": "899554c4649d1751c5536940f93adc6c71963d573ecb33d8bbe7586a9009ddc9",
     "wiki/education/local-treatment-modalities/01-mechanism.md": "5df1429610b074c6141c16a332f516b0421f27d57961c8b0bc70127b0632ba23",
     "wiki/education/local-treatment-modalities/02-timing.md": "7a76bdd6cb456ae6a7435081168530cca46ead48ff28d86c26e82dae49b6868a",
@@ -549,7 +554,7 @@
     "wiki/education/modeling-tumor-response/index.md": "16cc16e6f4b8ece2054591eb1b6335cb54df779f7a7bdba3fabe53b96da8a8ce",
     "wiki/education/modeling-tumor-response/verification-and-feedback-loops.md": "d63a71846e0ffa4c9d6e7abb12a6d6823c21f64254d7f8cba8c704f7d6b62e32",
     "wiki/education/molecular-profiling/01-dna-the-blueprint.md": "8ce8eed4da8c6670a17eaea8c11a8f51500d7bf9bfe68066b4789d8a3b500072",
-    "wiki/education/molecular-profiling/02-rna-the-activity-layer.md": "70e273ffbee3c9fe2bd30fd66e36b478140facb4974752ac7a09de314e73b448",
+    "wiki/education/molecular-profiling/02-rna-the-activity-layer.md": "7eaa40018aa491469f37a3e8c56709faa2e0148ce172f92bc5540636ca301169",
     "wiki/education/molecular-profiling/03-protein-expression-and-activation.md": "315a2ecdface2240675ba60bf2096daa4a3157dad605a62758c882f69b665187",
     "wiki/education/molecular-profiling/04-spatial-biology.md": "3b8e66a9ddf6d5db6247595ddab2b7f8defcfff929cd4643504a4705560c5955",
     "wiki/education/molecular-profiling/05-functional-drug-response.md": "b2f6b488d636ff222a7de352809dbdfe161470c05ffe461c8197c9fa690777b4",
@@ -618,6 +623,18 @@
       "hash": "d6923f26e4711e42ea50484002df0c20392a4493253909e08b423eccb915dd5b",
       "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
     },
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/uptake-is-not-expression.txt": {
+      "hash": "8c5435b8e0d66958a73b543c143d93b9a58f9a98ab59298eb93c116967895032",
+      "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
+    },
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-dark.png": {
+      "hash": "ac146b75b94496cad76bf0667870b750e1236e6fc71f74024e94eee51b6bc73b",
+      "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
+    },
+    "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-light.png": {
+      "hash": "2c085111b36aac729d77d1efb0a6fad3c37705c257d59a65740fe671259e9c62",
+      "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
+    },
     "wiki/education/designing-a-vaccine/images/porton-design-manufacturing-boundary-dark.png": {
       "hash": "eb1d3cf0a6cfc2744cbb5f52d7a7841781b324bd2d1d4856e7c3c8d057c10f6a",
       "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
@@ -633,6 +650,18 @@
     "wiki/education/designing-a-vaccine/images/porton-sequence-to-vials-light.png": {
       "hash": "831eb86fad6522ac8bdadb80d76598db6c5e650e53f2317ba638fa4e76278799",
       "sourceCommit": "a8c6a5188314a69580a2221f55e324f172b8d279"
+    },
+    "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions.txt": {
+      "hash": "04c8923b64230ea22af815959ec886871080723047849f0d23932118a46768c5",
+      "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
+    },
+    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-dark.png": {
+      "hash": "446127018bade1a5fff1a61e7da4554ede02b75426ada80e9c9596933427c572",
+      "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
+    },
+    "wiki/education/designing-a-vaccine/images/three-assays-three-questions-light.png": {
+      "hash": "5263f8430942ca1db0281c56edd23073838fc7f7b361506cd15d9f315aa0411a",
+      "sourceCommit": "219f5690ae14401e201e367ab726e6911208e8ea"
     },
     "wiki/education/molecular-profiling/images/cul3-nrf2-ferroptosis-dark.png": {
       "hash": "23f89f2508d1968890d648dedc089de30a86c8b2411e03419de99fdd39e4ed34",
