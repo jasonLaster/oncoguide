@@ -1,0 +1,147 @@
+CURRENT CUSTODY NOTE
+This is an original editable SVG composition with reviewed scratch artwork, not an image-generation request. The complete original composition below is retained, followed by the exact portable renderer. Local source/pixel acceptance does not certify integration, release or human understanding.
+
+ORIGINAL EDITABLE SVG COMPOSITION DRAFT — NOT RENDERED OR APPROVED
+Learner question: Which RNA pieces are removed, retained and joined?
+Canvas: 600 × 1520 SVG user units; three stacked scene panels; identical object/text geometry in light and dark; palette changes only. Main title 40 px, panel headings 34 px, all other core labels >=28 px (14.56 effective px at a 312 px rendered width, prediction only). Lines/borders stay inside x=18..582. No real patient sequence, base counts or study-derived numerical results.
+
+Panel 1 — PRECURSOR RNA (approximately y=110..480)
+Header: Precursor RNA
+Subhead: Same fictional gene
+One left-to-right 5′ to 3′ strip, ordered A — intron — B — intron — C. A/B/C are colored rectangular regions, with gray intervening introns distinct by outline/dashed pattern. Each letter is large and remains matched across panels. A's left edge and C's right edge contain modest hatch patches; no start/stop codon or reading frame is drawn. A bracket or two short leaders from one label 'Introns removed' lands strictly on the two gray intron segments. The A/B/C regions are not relabeled as introns when B is skipped. Short dashed removal cues terminate at distinct gray discarded-intron shapes beneath the strip; do not imply all splicing outcomes remove all intronic sequence. Add 5′/3′ orientation once.
+
+Panel 2 — TWO POSSIBLE PRODUCTS (approximately y=505..1000)
+Header: Two possible products
+Intro label: Exons joined
+Two separate left-aligned mature RNA strips, each explicitly a different processing outcome across precursor molecules, not one molecule physically splitting into two. Product 1 joins A-B-C; product 2 joins A-C. Preserve A/B/C colors, relative exon block sizes, and A/C terminal hatch portions. Physical exon blocks abut at joins; no gray intron remains between them and no exon is reordered. Short vertical marks identify real exon-exon junctions. 'B skipped here' points to the alternate product's absent B without drawing B as an intron. Under the products show hatch swatch + 'Striped = untranslated' and 'Exon ≠ all coding'. No protein shape or automatic frameshift/decay is drawn. No intron lariat chemistry; it is a remove-and-join schematic.
+
+Panel 3 — WHAT THE READ SHOWS (approximately y=1025..1470)
+Header: What the read shows
+A enlarged local A-C join strip, with the same A/C colors and clear boundary. Beneath it, one continuous, outlined short read spans the physical A-C boundary, matching A sequence on its left and C sequence on its right. Label 'Junction read' and 'Supports this join'. No invented nucleotide letters/read depth/clinical thresholds. The observed read is a local structural clue, not full-length isoform validation. Separate bottom card: 'Protein consequence?' with question mark, plus 'Needs other evidence'. No arrow from read to a completed/activated protein or treatment benefit; it is a distinct question.
+
+Caption objectives: alternative products from the same fictional gene; exon pieces may include untranslated sequence; localized junction observation is distinct from full isoform/protein/tumor attribution. Other processing outcomes and steps omitted. Maintain physical separation of precursor, removed introns, joined transcript and read data.
+Theme: warm restrained off-white/light ink versus quiet charcoal/light ink. Exon identity colors/patterns consistent across both. Never use red/green pass/fail, success ladder, tumor-specific color codes, clinical outcomes or activation glow. Original vector drawing only; no copied source illustration.
+
+
+REPRODUCIBLE ORIGINAL SVG SOURCE
+Method: Python standard library; image-generation model: null. No raster postprocessing.
+Save the exact Python block below as render_diagram.py, then run: python3 render_diagram.py --output-dir ./reproduced
+The output directory must be fresh. Expected SVG hashes: light 11fd966b3f08d1d19fdbcc01fbd604f5e955b2c1d6e9217cf59aa922841952a0; dark ab091ea82f10e39550fa8742459ccca5ca45f0b5739b219d7d455298cbb2e37a.
+
+BEGIN EXACT PYTHON SOURCE
+"""Original editable RNA-splicing schematic. Python standard library only.
+Use: python3 render_diagram.py --output-dir /absolute/fresh/directory
+No repository, temporary brief or source illustration is required for reproduction.
+The source-bound brief and all later approvals remain separate custody records.
+"""
+from pathlib import Path
+from html import escape
+import argparse, json, hashlib, xml.etree.ElementTree as ET
+
+ALT = 'A precursor RNA contains A, B and C regions separated by gray introns. Two processed RNA alternatives retain A-B-C or A-C in order, with hatched untranslated ends. An example sequencing read crosses the A-C junction while protein consequence remains unknown.'
+CAPTION = 'These are alternative RNA products from the same fictional gene, not two products from one RNA molecule. Introns are removed and retained exons joined; striped exon ends illustrate untranslated sequence. A junction read supports this join, not a complete isoform, protein effect, tumor origin or benefit. Other processing outcomes and steps are omitted.'
+BRIEF_SHA256 = 'c8eb6e6eedc93621ef6a81f2d1e5179b9e1c3cf69182ff6c46b6baa789355826'
+PLANNING_REVIEW_SHA256 = '42ff83bfb447d58814fb567b59470d555e4c35cb1c3c77edd7516d09c273acf3'
+PAL = {
+ 'light': {'ground':'#fbf7ef','panel':'#fffdf8','ink':'#243440','muted':'#596976','line':'#b9c6cd','A':'#b7cedf','B':'#bcd4c0','C':'#e4cea0','intron':'#e2e3e2','intronEdge':'#667780','hatch':'#5f7380','question':'#f0eee7'},
+ 'dark': {'ground':'#17232d','panel':'#20313e','ink':'#f1eee6','muted':'#c1cfd4','line':'#738994','A':'#537b95','B':'#5f856d','C':'#b19a69','intron':'#45535b','intronEdge':'#c2ccd1','hatch':'#d9e4e8','question':'#293e4b'}
+}
+EXONS = ['A','B','C']
+LEADERS = [
+ {'id':'intron-left','start':[228,222],'end':[198,252],'target':'left gray intron'},
+ {'id':'intron-right','start':[372,222],'end':[388,252],'target':'right gray intron'},
+ {'id':'skipped-B','start':[228,875],'via':[158,855],'end':[158,843],'target':'A-C boundary, not B or an intron'},
+]
+def build(theme):
+ c=PAL[theme];s=[]
+ def add(t):s.append(t)
+ def text(id,x,y,t,size=28,weight=400,anchor='start'):
+  add(f'<text id="{id}" x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}" fill="{c["ink"]}">{escape(t)}</text>')
+ def line(id,x1,y1,x2,y2,arrow=False,dash=False):
+  add(f'<line id="{id}" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{c["muted"]}" stroke-width="2.5"'+(' marker-end="url(#arrow)"' if arrow else '')+(' stroke-dasharray="6 5"' if dash else '')+'/>')
+ def box(id,x,y,w,h,fill='panel',rx=16):
+  add(f'<rect id="{id}" x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{c[fill]}" stroke="{c["line"]}" stroke-width="2"/>')
+ def exon(id,label,x,y,w=110,h=58,letter=True):
+  # Adjacent blocks are continuous retained transcript pieces, not reordered genes.
+  add(f'<rect id="{id}" x="{x}" y="{y}" width="{w}" height="{h}" fill="{c[label]}" stroke="{c["ink"]}" stroke-width="2"/>')
+  hw=w*.2
+  if label=='A':add(f'<rect id="{id}-untranslated" x="{x}" y="{y}" width="{hw}" height="{h}" fill="url(#hatch)"/>')
+  if label=='C':add(f'<rect id="{id}-untranslated" x="{x+w-hw}" y="{y}" width="{hw}" height="{h}" fill="url(#hatch)"/>')
+  if letter:text(id+'-label',x+w/2,y+42,label,40,700,'middle')
+ def intron(id,x,y,w=80,h=58,letter=True):
+  add(f'<rect id="{id}" x="{x}" y="{y}" width="{w}" height="{h}" fill="{c["intron"]}" stroke="{c["intronEdge"]}" stroke-width="2" stroke-dasharray="5 4"/>')
+  if letter:text(id+'-label',x+w/2,y+39,'intron',28,400,'middle')
+ add('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1520" viewBox="0 0 600 1520" role="img" aria-labelledby="title desc">')
+ add('<title id="title">Which RNA pieces are joined?</title><desc id="desc">'+escape(ALT)+'</desc>')
+ add('<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4.5 L0 9 Z" fill="'+c['muted']+'"/></marker>')
+ add('<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 2 L2 -2 M0 8 L8 0 M6 10 L10 6" fill="none" stroke="'+c['hatch']+'" stroke-width="2"/></pattern></defs>')
+ add('<g font-family="Arial, Helvetica, sans-serif">')
+ add('<rect width="600" height="1520" fill="'+c['ground']+'"/>')
+ text('title-line-1',24,44,'Which RNA pieces',40,700);text('title-line-2',24,88,'are joined?',40,700)
+ box('precursor-panel',12,110,576,370)
+ text('precursor-heading',36,156,'Precursor RNA',34,700)
+ text('gene-heading',36,194,'Same fictional gene',28)
+ text('removal-heading',300,218,'Introns removed',28,600,'middle')
+ for l in LEADERS[:2]:line(l['id']+'-leader',*l['start'],*l['end'])
+ text('five-prime',48,246,'5′',28);text('three-prime',538,246,'3′',28,400,'end')
+ exon('precursor-A','A',48,252);intron('precursor-intron-1',158,252)
+ exon('precursor-B','B',238,252);intron('precursor-intron-2',348,252);exon('precursor-C','C',428,252)
+ for x,n in [(198,1),(388,2)]:
+  line('remove-intron-'+str(n),x,316,x,362,True,True)
+  intron('removed-intron-'+str(n),x-29,368,58,25,False)
+ text('ordered-pieces',300,448,'A, B, C stay in order',28,400,'middle')
+ box('products-panel',12,505,576,500)
+ text('products-heading',36,554,'Two possible products',34,700)
+ text('join-heading',36,596,'Exons joined',28,600)
+ for x,l in [(48,'A'),(158,'B'),(268,'C')]:exon('product-ABC-'+l,l,x,635)
+ text('ABC-name',430,676,'A–B–C',30,600,'middle')
+ for x in [158,268]:line('ABC-junction-'+str(x),x,693,x,704)
+ for x,l in [(48,'A'),(158,'C')]:exon('product-AC-'+l,l,x,785)
+ text('AC-name',405,826,'A–C',30,600,'middle')
+ line('AC-junction',158,843,158,855)
+ text('B-skipped',300,902,'B skipped here',28,600,'middle')
+ l=LEADERS[2];add('<path id="skipped-B-leader" d="M228 875 L158 855 L158 843" fill="none" stroke="'+c['muted']+'" stroke-width="2.5"/>')
+ add('<rect id="hatch-key-ground" x="48" y="927" width="34" height="25" fill="'+c['A']+'" stroke="'+c['ink']+'" stroke-width="1"/>')
+ add('<rect id="hatch-key" x="48" y="927" width="34" height="25" fill="url(#hatch)"/>')
+ text('hatch-key-label',98,950,'Striped = untranslated',28)
+ text('coding-limit',300,988,'Exon ≠ all coding',28,600,'middle')
+ box('read-panel',12,1030,576,470)
+ text('read-heading',36,1078,'What the read shows',34,700)
+ text('local-join-label',300,1121,'Local A–C join',28,600,'middle')
+ exon('local-A','A',116,1145,180);exon('local-C','C',296,1145,180)
+ line('local-junction',296,1203,296,1243,False,True)
+ # One contiguous short read maps to A on one side and C on the other.
+ add('<rect id="read-A" x="210" y="1245" width="86" height="30" fill="'+c['A']+'"/>')
+ add('<rect id="read-C" x="296" y="1245" width="86" height="30" fill="'+c['C']+'"/>')
+ add('<rect id="junction-read-outline" x="210" y="1245" width="172" height="30" fill="none" stroke="'+c['ink']+'" stroke-width="3"/>')
+ line('read-junction',296,1245,296,1275)
+ text('junction-read-label',300,1320,'Junction read',28,600,'middle')
+ text('join-support',300,1360,'Supports this join',28,400,'middle')
+ box('protein-question',42,1390,516,88,'question',12)
+ text('protein-question-heading',300,1425,'Protein consequence?',30,700,'middle')
+ text('other-evidence',300,1460,'Needs other evidence',28,400,'middle')
+ add('</g></svg>')
+ return ('\n'.join(s)+'\n').encode()
+def semantic(root):
+ return [(el.tag,tuple(sorted((k,v) for k,v in el.attrib.items() if k not in ['fill','stroke'])),el.text or '') for el in root.iter()]
+def main():
+ parser=argparse.ArgumentParser();parser.add_argument('--output-dir',type=Path,required=True);args=parser.parse_args()
+ p=args.output_dir.resolve();p.mkdir(parents=True,exist_ok=True)
+ outputs={t:build(t) for t in ['light','dark']}
+ roots={t:ET.fromstring(v) for t,v in outputs.items()}
+ assert semantic(roots['light'])==semantic(roots['dark'])
+ labels=[e for e in roots['light'].iter() if e.tag.endswith('text')]
+ assert min(float(e.attrib['font-size']) for e in labels)>=28
+ assert not any(bad in outputs['light'] for bad in [b'<script',b'<image',b'foreignObject'])
+ assert outputs['light'].count(b'http://')==1
+ records=[]
+ names=['which-rna-pieces-are-joined-v1-'+t+'.svg' for t in ['light','dark']]
+ assert not any((p/n).exists() for n in names+['drawing-source-checks.json'])
+ for t,n in zip(['light','dark'],names):
+  with (p/n).open('xb') as f:f.write(outputs[t])
+  records.append({'path':str(p/n),'sha256':hashlib.sha256(outputs[t]).hexdigest(),'bytes':len(outputs[t]),'dimensions':[600,1520]})
+ checks={'method':'Original editable Python standard-library SVG source','model':None,'nativeDimensions':[600,1520],'themeGeometryAndTextEqual':True,'editableTextMinimumUnits':28,'predictedCoreFontAt312px':14.56,'exonOrder':{'precursor':['A','intron','B','intron','C'],'product1':['A','B','C'],'product2':['A','C']},'leaders':LEADERS,'untranslatedPatchesWithinRetainedExonEnds':True,'readStructure':{'x':210,'width':172,'A_part':[210,296],'C_part':[296,382],'physicalJoinX':296},'proteinConsequence':'unanswered separate question','actualPixelsReviewed':False,'repositoryWrites':0,'humanReview':'pending'}
+ (p/'drawing-source-checks.json').write_text(json.dumps(checks,indent=2,ensure_ascii=False)+'\n')
+ print(json.dumps({'outputs':records,**checks},indent=2,ensure_ascii=False))
+if __name__=='__main__':main()
+END EXACT PYTHON SOURCE

@@ -1,0 +1,1532 @@
+ORIGINAL EDITABLE CHART — next-gap-008. Planning approved by the independent receipt e264a1ecb4ac11673b4346508939b20bcfd6657178db4840d004d53f6f81bb32, followed by root scratch-render authorization. The literal DRAFT specification below is preserved historical planning text; actual candidate/pixels and release remain pending.
+
+DRAFT — UNAPPROVED, UNRENDERED, UNEXECUTED. Original editable chart specification, not an image-generation invocation.
+
+OWNER AND TASK
+next-gap-008, pharmacokinetics-and-half-life.md, existing Worked example. One central question: What halves, and what adds up? Show repeated halvings as concentration heights and finite exposure as area. Preserve all owner prose, definition, model assumptions, related links, source scope and pending human fields.
+
+FORMAT AND COMPOSITION
+Use an original editable SVG light/dark pair, built later with a portable Python standard-library renderer from the explicit JSON model and fixed coordinates. Prefer precise chart objects to a raster poster. No rendering is authorized by this specification. Planned canvas: 600 × 1280 viewBox units. At an actual 312px image box, core 28-unit text predicts 14.56px; inspect actual text and geometry before acceptance and adjust within reviewed semantics if needed. Header text may be 32–36 units. Do not use background people, decorative syringe or pill, gauges, success icons or clinical target-zone bands.
+
+READING ORDER
+1. Header: 'What halves, and what adds up?' in two short lines if needed. Two clear context lines: 'Fictional one-compartment model' and 'Input stopped · Half-life 4 h'. A small plain qualifier identifies one fictional analyte, not a medicine or person.
+2. Main continuous exponential plot: x = hours since the model start, from 0 to 12; y = named concentration, 0 to 100 ng/mL. One continuous descending curve with four distinctly labeled MODEL-value markers, never observed samples. Keep linear zero-based axes and point labels 100, 50, 25, 12.5 matched to 0, 4, 8, 12 h. Show light grid lines, not extra curves or uncertainty bands. Four short leaders from text to the actual coordinates may be used; label/leader placement cannot suggest a different value.
+3. Equal four-hour interval braces or a small aligned halving strip make the three equal durations explicit. Label '4-hour half-life' and show the repeated factor '÷2' without a second dataset. All points and durations come from chart-data-draft.json.
+4. Shade only the bounded area under this SAME curve between exactly 0 and 12 hours, down to the y=0 axis. The fill can use a quiet warm tint plus a texture or outline; its label must not rely on color. A leader points to the fill interior, away from the curve marker. Label 'Exposure over shown interval', 'Area under the curve', then 'Concentration × time units'. Expand AUC as 'Area under the curve (AUC)' in ordinary caption; an optional compact area tile can say '0–12 h: ≈505 ng·h/mL'. The caption still makes it explicitly model-derived and finite. The finite integral is 350 / ln(2), approximately 504.943 ng·h/mL; do not calculate it by joining only the four anchors with straight lines (that would be 525).
+5. Short bottom note, not a fake downstream plot: 'Effects need separate measurements.' A following readable ordinary-text caption states the toy limitations; no pharmacodynamic curve, benefit probability, safe threshold or dosing schedule appears.
+
+PRECISE DRAFT GEOMETRY
+Plot rectangle left105/right548/top320/bottom780. X(t) = 105 + (548−105)×t/12. Y(C) = 780 − (780−320)×C/100. Approximate marked coordinates: (105,320), (252.667,550), (400.333,665), (548,722.5). Use all301 curve samples at0.04-hour increments or an analytically equivalent continuous path; close shading through (548,780) and (105,780) only. Plot ends at12 h with positive12.5 concentration; no implied zero endpoint or total lifetime curve. Tick labels0/4/8/12 hours and0/25/50/75/100 ng/mL; axis labels 'Hours' and 'Concentration (ng/mL)'. Place annotation boxes to avoid tick/curve overlap and verify actual browser text boxes. Labels may wrap without changing their words. Retain model points as model values, not measured sampling points. If this planned layout is too dense at312px, revise the composition in scratch and seek independent confirmation before producing accepted outputs.
+
+THEMES / VISUAL VOCABULARY
+One coherent neutral scientific-chart style: quiet warm light ground and deep quiet dark ground, rounded annotation edges, consistent sans-serif hierarchy, small compatible teal/violet/sand accents, no glow. Theme differences are palette only: identical text, data, coordinates, markers, guides, fill boundaries and arrows. Reinforce line/fill identities using shape, direct labels and restrained pattern; no red/green safety ranking. Detailed interest comes from the mathematical relationships, repeated equal intervals and visible exposure area, not scenery or invented mechanisms.
+
+SOURCES AND GUARDS
+Dated official FDA selected PK/PD and ADC constituent/bioanalysis sections support context and boundaries. The curve and area are fictional mathematics from the current owner. It is not a measured drug, subject, trial or empirical PK fit. Do not invent dose, volume, route, absorption or distribution phases, threshold, regimen, safe washout, half-life conversion or treatment advice. No numerical effect curve or efficacy implication. Keep the existing warning that terminal, effective, active-metabolite, living-cell and radiopharmaceutical time scales cannot be substituted by this toy.
+
+ACCESSIBILITY / CUSTODY
+Use editable SVG text with title/description, supported relative light.svg src and BOOLEAN data-theme-pair only if later integrated by root. Store original reproducible renderer, model JSON, requirements/environment and exact output hashes in the eventual portable source TXT. No external fonts/images/scripts, raster text conversion, image postprocessing or fake stochastic data. Current planning source is the owner plus the selected official source captures; actual output/pixel/reference hashes are absent because nothing has rendered.
+
+ACCEPTANCE STILL PENDING
+Independent C brief review before any rendering, then root rendering authorization. Later check every point/axis/fill coordinate and finite integral, theme geometry identity, portable-source reproduction and all actual312px/desktop themes through CUA. Preserve every rejected attempt and its source/capture hashes. Owner integration, production/native viewer, sync, release, source-fit credit and named human review are separate pending gates.
+
+
+Reproduce in a fresh scratch folder by extracting the literal render-chart.py and chart-data-draft.json blocks. Run PYTHONDONTWRITEBYTECODE=1 python3 render-chart.py --data chart-data-draft.json --output-dir output. No repository reads/writes, network, third-party modules or installed fonts are required to emit exact SVG bytes. Browser font metrics are separately reviewed.
+
+===== BEGIN FILE render-chart.py SHA256 0faea9475e97329ab3e140b6ed42c183429b7cbe2cc128f52c0844818ddcbad3 =====
+#!/usr/bin/env python3
+"""Original editable concentration–time chart. Standard-library-only, deterministic.
+No repository reads or writes. Data and outputs are supplied as explicit paths.
+"""
+from pathlib import Path
+import argparse, json, math, hashlib, html
+
+STEM = 'four-hour-halvings-and-exposure-v1'
+W, H = 600, 1280
+PLOT = {'left': 105, 'right': 548, 'top': 320, 'bottom': 780}
+PALETTES = {
+    'light': {'ground':'#faf6ee','ink':'#253843','muted':'#536674','grid':'#d7d8d3','curve':'#216978','area':'#e1bc72','area_ink':'#7c5b2d','card':'#fffaf0','card_border':'#b49d78','marker':'#fffaf0'},
+    'dark': {'ground':'#18262e','ink':'#edf0e6','muted':'#b7c6c9','grid':'#40515a','curve':'#88c7ca','area':'#b99b60','area_ink':'#d4b977','card':'#22333b','card_border':'#8c805f','marker':'#18262e'}
+}
+ALT = 'A fictional one-compartment concentration–time curve starts at 100 ng/mL and halves every four hours: 50 at four hours, 25 at eight and 12.5 at twelve. Linear axes identify hours and concentration. The shaded area is exposure only from zero to twelve hours, not dose or biological effect. Four markers are model values, not observed samples.'
+CAPTION = 'Each four-hour step halves this fictional concentration; the shaded area adds concentration across time. Input has stopped in a one-compartment, constant-half-life toy. Its area under the curve (AUC) from 0 to 12 hours is about 505 ng·h/mL, not total lifetime exposure or dose. Effects need separate measurements, and this curve cannot choose a safe treatment interval.'
+
+def number(x):
+    return f'{x:.6f}'.rstrip('0').rstrip('.')
+
+def xy(t, c):
+    return (PLOT['left']+(PLOT['right']-PLOT['left'])*t/12,
+            PLOT['bottom']-(PLOT['bottom']-PLOT['top'])*c/100)
+
+def validate(data):
+    assert data['fictional'] is True
+    assert data['model'] == 'C(t) = 100 × 2^(−t/4)'
+    assert data['plotDomainHours']==[0,12] and data['plotRangeNgPerMl']==[0,100]
+    assert data['initialConcentration']=={'value':100,'units':'ng/mL','timeHours':0}
+    assert data['halfLife']['value']==4 and data['halfLife']['units']=='hours'
+    assert len(data['continuousCurvePoints'])==301
+    for i, point in enumerate(data['continuousCurvePoints']):
+        assert math.isclose(point['timeHours'], i/25, abs_tol=1e-12)
+        assert math.isclose(point['concentrationNgPerMl'], 100*2**(-point['timeHours']/4), abs_tol=1e-12)
+    assert [(p['timeHours'],p['concentrationNgPerMl']) for p in data['anchors']]==[(0,100),(4,50),(8,25),(12,12.5)]
+    assert math.isclose(data['auc']['value'],350/math.log(2),abs_tol=1e-10)
+    assert data['auc']['units']=='ng·h/mL' and data['auc']['notTotalLifetimeExposure'] is True
+
+def render(theme,data):
+    c=PALETTES[theme]; out=[]
+    def add(s): out.append(s)
+    def text(x,y,s,size=28,anchor='start',fill='ink',weight='400'):
+        add(f'<text x="{number(x)}" y="{number(y)}" font-size="{size}" text-anchor="{anchor}" fill="{c[fill]}" font-weight="{weight}">{html.escape(s)}</text>')
+    def line(x1,y1,x2,y2,color='grid',width=1.5,dash=None):
+        extra=f' stroke-dasharray="{dash}"' if dash else ''
+        add(f'<line x1="{number(x1)}" y1="{number(y1)}" x2="{number(x2)}" y2="{number(y2)}" stroke="{c[color]}" stroke-width="{width}"{extra} />')
+    add('<?xml version="1.0" encoding="UTF-8"?>')
+    add(f'<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1280" viewBox="0 0 600 1280" role="img" aria-labelledby="title description">')
+    add('<title id="title">Four-hour halvings and finite exposure</title>')
+    add(f'<desc id="description">{html.escape(ALT)} The finite model integral is 350 divided by ln(2), approximately 504.943 ng·h/mL over 0–12 hours. No treatment recommendation is represented.</desc>')
+    add('<defs>')
+    add(f'<pattern id="exposure-hatch" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M -2,2 L 2,-2 M 0,18 L 18,0 M 16,20 L 20,16" fill="none" stroke="{c['area_ink']}" stroke-width="1" opacity="0.24" /></pattern>')
+    add(f'<marker id="annotation-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0,0 L 8,4 L 0,8" fill="{c['area_ink']}" /></marker>')
+    add('</defs>')
+    add(f'<rect width="600" height="1280" fill="{c['ground']}" />')
+    add('<g font-family="Arial, Helvetica, sans-serif">')
+    text(44,62,'What halves,',36,weight='700')
+    text(44,107,'and what adds up?',36,weight='700')
+    text(44,161,'Fictional one-compartment model',28)
+    text(44,202,'Input stopped · Half-life 4 h',28)
+    text(44,241,'One analyte · Model values, not samples',26,fill='muted')
+    text(105,288,'Concentration (ng/mL)',28,weight='700')
+    coords=[xy(p['timeHours'],p['concentrationNgPerMl']) for p in data['continuousCurvePoints']]
+    curve='M '+' L '.join(number(x)+' '+number(y) for x,y in coords)
+    area=curve+' L 548 780 L 105 780 Z'
+    add(f'<path id="finite-area" d="{area}" fill="{c['area']}" opacity="0.30" />')
+    add(f'<path id="finite-area-texture" d="{area}" fill="url(#exposure-hatch)" />')
+    for val in [0,25,50,75,100]:
+        _,y=xy(0,val);line(105,y,548,y);text(89,y+10,str(val),28,'end',fill='muted')
+    for t in [0,4,8,12]:
+        x,_=xy(t,0);line(x,320,x,780,dash='4 6');line(x,780,x,791,'ink',2);text(x,827,str(t),28,'middle')
+    line(105,320,105,780,'ink',2)
+    line(105,780,548,780,'ink',2)
+    add(f'<path id="model-curve" d="{curve}" fill="none" stroke="{c['curve']}" stroke-width="5" stroke-linejoin="round" />')
+    for point in data['anchors']:
+        x,y=xy(point['timeHours'],point['concentrationNgPerMl'])
+        add(f'<circle data-time-hours="{point["timeHours"]}" data-concentration-ng-per-ml="{number(point["concentrationNgPerMl"])}" cx="{number(x)}" cy="{number(y)}" r="7" fill="{c['marker']}" stroke="{c['curve']}" stroke-width="3" />')
+    line(113,324,137,333,'curve',2);text(145,344,'100',30,fill='curve',weight='700')
+    line(260,547,271,538,'curve',2);text(278,545,'50',30,fill='curve',weight='700')
+    line(406,660,418,646,'curve',2);text(425,653,'25',30,fill='curve',weight='700')
+    line(548,714,548,699,'curve',2);text(548,690,'12.5',30,'end',fill='curve',weight='700')
+    text(326.5,868,'Hours',28,'middle',weight='700')
+    text(326.5,911,'4-hour half-life',28,'middle',weight='700')
+    for a,b in [(0,4),(4,8),(8,12)]:
+        xa,_=xy(a,0);xb,_=xy(b,0)
+        line(xa+5,930,xb-5,930,'muted',2)
+        line(xa+5,922,xa+5,938,'muted',2);line(xb-5,922,xb-5,938,'muted',2)
+        text((xa+xb)/2,972,'÷2',30,'middle',fill='curve',weight='700')
+    add(f'<rect x="44" y="1002" width="512" height="205" rx="14" fill="{c['card']}" stroke="{c['card_border']}" stroke-width="2" />')
+    text(64,1044,'Exposure over shown interval',28,weight='700')
+    text(64,1089,'Area under the curve',28)
+    text(64,1134,'Concentration × time units',28)
+    text(64,1180,'0–12 h: ≈505 ng·h/mL',30,weight='700')
+    add(f'<path id="area-label-leader" d="M 544 1002 L 576 1002 L 576 755 L 505 755" fill="none" stroke="{c['area_ink']}" stroke-width="2" marker-end="url(#annotation-arrow)" />')
+    text(44,1258,'Effects need separate measurements.',28,weight='700')
+    add('</g></svg>')
+    return '\n'.join(out)+'\n',coords
+
+def main():
+    ap=argparse.ArgumentParser();ap.add_argument('--data',type=Path,default=Path(__file__).with_name('chart-data-draft.json'));ap.add_argument('--output-dir',type=Path,required=True);args=ap.parse_args()
+    data=json.loads(args.data.read_text());validate(data);args.output_dir.mkdir(parents=True,exist_ok=True)
+    paths=[];geometry=None
+    for theme in ['light','dark']:
+        s,coords=render(theme,data);p=args.output_dir/f'{STEM}-{theme}.svg';p.write_text(s,encoding='utf-8');paths.append(p)
+        geometry={'canvas':{'width':W,'height':H,'units':'SVG viewBox / CSS px at native100%'},'plot':PLOT,'xMapping':'105 +443*t/12','yMapping':'780 −460*C/100','continuousCurveCoordinates':[{'x':x,'y':y} for x,y in coords],'curvePointCount':len(coords),'anchors':[{'timeHours':a['timeHours'],'concentrationNgPerMl':a['concentrationNgPerMl'],'x':xy(a['timeHours'],a['concentrationNgPerMl'])[0],'y':xy(a['timeHours'],a['concentrationNgPerMl'])[1]} for a in data['anchors']],'areaClosure':[[548,780],[105,780]],'areaLeaderEndpoint':[505,755],'areaLeaderEndIsInsideFill':755>xy((505-105)*12/443,100*2**(-((505-105)*12/443)/4))[1] and 755<780,'minimumCoreTextSize':28,'minimumSecondaryTextSize':26,'predictedCoreFontAt312px':28*312/600,'finiteArea':data['auc'],'notPixelCertified':True}
+    (args.output_dir/'chart-coordinates.json').write_text(json.dumps(geometry,ensure_ascii=False,indent=2)+'\n')
+    outputs=[{'path':p.name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':len(p.read_bytes())} for p in paths+[args.output_dir/'chart-coordinates.json']]
+    (args.output_dir/'render-output-manifest.json').write_text(json.dumps({'schemaVersion':1,'id':'next-gap-008','stem':STEM,'artworkKind':'original-editable-SVG-chart','dataSHA256':hashlib.sha256(args.data.read_bytes()).hexdigest(),'outputs':outputs},indent=2)+'\n')
+    print(json.dumps(outputs,indent=2))
+if __name__=='__main__':main()
+===== END FILE render-chart.py =====
+
+===== BEGIN FILE chart-data-draft.json SHA256 6e4e30dd71a26e487f6fb4cfd6b2e2b94fd338f9c3e168dfecb019b3f0c48199 =====
+{
+  "schemaVersion": 1,
+  "id": "next-gap-008",
+  "status": "planning-data-only; not empirical observations",
+  "fictional": true,
+  "population": "No people, study cohort or medication: one named fictional analyte in an idealized single compartment.",
+  "model": "C(t) = 100 × 2^(−t/4)",
+  "initialConcentration": {
+    "value": 100,
+    "units": "ng/mL",
+    "timeHours": 0
+  },
+  "halfLife": {
+    "value": 4,
+    "units": "hours",
+    "scope": "Constant first-order decline in this single-compartment model, with input stopped throughout the shown interval."
+  },
+  "rateConstantPerHour": 0.17328679513998632,
+  "assumptions": [
+    "One homogeneous compartment with one fictional analyte; the curve represents its named concentration in that compartment.",
+    "Input has stopped at or before t = 0 and does not resume during 0–12 hours.",
+    "First-order, constant fractional decline; no unplotted absorption or distribution phase is asserted.",
+    "No measured samples, inter-person variability, active metabolites or biological effects are simulated."
+  ],
+  "anchors": [
+    {
+      "timeHours": 0,
+      "concentrationNgPerMl": 100.0,
+      "halvings": 0
+    },
+    {
+      "timeHours": 4,
+      "concentrationNgPerMl": 50.0,
+      "halvings": 1
+    },
+    {
+      "timeHours": 8,
+      "concentrationNgPerMl": 25.0,
+      "halvings": 2
+    },
+    {
+      "timeHours": 12,
+      "concentrationNgPerMl": 12.5,
+      "halvings": 3
+    }
+  ],
+  "plotDomainHours": [
+    0,
+    12
+  ],
+  "plotRangeNgPerMl": [
+    0,
+    100
+  ],
+  "continuousCurvePoints": [
+    {
+      "timeHours": 0.0,
+      "concentrationNgPerMl": 100.0
+    },
+    {
+      "timeHours": 0.04,
+      "concentrationNgPerMl": 99.30924954370359
+    },
+    {
+      "timeHours": 0.08,
+      "concentrationNgPerMl": 98.62327044933592
+    },
+    {
+      "timeHours": 0.12,
+      "concentrationNgPerMl": 97.94202975869268
+    },
+    {
+      "timeHours": 0.16,
+      "concentrationNgPerMl": 97.26549474122855
+    },
+    {
+      "timeHours": 0.2,
+      "concentrationNgPerMl": 96.59363289248456
+    },
+    {
+      "timeHours": 0.24,
+      "concentrationNgPerMl": 95.92641193252643
+    },
+    {
+      "timeHours": 0.28,
+      "concentrationNgPerMl": 95.26379980439373
+    },
+    {
+      "timeHours": 0.32,
+      "concentrationNgPerMl": 94.60576467255959
+    },
+    {
+      "timeHours": 0.36,
+      "concentrationNgPerMl": 93.95227492140118
+    },
+    {
+      "timeHours": 0.4,
+      "concentrationNgPerMl": 93.30329915368074
+    },
+    {
+      "timeHours": 0.44,
+      "concentrationNgPerMl": 92.6588061890371
+    },
+    {
+      "timeHours": 0.48,
+      "concentrationNgPerMl": 92.0187650624875
+    },
+    {
+      "timeHours": 0.52,
+      "concentrationNgPerMl": 91.38314502294006
+    },
+    {
+      "timeHours": 0.56,
+      "concentrationNgPerMl": 90.7519155317161
+    },
+    {
+      "timeHours": 0.6,
+      "concentrationNgPerMl": 90.12504626108301
+    },
+    {
+      "timeHours": 0.64,
+      "concentrationNgPerMl": 89.50250709279725
+    },
+    {
+      "timeHours": 0.68,
+      "concentrationNgPerMl": 88.88426811665701
+    },
+    {
+      "timeHours": 0.72,
+      "concentrationNgPerMl": 88.27029962906549
+    },
+    {
+      "timeHours": 0.76,
+      "concentrationNgPerMl": 87.66057213160352
+    },
+    {
+      "timeHours": 0.8,
+      "concentrationNgPerMl": 87.05505632961241
+    },
+    {
+      "timeHours": 0.84,
+      "concentrationNgPerMl": 86.45372313078651
+    },
+    {
+      "timeHours": 0.88,
+      "concentrationNgPerMl": 85.85654364377537
+    },
+    {
+      "timeHours": 0.92,
+      "concentrationNgPerMl": 85.26348917679567
+    },
+    {
+      "timeHours": 0.96,
+      "concentrationNgPerMl": 84.67453123625272
+    },
+    {
+      "timeHours": 1.0,
+      "concentrationNgPerMl": 84.08964152537145
+    },
+    {
+      "timeHours": 1.04,
+      "concentrationNgPerMl": 83.50879194283694
+    },
+    {
+      "timeHours": 1.08,
+      "concentrationNgPerMl": 82.93195458144417
+    },
+    {
+      "timeHours": 1.12,
+      "concentrationNgPerMl": 82.35910172675732
+    },
+    {
+      "timeHours": 1.16,
+      "concentrationNgPerMl": 81.79020585577811
+    },
+    {
+      "timeHours": 1.2,
+      "concentrationNgPerMl": 81.22523963562355
+    },
+    {
+      "timeHours": 1.24,
+      "concentrationNgPerMl": 80.66417592221264
+    },
+    {
+      "timeHours": 1.28,
+      "concentrationNgPerMl": 80.1069877589622
+    },
+    {
+      "timeHours": 1.32,
+      "concentrationNgPerMl": 79.55364837549187
+    },
+    {
+      "timeHours": 1.36,
+      "concentrationNgPerMl": 79.00413118633772
+    },
+    {
+      "timeHours": 1.4,
+      "concentrationNgPerMl": 78.45840978967507
+    },
+    {
+      "timeHours": 1.44,
+      "concentrationNgPerMl": 77.91645796604999
+    },
+    {
+      "timeHours": 1.48,
+      "concentrationNgPerMl": 77.3782496771195
+    },
+    {
+      "timeHours": 1.52,
+      "concentrationNgPerMl": 76.84375906440061
+    },
+    {
+      "timeHours": 1.56,
+      "concentrationNgPerMl": 76.31296044802795
+    },
+    {
+      "timeHours": 1.6,
+      "concentrationNgPerMl": 75.7858283255199
+    },
+    {
+      "timeHours": 1.64,
+      "concentrationNgPerMl": 75.26233737055337
+    },
+    {
+      "timeHours": 1.68,
+      "concentrationNgPerMl": 74.74246243174693
+    },
+    {
+      "timeHours": 1.72,
+      "concentrationNgPerMl": 74.22617853145246
+    },
+    {
+      "timeHours": 1.76,
+      "concentrationNgPerMl": 73.71346086455506
+    },
+    {
+      "timeHours": 1.8,
+      "concentrationNgPerMl": 73.20428479728128
+    },
+    {
+      "timeHours": 1.84,
+      "concentrationNgPerMl": 72.69862586601553
+    },
+    {
+      "timeHours": 1.88,
+      "concentrationNgPerMl": 72.19645977612481
+    },
+    {
+      "timeHours": 1.92,
+      "concentrationNgPerMl": 71.69776240079136
+    },
+    {
+      "timeHours": 1.96,
+      "concentrationNgPerMl": 71.20250977985359
+    },
+    {
+      "timeHours": 2.0,
+      "concentrationNgPerMl": 70.71067811865476
+    },
+    {
+      "timeHours": 2.04,
+      "concentrationNgPerMl": 70.22224378689987
+    },
+    {
+      "timeHours": 2.08,
+      "concentrationNgPerMl": 69.73718331752026
+    },
+    {
+      "timeHours": 2.12,
+      "concentrationNgPerMl": 69.25547340554623
+    },
+    {
+      "timeHours": 2.16,
+      "concentrationNgPerMl": 68.77709090698718
+    },
+    {
+      "timeHours": 2.2,
+      "concentrationNgPerMl": 68.30201283771977
+    },
+    {
+      "timeHours": 2.24,
+      "concentrationNgPerMl": 67.83021637238359
+    },
+    {
+      "timeHours": 2.28,
+      "concentrationNgPerMl": 67.36167884328451
+    },
+    {
+      "timeHours": 2.32,
+      "concentrationNgPerMl": 66.8963777393056
+    },
+    {
+      "timeHours": 2.36,
+      "concentrationNgPerMl": 66.43429070482559
+    },
+    {
+      "timeHours": 2.4,
+      "concentrationNgPerMl": 65.9753955386447
+    },
+    {
+      "timeHours": 2.44,
+      "concentrationNgPerMl": 65.51967019291817
+    },
+    {
+      "timeHours": 2.48,
+      "concentrationNgPerMl": 65.06709277209669
+    },
+    {
+      "timeHours": 2.52,
+      "concentrationNgPerMl": 64.61764153187461
+    },
+    {
+      "timeHours": 2.56,
+      "concentrationNgPerMl": 64.17129487814522
+    },
+    {
+      "timeHours": 2.6,
+      "concentrationNgPerMl": 63.72803136596311
+    },
+    {
+      "timeHours": 2.64,
+      "concentrationNgPerMl": 63.287829698513995
+    },
+    {
+      "timeHours": 2.68,
+      "concentrationNgPerMl": 62.85066872609142
+    },
+    {
+      "timeHours": 2.72,
+      "concentrationNgPerMl": 62.4165274450806
+    },
+    {
+      "timeHours": 2.76,
+      "concentrationNgPerMl": 61.985384996949335
+    },
+    {
+      "timeHours": 2.8,
+      "concentrationNgPerMl": 61.557220667245815
+    },
+    {
+      "timeHours": 2.84,
+      "concentrationNgPerMl": 61.13201388460343
+    },
+    {
+      "timeHours": 2.88,
+      "concentrationNgPerMl": 60.70974421975235
+    },
+    {
+      "timeHours": 2.92,
+      "concentrationNgPerMl": 60.290391384538026
+    },
+    {
+      "timeHours": 2.96,
+      "concentrationNgPerMl": 59.87393523094643
+    },
+    {
+      "timeHours": 3.0,
+      "concentrationNgPerMl": 59.46035575013605
+    },
+    {
+      "timeHours": 3.04,
+      "concentrationNgPerMl": 59.049633071476514
+    },
+    {
+      "timeHours": 3.08,
+      "concentrationNgPerMl": 58.64174746159394
+    },
+    {
+      "timeHours": 3.12,
+      "concentrationNgPerMl": 58.23667932342279
+    },
+    {
+      "timeHours": 3.16,
+      "concentrationNgPerMl": 57.83440919526437
+    },
+    {
+      "timeHours": 3.2,
+      "concentrationNgPerMl": 57.43491774985174
+    },
+    {
+      "timeHours": 3.24,
+      "concentrationNgPerMl": 57.03818579342118
+    },
+    {
+      "timeHours": 3.28,
+      "concentrationNgPerMl": 56.64419426478994
+    },
+    {
+      "timeHours": 3.32,
+      "concentrationNgPerMl": 56.25292423444047
+    },
+    {
+      "timeHours": 3.36,
+      "concentrationNgPerMl": 55.864356903611004
+    },
+    {
+      "timeHours": 3.4,
+      "concentrationNgPerMl": 55.47847360339225
+    },
+    {
+      "timeHours": 3.44,
+      "concentrationNgPerMl": 55.09525579383053
+    },
+    {
+      "timeHours": 3.48,
+      "concentrationNgPerMl": 54.714685063036974
+    },
+    {
+      "timeHours": 3.52,
+      "concentrationNgPerMl": 54.3367431263029
+    },
+    {
+      "timeHours": 3.56,
+      "concentrationNgPerMl": 53.96141182522136
+    },
+    {
+      "timeHours": 3.6,
+      "concentrationNgPerMl": 53.588673126814655
+    },
+    {
+      "timeHours": 3.64,
+      "concentrationNgPerMl": 53.21850912266799
+    },
+    {
+      "timeHours": 3.68,
+      "concentrationNgPerMl": 52.850902028069015
+    },
+    {
+      "timeHours": 3.72,
+      "concentrationNgPerMl": 52.48583418115336
+    },
+    {
+      "timeHours": 3.76,
+      "concentrationNgPerMl": 52.12328804205607
+    },
+    {
+      "timeHours": 3.8,
+      "concentrationNgPerMl": 51.76324619206888
+    },
+    {
+      "timeHours": 3.84,
+      "concentrationNgPerMl": 51.40569133280333
+    },
+    {
+      "timeHours": 3.88,
+      "concentrationNgPerMl": 51.05060628535967
+    },
+    {
+      "timeHours": 3.92,
+      "concentrationNgPerMl": 50.697973989501456
+    },
+    {
+      "timeHours": 3.96,
+      "concentrationNgPerMl": 50.347777502835946
+    },
+    {
+      "timeHours": 4.0,
+      "concentrationNgPerMl": 50.0
+    },
+    {
+      "timeHours": 4.04,
+      "concentrationNgPerMl": 49.65462477185179
+    },
+    {
+      "timeHours": 4.08,
+      "concentrationNgPerMl": 49.31163522466796
+    },
+    {
+      "timeHours": 4.12,
+      "concentrationNgPerMl": 48.97101487934634
+    },
+    {
+      "timeHours": 4.16,
+      "concentrationNgPerMl": 48.632747370614275
+    },
+    {
+      "timeHours": 4.2,
+      "concentrationNgPerMl": 48.296816446242275
+    },
+    {
+      "timeHours": 4.24,
+      "concentrationNgPerMl": 47.96320596626322
+    },
+    {
+      "timeHours": 4.28,
+      "concentrationNgPerMl": 47.631899902196864
+    },
+    {
+      "timeHours": 4.32,
+      "concentrationNgPerMl": 47.302882336279794
+    },
+    {
+      "timeHours": 4.36,
+      "concentrationNgPerMl": 46.976137460700585
+    },
+    {
+      "timeHours": 4.4,
+      "concentrationNgPerMl": 46.65164957684037
+    },
+    {
+      "timeHours": 4.44,
+      "concentrationNgPerMl": 46.32940309451854
+    },
+    {
+      "timeHours": 4.48,
+      "concentrationNgPerMl": 46.00938253124375
+    },
+    {
+      "timeHours": 4.52,
+      "concentrationNgPerMl": 45.69157251147003
+    },
+    {
+      "timeHours": 4.56,
+      "concentrationNgPerMl": 45.37595776585805
+    },
+    {
+      "timeHours": 4.6,
+      "concentrationNgPerMl": 45.062523130541514
+    },
+    {
+      "timeHours": 4.64,
+      "concentrationNgPerMl": 44.75125354639862
+    },
+    {
+      "timeHours": 4.68,
+      "concentrationNgPerMl": 44.44213405832851
+    },
+    {
+      "timeHours": 4.72,
+      "concentrationNgPerMl": 44.135149814532745
+    },
+    {
+      "timeHours": 4.76,
+      "concentrationNgPerMl": 43.83028606580176
+    },
+    {
+      "timeHours": 4.8,
+      "concentrationNgPerMl": 43.527528164806206
+    },
+    {
+      "timeHours": 4.84,
+      "concentrationNgPerMl": 43.22686156539326
+    },
+    {
+      "timeHours": 4.88,
+      "concentrationNgPerMl": 42.928271821887684
+    },
+    {
+      "timeHours": 4.92,
+      "concentrationNgPerMl": 42.63174458839784
+    },
+    {
+      "timeHours": 4.96,
+      "concentrationNgPerMl": 42.33726561812636
+    },
+    {
+      "timeHours": 5.0,
+      "concentrationNgPerMl": 42.044820762685724
+    },
+    {
+      "timeHours": 5.04,
+      "concentrationNgPerMl": 41.75439597141847
+    },
+    {
+      "timeHours": 5.08,
+      "concentrationNgPerMl": 41.46597729072209
+    },
+    {
+      "timeHours": 5.12,
+      "concentrationNgPerMl": 41.17955086337866
+    },
+    {
+      "timeHours": 5.16,
+      "concentrationNgPerMl": 40.895102927889056
+    },
+    {
+      "timeHours": 5.2,
+      "concentrationNgPerMl": 40.612619817811776
+    },
+    {
+      "timeHours": 5.24,
+      "concentrationNgPerMl": 40.33208796110631
+    },
+    {
+      "timeHours": 5.28,
+      "concentrationNgPerMl": 40.0534938794811
+    },
+    {
+      "timeHours": 5.32,
+      "concentrationNgPerMl": 39.77682418774593
+    },
+    {
+      "timeHours": 5.36,
+      "concentrationNgPerMl": 39.50206559316886
+    },
+    {
+      "timeHours": 5.4,
+      "concentrationNgPerMl": 39.22920489483753
+    },
+    {
+      "timeHours": 5.44,
+      "concentrationNgPerMl": 38.95822898302499
+    },
+    {
+      "timeHours": 5.48,
+      "concentrationNgPerMl": 38.68912483855975
+    },
+    {
+      "timeHours": 5.52,
+      "concentrationNgPerMl": 38.42187953220031
+    },
+    {
+      "timeHours": 5.56,
+      "concentrationNgPerMl": 38.15648022401398
+    },
+    {
+      "timeHours": 5.6,
+      "concentrationNgPerMl": 37.89291416275996
+    },
+    {
+      "timeHours": 5.64,
+      "concentrationNgPerMl": 37.631168685276684
+    },
+    {
+      "timeHours": 5.68,
+      "concentrationNgPerMl": 37.371231215873465
+    },
+    {
+      "timeHours": 5.72,
+      "concentrationNgPerMl": 37.11308926572623
+    },
+    {
+      "timeHours": 5.76,
+      "concentrationNgPerMl": 36.85673043227753
+    },
+    {
+      "timeHours": 5.8,
+      "concentrationNgPerMl": 36.60214239864064
+    },
+    {
+      "timeHours": 5.84,
+      "concentrationNgPerMl": 36.349312933007766
+    },
+    {
+      "timeHours": 5.88,
+      "concentrationNgPerMl": 36.098229888062406
+    },
+    {
+      "timeHours": 5.92,
+      "concentrationNgPerMl": 35.84888120039568
+    },
+    {
+      "timeHours": 5.96,
+      "concentrationNgPerMl": 35.60125488992679
+    },
+    {
+      "timeHours": 6.0,
+      "concentrationNgPerMl": 35.35533905932738
+    },
+    {
+      "timeHours": 6.04,
+      "concentrationNgPerMl": 35.11112189344993
+    },
+    {
+      "timeHours": 6.08,
+      "concentrationNgPerMl": 34.86859165876013
+    },
+    {
+      "timeHours": 6.12,
+      "concentrationNgPerMl": 34.62773670277311
+    },
+    {
+      "timeHours": 6.16,
+      "concentrationNgPerMl": 34.38854545349359
+    },
+    {
+      "timeHours": 6.2,
+      "concentrationNgPerMl": 34.151006418859886
+    },
+    {
+      "timeHours": 6.24,
+      "concentrationNgPerMl": 33.915108186191794
+    },
+    {
+      "timeHours": 6.28,
+      "concentrationNgPerMl": 33.680839421642254
+    },
+    {
+      "timeHours": 6.32,
+      "concentrationNgPerMl": 33.4481888696528
+    },
+    {
+      "timeHours": 6.36,
+      "concentrationNgPerMl": 33.217145352412786
+    },
+    {
+      "timeHours": 6.4,
+      "concentrationNgPerMl": 32.98769776932235
+    },
+    {
+      "timeHours": 6.44,
+      "concentrationNgPerMl": 32.75983509645908
+    },
+    {
+      "timeHours": 6.48,
+      "concentrationNgPerMl": 32.533546386048336
+    },
+    {
+      "timeHours": 6.52,
+      "concentrationNgPerMl": 32.308820765937305
+    },
+    {
+      "timeHours": 6.56,
+      "concentrationNgPerMl": 32.08564743907261
+    },
+    {
+      "timeHours": 6.6,
+      "concentrationNgPerMl": 31.864015682981556
+    },
+    {
+      "timeHours": 6.64,
+      "concentrationNgPerMl": 31.643914849256998
+    },
+    {
+      "timeHours": 6.68,
+      "concentrationNgPerMl": 31.42533436304571
+    },
+    {
+      "timeHours": 6.72,
+      "concentrationNgPerMl": 31.2082637225403
+    },
+    {
+      "timeHours": 6.76,
+      "concentrationNgPerMl": 30.992692498474668
+    },
+    {
+      "timeHours": 6.8,
+      "concentrationNgPerMl": 30.778610333622908
+    },
+    {
+      "timeHours": 6.84,
+      "concentrationNgPerMl": 30.566006942301716
+    },
+    {
+      "timeHours": 6.88,
+      "concentrationNgPerMl": 30.354872109876176
+    },
+    {
+      "timeHours": 6.92,
+      "concentrationNgPerMl": 30.145195692269013
+    },
+    {
+      "timeHours": 6.96,
+      "concentrationNgPerMl": 29.936967615473215
+    },
+    {
+      "timeHours": 7.0,
+      "concentrationNgPerMl": 29.730177875068026
+    },
+    {
+      "timeHours": 7.04,
+      "concentrationNgPerMl": 29.524816535738257
+    },
+    {
+      "timeHours": 7.08,
+      "concentrationNgPerMl": 29.32087373079697
+    },
+    {
+      "timeHours": 7.12,
+      "concentrationNgPerMl": 29.118339661711396
+    },
+    {
+      "timeHours": 7.16,
+      "concentrationNgPerMl": 28.917204597632185
+    },
+    {
+      "timeHours": 7.2,
+      "concentrationNgPerMl": 28.71745887492587
+    },
+    {
+      "timeHours": 7.24,
+      "concentrationNgPerMl": 28.51909289671059
+    },
+    {
+      "timeHours": 7.28,
+      "concentrationNgPerMl": 28.322097132394962
+    },
+    {
+      "timeHours": 7.32,
+      "concentrationNgPerMl": 28.126462117220235
+    },
+    {
+      "timeHours": 7.36,
+      "concentrationNgPerMl": 27.932178451805495
+    },
+    {
+      "timeHours": 7.4,
+      "concentrationNgPerMl": 27.739236801696123
+    },
+    {
+      "timeHours": 7.44,
+      "concentrationNgPerMl": 27.547627896915266
+    },
+    {
+      "timeHours": 7.48,
+      "concentrationNgPerMl": 27.357342531518487
+    },
+    {
+      "timeHours": 7.52,
+      "concentrationNgPerMl": 27.168371563151457
+    },
+    {
+      "timeHours": 7.56,
+      "concentrationNgPerMl": 26.98070591261068
+    },
+    {
+      "timeHours": 7.6,
+      "concentrationNgPerMl": 26.794336563407327
+    },
+    {
+      "timeHours": 7.64,
+      "concentrationNgPerMl": 26.609254561334
+    },
+    {
+      "timeHours": 7.68,
+      "concentrationNgPerMl": 26.42545101403451
+    },
+    {
+      "timeHours": 7.72,
+      "concentrationNgPerMl": 26.242917090576682
+    },
+    {
+      "timeHours": 7.76,
+      "concentrationNgPerMl": 26.061644021028034
+    },
+    {
+      "timeHours": 7.8,
+      "concentrationNgPerMl": 25.88162309603444
+    },
+    {
+      "timeHours": 7.84,
+      "concentrationNgPerMl": 25.702845666401664
+    },
+    {
+      "timeHours": 7.88,
+      "concentrationNgPerMl": 25.525303142679835
+    },
+    {
+      "timeHours": 7.92,
+      "concentrationNgPerMl": 25.348986994750728
+    },
+    {
+      "timeHours": 7.96,
+      "concentrationNgPerMl": 25.173888751417973
+    },
+    {
+      "timeHours": 8.0,
+      "concentrationNgPerMl": 25.0
+    },
+    {
+      "timeHours": 8.04,
+      "concentrationNgPerMl": 24.8273123859259
+    },
+    {
+      "timeHours": 8.08,
+      "concentrationNgPerMl": 24.65581761233398
+    },
+    {
+      "timeHours": 8.12,
+      "concentrationNgPerMl": 24.485507439673178
+    },
+    {
+      "timeHours": 8.16,
+      "concentrationNgPerMl": 24.316373685307138
+    },
+    {
+      "timeHours": 8.2,
+      "concentrationNgPerMl": 24.148408223121145
+    },
+    {
+      "timeHours": 8.24,
+      "concentrationNgPerMl": 23.98160298313161
+    },
+    {
+      "timeHours": 8.28,
+      "concentrationNgPerMl": 23.815949951098435
+    },
+    {
+      "timeHours": 8.32,
+      "concentrationNgPerMl": 23.651441168139897
+    },
+    {
+      "timeHours": 8.36,
+      "concentrationNgPerMl": 23.4880687303503
+    },
+    {
+      "timeHours": 8.4,
+      "concentrationNgPerMl": 23.325824788420185
+    },
+    {
+      "timeHours": 8.44,
+      "concentrationNgPerMl": 23.164701547259273
+    },
+    {
+      "timeHours": 8.48,
+      "concentrationNgPerMl": 23.004691265621876
+    },
+    {
+      "timeHours": 8.52,
+      "concentrationNgPerMl": 22.845786255735014
+    },
+    {
+      "timeHours": 8.56,
+      "concentrationNgPerMl": 22.68797888292902
+    },
+    {
+      "timeHours": 8.6,
+      "concentrationNgPerMl": 22.531261565270757
+    },
+    {
+      "timeHours": 8.64,
+      "concentrationNgPerMl": 22.375626773199308
+    },
+    {
+      "timeHours": 8.68,
+      "concentrationNgPerMl": 22.221067029164256
+    },
+    {
+      "timeHours": 8.72,
+      "concentrationNgPerMl": 22.06757490726637
+    },
+    {
+      "timeHours": 8.76,
+      "concentrationNgPerMl": 21.91514303290088
+    },
+    {
+      "timeHours": 8.8,
+      "concentrationNgPerMl": 21.7637640824031
+    },
+    {
+      "timeHours": 8.84,
+      "concentrationNgPerMl": 21.61343078269663
+    },
+    {
+      "timeHours": 8.88,
+      "concentrationNgPerMl": 21.464135910943842
+    },
+    {
+      "timeHours": 8.92,
+      "concentrationNgPerMl": 21.31587229419892
+    },
+    {
+      "timeHours": 8.96,
+      "concentrationNgPerMl": 21.168632809063176
+    },
+    {
+      "timeHours": 9.0,
+      "concentrationNgPerMl": 21.022410381342862
+    },
+    {
+      "timeHours": 9.04,
+      "concentrationNgPerMl": 20.877197985709238
+    },
+    {
+      "timeHours": 9.08,
+      "concentrationNgPerMl": 20.732988645361043
+    },
+    {
+      "timeHours": 9.12,
+      "concentrationNgPerMl": 20.58977543168933
+    },
+    {
+      "timeHours": 9.16,
+      "concentrationNgPerMl": 20.447551463944528
+    },
+    {
+      "timeHours": 9.2,
+      "concentrationNgPerMl": 20.306309908905888
+    },
+    {
+      "timeHours": 9.24,
+      "concentrationNgPerMl": 20.166043980553155
+    },
+    {
+      "timeHours": 9.28,
+      "concentrationNgPerMl": 20.02674693974055
+    },
+    {
+      "timeHours": 9.32,
+      "concentrationNgPerMl": 19.888412093872965
+    },
+    {
+      "timeHours": 9.36,
+      "concentrationNgPerMl": 19.75103279658443
+    },
+    {
+      "timeHours": 9.4,
+      "concentrationNgPerMl": 19.614602447418765
+    },
+    {
+      "timeHours": 9.44,
+      "concentrationNgPerMl": 19.479114491512497
+    },
+    {
+      "timeHours": 9.48,
+      "concentrationNgPerMl": 19.344562419279875
+    },
+    {
+      "timeHours": 9.52,
+      "concentrationNgPerMl": 19.210939766100154
+    },
+    {
+      "timeHours": 9.56,
+      "concentrationNgPerMl": 19.078240112006988
+    },
+    {
+      "timeHours": 9.6,
+      "concentrationNgPerMl": 18.94645708137998
+    },
+    {
+      "timeHours": 9.64,
+      "concentrationNgPerMl": 18.81558434263834
+    },
+    {
+      "timeHours": 9.68,
+      "concentrationNgPerMl": 18.685615607936732
+    },
+    {
+      "timeHours": 9.72,
+      "concentrationNgPerMl": 18.556544632863112
+    },
+    {
+      "timeHours": 9.76,
+      "concentrationNgPerMl": 18.428365216138765
+    },
+    {
+      "timeHours": 9.8,
+      "concentrationNgPerMl": 18.301071199320315
+    },
+    {
+      "timeHours": 9.84,
+      "concentrationNgPerMl": 18.174656466503883
+    },
+    {
+      "timeHours": 9.88,
+      "concentrationNgPerMl": 18.0491149440312
+    },
+    {
+      "timeHours": 9.92,
+      "concentrationNgPerMl": 17.92444060019784
+    },
+    {
+      "timeHours": 9.96,
+      "concentrationNgPerMl": 17.800627444963393
+    },
+    {
+      "timeHours": 10.0,
+      "concentrationNgPerMl": 17.67766952966369
+    },
+    {
+      "timeHours": 10.04,
+      "concentrationNgPerMl": 17.555560946724967
+    },
+    {
+      "timeHours": 10.08,
+      "concentrationNgPerMl": 17.434295829380066
+    },
+    {
+      "timeHours": 10.12,
+      "concentrationNgPerMl": 17.31386835138656
+    },
+    {
+      "timeHours": 10.16,
+      "concentrationNgPerMl": 17.194272726746796
+    },
+    {
+      "timeHours": 10.2,
+      "concentrationNgPerMl": 17.075503209429947
+    },
+    {
+      "timeHours": 10.24,
+      "concentrationNgPerMl": 16.957554093095897
+    },
+    {
+      "timeHours": 10.28,
+      "concentrationNgPerMl": 16.84041971082113
+    },
+    {
+      "timeHours": 10.32,
+      "concentrationNgPerMl": 16.7240944348264
+    },
+    {
+      "timeHours": 10.36,
+      "concentrationNgPerMl": 16.608572676206396
+    },
+    {
+      "timeHours": 10.4,
+      "concentrationNgPerMl": 16.493848884661176
+    },
+    {
+      "timeHours": 10.44,
+      "concentrationNgPerMl": 16.379917548229542
+    },
+    {
+      "timeHours": 10.48,
+      "concentrationNgPerMl": 16.266773193024168
+    },
+    {
+      "timeHours": 10.52,
+      "concentrationNgPerMl": 16.154410382968653
+    },
+    {
+      "timeHours": 10.56,
+      "concentrationNgPerMl": 16.0428237195363
+    },
+    {
+      "timeHours": 10.6,
+      "concentrationNgPerMl": 15.932007841490778
+    },
+    {
+      "timeHours": 10.64,
+      "concentrationNgPerMl": 15.821957424628497
+    },
+    {
+      "timeHours": 10.68,
+      "concentrationNgPerMl": 15.712667181522855
+    },
+    {
+      "timeHours": 10.72,
+      "concentrationNgPerMl": 15.60413186127015
+    },
+    {
+      "timeHours": 10.76,
+      "concentrationNgPerMl": 15.496346249237334
+    },
+    {
+      "timeHours": 10.8,
+      "concentrationNgPerMl": 15.38930516681145
+    },
+    {
+      "timeHours": 10.84,
+      "concentrationNgPerMl": 15.283003471150858
+    },
+    {
+      "timeHours": 10.88,
+      "concentrationNgPerMl": 15.177436054938084
+    },
+    {
+      "timeHours": 10.92,
+      "concentrationNgPerMl": 15.072597846134506
+    },
+    {
+      "timeHours": 10.96,
+      "concentrationNgPerMl": 14.968483807736607
+    },
+    {
+      "timeHours": 11.0,
+      "concentrationNgPerMl": 14.865088937534013
+    },
+    {
+      "timeHours": 11.04,
+      "concentrationNgPerMl": 14.762408267869132
+    },
+    {
+      "timeHours": 11.08,
+      "concentrationNgPerMl": 14.660436865398484
+    },
+    {
+      "timeHours": 11.12,
+      "concentrationNgPerMl": 14.559169830855701
+    },
+    {
+      "timeHours": 11.16,
+      "concentrationNgPerMl": 14.458602298816093
+    },
+    {
+      "timeHours": 11.2,
+      "concentrationNgPerMl": 14.358729437462939
+    },
+    {
+      "timeHours": 11.24,
+      "concentrationNgPerMl": 14.259546448355295
+    },
+    {
+      "timeHours": 11.28,
+      "concentrationNgPerMl": 14.161048566197485
+    },
+    {
+      "timeHours": 11.32,
+      "concentrationNgPerMl": 14.063231058610118
+    },
+    {
+      "timeHours": 11.36,
+      "concentrationNgPerMl": 13.966089225902751
+    },
+    {
+      "timeHours": 11.4,
+      "concentrationNgPerMl": 13.869618400848061
+    },
+    {
+      "timeHours": 11.44,
+      "concentrationNgPerMl": 13.773813948457637
+    },
+    {
+      "timeHours": 11.48,
+      "concentrationNgPerMl": 13.678671265759244
+    },
+    {
+      "timeHours": 11.52,
+      "concentrationNgPerMl": 13.584185781575728
+    },
+    {
+      "timeHours": 11.56,
+      "concentrationNgPerMl": 13.490352956305337
+    },
+    {
+      "timeHours": 11.6,
+      "concentrationNgPerMl": 13.397168281703664
+    },
+    {
+      "timeHours": 11.64,
+      "concentrationNgPerMl": 13.304627280666997
+    },
+    {
+      "timeHours": 11.68,
+      "concentrationNgPerMl": 13.212725507017256
+    },
+    {
+      "timeHours": 11.72,
+      "concentrationNgPerMl": 13.12145854528834
+    },
+    {
+      "timeHours": 11.76,
+      "concentrationNgPerMl": 13.030822010514017
+    },
+    {
+      "timeHours": 11.8,
+      "concentrationNgPerMl": 12.940811548017217
+    },
+    {
+      "timeHours": 11.84,
+      "concentrationNgPerMl": 12.851422833200832
+    },
+    {
+      "timeHours": 11.88,
+      "concentrationNgPerMl": 12.762651571339914
+    },
+    {
+      "timeHours": 11.92,
+      "concentrationNgPerMl": 12.674493497375364
+    },
+    {
+      "timeHours": 11.96,
+      "concentrationNgPerMl": 12.586944375708983
+    },
+    {
+      "timeHours": 12.0,
+      "concentrationNgPerMl": 12.5
+    }
+  ],
+  "continuousCurvePointCount": 301,
+  "pointSpacingHours": 0.04,
+  "auc": {
+    "definition": "Area under the model concentration–time curve from exactly 0 to 12 hours.",
+    "symbol": "AUC₀–₁₂h",
+    "analyticExpression": "100 × (4 / ln(2)) × (1 − 2^(−3)) = 350 / ln(2)",
+    "value": 504.9432643111372,
+    "units": "ng·h/mL",
+    "optionalChartDisplay": "≈505 ng·h/mL over 0–12 h",
+    "notTotalLifetimeExposure": true,
+    "notDoseOrEffect": true
+  },
+  "forbiddenConversions": [
+    "No conversion to a dose without a supplied volume or additional model.",
+    "No safe washout, next-dose, treatment-interval or efficacy threshold.",
+    "No fractional probability of benefit.",
+    "No ADC constituent, living-cell expansion, radioactive decay or clinical drug curve."
+  ],
+  "defaultExerciseRetained": "At 12 hours, three halvings give 12.5 ng/mL. It does not establish a safe treatment time."
+}
+===== END FILE chart-data-draft.json =====
+
+===== BEGIN FILE requirements.txt SHA256 10a5ee32fbb4d2255d7fc03541ecbde04823c3904857beac167c49a1ea6ef992 =====
+# No third-party packages or online fonts.
+# Python 3.12+ syntax; actual byte-reproduction check uses Python 3.14.5.
+===== END FILE requirements.txt =====
+
+===== BEGIN FILE reproduction-environment.json SHA256 57808ca2ba4e0fe55d2b8149f7ebcd5a9fc80a978a7782d3e95489ac1c4936cc =====
+{
+  "schemaVersion": 1,
+  "python": "3.14.5",
+  "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "implementation": "CPython",
+  "thirdPartyPackagesRequired": [],
+  "fontFamily": "Arial, Helvetica, sans-serif",
+  "fontEmbedding": false,
+  "fontLimit": "SVG text stays editable. Actual browser font metrics/phone legibility remain unverified; no rasterized typography or pixel pass is claimed.",
+  "determinism": "Fixed JSON inputs and fixed SVG coordinates; no timestamps, random sampling, external resource or live owner dependency in renderer outputs."
+}
+===== END FILE reproduction-environment.json =====
+
+===== BEGIN FILE source-access.json SHA256 ea672ca3ed84aa025bea221ea3b19915e74143e446107d5e7cb43917f487859c =====
+{
+  "schemaVersion": 1,
+  "id": "next-gap-008",
+  "checkedAtUTC": "2026-10-11T07:26:10.619355+00:00",
+  "sources": [
+    {
+      "id": "fda-pk-2016",
+      "kind": "official FDA nonbinding guidance, December 2016",
+      "title": "Clinical Pharmacology Section of Labeling for Human Prescription Drug and Biological Products—Content and Format",
+      "url": "https://www.fda.gov/media/74346/download",
+      "accessMechanism": "Fresh web open of official indexed PDF, then curl exact native PDF and pdftotext selected pages.",
+      "actualReadDepth": "Selected PDF pages 9, 11 and 13 (printed pages 6, 8 and 10) fully read as extracted text: pharmacodynamics timing/reversibility/duration; introduction to PK measures, named exposure; distribution/elimination/effective versus terminal half-life and metabolite-specific exposure. Selected matching web passages were also read.",
+      "supports": "Concentration–time exposure and half-life need named context. Effects and their timing require separate evidence.",
+      "doesNotSupport": "The fictional numerical curve is mathematical, not FDA data; no particular drug, safe interval, dose recommendation or complete-guidance certification.",
+      "nativePDF": {
+        "path": "/tmp/education-visual-gap-production-wave1/pharmacokinetics/sources/fda-clinical-pharmacology-2016.pdf",
+        "sha256": "053d6f6c1c98411848dd0fc4278d6d32b0250f043c88b505543c29b14a492dff",
+        "bytes": 147211
+      },
+      "selectedCaptures": [
+        {
+          "path": "/tmp/education-visual-gap-production-wave1/pharmacokinetics/sources/fda-2016-selected-pdf-page-9.txt",
+          "sha256": "6d190072b5182207663e7fd5b2bee1c939ff88c1376930ad3df4d141ab8853d4",
+          "bytes": 2955
+        },
+        {
+          "path": "/tmp/education-visual-gap-production-wave1/pharmacokinetics/sources/fda-2016-selected-pdf-page-11.txt",
+          "sha256": "2d5a2c2a4245f620d7b93263ac6781c64ea108a9051c38bb2852265553fa2ee2",
+          "bytes": 3266
+        },
+        {
+          "path": "/tmp/education-visual-gap-production-wave1/pharmacokinetics/sources/fda-2016-selected-pdf-page-13.txt",
+          "sha256": "503008becb12a82969b2e7f848ed9ceb40cbd443583d2d0c8b0b3103f670cafa",
+          "bytes": 3238
+        }
+      ],
+      "nativePDFCaptured": true,
+      "wholeGuidanceRead": false,
+      "nativePDFPixelsInspected": false
+    },
+    {
+      "id": "fda-adc-2024",
+      "kind": "official FDA nonbinding guidance, March 2024",
+      "title": "Clinical Pharmacology Considerations for Antibody-Drug Conjugates",
+      "url": "https://www.fda.gov/media/155997/download",
+      "accessMechanism": "Fresh web open of official indexed PDF, then curl exact native PDF and pdftotext selected pages.",
+      "actualReadDepth": "Title page plus PDF pages 7–8 (printed pages 4–5), fully read as extracted text: III.A Bioanalytical Approach, named constituent parts and relevant metabolites; selected web terminology and exposure-response passages read for boundary context.",
+      "supports": "Retaining the owner’s named-constituent caution; one toy does not model all parts of an ADC.",
+      "doesNotSupport": "No ADC picture, quantitative constituent model or clinical prediction is added; no whole-guidance or clinical dosing refresh.",
+      "nativePDF": {
+        "path": "/tmp/education-visual-gap-production-wave1/pharmacokinetics/sources/fda-adc-clinical-pharmacology-2024.pdf",
+        "sha256": "646abed7ce34b1c576300af698f6634f8c905c9b463ce040f7dfa3ea9d10e30c",
+        "bytes": 328416
+      },
+      "selectedCaptures": [
+        {
+          "path": "/tmp/education-visual-gap-production-wave1/pharmacokinetics/sources/fda-2024-title.txt",
+          "sha256": "846a7ab522823fb396e472780387994494a532ffc86867e126c820785c0372f4",
+          "bytes": 379
+        },
+        {
+          "path": "/tmp/education-visual-gap-production-wave1/pharmacokinetics/sources/fda-2024-selected-pdf-pages-7-8.txt",
+          "sha256": "8d354cc6be9e5095fe2c68b1d0246414bbc64cffefd938052308c3fb04167ece",
+          "bytes": 5692
+        }
+      ],
+      "nativePDFCaptured": true,
+      "wholeGuidanceRead": false,
+      "nativePDFPixelsInspected": false
+    }
+  ],
+  "primaryMechanismAdded": false,
+  "mathematicalBasis": "The existing fictional owner supplies 100 ng/mL, stopped input, one compartment and a constant four-hour half-life. The exponential interpolation and finite integral follow those explicit assumptions, not a clinical source.",
+  "accessLimits": [
+    "No new clinical, modality-specific or patient claim.",
+    "No fresh review of the owner’s therapeutic radiopharmaceutical source; that retained paragraph is not depicted or recertified.",
+    "No source images, figures or substantial source wording are copied into the planned chart.",
+    "PDFs and text are scratch custody only; no protected records or source bundles accessed."
+  ]
+}
+===== END FILE source-access.json =====

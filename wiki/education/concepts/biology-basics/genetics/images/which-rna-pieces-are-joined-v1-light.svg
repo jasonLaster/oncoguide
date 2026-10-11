@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1520" viewBox="0 0 600 1520" role="img" aria-labelledby="title desc">
+<title id="title">Which RNA pieces are joined?</title><desc id="desc">A precursor RNA contains A, B and C regions separated by gray introns. Two processed RNA alternatives retain A-B-C or A-C in order, with hatched untranslated ends. An example sequencing read crosses the A-C junction while protein consequence remains unknown.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4.5 L0 9 Z" fill="#596976"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 2 L2 -2 M0 8 L8 0 M6 10 L10 6" fill="none" stroke="#5f7380" stroke-width="2"/></pattern></defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="600" height="1520" fill="#fbf7ef"/>
+<text id="title-line-1" x="24" y="44" font-size="40" font-weight="700" text-anchor="start" fill="#243440">Which RNA pieces</text>
+<text id="title-line-2" x="24" y="88" font-size="40" font-weight="700" text-anchor="start" fill="#243440">are joined?</text>
+<rect id="precursor-panel" x="12" y="110" width="576" height="370" rx="16" fill="#fffdf8" stroke="#b9c6cd" stroke-width="2"/>
+<text id="precursor-heading" x="36" y="156" font-size="34" font-weight="700" text-anchor="start" fill="#243440">Precursor RNA</text>
+<text id="gene-heading" x="36" y="194" font-size="28" font-weight="400" text-anchor="start" fill="#243440">Same fictional gene</text>
+<text id="removal-heading" x="300" y="218" font-size="28" font-weight="600" text-anchor="middle" fill="#243440">Introns removed</text>
+<line id="intron-left-leader" x1="228" y1="222" x2="198" y2="252" stroke="#596976" stroke-width="2.5"/>
+<line id="intron-right-leader" x1="372" y1="222" x2="388" y2="252" stroke="#596976" stroke-width="2.5"/>
+<text id="five-prime" x="48" y="246" font-size="28" font-weight="400" text-anchor="start" fill="#243440">5′</text>
+<text id="three-prime" x="538" y="246" font-size="28" font-weight="400" text-anchor="end" fill="#243440">3′</text>
+<rect id="precursor-A" x="48" y="252" width="110" height="58" fill="#b7cedf" stroke="#243440" stroke-width="2"/>
+<rect id="precursor-A-untranslated" x="48" y="252" width="22.0" height="58" fill="url(#hatch)"/>
+<text id="precursor-A-label" x="103.0" y="294" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">A</text>
+<rect id="precursor-intron-1" x="158" y="252" width="80" height="58" fill="#e2e3e2" stroke="#667780" stroke-width="2" stroke-dasharray="5 4"/>
+<text id="precursor-intron-1-label" x="198.0" y="291" font-size="28" font-weight="400" text-anchor="middle" fill="#243440">intron</text>
+<rect id="precursor-B" x="238" y="252" width="110" height="58" fill="#bcd4c0" stroke="#243440" stroke-width="2"/>
+<text id="precursor-B-label" x="293.0" y="294" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">B</text>
+<rect id="precursor-intron-2" x="348" y="252" width="80" height="58" fill="#e2e3e2" stroke="#667780" stroke-width="2" stroke-dasharray="5 4"/>
+<text id="precursor-intron-2-label" x="388.0" y="291" font-size="28" font-weight="400" text-anchor="middle" fill="#243440">intron</text>
+<rect id="precursor-C" x="428" y="252" width="110" height="58" fill="#e4cea0" stroke="#243440" stroke-width="2"/>
+<rect id="precursor-C-untranslated" x="516.0" y="252" width="22.0" height="58" fill="url(#hatch)"/>
+<text id="precursor-C-label" x="483.0" y="294" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">C</text>
+<line id="remove-intron-1" x1="198" y1="316" x2="198" y2="362" stroke="#596976" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<rect id="removed-intron-1" x="169" y="368" width="58" height="25" fill="#e2e3e2" stroke="#667780" stroke-width="2" stroke-dasharray="5 4"/>
+<line id="remove-intron-2" x1="388" y1="316" x2="388" y2="362" stroke="#596976" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<rect id="removed-intron-2" x="359" y="368" width="58" height="25" fill="#e2e3e2" stroke="#667780" stroke-width="2" stroke-dasharray="5 4"/>
+<text id="ordered-pieces" x="300" y="448" font-size="28" font-weight="400" text-anchor="middle" fill="#243440">A, B, C stay in order</text>
+<rect id="products-panel" x="12" y="505" width="576" height="500" rx="16" fill="#fffdf8" stroke="#b9c6cd" stroke-width="2"/>
+<text id="products-heading" x="36" y="554" font-size="34" font-weight="700" text-anchor="start" fill="#243440">Two possible products</text>
+<text id="join-heading" x="36" y="596" font-size="28" font-weight="600" text-anchor="start" fill="#243440">Exons joined</text>
+<rect id="product-ABC-A" x="48" y="635" width="110" height="58" fill="#b7cedf" stroke="#243440" stroke-width="2"/>
+<rect id="product-ABC-A-untranslated" x="48" y="635" width="22.0" height="58" fill="url(#hatch)"/>
+<text id="product-ABC-A-label" x="103.0" y="677" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">A</text>
+<rect id="product-ABC-B" x="158" y="635" width="110" height="58" fill="#bcd4c0" stroke="#243440" stroke-width="2"/>
+<text id="product-ABC-B-label" x="213.0" y="677" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">B</text>
+<rect id="product-ABC-C" x="268" y="635" width="110" height="58" fill="#e4cea0" stroke="#243440" stroke-width="2"/>
+<rect id="product-ABC-C-untranslated" x="356.0" y="635" width="22.0" height="58" fill="url(#hatch)"/>
+<text id="product-ABC-C-label" x="323.0" y="677" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">C</text>
+<text id="ABC-name" x="430" y="676" font-size="30" font-weight="600" text-anchor="middle" fill="#243440">A–B–C</text>
+<line id="ABC-junction-158" x1="158" y1="693" x2="158" y2="704" stroke="#596976" stroke-width="2.5"/>
+<line id="ABC-junction-268" x1="268" y1="693" x2="268" y2="704" stroke="#596976" stroke-width="2.5"/>
+<rect id="product-AC-A" x="48" y="785" width="110" height="58" fill="#b7cedf" stroke="#243440" stroke-width="2"/>
+<rect id="product-AC-A-untranslated" x="48" y="785" width="22.0" height="58" fill="url(#hatch)"/>
+<text id="product-AC-A-label" x="103.0" y="827" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">A</text>
+<rect id="product-AC-C" x="158" y="785" width="110" height="58" fill="#e4cea0" stroke="#243440" stroke-width="2"/>
+<rect id="product-AC-C-untranslated" x="246.0" y="785" width="22.0" height="58" fill="url(#hatch)"/>
+<text id="product-AC-C-label" x="213.0" y="827" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">C</text>
+<text id="AC-name" x="405" y="826" font-size="30" font-weight="600" text-anchor="middle" fill="#243440">A–C</text>
+<line id="AC-junction" x1="158" y1="843" x2="158" y2="855" stroke="#596976" stroke-width="2.5"/>
+<text id="B-skipped" x="300" y="902" font-size="28" font-weight="600" text-anchor="middle" fill="#243440">B skipped here</text>
+<path id="skipped-B-leader" d="M228 875 L158 855 L158 843" fill="none" stroke="#596976" stroke-width="2.5"/>
+<rect id="hatch-key-ground" x="48" y="927" width="34" height="25" fill="#b7cedf" stroke="#243440" stroke-width="1"/>
+<rect id="hatch-key" x="48" y="927" width="34" height="25" fill="url(#hatch)"/>
+<text id="hatch-key-label" x="98" y="950" font-size="28" font-weight="400" text-anchor="start" fill="#243440">Striped = untranslated</text>
+<text id="coding-limit" x="300" y="988" font-size="28" font-weight="600" text-anchor="middle" fill="#243440">Exon ≠ all coding</text>
+<rect id="read-panel" x="12" y="1030" width="576" height="470" rx="16" fill="#fffdf8" stroke="#b9c6cd" stroke-width="2"/>
+<text id="read-heading" x="36" y="1078" font-size="34" font-weight="700" text-anchor="start" fill="#243440">What the read shows</text>
+<text id="local-join-label" x="300" y="1121" font-size="28" font-weight="600" text-anchor="middle" fill="#243440">Local A–C join</text>
+<rect id="local-A" x="116" y="1145" width="180" height="58" fill="#b7cedf" stroke="#243440" stroke-width="2"/>
+<rect id="local-A-untranslated" x="116" y="1145" width="36.0" height="58" fill="url(#hatch)"/>
+<text id="local-A-label" x="206.0" y="1187" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">A</text>
+<rect id="local-C" x="296" y="1145" width="180" height="58" fill="#e4cea0" stroke="#243440" stroke-width="2"/>
+<rect id="local-C-untranslated" x="440.0" y="1145" width="36.0" height="58" fill="url(#hatch)"/>
+<text id="local-C-label" x="386.0" y="1187" font-size="40" font-weight="700" text-anchor="middle" fill="#243440">C</text>
+<line id="local-junction" x1="296" y1="1203" x2="296" y2="1243" stroke="#596976" stroke-width="2.5" stroke-dasharray="6 5"/>
+<rect id="read-A" x="210" y="1245" width="86" height="30" fill="#b7cedf"/>
+<rect id="read-C" x="296" y="1245" width="86" height="30" fill="#e4cea0"/>
+<rect id="junction-read-outline" x="210" y="1245" width="172" height="30" fill="none" stroke="#243440" stroke-width="3"/>
+<line id="read-junction" x1="296" y1="1245" x2="296" y2="1275" stroke="#596976" stroke-width="2.5"/>
+<text id="junction-read-label" x="300" y="1320" font-size="28" font-weight="600" text-anchor="middle" fill="#243440">Junction read</text>
+<text id="join-support" x="300" y="1360" font-size="28" font-weight="400" text-anchor="middle" fill="#243440">Supports this join</text>
+<rect id="protein-question" x="42" y="1390" width="516" height="88" rx="12" fill="#f0eee7" stroke="#b9c6cd" stroke-width="2"/>
+<text id="protein-question-heading" x="300" y="1425" font-size="30" font-weight="700" text-anchor="middle" fill="#243440">Protein consequence?</text>
+<text id="other-evidence" x="300" y="1460" font-size="28" font-weight="400" text-anchor="middle" fill="#243440">Needs other evidence</text>
+</g></svg>

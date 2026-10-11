@@ -73,6 +73,11 @@ Living cell products can expand or persist. [Radioligand therapy](/wiki/educatio
 
 In a fictional single-compartment model, input has stopped and concentration is 100 ng/mL. Assume a constant four-hour half-life: concentration is 50 ng/mL after four hours and 25 ng/mL after eight. The assumptions make this arithmetic valid; they do not describe every medicine.
 
+<div class="my-6">
+  <img src="./images/four-hour-halvings-and-exposure-v1-light.svg" alt="A fictional one-compartment concentration–time curve starts at 100 ng/mL and halves every four hours: 50 at four hours, 25 at eight and 12.5 at twelve. Linear axes identify hours and concentration. The shaded area is exposure only from zero to twelve hours, not dose or biological effect. Four markers are model values, not observed samples." data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">Each four-hour step halves this fictional concentration; the shaded area adds concentration across time. Input has stopped in a one-compartment, constant-half-life toy. Its area under the curve (AUC) from 0 to 12 hours is about 505 ng·h/mL, not total lifetime exposure or dose. Effects need separate measurements, and this curve cannot choose a safe treatment interval.</p>
+</div>
+
 ## Common confusions
 
 - **Dose is not exposure.** Administered amount and sampled concentration have different units.

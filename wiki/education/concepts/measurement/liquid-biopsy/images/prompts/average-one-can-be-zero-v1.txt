@@ -1,0 +1,1225 @@
+Original editable scientific chart: average-one-can-be-zero-v1
+
+Approved scientific specification follows verbatim. All count/curve values are fictional model inputs, not assay or clinical probabilities.
+
+DRAFT EDITABLE CHART SPECIFICATION — no render, integration or release
+Question: Can the aliquot be empty when the average is one?
+
+Make one editable portrait SVG chart with matched light/dark geometry and words.
+Use an exact reproducible plotting renderer (Matplotlib), never generative raster.
+Planned canvas 576 points wide; increase height as needed. Minimum core type 24pt
+(13 CSS px at 312px width), but final actual pixels govern all acceptance.
+
+Header: An average is not a guarantee
+Subheading: Fictional sampling toy · Same fixed-volume aliquot
+
+Main exact quantitative plot:
+X axis Expected target molecules / per evaluated aliquot, common linear 0–5.
+Y axis Chance of zero, common linear0–100%; ticks 0/20/40/60/80/100%.
+Curve P(N=0)=exp(−lambda), from exact JSON points, decreasing smoothly.
+Tick labels 0/1/2/3/4/5; not months, disease burden, concentration or blood volume.
+At lambda = 1 put a clear point with guide lines to x = 1 and probability 0.36787944117144233.
+Core callout Average 1 / Chance of zero 36.8%.
+Define lambda as expected ORIGINAL target-molecule count in the evaluated aliquot.
+The lambda = 0 endpoint is the degenerate zero-count mathematical case.
+No confidence band, empirical dots, patient timeline, detection threshold or 95% line.
+
+Small finite-aliquot inset below the plot:
+Three equal-volume schematic aliquot outlines, containing 0/1/2 neutral molecule tokens.
+Core heading Possible counts, not frequencies.
+Counts must be explicit and tokens wholly inside the aliquot outlines. Do not show
+whole cells or clinical blood specimens. These are possible count states, not three
+observed samples or a frequency match to 36.8%. Equal drawings do not mean equal
+probabilities. Omit the inset if ordinary layout becomes crowded; the curve and its
+lambda = 1 callout are mandatory. Do not replace the curve with decorative empty tubes.
+
+Footer: Sampling only / Not a clinical false-negative rate.
+Ordinary caption retains independent-random/Poisson assumptions, fixed aliquot volume,
+original molecules versus reads, and sampling versus recovery/call/cancer absence.
+Keep the existing four-gate Mermaid, sources, table, LoD input practice and all metadata.
+
+Exact plot coordinates must be emitted as JSON alongside source and original SVG pair.
+Palette changes only across themes; identical axis scales, path/marker geometry/text.
+Use text/hatches/shapes, not color alone. svg.fonttype none, stable IDs and metadata,
+explicit font/dependency versions and actual portable reproduction instructions.
+A repeat render into a fresh output directory must reproduce all output bytes exactly.
+
+Independent acceptance after rendering: every curve/anchor value and endpoint versus
+JSON; the 1 → 36.8% callout exact; chart stops at 5 without a clinical limit interpretation;
+actual ordinary 312px image in a 390px document and desktop both themes show core words,
+scales and caption readable without clipping or horizontal overflow. No planned-font-only
+acceptance. The caption cannot reverse a mislabeled axis or repair false image meaning.
+No clinical draw-volume, shedding, recovery-efficiency, product sensitivity, diagnosis,
+individual posterior or cancer-absence claim; no assumed independence across repeated draws.
+
+
+Actual rendering implementation
+Python 3.14.5, Matplotlib 3.10.8, numpy 2.5.4. Arial font SHA256 525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9; exact glyph metrics and byte reproduction require that font file. No fallback is accepted by the source renderer. The original environment resolves the system font at /System/Library/Fonts/Supplemental/Arial.ttf. On another host, provision the same named font bytes and pinned dependencies before attempting an exact comparison; no universal host-independent font identity is claimed.
+
+Keep render-chart.py beside chart-data-draft.json and brief-independent-review.json. Invoke from an environment with the documented versions:
+python render-chart.py --output-dir /absolute/new-empty-directory
+The renderer refuses an existing output directory. It emits two editable SVGs plus exact data, coordinates, environment and render receipt. Repeating to another fresh directory reproduced all six files byte-identically in the documented environment. Compare the complete SHA256 values, not screenshots. SVG text remains editable and depends on matching browser font metrics; actual local and production pixels remain distinct review gates.
+
+The accepted full brief is 0e70835fb4e027cc34c978854b1546e97e1d7210db4c788e2f1f7aa8f1acc10a; independent planning approval 4f890752fe409f643e32464a54fcc4d398df36de1bd32d7ec7211c00fca234c8. The source script SHA256 is c74cda2a91030177f60916ce91b50b4d30833d152c55b8c0ba48ce7aa8026e96; input data SHA256 2968c15a8ccf983265798f608942c9609ad29e64662a0e23b1711b998a6aefcd. The actual 201 plotted points, seven anchors, marker/guide/inset coordinates are preserved in chart-coordinates.json.
+
+Proposed alt: A fictional fixed-volume sampling model plots the chance of zero original target molecules against the expected target-molecule count per evaluated aliquot. The curve is exp(−lambda); at an expected count of one, the chance of zero is 36.8%. Equal-volume illustrative aliquots show possible counts of zero, one and two, not observed frequencies. Recovery, assay detection and cancer status are separate questions.
+Proposed ordinary caption: An average of one is not a guaranteed molecule. In this fictional Poisson model, independent random counts in equal evaluated aliquots of one fixed volume give P(zero) = exp(−1) ≈ 36.8%. No clinical volume or assay performance is implied. More reads cannot recover an original molecule absent from the aliquot; recovery and calling rules are additional gates. This is not a clinical false-negative rate, and a negative blood test does not establish absence of cancer.
+
+No source owner, original Mermaid/table/practice/metadata, public registry, ledger or release state is changed by scratch rendering.
+
+
+COMPLETE PORTABLE SOURCE BUNDLE
+
+The following four literal file blocks are sufficient renderer inputs. Save each block verbatim under its filename in one directory. The scientific/source captures remain in the separately hash-bound brief; they are not runtime inputs. Use the documented Python/dependency versions and identical Arial font bytes, then invoke the original renderer into a fresh output directory.
+
+FILE render-chart.py
+SHA256 c74cda2a91030177f60916ce91b50b4d30833d152c55b8c0ba48ce7aa8026e96
+```python
+#!/usr/bin/env python3
+"""Original editable Poisson zero-count teaching chart. No clinical performance inputs."""
+import argparse, hashlib, importlib.metadata, json, math, re, sys
+from pathlib import Path
+from io import StringIO
+import xml.etree.ElementTree as ET
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch, Circle
+from matplotlib import font_manager
+
+HERE = Path(__file__).resolve().parent
+STEM = 'average-one-can-be-zero-v1'
+W,H = 576,1360
+X0,X1,Y0,Y1 = 96,552,280,765
+COLORS = {
+ 'light':{'bg':'#FBF8F2','ink':'#213746','muted':'#516A7C','line':'#AFBEC5','grid':'#D9E1E3','curve':'#2B7B86','point':'#966721','panel':'#FFFDF8'},
+ 'dark':{'bg':'#13202D','ink':'#EEF1EF','muted':'#B9CBD3','line':'#7C949F','grid':'#384D5C','curve':'#83C5CB','point':'#E8C077','panel':'#1B2D3B'}
+}
+
+def sha(x):return hashlib.sha256(x).hexdigest()
+def dump(x):return (json.dumps(x,ensure_ascii=False,indent=2)+'\n').encode()
+def xy(lam,p):return [X0+(X1-X0)*lam/5,Y1-(Y1-Y0)*p]
+
+def check(data):
+ points=data['curvePoints']
+ assert len(points)==201
+ for i,r in enumerate(points):
+  assert r['lambda']==i/40 and abs(r['probabilityZero']-math.exp(-i/40))<1e-15
+ assert points[0]['probabilityZero']==1 and all(a['probabilityZero']>b['probabilityZero'] for a,b in zip(points,points[1:]))
+ for r in data['anchorTable']:
+  assert r['probabilityZero']==math.exp(-r['expectedTargetMoleculesPerAliquot'])
+  assert r['displayPercent']==f"{100*r['probabilityZero']:.1f}%"
+ assert data['highlight']['lambda']==1 and data['highlight']['probabilityZero']==math.exp(-1)
+ assert data['inset']['possibleCounts']==[0,1,2] and data['inset']['equalDrawingsNotEqualProbabilities']
+ return [{'lambda':r['lambda'],'probabilityZero':r['probabilityZero'],'svgXY':xy(r['lambda'],r['probabilityZero'])} for r in points]
+
+def draw(theme,data,out):
+ c=COLORS[theme]
+ plt.rcParams.update({'font.family':'Arial','svg.fonttype':'none','svg.hashsalt':'original-poisson-zero-v1','axes.unicode_minus':False,'path.simplify':False,'text.color':c['ink']})
+ fig=plt.figure(figsize=(W/72,H/72),dpi=72,facecolor=c['bg']);ax=fig.add_axes([0,0,1,1]);ax.set_xlim(0,W);ax.set_ylim(H,0);ax.axis('off')
+ texts=[]
+ def txt(x,y,value,size=24,ha='left',weight='normal',color=None):
+  e=ax.text(x,y,value,fontsize=size,fontweight=weight,ha=ha,va='top',color=color or c['ink']);texts.append(e);return e
+ def line(x,y,x2,y2,color=None,lw=1.5,ls='-'):
+  ax.plot([x,x2],[y,y2],color=color or c['line'],lw=lw,ls=ls,solid_capstyle='round')
+ txt(24,24,'An average is not',36,weight='bold');txt(24,70,'a guarantee',36,weight='bold')
+ txt(24,128,'Fictional sampling toy',26,weight='bold');txt(24,165,'Same fixed-volume aliquot')
+ txt(24,211,'P(zero) = exp(−λ)')
+ txt(24,247,'Chance of zero',26,weight='bold')
+ for percent in [0,20,40,60,80,100]:
+  y=xy(0,percent/100)[1]
+  line(X0,y,X1,y,c['grid'],1.2)
+  # Top-align below the baseline only for the outer tick? All tick text centered vertically.
+  e=txt(X0-16,y-12,f'{percent}%',24,ha='right');
+ line(X0,Y0,X0,Y1,c['muted'],1.5);line(X0,Y1,X1,Y1,c['muted'],1.5)
+ for n in range(6):
+  x=xy(n,0)[0];line(x,Y1,x,Y1+8,c['muted'],1.5);txt(x,Y1+19,str(n),24,ha='center')
+ coords=check(data)
+ curve,=ax.plot([r['svgXY'][0] for r in coords],[r['svgXY'][1] for r in coords],lw=3.2,color=c['curve'],solid_capstyle='round');curve.set_gid('poisson-zero-curve')
+ hx,hy=xy(1,math.exp(-1));line(X0,hy,hx,hy,c['point'],1.6,(0,(5,4)));line(hx,hy,hx,Y1,c['point'],1.6,(0,(5,4)))
+ ax.add_patch(Circle((hx,hy),6,facecolor=c['point'],edgecolor=c['bg'],linewidth=1.5))
+ ax.add_patch(FancyBboxPatch((276,350),270,146,boxstyle='round,pad=0,rounding_size=12',facecolor=c['panel'],edgecolor=c['line'],lw=1.2))
+ txt(290,366,'Average 1',28,weight='bold');txt(290,408,'Chance of zero');txt(290,444,'36.8%',34,weight='bold',color=c['point'])
+ line(276,493,hx+7,hy-5,c['muted'],1.2)
+ txt(W/2,829,'Expected original target molecules',24,ha='center');txt(W/2,865,'per evaluated aliquot (λ)',24,ha='center')
+ txt(24,929,'Possible counts, not frequencies',26,weight='bold')
+ outlines=[]
+ for center,n in zip([122,288,454],[0,1,2]):
+  x,y,w,h=center-58,985,116,132
+  ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0,rounding_size=14',facecolor=c['panel'],edgecolor=c['muted'],lw=2))
+  positions=[]
+  if n==1:positions=[[center,1051]]
+  if n==2:positions=[[center-20,1051],[center+20,1051]]
+  for px,py in positions:
+   assert x<px-9 and px+9<x+w and y<py-9 and py+9<y+h
+   ax.add_patch(Circle((px,py),9,facecolor=c['curve'],edgecolor=c['ink'],lw=1.2))
+  txt(center,1132,str(n),28,ha='center',weight='bold')
+  outlines.append({'possibleCount':n,'outline':[x,y,w,h],'tokens':positions,'notObservedFrequency':True})
+ txt(W/2,1184,'Equal drawings ≠ equal probabilities',24,ha='center')
+ txt(24,1250,'Sampling only',26,weight='bold');txt(24,1292,'Not a clinical false-negative rate')
+ fig.canvas.draw();renderer=fig.canvas.get_renderer();bounds=[]
+ for t in texts:
+  b=t.get_window_extent(renderer);assert b.x0>=0 and b.y0>=0 and b.x1<=W and b.y1<=H,(t.get_text(),b.bounds)
+  assert t.get_fontsize()>=24
+  bounds.append({'text':t.get_text(),'fontPoints':t.get_fontsize(),'bbox':list(b.bounds)})
+ stream=StringIO();fig.savefig(stream,format='svg',metadata={'Date':None,'Creator':'Original reproducible fictional Poisson zero-count chart'});plt.close(fig)
+ raw=stream.getvalue();title='An average is not a guarantee';desc='An explicitly fictional fixed-volume independent-random sampling model: expected original target count one permits a zero count with probability exp(-1), about36.8%. Possible count sketches are not observed frequencies or equal probabilities.'
+ desc=desc.replace('about36','about 36')
+ raw=re.sub(r'(<svg\b[^>]*>)',lambda m:m.group(1)+'\n <title>'+title+'</title>\n <desc>'+desc+'</desc>',raw,count=1);ET.fromstring(raw);out.write_text(raw)
+ return {'curve':coords,'highlight':{'lambda':1,'probabilityZero':math.exp(-1),'svgXY':[hx,hy],'display':'36.8%'},'aliquotInset':outlines,'textBounds':bounds}
+
+def norm(path):
+ r=path.read_text();ids=re.findall(r'\bid="([^"]+)"',r)
+ for i,old in enumerate(ids):r=r.replace('id="'+old+'"','id="canonical-'+str(i)+'"').replace('#'+old+')','#canonical-'+str(i)+')')
+ return re.sub(r'#[0-9a-fA-F]{6}','#PALETTE',r)
+
+def main():
+ a=argparse.ArgumentParser();a.add_argument('--output-dir',required=True);args=a.parse_args();out=Path(args.output_dir);out.mkdir(parents=True,exist_ok=False)
+ raw=(HERE/'chart-data-draft.json').read_bytes();data=json.loads(raw);check(data)
+ outputs=[];allcoords=[]
+ for theme in ['light','dark']:
+  path=out/(STEM+'-'+theme+'.svg');allcoords.append(draw(theme,data,path));outputs.append({'path':path.name,'sha256':sha(path.read_bytes()),'bytes':path.stat().st_size})
+ assert allcoords[0]==allcoords[1] and norm(out/outputs[0]['path'])==norm(out/outputs[1]['path'])
+ font=Path(font_manager.findfont(font_manager.FontProperties(family='Arial'),fallback_to_default=False))
+ env={'python':sys.version.split()[0],'matplotlib':matplotlib.__version__,'numpy':importlib.metadata.version('numpy'),'font':{'family':'Arial','path':str(font),'sha256':sha(font.read_bytes())},'fontFallbackAllowed':False,'exactEnvironmentRequiredForByteIdentity':True}
+ coord={'canvasPoints':[W,H],'plotRange':{'lambda':[0,5],'probabilityZero':[0,1]},'plotBox':{'left':X0,'right':X1,'top':Y0,'bottom':Y1},'minimumCorePoints':24,'at312pxPrediction':13,'plannedNotPixelAcceptance':True,**allcoords[0]}
+ (out/'chart-data.json').write_bytes(raw);(out/'chart-coordinates.json').write_bytes(dump(coord));(out/'reproduction-environment.json').write_bytes(dump(env))
+ receipt={'schemaVersion':1,'id':'next-gap-005','rendererSHA256':sha(Path(__file__).read_bytes()),'inputSHA256':sha(raw),'independentPlanReviewSHA256':sha((HERE/'brief-independent-review.json').read_bytes()),'all201ExactMathPoints':True,'all7AnchorsExact':True,'highlight':coord['highlight'],'themeGeometryTextEqual':True,'outputs':outputs,'environment':env,'actualPixelsReviewed':False,'clinicalProbability':False}
+ (out/'render-receipt.json').write_bytes(dump(receipt));print(json.dumps({'verdict':'SOURCE_RENDER_PASS','outputs':outputs,'actualPixelsReviewed':False}))
+if __name__=='__main__':main()
+```
+END FILE
+
+FILE chart-data-draft.json
+SHA256 2968c15a8ccf983265798f608942c9609ad29e64662a0e23b1711b998a6aefcd
+```json
+{
+  "schemaVersion": 1,
+  "id": "next-gap-005",
+  "status": "DRAFT: exact mathematical inputs only; no rendered chart or integration",
+  "fictional": true,
+  "model": "N ~ Poisson(lambda); P(N=0) = exp(-lambda)",
+  "units": {
+    "N": "count of original target molecules in one evaluated aliquot",
+    "lambda": "expected target-molecule count in one evaluated aliquot",
+    "probabilityZero": "unitless probability, displayed as percent"
+  },
+  "assumptions": [
+    "Equal evaluated aliquots of one fixed volume V, held constant throughout the chart; no numerical clinical volume is specified.",
+    "The target molecules are independently randomly distributed under a deliberately idealized Poisson count model.",
+    "The chart concerns original molecular inclusion only, before any recovery/detector/calling-rule effects.",
+    "Different lambda positions compare hypothetical average counts in the same fixed-volume aliquot, not a patient time series or clinical input-response calibration."
+  ],
+  "fixedAliquotVolume": {
+    "symbol": "V",
+    "heldConstant": true,
+    "numericalVolume": null,
+    "reason": "No draw-volume or concentration data were supplied; the existing owner specifies only a toy mean of one per evaluated aliquot."
+  },
+  "curveRangeLambda": [
+    0,
+    5
+  ],
+  "curvePoints": [
+    {
+      "lambda": 0.0,
+      "probabilityZero": 1.0
+    },
+    {
+      "lambda": 0.025,
+      "probabilityZero": 0.9753099120283326
+    },
+    {
+      "lambda": 0.05,
+      "probabilityZero": 0.951229424500714
+    },
+    {
+      "lambda": 0.075,
+      "probabilityZero": 0.9277434863285529
+    },
+    {
+      "lambda": 0.1,
+      "probabilityZero": 0.9048374180359595
+    },
+    {
+      "lambda": 0.125,
+      "probabilityZero": 0.8824969025845955
+    },
+    {
+      "lambda": 0.15,
+      "probabilityZero": 0.8607079764250578
+    },
+    {
+      "lambda": 0.175,
+      "probabilityZero": 0.8394570207692074
+    },
+    {
+      "lambda": 0.2,
+      "probabilityZero": 0.8187307530779818
+    },
+    {
+      "lambda": 0.225,
+      "probabilityZero": 0.7985162187593771
+    },
+    {
+      "lambda": 0.25,
+      "probabilityZero": 0.7788007830714049
+    },
+    {
+      "lambda": 0.275,
+      "probabilityZero": 0.7595721232249685
+    },
+    {
+      "lambda": 0.3,
+      "probabilityZero": 0.7408182206817179
+    },
+    {
+      "lambda": 0.325,
+      "probabilityZero": 0.7225273536420722
+    },
+    {
+      "lambda": 0.35,
+      "probabilityZero": 0.7046880897187134
+    },
+    {
+      "lambda": 0.375,
+      "probabilityZero": 0.6872892787909722
+    },
+    {
+      "lambda": 0.4,
+      "probabilityZero": 0.6703200460356393
+    },
+    {
+      "lambda": 0.425,
+      "probabilityZero": 0.6537697851298473
+    },
+    {
+      "lambda": 0.45,
+      "probabilityZero": 0.6376281516217733
+    },
+    {
+      "lambda": 0.475,
+      "probabilityZero": 0.6218850564650201
+    },
+    {
+      "lambda": 0.5,
+      "probabilityZero": 0.6065306597126334
+    },
+    {
+      "lambda": 0.525,
+      "probabilityZero": 0.5915553643668151
+    },
+    {
+      "lambda": 0.55,
+      "probabilityZero": 0.5769498103804866
+    },
+    {
+      "lambda": 0.575,
+      "probabilityZero": 0.5627048688069557
+    },
+    {
+      "lambda": 0.6,
+      "probabilityZero": 0.5488116360940264
+    },
+    {
+      "lambda": 0.625,
+      "probabilityZero": 0.5352614285189903
+    },
+    {
+      "lambda": 0.65,
+      "probabilityZero": 0.522045776761016
+    },
+    {
+      "lambda": 0.675,
+      "probabilityZero": 0.5091564206075492
+    },
+    {
+      "lambda": 0.7,
+      "probabilityZero": 0.4965853037914095
+    },
+    {
+      "lambda": 0.725,
+      "probabilityZero": 0.48432456895536247
+    },
+    {
+      "lambda": 0.75,
+      "probabilityZero": 0.4723665527410147
+    },
+    {
+      "lambda": 0.775,
+      "probabilityZero": 0.4607037809989658
+    },
+    {
+      "lambda": 0.8,
+      "probabilityZero": 0.44932896411722156
+    },
+    {
+      "lambda": 0.825,
+      "probabilityZero": 0.43823499246494924
+    },
+    {
+      "lambda": 0.85,
+      "probabilityZero": 0.4274149319487267
+    },
+    {
+      "lambda": 0.875,
+      "probabilityZero": 0.4168620196785084
+    },
+    {
+      "lambda": 0.9,
+      "probabilityZero": 0.4065696597405991
+    },
+    {
+      "lambda": 0.925,
+      "probabilityZero": 0.39653141907499284
+    },
+    {
+      "lambda": 0.95,
+      "probabilityZero": 0.38674102345450123
+    },
+    {
+      "lambda": 0.975,
+      "probabilityZero": 0.37719235356315695
+    },
+    {
+      "lambda": 1.0,
+      "probabilityZero": 0.36787944117144233
+    },
+    {
+      "lambda": 1.025,
+      "probabilityZero": 0.3587964654059516
+    },
+    {
+      "lambda": 1.05,
+      "probabilityZero": 0.3499377491111553
+    },
+    {
+      "lambda": 1.075,
+      "probabilityZero": 0.3412977553009937
+    },
+    {
+      "lambda": 1.1,
+      "probabilityZero": 0.33287108369807955
+    },
+    {
+      "lambda": 1.125,
+      "probabilityZero": 0.32465246735834974
+    },
+    {
+      "lambda": 1.15,
+      "probabilityZero": 0.3166367693790533
+    },
+    {
+      "lambda": 1.175,
+      "probabilityZero": 0.30881897968801986
+    },
+    {
+      "lambda": 1.2,
+      "probabilityZero": 0.30119421191220214
+    },
+    {
+      "lambda": 1.225,
+      "probabilityZero": 0.29375770032353277
+    },
+    {
+      "lambda": 1.25,
+      "probabilityZero": 0.2865047968601901
+    },
+    {
+      "lambda": 1.275,
+      "probabilityZero": 0.27943096822140734
+    },
+    {
+      "lambda": 1.3,
+      "probabilityZero": 0.2725317930340126
+    },
+    {
+      "lambda": 1.325,
+      "probabilityZero": 0.2658029590889266
+    },
+    {
+      "lambda": 1.35,
+      "probabilityZero": 0.2592402606458915
+    },
+    {
+      "lambda": 1.375,
+      "probabilityZero": 0.25283959580474646
+    },
+    {
+      "lambda": 1.4,
+      "probabilityZero": 0.2465969639416065
+    },
+    {
+      "lambda": 1.425,
+      "probabilityZero": 0.24050846320834213
+    },
+    {
+      "lambda": 1.45,
+      "probabilityZero": 0.23457028809379765
+    },
+    {
+      "lambda": 1.475,
+      "probabilityZero": 0.22877872704522242
+    },
+    {
+      "lambda": 1.5,
+      "probabilityZero": 0.22313016014842982
+    },
+    {
+      "lambda": 1.525,
+      "probabilityZero": 0.2176210568652329
+    },
+    {
+      "lambda": 1.55,
+      "probabilityZero": 0.21224797382674304
+    },
+    {
+      "lambda": 1.575,
+      "probabilityZero": 0.20700755268115265
+    },
+    {
+      "lambda": 1.6,
+      "probabilityZero": 0.20189651799465538
+    },
+    {
+      "lambda": 1.625,
+      "probabilityZero": 0.19691167520419406
+    },
+    {
+      "lambda": 1.65,
+      "probabilityZero": 0.19204990862075413
+    },
+    {
+      "lambda": 1.675,
+      "probabilityZero": 0.18730817948195702
+    },
+    {
+      "lambda": 1.7,
+      "probabilityZero": 0.18268352405273466
+    },
+    {
+      "lambda": 1.725,
+      "probabilityZero": 0.1781730517728984
+    },
+    {
+      "lambda": 1.75,
+      "probabilityZero": 0.17377394345044514
+    },
+    {
+      "lambda": 1.775,
+      "probabilityZero": 0.1694834494994701
+    },
+    {
+      "lambda": 1.8,
+      "probabilityZero": 0.16529888822158653
+    },
+    {
+      "lambda": 1.825,
+      "probabilityZero": 0.16121764412977677
+    },
+    {
+      "lambda": 1.85,
+      "probabilityZero": 0.1572371663136276
+    },
+    {
+      "lambda": 1.875,
+      "probabilityZero": 0.15335496684492847
+    },
+    {
+      "lambda": 1.9,
+      "probabilityZero": 0.14956861922263506
+    },
+    {
+      "lambda": 1.925,
+      "probabilityZero": 0.14587575685622736
+    },
+    {
+      "lambda": 1.95,
+      "probabilityZero": 0.1422740715865136
+    },
+    {
+      "lambda": 1.975,
+      "probabilityZero": 0.13876131224295524
+    },
+    {
+      "lambda": 2.0,
+      "probabilityZero": 0.1353352832366127
+    },
+    {
+      "lambda": 2.025,
+      "probabilityZero": 0.13199384318783022
+    },
+    {
+      "lambda": 2.05,
+      "probabilityZero": 0.12873490358780423
+    },
+    {
+      "lambda": 2.075,
+      "probabilityZero": 0.1255564274931972
+    },
+    {
+      "lambda": 2.1,
+      "probabilityZero": 0.1224564282529819
+    },
+    {
+      "lambda": 2.125,
+      "probabilityZero": 0.11943296826671962
+    },
+    {
+      "lambda": 2.15,
+      "probabilityZero": 0.11648415777349697
+    },
+    {
+      "lambda": 2.175,
+      "probabilityZero": 0.11360815367076377
+    },
+    {
+      "lambda": 2.2,
+      "probabilityZero": 0.11080315836233387
+    },
+    {
+      "lambda": 2.225,
+      "probabilityZero": 0.10806741863482926
+    },
+    {
+      "lambda": 2.25,
+      "probabilityZero": 0.10539922456186433
+    },
+    {
+      "lambda": 2.275,
+      "probabilityZero": 0.1027969084352864
+    },
+    {
+      "lambda": 2.3,
+      "probabilityZero": 0.10025884372280375
+    },
+    {
+      "lambda": 2.325,
+      "probabilityZero": 0.09778344405135005
+    },
+    {
+      "lambda": 2.35,
+      "probabilityZero": 0.09536916221554961
+    },
+    {
+      "lambda": 2.375,
+      "probabilityZero": 0.09301448921066349
+    },
+    {
+      "lambda": 2.4,
+      "probabilityZero": 0.09071795328941251
+    },
+    {
+      "lambda": 2.425,
+      "probabilityZero": 0.08847811904208731
+    },
+    {
+      "lambda": 2.45,
+      "probabilityZero": 0.0862935864993705
+    },
+    {
+      "lambda": 2.475,
+      "probabilityZero": 0.08416299025731036
+    },
+    {
+      "lambda": 2.5,
+      "probabilityZero": 0.0820849986238988
+    },
+    {
+      "lambda": 2.525,
+      "probabilityZero": 0.08005831278672054
+    },
+    {
+      "lambda": 2.55,
+      "probabilityZero": 0.07808166600115317
+    },
+    {
+      "lambda": 2.575,
+      "probabilityZero": 0.07615382279861033
+    },
+    {
+      "lambda": 2.6,
+      "probabilityZero": 0.07427357821433388
+    },
+    {
+      "lambda": 2.625,
+      "probabilityZero": 0.07243975703425146
+    },
+    {
+      "lambda": 2.65,
+      "probabilityZero": 0.0706512130604296
+    },
+    {
+      "lambda": 2.675,
+      "probabilityZero": 0.06890682839466258
+    },
+    {
+      "lambda": 2.7,
+      "probabilityZero": 0.06720551273974976
+    },
+    {
+      "lambda": 2.725,
+      "probabilityZero": 0.06554620271802433
+    },
+    {
+      "lambda": 2.75,
+      "probabilityZero": 0.06392786120670757
+    },
+    {
+      "lambda": 2.775,
+      "probabilityZero": 0.06234947668967343
+    },
+    {
+      "lambda": 2.8,
+      "probabilityZero": 0.06081006262521797
+    },
+    {
+      "lambda": 2.825,
+      "probabilityZero": 0.05930865682943872
+    },
+    {
+      "lambda": 2.85,
+      "probabilityZero": 0.057844320874838456
+    },
+    {
+      "lambda": 2.875,
+      "probabilityZero": 0.05641613950377735
+    },
+    {
+      "lambda": 2.9,
+      "probabilityZero": 0.05502322005640723
+    },
+    {
+      "lambda": 2.925,
+      "probabilityZero": 0.053664691912730135
+    },
+    {
+      "lambda": 2.95,
+      "probabilityZero": 0.05233970594843238
+    },
+    {
+      "lambda": 2.975,
+      "probabilityZero": 0.051047434004154395
+    },
+    {
+      "lambda": 3.0,
+      "probabilityZero": 0.049787068367863944
+    },
+    {
+      "lambda": 3.025,
+      "probabilityZero": 0.048557821270009974
+    },
+    {
+      "lambda": 3.05,
+      "probabilityZero": 0.04735892439114093
+    },
+    {
+      "lambda": 3.075,
+      "probabilityZero": 0.0461896283816801
+    },
+    {
+      "lambda": 3.1,
+      "probabilityZero": 0.0450492023935578
+    },
+    {
+      "lambda": 3.125,
+      "probabilityZero": 0.04393693362340742
+    },
+    {
+      "lambda": 3.15,
+      "probabilityZero": 0.04285212686704019
+    },
+    {
+      "lambda": 3.175,
+      "probabilityZero": 0.04179410408491992
+    },
+    {
+      "lambda": 3.2,
+      "probabilityZero": 0.04076220397836621
+    },
+    {
+      "lambda": 3.225,
+      "probabilityZero": 0.039755781576221304
+    },
+    {
+      "lambda": 3.25,
+      "probabilityZero": 0.03877420783172201
+    },
+    {
+      "lambda": 3.275,
+      "probabilityZero": 0.03781686922932508
+    },
+    {
+      "lambda": 3.3,
+      "probabilityZero": 0.036883167401240015
+    },
+    {
+      "lambda": 3.325,
+      "probabilityZero": 0.035972518753429654
+    },
+    {
+      "lambda": 3.35,
+      "probabilityZero": 0.035084354100845025
+    },
+    {
+      "lambda": 3.375,
+      "probabilityZero": 0.03421811831166603
+    },
+    {
+      "lambda": 3.4,
+      "probabilityZero": 0.03337326996032608
+    },
+    {
+      "lambda": 3.425,
+      "probabilityZero": 0.03254928098910343
+    },
+    {
+      "lambda": 3.45,
+      "probabilityZero": 0.03174563637806794
+    },
+    {
+      "lambda": 3.475,
+      "probabilityZero": 0.030961833823176882
+    },
+    {
+      "lambda": 3.5,
+      "probabilityZero": 0.0301973834223185
+    },
+    {
+      "lambda": 3.525,
+      "probabilityZero": 0.02945180736910729
+    },
+    {
+      "lambda": 3.55,
+      "probabilityZero": 0.028724639654239433
+    },
+    {
+      "lambda": 3.575,
+      "probabilityZero": 0.028015425774221808
+    },
+    {
+      "lambda": 3.6,
+      "probabilityZero": 0.02732372244729256
+    },
+    {
+      "lambda": 3.625,
+      "probabilityZero": 0.026649097336355485
+    },
+    {
+      "lambda": 3.65,
+      "probabilityZero": 0.025991128778755347
+    },
+    {
+      "lambda": 3.675,
+      "probabilityZero": 0.025349405522724945
+    },
+    {
+      "lambda": 3.7,
+      "probabilityZero": 0.024723526470339388
+    },
+    {
+      "lambda": 3.725,
+      "probabilityZero": 0.024113100426816865
+    },
+    {
+      "lambda": 3.75,
+      "probabilityZero": 0.023517745856009107
+    },
+    {
+      "lambda": 3.775,
+      "probabilityZero": 0.02293709064192893
+    },
+    {
+      "lambda": 3.8,
+      "probabilityZero": 0.0223707718561656
+    },
+    {
+      "lambda": 3.825,
+      "probabilityZero": 0.021818435531042762
+    },
+    {
+      "lambda": 3.85,
+      "probabilityZero": 0.02127973643837717
+    },
+    {
+      "lambda": 3.875,
+      "probabilityZero": 0.020754337873699742
+    },
+    {
+      "lambda": 3.9,
+      "probabilityZero": 0.02024191144580439
+    },
+    {
+      "lambda": 3.925,
+      "probabilityZero": 0.01974213687149278
+    },
+    {
+      "lambda": 3.95,
+      "probabilityZero": 0.01925470177538692
+    },
+    {
+      "lambda": 3.975,
+      "probabilityZero": 0.0187793014946844
+    },
+    {
+      "lambda": 4.0,
+      "probabilityZero": 0.01831563888873418
+    },
+    {
+      "lambda": 4.025,
+      "probabilityZero": 0.017863424153314034
+    },
+    {
+      "lambda": 4.05,
+      "probabilityZero": 0.017422374639493515
+    },
+    {
+      "lambda": 4.075,
+      "probabilityZero": 0.016992214676969066
+    },
+    {
+      "lambda": 4.1,
+      "probabilityZero": 0.016572675401761255
+    },
+    {
+      "lambda": 4.125,
+      "probabilityZero": 0.016163494588165874
+    },
+    {
+      "lambda": 4.15,
+      "probabilityZero": 0.015764416484854486
+    },
+    {
+      "lambda": 4.175,
+      "probabilityZero": 0.015375191655021433
+    },
+    {
+      "lambda": 4.2,
+      "probabilityZero": 0.014995576820477703
+    },
+    {
+      "lambda": 4.225,
+      "probabilityZero": 0.014625334709594222
+    },
+    {
+      "lambda": 4.25,
+      "probabilityZero": 0.014264233908999256
+    },
+    {
+      "lambda": 4.275,
+      "probabilityZero": 0.01391204871893762
+    },
+    {
+      "lambda": 4.3,
+      "probabilityZero": 0.013568559012200934
+    },
+    {
+      "lambda": 4.325,
+      "probabilityZero": 0.013233550096540928
+    },
+    {
+      "lambda": 4.35,
+      "probabilityZero": 0.012906812580479873
+    },
+    {
+      "lambda": 4.375,
+      "probabilityZero": 0.012588142242433998
+    },
+    {
+      "lambda": 4.4,
+      "probabilityZero": 0.012277339903068436
+    },
+    {
+      "lambda": 4.425,
+      "probabilityZero": 0.011974211300803622
+    },
+    {
+      "lambda": 4.45,
+      "probabilityZero": 0.011678566970395442
+    },
+    {
+      "lambda": 4.475,
+      "probabilityZero": 0.011390222124513377
+    },
+    {
+      "lambda": 4.5,
+      "probabilityZero": 0.011108996538242306
+    },
+    {
+      "lambda": 4.525,
+      "probabilityZero": 0.010834714436436152
+    },
+    {
+      "lambda": 4.55,
+      "probabilityZero": 0.010567204383852655
+    },
+    {
+      "lambda": 4.575,
+      "probabilityZero": 0.01030629917800074
+    },
+    {
+      "lambda": 4.6,
+      "probabilityZero": 0.010051835744633586
+    },
+    {
+      "lambda": 4.625,
+      "probabilityZero": 0.009803655035821828
+    },
+    {
+      "lambda": 4.65,
+      "probabilityZero": 0.009561601930543505
+    },
+    {
+      "lambda": 4.675,
+      "probabilityZero": 0.009325525137728326
+    },
+    {
+      "lambda": 4.7,
+      "probabilityZero": 0.009095277101695816
+    },
+    {
+      "lambda": 4.725,
+      "probabilityZero": 0.008870713909928258
+    },
+    {
+      "lambda": 4.75,
+      "probabilityZero": 0.008651695203120634
+    },
+    {
+      "lambda": 4.775,
+      "probabilityZero": 0.00843808408745153
+    },
+    {
+      "lambda": 4.8,
+      "probabilityZero": 0.00822974704902003
+    },
+    {
+      "lambda": 4.825,
+      "probabilityZero": 0.008026553870395154
+    },
+    {
+      "lambda": 4.85,
+      "probabilityZero": 0.007828377549225773
+    },
+    {
+      "lambda": 4.875,
+      "probabilityZero": 0.007635094218859962
+    },
+    {
+      "lambda": 4.9,
+      "probabilityZero": 0.007446583070924338
+    },
+    {
+      "lambda": 4.925,
+      "probabilityZero": 0.0072627262798148915
+    },
+    {
+      "lambda": 4.95,
+      "probabilityZero": 0.0070834089290521185
+    },
+    {
+      "lambda": 4.975,
+      "probabilityZero": 0.006908518939454532
+    },
+    {
+      "lambda": 5.0,
+      "probabilityZero": 0.006737946999085467
+    }
+  ],
+  "anchorTable": [
+    {
+      "expectedTargetMoleculesPerAliquot": 0,
+      "probabilityZero": 1.0,
+      "displayPercent": "100.0%"
+    },
+    {
+      "expectedTargetMoleculesPerAliquot": 0.5,
+      "probabilityZero": 0.6065306597126334,
+      "displayPercent": "60.7%"
+    },
+    {
+      "expectedTargetMoleculesPerAliquot": 1,
+      "probabilityZero": 0.36787944117144233,
+      "displayPercent": "36.8%"
+    },
+    {
+      "expectedTargetMoleculesPerAliquot": 2,
+      "probabilityZero": 0.1353352832366127,
+      "displayPercent": "13.5%"
+    },
+    {
+      "expectedTargetMoleculesPerAliquot": 3,
+      "probabilityZero": 0.049787068367863944,
+      "displayPercent": "5.0%"
+    },
+    {
+      "expectedTargetMoleculesPerAliquot": 4,
+      "probabilityZero": 0.01831563888873418,
+      "displayPercent": "1.8%"
+    },
+    {
+      "expectedTargetMoleculesPerAliquot": 5,
+      "probabilityZero": 0.006737946999085467,
+      "displayPercent": "0.7%"
+    }
+  ],
+  "highlight": {
+    "lambda": 1,
+    "probabilityZero": 0.36787944117144233,
+    "displayPercent": "36.8%",
+    "ownerApproximation": "about37%",
+    "notAClinicalFalseNegativeRate": true
+  },
+  "inset": {
+    "label": "Possible counts, not frequencies",
+    "possibleCounts": [
+      0,
+      1,
+      2
+    ],
+    "equalAliquotOutlines": true,
+    "notObservedAliquots": true,
+    "equalDrawingsNotEqualProbabilities": true,
+    "allCountTokensRemainEnclosed": true
+  },
+  "checks": {
+    "atLambdaOneMatchesExpMinusOne": true,
+    "monotonicZeroProbability": true,
+    "probabilitiesInUnitInterval": true,
+    "notAssayLODOrClinicalSensitivity": true
+  }
+}
+```
+END FILE
+
+FILE brief-independent-review.json
+SHA256 4f890752fe409f643e32464a54fcc4d398df36de1bd32d7ec7211c00fca234c8
+```json
+{
+  "schemaVersion": 1,
+  "id": "next-gap-005",
+  "reviewer": "multiomics",
+  "verdict": "PASS_FOR_SCRATCH_RENDER",
+  "passed": true,
+  "status": "Independent source/math/composition approval only; no actual rendered artwork or integration acceptance.",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md",
+  "currentOwnerSha256": "da3fa7c4c5a572affe0799bc4fbb85b687ca7568a7e5b003b706b656f267fac5",
+  "briefSHA256": "0e70835fb4e027cc34c978854b1546e97e1d7210db4c788e2f1f7aa8f1acc10a",
+  "specificationSHA256": "83fa85fb582c916d3823159de101aa895ac53974be93a7e1c93b461636601e3b",
+  "dataSHA256": "2968c15a8ccf983265798f608942c9609ad29e64662a0e23b1711b998a6aefcd",
+  "metadataAndReadScope": {
+    "publicMetadataBeforeBody": true,
+    "fullCurrentPublicOwnerRead": true,
+    "protectedSourceBodiesRead": false,
+    "reviewed": "pending",
+    "reviewed_by": ""
+  },
+  "checks": {
+    "all201CurvePointsMatchIndependentExpCalculation": true,
+    "all7AnchorValuesAndOneDecimalPercentagesMatch": true,
+    "curveStrictlyDecreasesFromLambda0To5": true,
+    "lambdaZeroIsDegenerateModelCase": true,
+    "oneTo36_8PercentMatchesRetainedToy": true,
+    "fixedVolumeSymbolicNotInventedClinicalVolume": true,
+    "possibleCountInsetIsNotFrequencyData": true,
+    "originalMoleculesSeparateFromAmplifiedReads": true,
+    "unchangedFourGatesAndPracticeRequired": true
+  },
+  "sourceAccess": [
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366j.htm",
+      "actualDepth": "Fresh complete short distribution-formula/statistics text through web open; PMF and mean independently read. No plot pixels or other handbook section review.",
+      "supports": "Zero-count equation derived by n=0 substitution. The handbook frames event counts; spatial molecule sampling is the explicitly assumed toy extension, not empirically validated ctDNA performance."
+    },
+    {
+      "url": "https://www.fda.gov/media/183874/download",
+      "actualDepth": "Fresh indexed official PDF: scope introduction and selected IV.B–C sampling/analytical-validation lines343–436. Native PDF hash from the author acquisition independently verified; no whole-guidance review.",
+      "supports": "Sampling context and collection-to-call validation remain distinct; no clinical rate or individual posterior imported."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27018799/",
+      "actualDepth": "Fresh official page access and full primary abstract from the author-acquired official PubMed XML; hash independently verified. No full Methods/Results or supplement review.",
+      "supports": "Finite cfDNA input and artifacts are distinct limits in the method study. No quantitative method performance copied into chart."
+    }
+  ],
+  "compositionReview": "The single exact zero-probability curve, specified fixed evaluated volume, mandatory lambda1 anchor and non-frequency optional0/1/2 inset directly teach the frozen chance-zero task. Core axis/anchor text must remain phone-readable, with all actual output coordinates independently checked later.",
+  "guardrails": [
+    "State the fictional Poisson/independent-molecule assumptions and sampling volume. An average of one available molecule permits chance zeros; sampled absence, assay detection and biological absence are different.",
+    "One fixed evaluated aliquot volume V is held constant. Its numeric volume, draw volume and concentration are unspecified; no supplied clinical volume is invented.",
+    "The spatial Poisson model/independent random molecule assumption is explicit fiction; no correlated clustering or cross-draw independence inferred.",
+    "37% is an idealized zero-target-count probability, not clinical false-negative rate, assay LoD, negative predictive value or individual cancer probability.",
+    "Original target molecules are separate from amplified reads; no universal reads-to-input conversion.",
+    "No ctDNA-negative=no-cancer inference. Existing assay quality and input-dependent validation remain intact.",
+    "Different curve positions are hypothetical mean counts in the same fixed-volume aliquot, not chronological progression or blood-volume instruction.",
+    "Possible-count pictures are not data or equal probabilities. If omitted to improve layout, exact alt/caption must be renewed before freeze."
+  ],
+  "proposedAlt": "A fictional fixed-volume sampling model plots the chance of zero original target molecules against the expected target-molecule count per evaluated aliquot. The curve is exp(−lambda); at an expected count of one, the chance of zero is 36.8%. Equal-volume illustrative aliquots show possible counts of zero, one and two, not observed frequencies. Recovery, assay detection and cancer status are separate questions.",
+  "proposedCaption": "An average of one is not a guaranteed molecule. In this fictional Poisson model, independent random counts in equal evaluated aliquots of one fixed volume give P(zero) = exp(−1) ≈ 36.8%. No clinical volume or assay performance is implied. More reads cannot recover an original molecule absent from the aliquot; recovery and calling rules are additional gates. This is not a clinical false-negative rate, and a negative blood test does not establish absence of cancer.",
+  "requiredNextGates": [
+    "Original editable renderer/output/data/font/environment custody and fresh byte-exact reproduction.",
+    "Independent actual curve/anchor/axes/inset geometry and both-theme phone/desktop pixels.",
+    "Exact later insertion inverse and current owner/native hashes.",
+    "Separate both-site release and accounting; no credit from this approval."
+  ],
+  "findings": [],
+  "custody": {
+    "hashes": [
+      {
+        "path": "/private/tmp/education-visual-gap-production-wave1/blood-sampling/brief.json",
+        "sha256": "0e70835fb4e027cc34c978854b1546e97e1d7210db4c788e2f1f7aa8f1acc10a",
+        "bytes": 20108
+      },
+      {
+        "path": "/private/tmp/education-visual-gap-production-wave1/blood-sampling/editable-chart-specification-draft.txt",
+        "sha256": "83fa85fb582c916d3823159de101aa895ac53974be93a7e1c93b461636601e3b",
+        "bytes": 3260
+      },
+      {
+        "path": "/private/tmp/education-visual-gap-production-wave1/blood-sampling/chart-data-draft.json",
+        "sha256": "2968c15a8ccf983265798f608942c9609ad29e64662a0e23b1711b998a6aefcd",
+        "bytes": 19052
+      },
+      {
+        "path": "/private/tmp/education-visual-gap-production-wave1/blood-sampling/brief-frozen-manifest.json",
+        "sha256": "72a6273e35cbd48d7ea5da4aa5057eb3b69ce622c255ff9f0790819d084f01d6",
+        "bytes": 2901
+      },
+      {
+        "path": "/Users/jasonlaster/.codex/worktrees/progress-scan-cleanup/diana-tnbc/obsidian/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md",
+        "sha256": "da3fa7c4c5a572affe0799bc4fbb85b687ca7568a7e5b003b706b656f267fac5",
+        "bytes": 7031
+      },
+      {
+        "path": "/tmp/education-visual-gap-production-wave1/blood-sampling/source-access/nist-poisson.html",
+        "sha256": "c4d25c8212cf1da242a1f8e57378af0f679a4080120e7ca151d5ded65e01d862",
+        "bytes": 9497
+      },
+      {
+        "path": "/tmp/education-visual-gap-production-wave1/blood-sampling/source-access/fda-ctdna-2024.pdf",
+        "sha256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+        "bytes": 310689
+      },
+      {
+        "path": "/tmp/education-visual-gap-production-wave1/blood-sampling/source-access/newman-2016-pubmed.xml",
+        "sha256": "c1edaa3a4288b07c53b0edb439293d6539d6a6e3abbbf2680561d4e6ced6dfcf",
+        "bytes": 31133
+      }
+    ]
+  },
+  "limitations": [
+    "Planning approval does not certify render geometry, reader delivery, source-fit adequacy or actual human review.",
+    "The Poisson model assumes independent random molecule inclusion at a fixed evaluated volume; it supplies neither an empirical ctDNA false-negative rate nor cancer-absence inference.",
+    "The author full-paper access failures remain preserved; no successful fulltext review is inferred."
+  ]
+}
+```
+END FILE
+
+FILE requirements.txt
+SHA256 2461546ad02c7198e5d5b710fa6145950613f7d5609596780b9338d981e5a913
+```text
+matplotlib==3.10.8
+numpy==2.5.4
+```
+END FILE
+

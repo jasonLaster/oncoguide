@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="1360pt" viewBox="0 0 576 1360" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>An average is not a guarantee</title>
+ <desc>An explicitly fictional fixed-volume independent-random sampling model: expected original target count one permits a zero count with probability exp(-1), about 36.8%. Possible count sketches are not observed frequencies or equal probabilities.</desc>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Original reproducible fictional Poisson zero-count chart</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1360 
+L 576 1360 
+L 576 0 
+L 0 0 
+z
+" style="fill: #fbf8f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 187.2 580.578471 
+C 188.791219 580.578471 190.317479 581.210669 191.442641 582.33583 
+C 192.567802 583.460992 193.2 584.987252 193.2 586.578471 
+C 193.2 588.16969 192.567802 589.69595 191.442641 590.821112 
+C 190.317479 591.946273 188.791219 592.578471 187.2 592.578471 
+C 185.608781 592.578471 184.082521 591.946273 182.957359 590.821112 
+C 181.832198 589.69595 181.2 588.16969 181.2 586.578471 
+C 181.2 584.987252 181.832198 583.460992 182.957359 582.33583 
+C 184.082521 581.210669 185.608781 580.578471 187.2 580.578471 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #966721; stroke: #fbf8f2; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 288 350 
+L 534 350 
+Q 546 350 546 362 
+L 546 484 
+Q 546 496 534 496 
+L 288 496 
+Q 276 496 276 484 
+L 276 362 
+Q 276 350 288 350 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #fffdf8; stroke: #afbec5; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 78 985 
+L 166 985 
+Q 180 985 180 999 
+L 180 1103 
+Q 180 1117 166 1117 
+L 78 1117 
+Q 64 1117 64 1103 
+L 64 999 
+Q 64 985 78 985 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #fffdf8; stroke: #516a7c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 244 985 
+L 332 985 
+Q 346 985 346 999 
+L 346 1103 
+Q 346 1117 332 1117 
+L 244 1117 
+Q 230 1117 230 1103 
+L 230 999 
+Q 230 985 244 985 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #fffdf8; stroke: #516a7c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 288 1042 
+C 290.386828 1042 292.676219 1042.948297 294.363961 1044.636039 
+C 296.051703 1046.323781 297 1048.613172 297 1051 
+C 297 1053.386828 296.051703 1055.676219 294.363961 1057.363961 
+C 292.676219 1059.051703 290.386828 1060 288 1060 
+C 285.613172 1060 283.323781 1059.051703 281.636039 1057.363961 
+C 279.948297 1055.676219 279 1053.386828 279 1051 
+C 279 1048.613172 279.948297 1046.323781 281.636039 1044.636039 
+C 283.323781 1042.948297 285.613172 1042 288 1042 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #2b7b86; stroke: #213746; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 410 985 
+L 498 985 
+Q 512 985 512 999 
+L 512 1103 
+Q 512 1117 498 1117 
+L 410 1117 
+Q 396 1117 396 1103 
+L 396 999 
+Q 396 985 410 985 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #fffdf8; stroke: #516a7c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 434 1042 
+C 436.386828 1042 438.676219 1042.948297 440.363961 1044.636039 
+C 442.051703 1046.323781 443 1048.613172 443 1051 
+C 443 1053.386828 442.051703 1055.676219 440.363961 1057.363961 
+C 438.676219 1059.051703 436.386828 1060 434 1060 
+C 431.613172 1060 429.323781 1059.051703 427.636039 1057.363961 
+C 425.948297 1055.676219 425 1053.386828 425 1051 
+C 425 1048.613172 425.948297 1046.323781 427.636039 1044.636039 
+C 429.323781 1042.948297 431.613172 1042 434 1042 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #2b7b86; stroke: #213746; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 474 1042 
+C 476.386828 1042 478.676219 1042.948297 480.363961 1044.636039 
+C 482.051703 1046.323781 483 1048.613172 483 1051 
+C 483 1053.386828 482.051703 1055.676219 480.363961 1057.363961 
+C 478.676219 1059.051703 476.386828 1060 474 1060 
+C 471.613172 1060 469.323781 1059.051703 467.636039 1057.363961 
+C 465.948297 1055.676219 465 1053.386828 465 1051 
+C 465 1048.613172 465.948297 1046.323781 467.636039 1044.636039 
+C 469.323781 1042.948297 471.613172 1042 474 1042 
+z
+" clip-path="url(#pcd40c3fcf1)" style="fill: #2b7b86; stroke: #213746; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 96 765 
+L 552 765 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #d9e1e3; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 96 668 
+L 552 668 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #d9e1e3; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 96 571 
+L 552 571 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #d9e1e3; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 96 474 
+L 552 474 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #d9e1e3; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 96 377 
+L 552 377 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #d9e1e3; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 96 280 
+L 552 280 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #d9e1e3; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 96 280 
+L 96 765 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 96 765 
+L 552 765 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 96 765 
+L 96 773 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 187.2 765 
+L 187.2 773 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 278.4 765 
+L 278.4 773 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 369.6 765 
+L 369.6 773 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 460.8 765 
+L 460.8 773 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 552 765 
+L 552 773 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="poisson-zero-curve">
+    <path d="M 96 280 
+L 98.28 291.974693 
+L 100.56 303.653729 
+L 102.84 315.044409 
+L 105.12 326.153852 
+L 107.4 336.989002 
+L 109.68 347.556631 
+L 111.96 357.863345 
+L 114.24 367.915585 
+L 116.52 377.719634 
+L 118.8 387.28162 
+L 121.08 396.60752 
+L 123.36 405.703163 
+L 125.64 414.574233 
+L 127.92 423.226276 
+L 130.2 431.6647 
+L 132.48 439.894778 
+L 134.76 447.921654 
+L 137.04 455.750346 
+L 139.32 463.385748 
+L 141.6 470.83263 
+L 143.88 478.095648 
+L 146.16 485.179342 
+L 148.44 492.088139 
+L 150.72 498.826356 
+L 153 505.398207 
+L 155.28 511.807798 
+L 157.56 518.059136 
+L 159.84 524.156128 
+L 162.12 530.102584 
+L 164.4 535.902222 
+L 166.68 541.558666 
+L 168.96 547.075452 
+L 171.24 552.456029 
+L 173.52 557.703758 
+L 175.8 562.82192 
+L 178.08 567.813715 
+L 180.36 572.682262 
+L 182.64 577.430604 
+L 184.92 582.061709 
+L 187.2 586.578471 
+L 189.48 590.983714 
+L 191.76 595.280192 
+L 194.04 599.470589 
+L 196.32 603.557524 
+L 198.6 607.543553 
+L 200.88 611.431167 
+L 203.16 615.222795 
+L 205.44 618.920807 
+L 207.72 622.527515 
+L 210 626.045174 
+L 212.28 629.47598 
+L 214.56 632.82208 
+L 216.84 636.085565 
+L 219.12 639.268474 
+L 221.4 642.372796 
+L 223.68 645.400472 
+L 225.96 648.353395 
+L 228.24 651.23341 
+L 230.52 654.042317 
+L 232.8 656.781872 
+L 235.08 659.453787 
+L 237.36 662.059733 
+L 239.64 664.601337 
+L 241.92 667.080189 
+L 244.2 669.497838 
+L 246.48 671.855794 
+L 248.76 674.155533 
+L 251.04 676.398491 
+L 253.32 678.58607 
+L 255.6 680.719637 
+L 257.88 682.800527 
+L 260.16 684.830039 
+L 262.44 686.809443 
+L 264.72 688.739974 
+L 267 690.622841 
+L 269.28 692.45922 
+L 271.56 694.250258 
+L 273.84 695.997075 
+L 276.12 697.700764 
+L 278.4 699.362388 
+L 280.68 700.982986 
+L 282.96 702.563572 
+L 285.24 704.105133 
+L 287.52 705.608632 
+L 289.8 707.07501 
+L 292.08 708.505183 
+L 294.36 709.900045 
+L 296.64 711.260468 
+L 298.92 712.587302 
+L 301.2 713.881376 
+L 303.48 715.143499 
+L 305.76 716.374461 
+L 308.04 717.57503 
+L 310.32 718.745956 
+L 312.6 719.887973 
+L 314.88 721.001793 
+L 317.16 722.088112 
+L 319.44 723.147611 
+L 321.72 724.18095 
+L 324 725.188776 
+L 326.28 726.171718 
+L 328.56 727.130392 
+L 330.84 728.065396 
+L 333.12 728.977315 
+L 335.4 729.866718 
+L 337.68 730.734162 
+L 339.96 731.580188 
+L 342.24 732.405326 
+L 344.52 733.210092 
+L 346.8 733.994987 
+L 349.08 734.760504 
+L 351.36 735.50712 
+L 353.64 736.235301 
+L 355.92 736.945504 
+L 358.2 737.638172 
+L 360.48 738.313738 
+L 362.76 738.972624 
+L 365.04 739.615243 
+L 367.32 740.241995 
+L 369.6 740.853272 
+L 371.88 741.449457 
+L 374.16 742.030922 
+L 376.44 742.59803 
+L 378.72 743.151137 
+L 381 743.690587 
+L 383.28 744.216718 
+L 385.56 744.72986 
+L 387.84 745.230331 
+L 390.12 745.718446 
+L 392.4 746.194509 
+L 394.68 746.658818 
+L 396.96 747.111664 
+L 399.24 747.553328 
+L 401.52 747.984088 
+L 403.8 748.404213 
+L 406.08 748.813964 
+L 408.36 749.213599 
+L 410.64 749.603366 
+L 412.92 749.983511 
+L 415.2 750.354269 
+L 417.48 750.715873 
+L 419.76 751.06855 
+L 422.04 751.412518 
+L 424.32 751.747995 
+L 426.6 752.075188 
+L 428.88 752.394303 
+L 431.16 752.705538 
+L 433.44 753.00909 
+L 435.72 753.305146 
+L 438 753.593893 
+L 440.28 753.875511 
+L 442.56 754.150176 
+L 444.84 754.418059 
+L 447.12 754.679328 
+L 449.4 754.934146 
+L 451.68 755.182673 
+L 453.96 755.425064 
+L 456.24 755.66147 
+L 458.52 755.892039 
+L 460.8 756.116915 
+L 463.08 756.336239 
+L 465.36 756.550148 
+L 467.64 756.758776 
+L 469.92 756.962252 
+L 472.2 757.160705 
+L 474.48 757.354258 
+L 476.76 757.543032 
+L 479.04 757.727145 
+L 481.32 757.906713 
+L 483.6 758.081847 
+L 485.88 758.252656 
+L 488.16 758.419249 
+L 490.44 758.581728 
+L 492.72 758.740196 
+L 495 758.894751 
+L 497.28 759.04549 
+L 499.56 759.192508 
+L 501.84 759.335895 
+L 504.12 759.475742 
+L 506.4 759.612137 
+L 508.68 759.745163 
+L 510.96 759.874906 
+L 513.24 760.001445 
+L 515.52 760.12486 
+L 517.8 760.245227 
+L 520.08 760.362623 
+L 522.36 760.47712 
+L 524.64 760.588791 
+L 526.92 760.697704 
+L 529.2 760.803928 
+L 531.48 760.907529 
+L 533.76 761.008573 
+L 536.04 761.107121 
+L 538.32 761.203237 
+L 540.6 761.296979 
+L 542.88 761.388407 
+L 545.16 761.477578 
+L 547.44 761.564547 
+L 549.72 761.649368 
+L 552 761.732096 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #2b7b86; stroke-width: 3.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 96 586.578471 
+L 187.2 586.578471 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke-dasharray: 8,6.4; stroke-dashoffset: 0; stroke: #966721; stroke-width: 1.6"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 187.2 586.578471 
+L 187.2 765 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke-dasharray: 8,6.4; stroke-dashoffset: 0; stroke: #966721; stroke-width: 1.6"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 276 493 
+L 194.2 581.578471 
+" clip-path="url(#pcd40c3fcf1)" style="fill: none; stroke: #516a7c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 36px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="49.768125" transform="rotate(-0 24 49.768125)">An average is not</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 36px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="95.295625" transform="rotate(-0 24 95.295625)">a guarantee</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="146.610312" transform="rotate(-0 24 146.610312)">Fictional sampling toy</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="182.47125" transform="rotate(-0 24 182.47125)">Same fixed-volume aliquot</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="228.47125" transform="rotate(-0 24 228.47125)">P(zero) = exp(−λ)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="265.610312" transform="rotate(-0 24 265.610312)">Chance of zero</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: end; fill: #213746" x="80" y="770.17875" transform="rotate(-0 80 770.17875)">0%</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: end; fill: #213746" x="80" y="673.17875" transform="rotate(-0 80 673.17875)">20%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: end; fill: #213746" x="80" y="576.17875" transform="rotate(-0 80 576.17875)">40%</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: end; fill: #213746" x="80" y="479.17875" transform="rotate(-0 80 479.17875)">60%</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: end; fill: #213746" x="80" y="382.17875" transform="rotate(-0 80 382.17875)">80%</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: end; fill: #213746" x="80" y="285.17875" transform="rotate(-0 80 285.17875)">100%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="96" y="801.17875" transform="rotate(-0 96 801.17875)">0</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="187.2" y="801.17875" transform="rotate(-0 187.2 801.17875)">1</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="278.4" y="801.17875" transform="rotate(-0 278.4 801.17875)">2</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="369.6" y="801.17875" transform="rotate(-0 369.6 801.17875)">3</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="460.8" y="801.17875" transform="rotate(-0 460.8 801.17875)">4</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="552" y="801.17875" transform="rotate(-0 552 801.17875)">5</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="290" y="386.125" transform="rotate(-0 290 386.125)">Average 1</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="290" y="425.17875" transform="rotate(-0 290 425.17875)">Chance of zero</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 34px; font-family: 'Arial'; text-anchor: start; fill: #966721" x="290" y="468.336563" transform="rotate(-0 290 468.336563)">36.8%</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="288" y="846.17875" transform="rotate(-0 288 846.17875)">Expected original target molecules</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="288" y="882.47125" transform="rotate(-0 288 882.47125)">per evaluated aliquot (λ)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="947.927187" transform="rotate(-0 24 947.927187)">Possible counts, not frequencies</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="122" y="1152.041875" transform="rotate(-0 122 1152.041875)">0</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="288" y="1152.041875" transform="rotate(-0 288 1152.041875)">1</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="454" y="1152.041875" transform="rotate(-0 454 1152.041875)">2</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: middle; fill: #213746" x="288" y="1201.2725" transform="rotate(-0 288 1201.2725)">Equal drawings ≠ equal probabilities</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="1268.927187" transform="rotate(-0 24 1268.927187)">Sampling only</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 24px; font-family: 'Arial'; text-anchor: start; fill: #213746" x="24" y="1309.47125" transform="rotate(-0 24 1309.47125)">Not a clinical false-negative rate</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcd40c3fcf1">
+   <rect x="0" y="0" width="576" height="1360"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -30,6 +30,11 @@ Imagine editing a long draft into a usable message. You remove some sections and
 
 ## How it works
 
+<div class="my-6">
+  <img src="./images/which-rna-pieces-are-joined-v1-light.svg" alt="A precursor RNA contains A, B and C regions separated by gray introns. Two processed RNA alternatives retain A-B-C or A-C in order, with hatched untranslated ends. An example sequencing read crosses the A-C junction while protein consequence remains unknown." data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">These are alternative RNA products from the same fictional gene, not two products from one RNA molecule. Introns are removed and retained exons joined; striped exon ends illustrate untranslated sequence. A junction read supports this join, not a complete isoform, protein effect, tumor origin or benefit. Other processing outcomes and steps are omitted.</p>
+</div>
+
 A gene is copied from deoxyribonucleic acid (DNA) into an initial RNA transcript. **Exons** are regions retained in a specified processed transcript. **Introns** are intervening regions removed by splicing. Exons can include untranslated sequence, so “exon” does not mean “all of this becomes protein.” [NHGRI exon](https://www.genome.gov/genetics-glossary/Exon), [NHGRI intron](https://www.genome.gov/genetics-glossary/Intron).
 
 For many human messages, a **spliceosome**, a complex of RNA and proteins, recognizes splice boundaries and joins the retained sections. A **donor** marks the start of an intron and an **acceptor** its end. Other sequence cues and regulatory proteins also affect the choice. The familiar boundary labels do not describe the entire process. [From DNA to RNA](https://www.ncbi.nlm.nih.gov/books/NBK26887/).
