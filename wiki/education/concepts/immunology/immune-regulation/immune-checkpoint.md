@@ -33,6 +33,14 @@ A useful response needs controls as well as an accelerator. The familiar “brak
 
 **Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)** shares CD80 and CD86 binding partners with CD28. It can limit costimulation by competing for these partners and by capturing and removing them from another cell. The latter mechanism is called *trans-endocytosis*. It changes what supporting signals the neighboring cell can offer.
 
+<img src="./images/checkpoint-contact-capture-v1-light.png" alt="Three scenes compare PD-1 regulation of CD28 signaling inside a T cell with CTLA-4 contact and subsequent capture of CD86 from a neighboring cell into a T-cell vesicle" width="1024" height="1536" data-theme-pair>
+
+*PD-1 can reduce signaling within a responding cell; CTLA-4 can remove supporting ligands from its neighbor. Selected experimental mechanisms; illustrated molecule counts are schematic.*
+
+Source scope beside the visual: the illustration uses PD-L1 and CD86 as examples. Other partners and regulatory mechanisms remain in the surrounding text. The PD-1/CD28 relationship is a symbolic summary of biochemical and cell experiments, not proof of a universal CD28-only effect. The capture sequence is not a drug-blockade diagram or a clinical prediction.
+
+Mechanism sources: [Hui et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28280247/) for PD-1/CD28 signaling and [Qureshi et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3198051/) for CTLA-4 ligand capture.
+
 [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) is the human name for major histocompatibility complex molecules.
 
 Other named checkpoints are not interchangeable versions of PD-1:

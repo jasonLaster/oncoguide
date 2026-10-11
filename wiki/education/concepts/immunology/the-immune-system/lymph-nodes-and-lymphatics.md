@@ -51,6 +51,13 @@ flowchart TD
 
 *Material and lymphocytes have different entry routes. Meeting in a node does not demonstrate successful priming.*
 
+<!-- Scratch figure proposal; independent native/theme/reader review pending. Preserve original Mermaid. -->
+<img src="./images/lymph-node-entry-routes-v3-20261011-light.png" alt="A lymph-node cutaway shows tissue material arriving in afferent lymph and entering the subcapsular sinus, separate B-cell follicles and a T-cell region, an artery connected through a schematic capillary branch to an HEV and outgoing vein, a naive lymphocyte crossing from HEV blood into node tissue, and separate efferent lymph continuing toward further lymphatics. An enlarged HEV view keeps red cells in blood and shows the lymphocyte crossing into tissue." width="1024" height="1536" data-theme-pair>
+
+*Tissue material can arrive in afferent lymph, while naive lymphocytes commonly enter from blood through high endothelial venules (HEVs). The coral artery, capillary branch, HEV and outgoing vein show one simplified connected blood route; efferent lymph leaves through a separate vessel and continues through further lymphatics before returning to blood downstream. Regions, colors and counts are schematic. Drainage does not prove cancer involvement, and arrival does not prove successful priming.*
+
+Blood-circuit source: [Brulois et al., 2020](https://www.nature.com/articles/s41467-020-17291-5), selected Introduction, Results and Figure 2 caption; this illustration simplifies one branch of the blood network.
+
 ## Why it matters in cancer
 
 Tumor material can reach a node without a successful antitumor response. The node may offer a [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) setting, but relevant display, receptors and supporting signals still matter.

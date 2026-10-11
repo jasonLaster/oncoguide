@@ -43,6 +43,10 @@ A small, selected study of acquired resistance after PD-1 blockade examined four
 
 In an engineered melanoma model from that study, JAK1- or JAK2-deficient cells still elicited recognition by the tested antigen-specific [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor). They resisted particular interferon-induced growth effects. Thus a JAK defect does **not automatically mean all baseline HLA display or direct T-cell recognition is absent**. The series is mechanistic evidence in melanoma, not a frequency estimate for all cancers.
 
+<img src="./images/immune-escape-baseline-induction-v1-light.png" alt="Three stacked panels compare baseline surface HLA-I in control and JAK2-deficient fictional cultures, an increase only in control after matched IFNγ exposure, and unanswered T-cell recognition, tissue-access and killing-test questions." width="1024" height="1536" data-theme-pair>
+
+*In this fictional comparison, surface human leukocyte antigen class I (HLA-I) remains present, but the Janus kinase 2 (JAK2)-deficient model does not increase display after interferon gamma (IFNγ). Symbol counts are schematic, not measurements. Selected melanoma experiments support separating inducibility from recognition; access and killing still need their own tests. Neither baseline HLA abundance nor this stimulus comparison proves display of a particular target peptide.*
+
 ## Why it matters in cancer
 
 Combining interventions may address distinct bottlenecks, share a failure point or add toxicity. A diagram of complementary mechanisms does not establish benefit or a safe regimen. HLA-independent recognition also retains target, access and functional requirements.
