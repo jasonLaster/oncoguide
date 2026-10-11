@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1560" viewBox="0 0 600 1560" role="img" aria-labelledby="title desc">
+<title id="title">Equal counts, different CPM and TPM denominators</title>
+<desc id="desc">One fictional two-transcript full-length library. A and B each have 100 assigned fragments, with lengths 1 and 2 kilobases and rates 100 and 50 fragments per kilobase. Simple CPM is 500,000 each. Toy TPM uses exact two-thirds and one-third, displayed approximately 666,667 and 333,333. Separate unit labels and denominators; no molecule, cell, protein or cross-sample inference.</desc>
+<defs>
+<pattern id="b-hatch" patternUnits="userSpaceOnUse" width="10" height="10">
+<rect width="10" height="10" fill="#9fb9cf"/>
+<path d="M-2,2 L2,-2 M0,10 L10,0 M8,12 L12,8" fill="none" stroke="#395b75" stroke-width="1.2"/>
+</pattern></defs>
+<rect x="0" y="0" width="600" height="1560" rx="0" fill="#fbf7ef"/>
+<g font-family="Arial, DejaVu Sans, sans-serif">
+<text x="300" y="48" font-size="32" text-anchor="middle" font-weight="700" fill="#26343b">Equal counts, different TPM</text>
+<text x="300" y="88" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">Two-transcript toy</text>
+<text x="300" y="120" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">Uniform sampling; no other biases</text>
+<rect x="24" y="146" width="552" height="416" rx="12" fill="#fffdf8" stroke="#6f7b80" stroke-width="1.5"/>
+<text x="48" y="190" font-size="30" text-anchor="start" font-weight="700" fill="#26343b">1 Start with two transcripts</text>
+<text x="48" y="221" font-size="26" text-anchor="start" font-weight="400" fill="#45545c">Rate = count / length</text>
+<text x="205" y="252" font-size="26" text-anchor="middle" font-weight="700" fill="#26343b">Count</text>
+<text x="205" y="281" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">fragments</text>
+<text x="351" y="252" font-size="26" text-anchor="middle" font-weight="700" fill="#26343b">Length</text>
+<text x="351" y="281" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">kb</text>
+<text x="487" y="252" font-size="26" text-anchor="middle" font-weight="700" fill="#26343b">Rate</text>
+<text x="487" y="281" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">fragments</text>
+<text x="487" y="311" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">per kb</text>
+<line x1="48" y1="326" x2="552" y2="326" stroke="#6f7b80" stroke-width="1.5"/>
+<rect x="45" y="335" width="50" height="33" rx="4" fill="#9ebda5" stroke="#6f7b80" stroke-width="1.5"/>
+<text x="70" y="359" font-size="28" text-anchor="middle" font-weight="700" fill="#20343b">A</text>
+<text x="205" y="359" font-size="30" text-anchor="middle" font-weight="700" fill="#26343b">100</text>
+<text x="351" y="359" font-size="30" text-anchor="middle" font-weight="700" fill="#26343b">1</text>
+<text x="487" y="359" font-size="30" text-anchor="middle" font-weight="700" fill="#26343b">100</text>
+<rect x="45" y="386" width="50" height="33" rx="4" fill="url(#b-hatch)" stroke="#6f7b80" stroke-width="1.5"/>
+<text x="70" y="410" font-size="28" text-anchor="middle" font-weight="700" fill="#20343b">B</text>
+<text x="205" y="410" font-size="30" text-anchor="middle" font-weight="700" fill="#26343b">100</text>
+<text x="351" y="410" font-size="30" text-anchor="middle" font-weight="700" fill="#26343b">2</text>
+<text x="487" y="410" font-size="30" text-anchor="middle" font-weight="700" fill="#26343b">50</text>
+<rect x="48" y="446" width="504" height="40" rx="5" fill="#e9eee7"/>
+<text x="60" y="474" font-size="26" text-anchor="start" font-weight="700" fill="#26343b">Count total = 200 fragments</text>
+<rect x="48" y="502" width="504" height="40" rx="5" fill="#e9eee7"/>
+<text x="60" y="530" font-size="26" text-anchor="start" font-weight="700" fill="#26343b">Rate total = 150 fragments/kb</text>
+<rect x="24" y="586" width="552" height="402" rx="12" fill="#fffdf8" stroke="#6f7b80" stroke-width="1.5"/>
+<text x="48" y="630" font-size="30" text-anchor="start" font-weight="700" fill="#26343b">2 Counts per million (CPM)</text>
+<text x="48" y="664" font-size="26" text-anchor="start" font-weight="400" fill="#45545c">Count-based scale</text>
+<text x="70" y="729" font-size="28" text-anchor="middle" font-weight="700" fill="#26343b">A</text>
+<text x="144" y="696" font-size="30" text-anchor="start" font-weight="700" fill="#26343b">500,000</text>
+<rect x="144" y="704" width="204" height="28" rx="0" fill="#9ebda5" stroke="#6f7b80" stroke-width="1.5"/>
+<text x="70" y="799" font-size="28" text-anchor="middle" font-weight="700" fill="#26343b">B</text>
+<text x="144" y="766" font-size="30" text-anchor="start" font-weight="700" fill="#26343b">500,000</text>
+<rect x="144" y="774" width="204" height="28" rx="0" fill="url(#b-hatch)" stroke="#6f7b80" stroke-width="1.5"/>
+<line x1="144" y1="839" x2="552" y2="839" stroke="#6f7b80" stroke-width="2"/>
+<line x1="144" y1="839" x2="144" y2="846" stroke="#6f7b80" stroke-width="2"/>
+<text x="144" y="873" font-size="26" text-anchor="start" font-weight="400" fill="#45545c">0</text>
+<line x1="348" y1="839" x2="348" y2="846" stroke="#6f7b80" stroke-width="2"/>
+<text x="348" y="873" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">500,000</text>
+<line x1="552" y1="839" x2="552" y2="846" stroke="#6f7b80" stroke-width="2"/>
+<text x="552" y="873" font-size="26" text-anchor="end" font-weight="400" fill="#45545c">1,000,000</text>
+<rect x="48" y="895" width="504" height="73" rx="5" fill="#e9eee7"/>
+<text x="60" y="923" font-size="26" text-anchor="start" font-weight="700" fill="#26343b">Counts ÷ 200 × 1,000,000</text>
+<text x="60" y="957" font-size="26" text-anchor="start" font-weight="700" fill="#26343b">Both use 100 assigned fragments</text>
+<rect x="24" y="1010" width="552" height="402" rx="12" fill="#fffdf8" stroke="#6f7b80" stroke-width="1.5"/>
+<text x="48" y="1054" font-size="30" text-anchor="start" font-weight="700" fill="#26343b">3 Transcripts per million (TPM)</text>
+<text x="48" y="1088" font-size="26" text-anchor="start" font-weight="400" fill="#45545c">Length-adjusted scale</text>
+<text x="70" y="1153" font-size="28" text-anchor="middle" font-weight="700" fill="#26343b">A</text>
+<text x="144" y="1120" font-size="30" text-anchor="start" font-weight="700" fill="#26343b">≈666,667</text>
+<rect x="144" y="1128" width="272" height="28" rx="0" fill="#9ebda5" stroke="#6f7b80" stroke-width="1.5"/>
+<text x="70" y="1223" font-size="28" text-anchor="middle" font-weight="700" fill="#26343b">B</text>
+<text x="144" y="1190" font-size="30" text-anchor="start" font-weight="700" fill="#26343b">≈333,333</text>
+<rect x="144" y="1198" width="136" height="28" rx="0" fill="url(#b-hatch)" stroke="#6f7b80" stroke-width="1.5"/>
+<line x1="144" y1="1263" x2="552" y2="1263" stroke="#6f7b80" stroke-width="2"/>
+<line x1="144" y1="1263" x2="144" y2="1270" stroke="#6f7b80" stroke-width="2"/>
+<text x="144" y="1297" font-size="26" text-anchor="start" font-weight="400" fill="#45545c">0</text>
+<line x1="348" y1="1263" x2="348" y2="1270" stroke="#6f7b80" stroke-width="2"/>
+<text x="348" y="1297" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">500,000</text>
+<line x1="552" y1="1263" x2="552" y2="1270" stroke="#6f7b80" stroke-width="2"/>
+<text x="552" y="1297" font-size="26" text-anchor="end" font-weight="400" fill="#45545c">1,000,000</text>
+<rect x="48" y="1319" width="504" height="73" rx="5" fill="#e9eee7"/>
+<text x="60" y="1347" font-size="26" text-anchor="start" font-weight="700" fill="#26343b">Rates ÷ 150 × 1,000,000</text>
+<text x="60" y="1381" font-size="26" text-anchor="start" font-weight="700" fill="#26343b">A: 100; B: 50 fragments/kb</text>
+<text x="300" y="1453" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">Relative scales, not molecule totals.</text>
+<text x="300" y="1490" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">Real models may use effective lengths.</text>
+<text x="300" y="1527" font-size="26" text-anchor="middle" font-weight="400" fill="#45545c">Other counting methods need other rules.</text>
+</g></svg>

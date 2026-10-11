@@ -1,0 +1,508 @@
+Antigen origin and display routes — original editable diagram
+
+This full literal bundle reproduces the accepted scratch source outputs with Python standard library only. The guarded composition/data/coordinates below retain their historical planning labels; execution was separately authorized by the exact brief peer review and root readiness. The source diagram is qualitative; no measured count, universal intracellular route or priming outcome is asserted. Cross-dressing starts at a preformed donor-surface complex; upstream peptide/protein origin and processing are unspecified.
+
+Reproduction: extract each named fenced block verbatim, including its terminal newline. Run python3 -B render_diagram.py --data route-provenance-data.json --coordinates planned-diagram-coordinates.json --output reproduced. The output directory must be absent. The two SVGs and two deterministic JSON outputs reproduce byte-exact.
+
+LITERAL FILE: route-provenance-data.json
+SHA256: 8c4fb8c0b57b13e9fd2551e7794810c712c697681aefeb18291465eefcfc9b19
+```json
+{
+  "id": "next-gap-013",
+  "kind": "Qualitative provenance diagram; not an experimental dataset",
+  "fictionalObjects": true,
+  "quantitativeAbundanceOrPeptideLengthClaim": false,
+  "roles": {
+    "presenter": "P, the cell displaying the complex in each route",
+    "donor": "D, a different source cell in routes 2 and 3"
+  },
+  "objects": {
+    "protein": "Connected folded-chain icon with a highlighted fragment, not an amino-acid count",
+    "peptide": "Short connected fragment icon held by HLA, never a free T-cell target",
+    "classI": "Schematic class-I peptide-display icon, not an atomic structure or a complete assembly drawing",
+    "boundary": "Closed cell outline; no named organelle, cell type or universal intracellular route"
+  },
+  "routes": [
+    {
+      "id": "direct",
+      "title": "1  Direct / endogenous",
+      "antigenProteinOrigin": "presenter",
+      "proteinProcessingCell": "presenter",
+      "displayingCell": "presenter",
+      "displayHLAOrigin": "presenter",
+      "transferredObject": null,
+      "displayPeptideOrigin": "presenter",
+      "processingRequiredInDepictedRoute": true,
+      "activationMeasured": false,
+      "sourceIDs": [
+        "wakim2011",
+        "kranz2016"
+      ]
+    },
+    {
+      "id": "cross-presentation",
+      "title": "2  Cross-presentation",
+      "antigenProteinOrigin": "donor / external source",
+      "proteinProcessingCell": "recipient / presenter",
+      "displayingCell": "recipient / presenter",
+      "displayHLAOrigin": "recipient / presenter",
+      "transferredObject": "antigen protein",
+      "displayPeptideOrigin": "donor / external source",
+      "processingRequiredInDepictedRoute": true,
+      "activationMeasured": false,
+      "sourceIDs": [
+        "jongbloed2010"
+      ]
+    },
+    {
+      "id": "cross-dressing",
+      "title": "3  Cross-dressing",
+      "antigenProteinOrigin": "Not specified; starting object is a preformed donor peptide–HLA complex",
+      "proteinProcessingCell": "Not specified or depicted before transfer",
+      "displayingCell": "recipient / presenter",
+      "displayHLAOrigin": "donor",
+      "transferredObject": "intact preformed peptide–HLA complex",
+      "displayPeptideOrigin": "received in donor-surface complex; upstream peptide origin unspecified",
+      "processingRequiredInDepictedRoute": false,
+      "activationMeasured": false,
+      "sourceIDs": [
+        "wakim2011"
+      ]
+    }
+  ],
+  "sameObjectsAcrossThemes": true,
+  "localPaletteNotBiologicalCode": true,
+  "excluded": [
+    "T-cell activation/priming outcome",
+    "killing or benefit",
+    "class-II route",
+    "free-peptide pulsing as endogenous presentation",
+    "vesicle/cytosol/ER universal route",
+    "molecular counts or presentation density",
+    "vaccine exclusively cross-presenting",
+    "cell-contact or exosome universal mechanism"
+  ]
+}
+```
+
+LITERAL FILE: planned-diagram-coordinates.json
+SHA256: 17dac13ae798b2e75582515bc48340311f83258cd324f7350f59b58e1527ba43
+```json
+{
+  "status": "Planned coordinates only; no SVG or pixel output exists",
+  "canvas": {
+    "width": 600,
+    "height": 1900,
+    "units": "SVG user units"
+  },
+  "coreTypography": {
+    "family": "Arial, Helvetica, sans-serif",
+    "fontSize": 28,
+    "panelTitle": 32,
+    "question": 32,
+    "minimumCoreCSSAt312": 14.56,
+    "predictedOnly": true
+  },
+  "panels": [
+    {
+      "route": "direct",
+      "y": 135,
+      "height": 510,
+      "title": {
+        "x": 28,
+        "y": 178
+      },
+      "presenter": {
+        "cx": 412,
+        "cy": 420,
+        "rx": 145,
+        "ry": 138
+      },
+      "donorShown": false,
+      "displayOriginLabel": "Presenter HLA",
+      "transferLabel": null,
+      "noProcessingRegion": false
+    },
+    {
+      "route": "cross-presentation",
+      "y": 660,
+      "height": 510,
+      "title": {
+        "x": 28,
+        "y": 703
+      },
+      "presenter": {
+        "cx": 412,
+        "cy": 945,
+        "rx": 145,
+        "ry": 138
+      },
+      "donorShown": true,
+      "displayOriginLabel": "Presenter HLA",
+      "transferLabel": "Protein transfer",
+      "noProcessingRegion": false
+    },
+    {
+      "route": "cross-dressing",
+      "y": 1185,
+      "height": 510,
+      "title": {
+        "x": 28,
+        "y": 1228
+      },
+      "presenter": {
+        "cx": 412,
+        "cy": 1470,
+        "rx": 145,
+        "ry": 138
+      },
+      "donorShown": true,
+      "displayOriginLabel": "Donor HLA kept",
+      "transferLabel": "Intact complex",
+      "noProcessingRegion": true
+    }
+  ],
+  "sharedGeometry": {
+    "presenter": {
+      "cx": 412,
+      "localCy": 285,
+      "rx": 145,
+      "ry": 138
+    },
+    "donor": {
+      "cx": 128,
+      "localCy": 285,
+      "rx": 88,
+      "ry": 103
+    },
+    "presenterDisplay": {
+      "x": 412,
+      "membraneY": 147,
+      "peptideY": 108
+    },
+    "donorDisplay": {
+      "x": 128,
+      "membraneY": 182,
+      "peptideY": 143
+    },
+    "processingRegion": {
+      "x": 291,
+      "y": 300,
+      "width": 203,
+      "height": 62,
+      "label": "Process protein",
+      "meaning": "Recipient-level processing only, no named organelle or universal pathway"
+    },
+    "proteinInPresenter": {
+      "x": 327,
+      "y": 248
+    },
+    "proteinInDonor": {
+      "x": 128,
+      "y": 271
+    }
+  },
+  "leaderEndpoints": [
+    {
+      "route": "direct",
+      "label": "Presenter cell",
+      "end": [
+        412,
+        558
+      ],
+      "endObject": "closed presenter-cell boundary"
+    },
+    {
+      "route": "direct",
+      "label": "Presenter HLA",
+      "end": [
+        429,
+        263
+      ],
+      "endObject": "HLA display icon, not bound peptide"
+    },
+    {
+      "route": "cross-presentation",
+      "label": "Presenter cell",
+      "end": [
+        412,
+        1083
+      ],
+      "endObject": "closed presenter-cell boundary"
+    },
+    {
+      "route": "cross-presentation",
+      "label": "Presenter HLA",
+      "end": [
+        429,
+        788
+      ],
+      "endObject": "HLA display icon, not bound peptide"
+    },
+    {
+      "route": "cross-dressing",
+      "label": "Presenter cell",
+      "end": [
+        412,
+        1608
+      ],
+      "endObject": "closed presenter-cell boundary"
+    },
+    {
+      "route": "cross-dressing",
+      "label": "Donor HLA kept",
+      "end": [
+        429,
+        1313
+      ],
+      "endObject": "HLA display icon, not bound peptide"
+    },
+    {
+      "route": "direct",
+      "label": "Made here",
+      "end": [
+        327,
+        383
+      ],
+      "endObject": "intracellular antigen protein"
+    },
+    {
+      "route": "cross-presentation",
+      "label": "Protein received",
+      "end": [
+        299,
+        908
+      ],
+      "endObject": "received connected protein inside recipient"
+    },
+    {
+      "route": "cross-dressing",
+      "label": "Intact complex",
+      "end": [
+        247,
+        1339
+      ],
+      "endObject": "whole grouped peptide–HLA transfer icon; leader endpoint on HLA, peptide remains connected"
+    },
+    {
+      "route": "cross-dressing",
+      "label": "No new processing",
+      "endObject": "no leader to an enzyme/compartment; explanatory text only"
+    }
+  ],
+  "routeConnectors": "Arrows track qualitative origin/transfer and processing, not an anatomical path, speed, contact event or guaranteed rate.",
+  "themeRule": "Only declared role palette may differ; exact objects, labels, endpoints, coordinates, panel order and path strings remain equal.",
+  "readingOrder": [
+    "Question",
+    "Direct/endogenous scene",
+    "Acquired protein processing scene",
+    "Intact donor-complex transfer scene",
+    "Display/priming boundary"
+  ],
+  "footer": {
+    "y": 1770,
+    "lines": [
+      "Display shown ≠ priming tested",
+      "Uptake alone does not show display"
+    ],
+    "fontSize": 28
+  }
+}
+```
+
+LITERAL FILE: editable-diagram-composition-draft.txt
+SHA256: bce3c25e33ebfc62c14344af436ccd665051f9be5644f50c7f8e159424228d97
+```text
+PLANNING ONLY — NOT APPROVED, NOT RENDERED OR EXECUTED
+
+Question: Where did the antigen start, and what did the presenter receive?
+Create an original editable annotated diagram with three vertically aligned physical cell scenes, 600 × 1900 SVG user units. The source is qualitative and illustrative; no plotted values, measured frequencies, clinical result or molecular counts exist. Match route-provenance-data.json and planned-diagram-coordinates.json exactly. Use stdlib Python only after independent brief PASS and root readiness. No image model, copied figure, network dependency, scripting inside SVG or rasterization.
+
+1. DIRECT / ENDOGENOUS: show one closed presenter cell. A connected antigen-protein chain starts within this cell; a simplified, unnamed cell-level processing region generates a connected fragment displayed on this same cell's class-I HLA. Use the short labels “Made here”, “Process protein” and “Presenter HLA”. No donor cell or transfer arrow in this panel. Do not equate free-peptide pulsing with this route.
+
+2. CROSS-PRESENTATION: show a separate donor/source cell on the left and the same closed recipient/presenter boundary on the right. A connected antigen protein—not an assembled HLA unit—moves from the source to the recipient. Its processing is shown inside the recipient; the selected connected fragment is then held by recipient-origin HLA at the recipient surface. Core labels “Donor / source”, “Protein received”, “Process protein”, “Presenter HLA”. Keep donor antigen origin distinct from recipient HLA origin. The simple processing region is not a cytosol, ER, proteasome or vacuole claim. The source may be acquired external protein; no universal physical release or uptake mechanism is asserted.
+
+3. CROSS-DRESSING: show a separate donor cell and the same recipient cell. The donor is the immediate source of the assembled complex; earlier protein origin and assembly steps are not assigned. On the donor surface, the short connected peptide and its class-I HLA icon form one grouped preassembled object. The intact group remains connected at the transfer illustration and after placement on recipient surface. Its HLA-origin label stays “Donor HLA kept”. Label the transfer “Intact complex”. Do not add a recipient protein-processing region or break peptide away from HLA. Show transfer provenance, not an exosome, cell-contact/trogocytosis event, diffusion of a bare membrane protein or universal trafficking path.
+
+Use identical cell outlines and class-I display-icon geometry across scenes. Cell outlines are physical boundaries, not generic text cards. Keep the antigen-protein and selected-fragment motifs consistent. A class-I icon stands for the peptide-display complex rather than an atomic or complete subunit model. Do not draw two alpha chains, two membrane stems or suggest an altered HLA class. Color is a local provenance aid backed by full-word origin labels; shapes and text remain legible without color. The theme palette may change, all geometry/labels/order/relationships remain identical. Use warm pale light ground and quiet deep dark ground, clean sans serif text, rounded shapes and purposeful detail; no glow or fake success scene. Core labels at least 28 units (planned 14.56 CSS px at a 312 px embed), panel titles32. Use explicit line breaks and no dense tiny anatomy annotations. Actual phone/desktop readability must be inspected later; planned type size is not a pixel verdict.
+
+Footer: “Display shown ≠ priming tested” and “Uptake alone does not show display”. Do not draw a T cell being activated, cytokine release, tumor killing, vaccine benefit or a checkmark. No new trial, human priming or vaccine selection claim. The retained owner Mermaid/display-to-tested-priming boundary, practice and all authored prose/YAML will remain unchanged.
+
+ALT:
+Three matched class-I display routes show protein made and processed by the presenting cell, external donor protein processed onto recipient HLA, and an intact donor peptide–HLA complex acquired by a recipient without new protein processing; cell boundaries and labels distinguish protein origin from HLA origin, with no priming result shown.
+
+CAPTION:
+Follow what moves: direct presentation uses protein made by that cell; cross-presentation uses acquired protein processed by the recipient; cross-dressing transfers an intact donor peptide–HLA complex. HLA means human leukocyte antigen. Shapes and arrows track origin, not molecular scale or one intracellular pathway. Display alone does not demonstrate priming, and a vaccine-transfected cell can directly present protein it makes.
+
+Reproduction contract after approval: freeze literal original renderer, route data, coordinate specification and requirements (Python standard library only) in portable TXT blocks with full SHA256 hashes. Render light and dark with one source, deterministic attributes/order/newlines, no timestamp in SVG; save source checks/output manifest separately. Independently extract all literal blocks to a fresh directory and reproduce byte-identical outputs. Preserve rejected attempts and every original source/planning receipt. Proposed output stem: antigen-origin-and-display-routes-v1-{light,dark}.svg. No owner insertion or source-fit/release/human credit occurs at this planning stage.
+```
+
+LITERAL FILE: requirements.txt
+SHA256: 77c8ed96bdbe57b137165dfe5825eea39f1d9e32750231eb06eb6ad7d90431dd
+```text
+# Python 3.11 or later.
+# Standard library only; no external packages, fonts or network resources.
+```
+
+LITERAL FILE: render_diagram.py
+SHA256: f78442882da0435f45df72b36719e3264cc15a11e57265f4519cba1787633b05
+```python
+#!/usr/bin/env python3
+"""Original editable cell-provenance diagram; Python standard library only."""
+import argparse
+import hashlib
+import json
+from html import escape
+from pathlib import Path
+
+STEM = 'antigen-origin-and-display-routes-v1'
+PALETTES = {
+    'light': {'ground':'#fbf7ef','panel':'#fffdf8','ink':'#26343b','muted':'#465860','rule':'#7a898e','cell':'#e0eeea','cellLine':'#4d7775','donor':'#e5e2f0','donorLine':'#766595','protein':'#b65165','fragment':'#bd771e','presenterHLA':'#427e78','donorHLA':'#766095','process':'#ecdfce','processLine':'#8f7860','arrow':'#586b74'},
+    'dark': {'ground':'#18232d','panel':'#22333e','ink':'#f1eee5','muted':'#d0dcdf','rule':'#a1b0b7','cell':'#2b494a','cellLine':'#a4c7bf','donor':'#39374c','donorLine':'#b8abd4','protein':'#e391a2','fragment':'#efbe72','presenterHLA':'#96c9bc','donorHLA':'#c2aadf','process':'#51493e','processLine':'#cdbda4','arrow':'#becfd8'},
+}
+
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+def json_bytes(value):
+    return (json.dumps(value, ensure_ascii=False, indent=2) + '\n').encode()
+
+def validate(data, coords):
+    assert data['id'] == 'next-gap-013'
+    assert data['fictionalObjects'] is True
+    assert data['quantitativeAbundanceOrPeptideLengthClaim'] is False
+    direct, cross, dressed = data['routes']
+    assert direct['id'] == 'direct' and direct['antigenProteinOrigin'] == direct['proteinProcessingCell'] == direct['displayHLAOrigin'] == 'presenter'
+    assert cross['id'] == 'cross-presentation' and cross['transferredObject'] == 'antigen protein'
+    assert cross['proteinProcessingCell'] == cross['displayHLAOrigin'] == 'recipient / presenter'
+    assert dressed['id'] == 'cross-dressing' and dressed['transferredObject'] == 'intact preformed peptide–HLA complex'
+    assert dressed['displayHLAOrigin'] == 'donor'
+    assert dressed['displayPeptideOrigin'] == 'received in donor-surface complex; upstream peptide origin unspecified'
+    assert dressed['antigenProteinOrigin'].startswith('Not specified') and dressed['proteinProcessingCell'].startswith('Not specified')
+    assert dressed['processingRequiredInDepictedRoute'] is False
+    assert all(route['activationMeasured'] is False for route in data['routes'])
+    assert coords['canvas']['width'] == 600 and coords['canvas']['height'] == 1900
+    assert coords['coreTypography']['fontSize'] == 28
+    assert [panel['route'] for panel in coords['panels']] == [route['id'] for route in data['routes']]
+    for panel in coords['panels']:
+        cell = panel['presenter']
+        assert cell == {'cx':412,'cy':panel['y']+285,'rx':145,'ry':138}
+        endpoint = next(r['end'] for r in coords['leaderEndpoints'] if r['route']==panel['route'] and r['label']=='Presenter cell')
+        assert endpoint == [cell['cx'], cell['cy'] + cell['ry']]
+    assert coords['panels'][2]['noProcessingRegion'] is True
+
+def render(data, coords, theme):
+    p = PALETTES[theme]
+    out = []
+    def emit(s): out.append(s)
+    def text(x,y,s,size=28,anchor='start',weight=400,role='ink',ident=None):
+        tag = f' id="{ident}"' if ident else ''
+        emit(f'<text{tag} x="{x}" y="{y}" font-size="{size}" text-anchor="{anchor}" font-weight="{weight}" fill="{p[role]}">{escape(s)}</text>')
+    def path(d,role='rule',width=2,fill='none',ident=None,dash=None,arrow=False):
+        extra=(f' id="{ident}"' if ident else '')+(f' stroke-dasharray="{dash}"' if dash else '')+(' marker-end="url(#route-arrow)"' if arrow else '')
+        emit(f'<path d="{d}" stroke="{p[role]}" stroke-width="{width}" fill="{fill}" stroke-linejoin="round" stroke-linecap="round"{extra}/>')
+    def protein(x,y,ident):
+        # A connected folded chain; repeated icons track provenance, not molecule counts.
+        emit(f'<g id="{ident}" transform="translate({x} {y})">')
+        path('M-25,2 L-14,-13 L-2,-3 L10,-16 L23,-5 L13,9 L0,16 L-13,11 L-25,2','protein',5)
+        path('M13,9 L0,16 L-13,11','fragment',5)
+        for px,py in [(-25,2),(-14,-13),(-2,-3),(10,-16),(23,-5)]:
+            emit(f'<circle cx="{px}" cy="{py}" r="3.5" fill="{p["protein"]}"/>')
+        emit('</g>')
+    def display(x,membrane_y,origin,ident):
+        # One schematic HLA display icon with one stem; fragment remains held in groove.
+        role='donorHLA' if origin=='donor' else 'presenterHLA'
+        emit(f'<g id="{ident}" data-origin="{origin}" data-connected-peptide-hla="true" transform="translate({x} {membrane_y})">')
+        path('M-24,-45 L-24,-30 Q-22,-20 0,-20 Q22,-20 24,-30 L24,-45',role,8)
+        path('M0,-20 L0,0',role,7)
+        path('M-16,-39 L-8,-43 L0,-39 L8,-43 L16,-39','fragment',5)
+        emit('</g>')
+    def leader(d,ident): path(d,'muted',1.8,ident=ident)
+    def cell(cx,cy,rx,ry,role,ident):
+        line='donorLine' if role=='donor' else 'cellLine'
+        emit(f'<ellipse id="{ident}" cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{p[role]}" stroke="{p[line]}" stroke-width="3"/>')
+        # A few restrained interior marks add depth without assigning named organelles.
+        for dx,dy,r in [(-35,38,4),(35,65,3),(52,-3,3),(-20,-60,3)]:
+            emit(f'<circle cx="{cx+dx}" cy="{cy+dy}" r="{r}" fill="{p[line]}" opacity="0.25"/>')
+    emit('<?xml version="1.0" encoding="UTF-8"?>')
+    emit('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1900" viewBox="0 0 600 1900" role="img" aria-labelledby="title desc">')
+    emit('<title id="title">Antigen origin and three class-I display routes</title>')
+    emit('<desc id="desc">Direct presentation uses protein made and processed by the presenting cell. Cross-presentation receives external protein and processes it onto recipient HLA. Cross-dressing receives an intact donor-surface peptide–HLA complex; upstream peptide origin is unspecified. The three matched cell scenes show provenance rather than one intracellular mechanism. Display and uptake do not establish priming.</desc>')
+    emit(f'<defs><marker id="route-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="{p["arrow"]}"/></marker></defs>')
+    emit(f'<rect width="600" height="1900" fill="{p["ground"]}"/>')
+    emit('<g font-family="Arial, Helvetica, sans-serif">')
+    text(300,46,'Where did antigen start?',32,'middle',700)
+    text(300,88,'What did this cell receive?',32,'middle',700)
+    for panel in coords['panels']:
+        rid=panel['route'];y=panel['y']
+        emit(f'<g id="panel-{rid}" transform="translate(0 {y})">')
+        emit(f'<rect x="16" y="0" width="568" height="510" rx="16" fill="{p["panel"]}" stroke="{p["rule"]}" stroke-width="1.3"/>')
+        title=next(r['title'] for r in data['routes'] if r['id']==rid)
+        text(28,43,title,32,weight=700)
+        cell(412,285,145,138,'cell',rid+'-presenter-boundary')
+        if panel['donorShown']:
+            cell(128,285,88,103,'donor',rid+'-donor-boundary')
+            text(28,451,'Donor / source',28,weight=700)
+            leader('M128,428 L128,388',rid+'-donor-cell-leader')
+        text(314,485,'Presenter cell',28,weight=700)
+        leader('M412,458 L412,423',rid+'-presenter-cell-leader')
+        display(412,147,'donor' if rid=='cross-dressing' else 'presenter',rid+'-presenter-display')
+        text(306,93,panel['displayOriginLabel'],28,weight=700)
+        leader('M429,101 L429,128',rid+'-hla-leader')
+        if rid!='cross-dressing':
+            emit(f'<rect id="{rid}-processing-region" x="291" y="300" width="203" height="62" rx="14" fill="{p["process"]}" stroke="{p["processLine"]}" stroke-width="2"/>')
+            text(392.5,341,'Process protein',28,'middle',700)
+            # The dashed connector is a route sketch, not a literal organelle itinerary.
+            path('M473,300 C528,235 510,165 430,108','arrow',2.4,dash='7 7',arrow=True,ident=rid+'-fragment-to-display')
+        if rid=='direct':
+            protein(327,248,rid+'-protein')
+            text(28,207,'Made here',28,weight=700)
+            leader('M171,212 L300,243 L327,248',rid+'-protein-leader')
+            path('M327,270 L327,297','arrow',2.4,dash='7 7',arrow=True,ident=rid+'-protein-to-processing')
+        elif rid=='cross-presentation':
+            protein(128,271,rid+'-donor-protein')
+            protein(299,248,rid+'-received-protein')
+            text(28,154,'Protein received',28,weight=700)
+            leader('M226,161 L265,221 L299,248',rid+'-protein-leader')
+            path('M157,259 Q213,230 269,245','arrow',2.4,dash='7 7',arrow=True,ident=rid+'-protein-transfer')
+            path('M302,270 L318,298','arrow',2.4,dash='7 7',arrow=True,ident=rid+'-protein-to-processing')
+        else:
+            display(128,182,'donor',rid+'-donor-display')
+            display(247,174,'donor',rid+'-transferred-display')
+            path('M151,159 L218,151','arrow',2.4,dash='7 7',arrow=True,ident=rid+'-transfer-first')
+            path('M272,151 L382,126','arrow',2.4,dash='7 7',arrow=True,ident=rid+'-transfer-second')
+            text(28,93,'Intact complex',28,weight=700)
+            leader('M225,101 L247,132 L247,154',rid+'-complex-leader')
+            text(412,291,'No new processing',28,'middle',700)
+            text(412,327,'step shown',28,'middle',role='muted')
+        emit('</g>')
+    text(300,1770,'Display shown ≠ priming tested',28,'middle',700)
+    text(300,1822,'Uptake alone does not show display',28,'middle',role='muted')
+    emit('</g></svg>')
+    return ('\n'.join(out)+'\n').encode()
+
+def main():
+    ap=argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--data',type=Path,required=True)
+    ap.add_argument('--coordinates',type=Path,required=True)
+    ap.add_argument('--output',type=Path,required=True)
+    args=ap.parse_args()
+    dr=args.data.read_bytes();cr=args.coordinates.read_bytes()
+    data=json.loads(dr);coords=json.loads(cr)
+    validate(data,coords)
+    args.output.mkdir(parents=True,exist_ok=False)
+    outputs=[]
+    for theme in ['light','dark']:
+        raw=render(data,coords,theme);name=STEM+'-'+theme+'.svg'
+        (args.output/name).write_bytes(raw)
+        outputs.append({'path':name,'theme':theme,'sha256':sha(raw),'bytes':len(raw)})
+    ledger={'id':data['id'],'canvas':coords['canvas'],'panels':coords['panels'],'leaderEndpoints':coords['leaderEndpoints'],'crossDressingUpstreamOrigin':data['routes'][2]['displayPeptideOrigin'],'themeGeometryAndLabelsIdentical':True,'routeConnectors':coords['routeConnectors']}
+    (args.output/'diagram-coordinate-ledger.json').write_bytes(json_bytes(ledger))
+    checks={'id':data['id'],'verdict':'PASS_GENERATED_SOURCE_CHECKS_ONLY','dataSHA256':sha(dr),'coordinatesSHA256':sha(cr),'rendererSHA256':sha(Path(__file__).read_bytes()),'outputs':outputs,'actualPixels':'pending','humanReview':'pending','production':'pending','coverageCredit':False}
+    (args.output/'diagram-checks.json').write_bytes(json_bytes(checks))
+    print(json.dumps({'outputs':outputs,'actualPixels':'pending'}))
+
+if __name__=='__main__':
+    main()
+```
+

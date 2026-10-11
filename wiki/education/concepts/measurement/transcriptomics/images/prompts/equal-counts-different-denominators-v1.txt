@@ -1,0 +1,588 @@
+Original editable quantitative chart specification — next-gap-014
+
+Question: Why do equal assigned counts yield equal simple CPM but unequal TPM when toy transcript lengths differ?
+Source: unchanged public counts-normalization.md, ## Try it. Planning only: do not execute a renderer until non-author review and root readiness approve this exact packet.
+
+Draw a compact three-panel portrait SVG (600×1560). The upper ledger separates Count/fragments, Length/kb, and Rate/fragments per kb. RowsA/B are exactly100/1/100 and100/2/50. Below the ledger, show two physically separate total strips:200 assigned fragments and150 fragments per kb. Do not sum lengths or treat the two denominators as the same unit. No tissue, cell or molecule census/icons. A andB name transcripts only.
+
+Follow with separate simple counts-per-million (CPM) and transcripts-per-million (TPM) bar panels. Each has its own explicitly labeled linear0–1,000,000 axis and ticks0/500,000/1,000,000; no broken/log axes or silent panel rescaling. CPM divides each count100 by total200, then multiplies by1,000,000:500,000 each. TPM first divides100 by lengths1/2kb:rates100/50. It divides those rates by150 and multiplies by1,000,000:exact2,000,000/3 and1,000,000/3. Approximate displayed labels are≈666,667 and≈333,333; geometry must use exact Fraction values, not these rounded integers. The408-unit chart span gives widths204/204 (CPM) and272/136 (TPM), with x starts144; ends348/348 and416/280. Coordinates are fully declared in coordinate-specification-draft.json.
+
+Use at least26native SVG units for every label, formula, unit and tick, core28 and panel headings30. At312px this predicts13.52px minimum, but actual rendered pixels are a separate mandatory check. Keep large short labels and whitespace; wrap/reflow rather than shrink core type. All labels/axis endpoints remain inside the600-unit canvas. Ledger Rate unit wrapsfragments / per kb; column width must remain adequate. Tick labels have explicitstart/middle/end anchors. No external fonts, foreignObject, scripts or raster text. Use editable text with Arial, DejaVu Sans, sans-serif.
+
+Transcript A stays sage/solid; transcript B stays blue/hatched, reinforced by A/B labels. Warm pale light ground/dark ink; quiet navy dark ground/pale ink. Both themes have the same object count, text, axes, units, numbers, denominator strips, element order and exact geometry; only palette attributes differ. No success/efficacy or moral color convention.
+
+Header:Equal counts, different TPM. Assumption lines:Two-transcript toy; Uniform sampling; no other biases. Footer:Relative scales, not molecule totals. Real models may use effective lengths. Other counting methods need other rules. The ordinary caption and alt text are the exact strings in brief.json. This is an idealized full-length library with only these two transcripts; actual quantifier effective lengths/estimated fragment assignments remain distinct. Do not infer absolute original molecules, cell fractions, protein abundance/function, automatic cross-sample validity or universal length adjustment for three-prime tag/UMI tables. UMI means unique molecular identifier; no new UMI mechanism is drawn.
+
+After approval, write an original stdlib-only Python3 renderer using json, fractions.Fraction, html.escape, pathlib and argparse. Read exact data/coordinates and named palettes; compute rates, totals and all widths from formulas. Output deterministic UTF-8/LF editable light.svg/dark.svg, exact coordinate ledger and validation/math receipt. No random IDs, timestamps, network assets, software installation or toolkit-dependent font outlines. Use valid xmlns, title/desc and no image editing. Two fresh scratch directories must reproduce every deterministic output byte-exact. The later canonical TXT must include this entire guarded specification, full literal renderer, input JSON and reproduction instructions/source blocks — not merely links to transient scratch files. Preserve these planning originals; actual accepted output/call/source hashes and independent source/math/theme/phone review are later stages.
+
+Root owns all owner insertion, original-byte inverse, durable publication, synchronization and accounting. No V/O writes, no human review claim or coverage credit. Renderer execution is not authorized by this specification alone.
+
+
+PORTABLE REPRODUCTION
+Python 3 standard library only. No external dependencies, source fonts, data downloads or generated image processing. Save the three literal fenced blocks below as the named files with UTF-8/LF bytes. Run:
+python3 render_chart.py --data chart-data-draft.json --coordinates coordinate-specification-draft.json --output reproduced
+The two SVG files, coordinate ledger and chart-checks JSON reproduce byte-for-byte. These outputs remain editable SVG text, shapes and paths. The chart is an idealized two-transcript teaching toy. Actual effective-length models and UMI counting are distinct questions.
+
+LITERAL FILE: chart-data-draft.json
+```json
+{
+  "schemaVersion": 1,
+  "id": "next-gap-014",
+  "fictional": true,
+  "population": "One idealized full-length library containing only transcripts A and B",
+  "assumptions": [
+    "Exactly100 assigned fragments per transcript; only these two included transcripts.",
+    "Transcript lengths1 and2kilobases are stipulated toy lengths.",
+    "Uniform fragment sampling and no other biases; actual quantifiers may use modeled effective length and estimated assignments.",
+    "No uncertainty, biological replication, differential-expression validation or absolute original molecule measurement is modeled."
+  ],
+  "transcripts": [
+    {
+      "id": "A",
+      "assignedFragments": 100,
+      "lengthKb": 1
+    },
+    {
+      "id": "B",
+      "assignedFragments": 100,
+      "lengthKb": 2
+    }
+  ],
+  "countTotal": 200,
+  "rateTotalFragmentsPerKb": 150,
+  "derived": [
+    {
+      "id": "A",
+      "rateFragmentsPerKb": 100,
+      "cpmExact": {
+        "numerator": 500000,
+        "denominator": 1,
+        "decimal": 500000.0
+      },
+      "cpmDisplay": "500,000",
+      "tpmExact": {
+        "numerator": 2000000,
+        "denominator": 3,
+        "decimal": 666666.6666666666
+      },
+      "tpmDisplay": "≈666,667"
+    },
+    {
+      "id": "B",
+      "rateFragmentsPerKb": 50,
+      "cpmExact": {
+        "numerator": 500000,
+        "denominator": 1,
+        "decimal": 500000.0
+      },
+      "cpmDisplay": "500,000",
+      "tpmExact": {
+        "numerator": 1000000,
+        "denominator": 3,
+        "decimal": 333333.3333333333
+      },
+      "tpmDisplay": "≈333,333"
+    }
+  ],
+  "formulas": {
+    "simpleCPM": "assignedFragments / countTotal × 1,000,000",
+    "toyTPM": "(assignedFragments / lengthKb) / rateTotalFragmentsPerKb × 1,000,000"
+  },
+  "units": {
+    "count": "assigned fragments",
+    "length": "kilobases (kb)",
+    "rate": "assigned fragments per kilobase",
+    "cpm": "counts per million (CPM), defined count-based scale",
+    "tpm": "transcripts per million (TPM), defined length-adjusted relative scale"
+  },
+  "plotAxes": {
+    "cpm": {
+      "minimum": 0,
+      "maximum": 1000000,
+      "unit": "CPM",
+      "ticks": [
+        0,
+        500000,
+        1000000
+      ]
+    },
+    "tpm": {
+      "minimum": 0,
+      "maximum": 1000000,
+      "unit": "TPM",
+      "ticks": [
+        0,
+        500000,
+        1000000
+      ]
+    }
+  },
+  "notEstablished": [
+    "Absolute molecules",
+    "cell fractions",
+    "protein abundance/function",
+    "valid cross-sample comparisons",
+    "a universal length-adjustment rule for three-prime tag or unique molecular identifier workflows"
+  ]
+}
+```
+
+LITERAL FILE: coordinate-specification-draft.json
+```json
+{
+  "schemaVersion": 1,
+  "plannedNotRendered": true,
+  "canvas": {
+    "width": 600,
+    "height": 1560,
+    "svgViewBox": "0 0 600 1560"
+  },
+  "font": {
+    "family": "Arial, DejaVu Sans, sans-serif",
+    "coreSize": 28,
+    "titleSize": 32,
+    "panelTitleSize": 30,
+    "axisAndFormulaSize": 26,
+    "minimumSize": 26,
+    "predictedMinimumCSSAt312": 13.52,
+    "actualPixelAcceptance": "pending; nominal size is not a pixel claim"
+  },
+  "header": {
+    "title": [
+      "Equal counts, different TPM"
+    ],
+    "titlePosition": [
+      300,
+      48
+    ],
+    "assumptionLines": [
+      [
+        "Two-transcript toy",
+        300,
+        88
+      ],
+      [
+        "Uniform sampling; no other biases",
+        300,
+        120
+      ]
+    ]
+  },
+  "inputLedger": {
+    "panel": [
+      24,
+      146,
+      552,
+      416
+    ],
+    "title": [
+      "1 Start with two transcripts",
+      48,
+      190
+    ],
+    "rule": [
+      "Rate = count / length",
+      48,
+      221
+    ],
+    "columnCenters": {
+      "transcript": 70,
+      "count": 205,
+      "length": 351,
+      "rate": 487
+    },
+    "headerRows": {
+      "namesY": 252,
+      "unitY": 281,
+      "rateExtraUnitY": 311
+    },
+    "headers": {
+      "count": [
+        "Count",
+        "fragments"
+      ],
+      "length": [
+        "Length",
+        "kb"
+      ],
+      "rate": [
+        "Rate",
+        "fragments",
+        "per kb"
+      ]
+    },
+    "dataRows": [
+      {
+        "id": "A",
+        "baselineY": 359,
+        "values": [
+          100,
+          1,
+          100
+        ]
+      },
+      {
+        "id": "B",
+        "baselineY": 410,
+        "values": [
+          100,
+          2,
+          50
+        ]
+      }
+    ],
+    "totalStrips": [
+      {
+        "rect": [
+          48,
+          446,
+          504,
+          40
+        ],
+        "text": "Count total = 200 fragments",
+        "position": [
+          60,
+          474
+        ]
+      },
+      {
+        "rect": [
+          48,
+          502,
+          504,
+          40
+        ],
+        "text": "Rate total = 150 fragments/kb",
+        "position": [
+          60,
+          530
+        ]
+      }
+    ]
+  },
+  "cpmPlot": {
+    "panel": [
+      24,
+      586,
+      552,
+      402
+    ],
+    "title": [
+      "2 Counts per million (CPM)",
+      48,
+      630
+    ],
+    "unitLabel": [
+      "Count-based scale",
+      48,
+      664
+    ],
+    "xMin": 144,
+    "xMax": 552,
+    "axisY": 839,
+    "tickY": 873,
+    "barHeight": 28,
+    "rows": [
+      {
+        "id": "A",
+        "barY": 704,
+        "valueY": 696,
+        "value": {
+          "numerator": 500000,
+          "denominator": 1,
+          "decimal": 500000.0
+        },
+        "display": "500,000",
+        "widthExact": {
+          "numerator": 204,
+          "denominator": 1,
+          "decimal": 204.0
+        },
+        "endXExact": {
+          "numerator": 348,
+          "denominator": 1,
+          "decimal": 348.0
+        }
+      },
+      {
+        "id": "B",
+        "barY": 774,
+        "valueY": 766,
+        "value": {
+          "numerator": 500000,
+          "denominator": 1,
+          "decimal": 500000.0
+        },
+        "display": "500,000",
+        "widthExact": {
+          "numerator": 204,
+          "denominator": 1,
+          "decimal": 204.0
+        },
+        "endXExact": {
+          "numerator": 348,
+          "denominator": 1,
+          "decimal": 348.0
+        }
+      }
+    ],
+    "denominatorStrip": {
+      "rect": [
+        48,
+        895,
+        504,
+        73
+      ],
+      "lines": [
+        [
+          "Counts ÷ 200 × 1,000,000",
+          60,
+          923
+        ],
+        [
+          "Both use 100 assigned fragments",
+          60,
+          957
+        ]
+      ]
+    }
+  },
+  "tpmPlot": {
+    "panel": [
+      24,
+      1010,
+      552,
+      402
+    ],
+    "title": [
+      "3 Transcripts per million (TPM)",
+      48,
+      1054
+    ],
+    "unitLabel": [
+      "Length-adjusted scale",
+      48,
+      1088
+    ],
+    "xMin": 144,
+    "xMax": 552,
+    "axisY": 1263,
+    "tickY": 1297,
+    "barHeight": 28,
+    "rows": [
+      {
+        "id": "A",
+        "barY": 1128,
+        "valueY": 1120,
+        "value": {
+          "numerator": 2000000,
+          "denominator": 3,
+          "decimal": 666666.6666666666
+        },
+        "display": "≈666,667",
+        "widthExact": {
+          "numerator": 272,
+          "denominator": 1,
+          "decimal": 272.0
+        },
+        "endXExact": {
+          "numerator": 416,
+          "denominator": 1,
+          "decimal": 416.0
+        }
+      },
+      {
+        "id": "B",
+        "barY": 1198,
+        "valueY": 1190,
+        "value": {
+          "numerator": 1000000,
+          "denominator": 3,
+          "decimal": 333333.3333333333
+        },
+        "display": "≈333,333",
+        "widthExact": {
+          "numerator": 136,
+          "denominator": 1,
+          "decimal": 136.0
+        },
+        "endXExact": {
+          "numerator": 280,
+          "denominator": 1,
+          "decimal": 280.0
+        }
+      }
+    ],
+    "denominatorStrip": {
+      "rect": [
+        48,
+        1319,
+        504,
+        73
+      ],
+      "lines": [
+        [
+          "Rates ÷ 150 × 1,000,000",
+          60,
+          1347
+        ],
+        [
+          "A: 100; B: 50 fragments/kb",
+          60,
+          1381
+        ]
+      ]
+    }
+  },
+  "ticks": {
+    "positions": [
+      144,
+      348,
+      552
+    ],
+    "values": [
+      0,
+      500000,
+      1000000
+    ],
+    "display": [
+      "0",
+      "500,000",
+      "1,000,000"
+    ],
+    "anchors": [
+      "start",
+      "middle",
+      "end"
+    ]
+  },
+  "ending": {
+    "lines": [
+      [
+        "Relative scales, not molecule totals.",
+        300,
+        1453
+      ],
+      [
+        "Real models may use effective lengths.",
+        300,
+        1490
+      ],
+      [
+        "Other counting methods need other rules.",
+        300,
+        1527
+      ]
+    ]
+  },
+  "themeConstraint": "Exactly identical text, data, fractions, axes, element order and geometry; palette-only change. Transcript A stays sage/solid; transcript B stays blue/hatched in both result panels and both themes."
+}
+```
+
+LITERAL FILE: render_chart.py
+```python
+#!/usr/bin/env python3
+"""Original stdlib editable CPM/TPM chart. Execute only after peer/root approval."""
+import argparse,hashlib,json
+from fractions import Fraction
+from html import escape
+from pathlib import Path
+
+STEM='equal-counts-different-denominators-v1'
+PALETTES={
+ 'light':{'ground':'#fbf7ef','panel':'#fffdf8','ink':'#26343b','muted':'#45545c','rule':'#6f7b80','strip':'#e9eee7','a':'#9ebda5','b':'#9fb9cf','hatch':'#395b75','badgeInk':'#20343b'},
+ 'dark':{'ground':'#18232d','panel':'#22323d','ink':'#f1eee5','muted':'#d1d9db','rule':'#a3b1b7','strip':'#2f4148','a':'#95b59f','b':'#91b0ca','hatch':'#263f55','badgeInk':'#20343b'}}
+def sha(b):return hashlib.sha256(b).hexdigest()
+def frac(r):return Fraction(r['numerator'],r['denominator'])
+def number(v):
+    v=Fraction(v)
+    if v.denominator==1:return str(v.numerator)
+    # All quantitative coordinates in this exact toy are integers.
+    raise ValueError('Unexpected noninteger coordinate; extend exact serialization explicitly')
+def write_json(p,o):p.write_text(json.dumps(o,ensure_ascii=False,indent=2)+'\n')
+
+def validate(data,c):
+    assert data['id']=='next-gap-014' and data['fictional'] is True
+    ts=data['transcripts'];assert [(x['id'],x['assignedFragments'],x['lengthKb']) for x in ts]==[('A',100,1),('B',100,2)]
+    total=sum(x['assignedFragments'] for x in ts);rates=[Fraction(x['assignedFragments'],x['lengthKb']) for x in ts]
+    assert total==data['countTotal']==200 and sum(rates)==data['rateTotalFragmentsPerKb']==150
+    cpms=[Fraction(x['assignedFragments'],total)*1000000 for x in ts];tpms=[r/sum(rates)*1000000 for r in rates]
+    assert cpms==[500000,500000] and tpms==[Fraction(2000000,3),Fraction(1000000,3)]
+    ledger=[]
+    for name,values in [('cpmPlot',cpms),('tpmPlot',tpms)]:
+        plot=c[name];axis=data['plotAxes'][name[:3]]
+        assert axis['minimum']==0 and axis['maximum']==1000000 and axis['ticks']==[0,500000,1000000]
+        assert plot['xMin']==144 and plot['xMax']==552
+        span=plot['xMax']-plot['xMin']
+        for row,value in zip(plot['rows'],values):
+            assert frac(row['value'])==value
+            width=Fraction(span)*value/axis['maximum'];end=plot['xMin']+width
+            assert frac(row['widthExact'])==width and frac(row['endXExact'])==end
+            ledger.append({'panel':name,'id':row['id'],'value':{'numerator':value.numerator,'denominator':value.denominator},'display':row['display'],'barX':plot['xMin'],'barY':row['barY'],'barHeight':plot['barHeight'],'width':number(width),'endX':number(end)})
+    assert c['canvas']=={'width':600,'height':1560,'svgViewBox':'0 0 600 1560'} and c['font']['minimumSize']>=26
+    assert [(r['id'],r['values']) for r in c['inputLedger']['dataRows']]==[('A',[100,1,100]),('B',[100,2,50])]
+    return ledger
+
+def render(data,c,theme):
+    p=PALETTES[theme];out=[]
+    def emit(s):out.append(s)
+    def text(x,y,s,size=28,anchor='start',weight=400,role='ink'):
+        emit(f'<text x="{number(x)}" y="{number(y)}" font-size="{size}" text-anchor="{anchor}" font-weight="{weight}" fill="{p[role]}">{escape(str(s))}</text>')
+    def rect(x,y,w,h,fill,stroke=None,radius=0):
+        extra=f' stroke="{stroke}" stroke-width="1.5"' if stroke else ''
+        emit(f'<rect x="{number(x)}" y="{number(y)}" width="{number(w)}" height="{number(h)}" rx="{radius}" fill="{fill}"{extra}/>')
+    def line(x1,y1,x2,y2,width=1.5):emit(f'<line x1="{number(x1)}" y1="{number(y1)}" x2="{number(x2)}" y2="{number(y2)}" stroke="{p["rule"]}" stroke-width="{width}"/>')
+    emit('<?xml version="1.0" encoding="UTF-8"?>')
+    emit('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1560" viewBox="0 0 600 1560" role="img" aria-labelledby="title desc">')
+    emit('<title id="title">Equal counts, different CPM and TPM denominators</title>')
+    emit('<desc id="desc">One fictional two-transcript full-length library. A and B each have 100 assigned fragments, with lengths 1 and 2 kilobases and rates 100 and 50 fragments per kilobase. Simple CPM is 500,000 each. Toy TPM uses exact two-thirds and one-third, displayed approximately 666,667 and 333,333. Separate unit labels and denominators; no molecule, cell, protein or cross-sample inference.</desc>')
+    emit('<defs>')
+    emit('<pattern id="b-hatch" patternUnits="userSpaceOnUse" width="10" height="10">')
+    emit(f'<rect width="10" height="10" fill="{p["b"]}"/>')
+    emit(f'<path d="M-2,2 L2,-2 M0,10 L10,0 M8,12 L12,8" fill="none" stroke="{p["hatch"]}" stroke-width="1.2"/>')
+    emit('</pattern></defs>')
+    rect(0,0,600,1560,p['ground'])
+    emit(f'<g font-family="{escape(c["font"]["family"],quote=True)}">')
+    text(*c['header']['titlePosition'],c['header']['title'][0],size=32,anchor='middle',weight=700)
+    for s,x,y in c['header']['assumptionLines']:text(x,y,s,size=26,anchor='middle',role='muted')
+    tab=c['inputLedger'];rect(*tab['panel'],p['panel'],p['rule'],12);s,x,y=tab['title'];text(x,y,s,size=30,weight=700)
+    s,x,y=tab['rule'];text(x,y,s,size=26,role='muted')
+    columns=tab['columnCenters'];hr=tab['headerRows']
+    for name,labels in tab['headers'].items():
+        for index,s in enumerate(labels):text(columns[name],[hr['namesY'],hr['unitY'],hr['rateExtraUnitY']][index],s,size=26,anchor='middle',weight=700 if index==0 else 400,role='ink' if index==0 else 'muted')
+    line(48,326,552,326)
+    for r in tab['dataRows']:
+        x=columns['transcript'];y=r['baselineY'];rect(x-25,y-24,50,33,p['a'] if r['id']=='A' else 'url(#b-hatch)',p['rule'],4);text(x,y,r['id'],size=28,anchor='middle',weight=700,role='badgeInk')
+        for name,value in zip(['count','length','rate'],r['values']):text(columns[name],y,value,size=30,anchor='middle',weight=700)
+    for strip in tab['totalStrips']:rect(*strip['rect'],p['strip'],radius=5);text(*strip['position'],strip['text'],size=26,weight=700)
+    for key in ['cpmPlot','tpmPlot']:
+        plot=c[key];rect(*plot['panel'],p['panel'],p['rule'],12);s,x,y=plot['title'];text(x,y,s,size=30,weight=700)
+        s,x,y=plot['unitLabel'];text(x,y,s,size=26,role='muted')
+        for r in plot['rows']:
+            height=plot['barHeight'];x0=plot['xMin'];w=frac(r['widthExact']);y=r['barY']
+            text(70,y+height-3,r['id'],size=28,anchor='middle',weight=700)
+            text(x0,r['valueY'],r['display'],size=30,weight=700)
+            rect(x0,y,w,height,p['a'] if r['id']=='A' else 'url(#b-hatch)',p['rule'],0)
+        line(plot['xMin'],plot['axisY'],plot['xMax'],plot['axisY'],2)
+        for x,value,display,anchor in zip(c['ticks']['positions'],c['ticks']['values'],c['ticks']['display'],c['ticks']['anchors']):
+            assert x==plot['xMin']+(plot['xMax']-plot['xMin'])*Fraction(value,1000000)
+            line(x,plot['axisY'],x,plot['axisY']+7,2);text(x,plot['tickY'],display,size=26,anchor=anchor,role='muted')
+        strip=plot['denominatorStrip'];rect(*strip['rect'],p['strip'],radius=5)
+        for s,x,y in strip['lines']:text(x,y,s,size=26,weight=700)
+    for s,x,y in c['ending']['lines']:text(x,y,s,size=26,anchor='middle',role='muted')
+    emit('</g></svg>')
+    return ('\n'.join(out)+'\n').encode()
+
+def main():
+    a=argparse.ArgumentParser(description=__doc__);a.add_argument('--data',type=Path,required=True);a.add_argument('--coordinates',type=Path,required=True);a.add_argument('--output',type=Path,required=True);args=a.parse_args()
+    data_raw=args.data.read_bytes();coords_raw=args.coordinates.read_bytes();data=json.loads(data_raw);c=json.loads(coords_raw);ledger=validate(data,c)
+    args.output.mkdir(parents=True,exist_ok=True)
+    hashes=[]
+    for theme in ['light','dark']:
+        raw=render(data,c,theme);name=STEM+'-'+theme+'.svg';(args.output/name).write_bytes(raw);hashes.append({'path':name,'sha256':sha(raw),'bytes':len(raw)})
+    write_json(args.output/'chart-coordinate-ledger.json',{'schemaVersion':1,'canvas':c['canvas'],'geometryUsesRoundedLabels':False,'barCoordinates':ledger,'ticks':c['ticks'],'inputLedger':c['inputLedger']})
+    write_json(args.output/'chart-checks.json',{'verdict':'PASS_GENERATED_SOURCE_AND_ARITHMETIC_ONLY','id':data['id'],'dataSHA256':sha(data_raw),'coordinatesSHA256':sha(coords_raw),'rendererSHA256':sha(Path(__file__).read_bytes()),'outputs':hashes,'actualPixelReview':'pending','humanReview':'pending','production':'pending','coverageCredit':False})
+    print(json.dumps({'outputs':hashes,'actualPixelReview':'pending'}))
+
+if __name__=='__main__':main()
+```

@@ -35,6 +35,11 @@ Class-I [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/anti
 
 If a dendritic cell receives vaccine [messenger ribonucleic acid (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) and makes the encoded protein itself, class-I display can be direct presentation. Antigen may also transfer between cells. It is inaccurate to assign every RNA vaccine exclusively to cross-presentation.
 
+<div class="my-6">
+  <img src="./images/antigen-origin-and-display-routes-v1-light.svg" alt="Three matched class-I display routes show protein made and processed by the presenting cell, external donor protein processed onto recipient HLA, and an intact donor peptide–HLA complex acquired by a recipient without new protein processing; cell boundaries and labels distinguish protein origin from HLA origin, with no priming result shown." data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">Follow what moves: direct presentation uses protein made by that cell; cross-presentation uses acquired protein processed by the recipient; cross-dressing transfers an intact donor peptide–HLA complex. HLA means human leukocyte antigen. Shapes and arrows track origin, not molecular scale or one intracellular pathway. Display alone does not demonstrate priming, and a vaccine-transfected cell can directly present protein it makes.</p>
+</div>
+
 ```mermaid
 flowchart TD
   A["External<br/>antigen"] --> B["Class-I display:<br/>cross-presentation"]

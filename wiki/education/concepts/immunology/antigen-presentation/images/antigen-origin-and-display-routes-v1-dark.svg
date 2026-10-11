@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1900" viewBox="0 0 600 1900" role="img" aria-labelledby="title desc">
+<title id="title">Antigen origin and three class-I display routes</title>
+<desc id="desc">Direct presentation uses protein made and processed by the presenting cell. Cross-presentation receives external protein and processes it onto recipient HLA. Cross-dressing receives an intact donor-surface peptide–HLA complex; upstream peptide origin is unspecified. The three matched cell scenes show provenance rather than one intracellular mechanism. Display and uptake do not establish priming.</desc>
+<defs><marker id="route-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#becfd8"/></marker></defs>
+<rect width="600" height="1900" fill="#18232d"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="300" y="46" font-size="32" text-anchor="middle" font-weight="700" fill="#f1eee5">Where did antigen start?</text>
+<text x="300" y="88" font-size="32" text-anchor="middle" font-weight="700" fill="#f1eee5">What did this cell receive?</text>
+<g id="panel-direct" transform="translate(0 135)">
+<rect x="16" y="0" width="568" height="510" rx="16" fill="#22333e" stroke="#a1b0b7" stroke-width="1.3"/>
+<text x="28" y="43" font-size="32" text-anchor="start" font-weight="700" fill="#f1eee5">1  Direct / endogenous</text>
+<ellipse id="direct-presenter-boundary" cx="412" cy="285" rx="145" ry="138" fill="#2b494a" stroke="#a4c7bf" stroke-width="3"/>
+<circle cx="377" cy="323" r="4" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="447" cy="350" r="3" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="464" cy="282" r="3" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="392" cy="225" r="3" fill="#a4c7bf" opacity="0.25"/>
+<text x="314" y="485" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Presenter cell</text>
+<path d="M412,458 L412,423" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="direct-presenter-cell-leader"/>
+<g id="direct-presenter-display" data-origin="presenter" data-connected-peptide-hla="true" transform="translate(412 147)">
+<path d="M-24,-45 L-24,-30 Q-22,-20 0,-20 Q22,-20 24,-30 L24,-45" stroke="#96c9bc" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M0,-20 L0,0" stroke="#96c9bc" stroke-width="7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-16,-39 L-8,-43 L0,-39 L8,-43 L16,-39" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text x="306" y="93" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Presenter HLA</text>
+<path d="M429,101 L429,128" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="direct-hla-leader"/>
+<rect id="direct-processing-region" x="291" y="300" width="203" height="62" rx="14" fill="#51493e" stroke="#cdbda4" stroke-width="2"/>
+<text x="392.5" y="341" font-size="28" text-anchor="middle" font-weight="700" fill="#f1eee5">Process protein</text>
+<path d="M473,300 C528,235 510,165 430,108" stroke="#becfd8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round" id="direct-fragment-to-display" stroke-dasharray="7 7" marker-end="url(#route-arrow)"/>
+<g id="direct-protein" transform="translate(327 248)">
+<path d="M-25,2 L-14,-13 L-2,-3 L10,-16 L23,-5 L13,9 L0,16 L-13,11 L-25,2" stroke="#e391a2" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M13,9 L0,16 L-13,11" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="-25" cy="2" r="3.5" fill="#e391a2"/>
+<circle cx="-14" cy="-13" r="3.5" fill="#e391a2"/>
+<circle cx="-2" cy="-3" r="3.5" fill="#e391a2"/>
+<circle cx="10" cy="-16" r="3.5" fill="#e391a2"/>
+<circle cx="23" cy="-5" r="3.5" fill="#e391a2"/>
+</g>
+<text x="28" y="207" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Made here</text>
+<path d="M171,212 L300,243 L327,248" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="direct-protein-leader"/>
+<path d="M327,270 L327,297" stroke="#becfd8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round" id="direct-protein-to-processing" stroke-dasharray="7 7" marker-end="url(#route-arrow)"/>
+</g>
+<g id="panel-cross-presentation" transform="translate(0 660)">
+<rect x="16" y="0" width="568" height="510" rx="16" fill="#22333e" stroke="#a1b0b7" stroke-width="1.3"/>
+<text x="28" y="43" font-size="32" text-anchor="start" font-weight="700" fill="#f1eee5">2  Cross-presentation</text>
+<ellipse id="cross-presentation-presenter-boundary" cx="412" cy="285" rx="145" ry="138" fill="#2b494a" stroke="#a4c7bf" stroke-width="3"/>
+<circle cx="377" cy="323" r="4" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="447" cy="350" r="3" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="464" cy="282" r="3" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="392" cy="225" r="3" fill="#a4c7bf" opacity="0.25"/>
+<ellipse id="cross-presentation-donor-boundary" cx="128" cy="285" rx="88" ry="103" fill="#39374c" stroke="#b8abd4" stroke-width="3"/>
+<circle cx="93" cy="323" r="4" fill="#b8abd4" opacity="0.25"/>
+<circle cx="163" cy="350" r="3" fill="#b8abd4" opacity="0.25"/>
+<circle cx="180" cy="282" r="3" fill="#b8abd4" opacity="0.25"/>
+<circle cx="108" cy="225" r="3" fill="#b8abd4" opacity="0.25"/>
+<text x="28" y="451" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Donor / source</text>
+<path d="M128,428 L128,388" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-presentation-donor-cell-leader"/>
+<text x="314" y="485" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Presenter cell</text>
+<path d="M412,458 L412,423" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-presentation-presenter-cell-leader"/>
+<g id="cross-presentation-presenter-display" data-origin="presenter" data-connected-peptide-hla="true" transform="translate(412 147)">
+<path d="M-24,-45 L-24,-30 Q-22,-20 0,-20 Q22,-20 24,-30 L24,-45" stroke="#96c9bc" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M0,-20 L0,0" stroke="#96c9bc" stroke-width="7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-16,-39 L-8,-43 L0,-39 L8,-43 L16,-39" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text x="306" y="93" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Presenter HLA</text>
+<path d="M429,101 L429,128" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-presentation-hla-leader"/>
+<rect id="cross-presentation-processing-region" x="291" y="300" width="203" height="62" rx="14" fill="#51493e" stroke="#cdbda4" stroke-width="2"/>
+<text x="392.5" y="341" font-size="28" text-anchor="middle" font-weight="700" fill="#f1eee5">Process protein</text>
+<path d="M473,300 C528,235 510,165 430,108" stroke="#becfd8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-presentation-fragment-to-display" stroke-dasharray="7 7" marker-end="url(#route-arrow)"/>
+<g id="cross-presentation-donor-protein" transform="translate(128 271)">
+<path d="M-25,2 L-14,-13 L-2,-3 L10,-16 L23,-5 L13,9 L0,16 L-13,11 L-25,2" stroke="#e391a2" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M13,9 L0,16 L-13,11" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="-25" cy="2" r="3.5" fill="#e391a2"/>
+<circle cx="-14" cy="-13" r="3.5" fill="#e391a2"/>
+<circle cx="-2" cy="-3" r="3.5" fill="#e391a2"/>
+<circle cx="10" cy="-16" r="3.5" fill="#e391a2"/>
+<circle cx="23" cy="-5" r="3.5" fill="#e391a2"/>
+</g>
+<g id="cross-presentation-received-protein" transform="translate(299 248)">
+<path d="M-25,2 L-14,-13 L-2,-3 L10,-16 L23,-5 L13,9 L0,16 L-13,11 L-25,2" stroke="#e391a2" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M13,9 L0,16 L-13,11" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="-25" cy="2" r="3.5" fill="#e391a2"/>
+<circle cx="-14" cy="-13" r="3.5" fill="#e391a2"/>
+<circle cx="-2" cy="-3" r="3.5" fill="#e391a2"/>
+<circle cx="10" cy="-16" r="3.5" fill="#e391a2"/>
+<circle cx="23" cy="-5" r="3.5" fill="#e391a2"/>
+</g>
+<text x="28" y="154" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Protein received</text>
+<path d="M226,161 L265,221 L299,248" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-presentation-protein-leader"/>
+<path d="M157,259 Q213,230 269,245" stroke="#becfd8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-presentation-protein-transfer" stroke-dasharray="7 7" marker-end="url(#route-arrow)"/>
+<path d="M302,270 L318,298" stroke="#becfd8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-presentation-protein-to-processing" stroke-dasharray="7 7" marker-end="url(#route-arrow)"/>
+</g>
+<g id="panel-cross-dressing" transform="translate(0 1185)">
+<rect x="16" y="0" width="568" height="510" rx="16" fill="#22333e" stroke="#a1b0b7" stroke-width="1.3"/>
+<text x="28" y="43" font-size="32" text-anchor="start" font-weight="700" fill="#f1eee5">3  Cross-dressing</text>
+<ellipse id="cross-dressing-presenter-boundary" cx="412" cy="285" rx="145" ry="138" fill="#2b494a" stroke="#a4c7bf" stroke-width="3"/>
+<circle cx="377" cy="323" r="4" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="447" cy="350" r="3" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="464" cy="282" r="3" fill="#a4c7bf" opacity="0.25"/>
+<circle cx="392" cy="225" r="3" fill="#a4c7bf" opacity="0.25"/>
+<ellipse id="cross-dressing-donor-boundary" cx="128" cy="285" rx="88" ry="103" fill="#39374c" stroke="#b8abd4" stroke-width="3"/>
+<circle cx="93" cy="323" r="4" fill="#b8abd4" opacity="0.25"/>
+<circle cx="163" cy="350" r="3" fill="#b8abd4" opacity="0.25"/>
+<circle cx="180" cy="282" r="3" fill="#b8abd4" opacity="0.25"/>
+<circle cx="108" cy="225" r="3" fill="#b8abd4" opacity="0.25"/>
+<text x="28" y="451" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Donor / source</text>
+<path d="M128,428 L128,388" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-dressing-donor-cell-leader"/>
+<text x="314" y="485" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Presenter cell</text>
+<path d="M412,458 L412,423" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-dressing-presenter-cell-leader"/>
+<g id="cross-dressing-presenter-display" data-origin="donor" data-connected-peptide-hla="true" transform="translate(412 147)">
+<path d="M-24,-45 L-24,-30 Q-22,-20 0,-20 Q22,-20 24,-30 L24,-45" stroke="#c2aadf" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M0,-20 L0,0" stroke="#c2aadf" stroke-width="7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-16,-39 L-8,-43 L0,-39 L8,-43 L16,-39" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text x="306" y="93" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Donor HLA kept</text>
+<path d="M429,101 L429,128" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-dressing-hla-leader"/>
+<g id="cross-dressing-donor-display" data-origin="donor" data-connected-peptide-hla="true" transform="translate(128 182)">
+<path d="M-24,-45 L-24,-30 Q-22,-20 0,-20 Q22,-20 24,-30 L24,-45" stroke="#c2aadf" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M0,-20 L0,0" stroke="#c2aadf" stroke-width="7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-16,-39 L-8,-43 L0,-39 L8,-43 L16,-39" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="cross-dressing-transferred-display" data-origin="donor" data-connected-peptide-hla="true" transform="translate(247 174)">
+<path d="M-24,-45 L-24,-30 Q-22,-20 0,-20 Q22,-20 24,-30 L24,-45" stroke="#c2aadf" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M0,-20 L0,0" stroke="#c2aadf" stroke-width="7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-16,-39 L-8,-43 L0,-39 L8,-43 L16,-39" stroke="#efbe72" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<path d="M151,159 L218,151" stroke="#becfd8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-dressing-transfer-first" stroke-dasharray="7 7" marker-end="url(#route-arrow)"/>
+<path d="M272,151 L382,126" stroke="#becfd8" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-dressing-transfer-second" stroke-dasharray="7 7" marker-end="url(#route-arrow)"/>
+<text x="28" y="93" font-size="28" text-anchor="start" font-weight="700" fill="#f1eee5">Intact complex</text>
+<path d="M225,101 L247,132 L247,154" stroke="#d0dcdf" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" id="cross-dressing-complex-leader"/>
+<text x="412" y="291" font-size="28" text-anchor="middle" font-weight="700" fill="#f1eee5">No new processing</text>
+<text x="412" y="327" font-size="28" text-anchor="middle" font-weight="400" fill="#d0dcdf">step shown</text>
+</g>
+<text x="300" y="1770" font-size="28" text-anchor="middle" font-weight="700" fill="#f1eee5">Display shown ≠ priming tested</text>
+<text x="300" y="1822" font-size="28" text-anchor="middle" font-weight="400" fill="#d0dcdf">Uptake alone does not show display</text>
+</g></svg>
