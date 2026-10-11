@@ -27,9 +27,9 @@ Antigen-processing machinery generates protein fragments and loads them onto dis
 
 A display case needs a supply chain. A cell makes proteins, cuts some into fragments, then places selected fragments on its surface. A T cell can inspect those displays. Having the protein inside the cell does not guarantee that its fragment reaches the display case. This analogy describes linked biochemical steps; there is no single factory switch that every antigen uses.
 
-<img src="./images/processing-display-recognition-light.png" alt="Five panels show proteins cut into peptides, transport into the endoplasmic reticulum, loading onto HLA class I with B2M, surface display, and a separate possible CD8 T-cell recognition step" data-theme-pair>
+<img src="./images/processing-display-recognition-v2-light.png" alt="Five schematic panels show a common class-I route from protein fragments through TAP into the endoplasmic reticulum, loading with HLA-I and separate B2M, surface peptide–HLA display, and conditional contact with a compatible CD8 T-cell receptor." data-theme-pair>
 
-*Making a protein, displaying its fragments and recognizing them are separate steps.*
+*A common class-I route connects protein fragments with surface display. [Beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) associates with the [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) heavy chain; it does not span the membrane. Compatible receptor recognition is a separate gate and does not establish killing. Trimming, loading helpers and detailed trafficking are omitted.*
 
 ## How it works
 

@@ -39,9 +39,9 @@ There is no general rule that every cancer vaccine belongs in a chemotherapy off
 
 ## Match each assay to a claim
 
-<img src="./images/immune-assay-questions-light.png" alt="Four panels show a T cell binding a test reagent, releasing signals, killing in a lab dish, and a separate clinical comparison with a question mark" data-theme-pair>
+<img src="./images/immune-assay-questions-v2-light.png" alt="Four separate laboratory and study scenes show paired peptide–HLA reagent binding to a T-cell receptor, capture of stimulated secretion on a membrane, target death measured with a target-only control, and a blank clinical comparison." data-theme-pair>
 
-*Binding, signaling, killing in a test and patient benefit each need their own evidence.*
+*A paired peptide–HLA reagent tests binding. A stimulated secretion assay captures a selected molecule; it does not measure target death. A killing assay needs identifiable targets and suitable controls. Clinical outcomes require separate study evidence. Preparation, gates, input-cell denominators and time windows still matter; these scenes are not data or a sequence from binding to benefit.*
 
 | Measurement | What it supports | What remains unresolved |
 |---|---|---|

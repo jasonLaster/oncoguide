@@ -51,9 +51,9 @@ A pathologist examines the tissue and integrates the relevant tests. The final i
 | What expression pattern was assigned? | [Intrinsic molecular subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype) | A replacement for the receptor test |
 | What extent is established? | [Tumor, node and metastasis (TNM) staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging) | A certain personal outcome |
 
-<img src="./images/report-questions-light.png" data-theme-pair alt="Four panels connect microscopic appearance, receptor tests, anatomic extent, and specimen timing to a reader's report; blank test fields and question marks leave the findings unspecified.">
+<img src="./images/report-questions-v2-light.png" alt="An identical two-by-two report-reading grid shows microscopic appearance and grade, blank ER/PR/HER2 receptor fields, unassigned anatomic extent, and separate blank specimen-collected and report-issued fields." data-theme-pair>
 
-*Each panel asks a different question. Some breast prognostic staging systems combine anatomic extent with grade and biomarkers. This cartoon organizes those observations; it is not a patient report, a stage assignment or a forecast.*
+*Each panel asks a different question. Some breast prognostic staging systems combine anatomic extent with grade and biomarkers. Specimen collection and report issue are different events. This schematic supplies no patient findings, stage assignment or forecast.*
 
 HER2 means human epidermal growth factor receptor 2. It is a protein and its associated testing category, rather than a name for all growth signals. [Estrogen receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor) and [progesterone receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor) are separate hormone receptors. Their reports help define hormone-receptor status.
 

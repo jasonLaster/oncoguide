@@ -37,9 +37,9 @@ Changing treatment era, eligibility, assay or baseline event frequency can chang
 
 ## Worked example
 
-<img src="./images/ranking-and-calibration-light.png" alt="Two panels show correctly ordered fictional groups with observed event rates of 10% and 30%, while predicted risks of 20% and 40% overstate both groups' outcomes." data-theme-pair>
+<img src="./images/ranking-and-calibration-v2-light.png" alt="Two aligned fictional charts each compare predicted and observed five-year events in groups of 100: 20% versus 10% and 40% versus 30% show overstated risks; 10% versus 20% and 50% versus 40% show matching totals despite group errors." data-theme-pair>
 
-*Correct ordering can coexist with probabilities that are too high; the fictional counts below share one five-year endpoint.*
+*Each fictional group has 100 people with the same five-year event definition and complete follow-up. First, 60 expected events exceed 40 observed despite correct group order. Second, 60 expected and 60 observed conceal opposite group errors. These are illustrations, not patient forecasts.*
 
 Two equally sized fictional groups each contain 100 people with complete five-year follow-up.
 

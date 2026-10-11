@@ -1,0 +1,7 @@
+{
+  "prompt": "In panel5 only, move the separate violet B2M oval wholly above the outer plasma-membrane boundary beside the blue HLA heavy chain. B2M must not enter or span the lipid bilayer. Only the blue heavy-chain tail spans it. Keep the rose peptide/groove/receptor contact, all text sizes/words, other four panels, membrane and dashed conditional connector exactly unchanged. No other changes.",
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-2bde308c-4a56-44c9-bae9-afb78f4e4203.png"
+  ],
+  "transparent_background": false
+}

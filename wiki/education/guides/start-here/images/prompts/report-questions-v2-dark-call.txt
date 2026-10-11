@@ -1,0 +1,7 @@
+{
+  "prompt": "Dark theme conversion of the actual accepted light reference only. Preserve every object, location, number, label, leader endpoint, semantic color identity, compartment boundary and arrow style exactly. Change the ground and text contrast to a quiet charcoal/navy palette with pale readable lettering and restrained versions of the same cool blue, sage, violet and rose. No glow, neon outlines or shiny 3-D surfaces. No new or duplicated numbering, no paraphrased labels, no additional objects or altered quantities.\n",
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-b123ed1c-4165-4498-93de-b275031a05d0.png"
+  ],
+  "transparent_background": false
+}

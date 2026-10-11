@@ -47,9 +47,9 @@ For autophagy, the membrane-associated LC3-II marker can accumulate through incr
 
 ## A worked example: the same pile, two stories
 
-<img src="./images/recycling-snapshot-and-flow-light.png" alt="Two recycling centers have equal piles of bags, but one processes material while the other may have blocked clearance; a separate experiment tests dependence" data-theme-pair>
+<img src="./images/recycling-snapshot-and-flow-v2-light.png" alt="Two recycling stations have identical six-bag snapshots but show possible continuing flow or a hypothetical late-clearance obstruction; a separate clipboard has blank perturbation, flux, survival and control fields for an experiment not yet performed." data-theme-pair>
 
-*This recycling-center analogy separates amount from flow. A blocked route remains an interpretation to test, and survival dependence needs its own experiment.*
+*Equal piles show equal amount, not equal flow. Blocked clearance is a possibility to test, and survival dependence requires a separate controlled experiment. The blank fields show that test has not been performed; bags and machinery are schematic.*
 
 Two fictional cultures show high LC3-II before treatment. A researcher applies a short lysosomal block in parallel cultures and follows a reporter and cargo marker.
 

@@ -40,9 +40,9 @@ flowchart TD
 
 ## How it works
 
-<img src="./images/three-different-questions-light.png" alt="Three panels separate the TNBC receptor category, four TNBCtype-4 RNA research profiles, and cancer, immune and stromal contributions to a tissue sample" data-theme-pair>
+<img src="./images/three-different-questions-v2-light.png" alt="Three stacked scenes distinguish a schematic TNBC receptor report, the four TNBCtype-4 RNA research labels BL1, BL2, M and LAR, and cancer, immune and stromal contributions to a mixed RNA sample." data-theme-pair>
 
-*Receptor status, a research expression profile and tissue mixture answer different questions; the profile alone does not select treatment.*
+*Receptor category, an RNA research profile and tissue mixture answer different questions. The four labels describe expression patterns, not cell shapes or a treatment choice. Shapes and proportions are schematic.*
 
 [Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) is a receptor-defined clinical category. Researchers can subdivide it using ribonucleic acid (RNA) expression. That is a different question from receptor testing or the broader [intrinsic breast-cancer subtypes](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype).
 

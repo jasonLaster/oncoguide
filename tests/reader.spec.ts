@@ -46,11 +46,11 @@ test("search, themes, mobile navigation and the current report cartoon work",asy
  await toggle.click();await expect(page.locator("html")).toHaveClass(/dark/);
  await page.reload();await expect(page.locator("html")).toHaveClass(/dark/);
  const image=page.locator('article img[data-theater-image]:visible').first();
- await expect(image).toHaveAttribute("src",/report-questions-dark\.png/);
+ await expect(image).toHaveAttribute("src",/report-questions-v2-dark\.png/);
  await image.click();await expect(page.getByRole("dialog")).toBeVisible();
  await page.getByRole("button",{name:"Close image preview",exact:true}).click();
  await toggle.click();await expect(page.locator("html")).not.toHaveClass(/dark/);
- await expect(page.locator('article img[data-theater-image]:visible').first()).toHaveAttribute("src",/report-questions-light\.png/);
+ await expect(page.locator('article img[data-theater-image]:visible').first()).toHaveAttribute("src",/report-questions-v2-light\.png/);
  await page.setViewportSize({width:390,height:844});await page.getByRole("button",{name:"Open education navigation"}).click();
  await expect(page.getByRole("navigation",{name:"Education navigation"})).toBeVisible();
  await expect(page.getByRole("navigation",{name:"Education navigation"}).locator("summary").filter({hasText:"Learning paths"})).toBeVisible();

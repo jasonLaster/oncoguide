@@ -1,0 +1,7 @@
+{
+  "prompt": "Enlarge only the five existing report-field labels \"ER\", \"PR\", \"HER2\", \"Collected\" and \"Reported\" to at least 60 native pixels on this 1024x1536 canvas. Expand their current report cards and adjacent blank fields within their existing panels as needed so these words are comfortably readable at a 312px embedded width. Keep all five result fields BLANK. Preserve the exact two-by-two panel geometry, every heading, the microscope/tissue, specimen container/calendar, neutral breast/node/body question marks, other labels and all color identities. Do not add dates, values, plus/minus signs, stage, grade or patient findings. Do not alter any other relationship or object.",
+  "referenced_image_paths": [
+    "/Users/jasonlaster/.codex/generated_images/01a1226d-829c-77e3-9a18-0648d92a50c9/exec-4352101b-82a2-4814-9650-1d81dbdc6ed7.png"
+  ],
+  "transparent_background": false
+}
