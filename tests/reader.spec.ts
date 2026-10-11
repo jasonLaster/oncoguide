@@ -31,8 +31,15 @@ test("search, themes, mobile navigation and the current report cartoon work",asy
  });
  await page.goto("/");await expect(page.getByRole("heading",{name:"The education library"})).toBeVisible();
  await page.waitForFunction(()=>(window as Window & {__oncoguideKeyboardReady?:boolean}).__oncoguideKeyboardReady===true);
- await page.keyboard.press("ControlOrMeta+k");const input=page.getByRole("searchbox",{name:"Search education"});
- await expect(input).toBeFocused();await input.fill("autophagy");await input.press("Enter");
+ await page.keyboard.press("ControlOrMeta+k");
+ const palette=page.getByRole("dialog",{name:"Go to page"});
+ await expect(palette).toBeVisible();
+ const finder=palette.getByRole("combobox",{name:"Search pages"});
+ await expect(finder).toBeFocused();await finder.fill("autophagy");
+ await expect(palette.getByRole("option").first()).toContainText(/autophagy/i);
+ await finder.press("Escape");await expect(palette).not.toBeVisible();
+ const input=page.getByRole("searchbox",{name:"Search education"});
+ await input.fill("autophagy");await input.press("Enter");
  await expect.poll(()=>page.locator(".edu-result").count()).toBeGreaterThan(0);
  await page.goto(starter);
  const toggle=page.getByRole("button",{name:"Dark theme",exact:true});
