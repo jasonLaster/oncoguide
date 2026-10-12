@@ -47,6 +47,10 @@ flowchart TD
 
 *An earlier stop raises a surveillance question; it does not assign one inevitable molecular outcome.*
 
+<img src="./images/nmd-stop-and-junction-context-v1-light.png" alt="Two already-spliced mRNA ribbons compare a ribosome stopping before a retained exon junction complex near a later splice join with a ribosome stopping in a final exon with no downstream complex shown; both messages remain intact in these simplified snapshots." width="1024" height="1536" data-theme-pair>
+
+*Both ribbons are already-spliced mRNA, read left to right. In A, the ribosome stops before a retained exon junction complex (EJC), shown just upstream of a later splice join. This context can support one nonsense-mediated decay (NMD) route. In B, the stop lies in the final exon and no downstream EJC is shown. That changes the context, not a guaranteed outcome: other transcript and cell features still matter. Distances are schematic. Measure the relevant RNA and protein separately; neither drawing proves complete RNA loss or zero protein.*
+
 ## Why it matters in cancer
 
 A truncating DNA variant can have different downstream outcomes: reduced mutant message, a shortened protein, residual normal product from another copy or a mixture of products. NMD prediction helps choose what to investigate. It does not sign off on protein absence or tumor-suppressor loss of function.
@@ -99,6 +103,8 @@ Source check: October 9, 2026. General surveillance mechanisms and research inte
 - [Zhang and colleagues 1998: intron and stop-position experiments in beta-globin messages](https://pubmed.ncbi.nlm.nih.gov/9671053/).
 - [Le Hir and colleagues 2001: exon junction complexes link splicing with export and NMD factors](https://pubmed.ncbi.nlm.nih.gov/11532962/).
 - [Lindeboom, Supek and Lehner 2016: multiple NMD rules and RNA effects in human cancers](https://pubmed.ncbi.nlm.nih.gov/27618451/).
+
+Visual source check: October 11, 2026. [Le Hir et al., 2000](https://pubmed.ncbi.nlm.nih.gov/11118221/) supports near-junction protein placement on spliced RNA; [Dostie and Dreyfuss, 2002](https://pubmed.ncbi.nlm.nih.gov/12121612/) tests translation-associated removal of an EJC component in defined experimental systems. The existing sources bound surveillance and transcript-context interpretation. This schematic does not specify a universal distance threshold, message/protein abundance or immune presentation. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

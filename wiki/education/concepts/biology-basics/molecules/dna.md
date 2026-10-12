@@ -32,6 +32,10 @@ DNA consists of linked **nucleotides**, building blocks with a sugar, phosphate 
 
 In human cells, nuclear DNA is organized into **chromosomes**. DNA and its associated proteins form **chromatin**. DNA wraps around histone proteins in units called **nucleosomes**. This packaging helps organize the molecule and influences access to it; wrapping a region does not rewrite its base sequence. Human [mitochondria](/wiki/education/concepts/biology-basics/cells/organelles-overview) also contain a smaller DNA genome. [NHGRI DNA fact sheet](https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet), [chromatin](https://www.genome.gov/genetics-glossary/Chromatin).
 
+<img src="./images/dna-structure-packaging-v1-light.png" alt="Three schematic views locate complementary bases between opposite-direction DNA backbones, show paired DNA wrapping histone cores, and mark one gene region within an irregularly packaged nuclear chromosome." width="1024" height="1536" data-theme-pair>
+
+*The same DNA can be viewed as paired strands, wrapped around histones, or organized within a chromosome. A gene is one region of DNA. These nuclear examples are schematic and not to scale; wrapping changes organization, not the base sequence. Mitochondrial DNA is a separate context, and this picture does not show gene activity or the distinct jobs of copying DNA and making RNA.*
+
 Keep these processes separate:
 
 | Process | What happens | What it does not establish |

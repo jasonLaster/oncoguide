@@ -1,0 +1,7 @@
+{
+  "prompt": "Make one precise annotation correction to this DNA teaching diagram. Preserve the complete composition, all typography and wording, paired ATCG/TAGC bases, opposite 5′/3′ ends, every molecular object, colours, wrapping geometry, gene-region bracket, chromosome brace, panel sizes, warm ivory/navy hand-drawn style and 1024×1536 dimensions. In the TOP PANEL the label 'Bases' currently has two navy leaders. The lower-right leader correctly points to the blue G base. The upper-left leader incorrectly ends on the coral pentagonal SUGAR in the backbone. Move ONLY that upper-left Bases leader endpoint and its line so it terminates clearly on the interior coral C BASE rectangle below that sugar, next to the letter C. It must not touch the sugar pentagon, phosphate circle, exterior backbone rail, or pairing connector. The two Bases leaders must now point to the coral C and blue G interior bases. Route the changed leader through open background without obscuring labels, base letters, endpoint labels or chemistry. All sugar–phosphate backbones leaders remain unchanged and correctly point to the external rails. No other visual or text changes, no added arrows or labels, no crop, no extra panels. Keep all original objects and margins.",
+  "referenced_image_paths": [
+    "/tmp/education-curriculum-wave12/next-gap-035/dna-structure-packaging-v1-light.png"
+  ],
+  "transparent_background": false
+}

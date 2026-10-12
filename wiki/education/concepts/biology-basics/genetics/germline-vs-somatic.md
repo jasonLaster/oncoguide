@@ -39,6 +39,12 @@ A [matched-normal sample](/wiki/education/concepts/measurement/sequencing-basics
 
 Blood is often convenient as the normal sample, but blood cells can have acquired variants of their own. This is [clonal hematopoiesis (CH)](/wiki/education/concepts/measurement/liquid-biopsy/chip). A blood-cell clone can also contribute DNA to plasma. Low-level mosaicism, contamination and assay limits further complicate interpretation. A blood match is evidence to assess, not an instruction to classify or subtract every matching variant automatically.
 
+<img src="./images/germline-lineage-windows-v4-light.png" width="949" height="1658" alt="Two hypothetical cell-lineage histories contrast an early variant present broadly in body tissues with a later acquired blood-cell branch containing both marked and unmarked descendants. Reproductive-cell branches remain unresolved. Separate tumor and blood sample windows and a plasma tube show possible DNA contributors rather than a whole-person lineage map." data-theme-pair>
+
+*Follow the branches before naming the distribution: an early constitutional variant can be inherited or de novo; a later body-cell change can be both somatic and mosaic. The normal-blood clone is one example, and dashed plasma arrows indicate possible DNA contributors. Solid arrows trace cell ancestry; dotted question branches remain unmeasured, and long-dashed arrows show possible plasma DNA sources. Cell counts are illustrative. These sample windows do not map all reproductive cells or establish a variant’s effect or transmissibility.*
+
+A variant mark means presence in an illustrative cell, not harmfulness. [MedlinePlus explains inherited, de novo and somatic mosaic changes](https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/); [Razavi and colleagues’ paired plasma/blood study](https://pubmed.ncbi.nlm.nih.gov/31768066/) shows why a plasma finding needs source attribution. The diagram is a set of possible histories, not a rule for diagnosing one specimen.
+
 ## Why it matters in cancer
 
 Tumor profiling asks about the sampled cancer. Hereditary testing asks about constitutional susceptibility and possible family implications. Origin, pathogenicity and treatment eligibility remain separate. A biologically relevant tumor variant does not automatically establish a hereditary finding or satisfy an eligibility rule requiring a germline result.

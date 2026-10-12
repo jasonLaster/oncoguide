@@ -1,0 +1,39 @@
+Use case: scientific-educational.
+Create a warm hand-drawn educational lineage diagram, portrait composition conceived for1024 by1792 pixels, with oversized readable labels about46 pixels on a1024-pixel-wide canvas. The entire diagram must remain understandable at326 to358 CSS pixels wide without zoom. Calm contours and lightly textured matte objects. This is a schematic of POSSIBLE CELL HISTORIES and sampled compartments, not a patient, pedigree, diagnostic decision tree, measured cell fraction, or three mutually exclusive categories.
+
+Use one consistent FIVE-POINT star icon in cells, plasma DNA fragments and beside the exact key words Variant present. The literal ★ key glyph and every drawn marker must have the same five points.
+Line semantics: SOLID directed ancestry branches have arrowheads and trace cell descent, never molecular transport. Unresolved reproductive branches use THIN, closely DOTTED leaders WITHOUT arrowheads ending grey question placeholders. Plasma possible-source arrows are LONG-DASHED WITH arrowheads and belong ONLY in the separate sample scene. Sampling brackets are thin solid leaders WITHOUT arrowheads. Never reuse one line style for these different meanings.
+
+One shared visual key: a plum FIVE-POINT star INSIDE a cell means the illustrative variant is present; an otherwise identical outlined cell without a star means the variant is not present in that illustrated cell. Every drawn cell has its own membrane outline and one quiet nucleus. Stars are separate small marks in the cell, not nuclei and not malignant-cell symbols. Keep exactly the same variant marker shape across the whole picture. Tiny chromosome sequences are unnecessary. No percentages, allele counts, disease labels or clinical effect.
+
+Use THREE spacious vertically connected scenes, not text cards:
+1. Top: an EARLY CONSTITUTIONAL EXAMPLE. One large starting cell containing a star appears above a solid branching cell-ancestry tree. The starting cell is a hypothetical fertilized starting cell whose variant was already present before the illustrated body branches. Place the exact callout 'Inherited or de novo' beside this marked starting cell. Two solid branches lead to a Body tissues group of TWO marked cells and a Blood cells group of TWO marked cells. A third THIN DOTTED, NO-ARROWHEAD deliberately unresolved branch leads to a grey question placeholder labelled 'Reproductive cells?' WITHOUT any marked/unmarked reproductive-cell verdict or gamete illustration. The illustration shows broad body distribution, not a claim that a blood sample maps all gametes. Render the heading 'Early: widespread' and the short label 'Constitutional example'. Make the ancestry tree physically traceable from the one starting cell to its descendants.
+
+2. Middle: a LATER BODY-LINEAGE EXAMPLE, explicitly also a mosaic distribution. One unmarked starting cell branches to other body tissue cells and to a blood-cell ancestor. The other Body tissues group has TWO unmarked cells. The initially unmarked blood ancestor splits: one unchanged subbranch ends in TWO unmarked blood cells; the other subbranch acquires the SAME star at a clearly shown event labelled 'Somatic change' and produces TWO marked blood-clone descendants. The four blood descendants share a lightly outlined spatial Blood cells patch: two with the star, two without, all membrane-bounded. The event must be downstream of the blood-lineage branch, not at fertilization, and the marked clone must be traceable to that one altered ancestor. Render the heading 'Later: one body branch'. Beneath the mixed blood patch put the exact line 'Somatic + mosaic', showing these descriptions overlap rather than being different diagnostic bins. A third THIN DOTTED, NO-ARROWHEAD unresolved branch from the starting cell points to a grey question placeholder labelled 'Reproductive cells?' without a genotype verdict. Do not connect the acquired blood clone to reproductive cells. This is one normal-blood example, not a rule that somatic means blood-only or tumor-only.
+
+3. Bottom: a clearly separated SAMPLE WINDOW, not another lineage. Render the heading 'Samples show pieces'. One small Blood sample window outlines the SAME two marked/two unmarked blood-cell pattern, visually connected to the mixed blood patch by a quiet sampling bracket/leader. Next to it is a neutral tissue specimen window labelled 'Tumor sample' with TWO generic cells but QUESTION MARKS for their variant status; do NOT draw a mutation-causes-cancer arrow. At the far right or below these windows, a Plasma tube contains only short cell-free DNA fragment strokes, some with the shared star and some without; no intact cells or nuclei inside plasma. Two LONG-DASHED ARROWS WITH ARROWHEADS from Blood cells and 'Tumor / other tissues' end at this tube and signify POSSIBLE DNA contribution, not cell ancestry, guaranteed shedding or known origin of a particular fragment. Label the tube 'Plasma'. Keep the short legend 'Dashed: possible DNA sources' ONLY inside this sample scene, adjacent to the long-dashed contributor arrows, never next to reproductive question leaders. A large closing line reads 'A sample is not the whole tree'. The sample windows are windows onto compartments; their content cannot reconstruct every unobserved lineage, reproductive cells, variant effect or transmission.
+
+Exact text allowed, no other text:
+'Early: widespread'
+'Constitutional example'
+'Inherited or de novo'
+'Body tissues'
+'Blood cells'
+'Reproductive cells?'
+'Later: one body branch'
+'Somatic change'
+'Somatic + mosaic'
+'Samples show pieces'
+'Blood sample'
+'Tumor sample'
+'Tumor / other tissues'
+'Plasma'
+'Dashed: possible DNA sources'
+'A sample is not the whole tree'
+'★ Variant present'
+Repeated Body tissues, Blood cells and Reproductive cells? labels are permitted in the two histories only. Spell labels correctly; use short two-line wrapping as needed. Never shrink labels to cram them in. The captions on the web page carry the nuanced explanation, so do not add paragraphs, tiny footnotes or a diagnostic rule.
+
+Science constraints:
+Constitutional does not mean necessarily inherited; an early de novo change can be widespread. Post-fertilization body-cell change can produce mosaic descendants; somatic and mosaic are overlapping descriptions. Normal blood cells can acquire a variant and expand a clone. Plasma is a sampled DNA mixture, never a developmental cell lineage. A tumor/blood/plasma result alone does not identify whole-body distribution, every reproductive cell, pathogenicity or transmissibility. The question placeholders mean unmeasured, not absence. Counts are chosen for teaching, not measured distributions, clone fractions or allele fractions. The star never means harmful, cancer-causing or clinically actionable.
+
+Avoid photorealism, actual histology, source-figure copying, pedigrees, people, patient identifiers, organ anatomy, logos, watermarks, percentages, independent three-bin 'germline / somatic / mosaic' columns, tick/cross diagnostic classification, clinical recommendations, extra pathways, tiny text, unlabeled arrows, plasma cells, DNA-source arrows confused with cell-ancestry branches.

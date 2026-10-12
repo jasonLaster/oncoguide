@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-034",
+  "owner": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+  "historicalAuthoringBaseline": "d9290b0315cff20f796bcbe17578067aacee97fa",
+  "frozenOwnerSHA256": "cf1d4034230cc950865137d86414866bd65b61df15f77631e7f4c297aeb8bb91",
+  "candidateSHA256": "aaca25cac98179d46a7d9530ba5aceff22c1a0aa4beb787cb8be586df80ccc1a",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "model": "unknown",
+  "modelEvidence": "Only image_url and output_hint returned; no model inferred from skill defaults or image metadata.",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/nmd-stop-and-junction-context-v1-light.png",
+      "sha256": "59b69582f78802d251611096c4f1e160dc2cf8b43c316e8a75a6013d7cd73f3f",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "rasterAltered": false
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/nmd-stop-and-junction-context-v1-dark.png",
+      "sha256": "b9b75922449c19eb9b14640abb9d5dcfef10175a1d9ae6095eac71d74955d38c",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "rasterAltered": false
+    }
+  ],
+  "basePrompt": {
+    "path": "images/prompts/nmd-stop-and-junction-context-v1.txt",
+    "sha256": "1252e86c12ab19df3a5b9c77ef1910d5c87005a1fb5e6b861d53b26337c35df5"
+  },
+  "exactThemeCalls": [
+    {
+      "theme": "light",
+      "argsPath": "images/prompts/nmd-stop-and-junction-context-v1-light-call.json",
+      "argsSHA256": "0441fd0b33ecde8df102ec91963ecbe9dd2acb0378b43ee5d4440841f0ecd18a",
+      "associatedTXT": "images/prompts/nmd-stop-and-junction-context-v1-light-call.txt",
+      "associatedTXTSHA256": "0d7e9e9864795c54f48979335596854ced61efdd884750fe86d121a4114f1562",
+      "TXTFormat": "tool name followed by exact JSON argument representation, not bare prompt text"
+    },
+    {
+      "theme": "dark",
+      "argsPath": "images/prompts/nmd-stop-and-junction-context-v1-dark-call.json",
+      "argsSHA256": "ba5d31360931118c612450530d19172fc3d29b53f77ce211e5ccd7098a3bd14c",
+      "associatedTXT": "images/prompts/nmd-stop-and-junction-context-v1-dark-call.txt",
+      "associatedTXTSHA256": "2fe8fb82a0be1c3c0cbb75ec49cf20abe7f72db12f42fcd97530d21720092266",
+      "TXTFormat": "tool name followed by exact JSON argument representation, not bare prompt text"
+    }
+  ],
+  "lineage": {
+    "light": "Original generation from independently passed exact base/light theme; no image reference",
+    "dark": "Theme edit using sole exact independently passed actual light",
+    "referenceSHA256": "59b69582f78802d251611096c4f1e160dc2cf8b43c316e8a75a6013d7cd73f3f"
+  },
+  "beforeLightGate": {
+    "reviewSHA256": "db61a730e11a18b684d4fc34e7f0877c3fd7f6d788b914c30a523bc13493cb5b",
+    "verbatimVerdict": "PASS source-grounded exact pre-generation brief and proposed whole owner \u2014 light generation only, pixel review pending",
+    "verifiedUTC": "2026-10-11T22:34:24.277967+00:00"
+  },
+  "beforeDarkGate": {
+    "reviewSHA256": "c1047e834f0af99bfb5f32ec7d9e3eff14a62660dec19671f1fe52edbc122c55",
+    "verbatimVerdict": "PASS exact LIGHT01 native/mobile, complete caption/candidate and bounded source fit \u2014 dark/production/human pending",
+    "reviewCreatedUTC": "2026-10-11T22:39:40.486139+00:00",
+    "verifiedUTC": "2026-10-11T22:40:38.400383+00:00"
+  },
+  "sourceCheck": {
+    "date": "2026-10-11",
+    "depth": "Fresh selected primary excerpts; no full-paper, atomic-geometry or source-figure-pixel certification",
+    "primaryURLs": [
+      "https://link.springer.com/article/10.1093/emboj/19.24.6860",
+      "https://link.springer.com/article/10.1093/emboj/20.17.4987",
+      "https://www.med.upenn.edu/dreyfusslab/publications/2002DostieCurrBio.pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/9671053/",
+      "https://pubmed.ncbi.nlm.nih.gov/27618451/"
+    ],
+    "thirdPartyFigureOrPaperCopied": false
+  },
+  "humanReview": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "publicationClaimed": false
+}

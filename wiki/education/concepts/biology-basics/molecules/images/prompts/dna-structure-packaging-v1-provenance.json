@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-035",
+  "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+  "author": "energy-signaling-review",
+  "authorThreadId": "01a12bc2-9693-7293-8e83-60f452dfbb28",
+  "independentReviewer": "first-use-audit",
+  "independentReviewerThreadId": "01a12bc2-9d75-77d3-a906-0351df4503d3",
+  "assignment": {
+    "path": "/tmp/education-curriculum-wave12/assignments-root-1.json",
+    "sha256": "c715ecd230af9b44dc5eef3d76d8bebf7e233d1fa48055a5547cfb3fa0a53a39",
+    "bytes": 11475
+  },
+  "historicalSourceCommit": "d9290b0315cff20f796bcbe17578067aacee97fa",
+  "observedSourceHEADAtPackaging": "d9290b0315cff20f796bcbe17578067aacee97fa",
+  "companionPreparationCommit": "1536f6f72d71e6b29e230fe3043ad4fdbf16f3d6",
+  "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+  "frozenAudit": {
+    "path": "wiki/education/concepts/biology-basics/molecules/dna.md",
+    "title": "DNA: storing, copying and reading sequence",
+    "type": "concept",
+    "domain": "biology-basics/molecules",
+    "pageSHA256": "01b54ff10d2ee1866bf2d804230ac9e93273a784c17d82cc6dd751a69194090f",
+    "visuallyEligible": true,
+    "additionalVisualWorkNeeded": true,
+    "currentVisualFit": "partial",
+    "recommendedMedium": "diagram",
+    "priority": "P1",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate bases/backbones, complementary antiparallel strands and DNA packaging without confusing a molecule, gene and chromosome.",
+    "gap": "The packaging/replication/transcription branch map effectively separates processes, but gives no molecular or packaging geometry. A simple editable structure-to-packaging diagram would support several later variant, chromatin and delivery explanations.",
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+    "accuracyGuardrails": [
+      "Illustrative base pairs and packaging levels; not literal genome length, chromosome copy number or a map of active genes. Keep nuclear/mitochondrial context and copying versus reading separate."
+    ],
+    "fullAuthoredPublicBodyRead": true,
+    "generatedNavigationInventoriedSeparately": true,
+    "renderedPixelCertification": false,
+    "sourceReviewNeededBeforeGeneration": true,
+    "reviewer": "biological-gap-review.json",
+    "reviewerBriefId": "",
+    "existingVisualInventory": {
+      "mermaid": [
+        {
+          "section": "## How it works",
+          "sourceSHA256": "ec686d80c1cae561c66183626fca5a8ea9c144bccbd18d2246fe8a60cadd00ab",
+          "source": "flowchart TD\n A[\"DNA sequence\"] --> B[\"Packaging<br/>DNA with proteins\"]\n A --> C[\"Replication<br/>More DNA\"]\n A --> D[\"Transcription<br/>RNA\"]\n"
+        }
+      ],
+      "rasterEmbeds": [],
+      "interactive": false,
+      "svg": false,
+      "table": true
+    },
+    "mediumDetail": "diagram",
+    "canonicalChoiceRationale": "Proposed canonical owner from full authored-body review",
+    "canonicalReuseCandidates": {}
+  },
+  "currentOwnerBaseline": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035/current-owner.snapshot.md",
+    "sha256": "bf779a635f83b71253f4d6ec3e9add8442559f9335774ef73d607681fbbb74f8",
+    "bytes": 6957
+  },
+  "wholeCurrentOwnerInverse": {
+    "exactBlock": "<img src=\"./images/dna-structure-packaging-v1-light.png\" alt=\"Three schematic views locate complementary bases between opposite-direction DNA backbones, show paired DNA wrapping histone cores, and mark one gene region within an irregularly packaged nuclear chromosome.\" width=\"1024\" height=\"1536\" data-theme-pair>\n\n*The same DNA can be viewed as paired strands, wrapped around histones, or organized within a chromosome. A gene is one region of DNA. These nuclear examples are schematic and not to scale; wrapping changes organization, not the base sequence. Mitochondrial DNA is a separate context, and this picture does not show gene activity or the distinct jobs of copying DNA and making RNA.*\n\n",
+    "sha256": "30b91eae306d3220d2ef056c508fa00c1791497d1772e25326ae3e9c6c16ba49",
+    "bytes": 699,
+    "offsetBytes": 2556,
+    "inverseCurrentOwnerSHA256": "bf779a635f83b71253f4d6ec3e9add8442559f9335774ef73d607681fbbb74f8"
+  },
+  "navigationOnlyDriftProof": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035/navigation-inverse-author-proof.json",
+    "sha256": "83690b7cebfa3959b5e18aa4766609c7bb1e5fb0eef2518b7706d082fb1ca70b",
+    "bytes": 1855
+  },
+  "independentNavigationReview": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035-peer-review/navigation-drift-review.json",
+    "sha256": "9089d67561d612d4b7c5030b7c2751dbe65a5c7c2647868716b88dc855f3656e",
+    "bytes": 2351
+  },
+  "basePrompt": {
+    "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1.txt",
+    "sha256": "d380f4440860be19baa0c3aaecfe677b9948da62139a175cbc8737f134913db8",
+    "bytes": 4499,
+    "meaning": "Original approved concept/light-generation base; executed light correction and dark theme prompts are separate exact call files."
+  },
+  "authorSourceReview": {
+    "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-source-review.json",
+    "sha256": "227e41464029e0683fb0e37b61373a6cbf9f7aa35034fa081e38a23789d64d3e",
+    "bytes": 6661
+  },
+  "independentSourceDepth": "Fresh selected NHGRI official text, RCSB1AOI primary abstract/metadata and primary ChromEMT abstract; textbook direct access challenged, selected indexed opposite-polarity passage only. Author selected ChromEMT main-text HTTP reading remains separately attributed; no independent deeper-body or full Methods/supplement claim.",
+  "sourceDepthLimits": "Author source-review file distinguishes access paths and selected passages. No full source body, figures, raw data, molecular coordinates or clinical cases in this payload.",
+  "preGenerationReview": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035-peer-review/g1-g2-pre-generation-review.json",
+    "sha256": "3a58552221efd2ba6082f77a6d573615a9d14da7767b19f95424bf88c3abc3a9",
+    "bytes": 8724
+  },
+  "acceptedLightReview": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035-peer-review/light-v2/review.json",
+    "sha256": "50d25e252e6cb0304caf35d91733dd594db5513c417ee2f918cd6ba18e3fb8cb",
+    "bytes": 18120
+  },
+  "actualPairReview": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035-peer-review/pair-v1/review.json",
+    "sha256": "645c72d9798b5a870f14d36b84adbb1dccf8b319497570f3069a1cc05168e64e",
+    "bytes": 18924
+  },
+  "priorAvailableFourFileCustodyFinding": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035-peer-review/pair-v1/available-public-custody.json",
+    "sha256": "dac955d885596ed93b53b5cd8caad165407d28bc33fbe6349a243d6462d8b5ed",
+    "bytes": 1623
+  },
+  "completePublicPayloadCustodyReview": "pending separate new review; pair pixel PASS does not certify this new payload",
+  "executedCallCount": 3,
+  "attempts": [
+    {
+      "attempt": "light-v1",
+      "tool": "image_gen.imagegen",
+      "publicExactCall": {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-attempt-1-call.txt",
+        "sha256": "c4ea94892ecec7047a20f6486dae39134f60388d5940d1b609c5de3333ba395b",
+        "bytes": 4603
+      },
+      "promptSHA256": "d380f4440860be19baa0c3aaecfe677b9948da62139a175cbc8737f134913db8",
+      "originalExecutedExactCall": {
+        "path": "/tmp/education-curriculum-wave12/next-gap-035/light-call-v1.json",
+        "sha256": "c4ea94892ecec7047a20f6486dae39134f60388d5940d1b609c5de3333ba395b",
+        "bytes": 4603
+      },
+      "historicalReferencedImages": [],
+      "publicToolReturnMetadata": {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-attempt-1-tool-return.json",
+        "sha256": "14a12d914276f4b425c0a55f3d5f16ef57e00c1c857a908d8d294e25a186aa53",
+        "bytes": 1355
+      },
+      "originalManagedNative": {
+        "path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-9693-7293-8e83-60f452dfbb28/exec-ce136df9-ed7e-4bad-bf0f-e26d4e0dcf44.png",
+        "sha256": "f1f14efa768442e6c41551222c3a7baf9286d7d3cf0dcb3d1a4b65170cd7f1fc",
+        "bytes": 2043796
+      },
+      "scratchNative": {
+        "path": "/tmp/education-curriculum-wave12/next-gap-035/dna-structure-packaging-v1-light.png",
+        "sha256": "f1f14efa768442e6c41551222c3a7baf9286d7d3cf0dcb3d1a4b65170cd7f1fc",
+        "bytes": 2043796
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "model": "unknown",
+      "historicalResult": "author REVISE: one Bases leader pointed to sugar; rejected raster retained locally, excluded from public payload",
+      "publicRasterIncluded": false,
+      "publicRasterPath": null
+    },
+    {
+      "attempt": "light-v2",
+      "tool": "image_gen.imagegen",
+      "publicExactCall": {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-call.txt",
+        "sha256": "b7e3cf04f509ac64aeadbdbd491e9c8e01bad7f23febd0211ed9a28e278f773a",
+        "bytes": 1425
+      },
+      "promptSHA256": "c9ef17b20cf42d1bd055eee24786a0f7f2c53f47bd13a3054636d43cd5f38ebb",
+      "originalExecutedExactCall": {
+        "path": "/tmp/education-curriculum-wave12/next-gap-035/light-call-v2.json",
+        "sha256": "b7e3cf04f509ac64aeadbdbd491e9c8e01bad7f23febd0211ed9a28e278f773a",
+        "bytes": 1425
+      },
+      "historicalReferencedImages": [
+        {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/dna-structure-packaging-v1-light.png",
+          "sha256": "f1f14efa768442e6c41551222c3a7baf9286d7d3cf0dcb3d1a4b65170cd7f1fc",
+          "bytes": 2043796
+        }
+      ],
+      "publicToolReturnMetadata": {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-tool-return.json",
+        "sha256": "9b209eba685b3fe0cdcd7d82530175ff563cc9788168974c8ee094ba6606c058",
+        "bytes": 1340
+      },
+      "originalManagedNative": {
+        "path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-9693-7293-8e83-60f452dfbb28/exec-19f0b793-60e1-4999-b61d-275cea0c1761.png",
+        "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+        "bytes": 1954340
+      },
+      "scratchNative": {
+        "path": "/tmp/education-curriculum-wave12/next-gap-035/dna-structure-packaging-v2-light.png",
+        "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+        "bytes": 1954340
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "model": "unknown",
+      "historicalResult": "independently accepted light native/mobile/full-candidate",
+      "publicRasterIncluded": true,
+      "publicRasterPath": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png"
+    },
+    {
+      "attempt": "dark-v1",
+      "tool": "image_gen.imagegen",
+      "publicExactCall": {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-dark-call.txt",
+        "sha256": "811e4956ace130ecfcdf90449b991227675a6ee1faa8a0d39b73128bac7c4f04",
+        "bytes": 1941
+      },
+      "promptSHA256": "bdf51cc840e29418dd4a1033bc921ae78c37fc47ecac3221558b246dbfa24f9a",
+      "originalExecutedExactCall": {
+        "path": "/tmp/education-curriculum-wave12/next-gap-035/dark-call-v1.json",
+        "sha256": "811e4956ace130ecfcdf90449b991227675a6ee1faa8a0d39b73128bac7c4f04",
+        "bytes": 1941
+      },
+      "historicalReferencedImages": [
+        {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/dna-structure-packaging-v2-light.png",
+          "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+          "bytes": 1954340
+        }
+      ],
+      "publicToolReturnMetadata": {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-dark-tool-return.json",
+        "sha256": "82cc43118d7808bf2078c36c95897b76bcb826366a6495e67915327412d61a0d",
+        "bytes": 1327
+      },
+      "originalManagedNative": {
+        "path": "/Users/jasonlaster/.codex/generated_images/01a12bc2-9693-7293-8e83-60f452dfbb28/exec-55f5b546-0405-450b-9d00-5558b2e946fe.png",
+        "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
+        "bytes": 1838962
+      },
+      "scratchNative": {
+        "path": "/tmp/education-curriculum-wave12/next-gap-035/dna-structure-packaging-v1-dark.png",
+        "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
+        "bytes": 1838962
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "model": "unknown",
+      "historicalResult": "independently accepted dark/pair native/mobile/full-candidate",
+      "publicRasterIncluded": true,
+      "publicRasterPath": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png"
+    }
+  ],
+  "darkChronology": "dark-v1 executed only after independent accepted-light review50d25; sole reference exact accepted light-v2 SHA89055.",
+  "returnedModel": "unknown; tool returned only image_url/output_hint",
+  "publicNativeSelection": {
+    "lightGenerationAttempt": 2,
+    "darkGenerationAttempt": 1,
+    "publicAssetStemVersion": 1,
+    "rasterProcessing": false,
+    "lightSHA256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+    "darkSHA256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b"
+  },
+  "historicalPathsAndReplay": {
+    "historicalExecutedReferences": "The /tmp and managed image paths are the actual historical execution paths; exact executed call files were not rewritten to portable references.",
+    "lightV1": "Original brand-new generation has no reference; its exact prompt/arguments and returned native hash are public metadata. Rejected native raster is retained locally, excluded from public payload.",
+    "lightV2": "Its correction call references that rejected local light-v1 original. Therefore accepted-light correction is not self-contained for replay from this public payload alone. The required historical reference hash is recorded, not an unavailable raster embedded.",
+    "darkV1": "Historical exact call references accepted light-v2 local path. Portable SAME-BYTE reference is the public light PNG listed here; rebinding for a future execution would create a new, unexecuted call and must be recorded separately.",
+    "deterministicReplayClaim": false,
+    "reason": "Model unreported and historical reference paths local; repeated image generation is not promised to regenerate identical pixels.",
+    "portableReferenceMappings": [
+      {
+        "historicalPath": "/tmp/education-curriculum-wave12/next-gap-035/dna-structure-packaging-v2-light.png",
+        "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+        "publicPath": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+        "executionState": "Mapping for future manual rebinding only; not an executed call."
+      }
+    ]
+  },
+  "localCaptureReviewScope": {
+    "actualAuthorIABCaptures": "Complete326/358 saved artwork and full358 caption contexts, original JPEGs retained locally.",
+    "independentReview": "Reviewer personally inspected original native pair and saved mobile captures; reviewer did not conduct fresh browser actions.",
+    "captureBindings": [
+      {
+        "file": {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/light-v2-326px.jpg",
+          "sha256": "cd35be456e849df4433bc264f7fd2cf75d97388f179348f45fd532fbddd0565e",
+          "bytes": 38393
+        },
+        "cssWidth": 326,
+        "cssImageHeight": 489,
+        "completeArtwork": true,
+        "method": "Actual IAB CUA screenshot; original JPEG saved without postprocessing",
+        "scope": "whole artwork only, viewport326x650, image clip0,0,326,489"
+      },
+      {
+        "file": {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/light-v2-358px.jpg",
+          "sha256": "a04056fde6fad1da45abf70c631a1b52ba3f146ab8fc6496637cb6940862fbf3",
+          "bytes": 44707
+        },
+        "cssWidth": 358,
+        "cssImageHeight": 537,
+        "completeArtwork": true,
+        "method": "Actual IAB CUA screenshot; original JPEG saved without postprocessing",
+        "scope": "whole artwork only, viewport358x750, image clip0,0,358,537"
+      },
+      {
+        "file": {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/light-v2-context-358px.jpg",
+          "sha256": "97ff034b077195201ae37ce92039e12a9a94e2479bed7f324e797131af09fa04",
+          "bytes": 77976
+        },
+        "cssWidth": 358,
+        "cssImageHeight": 537,
+        "completeArtwork": true,
+        "method": "Actual IAB CUA screenshot; original JPEG saved without postprocessing",
+        "scope": "full-page figure+caption harness; artwork y116 to653 and complete caption; no public reader claim"
+      },
+      {
+        "file": {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/dark-v1-326px.jpg",
+          "sha256": "55c77ff1900efbe7807cea6d672776eb273af566504f917f6434657dc10d2e78",
+          "bytes": 38662
+        },
+        "cssWidth": 326,
+        "cssImageHeight": 489,
+        "completeArtwork": true,
+        "method": "Actual IAB CUA screenshot, original JPEG saved without postprocessing",
+        "scope": "full artwork clip0,0,326,489; viewport326x650"
+      },
+      {
+        "file": {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/dark-v1-358px.jpg",
+          "sha256": "f22faa322de87b295895d9609cfed22f101a9618307b58d4c40f87fe6790853c",
+          "bytes": 44939
+        },
+        "cssWidth": 358,
+        "cssImageHeight": 537,
+        "completeArtwork": true,
+        "method": "Actual IAB CUA screenshot, original JPEG saved without postprocessing",
+        "scope": "full artwork clip0,0,358,537; viewport358x750"
+      },
+      {
+        "file": {
+          "path": "/tmp/education-curriculum-wave12/next-gap-035/dark-v1-context-358px.jpg",
+          "sha256": "ff1a2efbb71ac22951414d533d5139083313f8ba1491c4752b8e212b3d972422",
+          "bytes": 79543
+        },
+        "cssWidth": 358,
+        "cssImageHeight": 537,
+        "completeArtwork": true,
+        "method": "Actual IAB CUA screenshot, original JPEG saved without postprocessing",
+        "scope": "full-page figure+caption harness; complete artwork y116to653 plus full caption"
+      }
+    ],
+    "fontMinimumCertified": false,
+    "publicReaderVerified": false
+  },
+  "educationPageCheck": {
+    "path": "/tmp/education-curriculum-wave12/next-gap-035/education-page-check-author.json",
+    "sha256": "ee1901c3b9aaeb8152c0d9d44d1a754eff8511b073efb1f23ccd9aacfc02c436",
+    "bytes": 1112
+  },
+  "humanReview": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "canonicalAdoptionVerified": false,
+  "productionVerified": false,
+  "excluded": [
+    "Rejected light-v1 raster",
+    "Base64 image URL",
+    "Full third-party primary bodies or source figures",
+    "Raw molecular coordinates/data",
+    "Private case material",
+    "Whole-directory archives"
+  ],
+  "createdUTC": "2026-10-11T22:51:33.341147+00:00"
+}

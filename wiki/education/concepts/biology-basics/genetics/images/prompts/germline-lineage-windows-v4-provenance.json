@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "Owned generated scientific teaching schematic",
+  "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+  "sourceCommit": "d9290b0315cff20f796bcbe17578067aacee97fa",
+  "frozenOwnerSha256": "1e220fb9aa75f47c1929ebcbeae84ca0b1413bc7b7305ad1cec7e225cad02458",
+  "learnerTask": "Trace constitutional, somatic and mosaic distributions across cell lineages, rather than infer origin from one tumor or blood specimen.",
+  "scope": "Two possible developmental histories plus sample windows, not mutually exclusive diagnostic bins or a pedigree. Constitutional need not be inherited; normal blood can have an acquired somatic+mosaic clone. Plasma is a DNA mixture, not a lineage. A sample does not map all reproductive cells, origin, pathogenicity, effect or transmissibility.",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+      "support": "Inherited/de novo, post-fertilization descendants and explicit somatic mosaicism",
+      "accessDepth": "Fresh rendered selected official paragraphs read"
+    },
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Mosaicism",
+      "support": "Different genomes among cells descended from one fertilized egg; early or later development",
+      "accessDepth": "Fresh official definition read"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+      "support": "Different tumor/hereditary questions and bounded specimen evidence",
+      "accessDepth": "Fresh selected official testing sections read"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/",
+      "support": "Paired plasma/white-blood-cell source attribution in the study cohort",
+      "accessDepth": "Actual complete primary abstract via official NCBI EFetch; full paper/figures not obtained",
+      "limits": "No numerical prevalence or universal blood-subtraction rule claimed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/",
+      "support": "Tumor-only versus matched-normal interpretation in a retrospective study",
+      "accessDepth": "Actual complete primary abstract via official NCBI EFetch; full paper/figures not obtained",
+      "limits": "No universal error rate inferred"
+    }
+  ],
+  "creationMechanism": "Five actual built-in image_gen calls: initial light, three targeted light repairs, and sole-accepted-light-referenced dark; no CLI/external raster transformations",
+  "model": "unknown",
+  "modelEvidence": "Actual tool results contain image_url and output_hint only, with no model/version field",
+  "nativeOutputs": [
+    {
+      "theme": "light",
+      "sha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "bytes": 1881304,
+      "actualNativeIHDR": [
+        949,
+        1658
+      ]
+    },
+    {
+      "theme": "dark",
+      "sha256": "82462c36ea483533f797959e38dfeac99b18bad07ae6682ecc42c8203fc59fb3",
+      "bytes": 2242130,
+      "actualNativeIHDR": [
+        948,
+        1659
+      ]
+    }
+  ],
+  "dimensionNote": "Actual tool-selected light949x1658 and dark948x1659 differ slightly. They are preserved without resizing or falsely declaring identical native dimensions. Owner explicit attributes bind the light native.",
+  "objectScope": "All cells/markers/rods are illustrative, not measured cell or allele fractions. Plasma has eight distinct toy rods: four marked and four plain. Stars attach to rods, never the fluid ellipse; no cells in plasma.",
+  "lineSemantics": "Solid headed ancestry; thin unheaded dotted reproductive questions; thin unheaded sampling leader to Blood window; two long-dashed single-headed possible DNA contributors to Plasma.",
+  "readabilityNote": "Actual accepted light labels/caption/source read at326/358CSS. Compact key/legend legible in that review; a literal44nativepx font size was not certified. Dark/pair acceptance requires separate actual review.",
+  "lineage": [
+    {
+      "stage": "LIGHT01",
+      "executedPrompt": "germline-lineage-windows-v4-light-generation-call.txt",
+      "outputSha256": "ff8a588f90a337fc8d8ffbdaa3a53505c7c6a9660c012e65499d275f6015d617",
+      "referenceSha256": null,
+      "disposition": "Actual independently reviewed REVISE, retained in author/review custody; raster excluded from public payload"
+    },
+    {
+      "stage": "LIGHT02",
+      "executedPrompt": "germline-lineage-windows-v4-light-repair01-call.txt",
+      "outputSha256": "65d75ac53545a1f1955cfe969883850756ed9d053882f4b2f3280223a9a073b9",
+      "referenceSha256": "ff8a588f90a337fc8d8ffbdaa3a53505c7c6a9660c012e65499d275f6015d617",
+      "disposition": "Actual independently reviewed REVISE, retained in author/review custody; raster excluded from public payload"
+    },
+    {
+      "stage": "LIGHT03",
+      "executedPrompt": "germline-lineage-windows-v4-light-repair02-call.txt",
+      "outputSha256": "ccd7b0a282e3032cbb8da44b63be741511c6c1820be704b6356db4a33ff022fe",
+      "referenceSha256": "65d75ac53545a1f1955cfe969883850756ed9d053882f4b2f3280223a9a073b9",
+      "disposition": "Actual independently reviewed REVISE, retained in author/review custody; raster excluded from public payload"
+    },
+    {
+      "stage": "LIGHT04",
+      "executedPrompt": "germline-lineage-windows-v4-light-call.txt",
+      "outputSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "referenceSha256": "ccd7b0a282e3032cbb8da44b63be741511c6c1820be704b6356db4a33ff022fe",
+      "disposition": "Actual independently accepted light"
+    },
+    {
+      "stage": "DARK01",
+      "executedPrompt": "germline-lineage-windows-v4-dark-call.txt",
+      "referenceSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "outputSha256": "82462c36ea483533f797959e38dfeac99b18bad07ae6682ecc42c8203fc59fb3",
+      "beforeCallRecordedAtUTC": "2026-10-11T23:07:08.832715+00:00",
+      "gate": "Actual independent LIGHT04 PASS before dark call",
+      "lightReceiptSha256": "1aac9ac0c82f349e91b7089f17b83958a003a9c611d267d5e1de8a29096e8462"
+    }
+  ],
+  "humanReview": "Expert and learner review pending",
+  "coverageCredit": 0,
+  "acceptanceScope": "Creation/source provenance only; final pair, root selection, repository, deployed readers, publication, zero-followups and coverage accounting are separate evidence.",
+  "publicExclusions": [
+    "Full third-party articles/source figures",
+    "Rejected/superseded native rasters",
+    "Raw tool image_url/base64 results",
+    "Private local paths/cases/credentials",
+    "Whole author or reviewer directory archives"
+  ]
+}

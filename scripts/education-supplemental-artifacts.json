@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "f2f2635617e63cea513d38106e88cffca84e272b",
+  "reviewedSourceCommit": "b23694d65cb58b417e21c3a962b83d15bafdd8cb",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -221,6 +221,146 @@
       "ownerSha256": "cea94d2945ee4dea5562f80f8d90cae73398c71fbd484186c4bf5a07fcf7302d",
       "artwork": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
       "artworkSha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/nmd-stop-and-junction-context-v1-dark-call.json",
+      "sha256": "ba5d31360931118c612450530d19172fc3d29b53f77ce211e5ccd7098a3bd14c",
+      "bytes": 2218,
+      "owner": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "ownerSha256": "aaca25cac98179d46a7d9530ba5aceff22c1a0aa4beb787cb8be586df80ccc1a",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/nmd-stop-and-junction-context-v1-dark.png",
+      "artworkSha256": "b9b75922449c19eb9b14640abb9d5dcfef10175a1d9ae6095eac71d74955d38c",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/nmd-stop-and-junction-context-v1-light-call.json",
+      "sha256": "0441fd0b33ecde8df102ec91963ecbe9dd2acb0378b43ee5d4440841f0ecd18a",
+      "bytes": 5473,
+      "owner": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "ownerSha256": "aaca25cac98179d46a7d9530ba5aceff22c1a0aa4beb787cb8be586df80ccc1a",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/nmd-stop-and-junction-context-v1-light.png",
+      "artworkSha256": "59b69582f78802d251611096c4f1e160dc2cf8b43c316e8a75a6013d7cd73f3f",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/nmd-stop-and-junction-context-v1.generation.json",
+      "sha256": "137306efc9d9ccc642bda9fd680d0d6b979c72875baded697722f1b615b53610",
+      "bytes": 4044,
+      "owner": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "ownerSha256": "aaca25cac98179d46a7d9530ba5aceff22c1a0aa4beb787cb8be586df80ccc1a",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/nmd-stop-and-junction-context-v1-light.png",
+      "artworkSha256": "59b69582f78802d251611096c4f1e160dc2cf8b43c316e8a75a6013d7cd73f3f",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-attempt-1-call.txt",
+      "sha256": "c4ea94892ecec7047a20f6486dae39134f60388d5940d1b609c5de3333ba395b",
+      "bytes": 4603,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+      "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-attempt-1-tool-return.json",
+      "sha256": "14a12d914276f4b425c0a55f3d5f16ef57e00c1c857a908d8d294e25a186aa53",
+      "bytes": 1355,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+      "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-tool-return.json",
+      "sha256": "9b209eba685b3fe0cdcd7d82530175ff563cc9788168974c8ee094ba6606c058",
+      "bytes": 1340,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+      "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-dark-tool-return.json",
+      "sha256": "82cc43118d7808bf2078c36c95897b76bcb826366a6495e67915327412d61a0d",
+      "bytes": 1327,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+      "artworkSha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-source-review.json",
+      "sha256": "227e41464029e0683fb0e37b61373a6cbf9f7aa35034fa081e38a23789d64d3e",
+      "bytes": 6661,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+      "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-provenance.json",
+      "sha256": "f6d5131198a756fc23b787ec39f9f2a6012e13aab0f3785e8ca75801458d3d82",
+      "bytes": 19364,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+      "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-generation-call.txt",
+      "sha256": "874018c64c666b0eef368265242462908efcd81a10d56a9b4b2eed53c5ccdd61",
+      "bytes": 7542,
+      "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+      "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-repair01-call.txt",
+      "sha256": "0aac1c09acaac982955a3956eb24d2ad8a8acc625f5eac4aa5d6f9cd048f55c8",
+      "bytes": 4080,
+      "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+      "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-repair02-call.txt",
+      "sha256": "edc6dbf83677043537cd0b79c7a5c2f18ec3dc4e350a5dcf3dff2de3da9aea19",
+      "bytes": 4276,
+      "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+      "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-provenance.json",
+      "sha256": "fb92cab83101d114c01d9384476ca17532680b4e3b1c584a9f34fce283de6add",
+      "bytes": 6656,
+      "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+      "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-provenance.zip",
+      "sha256": "767a01bc2f42d5a013da8f29cc0712ba7b836dcc48e43c34237d410f6edca248",
+      "bytes": 18159,
+      "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+      "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
       "contentClass": "source-owned-public-custody"
     }
   ]

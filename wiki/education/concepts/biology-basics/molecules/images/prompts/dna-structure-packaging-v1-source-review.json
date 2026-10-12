@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-035",
+  "author": "energy-signaling-review",
+  "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+  "sourceCommit": "d9290b0315cff20f796bcbe17578067aacee97fa",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+      "provider": "NHGRI official",
+      "access": "Fresh web rendered text accessible",
+      "selectedScope": [
+        "What is DNA made of?",
+        "What is the DNA double helix?",
+        "Where is DNA found?"
+      ],
+      "paraphrase": "DNA has sugar/phosphate chains and internal complementary A–T and C–G pairs. The two strands have opposite directions. Humans also carry a mitochondrial genome. Nuclear DNA is packaged as chromosomes.",
+      "supports": [
+        "paired backbones and interior bases",
+        "complementary pair identities",
+        "nuclear example and mitochondrial scope"
+      ],
+      "limits": "No claims derived from its simplified eye-colour example, universal inheritance wording, gene percentages or condensed-chromosome framing. No source image copied."
+    },
+    {
+      "id": "S2",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26821/",
+      "provider": "NCBI Bookshelf, Molecular Biology of the Cell, textbook chapter",
+      "access": "Direct web and fresh HTTP body returned browser challenge; fresh indexed selected chapter passages were readable",
+      "selectedScope": [
+        "selected 5-prime/3-prime polarity passage",
+        "selected antiparallel/complementary paragraph"
+      ],
+      "paraphrase": "Chemical end names distinguish the direction of a DNA chain. The paired strands have opposing polarity; a 5-prime end is opposite the partner 3-prime end.",
+      "supports": [
+        "opposed 5′ and 3′ labels in the schematic duplex"
+      ],
+      "limits": "Indexed selected text only; no fresh complete chapter or source-figure pixel inspection claimed. No numerical helix pitch or molecular dimensions used."
+    },
+    {
+      "id": "S3",
+      "url": "https://www.genome.gov/genetics-glossary/Nucleosome",
+      "provider": "NHGRI official",
+      "access": "Fresh web rendered definition and narration accessible",
+      "selectedScope": [
+        "definition",
+        "narration"
+      ],
+      "paraphrase": "A nucleosome combines DNA wrapped around a histone protein core. This picture can show wrapping as physical association while keeping DNA and protein distinct.",
+      "supports": [
+        "double-stranded DNA visibly wrapping histone core",
+        "nucleosome bracket includes DNA plus core"
+      ],
+      "limits": "No literal base-pair count, protein subunit count, wrap angle or mandatory series of higher-order coils shown."
+    },
+    {
+      "id": "S4",
+      "url": "https://www.genome.gov/genetics-glossary/Chromatin",
+      "provider": "NHGRI official",
+      "access": "Fresh web rendered definition and narration accessible",
+      "selectedScope": [
+        "definition",
+        "first narration paragraph"
+      ],
+      "paraphrase": "Chromatin comprises DNA and associated proteins that organize nuclear chromosomes.",
+      "supports": [
+        "DNA + proteins = chromatin",
+        "chromosome view retains associated histones"
+      ],
+      "limits": "Narration is not used to imply a mandatory folding ladder or that chromosomes exist only during division."
+    },
+    {
+      "id": "S5",
+      "url": "https://www.genome.gov/genetics-glossary/Gene",
+      "provider": "NHGRI official",
+      "access": "Fresh web rendered definition and narration accessible",
+      "selectedScope": [
+        "definition",
+        "expanded RNA-gene narration"
+      ],
+      "paraphrase": "A gene is a DNA region associated with a functional product; some encode functional RNA rather than protein.",
+      "supports": [
+        "example gene is one highlighted region of the same DNA, not the entire chromosome"
+      ],
+      "limits": "No named real gene, gene length, transcription/activity or protein outcome assigned to the highlighted fictional region."
+    },
+    {
+      "id": "S6",
+      "url": "https://www.genome.gov/genetics-glossary/Chromosome",
+      "provider": "NHGRI official",
+      "access": "Fresh web rendered definition and narration accessible",
+      "selectedScope": [
+        "definition",
+        "narration on shape and histone association"
+      ],
+      "paraphrase": "A chromosome organizes DNA with proteins. Its drawing cannot establish chromosome copy number or active genes.",
+      "supports": [
+        "single selected nuclear chromosome context"
+      ],
+      "limits": "Illustrative unreplicated example avoids a replicated X silhouette. No human chromosome count or full nucleus inventory inferred."
+    },
+    {
+      "id": "S7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5646685/",
+      "provider": "Ou et al. 2017 ChromEMT, original research",
+      "access": "Web direct rendered view challenged; separate fresh HTTP primary HTML was accessible and selected results/discussion paragraphs parsed and read",
+      "responseSHA256": "9ec1df92a2d64d89333c7e567072ee907b9920d0c4df2ff5cb8d577ae785fc43",
+      "responseBytes": 261514,
+      "selectedScope": [
+        "failure to detect higher-order fibers in studied human SAEC nuclei and induced chicken-nucleus comparator",
+        "primary SAEC metaphase result",
+        "discussion contrasting observed human packing and induced fibers",
+        "conclusion that discrete higher-order fibers are not necessary for compaction"
+      ],
+      "paraphrase": "In the studied human cell systems, chromatin was irregularly packed rather than an obligatory set of higher-order fibers. The authors detected induced fibers in a separate treated chicken-nucleus preparation. This bounds the drawing: irregular packing is illustrative, and a universal 30-nm ladder is unwarranted.",
+      "supports": [
+        "irregular selected packaging scene",
+        "no mandatory hierarchy or universal 30-nm fiber"
+      ],
+      "limits": "Selected primary text only; no full Methods/supplement, source-image inspection, raw-data reanalysis or universal absence-of-fibers claim. No empirical diameters, concentrations or quantitative chromosome packing in the artwork."
+    }
+  ],
+  "bodyRead": "Full current assigned public DNA owner read after sensitive:false header gate.",
+  "rawPrimaryBodiesSaved": false,
+  "sourceFiguresCopied": false,
+  "privateCaseBodiesRead": false,
+  "humanReview": "pending",
+  "independentSourceReview": "pending",
+  "createdUTC": "2026-10-11T22:30:24.687741+00:00"
+}
