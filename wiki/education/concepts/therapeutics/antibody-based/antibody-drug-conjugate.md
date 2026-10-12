@@ -55,6 +55,14 @@ flowchart TD
 
 A common delivery route, with a testable requirement at each arrow. Binding and DAR do not establish completion of the route.
 
+<img src="./images/adc-tdm1-processing-route-v1-light.png" alt="T-DM1 parts and a target-cell cutaway follow HER2 binding and enclosed uptake to lysosomal antibody breakdown, linker-retaining active catabolite transport through SLC46A3, and a tubulin action site in the cytosol." width="1024" height="1536" data-theme-pair>
+
+*An ADC has an antibody, a linker and a payload. This trastuzumab emtansine (T-DM1) example follows HER2 binding, enclosed uptake and lysosomal antibody breakdown. The noncleavable linker remains with a DM1-containing active catabolite. Experiments support an SLC46A3-dependent route across the lysosomal boundary toward cytosolic tubulin. One attachment is enlarged; the drawing is not a measured loading distribution. Each transition depends on the product and cell, so binding alone does not demonstrate completed delivery or benefit.*
+
+<img src="./images/adc-local-bystander-and-dar-v1-light.png" alt="Two nearby cells show the separately labelled DS-8201a/DXd local payload route; two fictional loading rows compare four payloads on each antibody with two and six, both averaging four." width="1024" height="1536" data-theme-pair>
+
+*The upper scene is a separate DS-8201a/DXd preclinical example: released membrane-permeable cargo can affect a nearby HER2-negative cell. That local bystander question differs from distant tumors or immune memory. The lower batches are fictional: two antibodies with four payloads each and a mixture of one with two and one with six both average four payloads per antibody. Equal averages conceal different distributions. Attachment sites are schematic; this supplies no universal optimum, efficacy ranking or measurement of either product.*
+
 ## Why it matters in cancer
 
 A surface protein can serve as an address even if cancer does not depend on its signaling. [Target heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity), processing, payload sensitivity and exposure can each limit activity. Healthy-tissue recognition and unconjugated payload can contribute to harm. Sharing a target or an average DAR does not make two products equivalent.
@@ -112,6 +120,8 @@ Source check: October 10, 2026. General mechanisms and fictional practice; prima
 - [Tomabechi et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36741448/) — transport of a specified active catabolite.
 - [Ogitani et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27166974/) — local bystander killing in mixed models.
 - [SLC46A3 resistance experiments, 2018](https://pubmed.ncbi.nlm.nih.gov/30131388/) — loss/rescue studies with specified noncleavable conjugates, not a universally validated selection test.
+
+Visual source check: October 11, 2026. The [official T-DM1 mechanism](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e&version=34) and [official DXd-product mechanism](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), section 12.1, support the distinct product identities. The existing Tomabechi and Ogitani primary sources bound the transport and local-neighbor examples; the DAR illustration is fictional arithmetic. These schematics specify neither atomic structures nor completed delivery, clinical selection or comparative benefit. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

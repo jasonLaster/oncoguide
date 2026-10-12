@@ -1,0 +1,98 @@
+{
+  "id": "next-gap-037",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "model": "unknown",
+  "executedCalls": [
+    {
+      "role": "route",
+      "attempt": "light-01",
+      "tool": "image_gen.imagegen",
+      "model": "unknown",
+      "output": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-light.png",
+      "outputSHA256": "353d290726cd1dd8605fe5bec408c1a269481bc9785ab6be208a84175eed2452",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "executedArgs": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.light-01.args.json",
+      "executedArgsSHA256": "9d15369e6e96660bf403541305f938634fdcc4de538efe54c7137145fc6d6df2",
+      "exactTXT": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.light-01.actual-call.txt",
+      "exactTXTSHA256": "ffbb266871143c5a94f3957b3e165d2cce9dd7f2e59d55304d3ad77cdf2008e1",
+      "actualReturnedImageURI_SHA256": "8d7e6c29195459140a37254e688f4d964eea520cb414be2e76befbed1316bd28",
+      "soleReferenceSHA256": null,
+      "rasterTransformed": false
+    },
+    {
+      "role": "comparison",
+      "attempt": "light-04",
+      "tool": "image_gen.imagegen",
+      "model": "unknown",
+      "output": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-light.png",
+      "outputSHA256": "6a89284eccee78e44c3628ad5592fedc6aabfadecf6e6b5468aa218483085738",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "executedArgs": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.light-04.args.json",
+      "executedArgsSHA256": "0b0d985186f4b2998544747af719e4d8027cea0ba509c10b6f2dc1c9aff71a43",
+      "exactTXT": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.light-04.actual-call.txt",
+      "exactTXTSHA256": "045fc5f2366e8a87cef4279e3640aa362a3a88fa78dbc2b1005982b2a1806393",
+      "actualReturnedImageURI_SHA256": "6c2ff0301ab989afb1f168268c827ed6a17c0912b2d4974b0614735ba0d98c29",
+      "soleReferenceSHA256": "d2f58736c86745aa3013c254381d9d4f89e80804e3e5b46ae7aac3bab509a53b",
+      "rasterTransformed": false
+    },
+    {
+      "role": "route",
+      "attempt": "dark-01",
+      "tool": "image_gen.imagegen",
+      "model": "unknown",
+      "output": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-dark.png",
+      "outputSHA256": "fd13da426a5b8c1026540602d5f0ede555eff10ab1062aa30642d737ab27ca0a",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "executedArgs": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.dark-01.args.json",
+      "executedArgsSHA256": "1f1e98097e3d9b4fd37926d4b9652434d45ab1355e5ce2740bcf455cd0a8877e",
+      "exactTXT": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.dark-01.actual-call.txt",
+      "exactTXTSHA256": "11ff28632ff21a2d215d3687b571ac648e2baa13c2e3213ced2e1e28a3ccb1eb",
+      "actualReturnedImageURI_SHA256": "3080613076b9e30e74a4220aeccb2de5905777fda24e2375b68d9bb723d39666",
+      "soleReferenceSHA256": "353d290726cd1dd8605fe5bec408c1a269481bc9785ab6be208a84175eed2452",
+      "rasterTransformed": false
+    },
+    {
+      "role": "comparison",
+      "attempt": "dark-01",
+      "tool": "image_gen.imagegen",
+      "model": "unknown",
+      "output": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-dark.png",
+      "outputSHA256": "815cc7d89a15f2fe12731dee624a96983b566f9fa2a524ec24c24afc5cb33b81",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "executedArgs": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.dark-01.args.json",
+      "executedArgsSHA256": "321c63ec07ed61f25128cd5db7f825f2091219363d4ff5ab19e68c2feff5d988",
+      "exactTXT": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.dark-01.actual-call.txt",
+      "exactTXTSHA256": "d5a8663cdf895ed7335e8181342b60bc3d3d4e3b7bbe574cdab2f47a3cb9a7e0",
+      "actualReturnedImageURI_SHA256": "f0a89a4ab1076537dc4400ace1750162464545e817a0a981e08940c6ca87c29e",
+      "soleReferenceSHA256": "6a89284eccee78e44c3628ad5592fedc6aabfadecf6e6b5468aa218483085738",
+      "rasterTransformed": false
+    }
+  ],
+  "beforeGenerationBriefReviewSHA256": "b11ca13ee8123df76af5c6e300252bca1369b8b2f82005842e9d5607b7139f71",
+  "bothLIGHTReviewBeforeEitherDARK_SHA256": "f9ff2c0b271d12c9c698384601164307d17ed9a90c8990e59af86111ba36f1e0",
+  "actualCallNamesPreserved": true,
+  "rejectedAttemptsPrivatelyRetained": [
+    "comparison-light-01",
+    "comparison-light-02",
+    "comparison-light-03"
+  ],
+  "rejectedRastersInPayload": false,
+  "sourceDepth": "Selected primary and official mechanism text; full-paper and source-figure pixels not certified",
+  "humanReview": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "canonicalReleaseAcceptance": false
+}

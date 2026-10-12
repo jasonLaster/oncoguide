@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "b23694d65cb58b417e21c3a962b83d15bafdd8cb",
+  "reviewedSourceCommit": "d1ef1b555969ff3212f06977e8b4bc64e363260a",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -361,6 +361,582 @@
       "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
       "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
       "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-catalytic-output-v1-base.txt",
+      "sha256": "12e3d4efa3ef0bc1aee4421db9cbf1ca124b06e632bb7715d10dbd02a4eaa385",
+      "bytes": 2262,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-light.png",
+      "artworkSha256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-catalytic-output-v1-dark-01.txt",
+      "sha256": "182f9f441663295ba3ec5ae699c954571127486078e792d1aec25da24dd99d75",
+      "bytes": 967,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-dark.png",
+      "artworkSha256": "dbe7a1cccccf31175d04fcf857efdb062510e4dc299aa99e040fb1912cbc58c3"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-catalytic-output-v1-light-01.txt",
+      "sha256": "28edffa9e375616716663e78e81529916d07c1dcdea59b2c2acce1f67e01734e",
+      "bytes": 2515,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-light.png",
+      "artworkSha256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-dna-occupancy-v1-base.txt",
+      "sha256": "1cedcd494c8800d2deff8591f7a93ae55525acba27185898ea09d77de8301185",
+      "bytes": 2428,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-light.png",
+      "artworkSha256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-dna-occupancy-v1-dark-01.txt",
+      "sha256": "182f9f441663295ba3ec5ae699c954571127486078e792d1aec25da24dd99d75",
+      "bytes": 967,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-dark.png",
+      "artworkSha256": "e170bb9edd43ce132ce93b826c6f63de1590968de7bbd299d42fd39e4d300c80"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-dna-occupancy-v1-light-01.txt",
+      "sha256": "ad6a7e5adf8f8a5a23975ca7b6a6c175375de3552b018ce1bc94a5ba293593dc",
+      "bytes": 2681,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-light.png",
+      "artworkSha256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-mechanism-v1-provenance.json",
+      "sha256": "78e5680e81715823296d069f75dba60d176590ade686d6745ed1408d309a2b97",
+      "bytes": 8867,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-dark.png",
+          "sha256": "dbe7a1cccccf31175d04fcf857efdb062510e4dc299aa99e040fb1912cbc58c3"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-light.png",
+          "sha256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-dark.png",
+          "sha256": "e170bb9edd43ce132ce93b826c6f63de1590968de7bbd299d42fd39e4d300c80"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-light.png",
+          "sha256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/parp-mechanism-v1-provenance.zip",
+      "sha256": "d4cd468318a4afcdaf9ccaf99677f5a85fe47f92fc15c976e62833a508e4e4e6",
+      "bytes": 10430,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ownerSha256": "e40a7fd9017298af66ad775cf2f4e10c59ac1547a31bab44ceb7dc6959a4f8b6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-dark.png",
+          "sha256": "dbe7a1cccccf31175d04fcf857efdb062510e4dc299aa99e040fb1912cbc58c3"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-light.png",
+          "sha256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-dark.png",
+          "sha256": "e170bb9edd43ce132ce93b826c6f63de1590968de7bbd299d42fd39e4d300c80"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-light.png",
+          "sha256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/adc-executed-call-manifest-v1.json",
+      "sha256": "668d065f2f5eeb4e3cf7a49a2875265e2c36283ed748700586d0563a5c1a038d",
+      "bytes": 4952,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-dark.png",
+          "sha256": "815cc7d89a15f2fe12731dee624a96983b566f9fa2a524ec24c24afc5cb33b81"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-light.png",
+          "sha256": "6a89284eccee78e44c3628ad5592fedc6aabfadecf6e6b5468aa218483085738"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-dark.png",
+          "sha256": "fd13da426a5b8c1026540602d5f0ede555eff10ab1062aa30642d737ab27ca0a"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-light.png",
+          "sha256": "353d290726cd1dd8605fe5bec408c1a269481bc9785ab6be208a84175eed2452"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.light-01.args.json",
+      "sha256": "9d15369e6e96660bf403541305f938634fdcc4de538efe54c7137145fc6d6df2",
+      "bytes": 4885,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-dark.png",
+          "sha256": "fd13da426a5b8c1026540602d5f0ede555eff10ab1062aa30642d737ab27ca0a"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-light.png",
+          "sha256": "353d290726cd1dd8605fe5bec408c1a269481bc9785ab6be208a84175eed2452"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.light-01.actual-call.txt",
+      "sha256": "ffbb266871143c5a94f3957b3e165d2cce9dd7f2e59d55304d3ad77cdf2008e1",
+      "bytes": 4904,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-dark.png",
+          "sha256": "fd13da426a5b8c1026540602d5f0ede555eff10ab1062aa30642d737ab27ca0a"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-light.png",
+          "sha256": "353d290726cd1dd8605fe5bec408c1a269481bc9785ab6be208a84175eed2452"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.light-04.args.json",
+      "sha256": "0b0d985186f4b2998544747af719e4d8027cea0ba509c10b6f2dc1c9aff71a43",
+      "bytes": 1677,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-dark.png",
+          "sha256": "815cc7d89a15f2fe12731dee624a96983b566f9fa2a524ec24c24afc5cb33b81"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-light.png",
+          "sha256": "6a89284eccee78e44c3628ad5592fedc6aabfadecf6e6b5468aa218483085738"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.light-04.actual-call.txt",
+      "sha256": "045fc5f2366e8a87cef4279e3640aa362a3a88fa78dbc2b1005982b2a1806393",
+      "bytes": 1696,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-dark.png",
+          "sha256": "815cc7d89a15f2fe12731dee624a96983b566f9fa2a524ec24c24afc5cb33b81"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-light.png",
+          "sha256": "6a89284eccee78e44c3628ad5592fedc6aabfadecf6e6b5468aa218483085738"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.dark-01.args.json",
+      "sha256": "1f1e98097e3d9b4fd37926d4b9652434d45ab1355e5ce2740bcf455cd0a8877e",
+      "bytes": 1829,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-dark.png",
+          "sha256": "fd13da426a5b8c1026540602d5f0ede555eff10ab1062aa30642d737ab27ca0a"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-light.png",
+          "sha256": "353d290726cd1dd8605fe5bec408c1a269481bc9785ab6be208a84175eed2452"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/route.dark-01.actual-call.txt",
+      "sha256": "11ff28632ff21a2d215d3687b571ac648e2baa13c2e3213ced2e1e28a3ccb1eb",
+      "bytes": 1848,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-dark.png",
+          "sha256": "fd13da426a5b8c1026540602d5f0ede555eff10ab1062aa30642d737ab27ca0a"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-tdm1-processing-route-v1-light.png",
+          "sha256": "353d290726cd1dd8605fe5bec408c1a269481bc9785ab6be208a84175eed2452"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.dark-01.args.json",
+      "sha256": "321c63ec07ed61f25128cd5db7f825f2091219363d4ff5ab19e68c2feff5d988",
+      "bytes": 1953,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-dark.png",
+          "sha256": "815cc7d89a15f2fe12731dee624a96983b566f9fa2a524ec24c24afc5cb33b81"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-light.png",
+          "sha256": "6a89284eccee78e44c3628ad5592fedc6aabfadecf6e6b5468aa218483085738"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/comparison.dark-01.actual-call.txt",
+      "sha256": "d5a8663cdf895ed7335e8181342b60bc3d3d4e3b7bbe574cdab2f47a3cb9a7e0",
+      "bytes": 1972,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "ownerSha256": "df62372f19d92b2372cfb02a5f10ca53657b62374da5ad4cfa55050e24dffc55",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-dark.png",
+          "sha256": "815cc7d89a15f2fe12731dee624a96983b566f9fa2a524ec24c24afc5cb33b81"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/adc-local-bystander-and-dar-v1-light.png",
+          "sha256": "6a89284eccee78e44c3628ad5592fedc6aabfadecf6e6b5468aa218483085738"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/01-light-arguments.json",
+      "sha256": "5cd63146f0d17eb98028cb9a8c872f3fa0b4b969568f59654579e85f43003443",
+      "bytes": 3260,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+          "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+          "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/01-light-returned-metadata.json",
+      "sha256": "e488452f4f14bd8bcf5543d52a16167a75ba4049a29538bb843761b71ec1c684",
+      "bytes": 830,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+          "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+          "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/01-light-selected-tool-metadata.json",
+      "sha256": "fcae3316acb8463ba1b223467fae18c0ab7c5ae8b106a0c69ad21acb934dc3b2",
+      "bytes": 780,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+          "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+          "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/02-light-arguments.json",
+      "sha256": "88406d6ec417da974d6e940073a49e7b2ec352e65ffc30b10ebd31aff2b3bfe2",
+      "bytes": 3193,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+          "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+          "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/02-light-returned-metadata.json",
+      "sha256": "f73427e2b942b059cbaf642f72813871f08175e15e12dcbf68a9a189d9eaa496",
+      "bytes": 823,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+          "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+          "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/02-light-selected-tool-metadata.json",
+      "sha256": "b1c4174e461e01814125bc50175faf9ba31453c8e85ab1b6198e837ad93e844d",
+      "bytes": 780,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+          "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+          "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/03-dark-arguments.json",
+      "sha256": "9b0f8a8cc554c6c04ca24964831a5809d8435b5130d60a1de065e6ca9bef4b48",
+      "bytes": 1466,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+          "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+          "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/03-dark-returned-metadata.json",
+      "sha256": "0451645e6a1b1dc6f95a9c5177f0974cb05a327e1b8308dd527c71b37981aaa0",
+      "bytes": 962,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+          "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+          "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/03-dark-selected-tool-metadata.json",
+      "sha256": "8f2be2773d950220c24f78d7101a0b1deb27db8ba84f4449df9a57f2fcfbdec5",
+      "bytes": 722,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+          "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+          "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/04-dark-arguments.json",
+      "sha256": "89ef74539277832e1894c85f21930bffec79ab404c1994792a0330a6eacdbb96",
+      "bytes": 1459,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+          "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+          "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/04-dark-returned-metadata.json",
+      "sha256": "e69e626fcc3002e50c90d4330e529cea684456e103580c5eb57530eca82b1887",
+      "bytes": 948,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+          "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+          "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/next-gap-038-calls/04-dark-selected-tool-metadata.json",
+      "sha256": "7620ca5ad058849a8efbdd333518f5acbf79ad9606f0b968b74ebb198611c26f",
+      "bytes": 722,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+          "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+          "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/tdlu-cartoon-generation-receipt.json",
+      "sha256": "b65ee7b25c47a7e2b3332d8d2a42ca7e0e099d69e9d9ac111dba74dd06d96a85",
+      "bytes": 2947,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "ownerSha256": "9d892866afe7609dd3e12050e1cc63f9618430d89ff01eb4882259745c8fb5b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+          "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+          "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+          "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+          "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hrd-039-public-provenance.json",
+      "sha256": "2080def53e50f78978addd5ec87c6c9b13760f820bde8e76330650f09f528f58",
+      "bytes": 24817,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+      "ownerSha256": "294190cdc0fc62071c6b1ca1986b2ea8a1b3cd9a99a3b2cc022e4f9122f0040a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+          "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+          "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+          "sha256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+          "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hrd-039-public-provenance.zip",
+      "sha256": "66111507b0fc2a866d795ff43f742490026b99e72c558990048b5f95dc780041",
+      "bytes": 148227,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+      "ownerSha256": "294190cdc0fc62071c6b1ca1986b2ea8a1b3cd9a99a3b2cc022e4f9122f0040a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+          "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+          "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+          "sha256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+          "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3"
+        }
+      ],
       "contentClass": "source-owned-public-custody"
     }
   ]

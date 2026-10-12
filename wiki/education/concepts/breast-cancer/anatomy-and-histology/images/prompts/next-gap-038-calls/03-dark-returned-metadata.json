@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "unknown (not returned)",
+  "arguments": "calls/03-dark-arguments.json",
+  "argumentsSha256": "9b0f8a8cc554c6c04ca24964831a5809d8435b5130d60a1de065e6ca9bef4b48",
+  "nativeReturnedFile": "/Users/jasonlaster/.codex/generated_images/01a12bc2-323e-7fa2-b1fe-7b6f48b42514/exec-a34eead6-2432-4e8e-89d7-7e9366d3d338.png",
+  "nativeCopy": "/tmp/education-curriculum-wave13/next-gap-038/native/tdlu-branching-neighborhood-v1-dark.png",
+  "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83",
+  "bytes": 2606928,
+  "IHDR": [
+    1254,
+    1254
+  ],
+  "soleReference": "/tmp/education-curriculum-wave13/next-gap-038/native/tdlu-branching-neighborhood-v1-light.png",
+  "soleReferenceSha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036",
+  "independentBothLightReviewSha256": "1d0216e61e0ed4c13196f3a805ccd5e6316648ef43f98fc5e80933aedbe04f91",
+  "modifiedPixelsAfterReturn": false
+}

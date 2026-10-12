@@ -1,0 +1,21 @@
+{
+  "call": "calls/01-light-arguments.json",
+  "tool": "image_gen.imagegen",
+  "returnedKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "returnedModel": "unknown (not returned)",
+  "nativeReturnedFile": "/Users/jasonlaster/.codex/generated_images/01a12bc2-323e-7fa2-b1fe-7b6f48b42514/exec-7c353c31-8f4d-4acc-99d5-7b210fa39206.png",
+  "copiedOriginal": "/tmp/education-curriculum-wave13/next-gap-038/native/tdlu-branching-neighborhood-v1-light.png",
+  "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036",
+  "bytes": 2343006,
+  "IHDR": [
+    1254,
+    1254
+  ],
+  "argumentsSha256": "5cd63146f0d17eb98028cb9a8c872f3fa0b4b969568f59654579e85f43003443",
+  "generationGateReviewSha256": "d495e829855baba77fe8d8e8838ff72671c1a3c49ddb6cecdcc719597f0e101f",
+  "referenceImages": [],
+  "modifiedPixels": false
+}

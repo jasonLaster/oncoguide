@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "phase": "DERIVED_PROSPECTIVE_PUBLIC_PROVENANCE03_ACQUISITION_METADATA_EXCLUDED",
+  "id": "next-gap-039",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+  "currentOwnerBeforeSHA256": "bb046ac8d302b19b4520263aa83ce855a0ff5411d5b4f955e8ead7da3b9171a2",
+  "proposedOwnerSHA256": "294190cdc0fc62071c6b1ca1986b2ea8a1b3cd9a99a3b2cc022e4f9122f0040a",
+  "futureCommittedSource": null,
+  "author": "multiomics",
+  "model": null,
+  "modelMeaning": "Actual image_gen tool returned no model identity; original exact arguments and output_hint projections are retained.",
+  "sourceAccess": {
+    "path": "/tmp/education-curriculum-wave14/next-gap-039/brief-source-01/source-access.json",
+    "sha256": "07b6dad11a2d48278ea8a7d170e03d50435c9510e91c7f298fe137bce345cbb9",
+    "bytes": 7564,
+    "custodyQualification": "Original hash-bound source-access metadata remains private and is not an archive member. This is a historical metadata reference, not included body, reconstructed invocation or publication permission.",
+    "archiveMemberIncluded": false
+  },
+  "sourceAccessDepthQualification": "Only actual selected acquired/read depth and failures in the unchanged original record; full third-party bodies/literal collections/figures remain local and excluded.",
+  "selectedArtworks": [
+    {
+      "id": "route",
+      "stem": "hr-matching-template-route-v1",
+      "alt": "Three molecular scenes show prepared broken DNA with 3′ tails, RAD51-assisted antiparallel pairing with an intact sister template, and an illustrative repaired stretch copied from that template after DNA copying.",
+      "caption": "A prepared DNA end uses a matching sister template with RAD51 support. This simplified route applies when a suitable template is available; it omits many proteins and finishing steps.",
+      "sourceLinks": [
+        {
+          "label": "Jensen 2010",
+          "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2952063/"
+        },
+        {
+          "label": "Johnson and Jasin 2000",
+          "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC313931/"
+        }
+      ],
+      "variants": [
+        {
+          "theme": "light",
+          "native": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/route/hr-matching-template-route-v1-light.png",
+            "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+            "bytes": 2207242
+          },
+          "canonicalDestination": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+          "actualNativeDimensions": [
+            1024,
+            1536
+          ],
+          "generationReceipt": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/route/generation.json",
+            "sha256": "95ca71d9f43c00875f2f5812fd4230a20a40201d645b140ff8fe2c600ca6b58a",
+            "bytes": 2784
+          }
+        },
+        {
+          "theme": "dark",
+          "native": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/route/hr-matching-template-route-v1-dark.png",
+            "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+            "bytes": 1959146
+          },
+          "canonicalDestination": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+          "actualNativeDimensions": [
+            1024,
+            1536
+          ],
+          "generationReceipt": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/route/generation.json",
+            "sha256": "e875c1857c41994eff3cc679ac0003697031775bbc86d2c4c097f6ea92e25ec9",
+            "bytes": 2825
+          }
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "stem": "hr-scar-and-current-function-v1",
+      "alt": "Two illustrative timepoints retain the same chromosome-pattern marks while an earlier impaired repair scene becomes a possible template-supported repair scene; a separate question asks for current functional evidence.",
+      "caption": "Old genome patterns can remain while repair changes. This is one possible history, not an assay result: a gene finding, scar score and current function answer different questions.",
+      "sourceLinks": [
+        {
+          "label": "Cruz 2018",
+          "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5961353/"
+        },
+        {
+          "label": "Waks 2020",
+          "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7946408/"
+        }
+      ],
+      "variants": [
+        {
+          "theme": "light",
+          "native": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/history/hr-scar-and-current-function-v1-light.png",
+            "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3",
+            "bytes": 1878964
+          },
+          "canonicalDestination": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+          "actualNativeDimensions": [
+            1254,
+            1254
+          ],
+          "generationReceipt": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/history/generation.json",
+            "sha256": "94844b46dd4d296367ef53b849a3062d01e8e87d0ed43d0126147d1da2f286a0",
+            "bytes": 2800
+          }
+        },
+        {
+          "theme": "dark",
+          "native": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/history/hr-scar-and-current-function-v1-dark.png",
+            "sha256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9",
+            "bytes": 1970547
+          },
+          "canonicalDestination": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+          "actualNativeDimensions": [
+            1254,
+            1254
+          ],
+          "generationReceipt": {
+            "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/history/generation.json",
+            "sha256": "b9d09fb9c0106aae152d85d31552c82ae010788c46ac14ed59c777e66e824d15",
+            "bytes": 2841
+          }
+        }
+      ]
+    }
+  ],
+  "originalSixCallChain": [
+    {
+      "figure": "route",
+      "phase": "generation-light-01",
+      "originalArgumentFile": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/route/actual-call.json",
+        "sha256": "3c6f34995cb043c36f9e2f2b05ce0d0327716c8c3309ae08f98fcbd30298a151",
+        "bytes": 5293
+      },
+      "archiveArgumentMember": "generation-light-01/route/actual-call.json",
+      "originalPromptTXT": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/route/actual-prompt.txt",
+        "sha256": "ac105abe9d70856572f61d1a535a740a4192cf231bdbe3fa1da3c43cbf02181a",
+        "bytes": 5170
+      },
+      "originalGenerationReceipt": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/route/generation.json",
+        "sha256": "4734e399bf072fc6e0dd2710d8d2e78dfbe73776b52070b3fa169b5ca15fa2da",
+        "bytes": 2485
+      },
+      "originalToolMetadata": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/route/native-tool-metadata.json",
+        "sha256": "9a0f3feee79c6feae73db52ed3c619e17cb38f5e2386b8d365077b0d5a201159",
+        "bytes": 841
+      },
+      "tool": "image_gen.imagegen",
+      "actualModel": null,
+      "modelIdentityNotReported": true,
+      "actualOriginalOutputSHA256": "d93911199209e6dddfebd84b5949efdd39681554779afebb5d262901859a2724",
+      "actualOriginalOutputDimensions": [
+        1024,
+        1536
+      ],
+      "outputSelectedForTeaching": false,
+      "actualOriginalReferencePaths": [],
+      "literalCallsReconstructedOrAliased": false,
+      "referenceQualification": "Original new generation, no reference image."
+    },
+    {
+      "figure": "route",
+      "phase": "generation-light-edit-01",
+      "originalArgumentFile": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/route/actual-call.json",
+        "sha256": "d8fc8db18e4f76e1cdf6a1a862352f0e06e8ae4fb8c7573c099eac14d7602cec",
+        "bytes": 2191
+      },
+      "archiveArgumentMember": "generation-light-edit-01/route/actual-call.json",
+      "originalPromptTXT": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/route/actual-prompt.txt",
+        "sha256": "d76f3fcacd39c25a082dec3e299f93f7e3c7a815124332b233d389ca38bd350c",
+        "bytes": 1961
+      },
+      "originalGenerationReceipt": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/route/generation.json",
+        "sha256": "95ca71d9f43c00875f2f5812fd4230a20a40201d645b140ff8fe2c600ca6b58a",
+        "bytes": 2784
+      },
+      "originalToolMetadata": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/route/native-tool-metadata.json",
+        "sha256": "4ef5e1436cb6be3f0127febc1890d4ac5f29017f156ec01315306588603f2f0c",
+        "bytes": 841
+      },
+      "tool": "image_gen.imagegen",
+      "actualModel": null,
+      "modelIdentityNotReported": true,
+      "actualOriginalOutputSHA256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "actualOriginalOutputDimensions": [
+        1024,
+        1536
+      ],
+      "outputSelectedForTeaching": true,
+      "actualOriginalReferencePaths": [
+        "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/route/hr-matching-template-route-v1-light.png"
+      ],
+      "literalCallsReconstructedOrAliased": false,
+      "referenceQualification": "Exact original reference string retained. Corrective LIGHT calls refer to rejected original LIGHT rasters retained only locally; public archive is not self-contained replay."
+    },
+    {
+      "figure": "route",
+      "phase": "generation-dark-01",
+      "originalArgumentFile": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/route/actual-call.json",
+        "sha256": "c0f58715ef924dc58e66674d0f2edc0fca253ec95aab00883ba2d115b023fa90",
+        "bytes": 1882
+      },
+      "archiveArgumentMember": "generation-dark-01/route/actual-call.json",
+      "originalPromptTXT": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/route/actual-prompt.txt",
+        "sha256": "20c487018c8e43e576b56bd92256fb2422325aebb006fa3fdf9baa6288645c29",
+        "bytes": 1667
+      },
+      "originalGenerationReceipt": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/route/generation.json",
+        "sha256": "e875c1857c41994eff3cc679ac0003697031775bbc86d2c4c097f6ea92e25ec9",
+        "bytes": 2825
+      },
+      "originalToolMetadata": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/route/native-tool-metadata.json",
+        "sha256": "f3790f3274f004628e36757f90b6dbe57a045a1af887b9e3907518c62106d588",
+        "bytes": 841
+      },
+      "tool": "image_gen.imagegen",
+      "actualModel": null,
+      "modelIdentityNotReported": true,
+      "actualOriginalOutputSHA256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "actualOriginalOutputDimensions": [
+        1024,
+        1536
+      ],
+      "outputSelectedForTeaching": true,
+      "actualOriginalReferencePaths": [
+        "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/route/hr-matching-template-route-v1-light.png"
+      ],
+      "literalCallsReconstructedOrAliased": false,
+      "referenceQualification": "Exact accepted light source reference and hash are separately bound; local absolute reference paths are not silently rewritten."
+    },
+    {
+      "figure": "history",
+      "phase": "generation-light-01",
+      "originalArgumentFile": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/history/actual-call.json",
+        "sha256": "57e2f0a6fcf17f084f8ee131624a2890694a240050ebe3cbb2e3d8f2ac6c6abb",
+        "bytes": 3582
+      },
+      "archiveArgumentMember": "generation-light-01/history/actual-call.json",
+      "originalPromptTXT": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/history/actual-prompt.txt",
+        "sha256": "43bb665e5cd859f2f967566ecdb6591ff2e61aca2c20dde95ff5a97ada50a1c5",
+        "bytes": 3491
+      },
+      "originalGenerationReceipt": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/history/generation.json",
+        "sha256": "79b4076d75f5366f1368b76386c33678064f3b905607bc8044f3ad9e04f65133",
+        "bytes": 2430
+      },
+      "originalToolMetadata": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/history/native-tool-metadata.json",
+        "sha256": "f9a405a65d0a1e8a560254d20cf54a874760547737611876b7f91414a4502586",
+        "bytes": 841
+      },
+      "tool": "image_gen.imagegen",
+      "actualModel": null,
+      "modelIdentityNotReported": true,
+      "actualOriginalOutputSHA256": "6a77bef774551619250937976fa600ac1ca49c8feadb54f5e9066fdb1e144511",
+      "actualOriginalOutputDimensions": [
+        1254,
+        1254
+      ],
+      "outputSelectedForTeaching": false,
+      "actualOriginalReferencePaths": [],
+      "literalCallsReconstructedOrAliased": false,
+      "referenceQualification": "Original new generation, no reference image."
+    },
+    {
+      "figure": "history",
+      "phase": "generation-light-edit-01",
+      "originalArgumentFile": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/history/actual-call.json",
+        "sha256": "d22eb083a9c5781fcf15916e655e39bf56bd62be85ff3bd7a4b07be7b7972d02",
+        "bytes": 2059
+      },
+      "archiveArgumentMember": "generation-light-edit-01/history/actual-call.json",
+      "originalPromptTXT": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/history/actual-prompt.txt",
+        "sha256": "b827e31cdfd0fd124db2f6baf7111d78e266be76fd0bb95f2a8e37c76058bf98",
+        "bytes": 1843
+      },
+      "originalGenerationReceipt": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/history/generation.json",
+        "sha256": "94844b46dd4d296367ef53b849a3062d01e8e87d0ed43d0126147d1da2f286a0",
+        "bytes": 2800
+      },
+      "originalToolMetadata": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/history/native-tool-metadata.json",
+        "sha256": "554fc481233337429c1d555778bc93659f5a4a8e867e61ca094fa258b8110b7e",
+        "bytes": 841
+      },
+      "tool": "image_gen.imagegen",
+      "actualModel": null,
+      "modelIdentityNotReported": true,
+      "actualOriginalOutputSHA256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3",
+      "actualOriginalOutputDimensions": [
+        1254,
+        1254
+      ],
+      "outputSelectedForTeaching": true,
+      "actualOriginalReferencePaths": [
+        "/tmp/education-curriculum-wave14/next-gap-039/generation-light-01/history/hr-scar-and-current-function-v1-light.png"
+      ],
+      "literalCallsReconstructedOrAliased": false,
+      "referenceQualification": "Exact original reference string retained. Corrective LIGHT calls refer to rejected original LIGHT rasters retained only locally; public archive is not self-contained replay."
+    },
+    {
+      "figure": "history",
+      "phase": "generation-dark-01",
+      "originalArgumentFile": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/history/actual-call.json",
+        "sha256": "073b097250e9d87e87a2f54a66c0571231d62c3bb34d93c859d8ef2b6ae20e4b",
+        "bytes": 2025
+      },
+      "archiveArgumentMember": "generation-dark-01/history/actual-call.json",
+      "originalPromptTXT": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/history/actual-prompt.txt",
+        "sha256": "d1e5dec05bbced4e02c65c2fe15651d1c6f055366f5303d22a275a76e7cb6785",
+        "bytes": 1806
+      },
+      "originalGenerationReceipt": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/history/generation.json",
+        "sha256": "b9d09fb9c0106aae152d85d31552c82ae010788c46ac14ed59c777e66e824d15",
+        "bytes": 2841
+      },
+      "originalToolMetadata": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-039/generation-dark-01/history/native-tool-metadata.json",
+        "sha256": "397a5372d21285a7ada8a11122a53f83f92b6a99be49df4b42365fffa2245032",
+        "bytes": 841
+      },
+      "tool": "image_gen.imagegen",
+      "actualModel": null,
+      "modelIdentityNotReported": true,
+      "actualOriginalOutputSHA256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9",
+      "actualOriginalOutputDimensions": [
+        1254,
+        1254
+      ],
+      "outputSelectedForTeaching": true,
+      "actualOriginalReferencePaths": [
+        "/tmp/education-curriculum-wave14/next-gap-039/generation-light-edit-01/history/hr-scar-and-current-function-v1-light.png"
+      ],
+      "literalCallsReconstructedOrAliased": false,
+      "referenceQualification": "Exact accepted light source reference and hash are separately bound; local absolute reference paths are not silently rewritten."
+    }
+  ],
+  "archive": {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hrd-039-public-provenance.zip",
+    "sha256": "66111507b0fc2a866d795ff43f742490026b99e72c558990048b5f95dc780041",
+    "bytes": 148227,
+    "originalOwnedMembers": 81,
+    "allMemberNamesAndBytesBound": true,
+    "rejectedNativeRastersIncluded": false,
+    "thirdPartyBodiesIncluded": false,
+    "selfContainedImageReplay": false,
+    "privateAndUnapprovedSealsIncluded": false,
+    "excludedHistoricalSealMembers": [
+      "dark-pair-peer-review-01/seal.json",
+      "generation-light-01/manifest.json",
+      "generation-light-edit-01/manifest.json",
+      "generation-dark-01/manifest.json"
+    ],
+    "totalMembersIncludingIndex": 82,
+    "excludedAcquisitionMetadataMembers": [
+      "brief-source-01/nci-acquisition-01.json",
+      "brief-source-01/source-access.json",
+      "brief-source-01/source-additional-acquisition-01.json",
+      "brief-source-01/source-acquisition-01.json"
+    ],
+    "privateAcquisitionMetadataIncluded": false
+  },
+  "originalIndependentReviewReceipts": [
+    {
+      "path": "/tmp/education-curriculum-wave14/next-gap-039/brief-source-peer-review-01/review.json",
+      "sha256": "c0902935fee9c6fecd09d911717998b9eedf202c83d03d09a4b6d4136a18061c",
+      "bytes": 30649
+    },
+    {
+      "path": "/tmp/education-curriculum-wave14/next-gap-039/brief-source-peer-review-02/review.json",
+      "sha256": "12a6387914316973c97e2830ebab7df0feb9fde376c4f2731dc1c15099aca589",
+      "bytes": 31386
+    },
+    {
+      "path": "/tmp/education-curriculum-wave14/next-gap-039/light-peer-review-01/review.json",
+      "sha256": "ca31f1c032f25e89c016dbdaeeb7bf433658baadf52f1deace9d20e3c8f823b3",
+      "bytes": 30641
+    },
+    {
+      "path": "/tmp/education-curriculum-wave14/next-gap-039/light-peer-review-02/review.json",
+      "sha256": "143f03965bccbf9245e076f276b822e73c546c26225dc4a2125e202888058b1a",
+      "bytes": 46752
+    },
+    {
+      "path": "/tmp/education-curriculum-wave14/next-gap-039/dark-pair-peer-review-01/review.json",
+      "sha256": "2950d2eca3bbabc680e8a4911f53d2eb10d532f5229f200e4c6c9f82eb209ae6",
+      "bytes": 9926
+    }
+  ],
+  "reviewScopeMeaning": "Original source/creative and actual local pair judgments remain their own scopes and verdicts. No producer-created scientific approval or whole-owner acceptance.",
+  "currentNativePairReview": {
+    "path": "/tmp/education-curriculum-wave14/next-gap-039/dark-pair-peer-review-01/review.json",
+    "sha256": "2950d2eca3bbabc680e8a4911f53d2eb10d532f5229f200e4c6c9f82eb209ae6",
+    "bytes": 9926
+  },
+  "wholeOwnerAcceptance": null,
+  "actualSourceFitAssessment": null,
+  "humanReview": "pending",
+  "coverageCredit": 0,
+  "canonicalWrites": 0,
+  "originalWholeOwnerReview": {
+    "path": "/tmp/education-curriculum-wave14/next-gap-039/prospective-whole-owner-peer-review-01/review.json",
+    "sha256": "aa96174afda8e60eb410710ecf64595d59e4f06b85fae671a0d9e3e1f3e56b72",
+    "bytes": 11170
+  },
+  "originalWholeOwnerReviewScope": {
+    "originalPackageVerdict": "REVISE",
+    "exactOwnerTeaching": "PASS for the exact owner bytes and preserved actual-pair scope.",
+    "prospectiveSourceFit": {
+      "scope": "Prospective exact owner only; not a canonical overlay, coverage event or human certification.",
+      "assessment": "adequate",
+      "learnerTask": "Follow matching-template repair using a sister copy and distinguish a possible defect from a historical scar.",
+      "reason": "The accepted route pair depicts prepared ends, matching sister information, RAD51-supported contact, copied DNA and retained donor. Its new reading makes that sequence explicit and limits diagnosis from gene findings. The accepted history pair retains old marks while repair may change; its new reading separates historical patterns from current functional evidence and treatment choice. The original model, assay and indication qualifications remain untouched.",
+      "canonicalCreditAwarded": 0,
+      "actualAdoptionNeeded": true,
+      "humanReview": "pending"
+    },
+    "correctionMeaning": "Original review stays bound to01; no claimed acceptance of corrected public package02 or canonical adoption."
+  },
+  "correctedPackageIndependentAcceptance": null,
+  "capabilityChronology": {
+    "historical01": "Its original V1/unadopted-V3 annotations remain unchanged as historical statements.",
+    "currentLocalOncoHelperSHA256": "55cc1256d304c1be4b7f297f15a9e142486c4553fe5292b6a6cfa1b7a0125bc4",
+    "rootInstruction": "Reviewed V3 is now adopted locally, not yet committed/released.",
+    "actual039ExportAccepted": false,
+    "futureCommittedSource": null,
+    "inherited02ObservationNotFreshCommitOrExportAcceptance": true
+  },
+  "excludedAcquisitionMetadataOriginals": [
+    {
+      "member": "brief-source-01/nci-acquisition-01.json",
+      "sha256": "6eb366e28ef324fce49680b8db3db8a7d9ebe1fd3a0a1fd3e97673aed409bfd7",
+      "bytes": 566,
+      "reason": "Original explicitly private acquisition metadata retained locally; whole original excluded, no flags stripped."
+    },
+    {
+      "member": "brief-source-01/source-access.json",
+      "sha256": "07b6dad11a2d48278ea8a7d170e03d50435c9510e91c7f298fe137bce345cbb9",
+      "bytes": 7564,
+      "reason": "Original explicitly private acquisition metadata retained locally; whole original excluded, no flags stripped."
+    },
+    {
+      "member": "brief-source-01/source-additional-acquisition-01.json",
+      "sha256": "54eb828c24dc6d4a532863d05aadd063a5b7643c6140bd8c9218ede85a570c58",
+      "bytes": 1499,
+      "reason": "Original explicitly private acquisition metadata retained locally; whole original excluded, no flags stripped."
+    },
+    {
+      "member": "brief-source-01/source-acquisition-01.json",
+      "sha256": "e2e6c59c6c5f3280b32337fbf3e82c79f561d360c41e09676b5e3423b84fbc00",
+      "bytes": 3364,
+      "reason": "Original explicitly private acquisition metadata retained locally; whole original excluded, no flags stripped."
+    }
+  ],
+  "priorPackage02IndependentReview": {
+    "path": "/tmp/education-curriculum-wave14/next-gap-039/prospective-whole-owner-peer-review-02/review.json",
+    "sha256": "a79ec0bab6b11d182c01386c2f01030085ea4f6b3d2a2c69fb4f8561cd67f3ef",
+    "bytes": 8427
+  },
+  "priorPackage02ReviewScope": "Genuine historical02 acceptance is retained unchanged; it does not certify new03 membership. Actual source/creative/pixel/owner judgments stay bound to their original scopes.",
+  "correction03": {
+    "meaning": "Whole four explicitly private acquisition metadata originals excluded, with byte-exact originals retained locally. All seven owner/art/base-prompt files and six exact original call chains are unchanged.",
+    "membershipRule": "Finite81 originals plus one new index only; embedded old memberships are historical references and not recursively included.",
+    "prior02PublicOriginalMembers": 85,
+    "new03PublicOriginalMembers": 81,
+    "new03ZIPMembers": 82,
+    "requestedThreeExclusionCountWasFurtherNarrowedByActualRecursiveAudit": true,
+    "independent03Acceptance": null,
+    "canonicalReplacementByAuthor": false
+  }
+}

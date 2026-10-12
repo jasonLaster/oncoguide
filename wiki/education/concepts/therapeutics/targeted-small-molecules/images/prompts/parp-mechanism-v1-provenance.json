@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "kind": "Owned original molecular teaching cartoons",
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+  "sourceCommit": "f2f2635617e63cea513d38106e88cffca84e272b",
+  "frozenOwnerSHA256": "fa56f3bc7d9d386543e5c14b750a69ebba951ee32c1032ca5e682cf1ddb62ef3",
+  "assignmentSHA256": "98aa6c30219427d56330e5e8530f95f738657bf2b3fe792c9bd628aecea804da",
+  "learnerTask": "Compare catalytic inhibition with PARP trapped on DNA in a fork's path",
+  "gap": "Branched flow does not show protein occupancy or physical replication obstacle",
+  "accuracyGuardrails": "No clinical drug ranking; function/repair/exposure matter; scar not present defect",
+  "originalAccuracyGuardrailsType": "string",
+  "scope": "Activity and DNA occupancy are related questions that can coexist. Both activity scenes are DNA-bound; retained PARP1 on parental DNA lies ahead of a conceptual copying fork. Qualitative PAR chain lengths, simplified daughter DNA paths and a pre-encounter gap do not establish kinetics, atomic geometry, observed collisions, clinical drug ranking or patient benefit.",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23118055/",
+      "year": 2012,
+      "indexedTitle": "Trapping of PARP1 and PARP2 by Clinical PARP Inhibitors",
+      "manuscriptTitle": "Differential trapping of PARP1 and PARP2 by clinical PARP inhibitors",
+      "DOI": "10.1158/0008-5472.CAN-12-2753",
+      "accessDepth": "Complete primary abstract and selected methods/results/discussion plus caption text in official PMC XML. Rendered PMC challenged; XML used. No source figure pixels read or copied.",
+      "support": "Separate PAR synthesis and protein-DNA association readouts; dynamic exposure-dependent association and repair responses; proposed fork model.",
+      "limits": "Selected text, not a complete-article read or a measured fork-collision geometry. No clinical ranking."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/",
+      "year": 2020,
+      "accessDepth": "Complete primary abstract read; additional PMC XML search for scar found zero matching paragraphs. No matching scar paragraph was read.",
+      "support": "Repair restoration in selected resistant cases supports current-function distinction.",
+      "limits": "This search does not establish a fresh direct scar-persistence measurement; original owner damage-history context retained."
+    },
+    {
+      "url": "https://dctd.cancer.gov/drug-discovery-development/assays/pharmacodynamic-biomarker-assays/additional",
+      "accessDepth": "Official PAR Immunoassay section read; SOPs not opened.",
+      "support": "PAR levels as a catalytic-product readout."
+    },
+    {
+      "url": "https://dctd.cancer.gov/drug-discovery-development/reagents-materials/formulary/about/agents/olaparib",
+      "accessDepth": "Official Mechanism of Action paragraph read.",
+      "support": "Proposed trapping and potential replication block.",
+      "limits": "Historical monograph approvals/doses not used for new clinical claims."
+    }
+  ],
+  "creationMechanism": "Four actual native image_gen calls: two brand-new LIGHT scenes, then each DARK adapted solely from its own independently accepted LIGHT.",
+  "model": "unknown",
+  "modelEvidence": "Returned tool objects contain image_url and output_hint only; no model/version supplied.",
+  "nativeOutputs": [
+    {
+      "scene": "parp-catalytic-output-v1",
+      "theme": "light",
+      "file": "parp-catalytic-output-v1-light.png",
+      "sha256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386",
+      "bytes": 2155514,
+      "actualNativeIHDR": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "scene": "parp-catalytic-output-v1",
+      "theme": "dark",
+      "file": "parp-catalytic-output-v1-dark.png",
+      "sha256": "dbe7a1cccccf31175d04fcf857efdb062510e4dc299aa99e040fb1912cbc58c3",
+      "bytes": 2163505,
+      "actualNativeIHDR": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "scene": "parp-dna-occupancy-v1",
+      "theme": "light",
+      "file": "parp-dna-occupancy-v1-light.png",
+      "sha256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250",
+      "bytes": 1556858,
+      "actualNativeIHDR": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "scene": "parp-dna-occupancy-v1",
+      "theme": "dark",
+      "file": "parp-dna-occupancy-v1-dark.png",
+      "sha256": "e170bb9edd43ce132ce93b826c6f63de1590968de7bbd299d42fd39e4d300c80",
+      "bytes": 2234167,
+      "actualNativeIHDR": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "actualCallHistory": [
+    {
+      "actualCallStem": "parp-catalytic-output-v1-light-01",
+      "actualTool": "image_gen.imagegen",
+      "executedPromptFile": "parp-catalytic-output-v1-light-01.txt",
+      "executedPromptSHA256": "28edffa9e375616716663e78e81529916d07c1dcdea59b2c2acce1f67e01734e",
+      "exactPrivateArgsSHA256": "2a0371d8089745fd3f80fead5b421e1a67fd1ae0792f4d0d2709595a3806d8e7",
+      "outputSHA256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386",
+      "referenceSHA256": [],
+      "referenceCount": 0,
+      "model": "unknown",
+      "bytePreservedNative": true,
+      "postprocessing": "none",
+      "gate": "Independent pre-generation source/prompt PASS before brand-new LIGHT call"
+    },
+    {
+      "actualCallStem": "parp-catalytic-output-v1-dark-01",
+      "actualTool": "image_gen.imagegen",
+      "executedPromptFile": "parp-catalytic-output-v1-dark-01.txt",
+      "executedPromptSHA256": "182f9f441663295ba3ec5ae699c954571127486078e792d1aec25da24dd99d75",
+      "exactPrivateArgsSHA256": "248721b36d78df5ec792a207bc92f17f0ed0022f335224dc44376e4ca1698961",
+      "outputSHA256": "dbe7a1cccccf31175d04fcf857efdb062510e4dc299aa99e040fb1912cbc58c3",
+      "referenceSHA256": [
+        "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386"
+      ],
+      "referenceCount": 1,
+      "model": "unknown",
+      "bytePreservedNative": true,
+      "postprocessing": "none",
+      "gate": "Independent actual LIGHT PASS before own accepted-light-only DARK call"
+    },
+    {
+      "actualCallStem": "parp-dna-occupancy-v1-light-01",
+      "actualTool": "image_gen.imagegen",
+      "executedPromptFile": "parp-dna-occupancy-v1-light-01.txt",
+      "executedPromptSHA256": "ad6a7e5adf8f8a5a23975ca7b6a6c175375de3552b018ce1bc94a5ba293593dc",
+      "exactPrivateArgsSHA256": "c7fcc0dcc1011437cf8703bf20e3a61a64a5bea9d1c30e384a11f7d218b1d581",
+      "outputSHA256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250",
+      "referenceSHA256": [],
+      "referenceCount": 0,
+      "model": "unknown",
+      "bytePreservedNative": true,
+      "postprocessing": "none",
+      "gate": "Independent pre-generation source/prompt PASS before brand-new LIGHT call"
+    },
+    {
+      "actualCallStem": "parp-dna-occupancy-v1-dark-01",
+      "actualTool": "image_gen.imagegen",
+      "executedPromptFile": "parp-dna-occupancy-v1-dark-01.txt",
+      "executedPromptSHA256": "182f9f441663295ba3ec5ae699c954571127486078e792d1aec25da24dd99d75",
+      "exactPrivateArgsSHA256": "1206d86f4852e3822d7a6353cd8f47049637c0cdf4f4747c6028a35b01fb4ba3",
+      "outputSHA256": "e170bb9edd43ce132ce93b826c6f63de1590968de7bbd299d42fd39e4d300c80",
+      "referenceSHA256": [
+        "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250"
+      ],
+      "referenceCount": 1,
+      "model": "unknown",
+      "bytePreservedNative": true,
+      "postprocessing": "none",
+      "gate": "Independent actual LIGHT PASS before own accepted-light-only DARK call"
+    }
+  ],
+  "metadataCompatibility": "Explicit reviewed multi-scene call manifest uses actual light-01/dark-01 call names. No synthetic conventional call filename or unexecuted alias is asserted. Private exact args retain actual local reference paths; public reference custody uses SHA256 only.",
+  "independentActualLightGateSHA256": "839ce968c325bf7ebaf4be26f78b8d26dcb766427275e348fdb4a8e3895b3e4e",
+  "readabilityScope": "Independent actual LIGHT review at 400/360 viewport, image widths368/328 CSS. Local reviewer HTML approximation, not a production renderer. Final pair/integration evidence is held separately. Requested font size is not claimed as measured.",
+  "humanReview": "Expert and learner review pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "acceptanceScope": "Creation/source custody only; independent final pair, root selection, canonical integration, deployed readers, publishing, zero-change follow-ups and coverage accounting are separate records.",
+  "publicExclusions": [
+    "Full third-party papers or source figures",
+    "Rejected or superseded rasters",
+    "Raw tool image_url/base64 results",
+    "Private paths, cases and credentials",
+    "Whole author or reviewer directory archives"
+  ]
+}

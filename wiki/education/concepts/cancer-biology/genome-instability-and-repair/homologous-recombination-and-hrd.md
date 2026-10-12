@@ -35,11 +35,24 @@ After a cell copies its DNA, each chromosome has a closely matching sister copy.
 
 [BRCA1 and BRCA2](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2) are repair proteins, named for the genes that encode them. Together with partners, they help coordinate HR. RAD51, another repair protein, helps find and pair with the matching template. A damaging change in a repair gene can impair the pathway, but finding *any* variant in that gene does not establish HRD. The variant's effect, remaining working copies, and other repair machinery matter.
 
+<div class="my-6">
+<img src="./images/hr-matching-template-route-v1-light.png" width="1024" height="1536" data-theme-pair alt="Three molecular scenes show prepared broken DNA with 3′ tails, RAD51-assisted antiparallel pairing with an intact sister template, and an illustrative repaired stretch copied from that template after DNA copying.">
+<p><em>A prepared DNA end uses a matching sister template with RAD51 support. This simplified route applies when a suitable template is available; it omits many proteins and finishing steps. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2952063/">Jensen 2010</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC313931/">Johnson and Jasin 2000</a></em></p>
+<p>Read the drawing from top to bottom: a prepared blue 3′ end finds matching information in the sister template; the coral stretch shows newly copied DNA, and the template remains. This is one successful route when a suitable template is available. An interruption in repair could indicate a problem, but the drawing does not diagnose its cause or establish HRD from a gene finding.</p>
+</div>
+
 [BRCAness](/wiki/education/concepts/breast-cancer/hereditary-risk/brcaness) is a research description of BRCA-like biology without an identified BRCA1/2 mutation. Its definition and evidence need to stay attached; it is not a single interchangeable assay result.
 
 Repair failure can leave [genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars), persistent patterns that describe accumulated damage rather than today's repair capacity. Different assays and cutoffs need their own validation for a defined treatment and cancer setting. Telli and colleagues studied one scar-based score in triple-negative breast cancer treated with chemotherapy before surgery; that setting does not establish a universal drug-response cutoff. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
 
 A tumor can retain old scars while a surviving population restores repair. A **BRCA reversion** is a later genetic change that restores a previously disrupted protein's function, sometimes by restoring its readable coding sequence. Such changes were observed in a selected metastatic breast cancer cohort after resistance to repair-targeting treatment. That study did not estimate their frequency in all breast cancers. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+
+<div class="my-6">
+<img src="./images/hr-scar-and-current-function-v1-light.png" width="1254" height="1254" data-theme-pair alt="Two illustrative timepoints retain the same chromosome-pattern marks while an earlier impaired repair scene becomes a possible template-supported repair scene; a separate question asks for current functional evidence.">
+<p><em>Old genome patterns can remain while repair changes. This is one possible history, not an assay result: a gene finding, scar score and current function answer different questions. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5961353/">Cruz 2018</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7946408/">Waks 2020</a></em></p>
+<p>Compare the two timepoints: the old pattern marks stay while repair may recover. The marks describe history, so they cannot by themselves tell us how repair works now. A possible repair-gene defect and a current functional result need their own evidence and controls; neither this drawing nor the retained marks determine treatment choice.</p>
+<p><a href="./images/prompts/hrd-039-public-provenance.json">Drawing provenance</a> · <a href="./images/prompts/hrd-039-public-provenance.zip">Original prompts and review records</a></p>
+</div>
 
 ## Why it matters in cancer
 

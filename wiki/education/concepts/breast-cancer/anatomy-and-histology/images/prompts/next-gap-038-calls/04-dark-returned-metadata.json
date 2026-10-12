@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "unknown (not returned)",
+  "arguments": "calls/04-dark-arguments.json",
+  "argumentsSha256": "89ef74539277832e1894c85f21930bffec79ab404c1994792a0330a6eacdbb96",
+  "nativeReturnedFile": "/Users/jasonlaster/.codex/generated_images/01a12bc2-323e-7fa2-b1fe-7b6f48b42514/exec-3ab8c9dc-7da5-4515-802d-2781acd27dd0.png",
+  "nativeCopy": "/tmp/education-curriculum-wave13/next-gap-038/native/tdlu-nested-boundary-v1-dark.png",
+  "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa",
+  "bytes": 2664615,
+  "IHDR": [
+    1254,
+    1254
+  ],
+  "soleReference": "/tmp/education-curriculum-wave13/next-gap-038/native/tdlu-nested-boundary-v1-light.png",
+  "soleReferenceSha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608",
+  "independentBothLightReviewSha256": "1d0216e61e0ed4c13196f3a805ccd5e6316648ef43f98fc5e80933aedbe04f91",
+  "modifiedPixelsAfterReturn": false
+}

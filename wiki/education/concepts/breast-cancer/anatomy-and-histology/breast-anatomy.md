@@ -27,6 +27,14 @@ Breast tissue contains branching ducts connected to milk-producing lobules, with
 
 Picture a branching system with small production rooms at its ends. The rooms help you picture lobules, and the connecting routes help you picture ducts. This is an anatomy aid: milk moves through the duct system during lactation, but a cancer does not have to follow that route or begin in a particular room.
 
+<img src="./images/tdlu-branching-neighborhood-v1-light.png" width="1254" height="1254" alt="A normal tissue cutaway shows a larger duct connected to a terminal duct and branching hollow acini, grouped as one TDLU with stroma between them" data-theme-pair>
+
+*One illustrative TDLU contains a terminal duct and its associated acini; stroma surrounds and separates them. The grouping bracket is an annotation, not a capsule or basement membrane. Counts and shapes vary; this is normal anatomy, not a cancer route.*
+
+<img src="./images/tdlu-nested-boundary-v1-light.png" width="1254" height="1254" alt="A magnified normal acinus shows a lumen, luminal epithelial cells, nucleated myoepithelial cells, an extracellular basement membrane and surrounding stroma" data-theme-pair>
+
+*From the lumen outward: luminal cells, living myoepithelial cells, extracellular basement membrane, then surrounding stroma. Cell membranes and basement membrane are different structures. This simplified cutaway is not to scale or a diagnostic test.*
+
 ## How it works
 
 A **duct** is a channel lined by epithelial cells. **Lobules** contain small glandular structures called **acini**, where milk is produced during lactation. Lobules are grouped into larger lobes. The amount and arrangement of glandular and fatty tissue vary with physiology and life stage; a schematic is not a fixed count of structures in every breast.
@@ -93,6 +101,8 @@ Source check: October 10, 2026. General adult breast anatomy; the exercise is fi
 - [NCI SEER training: mammary glands](https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html) — lobes, lobules, ducts and surrounding tissue.
 - [NCI: terminal duct lobular unit involution](https://dceg.cancer.gov/research/cancer-types/breast-cancer/tdlu-involution-with-komen) — TDLUs, acini and physiological variation.
 - [Kumar et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37380767/) — single-cell and spatial measurements of adult human breast compartments; an anatomical research reference, not a diagnostic rule.
+
+Illustration source check: October 11, 2026. The new normal-anatomy schematics use selected adult-breast organization passages in [Kumar et al., 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC11443819/), normal-tissue Figure 1–3 caption text in [Thi et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11459906/), and the bilayer/basement-membrane anatomy described in [Gudjonsson et al., 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC2933194/). Selected primary text and caption passages support the normal anatomy shown; source figures were not copied. The illustrations do not establish diagnosis or universal cell counts. Earlier source scopes and human-review status remain unchanged.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

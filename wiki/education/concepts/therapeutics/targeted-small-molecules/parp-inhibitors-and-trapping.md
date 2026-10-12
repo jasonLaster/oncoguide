@@ -37,6 +37,20 @@ DNA-copying machinery can encounter that obstacle. The resulting [replication st
 
 Compounds can differ in trapping despite inhibiting PARP activity. In Murai's experimental comparisons, niraparib and olaparib trapped PARP more strongly than veliparib. That finding belongs to the tested systems and exposures. It does not rank the best medicine for a person or equate stronger trapping with greater clinical benefit. [Murai 2012](https://pubmed.ncbi.nlm.nih.gov/23118055/).
 
+### Two questions at the same damaged DNA site
+
+<img src="./images/parp-catalytic-output-v1-light.png" alt="Matched DNA-bound PARP1 scenes show a PAR chain and less PAR synthesis with a generic inhibitor in the catalytic pocket" width="1254" height="1254" data-theme-pair>
+
+*Catalytic inhibition reduces synthesis of poly(ADP-ribose) (PAR), an ADP-ribose signal polymer. Both snapshots show DNA-bound PARP1; the activity comparison does not measure how long it remains bound.*
+
+<img src="./images/parp-dna-occupancy-v1-light.png" alt="A replication fork approaches retained PARP1 on the intact DNA ahead, with a visible gap before encounter" width="1254" height="1254" data-theme-pair>
+
+*DNA occupancy asks what remains in the copying machinery's path. A retained PARP1–DNA complex can obstruct replication; this conceptual fork sketch does not show a measured collision or guarantee its outcome.*
+
+These related effects can occur together. PAR-level assays investigate catalytic output; DNA-associated PARP measurements investigate occupancy under specified conditions. Exposure, present repair function and other cell responses matter. A genomic scar records damage history, rather than establishing a repair defect today. Neither picture ranks medicines or predicts patient benefit. The scenes use PARP1 as one representative PARP protein. [Murai 2012](https://pubmed.ncbi.nlm.nih.gov/23118055/), [NCI PAR assay](https://dctd.cancer.gov/drug-discovery-development/assays/pharmacodynamic-biomarker-assays/additional), [NCI mechanism description](https://dctd.cancer.gov/drug-discovery-development/reagents-materials/formulary/about/agents/olaparib).
+
+Artwork source check: 2026-10-11. Primary research sections and caption text support the activity/association distinction; the fork is an original explanatory model. No source figure was copied. Expert and learner review remain pending.
+
 ```mermaid
 flowchart TD
  A["PARP inhibitor"] --> B["Less catalytic<br/>activity"]

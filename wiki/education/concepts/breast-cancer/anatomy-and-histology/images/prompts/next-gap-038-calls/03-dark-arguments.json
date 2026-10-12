@@ -1,0 +1,7 @@
+{
+  "prompt": "Create the DARK THEME rendering of this accepted educational cartoon using the sole reference image. Change only the page/background palette and ink contrast: quiet deep charcoal-blue ground, readable pale labels, and softly muted rose cells, sage living myoepithelial cells, blue extracellular basement membrane and sand connective stroma. Preserve the hand-painted watercolor/gouache texture and subtle depth; no neon glow, harsh luminous edges or new 3D style.\nKeep EXACTLY the same composition, all objects and their quantities, hollow spaces, individual nuclei/cell membranes, tissue boundaries, branch connections, labels, font hierarchy, grouping bracket or magnification inset, pointer endpoints, caveats, framing and native square aspect ratio. Do not invent or delete anything. Every label must remain verbatim. Living myoepithelial cells retain visible nuclei and cell boundaries; the blue extracellular basement membrane remains acellular and distinct. The TDLU grouping remains an annotation, never a shared capsule. No new milk, invasion or metastasis arrow. Do not crop the edges or move a label. The only input image is the accepted matching LIGHT native, not another illustration or source figure. Produce one native square PNG with the same scientific scene.",
+  "referenced_image_paths": [
+    "/tmp/education-curriculum-wave13/next-gap-038/native/tdlu-branching-neighborhood-v1-light.png"
+  ],
+  "transparent_background": false
+}

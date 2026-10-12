@@ -1,0 +1,9 @@
+{
+  "returnedKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to /Users/jasonlaster/.codex/generated_images/01a12bc2-323e-7fa2-b1fe-7b6f48b42514 as /Users/jasonlaster/.codex/generated_images/01a12bc2-323e-7fa2-b1fe-7b6f48b42514/exec-a34eead6-2432-4e8e-89d7-7e9366d3d338.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "image_url": "Pixel data omitted; exact native PNG retained.",
+  "model": "unknown (not returned)"
+}
