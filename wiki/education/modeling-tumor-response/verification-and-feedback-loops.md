@@ -60,7 +60,7 @@ The offered group has 30 donors: 20 reportable model results and ten no-results.
 
 The 20 reportable cases have this complete, invented matrix. True positive (TP) and false positive (FP) have positive predictions; false negative (FN) and true negative (TN) have negative predictions. “True” refers only to the stipulated exercise labels.
 
-| Locked v1 prediction | Reference positive | Reference negative | Total |
+| Locked v1<br>prediction | Reference positive | Reference negative | Total |
 |---|---|---|---|
 | Positive | TP: 6 | FP: 3 | 9 |
 | Negative | FN: 2 | TN: 9 | 11 |

@@ -37,7 +37,7 @@ The [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-a
 
 Read [immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) for tissue location and distribution, and [flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) for defined cell populations. A staining antibody, the proposed receptor's binder and a soluble-protein assay may recognize different features. Keep their identities visible.
 
-| Research label and molecular identity | What the receptor must read | Tumor-coverage measurement | Healthy-tissue measurement | Source context and boundary |
+| Research label<br>and molecular<br>identity | What the receptor must read | Tumor-coverage measurement | Healthy-tissue measurement | Source context and boundary |
 |---|---|---|---|---|
 | **TROP2**: trophoblast cell-surface antigen 2, encoded by TACSTD2 | The actual binder's accessible TROP2 epitope | Membrane distribution plus binder-matched intact-cell binding; include negative cells | Matched binding and functional tests in relevant epithelial tissues | [Sun 2025](https://jitc.bmj.com/content/13/9/e012442): human TNBC cells and separate human-TROP2 mouse systems. Their results are not patient safety. |
 | **B7-H3**: CD276 | In the cited design, a B7-H3 sensor supplies a priming input; the induced CAR reads TROP2 | Measure both inputs, their joint distribution and receptor induction/persistence | Test priming and downstream recognition in healthy contexts, not each stain alone | [Sun 2025](https://jitc.bmj.com/content/13/9/e012442): conditional preclinical design. A static double-positive image cannot establish its timing. |
@@ -76,7 +76,7 @@ For [engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therap
 
 **B7-H3/TROP2 synthetic Notch design: a conditional surface target.** A 2025 primary study tested a B7-H3 sensor that induced a CAR against trophoblast cell-surface antigen 2 (TROP2). Human-cell experiments assessed tumor activity. Separate mouse-cell versions tested injury in mice engineered to express human TROP2. The ungated design damaged lungs; the gated version avoided the measured injury in that model. This is [preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence), not demonstrated patient safety. B7-H3 detection, induction delay and persistence of the induced receptor remain distinct questions. [Primary study](https://jitc.bmj.com/content/13/9/e012442).
 
-| Recognition specification | What must be present? | Measurement still needed |
+| Recognition<br>specification | What must be present? | Measurement still needed |
 |---|---|---|
 | TROP2-directed surface CAR | Accessible TROP2 epitope | Tumor coverage and normal-tissue recognition by that CAR |
 | B7-H3-induced TROP2 CAR | Priming signal plus the induced receptor's target | Joint distribution, induction, persistence and function |

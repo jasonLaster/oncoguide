@@ -66,7 +66,7 @@ Formulation then defines how the RNA is packaged and delivered. Particle composi
 
 All three examples below encode personalized antigens. They differ in formulation, route, cancer setting and treatment sequence. Some papers call lipoplexes nanoparticles; inspect the actual formulation rather than relying on the label alone. Read each row as a study record, not as a dosing recommendation.
 
-| Study product and population | Formulation and route | Published protocol context | What the comparison can establish |
+| Study product<br>and population | Formulation and route | Published protocol context | What the comparison can establish |
 |---|---|---|---|
 | **TNBC-MERIT**, early-stage triple-negative breast cancer after standard treatment | Non-nucleoside-modified uridine RNA; **RNA-LPX, intravenous** | Phase I, single arm; the personalized course used eight administrations, with six weekly followed by two every other week | Feasibility and immune-response findings in this setting; it does not isolate recurrence-prevention benefit |
 | **Autogene cevumeran**, Rojas et al., resected pancreatic ductal adenocarcinoma | Uridine RNA; **RNA-LPX, intravenous** | Phase I, single arm; surgery followed by atezolizumab, vaccine priming, chemotherapy and a later vaccine booster | Immune-response and clinical associations within a combined treatment sequence; it cannot isolate vaccine benefit |
@@ -105,7 +105,7 @@ A fictional team keeps the target-window labels and formulation, but shortens an
 
 The reporter is a stipulated expression surrogate, not a validated measure of target-B display. The display assay reports relative cell-surface target-B peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) signal in one defined laboratory model.
 
-| Matched pair | RNA amount (mg), before → after | Reporter activity (arbitrary units), before → after | Target-B display signal (arbitrary units), before → after |
+| Matched pair | RNA amount (mg), before → after | Reporter activity<br>(arbitrary units),<br>before → after | Target-B display signal<br>(arbitrary units),<br>before → after |
 |---|---|---|---|
 | A | 1 → 1 | 100 → 104 | 9 → 3 |
 | B | 1 → 1 | 98 → 101 | 8 → 3 |
