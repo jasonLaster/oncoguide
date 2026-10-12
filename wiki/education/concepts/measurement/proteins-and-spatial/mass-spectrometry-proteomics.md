@@ -40,7 +40,7 @@ Here is the tricky part: two candidate proteins can contain the same peptide seq
 
 Keep the sample boundary attached, too. A bulk tissue extract combines cells and loses their original positions. Even a higher receptor-derived peptide signal does not directly count accessible receptors on each cancer cell. That next question needs suitable cell-specific and surface evidence. The existing owner's assay card defines this limit; this draft does not supply a surface measurement.
 
-<img src="./images/peptide-observation-and-protein-inference-v1-light.svg" alt="Three scenes show proteins from a mixed tissue extract cut into peptides, a measured peptide signal matching a shared segment in two candidate protein sequences, and unresolved questions about the intact form, cell source and surface accessibility." data-theme-pair>
+<img src="./images/peptide-observation-and-protein-inference-v1-light.svg" alt="Three scenes show proteins from a mixed tissue extract cut into peptides, a measured peptide signal matching a shared segment in two candidate protein sequences, and unresolved questions about the intact form, cell source and surface accessibility." width="780" height="2120" data-theme-pair>
 
 In this fictional bottom-up example, peptide evidence supports an inference about possible protein sources; a shared peptide alone does not uniquely identify an intact protein or count accessible receptors on cancer cells. Candidate drawings and signal traces are schematic.
 

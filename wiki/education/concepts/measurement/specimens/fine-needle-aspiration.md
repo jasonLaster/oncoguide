@@ -40,7 +40,7 @@ A thin needle obtains cells or fluid from a selected site. **Cytology** is the e
 
 A continuous core keeps some neighboring cells in their local arrangement. A fine needle aspiration (FNA) collects cells and fluid; it can also contain cell clusters and small tissue fragments. Those are useful findings, not an empty substitute for a core. A suitable cell block can prepare recovered material for sections or added tests. It does not restore the original lesion's full spatial map. Suitability still depends on the question and preparation.
 
-<img src="./images/core-versus-recovered-material-v2-light.svg" alt="Two schematic panels compare neighboring cells in a continuous core with a vessel containing fluid, individual cells, a cell cluster and a small tissue fragment; an optional preparation arrow leads from the recovered material to a cell block that does not reconstruct its original locations." data-theme-pair>
+<img src="./images/core-versus-recovered-material-v2-light.svg" alt="Two schematic panels compare neighboring cells in a continuous core with a vessel containing fluid, individual cells, a cell cluster and a small tissue fragment; an optional preparation arrow leads from the recovered material to a cell block that does not reconstruct its original locations." width="780" height="1750" data-theme-pair>
 
 Compare a continuous local core with recovered cells, fluid, clusters and fragments. An optional cell block can support suitable examination without recreating the original lesion's oriented architecture. The sketch is fictional and does not rank diagnostic accuracy or establish adequacy.
 

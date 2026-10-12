@@ -78,7 +78,7 @@ Start at the left of the picture, where the fragments live. Each bracket joins t
 
 Now follow the separate copy example. Several sequenced copies can trace back to one fragment. The instrument has made more observations, while the molecular ancestry remains shared. That is why a read count needs the preparation and counting rules beside it. A list of alignment records is another count again: one read may appear in several records. [SAM specification, sections 1.2 and 1.4](https://samtools.github.io/hts-specs/SAMv1.pdf)
 
-<img src="./images/paired-reads-and-fragment-ancestry-v1-light.svg" alt="Five labeled fragment rows each have a left-end read and a right-end read joined as one pair; a separate vignette traces three sequenced copies and their six reads back to one source fragment." data-theme-pair>
+<img src="./images/paired-reads-and-fragment-ancestry-v1-light.svg" alt="Five labeled fragment rows each have a left-end read and a right-end read joined as one pair; a separate vignette traces three sequenced copies and their six reads back to one source fragment." width="780" height="1880" data-theme-pair>
 
 Fictional example: ten overlapping paired-end reads represent at most five distinct library fragments; copies can reduce independent support further. The separate copy vignette shows ancestry, not a universal duplicate-filter rule or a count of cells.
 

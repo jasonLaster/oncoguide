@@ -43,7 +43,7 @@ A core can give you a close view of neighboring cells. That is useful: their arr
 
 When you read a result, keep two questions beside each other: “Can this material be read?” and “Does this material explain the target?” A beautifully preserved piece can still be the wrong window. The imaging and tissue findings need to be interpreted together. [ACR/RSNA biopsy information](https://www.radiologyinfo.org/en/info/breastbius)
 
-<img src="./images/core-is-a-local-window-v1-light.svg" alt="Three panels show a narrow sampled strip within an uneven tissue target, the matching tissue core enlarged with neighboring cells still together, and the examined window beside regions outside it that the core does not represent." data-theme-pair>
+<img src="./images/core-is-a-local-window-v1-light.svg" alt="Three panels show a narrow sampled strip within an uneven tissue target, the matching tissue core enlarged with neighboring cells still together, and the examined window beside regions outside it that the core does not represent." width="780" height="1750" data-theme-pair>
 
 A core preserves some local tissue relationships within a sampled window; its interpretation still depends on what was sampled and whether the finding explains the imaging target. This sketch shows no patient's tissue and makes no claim about adequate sample number or complete removal.
 

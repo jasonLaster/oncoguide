@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "c6fc78a3a594a0d2f27a9d850f6f5842bde9da22",
+  "reviewedSourceCommit": "d59be66e822d6d51cc460ecf4fe55e2d66884540",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -1390,7 +1390,7 @@
     {
       "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/paired-reads-and-fragment-ancestry-v1-public-custody.json",
       "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
-      "ownerSha256": "0a9ff5c81b0802d1ee63e5825cc89f72af9249dc99004d743a860346baab2d45",
+      "ownerSha256": "f4064f085b72a9975287d662cf7dde05436f072de7046cd65375730bbdd3f05d",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-light.svg",
@@ -1408,7 +1408,7 @@
     {
       "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-observation-and-protein-inference-v1-public-custody.json",
       "owner": "wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md",
-      "ownerSha256": "b039bbd697fba0de1f4e1984809b83d27912da4a45a0439f3fcf4064593ff5b3",
+      "ownerSha256": "27121bae26d471641a376f9f1e6e7937ebdb943d1baceb499f99bb716be64c2b",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg",
@@ -1426,7 +1426,7 @@
     {
       "path": "wiki/education/concepts/measurement/specimens/images/prompts/core-is-a-local-window-v1-public-custody.json",
       "owner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
-      "ownerSha256": "9074f241b5a7805190bd137120851b192d20cc58d1d24edb40d8a0248755226e",
+      "ownerSha256": "86c15a065655c90d3738108367bf6d6ad5b28b90e9dcd3ad4a9af36cafed47af",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
@@ -1444,7 +1444,7 @@
     {
       "path": "wiki/education/concepts/measurement/specimens/images/prompts/core-versus-recovered-material-v2-public-custody.json",
       "owner": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
-      "ownerSha256": "2977859cf57862d1c15c0bc17d69e70aca43c932f2190cf354677dc7f7807abd",
+      "ownerSha256": "038eb07a8ab641fdd87eb5444fa0e825d025eabccaf1f690f44284f2c1c167a4",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
@@ -1462,7 +1462,7 @@
     {
       "path": "wiki/education/concepts/measurement/specimens/images/prompts/sampled-pieces-versus-oriented-boundary-v2-public-custody.json",
       "owner": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
-      "ownerSha256": "de338c8e0439ea48e26d2ce2c33a03d4da4cb815a55285bb567dce89814de111",
+      "ownerSha256": "c8c66367124bf9351496c5ea5e8c8fb8618462e6f77a6d3fd91630d436751170",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",

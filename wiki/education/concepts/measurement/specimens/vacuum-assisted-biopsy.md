@@ -38,7 +38,7 @@ An image-guided probe is positioned near the target. Suction draws tissue into i
 
 Several vacuum-collected pieces can widen the material available for examination. Each still comes from a selected location. Compare those separate pieces with a documented, oriented excision specimen: its removed outer surfaces can be mapped to directions and selected microscopic sections. That map is a different kind of evidence. It still does not inspect every cell left in the body or guarantee that every edge is clear.
 
-<img src="./images/sampled-pieces-versus-oriented-boundary-v2-light.svg" alt="One panel links three selected schematic tissue locations to three separate vacuum-collected pieces; another shows an oriented removed specimen with a documented direction key, an inked outer surface and one mapped section, without a negative-margin or clearance label." data-theme-pair>
+<img src="./images/sampled-pieces-versus-oriented-boundary-v2-light.svg" alt="One panel links three selected schematic tissue locations to three separate vacuum-collected pieces; another shows an oriented removed specimen with a documented direction key, an inked outer surface and one mapped section, without a negative-margin or clearance label." width="780" height="1910" data-theme-pair>
 
 Separate sampled pieces can preserve local tissue without forming a continuous map of the lesion's outer boundary. An oriented excision provides a documented boundary for evaluation; neither its outline nor visible removal supplies a margin result or proves complete clearance. Counts and shapes are fictional.
 
