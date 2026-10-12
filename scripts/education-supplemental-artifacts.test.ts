@@ -4,7 +4,7 @@ import os from "node:os";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import matter from "../.renderer/node_modules/gray-matter";
-import { applySnapshot, hash, inventory, reconcile, sourceTreeFiles, supplementalArtworkArtifacts, validateReceipt, validateSupplementalArtifacts, type Receipt } from "./education-content-sync";
+import { applySnapshot, hash, inventory, MAX_SUPPLEMENTAL_ARTIFACTS, reconcile, sourceTreeFiles, supplementalArtworkArtifacts, validateReceipt, validateSupplementalArtifacts, type Receipt } from "./education-content-sync";
 
 const owner = "wiki/education/concepts/example/lesson.md";
 const artwork = "wiki/education/concepts/example/images/area-light.png";
@@ -248,7 +248,7 @@ test("joint artwork count and whole-manifest entry/byte limits remain bounded", 
   const f = jointFixture();
   const artworks = Array.from({length: 9}, (_, i) => ({path: artwork.replace("area-light", "area-" + i), sha256: hash("image-" + i)}));
   expect(() => validateSupplementalArtifacts({...f.manifest, artifacts: [{...f.entry, artworks}]})).toThrow();
-  const entries = Array.from({length: 201}, (_, i) => ({...f.entry, path: f.entry.path.replace("01-", i + "-")}));
+  const entries = Array.from({length: MAX_SUPPLEMENTAL_ARTIFACTS + 1}, (_, i) => ({...f.entry, path: f.entry.path.replace("01-", i + "-")}));
   expect(() => validateSupplementalArtifacts({...f.manifest, artifacts: entries})).toThrow("manifest");
   const full = entries.slice(0, 9).map(entry => ({...entry, bytes: 1024 * 1024}));
   expect(() => validateSupplementalArtifacts({...f.manifest, artifacts: full})).toThrow("byte limit");
@@ -463,4 +463,78 @@ test("v3 decoded safe model-unknown and pending metadata remain unchanged", () =
   const selected = f.select();
   expect(selected).toHaveLength(1); expect(selected[0].bytes).toEqual(bytes);
   expect(JSON.parse(selected[0].bytes.toString().slice("image_gen.imagegen\n".length))).toEqual(args);
+});
+
+// Fictional structural and privacy fixtures; no source export or clinical approval.
+function countFixture(count: number, text?: string) {
+  const f = jointFixture(text, false);
+  const entries = Array.from({ length: count }, (_, i) => ({
+    ...f.entry, path: f.entry.path.replace("joint-generation-receipt", "count-" + i),
+  }));
+  for (const entry of entries) f.files[entry.path] = f.files[f.entry.path];
+  return { ...f, manifest: { ...f.manifest, artifacts: entries },
+    sourcePaths: Object.keys(f.files).map(p => "obsidian/" + p) };
+}
+
+test("supplemental count preserves 200, admits 239 and 1000, and refuses 1001 even when inactive", () => {
+  expect(MAX_SUPPLEMENTAL_ARTIFACTS).toBe(1000);
+  for (const count of [200, 239, 1000]) {
+    const f = countFixture(count);
+    expect(validateSupplementalArtifacts(f.manifest)).toHaveLength(count);
+  }
+  const f = countFixture(1001);
+  expect(() => validateSupplementalArtifacts(f.manifest)).toThrow("manifest");
+  expect(() => supplementalArtworkArtifacts(f.manifest, {}, [], () => {
+    throw Error("Invalid count must stop before source reads");
+  }, matter, f.manifest.reviewedSourceCommit)).toThrow("manifest");
+});
+
+test("expanded count preserves the 8 MiB total, 1 MiB joint and 5 MiB legacy guards", () => {
+  const f = countFixture(239);
+  const full = f.manifest.artifacts.map((entry, i) => ({ ...entry,
+    bytes: i < 8 ? 1024 * 1024 : 1,
+  }));
+  full[7].bytes -= full.length - 8;
+  expect(validateSupplementalArtifacts({ ...f.manifest, artifacts: full })).toHaveLength(239);
+  const over = full.map(entry => ({ ...entry })); over[7].bytes++;
+  expect(() => validateSupplementalArtifacts({ ...f.manifest, artifacts: over })).toThrow("byte limit");
+  expect(() => validateSupplementalArtifacts({ ...f.manifest,
+    artifacts: [{ ...f.entry, bytes: 1024 * 1024 + 1 }],
+  })).toThrow("joint");
+  const legacy = fixture();
+  expect(validateSupplementalArtifacts({ ...legacy.manifest,
+    artifacts: [{ ...legacy.entry, bytes: 5 * 1024 * 1024 }],
+  })).toHaveLength(1);
+  expect(() => validateSupplementalArtifacts({ ...legacy.manifest,
+    artifacts: [{ ...legacy.entry, bytes: 5 * 1024 * 1024 + 1 }],
+  })).toThrow("entry");
+});
+
+test("239-entry admission still rejects recursive privacy and mismatched committed source", () => {
+  const privateCustody = countFixture(239, JSON.stringify({ result: { sensitive: true } }));
+  expect(() => supplementalArtworkArtifacts(privateCustody.manifest, privateCustody.active,
+    privateCustody.sourcePaths, privateCustody.read, matter,
+    privateCustody.manifest.reviewedSourceCommit)).toThrow();
+  const f = countFixture(239);
+  expect(() => supplementalArtworkArtifacts(f.manifest, f.active,
+    f.sourcePaths, f.read, matter, "b".repeat(40))).toThrow("exact committed export source");
+});
+
+
+test("239-entry export preserves exact custody and refuses changed owner, artwork, bytes and missing paths", () => {
+  const accepted = countFixture(239);
+  const selected = supplementalArtworkArtifacts(accepted.manifest, accepted.active,
+    accepted.sourcePaths, accepted.read, matter, accepted.manifest.reviewedSourceCommit);
+  expect(selected).toHaveLength(239);
+  expect(selected[238].bytes).toEqual(accepted.files[accepted.manifest.artifacts[238].path]);
+  for (const change of ["owner", "artwork", "file", "size", "missing"] as const) {
+    const f = countFixture(239), last = f.manifest.artifacts[238];
+    if (change === "owner") f.files[owner] = Buffer.from(publicOwner.toString() + "Changed teaching\n");
+    if (change === "artwork") f.active[artwork] = hash("different native");
+    if (change === "file") f.files[last.path] = Buffer.from('{"prompt":"different custody"}');
+    if (change === "size") last.bytes++;
+    if (change === "missing") f.sourcePaths = f.sourcePaths.filter(p => p !== "obsidian/" + last.path);
+    expect(() => supplementalArtworkArtifacts(f.manifest, f.active,
+      f.sourcePaths, f.read, matter, f.manifest.reviewedSourceCommit)).toThrow();
+  }
 });

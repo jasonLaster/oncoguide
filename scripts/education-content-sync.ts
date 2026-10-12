@@ -7,6 +7,7 @@ import { createRequire } from "node:module";
 
 export const PREFIX = "wiki/education/";
 const SOURCE_REPOSITORY = "jasonLaster/diana-tnbc";
+export const MAX_SUPPLEMENTAL_ARTIFACTS = 1000;
 type Hashes = Record<string, string>;
 type Retained = Record<string, { hash: string; sourceCommit: string }>;
 export type Receipt = {
@@ -194,7 +195,7 @@ function artworkBindings(entry: SupplementalArtifact): ArtworkBinding[] {
 export function validateSupplementalArtifacts(value: unknown): SupplementalArtifact[] {
   const manifest = value as { version?: number; sourceRepository?: string; reviewedSourceCommit?: string; artifacts?: SupplementalArtifact[] };
   if (!manifest || ![1, 2, 3].includes(manifest.version || 0) || manifest.sourceRepository !== SOURCE_REPOSITORY ||
-    !/^[a-f0-9]{40}$/.test(manifest.reviewedSourceCommit || "") || !Array.isArray(manifest.artifacts) || manifest.artifacts.length > 200) {
+    !/^[a-f0-9]{40}$/.test(manifest.reviewedSourceCommit || "") || !Array.isArray(manifest.artifacts) || manifest.artifacts.length > MAX_SUPPLEMENTAL_ARTIFACTS) {
     throw Error("Invalid supplemental artifact manifest");
   }
   const seen = new Set<string>();
