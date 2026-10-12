@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "derivedPublicProvenanceCandidate": true,
+  "owner": "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/",
+    "https://pubmed.ncbi.nlm.nih.gov/30550791/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/",
+    "https://www.jci.org/articles/view/45817"
+  ],
+  "reviewedSourceCommit": null,
+  "authorInputSourceCommit": "164f11ced5c0b274374330c8f7574d89248f7e07",
+  "codeAuthored": true,
+  "imagegenCalls": 0,
+  "model": null,
+  "modelScope": "No image model used. SVG constructed by standard-library Python; local Chromium rasterization is QA only, not the original art.",
+  "baseSpecificationPath": "wiki/education/concepts/measurement/functional-models/images/prompts/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1.txt",
+  "baseSpecificationSHA256": "f1edd604c9a0f0e0528f98149914d6730e134cd69ea302fae8a3b971a017ed7e",
+  "privateCodeSHA256": "d7d0cd80ea0b2ff9bfb987cc1bb251e05f88ca388bc6003b381ab0e98e372db1",
+  "executedCommandQualification": "Python3 render-comparison.py executed; exact local paths/invocation and render checks remain private. Public hashes do not admit their target files.",
+  "assets": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-light.svg",
+      "sha256": "5b76c070f25b41fd38649591e36fb01154aec610a9e078c3a7274241baa00944",
+      "bytes": 9575,
+      "nativeDimensions": [
+        600,
+        1800
+      ],
+      "format": "SVG",
+      "construction": "code-authored original",
+      "model": null,
+      "imagegenCalls": 0
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-dark.svg",
+      "sha256": "b1aac1a6df8fa1bc8d75d2dafbc5871a56c6a4b54f3c5c780bb00c13de109112",
+      "bytes": 9575,
+      "nativeDimensions": [
+        600,
+        1800
+      ],
+      "format": "SVG",
+      "construction": "code-authored original",
+      "model": null,
+      "imagegenCalls": 0
+    }
+  ],
+  "scope": "Three fictional characterized preparations, role examples not proportions; retained compartments are not proof of current function or a fidelity hierarchy. No original paper figures copied.",
+  "depth": "DeRose selected primary Results; Neal complete primary abstract only; Ladan selected Methods/Results/Discussion; Salmon selected Results/preparation/imaging/caption text. No full-study, original figure/video pixels or clinical-utility approval.",
+  "scientificNativeReaderThemeGrades": "PENDING_DIFFERENT_REVIEWER",
+  "humanApproval": false,
+  "coverageCredits": 0
+}

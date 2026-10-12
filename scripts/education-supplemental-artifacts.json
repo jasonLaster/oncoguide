@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "164f11ced5c0b274374330c8f7574d89248f7e07",
+  "reviewedSourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -318,7 +318,7 @@
       "sha256": "874018c64c666b0eef368265242462908efcd81a10d56a9b4b2eed53c5ccdd61",
       "bytes": 7542,
       "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
-      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "ownerSha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
       "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
       "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
       "contentClass": "source-owned-public-custody"
@@ -328,7 +328,7 @@
       "sha256": "0aac1c09acaac982955a3956eb24d2ad8a8acc625f5eac4aa5d6f9cd048f55c8",
       "bytes": 4080,
       "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
-      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "ownerSha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
       "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
       "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
       "contentClass": "source-owned-public-custody"
@@ -338,7 +338,7 @@
       "sha256": "edc6dbf83677043537cd0b79c7a5c2f18ec3dc4e350a5dcf3dff2de3da9aea19",
       "bytes": 4276,
       "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
-      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "ownerSha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
       "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
       "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
       "contentClass": "source-owned-public-custody"
@@ -348,7 +348,7 @@
       "sha256": "fb92cab83101d114c01d9384476ca17532680b4e3b1c584a9f34fce283de6add",
       "bytes": 6656,
       "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
-      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "ownerSha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
       "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
       "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
       "contentClass": "source-owned-public-custody"
@@ -358,7 +358,7 @@
       "sha256": "767a01bc2f42d5a013da8f29cc0712ba7b836dcc48e43c34237d410f6edca248",
       "bytes": 18159,
       "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
-      "ownerSha256": "4fa2e41c3917c2cecc8647f0e8791a81fa761d25e1211c725432d8f61df7ac05",
+      "ownerSha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
       "artwork": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
       "artworkSha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
       "contentClass": "source-owned-public-custody"
@@ -1128,7 +1128,7 @@
     {
       "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/immune-barriers-tissue-v2.json",
       "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
-      "ownerSha256": "7fc9cd49f7c0e1a10d011dcc1706008f0972308f371bfaf2fc346cd395b24429",
+      "ownerSha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
       "contentClass": "source-owned-public-custody",
       "artworks": [
         {
@@ -1620,6 +1620,276 @@
           "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e"
         }
       ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.json",
+      "sha256": "43de3acf8e1b041cd5b9980c29de35393c0454105060805da2c03c7372e40f86",
+      "bytes": 5630,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+      "ownerSha256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+          "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+          "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.zip",
+      "sha256": "b92956f67902ad1d1c1d5a9e86fa37c5a00bbfc83ac0c159ff00610d62cf9e90",
+      "bytes": 10449,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+      "ownerSha256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+          "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+          "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/tumor-informed-mrd-assay-comparison-reference-routes-v1-provenance.json",
+      "sha256": "0c15fb1023701aebeaf88d0f3a94ff809171a48bd32b7aa711cf09bdfc23497b",
+      "bytes": 3835,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md",
+      "ownerSha256": "e85eae20d46d78474881020c0d9dfcf68876ca8194b03d9a71a2bf6bc730d4c3",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+          "sha256": "100ca2f85b9f167b8cd7ea06da15e026f3eb7a743b81297695269c502e19f887"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+          "sha256": "7adaff7cd17be861a34024f410668585a6830dd3766bc210aad912dc5c6a5c5e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/tumor-informed-mrd-assay-comparison-reference-routes-v1-provenance.zip",
+      "sha256": "a2e0bfecdbc408fd347ca15379f414015d3a803f5fdeb77ed1049868a57bd14f",
+      "bytes": 8862,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md",
+      "ownerSha256": "e85eae20d46d78474881020c0d9dfcf68876ca8194b03d9a71a2bf6bc730d4c3",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+          "sha256": "100ca2f85b9f167b8cd7ea06da15e026f3eb7a743b81297695269c502e19f887"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+          "sha256": "7adaff7cd17be861a34024f410668585a6830dd3766bc210aad912dc5c6a5c5e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/panel-exome-genome-comparison-territory-v1-provenance.json",
+      "sha256": "f7c42665c3ed97bea39844dd5dcf80d7284f9ead4a77285a3c0e6b379da8aeed",
+      "bytes": 4041,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+      "ownerSha256": "30ee7d87c5cf083aab4bce24833148777b88431569cc9880aeacc723605aa986",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
+          "sha256": "b31bf9536033df6eb073f9260895737a227bdefe481675cd03e18cba52e888f2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-light.svg",
+          "sha256": "1cf32ad6e08258d3aa933490c0886ad7eec5db3df11f5f3e81aea95d68b465c2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/panel-exome-genome-comparison-territory-v1-provenance.zip",
+      "sha256": "aac5e6378a483a011bca0220896e2ce9bf9578e90dab3b9e15e74322ab87472f",
+      "bytes": 7886,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+      "ownerSha256": "30ee7d87c5cf083aab4bce24833148777b88431569cc9880aeacc723605aa986",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
+          "sha256": "b31bf9536033df6eb073f9260895737a227bdefe481675cd03e18cba52e888f2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-light.svg",
+          "sha256": "1cf32ad6e08258d3aa933490c0886ad7eec5db3df11f5f3e81aea95d68b465c2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/anergy-vs-exhaustion-comparison-history-v1-native-provenance.json",
+      "sha256": "be13590b20f950331e091d6dd58834df6c2391144917adf0fc41420e8789d2c6",
+      "bytes": 1337,
+      "owner": "wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion.md",
+      "ownerSha256": "232de03dd9e7ef1924337966072960fc43390042303a057a941fe6382057bd06",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/anergy-vs-exhaustion-comparison-history-v1-light.svg",
+          "sha256": "2c7c59713e695634100e4d529fbea2460c70af6a4a519deb02ee29b440578808"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/anergy-vs-exhaustion-comparison-history-v1-dark.svg",
+          "sha256": "798eed1e9de1f0ae922ff5ba378cbeaf9ef96108abb2ef7a099c49e52dee9692"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/in-situ-vs-designed-vaccine-comparison-source-v1-native-provenance.json",
+      "sha256": "9d1224a4cd0d0337c0a6978ba3900a72a9d61289e4c3fb42a4dc77f98b8741a0",
+      "bytes": 1365,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ownerSha256": "b16b6265b5c352cf80c23d0e3f79b49823be6867a91101f5e13d7d7c577da6d7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+          "sha256": "55354948639f9e00d7887c85bebf554b14481d3e5a5c3601b079aa8a3411b24e"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+          "sha256": "7e189db1cc88603ac07038491a19ad99956255d65428643ff7bdcfc2b503e8ca"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/prognostic-vs-predictive-comparison-roles-v1-native-provenance.json",
+      "sha256": "a1c467f8fcbda40a305984a9068bfed90fd681589e10508246945614cdde7ce6",
+      "bytes": 2340,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+      "ownerSha256": "3b3a81512e95d4490f6e7116144dd7c9145c70dd069284ed65d3c0b00056c465",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prognostic-vs-predictive-comparison-roles-v1-light.svg",
+          "sha256": "afe323ca395c66433996e86fe41ebcf24bee998d515730eabe33ae48b985ae8f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prognostic-vs-predictive-comparison-roles-v1-dark.svg",
+          "sha256": "b1b77eaeba10c57631deb512e19afdbeeccc8660944e98e326f5e4ed63a69828"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1.provenance.json",
+      "sha256": "fc1afbda3e9e2adc62267106ac1400355db112917d2a2663ee326e23946db4aa",
+      "bytes": 907,
+      "owner": "wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa.md",
+      "ownerSha256": "93c3b1ce48e44577729bd3f912a9e08526248fc6f4cfdcf95cb0fb9ca63371e6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1-light.svg",
+          "sha256": "d815a132798f02fd82675b12fb9365523c0c2fb9bc41539c74b4cec91106a480"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1-dark.svg",
+          "sha256": "45d267b6c5c24b85b34ef964f314838a4e85269bbb1920318201c4ae756b7dd4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1.provenance.json",
+      "sha256": "d225f64f16c0dce2ceda7e672419971f9c629c529c70db95c9c0be5be8fbccc4",
+      "bytes": 918,
+      "owner": "wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation.md",
+      "ownerSha256": "72b97e2ad2ccbed861f0140f0fcde40119cc15462f98561a45dc0972788fa4f9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1-light.svg",
+          "sha256": "491d27eaf63aebcba8a8a3f7fce35ec111933be69e92d779b75109180b60af9b"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1-dark.svg",
+          "sha256": "ac2296491aaf33e137df26a5c48e64d6f03535d0c421326e946fe0acf8b3a4d7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-provenance.json",
+      "sha256": "68831ddc54645affaa2d05826af50bfc88ca31d51b8c7caebc3d71c9d4852962",
+      "bytes": 2800,
+      "owner": "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+      "ownerSha256": "09260264d464d8044b5cb5046a03d5d059b67351c4e4814ef80f451e501ce3a0",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-dark.svg",
+          "sha256": "b1aac1a6df8fa1bc8d75d2dafbc5871a56c6a4b54f3c5c780bb00c13de109112"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-light.svg",
+          "sha256": "5b76c070f25b41fd38649591e36fb01154aec610a9e078c3a7274241baa00944"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "sha256": "7e3e9bc5c9b2f9cf61df3c765c18e528d3437b25d42eef70e6d7e82316431c48",
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "ownerSha256": "f4ce5fb63206b4538e76b625035df821ce86a1f94560b8f892afd0173bd9ee02",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+          "sha256": "4e1493e76f14a217b0113175fa9f5315ee71014a73659920a023d4854f28f542"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+          "sha256": "51d81d6c2dbaf378ce7f9e8a87b39d9646d9976420adb40e7f006a2afc02fc68"
+        }
+      ],
+      "bytes": 6153,
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/comparison-next-gap-043-current-owner-continuity.json",
+      "sha256": "7271c025747c346e1be4f0d24454077120d69cd7e11421f201f4f3887a88c202",
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "ownerSha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+          "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+          "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564"
+        }
+      ],
+      "bytes": 5703,
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/comparison-next-gap-033-current-owner-continuity.json",
+      "sha256": "d4fe101ca9882415877d3c7cda9845d8e864452302f6fbe2be188d5651156567",
+      "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+      "ownerSha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-dark.png",
+          "sha256": "82462c36ea483533f797959e38dfeac99b18bad07ae6682ecc42c8203fc59fb3"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+          "sha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30"
+        }
+      ],
+      "bytes": 9062,
+      "contentClass": "source-owned-public-custody"
     }
   ]
 }

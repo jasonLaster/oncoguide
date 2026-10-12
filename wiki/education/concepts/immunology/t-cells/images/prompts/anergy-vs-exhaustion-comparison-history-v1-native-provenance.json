@@ -1,0 +1,29 @@
+{
+  "method": "original code-authored editable scientific SVG",
+  "generator_script": "diagrams.py",
+  "generator_script_sha256": "9ddffa0b5d9cf09b0353880e1629b7dd8b13b6d532cf7876f099e93db12432ef",
+  "image_model_calls": [],
+  "image_model_call_count": 0,
+  "image_model": "not applicable; no model called",
+  "dark_method": "same source geometry with palette substitution; not an image edit",
+  "native_width": 780,
+  "native_height": 1140,
+  "minimum_font_size": 32,
+  "minimum_type_at_346px": 14.194871794871794,
+  "theme_geometry_signature": "840c2e8ea97b5560eef6e3bb3de95757fefda0f4174ef10045ff9e7a56a75f77",
+  "prompt_sha256": "df380f655437c3519109ed6e8ae8c89f97440912813dfba7746342bf11724e97",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/anergy-vs-exhaustion-comparison-history-v1-light.svg",
+      "sha256": "2c7c59713e695634100e4d529fbea2460c70af6a4a519deb02ee29b440578808"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/anergy-vs-exhaustion-comparison-history-v1-dark.svg",
+      "sha256": "798eed1e9de1f0ae922ff5ba378cbeaf9ef96108abb2ef7a099c49e52dee9692"
+    }
+  ],
+  "scientific_data": "fictional schematic; not measured data",
+  "independent_peer_scientific_and_pixel_review": "pending",
+  "expert_review": "pending",
+  "learner_review": "pending"
+}

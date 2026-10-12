@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1100" viewBox="0 0 780 1100" role="img" aria-labelledby="title desc">
+<title id="title">One marker, two evidence roles</title>
+<desc id="desc">Two independent question panels compare outcomes under a defined background with treatment-versus-comparator effects within marker groups. Neither panel supplies measured results or decides clinical utility.</desc>
+<rect width="780" height="1100" fill="#14222b"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="32" y="60" font-size="40" font-weight="700" fill="#edf2ed">One marker, two evidence roles</text>
+<text x="32" y="110" font-size="32" font-weight="400" fill="#c0d1d7">Compare questions, not subgroup P values</text>
+<rect x="30" y="142" width="720" height="133" rx="18" fill="#203440" stroke="#aec6ce" stroke-width="2"/>
+<text x="56" y="187" font-size="32" font-weight="400" fill="#edf2ed">M+ / M−: study-defined marker groups</text>
+<text x="56" y="234" font-size="32" font-weight="400" fill="#edf2ed">Same endpoint and horizon; context stated</text>
+<rect x="30" y="309" width="340" height="492" rx="18" fill="#203440" stroke="#aec6ce" stroke-width="2"/>
+<rect x="410" y="309" width="340" height="492" rx="18" fill="#203440" stroke="#aec6ce" stroke-width="2"/>
+<text x="52" y="357" font-size="36" font-weight="700" fill="#edf2ed">Prognostic</text>
+<text x="432" y="357" font-size="36" font-weight="700" fill="#edf2ed">Predictive</text>
+<rect x="56" y="391" width="270" height="63" rx="12" fill="#bdddea" stroke="#aec6ce" stroke-width="2"/>
+<text x="78" y="434" font-size="32" font-weight="700" fill="#20313d">M+ under C</text>
+<rect x="56" y="487" width="270" height="63" rx="12" fill="#bdddea" stroke="#aec6ce" stroke-width="2"/>
+<text x="78" y="530" font-size="32" font-weight="700" fill="#20313d">M− under C</text>
+<path d="M339 422 H348 V518 H339" fill="none" stroke="#aec6ce" stroke-width="3"/>
+<text x="56" y="594" font-size="32" font-weight="400" fill="#edf2ed">Compare outcomes</text>
+<text x="56" y="640" font-size="32" font-weight="400" fill="#edf2ed">in that background</text>
+<text x="56" y="722" font-size="32" font-weight="400" fill="#edf2ed">Outcome</text>
+<text x="56" y="765" font-size="32" font-weight="400" fill="#edf2ed">association?</text>
+<rect x="432" y="391" width="296" height="63" rx="12" fill="#c2dfc9" stroke="#aec6ce" stroke-width="2"/>
+<text x="450" y="434" font-size="32" font-weight="700" fill="#20313d">A vs C within M+</text>
+<rect x="432" y="487" width="296" height="63" rx="12" fill="#c2dfc9" stroke="#aec6ce" stroke-width="2"/>
+<text x="450" y="530" font-size="32" font-weight="700" fill="#20313d">A vs C within M−</text>
+<text x="432" y="594" font-size="32" font-weight="400" fill="#edf2ed">Compare effects</text>
+<text x="432" y="640" font-size="32" font-weight="400" fill="#edf2ed">between groups</text>
+<text x="432" y="722" font-size="32" font-weight="400" fill="#edf2ed">Name the scale</text>
+<text x="432" y="765" font-size="32" font-weight="400" fill="#edf2ed">and uncertainty</text>
+<rect x="30" y="838" width="720" height="154" rx="18" fill="#203440" stroke="#aec6ce" stroke-width="2"/>
+<text x="56" y="884" font-size="32" font-weight="700" fill="#edf2ed">A marker can serve both roles.</text>
+<text x="56" y="936" font-size="32" font-weight="400" fill="#edf2ed">An association alone does not settle</text>
+<text x="56" y="978" font-size="32" font-weight="400" fill="#edf2ed">the added-treatment-effect question.</text>
+<text x="32" y="1041" font-size="32" font-weight="400" fill="#c0d1d7">A = treatment · C = comparator</text>
+<text x="32" y="1083" font-size="32" font-weight="400" fill="#c0d1d7">Question map, not measured clinical results</text>
+</g>
+</svg>

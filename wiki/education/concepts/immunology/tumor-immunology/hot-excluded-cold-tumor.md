@@ -7,7 +7,7 @@ glossary_anchor: "hot-excluded-cold-tumor"
 aliases: ["immune-hot", "immune-excluded", "immune-cold", "immune desert", "inflamed tumor"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -118,6 +118,7 @@ Source check: October 10, 2026. Descriptive tissue patterns; clinical prediction
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 - [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)

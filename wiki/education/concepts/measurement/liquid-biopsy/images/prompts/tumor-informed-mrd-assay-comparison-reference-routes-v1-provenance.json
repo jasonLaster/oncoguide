@@ -1,0 +1,77 @@
+{
+  "creationMethod": "original-code-authored-editable-scientific-svg",
+  "model": null,
+  "modelNamespace": null,
+  "imageGenerationTool": null,
+  "actualImageGenerationCalls": 0,
+  "sourceCommit": null,
+  "authoringScript": null,
+  "generatorCustody": "Original geometry construction code is retained privately in the author packet; no executable generator is delivered in public provenance or its archive.",
+  "observedOwnerSourceCommit": "5e52c0bd62c23a01fd3dd886fbbc5aa5205d64eb",
+  "teachingPin": "366becb774914d2b64b2ad6d874418d89c133bf1",
+  "assignment": "A-measurement-reference-comparisons",
+  "comparisonRow": 16,
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md",
+  "comparisonAxis": "reference strategy used to build the detector",
+  "native": {
+    "width": 780,
+    "height": 1200,
+    "minimumLabelSize": 32
+  },
+  "alt": "Two reference branches join one illustrative later-plasma testing stage. A tumor-informed mutation strategy selects features from suitable sampled tumor material. A tumor-naive strategy begins with predefined features and rules. A single finite plasma tube represents a shared input constraint, not duplicated molecules or equal assay performance. Both routes retain source attribution, sample-quality, calling-rule and intended-use validation requirements.",
+  "variants": [
+    {
+      "theme": "light",
+      "path": "../tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+      "bundlePath": "assets/tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+      "sha256": "7adaff7cd17be861a34024f410668585a6830dd3766bc210aad912dc5c6a5c5e",
+      "width": 780,
+      "height": 1200
+    },
+    {
+      "theme": "dark",
+      "path": "../tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+      "bundlePath": "assets/tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+      "sha256": "100ca2f85b9f167b8cd7ea06da15e026f3eb7a743b81297695269c502e19f887",
+      "width": 780,
+      "height": 1200
+    }
+  ],
+  "sourceFigureCopied": false,
+  "sourceQuantitiesCopied": false,
+  "sourceUseQualification": "Selected primary/authoritative source passages checked; exact scope and access failures are in the private source-use record. Toy quantities and positions are not study results.",
+  "independentPeerReview": "pending",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending",
+  "bothLivePublicReaders": "pending",
+  "newCredit": 0,
+  "publicArchive": {
+    "path": "tumor-informed-mrd-assay-comparison-reference-routes-v1-provenance.zip",
+    "memberCount": 5,
+    "members": [
+      "tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+      "tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+      "tumor-informed-mrd-assay-comparison-reference-routes-v1.txt",
+      "tumor-informed-mrd-assay-comparison-reference-routes-v1-provenance.json",
+      "README.md"
+    ],
+    "executableGeneratorIncluded": false,
+    "nativeScreenCapturesIncluded": false,
+    "sourceBodiesIncluded": false,
+    "memberHashes": "External packet allowlist binds every public file; self/archive hashes are not embedded recursively."
+  },
+  "designBriefSHA256": "2e3b8ec04dc384b07e7cd58f93473b2bbafbe7ecb9a098584c16eb62dde52d12",
+  "sources": [
+    {
+      "url": "https://www.fda.gov/media/183874/download",
+      "checkedScope": "November 2024 nonbinding drug-development guidance, selected section IV assay design/sampling/workflow validation; not patient-specific monitoring advice"
+    }
+  ],
+  "nativeAuthorInspection": {
+    "stage": "author only",
+    "bothThemes": true,
+    "geometryAndTextChecked": true,
+    "privateCaptureCustody": "Retained privately in this author packet; not delivered in the five-member public archive.",
+    "independentApproval": false
+  }
+}

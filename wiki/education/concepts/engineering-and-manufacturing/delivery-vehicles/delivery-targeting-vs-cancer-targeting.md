@@ -7,10 +7,10 @@ summary: "Delivery targeting determines which cells receive an intervention, whi
 aliases: ["delivery targeting", "cancer targeting", "two targeting jobs"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/comparisons/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-10"
+updated: "2026-10-12"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -47,6 +47,15 @@ flowchart TD
 [Targeted LNPs](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps) must distribute, enter cells and release usable cargo. Detectable binding or particle uptake may occur without useful expression. Likewise, a CAR that binds B may fail to activate or kill. Binding, expression, signaling and target-cell effects need distinct tests.
 
 The delivery address can also be an antigen-presenting cell in a vaccine. That cell makes antigen for immune priming; the eventual immune response must recognize the relevant display on tumor cells. Vaccine-carrier targeting is not necessarily direct tumor delivery.
+
+
+### Compare two targeting jobs in the A/B example
+
+| Question | Delivery targeting | Cancer targeting by the resulting receptor |
+|---|---|---|
+| What is addressed? | Recipient cell marker A, through the carrier | Antigen B, through the expressed CAR |
+| What evidence fits? | Usable expression in identified intended and unintended recipient cells; binding or uptake alone is insufficient | Antigen-dependent recognition and function in tumor and relevant healthy-cell tests, with suitable controls |
+| What remains unproved? | Tumor entry, cancer-only action or all-body delivery exclusivity | Safe cancer-only killing or patient benefit from the observed test activity |
 
 ## Why it matters in cancer
 
@@ -114,6 +123,7 @@ Source check: October 10, 2026; expert and learner review pending. Named experim
 
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
 - [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 <!-- END GENERATED USED IN -->

@@ -11,8 +11,8 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
-updated: "2026-10-10"
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
+updated: "2026-10-12"
 source_checked: "2026-10-10"
 review_status: "Source-checked; expert and learner review pending"
 ---
@@ -36,6 +36,22 @@ A **prognostic** biomarker helps characterize the likelihood of a defined outcom
 A **predictive** biomarker concerns the effect of a particular exposure or treatment relative to a comparator. Generally, compare treatment effects in people with and without the marker. A randomized study with prespecified marker groups supports that comparison by reducing treatment-selection confounding. Some targeted therapies were developed in biomarker-enriched populations based on compelling mechanistic and early clinical evidence; the design and limits still need inspection.
 
 A marker can be both prognostic and predictive. Higher response rates among marker-positive people receiving one drug alone cannot usually distinguish those roles. “Predicting response” in a machine-learning model is also not automatically predictive-biomarker evidence in the treatment-effect sense.
+
+
+### Compare the evidence roles
+
+<img src="./images/prognostic-vs-predictive-comparison-roles-v1-light.svg" alt="Two independent question panels use the same study-defined marker groups: a prognostic comparison asks about outcomes under a specified background, while a predictive comparison asks whether treatment-versus-comparator effects differ between groups on a named scale; neither panel contains measured results" width="780" height="1100" data-theme-pair>
+
+*M+ and M− are the study's marker groups; A is a studied treatment and C its comparator. Outcome association and treatment-effect modification are different questions, and one marker can have both roles. These boxes are questions, not empirical results or a treatment recommendation.*
+
+| Question | Prognostic role | Predictive role |
+|---|---|---|
+| What is compared? | Outcomes between marker groups in a specified care context | A-versus-C treatment effects within marker groups, then the difference between those effects |
+| What must stay attached? | Marker/assay, population, timing, background care, endpoint and horizon | The same context, plus treatment/comparator, effect scale and interaction uncertainty |
+| What evidence is insufficient? | A risk association does not identify which added treatment helps | Responses among people given A alone do not isolate its added effect |
+| What is a further question? | Does using the marker improve decisions and outcomes? | Does a marker-guided strategy improve outcomes enough to justify harms? |
+
+Use the existing trial below to compare the roles on **absolute and relative** scales. A marker's role is not a ranking of treatments, and significance in one subgroup alone does not establish different effects.
 
 ## Worked example
 
@@ -74,6 +90,8 @@ A fictional single-group study gives Drug A to everyone. Marker-positive partici
 
 What extra comparison turns an outcome association into a treatment-effect question?
 
+**One possible answer:** compare A with C within the marker groups, then compare those effects for the same endpoint and horizon on a named scale. The comparison and its uncertainty matter.
+
 ## Takeaway
 
 Always finish the sentence: prognostic for which outcome, or predictive of which treatment effect?
@@ -94,6 +112,7 @@ Source check: October 10, 2026. Fictional trial and arithmetic; expert and learn
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Check clinical evidence and access](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)

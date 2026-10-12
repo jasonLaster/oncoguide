@@ -1,0 +1,5 @@
+Code-authored scientific SVG design brief. No image-model invocation.
+
+Teach row3 response-history discrimination. Three vertically stacked history cards are parallel independent observations. A combines altered priming and a later controlled response defect. B combines initial response, persistent stimulation, multiple functions and program evidence. C has only low IL-2 and is explicitly unassigned. A/B compatibility labels are not diagnostic classifiers; same specificity and viable populations are stated in the adjacent exercise. Histories do not infer target identity, guaranteed checkpoint rescue or benefit.
+
+Both themes share exact labels, geometry, quantities and relationships; only palette tokens change. Native width 780; minimum type 32. No empirical plots, real samples, diagnostic thresholds, clinical ranking, external references, fonts or scripts.

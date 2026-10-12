@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="2220" viewBox="0 0 780 2220" role="img" aria-labelledby="title desc">
+<title id="title">Three routes to local injury</title><desc id="desc">Energy routes differ. The repeated target edge needs exposure evidence. Ice outline is observable; no lethal map is shown.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#286F78"/></marker></defs>
+<g font-family="Arial, sans-serif"><rect width="780" height="2220" fill="#FAF7F0"/>
+<text x="40" y="70" font-size="44" fill="#233D42" font-weight="700" text-anchor="start">Three routes to local injury</text>
+<text x="40" y="124" font-size="36" fill="#455D60" font-weight="500" text-anchor="start">Same target. Same edge question.</text>
+<rect x="24" y="165" width="732" height="596" rx="25" fill="#FFFFFF"/>
+<text x="50" y="230" font-size="40" fill="#233D42" font-weight="700" text-anchor="start">Cryoablation</text>
+<text x="50" y="283" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Heat leaves tissue</text>
+<ellipse cx="370" cy="490" rx="245" ry="135" fill="#EADAC9"/>
+<ellipse cx="370" cy="490" rx="175" ry="115" fill="#BBDDE1" stroke="#286F78" stroke-width="4"/>
+<ellipse cx="370" cy="490" rx="110" ry="77" fill="#E3BB9C" stroke="#233D42" stroke-width="4" stroke-dasharray="12 9"/>
+<path d="M 620 385 C 585 455,650 530,610 597" fill="none" stroke="#6A778B" stroke-width="24" stroke-linecap="round"/>
+<rect x="360" y="318" width="20" height="173" rx="8" fill="#A7B6B6" stroke="#233D42" stroke-width="4"/>
+<ellipse cx="370" cy="490" rx="16" ry="16" fill="#286F78"/>
+<line x1="245" y1="500" x2="350" y2="500" stroke="#286F78" stroke-width="5" marker-end="url(#arrow)"/>
+<line x1="490" y1="500" x2="390" y2="500" stroke="#286F78" stroke-width="5" marker-end="url(#arrow)"/>
+<line x1="195" y1="450" x2="105" y2="430" stroke="#286F78" stroke-width="5"/>
+<text x="50" y="415" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Ice outline</text>
+<text x="205" y="643" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Target outline</text>
+<line x1="530" y1="613" x2="465" y2="528" stroke="#286F78" stroke-width="5"/>
+<text x="505" y="655" font-size="38" fill="#233D42" font-weight="700" text-anchor="start">Edge?</text>
+<text x="50" y="721" font-size="36" fill="#455D60" font-weight="500" text-anchor="start">Vessel beside target · schematic</text>
+<rect x="24" y="785" width="732" height="596" rx="25" fill="#FFFFFF"/>
+<text x="50" y="850" font-size="40" fill="#233D42" font-weight="700" text-anchor="start">RFA · electrical current</text>
+<text x="50" y="903" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Current produces heat</text>
+<ellipse cx="370" cy="1110" rx="245" ry="135" fill="#EADAC9"/>
+<ellipse cx="370" cy="1110" rx="110" ry="77" fill="#E3BB9C" stroke="#233D42" stroke-width="4" stroke-dasharray="12 9"/>
+<path d="M 620 1005 C 585 1075,650 1150,610 1217" fill="none" stroke="#6A778B" stroke-width="24" stroke-linecap="round"/>
+<rect x="360" y="938" width="20" height="173" rx="8" fill="#A7B6B6" stroke="#233D42" stroke-width="4"/>
+<ellipse cx="370" cy="1110" rx="16" ry="16" fill="#286F78"/>
+<path d="M 312 1102 l 20 -22 l 20 44 l 20 -44 l 20 44 l 20 -44 l 20 22" fill="none" stroke="#286F78" stroke-width="7"/>
+<text x="205" y="1263" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Target outline</text>
+<line x1="530" y1="1233" x2="465" y2="1148" stroke="#286F78" stroke-width="5"/>
+<text x="505" y="1275" font-size="38" fill="#233D42" font-weight="700" text-anchor="start">Edge?</text>
+<text x="50" y="1341" font-size="36" fill="#455D60" font-weight="500" text-anchor="start">Vessel beside target · schematic</text>
+<rect x="24" y="1405" width="732" height="596" rx="25" fill="#FFFFFF"/>
+<text x="50" y="1470" font-size="40" fill="#233D42" font-weight="700" text-anchor="start">MWA · electromagnetic field</text>
+<text x="50" y="1523" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Field energy produces heat</text>
+<ellipse cx="370" cy="1730" rx="245" ry="135" fill="#EADAC9"/>
+<ellipse cx="370" cy="1730" rx="110" ry="77" fill="#E3BB9C" stroke="#233D42" stroke-width="4" stroke-dasharray="12 9"/>
+<path d="M 620 1625 C 585 1695,650 1770,610 1837" fill="none" stroke="#6A778B" stroke-width="24" stroke-linecap="round"/>
+<rect x="360" y="1558" width="20" height="173" rx="8" fill="#A7B6B6" stroke="#233D42" stroke-width="4"/>
+<ellipse cx="370" cy="1730" rx="16" ry="16" fill="#286F78"/>
+<circle cx="370" cy="1730" r="36" fill="none" stroke="#286F78" stroke-width="5" stroke-dasharray="14 10"/>
+<circle cx="370" cy="1730" r="60" fill="none" stroke="#286F78" stroke-width="5" stroke-dasharray="14 10"/>
+<text x="205" y="1883" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Target outline</text>
+<line x1="530" y1="1853" x2="465" y2="1768" stroke="#286F78" stroke-width="5"/>
+<text x="505" y="1895" font-size="38" fill="#233D42" font-weight="700" text-anchor="start">Edge?</text>
+<text x="50" y="1961" font-size="36" fill="#455D60" font-weight="500" text-anchor="start">Vessel beside target · schematic</text>
+<text x="40" y="2093" font-size="38" fill="#233D42" font-weight="700" text-anchor="start">Visible change ≠ lethal exposure</text>
+<text x="40" y="2148" font-size="36" fill="#233D42" font-weight="500" text-anchor="start">Check coverage and follow-up.</text>
+<text x="40" y="2190" font-size="36" fill="#455D60" font-weight="500" text-anchor="start">No temperature or dose map.</text>
+</g></svg>

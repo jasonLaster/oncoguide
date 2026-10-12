@@ -8,13 +8,13 @@ aliases: ["germline", "somatic", "germline vs somatic", "matched normal"]
 level: "foundation"
 sensitive: false
 tags: ["education", "biology-basics"]
-updated: 2026-10-10
+updated: "2026-10-12"
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 ---
 
 # Germline vs somatic: where a variant belongs
@@ -44,6 +44,18 @@ Blood is often convenient as the normal sample, but blood cells can have acquire
 *Follow the branches before naming the distribution: an early constitutional variant can be inherited or de novo; a later body-cell change can be both somatic and mosaic. The normal-blood clone is one example, and dashed plasma arrows indicate possible DNA contributors. Solid arrows trace cell ancestry; dotted question branches remain unmeasured, and long-dashed arrows show possible plasma DNA sources. Cell counts are illustrative. These sample windows do not map all reproductive cells or establish a variant’s effect or transmissibility.*
 
 A variant mark means presence in an illustrative cell, not harmfulness. [MedlinePlus explains inherited, de novo and somatic mosaic changes](https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/); [Razavi and colleagues’ paired plasma/blood study](https://pubmed.ncbi.nlm.nih.gov/31768066/) shows why a plasma finding needs source attribution. The diagram is a set of possible histories, not a rule for diagnosing one specimen.
+
+
+### Compare origin, distribution and open attribution
+
+| Question | Germline or constitutional context | Somatic context |
+|---|---|---|
+| What origin evidence matters? | Suitable normal/tumor comparisons can support constitutional origin; inherited versus de novo is a further question | Suitable comparisons can support an acquired body-cell lineage; tumor location alone does not establish it |
+| Where might it occur? | Constitutional variants are often broad across tissues; reproductive-cell mosaicism is a separate distribution question | A later lineage may be restricted, while an early mosaic change can span several tissues; normal cells can carry somatic variants |
+| When does attribution stay open? | A small blood/plasma signal without suitable comparison cannot establish inherited or whole-person origin | The same signal cannot establish tumor origin; acquired blood clones, mosaicism and assay limits need assessment |
+| What does neither label establish? | Harmfulness, the full reproductive-cell distribution or treatment benefit | Harmfulness, the full reproductive-cell distribution or treatment benefit |
+
+These are evidence contexts, not exclusive inheritance-versus-distribution boxes. A constitutional change can be de novo; a body-cell change can be both somatic and mosaic. Keep an uncertain sample uncertain.
 
 ## Why it matters in cancer
 
@@ -77,6 +89,8 @@ Laboratories compare tumor and normal material or perform a dedicated hereditary
 
 Explain why “where the variant came from” and “whether it is harmful” need separate answers, even when it is detected in normal tissue.
 
+**One possible answer:** suitable evidence may support a lineage, but origin alone does not establish pathogenicity, reproductive-cell distribution or treatment relevance. An uncertain origin remains open.
+
 ## Takeaway
 
 Attribute a variant to a lineage using suitable evidence, then interpret its effect and clinical relevance separately.
@@ -99,6 +113,7 @@ Source check: October 10, 2026. General genetics teaching; expert and learner re
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
 - [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
 - [PARP trapping and recycling](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling)

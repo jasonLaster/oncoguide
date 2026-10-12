@@ -2,7 +2,7 @@
 title: "Cell-free DNA versus circulating tumor DNA"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: "2026-10-10"
+updated: "2026-10-12"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -14,7 +14,7 @@ summary: "Cell-free DNA is DNA outside intact cells in a sample; circulating tum
 aliases: ["cfDNA", "ctDNA", "cell-free DNA", "circulating tumor DNA"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]"]
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
 ---
 
 # Cell-free DNA versus circulating tumor DNA
@@ -34,6 +34,22 @@ Blood contains cells and a fluid component. Plasma is separated from collected b
 A laboratory must distinguish tumor-associated features from background. These features can include sequence changes, [methylation or fragment patterns](/wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation). A mutation found in plasma is not automatically tumor-derived. [Clonal hematopoiesis](/wiki/education/concepts/measurement/liquid-biopsy/chip) can produce variants from blood-forming cells. Matched white-blood-cell sequencing, tumor comparison and other validated origin filters address different sources of ambiguity; none should be assumed from the word “liquid biopsy.”
 
 Collection and processing matter. If blood cells break down before plasma separation, added background DNA can alter the measurement. Extraction and library preparation retain only some available molecules. Read the [sampling and detection limits](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) alongside the call.
+
+### Compare the pool with its tumor-derived part
+
+<img src="./images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg" alt="The upper scene defines source classes within sampled cfDNA: a known non-tumor class lies outside the possible tumor-derived ctDNA subset. It is a definition diagram, not an assignment of unknown fragments. A finite plasma tube accompanies a separate lower source-assignment task showing a sampled cfDNA fragment with unresolved origin and dashed possible routes to tumor and non-tumor sources. Neither route is selected, so ctDNA membership remains unresolved. Yield measures recovered DNA amount and cannot settle either origin. Colors, symbol counts and areas are schematic, not attribution evidence, percentages or living-cell counts." width="780" height="1430" data-theme-pair />
+
+*Above: source classes within sampled cfDNA. The non-tumor class has known source; it is outside ctDNA. Below: a separate fragment-assignment task leaves ctDNA membership unresolved, with neither route assigned. Colors and areas establish neither origin nor amounts. [Razavi 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC7061455/) used paired plasma, blood-cell and tumor sequencing.*
+
+These are related materials, rather than competing test platforms.
+
+| Question | cfDNA pool | ctDNA portion |
+|---|---|---|
+| What material? | Extracellular DNA from several sources | DNA from tumor cells, if recovered |
+| Intended question | What DNA was recovered? | Is tumor origin supported? |
+| Typical output | Total yield or detected sequence | Tumor-associated signal under stated rules |
+| Attribution | Yield alone cannot give origin | Suitable comparisons, targets and origin filters |
+| Shared limits | Processing, recovery and finite input | Same sample limits; no living-cell count or location |
 
 ## Why it matters in cancer
 
@@ -57,6 +73,12 @@ An assay may use ctDNA for genotyping, treatment-response research or [molecular
 - **A real variant can have the wrong assumed source.** Technical accuracy and tumor attribution are separate questions.
 - **Not detected is sample-specific.** It does not prove that no tumor exists.
 
+## Worked comparison: yield is not origin
+
+In a fictional experiment, equal 1-milliliter plasma aliquots yield 2 and 4 nanograms of cfDNA under one protocol. No tumor-attributed signal is reported. Does the second yield mean twice as much tumor DNA?
+
+**Answer:** total-DNA yield doubled. Tumor attribution remains unmeasured, so neither tumor fraction nor tumor-DNA fold change can be calculated. Source evidence and recovery qualifications remain necessary. For a different quantity question, read the [near-limit trend example](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result#a-worked-trend-near-the-limit).
+
 ## Try it
 
 A fictional plasma assay detects Variant Q. Matched white-blood-cell DNA also carries Q, and no tumor comparison is available. Can Q be called a tumor marker just because it appeared in plasma?
@@ -66,6 +88,8 @@ A fictional plasma assay detects Variant Q. Matched white-blood-cell DNA also ca
 ## Explain it back
 
 Why does finding a DNA fragment in plasma require both measurement and source attribution?
+
+**One possible answer:** measurement establishes what was recovered or detected; suitable comparisons and origin rules establish which cell source is supported, or leave it unresolved.
 
 ## Takeaway
 
@@ -87,6 +111,7 @@ Source check: October 10, 2026. The exercise is fictional. Expert and learner re
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)

@@ -1,0 +1,29 @@
+{
+  "method": "original code-authored editable scientific SVG",
+  "generator_script": "diagrams.py",
+  "generator_script_sha256": "9ddffa0b5d9cf09b0353880e1629b7dd8b13b6d532cf7876f099e93db12432ef",
+  "image_model_calls": [],
+  "image_model_call_count": 0,
+  "image_model": "not applicable; no model called",
+  "dark_method": "same source geometry with palette substitution; not an image edit",
+  "native_width": 780,
+  "native_height": 1100,
+  "minimum_font_size": 32,
+  "minimum_type_at_346px": 14.194871794871794,
+  "theme_geometry_signature": "1b610e159285ec99148272f3494ca8f38df6ac21ab13658f01eebdd4e1f91cb4",
+  "prompt_sha256": "264b1fe9479810e1a07d1cbf7213f80562e4d78487d42e08f517b5dbc8e3ff2e",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+      "sha256": "55354948639f9e00d7887c85bebf554b14481d3e5a5c3601b079aa8a3411b24e"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+      "sha256": "7e189db1cc88603ac07038491a19ad99956255d65428643ff7bdcfc2b503e8ca"
+    }
+  ],
+  "scientific_data": "fictional schematic; not measured data",
+  "independent_peer_scientific_and_pixel_review": "pending",
+  "expert_review": "pending",
+  "learner_review": "pending"
+}

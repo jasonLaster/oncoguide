@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-043",
+  "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+  "author": "root",
+  "reviewer": "comparison_integration_review",
+  "actualReviewerAgent": "/root/comparison_integration_review",
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "phase": "ACTUAL_CURRENT_CANONICAL_INTEGRATION_BEFORE_RELEASE",
+  "verdict": "PASS",
+  "passed": true,
+  "reviewedAtUTC": "2026-10-12T19:18:49.621337+00:00",
+  "observedSourceHEAD": "0a95e67796c2b37efd10c583b2706410deec558d",
+  "currentOwnerSha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+  "currentOwnerBytes": 9572,
+  "scope": "Current whole-owner/frozen-task/source-custody continuity only; accepted D additions and generated navigation. Original science/art/native grades preserved without new pixel, source-access, live-reader, human or release certification.",
+  "sourceFitAssessment": {
+    "learnerTask": "Compare immune-cell location inside cancer-cell regions, at their boundary and scarce across a sampled section without assigning target specificity or cause.",
+    "gap": "The pattern table and building analogy are clear, but the defining idea is spatial and no tissue diagram is present. Three matched field views with consistent region boundaries and cell symbols would explain location more directly than a workflow map.",
+    "accuracyGuardrails": [
+      "Use specified T-cell symbols and labeled cancer/stroma boundaries, not every immune population interchangeably.",
+      "Exclusion is distribution, not proof of a collagen wall or other causal barrier.",
+      "Label illustrative fields, no normal-count cutoff, patient-wide classification or treatment-response promise."
+    ],
+    "baselinePageSHA256": "69c5d0b9c78c93cddc1e56adce6e3e67e2f427c3fc358073448ee37eb2f339a8",
+    "currentVisualFit": "adequate",
+    "reasoning": "I read the complete current public owner and the exact original frozen task/guards with its selected source-fit record. The retained illustration/caption contrasts specified T-cell location inside cancer regions versus surrounding stroma using the same eight symbols, then scarcity using two symbols in an illustrative sampled field. The page labels cancer/stroma regions, separates counts from a stromal-area score, retains site/time/sampling uncertainty, and leaves target specificity, function, causal barriers and treatment response open. The unchanged answered border exercise does not attribute collagen as the cause. The current owner is byte-exact to the already reviewed source owner after removing only generated usage; both selected SVG output hashes, the image tag, caption and source qualifications remain exact. The new generated hub link does not alter this spatial teaching. Adequate original task fit and the qualified prior native review remain preserved, with no new G1/G2/G3 pixel case, source access, universal reader claim or human approval.",
+    "humanReview": "pending"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+        "sha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+        "bytes": 9572,
+        "role": "current-owner"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+        "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+        "bytes": 4834,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+        "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+        "bytes": 4834,
+        "role": "unchanged-original-output-or-custody"
+      }
+    ]
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-043-final-review.json",
+      "sha256": "e9af9a9b863fa81f8140c8572fc96592d2cb4ebc44f1dd985457065259b3cf85"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/immune-oncolytic-seven-owner-release.json",
+      "sha256": "e7c562e8739cc60c86e0ab6297cc11f5ac288c98a673b3ce0878cc14f4f4d2c3"
+    },
+    "historicalSelectionUnchanged": true,
+    "originalNativeGradePreserved": true,
+    "originalAuthor": "root",
+    "originalReviewer": "multiomics",
+    "originalReviewAndReleaseBytesUnchanged": true
+  },
+  "continuityChecks": {
+    "completeCurrentOwnerPersonallyRead": true,
+    "exactFrozenTaskAndGuardrails": true,
+    "originalNativeOutputHashesExact": true,
+    "originalImageTagAndCaptionUnchanged": true,
+    "originalTryItAndSourcesUnchanged": true,
+    "taskRegistryAndFrozenReviewBytesUnchanged": true,
+    "acceptedDBytesExactAfterGeneratedUsage": false,
+    "generatedUsageOnlyFromReviewedOwner": true
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "canonicalWrites": 0,
+  "GitWrites": 0,
+  "publishing": false,
+  "sourceFitCreditNow": 0,
+  "limitations": [
+    "Current local integration byte binding only; root must freeze and separately bind the real maintained release receipt.",
+    "Qualified original source-access, reader/focus and human-review limitations remain unchanged.",
+    "This record preserves prior native grade; no G1/G2/G3 rerun or pixel approval is claimed."
+  ]
+}

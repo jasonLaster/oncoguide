@@ -1,0 +1,109 @@
+{
+  "creationMethod": "original-code-authored-editable-scientific-svg",
+  "model": null,
+  "modelNamespace": null,
+  "imageGenerationTool": null,
+  "actualImageGenerationCalls": 0,
+  "sourceCommit": null,
+  "authoringScript": null,
+  "generatorCustody": "Original geometry construction code is retained privately in the author packet; no executable generator is delivered in public provenance or its archive.",
+  "observedOwnerSourceCommit": "5e52c0bd62c23a01fd3dd886fbbc5aa5205d64eb",
+  "teachingPin": "366becb774914d2b64b2ad6d874418d89c133bf1",
+  "assignment": "A-measurement-reference-comparisons",
+  "comparisonRow": 2,
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+  "comparisonAxis": "cell-source membership within a mixed extracellular DNA pool",
+  "native": {
+    "width": 780,
+    "height": 1430,
+    "minimumLabelSize": 32
+  },
+  "alt": "The upper scene defines source classes within sampled cfDNA: a known non-tumor class lies outside the possible tumor-derived ctDNA subset. It is a definition diagram, not an assignment of unknown fragments. A finite plasma tube accompanies a separate lower source-assignment task showing a sampled cfDNA fragment with unresolved origin and dashed possible routes to tumor and non-tumor sources. Neither route is selected, so ctDNA membership remains unresolved. Yield measures recovered DNA amount and cannot settle either origin. Colors, symbol counts and areas are schematic, not attribution evidence, percentages or living-cell counts.",
+  "variants": [
+    {
+      "theme": "light",
+      "path": "../cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+      "bundlePath": "cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+      "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e",
+      "width": 780,
+      "height": 1430
+    },
+    {
+      "theme": "dark",
+      "path": "../cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+      "bundlePath": "cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+      "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2",
+      "width": 780,
+      "height": 1430
+    }
+  ],
+  "sourceFigureCopied": false,
+  "sourceQuantitiesCopied": false,
+  "sourceUseQualification": "Scientific claims/source-depth limits inherited from proposal01 and retained peer source-depth review. No additional source acquisition or full-paper review claimed for this geometric correction.",
+  "independentPeerReview": "fresh same-nonauthor successor review pending",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending",
+  "bothLivePublicReaders": "pending",
+  "newCredit": 0,
+  "publicArchive": {
+    "path": "cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.zip",
+    "memberCount": 5,
+    "members": [
+      "cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+      "cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+      "cfdna-vs-ctdna-comparison-pool-and-source-v1.txt",
+      "cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.json",
+      "README.md"
+    ],
+    "executableGeneratorIncluded": false,
+    "nativeScreenCapturesIncluded": false,
+    "sourceBodiesIncluded": false,
+    "memberHashes": "External packet allowlist binds every public file; self/archive hashes are not embedded recursively."
+  },
+  "designBriefSHA256": "41c13aa6cc16a12a743142c3feff1433287d7aaf5ca93b6d31391bbb6e930e1e",
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061455/",
+      "checkedScope": "paired plasma/blood-cell/tumor source attribution; selected introduction/results and specific CH methods, not all methods/supplements"
+    }
+  ],
+  "nativeAuthorInspection": {
+    "stage": "successor02 author only",
+    "bothThemesPersonallyInspected": true,
+    "phoneBothThemesPersonallyInspected": true,
+    "nativeDimensions": [
+      780,
+      1430
+    ],
+    "phoneInlineWidth": 346,
+    "minimumPhoneLabelCSSPx": 14.194871794871794,
+    "unknownMembershipQualification": "Source classes are defined above; sampled unknown is in a separate assignment task with two dashed unselected routes.",
+    "privateCaptureCustody": "Actual native and local pinned-reader phone/desktop captures retained privately in proposal02. First overlap attempt retained privately. Not in this five-member public archive.",
+    "independentApproval": false
+  },
+  "designRevision": "measurement proposal02; finite R2-UNKNOWN-MEMBERSHIP correction",
+  "predecessor": {
+    "packet": "comparison-wave1-measurement-proposal-01",
+    "provenanceSHA256": "61785f90eb006b5b98bc75a59ca776720a06524eb0b200467971472b27b014f1",
+    "variants": [
+      {
+        "theme": "light",
+        "path": "../cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+        "bundlePath": "assets/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+        "sha256": "9346ff51856d73aa6b8edbbd4da6d697e7de49bf90482106b3c9036579bd727f",
+        "width": 780,
+        "height": 1260
+      },
+      {
+        "theme": "dark",
+        "path": "../cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+        "bundlePath": "assets/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+        "sha256": "c93f914bb396ea0ce3356ddfb7a0401e90544567c6685263a905a888fcbbd506",
+        "width": 780,
+        "height": 1260
+      }
+    ],
+    "custody": "Exact predecessor archive and peer/source/attempt history retained privately; not delivered in this public archive."
+  },
+  "correction": "Unknown ctDNA membership remains unresolved in a separate source-assignment scene; no fragment is partially classified by crossing a set boundary."
+}

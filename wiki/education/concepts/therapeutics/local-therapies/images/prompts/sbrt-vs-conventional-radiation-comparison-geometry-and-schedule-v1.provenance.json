@@ -1,0 +1,22 @@
+{
+  "construction": "code-authored scientific SVG",
+  "basepromptFile": "sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1.txt",
+  "model": null,
+  "imageGenerationToolCalls": 0,
+  "imageGenerationModelCalls": 0,
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "nativeWidthPx": 780,
+  "minimumVisibleTextPx": 36,
+  "artist": "Codex authored vector construction code",
+  "limitations": "Schematic educational geometry; no measured exposure or efficacy map. Author layout QA is not independent review.",
+  "basepromptSHA256": "01ba713977950000e53a929134ee83afa7da4602a25c5ef9bc53ff854b3409eb",
+  "constructionCodeSHA256": "1e03b73f0581236ace6051996ff520eb15388560fcff6802eff7825e73fa05b5",
+  "svgSHA256": {
+    "light": "491d27eaf63aebcba8a8a3f7fce35ec111933be69e92d779b75109180b60af9b",
+    "dark": "ac2296491aaf33e137df26a5c48e64d6f03535d0c421326e946fe0acf8b3a4d7"
+  },
+  "sourceChecked": "2026-10-12"
+}

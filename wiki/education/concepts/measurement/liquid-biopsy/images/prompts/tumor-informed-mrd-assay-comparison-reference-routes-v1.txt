@@ -1,0 +1,15 @@
+Original scientific editable SVG for comparison audit row16, ownerwiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md. Literal assignment A-measurement-reference-comparisons. Full learning task and boundaries are in original-comparison-taskmap.json; finite requirement: Add the two reference routes and an answered method-question exercise in the current owner. Keep assay version, input, background attribution and intended-use performance attached; no category-wide sensitivity hierarchy.
+Scene: Two reference branches join one illustrative later-plasma testing stage. A tumor-informed mutation strategy selects features from suitable sampled tumor material. A tumor-naive strategy begins with predefined features and rules. A single finite plasma tube represents a shared input constraint, not duplicated molecules or equal assay performance. Both routes retain source attribution, sample-quality, calling-rule and intended-use validation requirements.
+Use rounded physical cell/DNA/sample objects, same geometry across warm neutral LIGHT and quiet deep DARK, 32px minimum labels at780px native width, no human/patient/doctor, no measured molecular proportions or clinical/assay ranking. Preserve supplied source scopes and uncertainty. This is a code-authoring design brief, not an image-model invocation.
+
+Standalone comparison task and restrictions:
+{
+  "learningComparison": "Compare whether a detector is built from this person\u2019s sampled tumor or predefined features, then evaluate the complete assay in matched setting and sampling conditions.",
+  "misconception": "Personalized automatically more sensitive/better; tissue-free detects every cancer; unequal-cohort detection percentages rank platforms.",
+  "qualifier": "Reference quality/representativeness, assay targets, shedding, finite input, calling rules, evaluability, time and intended use constrain both categories; detection does not establish intervention benefit.",
+  "remainingWork": [
+    "Add a two-branch axis diagram showing tumor-reference selection before blood tracking versus predefined detector applied to plasma; explicitly preserve shared finite-input/qualifying-call boundary.",
+    "Add a worked comparison and answered practice in which tissue/reference availability and feature scope determine what question each design can address; do not assign a universal performance winner or care instruction.",
+    "Supply a possible Explain it back response naming reference information and shared sampling limits."
+  ]
+}

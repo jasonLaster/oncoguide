@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1140" viewBox="0 0 780 1140" role="img" aria-labelledby="title desc">
+<title id="title">Anergy and exhaustion: response-history comparison</title>
+<desc id="desc">Three fictional controlled-history cards, with an unresolved low-IL-2-only third sample. A and B are separate populations, not a transition.</desc>
+<rect width="780" height="1140" fill="#111e27"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="32" y="65" font-size="40" font-weight="700" fill="#ecf2f4">Same low response, different histories</text>
+<text x="32" y="113" font-size="32" font-weight="400" fill="#bdd0d9">Fictional observations · not diagnostic rules</text>
+<rect x="30" y="150" width="720" height="270" rx="20" fill="#1c303d" stroke="#a0bac8" stroke-width="2"/>
+<text x="58" y="201" font-size="38" font-weight="700" fill="#ecf2f4">A · Altered priming</text>
+<path d="M70 247 L70 296" fill="none" stroke="#a0bac8" stroke-width="4"/>
+<circle cx="70" cy="246" r="9" fill="#add5e8" stroke="#a0bac8" stroke-width="2"/>
+<circle cx="70" cy="297" r="9" fill="#add5e8" stroke="#a0bac8" stroke-width="2"/>
+<text x="96" y="255" font-size="32" font-weight="400" fill="#ecf2f4">Antigen + inadequate support</text>
+<text x="96" y="306" font-size="32" font-weight="400" fill="#ecf2f4">Later controlled response defect</text>
+<rect x="56" y="334" width="668" height="63" rx="14" fill="#add5e8" stroke="#a0bac8" stroke-width="2"/>
+<text x="76" y="376" font-size="32" font-weight="700" fill="#182b36">Anergy-compatible evidence</text>
+<rect x="30" y="451" width="720" height="310" rx="20" fill="#1c303d" stroke="#a0bac8" stroke-width="2"/>
+<text x="58" y="502" font-size="38" font-weight="700" fill="#ecf2f4">B · Persistent stimulation</text>
+<path d="M70 549 L70 640" fill="none" stroke="#a0bac8" stroke-width="4"/>
+<circle cx="70" cy="551" r="9" fill="#b8dfc5" stroke="#a0bac8" stroke-width="2"/>
+<circle cx="70" cy="639" r="9" fill="#b8dfc5" stroke="#a0bac8" stroke-width="2"/>
+<text x="96" y="559" font-size="32" font-weight="400" fill="#ecf2f4">Initial response → persistent antigen</text>
+<text x="96" y="605" font-size="32" font-weight="400" fill="#ecf2f4">Several altered functions</text>
+<text x="96" y="650" font-size="32" font-weight="400" fill="#ecf2f4">+ compatible program findings</text>
+<rect x="56" y="680" width="668" height="63" rx="14" fill="#b8dfc5" stroke="#a0bac8" stroke-width="2"/>
+<text x="76" y="722" font-size="32" font-weight="700" fill="#182b36">Exhaustion-compatible evidence</text>
+<rect x="30" y="792" width="720" height="255" rx="20" fill="#1c303d" stroke="#a0bac8" stroke-width="2"/>
+<text x="58" y="843" font-size="38" font-weight="700" fill="#ecf2f4">C · Low IL-2 alone</text>
+<text x="58" y="896" font-size="32" font-weight="400" fill="#ecf2f4">History and controls unknown</text>
+<rect x="56" y="926" width="668" height="90" rx="14" fill="#efda9c" stroke="#a0bac8" stroke-width="2"/>
+<text x="76" y="965" font-size="32" font-weight="700" fill="#182b36">State stays unassigned</text>
+<text x="76" y="1005" font-size="32" font-weight="400" fill="#182b36">Ask what evidence is missing</text>
+<text x="32" y="1102" font-size="32" font-weight="400" fill="#bdd0d9">Separate populations · no A-to-B transition</text>
+</g>
+</svg>

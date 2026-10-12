@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-033",
+  "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+  "author": "root",
+  "reviewer": "comparison_integration_review",
+  "actualReviewerAgent": "/root/comparison_integration_review",
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "phase": "ACTUAL_CURRENT_CANONICAL_INTEGRATION_BEFORE_RELEASE",
+  "verdict": "PASS",
+  "passed": true,
+  "reviewedAtUTC": "2026-10-12T19:18:49.573599+00:00",
+  "observedSourceHEAD": "0a95e67796c2b37efd10c583b2706410deec558d",
+  "currentOwnerSha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
+  "currentOwnerBytes": 11965,
+  "scope": "Current whole-owner/frozen-task/source-custody continuity only; accepted D additions and generated navigation. Original science/art/native grades preserved without new pixel, source-access, live-reader, human or release certification.",
+  "sourceFitAssessment": {
+    "learnerTask": "Trace constitutional, somatic and mosaic distributions across cell lineages, rather than infer origin from one tumor or blood specimen.",
+    "gap": "The prose and nuanced blood/plasma exercise are strong but no visual shows the lineage branching or sampled compartments. A simple developmental branch diagram would turn broadly distributed versus acquired-in-one-branch into a visible contrast.",
+    "accuracyGuardrails": [
+      "Include de novo constitutional possibility and a mosaic branch; somatic does not mean tumor-only, blood can contain acquired clones, and one specimen does not map reproductive cells or pathogenicity."
+    ],
+    "baselinePageSHA256": "1e220fb9aa75f47c1929ebcbeae84ca0b1413bc7b7305ad1cec7e225cad02458",
+    "currentVisualFit": "adequate",
+    "reasoning": "I read the full current public owner, frozen task and all guards, the selected prior source-fit/release record, and D's original full-owner review plus narrow provenance successor. The retained developmental branch image, unchanged alt and caption separate early constitutional possibilities (inherited or de novo) from a later acquired blood-cell branch that can be both somatic and mosaic. Sample windows and possible plasma contributors still leave reproductive distribution and pathogenicity unresolved. The unchanged blood/plasma Try it answer retains acquired clones, mosaicism and technical limits. D's reviewed comparison table and model answer preserve origin/distribution/effect separation and uncertainty. The selected original light/dark PNG output hashes and finite original recipe/provenance hashes are unchanged. Generated hub usage is the sole integration difference from the accepted candidate. The complete current owner therefore retains adequate original branching/compartment task fit without a fresh pixel, medical-source, reader or human judgment.",
+    "humanReview": "pending"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+        "sha256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
+        "bytes": 11965,
+        "role": "current-owner"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-dark.png",
+        "sha256": "82462c36ea483533f797959e38dfeac99b18bad07ae6682ecc42c8203fc59fb3",
+        "bytes": 2242130,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+        "sha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+        "bytes": 1881304,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-dark-call.txt",
+        "sha256": "0fb3e0ac0586088ed35b808df986247cc740838792f9ecc6a209da0ea6ab4449",
+        "bytes": 3671,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-call.txt",
+        "sha256": "6ca2662d3b5cc4581fecf53623cadaa925874c69e7f7db207044ea342e45dcdc",
+        "bytes": 2314,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-generation-call.txt",
+        "sha256": "874018c64c666b0eef368265242462908efcd81a10d56a9b4b2eed53c5ccdd61",
+        "bytes": 7542,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-repair01-call.txt",
+        "sha256": "0aac1c09acaac982955a3956eb24d2ad8a8acc625f5eac4aa5d6f9cd048f55c8",
+        "bytes": 4080,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-repair02-call.txt",
+        "sha256": "edc6dbf83677043537cd0b79c7a5c2f18ec3dc4e350a5dcf3dff2de3da9aea19",
+        "bytes": 4276,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-provenance.json",
+        "sha256": "fb92cab83101d114c01d9384476ca17532680b4e3b1c584a9f34fce283de6add",
+        "bytes": 6656,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-provenance.zip",
+        "sha256": "767a01bc2f42d5a013da8f29cc0712ba7b836dcc48e43c34237d410f6edca248",
+        "bytes": 18159,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4.txt",
+        "sha256": "168b998e8d9af0fc3b73eff9dee0ab1214f1117bb7d9e0946464cef37a665ea7",
+        "bytes": 7173,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/wave12-033-original-pair-review.json",
+        "sha256": "e732daeb02ade0ab99245f1726e3597194fedc2c5c5d678ab44c28dc1e7c1ae6",
+        "bytes": 20842,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/wave12-033-prospective-full-task-review.json",
+        "sha256": "b3d0a61a6375c9c0b7f2b8fb74e5b9a7c13007a1fb43b9c34fca3236d3a23a2f",
+        "bytes": 20875,
+        "role": "unchanged-original-output-or-custody"
+      }
+    ]
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-033-final-review.json",
+      "sha256": "6fe09794c0fe7a9a18111eee9de89c8833b9b1cc48cc1f33305612e0a7064a94"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-wave12-release.json",
+      "sha256": "4a3aaf416891b4fd618d061f585a77c764b8dd1d39599a145a953c466f7d6ea5"
+    },
+    "historicalSelectionUnchanged": true,
+    "originalNativeGradePreserved": true,
+    "originalAuthor": "sequencing-author",
+    "originalReviewer": "immune_foundations",
+    "originalReviewAndReleaseBytesUnchanged": true,
+    "D01": {
+      "artifactId": "comparison-wave2-existing-pairs-review-01",
+      "sha256": "f0b827e698d6e2556d6a7c072e660ea0b4203c3e8546fac624de7ba27ca8d611",
+      "bytes": 13083,
+      "unchanged": true
+    },
+    "D02": {
+      "artifactId": "comparison-wave2-existing-pairs-review-02",
+      "sha256": "7c72ca656334a2452cedd3c34f7e385d8ef5c291b7d4a60c535dfcb85c637a63",
+      "bytes": 11079,
+      "unchanged": true
+    }
+  },
+  "continuityChecks": {
+    "completeCurrentOwnerPersonallyRead": true,
+    "exactFrozenTaskAndGuardrails": true,
+    "originalNativeOutputHashesExact": true,
+    "originalImageTagAndCaptionUnchanged": true,
+    "originalTryItAndSourcesUnchanged": true,
+    "taskRegistryAndFrozenReviewBytesUnchanged": true,
+    "acceptedDBytesExactAfterGeneratedUsage": true,
+    "generatedUsageOnlyFromReviewedOwner": false
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "canonicalWrites": 0,
+  "GitWrites": 0,
+  "publishing": false,
+  "sourceFitCreditNow": 0,
+  "limitations": [
+    "Current local integration byte binding only; root must freeze and separately bind the real maintained release receipt.",
+    "Qualified original source-access, reader/focus and human-review limitations remain unchanged.",
+    "This record preserves prior native grade; no G1/G2/G3 rerun or pixel approval is claimed."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "construction": "code-authored scientific SVG",
+  "basepromptFile": "cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1.txt",
+  "model": null,
+  "imageGenerationToolCalls": 0,
+  "imageGenerationModelCalls": 0,
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "nativeWidthPx": 780,
+  "minimumVisibleTextPx": 36,
+  "artist": "Codex authored vector construction code",
+  "limitations": "Schematic educational geometry; no measured exposure or efficacy map. Author layout QA is not independent review.",
+  "basepromptSHA256": "8c25f260c562b54137c2058db55ae4bc52420ca4e94bdb65a86b71206892ce71",
+  "constructionCodeSHA256": "1e03b73f0581236ace6051996ff520eb15388560fcff6802eff7825e73fa05b5",
+  "svgSHA256": {
+    "light": "d815a132798f02fd82675b12fb9365523c0c2fb9bc41539c74b4cec91106a480",
+    "dark": "45d267b6c5c24b85b34ef964f314838a4e85269bbb1920318201c4ae756b7dd4"
+  },
+  "sourceChecked": "2026-10-12"
+}

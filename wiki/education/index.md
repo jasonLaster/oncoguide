@@ -39,6 +39,8 @@ If all of this is new, begin with **Start here**, then follow **standard treatme
 
 The [Learning paths index](/wiki/education/guides/index) collects the ordered paths in one place. The [local-treatment reference shelf](/wiki/education/local-treatment-modalities/index) helps you find modality and study references after the lessons.
 
+Want to untangle two similar ideas? [Compare related ideas](/wiki/education/comparisons/index) groups short comparison pages by question. Pick one, try its practice question and read the answer.
+
 ## Look up a concept
 
 [[wiki/education/concepts/index|Concept library]] provides stable definitions, examples and common confusions. [[about/Terminology|Terminology]] provides short definitions and links to explanations. [[about/tags|Topic tags]] organize navigation separately.

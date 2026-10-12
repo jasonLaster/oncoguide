@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1100" viewBox="0 0 780 1100" role="img" aria-labelledby="title desc">
+<title id="title">In-situ and designed vaccines: antigen-source comparison</title>
+<desc id="desc">Two fictional source cards feed shared questions, not a guaranteed biological pipeline. Sources can coexist in a combined strategy.</desc>
+<rect width="780" height="1100" fill="#faf9f5"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="32" y="64" font-size="40" font-weight="700" fill="#182b36">Follow the antigen source</text>
+<text x="32" y="111" font-size="32" font-weight="400" fill="#3f5966">Fictional T-cell-directed strategies</text>
+<rect x="30" y="148" width="720" height="231" rx="20" fill="#ffffff" stroke="#476371" stroke-width="2"/>
+<text x="56" y="197" font-size="36" font-weight="700" fill="#182b36">A · Material already in the body</text>
+<rect x="56" y="222" width="668" height="63" rx="14" fill="#d8ebf4" stroke="#476371" stroke-width="2"/>
+<text x="76" y="264" font-size="32" font-weight="700" fill="#182b36">Available tumor material</text>
+<text x="56" y="327" font-size="32" font-weight="400" fill="#182b36">Which fragments get used is unresolved</text>
+<rect x="30" y="411" width="720" height="231" rx="20" fill="#ffffff" stroke="#476371" stroke-width="2"/>
+<text x="56" y="460" font-size="36" font-weight="700" fill="#182b36">B · Planned supplied product</text>
+<rect x="56" y="485" width="668" height="63" rx="14" fill="#d9eddf" stroke="#476371" stroke-width="2"/>
+<text x="76" y="527" font-size="32" font-weight="700" fill="#182b36">Selected material or instructions</text>
+<text x="56" y="590" font-size="32" font-weight="400" fill="#182b36">Intended display still needs testing</text>
+<path d="M750 350 L765 350" fill="none" stroke="#476371" stroke-width="4" stroke-dasharray="10 9"/>
+<path d="M750 590 L765 590" fill="none" stroke="#476371" stroke-width="4" stroke-dasharray="10 9"/>
+<path d="M765 350 L765 710" fill="none" stroke="#476371" stroke-width="4" stroke-dasharray="10 9"/>
+<path d="M765 710 L675 710" fill="none" stroke="#476371" stroke-width="4" stroke-dasharray="10 9"/>
+<path d="M675 710 L675 718" fill="none" stroke="#476371" stroke-width="4" stroke-dasharray="10 9"/>
+<text x="32" y="690" font-size="32" font-weight="700" fill="#182b36">Both must address the shared questions</text>
+<rect x="30" y="718" width="720" height="251" rx="20" fill="#ffffff" stroke="#476371" stroke-width="2"/>
+<text x="56" y="765" font-size="32" font-weight="400" fill="#182b36">Presentation and priming</text>
+<text x="56" y="812" font-size="32" font-weight="400" fill="#182b36">Natural recognition, access, function</text>
+<text x="56" y="859" font-size="32" font-weight="400" fill="#182b36">Clinical outcomes, comparison, harms</text>
+<text x="56" y="919" font-size="32" font-weight="400" fill="#3f5966">Each question needs its own evidence</text>
+<text x="32" y="1018" font-size="32" font-weight="400" fill="#3f5966">Sources can overlap in a combined strategy</text>
+<text x="32" y="1062" font-size="32" font-weight="400" fill="#3f5966">Dashed line = questions, not guaranteed success</text>
+</g>
+</svg>

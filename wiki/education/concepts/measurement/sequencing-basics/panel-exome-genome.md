@@ -8,13 +8,13 @@ aliases: ["WES", "WGS", "whole-exome sequencing", "whole-genome sequencing", "ta
 level: "foundation"
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
+updated: "2026-10-12"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"]
-used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 ---
 
 # Panel, exome and genome sequencing: choose the coverage
@@ -38,6 +38,10 @@ You can proofread selected pages, most recipe sections or an entire book. Broade
 | **[Whole-genome sequencing (WGS)](/about/Terminology#wgs)** | Coding and noncoding regions broadly | Difficult repeats, uneven measurement and which analyses were actually performed |
 
 Exons include untranslated sequence as well as protein-coding sequence. “Exome” therefore does not mean that every captured base codes for protein, or that every regulatory region and rearrangement breakpoint was examined. [NCI exon definition](https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/exon).
+
+<img src="./images/panel-exome-genome-comparison-territory-v1-light.svg" alt="Three design tracks align to the same illustrative DNA interval. Gray boxes above identify exons among intervening sequence. The toy panel targets one exon and a selected non-exon region, exome sequencing targets primarily the exon boxes, and genome sequencing targets the broader interval. Blank positions are outside the toy design; hatched patches mark illustrative potential usable-evidence gaps, including a difficult repeat-like region on the genome track. Widths, coordinates and gaps are schematic, not an assay dataset, fixed category property, measured depth or performance ranking." width="780" height="1320" data-theme-pair />
+
+*The same illustrative DNA interval underlies all three tracks. Fill marks intended targets; blank positions lie outside this toy design; hatching shows potential gaps in usable evidence. Locations and widths are not genomic coordinates, study results or fixed category properties. Broader territory is not guaranteed detection. [Sanghvi 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6456263/) examined reduced coverage in specified exome/genome workflows.*
 
 [Depth and coverage breadth](/wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage) answer separate questions. At a fixed sequencing budget, covering more territory commonly spreads observations more thinly, but actual depth depends on the design and usable yield. A panel can be deep and a genome broad; either can leave an important position poorly measured.
 
@@ -100,6 +104,7 @@ Source check: October 10, 2026. Assay-category education; the examples are ficti
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Read tumor and normal data before choosing targets](/wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data)
 - [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
 - [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)

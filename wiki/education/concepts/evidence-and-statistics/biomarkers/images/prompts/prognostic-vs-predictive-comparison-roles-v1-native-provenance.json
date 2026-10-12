@@ -1,0 +1,39 @@
+{
+  "creation_method": "original code-authored editable scientific SVG",
+  "image_model_calls": [],
+  "actual_image_model_calls": 0,
+  "model": null,
+  "creation_source_commit": null,
+  "observed_owner_source_head": "164f11ced5c0b274374330c8f7574d89248f7e07",
+  "generator": "diagram.py",
+  "generator_sha256": "7560027cf0fcc428f0edda834783083472dd11c718bc8cd572ba3f1ce147a66e",
+  "native": {
+    "width": 780,
+    "height": 1100,
+    "minimum_font_size": 32
+  },
+  "theme_method": "shared exact non-palette bytes; palette substitution, not referenced-image editing",
+  "nonpalette_signature": "be5f8e781d1536863a9d31997c9c2df26a8ef07c432d1fd33f3a75f7fc1e5e97",
+  "prompt_sha256": "41c44e86b27caa1c2aa00ed3b3a29bd82ae46fe10c89433f10341464ccca5735",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prognostic-vs-predictive-comparison-roles-v1-light.svg",
+      "sha256": "afe323ca395c66433996e86fe41ebcf24bee998d515730eabe33ae48b985ae8f"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prognostic-vs-predictive-comparison-roles-v1-dark.svg",
+      "sha256": "b1b77eaeba10c57631deb512e19afdbeeccc8660944e98e326f5e4ed63a69828"
+    }
+  ],
+  "alt": "Two independent question panels use the same study-defined marker groups: a prognostic comparison asks about outcomes under a specified background, while a predictive comparison asks whether treatment-versus-comparator effects differ between groups on a named scale; neither panel contains measured results",
+  "source_quantities_copied": false,
+  "source_figures_copied": false,
+  "empirical_data": "none; logical question panels",
+  "independent_scientific_native_review": "pending",
+  "expert_review": "pending",
+  "learner_review": "pending",
+  "credit": 0,
+  "generator_custody": "The generator identifier diagram.py and its hash identify privately retained construction code in the author/reviewer packet. That program is not delivered in the public candidate set. Delivered SVGs are editable; no executable reproduction package is supplied.",
+  "source_depth_record": "source-use-public-safe.json",
+  "source_depth_record_custody": "Privately retained author/reviewer source-depth receipt, not delivered publicly. Raw source bodies and captures are also excluded from public delivery."
+}

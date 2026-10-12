@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-006",
+  "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+  "author": "root",
+  "reviewer": "comparison_integration_review",
+  "actualReviewerAgent": "/root/comparison_integration_review",
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "phase": "ACTUAL_CURRENT_CANONICAL_INTEGRATION_BEFORE_RELEASE",
+  "verdict": "PASS",
+  "passed": true,
+  "reviewedAtUTC": "2026-10-12T19:18:49.517051+00:00",
+  "observedSourceHEAD": "0a95e67796c2b37efd10c583b2706410deec558d",
+  "currentOwnerSha256": "f4ce5fb63206b4538e76b625035df821ce86a1f94560b8f892afd0173bd9ee02",
+  "currentOwnerBytes": 8780,
+  "scope": "Current whole-owner/frozen-task/source-custody continuity only; accepted D additions and generated navigation. Original science/art/native grades preserved without new pixel, source-access, live-reader, human or release certification.",
+  "sourceFitAssessment": {
+    "learnerTask": "Reverse sensitivity and PPV denominators and see prevalence change positive-call composition.",
+    "gap": "The confusion table has no frequency-tree or common-population graphic.",
+    "accuracyGuardrails": "Use matched fictional populations and distinguish sensitivity from positive predictive value. Prevalence/context alter positive-call composition; borrowed prevalence is not an individual's posterior probability.",
+    "baselinePageSHA256": "d169b383340f4c215435e9a50a4094094f3b9d97c47226e414c53d4bf04f7bf5",
+    "currentVisualFit": "adequate",
+    "reasoning": "I read the full current public owner, the frozen task and all guards, the selected prior source-fit/release record, and D's original full-owner review plus narrow provenance successor. The current retained chart/caption still distinguishes the 1,000-person condition denominator from the positive-call pool at 10% and 50% prevalence; the four counts and held assumed 80% sensitivity/90% specificity retain the population-versus-person qualifications. The 5% prevalence answered exercise remains 40/(40+95), approximately 29.6%. The already independently reviewed added table makes the same true-positive numerator and changed conditioning group explicit. Exact selected SVG output hashes, original image tag including 576 by 1520 dimensions, caption, source scope and existing practice all remain unchanged. The only integration changes from the accepted D owner are generated usage. This preserves adequate fit for the original denominator/prevalence task; it adds no new native-pixel, source-access, live-reader or human approval.",
+    "humanReview": "pending"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+        "sha256": "f4ce5fb63206b4538e76b625035df821ce86a1f94560b8f892afd0173bd9ee02",
+        "bytes": 8780,
+        "role": "current-owner"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+        "sha256": "4e1493e76f14a217b0113175fa9f5315ee71014a73659920a023d4854f28f542",
+        "bytes": 85207,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+        "sha256": "51d81d6c2dbaf378ce7f9e8a87b39d9646d9976420adb40e7f006a2afc02fc68",
+        "bytes": 85207,
+        "role": "unchanged-original-output-or-custody"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+        "sha256": "856f29c50239fe42772a3cf24399ee760313d9c83d9ac9a6a70258583cef7a6f",
+        "bytes": 16569,
+        "role": "unchanged-original-output-or-custody"
+      }
+    ]
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-next-content-next-gap-006-canonical-binding.json",
+      "sha256": "08b475064f215b7caa412ab6bd98b0cde394de822d4749c7692f90eedd16bc9b"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-next-content-release.json",
+      "sha256": "72ff3aa46777ebb7fb5284d19a9357205fd1a1128965595504f86f51992f56f5"
+    },
+    "historicalSelectionUnchanged": true,
+    "originalNativeGradePreserved": true,
+    "originalAuthor": "multiomics",
+    "originalReviewer": "root",
+    "originalReviewAndReleaseBytesUnchanged": true,
+    "D01": {
+      "artifactId": "comparison-wave2-existing-pairs-review-01",
+      "sha256": "f0b827e698d6e2556d6a7c072e660ea0b4203c3e8546fac624de7ba27ca8d611",
+      "bytes": 13083,
+      "unchanged": true
+    },
+    "D02": {
+      "artifactId": "comparison-wave2-existing-pairs-review-02",
+      "sha256": "7c72ca656334a2452cedd3c34f7e385d8ef5c291b7d4a60c535dfcb85c637a63",
+      "bytes": 11079,
+      "unchanged": true
+    }
+  },
+  "continuityChecks": {
+    "completeCurrentOwnerPersonallyRead": true,
+    "exactFrozenTaskAndGuardrails": true,
+    "originalNativeOutputHashesExact": true,
+    "originalImageTagAndCaptionUnchanged": true,
+    "originalTryItAndSourcesUnchanged": true,
+    "taskRegistryAndFrozenReviewBytesUnchanged": true,
+    "acceptedDBytesExactAfterGeneratedUsage": true,
+    "generatedUsageOnlyFromReviewedOwner": false
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "canonicalWrites": 0,
+  "GitWrites": 0,
+  "publishing": false,
+  "sourceFitCreditNow": 0,
+  "limitations": [
+    "Current local integration byte binding only; root must freeze and separately bind the real maintained release receipt.",
+    "Qualified original source-access, reader/focus and human-review limitations remain unchanged.",
+    "This record preserves prior native grade; no G1/G2/G3 rerun or pixel approval is claimed."
+  ]
+}

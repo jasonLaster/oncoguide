@@ -11,8 +11,8 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
-updated: 2026-10-10
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+updated: "2026-10-12"
 source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
 ---
@@ -42,6 +42,15 @@ Use a defined **reference standard** to distinguish the condition from the test 
 - **Negative predictive value (NPV):** people without the condition among negative test results.
 
 The denominator changes when you reverse the question. The **base rate**, or prevalence of the defined condition in the tested population, connects these quantities. [FDA diagnostic reporting guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
+
+
+### Compare sensitivity with positive predictive value
+
+| Part of the fraction | Sensitivity | Positive predictive value (PPV) |
+|---|---|---|
+| Question | Among people with the reference condition, who tests positive? | Among positive test results, who has the reference condition? |
+| Numerator | True positives | The same true positives |
+| Denominator | All people with the condition: true positives plus false negatives | All positive calls: true positives plus false positives |
 
 ## Worked example
 
@@ -109,6 +118,7 @@ General teaching, source-checked October 10, 2026. The examples are hypothetical
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)

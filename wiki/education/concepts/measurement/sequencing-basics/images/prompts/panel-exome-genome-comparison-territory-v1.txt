@@ -1,0 +1,13 @@
+Original scientific editable SVG for comparison audit row17, ownerwiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md. Literal assignment A-measurement-reference-comparisons. Full learning task and boundaries are in original-comparison-taskmap.json; finite requirement: Add one conceptual territory diagram with unmeasured/difficult gaps. Retain the current exercises and avoid a universal breadth-to-detection ranking.
+Scene: Three design tracks align to the same illustrative DNA interval. Gray boxes above identify exons among intervening sequence. The toy panel targets one exon and a selected non-exon region, exome sequencing targets primarily the exon boxes, and genome sequencing targets the broader interval. Blank positions are outside the toy design; hatched patches mark illustrative potential usable-evidence gaps, including a difficult repeat-like region on the genome track. Widths, coordinates and gaps are schematic, not an assay dataset, fixed category property, measured depth or performance ranking.
+Use rounded physical cell/DNA/sample objects, same geometry across warm neutral LIGHT and quiet deep DARK, 32px minimum labels at780px native width, no human/patient/doctor, no measured molecular proportions or clinical/assay ranking. Preserve supplied source scopes and uncertainty. This is a code-authoring design brief, not an image-model invocation.
+
+Standalone comparison task and restrictions:
+{
+  "learningComparison": "Choose DNA territory for a defined alteration question while distinguishing breadth from depth and validated change-class detection.",
+  "misconception": "Whole genome completely sees all bases and change classes; more genes supersedes a focused validated assay; WES only means protein-coding bases.",
+  "qualifier": "Exact coordinates, capture design, repeats, usable local coverage, analysis and validation determine scope; DNA territory does not directly measure methylation, RNA, protein or function.",
+  "remainingWork": [
+    "Add one conceptual physical-region diagram comparing selected targets, exon-focused capture and coding/noncoding genome territory with deliberately unmeasured/poorly resolved gaps; no universal numerical coverage or performance hierarchy. Keep the existing question-specific worked examples and table."
+  ]
+}

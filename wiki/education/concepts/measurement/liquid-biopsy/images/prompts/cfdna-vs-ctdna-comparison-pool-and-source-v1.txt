@@ -1,0 +1,18 @@
+Original scientific editable SVG for comparison audit row2, ownerwiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md. Literal assignment A-measurement-reference-comparisons. Full learning task and boundaries are in original-comparison-taskmap.json; finite requirement: Add the mixed-source/subset representation and a worked yield-versus-tumor-attribution task. Do not turn subset versus pool into competing technologies or an invented tumor percentage.
+Revised scene: The upper scene defines source classes within sampled cfDNA: a known non-tumor class lies outside the possible tumor-derived ctDNA subset. It is a definition diagram, not an assignment of unknown fragments. A finite plasma tube accompanies a separate lower source-assignment task showing a sampled cfDNA fragment with unresolved origin and dashed possible routes to tumor and non-tumor sources. Neither route is selected, so ctDNA membership remains unresolved. Yield measures recovered DNA amount and cannot settle either origin. Colors, symbol counts and areas are schematic, not attribution evidence, percentages or living-cell counts.
+Use rounded physical cell/DNA/sample objects, same geometry across warm neutral LIGHT and quiet deep DARK, 32px minimum labels at780px native width, no human/patient/doctor, no measured molecular proportions or clinical/assay ranking. Preserve supplied source scopes and uncertainty. This is a code-authoring design brief, not an image-model invocation.
+
+Standalone comparison task and restrictions:
+{
+  "learningComparison": "Identify ctDNA as the tumor-derived portion of a mixed extracellular DNA pool and distinguish detecting a real sequence from attributing it to tumor.",
+  "misconception": "Any plasma DNA or real plasma variant is tumor DNA; not detected means no cancer.",
+  "qualifier": "Cell origin, finite sampling, specimen processing and intended use stay attached; released fragments do not count living cells or locate lesions.",
+  "remainingWork": [
+    "Add a comparison table for measured pool, attribution requirement, intended question, output and shared limitations. Do not imply cfDNA and ctDNA are competing platforms.",
+    "Add a physical mixed-source plasma diagram with an explicitly unresolved source class; no invented tumor percentage or one-fragment-per-live-cell mapping.",
+    "Develop an answer-led worked example distinguishing a total cfDNA-yield change from a supported tumor-associated signal; use existing fictional logic without inventing clinical performance.",
+    "Give one possible Explain it back answer."
+  ]
+}
+
+Proposal02 correction R2-UNKNOWN-MEMBERSHIP: the upper pool shows defined source classes, with known non-tumor source distinct from the possible ctDNA subset. An unknown sampled cfDNA fragment appears only in a separate assignment task, with two dashed unselected possible origins and explicit unresolved membership. Do not place that unknown fragment in the definitively non-tumor region, select either route, or imply that fragment location/color establishes source. No new image model call or primary-source retrieval. Original editable geometry construction code and the actual predecessor/peer/source/attempt records are privately retained; no executable generator is delivered in the public archive.
