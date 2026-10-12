@@ -182,53 +182,109 @@ export function assertArtworkPrompt(bytes: Buffer, p: string) {
   if (bytes.subarray(0, 80).toString().startsWith("version https://git-lfs.github.com/spec/v1")) throw Error("Unhydrated LFS artwork prompt: " + p);
   if (/<redact\b|^\s*:::redact\b/im.test(bytes.toString())) throw Error("Redacted artwork prompt: " + p);
 }
+type ArtworkBinding = { path: string; sha256: string };
 type SupplementalArtifact = {
   path: string; sha256: string; bytes: number; owner: string; ownerSha256: string;
-  artwork: string; artworkSha256: string; contentClass: "source-owned-public-custody";
-};
+  contentClass: "source-owned-public-custody";
+} & ({ artwork: string; artworkSha256: string; artworks?: never } |
+     { artworks: ArtworkBinding[]; artwork?: never; artworkSha256?: never });
+function artworkBindings(entry: SupplementalArtifact): ArtworkBinding[] {
+  return entry.artworks ?? [{ path: entry.artwork, sha256: entry.artworkSha256 }];
+}
 export function validateSupplementalArtifacts(value: unknown): SupplementalArtifact[] {
   const manifest = value as { version?: number; sourceRepository?: string; reviewedSourceCommit?: string; artifacts?: SupplementalArtifact[] };
-  if (!manifest || manifest.version !== 1 || manifest.sourceRepository !== SOURCE_REPOSITORY ||
+  if (!manifest || ![1, 2, 3].includes(manifest.version || 0) || manifest.sourceRepository !== SOURCE_REPOSITORY ||
     !/^[a-f0-9]{40}$/.test(manifest.reviewedSourceCommit || "") || !Array.isArray(manifest.artifacts) || manifest.artifacts.length > 200) {
     throw Error("Invalid supplemental artifact manifest");
   }
   const seen = new Set<string>();
   let totalBytes = 0;
   for (const entry of manifest.artifacts) {
-    if (!entry || typeof entry.path !== "string" || typeof entry.owner !== "string" || typeof entry.artwork !== "string" ||
-      !validPath(entry.path) || !validPath(entry.owner) || !entry.owner.endsWith(".md") || !validPath(entry.artwork) ||
-      !/\.(png|jpe?g|webp|avif|svg)$/i.test(entry.artwork) || !/\.(txt|json|zip)$/.test(entry.path) ||
-      entry.contentClass !== "source-owned-public-custody" || ![entry.sha256, entry.ownerSha256, entry.artworkSha256].every(h => typeof h === "string" && /^[a-f0-9]{64}$/.test(h)) ||
+    if (!entry || typeof entry.path !== "string" || typeof entry.owner !== "string" ||
+      !validPath(entry.path) || !validPath(entry.owner) || !entry.owner.endsWith(".md") || !/\.(txt|json|zip)$/.test(entry.path) ||
+      entry.contentClass !== "source-owned-public-custody" || ![entry.sha256, entry.ownerSha256].every(h => typeof h === "string" && /^[a-f0-9]{64}$/.test(h)) ||
       !Number.isSafeInteger(entry.bytes) || entry.bytes < 1 || entry.bytes > 5 * 1024 * 1024 || seen.has(entry.path)) {
       throw Error("Invalid supplemental artifact entry");
     }
-    const imageDirectory = path.posix.join(path.posix.dirname(entry.owner), "images") + "/";
-    const stem = path.posix.basename(entry.artwork, path.posix.extname(entry.artwork)).replace(/-(light|dark)$/, "");
-    const filename = path.posix.basename(entry.path);
-    if (path.posix.dirname(entry.artwork) + "/" !== imageDirectory || path.posix.dirname(entry.path) + "/" !== imageDirectory + "prompts/" ||
-      !(filename.startsWith(stem + ".") || filename.startsWith(stem + "-"))) {
-      throw Error("Supplemental artifact does not belong to its owner and artwork");
+    const joint = entry.artworks !== undefined;
+    if (joint && (![2, 3].includes(manifest.version || 0) || !Array.isArray(entry.artworks) || entry.artworks.length < 2 || entry.artworks.length > 8 ||
+      entry.artwork !== undefined || entry.artworkSha256 !== undefined || !(/\.(json|zip)$/.test(entry.path) || (manifest.version === 3 && entry.path.endsWith(".txt"))) || entry.bytes > 1024 * 1024)) {
+      throw Error("Invalid joint supplemental artwork binding");
     }
+    const bindings = artworkBindings(entry);
+    const imageDirectory = path.posix.join(path.posix.dirname(entry.owner), "images");
+    if (!bindings.every(b => b && typeof b.path === "string" && validPath(b.path) && /\.(png|jpe?g|webp|avif|svg)$/i.test(b.path) &&
+      typeof b.sha256 === "string" && /^[a-f0-9]{64}$/.test(b.sha256) && path.posix.dirname(b.path) === imageDirectory) ||
+      new Set(bindings.map(b => b.path)).size !== bindings.length) throw Error("Invalid supplemental artwork identity");
+    const relative = path.posix.relative(imageDirectory + "/prompts", entry.path);
+    const parts = relative.split("/");
+    const stem = path.posix.basename(bindings[0].path, path.posix.extname(bindings[0].path)).replace(/-(light|dark)$/, "");
+    const filename = path.posix.basename(entry.path);
+    const legacyLocation = parts.length === 1 && (filename.startsWith(stem + ".") || filename.startsWith(stem + "-"));
+    const jointLocation = parts.length >= 1 && parts.length <= 2 && parts.every(part => /^[a-z0-9][a-z0-9._-]{0,127}$/.test(part)) &&
+      (parts.length === 1 || (entry.path.endsWith(".json") && /^[a-z0-9][a-z0-9-]{0,63}$/.test(parts[0])));
+    if (joint ? !jointLocation : !legacyLocation) throw Error("Supplemental artifact does not belong to its owner and artwork");
     seen.add(entry.path); totalBytes += entry.bytes;
   }
   if (totalBytes > 8 * 1024 * 1024) throw Error("Supplemental artifact manifest exceeds byte limit");
   return manifest.artifacts;
 }
+function assertJointCustodyMetadata(value: unknown, relative: string, depth = 0) {
+  if (depth > 32) throw Error("Custody JSON nesting exceeds limit: " + relative);
+  if (typeof value === "string") {
+    if (/data:[^\s,]*;base64,|^[A-Za-z0-9+/]{1024,}={0,2}$/i.test(value)) throw Error("Raw base64 cannot enter custody JSON: " + relative);
+  } else if (value && typeof value === "object") {
+    if (Array.isArray(value)) for (const item of value) assertJointCustodyMetadata(item, relative, depth + 1);
+    else {
+      assertPublicMetadata(value as Record<string, unknown>, relative);
+      const metadata = value as Record<string, unknown>;
+      if ([metadata.private, metadata.restricted].some(flag => /^(true|yes|on|1)$/i.test(String(flag))) ||
+        /^(private|restricted|sensitive)$/i.test(String(metadata.visibility || ""))) throw Error("Restricted custody JSON: " + relative);
+      for (const [key, item] of Object.entries(value)) {
+        if (/base64|(?:^|[_-])b64(?:$|[_-])/i.test(key) && item !== null && item !== "" && item !== false) throw Error("Raw base64 cannot enter custody JSON: " + relative);
+        assertJointCustodyMetadata(item, relative, depth + 1);
+      }
+    }
+  }
+}
+// Version 3 joint TXT preserves the original invocation wrapper, never reconstructs it.
+function assertJointInvocationText(bytes: Buffer, relative: string) {
+  const text = new TextDecoder("utf-8", { fatal: true }).decode(bytes);
+  if (text.includes("\0") || !text.startsWith("image_gen.imagegen\n")) throw Error("Invalid custody invocation TXT: " + relative);
+  const metadata = JSON.parse(text.slice("image_gen.imagegen\n".length));
+  if (!metadata || typeof metadata !== "object" || Array.isArray(metadata) ||
+    typeof metadata.prompt !== "string" || !metadata.prompt.trim()) throw Error("Invalid custody invocation arguments: " + relative);
+  assertJointCustodyMetadata(metadata, relative);
+  function assertDecodedText(value: unknown) {
+    if (typeof value === "string") assertArtworkPrompt(Buffer.from(value), relative);
+    else if (value && typeof value === "object") for (const [key, item] of Object.entries(value)) {
+      assertArtworkPrompt(Buffer.from(key), relative);
+      assertDecodedText(item);
+    }
+  }
+  assertDecodedText(metadata);
+}
 export function supplementalArtworkArtifacts(
   manifest: unknown, active: Hashes, sourcePaths: string[], readSource: (p: string) => Buffer,
-  parse: ReturnType<typeof metadataParser>,
+  parse: ReturnType<typeof metadataParser>, committedSource?: string,
 ) {
+  const entries = validateSupplementalArtifacts(manifest);
+  const reviewed = manifest as { version: number; reviewedSourceCommit: string };
+  if (reviewed.version >= 2 && (!committedSource || committedSource !== reviewed.reviewedSourceCommit)) {
+    throw Error("Joint custody manifest must bind the exact committed export source");
+  }
   const available = new Set(sourcePaths);
   const selected: Array<{ entry: SupplementalArtifact; bytes: Buffer }> = [];
-  for (const entry of validateSupplementalArtifacts(manifest)) {
+  for (const entry of entries) {
     // Retired artwork's already imported custody is retained by reconcile, not re-exported.
-    if (!active[entry.artwork]) continue;
-    if (!active[entry.owner] || !available.has("obsidian/" + entry.owner) || !available.has("obsidian/" + entry.artwork) || !available.has("obsidian/" + entry.path)) {
+    const bindings = artworkBindings(entry);
+    if (bindings.some(b => !active[b.path])) continue;
+    if (!active[entry.owner] || !available.has("obsidian/" + entry.owner) || bindings.some(b => !available.has("obsidian/" + b.path)) || !available.has("obsidian/" + entry.path)) {
       throw Error("Supplemental artifact owner or committed source file is missing: " + entry.path);
     }
     const owner = readSource(entry.owner);
     assertPublic(owner.toString(), entry.owner, parse);
-    if (hash(owner) !== entry.ownerSha256 || active[entry.owner] !== entry.ownerSha256 || active[entry.artwork] !== entry.artworkSha256) {
+    if (hash(owner) !== entry.ownerSha256 || active[entry.owner] !== entry.ownerSha256 || bindings.some(b => active[b.path] !== b.sha256)) {
       throw Error("Supplemental artifact owner or active artwork changed: " + entry.path);
     }
     const bytes = readSource(entry.path);
@@ -242,6 +298,9 @@ export function supplementalArtworkArtifacts(
         const metadata = JSON.parse(bytes.toString());
         if (!metadata || typeof metadata !== "object" || Array.isArray(metadata)) throw Error("Invalid custody JSON: " + entry.path);
         assertPublicMetadata(metadata, entry.path);
+        if (entry.artworks) assertJointCustodyMetadata(metadata, entry.path);
+      } else if (entry.artworks && entry.path.endsWith(".txt")) {
+        assertJointInvocationText(bytes, entry.path);
       }
     }
     selected.push({ entry, bytes });
@@ -274,7 +333,7 @@ function exportSnapshot(root: string, source: string, ref: string, staging: stri
   if (fs.lstatSync(manifestPath).isSymbolicLink()) throw Error("Supplemental artifact manifest cannot be a symlink");
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
   const supplemental = supplementalArtworkArtifacts(manifest, receipt.files, sourcePaths,
-    p => git(repo, "show", commit + ":obsidian/" + p), parse);
+    p => git(repo, "show", commit + ":obsidian/" + p), parse, commit);
   for (const { entry, bytes } of supplemental) {
     const target = path.join(staging, entry.path); fs.mkdirSync(path.dirname(target), { recursive: true });
     fs.writeFileSync(target, bytes); receipt.files[entry.path] = entry.sha256;
