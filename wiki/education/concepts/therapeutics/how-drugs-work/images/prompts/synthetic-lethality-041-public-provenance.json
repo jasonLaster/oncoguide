@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "phase": "DERIVED_PUBLIC_PROVENANCE_PROSPECTIVE041_PAIR_AND_WHOLE_OWNER_PENDING",
+  "id": "next-gap-041",
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md",
+  "ownerBeforeSHA256": "4b542f08f65a2cacba4e1c6f161a42682200ad81db3df6aa2fdd2053ba992716",
+  "proposedOwnerSHA256": "f32210fbac59073af9fb3021215db4dec7ec4a2bac919597db8f435421bba3d3",
+  "author": "multiomics",
+  "actualImageModel": null,
+  "modelMeaning": "Actual tool did not report a model identity; no gateway or skill-default inference.",
+  "exactFrozenTask": {
+    "path": "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md",
+    "title": "Synthetic lethality",
+    "type": "concept",
+    "domain": "therapeutics/how-drugs-work",
+    "pageSHA256": "4b542f08f65a2cacba4e1c6f161a42682200ad81db3df6aa2fdd2053ba992716",
+    "visuallyEligible": true,
+    "additionalVisualWorkNeeded": true,
+    "currentVisualFit": "absent",
+    "recommendedMedium": "schematic",
+    "priority": "P1",
+    "targetSection": "## Try it",
+    "learnerTask": "Compare neither loss, each alone, paired death and rescue",
+    "gap": "No visual shows paired impairments or controlled four-condition results",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md",
+    "accuracyGuardrails": "Fictional validated death endpoint; growth not death; rescue not clinical benefit; no universal BRCA forecast",
+    "fullAuthoredPublicBodyRead": true,
+    "generatedNavigationInventoriedSeparately": true,
+    "renderedPixelCertification": false,
+    "sourceReviewNeededBeforeGeneration": true,
+    "reviewer": "coordinator-gap-review.json",
+    "reviewerBriefId": "",
+    "existingVisualInventory": {
+      "rasterEmbedCount": 0,
+      "mermaidCount": 0,
+      "hasInteractive": false,
+      "hasSvg": false,
+      "hasTable": false
+    },
+    "mediumDetail": "schematic",
+    "canonicalChoiceRationale": "Proposed canonical owner from full authored-body review",
+    "canonicalReuseCandidates": {}
+  },
+  "sourceAccessShortAuthorProjection": [
+    {
+      "id": "bender1991-pubmed",
+      "label": "Bender and Pringle 1991",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/1996092/",
+      "acquisitionURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=1996092&retmode=xml",
+      "acquiredBodySHA256": "e7d9a9bf6c3ee85d84433352945d957a1f01b7704b7907ade07da380e2cbd96c",
+      "acquiredBodyBytes": 15238,
+      "actualReadDepth": "Primary yeast genetic experiment; complete PubMed abstract read. Full scanned Methods and figures not acquired or read.",
+      "supportsWithinScope": "MSB1 function becomes conditionally essential in studied mutant backgrounds; plasmid/MSB1 restoration and temperature-dependent viability illustrate context and complementation. Abstract evidence is not a validated death assay or a literal cellular architecture."
+    },
+    {
+      "id": "restoration2008",
+      "label": "Sakai 2009",
+      "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2754824/",
+      "acquisitionURL": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2754824/ascii",
+      "acquiredBodySHA256": "5acbe0ec347f0df7a3c20f01e16b8a6d076711f0dbb5cbb5632e3a848f800efc",
+      "acquiredBodyBytes": 39149,
+      "actualReadDepth": "Complete BioC XML acquired; complete abstract and selected Methods, Results and Figure 3–4 legend text read; figure images not acquired/read.",
+      "supportsWithinScope": "Restored BRCA2 function and re-depletion test causal contribution to drug sensitivity in selected experimental cell models. Drug sensitivity uses crystal-violet staining; the cartoon does not relabel it as validated death. The Figure 4 AG14361 result for one clone is not statistically significant; no uniform rescue effect or magnitude is inferred."
+    },
+    {
+      "id": "yadav2015",
+      "label": "Yadav 2015",
+      "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4759128/",
+      "acquisitionURL": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4759128/ascii",
+      "acquiredBodySHA256": "9b0a968d9889dff8669cb09f3f9259dc9491416231508cc0c796d74d1bea25c3",
+      "acquiredBodyBytes": 74428,
+      "actualReadDepth": "Complete BioC XML acquired; complete abstract, selected Introduction and Methods 2.1 text read; no source figure used.",
+      "supportsWithinScope": "Drug synergy is relative to a defined non-interaction model, dose pair and endpoint; growth inhibition and death are possible distinct endpoints. That score does not itself identify the causal paired biological functions."
+    },
+    {
+      "id": "bryant2005",
+      "label": "Bryant 2005",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/15829966/",
+      "acquisitionURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=15829966&retmode=xml",
+      "acquiredBodySHA256": "5a0720d7c108c4ce55b6cb7e778b711be24667de4f7656cb93b4907d0e783931",
+      "acquiredBodyBytes": 8760,
+      "actualReadDepth": "Complete official PubMed abstract read. Publisher full-text access failed via cookie authorization; Methods and source figures not read.",
+      "supportsWithinScope": "A primary BRCA2/PARP model provides an experimental example of context-dependent vulnerability. No universal BRCA genotype forecast, physical PARP cartoon or clinical eligibility rule is derived."
+    },
+    {
+      "id": "hay2005",
+      "label": "Hay 2005",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/16287996/",
+      "acquisitionURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=16287996&retmode=xml",
+      "acquiredBodySHA256": "a4d096cadbfa39f3f8cf37cfc4829731102978c497e07780bae81e73e0f00caa",
+      "acquiredBodyBytes": 8555,
+      "actualReadDepth": "Complete official PubMed abstract read. Direct browser retrieval was recaptcha-gated; official EFetch XML succeeds. Methods and source figures not acquired/read.",
+      "supportsWithinScope": "Brca2-deficient otherwise normal mouse intestinal tissue can be harmed in the studied PARP-inhibition experiment. This is a counterexample to assumed normal-cell safety; the abstract’s prophylactic speculation is not adopted."
+    }
+  ],
+  "sourceAccessOriginalPrivateReference": {
+    "path": "/tmp/education-curriculum-wave14/next-gap-041/brief-source-01/source-access.json",
+    "sha256": "c2d37c991b43127c86d433967124bb44cefe3034869f9b8f05e4de4508f8527d",
+    "bytes": 7857
+  },
+  "sourceAccessCustodyLimit": "All acquired source bodies, abstracts, literal excerpt collections, error responses and figures remain private. Original source-access metadata is conservatively excluded whole; this short derived projection preserves URLs, hashes and exact read-depth qualifications without copying bodies.",
+  "selectedArtworks": [
+    {
+      "destination": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-light.png",
+      "sha256": "bb76721d845a784a6561268b8250a340668ca03ca619b3829472e372dcc3c4f9",
+      "bytes": 1782334,
+      "actualDimensions": [
+        1024,
+        1536
+      ],
+      "status": "genuine LIGHT localG3 passed"
+    },
+    {
+      "destination": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-dark.png",
+      "sha256": "a0e34c4b191988a501cee9cdc9773e1af0d546e315d1e3c6e15db65429c04bed",
+      "bytes": 1934706,
+      "actualDimensions": [
+        1024,
+        1536
+      ],
+      "status": "actual native DARK; genuine pairG3 pending"
+    }
+  ],
+  "originalExecutedCalls": [
+    {
+      "promptAuthor": "multiomics",
+      "invoker": "multiomics",
+      "tool": "image_gen.imagegen",
+      "argumentsOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-light-01/actual-call.json",
+        "sha256": "e614b097863d40e2a18baa448d4e5a30268ae0d7267eeea1cb035c501a7920bc",
+        "bytes": 5055
+      },
+      "literalPromptOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-light-01/actual-prompt.txt",
+        "sha256": "2cbfa47d5cc6baa721e3463fb158e4c57b29e7f5384feb5e12eaa51616ea596b",
+        "bytes": 4984
+      },
+      "referencePaths": [],
+      "generationOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-light-01/generation.json",
+        "sha256": "3047f51184dbdd3ef82f4261d90760450b23649d74096c6674ba7adf66093522",
+        "bytes": 2727
+      },
+      "toolMetadataOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-light-01/native-tool-metadata.json",
+        "sha256": "954ebb80a7058d5915016ade7a4317ed24b2bca23a20f6f01435ee44d350bba6",
+        "bytes": 1249
+      }
+    },
+    {
+      "promptAuthor": "root",
+      "invoker": "multiomics",
+      "tool": "image_gen.imagegen",
+      "argumentsOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-dark-01/actual-call.json",
+        "sha256": "f47cc916d118f201593c2f00bb5b64c50e70ff7a78dae67a5b88a0aa879c5c1a",
+        "bytes": 1204
+      },
+      "literalPromptOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-dark-01/actual-prompt.txt",
+        "sha256": "23ec8a4ad74fd6299093fffb7555069d25a8832a2cca8783c11d25561721f2de",
+        "bytes": 983
+      },
+      "soleActualLIGHTReference": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-light-01/synthetic-lethality-four-conditions-and-rescue-v1-light.png",
+        "sha256": "bb76721d845a784a6561268b8250a340668ca03ca619b3829472e372dcc3c4f9",
+        "bytes": 1782334
+      },
+      "generationOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-dark-01/generation.json",
+        "sha256": "16c1c7248de42fa4daf9ee309d1e1252fb73dc1c61e0b1872f92142d508a3cba",
+        "bytes": 2974
+      },
+      "toolMetadataOriginal": {
+        "path": "/tmp/education-curriculum-wave14/next-gap-041/generation-dark-01/native-tool-metadata.json",
+        "sha256": "327b93e0b5296f42de26023a9d4da09df9607cd9caab4af3df8aafa0ede00a67",
+        "bytes": 1248
+      }
+    }
+  ],
+  "archive": {
+    "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/synthetic-lethality-041-public-provenance.zip",
+    "sha256": "b48cfad14ef6557e6a57e1496b3a97c945926f87dbaa874d6b923e7c14f7e351",
+    "bytes": 46299,
+    "originalOwnedTextMembers": 31,
+    "totalMembersIncludingIndex": 32,
+    "rawModelBase64Stored": false,
+    "originalCallsRenamedOrReconstructed": false,
+    "thirdPartyBodiesFiguresOrBrowserCapturesIncluded": false,
+    "privateOrUnapprovedSealsIncluded": false,
+    "selfContainedReplayWithoutReferenceImage": false
+  },
+  "genuineSourceCompositionReview": {
+    "path": "/tmp/education-curriculum-wave14/next-gap-041/brief-peer-review-01/review.json",
+    "sha256": "536b448d2bbcc275722865af33a0d8dd2ce34cca6b2f8f00c2717e8a06ea6d75",
+    "bytes": 11233
+  },
+  "genuineLIGHTLocalG3Review": {
+    "path": "/tmp/education-curriculum-wave14/next-gap-041/light-peer-review-01/review.json",
+    "sha256": "a43024458182143efd20612ba7aab97c0470075836e5951718ba09c17fd9a152",
+    "bytes": 7689
+  },
+  "reviewScopeMeaning": "Original reviews retain their actual source/planned composition or LIGHT native/local-context scope. They do not certify DARK, prospective complete owner or this public package.",
+  "independentPairReview": null,
+  "independentWholeOwnerReview": null,
+  "actualCanonicalSourceFitReview": null,
+  "futureCommittedSource": null,
+  "actualExportAcceptance": null,
+  "currentSourceReleaseAcceptance": null,
+  "coverageCredit": false,
+  "humanReview": "pending"
+}

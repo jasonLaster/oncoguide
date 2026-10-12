@@ -49,6 +49,18 @@ flowchart TD
 
 This map omits HR and additional routes. It shows the contrast in handling ends, rather than a guaranteed sequence for every break.
 
+### What stayed, and what was lost?
+
+<img src="./images/nhej-mmej-selected-toy-ends-v2-light.svg" alt="Four stacked scenes show a fourteen-base-pair blunt break and unchanged direct join, one connected GAC/CTG alignment with two unpaired TT flaps, and a seven-base-pair short-match product. A small transition symbol shows two backbone nicks after trimming, with all seven positions paired. A bracket counts TTAA plus one GAC as seven base pairs lost." width="820" height="2180" data-theme-pair="./images/nhej-mmej-selected-toy-ends-v2-dark.svg" />
+
+*For these selected toy ends, direct joining retains all 14 base pairs; short-match joining retains 7. Removing the two unmatched TT flaps leaves two nicks to seal, with no gap filling needed for this toy. Other end structures can require synthesis. Colors and protein shapes are teaching conventions. A short match or deletion does not establish Polθ dependence; these examples are not a universal menu of repair routes.*
+
+Look at the toy sequence: `CA–GAC–TT|AA–GAC–GT` before joining and `CA–GAC–GT` after the short-match example. The vertical bar marks the break; all letters are read along the top strand from 5′ to 3′. How many base pairs were lost, and does the remaining GAC identify Polθ?
+
+**Worked answer:** seven base pairs are lost: the four-base `TTAA` interval plus one three-base `GAC` repeat. The repaired duplex contains one GAC match, rather than two copies stacked on top of each other. This count describes a selected fictional product. After the two unmatched TT tails are removed, all seven base pairs are present; two backbone nicks remain to seal. It does not establish Polθ dependence; factor-specific perturbations, repair measurements, controls and, where feasible, rescue are needed.
+
+Visual source check: 2026-10-11. Compatible-end and blunt-substrate support: [Conlin 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5649367/) and [Stinson 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10858965/). Short-match/deletion and model-specific machinery support: [Bennardo 2008](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000110), [Kent 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4351179/) and [Wyatt 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4992412/). The sequences are fictional teaching examples. Expert and learner review remains pending.
+
 ## Why it matters in cancer
 
 Joining can keep a cell alive while leaving deletions or rearrangements. If the wrong chromosome ends are paired, the outcome can be a **translocation**, a connection between chromosome pieces that were previously separate.

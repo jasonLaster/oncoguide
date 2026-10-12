@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "artifactKind": "SOURCE_OWNED_ORIGINAL_EDITABLE_SVG_CUSTODY_PROPOSAL",
+  "taskId": "next-gap-040",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+  "provenanceAssembler": "cartoon_pair_review",
+  "diagramAuthor": "curriculum_plan_review",
+  "independentDiagramReviewer": "multiomics",
+  "authorReviewerDistinct": true,
+  "status": "FINITE_PUBLIC_PAYLOAD_PROPOSAL_PENDING_ROOT_REVIEW_AND_CANONICAL_ADOPTION",
+  "sourceCommit": null,
+  "sourceCommitNullMeaning": "Historical immutable assembly/proposal metadata: no teaching commit had been born at assembly. Null does not supply an executable export/V3 source identity and does not require rewriting this original artifact to contain its own commit. Actual canonical adoption, release receipts and the separately executable V3 allowlist must bind the real teaching commit when born.",
+  "creation": {
+    "medium": "Original programmatically authored editable SVG; source vector XML is the native asset",
+    "imageGenerationCallsForThisSVGPair": 0,
+    "rasterInputsForThisSVGPair": 0,
+    "imageModelClaim": "No image-model invocation or generated-raster/model metadata applies to this SVG authoring event.",
+    "assemblerRegeneratedOrEditedNativeSVG": false,
+    "originalWorkflowDriverPubliclyCopied": false,
+    "driverQualification": "Original driver depends on private local roots, owner snapshots and history-copying workflow. It is excluded; the exact selfcontained SVG source bytes remain editable. The design brief is preserved as a design input, not a reconstructed/executed image call."
+  },
+  "nativePair": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+      "sha256": "5e5fc9d36a57afab06570cf4ad863f2f1c2917e8fb3c58774e1a8961933e92f6",
+      "bytes": 50404,
+      "theme": "light",
+      "format": "SVG",
+      "intrinsicDimensions": [
+        820,
+        2180
+      ],
+      "viewBox": [
+        0,
+        0,
+        820,
+        2180
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+      "sha256": "b0b16b161712b740bbd58433cdb5a0b7bf8d0c4509ec20857b1aab9680ad1a27",
+      "bytes": 50403,
+      "theme": "dark",
+      "format": "SVG",
+      "intrinsicDimensions": [
+        820,
+        2180
+      ],
+      "viewBox": [
+        0,
+        0,
+        820,
+        2180
+      ]
+    }
+  ],
+  "originalDesignPrompt": {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2.txt",
+    "sha256": "47ae3c103ec6b01a0c68ae3e540b810d9c4360deba080f36afe4a2551af311e0",
+    "bytes": 4983,
+    "role": "Exact original SVG design brief; not an executed image-generation call"
+  },
+  "wholeOwnerBindings": {
+    "currentCanonicalBefore": {
+      "sha256": "654db5eb93a31a257aa8d140738dc5d8af1af4c5cb25908dfa056303f798eaf0",
+      "bytes": 7399
+    },
+    "originalAuthor02Prospective": {
+      "sha256": "6c6a1b8e42f63f1e45299ae780267846b688019b15905def7e1e897eb378d5b7",
+      "bytes": 9900,
+      "scope": "Historical accepted dimension-only prospective insertion; original remains unchanged"
+    },
+    "rootTeachingFacingProspective": {
+      "sha256": "97deb3212bb9e141486ef1779c694a93c092e10c1e0f7303ac5ec8d678a852ca",
+      "bytes": 9774,
+      "insertionSHA256": "6cd120316637cb689f57c01d5609007997adb83216a29167c568176d740b68af",
+      "insertionBytes": 2375,
+      "scope": "Only two implementation-review sentences replaced with fictional-example and human-review wording; biology/alt/caption/exercise/source anchors and nativeSVG unchanged. Fresh complete-owner/root package review pending."
+    },
+    "completeOriginalInverse": {
+      "sha256": "654db5eb93a31a257aa8d140738dc5d8af1af4c5cb25908dfa056303f798eaf0",
+      "bytes": 7399,
+      "method": "Remove exact2375-byte root insertion once; preserves every original owner byte"
+    },
+    "ownerSnapshotsInArchive": false
+  },
+  "frozenTask": {
+    "learnerTask": "Compare held ends with resected ends aligned at short matching sequence, without equating a junction pattern with enzyme dependence.",
+    "gap": "The existing branched Mermaid captures end-handling alternatives, but it cannot show the DNA sequence removed between short matches or a compatible direct join. Two DNA-end strips would teach the central structural contrast and can reuse the repair-overview style.",
+    "accuracyGuardrails": [
+      "c-NHEJ is not always inaccurate.",
+      "Short microhomology is not the long HR template or proof of Polθ.",
+      "Show selected toy ends, not a universal pathway menu."
+    ],
+    "targetSection": "## How it works",
+    "recommendedMedium": "diagram",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+    "currentVisualFit": "partial"
+  },
+  "accuracyGuardrailType": "ARRAY",
+  "sequenceTeaching": {
+    "origin": "Invented author toy; not a paper construct, tumor sequence or measured outcome",
+    "indexing": "Positions 1–14 in top strand read left-to-right 5′→3′; bottom same spatial orientation 3′→5′",
+    "before": {
+      "top5to3": "CAGACTTAAGACGT",
+      "bottom3to5": "GTCTGAATTCTGCA",
+      "break": "Both strands broken between positions 7 and 8; undamaged ligatable blunt ends with appropriate 3′OH/5′phosphate chemistry assumed",
+      "left": {
+        "top5to3": "CAGACTT",
+        "bottom3to5": "GTCTGAA"
+      },
+      "right": {
+        "top5to3": "AAGACGT",
+        "bottom3to5": "TTCTGCA"
+      }
+    },
+    "repeats": {
+      "topCopies": [
+        {
+          "positions": [
+            3,
+            5
+          ],
+          "sequence": "GAC"
+        },
+        {
+          "positions": [
+            10,
+            12
+          ],
+          "sequence": "GAC"
+        }
+      ],
+      "interveningTopPositions": [
+        6,
+        9
+      ],
+      "interveningTopSequence": "TTAA",
+      "alignedComplement": "CTG, read left-to-right 3′→5′ on the other end; not GAC paired with GAC"
+    },
+    "selectedResection": {
+      "left": "Remove bottom 5′-ending strand positions 3–7; left top positions 3–7 remain as 3′ tail GACTT. Left duplex stub positions 1–2 remains CA/GT.",
+      "right": "Remove top 5′-starting strand positions 8–12; right bottom positions 8–12 remain as 3′ tail TTCTG when displayed left-to-right 3′→5′. Right duplex stub positions 13–14 remains GT/CA.",
+      "limits": "Exact five-base trimming on each end is an author toy schematic, not a measured or universally required resection length."
+    },
+    "alignment": {
+      "pairedTop": "GAC",
+      "pairedBottom3to5": "CTG",
+      "left3primeUnpairedTail": "TT, top positions 6–7, curls away on upper right",
+      "right3primeUnpairedTail": "TT, bottom positions 8–9, curls away on lower left",
+      "rule": "Pair A:T and G:C with opposing strand polarities; curve both unmatched 3′ flaps away rather than drawing them paired. No ligase connects unmatched flaps in this intermediate."
+    },
+    "after": {
+      "directJoin": {
+        "top5to3": "CAGACTTAAGACGT",
+        "bottom3to5": "GTCTGAATTCTGCA",
+        "lengthBp": 14,
+        "deletionBp": 0
+      },
+      "shortMatchJoin": {
+        "top5to3": "CAGACGT",
+        "bottom3to5": "GTCTGCA",
+        "lengthBp": 7,
+        "deletionBp": 7,
+        "retainedLogicalTopPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14
+        ],
+        "deletionLogicalRepresentation": "Positions 6–12: TTAAGAC; loss of TTAA interval plus one GAC repeat. Repeat provenance is ambiguous after annealing; chosen bookkeeping representation does not identify which physical repeat molecule survived.",
+        "synthesis": "No gap-filling synthesis is required for this exact toy. After removal of both unmatched TT flaps, the surviving top supplies CA+GAC and GT, and the surviving bottom supplies GT and CTG+CA; every one of the seven final spatial slots is paired. Two backbone nicks remain: top between final positions 5/6 and bottom between final positions 2/3. Seal these nicks. Other end structures can leave single-stranded gaps that require synthesis; no new-synthesis color or region belongs in this toy."
+      }
+    },
+    "notSourceConstructOrPatientSequence": true
+  },
+  "teachingCopy": {
+    "alt": "Four stacked scenes show a fourteen-base-pair blunt break and unchanged direct join, one connected GAC/CTG alignment with two unpaired TT flaps, and a seven-base-pair short-match product. A small transition symbol shows two backbone nicks after trimming, with all seven positions paired. A bracket counts TTAA plus one GAC as seven base pairs lost.",
+    "caption": "For these selected toy ends, direct joining retains all 14 base pairs; short-match joining retains 7. Removing the two unmatched TT flaps leaves two nicks to seal, with no gap filling needed for this toy. Other end structures can require synthesis. Colors and protein shapes are teaching conventions. A short match or deletion does not establish Polθ dependence; these examples are not a universal menu of repair routes.",
+    "workedExercise": "Look at the toy sequence: `CA–GAC–TT|AA–GAC–GT` before joining and `CA–GAC–GT` after the short-match example. The vertical bar marks the break; all letters are read along the top strand from 5′ to 3′. How many base pairs were lost, and does the remaining GAC identify Polθ?",
+    "workedAnswer": "**Worked answer:** seven base pairs are lost: the four-base `TTAA` interval plus one three-base `GAC` repeat. The repaired duplex contains one GAC match, rather than two copies stacked on top of each other. This count describes a selected fictional product. After the two unmatched TT tails are removed, all seven base pairs are present; two backbone nicks remain to seal. It does not establish Polθ dependence; factor-specific perturbations, repair measurements, controls and, where feasible, rescue are needed.",
+    "visualSourceCheck": "2026-10-11"
+  },
+  "sources": [
+    {
+      "id": "conlin2017",
+      "label": "Conlin et al. 2017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5649367/",
+      "doi": "10.1016/j.celrep.2017.08.091",
+      "primary": true,
+      "freshAccessDate": "2026-10-11",
+      "accessMethod": "Actual HTTP 200 NLM primary article BioC XML; rendered web discovery attempts qualified separately",
+      "depth": "Selected introduction, results and discussion passages read; not complete supplements, all source data or all source figures. No atomically accurate protein arrangement is certified.",
+      "paraphrasedSupport": "Purified core factors, single-molecule end pairing and edited human cells support end holding/ligation and end-structure-dependent processing. Compatible ends can preserve sequence; short-match processing can also occur in c-NHEJ."
+    },
+    {
+      "id": "bennardo2008",
+      "label": "Bennardo et al. 2008",
+      "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000110",
+      "doi": "10.1371/journal.pgen.1000110",
+      "primary": true,
+      "freshAccessDate": "2026-10-11",
+      "accessMethod": "Actual HTTP 200 NLM primary article BioC XML; rendered web discovery attempts qualified separately",
+      "depth": "Publisher HTML abstract, introduction, selected EJ5/EJ2 results, figure captions and discussion personally read. Private BioC copy retained; no source figure pixels or supplementary junction tables inspected.",
+      "paraphrasedSupport": "Engineered mammalian reporters relate short repeats and deletion products to tested factor requirements. Broader alternative-joining names describe overlapping sets of events; a junction alone does not establish a unique enzyme."
+    },
+    {
+      "id": "kent2015",
+      "label": "Kent et al. 2015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4351179/",
+      "doi": "10.1038/nsmb.2961",
+      "primary": true,
+      "freshAccessDate": "2026-10-11",
+      "accessMethod": "Actual HTTP 200 NLM primary article BioC XML; rendered web discovery attempts qualified separately",
+      "depth": "Selected introduction, biochemical substrate/results and discussion read through actual NLM BioC XML; not complete supplemental constructs or rescue evidence. U2OS is interpreted from paper model, not generalized to patients.",
+      "paraphrasedSupport": "Purified human Polθ polymerase-domain substrates and a human U2OS reporter with POLQ knockdown support microhomology annealing/extension in those systems. Short matches can be terminal or internal. Factor-specific results are stronger than visual junction similarity."
+    },
+    {
+      "id": "wyatt2016",
+      "label": "Wyatt et al. 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4992412/",
+      "doi": "10.1016/j.molcel.2016.06.020",
+      "primary": true,
+      "freshAccessDate": "2026-10-11",
+      "accessMethod": "Actual HTTP 200 NLM primary article BioC XML; rendered web discovery attempts qualified separately",
+      "depth": "Selected abstract, pre-resected-substrate results and discussion read from NLM BioC XML. Suggested nuclease identities are not proven in this source and will not be labeled in the art; model thresholds will not be taught as universal.",
+      "paraphrasedSupport": "Mouse cell/substrate perturbation work supports 3′ overhang joining with microhomology search, nonhomologous-tail removal and synthesis. Polθ itself has no intrinsic nuclease activity. Residual alternative joining remains in double-deficient cells."
+    },
+    {
+      "id": "stinson2024",
+      "label": "Stinson et al. 2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10858965/",
+      "doi": "10.1038/s41467-024-45553-z",
+      "primary": true,
+      "freshAccessDate": "2026-10-11",
+      "accessMethod": "Actual HTTP 200 NLM primary article BioC XML; rendered web discovery attempts qualified separately",
+      "depth": "Selected abstract, blunt-substrate results and preparation methods read from NLM BioC XML; not all figures/data or human patient material. Depicted proteins are simplified role symbols, not measured molecular stoichiometry.",
+      "paraphrasedSupport": "Xenopus egg extract, factor depletion/reconstitution and blunt-end single-molecule work support a ligation-ready NHEJ complex and compatible blunt-end repair. This supplies direct construct support for the selected blunt toy ends."
+    }
+  ],
+  "claimSourceMap": [
+    {
+      "objectOrClaim": "Ku end roles and ligase IV sealing; other factors omitted",
+      "sources": [
+        "conlin2017",
+        "stinson2024"
+      ],
+      "limits": "Role symbols, not complete complex, atomic contact or exact stoichiometry."
+    },
+    {
+      "objectOrClaim": "Compatible blunt toy join preserves all sequence",
+      "sources": [
+        "stinson2024",
+        "conlin2017"
+      ],
+      "limits": "Stinson provides actual blunt construct/results support; Conlin provides compatible-overhang and end-structure flexibility. Not all c-NHEJ products preserve sequence."
+    },
+    {
+      "objectOrClaim": "Resection exposes opposing 3′ tails and short complementary matching",
+      "sources": [
+        "kent2015",
+        "wyatt2016"
+      ],
+      "limits": "Toy five-base trimming is not a biological threshold or paper substrate."
+    },
+    {
+      "objectOrClaim": "Selected toy short-match joining removes unpaired TT flaps and seals two remaining backbone nicks to finish the shorter duplex",
+      "sources": [
+        "author-sequence-model",
+        "wyatt2016",
+        "bennardo2008"
+      ],
+      "limits": "Exact zero-gap/two-nick conclusion is author derivation from this fictional sequence, not a measured Wyatt/Bennardo substrate. Those papers support studied tail processing/repair models and broader short-match/deletion outcomes; other end structures can require synthesis. Specific tail-removal enzyme omitted; Polθ is not depicted as nuclease. No guaranteed deletion size."
+    },
+    {
+      "objectOrClaim": "7-bp loss: interval4 + repeat3; complementary strand/orientation",
+      "sources": [
+        "author-sequence-model"
+      ],
+      "limits": "Pure fictional arithmetic; exact complementary strings and deletion inverse checked separately."
+    },
+    {
+      "objectOrClaim": "A matching junction cannot establish universal POLQ dependence",
+      "sources": [
+        "bennardo2008",
+        "kent2015",
+        "wyatt2016"
+      ],
+      "limits": "Kent and Wyatt test specific systems; diverse alternative joining and residual repair prevent a single universal identity. No drug-response conclusion."
+    }
+  ],
+  "sourceAccessQualifications": {
+    "freshAccessForThisCustodyProposal": false,
+    "authorSourceDate": "2026-10-11",
+    "selectedDepthRule": "Actual retrieved bodies are not blanket claims of exhaustive reading. Only selected mechanism/construct passages and explicitly named models support the brief. Web PMC challenge remains unsuccessful even though independent NLM XML access succeeded.",
+    "failedOrPartialOriginalAttempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5649367/",
+        "method": "web.open direct and cached-search-ref",
+        "result": "HTML challenge; no article body from those opens"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25643323/",
+        "method": "web.open",
+        "result": "one-line empty rendered result; no abstract credited"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4351179/",
+        "method": "web.open cached-search-ref",
+        "result": "HTML challenge; no article body from open"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1000110",
+        "method": "web.click PubMed publisher link",
+        "result": "internal error; no content credited"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4992412/",
+        "method": "web.open cached-search-ref",
+        "result": "HTML challenge; no article body from open"
+      },
+      {
+        "url": "https://www.nature.com/articles/nsmb.2961",
+        "method": "web.open subsequent line-specific call",
+        "result": "500 and inaccessible authentication redirect; earlier cached rendered result not treated as full-text read"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-024-45553-z",
+        "method": "web.find compatible and Ku",
+        "result": "no matching text returned; not full body certification"
+      }
+    ],
+    "notClaimed": [
+      "full primary-source review",
+      "supplementary sequence-table or figure-pixel inspection",
+      "patient response",
+      "universal alternative-joining enzyme identity",
+      "source-link reader access on both sites"
+    ],
+    "scientificSourceRole": "The selected primary mechanism/construct support is attributed to original author and independent scoped source/literal review. Exact fourteen-to-seven arithmetic/two-nick/no-fill geometry is an original fictional derivation, not a measured paper outcome. No new scientific review or universal enzyme/clinical prediction by assembler."
+  },
+  "reviewHistory": {
+    "originalSVG01": {
+      "reviewer": "multiomics",
+      "verdict": "REVISE",
+      "reviewSHA256": "717842f7e3318cf0bafd90341b9283109cd5bdf7797ac101e79c4660f2928f08",
+      "publicSummaryMember": "independent-svg-review-summary-01.json",
+      "publicSummarySHA256": "4df9fa6327d963dc5c53b2f125b00d3499e9ddbbff973c0e06d51c836957f2a2",
+      "acceptedNativeSourceLiteralSubscopesOnly": "Original source/literal/native PASS retained separately from missing prospective HTML dimensions."
+    },
+    "successorSVG02": {
+      "reviewer": "multiomics",
+      "verdict": "PASS",
+      "reviewSHA256": "fc535249dd90956785354b1e39ba220e93d669b0be05da762075cae5e6541bb6",
+      "publicSummaryMember": "independent-svg-review-summary-02.json",
+      "publicSummarySHA256": "92ce67baa6fa2b9a31397cc789b1b58194a40fdfe19ca89b7855a4963004f933",
+      "resolvedFinding": "Only intrinsic width820/height2180 on sole prospective img,26bytes; actual local current React wrappers no longer default16/9. No native SVG/source/sequence/caption change."
+    },
+    "reviewReferencesMeaning": "SHA/summary references identify bounded observations; no detailed private review, manifests or seals are admitted recursively. No canonical or root-final whole-owner acceptance inferred from old prospective review."
+  },
+  "knownLimits": [
+    "Measured local emulated352/392×844 contexts, not physical-phone/live-shell proof.",
+    "Fine polarity/backbone/nick detail benefits from native enlargement.",
+    "Client hydration/theater/keyboard/focus/source-navigation and production release were not tested.",
+    "Detailed review, raw DOM/captures/diagnostics/seal and acquired source bodies remain excluded from public custody; references do not recursively admit them.",
+    "Actual source-fit acceptance, root-final whole-owner/custody adoption, both-site byte delivery, source navigation, client hydration/theater/keyboard/focus and publication remain pending.",
+    "Original rejected raster attempts/calls/images, source acquisition bodies/figures, captures, owner snapshots, private manifests/seals and local CSS/harnesses remain private and unchanged. No derived executed calls are constructed."
+  ],
+  "originalHistoricalIdentities": {
+    "originalAuthor02ManifestSHA256": "c0c3512db71d7d37c99b5566fc3c1486369c85f7d21b82137e7303d89588939a",
+    "privateOriginalGeneratorSHA256": "bf0c147795ea1c32dc718ab8ea2dd96a4bba26d64459953b93c0bc0fbe4c4833",
+    "referenceOnlyNotPublicMembers": true
+  },
+  "archivePermission": "Historical finite proposal status at assembly. Independent acceptance and actual canonical/release/V3 bindings are separate later receipts; this original immutable metadata does not self-approve or become an executable export plan.",
+  "canonicalAdoption": "pending",
+  "production": "pending",
+  "sourceFitAcceptance": "pending",
+  "creditNow": 0,
+  "humanExpertLearnerReview": "pending"
+}

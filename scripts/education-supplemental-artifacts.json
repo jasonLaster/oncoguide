@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "d1ef1b555969ff3212f06977e8b4bc64e363260a",
+  "reviewedSourceCommit": "b4d51d15ffbbde86c6db0e388ce74544e00efe5c",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -935,6 +935,78 @@
         {
           "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
           "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2-provenance.json",
+      "sha256": "f5e92f5d0527001ed80ec8e0c930f396789831729ef7cdb6f87e3666c92e5974",
+      "bytes": 22298,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+      "ownerSha256": "97deb3212bb9e141486ef1779c694a93c092e10c1e0f7303ac5ec8d678a852ca",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+          "sha256": "5e5fc9d36a57afab06570cf4ad863f2f1c2917e8fb3c58774e1a8961933e92f6"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+          "sha256": "b0b16b161712b740bbd58433cdb5a0b7bf8d0c4509ec20857b1aab9680ad1a27"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2-provenance.zip",
+      "sha256": "05d475779da3cb107676a56dd5fc7cd62d44968b108808d74bbbf99754b30ed2",
+      "bytes": 24610,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+      "ownerSha256": "97deb3212bb9e141486ef1779c694a93c092e10c1e0f7303ac5ec8d678a852ca",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+          "sha256": "5e5fc9d36a57afab06570cf4ad863f2f1c2917e8fb3c58774e1a8961933e92f6"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+          "sha256": "b0b16b161712b740bbd58433cdb5a0b7bf8d0c4509ec20857b1aab9680ad1a27"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/synthetic-lethality-041-public-provenance.json",
+      "sha256": "744a538674c59ecb431a9e078b2bbb22cf2ea4304bbe98665d2038aacf6975e5",
+      "bytes": 11767,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md",
+      "ownerSha256": "f32210fbac59073af9fb3021215db4dec7ec4a2bac919597db8f435421bba3d3",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-light.png",
+          "sha256": "bb76721d845a784a6561268b8250a340668ca03ca619b3829472e372dcc3c4f9"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-dark.png",
+          "sha256": "a0e34c4b191988a501cee9cdc9773e1af0d546e315d1e3c6e15db65429c04bed"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/synthetic-lethality-041-public-provenance.zip",
+      "sha256": "b48cfad14ef6557e6a57e1496b3a97c945926f87dbaa874d6b923e7c14f7e351",
+      "bytes": 46299,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md",
+      "ownerSha256": "f32210fbac59073af9fb3021215db4dec7ec4a2bac919597db8f435421bba3d3",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-light.png",
+          "sha256": "bb76721d845a784a6561268b8250a340668ca03ca619b3829472e372dcc3c4f9"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-dark.png",
+          "sha256": "a0e34c4b191988a501cee9cdc9773e1af0d546e315d1e3c6e15db65429c04bed"
         }
       ],
       "contentClass": "source-owned-public-custody"
