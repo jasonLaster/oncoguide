@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1310" viewBox="0 0 780 1310" role="img" aria-labelledby="title desc"><title id="title">Split reads, spanning pairs and transcript reach</title><desc id="desc">A hypothetical A–B RNA junction is crossed by one continuous split read with A and B sequence. A spanning pair has separate observed ends on opposite sides of the join, linked by an unsequenced insert. In a separate local splice example, a read supports exon 2-to-3 while outer exons remain unresolved; broader validated evidence is needed to reconstruct the full transcript. These RNA observations do not automatically confirm DNA rearrangement, protein function or benefit.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c0d0ca"/></marker></defs>
+<rect x="0" y="0" width="780" height="1310" rx="0" fill="#192b2f" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">What did the RNA reads observe?</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Hypothetical sequence geometry</tspan></text>
+<rect x="24" y="145" width="732" height="340" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">1. A split read crosses the join</tspan></text>
+<rect x="92" y="266" width="279" height="49" rx="8" fill="#3a5c50" stroke="#95c9b4" stroke-width="2" />
+<rect x="371" y="266" width="279" height="49" rx="8" fill="#614e6d" stroke="#c4a2d5" stroke-width="2" />
+<text x="225" y="303" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="225" dy="0">Gene A</tspan></text>
+<text x="507" y="303" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="507" dy="0">Gene B</tspan></text>
+<rect x="265" y="360" width="106" height="24" rx="4" fill="#95c9b4" />
+<rect x="371" y="360" width="124" height="24" rx="4" fill="#c4a2d5" />
+<path d="M371 244 L371 409" fill="none" stroke="#ecac95" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="450" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">One read includes both sides.</tspan></text>
+<rect x="24" y="510" width="732" height="300" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="565" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">2. A spanning pair observes two ends</tspan></text>
+<rect x="98" y="632" width="226" height="26" rx="5" fill="#95c9b4" />
+<rect x="455" y="632" width="226" height="26" rx="5" fill="#c4a2d5" />
+<path d="M324 645 L455 645" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<path d="M389 601 L389 690" fill="none" stroke="#ecac95" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="740" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Gap between reads is not sequenced</tspan><tspan x="48" dy="45">by those two ends.</tspan></text>
+<rect x="24" y="835" width="732" height="325" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="890" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">3. Local join; other exons unknown</tspan></text>
+<rect x="88" y="956" width="70" height="42" rx="5" fill="none" stroke="#66827a" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="123" y="989" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="123" dy="0">?</tspan></text>
+<rect x="230" y="956" width="131" height="42" rx="5" fill="#3a5c50" stroke="#95c9b4" stroke-width="2" />
+<rect x="361" y="956" width="131" height="42" rx="5" fill="#614e6d" stroke="#c4a2d5" stroke-width="2" />
+<text x="295" y="989" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="295" dy="0">2</tspan></text>
+<text x="426" y="989" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="426" dy="0">3</tspan></text>
+<rect x="572" y="956" width="70" height="42" rx="5" fill="none" stroke="#66827a" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="607" y="989" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="607" dy="0">?</tspan></text>
+<path d="M158 977 L230 977" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 7"/>
+<path d="M492 977 L572 977" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 7"/>
+<rect x="291" y="1027" width="70" height="20" rx="4" fill="#95c9b4" />
+<rect x="361" y="1027" width="70" height="20" rx="4" fill="#c4a2d5" />
+<text x="48" y="1120" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Exons 2–3 joined; other exons unresolved.</tspan></text>
+<text x="40" y="1240" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">DNA origin and protein effect need tests.</tspan></text>
+</svg>

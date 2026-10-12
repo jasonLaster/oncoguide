@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/165",
+  "frozenRowPointer": "/165",
+  "frozenRowSHA256": "5956b40a474d85f0afbc57a221eea8be011ab94da4ee382f55b415f6e6aa6a45",
+  "originalFrozenTask": {
+    "learnerTask": "Compare events/all participants with events/non-events from the same counts.",
+    "gap": "The denominator contrast is only arithmetic.",
+    "accuracyGuardrails": "Keep events/all people and events/non-events as separate denominators. The same count example illustrates odds versus risk; do not read an odds ratio as a risk ratio or clinical effect without context."
+  },
+  "sourceObservedCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "baselinePageSHA256": "29f69e44d770f953e8d1a985928b240d0d03c70fccc5f77438834a4316f63ac6",
+  "construction": "Original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "generator": "private/construct.py",
+  "generatorSHA256": "a0b8e487c3658650e9b2c6b2b56309cb9d2d0103526f04a7fe70b7138e970852",
+  "generatorCustody": "Privately retained original construction code, not publicly delivered. SVGs are editable; no executable reproduction package promised.",
+  "sourceURLs": [
+    "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html"
+  ],
+  "sourceDepth": "Actual selected primary/official passages or primary abstracts; per-owner private lookup receipts identify exact reading depth, failures and custody. No whole-paper, clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies and reading/execution/capture receipts retained privately.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "briefSHA256": "6eeb041f42c2c8d758fd77d4b6b092ea1f0831efd2514c20f3b88070f0773f95",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-light.svg",
+      "theme": "light",
+      "sha256": "992e2a42e6635c54cbc3809f668d49ea2d6e4fc70f52b83548f2626fa270b460",
+      "bytes": 28961,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "aa8fe8ce24654204289ec9ca301756a7d3c895a37465b4d70ede0c6d5d438929",
+      "bytes": 28961,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Shared original geometry/text with palette substitution only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/244",
+  "frozenRowPointer": "/244",
+  "frozenRowSHA256": "8ba8a14574789795e0ededb53685f352d22743f5b571c6f6406e4bd5bda6c844",
+  "originalFrozenTask": {
+    "learnerTask": "Distinguish a new-cell split from a new-donor or unseen-intervention test.",
+    "gap": "The training pipeline does not depict donor overlap across partitions.",
+    "accuracyGuardrails": "Track donor/intervention identities across partitions, not merely different cells or files. A held-out-cell split from a shared donor can leak context; it is not evidence for a new-donor or unseen-intervention claim."
+  },
+  "sourceObservedCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "baselinePageSHA256": "a2a6ff33de82660237044feeed243afa8fb648cdd40093dd304112dbfca9a5c6",
+  "construction": "Original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "generator": "private/construct.py",
+  "generatorSHA256": "a0b8e487c3658650e9b2c6b2b56309cb9d2d0103526f04a7fe70b7138e970852",
+  "generatorCustody": "Privately retained original construction code, not publicly delivered. SVGs are editable; no executable reproduction package promised.",
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10788734/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/"
+  ],
+  "sourceDepth": "Actual selected primary/official passages or primary abstracts; per-owner private lookup receipts identify exact reading depth, failures and custody. No whole-paper, clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies and reading/execution/capture receipts retained privately.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "briefSHA256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+      "theme": "light",
+      "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb",
+      "bytes": 11397,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd",
+      "bytes": 11397,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Shared original geometry/text with palette substitution only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

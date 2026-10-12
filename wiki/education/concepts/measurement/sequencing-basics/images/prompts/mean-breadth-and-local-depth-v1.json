@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/304",
+  "title": "Sequencing depth and coverage",
+  "learnerTask": "See high mean depth alongside a poorly observed position",
+  "creationMethod": "Original code-generated native SVG pair",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecuted": false,
+  "creationCommit": null,
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "ownerPreimageSHA256": "184fd5f18f403b4f679dc1111024dda47004e88f741c7704bbe12ecc5b001391",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/mean-breadth-and-local-depth-v1.txt",
+    "sha256": "217b7a15b0b96f33e33fcb08cdea25310ccc169e0209bbadfeeabc51cab0e1be"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-light.svg",
+      "sha256": "8bdb5e80a173549d89f4a285588634ef9082a00020869acf81d44d64fb2a41e6",
+      "bytes": 4659,
+      "width": 780,
+      "height": 1320,
+      "mediaType": "image/svg+xml"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+      "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f",
+      "bytes": 4659,
+      "width": 780,
+      "height": 1320,
+      "mediaType": "image/svg+xml"
+    }
+  },
+  "sourceSupport": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941185/",
+      "title": "Guidelines for Validation of Next-Generation Sequencing–Based Oncology Panels: A Joint Consensus Recommendation of the Association for Molecular Pathology and College of American Pathologists",
+      "readDepth": "selected primary sections",
+      "sectionsRead": "Abstract and Introduction",
+      "scope": "Depth and validity depend on the assay and validation context.",
+      "limits": "No universal depth criterion derived; 20× is only the original fictional exercise criterion."
+    },
+    {
+      "url": "https://www.htslib.org/doc/samtools-depth.html",
+      "title": "HTSlib: samtools depth",
+      "readDepth": "selected official documentation",
+      "sectionsRead": "Description, relevant filtering/overlap options and caveats, version 1.24",
+      "scope": "Depth is per position and depends on counting/filter rules; four reads do not establish four original molecules.",
+      "limits": "No executable sequencing workflow was run."
+    },
+    {
+      "url": "https://www.htslib.org/doc/samtools-coverage.html",
+      "title": "HTSlib: samtools coverage",
+      "readDepth": "selected official documentation",
+      "sectionsRead": "Description and columns; --min-depth criterion and mean-depth definition, version 1.24",
+      "scope": "Breadth requires a criterion and region denominator; mean depth and focal depth have different scopes.",
+      "limits": "The drawn ≥20× breadth is the owner exercise, not the documentation default or a clinical recommendation."
+    }
+  ],
+  "fictionAndLimits": "Use the exact fictional per-position data and state coverage threshold, breadth and mean definitions. High mean depth can hide poorly observed sites; reads are not automatically independent molecules or clinical cutoffs.",
+  "publicOriginals": "Editable native light/dark SVG, original construction brief and this minimal custody record. Private scripts, source bodies and render captures are excluded.",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending"
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-100",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+  "author": "root",
+  "authorRole": "canonical integration only; literal preserved from independently accepted private107 plan",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T22:32:03.936Z",
+  "reviewedAtLocal": "2026-10-12T15:32:03.936-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "bytes": 7415
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "bytes": 7415
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "b968993fd8361fe18b86cbbf498ba8cec0c58584aee93bbeb898cc90119d345a",
+    "learnerTask": "Distinguish a planned reversible period comparison from a multi-treatment clinical timeline with carryover.",
+    "gap": "Current fork names designs but does not show overlapping lasting effects.",
+    "accuracyGuardrails": "Distinguish a planned randomized/reversible period comparison from a multi-treatment narrative. Carryover, irreversibility and time trends can defeat the contrast; do not suggest personal treatment switching.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "A chosen randomized A–B|B–A reversible symptom-period order with repeated same-measure observations is distinct from a clinical history of A, procedure, B and later scan improvement. Stability, reversibility and transitions require checks; no washout duration or care change is specified. Possible lasting ribbons encode order and overlapping influences rather than measured effects/durations. Existing carryover exercise and no automatic causal attribution or population generalization remain intact. Both original variants are readable in fresh actual pinned React mobile393×700 inline/default-preview and desktop1280×900 carrier captures; tall desktop inline content requires scrolling."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/180",
+    "originalTaskRowSHA256": "78c02ecc277de75893ed61826e55e1fa76d11b57de49efd9256b39ec0b22c67e"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+        "sha256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+        "bytes": 9350
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+        "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+        "bytes": 7415
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+        "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+        "bytes": 7415
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+        "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+        "bytes": 913
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+        "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+        "bytes": 1422
+      }
+    ],
+    "construction": "Original code-generated native SVG pair; six original briefs and provenance kept separate",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image model used; no model identifier inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "CARE",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3784031/",
+      "actualReadDepth": "Exact frozen official Small Clinical Trials2001 response lines220–235 randomized paired periods/reversibility and Table2-2 lines389–406 stability/carryover/period effects; CARE selected abstract,timeline item7 and causality-limit paragraphs. Fresh alternate CARE publisher lines114–120. Fresh official AHRQ2014 chapter4 search-index Introduction/Washout excerpts provide independent methods support, read as search excerpts only.",
+      "featureAndScope": "Case-report reporting guideline",
+      "accessAndReviewLimits": "Direct NCBI printable/reader/whole-bookPDF requests returned reCAPTCHA; National Academies chapter body load failed. Direct AHRQ HTML robot check and independent HTTP202 withzero bytes; no directfull-page read. Exact cited chapter evidence rests on the hash-bound producer actual web response, not original publisherHTML. No full book/CENT/clinical protocol/numeric washout or personal oncology experiment review."
+    },
+    {
+      "source": "SmallTrials",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK223329/?report=printable",
+      "actualReadDepth": "Exact frozen official Small Clinical Trials2001 response lines220–235 randomized paired periods/reversibility and Table2-2 lines389–406 stability/carryover/period effects; CARE selected abstract,timeline item7 and causality-limit paragraphs. Fresh alternate CARE publisher lines114–120. Fresh official AHRQ2014 chapter4 search-index Introduction/Washout excerpts provide independent methods support, read as search excerpts only.",
+      "featureAndScope": "Official small-clinical-trial methodology; illustrative reversible symptom experiment",
+      "accessAndReviewLimits": "Direct NCBI printable/reader/whole-bookPDF requests returned reCAPTCHA; National Academies chapter body load failed. Direct AHRQ HTML robot check and independent HTTP202 withzero bytes; no directfull-page read. Exact cited chapter evidence rests on the hash-bound producer actual web response, not original publisherHTML. No full book/CENT/clinical protocol/numeric washout or personal oncology experiment review."
+    },
+    {
+      "source": "AHRQ2014 official methods alternative",
+      "url": "https://effectivehealthcare.ahrq.gov/products/n-1-trials/research-2014-1",
+      "actualReadDepth": "Fresh official search-index excerpts of Chapter4 Introduction and Washout; direct HTML challenged and independent HTTP202 response empty.",
+      "featureAndScope": "Randomized block pairs, repeated measurements, time effects and carryover limitations; official N-of-1 methods, no care instructions.",
+      "accessAndReviewLimits": "Search result excerpts only; not direct whole-page/PDF/chapter access. Exact cited older book passages personally reviewed from hash-bound producer tool-response, not freshly retrieved publisher HTML."
+    }
+  ],
+  "sourceReviewScope": "Fresh primary/official checks of consequential new visual/caption claims, with actual read depths and access failures below; unchanged scientific teaching retained, not re-approved. Bounded source reviewers are identified by whole-package private custody.",
+  "retainedExercises": {
+    "inverseRestoresCompleteOriginalOwnerBytes": true,
+    "metadataPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "deviceScaleFactor": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "states": [
+      "original native",
+      "inline",
+      "default preview"
+    ],
+    "scope": "Fresh isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with exact byte-verified pinned sources. Declared carrier layout variables, main860px maximum/24px padding/Arial and local asset API. Tall desktop inline figures require scrolling; full-element captures are distinguished from viewport captures. No full app routes/navigation/auth/live deployment or human approval."
+  },
+  "inheritedCarrierTableContrast": "Existing dark table headers and survival-table code literals are not accepted as readable in this fixture; missing complete application palette means actual app/table contrast must be verified at integration. This is not a new native figure correction.",
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; Root may commit only after actual107 adoption",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

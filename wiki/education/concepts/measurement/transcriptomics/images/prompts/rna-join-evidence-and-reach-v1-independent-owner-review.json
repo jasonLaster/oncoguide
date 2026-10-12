@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-105",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection.md",
+  "currentOwnerSha256": "f5bfbbd98e3cbc64a515239c2715aca1886c87e82d218fc301c9f58bdb0e68c4",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative/scientific content and code-SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent whole-package scientific and visual agent reviewer",
+  "reviewedAtUTC": "2026-10-12T22:42:15.263Z",
+  "verdict": "PASS",
+  "passed": true,
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "ad9b2603048b82dc23a7602e68b8d31858276b164ad3d310f7a4bb3560dae949",
+    "learnerTask": "Recognize a split read, spanning pair and local junction versus full transcript",
+    "gap": "Current evidence-bridge map lacks the sequence geometry",
+    "accuracyGuardrails": "Distinguish split reads, spanning pairs, local junctions and complete transcript evidence. RNA junction support is not automatically a DNA rearrangement, functional protein or therapeutic target.",
+    "reasoning": "The split read crosses the same A/B boundary atx371; the spanning pair ends at324 and begins455 with a dashed unsequenced insert across the join. Local exon2/3 read crossesx361; outer exons remain unknown. Added answered retrieval and original copied-read exercise separate RNA joins, independent support, full transcript, DNA origin, protein consequence and benefit. Method scopes and probe-chemistry limitation verified."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/321",
+    "originalTaskRowSHA256": "ccd14b4f0c3dfba693eac3fef2ed424fff7773bce04327fc422d7614efc0d60e"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-light.svg",
+      "sha256": "e88cf72ed5ffa663725f764b657e4965a444108a234a2a5bc6e6dbfea5789110"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+      "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection.md",
+        "sha256": "f5bfbbd98e3cbc64a515239c2715aca1886c87e82d218fc301c9f58bdb0e68c4",
+        "bytes": 9614
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-light.svg",
+        "sha256": "e88cf72ed5ffa663725f764b657e4965a444108a234a2a5bc6e6dbfea5789110",
+        "bytes": 5808
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+        "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a",
+        "bytes": 5808
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/rna-join-evidence-and-reach-v1.txt",
+        "sha256": "5c51c22b9211b7c960557dd7f83ba746768db4a264db765669883c26fa8dfdaf",
+        "bytes": 1686
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/rna-join-evidence-and-reach-v1.json",
+        "sha256": "4f384689982fc01f078622ba1c8fd38738ca16251333596ab300bdf8e0ab59dc",
+        "bytes": 4674
+      }
+    ],
+    "imageModelCalls": 0,
+    "originalConstructionBriefPreserved": true,
+    "originalPublicProvenancePreserved": true
+  },
+  "ownerBinding": {
+    "packetOwnerSHA256": "3b0551d8f4056c574a6f0daf140adfa8d90e1a2888182c134a722bfcc8f04433",
+    "guardedCurrentSourceSHA256": "e045ee9a9fed213df976f93c7515c78c0f740a00b110260aefea4d83b40daa65",
+    "navigationRebound": true,
+    "rebindScope": "Only the generated Used in label changes; source/body/metadata/practice and reviewed art bytes remain unchanged. Root must use this bound owner or preserve these exact bytes during canonical integration."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://link.springer.com/article/10.1186/s13059-019-1842-9",
+      "readDepth": "selected primary Introduction/Figure1 and STAR-Fusion support passage",
+      "scope": "Split-read versus spanning-pair geometry; benchmark support thresholds are not universal clinical criteria"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21261984/",
+      "readDepth": "complete primary abstract",
+      "scope": "Readthrough joins in prostate and reference tissues; RNA join does not settle DNA mechanism"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4801060/",
+      "readDepth": "complete primary abstract plus selected LSV definition and PSI quantification passages",
+      "scope": "Local graph/junction quantification differs from complete isoform reconstruction"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25384085/",
+      "readDepth": "complete primary abstract",
+      "scope": "Original anchored multiplexPCR study and FFPE validation, not every later panel"
+    },
+    {
+      "url": "https://www.10xgenomics.com/support/software/cell-ranger/7.2/getting-started/cr-flex-what-is-frp",
+      "readDepth": "direct official Overview and analysis passages via web",
+      "scope": "Ligated synthetic probes are sequenced instead of original transcript cDNA; author429 limitation resolved for reviewer-selected text"
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "unchangedFrozenTaskAndGuards": true,
+    "originalBodyAndMetadataPreserved": true,
+    "originalAnsweredPracticePreserved": true,
+    "nativePairLabelsGeometryCountsMatch": true,
+    "independentNativeAndCompactInlinePixelsInspected": true,
+    "mobileAndDesktopDefaultPreviewPixelsInspected": true,
+    "figureRenderStates": 8,
+    "articleFixtureStates": 4,
+    "minimumEssentialLabelPx": 16.365384615384613,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3"
+  },
+  "publicationPath": "wiki/education/concepts/measurement/transcriptomics/images/prompts/rna-join-evidence-and-reach-v1-independent-owner-review.json",
+  "limits": {
+    "canonicalAdoption": "pending",
+    "humanReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "coverageCreditAwarded": false,
+    "newCredit": 0,
+    "deliveryClaimed": false,
+    "publicationVerified": false,
+    "sourceDepth": "Selected passages and complete abstracts as stated; download or citation presence is not full-paper review.",
+    "renderScope": "Isolated exact-native browser renders and structural article/theater fixtures with unchanged pinned theater CSS;no live renderer route, React-event or production certification."
+  }
+}

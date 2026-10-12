@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-103",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage.md",
+  "currentOwnerSha256": "6a4db50d7ef38dd2c3ad98c043ccb822061ea091dd2496ea20e8a60a4188cef9",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative/scientific content and code-SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent whole-package scientific and visual agent reviewer",
+  "reviewedAtUTC": "2026-10-12T22:42:15.263Z",
+  "verdict": "PASS",
+  "passed": true,
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "184fd5f18f403b4f679dc1111024dda47004e88f741c7704bbe12ecc5b001391",
+    "learnerTask": "See high mean depth alongside a poorly observed position",
+    "gap": "Current flow lacks per-position counts and threshold breadth",
+    "accuracyGuardrails": "Use the exact fictional per-position data and state coverage threshold, breadth and mean definitions. High mean depth can hide poorly observed sites; reads are not automatically independent molecules or clinical cutoffs.",
+    "reasoning": "The mean100x and local4x bars share one zero baseline and2px/x scale; illustrative20x line is40px above it. Breadth ribbon is540 of600px=90%, matching900 of1000bases at the stated criterion. Four counted-read glyphs do not imply independent molecules. No invented per-position vector or clinical threshold; original answered exercise and counting/validation caveats retained."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/304",
+    "originalTaskRowSHA256": "53daf460f5d602357a22d9af024f7ff999e476aca7133471bf54a879967d2c2e"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-light.svg",
+      "sha256": "8bdb5e80a173549d89f4a285588634ef9082a00020869acf81d44d64fb2a41e6"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+      "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage.md",
+        "sha256": "6a4db50d7ef38dd2c3ad98c043ccb822061ea091dd2496ea20e8a60a4188cef9",
+        "bytes": 8563
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-light.svg",
+        "sha256": "8bdb5e80a173549d89f4a285588634ef9082a00020869acf81d44d64fb2a41e6",
+        "bytes": 4659
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+        "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f",
+        "bytes": 4659
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/mean-breadth-and-local-depth-v1.txt",
+        "sha256": "217b7a15b0b96f33e33fcb08cdea25310ccc169e0209bbadfeeabc51cab0e1be",
+        "bytes": 1586
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/mean-breadth-and-local-depth-v1.json",
+        "sha256": "7137a3153bd3f7dc1d67dd19637eb2ba006b77e0d76b7214ecc3baa35493e5ac",
+        "bytes": 3770
+      }
+    ],
+    "imageModelCalls": 0,
+    "originalConstructionBriefPreserved": true,
+    "originalPublicProvenancePreserved": true
+  },
+  "ownerBinding": {
+    "packetOwnerSHA256": "6e6c02da2796fc5f011bead219e13f1263ec0af308c32144fd131dd258228a17",
+    "guardedCurrentSourceSHA256": "ba21a11edefcf5db77d58659ea2af7fc960749175e765ffbaf102530793d44c5",
+    "navigationRebound": true,
+    "rebindScope": "Only the generated Used in label changes; source/body/metadata/practice and reviewed art bytes remain unchanged. Root must use this bound owner or preserve these exact bytes during canonical integration."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941185/",
+      "readDepth": "author-captured primary abstract/Introduction scope; no full-guideline review",
+      "scope": "End-to-end oncology-panel validation rather than universal depth criterion"
+    },
+    {
+      "url": "https://www.htslib.org/doc/samtools-depth.html",
+      "readDepth": "selected official Description/options/caveats,1.24",
+      "scope": "Per-position depth, filtering and overlapping-pair counting choices"
+    },
+    {
+      "url": "https://www.htslib.org/doc/samtools-coverage.html",
+      "readDepth": "official Description and columns/--min-depth option,1.24",
+      "scope": "Named-region breadth, threshold and mean-depth output;20x is exercise-only"
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "unchangedFrozenTaskAndGuards": true,
+    "originalBodyAndMetadataPreserved": true,
+    "originalAnsweredPracticePreserved": true,
+    "nativePairLabelsGeometryCountsMatch": true,
+    "independentNativeAndCompactInlinePixelsInspected": true,
+    "mobileAndDesktopDefaultPreviewPixelsInspected": true,
+    "figureRenderStates": 8,
+    "articleFixtureStates": 4,
+    "minimumEssentialLabelPx": 16.365384615384613,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3"
+  },
+  "publicationPath": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/mean-breadth-and-local-depth-v1-independent-owner-review.json",
+  "limits": {
+    "canonicalAdoption": "pending",
+    "humanReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "coverageCreditAwarded": false,
+    "newCredit": 0,
+    "deliveryClaimed": false,
+    "publicationVerified": false,
+    "sourceDepth": "Selected passages and complete abstracts as stated; download or citation presence is not full-paper review.",
+    "renderScope": "Isolated exact-native browser renders and structural article/theater fixtures with unchanged pinned theater CSS;no live renderer route, React-event or production certification."
+  }
+}

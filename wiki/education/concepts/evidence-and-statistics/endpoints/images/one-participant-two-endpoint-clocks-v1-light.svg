@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Survival endpoints</title><desc id="desc">Identify the same event that stops one endpoint clock but not another. All new counts/times/statistical estimates are fictional teaching examples.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#18333e"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M-2 2 L2 -2 M0 10 L10 0 M8 12 L12 8" stroke="#18333e" stroke-width="2" opacity=".3"/></pattern></defs><rect width="600" height="1000" fill="#fbf7ed"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#18333e" text-anchor="start">One participant, two stop rules</text>
+<text x="28" y="86" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">Fictional months from randomization</text>
+<text x="28" y="143" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">0: randomization</text>
+<text x="28" y="184" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">12: objective progression; 30: death</text>
+<path d="M80 249 L530 249" fill="none" stroke="#9bb0b7" stroke-width="3" stroke-linecap="round"/>
+<circle cx="80" cy="249" r="4" fill="#9bb0b7" stroke="#9bb0b7" stroke-width="2"/>
+<text x="80" y="294" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">0</text>
+<circle cx="170" cy="249" r="4" fill="#9bb0b7" stroke="#9bb0b7" stroke-width="2"/>
+<text x="170" y="294" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">6</text>
+<circle cx="260" cy="249" r="4" fill="#9bb0b7" stroke="#9bb0b7" stroke-width="2"/>
+<text x="260" y="294" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">12</text>
+<circle cx="350" cy="249" r="4" fill="#9bb0b7" stroke="#9bb0b7" stroke-width="2"/>
+<text x="350" y="294" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">18</text>
+<circle cx="440" cy="249" r="4" fill="#9bb0b7" stroke="#9bb0b7" stroke-width="2"/>
+<text x="440" y="294" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">24</text>
+<circle cx="530" cy="249" r="4" fill="#9bb0b7" stroke="#9bb0b7" stroke-width="2"/>
+<text x="530" y="294" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">30</text>
+<path d="M260 313 L260 338" fill="none" stroke="#9bb0b7" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M530 313 L530 338" fill="none" stroke="#e6a0aa" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M260 402 L260 451" fill="none" stroke="#9bb0b7" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M530 402 L530 451" fill="none" stroke="#e6a0aa" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M260 557 L260 575" fill="none" stroke="#9bb0b7" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M530 557 L530 575" fill="none" stroke="#e6a0aa" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M260 647 L260 697" fill="none" stroke="#9bb0b7" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M530 647 L530 697" fill="none" stroke="#e6a0aa" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M260 789 L260 808" fill="none" stroke="#9bb0b7" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M530 789 L530 808" fill="none" stroke="#e6a0aa" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<circle cx="66" cy="368" r="29" fill="#dce8e9" stroke="#9bb0b7" stroke-width="2"/>
+<path d="M66 368 L66 351" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M66 368 L79 376" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<circle cx="66" cy="344" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<circle cx="90" cy="368" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<circle cx="66" cy="392" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<circle cx="42" cy="368" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<text x="112" y="379" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">OS: death from any cause</text>
+<path d="M80 436 L530 436" fill="none" stroke="#315769" stroke-width="10" stroke-linecap="round"/>
+<circle cx="80" cy="436" r="10" fill="#e4bd74" stroke="#18333e" stroke-width="2"/>
+<circle cx="260" cy="436" r="11" fill="#fffdf8" stroke="#95c0db" stroke-width="3"/>
+<circle cx="530" cy="436" r="11" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<text x="42" y="486" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">Progression does not stop this clock.</text>
+<text x="42" y="530" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">OS event at month 30.</text>
+<circle cx="66" cy="606" r="29" fill="#dce8e9" stroke="#9bb0b7" stroke-width="2"/>
+<path d="M66 606 L66 589" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M66 606 L79 614" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<circle cx="66" cy="582" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<circle cx="90" cy="606" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<circle cx="66" cy="630" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<circle cx="42" cy="606" r="2" fill="#18333e" stroke="#18333e" stroke-width="1"/>
+<text x="112" y="617" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">PFS: progression or death</text>
+<path d="M80 677 L260 677" fill="none" stroke="#315769" stroke-width="10" stroke-linecap="round"/>
+<path d="M272 677 L530 677" fill="none" stroke="#9bb0b7" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<circle cx="80" cy="677" r="10" fill="#e4bd74" stroke="#18333e" stroke-width="2"/>
+<circle cx="260" cy="677" r="11" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<circle cx="530" cy="677" r="7" fill="#fffdf8" stroke="#9bb0b7" stroke-width="2"/>
+<text x="42" y="729" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">First qualifying event stops this clock.</text>
+<text x="42" y="773" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">PFS event at month 12.</text>
+<rect x="22" y="827" width="556" height="144" rx="14" fill="#fffdf8" stroke="#9bb0b7" stroke-width="2"/>
+<text x="42" y="869" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">Same origin; different event sets</text>
+<text x="42" y="914" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">OS = overall survival; PFS =</text>
+<text x="42" y="953" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">progression-free survival. Check protocol.</text>
+</svg>

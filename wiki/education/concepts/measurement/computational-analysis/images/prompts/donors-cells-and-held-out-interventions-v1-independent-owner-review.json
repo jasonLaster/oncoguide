@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-093",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+  "reviewedAtUTC": "2026-10-12T22:31:26Z",
+  "passedAtUTC": "2026-10-12T22:31:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/244",
+    "originalTaskRowSHA256": "8ba8a14574789795e0ededb53685f352d22743f5b571c6f6406e4bd5bda6c844"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "baselinePageSHA256": "a2a6ff33de82660237044feeed243afa8fb648cdd40093dd304112dbfca9a5c6",
+    "learnerTask": "Distinguish a new-cell split from a new-donor or unseen-intervention test.",
+    "gap": "The training pipeline does not depict donor overlap across partitions.",
+    "accuracyGuardrails": "Track donor/intervention identities across partitions, not merely different cells or files. A held-out-cell split from a shared donor can leak context; it is not evidence for a new-donor or unseen-intervention claim.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The three visual comparisons keep fitting/tuning and locked-test roles explicit: different cells from shared D1/D2, reserved donor identities D3/D4, and interventionX development versus reserved interventionY response. Labeled donor/intervention identities persist across partitions and both themes; cell glyph counts are illustrative rather than independent people or the complete20-donor exercise. The original20-donor answer and new intervention question reject the two mismatched generalization claims. Primary reporting/benchmark passages support task-specific separation, while cell-line benchmark scope, baselines and local leakage checks remain bounded. No performance value, universal split or clinical quality certificate is claimed. The full frozen donor/intervention-overlap task is met.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+      "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+      "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+        "sha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+        "bytes": 9154
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+        "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb",
+        "bytes": 11397
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+        "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd",
+        "bytes": 11397
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1.txt",
+        "sha256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891",
+        "bytes": 1144
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+        "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa",
+        "bytes": 3005
+      }
+    ],
+    "originalArtwork": "Exact complete owner, original TXT brief, original native light/dark pair and ordinary provenance JSON. Native construction/code/source bodies/execution/captures remain privately retained and are not publicly admitted by these hashes."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/",
+      "depth": "Fresh XML selected evaluation/train/tuning roles, no overlapping participants and clustered-data context; metadata had no abstract. Not completearticle or data replication."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10788734/",
+      "depth": "Fresh XML firstfive selected external-validation/performance/calibration/subgroup passages; metadata only outside those excerpts. Not completearticle."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/",
+      "depth": "Complete primary abstract plus firstfive selected unseen-perturbation/train/test discussion paragraphs. Cell-line benchmark scope only; no completearticle/figures/originaldataset replication or all-model/clinical claim."
+    }
+  ],
+  "sourceAccessLimits": {
+    "originalAuthorQualification": {
+      "actualRead": "TRIPOD actual XML selected evaluation/train roles, nonoverlap participants and clustered context (first6extract paragraphs); Riley first3selected external-evaluation paragraphs; Perturbation complete abstract, first4 initial extracts and first3 method-selected unseen-perturbation discussion.",
+      "limits": "No entirearticle or originalbenchmarkdataset replication. Cell-line benchmark scope retained; fictional donors/interventions are author examples."
+    },
+    "originalAuthorLimits": [
+      "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+      "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+      "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+    ],
+    "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+    "noSourceFiguresOrDatasetsCopied": true,
+    "noUniversalScientificClinicalOrRegulatoryApproval": true
+  },
+  "wholePackageReview": {
+    "sha256": "e2aef12d171d4b01b0c3b067188ce7142a4923b8dccac7545f7010e238c8369d",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "privateScope": "Whole package receipt, raw source material, scripts and captures remain private; hash is a lineage reference only."
+  },
+  "assignmentBinding": {
+    "private107PlanSHA256": "d812680988d129353ffdd1ff44a8b0a6c6c16f966690cfcd941ce0ca1153dd03",
+    "opportunitiesSHA256": "cc3481ca9ee6e43524b8e091d0f8149f4eb60527f94b9384790310de31705341",
+    "canonicalAssignmentAdoption": "pending",
+    "noPlanAcceptanceOrAdoptionSynthesized": true,
+    "commitCondition": "Root commits these actual review receipts only after canonical assignment adoption; this review performs no source/Git writes."
+  },
+  "checks": {
+    "fullOriginalOwnerTaskRead": true,
+    "originalTeachingExercisesSourceMetadataNavigationRetained": true,
+    "exactFiveFileCustodyVerified": true,
+    "pairedGeometryLabelsCountsAndLayoutMatch": true,
+    "originalFrozenTaskAndGuardrailStringsTypesMatch": true,
+    "personallyInspectedNativeBothThemesAnd393x700InlineDefaultModalAndDesktop": true,
+    "maintainedContentCheckerPassed": true,
+    "maintainedReleaseNewVisualReceiptFieldShapeVerifiedReadOnly": true
+  },
+  "publicationPath": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+  "pending": {
+    "assignmentAdoption": "pending canonical adoption by root; accepted private107plan is an assignment reference, not source registry adoption",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

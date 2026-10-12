@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-088",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+  "reviewedAtUTC": "2026-10-12T22:31:26Z",
+  "passedAtUTC": "2026-10-12T22:31:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "51747e0395f3500b98b6b30189fd0a5bf85f564ccf28309af8f8c261a3beb5b7",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/165",
+    "originalTaskRowSHA256": "5956b40a474d85f0afbc57a221eea8be011ab94da4ee382f55b415f6e6aa6a45"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md",
+    "baselinePageSHA256": "29f69e44d770f953e8d1a985928b240d0d03c70fccc5f77438834a4316f63ac6",
+    "learnerTask": "Compare events/all participants with events/non-events from the same counts.",
+    "gap": "The denominator contrast is only arithmetic.",
+    "accuracyGuardrails": "Keep events/all people and events/non-events as separate denominators. The same count example illustrates odds versus risk; do not read an odds ratio as a risk ratio or clinical effect without context.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The same two painted 100-person grids supply 40/60 and 20/80 response/nonresponse counts. Solid full-group and dashed nonresponse frames contain the exact intended people; the visual explicitly divides events by everyone for risk and by non-events for odds. Independent calculations give RR 2 and OR 8/3, while the retained adverse-event exercise gives RR 2 and OR 9/4. The full retained teaching preserves rare-event approximation, sampling and noncollapsibility boundaries and rejects an OR as a direct risk multiplier or causal clinical benefit. Both themes make the denominator comparison visible; the full frozen count/denominator task is met.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-light.svg",
+      "sha256": "992e2a42e6635c54cbc3809f668d49ea2d6e4fc70f52b83548f2626fa270b460"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-dark.svg",
+      "sha256": "aa8fe8ce24654204289ec9ca301756a7d3c895a37465b4d70ede0c6d5d438929"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md",
+        "sha256": "51747e0395f3500b98b6b30189fd0a5bf85f564ccf28309af8f8c261a3beb5b7",
+        "bytes": 6738
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-light.svg",
+        "sha256": "992e2a42e6635c54cbc3809f668d49ea2d6e4fc70f52b83548f2626fa270b460",
+        "bytes": 28961
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-dark.svg",
+        "sha256": "aa8fe8ce24654204289ec9ca301756a7d3c895a37465b4d70ede0c6d5d438929",
+        "bytes": 28961
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/same-counts-risk-and-odds-v1.txt",
+        "sha256": "6eeb041f42c2c8d758fd77d4b6b092ea1f0831efd2514c20f3b88070f0773f95",
+        "bytes": 1091
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/same-counts-risk-and-odds-v1-provenance.json",
+        "sha256": "79d05bfa384d083eab0f621a864c6bb32d92d8c0f4dd6515ea284a08c12a9512",
+        "bytes": 2850
+      }
+    ],
+    "originalArtwork": "Exact complete owner, original TXT brief, original native light/dark pair and ordinary provenance JSON. Native construction/code/source bodies/execution/captures remain privately retained and are not publicly admitted by these hashes."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html",
+      "depth": "Selected official risk/odds denominator and case-control limitations, lines13–22,110–153; no disease data imported."
+    },
+    {
+      "url": "https://www.stat.ubc.ca/~rollin/papers/GreenlandStatSci1999.pdf",
+      "depth": "Selected primary abstract/introduction and section5.1/5.2 noncollapsibility-without-confounding paragraphs/table context, printed pages39–40; not a whole19-page PDF read or proof review."
+    }
+  ],
+  "sourceAccessLimits": {
+    "originalAuthorQualification": {
+      "actualRead": "CDC archived official lesson 3 section5 risk/odds definitions and worked denominator contrast; no disease data imported.",
+      "webReceipt": "sourcesD.web.json",
+      "limits": "Bland core contained no abstract; BMJ403 and primary XML500. Original citation retained; not newly full-paper read."
+    },
+    "originalAuthorLimits": [
+      "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+      "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+      "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+    ],
+    "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+    "noSourceFiguresOrDatasetsCopied": true,
+    "noUniversalScientificClinicalOrRegulatoryApproval": true
+  },
+  "wholePackageReview": {
+    "sha256": "e2aef12d171d4b01b0c3b067188ce7142a4923b8dccac7545f7010e238c8369d",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "privateScope": "Whole package receipt, raw source material, scripts and captures remain private; hash is a lineage reference only."
+  },
+  "assignmentBinding": {
+    "private107PlanSHA256": "d812680988d129353ffdd1ff44a8b0a6c6c16f966690cfcd941ce0ca1153dd03",
+    "opportunitiesSHA256": "cc3481ca9ee6e43524b8e091d0f8149f4eb60527f94b9384790310de31705341",
+    "canonicalAssignmentAdoption": "pending",
+    "noPlanAcceptanceOrAdoptionSynthesized": true,
+    "commitCondition": "Root commits these actual review receipts only after canonical assignment adoption; this review performs no source/Git writes."
+  },
+  "checks": {
+    "fullOriginalOwnerTaskRead": true,
+    "originalTeachingExercisesSourceMetadataNavigationRetained": true,
+    "exactFiveFileCustodyVerified": true,
+    "pairedGeometryLabelsCountsAndLayoutMatch": true,
+    "originalFrozenTaskAndGuardrailStringsTypesMatch": true,
+    "personallyInspectedNativeBothThemesAnd393x700InlineDefaultModalAndDesktop": true,
+    "maintainedContentCheckerPassed": true,
+    "maintainedReleaseNewVisualReceiptFieldShapeVerifiedReadOnly": true
+  },
+  "publicationPath": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/same-counts-risk-and-odds-v1-independent-owner-review.json",
+  "pending": {
+    "assignmentAdoption": "pending canonical adoption by root; accepted private107plan is an assignment reference, not source registry adoption",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

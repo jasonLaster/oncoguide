@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-096",
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+  "author": "root",
+  "authorRole": "canonical integration only; literal preserved from independently accepted private107 plan",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T22:32:03.936Z",
+  "reviewedAtLocal": "2026-10-12T15:32:03.936-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "bytes": 7746
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "bytes": 7746
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "3dbb72361eebf6a50a05517df7d8535f966014bd02731d874eb5e8fd9f76c04d",
+    "learnerTask": "See earlier detection lengthen survival measured from detection without moving death.",
+    "gap": "The clock-shift example has no aligned timeline.",
+    "accuracyGuardrails": "Hold the outcome date fixed while moving detection earlier in the fictional illustration. Longer survival measured from diagnosis is not delayed death or lives saved; lead-time bias is not all screening bias.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Matched linear course-year axes move detection from4 to3 while death remains6, changing recorded intervals2 to3 without moving outcome. Caption identifies the existing fictional example and separates lead-time from other screening biases; stopwatch symbolism does not introduce a clock reading or a benefit claim. Both original variants are readable in fresh actual pinned React mobile393×700 inline/default-preview and desktop1280×900 carrier captures; tall desktop inline content requires scrolling."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/174",
+    "originalTaskRowSHA256": "8eea6f4ca8d68b16307bd15514737a4ef728184eb63b8fe1b8ad9cb33f4c5ab7"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+        "sha256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+        "bytes": 8168
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+        "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+        "bytes": 7746
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+        "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+        "bytes": 7746
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+        "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+        "bytes": 600
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+        "sha256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+        "bytes": 1373
+      }
+    ],
+    "construction": "Original code-generated native SVG pair; six original briefs and provenance kept separate",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image model used; no model identifier inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "NCI screening statistics",
+      "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean",
+      "actualReadDepth": "Selected official explanatory text lines17–42; original source graphic pixels not viewed",
+      "featureAndScope": "Clock movement with fixed death, distinct length bias and overdiagnosis; no quantitative clinical magnitude reused.",
+      "accessAndReviewLimits": [
+        "Selected official explanation; source graphic pixels not inspected."
+      ]
+    }
+  ],
+  "sourceReviewScope": "Fresh primary/official checks of consequential new visual/caption claims, with actual read depths and access failures below; unchanged scientific teaching retained, not re-approved. Bounded source reviewers are identified by whole-package private custody.",
+  "retainedExercises": {
+    "inverseRestoresCompleteOriginalOwnerBytes": true,
+    "metadataPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "deviceScaleFactor": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "states": [
+      "original native",
+      "inline",
+      "default preview"
+    ],
+    "scope": "Fresh isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with exact byte-verified pinned sources. Declared carrier layout variables, main860px maximum/24px padding/Arial and local asset API. Tall desktop inline figures require scrolling; full-element captures are distinguished from viewport captures. No full app routes/navigation/auth/live deployment or human approval."
+  },
+  "inheritedCarrierTableContrast": "Existing dark table headers and survival-table code literals are not accepted as readable in this fixture; missing complete application palette means actual app/table contrast must be verified at integration. This is not a new native figure correction.",
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; Root may commit only after actual107 adoption",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

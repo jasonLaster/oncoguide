@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/long-read-and-methylation-sequencing.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/301",
+  "title": "Long-read and methylation sequencing",
+  "learnerTask": "Separate connected sequence information from retained chemical-mark evidence",
+  "creationMethod": "Original code-generated native SVG pair",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecuted": false,
+  "creationCommit": null,
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "ownerPreimageSHA256": "d3f7a57f8885935dc303dc35e5a7a601e1588e66e5dd01ed13049c29a3ae8486",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/long-sequence-and-mark-workflows-v1.txt",
+    "sha256": "830076d2a5bd129ec074aea76a54b28f24b6d5fe30b87937c74f93a57bafcea0"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-light.svg",
+      "sha256": "e705627ed153655c5a1bfdf72148e19d339239ce79ce035163f9a7390c74482e",
+      "bytes": 10663,
+      "width": 780,
+      "height": 1350,
+      "mediaType": "image/svg+xml"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+      "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3",
+      "bytes": 10663,
+      "width": 780,
+      "height": 1350,
+      "mediaType": "image/svg+xml"
+    }
+  },
+  "sourceSupport": [
+    {
+      "url": "https://www.nature.com/articles/nbt.4060",
+      "title": "Nanopore sequencing and assembly of a human genome with ultra-long reads",
+      "readDepth": "selected primary abstract",
+      "sectionsRead": "Abstract",
+      "scope": "Connected long sequence can retain information across separated features.",
+      "limits": "Downloaded article body is not a full-paper review; no universal phase or methylation capability claimed."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28218898/",
+      "title": "Detecting DNA cytosine methylation using nanopore sequencing.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 28218898",
+      "scope": "Native ionic-current signals plus a trained supported model can infer cytosine methylation.",
+      "limits": "Abstract only; generic pore/signal drawing is conceptual, not an instrument schematic, performance estimate or executed assay."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33495335/",
+      "title": "Genome-wide detection of cytosine methylation by single molecule real-time sequencing.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 33495335",
+      "scope": "Kinetic signals and a specified learned model form a distinct methylation workflow; amplified controls differ from native marks.",
+      "limits": "Abstract only; no full kinetic-model validation, platform-wide guarantee or executed scientific model."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1542678/",
+      "title": "A genomic sequencing protocol that yields a positive display of 5-methylcytosine residues in individual DNA strands.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 1542678",
+      "scope": "Conversion can encode chemical state before amplification; amplification alone does not faithfully copy native marks.",
+      "limits": "Abstract only; conversion workflow is described in caption/body, separate from the ordinary unconverted amplification drawing."
+    }
+  ],
+  "fictionAndLimits": "Separate connected sequence reads from retained chemical-mark measurement and the exact preparation/workflow. Long read length or a platform name does not prove methylation measurement; ordinary amplification can change what native marks remain available.",
+  "publicOriginals": "Editable native light/dark SVG, original construction brief and this minimal custody record. Private scripts, source bodies and render captures are excluded.",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending"
+}

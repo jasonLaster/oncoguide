@@ -63,6 +63,12 @@ The current U.S. pembrolizumab label's TMB-high use specifies at least 10 mut/Mb
 
 ## Try it
 
+<img src="./images/tmb-count-and-eligible-territory-v1-light.svg" alt="A 24-token count inventory accompanies equal-scale eligible-territory ribbons of 2 Mb and 1 Mb, yielding the fictional densities 12 and 24 mutations per megabase." width="780" height="1210" data-theme-pair>
+
+*The same count size produces different densities when eligible territory differs: 24/2 Mb is 12 mut/Mb, while 24/1 Mb is 24 mut/Mb. Token placement does not assert mutation locations or identical variants. Counting, origin filtering and calibration rules remain method-specific.*
+
+[Open the light diagram](./images/tmb-count-and-eligible-territory-v1-light.svg) · [Open the dark diagram](./images/tmb-count-and-eligible-territory-v1-dark.svg)
+
 A fictional research workflow counts 24 eligible mutations across 2 Mb. A second workflow counts 24 across 1 Mb. Are these the same TMB, and does the first establish clinical eligibility?
 
 **Answer:** The simplified densities are 12 and 24 mut/Mb. They cannot be compared clinically without the counting and calibration rules. The research result alone does not establish the authorized-test or disease-setting requirements.

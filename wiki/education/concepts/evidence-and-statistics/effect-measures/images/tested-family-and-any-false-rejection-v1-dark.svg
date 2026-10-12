@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Keep the whole search visible</title><desc id="desc">Twenty fictional independent valid null tests each have false rejection probability0.05. A single selected p0.03 does not expose the full family. The probability of at least one false rejection is1−0.95^m, about5%,22.6%,64.2% at m1,5,20. Bonferroni0.05/20=.0025 differs from a per-hit truth probability.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f1ecd9"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#edc585" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#152630"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="start">One striking result, twenty tests</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Toy: independent tests; every null is true</text>
+<rect x="24" y="142" width="712" height="447" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Retain the full tested family</text>
+<rect x="52" y="231" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="1"/>
+<text x="88" y="271" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">1</text>
+<rect x="137" y="231" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="2"/>
+<text x="173" y="271" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">2</text>
+<rect x="222" y="231" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="3"/>
+<text x="258" y="271" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">3</text>
+<rect x="307" y="231" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="4"/>
+<text x="343" y="271" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">4</text>
+<rect x="392" y="231" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="5"/>
+<text x="428" y="271" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">5</text>
+<rect x="52" y="303" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="6"/>
+<text x="88" y="343" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">6</text>
+<rect x="137" y="303" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="7"/>
+<text x="173" y="343" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">7</text>
+<rect x="222" y="303" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="8"/>
+<text x="258" y="343" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">8</text>
+<rect x="307" y="303" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="9"/>
+<text x="343" y="343" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">9</text>
+<rect x="392" y="303" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="10"/>
+<text x="428" y="343" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">10</text>
+<rect x="52" y="375" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="11"/>
+<text x="88" y="415" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">11</text>
+<rect x="137" y="375" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="12"/>
+<text x="173" y="415" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">12</text>
+<rect x="222" y="375" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="13"/>
+<text x="258" y="415" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">13</text>
+<rect x="307" y="375" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="14"/>
+<text x="343" y="415" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">14</text>
+<rect x="392" y="375" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="15"/>
+<text x="428" y="415" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">15</text>
+<rect x="52" y="447" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="16"/>
+<text x="88" y="487" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">16</text>
+<rect x="137" y="447" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="17"/>
+<text x="173" y="487" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">17</text>
+<rect x="222" y="447" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="18"/>
+<text x="258" y="487" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">18</text>
+<rect x="307" y="447" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="19"/>
+<text x="343" y="487" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">19</text>
+<rect x="392" y="447" width="72" height="55" rx="6" fill="#38505a" stroke="#a8bcc0" stroke-width="2" data-test="20"/>
+<text x="428" y="487" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">20</text>
+<rect x="515" y="266" width="193" height="163" rx="10" fill="#213944" stroke="#edc585" stroke-width="3" />
+<text x="611" y="317" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">Reported</text>
+<text x="611" y="377" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">p = 0.03</text>
+<path d="M482 360 L505 360" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+<text x="48" y="553" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">One reported result is not the family.</text>
+<rect x="24" y="611" width="712" height="378" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="664" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Chance of ≥1 false rejection</text>
+<text x="48" y="731" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">1 test</text>
+<rect x="226" y="698" width="338" height="45" rx="0" fill="#38505a" />
+<rect x="226" y="698" width="16.900000000000016" height="45" rx="0" fill="#e5a0ab" data-tests="1" data-probability="0.050000000000000"/>
+<text x="590" y="732" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">5.0%</text>
+<text x="48" y="814" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">5 tests</text>
+<rect x="226" y="781" width="338" height="45" rx="0" fill="#38505a" />
+<rect x="226" y="781" width="76.46204312500008" height="45" rx="0" fill="#e5a0ab" data-tests="5" data-probability="0.226219062500000"/>
+<text x="590" y="815" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">22.6%</text>
+<text x="48" y="897" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">20 tests</text>
+<rect x="226" y="864" width="338" height="45" rx="0" fill="#38505a" />
+<rect x="226" y="864" width="216.83175822591284" height="45" rx="0" fill="#e5a0ab" data-tests="20" data-probability="0.641514077591458"/>
+<text x="590" y="898" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">64.2%</text>
+<text x="48" y="966" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Probability = 1 − 0.95ᵐ</text>
+<rect x="24" y="1009" width="712" height="246" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="1062" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Control a defined family</text>
+<text x="48" y="1110" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Bonferroni: 0.05 / 20 = 0.0025</text>
+<text x="48" y="1169" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">p = 0.03 does not pass that rule.</text>
+<text x="48" y="1228" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Correlation changes the toy calculation.</text>
+<text x="38" y="1300" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Any error ≠ FDR ≠ one hit’s truth probability.</text>
+</svg>

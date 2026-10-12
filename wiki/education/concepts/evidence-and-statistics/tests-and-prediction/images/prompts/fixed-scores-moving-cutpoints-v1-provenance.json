@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/191",
+  "frozenRowPointer": "/191",
+  "frozenRowSHA256": "a80f9c6e8ea7953df96680a9d32807a9287d950757320d04b053142f439d880b",
+  "originalFrozenTask": {
+    "learnerTask": "See threshold movement change true/false calls without changing underlying measurements.",
+    "gap": "The two classification rules are tabulated but the continuous scores and shifted line are absent.",
+    "accuracyGuardrails": "Keep underlying fictional measurements and reference classes fixed while moving cutpoints. Derive displayed confusion counts from those points; a threshold is not universally validated or clinically beneficial."
+  },
+  "sourceObservedCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "baselinePageSHA256": "09140d649476426b83198c3fcdec75ab4cada0d0647911de742ed8f8ac90be18",
+  "construction": "Original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "generator": "private/construct.py",
+  "generatorSHA256": "a0b8e487c3658650e9b2c6b2b56309cb9d2d0103526f04a7fe70b7138e970852",
+  "generatorCustody": "Privately retained original construction code, not publicly delivered. SVGs are editable; no executable reproduction package promised.",
+  "sourceURLs": [
+    "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+  ],
+  "sourceDepth": "Actual selected primary/official passages or primary abstracts; per-owner private lookup receipts identify exact reading depth, failures and custody. No whole-paper, clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies and reading/execution/capture receipts retained privately.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "briefSHA256": "edfda6c1a44d95832e9bd8b65b4d25fd1940e90f8bcb62ae8c3ea5d6caea315c",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-light.svg",
+      "theme": "light",
+      "sha256": "4dfa12f7cb6da71bc4c51f09d55e1089f7f5619e03900a58e4f2eaf6fb559e02",
+      "bytes": 9046,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "c087ae5e4cebd2dcfed6300bf42da82a20bb3d639b09e2f4de6a81f11054e04c",
+      "bytes": 9046,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Shared original geometry/text with palette substitution only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

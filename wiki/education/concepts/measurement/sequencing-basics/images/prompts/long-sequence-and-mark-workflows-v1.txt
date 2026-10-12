@@ -1,0 +1,11 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/301
+Learner task: Separate connected sequence information from retained chemical-mark evidence
+Original guardrails: Separate connected sequence reads from retained chemical-mark measurement and the exact preparation/workflow. Long read length or a platform name does not prove methylation measurement; ordinary amplification can change what native marks remain available.
+
+Construct a physical connected DNA ribbon with two arbitrary sequence features and a chemical C mark. Native signal plus a supported modification model can support mark calls; this is not an actual assay run. Ordinary amplification of unconverted DNA produces sequence copies without faithfully copying native methylation, not physical removal of marks from the original molecule. Conversion before amplification is a separate workflow retained in the caption/text. Preserve the exact independent native-DNA example eight of ten usable molecules called methylated at one site, 80%, not malignant cells, silenced genes or model-confidence percentage.
+
+Use identical geometry, glyphs, labels, counts and units in restrained warm light/dark palettes. Essential labels are37 or larger on780-unit canvases with heights no greater than1360, to fit the unchanged pinned5cb06c95 theater at393x700. Native detail links remain available.
+
+Construction scripts, source bodies/read receipts and QA screenshots are private aids, not prospective public payload. Public originals are the editable native pair, this original brief and minimal public-safe custody JSON. No image model or scientific model was invoked; no executable regeneration package is delivered.

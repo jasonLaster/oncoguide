@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/321",
+  "title": "RNA fusion and splice detection",
+  "learnerTask": "Recognize a split read, spanning pair and local junction versus full transcript",
+  "creationMethod": "Original code-generated native SVG pair",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecuted": false,
+  "creationCommit": null,
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "ownerPreimageSHA256": "ad9b2603048b82dc23a7602e68b8d31858276b164ad3d310f7a4bb3560dae949",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/rna-join-evidence-and-reach-v1.txt",
+    "sha256": "5c51c22b9211b7c960557dd7f83ba746768db4a264db765669883c26fa8dfdaf"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-light.svg",
+      "sha256": "e88cf72ed5ffa663725f764b657e4965a444108a234a2a5bc6e6dbfea5789110",
+      "bytes": 5808,
+      "width": 780,
+      "height": 1310,
+      "mediaType": "image/svg+xml"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+      "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a",
+      "bytes": 5808,
+      "width": 780,
+      "height": 1310,
+      "mediaType": "image/svg+xml"
+    }
+  },
+  "sourceSupport": [
+    {
+      "url": "https://link.springer.com/article/10.1186/s13059-019-1842-9",
+      "title": "Accuracy assessment of fusion transcript detection via read-mapping and de novo fusion transcript assembly-based methods",
+      "readDepth": "selected full-text sections",
+      "sectionsRead": "Introduction definitions, Figure 1 caption, STAR-Fusion support/duplicate-filter passages",
+      "scope": "Split reads cross a join; discordant pairs observe separate ends with an unsequenced insert.",
+      "limits": "Benchmark calling thresholds are not universal clinical cutoffs; no full-paper appraisal."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21261984/",
+      "title": "Deep RNA sequencing analysis of readthrough gene fusions in human prostate adenocarcinoma and reference samples.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 21261984",
+      "scope": "RNA joins need not prove a DNA rearrangement.",
+      "limits": "Abstract only; no individual-sample origin determination."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26829591/",
+      "title": "A new view of transcriptome complexity and regulation through the lens of local splicing variations.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 26829591",
+      "scope": "Local junction evidence differs from full-transcript reconstruction.",
+      "limits": "Abstract plus separately recorded selected full text; no exhaustive methods review."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4801060/",
+      "title": "A new view of transcriptome complexity and regulation through the lens of local splicing variations",
+      "readDepth": "selected full-text sections",
+      "sectionsRead": "LSV definition/quantification paragraph and adjacent MAJIQ overview",
+      "scope": "Local variations can be quantified from junction-spanning reads without reconstructing a complete transcript.",
+      "limits": "No whole-paper or assay-validation review claimed."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25384085/",
+      "title": "Anchored multiplex PCR for targeted next-generation sequencing.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 25384085",
+      "scope": "Original assay-method context retained.",
+      "limits": "Abstract only; no new panel performance validation."
+    }
+  ],
+  "fictionAndLimits": "Distinguish split reads, spanning pairs, local junctions and complete transcript evidence. RNA junction support is not automatically a DNA rearrangement, functional protein or therapeutic target.",
+  "publicOriginals": "Editable native light/dark SVG, original construction brief and this minimal custody record. Private scripts, source bodies and render captures are excluded.",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending"
+}

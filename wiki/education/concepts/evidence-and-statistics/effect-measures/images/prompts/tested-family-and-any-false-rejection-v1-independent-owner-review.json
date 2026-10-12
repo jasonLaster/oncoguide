@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-089",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+  "reviewedAtUTC": "2026-10-12T22:31:26Z",
+  "passedAtUTC": "2026-10-12T22:31:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "b6b131dd6076cf2d24ae3a17bb4ad3ad54e0d3841fef5a9a4fd168cf9ab715cf",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/166",
+    "originalTaskRowSHA256": "eb4170959379544102389249c979343791b76bf6ad3c7e8dd42d41711f263f1f"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+    "baselinePageSHA256": "aea842105db82f3a338afa3bc9d41849b14ee72db1f05eefd74d047ebaf0bee0",
+    "learnerTask": "See how a larger search changes the probability of at least one false rejection under explicit independence.",
+    "gap": "No visualization locates the family of tests or separates selected findings from all tests.",
+    "accuracyGuardrails": "State the toy independence/null assumptions for family-wise calculations. At least one false rejection, false-discovery rate and probability that an individual finding is false are distinct quantities.",
+    "currentVisualFit": "adequate",
+    "reasoning": "Twenty numbered drawers expose the tested family separately from one reported p=0.03 without assigning a truth label to the drawers. The independent valid/all-null assumptions are explicit. The painted bar fractions agree with 1−0.95^m for m=1,5,20 (5.0%,22.6%,64.2%); Bonferroni 0.05/20=0.0025 remains distinct from that independence calculation. The retained 50-pathway exercise gives 0.001 and rejects using threshold failure as proof of no biological role. Family-wise probability, FDR and an individual finding’s truth probability remain distinct. The larger-search and hidden-family frozen task is fully visualized, without importing a cancer-research false-positive rate.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+      "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+      "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+        "sha256": "b6b131dd6076cf2d24ae3a17bb4ad3ad54e0d3841fef5a9a4fd168cf9ab715cf",
+        "bytes": 7487
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+        "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48",
+        "bytes": 9942
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+        "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627",
+        "bytes": 9942
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1.txt",
+        "sha256": "4b56e49f4d5f5c6829dc529ffcb1d4d655b4cee7239753494b33f4bc97859a8a",
+        "bytes": 1217
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1-provenance.json",
+        "sha256": "79e2cc5ecd521b0ae0a21b22372f8525558c620916ef962496796a0f7a9d9044",
+        "bytes": 3001
+      }
+    ],
+    "originalArtwork": "Exact complete owner, original TXT brief, original native light/dark pair and ordinary provenance JSON. Native construction/code/source bodies/execution/captures remain privately retained and are not publicly admitted by these hashes."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+      "depth": "Official2016 press-release principles, PDFpages1–2; not a whole accompanying journal statement/discussion review."
+    },
+    {
+      "url": "https://www.fda.gov/media/162416/download",
+      "depth": "Selected2022 guidance TypeI error and multiplicity sections, printed pages4–6; not all29pages or current regulatory advice. The author’s5% all-null toy is its own calculation, separate from FDA’s directional2.5% examples."
+    }
+  ],
+  "sourceAccessLimits": {
+    "originalAuthorQualification": {
+      "actualRead": "ASA official press release pp1–2 principles; FDA2022 multiple-endpoint guidance selected Introduction, TypeI error and Multiplicity sections, official diagnostic guidance selected reference/performance definitions.",
+      "webReceipts": [
+        "sourcesA.web.json",
+        "sourcesB.web.json"
+      ],
+      "limits": "Selected passages only; full PDFs acquired but not all29pages read. Independence arithmetic is fictional."
+    },
+    "originalAuthorLimits": [
+      "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+      "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+      "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+    ],
+    "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+    "noSourceFiguresOrDatasetsCopied": true,
+    "noUniversalScientificClinicalOrRegulatoryApproval": true
+  },
+  "wholePackageReview": {
+    "sha256": "e2aef12d171d4b01b0c3b067188ce7142a4923b8dccac7545f7010e238c8369d",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "privateScope": "Whole package receipt, raw source material, scripts and captures remain private; hash is a lineage reference only."
+  },
+  "assignmentBinding": {
+    "private107PlanSHA256": "d812680988d129353ffdd1ff44a8b0a6c6c16f966690cfcd941ce0ca1153dd03",
+    "opportunitiesSHA256": "cc3481ca9ee6e43524b8e091d0f8149f4eb60527f94b9384790310de31705341",
+    "canonicalAssignmentAdoption": "pending",
+    "noPlanAcceptanceOrAdoptionSynthesized": true,
+    "commitCondition": "Root commits these actual review receipts only after canonical assignment adoption; this review performs no source/Git writes."
+  },
+  "checks": {
+    "fullOriginalOwnerTaskRead": true,
+    "originalTeachingExercisesSourceMetadataNavigationRetained": true,
+    "exactFiveFileCustodyVerified": true,
+    "pairedGeometryLabelsCountsAndLayoutMatch": true,
+    "originalFrozenTaskAndGuardrailStringsTypesMatch": true,
+    "personallyInspectedNativeBothThemesAnd393x700InlineDefaultModalAndDesktop": true,
+    "maintainedContentCheckerPassed": true,
+    "maintainedReleaseNewVisualReceiptFieldShapeVerifiedReadOnly": true
+  },
+  "publicationPath": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1-independent-owner-review.json",
+  "pending": {
+    "assignmentAdoption": "pending canonical adoption by root; accepted private107plan is an assignment reference, not source registry adoption",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

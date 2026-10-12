@@ -55,6 +55,14 @@ Integration can identify agreement, competing explanations and missing evidence.
 
 In a fictional tumor, [bulk RNA](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) suggests abundant Target Q. A tissue image places the corresponding protein mainly in normal vessel cells. Those results could both be correct: bulk RNA mixed several cell types. The next question is whether malignant cells carry an accessible target. Averaging the two results into a “high confidence” score would hide that unresolved question.
 
+<img src="./images/multiomic-specimen-and-cell-context-v1-light.svg" alt="Fictional specimen S at time T1 supplies bulk RNA and a protein image; Q protein appears mainly in normal vessel cells, malignant-cell accessibility stays unresolved, and an imputed value remains labeled estimated." width="780" height="1360" data-theme-pair>
+
+*Paired specimen-level layers need not describe identical cells. The original Target Q example can have abundant mixed-tissue RNA and mainly vessel-cell protein simultaneously. The imputed layer is an illustrative model estimate, not a new Q measurement or an executed integration result.*
+
+[Open the light diagram](./images/multiomic-specimen-and-cell-context-v1-light.svg) · [Open the dark diagram](./images/multiomic-specimen-and-cell-context-v1-dark.svg)
+
+In the Target Q picture, what is located by the image and what remains unresolved? **Answer:** The protein image places Q mainly in normal vessel cells. Bulk RNA does not locate its contributing cells here, and malignant-cell surface availability remains unresolved. A model-imputed value would not close that measurement gap.
+
 ## Common confusions
 
 - **More reports are not more independent observations.** Track shared specimens, callers and source data.

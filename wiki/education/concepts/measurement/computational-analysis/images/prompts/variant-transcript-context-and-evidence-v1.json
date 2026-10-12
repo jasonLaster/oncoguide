@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/246",
+  "title": "Variant-effect prediction: a model of a sequence change",
+  "learnerTask": "Follow one genomic change through transcript-dependent annotation, prediction and relevant measurement.",
+  "creationMethod": "Original code-generated native SVG pair",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecuted": false,
+  "creationCommit": null,
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "ownerPreimageSHA256": "375471b2cb776783d2e5fc2f76f3d2549717e8c664d7429b661e4974348cbade",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.txt",
+    "sha256": "7696cce2b1f1bc717f1450d3a96641a70e038c1e45c494f29549ee9ebaf8700a"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+      "sha256": "35eaf6cfcb1fd765011b502a65258fc62a7e08cab3d9c7d4985a69e49d0cf739",
+      "bytes": 4877,
+      "width": 780,
+      "height": 1310,
+      "mediaType": "image/svg+xml"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+      "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03",
+      "bytes": 4877,
+      "width": 780,
+      "height": 1310,
+      "mediaType": "image/svg+xml"
+    }
+  },
+  "sourceSupport": [
+    {
+      "url": "https://www.ensembl.org/info/genome/variation/prediction/predicted_data.html",
+      "title": "Ensembl: Variant consequences",
+      "readDepth": "selected official documentation",
+      "sectionsRead": "Introduction: consequences for each allele and overlapping transcript; intron and coding-sequence consequence categories",
+      "scope": "One genomic position can have different transcript-dependent annotations.",
+      "limits": "Actual request redirected to jun2026 archive; no new release-specific completeness claim, real coordinate or transcript ID."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27993330/",
+      "title": "Standards and Guidelines for the Interpretation and Reporting of Sequence Variants in Cancer: A Joint Consensus Recommendation of the Association for Molecular Pathology, American Society of Clinical Oncology, and College of American Pathologists.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 27993330",
+      "scope": "Separate annotations and computational prediction from assessed somatic clinical significance.",
+      "limits": "Historical primary abstract only; no fresh full-guideline or variant classification review."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36413997/",
+      "title": "Calibration of computational tools for missense variant pathogenicity classification and ClinGen recommendations for PP3/BP4 criteria.",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete PubMed abstract for PMID 36413997",
+      "scope": "Model evidence requires its task and calibration; a score is not automatically probability or benefit.",
+      "limits": "Complete abstract only; germline missense calibration scope does not establish splice performance, cancer response or a specific 0.92 scale."
+    }
+  ],
+  "fictionAndLimits": "Specify transcript context, prediction definition and relevant observation separately. A genomic coordinate, annotation label or model score is not an established functional effect or product benefit.",
+  "publicOriginals": "Editable native light/dark SVG, original construction brief and this minimal custody record. Private scripts, source bodies and render captures are excluded.",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending"
+}

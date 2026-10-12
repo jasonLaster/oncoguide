@@ -39,6 +39,11 @@ A confirmatory trial may allocate its error allowance across endpoints or use a 
 
 ## Worked example
 
+<div class="cartoon-frame">
+<img src="./images/tested-family-and-any-false-rejection-v1-light.svg" width="760" height="1320" alt="Twenty numbered test drawers sit beside one reported p-value, followed by bars for the probability of any false rejection across one, five and twenty independent null tests and a separate Bonferroni rule." data-theme-pair>
+<p class="cartoon-caption">The 20 drawers stand for the full fictional test family, while the sheet illustrates a selected report. Under independent valid tests with every null true and 0.05 false-rejection probability per test, the chance of any false rejection is about 64.2% for 20 tests; this is not an individual hit’s truth probability.</p>
+</div>
+
 Imagine 20 independent tests, all with true null hypotheses and each with a 5% false-positive probability. The chance of at least one false positive is `1 − 0.95^20 ≈ 64%`. This is fictional arithmetic under independence, not a measured cancer-research rate.
 
 For a family-level allowance of 0.05, Bonferroni gives `0.05/20 = 0.0025` per test. A p-value of 0.03 passes an unadjusted 0.05 threshold but fails this correction. Correlation changes the 64% calculation; it does not automatically invalidate Bonferroni.

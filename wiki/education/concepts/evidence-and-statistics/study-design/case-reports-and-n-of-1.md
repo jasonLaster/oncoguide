@@ -53,6 +53,14 @@ Progressive disease, lasting immune effects and irreversible procedures can unde
 
 Random order does not erase carryover or a changing condition. A **period effect** is a change over time apart from the compared treatment; **autocorrelation** means nearby measurements are related. The analysis must address those features and missing observations. Keep period lengths, assigned order, background care, outcome units and assessment times beside the result.
 
+<img src="./images/reversible-periods-and-lasting-overlap-v1-light.svg" alt="A planned reversible symptom-period sequence A–B then B–A is contrasted with a clinical history whose possible lasting A, procedure and B influences overlap when a scan improves" data-theme-pair width="600" height="1000">
+
+*A sequence of events becomes an interpretable comparison only under a suitable design and assumptions.*
+
+The upper strip shows one possible randomized order for two planned A–B symptom comparisons. The dots stand for repeated observations using the same measure. Suitable transitions, rapid reversibility and a sufficiently stable condition need checks; the drawing does not give a washout duration or show measured benefits.
+
+Below, follow the existing clinical story: A starts, a procedure is added, B starts, and a scan improves. The hatched ribbons show possible lasting influences overlapping at the scan, not measured effect sizes or known treatment durations. Horizontal placement shows order only. The last intervention cannot receive all the credit from timing alone. Randomization would not erase carryover or time trends. [Official methods guidance, selected N-of-1 section and table](https://www.ncbi.nlm.nih.gov/books/NBK223329/?report=printable), [Case-report timeline and attribution guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC3784031/). The existing “Try it” below tests that carryover problem.
+
 ## A worked fictional example
 
 Someone receives Treatment A. A procedure is added, Treatment B starts, and the next scan shows improvement. The report supports the observation that improvement occurred during that combined course.

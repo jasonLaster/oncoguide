@@ -1,0 +1,11 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/321
+Learner task: Recognize a split read, spanning pair and local junction versus full transcript
+Original guardrails: Distinguish split reads, spanning pairs, local junctions and complete transcript evidence. RNA junction support is not automatically a DNA rearrangement, functional protein or therapeutic target.
+
+Construct original hypothetical RNA sequence geometry with GeneA andGeneB blocks. One continuous split read contains sequence from both sides of the join. A spanning pair has two distinct observed ends on opposite sides and a dashed unsequenced insert; do not draw the insert as read sequence. In a separate local splice example, exon2 andexon3 are joined while outer exons stay question-mark/dashed unknown; no full-transcript reconstruction is claimed. Read supports need independent-molecule and artifact checks. No universal read cutoff, DNA-rearrangement proof, intact protein or effective target follows.
+
+Use identical geometry, glyphs, labels, counts and units in restrained warm light/dark palettes. Essential labels are37 or larger on780-unit canvases with heights no greater than1360, to fit the unchanged pinned5cb06c95 theater at393x700. Native detail links remain available.
+
+Construction scripts, source bodies/read receipts and QA screenshots are private aids, not prospective public payload. Public originals are the editable native pair, this original brief and minimal public-safe custody JSON. No image model or scientific model was invoked; no executable regeneration package is delivered.

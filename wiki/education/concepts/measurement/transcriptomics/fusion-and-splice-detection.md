@@ -35,6 +35,12 @@ A **split read** maps across a junction. A **spanning pair** has its two reads o
 
 Splice analysis can compare the fraction of eligible observations supporting alternative joins. A **percent spliced in (PSI)** estimate describes inclusion under a defined event and denominator. Local junction evidence may identify a changed choice without reconstructing a complete transcript. Unfinished nuclear RNA containing introns is not automatically pathological intron retention. [Vaquero-Garcia 2016](https://pubmed.ncbi.nlm.nih.gov/26829591/).
 
+<img src="./images/rna-join-evidence-and-reach-v1-light.svg" alt="One split read crosses an A–B RNA join; a spanning pair observes separate ends with an unsequenced gap; local exon 2–3 evidence leaves the rest of the transcript unresolved." width="780" height="1310" data-theme-pair>
+
+*A split read directly observes a join; a spanning pair places two observed ends on opposite sides. A local junction alone does not reconstruct the full transcript. Independent support, captured sequence, DNA mechanism and protein consequence still need their own evidence.*
+
+[Open the light diagram](./images/rna-join-evidence-and-reach-v1-light.svg) · [Open the dark diagram](./images/rna-join-evidence-and-reach-v1-dark.svg)
+
 ```mermaid
 flowchart TD
  A["Candidate RNA join"] --> B["Independent support<br/>and artifact checks"]
@@ -72,6 +78,8 @@ RNA can test whether a candidate DNA change has an expressed product. Mixed tiss
 - **Independent confirmation versus rerunning software:** another analysis of the same reads does not create new molecular evidence.
 
 ## Try it
+
+Trace the spanning pair and the local exon 2–3 read. Which sequence remains unobserved? **Answer:** The pair’s intervening insert is not read by those ends; the local junction does not resolve the other exons or the complete transcript. Neither supplies automatic DNA or protein confirmation.
 
 A fictional RNA library has a candidate A–B junction supported by three identical amplified reads. The report calls it a confirmed DNA rearrangement and an effective drug target. What is missing?
 

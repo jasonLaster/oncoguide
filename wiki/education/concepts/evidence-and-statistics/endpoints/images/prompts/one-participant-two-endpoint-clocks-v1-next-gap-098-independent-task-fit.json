@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-098",
+  "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md",
+  "author": "root",
+  "authorRole": "canonical integration only; literal preserved from independently accepted private107 plan",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T22:32:03.936Z",
+  "reviewedAtLocal": "2026-10-12T15:32:03.936-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "08923989acf4fa28d196a5f4f22e6411c17415919b0c0c18caef6e563313f4b9",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-light.svg",
+      "sha256": "93c2b9a06ff67d0f90a77670aa1b4349d17cc63b93bb648c7ab285c422d82806",
+      "bytes": 7745
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-dark.svg",
+      "sha256": "07bb515399f5b9a43fc31bb51613f0b6f0e16729921e1843b1ea9506c529a34b",
+      "bytes": 7745
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "42eee8e2b92f61051728b3eab6cc9d089468734144fcde438253a57ad8622831",
+    "learnerTask": "Identify the same event that stops one endpoint clock but not another.",
+    "gap": "No timeline shows different event sets for the same fictional participant.",
+    "accuracyGuardrails": "Attach each clock to its endpoint's exact origin and event set. Do not assume recurrence, progression and death stop all clocks identically, or compare survival endpoints across protocols without definitions.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "One fully known fictional history uses the same randomization origin, progression at12 and death at30: PFS stops at first qualifying progression/death while OS continues to any-cause death. Caption identifies the dashed later history as neither censoring nor survival probability. No risk-set, Kaplan–Meier estimator, cohort percentage or personal forecast is introduced; protocol-specific definitions/assessment rules remain required. Both original variants are readable in fresh actual pinned React mobile393×700 inline/default-preview and desktop1280×900 carrier captures; tall desktop inline content requires scrolling."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/170",
+    "originalTaskRowSHA256": "4d1a4ffee47a887d0b28ded1d464ac4ebbd72827666e2e9f9f3c16bbc9b44255"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md",
+        "sha256": "08923989acf4fa28d196a5f4f22e6411c17415919b0c0c18caef6e563313f4b9",
+        "bytes": 8693
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-light.svg",
+        "sha256": "93c2b9a06ff67d0f90a77670aa1b4349d17cc63b93bb648c7ab285c422d82806",
+        "bytes": 7745
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-dark.svg",
+        "sha256": "07bb515399f5b9a43fc31bb51613f0b6f0e16729921e1843b1ea9506c529a34b",
+        "bytes": 7745
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1.txt",
+        "sha256": "856429bf7f72a7639195e7e521a589c69b6ddcb3142372c8af12ecc76dcc8364",
+        "bytes": 716
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1-provenance.json",
+        "sha256": "9fba2e42fbf6e0dc19f0e6550a0285d83790c5d0ce7165e237a1a2bfda6f5228",
+        "bytes": 1326
+      }
+    ],
+    "construction": "Original code-generated native SVG pair; six original briefs and provenance kept separate",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image model used; no model identifier inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "FDA-endpoints",
+      "url": "https://www.fda.gov/media/71195/download",
+      "actualReadDepth": "FDA2018 III.A PDFpage10/printed7 OS first definition paragraph and III.B.4 PDFpage13/printed10 PFS definition/protocol paragraphs; fresh official web lines368–384 and497–520 plus frozen PDF/text passages personally read.",
+      "featureAndScope": "FDA cancer-development endpoint guidance",
+      "accessAndReviewLimits": "Selected definition passages only; STEEP/DRFI/IDFS/KEYNOTE clauses outside new insertion and unchanged existing clinical science were not re-reviewed. No full guidance, actual trial result or individual forecast."
+    }
+  ],
+  "sourceReviewScope": "Fresh primary/official checks of consequential new visual/caption claims, with actual read depths and access failures below; unchanged scientific teaching retained, not re-approved. Bounded source reviewers are identified by whole-package private custody.",
+  "retainedExercises": {
+    "inverseRestoresCompleteOriginalOwnerBytes": true,
+    "metadataPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "deviceScaleFactor": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "states": [
+      "original native",
+      "inline",
+      "default preview"
+    ],
+    "scope": "Fresh isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with exact byte-verified pinned sources. Declared carrier layout variables, main860px maximum/24px padding/Arial and local asset API. Tall desktop inline figures require scrolling; full-element captures are distinguished from viewport captures. No full app routes/navigation/auth/live deployment or human approval."
+  },
+  "inheritedCarrierTableContrast": "Existing dark table headers and survival-table code literals are not accepted as readable in this fixture; missing complete application palette means actual app/table contrast must be verified at integration. This is not a new native figure correction.",
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; Root may commit only after actual107 adoption",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

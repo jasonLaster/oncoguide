@@ -46,6 +46,11 @@ Picking the “best” cutoff from the same outcomes used to report performance 
 
 ## Worked example
 
+<div class="cartoon-frame">
+<img src="./images/fixed-scores-moving-cutpoints-v1-light.svg" width="760" height="1320" alt="Two identical score distributions of four triangular reference-present samples and six circular reference-absent samples show the cutpoint moving from 0.7 to 0.4 and the resulting found, missed, false-call and correct-negative counts." data-theme-pair>
+<p class="cartoon-caption">The invented reference-present scores are 0.20, 0.55, 0.75 and 0.90; reference-absent scores are 0.10, 0.25, 0.35, 0.45, 0.60 and 0.80. These same ten points give the existing table’s counts at ≥0.7 and ≥0.4. “Present” and “absent” are reference classes; positive and negative are score-based calls, with equality included.</p>
+</div>
+
 Ten fictional samples have a defined condition in four and lack it in six. All have test and reference results. Higher scores are positive.
 
 | Rule | True positives | False positives | Sensitivity | Specificity | PPV |

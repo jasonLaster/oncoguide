@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction; zero image-model calls, model null.
+
+Draw exact 100-person group grids with40/60 and20/80 response/nonresponse symbols. Show all-person and nonresponse-only frames and explicit fractions. Risk ratio2; odds ratio8/3; no multiplication of a probability byOR or inferred treatment effect.
+
+Frozen learner task: Compare events/all participants with events/non-events from the same counts.
+Frozen gap: The denominator contrast is only arithmetic.
+Frozen guardrails: Keep events/all people and events/non-events as separate denominators. The same count example illustrates odds versus risk; do not read an odds ratio as a risk ratio or clinical effect without context.
+
+Two themes share exact geometry, labels, quantities and uncertainty. Warm pale/light ground and quiet deep/dark ground; restrained matching glyphs. Essential labels at least36 nativepx to aim16px in393x700 inline/default-preview. Private generator/source/capture receipts are not publicly delivered; SVG remains editable, without a delivered executable reproduction package.

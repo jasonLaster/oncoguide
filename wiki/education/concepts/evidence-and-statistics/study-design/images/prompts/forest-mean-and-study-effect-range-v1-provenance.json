@@ -1,0 +1,36 @@
+{
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "construction": "Code-generated original native SVG pair",
+  "imageModelCalls": 0,
+  "reportedImageModel": null,
+  "modelReporting": "No image model used; no model/call IDs exist",
+  "originalBrief": {
+    "file": "forest-mean-and-study-effect-range-v1.txt",
+    "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+    "bytes": 1264
+  },
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "forest-mean-and-study-effect-range-v1-light.svg",
+      "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "bytes": 8157,
+      "width": 600,
+      "height": 1000
+    },
+    {
+      "theme": "dark",
+      "file": "forest-mean-and-study-effect-range-v1-dark.svg",
+      "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "bytes": 8157,
+      "width": 600,
+      "height": 1000
+    }
+  ],
+  "sourceURLs": [
+    "https://doi.org/10.1111/j.1467-985X.2008.00552.x",
+    "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10"
+  ],
+  "scope": "Fictional educational counts/times/estimates or chosen schematic sequence. No actual trial outcomes, personal forecast or treatment advice. Source/method limits remain in the full owner caption."
+}

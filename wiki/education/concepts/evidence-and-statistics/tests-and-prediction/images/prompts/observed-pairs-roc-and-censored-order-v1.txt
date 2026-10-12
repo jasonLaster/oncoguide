@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction; zero image-model calls, model null.
+
+Exactbinarycases.9/.6 noncases.7/.2; fourpairs3correct; empiricalROC(0,0),(0,.5),(.5,.5),(.5,1),(1,1) withthresholds.9/.7/.6/.2 AUC.75. SeparateexistingAevent2/Bcensor1timelineuncertainrighttail; do not fabricateBevent/noncasestatus or equatebinaryAUCtoCindex/calibration/utility.
+
+Frozen learner task: Read a ROC curve and the pairwise ranking calculation separately from censored concordance.
+Frozen gap: The ROC-area concept has no ROC plot or observed-pair graphic.
+Frozen guardrails: Keep score threshold ROC/ranking, pairwise AUC and censoring-aware concordance tasks distinct. Unknown censored orderings cannot be invented; ranking performance does not establish calibration or utility.
+
+Two themes share exact geometry, labels, quantities and uncertainty. Warm pale/light ground and quiet deep/dark ground; restrained matching glyphs. Essential labels at least36 nativepx to aim16px in393x700 inline/default-preview. Private generator/source/capture receipts are not publicly delivered; SVG remains editable, without a delivered executable reproduction package.

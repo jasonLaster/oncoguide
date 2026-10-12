@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Different cells do not ensure new context</title><desc id="desc">Three fictional split examples retain donor/intervention identities. New cells from D1/D2 leave both donors shared; donor split trainsD1/D2 andtestsD3/D4. Intervention split fits/tunes X andreservesY across those choices. Generic illustrative cells anddonors are not a benchmark or claim of performance.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f1ecd9"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#edc585" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#152630"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="start">What is actually held out?</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Fictional identities; cells are illustrative</text>
+<rect x="24" y="142" width="712" height="330" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">1  New cells; shared donors</text>
+<text x="188" y="245" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Fit + tune</text>
+<text x="568" y="245" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Locked test</text>
+<path d="M380 258 L380 419" fill="none" stroke="#a8bcc0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7" />
+<rect x="24" y="494" width="712" height="330" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="547" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">2  Reserved donor identities</text>
+<text x="188" y="597" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Fit + tune</text>
+<text x="568" y="597" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Locked test</text>
+<path d="M380 610 L380 771" fill="none" stroke="#a8bcc0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7" />
+<rect x="24" y="846" width="712" height="330" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="899" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">3  Reserved intervention identity</text>
+<text x="188" y="949" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Fit + tune</text>
+<text x="568" y="949" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Locked test</text>
+<path d="M380 962 L380 1123" fill="none" stroke="#a8bcc0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7" />
+<rect x="48" y="267" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="61" y="305" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D1</text>
+<circle cx="160" cy="326" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="158" cy="327" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<circle cx="215" cy="326" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="213" cy="327" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<circle cx="270" cy="326" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="268" cy="327" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<rect x="428" y="267" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="441" y="305" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D1</text>
+<circle cx="540" cy="326" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="538" cy="327" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<circle cx="595" cy="326" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="593" cy="327" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<rect x="48" y="372" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="61" y="410" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D2</text>
+<circle cx="160" cy="431" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="158" cy="432" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<circle cx="215" cy="431" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="213" cy="432" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<circle cx="270" cy="431" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="268" cy="432" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<rect x="428" y="372" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="441" y="410" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D2</text>
+<circle cx="540" cy="431" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="538" cy="432" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<circle cx="595" cy="431" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="593" cy="432" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<rect x="48" y="619" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="61" y="657" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D1</text>
+<circle cx="160" cy="678" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="158" cy="679" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<circle cx="215" cy="678" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="213" cy="679" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<circle cx="270" cy="678" r="18" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="268" cy="679" r="6.4799999999999995" fill="#bfa9db" stroke="#e5a0ab" stroke-width="2" />
+<rect x="428" y="619" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="441" y="657" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D3</text>
+<circle cx="540" cy="678" r="18" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<circle cx="538" cy="679" r="6.4799999999999995" fill="#bfa9db" stroke="#bfa9db" stroke-width="2" />
+<circle cx="595" cy="678" r="18" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<circle cx="593" cy="679" r="6.4799999999999995" fill="#bfa9db" stroke="#bfa9db" stroke-width="2" />
+<circle cx="650" cy="678" r="18" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<circle cx="648" cy="679" r="6.4799999999999995" fill="#bfa9db" stroke="#bfa9db" stroke-width="2" />
+<rect x="48" y="724" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="61" y="762" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D2</text>
+<circle cx="160" cy="783" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="158" cy="784" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<circle cx="215" cy="783" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="213" cy="784" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<circle cx="270" cy="783" r="18" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="268" cy="784" r="6.4799999999999995" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<rect x="428" y="724" width="272" height="90" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="441" y="762" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">D4</text>
+<circle cx="540" cy="783" r="18" fill="#b0c395" stroke="#293743" stroke-width="2" />
+<circle cx="538" cy="784" r="6.4799999999999995" fill="#bfa9db" stroke="#b0c395" stroke-width="2" />
+<circle cx="595" cy="783" r="18" fill="#b0c395" stroke="#293743" stroke-width="2" />
+<circle cx="593" cy="784" r="6.4799999999999995" fill="#bfa9db" stroke="#b0c395" stroke-width="2" />
+<circle cx="650" cy="783" r="18" fill="#b0c395" stroke="#293743" stroke-width="2" />
+<circle cx="648" cy="784" r="6.4799999999999995" fill="#bfa9db" stroke="#b0c395" stroke-width="2" />
+<rect x="48" y="977" width="272" height="144" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<path d="M85 1008 L85 1067 Q102 1094 119 1067 L119 1008" fill="#dfc79f" stroke="#293743" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="81" y="999" width="42" height="13" rx="3" fill="#e5a0ab" />
+<text x="151" y="1031" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Use X</text>
+<circle cx="178" cy="1081" r="17" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="176" cy="1082" r="6.12" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<circle cx="240" cy="1081" r="17" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="238" cy="1082" r="6.12" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<rect x="428" y="977" width="272" height="144" rx="10" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<path d="M465 1008 L465 1067 Q482 1094 499 1067 L499 1008" fill="#dfc79f" stroke="#293743" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="461" y="999" width="42" height="13" rx="3" fill="#bfa9db" />
+<text x="531" y="1031" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Use Y</text>
+<circle cx="558" cy="1081" r="17" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="556" cy="1082" r="6.12" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<circle cx="620" cy="1081" r="17" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="618" cy="1082" r="6.12" fill="#bfa9db" stroke="#8fbedc" stroke-width="2" />
+<text x="48" y="1157" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Y response absent from fitting/tuning.</text>
+<text x="48" y="1231" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Donor and intervention splits ask</text>
+<text x="48" y="1276" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">different generalization questions.</text>
+</svg>

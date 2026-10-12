@@ -39,6 +39,16 @@ Pooling commonly uses a weighted combination of estimates. A **common-effect mod
 
 **I-squared (I²)** estimates the proportion of variability in study estimates attributed to heterogeneity rather than sampling error. It is not the percentage of people helped or a universal “safe to pool” threshold. **Tau-squared (τ²)** estimates between-study effect variance on the model’s scale: for a log risk ratio, its units are squared log risk-ratio units. Both estimates can be uncertain, especially with few studies. Clinical and methodological compatibility still needs inspection.
 
+<img src="./images/forest-mean-and-study-effect-range-v1-light.svg" alt="Five equally weighted fictional study estimates have individual confidence intervals, a pooled mean diamond and a separate wider prediction interval crossing zero" data-theme-pair width="600" height="1000">
+
+*Precision around an average does not establish similar effects in every setting.*
+
+This separate toy dataset compares a fictional 0–100 symptom score at day 30. Each study estimates treatment A minus control in score points, with the same standard error of two points. The specified random-effects calculation gives each study 20% weight, so the squares have equal areas. Their lines show approximate 95% confidence intervals. The diamond shows the mean and its interval; the amber line describes uncertainty about an underlying effect in a sufficiently similar new study. It is not a prediction for one person.
+
+The calculation uses a classical moment estimate for between-study variance, a normal-approximation mean interval, and the 2009 prediction-interval method. These are teaching choices with assumptions; five studies can make either interval unreliable. The two-study averaging example below keeps its own supplied weights. [Primary methods](https://doi.org/10.1111/j.1467-985X.2008.00552.x), [Cochrane interpretation and limits](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10).
+
+**Read the plot:** Does the negative pooled mean establish a negative effect in every setting? **Answer:** No. The prediction interval extends above zero. I² of 60% describes estimated heterogeneity relative to sampling variation; it is not 60% of studies being wrong.
+
 ## Why it matters in cancer
 
 Trials may compare different treatment sequences or count different events. Preserve each study's question before pooling. Several papers can report the same participants; a later follow-up is additional information, not an independent trial. Count unique studies and check overlapping cohorts.

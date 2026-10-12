@@ -1,0 +1,36 @@
+{
+  "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "construction": "Code-generated original native SVG pair",
+  "imageModelCalls": 0,
+  "reportedImageModel": null,
+  "modelReporting": "No image model used; no model/call IDs exist",
+  "originalBrief": {
+    "file": "people-and-randomized-treatment-effects-v1.txt",
+    "sha256": "82f5d18e664268ed8d288a5dbce746b2e1868053fbc7ab023808586cc1b78cd5",
+    "bytes": 837
+  },
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "people-and-randomized-treatment-effects-v1-light.svg",
+      "sha256": "2799a97b4e644ddae434a9f549235ade78cd5cf684c07cdbbc7c7e54fb919eec",
+      "bytes": 10539,
+      "width": 600,
+      "height": 1000
+    },
+    {
+      "theme": "dark",
+      "file": "people-and-randomized-treatment-effects-v1-dark.svg",
+      "sha256": "9a3445b333ad8b111c37c788bdb3f352b28f9273798eb9df691b6e578dc5aae3",
+      "bytes": 10539,
+      "width": 600,
+      "height": 1000
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/12933525/",
+    "https://pubmed.ncbi.nlm.nih.gov/24529560/"
+  ],
+  "scope": "Fictional educational counts/times/estimates or chosen schematic sequence. No actual trial outcomes, personal forecast or treatment advice. Source/method limits remain in the full owner caption."
+}

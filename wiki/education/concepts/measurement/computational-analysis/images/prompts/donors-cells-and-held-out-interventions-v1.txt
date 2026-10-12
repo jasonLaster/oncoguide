@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction; zero image-model calls, model null.
+
+DrawexplicitD1/D2sharedversusD1D2fit/D3D4test, withdifferentcellglyphsandfixedidentitycolorlabels. Thirdpanelfit+tuneX/testYresponseheldoutacrosschoices. Smallillustrationnotall20donors, no cellsasindependentpeople, baselineperformanceoruniversalvalidationclaim.
+
+Frozen learner task: Distinguish a new-cell split from a new-donor or unseen-intervention test.
+Frozen gap: The training pipeline does not depict donor overlap across partitions.
+Frozen guardrails: Track donor/intervention identities across partitions, not merely different cells or files. A held-out-cell split from a shared donor can leak context; it is not evidence for a new-donor or unseen-intervention claim.
+
+Two themes share exact geometry, labels, quantities and uncertainty. Warm pale/light ground and quiet deep/dark ground; restrained matching glyphs. Essential labels at least36 nativepx to aim16px in393x700 inline/default-preview. Private generator/source/capture receipts are not publicly delivered; SVG remains editable, without a delivered executable reproduction package.

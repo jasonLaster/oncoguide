@@ -1,0 +1,36 @@
+{
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "construction": "Code-generated original native SVG pair",
+  "imageModelCalls": 0,
+  "reportedImageModel": null,
+  "modelReporting": "No image model used; no model/call IDs exist",
+  "originalBrief": {
+    "file": "locked-plan-results-and-twelve-cutoffs-v1.txt",
+    "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+    "bytes": 746
+  },
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "bytes": 8636,
+      "width": 600,
+      "height": 1000
+    },
+    {
+      "theme": "dark",
+      "file": "locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "bytes": 8636,
+      "width": 600,
+      "height": 1000
+    }
+  ],
+  "sourceURLs": [
+    "https://www.fda.gov/media/162416/download",
+    "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004587"
+  ],
+  "scope": "Fictional educational counts/times/estimates or chosen schematic sequence. No actual trial outcomes, personal forecast or treatment advice. Source/method limits remain in the full owner caption."
+}

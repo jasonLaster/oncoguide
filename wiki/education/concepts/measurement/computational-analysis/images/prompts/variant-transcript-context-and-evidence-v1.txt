@@ -1,0 +1,11 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/246
+Learner task: Follow one genomic change through transcript-dependent annotation, prediction and relevant measurement.
+Original guardrails: Specify transcript context, prediction definition and relevant observation separately. A genomic coordinate, annotation label or model score is not an established functional effect or product benefit.
+
+Construct original aligned genomic-coordinate tracks for a single fictional C-to-T change at arbitrary positionP. T1 has an exon containingP; T2 starts that exon later, soP is intronic. These are genomic transcript annotations, not spliced-RNA distances; no real assembly coordinate, transcript accession or variant effect is supplied. Separate location annotation, model/task/scale and relevant RNA-junction observation. Preserve the original deliberately unspecified0.92 score example, without turning it into92% probability, established function or benefit.
+
+Use identical geometry, glyphs, labels, counts and units in restrained warm light/dark palettes. Essential labels are37 or larger on780-unit canvases with heights no greater than1360, to fit the unchanged pinned5cb06c95 theater at393x700. Native detail links remain available.
+
+Construction scripts, source bodies/read receipts and QA screenshots are private aids, not prospective public payload. Public originals are the editable native pair, this original brief and minimal public-safe custody JSON. No image model or scientific model was invoked; no executable regeneration package is delivered.

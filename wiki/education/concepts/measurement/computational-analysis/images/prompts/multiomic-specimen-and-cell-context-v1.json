@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/245",
+  "title": "Multi-omic integration: connecting measurements with their context",
+  "learnerTask": "Retain specimen, cell location and measured versus imputed layers when reconciling RNA/protein.",
+  "creationMethod": "Original code-generated native SVG pair",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecuted": false,
+  "creationCommit": null,
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "ownerPreimageSHA256": "69be926ea00922a4b61f125bdbb462a31646ac8868c0e418562bcbad65a1cc76",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.txt",
+    "sha256": "e1600bf83aa05f1a5830a031c96bcbf70d0705f9d78c718486eb9533db81453e"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+      "sha256": "d102b9654181523f43b8eac662133db81c4103ba445b62c7d284b2bac046f905",
+      "bytes": 6282,
+      "width": 780,
+      "height": 1360,
+      "mediaType": "image/svg+xml"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+      "sha256": "4568b990a9767c41a68832ade3008e5067d226483670c9b4ad824d7222764a9e",
+      "bytes": 6282,
+      "width": 780,
+      "height": 1360,
+      "mediaType": "image/svg+xml"
+    }
+  },
+  "sourceSupport": [
+    {
+      "url": "https://doi.org/10.15252/msb.20178124",
+      "title": "Multi‐Omics Factor Analysis—a framework for unsupervised integration of multi‐omics data sets",
+      "readDepth": "selected primary sections",
+      "sectionsRead": "Abstract, synopsis and selected missing-value/imputation passages",
+      "scope": "Paired layers retain sample identity; imputation is computed rather than an observed Q measurement.",
+      "limits": "No executed MOFA model, imputed Q value or full-paper methods review."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment",
+      "title": "NCI: Biomarker Testing for Cancer Treatment",
+      "readDepth": "selected official passages",
+      "sectionsRead": "General heterogeneity paragraph; limitations on different cells and changes over time",
+      "scope": "Retain specimen/time and measurement limitations; biomarker signal does not ensure malignant-cell target availability or treatment benefit.",
+      "limits": "Fictional Target Q vessel localization comes from the exact owner example, not an NCI patient result; no treatment advice derived."
+    }
+  ],
+  "fictionAndLimits": "Keep specimen, cell identity/location, time and measured versus inferred/imputed layers explicit. RNA/protein disagreement or vessel-associated signal does not by itself prove malignant-cell target availability or function.",
+  "publicOriginals": "Editable native light/dark SVG, original construction brief and this minimal custody record. Private scripts, source bodies and render captures are excluded.",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending"
+}

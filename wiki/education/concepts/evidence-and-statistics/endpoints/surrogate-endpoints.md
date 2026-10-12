@@ -42,6 +42,14 @@ Two relationships need separate tests:
 
 The first can be useful [prognostic evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) without establishing the second. A treatment may affect the marker and also affect another pathway, toxicity or later disease. Validation therefore belongs to a particular disease, treatment context and intended outcome. The primary statistical framework distinguishes individual-level from trial-level relationships. [Buyse et al., 2000](https://pubmed.ncbi.nlm.nih.gov/12933525/).
 
+<img src="./images/people-and-randomized-treatment-effects-v1-light.svg" alt="Twenty fictional people grouped by pCR status have different event counts, while six fictional randomized trials have separate pCR and EFS rate differences" data-theme-pair width="600" height="1000">
+
+*Association among people and agreement between treatment effects are separate questions.*
+
+Start with the unit: a person above, a randomized A–B comparison below. Pathologic complete response (pCR) is the early tissue result; event-free survival (EFS) describes remaining free of the defined clinical events. The upper counts assume complete follow-up to a common three-year horizon. They group people by achieved pCR, rather than treatment assignment. Below, each point compares randomized arms: the difference in pCR rates and the difference in three-year EFS rates, both in percentage points. All numbers are invented; these are not CTNeoBC observations or its statistical model. [Primary two-level framework](https://pubmed.ncbi.nlm.nih.gov/12933525/), [CTNeoBC methods and interpretation](https://pubmed.ncbi.nlm.nih.gov/24529560/).
+
+**Read the picture:** Does the upper association establish that a treatment improving pCR will improve EFS? **Answer:** No. That needs the separate treatment-effect relationship in the relevant setting.
+
 ## Why it matters in cancer
 
 [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is assessed in tissue after treatment before surgery. The 2014 Collaborative Trials in Neoadjuvant Breast Cancer (CTNeoBC) pooled analysis included 11,955 patients from 12 breast-cancer trials. Achieving pCR was associated with better long-term outcomes, with a particularly strong association in aggressive subtypes. Yet the analysis could not validate changes in pCR rates between treatment groups as a surrogate for improved [event-free survival (EFS) or overall survival (OS)](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints). [Cortazar et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24529560/).

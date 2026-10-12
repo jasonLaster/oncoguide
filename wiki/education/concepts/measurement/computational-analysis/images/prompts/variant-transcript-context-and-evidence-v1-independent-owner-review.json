@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-107",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+  "currentOwnerSha256": "1062d5e612e0b4a75e2a6ed982ae9675279136517747b6632fa6bcf02da8fa13",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative/scientific content and code-SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent whole-package scientific and visual agent reviewer",
+  "reviewedAtUTC": "2026-10-12T22:42:15.263Z",
+  "verdict": "PASS",
+  "passed": true,
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "375471b2cb776783d2e5fc2f76f3d2549717e8c664d7429b661e4974348cbade",
+    "learnerTask": "Follow one genomic change through transcript-dependent annotation, prediction and relevant measurement.",
+    "gap": "No visual shows why the same genomic position maps differently across transcripts.",
+    "accuracyGuardrails": "Specify transcript context, prediction definition and relevant observation separately. A genomic coordinate, annotation label or model score is not an established functional effect or product benefit.",
+    "reasoning": "The same fictional genomic C-to-T positionx362 falls inside T1 exon307-468 and inside T2 intron247-420; genomic coordinate alignment and exon/intron legend are explicit. Annotation, task-specific splice prediction and relevant RNA observation remain separate. No real coordinate, validated effect or92% interpretation of the unspecified0.92 score. Original answered practice and added transcript retrieval both support the frozen task."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/246",
+    "originalTaskRowSHA256": "482926419fe83f94ad8e2f041fbc5053330fb5abae8a8dad5a101c9420076bc0"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+      "sha256": "35eaf6cfcb1fd765011b502a65258fc62a7e08cab3d9c7d4985a69e49d0cf739"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+      "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+        "sha256": "1062d5e612e0b4a75e2a6ed982ae9675279136517747b6632fa6bcf02da8fa13",
+        "bytes": 9391
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+        "sha256": "35eaf6cfcb1fd765011b502a65258fc62a7e08cab3d9c7d4985a69e49d0cf739",
+        "bytes": 4877
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+        "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03",
+        "bytes": 4877
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.txt",
+        "sha256": "7696cce2b1f1bc717f1450d3a96641a70e038c1e45c494f29549ee9ebaf8700a",
+        "bytes": 1665
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.json",
+        "sha256": "4d59e8b9fb4f97fbcb2b0379a79185b51546f27f123f3d7256affc42ac2d9856",
+        "bytes": 4174
+      }
+    ],
+    "imageModelCalls": 0,
+    "originalConstructionBriefPreserved": true,
+    "originalPublicProvenancePreserved": true
+  },
+  "ownerBinding": {
+    "packetOwnerSHA256": "1062d5e612e0b4a75e2a6ed982ae9675279136517747b6632fa6bcf02da8fa13",
+    "guardedCurrentSourceSHA256": "375471b2cb776783d2e5fc2f76f3d2549717e8c664d7429b661e4974348cbade",
+    "navigationRebound": false,
+    "rebindScope": "Only the generated Used in label changes; source/body/metadata/practice and reviewed art bytes remain unchanged. Root must use this bound owner or preserve these exact bytes during canonical integration."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://www.ensembl.org/info/genome/variation/prediction/predicted_data.html",
+      "readDepth": "direct official overlapping-transcript/allele definitions and qualitative impact categories",
+      "scope": "Redirected to jun2026 archive; no new release-specific completeness claim"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5707196/",
+      "readDepth": "primary abstract and directly retrieved selected in-silico/annotation paragraphs",
+      "scope": "Historical2017 somatic guideline: computational predictions are not sole evidence for classification or clinical decisions; HTML success after EuropePMC500 and web challenge"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36413997/",
+      "readDepth": "complete primary abstract",
+      "scope": "Specific missense-tool calibration within ACMG/AMP PP3/BP4 framework; no splice, somatic-benefit or raw-score universal probability validation"
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "unchangedFrozenTaskAndGuards": true,
+    "originalBodyAndMetadataPreserved": true,
+    "originalAnsweredPracticePreserved": true,
+    "nativePairLabelsGeometryCountsMatch": true,
+    "independentNativeAndCompactInlinePixelsInspected": true,
+    "mobileAndDesktopDefaultPreviewPixelsInspected": true,
+    "figureRenderStates": 8,
+    "articleFixtureStates": 4,
+    "minimumEssentialLabelPx": 16.365384615384613,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3"
+  },
+  "publicationPath": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1-independent-owner-review.json",
+  "limits": {
+    "canonicalAdoption": "pending",
+    "humanReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "coverageCreditAwarded": false,
+    "newCredit": 0,
+    "deliveryClaimed": false,
+    "publicationVerified": false,
+    "sourceDepth": "Selected passages and complete abstracts as stated; download or citation presence is not full-paper review.",
+    "renderScope": "Isolated exact-native browser renders and structural article/theater fixtures with unchanged pinned theater CSS;no live renderer route, React-event or production certification."
+  }
+}

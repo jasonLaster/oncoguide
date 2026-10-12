@@ -39,6 +39,17 @@ When events are rare in both groups, an OR can approximate a [risk ratio](/wiki/
 
 ## Worked example
 
+<div class="cartoon-frame">
+<img src="./images/same-counts-risk-and-odds-v1-light.svg" width="760" height="1320" alt="Two 100-person dot grids contain 40 and 20 responses, with separate full-group and dashed nonresponse denominators beside their risk and odds calculations." data-theme-pair>
+<p class="cartoon-caption">The solid frame counts all 100 people; the dashed frame counts only nonresponses. The same fictional 40/60 and 20/80 groups give a risk ratio of 2 and an odds ratio of about 2.67, without establishing a causal clinical effect.</p>
+</div>
+
+**Read the frames:** Which denominator gives group A’s response probability?
+
+**Answer:** The full 100-person frame: `40/100 = 40%`. The dashed 60-person nonresponse frame gives odds, `40/60`, a different quantity.
+
+The denominator definitions are also shown in the [CDC’s archived official epidemiology lesson, section 5](https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html); the counts here remain the page’s fictional example.
+
 In a fictional comparison with complete response assessment, 40 of 100 people in group A respond versus 20 of 100 in group B.
 
 | Measure | Calculation |

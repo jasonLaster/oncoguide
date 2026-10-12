@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-090",
+  "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+  "reviewedAtUTC": "2026-10-12T22:31:26Z",
+  "passedAtUTC": "2026-10-12T22:31:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "6590b63cd4c28cba6d9e1c15c7497775f3a9f621b398e50b380a8ff61a70db8f",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/189",
+    "originalTaskRowSHA256": "afa568bf3ca795c98df19dadf1dfe8624b2f47aa56ac5b2142e640a3f0ef33a5"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+    "baselinePageSHA256": "1ed630e645d7746deb0e1ab5a924255454acd74ae23d74233f615635208f53eb",
+    "learnerTask": "Apply the largest-passing-rank BH rule and distinguish a selected list from a per-hit truth probability.",
+    "gap": "No ranked p-value plot shows the step-up boundary or later passing rank.",
+    "accuracyGuardrails": "Apply the exact ranked toy p-values and largest-passing-rank BH rule. FDR is a repeated-procedure expectation for a selected list, not a truth probability assigned to each highlighted hit.",
+    "currentVisualFit": "adequate",
+    "reasoning": "Both original toy lists are plotted with their own labeled linear p-value ranges and correct affine coordinates. Their actual BH boundary lines use i/m×0.05. Recomputed largest passing ranks are 3 of 5 and 2 of 3; the second plot correctly includes rank 1 despite its own failed comparison. Selection colors, point values, rankings and boundary geometry agree in both themes. The retained practice/definition keeps FDR as E[V/R], with zero proportion when R=0, rather than a fixed realized fraction or per-hit truth probability. Independence and later dependence conditions are kept scoped. The entire frozen later-passing-rank and selected-list task is met.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
+      "sha256": "95540b30a9aa9d0b6e8e3e839721a8c68c8b581b0c0687fc30b6677fc38eb8ef"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-dark.svg",
+      "sha256": "7e85285a6e0be5564d8671454898ada0573022430c081e5861565387038a4a28"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+        "sha256": "6590b63cd4c28cba6d9e1c15c7497775f3a9f621b398e50b380a8ff61a70db8f",
+        "bytes": 6720
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
+        "sha256": "95540b30a9aa9d0b6e8e3e839721a8c68c8b581b0c0687fc30b6677fc38eb8ef",
+        "bytes": 8670
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-dark.svg",
+        "sha256": "7e85285a6e0be5564d8671454898ada0573022430c081e5861565387038a4a28",
+        "bytes": 8670
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+        "sha256": "d5fea464bc01594243de5e813af93357e02f620c7360d398ae2a0b58de035f88",
+        "bytes": 1172
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+        "sha256": "853869add162b3fec4587d30fef06ef183cea5212ab961515fd03c52e114e193",
+        "bytes": 3012
+      }
+    ],
+    "originalArtwork": "Exact complete owner, original TXT brief, original native light/dark pair and ordinary provenance JSON. Native construction/code/source bodies/execution/captures remain privately retained and are not publicly admitted by these hashes."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://www.math.tau.ac.il/~ybenja/MyPapers/benjamini_hochberg1995.pdf",
+      "depth": "Freshly acquired primary scan: PDFpages3–6/printed journal290–293 personally inspected for FDR convention, largest-passing-rank rule and stated independence theorem. No full13-page or appendix-proof review. Initial fresh web fetch timed out; direct HTTP acquisition succeeded with its own recorded time/hash."
+    },
+    {
+      "url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html",
+      "depth": "Selected official Details/References for BH/BY/FDR and general dependence distinction; no package execution or universal correlated-gene guarantee."
+    },
+    {
+      "url": "https://doi.org/10.1214/aos/1013699998",
+      "depth": "Primary publisher redirect returned an iframe wrapper only; no article body read. Original2001 citation retained without a new whole-paper claim."
+    }
+  ],
+  "sourceAccessLimits": {
+    "originalAuthorQualification": {
+      "actualRead": "BH1995 original author-hosted scan journalpp290–293, especially section2.1 expectation and section3.1 largest passing rank and independent-statistic theorem. Rstats official p.adjust Details/References also read.",
+      "webReceipt": "sourcesBH.web.json",
+      "localScans": [
+        "BH-page-03.png",
+        "BH-page-04.png",
+        "BH-page-05.png",
+        "BH-page-06.png"
+      ],
+      "limits": "Four scanned pages personally read; entire13page PDF not reviewed; no theorem proof or dependency guarantee extended."
+    },
+    "originalAuthorLimits": [
+      "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+      "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+      "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+    ],
+    "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+    "noSourceFiguresOrDatasetsCopied": true,
+    "noUniversalScientificClinicalOrRegulatoryApproval": true
+  },
+  "wholePackageReview": {
+    "sha256": "e2aef12d171d4b01b0c3b067188ce7142a4923b8dccac7545f7010e238c8369d",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "privateScope": "Whole package receipt, raw source material, scripts and captures remain private; hash is a lineage reference only."
+  },
+  "assignmentBinding": {
+    "private107PlanSHA256": "d812680988d129353ffdd1ff44a8b0a6c6c16f966690cfcd941ce0ca1153dd03",
+    "opportunitiesSHA256": "cc3481ca9ee6e43524b8e091d0f8149f4eb60527f94b9384790310de31705341",
+    "canonicalAssignmentAdoption": "pending",
+    "noPlanAcceptanceOrAdoptionSynthesized": true,
+    "commitCondition": "Root commits these actual review receipts only after canonical assignment adoption; this review performs no source/Git writes."
+  },
+  "checks": {
+    "fullOriginalOwnerTaskRead": true,
+    "originalTeachingExercisesSourceMetadataNavigationRetained": true,
+    "exactFiveFileCustodyVerified": true,
+    "pairedGeometryLabelsCountsAndLayoutMatch": true,
+    "originalFrozenTaskAndGuardrailStringsTypesMatch": true,
+    "personallyInspectedNativeBothThemesAnd393x700InlineDefaultModalAndDesktop": true,
+    "maintainedContentCheckerPassed": true,
+    "maintainedReleaseNewVisualReceiptFieldShapeVerifiedReadOnly": true
+  },
+  "publicationPath": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+  "pending": {
+    "assignmentAdoption": "pending canonical adoption by root; accepted private107plan is an assignment reference, not source registry adoption",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

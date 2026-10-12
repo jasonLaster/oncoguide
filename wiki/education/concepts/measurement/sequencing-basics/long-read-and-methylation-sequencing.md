@@ -39,6 +39,12 @@ A [sequencing read](/wiki/education/concepts/measurement/sequencing-basics/seque
 
 Amplifying unconverted DNA copies its sequence without faithfully copying the original methylation marks. By contrast, a conversion workflow encodes chemical-state information before amplification. Ask about preparation, retained instrument signals, modification model and controls, rather than inferring capability from a platform name.
 
+<img src="./images/long-sequence-and-mark-workflows-v1-light.svg" alt="A connected DNA molecule carries sequence features and a mark; native signals with a supported caller differ from amplified sequence copies, followed by eight marked calls among ten usable molecules." width="780" height="1350" data-theme-pair>
+
+*Connected sequence information and chemical-mark evidence depend on different workflow choices. Copied products of ordinary unconverted-DNA amplification do not faithfully copy original methylation marks; conversion can encode chemical state before amplification. The separate 8/10 example describes usable molecules at one site.*
+
+[Open the light diagram](./images/long-sequence-and-mark-workflows-v1-light.svg) · [Open the dark diagram](./images/long-sequence-and-mark-workflows-v1-dark.svg)
+
 ## Why it matters in cancer
 
 Long reads can help characterize structural changes or connect nearby variants. Methylation patterns can support questions about regulation or cell origin. Neither signal alone establishes that a gene is active, that a finding came from malignant cells, or that it predicts treatment benefit.

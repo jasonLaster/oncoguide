@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-104",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+  "currentOwnerSha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative/scientific content and code-SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent whole-package scientific and visual agent reviewer",
+  "reviewedAtUTC": "2026-10-12T22:42:15.263Z",
+  "verdict": "PASS",
+  "passed": true,
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "b9b6685200e6ed20280713871118c3cb98953bc43298114c74294c7672abb17e",
+    "learnerTask": "Carry eligible territory into mutation density",
+    "gap": "No numerator/denominator graphic",
+    "accuracyGuardrails": "Keep counted mutation rules and eligible megabase denominator attached to the method.24/2 versus24/1 Mb is density arithmetic, not a clinical threshold, interchangeable TMB assay or response guarantee.",
+    "reasoning": "Exactly24 inventory tokens carry no asserted genomic positions or shared variant identities. Eligible-territory horizontal extents are580 and290units for2Mb and1Mb, yielding12 and24mut/Mb with counting/calibration rules attached. Original authorized-test/clinical-setting caveats retained and reviewer checked FDA2026 sections1.18 and14.18. Fictional arithmetic does not establish eligibility or response."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/306",
+    "originalTaskRowSHA256": "b16ad3c2e60c5bb6adbae13569ad7e30620d90531e422b895232d4afd98e6ff8"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+      "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+      "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+        "sha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+        "bytes": 8095
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+        "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c",
+        "bytes": 8475
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+        "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a",
+        "bytes": 8475
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.txt",
+        "sha256": "4fd102430a2c38ff285d731b4e5e224f0f15c55cb1e7b7bbe8816bac52c1a9fa",
+        "bytes": 1461
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.json",
+        "sha256": "c8f699f667e3d0894523c7ec3712d215e8407ce23ff9fa7a8bd4a3b3efed8edf",
+        "bytes": 3509
+      }
+    ],
+    "imageModelCalls": 0,
+    "originalConstructionBriefPreserved": true,
+    "originalPublicProvenancePreserved": true
+  },
+  "ownerBinding": {
+    "packetOwnerSHA256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+    "guardedCurrentSourceSHA256": "b9b6685200e6ed20280713871118c3cb98953bc43298114c74294c7672abb17e",
+    "navigationRebound": false,
+    "rebindScope": "Only the generated Used in label changes; source/body/metadata/practice and reviewed art bytes remain unchanged. Root must use this bound owner or preserve these exact bytes during canonical integration."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://friendsofcancerresearch.org/wp-content/uploads/JITC_Establishing_guidelines_to_harmonize-TMB_2.pdf",
+      "readDepth": "selected original extracted Methods/in-silico dataset and denominator passages",
+      "scope": "Same MC3/TCGA exome data with differing panel regions/pipelines; no assay interchangeability"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+      "readDepth": "direct FDA PDF selected sections1.18 and14.18",
+      "scope": "Bounded TMB-H indication, authorized test, prior progression/no alternatives, accelerated status, pediatric CNS limitation and nonrandomized KEYNOTE-158; not early-TNBC selection"
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "unchangedFrozenTaskAndGuards": true,
+    "originalBodyAndMetadataPreserved": true,
+    "originalAnsweredPracticePreserved": true,
+    "nativePairLabelsGeometryCountsMatch": true,
+    "independentNativeAndCompactInlinePixelsInspected": true,
+    "mobileAndDesktopDefaultPreviewPixelsInspected": true,
+    "figureRenderStates": 8,
+    "articleFixtureStates": 4,
+    "minimumEssentialLabelPx": 16.365384615384613,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3"
+  },
+  "publicationPath": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1-independent-owner-review.json",
+  "limits": {
+    "canonicalAdoption": "pending",
+    "humanReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "coverageCreditAwarded": false,
+    "newCredit": 0,
+    "deliveryClaimed": false,
+    "publicationVerified": false,
+    "sourceDepth": "Selected passages and complete abstracts as stated; download or citation presence is not full-paper review.",
+    "renderScope": "Isolated exact-native browser renders and structural article/theater fixtures with unchanged pinned theater CSS;no live renderer route, React-event or production certification."
+  }
+}

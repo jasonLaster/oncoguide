@@ -1,0 +1,11 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/245
+Learner task: Retain specimen, cell location and measured versus imputed layers when reconciling RNA/protein.
+Original guardrails: Keep specimen, cell identity/location, time and measured versus inferred/imputed layers explicit. RNA/protein disagreement or vessel-associated signal does not by itself prove malignant-cell target availability or function.
+
+Preserve the original TargetQ worked example and existing reports-and-observations cartoon. Add an original mixed-tissue scene with normal vessel cells, a lumen and malignant cells. Place observed proteinQ markers chiefly inside normal vessel cells; malignant accessibleQ is explicitly unknown, not proven absent or surface-positive. Generic fictional specimenS/timeT1 forks to bulkRNA and tissueimage, paired at specimen level rather than identical cells. A separate dashed imputedQ panel is model-estimated, not measured, with no invented value or executed MOFA result. Another specimen/time is unpaired. Preserve specimen, location, time, measured versus computed status and uncertainty.
+
+Use identical geometry, glyphs, labels, counts and units in restrained warm light/dark palettes. Essential labels are37 or larger on780-unit canvases with heights no greater than1360, to fit the unchanged pinned5cb06c95 theater at393x700. Native detail links remain available.
+
+Construction scripts, source bodies/read receipts and QA screenshots are private aids, not prospective public payload. Public originals are the editable native pair, this original brief and minimal public-safe custody JSON. No image model or scientific model was invoked; no executable regeneration package is delivered.

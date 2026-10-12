@@ -1,0 +1,36 @@
+{
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "construction": "Code-generated original native SVG pair",
+  "imageModelCalls": 0,
+  "reportedImageModel": null,
+  "modelReporting": "No image model used; no model/call IDs exist",
+  "originalBrief": {
+    "file": "reversible-periods-and-lasting-overlap-v1.txt",
+    "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+    "bytes": 913
+  },
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "reversible-periods-and-lasting-overlap-v1-light.svg",
+      "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "bytes": 7415,
+      "width": 600,
+      "height": 1000
+    },
+    {
+      "theme": "dark",
+      "file": "reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "bytes": 7415,
+      "width": 600,
+      "height": 1000
+    }
+  ],
+  "sourceURLs": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK223329/?report=printable",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3784031/"
+  ],
+  "scope": "Fictional educational counts/times/estimates or chosen schematic sequence. No actual trial outcomes, personal forecast or treatment advice. Source/method limits remain in the full owner caption."
+}

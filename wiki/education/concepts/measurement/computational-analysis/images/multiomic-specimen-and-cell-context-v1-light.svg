@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1360" viewBox="0 0 780 1360" role="img" aria-labelledby="title desc"><title id="title">Keep specimen and cell location with each layer</title><desc id="desc">In the original fictional Target Q example, specimen S at time T1 supplies a bulk-RNA measurement and a protein image; they are paired at specimen level, not identical single-cell observations. The mixed sample includes normal vessel cells with Q protein seen mainly there, and malignant cells whose accessible target remains unresolved. A dashed imputed value is labeled as model-estimated, not measured. A separate different specimen or time is not a paired observation. No model or target assay was executed.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#4e6564"/></marker></defs>
+<rect x="0" y="0" width="780" height="1360" rx="0" fill="#faf4e9" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Track origin, location and evidence</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Fictional Target Q example</tspan></text>
+<rect x="24" y="145" width="732" height="280" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">1. Paired at specimen level</tspan></text>
+<text x="47" y="242" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">Specimen S • time T1</tspan></text>
+<path d="M220 266 L148 315" fill="none" stroke="#4e6564" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M320 266 L496 315" fill="none" stroke="#4e6564" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="70" y="367" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="70" dy="0">Bulk RNA:</tspan><tspan x="70" dy="45">Q abundant</tspan></text>
+<text x="412" y="367" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="412" dy="0">Tissue image:</tspan><tspan x="412" dy="45">Q location</tspan></text>
+<rect x="24" y="450" width="732" height="445" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="505" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">2. Locate the protein signal in cells</tspan></text>
+<ellipse cx="237" cy="670" rx="117" ry="116" fill="#c7dce4" stroke="#5c8ba1" stroke-width="3"/>
+<ellipse cx="237" cy="670" rx="64" ry="61" fill="#fffdf7" stroke="#5c8ba1" stroke-width="3"/>
+<circle cx="327.0" cy="670.0" r="24" fill="#fffdf7" stroke="#447b6b" stroke-width="4"/>
+<circle cx="327.0" cy="670.0" r="5.28" fill="#76518f"/>
+<circle cx="282.0" cy="747.9422863405995" r="24" fill="#fffdf7" stroke="#447b6b" stroke-width="4"/>
+<circle cx="282.0" cy="747.9422863405995" r="5.28" fill="#76518f"/>
+<circle cx="192.0" cy="747.9422863405995" r="24" fill="#fffdf7" stroke="#447b6b" stroke-width="4"/>
+<circle cx="192.0" cy="747.9422863405995" r="5.28" fill="#76518f"/>
+<circle cx="147.0" cy="670.0" r="24" fill="#fffdf7" stroke="#447b6b" stroke-width="4"/>
+<circle cx="147.0" cy="670.0" r="5.28" fill="#76518f"/>
+<circle cx="191.99999999999994" cy="592.0577136594005" r="24" fill="#fffdf7" stroke="#447b6b" stroke-width="4"/>
+<circle cx="191.99999999999994" cy="592.0577136594005" r="5.28" fill="#76518f"/>
+<circle cx="282.0" cy="592.0577136594005" r="24" fill="#fffdf7" stroke="#447b6b" stroke-width="4"/>
+<circle cx="282.0" cy="592.0577136594005" r="5.28" fill="#76518f"/>
+<circle cx="552" cy="612" r="33" fill="#fffdf7" stroke="#b58133" stroke-width="4"/>
+<text x="552" y="625" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="552" dy="0">?</tspan></text>
+<circle cx="626" cy="701" r="33" fill="#fffdf7" stroke="#b58133" stroke-width="4"/>
+<text x="626" y="714" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="626" dy="0">?</tspan></text>
+<circle cx="497" cy="737" r="33" fill="#fffdf7" stroke="#b58133" stroke-width="4"/>
+<text x="497" y="750" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="497" dy="0">?</tspan></text>
+<text x="48" y="837" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="48" dy="0">Normal vessel cells:</tspan><tspan x="48" dy="45">Q protein seen</tspan></text>
+<text x="433" y="837" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="433" dy="0">Malignant cells:</tspan><tspan x="433" dy="45">accessible Q?</tspan></text>
+<rect x="24" y="920" width="732" height="260" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="975" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">3. Measured or model-estimated?</tspan></text>
+<rect x="52" y="1014" width="667" height="54" rx="12" fill="none" stroke="#76518f" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="75" y="1052" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="75" dy="0">Imputed Q = model estimate</tspan></text>
+<text x="47" y="1139" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">Other specimen / time ≠ paired evidence.</tspan></text>
+<text x="40" y="1240" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Protein image ≠ RNA-cell location.</tspan><tspan x="40" dy="48">Malignant-cell accessible Q is unresolved.</tspan></text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Surrogate endpoints: the pCR paradox</title><desc id="desc">Separate marker/outcome association within people from agreement between randomized treatment effects. All new counts/times/statistical estimates are fictional teaching examples.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#f5efdd"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M-2 2 L2 -2 M0 10 L10 0 M8 12 L12 8" stroke="#18333e" stroke-width="2" opacity=".3"/></pattern></defs><rect width="600" height="1000" fill="#112432"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#f5efdd" text-anchor="start">Two questions, two units</text>
+<text x="28" y="86" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">All counts and plotted effects are fictional</text>
+<rect x="22" y="116" width="556" height="309" rx="14" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="157" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Within people: event by year 3</text>
+<text x="149" y="203" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="middle">pCR</text>
+<text x="445" y="203" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="middle">No pCR</text>
+<circle cx="62" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M62 246 L62 267 M50 255 L74 255 M62 267 L53 278 M62 267 L71 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="62" cy="256" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="105" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M105 246 L105 267 M93 255 L117 255 M105 267 L96 278 M105 267 L114 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="105" cy="256" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="148" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M148 246 L148 267 M136 255 L160 255 M148 267 L139 278 M148 267 L157 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="191" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M191 246 L191 267 M179 255 L203 255 M191 267 L182 278 M191 267 L200 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="234" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M234 246 L234 267 M222 255 L246 255 M234 267 L225 278 M234 267 L243 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="62" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M62 307 L62 328 M50 316 L74 316 M62 328 L53 339 M62 328 L71 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="105" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M105 307 L105 328 M93 316 L117 316 M105 328 L96 339 M105 328 L114 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="148" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M148 307 L148 328 M136 316 L160 316 M148 328 L139 339 M148 328 L157 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="191" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M191 307 L191 328 M179 316 L203 316 M191 328 L182 339 M191 328 L200 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="234" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M234 307 L234 328 M222 316 L246 316 M234 328 L225 339 M234 328 L243 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="358" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M358 246 L358 267 M346 255 L370 255 M358 267 L349 278 M358 267 L367 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="358" cy="256" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="401" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M401 246 L401 267 M389 255 L413 255 M401 267 L392 278 M401 267 L410 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="401" cy="256" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="444" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M444 246 L444 267 M432 255 L456 255 M444 267 L435 278 M444 267 L453 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="444" cy="256" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="487" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M487 246 L487 267 M475 255 L499 255 M487 267 L478 278 M487 267 L496 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="487" cy="256" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="530" cy="235" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M530 246 L530 267 M518 255 L542 255 M530 267 L521 278 M530 267 L539 278" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="530" cy="256" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="358" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M358 307 L358 328 M346 316 L370 316 M358 328 L349 339 M358 328 L367 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="358" cy="317" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<circle cx="401" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M401 307 L401 328 M389 316 L413 316 M401 328 L392 339 M401 328 L410 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="444" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M444 307 L444 328 M432 316 L456 316 M444 328 L435 339 M444 328 L453 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="487" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M487 307 L487 328 M475 316 L499 316 M487 328 L478 339 M487 328 L496 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="530" cy="296" r="8" fill="#dce8e9" stroke="#8ba7b2" stroke-width="2"/>
+<path d="M530 307 L530 328 M518 316 L542 316 M530 328 L521 339 M530 328 L539 339" fill="none" stroke="#8ba7b2" stroke-width="4" stroke-linecap="round"/>
+<text x="149" y="376" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">2 / 10 events</text>
+<text x="445" y="376" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">6 / 10 events</text>
+<circle cx="55" cy="405" r="6" fill="#e4bd74" stroke="#f5efdd" stroke-width="1"/>
+<text x="73" y="414" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Dot = event; each figure = person</text>
+<text x="28" y="467" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#f5efdd" text-anchor="start">Person association ≠ treatment effect</text>
+<rect x="22" y="495" width="556" height="478" rx="14" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="539" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Across randomized trials</text>
+<text x="42" y="580" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Each point = one A–B comparison</text>
+<text x="42" y="626" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">EFS rate difference (percentage points)</text>
+<path d="M160 864 L520 864" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="142" y="873" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="end">-10</text>
+<path d="M160 754 L520 754" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="142" y="763" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="end">0</text>
+<path d="M160 644 L520 644" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="142" y="653" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="end">+10</text>
+<path d="M160 644 L160 864" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="160" y="904" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">0</text>
+<path d="M340 644 L340 864" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="340" y="904" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">10</text>
+<path d="M520 644 L520 864" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="520" y="904" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">20</text>
+<circle cx="250" cy="688" r="9" fill="#95c0db" stroke="#f5efdd" stroke-width="2"/>
+<circle cx="304" cy="787" r="9" fill="#95c0db" stroke="#f5efdd" stroke-width="2"/>
+<circle cx="340" cy="732" r="9" fill="#95c0db" stroke="#f5efdd" stroke-width="2"/>
+<circle cx="376" cy="820" r="9" fill="#95c0db" stroke="#f5efdd" stroke-width="2"/>
+<circle cx="430" cy="710" r="9" fill="#95c0db" stroke="#f5efdd" stroke-width="2"/>
+<circle cx="484" cy="754" r="9" fill="#95c0db" stroke="#f5efdd" stroke-width="2"/>
+<text x="42" y="950" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">pCR rate difference (percentage points)</text>
+</svg>

@@ -1,0 +1,11 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/304
+Learner task: See high mean depth alongside a poorly observed position
+Original guardrails: Use the exact fictional per-position data and state coverage threshold, breadth and mean definitions. High mean depth can hide poorly observed sites; reads are not automatically independent molecules or clinical cutoffs.
+
+Use only the original supplied fictional data: mean100x, target1000bases,900at least20x, localposition4usableobservations. Compare mean statistic and local depth on a shared zero-based count scale, keeping their different scopes explicit. Show breadth900/1000=90% at20x and exactly four usable read glyphs at the highlighted site. Do not invent any other per-base depths, a location-by-location vector or an independent-molecule count. Counting filters and assay validity remain attached; no clinical cutoff.
+
+Use identical geometry, glyphs, labels, counts and units in restrained warm light/dark palettes. Essential labels are37 or larger on780-unit canvases with heights no greater than1360, to fit the unchanged pinned5cb06c95 theater at393x700. Native detail links remain available.
+
+Construction scripts, source bodies/read receipts and QA screenshots are private aids, not prospective public payload. Public originals are the editable native pair, this original brief and minimal public-safe custody JSON. No image model or scientific model was invoked; no executable regeneration package is delivered.

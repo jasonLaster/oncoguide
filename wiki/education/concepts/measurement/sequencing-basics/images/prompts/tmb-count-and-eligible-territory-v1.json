@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/306",
+  "title": "Tumor mutational burden",
+  "learnerTask": "Carry eligible territory into mutation density",
+  "creationMethod": "Original code-generated native SVG pair",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecuted": false,
+  "creationCommit": null,
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "ownerPreimageSHA256": "b9b6685200e6ed20280713871118c3cb98953bc43298114c74294c7672abb17e",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.txt",
+    "sha256": "4fd102430a2c38ff285d731b4e5e224f0f15c55cb1e7b7bbe8816bac52c1a9fa"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+      "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c",
+      "bytes": 8475,
+      "width": 780,
+      "height": 1210,
+      "mediaType": "image/svg+xml"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+      "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a",
+      "bytes": 8475,
+      "width": 780,
+      "height": 1210,
+      "mediaType": "image/svg+xml"
+    }
+  },
+  "sourceSupport": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-mutational-burden",
+      "title": "NCI Dictionary: tumor mutational burden",
+      "readDepth": "HTML shell plus separate rendered definition",
+      "sectionsRead": "HTML shell; complete short definition read using web tool",
+      "scope": "General TMB terminology only.",
+      "limits": "Captured HTML does not contain dynamic definition; see separate web read receipt. No current treatment-label appraisal."
+    },
+    {
+      "url": "https://friendsofcancerresearch.org/wp-content/uploads/JITC_Establishing_guidelines_to_harmonize-TMB_2.pdf",
+      "title": "Establishing guidelines to harmonize tumor mutational burden (TMB): in silico assessment of variation in TMB quantification across diagnostic platforms: phase I of the Friends of Cancer Research TMB Harmonization Project",
+      "readDepth": "selected primary sections",
+      "sectionsRead": "Introduction and Table 1, extracted from privately captured PDF",
+      "scope": "Eligible interrogated territory and counted mutation classes remain method-specific; density uses mutations per megabase.",
+      "limits": "No full-paper appraisal, threshold adoption, assay interchangeability or response guarantee; original FDA paragraph/citation preserved without new label verification."
+    }
+  ],
+  "fictionAndLimits": "Keep counted mutation rules and eligible megabase denominator attached to the method.24/2 versus24/1 Mb is density arithmetic, not a clinical threshold, interchangeable TMB assay or response guarantee.",
+  "publicOriginals": "Editable native light/dark SVG, original construction brief and this minimal custody record. Private scripts, source bodies and render captures are excluded.",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending"
+}

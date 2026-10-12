@@ -73,6 +73,12 @@ A negative report is a statement about tested regions, detectable change classes
 
 ## Try it
 
+<img src="./images/mean-breadth-and-local-depth-v1-light.svg" alt="The exact fictional mean of 100× and local depth of 4× share a scale; breadth is 900 of 1,000 bases at 20×, with four counted-read glyphs at one position." width="780" height="1320" data-theme-pair>
+
+*The report’s mean is 100×, breadth at its illustrative 20× criterion is 90%, and the position of interest has four usable observations. These summaries do not supply a full per-base profile or establish independent molecule counts; 20× is not a clinical recommendation.*
+
+[Open the light diagram](./images/mean-breadth-and-local-depth-v1-light.svg) · [Open the dark diagram](./images/mean-breadth-and-local-depth-v1-dark.svg)
+
 A fictional report has mean depth 100×. Of 1,000 target bases, 900 reach its illustrative reporting criterion of 20×; the position you care about has four usable observations.
 
 **Answer:** Breadth at that criterion is 90%. Mean depth does not establish adequate evidence at your position. The 20× rule is a fictional summary criterion, not a recommended diagnostic cutoff. Ask whether the assay supports the proposed claim there.

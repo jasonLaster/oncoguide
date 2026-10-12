@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/187",
+  "frozenRowPointer": "/187",
+  "frozenRowSHA256": "6f04bcf2945444bca027a0d85d78fefb483517ab5fe9588e9b2d61fae2758499",
+  "originalFrozenTask": {
+    "learnerTask": "Read a ROC curve and the pairwise ranking calculation separately from censored concordance.",
+    "gap": "The ROC-area concept has no ROC plot or observed-pair graphic.",
+    "accuracyGuardrails": "Keep score threshold ROC/ranking, pairwise AUC and censoring-aware concordance tasks distinct. Unknown censored orderings cannot be invented; ranking performance does not establish calibration or utility."
+  },
+  "sourceObservedCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "baselinePageSHA256": "36e2bc7c5fac5a2dbab73a3f6275f971e4b03d40cbe5f6de37a4cf030ae9fe46",
+  "construction": "Original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "generator": "private/construct.py",
+  "generatorSHA256": "a0b8e487c3658650e9b2c6b2b56309cb9d2d0103526f04a7fe70b7138e970852",
+  "generatorCustody": "Privately retained original construction code, not publicly delivered. SVGs are editable; no executable reproduction package promised.",
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/7063747/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3079915/"
+  ],
+  "sourceDepth": "Actual selected primary/official passages or primary abstracts; per-owner private lookup receipts identify exact reading depth, failures and custody. No whole-paper, clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies and reading/execution/capture receipts retained privately.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "briefSHA256": "82cacdc6ae6127ebb2498f9c808285e741f6e80a5a50dcd337707a1154f7637f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-light.svg",
+      "theme": "light",
+      "sha256": "640d1df1ecc25c2f585fb239155da7ea53ffc6870477650cf21dede9d268bbd5",
+      "bytes": 7596,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "284764d3b08fd980ea0648b9721a3f679f37397dc4ac6203a796ad4a34e6bb92",
+      "bytes": 7596,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Shared original geometry/text with palette substitution only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

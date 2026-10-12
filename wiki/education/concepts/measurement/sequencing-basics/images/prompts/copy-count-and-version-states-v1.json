@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/299",
+  "title": "Copy number and loss of heterozygosity (LOH)",
+  "learnerTask": "See copy count versus retained sequence versions",
+  "creationMethod": "Original code-generated native SVG pair",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecuted": false,
+  "creationCommit": null,
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "ownerPreimageSHA256": "f77a1258d4a44548447a70848917b6ef357131e6f19d9f23730404cf09034904",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/copy-count-and-version-states-v1.txt",
+    "sha256": "b6a344d4ef0c36c3f16484e67f7c2f849a92007278e0a7ca23688c02331c10d3"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+      "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6",
+      "bytes": 10687,
+      "width": 780,
+      "height": 1320,
+      "mediaType": "image/svg+xml"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+      "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3",
+      "bytes": 10687,
+      "width": 780,
+      "height": 1320,
+      "mediaType": "image/svg+xml"
+    }
+  },
+  "sourceSupport": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5027494/",
+      "title": "FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing",
+      "readDepth": "selected full-text sections",
+      "sectionsRead": "Introduction on joint total/allele-specific inference and copy-neutral LOH; informative-SNP discussion; Figure 1 total/minor-copy context",
+      "scope": "Same total copy count can accompany different retained versions; modeled allele-specific states remain distinct from function.",
+      "limits": "No whole-paper or assay-validation review claimed."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/",
+      "title": "Absolute quantification of somatic DNA alterations in human cancer",
+      "readDepth": "complete primary abstract",
+      "sectionsRead": "Complete abstract",
+      "scope": "Absolute-copy inference depends on purity/ploidy context; uniform A/B states are teaching fiction, not a measured cell census.",
+      "limits": "No whole-paper or assay-validation review claimed."
+    }
+  ],
+  "fictionAndLimits": "Distinguish total copies from allelic versions with the1+1 versus2+0 fiction. Copy-neutral LOH is not zero copies or automatic functional loss; major/minor labels need not identify a parental allele.",
+  "publicOriginals": "Editable native light/dark SVG, original construction brief and this minimal custody record. Private scripts, source bodies and render captures are excluded.",
+  "humanExpertReview": "pending",
+  "learnerReview": "pending"
+}

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Three separate evidence questions</title><desc id="desc">Parallel fictional scenes ask measurement accuracy with spiked reference/repeated reads, association with follow-up and clinical utility comparing a specified test-guided DrugA strategy with an alternative. The action comparison has no measured outcomes, not an inevitable step from association.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f1ecd9"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#edc585" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#152630"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="start">Match each claim to its evidence</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Parallel questions; fictional example</text>
+<rect x="24" y="142" width="712" height="300" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">1  Measurement: does it measure?</text>
+<path d="M85 237 L85 296 Q102 323 119 296 L119 237" fill="#dfc79f" stroke="#293743" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="81" y="228" width="42" height="13" rx="3" fill="#bfa9db" />
+<circle cx="102" cy="278" r="8" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<text x="48" y="398" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Spiked target</text>
+<path d="M157 280 L270 280" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+<path d="M319 239 L319 298 Q336 325 353 298 L353 239" fill="#dfc79f" stroke="#293743" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="315" y="230" width="42" height="13" rx="3" fill="#bfa9db" />
+<circle cx="336" cy="280" r="8" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<path d="M314 351 q10 -19 20 0 t20 0" fill="none" stroke="#bfa9db" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M472 239 L472 298 Q489 325 506 298 L506 239" fill="#dfc79f" stroke="#293743" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="468" y="230" width="42" height="13" rx="3" fill="#bfa9db" />
+<circle cx="489" cy="280" r="8" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<path d="M467 351 q10 -19 20 0 t20 0" fill="none" stroke="#bfa9db" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M625 239 L625 298 Q642 325 659 298 L659 239" fill="#dfc79f" stroke="#293743" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="621" y="230" width="42" height="13" rx="3" fill="#bfa9db" />
+<circle cx="642" cy="280" r="8" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<path d="M620 351 q10 -19 20 0 t20 0" fill="none" stroke="#bfa9db" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="277" y="398" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Compare repeat readings</text>
+<rect x="24" y="462" width="712" height="300" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="515" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">2  Meaning: what is associated?</text>
+<path d="M85 565 L85 624 Q102 651 119 624 L119 565" fill="#dfc79f" stroke="#293743" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="81" y="556" width="42" height="13" rx="3" fill="#bfa9db" />
+<text x="48" y="715" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Test result</text>
+<path d="M158 609 L438 609" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+<text x="220" y="565" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Follow up</text>
+<rect x="491" y="552" width="196" height="121" rx="10" fill="#38505a" stroke="#a8bcc0" stroke-width="2" />
+<path d="M491 580 L687 580" fill="none" stroke="#a8bcc0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="587" cy="626" r="18" fill="#e5a0ab" stroke="#f1ecd9" stroke-width="2" />
+<text x="463" y="715" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Later outcome</text>
+<rect x="24" y="782" width="712" height="388" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="835" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">3  Use: does the strategy help?</text>
+<text x="48" y="915" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">Positive → Drug A</text>
+<text x="48" y="1000" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">Defined alternative</text>
+<path d="M407 900 L505 900" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+<rect x="533" y="872" width="146" height="67" rx="8" fill="none" stroke="#edc585" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="606" y="920" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="middle">?</text>
+<path d="M407 985 L505 985" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+<rect x="533" y="957" width="146" height="67" rx="8" fill="none" stroke="#edc585" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="606" y="1005" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="middle">?</text>
+<text x="48" y="1089" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Outcomes and harms: not compared</text>
+<text x="48" y="1141" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">Association does not fill this gap.</text>
+<text x="48" y="1231" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">These questions need distinct evidence.</text>
+<text x="38" y="1300" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Association does not establish an action.</text>
+</svg>

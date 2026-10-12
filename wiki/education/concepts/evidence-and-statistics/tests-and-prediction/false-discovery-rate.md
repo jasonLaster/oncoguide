@@ -39,6 +39,11 @@ The original theorem establishes control under independence. Later results cover
 
 ## Worked example
 
+<div class="cartoon-frame">
+<img src="./images/ranked-p-values-and-step-up-selection-v1-light.svg" width="760" height="1320" alt="Two ranked p-value plots show the five-test selection through rank three and a three-test case where rank one fails its comparison but a later passing rank selects both first points." data-theme-pair>
+<p class="cartoon-caption">The top plot retains the five worked-example p-values; the bottom retains the three practice values. Each compares sorted p-values with its own BH boundary at q = 0.05. The bottom selects ranks 1 and 2 even though rank 1 fails its individual comparison; selection does not give each point a truth probability. The two plots use different labeled vertical ranges.</p>
+</div>
+
 Five fictional tests have sorted p-values 0.001, 0.008, 0.026, 0.080 and 0.200. With q = 0.05:
 
 | Rank | p-value | BH comparison value |

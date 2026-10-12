@@ -1,0 +1,35 @@
+{
+  "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md",
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "construction": "Code-generated original native SVG pair",
+  "imageModelCalls": 0,
+  "reportedImageModel": null,
+  "modelReporting": "No image model used; no model/call IDs exist",
+  "originalBrief": {
+    "file": "one-participant-two-endpoint-clocks-v1.txt",
+    "sha256": "856429bf7f72a7639195e7e521a589c69b6ddcb3142372c8af12ecc76dcc8364",
+    "bytes": 716
+  },
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "one-participant-two-endpoint-clocks-v1-light.svg",
+      "sha256": "93c2b9a06ff67d0f90a77670aa1b4349d17cc63b93bb648c7ab285c422d82806",
+      "bytes": 7745,
+      "width": 600,
+      "height": 1000
+    },
+    {
+      "theme": "dark",
+      "file": "one-participant-two-endpoint-clocks-v1-dark.svg",
+      "sha256": "07bb515399f5b9a43fc31bb51613f0b6f0e16729921e1843b1ea9506c529a34b",
+      "bytes": 7745,
+      "width": 600,
+      "height": 1000
+    }
+  ],
+  "sourceURLs": [
+    "https://www.fda.gov/media/71195/download"
+  ],
+  "scope": "Fictional educational counts/times/estimates or chosen schematic sequence. No actual trial outcomes, personal forecast or treatment advice. Source/method limits remain in the full owner caption."
+}

@@ -43,6 +43,12 @@ ClinGen's 2022 work calibrated evidence strengths for specific missense tools in
 
 **Clinical interpretation** then combines evidence for the intended question. A protein-damaging prediction does not distinguish every activating cancer mutation from a disabling change. Somatic interpretation guidance treats computational results as evidence to assess alongside other information, rather than a sufficient basis for a clinical decision. [2]
 
+<img src="./images/variant-transcript-context-and-evidence-v1-light.svg" alt="One fictional genomic change P aligns to an exon in transcript T1 and an intron in T2 with a different exon start, followed by separate annotation, prediction and RNA-observation questions." width="780" height="1310" data-theme-pair>
+
+*The genomic position is the same, but the reference transcript boundaries change its annotation. The layouts are fictional and carry no real coordinate or functional classification. A prediction must name its task and score scale; an appropriate RNA measurement addresses a different evidence question.*
+
+[Open the light diagram](./images/variant-transcript-context-and-evidence-v1-light.svg) · [Open the dark diagram](./images/variant-transcript-context-and-evidence-v1-dark.svg)
+
 ## Why it matters in cancer
 
 Prediction can help prioritize variants for further review. RNA junction evidence, functional experiments and clinical studies can address different gaps. None is interchangeable with a sequence score. See [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) for the further step from a finding to an evidence-supported clinical use.
@@ -72,6 +78,8 @@ A fictional report assigns a splice prediction of 0.92 to a variant in Gene R. T
 | Validation tier | A software output has no automatic clinical status; assess the laboratory's validated intended use separately |
 
 ## Try it
+
+At position P, why do T1 and T2 have different annotations? **Answer:** Their exon boundaries differ: P lies in an exon of T1 and an intron of T2. That reference mapping is separate from a modeled splice effect and from an RNA observation that tests the proposed change.
 
 Two reports repeat the same prediction from the same software version. Have you obtained two independent functional experiments?
 

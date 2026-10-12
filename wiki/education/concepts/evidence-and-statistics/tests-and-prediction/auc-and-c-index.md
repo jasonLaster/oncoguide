@@ -39,6 +39,11 @@ A **time-specific AUC** is another question: cases have the event by a defined t
 
 ## Worked example: binary ranking
 
+<div class="cartoon-frame">
+<img src="./images/observed-pairs-roc-and-censored-order-v1-light.svg" width="760" height="1320" alt="Four case/non-case score comparisons yield three correct rankings, an exact stepped ROC curve encloses area 0.75, and a separate timeline distinguishes an observed event at month two from censoring at month one with unknown later order." data-theme-pair>
+<p class="cartoon-caption">The four binary comparisons and step curve use only the existing fictional case scores 0.9/0.6 and non-case scores 0.7/0.2. Three of four pairs are ordered correctly, giving AUC 0.75. The separate A/B timeline uses the original survival example: B’s observation ends at month 1, so its event order relative to A at month 2 is unknown. That is a different task from binary ROC ranking.</p>
+</div>
+
 Two fictional cases receive scores 0.9 and 0.6; two non-cases receive 0.7 and 0.2. There are four case/non-case pairs. The 0.9 case outranks both non-cases; the 0.6 case outranks only 0.2. AUC is `3/4 = 0.75`.
 
 Squaring all four positive scores preserves their order, so AUC stays 0.75. Their numerical values change. If interpreted as probabilities, those values need separate [calibration](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration).

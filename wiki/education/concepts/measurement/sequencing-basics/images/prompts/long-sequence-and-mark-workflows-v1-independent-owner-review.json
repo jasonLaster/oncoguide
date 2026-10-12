@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-102",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/long-read-and-methylation-sequencing.md",
+  "currentOwnerSha256": "b3cb294c473c97dbe1d6895996ddce146316a71009c3ed2b06b6fa0e854f98e1",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative/scientific content and code-SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent whole-package scientific and visual agent reviewer",
+  "reviewedAtUTC": "2026-10-12T22:42:15.263Z",
+  "verdict": "PASS",
+  "passed": true,
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "d3f7a57f8885935dc303dc35e5a7a601e1588e66e5dd01ed13049c29a3ae8486",
+    "learnerTask": "Separate connected sequence information from retained chemical-mark evidence",
+    "gap": "No molecule/preparation/workflow contrast",
+    "accuracyGuardrails": "Separate connected sequence reads from retained chemical-mark measurement and the exact preparation/workflow. Long read length or a platform name does not prove methylation measurement; ordinary amplification can change what native marks remain available.",
+    "reasoning": "Two sequence features and a C mark share one fictional molecule. Native signal plus a supported modification model is separated from ordinary amplification products lacking faithfully copied native marks; conversion before amplification remains qualified in caption/body. Exactly eight marked and two unmarked usable-molecule glyphs yield80% at one site, not confidence, malignant-cell proportion or silenced-gene fraction. Original answered practice retained."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/301",
+    "originalTaskRowSHA256": "99a57d8d7dadfbaa4cb289706b8dd0a5a0f591bec87879dc711a4df11dd7a03c"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-light.svg",
+      "sha256": "e705627ed153655c5a1bfdf72148e19d339239ce79ce035163f9a7390c74482e"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+      "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/long-read-and-methylation-sequencing.md",
+        "sha256": "b3cb294c473c97dbe1d6895996ddce146316a71009c3ed2b06b6fa0e854f98e1",
+        "bytes": 8646
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-light.svg",
+        "sha256": "e705627ed153655c5a1bfdf72148e19d339239ce79ce035163f9a7390c74482e",
+        "bytes": 10663
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+        "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3",
+        "bytes": 10663
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/long-sequence-and-mark-workflows-v1.txt",
+        "sha256": "830076d2a5bd129ec074aea76a54b28f24b6d5fe30b87937c74f93a57bafcea0",
+        "bytes": 1782
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/long-sequence-and-mark-workflows-v1.json",
+        "sha256": "942e084e27825530e05ec3a4852036cb9a7f62693fee459047ce2a4a41dc2bfd",
+        "bytes": 4413
+      }
+    ],
+    "imageModelCalls": 0,
+    "originalConstructionBriefPreserved": true,
+    "originalPublicProvenancePreserved": true
+  },
+  "ownerBinding": {
+    "packetOwnerSHA256": "b3cb294c473c97dbe1d6895996ddce146316a71009c3ed2b06b6fa0e854f98e1",
+    "guardedCurrentSourceSHA256": "d3f7a57f8885935dc303dc35e5a7a601e1588e66e5dd01ed13049c29a3ae8486",
+    "navigationRebound": false,
+    "rebindScope": "Only the generated Used in label changes; source/body/metadata/practice and reviewed art bytes remain unchanged. Root must use this bound owner or preserve these exact bytes during canonical integration."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://www.nature.com/articles/nbt.4060",
+      "readDepth": "complete primary abstract",
+      "scope": "GM12878 human reference experiment; long-read assembly/phasing utility, no universal clinical tumor guarantee"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28218898/",
+      "readDepth": "complete primary abstract",
+      "scope": "Current-sensitive5mC and trained HMM; not sequence letters alone"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33495335/",
+      "readDepth": "complete primary abstract",
+      "scope": "SMRT kinetic model trained with amplified and methylated controls; specific model scope"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1542678/",
+      "readDepth": "complete primary abstract",
+      "scope": "Bisulfite conversion precedes PCR and encodes modified-cytosine information"
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "unchangedFrozenTaskAndGuards": true,
+    "originalBodyAndMetadataPreserved": true,
+    "originalAnsweredPracticePreserved": true,
+    "nativePairLabelsGeometryCountsMatch": true,
+    "independentNativeAndCompactInlinePixelsInspected": true,
+    "mobileAndDesktopDefaultPreviewPixelsInspected": true,
+    "figureRenderStates": 8,
+    "articleFixtureStates": 4,
+    "minimumEssentialLabelPx": 16.365384615384613,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3"
+  },
+  "publicationPath": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/long-sequence-and-mark-workflows-v1-independent-owner-review.json",
+  "limits": {
+    "canonicalAdoption": "pending",
+    "humanReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "coverageCreditAwarded": false,
+    "newCredit": 0,
+    "deliveryClaimed": false,
+    "publicationVerified": false,
+    "sourceDepth": "Selected passages and complete abstracts as stated; download or citation presence is not full-paper review.",
+    "renderScope": "Isolated exact-native browser renders and structural article/theater fixtures with unchanged pinned theater CSS;no live renderer route, React-event or production certification."
+  }
+}

@@ -46,6 +46,14 @@ Distant recurrence-free **survival** can count any-cause death, unlike the STEEP
 
 The clock can begin at randomization, consent, surgery or a biomarker assessment. KEYNOTE-522 used [pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) and EFS as co-primary endpoints; renaming its EFS result IDFS changes the claim. A postoperative cohort's clock is another comparison.
 
+<img src="./images/one-participant-two-endpoint-clocks-v1-light.svg" alt="One fictional participant has objective progression at month12 and dies at month30; the PFS clock stops at progression while the OS clock continues to death from the same randomization origin" data-theme-pair width="600" height="1000">
+
+*The same event can stop one endpoint clock while another continues.*
+
+For this illustration, both clocks start at randomization. Overall survival (OS) counts death from any cause. Progression-free survival (PFS) counts the first objective progression or death. The participant has progression in month 12 and dies in month 30. The dashed later course belongs to the same known history; it is not a censoring mark or a survival-probability estimate. Other endpoints and protocols require their own origins, qualifying events and assessment rules. [FDA definitions](https://www.fda.gov/media/71195/download).
+
+**Read the clocks:** Which one stops at month 12? **Answer:** PFS. Progression qualifies for PFS; the participant is still alive, so OS continues.
+
 ## What is measured
 
 | Reading question | Information needed |

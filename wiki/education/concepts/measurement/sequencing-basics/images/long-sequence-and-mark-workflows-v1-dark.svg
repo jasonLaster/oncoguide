@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1350" viewBox="0 0 780 1350" role="img" aria-labelledby="title desc"><title id="title">Connected sequence and chemical marks are different evidence</title><desc id="desc">An illustrative long DNA molecule connects two sequence features and carries a cytosine mark. Native instrument signal plus a supported modification model may recover mark evidence. Ordinary amplification of unconverted DNA copies the sequence without faithfully copying original methylation marks; the copied products omit the mark. A separate fictional native-DNA assay calls eight of ten usable molecules methylated at one site, giving 80 percent of usable molecules, not malignant cells or gene silencing.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c0d0ca"/></marker></defs>
+<rect x="0" y="0" width="780" height="1350" rx="0" fill="#192b2f" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Sequence and mark evidence</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Fictional molecule and native-DNA result</tspan></text>
+<rect x="24" y="145" width="732" height="255" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">1. Two features on one molecule</tspan></text>
+<path d="M80 284 Q212.0 267 368.0 284 T680 284" fill="none" stroke="#9fcadd" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M182.0 276 L182.0 292" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M290.0 276 L290.0 292" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M421.99999999999994 276 L421.99999999999994 292" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M548.0 276 L548.0 292" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="200" cy="284" r="12" fill="#c4a2d5"/>
+<circle cx="577" cy="284" r="12" fill="#c4a2d5"/>
+<circle cx="365" cy="253" r="18" fill="#e4bd7c"/>
+<path d="M365 271 L365 284" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="143" y="352" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="143" dy="0">Feature 1</tspan></text>
+<text x="489" y="352" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="489" dy="0">Feature 2</tspan></text>
+<text x="430" y="249" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="430" dy="0">C mark</tspan></text>
+<rect x="24" y="425" width="732" height="530" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="480" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">2. Follow retained evidence</tspan></text>
+<text x="48" y="527" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Native DNA + signal + mark model</tspan></text>
+<path d="M70 594 Q116.2 577 170.8 594 T280 594" fill="none" stroke="#9fcadd" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M105.7 586 L105.7 602" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M143.5 586 L143.5 602" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M189.7 586 L189.7 602" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M233.8 586 L233.8 602" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="175" cy="565" r="14" fill="#e4bd7c"/>
+<path d="M175 579 L175 594" fill="none" stroke="#e4bd7c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M302 594 L376 594" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<ellipse cx="418" cy="572" rx="26" ry="34" fill="#614e6d" stroke="#c4a2d5" stroke-width="3"/>
+<ellipse cx="418" cy="618" rx="26" ry="34" fill="#614e6d" stroke="#c4a2d5" stroke-width="3"/>
+<path d="M466 596 Q483 564 500 597 T535 597 T570 597 T605 597 T641 597" fill="none" stroke="#95c9b4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="419" y="679" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="middle"><tspan x="419" dy="0">Mark calls need a supported model.</tspan></text>
+<text x="48" y="748" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Unconverted DNA amplification</tspan></text>
+<path d="M71 814 Q116.1 797 169.39999999999998 814 T276 814" fill="none" stroke="#9fcadd" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M105.85 806 L105.85 822" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M142.75 806 L142.75 822" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M187.85 806 L187.85 822" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M230.9 806 L230.9 822" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="171" cy="785" r="14" fill="#e4bd7c"/>
+<path d="M171 799 L171 814" fill="none" stroke="#e4bd7c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M298 814 H342 M342 814 L384 789 M342 814 L384 850" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M410 790 Q467.2 773 534.8 790 T670 790" fill="none" stroke="#9fcadd" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M454.2 782 L454.2 798" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M501.0 782 L501.0 798" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M558.2 782 L558.2 798" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M612.8 782 L612.8 798" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M410 856 Q467.2 839 534.8 856 T670 856" fill="none" stroke="#9fcadd" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M454.2 848 L454.2 864" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M501.0 848 L501.0 864" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M558.2 848 L558.2 864" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M612.8 848 L612.8 864" fill="none" stroke="#223a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="922" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Sequence copied; native marks not copied.</tspan></text>
+<rect x="24" y="980" width="732" height="275" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="1035" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">3. A separate native-DNA assay</tspan></text>
+<path d="M66 1115 L101 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="83.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M133 1115 L168 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="150.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M200 1115 L235 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="217.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M267 1115 L302 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="284.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M334 1115 L369 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="351.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M401 1115 L436 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="418.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M468 1115 L503 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="485.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M535 1115 L570 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="552.5" cy="1091" r="11" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="3"/>
+<path d="M602 1115 L637 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="619.5" cy="1091" r="11" fill="#223a3e" stroke="#c0d0ca" stroke-width="3"/>
+<path d="M669 1115 L704 1115" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="686.5" cy="1091" r="11" fill="#223a3e" stroke="#c0d0ca" stroke-width="3"/>
+<text x="47" y="1191" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">8 / 10 = 80% of usable molecules</tspan></text>
+<text x="40" y="1306" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Molecule fraction ≠ gene silencing.</tspan></text>
+</svg>

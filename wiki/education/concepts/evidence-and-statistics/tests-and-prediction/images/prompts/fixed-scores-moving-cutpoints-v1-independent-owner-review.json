@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-091",
+  "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+  "reviewedAtUTC": "2026-10-12T22:31:26Z",
+  "passedAtUTC": "2026-10-12T22:31:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "19e4c4f9270a177ea576445fc28241ec4d95d8594cfeb619a872e864198edee3",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/191",
+    "originalTaskRowSHA256": "a80f9c6e8ea7953df96680a9d32807a9287d950757320d04b053142f439d880b"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+    "baselinePageSHA256": "09140d649476426b83198c3fcdec75ab4cada0d0647911de742ed8f8ac90be18",
+    "learnerTask": "See threshold movement change true/false calls without changing underlying measurements.",
+    "gap": "The two classification rules are tabulated but the continuous scores and shifted line are absent.",
+    "accuracyGuardrails": "Keep underlying fictional measurements and reference classes fixed while moving cutpoints. Derive displayed confusion counts from those points; a threshold is not universally validated or clinically beneficial.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The two scenes preserve the same four reference-present triangular scores and six reference-absent circular scores at exact unchanged x coordinates. Moving the ≥ line from0.7 to0.4 yields TP/FP/FN/TN 2/1/2/5 versus3/3/1/3, with the retained sensitivity/specificity/PPV table matching these counts. Reference classes remain separate from score-based calls; equality, direction and fictional status are explicit. The retained exercise does not equate finding fewer missed conditions with a better treatment action. Both themes show fixed observations and moved cutpoints, completing the full frozen measurement-versus-classification task without declaring a universal validated or useful cutoff.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-light.svg",
+      "sha256": "4dfa12f7cb6da71bc4c51f09d55e1089f7f5619e03900a58e4f2eaf6fb559e02"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-dark.svg",
+      "sha256": "c087ae5e4cebd2dcfed6300bf42da82a20bb3d639b09e2f4de6a81f11054e04c"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+        "sha256": "19e4c4f9270a177ea576445fc28241ec4d95d8594cfeb619a872e864198edee3",
+        "bytes": 7633
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-light.svg",
+        "sha256": "4dfa12f7cb6da71bc4c51f09d55e1089f7f5619e03900a58e4f2eaf6fb559e02",
+        "bytes": 9046
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-dark.svg",
+        "sha256": "c087ae5e4cebd2dcfed6300bf42da82a20bb3d639b09e2f4de6a81f11054e04c",
+        "bytes": 9046
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+        "sha256": "edfda6c1a44d95832e9bd8b65b4d25fd1940e90f8bcb62ae8c3ea5d6caea315c",
+        "bytes": 1138
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+        "sha256": "2dd5a9b0ab7a4142880aba12967ccf9cba9104aa323ee2b7fed2b44d53910b08",
+        "bytes": 3056
+      }
+    ],
+    "originalArtwork": "Exact complete owner, original TXT brief, original native light/dark pair and ordinary provenance JSON. Native construction/code/source bodies/execution/captures remain privately retained and are not publicly admitted by these hashes."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda",
+      "depth": "Selected2007 official reference-condition/sensitivity/specificity definitions and calculation context, lines172–181,430–462; no source dataset or validated cutoff imported."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1458573/",
+      "depth": "Primary indexed optimal-cutpoint warning excerpt only; direct later find returned a challenge, core record metadata only and XML500. No new full-body read claimed."
+    }
+  ],
+  "sourceAccessLimits": {
+    "originalAuthorQualification": {
+      "actualRead": "FDA2007 official diagnostic guidance selected introduction/reference-standard and sensitivity/specificity definitions.",
+      "webReceipt": "sourcesA.web.json",
+      "limits": "Cutpoints article metadata only, no abstract, XML500; no new data-selected-cutpoint claim added."
+    },
+    "originalAuthorLimits": [
+      "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+      "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+      "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+    ],
+    "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+    "noSourceFiguresOrDatasetsCopied": true,
+    "noUniversalScientificClinicalOrRegulatoryApproval": true
+  },
+  "wholePackageReview": {
+    "sha256": "e2aef12d171d4b01b0c3b067188ce7142a4923b8dccac7545f7010e238c8369d",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "privateScope": "Whole package receipt, raw source material, scripts and captures remain private; hash is a lineage reference only."
+  },
+  "assignmentBinding": {
+    "private107PlanSHA256": "d812680988d129353ffdd1ff44a8b0a6c6c16f966690cfcd941ce0ca1153dd03",
+    "opportunitiesSHA256": "cc3481ca9ee6e43524b8e091d0f8149f4eb60527f94b9384790310de31705341",
+    "canonicalAssignmentAdoption": "pending",
+    "noPlanAcceptanceOrAdoptionSynthesized": true,
+    "commitCondition": "Root commits these actual review receipts only after canonical assignment adoption; this review performs no source/Git writes."
+  },
+  "checks": {
+    "fullOriginalOwnerTaskRead": true,
+    "originalTeachingExercisesSourceMetadataNavigationRetained": true,
+    "exactFiveFileCustodyVerified": true,
+    "pairedGeometryLabelsCountsAndLayoutMatch": true,
+    "originalFrozenTaskAndGuardrailStringsTypesMatch": true,
+    "personallyInspectedNativeBothThemesAnd393x700InlineDefaultModalAndDesktop": true,
+    "maintainedContentCheckerPassed": true,
+    "maintainedReleaseNewVisualReceiptFieldShapeVerifiedReadOnly": true
+  },
+  "publicationPath": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+  "pending": {
+    "assignmentAdoption": "pending canonical adoption by root; accepted private107plan is an assignment reference, not source registry adoption",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

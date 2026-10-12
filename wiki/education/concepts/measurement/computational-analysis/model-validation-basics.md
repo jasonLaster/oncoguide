@@ -75,6 +75,15 @@ A score tested in advanced disease may fail after surgery or with a changed trea
 
 ## Try it
 
+<div class="cartoon-frame">
+<img src="./images/donors-cells-and-held-out-interventions-v1-light.svg" width="760" height="1320" alt="Three paired fitting/tuning and locked-test partitions show shared donor identities with different cell glyphs, distinct reserved donors, and intervention X used for development while intervention Y’s response remains reserved." data-theme-pair>
+<p class="cartoon-caption">These small fictional scenes illustrate identity separation rather than the full 20-donor exercise below. Different cells from D1/D2 leave both donors shared. Reserving D3/D4 asks a new-donor question; reserving intervention Y’s response across fitting and tuning asks an unseen-intervention question. Neither diagram asserts performance, universal split proportions or absence of every possible leak.</p>
+</div>
+
+**Read the intervention split:** Does withholding more cells exposed to X establish prediction of Y’s response?
+
+**Answer:** No. Y’s response must be reserved across fitting and tuning for that question. Retain the donor, batch and intervention relationships too.
+
 A fictional dataset contains cells from 20 donors. Each donor's cells are split between training and testing. Can the result establish performance on new donors?
 
 **Answer:** No. The model already encountered every donor. Reserve donors across all development choices for that question, retain batch relationships, and evaluate the intended task. The original split may address a narrower within-donor question.

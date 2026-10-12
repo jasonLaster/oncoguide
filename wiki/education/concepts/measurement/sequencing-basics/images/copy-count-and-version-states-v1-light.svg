@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1320" viewBox="0 0 780 1320" role="img" aria-labelledby="title desc"><title id="title">Copies and versions are different</title><desc id="desc">Idealized uniform modeled region states contrast 1+1 copies of A and B with 2+0 copies of A only; both total two. Separate copy-loss 1+0 and gain 2+1 states have totals one and three. A and B are arbitrary versions, not parental assignments or functional states. Ribbon glyphs represent region copies, not whole genomes or replicated chromatids.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#4e6564"/></marker></defs>
+<rect x="0" y="0" width="780" height="1320" rx="0" fill="#faf4e9" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Count copies; identify versions</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Fictional uniform states at one region</tspan></text>
+<rect x="24" y="145" width="732" height="410" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">1. Two copies; one or two versions</tspan></text>
+<text x="215" y="254" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="215" dy="0">1 + 1</tspan></text>
+<ellipse cx="215" cy="373" rx="143" ry="105" fill="#c7dce4" stroke="#5c8ba1" stroke-width="3"/>
+<path d="M117 339 Q148.46 322 185.64 339 T260 339" fill="none" stroke="#447b6b" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M141.31 331 L141.31 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M167.05 331 L167.05 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M198.51 331 L198.51 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M228.54000000000002 331 L228.54000000000002 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="283" y="352" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="283" dy="0">A</tspan></text>
+<path d="M117 407 Q148.46 390 185.64 407 T260 407" fill="none" stroke="#76518f" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M141.31 399 L141.31 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M167.05 399 L167.05 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M198.51 399 L198.51 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M228.54000000000002 399 L228.54000000000002 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="283" y="420" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="283" dy="0">B</tspan></text>
+<text x="215" y="527" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="215" dy="0">Total: 2 copies</tspan></text>
+<text x="570" y="254" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="570" dy="0">2 + 0</tspan></text>
+<ellipse cx="570" cy="373" rx="143" ry="105" fill="#c7dce4" stroke="#5c8ba1" stroke-width="3"/>
+<path d="M472 339 Q503.46 322 540.64 339 T615 339" fill="none" stroke="#447b6b" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M496.31 331 L496.31 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M522.05 331 L522.05 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M553.51 331 L553.51 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M583.54 331 L583.54 347" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="638" y="352" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="638" dy="0">A</tspan></text>
+<path d="M472 407 Q503.46 390 540.64 407 T615 407" fill="none" stroke="#447b6b" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M496.31 399 L496.31 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M522.05 399 L522.05 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M553.51 399 L553.51 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M583.54 399 L583.54 415" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="638" y="420" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="638" dy="0">A</tspan></text>
+<text x="570" y="527" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="570" dy="0">Total: 2 copies</tspan></text>
+<rect x="24" y="580" width="732" height="235" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="635" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">2. Copy loss: 1 + 0 = 1</tspan></text>
+<path d="M115 697 Q163.4 680 220.6 697 T335 697" fill="none" stroke="#447b6b" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M152.4 689 L152.4 705" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M192.0 689 L192.0 705" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M240.39999999999998 689 L240.39999999999998 705" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M286.6 689 L286.6 705" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="358" y="710" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="358" dy="0">A</tspan></text>
+<rect x="113" y="741" width="222" height="20" rx="10" fill="none" stroke="#c8d0c5" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="358" y="760" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="358" dy="0">–</tspan></text>
+<text x="481" y="706" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="481" dy="0">One copy</tspan><tspan x="481" dy="45">remains</tspan></text>
+<rect x="24" y="840" width="732" height="310" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="895" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">3. Copy gain: 2 + 1 = 3</tspan></text>
+<path d="M115 954 Q163.4 937 220.6 954 T335 954" fill="none" stroke="#447b6b" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M152.4 946 L152.4 962" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M192.0 946 L192.0 962" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M240.39999999999998 946 L240.39999999999998 962" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M286.6 946 L286.6 962" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="358" y="967" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="358" dy="0">A</tspan></text>
+<path d="M115 1020 Q163.4 1003 220.6 1020 T335 1020" fill="none" stroke="#447b6b" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M152.4 1012 L152.4 1028" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M192.0 1012 L192.0 1028" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M240.39999999999998 1012 L240.39999999999998 1028" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M286.6 1012 L286.6 1028" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="358" y="1033" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="358" dy="0">A</tspan></text>
+<path d="M115 1086 Q163.4 1069 220.6 1086 T335 1086" fill="none" stroke="#76518f" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M152.4 1078 L152.4 1094" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M192.0 1078 L192.0 1094" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M240.39999999999998 1078 L240.39999999999998 1094" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M286.6 1078 L286.6 1094" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="358" y="1099" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="358" dy="0">B</tspan></text>
+<text x="460" y="1009" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="460" dy="0">Three copies;</tspan><tspan x="460" dy="45">both versions</tspan></text>
+<text x="40" y="1210" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Copy count does not establish function.</tspan><tspan x="40" dy="48">Major/minor ranks do not name a parent.</tspan></text>
+</svg>

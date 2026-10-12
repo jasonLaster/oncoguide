@@ -1,0 +1,11 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/306
+Learner task: Carry eligible territory into mutation density
+Original guardrails: Keep counted mutation rules and eligible megabase denominator attached to the method.24/2 versus24/1 Mb is density arithmetic, not a clinical threshold, interchangeable TMB assay or response guarantee.
+
+Show exactly24 eligible-mutation tokens in an inventory rather than at asserted genomic positions. Each fictional workflow counts24; identities are unspecified. Draw the two eligible territories2Mb and1Mb at the same scale and compute12 and24mut/Mb. Do not convert the arithmetic into a clinical positivity threshold, interchangeable assay, authorized-test result, immune-recognition count or response guarantee.
+
+Use identical geometry, glyphs, labels, counts and units in restrained warm light/dark palettes. Essential labels are37 or larger on780-unit canvases with heights no greater than1360, to fit the unchanged pinned5cb06c95 theater at393x700. Native detail links remain available.
+
+Construction scripts, source bodies/read receipts and QA screenshots are private aids, not prospective public payload. Public originals are the editable native pair, this original brief and minimal public-safe custody JSON. No image model or scientific model was invoked; no executable regeneration package is delivered.

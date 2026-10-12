@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-095",
+  "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+  "author": "root",
+  "authorRole": "canonical integration only; literal preserved from independently accepted private107 plan",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T22:32:03.936Z",
+  "reviewedAtLocal": "2026-10-12T15:32:03.936-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "8d593f39f7efec3130ca2f2c434c37080117bf9dc46d1d248024cbedab2636a2",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-light.svg",
+      "sha256": "2799a97b4e644ddae434a9f549235ade78cd5cf684c07cdbbc7c7e54fb919eec",
+      "bytes": 10539
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-dark.svg",
+      "sha256": "9a3445b333ad8b111c37c788bdb3f352b28f9273798eb9df691b6e578dc5aae3",
+      "bytes": 10539
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "536bb88f05d3c5ded6e0014eecb22cbd1336b5293a34e87b9799f82ee7129c33",
+    "learnerTask": "Separate marker/outcome association within people from agreement between randomized treatment effects.",
+    "gap": "The two-level surrogate-validation relationship is only a table.",
+    "accuracyGuardrails": "Separate within-person marker/outcome association from between-trial randomized-effect surrogacy. Use explicitly fictional plots or checked data; individual pCR prognosis does not prove a treatment-effect surrogate or forecast one person.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The upper unit is one person, grouped by achieved pCR with complete fictional three-year follow-up and 2/10 versus6/10 event counts; the lower unit is one randomized A–B comparison with pCR-rate and three-year EFS-rate differences in percentage points. Fictional observations are explicitly distinct from CTNeoBC data/model. An answered prompt rejects transferring person association into treatment-effect surrogacy or an individual's forecast. Both original variants are readable in fresh actual pinned React mobile393×700 inline/default-preview and desktop1280×900 carrier captures; tall desktop inline content requires scrolling."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/169",
+    "originalTaskRowSHA256": "55c4d4ece59cfed3aecbd85dc8d2caa5488e4c950a37468fa721a0f6a2aba002"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+        "sha256": "8d593f39f7efec3130ca2f2c434c37080117bf9dc46d1d248024cbedab2636a2",
+        "bytes": 9259
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-light.svg",
+        "sha256": "2799a97b4e644ddae434a9f549235ade78cd5cf684c07cdbbc7c7e54fb919eec",
+        "bytes": 10539
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-dark.svg",
+        "sha256": "9a3445b333ad8b111c37c788bdb3f352b28f9273798eb9df691b6e578dc5aae3",
+        "bytes": 10539
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/people-and-randomized-treatment-effects-v1.txt",
+        "sha256": "82f5d18e664268ed8d288a5dbce746b2e1868053fbc7ab023808586cc1b78cd5",
+        "bytes": 837
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/people-and-randomized-treatment-effects-v1-provenance.json",
+        "sha256": "a2b6799ab67955481c5adbdb62472cb5169151d74c85a77182f942c0b72660db",
+        "bytes": 1391
+      }
+    ],
+    "construction": "Original code-generated native SVG pair; six original briefs and provenance kept separate",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image model used; no model identifier inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "Buyse2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12933525/",
+      "actualReadDepth": "Complete primary abstract only, web returned lines239–242; not full text",
+      "featureAndScope": "Distinct individual-level and trial-level agreement measures",
+      "accessAndReviewLimits": [
+        "Cortazar PubMed web result contained no useful article text; not counted as successful abstract reading. Author-hosted original paper freshly accessible instead.",
+        "Higgins DOI and PMC/EuropePMC web rendered pages failed or returned reCAPTCHA. Retained failure responses sealed; fresh EuropePMC XML HTTP fetch succeeded, with actual request/retrieval timestamps recorded.",
+        "Web tool response receipts have no original request wall time. Their capture/seal time is recorded honestly; no reconstructed retrieval timestamp."
+      ]
+    },
+    {
+      "source": "CTNeoBC2014",
+      "url": "https://unclineberger.org/peroulab/wp-content/uploads/sites/1008/2015/04/pCR-endpoint-FDA-Cortazar-LANCET-2014.pdf",
+      "actualReadDepth": "Selected primary PDF text: outcome/responder methods printedpage2 lines155–203; trial-level methods printedpage3 lines262–293; trial-levelresults/figurecaption text lines775–794; Discussion distinction lines880–891 and933–952. No whole-paper, supplement or figure-pixel claim.",
+      "featureAndScope": "Responder grouping does not preserve randomized comparison; actual trial analysis uses logOR/logHR, while new drawing explicitly uses fictional point differences.",
+      "accessAndReviewLimits": [
+        "Cortazar PubMed web result contained no useful article text; not counted as successful abstract reading. Author-hosted original paper freshly accessible instead.",
+        "Higgins DOI and PMC/EuropePMC web rendered pages failed or returned reCAPTCHA. Retained failure responses sealed; fresh EuropePMC XML HTTP fetch succeeded, with actual request/retrieval timestamps recorded.",
+        "Web tool response receipts have no original request wall time. Their capture/seal time is recorded honestly; no reconstructed retrieval timestamp."
+      ]
+    }
+  ],
+  "sourceReviewScope": "Fresh primary/official checks of consequential new visual/caption claims, with actual read depths and access failures below; unchanged scientific teaching retained, not re-approved. Bounded source reviewers are identified by whole-package private custody.",
+  "retainedExercises": {
+    "inverseRestoresCompleteOriginalOwnerBytes": true,
+    "metadataPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "deviceScaleFactor": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "states": [
+      "original native",
+      "inline",
+      "default preview"
+    ],
+    "scope": "Fresh isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with exact byte-verified pinned sources. Declared carrier layout variables, main860px maximum/24px padding/Arial and local asset API. Tall desktop inline figures require scrolling; full-element captures are distinguished from viewport captures. No full app routes/navigation/auth/live deployment or human approval."
+  },
+  "inheritedCarrierTableContrast": "Existing dark table headers and survival-table code literals are not accepted as readable in this fixture; missing complete application palette means actual app/table contrast must be verified at integration. This is not a new native figure correction.",
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; Root may commit only after actual107 adoption",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-099",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+  "author": "root",
+  "authorRole": "canonical integration only; literal preserved from independently accepted private107 plan",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T22:32:03.936Z",
+  "reviewedAtLocal": "2026-10-12T15:32:03.936-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "bytes": 8636
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "bytes": 8636
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "af75ea0bb3d59a0d7826574076b80fff030a9aff0bb152b99bcb149e9f1f76b5",
+    "learnerTask": "Locate the original plan, access to results and later cutoff search on a timeline.",
+    "gap": "No visual locates when the12-cutoff search was chosen.",
+    "accuracyGuardrails": "Show when the plan and cutoff search were chosen relative to data access. Prespecified exploratory work is not automatically confirmatory; a discovered threshold needs an appropriate independent test.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The original dated primary EFS and exploratory subgroup roles precede results access. All12 later searched cutoffs remain visible; the selected smallest-p mark is hypothetical with no threshold coordinates or supplied p-values. A locked cutoff for an appropriate independent comparison remains a future test, while planned exploratory and confirmatory roles remain distinct. Both original variants are readable in fresh actual pinned React mobile393×700 inline/default-preview and desktop1280×900 carrier captures; tall desktop inline content requires scrolling."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/181",
+    "originalTaskRowSHA256": "5686101ca8c9bb36775fb8ca4aaff2d9a19a1aa8ad691b9995d46812871dfdc5"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+        "sha256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+        "bytes": 8306
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+        "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+        "bytes": 8636
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+        "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+        "bytes": 8636
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+        "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+        "bytes": 746
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+        "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+        "bytes": 1443
+      }
+    ],
+    "construction": "Original code-generated native SVG pair; six original briefs and provenance kept separate",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image model used; no model identifier inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "FDA-multiple",
+      "url": "https://www.fda.gov/media/162416/download",
+      "actualReadDepth": "FDA2022 PDFpages8–10/printed5–7 specification,multiplicity,after-unmasking caution,hierarchy and exploratory-family passages; fresh web lines226–301 and frozen PDF/text corresponding passages personally read.",
+      "featureAndScope": "FDA drug-trial endpoint guidance",
+      "accessAndReviewLimits": "Not whole guidance or fresh CONSORT/Sun review; cutoff markers are schematic rather than measured thresholds and no significance/hypothesis model was validated."
+    }
+  ],
+  "sourceReviewScope": "Fresh primary/official checks of consequential new visual/caption claims, with actual read depths and access failures below; unchanged scientific teaching retained, not re-approved. Bounded source reviewers are identified by whole-package private custody.",
+  "retainedExercises": {
+    "inverseRestoresCompleteOriginalOwnerBytes": true,
+    "metadataPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "deviceScaleFactor": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "states": [
+      "original native",
+      "inline",
+      "default preview"
+    ],
+    "scope": "Fresh isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with exact byte-verified pinned sources. Declared carrier layout variables, main860px maximum/24px padding/Arial and local asset API. Tall desktop inline figures require scrolling; full-element captures are distinguished from viewport captures. No full app routes/navigation/auth/live deployment or human approval."
+  },
+  "inheritedCarrierTableContrast": "Existing dark table headers and survival-table code literals are not accepted as readable in this fixture; missing complete application palette means actual app/table contrast must be verified at integration. This is not a new native figure correction.",
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; Root may commit only after actual107 adoption",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

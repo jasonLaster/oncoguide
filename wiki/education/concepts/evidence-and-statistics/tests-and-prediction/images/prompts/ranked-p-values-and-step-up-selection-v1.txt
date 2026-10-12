@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction; zero image-model calls, model null.
+
+Useexact5p[.001,.008,.026,.080,.200] and3p[.018,.030,.060] withBHboundi/m*.05, largestpassingk3and2. Displayallpointvalues/ranks, comparisonlines, laterpassingrank andselectionallthroughk. Clearlydifferentlinearyranges. No per-hittruth, dependencyextension orfixedrealizedfalsefraction.
+
+Frozen learner task: Apply the largest-passing-rank BH rule and distinguish a selected list from a per-hit truth probability.
+Frozen gap: No ranked p-value plot shows the step-up boundary or later passing rank.
+Frozen guardrails: Apply the exact ranked toy p-values and largest-passing-rank BH rule. FDR is a repeated-procedure expectation for a selected list, not a truth probability assigned to each highlighted hit.
+
+Two themes share exact geometry, labels, quantities and uncertainty. Warm pale/light ground and quiet deep/dark ground; restrained matching glyphs. Essential labels at least36 nativepx to aim16px in393x700 inline/default-preview. Private generator/source/capture receipts are not publicly delivered; SVG remains editable, without a delivered executable reproduction package.

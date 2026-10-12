@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-106",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+  "currentOwnerSha256": "747c2650d4f3cf9f24259e63e5e751d5f148224d767197daeaf4596d9dd8a2af",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative/scientific content and code-SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent whole-package scientific and visual agent reviewer",
+  "reviewedAtUTC": "2026-10-12T22:42:15.263Z",
+  "verdict": "PASS",
+  "passed": true,
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "69be926ea00922a4b61f125bdbb462a31646ac8868c0e418562bcbad65a1cc76",
+    "learnerTask": "Retain specimen, cell location and measured versus imputed layers when reconciling RNA/protein.",
+    "gap": "Existing cartoon explains repeated reports, but not target Q in mixed cells or paired versus unpaired specimens.",
+    "accuracyGuardrails": "Keep specimen, cell identity/location, time and measured versus inferred/imputed layers explicit. RNA/protein disagreement or vessel-associated signal does not by itself prove malignant-cell target availability or function.",
+    "reasoning": "SpecimenS/timeT1 pairs bulk RNA and an image at specimen level. Protein markers lie in schematic normal vessel cells; malignant accessibleQ remains question-mark unknown. RNA-producing cell identity is not inferred from that protein image. ImputedQ remains a model estimate without a value or executed result; separate specimen/time is not paired. Original cartoon, TargetQ example and batch-confounding exercise retained, with added answered retrieval."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/245",
+    "originalTaskRowSHA256": "4a083ac1969a0a082bd4527885728ab4d92c5f8fa21d5eac2187bbea351eabd0"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+      "sha256": "d102b9654181523f43b8eac662133db81c4103ba445b62c7d284b2bac046f905"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+      "sha256": "4568b990a9767c41a68832ade3008e5067d226483670c9b4ad824d7222764a9e"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+        "sha256": "747c2650d4f3cf9f24259e63e5e751d5f148224d767197daeaf4596d9dd8a2af",
+        "bytes": 10037
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+        "sha256": "d102b9654181523f43b8eac662133db81c4103ba445b62c7d284b2bac046f905",
+        "bytes": 6282
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+        "sha256": "4568b990a9767c41a68832ade3008e5067d226483670c9b4ad824d7222764a9e",
+        "bytes": 6282
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.txt",
+        "sha256": "e1600bf83aa05f1a5830a031c96bcbf70d0705f9d78c718486eb9533db81453e",
+        "bytes": 1810
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.json",
+        "sha256": "942e06802d4424f630783239dcef3e96c369e391c0b7a9cb7f70c7378e7df8a4",
+        "bytes": 3476
+      }
+    ],
+    "imageModelCalls": 0,
+    "originalConstructionBriefPreserved": true,
+    "originalPublicProvenancePreserved": true
+  },
+  "ownerBinding": {
+    "packetOwnerSHA256": "dda093568a2f1b8872f07c570abd7b26df87bdc26b2fbd872d10d116404a7a4f",
+    "guardedCurrentSourceSHA256": "470ff8cf756cb368175e884edb63928de444f1c1d222353debbe9f6db9cd930b",
+    "navigationRebound": true,
+    "rebindScope": "Only the generated Used in label changes; source/body/metadata/practice and reviewed art bytes remain unchanged. Root must use this bound owner or preserve these exact bytes during canonical integration."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://doi.org/10.15252/msb.20178124",
+      "readDepth": "primary abstract/synopsis and selected imputation/framework paragraph",
+      "scope": "MOFA biological/technical factors and computed missing values; no executedQ prediction"
+    },
+    {
+      "url": "https://doi.org/10.1038/nbt.2931",
+      "readDepth": "complete primary abstract",
+      "scope": "Library/preparation effects beyond depth normalization; reviewer read beyond author title-only scope"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment",
+      "readDepth": "selected official heterogeneity and temporal-limitation paragraphs",
+      "scope": "Molecular match does not ensure benefit; fictional vesselQ location is from owner, not a clinical observation"
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "unchangedFrozenTaskAndGuards": true,
+    "originalBodyAndMetadataPreserved": true,
+    "originalAnsweredPracticePreserved": true,
+    "nativePairLabelsGeometryCountsMatch": true,
+    "independentNativeAndCompactInlinePixelsInspected": true,
+    "mobileAndDesktopDefaultPreviewPixelsInspected": true,
+    "figureRenderStates": 8,
+    "articleFixtureStates": 4,
+    "minimumEssentialLabelPx": 16.365384615384613,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3"
+  },
+  "publicationPath": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1-independent-owner-review.json",
+  "limits": {
+    "canonicalAdoption": "pending",
+    "humanReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "coverageCreditAwarded": false,
+    "newCredit": 0,
+    "deliveryClaimed": false,
+    "publicationVerified": false,
+    "sourceDepth": "Selected passages and complete abstracts as stated; download or citation presence is not full-paper review.",
+    "renderScope": "Isolated exact-native browser renders and structural article/theater fixtures with unchanged pinned theater CSS;no live renderer route, React-event or production certification."
+  }
+}

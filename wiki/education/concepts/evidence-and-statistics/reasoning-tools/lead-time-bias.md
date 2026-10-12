@@ -39,6 +39,12 @@ A post-treatment molecular result creates a related problem. People can be label
 
 Two other screening biases are different. **Length bias** favors detecting conditions with longer detectable preclinical periods. **Overdiagnosis** means detecting disease that would not have caused clinical harm in the person's lifetime. Neither is merely another name for lead-time bias. Do not assume their magnitude in a post-treatment molecular-monitoring cohort from screening examples alone.
 
+<img src="./images/earlier-detection-same-outcome-date-v1-light.svg" alt="Aligned fictional timelines move detection from year4 to year3, keep death at year6 and lengthen survival measured from detection from two years to three" data-theme-pair width="600" height="1000">
+
+*The start moved earlier; the outcome date stayed fixed.*
+
+Trace the blue interval in each row. Both end at the same year-six death, but the earlier test starts its interval in year three rather than year four. That adds one recorded year without adding a year of life. The stopwatch is a symbol for measuring an interval; its hands are not a time-of-day reading. This is the existing fictional example, not a screening-study result. It isolates lead-time bias; length bias and overdiagnosis remain different questions. [NCI explanation](https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean).
+
 ## Why it matters in cancer
 
 A long detection lead time may be valuable for research planning. It does not identify the right treatment or show that treatment at that time improves health. Finding more signals, changing plans or lengthening survival measured from those signals is insufficient by itself to establish benefit.

@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction; zero image-model calls, model null.
+
+Draw twenty explicit numbered test drawers versus one reportedp.03; no drawer outcome truth assignment. Compute1−.95^m for m1,5,20 underindependence/all-null/validindividualtests. Bonferroni .05/20=.0025. DistinguishFWER/FDR/per-hittruth and avoid clinical importance or dependence guarantees.
+
+Frozen learner task: See how a larger search changes the probability of at least one false rejection under explicit independence.
+Frozen gap: No visualization locates the family of tests or separates selected findings from all tests.
+Frozen guardrails: State the toy independence/null assumptions for family-wise calculations. At least one false rejection, false-discovery rate and probability that an individual finding is false are distinct quantities.
+
+Two themes share exact geometry, labels, quantities and uncertainty. Warm pale/light ground and quiet deep/dark ground; restrained matching glyphs. Essential labels at least36 nativepx to aim16px in393x700 inline/default-preview. Private generator/source/capture receipts are not publicly delivered; SVG remains editable, without a delivered executable reproduction package.

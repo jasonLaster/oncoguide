@@ -1,0 +1,35 @@
+{
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+  "sourceBaseCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "construction": "Code-generated original native SVG pair",
+  "imageModelCalls": 0,
+  "reportedImageModel": null,
+  "modelReporting": "No image model used; no model/call IDs exist",
+  "originalBrief": {
+    "file": "earlier-detection-same-outcome-date-v1.txt",
+    "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+    "bytes": 600
+  },
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "earlier-detection-same-outcome-date-v1-light.svg",
+      "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "bytes": 7746,
+      "width": 600,
+      "height": 1000
+    },
+    {
+      "theme": "dark",
+      "file": "earlier-detection-same-outcome-date-v1-dark.svg",
+      "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "bytes": 7746,
+      "width": 600,
+      "height": 1000
+    }
+  ],
+  "sourceURLs": [
+    "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean"
+  ],
+  "scope": "Fictional educational counts/times/estimates or chosen schematic sequence. No actual trial outcomes, personal forecast or treatment advice. Source/method limits remain in the full owner caption."
+}

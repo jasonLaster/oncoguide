@@ -1,0 +1,11 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/299
+Learner task: See copy count versus retained sequence versions
+Original guardrails: Distinguish total copies from allelic versions with the1+1 versus2+0 fiction. Copy-neutral LOH is not zero copies or automatic functional loss; major/minor labels need not identify a parental allele.
+
+Draw original separate region-copy ribbons, not replicated chromosome X shapes. Show the exact table states 1+1=2, 2+0=2, 1+0=1 and 2+1=3. A/B are arbitrary sequence-version labels, never healthy/damaged or maternal/paternal assignments. Uniform modeled states are fictional, not a bulk-cell census. Count, retained version and biological function remain distinct.
+
+Use identical geometry, glyphs, labels, counts and units in restrained warm light/dark palettes. Essential labels are37 or larger on780-unit canvases with heights no greater than1360, to fit the unchanged pinned5cb06c95 theater at393x700. Native detail links remain available.
+
+Construction scripts, source bodies/read receipts and QA screenshots are private aids, not prospective public payload. Public originals are the editable native pair, this original brief and minimal public-safe custody JSON. No image model or scientific model was invoked; no executable regeneration package is delivered.

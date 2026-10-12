@@ -31,6 +31,11 @@ The analogy has limits. Cancer tests may detect a molecule, classify a tumor or 
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/parallel-measurement-meaning-and-use-v1-light.svg" width="760" height="1320" alt="Three parallel evidence scenes show a spiked sample and repeat readings, a test result followed by outcome observation, and two strategy paths ending in unanswered outcome comparisons for Drug A versus an alternative." data-theme-pair>
+<p class="cartoon-caption">The parallel scenes ask about measurement, clinical association and a test-guided strategy separately. A reproducible spiked target and later-outcome association do not compare Drug A after a positive result with the defined alternative. The unanswered outcome boxes show that missing comparison, not an inevitable validation ladder or a treatment recommendation.</p>
+</div>
+
 **Analytical validity** concerns measurement performance. Can the stated workflow detect or measure its intended feature with acceptable error? Evaluate accuracy, repeatability, interference, failure rates and [limits of detection and quantitation](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation). Validation is specific to the specimen, analyte, input, workflow and software version. Performance in prepared material may not transfer to damaged clinical specimens.
 
 **Clinical validity** concerns the result's relationship to a defined clinical condition or outcome. Does a positive call identify the condition, or does a score predict later recurrence in the relevant population? Attach disease stage, treatment, specimen timing, endpoint and follow-up. Missing specimens and exclusions can select a different analyzed group from the people for whom the claim is advertised. Independent validation matters, especially for models whose features or thresholds were chosen using outcomes.

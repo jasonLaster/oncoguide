@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/166",
+  "frozenRowPointer": "/166",
+  "frozenRowSHA256": "eb4170959379544102389249c979343791b76bf6ad3c7e8dd42d41711f263f1f",
+  "originalFrozenTask": {
+    "learnerTask": "See how a larger search changes the probability of at least one false rejection under explicit independence.",
+    "gap": "No visualization locates the family of tests or separates selected findings from all tests.",
+    "accuracyGuardrails": "State the toy independence/null assumptions for family-wise calculations. At least one false rejection, false-discovery rate and probability that an individual finding is false are distinct quantities."
+  },
+  "sourceObservedCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "baselinePageSHA256": "aea842105db82f3a338afa3bc9d41849b14ee72db1f05eefd74d047ebaf0bee0",
+  "construction": "Original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "generator": "private/construct.py",
+  "generatorSHA256": "a0b8e487c3658650e9b2c6b2b56309cb9d2d0103526f04a7fe70b7138e970852",
+  "generatorCustody": "Privately retained original construction code, not publicly delivered. SVGs are editable; no executable reproduction package promised.",
+  "sourceURLs": [
+    "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+    "https://www.fda.gov/media/162416/download"
+  ],
+  "sourceDepth": "Actual selected primary/official passages or primary abstracts; per-owner private lookup receipts identify exact reading depth, failures and custody. No whole-paper, clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies and reading/execution/capture receipts retained privately.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "briefSHA256": "4b56e49f4d5f5c6829dc529ffcb1d4d655b4cee7239753494b33f4bc97859a8a",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+      "theme": "light",
+      "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48",
+      "bytes": 9942,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627",
+      "bytes": 9942,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Shared original geometry/text with palette substitution only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

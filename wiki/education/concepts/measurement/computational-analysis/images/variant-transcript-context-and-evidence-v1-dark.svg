@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1310" viewBox="0 0 780 1310" role="img" aria-labelledby="title desc"><title id="title">One genomic position, two transcript contexts</title><desc id="desc">At a fictional genomic position P the same C-to-T change lies inside an exon of schematic transcript T1 and inside an intron of T2 with a different exon start. Tracks share genomic coordinates and do not depict mature RNA distance. Annotation locates the change; prediction names a model task and scale; an appropriate RNA measurement addresses a proposed splice effect. No actual variant, model score, measured effect or benefit is produced.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c0d0ca"/></marker></defs>
+<rect x="0" y="0" width="780" height="1310" rx="0" fill="#192b2f" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">One change, two transcript maps</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Fictional genomic layouts</tspan></text>
+<rect x="24" y="145" width="732" height="565" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">1. Map P onto each transcript</tspan></text>
+<text x="48" y="246" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Same genomic change: P (C → T)</tspan></text>
+<path d="M147 302 L680 302" fill="none" stroke="#9fcadd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="362" cy="302" r="13" fill="#ecac95"/>
+<text x="364" y="282" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="364" dy="0">P</tspan></text>
+<text x="54" y="432" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="54" dy="0">T1</tspan></text>
+<path d="M145 415 L680 415" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="145" y="398" width="102" height="36" rx="4" fill="#405d6c" stroke="#9fcadd" stroke-width="2" />
+<rect x="307" y="398" width="161" height="36" rx="4" fill="#405d6c" stroke="#9fcadd" stroke-width="2" />
+<rect x="577" y="398" width="103" height="36" rx="4" fill="#405d6c" stroke="#9fcadd" stroke-width="2" />
+<text x="489" y="496" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="489" dy="0">P in exon</tspan></text>
+<text x="54" y="570" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="54" dy="0">T2</tspan></text>
+<path d="M145 553 L680 553" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="145" y="536" width="102" height="36" rx="4" fill="#405d6c" stroke="#9fcadd" stroke-width="2" />
+<rect x="420" y="536" width="48" height="36" rx="4" fill="#405d6c" stroke="#9fcadd" stroke-width="2" />
+<rect x="577" y="536" width="103" height="36" rx="4" fill="#405d6c" stroke="#9fcadd" stroke-width="2" />
+<text x="489" y="634" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="489" dy="0">P in intron</tspan></text>
+<path d="M362 321 L362 587" fill="none" stroke="#ecac95" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<text x="48" y="679" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Bars = exons; connecting lines = introns.</tspan></text>
+<rect x="24" y="735" width="732" height="385" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="790" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">2. Test a proposed splice effect</tspan></text>
+<text x="48" y="834" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Annotation: where is the change?</tspan><tspan x="48" dy="76">Splice model: could joining change?</tspan><tspan x="48" dy="76">RNA assay: test the proposed joins</tspan></text>
+<text x="40" y="1203" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">A score needs its model’s task and scale.</tspan><tspan x="40" dy="48">Predicted effect does not establish benefit.</tspan></text>
+</svg>

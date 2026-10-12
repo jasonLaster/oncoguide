@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction; zero image-model calls, model null.
+
+Lock4present[.2,.55,.75,.9],6absent[.1,.25,.35,.45,.6,.8]. Repeatidenticalpointcoordinates/referenceclasses, move≥cutfrom.7to.4; deriveTPFPFNTN2/1/2/5 vs3/3/1/3. Equalitypositive; nooptimized/validated/beneficialcutoff.
+
+Frozen learner task: See threshold movement change true/false calls without changing underlying measurements.
+Frozen gap: The two classification rules are tabulated but the continuous scores and shifted line are absent.
+Frozen guardrails: Keep underlying fictional measurements and reference classes fixed while moving cutpoints. Derive displayed confusion counts from those points; a threshold is not universally validated or clinically beneficial.
+
+Two themes share exact geometry, labels, quantities and uncertainty. Warm pale/light ground and quiet deep/dark ground; restrained matching glyphs. Essential labels at least36 nativepx to aim16px in393x700 inline/default-preview. Private generator/source/capture receipts are not publicly delivered; SVG remains editable, without a delivered executable reproduction package.

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-097",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+  "author": "root",
+  "authorRole": "canonical integration only; literal preserved from independently accepted private107 plan",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T22:32:03.936Z",
+  "reviewedAtLocal": "2026-10-12T15:32:03.936-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "bytes": 8157
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "bytes": 8157
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "2656dba310ec41a3c1ddf77a70dd6dc84522e099aa62b8b98dac286545c9cc65",
+    "learnerTask": "Read study estimates, weights, pooled mean and heterogeneity without confusing mean precision with consistency.",
+    "gap": "A meta-analysis concept has no forest plot.",
+    "accuracyGuardrails": "Label effect scale, fictional weight model, pooled mean and heterogeneity/prediction interval separately. A precise pooled mean is not consistent effects or universal transportability, and I² is not a fraction of studies that are wrong.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The distinct five-study toy dataset keeps one endpoint, day30 clock and score-point scale. Equal study standard errors and specified random-effects variance produce equal20% weights and equal square areas; individual intervals, mean diamond and separate prediction line are displayed on one linear no-effect-zero axis. Approximate methods, five-study uncertainty, heterogeneity units and study-effect rather than personal prediction remain explicit. Original supplied two-study averaging weights remain separate. Both original variants are readable in fresh actual pinned React mobile393×700 inline/default-preview and desktop1280×900 carrier captures; tall desktop inline content requires scrolling."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/182",
+    "originalTaskRowSHA256": "835f5182217bb02ac908e3fe6a4d5aa8b422943d3c6ab1ebb9f5cf097f9df980"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+        "sha256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+        "bytes": 8815
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+        "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+        "bytes": 8157
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+        "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+        "bytes": 8157
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+        "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+        "bytes": 1264
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+        "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+        "bytes": 1420
+      }
+    ],
+    "construction": "Original code-generated native SVG pair; six original briefs and provenance kept separate",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image model used; no model identifier inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "Cochrane Handbook chapter10",
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+      "actualReadDepth": "Selected official §§10.3.1/2,10.10.4.3/4, visible few-study interpretations; not whole chapter",
+      "featureAndScope": "Inverse-variance weighting; mean/underlying-effect spread distinction; assumptions/few-study cautions. Current simple PI usesk−1; toy explicitly specifies2009 method.",
+      "accessAndReviewLimits": [
+        "Cortazar PubMed web result contained no useful article text; not counted as successful abstract reading. Author-hosted original paper freshly accessible instead.",
+        "Higgins DOI and PMC/EuropePMC web rendered pages failed or returned reCAPTCHA. Retained failure responses sealed; fresh EuropePMC XML HTTP fetch succeeded, with actual request/retrieval timestamps recorded.",
+        "Web tool response receipts have no original request wall time. Their capture/seal time is recorded honestly; no reconstructed retrieval timestamp."
+      ]
+    },
+    {
+      "source": "Higgins2009",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2667312/fullTextXML",
+      "actualReadDepth": "Fresh original full-text XML retrieval, actually read selected §§2.2,3.1,3.2,5.4. Equation12 and3.1 original graphics viewed from labelled author-retained bytes. Not whole paper.",
+      "featureAndScope": "DL τ²/Q, weighted mean, approximate CI, underlying-study PI withk−2df; normality/exchangeability and few-study limits.",
+      "accessAndReviewLimits": [
+        "Cortazar PubMed web result contained no useful article text; not counted as successful abstract reading. Author-hosted original paper freshly accessible instead.",
+        "Higgins DOI and PMC/EuropePMC web rendered pages failed or returned reCAPTCHA. Retained failure responses sealed; fresh EuropePMC XML HTTP fetch succeeded, with actual request/retrieval timestamps recorded.",
+        "Web tool response receipts have no original request wall time. Their capture/seal time is recorded honestly; no reconstructed retrieval timestamp."
+      ]
+    }
+  ],
+  "sourceReviewScope": "Fresh primary/official checks of consequential new visual/caption claims, with actual read depths and access failures below; unchanged scientific teaching retained, not re-approved. Bounded source reviewers are identified by whole-package private custody.",
+  "retainedExercises": {
+    "inverseRestoresCompleteOriginalOwnerBytes": true,
+    "metadataPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "deviceScaleFactor": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "states": [
+      "original native",
+      "inline",
+      "default preview"
+    ],
+    "scope": "Fresh isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with exact byte-verified pinned sources. Declared carrier layout variables, main860px maximum/24px padding/Arial and local asset API. Tall desktop inline figures require scrolling; full-element captures are distinguished from viewport captures. No full app routes/navigation/auth/live deployment or human approval."
+  },
+  "inheritedCarrierTableContrast": "Existing dark table headers and survival-table code literals are not accepted as readable in this fixture; missing complete application palette means actual app/table contrast must be verified at integration. This is not a new native figure correction.",
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; Root may commit only after actual107 adoption",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

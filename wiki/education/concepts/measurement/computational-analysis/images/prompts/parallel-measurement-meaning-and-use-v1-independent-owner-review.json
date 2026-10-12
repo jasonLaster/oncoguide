@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-094",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+  "reviewedAtUTC": "2026-10-12T22:31:26Z",
+  "passedAtUTC": "2026-10-12T22:31:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "40af0bbf5b3a68a326cbd2e4cbb4d0204ba87c2fb6eb725aaadb853e987f637b",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/241",
+    "originalTaskRowSHA256": "af8d82f076eef5aa34ca1785ae57e827b03a57bee6036ad5fcab609603575d58"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+    "baselinePageSHA256": "a4a67358d109a1d432552e1ec6ff8e303451a78ba41785dd9bbf57243ef1c983",
+    "learnerTask": "Match measurement accuracy, clinical association and test-guided-strategy utility to distinct evidence.",
+    "gap": "No visual shows three separate evidence questions and the unsupported action bridge in practice.",
+    "accuracyGuardrails": "Use parallel evidence questions rather than an inevitable validation ladder. Analytical accuracy, clinical association and test-guided utility do not substitute for one another or establish an action from a research result.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The three parallel scenes depict spiked-target/repeat measurement, result/outcome observation and a separately unanswered test-guided DrugA-versus-defined-alternative comparison. There is no connected inevitable validation ladder. The missing outcomes/harms comparison is visible and agrees with the retained DrugA exercise; measurement accuracy and a scoped clinical association do not establish helpful action. Generic tubes and outcome glyphs are not imported assay/cohort/trial data, and no treatment recommendation is supplied. Specimen/workflow, population/endpoint, utility comparator/harms and laboratory-oversight limits remain separate in the full retained teaching. The entire frozen three-evidence-questions/unsupported-action-bridge task is met.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+      "sha256": "1de2736f741163d68a3f55368e7283543b4395a2fe411beb6c97c11966f1b6e2"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+      "sha256": "60459ae49a4288d3707c3fe11789bd07fa2739604bddc5e0aff35b4e069ea132"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+        "sha256": "40af0bbf5b3a68a326cbd2e4cbb4d0204ba87c2fb6eb725aaadb853e987f637b",
+        "bytes": 9949
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+        "sha256": "1de2736f741163d68a3f55368e7283543b4395a2fe411beb6c97c11966f1b6e2",
+        "bytes": 6930
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+        "sha256": "60459ae49a4288d3707c3fe11789bd07fa2739604bddc5e0aff35b4e069ea132",
+        "bytes": 6930
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1.txt",
+        "sha256": "e4b23c00f302fe80c0ff3f1aefe6ee0f833fa854efe096287cd9849c60c7eb0d",
+        "bytes": 1230
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-provenance.json",
+        "sha256": "e5a900c8877909615c13101f1bab6a736c40e011bd34f541b5680f225c583fe5",
+        "bytes": 2984
+      }
+    ],
+    "originalArtwork": "Exact complete owner, original TXT brief, original native light/dark pair and ordinary provenance JSON. Native construction/code/source bodies/execution/captures remain privately retained and are not publicly admitted by these hashes."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/testing/validtest/",
+      "depth": "Selected official definitions/laboratory-quality scope, lines49–59; genetic-test context, not validation of the fictional blood workflow."
+    },
+    {
+      "url": "https://www.fda.gov/media/183874/download",
+      "depth": "Selected2024 early-stage ctDNA association/use-context and randomized strategy comparison passages, printed pages2–4; not entire13-page guidance, referenced trial review or current clinical recommendation."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK402284/",
+      "depth": "Challenge page only; no BEST body read. Original citation retained without source-depth promotion."
+    }
+  ],
+  "sourceAccessLimits": {
+    "originalAuthorQualification": {
+      "actualRead": "MedlinePlus official page body lines49–59 definitions and laboratory-quality scope. FDActDNA selected patient-selection paragraph, plus selected association/meta-analysis context; no fullguidance read.",
+      "webReceipt": "sourcesB.web.json",
+      "limits": "BESTbook challenge; no sourcebody read. No clinicalstrategybenefit/data claim added."
+    },
+    "originalAuthorLimits": [
+      "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+      "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+      "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+    ],
+    "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+    "noSourceFiguresOrDatasetsCopied": true,
+    "noUniversalScientificClinicalOrRegulatoryApproval": true
+  },
+  "wholePackageReview": {
+    "sha256": "e2aef12d171d4b01b0c3b067188ce7142a4923b8dccac7545f7010e238c8369d",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "privateScope": "Whole package receipt, raw source material, scripts and captures remain private; hash is a lineage reference only."
+  },
+  "assignmentBinding": {
+    "private107PlanSHA256": "d812680988d129353ffdd1ff44a8b0a6c6c16f966690cfcd941ce0ca1153dd03",
+    "opportunitiesSHA256": "cc3481ca9ee6e43524b8e091d0f8149f4eb60527f94b9384790310de31705341",
+    "canonicalAssignmentAdoption": "pending",
+    "noPlanAcceptanceOrAdoptionSynthesized": true,
+    "commitCondition": "Root commits these actual review receipts only after canonical assignment adoption; this review performs no source/Git writes."
+  },
+  "checks": {
+    "fullOriginalOwnerTaskRead": true,
+    "originalTeachingExercisesSourceMetadataNavigationRetained": true,
+    "exactFiveFileCustodyVerified": true,
+    "pairedGeometryLabelsCountsAndLayoutMatch": true,
+    "originalFrozenTaskAndGuardrailStringsTypesMatch": true,
+    "personallyInspectedNativeBothThemesAnd393x700InlineDefaultModalAndDesktop": true,
+    "maintainedContentCheckerPassed": true,
+    "maintainedReleaseNewVisualReceiptFieldShapeVerifiedReadOnly": true
+  },
+  "publicationPath": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-independent-owner-review.json",
+  "pending": {
+    "assignmentAdoption": "pending canonical adoption by root; accepted private107plan is an assignment reference, not source registry adoption",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

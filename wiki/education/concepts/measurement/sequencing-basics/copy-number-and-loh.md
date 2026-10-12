@@ -46,6 +46,12 @@ Reports often use **major** and **minor** copy counts: the larger and smaller es
 
 Local copy count differs from **ploidy**, the average genome-copy context. Tumor and normal cells also mix. Relative signal alone can fit different purity-and-ploidy combinations; apparent fractional counts may reflect mixture or subclonal states rather than a fraction of a chromosome in every cell. [Carter 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/).
 
+<img src="./images/copy-count-and-version-states-v1-light.svg" alt="Fictional region-copy ribbons show A/B and A/A with the same total of two, plus copy-loss and copy-gain states whose totals differ." width="780" height="1320" data-theme-pair>
+
+*Two copies can retain two versions or two copies of one version. These are idealized modeled region states: copy-neutral LOH preserves total copies without proving gene inactivity, and major/minor counts do not identify a parent.*
+
+[Open the light diagram](./images/copy-count-and-version-states-v1-light.svg) · [Open the dark diagram](./images/copy-count-and-version-states-v1-dark.svg)
+
 ## How it is measured
 
 Allele-aware methods combine relative [DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/molecules/dna) coverage with the balance at informative heterozygous sites, group the genome into segments and fit copy states. A suitable matched normal helps identify original versions and control measurement biases. A total-copy profile alone cannot distinguish 1 + 1 from 2 + 0. If both normal copies have the same sequence at a site, that site alone is uninformative for version loss.

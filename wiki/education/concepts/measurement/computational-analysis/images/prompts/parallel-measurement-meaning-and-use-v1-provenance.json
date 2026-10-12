@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/241",
+  "frozenRowPointer": "/241",
+  "frozenRowSHA256": "af8d82f076eef5aa34ca1785ae57e827b03a57bee6036ad5fcab609603575d58",
+  "originalFrozenTask": {
+    "learnerTask": "Match measurement accuracy, clinical association and test-guided-strategy utility to distinct evidence.",
+    "gap": "No visual shows three separate evidence questions and the unsupported action bridge in practice.",
+    "accuracyGuardrails": "Use parallel evidence questions rather than an inevitable validation ladder. Analytical accuracy, clinical association and test-guided utility do not substitute for one another or establish an action from a research result."
+  },
+  "sourceObservedCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "baselinePageSHA256": "a4a67358d109a1d432552e1ec6ff8e303451a78ba41785dd9bbf57243ef1c983",
+  "construction": "Original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "generator": "private/construct.py",
+  "generatorSHA256": "a0b8e487c3658650e9b2c6b2b56309cb9d2d0103526f04a7fe70b7138e970852",
+  "generatorCustody": "Privately retained original construction code, not publicly delivered. SVGs are editable; no executable reproduction package promised.",
+  "sourceURLs": [
+    "https://medlineplus.gov/genetics/understanding/testing/validtest/"
+  ],
+  "sourceDepth": "Actual selected primary/official passages or primary abstracts; per-owner private lookup receipts identify exact reading depth, failures and custody. No whole-paper, clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies and reading/execution/capture receipts retained privately.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "briefSHA256": "e4b23c00f302fe80c0ff3f1aefe6ee0f833fa854efe096287cd9849c60c7eb0d",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+      "theme": "light",
+      "sha256": "1de2736f741163d68a3f55368e7283543b4395a2fe411beb6c97c11966f1b6e2",
+      "bytes": 6930,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "60459ae49a4288d3707c3fe11789bd07fa2739604bddc5e0aff35b4e069ea132",
+      "bytes": 6930,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Shared original geometry/text with palette substitution only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

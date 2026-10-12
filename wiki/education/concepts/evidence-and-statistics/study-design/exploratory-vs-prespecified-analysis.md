@@ -49,6 +49,14 @@ A fictional protocol names [event-free survival (EFS)](/wiki/education/concepts/
 
 Keep three statements separate: the planned primary result; the planned exploratory subgroup result; and the new cutoff-generated hypothesis. The last search should include all tested cutoffs and its selection method. A new study can lock the cutoff and evaluate whether it predicts a treatment difference.
 
+<img src="./images/locked-plan-results-and-twelve-cutoffs-v1-light.svg" alt="A dated plan precedes results access; afterward12 additional cutoff choices are searched and one selected cutoff becomes a hypothesis for an independent test" data-theme-pair width="600" height="1000">
+
+*Keep the dated plan, data access and later search in their actual order.*
+
+Follow the record down the timeline. The original plan names the primary EFS result and an exploratory marker subgroup. Opening the results does not change those roles. The twelve numbered marks represent the later search, with an amber mark for the hypothetical smallest-p selection. Their positions are schematic, not measured threshold values, and no p-values are supplied. Retain the whole search and its selection rule. A new study can lock the discovered cutoff and test the treatment comparison under an appropriate plan; the lock alone does not establish confirmation. [FDA endpoint roles and multiplicity](https://www.fda.gov/media/162416/download).
+
+**Read the timeline:** Which analysis was newly chosen after seeing results? **Answer:** The twelve-cutoff search. The original marker subgroup was planned, but its role remains exploratory.
+
 ## The analysis record
 
 Retain the dated protocol and plan, endpoint and clock, analysis population, subgroup or cutoff definition, primary/secondary/exploratory role, amendment rationale, access to unblinded results, number of searches and uncertainty. A subgroup effect also needs enough relevant events; a prespecified label cannot manufacture precision.

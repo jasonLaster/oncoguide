@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1320" viewBox="0 0 780 1320" role="img" aria-labelledby="title desc"><title id="title">Mean depth can hide a poorly observed position</title><desc id="desc">The exact fictional report gives mean 100x across 1000 target bases, 900 bases reaching a 20x summary criterion, and four usable observations at the position of interest. A shared 0–100 depth scale compares the mean statistic to that local count. A territory bar shows 900/1000=90 percent at the 20x criterion. Four read glyphs cover a highlighted position; independence of original molecules is not established. No other per-position depth values are invented.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c0d0ca"/></marker></defs>
+<rect x="0" y="0" width="780" height="1320" rx="0" fill="#192b2f" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Mean can hide a sparse position</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Exact fictional report numbers</tspan></text>
+<rect x="24" y="145" width="732" height="455" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">1. Mean and local depth differ</tspan></text>
+<text x="86" y="254" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="86" dy="0">Target mean</tspan><tspan x="86" dy="45">100×</tspan></text>
+<text x="469" y="254" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="469" dy="0">This position</tspan><tspan x="469" dy="45">4×</tspan></text>
+<rect x="158" y="325" width="106" height="200" rx="5" fill="#95c9b4" />
+<rect x="527" y="517" width="106" height="8" rx="2" fill="#ecac95" />
+<path d="M80 525 L697 525" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M80 485 L697 485" fill="none" stroke="#e4bd7c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9"/>
+<text x="306" y="474" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="306" dy="0">20× criterion</tspan></text>
+<text x="48" y="575" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Same × unit; different summaries.</tspan></text>
+<rect x="24" y="625" width="732" height="265" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="680" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">2. Breadth uses target bases</tspan></text>
+<rect x="80" y="747" width="540" height="36" rx="0" fill="#95c9b4" />
+<rect x="620" y="747" width="60" height="36" rx="0" fill="#7d958d" />
+<text x="48" y="823" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">900 / 1,000 bases ≥20× = 90%</tspan></text>
+<rect x="24" y="915" width="732" height="250" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="970" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">3. Four usable reads at this position</tspan></text>
+<rect x="94" y="1027" width="300" height="12" rx="4" fill="#9fcadd" />
+<rect x="94" y="1062" width="300" height="12" rx="4" fill="#9fcadd" />
+<rect x="94" y="1097" width="300" height="12" rx="4" fill="#9fcadd" />
+<rect x="94" y="1132" width="300" height="12" rx="4" fill="#9fcadd" />
+<path d="M253 1002 L253 1155" fill="none" stroke="#ecac95" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="439" y="1061" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="439" dy="0">Four reads</tspan><tspan x="439" dy="45">≠ four proven</tspan><tspan x="439" dy="45">original molecules</tspan></text>
+<text x="40" y="1240" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">The 20× criterion is illustrative.</tspan><tspan x="40" dy="48">Other per-position counts are not supplied.</tspan></text>
+</svg>

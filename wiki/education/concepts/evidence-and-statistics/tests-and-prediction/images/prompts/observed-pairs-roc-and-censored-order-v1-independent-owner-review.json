@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-092",
+  "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+  "reviewedAtUTC": "2026-10-12T22:31:26Z",
+  "passedAtUTC": "2026-10-12T22:31:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "e02ac35123798b64da91db2753fd5c68d409f33343e64c702fd61ed207cba3c8",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/187",
+    "originalTaskRowSHA256": "6f04bcf2945444bca027a0d85d78fefb483517ab5fe9588e9b2d61fae2758499"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+    "baselinePageSHA256": "36e2bc7c5fac5a2dbab73a3f6275f971e4b03d40cbe5f6de37a4cf030ae9fe46",
+    "learnerTask": "Read a ROC curve and the pairwise ranking calculation separately from censored concordance.",
+    "gap": "The ROC-area concept has no ROC plot or observed-pair graphic.",
+    "accuracyGuardrails": "Keep score threshold ROC/ranking, pairwise AUC and censoring-aware concordance tasks distinct. Unknown censored orderings cannot be invented; ranking performance does not establish calibration or utility.",
+    "currentVisualFit": "adequate",
+    "reasoning": "All four case/non-case comparisons from case scores0.9/0.6 and control scores0.7/0.2 are explicit, with three correctly ordered pairs. Independent threshold construction gives ROC vertices(0,0),(0,0.5),(0.5,0.5),(0.5,1),(1,1), pairwise AUC0.75, trapezoidal area0.75 and the same painted polygon fraction. A separate A-event-at2/B-censored-at1 scene keeps B’s later order unknown; the full retained table also shows the observed comparable A–C pair and unknown A–B/B–C comparisons. No survival C-index is invented from the binary plot. Censoring, estimator/horizon/assumption, calibration and clinical utility boundaries remain explicit. The full frozen ROC/pairwise-versus-censored-concordance task is met.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-light.svg",
+      "sha256": "640d1df1ecc25c2f585fb239155da7ea53ffc6870477650cf21dede9d268bbd5"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-dark.svg",
+      "sha256": "284764d3b08fd980ea0648b9721a3f679f37397dc4ac6203a796ad4a34e6bb92"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+        "sha256": "e02ac35123798b64da91db2753fd5c68d409f33343e64c702fd61ed207cba3c8",
+        "bytes": 7296
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-light.svg",
+        "sha256": "640d1df1ecc25c2f585fb239155da7ea53ffc6870477650cf21dede9d268bbd5",
+        "bytes": 7596
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-dark.svg",
+        "sha256": "284764d3b08fd980ea0648b9721a3f679f37397dc4ac6203a796ad4a34e6bb92",
+        "bytes": 7596
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+        "sha256": "82cacdc6ae6127ebb2498f9c808285e741f6e80a5a50dcd337707a1154f7637f",
+        "bytes": 1159
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+        "sha256": "8b68ea5c6ba2554ffd1a3221c9ff588eff9060b3f6c81d8c1ee2617fbcb65625",
+        "bytes": 2949
+      }
+    ],
+    "originalArtwork": "Exact complete owner, original TXT brief, original native light/dark pair and ordinary provenance JSON. Native construction/code/source bodies/execution/captures remain privately retained and are not publicly admitted by these hashes."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7063747/",
+      "depth": "Complete primary abstract and selected indexed abstract lines230–233: ROC-area/ranking interpretation; no entirepaper or original dataset."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3079915/",
+      "depth": "Complete primary abstract independently acquired via EuropePMC core record: study-specific censoring dependence and proposed concordance target. PMCchallenge and XML500 retained; no full Uno method/proof, time-specific implementation or survival metric calculated."
+    }
+  ],
+  "sourceAccessLimits": {
+    "originalAuthorQualification": {
+      "actualRead": "Complete Hanley and Uno primary abstracts from original core query. FDA2007 ROC/sensitivity/specificity selected definitions.",
+      "limits": "UnoXML500 and laterPMCchallenge; no selected full Uno method passages read. Named censoring limitations remain original prose; toy binary ROC computed separately."
+    },
+    "originalAuthorLimits": [
+      "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+      "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+      "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+    ],
+    "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+    "noSourceFiguresOrDatasetsCopied": true,
+    "noUniversalScientificClinicalOrRegulatoryApproval": true
+  },
+  "wholePackageReview": {
+    "sha256": "e2aef12d171d4b01b0c3b067188ce7142a4923b8dccac7545f7010e238c8369d",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "privateScope": "Whole package receipt, raw source material, scripts and captures remain private; hash is a lineage reference only."
+  },
+  "assignmentBinding": {
+    "private107PlanSHA256": "d812680988d129353ffdd1ff44a8b0a6c6c16f966690cfcd941ce0ca1153dd03",
+    "opportunitiesSHA256": "cc3481ca9ee6e43524b8e091d0f8149f4eb60527f94b9384790310de31705341",
+    "canonicalAssignmentAdoption": "pending",
+    "noPlanAcceptanceOrAdoptionSynthesized": true,
+    "commitCondition": "Root commits these actual review receipts only after canonical assignment adoption; this review performs no source/Git writes."
+  },
+  "checks": {
+    "fullOriginalOwnerTaskRead": true,
+    "originalTeachingExercisesSourceMetadataNavigationRetained": true,
+    "exactFiveFileCustodyVerified": true,
+    "pairedGeometryLabelsCountsAndLayoutMatch": true,
+    "originalFrozenTaskAndGuardrailStringsTypesMatch": true,
+    "personallyInspectedNativeBothThemesAnd393x700InlineDefaultModalAndDesktop": true,
+    "maintainedContentCheckerPassed": true,
+    "maintainedReleaseNewVisualReceiptFieldShapeVerifiedReadOnly": true
+  },
+  "publicationPath": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+  "pending": {
+    "assignmentAdoption": "pending canonical adoption by root; accepted private107plan is an assignment reference, not source registry adoption",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

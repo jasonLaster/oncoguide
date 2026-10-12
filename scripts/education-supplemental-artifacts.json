@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "reviewedSourceCommit": "34024e11fb6fc710cdd9ac0daff1fa68057f1f7e",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -3392,6 +3392,750 @@
           "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0"
         }
       ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/same-counts-risk-and-odds-v1-provenance.json",
+      "sha256": "79d05bfa384d083eab0f621a864c6bb32d92d8c0f4dd6515ea284a08c12a9512",
+      "bytes": 2850,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md",
+      "ownerSha256": "51747e0395f3500b98b6b30189fd0a5bf85f564ccf28309af8f8c261a3beb5b7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-light.svg",
+          "sha256": "992e2a42e6635c54cbc3809f668d49ea2d6e4fc70f52b83548f2626fa270b460"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-dark.svg",
+          "sha256": "aa8fe8ce24654204289ec9ca301756a7d3c895a37465b4d70ede0c6d5d438929"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/same-counts-risk-and-odds-v1-independent-owner-review.json",
+      "sha256": "10b003169624079b69ef8579e98bf873612b79f8e9c815f37a4519e4e5507ff9",
+      "bytes": 8488,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md",
+      "ownerSha256": "51747e0395f3500b98b6b30189fd0a5bf85f564ccf28309af8f8c261a3beb5b7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-light.svg",
+          "sha256": "992e2a42e6635c54cbc3809f668d49ea2d6e4fc70f52b83548f2626fa270b460"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-dark.svg",
+          "sha256": "aa8fe8ce24654204289ec9ca301756a7d3c895a37465b4d70ede0c6d5d438929"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1-provenance.json",
+      "sha256": "79e2cc5ecd521b0ae0a21b22372f8525558c620916ef962496796a0f7a9d9044",
+      "bytes": 3001,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+      "ownerSha256": "b6b131dd6076cf2d24ae3a17bb4ad3ad54e0d3841fef5a9a4fd168cf9ab715cf",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+          "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+          "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1-independent-owner-review.json",
+      "sha256": "1f76974a22b9695bc2f663e91e99e6a677f75437d6bb094de4066c639f9238ba",
+      "bytes": 8869,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+      "ownerSha256": "b6b131dd6076cf2d24ae3a17bb4ad3ad54e0d3841fef5a9a4fd168cf9ab715cf",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+          "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+          "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "sha256": "853869add162b3fec4587d30fef06ef183cea5212ab961515fd03c52e114e193",
+      "bytes": 3012,
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+      "ownerSha256": "6590b63cd4c28cba6d9e1c15c7497775f3a9f621b398e50b380a8ff61a70db8f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
+          "sha256": "95540b30a9aa9d0b6e8e3e839721a8c68c8b581b0c0687fc30b6677fc38eb8ef"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-dark.svg",
+          "sha256": "7e85285a6e0be5564d8671454898ada0573022430c081e5861565387038a4a28"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "sha256": "eed890ce0b20ce39849da2f2de042af6aa23e45ad0309dfdda12fcedc3d4d046",
+      "bytes": 9319,
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+      "ownerSha256": "6590b63cd4c28cba6d9e1c15c7497775f3a9f621b398e50b380a8ff61a70db8f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
+          "sha256": "95540b30a9aa9d0b6e8e3e839721a8c68c8b581b0c0687fc30b6677fc38eb8ef"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-dark.svg",
+          "sha256": "7e85285a6e0be5564d8671454898ada0573022430c081e5861565387038a4a28"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "sha256": "2dd5a9b0ab7a4142880aba12967ccf9cba9104aa323ee2b7fed2b44d53910b08",
+      "bytes": 3056,
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+      "ownerSha256": "19e4c4f9270a177ea576445fc28241ec4d95d8594cfeb619a872e864198edee3",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-light.svg",
+          "sha256": "4dfa12f7cb6da71bc4c51f09d55e1089f7f5619e03900a58e4f2eaf6fb559e02"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-dark.svg",
+          "sha256": "c087ae5e4cebd2dcfed6300bf42da82a20bb3d639b09e2f4de6a81f11054e04c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "sha256": "3ba093da6187ab57d356020c48fde15533f63bba990837b9432a8062e0c8c457",
+      "bytes": 8821,
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+      "ownerSha256": "19e4c4f9270a177ea576445fc28241ec4d95d8594cfeb619a872e864198edee3",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-light.svg",
+          "sha256": "4dfa12f7cb6da71bc4c51f09d55e1089f7f5619e03900a58e4f2eaf6fb559e02"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-dark.svg",
+          "sha256": "c087ae5e4cebd2dcfed6300bf42da82a20bb3d639b09e2f4de6a81f11054e04c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "sha256": "8b68ea5c6ba2554ffd1a3221c9ff588eff9060b3f6c81d8c1ee2617fbcb65625",
+      "bytes": 2949,
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+      "ownerSha256": "e02ac35123798b64da91db2753fd5c68d409f33343e64c702fd61ed207cba3c8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-light.svg",
+          "sha256": "640d1df1ecc25c2f585fb239155da7ea53ffc6870477650cf21dede9d268bbd5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-dark.svg",
+          "sha256": "284764d3b08fd980ea0648b9721a3f679f37397dc4ac6203a796ad4a34e6bb92"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "sha256": "d8b43e3e631f389361bccf33467d95b970152e7699fc3cba9c3fab0f75eb50b3",
+      "bytes": 8795,
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+      "ownerSha256": "e02ac35123798b64da91db2753fd5c68d409f33343e64c702fd61ed207cba3c8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-light.svg",
+          "sha256": "640d1df1ecc25c2f585fb239155da7ea53ffc6870477650cf21dede9d268bbd5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-dark.svg",
+          "sha256": "284764d3b08fd980ea0648b9721a3f679f37397dc4ac6203a796ad4a34e6bb92"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+      "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa",
+      "bytes": 3005,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "ownerSha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+          "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+          "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+      "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da",
+      "bytes": 9219,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "ownerSha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+          "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+          "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-provenance.json",
+      "sha256": "e5a900c8877909615c13101f1bab6a736c40e011bd34f541b5680f225c583fe5",
+      "bytes": 2984,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+      "ownerSha256": "40af0bbf5b3a68a326cbd2e4cbb4d0204ba87c2fb6eb725aaadb853e987f637b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+          "sha256": "1de2736f741163d68a3f55368e7283543b4395a2fe411beb6c97c11966f1b6e2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+          "sha256": "60459ae49a4288d3707c3fe11789bd07fa2739604bddc5e0aff35b4e069ea132"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-independent-owner-review.json",
+      "sha256": "8ed6411e9daf59e83f7d3303f9f1df463d4d9ea0ce56051813b5a4b13cb139ae",
+      "bytes": 9090,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+      "ownerSha256": "40af0bbf5b3a68a326cbd2e4cbb4d0204ba87c2fb6eb725aaadb853e987f637b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+          "sha256": "1de2736f741163d68a3f55368e7283543b4395a2fe411beb6c97c11966f1b6e2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+          "sha256": "60459ae49a4288d3707c3fe11789bd07fa2739604bddc5e0aff35b4e069ea132"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/people-and-randomized-treatment-effects-v1-provenance.json",
+      "sha256": "a2b6799ab67955481c5adbdb62472cb5169151d74c85a77182f942c0b72660db",
+      "bytes": 1391,
+      "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+      "ownerSha256": "8d593f39f7efec3130ca2f2c434c37080117bf9dc46d1d248024cbedab2636a2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-light.svg",
+          "sha256": "2799a97b4e644ddae434a9f549235ade78cd5cf684c07cdbbc7c7e54fb919eec",
+          "bytes": 10539
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-dark.svg",
+          "sha256": "9a3445b333ad8b111c37c788bdb3f352b28f9273798eb9df691b6e578dc5aae3",
+          "bytes": 10539
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/people-and-randomized-treatment-effects-v1-next-gap-095-independent-task-fit.json",
+      "sha256": "699dc43676bc501cc79d7c700db7e79a4f7c51af6ee3e7d095851c695aafd84d",
+      "bytes": 8436,
+      "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+      "ownerSha256": "8d593f39f7efec3130ca2f2c434c37080117bf9dc46d1d248024cbedab2636a2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-light.svg",
+          "sha256": "2799a97b4e644ddae434a9f549235ade78cd5cf684c07cdbbc7c7e54fb919eec",
+          "bytes": 10539
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-dark.svg",
+          "sha256": "9a3445b333ad8b111c37c788bdb3f352b28f9273798eb9df691b6e578dc5aae3",
+          "bytes": 10539
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+      "sha256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+      "bytes": 1373,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "ownerSha256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+          "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+          "bytes": 7746
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+          "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+          "bytes": 7746
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-next-gap-096-independent-task-fit.json",
+      "sha256": "e445f8d6f52a56b25943a0f7ebabb716ad0b608b2437963b7103d6b5079d7198",
+      "bytes": 6640,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "ownerSha256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+          "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+          "bytes": 7746
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+          "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+          "bytes": 7746
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+      "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+      "bytes": 1420,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "ownerSha256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+          "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+          "bytes": 8157
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+          "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+          "bytes": 8157
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-next-gap-097-independent-task-fit.json",
+      "sha256": "499112cad336eb8d6a808385681c0f8ee536cf15634dac052f8549200226c571",
+      "bytes": 8468,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "ownerSha256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+          "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+          "bytes": 8157
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+          "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+          "bytes": 8157
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1-provenance.json",
+      "sha256": "9fba2e42fbf6e0dc19f0e6550a0285d83790c5d0ce7165e237a1a2bfda6f5228",
+      "bytes": 1326,
+      "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md",
+      "ownerSha256": "08923989acf4fa28d196a5f4f22e6411c17415919b0c0c18caef6e563313f4b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-light.svg",
+          "sha256": "93c2b9a06ff67d0f90a77670aa1b4349d17cc63b93bb648c7ab285c422d82806",
+          "bytes": 7745
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-dark.svg",
+          "sha256": "07bb515399f5b9a43fc31bb51613f0b6f0e16729921e1843b1ea9506c529a34b",
+          "bytes": 7745
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1-next-gap-098-independent-task-fit.json",
+      "sha256": "f3b8621ab7e43fd8646625c095be3e04e3376b3482178ef578225774be5bba7c",
+      "bytes": 6865,
+      "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md",
+      "ownerSha256": "08923989acf4fa28d196a5f4f22e6411c17415919b0c0c18caef6e563313f4b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-light.svg",
+          "sha256": "93c2b9a06ff67d0f90a77670aa1b4349d17cc63b93bb648c7ab285c422d82806",
+          "bytes": 7745
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-dark.svg",
+          "sha256": "07bb515399f5b9a43fc31bb51613f0b6f0e16729921e1843b1ea9506c529a34b",
+          "bytes": 7745
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+      "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+      "bytes": 1443,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "ownerSha256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+          "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+          "bytes": 8636
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+          "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+          "bytes": 8636
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-next-gap-099-independent-task-fit.json",
+      "sha256": "1914d299500a795253e2a12cf32b99a493e87f5818153589b4e4930ae455c00f",
+      "bytes": 6794,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "ownerSha256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+          "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+          "bytes": 8636
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+          "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+          "bytes": 8636
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+      "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+      "bytes": 1422,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "ownerSha256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+          "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+          "bytes": 7415
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+          "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+          "bytes": 7415
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-next-gap-100-independent-task-fit.json",
+      "sha256": "0624469e02c949ffa888b4543ab2747c24158de62e9e4af94fc880f62489edd7",
+      "bytes": 9293,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "ownerSha256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+          "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+          "bytes": 7415
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+          "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+          "bytes": 7415
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/copy-count-and-version-states-v1.json",
+      "sha256": "0eb07f0d894b59c1a2b1942d35ebf989fd7b20dafc2023aedd2d5eeb3898402d",
+      "bytes": 3272,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+      "ownerSha256": "df07cfd3b3b1380ac8863d905823c66cbcc84b6db2331e8a6d775eecba096b2c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+          "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+          "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/copy-count-and-version-states-v1-independent-owner-review.json",
+      "sha256": "d19dc4c38e1a1e9784a02db105d903df3f047646a35ad91440df1bb809e526ae",
+      "bytes": 6520,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+      "ownerSha256": "df07cfd3b3b1380ac8863d905823c66cbcc84b6db2331e8a6d775eecba096b2c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+          "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+          "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/long-sequence-and-mark-workflows-v1.json",
+      "sha256": "942e084e27825530e05ec3a4852036cb9a7f62693fee459047ce2a4a41dc2bfd",
+      "bytes": 4413,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/long-read-and-methylation-sequencing.md",
+      "ownerSha256": "b3cb294c473c97dbe1d6895996ddce146316a71009c3ed2b06b6fa0e854f98e1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-light.svg",
+          "sha256": "e705627ed153655c5a1bfdf72148e19d339239ce79ce035163f9a7390c74482e"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+          "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/long-sequence-and-mark-workflows-v1-independent-owner-review.json",
+      "sha256": "03d10b6e07ffef6e9870c689f57004b63d2e08bd7099e27010b91c7fcfebed03",
+      "bytes": 7032,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/long-read-and-methylation-sequencing.md",
+      "ownerSha256": "b3cb294c473c97dbe1d6895996ddce146316a71009c3ed2b06b6fa0e854f98e1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-light.svg",
+          "sha256": "e705627ed153655c5a1bfdf72148e19d339239ce79ce035163f9a7390c74482e"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+          "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/mean-breadth-and-local-depth-v1.json",
+      "sha256": "7137a3153bd3f7dc1d67dd19637eb2ba006b77e0d76b7214ecc3baa35493e5ac",
+      "bytes": 3770,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage.md",
+      "ownerSha256": "6a4db50d7ef38dd2c3ad98c043ccb822061ea091dd2496ea20e8a60a4188cef9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-light.svg",
+          "sha256": "8bdb5e80a173549d89f4a285588634ef9082a00020869acf81d44d64fb2a41e6"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+          "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/mean-breadth-and-local-depth-v1-independent-owner-review.json",
+      "sha256": "c0f90226121b9d55f9d9ac507b88e8d244a617657f86c3abd6f2f7fabdd3ac68",
+      "bytes": 6740,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage.md",
+      "ownerSha256": "6a4db50d7ef38dd2c3ad98c043ccb822061ea091dd2496ea20e8a60a4188cef9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-light.svg",
+          "sha256": "8bdb5e80a173549d89f4a285588634ef9082a00020869acf81d44d64fb2a41e6"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+          "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.json",
+      "sha256": "c8f699f667e3d0894523c7ec3712d215e8407ce23ff9fa7a8bd4a3b3efed8edf",
+      "bytes": 3509,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "ownerSha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+          "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+          "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1-independent-owner-review.json",
+      "sha256": "8903008a8cde5091305023603eaf6184bd96092bdf1dfe9914c57da95c105358",
+      "bytes": 6691,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "ownerSha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+          "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+          "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/rna-join-evidence-and-reach-v1.json",
+      "sha256": "4f384689982fc01f078622ba1c8fd38738ca16251333596ab300bdf8e0ab59dc",
+      "bytes": 4674,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection.md",
+      "ownerSha256": "f5bfbbd98e3cbc64a515239c2715aca1886c87e82d218fc301c9f58bdb0e68c4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-light.svg",
+          "sha256": "e88cf72ed5ffa663725f764b657e4965a444108a234a2a5bc6e6dbfea5789110"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+          "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/rna-join-evidence-and-reach-v1-independent-owner-review.json",
+      "sha256": "6a0552b4840502aa98e772b5aedfcc91cd4bd76d059a0aabb48af88f00f6a999",
+      "bytes": 7384,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection.md",
+      "ownerSha256": "f5bfbbd98e3cbc64a515239c2715aca1886c87e82d218fc301c9f58bdb0e68c4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-light.svg",
+          "sha256": "e88cf72ed5ffa663725f764b657e4965a444108a234a2a5bc6e6dbfea5789110"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+          "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.json",
+      "sha256": "942e06802d4424f630783239dcef3e96c369e391c0b7a9cb7f70c7378e7df8a4",
+      "bytes": 3476,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+      "ownerSha256": "747c2650d4f3cf9f24259e63e5e751d5f148224d767197daeaf4596d9dd8a2af",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+          "sha256": "d102b9654181523f43b8eac662133db81c4103ba445b62c7d284b2bac046f905"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+          "sha256": "4568b990a9767c41a68832ade3008e5067d226483670c9b4ad824d7222764a9e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1-independent-owner-review.json",
+      "sha256": "bf7c3d9ca85a33662a4e50b3fda6a6c1dadbe27a7f7fdbaed0b7a50bc5154068",
+      "bytes": 7061,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+      "ownerSha256": "747c2650d4f3cf9f24259e63e5e751d5f148224d767197daeaf4596d9dd8a2af",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+          "sha256": "d102b9654181523f43b8eac662133db81c4103ba445b62c7d284b2bac046f905"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+          "sha256": "4568b990a9767c41a68832ade3008e5067d226483670c9b4ad824d7222764a9e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.json",
+      "sha256": "4d59e8b9fb4f97fbcb2b0379a79185b51546f27f123f3d7256affc42ac2d9856",
+      "bytes": 4174,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+      "ownerSha256": "1062d5e612e0b4a75e2a6ed982ae9675279136517747b6632fa6bcf02da8fa13",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+          "sha256": "35eaf6cfcb1fd765011b502a65258fc62a7e08cab3d9c7d4985a69e49d0cf739"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+          "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1-independent-owner-review.json",
+      "sha256": "24fd18e906dacb21956b0e8a9c6767f8a7cf3bdbb426b67d1e6ecf14bc975e4d",
+      "bytes": 7172,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+      "ownerSha256": "1062d5e612e0b4a75e2a6ed982ae9675279136517747b6632fa6bcf02da8fa13",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+          "sha256": "35eaf6cfcb1fd765011b502a65258fc62a7e08cab3d9c7d4985a69e49d0cf739"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+          "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/189",
+  "frozenRowPointer": "/189",
+  "frozenRowSHA256": "afa568bf3ca795c98df19dadf1dfe8624b2f47aa56ac5b2142e640a3f0ef33a5",
+  "originalFrozenTask": {
+    "learnerTask": "Apply the largest-passing-rank BH rule and distinguish a selected list from a per-hit truth probability.",
+    "gap": "No ranked p-value plot shows the step-up boundary or later passing rank.",
+    "accuracyGuardrails": "Apply the exact ranked toy p-values and largest-passing-rank BH rule. FDR is a repeated-procedure expectation for a selected list, not a truth probability assigned to each highlighted hit."
+  },
+  "sourceObservedCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+  "baselinePageSHA256": "1ed630e645d7746deb0e1ab5a924255454acd74ae23d74233f615635208f53eb",
+  "construction": "Original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "generator": "private/construct.py",
+  "generatorSHA256": "a0b8e487c3658650e9b2c6b2b56309cb9d2d0103526f04a7fe70b7138e970852",
+  "generatorCustody": "Privately retained original construction code, not publicly delivered. SVGs are editable; no executable reproduction package promised.",
+  "sourceURLs": [
+    "https://www.math.tau.ac.il/~ybenja/MyPapers/benjamini_hochberg1995.pdf",
+    "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html"
+  ],
+  "sourceDepth": "Actual selected primary/official passages or primary abstracts; per-owner private lookup receipts identify exact reading depth, failures and custody. No whole-paper, clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies and reading/execution/capture receipts retained privately.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "briefSHA256": "d5fea464bc01594243de5e813af93357e02f620c7360d398ae2a0b58de035f88",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
+      "theme": "light",
+      "sha256": "95540b30a9aa9d0b6e8e3e839721a8c68c8b581b0c0687fc30b6677fc38eb8ef",
+      "bytes": 8670,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "7e85285a6e0be5564d8671454898ada0573022430c081e5861565387038a4a28",
+      "bytes": 8670,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Shared original geometry/text with palette substitution only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

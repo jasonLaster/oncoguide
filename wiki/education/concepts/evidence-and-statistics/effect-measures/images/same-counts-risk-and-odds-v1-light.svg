@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Same counts, two denominators</title><desc id="desc">Two fictional 100-person groups contain 40 versus 20 responses. A solid frame includes everyone; a dashed frame includes only nonresponses. Risks are 40/100 and20/100, odds40/60 and20/80, producing risk ratio2 and odds ratio8/3.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#976729" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">Which people go below the line?</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Fictional counts; complete assessment</text>
+<rect x="24" y="142" width="712" height="408" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">A  40 responses among 100 people</text>
+<rect x="50" y="224" width="246" height="246" rx="8" fill="#d9c29b" stroke="#293743" stroke-width="3" />
+<circle cx="62" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="86" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="110" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="134" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="158" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="182" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="206" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="230" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="254" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="278" cy="236" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="62" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="86" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="110" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="134" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="158" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="182" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="206" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="230" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="254" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="278" cy="260" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="62" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="86" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="110" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="134" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="158" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="182" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="206" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="230" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="254" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="278" cy="284" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="62" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="86" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="110" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="134" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="158" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="182" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="206" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="230" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="254" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="278" cy="308" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="A" data-response="true"/>
+<circle cx="62" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="86" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="110" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="134" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="158" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="182" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="206" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="230" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="254" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="278" cy="332" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="62" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="86" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="110" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="134" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="158" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="182" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="206" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="230" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="254" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="278" cy="356" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="62" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="86" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="110" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="134" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="158" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="182" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="206" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="230" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="254" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="278" cy="380" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="62" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="86" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="110" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="134" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="158" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="182" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="206" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="230" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="254" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="278" cy="404" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="62" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="86" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="110" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="134" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="158" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="182" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="206" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="230" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="254" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="278" cy="428" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="62" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="86" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="110" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="134" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="158" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="182" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="206" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="230" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="254" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<circle cx="278" cy="452" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="A" data-response="false"/>
+<rect x="52" y="322" width="242" height="144" rx="5" fill="none" stroke="#293743" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="341" y="279" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Risk: all people</text>
+<text x="341" y="329" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">40 / 100 = 40%</text>
+<text x="341" y="403" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Odds: nonresponses</text>
+<text x="341" y="453" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">40 / 60 = 0.667</text>
+<circle cx="67" cy="510" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<text x="87" y="523" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">40 response</text>
+<circle cx="347" cy="510" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<text x="367" y="523" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">60 other</text>
+<rect x="24" y="570" width="712" height="408" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="623" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">B  20 responses among 100 people</text>
+<rect x="50" y="652" width="246" height="246" rx="8" fill="#d9c29b" stroke="#293743" stroke-width="3" />
+<circle cx="62" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="86" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="110" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="134" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="158" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="182" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="206" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="230" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="254" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="278" cy="664" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="62" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="86" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="110" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="134" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="158" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="182" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="206" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="230" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="254" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="278" cy="688" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" data-group="B" data-response="true"/>
+<circle cx="62" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="712" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="62" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="736" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="62" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="760" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="62" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="784" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="62" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="808" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="62" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="832" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="62" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="856" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="62" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="86" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="110" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="134" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="158" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="182" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="206" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="230" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="254" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<circle cx="278" cy="880" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" data-group="B" data-response="false"/>
+<rect x="52" y="702" width="242" height="192" rx="5" fill="none" stroke="#293743" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="341" y="707" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Risk: all people</text>
+<text x="341" y="757" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">20 / 100 = 20%</text>
+<text x="341" y="831" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Odds: nonresponses</text>
+<text x="341" y="881" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">20 / 80 = 0.250</text>
+<circle cx="67" cy="938" r="7" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<text x="87" y="951" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">20 response</text>
+<circle cx="347" cy="938" r="7" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<text x="367" y="951" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">80 other</text>
+<rect x="24" y="997" width="712" height="256" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="1050" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Divide the matching measures</text>
+<text x="48" y="1100" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#4f7999" text-anchor="start">Risk ratio: 40% / 20% = 2</text>
+<text x="48" y="1160" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Odds ratio: (40/60) / (20/80)</text>
+<text x="48" y="1218" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">= 2.67, not 2.67 times the chance</text>
+<text x="38" y="1300" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Same people; different denominators.</text>
+</svg>

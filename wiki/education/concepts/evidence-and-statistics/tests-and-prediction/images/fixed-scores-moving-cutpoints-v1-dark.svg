@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Move the line, retain the measurements</title><desc id="desc">Identical fictional four present and six absent reference samples appear twice on a0..1scoreaxis. Threshold .7 yieldsTP2FP1FN2TN5; threshold.4 yieldsTP3FP3FN1TN3. Equality is positive; scores and reference classes remain fixed.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f1ecd9"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#edc585" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#152630"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="start">Move a line, change the calls</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Same ten samples; ▲ present  ● absent</text>
+<rect x="24" y="142" width="712" height="454" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Call positive at score ≥0.7</text>
+<rect x="530.5" y="236" width="165.5" height="177" rx="0" fill="#38505a" />
+<path d="M530.5 226 L530.5 427" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7" />
+<text x="48" y="292" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Present</text>
+<path d="M298.0 265 L313.0 293 L283.0 293 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.2" data-cutpoint="0.7" data-call="false"/>
+<path d="M460.75 265 L475.75 293 L445.75 293 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.55" data-cutpoint="0.7" data-call="false"/>
+<path d="M553.75 265 L568.75 293 L538.75 293 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.75" data-cutpoint="0.7" data-call="true"/>
+<path d="M623.5 265 L638.5 293 L608.5 293 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.9" data-cutpoint="0.7" data-call="true"/>
+<text x="48" y="381" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Absent</text>
+<circle cx="251.5" cy="369" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.1" data-cutpoint="0.7" data-call="false"/>
+<circle cx="321.25" cy="369" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.25" data-cutpoint="0.7" data-call="false"/>
+<circle cx="367.75" cy="369" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.35" data-cutpoint="0.7" data-call="false"/>
+<circle cx="414.25" cy="369" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.45" data-cutpoint="0.7" data-call="false"/>
+<circle cx="484.0" cy="369" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.6" data-cutpoint="0.7" data-call="false"/>
+<circle cx="577.0" cy="369" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.8" data-cutpoint="0.7" data-call="true"/>
+<path d="M205 427 L670 427" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="205" y="479" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">0.0</text>
+<text x="391.0" y="479" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">0.4</text>
+<text x="530.5" y="479" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">0.7</text>
+<text x="670" y="479" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">1.0</text>
+<text x="48" y="532" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">Found 2   Missed 2   False calls 1</text>
+<text x="48" y="579" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Correct negatives: 5</text>
+<rect x="24" y="616" width="712" height="454" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="669" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Call positive at score ≥0.4</text>
+<rect x="391.0" y="710" width="305.0" height="177" rx="0" fill="#38505a" />
+<path d="M391.0 700 L391.0 901" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7" />
+<text x="48" y="766" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Present</text>
+<path d="M298.0 739 L313.0 767 L283.0 767 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.2" data-cutpoint="0.4" data-call="false"/>
+<path d="M460.75 739 L475.75 767 L445.75 767 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.55" data-cutpoint="0.4" data-call="true"/>
+<path d="M553.75 739 L568.75 767 L538.75 767 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.75" data-cutpoint="0.4" data-call="true"/>
+<path d="M623.5 739 L638.5 767 L608.5 767 Z" fill="#e5a0ab" stroke="#293743" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" data-reference="present" data-score="0.9" data-cutpoint="0.4" data-call="true"/>
+<text x="48" y="855" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Absent</text>
+<circle cx="251.5" cy="843" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.1" data-cutpoint="0.4" data-call="false"/>
+<circle cx="321.25" cy="843" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.25" data-cutpoint="0.4" data-call="false"/>
+<circle cx="367.75" cy="843" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.35" data-cutpoint="0.4" data-call="false"/>
+<circle cx="414.25" cy="843" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.45" data-cutpoint="0.4" data-call="true"/>
+<circle cx="484.0" cy="843" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.6" data-cutpoint="0.4" data-call="true"/>
+<circle cx="577.0" cy="843" r="13" fill="#8fbedc" stroke="#293743" stroke-width="2" data-reference="absent" data-score="0.8" data-cutpoint="0.4" data-call="true"/>
+<path d="M205 901 L670 901" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="205" y="953" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">0.0</text>
+<text x="391.0" y="953" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">0.4</text>
+<text x="530.5" y="953" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">0.7</text>
+<text x="670" y="953" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="middle">1.0</text>
+<text x="48" y="1006" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">Found 3   Missed 1   False calls 3</text>
+<text x="48" y="1053" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Correct negatives: 3</text>
+<text x="48" y="1132" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Right of the line is called positive.</text>
+<text x="48" y="1190" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Lowering it finds one more condition</text>
+<text x="48" y="1236" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">and adds two false-positive calls.</text>
+<text x="38" y="1300" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">These invented cutoffs do not choose care.</text>
+</svg>
