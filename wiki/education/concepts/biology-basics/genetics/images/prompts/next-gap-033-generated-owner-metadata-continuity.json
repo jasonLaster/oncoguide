@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-033",
+  "owner": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:45.782Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "61db5e9f3ad0492e372b88492f7002971ab63d8502eabf826ea927cd736204a2",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-dark.png",
+      "sha256": "82462c36ea483533f797959e38dfeac99b18bad07ae6682ecc42c8203fc59fb3"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+      "sha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "1e220fb9aa75f47c1929ebcbeae84ca0b1413bc7b7305ad1cec7e225cad02458",
+    "learnerTask": "Trace constitutional, somatic and mosaic distributions across cell lineages, rather than infer origin from one tumor or blood specimen.",
+    "gap": "The prose and nuanced blood/plasma exercise are strong but no visual shows the lineage branching or sampled compartments. A simple developmental branch diagram would turn broadly distributed versus acquired-in-one-branch into a visible contrast.",
+    "accuracyGuardrails": [
+      "Include de novo constitutional possibility and a mosaic branch; somatic does not mean tumor-only, blood can contain acquired clones, and one specimen does not map reproductive cells or pathogenicity."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/comparison-next-gap-033-current-owner-continuity.json",
+      "sha256": "d4fe101ca9882415877d3c7cda9845d8e864452302f6fbe2be188d5651156567"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-comparisons-2026-10-12-owner-continuity.json",
+      "sha256": "99c0aad4cee9cd178f3cdd375d868e9583475a9a46d01fa4bc4923329e09059c"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+        "sha256": "61db5e9f3ad0492e372b88492f7002971ab63d8502eabf826ea927cd736204a2",
+        "bytes": 11963
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-dark.png",
+        "sha256": "82462c36ea483533f797959e38dfeac99b18bad07ae6682ecc42c8203fc59fb3",
+        "bytes": 2242130
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/germline-lineage-windows-v4-light.png",
+        "sha256": "5028827e39a894be902bf85dca4b46f94fc3cc6e1d9fd68e743f79f24a353f30",
+        "bytes": 1881304
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "0a664fd85a0199cd7aee36206d1ffed6795089a9d2b2988154fab2da42b0906a",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "d4fe101ca9882415877d3c7cda9845d8e864452302f6fbe2be188d5651156567",
+    "originalSelectedReleaseSHA256": "99c0aad4cee9cd178f3cdd375d868e9583475a9a46d01fa4bc4923329e09059c",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

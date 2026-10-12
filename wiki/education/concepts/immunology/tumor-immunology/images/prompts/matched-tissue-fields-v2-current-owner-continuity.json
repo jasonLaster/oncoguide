@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-047",
+  "owner": "wiki/education/reading-a-tumor/immune-hot-vs-cold.md",
+  "author": "root",
+  "draftAuthor": "/root/legacy_reading_tumor",
+  "reviewer": "review_legacy_reading_tumor",
+  "actualReviewerAgent": "/root/review_legacy_reading_tumor",
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "phase": "PROSPECTIVE_PRIVATE_CANDIDATE_FOR_ROOT_CANONICAL_INTEGRATION",
+  "verdict": "PASS",
+  "passed": true,
+  "reviewedAtUTC": "2026-10-12T21:15:00.532700+00:00",
+  "observedSourceHEAD": "14b9cb6484e9dd3e79ce31b2287de70f2276995b",
+  "currentOwnerSha256": "db8ca9d27fa69f892da3ca82928aba4d4b1304aba03a49dbec4db0e45e4923d4",
+  "currentOwnerBytes": 11157,
+  "scope": "Frozen visual-task preservation for this exact private lesson candidate only; root integration remains prospective. No new scientific, pixel, human, coverage or production approval.",
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "fda30d89c857a5a68f927cd576496a2bece2b2765a256f6d7905dc15231eed09",
+    "learnerTask": "Compare immune-rich stroma with entry into cancer nests under a stated tissue and scoring denominator.",
+    "gap": "A lesson titled an immune map currently offers tables and prose but no actual tissue map. The existing canonical hot/excluded/cold illustration can make this worked observation visible without implying a treatment recommendation.",
+    "accuracyGuardrails": "Preserve sampling boundaries, equal count versus different distribution, stromal-area denominator and unknown receptor/function. Do not infer a causal collagen barrier, label native lymph-node follicles as TLS, or map hot/excluded directly to a drug.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I read the complete exact candidate lesson and the selected prior task review and release bindings. The candidate retains the exact native SVG embed, theme-pair attribute, caption, equal-count/different-distribution explanation, explicit sampled-tumor/stromal-area denominator, site/time/method boundaries, native-lymph-node/TLS distinction, and the original worked example and exercises. The sole body addition is a companion route to the unchanged canonical visual owner. It does not replace the embed or change cell identity, distribution, denominator, unknown receptor/function, causal-barrier or treatment boundaries. Both selected native SHA-256 values match the credited pair. The complete frozen learner task therefore retains its existing adequate fit at the prospective candidate hash, without a new pixel or scientific-source judgment.",
+    "humanReview": "pending"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/reading-a-tumor/immune-hot-vs-cold.md",
+        "sha256": "db8ca9d27fa69f892da3ca82928aba4d4b1304aba03a49dbec4db0e45e4923d4",
+        "bytes": 11157,
+        "role": "prospective-candidate-owner"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+        "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+        "bytes": 4834,
+        "role": "unchanged-selected-native-output"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+        "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+        "bytes": 4834,
+        "role": "unchanged-selected-native-output"
+      }
+    ]
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-047-final-review.json",
+      "sha256": "8f67cba82208b88e7a728b22906cd66f15452011d142e3d195ac557236831891"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/immune-oncolytic-seven-owner-release.json",
+      "sha256": "e7c562e8739cc60c86e0ab6297cc11f5ac288c98a673b3ce0878cc14f4f4d2c3"
+    },
+    "historicalSelectionUnchanged": true,
+    "originalNativeGradePreserved": true,
+    "originalReviewAndReleaseBytesUnchanged": true
+  },
+  "continuityChecks": {
+    "completeCandidateOwnerPersonallyRead": true,
+    "exactFrozenTaskAndGuardrails": true,
+    "originalNativeOutputHashesExact": true,
+    "originalImageTagAndCaptionUnchanged": true,
+    "originalTryItAndSourcesUnchanged": true,
+    "canonicalCompanionRouteAddedWithoutReplacingSelectedPair": true,
+    "registryOrFrozenReviewWrites": false
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "canonicalWrites": 0,
+  "GitWrites": 0,
+  "publishing": false,
+  "limitations": [
+    "Exact private candidate byte binding only; root must integrate unchanged accepted bytes and bind the actual subsequent delivery independently.",
+    "All selected prior scientific-source/access/correction-body, native-pixel, qualified reader/focus, expert, learner and human limitations remain unchanged.",
+    "BODY focus and universal UI/device/theme/accessibility judgments remain open; historical scoped delivery is not this candidate production verification.",
+    "No original disposition, visual gap, coverage or named-entry credit is granted; historical cartoon decisions remain unresolved."
+  ]
+}

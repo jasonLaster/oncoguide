@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-010",
+  "owner": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:45.638Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "0c0a5535a760fdf521c21bd1d927d83c0968d526f93b84a98c2ec716c31323da",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-light.svg",
+      "sha256": "e5707924e3c5d8c474767e85d60871b42770638b3879740310bb1855fd363062"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-dark.svg",
+      "sha256": "8cfd99e979c09f0e5fd5bf29e2e59a96ccb6a7755b897b246461d5344a530776"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "bb945859cb2ac9711d82c53b4163ea4b26f1e7a6259837d5e32ece6a52746917",
+    "learnerTask": "Compare edit classes and a coding frame before assigning an RNA/protein consequence.",
+    "gap": "The change-class table is useful, but a novice must mentally assemble base substitution, in-frame deletion, frameshift and rearranged segments. A compact annotated sequence diagram can expose preserved versus shifted downstream triplets and keep observed DNA separate from predicted products.",
+    "accuracyGuardrails": [
+      "Label toy coding sequence/reference, retain transcript/frame assumptions, allow overlapping structural/copy classes, and show RNA/protein production as unmeasured rather than guaranteed by DNA fusion."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-010-final-review.json",
+      "sha256": "0f7ee3d54ed5c92945b2416949edfd6fe7808fda42424ea6aed449c3c0c9bd59"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-wave4-release.json",
+      "sha256": "38d135a6ac44d1470d2aee4efebf4f96ebc1cd12751f232ea0c8ad72ccc7aa29"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+        "sha256": "0c0a5535a760fdf521c21bd1d927d83c0968d526f93b84a98c2ec716c31323da",
+        "bytes": 9113
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-light.svg",
+        "sha256": "e5707924e3c5d8c474767e85d60871b42770638b3879740310bb1855fd363062",
+        "bytes": 26551
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-dark.svg",
+        "sha256": "8cfd99e979c09f0e5fd5bf29e2e59a96ccb6a7755b897b246461d5344a530776",
+        "bytes": 26551
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "35281d60c606d48d777e403ae506f83a368e41c677aff2de8ea6072bbae1b367",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "0f7ee3d54ed5c92945b2416949edfd6fe7808fda42424ea6aed449c3c0c9bd59",
+    "originalSelectedReleaseSHA256": "38d135a6ac44d1470d2aee4efebf4f96ebc1cd12751f232ea0c8ad72ccc7aa29",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

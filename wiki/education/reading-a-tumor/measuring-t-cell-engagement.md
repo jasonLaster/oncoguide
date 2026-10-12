@@ -8,7 +8,7 @@ objectives: ["Match an immune assay to the claim it supports.", "Separate tissue
 prerequisites: ["[[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/immune-monitoring/flow-cytometry]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
+updated: 2026-10-12
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -28,6 +28,12 @@ review_status: "Source-checked; expert and learner review pending"
 This is lesson 5 of [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). We turn the biological chain into a measurement plan for a fictional study.
 
 **Find and locate cells → identify receptors → test a response → test tumor recognition → assess clinical effect.**
+
+## Name the interaction before choosing the measurement
+
+When someone says “T-cell engagement,” ask what they mean: target recognition, a signaling or secretion response, or killing in a defined experiment? Then ask which test directly addressed that claim. A receptor sequence, tissue location and clinical outcome each answer other parts of the story. The evidence ladder below keeps those parts visible.
+
+For the receptor mechanism, use [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing). For definitions, the glossary has [TCR](/about/Terminology#tcr), [TCR sequencing](/about/Terminology#tcr-seq) and [T-cell states](/about/Terminology#t-cell-states). This lesson's job is to match measurements to claims, rather than repeat those definitions.
 
 ## Two sample lanes, several jobs
 

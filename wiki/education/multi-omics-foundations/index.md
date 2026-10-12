@@ -3,7 +3,7 @@ title: "Multi-omics foundations: the vocabulary lessons"
 type: "navigation"
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: "2026-10-12"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -12,7 +12,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Multi-omics foundations: the vocabulary lessons
 
-**Build the few distinctions that make a molecular report readable.** This is the supporting lesson library for [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics, one question at a time]]. The main guide supplies the complete order, assay lessons and clinical evidence bridge.
+**Build the few distinctions that make a molecular report readable.** This is the supporting lesson library for [[wiki/education/reading-a-tumor/omics-and-multi-omics|What does multi-omics tell us about a tumor?]]. The main guide supplies the complete order, assay lessons and clinical evidence bridge.
 
 If you are new to biology, begin with genes, messages and products. If you already know those layers, start with the tissue mixture. You can pause whenever a distinction clicks; this is a conversation you are learning to follow, not an exam in gene names.
 
@@ -40,11 +40,9 @@ If you are new to biology, begin with genes, messages and products. If you alrea
 
 A comfortable translation is: “They pooled the cancer-cell messages and found a pattern resembling a less mature breast lining-cell program.” This does not prove the cell the cancer began in or change a clinical receptor diagnosis.
 
-## Keep a small discussion card
+## Use the vocabulary in a report
 
-For any new term, ask which cells supplied the signal, which object was measured and what comparison supports the adjective. Then ask whether the conclusion is observed, inferred, predicted or clinically validated. The next test should answer the missing claim.
-
-When you are ready, continue to [[wiki/education/molecular-profiling/01-dna-the-blueprint|the DNA assay lesson]]. For a result in front of you, use [[wiki/education/reading-a-tumor/index|the report-reading checklist]].
+For the complete learning order, use the main guide linked at the top. For a report in front of you, use [the six-question checklist and its worked example](/wiki/education/reading-a-tumor/index#read-the-report-in-this-order). The checklist also holds the discussion prompts for an unfamiliar term, so you can keep one card beside your report.
 
 ## Sources and scope
 

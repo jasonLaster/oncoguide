@@ -109,6 +109,6 @@ Source check: October 10, 2026. The exercise is fictional. Expert and learner re
 - [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
 - [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
 - [Read RNA counts without counting proteins](/wiki/education/multi-omics-foundations/03-reading-rna-counts)
-- [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 - [Match a specimen to the test before spending tissue](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

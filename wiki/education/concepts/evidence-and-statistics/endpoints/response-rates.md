@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/measurement/imaging/response-criteria]]"
   - "[[wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval]]"
-used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 tags: [education, evidence-and-statistics]
 updated: 2026-10-10
@@ -99,6 +99,7 @@ Source check: October 10, 2026. Fictional arithmetic; named studies illustrate e
 ## Used in
 
 - [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
+- [Read a research-product study without losing the denominator](/wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study)
 - [Check clinical evidence and access](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)

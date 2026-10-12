@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-081",
+  "owner": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:46.562Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "fb0a7e3bafb45693cf35c522654c0eda69e91c02f0364c307f0ca96b4a9ea3e3",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+      "sha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+      "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "29c0dcc37b69ed2f155ebaeb58752f06cca4ed00cdb5be3815c7f36908072f9b",
+    "learnerTask": "Read fragment distributions without treating RIN as percent intact RNA",
+    "gap": "Current workflow omits an electropherogram or length fraction",
+    "accuracyGuardrails": "Distinguish a method-defined integrity score from a length-based fraction such as DV200. Electropherograms are schematic; neither value alone proves transcript-specific integrity, assay suitability or percent intact RNA.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/rna-trace-score-and-length-fraction-v2-independent-owner-review.json",
+      "sha256": "0c3a121a73a283f52975652284e9ca5e1f879aa44ca8a5d308d03688a5490346"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+        "sha256": "fb0a7e3bafb45693cf35c522654c0eda69e91c02f0364c307f0ca96b4a9ea3e3",
+        "bytes": 7703
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "sha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb",
+        "bytes": 9635
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0",
+        "bytes": 9635
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "527b701882c7f294c42bda5d49c5708dec385002684445ffc66b78fcc9329598",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "0c3a121a73a283f52975652284e9ca5e1f879aa44ca8a5d308d03688a5490346",
+    "originalSelectedReleaseSHA256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

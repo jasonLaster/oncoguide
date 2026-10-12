@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-053",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:45.944Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "b2715715d5f1e12367a5cb48f4e900b44418b4e22bccad42031649816eb4f546",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-light.svg",
+      "sha256": "ff2cb8191349c7d2b952b1d7aab3cf257383fcf7a4172b87514e7ceed0d1b56c",
+      "bytes": 11458
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-dark.svg",
+      "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0",
+      "bytes": 11456
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "352f91c97e31703f627cd5718ad994d3dec3d042055ebb964c0faa8ad580b687",
+    "learnerTask": "Distinguish paired reads and copies from independent fragments",
+    "gap": "Current process map does not depict molecular ancestry",
+    "accuracyGuardrails": "Trace paired ends, duplicates and independent source fragments separately. Ten reads from five fragments are at most five independent fragments, without guaranteed coverage or confirmation.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-053-final-review.json",
+      "sha256": "6e663278875f2c22b09f556564cc72ea4d5d16d146ad0765348748aec1a6fbd9"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/breast-molecular-seven-owner-release.json",
+      "sha256": "402fcec9231d5468ea311e7aeb60515048cbd07ca8388a8a6085f7a9af1b2e30"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+        "sha256": "b2715715d5f1e12367a5cb48f4e900b44418b4e22bccad42031649816eb4f546",
+        "bytes": 9292
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-light.svg",
+        "sha256": "ff2cb8191349c7d2b952b1d7aab3cf257383fcf7a4172b87514e7ceed0d1b56c",
+        "bytes": 11458
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-dark.svg",
+        "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0",
+        "bytes": 11456
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "f4064f085b72a9975287d662cf7dde05436f072de7046cd65375730bbdd3f05d",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "6e663278875f2c22b09f556564cc72ea4d5d16d146ad0765348748aec1a6fbd9",
+    "originalSelectedReleaseSHA256": "402fcec9231d5468ea311e7aeb60515048cbd07ca8388a8a6085f7a9af1b2e30",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

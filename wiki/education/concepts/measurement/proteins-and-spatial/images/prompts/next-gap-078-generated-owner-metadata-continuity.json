@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-078",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:46.352Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "eb02379065699127221c6353debf92807614ef4369ce1f3341f8d21d66ce216f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+      "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+      "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "4526a3bf242434f4d52be73d637878d415331f7df1eadc1b8b8f800b6ec64729",
+    "learnerTask": "Separate capture geometry, molecule coordinates, cell assignment and imputation",
+    "gap": "Existing strategy flow does not show the physical unit or boundary uncertainty",
+    "accuracyGuardrails": "Label the actual platform unit: capture spot/bin, molecule coordinate or assigned cell. Resolution, segmentation and inferred/imputed values are separate; do not claim universal single-cell truth or RNA\u2013protein/function equivalence.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-independent-owner-review.json",
+      "sha256": "1a15763aae8818e7a6220ab465c7e0e6b438fdff4289599214293bedfa3f34b8"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+        "sha256": "eb02379065699127221c6353debf92807614ef4369ce1f3341f8d21d66ce216f",
+        "bytes": 9560
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+        "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac",
+        "bytes": 9483
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+        "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161",
+        "bytes": 9483
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "a78141bd2606a6a23548226ec634eb85a6913731022d39efe3c85fa879bf59f2",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "1a15763aae8818e7a6220ab465c7e0e6b438fdff4289599214293bedfa3f34b8",
+    "originalSelectedReleaseSHA256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

@@ -121,5 +121,5 @@ Source check: October 10, 2026. General assay teaching and fictional practice; e
 - [Read RNA counts without counting proteins](/wiki/education/multi-omics-foundations/03-reading-rna-counts)
 - [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
-- [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

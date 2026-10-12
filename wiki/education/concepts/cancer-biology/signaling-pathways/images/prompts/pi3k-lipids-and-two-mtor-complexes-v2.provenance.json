@@ -1,0 +1,49 @@
+{
+  "kind": "code-authored SVG layout derivative",
+  "layoutCorrectionDate": "2026-10-12",
+  "sourceNativePair": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+      "sha256": "13d92cbf14cc5f1189423c3818aa80fe3ba1e79d03bdb991eee4f92d0667fe54",
+      "bytes": 12096
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-dark.svg",
+      "sha256": "f46ca03ec452079cd29cec7940e0525539efcfd797b17b7dee156e49c31c69e5",
+      "bytes": 12096
+    }
+  ],
+  "constructionCodeSHA256": "812d1cc56f84f015540393db20115e754931b416afc2b89620026920f8cc1d14",
+  "baseprompt": "pi3k-lipids-and-two-mtor-complexes-v2.txt",
+  "basepromptSHA256": "7dae37c3efa619e4cd2ab164651cafce562eec8a5e0ebf811f84de3d6b388b24",
+  "model": null,
+  "imageGenerationModelCalls": 0,
+  "imageGenerationToolCalls": 0,
+  "nativeDimensions": [
+    900,
+    1880
+  ],
+  "minimumNativeLabelPx": 44,
+  "visibleLabelsRetainedVerbatim": 36,
+  "scientificRelationshipsUnchanged": true,
+  "palette": "Source light/dark colors retained",
+  "sourceReading": "Current owner/native pair read for layout preservation; no new primary-source scientific review claimed",
+  "independentCorrectionReview": "pending",
+  "limitations": "Local pinned-reader measurements only; deployed-host and independent acceptance remain separate.",
+  "outputSHA256": {
+    "light": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+    "dark": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05"
+  },
+  "scope": "Same corrected native geometry and label bytes as prior private layout proposal; distinct canonical v2 names, original v1 preserved. Owner changes only image-reference path.",
+  "focusedLayoutCorrection04": {
+    "scope": "Autophagy text x attribute only: 710 to 545 in both themes. All other native element bytes and accepted03 owner bytes preserved.",
+    "labelTranslationCodeSHA256": "b54857d7901a877cef6f911b6f2235f0e179f020c72fa369e111914e1a9e0eb2",
+    "predecessorNativeSHA256": {
+      "light": "94b7e104041aae3c188a12008495bac07dce263f2ee4cdd9f12c3c55446663ca",
+      "dark": "71d1f91c6fd6ea4e6b0a713369524488b7b9276939b7eee1183377d2ec289a3d"
+    },
+    "newModelCalls": 0,
+    "newImageToolCalls": 0,
+    "independentCorrectionReview": "pending"
+  }
+}

@@ -110,5 +110,5 @@ Source check: October 10, 2026. The Target Q and processing examples are fiction
 
 - [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)
 - [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
-- [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

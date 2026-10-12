@@ -112,6 +112,6 @@ Source check: October 10, 2026. Fictional counts are teaching examples; expert a
 - [Separate cell identity from cell state](/wiki/education/multi-omics-foundations/02-cell-identity-and-state)
 - [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
 - [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
-- [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 - [Compare formats with evidence and normal-tissue risk](/wiki/education/targeted-therapy-modalities/06-comparisons)
 <!-- END GENERATED USED IN -->

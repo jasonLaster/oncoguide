@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-025",
+  "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/response-rates.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "passed": true,
+  "verdict": "PASS",
+  "passedAt": "2026-10-12T21:25:22.431Z",
+  "phase": "PROSPECTIVE_ACCEPTED_CANDIDATE_CURRENT_TASK_CONTINUITY",
+  "currentOwnerSha256": "bbe3133a0a3214728d9f8286f0f43adc4cf685998eb279f00ebc41fdb1bc52f6",
+  "currentCanonicalPreimageSha256": "b5c9843b503cdd841951d6b457dd30ef6e9dabe1c5c8711f65d2ce6a9317e4f1",
+  "sourceObservedAtReview": "14b9cb6484e9dd3e79ce31b2287de70f2276995b",
+  "originalPackageCreator": "7218",
+  "originalPackageCreatorIdentityScope": "Caller-supplied creator shorthand, preserved separately; no full UUID invented.",
+  "originalVisualAuthor": "questions-author",
+  "originalSelectedReviewer": "root",
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "090fdd83fd5eab530b86de22cdfbc898b9176acdf5d2e7f677f5c47bd4f6aa70",
+    "learnerTask": "Construct ORR, week8DCR and durable-SD CBR from the same20 participants.",
+    "gap": "No graphic shows which categories qualify at each clock.",
+    "accuracyGuardrails": "Keep protocol-defined response categories, confirmation, denominator and assessment clock attached. ORR, week-8 disease control and durable-stable-disease clinical benefit are not interchangeable or universally defined durations.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with the original independently accepted flagship candidate. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/response-rates-participants-and-clocks-v1-dark.svg",
+      "sha256": "032df9f2e4c6dd90b358fc90638370c948afbe6028097702f82e6866d1269f37"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/response-rates-participants-and-clocks-v1-light.svg",
+      "sha256": "f6a305ad8a1540b2440514d72e16870c694ec897c56c5925be164c53596e521e"
+    }
+  ],
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/response-rates.md",
+        "sha256": "bbe3133a0a3214728d9f8286f0f43adc4cf685998eb279f00ebc41fdb1bc52f6",
+        "bytes": 9590
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/response-rates-participants-and-clocks-v1-dark.svg",
+        "sha256": "032df9f2e4c6dd90b358fc90638370c948afbe6028097702f82e6866d1269f37",
+        "bytes": 23160
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/response-rates-participants-and-clocks-v1-light.svg",
+        "sha256": "f6a305ad8a1540b2440514d72e16870c694ec897c56c5925be164c53596e521e",
+        "bytes": 23161
+      }
+    ]
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-next-content-next-gap-025-canonical-binding.json",
+      "sha256": "a58b8c7b91742d82391f179aed84cf1ddf51dddbdd3d7d0f76806649ab0e26d1"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-next-content-release.json",
+      "sha256": "72ff3aa46777ebb7fb5284d19a9357205fd1a1128965595504f86f51992f56f5"
+    }
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "canonicalIntegrationVerifiedByThisReview": false,
+  "wholeOriginalHistoryNotRewritten": true,
+  "approvalMeaning": "New independent prospective exact-owner task-fit continuity only; prior approvals/scopes and current delivery refs retained, no source-grade/human/production promotion.",
+  "originalAcceptedContinuityReceipt": {
+    "sha256": "53acd12b4f00a356148151621467f9dbe0f7bdc25a2cbeebddfea3706c418fd6",
+    "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+    "reviewedAt": null,
+    "scope": "Original prospective flagship review preserved byte-for-byte privately; generated metadata successor adds no science/pixel/whole-disposition promotion."
+  },
+  "originalAcceptedOwnerSHA256": "3c397d16e5a897d420ebacfde0c28cc7cfe3fc564836bf1accc815a4a59fb199",
+  "originalSourceFitAssessment": {
+    "baselinePageSHA256": "090fdd83fd5eab530b86de22cdfbc898b9176acdf5d2e7f677f5c47bd4f6aa70",
+    "learnerTask": "Construct ORR, week8DCR and durable-SD CBR from the same20 participants.",
+    "gap": "No graphic shows which categories qualify at each clock.",
+    "accuracyGuardrails": "Keep protocol-defined response categories, confirmation, denominator and assessment clock attached. ORR, week-8 disease control and durable-stable-disease clinical benefit are not interchangeable or universally defined durations.",
+    "currentVisualFit": "adequate",
+    "reasoning": "Prospective independent-current-owner task-fit continuity only: the accepted candidate differs from the current reviewed canonical owner solely in used_by/generated backlink navigation. Its entire authored lesson and exact Try it/answer/embedded diagram/caption/Explain it back/takeaway remain byte-identical. The complete frozen same-participant endpoint task and protocol/confirmation/denominator/clock/no-survival-inference guards are retained. Both previously credited original SVG native hashes and saved prompt hash match the currently selected registry/release custody. This carries the existing task fit to the exact candidate; it grants no new pixel, scientific-source, clinical, human, production or coverage approval.",
+    "humanReview": "pending",
+    "assessmentScope": "Original new prospective peer decision from actual byte/task preservation and current credited refs; not a generated root approval or re-review of prior science/art."
+  },
+  "historicalCurrentOwnerCustody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/response-rates.md",
+        "sha256": "3c397d16e5a897d420ebacfde0c28cc7cfe3fc564836bf1accc815a4a59fb199",
+        "bytes": 9590
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/response-rates-participants-and-clocks-v1-dark.svg",
+        "sha256": "032df9f2e4c6dd90b358fc90638370c948afbe6028097702f82e6866d1269f37",
+        "bytes": 23160
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/response-rates-participants-and-clocks-v1-light.svg",
+        "sha256": "f6a305ad8a1540b2440514d72e16870c694ec897c56c5925be164c53596e521e",
+        "bytes": 23161
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/response-rates-participants-and-clocks-v1.txt",
+        "sha256": "d1d8373ad795174f3acec7ce94fcd279c6d1abb44d026e69492c821fed9585a8",
+        "bytes": 20474
+      }
+    ],
+    "hashSetRole": "Exact prospective owner plus unchanged original native pair and saved prompt. No new original bytes, pixels or scientific-source grade."
+  },
+  "reviewedAt": "2026-10-12T22:35:45.697Z",
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "3c397d16e5a897d420ebacfde0c28cc7cfe3fc564836bf1accc815a4a59fb199",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "a58b8c7b91742d82391f179aed84cf1ddf51dddbdd3d7d0f76806649ab0e26d1",
+    "originalSelectedReleaseSHA256": "72ff3aa46777ebb7fb5284d19a9357205fd1a1128965595504f86f51992f56f5",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  }
+}

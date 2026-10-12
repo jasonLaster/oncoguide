@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-042",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:45.875Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "69bf1bbdfae347afa4f80f21a9fb955280c66d7898ac3314d7f4f655cb8282b7",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+      "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+      "sha256": "ebc22265f96a3a3dffd2006ac0e3fcb3b3b8bfcbcefa2aa5fc825ee28c40da46"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+      "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg",
+      "sha256": "d140a8364c1ff78ded1249ae71e944d402fa08c8cd67dfba76c5e0292503712b"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "ab069b111c110ae408a24e00b201e51a61e061ca713d083b9b4320e951e22fe5",
+    "learnerTask": "Compare class-I and class-II physical assemblies and see that the receptor contacts a bound peptide together with its HLA molecule.",
+    "gap": "The comparison table is useful, but there is no physical structure showing heavy chain/B2M versus alpha/beta chains, the groove and the receptor contact surface. A compact two-assembly reference would support many presentation and recognition lessons.",
+    "accuracyGuardrails": [
+      "Show common structures/routes rather than absolute cell-location lists.",
+      "Peptide is bound in the groove; TCR does not recognize free peptide alone.",
+      "Typing, protein expression, recovered peptide and recognition remain separate observations."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-042-final-review.json",
+      "sha256": "41e94efdc72de78044d47348258875d9ded9b482b5303916180ba8583b088f53"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/immune-oncolytic-seven-owner-release.json",
+      "sha256": "e7c562e8739cc60c86e0ab6297cc11f5ac288c98a673b3ce0878cc14f4f4d2c3"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+        "sha256": "69bf1bbdfae347afa4f80f21a9fb955280c66d7898ac3314d7f4f655cb8282b7",
+        "bytes": 14318
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+        "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+        "bytes": 4019
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+        "sha256": "ebc22265f96a3a3dffd2006ac0e3fcb3b3b8bfcbcefa2aa5fc825ee28c40da46",
+        "bytes": 4019
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+        "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+        "bytes": 4036
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg",
+        "sha256": "d140a8364c1ff78ded1249ae71e944d402fa08c8cd67dfba76c5e0292503712b",
+        "bytes": 4036
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "c484932e4922049e9fd79ab844bdd2b6b00d018f579ea535e08c676ed47f53fa",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "41e94efdc72de78044d47348258875d9ded9b482b5303916180ba8583b088f53",
+    "originalSelectedReleaseSHA256": "e7c562e8739cc60c86e0ab6297cc11f5ac288c98a673b3ce0878cc14f4f4d2c3",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

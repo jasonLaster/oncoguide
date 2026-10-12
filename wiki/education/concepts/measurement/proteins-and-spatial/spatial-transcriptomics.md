@@ -120,5 +120,5 @@ Source check: October 10, 2026. Examples are fictional. Expert and learner revie
 ## Used in
 
 - [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)
-- [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

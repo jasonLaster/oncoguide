@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-073",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:46.080Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "0adefb4ae1d0463e262f005e234a1e2b5091881bd8220479a7f37b83ac882fc5",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+      "sha256": "d8fcc0c93e005e2fe4ba5054c2a9b7774e6f2652605475d540fb79f1b6ecaff2"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+      "sha256": "309c4c3d2ebac9a3605c0d6102617859198e5ca5d919c0cc3c490595340d95d0"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "cd4b6d9dea6b4197e0f652ca25ab81d436d4a41a13d59e0387813a2fded9177a",
+    "learnerTask": "Compare sampled genetic branches with cell states and target-rich versus target-poor regions.",
+    "gap": "There is no tree, spatial sample or population visual. A shared ancestry-and-sampling diagram can show shared/private variants across two regions, leave an unsampled region visibly unknown and use a separate state symbol so an RNA cluster is not drawn as a new genetic branch.",
+    "accuracyGuardrails": [
+      "Clonal in one biopsy is not proven truncal everywhere.",
+      "No high VAF as cell census or ancestry proof.",
+      "Shared DNA does not establish uniform surface target, peptide presentation or response."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/heterogeneity-sampled-layers-v1-independent-owner-review.json",
+      "sha256": "f85d60f347e80dc4121c9a96094d3b6c0ecfd6dd5f24ef5a78dcf94ba7a613b6"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+        "sha256": "0adefb4ae1d0463e262f005e234a1e2b5091881bd8220479a7f37b83ac882fc5",
+        "bytes": 11341
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+        "sha256": "d8fcc0c93e005e2fe4ba5054c2a9b7774e6f2652605475d540fb79f1b6ecaff2",
+        "bytes": 15692
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+        "sha256": "309c4c3d2ebac9a3605c0d6102617859198e5ca5d919c0cc3c490595340d95d0",
+        "bytes": 15692
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "438dd2c61698783fbcd10233640849a77687966e696c76c11ab5cffbd34e09f1",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "f85d60f347e80dc4121c9a96094d3b6c0ecfd6dd5f24ef5a78dcf94ba7a613b6",
+    "originalSelectedReleaseSHA256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

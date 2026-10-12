@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-077",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:46.275Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "8425b6fe1f4c76860ad2d90418431df7731d3372f0137924a3c6897c5d3cc5ab",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+      "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+      "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "e46be04478405c92c9be610e3acd99e198bf04253184295d85d8567e117d9c9e",
+    "learnerTask": "See complete versus crossed group\u2013batch confounding",
+    "gap": "Current causal map does not show the sample allocation matrix",
+    "accuracyGuardrails": "Keep group assignment and processing batches explicit, including missing group\u2013batch cells. Correction cannot create unobserved contrasts or prove removal of all confounding.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2-independent-owner-review.json",
+      "sha256": "e0b71fede199242ad0ac2c9f4f36f30366f4ea42dc4576b693af9123a3d250a2"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+        "sha256": "8425b6fe1f4c76860ad2d90418431df7731d3372f0137924a3c6897c5d3cc5ab",
+        "bytes": 7617
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+        "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32",
+        "bytes": 11177
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+        "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81",
+        "bytes": 11177
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "b9536ce4255a656ebf5345e157f08100c34f9e24881086370c7e2ef868464e21",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "e0b71fede199242ad0ac2c9f4f36f30366f4ea42dc4576b693af9123a3d250a2",
+    "originalSelectedReleaseSHA256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

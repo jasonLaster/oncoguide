@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-079",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:46.429Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "118a1310b12c76fe392c608918f1dcceb355db597ff91e247e54535f8dfc8462",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+      "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+      "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "46224523bf7c610aeded4e8a9ce26a95bcdd605e211e656884e7d7cb9b60cc9b",
+    "learnerTask": "Inspect merging, splitting and assigned marker boundaries",
+    "gap": "The workflow does not show mask errors",
+    "accuracyGuardrails": "Show raw marker channels separately from estimated masks and cell assignments. Merging, splitting and boundary uncertainty can produce apparent double positivity; an overlay is not verified cell identity/function.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-independent-owner-review.json",
+      "sha256": "820bf1089f78fbf506b7c9712e0824bfa57338104c83bdac442848e10e7c9efb"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+        "sha256": "118a1310b12c76fe392c608918f1dcceb355db597ff91e247e54535f8dfc8462",
+        "bytes": 8951
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+        "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c",
+        "bytes": 10145
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+        "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c",
+        "bytes": 10145
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "f3aa29f3629005371ff46001535f09ddb2ed0d05ee13eaed3d8585c06b4c15f4",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "820bf1089f78fbf506b7c9712e0824bfa57338104c83bdac442848e10e7c9efb",
+    "originalSelectedReleaseSHA256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

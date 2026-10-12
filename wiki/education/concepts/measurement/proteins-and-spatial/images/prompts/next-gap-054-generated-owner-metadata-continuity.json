@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-054",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:46.011Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "dc0d6b632bc9f89e1b7971afa6fd4dcf2df7e69a05c7994dda6433554316221a",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg",
+      "sha256": "89fae3a866dd6a85060b6decd3eee966ab060cb5f88dcf2ad53bd86b1eed361b",
+      "bytes": 15812
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-dark.svg",
+      "sha256": "a1b1393132561e14d922e60488544e746d3e61d43e0fbcc08426fb99fee7cee8",
+      "bytes": 15810
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "c5277059a14f196964c781afca749ade7014fb79be2caaac7a07fe9618a1926f",
+    "learnerTask": "Distinguish shared peptide evidence from an intact protein or surface count",
+    "gap": "Current workflow does not show digestion and shared-source inference",
+    "accuracyGuardrails": "Separate peptide observations, shared-source protein inference and intact/surface protein quantities. A shared peptide need not uniquely identify one protein, isoform, cell source or target accessibility.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-054-final-review.json",
+      "sha256": "039750543186bcab3dfd1caf5c99495ee0e3f342eccfdab4c3b243afc42bd53c"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/breast-molecular-seven-owner-release.json",
+      "sha256": "402fcec9231d5468ea311e7aeb60515048cbd07ca8388a8a6085f7a9af1b2e30"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md",
+        "sha256": "dc0d6b632bc9f89e1b7971afa6fd4dcf2df7e69a05c7994dda6433554316221a",
+        "bytes": 9733
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg",
+        "sha256": "89fae3a866dd6a85060b6decd3eee966ab060cb5f88dcf2ad53bd86b1eed361b",
+        "bytes": 15812
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-dark.svg",
+        "sha256": "a1b1393132561e14d922e60488544e746d3e61d43e0fbcc08426fb99fee7cee8",
+        "bytes": 15810
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "27121bae26d471641a376f9f1e6e7937ebdb943d1baceb499f99bb716be64c2b",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "039750543186bcab3dfd1caf5c99495ee0e3f342eccfdab4c3b243afc42bd53c",
+    "originalSelectedReleaseSHA256": "402fcec9231d5468ea311e7aeb60515048cbd07ca8388a8a6085f7a9af1b2e30",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}

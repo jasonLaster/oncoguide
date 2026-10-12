@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-artwork-correction",
+  "id": "next-gap-060",
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "agent": "Codex",
+    "threadId": "01a12e63-4091-7c82-8105-dc97654fec70",
+    "chatTitle": "NHEJ sequence diagram",
+    "role": "Code-authored replacement native artwork and focused label-position correction; distinct from root canonical integration and current independent reviewer"
+  },
+  "originalCreativeAuthor": {
+    "agent": "Codex",
+    "chatTitle": "Cartoon planning: immune barriers",
+    "threadId": "01a12e5c-60fd-76a0-870a-ed25333c5cac",
+    "role": "original mechanisms candidate writing and code-SVG construction",
+    "identityEvidence": "Author completion record names this mechanisms package and its exact original manifest hash. Canonical integration is a separate role.",
+    "authorPackageManifestSHA256": "833aec9558c74e01547eeddd2428fac5ee8198b0e45ec46d61f8803df2f80970"
+  },
+  "reviewer": "thread:01a12e5c-b820-7f30-8788-9fcc44878368",
+  "reviewerThreadId": "01a12e5c-b820-7f30-8788-9fcc44878368",
+  "reviewerRole": "Independent current-owner task-fit artwork-correction reviewer",
+  "reviewedAt": "2026-10-12T21:47:21.195035Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "532a1698de2290272f6e30bffca3f793735ff4e0455bbf5b8393ee5e620d4e23",
+  "intendedPublicPath": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v2-independent-current-owner-task-fit-artwork-correction.json",
+  "bindingScope": "Prospective narrow pixel approval for this exact replacement pair and unchanged corrected owner. Original frozen task/scientific acceptance/source limits preserved; no new visual gap or coverage credit.",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+    "baselinePageSHA256": "caec14096e4063ce876919127b725093525c05a3fe2b4d04466d0ccdabd21d14",
+    "learnerTask": "Distinguish membrane-lipid signaling and protein phosphorylation while locating mTORC1 and mTORC2 as different complexes.",
+    "gap": "No map supports a fairly dense multi-molecule mechanism. A compact compartment-aware network with PI3K/PTEN around PIP3, AKT recruitment and separately labeled C1/C2 outputs would expose the lipid-versus-protein and complex distinctions, with feedback shown only as a scoped possible response.",
+    "accuracyGuardrails": [
+      "Not one unbranched universal wiring chain.",
+      "PI3K modifies lipids; AKT/mTOR protein substrates are separate.",
+      "No RNA-score-as-activity, initiation-as-flux or inhibitor-benefit inference."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "Membrane PIP2/PIP3 chemistry is separate from AKT1 protein sites, PDK1 Thr308 and mTORC2 Ser473. The two mTOR complexes have named selected partners and different outputs. The AKT/C1 arrow explicitly omits regulators; C1 restraint concerns initiation, not flux. A separate possible perturbation-response inset and both answered exercises reject timing-to-causation, RNA-to-activity and biochemical-change-to-dependence/benefit inferences.",
+    "humanReview": "pending"
+  },
+  "frozenTaskBinding": {
+    "frozenPageVisualReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "selectionSHA256": "7a5ae7ea27b8652031cbdedc9da9e09f2f78b2b8ecf8f71d6bbb2ecd165f9d33",
+    "baselineRole": "Original frozen task identity, not a new audit or coverage denominator."
+  },
+  "originalFullReview": {
+    "receiptSHA256": "cdadd54e3c932e403f1f3df7a6b751447ef4f358a5699651955614e6ce39bf0a",
+    "manifestSHA256": "23a6a0ea12a109ef24dc2705ff5bc1fea13f75adcbfdf0b2799e4c06ed911402",
+    "rootSealSHA256": "61e570046948b35f17e085da8b2cc2a2890708845c15160672790d4324ded331",
+    "passedAt": "2026-10-12T20:07:23.207841+00:00",
+    "inputAuthorSealSHA256": "111d033a475a6b418efab94b4cb3fd6ea8cb350437e1b5486270eeaf8a1ba3e6",
+    "sourceAccessLimits": {
+      "NCI": "Selected actual metastasis identity/cascade/persistence and angiogenesis/endothelial/VEGF paragraphs read fresh; treatment inventories and recommendations not used.",
+      "selectedRetainedPrimaryText": "Personally read Ganley first four retained publisher selections (reagents, culture, phosphorylation caption, ULK1 regulation) and first two paragraphs in each of the two declared Ghajar Results sections. Retained captures are author-custodied primary text, not newly fetched full-paper evidence.",
+      "depthJudgment": "Author metadata accurately separates abstract reading, selected full-text passages, acquired-but-unread material and failed XML/limited PubMed routes. No whole-paper, original figure/video or full Methods review certified.",
+      "sourceBoundary": "Fictional ratios/counts/speeds and symbolic SVGs are not paper data or patient outcomes. Model-specific vessel/ECM/dormancy results do not become universal therapy claims."
+    },
+    "nativeReviewScope": "Independent native SVG responsive carriers at 1200px and 390px; not either maintained reader or a deployed route.",
+    "custody": "Original independent review privately retained unchanged; these hashes are historical evidence locators, not promises of a publicly delivered source/capture/executable package."
+  },
+  "custody": {
+    "scope": "Exact corrected owner, replacement matched native pair, construction TXT and provenance; original v1 and historical review remain preserved.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+        "sha256": "532a1698de2290272f6e30bffca3f793735ff4e0455bbf5b8393ee5e620d4e23",
+        "bytes": 9473
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+        "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+        "bytes": 12373
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+        "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+        "bytes": 12373
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v2.txt",
+        "sha256": "7dae37c3efa619e4cd2ab164651cafce562eec8a5e0ebf811f84de3d6b388b24",
+        "bytes": 750
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v2.provenance.json",
+        "sha256": "a2824a1648f77c093c5e1492c5081b572fa10e4ffa62128f39af50b125bae55e",
+        "bytes": 2402
+      }
+    ]
+  },
+  "currentOwnerCustody": {
+    "scope": "Exact corrected owner, replacement matched native pair, construction TXT and provenance; original v1 and historical review remain preserved.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+        "sha256": "532a1698de2290272f6e30bffca3f793735ff4e0455bbf5b8393ee5e620d4e23",
+        "bytes": 9473
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+        "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+        "bytes": 12373
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+        "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+        "bytes": 12373
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v2.txt",
+        "sha256": "7dae37c3efa619e4cd2ab164651cafce562eec8a5e0ebf811f84de3d6b388b24",
+        "bytes": 750
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v2.provenance.json",
+        "sha256": "a2824a1648f77c093c5e1492c5081b572fa10e4ffa62128f39af50b125bae55e",
+        "bytes": 2402
+      }
+    ]
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v1-independent-owner-review.json",
+      "sha256": "d9aaddbdf358fa15cd0a32c63e5b95657ecdd4aed73f43624aac8a62a438f601"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/fifteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "cd9874459627eb0c7bc9bd775170c116ca21c4cef162610f487aa26bee529c72"
+    }
+  },
+  "priorReleases": [
+    {
+      "sourceCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+      "companionCommit": "dda084dd2be9eba3d6bdd8487c1020e7dc964b43",
+      "receipt": {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/releases/fifteen-owner-visuals-2026-10-12-owner-continuity.json",
+        "sha256": "cd9874459627eb0c7bc9bd775170c116ca21c4cef162610f487aa26bee529c72"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+      "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+      "bytes": 12373,
+      "nativeDimensions": [
+        900,
+        1880
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+      "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+      "bytes": 12373,
+      "nativeDimensions": [
+        900,
+        1880
+      ]
+    }
+  ],
+  "newPixelApproval": true,
+  "pixelApproval": {
+    "scope": "exact-replacement-native-pair",
+    "outputs": [
+      {
+        "theme": "light",
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+        "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+        "bytes": 12373,
+        "nativeDimensions": [
+          900,
+          1880
+        ]
+      },
+      {
+        "theme": "dark",
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+        "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+        "bytes": 12373,
+        "nativeDimensions": [
+          900,
+          1880
+        ]
+      }
+    ],
+    "reasoning": "Independent focused native/context inspection and actual pinned reader checks confirm the moved Autophagy label clears its icon and nearby labels in both themes. Transparent raster masks show zero actual glyph/icon and connector/label intersections. All other native bytes are identical to correction03, whose whole-pair/task-preservation findings are retained. At 393x700 the unmodified default preview has a 14.14px minimum label and inline 16.87px, zero vertical letterboxing; desktop checks also pass without zoom/pan or reader CSS workarounds."
+  },
+  "artworkCorrection": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "previousOwnerSHA256": "86b44799d2eb1dc983baed4efb1719b718dba85db99f7e91e5562c4893ded59b",
+    "ownerImagePathReplacements": [
+      {
+        "from": "./images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+        "to": "./images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg"
+      }
+    ],
+    "ownerImageDimensionReplacements": [
+      {
+        "srcBefore": "./images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+        "srcAfter": "./images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+        "before": [
+          600,
+          2050
+        ],
+        "after": [
+          900,
+          1880
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "theme": "light",
+        "before": {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+          "sha256": "13d92cbf14cc5f1189423c3818aa80fe3ba1e79d03bdb991eee4f92d0667fe54",
+          "bytes": 12096,
+          "nativeDimensions": [
+            600,
+            2050
+          ]
+        },
+        "after": {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+          "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+          "bytes": 12373,
+          "nativeDimensions": [
+            900,
+            1880
+          ]
+        }
+      },
+      {
+        "theme": "dark",
+        "before": {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-dark.svg",
+          "sha256": "f46ca03ec452079cd29cec7940e0525539efcfd797b17b7dee156e49c31c69e5",
+          "bytes": 12096,
+          "nativeDimensions": [
+            600,
+            2050
+          ]
+        },
+        "after": {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+          "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+          "bytes": 12373,
+          "nativeDimensions": [
+            900,
+            1880
+          ]
+        }
+      }
+    ]
+  },
+  "sourceBinding": {
+    "checkedAt": "2026-10-12T22:23:34.533228Z",
+    "originalPixelReviewBaselineSourceCommit": "14b9cb6484e9dd3e79ce31b2287de70f2276995b",
+    "priorBindingCheckedAt": "2026-10-12T21:33:38.215074+00:00",
+    "actualCommittedPreimagesAndPriorSelectedReviewReleaseRefsIdentical": true,
+    "verifiedCustodyMembers": 7,
+    "sourceBindingOnly": true,
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "previousBaselineSourceCommit": "e007c348fdf2a1fe08dc125ae8be26cfa89ac8d1",
+    "previousBinding": {
+      "checkedAt": "2026-10-12T21:47:21.283282+00:00",
+      "originalPixelReviewBaselineSourceCommit": "14b9cb6484e9dd3e79ce31b2287de70f2276995b",
+      "priorBindingCheckedAt": "2026-10-12T21:33:38.215074+00:00",
+      "actualCommittedPreimagesAndPriorSelectedReviewReleaseRefsIdentical": true,
+      "verifiedCustodyMembers": 7,
+      "sourceBindingOnly": true
+    },
+    "previous63BindingCheckedAt": "2026-10-12T22:19:05.452071+00:00",
+    "previousSchemaBindingCheckedAt": "2026-10-12T22:19:38.190587Z"
+  },
+  "pixelReviewContinuity": {
+    "originalPixelReviewAt": "2026-10-12T21:30:58.899858+00:00",
+    "originalWholePairTaskPreservationAndDefaultPreviewFindingsRetained": true,
+    "focusedSuccessor04HandoffSHA256": "2adad382cd9ec5d044ac7cb3c4c7ea0a28e15c49da34eeacba9979d74c2e0553",
+    "focusedSuccessor04SealSHA256": "a76187ea6190f3fc9b0fd3e8acf825faa734a210e9b31b92114a147f30423d60",
+    "onlyNativeDeltaFrom03": "Autophagy text x=710 to x=545 in each theme; all other native bytes and corrected owner bytes unchanged.",
+    "newScienceReviewPerformed": false,
+    "currentFocusedPixelReviewAt": "2026-10-12T21:47:21.195035+00:00"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newScientificSourceApproval": false,
+  "originalScientificAcceptancePreserved": true,
+  "productionVerifiedByThisReview": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newVisualGapCredit": 0,
+  "baselineRebinding": {
+    "type": "committed-preimage-and-custody-binding-only",
+    "checkedAt": "2026-10-12T22:19:38.190587Z",
+    "fromBaselineSourceCommit": "e007c348fdf2a1fe08dc125ae8be26cfa89ac8d1",
+    "toBaselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "previousPublicReceipt": {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v2-independent-current-owner-task-fit-artwork-correction.json",
+      "sha256": "14ac05811931c763bf4d2927ae8dc1158cff21e31f63853b415194dcf66b5ab2"
+    },
+    "originalPixelPASSReviewedAt": "2026-10-12T21:47:21.195035+00:00",
+    "sevenSourcePreimagesAndOriginal060RegistryRowUnchanged": true,
+    "pixelReviewRepeated": false,
+    "scienceReviewRepeated": false,
+    "newCoverageCredit": 0
+  },
+  "inheritedPixelReview": {
+    "reviewType": "independent-current-owner-task-fit-artwork-correction",
+    "verdict": "PASS",
+    "originalReviewedAtRaw": "2026-10-12T21:47:21.195035+00:00",
+    "originalReviewedAtUTC": "2026-10-12T21:47:21.195035Z",
+    "receipt": {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v2-independent-current-owner-task-fit-artwork-correction.json",
+      "sha256": "14ac05811931c763bf4d2927ae8dc1158cff21e31f63853b415194dcf66b5ab2"
+    },
+    "pixelDecisionAndFindingsUnchanged": true,
+    "timestampFormatOnly": "Same actual original04 pixel-review instant, UTC Z serialization; no new pixel or science review."
+  },
+  "receiptFormatSuccessor": {
+    "previousBaseline63ReceiptSHA256": "0a24e272c8969a753c00abb18bcf1f5405aba965b40b37f193e5649265da9d13",
+    "previousBindingCheckedAtRaw": "2026-10-12T22:19:05.452071+00:00",
+    "scope": "UTC Z gate serialization and fresh committed-source custody binding only; prior receipts remain immutable."
+  },
+  "historicalPriorReviews": [
+    {
+      "reviewType": "independent-new-owner-task-fit",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v1-independent-owner-review.json",
+      "sha256": "d9aaddbdf358fa15cd0a32c63e5b95657ecdd4aed73f43624aac8a62a438f601",
+      "verdict": "PASS",
+      "passedAt": "2026-10-12T20:12:50.810022+00:00"
+    },
+    {
+      "reviewType": "independent-current-owner-task-fit-artwork-correction",
+      "reviewer": "thread:01a12e5c-b820-7f30-8788-9fcc44878368",
+      "reviewedAt": "2026-10-12T21:30:58.899858+00:00",
+      "receiptSHA256": "99fd30863562c54b5ea59cb1d6275e8d616f4238f651a1ae9bcb5530692e4ff5",
+      "verdict": "REVISE",
+      "handoffSHA256": "0996cd127bc2cccb5e06e518ee72314de7618ca30ff2d192f4b5c62f067048f8",
+      "issue": "PI3K-C03-autophagy-icon-label-01",
+      "custody": "Private independent receipt and complete evidence retained unchanged; this successor resolves its label collision only."
+    }
+  ],
+  "historicalCustody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+        "sha256": "86b44799d2eb1dc983baed4efb1719b718dba85db99f7e91e5562c4893ded59b",
+        "bytes": 9473
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+        "sha256": "13d92cbf14cc5f1189423c3818aa80fe3ba1e79d03bdb991eee4f92d0667fe54",
+        "bytes": 12096
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-dark.svg",
+        "sha256": "f46ca03ec452079cd29cec7940e0525539efcfd797b17b7dee156e49c31c69e5",
+        "bytes": 12096
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v1.txt",
+        "sha256": "7ee18b1b6ece5267623992852c1d5933c7a1eacd474a8702db9eaac85cf0410c",
+        "bytes": 807
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v1-provenance.json",
+        "sha256": "0959dfbd47bb95742e727c4b37fea809874ccfb67bea800b6601847da80aa364",
+        "bytes": 2236
+      }
+    ],
+    "scope": "Complete accepted owner, original matched native pair, code-construction TXT and ordinary provenance JSON. Raw sources, generator execution, captures and original full-review package remain private, not public delivery members."
+  },
+  "schemaBinding": {
+    "checkedAt": "2026-10-12T22:23:34.533228Z",
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "previousPublicReceiptSHA256": "ce81b80c1e349e921d4304e561d4cff28b4f5de0da0034edd317435da74e12f0",
+    "scope": "Maintained schema, committed prior-selection refs and exact current-candidate custody only; historical prior-review array and original v1 custody preserved separately. Original04 pixel PASS instant, findings and source/science limits unchanged.",
+    "maintainedHelperSHA256": "ab8c4c1a5eaddea157beb77c26a8a31ef63fcda5ca636009785cfddc59436156",
+    "pixelReviewRepeated": false,
+    "scienceReviewRepeated": false,
+    "deliveryEvidenceCreated": false,
+    "newCredit": 0
+  }
+}

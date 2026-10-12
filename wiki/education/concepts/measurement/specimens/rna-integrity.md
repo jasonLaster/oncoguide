@@ -98,5 +98,5 @@ Source check: October 9, 2026. Expert and learner review remain pending. Example
 ## Used in
 
 - [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
-- [Understand multi-omics, one question at a time](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

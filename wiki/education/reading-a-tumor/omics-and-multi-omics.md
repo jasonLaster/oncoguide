@@ -1,19 +1,19 @@
 ---
-title: "Understand multi-omics, one question at a time"
+title: "What does multi-omics tell us about a tumor?"
 type: "guide"
 goal: "Explain what DNA, RNA, protein, location, function and time each add to a tumor finding."
 audience: "Curious reader; no specialist biology assumed"
 minutes: 146
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-10-12
+source_checked: "2026-10-12"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Understand multi-omics, one question at a time
+# What does multi-omics tell us about a tumor?
 
 **Learn what each molecular layer measures, then combine compatible observations into a claim you can explain.** You do not need to memorize hundreds of genes. Start with the object measured and the question it can answer.
 
@@ -78,6 +78,35 @@ Imagine a supported splice-site DNA change in repair gene R. RNA analysis finds 
 
 They do not yet establish a drug's clinical benefit. The [[wiki/education/molecular-profiling/07-from-data-to-care-plan|final lesson's integrated ledger]] traces the full chain, including sample attribution, drug perturbation and the remaining clinical gate. The [[wiki/education/reading-a-tumor/index|report-reading checklist]] helps translate each real report into the same structure.
 
+## Try it: complete the repair story without skipping a bridge
+
+Stay with the fictional R case above. The DNA, RNA and staining came from attributed portions of one pretreatment tissue region. The functional experiment used a derived model. An extra report repeats the original DNA call. No clinical treatment study is supplied.
+
+Build a claim ledger before reading the answer. For each row, write what was directly observed and one conclusion that still needs evidence.
+
+| Evidence record | Your question |
+|---|---|
+| DNA: supported splice-site change | Has a changed sequence established its effect on the message? |
+| RNA: abnormal message measured | Has a changed message established loss of intact protein? |
+| Protein: reduced staining in malignant cells | Has a lower signal established current repair failure? |
+| Function: impaired repair in a controlled derived model | Does the result represent every region of the original tumor? |
+| Repeated DNA report: same source call | Is this an independent molecular confirmation? |
+| Proposed drug: a plausible repair-related hypothesis | Have benefit, safe use and eligibility been established? |
+
+Now write two sentences: the strongest integrated biological claim, and the next question needed before a treatment conclusion.
+
+**One answer:** The compatible sequence, message and cell-specific staining support a repair-defect hypothesis. The controlled model adds evidence of impaired repair under its conditions. They do not show the intact protein amount in every cell, the function of every tumor region or a drug's clinical benefit. The repeated DNA report adds no independent observation.
+
+A useful next question is whether suitable clinical evidence connects this biomarker to benefit in the intended disease and treatment setting, using a validated assay and applicable eligibility rules. Model drug-response testing could address an experimental sensitivity question; it cannot answer that clinical question by itself. A validated clinical pathway may also use fewer molecular layers than this teaching case.
+
+**Explain it back:** “These measurements support ___ in ___; the bridge to ___ remains untested.”
+
+One answer: “a repair-defect hypothesis; the attributed sampled tissue and tested model; patient benefit.” If the RNA came from a different post-treatment block, first repair the sample comparison rather than present it as a directly connected pretreatment chain.
+
+## Takeaway
+
+**Multi-omics helps you connect specific observations and find the missing bridge; it does not turn the number of assays into proof of treatment benefit.**
+
 ## Choose a shorter route
 
 New to the words? Read steps 1–5 before jumping to an assay. Reading a splice finding? Follow steps 6, 9, 10, 11 and 15. Evaluating a surface target? Follow steps 2, 8, 10, 11 and 15. Reading a blood result? Use step 14 and the [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|units reference]].
@@ -98,7 +127,7 @@ No one measurement captures every region, cell or timepoint. Cell assignment, sa
 
 ## Sources and scope
 
-Source check: October 9, 2026. Individual lessons cite the relevant methods and primary studies. Expert and learner review remain pending.
+Source check for the landing-page exercise: October 12, 2026. Individual lessons retain their own scoped source checks and cite the relevant methods and primary studies. Expert and learner review remain pending.
 
 - [NHGRI central dogma](https://www.genome.gov/genetics-glossary/Central-Dogma).
 - [NCI biomarker testing](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).

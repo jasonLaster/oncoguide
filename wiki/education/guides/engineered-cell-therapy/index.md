@@ -3,7 +3,7 @@ title: "How engineered immune cells can attack a solid tumor"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: 2026-10-11
+updated: 2026-10-12
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -59,6 +59,8 @@ Suggested reading budgets help pace the course; they are not measured completion
 | 9 | [Compare therapy families](/wiki/education/cellular-therapies/02-car-tcr-til-comparison) | How do recognition system and cell source differ? | 8 | Recognition comparison |
 
 Start with [the recognition board](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target#tnbc-recognition-and-measurement-board), carry the specification through [the tissue barriers](/wiki/education/cellular-therapies/08-solid-tumor-barriers#carry-a-recognition-specification-through-the-tissue) and [safety plan](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan), then test your reading with [the cumulative evidence packet](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence#try-it-one-complete-product-packet).
+
+Optional practice: [read a research-product study without losing the denominator](/wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study). This seven-minute extension uses a dated clinical research report after lesson eight; it is outside the nine-step reading budget.
 
 ## Concepts you will use
 

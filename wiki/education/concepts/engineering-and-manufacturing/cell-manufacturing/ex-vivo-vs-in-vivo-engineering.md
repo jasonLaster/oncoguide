@@ -7,7 +7,7 @@ glossary_anchor: "ex-vivo-vs-in-vivo-engineering"
 aliases: ["ex vivo engineering", "in vivo engineering"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/tools/in-vivo-car-t-learning-lab]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/tools/in-vivo-car-t-learning-lab]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-10"
@@ -98,6 +98,7 @@ Source check: October 10, 2026; expert and learner review pending. These sources
 
 - [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [Read a research-product study without losing the denominator](/wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 - [CAR-T learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab)
 <!-- END GENERATED USED IN -->

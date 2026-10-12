@@ -8,7 +8,7 @@ objectives: ["Distinguish inflamed, excluded and desert observations.", "Explain
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
+updated: 2026-10-12
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -76,6 +76,8 @@ Now suppose a second sample has cells throughout the tumor. That establishes a d
 ### Shared visual reference
 
 <img src="../concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg" alt="Three matching fictional tumor-tissue fields show eight specified T-cell symbols in both inflamed and excluded patterns, relocated from mainly inside cancer-cell regions to surrounding stroma; a desert field has two. Symbol count is distinct from a stromal-area score." data-theme-pair width="600" height="1500">
+
+[Open the canonical matched tissue fields](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor#shared-visual-reference). Compare where the same specified T-cell symbols sit before looking at how many there are.
 
 *Fictional fields: inflamed and excluded have the same eight T-cell symbols, with different locations; desert has two. The outlines mark regions, not a proven wall. Counts are not a stromal-area lymphocyte score, and no clinical cutoff, receptor target, killing or treatment response follows.*
 

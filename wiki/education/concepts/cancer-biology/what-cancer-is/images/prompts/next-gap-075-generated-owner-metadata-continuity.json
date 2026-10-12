@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-075",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+  "author": "root",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-12T22:35:46.145Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "a91ae1b707d70e48942bc08273bc87652e8f5336ad77bec62e1ad47fd17e2b15",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+      "sha256": "8b9ac13c07b940c98f637284fd60ed90767d5ed9f761730503c656556c8de8e4"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+      "sha256": "2939b25613fd4ac356c4abdfa9879cc36c39fc16829b0d3f3154c3706796ddba"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "8b3a3f58bf7e4aecb75757362f29b3f7028a407b8196ce4865593c30f60b8685",
+    "learnerTask": "Contrast overactive growth function with reduced safeguards while treating two-hit, dosage and dominant-negative mechanisms separately.",
+    "gap": "The accelerator/brake analogy and exceptions are careful but entirely verbal. A small functional-copy/protein-interaction diagram could show why one retained copy is not universally sufficient and why an altered partner may interfere, without turning gene names into predictions.",
+    "accuracyGuardrails": [
+      "Two hits are not a universal law.",
+      "Model-specific p27/TP53 examples cannot label every human variant.",
+      "Activity and dependence remain different claims."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact final owner with its exact committed previously credited owner. Removing only the generated used_by metadata and marked Used in navigation block reproduces the entire prior teaching bytes exactly. The remaining delta is generated route ordering, additions and/or displayed destination titles. Scientific prose, learner exercises, alt/caption/theme attributes and complete native-image embed bytes are unchanged. I independently bound the original frozen learner task and guardrails, selected PASS review/release and every unchanged selected native SHA-256. The prior adequate task fit therefore remains applicable to this final owner. This is current-owner metadata continuity only, without a repeated scientific-source or native/pixel review or new credit.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/gene-function-copies-and-partners-v1-independent-owner-review.json",
+      "sha256": "1a096e8720bc16f8b33b200f17dae0cb5d1635aa35b931e39f2ec9ba3b43912c"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "custody": {
+    "scope": "Exact generated-metadata current owner and unchanged credited native outputs; original scientific/native evidence retained unchanged.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+        "sha256": "a91ae1b707d70e48942bc08273bc87652e8f5336ad77bec62e1ad47fd17e2b15",
+        "bytes": 8956
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+        "sha256": "8b9ac13c07b940c98f637284fd60ed90767d5ed9f761730503c656556c8de8e4",
+        "bytes": 10755
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+        "sha256": "2939b25613fd4ac356c4abdfa9879cc36c39fc16829b0d3f3154c3706796ddba",
+        "bytes": 10755
+      }
+    ]
+  },
+  "generatedMetadataContinuity": {
+    "baselineSourceCommit": "63ab038b2f430ebc32c857bb0fff6b0ff235b99c",
+    "comparisonPreimageSHA256": "1dbf82bd54d4c0559f426c5bc5a6775d410255e8517634926106c46cb5ac1d94",
+    "reviewedGeneratedMetadataDelta": true,
+    "nonGeneratedTeachingBytesUnchanged": true,
+    "nativeEmbedBytesUnchanged": true,
+    "originalSelectedReviewSHA256": "1a096e8720bc16f8b33b200f17dae0cb5d1635aa35b931e39f2ec9ba3b43912c",
+    "originalSelectedReleaseSHA256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293",
+    "preservedSourceDepthAndReviewLimits": "Original scientific-source access/depth, original native/pixel judgments, historical REVISE decisions and original dispositions/grades are preserved under their original immutable receipt hashes; this successor supplies no wider acceptance.",
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false
+}
