@@ -7,7 +7,7 @@ glossary_anchor: "organoid"
 aliases: ["organoid", "organoids", "patient-derived organoid", "PDO"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
 sensitive: false
 tags: ["education", "functional-models"]
 updated: "2026-10-10"
@@ -103,4 +103,5 @@ Assay-card and practice completion checked October 10, 2026. The methods below c
 
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
 - [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
+- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
 <!-- END GENERATED USED IN -->

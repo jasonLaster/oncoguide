@@ -3,7 +3,7 @@ title: "How engineered immune cells can attack a solid tumor"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-10"
+updated: 2026-10-11
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -49,14 +49,16 @@ Suggested reading budgets help pace the course; they are not measured completion
 | Step | Lesson | Question | Minutes | Learning aid |
 |---|---|---|---|---|
 | 1 | [Living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer) | What is administered, and whose cells are used? | 8 | Source-versus-engineering example |
-| 2 | [Choose a safe target](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target) | How do tumor coverage and normal-tissue expression interact? | 10 | Coverage worksheet |
+| 2 | [Specify recognition and a safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target) | How do tumor coverage and normal-tissue expression interact? | 10 | Eight-label recognition/measurement board |
 | 3 | [Build the receptor](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks) | How do instructions become a functional receptor? | 10 | Component map and labeled architecture |
 | 4 | [Deliver the instructions](/wiki/education/cellular-therapies/06-in-vivo-delivery) | What differs between ex vivo and in vivo engineering? | 12 | Two targeting jobs |
 | 5 | [Tune behavior](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors) | How do added signals, armoring and recognition rules change behavior? | 10 | Coverage-versus-selectivity exercise |
 | 6 | [Enter a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers) | Which independent barriers remain? | 10 | Target-negative survivors |
 | 7 | [Read the safety plan](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan) | Which harms and control mechanisms were actually tested? | 10 | Risk-to-measurement table |
-| 8 | [Read the evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence) | What does each experiment establish? | 12 | Fictional growth curves |
+| 8 | [Read a complete-product packet](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence) | What does each experiment establish? | 12 | Seven cards and nine answered questions |
 | 9 | [Compare therapy families](/wiki/education/cellular-therapies/02-car-tcr-til-comparison) | How do recognition system and cell source differ? | 8 | Recognition comparison |
+
+Start with [the recognition board](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target#tnbc-recognition-and-measurement-board), carry the specification through [the tissue barriers](/wiki/education/cellular-therapies/08-solid-tumor-barriers#carry-a-recognition-specification-through-the-tissue) and [safety plan](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan), then test your reading with [the cumulative evidence packet](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence#try-it-one-complete-product-packet).
 
 ## Concepts you will use
 
@@ -70,7 +72,7 @@ Suggested reading budgets help pace the course; they are not measured completion
 
 **Added signals:** [cytokine therapy](/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy) explains administered signaling proteins. A cytokine drug, a cytokine measured in an assay and an engineered cell that produces a cytokine are distinct interventions or observations.
 
-**Product and context:** [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape), [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) and the receptor concepts above. A mechanism explains a dependency; the trial or clinical owner establishes an option.
+**Product and context:** [lipid nanoparticles (LNPs)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle), [T-cell states and exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-states), [the tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape), [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) and the receptor concepts above. A mechanism explains a dependency; the trial or clinical owner establishes an option.
 
 **Manufacturing and safety:** [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion), [insertional mutagenesis](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/insertional-mutagenesis), [ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering), [lentiviral vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector), [adeno-associated virus (AAV) vectors](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector), [transposons](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon), [good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release), [cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome), [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) and [on-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity).
 

@@ -97,6 +97,46 @@ A fictional manufacturer shortens a spacer to improve production. The team recor
 
 Use [platform versus personalized components](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components) to locate the change: a patient-specific sequence and a shared formulation raise different review questions.
 
+### Worked panel: same RNA mass, different display signal
+
+A fictional team keeps the target-window labels and formulation, but shortens an encoded spacer. Version 2 is a revised **construct**, even if the reason was easier manufacture. Read the attributes separately before arguing that earlier evidence still applies.
+
+**All numbers below are invented.** Before → after means version 1 → version 2. A, B and C are three independently prepared matched material pairs, not people or doses. Each signal entry is the mean of two technical wells from that preparation. The RNA amount describes the prepared material, not an administered dose.
+
+The reporter is a stipulated expression surrogate, not a validated measure of target-B display. The display assay reports relative cell-surface target-B peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) signal in one defined laboratory model.
+
+| Matched pair | RNA amount (mg), before → after | Reporter activity (arbitrary units), before → after | Target-B display signal (arbitrary units), before → after |
+|---|---|---|---|
+| A | 1 → 1 | 100 → 104 | 9 → 3 |
+| B | 1 → 1 | 98 → 101 | 8 → 3 |
+| C | 1 → 1 | 102 → 100 | 10 → 4 |
+
+**Fictional assay notes:** Both versions use the same formulation, cell model, test methods and observation time. Test inputs are matched by RNA mass. Within each signal assay, normalization to viable cells and a common reference is unchanged. No-RNA and no-target-B controls are described as background; reference material gives its expected signal. These are stipulated qualitative control notes, not supplied raw control results.
+
+**What is missing:** Raw wells and controls, assay precision and range, detection/quantification limits, prespecified comparison bounds and product-release limits. The two arbitrary-unit scales are separate: reporter 100 and display 9 are not commensurate measurements. Compare before with after within each assay and its fixed normalization.
+
+**1. Which attributes changed in each pair?**
+
+**One answer:** Reported RNA mass is unchanged. Reporter changes are +4, +3 and −2 units: about +4.0%, +3.1% and −2.0%. Display changes are −6, −5 and −6 units: decreases of 66.7%, 62.5% and 60.0%. For a decrease, calculate `(before − after) / before × 100` separately for each pair. All three pairs show a reported display-signal drop worth investigating. Nearby reporter values do not establish equivalence or matched target-B display.
+
+**2. What makes the pairs and controls interpretable?**
+
+**One answer:** There are three independent preparation pairs. Two technical wells check measurement repeatability; they do not turn three preparations into six independent ones. Ask for the actual background, specificity and reference-control records, viable-cell normalization and method performance. Equal mass also need not mean equal RNA molecule counts after a length change. Length, integrity and appropriate input normalization matter before claiming matched molecular exposure. The short control notes do not establish that either assay is fully validated.
+
+**3. What bridge is needed before carrying earlier evidence forward?**
+
+**One answer:** This is a design edit, not a process-only change. If the team wants to reuse earlier design/function evidence, it needs an explicit justification for the altered construct alongside any manufacturing review. A process bridge alone does not cover the changed message. Investigate whether the display result reflects altered processing/display or assay/input effects, using relevant characterization and functional comparisons. State comparison criteria in advance and justify them for the intended use. The table supplies neither those criteria nor release limits. It cannot decide lot disposition, prove that the spacer caused the difference, or determine whether further nonclinical or clinical studies are needed. [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) and [potency assays](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) explain the separate evidence questions.
+
+**4. Would a justified bridge prove natural tumor recognition or benefit?**
+
+**One answer:** No. A laboratory comparison can support only its defined activities and conditions. Natural tumor peptide display, recognition by the relevant T cells and clinical benefit require their own evidence. This assay model supplies none of those outcomes. Even a convincing bridge to an earlier laboratory result cannot turn that earlier result into proof of patient benefit.
+
+**5. Can this panel rank RNA-LPX versus RNA-LNP or supply handling instructions?**
+
+**One answer:** No. It compares two fictional versions under one stipulated formulation. It has no head-to-head formulation comparison, clinical outcomes or stability/handling evidence. Keep the published product cards attached to their own formulations, routes and protocols. A reporter result cannot supply a different product's handling or stability requirements.
+
+*Exercise source check: October 11, 2026. The [Q5E final guideline, 2005](https://www.fda.gov/media/71489/download) provides manufacturing-comparison principles within its stated cell-culture protein/polypeptide scope. Using those principles here is an analogy, not an RNA-product regulatory determination. The [U.S. Food and Drug Administration (FDA) vaccine chemistry, manufacturing and controls (CMC) guidance, 1999](https://www.fda.gov/media/73614/download) concerns license applications; the [FDA therapeutic cancer-vaccine guidance, 2011](https://www.fda.gov/media/82312/download) concerns investigational clinical studies. None supplies limits for this toy panel. Expert and learner review remain pending.*
+
 ## Read the quality handoff
 
 Separate the [GMP quality system](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) from the [chemistry, manufacturing and controls (CMC) evidence package](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls), a [certificate of analysis](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis) and the [batch-release decision](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release). They connect, but answer different questions.

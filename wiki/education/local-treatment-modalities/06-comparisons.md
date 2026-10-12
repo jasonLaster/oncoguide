@@ -43,6 +43,45 @@ A fraction is a radiation treatment session. Hypofractionation describes dose pe
 
 FAST-Forward compared postoperative whole-breast or chest-wall schedules in a defined early-breast-cancer population, including a five-session schedule. That supplies evidence about local control and normal-tissue effects in that setting. It does not establish that every five-session course is SBRT or that fewer sessions cause more systemic immunity. [Brunt and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/32580883/).
 
+### Advanced optional practice: equal totals, different model assumptions
+
+Alex compares two **invented patterns of brief external-beam fractions**: A is 15 × 2 Gy; B is 5 × 6 Gy. Both total 30 [gray (Gy)](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics). No patient, tissue volume or clinical calendar is attached.
+
+The **linear-quadratic (LQ) model** expresses these patterns as **biologically effective dose (BED)**:
+
+`BED = n × d × [1 + d/(α/β)]`
+
+Here `n` counts equal fractions; `d` is Gy per fraction; and **α/β (alpha/beta)** is a parameter in Gy for a specified tissue and biological endpoint. BED is a modeled quantity reported in Gy, not extra physical dose.
+
+**Assume** one hypothetical tissue element receives each listed fraction, with negligible repair during delivery and complete repair of modeled sublethal damage between fractions. This expression omits repopulation and overall treatment time; it cannot automatically describe prolonged or internally distributed irradiation. Use **3 Gy and 10 Gy as alternative assumed α/β values**, not measurements of a person's tumor or organs. See the [International Atomic Energy Agency (IAEA) model equation](https://pub.iaea.org/MTCD/Publications/PDF/Pub1556_web.pdf#page=84).
+
+**1. What are the physical totals and four BED values?** Calculate first.
+
+**Worked answer:**
+
+| Fictional pattern | Physical total, Gy | BED, Gy at assumed α/β = 3 Gy | BED, Gy at assumed α/β = 10 Gy |
+|---|---|---|---|
+| A: 15 × 2 Gy | 30 | 50 | 36 |
+| B: 5 × 6 Gy | 30 | 90 | 48 |
+
+Both totals are `n × d = 30 Gy`. For A: `30 × (1 + 2/3) = 50` and `30 × (1 + 2/10) = 36`. For B: `30 × (1 + 6/3) = 90` and `30 × (1 + 6/10) = 48`. Inside each bracket, Gy divided by Gy is dimensionless.
+
+**2. Why does changing α/β change the comparison?**
+
+**Answer:** Lower α/β gives fraction size more weight at fixed total. B minus A is 40 Gy of BED under the 3 Gy assumption, versus 12 Gy under the 10 Gy assumption. Changing the tissue, endpoint or parameter changes the comparison; numbers from different columns do not establish equivalent effects.
+
+**3. Does higher BED prove better treatment or greater harm?**
+
+**Answer:** It indicates a larger modeled effect under that column's assumptions, not an outcome or toxicity probability. Dose distributions, volumes, timing, other exposures and population-specific evidence remain missing. Arithmetic does not validate the model at a particular fraction size or settle parameter uncertainty.
+
+**4. Is B automatically SBRT, or an immune optimum?**
+
+**Answer:** Neither follows. Five fractions do not specify [SBRT's localization and delivery](/wiki/education/concepts/therapeutics/local-therapies/sbrt). This equation measures neither immune priming nor an abscopal response, and supplies no immune threshold.
+
+**5. What would Alex request from a study?**
+
+**Answer:** Actual dose distributions and volumes, fraction sizes and intervals, duration, population, comparator, endpoint and follow-up. Keep the existing fractionation evidence in its tested setting. Revisit [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation): a model worksheet establishes no care plan, safety or clinical equivalence.
+
 ## Physical killing and immune recognition
 
 Physical injury from heat, cold or radiation can occur without peptide–HLA recognition. If the hoped-for additional effect is antigen-specific CD8 T-cell killing, the requirements change. CD8 T cells, which carry the CD8 coreceptor, need appropriate peptide–HLA display, access to the tumor and capacity to function there.
@@ -92,3 +131,5 @@ Source check: 2026-10-09. Alex and the cards are fictional; expert and learner r
 - [FDA 2019: oncology therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download) — systemic distribution, absorbed dose and normal-organ questions.
 - [Brunt et al., 2020: FAST-Forward](https://pubmed.ncbi.nlm.nih.gov/32580883/) — short postoperative breast-radiation schedules in a defined trial.
 - [Galluzzi et al., 2020: immunogenic cell death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/) — evidence requirements for adaptive immune consequences.
+
+Dose-model source check: October 11, 2026. [IAEA, 2010, *Radiation Biology*, section 3.12.7, p. 105](https://www-pub.iaea.org/MTCD/Publications/PDF/TCS-42_web.pdf#page=116) supplies the LQ parameter, complete-repair and omitted-time assumptions. [IAEA, 2013, *Management of Cervical Cancer*, Annex XI, pp. 72–73](https://pub.iaea.org/MTCD/Publications/PDF/Pub1556_web.pdf#page=84) supplies the external-beam BED equation and distinguishes prolonged irradiation. Selected teaching pages and typeset equations were read; treatment recommendations are not imported. Earlier source scopes and expert/learner review remain unchanged.

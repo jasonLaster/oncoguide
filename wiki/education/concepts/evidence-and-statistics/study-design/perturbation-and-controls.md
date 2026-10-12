@@ -7,7 +7,7 @@ glossary_anchor: "perturbation-and-controls"
 aliases: ["perturbation", "controlled perturbation", "vehicle control", "positive control", "rescue experiment"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
 sensitive: false
 tags: ["education", "functional-models"]
 updated: "2026-10-09"
@@ -78,4 +78,5 @@ Source check: October 9, 2026. Controlled comparisons, not a universal experimen
 
 - [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment)
 - [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
+- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
 <!-- END GENERATED USED IN -->

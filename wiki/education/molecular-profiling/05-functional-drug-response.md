@@ -8,8 +8,8 @@ objectives: ["Choose a living model that contains the biology required by the me
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-10-11
+source_checked: "2026-10-11"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -23,9 +23,11 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-This is step 13 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. A parts list can suggest how a machine works. Changing one part tests that suggestion. Living tumor models let researchers perturb a proposed mechanism, often with a drug. The model must contain the components the question requires.
+This is step 13 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Understand multi-omics]]. A parts list can suggest how a machine works. Changing one part tests that suggestion. A [controlled perturbation](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls) changes a defined factor and compares its response with explanatory controls. Living models can test such changes with a drug. The model must contain the components the question requires.
 
 ## Match the model to the question
+
+An [organoid](/wiki/education/concepts/measurement/functional-models/organoid) is a three-dimensional culture that self-organizes to reproduce selected tissue features. Its current composition matters more than its name.
 
 | Model | What researchers do | Useful feature | Main limitation |
 |---|---|---|---|
@@ -40,11 +42,24 @@ A PDX drug experiment is **in vivo**, inside a living animal. A culture removed 
 
 ## Design the comparison before reading the score
 
-A sound experiment needs a stated endpoint, dose range, timing and controls. **Vehicle control** contains the carrier without the active perturbation. Positive controls show the system can produce a known response. Mechanism controls distinguish the proposed target effect from a nonspecific toxic effect.
+Bring development donor D0 from the [model-selection board](/wiki/education/modeling-tumor-response/index) into MODEL-PRACTICE-01. Its tumor-only organoid is chosen for drug A's proposed direct repair effect. Every condition and number below is invented.
 
-Replicates address variability, but repeated wells from one preparation are not independent patients. A dose that works in a dish may not be reachable safely in a person. Reduced growth and cell death are different endpoints. Normal-tissue toxicity is often missing from a tumor-only readout.
+| Worksheet field | Completed plan |
+|---|---|
+| Biological unit | One donor and one characterized preparation; verify malignant identity and retained populations |
+| Replicate unit | Three wells per condition; retain each well's value and layout |
+| Exposure | Drug A at 0.1, 0.3 and 1 micromoles per liter for 48 hours; matched carrier and handling |
+| Primary measurement | Viable tumor-cell count at the start and 48 hours, with calibrated counting and tumor attribution |
+| Controls | Vehicle without A; a positive control with a prespecified response; a target perturbation or rescue to examine mechanism |
+| Missing components | No detected immune cells, full human metabolism or healthy-organ toxicity measurement |
 
-Some functional tests ask a narrower question. [BH3 profiling](/wiki/education/concepts/measurement/functional-models/bh3-profiling) probes mitochondrial readiness for apoptosis under defined conditions. Keep that assay endpoint separate from whole-drug response and demonstrated clinical benefit.
+Vehicle controls separate the carrier from A. Positive controls check that the system can produce the expected measured response. Mechanism controls help distinguish target-related effects from nonspecific injury. Document their results; this worksheet's illustrative counts alone do not show that every control passed.
+
+Three wells estimate variation within this preparation. They remain **one donor**, not three independent people. Genetic loss and drug exposure are different interventions. A dish exposure may be unachievable safely in a person.
+
+Some tests ask narrower questions. [BH3 profiling](/wiki/education/concepts/measurement/functional-models/bh3-profiling) probes mitochondrial readiness for apoptosis under stated conditions; it does not measure whole-drug benefit.
+
+The diagram uses illustrative **per-well** counts, not totals across three wells. The later worksheet summarizes replicate wells by their medians.
 
 ## Compare with the starting cells as well as the control
 
@@ -65,11 +80,23 @@ Imagine a fictional experiment begins with 1,000 viable cells in each condition.
 
 ## A worked repair experiment
 
-The fictional repair finding now has supporting DNA, RNA and protein evidence. A suitable model shows impaired repair under controlled conditions. [Genetic dependency mapping](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) could test a related genetic intervention, but losing a gene and exposing cells to a drug are different experiments. A drug then reduces model growth across replicated, relevant exposures.
+D0's proposed repair mechanism has assumed supporting [deoxyribonucleic acid (DNA) and ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma) and protein evidence. [Genetic dependency mapping](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) could test a related genetic intervention. These premises establish no patient mechanism or treatment.
 
-This strengthens the biological hypothesis. It does not establish that the same exposure is safe, that every original clone survived culture or that treatment improves patient outcomes. The clinical evidence question remains even after a persuasive laboratory sequence.
+Here are invented illustrative summaries at the middle exposure, 0.3 micromoles per liter. Counts are the medians of three wells; mass and metabolic measurements use matched parallel aliquots, not tracked original-cell lineages.
 
-Now imagine two drugs of one immune class scoring differently in a single well. Before inventing a biological reason, inspect cell composition, viability, exposure, controls and reproducibility. An unvalidated score does not establish clinical superiority or justify switching a proven regimen.
+| Quantity | Start, both groups | Vehicle at 48 hours | Treated at 48 hours |
+|---|---|---|---|
+| Viable tumor-cell count per well | 1,000 | 2,000 | 1,000 |
+| Mean buoyant mass | 20 picograms per measured cell | 21 | 16 |
+| Metabolic signal | 100 arbitrary units | 190 | 70 |
+
+[Single-cell mass assays](/wiki/education/concepts/measurement/functional-models/single-cell-mass-assays) measure a cell relative to displaced fluid. Buoyant mass depends on cell volume and cell-versus-fluid density. It is not a counted living-cell fraction. This is a population mean, not same-cell growth or dry mass. Density, fluid conditions and cell selection matter. Keep calibration, fluid and identified cell population with the measurement. [Godin et al., 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2862099/).
+
+**Resolve the disagreement:** Do these measurements establish 50%, 20% or 63.2% killing?
+
+**Answer:** None does. The count is 50% of later control and 100% of treated start. Mean mass is 80% of its starting value; the metabolic signal is 36.8% of later control. Those are three different quantities and denominators. Raw well variation, independent division/death measurements and cell attribution are needed; a metabolic readout called “viability” is not automatically a live-cell count.
+
+A controlled response can support a laboratory hypothesis without establishing achievable exposure or patient benefit. Two immune-class drugs scoring differently in one well likewise do not establish superiority or justify a regimen switch. Carry D0's measurement definitions, rather than a ranked drug list, into the [locked evaluation packet](/wiki/education/modeling-tumor-response/verification-and-feedback-loops).
 
 ## Ask how models that failed were counted
 
@@ -105,7 +132,7 @@ One answer: “defined cells, exposure and readout; model relevance, reproducibi
 
 ## Sources and scope
 
-Source check: October 9, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
+Source check: October 11, 2026. The examples are fictional and teach interpretation rather than a treatment choice. Expert and learner review remain pending.
 
 The starting-count exercise and cell-fate links were source-checked October 10, 2026. This is a model-interpretation example, rather than a response prediction for a patient.
 
@@ -113,3 +140,5 @@ The starting-count exercise and cell-fate links were source-checked October 10, 
 - [Primary breast-tumor graft study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/).
 - [Hafner et al., 2016: growth-rate inhibition metrics](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/) — primary simulations and cell-line experiments; control growth can confound endpoint drug-response scores.
 - [[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment|Controls and combination experiments]].
+
+Fresh selected Hafner starting-count/control-growth sections and Godin physical-method sections support the measurement distinctions. All worksheet values are invented. No commercial input specification, disease-wide accuracy or clinical utility is inferred.

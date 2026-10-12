@@ -7,7 +7,7 @@ glossary_anchor: preclinical-evidence
 aliases: [preclinical evidence, preclinical study, animal study, in vitro, in vivo]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"]
-used_by: ["[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
+used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: [education, evidence, experimental-models]
 updated: 2026-10-10
@@ -119,6 +119,7 @@ Source check: October 10, 2026. The mouse experiment is fictional. No laboratory
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
 - [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)

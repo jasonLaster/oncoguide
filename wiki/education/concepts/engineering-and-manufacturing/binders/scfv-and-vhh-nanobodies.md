@@ -7,7 +7,7 @@ glossary_anchor: "scfv-and-vhh-nanobodies"
 aliases: ["scFv", "single-chain variable fragment", "VHH", "nanobody"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: 2026-10-10
@@ -102,6 +102,5 @@ Source check: October 10, 2026; expert and learner review pending. This is found
 ## Used in
 
 - [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
-- [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

@@ -5,144 +5,117 @@ type: "guide-lesson"
 guide: "engineered-cell-therapy"
 step: 8
 minutes: 12
-objectives: ["Match evidence to delivery, function and outcome claims."]
+objectives: ["Specify the complete administered product and recognition requirement.", "Interpret one cumulative evidence packet with matched controls and denominators.", "Separate measured control from cell removal and clinical benefit."]
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]"]
 sensitive: false
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: 2026-10-10
+updated: 2026-10-11
 ---
 
 # Reading cell-therapy evidence
 
-**Before you start:** [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape).
+**A result earns a claim for a specified product, model and measurement—not for the whole treatment chain.**
 
-**Ask what was administered, what was measured, and what comparison supports the claim.** Those three questions prevent most confusion between promising components and a demonstrated treatment.
+**Before you start:** [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy), [immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape). This step follows [the safety plan](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan).
 
-Before this lesson: [[wiki/education/cellular-therapies/08-solid-tumor-barriers|The journey through a solid tumor]].
+## Keep the evidence lanes distinct
 
-## An evidence map
-
-| Evidence | What it can establish | What it cannot establish on its own |
+| Evidence | Claim it can support | Claim still unearned |
 |---|---|---|
-| Receptor signal in a cell assay | The construct can activate a measured pathway | Tumor control or patient safety |
-| Killing in a dish | Activity against those target cells under those conditions | Distribution, tissue effects, or durable benefit |
-| Laboratory-engineered cells work in mice | Activity of infused cells in that model | Successful engineering inside the body |
-| Injected vector creates functional CAR-T cells in mice | In vivo generation and activity in that model | Human delivery, safety, or efficacy |
-| Early human study | Initial safety, feasibility, and activity in the enrolled population | Broad efficacy across tumors or definitive comparative benefit |
-| Comparative clinical evidence | A more reliable estimate of outcomes against a specified alternative | Transferability to an unrelated product, target, or disease state |
+| Receptor signaling | Activity of a measured pathway | Tumor control |
+| Target-cell killing in a dish | Function under those conditions | Distribution or patient safety |
+| Infused engineered cells in mice | Behavior of that cell product/model | Engineering cells inside the body |
+| Administered carrier generates functional cells in mice | In vivo engineering in that model | Human delivery, safety or benefit |
+| Early human study | Feasibility, safety and activity in its population | Definitive comparative benefit |
+| Matched comparative clinical evidence | Outcomes versus a specified alternative | Transfer to another product or target |
 
-The steps are not interchangeable, and development does not progress through them automatically. A humanized mouse contains selected human biological components; it is not a complete human immune system. A xenograft uses transplanted cells or tissue, often in an immune-deficient host. These models answer useful questions while simplifying others. [1,2]
+A xenograft or mouse containing selected human components is a [preclinical model](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence), not a complete human immune system. Use [the five-pass graph method](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes) to name population, intervention, outcome, comparison and uncertainty.
 
-## Read a graph in five passes
+## Try it: one complete-product packet
 
-Use [the five-pass graph method](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes) to check population, intervention, outcome, comparison and uncertainty. For a cell product, record whether the administered material was engineered cells or a genetic carrier, and whether repeated measurements came from independent donors.
+**Everything below is invented for learning: products, targets, drugs, samples and numbers.** It describes no real therapy or patient. Pause at each question before reading its answer.
 
-A line that ends early may reflect a planned endpoint, animal removal, death, or missing data. Read the methods before comparing that line with another group's later time points.
+**Product P:** a T-cell-directed [lipid nanoparticle (LNP)](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle) carries RNA instructions for CAR-X and an added supporting receptor R. CAR-X recognizes extracellular epitope E on fictional antigen X. R responds to fictional trigger D; it changes a supporting signal, not the recognition target. No cell-removal mechanism is included. Human T cells from one donor supply the culture experiments and selected human components of the mouse model. Lot A supplies all functional experiments; lots B/C have identity data only.
 
-## Worked example: reduction is not regression
+The matched comparator uses the same carrier and CAR-X, matched total RNA, but lacks R. D-positive/D-negative conditions and D-alone controls are included where stated. These are evidence-reading assumptions, not a laboratory protocol.
 
-The [reduction-versus-regression concept](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression) keeps two reference points distinct: the concurrent control and the treated group's own starting value.
+### The seven cards
 
-**Fictional numbers for practice:** Both groups start at 100 cubic millimeters. At day 28, the control tumor is 1,000 and the treated tumor is 300.
+| Card and model | Observation, comparator and time | Denominator and open question |
+|---|---|---|
+| **1. Delivery/expression:** mixed human-cell culture | At 24 hours, RNA is detected in 60 intended T cells and 240 other cells. Surface CAR is detected on 50 T cells and 150 others; 40 T cells show both CAR and R. Unexposed controls are negative. | One donor; 1,000 sampled viable cells, including 100 T cells. Sampling and body-wide distribution remain untested. |
+| **2. Function/added feature:** target-cell coculture | At 48 hours, mean killing is 80% for P+D, 55% for P without D, and 50% for matched CAR-X lacking R with or without D. X-knockout targets and unengineered T cells+D give 5%. | 100 starting target cells per well; three technical wells from the same donor. No donor variability or uncertainty interval supplied. |
+| **3. Healthy-tissue function:** epithelial organoids | At 48 hours with D in both arms, survival with P-generated T cells is 90%, versus 95% with matched CAR-X cells lacking R. | Two organoid donors, one cell-product donor. Other tissues and exposure conditions are untested; no acceptable-harm threshold is supplied. |
+| **4. Distribution/outcome:** X-positive tumors in mice with selected human components | Carrier P versus empty carrier is administered; both arms receive D. Day-7 blood sample: 120/200 T cells are dual-positive. Only two treated mice have tumor biopsies, with few engineered cells. Mean tumor volume: 100 at baseline, 300 for P and 1,000 for the empty-carrier control at day 28, in cubic millimeters. | Six animals per arm; blood count is one selected sample, not an arm-wide denominator. Spread, later follow-up and causes of poor entry are unreported. |
+| **5. Identity/potency:** carrier lots | Payload identity matches for A/B/C. Functional cards use A; B/C have no potency or post-storage results. | Three lots, not three independent cell donors. Identity alone does not establish matched biological performance. |
+| **6. Persistence/control:** the cultured P-generated cells | At 24 hours after D withdrawal, R-associated signal falls from 100 to 20 relative units versus 100 with continued D. Ninety of 100 tracked cells remain. | Same donor; three technical wells. No direct elimination assay or injury-reversal measurement. |
+| **7. Clinical outcomes:** no human study | No administration to people, patient responses or clinical adverse-event observations are supplied. | No clinical denominator or follow-up. An absent dataset is not a zero-percent response or toxicity rate. |
 
-- The treated tumor is **70% smaller than the control** at day 28: `(1,000 - 300) / 1,000`.
-- It is also **three times its starting size**: `300 / 100`.
-- This supports reduced growth relative to the control. It does not show regression below baseline, eradication, or cure.
+### Read the packet in nine questions
 
-Now suppose the treated tumor is 30 instead. That shows shrinkage below its 100 baseline, but there is still measurable tumor. Follow-up is needed to assess durability.
+**1. What was administered, and which cells were intended?**
 
-**Log-scale reminder:** A cell-count axis labeled 100, 1,000, 10,000, 100,000 uses equal visual spacing for tenfold changes. Read the numbers, not just the line's apparent height.
+**Answer:** The carrier P, intended to engineer T cells. The mouse study did not administer a manufactured CAR-T infusion. [Delivery targeting and cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting) have different jobs.
 
-**Practice interactively:** Open the [CAR-T learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) to change these numbers, explore the components, and answer six questions. The activities run in the reader; an offline ZIP remains available on the lab page.
+**2. What does the receptor recognize, and what does R add?**
 
-## Which cells are in the denominator?
+**Answer:** CAR-X reads extracellular E on X. R provides D-dependent support; it does not add another cancer target. Use the [target board](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target#tnbc-recognition-and-measurement-board) to ask equally precise questions of real designs.
 
-**Fictional assay for practice:** Among 1,000 sampled viable cells, 100 are the intended T cells. A validated surface-receptor assay detects the new CAR on 50 of those T cells and 150 other cells.
+**3. Which “engineering percentage” describes card 1?**
 
-- **Within intended T cells:** 50/100 = **50%** express the measured receptor.
-- **Within all receptor-positive cells:** 50/(50 + 150) = **25%** are the intended T cells.
-- **Within the entire sample:** 200/1,000 = **20%** are receptor-positive.
+**Answer:** CAR-positive T cells are 50/100 = **50%** of sampled T cells, but only 50/200 = **25%** of all CAR-positive cells are T cells. All sampled CAR-positive cells are 200/1,000 = **20%**. Dual-positive T cells are 40/100 = **40%**. RNA detection is a separate readout; none of these ratios measures killing.
 
-All three percentages describe the same sample. None measures killing, proves safe engineering of other cell types, or establishes distribution throughout the body. Keep cell identity, sampling location and time visible. A surface-protein result also cannot substitute for a separate measurement of genetic delivery. Compare [delivery targeting with cancer targeting](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting).
+**4. What does card 2 earn for the added feature?**
 
-## Read the patient-response denominator
+**Answer:** The matched comparisons support an R/D-associated contribution in this donor's assay. Knockout and D-alone controls test alternative explanations. Three wells are technical repeats, not three donors. This does not establish tumor entry, human safety or general benefit.
 
-[Objective response rate (ORR)](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) counts people meeting a stated response definition. Disease control rate (DCR) and clinical benefit rate (CBR) may include defined stable disease; retain their duration, confirmation and denominator rules. Neither is a fraction of cancer cells killed. Response duration, symptoms, survival and harms remain distinct outcomes. Comparing separate products' trial headlines needs the [cross-trial comparison checks](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison).
+**5. Does card 3 make the target safe?**
 
-## Safety is a separate set of outcomes
+**Answer:** No. It reports survival in two tested organoid sources and a comparator. The five-percentage-point difference needs uncertainty and interpretation; it supplies no clinical safety window or all-tissue coverage.
 
-| Safety question | What to look for |
-|---|---|
-| Is the intended antigen present in normal tissue? | Binding and functional testing against relevant healthy cells/tissues |
-| Do the wrong cells receive the genetic payload? | Distribution and cell-type-specific delivery measurements |
-| Can activation become excessive? | Inflammatory readouts, organ effects, and clinical adverse events |
-| Can activity be reduced? | Dose-response and time course after stopping the trigger |
-| Can harmful engineered cells be removed? | Direct evidence for a cell-elimination mechanism, if included |
-| Could effects persist or emerge later? | Follow-up appropriate to the vector and cell product |
+**6. Do the blood result and smaller tumor prove cure?**
 
-Read [cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) and [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) as separate clinical outcomes, with their grading version, attribution and observation window visible. An ICE (immune effector cell-associated encephalopathy) score contributes to neurologic assessment; it is not an ICANS diagnosis. Avoiding externally administered cytokines does not eliminate these risks. [ASTCT 2026](https://pubmed.ncbi.nlm.nih.gov/42711241/).
+**Answer:** No. Blood expression does not establish tumor entry. At day 28, the tumor is `(1,000−300)/1,000` = **70% smaller than control**, but `300/100` = **three times baseline**. It shows reduced growth, not [regression below baseline](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression). Missing later points need methods review. A matched CAR-X-without-R mouse arm would test R’s contribution, which the empty-carrier comparison does not isolate.
 
-Also separate immune activation from [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion), the preparatory reduction of lymphocytes, and blood-count effects. [Neutropenia and granulocyte colony-stimulating factor (G-CSF)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf) explain count-related supportive care. A low neutrophil count does not establish infection, and a growth-factor medicine is not evidence of tumor killing. Product-specific safety reports need blood-count trends and infection outcomes as well as CRS and ICANS reporting.
+**7. Can the three matching lot identities extend lot A's function claim?**
 
-A proposed [safety switch](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) also needs direct evidence: how quickly does the intervention reduce activity or remove cells, how completely, and under which conditions? A mechanism included in the construct is a design feature before those measurements are established.
+**Answer:** No. [Potency](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays) and [manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) need relevant functional evidence. Identity, storage behavior and potency are different attributes.
 
-## A component claim versus a finished-product claim
+**8. Does an 80% signal reduction mean harmful cells were removed?**
 
-For an in vivo CAR-T product with an added signaling receptor, look for this complete chain:
+**Answer:** No. `(100−20)/100` = **80% less measured signal**; 90/100 cells remain. A [safety switch](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches) must be read by its measured effect. Reduced activity, cell elimination and reversal of existing injury are separate claims.
 
-**Carrier administered → intended cells engineered → CAR and added receptor co-expressed → useful cell behavior → relevant tumor control → acceptable safety and durable benefit.**
+**9. Which clinical claim is next, and can you calculate a response rate?**
 
-To isolate an added receptor's contribution, a useful experiment compares the same delivery platform and CAR with and without that receptor. Drug-controlled designs also need controls for effects of the drug itself. Exact experiments depend on the construct; this is a way to read evidence, not a laboratory protocol.
+**Answer:** Card 7 earns none. [Objective response rate](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) counts people under stated response and denominator rules, not cells killed. Read [trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) before interpreting early activity or comparative benefit. [Cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome), [immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) and [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion) belong to separate safety/preparation questions, not this packet's absent clinical observations.
 
-## Try it: learning cards
+**Finish the packet:** For each card, write a claim earned, a claim not earned and the next measurement. For card 5: identity of A/B/C; matching potency remains unearned; compare relevant function across lots and storage conditions. This asks about biological performance, beyond sequence identity.
 
-Try answering each question before reading its answer.
+## What can go wrong when combining evidence
 
-| Question | Answer |
-|---|---|
-| Does “in vivo activity” prove in vivo engineering? | No. Check whether the administered product was cells or a carrier. |
-| Does more CAR DNA mean more functional CAR-T cells? | No. Determine the cell type, expression, surface protein, and function. |
-| Does more persistence mean a cure? | No. Location, function, target coverage, and durable tumor control remain separate. |
-| Does a drug-controlled receptor guarantee an emergency stop? | No. Measure response after withdrawal and distinguish reducing a signal from removing cells. |
-| Does success with target X validate target Y? | No. Targets differ in cancer expression and normal-tissue risk. |
-| Does an early trial result establish access for another patient? | No. Check the specific protocol, eligibility, location, and current availability. |
+Do not fill P's missing cards with another product's success. The [recognition examples](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target#read-two-real-recognition-designs) distinguish a peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), an ungated TROP2 CAR and a B7-H3-induced TROP2 CAR. They illustrate architecture; their different products, species and populations do not complete this fictional packet.
 
-## A discussion worksheet
+Equal-looking spacing on a logarithmic axis need not mean equal numerical changes. A graph marked 100, 1,000 and 10,000 has tenfold steps. Keep the printed units and denominators visible.
 
-Copy these headings when reading a paper or company presentation:
-
-- **Product administered:**
-- **Cells intended to receive it:**
-- **Cancer antigen and normal-tissue expression:**
-- **Role of each added component:**
-- **Model, sample size, independent repeats:**
-- **Matched comparator:**
-- **Outcome, denominator, and follow-up:**
-- **Safety and reversibility evidence:**
-- **What is demonstrated:**
-- **What remains a hypothesis:**
+**Practice further:** the existing [CAR-T learning lab](/wiki/education/tools/in-vivo-car-t-learning-lab) lets you vary numbers and revisit the component questions.
 
 ## Explain it back
 
-“Which claim was measured, and which next step remains untested?” Name one measurement from this lesson and the limit beside it.
+“Card ___ earns ___ for ___ at ___; it leaves ___ unmeasured, so the next useful measurement is ___.” One answer: “6; reduced R-associated signal; cultured P-generated cells; 24 hours after withdrawal; cell elimination; a direct cell-removal readout.”
 
 ## Takeaway
 
-**A credible claim connects each mechanism to a measurement, and each measurement to its limits.** Return to the [[wiki/education/cellular-therapies/index|course map]] or use the [[wiki/treatment/therapeutics/cell-therapy-decision-framework|clinical decision framework]] for the separate question of treatment suitability.
+**Specify the complete product, then carry its comparator, denominator, model and time beside every claim.**
+
+**Next:** [Compare therapy families](/wiki/education/cellular-therapies/02-car-tcr-til-comparison), then return to [the nine-step guide](/wiki/education/guides/engineered-cell-therapy/index).
 
 ## Sources and scope
 
-Source-checked October 10, 2026 for the added exercise and concept route. Earlier study examples and adverse-event discussion retain their October 9 source scope. The graph exercise uses invented numbers and cannot estimate an individual response. Expert and learner review remain pending. The cell-denominator exercise added October 10 is also fictional; its three ratios use the same assumed validated sample. FDA sections V and VI were checked for separate product, function and safety questions. This is a reading exercise, not a laboratory protocol.
+Bounded source check: October 11, 2026. The packet and every number are fictional. [FDA CAR-product guidance](https://www.fda.gov/media/156896/download), sections IV.C.2 and V.A–D, supports separating identity, potency, recognition, model limitations and additional-component evidence. It does not validate P or specify its assays. Recognition anchors retain their separate source/model scopes in the target lesson. This fictional packet supplies no clinical evidence or treatment recommendation. Expert and learner review remain pending.
 
-1. [Hunter et al., Science, 2025](https://pubmed.ncbi.nlm.nih.gov/40536974/): example of distinguishing human-cell, mouse, and monkey findings.
-2. [Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery, Nature, 2025](https://www.nature.com/articles/s41586-025-09212-7): example of preclinical component and outcome measurements.
-3. [NCI: CAR T-cell therapy and adverse effects](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells).
-4. [FDA: CAR T-cell product development considerations](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products).
-
-5. [Perales et al., 2026: ASTCT toxicity consensus](https://pubmed.ncbi.nlm.nih.gov/42711241/) — clinical grading, attribution and distinct toxicity categories.
-6. [NCI: Infection and neutropenia during cancer treatment](https://www.cancer.gov/about-cancer/treatment/side-effects/infection) — count-related risk and infection as separate clinical observations.
+Earlier evidence-reading concepts and the lab retain their stated source scopes. The fictional exercise supplies no clinical evidence.
 
 <!-- Local learning lab source: [archive](./tools/in-vivo-car-t-learning-lab.zip) -->

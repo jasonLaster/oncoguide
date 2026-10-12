@@ -3,7 +3,7 @@ title: "Choose a target with a usable safety window"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-10
+updated: 2026-10-11
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -23,43 +23,52 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anato
 
 ## Where this step sits
 
-Choose the recognition requirement before tuning the receptor or delivery. A perfect delivery system cannot turn an unsafe antigen into a safe target.
+Choose the recognition requirement before tuning the receptor or delivery. Delivery cannot turn an unsafe antigen into a safe target.
 
 ## The intuition: look beyond a positive label
 
 “Target-positive” compresses a distribution into a label. Ask which cells carry the target, how much is accessible, and where else it occurs. Expression can differ within one lesion, between lesions and after treatment.
 
-The [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) must be accessible to the recognition element. Receptor geometry and epitope accessibility can matter even when the underlying protein is present. RNA abundance does not directly measure accessible surface density.
+The [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) must be accessible to the recognition element. RNA abundance does not directly measure accessible surface density.
 
-## A target worksheet
+## TNBC recognition and measurement board
 
-| Question | Useful evidence | Tempting overread |
-|---|---|---|
-| Which cancer cells display it? | Appropriate protein and spatial measurements across relevant samples | One positive region represents every lesion |
-| How much is accessible? | Product-relevant binding and functional assays | Any staining exceeds the CAR’s activation threshold |
-| Where does healthy tissue express it? | Relevant normal-tissue distribution and functional testing | “Tumor-associated” means tumor-exclusive |
-| Can coverage change? | Serial samples and resistant-population analysis | The baseline sample stays representative forever |
-| Does recognition create a usable window? | Dose, function and safety evidence for the complete product | Strong binding alone proves a better therapy |
+[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) names a subtype, not one receptor target. Compare these eight research categories by **recognition specifications and missing measurements**, rather than treatments or clinical maturity.
 
-Targets studied in solid tumors include many normal human proteins. A named target is a research category, not evidence of eligibility or a recommendation. Dated programs and target menus belong in [the therapeutic landscape](/wiki/treatment/therapeutics/car-t).
+Read [immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) for tissue location and distribution, and [flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) for defined cell populations. A staining antibody, the proposed receptor's binder and a soluble-protein assay may recognize different features. Keep their identities visible.
 
-## Worked example: coverage and harm
+| Research label and molecular identity | What the receptor must read | Tumor-coverage measurement | Healthy-tissue measurement | Source context and boundary |
+|---|---|---|---|---|
+| **TROP2**: trophoblast cell-surface antigen 2, encoded by TACSTD2 | The actual binder's accessible TROP2 epitope | Membrane distribution plus binder-matched intact-cell binding; include negative cells | Matched binding and functional tests in relevant epithelial tissues | [Sun 2025](https://jitc.bmj.com/content/13/9/e012442): human TNBC cells and separate human-TROP2 mouse systems. Their results are not patient safety. |
+| **B7-H3**: CD276 | In the cited design, a B7-H3 sensor supplies a priming input; the induced CAR reads TROP2 | Measure both inputs, their joint distribution and receptor induction/persistence | Test priming and downstream recognition in healthy contexts, not each stain alone | [Sun 2025](https://jitc.bmj.com/content/13/9/e012442): conditional preclinical design. A static double-positive image cannot establish its timing. |
+| **MSLN**: mesothelin | Accessible mesothelin recognized by the specified binder | Separate tissue staining from live-cell binding and function | Include relevant mesothelial cells with the same recognition module | [Tchou 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC4964602/): breast-tissue staining and a breast-cell-line killing assay. Those are different populations, not universal TNBC coverage. |
+| **MUC1\***: membrane-retained MUC1 cleavage products | The remaining extracellular epitope, with the cleavage/form and binder stated | Cleavage-sensitive intact-cell/tissue binding; generic MUC1 RNA or repeat-region staining is insufficient | Use the same epitope assay on relevant noncancerous tissues; do not assume cleavage is tumor-exclusive | [Mahanta 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002054): antibody/cleavage study, including noncancerous tissue staining; not a CAR-T safety study. |
+| **Nectin-4**: the Nectin4 surface protein | The specific anti-Nectin4 binding region | Membrane localization and product-relevant live-cell binding across samples | Matched binding/function on relevant normal tissues; establish species recognition before animal inference | [Li 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9720259/): tissue surveys and functional colorectal/lung mouse models. The source's added features and separate FAP product are not evidence for every Nectin-4 design. |
+| **EGFR**: epidermal growth factor receptor | The specified epitope; the cited CAR uses an mAb806-derived binder | Compare receptor-relevant binding with total EGFR staining | Test that binder on relevant normal epithelia; broad EGFR positivity cannot define its safety window | [Subham 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10987173/): TNBC brain-metastasis tissue, cell and mouse studies. No patient benefit is inferred. |
+| **ROR1**: receptor tyrosine kinase-like orphan receptor 1 | The ROR1 epitope of the actual binder; the cited construct uses R12 | Product-relevant surface recognition plus functional response | Relevant healthy-cell binding/function with the same receptor | [Stüber 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7204619/): TNBC cell cultures and a three-dimensional tissue model under a defined perturbation. It does not establish a clinical combination. |
+| **TF**, meaning **tissue factor/CD142** in this cited experiment | Tissue factor bound by a factor VII light-chain recognition module | Distinguish cancer-cell from vascular-cell binding and test function | Relevant tissue/vascular contexts and coagulation-related effects need separate assessment | [Hu 2020](https://www.nature.com/articles/s41598-020-59736-3): engineered natural killer (NK) NK92MI cells and TNBC xenograft models. CAR-NK findings do not validate a different CAR-T product. |
 
-Invented numbers for learning: a tumor has 100 cells; 70 strongly display target X and 30 do not. A model CAR-X kills the 70 positive cells. The mass shrinks, but the negative cells remain.
+**Two identity checks:** MUC1\* is not a synonym for every MUC1 assay: the primary paper uses it for membrane-anchored cleavage products whose cut sites were not all resolved. **TF is ambiguous without its source.** This board's cited experiment means tissue factor; the [Thomsen–Friedenreich TF antigen](https://pubmed.ncbi.nlm.nih.gov/21949831/) is a carbohydrate structure, not that coagulation protein. A shorthand label alone cannot identify an epitope.
 
-Now add a healthy tissue with low X expression. Increasing sensitivity might improve recognition of some target-low cancer cells while also increasing healthy-tissue injury. The comparison needs both benefit and harm measurements. “More sensitive” is not a complete design goal.
+All healthy-tissue entries are **measurements needed**, not claims that the listed tissues are safe or that a negative panel proves safety everywhere. FDA's [recognition-domain guidance, section V.A](https://www.fda.gov/media/156896/download) separates antigen expression, binder specificity and functional healthy-cell testing.
+
+## Try it: compare the measurements before the targets
+
+**All inputs are fictional.** In a 100-cell tumor sample, a TROP2-binding assay finds 70 accessible positive cells and 30 negative cells. A second report says B7-H3 RNA is high, but supplies no surface-binding measurement. A normal-tissue screen uses a third antibody, not either proposed receptor's binder.
+
+**Try it:** Can you select the safer recognition design from these reports?
+
+**Answer:** No. The assays are not equivalent. Measure receptor-relevant B7-H3 accessibility, keep the TROP2-negative population visible, and test both actual recognition modules in appropriate healthy contexts. Greater sensitivity could recognize target-low cancer cells and healthy cells alike. The missing evidence changes the next measurement; it does not select a treatment.
 
 ## On-target and off-target are different
 
 [[wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity|On-target, off-tumor injury]] involves the intended antigen on healthy cells; **off-target recognition** involves an unintended molecular target. A normal-tissue problem can exist even with a highly specific binder. Use the concept page for the mechanism and a product-specific clinical example.
 
-[Logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars) may broaden coverage or restrict activation, depending on the input rule. An OR-like system accepts either target; an AND-like system aims to require a combination. Coverage and selectivity are different objectives. A new recognition rule also needs testing of expression, timing and failure behavior.
+[Logic gates](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars) may broaden coverage or restrict activation, depending on the input rule. An OR-like system accepts either target; an AND-like system aims to require a combination. Coverage and selectivity are different objectives. Test each recognition rule’s expression, timing and failure behavior.
 
 ## Specify the target at the level the receptor reads
 
 For [engineered T-cell receptor therapy (TCR-T)](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t), the recognition target is a peptide–HLA complex. Source-protein abundance, compatible HLA type and actual presentation are separate measurements. The [TCR concept](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) explains the paired recognition surface and cross-reactivity: one receptor can recognize multiple peptide–HLA targets. A sequence match or strong intended-target binding cannot replace testing of unintended targets and healthy-tissue interactions. An intracellular protein can supply a peptide target without becoming an accessible surface protein for a conventional CAR.
-
-For a CAR, identify the binding region's epitope and its accessibility on intact cells. A [single-chain variable fragment (scFv) or single-domain binder](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies) supplies one recognition module. Its format does not establish safe expression of the antigen. A more sensitive receptor can notice target-low cancer cells and target-low healthy cells alike.
 
 ## Read two real recognition designs
 
@@ -78,12 +87,6 @@ Treat this as a design-reading exercise. Neither a shared target name nor succes
 ## What can go wrong at this step
 
 Sampling misses negative populations. Assays measure intracellular rather than accessible protein. A target changes after therapy. Healthy tissue under inflammation may differ from the baseline comparison. These uncertainties belong beside the target-positive result.
-
-## Try it
-
-A CAR kills every target-positive cell in a dish. What remains unresolved before calling the target suitable?
-
-**Answer:** Coverage across relevant tumor cells, healthy-tissue recognition, access, product behavior and clinical safety. The assay establishes activity under its tested conditions.
 
 ## Explain it back
 
@@ -104,3 +107,5 @@ Source check: October 10, 2026; expert and learner review pending. The example i
 - [Morgan et al., 2010: serious event after ERBB2-directed cells](https://pubmed.ncbi.nlm.nih.gov/20179677/) — one product and dose; the authors proposed recognition of normal lung tissue as the mechanism. This is not a universal risk estimate.
 - [TECELRA prescribing information, revised June 2026](https://www.fda.gov/media/180565/download?attachment=) — recognition architecture in a specified synovial-sarcoma setting.
 - [TROP2 and B7-H3/TROP2 CAR experiments, 2025](https://jitc.bmj.com/content/13/9/e012442) — distinct human-cell and mouse-cell preclinical systems.
+
+Board check: October 11, 2026. Selected primary identity, construct and measurement sections support the added entries, with their distinct model limits. FDA description/mechanism and Sun's human/mouse scopes were rechecked for the retained examples. Earlier mechanisms retain their scope; expert and learner review pending.

@@ -7,7 +7,7 @@ glossary_anchor: "how-a-model-earns-trust"
 aliases: ["how a model earns trust", "model credibility", "model trust"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]", "[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
 sensitive: false
 tags: ["education", "model-trust"]
 updated: "2026-10-10"
@@ -105,6 +105,5 @@ Source check: October 10, 2026. The exercise is fictional. This is a reading fra
 ## Used in
 
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 - [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->

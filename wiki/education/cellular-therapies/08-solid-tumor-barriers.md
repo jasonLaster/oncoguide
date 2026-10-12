@@ -12,7 +12,7 @@ source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: 2026-10-10
+updated: 2026-10-11
 ---
 
 # The journey through a solid tumor
@@ -39,6 +39,8 @@ The [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-micro
 
 ### 2. Recognize enough cancer cells
 
+Use the canonical [TNBC recognition and measurement board](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target#tnbc-recognition-and-measurement-board) to specify the protein, epitope or modified form and the actual binder before interpreting a positive sample. Its eight research labels have different source and model scopes.
+
 A surface target must be accessible and present at a level the CAR can respond to. A high RNA measurement does not automatically establish high surface-protein expression.
 
 [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) can leave some cancer cells with much of a target, others with little, and others with none. Different metastases may also differ. **Antigen escape** occurs when cells that are not effectively recognized survive and grow. [Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) explains how pre-existing populations and later changes can contribute; it does not mean treatment deliberately teaches a cell to resist. [1]
@@ -47,7 +49,7 @@ Conventional CAR recognition does not require a peptide to be displayed on [huma
 
 ### 3. Keep working in a hostile environment
 
-Suppressive signals, limited nutrients, low oxygen, and repeated stimulation can undermine function. **Exhaustion** describes a biological state associated with chronic stimulation and altered function; it is not simply a cell being briefly tired. [Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) provide several distinct regulatory contacts. PD-1, LAG-3, TIM-3 or TIGIT staining alone does not identify the causal restraint or establish that blocking it restores useful activity. Compare a defined perturbation with appropriate controls before assigning that job to the pathway.
+Suppressive signals, limited nutrients, low oxygen, and repeated stimulation can undermine function. [**Exhaustion**](/wiki/education/concepts/immunology/t-cells/t-cell-states) describes a biological state associated with chronic stimulation and altered function; it is not simply a cell being briefly tired. [Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) provide several distinct regulatory contacts. PD-1, LAG-3, TIM-3 or TIGIT staining alone does not identify the causal restraint or establish that blocking it restores useful activity. Compare a defined perturbation with appropriate controls before assigning that job to the pathway.
 
 Give a proposed barrier a specific name. [Adenosine and indoleamine 2,3-dioxygenase (IDO) pathways](/wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido) describe different local regulatory mechanisms. [Tumor-associated macrophages](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-associated-macrophages) and [myeloid-derived suppressor cells](/wiki/education/concepts/cancer-biology/tumor-microenvironment/myeloid-derived-suppressor-cells) require careful identity and function measurements. A high cell count or gene-expression signal alone cannot prove which barrier is causing failure.
 
@@ -72,6 +74,12 @@ Now keep target X unchanged and change the neighborhood. A tumor-only culture su
 **What might address the target-coverage gap?** A second recognition target, a tested [logic rule](/wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars), or a demonstrated broader immune response might help. Ask which rule is proposed before expecting broader coverage.
 
 Continue the **fictional** model: of the 100 cancer cells, 20 display both X and Y, 60 only X, 10 only Y, and 10 neither. An idealized **OR rule**, recognizing X or Y, would cover 90 cells. An idealized **AND rule**, requiring both, would cover 20. These are candidate coverage counts, not measured killing. Neither calculation includes normal tissue, access, signal strength or cell state. Requiring two targets can narrow coverage; it does not automatically make a design safe. [3]
+
+## Carry a recognition specification through the tissue
+
+**Fictional transfer question:** A matched binder reaches and recognizes target-positive cancer cells in a dish. Engineered cells are scarce inside a tissue model, and the same binder also recognizes some healthy cells. Which barriers did the dish settle?
+
+**Answer:** It supports recognition in that dish. It did not settle **access** to tissue or **safety** in healthy tissue. After entry, function needs its own measurement in that environment. Return to the board's actual epitope/binder specification; changing cell number cannot create a missing target or establish a safe window.
 
 ## Match the tool to the problem
 
