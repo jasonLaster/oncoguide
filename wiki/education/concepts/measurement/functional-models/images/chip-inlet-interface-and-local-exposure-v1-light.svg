@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1100" viewBox="0 0 600 1100" role="img" aria-labelledby="title desc"><title id="title">chip-inlet-interface-and-local-exposure-v1</title><desc id="desc">Detailed code-generated teaching schematic with explicitly fictional examples and separate measurements; not a patient result.</desc><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#18333e"/></marker><marker id="arrow-pale" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#18333e"/></marker><radialGradient id="cell-rose"><stop offset="0" stop-color="#f6c4ca"/><stop offset="1" stop-color="#dc8795"/></radialGradient><radialGradient id="cell-blue"><stop offset="0" stop-color="#d4ebf6"/><stop offset="1" stop-color="#7fb0cd"/></radialGradient></defs><rect width="600" height="1100" fill="#fbf7ed"/>
+<text x="28" y="44" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#18333e">Where is exposure measured?</text>
+<text x="28" y="83" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">Chosen schematic · not exact device scale</text>
+<rect x="22" y="115" width="556" height="687" rx="15" fill="#fffdf7" stroke="#9cb2b9" stroke-width="2"/>
+<text x="42" y="156" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#18333e">Inlet: 1 µM (fictional)</text>
+<path d="M118 175 L118 242" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="65" y="242" width="175" height="450" rx="16" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<text x="81" y="292" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Medium</text>
+<text x="81" y="330" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">channel</text>
+<path d="M132 380 L132 422" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-pale)"/>
+<circle cx="193" cy="395" r="6" fill="#e5bd74"/>
+<path d="M132 460 L132 502" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-pale)"/>
+<circle cx="193" cy="475" r="6" fill="#e5bd74"/>
+<path d="M132 540 L132 582" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-pale)"/>
+<circle cx="193" cy="555" r="6" fill="#e5bd74"/>
+<path d="M132 620 L132 662" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-pale)"/>
+<circle cx="193" cy="635" r="6" fill="#e5bd74"/>
+<rect x="277" y="242" width="31" height="450" rx="4" fill="#b6a8ca" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="277" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="326" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="375" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="424" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="473" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="522" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="571" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="620" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="277" y="669" width="31" height="13" rx="0" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<rect x="345" y="242" width="199" height="450" rx="12" fill="#d9e7d5" stroke="#9cb2b9" stroke-width="2"/>
+<text x="361" y="290" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Tumor +</text>
+<text x="361" y="328" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">matrix</text>
+<circle cx="383" cy="386" r="24" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="383" cy="386" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="380" cy="388" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="392" cy="380" r="2" fill="#b6a8ca"/>
+<circle cx="371" cy="378" r="2" fill="#b6a8ca"/>
+<circle cx="389" cy="397" r="2" fill="#b6a8ca"/>
+<circle cx="485" cy="436" r="24" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="485" cy="436" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="482" cy="438" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="494" cy="430" r="2" fill="#b6a8ca"/>
+<circle cx="473" cy="428" r="2" fill="#b6a8ca"/>
+<circle cx="491" cy="447" r="2" fill="#b6a8ca"/>
+<circle cx="408" cy="522" r="24" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="408" cy="522" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="405" cy="524" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="417" cy="516" r="2" fill="#b6a8ca"/>
+<circle cx="396" cy="514" r="2" fill="#b6a8ca"/>
+<circle cx="414" cy="533" r="2" fill="#b6a8ca"/>
+<circle cx="489" cy="605" r="24" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="489" cy="605" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="486" cy="607" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="498" cy="599" r="2" fill="#b6a8ca"/>
+<circle cx="477" cy="597" r="2" fill="#b6a8ca"/>
+<circle cx="495" cy="616" r="2" fill="#b6a8ca"/>
+<circle cx="380" cy="647" r="24" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="380" cy="647" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="377" cy="649" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="389" cy="641" r="2" fill="#b6a8ca"/>
+<circle cx="368" cy="639" r="2" fill="#b6a8ca"/>
+<circle cx="386" cy="658" r="2" fill="#b6a8ca"/>
+<path d="M372 455 L421 475" fill="none" stroke="#d6bc8f" stroke-width="6" stroke-linecap="round"/>
+<path d="M454 546 L503 566" fill="none" stroke="#d6bc8f" stroke-width="6" stroke-linecap="round"/>
+<path d="M411 638 L460 658" fill="none" stroke="#d6bc8f" stroke-width="6" stroke-linecap="round"/>
+<path d="M220 500 L240 500" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<path d="M240 500 L277 500" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<path d="M277 500 L308 500" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<path d="M308 500 L345 500" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<path d="M345 500 L369 500" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7" marker-end="url(#arrow-pale)"/>
+<text x="324" y="207" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Interface</text>
+<path d="M338 215 L293 237" fill="none" stroke="#9cb2b9" stroke-width="2" stroke-linecap="round"/>
+<path d="M133 700 L133 752" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="81" y="787" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Outlet</text>
+<text x="332" y="740" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Local exposure:</text>
+<text x="414" y="786" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#18333e">?</text>
+<rect x="22" y="839" width="556" height="192" rx="15" fill="#fffdf7" stroke="#9cb2b9" stroke-width="2"/>
+<text x="42" y="881" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18333e">Same nominal 1 µM in a static well</text>
+<text x="42" y="926" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">does not establish equal local exposure.</text>
+<text x="42" y="972" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Less death ≠ proven flow protection.</text>
+<text x="28" y="1074" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">Medium flow ≠ whole circulation / immunity.</text>
+</svg>

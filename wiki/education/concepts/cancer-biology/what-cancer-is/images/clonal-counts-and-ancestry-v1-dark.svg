@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1330" viewBox="0 0 780 1330" role="img" aria-labelledby="title desc"><title id="title">A larger B share accompanies fewer B cells</title><desc id="desc">A separately assumed common ancestor branches into A and B in a fictional culture. Direct counts are A900/B100 at the start and A90/B90 later. Shared-scale absolute bars show both counts falling; independently normalized bars show B share increasing from 100/1000=10% to 90/180=50%. Counts are not sequencing fractions and cannot alone establish ancestry or causal selection.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c1cfca"/></marker><pattern id="unknown" patternUnits="userSpaceOnUse" width="18" height="18"><path d="M0 18 L18 0" stroke="#617c77" stroke-width="2"/></pattern></defs>
+<rect x="0" y="0" width="780" height="1330" rx="0" fill="#192a2e" />
+<text x="40" y="62" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">B share rises; B count falls</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#c1cfca" text-anchor="start"><tspan x="40" dy="0">Fictional direct counts</tspan></text>
+<rect x="24" y="145" width="732" height="265" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="199" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">1. A supplied toy ancestry relationship</tspan></text>
+<text x="390" y="240" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="390" dy="0">Common ancestor</tspan></text>
+<circle cx="390" cy="281" r="27" fill="#233a3e" stroke="#9bc9df" stroke-width="4"/>
+<circle cx="390" cy="281" r="12.15" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<circle cx="390" cy="281" r="4.05" fill="#c7a2db"/>
+<path d="M390 308 V330 H217 V341 M390 330 H565 V341" fill="none" stroke="#c1cfca" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="217" cy="373" r="26" fill="#233a3e" stroke="#e4bd7c" stroke-width="4"/>
+<circle cx="217" cy="373" r="11.700000000000001" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<circle cx="217" cy="373" r="3.9" fill="#c7a2db"/>
+<text x="217" y="380" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="217" dy="0">A</tspan></text>
+<circle cx="565" cy="373" r="26" fill="#233a3e" stroke="#91c9b1" stroke-width="4"/>
+<circle cx="565" cy="373" r="11.700000000000001" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<circle cx="565" cy="373" r="3.9" fill="#c7a2db"/>
+<text x="565" y="380" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="565" dy="0">B</tspan></text>
+<rect x="24" y="430" width="732" height="455" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="484" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">2. Counts use one absolute scale</tspan></text>
+<circle cx="69" cy="523" r="12" fill="#e4bd7c"/>
+<text x="94" y="535" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="94" dy="0">A</tspan></text>
+<circle cx="179" cy="523" r="12" fill="#91c9b1"/>
+<text x="204" y="535" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="204" dy="0">B</tspan></text>
+<text x="47" y="585" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">Start: total 1,000 cells</tspan></text>
+<text x="47" y="718" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">Later: total 180 cells</tspan></text>
+<rect x="125" y="610" width="522.0" height="30" rx="4" fill="#e4bd7c" />
+<text x="91" y="636" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="end"><tspan x="91" dy="0">A</tspan></text>
+<text x="661.0" y="636" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="661.0" dy="0">900</tspan></text>
+<rect x="125" y="653" width="57.99999999999999" height="30" rx="4" fill="#91c9b1" />
+<text x="91" y="679" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="end"><tspan x="91" dy="0">B</tspan></text>
+<text x="197.0" y="679" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="197.0" dy="0">100</tspan></text>
+<rect x="125" y="745" width="52.199999999999996" height="30" rx="4" fill="#e4bd7c" />
+<text x="91" y="771" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="end"><tspan x="91" dy="0">A</tspan></text>
+<text x="191.2" y="771" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="191.2" dy="0">90</tspan></text>
+<rect x="125" y="788" width="52.199999999999996" height="30" rx="4" fill="#91c9b1" />
+<text x="91" y="814" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="end"><tspan x="91" dy="0">B</tspan></text>
+<text x="191.2" y="814" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="191.2" dy="0">90</tspan></text>
+<path d="M125 842 L705 842" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="125" y="875" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="middle"><tspan x="125" dy="0">0</tspan></text>
+<text x="415" y="875" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="middle"><tspan x="415" dy="0">500</tspan></text>
+<text x="705" y="875" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="middle"><tspan x="705" dy="0">1,000</tspan></text>
+<rect x="24" y="910" width="732" height="275" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="964" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">3. Shares use each snapshot’s total</tspan></text>
+<text x="48" y="1021" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Start • B: 100 / 1,000 = 10%</tspan></text>
+<rect x="125" y="1043" width="522.0" height="32" rx="0" fill="#e4bd7c" />
+<rect x="647.0" y="1043" width="58.0" height="32" rx="0" fill="#91c9b1" />
+<text x="48" y="1111" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Later • B: 90 / 180 = 50%</tspan></text>
+<rect x="125" y="1133" width="290.0" height="32" rx="0" fill="#e4bd7c" />
+<rect x="415.0" y="1133" width="290.0" height="32" rx="0" fill="#91c9b1" />
+<text x="40" y="1240" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">B count: 100 → 90; B share: 10% → 50%.</tspan><tspan x="40" dy="42">The snapshots alone do not identify the cause.</tspan></text>
+</svg>

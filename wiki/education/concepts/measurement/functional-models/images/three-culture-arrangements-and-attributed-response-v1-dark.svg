@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1100" viewBox="0 0 600 1100" role="img" aria-labelledby="title desc"><title id="title">three-culture-arrangements-and-attributed-response-v1</title><desc id="desc">Detailed code-generated teaching schematic with explicitly fictional examples and separate measurements; not a patient result.</desc><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#f5efdd"/></marker><marker id="arrow-pale" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#18333e"/></marker><radialGradient id="cell-rose"><stop offset="0" stop-color="#f6c4ca"/><stop offset="1" stop-color="#dc8795"/></radialGradient><radialGradient id="cell-blue"><stop offset="0" stop-color="#d4ebf6"/><stop offset="1" stop-color="#7fb0cd"/></radialGradient></defs><rect width="600" height="1100" fill="#112432"/>
+<text x="28" y="44" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f5efdd">Arrange the interaction.</text>
+<text x="28" y="83" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Then ask whose readout changed.</text>
+<rect x="22" y="111" width="556" height="214" rx="15" fill="#1d3643" stroke="#8ca8b2" stroke-width="2"/>
+<text x="42" y="151" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#f5efdd">1 · Direct contact</text>
+<rect x="42" y="174" width="516" height="106" rx="22" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M51 192 L549 192" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M54 265 L546 265" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<circle cx="112" cy="223" r="24" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="112" cy="223" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="109" cy="225" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="121" cy="217" r="2" fill="#b6a8ca"/>
+<circle cx="100" cy="215" r="2" fill="#b6a8ca"/>
+<circle cx="118" cy="234" r="2" fill="#b6a8ca"/>
+<circle cx="158" cy="229" r="24" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="158" cy="229" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="155" cy="231" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="167" cy="223" r="2" fill="#b6a8ca"/>
+<circle cx="146" cy="221" r="2" fill="#b6a8ca"/>
+<circle cx="164" cy="240" r="2" fill="#b6a8ca"/>
+<circle cx="340" cy="223" r="24" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="340" cy="223" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="337" cy="225" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="349" cy="217" r="2" fill="#b6a8ca"/>
+<circle cx="328" cy="215" r="2" fill="#b6a8ca"/>
+<circle cx="346" cy="234" r="2" fill="#b6a8ca"/>
+<circle cx="386" cy="229" r="24" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="386" cy="229" r="20" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="383" cy="231" rx="9.36" ry="7.68" fill="#566d8a" opacity=".65"/>
+<circle cx="395" cy="223" r="2" fill="#b6a8ca"/>
+<circle cx="374" cy="221" r="2" fill="#b6a8ca"/>
+<circle cx="392" cy="240" r="2" fill="#b6a8ca"/>
+<circle cx="232" cy="212" r="6" fill="#e5bd74"/>
+<circle cx="284" cy="245" r="6" fill="#e5bd74"/>
+<circle cx="477" cy="227" r="6" fill="#e5bd74"/>
+<text x="42" y="309" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Contact + exchanged molecules</text>
+<rect x="22" y="345" width="556" height="244" rx="15" fill="#1d3643" stroke="#8ca8b2" stroke-width="2"/>
+<text x="42" y="386" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#f5efdd">2 · Barrier-separated</text>
+<rect x="42" y="409" width="516" height="119" rx="22" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M51 427 L549 427" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M54 513 L546 513" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<rect x="92" y="415" width="414" height="53" rx="3" fill="#1d3643" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M92 415 L92 468 L506 468 L506 415" fill="none" stroke="#8ca8b2" stroke-width="4" stroke-linecap="round"/>
+<circle cx="146" cy="442" r="18" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="146" cy="442" r="14" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="143" cy="444" rx="7.0200000000000005" ry="5.76" fill="#566d8a" opacity=".65"/>
+<circle cx="155" cy="436" r="2" fill="#b6a8ca"/>
+<circle cx="134" cy="434" r="2" fill="#b6a8ca"/>
+<circle cx="152" cy="453" r="2" fill="#b6a8ca"/>
+<circle cx="268" cy="442" r="18" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="268" cy="442" r="14" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="265" cy="444" rx="7.0200000000000005" ry="5.76" fill="#566d8a" opacity=".65"/>
+<circle cx="277" cy="436" r="2" fill="#b6a8ca"/>
+<circle cx="256" cy="434" r="2" fill="#b6a8ca"/>
+<circle cx="274" cy="453" r="2" fill="#b6a8ca"/>
+<circle cx="415" cy="442" r="18" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="415" cy="442" r="14" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="412" cy="444" rx="7.0200000000000005" ry="5.76" fill="#566d8a" opacity=".65"/>
+<circle cx="424" cy="436" r="2" fill="#b6a8ca"/>
+<circle cx="403" cy="434" r="2" fill="#b6a8ca"/>
+<circle cx="421" cy="453" r="2" fill="#b6a8ca"/>
+<circle cx="177" cy="502" r="19" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="177" cy="502" r="15" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="174" cy="504" rx="7.41" ry="6.08" fill="#566d8a" opacity=".65"/>
+<circle cx="186" cy="496" r="2" fill="#b6a8ca"/>
+<circle cx="165" cy="494" r="2" fill="#b6a8ca"/>
+<circle cx="183" cy="513" r="2" fill="#b6a8ca"/>
+<circle cx="357" cy="502" r="19" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="357" cy="502" r="15" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="354" cy="504" rx="7.41" ry="6.08" fill="#566d8a" opacity=".65"/>
+<circle cx="366" cy="496" r="2" fill="#b6a8ca"/>
+<circle cx="345" cy="494" r="2" fill="#b6a8ca"/>
+<circle cx="363" cy="513" r="2" fill="#b6a8ca"/>
+<rect x="92" y="465" width="414" height="12" rx="0" fill="#b6a8ca" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="117" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="159" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="201" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="243" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="285" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="327" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="369" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="411" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="453" y="465" width="10" height="12" rx="0" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M228 447 L228 465" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M228 465 L228 503" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-pale)"/>
+<circle cx="234" cy="486" r="4" fill="#e5bd74"/>
+<path d="M457 447 L457 465" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M457 465 L457 503" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-pale)"/>
+<circle cx="463" cy="486" r="4" fill="#e5bd74"/>
+<text x="42" y="570" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Cell-excluding pores: verify passage.</text>
+<rect x="22" y="609" width="556" height="234" rx="15" fill="#1d3643" stroke="#8ca8b2" stroke-width="2"/>
+<text x="42" y="650" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#f5efdd">3 · Conditioned medium</text>
+<rect x="50" y="678" width="205" height="90" rx="22" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M59 696 L246 696" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M62 753 L243 753" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<rect x="365" y="678" width="185" height="90" rx="22" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M374 696 L541 696" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M377 753 L538 753" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<circle cx="110" cy="733" r="19" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="110" cy="733" r="15" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="107" cy="735" rx="7.41" ry="6.08" fill="#566d8a" opacity=".65"/>
+<circle cx="119" cy="727" r="2" fill="#b6a8ca"/>
+<circle cx="98" cy="725" r="2" fill="#b6a8ca"/>
+<circle cx="116" cy="744" r="2" fill="#b6a8ca"/>
+<circle cx="207" cy="733" r="19" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="207" cy="733" r="15" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="204" cy="735" rx="7.41" ry="6.08" fill="#566d8a" opacity=".65"/>
+<circle cx="216" cy="727" r="2" fill="#b6a8ca"/>
+<circle cx="195" cy="725" r="2" fill="#b6a8ca"/>
+<circle cx="213" cy="744" r="2" fill="#b6a8ca"/>
+<circle cx="410" cy="733" r="19" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="410" cy="733" r="15" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="407" cy="735" rx="7.41" ry="6.08" fill="#566d8a" opacity=".65"/>
+<circle cx="419" cy="727" r="2" fill="#b6a8ca"/>
+<circle cx="398" cy="725" r="2" fill="#b6a8ca"/>
+<circle cx="416" cy="744" r="2" fill="#b6a8ca"/>
+<circle cx="507" cy="733" r="19" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="507" cy="733" r="15" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="504" cy="735" rx="7.41" ry="6.08" fill="#566d8a" opacity=".65"/>
+<circle cx="516" cy="727" r="2" fill="#b6a8ca"/>
+<circle cx="495" cy="725" r="2" fill="#b6a8ca"/>
+<circle cx="513" cy="744" r="2" fill="#b6a8ca"/>
+<circle cx="90" cy="703" r="5" fill="#e5bd74"/>
+<circle cx="171" cy="702" r="5" fill="#e5bd74"/>
+<circle cx="227" cy="701" r="5" fill="#e5bd74"/>
+<circle cx="403" cy="702" r="5" fill="#e5bd74"/>
+<circle cx="485" cy="704" r="5" fill="#e5bd74"/>
+<path d="M269 715 L349 715" fill="none" stroke="#f5efdd" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="51" y="805" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Producer</text>
+<text x="371" y="805" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Recipient</text>
+<text x="42" y="835" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Collected cell-free medium → transfer</text>
+<rect x="22" y="863" width="556" height="217" rx="15" fill="#1d3643" stroke="#8ca8b2" stroke-width="2"/>
+<text x="42" y="904" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd">Mixed-well signal: 50% of vehicle</text>
+<circle cx="63" cy="949" r="18" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="63" cy="949" r="14" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="60" cy="951" rx="7.0200000000000005" ry="5.76" fill="#566d8a" opacity=".65"/>
+<circle cx="72" cy="943" r="2" fill="#b6a8ca"/>
+<circle cx="51" cy="941" r="2" fill="#b6a8ca"/>
+<circle cx="69" cy="960" r="2" fill="#b6a8ca"/>
+<text x="98" y="958" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Live tumor count: unchanged</text>
+<circle cx="63" cy="997" r="18" fill="url(#cell-blue)" stroke="#4f626d" stroke-width="2"/><circle cx="63" cy="997" r="14" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="60" cy="999" rx="7.0200000000000005" ry="5.76" fill="#566d8a" opacity=".65"/>
+<circle cx="72" cy="991" r="2" fill="#b6a8ca"/>
+<circle cx="51" cy="989" r="2" fill="#b6a8ca"/>
+<circle cx="69" cy="1008" r="2" fill="#b6a8ca"/>
+<text x="98" y="1006" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Live immune count: lower</text>
+<text x="42" y="1054" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Bulk signal ≠ 50% tumor killing.</text>
+</svg>

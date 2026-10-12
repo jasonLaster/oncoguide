@@ -53,6 +53,10 @@ flowchart TD
 
 *Engineering a setting and demonstrating its behavior are separate jobs.*
 
+<img src="./images/chip-inlet-interface-and-local-exposure-v1-light.svg" alt="A flowing medium channel has a fictional one micromolar inlet, an outlet, a porous interface and nearby tumor cells whose local exposure is unknown" data-theme-pair width="600" height="1100">
+
+Start at the inlet and follow the medium channel to the outlet. The separate tumor-and-matrix compartment sits across a porous interface in this chosen schematic. It combines teaching features rather than copying the geometry of a specific device. The dashed connector indicates possible transport; it does not measure the concentration at a cell. One micromolar (1 µM) means one micromole per liter. The fictional inlet value is not a guarantee of that local exposure. Even a lower death readout than in a static well would still require exposure and control checks before attributing protection to flow. [Primary lung-chip design, selected passages](https://pmc.ncbi.nlm.nih.gov/articles/PMC8335790/), [Jenkins methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/).
+
 ## Why it matters in cancer
 
 A chip can investigate transport barriers, neighboring-cell signals or a mechanical effect with more control than a complete organism. **Perfusion** means supplying fluid through a system; it can affect delivery and removal of molecules. It is not the patient's full circulation. Inlet drug concentration need not establish exposure at every cell, especially across a tissue barrier. Measure the feature the model claims to reproduce.

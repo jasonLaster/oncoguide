@@ -1,0 +1,6 @@
+Code-generated original scientific SVG; 0 image-model calls. Four linked physical/data layers: sequencing capture spot with positional barcode spanning tissue cells; imaging six observed coordinate dots(3G/3H); solid/dashed estimated boundaries with a fixed dot whose assignment can change; hatched inferred R absent from observed G/H panel. Never draw an observed R dot. Distinguish generic spot/bin units from imaging coordinates/estimated cells. Geometry schematic, not a universal platform dimension, cell identity or molecular truth. No protein/function claim.
+
+Frozen learner task: Separate capture geometry, molecule coordinates, cell assignment and imputation
+Frozen guardrails: Label the actual platform unit: capture spot/bin, molecule coordinate or assigned cell. Resolution, segmentation and inferred/imputed values are separate; do not claim universal single-cell truth or RNA–protein/function equivalence.
+
+Warm scientific palette; identical light/dark geometry, labels, quantities and uncertainty; minimum32 native SVGpx for essential labels. Construction code, source bodies and execution/capture receipts are privately retained and not delivered in public payload. SVGs are editable, without an executable reproduction-package promise.

@@ -1,0 +1,59 @@
+{
+  "schema": "education-original-code-svg-custody-v1",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+  "taskId": "page-visual-review.json#/117",
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "ownerPreimageSHA256": "c78b26a3689a519055bda36e632f5b5f3cea6c6e48b2693c0f16bc0be9e1f9e9",
+  "frozenTaskRowSHA256": "3c308bc978f0b534c2d27975ee6dba5bd186beef67838f09f9947dffe0442a28",
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "referenceImages": [],
+  "rasterArtworkOutputs": [],
+  "creationCommit": null,
+  "originalBrief": {
+    "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1.txt",
+    "sha256": "d0ec3f075f6b2274a694cd82d726cdef219db52268b0739e6a552c8386e469cc"
+  },
+  "nativePair": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+      "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c",
+      "width": 780,
+      "height": 1330
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+      "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998",
+      "width": 780,
+      "height": 1330
+    }
+  ],
+  "sourceReview": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22397650/",
+      "title": "Intratumor heterogeneity and branched evolution revealed by multiregion sequencing.",
+      "depth": "Selected primary full-text results/discussion",
+      "section": "Phylogenetic/sampling results, pretreatment branching and expression heterogeneity",
+      "scope": "Multiregion renal-cancer study from four participants; no universal missed-variant percentage"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/959840/",
+      "title": "The clonal evolution of tumor cell populations.",
+      "depth": "Complete primary abstract",
+      "section": "Historical variation-and-selection hypothesis",
+      "scope": "Historical hypothesis; not reconstruction of this fictional culture"
+    },
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Genetic-Drift",
+      "title": "Genetic Drift — NHGRI",
+      "depth": "Selected official page sections",
+      "section": "Definition and narration",
+      "scope": "General evolutionary definition, not a cancer diagnostic assay"
+    }
+  ],
+  "pairContract": "Identical geometry, labels, objects, counts and units; palette values only differ.",
+  "privateAids": "Construction scripts, original source bodies/read receipts and QA screenshots remain private and are not delivered in the public payload. Editable SVGs are delivered without an executable regeneration package. QA screenshots are not raster artwork or image-model outputs.",
+  "scope": "Original educational geometry and explicitly fictional/schematic examples. No copied source figure, executed scientific model, patient interpretation or review/approval claim."
+}

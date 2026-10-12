@@ -1,0 +1,66 @@
+{
+  "schema": "education-original-code-svg-custody-v1",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+  "taskId": "page-visual-review.json#/89",
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "ownerPreimageSHA256": "1480bfa633bb46cb2283b6e4868554717781ab4f57275146921300dc330e32bc",
+  "frozenTaskRowSHA256": "e593345d934a47d7c28614594a5ac9b5074675b8cf7de09e7bb31cade54472ad",
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "referenceImages": [],
+  "rasterArtworkOutputs": [],
+  "creationCommit": null,
+  "originalBrief": {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.txt",
+    "sha256": "73d16ee2aa4ed25a1cf4c8095e886ce9f097598c7c8002c8a491f4aa7c3b21c3"
+  },
+  "nativePair": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+      "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86",
+      "width": 780,
+      "height": 1360
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+      "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9",
+      "width": 780,
+      "height": 1360
+    }
+  ],
+  "sourceReview": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23047548/",
+      "title": "Patterns of genomic loss of heterozygosity predict homologous recombination repair defects in epithelial ovarian cancer.",
+      "depth": "Selected primary full-text Results",
+      "section": "Distribution of LOH lengths and HRD-score definition",
+      "scope": "Epithelial ovarian-tumor cohorts and cancer cell lines; original research score"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22576213/",
+      "title": "Telomeric allelic imbalance indicates defective DNA repair and sensitivity to DNA-damaging agents.",
+      "depth": "Selected primary full-text Results and Figure 4 caption",
+      "section": "DNA-repair-compromised breast cell lines; terminal-AI definition; Figure 4 mechanisms",
+      "scope": "Breast cell lines, defined TNBC cisplatin cohorts and serous ovarian context"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22933060/",
+      "title": "Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation.",
+      "depth": "Complete primary abstract",
+      "section": "Definition of LST as a break between adjacent regions at least 10 Mb",
+      "scope": "Original basal-like breast carcinoma SNP-array study"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/",
+      "title": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer.",
+      "depth": "Complete primary abstract",
+      "section": "Methods/results on paired pre/post-resistance samples and functional RAD51 assessment",
+      "scope": "Selected resistant BRCA1/2-mutant metastatic breast-cancer cohort; not a general response rule"
+    }
+  ],
+  "pairContract": "Identical geometry, labels, objects, counts and units; palette values only differ.",
+  "privateAids": "Construction scripts, original source bodies/read receipts and QA screenshots remain private and are not delivered in the public payload. Editable SVGs are delivered without an executable regeneration package. QA screenshots are not raster artwork or image-model outputs.",
+  "scope": "Original educational geometry and explicitly fictional/schematic examples. No copied source figure, executed scientific model, patient interpretation or review/approval claim."
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-074",
+  "owner": "wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation.md",
+  "currentOwnerSha256": "cc47f5345f69895f87ccad0bf797eb7c5122433deef68f5af69f2ab2de06454d",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative content, source qualification and SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent agent content and artwork reviewer",
+  "reviewedAtUTC": "2026-10-12T21:23:04.804Z",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "8d73d1b92e4e909f059ba1f4a1158ed5c51758ff1def4ad48a3cbdffdac370e4",
+    "learnerTask": "Distinguish a chemical DNA mark from a changed base sequence, and see why location and cell context change its interpretation.",
+    "gap": "The mark→context→hypothesis→test Mermaid is a good inference boundary but never shows the molecular distinction behind the bookmarks analogy: the same base letters with a chemical mark versus different sequence letters. That is the newcomer bottleneck.",
+    "accuracyGuardrails": [
+      "Keep DNA methylation distinct from histone marks, 5mC from5hmC and position-dependent regulation from universal silencing; do not depict a mark as proving a treatment response."
+    ],
+    "reasoning": "Aligned AACGT rows isolate the chemical C mark from an actual C-to-T substitution. DNA and histone substrates are labeled separately;5mC versus5hmC limitation and promoter/gene-body location prompt remain explicit. Both original answered reasoning and added sequence/mark retrieval check resist universal silencing, cell-fraction and treatment inference."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/25",
+    "originalTaskRowSHA256": "a52ec016b58f04be079790dd071fae6fae3fe03d4c43e735a45bb3e6c2f89783"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-light.svg",
+      "sha256": "c312ebd5f8fc8929a50aa532140423aef99f5e53b9073b048467132c6759f76f"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-dark.svg",
+      "sha256": "3c9334938b1413c9be00db44cd575d5763c76242747b89bc22476cb128fd03cf"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation.md",
+        "sha256": "cc47f5345f69895f87ccad0bf797eb7c5122433deef68f5af69f2ab2de06454d",
+        "bytes": 8816
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-light.svg",
+        "sha256": "c312ebd5f8fc8929a50aa532140423aef99f5e53b9073b048467132c6759f76f",
+        "bytes": 10969
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-dark.svg",
+        "sha256": "3c9334938b1413c9be00db44cd575d5763c76242747b89bc22476cb128fd03cf",
+        "bytes": 10969
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/epigenetics-sequence-and-marks-v1.txt",
+        "sha256": "2903aab6545b49afbf4fe6d6942c9edbac6157ca51211aa386c51465e2ef8577",
+        "bytes": 1303
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/epigenetics-sequence-and-marks-v1.json",
+        "sha256": "816dde023948756faafc64914d660cbd32203ff166167db7335a457bbc812856",
+        "bytes": 3212
+      }
+    ],
+    "originalArtwork": "Original code-generated SVG;0image-model calls; native pairs differ only in palette."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+      "depth": "Selected official definitions: epigenome components and regulation",
+      "scope": "Chemical marks on DNA and protein differ from sequence substitution; regulation depends on context."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19829295/",
+      "depth": "Primary abstract and selected Figure3 caption",
+      "scope": "Human embryonic stem cells and fetal fibroblasts; location and expression associations are not universal causal silencing."
+    },
+    {
+      "url": "https://www.nature.com/articles/nprot.2013.115",
+      "depth": "Complete primary protocol abstract only",
+      "scope": "Standard BS reads both5mC and5hmC as C; oxBS comparison distinguishes marks. No complete protocol review."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1542678/",
+      "depth": "Complete primary abstract",
+      "scope": "Bisulfite conversion and strand/molecule readout; bulk average is not fraction of cells with a silenced gene."
+    },
+    {
+      "url": "https://www.nature.com/articles/30764",
+      "depth": "Complete primary abstract only",
+      "scope": "MeCP2-associated corepressor/deacetylase mechanism in original experiments; no universal off-switch claim."
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "originalOwnerRecoverableByRemovingOnlyAdditions": true,
+    "originalSourcesPracticeAndNavigationPreserved": true,
+    "finitePublicFileHashesVerified": true,
+    "nativeLightDarkGeometryLabelsCountsMatch": true,
+    "actualNativeAndCompactInlineInspected": true,
+    "defaultPreviewMobileAndDesktopInspected": true,
+    "renderStates": 8,
+    "minEssentialLabelPx": 14.153846153846153,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3",
+    "contentChecker": "PASS;independent run;no warnings",
+    "noCanonicalMutation": true
+  },
+  "publicationPath": "wiki/education/concepts/biology-basics/genetics/images/prompts/epigenetics-sequence-and-marks-v1-independent-owner-review.json",
+  "limits": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "releaseAccepted": false,
+    "coverageCreditAwarded": false,
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "productionVerified": false,
+    "previewScope": "Independent isolated carrier with unchanged pinned theater CSS and matching DOM;no live route or React event certification.",
+    "sourceScope": "Only stated primary passages/abstracts were read;downloads and citation presence do not imply complete-paper review."
+  }
+}

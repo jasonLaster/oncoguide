@@ -67,6 +67,12 @@ Researchers compare suitable samples across regions or time and infer ancestry f
 
 ## Try it
 
+<img src="./images/clonal-counts-and-ancestry-v1-light.svg" alt="An explicitly assumed toy ancestry tree sits beside shared-scale absolute count bars and normalized share bars for 900 A and 100 B cells changing to 90 A and 90 B." width="780" height="1330" data-theme-pair>
+
+*The toy ancestry relationship is supplied separately from the counts. B’s count falls from 100 to 90 while its share rises from 10% to 50%. Direct counts show relative enrichment, but the snapshots alone do not distinguish selection, chance or sampling.*
+
+[Open the light diagram](./images/clonal-counts-and-ancestry-v1-light.svg) · [Open the dark diagram](./images/clonal-counts-and-ancestry-v1-dark.svg)
+
 A fictional culture starts with 900 A cells and 100 B cells. Later it contains 90 A and 90 B cells. These are direct cell counts, not sequencing read fractions. Did B expand?
 
 **Answer:** Its share rose from `100/1,000 = 10%` to `90/180 = 50%`, but its count fell from 100 to 90. The snapshots demonstrate relative enrichment. They do not alone establish the causal mechanism or clinical resistance.

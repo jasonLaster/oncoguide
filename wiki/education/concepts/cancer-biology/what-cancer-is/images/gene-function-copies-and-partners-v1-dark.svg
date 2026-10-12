@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1360" viewBox="0 0 780 1360" role="img" aria-labelledby="title desc"><title id="title">Four functional mechanisms</title><desc id="desc">Simple two-copy illustrations distinguish an overactive growth product from loss of both useful copies, one retained useful copy with insufficient protective output, and altered-protein interference with a useful partner. Glyphs are schematic rather than actual subunit counts. Two hits are not universal; the p27 challenged-mouse and selected TP53 myeloid-model examples retain their scope in the owner. Activity does not demonstrate dependence or treatment benefit.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c1cfca"/></marker><pattern id="unknown" patternUnits="userSpaceOnUse" width="18" height="18"><path d="M0 18 L18 0" stroke="#617c77" stroke-width="2"/></pattern></defs>
+<rect x="0" y="0" width="780" height="1360" rx="0" fill="#192a2e" />
+<text x="40" y="62" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Four ways function can change</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#c1cfca" text-anchor="start"><tspan x="40" dy="0">Illustrative two-copy examples</tspan></text>
+<rect x="24" y="145" width="732" height="235" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="199" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">1. Overactive growth-related function</tspan></text>
+<rect x="75" y="247" width="125" height="34" rx="9" fill="#c7a2db" />
+<path d="M100 254 L100 274" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M133 254 L133 274" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M166 254 L166 274" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M213 264 L304 264" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M329 252 Q312 233 340 227 Q359 209 371 236 Q398 244 376 266 Q390 295 360 294 Q330 313 325 277 Z" fill="#c7a2db" stroke="#c7a2db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M400 264 L594 264" fill="none" stroke="#c7a2db" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="610" y="276" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="610" dy="0">Signal</tspan></text>
+<text x="75" y="323" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="75" dy="0">Gene</tspan></text>
+<text x="300" y="323" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="300" dy="0">Product</tspan></text>
+<text x="48" y="363" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Activity does not establish dependence.</tspan></text>
+<rect x="24" y="405" width="732" height="235" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="459" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">2. A classic two-hit route</tspan></text>
+<rect x="90" y="505" width="125" height="34" rx="9" fill="#526964" />
+<path d="M115 512 L115 532" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M148 512 L148 532" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M181 512 L181 532" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M136 506 L168 538" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M136 538 L168 506" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="302" y="505" width="125" height="34" rx="9" fill="#526964" />
+<path d="M327 512 L327 532" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M360 512 L360 532" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M393 512 L393 532" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M348 506 L380 538" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M348 538 L380 506" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M446 522 L594 522" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M621 497 L671 547" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M621 547 L671 497" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="585" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Both useful copies disabled in this example.</tspan></text>
+<text x="48" y="622" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Two hits are not a universal requirement.</tspan></text>
+<rect x="24" y="665" width="732" height="235" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="719" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">3. One useful copy, insufficient output</tspan></text>
+<rect x="90" y="768" width="125" height="34" rx="9" fill="#91c9b1" />
+<path d="M115 775 L115 795" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M148 775 L148 795" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M181 775 L181 795" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="302" y="768" width="125" height="34" rx="9" fill="#526964" />
+<path d="M327 775 L327 795" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M360 775 L360 795" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M393 775 L393 795" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M348 769 L380 801" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M348 801 L380 769" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M238 817 L436 817" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M458 805 Q441 786 469 780 Q488 762 500 789 Q527 797 505 819 Q519 848 489 847 Q459 866 454 830 Z" fill="#91c9b1" stroke="#91c9b1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="550" y="829" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="550" dy="0">Too little</tspan></text>
+<text x="48" y="879" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Haploinsufficiency</tspan></text>
+<rect x="24" y="925" width="732" height="235" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="979" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">4. Dominant-negative interference</tspan></text>
+<rect x="77" y="1020" width="125" height="34" rx="9" fill="#91c9b1" />
+<path d="M102 1027 L102 1047" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M135 1027 L135 1047" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M168 1027 L168 1047" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="297" y="1020" width="125" height="34" rx="9" fill="#c7a2db" />
+<path d="M322 1027 L322 1047" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M355 1027 L355 1047" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M388 1027 L388 1047" fill="none" stroke="#233a3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M187 1069 L302 1100" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M355 1069 L387 1100" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<ellipse cx="365" cy="1100" rx="94" ry="43" fill="none" stroke="#c7a2db" stroke-width="2"/>
+<path d="M310 1088 Q293 1069 321 1063 Q340 1045 352 1072 Q379 1080 357 1102 Q371 1131 341 1130 Q311 1149 306 1113 Z" fill="#91c9b1" stroke="#91c9b1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M373 1088 Q356 1069 384 1063 Q403 1045 415 1072 Q442 1080 420 1102 Q434 1131 404 1130 Q374 1149 369 1113 Z" fill="#c7a2db" stroke="#c7a2db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M475 1100 L600 1100" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M620 1075 L670 1125" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M620 1125 L670 1075" fill="none" stroke="#edab8d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="40" y="1220" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Two hits, dosage and interference differ.</tspan><tspan x="40" dy="40">Protein glyphs do not specify subunit counts.</tspan><tspan x="40" dy="40">p27 / TP53 examples retain their model scopes.</tspan></text>
+</svg>

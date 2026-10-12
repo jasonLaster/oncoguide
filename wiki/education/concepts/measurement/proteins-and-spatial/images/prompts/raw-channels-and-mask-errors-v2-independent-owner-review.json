@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-079",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+  "currentOwnerSha256": "f3aa29f3629005371ff46001535f09ddb2ed0d05ee13eaed3d8585c06b4c15f4",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Original educational writing, source qualification, SVG generation and narrow boundary-color successor",
+    "rootOriginalGenerationOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "Independent original complete-task reviewer and focused successor correction reviewer",
+  "reviewedAtUTC": "2026-10-12T21:45:26Z",
+  "passedAtUTC": "2026-10-12T21:45:26Z",
+  "boundAtUTC": "2026-10-12T21:45:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "reviewScope": "Original complete-owner task/science/source/native review carried forward under exact unchanged bytes; nine-stroke correction rechecked only for next-gap-078/079. This is the first prospective task-fit receipt for this owner.",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/290",
+    "originalTaskRowSHA256": "4ad3c7b9111b5202c4bdffd1d28fff1df84f6c0dd6a8aab94db8f9891fb80146"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+    "baselinePageSHA256": "46224523bf7c610aeded4e8a9ce26a95bcdd605e211e656884e7d7cb9b60cc9b",
+    "learnerTask": "Inspect merging, splitting and assigned marker boundaries",
+    "gap": "The workflow does not show mask errors",
+    "accuracyGuardrails": "Show raw marker channels separately from estimated masks and cell assignments. Merging, splitting and boundary uncertainty can produce apparent double positivity; an overlay is not verified cell identity/function.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The raw A immune-marker and K keratin channels stay separate from masks, with two stipulated cells and fixed signals. Merged, split and shifted estimates now have clearly visible dark boundaries in mobile inline/default-preview and desktop context; the split scene shows three objects without creating a third cell. The retained hybrid-cell exercise and split question reject inferred cell identity, new markers, functional interactions or true double positivity from an overlay. Comparing original channels and representative annotations remains explicit. The complete frozen mask-error/assignment task is now adequately visible, with the original source and scientific limits preserved.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+      "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+      "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+        "sha256": "f3aa29f3629005371ff46001535f09ddb2ed0d05ee13eaed3d8585c06b4c15f4",
+        "bytes": 8953
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+        "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c",
+        "bytes": 10145
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+        "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c",
+        "bytes": 10145
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2.txt",
+        "sha256": "9250acbf193c9547bfd0f6233ce924b1a2fc25e72b3aaa32d26a0881b5332216",
+        "bytes": 1142
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-provenance.json",
+        "sha256": "7d0a5788590812fb3b1f9a1140e2c470feebb5496d85223d5cb906082ab70071",
+        "bytes": 3602
+      }
+    ],
+    "originalArtwork": "Exact complete owner, unchanged original TXT, native light/dark pair and actual ordinary provenance. Original construction authorship is separate from root canonical integration. Construction/correction code, source bodies, execution and captures remain private and are not admitted by these hashes."
+  },
+  "originalPackageReview": {
+    "sha256": "64bfcbddbbc9dfab88221345df0afb75b49d0c4f5f799cd7f52a44340a81bbb1",
+    "manifestSHA256": "76097a18b102093b11874550f793945e3a0c097b01a1ae6f5d7e4a130089de37",
+    "checksumSHA256": "3069e21da064635bd3e723e4fa54fd4775a204c02aa0fb90dca3f94555aa0649",
+    "originalVerdict": "REVISE",
+    "originalReviewedAtUTC": "2026-10-12T21:31:48Z",
+    "historicalVerdictRemainsUnchanged": true,
+    "inheritedScopes": "Original actual complete-owner task/science/source/arithmetic/native review scopes are retained. Only readouts-dark-boundary-contrast is resolved by this successor check. No source/science or broad native grade rerun."
+  },
+  "focusedCorrectionReview": {
+    "sha256": "c7f5bcf72bb42bd48841c92ddb1722db540cd128fc233e9994865794b087e837",
+    "passedAtUTC": "2026-10-12T21:44:58Z",
+    "findingResolved": "readouts-dark-boundary-contrast",
+    "scopeForThisOwner": "Nine-stroke correction and surrounding context rechecked"
+  },
+  "sourceReadScope": {
+    "inheritedFromActualReviewAtUTC": "2026-10-12T21:31:48Z",
+    "primaryRecords": [
+      {
+        "name": "Cellpose",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41592-020-01018-x&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "Mesmer",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC9010346&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      }
+    ],
+    "officialOrSelectedPassages": [
+      {
+        "url": "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation",
+        "depth": "Selected current v4.1 goal, segmentation-mask/polygon and transcript-assignment passages (lines 63, 82–108); not current-platform performance validation."
+      },
+      {
+        "url": "https://www.10xgenomics.com/support/software/tenx-explorer/latest/tutorials/checking-data-quality",
+        "depth": "Selected current v5.0 segmentation and original-channel quality-inspection passages (lines 64–98); not a dataset or image benchmark review."
+      }
+    ],
+    "originalAuthorAccessFailures": [
+      {
+        "file": "Mesmer.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9010346/fullTextXML",
+        "retrievalStartedAtUTC": "2026-10-12T20:46:45.736209+00:00",
+        "failedAtUTC": "2026-10-12T20:46:46.593340+00:00",
+        "error": "HTTP Error 500: ",
+        "reading": "failed; no content read"
+      },
+      {
+        "url": "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation",
+        "retrievalStartedAtUTC": "2026-10-12T20:48:31.299421+00:00",
+        "failedAtUTC": "2026-10-12T20:48:31.402738+00:00",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "url": "https://www.10xgenomics.com/support/software/tenx-explorer/latest/tutorials/checking-data-quality",
+        "retrievalStartedAtUTC": "2026-10-12T20:48:31.299613+00:00",
+        "failedAtUTC": "2026-10-12T20:48:31.400663+00:00",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "name": "Mesmer",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC9010346&format=json&resultType=core",
+        "error": "list index out of range",
+        "timestampLimitation": "No exact clock timestamp retained in this initial failed acquisition record; no content read."
+      }
+    ],
+    "independentAccessFailures": [],
+    "limits": [
+      "No complete-paper review claim, source-figure copying, imported source dataset or patient-specific interpretation.",
+      "Sources do not validate the author-created fictional counts, coordinates, masks or histogram; those are explicitly stipulated and separately checked.",
+      "Existing historical source_checked metadata and pending human review status retained; no source-review promotion or self-approval.",
+      "Zero image-model calls; original SVG construction and revisions retained privately."
+    ],
+    "noWholePaperOrCurrentPlatformValidationClaim": true,
+    "noNewSourceLookupOrSourceDepthGrade": true,
+    "sourceBodiesPrivatelyRetainedNotPubliclyDelivered": true
+  },
+  "checks": {
+    "originalCompleteOwnerReadAndTaskJudgmentInherited": true,
+    "originalTeachingExercisesSourcesNavigationRetained": true,
+    "exactSuccessorFiveFileHashesVerified": true,
+    "fullFrozenTaskStringsAndTypesPreserved": true,
+    "geometryLabelsSignalsCountsAndSolidDashedPatternsUnchanged": true,
+    "focusedColorContextPASS": true,
+    "originalMaintainedContentCheckerPASSInherited": true,
+    "maintainedReaderOrLiveProductionAcceptance": false
+  },
+  "publicationPath": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-independent-owner-review.json",
+  "pending": {
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "newScientificSourceApproval": false,
+  "newSourceDepthGrade": false,
+  "newBroadNativeApproval": false,
+  "productionVerified": false,
+  "releaseAccepted": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

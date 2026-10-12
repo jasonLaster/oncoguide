@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1360" viewBox="0 0 780 1360" role="img" aria-labelledby="title desc"><title id="title">DNA, RNA state and surface target are separate layers</title><desc id="desc">An illustrative tissue field contains two sampled regions. R1 has A+B detected and a target-rich pattern; R2 has A detected with B not detected and a target-poor pattern. Both RNA-state symbols appear on both DNA-pattern outlines. An unsampled third site is explicitly unknown, not another inferred genetic branch. A candidate shared A tree represents only sampled DNA evidence. Cell glyphs are illustrative, not a census or response estimate.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c1cfca"/></marker><pattern id="unknown" patternUnits="userSpaceOnUse" width="18" height="18"><path d="M0 18 L18 0" stroke="#617c77" stroke-width="2"/></pattern></defs>
+<rect x="0" y="0" width="780" height="1360" rx="0" fill="#192a2e" />
+<text x="40" y="62" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">DNA, state and target differ</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#c1cfca" text-anchor="start"><tspan x="40" dy="0">Fictional field • icons are not a census</tspan></text>
+<rect x="24" y="145" width="732" height="555" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="199" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">1. Samples cover particular regions</tspan></text>
+<text x="67" y="240" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="67" dy="0">R1 • target-rich</tspan></text>
+<text x="435" y="240" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="435" dy="0">R2 • target-poor</tspan></text>
+<path d="M74 313 Q41 250 211 260 Q330 251 382 293 Q520 249 660 278 Q738 353 692 459 Q745 546 591 579 Q417 616 278 568 Q148 598 78 524 Q42 433 74 313 Z" fill="#405f71" stroke="#9bc9df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="217" cy="397" rx="137" ry="126" fill="none" stroke="#e4bd7c" stroke-width="4"/>
+<ellipse cx="563" cy="397" rx="126" ry="126" fill="none" stroke="#91c9b1" stroke-width="4"/>
+<circle cx="159" cy="344" r="29" fill="#233a3e" stroke="#e4bd7c" stroke-width="4"/>
+<circle cx="159" cy="344" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<circle cx="159" cy="344" r="4.35" fill="#c7a2db"/>
+<path d="M186.25108600279134 353.9185841564444 L196.58770483143633 357.6808057330268" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="196.58770483143633" cy="357.6808057330268" r="4" fill="#e4bd7c"/>
+<path d="M164.035797152341 372.559424837354 L165.9459271066772 383.39231012048833" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="165.9459271066772" cy="383.39231012048833" r="4" fill="#e4bd7c"/>
+<path d="M135.24459071561924 360.6337166541803 L126.23391822844033 366.9430574540418" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="126.23391822844033" cy="366.9430574540418" r="4" fill="#e4bd7c"/>
+<path d="M135.24459071561924 327.3662833458197 L126.23391822844033 321.0569425459582" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="126.23391822844033" cy="321.0569425459582" r="4" fill="#e4bd7c"/>
+<path d="M161.52751653968207 315.11035375533936 L162.48622970990633 304.15221207633016" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="162.48622970990633" cy="304.15221207633016" r="4" fill="#e4bd7c"/>
+<path d="M185.28292582406286 331.74407040951974 L195.252311481466 327.09526953037204" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="195.252311481466" cy="327.09526953037204" r="4" fill="#e4bd7c"/>
+<circle cx="253" cy="332" r="29" fill="#233a3e" stroke="#e4bd7c" stroke-width="4"/>
+<circle cx="253" cy="332" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<rect x="248.65" y="327.65" width="8.7" height="8.7" rx="2" fill="#715b38" stroke="#e4bd7c" stroke-width="3" />
+<path d="M280.25108600279134 341.9185841564444 L290.5877048314363 345.6808057330268" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="290.5877048314363" cy="345.6808057330268" r="4" fill="#e4bd7c"/>
+<path d="M258.035797152341 360.559424837354 L259.94592710667723 371.39231012048833" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="259.94592710667723" cy="371.39231012048833" r="4" fill="#e4bd7c"/>
+<path d="M229.24459071561924 348.6337166541803 L220.23391822844033 354.9430574540418" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220.23391822844033" cy="354.9430574540418" r="4" fill="#e4bd7c"/>
+<path d="M229.24459071561924 315.3662833458197 L220.23391822844033 309.0569425459582" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220.23391822844033" cy="309.0569425459582" r="4" fill="#e4bd7c"/>
+<path d="M255.52751653968207 303.11035375533936 L256.4862297099063 292.15221207633016" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="256.4862297099063" cy="292.15221207633016" r="4" fill="#e4bd7c"/>
+<path d="M279.28292582406283 319.74407040951974 L289.252311481466 315.09526953037204" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="289.252311481466" cy="315.09526953037204" r="4" fill="#e4bd7c"/>
+<circle cx="184" cy="441" r="29" fill="#233a3e" stroke="#e4bd7c" stroke-width="4"/>
+<circle cx="184" cy="441" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<rect x="179.65" y="436.65" width="8.7" height="8.7" rx="2" fill="#715b38" stroke="#e4bd7c" stroke-width="3" />
+<path d="M211.25108600279134 450.9185841564444 L221.58770483143633 454.6808057330268" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="221.58770483143633" cy="454.6808057330268" r="4" fill="#e4bd7c"/>
+<path d="M189.035797152341 469.559424837354 L190.9459271066772 480.39231012048833" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="190.9459271066772" cy="480.39231012048833" r="4" fill="#e4bd7c"/>
+<path d="M160.24459071561924 457.6337166541803 L151.23391822844033 463.9430574540418" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="151.23391822844033" cy="463.9430574540418" r="4" fill="#e4bd7c"/>
+<path d="M160.24459071561924 424.3662833458197 L151.23391822844033 418.0569425459582" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="151.23391822844033" cy="418.0569425459582" r="4" fill="#e4bd7c"/>
+<path d="M186.52751653968207 412.11035375533936 L187.48622970990633 401.15221207633016" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="187.48622970990633" cy="401.15221207633016" r="4" fill="#e4bd7c"/>
+<path d="M210.28292582406286 428.74407040951974 L220.252311481466 424.09526953037204" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220.252311481466" cy="424.09526953037204" r="4" fill="#e4bd7c"/>
+<circle cx="284" cy="432" r="29" fill="#233a3e" stroke="#e4bd7c" stroke-width="4"/>
+<circle cx="284" cy="432" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<circle cx="284" cy="432" r="4.35" fill="#c7a2db"/>
+<circle cx="511" cy="344" r="29" fill="#233a3e" stroke="#91c9b1" stroke-width="4"/>
+<circle cx="511" cy="344" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<circle cx="511" cy="344" r="4.35" fill="#c7a2db"/>
+<circle cx="603" cy="352" r="29" fill="#233a3e" stroke="#91c9b1" stroke-width="4"/>
+<circle cx="603" cy="352" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<rect x="598.65" y="347.65" width="8.7" height="8.7" rx="2" fill="#715b38" stroke="#e4bd7c" stroke-width="3" />
+<circle cx="536" cy="441" r="29" fill="#233a3e" stroke="#91c9b1" stroke-width="4"/>
+<circle cx="536" cy="441" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<rect x="531.65" y="436.65" width="8.7" height="8.7" rx="2" fill="#715b38" stroke="#e4bd7c" stroke-width="3" />
+<circle cx="623" cy="446" r="29" fill="#233a3e" stroke="#91c9b1" stroke-width="4"/>
+<circle cx="623" cy="446" r="13.05" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<circle cx="623" cy="446" r="4.35" fill="#c7a2db"/>
+<path d="M650.2510860027913 455.9185841564444 L660.5877048314363 459.6808057330268" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="660.5877048314363" cy="459.6808057330268" r="4" fill="#e4bd7c"/>
+<path d="M628.0357971523409 474.559424837354 L629.9459271066772 485.39231012048833" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="629.9459271066772" cy="485.39231012048833" r="4" fill="#e4bd7c"/>
+<path d="M599.2445907156192 462.6337166541803 L590.2339182284403 468.9430574540418" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="590.2339182284403" cy="468.9430574540418" r="4" fill="#e4bd7c"/>
+<path d="M599.2445907156192 429.3662833458197 L590.2339182284403 423.0569425459582" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="590.2339182284403" cy="423.0569425459582" r="4" fill="#e4bd7c"/>
+<path d="M625.5275165396821 417.11035375533936 L626.4862297099063 406.15221207633016" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="626.4862297099063" cy="406.15221207633016" r="4" fill="#e4bd7c"/>
+<path d="M649.2829258240629 433.74407040951974 L659.252311481466 429.09526953037204" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="659.252311481466" cy="429.09526953037204" r="4" fill="#e4bd7c"/>
+<text x="94" y="572" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="94" dy="0">A + B detected</tspan></text>
+<text x="453" y="558" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="453" dy="0">A detected</tspan><tspan x="453" dy="40">B not detected</tspan></text>
+<rect x="48" y="637" width="684" height="43" rx="13" fill="url(#unknown)" stroke="#617c77" stroke-width="2" />
+<text x="73" y="670" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="73" dy="0">Unsampled third site: unknown</tspan></text>
+<rect x="24" y="725" width="732" height="295" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="779" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">2. Keep a cell’s layers separate</tspan></text>
+<circle cx="175" cy="899" r="56" fill="#233a3e" stroke="#e4bd7c" stroke-width="4"/>
+<circle cx="175" cy="899" r="25.2" fill="#405f71" stroke="#9bc9df" stroke-width="2"/>
+<rect x="166.6" y="890.6" width="16.8" height="16.8" rx="2" fill="#715b38" stroke="#e4bd7c" stroke-width="3" />
+<path d="M227.62278676401087 918.1531280262375 L237.95940559265586 921.9153496028198" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="237.95940559265586" cy="921.9153496028198" r="4" fill="#e4bd7c"/>
+<path d="M184.7242979493481 954.1492341686836 L186.63442790368433 964.9821194518179" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="186.63442790368433" cy="964.9821194518179" r="4" fill="#e4bd7c"/>
+<path d="M129.12748551981645 931.1202804356585 L120.11681303263754 937.4296212355201" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="120.11681303263754" cy="937.4296212355201" r="4" fill="#e4bd7c"/>
+<path d="M129.12748551981645 866.8797195643414 L120.11681303263755 860.5703787644799" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="120.11681303263755" cy="860.5703787644799" r="4" fill="#e4bd7c"/>
+<path d="M179.88072159386883 843.2130969068622 L180.83943476409308 832.2549552278531" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="180.83943476409308" cy="832.2549552278531" r="4" fill="#e4bd7c"/>
+<path d="M225.7532360740524 875.3333773425209 L235.72262173145555 870.6845764633731" fill="none" stroke="#e4bd7c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="235.72262173145555" cy="870.6845764633731" r="4" fill="#e4bd7c"/>
+<text x="340" y="831" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="340" dy="0">Outline: DNA pattern</tspan><tspan x="340" dy="49">Inner symbol: RNA state</tspan><tspan x="340" dy="49">Surface marks: target</tspan></text>
+<path d="M240 869 L320 841" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M229 900 L320 889" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M196 967 L320 938" fill="none" stroke="#c1cfca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="992" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">RNA-state symbols do not define DNA branches.</tspan></text>
+<rect x="24" y="1045" width="732" height="220" rx="20" fill="#233a3e" stroke="#617c77" stroke-width="2" />
+<text x="46" y="1099" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="46" dy="0">3. Ancestry from sampled DNA</tspan></text>
+<text x="390" y="1150" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="390" dy="0">Candidate shared A</tspan></text>
+<circle cx="390" cy="1180" r="10" fill="#c7a2db"/>
+<path d="M390 1190 V1202 H225 V1211 M390 1202 H561 V1211" fill="none" stroke="#c1cfca" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="225" y="1245" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="225" dy="0">R1: A + B</tspan></text>
+<text x="561" y="1245" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="561" dy="0">R2: A</tspan></text>
+<text x="40" y="1320" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Shared DNA does not establish target coverage.</tspan></text>
+</svg>

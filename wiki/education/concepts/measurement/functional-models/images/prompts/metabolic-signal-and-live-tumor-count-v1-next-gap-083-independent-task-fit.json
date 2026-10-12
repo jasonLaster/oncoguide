@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-083",
+  "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+  "author": "root",
+  "authorRole": "canonical integration only; identity literal preserved from accepted private task map",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T21:32:10.906Z",
+  "reviewedAtLocal": "2026-10-12T14:32:10.906-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "4460e232b188f37d6d495cd6810e2b2535ac9a2e726874e45037427f1e65a043",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-light.svg",
+      "sha256": "5dca89d21e26bf34b91bf8c8261c008471806f2664fe9abddba2b38a1570215b",
+      "bytes": 10080
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-dark.svg",
+      "sha256": "3c72d3a705eaf3f38d837cdd919bf13bcedf2c1ed48835ea86551694987f05d2",
+      "bytes": 10080
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "561f1c4a51b55c21345a2954911f224f0830151338161e5bd6a4050442d55f27",
+    "learnerTask": "Separate a lower metabolic signal from unchanged living malignant-cell count.",
+    "gap": "No paired readout display illustrates the changed versus unchanged quantities.",
+    "accuracyGuardrails": "Keep metabolic/proxy signal and identified live malignant-cell count on separate axes. Lower proxy signal is not by itself fewer living cancer cells, target engagement or a clinical prediction.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Separate zero-based axes plot fictional proxy 100→50 percent of vehicle and identified live malignant cells 1000→1000 per well. Matched endpoint, no starting count/death history, symbolic cells/dots and no killing/target-engagement inference are explicit. The new answered chart prompt reinforces the original fictional example. Both variants remain readable in fresh 393 × 700 inline/default-preview isolated pinned-style captures."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/253",
+    "originalTaskRowSHA256": "cc70673aec36dc96aa3a68c5aae5d873bc3e4d2e13a7dce4f147bb0bb5e4d2d5"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+        "sha256": "4460e232b188f37d6d495cd6810e2b2535ac9a2e726874e45037427f1e65a043",
+        "bytes": 7148
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-light.svg",
+        "sha256": "5dca89d21e26bf34b91bf8c8261c008471806f2664fe9abddba2b38a1570215b",
+        "bytes": 10080
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-dark.svg",
+        "sha256": "3c72d3a705eaf3f38d837cdd919bf13bcedf2c1ed48835ea86551694987f05d2",
+        "bytes": 10080
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/metabolic-signal-and-live-tumor-count-v1.txt",
+        "sha256": "063d9015d139820958eea4760a3ea9994d1c81f3ed19682690c32c42239b355a",
+        "bytes": 762
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/metabolic-signal-and-live-tumor-count-v1-provenance.json",
+        "sha256": "86f9cae952b93bb015ca898274d55a10861fb72b97ddef4bc343d2b8737c0e10",
+        "bytes": 1321
+      }
+    ],
+    "originalTXTBriefsPreserved": true,
+    "generationModel": "not applicable; authored SVG"
+  },
+  "sourceReview": [
+    {
+      "id": "Hafner",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4887336/fullTextXML",
+      "readDepth": "selected primary full-text passages",
+      "sections": "ONLINE METHODS: Determining relative cell counts full section; RESULTS: Definition of normalized growth rate inhibition (GR) first3 paragraphs",
+      "scope": "Cultured cancer-drug growth-rate methodology",
+      "limits": "Not entire paper, figure pixels or supplements; new plots fictional endpoint values, no GR computation or baseline death history."
+    },
+    {
+      "id": "NIH-viability-accessible",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK144065/?report=classic",
+      "readDepth": "selected official documentation through accessible web tool",
+      "sections": "MTT Assay Concept, actual web result lines91–99",
+      "scope": "Official NIH/NCBI assay guidance; chosen conditions matter",
+      "limits": "Selected passage only, not full chapter/figure pixels; fictional proxy chart does not specify a validated MTT/ATP assay or justify killing."
+    }
+  ],
+  "retainedExercises": {
+    "inverseRestoresOriginalBytes": true,
+    "metadataAndExistingBodyPreserved": true
+  },
+  "displayReview": {
+    "viewport": {
+      "width": 393,
+      "height": 700,
+      "deviceScaleFactor": 1
+    },
+    "states": [
+      "light inline",
+      "dark inline",
+      "light default preview",
+      "dark default preview"
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "scope": "Fresh isolated CSS/DOM sizing carrier with declared 24px margin and Arial; author fixture not relied upon. Default preview does not enlarge these tall figures. Full live-reader/React/keyboard/app layout not reviewed."
+  },
+  "reviewScope": "New image, insertion, source/task fit, preserved exercises, original custody and compact readability only; unchanged science not re-approved. Lead reviewed complete public owners and reconciled three bounded reviewers. Source-specific read depths are those of the named bounded science reviewers.",
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "productionReview": "pending",
+  "deliveryReview": "pending",
+  "canonicalTaskAdoption": "pending",
+  "coverageCreditGrantedNow": 0,
+  "newPublicVisualAcceptance": "prospective independent task fit only; actual release derivation pending"
+}

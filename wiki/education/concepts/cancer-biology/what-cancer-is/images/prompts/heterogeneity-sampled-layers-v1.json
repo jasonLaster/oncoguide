@@ -1,0 +1,59 @@
+{
+  "schema": "education-original-code-svg-custody-v1",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+  "taskId": "page-visual-review.json#/122",
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "ownerPreimageSHA256": "cd4b6d9dea6b4197e0f652ca25ab81d436d4a41a13d59e0387813a2fded9177a",
+  "frozenTaskRowSHA256": "3208bbe315e4978804c4092afe01a5cdbb69b115b0ee93c010d125485347f0dd",
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "referenceImages": [],
+  "rasterArtworkOutputs": [],
+  "creationCommit": null,
+  "originalBrief": {
+    "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/heterogeneity-sampled-layers-v1.txt",
+    "sha256": "750a2e7ae3ec415a32844d126a974aea74aaa243630053abb431fa4ca579d209"
+  },
+  "nativePair": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+      "sha256": "d8fcc0c93e005e2fe4ba5054c2a9b7774e6f2652605475d540fb79f1b6ecaff2",
+      "width": 780,
+      "height": 1360
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+      "sha256": "309c4c3d2ebac9a3605c0d6102617859198e5ca5d919c0cc3c490595340d95d0",
+      "width": 780,
+      "height": 1360
+    }
+  ],
+  "sourceReview": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity",
+      "title": "Tumor heterogeneity — NCI Dictionary of Cancer Terms",
+      "depth": "Selected official page sections",
+      "section": "Complete definition",
+      "scope": "General cancer-heterogeneity definition"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22397650/",
+      "title": "Intratumor heterogeneity and branched evolution revealed by multiregion sequencing.",
+      "depth": "Selected primary full-text results/discussion",
+      "section": "Shared/private mutation patterns, phylogenetic and single-biopsy limitations",
+      "scope": "Multiregion renal-cancer study; fictional R1/R2 field is not an observed patient map"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31327527/",
+      "title": "An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma.",
+      "depth": "Selected primary full-text introduction and early Results",
+      "section": "Model summary; scRNA-seq heterogeneity and coupled lineage-labeling/plasticity overview",
+      "scope": "Glioblastoma experiments and models; no transplantation of its four-state map into breast cancer"
+    }
+  ],
+  "pairContract": "Identical geometry, labels, objects, counts and units; palette values only differ.",
+  "privateAids": "Construction scripts, original source bodies/read receipts and QA screenshots remain private and are not delivered in the public payload. Editable SVGs are delivered without an executable regeneration package. QA screenshots are not raster artwork or image-model outputs.",
+  "scope": "Original educational geometry and explicitly fictional/schematic examples. No copied source figure, executed scientific model, patient interpretation or review/approval claim."
+}

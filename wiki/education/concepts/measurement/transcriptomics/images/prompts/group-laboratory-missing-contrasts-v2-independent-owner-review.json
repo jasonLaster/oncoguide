@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-077",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+  "currentOwnerSha256": "b9536ce4255a656ebf5345e157f08100c34f9e24881086370c7e2ef868464e21",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Original educational writing, source qualification, SVG generation and narrow boundary-color successor",
+    "rootOriginalGenerationOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "Independent original complete-task reviewer and focused successor correction reviewer",
+  "reviewedAtUTC": "2026-10-12T21:45:26Z",
+  "passedAtUTC": "2026-10-12T21:45:26Z",
+  "boundAtUTC": "2026-10-12T21:45:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "reviewScope": "Original complete-owner task/science/source/native review carried forward under exact unchanged bytes; nine-stroke correction rechecked only for next-gap-078/079. This is the first prospective task-fit receipt for this owner.",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/318",
+    "originalTaskRowSHA256": "65dba155dad58d6a5aaa74a6bf0740f310b865c31fa49bf0c810a0fd31b9e081"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+    "baselinePageSHA256": "e46be04478405c92c9be610e3acd99e198bf04253184295d85d8567e117d9c9e",
+    "learnerTask": "See complete versus crossed group–batch confounding",
+    "gap": "Current causal map does not show the sample allocation matrix",
+    "accuracyGuardrails": "Keep group assignment and processing batches explicit, including missing group–batch cells. Correction cannot create unobserved contrasts or prove removal of all confounding.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The complete [[6,0],[0,6]] allocation keeps baseline/follow-up and laboratory labels explicit, hatching both unobserved cells. The crossed [[3,3],[3,3]] allocation has the same twelve-specimen denominator. Independent additive model ranks are two versus three, illustrating information rather than removal of every bias. The retained stress-score exercise rejects a treatment-effect inference from complete confounding; the figure and caption do not manufacture missing contrasts.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+      "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+      "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+        "sha256": "b9536ce4255a656ebf5345e157f08100c34f9e24881086370c7e2ef868464e21",
+        "bytes": 7619
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+        "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32",
+        "bytes": 11177
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+        "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81",
+        "bytes": 11177
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2.txt",
+        "sha256": "ecfe92b1f56836fa99d93ab425fe72b83657cec426e4053693541c32edb4f4c4",
+        "bytes": 1002
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2-provenance.json",
+        "sha256": "a365f661ef89a7390cedb3a0fd300ee52636b691223dad19a917032ae34d9a45",
+        "bytes": 2747
+      }
+    ],
+    "originalArtwork": "Exact complete owner, unchanged original TXT, native light/dark pair and actual ordinary provenance. Original construction authorship is separate from root canonical integration. Construction/correction code, source bodies, execution and captures remain private and are not admitted by these hashes."
+  },
+  "originalPackageReview": {
+    "sha256": "64bfcbddbbc9dfab88221345df0afb75b49d0c4f5f799cd7f52a44340a81bbb1",
+    "manifestSHA256": "76097a18b102093b11874550f793945e3a0c097b01a1ae6f5d7e4a130089de37",
+    "checksumSHA256": "3069e21da064635bd3e723e4fa54fd4775a204c02aa0fb90dca3f94555aa0649",
+    "originalVerdict": "REVISE",
+    "originalReviewedAtUTC": "2026-10-12T21:31:48Z",
+    "historicalVerdictRemainsUnchanged": true,
+    "inheritedScopes": "Original actual complete-owner task/science/source/arithmetic/native review scopes are retained. Only readouts-dark-boundary-contrast is resolved by this successor check. No source/science or broad native grade rerun."
+  },
+  "focusedCorrectionReview": {
+    "sha256": "c7f5bcf72bb42bd48841c92ddb1722db540cd128fc233e9994865794b087e837",
+    "passedAtUTC": "2026-10-12T21:44:58Z",
+    "findingResolved": "readouts-dark-boundary-contrast",
+    "scopeForThisOwner": "Unchanged owner bundle inherited byte-for-byte; no new source/pixel rerun"
+  },
+  "sourceReadScope": {
+    "inheritedFromActualReviewAtUTC": "2026-10-12T21:31:48Z",
+    "primaryRecords": [
+      {
+        "name": "GEUVADIS",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fnbt.2702&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "Risso",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC4404308&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      }
+    ],
+    "officialOrSelectedPassages": [
+      {
+        "url": "https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/designmatrices.html",
+        "depth": "Selected section 7.4, full-rank/nested-factor paragraphs only; not the complete guide or software validation."
+      }
+    ],
+    "originalAuthorAccessFailures": [
+      {
+        "file": "Risso.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4404308/fullTextXML",
+        "retrievalStartedAtUTC": "2026-10-12T20:46:45.736328+00:00",
+        "failedAtUTC": "2026-10-12T20:47:06.068213+00:00",
+        "error": "HTTP Error 500: ",
+        "reading": "failed; no content read"
+      },
+      {
+        "url": "https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/designmatrices.html",
+        "retrievalStartedAtUTC": "2026-10-12T20:48:31.299678+00:00",
+        "failedAtUTC": "2026-10-12T20:48:31.536658+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "file": "edgeR.pdf",
+        "url": "https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf",
+        "retrievalStartedAtUTC": "2026-10-12T20:46:47.089998+00:00",
+        "failedAtUTC": "2026-10-12T20:46:47.345900+00:00",
+        "error": "HTTP Error 403: Forbidden",
+        "reading": "failed; no content read"
+      }
+    ],
+    "independentAccessFailures": [],
+    "limits": [
+      "No complete-paper review claim, source-figure copying, imported source dataset or patient-specific interpretation.",
+      "Sources do not validate the author-created fictional counts, coordinates, masks or histogram; those are explicitly stipulated and separately checked.",
+      "Existing historical source_checked metadata and pending human review status retained; no source-review promotion or self-approval.",
+      "Zero image-model calls; original SVG construction and revisions retained privately."
+    ],
+    "noWholePaperOrCurrentPlatformValidationClaim": true,
+    "noNewSourceLookupOrSourceDepthGrade": true,
+    "sourceBodiesPrivatelyRetainedNotPubliclyDelivered": true
+  },
+  "checks": {
+    "originalCompleteOwnerReadAndTaskJudgmentInherited": true,
+    "originalTeachingExercisesSourcesNavigationRetained": true,
+    "exactSuccessorFiveFileHashesVerified": true,
+    "fullFrozenTaskStringsAndTypesPreserved": true,
+    "geometryLabelsSignalsCountsAndSolidDashedPatternsUnchanged": true,
+    "focusedColorContextPASS": true,
+    "originalMaintainedContentCheckerPASSInherited": true,
+    "maintainedReaderOrLiveProductionAcceptance": false
+  },
+  "publicationPath": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2-independent-owner-review.json",
+  "pending": {
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "newScientificSourceApproval": false,
+  "newSourceDepthGrade": false,
+  "newBroadNativeApproval": false,
+  "productionVerified": false,
+  "releaseAccepted": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

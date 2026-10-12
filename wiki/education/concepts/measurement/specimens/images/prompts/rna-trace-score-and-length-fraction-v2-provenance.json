@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+  "taskId": "page-visual-review.json#/314",
+  "construction": "original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "baselinePageSHA256": "29c0dcc37b69ed2f155ebaeb58752f06cca4ed00cdb5be3815c7f36908072f9b",
+  "originalFrozenTask": {
+    "learnerTask": "Read fragment distributions without treating RIN as percent intact RNA",
+    "gap": "Current workflow omits an electropherogram or length fraction",
+    "accuracyGuardrails": "Distinguish a method-defined integrity score from a length-based fraction such as DV200. Electropherograms are schematic; neither value alone proves transcript-specific integrity, assay suitability or percent intact RNA."
+  },
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1413964/",
+    "https://doi.org/10.1371/journal.pone.0216050",
+    "https://support.illumina.com/content/dam/illumina-marketing/documents/products/technotes/evaluating-rna-quality-from-ffpe-samples-technical-note-470-2014-001.pdf"
+  ],
+  "sourceDepth": "Actual selected source/official passages and complete abstracts are recorded in private source-lookup receipts; no whole-paper/clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies, read receipts, construction code, execution and renders are private, not publicly delivered.",
+  "generator": "private/construct-v2.py",
+  "generatorSHA256": "2c6a9013315ea9139cc1844c513b8c4232e082ee45da2eccc0052f34595e8c0b",
+  "generatorCustody": "Private construction code, not delivered publicly. The original editable SVGs are delivered without an executable reproduction package.",
+  "briefSHA256": "499d347483972007b2176f422ce8b882a4b9c1703c45bfc4e0be903dea12433f",
+  "outputs": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+      "sha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb",
+      "bytes": 9635,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+      "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0",
+      "bytes": 9635,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Exact shared geometry/labels/quantities; palette substitution only",
+  "fictionalGeometryAndQuantities": true,
+  "sourceFiguresCopied": false,
+  "minimumNativeFontPx": 32,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "credit": 0
+}

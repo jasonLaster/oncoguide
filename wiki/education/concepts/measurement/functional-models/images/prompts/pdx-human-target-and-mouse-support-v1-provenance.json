@@ -1,0 +1,46 @@
+{
+  "owner": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+  "construction": "image_gen.imagegen original outputs copied byte-for-byte",
+  "imageModelCalls": 2,
+  "reportedModel": null,
+  "modelReporting": "actual tool return does not report model identifier",
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "pdx-human-target-and-mouse-support-v1-light.png",
+      "sha256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490",
+      "bytes": 2807386,
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "theme": "dark",
+      "file": "pdx-human-target-and-mouse-support-v1-dark.png",
+      "sha256": "070098541b2dd2667f25056f278fb640f76c74996fffb9569a403816a419a6a2",
+      "bytes": 2806820,
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "originalBriefs": [
+    {
+      "file": "pdx-human-target-and-mouse-support-v1.txt",
+      "sha256": "379f14235a2dbed1d1ab5af2367a32c6c52bd30eb543c1a95a5112cb3d5954ce",
+      "bytes": 2008
+    },
+    {
+      "file": "pdx-human-target-and-mouse-support-v1-dark.txt",
+      "sha256": "040ad7cfd8bb18ae5737eb13242b3b93662c8b23c88bb81b43ffe3302c47134a",
+      "bytes": 730
+    }
+  ],
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/3553601/"
+  ],
+  "scope": "Teaching illustration. Invented symbols/values and model-specific limits are explained in the owner; no clinical-response or whole-patient validation.",
+  "darkReferenceLIGHTSHA256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490"
+}

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Unobserved group-by-batch contrasts stay missing</title><desc id="desc">Twelve fictional specimens in each allocation retain six-plus-six group counts, either completely overlapped with lab or crossed with three samples per cell. Missing matrix cells remain hatched and explicitly unobserved.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#976729" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="54" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Who went to which laboratory?</text>
+<text x="38" y="104" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Fictional allocations; 12 specimens each</text>
+<rect x="24" y="142" width="712" height="511" rx="18" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="194" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">1  Complete group–lab overlap</text>
+<text x="341" y="246" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293743" text-anchor="middle">Lab A</text>
+<text x="586" y="246" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293743" text-anchor="middle">Lab B</text>
+<text x="53" y="328" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Baseline</text>
+<rect x="229" y="265" width="225" height="165" rx="8" fill="#e8e0d3" stroke="#969e9e" stroke-width="2" data-group="0" data-lab="0" data-samples="6"/>
+<path d="M262 287 L262 314 Q271 328 280 314 L280 287" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="259" y="284" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M329 287 L329 314 Q338 328 347 314 L347 287" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="326" y="284" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M396 287 L396 314 Q405 328 414 314 L414 287" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="393" y="284" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M262 333 L262 360 Q271 374 280 360 L280 333" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="259" y="330" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M329 333 L329 360 Q338 374 347 360 L347 333" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="326" y="330" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M396 333 L396 360 Q405 374 414 360 L414 333" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="393" y="330" width="24" height="8" rx="2" fill="#4f7999" />
+<text x="341" y="408" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">6 samples</text>
+<rect x="474" y="265" width="225" height="165" rx="8" fill="url(#hatch)" stroke="#969e9e" stroke-width="2" data-group="0" data-lab="1" data-samples="0"/>
+<rect x="496" y="291" width="181" height="111" rx="8" fill="#fffdf8" />
+<text x="586" y="335" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">Not</text>
+<text x="586" y="377" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">observed</text>
+<text x="53" y="511" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Follow-up</text>
+<rect x="229" y="448" width="225" height="165" rx="8" fill="url(#hatch)" stroke="#969e9e" stroke-width="2" data-group="1" data-lab="0" data-samples="0"/>
+<rect x="251" y="474" width="181" height="111" rx="8" fill="#fffdf8" />
+<text x="341" y="518" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">Not</text>
+<text x="341" y="560" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">observed</text>
+<rect x="474" y="448" width="225" height="165" rx="8" fill="#e8e0d3" stroke="#969e9e" stroke-width="2" data-group="1" data-lab="1" data-samples="6"/>
+<path d="M507 470 L507 497 Q516 511 525 497 L525 470" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="504" y="467" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M574 470 L574 497 Q583 511 592 497 L592 470" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="571" y="467" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M641 470 L641 497 Q650 511 659 497 L659 470" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="638" y="467" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M507 516 L507 543 Q516 557 525 543 L525 516" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="504" y="513" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M574 516 L574 543 Q583 557 592 543 L592 516" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="571" y="513" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M641 516 L641 543 Q650 557 659 543 L659 516" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="638" y="513" width="24" height="8" rx="2" fill="#bd7480" />
+<text x="586" y="591" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">6 samples</text>
+<rect x="24" y="676" width="712" height="511" rx="18" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="728" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">2  Both groups in both laboratories</text>
+<text x="341" y="780" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293743" text-anchor="middle">Lab A</text>
+<text x="586" y="780" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293743" text-anchor="middle">Lab B</text>
+<text x="53" y="862" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Baseline</text>
+<rect x="229" y="799" width="225" height="165" rx="8" fill="#e8e0d3" stroke="#969e9e" stroke-width="2" data-group="0" data-lab="0" data-samples="3"/>
+<path d="M262 821 L262 848 Q271 862 280 848 L280 821" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="259" y="818" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M329 821 L329 848 Q338 862 347 848 L347 821" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="326" y="818" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M396 821 L396 848 Q405 862 414 848 L414 821" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="393" y="818" width="24" height="8" rx="2" fill="#4f7999" />
+<text x="341" y="942" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">3 samples</text>
+<rect x="474" y="799" width="225" height="165" rx="8" fill="#e8e0d3" stroke="#969e9e" stroke-width="2" data-group="0" data-lab="1" data-samples="3"/>
+<path d="M507 821 L507 848 Q516 862 525 848 L525 821" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="504" y="818" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M574 821 L574 848 Q583 862 592 848 L592 821" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="571" y="818" width="24" height="8" rx="2" fill="#4f7999" />
+<path d="M641 821 L641 848 Q650 862 659 848 L659 821" fill="#e8e0d3" stroke="#4f7999" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="638" y="818" width="24" height="8" rx="2" fill="#4f7999" />
+<text x="586" y="942" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">3 samples</text>
+<text x="53" y="1045" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Follow-up</text>
+<rect x="229" y="982" width="225" height="165" rx="8" fill="#e8e0d3" stroke="#969e9e" stroke-width="2" data-group="1" data-lab="0" data-samples="3"/>
+<path d="M262 1004 L262 1031 Q271 1045 280 1031 L280 1004" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="259" y="1001" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M329 1004 L329 1031 Q338 1045 347 1031 L347 1004" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="326" y="1001" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M396 1004 L396 1031 Q405 1045 414 1031 L414 1004" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="393" y="1001" width="24" height="8" rx="2" fill="#bd7480" />
+<text x="341" y="1125" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">3 samples</text>
+<rect x="474" y="982" width="225" height="165" rx="8" fill="#e8e0d3" stroke="#969e9e" stroke-width="2" data-group="1" data-lab="1" data-samples="3"/>
+<path d="M507 1004 L507 1031 Q516 1045 525 1031 L525 1004" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="504" y="1001" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M574 1004 L574 1031 Q583 1045 592 1031 L592 1004" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="571" y="1001" width="24" height="8" rx="2" fill="#bd7480" />
+<path d="M641 1004 L641 1031 Q650 1045 659 1031 L659 1004" fill="#e8e0d3" stroke="#bd7480" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="638" y="1001" width="24" height="8" rx="2" fill="#bd7480" />
+<text x="586" y="1125" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">3 samples</text>
+<text x="38" y="1240" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Information for a model; other biases remain.</text>
+<text x="38" y="1293" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Correction cannot invent missing contrasts.</text>
+</svg>

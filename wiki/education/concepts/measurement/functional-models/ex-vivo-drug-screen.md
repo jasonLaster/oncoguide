@@ -45,6 +45,12 @@ A screen can test a drug-response hypothesis in a defined model. Agreement with 
 
 In a fictional screen, drug A leaves half the vehicle-normalized metabolic signal. Imaging finds similar numbers of living malignant cells but lower activity per cell. The supported claim is a metabolic response under those conditions. Calling it 50% cancer-cell killing would change the measured endpoint.
 
+<img src="./images/metabolic-signal-and-live-tumor-count-v1-light.svg" alt="Separate fictional plots of metabolic signal at 100 and 50 percent of vehicle and identified live malignant-cell counts of 1000 and 1000" data-theme-pair width="600" height="1100">
+
+Try reading each axis aloud: percentage of vehicle signal on the left; identified living malignant cells per well on the right. The invented counts make “similar numbers” concrete for this example. Cell symbols and amber dots illustrate the two wells; they are not measured cell or molecule counts. The matched endpoint counts do not supply a starting count or reveal every division and death along the way.
+
+**Read the chart:** Which finding changed? **Answer:** The metabolic proxy fell. The live malignant-cell endpoint count did not; 50% killing and target engagement have not been shown. [Assay Guidance Manual](https://www.ncbi.nlm.nih.gov/books/NBK144065/), [Cell-count and growth-rate methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/).
+
 ## Common confusions
 
 - Less growth relative to vehicle does not necessarily mean fewer cells than at the experiment's start.

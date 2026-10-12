@@ -1,0 +1,6 @@
+Code-generated original scientific SVG; 0 image-model calls. Show actual tube counts in two2x2 matrices: [[6,0],[0,6]] and [[3,3],[3,3]]. Rows Baseline/Follow-up; columns LabA/LabB. Twelve fictional specimens each; no claim of paired patients. Missing cells hatched Not observed. Crossing can separate group/batch under a suitable model, but neither proves validity nor removes other confounding.
+
+Frozen learner task: See complete versus crossed group–batch confounding
+Frozen guardrails: Keep group assignment and processing batches explicit, including missing group–batch cells. Correction cannot create unobserved contrasts or prove removal of all confounding.
+
+Warm scientific palette; identical light/dark geometry, labels, quantities and uncertainty; minimum32 native SVGpx for essential labels. Construction code, source bodies and execution/capture receipts are privately retained and not delivered in public payload. SVGs are editable, without an executable reproduction-package promise.

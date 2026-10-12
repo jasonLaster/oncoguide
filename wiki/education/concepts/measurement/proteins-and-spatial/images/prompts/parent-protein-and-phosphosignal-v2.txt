@@ -1,0 +1,6 @@
+Code-generated original scientific SVG; 0 image-model calls. Show protein-derived material branching to total-protein measurement and enriched phosphopeptides, then separate own-scale signals A100/B200 and A20/B40 arbitrary units. Both2fold; protein-adjusted relativechange2/2=1. Never translate raw20/100 to20% occupancy or phosphorylation to universal activation. Protein/peptide glyphs symbolic not molecule enumeration; site localization, recovery/response, function and kinase causality remain separate.
+
+Frozen learner task: Distinguish parent-protein amount, phosphopeptide signal and occupancy
+Frozen guardrails: Use separate total-protein and phosphopeptide signals and state normalization/occupancy assumptions. An unchanged ratio or increased phosphosignal does not establish site occupancy, kinase causality or activation.
+
+Warm scientific palette; identical light/dark geometry, labels, quantities and uncertainty; minimum32 native SVGpx for essential labels. Construction code, source bodies and execution/capture receipts are privately retained and not delivered in public payload. SVGs are editable, without an executable reproduction-package promise.

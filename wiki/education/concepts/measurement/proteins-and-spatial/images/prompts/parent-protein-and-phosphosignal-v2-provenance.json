@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+  "taskId": "page-visual-review.json#/295",
+  "construction": "original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "baselinePageSHA256": "877f5cf685adcf6e7ac38a1791b204d82e74a278db6ac41457e34d7a3b18c75a",
+  "originalFrozenTask": {
+    "learnerTask": "Distinguish parent-protein amount, phosphopeptide signal and occupancy",
+    "gap": "No matched total/protected-site amount graphic",
+    "accuracyGuardrails": "Use separate total-protein and phosphopeptide signals and state normalization/occupancy assumptions. An unchanged ratio or increased phosphosignal does not establish site occupancy, kinase causality or activation."
+  },
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3149096/",
+    "https://doi.org/10.1038/nbt1240",
+    "https://pubmed.ncbi.nlm.nih.gov/24719451/"
+  ],
+  "sourceDepth": "Actual selected source/official passages and complete abstracts are recorded in private source-lookup receipts; no whole-paper/clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies, read receipts, construction code, execution and renders are private, not publicly delivered.",
+  "generator": "private/construct-v2.py",
+  "generatorSHA256": "2c6a9013315ea9139cc1844c513b8c4232e082ee45da2eccc0052f34595e8c0b",
+  "generatorCustody": "Private construction code, not delivered publicly. The original editable SVGs are delivered without an executable reproduction package.",
+  "briefSHA256": "20f6c3e0730329cf78f28cb5ecbb09f6ede29f129ece09575117ed1e9be4fd6f",
+  "outputs": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+      "sha256": "502aaf38870f20aeda37c97b21a0bccfda8ddd13894f54ab1022bbe15fb619dc",
+      "bytes": 8272,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+      "sha256": "521738dad24ae2d4c15fdca8fc409eaad233d56db8ad4f93a4d68e0489b13504",
+      "bytes": 8272,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Exact shared geometry/labels/quantities; palette substitution only",
+  "fictionalGeometryAndQuantities": true,
+  "sourceFiguresCopied": false,
+  "minimumNativeFontPx": 32,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "credit": 0
+}

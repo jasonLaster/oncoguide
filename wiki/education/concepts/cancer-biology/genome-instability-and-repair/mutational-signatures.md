@@ -38,6 +38,12 @@ Some patterns are associated with defective DNA repair. **SBS3**, a particular s
 
 **HRDetect** is an example of a research classifier combining several genomic features, including substitution, indel and rearrangement patterns, to estimate BRCA-related repair deficiency. It is not simply “SBS3 positive.” Its original training and evaluation used particular tumor datasets and sequencing methods. [Davies 2017](https://pubmed.ncbi.nlm.nih.gov/28288110/).
 
+<img src="./images/mutational-signature-mixtures-v1-light.svg" alt="Fictional four-category bar charts compare two overlapping template distributions, 100 observed mutation counts and an arithmetic mixture reconstruction with distinct units." width="780" height="1330" data-theme-pair>
+
+*A signature describes a distribution across categories. The toy templates overlap, and the displayed mixtures are arithmetic illustrations, not an executed model fit, SBS3 or HRDetect. A similar reconstruction cannot identify the cause of every mutation; sparse calls and missing features remain important.*
+
+[Open the light diagram](./images/mutational-signature-mixtures-v1-light.svg) · [Open the dark diagram](./images/mutational-signature-mixtures-v1-dark.svg)
+
 ```mermaid
 flowchart TD
     A[Called mutations] --> B[Categories and counts]
@@ -75,6 +81,8 @@ In the original HRDetect study, applying whole-genome-derived features to whole-
 - **Classifier probability versus response probability:** the modeled outcome must be named.
 
 ## Try it
+
+Compare the observed catalogue with the two toy mixture predictions. Which prediction reproduces its counts exactly, and does that identify every mutation’s cause? **Answer:** The illustrated 50/50 mixture reproduces 35, 35, 20 and 10; the 60/40 mixture gives the similar 36, 34, 20 and 10. That comparison does not attach a cause to each call or supply a drug-response probability.
 
 A fictional small panel detects a few mutations. An exploratory fit assigns some to SBS3. Someone copies a whole-genome HRDetect interpretation into the report. What went wrong?
 

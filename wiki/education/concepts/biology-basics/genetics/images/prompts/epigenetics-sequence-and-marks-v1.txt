@@ -1,0 +1,10 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Original task identity: page-visual-review.json#/25
+Frozen learner task: Distinguish a chemical DNA mark from a changed base sequence, and see why location and cell context change its interpretation.
+
+Construct aligned original sequence strips: AACGT, AACGT with a chemical methyl mark on C, and AATGT after a C-to-T sequence substitution. Do not replace a methylated C by T. Place a DNA mark on the DNA strand and a histone mark on a schematic protein spool, not on the same substrate. Keep 5mC and 5hmC as distinct marks, explicitly noting standard bisulfite cannot discriminate them. A location track separates promoter and gene body and asks for sites, cells and RNA; do not draw a universal off switch, permanent inheritance, causal proof or treatment prediction.
+
+Matched warm light/dark palettes must preserve every object, label, geometry, count and unit. Native 780-unit canvases use essential labels of at least 32 units, with separate native links for details.
+
+The construction script, read receipts/source bodies and QA renders are private aids, not delivered public files. The public pair is editable SVG; no executable regeneration package is included. No image model, reference-image generation or clinical inference was run.

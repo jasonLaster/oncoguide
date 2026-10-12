@@ -44,6 +44,12 @@ A **megabase (Mb)** is one million DNA bases. The LST rule concerns adjacent seg
 
 Some assays combine LOH, TAI and LST counts into a score. Telli and colleagues evaluated such a score in defined neoadjuvant triple-negative breast cancer studies. Association with response in that population did not establish a universal treatment rule. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
 
+<img src="./images/genomic-scars-chromosome-tracks-v1-light.svg" alt="Chromosome-region tracks contrast A/B, copy-loss LOH and copy-neutral LOH; an end-reaching imbalance and two within-arm segment transitions show distinct scar-counting questions." width="780" height="1360" data-theme-pair>
+
+*Read parental versions, chromosome position and adjacent segment sizes separately. Both segments must meet the original LST size rule; the owner’s original filters and study scopes still apply. These fictional tracks are not a current-repair assay or a drug-response cutoff.*
+
+[Open the light diagram](./images/genomic-scars-chromosome-tracks-v1-light.svg) · [Open the dark diagram](./images/genomic-scars-chromosome-tracks-v1-dark.svg)
+
 ```mermaid
 flowchart TD
     A[Past genome evolution] --> B[Chromosome patterns]

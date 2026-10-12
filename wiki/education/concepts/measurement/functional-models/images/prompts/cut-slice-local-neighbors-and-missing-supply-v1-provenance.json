@@ -1,0 +1,48 @@
+{
+  "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+  "construction": "image_gen.imagegen original outputs copied byte-for-byte",
+  "imageModelCalls": 2,
+  "reportedModel": null,
+  "modelReporting": "actual tool return does not report model identifier",
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "cut-slice-local-neighbors-and-missing-supply-v1-light.png",
+      "sha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9",
+      "bytes": 2890816,
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "theme": "dark",
+      "file": "cut-slice-local-neighbors-and-missing-supply-v1-dark.png",
+      "sha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d",
+      "bytes": 2931713,
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "originalBriefs": [
+    {
+      "file": "cut-slice-local-neighbors-and-missing-supply-v1.txt",
+      "sha256": "25507de3716d51d0b83477381d2556e68eecc0bf2d1f22007b3b04215b42beec",
+      "bytes": 1962
+    },
+    {
+      "file": "cut-slice-local-neighbors-and-missing-supply-v1-dark.txt",
+      "sha256": "040ad7cfd8bb18ae5737eb13242b3b93662c8b23c88bb81b43ffe3302c47134a",
+      "bytes": 730
+    }
+  ],
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/",
+    "https://www.jci.org/articles/view/45817",
+    "https://pmc.ncbi.nlm.nih.gov/articles/5809290/"
+  ],
+  "scope": "Teaching illustration. Invented symbols/values and model-specific limits are explained in the owner; no clinical-response or whole-patient validation.",
+  "darkReferenceLIGHTSHA256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9"
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "education-original-code-svg-custody-v1",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+  "taskId": "page-visual-review.json#/91",
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "ownerPreimageSHA256": "1c1a964c00f3dc0ab1a8bef1eda9795c4c86630207712d33392509bc3be53b7f",
+  "frozenTaskRowSHA256": "820e68715709804e2bab75b2b8f4ef1c5c5c6ce510339204882bdf00312bfdd4",
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "referenceImages": [],
+  "rasterArtworkOutputs": [],
+  "creationCommit": null,
+  "originalBrief": {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.txt",
+    "sha256": "f35f82eadea791112ea79447924f6f15093fcbd22f25c2c5b6ecdef62f611ff9"
+  },
+  "nativePair": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+      "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e",
+      "width": 780,
+      "height": 1330
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+      "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284",
+      "width": 780,
+      "height": 1330
+    }
+  ],
+  "sourceReview": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32025018/",
+      "title": "The repertoire of mutational signatures in human cancer.",
+      "depth": "Selected primary full-text introduction, category-classification and NMF passages",
+      "section": "Signature-analysis introduction; mutation classifications; two NMF methods and overlapping reconstructions",
+      "scope": "PCAWG/cancer-genome and exome analyses; four displayed categories are wholly fictional"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23945592/",
+      "title": "Signatures of mutational processes in human cancer.",
+      "depth": "Complete primary abstract",
+      "section": "Catalogue extraction and uncertain biological origins",
+      "scope": "Original primary pan-cancer genomic analyses"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28288110/",
+      "title": "HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures.",
+      "depth": "Selected primary full-text Figure 3 caption and sequencing-platform discussion",
+      "section": "Figure 3: WGS versus low-coverage genomes and whole-exome features/retraining",
+      "scope": "Original research HRDetect datasets/platforms; no executed classifier or clinical prediction here"
+    }
+  ],
+  "pairContract": "Identical geometry, labels, objects, counts and units; palette values only differ.",
+  "privateAids": "Construction scripts, original source bodies/read receipts and QA screenshots remain private and are not delivered in the public payload. Editable SVGs are delivered without an executable regeneration package. QA screenshots are not raster artwork or image-model outputs.",
+  "scope": "Original educational geometry and explicitly fictional/schematic examples. No copied source figure, executed scientific model, patient interpretation or review/approval claim."
+}

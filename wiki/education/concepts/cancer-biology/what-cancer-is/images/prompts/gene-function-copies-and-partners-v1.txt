@@ -1,0 +1,10 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Original task identity: page-visual-review.json#/121
+Frozen learner task: Contrast overactive growth function with reduced safeguards while treating two-hit, dosage and dominant-negative mechanisms separately.
+
+Draw four original functional mechanisms in explicitly simplified two-copy examples. Activation sends a stronger growth-related signal without proving dependence. A classic two-hit example disables both useful gene copies; not all cancer genes obey it. Haploinsufficiency retains one active copy but protective output is insufficient, with no universal numeric activity threshold. Dominant-negative action shows an altered product interacting with and impairing a useful partner; protein glyph counts are not actual stoichiometry. Preserve the p27 challenged-mouse and selected TP53 myeloid-model boundaries; do not label every human allele or infer drug benefit.
+
+Matched warm light/dark palettes must preserve every object, label, geometry, count and unit. Native 780-unit canvases use essential labels of at least 32 units, with separate native links for details.
+
+The construction script, read receipts/source bodies and QA renders are private aids, not delivered public files. The public pair is editable SVG; no executable regeneration package is included. No image model, reference-image generation or clinical inference was run.

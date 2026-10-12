@@ -55,6 +55,10 @@ A PDX supports tumor-growth and treatment experiments with circulation and whole
 
 A fictional breast-tumor graft keeps a malignant-cell receptor but its vessels are mouse-derived. A human-specific [antibody](/wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies) binds the tumor cells in the model. If the proposed mechanism also requires binding human vessel cells, that component has not been reproduced. The species assignment changes what the experiment can test.
 
+<img src="./images/pdx-human-target-and-mouse-support-v1-light.png" alt="Human tumor cells and a human receptor are surrounded by mouse fibroblasts and a mouse vessel; binding of a human-specific antibody to mouse support is unresolved" data-theme-pair width="1024" height="1536">
+
+Trace the antibody to the human receptor, then inspect the mouse vessel. This illustrates the fictional receptor example, not a named drug or a measured binding result. The question mark keeps binding to mouse support unresolved: it needs species-reactivity evidence. Mouse-derived support was documented in the studied breast-tumor grafts; the mixture can depend on model and passage. The host is usually immunodeficient, and this picture does not establish a complete human immune setting or a prediction for the donor. [DeRose primary results](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/).
+
 ## How it is measured
 
 | Assay-card field | What to retain |

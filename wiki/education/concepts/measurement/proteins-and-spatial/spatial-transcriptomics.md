@@ -29,6 +29,13 @@ A list of people at a gathering differs from a map of where they stood. Spatial 
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/spatial-observation-assignment-imputation-v2-light.svg" width="760" height="1320" alt="Four layers show a tissue capture spot spanning cells, six targeted RNA coordinates, alternative estimated cell boundaries around the same coordinates, and a hatched inferred gene-R value kept separate from the observed G/H panel." data-theme-pair>
+<p class="cartoon-caption">The capture spot is one positional barcode, not one cell. The separate imaging scene has six decoded G/H coordinates. Alternative estimated boundaries can change whether a coordinate is assigned. Gene R is absent from the observed panel; its hatched model value is not another detected molecule. All tissue, spot and boundary geometry is schematic, without a current-platform size claim.</p>
+</div>
+
+For a concrete assignment example, [Xenium’s official segmentation documentation](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation) distinguishes masks, display polygons and transcript assignment. Its implementation details do not define every spatial platform.
+
 [Ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) measurements are linked to positions in a tissue section. Two broad strategies recover different kinds of evidence:
 
 | Strategy | Observation | Resolution boundary |

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1330" viewBox="0 0 780 1330" role="img" aria-labelledby="title desc"><title id="title">A distribution and its possible mixtures</title><desc id="desc">Invented four-category templates A and B are 40/30/20/10 and 30/40/20/10 percent. Observed fictional counts 35/35/20/10 total 100. An arithmetic 50/50 mixture exactly reconstructs them; 60/40 gives 36/34/20/10. Counts and template percentages are distinct units. Similar predictions and sparse or omitted features limit inference. No signature model was executed; these are not SBS3 or HRDetect.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536b6a"/></marker><pattern id="unknown" patternUnits="userSpaceOnUse" width="18" height="18"><path d="M0 18 L18 0" stroke="#cad0c4" stroke-width="2"/></pattern></defs>
+<rect x="0" y="0" width="780" height="1330" rx="0" fill="#faf4e9" />
+<text x="40" y="62" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Read distributions and mixtures</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#536b6a" text-anchor="start"><tspan x="40" dy="0">Fictional categories and templates</tspan></text>
+<rect x="24" y="145" width="732" height="355" rx="20" fill="#fffdf7" stroke="#cad0c4" stroke-width="2" />
+<text x="46" y="199" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="46" dy="0">1. Two toy templates overlap</tspan></text>
+<text x="65" y="249" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="65" dy="0">Template A</tspan></text>
+<text x="422" y="249" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="422" dy="0">Template B</tspan></text>
+<path d="M65 380 L321 380" fill="none" stroke="#536b6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M65 380 L65 265" fill="none" stroke="#536b6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="89" y="300" width="38" height="80" rx="3" fill="#548b7b" />
+<text x="108" y="288" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="108" dy="0">40</tspan></text>
+<text x="108" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="108" dy="0">1</tspan></text>
+<rect x="149" y="320" width="38" height="60" rx="3" fill="#548b7b" />
+<text x="168" y="308" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="168" dy="0">30</tspan></text>
+<text x="168" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="168" dy="0">2</tspan></text>
+<rect x="209" y="340" width="38" height="40" rx="3" fill="#548b7b" />
+<text x="228" y="328" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="228" dy="0">20</tspan></text>
+<text x="228" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="228" dy="0">3</tspan></text>
+<rect x="269" y="360" width="38" height="20" rx="3" fill="#548b7b" />
+<text x="288" y="348" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="288" dy="0">10</tspan></text>
+<text x="288" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="288" dy="0">4</tspan></text>
+<text x="65" y="472" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#536b6a" text-anchor="start"><tspan x="65" dy="0">% within template</tspan></text>
+<path d="M422 380 L678 380" fill="none" stroke="#536b6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M422 380 L422 265" fill="none" stroke="#536b6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="446" y="320" width="38" height="60" rx="3" fill="#9c7bb4" />
+<text x="465" y="308" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="465" dy="0">30</tspan></text>
+<text x="465" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="465" dy="0">1</tspan></text>
+<rect x="506" y="300" width="38" height="80" rx="3" fill="#9c7bb4" />
+<text x="525" y="288" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="525" dy="0">40</tspan></text>
+<text x="525" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="525" dy="0">2</tspan></text>
+<rect x="566" y="340" width="38" height="40" rx="3" fill="#9c7bb4" />
+<text x="585" y="328" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="585" dy="0">20</tspan></text>
+<text x="585" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="585" dy="0">3</tspan></text>
+<rect x="626" y="360" width="38" height="20" rx="3" fill="#9c7bb4" />
+<text x="645" y="348" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="645" dy="0">10</tspan></text>
+<text x="645" y="423" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="645" dy="0">4</tspan></text>
+<text x="422" y="472" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#536b6a" text-anchor="start"><tspan x="422" dy="0">% within template</tspan></text>
+<rect x="24" y="520" width="732" height="320" rx="20" fill="#fffdf7" stroke="#cad0c4" stroke-width="2" />
+<text x="46" y="574" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="46" dy="0">2. Observed counts: 100 mutations</tspan></text>
+<rect x="113" y="645" width="77" height="70" rx="4" fill="#75a5bb" />
+<text x="151.5" y="630" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="151.5" dy="0">35</tspan></text>
+<text x="151.5" y="758" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="151.5" dy="0">Cat. 1</tspan></text>
+<rect x="256" y="645" width="77" height="70" rx="4" fill="#75a5bb" />
+<text x="294.5" y="630" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="294.5" dy="0">35</tspan></text>
+<text x="294.5" y="758" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="294.5" dy="0">Cat. 2</tspan></text>
+<rect x="399" y="675" width="77" height="40" rx="4" fill="#75a5bb" />
+<text x="437.5" y="660" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="437.5" dy="0">20</tspan></text>
+<text x="437.5" y="758" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="437.5" dy="0">Cat. 3</tspan></text>
+<rect x="542" y="695" width="77" height="20" rx="4" fill="#75a5bb" />
+<text x="580.5" y="680" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="580.5" dy="0">10</tspan></text>
+<text x="580.5" y="758" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="580.5" dy="0">Cat. 4</tspan></text>
+<path d="M79 715 L716 715" fill="none" stroke="#536b6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="810" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="48" dy="0">Bar height = count; zero baseline.</tspan></text>
+<rect x="24" y="860" width="732" height="300" rx="20" fill="#fffdf7" stroke="#cad0c4" stroke-width="2" />
+<text x="46" y="914" font-family="Arial, sans-serif" font-size="35" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="46" dy="0">3. An illustrated mixture</tspan></text>
+<text x="48" y="959" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="48" dy="0">50% A + 50% B predicts 35 / 35 / 20 / 10.</tspan></text>
+<rect x="113" y="1010" width="77" height="40" rx="0" fill="#548b7b" />
+<rect x="113" y="980" width="77" height="30" rx="0" fill="#9c7bb4" />
+<text x="151.5" y="1090" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="151.5" dy="0">Cat. 1</tspan></text>
+<rect x="256" y="1020" width="77" height="30" rx="0" fill="#548b7b" />
+<rect x="256" y="980" width="77" height="40" rx="0" fill="#9c7bb4" />
+<text x="294.5" y="1090" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="294.5" dy="0">Cat. 2</tspan></text>
+<rect x="399" y="1030" width="77" height="20" rx="0" fill="#548b7b" />
+<rect x="399" y="1010" width="77" height="20" rx="0" fill="#9c7bb4" />
+<text x="437.5" y="1090" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="437.5" dy="0">Cat. 3</tspan></text>
+<rect x="542" y="1040" width="77" height="10" rx="0" fill="#548b7b" />
+<rect x="542" y="1030" width="77" height="10" rx="0" fill="#9c7bb4" />
+<text x="580.5" y="1090" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="middle"><tspan x="580.5" dy="0">Cat. 4</tspan></text>
+<path d="M79 1050 L716 1050" fill="none" stroke="#536b6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="62" cy="1135" r="10" fill="#548b7b"/>
+<text x="84" y="1146" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="84" dy="0">A contribution</tspan></text>
+<circle cx="391" cy="1135" r="10" fill="#9c7bb4"/>
+<text x="413" y="1146" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="413" dy="0">B contribution</tspan></text>
+<text x="40" y="1208" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">60 / 40 predicts the similar 36 / 34 / 20 / 10.</tspan><tspan x="40" dy="40">No cause is attached to each mutation.</tspan><tspan x="40" dy="40">Sparse calls or missing features weaken a fit.</tspan></text>
+</svg>

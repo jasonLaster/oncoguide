@@ -1,0 +1,10 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Original task identity: page-visual-review.json#/89
+Frozen learner task: Compare parental-version loss, telomeric imbalance and adjacent segment transitions on a chromosome track.
+
+Draw horizontal chromosome-region copies rather than replicated X chromatids. Show A/B, A/absent and A/A to separate parental diversity from total copies. In a whole-chromosome illustration mark both telomeres and the centromere; use a terminal imbalance confined to one arm. Draw the exact fictional filtered 12/8-Mb and 12/14-Mb within-arm transitions with different adjacent states at one consistent scale. Keep original algorithm filters and experimental scopes in the owner text. No treatment cutoff, response claim or inferred current repair.
+
+Matched warm light/dark palettes must preserve every object, label, geometry, count and unit. Native 780-unit canvases use essential labels of at least 32 units, with separate native links for details.
+
+The construction script, read receipts/source bodies and QA renders are private aids, not delivered public files. The public pair is editable SVG; no executable regeneration package is included. No image model, reference-image generation or clinical inference was run.

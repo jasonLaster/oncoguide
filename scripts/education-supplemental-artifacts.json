@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "reviewedSourceCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -2427,6 +2427,654 @@
         {
           "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
           "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.json",
+      "sha256": "3b53e9eb493d94651541c24045adaf167f59d5118cfb0875c88dbdc8aeb83e7e",
+      "bytes": 3880,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+      "ownerSha256": "a6bf160ff0a8623fa3ab15ced73fad2fe141fdffa2482f2eec1f3e9ac7eb0c30",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+          "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+          "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1-independent-owner-review.json",
+      "sha256": "b70b030654f3a1d46ba75b6fc2f0df80465cf94260a51a578c390553a1b3b7ad",
+      "bytes": 7609,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+      "ownerSha256": "a6bf160ff0a8623fa3ab15ced73fad2fe141fdffa2482f2eec1f3e9ac7eb0c30",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+          "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+          "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.json",
+      "sha256": "314c4a05c9287e9475dbccd84addc9e14953c692704ed6ca2a8eca18cc4a74c9",
+      "bytes": 3366,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+      "ownerSha256": "92cced8f09a083c2bd62f8e84c6d71339b021b4e714e234bbd9014d0e36aa3e8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+          "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+          "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1-independent-owner-review.json",
+      "sha256": "c4fd8d0b8f4660c5d962fb9a450dacce8c3f55f298194219f2beedd1cacc3174",
+      "bytes": 6815,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+      "ownerSha256": "92cced8f09a083c2bd62f8e84c6d71339b021b4e714e234bbd9014d0e36aa3e8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+          "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+          "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1.json",
+      "sha256": "e6552983f1052a71947b630ea043d0d3e8b0b7e607d2b651c3a782805903cca4",
+      "bytes": 3092,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+      "ownerSha256": "3651da70fcca606d8bba0143b5fb306faaf7e34361f6e290ef5fd1dc9a15327c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+          "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+          "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1-independent-owner-review.json",
+      "sha256": "9e8807c75a50e41a0fb61b8ce374803efbe6c93751517d227ab72ca915881515",
+      "bytes": 6385,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+      "ownerSha256": "3651da70fcca606d8bba0143b5fb306faaf7e34361f6e290ef5fd1dc9a15327c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+          "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+          "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/heterogeneity-sampled-layers-v1.json",
+      "sha256": "c3921e2230fc2ac8d3037ff98066abdaf9aa4ad40dbac8bb7818afc7d73d9bed",
+      "bytes": 3261,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+      "ownerSha256": "438dd2c61698783fbcd10233640849a77687966e696c76c11ab5cffbd34e09f1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+          "sha256": "d8fcc0c93e005e2fe4ba5054c2a9b7774e6f2652605475d540fb79f1b6ecaff2"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+          "sha256": "309c4c3d2ebac9a3605c0d6102617859198e5ca5d919c0cc3c490595340d95d0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/heterogeneity-sampled-layers-v1-independent-owner-review.json",
+      "sha256": "f85d60f347e80dc4121c9a96094d3b6c0ecfd6dd5f24ef5a78dcf94ba7a613b6",
+      "bytes": 6251,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+      "ownerSha256": "438dd2c61698783fbcd10233640849a77687966e696c76c11ab5cffbd34e09f1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+          "sha256": "d8fcc0c93e005e2fe4ba5054c2a9b7774e6f2652605475d540fb79f1b6ecaff2"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+          "sha256": "309c4c3d2ebac9a3605c0d6102617859198e5ca5d919c0cc3c490595340d95d0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/epigenetics-sequence-and-marks-v1.json",
+      "sha256": "816dde023948756faafc64914d660cbd32203ff166167db7335a457bbc812856",
+      "bytes": 3212,
+      "owner": "wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation.md",
+      "ownerSha256": "cc47f5345f69895f87ccad0bf797eb7c5122433deef68f5af69f2ab2de06454d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-light.svg",
+          "sha256": "c312ebd5f8fc8929a50aa532140423aef99f5e53b9073b048467132c6759f76f"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-dark.svg",
+          "sha256": "3c9334938b1413c9be00db44cd575d5763c76242747b89bc22476cb128fd03cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/epigenetics-sequence-and-marks-v1-independent-owner-review.json",
+      "sha256": "056954c08de7debaa644139d06711734e42628b8f96e5b5ea24d4d924ed015c5",
+      "bytes": 6947,
+      "owner": "wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation.md",
+      "ownerSha256": "cc47f5345f69895f87ccad0bf797eb7c5122433deef68f5af69f2ab2de06454d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-light.svg",
+          "sha256": "c312ebd5f8fc8929a50aa532140423aef99f5e53b9073b048467132c6759f76f"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-dark.svg",
+          "sha256": "3c9334938b1413c9be00db44cd575d5763c76242747b89bc22476cb128fd03cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/gene-function-copies-and-partners-v1.json",
+      "sha256": "e0739dab0511be3f9349fce609f356e8d400151644d8c4f2ee78dfc0603ee1a0",
+      "bytes": 3590,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+      "ownerSha256": "1dbf82bd54d4c0559f426c5bc5a6775d410255e8517634926106c46cb5ac1d94",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+          "sha256": "8b9ac13c07b940c98f637284fd60ed90767d5ed9f761730503c656556c8de8e4"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+          "sha256": "2939b25613fd4ac356c4abdfa9879cc36c39fc16829b0d3f3154c3706796ddba"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/gene-function-copies-and-partners-v1-independent-owner-review.json",
+      "sha256": "1a096e8720bc16f8b33b200f17dae0cb5d1635aa35b931e39f2ec9ba3b43912c",
+      "bytes": 6586,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+      "ownerSha256": "1dbf82bd54d4c0559f426c5bc5a6775d410255e8517634926106c46cb5ac1d94",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+          "sha256": "8b9ac13c07b940c98f637284fd60ed90767d5ed9f761730503c656556c8de8e4"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+          "sha256": "2939b25613fd4ac356c4abdfa9879cc36c39fc16829b0d3f3154c3706796ddba"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1-provenance.json",
+      "sha256": "c1ae0ca1cb42480cd4e3b241c7d6d9ad3d690f9d3522050699a7754298885975",
+      "bytes": 1381,
+      "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "ownerSha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+          "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+          "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1-next-gap-082-independent-task-fit.json",
+      "sha256": "ff5936a7381c3ed969fe77a082f1c57d8855e70c632f168c24fcca8ec4da3397",
+      "bytes": 7069,
+      "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "ownerSha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+          "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+          "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/metabolic-signal-and-live-tumor-count-v1-provenance.json",
+      "sha256": "86f9cae952b93bb015ca898274d55a10861fb72b97ddef4bc343d2b8737c0e10",
+      "bytes": 1321,
+      "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+      "ownerSha256": "4460e232b188f37d6d495cd6810e2b2535ac9a2e726874e45037427f1e65a043",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-light.svg",
+          "sha256": "5dca89d21e26bf34b91bf8c8261c008471806f2664fe9abddba2b38a1570215b"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-dark.svg",
+          "sha256": "3c72d3a705eaf3f38d837cdd919bf13bcedf2c1ed48835ea86551694987f05d2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/metabolic-signal-and-live-tumor-count-v1-next-gap-083-independent-task-fit.json",
+      "sha256": "efeb28f6e5e150d45a35a9a4bd77e95695978aa866db16de4fad0c1e08ea69b5",
+      "bytes": 6444,
+      "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+      "ownerSha256": "4460e232b188f37d6d495cd6810e2b2535ac9a2e726874e45037427f1e65a043",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-light.svg",
+          "sha256": "5dca89d21e26bf34b91bf8c8261c008471806f2664fe9abddba2b38a1570215b"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-dark.svg",
+          "sha256": "3c72d3a705eaf3f38d837cdd919bf13bcedf2c1ed48835ea86551694987f05d2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cut-slice-local-neighbors-and-missing-supply-v1-provenance.json",
+      "sha256": "b52133f3a0e41d2c67c9a1c9b73575b0c5b682a3f9c10b077654974bd8354e2c",
+      "bytes": 1732,
+      "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+      "ownerSha256": "8db53934521e23542cbaa3368012c0e94bd626fe27cccfc8de603df73e04a0c5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-light.png",
+          "sha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-dark.png",
+          "sha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cut-slice-local-neighbors-and-missing-supply-v1-next-gap-084-independent-task-fit.json",
+      "sha256": "a65956c1905302b7b7ad14cc6cfce3139e0ea87359ba4874819b4791e0a5a722",
+      "bytes": 7087,
+      "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+      "ownerSha256": "8db53934521e23542cbaa3368012c0e94bd626fe27cccfc8de603df73e04a0c5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-light.png",
+          "sha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-dark.png",
+          "sha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pdx-human-target-and-mouse-support-v1-provenance.json",
+      "sha256": "820cfaa6bef5aec804ed81f39f0fe6e7ce1b93d9d96ed4747c9fccb16d02d84c",
+      "bytes": 1589,
+      "owner": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+      "ownerSha256": "30fe6648222f0ec1d43bfb97532af4d2dc497e22a09ae237750ed051d27aba75",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-light.png",
+          "sha256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-dark.png",
+          "sha256": "070098541b2dd2667f25056f278fb640f76c74996fffb9569a403816a419a6a2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pdx-human-target-and-mouse-support-v1-next-gap-085-independent-task-fit.json",
+      "sha256": "455b37eb09bfbafdfb77af25178f40888b8f9eac81e4050c14cdd793f3a0a911",
+      "bytes": 6075,
+      "owner": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+      "ownerSha256": "30fe6648222f0ec1d43bfb97532af4d2dc497e22a09ae237750ed051d27aba75",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-light.png",
+          "sha256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-dark.png",
+          "sha256": "070098541b2dd2667f25056f278fb640f76c74996fffb9569a403816a419a6a2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/chip-inlet-interface-and-local-exposure-v1-provenance.json",
+      "sha256": "77bf399cee3921b214d04fc27654f143993b3667ab452403c280739c889cdd41",
+      "bytes": 1394,
+      "owner": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+      "ownerSha256": "1d8eedce21e4bb5c1aa0ad557c14443229780264397cbdc3843e01c53f724863",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-light.svg",
+          "sha256": "ed530c1be144aabcfd7caf85573e5039e5de1f5d36b30ee1170c5c68ba080841"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-dark.svg",
+          "sha256": "a4fe1944b002b879fa0a94557d1914bb1d64d4cf671f97a64438cad5f98d0af1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/chip-inlet-interface-and-local-exposure-v1-next-gap-086-independent-task-fit.json",
+      "sha256": "115eea11db7e3647fd8060e47753dbe51f4889b09a83271462afe6962ed510d9",
+      "bytes": 7599,
+      "owner": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+      "ownerSha256": "1d8eedce21e4bb5c1aa0ad557c14443229780264397cbdc3843e01c53f724863",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-light.svg",
+          "sha256": "ed530c1be144aabcfd7caf85573e5039e5de1f5d36b30ee1170c5c68ba080841"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-dark.svg",
+          "sha256": "a4fe1944b002b879fa0a94557d1914bb1d64d4cf671f97a64438cad5f98d0af1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/three-culture-arrangements-and-attributed-response-v1-provenance.json",
+      "sha256": "f550af1f3a35072183b063c667fcf97972e97295d19e5be444f02076d493430e",
+      "bytes": 1525,
+      "owner": "wiki/education/concepts/measurement/functional-models/co-culture.md",
+      "ownerSha256": "27b16b9e06c2b3adfebb723e7a867b9d0e0560ca5aba561309494f6e95f9c383",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-light.svg",
+          "sha256": "a1c8bb8c8c884f672d2e8ebba8a6be852b648e8ba344cda7f7d47ed35bbabf7c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-dark.svg",
+          "sha256": "b1a67f5a598edc892ac3309f3b485d76121a1a494ccfc9cf5a662ff52059b56f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/three-culture-arrangements-and-attributed-response-v1-next-gap-087-independent-task-fit.json",
+      "sha256": "ffda5239b55087def9b50a0b01c433a5981dbd41cc36fe24c6f551e6995e42d5",
+      "bytes": 7890,
+      "owner": "wiki/education/concepts/measurement/functional-models/co-culture.md",
+      "ownerSha256": "27b16b9e06c2b3adfebb723e7a867b9d0e0560ca5aba561309494f6e95f9c383",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-light.svg",
+          "sha256": "a1c8bb8c8c884f672d2e8ebba8a6be852b648e8ba344cda7f7d47ed35bbabf7c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-dark.svg",
+          "sha256": "b1a67f5a598edc892ac3309f3b485d76121a1a494ccfc9cf5a662ff52059b56f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-provenance.json",
+      "sha256": "312233f42c2a5cafb0c8e3a528d0262f621bcfd1bc4e947a9eaad475393a922c",
+      "bytes": 2685,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+      "ownerSha256": "222cf72ceb58644dc082836c6fef90bb14b84bc30335ce2c6829abc30f7e40b4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+          "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+          "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-independent-owner-review.json",
+      "sha256": "6f08b2295fc4e675be551225090476af6e32be978a8e64a7c60613290d3e9aaf",
+      "bytes": 9178,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+      "ownerSha256": "222cf72ceb58644dc082836c6fef90bb14b84bc30335ce2c6829abc30f7e40b4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+          "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+          "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2-provenance.json",
+      "sha256": "a365f661ef89a7390cedb3a0fd300ee52636b691223dad19a917032ae34d9a45",
+      "bytes": 2747,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+      "ownerSha256": "b9536ce4255a656ebf5345e157f08100c34f9e24881086370c7e2ef868464e21",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+          "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+          "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2-independent-owner-review.json",
+      "sha256": "e0b71fede199242ad0ac2c9f4f36f30366f4ea42dc4576b693af9123a3d250a2",
+      "bytes": 9880,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+      "ownerSha256": "b9536ce4255a656ebf5345e157f08100c34f9e24881086370c7e2ef868464e21",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+          "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+          "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-provenance.json",
+      "sha256": "0b67de9e1191f006b954efe133255dea321644a311d5e3c533869a146e208446",
+      "bytes": 3702,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+      "ownerSha256": "a78141bd2606a6a23548226ec634eb85a6913731022d39efe3c85fa879bf59f2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+          "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+          "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-independent-owner-review.json",
+      "sha256": "1a15763aae8818e7a6220ab465c7e0e6b438fdff4289599214293bedfa3f34b8",
+      "bytes": 10926,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+      "ownerSha256": "a78141bd2606a6a23548226ec634eb85a6913731022d39efe3c85fa879bf59f2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+          "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+          "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-provenance.json",
+      "sha256": "7d0a5788590812fb3b1f9a1140e2c470feebb5496d85223d5cb906082ab70071",
+      "bytes": 3602,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+      "ownerSha256": "f3aa29f3629005371ff46001535f09ddb2ed0d05ee13eaed3d8585c06b4c15f4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+          "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+          "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-independent-owner-review.json",
+      "sha256": "820bf1089f78fbf506b7c9712e0824bfa57338104c83bdac442848e10e7c9efb",
+      "bytes": 10758,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+      "ownerSha256": "f3aa29f3629005371ff46001535f09ddb2ed0d05ee13eaed3d8585c06b4c15f4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+          "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+          "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-provenance.json",
+      "sha256": "ad77e62e1480def64faafbf1fc462af7f3e9c6d7e869ad7eb874f9101a5c5a0a",
+      "bytes": 2729,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+      "ownerSha256": "e9345ab8f11e7e297fcfa3ea4397e5a837556ed3bb017d9676b29432240625c9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+          "sha256": "502aaf38870f20aeda37c97b21a0bccfda8ddd13894f54ab1022bbe15fb619dc"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+          "sha256": "521738dad24ae2d4c15fdca8fc409eaad233d56db8ad4f93a4d68e0489b13504"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-independent-owner-review.json",
+      "sha256": "bc0ce4a1a9d5bba44b76e04d5aa2ab8447d308ee8136d53185b533f7bde7ad9b",
+      "bytes": 9851,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+      "ownerSha256": "e9345ab8f11e7e297fcfa3ea4397e5a837556ed3bb017d9676b29432240625c9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+          "sha256": "502aaf38870f20aeda37c97b21a0bccfda8ddd13894f54ab1022bbe15fb619dc"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+          "sha256": "521738dad24ae2d4c15fdca8fc409eaad233d56db8ad4f93a4d68e0489b13504"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/rna-trace-score-and-length-fraction-v2-provenance.json",
+      "sha256": "90c64039771053297f7cf1d3aa59319340f1322f505dcae43feaef810830341b",
+      "bytes": 2853,
+      "owner": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+      "ownerSha256": "527b701882c7f294c42bda5d49c5708dec385002684445ffc66b78fcc9329598",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+          "sha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+          "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/rna-trace-score-and-length-fraction-v2-independent-owner-review.json",
+      "sha256": "0c3a121a73a283f52975652284e9ca5e1f879aa44ca8a5d308d03688a5490346",
+      "bytes": 10337,
+      "owner": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+      "ownerSha256": "527b701882c7f294c42bda5d49c5708dec385002684445ffc66b78fcc9329598",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+          "sha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+          "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0"
         }
       ],
       "contentClass": "source-owned-public-custody"

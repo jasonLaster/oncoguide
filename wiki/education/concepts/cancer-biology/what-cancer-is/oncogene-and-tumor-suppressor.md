@@ -42,6 +42,12 @@ The roles describe mechanisms, not a gene-name shortcut. A particular [deoxyribo
 
 A **driver** contributes to cancer development or maintenance. A **passenger** travels with the cancer without an established driving role. Even a driver need not be an easy drug target: other routes may support survival, the target may be inaccessible, or blocking it may harm normal cells.
 
+<img src="./images/gene-function-copies-and-partners-v1-light.svg" alt="Four schematic mechanisms contrast an overactive growth product, both useful copies disabled, one useful copy with insufficient protection, and an altered protein interfering with a useful partner." width="780" height="1360" data-theme-pair>
+
+*Follow the functional consequence rather than count altered gene names. Two-hit loss, insufficient dosage and partner interference are different mechanisms; one retained useful copy is not universally sufficient. Protein glyphs are schematic, and the p27 and TP53 examples retain their model-specific scope in the text.*
+
+[Open the light diagram](./images/gene-function-copies-and-partners-v1-light.svg) · [Open the dark diagram](./images/gene-function-copies-and-partners-v1-dark.svg)
+
 ## Why it matters in cancer
 
 An inhibitor can sometimes reduce an overactive function. Restoring a missing safeguard is a different engineering problem. Another approach is to target a vulnerability created by that loss. These are reasons to investigate a mechanism; they do not establish a treatment indication. Measured pathway activity, tumor dependence and patient benefit require different evidence.
@@ -51,6 +57,8 @@ An inhibitor can sometimes reduce an overactive function. Restoring a missing sa
 A fictional tumor has an activated growth receptor and a disabled repair safeguard. The receptor finding suggests testing its signaling and dependence. The repair finding suggests testing current repair function and relevant vulnerabilities. “Both are mutated” hides the crucial difference: one may do too much, while the other may do too little.
 
 ## Try it
+
+In the dosage and interference panels, a useful copy remains. What differs? **Answer:** Haploinsufficiency means its protective output is insufficient in that context; dominant-negative action means an altered product interferes with useful protein activity. Neither sketch classifies every human variant or establishes tumor dependence.
 
 A fictional altered receptor produces a stronger signaling readout. Does this show that the cancer needs it to survive? What experiment would add evidence?
 

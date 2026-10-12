@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Parent-protein and phosphopeptide signals have their own scales</title><desc id="desc">Symbolic protein-derived material feeds total-protein and enriched-phosphopeptide measurements. Separate fictional signals 100/200 and 20/40 share fold change two; their relative adjustment is one without a measured occupancy or activation claim.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f1ecd9"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#edc585" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#152630"/>
+<text x="38" y="54" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">More protein or more phosphate?</text>
+<text x="38" y="104" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Fictional matched conditions A and B</text>
+<rect x="24" y="142" width="712" height="320" rx="18" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="194" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">1  Separate measurements and scales</text>
+<path d="M82 259 C115 220 165 291 199 257 C232 224 268 281 312 253" fill="none" stroke="#bfa9db" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="257" r="11" fill="#edc585" stroke="#edc585" stroke-width="1.5" />
+<text x="78" y="345" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Protein-derived</text>
+<text x="78" y="387" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">material</text>
+<path d="M334 257 L440 238" fill="none" stroke="#f1ecd9" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M334 257 L440 347" fill="none" stroke="#f1ecd9" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M476 236 q3.9000000000000004 -5.2 7.800000000000001 0 t7.800000000000001 0 t7.800000000000001 0" fill="none" stroke="#bfa9db" stroke-width="3.25" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M548 252 q3.9000000000000004 -5.2 7.800000000000001 0 t7.800000000000001 0 t7.800000000000001 0" fill="none" stroke="#bfa9db" stroke-width="3.25" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M623 233 q3.9000000000000004 -5.2 7.800000000000001 0 t7.800000000000001 0 t7.800000000000001 0" fill="none" stroke="#bfa9db" stroke-width="3.25" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M476 348 q3.9000000000000004 -5.2 7.800000000000001 0 t7.800000000000001 0 t7.800000000000001 0" fill="none" stroke="#bfa9db" stroke-width="3.25" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="484" cy="340" r="5" fill="#edc585" stroke="#edc585" stroke-width="1.5" />
+<path d="M548 358 q3.9000000000000004 -5.2 7.800000000000001 0 t7.800000000000001 0 t7.800000000000001 0" fill="none" stroke="#bfa9db" stroke-width="3.25" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="556" cy="350" r="5" fill="#edc585" stroke="#edc585" stroke-width="1.5" />
+<path d="M623 341 q3.9000000000000004 -5.2 7.800000000000001 0 t7.800000000000001 0 t7.800000000000001 0" fill="none" stroke="#bfa9db" stroke-width="3.25" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="631" cy="333" r="5" fill="#edc585" stroke="#edc585" stroke-width="1.5" />
+<text x="459" y="300" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Total protein</text>
+<text x="444" y="414" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Phosphopeptides</text>
+<rect x="24" y="482" width="712" height="550" rx="18" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="534" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">2  Compare each signal within its assay</text>
+<text x="196" y="583" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f1ecd9" text-anchor="middle">Parent protein</text>
+<text x="196" y="628" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="middle">Own scale (a.u.)</text>
+<path d="M99 913 L329 913" fill="none" stroke="#a8bcc0" stroke-width="3"/>
+<path d="M99 702 L329 702" fill="none" stroke="#a8bcc0" stroke-width="1"/>
+<text x="81" y="923" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="end">0</text>
+<text x="81" y="712" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="end">200</text>
+<rect x="147" y="807.5" width="56" height="105.5" rx="0" fill="#8fbedc" data-signal="100"/>
+<text x="175" y="790.5" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#8fbedc" text-anchor="middle">100</text>
+<text x="175" y="959" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="middle">A</text>
+<rect x="252" y="702.0" width="56" height="211.0" rx="0" fill="#8fbedc" data-signal="200"/>
+<text x="280" y="685.0" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#8fbedc" text-anchor="middle">200</text>
+<text x="280" y="959" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="middle">B</text>
+<text x="196" y="1003" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#8fbedc" text-anchor="middle">B / A = 2-fold</text>
+<text x="551" y="583" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f1ecd9" text-anchor="middle">Phosphopeptide</text>
+<text x="551" y="628" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="middle">Own scale (a.u.)</text>
+<path d="M454 913 L684 913" fill="none" stroke="#a8bcc0" stroke-width="3"/>
+<path d="M454 702 L684 702" fill="none" stroke="#a8bcc0" stroke-width="1"/>
+<text x="436" y="923" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="end">0</text>
+<text x="436" y="712" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="end">40</text>
+<rect x="502" y="807.5" width="56" height="105.5" rx="0" fill="#edc585" data-signal="20"/>
+<text x="530" y="790.5" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#edc585" text-anchor="middle">20</text>
+<text x="530" y="959" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="middle">A</text>
+<rect x="607" y="702.0" width="56" height="211.0" rx="0" fill="#edc585" data-signal="40"/>
+<text x="635" y="685.0" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#edc585" text-anchor="middle">40</text>
+<text x="635" y="959" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="middle">B</text>
+<text x="551" y="1003" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#edc585" text-anchor="middle">B / A = 2-fold</text>
+<rect x="24" y="1052" width="712" height="220" rx="18" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="1104" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">Fold adjustment: 2 ÷ 2 = 1</text>
+<text x="48" y="1162" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Relative change, not site occupancy.</text>
+<text x="48" y="1208" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Raw 20 / 100 is not a molecule fraction.</text>
+<text x="48" y="1252" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Activation and cause need evidence.</text>
+<text x="38" y="1303" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#f1ecd9" text-anchor="start">Recovery and response assumptions remain.</text>
+</svg>

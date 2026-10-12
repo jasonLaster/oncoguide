@@ -1,0 +1,66 @@
+{
+  "schema": "education-original-code-svg-custody-v1",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+  "taskId": "page-visual-review.json#/121",
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "ownerPreimageSHA256": "8b3a3f58bf7e4aecb75757362f29b3f7028a407b8196ce4865593c30f60b8685",
+  "frozenTaskRowSHA256": "ae1c7caabf62fc4562018854f11d621193adb466826571a0b07d5002741ab822",
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "referenceImages": [],
+  "rasterArtworkOutputs": [],
+  "creationCommit": null,
+  "originalBrief": {
+    "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/gene-function-copies-and-partners-v1.txt",
+    "sha256": "0876f97c0af8869d5673af3d8591c4ba2a77645a01f828c3470908ed37a1a791"
+  },
+  "nativePair": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+      "sha256": "8b9ac13c07b940c98f637284fd60ed90767d5ed9f761730503c656556c8de8e4",
+      "width": 780,
+      "height": 1360
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+      "sha256": "2939b25613fd4ac356c4abdfa9879cc36c39fc16829b0d3f3154c3706796ddba",
+      "width": 780,
+      "height": 1360
+    }
+  ],
+  "sourceReview": [
+    {
+      "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "title": "What Is Cancer? — NCI",
+      "depth": "Selected official page sections",
+      "section": "Types of Genes that Cause Cancer",
+      "scope": "General gene roles, not a verdict on an individual variant"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5279523/",
+      "title": "Mutation and cancer: statistical study of retinoblastoma.",
+      "depth": "Complete primary abstract",
+      "section": "Retinoblastoma statistical two-event hypothesis",
+      "scope": "Original 48-case retinoblastoma analysis and published reports"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9823898/",
+      "title": "The murine gene p27Kip1 is haplo-insufficient for tumour suppression.",
+      "depth": "Complete primary abstract",
+      "section": "Challenged p27 heterozygous/null mouse experiments and retained-allele analyses",
+      "scope": "Carcinogen/radiation-challenged mice; no general human-risk estimate"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31395785/",
+      "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies.",
+      "depth": "Selected primary full-text introduction and functional Results",
+      "section": "Wild-type interference hypothesis; isogenic myeloid models and saturation-mutagenesis reporter results",
+      "scope": "Selected TP53/myeloid cell and mouse experiments; not every human variant or protein stoichiometry"
+    }
+  ],
+  "pairContract": "Identical geometry, labels, objects, counts and units; palette values only differ.",
+  "privateAids": "Construction scripts, original source bodies/read receipts and QA screenshots remain private and are not delivered in the public payload. Editable SVGs are delivered without an executable regeneration package. QA screenshots are not raster artwork or image-model outputs.",
+  "scope": "Original educational geometry and explicitly fictional/schematic examples. No copied source figure, executed scientific model, patient interpretation or review/approval claim."
+}

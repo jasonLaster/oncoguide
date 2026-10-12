@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1100" viewBox="0 0 600 1100" role="img" aria-labelledby="title desc"><title id="title">metabolic-signal-and-live-tumor-count-v1</title><desc id="desc">Detailed code-generated teaching schematic with explicitly fictional examples and separate measurements; not a patient result.</desc><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#18333e"/></marker><marker id="arrow-pale" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#18333e"/></marker><radialGradient id="cell-rose"><stop offset="0" stop-color="#f6c4ca"/><stop offset="1" stop-color="#dc8795"/></radialGradient><radialGradient id="cell-blue"><stop offset="0" stop-color="#d4ebf6"/><stop offset="1" stop-color="#7fb0cd"/></radialGradient></defs><rect width="600" height="1100" fill="#fbf7ed"/>
+<text x="28" y="44" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#18333e">One culture, two measurements</text>
+<text x="28" y="83" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Fictional same-time endpoints</text>
+<rect x="40" y="115" width="220" height="160" rx="22" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<path d="M49 133 L251 133" fill="none" stroke="#9cb2b9" stroke-width="2" stroke-linecap="round"/>
+<path d="M52 260 L248 260" fill="none" stroke="#9cb2b9" stroke-width="2" stroke-linecap="round"/>
+<rect x="340" y="115" width="220" height="160" rx="22" fill="#d5e6ed" stroke="#9cb2b9" stroke-width="2"/>
+<path d="M349 133 L551 133" fill="none" stroke="#9cb2b9" stroke-width="2" stroke-linecap="round"/>
+<path d="M352 260 L548 260" fill="none" stroke="#9cb2b9" stroke-width="2" stroke-linecap="round"/>
+<circle cx="97" cy="180" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="97" cy="180" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="94" cy="182" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="106" cy="174" r="2" fill="#b6a8ca"/>
+<circle cx="85" cy="172" r="2" fill="#b6a8ca"/>
+<circle cx="103" cy="191" r="2" fill="#b6a8ca"/>
+<circle cx="189" cy="180" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="189" cy="180" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="186" cy="182" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="198" cy="174" r="2" fill="#b6a8ca"/>
+<circle cx="177" cy="172" r="2" fill="#b6a8ca"/>
+<circle cx="195" cy="191" r="2" fill="#b6a8ca"/>
+<circle cx="140" cy="235" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="140" cy="235" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="137" cy="237" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="149" cy="229" r="2" fill="#b6a8ca"/>
+<circle cx="128" cy="227" r="2" fill="#b6a8ca"/>
+<circle cx="146" cy="246" r="2" fill="#b6a8ca"/>
+<circle cx="397" cy="180" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="397" cy="180" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="394" cy="182" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="406" cy="174" r="2" fill="#b6a8ca"/>
+<circle cx="385" cy="172" r="2" fill="#b6a8ca"/>
+<circle cx="403" cy="191" r="2" fill="#b6a8ca"/>
+<circle cx="489" cy="180" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="489" cy="180" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="486" cy="182" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="498" cy="174" r="2" fill="#b6a8ca"/>
+<circle cx="477" cy="172" r="2" fill="#b6a8ca"/>
+<circle cx="495" cy="191" r="2" fill="#b6a8ca"/>
+<circle cx="440" cy="235" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="440" cy="235" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="437" cy="237" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="449" cy="229" r="2" fill="#b6a8ca"/>
+<circle cx="428" cy="227" r="2" fill="#b6a8ca"/>
+<circle cx="446" cy="246" r="2" fill="#b6a8ca"/>
+<circle cx="73" cy="150" r="5" fill="#e5bd74"/>
+<circle cx="117" cy="143" r="5" fill="#e5bd74"/>
+<circle cx="215" cy="166" r="5" fill="#e5bd74"/>
+<circle cx="73" cy="246" r="5" fill="#e5bd74"/>
+<circle cx="211" cy="239" r="5" fill="#e5bd74"/>
+<circle cx="145" cy="203" r="5" fill="#e5bd74"/>
+<circle cx="124" cy="259" r="5" fill="#e5bd74"/>
+<circle cx="374" cy="150" r="5" fill="#e5bd74"/>
+<circle cx="422" cy="203" r="5" fill="#e5bd74"/>
+<circle cx="510" cy="243" r="5" fill="#e5bd74"/>
+<text x="150" y="313" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18333e">Vehicle</text>
+<text x="450" y="313" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18333e">Drug A</text>
+<text x="28" y="366" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#18333e">Metabolic proxy</text>
+<text x="333" y="366" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#18333e">Live tumor cells</text>
+<text x="28" y="405" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">% of vehicle</text>
+<text x="333" y="405" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">Count per well</text>
+<path d="M68 722.0 L263 722.0" fill="none" stroke="#9cb2b9" stroke-width="1" stroke-linecap="round"/>
+<text x="61" y="731.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">0</text>
+<path d="M68 599.0 L263 599.0" fill="none" stroke="#9cb2b9" stroke-width="1" stroke-linecap="round"/>
+<text x="61" y="608.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">50</text>
+<path d="M68 476.0 L263 476.0" fill="none" stroke="#9cb2b9" stroke-width="1" stroke-linecap="round"/>
+<text x="61" y="485.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">100</text>
+<rect x="86" y="476.0" width="58" height="246.0" rx="2" fill="#8dbedb" stroke="#9cb2b9" stroke-width="2"/>
+<text x="115" y="461.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18333e">100</text>
+<text x="115" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">V</text>
+<rect x="184" y="599.0" width="58" height="123.0" rx="2" fill="#e5bd74" stroke="#9cb2b9" stroke-width="2"/>
+<text x="213" y="584.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18333e">50</text>
+<text x="213" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">A</text>
+<path d="M375 722.0 L570 722.0" fill="none" stroke="#9cb2b9" stroke-width="1" stroke-linecap="round"/>
+<text x="368" y="731.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">0</text>
+<path d="M375 599.0 L570 599.0" fill="none" stroke="#9cb2b9" stroke-width="1" stroke-linecap="round"/>
+<text x="368" y="608.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">500</text>
+<path d="M375 476.0 L570 476.0" fill="none" stroke="#9cb2b9" stroke-width="1" stroke-linecap="round"/>
+<text x="368" y="485.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">1000</text>
+<rect x="393" y="476.0" width="58" height="246.0" rx="2" fill="#8dbedb" stroke="#9cb2b9" stroke-width="2"/>
+<text x="422" y="461.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18333e">1000</text>
+<text x="422" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">V</text>
+<rect x="491" y="476.0" width="58" height="246.0" rx="2" fill="#e5bd74" stroke="#9cb2b9" stroke-width="2"/>
+<text x="520" y="461.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#18333e">1000</text>
+<text x="520" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">A</text>
+<rect x="40" y="796" width="22" height="18" rx="3" fill="#8dbedb" stroke="#9cb2b9" stroke-width="2"/>
+<text x="75" y="814" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">V = vehicle</text>
+<rect x="317" y="796" width="22" height="18" rx="3" fill="#e5bd74" stroke="#9cb2b9" stroke-width="2"/>
+<text x="352" y="814" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">A = drug A</text>
+<rect x="22" y="855" width="556" height="170" rx="15" fill="#fffdf7" stroke="#9cb2b9" stroke-width="2"/>
+<text x="42" y="897" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e">Half the proxy; equal live-cell count</text>
+<text x="42" y="944" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#18333e">Does not show 50% tumor killing.</text>
+<text x="42" y="991" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">No starting-count or death history given.</text>
+<text x="28" y="1066" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#18333e">Cell glyphs are symbols, not counted data.</text>
+</svg>

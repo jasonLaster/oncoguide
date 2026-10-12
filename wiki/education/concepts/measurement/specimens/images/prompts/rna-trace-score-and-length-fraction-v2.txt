@@ -1,0 +1,6 @@
+Code-generated original scientific SVG; 0 image-model calls. Draw schematic electropherogram with early/18S/28S features but no computed RIN. State score1..10 not percent intact. Separate equal-width 100nt bins over0..600 with heights[1,3,2,2,1,1]; toy areaabove200=6/10=60%, no literal molecule-count fraction or universal clinical cutoff. Actual DV200 smear-region/marker rules are method-specific. Draw fragmented RNA to distinguish short-target and full-transcript recovery; no viability/purity, transcript-specific integrity or automatic assay-suitability claim.
+
+Frozen learner task: Read fragment distributions without treating RIN as percent intact RNA
+Frozen guardrails: Distinguish a method-defined integrity score from a length-based fraction such as DV200. Electropherograms are schematic; neither value alone proves transcript-specific integrity, assay suitability or percent intact RNA.
+
+Warm scientific palette; identical light/dark geometry, labels, quantities and uncertainty; minimum32 native SVGpx for essential labels. Construction code, source bodies and execution/capture receipts are privately retained and not delivered in public payload. SVGs are editable, without an executable reproduction-package promise.

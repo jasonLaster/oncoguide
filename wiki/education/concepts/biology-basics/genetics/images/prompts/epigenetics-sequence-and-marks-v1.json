@@ -1,0 +1,59 @@
+{
+  "schema": "education-original-code-svg-custody-v1",
+  "owner": "wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation.md",
+  "taskId": "page-visual-review.json#/25",
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "ownerPreimageSHA256": "8d73d1b92e4e909f059ba1f4a1158ed5c51758ff1def4ad48a3cbdffdac370e4",
+  "frozenTaskRowSHA256": "a52ec016b58f04be079790dd071fae6fae3fe03d4c43e735a45bb3e6c2f89783",
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "referenceImages": [],
+  "rasterArtworkOutputs": [],
+  "creationCommit": null,
+  "originalBrief": {
+    "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/epigenetics-sequence-and-marks-v1.txt",
+    "sha256": "2903aab6545b49afbf4fe6d6942c9edbac6157ca51211aa386c51465e2ef8577"
+  },
+  "nativePair": [
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-light.svg",
+      "sha256": "c312ebd5f8fc8929a50aa532140423aef99f5e53b9073b048467132c6759f76f",
+      "width": 780,
+      "height": 1360
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/epigenetics-sequence-and-marks-v1-dark.svg",
+      "sha256": "3c9334938b1413c9be00db44cd575d5763c76242747b89bc22476cb128fd03cf",
+      "width": 780,
+      "height": 1360
+    }
+  ],
+  "sourceReview": [
+    {
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+      "title": "Epigenomics Fact Sheet — NHGRI",
+      "depth": "Selected official page sections",
+      "section": "What is the epigenome? What makes up the epigenome?",
+      "scope": "General epigenomic regulation; no permanent-inheritance or universal-off claim"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19829295/",
+      "title": "Human DNA methylomes at base resolution show widespread epigenomic differences.",
+      "depth": "Selected primary full-text introduction and Figure 3 caption",
+      "section": "Human stem-cell/fibroblast comparison; gene-body methylation and expression patterns",
+      "scope": "Human embryonic stem cells and fetal fibroblasts; no tumor-wide causality inferred"
+    },
+    {
+      "url": "https://www.nature.com/articles/nprot.2013.115",
+      "title": "Oxidative bisulfite sequencing of 5-methylcytosine and 5-hydroxymethylcytosine",
+      "depth": "Complete primary abstract only",
+      "section": "Complete original protocol abstract",
+      "scope": "BS-seq/oxBS-seq chemical discrimination; not a cell-fraction or gene-silencing assay"
+    }
+  ],
+  "pairContract": "Identical geometry, labels, objects, counts and units; palette values only differ.",
+  "privateAids": "Construction scripts, original source bodies/read receipts and QA screenshots remain private and are not delivered in the public payload. Editable SVGs are delivered without an executable regeneration package. QA screenshots are not raster artwork or image-model outputs.",
+  "scope": "Original educational geometry and explicitly fictional/schematic examples. No copied source figure, executed scientific model, patient interpretation or review/approval claim."
+}

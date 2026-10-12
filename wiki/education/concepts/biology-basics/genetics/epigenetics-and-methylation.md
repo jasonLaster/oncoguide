@@ -38,6 +38,12 @@ Methylation elsewhere does not carry the same simple meaning. Human stem-cell an
 
 **Histone modifications** place chemical groups on the proteins around which DNA wraps. Different marks and their combinations can affect protein recruitment and chromatin access. [BET bromodomain proteins](/wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins), for example, recognize certain acetyl marks. Histone methylation, histone acetylation and DNA methylation are different molecular features.
 
+<img src="./images/epigenetics-sequence-and-marks-v1-light.svg" alt="Aligned AACGT sequences retain their C after a methyl mark is added, while a C-to-T sequence change reads AATGT; separate DNA and histone marks, cytosine modifications and positions remain distinct." width="780" height="1360" data-theme-pair>
+
+*The added methyl mark leaves the base letters unchanged; a C-to-T mutation changes the letters. DNA marks and histone-protein marks occupy different substrates. 5-hydroxymethylcytosine (5hmC) is distinct from 5mC even though standard bisulfite gives both a C signal. Location and cell context still govern interpretation.*
+
+[Open the light diagram](./images/epigenetics-sequence-and-marks-v1-light.svg) · [Open the dark diagram](./images/epigenetics-sequence-and-marks-v1-dark.svg)
+
 ```mermaid
 flowchart TD
  A["DNA or histone mark"] --> B["Location and<br/>cell context"]
@@ -67,6 +73,8 @@ Standard bisulfite methods cannot distinguish 5mC from **5-hydroxymethylcytosine
 - **A mark versus treatment sensitivity:** chemical state alone does not establish clinical benefit.
 
 ## Try it
+
+Read the three sequence strips. Which row changes a base letter, and can the marked C alone tell you the gene is off? **Answer:** Only the C-to-T strip changes the sequence. A methyl mark keeps that base as cytosine; its regulatory meaning still depends on the sites, cell context and measured consequences.
 
 A fictional mixed-tissue sample shows higher promoter-region methylation and lower gene R RNA than a comparison sample. Can you say methylation silenced R in every malignant cell?
 

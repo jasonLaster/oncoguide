@@ -72,6 +72,11 @@ Specimen timing is particularly important. **Ischemia**, loss of blood supply, c
 
 ## Try it
 
+<div class="cartoon-frame">
+<img src="./images/parent-protein-and-phosphosignal-v2-light.svg" width="760" height="1320" alt="A protein-derived extract branches to total-protein and enriched-phosphopeptide measurements; separate signal charts show 100 to 200 and 20 to 40, giving twofold changes and a protein-adjusted relative change of one without an occupancy percentage." data-theme-pair>
+<p class="cartoon-caption">The fictional total-protein and phosphopeptide measurements each rise twofold, on their own assay scales. Dividing those fold changes gives a relative adjustment of one. Dividing raw signal 20 by 100 would not establish 20% of protein molecules carrying the site: recovery and response factors, localization and occupancy evidence remain separate. No activation or kinase-causality conclusion follows.</p>
+</div>
+
 A fictional matched experiment shows twofold higher phosphopeptide signal and twofold higher parent-protein signal. Has it demonstrated doubled activation?
 
 **Answer:** No. The phosphopeptide-to-protein ratio is unchanged under that comparison model. Site function, recovery and occupancy still need suitable evidence; whole-pathway activity and dependence remain separate questions.

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-084",
+  "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+  "author": "root",
+  "authorRole": "canonical integration only; identity literal preserved from accepted private task map",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T21:32:10.906Z",
+  "reviewedAtLocal": "2026-10-12T14:32:10.906-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "8db53934521e23542cbaa3368012c0e94bd626fe27cccfc8de603df73e04a0c5",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-light.png",
+      "sha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9",
+      "bytes": 2890816
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-dark.png",
+      "sha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d",
+      "bytes": 2931713
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "a78d50f5b3bf1b1998f3b139196c2a4668aea49e4717a2bf305fac7d5215af0c",
+    "learnerTask": "See which neighbors remain in a cut slice and which body-level supplies and recruitment are absent.",
+    "gap": "Preparation map does not depict retained architecture versus lost circulation.",
+    "accuracyGuardrails": "Show retained local neighbors separately from absent systemic circulation/recruitment. Visible vessels may be unperfused; medium exposure and diffusion do not recreate a whole patient.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The slice separates retained local cells/matrix from an unperfused vessel and blocked circulating recruitment; caption requires actual survival/function checks. Both variants remain readable in fresh 393 × 700 inline/default-preview isolated pinned-style captures."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/254",
+    "originalTaskRowSHA256": "f51b078e0d6b22e7016d6d47bc0bb25ccaa8cd043deb8cb22f6ee0835a7d07a4"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+        "sha256": "8db53934521e23542cbaa3368012c0e94bd626fe27cccfc8de603df73e04a0c5",
+        "bytes": 8577
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-light.png",
+        "sha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9",
+        "bytes": 2890816
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-dark.png",
+        "sha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d",
+        "bytes": 2931713
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cut-slice-local-neighbors-and-missing-supply-v1.txt",
+        "sha256": "25507de3716d51d0b83477381d2556e68eecc0bf2d1f22007b3b04215b42beec",
+        "bytes": 1962
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cut-slice-local-neighbors-and-missing-supply-v1-dark.txt",
+        "sha256": "040ad7cfd8bb18ae5737eb13242b3b93662c8b23c88bb81b43ffe3302c47134a",
+        "bytes": 730
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cut-slice-local-neighbors-and-missing-supply-v1-provenance.json",
+        "sha256": "b52133f3a0e41d2c67c9a1c9b73575b0c5b682a3f9c10b077654974bd8354e2c",
+        "bytes": 1732
+      }
+    ],
+    "originalTXTBriefsPreserved": true,
+    "generationModel": "unreported"
+  },
+  "sourceReview": [
+    {
+      "id": "Ladan",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/",
+      "readDepth": "selected primary full-text passages",
+      "sections": "Methods: Part II Proof-of-concept study BREAST study full2 paragraphs; Discussion first5 paragraphs",
+      "scope": "Breast-cancer ex vivo anthracycline proof-of-concept",
+      "limits": "Not entire paper, figure pixels or supplements; no universal retention, exact proportions or clinical validation."
+    },
+    {
+      "id": "Salmon",
+      "url": "https://www.jci.org/articles/view/45817",
+      "readDepth": "selected primary full-text passage and caption text",
+      "sections": "Results: T cells accumulate and migrate preferentially in the stroma of human lung tumors; Figure1 caption TEXT, selected entries0–1",
+      "scope": "Human lung-tumor overlay-slice imaging",
+      "limits": "Not entire paper, figure pixels or videos; cartoon does not claim overlay protocol or a working circulation."
+    },
+    {
+      "id": "Jenkins",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/5809290/",
+      "readDepth": "selected primary full-text passages and caption text",
+      "sections": "Abstract, first Results preparation paragraph, Figure1 caption TEXT (indices0,3,4); Methods microfluidic design (19) and dual-label readout (20); Discussion limitations (15)",
+      "scope": "MDOTS/PDOTS short-term immune-checkpoint experiments",
+      "limits": "Not entire paper or figure pixels; no exact proprietary geometry, flow-protection inference or local-concentration assertion."
+    }
+  ],
+  "retainedExercises": {
+    "inverseRestoresOriginalBytes": true,
+    "metadataAndExistingBodyPreserved": true
+  },
+  "displayReview": {
+    "viewport": {
+      "width": 393,
+      "height": 700,
+      "deviceScaleFactor": 1
+    },
+    "states": [
+      "light inline",
+      "dark inline",
+      "light default preview",
+      "dark default preview"
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "scope": "Fresh isolated CSS/DOM sizing carrier with declared 24px margin and Arial; author fixture not relied upon. Default preview does not enlarge these tall figures. Full live-reader/React/keyboard/app layout not reviewed."
+  },
+  "reviewScope": "New image, insertion, source/task fit, preserved exercises, original custody and compact readability only; unchanged science not re-approved. Lead reviewed complete public owners and reconciled three bounded reviewers. Source-specific read depths are those of the named bounded science reviewers.",
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "productionReview": "pending",
+  "deliveryReview": "pending",
+  "canonicalTaskAdoption": "pending",
+  "coverageCreditGrantedNow": 0,
+  "newPublicVisualAcceptance": "prospective independent task fit only; actual release derivation pending"
+}

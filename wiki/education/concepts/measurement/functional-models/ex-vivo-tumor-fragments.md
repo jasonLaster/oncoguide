@@ -48,6 +48,10 @@ flowchart TD
 
 *Keeping architecture helps ask some questions; every preparation still needs checks.*
 
+<img src="./images/cut-slice-local-neighbors-and-missing-supply-v1-light.png" alt="A cut tumor slice in culture retains tumor cells, local immune cells and matrix while a visible vessel remains unperfused and circulation cannot recruit new cells" data-theme-pair width="1024" height="1536">
+
+Look inside the cut piece, then outside it. Tumor cells, some local immune neighbors and matrix remain in this schematic; medium reaches the tissue by diffusion. The open vessel shape is a retained structure, not a working blood supply. The blocked external route means that this preparation does not recruit new cells from circulating blood. Which neighbors survive and remain functional must be checked in the actual slice. [1,2]
+
 ## Why it matters in cancer
 
 Fragments can expose interactions and access barriers that dissociation removes. A primary human lung-tumor slice study examined T-cell location and movement in relation to matrix; that is evidence for the studied tissue interaction, not a treatment-selection test. [2]

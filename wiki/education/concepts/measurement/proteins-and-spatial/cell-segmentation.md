@@ -68,9 +68,20 @@ Crowded tumors, small lymphocytes and irregular cancer cells can challenge a mod
 
 ## Worked example
 
+<div class="cartoon-frame">
+<img src="./images/raw-channels-and-mask-errors-v2-light.svg" width="760" height="1320" alt="Separate synthetic immune-marker and keratin channels depict two stipulated cells, followed by overlays illustrating one merged object, three split objects and shifted boundaries that misassign fixed marker signals." data-theme-pair>
+<p class="cartoon-caption">The channels and two stipulated cells stay fixed while the estimated masks merge them, split one, or shift a border. The resulting table can mix markers or miscount objects. The pale contours are aids in this synthetic example, not validated cell boundaries. In real images, compare masks with original channels and representative annotations before interpreting cell identity or coexpression.</p>
+</div>
+
+The [official image-quality guidance](https://www.10xgenomics.com/support/software/tenx-explorer/latest/tutorials/checking-data-quality) illustrates comparing segmentation with original channels; the toy above does not reproduce a platform validation.
+
 In a fictional image, one mask contains a small T cell and an adjacent cancer cell. The cell table reports both an immune marker and cytokeratin in one object. Is that a new hybrid cell?
 
 **Answer:** First inspect the original channels and boundary overlay. A merged mask can create false coexpression. Correcting that mask may show two neighboring cells instead; their proximity still does not prove immune recognition.
+
+**Read the split overlay:** It reports three objects for the two stipulated cells. Did another cell appear?
+
+**Answer:** No. The masks changed the object table, not the original image. Compare channels and representative annotations before using the count or marker combinations.
 
 ## Common confusions
 

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-076",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+  "currentOwnerSha256": "222cf72ceb58644dc082836c6fef90bb14b84bc30335ce2c6829abc30f7e40b4",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Original educational writing, source qualification, SVG generation and narrow boundary-color successor",
+    "rootOriginalGenerationOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "Independent original complete-task reviewer and focused successor correction reviewer",
+  "reviewedAtUTC": "2026-10-12T21:45:26Z",
+  "passedAtUTC": "2026-10-12T21:45:26Z",
+  "boundAtUTC": "2026-10-12T21:45:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "reviewScope": "Original complete-owner task/science/source/native review carried forward under exact unchanged bytes; nine-stroke correction rechecked only for next-gap-078/079. This is the first prospective task-fit receipt for this owner.",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/319",
+    "originalTaskRowSHA256": "7c3aaca40b05f53937d10026f7d8a2c79fbe33f89ecaafd381df4271fa6e9279"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+    "baselinePageSHA256": "60b67689eb92b52a5b6dae1a2fe746cd37a75cf6f6fd0d56b1447b0066f6ae85",
+    "learnerTask": "See a bulk increase caused by mixture rather than cancer-cell expression",
+    "gap": "Process flow lacks the two cell mixtures and their pooled messages",
+    "accuracyGuardrails": "Show pooled RNA from changing cell mixtures separately from per-cell expression. A bulk increase can reflect composition; it does not by itself identify malignant-cell expression, protein, function or cell counts.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The two 100-cell pieces visibly contain 20/40 lymphocytes and 80/60 stipulated cancer cells, with 20/40 pooled marker-X RNAs and the same one-X-RNA lymphocyte glyph. Equal RNA per cell and matched preparation are explicit fictional assumptions. The complete retained exercise rejects cancer-cell activation; the visual does not infer real cell counts, captured reads, protein, function or malignant-cell origin from bulk signal. The physical pooling view fills the exact frozen gap.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+      "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+      "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+        "sha256": "222cf72ceb58644dc082836c6fef90bb14b84bc30335ce2c6829abc30f7e40b4",
+        "bytes": 10156
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+        "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9",
+        "bytes": 49239
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+        "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7",
+        "bytes": 49239
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2.txt",
+        "sha256": "061b8aad3f2af8279b15cc497df96666f2dc1f933cbe24cf8d9d5579a8a4cea4",
+        "bytes": 1127
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-provenance.json",
+        "sha256": "312233f42c2a5cafb0c8e3a528d0262f621bcfd1bc4e947a9eaad475393a922c",
+        "bytes": 2685
+      }
+    ],
+    "originalArtwork": "Exact complete owner, unchanged original TXT, native light/dark pair and actual ordinary provenance. Original construction authorship is separate from root canonical integration. Construction/correction code, source bodies, execution and captures remain private and are not admitted by these hashes."
+  },
+  "originalPackageReview": {
+    "sha256": "64bfcbddbbc9dfab88221345df0afb75b49d0c4f5f799cd7f52a44340a81bbb1",
+    "manifestSHA256": "76097a18b102093b11874550f793945e3a0c097b01a1ae6f5d7e4a130089de37",
+    "checksumSHA256": "3069e21da064635bd3e723e4fa54fd4775a204c02aa0fb90dca3f94555aa0649",
+    "originalVerdict": "REVISE",
+    "originalReviewedAtUTC": "2026-10-12T21:31:48Z",
+    "historicalVerdictRemainsUnchanged": true,
+    "inheritedScopes": "Original actual complete-owner task/science/source/arithmetic/native review scopes are retained. Only readouts-dark-boundary-contrast is resolved by this successor check. No source/science or broad native grade rerun."
+  },
+  "focusedCorrectionReview": {
+    "sha256": "c7f5bcf72bb42bd48841c92ddb1722db540cd128fc233e9994865794b087e837",
+    "passedAtUTC": "2026-10-12T21:44:58Z",
+    "findingResolved": "readouts-dark-boundary-contrast",
+    "scopeForThisOwner": "Unchanged owner bundle inherited byte-for-byte; no new source/pixel rerun"
+  },
+  "sourceReadScope": {
+    "inheritedFromActualReviewAtUTC": "2026-10-12T21:31:48Z",
+    "primaryRecords": [
+      {
+        "name": "SEQC",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25150838+AND+SRC%3AMED&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "SEQC-xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4321899/fullTextXML",
+        "depth": "Only first four matching paragraphs selected for consequential feature verification; full XML acquisition is not a whole-paper read.",
+        "status": "retrieved"
+      },
+      {
+        "name": "GEUVADIS",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fnbt.2702&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      }
+    ],
+    "officialOrSelectedPassages": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25150838/",
+        "depth": "Selected reference-RNA mixture/titration caption and measurement limitations; no source figure copied or 100-cell dataset imported."
+      }
+    ],
+    "originalAuthorAccessFailures": [],
+    "independentAccessFailures": [],
+    "limits": [
+      "No complete-paper review claim, source-figure copying, imported source dataset or patient-specific interpretation.",
+      "Sources do not validate the author-created fictional counts, coordinates, masks or histogram; those are explicitly stipulated and separately checked.",
+      "Existing historical source_checked metadata and pending human review status retained; no source-review promotion or self-approval.",
+      "Zero image-model calls; original SVG construction and revisions retained privately."
+    ],
+    "noWholePaperOrCurrentPlatformValidationClaim": true,
+    "noNewSourceLookupOrSourceDepthGrade": true,
+    "sourceBodiesPrivatelyRetainedNotPubliclyDelivered": true
+  },
+  "checks": {
+    "originalCompleteOwnerReadAndTaskJudgmentInherited": true,
+    "originalTeachingExercisesSourcesNavigationRetained": true,
+    "exactSuccessorFiveFileHashesVerified": true,
+    "fullFrozenTaskStringsAndTypesPreserved": true,
+    "geometryLabelsSignalsCountsAndSolidDashedPatternsUnchanged": true,
+    "focusedColorContextPASS": true,
+    "originalMaintainedContentCheckerPASSInherited": true,
+    "maintainedReaderOrLiveProductionAcceptance": false
+  },
+  "publicationPath": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-independent-owner-review.json",
+  "pending": {
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "newScientificSourceApproval": false,
+  "newSourceDepthGrade": false,
+  "newBroadNativeApproval": false,
+  "productionVerified": false,
+  "releaseAccepted": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

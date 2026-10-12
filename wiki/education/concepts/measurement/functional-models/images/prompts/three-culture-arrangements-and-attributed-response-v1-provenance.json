@@ -1,0 +1,43 @@
+{
+  "owner": "wiki/education/concepts/measurement/functional-models/co-culture.md",
+  "construction": "code-generated native SVG",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "modelReporting": "no image model used",
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "three-culture-arrangements-and-attributed-response-v1-light.svg",
+      "sha256": "a1c8bb8c8c884f672d2e8ebba8a6be852b648e8ba344cda7f7d47ed35bbabf7c",
+      "bytes": 13283,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    },
+    {
+      "theme": "dark",
+      "file": "three-culture-arrangements-and-attributed-response-v1-dark.svg",
+      "sha256": "b1a67f5a598edc892ac3309f3b485d76121a1a494ccfc9cf5a662ff52059b56f",
+      "bytes": 13283,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    }
+  ],
+  "originalBriefs": [
+    {
+      "file": "three-culture-arrangements-and-attributed-response-v1.txt",
+      "sha256": "4759db6339f5928776417efe1de1b9fb99ff25631efcec773a922edead805c08",
+      "bytes": 917
+    }
+  ],
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/6558289/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/5809290/",
+    "https://www.corning.com/worldwide/en/products/life-sciences/products/permeable-supports/transwell-guidelines.html",
+    "https://www.atcc.org/resources/culture-guides/organoid-culture-guide"
+  ],
+  "scope": "Teaching illustration. Invented symbols/values and model-specific limits are explained in the owner; no clinical-response or whole-patient validation."
+}

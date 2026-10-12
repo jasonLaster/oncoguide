@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+  "taskId": "page-visual-review.json#/290",
+  "construction": "original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "baselinePageSHA256": "46224523bf7c610aeded4e8a9ce26a95bcdd605e211e656884e7d7cb9b60cc9b",
+  "originalFrozenTask": {
+    "learnerTask": "Inspect merging, splitting and assigned marker boundaries",
+    "gap": "The workflow does not show mask errors",
+    "accuracyGuardrails": "Show raw marker channels separately from estimated masks and cell assignments. Merging, splitting and boundary uncertainty can produce apparent double positivity; an overlay is not verified cell identity/function."
+  },
+  "sourceURLs": [
+    "https://doi.org/10.1038/s41592-020-01018-x",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9010346/",
+    "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation",
+    "https://www.10xgenomics.com/support/software/tenx-explorer/latest/tutorials/checking-data-quality"
+  ],
+  "sourceDepth": "Actual selected source/official passages and complete abstracts are recorded in private source-lookup receipts; no whole-paper/clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies, read receipts, construction code, execution and renders are private, not publicly delivered.",
+  "generator": "private/correct-boundaries.py",
+  "generatorSHA256": "b3c1af8c643281d169bf2e69d1ec8a06fb74dfb593889ea68c5ed5d2d3852c91",
+  "generatorCustody": "Private original-byte color correction generator; original construction code and original sealed package retained separately. No executable generator is publicly delivered.",
+  "briefSHA256": "9250acbf193c9547bfd0f6233ce924b1a2fc25e72b3aaa32d26a0881b5332216",
+  "outputs": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+      "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c",
+      "bytes": 10145,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+      "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c",
+      "bytes": 10145,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Exact shared geometry/labels/quantities; palette substitution only",
+  "fictionalGeometryAndQuantities": true,
+  "sourceFiguresCopied": false,
+  "minimumNativeFontPx": 32,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "credit": 0,
+  "originalConstructionGenerator": {
+    "path": "private/construct-v2.py",
+    "sha256": "2c6a9013315ea9139cc1844c513b8c4232e082ee45da2eccc0052f34595e8c0b",
+    "custody": "Privately retained in the original sealed readouts author package, also copied as private/original-construct-v2.py in this successor."
+  },
+  "successorCorrection": {
+    "findingId": "readouts-dark-boundary-contrast",
+    "scope": "Only nine dark-theme mask-boundary stroke colors across two SVGs. All geometry, signals, solid/dashed distinctions and wording retained.",
+    "originalDarkSVG_SHA256": "eb810cb12081f90c92edada73e6958b9848e55014db864c3b155e0d0eaf98815",
+    "imageModelCalls": 0
+  }
+}

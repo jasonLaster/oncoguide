@@ -1,0 +1,10 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Original task identity: page-visual-review.json#/91
+Frozen learner task: Read a distribution of mutation categories and model-estimated mixtures rather than treating a signature as one called mutation.
+
+Construct original categorical bar charts with four fictional categories, never real SBS names or a validated classifier. Template A is 40/30/20/10 percent and B is 30/40/20/10 percent. Observed toy counts are 35/35/20/10, total 100. The arithmetic 50/50 reconstruction contributes A counts 20/15/10/5 and B counts 15/20/10/5. The alternative 60/40 mixture predicts 36/34/20/10. Separate percentage-template units from observed/predicted mutation-count units. Shared categories and similar predictions illustrate uncertainty without per-mutation causal assignment. No statistical fit, confidence interval or clinical model was executed.
+
+Matched warm light/dark palettes must preserve every object, label, geometry, count and unit. Native 780-unit canvases use essential labels of at least 32 units, with separate native links for details.
+
+The construction script, read receipts/source bodies and QA renders are private aids, not delivered public files. The public pair is editable SVG; no executable regeneration package is included. No image model, reference-image generation or clinical inference was run.

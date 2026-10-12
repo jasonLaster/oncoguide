@@ -57,6 +57,12 @@ flowchart TD
 
 *A genetic dependency can prioritize work; it does not complete the drug-evidence chain.*
 
+<img src="./images/pooled-guide-representation-and-cutting-effects-v1-light.svg" alt="Guide barcode representation before and later in a fictional pooled screen, with a separate inset of multiple cuts in amplified DNA" data-theme-pair width="600" height="1100">
+
+Follow the guide barcodes, rather than counting the cell symbols. The invented values are shares per 10,000 sequenced reads for three selected guides; the rest of the library is omitted. Guide A becomes less represented, but that does not tell you whether cells died, divided more slowly or suffered several DNA cuts. The copy inset is illustrative, not a measured copy number.
+
+**Read the chart:** Does Guide A's change from 100 to 20 mean 80 cells died? **Answer:** No. Those are relative barcode-read values. Editing checks, reference controls, copy effects and independent follow-up are still needed.
+
 ## Why it matters in cancer
 
 Comparisons can identify dependencies shared across many cells or enriched in selected cancer contexts. [Cell-line](./cell-lines) lineage, culture conditions and genomic state shape the result. A requirement in normal cells may also limit a treatment's selectivity.

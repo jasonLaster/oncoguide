@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-081",
+  "owner": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+  "currentOwnerSha256": "527b701882c7f294c42bda5d49c5708dec385002684445ffc66b78fcc9329598",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Original educational writing, source qualification, SVG generation and narrow boundary-color successor",
+    "rootOriginalGenerationOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "Independent original complete-task reviewer and focused successor correction reviewer",
+  "reviewedAtUTC": "2026-10-12T21:45:26Z",
+  "passedAtUTC": "2026-10-12T21:45:26Z",
+  "boundAtUTC": "2026-10-12T21:45:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "reviewScope": "Original complete-owner task/science/source/native review carried forward under exact unchanged bytes; nine-stroke correction rechecked only for next-gap-078/079. This is the first prospective task-fit receipt for this owner.",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/314",
+    "originalTaskRowSHA256": "46e12559a759cb3da8a4d0dfa1331c95f546d060f5398c95e585d5cbca7b8593"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+    "baselinePageSHA256": "29c0dcc37b69ed2f155ebaeb58752f06cca4ed00cdb5be3815c7f36908072f9b",
+    "learnerTask": "Read fragment distributions without treating RIN as percent intact RNA",
+    "gap": "Current workflow omits an electropherogram or length fraction",
+    "accuracyGuardrails": "Distinguish a method-defined integrity score from a length-based fraction such as DV200. Electropherograms are schematic; neither value alone proves transcript-specific integrity, assay suitability or percent intact RNA.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The schematic early/18S/28S electropherogram is labeled as a multi-feature 1–10 RIN summary without computing a score or treating it as percent intact. The separate equal-width length histogram has heights [1,3,2,2,1,1]; measured graphical areas above 200 nt are 60% of the selected signal area. Method/region/marker rules remain separate, with no kit cutoff imported. Fragmented RNA and the retained short-target-versus-full-transcript exercise keep transcript-specific integrity, suitability, viability and assay success unproven. This fills the full frozen trace/length-fraction task.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+      "sha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+      "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+        "sha256": "527b701882c7f294c42bda5d49c5708dec385002684445ffc66b78fcc9329598",
+        "bytes": 7705
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "sha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb",
+        "bytes": 9635
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "sha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0",
+        "bytes": 9635
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/rna-trace-score-and-length-fraction-v2.txt",
+        "sha256": "499d347483972007b2176f422ce8b882a4b9c1703c45bfc4e0be903dea12433f",
+        "bytes": 1234
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/rna-trace-score-and-length-fraction-v2-provenance.json",
+        "sha256": "90c64039771053297f7cf1d3aa59319340f1322f505dcae43feaef810830341b",
+        "bytes": 2853
+      }
+    ],
+    "originalArtwork": "Exact complete owner, unchanged original TXT, native light/dark pair and actual ordinary provenance. Original construction authorship is separate from root canonical integration. Construction/correction code, source bodies, execution and captures remain private and are not admitted by these hashes."
+  },
+  "originalPackageReview": {
+    "sha256": "64bfcbddbbc9dfab88221345df0afb75b49d0c4f5f799cd7f52a44340a81bbb1",
+    "manifestSHA256": "76097a18b102093b11874550f793945e3a0c097b01a1ae6f5d7e4a130089de37",
+    "checksumSHA256": "3069e21da064635bd3e723e4fa54fd4775a204c02aa0fb90dca3f94555aa0649",
+    "originalVerdict": "REVISE",
+    "originalReviewedAtUTC": "2026-10-12T21:31:48Z",
+    "historicalVerdictRemainsUnchanged": true,
+    "inheritedScopes": "Original actual complete-owner task/science/source/arithmetic/native review scopes are retained. Only readouts-dark-boundary-contrast is resolved by this successor check. No source/science or broad native grade rerun."
+  },
+  "focusedCorrectionReview": {
+    "sha256": "c7f5bcf72bb42bd48841c92ddb1722db540cd128fc233e9994865794b087e837",
+    "passedAtUTC": "2026-10-12T21:44:58Z",
+    "findingResolved": "readouts-dark-boundary-contrast",
+    "scopeForThisOwner": "Unchanged owner bundle inherited byte-for-byte; no new source/pixel rerun"
+  },
+  "sourceReadScope": {
+    "inheritedFromActualReviewAtUTC": "2026-10-12T21:31:48Z",
+    "primaryRecords": [
+      {
+        "name": "RIN",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC1413964&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "RIN-xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1413964/fullTextXML",
+        "depth": "Only first four matching paragraphs selected for consequential feature verification; full XML acquisition is not a whole-paper read.",
+        "status": "retrieved"
+      },
+      {
+        "name": "FFPE",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1371%2Fjournal.pone.0216050&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "FFPE-xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6502345/fullTextXML",
+        "depth": "Only first four matching paragraphs selected for consequential feature verification; full XML acquisition is not a whole-paper read.",
+        "status": "retrieved"
+      }
+    ],
+    "officialOrSelectedPassages": [
+      {
+        "url": "https://support.illumina.com/content/dam/illumina-marketing/documents/products/technotes/evaluating-rna-quality-from-ffpe-samples-technical-note-470-2014-001.pdf",
+        "depth": "Selected PDF definition and smear-analysis procedure, printed pages 2–3 and Figure 5; research-use technical note current as of 26 October 2016. No current-kit or diagnostic cutoff imported."
+      }
+    ],
+    "originalAuthorAccessFailures": [
+      {
+        "name": "RIN",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC1413964&format=json&resultType=core",
+        "error": "list index out of range",
+        "timestampLimitation": "No exact clock timestamp retained in this initial failed acquisition record; no content read."
+      }
+    ],
+    "independentAccessFailures": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1413964/",
+        "result": "reCAPTCHA challenge; no paper body read",
+        "timestampScope": "Tool call occurred in this review; exact call UTC was not separately clocked."
+      }
+    ],
+    "limits": [
+      "No complete-paper review claim, source-figure copying, imported source dataset or patient-specific interpretation.",
+      "Sources do not validate the author-created fictional counts, coordinates, masks or histogram; those are explicitly stipulated and separately checked.",
+      "Existing historical source_checked metadata and pending human review status retained; no source-review promotion or self-approval.",
+      "Zero image-model calls; original SVG construction and revisions retained privately."
+    ],
+    "noWholePaperOrCurrentPlatformValidationClaim": true,
+    "noNewSourceLookupOrSourceDepthGrade": true,
+    "sourceBodiesPrivatelyRetainedNotPubliclyDelivered": true
+  },
+  "checks": {
+    "originalCompleteOwnerReadAndTaskJudgmentInherited": true,
+    "originalTeachingExercisesSourcesNavigationRetained": true,
+    "exactSuccessorFiveFileHashesVerified": true,
+    "fullFrozenTaskStringsAndTypesPreserved": true,
+    "geometryLabelsSignalsCountsAndSolidDashedPatternsUnchanged": true,
+    "focusedColorContextPASS": true,
+    "originalMaintainedContentCheckerPASSInherited": true,
+    "maintainedReaderOrLiveProductionAcceptance": false
+  },
+  "publicationPath": "wiki/education/concepts/measurement/specimens/images/prompts/rna-trace-score-and-length-fraction-v2-independent-owner-review.json",
+  "pending": {
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "newScientificSourceApproval": false,
+  "newSourceDepthGrade": false,
+  "newBroadNativeApproval": false,
+  "productionVerified": false,
+  "releaseAccepted": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

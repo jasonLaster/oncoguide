@@ -1,0 +1,10 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Original task identity: page-visual-review.json#/122
+Frozen learner task: Compare sampled genetic branches with cell states and target-rich versus target-poor regions.
+
+Draw an original spatial cell field with R1 and R2 sample boundaries and a separate unsampled third site marked unknown. R1 has A+B detected; R2 has A detected with B not detected. Use outline colors for DNA patterns, separate inner circle/square symbols for RNA states, both symbols on both outlines, and independent membrane marks for target-rich versus target-poor regions. Label icons as illustrative rather than a census. Below, draw a candidate shared-A ancestry relationship for sampled evidence only; RNA states do not create additional DNA branches. Do not infer truncality everywhere, gene-target uniformity, VAF cell census, peptide presentation or response.
+
+Matched warm light/dark palettes must preserve every object, label, geometry, count and unit. Native 780-unit canvases use essential labels of at least 32 units, with separate native links for details.
+
+The construction script, read receipts/source bodies and QA renders are private aids, not delivered public files. The public pair is editable SVG; no executable regeneration package is included. No image model, reference-image generation or clinical inference was run.

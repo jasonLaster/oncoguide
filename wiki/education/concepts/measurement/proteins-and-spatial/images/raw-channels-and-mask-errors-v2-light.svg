@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Raw signals and mask errors are different layers</title><desc id="desc">Fixed synthetic immune/keratin channels and two stipulated cells are compared with one merged object, three split objects and shifted boundaries. The masks change assignment tables, not raw signals, cell identities or measured biology.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#976729" stroke-width="2"/></pattern></defs>
+<rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="54" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">A boundary changes the cell table</text>
+<text x="38" y="104" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Synthetic channels; two stipulated cells</text>
+<rect x="24" y="142" width="712" height="293" rx="18" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="194" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">1  Fixed channels, two stipulated cells</text>
+<rect x="52" y="225" width="309" height="139" rx="8" fill="#d9c29b" />
+<circle cx="161.95" cy="303.8" r="26.349999999999998" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="159.95" cy="304.8" r="10.013" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="232.5" cy="307.2" r="39.949999999999996" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="230.5" cy="308.2" r="15.181" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="140.7" cy="297.85" r="5.95" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="158.55" cy="323.35" r="5.95" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="183.2" cy="306.35" r="5.95" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<text x="206" y="395" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">A: immune marker</text>
+<rect x="396" y="225" width="309" height="139" rx="8" fill="#d9c29b" />
+<circle cx="505.95" cy="303.8" r="26.349999999999998" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="503.95" cy="304.8" r="10.013" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="576.5" cy="307.2" r="39.949999999999996" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="574.5" cy="308.2" r="15.181" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="562.05" cy="274.9" r="5.95" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="595.2" cy="292.75" r="5.95" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="561.2" cy="324.2" r="5.95" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="599.45" cy="336.95" r="5.95" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<text x="550" y="395" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="middle">K: keratin</text>
+<text x="48" y="425" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Signals stay fixed; contours only aid this toy.</text>
+<rect x="24" y="455" width="712" height="640" rx="18" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="507" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">2  Compare masks with the same image</text>
+<rect x="52" y="551" width="273" height="143" rx="8" fill="#d9c29b" />
+<circle cx="128.27" cy="632.28" r="25.110000000000003" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="126.27000000000001" cy="633.28" r="9.541800000000002" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="195.5" cy="635.52" r="38.07" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="193.5" cy="636.52" r="14.4666" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="108.02000000000001" cy="626.61" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="125.03" cy="650.91" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="148.52" cy="634.71" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="181.73000000000002" cy="604.74" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="213.32000000000002" cy="621.75" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="180.92000000000002" cy="651.72" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="217.37" cy="663.87" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<rect x="91" y="573" width="190" height="112" rx="26" fill="url(#hatch)" stroke="#969e9e" stroke-width="2" fill-opacity="0.35"/>
+<text x="350" y="585" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#293743" text-anchor="start">Merged: 1 object</text>
+<text x="350" y="634" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">A and K can share</text>
+<text x="350" y="676" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">one table row.</text>
+<rect x="52" y="721" width="273" height="143" rx="8" fill="#d9c29b" />
+<circle cx="128.27" cy="802.28" r="25.110000000000003" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="126.27000000000001" cy="803.28" r="9.541800000000002" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="195.5" cy="805.52" r="38.07" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="193.5" cy="806.52" r="14.4666" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="108.02000000000001" cy="796.61" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="125.03" cy="820.91" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="148.52" cy="804.71" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="181.73000000000002" cy="774.74" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="213.32000000000002" cy="791.75" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="180.92000000000002" cy="821.72" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="217.37" cy="833.87" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<path d="M97 753 L159 753 L159 850 L97 850 Z" fill="none" stroke="#976729" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M163 737 L198 737 L198 857 L163 857 Z" fill="none" stroke="#976729" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M198 737 L244 737 L244 857 L198 857 Z" fill="none" stroke="#976729" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="350" y="755" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#293743" text-anchor="start">Split: 3 objects</text>
+<text x="350" y="804" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">An extra object is</text>
+<text x="350" y="846" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">not an extra cell.</text>
+<rect x="52" y="891" width="273" height="143" rx="8" fill="#d9c29b" />
+<circle cx="128.27" cy="972.28" r="25.110000000000003" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="126.27000000000001" cy="973.28" r="9.541800000000002" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="195.5" cy="975.52" r="38.07" fill="#e8e0d3" stroke="#293743" stroke-width="1.5" />
+<circle cx="193.5" cy="976.52" r="14.4666" fill="#806a9c" stroke="#e8e0d3" stroke-width="1.5" />
+<circle cx="108.02000000000001" cy="966.61" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="125.03" cy="990.91" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="148.52" cy="974.71" r="5.67" fill="#4f7999" stroke="#4f7999" stroke-width="1.5" />
+<circle cx="181.73000000000002" cy="944.74" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="213.32000000000002" cy="961.75" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="180.92000000000002" cy="991.72" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<circle cx="217.37" cy="1003.87" r="5.67" fill="#bd7480" stroke="#bd7480" stroke-width="1.5" />
+<path d="M98 907 L122 907 L122 1027 L98 1027 Z" fill="none" stroke="#976729" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M122 907 L251 907 L251 1027 L122 1027 Z" fill="none" stroke="#976729" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="350" y="925" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#293743" text-anchor="start">Shifted border</text>
+<text x="350" y="974" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Signals can be</text>
+<text x="350" y="1016" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">assigned wrongly.</text>
+<rect x="24" y="1115" width="712" height="144" rx="18" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="1167" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Validate before naming cells</text>
+<text x="48" y="1226" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">Channels + annotations; no new marker.</text>
+<text x="38" y="1303" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#293743" text-anchor="start">An overlay does not prove identity or function.</text>
+</svg>

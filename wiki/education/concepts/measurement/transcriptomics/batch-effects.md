@@ -73,6 +73,13 @@ A pathway score or subtype comparison needs preparation and reference context. M
 
 ## Try it
 
+<div class="cartoon-frame">
+<img src="./images/group-laboratory-missing-contrasts-v2-light.svg" width="760" height="1320" alt="Two group-by-laboratory matrices show six baseline samples only in lab A and six follow-up only in lab B, compared with three samples in every crossed group-laboratory cell; hatched cells explicitly mark unobserved contrasts." data-theme-pair>
+<p class="cartoon-caption">Each allocation has six baseline and six follow-up specimens. In the first, group and laboratory overlap completely; the two hatched cells were not observed. In the second, three specimens occupy every group–lab cell. Crossing supplies information for a stated comparison model, while other biases and assumptions still need checks. An algorithm cannot manufacture the missing allocation.</p>
+</div>
+
+The allocation issue is a design question: see the [official RNAseq123 guide, section 7.4, on model rank and nested effects](https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/designmatrices.html). The matrices here are fictional.
+
 All fictional baseline tumors were sequenced in laboratory A; all follow-up tumors were sequenced in laboratory B. A stress-program score rises. Has a batch-corrected plot shown a treatment effect?
 
 **Answer:** No. Laboratory and time point overlap completely. The plot does not identify their separate contributions. A design with groups represented across methods or appropriate bridge samples could add the missing information.

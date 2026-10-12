@@ -1,0 +1,10 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Original task identity: page-visual-review.json#/117
+Frozen learner task: Compare branching ancestry with changing absolute cell counts and relative fractions.
+
+Keep the original fictional culture exactly: start A900/B100, total1000; later A90/B90, total180. Draw an explicitly assumed branching ancestor with A and B descendants, not an inferred ancestry from the counts or a ladder of improved cells. Use one absolute cell-count scale for both snapshots and separately normalized 100% bars for each total. Compute B100/1000=10% and B90/180=50%. No VAF/CCF reinterpretation, absolute expansion, resistance or causal selection claim.
+
+Matched warm light/dark palettes must preserve every object, label, geometry, count and unit. Native 780-unit canvases use essential labels of at least 32 units, with separate native links for details.
+
+The construction script, read receipts/source bodies and QA renders are private aids, not delivered public files. The public pair is editable SVG; no executable regeneration package is included. No image model, reference-image generation or clinical inference was run.

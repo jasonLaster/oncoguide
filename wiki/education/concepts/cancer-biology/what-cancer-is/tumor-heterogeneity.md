@@ -39,6 +39,12 @@ Genetic differences are only one kind of heterogeneity. Cells with similar DNA c
 
 Differences can occur across one tumor, between lesions or over time. [Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) can change a branch's representation. A resistant population detected after therapy may have existed below detection, acquired new changes or changed state. Two snapshots do not always distinguish these explanations.
 
+<img src="./images/heterogeneity-sampled-layers-v1-light.svg" alt="A fictional tissue field separates two sampled DNA patterns, independent RNA-state symbols, differing surface-target abundance and an unsampled unknown site beside a candidate ancestry tree." width="780" height="1360" data-theme-pair>
+
+*Outline, inner symbol and surface marks depict different biological layers. Shared DNA evidence can support a sampled ancestry hypothesis while cells differ in state and surface target. The third site remains unresolved; icons are illustrative, not cell fractions or a response estimate.*
+
+[Open the light diagram](./images/heterogeneity-sampled-layers-v1-light.svg) · [Open the dark diagram](./images/heterogeneity-sampled-layers-v1-dark.svg)
+
 ## Why it matters in cancer
 
 A treatment aimed at one feature may leave cells that lack it. A biopsy can miss a relevant branch, and culture can favor populations that grow well in the model. Profiling still provides evidence: state its sampled scope and uncertainty. Even inferred trunk membership does not guarantee that an RNA, surface protein or presented peptide exists in every cell, or establish therapeutic coverage.

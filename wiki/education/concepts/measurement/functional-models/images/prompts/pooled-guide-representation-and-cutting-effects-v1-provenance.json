@@ -1,0 +1,42 @@
+{
+  "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+  "construction": "code-generated native SVG",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "modelReporting": "no image model used",
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "pooled-guide-representation-and-cutting-effects-v1-light.svg",
+      "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+      "bytes": 13405,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    },
+    {
+      "theme": "dark",
+      "file": "pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+      "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+      "bytes": 13405,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    }
+  ],
+  "originalBriefs": [
+    {
+      "file": "pooled-guide-representation-and-cutting-effects-v1.txt",
+      "sha256": "bb2cc6316ea39d0fbb3fd5eaf1e971192aed7d5d8530f93f327e5574aac57097",
+      "bytes": 859
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/24336571/",
+    "https://pubmed.ncbi.nlm.nih.gov/24336569/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/"
+  ],
+  "scope": "Teaching illustration. Invented symbols/values and model-specific limits are explained in the owner; no clinical-response or whole-patient validation."
+}

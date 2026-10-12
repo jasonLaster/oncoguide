@@ -1,0 +1,43 @@
+{
+  "owner": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+  "construction": "code-generated native SVG",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "modelReporting": "no image model used",
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "chip-inlet-interface-and-local-exposure-v1-light.svg",
+      "sha256": "ed530c1be144aabcfd7caf85573e5039e5de1f5d36b30ee1170c5c68ba080841",
+      "bytes": 8812,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    },
+    {
+      "theme": "dark",
+      "file": "chip-inlet-interface-and-local-exposure-v1-dark.svg",
+      "sha256": "a4fe1944b002b879fa0a94557d1914bb1d64d4cf671f97a64438cad5f98d0af1",
+      "bytes": 8812,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    }
+  ],
+  "originalBriefs": [
+    {
+      "file": "chip-inlet-interface-and-local-exposure-v1.txt",
+      "sha256": "3891e3477a92fb898682e02071eb497f4d6ec6fa8952fcfe935e9d30b19b1415",
+      "bytes": 832
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/20576885/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/8335790/",
+    "https://pubmed.ncbi.nlm.nih.gov/29020635/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/5809290/"
+  ],
+  "scope": "Teaching illustration. Invented symbols/values and model-specific limits are explained in the owner; no clinical-response or whole-patient validation."
+}

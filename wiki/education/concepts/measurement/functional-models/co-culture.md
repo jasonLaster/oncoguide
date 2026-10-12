@@ -46,6 +46,12 @@ Dijkstra and colleagues combined tumor [organoids](./organoid) with autologous b
 
 Other approaches retain neighbors from the source tissue. Neal's air–liquid-interface organoids retained tumor-associated immune populations in the studied preparations; Jenkins's organotypic spheroids included tumor, immune and stromal components. Retention must be measured for the particular preparation and time window. These examples show why no single format has exclusive ownership of immune experiments. [Neal](https://pmc.ncbi.nlm.nih.gov/articles/PMC6656687/), [Jenkins](https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/).
 
+<img src="./images/three-culture-arrangements-and-attributed-response-v1-light.svg" alt="Three culture arrangements show direct tumor-immune contact, exchange across a chosen cell-excluding barrier and transfer of collected cell-free conditioned medium; the lower readout separates live tumor and immune counts" data-theme-pair width="600" height="1100">
+
+Rose cells represent tumor cells; blue cells represent immune cells. Follow how the two populations can interact in each arrangement. Direct contact permits contact and exchanged molecules. A selected barrier can permit molecular exchange while keeping cells apart, but pore size and cell passage need validation. Conditioned medium is collected earlier and transferred without producer cells; the producer well shows where it came from, not ongoing interaction with the recipient. [Corning pore-selection guidance](https://www.corning.com/worldwide/en/products/life-sciences/products/permeable-supports/transwell-guidelines.html), [ATCC conditioned-medium example](https://www.atcc.org/resources/culture-guides/organoid-culture-guide).
+
+The lower panel restates the fictional exercise below. Check the identified populations before calling a lower mixed signal tumor killing. The cell symbols and exchanged-molecule dots are illustrative, not measured counts.
+
 ## Why it matters in cancer
 
 Neighbors can change tumor growth, exposure or immune-mediated killing. An interaction model can investigate these processes while controlling selected ingredients. It still omits parts of the person's circulation, immunity and tissue environment.

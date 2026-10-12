@@ -29,6 +29,13 @@ Imagine receiving a letter with torn pages. You might still identify the author 
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/rna-trace-score-and-length-fraction-v2-light.svg" width="760" height="1320" alt="A schematic RNA electropherogram highlights early RNA and ribosomal features for a method-defined integrity score, beside a separate equal-width length distribution with 60 percent of selected signal area above 200 nucleotides and a fragmented transcript illustration." data-theme-pair>
+<p class="cartoon-caption">The first trace is schematic and does not compute a RIN. A RIN summarizes several features on a method-defined 1–10 scale, rather than percent intact RNA. The second illustration partitions selected size-associated signal area into 40% at or below 200 nt and 60% above; it explains a DV200-style length fraction without certifying any individual transcript or assay. Region/marker handling belongs to the actual measurement method.</p>
+</div>
+
+For the measurement procedure, [Illumina’s RNA-quality technical note, pages 1–2 and Figure 5](https://support.illumina.com/content/dam/illumina-marketing/documents/products/technotes/evaluating-rna-quality-from-ffpe-samples-technical-note-470-2014-001.pdf) defines DV200 and shows method-specific smear regions. The figure above imports no kit acceptance cutoff.
+
 RNA extraction releases molecules from their tissue context. Handling, preservation, enzymes that degrade RNA, and chemical processing can change the recovered material. **Integrity** concerns molecular condition; **yield** concerns how much was recovered. Plenty of RNA is not necessarily suitable RNA.
 
 An **electropherogram**, a trace separating molecules by size, helps characterize the fragment distribution. The **RNA integrity number (RIN)** summarizes multiple features of such a trace on a scale from 1, most degraded, to 10, most intact. It is not a percentage of intact messenger RNA, viable cells or tumor cells. The [original RIN study](https://pmc.ncbi.nlm.nih.gov/articles/PMC1413964/) developed the score from electrophoretic patterns rather than testing every transcript individually.

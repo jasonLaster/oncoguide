@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+  "taskId": "page-visual-review.json#/297",
+  "construction": "original code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "model": null,
+  "sourceObservedCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+  "baselinePageSHA256": "4526a3bf242434f4d52be73d637878d415331f7df1eadc1b8b8f800b6ec64729",
+  "originalFrozenTask": {
+    "learnerTask": "Separate capture geometry, molecule coordinates, cell assignment and imputation",
+    "gap": "Existing strategy flow does not show the physical unit or boundary uncertainty",
+    "accuracyGuardrails": "Label the actual platform unit: capture spot/bin, molecule coordinate or assigned cell. Resolution, segmentation and inferred/imputed values are separate; do not claim universal single-cell truth or RNA\u2013protein/function equivalence."
+  },
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/27365449/",
+    "https://pubmed.ncbi.nlm.nih.gov/25858977/",
+    "https://pubmed.ncbi.nlm.nih.gov/34650268/",
+    "https://pubmed.ncbi.nlm.nih.gov/34711971/",
+    "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation"
+  ],
+  "sourceDepth": "Actual selected source/official passages and complete abstracts are recorded in private source-lookup receipts; no whole-paper/clinical or current-platform validation implied.",
+  "sourceCustody": "Source bodies, read receipts, construction code, execution and renders are private, not publicly delivered.",
+  "generator": "private/correct-boundaries.py",
+  "generatorSHA256": "b3c1af8c643281d169bf2e69d1ec8a06fb74dfb593889ea68c5ed5d2d3852c91",
+  "generatorCustody": "Private original-byte color correction generator; original construction code and original sealed package retained separately. No executable generator is publicly delivered.",
+  "briefSHA256": "9d898d2bee26e1122cafda3c32991dbfca415fe47f9000da6c934586d3f269aa",
+  "outputs": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+      "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac",
+      "bytes": 9483,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+      "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161",
+      "bytes": 9483,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "themeMethod": "Exact shared geometry/labels/quantities; palette substitution only",
+  "fictionalGeometryAndQuantities": true,
+  "sourceFiguresCopied": false,
+  "minimumNativeFontPx": 32,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "credit": 0,
+  "originalConstructionGenerator": {
+    "path": "private/construct-v2.py",
+    "sha256": "2c6a9013315ea9139cc1844c513b8c4232e082ee45da2eccc0052f34595e8c0b",
+    "custody": "Privately retained in the original sealed readouts author package, also copied as private/original-construct-v2.py in this successor."
+  },
+  "successorCorrection": {
+    "findingId": "readouts-dark-boundary-contrast",
+    "scope": "Only nine dark-theme mask-boundary stroke colors across two SVGs. All geometry, signals, solid/dashed distinctions and wording retained.",
+    "originalDarkSVG_SHA256": "dd07293c44210233af2d462316a0370b8edc1f7bef0de1de88934279cc5eed8c",
+    "imageModelCalls": 0
+  }
+}

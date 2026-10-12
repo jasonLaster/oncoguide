@@ -1,0 +1,41 @@
+{
+  "owner": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+  "construction": "code-generated native SVG",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "modelReporting": "no image model used",
+  "nativePair": [
+    {
+      "theme": "light",
+      "file": "metabolic-signal-and-live-tumor-count-v1-light.svg",
+      "sha256": "5dca89d21e26bf34b91bf8c8261c008471806f2664fe9abddba2b38a1570215b",
+      "bytes": 10080,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    },
+    {
+      "theme": "dark",
+      "file": "metabolic-signal-and-live-tumor-count-v1-dark.svg",
+      "sha256": "3c72d3a705eaf3f38d837cdd919bf13bcedf2c1ed48835ea86551694987f05d2",
+      "bytes": 10080,
+      "nativeDimensions": [
+        600,
+        1100
+      ]
+    }
+  ],
+  "originalBriefs": [
+    {
+      "file": "metabolic-signal-and-live-tumor-count-v1.txt",
+      "sha256": "063d9015d139820958eea4760a3ea9994d1c81f3ed19682690c32c42239b355a",
+      "bytes": 762
+    }
+  ],
+  "sourceURLs": [
+    "https://www.ncbi.nlm.nih.gov/sites/books/NBK144065/?report=classic",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/"
+  ],
+  "scope": "Teaching illustration. Invented symbols/values and model-specific limits are explained in the owner; no clinical-response or whole-patient validation."
+}

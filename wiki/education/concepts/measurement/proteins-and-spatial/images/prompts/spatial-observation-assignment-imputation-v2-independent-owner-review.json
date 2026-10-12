@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-078",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+  "currentOwnerSha256": "a78141bd2606a6a23548226ec634eb85a6913731022d39efe3c85fa879bf59f2",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Original educational writing, source qualification, SVG generation and narrow boundary-color successor",
+    "rootOriginalGenerationOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "Independent original complete-task reviewer and focused successor correction reviewer",
+  "reviewedAtUTC": "2026-10-12T21:45:26Z",
+  "passedAtUTC": "2026-10-12T21:45:26Z",
+  "boundAtUTC": "2026-10-12T21:45:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "reviewScope": "Original complete-owner task/science/source/native review carried forward under exact unchanged bytes; nine-stroke correction rechecked only for next-gap-078/079. This is the first prospective task-fit receipt for this owner.",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/297",
+    "originalTaskRowSHA256": "b753228d39c7f8f9641fcb860d8da08fca02d800e6fabea5e3ebc75bf2d62be8"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+    "baselinePageSHA256": "4526a3bf242434f4d52be73d637878d415331f7df1eadc1b8b8f800b6ec64729",
+    "learnerTask": "Separate capture geometry, molecule coordinates, cell assignment and imputation",
+    "gap": "Existing strategy flow does not show the physical unit or boundary uncertainty",
+    "accuracyGuardrails": "Label the actual platform unit: capture spot/bin, molecule coordinate or assigned cell. Resolution, segmentation and inferred/imputed values are separate; do not claim universal single-cell truth or RNA–protein/function equivalence.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The four layers distinguish a positional capture spot that can span cells, six observed G/H molecule coordinates, estimated assignment and an inferred R value absent from the measured panel. The fixed RNA coordinates and alternate solid/dashed boundaries are now inspectable in dark mobile inline/default-preview and desktop context, while light bytes remain exact. The imputed-R exercise still rejects a direct-measurement or protein/function claim. This addresses the entire frozen physical-unit/boundary/inference gap while retaining schematic platform-size limits, segmentation uncertainty and the original bounded primary/official source findings.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+      "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+      "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+        "sha256": "a78141bd2606a6a23548226ec634eb85a6913731022d39efe3c85fa879bf59f2",
+        "bytes": 9562
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+        "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac",
+        "bytes": 9483
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+        "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161",
+        "bytes": 9483
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2.txt",
+        "sha256": "9d898d2bee26e1122cafda3c32991dbfca415fe47f9000da6c934586d3f269aa",
+        "bytes": 1255
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-provenance.json",
+        "sha256": "0b67de9e1191f006b954efe133255dea321644a311d5e3c533869a146e208446",
+        "bytes": 3702
+      }
+    ],
+    "originalArtwork": "Exact complete owner, unchanged original TXT, native light/dark pair and actual ordinary provenance. Original construction authorship is separate from root canonical integration. Construction/correction code, source bodies, execution and captures remain private and are not admitted by these hashes."
+  },
+  "originalPackageReview": {
+    "sha256": "64bfcbddbbc9dfab88221345df0afb75b49d0c4f5f799cd7f52a44340a81bbb1",
+    "manifestSHA256": "76097a18b102093b11874550f793945e3a0c097b01a1ae6f5d7e4a130089de37",
+    "checksumSHA256": "3069e21da064635bd3e723e4fa54fd4775a204c02aa0fb90dca3f94555aa0649",
+    "originalVerdict": "REVISE",
+    "originalReviewedAtUTC": "2026-10-12T21:31:48Z",
+    "historicalVerdictRemainsUnchanged": true,
+    "inheritedScopes": "Original actual complete-owner task/science/source/arithmetic/native review scopes are retained. Only readouts-dark-boundary-contrast is resolved by this successor check. No source/science or broad native grade rerun."
+  },
+  "focusedCorrectionReview": {
+    "sha256": "c7f5bcf72bb42bd48841c92ddb1722db540cd128fc233e9994865794b087e837",
+    "passedAtUTC": "2026-10-12T21:44:58Z",
+    "findingResolved": "readouts-dark-boundary-contrast",
+    "scopeForThisOwner": "Nine-stroke correction and surrounding context rechecked"
+  },
+  "sourceReadScope": {
+    "inheritedFromActualReviewAtUTC": "2026-10-12T21:31:48Z",
+    "primaryRecords": [
+      {
+        "name": "Stahl",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27365449+AND+SRC%3AMED&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "Chen",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25858977+AND+SRC%3AMED&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "Petukhov",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34650268+AND+SRC%3AMED&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "Tangram",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34711971+AND+SRC%3AMED&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      }
+    ],
+    "officialOrSelectedPassages": [
+      {
+        "url": "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation",
+        "depth": "Selected current v4.1 goal, segmentation-mask/polygon and transcript-assignment passages (lines 63, 82–108); not current-platform performance validation."
+      }
+    ],
+    "originalAuthorAccessFailures": [
+      {
+        "file": "Chen.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4662681/fullTextXML",
+        "retrievalStartedAtUTC": "2026-10-12T20:46:46.593452+00:00",
+        "failedAtUTC": "2026-10-12T20:47:04.467707+00:00",
+        "error": "HTTP Error 500: ",
+        "reading": "failed; no content read"
+      },
+      {
+        "file": "Tangram.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8566243/fullTextXML",
+        "retrievalStartedAtUTC": "2026-10-12T20:46:46.599945+00:00",
+        "failedAtUTC": "2026-10-12T20:46:47.453567+00:00",
+        "error": "HTTP Error 500: ",
+        "reading": "failed; no content read"
+      },
+      {
+        "url": "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation",
+        "retrievalStartedAtUTC": "2026-10-12T20:48:31.299421+00:00",
+        "failedAtUTC": "2026-10-12T20:48:31.402738+00:00",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "independentAccessFailures": [],
+    "limits": [
+      "No complete-paper review claim, source-figure copying, imported source dataset or patient-specific interpretation.",
+      "Sources do not validate the author-created fictional counts, coordinates, masks or histogram; those are explicitly stipulated and separately checked.",
+      "Existing historical source_checked metadata and pending human review status retained; no source-review promotion or self-approval.",
+      "Zero image-model calls; original SVG construction and revisions retained privately."
+    ],
+    "noWholePaperOrCurrentPlatformValidationClaim": true,
+    "noNewSourceLookupOrSourceDepthGrade": true,
+    "sourceBodiesPrivatelyRetainedNotPubliclyDelivered": true
+  },
+  "checks": {
+    "originalCompleteOwnerReadAndTaskJudgmentInherited": true,
+    "originalTeachingExercisesSourcesNavigationRetained": true,
+    "exactSuccessorFiveFileHashesVerified": true,
+    "fullFrozenTaskStringsAndTypesPreserved": true,
+    "geometryLabelsSignalsCountsAndSolidDashedPatternsUnchanged": true,
+    "focusedColorContextPASS": true,
+    "originalMaintainedContentCheckerPASSInherited": true,
+    "maintainedReaderOrLiveProductionAcceptance": false
+  },
+  "publicationPath": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-independent-owner-review.json",
+  "pending": {
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "newScientificSourceApproval": false,
+  "newSourceDepthGrade": false,
+  "newBroadNativeApproval": false,
+  "productionVerified": false,
+  "releaseAccepted": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-082",
+  "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+  "author": "root",
+  "authorRole": "canonical integration only; identity literal preserved from accepted private task map",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T21:32:10.906Z",
+  "reviewedAtLocal": "2026-10-12T14:32:10.906-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+      "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+      "bytes": 13405
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+      "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+      "bytes": 13405
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "277316f98ef285980c477cfd40700f9ed7c7651b1e463ab87f98e5173e8453be",
+    "learnerTask": "Interpret changed guide representation under pooled screening and separate cutting damage from gene dependence.",
+    "gap": "Existing evidence map begins after guide depletion and omits the population measurement.",
+    "accuracyGuardrails": "Use guide representation as the observed pooled-screen readout and show relevant controls/copy effects. Guide depletion or a fitness score is not a direct death count, universal gene dependence or clinical response.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Pooled representation is explicit share per 10,000 sequenced reads on one zero-based scale: A 100→20, B 100→95, control 100→100; three selected guides and omitted library stated. Barcode/cell symbols are not counted cells. Copy/cutting inset and independent checks retain multiple-cut confounding rather than universal gene essentiality, death count, drug response or gene-expression inference. Both variants remain readable in fresh 393 × 700 inline/default-preview isolated pinned-style captures."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/252",
+    "originalTaskRowSHA256": "34b430f51b6a5e0888544debd005185ccbc0e1a7720ec5d2e2a02f7876329863"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+        "sha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+        "bytes": 9404
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+        "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+        "bytes": 13405
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+        "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+        "bytes": 13405
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1.txt",
+        "sha256": "bb2cc6316ea39d0fbb3fd5eaf1e971192aed7d5d8530f93f327e5574aac57097",
+        "bytes": 859
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1-provenance.json",
+        "sha256": "c1ae0ca1cb42480cd4e3b241c7d6d9ad3d690f9d3522050699a7754298885975",
+        "bytes": 1381
+      }
+    ],
+    "originalTXTBriefsPreserved": true,
+    "generationModel": "not applicable; authored SVG"
+  },
+  "sourceReview": [
+    {
+      "id": "Shalem",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24336571%20AND%20SRC:MED&format=json&resultType=core",
+      "readDepth": "complete primary abstract only",
+      "sections": "PubMed24336571 abstract via EuropePMC core JSON",
+      "scope": "Early GeCKO human-cell screens",
+      "limits": "No full paper, source figure pixels or quantitative reuse; chart values invented."
+    },
+    {
+      "id": "Wang",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24336569%20AND%20SRC:MED&format=json&resultType=core",
+      "readDepth": "complete primary abstract only",
+      "sections": "PubMed24336569 abstract via EuropePMC core JSON",
+      "scope": "Early human-cell pooled loss-of-function screens",
+      "limits": "No full paper or figure pixels; fictional guide-read chart."
+    },
+    {
+      "id": "Meyers",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5709193/fullTextXML",
+      "readDepth": "selected primary full-text passages",
+      "sections": "Abstract; first3 unsectioned body paragraphs; Online Methods: CRISPR-Cas9 essentiality screening assay and Preprocessing and quality control full sections; Model fitting first3 paragraphs",
+      "scope": "Cancer-cell-line CRISPR essentiality screens and CERES correction",
+      "limits": "Not entire paper, figure pixels or supplements; no full algorithm validation; illustrative values not reported CERES scores."
+    }
+  ],
+  "retainedExercises": {
+    "inverseRestoresOriginalBytes": true,
+    "metadataAndExistingBodyPreserved": true
+  },
+  "displayReview": {
+    "viewport": {
+      "width": 393,
+      "height": 700,
+      "deviceScaleFactor": 1
+    },
+    "states": [
+      "light inline",
+      "dark inline",
+      "light default preview",
+      "dark default preview"
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "scope": "Fresh isolated CSS/DOM sizing carrier with declared 24px margin and Arial; author fixture not relied upon. Default preview does not enlarge these tall figures. Full live-reader/React/keyboard/app layout not reviewed."
+  },
+  "reviewScope": "New image, insertion, source/task fit, preserved exercises, original custody and compact readability only; unchanged science not re-approved. Lead reviewed complete public owners and reconciled three bounded reviewers. Source-specific read depths are those of the named bounded science reviewers.",
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "productionReview": "pending",
+  "deliveryReview": "pending",
+  "canonicalTaskAdoption": "pending",
+  "coverageCreditGrantedNow": 0,
+  "newPublicVisualAcceptance": "prospective independent task fit only; actual release derivation pending"
+}

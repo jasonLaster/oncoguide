@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1100" viewBox="0 0 600 1100" role="img" aria-labelledby="title desc"><title id="title">pooled-guide-representation-and-cutting-effects-v1</title><desc id="desc">Detailed code-generated teaching schematic with explicitly fictional examples and separate measurements; not a patient result.</desc><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#f5efdd"/></marker><marker id="arrow-pale" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#18333e"/></marker><radialGradient id="cell-rose"><stop offset="0" stop-color="#f6c4ca"/><stop offset="1" stop-color="#dc8795"/></radialGradient><radialGradient id="cell-blue"><stop offset="0" stop-color="#d4ebf6"/><stop offset="1" stop-color="#7fb0cd"/></radialGradient></defs><rect width="600" height="1100" fill="#112432"/>
+<text x="28" y="44" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f5efdd">Follow guide representation</text>
+<text x="28" y="83" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Fictional example · not a cell count</text>
+<rect x="40" y="115" width="205" height="130" rx="22" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M49 133 L236 133" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M52 230 L233 230" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<rect x="355" y="115" width="205" height="130" rx="22" fill="#d5e6ed" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M364 133 L551 133" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M367 230 L548 230" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<circle cx="88" cy="167" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="88" cy="167" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="85" cy="169" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="97" cy="161" r="2" fill="#b6a8ca"/>
+<circle cx="76" cy="159" r="2" fill="#b6a8ca"/>
+<circle cx="94" cy="178" r="2" fill="#b6a8ca"/>
+<rect x="73" y="192" width="30" height="10" rx="3" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<circle cx="160" cy="197" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="160" cy="197" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="157" cy="199" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="169" cy="191" r="2" fill="#b6a8ca"/>
+<circle cx="148" cy="189" r="2" fill="#b6a8ca"/>
+<circle cx="166" cy="208" r="2" fill="#b6a8ca"/>
+<rect x="145" y="222" width="30" height="10" rx="3" fill="#8dbedb" stroke="#8ca8b2" stroke-width="2"/>
+<circle cx="213" cy="164" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="213" cy="164" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="210" cy="166" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="222" cy="158" r="2" fill="#b6a8ca"/>
+<circle cx="201" cy="156" r="2" fill="#b6a8ca"/>
+<circle cx="219" cy="175" r="2" fill="#b6a8ca"/>
+<rect x="198" y="189" width="30" height="10" rx="3" fill="#b6a8ca" stroke="#8ca8b2" stroke-width="2"/>
+<circle cx="399" cy="170" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="399" cy="170" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="396" cy="172" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="408" cy="164" r="2" fill="#b6a8ca"/>
+<circle cx="387" cy="162" r="2" fill="#b6a8ca"/>
+<circle cx="405" cy="181" r="2" fill="#b6a8ca"/>
+<rect x="384" y="195" width="30" height="10" rx="3" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<circle cx="466" cy="199" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="466" cy="199" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="463" cy="201" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="475" cy="193" r="2" fill="#b6a8ca"/>
+<circle cx="454" cy="191" r="2" fill="#b6a8ca"/>
+<circle cx="472" cy="210" r="2" fill="#b6a8ca"/>
+<rect x="451" y="224" width="30" height="10" rx="3" fill="#b6a8ca" stroke="#8ca8b2" stroke-width="2"/>
+<circle cx="529" cy="167" r="22" fill="url(#cell-rose)" stroke="#4f626d" stroke-width="2"/><circle cx="529" cy="167" r="18" fill="none" stroke="#ffffff" stroke-opacity=".55"/><ellipse cx="526" cy="169" rx="8.58" ry="7.04" fill="#566d8a" opacity=".65"/>
+<circle cx="538" cy="161" r="2" fill="#b6a8ca"/>
+<circle cx="517" cy="159" r="2" fill="#b6a8ca"/>
+<circle cx="535" cy="178" r="2" fill="#b6a8ca"/>
+<rect x="514" y="192" width="30" height="10" rx="3" fill="#b6a8ca" stroke="#8ca8b2" stroke-width="2"/>
+<path d="M263 182 L335 182" fill="none" stroke="#f5efdd" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="58" y="280" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Before</text>
+<text x="377" y="280" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Later</text>
+<rect x="40" y="307" width="65" height="13" rx="2" fill="#8dbedb" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="130" y="307" width="65" height="13" rx="2" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="220" y="307" width="65" height="13" rx="2" fill="#b6a8ca" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="310" y="307" width="65" height="13" rx="2" fill="#8dbedb" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="400" y="307" width="65" height="13" rx="2" fill="#b6a8ca" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="490" y="307" width="65" height="13" rx="2" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<text x="28" y="366" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#f5efdd">Sequence guide barcodes</text>
+<text x="28" y="409" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#f5efdd">Share per 10,000 reads</text>
+<text x="28" y="448" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Three selected guides; others omitted</text>
+<path d="M165.0 480 L165.0 755" fill="none" stroke="#8ca8b2" stroke-width="1" stroke-linecap="round"/>
+<text x="165.0" y="789" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">0</text>
+<path d="M320.0 480 L320.0 755" fill="none" stroke="#8ca8b2" stroke-width="1" stroke-linecap="round"/>
+<text x="320.0" y="789" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">50</text>
+<path d="M475.0 480 L475.0 755" fill="none" stroke="#8ca8b2" stroke-width="1" stroke-linecap="round"/>
+<text x="475.0" y="789" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">100</text>
+<text x="28" y="519" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Guide A</text>
+<rect x="165" y="488" width="310" height="25" rx="2" fill="#8dbedb" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="165" y="520" width="62.0" height="25" rx="2" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<text x="489" y="511" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">100</text>
+<text x="235.0" y="543" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">20</text>
+<text x="28" y="607" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Guide B</text>
+<rect x="165" y="576" width="310" height="25" rx="2" fill="#8dbedb" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="165" y="608" width="294.5" height="25" rx="2" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<text x="489" y="599" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">100</text>
+<text x="467.5" y="631" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">95</text>
+<text x="28" y="695" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f5efdd">Control</text>
+<rect x="165" y="664" width="310" height="25" rx="2" fill="#8dbedb" stroke="#8ca8b2" stroke-width="2"/>
+<rect x="165" y="696" width="310.0" height="25" rx="2" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<text x="489" y="687" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">100</text>
+<text x="483.0" y="719" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">100</text>
+<rect x="44" y="817" width="22" height="18" rx="3" fill="#8dbedb" stroke="#8ca8b2" stroke-width="2"/>
+<text x="77" y="835" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Before</text>
+<rect x="270" y="817" width="22" height="18" rx="3" fill="#e5bd74" stroke="#8ca8b2" stroke-width="2"/>
+<text x="303" y="835" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Later</text>
+<rect x="22" y="865" width="556" height="208" rx="15" fill="#1d3643" stroke="#8ca8b2" stroke-width="2"/>
+<text x="42" y="906" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd">Gene loss or multiple-cut damage?</text>
+<path d="M53 935 L129 935 M53 957 L129 957" fill="none" stroke="#8ca8b2" stroke-width="3" stroke-linecap="round"/>
+<path d="M65 935 L65 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M83 935 L83 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M101 935 L101 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M119 935 L119 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M85 924 L97 968 M97 924 L85 968" fill="none" stroke="coral" stroke-width="3" stroke-linecap="round"/>
+<path d="M157 935 L233 935 M157 957 L233 957" fill="none" stroke="#8ca8b2" stroke-width="3" stroke-linecap="round"/>
+<path d="M169 935 L169 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M187 935 L187 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M205 935 L205 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M223 935 L223 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M189 924 L201 968 M201 924 L189 968" fill="none" stroke="coral" stroke-width="3" stroke-linecap="round"/>
+<path d="M261 935 L337 935 M261 957 L337 957" fill="none" stroke="#8ca8b2" stroke-width="3" stroke-linecap="round"/>
+<path d="M273 935 L273 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M291 935 L291 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M309 935 L309 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M327 935 L327 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M293 924 L305 968 M305 924 L293 968" fill="none" stroke="coral" stroke-width="3" stroke-linecap="round"/>
+<path d="M365 935 L441 935 M365 957 L441 957" fill="none" stroke="#8ca8b2" stroke-width="3" stroke-linecap="round"/>
+<path d="M377 935 L377 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M395 935 L395 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M413 935 L413 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M431 935 L431 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M397 924 L409 968 M409 924 L397 968" fill="none" stroke="coral" stroke-width="3" stroke-linecap="round"/>
+<path d="M469 935 L545 935 M469 957 L545 957" fill="none" stroke="#8ca8b2" stroke-width="3" stroke-linecap="round"/>
+<path d="M481 935 L481 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M499 935 L499 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M517 935 L517 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M535 935 L535 957" fill="none" stroke="#8ca8b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M501 924 L513 968 M513 924 L501 968" fill="none" stroke="coral" stroke-width="3" stroke-linecap="round"/>
+<text x="42" y="1011" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Illustrative copies · check copy effects</text>
+<text x="42" y="1052" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f5efdd">Use controls and independent follow-up.</text>
+</svg>

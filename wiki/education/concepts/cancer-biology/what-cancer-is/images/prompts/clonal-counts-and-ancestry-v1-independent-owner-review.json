@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-072",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+  "currentOwnerSha256": "3651da70fcca606d8bba0143b5fb306faaf7e34361f6e290ef5fd1dc9a15327c",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative content, source qualification and SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent agent content and artwork reviewer",
+  "reviewedAtUTC": "2026-10-12T21:23:04.804Z",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "c78b26a3689a519055bda36e632f5b5f3cea6c6e48b2693c0f16bc0be9e1f9e9",
+    "learnerTask": "Compare branching ancestry with changing absolute cell counts and relative fractions.",
+    "gap": "Neither an ancestry tree nor a population-size visual is present. The 900A/100B to 90A/90B exercise is an unusually strong reproducible chart opportunity: absolute counts and proportional shares can be shown together so relative enrichment is not drawn as expansion.",
+    "accuracyGuardrails": [
+      "Direct fictional counts, not VAF or CCF.",
+      "No inference of selection versus drift/sampling from snapshots alone.",
+      "Do not draw evolution as a ladder of improving cells."
+    ],
+    "reasoning": "The supplied ancestry is explicitly a toy premise. A900/B100 toA90/B90 uses one absolute0-1000 scale; separately normalized bars yield B10% then50% while its count falls100to90. The original answered problem and selection/drift/sampling caveats remain intact; neither causal selection nor resistance is inferred."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/117",
+    "originalTaskRowSHA256": "3c308bc978f0b534c2d27975ee6dba5bd186beef67838f09f9947dffe0442a28"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+      "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+      "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+        "sha256": "3651da70fcca606d8bba0143b5fb306faaf7e34361f6e290ef5fd1dc9a15327c",
+        "bytes": 9067
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c",
+        "bytes": 7566
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998",
+        "bytes": 7566
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1.txt",
+        "sha256": "d0ec3f075f6b2274a694cd82d726cdef219db52268b0739e6a552c8386e469cc",
+        "bytes": 1168
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1.json",
+        "sha256": "e6552983f1052a71947b630ea043d0d3e8b0b7e607d2b651c3a782805903cca4",
+        "bytes": 3092
+      }
+    ],
+    "originalArtwork": "Original code-generated SVG;0image-model calls; native pairs differ only in palette."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/959840/",
+      "depth": "Complete primary abstract",
+      "scope": "Historical proposed variation/selection model; does not establish cause in fictional counts."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22397650/",
+      "depth": "Primary abstract and selected Methods sampling paragraph",
+      "scope": "Four renal-cancer participants; spatially shared/private observations and sampling limitations."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4934603/fullTextXML",
+      "depth": "Primary abstract and selected Model derivation paragraph",
+      "scope": "Williams2016 idealized expansion assumes no substantial subclonal selection or significant drift; model fit is not proof of universal neutrality."
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "originalOwnerRecoverableByRemovingOnlyAdditions": true,
+    "originalSourcesPracticeAndNavigationPreserved": true,
+    "finitePublicFileHashesVerified": true,
+    "nativeLightDarkGeometryLabelsCountsMatch": true,
+    "actualNativeAndCompactInlineInspected": true,
+    "defaultPreviewMobileAndDesktopInspected": true,
+    "renderStates": 8,
+    "minEssentialLabelPx": 14.153846153846153,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3",
+    "contentChecker": "PASS;independent run;no warnings",
+    "noCanonicalMutation": true
+  },
+  "publicationPath": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1-independent-owner-review.json",
+  "limits": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "releaseAccepted": false,
+    "coverageCreditAwarded": false,
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "productionVerified": false,
+    "previewScope": "Independent isolated carrier with unchanged pinned theater CSS and matching DOM;no live route or React event certification.",
+    "sourceScope": "Only stated primary passages/abstracts were read;downloads and citation presence do not imply complete-paper review."
+  }
+}

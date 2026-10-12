@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-071",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+  "currentOwnerSha256": "92cced8f09a083c2bd62f8e84c6d71339b021b4e714e234bbd9014d0e36aa3e8",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative content, source qualification and SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent agent content and artwork reviewer",
+  "reviewedAtUTC": "2026-10-12T21:23:04.804Z",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "1c1a964c00f3dc0ab1a8bef1eda9795c4c86630207712d33392509bc3be53b7f",
+    "learnerTask": "Read a distribution of mutation categories and model-estimated mixtures rather than treating a signature as one called mutation.",
+    "gap": "The called-mutations/model/hypothesis map protects the inference boundary but contains no distribution. A clearly fictional categorical bar chart with two component patterns and a mixed observed pattern would show what a signature means and why overlapping fits create uncertainty.",
+    "accuracyGuardrails": [
+      "Toy categories must not masquerade as SBS3 or a validated HRDetect output.",
+      "Do not attach a causal label to every mutation or a drug-response probability to a classifier score.",
+      "Sparse/omitted genomic features remain explicit."
+    ],
+    "reasoning": "Four fictional category charts preserve template percentage units separately from100 observed mutation counts. Zero-baseline2px/unit bars and stacked contributions reproduce35/35/20/10 with50/50;60/40 gives36/34/20/10. The added answered exercise directly tests the distribution/mixture task and rejects per-call causes or clinical response probabilities. Actual SBS3/HRDetect and sequencing-platform qualifications remain intact."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/91",
+    "originalTaskRowSHA256": "820e68715709804e2bab75b2b8f4ef1c5c5c6ce510339204882bdf00312bfdd4"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+      "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+      "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+        "sha256": "92cced8f09a083c2bd62f8e84c6d71339b021b4e714e234bbd9014d0e36aa3e8",
+        "bytes": 9453
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+        "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e",
+        "bytes": 10928
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+        "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284",
+        "bytes": 10928
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.txt",
+        "sha256": "f35f82eadea791112ea79447924f6f15093fcbd22f25c2c5b6ecdef62f611ff9",
+        "bytes": 1374
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.json",
+        "sha256": "314c4a05c9287e9475dbccd84addc9e14953c692704ed6ca2a8eca18cc4a74c9",
+        "bytes": 3366
+      }
+    ],
+    "originalArtwork": "Original code-generated SVG;0image-model calls; native pairs differ only in palette."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32025018/",
+      "depth": "Primary abstract and selected full-text mutation-category classification/NMF passage",
+      "scope": "Genome and exome signature extraction, overlapping processes and uncertain causes; displayed four-category arithmetic is invented."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23945592/",
+      "depth": "Complete primary abstract",
+      "scope": "Pan-cancer catalogue extraction; association does not identify cause of every individual mutation."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28288110/",
+      "depth": "Selected primary Figure3 caption and sequencing-platform discussion",
+      "scope": "WGS versus WES available features and retraining; classifier target is BRCA1/2 deficiency, not individual drug response."
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "originalOwnerRecoverableByRemovingOnlyAdditions": true,
+    "originalSourcesPracticeAndNavigationPreserved": true,
+    "finitePublicFileHashesVerified": true,
+    "nativeLightDarkGeometryLabelsCountsMatch": true,
+    "actualNativeAndCompactInlineInspected": true,
+    "defaultPreviewMobileAndDesktopInspected": true,
+    "renderStates": 8,
+    "minEssentialLabelPx": 14.153846153846153,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3",
+    "contentChecker": "PASS;independent run;no warnings",
+    "noCanonicalMutation": true
+  },
+  "publicationPath": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1-independent-owner-review.json",
+  "limits": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "releaseAccepted": false,
+    "coverageCreditAwarded": false,
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "productionVerified": false,
+    "previewScope": "Independent isolated carrier with unchanged pinned theater CSS and matching DOM;no live route or React event certification.",
+    "sourceScope": "Only stated primary passages/abstracts were read;downloads and citation presence do not imply complete-paper review."
+  }
+}

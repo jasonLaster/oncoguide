@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-080",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+  "currentOwnerSha256": "e9345ab8f11e7e297fcfa3ea4397e5a837556ed3bb017d9676b29432240625c9",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Original educational writing, source qualification, SVG generation and narrow boundary-color successor",
+    "rootOriginalGenerationOrMedicalWritingAttribution": false
+  },
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "reviewerRole": "Independent original complete-task reviewer and focused successor correction reviewer",
+  "reviewedAtUTC": "2026-10-12T21:45:26Z",
+  "passedAtUTC": "2026-10-12T21:45:26Z",
+  "boundAtUTC": "2026-10-12T21:45:26Z",
+  "passed": true,
+  "verdict": "PASS",
+  "reviewScope": "Original complete-owner task/science/source/native review carried forward under exact unchanged bytes; nine-stroke correction rechecked only for next-gap-078/079. This is the first prospective task-fit receipt for this owner.",
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/295",
+    "originalTaskRowSHA256": "009e26df2a20b5593e4e42e40a2b1d543cfd069ffdb00a187f0abf40bc44f2cc"
+  },
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+    "baselinePageSHA256": "877f5cf685adcf6e7ac38a1791b204d82e74a278db6ac41457e34d7a3b18c75a",
+    "learnerTask": "Distinguish parent-protein amount, phosphopeptide signal and occupancy",
+    "gap": "No matched total/protected-site amount graphic",
+    "accuracyGuardrails": "Use separate total-protein and phosphopeptide signals and state normalization/occupancy assumptions. An unchanged ratio or increased phosphosignal does not establish site occupancy, kinase causality or activation.",
+    "currentVisualFit": "adequate",
+    "reasoning": "Separate parent-protein and phosphopeptide panels name their own arbitrary-unit scales, 100→200 and 20→40. Both fold changes are two; their relative adjustment is one. The graphic explicitly denies interpreting raw 20/100 as occupancy and preserves recovery/response, localization, site function and causality boundaries. The retained doubled-activation exercise agrees. The matched signal view fills the exact frozen gap without claiming occupancy, universal activation, a causal kinase or treatment dependence.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+      "sha256": "502aaf38870f20aeda37c97b21a0bccfda8ddd13894f54ab1022bbe15fb619dc"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+      "sha256": "521738dad24ae2d4c15fdca8fc409eaad233d56db8ad4f93a4d68e0489b13504"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+        "sha256": "e9345ab8f11e7e297fcfa3ea4397e5a837556ed3bb017d9676b29432240625c9",
+        "bytes": 7709
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+        "sha256": "502aaf38870f20aeda37c97b21a0bccfda8ddd13894f54ab1022bbe15fb619dc",
+        "bytes": 8272
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+        "sha256": "521738dad24ae2d4c15fdca8fc409eaad233d56db8ad4f93a4d68e0489b13504",
+        "bytes": 8272
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2.txt",
+        "sha256": "20f6c3e0730329cf78f28cb5ecbb09f6ede29f129ece09575117ed1e9be4fd6f",
+        "bytes": 1168
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-provenance.json",
+        "sha256": "ad77e62e1480def64faafbf1fc462af7f3e9c6d7e869ad7eb874f9101a5c5a0a",
+        "bytes": 2729
+      }
+    ],
+    "originalArtwork": "Exact complete owner, unchanged original TXT, native light/dark pair and actual ordinary provenance. Original construction authorship is separate from root canonical integration. Construction/correction code, source bodies, execution and captures remain private and are not admitted by these hashes."
+  },
+  "originalPackageReview": {
+    "sha256": "64bfcbddbbc9dfab88221345df0afb75b49d0c4f5f799cd7f52a44340a81bbb1",
+    "manifestSHA256": "76097a18b102093b11874550f793945e3a0c097b01a1ae6f5d7e4a130089de37",
+    "checksumSHA256": "3069e21da064635bd3e723e4fa54fd4775a204c02aa0fb90dca3f94555aa0649",
+    "originalVerdict": "REVISE",
+    "originalReviewedAtUTC": "2026-10-12T21:31:48Z",
+    "historicalVerdictRemainsUnchanged": true,
+    "inheritedScopes": "Original actual complete-owner task/science/source/arithmetic/native review scopes are retained. Only readouts-dark-boundary-contrast is resolved by this successor check. No source/science or broad native grade rerun."
+  },
+  "focusedCorrectionReview": {
+    "sha256": "c7f5bcf72bb42bd48841c92ddb1722db540cd128fc233e9994865794b087e837",
+    "passedAtUTC": "2026-10-12T21:44:58Z",
+    "findingResolved": "readouts-dark-boundary-contrast",
+    "scopeForThisOwner": "Unchanged owner bundle inherited byte-for-byte; no new source/pixel rerun"
+  },
+  "sourceReadScope": {
+    "inheritedFromActualReviewAtUTC": "2026-10-12T21:31:48Z",
+    "primaryRecords": [
+      {
+        "name": "Wu",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC3149096&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "Beausoleil",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fnbt1240&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      },
+      {
+        "name": "Mertins",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24719451+AND+SRC%3AMED&format=json&resultType=core",
+        "depth": "Complete primary abstract only; no full article, figures or references.",
+        "status": "retrieved"
+      }
+    ],
+    "officialOrSelectedPassages": [],
+    "originalAuthorAccessFailures": [
+      {
+        "file": "Wu.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3149096/fullTextXML",
+        "retrievalStartedAtUTC": "2026-10-12T20:46:45.736280+00:00",
+        "failedAtUTC": "2026-10-12T20:46:46.599843+00:00",
+        "error": "HTTP Error 500: ",
+        "reading": "failed; no content read"
+      }
+    ],
+    "independentAccessFailures": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3149096/",
+        "result": "reCAPTCHA challenge; no paper body read",
+        "timestampScope": "Tool call occurred in this review; exact call UTC was not separately clocked."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24719451/",
+        "result": "one-line empty rendering; no abstract read there. Complete primary abstract subsequently verified via Europe PMC core record with recorded acquisition time."
+      }
+    ],
+    "limits": [
+      "No complete-paper review claim, source-figure copying, imported source dataset or patient-specific interpretation.",
+      "Sources do not validate the author-created fictional counts, coordinates, masks or histogram; those are explicitly stipulated and separately checked.",
+      "Existing historical source_checked metadata and pending human review status retained; no source-review promotion or self-approval.",
+      "Zero image-model calls; original SVG construction and revisions retained privately."
+    ],
+    "noWholePaperOrCurrentPlatformValidationClaim": true,
+    "noNewSourceLookupOrSourceDepthGrade": true,
+    "sourceBodiesPrivatelyRetainedNotPubliclyDelivered": true
+  },
+  "checks": {
+    "originalCompleteOwnerReadAndTaskJudgmentInherited": true,
+    "originalTeachingExercisesSourcesNavigationRetained": true,
+    "exactSuccessorFiveFileHashesVerified": true,
+    "fullFrozenTaskStringsAndTypesPreserved": true,
+    "geometryLabelsSignalsCountsAndSolidDashedPatternsUnchanged": true,
+    "focusedColorContextPASS": true,
+    "originalMaintainedContentCheckerPASSInherited": true,
+    "maintainedReaderOrLiveProductionAcceptance": false
+  },
+  "publicationPath": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-independent-owner-review.json",
+  "pending": {
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "deliveryReview": "pending",
+    "maintainedReaderIntegration": "pending",
+    "releaseReview": "pending"
+  },
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "deliveryReview": "pending",
+  "newScientificSourceApproval": false,
+  "newSourceDepthGrade": false,
+  "newBroadNativeApproval": false,
+  "productionVerified": false,
+  "releaseAccepted": false,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "canonicalSharedRendererGitPublishingWrites": 0,
+  "registryStatusPolicyCoverageWrites": 0,
+  "imageModelCallsThisReview": 0
+}

@@ -75,6 +75,11 @@ Bulk RNA can nominate expressed targets and summarize programs through [RNA path
 
 ## Try it
 
+<div class="cartoon-frame">
+<img src="./images/bulk-mixture-and-pooled-messages-v2-light.svg" width="760" height="1320" alt="Two 100-cell tissue pieces contain 20 versus 40 blue lymphocytes and 80 versus 60 rose cancer cells, with arrows into pooled tubes containing 20 versus 40 stipulated marker-X RNA symbols while the per-lymphocyte message stays fixed." data-theme-pair>
+<p class="cartoon-caption">Both fictional pieces contain 100 cells. Each lymphocyte is assigned one marker-X RNA, cancer cells none, with equal total RNA per cell and matched preparation. Changing 20 lymphocytes to 40 doubles the assumed pooled marker molecules without changing any cancer cell. These are stipulated molecules, not observed sequencing reads; real contributions and recovery can differ.</p>
+</div>
+
 Two fictional pieces contain 100 cells each. The first has 20 lymphocytes; the second has 40. Assume equal RNA contribution per cell, the same preparation, and an immune marker expressed identically by lymphocytes and not by cancer cells. Does a higher bulk marker signal prove cancer-cell activation?
 
 **Answer:** No. The lymphocyte share rose from 20% to 40%. Under these deliberately simple assumptions, mixture alone can raise the marker signal. Real cells need not contribute equal RNA. Cell-specific evidence would test origin.

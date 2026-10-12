@@ -1,0 +1,6 @@
+Code-generated original scientific SVG; 0 image-model calls. Draw complete100-cell grids with20/40 lymphocytes and80/60 cancer cells, then a physical pooling arrow/tube with20/40 stipulated marker-X RNAs. Hold one X RNA per lymphocyte, zero in cancer and equal total RNA/cell. These are assumed molecular numbers, not reads, cell-count inference, protein/activity or real patients. Detailed nuclear/cytoplasm glyphs and RNA strands, no universal capture efficiency.
+
+Frozen learner task: See a bulk increase caused by mixture rather than cancer-cell expression
+Frozen guardrails: Show pooled RNA from changing cell mixtures separately from per-cell expression. A bulk increase can reflect composition; it does not by itself identify malignant-cell expression, protein, function or cell counts.
+
+Warm scientific palette; identical light/dark geometry, labels, quantities and uncertainty; minimum32 native SVGpx for essential labels. Construction code, source bodies and execution/capture receipts are privately retained and not delivered in public payload. SVGs are editable, without an executable reproduction-package promise.

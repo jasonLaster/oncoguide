@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-070",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+  "currentOwnerSha256": "a6bf160ff0a8623fa3ab15ced73fad2fe141fdffa2482f2eec1f3e9ac7eb0c30",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative content, source qualification and SVG producer"
+  },
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewerRole": "independent agent content and artwork reviewer",
+  "reviewedAtUTC": "2026-10-12T21:23:04.804Z",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "1480bfa633bb46cb2283b6e4868554717781ab4f57275146921300dc330e32bc",
+    "learnerTask": "Compare parental-version loss, telomeric imbalance and adjacent segment transitions on a chromosome track.",
+    "gap": "The existing history-to-score map adequately protects past/current interpretation. It does not show LOH versus copy-neutral LOH, centromere/telomere positions or the two adjacent-segment size rule that the exercise tests. A labeled chromosome-track diagram would address the actual spatial counting task.",
+    "accuracyGuardrails": [
+      "Keep original algorithm/filter definitions and cancer/model scopes attached.",
+      "No segment rule shown as a clinical response cutoff.",
+      "Copy-neutral LOH loses parental diversity without necessarily losing total copies."
+    ],
+    "reasoning": "Separate A/B, A/absent and A/A tracks make parental diversity and total copies independently inspectable. The terminal imbalance is confined beyond the centromere to the telomere. At one16px/Mb scale,12/8 fails and12/14 satisfies both-neighbor >=10Mb rule. Existing original filters, experimental scopes and historical/current-repair distinction remain in the full owner; primary protocol passage independently checked."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/89",
+    "originalTaskRowSHA256": "e593345d934a47d7c28614594a5ac9b5074675b8cf7de09e7bb31cade54472ad"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+      "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+      "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+        "sha256": "a6bf160ff0a8623fa3ab15ced73fad2fe141fdffa2482f2eec1f3e9ac7eb0c30",
+        "bytes": 9034
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+        "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86",
+        "bytes": 9575
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+        "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9",
+        "bytes": 9575
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.txt",
+        "sha256": "73d16ee2aa4ed25a1cf4c8095e886ce9f097598c7c8002c8a491f4aa7c3b21c3",
+        "bytes": 1264
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.json",
+        "sha256": "3b53e9eb493d94651541c24045adaf167f59d5118cfb0875c88dbdc8aeb83e7e",
+        "bytes": 3880
+      }
+    ],
+    "originalArtwork": "Original code-generated SVG;0image-model calls; native pairs differ only in palette."
+  },
+  "sourceReadScope": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23047548/",
+      "depth": "Selected primary Results: LOH distribution and score definition",
+      "scope": "Original epithelial ovarian cohorts and cell lines; >15Mb and less than whole chromosome."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22576213/",
+      "depth": "Selected primary Results and Methods: terminal AI definition",
+      "scope": "Breast cell lines and defined tumor cohorts; end-reaching imbalance does not cross centromere."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22933060/",
+      "depth": "Complete primary abstract",
+      "scope": "Basal-like breast SNP-array study; adjacent regions each at least10Mb."
+    },
+    {
+      "url": "https://www.bio-protocol.org/en/bpdetail?id=814&type=0",
+      "depth": "Direct primary protocol web text: Procedure3 and platform/scope notes",
+      "scope": "Popova/Manie/Stern2013 SNP-array protocol confirms small-variation removal/smoothing, both adjacent segments meeting size rule and same-arm counting excluding centromeric breaks. Original2012 full text remains blocked; no full-paper claim."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/",
+      "depth": "Complete primary abstract",
+      "scope": "Eight selected BRCA1/2-mutant metastatic breast patients with acquired resistance; no universal restoration or response inference."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26957554/",
+      "depth": "Complete primary abstract",
+      "scope": "Combined research score in three specific platinum-containing neoadjuvant TNBC trials; no transported response cutoff."
+    }
+  ],
+  "checks": {
+    "completeOwnerRead": true,
+    "originalOwnerRecoverableByRemovingOnlyAdditions": true,
+    "originalSourcesPracticeAndNavigationPreserved": true,
+    "finitePublicFileHashesVerified": true,
+    "nativeLightDarkGeometryLabelsCountsMatch": true,
+    "actualNativeAndCompactInlineInspected": true,
+    "defaultPreviewMobileAndDesktopInspected": true,
+    "renderStates": 8,
+    "minEssentialLabelPx": 14.153846153846153,
+    "requiredMinimumPx": 12,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererStylesSHA256": "8f5ad0be074bbf764dbd2f335cb9ce0ec388a4858a73c7e2bf5ef46cb8895b2c",
+    "rendererModalSHA256": "c364983a3d6dc2b05c492d5ae17fe52768be4e1af59b1e536cc46523406d59e3",
+    "contentChecker": "PASS;independent run;no warnings",
+    "noCanonicalMutation": true
+  },
+  "publicationPath": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1-independent-owner-review.json",
+  "limits": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "releaseAccepted": false,
+    "coverageCreditAwarded": false,
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "humanReview": "pending",
+    "productionVerified": false,
+    "previewScope": "Independent isolated carrier with unchanged pinned theater CSS and matching DOM;no live route or React event certification.",
+    "sourceScope": "Only stated primary passages/abstracts were read;downloads and citation presence do not imply complete-paper review."
+  }
+}

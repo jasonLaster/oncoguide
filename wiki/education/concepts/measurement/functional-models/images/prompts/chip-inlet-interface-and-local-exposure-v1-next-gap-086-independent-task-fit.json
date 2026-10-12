@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-086",
+  "owner": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+  "author": "root",
+  "authorRole": "canonical integration only; identity literal preserved from accepted private task map",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T21:32:10.906Z",
+  "reviewedAtLocal": "2026-10-12T14:32:10.906-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "1d8eedce21e4bb5c1aa0ad557c14443229780264397cbdc3843e01c53f724863",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-light.svg",
+      "sha256": "ed530c1be144aabcfd7caf85573e5039e5de1f5d36b30ee1170c5c68ba080841",
+      "bytes": 8812
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-dark.svg",
+      "sha256": "a4fe1944b002b879fa0a94557d1914bb1d64d4cf671f97a64438cad5f98d0af1",
+      "bytes": 8812
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "273445df88196a26911ab82941dffaa2334e9b558c1c5070577d5c13381f17e6",
+    "learnerTask": "Locate the perfused channel and distinguish inlet from local cellular exposure",
+    "gap": "The current question flow does not show the physical interface or exposure compartments",
+    "accuracyGuardrails": "Draw inlet, perfused channel, interface and local cells separately. Inlet concentration is not guaranteed cellular exposure, and a chip does not reproduce complete systemic distribution or immunity.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Inlet, medium channel, outlet, interface and tumor/matrix compartment are visually distinct. Fictional 1 µM inlet and unknown local exposure remain separate; dashed transport does not measure concentration. Chosen generic diagram is not the Huh/Jenkins geometry, does not imply an endothelial vessel, complete circulation/immunity, protective flow mechanism or a human dose. Original control/exposure exercise is retained. Both variants remain readable in fresh 393 × 700 inline/default-preview isolated pinned-style captures."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/259",
+    "originalTaskRowSHA256": "4cc46cae744ac203405689560352bff02fee3e784b4685e8ecdcdb50dc23a3c8"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+        "sha256": "1d8eedce21e4bb5c1aa0ad557c14443229780264397cbdc3843e01c53f724863",
+        "bytes": 8718
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-light.svg",
+        "sha256": "ed530c1be144aabcfd7caf85573e5039e5de1f5d36b30ee1170c5c68ba080841",
+        "bytes": 8812
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-dark.svg",
+        "sha256": "a4fe1944b002b879fa0a94557d1914bb1d64d4cf671f97a64438cad5f98d0af1",
+        "bytes": 8812
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/chip-inlet-interface-and-local-exposure-v1.txt",
+        "sha256": "3891e3477a92fb898682e02071eb497f4d6ec6fa8952fcfe935e9d30b19b1415",
+        "bytes": 832
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/chip-inlet-interface-and-local-exposure-v1-provenance.json",
+        "sha256": "77bf399cee3921b214d04fc27654f143993b3667ab452403c280739c889cdd41",
+        "bytes": 1394
+      }
+    ],
+    "originalTXTBriefsPreserved": true,
+    "generationModel": "not applicable; authored SVG"
+  },
+  "sourceReview": [
+    {
+      "id": "Huh",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20576885%20AND%20SRC:MED&format=json&resultType=core",
+      "readDepth": "complete primary abstract only",
+      "sections": "PubMed20576885 abstract via EuropePMC core JSON",
+      "scope": "Mechanically active alveolar-capillary lung-chip system",
+      "limits": "Abstract not full paper; selected design text separately read as Huh-full."
+    },
+    {
+      "id": "Huh-full",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/8335790/",
+      "readDepth": "selected primary full-text design passages and caption text",
+      "sections": "Proof-of-principle design paragraph; Figure1 A–E caption TEXT; following3 fabrication/monolayer paragraphs, Huh-full.selected.json entries0–4",
+      "scope": "Specific PDMS breathing lung interface with epithelial/endothelial layers",
+      "limits": "Not entire paper, figure pixels or supplements; generic new tumor-matrix schematic not exact Huh device; inlet does not establish local exposure."
+    },
+    {
+      "id": "Hassell",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29020635%20AND%20SRC:MED&format=json&resultType=core",
+      "readDepth": "complete primary abstract only",
+      "sections": "PubMed29020635 abstract via EuropePMC core JSON",
+      "scope": "Orthotopic NSCLC engineered lung-chip study",
+      "limits": "No full paper or general clinical predictive validation; reported effect not transferred to generic drawing."
+    },
+    {
+      "id": "Jenkins",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/5809290/",
+      "readDepth": "selected primary full-text passages and caption text",
+      "sections": "Abstract, first Results preparation paragraph, Figure1 caption TEXT (indices0,3,4); Methods microfluidic design (19) and dual-label readout (20); Discussion limitations (15)",
+      "scope": "MDOTS/PDOTS short-term immune-checkpoint experiments",
+      "limits": "Not entire paper or figure pixels; no exact proprietary geometry, flow-protection inference or local-concentration assertion."
+    }
+  ],
+  "retainedExercises": {
+    "inverseRestoresOriginalBytes": true,
+    "metadataAndExistingBodyPreserved": true
+  },
+  "displayReview": {
+    "viewport": {
+      "width": 393,
+      "height": 700,
+      "deviceScaleFactor": 1
+    },
+    "states": [
+      "light inline",
+      "dark inline",
+      "light default preview",
+      "dark default preview"
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "scope": "Fresh isolated CSS/DOM sizing carrier with declared 24px margin and Arial; author fixture not relied upon. Default preview does not enlarge these tall figures. Full live-reader/React/keyboard/app layout not reviewed."
+  },
+  "reviewScope": "New image, insertion, source/task fit, preserved exercises, original custody and compact readability only; unchanged science not re-approved. Lead reviewed complete public owners and reconciled three bounded reviewers. Source-specific read depths are those of the named bounded science reviewers.",
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "productionReview": "pending",
+  "deliveryReview": "pending",
+  "canonicalTaskAdoption": "pending",
+  "coverageCreditGrantedNow": 0,
+  "newPublicVisualAcceptance": "prospective independent task fit only; actual release derivation pending"
+}

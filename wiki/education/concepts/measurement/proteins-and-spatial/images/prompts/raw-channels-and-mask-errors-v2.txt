@@ -1,0 +1,6 @@
+Code-generated original scientific SVG; 0 image-model calls. Keep identical two-cell raw Aimmune/Kkeratin signal coordinates across separate channels and merged/split/shifted-mask overlays. Merge yields1object; split produces3objects; shifted boundary moves marker assignment without changing channels. Synthetic contours aid explanation, not a validated reference. Display estimated masks and raw signals distinctly; no new hybrid-cell, true identity, functional interaction or benchmark claim.
+
+Frozen learner task: Inspect merging, splitting and assigned marker boundaries
+Frozen guardrails: Show raw marker channels separately from estimated masks and cell assignments. Merging, splitting and boundary uncertainty can produce apparent double positivity; an overlay is not verified cell identity/function.
+
+Warm scientific palette; identical light/dark geometry, labels, quantities and uncertainty; minimum32 native SVGpx for essential labels. Construction code, source bodies and execution/capture receipts are privately retained and not delivered in public payload. SVGs are editable, without an executable reproduction-package promise.
