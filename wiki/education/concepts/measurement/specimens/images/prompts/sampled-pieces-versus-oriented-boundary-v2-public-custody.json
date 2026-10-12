@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "kind": "derived-scoped-public-custody-summary",
+  "assembledBy": "immune_foundations",
+  "assemblyScope": "Transfer preservation only; derived from exact frozen author metadata and genuine independent public G3 summary. This is not an executed image call, original author receipt, new source review or reader approval.",
+  "owner": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+  "baselineOwner": {
+    "sha256": "d8147e85a290be3ca34422bb7a9b7553e8fd678129572ad9ec419b0295dd182d",
+    "bytes": 6284
+  },
+  "prospectiveOwner": {
+    "sha256": "de338c8e0439ea48e26d2ce2c33a03d4da4cb815a55285bb567dce89814de111",
+    "bytes": 8204
+  },
+  "reviewedSourceCommit": null,
+  "commitState": "Unadopted prospective owner; a future real committed-source binding is required outside this immutable receipt.",
+  "frozenSourceCommit": "c1c9a0a15ccf867b83684f6a91e30adbfe61ef6f",
+  "frozenTask": {
+    "page": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+    "section": "How it works",
+    "task": "Distinguish sampled pieces from an oriented excision boundary",
+    "gap": "The workflow does not depict selected sample locations versus intact margins",
+    "guardrails": "Show multiple recovered pieces versus an oriented excision boundary. Sampling is not a complete margin assessment or proof that the lesion was removed/cleared."
+  },
+  "guardJSONType": "STRING",
+  "frozenImplementationGuardArrays": [
+    [
+      "Use 2–4 short-label panels, readable in both themes at 390px without horizontal scrolling.",
+      "For numerical topics, use honest chart axes/denominators and mark toy data fictional; do not invent empirical effects.",
+      "Embed complete ordinary-language caption/alt, editable chart/diagram source where appropriate, and route related lessons to one canonical owner."
+    ]
+  ],
+  "compositionId": "sampled-pieces-versus-oriented-boundary-v2",
+  "artworks": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+      "theme": "light",
+      "sha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be",
+      "bytes": 11136,
+      "dimensions": [
+        780,
+        1910
+      ],
+      "viewBox": "0 0 780 1910"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+      "theme": "dark",
+      "sha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4",
+      "bytes": 11134,
+      "dimensions": [
+        780,
+        1910
+      ],
+      "viewBox": "0 0 780 1910"
+    }
+  ],
+  "construction": {
+    "method": "Original code-authored SVG; no image model invoked",
+    "imageModel": null,
+    "imageGenerationCalls": 0,
+    "countsAndShapesFictional": true,
+    "editableSource": "Each exact native SVG is editable source. The original Python generator is retained by hash in original custody; its dependency closure has not been packaged or accepted for public replay.",
+    "semanticGeometrySHA256": "0f3881bc77c9b1bbf912b1631e0d4aab77aeb6c1fa47eeb18850f246e0eba368"
+  },
+  "caption": "Separate sampled pieces can preserve local tissue without forming a continuous map of the lesion's outer boundary. An oriented excision provides a documented boundary for evaluation; neither its outline nor visible removal supplies a margin result or proves complete clearance. Counts and shapes are fictional.",
+  "alt": "One panel links three selected schematic tissue locations to three separate vacuum-collected pieces; another shows an oriented removed specimen with a documented direction key, an inked outer surface and one mapped section, without a negative-margin or clearance label.",
+  "handlingNote": "**Handling limit:** Real tissue can change shape. The specimen's orientation must be documented; if it is unclear, this sketch cannot supply it. Ink can also enter cracks in the tissue. The clean outline does not certify handling or a clear margin.",
+  "insertionIdentity": {
+    "sha256": "a522e8289b6cecb22ae74079c315dd7e560bfa9c56d39bc3a86be16cb294594e",
+    "bytes": 1920,
+    "fullInverseExact": true
+  },
+  "sourcesCitedInFrozenTask": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "sha256": "d8147e85a290be3ca34422bb7a9b7553e8fd678129572ad9ec419b0295dd182d",
+      "section": "How it works",
+      "citedSources": [
+        {
+          "title": "NCI: vacuum-assisted core biopsy",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/vacuum-assisted-core-biopsy"
+        },
+        {
+          "title": "ACR/RSNA: ultrasound-guided breast biopsy",
+          "url": "https://www.radiologyinfo.org/en/info/breastbius"
+        }
+      ]
+    }
+  ],
+  "inheritedSelectedSourceAccess": [
+    {
+      "id": "SAMPLING-ACR-RSNA",
+      "url": "https://www.radiologyinfo.org/en/info/breastbius",
+      "accessBySuccessorAuthor": "Official rendered page refreshed; collection-method, radiology/pathology agreement and sampling-limitation paragraphs read. No full-body copy retained because the page requests linking rather than copying.",
+      "supports": [
+        "Core tissue versus recovered fluid/cell clusters",
+        "Multiple vacuum-acquired pieces",
+        "Sampling may miss or underestimate a target"
+      ],
+      "limits": "No procedure instructions, performance percentages, usual sample-count rule or diagnostic hierarchy imported."
+    },
+    {
+      "id": "NCI-VAB",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/vacuum-assisted-core-biopsy",
+      "accessBySuccessorAuthor": "Original institutional HTML fetched and complete definition read; rendered page also checked.",
+      "supports": "Sampled tissue acquisition using suction and a cutter, followed by examination.",
+      "limits": "No complete excision, mapped margin, clearance or appropriate sample-count assertion. The diagram does not instruct the procedure."
+    },
+    {
+      "id": "CAP-GROSSING-EXCERPT",
+      "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf",
+      "accessBySuccessorAuthor": "Actual six-page PDF fetched; extracted text and selected orientation/inking/section-mapping passages on physical pages 1–3 read. Source figures/photos were not inspected or traced.",
+      "supports": "A removed specimen has documented orientation, identified outer surfaces and region-to-section mapping; local ink keys and handling limitations matter.",
+      "limits": "Breast/DCIS handling example. No source dimensions, ink colors, step-by-step grossing instructions, operation choice, threshold or tumor behavior imported. A mapped edge is not a clear-margin finding or exhaustive whole-body assessment."
+    }
+  ],
+  "sourceAccessQualification": "Author/reviewer access descriptions are inherited metadata, not a fresh retrieval by the transfer assembler. Original blocked responses, selected-section/abstract limits, and raw-versus-rendered distinctions remain historical; no full articles, excerpts or source figures are copied.",
+  "originalEvidenceIdentities": [
+    {
+      "artifactId": "molecular-successor02-author-manifest",
+      "sha256": "ce4101d5ba94013a689ad9eba892eebe042002eb6190e460c578da96741c4a9b",
+      "bytes": 56466
+    },
+    {
+      "artifactId": "molecular-successor02-native-inventory",
+      "sha256": "237a334299000bd0590e25eae79ac3e1c345affdc4a1cd9cce3fd2e7927d090b",
+      "bytes": 40755
+    },
+    {
+      "artifactId": "molecular-successor02-task-map",
+      "sha256": "191aa3ca8b4982acbc8e25d4e8ea92fdfa508e9de58424020800a2ec7c5d483a",
+      "bytes": 25787
+    },
+    {
+      "artifactId": "molecular-source-access-addendum",
+      "sha256": "dab9a324c8440e358a4b4ccaa6f9d1d011130cd3163c286be1e9fb917f400a28",
+      "bytes": 6633
+    },
+    {
+      "artifactId": "molecular-successor02-draw-native-python",
+      "sha256": "1f7594db37031005452c7ae0abec2456bfee28398a68a2c1446ed9adc37faa5a",
+      "bytes": 21172
+    }
+  ],
+  "independentLocalG3": {
+    "summaryIdentity": {
+      "artifactId": "molecular-independent-local-G3-public-summary",
+      "sha256": "866a9e9be71bda1b0e5ab41abf6ab2444994a8460715268edeb572935c6a5710",
+      "bytes": 8958
+    },
+    "reviewer": "multiomics",
+    "reviewerRole": "Different-author independent G3 reviewer; did not author these ten SVGs or successor02.",
+    "verdict": "PASS_SCOPED_NATIVE_AND_PINNED_READER_G3",
+    "date": "2026-10-12T11:45:53.802999+00:00",
+    "memberFinding": {
+      "member": "brief-260-vab",
+      "owner": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "G3": "PASS",
+      "lightG3": "PASS",
+      "darkG3": "PASS",
+      "beforeSHA256": "d8147e85a290be3ca34422bb7a9b7553e8fd678129572ad9ec419b0295dd182d",
+      "fullProjectedOwnerSHA256": "de338c8e0439ea48e26d2ce2c33a03d4da4cb815a55285bb567dce89814de111",
+      "assets": [
+        {
+          "theme": "light",
+          "sha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be"
+        },
+        {
+          "theme": "dark",
+          "sha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4"
+        }
+      ]
+    },
+    "observations": "A/B/C represented pieces use the same clipped source patch windows; new outside leader passes through unsampled space left of B without crossing letters or selected windows. Dark selection boundaries/source letters are identifiable. Mark/key, outer ink and mapped section show a separate oriented excision evidence type, not a margin result. Real handling/uncertain orientation/ink-crack note is immediately adjacent to caption.",
+    "scope": {
+      "compositions": 5,
+      "nativeThemesPersonallyInspected": 10,
+      "pinnedReaderContexts": 20,
+      "actualViewportCapturesPersonallyInspected": 40,
+      "nativeCapturesPersonallyInspected": 10,
+      "viewports": [
+        [
+          1200,
+          900
+        ],
+        [
+          390,
+          900
+        ]
+      ],
+      "DPR": 1,
+      "zoom": 1,
+      "desktopInlineWidth": 780,
+      "compactInlineWidth": 345.9921875,
+      "outsideRouting": "489 slug/title-only fixture records; not outside-body teaching or route acceptance",
+      "fullOwnerTextsPersonallyRead": 5,
+      "wholeOwnerInverseChecks": 5,
+      "sourceAndRendererWrites": 0,
+      "deployedReaders": false,
+      "theaterOrFocusCertification": false
+    },
+    "limitations": [
+      "Only local exact original SVGs and copied pinned5cb reader states are accepted. No deployed Diana/Onco reader or publication verification.",
+      "All five full prospective owners were read; historical native-01 source/caption/exercise bytes and all five full inverses are exact. No new source-grade or whole-task coverage certification.",
+      "Genuine source-access depth remains abstract/selected retained text/official excerpts exactly as inherited. No fresh retrieval, full-manuscript or third-party figure certification.",
+      "Compact390x900 is an emulated local viewport, DPR1 and zoom1; not a physical phone or measured human reading-speed result. Labels are identifiable; small motifs and fine clip correspondence benefit from native inspection.",
+      "Desktop inline figures are780px wide and taller than the viewport; screenshots show named visible portions. Complete native images were separately personally inspected.",
+      "BODY focus, table keyboard/focus, viewer behavior, other accessibility and deployed-reader limits remain OPEN and are not retested or approved by this G3 scope.",
+      "No canonical/Git/source/renderer edits, generation, sync, publication, progress or coverage credit; expert and learner review pending."
+    ],
+    "originalG3": "REVISE preserved unchanged",
+    "qualification": "These are the original different-author scoped local review findings. No new native pixel inspection, human review, current deployed-reader approval or whole-task coverage decision is made by this derived transfer receipt."
+  },
+  "pendingGates": {
+    "differentReviewerPublicCustodyAcceptance": "pending",
+    "actualCanonicalAdoption": "pending",
+    "actualCommittedSourceExport": "pending",
+    "actualDeployedReaders": "pending",
+    "humanExpert": "pending",
+    "humanLearner": "pending"
+  },
+  "coverageCredit": 0,
+  "publicBoundary": "This bounded derived JSON only. Original private archives, source bodies, browser captures, DOM records, private seals, failed render attempts, full owner snapshots and generator dependency ZIPs are excluded from this transfer selection."
+}

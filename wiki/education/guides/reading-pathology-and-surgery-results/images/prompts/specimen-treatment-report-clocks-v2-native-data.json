@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "fictional": true,
+  "noClinicalScheduleOrDoseAdvice": true,
+  "unit": "arbitrary relative days",
+  "collection": [
+    {
+      "id": "A",
+      "day": 0,
+      "kind": "biopsy",
+      "context": "before treatment"
+    },
+    {
+      "id": "B",
+      "day": 100,
+      "kind": "surgical tissue",
+      "context": "after the documented preoperative events"
+    }
+  ],
+  "plan": [
+    {
+      "id": "P1",
+      "day": 10
+    },
+    {
+      "id": "P2",
+      "day": 30
+    },
+    {
+      "id": "P3",
+      "day": 50
+    },
+    {
+      "id": "P4",
+      "day": 80
+    }
+  ],
+  "treatmentRecord": [
+    {
+      "plannedRef": "P1",
+      "day": 10,
+      "state": "documented administration",
+      "administrationDocumented": true,
+      "reason": "not supplied",
+      "rescheduledEvent": "not supplied"
+    },
+    {
+      "plannedRef": "P2",
+      "day": 30,
+      "state": "held",
+      "administrationDocumented": false,
+      "reason": "not supplied",
+      "rescheduledEvent": "not supplied"
+    },
+    {
+      "plannedRef": "P3",
+      "day": 50,
+      "state": "documented administration",
+      "administrationDocumented": true,
+      "reason": "not supplied",
+      "rescheduledEvent": "not supplied"
+    },
+    {
+      "plannedRef": "P4",
+      "day": 80,
+      "state": "documented administration",
+      "administrationDocumented": true,
+      "reason": "not supplied",
+      "rescheduledEvent": "not supplied"
+    }
+  ],
+  "report": [
+    {
+      "id": "A-addendum",
+      "day": 120,
+      "specimenRef": "A",
+      "newCollection": false
+    }
+  ],
+  "counts": {
+    "plannedEvents": 4,
+    "documentedAdministrations": 3,
+    "heldPlannedEvents": 1
+  },
+  "heldStateMeaning": "The fictional record expressly says held. It is not a documented administration, an inferred missing dose, or proof of later rescheduling.",
+  "continuousTreatmentBar": false,
+  "originalChronologyPreserved": {
+    "ACollection": 0,
+    "firstDocumentedEvent": 10,
+    "lastDocumentedEvent": 80,
+    "BCollection": 100,
+    "AAddendum": 120
+  },
+  "outcomeOrHoldCause": "Not depicted or inferred.",
+  "completeCourseClaim": false,
+  "constructionProvenance": "The companion owner’s fictional four-planned/three-recorded/one-held idea; new arbitrary day placements are author constructions, not a source regimen."
+}

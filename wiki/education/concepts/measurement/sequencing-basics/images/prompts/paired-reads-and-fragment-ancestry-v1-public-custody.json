@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "kind": "derived-scoped-public-custody-summary",
+  "assembledBy": "immune_foundations",
+  "assemblyScope": "Transfer preservation only; derived from exact frozen author metadata and genuine independent public G3 summary. This is not an executed image call, original author receipt, new source review or reader approval.",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+  "baselineOwner": {
+    "sha256": "352f91c97e31703f627cd5718ad994d3dec3d042055ebb964c0faa8ad580b687",
+    "bytes": 7449
+  },
+  "prospectiveOwner": {
+    "sha256": "0a9ff5c81b0802d1ee63e5825cc89f72af9249dc99004d743a860346baab2d45",
+    "bytes": 9268
+  },
+  "reviewedSourceCommit": null,
+  "commitState": "Unadopted prospective owner; a future real committed-source binding is required outside this immutable receipt.",
+  "frozenSourceCommit": "c1c9a0a15ccf867b83684f6a91e30adbfe61ef6f",
+  "frozenTask": {
+    "page": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+    "section": "Try it",
+    "task": "Distinguish paired reads and copies from independent fragments",
+    "gap": "Current process map does not depict molecular ancestry",
+    "guardrails": "Trace paired ends, duplicates and independent source fragments separately. Ten reads from five fragments are at most five independent fragments, without guaranteed coverage or confirmation."
+  },
+  "guardJSONType": "STRING",
+  "frozenImplementationGuardArrays": [
+    [
+      "Use 2–4 short-label panels, readable in both themes at 390px without horizontal scrolling.",
+      "For numerical topics, use honest chart axes/denominators and mark toy data fictional; do not invent empirical effects.",
+      "Embed complete ordinary-language caption/alt, editable chart/diagram source where appropriate, and route related lessons to one canonical owner."
+    ]
+  ],
+  "compositionId": "paired-reads-and-fragment-ancestry-v1",
+  "artworks": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-light.svg",
+      "theme": "light",
+      "sha256": "ff2cb8191349c7d2b952b1d7aab3cf257383fcf7a4172b87514e7ceed0d1b56c",
+      "bytes": 11458,
+      "dimensions": [
+        780,
+        1880
+      ],
+      "viewBox": "0 0 780 1880"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0",
+      "bytes": 11456,
+      "dimensions": [
+        780,
+        1880
+      ],
+      "viewBox": "0 0 780 1880"
+    }
+  ],
+  "construction": {
+    "method": "Original code-authored SVG; no image model invoked",
+    "imageModel": null,
+    "imageGenerationCalls": 0,
+    "countsAndShapesFictional": true,
+    "editableSource": "Each exact native SVG is editable source. The original Python generator is retained by hash in original custody; its dependency closure has not been packaged or accepted for public replay.",
+    "semanticGeometrySHA256": "01b59425771ffecc7b5c6bc5220666157c12cd07f0940f0e75158f6bd37bc765"
+  },
+  "caption": "Fictional example: ten overlapping paired-end reads represent at most five distinct library fragments; copies can reduce independent support further. The separate copy vignette shows ancestry, not a universal duplicate-filter rule or a count of cells.",
+  "alt": "Five labeled fragment rows each have a left-end read and a right-end read joined as one pair; a separate vignette traces three sequenced copies and their six reads back to one source fragment.",
+  "handlingNote": null,
+  "insertionIdentity": {
+    "sha256": "be6b762484ba71c00751abaac154f29383907ea1c683995d082f7442acd64bec",
+    "bytes": 1819,
+    "fullInverseExact": true
+  },
+  "sourcesCitedInFrozenTask": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+      "sha256": "352f91c97e31703f627cd5718ad994d3dec3d042055ebb964c0faa8ad580b687",
+      "section": "Try it",
+      "citedSources": [
+        {
+          "title": "NCBI SRA: file formats and read records",
+          "url": "https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/"
+        },
+        {
+          "title": "Ewing and Green 1998: Phred error probabilities",
+          "url": "https://doi.org/10.1101/gr.8.3.186"
+        },
+        {
+          "title": "SAM format specification: quality scale, templates and alignment records",
+          "url": "https://samtools.github.io/hts-specs/SAMv1.pdf"
+        },
+        {
+          "title": "AMP/CAP 2017: oncology sequencing validation and library complexity",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941185/"
+        }
+      ]
+    }
+  ],
+  "inheritedSelectedSourceAccess": [
+    {
+      "id": "AMPCAP-CDC-SOURCE-ADDENDUM",
+      "url": "https://stacks.cdc.gov/view/cdc/83997/cdc_83997_DS1.pdf",
+      "accessBySuccessorAuthor": "CDC rendered PDF accessible through web tool; relevant library-preparation and Figure 1B caption text personally read. Separate raw Python HTTP fetch returned 403, retained in original source custody. No raw PDF byte custody is claimed for this response.",
+      "accessByIndependentReviewer": "Selected library-preparation and Figure 1 caption text; exact saved rendered source receipt retained in original source custody.",
+      "supports": "Primer-defined start/stop coordinates in amplicon sequencing require preparation-specific interpretation of independent support.",
+      "limits": "No universal duplicate filter, guaranteed tag independence, clinical depth recommendation or source-figure pixel certification. Original author PMC-blocked note stays historical."
+    }
+  ],
+  "sourceAccessQualification": "Author/reviewer access descriptions are inherited metadata, not a fresh retrieval by the transfer assembler. Original blocked responses, selected-section/abstract limits, and raw-versus-rendered distinctions remain historical; no full articles, excerpts or source figures are copied.",
+  "originalEvidenceIdentities": [
+    {
+      "artifactId": "molecular-successor02-author-manifest",
+      "sha256": "ce4101d5ba94013a689ad9eba892eebe042002eb6190e460c578da96741c4a9b",
+      "bytes": 56466
+    },
+    {
+      "artifactId": "molecular-successor02-native-inventory",
+      "sha256": "237a334299000bd0590e25eae79ac3e1c345affdc4a1cd9cce3fd2e7927d090b",
+      "bytes": 40755
+    },
+    {
+      "artifactId": "molecular-successor02-task-map",
+      "sha256": "191aa3ca8b4982acbc8e25d4e8ea92fdfa508e9de58424020800a2ec7c5d483a",
+      "bytes": 25787
+    },
+    {
+      "artifactId": "molecular-source-access-addendum",
+      "sha256": "dab9a324c8440e358a4b4ccaa6f9d1d011130cd3163c286be1e9fb917f400a28",
+      "bytes": 6633
+    },
+    {
+      "artifactId": "molecular-successor02-draw-native-python",
+      "sha256": "1f7594db37031005452c7ae0abec2456bfee28398a68a2c1446ed9adc37faa5a",
+      "bytes": 21172
+    }
+  ],
+  "independentLocalG3": {
+    "summaryIdentity": {
+      "artifactId": "molecular-independent-local-G3-public-summary",
+      "sha256": "866a9e9be71bda1b0e5ab41abf6ab2444994a8460715268edeb572935c6a5710",
+      "bytes": 8958
+    },
+    "reviewer": "multiomics",
+    "reviewerRole": "Different-author independent G3 reviewer; did not author these ten SVGs or successor02.",
+    "verdict": "PASS_SCOPED_NATIVE_AND_PINNED_READER_G3",
+    "date": "2026-10-12T11:45:53.802999+00:00",
+    "memberFinding": {
+      "member": "brief-098",
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+      "G3": "PASS",
+      "lightG3": "PASS",
+      "darkG3": "PASS",
+      "beforeSHA256": "352f91c97e31703f627cd5718ad994d3dec3d042055ebb964c0faa8ad580b687",
+      "fullProjectedOwnerSHA256": "0a9ff5c81b0802d1ee63e5825cc89f72af9249dc99004d743a860346baab2d45",
+      "assets": [
+        {
+          "theme": "light",
+          "sha256": "ff2cb8191349c7d2b952b1d7aab3cf257383fcf7a4172b87514e7ceed0d1b56c"
+        },
+        {
+          "theme": "dark",
+          "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0"
+        }
+      ]
+    },
+    "observations": "Counted five main R1/R2 pairs/ten reads/at most five represented fragments and the separate three-copy/six-read/one-source vignette. Each pair bracket stays within its row; ancestry arrows go from source to copies. Corrected dark R1/R2 foreground is visible at346px and native. No sum of the examples or universal duplicate rule implied.",
+    "scope": {
+      "compositions": 5,
+      "nativeThemesPersonallyInspected": 10,
+      "pinnedReaderContexts": 20,
+      "actualViewportCapturesPersonallyInspected": 40,
+      "nativeCapturesPersonallyInspected": 10,
+      "viewports": [
+        [
+          1200,
+          900
+        ],
+        [
+          390,
+          900
+        ]
+      ],
+      "DPR": 1,
+      "zoom": 1,
+      "desktopInlineWidth": 780,
+      "compactInlineWidth": 345.9921875,
+      "outsideRouting": "489 slug/title-only fixture records; not outside-body teaching or route acceptance",
+      "fullOwnerTextsPersonallyRead": 5,
+      "wholeOwnerInverseChecks": 5,
+      "sourceAndRendererWrites": 0,
+      "deployedReaders": false,
+      "theaterOrFocusCertification": false
+    },
+    "limitations": [
+      "Only local exact original SVGs and copied pinned5cb reader states are accepted. No deployed Diana/Onco reader or publication verification.",
+      "All five full prospective owners were read; historical native-01 source/caption/exercise bytes and all five full inverses are exact. No new source-grade or whole-task coverage certification.",
+      "Genuine source-access depth remains abstract/selected retained text/official excerpts exactly as inherited. No fresh retrieval, full-manuscript or third-party figure certification.",
+      "Compact390x900 is an emulated local viewport, DPR1 and zoom1; not a physical phone or measured human reading-speed result. Labels are identifiable; small motifs and fine clip correspondence benefit from native inspection.",
+      "Desktop inline figures are780px wide and taller than the viewport; screenshots show named visible portions. Complete native images were separately personally inspected.",
+      "BODY focus, table keyboard/focus, viewer behavior, other accessibility and deployed-reader limits remain OPEN and are not retested or approved by this G3 scope.",
+      "No canonical/Git/source/renderer edits, generation, sync, publication, progress or coverage credit; expert and learner review pending."
+    ],
+    "originalG3": "REVISE preserved unchanged",
+    "qualification": "These are the original different-author scoped local review findings. No new native pixel inspection, human review, current deployed-reader approval or whole-task coverage decision is made by this derived transfer receipt."
+  },
+  "pendingGates": {
+    "differentReviewerPublicCustodyAcceptance": "pending",
+    "actualCanonicalAdoption": "pending",
+    "actualCommittedSourceExport": "pending",
+    "actualDeployedReaders": "pending",
+    "humanExpert": "pending",
+    "humanLearner": "pending"
+  },
+  "coverageCredit": 0,
+  "publicBoundary": "This bounded derived JSON only. Original private archives, source bodies, browser captures, DOM records, private seals, failed render attempts, full owner snapshots and generator dependency ZIPs are excluded from this transfer selection."
+}

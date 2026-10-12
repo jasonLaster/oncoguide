@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "kind": "derived-scoped-public-custody-summary",
+  "assembledBy": "immune_foundations",
+  "assemblyScope": "Transfer preservation only; derived from exact frozen author metadata and genuine independent public G3 summary. This is not an executed image call, original author receipt, new source review or reader approval.",
+  "owner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+  "baselineOwner": {
+    "sha256": "eda78b1f936cd8640b0cc0391a517c94c1d35a7341dce70ae4ce86207eedb75d",
+    "bytes": 6327
+  },
+  "prospectiveOwner": {
+    "sha256": "9074f241b5a7805190bd137120851b192d20cc58d1d24edb40d8a0248755226e",
+    "bytes": 8725
+  },
+  "reviewedSourceCommit": null,
+  "commitState": "Unadopted prospective owner; a future real committed-source binding is required outside this immutable receipt.",
+  "frozenSourceCommit": "c1c9a0a15ccf867b83684f6a91e30adbfe61ef6f",
+  "frozenTask": {
+    "page": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+    "section": "How it works",
+    "task": "See a structured core as a small local window",
+    "gap": "Workflow does not depict the sampled cylinder relative to heterogeneous target",
+    "guardrails": "Show a local structured core within a heterogeneous target and the limited sampled window. A core preserves some architecture but does not represent every region or guarantee clearance/diagnostic sufficiency."
+  },
+  "guardJSONType": "STRING",
+  "frozenImplementationGuardArrays": [
+    [
+      "Use 2–4 short-label panels, readable in both themes at 390px without horizontal scrolling.",
+      "For numerical topics, use honest chart axes/denominators and mark toy data fictional; do not invent empirical effects.",
+      "Embed complete ordinary-language caption/alt, editable chart/diagram source where appropriate, and route related lessons to one canonical owner."
+    ]
+  ],
+  "compositionId": "core-is-a-local-window-v1",
+  "artworks": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+      "theme": "light",
+      "sha256": "2c29af9b51c4717f01fbc6ce49725c4e7bc4098b951ff6cd37acaa99b713015f",
+      "bytes": 8540,
+      "dimensions": [
+        780,
+        1750
+      ],
+      "viewBox": "0 0 780 1750"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "b66c0712a26a5470ad06d0484f592e8336d52cb574069751265a2d52e9cda22e",
+      "bytes": 8538,
+      "dimensions": [
+        780,
+        1750
+      ],
+      "viewBox": "0 0 780 1750"
+    }
+  ],
+  "construction": {
+    "method": "Original code-authored SVG; no image model invoked",
+    "imageModel": null,
+    "imageGenerationCalls": 0,
+    "countsAndShapesFictional": true,
+    "editableSource": "Each exact native SVG is editable source. The original Python generator is retained by hash in original custody; its dependency closure has not been packaged or accepted for public replay.",
+    "semanticGeometrySHA256": "071afa2534da279ec6bbd71034b6e1032943ac0dcf2d8049c54a2e96c3b2bbc3"
+  },
+  "caption": "A core preserves some local tissue relationships within a sampled window; its interpretation still depends on what was sampled and whether the finding explains the imaging target. This sketch shows no patient's tissue and makes no claim about adequate sample number or complete removal.",
+  "alt": "Three panels show a narrow sampled strip within an uneven tissue target, the matching tissue core enlarged with neighboring cells still together, and the examined window beside regions outside it that the core does not represent.",
+  "handlingNote": null,
+  "insertionIdentity": {
+    "sha256": "0181b2e81ac580fc04fe1f76b5794d703ddf0bba68f93813203d3a5aba7c2800",
+    "bytes": 2398,
+    "fullInverseExact": true
+  },
+  "sourcesCitedInFrozenTask": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "sha256": "eda78b1f936cd8640b0cc0391a517c94c1d35a7341dce70ae4ce86207eedb75d",
+      "section": "How it works",
+      "citedSources": [
+        {
+          "title": "NCI: how breast cancer is diagnosed",
+          "url": "https://www.cancer.gov/types/breast/diagnosis"
+        },
+        {
+          "title": "ACR/RSNA: ultrasound-guided breast biopsy",
+          "url": "https://www.radiologyinfo.org/en/info/breastbius"
+        }
+      ]
+    }
+  ],
+  "inheritedSelectedSourceAccess": [
+    {
+      "id": "SAMPLING-ACR-RSNA",
+      "url": "https://www.radiologyinfo.org/en/info/breastbius",
+      "accessBySuccessorAuthor": "Official rendered page refreshed; collection-method, radiology/pathology agreement and sampling-limitation paragraphs read. No full-body copy retained because the page requests linking rather than copying.",
+      "supports": [
+        "Core tissue versus recovered fluid/cell clusters",
+        "Multiple vacuum-acquired pieces",
+        "Sampling may miss or underestimate a target"
+      ],
+      "limits": "No procedure instructions, performance percentages, usual sample-count rule or diagnostic hierarchy imported."
+    }
+  ],
+  "sourceAccessQualification": "Author/reviewer access descriptions are inherited metadata, not a fresh retrieval by the transfer assembler. Original blocked responses, selected-section/abstract limits, and raw-versus-rendered distinctions remain historical; no full articles, excerpts or source figures are copied.",
+  "originalEvidenceIdentities": [
+    {
+      "artifactId": "molecular-successor02-author-manifest",
+      "sha256": "ce4101d5ba94013a689ad9eba892eebe042002eb6190e460c578da96741c4a9b",
+      "bytes": 56466
+    },
+    {
+      "artifactId": "molecular-successor02-native-inventory",
+      "sha256": "237a334299000bd0590e25eae79ac3e1c345affdc4a1cd9cce3fd2e7927d090b",
+      "bytes": 40755
+    },
+    {
+      "artifactId": "molecular-successor02-task-map",
+      "sha256": "191aa3ca8b4982acbc8e25d4e8ea92fdfa508e9de58424020800a2ec7c5d483a",
+      "bytes": 25787
+    },
+    {
+      "artifactId": "molecular-source-access-addendum",
+      "sha256": "dab9a324c8440e358a4b4ccaa6f9d1d011130cd3163c286be1e9fb917f400a28",
+      "bytes": 6633
+    },
+    {
+      "artifactId": "molecular-successor02-draw-native-python",
+      "sha256": "1f7594db37031005452c7ae0abec2456bfee28398a68a2c1446ed9adc37faa5a",
+      "bytes": 21172
+    }
+  ],
+  "independentLocalG3": {
+    "summaryIdentity": {
+      "artifactId": "molecular-independent-local-G3-public-summary",
+      "sha256": "866a9e9be71bda1b0e5ab41abf6ab2444994a8460715268edeb572935c6a5710",
+      "bytes": 8958
+    },
+    "reviewer": "multiomics",
+    "reviewerRole": "Different-author independent G3 reviewer; did not author these ten SVGs or successor02.",
+    "verdict": "PASS_SCOPED_NATIVE_AND_PINNED_READER_G3",
+    "date": "2026-10-12T11:45:53.802999+00:00",
+    "memberFinding": {
+      "member": "brief-260-core",
+      "owner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "G3": "PASS",
+      "lightG3": "PASS",
+      "darkG3": "PASS",
+      "beforeSHA256": "eda78b1f936cd8640b0cc0391a517c94c1d35a7341dce70ae4ce86207eedb75d",
+      "fullProjectedOwnerSHA256": "9074f241b5a7805190bd137120851b192d20cc58d1d24edb40d8a0248755226e",
+      "assets": [
+        {
+          "theme": "light",
+          "sha256": "2c29af9b51c4717f01fbc6ce49725c4e7bc4098b951ff6cd37acaa99b713015f"
+        },
+        {
+          "theme": "dark",
+          "sha256": "b66c0712a26a5470ad06d0484f592e8336d52cb574069751265a2d52e9cda22e"
+        }
+      ]
+    },
+    "observations": "Selected source strip is reused through clip/use identity in enlarged core and section. Sampled and outside material remain distinct. Rerouted question paths clear Explains the target? at native and compact scales; no universal sufficiency, benign target or clearance conclusion. Dark sampling rectangle is identifiable.",
+    "scope": {
+      "compositions": 5,
+      "nativeThemesPersonallyInspected": 10,
+      "pinnedReaderContexts": 20,
+      "actualViewportCapturesPersonallyInspected": 40,
+      "nativeCapturesPersonallyInspected": 10,
+      "viewports": [
+        [
+          1200,
+          900
+        ],
+        [
+          390,
+          900
+        ]
+      ],
+      "DPR": 1,
+      "zoom": 1,
+      "desktopInlineWidth": 780,
+      "compactInlineWidth": 345.9921875,
+      "outsideRouting": "489 slug/title-only fixture records; not outside-body teaching or route acceptance",
+      "fullOwnerTextsPersonallyRead": 5,
+      "wholeOwnerInverseChecks": 5,
+      "sourceAndRendererWrites": 0,
+      "deployedReaders": false,
+      "theaterOrFocusCertification": false
+    },
+    "limitations": [
+      "Only local exact original SVGs and copied pinned5cb reader states are accepted. No deployed Diana/Onco reader or publication verification.",
+      "All five full prospective owners were read; historical native-01 source/caption/exercise bytes and all five full inverses are exact. No new source-grade or whole-task coverage certification.",
+      "Genuine source-access depth remains abstract/selected retained text/official excerpts exactly as inherited. No fresh retrieval, full-manuscript or third-party figure certification.",
+      "Compact390x900 is an emulated local viewport, DPR1 and zoom1; not a physical phone or measured human reading-speed result. Labels are identifiable; small motifs and fine clip correspondence benefit from native inspection.",
+      "Desktop inline figures are780px wide and taller than the viewport; screenshots show named visible portions. Complete native images were separately personally inspected.",
+      "BODY focus, table keyboard/focus, viewer behavior, other accessibility and deployed-reader limits remain OPEN and are not retested or approved by this G3 scope.",
+      "No canonical/Git/source/renderer edits, generation, sync, publication, progress or coverage credit; expert and learner review pending."
+    ],
+    "originalG3": "REVISE preserved unchanged",
+    "qualification": "These are the original different-author scoped local review findings. No new native pixel inspection, human review, current deployed-reader approval or whole-task coverage decision is made by this derived transfer receipt."
+  },
+  "pendingGates": {
+    "differentReviewerPublicCustodyAcceptance": "pending",
+    "actualCanonicalAdoption": "pending",
+    "actualCommittedSourceExport": "pending",
+    "actualDeployedReaders": "pending",
+    "humanExpert": "pending",
+    "humanLearner": "pending"
+  },
+  "coverageCredit": 0,
+  "publicBoundary": "This bounded derived JSON only. Original private archives, source bodies, browser captures, DOM records, private seals, failed render attempts, full owner snapshots and generator dependency ZIPs are excluded from this transfer selection."
+}

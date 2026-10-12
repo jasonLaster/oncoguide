@@ -47,6 +47,15 @@ The first clock is **biological sampling**: when the biopsy, scan or blood draw 
 
 A report issued after surgery may describe a sample collected before it. A later appointment may review an earlier scan. Attaching only the reporting date can create a false sequence of response and treatment.
 
+<!-- BEGIN NATIVE PRODUCTION01 brief-280-companion -->
+Use the shared specimen-and-treatment timeline below. Its planned and recorded states are separate; a held event is not a documented administration.
+
+<div class="my-6">
+  <img src="../reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg" alt="A shared day-0-to-120 timeline separates biopsy A at day 0 and surgery tissue B at day 100 from treatment plan and record rows. Four treatment events are planned at days 10, 30, 50 and 80; administrations are documented at 10, 50 and 80, while 30 is explicitly held. A day-120 addendum refers back to stored biopsy A, with no new sample." width="360" height="760" data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">A new report can describe old tissue, and a planned treatment event may be held. Follow specimen identity and the documented record; these fictional days do not prescribe a schedule or explain an outcome.</p>
+</div>
+<!-- END NATIVE PRODUCTION01 brief-280-companion -->
+
 [The KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) supplies one concrete example of a studied perioperative sequence. Its planned blocks and postoperative phase are not automatically separate [lines of therapy](/wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy).
 
 Next separate the tested trial schedule, the clinician's planned adaptation and the delivered course. These can be related without being identical. Retain holds or changes and their documented reasons. Expected visits are not proof of completed doses.

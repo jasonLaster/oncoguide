@@ -64,6 +64,20 @@ A fictional resection finds DCIS but no invasive cancer in the breast, and no re
 
 Now change one fact: a sampled node contains residual invasive carcinoma. The common combined pCR endpoint is no longer met, even if the breast is clear and a blood assay is negative. [Residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) offers a different, graded description of residual disease.
 
+<!-- BEGIN NATIVE SUCCESSOR02 breast-pathways-02 -->
+<div class="my-6">
+  <img src="./images/pcr-components-v2-light.svg" alt="Panel 1 of 2. Two fictional post-treatment assessments of the complete resected breast and all sampled regional nodes share no residual invasive breast cancer and residual DCIS. Only the nodal finding changes: case A has no residual nodal cancer found, and case B has a fictional 4 mm invasive deposit. Continue to panel 2 for both response definitions and the separate margin question." width="360" height="865" data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">Panel 1 of 2: the breast findings match; only case B’s nodal finding changes. Apply both definitions to these same cases in panel 2.</p>
+</div>
+
+<div class="my-6">
+  <img src="./images/pcr-definitions-and-margins-v2-light.svg" alt="Panel 2 of 2. The same fictional post-treatment cases share no residual invasive breast cancer, residual DCIS and identical DCIS at final ink. Case A has no residual nodal cancer found; case B has a fictional 4 mm invasive nodal deposit. A meets ypT0/Tis ypN0 but not ypT0 ypN0; B meets neither. Response does not settle margins or mean cure. Panel 1 shows the breast and nodal components." width="360" height="835" data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">Panel 2 of 2: case A meets ypT0/Tis ypN0 but not ypT0 ypN0; case B meets neither. The identical ink findings remain a separate margin question.</p>
+</div>
+
+<p class="text-sm text-muted-foreground">Keep the definition beside the component findings. Permitted DCIS can coexist with a margin question, and residual invasive nodal disease changes the combined endpoint.</p>
+<!-- END NATIVE SUCCESSOR02 breast-pathways-02 -->
+
 ## Common confusions
 
 - Imaging complete response, negative blood testing and pCR are different assessments.

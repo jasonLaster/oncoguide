@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "b8759a5ceb26f5c898abd20b603a7ffd587d0b29",
+  "reviewedSourceCommit": "c6fc78a3a594a0d2f27a9d850f6f5842bde9da22",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -1142,6 +1142,340 @@
       ],
       "sha256": "7be48b6064eacbb54d9a6110bb1f7fe806d8d2cc624d290158ad0f2a7c8a8fdb",
       "bytes": 7953
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/margin-close-versus-at-ink-v2-native-data.json",
+      "sha256": "d3a9e484acbd1f1d376b6125a682efb56744fcbeb92f808335d92193ead3a443",
+      "bytes": 636,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "ownerSha256": "3f3077248f85944befb3176792590618f20c0d4c23016c437420841aa389f74e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-light.svg",
+          "sha256": "0e05e0f42f0943e7dd072a6c0d97b72467e2c3efa4d167ca48127c9cbe34e426"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-light.svg",
+          "sha256": "7976d33cdeac91b75a3846057335dac3d599aa32f251bad051b70d9760ac7d70"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-dark.svg",
+          "sha256": "ecab1ca9fefc9b0b3a7d00b18f0438110e9740e7dd9cce4591e5dc7768a9eb40"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-dark.svg",
+          "sha256": "4f6a49d17b1fd8908dc826e12989e036844a5ef609906ebbf113ffcc21e6aa9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/margin-close-versus-at-ink-v2-native-provenance.json",
+      "sha256": "5fb0792259186d4af869a75f0d9e42fb6c4cbd50bcb2e96df945f9317bf4b1e0",
+      "bytes": 4389,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "ownerSha256": "3f3077248f85944befb3176792590618f20c0d4c23016c437420841aa389f74e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-light.svg",
+          "sha256": "0e05e0f42f0943e7dd072a6c0d97b72467e2c3efa4d167ca48127c9cbe34e426"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-light.svg",
+          "sha256": "7976d33cdeac91b75a3846057335dac3d599aa32f251bad051b70d9760ac7d70"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-dark.svg",
+          "sha256": "ecab1ca9fefc9b0b3a7d00b18f0438110e9740e7dd9cce4591e5dc7768a9eb40"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-dark.svg",
+          "sha256": "4f6a49d17b1fd8908dc826e12989e036844a5ef609906ebbf113ffcc21e6aa9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/margin-edges-main-and-final-v2-native-data.json",
+      "sha256": "d3a9e484acbd1f1d376b6125a682efb56744fcbeb92f808335d92193ead3a443",
+      "bytes": 636,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "ownerSha256": "3f3077248f85944befb3176792590618f20c0d4c23016c437420841aa389f74e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-light.svg",
+          "sha256": "0e05e0f42f0943e7dd072a6c0d97b72467e2c3efa4d167ca48127c9cbe34e426"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-light.svg",
+          "sha256": "7976d33cdeac91b75a3846057335dac3d599aa32f251bad051b70d9760ac7d70"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-dark.svg",
+          "sha256": "ecab1ca9fefc9b0b3a7d00b18f0438110e9740e7dd9cce4591e5dc7768a9eb40"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-dark.svg",
+          "sha256": "4f6a49d17b1fd8908dc826e12989e036844a5ef609906ebbf113ffcc21e6aa9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/margin-edges-main-and-final-v2-native-provenance.json",
+      "sha256": "fda4181e6a0d23985302af1fd7318111ddd78aea900b6f4bbe0a0b6163984ae6",
+      "bytes": 4488,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "ownerSha256": "3f3077248f85944befb3176792590618f20c0d4c23016c437420841aa389f74e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-light.svg",
+          "sha256": "0e05e0f42f0943e7dd072a6c0d97b72467e2c3efa4d167ca48127c9cbe34e426"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-light.svg",
+          "sha256": "7976d33cdeac91b75a3846057335dac3d599aa32f251bad051b70d9760ac7d70"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-dark.svg",
+          "sha256": "ecab1ca9fefc9b0b3a7d00b18f0438110e9740e7dd9cce4591e5dc7768a9eb40"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-dark.svg",
+          "sha256": "4f6a49d17b1fd8908dc826e12989e036844a5ef609906ebbf113ffcc21e6aa9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/pcr-components-v2-native-data.json",
+      "sha256": "a9804f1fe25a78588e373be967a9a622ad3add1d3ae60ebea5e02856fa6a9a46",
+      "bytes": 1139,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "ownerSha256": "a85c00fdea4d0a5756f397a974037067115397e25a43f39b07e501071a69e8b4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-light.svg",
+          "sha256": "299b9edf455c6ee211f150cdec8cbb12a0700333125f037a91094865d3ef006c"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-light.svg",
+          "sha256": "1bc39a2cde9b1df564870120ebc1e01ec65b94a993b5432c0c5a695be9e11d86"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-dark.svg",
+          "sha256": "a881a7a068e4f09e7955d81ee98478397095129b447527d61ba98167986cb95d"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-dark.svg",
+          "sha256": "0057b49bc73775ede8f996ca7f6934c9afe48d83a3f7cbf8019ec52f62be8e98"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/pcr-components-v2-native-provenance.json",
+      "sha256": "e98a3af7463bc0dc17a400e8e8c3b8826ca2a2f2396c27978ff5f98e13054216",
+      "bytes": 4504,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "ownerSha256": "a85c00fdea4d0a5756f397a974037067115397e25a43f39b07e501071a69e8b4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-light.svg",
+          "sha256": "299b9edf455c6ee211f150cdec8cbb12a0700333125f037a91094865d3ef006c"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-light.svg",
+          "sha256": "1bc39a2cde9b1df564870120ebc1e01ec65b94a993b5432c0c5a695be9e11d86"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-dark.svg",
+          "sha256": "a881a7a068e4f09e7955d81ee98478397095129b447527d61ba98167986cb95d"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-dark.svg",
+          "sha256": "0057b49bc73775ede8f996ca7f6934c9afe48d83a3f7cbf8019ec52f62be8e98"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/pcr-definitions-and-margins-v2-native-data.json",
+      "sha256": "a9804f1fe25a78588e373be967a9a622ad3add1d3ae60ebea5e02856fa6a9a46",
+      "bytes": 1139,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "ownerSha256": "a85c00fdea4d0a5756f397a974037067115397e25a43f39b07e501071a69e8b4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-light.svg",
+          "sha256": "299b9edf455c6ee211f150cdec8cbb12a0700333125f037a91094865d3ef006c"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-light.svg",
+          "sha256": "1bc39a2cde9b1df564870120ebc1e01ec65b94a993b5432c0c5a695be9e11d86"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-dark.svg",
+          "sha256": "a881a7a068e4f09e7955d81ee98478397095129b447527d61ba98167986cb95d"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-dark.svg",
+          "sha256": "0057b49bc73775ede8f996ca7f6934c9afe48d83a3f7cbf8019ec52f62be8e98"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/pcr-definitions-and-margins-v2-native-provenance.json",
+      "sha256": "3fc07dd04c51d35925d87ad1d2f5947b63745410f4bd810865d9fa2cb2670482",
+      "bytes": 4584,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "ownerSha256": "a85c00fdea4d0a5756f397a974037067115397e25a43f39b07e501071a69e8b4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-light.svg",
+          "sha256": "299b9edf455c6ee211f150cdec8cbb12a0700333125f037a91094865d3ef006c"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-light.svg",
+          "sha256": "1bc39a2cde9b1df564870120ebc1e01ec65b94a993b5432c0c5a695be9e11d86"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-dark.svg",
+          "sha256": "a881a7a068e4f09e7955d81ee98478397095129b447527d61ba98167986cb95d"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-dark.svg",
+          "sha256": "0057b49bc73775ede8f996ca7f6934c9afe48d83a3f7cbf8019ec52f62be8e98"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-data.json",
+      "sha256": "2b2dd6ccba7688370bfe5fe530350e07d458d8d30217e0c90bcdf7b69b2df6bd",
+      "bytes": 2332,
+      "owner": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ownerSha256": "9dee66d3c580c0de316b4a7e28f9785e2d5435fa840476407ac978508374bd3a",
+      "artworks": [
+        {
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg",
+          "sha256": "6e7651c9ce2e81200ab50908d01d76542b455a1595b53d00350a3fc0a8139338"
+        },
+        {
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-dark.svg",
+          "sha256": "348a9a8d9148ecc15d0aa687081b41d2422297f7d6ac764448d1664384e263e0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-provenance.json",
+      "sha256": "e5a7d4c5ea8eb459d6dd3d87b3ef28e8e246803faecd534af3cfae5f99cfb5c2",
+      "bytes": 4896,
+      "owner": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ownerSha256": "9dee66d3c580c0de316b4a7e28f9785e2d5435fa840476407ac978508374bd3a",
+      "artworks": [
+        {
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg",
+          "sha256": "6e7651c9ce2e81200ab50908d01d76542b455a1595b53d00350a3fc0a8139338"
+        },
+        {
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-dark.svg",
+          "sha256": "348a9a8d9148ecc15d0aa687081b41d2422297f7d6ac764448d1664384e263e0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/paired-reads-and-fragment-ancestry-v1-public-custody.json",
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+      "ownerSha256": "0a9ff5c81b0802d1ee63e5825cc89f72af9249dc99004d743a860346baab2d45",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-light.svg",
+          "sha256": "ff2cb8191349c7d2b952b1d7aab3cf257383fcf7a4172b87514e7ceed0d1b56c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-dark.svg",
+          "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody",
+      "sha256": "f5a8406b4ead9d1b799b7b48e9c00dd5beb179d33ae59c30cd121db66230a277",
+      "bytes": 11448
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-observation-and-protein-inference-v1-public-custody.json",
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md",
+      "ownerSha256": "b039bbd697fba0de1f4e1984809b83d27912da4a45a0439f3fcf4064593ff5b3",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg",
+          "sha256": "89fae3a866dd6a85060b6decd3eee966ab060cb5f88dcf2ad53bd86b1eed361b"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-dark.svg",
+          "sha256": "a1b1393132561e14d922e60488544e746d3e61d43e0fbcc08426fb99fee7cee8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody",
+      "sha256": "fb8ac6cf956fc7f646b0801b6c85105fba12517c2c5e4f2b3ec91b6d8d2eb3df",
+      "bytes": 10561
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/core-is-a-local-window-v1-public-custody.json",
+      "owner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "ownerSha256": "9074f241b5a7805190bd137120851b192d20cc58d1d24edb40d8a0248755226e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+          "sha256": "2c29af9b51c4717f01fbc6ce49725c4e7bc4098b951ff6cd37acaa99b713015f"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+          "sha256": "b66c0712a26a5470ad06d0484f592e8336d52cb574069751265a2d52e9cda22e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody",
+      "sha256": "b5d42c6cecaf7303cc9ce497cb45b87cf8477de06708fec33a94b0763e7ef3e5",
+      "bytes": 10836
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/core-versus-recovered-material-v2-public-custody.json",
+      "owner": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+      "ownerSha256": "2977859cf57862d1c15c0bc17d69e70aca43c932f2190cf354677dc7f7807abd",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+          "sha256": "d0a918a7c57c62e62a71353338d8334a8738541b6b0859b9edd4487767a66289"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+          "sha256": "9f45ee1bf67b5c68d23cb683b41974435ccc1e987d1616c9ca25732289fb94b4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody",
+      "sha256": "4b838e1de86f83d939380585ac4a8aea97afd6f44e4d1cfa961cabcdf3325504",
+      "bytes": 12398
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/sampled-pieces-versus-oriented-boundary-v2-public-custody.json",
+      "owner": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "ownerSha256": "de338c8e0439ea48e26d2ce2c33a03d4da4cb815a55285bb567dce89814de111",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+          "sha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+          "sha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody",
+      "sha256": "4f686e12f171bddfcad62a118123127fa8135f84282b9a454d35f060f8c56f0a",
+      "bytes": 12626
     }
   ]
 }

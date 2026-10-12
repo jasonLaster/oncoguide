@@ -1,0 +1,21 @@
+{
+  "fictional": true,
+  "notToScale": true,
+  "mainSpecimen": {
+    "orientation": "lateral edge at right",
+    "invasiveCancerAtOriginalLateralInk": true
+  },
+  "additionalLateralSpecimen": {
+    "relationshipToMain": "confirmed in this fictional example",
+    "oldFacingSurface": "left; faces the original lateral edge",
+    "newFinalOuterSurface": "right",
+    "invasiveCancerAtNewFinalOuterInk": true
+  },
+  "separateDistanceInset": {
+    "component": "DCIS",
+    "distanceToEvaluatedInkMM": 0.7,
+    "atInk": false,
+    "marginObservation": "narrow negative in this stated example",
+    "adequacyOrOperationAssigned": false
+  }
+}

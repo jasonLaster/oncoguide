@@ -37,6 +37,20 @@ For an oriented [surgical specimen](/wiki/education/concepts/measurement/specime
 
 A separately submitted margin may change which edge is final. Its orientation and relationship to the main specimen matter. If that relationship is unclear, the report can give the findings and request surgical correlation instead of inventing a final geometry.
 
+<!-- BEGIN NATIVE SUCCESSOR02 breast-pathways-01 -->
+<div class="my-6">
+  <img src="./images/margin-edges-main-and-final-v2-light.svg" alt="Panel 1 of 2. Fictional tissue schematics show invasive cells at the original lateral ink of a main specimen and at the final outer ink of a separate, confirmed lateral strip. An orientation inset keeps the specimens separate, with the old-facing surface distinct from the final outer edge. Continue to panel 2 for DCIS near versus at ink." width="360" height="640" data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">Panel 1 of 2: relate the main and additional specimens before naming the final edge. Continue below for DCIS near or at ink.</p>
+</div>
+
+<div class="my-6">
+  <img src="./images/margin-close-versus-at-ink-v2-light.svg" alt="Panel 2 of 2. Two fictional tissue insets contrast DCIS 0.7 mm from ink with DCIS reaching the cut ink of a transected duct. The distance is not to scale, and distance alone does not choose an operation. Panel 1 shows the separate main and additional specimens." width="360" height="800" data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">Panel 2 of 2: a fictional 0.7 mm gap differs from DCIS at the cut inked edge; the drawings are not to scale.</p>
+</div>
+
+<p class="text-sm text-muted-foreground">A final margin depends on the related specimens and their orientation. A small gap from ink is different from cancer at ink; adequacy still needs clinical context.</p>
+<!-- END NATIVE SUCCESSOR02 breast-pathways-01 -->
+
 | Report term | Tissue observation | Question still needing context |
 |---|---|---|
 | Positive or involved | Invasive cancer or DCIS at the final inked margin | Which component, edge and final specimen are involved? |

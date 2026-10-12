@@ -59,6 +59,13 @@ Imagine a fictional biopsy collected before systemic treatment. It identifies in
 
 The addendum's issue date is the newest date, but its tissue is the oldest. It cannot be described as a new post-treatment receptor measurement. The surgical specimens provide the postoperative tissue findings. The treatment record establishes the intervening delivery.
 
+<!-- BEGIN NATIVE PRODUCTION01 breast-pathways-03 -->
+<div class="my-6">
+  <img src="./images/specimen-treatment-report-clocks-v2-light.svg" alt="A shared day-0-to-120 timeline separates biopsy A at day 0 and surgery tissue B at day 100 from treatment plan and record rows. Four treatment events are planned at days 10, 30, 50 and 80; administrations are documented at 10, 50 and 80, while 30 is explicitly held. A day-120 addendum refers back to stored biopsy A, with no new sample." width="360" height="760" data-theme-pair />
+  <p class="text-sm text-muted-foreground mt-2">A new report can describe old tissue, and a planned treatment event may be held. Follow specimen identity and the documented record; these fictional days do not prescribe a schedule or explain an outcome.</p>
+</div>
+<!-- END NATIVE PRODUCTION01 breast-pathways-03 -->
+
 Build a card for each report: specimen and site, collection date, treatment context, method, final interpretation and pending qualifications. Do not combine fields from different cards until you can say which specimen each field came from.
 
 Imagine a fictional core showing invasive cancer, followed later by a resection with a treated bed. The core establishes findings in its sampled tissue; the operation adds a different extent of examination. A negative finding in one sampled region cannot cancel a positive finding in another by averaging the reports.

@@ -35,6 +35,20 @@ Think of meeting people from a building without receiving a floor plan. You can 
 
 A thin needle obtains cells or fluid from a selected site. **Cytology** is the examination of cells, including their shapes, nuclei and groupings. Material may be spread on slides or processed in liquid. A **cell block** concentrates recovered cells and fragments into material that can be sectioned, sometimes enabling additional staining or molecular testing.
 
+<!-- BEGIN SUCCESSOR PROSPECTIVE brief-260-B: scratch SVG candidate, independent G3 pending, not adopted -->
+### A piece of tissue, or recovered cells?
+
+A continuous core keeps some neighboring cells in their local arrangement. A fine needle aspiration (FNA) collects cells and fluid; it can also contain cell clusters and small tissue fragments. Those are useful findings, not an empty substitute for a core. A suitable cell block can prepare recovered material for sections or added tests. It does not restore the original lesion's full spatial map. Suitability still depends on the question and preparation.
+
+<img src="./images/core-versus-recovered-material-v2-light.svg" alt="Two schematic panels compare neighboring cells in a continuous core with a vessel containing fluid, individual cells, a cell cluster and a small tissue fragment; an optional preparation arrow leads from the recovered material to a cell block that does not reconstruct its original locations." data-theme-pair>
+
+Compare a continuous local core with recovered cells, fluid, clusters and fragments. An optional cell block can support suitable examination without recreating the original lesion's oriented architecture. The sketch is fictional and does not rank diagnostic accuracy or establish adequacy.
+
+**Try it:** A cell block contains a small cluster and supports a suitable additional stain. Does that establish the original lesion's complete boundary? **Answer:** No. Useful cell and local-fragment evidence can coexist with missing wider architecture.
+
+[Return to the local sampling window](core-needle-biopsy.md#how-it-works).
+<!-- END SUCCESSOR PROSPECTIVE brief-260-B -->
+
 This differs from [[wiki/education/concepts/measurement/specimens/core-needle-biopsy|core needle biopsy]], which more often preserves a continuous piece of tissue. An aspiration can identify malignant cells in an appropriate setting. In a breast lesion, however, dispersed cells generally cannot establish the full relationship between a duct boundary and surrounding tissue needed to distinguish in-situ from invasive disease. A cell block does not recreate the whole original lesion.
 
 **Adequacy** asks whether enough suitable material was obtained for the question. Rapid assessment during collection can sometimes help assess this; it does not guarantee that all later tests will succeed. Imaging, clinical context and the final laboratory interpretation still matter.

@@ -1,0 +1,35 @@
+{
+  "fictional": true,
+  "completeAssessmentAssumedForToyCases": true,
+  "scope": "Complete resected breast specimen and all sampled regional nodes after neoadjuvant systemic treatment; protocol-specific nodal rules remain explicit.",
+  "cases": [
+    {
+      "id": "A",
+      "breastResidualInvasive": false,
+      "breastResidualDCIS": true,
+      "regionalNodeResidualInvasive": false,
+      "commonDefinition": "meets ypT0/Tis ypN0",
+      "strictDefinition": "does not meet ypT0 ypN0",
+      "marginFinding": "DCIS at evaluated final inked edge",
+      "marginQuestionResolved": false
+    },
+    {
+      "id": "B",
+      "breastResidualInvasive": false,
+      "breastResidualDCIS": true,
+      "regionalNodeResidualInvasive": true,
+      "illustrativeNodeDepositMM": 4,
+      "commonDefinition": "does not meet",
+      "strictDefinition": "does not meet",
+      "marginFinding": "same fictional DCIS margin finding as A",
+      "marginQuestionResolved": false
+    }
+  ],
+  "noClaim": [
+    "Whole-body absence",
+    "Cure",
+    "Trial-level survival benefit",
+    "Unexamined nodes negative",
+    "Small-deposit classification"
+  ]
+}

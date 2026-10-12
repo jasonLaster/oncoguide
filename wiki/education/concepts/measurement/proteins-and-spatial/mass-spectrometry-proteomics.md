@@ -33,6 +33,21 @@ In common **bottom-up proteomics**, proteins are extracted and cut into **peptid
 
 Software compares observed patterns with candidate peptide sequences and applies identification rules. Protein inference combines peptide evidence: a peptide unique to a protein can be more informative than one shared by several proteins or forms. Bottom-up evidence does not automatically show that an intact, functional protein molecule was present.
 
+<!-- BEGIN INDEPENDENT INSERTION PROOF brief-253: scratch SVG candidate, independent G3 pending, not adopted -->
+Follow the sample until it becomes peptides. In a common bottom-up workflow, the laboratory cuts extracted proteins into short chains. The instrument measures peptide-ion signals and fragmentation patterns. Software then evaluates which peptide sequences fit that evidence. The intact proteins drawn before digestion are no longer being inspected whole.
+
+Here is the tricky part: two candidate proteins can contain the same peptide sequence. If that shared peptide is the only accepted evidence, it cannot choose between the candidates by itself. Useful protein inference asks what other peptide evidence was recovered and how the analysis handles ambiguity. A retrieved primary-study abstract describes the need to distinguish ambiguous from unambiguous protein identifications; it does not certify this toy diagram or an identification rule. [Lukasse and America, 2014](https://pubmed.ncbi.nlm.nih.gov/24815921/)
+
+Keep the sample boundary attached, too. A bulk tissue extract combines cells and loses their original positions. Even a higher receptor-derived peptide signal does not directly count accessible receptors on each cancer cell. That next question needs suitable cell-specific and surface evidence. The existing owner's assay card defines this limit; this draft does not supply a surface measurement.
+
+<img src="./images/peptide-observation-and-protein-inference-v1-light.svg" alt="Three scenes show proteins from a mixed tissue extract cut into peptides, a measured peptide signal matching a shared segment in two candidate protein sequences, and unresolved questions about the intact form, cell source and surface accessibility." data-theme-pair>
+
+In this fictional bottom-up example, peptide evidence supports an inference about possible protein sources; a shared peptide alone does not uniquely identify an intact protein or count accessible receptors on cancer cells. Candidate drawings and signal traces are schematic.
+
+**Try it beside the picture:** A shared peptide fits candidate A and candidate B. Can its detection alone tell us which candidate is present?  
+**Answer:** No. Both are compatible with that peptide. Additional evidence and explicit inference rules are needed; compatibility does not establish that both candidates are present.
+<!-- END INDEPENDENT INSERTION PROOF brief-253 -->
+
 Quantification can use relative ion intensities or labels comparing samples. A targeted assay measures selected peptides with predefined performance checks. Calibrated standards can support stated amounts, but extraction, digestion and sample-matrix effects still need validation. A peptide standard alone does not guarantee recovery of every original protein molecule.
 
 ```mermaid

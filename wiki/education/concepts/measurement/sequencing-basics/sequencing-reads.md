@@ -73,6 +73,19 @@ A small tumor population may contribute few variant-containing molecules. Many r
 
 ## Try it
 
+<!-- BEGIN INDEPENDENT INSERTION PROOF brief-098: scratch SVG candidate, independent G3 pending, not adopted -->
+Start at the left of the picture, where the fragments live. Each bracket joins two observations from the same fragment: one read from each end. You can count ten reads, but those ten observations are grouped into five pairs. Reading the second end adds information about that fragment; it does not add another original molecule. [Illumina's paired-end explanation](https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/paired-end-vs-single-read.html)
+
+Now follow the separate copy example. Several sequenced copies can trace back to one fragment. The instrument has made more observations, while the molecular ancestry remains shared. That is why a read count needs the preparation and counting rules beside it. A list of alignment records is another count again: one read may appear in several records. [SAM specification, sections 1.2 and 1.4](https://samtools.github.io/hts-specs/SAMv1.pdf)
+
+<img src="./images/paired-reads-and-fragment-ancestry-v1-light.svg" alt="Five labeled fragment rows each have a left-end read and a right-end read joined as one pair; a separate vignette traces three sequenced copies and their six reads back to one source fragment." data-theme-pair>
+
+Fictional example: ten overlapping paired-end reads represent at most five distinct library fragments; copies can reduce independent support further. The separate copy vignette shows ancestry, not a universal duplicate-filter rule or a count of cells.
+
+**Explain it back:** “The two ends help me place the fragment, but ____.”  
+**One answer:** “…they still come from the same fragment, and copies may share an earlier ancestor.”
+<!-- END INDEPENDENT INSERTION PROOF brief-098 -->
+
 A fictional finding has ten supporting reads, comprising five overlapping read pairs from five library fragments. Are there ten independent fragments?
 
 **Answer:** No. There are at most five represented library fragments. Duplicates may reduce that number further. Ask how the workflow establishes independent molecular support.

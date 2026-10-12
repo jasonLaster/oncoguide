@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "artworkStem": "pcr-definitions-and-margins-v2",
+  "canonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+  "panel": 2,
+  "completeConnectedPanelCount": 2,
+  "otherPanelStems": [
+    "pcr-components-v2"
+  ],
+  "method": "Original deterministic code-native SVG connected panel layout; original physical groups retained, vertical positions and minimum font sizes adjusted",
+  "editableSource": "design-source/render_panels.py",
+  "generatorSourceSHA256": "71f570c6d83c1edcfce54bdef69647a9d3abd8442421c93fe00bcb122cb7f1eb",
+  "frozenOriginalProgramSHA256": "a02a7600d66e527df10dbfbb206a47597c4be7521907a5a7514b3de14c2b53ca",
+  "imageModel": null,
+  "imageModelCalls": 0,
+  "sourceFigureCopies": 0,
+  "nativeAssets": [
+    {
+      "id": "breast-pathways-02",
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "stem": "pcr-definitions-and-margins-v2",
+      "panel": 2,
+      "totalPanels": 2,
+      "theme": "light",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-light.svg",
+      "sha256": "1bc39a2cde9b1df564870120ebc1e01ec65b94a993b5432c0c5a695be9e11d86",
+      "bytes": 6445,
+      "intrinsicWidth": 360,
+      "intrinsicHeight": 835,
+      "viewBox": [
+        0,
+        0,
+        360,
+        835
+      ]
+    },
+    {
+      "id": "breast-pathways-02",
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "stem": "pcr-definitions-and-margins-v2",
+      "panel": 2,
+      "totalPanels": 2,
+      "theme": "dark",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-dark.svg",
+      "sha256": "0057b49bc73775ede8f996ca7f6934c9afe48d83a3f7cbf8019ec52f62be8e98",
+      "bytes": 6445,
+      "intrinsicWidth": 360,
+      "intrinsicHeight": 835,
+      "viewBox": [
+        0,
+        0,
+        360,
+        835
+      ]
+    }
+  ],
+  "exactOriginalMemberTasksAndGuards": [
+    {
+      "page": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "section": "## Worked example",
+      "task": "Apply breast-and-node invasive clearance versus a stricter no-in-situ definition to the same component findings.",
+      "gap": "The checklist framing is sound, but the two definitions and changed nodal fact require a three-component contrast. A small breast-invasive/breast-in-situ/nodal table-diagram could make the permitted DCIS difference explicit; no cure stamp or whole-body illustration is appropriate.",
+      "guardrails": [
+        "Defined complete-surgical assessment, not negative scan/blood/small biopsy.",
+        "Residual DCIS can meet the common definition but remains a finding.",
+        "Do not infer cure, clear margins or trial-level survival benefit."
+      ]
+    }
+  ],
+  "scientificSourceIds": [
+    "FDA-2020",
+    "CTNEOBC-2014",
+    "CAP-2026",
+    "PROVENZANO-2015"
+  ],
+  "sourceDepth": "Same existing selected CAP/FDA/NCI/CONSORT passages and archived primary abstracts; no new access/science/clinical claim",
+  "toyData": {
+    "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/pcr-definitions-and-margins-v2-native-data.json",
+    "sha256": "a9804f1fe25a78588e373be967a9a622ad3add1d3ae60ebea5e02856fa6a9a46",
+    "fictional": true,
+    "unchangedFromNative01": true
+  },
+  "readerCopy": {
+    "id": "breast-pathways-02",
+    "panel": 2,
+    "totalPanels": 2,
+    "height": 835,
+    "title": "Apply both response definitions",
+    "alt": "Panel 2 of 2. The same fictional post-treatment cases share no residual invasive breast cancer, residual DCIS and identical DCIS at final ink. Case A has no residual nodal cancer found; case B has a fictional 4 mm invasive nodal deposit. A meets ypT0/Tis ypN0 but not ypT0 ypN0; B meets neither. Response does not settle margins or mean cure. Panel 1 shows the breast and nodal components.",
+    "caption": "Panel 2 of 2: case A meets ypT0/Tis ypN0 but not ypT0 ypN0; case B meets neither. The identical ink findings remain a separate margin question."
+  },
+  "acceptedOverallCaption": "Keep the definition beside the component findings. Permitted DCIS can coexist with a margin question, and residual invasive nodal disease changes the combined endpoint.",
+  "authoredClientDate": "2026-10-12",
+  "independentG3": "pending genuine root-assigned review",
+  "expertLearnerCanonicalReleaseAndCredit": "pending",
+  "reviewedSourceCommit": null
+}

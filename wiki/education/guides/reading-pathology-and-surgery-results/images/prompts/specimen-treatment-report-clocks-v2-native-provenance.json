@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "artworkStem": "specimen-treatment-report-clocks-v2",
+  "canonicalOwner": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+  "authoredClientDate": "2026-10-12",
+  "method": "Original deterministic code-native SVG, authored from scoped accepted tasks; no source-figure copy or trace",
+  "nativeSourceIsEditable": true,
+  "generatorCodeSHA256": "a02a7600d66e527df10dbfbb206a47597c4be7521907a5a7514b3de14c2b53ca",
+  "generatorLanguage": "Python standard library",
+  "imageModel": null,
+  "imageModelCalls": 0,
+  "sourceFiguresUsed": [],
+  "acceptedDesignSHA256": "e5cc71f2764a36e5e0f0805e329dc43c19ed33fd6b026e8fe1bc7c9f723fc8c3",
+  "exactOriginalMemberTasksAndGuards": [
+    {
+      "page": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "section": "A worked report card",
+      "task": "Recognize a late biopsy addendum as an interpretation of early tissue, not a post-treatment sample.",
+      "gap": "The three-date table is clear but an aligned collection/treatment/issue timeline would reveal the counterintuitive chronology immediately.",
+      "guardrails": "Fictional dates, distinct report and collection lanes; planned therapy is not delivered therapy; addendum does not mean resampling."
+    },
+    {
+      "page": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "section": "Keep three clocks separate",
+      "task": "Align biological collection, actual delivery and later reporting without conflating them.",
+      "gap": "The calendar table captures holds well; a separate-lane timeline would make the sampling-versus-reporting mismatch immediate.",
+      "guardrails": "No regimen dates or dose advice; show planned versus delivered separately and do not attribute outcome to a hold or substitution."
+    }
+  ],
+  "scientificSourceIds": [
+    "NCI-REPORT",
+    "CAP-2026",
+    "PROVENZANO-2015",
+    "CONSORT-2025-24a"
+  ],
+  "sourceDepth": "Existing source/card and scoped independent G1/G2 evidence retained; no new full-paper, clinical, expert or learner claim",
+  "toyData": {
+    "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-data.json",
+    "sha256": "2b2dd6ccba7688370bfe5fe530350e07d458d8d30217e0c90bcdf7b69b2df6bd",
+    "fictional": true
+  },
+  "nativeAssets": [
+    {
+      "id": "breast-pathways-03",
+      "owner": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "stem": "specimen-treatment-report-clocks-v2",
+      "theme": "light",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg",
+      "sha256": "6e7651c9ce2e81200ab50908d01d76542b455a1595b53d00350a3fc0a8139338",
+      "bytes": 8103,
+      "intrinsicWidth": 360,
+      "intrinsicHeight": 760,
+      "viewBox": [
+        0,
+        0,
+        360,
+        760
+      ]
+    },
+    {
+      "id": "breast-pathways-03",
+      "owner": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "stem": "specimen-treatment-report-clocks-v2",
+      "theme": "dark",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-dark.svg",
+      "sha256": "348a9a8d9148ecc15d0aa687081b41d2422297f7d6ac764448d1664384e263e0",
+      "bytes": 8103,
+      "intrinsicWidth": 360,
+      "intrinsicHeight": 760,
+      "viewBox": [
+        0,
+        0,
+        360,
+        760
+      ]
+    }
+  ],
+  "readerCopy": {
+    "caption": "A new report can describe old tissue, and a planned treatment event may be held. Follow specimen identity and the documented record; these fictional days do not prescribe a schedule or explain an outcome.",
+    "alt": "A shared day-0-to-120 timeline separates biopsy A at day 0 and surgery tissue B at day 100 from treatment plan and record rows. Four treatment events are planned at days 10, 30, 50 and 80; administrations are documented at 10, 50 and 80, while 30 is explicitly held. A day-120 addendum refers back to stored biopsy A, with no new sample."
+  },
+  "matchingThemes": "Same text, objects, measurements, coordinates and uncertainty; palette-only conversion",
+  "independentG3": "pending",
+  "expertAndLearnerReview": "pending",
+  "canonicalAdoptionReleaseAndCredit": "pending",
+  "reviewedSourceCommit": null,
+  "ownerBeforeSHA256": "5e90bba0f9b57522dd5c3d73ca9b4fccfd3232cf8e9ce09de624eb3493eab1e6",
+  "ownerProspectiveSHA256": "9dee66d3c580c0de316b4a7e28f9785e2d5435fa840476407ac978508374bd3a",
+  "generatorCodeCustody": "Exact original source program retained in author G3 handoff; native SVG itself is editable source. No static public generator-download URL or self-contained public replay is claimed."
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "artworkStem": "margin-close-versus-at-ink-v2",
+  "canonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+  "panel": 2,
+  "completeConnectedPanelCount": 2,
+  "otherPanelStems": [
+    "margin-edges-main-and-final-v2"
+  ],
+  "method": "Original deterministic code-native SVG connected panel layout; original physical groups retained, vertical positions and minimum font sizes adjusted",
+  "editableSource": "design-source/render_panels.py",
+  "generatorSourceSHA256": "71f570c6d83c1edcfce54bdef69647a9d3abd8442421c93fe00bcb122cb7f1eb",
+  "frozenOriginalProgramSHA256": "a02a7600d66e527df10dbfbb206a47597c4be7521907a5a7514b3de14c2b53ca",
+  "imageModel": null,
+  "imageModelCalls": 0,
+  "sourceFigureCopies": 0,
+  "nativeAssets": [
+    {
+      "id": "breast-pathways-01",
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "stem": "margin-close-versus-at-ink-v2",
+      "panel": 2,
+      "totalPanels": 2,
+      "theme": "light",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-light.svg",
+      "sha256": "7976d33cdeac91b75a3846057335dac3d599aa32f251bad051b70d9760ac7d70",
+      "bytes": 5328,
+      "intrinsicWidth": 360,
+      "intrinsicHeight": 800,
+      "viewBox": [
+        0,
+        0,
+        360,
+        800
+      ]
+    },
+    {
+      "id": "breast-pathways-01",
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "stem": "margin-close-versus-at-ink-v2",
+      "panel": 2,
+      "totalPanels": 2,
+      "theme": "dark",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-dark.svg",
+      "sha256": "4f6a49d17b1fd8908dc826e12989e036844a5ef609906ebbf113ffcc21e6aa9f",
+      "bytes": 5328,
+      "intrinsicWidth": 360,
+      "intrinsicHeight": 800,
+      "viewBox": [
+        0,
+        0,
+        360,
+        800
+      ]
+    }
+  ],
+  "exactOriginalMemberTasksAndGuards": [
+    {
+      "page": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "section": "## How it works",
+      "task": "Identify tumor at a cut inked edge versus a close negative edge and a separately submitted final margin.",
+      "gap": "The reporting table is strong but physical specimen geometry is the hard idea. A simple oriented-tissue cutaway with main edge, additional tissue and final outer edge would explain why the original edge need not remain final, while a second inset distinguishes distance from tumor at ink.",
+      "guardrails": [
+        "No automatic operation or universal adequate-distance rule.",
+        "Ink artifacts and unresolved orientation cannot be erased by a tidy sketch.",
+        "Do not depict a local negative edge as whole-body clearance."
+      ]
+    }
+  ],
+  "scientificSourceIds": [
+    "CAP-2026"
+  ],
+  "sourceDepth": "Same existing selected CAP/FDA/NCI/CONSORT passages and archived primary abstracts; no new access/science/clinical claim",
+  "toyData": {
+    "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/margin-close-versus-at-ink-v2-native-data.json",
+    "sha256": "d3a9e484acbd1f1d376b6125a682efb56744fcbeb92f808335d92193ead3a443",
+    "fictional": true,
+    "unchangedFromNative01": true
+  },
+  "readerCopy": {
+    "id": "breast-pathways-01",
+    "panel": 2,
+    "totalPanels": 2,
+    "height": 800,
+    "title": "Near ink, or at ink?",
+    "alt": "Panel 2 of 2. Two fictional tissue insets contrast DCIS 0.7 mm from ink with DCIS reaching the cut ink of a transected duct. The distance is not to scale, and distance alone does not choose an operation. Panel 1 shows the separate main and additional specimens.",
+    "caption": "Panel 2 of 2: a fictional 0.7 mm gap differs from DCIS at the cut inked edge; the drawings are not to scale."
+  },
+  "acceptedOverallCaption": "A final margin depends on the related specimens and their orientation. A small gap from ink is different from cancer at ink; adequacy still needs clinical context.",
+  "authoredClientDate": "2026-10-12",
+  "independentG3": "pending genuine root-assigned review",
+  "expertLearnerCanonicalReleaseAndCredit": "pending",
+  "reviewedSourceCommit": null
+}
