@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "sourceRepository": "jasonLaster/diana-tnbc",
+  "reviewedSourceCommit": "f2f2635617e63cea513d38106e88cffca84e272b",
+  "artifacts": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
+      "sha256": "7a6bd7dba8c71670c8d5f857e4ca6437979246c3ab5d6994159a63a16e5d7232",
+      "bytes": 5599,
+      "owner": "wiki/education/concepts/biology-basics/cells/epithelium-and-stroma.md",
+      "ownerSha256": "31b5dbf0f7c621f9629ca7265cb1f666a90c9b520ae5b1b4ff7e6c46ddb14499",
+      "artwork": "wiki/education/concepts/biology-basics/cells/images/epithelium-tissue-boundaries-v2-light.png",
+      "artworkSha256": "e673d68bff3c9eae902478efcc9107667c304b88f8c7bfb4296a1e595eaad07b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-provenance.json",
+      "sha256": "0f2f901f87c5f7b83cbe11b9ac51f7ba8dbb6fc9e66b4a67eafe8d516ded28a6",
+      "bytes": 4129,
+      "owner": "wiki/education/concepts/biology-basics/cells/epithelium-and-stroma.md",
+      "ownerSha256": "31b5dbf0f7c621f9629ca7265cb1f666a90c9b520ae5b1b4ff7e6c46ddb14499",
+      "artwork": "wiki/education/concepts/biology-basics/cells/images/epithelium-tissue-boundaries-v2-light.png",
+      "artworkSha256": "e673d68bff3c9eae902478efcc9107667c304b88f8c7bfb4296a1e595eaad07b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-provenance.zip",
+      "sha256": "1f2689793d59493f7efa84224863d3d7ca7862c163502b51db169bc7040eb9a3",
+      "bytes": 10886,
+      "owner": "wiki/education/concepts/biology-basics/cells/epithelium-and-stroma.md",
+      "ownerSha256": "31b5dbf0f7c621f9629ca7265cb1f666a90c9b520ae5b1b4ff7e6c46ddb14499",
+      "artwork": "wiki/education/concepts/biology-basics/cells/images/epithelium-tissue-boundaries-v2-light.png",
+      "artworkSha256": "e673d68bff3c9eae902478efcc9107667c304b88f8c7bfb4296a1e595eaad07b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/contacting-domain-surfaces-v1-dark-01-args.json",
+      "sha256": "6674b047a6b1ceeb3cc9a87ae07133fb6b8c350d2540367e2280c30935b3431b",
+      "bytes": 1844,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/contacting-domain-surfaces-v1-light.png",
+      "artworkSha256": "61ad2576804ab929c476b36e3ce020d03e84c4771432cd820ca251254cef017f",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/contacting-domain-surfaces-v1-dark-01.txt",
+      "sha256": "654f82f1a4ca52d6f8e2d50ca0aabda62c2950ac43c9f2b9e1a0d5cc14e0c649",
+      "bytes": 1656,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/contacting-domain-surfaces-v1-light.png",
+      "artworkSha256": "61ad2576804ab929c476b36e3ce020d03e84c4771432cd820ca251254cef017f",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/contacting-domain-surfaces-v1-light-01-args.json",
+      "sha256": "6812e80c29e86f882d342ee115398893561ea546a186254b492d54a8e3965c1c",
+      "bytes": 4478,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/contacting-domain-surfaces-v1-light.png",
+      "artworkSha256": "61ad2576804ab929c476b36e3ce020d03e84c4771432cd820ca251254cef017f",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/contacting-domain-surfaces-v1-light-01.txt",
+      "sha256": "464e3d4ffd390e83050916b9670f12c433deaba36b6febc4937a28c4070879d1",
+      "bytes": 4375,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/contacting-domain-surfaces-v1-light.png",
+      "artworkSha256": "61ad2576804ab929c476b36e3ce020d03e84c4771432cd820ca251254cef017f",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/contacting-domain-surfaces-v1-provenance.json",
+      "sha256": "b6311cfd8ebd80bfb3f0c7e82b08d6b99882b5d3817fc1918ea7239dad4ed64a",
+      "bytes": 4076,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/contacting-domain-surfaces-v1-light.png",
+      "artworkSha256": "61ad2576804ab929c476b36e3ce020d03e84c4771432cd820ca251254cef017f",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-dark-01-args.json",
+      "sha256": "15890e06ba25c184dd2cc748b104e1275fca7ab475f58561a9c00b9769789524",
+      "bytes": 2029,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-dark-01.txt",
+      "sha256": "40a97ecad634958459556fba1e95d589b211b840bb61db77723935f71a08bd35",
+      "bytes": 1860,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-01-args.json",
+      "sha256": "3be749c64c4ac8c5b8d0d2c8118ba0ae804380167f31c9a3ad7765e88c9f28c6",
+      "bytes": 4886,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-01.txt",
+      "sha256": "5176185f6d970390a35f59d2dbbd64f80687fb8aaa7f7e49472c0505274e6657",
+      "bytes": 4766,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-02-args.json",
+      "sha256": "842bf861d7bc86df3b7026d3a8a1b544bbfb261a192c34561416899254f83145",
+      "bytes": 1612,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-02.txt",
+      "sha256": "b7721b49cd234180de255e853da62fa4924a34b385f8d5e45dd556be8d744541",
+      "bytes": 1443,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-03-args.json",
+      "sha256": "0808469274ca979f38a1eebc4cd9e84ec708e23319c781c6c9953f7bf03e166b",
+      "bytes": 1548,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-03.txt",
+      "sha256": "99bdbe71b3f8c116084b0147db090a5e1d093842ac3d60304a616cf0b522c96b",
+      "bytes": 1375,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-04-args.json",
+      "sha256": "98c110c32d445d31ed946a0b49c22ea0a78be63708ff7da6e38262bd2af6a473",
+      "bytes": 2095,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-light-04.txt",
+      "sha256": "6b2414a90e25a1886c1917c95ddfa5d9904f3a943b6ee09954b6b59a73c3819f",
+      "bytes": 1897,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/local-folds-and-domain-arrangement-v1-provenance.json",
+      "sha256": "2f024c2aed5ceda6e74743c667c53104bda34494c0e03d8e7a7beced4084c36b",
+      "bytes": 5956,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "ownerSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+      "artwork": "wiki/education/concepts/biology-basics/molecules/images/local-folds-and-domain-arrangement-v1-light.png",
+      "artworkSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-dark-call.json",
+      "sha256": "5160f47f7d8ee9063773b98ac466677a1d4dbd9a4d27eaec1ca4a5d9a4adaf37",
+      "bytes": 2060,
+      "owner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+      "ownerSha256": "cea94d2945ee4dea5562f80f8d90cae73398c71fbd484186c4bf5a07fcf7302d",
+      "artwork": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "artworkSha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-light-call.json",
+      "sha256": "d84a891bbabee38c8bcac7399161eabd7d6f0eec6419e4a0b4e74ad0e9ce227f",
+      "bytes": 4972,
+      "owner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+      "ownerSha256": "cea94d2945ee4dea5562f80f8d90cae73398c71fbd484186c4bf5a07fcf7302d",
+      "artwork": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "artworkSha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1.generation.json",
+      "sha256": "88f06bdac9ff48fe16620b64deeddeebced5de31b1914674fa65a29dffc4123b",
+      "bytes": 3558,
+      "owner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+      "ownerSha256": "cea94d2945ee4dea5562f80f8d90cae73398c71fbd484186c4bf5a07fcf7302d",
+      "artwork": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "artworkSha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "contentClass": "source-owned-public-custody"
+    }
+  ]
+}

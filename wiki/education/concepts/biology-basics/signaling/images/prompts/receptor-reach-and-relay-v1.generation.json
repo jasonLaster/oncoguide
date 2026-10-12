@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-032",
+  "owner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+  "sourceCommit": "44318feb6d9d51a72dc2d00fe64b2f732484e754",
+  "frozenOwnerSHA256": "f41edc7f7841f71de213207801b41a9c2c87595b0370573a41e5fe6043eaffe5",
+  "candidateSHA256": "cea94d2945ee4dea5562f80f8d90cae73398c71fbd484186c4bf5a07fcf7302d",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "model": "unknown",
+  "modelEvidence": "Only image_url and output_hint returned; no model identifier returned. No model inferred from skill defaults or PNG metadata.",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "rasterAltered": false
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+      "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+      "nativeIHDR": [
+        1024,
+        1536
+      ],
+      "rasterAltered": false
+    }
+  ],
+  "basePrompt": {
+    "path": "images/prompts/receptor-reach-and-relay-v1.txt",
+    "sha256": "47cbcbfce074100451bd580f229fe3f6f32267be34cc833f54f3141029c1fa50"
+  },
+  "exactThemeCalls": [
+    {
+      "theme": "light",
+      "argsPath": "images/prompts/receptor-reach-and-relay-v1-light-call.json",
+      "argsSHA256": "d84a891bbabee38c8bcac7399161eabd7d6f0eec6419e4a0b4e74ad0e9ce227f",
+      "associatedTXT": "images/prompts/receptor-reach-and-relay-v1-light-call.txt",
+      "associatedTXTSHA256": "10bbdd4081a1b227327d9df6f816c53136f277b7abcd7057b39c5e2e18be41d7"
+    },
+    {
+      "theme": "dark",
+      "argsPath": "images/prompts/receptor-reach-and-relay-v1-dark-call.json",
+      "argsSHA256": "5160f47f7d8ee9063773b98ac466677a1d4dbd9a4d27eaec1ca4a5d9a4adaf37",
+      "associatedTXT": "images/prompts/receptor-reach-and-relay-v1-dark-call.txt",
+      "associatedTXTSHA256": "20c1348b384ad92d55e063f6dfdaa7bfa489dc695520d3fae4034ed1001d202f"
+    }
+  ],
+  "lineage": {
+    "light": "Original corrected generation, accepted light-02; rejected light-01 retained privately",
+    "dark": "Theme edit with exact independently accepted light as sole reference",
+    "referenceSHA256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+    "geometryObjectsLabelsArrowsRequiredInvariant": true
+  },
+  "independentLightGate": {
+    "reviewSHA256": "68150d170ff1276e7b3bbfa72cbf8209f60b18da5443ffc4ca838375a9e8f57d",
+    "reviewCreatedUTC": "2026-10-11T21:52:01.337716+00:00",
+    "gateVerifiedUTC": "2026-10-11T21:52:49.192415+00:00",
+    "acceptedLightSHA256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+    "verdict": "PASS",
+    "scope": "exact light/science/mobile-caption/full candidate; not whole pair or production"
+  },
+  "sourceCheck": {
+    "date": "2026-10-11",
+    "depth": "Selected primary abstract-level mechanism checks; no full-paper or figure review claimed",
+    "primaryURLs": [
+      "https://www.nature.com/articles/s41467-020-17364-5",
+      "https://www.nature.com/articles/nature10361",
+      "https://mcb.berkeley.edu/courses/mcb230/jk_pdfs/Zhang%26Kuriyan.pdf",
+      "https://www.nature.com/articles/39645",
+      "https://pubmed.ncbi.nlm.nih.gov/9973260/"
+    ],
+    "copiedThirdPartyFigureOrPaper": false
+  },
+  "humanReview": "pending",
+  "credit": 0,
+  "publicationClaimed": false
+}

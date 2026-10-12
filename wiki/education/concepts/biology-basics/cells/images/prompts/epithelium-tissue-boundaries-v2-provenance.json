@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "illustration": "Epithelium and stroma: tissue boundaries",
+  "kind": "Owned generated scientific teaching schematic",
+  "owner": "wiki/education/concepts/biology-basics/cells/epithelium-and-stroma.md",
+  "sourceCommit": "44318feb6d9d51a72dc2d00fe64b2f732484e754",
+  "frozenOwnerSha256": "925f9fcaa0a336707a88e250ce52b1511f12e93f224cbcb510368d4c0f26118e",
+  "learnerTask": "Locate lumen, epithelial cells, basement membrane and mixed stroma; distinguish a tissue boundary from individual cell membranes.",
+  "scientificScope": "Generic simplified normal epithelial lining, not a breast-duct blueprint, measured proportions, malignancy claim or invasion test. RNA mark identifies a possible stromal cellular contributor, not an expression amount, cancer-cell target or treatment effect.",
+  "sources": [
+    {
+      "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html",
+      "support": "Generic epithelial/basement geometry",
+      "accessDepth": "Official anatomy page read"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/",
+      "doi": "10.1038/s41586-023-06252-9",
+      "support": "Normal single-cell/spatial atlas and non-epithelial populations",
+      "accessDepth": "Actual primary abstract retrieved through NCBI EFetch; fibroblast identity also supported by retrieved indexed primary PMC passage; full article not newly retrieved"
+    }
+  ],
+  "actualMechanism": "Built-in image_gen tool; no CLI or external raster transformation",
+  "model": "unknown",
+  "modelEvidence": "Actual tool results returned only image_url and output_hint, with no model/version field.",
+  "nativeOutputs": [
+    {
+      "theme": "light",
+      "sha256": "e673d68bff3c9eae902478efcc9107667c304b88f8c7bfb4296a1e595eaad07b",
+      "bytes": 2312426,
+      "actualNativeIHDR": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "theme": "dark",
+      "sha256": "94a1bfd1d0245afb9e266cd1c3018124dbd8cce6e55435153d602654fcdbea63",
+      "bytes": 2982188,
+      "actualNativeIHDR": {
+        "width": 1254,
+        "height": 1254
+      }
+    }
+  ],
+  "lineage": [
+    {
+      "stage": "Light generation",
+      "executedPrompt": "epithelium-tissue-boundaries-v2-light-generation-call.txt",
+      "outputSha256": "eeefa5752ac8247d59aba30b7d3c87d07b4cf0da27b79fa077becc64c365401e",
+      "disposition": "Superseded after independent request to remove unassigned stromal oval flecks; original retained in author/reviewer custody, excluded from public payload"
+    },
+    {
+      "stage": "Targeted light repair",
+      "executedPrompt": "epithelium-tissue-boundaries-v2-light-call.txt",
+      "referenceSha256": "eeefa5752ac8247d59aba30b7d3c87d07b4cf0da27b79fa077becc64c365401e",
+      "outputSha256": "e673d68bff3c9eae902478efcc9107667c304b88f8c7bfb4296a1e595eaad07b"
+    },
+    {
+      "stage": "Dark theme rendering",
+      "executedPrompt": "epithelium-tissue-boundaries-v2-dark-call.txt",
+      "referenceSha256": "e673d68bff3c9eae902478efcc9107667c304b88f8c7bfb4296a1e595eaad07b",
+      "outputSha256": "94a1bfd1d0245afb9e266cd1c3018124dbd8cce6e55435153d602654fcdbea63",
+      "gate": "Actual independent LIGHT02 PASS before generation",
+      "lightReviewReceiptSha256": "46955f8b1cec92b938a7b87408854b47fe3416c580964d9be059ce293d85fc6d"
+    }
+  ],
+  "illustrativeObjectCounts": {
+    "epithelialCells": 8,
+    "lumen": 1,
+    "basementRibbon": 1,
+    "fibroblast": 1,
+    "immuneCell": 1,
+    "vessel": 1,
+    "redBloodCells": 2,
+    "RNAmark": 1,
+    "meaning": "Artist-selected examples only; not measured tissue proportions"
+  },
+  "humanReview": "Expert and learner review pending",
+  "coverageCredit": 0,
+  "acceptanceScope": "Provenance records creation and source limits only. Independent pair review, publication, deployed-reader acceptance and coverage accounting are separate evidence.",
+  "publicExclusions": [
+    "Full third-party articles and source figures",
+    "Superseded/rejected raster",
+    "Private local paths and credentials",
+    "Raw tool response image_url data and private review screenshots"
+  ]
+}

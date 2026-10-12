@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+  "targetSection": "## How it works",
+  "sourceCommit": "44318feb6d9d51a72dc2d00fe64b2f732484e754",
+  "assignmentSha256": "fe3f6409708b240fc0d4f4449c41a73c77861f410c22a95e52cbee37d18ed5b4",
+  "ownerBeforeSha256": "914530c883fbfa88fac80a4c7979074237f6a82928b3a5d485ac31b94ebf6764",
+  "candidateSha256": "c53eb07034c02b9233662b3316bd502646784589769ba5d60ea2cd52171ddae8",
+  "basePromptSha256": "e3e6fee476596e895c3f5447e9a144908c2fd39c9f0089548127e2baead184f4",
+  "learningTask": "Same local-domain predictions can have uncertain relative placement, so a proposed inter-domain pocket needs separate arrangement evidence.",
+  "drawingStatus": "Fictional single-chain schematic; no real coordinates or experimentally observed conformational distribution.",
+  "tool": "image_gen.imagegen",
+  "actualModel": "unknown; result exposes image_url/output_hint only",
+  "unknownSeedAndGeneratorVersion": true,
+  "sources": [
+    {
+      "url": "https://www.nature.com/articles/s41586-021-03819-2",
+      "depth": "Selected primary HTML local-confidence discussion and Figure2 caption; no full-paper/Methods/source-figure certification."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-021-03828-1",
+      "depth": "Selected primary HTML Model confidence and full-length-chain/domain-packing discussion; no full-paper/supplement/source-figure certification."
+    }
+  ],
+  "lineage": [
+    {
+      "attempt": "light-01",
+      "mode": "generation",
+      "nativeSha256": "bc8757cbca439d9ec28d7d6e64facb9f372d943e31584df12a4ee7e570daa9e2",
+      "nativeWidth": 1024,
+      "nativeHeight": 1536,
+      "argsSha256": "3be749c64c4ac8c5b8d0d2c8118ba0ae804380167f31c9a3ad7765e88c9f28c6",
+      "verbatimExecutedPromptSha256": "5176185f6d970390a35f59d2dbbd64f80687fb8aaa7f7e49472c0505274e6657",
+      "originalToolResultSha256": "18266ae2631ff424cf0939147e35baf3ae93c600ff856f845d327c255c716f29",
+      "model": "unknown; not returned by tool",
+      "referenceImageSha256": null,
+      "selectedNativeForPair": false
+    },
+    {
+      "attempt": "light-02",
+      "mode": "actual-reference edit",
+      "nativeSha256": "e32269455772a559a54bfc0ea6856bac4cf70ccf38c0a5e00be8fa7b3a863348",
+      "nativeWidth": 1024,
+      "nativeHeight": 1536,
+      "argsSha256": "842bf861d7bc86df3b7026d3a8a1b544bbfb261a192c34561416899254f83145",
+      "verbatimExecutedPromptSha256": "b7721b49cd234180de255e853da62fa4924a34b385f8d5e45dd556be8d744541",
+      "originalToolResultSha256": "bf69228893c473eb3fdc9cae1edf3c1ed591c7ea1614e6fd0793796af07fa953",
+      "model": "unknown; not returned by tool",
+      "referenceImageSha256": "bc8757cbca439d9ec28d7d6e64facb9f372d943e31584df12a4ee7e570daa9e2",
+      "selectedNativeForPair": false
+    },
+    {
+      "attempt": "light-03",
+      "mode": "actual-reference edit",
+      "nativeSha256": "975d01b5b21805071ffce0d5a723219fc20f77f0d3cd311571d2035361fa23af",
+      "nativeWidth": 1024,
+      "nativeHeight": 1536,
+      "argsSha256": "0808469274ca979f38a1eebc4cd9e84ec708e23319c781c6c9953f7bf03e166b",
+      "verbatimExecutedPromptSha256": "99bdbe71b3f8c116084b0147db090a5e1d093842ac3d60304a616cf0b522c96b",
+      "originalToolResultSha256": "13ffe82843b21d79474e1fa128c503e2b6c740a57a3883f9d7494cec942c084d",
+      "model": "unknown; not returned by tool",
+      "referenceImageSha256": "e32269455772a559a54bfc0ea6856bac4cf70ccf38c0a5e00be8fa7b3a863348",
+      "selectedNativeForPair": false
+    },
+    {
+      "attempt": "light-04",
+      "mode": "actual-reference edit",
+      "nativeSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "nativeWidth": 1024,
+      "nativeHeight": 1536,
+      "argsSha256": "98c110c32d445d31ed946a0b49c22ea0a78be63708ff7da6e38262bd2af6a473",
+      "verbatimExecutedPromptSha256": "6b2414a90e25a1886c1917c95ddfa5d9904f3a943b6ee09954b6b59a73c3819f",
+      "originalToolResultSha256": "f0b8ebfa04d25411bb4f9e90bb8b7da8b02d8dd880b0be7b51c2319697f40d4f",
+      "model": "unknown; not returned by tool",
+      "referenceImageSha256": "975d01b5b21805071ffce0d5a723219fc20f77f0d3cd311571d2035361fa23af",
+      "selectedNativeForPair": true
+    },
+    {
+      "attempt": "dark-01",
+      "mode": "actual-reference edit",
+      "nativeSha256": "51efdde45c06bdce3367a3b10f206eef62f3d240bdffbd7ad65c45e7b91ac316",
+      "nativeWidth": 1024,
+      "nativeHeight": 1536,
+      "argsSha256": "15890e06ba25c184dd2cc748b104e1275fca7ab475f58561a9c00b9769789524",
+      "verbatimExecutedPromptSha256": "40a97ecad634958459556fba1e95d589b211b840bb61db77723935f71a08bd35",
+      "originalToolResultSha256": "d7210ba5e42cb152662adb8d979892d7615fdf801e7ade85844ff0456845bed8",
+      "model": "unknown; not returned by tool",
+      "referenceImageSha256": "8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b",
+      "selectedNativeForPair": true
+    }
+  ],
+  "independentAcceptedLightReviewSha256": "9cee04b558e1e85edb3b9e7c536fad612ec3a3a3693a13c0e9cb5a03015879e2",
+  "actualDarkReference": "light-04 native8a08a1e5338db71b36bcd4925dc92bcf2fc51a329ea82d6768e4887da59e520b after independent light PASS",
+  "sourceMeaningLimits": [
+    "Prediction uncertainty is not proof of molecular motion or intrinsic disorder.",
+    "Confidence is not abundance, binding affinity, activity or clinical effect.",
+    "Schematic repeated folds support semantic continuity; no atomistic/coordinate or pixel-identical certification."
+  ],
+  "humanReview": "Expert and learner review pending.",
+  "accounting": "No coverage credit assigned by author.",
+  "publicArchiveCustody": "Only current public owner candidate, selected owned image pair and owned prompts/provenance. Rejected rasters, captured screenshots, raw image-tool base64 results, assignment internals and third-party papers/figures excluded. Original attempts/results remain in local author custody."
+}

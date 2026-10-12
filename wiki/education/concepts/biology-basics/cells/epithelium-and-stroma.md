@@ -46,6 +46,12 @@ flowchart TD
 
 *A simplified normal epithelial arrangement. Lines show neighboring compartments, not invasion or a flow of molecules.*
 
+<img src="./images/epithelium-tissue-boundaries-v2-light.png" width="1254" height="1254" alt="A simplified normal epithelial ring surrounds a lumen. Individual cell membranes outline each epithelial cell, while a continuous extracellular basement membrane borders the whole ring. Outside are matrix fibres, a fibroblast with an intracellular RNA mark, an immune cell and a vessel." data-theme-pair>
+
+*The basement membrane borders the epithelial structure; a plasma membrane surrounds each cell. This generic normal lining and its representative stromal neighbors are a schematic, not measured cell proportions, a breast-duct blueprint or an invasion test.*
+
+The RNA (ribonucleic acid) mark sits inside the fibroblast: a tissue RNA signal can come from a stromal cell. The [primary normal-breast atlas by Kumar and colleagues](https://pubmed.ncbi.nlm.nih.gov/37380767/) distinguishes epithelial, immune and stromal cell populations; this drawing uses a simpler generic lining rather than reproducing that atlas’s tissue architecture.
+
 ## Why it matters in cancer
 
 **Carcinoma** is a cancer of epithelial origin. Other cancers arise in other cell families, so epithelial architecture is not a universal cancer map. Within a carcinoma specimen, normal epithelium, malignant epithelial cells, immune cells and supporting tissue can coexist.

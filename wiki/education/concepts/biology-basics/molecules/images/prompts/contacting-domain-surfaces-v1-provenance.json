@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-031-interface-addendum",
+  "owner": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+  "targetSection": "## How it works",
+  "historicalAuthorSourceCommit": "44318feb6d9d51a72dc2d00fe64b2f732484e754",
+  "currentSourceAtBeforeHashCheck": "d9290b0315cff20f796bcbe17578067aacee97fa",
+  "canonicalBeforeSha256": "914530c883fbfa88fac80a4c7979074237f6a82928b3a5d485ac31b94ebf6764",
+  "acceptedV1CandidateBeforeSha256": "c53eb07034c02b9233662b3316bd502646784589769ba5d60ea2cd52171ddae8",
+  "fullAdditiveCandidateSha256": "9151cdc8db0b277864bec0728643ba82add55936d3fbf8098b97d3d6fb23bbdd",
+  "originalV1PublicManifestSha256": "f762e039273751bb723c133847736a80a663a887eee30832685cbe473a9ef3a1",
+  "rootWholeTaskPartialBasisSha256": "2d3a65569ec2b2abefaa9617dcb53651db4ed30ec5f79091d809022d86d16a4f",
+  "remedyBriefSha256": "dbb498cb31e4c27d1222f51f75c8b9423836542528a493898a100d19bab04671",
+  "genuineBeforeGenerationBriefPassSha256": "4c3977de4b605845c709166f66c6e9fbda907d3ed40c736fb066d960bf123e5d",
+  "genuineLightBeforeDarkPassSha256": "29b06baa065b6dc315a32b8c01d8d4e1a71555d1ccbabb5897849b9cb0c1c89e",
+  "basePromptSha256": "571d0d4cd55ca57906f8564b52dff6d01de1a5d2872e4b3917673d9f72d739c4",
+  "actualTool": "image_gen.imagegen",
+  "actualModel": "unknown; no model/seed/version evidence returned",
+  "lineage": [
+    {
+      "attempt": "light-01",
+      "nativeSha256": "61ad2576804ab929c476b36e3ce020d03e84c4771432cd820ca251254cef017f",
+      "actualNativeIHDR": [
+        1254,
+        1254
+      ],
+      "exactArgumentsSha256": "6812e80c29e86f882d342ee115398893561ea546a186254b492d54a8e3965c1c",
+      "verbatimExecutedPromptSha256": "464e3d4ffd390e83050916b9670f12c433deaba36b6febc4937a28c4070879d1",
+      "originalToolResultSha256": "f94f488ebb950dacda7e108c3033db65d30249c4997b250018e3200dcb76907b",
+      "mode": "fresh generation",
+      "referencedAcceptedLightSha256": null,
+      "actualModel": "unknown; not returned by tool"
+    },
+    {
+      "attempt": "dark-01",
+      "nativeSha256": "1d3ce65be84f8e7a1e319d483d8ad970d2ab9d6f8d567b11001aa3076d215d26",
+      "actualNativeIHDR": [
+        1254,
+        1254
+      ],
+      "exactArgumentsSha256": "6674b047a6b1ceeb3cc9a87ae07133fb6b8c350d2540367e2280c30935b3431b",
+      "verbatimExecutedPromptSha256": "654f82f1a4ca52d6f8e2d50ca0aabda62c2950ac43c9f2b9e1a0d5cc14e0c649",
+      "originalToolResultSha256": "98f4bc20a8f4d075a7f0b25891d29ee338fca7b675a803a1e0e7500196eafba9",
+      "mode": "actual-reference dark theme edit",
+      "referencedAcceptedLightSha256": "61ad2576804ab929c476b36e3ce020d03e84c4771432cd820ca251254cef017f",
+      "actualModel": "unknown; not returned by tool"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020124",
+      "depth": "Selected primary HTML domain-interface/face-classification discussion; no full-paper/supplement/source-figure/coordinate certification."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/pdbe/prot_int/pi_tips.html",
+      "depth": "Selected official PISA FAQ contact-surface paragraphs; no calculation or real-model evaluation."
+    }
+  ],
+  "sourceLimits": "No numerical thresholds or source figures imported; fictional apposed surfaces and color annotation do not establish packing, observed motion, real binding, affinity, activity or clinical effect.",
+  "dimensions": "Light and dark actual native1254x1254 PNG. Planned1024 request was not honored; no raster resize/crop/recolor outside imagegen. Owner attributes use actual IHDR.",
+  "humanReview": "expert and learner pending",
+  "credit": 0,
+  "originalCustody": "Original accepted pair and all author/reviewer history stay unchanged; additive package depends on original owned v1assets.",
+  "publicArchiveCustody": "Only revised public owner, fresh owned pair and owned exact prompts/args/provenance. Local original dependencies, screenshots, raw tool base64 results, third-party full papers/figures and all private/restricted bodies excluded."
+}

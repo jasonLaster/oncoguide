@@ -43,6 +43,10 @@ These families are a useful starting map, not an exhaustive list. [Receptor tyro
 
 “Nuclear receptor” names a protein family; it does not mean every molecule stays in the nucleus or that all its effects require new transcription. In an experimental model expressing estrogen receptors in Chinese hamster ovary cells, investigators found both membrane and nuclear receptor pools. That supports a location nuance, not a rule about the proportion or behavior in every human tumor. Conversely, a signal received at the surface can eventually change gene expression inside the nucleus.
 
+<img src="./images/receptor-reach-and-relay-v1-light.png" alt="One cell-edge cutaway places an ion channel, a G-protein-coupled receptor and a kinase receptor example across one membrane, with an internal receptor and gene-regulation route below it; a nonpenetrating probe stops outside while an entering ligand crosses the membrane." width="1024" height="1536" data-theme-pair>
+
+*An outside probe can reach exposed sites; an entering ligand can reach internal receptors. Follow ion flow, G-protein coupling, a kinase example or gene regulation. These are selected mechanisms, not a complete taxonomy or evidence of growth dependence. The dashed internal route is schematic; nuclear-receptor locations vary.*
+
 ## Why it matters in cancer
 
 Location changes the access question. An antibody generally needs an accessible extracellular binding site. A compound intended for an intracellular receptor needs suitable cellular entry and exposure. Neither accessible binding nor an intracellular target alone establishes cancer-cell dependence or patient benefit.
@@ -88,6 +92,8 @@ Source check: October 9, 2026. General mechanism education; the practice experim
 - [Alberts et al., General Principles of Cell Communication (2002)](https://www.ncbi.nlm.nih.gov/books/NBK26813/): textbook receptor families, intracellular reception and context-dependent responses.
 - [Cooper, Signaling Molecules and Their Receptors (2000)](https://www.ncbi.nlm.nih.gov/books/NBK9924/): intracellular ligand access and nuclear-receptor regulation of transcription.
 - [Razandi et al. (1999)](https://pubmed.ncbi.nlm.nih.gov/9973260/): membrane and nuclear estrogen-receptor pools in an engineered cell model; no universal human-tumor distribution claim.
+
+Visual source check: October 11, 2026. Selected primary mechanism examples: [glycine-channel states (Kumar et al., 2020)](https://www.nature.com/articles/s41467-020-17364-5), [receptor–G-protein complex (Rasmussen et al., 2011)](https://www.nature.com/articles/nature10361), [receptor-kinase activation (Zhang et al., 2006)](https://mcb.berkeley.edu/courses/mcb230/jk_pdfs/Zhang%26Kuriyan.pdf), and [ligand-bound estrogen-receptor structure (Brzozowski et al., 1997)](https://www.nature.com/articles/39645). These studies examine defined experimental systems. The schematic does not reproduce their structures or establish universal trafficking, growth dependence or therapeutic effect. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

@@ -129,16 +129,18 @@ function metadataParser(root: string) {
   try { return require("gray-matter") as (raw: string) => { data: Record<string, unknown> }; }
   catch { throw Error("Renderer dependencies are missing; run bash scripts/prepare-renderer.sh"); }
 }
-export function assertPublic(raw: string, relative: string, parse: ReturnType<typeof metadataParser>) {
-  // Classify front matter before inspecting any body or passing it to the renderer.
-  const match = raw.match(/^\uFEFF?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
-  const data = match ? parse(match[0]).data : {};
+function assertPublicMetadata(data: Record<string, unknown>, relative: string) {
   const restricted = /^(true|yes|on|1)$/i.test(String(data.sensitive || ""));
   const tags = Array.isArray(data.tags) ? data.tags : typeof data.tags === "string" ? data.tags.split(/[\s,]+/) : [];
   if (restricted || tags.some(tag => String(tag).toLowerCase() === "sensitive") ||
     Object.entries(data).some(([key, value]) => /^(sensitive[-_]include)$/i.test(key) && Boolean(value) && (!Array.isArray(value) || value.length))) {
     throw Error("Restricted page cannot enter Oncoguide: " + relative);
   }
+}
+export function assertPublic(raw: string, relative: string, parse: ReturnType<typeof metadataParser>) {
+  // Classify front matter before inspecting any body or passing it to the renderer.
+  const match = raw.match(/^\uFEFF?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  assertPublicMetadata(match ? parse(match[0]).data : {}, relative);
   if (/<redact\b|^\s*:::redact\b/im.test(raw)) throw Error("Redacted content cannot enter Oncoguide: " + relative);
 }
 function readReceipt(root: string): Receipt {
@@ -180,6 +182,72 @@ export function assertArtworkPrompt(bytes: Buffer, p: string) {
   if (bytes.subarray(0, 80).toString().startsWith("version https://git-lfs.github.com/spec/v1")) throw Error("Unhydrated LFS artwork prompt: " + p);
   if (/<redact\b|^\s*:::redact\b/im.test(bytes.toString())) throw Error("Redacted artwork prompt: " + p);
 }
+type SupplementalArtifact = {
+  path: string; sha256: string; bytes: number; owner: string; ownerSha256: string;
+  artwork: string; artworkSha256: string; contentClass: "source-owned-public-custody";
+};
+export function validateSupplementalArtifacts(value: unknown): SupplementalArtifact[] {
+  const manifest = value as { version?: number; sourceRepository?: string; reviewedSourceCommit?: string; artifacts?: SupplementalArtifact[] };
+  if (!manifest || manifest.version !== 1 || manifest.sourceRepository !== SOURCE_REPOSITORY ||
+    !/^[a-f0-9]{40}$/.test(manifest.reviewedSourceCommit || "") || !Array.isArray(manifest.artifacts) || manifest.artifacts.length > 200) {
+    throw Error("Invalid supplemental artifact manifest");
+  }
+  const seen = new Set<string>();
+  let totalBytes = 0;
+  for (const entry of manifest.artifacts) {
+    if (!entry || typeof entry.path !== "string" || typeof entry.owner !== "string" || typeof entry.artwork !== "string" ||
+      !validPath(entry.path) || !validPath(entry.owner) || !entry.owner.endsWith(".md") || !validPath(entry.artwork) ||
+      !/\.(png|jpe?g|webp|avif|svg)$/i.test(entry.artwork) || !/\.(txt|json|zip)$/.test(entry.path) ||
+      entry.contentClass !== "source-owned-public-custody" || ![entry.sha256, entry.ownerSha256, entry.artworkSha256].every(h => typeof h === "string" && /^[a-f0-9]{64}$/.test(h)) ||
+      !Number.isSafeInteger(entry.bytes) || entry.bytes < 1 || entry.bytes > 5 * 1024 * 1024 || seen.has(entry.path)) {
+      throw Error("Invalid supplemental artifact entry");
+    }
+    const imageDirectory = path.posix.join(path.posix.dirname(entry.owner), "images") + "/";
+    const stem = path.posix.basename(entry.artwork, path.posix.extname(entry.artwork)).replace(/-(light|dark)$/, "");
+    const filename = path.posix.basename(entry.path);
+    if (path.posix.dirname(entry.artwork) + "/" !== imageDirectory || path.posix.dirname(entry.path) + "/" !== imageDirectory + "prompts/" ||
+      !(filename.startsWith(stem + ".") || filename.startsWith(stem + "-"))) {
+      throw Error("Supplemental artifact does not belong to its owner and artwork");
+    }
+    seen.add(entry.path); totalBytes += entry.bytes;
+  }
+  if (totalBytes > 8 * 1024 * 1024) throw Error("Supplemental artifact manifest exceeds byte limit");
+  return manifest.artifacts;
+}
+export function supplementalArtworkArtifacts(
+  manifest: unknown, active: Hashes, sourcePaths: string[], readSource: (p: string) => Buffer,
+  parse: ReturnType<typeof metadataParser>,
+) {
+  const available = new Set(sourcePaths);
+  const selected: Array<{ entry: SupplementalArtifact; bytes: Buffer }> = [];
+  for (const entry of validateSupplementalArtifacts(manifest)) {
+    // Retired artwork's already imported custody is retained by reconcile, not re-exported.
+    if (!active[entry.artwork]) continue;
+    if (!active[entry.owner] || !available.has("obsidian/" + entry.owner) || !available.has("obsidian/" + entry.artwork) || !available.has("obsidian/" + entry.path)) {
+      throw Error("Supplemental artifact owner or committed source file is missing: " + entry.path);
+    }
+    const owner = readSource(entry.owner);
+    assertPublic(owner.toString(), entry.owner, parse);
+    if (hash(owner) !== entry.ownerSha256 || active[entry.owner] !== entry.ownerSha256 || active[entry.artwork] !== entry.artworkSha256) {
+      throw Error("Supplemental artifact owner or active artwork changed: " + entry.path);
+    }
+    const bytes = readSource(entry.path);
+    if (hash(bytes) !== entry.sha256 || bytes.length !== entry.bytes) throw Error("Supplemental artifact bytes changed: " + entry.path);
+    if (entry.path.endsWith(".zip")) {
+      if (!bytes.subarray(0, 4).equals(Buffer.from([0x50, 0x4b, 0x03, 0x04]))) throw Error("Invalid reviewed custody ZIP: " + entry.path);
+    } else {
+      assertPublic(bytes.toString(), entry.path, parse);
+      assertArtworkPrompt(bytes, entry.path);
+      if (entry.path.endsWith(".json")) {
+        const metadata = JSON.parse(bytes.toString());
+        if (!metadata || typeof metadata !== "object" || Array.isArray(metadata)) throw Error("Invalid custody JSON: " + entry.path);
+        assertPublicMetadata(metadata, entry.path);
+      }
+    }
+    selected.push({ entry, bytes });
+  }
+  return selected;
+}
 function exportSnapshot(root: string, source: string, ref: string, staging: string) {
   const repo = git(source, "rev-parse", "--show-toplevel").toString().trim();
   if (fs.realpathSync(repo) === fs.realpathSync(root)) throw Error("Source and destination must be different repositories");
@@ -202,7 +270,16 @@ function exportSnapshot(root: string, source: string, ref: string, staging: stri
     assertArtworkPrompt(bytes, p);
     const target = path.join(staging,p);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,bytes);receipt.files[p]=hash(bytes);
   }
-  return { receipt, renderer, prompts: prompts.length };
+  const manifestPath = path.join(root, "scripts/education-supplemental-artifacts.json");
+  if (fs.lstatSync(manifestPath).isSymbolicLink()) throw Error("Supplemental artifact manifest cannot be a symlink");
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+  const supplemental = supplementalArtworkArtifacts(manifest, receipt.files, sourcePaths,
+    p => git(repo, "show", commit + ":obsidian/" + p), parse);
+  for (const { entry, bytes } of supplemental) {
+    const target = path.join(staging, entry.path); fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.writeFileSync(target, bytes); receipt.files[entry.path] = entry.sha256;
+  }
+  return { receipt, renderer, prompts: Object.keys(receipt.files).filter(p => p.endsWith(".txt")).length, supplementalArtifacts: supplemental.length };
 }
 function atomicWrite(target: string, bytes: Buffer | string) {
   fs.mkdirSync(path.dirname(target), { recursive: true });
@@ -252,6 +329,7 @@ async function main() {
     const plan=reconcile(base,exported.receipt.files,actual,remove);
     const summary={sourceCommit:exported.receipt.sourceCommit,rendererCommit:exported.renderer,pages:Object.keys(exported.receipt.files).filter(p=>p.endsWith(".md")).length,
       assets:Object.keys(exported.receipt.files).filter(p=>!p.endsWith(".md")&&!p.endsWith(".txt")).length,prompts:exported.prompts,
+      supplementalArtifacts:exported.supplementalArtifacts,
       additions:plan.additions.length,updates:plan.updates.length,unchanged:plan.unchanged.length,retainedAssets:Object.keys(plan.retainedFiles).length,removals:plan.removals.length,conflicts:plan.conflicts};
     if(report)fs.writeFileSync(report,JSON.stringify({summary,plan},null,2)+"\n",{flag:"wx"});
     console.log(JSON.stringify(summary));

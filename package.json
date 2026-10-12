@@ -7,7 +7,7 @@
     "check:content-consistency": "bun scripts/education-content-sync.ts verify",
     "plan:content-sync": "bun scripts/education-content-sync.ts plan",
     "sync:education-content": "bun scripts/education-content-sync.ts apply",
-    "test:content-sync": "bun test ./scripts/education-content-sync.test.ts",
+    "test:content-sync": "bun test ./scripts/education-content-sync.test.ts ./scripts/education-supplemental-artifacts.test.ts",
     "test:reader": "bun .renderer/node_modules/@playwright/test/cli.js test --config playwright.config.ts"
   }
 }

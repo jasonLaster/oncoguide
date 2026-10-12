@@ -1,0 +1,23 @@
+Use case: style-transfer / precise-object-edit, scientific-educational.
+Input image 1 is the exact independently accepted LIGHT02 tissue illustration. Create the DARK THEME version of this SAME image. Change only the light/dark rendering palette, not the educational scene.
+
+Use a quiet deep navy paper ground, readable warm ivory labels and leader lines, restrained matte teal epithelial cells, a distinct gentle muted ochre basement-membrane ribbon, sage fibroblast, dusty blue immune cell, sand/slate extracellular matrix fibres, and subdued coral vessel. Keep a softly textured editorial illustration with calm contours, without glow, neon, gradients that imply luminescence, glossy 3D shading or heightened dramatic contrast. The dark version must feel like the same warm illustration printed on quiet dark paper.
+
+Lock every object, its quantity, position, shape, size, relationship and contour to the actual accepted reference. Preserve exactly eight contiguous epithelial cells with eight nuclei around one empty lumen; all individual cell plasma membranes; one continuous thin EXTRACELLULAR basement-membrane ribbon outside the entire epithelial ring; one fibroblast with one nucleus and one RNA squiggle inside its cytoplasm; one immune cell with one nucleus; one vessel with its existing wall and two red blood cells; and the same extracellular matrix fibres. Preserve the exact cell outlines, ring opening, outer ribbon geometry, source cell of the RNA mark and all edge margins. Do not invent, remove, move or distort a biological object. Crucially, do NOT reintroduce isolated blue/tan oval flecks or naked nuclei in the extracellular stromal background: the accepted light has none, and the dark must retain that repair.
+
+Keep all ten exact labels ONCE each, at their existing positions, font scale, line breaks and emphasis:
+Lumen
+Epithelial cells
+Cell membrane
+Basement membrane
+Stroma
+Fibroblast
+RNA
+Immune cell
+Matrix
+Vessel
+Do not add a title, caption, legend, paragraphs or any extra text. All essential labels and details must remain readable at326 to358 CSS pixels wide. Preserve every leader line shape, direction and endpoint: Cell membrane ends on the lateral membrane between adjacent epithelial cells, Basement membrane ends on the extracellular ribbon, Epithelial cells ends inside an epithelial cell, RNA ends on the fibroblast's intracellular squiggle, and each remaining leader identifies the same object or region as in the reference. These are identifying leaders, not molecule-flow or invasion arrows.
+
+Preserve the full square native composition of the actual1254-by1254 reference as closely as the tool allows. Do not crop, reframe or change the relative scale. The output is the matching dark version ONLY; no comparison panels or duplicate light image.
+
+Scientific scope remains the same: a generic simplified normal epithelial lining, not a specific breast-duct blueprint, cancer diagnosis or invasion test; illustrative cell numbers, not measurements or proportions; stroma includes multiple cells, extracellular material and vessel; a stromal cell can contribute RNA to a tissue measurement. No treatment, malignancy, clinical effect, extra anatomy or pathway inference.

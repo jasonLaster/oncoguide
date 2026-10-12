@@ -13,6 +13,10 @@ This skill owns transfer and consistency checks between the two content reposito
 - Preserve Markdown, citations, review metadata and paths. The pinned renderer converts education links to local routes and sends other wiki links back to Diana; do not rewrite clinical owner pages into Oncoguide.
 - provenance.json is the immutable initial import receipt. content-sync.json records the latest committed source, active page/asset/prompt hashes and retired assets with their original source revisions.
 - The exporter includes referenced media, inferred dark companions and associated saved prompts, including exact `-light-call.txt` and `-dark-call.txt` invocations when saved beside the active image pair. Retired artwork is retained by default; it is not presented as current teaching.
+- `scripts/education-supplemental-artifacts.json` is the explicit reviewed allowlist for additional source-owned public custody beside active artwork. It preserves original nonstandard call filenames, JSON metadata and reviewed custody ZIPs; it does not create aliases or reconstruct executed calls from base specifications.
+- Each supplemental entry binds its exact original path, SHA-256 and byte size to a current public owner and associated active artwork hashes. Only flat `images/prompts/` files sharing the artwork stem are allowed. Private metadata, redactions, changed or missing bytes, unrelated paths and symlinked manifests stop export. ZIP acceptance relies on the exact reviewed archive hash, not a new semantic review of its members.
+- Treat this manifest as bounded maintainer data: review the source-owned custody and update owner/artwork/file hashes when active source bytes change. Record the reviewed source commit, then plan/check against the actual explicit committed ref. Do not add private case bundles, third-party full bodies or raw reader captures. No filename glob expands this allowlist.
+- When associated artwork is no longer active, its supplemental files are not re-exported. Already imported custody remains retained with its original hash and source revision through the existing receipt reconciliation. Reviewed exact removals remain a separate decision.
 - Restricted metadata, redacted spans, unhydrated LFS media and symlinked content are rejected. A public source page does not authorize copying private case bundles or the source repository's Git history.
 
 ## Find and compare
@@ -44,6 +48,8 @@ When a curriculum rewrite reveals a conflicting claim in a current Diana care, q
 The helper stages a committed export, validates all conflicts and hashes before writing, updates the receipt last and rechecks destination bytes. Repeating the comparison should show no additions, updates or conflicts. An unrelated Diana commit with identical education bytes does not require a new transfer.
 
 For new illustrations, verify the active light/dark pair and its saved base prompt and any exact theme invocation prompts are in the export, then check their published bytes against the receipt. Keep source checking and automated validation separate from actual expert or learner review; copying a page must preserve pending review metadata.
+
+Check supplemental custody explicitly when present. The sync summary counts all active TXT files as prompts and non-Markdown/non-TXT files as assets, including JSON/ZIP custody. These inventory counts can differ from the rendered public manifest, which lists referenced assets; repository custody alone does not establish a static download URL.
 
 Page moves or removals require reviewed exact paths using repeated --remove <vault-relative-path> arguments in both plan and apply. A path must have been imported, be absent from the new export, and have no independent destination edit. Never use a broad mirror-delete command to clean up retired media.
 

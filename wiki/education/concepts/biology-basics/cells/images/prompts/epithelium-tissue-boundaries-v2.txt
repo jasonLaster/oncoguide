@@ -1,0 +1,33 @@
+Use case: scientific-educational.
+Asset type: square teaching illustration for a public foundational tissue lesson.
+Primary request: help a learner locate lumen, epithelial cells, basement membrane and mixed supporting stroma, and distinguish the shared extracellular tissue boundary from the plasma membrane surrounding each individual cell.
+
+Create ONE connected, welcoming tissue cross-section with generous breathing room, conceived for a 1024 by 1024 square canvas. This is a generic simplified normal epithelial lining around an open lumen, NOT a breast duct, NOT a tumor, NOT a diagnostic slide. Give the spatial relationship most of the canvas. Do not turn this into text cards or a flowchart.
+
+Geometry and objects:
+- In the upper-middle of the image, draw one large approximately circular epithelial lining, about half the canvas width. Exactly EIGHT plump epithelial cells form one continuous closed ring around ONE empty central lumen. Each cell has one softly shaded nucleus. The cells touch their neighbors and have individually visible navy-outline plasma membranes on all sides, including the inner face toward the lumen, the outer face and the lateral boundaries between neighbors. They are rounded cuboidal wedges, not detached balls floating around a circle.
+- Immediately OUTSIDE the basal outer cell surfaces, draw ONE thin continuous extracellular basement-membrane ribbon around the entire epithelial ring. It is a distinct pale ochre band with clear double contour, outside and separate from the individual cell outlines. It has no nuclei, no cells and no lipid-bilayer icon. It must be connected and uninterrupted. It never lines the lumen or snakes through the epithelial cell interiors.
+- Outside that ring is a spacious mixed stromal neighborhood: a few gently curving extracellular matrix fibres, ONE enlarged sage fibroblast with three short tapering processes and one nucleus in the lower-left, ONE rounded muted-blue immune cell with one nucleus at lower-middle, and ONE small coral blood-vessel segment with an outlined wall and TWO red blood cells inside in the lower-right. Neither stromal cell enters the lumen or epithelial ring. These are representative objects, not measured proportions.
+- Inside the fibroblast cytoplasm, outside its nucleus, draw ONE short clear RNA squiggle, visibly enclosed by that cell's own membrane. A short leader from the label RNA points exactly to this intracellular squiggle. Do not draw extracellular RNA, an expression heatmap or an arrow implying that the epithelial cells made this RNA.
+- Use fine, quiet leader lines with small terminal dots or unambiguous arrow tips to identify objects, never biological-flow arrows. The Cell membrane leader must terminate on a lateral outline of ONE epithelial cell between adjacent cells, clearly away from the basement membrane. The Basement membrane leader must terminate precisely on the continuous outer ochre ribbon. The Epithelial cells leader points to the body of a epithelial cell, not to the lumen or stroma. The Stroma leader points to the supporting region containing cells, fibres and vessel, not to one cell alone.
+- Keep all leader endpoints separated and readable. No crossing leader lines and no extra borders that could be mistaken for tissue structures.
+
+Style and typography:
+Friendly editorial scientific cartoon, warm lightly textured matte fills, calm clean contours, recognizable rounded physical objects, restrained depth, no photorealism. Use a single clean rounded sans-serif label family. Direct labels around the scene, no text boxes or legend panels. Essential labels must be about 44 pixels or larger on a 1024-pixel canvas, with short two-line wrapping where needed; main structures should remain readable when the whole image is displayed at 326 to 358 CSS pixels wide. Enlarge objects rather than crowding small detailed labels. Keep enough margin that nothing is cropped.
+
+Exact text labels, render each ONCE and no other text:
+"Lumen" (inside the empty central space)
+"Epithelial cells"
+"Cell membrane"
+"Basement membrane"
+"Stroma"
+"Fibroblast"
+"RNA"
+"Immune cell"
+"Matrix"
+"Vessel"
+
+Science guardrails:
+Epithelial describes a normal cell family and organization, not malignancy. The basement membrane is extracellular material underlying an epithelial lining, not any individual plasma membrane. Stroma includes cells, matrix and vessels; it is not only fibroblasts or only collagen. The RNA mark belongs to the fibroblast, illustrating that a stromal cell can contribute to a tissue RNA measurement. No quantities, universal breast architecture, invasion test, cancer-cell target inference, treatment effect or molecular transport is claimed. The simplified cell numbers and vessel contents are drawing conventions. Do not show secretion, migration, invasion, a broken basement membrane, molecule-flow arrows, drugs or molecular pathway branches.
+
+Avoid: medical photography, horror, photorealism, generic clinicians, people, smiling-cell faces, logos, watermarks, legends, paragraphs, cards, tiny text, extra cell types or unlabeled additional nuclei, duplicated structures, outside-lumen cell mixing.
