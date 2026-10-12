@@ -1,0 +1,61 @@
+{
+  "creationMethod": "original-code-authored-svg",
+  "model": null,
+  "modelDisplayName": null,
+  "modelNamespace": null,
+  "imageGenerationTool": null,
+  "sourceCommit": null,
+  "observedOwnerSourceCommit": "366becb774914d2b64b2ad6d874418d89c133bf1",
+  "authoringScript": null,
+  "frozenBriefID": "brief-028",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+  "sourceFigureCopied": false,
+  "borrowedAsset": false,
+  "review": "author checks only; independent expert, learner and public-reader approval pending",
+  "variants": {
+    "light": {
+      "path": "../replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "bundlePath": "assets/replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92",
+      "width": 780,
+      "height": 1500
+    },
+    "dark": {
+      "path": "../replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "bundlePath": "assets/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4",
+      "width": 780,
+      "height": 1500
+    }
+  },
+  "generatorCustody": {
+    "originalGeneratorPrivatelyRetained": true,
+    "generatorIncludedInThisPublicProjection": false,
+    "generatorIncludedInDeliveredZIP": false,
+    "historicalPrivateLocatorRemoved": true,
+    "qualification": "The original geometry authoring generator is retained in the immutable private original packet. It is historical private custody, not a delivered executable file or a public reproduction promise. No generator source is included here."
+  },
+  "deliveredArchive": {
+    "memberCount": 5,
+    "members": [
+      "assets/replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "assets/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "prompts/replication-fork-and-timed-toy-tracks-v1.txt",
+      "prompts/replication-fork-and-timed-toy-tracks-v1-provenance.json",
+      "README.md"
+    ],
+    "nativeCustody": "Two exact original editable SVGs, one exact original design-brief TXT, this explicitly derived provenance JSON, and one qualifying README.",
+    "executableGeneratorDelivered": false,
+    "pathContext": "variants.path describes the canonical images/prompts location; variants.bundlePath is relative to the extracted ZIP root."
+  },
+  "derivation": {
+    "kind": "additive-public-provenance-qualification-only",
+    "originalPublicProvenanceSHA256": "19b2b7b282be72160e79ff59363e84fd7665276873e0f08d558b5ea76a51351a",
+    "originalFiveMemberArchiveSHA256": "bb19ab746b9d5075ea8822bc8b8b9d57e3037d24074828b066ed0de5a3261a9f",
+    "actualIndependentReviewSHA256": "0aa36895b141522317d141640a6cc26b0f977b4742c217c1e7ed396f2dfa7ee3",
+    "addressedFinding": "R1",
+    "originalNativeSVGsAndDesignBriefUnchanged": true,
+    "newImageGenerationOrEditingCalls": 0,
+    "freshIndependentSuccessorAcceptance": "pending"
+  }
+}

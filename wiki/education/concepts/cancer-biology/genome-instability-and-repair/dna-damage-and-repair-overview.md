@@ -32,6 +32,10 @@ Picture a library with several repair teams: one fixes a damaged letter, another
 
 ## How it works
 
+<img src="./images/dna-lesions-and-selected-repair-jobs-v1-light.svg" alt="Four uncoiled DNA ladders show an altered base, a bulky adduct, an A/G copying mismatch and a gap through both strands. Arrows identify selected repair jobs, not exclusive pathway assignments. A separate damage-sensing protein signals to a pause symbol; repair outcome requires checking the DNA." width="780" height="1440" data-theme-pair="./images/dna-lesions-and-selected-repair-jobs-v1-dark.svg" />
+
+*Four physical problems, selected repair jobs.* DNA is drawn uncoiled; the sketches are not chemical structures or exclusive lesion-to-pathway rules. A/G illustrates a copying mismatch. Homologous recombination (HR) and end joining are distinct ways to address a double-strand break. The lower scene separates checkpoint signaling from a repair outcome. A lesion can be repaired before a lasting mutation forms; a signal does not establish HR deficiency or drug sensitivity. [Repair mechanisms: Nobel committee background, full text](https://www.nobelprize.org/uploads/2018/06/advanced-chemistryprize2015-1.pdf); [Alberts: damage and checkpoints](https://www.ncbi.nlm.nih.gov/books/NBK26879/); [Brown: strand breaks](https://www.ncbi.nlm.nih.gov/books/NBK21114/).
+
 The route depends on the problem. This is a map of major jobs, rather than an exhaustive list. [Alberts 2002](https://www.ncbi.nlm.nih.gov/books/NBK26879/), [Brown 2002](https://www.ncbi.nlm.nih.gov/books/NBK21114/).
 
 | Problem | A repair route |
@@ -74,9 +78,9 @@ Microscopy may report foci per cell; other experiments report repaired reporter 
 
 ## Try it
 
-A fictional culture has increased γH2AX one hour after an experimental insult. A scientist concludes, “These cells cannot repair DNA.” What is missing?
+A fictional culture shows the bulky lesion drawn above and increased γH2AX one hour later. Does the signal tell us that nucleotide excision repair has failed?
 
-**Answer:** a time course and suitable controls, plus a measure of the relevant repair outcome. A rise in damage signaling alone does not show that lesions persist, that HR is defective or that the cells will die.
+**Answer:** no. The lesion suggests a repair job to investigate; a response signal is a separate measurement. Measure lesion removal over time with appropriate controls. Neither the sketch nor γH2AX establishes HR deficiency, a lasting mutation or drug sensitivity.
 
 ## Explain it back
 

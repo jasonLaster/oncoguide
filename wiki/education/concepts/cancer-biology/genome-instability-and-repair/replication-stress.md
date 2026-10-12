@@ -55,6 +55,10 @@ Surviving cancers can adapt to stress. High expression of a checkpoint or copyin
 
 ## Assay card
 
+<img src="./images/replication-fork-and-timed-toy-tracks-v1-light.svg" alt="A rightward-moving replication fork opens parental DNA; new strands trail behind, with synthesis machinery simplified. Live cells receive a 30-minute IdU pulse then a 30-minute CldU pulse. Extracted stretched toy molecules have identical first-label lengths and second-label lengths of 15 and 7.5 micrometres. At the stated example calibration of 2 kilobases per micrometre, second-pulse speeds are 1 and 0.5 kilobases per minute. These selected tracks do not measure cell-cycle composition, breaks, recovery or survival." width="780" height="1500" data-theme-pair="./images/replication-fork-and-timed-toy-tracks-v1-dark.svg" />
+
+*From a fork to a copying rate.* The fork points into the parental duplex; new DNA trails behind. Synthesis machinery is simplified. Iododeoxyuridine (IdU) and chlorodeoxyuridine (CldU) are DNA building-block analogues used as successive experimental labels, each supplied for 30 minutes. The **fictional** tracks show equal first pulses and different second pulses: 15 or 7.5 micrometres (μm). With the stated example stretching calibration of 1 μm = 2 kilobases (kb), divide the second-pulse distance by 30 minutes to obtain 1 or 0.5 kb/min. Bester's protocol supplies these pulse times and calibration; these lengths are not its results and the calibration is not universal. These selected ongoing tracks do not measure the fraction of cells in S phase, breaks, recovery or survival. [Bester 2011, full methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC3740329/).
+
 | Field | A research DNA-fiber or combing experiment |
 |---|---|
 | Measures | Progression of individual DNA-copying tracks, with protocol-dependent measures of stalling, restart or origin use. |
@@ -76,9 +80,9 @@ Bester's experiments used sequential DNA labels and molecular combing to study r
 
 ## Try it
 
-A fictional culture has shorter labeled tracks after an intervention. The fraction of cells copying DNA also fell. Can we conclude that a specific checkpoint protein is essential for tumor survival?
+In the fictional figure, both labels lasted 30 minutes and DNA stretching was calibrated to 2 kb/μm. Track B has a 7.5 μm second pulse. The culture also has fewer cells in S phase, the phase in which DNA is copied. What is the track's second-pulse copying rate, and does it establish checkpoint dependence?
 
-**Answer:** no. First assess labeling, cell-cycle composition and fork dynamics under controlled conditions. Dependence needs a targeted perturbation and a separate survival outcome, with controls for unintended effects.
+**Answer:** 7.5 μm × 2 kb/μm ÷ 30 min = **0.5 kb/min** for this selected track. The lower S-phase fraction concerns the population, not this molecule's rate. Check labeling, stretching and track selection. A shorter track does not prove a break, failed recovery or cell death. Checkpoint dependence requires a targeted perturbation and a separate survival outcome.
 
 ## Explain it back
 

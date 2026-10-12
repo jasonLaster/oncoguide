@@ -29,6 +29,10 @@ Imagine a book with tabs that help a reading team find particular passages. A re
 
 ## How it works
 
+<img src="./images/bet-mark-pocket-and-depletion-v1-light.svg" alt="Three stacked molecular comparisons retain the same DNA-wrapped histone and acetyl mark on a histone tail. A continuous generic BET protein contains two bromodomains, BD1 and BD2, and an extra-terminal interaction region, ET. The first comparison shows acetyl-mark recognition at a pocket. The second places an inhibitor in that pocket while the mark and other protein regions remain. The third uses a dashed outline to indicate less reader protein after depletion, a distinct perturbation requiring verification. One representative pocket is drawn; the illustration does not claim single-domain specificity, identical BET family functions or a clinical response." width="780" height="1540" data-theme-pair="./images/bet-mark-pocket-and-depletion-v1-dark.svg" />
+
+*Reading, occupying a pocket and depleting a protein are different operations.* The acetyl mark remains attached to the histone tail in all three comparisons. The generic BET reader shows two bromodomains (BD1 and BD2) and an extra-terminal (ET) region; one representative pocket interaction is enlarged. The middle scene illustrates competition at that pocket, not a claim that JQ1 acts only on BD1. Other protein regions remain; whether their interactions function needs testing. A dashed outline represents less protein after a separately verified depletion. BET is one bromodomain family, and its members are not interchangeable. [Filippakopoulos 2010](https://pubmed.ncbi.nlm.nih.gov/20871596/); [Shu 2016, full resistance and perturbation experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC4854653/). No BRD3-variant-to-BRD4-dependence or clinical response prediction follows.
+
 **Chromatin** is DNA packaged with proteins, including **histones**. An **acetyl mark** is a chemical modification that can be attached to lysine, an amino acid in a protein. Adding, removing and reading a mark are different molecular jobs.
 
 A **bromodomain** is a protein region that recognizes acetylated lysines. Many proteins contain bromodomains; they do not all belong to the BET family. The BET family includes **BRD2, BRD3, BRD4 and BRDT**. Its members contain two bromodomains and an extra-terminal region involved in protein interactions.
@@ -69,9 +73,9 @@ Fixed tissue may support protein staining; chromatin assays and RNA profiling co
 
 ## Try it
 
-A fictional BRD3-altered culture resists a BET bromodomain inhibitor. It loses growth after an independently controlled BRD4 depletion. Are these results contradictory?
+In the fictional middle scene, a probe occupies a BET acetyl-recognition pocket, while the acetyl mark and the rest of the protein remain. A BRD3-altered culture resists that probe, but an independently controlled BRD4 depletion reduces growth. Are the observations contradictory?
 
-**Answer:** No. BRD4 may support growth through functions that the pocket inhibitor does not sufficiently disrupt. Confirm the depletion and inhibitor engagement, then test the proposed route. Neither observation makes the BRD3 alteration a response biomarker.
+**Answer:** no. Pocket engagement and less BRD4 protein test different operations. Verify inhibitor engagement and depletion, then test which function supports growth. Remaining regions do not guarantee intact function. The result does not make the BRD3 alteration a response biomarker or predict a clinical benefit.
 
 ## Explain it back
 

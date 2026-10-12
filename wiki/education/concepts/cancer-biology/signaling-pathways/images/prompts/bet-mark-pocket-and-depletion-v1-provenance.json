@@ -1,0 +1,61 @@
+{
+  "creationMethod": "original-code-authored-svg",
+  "model": null,
+  "modelDisplayName": null,
+  "modelNamespace": null,
+  "imageGenerationTool": null,
+  "sourceCommit": null,
+  "observedOwnerSourceCommit": "366becb774914d2b64b2ad6d874418d89c133bf1",
+  "authoringScript": null,
+  "frozenBriefID": "brief-031",
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+  "sourceFigureCopied": false,
+  "borrowedAsset": false,
+  "review": "author checks only; independent expert, learner and public-reader approval pending",
+  "variants": {
+    "light": {
+      "path": "../bet-mark-pocket-and-depletion-v1-light.svg",
+      "bundlePath": "assets/bet-mark-pocket-and-depletion-v1-light.svg",
+      "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+      "width": 780,
+      "height": 1540
+    },
+    "dark": {
+      "path": "../bet-mark-pocket-and-depletion-v1-dark.svg",
+      "bundlePath": "assets/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+      "width": 780,
+      "height": 1540
+    }
+  },
+  "generatorCustody": {
+    "originalGeneratorPrivatelyRetained": true,
+    "generatorIncludedInThisPublicProjection": false,
+    "generatorIncludedInDeliveredZIP": false,
+    "historicalPrivateLocatorRemoved": true,
+    "qualification": "The original geometry authoring generator is retained in the immutable private original packet. It is historical private custody, not a delivered executable file or a public reproduction promise. No generator source is included here."
+  },
+  "deliveredArchive": {
+    "memberCount": 5,
+    "members": [
+      "assets/bet-mark-pocket-and-depletion-v1-light.svg",
+      "assets/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "prompts/bet-mark-pocket-and-depletion-v1.txt",
+      "prompts/bet-mark-pocket-and-depletion-v1-provenance.json",
+      "README.md"
+    ],
+    "nativeCustody": "Two exact original editable SVGs, one exact original design-brief TXT, this explicitly derived provenance JSON, and one qualifying README.",
+    "executableGeneratorDelivered": false,
+    "pathContext": "variants.path describes the canonical images/prompts location; variants.bundlePath is relative to the extracted ZIP root."
+  },
+  "derivation": {
+    "kind": "additive-public-provenance-qualification-only",
+    "originalPublicProvenanceSHA256": "783a1f33a7787ed7f0907689fb27d08e3fef5cbfbd9aa1072b2d45ec89171037",
+    "originalFiveMemberArchiveSHA256": "d3c8d0753a711697431b3fd0379b61dd0f745e42e358c6784caa73b15916c8d8",
+    "actualIndependentReviewSHA256": "0aa36895b141522317d141640a6cc26b0f977b4742c217c1e7ed396f2dfa7ee3",
+    "addressedFinding": "R1",
+    "originalNativeSVGsAndDesignBriefUnchanged": true,
+    "newImageGenerationOrEditingCalls": 0,
+    "freshIndependentSuccessorAcceptance": "pending"
+  }
+}

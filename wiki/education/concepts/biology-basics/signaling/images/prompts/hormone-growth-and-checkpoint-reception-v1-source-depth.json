@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md",
+  "checkedDate": "2026-10-12",
+  "kind": "bounded-public-source-depth",
+  "sources": [
+    {
+      "id": "ER-KUMAR-1987",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3690665/",
+      "title": "Kumar et al., Functional domains of the human estrogen receptor",
+      "depth": "Primary PubMed abstract read in the accessible rendered record.",
+      "supports": "Hormone-binding and DNA/nuclear-binding regions participate in estrogen-responsive transcription in tested systems.",
+      "limits": "No full manuscript or study figure inspected; no universal receptor location, all-gene direction or clinical response claim."
+    },
+    {
+      "id": "PR-GIANGRANDE-1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9407067/",
+      "title": "Giangrande et al., Mapping functional domains of progesterone-receptor isoforms",
+      "depth": "Primary abstract retrieved and read through PubMed search text. Direct PubMed opens returned empty/error results.",
+      "supports": "Distinct human PR forms regulate progesterone-responsive transcription differently in defined cell contexts.",
+      "limits": "Abstract depth only. No full paper/figure, universal PR-A/PR-B direction, hormone administration or patient-benefit inference."
+    },
+    {
+      "id": "EGFR-OGISO-2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12297050/",
+      "title": "Ogiso et al., Human EGF\u2013EGFR extracellular complex",
+      "depth": "Primary abstract retrieved and read through PubMed search text; direct record open did not provide an article body.",
+      "supports": "EGF binding to EGFR extracellular regions and receptor-mediated partnership in a defined 2:2 structural complex.",
+      "limits": "No source figure or manuscript inspected. The cartoon is original, not a structural reproduction or universal two-ligand requirement."
+    },
+    {
+      "id": "EGFR-ZHANG-2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/",
+      "title": "Zhang et al., Allosteric EGFR kinase activation",
+      "depth": "Primary abstract read in the accessible rendered PubMed record.",
+      "supports": "An interacting asymmetric kinase-domain arrangement can couple receptor partnership to activation.",
+      "limits": "Full text/figures not inspected. The two generic cartoon lobes compress the interaction; they do not establish atomic geometry, activation-loop phosphorylation or a complete growth pathway."
+    },
+    {
+      "id": "PD1-FREEMAN-2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11015443/",
+      "title": "Freeman et al., PD-1 engagement by PD-L1 and lymphocyte regulation",
+      "depth": "Primary abstract retrieved and read through PubMed search text. PMC full-text route returned a browser challenge; alternate XML and PubMed routes returned errors.",
+      "supports": "PD-L1 can engage PD-1 and reduce activation-related lymphocyte proliferation/cytokine responses in tested systems.",
+      "limits": "No full article or source figure inspected. No complete shutdown, universal exhaustion, exclusive tumor PD-L1, drug ranking or clinical benefit claim."
+    },
+    {
+      "id": "FAP-PARK-1999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10593948/",
+      "title": "Park et al., FAP as a dual-specificity cell-surface serine protease",
+      "depth": "Primary abstract retrieved and read through PubMed search text.",
+      "supports": "Natural/recombinant FAP enzymatic activity and cell-surface serine-protease identity.",
+      "limits": "No full article/figure or therapeutic efficacy data inspected. Does not imply FAP is a signaling receptor or that binding it is tumor-exclusive/safe."
+    },
+    {
+      "id": "IUPAC-1998",
+      "url": "https://iupac.qmul.ac.uk/medchem/ah.html",
+      "title": "IUPAC medicinal-chemistry definitions: agonist and antagonist",
+      "depth": "Official full HTML definition entries for agonist and antagonist read. This is primary nomenclature guidance, not an experimental paper.",
+      "supports": "Agonism initiates receptor-characteristic response; antagonism opposes receptor-associated agonist responses.",
+      "limits": "Does not classify every ligand or prove clinical efficacy. The separate guide-to-pharmacology PDF route redirected to login and was not counted as access."
+    },
+    {
+      "id": "HER2-DIWANJI-2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34759323/",
+      "title": "Diwanji et al., HER2\u2013HER3\u2013NRG1\u03b2 complex",
+      "depth": "Existing lesson citation was refreshed at primary abstract and accessible record-text depth; figure-caption text was returned but source-figure pixels/full manuscript were not inspected.",
+      "supports": "Preserved distinction between ligand binding and HER2\u2013HER3 partnership, including singly liganded complex.",
+      "limits": "Existing no-known-direct-HER2-ligand teaching is retained; the new figure depicts EGFR rather than a HER2 ligand. No treatment or mutation-response claim adopted."
+    }
+  ],
+  "independentScienceOriginalRowReaderReview": "pending",
+  "humanExpertLearnerReview": "pending"
+}

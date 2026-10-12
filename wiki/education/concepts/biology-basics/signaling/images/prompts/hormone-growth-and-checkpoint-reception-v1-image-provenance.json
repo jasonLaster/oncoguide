@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-image-tool-cartoon-proposal",
+  "owner": "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md",
+  "sourceBeforeCommit": "366becb774914d2b64b2ad6d874418d89c133bf1",
+  "sourceAfterCommit": null,
+  "stem": "hormone-growth-and-checkpoint-reception-v1",
+  "method": "Actual image_gen.imagegen: original light generation, light correction edit, dark edit using corrected returned light.",
+  "model": null,
+  "modelQualification": "Unknown; no model identifier was returned.",
+  "actualCalls": [
+    {
+      "phase": "initial-light",
+      "tool": "image_gen.imagegen",
+      "exactPrivateCallSHA256": "f008c443d2819d408dcdb160d445e27dc5e56b11dac7efd6387738c17a4897b3",
+      "nativeSHA256": "7ecfb8b9d61b7697caecde37ef2a4cd61e6d065275d3e957e54b600bdec53c5e",
+      "referenceNativeSHA256": null
+    },
+    {
+      "phase": "light",
+      "tool": "image_gen.imagegen",
+      "exactPrivateCallSHA256": "637e8fe2cc095d5e8d283b598c3fd1832f5db61c1e05fd9a78aecaa1e9b0bdad",
+      "nativeSHA256": "37173ae38ef62b37aa51e234f5ecc1353f7e16ff34e3527eab19d1fba15bd090",
+      "referenceNativeSHA256": "7ecfb8b9d61b7697caecde37ef2a4cd61e6d065275d3e957e54b600bdec53c5e"
+    },
+    {
+      "phase": "dark",
+      "tool": "image_gen.imagegen",
+      "exactPrivateCallSHA256": "886bddcfdbb34ebec9598e2016cbe7d7c15bb700232de26d5c81f1f7cf821b0a",
+      "nativeSHA256": "7ccf54b4717d0cb25c4bbb9dda5721f0c79029876659826c3170bac91dbc47c2",
+      "referenceNativeSHA256": "37173ae38ef62b37aa51e234f5ecc1353f7e16ff34e3527eab19d1fba15bd090"
+    }
+  ],
+  "artworks": [
+    {
+      "phase": "light",
+      "sha256": "37173ae38ef62b37aa51e234f5ecc1353f7e16ff34e3527eab19d1fba15bd090",
+      "bytes": 1814156,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "phase": "dark",
+      "sha256": "7ccf54b4717d0cb25c4bbb9dda5721f0c79029876659826c3170bac91dbc47c2",
+      "bytes": 1838483,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    }
+  ],
+  "caption": "Three selected mechanisms answer the same question differently: ER/PR can regulate transcription inside a cell; EGFR receives EGF outside and relays a growth signal inside; PD-1 can dampen signaling in a responding T cell after contact with PD-L1. Receptor shapes, relay dots and molecule counts are schematic. This is a classical ER/PR transcription example and a representative EGFR pair, not an atomic structure, complete pathway or treatment-selection rule.",
+  "alt": "Three scenes show separate estrogen/ER and progesterone/PR examples beside nuclear DNA and RNA, an EGF-bound EGFR pair crossing a membrane and feeding an internal relay, and PD-L1 on a neighboring cell contacting PD-1 on a T cell with an inhibitory connector to its signaling relay.",
+  "scope": "Selected classical ER/PR, EGFR and PD-1 mechanism examples, symbolic shapes and counts; no clinical eligibility, benefit, complete-pathway or source-figure claim.",
+  "sourceDepth": "Primary abstracts and official IUPAC entries, not full research manuscripts/figures.",
+  "independentScienceOriginalRowReaderReview": "pending",
+  "humanExpertLearnerReview": "pending",
+  "coverageCredit": 0
+}

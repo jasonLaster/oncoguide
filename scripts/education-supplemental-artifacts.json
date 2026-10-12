@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "d59be66e822d6d51cc460ecf4fe55e2d66884540",
+  "reviewedSourceCommit": "164f11ced5c0b274374330c8f7574d89248f7e07",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -1476,6 +1476,150 @@
       "contentClass": "source-owned-public-custody",
       "sha256": "4f686e12f171bddfcad62a118123127fa8135f84282b9a454d35f060f8c56f0a",
       "bytes": 12626
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/hormone-growth-and-checkpoint-reception-v1-image-provenance.json",
+      "sha256": "5158d5d67460b626d970c67ee0b7a553666b50bdceb8da92bd37247a9c281414",
+      "bytes": 3198,
+      "owner": "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md",
+      "ownerSha256": "b6ab2c527e24948e00b62709a0503c4160978eabaa31cc19e93a251e76c989a3",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/hormone-growth-and-checkpoint-reception-v1-light.png",
+          "sha256": "37173ae38ef62b37aa51e234f5ecc1353f7e16ff34e3527eab19d1fba15bd090"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/hormone-growth-and-checkpoint-reception-v1-dark.png",
+          "sha256": "7ccf54b4717d0cb25c4bbb9dda5721f0c79029876659826c3170bac91dbc47c2"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/hormone-growth-and-checkpoint-reception-v1-source-depth.json",
+      "sha256": "a767079102be819a374be2b8ac5785505eebff5dc0aaa944ef633b257a7cf97b",
+      "bytes": 5175,
+      "owner": "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md",
+      "ownerSha256": "b6ab2c527e24948e00b62709a0503c4160978eabaa31cc19e93a251e76c989a3",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/hormone-growth-and-checkpoint-reception-v1-light.png",
+          "sha256": "37173ae38ef62b37aa51e234f5ecc1353f7e16ff34e3527eab19d1fba15bd090"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/hormone-growth-and-checkpoint-reception-v1-dark.png",
+          "sha256": "7ccf54b4717d0cb25c4bbb9dda5721f0c79029876659826c3170bac91dbc47c2"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1-provenance.json",
+      "sha256": "c46c67a0fc9e98c6699293a702ece41b1f082efe71359e2a0d68593d0f6509cd",
+      "bytes": 2965,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+      "ownerSha256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+          "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+          "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1-provenance.zip",
+      "sha256": "40d48cb016c4c028cb8e7f2bddc59ae3482b4d2400486c6bf085837954815db4",
+      "bytes": 9820,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+      "ownerSha256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+          "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+          "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1-provenance.json",
+      "sha256": "cac754c54a8dbd18cdd4c8a5571f23440385735b45251a2992f22bfaa69ee8da",
+      "bytes": 2961,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+      "ownerSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+          "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+          "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1-provenance.zip",
+      "sha256": "6d8c36155cb20a786f19a6d463fd9af2ab60e1c6d894d54bc0a86ae8389bbc0e",
+      "bytes": 7665,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+      "ownerSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+          "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+          "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1-provenance.json",
+      "sha256": "c4cddb1d1dba7bde448a74eaa4fb33e7c64fc2735a9b18ae8bdc2aec2622f647",
+      "bytes": 2892,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "ownerSha256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+          "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+          "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1-provenance.zip",
+      "sha256": "315f286ad4f259ae100350dc89ae544ffab4295705087bc19f404be111380a43",
+      "bytes": 8209,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "ownerSha256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+          "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+          "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e"
+        }
+      ]
     }
   ]
 }

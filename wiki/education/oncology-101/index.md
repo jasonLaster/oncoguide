@@ -3,7 +3,7 @@ title: "Oncology 101: immune foundations"
 type: "navigation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
+updated: 2026-10-12
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -17,6 +17,8 @@ review_status: "Source-checked; expert and learner review pending"
 Cancer and immunotherapy vocabulary becomes easier when each word has a job. These lessons help you read a mechanism diagram and ask a useful next question. Each includes a fictional example and a short practice exercise.
 
 For an ordered path that adds tissue patterns, immune measurements and treatment comparisons, use [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). This page is the supporting lesson shelf for that path.
+
+If these terms are new, begin with [Start here](/wiki/education/guides/start-here/index). Its three lessons help you [read cancer labels](/wiki/education/guides/start-here/01-read-the-labels), [follow immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition) and [connect treatment claims with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence). Then return to this shelf to explore an immune mechanism in more detail.
 
 ## Choose a lesson
 

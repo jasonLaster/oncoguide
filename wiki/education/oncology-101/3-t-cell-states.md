@@ -8,8 +8,8 @@ objectives: ["Separate T-cell abundance, target specificity and function.", "Exp
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]", "[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]", "[[wiki/education/concepts/immunology/t-cells/regulatory-t-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-10-12
+source_checked: 2026-10-12
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -40,6 +40,8 @@ Two other labels need care. [**Anergy**](/wiki/education/concepts/immunology/t-c
 Quiet cells need an explanation before an intervention. In a fictional test, a viable population responds poorly to one peptide. The matching receptor may be absent; the stimulus may be unsuitable; or a responsive population may be restrained. A weak test result alone cannot choose among these explanations. An anergy experiment needs a defined response history and a controlled later response test.
 
 Not dividing is a separate observation from weak antigen responsiveness. [Cell-cycle state](/wiki/education/concepts/biology-basics/cells/cell-cycle), [senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence) and exhaustion answer different biological questions. An alive, non-dividing cell is not automatically senescent or exhausted. Assign the state using appropriate evidence rather than treating these labels as synonyms for an inactive cell.
+
+For T cells, reduced division does not mean that killing has stopped. Some studied human CD8 populations with senescence-associated features retain **[cytotoxic function](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays)**—the ability to kill tested targets—even when their capacity to divide is reduced. [Henson 2014](https://www.jci.org/articles/view/75051) and [Pereira 2020](https://doi.org/10.1038/s41590-020-0643-3) support this distinction. A senescence-associated marker pattern or a highly differentiated phenotype does not establish that every cell is senescent or able to kill. Name the studied population and test division and killing separately. Retained killing alone does not show how long it lasts, whether the state can reverse or whether those cells control cancer in a person.
 
 ## Regulation is another job, not an exhausted state
 
@@ -124,8 +126,12 @@ Source check: October 10, 2026. General cell-state interpretation; fictional exa
 
 The proliferation/senescence distinction was added October 10, 2026. The linked cell-state concepts carry the focused sources and measurement limits.
 
+The T-cell cytotoxicity qualification was checked October 12, 2026, using selected primary full-text passages. It concerns human cell-population experiments; retained killing alone does not establish persistence, state reversal or clinical benefit.
+
 - [Siddiqui et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30635237/) — tumor experiments and melanoma observations.
 - [Utzschneider et al., 2016: TCF1 and chronic-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct disease context.
 - [Han et al., 2014: receptor identity and cell phenotype](https://www.nature.com/articles/nbt.2938).
 - [Tran et al., 2007: induced FOXP3 without suppressive function](https://pubmed.ncbi.nlm.nih.gov/17644734/) — human T-cell culture experiments.
 - [National Cancer Institute (NCI): checkpoint-inhibitor mechanism](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).
+- [Henson et al., 2014: division and effector properties in human CD8 populations](https://www.jci.org/articles/view/75051) — primary human-cell study; cytotoxic-associated protein measurements are distinct from target-cell death.
+- [Pereira et al., 2020: killing by senescent-like human CD8 populations](https://discovery.ucl.ac.uk/id/eprint/10091200/) — selected accepted-manuscript results and published assay legend; defined laboratory targets, not patient efficacy.

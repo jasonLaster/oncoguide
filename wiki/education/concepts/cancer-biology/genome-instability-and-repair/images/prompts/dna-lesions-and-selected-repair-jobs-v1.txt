@@ -1,0 +1,6 @@
+Create an original editable SVG mechanism scene for DNA damage and repair: an overview. Complete task: Distinguish physical lesion types and their repair jobs from the separate checkpoint/damage-response signal.
+Full gap: The recognition/repair/checkpoint map correctly distinguishes response branches but shows every lesion as one box. Four small DNA sketches for altered base, bulky lesion, copying mismatch and double-strand break would give the route table physical meaning without claiming exhaustive pathway specificity.
+Guardrails: ["Damage is not a lasting mutation.", "A pathway sketch is a selected overview, not exclusive lesion-to-route rules.", "No \u03b3H2AX-to-HRD or drug-sensitivity inference."]
+Use a warm neutral light canvas and a quiet deep blue dark canvas, same geometry, rounded physical DNA and protein shapes, at least 32 px native labels on a 780 px canvas. Minimal labels with caption context. Do not copy published figures or include patient examples.
+Final scene: Four uncoiled DNA ladders show an altered base, a bulky adduct, an A/G copying mismatch and a gap through both strands. Arrows identify selected repair jobs, not exclusive pathway assignments. A separate damage-sensing protein signals to a pause symbol; repair outcome requires checking the DNA.
+This text is a reproducible code-authoring brief, not a prompt sent to an image model.

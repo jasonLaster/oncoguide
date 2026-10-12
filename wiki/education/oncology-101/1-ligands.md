@@ -69,6 +69,14 @@ A laboratory report says a new antibody binds a cancer-cell protein strongly. Ca
 
 **Answer:** No. Ask whether it blocks a relevant signal, recruits an effector or delivers a payload, and which downstream effect was measured. Strong binding alone does not establish any of those effects.
 
+### Practice the three-receptor comparison
+
+Use the canonical [hormone, growth and immune-receptor worked comparison](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor#worked-comparison-three-ways-to-receive-a-signal) to follow the receiving cell, the compartment and the measured response.
+
+A fictional experiment finds that an antibody that blocks the PD-1 interaction with **programmed death-ligand 1 (PD-L1)** increases a stimulated T-cell response, with receptor-specific controls. A colleague calls it a receptor agonist because activity went up. Does that label follow?
+
+**Answer:** No. Increasing the cell's response can result from opposing an inhibitory receptor interaction. Agonism and antagonism describe action through the named receptor in a defined assay, rather than whether some downstream number rose. Keep that reasoning separate from the hormone gene-regulation and growth-relay examples in the comparison. The result does not establish patient benefit or treatment eligibility.
+
 ## Explain it back
 
 “Binding tells me ___; the next experiment should test ___.”
