@@ -1,0 +1,6 @@
+Original code-generated SVG; 0 image-model calls. Fictional response Y conditional on known amount c is normal with mean 1.64485362695147*c and standard deviation 1 response unit. A detected result exceeds the blank 95th percentile 1.64485362695147, so detection probability is Phi(1.64485362695147*(c-1)), reaching .95 at c=2. LoQ=8 is a separately assumed validated accuracy limit from the owner example, not derived from that curve. Keep LoB response units distinct from amount units, probabilities non-binary, and the clinical cutoff unspecified.
+
+Original learner task: Separate background, probabilistic detection and reliable quantitation from a clinical cutoff.
+Guardrails: Separate background, probabilistic detection, quantitative performance and clinical cutoff. Any curve is explicitly fictional/assay-specific; do not prescribe universal spacing or turn detection into reliable quantitation.
+
+Warm pale light ground, quiet deep dark ground, identical geometry and labels; minimum 32px native label size. The privately retained construction program and source-depth receipts are not publicly delivered. Delivered SVGs are editable; no executable reproduction package is supplied.

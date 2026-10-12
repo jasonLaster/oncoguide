@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-066",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md",
+  "author": "root",
+  "reviewer": "Codex independent evidence-package reviewer; sealed decision 62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+  "actorIdentityQualification": "root is the adopter and canonical integrator only. Original creative authorship remains separately bound to the sealed evidence-package handoff and ordinary provenance. The actual independent reviewer remains identified by the unchanged sealed decision artifact and reviewer role; missing personal, chat and model identifiers are not invented.",
+  "boundAtUTC": "2026-10-12T20:14:31Z",
+  "passedAtUTC": "2026-10-12T20:14:31Z",
+  "passed": true,
+  "verdict": "PASS",
+  "bindingScope": "Exact accepted complete scratch candidate and full original frozen task. This records the prior genuine task judgment without repeating scientific-source/native-pixel review.",
+  "currentOwnerSha256": "cc67a43e20fc6c0ebcf115583c01a747cf61f676d3e66ce9bd92cf83bc78bf04",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md",
+    "baselinePageSHA256": "0ddd6f9c8a1aad477167068fabbef84af0d69038e7e221808a674dbcf5fae8f1",
+    "learnerTask": "Translate20% versus14% into6 percentage points,30%relative reduction and horizon-specificNNT.",
+    "gap": "Prose and formulas do not show the underlying group risks.",
+    "accuracyGuardrails": "Use the same endpoint, horizon and group denominator for absolute and relative risks. NNT is horizon/context dependent and does not identify which individuals benefit or imply a personal prediction.",
+    "currentVisualFit": "adequate",
+    "reasoning": "PASS: Expected group grids have100symbols each and20/14filled events. Same first-recurrence-or-death endpoint and five-year horizon give6percentage points,RR0.70,RRR30%,NNT17. The complete owner retains risk-difference uncertainty, infinity when its interval crosses zero, harm direction/NNH50 over one year, and no individual beneficiary or cure inference.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-light.svg",
+      "sha256": "a5c34cac6ea3bdc1fdaebb74b55f4caf9d93a915535e47e12bcbdae843a86d6f",
+      "width": 760,
+      "height": 1290
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-dark.svg",
+      "sha256": "0077e196114b0362aede36639ed7fef95df123610ac6fe2bdbcfcb65bffaa5e0",
+      "width": 760,
+      "height": 1290
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md",
+        "sha256": "cc67a43e20fc6c0ebcf115583c01a747cf61f676d3e66ce9bd92cf83bc78bf04",
+        "bytes": 7576
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-light.svg",
+        "sha256": "a5c34cac6ea3bdc1fdaebb74b55f4caf9d93a915535e47e12bcbdae843a86d6f",
+        "bytes": 21852
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-dark.svg",
+        "sha256": "0077e196114b0362aede36639ed7fef95df123610ac6fe2bdbcfcb65bffaa5e0",
+        "bytes": 21852
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/absolute-relative-risk-five-years-v1.txt",
+        "sha256": "d62329d1bc8e79390b76f430e4e92183fec5ef6d859750b138f77bcd706562db",
+        "bytes": 1029
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/absolute-relative-risk-five-years-v1-provenance.json",
+        "sha256": "41fc216e97cb8e78d34a59aae109e81164df98a48b09a76e43de297900416072",
+        "bytes": 2877
+      }
+    ],
+    "scope": "Exactly the accepted owner, original LIGHT/DARK SVG pair, base TXT and ordinary provenance JSON. Hashes grant no admission to private source bodies, code, execution or captures."
+  },
+  "originalPackageReview": {
+    "sha256": "62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+    "manifestSHA256": "613e60a48f1128cd35189e1e232b39f8412de31477bfce4862c77d29a39d3648",
+    "scientificAndPixelPassedAtUTC": "2026-10-12T20:02:16Z",
+    "custody": "Original package decision, source-depth evidence, code and captures remain privately retained; they are not publicly delivered or admitted by these hashes."
+  },
+  "frozenReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "selectionSHA256": "7a5ae7ea27b8652031cbdedc9da9e09f2f78b2b8ecf8f71d6bbb2ecd165f9d33",
+  "proposedPublicPath": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/absolute-relative-risk-five-years-v1-independent-owner-review.json",
+  "newScientificSourceApproval": false,
+  "newPixelApproval": false,
+  "newSourceDepthGrade": false,
+  "productionVerifiedByThisReview": false,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "canonicalRegistryGitPublicationPolicyWrites": 0,
+  "originalCreativeAuthorship": {
+    "author": "Codex evidence-package author; sealed handoff 5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "role": "Original educational writing and code SVG generation",
+    "identityQualification": "Original author is identified by the sealed evidence-package handoff. Personal, chat and model identifiers were not recorded; no original generation or medical writing is attributed to root.",
+    "sealedHandoffSHA256": "5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "ordinaryProvenance": {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/absolute-relative-risk-five-years-v1-provenance.json",
+      "sha256": "41fc216e97cb8e78d34a59aae109e81164df98a48b09a76e43de297900416072",
+      "bytes": 2877
+    }
+  },
+  "authorRole": "canonical integration",
+  "initialBindingAtUTC": "2026-10-12T20:11:36Z",
+  "priorBindingSHA256": "efae35ede1b114a53b045dce16940442285721cf4ae5d8e2ba1ed33a6f24657d",
+  "authorRoleCorrection": "Per adoption instruction, author root denotes canonical integration only. This metadata binding does not repeat or extend the original scientific, source-depth or pixel assessment."
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-069",
+  "owner": "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md",
+  "author": "root",
+  "authorRole": "Canonical integration author preparing and adopting the exact accepted candidate; not an attribution of original generation or medical writing.",
+  "originalCreativeAuthorIdentity": "unrecorded in accepted author handoffs",
+  "reviewer": "/root/two_owner_task_bindings",
+  "reviewerRole": "Independent AI integration and full-owner frozen-task-fit reviewer",
+  "actualPassedAtUTC": "2026-10-12T20:12:04.561584Z",
+  "bindingTimeUTC": "2026-10-12T20:12:04.561584Z",
+  "passed": true,
+  "verdict": "PASS",
+  "scope": "Focused integration and source-fit binding of the complete accepted owner to the original frozen learner task and accuracy guardrails. Existing original science/native-art review evidence and narrow correction receipts are preserved. No new source review or rendered-pixel review performed.",
+  "intendedPublicPath": "wiki/education/concepts/biology-basics/signaling/images/prompts/agonist-baseline-response-v1-independent-owner-review.json",
+  "currentOwnerSha256": "bfe29b181d99b830c912612c4ac6cce0d416385075b9938714f000aaec20a20c",
+  "currentOwnerContext": "Exact accepted private candidate bytes; canonical adoption and real-reader/production verification remain separate. Canonical owner currently retains its frozen preimage.",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md",
+    "baselinePageSHA256": "e10b4b866cc9d51c2bc60ea57be2bbde54b913f7e18218891b352888623e8102",
+    "learnerTask": "Compare full/partial agonism, neutral antagonism and inverse agonism relative to a defined no-agonist baseline and concentration range.",
+    "gap": "The functional table and10/100/40/5 arbitrary-unit exercise are strong, but the reader must mentally distinguish a lower maximum from a lower dose and a lower baseline from neutral blockade. A fictional response chart is a direct learning aid.",
+    "accuracyGuardrails": [
+      "Label one invented receptor assay, baseline and measured response; receptor abundance/coupling and toxicity controls stay explicit. No universal compound efficacy, clinical benefit or actual-dose inference."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The complete accepted owner combines its functional table, concentration/affinity and constitutive-activity explanation, three-condition fictional response chart, caption and corrected exercise. Full and partial curves rise from baseline 10 toward distinct maxima 100 and 40; the marked low-dose full-agonist point and concentration range make lower dose distinguishable from lower maximum. The separate no-agonist panel contrasts neutral baseline 10 with inverse response toward 5, while the fixed-reference-agonist condition shows neutral blockade approaching the same baseline. Adjacent prose and caption define one invented assay, its measured response and arbitrary concentration units, including the enlarged middle axis and off-axis zero. The corrected exercise explicitly requires receptor-mediated reduction and excludes toxicity, background changes and unnoticed agonist; receptor abundance and coupling remain explicit. This covers the full frozen comparison task and keeps assay efficacy, occupancy, actual clinical dose and patient benefit separate.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md",
+    "pageSHA256": "e10b4b866cc9d51c2bc60ea57be2bbde54b913f7e18218891b352888623e8102",
+    "targetSection": "## How it is measured",
+    "learnerTask": "Compare full/partial agonism, neutral antagonism and inverse agonism relative to a defined no-agonist baseline and concentration range.",
+    "gap": "The functional table and10/100/40/5 arbitrary-unit exercise are strong, but the reader must mentally distinguish a lower maximum from a lower dose and a lower baseline from neutral blockade. A fictional response chart is a direct learning aid.",
+    "accuracyGuardrails": [
+      "Label one invented receptor assay, baseline and measured response; receptor abundance/coupling and toxicity controls stay explicit. No universal compound efficacy, clinical benefit or actual-dose inference."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "frozenReview": {
+    "sha256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "source": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json"
+  },
+  "acceptedCandidate": {
+    "package": "agonist-antagonist-02",
+    "ownerSHA256": "bfe29b181d99b830c912612c4ac6cce0d416385075b9938714f000aaec20a20c",
+    "handoffSHA256": "bdf59a5e26eead20c4db467dd2f20d8a79ec95f297f9a54e5c1ba98333b032f3"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/agonist-baseline-response-v1-dark.svg",
+      "sha256": "7cc8d00ae2504220de0a7416e356ce105c430fb2a5654e8562d4f2f93b54eea0"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/agonist-baseline-response-v1-light.svg",
+      "sha256": "0ffe8b932fe1a17d4f4ec91560e8e51d64c4eadecd649f8ea6bcdd93010a4efa"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md",
+        "sha256": "bfe29b181d99b830c912612c4ac6cce0d416385075b9938714f000aaec20a20c",
+        "bytes": 9038
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/agonist-baseline-response-v1-dark.svg",
+        "sha256": "7cc8d00ae2504220de0a7416e356ce105c430fb2a5654e8562d4f2f93b54eea0",
+        "bytes": 26787
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/agonist-baseline-response-v1-light.svg",
+        "sha256": "0ffe8b932fe1a17d4f4ec91560e8e51d64c4eadecd649f8ea6bcdd93010a4efa",
+        "bytes": 26787
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/agonist-baseline-response-v1.txt",
+        "sha256": "f4caa9cfc48d308766d930a22feaa4c5bd63da3ee4854f1290f6d135d8d25812",
+        "bytes": 1900
+      }
+    ],
+    "canonicalPreimageSHA256": "e10b4b866cc9d51c2bc60ea57be2bbde54b913f7e18218891b352888623e8102",
+    "canonicalPreimageUnchanged": true,
+    "acceptedHandoffSHA256": "bdf59a5e26eead20c4db467dd2f20d8a79ec95f297f9a54e5c1ba98333b032f3",
+    "acceptedPublicFileCount": 4,
+    "publicProvenanceJSONPresent": false,
+    "originalPairRetained": true
+  },
+  "preservedIndependentReviews": [
+    {
+      "path": "/tmp/education-next-content/agonist-antagonist-review-01/review.json",
+      "sha256": "1d6dd1c7e04515c027b4a6d95240eb6b0ba29142fdd1bcf223b36f87b4faa37d",
+      "reviewedAtUTC": "2026-10-12T18:52:24.260818+00:00",
+      "verdict": "REVISE",
+      "scope": null,
+      "reviewerIdentity": {
+        "agent": "Codex independent package reviewer",
+        "canonicalTask": "/root/review_signaling_package",
+        "role": "AI scientific, pedagogical, visual and custody review",
+        "exactModel": "Not exposed to this reviewer in the session; no model-specific claim",
+        "humanExpertReview": false,
+        "humanLearnerReview": false
+      },
+      "preservation": "Original receipt bytes, timestamp, verdict, reviewer identity and recorded scope preserved; this binding does not redate or expand that review."
+    },
+    {
+      "path": "/tmp/education-next-content/agonist-antagonist-review-02/review.json",
+      "sha256": "5620b774279ff0c40c0bf9fdc0883a3d3687fb5e1b2230f802fddc641a171318",
+      "reviewedAtUTC": "2026-10-12T18:54:15.033614+00:00",
+      "verdict": "PASS",
+      "scope": "Delta only: exercise sentence and narrowed handoff inverseCheck. Prior package review remains immutable. No full scientific or artwork rerun.",
+      "reviewerIdentity": {
+        "agent": "Codex AI independent package reviewer",
+        "canonicalTask": "/root/review_signaling_package",
+        "exactModel": "Not exposed in this session; no model-specific claim",
+        "humanExpertReview": false,
+        "humanLearnerReview": false
+      },
+      "preservation": "Original receipt bytes, timestamp, verdict, reviewer identity and recorded scope preserved; this binding does not redate or expand that review."
+    }
+  ],
+  "reviewContinuity": "Original source/science and native/compact artwork judgments remain attached to their genuine original receipts. Narrow-02 corrected only the recorded attribution or exercise delta; this receipt supplies only the new owner/task binding.",
+  "requiredCorrections": [],
+  "limits": [
+    "Human expert and learner reviews remain pending.",
+    "No new scientific-source, native-pixel, production-rendering, image-generation-call or model-identity claim is made.",
+    "This private proposed receipt supplies no release or coverage credit; canonical integration, theme switching, deployed layout and actual release remain integrator work."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "creation_method": "Original code-generated editable SVG",
+  "actual_image_model_calls": 0,
+  "image_model_calls": [],
+  "model": null,
+  "source_commit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "owner_preimage_sha256": "3436ea466d350fbc081661a83cdfa11e11cda6e4e5df31a97e514d0fa1c602b9",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+  "original_learner_task": "Distinguish repeated method coverage from one interval and precision from validity.",
+  "generator": "private/construct.py",
+  "generator_sha256": "2e4e79c9942b5953fdcaa9ddc57dff040a2b0a96a8cbdcdba6e7d4ffa03756f7",
+  "generator_custody": "Construction code and execution are privately retained and not delivered in the public payload; SVGs are editable, with no executable reproduction package supplied.",
+  "source_depth_custody": "Access/read-depth receipts and raw bodies are privately retained and not publicly delivered. Selected source passages support the concept; all chart numbers and geometry are fictional original constructions.",
+  "sources": [
+    "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/"
+  ],
+  "empirical_data": "None; fictional teaching examples",
+  "source_figures_copied": false,
+  "prompt_sha256": "0949696d03862cca2336728f1b50e1d285108cd68fa8a031e217dc6b2722285f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-light.svg",
+      "sha256": "f850883746e0ff9cf021fdd72fcf767837bb7ef47ad2f73aabecc35b60e8c8cf",
+      "width": 760,
+      "height": 1550
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-dark.svg",
+      "sha256": "4e4616d06c3bbe10beb8786021c3b786505b2bbf75013c94ae5019e081669fe1",
+      "width": 760,
+      "height": 1550
+    }
+  ],
+  "theme_method": "Identical shared construction; palette substitution only",
+  "minimum_native_font_px": 32,
+  "independent_review": "pending",
+  "expert_review": "pending",
+  "learner_review": "pending",
+  "credit": 0,
+  "source_read_depth": [
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+      "depth": "Official repeated-coverage interpretation and width/formula passages read in web text; retained web receipt. Direct Python download returned 403.",
+      "supports": "Method coverage and sample-size/precision relationship; figure uses the owner\u2019s distinct approximate binary-proportion calculation."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/",
+      "depth": "Actual complete article XML acquired from Europe PMC; personally read selected confidence-interval misinterpretation section 19\u201323. Direct PMC open challenged. No full article or underlying-study revalidation claimed.",
+      "supports": "One observed interval differs from repeated coverage; width and validity are separate."
+    }
+  ],
+  "scope_note": "These are new source-bound fictional charts. Existing source_checked metadata remains historical; Neyman, Cox, Cook/Sackett and the FDA2024 source were not freshly re-read for this insertion-only batch."
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-059",
+  "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "reviewer": "curriculum-study-interpretation; independent from package author",
+  "reviewerIdentity": {
+    "threadId": "01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+    "title": "Cartoon planning: study interpretation",
+    "role": "Actual different-author complete package reviewer and current task-binding preparer"
+  },
+  "originalCreativeAuthorship": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "title": "Cartoon planning: molecular measurements",
+    "role": "Producer of the four original SVG pairs, briefs/provenance and focused candidate additions; historical owner writing retains its original custody. Root is not attributed original image construction, source review or medical writing.",
+    "identityEvidence": "Actual root author dispatch and completed producer chat handoff for the exact breast packet; existing provenance files remain byte-identical."
+  },
+  "passed": true,
+  "verdict": "PASS",
+  "actualBindingAtUTC": "2026-10-12T20:12:41.797626Z",
+  "passedAtUTC": "2026-10-12T20:12:41.797626Z",
+  "currentOwnerSha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+  "currentOwnerFieldMeaning": "Exact accepted complete public candidate bytes, prospective for canonical integration; not an assertion of current canonical adoption or publication.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1-independent-owner-review.json",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+    "baselinePageSHA256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+    "learnerTask": "Compare identical current lesion counts with different prior burden and progression histories.",
+    "gap": "The three fictional histories are well differentiated in prose but all end with two relevant lesions. Three short timelines would make the lost history visible and show why count alone does not identify a study population.",
+    "accuracyGuardrails": [
+      "Visible lesions are detected burden, not every cancer cell.",
+      "No universal count threshold, cure promise or trial eligibility inference.",
+      "Do not imply all limited visible disease hides widespread spread."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "Full original exercise and timelines retain Casey newly limited, Drew induced residual and Robin oligoprogression histories. The same numeral two is correctly distinguished from total burden in Robin, whose many stable sites remain explicit. No universal threshold, cure or shared eligibility follows. This is the same full-owner/figure judgment accepted in the preserved package review, now bound to this unchanged complete frozen owner task and selected ID; it grants no new source or pixel approval.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+    "pageSHA256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+    "targetSection": "## Try it",
+    "learnerTask": "Compare identical current lesion counts with different prior burden and progression histories.",
+    "gap": "The three fictional histories are well differentiated in prose but all end with two relevant lesions. Three short timelines would make the lost history visible and show why count alone does not identify a study population.",
+    "accuracyGuardrails": [
+      "Visible lesions are detected burden, not every cancer cell.",
+      "No universal count threshold, cure promise or trial eligibility inference.",
+      "Do not imply all limited visible disease hides widespread spread."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+    "recommendedMedium": "diagram",
+    "priority": "P1"
+  },
+  "fullOriginalFrozenPageReviewSHA256": "3324bf3a0abd4a11462f67787d44d39b26b1d9fcbf346d6f2340c5a353311923",
+  "frozenReviewFileSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+      "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+      "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+        "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a",
+        "bytes": 7936
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+        "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8",
+        "bytes": 7936
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.json",
+        "sha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
+        "bytes": 3488
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.txt",
+        "sha256": "782ba85c1e74898e13e0b2a4854677a8c5976e801a5a17c0ea2cfc52b044edc5",
+        "bytes": 1296
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+        "sha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+        "bytes": 8882
+      }
+    ],
+    "acceptedSourceProvenanceUnchanged": true,
+    "publicAdmission": "Only this proposed flat owner-local receipt plus the original exact accepted owner/native/brief/provenance set; no source PDF, private corpus, producer execution package or scratch paths admitted."
+  },
+  "originalPackageReview": {
+    "artifactId": "breast-four-owner-independent-review-01",
+    "sha256": "7b6c6afb94e45448590ce3d7d3b5759f3deab5bb7384fdfd9330b236dc873655",
+    "actualScientificPixelPassedAtUTC": "2026-10-12T19:58:50.312905Z",
+    "originalScope": "One complete four-owner educational/scientific/task/native/public-custody review; prospective candidate acceptance only.",
+    "originalSourceAndPixelLimitsUnchanged": true
+  },
+  "addendumScope": "Exact selected ID, full original frozen task, source candidate bytes and accepted native-pair custody binding only. No repeated scientific sources, native pixels, human review, source-depth upgrade or production claim.",
+  "newScientificSourceApproval": false,
+  "newPixelApproval": false,
+  "scientificAndPixelReviewRepeated": false,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newCredit": 0,
+  "canonicalGitRegistryPublisherCodePolicyWrites": 0
+}

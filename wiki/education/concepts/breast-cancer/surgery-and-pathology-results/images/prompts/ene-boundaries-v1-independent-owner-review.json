@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-057",
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "reviewer": "curriculum-study-interpretation; independent from package author",
+  "reviewerIdentity": {
+    "threadId": "01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+    "title": "Cartoon planning: study interpretation",
+    "role": "Actual different-author complete package reviewer and current task-binding preparer"
+  },
+  "originalCreativeAuthorship": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "title": "Cartoon planning: molecular measurements",
+    "role": "Producer of the four original SVG pairs, briefs/provenance and focused candidate additions; historical owner writing retains its original custody. Root is not attributed original image construction, source review or medical writing.",
+    "identityEvidence": "Actual root author dispatch and completed producer chat handoff for the exact breast packet; existing provenance files remain byte-identical."
+  },
+  "passed": true,
+  "verdict": "PASS",
+  "actualBindingAtUTC": "2026-10-12T20:12:41.797626Z",
+  "passedAtUTC": "2026-10-12T20:12:41.797626Z",
+  "currentOwnerSha256": "9d010c83d4db1445c3844d93c2a9b6b634cf4220dc93494c705c34d9fa2d5583",
+  "currentOwnerFieldMeaning": "Exact accepted complete public candidate bytes, prospective for canonical integration; not an assertion of current canonical adoption or publication.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1-independent-owner-review.json",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+    "baselinePageSHA256": "42883864d91ad3f49e4a1e0ee040f7a35ce34ced4c3bf158b5acbfda930b33a4",
+    "learnerTask": "Locate a nodal deposit relative to capsule, nearby tissue and separately defined cut or vessel boundaries.",
+    "gap": "The deposit/capsule/adjacent-tissue linear map labels the definition but does not depict crossing a capsule. A cutaway node and adjacent-tissue sketch would directly show the spatial relation and distinguish it from a surgical margin or vessel space.",
+    "accuracyGuardrails": [
+      "ENE is not a distant-metastasis arrow or automatic N3/M1.",
+      "Capsule and specimen margin are different boundaries.",
+      "Schematic cannot substitute for morphology or specify a universal extent-measurement direction."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "Contiguous deposit crosses capsule into nearby tissue while the inked cut edge and separate vessel lumen remain distinct. Original morphology/measurement and prognostic-versus-treatment limits plus both answered questions are retained; no stage or measuring axis is inferred. This is the same full-owner/figure judgment accepted in the preserved package review, now bound to this unchanged complete frozen owner task and selected ID; it grants no new source or pixel approval.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+    "pageSHA256": "42883864d91ad3f49e4a1e0ee040f7a35ce34ced4c3bf158b5acbfda930b33a4",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate a nodal deposit relative to capsule, nearby tissue and separately defined cut or vessel boundaries.",
+    "gap": "The deposit/capsule/adjacent-tissue linear map labels the definition but does not depict crossing a capsule. A cutaway node and adjacent-tissue sketch would directly show the spatial relation and distinguish it from a surgical margin or vessel space.",
+    "accuracyGuardrails": [
+      "ENE is not a distant-metastasis arrow or automatic N3/M1.",
+      "Capsule and specimen margin are different boundaries.",
+      "Schematic cannot substitute for morphology or specify a universal extent-measurement direction."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+    "recommendedMedium": "diagram",
+    "priority": "P1"
+  },
+  "fullOriginalFrozenPageReviewSHA256": "fbae376c9bc4af079722dde6156bef93dcb6ddb500af77a92fa22e35c0584775",
+  "frozenReviewFileSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-light.svg",
+      "sha256": "469fa99553c384c1be839ada45ab5f102d4405dfa34258bd13c605f2b79ba971"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-dark.svg",
+      "sha256": "dbdd33e9b956524d98c4ebd727971adf064895612a3cf9723e09def86b099bb0"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+        "sha256": "9d010c83d4db1445c3844d93c2a9b6b634cf4220dc93494c705c34d9fa2d5583",
+        "bytes": 8422
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-dark.svg",
+        "sha256": "dbdd33e9b956524d98c4ebd727971adf064895612a3cf9723e09def86b099bb0",
+        "bytes": 5822
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-light.svg",
+        "sha256": "469fa99553c384c1be839ada45ab5f102d4405dfa34258bd13c605f2b79ba971",
+        "bytes": 5822
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1.json",
+        "sha256": "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5",
+        "bytes": 3267
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1.txt",
+        "sha256": "9888bc1d9e87b729229f8dd92cbc56bbd733d5fd0ea1bf1ea8e2dc2838fbbf74",
+        "bytes": 1106
+      }
+    ],
+    "acceptedSourceProvenanceUnchanged": true,
+    "publicAdmission": "Only this proposed flat owner-local receipt plus the original exact accepted owner/native/brief/provenance set; no source PDF, private corpus, producer execution package or scratch paths admitted."
+  },
+  "originalPackageReview": {
+    "artifactId": "breast-four-owner-independent-review-01",
+    "sha256": "7b6c6afb94e45448590ce3d7d3b5759f3deab5bb7384fdfd9330b236dc873655",
+    "actualScientificPixelPassedAtUTC": "2026-10-12T19:58:50.312905Z",
+    "originalScope": "One complete four-owner educational/scientific/task/native/public-custody review; prospective candidate acceptance only.",
+    "originalSourceAndPixelLimitsUnchanged": true
+  },
+  "addendumScope": "Exact selected ID, full original frozen task, source candidate bytes and accepted native-pair custody binding only. No repeated scientific sources, native pixels, human review, source-depth upgrade or production claim.",
+  "newScientificSourceApproval": false,
+  "newPixelApproval": false,
+  "scientificAndPixelReviewRepeated": false,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newCredit": 0,
+  "canonicalGitRegistryPublisherCodePolicyWrites": 0
+}

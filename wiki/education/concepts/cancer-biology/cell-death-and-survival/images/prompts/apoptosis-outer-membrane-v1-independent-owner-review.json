@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-068",
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+  "author": "root",
+  "authorRole": "Canonical integration author preparing and adopting the exact accepted candidate; not an attribution of original generation or medical writing.",
+  "originalCreativeAuthorIdentity": "unrecorded in accepted author handoffs",
+  "reviewer": "/root/two_owner_task_bindings",
+  "reviewerRole": "Independent AI integration and full-owner frozen-task-fit reviewer",
+  "actualPassedAtUTC": "2026-10-12T20:12:04.559857Z",
+  "bindingTimeUTC": "2026-10-12T20:12:04.559857Z",
+  "passed": true,
+  "verdict": "PASS",
+  "scope": "Focused integration and source-fit binding of the complete accepted owner to the original frozen learner task and accuracy guardrails. Existing original science/native-art review evidence and narrow correction receipts are preserved. No new source review or rendered-pixel review performed.",
+  "intendedPublicPath": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1-independent-owner-review.json",
+  "currentOwnerSha256": "250fc7cf1be4409694f7b6e012727c874c7dbcc9078f647fef4989ea90da3219",
+  "currentOwnerContext": "Exact accepted private candidate bytes; canonical adoption and real-reader/production verification remain separate. Canonical owner currently retains its frozen preimage.",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "baselinePageSHA256": "6b1292d7e7f61844f800615fa251127a059d4fd271c31ae5e1a3fbd9694619f5",
+    "learnerTask": "Connect opposing BCL-2-family roles to outer-mitochondrial-membrane permeabilization and the two linked caspase routes.",
+    "gap": "The existing Mermaid is a useful mechanistic route map, including the BID cross-link; it should be retained. Its pore and cytochrome-c boxes do not locate the mitochondrial membrane or show release, so a small physical inset can clarify the defining event without replacing the route topology.",
+    "accuracyGuardrails": [
+      "One mitochondrial route is not every kind of death.",
+      "Abundance is not dependency; do not rank inhibitor efficacy.",
+      "Apoptosis does not automatically establish immunogenicity."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The complete accepted owner connects the three opposing BCL-2-family groups in its table and explanation to the new physical outer-membrane inset. The inset, alt and adjacent explanation locate cytochrome c on the intermembrane-space side of the inner membrane and its release through the outer membrane into the cytosol, resolving the frozen spatial gap. The retained Mermaid supplies both the intrinsic stress-to-caspase route and the death-receptor/caspase-8 route, including the BID cross-link; the inset explicitly supplements that topology. The full page also retains the abundance-versus-dependency exercise, route-limited BAX/BAK interpretation, compound-selectivity boundary and separate immunogenicity discussion. Taken together, this supports the whole frozen learner task, including its guardrails, rather than only the new inset.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "pageSHA256": "6b1292d7e7f61844f800615fa251127a059d4fd271c31ae5e1a3fbd9694619f5",
+    "targetSection": "## How it works",
+    "learnerTask": "Connect opposing BCL-2-family roles to outer-mitochondrial-membrane permeabilization and the two linked caspase routes.",
+    "gap": "The existing Mermaid is a useful mechanistic route map, including the BID cross-link; it should be retained. Its pore and cytochrome-c boxes do not locate the mitochondrial membrane or show release, so a small physical inset can clarify the defining event without replacing the route topology.",
+    "accuracyGuardrails": [
+      "One mitochondrial route is not every kind of death.",
+      "Abundance is not dependency; do not rank inhibitor efficacy.",
+      "Apoptosis does not automatically establish immunogenicity."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "recommendedMedium": "diagram",
+    "priority": "P1"
+  },
+  "frozenReview": {
+    "sha256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "source": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json"
+  },
+  "acceptedCandidate": {
+    "package": "apoptosis-momp-02",
+    "ownerSHA256": "250fc7cf1be4409694f7b6e012727c874c7dbcc9078f647fef4989ea90da3219",
+    "handoffSHA256": "ec42f28b6f0eadb35ec0d047cfccc3d738e2c22d152d64d765c920c16e1ce761"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+      "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+      "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+        "sha256": "250fc7cf1be4409694f7b6e012727c874c7dbcc9078f647fef4989ea90da3219",
+        "bytes": 9458
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+        "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99",
+        "bytes": 4166
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+        "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b",
+        "bytes": 4166
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1.provenance.json",
+        "sha256": "12e107e518ea4dd043795b9e419cb8782609cc36d5a99b0a09b80537b0c8597b",
+        "bytes": 995
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1.txt",
+        "sha256": "296ce609ca6f8b9e979e8d5bc333a593d1fe0331320b423ea75213d24a613d6c",
+        "bytes": 2808
+      }
+    ],
+    "canonicalPreimageSHA256": "6b1292d7e7f61844f800615fa251127a059d4fd271c31ae5e1a3fbd9694619f5",
+    "canonicalPreimageUnchanged": true,
+    "acceptedHandoffSHA256": "ec42f28b6f0eadb35ec0d047cfccc3d738e2c22d152d64d765c920c16e1ce761",
+    "acceptedPublicFileCount": 5,
+    "publicProvenanceJSONPresent": true,
+    "originalPairRetained": true
+  },
+  "preservedIndependentReviews": [
+    {
+      "path": "/tmp/education-next-content/apoptosis-momp-review-01/review.json",
+      "sha256": "367035698b64a0ccf6bff91246cac42695d2cbaa6f3ed9f09ca95d77a81b6c20",
+      "reviewedAtUTC": "2026-10-12T18:52:46.726340+00:00",
+      "verdict": "REVISE",
+      "scope": "One review of the frozen learner task, all five public candidates, source support, and paired native/compact rendered pixels. No canonical, author package, Git, publication or registry edits.",
+      "reviewerIdentity": {
+        "reviewer": "Codex independent AI package reviewer",
+        "agent_task": "/root/review_apoptosis_package",
+        "model_family": "GPT-6",
+        "exact_model_identifier": "Not exposed by a tool; no more-specific identifier claimed",
+        "human_expert_review": false,
+        "human_learner_review": false
+      },
+      "preservation": "Original receipt bytes, timestamp, verdict, reviewer identity and recorded scope preserved; this binding does not redate or expand that review."
+    },
+    {
+      "path": "/tmp/education-next-content/apoptosis-momp-review-02/review.json",
+      "sha256": "f7c34c856972de7d95268b7b025d7a8dc45f5f34f0a1a114a7e301a968c8f946",
+      "reviewedAtUTC": "2026-10-12T18:54:47.710026+00:00",
+      "verdict": "PASS",
+      "scope": "Narrow bibliographic attribution and custody/hash delta only. No repeat scientific-text or rendered-pixel review.",
+      "reviewerIdentity": {
+        "reviewer": "Codex independent AI package reviewer",
+        "agent_task": "/root/review_apoptosis_package",
+        "model_family": "GPT-6",
+        "exact_model_identifier": "Not exposed by a tool; no more-specific identifier claimed",
+        "human_expert_review": false,
+        "human_learner_review": false
+      },
+      "preservation": "Original receipt bytes, timestamp, verdict, reviewer identity and recorded scope preserved; this binding does not redate or expand that review."
+    }
+  ],
+  "reviewContinuity": "Original source/science and native/compact artwork judgments remain attached to their genuine original receipts. Narrow-02 corrected only the recorded attribution or exercise delta; this receipt supplies only the new owner/task binding.",
+  "requiredCorrections": [],
+  "limits": [
+    "Human expert and learner reviews remain pending.",
+    "No new scientific-source, native-pixel, production-rendering, image-generation-call or model-identity claim is made.",
+    "This private proposed receipt supplies no release or coverage credit; canonical integration, theme switching, deployed layout and actual release remain integrator work."
+  ]
+}

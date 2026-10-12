@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-067",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md",
+  "author": "root",
+  "reviewer": "Codex independent evidence-package reviewer; sealed decision 62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+  "actorIdentityQualification": "root is the adopter and canonical integrator only. Original creative authorship remains separately bound to the sealed evidence-package handoff and ordinary provenance. The actual independent reviewer remains identified by the unchanged sealed decision artifact and reviewer role; missing personal, chat and model identifiers are not invented.",
+  "boundAtUTC": "2026-10-12T20:14:31Z",
+  "passedAtUTC": "2026-10-12T20:14:31Z",
+  "passed": true,
+  "verdict": "PASS",
+  "bindingScope": "Exact accepted complete scratch candidate and full original frozen task. This records the prior genuine task judgment without repeating scientific-source/native-pixel review.",
+  "currentOwnerSha256": "de9f736e98dd47af8d30cfd912c22fa54804ab2093153b37bc56b32be9866e11",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md",
+    "baselinePageSHA256": "5ed52826c87fa19def72234d9fad53e35b1a92087a643c23dc7639c8fa6455f8",
+    "learnerTask": "Compare conditional hazards with accumulated event risks on the same fictional model.",
+    "gap": "Neither rates nor cumulative curves are plotted.",
+    "accuracyGuardrails": "Name hazard units and the constant-hazard assumptions of any toy model. HR is not the cumulative-risk ratio, survival-time ratio or an individual prognosis; keep competing risks and varying hazards outside the simplification.",
+    "currentVisualFit": "adequate",
+    "reasoning": "PASS: Hazard units/year, comparator direction and one-event/no-competing-event constant exponential assumptions are explicit. Independent formulas give0.393469 and0.295312five-year risks andRR0.750533, distinct fromHR0.70. The reciprocal answer remains1.43. Proportionality is not constant individual hazard in general; uncertainty, varying hazards and noncausal adjusted-model limits remain visible.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
+      "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36",
+      "width": 760,
+      "height": 1540
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-dark.svg",
+      "sha256": "ba97c33b87e95a559b8941b9d32fa69bdb9c0964cbbf24304fe902e2d20dd75c",
+      "width": 760,
+      "height": 1540
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md",
+        "sha256": "de9f736e98dd47af8d30cfd912c22fa54804ab2093153b37bc56b32be9866e11",
+        "bytes": 7589
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
+        "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36",
+        "bytes": 10187
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-dark.svg",
+        "sha256": "ba97c33b87e95a559b8941b9d32fa69bdb9c0964cbbf24304fe902e2d20dd75c",
+        "bytes": 10187
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/hazard-versus-accumulated-risk-v1.txt",
+        "sha256": "339c46eae42aa86f142e69dfc839afef4d9cb2f6082e4e8b22516e7afc48c75d",
+        "bytes": 1097
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/hazard-versus-accumulated-risk-v1-provenance.json",
+        "sha256": "14589132af0bd448e9df9598eb702288549f452006007e2c00488b19dbe5d681",
+        "bytes": 3141
+      }
+    ],
+    "scope": "Exactly the accepted owner, original LIGHT/DARK SVG pair, base TXT and ordinary provenance JSON. Hashes grant no admission to private source bodies, code, execution or captures."
+  },
+  "originalPackageReview": {
+    "sha256": "62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+    "manifestSHA256": "613e60a48f1128cd35189e1e232b39f8412de31477bfce4862c77d29a39d3648",
+    "scientificAndPixelPassedAtUTC": "2026-10-12T20:02:16Z",
+    "custody": "Original package decision, source-depth evidence, code and captures remain privately retained; they are not publicly delivered or admitted by these hashes."
+  },
+  "frozenReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "selectionSHA256": "7a5ae7ea27b8652031cbdedc9da9e09f2f78b2b8ecf8f71d6bbb2ecd165f9d33",
+  "proposedPublicPath": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/hazard-versus-accumulated-risk-v1-independent-owner-review.json",
+  "newScientificSourceApproval": false,
+  "newPixelApproval": false,
+  "newSourceDepthGrade": false,
+  "productionVerifiedByThisReview": false,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "canonicalRegistryGitPublicationPolicyWrites": 0,
+  "originalCreativeAuthorship": {
+    "author": "Codex evidence-package author; sealed handoff 5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "role": "Original educational writing and code SVG generation",
+    "identityQualification": "Original author is identified by the sealed evidence-package handoff. Personal, chat and model identifiers were not recorded; no original generation or medical writing is attributed to root.",
+    "sealedHandoffSHA256": "5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "ordinaryProvenance": {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/hazard-versus-accumulated-risk-v1-provenance.json",
+      "sha256": "14589132af0bd448e9df9598eb702288549f452006007e2c00488b19dbe5d681",
+      "bytes": 3141
+    }
+  },
+  "authorRole": "canonical integration",
+  "initialBindingAtUTC": "2026-10-12T20:11:36Z",
+  "priorBindingSHA256": "78b98522d6171e61dfeaff3621202175ec34f00bf3361dac26efb2fff7f0c37a",
+  "authorRoleCorrection": "Per adoption instruction, author root denotes canonical integration only. This metadata binding does not repeat or extend the original scientific, source-depth or pixel assessment."
+}

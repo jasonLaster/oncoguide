@@ -41,6 +41,14 @@ When growth conditions favor production, mTORC1 can restrain autophagy-initiatio
 
 [Feedback](/wiki/education/concepts/biology-basics/signaling/feedback-loops) can change another branch after an intervention. O'Reilly and colleagues observed increased AKT signaling after mTOR inhibition in studied cancer-cell models and treated patient tumor samples. That demonstrates a possible response, not universal rebound or proof that a combination improves outcomes.
 
+
+Here, **phosphatidylinositol 4,5-bisphosphate (PIP2)** is the membrane-lipid substrate. The selected complex partners are supported by [raptor experiments](https://pubmed.ncbi.nlm.nih.gov/12150926/); the indirect AKT link omits regulators studied in [intermediate-regulator experiments](https://pubmed.ncbi.nlm.nih.gov/12172553/). The map keeps those intermediate steps visibly separate from a direct phosphorylation arrow.
+
+<div class="cartoon-frame">
+<img src="./images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg" width="600" height="2050" data-theme-pair alt="A membrane inset contrasts lipid PIP2 to PIP3 conversion by class I PI3K with the opposing PTEN reaction. Below, recruitment and distinct PDK1 Thr308 and mTORC2 Ser473 arrows meet AKT1 protein. An indirect regulatory link and resource cues meet separate mTORC1 protein-production and autophagy-initiation branches. A separate fictional perturbation inset shows changed phosphosignals with unchanged growth.">
+<p class="cartoon-caption">Phosphate on a lipid differs from phosphorylation of a protein. Complex boxes show selected partners and jobs, not all subunits or exact organelle locations; autophagy initiation is not completed recycling. The lower observations restate the fictional exercise and do not prove feedback wiring, dependence or benefit.</p>
+</div>
+
 ## Why it matters in cancer
 
 Cancer-associated changes can disturb this network. Some cells depend on a branch; others compensate through another route. A variant alone does not establish gain of function, loss of function or drug sensitivity.
@@ -65,6 +73,10 @@ One downstream site is not a universal pathway meter. Pair biochemical measureme
 In a fictional culture, an mTORC1-directed perturbation lowers phosphorylation of a protein-production regulator. AKT1 Ser473 signal later rises. Growth remains unchanged. Has the intervention failed, or proved mTORC1 is essential?
 
 **Answer:** Neither conclusion follows. The first readout supports a biochemical effect; the later change is compatible with feedback or another network response. Test the proposed connection rather than infer it from timing alone. Unchanged growth provides no growth-dependence result under these conditions, and death needs its own measurement.
+
+**Read the map:** A lipid assay reports more PIP3; an antibody assay reports a changed AKT1 Ser473 signal. Are both protein-phosphorylation results?
+
+**Answer:** No. PIP3 is a phosphorylated lipid; Ser473 is a site on AKT1 protein. The mTORC2 arrow concerns that protein site, while mTORC1 has separate production and initiation jobs. Neither measurement alone establishes growth dependence.
 
 ## Explain it back
 

@@ -1,0 +1,9 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen learner task: Compare identical current lesion counts with different prior burden and progression histories.
+
+Construct three timelines matching the existing fictional exercise exactly. Casey: no prior distant disease, then two newly detected metastases. Drew: many metastases before systemic treatment, then two persistent lesions. Robin: during treatment, many stable sites plus two growing sites; explicitly state total is greater than two. All many-site icon clusters are symbolic, not numerical counts. Time arrows mean later observation, not anatomical spread. Visible disease is detected burden, not all cancer cells. No invented treatment dates, guaranteed cure, universal count threshold, trial eligibility or added local-treatment benefit.
+
+Use the same geometry, labels, quantities and units for warm light and quiet dark palettes. Essential labels use at least 32 SVG units in a 780-unit-wide canvas; native SVG links expose the full detail.
+
+The public deliverables are editable SVGs and this brief/provenance record. The Python construction script and source-access records are private scratch aids and are not delivered in the public payload. No executable regeneration package or source PDF bodies are included.

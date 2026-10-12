@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1540" viewBox="0 0 780 1540" role="img" aria-labelledby="title desc"><title id="title">Two lesions: which two, and after what history?</title><desc id="desc">Three fictional timelines preserve the owner exercise. Casey has no prior distant disease and two newly detected metastases. Drew has many prior metastases, systemic treatment, then two persistent lesions. Robin has many stable sites and two growing sites during treatment, so two refers only to the progressing subset, not total burden. Dots represent detected sites; many-site clusters are symbolic and not exact counts.</desc>
+<defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#4d7f72"/></marker><marker id="time" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#52676a"/></marker></defs>
+<rect x="0" y="0" width="780" height="1540" rx="0" fill="#faf5eb"/>
+<text x="40" y="65" fill="#293c40" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="start"><tspan x="40" dy="0">“Two lesions”: which two?</tspan></text>
+<text x="40" y="112" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Fictional histories • read time left to right</tspan></text>
+<rect x="24" y="160" width="732" height="380" rx="22" fill="#fffdf8" stroke="#c9c9bd" stroke-width="2"/>
+<text x="48" y="214" fill="#293c40" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Casey</tspan></text>
+<text x="48" y="258" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Newly recognized limited spread</tspan></text>
+<path d="M292 360 L431 360" fill="none" stroke="#52676a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#time)"/>
+<text x="48" y="328" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="48" dy="0">No prior</tspan><tspan x="48" dy="40">distant disease</tspan></text>
+<circle cx="520" cy="355" r="26" fill="#bf683c"/>
+<circle cx="610" cy="355" r="26" fill="#bf683c"/>
+<text x="459" y="432" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="459" dy="0">2 newly detected</tspan><tspan x="459" dy="40">metastases</tspan></text>
+<text x="48" y="501" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">The earlier history is retained.</tspan></text>
+<rect x="24" y="565" width="732" height="380" rx="22" fill="#fffdf8" stroke="#c9c9bd" stroke-width="2"/>
+<text x="48" y="619" fill="#293c40" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Drew</tspan></text>
+<text x="48" y="663" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Induced limited residual pattern</tspan></text>
+<path d="M292 765 L431 765" fill="none" stroke="#52676a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#time)"/>
+<circle cx="65" cy="747" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="112" cy="747" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="159" cy="747" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="87" cy="795" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="136" cy="795" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<text x="178" y="782" fill="#293c40" font-family="Arial, sans-serif" font-size="35" font-weight="400" text-anchor="start"><tspan x="178" dy="0">…</tspan></text>
+<text x="48" y="862" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Many before</tspan></text>
+<text x="283" y="713" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="283" dy="0">Systemic</tspan><tspan x="283" dy="40">treatment</tspan></text>
+<circle cx="520" cy="760" r="26" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<circle cx="610" cy="760" r="26" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<text x="459" y="837" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="459" dy="0">2 persistent</tspan><tspan x="459" dy="40">lesions now</tspan></text>
+<text x="48" y="907" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">A response changed the detected burden.</tspan></text>
+<rect x="24" y="970" width="732" height="380" rx="22" fill="#fffdf8" stroke="#c9c9bd" stroke-width="2"/>
+<text x="48" y="1024" fill="#293c40" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Robin</tspan></text>
+<text x="48" y="1068" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Oligoprogression during treatment</tspan></text>
+<path d="M292 1170 L431 1170" fill="none" stroke="#52676a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#time)"/>
+<circle cx="65" cy="1152" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="112" cy="1152" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="159" cy="1152" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="87" cy="1200" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<circle cx="136" cy="1200" r="14" fill="#86b8a1" stroke="#4d7f72" stroke-width="2"/>
+<text x="178" y="1187" fill="#293c40" font-family="Arial, sans-serif" font-size="35" font-weight="400" text-anchor="start"><tspan x="178" dy="0">…</tspan></text>
+<text x="48" y="1234" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Many sites</tspan><tspan x="48" dy="40">remain stable</tspan></text>
+<text x="290" y="1118" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="290" dy="0">During</tspan><tspan x="290" dy="40">treatment</tspan></text>
+<circle cx="520" cy="1165" r="26" fill="#bf683c"/>
+<circle cx="610" cy="1165" r="26" fill="#bf683c"/>
+<path d="M520 1162 L520 1120" fill="none" stroke="#bf683c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M509 1131 L520 1120 L531 1131" fill="none" stroke="#bf683c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M610 1162 L610 1120" fill="none" stroke="#bf683c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M599 1131 L610 1120 L621 1131" fill="none" stroke="#bf683c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="455" y="1242" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="455" dy="0">2 growing sites</tspan><tspan x="455" dy="40">+ many stable</tspan></text>
+<text x="48" y="1330" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Two is the growing subset; total is greater.</tspan></text>
+<text x="40" y="1420" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Dots = detected sites, not every cancer cell.</tspan><tspan x="40" dy="42">“Many” clusters are symbolic, not counts.</tspan><tspan x="40" dy="42">Count alone does not establish eligibility.</tspan></text>
+</svg>

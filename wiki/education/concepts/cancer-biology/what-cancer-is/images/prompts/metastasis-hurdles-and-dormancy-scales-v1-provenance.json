@@ -1,0 +1,45 @@
+{
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy.md",
+  "construction": "code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "model": null,
+  "modelScope": "No image model used; ordinary code-art provenance, not raster-call metadata",
+  "nativePair": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-light.svg",
+      "sha256": "6ff308510a5734d02f87a4238239954f3877f202dd62cb0034cc9244c4dfa57e",
+      "bytes": 11143,
+      "nativeDimensions": [
+        600,
+        2200
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-dark.svg",
+      "sha256": "eaedeafe0551d1b0be5f3d0c170666dda7e96c26a4eaba4b340eee38a84e4d9d",
+      "bytes": 11143,
+      "nativeDimensions": [
+        600,
+        2200
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/9736035/",
+    "https://pubmed.ncbi.nlm.nih.gov/7585012/",
+    "https://pubmed.ncbi.nlm.nih.gov/23728425/"
+  ],
+  "sourceDepth": "Luzzi/Holmgren/Ghajar complete primary abstracts plus first2 paragraphs in each of two selected Ghajar Results sections; no whole-paper or original source figure/video review claimed.",
+  "sourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "sourceCommitQualification": "Root-declared source; exact assigned preimage personally hash-checked; no Git refresh",
+  "frozenLearnerTask": "Separate local invasion, travel, tissue arrival and distant outgrowth, then distinguish cellular arrest from balanced population turnover.",
+  "guardrails": [
+    "Not every disseminated cell completes a compulsory sequence.",
+    "Dormancy is viable persistence, not death or guaranteed future relapse.",
+    "A quiet scan does not identify unseen cells or their state."
+  ],
+  "scientificPixelReaderExpertLearnerGrades": "PENDING_INDEPENDENT_REVIEW",
+  "fictionalQuantities": "Original100-cell/week cultures and20net additions/losses; no relapse probability or time"
+}

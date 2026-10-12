@@ -29,6 +29,12 @@ A growing neighborhood may need new roads. But counting roads does not tell you 
 
 The analogy has a limit: vessels are living structures with signaling, permeability and pressure. They are not passive pipes. Changing vessel growth can change delivery in more than one direction.
 
+
+<div class="cartoon-frame">
+<img src="./images/angiogenesis-structures-flow-and-cooption-v1-light.svg" width="600" height="1900" data-theme-pair alt="Two equal-area fictional tissue fields show four versus two vessel structures, with blood-flow arrows separately marked. Independent tracer readouts are 100 versus 160 arbitrary units, while oxygenation is unmeasured. A separate co-option inset shows tumor cells beside an existing vessel, rather than an obligatory new-vessel route.">
+<p class="cartoon-caption">In these equal-area fictional fields, structures fall from four to two while the same tracer readout rises from 100 to 160 arbitrary units. Counts, illustrative flow and transport are separate observations; arrow counts are not flow rates. Oxygenation and benefit remain unestablished. Co-option is a separate possible route.</p>
+</div>
+
 ## How it works
 
 **Endothelial cells** line blood vessels. During angiogenesis, signals can prompt them to grow, migrate and organize new vessel structures. **Vascular endothelial growth factor (VEGF)** is one signaling family involved. VEGF binding to its receptors activates responses in endothelial cells. Other signals and neighboring support cells also matter. [NCI's explanation](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/angiogenesis-inhibitors-fact-sheet) introduces this process.

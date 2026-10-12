@@ -1,0 +1,48 @@
+{
+  "creation_method": "Original code-generated editable SVG",
+  "actual_image_model_calls": 0,
+  "image_model_calls": [],
+  "model": null,
+  "source_commit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "owner_preimage_sha256": "0ddd6f9c8a1aad477167068fabbef84af0d69038e7e221808a674dbcf5fae8f1",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md",
+  "original_learner_task": "Translate20% versus14% into6 percentage points,30%relative reduction and horizon-specificNNT.",
+  "generator": "private/construct.py",
+  "generator_sha256": "2e4e79c9942b5953fdcaa9ddc57dff040a2b0a96a8cbdcdba6e7d4ffa03756f7",
+  "generator_custody": "Construction code and execution are privately retained and not delivered in the public payload; SVGs are editable, with no executable reproduction package supplied.",
+  "source_depth_custody": "Access/read-depth receipts and raw bodies are privately retained and not publicly delivered. Selected source passages support the concept; all chart numbers and geometry are fictional original constructions.",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/"
+  ],
+  "empirical_data": "None; fictional teaching examples",
+  "source_figures_copied": false,
+  "prompt_sha256": "d62329d1bc8e79390b76f430e4e92183fec5ef6d859750b138f77bcd706562db",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-light.svg",
+      "sha256": "a5c34cac6ea3bdc1fdaebb74b55f4caf9d93a915535e47e12bcbdae843a86d6f",
+      "width": 760,
+      "height": 1290
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-dark.svg",
+      "sha256": "0077e196114b0362aede36639ed7fef95df123610ac6fe2bdbcfcb65bffaa5e0",
+      "width": 760,
+      "height": 1290
+    }
+  ],
+  "theme_method": "Identical shared construction; palette substitution only",
+  "minimum_native_font_px": 32,
+  "independent_review": "pending",
+  "expert_review": "pending",
+  "learner_review": "pending",
+  "credit": 0,
+  "source_read_depth": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/",
+      "depth": "Primary indexed main-text passages personally read: summary, time-to-event, fixed-time survival probabilities, HR comparison and discussion. Direct PMC challenged; Europe PMC XML returned 500. Article figures, source datasets and cited trials not independently re-read.",
+      "supports": "NNT is reciprocal of a time-specific absolute contrast and needs a horizon; HR is distinct from risk ratio."
+    }
+  ],
+  "scope_note": "These are new source-bound fictional charts. Existing source_checked metadata remains historical; Neyman, Cox, Cook/Sackett and the FDA2024 source were not freshly re-read for this insertion-only batch."
+}

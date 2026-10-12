@@ -47,6 +47,12 @@ The **B-cell lymphoma 2 (BCL-2) family** has opposing roles:
 
 **BH3** means BCL-2 homology 3, a shared protein region. Family membership does not mean every protein prevents death. [Czabotar and colleagues](https://www.nature.com/articles/nrm3722) summarize these interactions. In primary mouse-cell experiments, combined loss of BAX and BAK strongly blocked mitochondrial responses to several apoptotic stimuli. This supports their role in that route, not immunity from every kind of death. [Wei 2001](https://pubmed.ncbi.nlm.nih.gov/11326099/).
 
+The inset locates that event: cytochrome c leaves the **intermembrane space**, including stores within inner-membrane folds, and crosses the outer membrane into the **cytosol**. It does not start in the mitochondrial matrix. [Liu 1996](https://pubmed.ncbi.nlm.nih.gov/8689682/) and [Scorrano 2002](https://pubmed.ncbi.nlm.nih.gov/11782314/) distinguish release into the cytosol from the mitochondrial compartments that hold it.
+
+<img src="./images/apoptosis-outer-membrane-v1-light.svg" alt="A mitochondrial membrane cutaway shows survival proteins restraining death partners, BH3-only proteins promoting the route, and activated BAX or BAK forming an outer-membrane pore; cytochrome c moves from the intermembrane space to the cytosol while the inner membrane separates that space from the matrix." width="720" height="860" data-theme-pair>
+
+*BCL-2-family interactions control access to the mitochondrial route; the release step crosses the outer membrane. This local inset simplifies membrane folds and protein interactions; the map below shows where the two caspase routes connect.*
+
 **Extrinsic apoptosis** starts with an extracellular signal received by a surface death receptor, such as Fas. It can activate caspase-8 and downstream executioner caspases. In some cells it also recruits the mitochondrial route: caspase-8 cuts BID, producing a form that acts at mitochondria. The two routes therefore interact. [Li 1998](https://pubmed.ncbi.nlm.nih.gov/9727492/).
 
 ```mermaid
@@ -102,11 +108,13 @@ A fictional culture stains strongly for BCL-XL. A researcher concludes that any 
 
 ## Sources and scope
 
-Source-checked October 10, 2026. General mechanism and research interpretation; fictional exercise. Expert and learner review remain pending.
+Source-checked October 10, 2026. General mechanism and research interpretation; fictional exercise. Expert and learner review remain pending. The added mitochondrial inset was source-checked October 12, 2026, using the linked primary-paper abstracts; it is a spatial teaching schematic.
 
 - [Galluzzi et al., 2018: mechanism-based cell-death definitions](https://www.nature.com/articles/s41418-017-0012-4).
 - [Czabotar et al., 2014: BCL-2-family roles and interactions](https://www.nature.com/articles/nrm3722).
 - [Wei et al., 2001: BAX/BAK loss-of-function experiments](https://pubmed.ncbi.nlm.nih.gov/11326099/).
+- [Liu et al., 1996: cytochrome c release and cell-free apoptotic activity](https://pubmed.ncbi.nlm.nih.gov/8689682/).
+- [Scorrano et al., 2002: crista stores and outer-membrane release](https://pubmed.ncbi.nlm.nih.gov/11782314/).
 - [Li et al., 1998: BID links Fas signaling to mitochondria](https://pubmed.ncbi.nlm.nih.gov/9727492/).
 - [Obeid et al., 2007: immunogenicity in defined tumor models](https://pubmed.ncbi.nlm.nih.gov/17187072/).
 

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-064",
+  "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+  "author": "root",
+  "reviewer": "Codex independent evidence-package reviewer; sealed decision 62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+  "actorIdentityQualification": "root is the adopter and canonical integrator only. Original creative authorship remains separately bound to the sealed evidence-package handoff and ordinary provenance. The actual independent reviewer remains identified by the unchanged sealed decision artifact and reviewer role; missing personal, chat and model identifiers are not invented.",
+  "boundAtUTC": "2026-10-12T20:14:31Z",
+  "passedAtUTC": "2026-10-12T20:14:31Z",
+  "passed": true,
+  "verdict": "PASS",
+  "bindingScope": "Exact accepted complete scratch candidate and full original frozen task. This records the prior genuine task judgment without repeating scientific-source/native-pixel review.",
+  "currentOwnerSha256": "a9c43eb34f83a98477081e7d2a2b2d67390b37374c9919599d35082ca93bce4c",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+    "baselinePageSHA256": "94001c50b7d33b97428149785d7d8945eac228127aa8aa7cc80689b7c10b7206",
+    "learnerTask": "Separate background, probabilistic detection and reliable quantitation from a clinical cutoff.",
+    "gap": "No plot shows why detection near a limit is probabilistic and detected values may remain below LoQ.",
+    "accuracyGuardrails": "Separate background, probabilistic detection, quantitative performance and clinical cutoff. Any curve is explicitly fictional/assay-specific; do not prescribe universal spacing or turn detection into reliable quantitation.",
+    "currentVisualFit": "adequate",
+    "reasoning": "PASS: Blank-response units and known-input units remain distinct. The fictional normal-response calculation gives5% blank positives and95% detection at2input units; detection near4 remains below a separately assumed8unit accuracy limit. Neither the curve nor the retained answered fold-change exercise supplies reliable quantitation, clinical sensitivity or a clinical cutoff. Matrix, analyte/workflow/version and accuracy requirements remain explicit.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+      "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89",
+      "width": 760,
+      "height": 1590
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+      "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18",
+      "width": 760,
+      "height": 1590
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+        "sha256": "a9c43eb34f83a98477081e7d2a2b2d67390b37374c9919599d35082ca93bce4c",
+        "bytes": 8314
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+        "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89",
+        "bytes": 17906
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+        "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18",
+        "bytes": 17906
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1.txt",
+        "sha256": "b3a71da565b4cee24f92fab81cb602ccc18f8bbfb280f154953f9dfb5ea51c50",
+        "bytes": 1192
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-provenance.json",
+        "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109",
+        "bytes": 3141
+      }
+    ],
+    "scope": "Exactly the accepted owner, original LIGHT/DARK SVG pair, base TXT and ordinary provenance JSON. Hashes grant no admission to private source bodies, code, execution or captures."
+  },
+  "originalPackageReview": {
+    "sha256": "62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+    "manifestSHA256": "613e60a48f1128cd35189e1e232b39f8412de31477bfce4862c77d29a39d3648",
+    "scientificAndPixelPassedAtUTC": "2026-10-12T20:02:16Z",
+    "custody": "Original package decision, source-depth evidence, code and captures remain privately retained; they are not publicly delivered or admitted by these hashes."
+  },
+  "frozenReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "selectionSHA256": "7a5ae7ea27b8652031cbdedc9da9e09f2f78b2b8ecf8f71d6bbb2ecd165f9d33",
+  "proposedPublicPath": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-independent-owner-review.json",
+  "newScientificSourceApproval": false,
+  "newPixelApproval": false,
+  "newSourceDepthGrade": false,
+  "productionVerifiedByThisReview": false,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "canonicalRegistryGitPublicationPolicyWrites": 0,
+  "originalCreativeAuthorship": {
+    "author": "Codex evidence-package author; sealed handoff 5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "role": "Original educational writing and code SVG generation",
+    "identityQualification": "Original author is identified by the sealed evidence-package handoff. Personal, chat and model identifiers were not recorded; no original generation or medical writing is attributed to root.",
+    "sealedHandoffSHA256": "5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "ordinaryProvenance": {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-provenance.json",
+      "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109",
+      "bytes": 3141
+    }
+  },
+  "authorRole": "canonical integration",
+  "initialBindingAtUTC": "2026-10-12T20:11:36Z",
+  "priorBindingSHA256": "7b06f593a46ad0b7d95562a15b6ae539f70e3e06d74056882fe8545a23e95d03",
+  "authorRoleCorrection": "Per adoption instruction, author root denotes canonical integration only. This metadata binding does not repeat or extend the original scientific, source-depth or pixel assessment."
+}

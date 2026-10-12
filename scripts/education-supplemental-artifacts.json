@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "reviewedSourceCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -1889,6 +1889,546 @@
         }
       ],
       "bytes": 9062,
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/agonist-baseline-response-v1-independent-owner-review.json",
+      "sha256": "f44034293587792e8bbe60f59114a287cdfd6a286519e40b0192321bb54ae133",
+      "bytes": 9248,
+      "owner": "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md",
+      "ownerSha256": "bfe29b181d99b830c912612c4ac6cce0d416385075b9938714f000aaec20a20c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/agonist-baseline-response-v1-dark.svg",
+          "sha256": "7cc8d00ae2504220de0a7416e356ce105c430fb2a5654e8562d4f2f93b54eea0"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/agonist-baseline-response-v1-light.svg",
+          "sha256": "0ffe8b932fe1a17d4f4ec91560e8e51d64c4eadecd649f8ea6bcdd93010a4efa"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1-independent-owner-review.json",
+      "sha256": "c40f11069e421aca6792b7ae78b7eaa1df59480a7ae5d12bdc1fb9c8324a5119",
+      "bytes": 7676,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+      "ownerSha256": "e1f2ac2f732441aae7ee3bae61e75808fae3f5fdaea45abf2a8879e799e486f1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+          "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+          "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1.json",
+      "sha256": "21d3d685ad2a02c5deee5f240220ca9b2fa925fb4b7a345ebfdaee5db1dce001",
+      "bytes": 3267,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+      "ownerSha256": "e1f2ac2f732441aae7ee3bae61e75808fae3f5fdaea45abf2a8879e799e486f1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+          "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+          "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1-dark-call.json",
+      "sha256": "d3fee58f06a4ae7dd61e3c11a4042fb043540f444a6d8b377cb06027d3de2cba",
+      "bytes": 1800,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+      "ownerSha256": "f07296c4a3892dea7fae3630d25ebb9cc13dfd1887a8aa95e6f5c5e25841f710",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+          "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+          "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1-generation-provenance.json",
+      "sha256": "7c19f600bdcc523a13c2a58ac59cf9557f740b62004ad0461109945bea700492",
+      "bytes": 5772,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+      "ownerSha256": "f07296c4a3892dea7fae3630d25ebb9cc13dfd1887a8aa95e6f5c5e25841f710",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+          "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+          "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1-light-call.json",
+      "sha256": "423fd0a4f4b70d5ee901e65a93f23ce2b85e5748c9eba275044d7bb7fc26f819",
+      "bytes": 3964,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+      "ownerSha256": "f07296c4a3892dea7fae3630d25ebb9cc13dfd1887a8aa95e6f5c5e25841f710",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+          "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+          "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1-independent-owner-review.json",
+      "sha256": "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93",
+      "bytes": 7376,
+      "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+      "ownerSha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+          "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+          "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.json",
+      "sha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
+      "bytes": 3488,
+      "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+      "ownerSha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+          "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+          "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/her2-membrane-patterns-v1-independent-owner-review.json",
+      "sha256": "81131d62448f9920a7d7b077a6bd863a900314d5438a4b4fb5590064acbb5fc2",
+      "bytes": 7749,
+      "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2.md",
+      "ownerSha256": "614ca637735785ad9303c182586b0aeff7858dbf73ae82759a7cf35a921964a6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/her2-membrane-patterns-v1-dark.svg",
+          "sha256": "44fdc39c2bf3b4efa5b5699d540185177a8f3db4ef5c3e4e9dcd7b8ad4582117"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/her2-membrane-patterns-v1-light.svg",
+          "sha256": "9428d0c93ca928b5f63652fa96b62a0df9a14a76e7f3488fdd72a42cbf74d966"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/her2-membrane-patterns-v1.json",
+      "sha256": "8fb9a75163f161c98762dd011b902e64cc5b2476c90ae58cc5186e8ddc36fea4",
+      "bytes": 3389,
+      "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2.md",
+      "ownerSha256": "614ca637735785ad9303c182586b0aeff7858dbf73ae82759a7cf35a921964a6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/her2-membrane-patterns-v1-dark.svg",
+          "sha256": "44fdc39c2bf3b4efa5b5699d540185177a8f3db4ef5c3e4e9dcd7b8ad4582117"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/her2-membrane-patterns-v1-light.svg",
+          "sha256": "9428d0c93ca928b5f63652fa96b62a0df9a14a76e7f3488fdd72a42cbf74d966"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1-independent-owner-review.json",
+      "sha256": "ff866360ea7a010edb41a5755f4077bace5fdc12fb38db7f1d245b3f709fb7f3",
+      "bytes": 7596,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+      "ownerSha256": "9d010c83d4db1445c3844d93c2a9b6b634cf4220dc93494c705c34d9fa2d5583",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-dark.svg",
+          "sha256": "dbdd33e9b956524d98c4ebd727971adf064895612a3cf9723e09def86b099bb0"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-light.svg",
+          "sha256": "469fa99553c384c1be839ada45ab5f102d4405dfa34258bd13c605f2b79ba971"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1.json",
+      "sha256": "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5",
+      "bytes": 3267,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+      "ownerSha256": "9d010c83d4db1445c3844d93c2a9b6b634cf4220dc93494c705c34d9fa2d5583",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-dark.svg",
+          "sha256": "dbdd33e9b956524d98c4ebd727971adf064895612a3cf9723e09def86b099bb0"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-light.svg",
+          "sha256": "469fa99553c384c1be839ada45ab5f102d4405dfa34258bd13c605f2b79ba971"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1-independent-owner-review.json",
+      "sha256": "7dcdf5e5af47c5263017bf4137e74ed68ed46a0a98a784b89950b198b9d74fa0",
+      "bytes": 9656,
+      "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+      "ownerSha256": "250fc7cf1be4409694f7b6e012727c874c7dbcc9078f647fef4989ea90da3219",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+          "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+          "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1.provenance.json",
+      "sha256": "12e107e518ea4dd043795b9e419cb8782609cc36d5a99b0a09b80537b0c8597b",
+      "bytes": 995,
+      "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+      "ownerSha256": "250fc7cf1be4409694f7b6e012727c874c7dbcc9078f647fef4989ea90da3219",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+          "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+          "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v1-independent-owner-review.json",
+      "sha256": "d9aaddbdf358fa15cd0a32c63e5b95657ecdd4aed73f43624aac8a62a438f601",
+      "bytes": 7603,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+      "ownerSha256": "86b44799d2eb1dc983baed4efb1719b718dba85db99f7e91e5562c4893ded59b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-dark.svg",
+          "sha256": "f46ca03ec452079cd29cec7940e0525539efcfd797b17b7dee156e49c31c69e5"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+          "sha256": "13d92cbf14cc5f1189423c3818aa80fe3ba1e79d03bdb991eee4f92d0667fe54"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/pi3k-lipids-and-two-mtor-complexes-v1-provenance.json",
+      "sha256": "0959dfbd47bb95742e727c4b37fea809874ccfb67bea800b6601847da80aa364",
+      "bytes": 2236,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+      "ownerSha256": "86b44799d2eb1dc983baed4efb1719b718dba85db99f7e91e5562c4893ded59b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-dark.svg",
+          "sha256": "f46ca03ec452079cd29cec7940e0525539efcfd797b17b7dee156e49c31c69e5"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+          "sha256": "13d92cbf14cc5f1189423c3818aa80fe3ba1e79d03bdb991eee4f92d0667fe54"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/angiogenesis-structures-flow-and-cooption-v1-independent-owner-review.json",
+      "sha256": "3b90fa3d38e2aacb585545599a057e63c9caadc519aba0d383159ff95460c5c0",
+      "bytes": 7656,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+      "ownerSha256": "96fd6dab0753d3f7d227ebb6021f536b4bff1338a97e1bcdbe2aa92255b18d5a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-dark.svg",
+          "sha256": "8cbc9045f8794a28c92f3f9b5dd095fde3153193ec6934ad84d05bbd32517bb1"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-light.svg",
+          "sha256": "c97a360d8f0827408a7c898d9ca2929fc48bae5f3865628166b700be57b49ca1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/angiogenesis-structures-flow-and-cooption-v1-provenance.json",
+      "sha256": "96c1518b2d09d50ac06c51dacf06a65671361c830cdf30adc24176ba5933ddbc",
+      "bytes": 2039,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+      "ownerSha256": "96fd6dab0753d3f7d227ebb6021f536b4bff1338a97e1bcdbe2aa92255b18d5a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-dark.svg",
+          "sha256": "8cbc9045f8794a28c92f3f9b5dd095fde3153193ec6934ad84d05bbd32517bb1"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-light.svg",
+          "sha256": "c97a360d8f0827408a7c898d9ca2929fc48bae5f3865628166b700be57b49ca1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1-independent-owner-review.json",
+      "sha256": "625ff219a61b4688fd998746e59b2b8482868c9007599915072bee878d6deda3",
+      "bytes": 7582,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+      "ownerSha256": "323a824f11ca822e18652c333197613cbe9e60c390999a84294aaa74c41d0008",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+          "sha256": "607b5c32fb0d3a02719b8cd9f8fd2efef1ab07f1c1624156fd4c5603e9917bdc"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+          "sha256": "762332acdb4fceaebe05d1aa07d5882be741c1a1099e186a25d69ea49ff46537"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1-provenance.json",
+      "sha256": "6e96f5c276b0bb352dbf75b6f3e68663fd23b563b16167c95d2df06fc3980bee",
+      "bytes": 2039,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+      "ownerSha256": "323a824f11ca822e18652c333197613cbe9e60c390999a84294aaa74c41d0008",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+          "sha256": "607b5c32fb0d3a02719b8cd9f8fd2efef1ab07f1c1624156fd4c5603e9917bdc"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+          "sha256": "762332acdb4fceaebe05d1aa07d5882be741c1a1099e186a25d69ea49ff46537"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/metastasis-hurdles-and-dormancy-scales-v1-independent-owner-review.json",
+      "sha256": "410fa97ec53fa171b01ab3b3a0ff865c2439a4f063b9a78a339679f06db04496",
+      "bytes": 7604,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy.md",
+      "ownerSha256": "3e8b07410787255d57c648967b4c79242c6e3e0b0161a94bad5603a8e9e6bdc8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-dark.svg",
+          "sha256": "eaedeafe0551d1b0be5f3d0c170666dda7e96c26a4eaba4b340eee38a84e4d9d"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-light.svg",
+          "sha256": "6ff308510a5734d02f87a4238239954f3877f202dd62cb0034cc9244c4dfa57e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/metastasis-hurdles-and-dormancy-scales-v1-provenance.json",
+      "sha256": "4f3a58c55dd4a8cf604cbe7ac5588fcdc3d684e4d7eb768e77ac0ce6ac137575",
+      "bytes": 2122,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy.md",
+      "ownerSha256": "3e8b07410787255d57c648967b4c79242c6e3e0b0161a94bad5603a8e9e6bdc8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-dark.svg",
+          "sha256": "eaedeafe0551d1b0be5f3d0c170666dda7e96c26a4eaba4b340eee38a84e4d9d"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-light.svg",
+          "sha256": "6ff308510a5734d02f87a4238239954f3877f202dd62cb0034cc9244c4dfa57e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-independent-owner-review.json",
+      "sha256": "0d6d127e7b0161830608cfeb3fb0b793105c0897c978d0db5889f2b20ab308af",
+      "bytes": 6835,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+      "ownerSha256": "a9c43eb34f83a98477081e7d2a2b2d67390b37374c9919599d35082ca93bce4c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+          "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+          "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-provenance.json",
+      "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109",
+      "bytes": 3141,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+      "ownerSha256": "a9c43eb34f83a98477081e7d2a2b2d67390b37374c9919599d35082ca93bce4c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+          "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+          "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/absolute-relative-risk-five-years-v1-independent-owner-review.json",
+      "sha256": "c451cd31c4716021991838a277127d4deb47e904854c2099f7e6025948c00547",
+      "bytes": 6751,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md",
+      "ownerSha256": "cc67a43e20fc6c0ebcf115583c01a747cf61f676d3e66ce9bd92cf83bc78bf04",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-dark.svg",
+          "sha256": "0077e196114b0362aede36639ed7fef95df123610ac6fe2bdbcfcb65bffaa5e0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-light.svg",
+          "sha256": "a5c34cac6ea3bdc1fdaebb74b55f4caf9d93a915535e47e12bcbdae843a86d6f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/absolute-relative-risk-five-years-v1-provenance.json",
+      "sha256": "41fc216e97cb8e78d34a59aae109e81164df98a48b09a76e43de297900416072",
+      "bytes": 2877,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md",
+      "ownerSha256": "cc67a43e20fc6c0ebcf115583c01a747cf61f676d3e66ce9bd92cf83bc78bf04",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-dark.svg",
+          "sha256": "0077e196114b0362aede36639ed7fef95df123610ac6fe2bdbcfcb65bffaa5e0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-light.svg",
+          "sha256": "a5c34cac6ea3bdc1fdaebb74b55f4caf9d93a915535e47e12bcbdae843a86d6f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/confidence-coverage-precision-v1-independent-owner-review.json",
+      "sha256": "8f166093a7e698eef869c4e8520112cb55ee5f4e01587de9ae3e75d295078035",
+      "bytes": 6813,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+      "ownerSha256": "2f940782eeb74d76356efc76213657f7395f9268dacbf17527511593c1dd7261",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-dark.svg",
+          "sha256": "4e4616d06c3bbe10beb8786021c3b786505b2bbf75013c94ae5019e081669fe1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-light.svg",
+          "sha256": "f850883746e0ff9cf021fdd72fcf767837bb7ef47ad2f73aabecc35b60e8c8cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/confidence-coverage-precision-v1-provenance.json",
+      "sha256": "503ccfcf8fb238b2c62c122b66fe98680df9837c9cddc065c7882216980ca81f",
+      "bytes": 3267,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+      "ownerSha256": "2f940782eeb74d76356efc76213657f7395f9268dacbf17527511593c1dd7261",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-dark.svg",
+          "sha256": "4e4616d06c3bbe10beb8786021c3b786505b2bbf75013c94ae5019e081669fe1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-light.svg",
+          "sha256": "f850883746e0ff9cf021fdd72fcf767837bb7ef47ad2f73aabecc35b60e8c8cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/hazard-versus-accumulated-risk-v1-independent-owner-review.json",
+      "sha256": "78997d0a82d5c15c74e497a7a42703cf99f7af82067800cbb504f0ef73d36d25",
+      "bytes": 6725,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md",
+      "ownerSha256": "de9f736e98dd47af8d30cfd912c22fa54804ab2093153b37bc56b32be9866e11",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-dark.svg",
+          "sha256": "ba97c33b87e95a559b8941b9d32fa69bdb9c0964cbbf24304fe902e2d20dd75c"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
+          "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/hazard-versus-accumulated-risk-v1-provenance.json",
+      "sha256": "14589132af0bd448e9df9598eb702288549f452006007e2c00488b19dbe5d681",
+      "bytes": 3141,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md",
+      "ownerSha256": "de9f736e98dd47af8d30cfd912c22fa54804ab2093153b37bc56b32be9866e11",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-dark.svg",
+          "sha256": "ba97c33b87e95a559b8941b9d32fa69bdb9c0964cbbf24304fe902e2d20dd75c"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
+          "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36"
+        }
+      ],
       "contentClass": "source-owned-public-custody"
     }
   ]

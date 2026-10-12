@@ -1,0 +1,49 @@
+{
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+  "construction": "code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "model": null,
+  "modelScope": "No image model used; ordinary code-art provenance, not raster-call metadata",
+  "nativePair": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-light.svg",
+      "sha256": "13d92cbf14cc5f1189423c3818aa80fe3ba1e79d03bdb991eee4f92d0667fe54",
+      "bytes": 12096,
+      "nativeDimensions": [
+        600,
+        2050
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v1-dark.svg",
+      "sha256": "f46ca03ec452079cd29cec7940e0525539efcfd797b17b7dee156e49c31c69e5",
+      "bytes": 12096,
+      "nativeDimensions": [
+        600,
+        2050
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/9593664/",
+    "https://pubmed.ncbi.nlm.nih.gov/9368760/",
+    "https://pubmed.ncbi.nlm.nih.gov/15718470/",
+    "https://pubmed.ncbi.nlm.nih.gov/12150926/",
+    "https://pubmed.ncbi.nlm.nih.gov/12172553/",
+    "https://pubmed.ncbi.nlm.nih.gov/19258318/",
+    "https://pubmed.ncbi.nlm.nih.gov/16452206/"
+  ],
+  "sourceDepth": "Seven primary abstracts plus first4 selected Ganley publisher paragraphs; XML route failed; no whole-paper or original source figure/video review claimed.",
+  "sourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "sourceCommitQualification": "Root-declared source; exact assigned preimage personally hash-checked; no Git refresh",
+  "frozenLearnerTask": "Distinguish membrane-lipid signaling and protein phosphorylation while locating mTORC1 and mTORC2 as different complexes.",
+  "guardrails": [
+    "Not one unbranched universal wiring chain.",
+    "PI3K modifies lipids; AKT/mTOR protein substrates are separate.",
+    "No RNA-score-as-activity, initiation-as-flux or inhibitor-benefit inference."
+  ],
+  "scientificPixelReaderExpertLearnerGrades": "PENDING_INDEPENDENT_REVIEW",
+  "fictionalQuantities": "Lower perturbation observations restate original fictional exercise"
+}

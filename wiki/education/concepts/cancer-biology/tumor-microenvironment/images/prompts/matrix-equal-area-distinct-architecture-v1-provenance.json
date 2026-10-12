@@ -1,0 +1,44 @@
+{
+  "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+  "construction": "code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "model": null,
+  "modelScope": "No image model used; ordinary code-art provenance, not raster-call metadata",
+  "nativePair": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+      "sha256": "762332acdb4fceaebe05d1aa07d5882be741c1a1099e186a25d69ea49ff46537",
+      "bytes": 8752,
+      "nativeDimensions": [
+        600,
+        1800
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+      "sha256": "607b5c32fb0d3a02719b8cd9f8fd2efef1ab07f1c1624156fd4c5603e9917bdc",
+      "bytes": 8752,
+      "nativeDimensions": [
+        600,
+        1800
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/19931152/",
+    "https://pubmed.ncbi.nlm.nih.gov/22293174/"
+  ],
+  "sourceDepth": "Levental/Salmon complete primary abstracts only; geometry and speeds are explicitly fictional; no whole-paper or original source figure/video review claimed.",
+  "sourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "sourceCommitQualification": "Root-declared source; exact assigned preimage personally hash-checked; no Git refresh",
+  "frozenLearnerTask": "Compare equal matrix amount with different fiber organization and separately measured movement.",
+  "guardrails": [
+    "Do not show dense matrix as a universal solid wall.",
+    "Equal stain area is not equal stiffness or cell access.",
+    "No static spatial pattern proves matrix causation or treatment benefit."
+  ],
+  "scientificPixelReaderExpertLearnerGrades": "PENDING_INDEPENDENT_REVIEW",
+  "fictionalQuantities": "Eight equal drawn fibers per field; independent speed4\u00b5m/min both, not actual histology or measured patients"
+}

@@ -39,6 +39,10 @@ The analogy has limits: an assay has specimen-specific background, calibration a
 
 Thresholds for clinical decisions are another job. A clinically important concentration may differ from the LoD or LoQ. A positive qualitative assay also has its own classification rule; it need not report a quantitative value.
 
+<img src="./images/blank-detection-quantitation-v1-light.svg" alt="Three panels show a fictional blank response distribution and LoB tail, a smooth detection curve reaching 95 percent at two input units, and a detected result near four below the assumed quantitation limit of eight." width="760" height="1590" data-theme-pair>
+
+*Fictional normal-response model: background response and known-input amount have separate axes. At the LoD95 of 2 units, detection probability is 95%; a detected result near 4 remains below the separately assumed LoQ of 8. The curve and limit spacing are not universal; no clinical cutoff is supplied.*
+
 ## How it is measured
 
 | Assay-card item | Validation question |
@@ -68,6 +72,10 @@ A lower nominal limit can be useful analytically without showing better recurren
 A fictional test has LoD95 of 2 units and LoQ of 8 units under its validated workflow. A sample produces a qualifying detected result near 4 units. Can its amount be reported as precisely established, then compared with 3 units as an exact 33% increase?
 
 **Answer:** No. Detection can be supported while reliable quantitation is not. Preserve the qualification instead of interpreting the small numerical difference as an established biological change.
+
+**Figure check:** At the known input amount of 2 units, is every repeat detected?
+
+**Answer:** No. In the fictional workflow, detection probability is 95%, leaving about 5% misses across repetitions. That is an analytical performance statement, not a probability of a person having a condition.
 
 ## Explain it back
 

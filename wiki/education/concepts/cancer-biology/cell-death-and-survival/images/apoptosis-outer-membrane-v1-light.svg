@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="860" viewBox="0 0 720 860" role="img" aria-labelledby="title desc">
+<title id="title">Where cytochrome c leaves the mitochondrion</title>
+<desc id="desc">BH3-only proteins promote the mitochondrial death route; survival proteins restrain death-promoting partners. Activated BAX or BAK forms pores in the outer mitochondrial membrane. Cytochrome c crosses from the intermembrane space through that membrane into the cytosol. The folded inner membrane separates the intermembrane space from the matrix. Released cytochrome c supports apoptosome assembly and caspase-9 activation. This enlarged local cutaway omits detailed protein interactions and crista remodeling.</desc>
+<defs>
+<marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9" fill="#00695a"/></marker>
+<marker id="release" markerWidth="13" markerHeight="13" refX="11" refY="6.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L13 6.5 L0 13" fill="#a64155"/></marker>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#182d38;font-size:24px} .small{font-size:22px;fill:#4e606b} .bold{font-weight:700} .pro{fill:#00695a} .anti{fill:#8b4a29} .cyto{fill:#a64155}</style>
+</defs>
+<rect width="720" height="860" rx="18" fill="#faf8f2"/>
+<text x="30" y="44" class="bold" font-size="30">Where cytochrome c leaves</text>
+<text x="30" y="79" class="small">An enlarged patch of a mitochondrion</text>
+<rect x="30" y="106" width="316" height="122" rx="14" fill="#e0f1eb" stroke="#00695a" stroke-width="2"/>
+<text x="48" y="140" class="bold pro">BH3-only proteins</text>
+<text x="48" y="174">Convey stress; activate</text>
+<text x="48" y="207">or relieve restraint</text>
+<rect x="366" y="106" width="324" height="122" rx="14" fill="#f8e8db" stroke="#8b4a29" stroke-width="2"/>
+<text x="384" y="140" class="bold anti">Survival proteins</text>
+<text x="384" y="174">BCL-2, BCL-XL, MCL-1</text>
+<text x="384" y="207">Restrain death partners</text>
+<path d="M188 228 V260 H304" fill="none" stroke="#00695a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M528 228 V260 H418 M418 247 V273" fill="none" stroke="#8b4a29" stroke-width="3"/>
+<text x="227" y="301" class="bold pro">Activated BAX or BAK</text>
+<text x="250" y="336" class="small">Pore-forming effectors</text>
+<path d="M360 350 V372 H480 V439" fill="none" stroke="#00695a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="32" y="403" class="bold">Cytosol</text>
+<rect x="30" y="457" width="660" height="147" fill="#d7eee7"/>
+<rect x="30" y="604" width="660" height="86" fill="#e7eced"/>
+<path d="M30 457 H447 M537 457 H690" fill="none" stroke="#637b88" stroke-width="14"/>
+<path d="M447 436 V478 M537 436 V478" fill="none" stroke="#00695a" stroke-width="13" stroke-linecap="round"/>
+<text x="32" y="439" class="bold">Outer membrane</text>
+<text x="550" y="436" class="small pro">Pore</text>
+<text x="48" y="504" class="bold">Intermembrane space</text>
+<text x="48" y="539" class="cyto">Cytochrome c</text>
+<circle cx="289" cy="533" r="10" fill="#a64155"/>
+<circle cx="328" cy="556" r="10" fill="#a64155"/>
+<circle cx="371" cy="519" r="10" fill="#a64155"/>
+<path d="M392 526 Q493 541 493 488 V405" fill="none" stroke="#a64155" stroke-width="4" marker-end="url(#release)"/>
+<circle cx="493" cy="394" r="10" fill="#a64155"/>
+<circle cx="531" cy="378" r="10" fill="#a64155"/>
+<text x="550" y="392" class="small cyto">Released</text>
+<path d="M30 604 H210 V661 Q236 691 262 661 V604 H317 V661 Q343 691 369 661 V604 H690" fill="#d7eee7" stroke="#637b88" stroke-width="8" stroke-linejoin="round"/>
+<text x="408" y="583" class="bold">Inner membrane</text>
+<path d="M542 589 V601" stroke="#637b88" stroke-width="2"/>
+<text x="49" y="655" class="bold">Matrix</text>
+<text x="30" y="725" class="small">Cytochrome c exits across the outer membrane.</text>
+<text x="30" y="757" class="small">Inner-membrane folds and pores are simplified.</text>
+<rect x="30" y="779" width="660" height="58" rx="14" fill="#ffffff" stroke="#637b88"/>
+<text x="48" y="816">In cytosol: apoptosome → caspase-9</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1380" viewBox="0 0 780 1380" role="img" aria-labelledby="title desc"><title id="title">Which boundary is crossed?</title><desc id="desc">Cutaway lymph node containing a contiguous cancer deposit that crosses its capsule into nearby soft tissue. A separate inked specimen cut edge lies farther right. Below, cancer cells inside a separate vessel lumen illustrate a different boundary question. No ruler, measurement direction or distant-spread arrow is shown.</desc>
+<defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#4d7f72"/></marker><marker id="time" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#52676a"/></marker></defs>
+<rect x="0" y="0" width="780" height="1380" rx="0" fill="#faf5eb"/>
+<text x="40" y="65" fill="#293c40" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="start"><tspan x="40" dy="0">Which boundary is crossed?</tspan></text>
+<text x="40" y="112" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Schematic cutaway • not microscopy</tspan></text>
+<rect x="24" y="145" width="732" height="770" rx="22" fill="#fffdf8" stroke="#c9c9bd" stroke-width="2"/>
+<text x="48" y="199" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Node capsule ≠ specimen cut edge</tspan></text>
+<text x="48" y="253" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Lymph node</tspan></text>
+<path d="M222 264 L238 322" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="580" cy="385" r="28" fill="#f1dc9c" stroke="#976b49" stroke-width="2"/>
+<circle cx="610" cy="445" r="30" fill="#f1dc9c" stroke="#976b49" stroke-width="2"/>
+<circle cx="632" cy="589" r="22" fill="#f1dc9c" stroke="#976b49" stroke-width="2"/>
+<ellipse cx="290" cy="511" rx="177" ry="193" fill="#c0d7e0" stroke="#976b49" stroke-width="10"/>
+<path d="M218 505 C201 448 298 427 349 474 C393 507 429 462 471 487 C499 507 541 522 542 564 C544 612 487 646 451 620 C411 591 382 641 337 620 C282 634 232 562 218 505 Z" fill="#a875ad" stroke="#a875ad" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="750" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Capsule</tspan></text>
+<path d="M183 734 L165 660" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="435" y="690" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="435" dy="0">Crossing into</tspan><tspan x="435" dy="40">nearby tissue</tspan><tspan x="435" dy="40">= ENE</tspan></text>
+<path d="M490 660 L500 616" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="850" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Contiguous cancer deposit</tspan></text>
+<path d="M319 810 L307 619" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="418" y="286" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="418" dy="0">Nearby</tspan><tspan x="418" dy="40">soft tissue</tspan></text>
+<path d="M558 338 L572 357" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M684 343 L684 741" fill="none" stroke="#79628c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="575" y="812" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="575" dy="0">Inked</tspan><tspan x="575" dy="40">cut edge</tspan></text>
+<path d="M660 781 L684 747" fill="none" stroke="#79628c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="24" y="940" width="732" height="278" rx="22" fill="#fffdf8" stroke="#c9c9bd" stroke-width="2"/>
+<text x="48" y="994" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="48" dy="0">A separate vessel space</tspan></text>
+<ellipse cx="545" cy="1070" rx="125" ry="58" fill="#75a3ae" stroke="#4d7f72" stroke-width="4"/>
+<ellipse cx="545" cy="1070" rx="99" ry="34" fill="#fffdf8" stroke="#4d7f72" stroke-width="3"/>
+<circle cx="512" cy="1066" r="13" fill="#a875ad" stroke="#a875ad" stroke-width="2"/>
+<circle cx="550" cy="1081" r="13" fill="#a875ad" stroke="#a875ad" stroke-width="2"/>
+<circle cx="575" cy="1064" r="13" fill="#a875ad" stroke="#a875ad" stroke-width="2"/>
+<text x="48" y="1067" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Cells inside</tspan><tspan x="48" dy="40">a lumen</tspan></text>
+<path d="M278 1068 L447 1070" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="1171" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Vessel invasion asks a different question.</tspan></text>
+<text x="40" y="1272" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">ENE describes extension beyond a node.</tspan><tspan x="40" dy="42">It alone does not establish distant spread.</tspan></text>
+</svg>

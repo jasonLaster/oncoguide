@@ -1,0 +1,6 @@
+Original code-generated SVG; 0 image-model calls. Top panel uses hand-picked proportions .47,.51,.43,.56,.50,.48,.52,.46,.65,.54, n=100, and p +/- 1.96*sqrt(p*(1-p)/100). These are illustrative samples, not a random simulation, observed studies or a coverage estimate. Known truth .50 is fixed. Nine intervals cover it and one misses; nominal 95% refers to repeated valid method use, approximately for this normal construction. Bottom uses unchanged owner intervals .402-.598 and .4902-.5098 on the same .35-.65 axis. Narrowness alone does not establish validity.
+
+Original learner task: Distinguish repeated method coverage from one interval and precision from validity.
+Guardrails: Distinguish repeated-method coverage from probability assigned to one fixed parameter after observing an interval. Plot assumptions, scale and sampling explicitly; narrowness is not accuracy, validity or lack of bias.
+
+Warm pale light ground, quiet deep dark ground, identical geometry and labels; minimum 32px native label size. The privately retained construction program and source-depth receipts are not publicly delivered. Delivered SVGs are editable; no executable reproduction package is supplied.

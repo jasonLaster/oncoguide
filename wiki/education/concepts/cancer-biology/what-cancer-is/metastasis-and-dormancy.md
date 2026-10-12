@@ -45,6 +45,12 @@ The [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-micro
 
 **Dormancy is not cell death.** It also differs from [senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence), another state involving persistent cell-cycle arrest and other features. Naming either state requires more than a low proliferation marker.
 
+
+<div class="cartoon-frame">
+<img src="./images/metastasis-hurdles-and-dormancy-scales-v1-light.svg" width="600" height="2200" data-theme-pair alt="A selected possible route separates local invasion, blood or lymph travel, distant tissue arrival and outgrowth, with failure branches and a distinct viable-persistence route. Two fictional one-week culture insets each retain 100 viable cells: A has no division or loss; B gains 20 net cells from division and loses 20 cells. No recurrence clock or scan-derived cell state is supplied.">
+<p class="cartoon-caption">The hurdles describe possible routes, not compulsory success. The lower counts restate the fictional culture exercise: viable nondivision differs from balanced population turnover, even at the same final count. Glyphs are symbols, not enumerated cells; neither inset diagnoses unseen cells from a scan or predicts relapse.</p>
+</div>
+
 ## Why it matters in cancer
 
 Metastatic breast cancer found in the lung remains breast cancer, rather than automatically becoming a new lung primary. Tissue identity and molecular evidence help distinguish these possibilities.

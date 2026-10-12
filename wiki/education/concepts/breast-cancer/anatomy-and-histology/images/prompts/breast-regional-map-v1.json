@@ -1,0 +1,63 @@
+{
+  "schema": "education-code-svg-provenance-v1",
+  "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+  "assetStem": "breast-regional-map-v1",
+  "basis": {
+    "sourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+    "ownerPreimageSHA256": "3df1d7d31821513fe54f4a8c714df95ee7eb32fb18a9789ac27a8200a2e16f87",
+    "originalFrozenReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "frozenTaskSHA256": "a06815de4ad5c26c4e5a832ff4e0c0df3019ed5c7907d828fe7db031c8c53138"
+  },
+  "creationCommit": null,
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "rasterOutputs": [],
+  "referenceImages": [],
+  "constructionBrief": {
+    "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1.txt",
+    "SHA256": "bc0ef9795c48d8fed66e4523da2a6b342510e65e12a7d323d64c6ddbb839aa7c"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+      "SHA256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43",
+      "width": 780,
+      "height": 1720,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+      "SHA256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9",
+      "width": 780,
+      "height": 1720,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "themeContract": "Same geometry, objects, text and quantities; palette-only changes.",
+  "sourceReviewDate": "2026-10-12",
+  "sourceReview": [
+    {
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "accessDepth": "Selected full-protocol text: Note M, printed page 37; page also rendered and inspected.",
+      "usedFor": "Regional locations; pectoralis-minor level boundaries; intramammary grouping."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
+      "accessDepth": "Rendered fact-sheet text read, including mapping, sampling and false-negative sections.",
+      "usedFor": "Tracer mapping and pathological examination are separate steps."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18043970/",
+      "accessDepth": "Complete primary abstract via NCBI EFetch XML; rendered PubMed retrieval was incomplete. No full-paper claim.",
+      "usedFor": "Variable drainage illustrated, without individual sentinel-map guarantee."
+    }
+  ],
+  "scope": "General education and illustrative/fictional examples; no patient data or diagnostic/treatment decision. Expert and learner review pending.",
+  "publicCustody": "Only owner Markdown, native SVG pair and owner images/prompts brief/provenance. Original artwork; no source figures copied.",
+  "privateAids": {
+    "author.py": "Private construction script, not delivered in public payload; editable SVGs are delivered without an executable regeneration package.",
+    "sources/": "Private access records and source PDFs/XML, not delivered in public payload."
+  }
+}

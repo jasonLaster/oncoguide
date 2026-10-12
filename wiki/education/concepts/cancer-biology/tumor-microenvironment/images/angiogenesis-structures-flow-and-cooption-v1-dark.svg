@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1900" viewBox="0 0 600 1900" role="img" aria-labelledby="title desc"><title id="title">angiogenesis-structures-flow-and-cooption-v1</title><desc id="desc">Code-generated bounded teaching schematic; quantities identified as fictional; no universal pathway, patient outcome or source figure reproduction.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f4efdc"/></marker><marker id="arrow-on-pale" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#18333e"/></marker><marker id="bar" markerWidth="8" markerHeight="10" refX="1" refY="5" orient="auto"><path d="M1 0 L1 10" stroke="#f4efdc" stroke-width="2"/></marker></defs><rect width="600" height="1900" fill="#102331"/>
+<text x="30" y="48" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f4efdc">Count vessels. Measure flow.</text>
+<text x="30" y="89" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f4efdc">Fictional equal-area tissue fields</text>
+<rect x="22" y="125" width="556" height="520" rx="18" fill="#1c3441" stroke="#88a5af" stroke-width="2"/>
+<text x="42" y="169" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f4efdc">A · More structures</text>
+<rect x="42" y="200" width="516" height="320" rx="12" fill="#d5b88d"/>
+<circle cx="105" cy="245" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="101" cy="246" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="140" cy="235" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="136" cy="236" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="162" cy="268" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="158" cy="269" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="120" cy="280" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="116" cy="281" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="315" cy="265" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="311" cy="266" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="350" cy="255" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="346" cy="256" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="372" cy="288" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="368" cy="289" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="330" cy="300" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="326" cy="301" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="430" cy="390" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="426" cy="391" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="465" cy="380" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="461" cy="381" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="487" cy="413" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="483" cy="414" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="445" cy="425" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="441" cy="426" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="210" cy="435" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="206" cy="436" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="245" cy="425" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="241" cy="426" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="267" cy="458" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="263" cy="459" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="225" cy="470" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="221" cy="471" r="7.333333333333333" fill="#f4efdc"/>
+<rect x="55" y="210" width="490" height="32" rx="15" fill="#e99b83"/>
+<rect x="64" y="219" width="470" height="14" rx="6" fill="#102331"/>
+<path d="M80 226 L520 226" fill="none" stroke="#87badb" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="55" y="300" width="490" height="32" rx="15" fill="#e99b83"/>
+<rect x="64" y="309" width="470" height="14" rx="6" fill="#102331"/>
+<path d="M92 316 L180 316" fill="none" stroke="#88a5af" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<rect x="55" y="390" width="490" height="32" rx="15" fill="#e99b83"/>
+<rect x="64" y="399" width="470" height="14" rx="6" fill="#102331"/>
+<path d="M92 406 L180 406" fill="none" stroke="#88a5af" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<rect x="55" y="480" width="490" height="32" rx="15" fill="#e99b83"/>
+<rect x="64" y="489" width="470" height="14" rx="6" fill="#102331"/>
+<path d="M92 496 L180 496" fill="none" stroke="#88a5af" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<text x="42" y="563" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f4efdc">Structures counted: 4</text>
+<text x="42" y="605" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f4efdc">Tracer readout: 100 a.u.</text>
+<rect x="22" y="700" width="556" height="520" rx="18" fill="#1c3441" stroke="#88a5af" stroke-width="2"/>
+<text x="42" y="744" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f4efdc">B · Fewer structures</text>
+<rect x="42" y="775" width="516" height="320" rx="12" fill="#d5b88d"/>
+<circle cx="105" cy="820" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="101" cy="821" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="140" cy="810" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="136" cy="811" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="162" cy="843" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="158" cy="844" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="120" cy="855" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="116" cy="856" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="315" cy="840" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="311" cy="841" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="350" cy="830" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="346" cy="831" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="372" cy="863" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="368" cy="864" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="330" cy="875" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="326" cy="876" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="430" cy="965" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="426" cy="966" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="465" cy="955" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="461" cy="956" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="487" cy="988" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="483" cy="989" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="445" cy="1000" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="441" cy="1001" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="210" cy="1010" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="206" cy="1011" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="245" cy="1000" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="241" cy="1001" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="267" cy="1033" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="263" cy="1034" r="7.333333333333333" fill="#f4efdc"/>
+<circle cx="225" cy="1045" r="22" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="221" cy="1046" r="7.333333333333333" fill="#f4efdc"/>
+<rect x="55" y="785" width="490" height="32" rx="15" fill="#e99b83"/>
+<rect x="64" y="794" width="470" height="14" rx="6" fill="#102331"/>
+<path d="M80 801 L520 801" fill="none" stroke="#87badb" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="55" y="965" width="490" height="32" rx="15" fill="#e99b83"/>
+<rect x="64" y="974" width="470" height="14" rx="6" fill="#102331"/>
+<path d="M80 981 L520 981" fill="none" stroke="#87badb" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="42" y="1138" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f4efdc">Structures counted: 2</text>
+<text x="42" y="1180" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f4efdc">Tracer readout: 160 a.u.</text>
+<rect x="22" y="1280" width="556" height="225" rx="18" fill="#1c3441" stroke="#88a5af" stroke-width="2"/>
+<text x="42" y="1323" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f4efdc">Separate observations</text>
+<text x="42" y="1370" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f4efdc">Arrows: illustrative blood flow</text>
+<text x="42" y="1414" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f4efdc">a.u.: arbitrary units, same assay/time</text>
+<text x="42" y="1458" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f4efdc">Oxygenation: not measured here</text>
+<rect x="22" y="1540" width="556" height="285" rx="18" fill="#1c3441" stroke="#88a5af" stroke-width="2"/>
+<text x="42" y="1584" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f4efdc">Possible separate route: co-option</text>
+<rect x="55" y="1640" width="490" height="38" rx="18" fill="#e99b83"/>
+<rect x="65" y="1651" width="470" height="16" rx="7" fill="#102331"/>
+<circle cx="130" cy="1615" r="17" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="126" cy="1616" r="5.666666666666667" fill="#f4efdc"/>
+<circle cx="130" cy="1703" r="17" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="126" cy="1704" r="5.666666666666667" fill="#f4efdc"/>
+<circle cx="280" cy="1615" r="17" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="276" cy="1616" r="5.666666666666667" fill="#f4efdc"/>
+<circle cx="280" cy="1703" r="17" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="276" cy="1704" r="5.666666666666667" fill="#f4efdc"/>
+<circle cx="430" cy="1615" r="17" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="426" cy="1616" r="5.666666666666667" fill="#f4efdc"/>
+<circle cx="430" cy="1703" r="17" fill="#e7949e" stroke="#f4efdc" stroke-width="1.5"/>
+<circle cx="426" cy="1704" r="5.666666666666667" fill="#f4efdc"/>
+<text x="42" y="1750" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f4efdc">Tumor cells use an existing vessel.</text>
+<text x="42" y="1792" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#f4efdc">Not every tumor takes this route.</text>
+<text x="30" y="1868" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#f4efdc">No dose, time window or efficacy promise.</text>
+</svg>

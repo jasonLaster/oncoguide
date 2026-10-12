@@ -1,0 +1,9 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen learner task: Recognize membrane completeness, intensity and stained-cell extent as separate HER2 IHC features, then distinguish score from integrated status.
+
+Construct five vertically stacked membrane-pattern rows using original cell glyphs. Scores 0 and 0+ must be separate under CAP September 2026. Show no detected membrane stain for 0; faint incomplete arcs for 0+ and 1+ with ≤10% versus >10% stated independently; complete weak–moderate rings for the common 2+ pattern; complete intense rings for 3+, with >10% and homogeneous contiguous population qualifier. Glyphs illustrate representative patterns, never a counted field. Gray is cell outline, brown is stain; dark theme preserves stain ordering. Preserve the existing workup Mermaid and integrated-status exercise. No zero-receptor proof, diagnostic algorithm, universal drug eligibility or expression-to-benefit inference.
+
+Use the same geometry, labels, quantities and units for warm light and quiet dark palettes. Essential labels use at least 32 SVG units in a 780-unit-wide canvas; native SVG links expose the full detail.
+
+The public deliverables are editable SVGs and this brief/provenance record. The Python construction script and source-access records are private scratch aids and are not delivered in the public payload. No executable regeneration package or source PDF bodies are included.

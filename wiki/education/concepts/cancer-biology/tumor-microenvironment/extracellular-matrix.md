@@ -74,9 +74,19 @@ A mechanical method may report elastic modulus in pascals, but results depend on
 
 ## Try it
 
+<div class="cartoon-frame">
+<img src="./images/matrix-equal-area-distinct-architecture-v1-light.svg" width="600" height="1800" data-theme-pair alt="Two equal-size tissue sketches each contain eight identical collagen fiber shapes, arranged as an aligned open pattern or a looser pattern beside a malignant nest and T cell. A separately stipulated live-tracking readout gives mean T-cell speed of four micrometers per minute in both fields. Nest entry, stiffness and matrix causation remain unanswered.">
+<p class="cartoon-caption">Eight equal-size, non-overlapping fiber shapes in each equal field give equal drawn collagen area. The separate live-tracking speeds are fictional observations, not motion inferred from a stain. Equal speed does not establish equal nest entry, stiffness or matrix causation; open gaps avoid treating matrix as a universal solid wall.</p>
+</div>
+
+
 Two fictional sections have the same collagen-stained area. One has aligned fibers around malignant-cell regions; the other has a loose network. Can the researcher assume equal cell access?
 
 **Answer:** No. The measured amount matches, but architecture differs. Score cell locations and test movement with appropriate methods. Even then, additional signals may contribute, and no drug response follows automatically.
+
+**Use the separate readout:** Fictional live tracking over the same window gives mean T-cell speed of 4 micrometers per minute in both fields. Does that prove equal access to malignant nests?
+
+**Answer:** No. Equal speed can accompany different directions, routes or time spent near a nest. Measure entry or contact separately. Stiffness also needs its own test, and these observations alone do not establish matrix causation or treatment benefit.
 
 ## Explain it back
 

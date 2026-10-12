@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/breast-cancer/anatomy-and-histology/b
 used_by: ["[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-10"
+updated: "2026-10-12"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -34,6 +34,12 @@ Imagine collection routes leading from a neighborhood to several nearby meeting 
 The **axilla** is the armpit region. Its lymph nodes are an important regional drainage group for the breast. Axillary levels describe position relative to the pectoralis minor muscle: level I is lateral to it, level II lies between its medial and lateral borders, and level III is medial to it, below the clavicle. These are anatomical levels, rather than a person's overall cancer stage or a compulsory sequence of spread.
 
 [Internal mammary nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes) form a different chain beside the breastbone. **Intramammary nodes** lie within breast tissue. Despite their similar names, they are different locations. For breast-cancer nodal staging, intramammary nodes are grouped with axillary nodes under the College of American Pathologists (CAP) reporting protocol.
+
+<img src="./images/breast-regional-map-v1-light.svg" alt="Front-view breast map locates the axilla, sternum, internal mammary and intramammary nodes, with an enlarged muscle-relative map of axillary levels I, II and III." width="780" height="1720" data-theme-pair>
+
+*Possible drainage routes are shown without assigning cancer involvement. Axillary levels locate nodes around pectoralis minor; a sample tests particular nodes, not every regional chain.*
+
+[Open the light diagram](./images/breast-regional-map-v1-light.svg) · [Open the dark diagram](./images/breast-regional-map-v1-dark.svg)
 
 ```mermaid
 flowchart TD
@@ -65,6 +71,8 @@ Clinical examination and imaging assess selected nodal regions. Needle or surgic
 - A draining node can contain immune activity, cancer, both or neither in the sampled sections.
 
 ## Try it
+
+On the map, which chain sits beside the sternum, and does a negative axillary sample test that chain? **Answer:** The internal mammary chain; a negative axillary sample does not establish its pathological result.
 
 In a fictional report, sampled axillary nodes are negative, while imaging separately describes an indeterminate internal mammary node. Can you summarize this as “all regional nodes proved negative”?
 

@@ -1,0 +1,9 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen learner task: Locate a nodal deposit relative to capsule, nearby tissue and separately defined cut or vessel boundaries.
+
+Construct a cutaway node in nearby soft tissue/fat. A continuous purple deposit spans the capsule and extends outside; do not draw a disconnected deposit as proof of ENE. Place an inked specimen cut edge separately beyond the deposit. A distinct lower vessel compartment contains cells in a lumen to contrast vascular invasion with direct capsule crossing. No distant arrows, staging category, ruler or preferred extent-measurement axis.
+
+Use the same geometry, labels, quantities and units for warm light and quiet dark palettes. Essential labels use at least 32 SVG units in a 780-unit-wide canvas; native SVG links expose the full detail.
+
+The public deliverables are editable SVGs and this brief/provenance record. The Python construction script and source-access records are private scratch aids and are not delivered in the public payload. No executable regeneration package or source PDF bodies are included.

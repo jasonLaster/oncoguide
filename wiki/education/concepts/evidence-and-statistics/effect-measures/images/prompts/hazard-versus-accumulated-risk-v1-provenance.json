@@ -1,0 +1,54 @@
+{
+  "creation_method": "Original code-generated editable SVG",
+  "actual_image_model_calls": 0,
+  "image_model_calls": [],
+  "model": null,
+  "source_commit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "owner_preimage_sha256": "5ed52826c87fa19def72234d9fad53e35b1a92087a643c23dc7639c8fa6455f8",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md",
+  "original_learner_task": "Compare conditional hazards with accumulated event risks on the same fictional model.",
+  "generator": "private/construct.py",
+  "generator_sha256": "2e4e79c9942b5953fdcaa9ddc57dff040a2b0a96a8cbdcdba6e7d4ffa03756f7",
+  "generator_custody": "Construction code and execution are privately retained and not delivered in the public payload; SVGs are editable, with no executable reproduction package supplied.",
+  "source_depth_custody": "Access/read-depth receipts and raw bodies are privately retained and not publicly delivered. Selected source passages support the concept; all chart numbers and geometry are fictional original constructions.",
+  "sources": [
+    "https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/"
+  ],
+  "empirical_data": "None; fictional teaching examples",
+  "source_figures_copied": false,
+  "prompt_sha256": "339c46eae42aa86f142e69dfc839afef4d9cb2f6082e4e8b22516e7afc48c75d",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
+      "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36",
+      "width": 760,
+      "height": 1540
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-dark.svg",
+      "sha256": "ba97c33b87e95a559b8941b9d32fa69bdb9c0964cbbf24304fe902e2d20dd75c",
+      "width": 760,
+      "height": 1540
+    }
+  ],
+  "theme_method": "Identical shared construction; palette substitution only",
+  "minimum_native_font_px": 32,
+  "independent_review": "pending",
+  "expert_review": "pending",
+  "learner_review": "pending",
+  "credit": 0,
+  "source_read_depth": [
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm",
+      "depth": "Official exponential-model formula and constant-failure-rate passages read in web text; retained receipt. Direct Python download returned 403. Reliability context used only for the mathematics, not a biological generalization.",
+      "supports": "For the assumed exponential model, F(t)=1-exp(-lambda*t) and hazard=lambda."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/",
+      "depth": "Same selected primary methodological passages actually read for this batch; figures/data not imported.",
+      "supports": "Conditional-hazard and fixed-time absolute-effect distinctions."
+    }
+  ],
+  "scope_note": "These are new source-bound fictional charts. Existing source_checked metadata remains historical; Neyman, Cox, Cook/Sackett and the FDA2024 source were not freshly re-read for this insertion-only batch."
+}

@@ -1,0 +1,45 @@
+{
+  "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+  "construction": "code-generated scientific SVG",
+  "imageModelCalls": 0,
+  "model": null,
+  "modelScope": "No image model used; ordinary code-art provenance, not raster-call metadata",
+  "nativePair": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-light.svg",
+      "sha256": "c97a360d8f0827408a7c898d9ca2929fc48bae5f3865628166b700be57b49ca1",
+      "bytes": 11601,
+      "nativeDimensions": [
+        600,
+        1900
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-dark.svg",
+      "sha256": "8cbc9045f8794a28c92f3f9b5dd095fde3153193ec6934ad84d05bbd32517bb1",
+      "bytes": 11601,
+      "nativeDimensions": [
+        600,
+        1900
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/15172975/",
+    "https://pubmed.ncbi.nlm.nih.gov/15607960/",
+    "https://pubmed.ncbi.nlm.nih.gov/10373119/"
+  ],
+  "sourceDepth": "Tong/Winkler/Holash complete primary abstracts only; no whole-paper or original source figure/video review claimed.",
+  "sourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "sourceCommitQualification": "Root-declared source; exact assigned preimage personally hash-checked; no Git refresh",
+  "frozenLearnerTask": "Distinguish new vessel structures from perfusion, oxygenation and delivery.",
+  "guardrails": [
+    "Illustrative flows, no universal normalization window or dose.",
+    "Show co-option as a possible separate supply route, not every tumor's pathway.",
+    "Vessel density and oxygenation are not equivalent; no efficacy promise."
+  ],
+  "scientificPixelReaderExpertLearnerGrades": "PENDING_INDEPENDENT_REVIEW",
+  "fictionalQuantities": "Equal fields,4/2 structures,100/160 tracer arbitrary units; illustrative flow arrows not rates"
+}

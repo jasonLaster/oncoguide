@@ -1,0 +1,22 @@
+{
+  "artifact": "apoptosis-outer-membrane-v1",
+  "method": "Code-authored original SVG; no image_gen call or copied source figure",
+  "image_model": null,
+  "assistant_model_identity": "Not reported by a tool",
+  "native_dimensions": [
+    720,
+    860
+  ],
+  "variants": [
+    "light",
+    "dark"
+  ],
+  "brief": "./prompts/apoptosis-outer-membrane-v1.txt",
+  "files": {
+    "apoptosis-outer-membrane-v1-dark.svg": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99",
+    "apoptosis-outer-membrane-v1-light.svg": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b"
+  },
+  "brief_sha256": "296ce609ca6f8b9e979e8d5bc333a593d1fe0331320b423ea75213d24a613d6c",
+  "scientific_review": "Self-check against public primary-paper abstracts and indexed excerpts; independent expert and learner review pending",
+  "scope": "Spatial inset supplements unchanged Mermaid route map. No drug choice, expression-to-dependency inference, clinical-benefit or immunogenicity claim."
+}

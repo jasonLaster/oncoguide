@@ -48,6 +48,10 @@ Under this deliberately simple exponential model, event risk by time t is `1 −
 
 The risk ratio is about `29.5/39.3 = 0.75`, and the absolute difference is about 9.8 percentage points. Neither is HR 0.70. These invented assumptions explain the distinction; cancer studies need their actual curves and model.
 
+<img src="./images/hazard-versus-accumulated-risk-v1-light.svg" alt="Two aligned time plots show constant conditional hazards of 0.10 and 0.07 per year and their accumulated event-risk curves reaching 39.3 and 29.5 percent at five years, with hazard ratio 0.70 distinct from risk ratio about 0.75." width="760" height="1540" data-theme-pair>
+
+*In this fictional exponential model, the hazards stay at 0.10 and 0.07 per year while accumulated risks rise with time. At five years, the hazard ratio is 0.70 but the risk ratio is about 0.75. Real hazards can vary; this model assumes one event type and no competing events.*
+
 ## What is measured
 
 | Reading question | Information needed |
@@ -98,6 +102,8 @@ Source check: 2026-10-10. General statistics education; expert and learner revie
 - [Cox 1972: original proportional-hazards regression method](https://doi.org/10.1111/j.2517-6161.1972.tb00899.x).
 - [National Cancer Institute: hazard ratio](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hazard-ratio).
 - [Altman and Andersen 1999: time-specific absolute effects and number needed to treat](https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/).
+
+- [NIST: exponential-model formulas](https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm) — supports the fictional constant-hazard figure, not a clinical model.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

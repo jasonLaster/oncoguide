@@ -1,0 +1,63 @@
+{
+  "schema": "education-code-svg-provenance-v1",
+  "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2.md",
+  "assetStem": "her2-membrane-patterns-v1",
+  "basis": {
+    "sourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+    "ownerPreimageSHA256": "8288465cd37e66c3bc61c62af0153fc0f4d3721f9fd64132428be0ee98c23642",
+    "originalFrozenReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "frozenTaskSHA256": "2b0b3a2fd1b670f052ee48477267ad2a8a02ba4a27601481b7965c2326160c8e"
+  },
+  "creationCommit": null,
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "rasterOutputs": [],
+  "referenceImages": [],
+  "constructionBrief": {
+    "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/her2-membrane-patterns-v1.txt",
+    "SHA256": "0fd3f2fff4fe75f1c5e76d2bc51c65531d9d0fa28e53e2475f77d72972bc8513"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/her2-membrane-patterns-v1-light.svg",
+      "SHA256": "9428d0c93ca928b5f63652fa96b62a0df9a14a76e7f3488fdd72a42cbf74d966",
+      "width": 780,
+      "height": 1510,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/her2-membrane-patterns-v1-dark.svg",
+      "SHA256": "44fdc39c2bf3b4efa5b5699d540185177a8f3db4ef5c3e4e9dcd7b8ad4582117",
+      "width": 780,
+      "height": 1510,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "themeContract": "Same geometry, objects, text and quantities; palette-only changes.",
+  "sourceReviewDate": "2026-10-12",
+  "sourceReview": [
+    {
+      "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "accessDepth": "Selected full-template text: printed pages 5–6 and standardized HER2 comments on page 8; page 5 rendered and inspected. Not an exhaustive review of all 25 pages.",
+      "usedFor": "September 2026 IHC 0/0+ distinction, membrane patterns, extent and 3+ qualifier."
+    },
+    {
+      "url": "https://www.cap.org/wp-content/uploads/documents/her2_breast_update_sor_2023.pdf?download=true",
+      "accessDepth": "Selected recommendations read from the primary 2023 summary PDF: IHC, integrated ISH workup and quality criteria.",
+      "usedFor": "Score versus integrated status; controls and heterogeneity workup retained."
+    },
+    {
+      "url": "https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests",
+      "accessDepth": "Rendered page text read; HER2 biology/testing section used, subtype table not used to infer intrinsic classifications.",
+      "usedFor": "Cell-surface protein and tissue-testing context only."
+    }
+  ],
+  "scope": "General education and illustrative/fictional examples; no patient data or diagnostic/treatment decision. Expert and learner review pending.",
+  "publicCustody": "Only owner Markdown, native SVG pair and owner images/prompts brief/provenance. Original artwork; no source figures copied.",
+  "privateAids": {
+    "author.py": "Private construction script, not delivered in public payload; editable SVGs are delivered without an executable regeneration package.",
+    "sources/": "Private access records and source PDFs/XML, not delivered in public payload."
+  }
+}

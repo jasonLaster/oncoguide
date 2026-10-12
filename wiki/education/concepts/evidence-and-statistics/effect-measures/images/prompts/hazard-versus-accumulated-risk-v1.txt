@@ -1,0 +1,6 @@
+Original code-generated SVG; 0 image-model calls. Same fictional constant-hazard exponential model as owner: control .10/year and treatment .07/year; t=0..5 years; one event type and no competing events. Accumulated event risk = 1-exp(-hazard*t). HR=.70; five-year risks .393469340287 and .295311910281; risk ratio .750533472483 (approximately .75). Distinct rate/risk axis units. No survival-time ratio, person prognosis, measured data or competing-risk model.
+
+Original learner task: Compare conditional hazards with accumulated event risks on the same fictional model.
+Guardrails: Name hazard units and the constant-hazard assumptions of any toy model. HR is not the cumulative-risk ratio, survival-time ratio or an individual prognosis; keep competing risks and varying hazards outside the simplification.
+
+Warm pale light ground, quiet deep dark ground, identical geometry and labels; minimum 32px native label size. The privately retained construction program and source-depth receipts are not publicly delivered. Delivered SVGs are editable; no executable reproduction package is supplied.

@@ -1,0 +1,15 @@
+Apoptosis outer-membrane inset v1 — code-authored SVG, not an image-model output.
+
+Teaching task: Connect opposing BCL-2-family roles to mitochondrial outer-membrane permeabilization; supplement the existing route map without replacing either caspase route or its BID cross-link.
+
+Rendering brief: 720 x 860 px native SVG, paired light/dark palettes, generous labels and a simplified local membrane cutaway. Green boxes/arrows indicate death-promoting roles. Warm survival box and bar-ended connector indicate restraint. The table and prose supply the detailed examples and interactions. Pink cytochrome c dots occupy the intermembrane-space side of the inner membrane and pass through an outer-membrane pore into the cytosol. Draw the matrix below the intact folded inner boundary; folded lumens remain continuous with the intermembrane space. State that detailed folds, pores and protein interactions are simplified. Labels carry meaning in addition to color.
+
+Accuracy guardrails: BAX or BAK is sufficient for the schematic pore, not an obligatory mixed BAX-plus-BAK ring. BH3-only proteins have different activating and restraint-relieving roles; no claim that all directly activate effectors. Survival proteins restrain partners, rather than mechanically plugging a pore. The inset shows a patch, not an entire organelle or exact stoichiometry. Do not show cytochrome c emerging from the matrix or crossing the inner membrane. Do not imply that inner-membrane morphology never changes. No expression-to-dependency or clinical-benefit inference; no drug efficacy ranking or prescribing. Apoptosis does not automatically prove immunogenicity. Retain existing practice and evidence boundaries.
+
+Public sources used to check added spatial claims:
+Liu et al. 1996, https://pubmed.ncbi.nlm.nih.gov/8689682/ — abstract read; cytochrome c release to cytosol and cell-free apoptotic activity.
+Scorrano et al. 2002, https://pubmed.ncbi.nlm.nih.gov/11782314/ — abstract read; crista stores and outer-membrane release are distinct spatial steps. No percentage or universal remodeling requirement is claimed here.
+Peng et al. 2006, https://pubmed.ncbi.nlm.nih.gov/17005564/ — abstract read; tBID/BAX and BCL-2 restraint in purified-protein/liposome and cellular tests; supports opposing roles, not a clinical inference.
+Wei et al. 2001, https://pmc.ncbi.nlm.nih.gov/articles/3049805/ — indexed primary-paper abstract/results excerpts read; full text access attempts returned a challenge, not a full-paper review.
+
+Tool provenance: SVG markup authored in this Codex pass, with a Python script producing two palette variants. No image_gen call, no model image output, no copied paper figure. Underlying assistant model identity not reported by a tool. Native SVG files are the exact editable artwork source.

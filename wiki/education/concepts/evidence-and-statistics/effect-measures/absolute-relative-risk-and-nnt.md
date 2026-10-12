@@ -53,6 +53,10 @@ A fictional randomized comparison estimates first recurrence or death by five ye
 
 NNT is an average contrast between strategies, not “every seventeenth person is helped.” Harms have separate endpoints and calculations. [Cook and Sackett](https://doi.org/10.1136/bmj.310.6977.452).
 
+<img src="./images/absolute-relative-risk-five-years-v1-light.svg" alt="Two 100-symbol grids show expected five-year event counts of 20 with control and 14 with a new strategy, followed by the six-per-hundred absolute difference, six divided by twenty relative reduction and NNT seventeen at five years." width="760" height="1290" data-theme-pair>
+
+*Each grid represents expected outcomes per 100 under the same fictional five-year comparison, not linked individual people. Going from 20% to 14% means 6 percentage points fewer events and a 30% relative reduction. The five-year NNT rounds up to 17; it does not identify beneficiaries or weigh harms.*
+
 ## What is measured
 
 | Check | What to retain |

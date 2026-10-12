@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-062",
+  "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "creativeAuthor": {
+    "agent": "Codex",
+    "chatTitle": "Cartoon planning: immune barriers",
+    "threadId": "01a12e5c-60fd-76a0-870a-ed25333c5cac",
+    "role": "original mechanisms candidate writing and code-SVG construction",
+    "identityEvidence": "Author completion record names this mechanisms package and its exact original manifest hash. Canonical integration is a separate role.",
+    "authorPackageManifestSHA256": "833aec9558c74e01547eeddd2428fac5ee8198b0e45ec46d61f8803df2f80970"
+  },
+  "reviewer": "Cartoon planning: cancer cell behavior / 01a12e5c-5791-73b2-8da1-571207558038",
+  "reviewerRole": "independent full package reviewer; current task-binding author",
+  "reviewerThreadId": "01a12e5c-5791-73b2-8da1-571207558038",
+  "passedAt": "2026-10-12T20:12:50.810022+00:00",
+  "boundAt": "2026-10-12T20:12:50.810022+00:00",
+  "bindingScope": "Narrow metadata addendum binding exact unchanged accepted candidates to the original frozen task; no repeat full science/source/pixel review.",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "323a824f11ca822e18652c333197613cbe9e60c390999a84294aaa74c41d0008",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+    "baselinePageSHA256": "a9413bae46758b673433fc200717bdeb166f5764c554bcd9ecd6e492e60beb89",
+    "learnerTask": "Compare equal matrix amount with different fiber organization and separately measured movement.",
+    "gap": "The amount/architecture-to-effects Mermaid is a correct causal outline but the hard contrast is spatial. Two tissue sketches with equal labeled collagen area and different alignment/pore structure would support the fictional example, keeping T-cell access as a question to measure.",
+    "accuracyGuardrails": [
+      "Do not show dense matrix as a universal solid wall.",
+      "Equal stain area is not equal stiffness or cell access.",
+      "No static spatial pattern proves matrix causation or treatment benefit."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "Both fields have eight identical nonoverlapping capsule fibers but different arrangements and open gaps. Independent stipulated speeds of 4 micrometers/min in both fields do not supply direction, nest entry or stiffness. Both answered tasks keep amount, architecture, movement, access and causal/treatment claims separate; no static motion or universal wall is drawn.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "theme": "light",
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+      "sha256": "762332acdb4fceaebe05d1aa07d5882be741c1a1099e186a25d69ea49ff46537",
+      "bytes": 8752,
+      "nativeDimensions": [
+        600,
+        1800
+      ]
+    },
+    {
+      "theme": "dark",
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+      "sha256": "607b5c32fb0d3a02719b8cd9f8fd2efef1ab07f1c1624156fd4c5603e9917bdc",
+      "bytes": 8752,
+      "nativeDimensions": [
+        600,
+        1800
+      ]
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+        "sha256": "323a824f11ca822e18652c333197613cbe9e60c390999a84294aaa74c41d0008",
+        "bytes": 8001
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+        "sha256": "762332acdb4fceaebe05d1aa07d5882be741c1a1099e186a25d69ea49ff46537",
+        "bytes": 8752
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+        "sha256": "607b5c32fb0d3a02719b8cd9f8fd2efef1ab07f1c1624156fd4c5603e9917bdc",
+        "bytes": 8752
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1.txt",
+        "sha256": "1c4123d755af4be4c5283234a86a433ce27859af3b82a8585e95eb41bbf57185",
+        "bytes": 678
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1-provenance.json",
+        "sha256": "6e96f5c276b0bb352dbf75b6f3e68663fd23b563b16167c95d2df06fc3980bee",
+        "bytes": 2039
+      }
+    ],
+    "scope": "Complete accepted owner, original matched native pair, code-construction TXT and ordinary provenance JSON. Raw sources, generator execution, captures and original full-review package remain private, not public delivery members."
+  },
+  "originalFullReview": {
+    "receiptSHA256": "cdadd54e3c932e403f1f3df7a6b751447ef4f358a5699651955614e6ce39bf0a",
+    "manifestSHA256": "23a6a0ea12a109ef24dc2705ff5bc1fea13f75adcbfdf0b2799e4c06ed911402",
+    "rootSealSHA256": "61e570046948b35f17e085da8b2cc2a2890708845c15160672790d4324ded331",
+    "passedAt": "2026-10-12T20:07:23.207841+00:00",
+    "inputAuthorSealSHA256": "111d033a475a6b418efab94b4cb3fd6ea8cb350437e1b5486270eeaf8a1ba3e6",
+    "sourceAccessLimits": {
+      "NCI": "Selected actual metastasis identity/cascade/persistence and angiogenesis/endothelial/VEGF paragraphs read fresh; treatment inventories and recommendations not used.",
+      "selectedRetainedPrimaryText": "Personally read Ganley first four retained publisher selections (reagents, culture, phosphorylation caption, ULK1 regulation) and first two paragraphs in each of the two declared Ghajar Results sections. Retained captures are author-custodied primary text, not newly fetched full-paper evidence.",
+      "depthJudgment": "Author metadata accurately separates abstract reading, selected full-text passages, acquired-but-unread material and failed XML/limited PubMed routes. No whole-paper, original figure/video or full Methods review certified.",
+      "sourceBoundary": "Fictional ratios/counts/speeds and symbolic SVGs are not paper data or patient outcomes. Model-specific vessel/ECM/dormancy results do not become universal therapy claims."
+    },
+    "nativeReviewScope": "Independent native SVG responsive carriers at 1200px and 390px; not either maintained reader or a deployed route.",
+    "custody": "Original independent review privately retained unchanged; these hashes are historical evidence locators, not promises of a publicly delivered source/capture/executable package."
+  },
+  "frozenTaskBinding": {
+    "frozenPageVisualReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "selectionSHA256": "7a5ae7ea27b8652031cbdedc9da9e09f2f78b2b8ecf8f71d6bbb2ecd165f9d33",
+    "baselineRole": "Original frozen task identity, not a new audit or coverage denominator."
+  },
+  "intendedPublicPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1-independent-owner-review.json",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0
+}

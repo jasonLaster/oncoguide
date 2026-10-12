@@ -1,0 +1,68 @@
+{
+  "schema": "education-code-svg-provenance-v1",
+  "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+  "assetStem": "oligo-histories-v1",
+  "basis": {
+    "sourceCommit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+    "ownerPreimageSHA256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+    "originalFrozenReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "frozenTaskSHA256": "3324bf3a0abd4a11462f67787d44d39b26b1d9fcbf346d6f2340c5a353311923"
+  },
+  "creationCommit": null,
+  "construction": "code-generated SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageGenerationCalls": [],
+  "rasterOutputs": [],
+  "referenceImages": [],
+  "constructionBrief": {
+    "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.txt",
+    "SHA256": "782ba85c1e74898e13e0b2a4854677a8c5976e801a5a17c0ea2cfc52b044edc5"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+      "SHA256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8",
+      "width": 780,
+      "height": 1540,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+      "SHA256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a",
+      "width": 780,
+      "height": 1540,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "themeContract": "Same geometry, objects, text and quantities; palette-only changes.",
+  "sourceReviewDate": "2026-10-12",
+  "sourceReview": [
+    {
+      "url": "https://repub.eur.nl/pub/130575/Repub_130575_O-A.pdf",
+      "accessDepth": "Primary full-consensus PDF retrieved privately; abstract, methods and selected consensus material read. Not an exhaustive full-paper appraisal.",
+      "usedFor": "Counts are definition-specific; detected burden is distinct from biological guarantees."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31908301/",
+      "accessDepth": "Complete primary abstract via NCBI EFetch XML; full paper not accessed.",
+      "usedFor": "Prior burden, treatment state and progression distinguish histories."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35643253/",
+      "accessDepth": "Complete primary extended-outcomes abstract via NCBI EFetch XML; full paper not accessed.",
+      "usedFor": "Existing mixed-population trial discussion retained, not extended to a TNBC benefit estimate."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42842849/",
+      "accessDepth": "Complete primary full-report publication abstract via NCBI EFetch XML; full report itself not accessed.",
+      "usedFor": "Existing breast-specific eligibility/outcome limits retained without adding treatment selection."
+    }
+  ],
+  "scope": "General education and illustrative/fictional examples; no patient data or diagnostic/treatment decision. Expert and learner review pending.",
+  "publicCustody": "Only owner Markdown, native SVG pair and owner images/prompts brief/provenance. Original artwork; no source figures copied.",
+  "privateAids": {
+    "author.py": "Private construction script, not delivered in public payload; editable SVGs are delivered without an executable regeneration package.",
+    "sources/": "Private access records and source PDFs/XML, not delivered in public payload."
+  }
+}

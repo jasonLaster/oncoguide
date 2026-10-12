@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1510" viewBox="0 0 780 1510" role="img" aria-labelledby="title desc"><title id="title">HER2 IHC: three separate features</title><desc id="desc">Five illustrative membrane-pattern rows for CAP September 2026 scores 0, 0+, 1+, 2+ and 3+. Representative cells show absent, faint incomplete, weak-to-moderate complete and intense complete membrane stain. Separate text gives the fraction of tumor cells with that pattern; drawn cells are magnified examples, not a counted field. Integrated status and treatment eligibility require their own interpretation.</desc>
+<defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#9fd0bc"/></marker><marker id="time" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#bdccc8"/></marker></defs>
+<rect x="0" y="0" width="780" height="1510" rx="0" fill="#17262a"/>
+<text x="40" y="65" fill="#f5eddc" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="start"><tspan x="40" dy="0">HER2 IHC: three features</tspan></text>
+<text x="40" y="112" fill="#bdccc8" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Completeness • intensity • extent</tspan></text>
+<text x="40" y="165" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Brown = membrane stain; gray = outline.</tspan><tspan x="40" dy="42">Cells show patterns, not a counted field.</tspan></text>
+<rect x="24" y="245" width="732" height="174" rx="22" fill="#203337" stroke="#637874" stroke-width="2"/>
+<text x="47" y="313" fill="#f5eddc" font-family="Arial, sans-serif" font-size="46" font-weight="700" text-anchor="start"><tspan x="47" dy="0">0</tspan></text>
+<circle cx="215" cy="311" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="215" cy="311" r="12" fill="#466d7c"/>
+<circle cx="319" cy="311" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="319" cy="311" r="12" fill="#466d7c"/>
+<text x="404" y="301" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="404" dy="0">Absent staining</tspan><tspan x="404" dy="44">Negative IHC</tspan></text>
+<text x="155" y="377" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="155" dy="0">No membrane stain detected</tspan></text>
+<rect x="24" y="437" width="732" height="174" rx="22" fill="#203337" stroke="#637874" stroke-width="2"/>
+<text x="47" y="505" fill="#f5eddc" font-family="Arial, sans-serif" font-size="46" font-weight="700" text-anchor="start"><tspan x="47" dy="0">0+</tspan></text>
+<circle cx="215" cy="503" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="215" cy="503" r="12" fill="#466d7c"/>
+<path d="M178 483 A43 43 0 0 1 242 469" fill="none" stroke="#c7a57d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="319" cy="503" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="319" cy="503" r="12" fill="#466d7c"/>
+<path d="M282 483 A43 43 0 0 1 346 469" fill="none" stroke="#c7a57d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<text x="404" y="493" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="404" dy="0">≤10% tumor cells</tspan><tspan x="404" dy="44">Negative IHC</tspan></text>
+<text x="155" y="569" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="155" dy="0">Faint • Incomplete</tspan></text>
+<rect x="24" y="629" width="732" height="174" rx="22" fill="#203337" stroke="#637874" stroke-width="2"/>
+<text x="47" y="697" fill="#f5eddc" font-family="Arial, sans-serif" font-size="46" font-weight="700" text-anchor="start"><tspan x="47" dy="0">1+</tspan></text>
+<circle cx="215" cy="695" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="215" cy="695" r="12" fill="#466d7c"/>
+<path d="M178 675 A43 43 0 0 1 242 661" fill="none" stroke="#c7a57d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="319" cy="695" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="319" cy="695" r="12" fill="#466d7c"/>
+<path d="M282 675 A43 43 0 0 1 346 661" fill="none" stroke="#c7a57d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<text x="404" y="685" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="404" dy="0">&gt;10% tumor cells</tspan><tspan x="404" dy="44">Negative IHC</tspan></text>
+<text x="155" y="761" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="155" dy="0">Faint • Incomplete</tspan></text>
+<rect x="24" y="821" width="732" height="174" rx="22" fill="#203337" stroke="#637874" stroke-width="2"/>
+<text x="47" y="889" fill="#f5eddc" font-family="Arial, sans-serif" font-size="46" font-weight="700" text-anchor="start"><tspan x="47" dy="0">2+</tspan></text>
+<circle cx="215" cy="887" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="215" cy="887" r="12" fill="#466d7c"/>
+<circle cx="215" cy="887" r="43" fill="none" stroke="#e1b077" stroke-width="7"/>
+<circle cx="319" cy="887" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="319" cy="887" r="12" fill="#466d7c"/>
+<circle cx="319" cy="887" r="43" fill="none" stroke="#e1b077" stroke-width="7"/>
+<text x="404" y="877" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="404" dy="0">&gt;10% tumor cells</tspan><tspan x="404" dy="44">Equivocal IHC</tspan></text>
+<text x="155" y="953" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="155" dy="0">Weak–moderate • Complete</tspan></text>
+<rect x="24" y="1013" width="732" height="174" rx="22" fill="#203337" stroke="#637874" stroke-width="2"/>
+<text x="47" y="1081" fill="#f5eddc" font-family="Arial, sans-serif" font-size="46" font-weight="700" text-anchor="start"><tspan x="47" dy="0">3+</tspan></text>
+<circle cx="215" cy="1079" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="215" cy="1079" r="12" fill="#466d7c"/>
+<circle cx="215" cy="1079" r="43" fill="none" stroke="#f6d7a4" stroke-width="11"/>
+<circle cx="319" cy="1079" r="43" fill="#645942" stroke="#637874" stroke-width="3"/>
+<circle cx="319" cy="1079" r="12" fill="#466d7c"/>
+<circle cx="319" cy="1079" r="43" fill="none" stroke="#f6d7a4" stroke-width="11"/>
+<text x="404" y="1069" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="404" dy="0">&gt;10% tumor cells*</tspan><tspan x="404" dy="44">Positive IHC</tspan></text>
+<text x="155" y="1145" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="155" dy="0">Intense • Complete</tspan></text>
+<text x="40" y="1252" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">*3+: homogeneous, contiguous population.</tspan><tspan x="40" dy="42">2+ here shows one common pattern.</tspan></text>
+<text x="40" y="1350" fill="#f5eddc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Use full rules, controls and workup.</tspan><tspan x="40" dy="42">A score is not a drug-benefit prediction.</tspan><tspan x="40" dy="42">CAP reporting template • September 2026</tspan></text>
+</svg>

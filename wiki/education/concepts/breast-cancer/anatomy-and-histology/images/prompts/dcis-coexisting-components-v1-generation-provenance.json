@@ -1,0 +1,114 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "modelReported": false,
+  "basePromptFile": "dcis-coexisting-components-v1.txt",
+  "sourceOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+  "sourceOwnerPreimageSHA256": "a304eaf055338ece64961b1e856dfa717ce949266a5b89c6a2210569e12ec9c9",
+  "calls": [
+    {
+      "order": 1,
+      "argumentsFile": "dcis-coexisting-components-v1-light-call.json",
+      "availableReturnedMetadata": {
+        "returnedKeys": [
+          "image_url",
+          "output_hint"
+        ],
+        "output_hint": "Generated images are saved to /Users/jasonlaster/.codex/generated_images/01a1316b-bc29-75c3-845f-e4069a150b7d as /Users/jasonlaster/.codex/generated_images/01a1316b-bc29-75c3-845f-e4069a150b7d/exec-06acf9d9-d1bb-4eeb-851e-19f8fca79592.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "model": null,
+        "modelReported": false,
+        "pixelData": "Exact native output retained; pixel payload not duplicated in receipt."
+      },
+      "argumentsSHA256": "423fd0a4f4b70d5ee901e65a93f23ce2b85e5748c9eba275044d7bb7fc26f819"
+    },
+    {
+      "order": 2,
+      "argumentsFile": "dcis-coexisting-components-v1-dark-call.json",
+      "availableReturnedMetadata": {
+        "returnedKeys": [
+          "image_url",
+          "output_hint"
+        ],
+        "output_hint": "Generated images are saved to /Users/jasonlaster/.codex/generated_images/01a1316b-bc29-75c3-845f-e4069a150b7d as /Users/jasonlaster/.codex/generated_images/01a1316b-bc29-75c3-845f-e4069a150b7d/exec-b44ca1e1-e6d2-43eb-a8b3-e473876f577b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "model": null,
+        "modelReported": false,
+        "pixelData": "Exact native output retained; pixel payload not duplicated in receipt."
+      },
+      "argumentsSHA256": "d3fee58f06a4ae7dd61e3c11a4042fb043540f444a6d8b377cb06027d3de2cba"
+    }
+  ],
+  "darkReference": "Selected actual light output only; no separate geometry generation.",
+  "sourceAccess": [
+    {
+      "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis",
+      "depth": "Official page body accessed",
+      "supports": "DCIS contained in duct; tissue examination; no universal prognosis or progression."
+    },
+    {
+      "url": "https://training.seer.cancer.gov/breast/types.html",
+      "depth": "Official page body accessed",
+      "supports": "Distinction between in-situ and invasive tissue patterns."
+    },
+    {
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "depth": "Official PDF text, relevant sections on pages 8 and 28, accessed",
+      "supports": "Separate DCIS and invasive reporting; admixed or separate components."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/",
+      "depth": "Title/metadata in PubMed; primary-study abstract retrieved through Europe PMC core API; full text not accessed",
+      "supports": "Living myoepithelial cells and extracellular laminin/type IV collagen are distinct; proteins alone do not form a diagnostic binary."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12502930/",
+      "depth": "Primary-study abstract accessed",
+      "supports": "Guardrail: a single myoepithelial stain is not a universal diagnostic switch."
+    }
+  ],
+  "referenceImages": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+      "role": "Style-only image actually included in first call",
+      "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036"
+    },
+    {
+      "path": "wiki/education/molecular-profiling/images/tcr-tcr-t.png",
+      "role": "Historical style anchor inspected, not submitted",
+      "sha256": "53221417d918cf854333dcae6ea008aade585620c98f57e4dd70c95c93b5e837"
+    }
+  ],
+  "authorInspection": {
+    "nativeLight": true,
+    "nativeDark": true,
+    "observed": "Both have a closed blue outer band, distinct nucleated green myoepithelial layer, contained rose cells and a separate rose cell cluster in stroma. Leader endpoints and labels agree across themes. No connecting arrows or diagnostic stain claim.",
+    "independentReview": "pending",
+    "expertAndLearnerReview": "pending",
+    "embeddedMobileReview": "pending"
+  },
+  "privateSourceBodiesIncluded": false,
+  "unknownFieldsNotInferred": true,
+  "sourcePreimageCommit": "06694f5aca8c7ab4d2fc7ba1ea1fb23ce8a0ad0d",
+  "basePromptSHA256": "5b2d5e82614668d40ec77a0f7ef5ad7cf50a609dd193fa2977762a3d156b3b0b",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+      "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f",
+      "bytes": 2702289,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "nativeUnmodified": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+      "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd",
+      "bytes": 3255945,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "nativeUnmodified": true
+    }
+  ]
+}

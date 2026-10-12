@@ -8,7 +8,7 @@ aliases: ["HER2", "HER2/neu", "ERBB2", "human epidermal growth factor receptor 2
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-10"
+updated: "2026-10-12"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -47,6 +47,12 @@ This simplified map uses the September 2026 College of American Pathologists (CA
 
 **HER2-low** describes IHC 1+ or IHC 2+/ISH-negative staining. **HER2-ultralow** describes the limited faint membrane-staining pattern historically within IHC 0. The 2026 template separates that pattern as **0+** from absent staining as **0**. Both remain negative for overexpression/amplification. Intense complete staining limited to at most 10%, and some incomplete patterns, also fall into the equivocal workup group.
 
+<img src="./images/her2-membrane-patterns-v1-light.svg" alt="Five illustrative HER2 IHC rows separate membrane stain completeness and intensity from stained-cell extent for scores 0, 0+, 1+, 2+ and 3+." width="780" height="1510" data-theme-pair>
+
+*Representative cells illustrate membrane patterns, while the extent labels refer to the evaluated tumor population. The September 2026 CAP template separates absent staining (0) from limited faint incomplete staining (0+). Full controls, heterogeneity review and any indicated ISH remain necessary.*
+
+[Open the light diagram](./images/her2-membrane-patterns-v1-light.svg) · [Open the dark diagram](./images/her2-membrane-patterns-v1-dark.svg)
+
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
 flowchart TD
@@ -75,6 +81,8 @@ HER2 can be a growth-related receptor and an address for an [antibody–drug con
 **CEP17** is a probe for a centromeric region of chromosome 17. A HER2/CEP17 ratio compares signals; it is different from the average HER2 signals per cell. Some uncommon ISH groups require concurrent IHC review and recounting. A ratio alone cannot supply the final category.
 
 ## Try it
+
+Compare the 0+ and 1+ rows. What changes, and what stays alike? **Answer:** Both show faint, incomplete membrane staining; the extent changes from at most 10% to more than 10% of tumor cells. Both are negative for overexpression; neither establishes treatment eligibility or benefit.
 
 A fictional, adequately assessed report has IHC 2+, a HER2/CEP17 ratio of 1.8, mean HER2 signals of 3.5 per invasive tumor cell, and a final ISH-negative interpretation, with no omitted distinct population. What do those numbers mean?
 

@@ -1,0 +1,9 @@
+Code-generated SVG construction brief. 0 image-model calls.
+
+Frozen learner task: Locate regional node chains and axillary levels while keeping drainage, sampling and involvement separate.
+
+Construct an original front-view regional anatomy drawing with the sternum medial and the axilla lateral. Place an intramammary node within breast tissue. Use branching dashed fluid arrows without sequential level-to-level arrows. Add an enlarged pectoralis-minor projection: I lateral, II behind/between the borders, III medial below clavicle. Never assign sentinel status, sampled status or tumor involvement to these illustrative nodes.
+
+Use the same geometry, labels, quantities and units for warm light and quiet dark palettes. Essential labels use at least 32 SVG units in a 780-unit-wide canvas; native SVG links expose the full detail.
+
+The public deliverables are editable SVGs and this brief/provenance record. The Python construction script and source-access records are private scratch aids and are not delivered in the public payload. No executable regeneration package or source PDF bodies are included.

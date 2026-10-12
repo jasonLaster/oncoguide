@@ -1,0 +1,54 @@
+{
+  "creation_method": "Original code-generated editable SVG",
+  "actual_image_model_calls": 0,
+  "image_model_calls": [],
+  "model": null,
+  "source_commit": "8ff971e6d0d5c7cd2c57e7044c1c1d0532ec8884",
+  "owner_preimage_sha256": "94001c50b7d33b97428149785d7d8945eac228127aa8aa7cc80689b7c10b7206",
+  "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+  "original_learner_task": "Separate background, probabilistic detection and reliable quantitation from a clinical cutoff.",
+  "generator": "private/construct.py",
+  "generator_sha256": "2e4e79c9942b5953fdcaa9ddc57dff040a2b0a96a8cbdcdba6e7d4ffa03756f7",
+  "generator_custody": "Construction code and execution are privately retained and not delivered in the public payload; SVGs are editable, with no executable reproduction package supplied.",
+  "source_depth_custody": "Access/read-depth receipts and raw bodies are privately retained and not publicly delivered. Selected source passages support the concept; all chart numbers and geometry are fictional original constructions.",
+  "sources": [
+    "https://htd.clsi.org/listterms.asp?button=Submit",
+    "https://clsi.org/shop/standards/ep17/"
+  ],
+  "empirical_data": "None; fictional teaching examples",
+  "source_figures_copied": false,
+  "prompt_sha256": "b3a71da565b4cee24f92fab81cb602ccc18f8bbfb280f154953f9dfb5ea51c50",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+      "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89",
+      "width": 760,
+      "height": 1590
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+      "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18",
+      "width": 760,
+      "height": 1590
+    }
+  ],
+  "theme_method": "Identical shared construction; palette substitution only",
+  "minimum_native_font_px": 32,
+  "independent_review": "pending",
+  "expert_review": "pending",
+  "learner_review": "pending",
+  "credit": 0,
+  "source_read_depth": [
+    {
+      "url": "https://htd.clsi.org/listterms.asp?button=Submit",
+      "depth": "Selected actual LoB, lower-LoD and lower-LoQ definitions and notes read through indexed CLSI text. Direct web open timed out. No whole terminology database review.",
+      "supports": "Background response, stated detection probability and accuracy requirements are distinct."
+    },
+    {
+      "url": "https://clsi.org/shop/standards/ep17/",
+      "depth": "Official abstract/scope and selected public sample pages 6\u20137 (scope and terminology) read; 12-page sample PDF acquired privately. Full 80-page standard not accessed.",
+      "supports": "Evaluation/verification scope and separation of analytical detection and quantitation."
+    }
+  ],
+  "scope_note": "These are new source-bound fictional charts. Existing source_checked metadata remains historical; Neyman, Cox, Cook/Sackett and the FDA2024 source were not freshly re-read for this insertion-only batch."
+}

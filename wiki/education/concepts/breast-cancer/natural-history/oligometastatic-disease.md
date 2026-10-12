@@ -12,7 +12,7 @@ prerequisites:
 used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]"]
 sensitive: false
 tags: [education, breast-cancer, metastasis, evidence]
-updated: 2026-10-10
+updated: "2026-10-12"
 source_checked: 2026-10-10
 reviewed: pending
 reviewed_by: ""
@@ -76,6 +76,12 @@ Read the [combination-trial lesson](/wiki/education/local-treatment-modalities/0
 - **Curative intent is a goal, not proof of cure.** Long-term patient outcomes need measurement.
 
 ## Try it
+
+<img src="./images/oligo-histories-v1-light.svg" alt="Three fictional timelines show Casey with two newly detected metastases, Drew with two persistent lesions after many, and Robin with two growing sites plus many stable sites." width="780" height="1540" data-theme-pair>
+
+*Casey and Drew have two current detected lesions in these examples. Robin has two growing sites plus many stable sites: the same numeral describes a different subset. The histories do not establish shared trial eligibility or treatment benefit.*
+
+[Open the light diagram](./images/oligo-histories-v1-light.svg) · [Open the dark diagram](./images/oligo-histories-v1-dark.svg)
 
 **Fictional scans:** Casey has two newly detected metastases with no prior distant disease. Drew had many metastases before systemic treatment and now has two persistent lesions. Robin has many stable sites and two growing sites during treatment. Are these the same study population?
 

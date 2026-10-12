@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1720" viewBox="0 0 780 1720" role="img" aria-labelledby="title desc"><title id="title">Where breast lymph drains</title><desc id="desc">Illustrative left-breast front view with internal mammary nodes beside sternum, an intramammary node within breast and axillary nodes at armpit. An enlarged front projection places levels I, II and III relative to pectoralis minor and clavicle. Dashed arrows indicate possible drainage, not cancer involvement or a personal sentinel map.</desc>
+<defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#4d7f72"/></marker><marker id="time" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#52676a"/></marker></defs>
+<rect x="0" y="0" width="780" height="1720" rx="0" fill="#faf5eb"/>
+<text x="40" y="65" fill="#293c40" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="start"><tspan x="40" dy="0">Where breast lymph drains</tspan></text>
+<text x="40" y="112" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Illustrative anatomy • not to scale</tspan></text>
+<rect x="24" y="145" width="732" height="645" rx="22" fill="#fffdf8" stroke="#c9c9bd" stroke-width="2"/>
+<text x="48" y="194" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Left breast, viewed from the front</tspan></text>
+<text x="48" y="238" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Medial</tspan></text>
+<text x="600" y="238" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="600" dy="0">Lateral</tspan></text>
+<path d="M160 305 Q385 250 610 306 Q675 355 709 493 L713 700 L620 700 Q610 516 562 457 Q533 710 340 733 L161 733 Z" fill="#f1d1b6" stroke="#976b49" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M180 308 Q370 275 590 321" fill="none" stroke="#976b49" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="134" y="321" width="28" height="380" rx="12" fill="#f1dc9c" stroke="#976b49" stroke-width="2"/>
+<ellipse cx="380" cy="554" rx="156" ry="150" fill="#f1d1b6" stroke="#976b49" stroke-width="3"/>
+<circle cx="377" cy="565" r="13" fill="#976b49"/>
+<ellipse cx="180" cy="405" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="180" cy="466" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="180" cy="527" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="600" cy="366" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="626" cy="421" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="584" cy="438" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="458" cy="458" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<path d="M438 537 Q502 525 579 448" fill="none" stroke="#4d7f72" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 9" marker-end="url(#flow)"/>
+<path d="M288 548 Q228 550 200 474" fill="none" stroke="#4d7f72" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 9" marker-end="url(#flow)"/>
+<text x="49" y="294" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="49" dy="0">Sternum</tspan></text>
+<path d="M136 301 L147 328" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="45" y="602" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="45" dy="0">Internal</tspan><tspan x="45" dy="40">mammary</tspan></text>
+<path d="M172 563 L181 548" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="480" y="311" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="480" dy="0">Axilla</tspan></text>
+<path d="M574 321 L596 344" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="302" y="689" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="302" dy="0">Breast</tspan></text>
+<text x="332" y="754" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="332" dy="0">Intramammary node</tspan></text>
+<path d="M480 720 L480 483 L463 479" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="24" y="815" width="732" height="665" rx="22" fill="#fffdf8" stroke="#c9c9bd" stroke-width="2"/>
+<text x="48" y="865" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Axillary levels: enlarge the region</tspan></text>
+<text x="48" y="908" fill="#52676a" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Positions around pectoralis minor</tspan></text>
+<path d="M155 965 Q378 940 650 976" fill="none" stroke="#976b49" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="954" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Clavicle</tspan></text>
+<path d="M548 983 L298 1238 Q360 1270 443 1295 L590 1001 Z" fill="#df9f87" stroke="#976b49" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="243" cy="1036" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="273" cy="1080" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="410" cy="1146" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="570" cy="1210" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="598" cy="1250" rx="15" ry="22" fill="#86b8a1" stroke="#4d7f72" stroke-width="3"/>
+<ellipse cx="410" cy="1146" rx="20" ry="27" fill="none" stroke="#4d7f72" stroke-width="4"/>
+<path d="M410 1121 L410 1171" fill="none" stroke="#df9f87" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 7"/>
+<text x="86" y="1118" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="86" dy="0">III • medial</tspan><tspan x="86" dy="40">below clavicle</tspan></text>
+<path d="M208 1081 L237 1058" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="1198" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="48" dy="0">II • behind muscle</tspan><tspan x="48" dy="40">between borders</tspan></text>
+<path d="M331 1203 L391 1159" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="497" y="1346" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="497" dy="0">I • lateral</tspan></text>
+<path d="M566 1308 L575 1273" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="51" y="1430" fill="#293c40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="51" dy="0">Pectoralis minor</tspan></text>
+<path d="M355 1408 L406 1280" fill="none" stroke="#52676a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="40" y="1530" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="40" dy="0">Dashed arrows = possible fluid routes</tspan></text>
+<text x="40" y="1580" fill="#293c40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="40" dy="0">Levels are locations, not cancer stages.</tspan><tspan x="40" dy="40">A tracer maps drainage; pathology tests</tspan><tspan x="40" dy="40">the nodes actually sampled.</tspan></text>
+</svg>

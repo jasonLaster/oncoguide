@@ -1,0 +1,6 @@
+Original code-generated SVG; 0 image-model calls. Two independent grids each contain 100 symbols, filled counts 20 and 14. Same fictional population, first recurrence-or-death endpoint and five-year horizon. No paired individuals or six identified beneficiaries. ARR=.20-.14=.06, RR=.14/.20=.70, RRR=.30, NNT=ceil(1/.06)=17 at five years. Preserve harm-sign exercise; no universal winner or personal probability.
+
+Original learner task: Translate20% versus14% into6 percentage points,30%relative reduction and horizon-specificNNT.
+Guardrails: Use the same endpoint, horizon and group denominator for absolute and relative risks. NNT is horizon/context dependent and does not identify which individuals benefit or imply a personal prediction.
+
+Warm pale light ground, quiet deep dark ground, identical geometry and labels; minimum 32px native label size. The privately retained construction program and source-depth receipts are not publicly delivered. Delivered SVGs are editable; no executable reproduction package is supplied.

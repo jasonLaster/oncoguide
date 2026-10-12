@@ -35,6 +35,10 @@ The interval depends on the data, estimator, confidence level and calculation me
 
 For a difference, the no-difference value is usually zero. For a ratio such as a [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) or [odds ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio), it is one. Crossing that value does not prove equality; the interval may remain compatible with meaningful benefit and harm.
 
+<img src="./images/confidence-coverage-precision-v1-light.svg" alt="Ten approximate confidence intervals from illustrative binary samples share a fixed 50 percent population truth, with nine crossing it and one missing; a lower common-scale plot shows the much narrower interval for 10000 versus 100 people." width="760" height="1550" data-theme-pair>
+
+*Ten hand-picked fictional samples illustrate coverage, not its measured rate: nine bars include the fixed 50% truth and one misses. Each uses the owner’s approximate normal interval with n = 100. A 95% method need not cover exactly 95% in a small set. The lower panel keeps both existing 50% estimates on one scale; narrower bounds indicate precision, not freedom from bias.*
+
 ## Worked example
 
 A fictional survey observes a binary outcome in 50 of 100 independent people. A simple **normal approximation** estimates the proportion's standard error as `sqrt(0.50 × 0.50/100) = 0.05`. An approximate 95% interval is `0.50 ± 1.96 × 0.05`, or **40.2%–59.8%**.
@@ -70,6 +74,10 @@ Consider fictional HR 0.70 with CI 0.35–1.40: the estimate suggests lower haza
 A fictional difference has a 95% CI from −8 to +10 percentage points. Does it prove equivalence?
 
 **Answer:** No. It includes potentially important differences in both directions. Equivalence requires a prespecified acceptable margin and an appropriate analysis; merely failing to demonstrate a difference is insufficient.
+
+**Figure check:** Nine of the ten illustrative intervals cross the fixed 50% truth. Does that invalidate a 95% method or assign a 95% probability to one observed interval?
+
+**Answer:** Neither. This small, selected set is not a coverage estimate. Coverage belongs to repeated valid use under the method’s assumptions; one fixed interval either contains the fixed truth or does not. The narrower lower interval shows greater precision, without establishing less bias.
 
 ## Explain it back
 

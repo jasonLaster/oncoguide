@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-056",
+  "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+  "author": "root",
+  "authorRole": "canonical integration",
+  "reviewer": "curriculum-study-interpretation; independent from package author",
+  "reviewerIdentity": {
+    "threadId": "01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+    "title": "Cartoon planning: study interpretation",
+    "role": "Actual different-author complete package reviewer and current task-binding preparer"
+  },
+  "originalCreativeAuthorship": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "title": "Cartoon planning: molecular measurements",
+    "role": "Producer of the four original SVG pairs, briefs/provenance and focused candidate additions; historical owner writing retains its original custody. Root is not attributed original image construction, source review or medical writing.",
+    "identityEvidence": "Actual root author dispatch and completed producer chat handoff for the exact breast packet; existing provenance files remain byte-identical."
+  },
+  "passed": true,
+  "verdict": "PASS",
+  "actualBindingAtUTC": "2026-10-12T20:12:41.797626Z",
+  "passedAtUTC": "2026-10-12T20:12:41.797626Z",
+  "currentOwnerSha256": "e1f2ac2f732441aae7ee3bae61e75808fae3f5fdaea45abf2a8879e799e486f1",
+  "currentOwnerFieldMeaning": "Exact accepted complete public candidate bytes, prospective for canonical integration; not an assertion of current canonical adoption or publication.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1-independent-owner-review.json",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+    "baselinePageSHA256": "3df1d7d31821513fe54f4a8c714df95ee7eb32fb18a9789ac27a8200a2e16f87",
+    "learnerTask": "Locate regional node chains and axillary levels while keeping drainage, sampling and involvement separate.",
+    "gap": "The two drainage branches correctly avoid a compulsory spread ladder, but do not locate the axilla, sternum, intramammary nodes or pectoralis-minor-relative levels. The exercise needs territory and sampling scope, making this a useful canonical owner for a regional anatomy diagram.",
+    "accuracyGuardrails": [
+      "Illustrative variable drainage, not an individual sentinel-node map.",
+      "Axillary levels are muscle-relative positions, not sequential cancer stages.",
+      "Tracer routes and pathological involvement are separate evidence."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "Full owner and answered sampling exercise distinguish drainage, sampled tissue and involvement. Original native map places sternum/internal mammary, intramammary and axillary groups, with I/II/III relative to pectoralis minor; dashed routes are variable anatomy, not a sentinel map or spread ladder. This is the same full-owner/figure judgment accepted in the preserved package review, now bound to this unchanged complete frozen owner task and selected ID; it grants no new source or pixel approval.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+    "pageSHA256": "3df1d7d31821513fe54f4a8c714df95ee7eb32fb18a9789ac27a8200a2e16f87",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate regional node chains and axillary levels while keeping drainage, sampling and involvement separate.",
+    "gap": "The two drainage branches correctly avoid a compulsory spread ladder, but do not locate the axilla, sternum, intramammary nodes or pectoralis-minor-relative levels. The exercise needs territory and sampling scope, making this a useful canonical owner for a regional anatomy diagram.",
+    "accuracyGuardrails": [
+      "Illustrative variable drainage, not an individual sentinel-node map.",
+      "Axillary levels are muscle-relative positions, not sequential cancer stages.",
+      "Tracer routes and pathological involvement are separate evidence."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+    "recommendedMedium": "diagram",
+    "priority": "P1"
+  },
+  "fullOriginalFrozenPageReviewSHA256": "a06815de4ad5c26c4e5a832ff4e0c0df3019ed5c7907d828fe7db031c8c53138",
+  "frozenReviewFileSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+      "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+      "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+        "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9",
+        "bytes": 8437
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+        "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43",
+        "bytes": 8437
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1.json",
+        "sha256": "21d3d685ad2a02c5deee5f240220ca9b2fa925fb4b7a345ebfdaee5db1dce001",
+        "bytes": 3267
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1.txt",
+        "sha256": "bc0ef9795c48d8fed66e4523da2a6b342510e65e12a7d323d64c6ddbb839aa7c",
+        "bytes": 1108
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+        "sha256": "e1f2ac2f732441aae7ee3bae61e75808fae3f5fdaea45abf2a8879e799e486f1",
+        "bytes": 7893
+      }
+    ],
+    "acceptedSourceProvenanceUnchanged": true,
+    "publicAdmission": "Only this proposed flat owner-local receipt plus the original exact accepted owner/native/brief/provenance set; no source PDF, private corpus, producer execution package or scratch paths admitted."
+  },
+  "originalPackageReview": {
+    "artifactId": "breast-four-owner-independent-review-01",
+    "sha256": "7b6c6afb94e45448590ce3d7d3b5759f3deab5bb7384fdfd9330b236dc873655",
+    "actualScientificPixelPassedAtUTC": "2026-10-12T19:58:50.312905Z",
+    "originalScope": "One complete four-owner educational/scientific/task/native/public-custody review; prospective candidate acceptance only.",
+    "originalSourceAndPixelLimitsUnchanged": true
+  },
+  "addendumScope": "Exact selected ID, full original frozen task, source candidate bytes and accepted native-pair custody binding only. No repeated scientific sources, native pixels, human review, source-depth upgrade or production claim.",
+  "newScientificSourceApproval": false,
+  "newPixelApproval": false,
+  "scientificAndPixelReviewRepeated": false,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newCredit": 0,
+  "canonicalGitRegistryPublisherCodePolicyWrites": 0
+}

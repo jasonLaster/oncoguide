@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-065",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+  "author": "root",
+  "reviewer": "Codex independent evidence-package reviewer; sealed decision 62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+  "actorIdentityQualification": "root is the adopter and canonical integrator only. Original creative authorship remains separately bound to the sealed evidence-package handoff and ordinary provenance. The actual independent reviewer remains identified by the unchanged sealed decision artifact and reviewer role; missing personal, chat and model identifiers are not invented.",
+  "boundAtUTC": "2026-10-12T20:14:31Z",
+  "passedAtUTC": "2026-10-12T20:14:31Z",
+  "passed": true,
+  "verdict": "PASS",
+  "bindingScope": "Exact accepted complete scratch candidate and full original frozen task. This records the prior genuine task judgment without repeating scientific-source/native-pixel review.",
+  "currentOwnerSha256": "2f940782eeb74d76356efc76213657f7395f9268dacbf17527511593c1dd7261",
+  "sourceFitAssessment": {
+    "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+    "baselinePageSHA256": "3436ea466d350fbc081661a83cdfa11e11cda6e4e5df31a97e514d0fa1c602b9",
+    "learnerTask": "Distinguish repeated method coverage from one interval and precision from validity.",
+    "gap": "No interval plot shows repeated coverage or wide/narrow estimates on a common scale.",
+    "accuracyGuardrails": "Distinguish repeated-method coverage from probability assigned to one fixed parameter after observing an interval. Plot assumptions, scale and sampling explicitly; narrowness is not accuracy, validity or lack of bias.",
+    "currentVisualFit": "adequate",
+    "reasoning": "PASS: Fixed50% truth, hand-picked fictional independent binary samples and approximate normal method are identified in the complete owner/caption. Independent bounds confirm9selected crossings and1miss, which the answer correctly refuses to turn into an empirical coverage rate or an observed-interval probability. The common-scale100/10000 examples retain precision-versus-bias and method/validity limits, with the original equivalence answer intact.",
+    "humanReview": "pending"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-light.svg",
+      "sha256": "f850883746e0ff9cf021fdd72fcf767837bb7ef47ad2f73aabecc35b60e8c8cf",
+      "width": 760,
+      "height": 1550
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-dark.svg",
+      "sha256": "4e4616d06c3bbe10beb8786021c3b786505b2bbf75013c94ae5019e081669fe1",
+      "width": 760,
+      "height": 1550
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+        "sha256": "2f940782eeb74d76356efc76213657f7395f9268dacbf17527511593c1dd7261",
+        "bytes": 8493
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-light.svg",
+        "sha256": "f850883746e0ff9cf021fdd72fcf767837bb7ef47ad2f73aabecc35b60e8c8cf",
+        "bytes": 7462
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-dark.svg",
+        "sha256": "4e4616d06c3bbe10beb8786021c3b786505b2bbf75013c94ae5019e081669fe1",
+        "bytes": 7462
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/confidence-coverage-precision-v1.txt",
+        "sha256": "0949696d03862cca2336728f1b50e1d285108cd68fa8a031e217dc6b2722285f",
+        "bytes": 1189
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/confidence-coverage-precision-v1-provenance.json",
+        "sha256": "503ccfcf8fb238b2c62c122b66fe98680df9837c9cddc065c7882216980ca81f",
+        "bytes": 3267
+      }
+    ],
+    "scope": "Exactly the accepted owner, original LIGHT/DARK SVG pair, base TXT and ordinary provenance JSON. Hashes grant no admission to private source bodies, code, execution or captures."
+  },
+  "originalPackageReview": {
+    "sha256": "62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+    "manifestSHA256": "613e60a48f1128cd35189e1e232b39f8412de31477bfce4862c77d29a39d3648",
+    "scientificAndPixelPassedAtUTC": "2026-10-12T20:02:16Z",
+    "custody": "Original package decision, source-depth evidence, code and captures remain privately retained; they are not publicly delivered or admitted by these hashes."
+  },
+  "frozenReviewSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "selectionSHA256": "7a5ae7ea27b8652031cbdedc9da9e09f2f78b2b8ecf8f71d6bbb2ecd165f9d33",
+  "proposedPublicPath": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/confidence-coverage-precision-v1-independent-owner-review.json",
+  "newScientificSourceApproval": false,
+  "newPixelApproval": false,
+  "newSourceDepthGrade": false,
+  "productionVerifiedByThisReview": false,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "canonicalRegistryGitPublicationPolicyWrites": 0,
+  "originalCreativeAuthorship": {
+    "author": "Codex evidence-package author; sealed handoff 5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "role": "Original educational writing and code SVG generation",
+    "identityQualification": "Original author is identified by the sealed evidence-package handoff. Personal, chat and model identifiers were not recorded; no original generation or medical writing is attributed to root.",
+    "sealedHandoffSHA256": "5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+    "ordinaryProvenance": {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/confidence-coverage-precision-v1-provenance.json",
+      "sha256": "503ccfcf8fb238b2c62c122b66fe98680df9837c9cddc065c7882216980ca81f",
+      "bytes": 3267
+    }
+  },
+  "authorRole": "canonical integration",
+  "initialBindingAtUTC": "2026-10-12T20:11:36Z",
+  "priorBindingSHA256": "3f611edd204ca9dc4d721735a4177e30b8ca974aeaed7c16bcef8f917cfc9eb7",
+  "authorRoleCorrection": "Per adoption instruction, author root denotes canonical integration only. This metadata binding does not repeat or extend the original scientific, source-depth or pixel assessment."
+}

@@ -30,7 +30,13 @@ Imagine a room and the space outside its boundary. “In situ” means “in pla
 
 ## How it works
 
+<img src="./images/dcis-coexisting-components-v1-light.png" alt="A duct containing crowded rose DCIS cells is enclosed by living green myoepithelial cells and a separate thin blue basement membrane; a distinct invasive rose cell cluster lies outside the duct in the surrounding stroma." data-theme-pair>
+
+*DCIS stays within the duct boundary; a coexisting invasive component lies in the surrounding tissue. Rose cells, green living outer cells and the blue extracellular band are drawing conventions. This schematic shows location, not a diagnosis or an inevitable progression.*
+
 Milk ducts are lined by epithelial cells. [Breast-tissue structure](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue) explains that lining and its supporting layers. In DCIS, abnormal cells occupy the duct without invading adjacent tissue. A pathologist examines sampled tissue to distinguish an in-situ component from an invasive component. [NCI: DCIS](https://www.cancer.gov/types/breast/breast-cancer-types/dcis).
+
+The [myoepithelial cell layer and basement membrane](/wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane) are distinct: living outer cells and supporting extracellular material. **Stroma** is the surrounding tissue outside this boundary. Cell shapes, sizes and counts in the drawing are simplified; they do not establish grade or stage.
 
 A report can describe **both** DCIS and invasive cancer in the same breast. Read each component separately. The phrase “DCIS present” does not erase a separately reported invasive diagnosis. Conversely, “in situ” alone does not establish that invasion was found. The [NCI histology reference](https://training.seer.cancer.gov/breast/types.html) distinguishes these tissue patterns.
 
@@ -67,6 +73,8 @@ Source check: October 9, 2026. General pathology terminology; the example is fic
 
 - [NCI: ductal carcinoma in situ](https://www.cancer.gov/types/breast/breast-cancer-types/dcis) — the anatomical distinction, diagnostic assessment and naming conventions.
 - [NCI SEER training: breast histologies](https://training.seer.cancer.gov/breast/types.html) — in-situ and invasive tissue patterns.
+- [CAP breast resection protocol, version 4.11.0.0, June 2026](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true) — separate reporting of DCIS and invasive components; illustration source check October 12, 2026.
+- [Gusterson et al., 1982](https://pubmed.ncbi.nlm.nih.gov/6290045/) — primary human-tissue study separating myoepithelial cells from basement-membrane proteins; abstract checked October 12, 2026, with full text not accessed.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

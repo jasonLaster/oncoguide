@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/lymph-no
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]"]
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-10"
+updated: "2026-10-12"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -41,6 +41,12 @@ Several findings describe different aspects of the same specimen:
 | Surgical margin | What is present at the specimen's relevant cut boundary? |
 
 These observations may coexist. They are not interchangeable labels. In particular, a lymph-node capsule is not a surgical margin, and tumor within a nearby vessel is not automatically the same as direct extension through a capsule.
+
+<img src="./images/ene-boundaries-v1-light.svg" alt="A contiguous cancer deposit crosses a lymph-node capsule into nearby soft tissue, while a separate inked specimen edge and vessel lumen mark different boundaries." width="780" height="1380" data-theme-pair>
+
+*ENE crosses the node capsule. The specimen cut edge and a nearby vessel lumen define separate questions; this sketch supplies neither a diagnostic morphology rule nor an extent-measurement direction.*
+
+[Open the light diagram](./images/ene-boundaries-v1-light.svg) · [Open the dark diagram](./images/ene-boundaries-v1-dark.svg)
 
 ```mermaid
 flowchart TD
@@ -74,6 +80,8 @@ Do not interchange ENE extent with the size of the whole nodal deposit. Post-tre
 - An outcome association does not prove that a specified treatment improves that outcome.
 
 ## Try it
+
+In the cutaway, does the deposit cross the node capsule, reach the inked cut edge, or sit inside the separate vessel? **Answer:** It crosses the capsule into nearby tissue. It does not reach the drawn cut edge; the separate lumen illustrates a different, vascular boundary.
 
 A fictional axillary specimen contains a positive node with ENE. A learner changes the summary to “distant metastasis proven.” What has been added without evidence?
 
