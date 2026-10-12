@@ -47,6 +47,24 @@ Small melanoma studies have investigated viral treatment with checkpoint blockad
 
 ## Worked example
 
+
+
+<img src="./images/viral-entry-replication-injury-v2-light.png" alt="Three stacked scenes show an illustrative modified HSV particle conditionally crossing a susceptible tumor-cell outline, possible production of new virus particles in a separate intact-cell schematic, and a separately injured cell releasing distinct spiked virions and irregular tumor material; no entry-route or intracellular location detail is specified." width="1024" height="1536" data-theme-pair />
+
+*An illustrative modified herpes simplex virus (HSV) can enter a susceptible cell; productive replication and cell injury are separate possibilities. Viral particles and released tumor material remain distinct. Cell interiors and boundary crossing are schematic, not an entry-route or genome-replication and particle-assembly location map; particle counts are not measured yields.*
+
+The entry scene does not establish productive infection or universal tumor selectivity. Susceptibility, replication, injury and immune effects remain platform- and context-dependent. This pair does not demonstrate vaccination or a whole-body effect.
+
+<img src="./images/viral-and-tumor-target-tests-v2-light.png" alt="Two stacked unanswered tests use the same blue T-cell sample symbol: a viral-derived peptide in a class-I holder on a presenting cell and a tumor-derived peptide in the same holder geometry on an uninfected tumor cell; symbolic receptors remain separate from peptides and holders, with question marks at the gaps." width="1024" height="1536" data-theme-pair />
+
+*Recognition of viral targets and recognition of uninfected tumor targets require separate tests of the same T-cell sample. Each small peptide sits in a separate class-I display holder, facing a symbolic T-cell receptor across an unanswered gap. These fictional questions show no measured immune response, killing or clinical benefit.*
+
+In this fictional human test example, class-I display means class-I [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). Compatible peptide presentation is stipulated as a condition to check, not established by the cartoon. The receptor symbol identifies a role, not atomic structure, a validated binding interaction or sample clonality. Released material in the first image is not automatically processed into the displayed peptides in the second.
+
+These are unanswered fictional test questions. A measured comparison would need verified peptide presentation in a compatible restricting display context, an irrelevant-peptide or background control, an antigen-negative target control, and a positive assay control. A response to added peptide does not itself show recognition of naturally presenting, uninfected tumor cells, access to them, or killing. The same T-cell sample is shown in both questions; no response result is supplied.
+
+
+
 In a fictional laboratory experiment, a virus enters tumor cells and causes cell death. The investigators also detect immune cells reacting to viral proteins. Have they shown an immune response to the cancer?
 
 **Answer:** They have shown viral activity and an antiviral response. They would need separate tests of recognition of tumor targets, with suitable controls, to support the antitumor claim. Clinical benefit requires another level of evidence.

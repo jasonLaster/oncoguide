@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "derivedPublicProvenanceCandidate": true,
+  "authorProposalOnly": true,
+  "canonicalOrArchiveEligibilityApproved": false,
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+  "ownerSourceSHA256": "59f0dc8c105b5706f84220947e81e4094aad18ff5f5c13d66aef934cac05d66b",
+  "briefId": "brief-121",
+  "originalTask": "Distinguish virus replication, cell injury, antiviral and antitumor recognition",
+  "originalGuardType": "STRING",
+  "originalGuardValue": "Platform-specific entry; no guaranteed tumor exclusivity, vaccination or whole-body effect",
+  "generationCustody": {
+    "actualRootCallsForTheseVersion2Assets": 4,
+    "LIGHTNewCalls": 2,
+    "DARKThemeEditCalls": 2,
+    "imageCallsByHandoffAuthor": 0,
+    "actualTool": "image_gen.imagegen",
+    "actualModel": null,
+    "modelReason": "Unreported in all four tool returns; do not infer a model from skill guidance or requested platform",
+    "outputs": [
+      {
+        "asset": "mechanism",
+        "theme": "light",
+        "publicFile": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+        "sha256": "535c058344167df8e4c5c95590b88835cc32f681359fb26725eb25adbd96aaae",
+        "bytes": 1763219,
+        "nativeDimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "model": null,
+        "modelQualification": "Actual tool returned no model identifier; null is unreported, not planned provider/model",
+        "actualArgumentsSHA256": "6bb0f0d952406cb1636f6743173faef2aef1c687964c97334e6e227e0e201f05",
+        "invocationRecordSHA256": "11cc133113235b4ce5f7fa848b5c7063b7aba3706005e803363ca359a02eb3d8",
+        "generationMode": "new generation without image references",
+        "referenceLIGHTSHA256": null,
+        "promptSHA256": "ef095ddc2488e233b3f5b60d33e9615367d71f28cb7c5c4258afa3676818e140",
+        "observedReturnUTC": "2026-10-12T08:57:46.318436+00:00",
+        "promptFile": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/viral-entry-replication-injury-v2-base.txt"
+      },
+      {
+        "asset": "target-tests",
+        "theme": "light",
+        "publicFile": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+        "sha256": "f1222e2de134b50f016948627743ef912ab90026c06633dcb1eca4ecea8be45d",
+        "bytes": 2084411,
+        "nativeDimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "model": null,
+        "modelQualification": "Actual tool returned no model identifier; null is unreported, not planned provider/model",
+        "actualArgumentsSHA256": "ee2159f48191f2bd546541446361be696f92e8f75d9d75acc05886c57dd7d0c5",
+        "invocationRecordSHA256": "11cc133113235b4ce5f7fa848b5c7063b7aba3706005e803363ca359a02eb3d8",
+        "generationMode": "new generation without image references",
+        "referenceLIGHTSHA256": null,
+        "promptSHA256": "9f0ef5bcd271ebe2a9e4f83c9e2691224df1da31b00f6509bfa78949cebcf7ff",
+        "observedReturnUTC": "2026-10-12T08:57:46.318436+00:00",
+        "promptFile": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/viral-and-tumor-target-tests-v2-base.txt"
+      },
+      {
+        "asset": "mechanism",
+        "theme": "dark",
+        "publicFile": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-dark.png",
+        "sha256": "1922e5a358163d9fee6bd06734b5da885150671714ec5e20bbbc98e1f7acae71",
+        "bytes": 1788629,
+        "nativeDimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "model": null,
+        "modelQualification": "Actual tool returned no model identifier; null is unreported, not planned provider/model",
+        "actualArgumentsSHA256": "2b293e7cd168fcdd8d2850f32b77d00a75cdea1945db7b94caa28a16b50346c3",
+        "invocationRecordSHA256": "abeb63bb1dcb6dcb9080abcdb118183236f53f3197e12a8496f9a34e90b10be5",
+        "generationMode": "theme edit using sole respective actual accepted LIGHT",
+        "referenceLIGHTSHA256": "535c058344167df8e4c5c95590b88835cc32f681359fb26725eb25adbd96aaae",
+        "promptSHA256": "52c62c0ee087be8f56f0ae0497025a07456812e069b5bc41d47ccbbef5de38ac",
+        "observedReturnUTC": "2026-10-12T09:14:35.666304+00:00",
+        "promptFile": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/oncolytic-pair-v2-dark-theme.txt"
+      },
+      {
+        "asset": "target-tests",
+        "theme": "dark",
+        "publicFile": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-dark.png",
+        "sha256": "c562e9eaaad40690a1d2c33b72c8854316dce3c0d3fb831664a9cfafd963ef36",
+        "bytes": 1869923,
+        "nativeDimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "model": null,
+        "modelQualification": "Actual tool returned no model identifier; null is unreported, not planned provider/model",
+        "actualArgumentsSHA256": "2224f50c014ce7b71ee7f6b67d70694e08149c90b8dd8073fe19b355d61c456b",
+        "invocationRecordSHA256": "abeb63bb1dcb6dcb9080abcdb118183236f53f3197e12a8496f9a34e90b10be5",
+        "generationMode": "theme edit using sole respective actual accepted LIGHT",
+        "referenceLIGHTSHA256": "f1222e2de134b50f016948627743ef912ab90026c06633dcb1eca4ecea8be45d",
+        "promptSHA256": "52c62c0ee087be8f56f0ae0497025a07456812e069b5bc41d47ccbbef5de38ac",
+        "observedReturnUTC": "2026-10-12T09:14:35.666304+00:00",
+        "promptFile": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/oncolytic-pair-v2-dark-theme.txt"
+      }
+    ],
+    "actualInvocationRecordsRemainPrivate": true,
+    "noPublicRewrittenArgumentsOrInvocation": true,
+    "absoluteReferencePathPolicy": "Exact DARK reference paths are preserved in private actual argument custody. Public provenance identifies their verified LIGHT hashes; it is a derived identity description, not the executed arguments.",
+    "promptPolicy": "Public TXT is the exact prompt string only. Whole actual argument JSON and original invocation JS remain private with hashes. No actual input paths are silently substituted."
+  },
+  "independentReview": {
+    "LIGHTG3SHA256": "96c9751bb4ba354b03c977ab5dfe9896af6e9a5fb4742130bbe7afe20829e009",
+    "completePairG3SHA256": "4636986050c4c18f8b3ea6838a6aa98185c8be73183c747f4845ad476c42d283",
+    "publicSafePairSummarySHA256": "756701335f20c9a294ad47e1235cb4150f771131f49c1693ff774b9f0a3dfa0c",
+    "decision": "PASS",
+    "scope": "Independent native two-LIGHT and two-DARK plus bounded local pinned SSR article contexts for the complete task; no canonical G4 or release approval",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "actualDPR": 1,
+    "articleWidthsCssPx": [
+      328,
+      368,
+      820
+    ],
+    "limitations": [
+      "Compact image labels smaller than surrounding16px prose; prompt font-size intention is not proven actual font size or a learner outcome",
+      "Selected raster text size/weight/position differ between themes; no pixel-identical geometry or exact font preservation claim",
+      "Local SSR article widths, not328/368 document viewports, real phones or DPR2",
+      "No hydration, modal, keyboard, theme-toggle, source-navigation or deployed-reader acceptance",
+      "No new source-scope, clinical, expert or learner approval"
+    ],
+    "sourceScopeUpgrade": false
+  },
+  "history": {
+    "originalFirstLIGHTG3": "REVISE, immutable and excluded from public candidates; superseded composition remains historical",
+    "originalFirstLIGHTG3SHA256": "568573693382f32054014a285dd538831a04a19eb0ee49200c71b97fb29af954",
+    "originalProposal02SHA256": "8c83ce026f5c501bd34c1c537f6142a1e69321c54d3a5e8f01a4f1ecdb4b6681",
+    "historicalWorkflowCommentsRemovedFromOwnerCandidate": 2,
+    "commentsAndInversesRemainPrivate": true
+  },
+  "publicContentBoundary": {
+    "eligibleCandidateKindsOnly": [
+      "four exact generated PNG originals",
+      "two exact LIGHT prompt strings and one exact DARK prompt string as TXT",
+      "this explicitly derived metadata"
+    ],
+    "exclusions": [
+      "raw owner/source bodies",
+      "private reviewer packets and seals",
+      "capture pixels/HTML/server logs",
+      "actual absolute filesystem references and tool output hints",
+      "actual argument JSON and invocation JS",
+      "prior rejected image and review packet",
+      "private authorization records",
+      "credentials"
+    ],
+    "metadataHashesDoNotAdmitTheirPrivateTargets": true
+  },
+  "currentState": {
+    "canonicalG4": "not reviewed",
+    "rootAndPeerEligibilityReview": "pending",
+    "canonicalCopied": false,
+    "releasedOrSynchronized": false,
+    "coverageCredit": 0,
+    "expertReview": "pending",
+    "learnerReview": "pending"
+  }
+}

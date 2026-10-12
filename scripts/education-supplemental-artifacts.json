@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "e9bdf325ac581ce2a8b49a8fea334b0e9a133672",
+  "reviewedSourceCommit": "b8759a5ceb26f5c898abd20b603a7ffd587d0b29",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -1010,6 +1010,138 @@
         }
       ],
       "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/viral-entry-replication-injury-v2-base.txt",
+      "sha256": "ef095ddc2488e233b3f5b60d33e9615367d71f28cb7c5c4258afa3676818e140",
+      "bytes": 4665,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ownerSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+      "artworkSha256": "535c058344167df8e4c5c95590b88835cc32f681359fb26725eb25adbd96aaae"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/viral-and-tumor-target-tests-v2-base.txt",
+      "sha256": "9f0ef5bcd271ebe2a9e4f83c9e2691224df1da31b00f6509bfa78949cebcf7ff",
+      "bytes": 5450,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ownerSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "contentClass": "source-owned-public-custody",
+      "artwork": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+      "artworkSha256": "f1222e2de134b50f016948627743ef912ab90026c06633dcb1eca4ecea8be45d"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/oncolytic-connected-pair-v2.json",
+      "sha256": "e2732fd0a72439a10b8cc173bdddf9c887a77f31fa0f6bb6acfe10fbbcaaab5a",
+      "bytes": 8897,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ownerSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+          "sha256": "535c058344167df8e4c5c95590b88835cc32f681359fb26725eb25adbd96aaae"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+          "sha256": "f1222e2de134b50f016948627743ef912ab90026c06633dcb1eca4ecea8be45d"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-dark.png",
+          "sha256": "1922e5a358163d9fee6bd06734b5da885150671714ec5e20bbbc98e1f7acae71"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-dark.png",
+          "sha256": "c562e9eaaad40690a1d2c33b72c8854316dce3c0d3fb831664a9cfafd963ef36"
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/immune-barriers-hla-v2.json",
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "ownerSha256": "c484932e4922049e9fd79ab844bdd2b6b00d018f579ea535e08c676ed47f53fa",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+          "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+          "sha256": "ebc22265f96a3a3dffd2006ac0e3fcb3b3b8bfcbcefa2aa5fc825ee28c40da46"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+          "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg",
+          "sha256": "d140a8364c1ff78ded1249ae71e944d402fa08c8cd67dfba76c5e0292503712b"
+        }
+      ],
+      "sha256": "e29ca79fc064e966d11637a28252a2c53d2104cbb3d01a76f1b07717e3ef3188",
+      "bytes": 8325
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/immune-barriers-t-cell-v2.json",
+      "owner": "wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+      "ownerSha256": "f29d670ccf7e7d6220853f8c442d73e3b5dfcd9e39588928327e80985f5ecdd1",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-light.svg",
+          "sha256": "4e764bdcd7fccd3ab2dfad010a4e5d68e2352ca9e042d5fe5cb79520cce6324f"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-dark.svg",
+          "sha256": "05591f36a8ee527a76a42a12b96640748271d985dd0410754157e8d6036cccbb"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-light.svg",
+          "sha256": "04d7943f26d0988fb66564b4b291e85c4099b6eea21851a2700f3174c5e1af59"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-dark.svg",
+          "sha256": "e3c15692385ff202b6a935fed7d37051778b98f2c66847a79bebfc82d6fbc05b"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-light.svg",
+          "sha256": "2407071f8af4d6830504b2cfa4db168dd8cbfa61864e6347b72f38219045adfa"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-dark.svg",
+          "sha256": "328c9216a60e1d87321b0b9be45a2b10d8eab429607e4f56a8499c84948f9d9f"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-light.svg",
+          "sha256": "f7e830c5ff460f6c6751ce68d242a64f2273a778e7f801dd32fc285874a046b9"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-dark.svg",
+          "sha256": "57448a768668b33ff5468d55d73f8de3c09c2be6674628a9ca6af52984235024"
+        }
+      ],
+      "sha256": "63512559bab02bbfc07e1013f5a509b4e6be8d8e5898c96f3c5daf8fcf0d9af0",
+      "bytes": 10531
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/immune-barriers-tissue-v2.json",
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "ownerSha256": "7fc9cd49f7c0e1a10d011dcc1706008f0972308f371bfaf2fc346cd395b24429",
+      "contentClass": "source-owned-public-custody",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+          "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+          "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564"
+        }
+      ],
+      "sha256": "7be48b6064eacbb54d9a6110bb1f7fe806d8d2cc624d290158ad0f2a7c8a8fdb",
+      "bytes": 7953
     }
   ]
 }

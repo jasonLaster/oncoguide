@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "artifactKind": "derived-per-directory-vector-provenance",
+  "derivationAuthor": "immune_foundations",
+  "transferOnly": true,
+  "reviewedSourceCommit": null,
+  "originalSharedReceipt": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/provenance/immune-barriers-shared-v2.json",
+    "sha256": "38b9de2539112ff2af48350cb4fe951529a8de35b863c1d1ba06ab84a7dc4a9e",
+    "bytes": 17236,
+    "custody": "Exact original retained source-only; not rewritten, replaced or recursively imported."
+  },
+  "supplementalOwner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+  "prospectiveOwnerSha256": "7fc9cd49f7c0e1a10d011dcc1706008f0972308f371bfaf2fc346cd395b24429",
+  "artworks": [
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+      "stem": "matched-tissue-fields-v2",
+      "theme": "light",
+      "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+      "bytes": 4834,
+      "viewBox": [
+        600,
+        1500
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+      "stem": "matched-tissue-fields-v2",
+      "theme": "dark",
+      "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+      "bytes": 4834,
+      "viewBox": [
+        600,
+        1500
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    }
+  ],
+  "allRelevantArtworksForThisDirectoryBound": true,
+  "originalCompleteGroups": [
+    {
+      "id": "brief-081",
+      "medium": "diagram",
+      "tasks": [
+        {
+          "page": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+          "task": "Compare immune-cell location inside cancer-cell regions, at their boundary and scarce across a sampled section without assigning target specificity or cause.",
+          "literalGuardType": "ARRAY",
+          "guardrails": [
+            "Use specified T-cell symbols and labeled cancer/stroma boundaries, not every immune population interchangeably.",
+            "Exclusion is distribution, not proof of a collagen wall or other causal barrier.",
+            "Label illustrative fields, no normal-count cutoff, patient-wide classification or treatment-response promise."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brief-214",
+      "medium": "cartoon",
+      "tasks": [
+        {
+          "page": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+          "task": "Compare equal T-cell counts at cancer nests versus their surrounding tissue.",
+          "literalGuardType": "STRING",
+          "guardrails": "Presence/location cannot prove antigen specificity or killing; do not make the nest boundary an absolute barrier or a treatment selector."
+        },
+        {
+          "page": "wiki/education/reading-a-tumor/immune-hot-vs-cold.md",
+          "task": "Compare immune-rich stroma with entry into cancer nests under a stated tissue and scoring denominator.",
+          "literalGuardType": "STRING",
+          "guardrails": "Preserve sampling boundaries, equal count versus different distribution, stromal-area denominator and unknown receptor/function. Do not infer a causal collagen barrier, label native lymph-node follicles as TLS, or map hot/excluded directly to a drug."
+        }
+      ]
+    }
+  ],
+  "relatedProspectiveOwners": [
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "beforeSha256": "69c5d0b9c78c93cddc1e56adce6e3e67e2f427c3fc358073448ee37eb2f339a8",
+      "prospectiveSha256": "7fc9cd49f7c0e1a10d011dcc1706008f0972308f371bfaf2fc346cd395b24429"
+    },
+    {
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "beforeSha256": "e2122c0e31f5807957f696623f084754e6a9ec0e25855d3eef78009601d9ef42",
+      "prospectiveSha256": "36468511e205cc56ce7aa5a689c6228de402d5bfd9d8c99e14e4ec5ebb14d632"
+    },
+    {
+      "path": "wiki/education/reading-a-tumor/immune-hot-vs-cold.md",
+      "beforeSha256": "fda30d89c857a5a68f927cd576496a2bece2b2765a256f6d7905dc15231eed09",
+      "prospectiveSha256": "301cd0392bf4ae42287fd8d2119ba13c6376e06826ceea5fc01ecd96cd82f9ec"
+    }
+  ],
+  "sharedOriginalConstruction": "Seven native SVG pairs authored in code; successor02 has six cosmetic annotation/marker/arrow changes, eight unchanged native files. Successor03 makes no art change or image-model call. No bitmap/image-model output or model identifier exists for these vector sources.",
+  "inheritedIndependentReview": {
+    "successor02G3ManifestSHA256": "181e32b0469e0d6e28aad9ba24af54c5ad7dc993b0e27706d8d42532db340679",
+    "successor02G3ReviewSHA256": "0edff3334a313dcb21843e3eb5c30ededf73a280e29c856224cead966bf1d5c0",
+    "successor02PublicSummarySHA256": "bc20f68f88349f22e0b08dbc1e9fde2670b4d57e1011203e59400ab5ea73e646",
+    "priorSourceAccessReviewSHA256": "13f7136cbe938f50c57a3529e5cd2a895e4153d08b78b12e62d4c005a10c9de7",
+    "scope": "Different genuine peer additive bounded native/local G3 PASS for complete4groups/7tasks/14natives,42 actual pinned hydrated contexts and78 figure instances at article760/361/328 widths. This author does not grade own art or infer acceptance of successor03 whole owners.",
+    "limits": [
+      "Prior full-group REVISE remains historical immutable.",
+      "Separate42 first-figure closes returning BODY remain OPEN; no overall accessibility or deployed-reader PASS.",
+      "Prior source G1/G2 access limits including full methods, correction bodies and study-figure pixels remain unchanged.",
+      "Expert/learner, deployed both-reader, final current-owner fit/adoption, release/sync/credit remain pending."
+    ],
+    "freshAuthorG3OrScienceGrade": false,
+    "sourceDepthUpgrade": false
+  },
+  "genuineSuccessor03FitReview": {
+    "artifactId": "immune-canonical-fit03-review",
+    "sha256": "6d81c4e094c80fb31f6bb61c9326354ae8099816a30ead3eeb886d46461613c7",
+    "qualification": "Existing different-author whole-owner and original15-asset custody review. It does not approve these new derivative bytes or upgrade science/native/deployed scope."
+  },
+  "derivationRecipe": {
+    "selectedOriginalAssetPaths": [
+      "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+      "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg"
+    ],
+    "selectedOriginalGroupIds": [
+      "brief-081",
+      "brief-214"
+    ],
+    "originalAssetRecordsAndTypedTasksCopiedWithoutSemanticChanges": true,
+    "originalSharedRecordRemainsUnchanged": true
+  },
+  "publicBoundary": {
+    "nativeBodiesOrFiguresEmbedded": false,
+    "rawSourceOrReviewerBodiesIncluded": false,
+    "capturesOrAuthorizationsIncluded": false,
+    "privateHashTargetsAdmitted": false,
+    "sourceOnlyOriginalReferencesAreMetadata": true
+  },
+  "replayLimits": [
+    "Code-authored SVGs have no image-model invocations; original model:null/not-applicable fields are retained.",
+    "This metadata is not the full source renderer/specification or a self-contained replay package.",
+    "Private original scripts, source acquisitions and review/capture packets remain excluded.",
+    "All relevant artwork identities in this directory must be current and active; retirement of any bound identity suppresses this supplemental export."
+  ],
+  "status": {
+    "canonicalApplied": false,
+    "independentDerivativeCustodyReview": "pending",
+    "release": "pending",
+    "humanReview": "pending",
+    "coverageCredit": 0
+  }
+}

@@ -72,6 +72,15 @@ That observation suggests an access question. It does not yet prove a collagen w
 
 Now suppose a second sample has cells throughout the tumor. That establishes a different distribution. Their receptor targets and function remain open. [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states) and antigen-response measurements can help address those questions.
 
+
+### Shared visual reference
+
+<img src="../concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg" alt="Three matching fictional tumor-tissue fields show eight specified T-cell symbols in both inflamed and excluded patterns, relocated from mainly inside cancer-cell regions to surrounding stroma; a desert field has two. Symbol count is distinct from a stromal-area score." data-theme-pair width="600" height="1500">
+
+*Fictional fields: inflamed and excluded have the same eight T-cell symbols, with different locations; desert has two. The outlines mark regions, not a proven wall. Counts are not a stromal-area lymphocyte score, and no clinical cutoff, receptor target, killing or treatment response follows.*
+
+The matched fields count specified T-cell symbols in a fixed fictional field. Stromal TIL scoring uses method-defined intratumoral stromal area; these symbols are not a stromal-area score, do not represent all scored mononuclear cells and cannot be converted into an sTIL percentage. Site, sampling time and method remain necessary. The outer frame is sampled tumor tissue containing stroma and cancer-cell regions. It is not a lymph node, and the region outlines do not prove collagen caused exclusion. Keep the native-follicle/TLS distinction and the scoring rules in the surrounding lesson.
+
 ## What can go wrong at this step
 
 The biggest error is jumping directly from a descriptive label to a drug. “Excluded” becomes “use a barrier-targeting treatment.” “Hot” becomes “checkpoint therapy is guaranteed.” Those conclusions require clinical evidence for an assay, population and treatment setting.

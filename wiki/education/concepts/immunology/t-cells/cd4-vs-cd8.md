@@ -49,6 +49,19 @@ flowchart TD
 
 *The branches describe common co-receptor relationships, not fixed beneficial or harmful roles.*
 
+
+### Shared visual reference
+
+<img src="../antigen-presentation/images/hla-class-i-contacts-v2-light.svg" alt="Schematic conventional class-I contact: a membrane-anchored heavy chain holds a peptide beside B2M; the T-cell receptor meets peptide plus HLA, while a separately anchored CD8 contacts a lower HLA region." data-theme-pair width="600" height="700">
+
+*Common class-I schematic: the T-cell receptor inspects peptide plus human leukocyte antigen (HLA); CD8 contacts a separate HLA region. [Beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) has no separate membrane anchor. Shapes and spacing are illustrative, not atomic coordinates or proof of signaling or killing.*
+
+<img src="../antigen-presentation/images/hla-class-ii-contacts-v2-light.svg" alt="Schematic conventional class-II contact: membrane-anchored alpha and beta chains hold a peptide; the T-cell receptor meets peptide plus HLA, and separately anchored CD4 meets a lower HLA region." data-theme-pair width="600" height="700">
+
+*Common class-II schematic: the T-cell receptor inspects peptide plus HLA; CD4 has a separate contact. Both HLA chains cross the presenting-cell membrane. The drawing does not assign a helper or killer job, reproduce a measured docking angle, or predict function.*
+
+These common conventional contacts do not assign fixed helper or killer functions. CD4/CD8 do not select the peptide; the T-cell receptor does so in its display context. Keep the parent-gate denominators in the existing assay exercise attached to its percentages.
+
 ## Why it matters in cancer
 
 A vaccine's CD4 and CD8 responses should be reported separately, with the actual antigen, assay and sample. A CD4 response is not inherently a failed vaccine, and a CD8 response is not proof of tumor killing. Comparisons across different formulations, diseases and assays cannot by themselves establish a platform ranking.

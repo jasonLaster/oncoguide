@@ -43,6 +43,15 @@ Different tumor regions or disease sites can have different patterns. A small bi
 
 Presence also differs from specificity. Some cells in a tumor respond to infections or other antigens. Others restrain immune activity. “Hot” therefore does not mean every visible T cell is attacking cancer. Conversely, few visible cells do not show that no immune response exists elsewhere.
 
+
+### Shared visual reference
+
+<img src="./images/matched-tissue-fields-v2-light.svg" alt="Three matching fictional tumor-tissue fields show eight specified T-cell symbols in both inflamed and excluded patterns, relocated from mainly inside cancer-cell regions to surrounding stroma; a desert field has two. Symbol count is distinct from a stromal-area score." data-theme-pair width="600" height="1500">
+
+*Fictional fields: inflamed and excluded have the same eight T-cell symbols, with different locations; desert has two. The outlines mark regions, not a proven wall. Counts are not a stromal-area lymphocyte score, and no clinical cutoff, receptor target, killing or treatment response follows.*
+
+The matched fields count specified T-cell symbols in a fixed fictional field. Stromal TIL scoring uses method-defined intratumoral stromal area; these symbols are not a stromal-area score, do not represent all scored mononuclear cells and cannot be converted into an sTIL percentage. Site, sampling time and method remain necessary. The [working-group recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/) define the area denominator. These fictional primary-tumor fields contain no lymph-node follicle or tertiary lymphoid structure (TLS) illustration; neither organization nor a causal barrier has been inferred.
+
 ## Why it matters in cancer
 
 The pattern helps organize questions about priming, recruitment, access and local function. It can motivate more measurement. It does not by itself select a vaccine, checkpoint drug or treatment combination.

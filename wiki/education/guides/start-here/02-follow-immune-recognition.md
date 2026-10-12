@@ -57,6 +57,15 @@ The counts match, but the spatial observations differ. They raise different acce
 
 Now a researcher shows that blood T cells react to a proposed peptide in a laboratory assay. This supports a measured response under that assay's conditions. It does not prove the tumor displays the peptide or that the responding cells will reach it. The observations can be promising while leaving several dependencies open.
 
+
+### Shared visual reference
+
+<img src="../../concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg" alt="Three matching fictional tumor-tissue fields show eight specified T-cell symbols in both inflamed and excluded patterns, relocated from mainly inside cancer-cell regions to surrounding stroma; a desert field has two. Symbol count is distinct from a stromal-area score." data-theme-pair width="600" height="1500">
+
+*Fictional fields: inflamed and excluded have the same eight T-cell symbols, with different locations; desert has two. The outlines mark regions, not a proven wall. Counts are not a stromal-area lymphocyte score, and no clinical cutoff, receptor target, killing or treatment response follows.*
+
+The first two fictional fields contain exactly eight symbols each; they compare locations, not a clinical count threshold or tracked cells moving between specimens. Presence and location leave natural target display, receptor specificity, access mechanisms and killing open.
+
 ## Use a question ladder
 
 | Observation | A reasonable next question |

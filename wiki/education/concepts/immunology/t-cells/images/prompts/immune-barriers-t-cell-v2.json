@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "artifactKind": "derived-per-directory-vector-provenance",
+  "derivationAuthor": "immune_foundations",
+  "transferOnly": true,
+  "reviewedSourceCommit": null,
+  "originalSharedReceipt": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/provenance/immune-barriers-shared-v2.json",
+    "sha256": "38b9de2539112ff2af48350cb4fe951529a8de35b863c1d1ba06ab84a7dc4a9e",
+    "bytes": 17236,
+    "custody": "Exact original retained source-only; not rewritten, replaced or recursively imported."
+  },
+  "supplementalOwner": "wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+  "prospectiveOwnerSha256": "f29d670ccf7e7d6220853f8c442d73e3b5dfcd9e39588928327e80985f5ecdd1",
+  "artworks": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-light.svg",
+      "stem": "state-contexts-v2",
+      "theme": "light",
+      "sha256": "4e764bdcd7fccd3ab2dfad010a4e5d68e2352ca9e042d5fe5cb79520cce6324f",
+      "bytes": 3331,
+      "viewBox": [
+        600,
+        1050
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-dark.svg",
+      "stem": "state-contexts-v2",
+      "theme": "dark",
+      "sha256": "05591f36a8ee527a76a42a12b96640748271d985dd0410754157e8d6036cccbb",
+      "bytes": 3331,
+      "viewBox": [
+        600,
+        1050
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-light.svg",
+      "stem": "exhausted-subsets-v2",
+      "theme": "light",
+      "sha256": "04d7943f26d0988fb66564b4b291e85c4099b6eea21851a2700f3174c5e1af59",
+      "bytes": 3382,
+      "viewBox": [
+        600,
+        950
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-dark.svg",
+      "stem": "exhausted-subsets-v2",
+      "theme": "dark",
+      "sha256": "e3c15692385ff202b6a935fed7d37051778b98f2c66847a79bebfc82d6fbc05b",
+      "bytes": 3382,
+      "viewBox": [
+        600,
+        950
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-light.svg",
+      "stem": "receptor-identity-context-v2",
+      "theme": "light",
+      "sha256": "2407071f8af4d6830504b2cfa4db168dd8cbfa61864e6347b72f38219045adfa",
+      "bytes": 3273,
+      "viewBox": [
+        600,
+        840
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-dark.svg",
+      "stem": "receptor-identity-context-v2",
+      "theme": "dark",
+      "sha256": "328c9216a60e1d87321b0b9be45a2b10d8eab429607e4f56a8499c84948f9d9f",
+      "bytes": 3273,
+      "viewBox": [
+        600,
+        840
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-light.svg",
+      "stem": "controlled-peptide-tests-v2",
+      "theme": "light",
+      "sha256": "f7e830c5ff460f6c6751ce68d242a64f2273a778e7f801dd32fc285874a046b9",
+      "bytes": 4351,
+      "viewBox": [
+        600,
+        1100
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-dark.svg",
+      "stem": "controlled-peptide-tests-v2",
+      "theme": "dark",
+      "sha256": "57448a768668b33ff5468d55d73f8de3c09c2be6674628a9ca6af52984235024",
+      "bytes": 4351,
+      "viewBox": [
+        600,
+        1100
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    }
+  ],
+  "allRelevantArtworksForThisDirectoryBound": true,
+  "originalCompleteGroups": [
+    {
+      "id": "brief-210",
+      "medium": "diagram",
+      "tasks": [
+        {
+          "page": "wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+          "task": "Separate receptor identity from changing response history and state, including distinct progenitor-like exhausted and memory categories.",
+          "literalGuardType": "ARRAY",
+          "guardrails": [
+            "No universal naive-to-memory-to-exhaustion ladder.",
+            "Tpex and ordinary memory are distinct; one marker cannot assign either.",
+            "State and measured function do not establish target specificity or benefit."
+          ]
+        },
+        {
+          "page": "wiki/education/oncology-101/3-t-cell-states.md",
+          "task": "Keep receptor identity, marker/state, location and measured function separate while comparing equal-looking T-cell populations.",
+          "literalGuardType": "STRING",
+          "guardrails": "Same PD-1 marks do not classify exhaustion or predict revival. Label specificity as observed in the stated controlled tests, preserve natural display/access/killing as unanswered, and do not draw Tregs as worn-out effectors."
+        }
+      ]
+    }
+  ],
+  "relatedProspectiveOwners": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+      "beforeSha256": "2bafb1d0eb81708e94644e7dff16602f0b1395928a937a2a37c3c0723959f731",
+      "prospectiveSha256": "f29d670ccf7e7d6220853f8c442d73e3b5dfcd9e39588928327e80985f5ecdd1"
+    },
+    {
+      "path": "wiki/education/oncology-101/3-t-cell-states.md",
+      "beforeSha256": "adc7982ce2eb218f598902cc28ed382790fe67bfb239a17a4e7cc5ecb69112d5",
+      "prospectiveSha256": "6a0b54c9208cda06479c602f2ffb5cd96aadadaa64630e787e56f5cd9804b157"
+    }
+  ],
+  "sharedOriginalConstruction": "Seven native SVG pairs authored in code; successor02 has six cosmetic annotation/marker/arrow changes, eight unchanged native files. Successor03 makes no art change or image-model call. No bitmap/image-model output or model identifier exists for these vector sources.",
+  "inheritedIndependentReview": {
+    "successor02G3ManifestSHA256": "181e32b0469e0d6e28aad9ba24af54c5ad7dc993b0e27706d8d42532db340679",
+    "successor02G3ReviewSHA256": "0edff3334a313dcb21843e3eb5c30ededf73a280e29c856224cead966bf1d5c0",
+    "successor02PublicSummarySHA256": "bc20f68f88349f22e0b08dbc1e9fde2670b4d57e1011203e59400ab5ea73e646",
+    "priorSourceAccessReviewSHA256": "13f7136cbe938f50c57a3529e5cd2a895e4153d08b78b12e62d4c005a10c9de7",
+    "scope": "Different genuine peer additive bounded native/local G3 PASS for complete4groups/7tasks/14natives,42 actual pinned hydrated contexts and78 figure instances at article760/361/328 widths. This author does not grade own art or infer acceptance of successor03 whole owners.",
+    "limits": [
+      "Prior full-group REVISE remains historical immutable.",
+      "Separate42 first-figure closes returning BODY remain OPEN; no overall accessibility or deployed-reader PASS.",
+      "Prior source G1/G2 access limits including full methods, correction bodies and study-figure pixels remain unchanged.",
+      "Expert/learner, deployed both-reader, final current-owner fit/adoption, release/sync/credit remain pending."
+    ],
+    "freshAuthorG3OrScienceGrade": false,
+    "sourceDepthUpgrade": false
+  },
+  "genuineSuccessor03FitReview": {
+    "artifactId": "immune-canonical-fit03-review",
+    "sha256": "6d81c4e094c80fb31f6bb61c9326354ae8099816a30ead3eeb886d46461613c7",
+    "qualification": "Existing different-author whole-owner and original15-asset custody review. It does not approve these new derivative bytes or upgrade science/native/deployed scope."
+  },
+  "derivationRecipe": {
+    "selectedOriginalAssetPaths": [
+      "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-light.svg",
+      "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-dark.svg",
+      "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-light.svg",
+      "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-dark.svg",
+      "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-light.svg",
+      "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-dark.svg",
+      "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-light.svg",
+      "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-dark.svg"
+    ],
+    "selectedOriginalGroupIds": [
+      "brief-210"
+    ],
+    "originalAssetRecordsAndTypedTasksCopiedWithoutSemanticChanges": true,
+    "originalSharedRecordRemainsUnchanged": true
+  },
+  "publicBoundary": {
+    "nativeBodiesOrFiguresEmbedded": false,
+    "rawSourceOrReviewerBodiesIncluded": false,
+    "capturesOrAuthorizationsIncluded": false,
+    "privateHashTargetsAdmitted": false,
+    "sourceOnlyOriginalReferencesAreMetadata": true
+  },
+  "replayLimits": [
+    "Code-authored SVGs have no image-model invocations; original model:null/not-applicable fields are retained.",
+    "This metadata is not the full source renderer/specification or a self-contained replay package.",
+    "Private original scripts, source acquisitions and review/capture packets remain excluded.",
+    "All relevant artwork identities in this directory must be current and active; retirement of any bound identity suppresses this supplemental export."
+  ],
+  "status": {
+    "canonicalApplied": false,
+    "independentDerivativeCustodyReview": "pending",
+    "release": "pending",
+    "humanReview": "pending",
+    "coverageCredit": 0
+  }
+}

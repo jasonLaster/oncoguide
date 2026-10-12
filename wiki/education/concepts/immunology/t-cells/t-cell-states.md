@@ -55,6 +55,27 @@ flowchart TD
 
 *Cell identity, state and function are complementary observations.*
 
+
+### Shared visual reference
+
+<img src="./images/state-contexts-v2-light.svg" alt="Four separate context cards define naive, effector, memory and exhaustion using response-history and program annotations. No arrows join them into a universal developmental sequence." data-theme-pair width="600" height="1050">
+
+*These are biological contexts, not stages on one mandatory path. Memory does not promise lasting protection; exhaustion is not brief tiredness, anergy or every inactive cell. Regulatory function is a separate role, not an exhausted effector state.*
+
+<img src="./images/exhausted-subsets-v2-light.svg" alt="Ordinary memory is separate from a scoped exhausted-subset inset. Only progenitor-like exhausted to more differentiated exhausted has a dashed model-scoped descendant connector; no clinical outcome arrow is present." data-theme-pair width="600" height="950">
+
+*The descendant relationship is scoped to selected persistent-stimulation tumor models. Tpex and ordinary memory are distinct; TCF1 alone assigns neither. Subsets differ by measured endpoint, and this comparison predicts neither checkpoint rescue nor patient benefit.*
+
+<img src="./images/receptor-identity-context-v2-light.svg" alt="Two independent fictional observations carry the same paired-receptor identifier R1 but different history and program annotations: a memory-associated context and a progenitor-like exhausted context. No transition arrow connects them." data-theme-pair width="600" height="840">
+
+*Fictional comparison: R1 fixes paired receptor identity while response history and program differ. The labels assume broader evidence, not one marker. These are separate observations, not a measured trajectory or a specificity or clinical-benefit claim.*
+
+<img src="./images/controlled-peptide-tests-v2-light.svg" alt="Two equal-looking fictional six-symbol populations both have PD-1 observed near cancer cells, but paired receptor tags differ: R1 has a viral-peptide response and R2 a tumor-peptide response in controlled tests. Natural tumor display, access and killing remain unestablished." data-theme-pair width="600" height="1100">
+
+*Fictional observations: the same marker and proximity do not identify a target or state. R1 and R2 have different controlled-test responses; checkpoint blockade does not rewrite their receptors. Natural tumor display, access, killing and treatment response remain open.*
+
+The fictional paired alpha/beta receptor tags compare identity with history and program; they do not demonstrate a cell trajectory. Compatible history and multiple features are assumed in the context labels; TCF1 or PD-1 alone assigns neither memory nor progenitor-like exhaustion. [Han](https://pubmed.ncbi.nlm.nih.gov/24952902/) supports identity/phenotype separation; [Miller](https://pubmed.ncbi.nlm.nih.gov/30778252/) supports the scoped exhausted-subset relationship. No regulatory cell is depicted as a worn-out effector.
+
 ## Why it matters in cancer
 
 [Checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) does not restore every inactive cell or replace its receptor specificity. Vaccines and engineered cells also encounter state-dependent constraints. A high count or favorable marker pattern cannot replace evidence of target recognition and useful function.

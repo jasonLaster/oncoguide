@@ -69,6 +69,19 @@ Now imagine two PD-1-positive populations. In controlled tests, one recognizes a
 
 The intervention changes regulation, while the marker is an observation. Keeping those jobs separate helps you explain why a plausible drug mechanism is not a prediction for every marked cell.
 
+
+### Shared visual reference
+
+<img src="../concepts/immunology/t-cells/images/receptor-identity-context-v2-light.svg" alt="Two independent fictional observations carry the same paired-receptor identifier R1 but different history and program annotations: a memory-associated context and a progenitor-like exhausted context. No transition arrow connects them." data-theme-pair width="600" height="840">
+
+*Fictional comparison: R1 fixes paired receptor identity while response history and program differ. The labels assume broader evidence, not one marker. These are separate observations, not a measured trajectory or a specificity or clinical-benefit claim.*
+
+<img src="../concepts/immunology/t-cells/images/controlled-peptide-tests-v2-light.svg" alt="Two equal-looking fictional six-symbol populations both have PD-1 observed near cancer cells, but paired receptor tags differ: R1 has a viral-peptide response and R2 a tumor-peptide response in controlled tests. Natural tumor display, access and killing remain unestablished." data-theme-pair width="600" height="1100">
+
+*Fictional observations: the same marker and proximity do not identify a target or state. R1 and R2 have different controlled-test responses; checkpoint blockade does not rewrite their receptors. Natural tumor display, access, killing and treatment response remain open.*
+
+R1 and R2 are fictional paired-receptor identifiers. Marker and proximity observations, response history, and separately controlled peptide tests answer different questions. A positive peptide-test response does not establish natural tumor display, entry or killing; blockade does not replace the receptor. The six symbols are illustration counts, not independent biological replicates or assay thresholds.
+
 ## New arrivals are not the whole repertoire
 
 [Thymic output and aging](/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging) explain where newly developed T cells come from. Output generally declines with age and can continue in adults; there is no fixed adult birthday when it stops. Existing naive cells also survive and divide outside the thymus. Neither a naive phenotype nor chronological age measures which cancer targets a person can recognize.

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "artifactKind": "derived-per-directory-vector-provenance",
+  "derivationAuthor": "immune_foundations",
+  "transferOnly": true,
+  "reviewedSourceCommit": null,
+  "originalSharedReceipt": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/provenance/immune-barriers-shared-v2.json",
+    "sha256": "38b9de2539112ff2af48350cb4fe951529a8de35b863c1d1ba06ab84a7dc4a9e",
+    "bytes": 17236,
+    "custody": "Exact original retained source-only; not rewritten, replaced or recursively imported."
+  },
+  "supplementalOwner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+  "prospectiveOwnerSha256": "c484932e4922049e9fd79ab844bdd2b6b00d018f579ea535e08c676ed47f53fa",
+  "artworks": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+      "stem": "hla-class-i-contacts-v2",
+      "theme": "light",
+      "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+      "bytes": 4019,
+      "viewBox": [
+        600,
+        700
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+      "stem": "hla-class-i-contacts-v2",
+      "theme": "dark",
+      "sha256": "ebc22265f96a3a3dffd2006ac0e3fcb3b3b8bfcbcefa2aa5fc825ee28c40da46",
+      "bytes": 4019,
+      "viewBox": [
+        600,
+        700
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+      "stem": "hla-class-ii-contacts-v2",
+      "theme": "light",
+      "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+      "bytes": 4036,
+      "viewBox": [
+        600,
+        700
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg",
+      "stem": "hla-class-ii-contacts-v2",
+      "theme": "dark",
+      "sha256": "d140a8364c1ff78ded1249ae71e944d402fa08c8cd67dfba76c5e0292503712b",
+      "bytes": 4036,
+      "viewBox": [
+        600,
+        700
+      ],
+      "sourceKind": "Code-authored vector",
+      "model": null,
+      "modelApplicable": false,
+      "imageModelCallCount": 0,
+      "sameAsIndependentlyAccepted02": true
+    }
+  ],
+  "allRelevantArtworksForThisDirectoryBound": true,
+  "originalCompleteGroups": [
+    {
+      "id": "brief-064",
+      "medium": "diagram",
+      "tasks": [
+        {
+          "page": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+          "task": "Compare class-I and class-II physical assemblies and see that the receptor contacts a bound peptide together with its HLA molecule.",
+          "literalGuardType": "ARRAY",
+          "guardrails": [
+            "Show common structures/routes rather than absolute cell-location lists.",
+            "Peptide is bound in the groove; TCR does not recognize free peptide alone.",
+            "Typing, protein expression, recovered peptide and recognition remain separate observations."
+          ]
+        },
+        {
+          "page": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+          "task": "Locate the TCR and co-receptor contacts on class-I versus class-II displays without assigning fixed helper/killer functions.",
+          "literalGuardType": "ARRAY",
+          "guardrails": [
+            "TCR specifies the peptide-HLA target; co-receptor does not select the peptide.",
+            "Conventional class relationships have exceptions and do not fix a current function.",
+            "Percentages require their parent gates."
+          ]
+        }
+      ]
+    }
+  ],
+  "relatedProspectiveOwners": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "beforeSha256": "f0cd46eb27a918e3e105cad1c5a8cbb038ec3eb2361d2df56046be993afac51f",
+      "prospectiveSha256": "c484932e4922049e9fd79ab844bdd2b6b00d018f579ea535e08c676ed47f53fa"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+      "beforeSha256": "32be1df5806fb13bad6eea40d43dff2efab7f186ac04452a62b0016dcc52769a",
+      "prospectiveSha256": "7e709153a536fe4e5db8fe81e59635e580ffc5308e89da169e5fee744b8686e3"
+    }
+  ],
+  "sharedOriginalConstruction": "Seven native SVG pairs authored in code; successor02 has six cosmetic annotation/marker/arrow changes, eight unchanged native files. Successor03 makes no art change or image-model call. No bitmap/image-model output or model identifier exists for these vector sources.",
+  "inheritedIndependentReview": {
+    "successor02G3ManifestSHA256": "181e32b0469e0d6e28aad9ba24af54c5ad7dc993b0e27706d8d42532db340679",
+    "successor02G3ReviewSHA256": "0edff3334a313dcb21843e3eb5c30ededf73a280e29c856224cead966bf1d5c0",
+    "successor02PublicSummarySHA256": "bc20f68f88349f22e0b08dbc1e9fde2670b4d57e1011203e59400ab5ea73e646",
+    "priorSourceAccessReviewSHA256": "13f7136cbe938f50c57a3529e5cd2a895e4153d08b78b12e62d4c005a10c9de7",
+    "scope": "Different genuine peer additive bounded native/local G3 PASS for complete4groups/7tasks/14natives,42 actual pinned hydrated contexts and78 figure instances at article760/361/328 widths. This author does not grade own art or infer acceptance of successor03 whole owners.",
+    "limits": [
+      "Prior full-group REVISE remains historical immutable.",
+      "Separate42 first-figure closes returning BODY remain OPEN; no overall accessibility or deployed-reader PASS.",
+      "Prior source G1/G2 access limits including full methods, correction bodies and study-figure pixels remain unchanged.",
+      "Expert/learner, deployed both-reader, final current-owner fit/adoption, release/sync/credit remain pending."
+    ],
+    "freshAuthorG3OrScienceGrade": false,
+    "sourceDepthUpgrade": false
+  },
+  "genuineSuccessor03FitReview": {
+    "artifactId": "immune-canonical-fit03-review",
+    "sha256": "6d81c4e094c80fb31f6bb61c9326354ae8099816a30ead3eeb886d46461613c7",
+    "qualification": "Existing different-author whole-owner and original15-asset custody review. It does not approve these new derivative bytes or upgrade science/native/deployed scope."
+  },
+  "derivationRecipe": {
+    "selectedOriginalAssetPaths": [
+      "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+      "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+      "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+      "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg"
+    ],
+    "selectedOriginalGroupIds": [
+      "brief-064"
+    ],
+    "originalAssetRecordsAndTypedTasksCopiedWithoutSemanticChanges": true,
+    "originalSharedRecordRemainsUnchanged": true
+  },
+  "publicBoundary": {
+    "nativeBodiesOrFiguresEmbedded": false,
+    "rawSourceOrReviewerBodiesIncluded": false,
+    "capturesOrAuthorizationsIncluded": false,
+    "privateHashTargetsAdmitted": false,
+    "sourceOnlyOriginalReferencesAreMetadata": true
+  },
+  "replayLimits": [
+    "Code-authored SVGs have no image-model invocations; original model:null/not-applicable fields are retained.",
+    "This metadata is not the full source renderer/specification or a self-contained replay package.",
+    "Private original scripts, source acquisitions and review/capture packets remain excluded.",
+    "All relevant artwork identities in this directory must be current and active; retirement of any bound identity suppresses this supplemental export."
+  ],
+  "status": {
+    "canonicalApplied": false,
+    "independentDerivativeCustodyReview": "pending",
+    "release": "pending",
+    "humanReview": "pending",
+    "coverageCredit": 0
+  }
+}

@@ -47,6 +47,19 @@ Most conventional class I complexes require B2M. Tumors can lose a presenting al
 
 HLA-C has lower surface expression than HLA-A/B in many contexts. Its smaller observed peptide share is not evidence that it is universally more permissive. Dataset representation and allele-specific prediction quality also matter. A measured peptide in a mixed tissue preparation does not establish its source cell or a safe tumor-specific T-cell response.
 
+
+### Shared visual reference
+
+<img src="./images/hla-class-i-contacts-v2-light.svg" alt="Schematic conventional class-I contact: a membrane-anchored heavy chain holds a peptide beside B2M; the T-cell receptor meets peptide plus HLA, while a separately anchored CD8 contacts a lower HLA region." data-theme-pair width="600" height="700">
+
+*Common class-I schematic: the T-cell receptor inspects peptide plus human leukocyte antigen (HLA); CD8 contacts a separate HLA region. B2M has no separate membrane anchor. Shapes and spacing are illustrative, not atomic coordinates or proof of signaling or killing.*
+
+<img src="./images/hla-class-ii-contacts-v2-light.svg" alt="Schematic conventional class-II contact: membrane-anchored alpha and beta chains hold a peptide; the T-cell receptor meets peptide plus HLA, and separately anchored CD4 meets a lower HLA region." data-theme-pair width="600" height="700">
+
+*Common class-II schematic: the T-cell receptor inspects peptide plus HLA; CD4 has a separate contact. Both HLA chains cross the presenting-cell membrane. The drawing does not assign a helper or killer job, reproduce a measured docking angle, or predict function.*
+
+The drawings separate the T-cell receptor contact from the co-receptor contact. They show common conventional structures, not exclusive cell-location lists. Typing, protein expression, recovered peptide, recognition and killing remain different observations. The structural references include [Garboczi](https://pubmed.ncbi.nlm.nih.gov/8906788/), [Hennecke](https://pubmed.ncbi.nlm.nih.gov/11060013/), [Gao](https://pubmed.ncbi.nlm.nih.gov/9177355/) and [Yin](https://pubmed.ncbi.nlm.nih.gov/22431638/); their particular constructs do not define universal shapes, angles or functions.
+
 ## Why it matters in cancer
 
 It connects antigen display to receptor recognition and explains why loss of a presenting allele can affect a treatment route.
