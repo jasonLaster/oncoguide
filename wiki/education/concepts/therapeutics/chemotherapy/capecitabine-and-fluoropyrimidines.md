@@ -31,6 +31,12 @@ The analogy introduces **antimetabolites**, drugs that interfere with the use of
 
 ## How it works
 
+<img src="./images/activation-metabolite-jobs-and-clearance-v1-light.svg" alt="Capecitabine becomes fluorouracil through compressed activation steps. Separate FdUMP and FUTP branches affect DNA building material and RNA in both normal and tumor cells. A distinct host branch links the DPYD gene, DPD enzyme and fluorouracil breakdown." data-theme-pair />
+
+*Activation creates fluorouracil; cell metabolites affect DNA and RNA; host DPD breakdown is a separate safety question.*
+
+Read each numbered panel as a different question. Capecitabine is converted to fluorouracil (5-FU). FdUMP and FUTP are abbreviated names for two active metabolites: the first limits DNA building material through thymidylate synthase, while the second enters RNA. Both normal and tumor cells can make them. DPD-mediated breakdown concerns host handling, not a tumor-sensitivity score.
+
 Capecitabine is an oral [chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) medicine. It is a **prodrug**, converted through several metabolic steps to **fluorouracil (5-FU)**. This gives it a different delivery pathway from administering fluorouracil directly; the names should not be exchanged in a dosing description.
 
 Both normal and tumor cells can convert fluorouracil into active metabolites. One inhibits **thymidylate synthase**, an enzyme needed to make a building block for [DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/genetics/central-dogma). Another can be incorporated into **RNA (ribonucleic acid)**, interfering with RNA processing and protein production.

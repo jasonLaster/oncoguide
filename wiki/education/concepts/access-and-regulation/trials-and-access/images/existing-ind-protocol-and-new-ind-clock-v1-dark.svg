@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Two submissions, two timing rules</title><desc id="desc">Non-emergency new individual IND versus individual protocol under an existing active IND. FDA receipt starts the new IND clock; readiness gates remain separate.</desc><rect width="600" height="900" rx="20" fill="#101b28"/>
+<text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#f1f6fa">Two submissions,</text>
+<text x="28" y="91" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#f1f6fa">two timing rules</text>
+<text x="28" y="145" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#bed0de">Non-emergency; individual use</text>
+<rect x="28" y="180" width="544" height="220" rx="16" fill="#1b2c3e" stroke="#648399" stroke-width="2"/>
+<text x="48" y="220" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">New individual IND</text>
+<text x="48" y="260" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">FDA receipt → clock starts</text>
+<text x="48" y="299" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">30 calendar days, unless held</text>
+<text x="48" y="338" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">or earlier FDA notification</text>
+<rect x="28" y="420" width="544" height="220" rx="16" fill="#1b2c3e" stroke="#648399" stroke-width="2"/>
+<text x="48" y="460" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">Protocol: active IND</text>
+<text x="48" y="500" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Submit to FDA + IRB approval</text>
+<text x="48" y="539" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">No automatic 30-day wait</text>
+<text x="48" y="578" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">FDA can impose a hold</text>
+<rect x="28" y="660" width="544" height="207" rx="16" fill="#433526" stroke="#648399" stroke-width="2"/>
+<text x="48" y="700" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#ffc982">Separate readiness gates</text>
+<text x="48" y="740" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Supply • consent • review</text>
+<text x="48" y="779" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Clinical team and logistics</text>
+<text x="48" y="818" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">No promised treatment date</text>
+</svg>

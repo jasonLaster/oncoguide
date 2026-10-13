@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-159",
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+  "author": "agent:/root/batch06_author_group2",
+  "creativeAuthor": "agent:/root/batch06_author_group2",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/batch06_review_group2",
+  "independentReviewer": "agent:/root/batch06_review_group2",
+  "reviewedAtUTC": "2026-10-13T17:21:55.000Z",
+  "timePrecision": "UTC clock tool whole seconds, zero-filled three fractional digits",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "1a3e427d3a0cf1ca531fb697f01e072d43d0cfde43f301a2f50b32f5dab02afb",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-light.svg",
+      "sha256": "bc2fe6e4a55ae094a8766a6ea72ac4f87bdf30ce04c0c2f9b889a8cac1b71784",
+      "bytes": 8906,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-dark.svg",
+      "sha256": "2f57537437d4e0077837b0390e5a5a62e4e6ae467f70d334989291955fdfd5f1",
+      "bytes": 8906,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "31c05ba6945b36451ee7c06d5cbbc779d1ceda543fbe4225ab9d06e6c9d4ee2f",
+    "learnerTask": "See normal topoisomerase cut/reseal versus a stabilized cleavage complex",
+    "gap": "Verbal repair-worker analogy lacks before/after DNA-enzyme geometry",
+    "accuracyGuardrails": "Do not depict simply switching enzyme off; multiple mechanisms; no efficacy/cardiac-risk prediction",
+    "currentVisualFit": "adequate",
+    "reasoning": "The upper scene starts with joined double-stranded DNA, shows an enzyme-held cut and passing segment, then joined strands again; the lower scene retains cut ends within an enzyme-associated complex with drug. This teaches stabilization of the cleavage intermediate rather than a simple switch-off. The article identifies this as one doxorubicin mechanism and preserves intercalation/reactive-molecule context and normal-cell effects. Cumulative/delayed cardiac risk is supported separately by the explicitly dated FDA label. Neither diagram geometry nor the fictional DNA-break/baseline-heart-imaging example predicts efficacy or absence of later heart injury.",
+    "humanReview": "pending"
+  },
+  "frozenTask": {
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/341",
+    "originalTaskRowSHA256": "70bcdbcbee4d61d27b13510aad416d7792d73cd15d97801aa93d4f0e3ac8e1c0",
+    "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+        "sha256": "1a3e427d3a0cf1ca531fb697f01e072d43d0cfde43f301a2f50b32f5dab02afb",
+        "bytes": 7514
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-light.svg",
+        "sha256": "bc2fe6e4a55ae094a8766a6ea72ac4f87bdf30ce04c0c2f9b889a8cac1b71784",
+        "bytes": 8906
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-dark.svg",
+        "sha256": "2f57537437d4e0077837b0390e5a5a62e4e6ae467f70d334989291955fdfd5f1",
+        "bytes": 8906
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/transient-cut-and-stabilized-cleavage-v1.txt",
+        "sha256": "136cc94b3a1f713cdab2e32b83944da9a7ceb3f6cf8a9685e046c2609e9ed884",
+        "bytes": 1149
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/transient-cut-and-stabilized-cleavage-v1-provenance.json",
+        "sha256": "c7e84ee75a77fe7eb087ffa2983ca7149df8787aa085804b70d3b220c4d8812c",
+        "bytes": 4462
+      }
+    ],
+    "originalEntireOwnerPreserved": true,
+    "authorManifestSHA256": "03de0707c0fb4487966808a2eb05d5727656fd3ba062be1f5266195361a438d8",
+    "originalBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "model": null,
+    "imageModelCalls": 0
+  },
+  "sourceReview": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6093249/",
+      "version": "Tewey 1984",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/6093249.json",
+        "sha256": "ad10e4259f92528c4a9ec16d3282556502fdb835eb7c64c763cd839e9f1a56bf"
+      }
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/doxorubicin-hydrochloride",
+      "version": "Current official NCI entry retrieved October 13, 2026",
+      "readDepth": "Complete substantive official drug-mechanism entry personally read; site navigation excluded.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/epirubicin-hydrochloride",
+      "version": "Current official NCI entry retrieved October 13, 2026",
+      "readDepth": "Complete substantive official drug-mechanism entry personally read; site navigation excluded.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/050467s077lbl.pdf",
+      "version": "FDA 2019 label Reference ID4475028, expressly dated",
+      "readDepth": "Independent reading of preserved official PDF text sections 5.1 and12.1, including cumulative/delayed risk and intercalation/cleavage mechanism. Source is producer-retrieved bytes, copied read-only into reviewer custody; not a fresh successful network retrieval.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "accessFailuresAndLimits": [
+        "Fresh web open internal error; fresh urllib GET404. Preserved original successful producer retrieval remains separately attributed. Current complete labeling not claimed."
+      ],
+      "retrievedSourceCustody": {
+        "path": "private/sources/dox-label-author-retrieval.pdf",
+        "sha256": "55be41637e774f9ac008143a42aeebba45dde52be34a79001d5db17096507995",
+        "retrievalBy": "agent:/root/batch06_author_group2"
+      }
+    }
+  ],
+  "displayReview": {
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "actualPinFilesIndependentlyVerified": 87,
+    "freshOriginalPNGsPersonallyInspected": 10,
+    "captures": [
+      {
+        "path": "private/captures/next-gap-159-dark-desktop-default-preview.png",
+        "sha256": "dcc26b9efc44382e23da58cb6a2c9a81b82ab3136c3fb62c7508c0f1fc8004b2",
+        "bytes": 132502,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-dark-desktop-inline.png",
+        "sha256": "1e962fc12d50b37e9d63dfc9bfb84b197916eca4acfe147b523f27f26bba1f29",
+        "bytes": 102151,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-dark-mobile-default-preview.png",
+        "sha256": "37143e3dabdeefa8f40c9b4e6bc6cb26c4cf52cbd1a650d416684acc628bdd66",
+        "bytes": 73908,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-dark-mobile-inline.png",
+        "sha256": "097b929be939ab144c2ce7dfe69dd92696e2ff0d74e600f7bc4d2097273c06b1",
+        "bytes": 69121,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-dark-native.png",
+        "sha256": "1afb2a0b900d5c38b2be7a87f963affe753b858dd682ae4893f7aff0e5f21dc0",
+        "bytes": 90398,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-light-desktop-default-preview.png",
+        "sha256": "b56c288fc8ccbd832d4692231fbc11a72d32b282bd7692921fe97615fc211105",
+        "bytes": 131394,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-light-desktop-inline.png",
+        "sha256": "7b526533cfb005d6639062a6c79e44a09bed25c7f3f31311019096b4a5f40b26",
+        "bytes": 100320,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-light-mobile-default-preview.png",
+        "sha256": "848d5e4d0da38b92621d24d5b86b0461906def2614e464694e2ecb4192b0d00b",
+        "bytes": 74884,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-light-mobile-inline.png",
+        "sha256": "1c18ba636a1a2d35e5d43808aa9cd3edbeff115515c775bc11596fc45ca9a32b",
+        "bytes": 66841,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-159-light-native.png",
+        "sha256": "54e62e274d31faf922936a9341b2ae6f02babae3944ea895a820c1120276242b",
+        "bytes": 88363,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Held double-strand cut, passage/reseal flow and drug-stabilized complex visually distinct; other mechanisms and prediction limit legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      }
+    ],
+    "minMobileInlineLabelPx": 18.6125,
+    "minMobileDefaultPreviewLabelPx": 18.4,
+    "nativeWidth": 600,
+    "nativeHeight": 950,
+    "carrierLimits": "Private full education article with exact formatter/ImageTheater/Frame/SmartTableEnhancer and copied full shared/app CSS; three literal Tailwind hidden/dark theme utility rules. App header/sidebar/navigation, live data and physical device not represented.",
+    "labelAndArrowAssessment": "Clear and readable; no observed artwork text overlap or clipping. Ordinal panel numbers are ordering labels, not measured quantities."
+  },
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignmentAdoption": "pending",
+  "delivery": "pending",
+  "sourceFitCreditGrantedNow": 0,
+  "coverageCreditGrantedNow": 0,
+  "liveDeliveryCreditGrantedNow": 0
+}

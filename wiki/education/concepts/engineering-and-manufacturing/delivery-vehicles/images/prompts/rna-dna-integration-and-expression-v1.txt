@@ -1,0 +1,9 @@
+Original illustration brief — Lentiviral vector
+Author: agent:/root/batch06_author_group1
+Learner task: Follow RNA cargo through reverse transcription, possible integration and new expression, separate from envelope targeting.
+Draw original code-authored SVGs at 600 × 1000, paired light and dark. Keep geometry and words identical. Use high-contrast ink, blue RNA/vector DNA, warm orange for alternative material/inserts where the specific diagram labels its role, and explicit object/compartment labels. All labels at least 32 SVG pixels; verify actual mobile inline and default-preview effective sizes.
+Scene: Envelope-mediated entry leads to incoming RNA, a DNA copy, a chromosome insertion in an integrating design, and new RNA and protein.
+Takeaway: Entry, DNA formation, insertion and expression are separate steps. The actual vector design determines which routes are relevant.
+Guardrails: Distinguish incoming RNA, reverse-transcribed DNA, integration and subsequent expression from envelope-mediated entry. Use design-specific caveats rather than universal integration, persistence or safety claims.
+Schematic, not to scale. Counts/positions are illustrative rather than empirical frequencies. No patient, dosing, protocol, risk percentage or clinical prediction. Preserve ambiguity and show no guaranteed outcome.
+Construction: editable SVG code written by the named author. No image-model generation requested or used (model=null, image calls=0).

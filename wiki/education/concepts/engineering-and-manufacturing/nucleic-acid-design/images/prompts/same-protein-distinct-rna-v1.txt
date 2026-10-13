@@ -1,0 +1,9 @@
+Original illustration brief — Codon optimization
+Author: agent:/root/batch06_author_group1
+Learner task: See two synonymous codons map to one intended amino acid while RNA properties can differ.
+Draw original code-authored SVGs at 600 × 1000, paired light and dark. Keep geometry and words identical. Use high-contrast ink, blue RNA/vector DNA, warm orange for alternative material/inserts where the specific diagram labels its role, and explicit object/compartment labels. All labels at least 32 SVG pixels; verify actual mobile inline and default-preview effective sizes.
+Scene: Two RNA codons, GCU and GCC, both point to alanine; a second layer shows that RNA sequence and folding can differ.
+Takeaway: Both toy codons specify alanine. Retaining that intended amino acid does not retain every RNA property or establish better expression.
+Guardrails: Keep intended amino-acid identity separate from synonymous codon and RNA-property changes. A redesign label does not prove increased expression, improved quality or reduced immune effects.
+Schematic, not to scale. Counts/positions are illustrative rather than empirical frequencies. No patient, dosing, protocol, risk percentage or clinical prediction. Preserve ambiguity and show no guaranteed outcome.
+Construction: editable SVG code written by the named author. No image-model generation requested or used (model=null, image calls=0).

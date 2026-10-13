@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">A combined rule needs both inputs</title><desc id="desc">Fictional trial checkpoint: MRI criterion met, biopsy inadequate. An AND rule requires both MRI criterion met and an adequate negative biopsy, so the rule is not met. Outcome evidence remains separate.</desc><rect width="600" height="900" rx="20" fill="#101b28"/>
+<text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#f1f6fa">A combined rule</text>
+<text x="28" y="91" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#f1f6fa">needs both inputs</text>
+<text x="28" y="145" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#bed0de">Fictional trial checkpoint</text>
+<rect x="28" y="175" width="544" height="110" rx="16" fill="#183e40" stroke="#648399" stroke-width="2"/>
+<text x="48" y="215" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">MRI input</text>
+<text x="48" y="255" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Criterion met</text>
+<path d="M300 289v16m-10-10 10 10 10-10" fill="none" stroke="#648399" stroke-width="3"/>
+<rect x="28" y="310" width="544" height="110" rx="16" fill="#433526" stroke="#648399" stroke-width="2"/>
+<text x="48" y="350" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#ffc982">Biopsy input</text>
+<text x="48" y="390" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Inadequate; cannot interpret</text>
+<path d="M300 424v16m-10-10 10 10 10-10" fill="none" stroke="#648399" stroke-width="3"/>
+<rect x="28" y="445" width="544" height="158" rx="16" fill="#1b2c3e" stroke="#648399" stroke-width="2"/>
+<text x="48" y="485" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">Predefined AND rule</text>
+<text x="48" y="525" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">MRI criterion met AND</text>
+<text x="48" y="564" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">biopsy adequate + negative</text>
+<path d="M300 607v16m-10-10 10 10 10-10" fill="none" stroke="#648399" stroke-width="3"/>
+<rect x="28" y="630" width="544" height="110" rx="16" fill="#433526" stroke="#648399" stroke-width="2"/>
+<text x="48" y="670" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#ffc982">Rule not met in this case</text>
+<text x="48" y="710" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">One favorable input is insufficient.</text>
+<text x="28" y="797" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#bed0de">Separate question: does acting</text>
+<text x="28" y="836" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#bed0de">on this rule improve outcomes?</text>
+</svg>

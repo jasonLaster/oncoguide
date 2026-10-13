@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-provenance",
+  "author": "agent:/root/batch06_author_group1",
+  "integrationAuthor": "root",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+  "learnerTask": "Distinguish vector DNA outside chromosomes, integration and subsequent expression.",
+  "constructedAtUTC": "2026-10-13T13:09:41.994267+00:00",
+  "medium": "original editable SVG code",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "referenceImages": [],
+  "sourceOfArtwork": "Author-drawn geometry and text; no traced or copied source figures.",
+  "codeSHA256": "c20915766c7d10a7b64667ee2c9eeeb4d5c7135161adfeacf9815c590fd145e6",
+  "prompt": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/vector-dna-chromosome-and-expression-v1.txt",
+    "sha256": "4375e88d1bf7a286d2cb0d6da83a7b60e48a9dbded9090659e62ac6bf74e0fb3"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-light.svg",
+      "sha256": "d48646c04c3a23964ca4a17423c8f749899fc3c852f4e6426eeab6dedcb5e1fc",
+      "bytes": 3983,
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-dark.svg",
+      "sha256": "4d460ee2a3d7e15e9b4e8f281d0ba146056a80418674ba7c2a52d0b56d3d16c9",
+      "bytes": 3983,
+      "theme": "dark"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5374867/",
+      "label": "Schnepp et al., 2016",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "26650966",
+      "title": "Recombinant Adeno-Associated Virus Vector Genomes Take the Form of Long-Lived, Transcriptionally Competent Episomes in Human Muscle.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review; selected retrieved PMC results/discussion excerpts (tool output was truncated; not complete paper review)",
+      "retrievedDateUTC": "2026-10-13T00:58:35.784523+00:00",
+      "accessFailure": "Initial web HTML returned client challenge, inaccessible redirect or empty PubMed HHS footer. NCBI E-utilities XML provided the primary abstract as recorded."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11435577/",
+      "label": "Nakai et al., 2001",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "11435577",
+      "title": "Extrachromosomal recombinant adeno-associated virus vector genomes are primarily responsible for stable liver transduction in vivo.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16474400/",
+      "label": "Manno et al., 2006",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "16474400",
+      "title": "Successful transduction of liver in hemophilia by AAV-Factor IX and limitations imposed by the host immune response.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19904234/",
+      "label": "Wu et al., 2010",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "19904234",
+      "title": "Effect of genome size on AAV vector packaging.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    },
+    {
+      "url": "https://www.fda.gov/media/113768/download",
+      "label": "FDA, January 2020: long-term follow-up",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "January 2020",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "readDepth": "FDA January 2020 official guidance: title and selected pages 11-12 on product-specific persistence/integration and delayed risks; no full document review claimed."
+    }
+  ],
+  "assumptions": "Schematic not to scale. Object counts, positions and clone descendants are illustrative; no risk, dose, time or population estimate. Fictional practice examples in the owner remain unchanged.",
+  "themeConsistency": "Same coordinates, labels, objects and relationships; palette changes only.",
+  "authorChecks": {
+    "nativeThemesInspected": [
+      "light",
+      "dark"
+    ],
+    "nativeMinimumTextFontPx": 32,
+    "pinnedReader": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileMinimumInlineLabelPx": 18.6125,
+    "mobileMinimumDefaultPreviewLabelPx": 18.4,
+    "personallyInspectedCaptureCount": 10,
+    "pageErrors": 0,
+    "keyboardEnterAndEscapeChecked": true,
+    "captionAndDescriptiveAltPresent": true,
+    "qualification": "Author mechanical and visual observations only; no scientific or pixel grade.",
+    "fixtureLimits": "Exact pinned rendering/components/shared app CSS in isolated full-width article. Excludes app navigation, auth and live deployment; not production verification."
+  },
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  }
+}

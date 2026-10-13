@@ -42,17 +42,9 @@ For a conventional engineered mRNA, **5′ and 3′ name the two ends** of the m
 
 Kozak's start-context experiments and Gallie's cap/tail experiments tested particular constructs and cell systems. They support the mechanisms, not one universally best sequence. Holtkamp and colleagues separately altered 3′ features in antigen-encoding RNA delivered to dendritic cells; those comparisons do not establish a clinical specification for every formulation.
 
-```mermaid
-%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
-flowchart TD
-  A[Cap] --> B[5′ UTR]
-  B --> C[Start context]
-  C --> D[Coding region]
-  D --> E[3′ UTR]
-  E --> F[Poly A]
-```
+<img src="./images/cap-start-context-and-tail-v1-light.svg" alt="A schematic mRNA locates cap, untranslated regions, coding start and stop, and tail; an enlarged start boundary shows overlapping start context." data-theme-pair="./images/cap-start-context-and-tail-v1-dark.svg" />
 
-*Arrows trace schematic molecular order, not scale or delivery. The Kozak start context overlaps the beginning of the coding region; it is not a separate segment. Poly(A) names the adenosine tail.*
+*The start context crosses the untranslated/coding boundary. It is a sequence neighborhood, not a separate feature inserted between them.*
 
 ## Why it matters in cancer
 

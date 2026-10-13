@@ -1,0 +1,8 @@
+ORIGINAL ART BRIEF
+Author: agent:/root/batch06_author_group2
+Task: Separate prodrug activation, DNA/RNA metabolite effects and host clearance
+
+Show oral prodrug capecitabine through several compressed metabolic activation steps to 5-FU, then separated active metabolite FdUMP (thymidylate-synthase inhibition/DNA precursor depletion) and FUTP (RNA incorporation) branches. State normal AND tumor cells. A distinct branch from 5-FU through DPD breakdown/host clearance, DPYD encodes enzyme and lower activity can raise toxicity risk. No cancer-exclusive activation, sensitivity prediction, dose or testing directive.
+
+Style: original code-drawn molecular cartoon, 600×950, vertically ordered mechanism panels, warm light theme and deep navy dark theme; identical layout/labels/objects in both. Essential labels ≥32 native pixels. Teal recognition/chain, orange chemical/site emphasis, explicit direction arrows and text. Spatial shapes are schematic, not atomic structures or scale measurements. No study quantities, individual case, treatment recommendation or universal cutoff. No image-model calls.
+Guard: Normal and tumor cells activate; DPYD not tumor sensitivity; no dose/testing directive derived from image

@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-160",
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+  "author": "agent:/root/batch06_author_group2",
+  "creativeAuthor": "agent:/root/batch06_author_group2",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/batch06_review_group2",
+  "independentReviewer": "agent:/root/batch06_review_group2",
+  "reviewedAtUTC": "2026-10-13T17:21:55.000Z",
+  "timePrecision": "UTC clock tool whole seconds, zero-filled three fractional digits",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "1570b7a08ebe3b4794d3973df6c9d92d08d6c939cc25ca62aa73c4a98a726eac",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-light.svg",
+      "sha256": "067b12f2c26a78ab78d0044973c343e73b71443516faf55fce3447265f660744",
+      "bytes": 5092,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-dark.svg",
+      "sha256": "7c9c1a1be9dfd43704d1c4ff558c91b350076211e5ee785657a7f8dfe0fe67d2",
+      "bytes": 5092,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "c3b668c75d7efc7cb717d06633fc54d84fc79cb60e3cedf2ef416c4c07379c82",
+    "learnerTask": "Separate prodrug activation, DNA/RNA metabolite effects and host clearance",
+    "gap": "No branched visual distinguishes drug activation from DPD breakdown",
+    "accuracyGuardrails": "Normal and tumor cells activate; DPYD not tumor sensitivity; no dose/testing directive derived from image",
+    "currentVisualFit": "adequate",
+    "reasoning": "The three panels distinguish compressed capecitabine activation, FdUMP-related DNA precursor limitation and FUTP RNA incorporation in normal AND tumor cells, then separate host DPD breakdown. The neighboring text identifies thymidylate synthase and correctly separates DPYD encoding of DPD from tumor sensitivity. The label supports both metabolites and the separate 5-FU catabolic pathway; tumor-to-adjacent-tissue ratios in that label do not establish exclusive tumor activation. The inherited FDA testing statement matches the currently retrieved safety update and is not a testing/dose instruction derived from this image. CREATE-X is confined to its postoperative HER2-negative residual-invasive-disease setting, without modern regimen-combination inference.",
+    "humanReview": "pending"
+  },
+  "frozenTask": {
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/342",
+    "originalTaskRowSHA256": "1f7e143d7c5c08f5781b261b4f3ba3e406d1c77271fef01c6b89f5f97a6bc5fa",
+    "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+        "sha256": "1570b7a08ebe3b4794d3973df6c9d92d08d6c939cc25ca62aa73c4a98a726eac",
+        "bytes": 7442
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-light.svg",
+        "sha256": "067b12f2c26a78ab78d0044973c343e73b71443516faf55fce3447265f660744",
+        "bytes": 5092
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-dark.svg",
+        "sha256": "7c9c1a1be9dfd43704d1c4ff558c91b350076211e5ee785657a7f8dfe0fe67d2",
+        "bytes": 5092
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/activation-metabolite-jobs-and-clearance-v1.txt",
+        "sha256": "737b91dcb648cb0eb7a011215b9c11c0371a8df0566a084fdc0c1e452847b1a6",
+        "bytes": 1217
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/activation-metabolite-jobs-and-clearance-v1-provenance.json",
+        "sha256": "fb19f467e0f42656af8a7cf3e580e58918131608c792b10f4adafe73d8290db7",
+        "bytes": 4613
+      }
+    ],
+    "originalEntireOwnerPreserved": true,
+    "authorManifestSHA256": "03de0707c0fb4487966808a2eb05d5727656fd3ba062be1f5266195361a438d8",
+    "originalBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "model": null,
+    "imageModelCalls": 0
+  },
+  "sourceReview": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/capecitabine",
+      "version": "Current official NCI entry retrieved October13,2026",
+      "readDepth": "Complete substantive mechanism entry read. Its selective-activation wording was bounded against the official label showing both normal/tumor cell active-metabolite production and a nonexclusive tissue-concentration range.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2"
+    },
+    {
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3e7d6317-1439-4976-ae00-6f62619ec3dd&type=display",
+      "version": "Capecitabine label revised January2026",
+      "readDepth": "Official highlights, boxed-warning/testing statement, indication boundaries, sections12.1 and selected12.3 metabolism/distribution read. Other dosing/protocol sections not fully read; no personal dosing or regimen decision reviewed.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine",
+      "version": "Current official FDA safety communication retrieved October13,2026",
+      "readDepth": "Complete substantive safety communication lines59–69 read: DPYD encodes DPD, complete/partial deficiency risk, current testing language and limits. No testing/dose directive created from artwork.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/",
+      "version": "Masuda2017 CREATE-X",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/28564564.json",
+        "sha256": "bd9daecd67ee57d0e7b5aa34322960dc3f97b416f8bcbdcc4d1b481c5f5940a5"
+      }
+    }
+  ],
+  "displayReview": {
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "actualPinFilesIndependentlyVerified": 87,
+    "freshOriginalPNGsPersonallyInspected": 10,
+    "captures": [
+      {
+        "path": "private/captures/next-gap-160-dark-desktop-default-preview.png",
+        "sha256": "50fbdc8206fce46afa757b935fa87b53e15915a7a3e86a997cec02f97cfd9eb5",
+        "bytes": 146118,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-dark-desktop-inline.png",
+        "sha256": "88f5f472b12983332ce65546b0a0f7026871b46c7e03dab662653e80e21c9fa6",
+        "bytes": 121698,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-dark-mobile-default-preview.png",
+        "sha256": "91ce64d2849cd5abae5999fa7fbd6fa90466d48064487c0acc7cb1b16bbe3d38",
+        "bytes": 80789,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-dark-mobile-inline.png",
+        "sha256": "8ba54c4e3832c6b48257a610cbd34b8837b077005a7faf49346a4630f7139178",
+        "bytes": 77879,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-dark-native.png",
+        "sha256": "dfcf8e879fa381c2f14cf2b4676e461a5c377f1629bacf9dc4b2c36f6e8dde36",
+        "bytes": 108898,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-light-desktop-default-preview.png",
+        "sha256": "e1281a120b7f489da6a554a7d497b6009ba18057241aad6d7caff9683b9f4ed4",
+        "bytes": 145593,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-light-desktop-inline.png",
+        "sha256": "967ee21abd588e07a160e99c83b2617c683bdea6f521b3ae57f9bdb98d8795fc",
+        "bytes": 119505,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-light-mobile-default-preview.png",
+        "sha256": "fd91a534dc31f1a7f5909362cff1a050b6480fc0ebaf748ffca167b7c8c0a08a",
+        "bytes": 80358,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-light-mobile-inline.png",
+        "sha256": "7d42e38dd78513a1f0d2a11321dfd29ce16592bcc79ac81084265fe9f460c8d9",
+        "bytes": 75408,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-160-light-native.png",
+        "sha256": "8ccc0b69dd0f4b518592a0541f4812809dc6f65e8c0c628a268618bc1e253bab",
+        "bytes": 106085,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Activation, two active-metabolite jobs and separate breakdown panels legible; normal/tumor and host-sensitivity limit visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      }
+    ],
+    "minMobileInlineLabelPx": 18.6125,
+    "minMobileDefaultPreviewLabelPx": 18.4,
+    "nativeWidth": 600,
+    "nativeHeight": 950,
+    "carrierLimits": "Private full education article with exact formatter/ImageTheater/Frame/SmartTableEnhancer and copied full shared/app CSS; three literal Tailwind hidden/dark theme utility rules. App header/sidebar/navigation, live data and physical device not represented.",
+    "labelAndArrowAssessment": "Clear and readable; no observed artwork text overlap or clipping. Ordinal panel numbers are ordering labels, not measured quantities."
+  },
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignmentAdoption": "pending",
+  "delivery": "pending",
+  "sourceFitCreditGrantedNow": 0,
+  "coverageCreditGrantedNow": 0,
+  "liveDeliveryCreditGrantedNow": 0
+}

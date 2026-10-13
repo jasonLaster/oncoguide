@@ -33,6 +33,10 @@ Think of a carrier bringing instructions to a cell's workshop. The carrier, inst
 
 Common lentiviral vectors package an RNA genome. After entry, **reverse transcription** makes DNA from the RNA. In an integrating design, the enzyme **integrase** helps insert vector DNA into the cell's chromosomes. An internal **promoter**, a sequence that controls transcription, can drive new RNA production from the inserted cassette; translation makes the encoded protein. This gene delivery is called **transduction**.
 
+<img src="./images/rna-dna-integration-and-expression-v1-light.svg" alt="Envelope-mediated entry leads to incoming RNA, a DNA copy, a chromosome insertion in an integrating design, and new RNA and protein." data-theme-pair="./images/rna-dna-integration-and-expression-v1-dark.svg" />
+
+*Entry, DNA formation, insertion and expression are separate steps. The actual vector design determines which routes are relevant.*
+
 The carrier's surface proteins influence entry. Changing the envelope, sometimes called **pseudotyping**, changes a delivery property; it does not change which antigen an encoded [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) recognizes. Cell identity, receptor expression and function each need measurement.
 
 Several design features are easy to confuse:

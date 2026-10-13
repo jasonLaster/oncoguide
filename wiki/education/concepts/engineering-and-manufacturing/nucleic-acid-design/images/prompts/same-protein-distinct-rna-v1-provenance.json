@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-provenance",
+  "author": "agent:/root/batch06_author_group1",
+  "integrationAuthor": "root",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+  "learnerTask": "See two synonymous codons map to one intended amino acid while RNA properties can differ.",
+  "constructedAtUTC": "2026-10-13T13:09:41.994267+00:00",
+  "medium": "original editable SVG code",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "referenceImages": [],
+  "sourceOfArtwork": "Author-drawn geometry and text; no traced or copied source figures.",
+  "codeSHA256": "c20915766c7d10a7b64667ee2c9eeeb4d5c7135161adfeacf9815c590fd145e6",
+  "prompt": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/same-protein-distinct-rna-v1.txt",
+    "sha256": "1c146173d7ee55c5af1177896826038e7efecdf1480b61e7503c888c1d67ff85"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-light.svg",
+      "sha256": "fad6db3b3597fe2834c4707f59fa879fbb918bfc980aa5db03faf7bbca54ab91",
+      "bytes": 3731,
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-dark.svg",
+      "sha256": "9d6f2fc3a1e6e4d299bd2c91d924f074337fb42bdfa9d069dcd6cd5212bede90",
+      "bytes": 3731,
+      "theme": "dark"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://elifesciences.org/articles/45396",
+      "label": "Wu et al., 2019: translation and codon-dependent RNA stability in human cells",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "31012849",
+      "title": "Translation affects mRNA stability in a codon-dependent manner in human cells.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review; selected retrieved PMC results/discussion excerpts (tool output was truncated; not complete paper review)",
+      "retrievedDateUTC": "2026-10-13T00:58:32.240807+00:00",
+      "accessFailure": "Initial web HTML returned client challenge, inaccessible redirect or empty PubMed HHS footer. NCBI E-utilities XML provided the primary abstract as recorded."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31712433/",
+      "label": "Mauger et al., 2019: RNA structure and functional message lifetime",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "31712433",
+      "title": "mRNA structure regulates protein expression through changes in functional half-life.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00",
+      "accessFailure": "Initial web HTML returned client challenge, inaccessible redirect or empty PubMed HHS footer. NCBI E-utilities XML provided the primary abstract as recorded."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG1",
+      "label": "NCBI standard genetic code",
+      "readDepth": "Standard-code table and T-for-U display convention, lines 42-49 and 9. GCT/GCC are alanine; RNA form GCU/GCC.",
+      "sourceVersion": "NCBI page last update September 23, 2024",
+      "readDateUTC": "2026-10-13",
+      "scope": "Toy two-codon identity only; no expression claim."
+    }
+  ],
+  "assumptions": "Schematic not to scale. Object counts, positions and clone descendants are illustrative; no risk, dose, time or population estimate. Fictional practice examples in the owner remain unchanged.",
+  "themeConsistency": "Same coordinates, labels, objects and relationships; palette changes only.",
+  "authorChecks": {
+    "nativeThemesInspected": [
+      "light",
+      "dark"
+    ],
+    "nativeMinimumTextFontPx": 32,
+    "pinnedReader": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileMinimumInlineLabelPx": 18.6125,
+    "mobileMinimumDefaultPreviewLabelPx": 18.4,
+    "personallyInspectedCaptureCount": 10,
+    "pageErrors": 0,
+    "keyboardEnterAndEscapeChecked": true,
+    "captionAndDescriptiveAltPresent": true,
+    "qualification": "Author mechanical and visual observations only; no scientific or pixel grade.",
+    "fixtureLimits": "Exact pinned rendering/components/shared app CSS in isolated full-width article. Excludes app navigation, auth and live deployment; not production verification."
+  },
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  }
+}

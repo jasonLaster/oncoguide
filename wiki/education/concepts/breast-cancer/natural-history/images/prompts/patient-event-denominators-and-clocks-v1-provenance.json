@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch06_author_group3",
+  "createdAtUTC": "2026-10-13T17:00:53.560297+00:00",
+  "method": "original code-authored SVG",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "owner": "wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk.md",
+  "task": "State the patient versus recurrence denominator and the starting clock before quoting a brain-event fraction.",
+  "fictionAndScope": "Fictional complete two-year follow-up from enrollment. Assumed: one dot per patient, 20 patients recur, five of those have brain involvement, no losses to follow-up. Raw fractions only, not competing-risk estimates or personal forecasts.",
+  "guardrails": [
+    "Use the complete-follow-up fictional example only.",
+    "Do not present raw fractions as competing-risk estimates.",
+    "No brain-site ranking, personal forecast or screening schedule."
+  ],
+  "sources": [
+    {
+      "label": "NCI: metastatic cancer",
+      "url": "https://www.cancer.gov/types/metastatic-cancer"
+    },
+    {
+      "label": "Lin et al., 2008",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2835546/"
+    },
+    {
+      "label": "Dawood et al., 2012 (PMID 22359359)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22359359/"
+    },
+    {
+      "label": "Martin et al., 2017 (PMID 28301662)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28301662/"
+    },
+    {
+      "label": "Lockman et al., 2010 (PMID 20829328)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20829328/"
+    }
+  ],
+  "sourceStatus": "Selected actual source reading for the visual addition; existing teaching source-check scope retained. No scientific approval implied.",
+  "assets": [
+    {
+      "file": "patient-event-denominators-and-clocks-v1-light.svg",
+      "sha256": "05d457569ada05885db0ea5687aaff7d1cfd2ede73acbd063a44905343529882"
+    },
+    {
+      "file": "patient-event-denominators-and-clocks-v1-dark.svg",
+      "sha256": "46afef295e6e1c3713f53707eacfa4cee5cbcbe8077cb92d297c7dc52cad46a9"
+    }
+  ],
+  "promptSHA256": "2c82e19eb9116766410f94bc02ee426d1653c3db51f59454ddde03538fd4e7b3",
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "scienceGrade": null,
+    "pixelGrade": null,
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0
+  },
+  "sourceReadAtUTC": "2026-10-13T17:03:35.928461+00:00",
+  "actualSourceBounds": [
+    {
+      "url": "https://www.cancer.gov/types/metastatic-cancer",
+      "readBounds": "NCI What is metastatic cancer and start of How cancer spreads; primary identity maintained",
+      "retrievedAtUTC": "2026-10-13T06:25:17.841560+00:00",
+      "failure": null,
+      "fallbackURL": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2835546/",
+      "readBounds": "Lin 2008: abstract plus Patients and Methods; historical cohort selection, follow-up and CNS definition; no personal risk extrapolation",
+      "retrievedAtUTC": "2026-10-13T06:25:18.154019+00:00",
+      "failure": null,
+      "fallbackURL": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22359359/",
+      "readBounds": "Dawood 2012: complete primary abstract via Europe PMC; stage I-III, first-recurrence scope; original owner prior full-methods check is retained, not claimed as current author reading",
+      "retrievedAtUTC": "2026-10-13T06:25:17.526372+00:00",
+      "failure": "HTTP 203 carrier was PubMed browser challenge; primary abstract read from Europe PMC fallback",
+      "fallbackURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22359359%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28301662/",
+      "readBounds": "Martin 2017: complete primary abstract via Europe PMC; diagnosis-time ascertainment/population, not future risk",
+      "retrievedAtUTC": "2026-10-13T06:25:17.685461+00:00",
+      "failure": "HTTP 203 carrier was PubMed browser challenge; primary abstract read from Europe PMC fallback",
+      "fallbackURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28301662%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20829328/",
+      "readBounds": "Lockman 2010: complete primary abstract via Europe PMC; mouse models and permeability heterogeneity, not clinical drug-selection evidence",
+      "retrievedAtUTC": "2026-10-13T06:25:17.841476+00:00",
+      "failure": "HTTP 203 carrier was PubMed browser challenge; primary abstract read from Europe PMC fallback",
+      "fallbackURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20829328%20AND%20SRC:MED&format=json&resultType=core"
+    }
+  ],
+  "codeGeneratorSHA256": "82af9cc5503eebed50bfb602558b6e273d86fce43474bc702a32f2c3e6e737f3",
+  "displayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      {
+        "width": 393,
+        "height": 700
+      },
+      {
+        "width": 1440,
+        "height": 1000
+      }
+    ],
+    "minimumNativeLabelPx": 32,
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "carrierLimits": "Isolated education article using exact pinned renderer, theater, table enhancer and complete CSS; excludes live navigation/header/sidebar and external app data.",
+    "scienceApproval": null,
+    "humanReview": "pending"
+  }
+}

@@ -37,14 +37,9 @@ RNA also folds through pairing within the strand. **Location matters.** Structur
 
 The phrase “optimized” should name an objective and tested context: protein output over time, RNA persistence, manufacturing behavior or another defined outcome. Prediction remains a design proposal until measured. [Nucleoside chemistry](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides), cap, untranslated regions (UTRs) and delivery can also affect the result.
 
-```mermaid
-%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
-flowchart TD
-  A[Synonymous sequence] --> B[RNA handling]
-  B --> C[Protein output]
-```
+<img src="./images/same-protein-distinct-rna-v1-light.svg" alt="Two RNA codons, GCU and GCC, both point to alanine; a second layer shows that RNA sequence and folding can differ." data-theme-pair="./images/same-protein-distinct-rna-v1-dark.svg" />
 
-*The protein plan is retained; the RNA's measured behavior may change. “Optimized” does not predict the direction in every cell.*
+*Both toy codons specify alanine. Retaining that intended amino acid does not retain every RNA property or establish better expression.*
 
 ## Why it matters in cancer
 

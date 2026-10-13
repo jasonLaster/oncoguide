@@ -48,6 +48,16 @@ The supplier must agree to provide product and appropriate supporting informatio
 
 ### Name the clock and its starting event
 
+<img src="./images/existing-ind-protocol-and-new-ind-clock-v1-light.svg" alt="Non-emergency new individual IND versus individual protocol under an existing active IND. FDA receipt starts the new IND clock; readiness gates remain separate." data-theme-pair="./images/existing-ind-protocol-and-new-ind-clock-v1-dark.svg" />
+
+*Name the submission and starting event before reading a wait period; permission alone does not set a treatment date.*
+
+Follow each route from its own submission. The new-IND clock starts at FDA receipt, not supplier contact. The protocol route has no automatic 30-day wait, but submission, applicable institutional review board approval and consent still matter. A clinical hold can prevent use. The emergency and widespread-use exceptions remain in the timing table below.
+
+*Visual scope: U.S. drug/biologic rules, April 2026 FDA guidance; diagram covers non-emergency individual-patient routes only.*
+
+
+
 The April 2026 FDA guidance distinguishes these routes. The time rules below concern U.S. drugs and biologics, not the full preparation schedule.
 
 | Submission or circumstance | Rule and remaining gates |
@@ -94,6 +104,8 @@ Two fictional non-emergency requests are prepared. A physician submits a new ind
 - [Drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use)
 
 ## Sources and scope
+
+Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 U.S. source check: October 10, 2026. Fictional exercise; general drug/biologic education, not an individual legal or clinical determination. Expert and learner review pending.
 

@@ -32,6 +32,12 @@ The analogy has a limit: chemical reactions can fail or create unwanted products
 
 ## How it works
 
+<img src="./images/resin-protection-coupling-and-release-v1-light.svg" alt="The same resin-bound peptide stays tethered during terminal protection removal, protected amino-acid coupling and washing. A return arrow repeats the cycle before cleavage from resin and separate purification, identity, quality and release checks." data-theme-pair />
+
+*The resin holds the chain through repeated cycles; cleavage, purification and final product release come afterward.*
+
+The orange resin bead remains at the right of all three cycle panels. Small teal beads are amino-acid units, and the orange block is temporary terminal protection. The open end accepts the next protected unit. Washes remove soluble material while the tether remains. The drawing compresses chemistry; it does not show reagents, guarantee complete coupling or define release criteria.
+
 **Anchor and protect.** In a conventional approach, the starting amino acid is attached through its carboxyl end to the resin. Temporary protecting groups keep selected reactive sites from joining at the wrong time.
 
 **Repeat the cycle.** Remove the growing chain's terminal protection, couple the next protected amino acid and wash away soluble reagents. Repeat to extend the chain toward its amino end. Flow and batch instruments can implement this same broad strategy. [Primary neoantigen-peptide synthesis methods](https://www.nature.com/articles/s41598-019-56943-5)

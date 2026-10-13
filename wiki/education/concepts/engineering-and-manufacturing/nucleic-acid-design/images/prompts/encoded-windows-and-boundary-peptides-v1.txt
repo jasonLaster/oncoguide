@@ -1,0 +1,9 @@
+Original illustration brief — Multi-epitope constructs
+Author: agent:/root/batch06_author_group1
+Learner task: See encoded windows, spacers and a peptide crossing their boundary, distinct from recovered HLA display.
+Draw original code-authored SVGs at 600 × 1000, paired light and dark. Keep geometry and words identical. Use high-contrast ink, blue RNA/vector DNA, warm orange for alternative material/inserts where the specific diagram labels its role, and explicit object/compartment labels. All labels at least 32 SVG pixels; verify actual mobile inline and default-preview effective sizes.
+Scene: Encoded window A, a spacer and window B create a boundary-spanning candidate peptide, separated from measured HLA display and later function.
+Takeaway: A peptide can cross an encoded boundary. Its presence in the design is not evidence of recovered HLA display, recognition or tumor-cell function.
+Guardrails: Mark encoded windows, spacers and junction-spanning peptides as potential processing products. Prediction or an encoded sequence is not recovered HLA presentation, receptor recognition or tumor-cell function.
+Schematic, not to scale. Counts/positions are illustrative rather than empirical frequencies. No patient, dosing, protocol, risk percentage or clinical prediction. Preserve ambiguity and show no guaranteed outcome.
+Construction: editable SVG code written by the named author. No image-model generation requested or used (model=null, image calls=0).

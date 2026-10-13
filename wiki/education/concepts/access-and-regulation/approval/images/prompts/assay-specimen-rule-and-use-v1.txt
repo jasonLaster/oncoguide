@@ -1,0 +1,8 @@
+Original visual brief, authored 2026-10-13T17:00:53.560297+00:00
+Author: agent:/root/batch06_author_group3
+
+Keep assay, specimen, result rule and corresponding treatment paired.
+Four linked intended-use fields for fictional Drug A; a blood expression research result names the same gene but does not match.
+Drug A, gene M, and assay T are fictional; no real product pair or cutoff is asserted.
+Guardrails: "Pair the exact assay, specimen, result rule and corresponding treatment/use. A same-gene research result or different analyte cannot be substituted for a label-defined companion diagnostic."
+Design: original code SVG, paired light/dark palette, 600×900 viewBox, essential labels 32px or larger; read top-to-bottom; literal population and scope labels. No image generation.

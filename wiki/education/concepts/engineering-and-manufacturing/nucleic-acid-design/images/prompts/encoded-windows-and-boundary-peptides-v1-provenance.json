@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-provenance",
+  "author": "agent:/root/batch06_author_group1",
+  "integrationAuthor": "root",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+  "learnerTask": "See encoded windows, spacers and a peptide crossing their boundary, distinct from recovered HLA display.",
+  "constructedAtUTC": "2026-10-13T13:09:41.994267+00:00",
+  "medium": "original editable SVG code",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "referenceImages": [],
+  "sourceOfArtwork": "Author-drawn geometry and text; no traced or copied source figures.",
+  "codeSHA256": "c20915766c7d10a7b64667ee2c9eeeb4d5c7135161adfeacf9815c590fd145e6",
+  "prompt": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/encoded-windows-and-boundary-peptides-v1.txt",
+    "sha256": "b83464d5c95ad8d1159759ee9a90d31687c379289752ce538e05dad277c87179"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-light.svg",
+      "sha256": "cc68635ad1262e5912c2f4ce145ca9eb45d9d7f5c8f299d7335a43d9718fbc3e",
+      "bytes": 4392,
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-dark.svg",
+      "sha256": "e88829268b4edf89d4e9d74c8efe3809523105fd8b4a02fe756f9547671d4183",
+      "bytes": 4392,
+      "theme": "dark"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://doi.org/10.1186/s13073-016-0263-6",
+      "label": "Schubert and Kohlbacher, 2016: computational spacer design for class-I-restricted sequences",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "26813686",
+      "title": "Designing string-of-beads vaccines with optimal spacers.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review; selected retrieved PMC results/discussion excerpts (tool output was truncated; not complete paper review)",
+      "retrievedDateUTC": "2026-10-13T00:58:34.528772+00:00",
+      "accessFailure": "Initial web HTML returned client challenge, inaccessible redirect or empty PubMed HHS footer. NCBI E-utilities XML provided the primary abstract as recorded."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18097032/",
+      "label": "Kreiter et al., 2008: combined trafficking features in human/mouse dendritic-cell models",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "18097032",
+      "title": "Increased antigen presentation efficiency by coupling antigens to MHC class I trafficking signals.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28678784/",
+      "label": "Sahin et al., 2017: primary personalized multi-target RNA vaccination in melanoma",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "28678784",
+      "title": "Personalized RNA mutanome vaccines mobilize poly-specific therapeutic immunity against cancer.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-023-06063-y",
+      "label": "Rojas et al., 2023: a primary two-strand RNA-vaccine manufacturing example",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "37165196",
+      "title": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+      "readDepth": "Primary abstract plus PMC full-text manufacturing paragraph specifying two uridine-based mRNA strands; selected results; no full-paper review claimed.",
+      "retrievedDateUTC": "2026-10-13T01:02:14.300694+00:00"
+    }
+  ],
+  "assumptions": "Schematic not to scale. Object counts, positions and clone descendants are illustrative; no risk, dose, time or population estimate. Fictional practice examples in the owner remain unchanged.",
+  "themeConsistency": "Same coordinates, labels, objects and relationships; palette changes only.",
+  "authorChecks": {
+    "nativeThemesInspected": [
+      "light",
+      "dark"
+    ],
+    "nativeMinimumTextFontPx": 32,
+    "pinnedReader": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileMinimumInlineLabelPx": 18.6125,
+    "mobileMinimumDefaultPreviewLabelPx": 18.4,
+    "personallyInspectedCaptureCount": 10,
+    "pageErrors": 0,
+    "keyboardEnterAndEscapeChecked": true,
+    "captionAndDescriptiveAltPresent": true,
+    "qualification": "Author mechanical and visual observations only; no scientific or pixel grade.",
+    "fixtureLimits": "Exact pinned rendering/components/shared app CSS in isolated full-width article. Excludes app navigation, auth and live deployment; not production verification."
+  },
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  }
+}

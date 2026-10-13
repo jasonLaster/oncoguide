@@ -31,6 +31,12 @@ The analogy describes an enzyme–DNA interaction, not a complete account of the
 
 ## How it works
 
+<img src="./images/transient-cut-and-stabilized-cleavage-v1-light.svg" alt="The normal topoisomerase II cycle shows two DNA strands cut while enzyme holds their ends, passage and resealing. Doxorubicin is shown at a stabilized enzyme-DNA cleavage complex, alongside other mechanisms." data-theme-pair />
+
+*Doxorubicin can hold an enzyme-associated DNA cut in a damaging intermediate; it does more than switch the enzyme off.*
+
+The two teal lines are DNA strands, and the surrounding shape is topoisomerase II. The upper sequence returns to joined strands after a temporary enzyme-held cut. The lower scene holds the cut stage in a drug-stabilized complex. This is one mechanism: intercalation and reactive molecules also matter. The drawing predicts neither benefit nor heart injury for an individual.
+
 Doxorubicin and epirubicin are members of this [chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) family. Doxorubicin is a useful example, rather than a substitute for every product's evidence.
 
 [DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/genetics/central-dogma) must be managed as it is copied and used. **Topoisomerase II** is an enzyme that temporarily cuts both DNA strands, passes another DNA segment through the opening and reseals the cut. This helps resolve twisting and tangling.

@@ -1,0 +1,8 @@
+Original visual brief, authored 2026-10-13T17:00:53.560297+00:00
+Author: agent:/root/batch06_author_group3
+
+State the patient versus recurrence denominator and the starting clock before quoting a brain-event fraction.
+Fictional group of 100 enrolled patients followed completely for two years from enrollment. Twenty recur, and five of those have brain involvement. Nested dot categories show five among twenty and five among one hundred.
+Fictional complete two-year follow-up from enrollment. Assumed: one dot per patient, 20 patients recur, five of those have brain involvement, no losses to follow-up. Raw fractions only, not competing-risk estimates or personal forecasts.
+Guardrails: ["Use the complete-follow-up fictional example only.", "Do not present raw fractions as competing-risk estimates.", "No brain-site ranking, personal forecast or screening schedule."]
+Design: original code SVG, paired light/dark palette, 600×900 viewBox, essential labels 32px or larger; read top-to-bottom; literal population and scope labels. No image generation.

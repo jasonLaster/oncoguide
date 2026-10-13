@@ -33,6 +33,16 @@ The analogy stops at clinical judgment. A trial's score does not supply a person
 
 ## How it works
 
+<img src="./images/whole-perioperative-strategy-v1-light.svg" alt="Previously untreated stage II–III TNBC trial strategy: paclitaxel/carboplatin, anthracycline/cyclophosphamide, surgery, postoperative assigned immune treatment. Pembrolizumab versus placebo assignment spans preoperative and postoperative phases." data-theme-pair="./images/whole-perioperative-strategy-v1-dark.svg" />
+
+*Randomization compared the whole perioperative strategy; it did not separately randomize the postoperative component.*
+
+Read from top to bottom across the surgery boundary. Both trial arms used chemotherapy before surgery; the assigned pembrolizumab or placebo continued across the preoperative and postoperative phases. The whole mapped strategy is the randomized comparison. Its outcome cannot isolate the postoperative component’s contribution, and the planned map does not show an individual’s completed delivery.
+
+*Visual scope: Historical trial structure for previously untreated stage II–III TNBC. No dose, interval, appointment calendar or delivery claim. Pembrolizumab arm contrasted with placebo arm, not separate postoperative randomization.*
+
+
+
 **KEYNOTE-522** names the randomized trial as well as the treatment strategy commonly associated with it. It studied previously untreated stage II–III [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). The combination's setting matters; it is not a universal plan for every tumor with a triple-negative receptor classification.
 
 The original sequence had four broad parts:
@@ -92,6 +102,8 @@ A fictional record says “KEYNOTE-522-like therapy,” but one medicine was hel
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
 
 ## Sources and scope
+
+Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 Source-checked October 10, 2026. General regimen education; the practice record is fictional. Expert and learner review remain pending. Current clinical eligibility, numerical outcome estimates and treatment decisions require their own evidence and assessment.
 

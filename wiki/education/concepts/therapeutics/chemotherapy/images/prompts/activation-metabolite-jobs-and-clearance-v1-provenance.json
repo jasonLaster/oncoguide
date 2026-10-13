@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "kind": "Original code-drawn educational SVG pair",
+  "receipt": {
+    "author": "agent:/root/batch06_author_group2",
+    "role": "creative content and artwork author",
+    "createdAtUTC": "2026-10-13T17:02:45.548761+00:00"
+  },
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+  "learnerTask": "Separate prodrug activation, DNA/RNA metabolite effects and host clearance",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourcePreimageSHA256": "c3b668c75d7efc7cb717d06633fc54d84fc79cb60e3cedf2ef416c4c07379c82",
+  "generation": {
+    "method": "Original Python code writes SVG primitives; typography/shapes/colors composed by named author",
+    "model": null,
+    "imageModelCalls": 0,
+    "codeSHA256": "899edaafe07c8a1e1d61f9613b4d72aa55909082f8d71ba4d6f8dd5f8b0b31c2",
+    "originalBrief": "activation-metabolite-jobs-and-clearance-v1.txt",
+    "originalBriefSHA256": "737b91dcb648cb0eb7a011215b9c11c0371a8df0566a084fdc0c1e452847b1a6"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-light.svg",
+      "sha256": "067b12f2c26a78ab78d0044973c343e73b71443516faf55fce3447265f660744",
+      "bytes": 5092,
+      "theme": "light",
+      "width": 600,
+      "height": 950
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-dark.svg",
+      "sha256": "7c9c1a1be9dfd43704d1c4ff558c91b350076211e5ee785657a7f8dfe0fe67d2",
+      "bytes": 5092,
+      "theme": "dark",
+      "width": 600,
+      "height": 950
+    }
+  ],
+  "scientificScope": "Normal and tumor cells activate; DPYD not tumor sensitivity; no dose/testing directive derived from image",
+  "sourcesRead": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/capecitabine",
+      "readDepth": "Complete official mechanism dictionary entry read in web reader; navigation excluded.",
+      "version": "Current retrieved NCIentryOctober13UTC2026",
+      "failure": "DirectHTML did not supply entry; web reader did.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3e7d6317-1439-4976-ae00-6f62619ec3dd&type=display",
+      "readDepth": "Selected official labelsections2.1,12.1,12.3 read; DPD/DPYD boxed-warning and FDAupdate cross-checked. FullHTML retrieved but no full dosing/practice review claimed.",
+      "version": "LabelrevisedJanuary2026",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine",
+      "readDepth": "Complete substantive official safety update read; current testing-language checked only as inherited education claim, no new testing/dose directive in artwork.",
+      "version": "FDAcontentcurrentasofFebruary5,2026; retrievedOctober13UTC2026",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/",
+      "readDepth": "Complete primary CREATE-X abstract read from exact PMID EuropePMC core record; full protocol/methods not read.",
+      "version": "Masuda2017CREATE-X",
+      "failure": "DirectPubMed challenge203; recovered abstract.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    }
+  ],
+  "assumptions": [
+    "Schematic mechanism; objects not atomic structures and drawings not to biological scale.",
+    "No new quantitative study result, dosage, risk estimate or universal cutoff; original fictional practice and citations preserved."
+  ],
+  "authorDisplayChecks": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "smallestMobileInlineLabelPx": 18.6125,
+    "smallestMobileDefaultPreviewLabelPx": 18.4,
+    "minTextContrastRatio": 7.135,
+    "carrier": "Private copied actual server formatter, ImageTheater, WikiMarkdownFrame, SmartTableEnhancer and CSS; full education article. Actual live site/navigation/browser chrome and physical device not claimed.",
+    "personalInspection": "Original native and inline/default-preview PNGs in both themes; 393×700 and1440×1000 CSSviewports; author inspection only."
+  },
+  "status": {
+    "independentReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "liveDelivery": "not performed"
+  }
+}

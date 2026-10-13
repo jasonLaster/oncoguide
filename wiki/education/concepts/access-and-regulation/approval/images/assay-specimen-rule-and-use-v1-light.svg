@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Keep the whole diagnostic match</title><desc id="desc">Four linked intended-use fields for fictional Drug A; a blood expression research result names the same gene but does not match.</desc><rect width="600" height="900" rx="20" fill="#f6f8fb"/>
+<text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#153044">Keep the whole</text>
+<text x="28" y="91" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#153044">diagnostic match</text>
+<text x="28" y="145" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#3d5970">Fictional intended-use card</text>
+<rect x="28" y="175" width="544" height="110" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="215" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Assay T</text>
+<text x="48" y="255" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Defined alteration method</text>
+<path d="M300 288v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<rect x="28" y="305" width="544" height="110" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="345" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Tumor tissue</text>
+<text x="48" y="385" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Required specimen context</text>
+<path d="M300 418v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<rect x="28" y="435" width="544" height="110" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="475" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Result rule</text>
+<text x="48" y="515" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Qualifying M alteration</text>
+<path d="M300 548v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<rect x="28" y="565" width="544" height="110" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="605" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Drug A use</text>
+<text x="48" y="645" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Specified disease + setting</text>
+<path d="M300 678v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<rect x="28" y="710" width="544" height="162" rx="16" fill="#fff0db" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="750" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#8b4900">Same gene ≠ same result</text>
+<text x="48" y="790" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Research blood expression</text>
+<text x="48" y="829" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">does not meet this match.</text>
+</svg>

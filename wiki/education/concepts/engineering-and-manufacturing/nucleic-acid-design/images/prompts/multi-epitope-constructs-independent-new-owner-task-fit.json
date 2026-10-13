@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-151",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+  "author": "agent:/root/batch06_author_group1",
+  "creativeAuthor": "agent:/root/batch06_author_group1",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/batch06_review_group1",
+  "independentReviewer": "agent:/root/batch06_review_group1",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T17:15:09.062Z",
+  "passedAtUTC": "2026-10-13T17:15:09.062Z",
+  "currentOwnerSha256": "3e01bc1c60ffff921c8a360840de79dc08a43991e576fb176948ec253002effb",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "A fictional continuous encoded protein contains A, an encoded spacer and B. A bracket across the A/spacer boundary maps to a matching two-color potential peptide; subsequent processing/HLA evidence gates are dashed and never certified. Schubert primary abstract supports junction/spacer relevance; Kreiter supports combined trafficking features in its models; Rojas manufacturing body paragraph 37 confirms two RNA strands. Encoded sequence, recovered display, recognition and tumor-cell function stay separate.",
+    "baselinePageSHA256": "4d2bdf87fb0e7378477f1f1aaf793f6e8d9b2adbe159f4e09eccd88f72370752",
+    "frozenBaselinePageSHA256": "4d2bdf87fb0e7378477f1f1aaf793f6e8d9b2adbe159f4e09eccd88f72370752",
+    "learnerTask": "See encoded windows, spacers and a peptide crossing their boundary, distinct from recovered HLA display.",
+    "gap": "Generic processing gate map does not show the junction that motivates construct-specific testing.",
+    "accuracyGuardrails": "Mark encoded windows, spacers and junction-spanning peptides as potential processing products. Prediction or an encoded sequence is not recovered HLA presentation, receptor recognition or tumor-cell function."
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/157",
+  "frozenRowSHA256": "7a1e190af347895d780d6bac0bbd4ae1f8e1990228a004d2c530f373c5d84768",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-light.svg",
+      "sha256": "cc68635ad1262e5912c2f4ce145ca9eb45d9d7f5c8f299d7335a43d9718fbc3e",
+      "bytes": 4392,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-dark.svg",
+      "sha256": "e88829268b4edf89d4e9d74c8efe3809523105fd8b4a02fe756f9547671d4183",
+      "bytes": 4392,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+        "sha256": "3e01bc1c60ffff921c8a360840de79dc08a43991e576fb176948ec253002effb",
+        "bytes": 8505
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-light.svg",
+        "sha256": "cc68635ad1262e5912c2f4ce145ca9eb45d9d7f5c8f299d7335a43d9718fbc3e",
+        "bytes": 4392
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-dark.svg",
+        "sha256": "e88829268b4edf89d4e9d74c8efe3809523105fd8b4a02fe756f9547671d4183",
+        "bytes": 4392
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/encoded-windows-and-boundary-peptides-v1.txt",
+        "sha256": "b83464d5c95ad8d1159759ee9a90d31687c379289752ce538e05dad277c87179",
+        "bytes": 1473
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/encoded-windows-and-boundary-peptides-v1-provenance.json",
+        "sha256": "bc077b138d62002654a040fee064ae7934e62578d7256759e40592596089587a",
+        "bytes": 6217
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewVerdict": "REVISE",
+    "wholePackageReviewedAtUTC": "2026-10-13T17:04:24.153Z",
+    "wholePackageReviewSHA256": "9f96bd41f031f0a90aa92835d29e6509ec8275b1ef30991c680eb10fda9918f2",
+    "wholeReviewSealSHA256": "5bab81b957329a4c358c090504dc5703865305edb1d231dec8c19b7f62569781",
+    "originalAuthorHandoffSHA256": "066245d2df6ede32b2eaec59b18daf982a2c09a449c39459717ecca1ead3e156",
+    "originalAuthorSealSHA256": "03ef6f00f7314f6f098c4d7c44980b50c7cf85149c35ca88f8e8f494e5788979",
+    "correctionAddendumSHA256": "6ae162fe86dd55c80a376445d05c168eaa6440cf4e7e9fc6faa393841ce1c93b",
+    "correctionAddendumReviewedAtUTC": "2026-10-13T17:15:09.062Z",
+    "finalAuthorHandoffSHA256": "367062e45403c1fc4117c057bf209495ab28d53e35abb1b3004cee18cce13e1a",
+    "finalAuthorSealSHA256": "a430d0e681d2e6910193d73ac728f3a496d197362928b6e3f734b9de8392def7",
+    "basis": "Genuine independent whole scientific/math/native/task-fit review plus same-reviewer correction-only addendum, bound to final bytes. Not derived from author pixel certification.",
+    "originalSourceReadingReceiptSHA256": "93271b2c10a8ebeb9e28e0e9eb20ca76d28278d6f8e191959215c7178805f6c3",
+    "sourceReadDepth": "Inherited actual original review: 22 complete returned primary abstracts, selected manufacturing/fulltext/official passages; preserved browser/reCAPTCHA access failures for textbook/PMC. No full-paper/full-guidance/human approval. No new source read for literal correction.",
+    "originalPersonalCaptureCount": 70,
+    "focusedCorrectedPersonalCaptureCount": 0,
+    "otherSixNativeJudgmentsInherited": true
+  },
+  "sourceURLs": [
+    "https://doi.org/10.1186/s13073-016-0263-6",
+    "https://pubmed.ncbi.nlm.nih.gov/18097032/",
+    "https://pubmed.ncbi.nlm.nih.gov/28678784/",
+    "https://www.nature.com/articles/s41586-023-06063-y"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical167Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "scienceGrade": null,
+  "pixelGrade": null,
+  "sourceFitCredit": 0,
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

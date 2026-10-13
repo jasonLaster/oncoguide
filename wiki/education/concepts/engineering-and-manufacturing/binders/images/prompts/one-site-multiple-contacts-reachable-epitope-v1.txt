@@ -1,0 +1,8 @@
+ORIGINAL ART BRIEF
+Author: agent:/root/batch06_author_group2
+Task: Distinguish single-site affinity, multiple-contact avidity and a reachable epitope.
+
+Draw three physically distinct scenes: one contact for single-site affinity, a connected bivalent molecule engaging nearby membrane targets for avidity, and a binder blocked from a native epitope by folding or neighboring material. Label assay conditions and spacing, show no optimal affinity or clinical outcome.
+
+Style: original code-drawn molecular cartoon, 600×950, vertically ordered mechanism panels, warm light theme and deep navy dark theme; identical layout/labels/objects in both. Essential labels ≥32 native pixels. Teal recognition/chain, orange chemical/site emphasis, explicit direction arrows and text. Spatial shapes are schematic, not atomic structures or scale measurements. No study quantities, individual case, treatment recommendation or universal cutoff. No image-model calls.
+Guard: Separate single-site affinity, multivalent avidity and native epitope accessibility. Stronger binding in one assay does not prove better delivery, specificity, developability or clinical benefit.

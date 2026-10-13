@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch06_author_group3",
+  "createdAtUTC": "2026-10-13T17:00:53.560297+00:00",
+  "method": "original code-authored SVG",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "owner": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+  "task": "Keep assay, specimen, result rule and corresponding treatment paired.",
+  "fictionAndScope": "Drug A, gene M, and assay T are fictional; no real product pair or cutoff is asserted.",
+  "guardrails": "Pair the exact assay, specimen, result rule and corresponding treatment/use. A same-gene research result or different analyte cannot be substituted for a label-defined companion diagnostic.",
+  "sources": [
+    {
+      "label": "FDA: companion diagnostics",
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+    },
+    {
+      "label": "FDA: authorized companion devices",
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+    },
+    {
+      "label": "FDA: in vitro companion diagnostics, August 2014 final guidance",
+      "url": "https://www.fda.gov/media/81309/download"
+    },
+    {
+      "label": "FDA: oncology group labeling, April 2020 final guidance",
+      "url": "https://www.fda.gov/media/120340/download"
+    }
+  ],
+  "sourceStatus": "Selected actual source reading for the visual addition; existing teaching source-check scope retained. No scientific approval implied.",
+  "assets": [
+    {
+      "file": "assay-specimen-rule-and-use-v1-light.svg",
+      "sha256": "e1eed75db09f7d9cdb470b015754c8a01306cb0188fff5b7d7f27c1fc0b3b08f"
+    },
+    {
+      "file": "assay-specimen-rule-and-use-v1-dark.svg",
+      "sha256": "bffdfa78f58472c0e4ada44499a5591144386060a922163124fb6b6775482bc1"
+    }
+  ],
+  "promptSHA256": "615b2aeb9badead724aa4c50ff8153fe4afe3f1bd42954467ccac24e524584e3",
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "scienceGrade": null,
+    "pixelGrade": null,
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0
+  },
+  "sourceReadAtUTC": "2026-10-13T17:03:35.928461+00:00",
+  "actualSourceBounds": [
+    {
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+      "readBounds": "FDA definition and purposes, overview body",
+      "retrievedAtUTC": "2026-10-13T06:25:17.058212+00:00",
+      "failure": null,
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "readBounds": "Retrieved authorized-device list; not independently evaluated each product row or label",
+      "retrievedAtUTC": "2026-10-13T06:25:17.380929+00:00",
+      "failure": null,
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.fda.gov/media/81309/download",
+      "readBounds": "August 2014 final guidance: section V, both-label intended-use limits; selected extracted lines 500-538",
+      "retrievedAtUTC": "2026-10-13T06:25:17.406599+00:00",
+      "failure": null,
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.fda.gov/media/120340/download",
+      "readBounds": "April 2020 final guidance: selected section II/III, extracted lines 232-281; same target, cutoffs and broader labeling limits",
+      "retrievedAtUTC": "2026-10-13T06:25:17.703593+00:00",
+      "failure": null,
+      "fallbackURL": null
+    }
+  ],
+  "codeGeneratorSHA256": "82af9cc5503eebed50bfb602558b6e273d86fce43474bc702a32f2c3e6e737f3",
+  "displayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      {
+        "width": 393,
+        "height": 700
+      },
+      {
+        "width": 1440,
+        "height": 1000
+      }
+    ],
+    "minimumNativeLabelPx": 32,
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "carrierLimits": "Isolated education article using exact pinned renderer, theater, table enhancer and complete CSS; excludes live navigation/header/sidebar and external app data.",
+    "scienceApproval": null,
+    "humanReview": "pending"
+  }
+}

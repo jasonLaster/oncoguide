@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">KEYNOTE-522: one whole comparison</title><desc id="desc">Previously untreated stage II–III TNBC trial strategy: paclitaxel/carboplatin, anthracycline/cyclophosphamide, surgery, postoperative assigned immune treatment. Pembrolizumab versus placebo assignment spans preoperative and postoperative phases.</desc><rect width="600" height="900" rx="20" fill="#f6f8fb"/>
+<text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#153044">KEYNOTE-522:</text>
+<text x="28" y="91" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#153044">one whole comparison</text>
+<text x="28" y="145" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#3d5970">Previously untreated</text>
+<text x="28" y="184" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#3d5970">stage II–III TNBC</text>
+<rect x="28" y="225" width="544" height="156" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="265" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Before surgery: block 1</text>
+<text x="48" y="305" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Paclitaxel + carboplatin</text>
+<text x="48" y="344" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Pembrolizumab vs placebo</text>
+<path d="M300 385v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<rect x="28" y="410" width="544" height="156" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="450" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Before surgery: block 2</text>
+<text x="48" y="490" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Anthracycline + cyclophosphamide</text>
+<text x="48" y="529" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Pembrolizumab vs placebo</text>
+<path d="M300 570v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<rect x="28" y="595" width="544" height="110" rx="16" fill="#e0f3ee" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="635" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Surgery</text>
+<text x="48" y="675" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Local treatment + tissue check</text>
+<path d="M300 709v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<rect x="28" y="730" width="544" height="110" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="770" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">After surgery</text>
+<text x="48" y="810" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Pembrolizumab vs placebo</text>
+<text x="28" y="883" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#3d5970">Assignment spans both phases.</text>
+</svg>

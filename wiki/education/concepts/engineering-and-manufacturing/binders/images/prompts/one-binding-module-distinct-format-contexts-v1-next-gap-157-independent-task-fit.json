@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-157",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md",
+  "author": "agent:/root/batch06_author_group2",
+  "creativeAuthor": "agent:/root/batch06_author_group2",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/batch06_review_group2",
+  "independentReviewer": "agent:/root/batch06_review_group2",
+  "reviewedAtUTC": "2026-10-13T17:21:55.000Z",
+  "timePrecision": "UTC clock tool whole seconds, zero-filled three fractional digits",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "2d51bc89926533de2f3a70c6091820b580eb14684551e803926cd5d8490db874",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-light.svg",
+      "sha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c",
+      "bytes": 14906,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-dark.svg",
+      "sha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f",
+      "bytes": 14906,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "f0fa9ab1a543e60f44d53fdfaffe8aa9b8c106395cb301ffe9b793a05ef1cdd6",
+    "learnerTask": "See why the same binding module changes its contact and signaling context in a soluble format versus a membrane CAR.",
+    "gap": "The format table names differences but leaves contact geometry and antigen-independent clustering entirely verbal.",
+    "accuracyGuardrails": "Keep the same recognition module while changing format, geometry and signaling context. Do not infer that one architecture or affinity is universally safer, more active or more effective.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The teal recognition shape and orange target remain consistent across a soluble assembly and a membrane CAR. The soluble scene has one target membrane and no intracellular receptor signal tail; the CAR scene has two opposing surfaces and a continuous binder-to-spacer-to-membrane-to-internal-tail connection. The body explains the spacer and identifies signaling as intracellular. This is a schematic format contrast, not an intact IgG/domain architecture claim or architectural ranking. Product-specific stability, expression, contact geometry and clustering tests remain separate, and affinity alone does not establish safety or activity.",
+    "humanReview": "pending"
+  },
+  "frozenTask": {
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/126",
+    "originalTaskRowSHA256": "b917c9a15506fcd97aac011661a05cd4a39147696848faa0385aa9567c71b613",
+    "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md",
+        "sha256": "2d51bc89926533de2f3a70c6091820b580eb14684551e803926cd5d8490db874",
+        "bytes": 8723
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-light.svg",
+        "sha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c",
+        "bytes": 14906
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-dark.svg",
+        "sha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f",
+        "bytes": 14906
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/one-binding-module-distinct-format-contexts-v1.txt",
+        "sha256": "21e0781d40fbab8950c2752ad272a09077a6ef365b8f2197e37a24d7cc7f004b",
+        "bytes": 1265
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/one-binding-module-distinct-format-contexts-v1-provenance.json",
+        "sha256": "c7fca1ce8d86c7ee24fa034f3f94fdd4b3dd3e1a4f660dbde413f66e2acefb6a",
+        "bytes": 4552
+      }
+    ],
+    "originalEntireOwnerPreserved": true,
+    "authorManifestSHA256": "03de0707c0fb4487966808a2eb05d5727656fd3ba062be1f5266195361a438d8",
+    "originalBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "model": null,
+    "imageModelCalls": 0
+  },
+  "sourceReview": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18641636/",
+      "version": "Junutula 2008",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/18641636.json",
+        "sha256": "a0364e0c0d805133dbd33a693047ff146a441073668b01328924be7977c6ee48"
+      }
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25212991/",
+      "version": "Hudecek 2015",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/25212991.json",
+        "sha256": "ad145bd537dbf53d0a4f729c458bf49b370aba6fd9411d16211fad909e60e291"
+      }
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25939063/",
+      "version": "Long 2015",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/25939063.json",
+        "sha256": "7ec7f2c2b96620816ac340a6e3b34e81cdffc85ece67f96ca725ad4218f7f767"
+      }
+    },
+    {
+      "url": "https://www.fda.gov/media/156896/download",
+      "version": "FDA final January 2024",
+      "readDepth": "Selected official nonclinical guidance PDF p24/web lines914–958 read: activation domains, antigen-dependent/independent evaluation, hinge/transmembrane behavior and animal-model limits. Full guidance not read cover to cover.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2"
+    }
+  ],
+  "displayReview": {
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "actualPinFilesIndependentlyVerified": 87,
+    "freshOriginalPNGsPersonallyInspected": 10,
+    "captures": [
+      {
+        "path": "private/captures/next-gap-157-dark-desktop-default-preview.png",
+        "sha256": "13ba0acb572013d74850274aa03897c5040741be0f095dc2ddfbe96d0c4bf2ce",
+        "bytes": 136317,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-dark-desktop-inline.png",
+        "sha256": "565434eed492a989c8fa1add0b1899497404116fa0662983c089734a9816abaa",
+        "bytes": 108427,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-dark-mobile-default-preview.png",
+        "sha256": "c2f54163472be2b0f5d3b717e37889379389ca382365b47a6fa777f1bd1da5b7",
+        "bytes": 73293,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-dark-mobile-inline.png",
+        "sha256": "7651c8d35439559d2b120c43a3bb0ddf155d21eabcf4d2369611387360de7f78",
+        "bytes": 77987,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-dark-native.png",
+        "sha256": "6cf21f28a9223af989973e53515e810e020f1c176ca9c8c7bcbd71ddb6aabdea",
+        "bytes": 95976,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-light-desktop-default-preview.png",
+        "sha256": "ae06c766a770c76f2208fa1c89fb99a374c206e960ff2584adcba61f2613b213",
+        "bytes": 136772,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-light-desktop-inline.png",
+        "sha256": "af46ca3783d93fa07ae182de006a65f3eedc2dc01f645977f95d35f93305d1e5",
+        "bytes": 106289,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-light-mobile-default-preview.png",
+        "sha256": "1664ea2848ce055efa40faa31f843be73d42b4991193a5948e8980e8a41d4b04",
+        "bytes": 74359,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-light-mobile-inline.png",
+        "sha256": "c3e04c6c94fe8e372ec2e484d63d91f157989b778467df52a7dbba685c608db0",
+        "bytes": 77527,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-157-light-native.png",
+        "sha256": "b08a1fb7a784336ee9adb2384961ea61e540ab961d19760e82b49edfca270c59",
+        "bytes": 93674,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Matching recognition shapes, two CAR surfaces and intracellular signaling tail remain clear; no overlap.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      }
+    ],
+    "minMobileInlineLabelPx": 18.6125,
+    "minMobileDefaultPreviewLabelPx": 18.4,
+    "nativeWidth": 600,
+    "nativeHeight": 950,
+    "carrierLimits": "Private full education article with exact formatter/ImageTheater/Frame/SmartTableEnhancer and copied full shared/app CSS; three literal Tailwind hidden/dark theme utility rules. App header/sidebar/navigation, live data and physical device not represented.",
+    "labelAndArrowAssessment": "Clear and readable; no observed artwork text overlap or clipping. Ordinal panel numbers are ordering labels, not measured quantities."
+  },
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignmentAdoption": "pending",
+  "delivery": "pending",
+  "sourceFitCreditGrantedNow": 0,
+  "coverageCreditGrantedNow": 0,
+  "liveDeliveryCreditGrantedNow": 0
+}

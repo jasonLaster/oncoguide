@@ -1,0 +1,8 @@
+ORIGINAL ART BRIEF
+Author: agent:/root/batch06_author_group2
+Task: See normal topoisomerase cut/reseal versus a stabilized cleavage complex
+
+Show normal topoisomerase II temporarily cleaving both DNA strands while retaining ends, passing another DNA segment then resealing. Contrast doxorubicin at an enzyme-associated stabilized cleavage intermediate with strands still cut; do not depict merely disabling the enzyme. Include intercalation/reactive molecules as separate mechanisms, normal cells share processes, no efficacy or cardiac-risk prediction.
+
+Style: original code-drawn molecular cartoon, 600×950, vertically ordered mechanism panels, warm light theme and deep navy dark theme; identical layout/labels/objects in both. Essential labels ≥32 native pixels. Teal recognition/chain, orange chemical/site emphasis, explicit direction arrows and text. Spatial shapes are schematic, not atomic structures or scale measurements. No study quantities, individual case, treatment recommendation or universal cutoff. No image-model calls.
+Guard: Do not depict simply switching enzyme off; multiple mechanisms; no efficacy/cardiac-risk prediction

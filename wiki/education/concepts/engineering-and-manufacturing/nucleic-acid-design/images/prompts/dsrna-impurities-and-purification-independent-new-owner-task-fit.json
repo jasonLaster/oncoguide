@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-149",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+  "author": "agent:/root/batch06_author_group1",
+  "creativeAuthor": "agent:/root/batch06_author_group1",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/batch06_review_group1",
+  "independentReviewer": "agent:/root/batch06_review_group1",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T17:15:09.062Z",
+  "passedAtUTC": "2026-10-13T17:15:09.062Z",
+  "currentOwnerSha256": "36d465ceb1f72dfdd2731e1ebb587b0e73134f2515f23a5e48055a94e349aa88",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Three different molecular objects are actually drawn: an antiparallel complementary two-strand byproduct, a shorter single strand, and one continuous strand with a local stem-loop. Pairing and size/integrity readouts remain distinct. Mu and Karik\u00f3 abstracts support manufacturing/sensing distinctions; Baiersd\u00f6rfer selected results paragraph 11 confirms length-dependent cellulose removal and J2 scope. No zero-impurity or universal acceptance claim.",
+    "baselinePageSHA256": "37203bab2a38c40957bfac81bec462642a273096a7300cb2bfa3bbfd76ffa3db",
+    "frozenBaselinePageSHA256": "37203bab2a38c40957bfac81bec462642a273096a7300cb2bfa3bbfd76ffa3db",
+    "learnerTask": "Distinguish long paired byproduct, truncated single strand and intended intramolecular folding.",
+    "gap": "The cleanup sequence does not show the structurally different objects being assayed.",
+    "accuracyGuardrails": "Distinguish paired byproducts, truncated strands and intended intramolecular folding, with assay-specific readouts. No sketch or purification step proves absence of all impurities or a universal acceptable level."
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/153",
+  "frozenRowSHA256": "cb17b8db5f8dd4d91d0533e3e1f934eb9f6d22dc5ec3c3116858743456ae29fc",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-light.svg",
+      "sha256": "0ea484278d5f98d4ebddd2094cde6cecf18602db75d4fb2521ac71d3568d2939",
+      "bytes": 6393,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-dark.svg",
+      "sha256": "59f464cde85ae455b2f6e2d8c3e27d74735c8667f37376f12c7f8a6c942d1626",
+      "bytes": 6393,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+        "sha256": "36d465ceb1f72dfdd2731e1ebb587b0e73134f2515f23a5e48055a94e349aa88",
+        "bytes": 8486
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-light.svg",
+        "sha256": "0ea484278d5f98d4ebddd2094cde6cecf18602db75d4fb2521ac71d3568d2939",
+        "bytes": 6393
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-dark.svg",
+        "sha256": "59f464cde85ae455b2f6e2d8c3e27d74735c8667f37376f12c7f8a6c942d1626",
+        "bytes": 6393
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/paired-byproducts-folds-and-truncations-v1.txt",
+        "sha256": "a1e91720bde36ab43f1f657c6e1e776efa2c75f95df3bf6f1bdd8265f88f1deb",
+        "bytes": 1485
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/paired-byproducts-folds-and-truncations-v1-provenance.json",
+        "sha256": "156bd2b9fb0c011a0abbcd4097ccefafaf61a4a2be2ae0fed863331a0202ca04",
+        "bytes": 5628
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewVerdict": "REVISE",
+    "wholePackageReviewedAtUTC": "2026-10-13T17:04:24.153Z",
+    "wholePackageReviewSHA256": "9f96bd41f031f0a90aa92835d29e6509ec8275b1ef30991c680eb10fda9918f2",
+    "wholeReviewSealSHA256": "5bab81b957329a4c358c090504dc5703865305edb1d231dec8c19b7f62569781",
+    "originalAuthorHandoffSHA256": "066245d2df6ede32b2eaec59b18daf982a2c09a449c39459717ecca1ead3e156",
+    "originalAuthorSealSHA256": "03ef6f00f7314f6f098c4d7c44980b50c7cf85149c35ca88f8e8f494e5788979",
+    "correctionAddendumSHA256": "6ae162fe86dd55c80a376445d05c168eaa6440cf4e7e9fc6faa393841ce1c93b",
+    "correctionAddendumReviewedAtUTC": "2026-10-13T17:15:09.062Z",
+    "finalAuthorHandoffSHA256": "367062e45403c1fc4117c057bf209495ab28d53e35abb1b3004cee18cce13e1a",
+    "finalAuthorSealSHA256": "a430d0e681d2e6910193d73ac728f3a496d197362928b6e3f734b9de8392def7",
+    "basis": "Genuine independent whole scientific/math/native/task-fit review plus same-reviewer correction-only addendum, bound to final bytes. Not derived from author pixel certification.",
+    "originalSourceReadingReceiptSHA256": "93271b2c10a8ebeb9e28e0e9eb20ca76d28278d6f8e191959215c7178805f6c3",
+    "sourceReadDepth": "Inherited actual original review: 22 complete returned primary abstracts, selected manufacturing/fulltext/official passages; preserved browser/reCAPTCHA access failures for textbook/PMC. No full-paper/full-guidance/human approval. No new source read for literal correction.",
+    "originalPersonalCaptureCount": 70,
+    "focusedCorrectedPersonalCaptureCount": 0,
+    "otherSixNativeJudgmentsInherited": true
+  },
+  "sourceURLs": [
+    "https://doi.org/10.1093/nar/gky177",
+    "https://pubmed.ncbi.nlm.nih.gov/21890902/",
+    "https://pubmed.ncbi.nlm.nih.gov/30933724/"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical167Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "scienceGrade": null,
+  "pixelGrade": null,
+  "sourceFitCredit": 0,
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

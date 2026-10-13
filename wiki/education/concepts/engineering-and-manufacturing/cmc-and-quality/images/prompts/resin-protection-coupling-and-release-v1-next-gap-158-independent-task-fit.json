@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-158",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps.md",
+  "author": "agent:/root/batch06_author_group2",
+  "creativeAuthor": "agent:/root/batch06_author_group2",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/batch06_review_group2",
+  "independentReviewer": "agent:/root/batch06_review_group2",
+  "reviewedAtUTC": "2026-10-13T17:21:55.000Z",
+  "timePrecision": "UTC clock tool whole seconds, zero-filled three fractional digits",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "53db94befd7e247c73c337ea27071f5173d16e94322182160f888eb90982fc70",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-light.svg",
+      "sha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139",
+      "bytes": 5772,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-dark.svg",
+      "sha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087",
+      "bytes": 5772,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "a7f52c0288b5cc9b1b50098337694aa1c98ce51b5391c4f469973036b49eb724",
+    "learnerTask": "Follow the resin-bound chain through protection removal, coupling, washing and final release.",
+    "gap": "No visual locates the solid support or repeated chemical cycle.",
+    "accuracyGuardrails": "Locate resin attachment and the repeated protection/coupling/washing cycle schematically. Final cleavage, purification, identity and release are separate; do not imply complete coupling or a manufacturing recipe.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The carboxyl-end attachment stays at the right-hand resin while the amino end extends leftward. Terminal protection is removed before an additional protected unit joins; washing preserves the tether and the return arrow repeats steps 1–3. Cleavage separates peptide from resin; the article separately explains remaining side-chain protection removal, purification, characterization and final quality disposition. The drawing has no reagents, times, yields or complete-coupling assertion. The body keeps crude synthesis, purified material and a released vaccine distinct and does not transfer one paper purity criterion to universal release.",
+    "humanReview": "pending"
+  },
+  "frozenTask": {
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/142",
+    "originalTaskRowSHA256": "22fc98b98f0e75e09b4d19c0b95b5477e6b7c639b7a75c196707dbf95146e167",
+    "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps.md",
+        "sha256": "53db94befd7e247c73c337ea27071f5173d16e94322182160f888eb90982fc70",
+        "bytes": 7461
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-light.svg",
+        "sha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139",
+        "bytes": 5772
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-dark.svg",
+        "sha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087",
+        "bytes": 5772
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/resin-protection-coupling-and-release-v1.txt",
+        "sha256": "b4656c193ba79c481f4fc4d3fe0bcaa2a675c17d626b179626659000ec824831",
+        "bytes": 1374
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/resin-protection-coupling-and-release-v1-provenance.json",
+        "sha256": "653bf71247bec6e6fd04b69a9f5d173fec9ba4d35f574acf38229c2e8032b361",
+        "bytes": 3949
+      }
+    ],
+    "originalEntireOwnerPreserved": true,
+    "authorManifestSHA256": "03de0707c0fb4487966808a2eb05d5727656fd3ba062be1f5266195361a438d8",
+    "originalBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "model": null,
+    "imageModelCalls": 0
+  },
+  "sourceReview": [
+    {
+      "url": "https://www.nature.com/articles/s41598-019-56943-5",
+      "version": "Truex 2020",
+      "readDepth": "Primary introduction, comparison results, cleavage/purification/identity sections and resin-loading/automated-cycle methods in web text lines73–178 read. Immune-assay details, remaining methods and supplement not fully reviewed.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "accessFailuresAndLimits": [
+        "Publisher cookies_not_supported redirect retained substantive article."
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24938489/",
+      "version": "Abdel-Aal 2014",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/24938489.json",
+        "sha256": "c22b88c7c6ee78cc5da00ef093ac607df28a714b31aae51e65c00c4900b453ca"
+      }
+    }
+  ],
+  "displayReview": {
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "actualPinFilesIndependentlyVerified": 87,
+    "freshOriginalPNGsPersonallyInspected": 10,
+    "captures": [
+      {
+        "path": "private/captures/next-gap-158-dark-desktop-default-preview.png",
+        "sha256": "d75b6d6cb7dac38e2d355e7bbbb027c384c30fd79a33df677617b47a04694a24",
+        "bytes": 157448,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-dark-desktop-inline.png",
+        "sha256": "d9244d358aed4f6a79ee9a9bb9d1c7d76c0e840a9767162b6465490148679473",
+        "bytes": 119962,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-dark-mobile-default-preview.png",
+        "sha256": "4b9aee546e48970e06f97b19a33c7b5b350986bb173dc91e75b0d4fabc56efd1",
+        "bytes": 86171,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-dark-mobile-inline.png",
+        "sha256": "1d690a389e03d7eb9bdd3c52368153392f42b36b73a2df05338bb3f4163afb4c",
+        "bytes": 81308,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-dark-native.png",
+        "sha256": "93b4a4b9e8789ceaf2cc65fabec05bcb371c596ff5c40aa54b798f3d417360bd",
+        "bytes": 104476,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-light-desktop-default-preview.png",
+        "sha256": "d02ec3304980eef23a3958bfbf64cbc3773fdfbc2065011714792629c872ea66",
+        "bytes": 156096,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-light-desktop-inline.png",
+        "sha256": "83bafa457f9ae966168e975bf6aac37fdde9a2c0fdb300d5224af74f4bc66f38",
+        "bytes": 117119,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-light-mobile-default-preview.png",
+        "sha256": "6c46a07368a37ac6badd3edd89a25f83eb2e43f5e8603d362ee21147e1d08df5",
+        "bytes": 86967,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-light-mobile-inline.png",
+        "sha256": "2564818ce45a144e0e0e15fcb0a4c4d249b635af828102cfd5b96c2ffda03c51",
+        "bytes": 79454,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-158-light-native.png",
+        "sha256": "93b9550dd12df03c1c3fd5430ee2183045357cc1d4eb5d2282663f08c4c4931d",
+        "bytes": 101414,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "Resin tether, open-amino-end direction and repeat arrow clear; separate cleavage/release panel legible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      }
+    ],
+    "minMobileInlineLabelPx": 18.6125,
+    "minMobileDefaultPreviewLabelPx": 18.4,
+    "nativeWidth": 600,
+    "nativeHeight": 950,
+    "carrierLimits": "Private full education article with exact formatter/ImageTheater/Frame/SmartTableEnhancer and copied full shared/app CSS; three literal Tailwind hidden/dark theme utility rules. App header/sidebar/navigation, live data and physical device not represented.",
+    "labelAndArrowAssessment": "Clear and readable; no observed artwork text overlap or clipping. Ordinal panel numbers are ordering labels, not measured quantities."
+  },
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignmentAdoption": "pending",
+  "delivery": "pending",
+  "sourceFitCreditGrantedNow": 0,
+  "coverageCreditGrantedNow": 0,
+  "liveDeliveryCreditGrantedNow": 0
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "kind": "Original code-drawn educational SVG pair",
+  "receipt": {
+    "author": "agent:/root/batch06_author_group2",
+    "role": "creative content and artwork author",
+    "createdAtUTC": "2026-10-13T17:02:45.547751+00:00"
+  },
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps.md",
+  "learnerTask": "Follow the resin-bound chain through protection removal, coupling, washing and final release.",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourcePreimageSHA256": "a7f52c0288b5cc9b1b50098337694aa1c98ce51b5391c4f469973036b49eb724",
+  "generation": {
+    "method": "Original Python code writes SVG primitives; typography/shapes/colors composed by named author",
+    "model": null,
+    "imageModelCalls": 0,
+    "codeSHA256": "899edaafe07c8a1e1d61f9613b4d72aa55909082f8d71ba4d6f8dd5f8b0b31c2",
+    "originalBrief": "resin-protection-coupling-and-release-v1.txt",
+    "originalBriefSHA256": "b4656c193ba79c481f4fc4d3fe0bcaa2a675c17d626b179626659000ec824831"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-light.svg",
+      "sha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139",
+      "bytes": 5772,
+      "theme": "light",
+      "width": 600,
+      "height": 950
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-dark.svg",
+      "sha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087",
+      "bytes": 5772,
+      "theme": "dark",
+      "width": 600,
+      "height": 950
+    }
+  ],
+  "scientificScope": "Locate resin attachment and the repeated protection/coupling/washing cycle schematically. Final cleavage, purification, identity and release are separate; do not imply complete coupling or a manufacturing recipe.",
+  "sourcesRead": [
+    {
+      "url": "https://www.nature.com/articles/s41598-019-56943-5",
+      "readDepth": "Primary full text retrieved; selected introduction, comparison results and Materials and Methods resin loading, flow/batch cycling, cleavage and chromatographic/mass characterization read. Immune assays and supplement not fully read.",
+      "version": "Truex2020",
+      "failure": "Initial webopen error; directNature retrieval succeeded; alternatePMC6971261 challenge.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4161149/",
+      "readDepth": "Complete primary abstract read from exact PMID24938489 EuropePMC core record; full paper not read.",
+      "version": "Abdel-Aal2014",
+      "failure": "PMCchallenge; primary abstract recovered.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    }
+  ],
+  "assumptions": [
+    "Schematic mechanism; objects not atomic structures and drawings not to biological scale.",
+    "No new quantitative study result, dosage, risk estimate or universal cutoff; original fictional practice and citations preserved."
+  ],
+  "authorDisplayChecks": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "smallestMobileInlineLabelPx": 18.6125,
+    "smallestMobileDefaultPreviewLabelPx": 18.4,
+    "minTextContrastRatio": 7.135,
+    "carrier": "Private copied actual server formatter, ImageTheater, WikiMarkdownFrame, SmartTableEnhancer and CSS; full education article. Actual live site/navigation/browser chrome and physical device not claimed.",
+    "personalInspection": "Original native and inline/default-preview PNGs in both themes; 393×700 and1440×1000 CSSviewports; author inspection only."
+  },
+  "status": {
+    "independentReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "liveDelivery": "not performed"
+  }
+}

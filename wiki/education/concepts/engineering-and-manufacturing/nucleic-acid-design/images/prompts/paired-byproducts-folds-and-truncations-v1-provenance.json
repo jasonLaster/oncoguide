@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-provenance",
+  "author": "agent:/root/batch06_author_group1",
+  "integrationAuthor": "root",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+  "learnerTask": "Distinguish long paired byproduct, truncated single strand and intended intramolecular folding.",
+  "constructedAtUTC": "2026-10-13T13:09:41.994267+00:00",
+  "medium": "original editable SVG code",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "referenceImages": [],
+  "sourceOfArtwork": "Author-drawn geometry and text; no traced or copied source figures.",
+  "codeSHA256": "c20915766c7d10a7b64667ee2c9eeeb4d5c7135161adfeacf9815c590fd145e6",
+  "prompt": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/paired-byproducts-folds-and-truncations-v1.txt",
+    "sha256": "a1e91720bde36ab43f1f657c6e1e776efa2c75f95df3bf6f1bdd8265f88f1deb"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-light.svg",
+      "sha256": "0ea484278d5f98d4ebddd2094cde6cecf18602db75d4fb2521ac71d3568d2939",
+      "bytes": 6393,
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-dark.svg",
+      "sha256": "59f464cde85ae455b2f6e2d8c3e27d74735c8667f37376f12c7f8a6c942d1626",
+      "bytes": 6393,
+      "theme": "dark"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://doi.org/10.1093/nar/gky177",
+      "label": "Mu et al., 2018: an origin of IVT-RNA immunogenicity",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "29534222",
+      "title": "An origin of the immunogenicity of in vitro transcribed RNA.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:33.450622+00:00",
+      "accessFailure": "Initial web HTML returned client challenge, inaccessible redirect or empty PubMed HHS footer. NCBI E-utilities XML provided the primary abstract as recorded."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21890902/",
+      "label": "Karik\u00f3 et al., 2011: chromatographic purification, sensing and translation",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "21890902",
+      "title": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30933724/",
+      "label": "Baiersd\u00f6rfer et al., 2019: cellulose purification, recovery and duplex-length dependence",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "30933724",
+      "title": "A Facile Method for the Removal of dsRNA Contaminant from In\u00a0Vitro-Transcribed mRNA.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review; selected retrieved PMC results/discussion excerpts (tool output was truncated; not complete paper review)",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00",
+      "accessFailure": "Initial web HTML returned client challenge, inaccessible redirect or empty PubMed HHS footer. NCBI E-utilities XML provided the primary abstract as recorded."
+    }
+  ],
+  "assumptions": "Schematic not to scale. Object counts, positions and clone descendants are illustrative; no risk, dose, time or population estimate. Fictional practice examples in the owner remain unchanged.",
+  "themeConsistency": "Same coordinates, labels, objects and relationships; palette changes only.",
+  "authorChecks": {
+    "nativeThemesInspected": [
+      "light",
+      "dark"
+    ],
+    "nativeMinimumTextFontPx": 32,
+    "pinnedReader": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileMinimumInlineLabelPx": 18.6125,
+    "mobileMinimumDefaultPreviewLabelPx": 18.4,
+    "personallyInspectedCaptureCount": 10,
+    "pageErrors": 0,
+    "keyboardEnterAndEscapeChecked": true,
+    "captionAndDescriptiveAltPresent": true,
+    "qualification": "Author mechanical and visual observations only; no scientific or pixel grade.",
+    "fixtureLimits": "Exact pinned rendering/components/shared app CSS in isolated full-width article. Excludes app navigation, auth and live deployment; not production verification."
+  },
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  }
+}

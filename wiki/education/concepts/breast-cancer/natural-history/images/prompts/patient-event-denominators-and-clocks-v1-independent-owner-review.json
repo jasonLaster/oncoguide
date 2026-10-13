@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-163",
+  "owner": "wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk.md",
+  "author": "agent:/root/batch06_author_group3",
+  "creativeAuthor": "agent:/root/batch06_author_group3",
+  "reviewer": "agent:/root/batch06_review_group3",
+  "independentReviewer": "agent:/root/batch06_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T17:20:31.880Z",
+  "reviewedAtUTC": "2026-10-13T17:20:31.880Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "3e89574c0f1de3457444ae0be9bc67e037af43e148196e6d8b38aecc208e1bf2",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/57",
+  "frozenRowSHA256": "6f6a6f1f5ea78211fec96bfcf35165bf3819e9862f025cf2c456cde3d78b1d3f",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Exactly 100 dots:5 brain-involved recurrent patients, 15 other recurrent patients, 80 others. Correct 5/20=25% and 5/100=5% share the enrollment-origin two-year clock, fictional complete follow-up and raw-fraction/non-competing-risk limits. Historical populations/endpoints remain distinct; no forecast/ranking/screening schedule.",
+    "baselinePageSHA256": "2e3efcab690ca89a8f9d206b26073a5f66390afd3f28511085ac4b4ae06bc7af",
+    "learnerTask": "State the patient versus recurrence denominator and the starting clock before quoting a brain-event fraction.",
+    "gap": "The reproducible 5/20 versus 5/100 exercise is explicit, but no visual shows the nested recurrence subset inside all enrolled patients. A small population/subset chart can expose the denominator change without plotting unsupported contemporary risks.",
+    "accuracyGuardrails": [
+      "Use the complete-follow-up fictional example only.",
+      "Do not present raw fractions as competing-risk estimates.",
+      "No brain-site ranking, personal forecast or screening schedule."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/patient-event-denominators-and-clocks-v1-light.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/breast-cancer/natural-history/images/patient-event-denominators-and-clocks-v1-light.svg",
+      "sha256": "05d457569ada05885db0ea5687aaff7d1cfd2ede73acbd063a44905343529882",
+      "bytes": 7500,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/patient-event-denominators-and-clocks-v1-dark.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/breast-cancer/natural-history/images/patient-event-denominators-and-clocks-v1-dark.svg",
+      "sha256": "46afef295e6e1c3713f53707eacfa4cee5cbcbe8077cb92d297c7dc52cad46a9",
+      "bytes": 7500,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk.md",
+        "sha256": "3e89574c0f1de3457444ae0be9bc67e037af43e148196e6d8b38aecc208e1bf2",
+        "bytes": 9081
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/patient-event-denominators-and-clocks-v1-light.svg",
+        "sha256": "05d457569ada05885db0ea5687aaff7d1cfd2ede73acbd063a44905343529882",
+        "bytes": 7500
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/patient-event-denominators-and-clocks-v1-dark.svg",
+        "sha256": "46afef295e6e1c3713f53707eacfa4cee5cbcbe8077cb92d297c7dc52cad46a9",
+        "bytes": 7500
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/patient-event-denominators-and-clocks-v1.txt",
+        "sha256": "2c82e19eb9116766410f94bc02ee426d1653c3db51f59454ddde03538fd4e7b3",
+        "bytes": 1055
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/patient-event-denominators-and-clocks-v1-provenance.json",
+        "sha256": "2aa050e2e4c26e1e07a0fe8aea16a51ac3cb14d5c28e0c38570fb0fae094b6ef",
+        "bytes": 5444
+      }
+    ],
+    "currentCandidateOwnerSHA256": "3e89574c0f1de3457444ae0be9bc67e037af43e148196e6d8b38aecc208e1bf2",
+    "currentCandidatePairBound": true,
+    "changedThisCorrection": false,
+    "nativesUnchangedFromOriginalReview": true,
+    "originalTXTAndProvenanceUnchanged": true
+  },
+  "reviewBasis": {
+    "scope": "Original complete seven-owner scientific/math/native/reader/task-fit review inherited for unchanged artifacts, plus finite B06-G3-C1 phrase/custody check. No second whole-package or source/renderer/history review.",
+    "originalWholeReview": {
+      "verdict": "REVISE",
+      "reviewer": "agent:/root/batch06_review_group3",
+      "reviewedAtUTC": "2026-10-13T17:14:43.509Z",
+      "receiptPath": "/tmp/education-next-visual-batch-06/reviews/treatment-strategies-clocks-and-evidence-bridges/review.json",
+      "receiptSHA256": "93e17200e630ec2e66881f680a8d07b390b46949d3b0248236d679ce1bcb16b2",
+      "sealSHA256": "53deea4026a93ddc98624ff885986bd5fe72c66d6ea1495c763bdc04246266e3"
+    },
+    "originalSourceReading": {
+      "path": "/tmp/education-next-visual-batch-06/reviews/treatment-strategies-clocks-and-evidence-bridges/private/source-reading.json",
+      "sha256": "0ca1185bf9a8ce5d43956146760b20516b28ce3b37c5203dae90e667fc73d6e4",
+      "readDepth": "Selected official text plus nine complete primary abstracts; primary-paper/guideline complete reads not claimed. Original carrier, environment and extraction failure limits retained."
+    },
+    "originalPixelInspection": {
+      "path": "/tmp/education-next-visual-batch-06/reviews/treatment-strategies-clocks-and-evidence-bridges/private/personal-pixel-inspection.json",
+      "sha256": "f3e517dc4e4d5de589a4e82cc74fd8938928112072c290c5b025a7f115d7965a",
+      "capturesPersonallyInspected": 70,
+      "displayChecksSHA256": "1d7a491b67c695acffbd37cca9caa4502619dcb1825da1abdd840628b77b4afb",
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "carrierLimits": "Exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater and SmartTableEnhancer with complete actual shared/app CSS. Isolated full-width education article; no app navigation/header/sidebar or external live data. Three literal Tailwind theme utility rules only.",
+      "newCaptures": 0
+    },
+    "correctionCheckAtUTC": "2026-10-13T17:20:31.880Z",
+    "closedFindingIds": [
+      "B06-G3-C1"
+    ],
+    "correctionAuthorReceiptSHA256": "f9917b1c8006fa05e11e1076fc389a486fd74ad87dbe4857e9e935ffd66c916d",
+    "correctionAuthorSealSHA256": "c9f8d43f729eccb2adc5684516f151164cd41bd6197a7e454dc944f036e3dfab",
+    "noNewScienceOrPixelReview": true
+  },
+  "method": "Original code SVG; no image model calls",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

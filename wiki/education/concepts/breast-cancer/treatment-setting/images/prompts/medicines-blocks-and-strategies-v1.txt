@@ -1,0 +1,8 @@
+Original visual brief, authored 2026-10-13T17:00:53.560297+00:00
+Author: agent:/root/batch06_author_group3
+
+Group medicines and planned blocks into strategies within separate early and advanced disease settings.
+Fictional early-disease plan groups combination A before surgery and medicine B afterward; a later metastatic setting has its first systemic strategy. Earlier exposures remain in history.
+Fictional history and illustrative counting convention: no earlier systemic metastatic strategy. Time separation is schematic; no universal switch or maintenance algorithm.
+Guardrails: ["No universal algorithm for maintenance, pauses or switches.", "Earlier exposure remains in history even when not a prior metastatic line.", "Later line is not a survival forecast."]
+Design: original code SVG, paired light/dark palette, 600×900 viewBox, essential labels 32px or larger; read top-to-bottom; literal population and scope labels. No image generation.

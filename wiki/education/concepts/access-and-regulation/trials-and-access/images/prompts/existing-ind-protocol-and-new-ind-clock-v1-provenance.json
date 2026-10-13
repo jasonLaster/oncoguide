@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch06_author_group3",
+  "createdAtUTC": "2026-10-13T17:00:53.560297+00:00",
+  "method": "original code-authored SVG",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "owner": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+  "task": "Distinguish a new individual IND clock from an individual protocol under an existing active IND.",
+  "fictionAndScope": "U.S. drug/biologic rules, April 2026 FDA guidance; diagram covers non-emergency individual-patient routes only.",
+  "guardrails": "State the exact IND route, clock start and conditional exceptions; supply, consent and review are separate. Do not promise a treatment date or generalize emergency provisions to ordinary requests.",
+  "sources": [
+    {
+      "label": "FDA: expanded-access questions and answers, April 2026",
+      "url": "https://www.fda.gov/media/162793/download"
+    },
+    {
+      "label": "21 CFR 312.305",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.305"
+    },
+    {
+      "label": "21 CFR 312.310",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.310"
+    },
+    {
+      "label": "FDA: IND introduction",
+      "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+    },
+    {
+      "label": "FDA: expanded access information for IRBs",
+      "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs"
+    }
+  ],
+  "sourceStatus": "Selected actual source reading for the visual addition; existing teaching source-check scope retained. No scientific approval implied.",
+  "assets": [
+    {
+      "file": "existing-ind-protocol-and-new-ind-clock-v1-light.svg",
+      "sha256": "220e16dfae93105d6460985b955366a29f88bd1ca435f78e4483978e911519f1"
+    },
+    {
+      "file": "existing-ind-protocol-and-new-ind-clock-v1-dark.svg",
+      "sha256": "e9e0142fd2d0d96e6b1cb249a99982a0b15dd2a5dd8d228ad43d2bb404c00c30"
+    }
+  ],
+  "promptSHA256": "25ac3e29d10ab09bced484f61422045a3e0165c9bc1f010e92fa100bc7ff9481",
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "scienceGrade": null,
+    "pixelGrade": null,
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0
+  },
+  "sourceReadAtUTC": "2026-10-13T17:03:35.928461+00:00",
+  "actualSourceBounds": [
+    {
+      "url": "https://www.fda.gov/media/162793/download",
+      "readBounds": "April 2026 revision 2: selected Q6/Q9 route definitions and review; Q24-27 clock start, emergencies, protocol distinction and voluntary supply; not a full-document read",
+      "retrievedAtUTC": "2026-10-13T06:25:17.733563+00:00",
+      "failure": null,
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.305",
+      "readBounds": "Retrieval returned an eCFR request-access CAPTCHA; not substantively read; clock claims checked against FDA guidance",
+      "retrievedAtUTC": "2026-10-13T06:25:16.904729+00:00",
+      "failure": "HTTP 200 carrier was CAPTCHA request-access page, not regulation text",
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.310",
+      "readBounds": "Retrieval returned an eCFR request-access CAPTCHA; not substantively read; clock claims checked against FDA guidance",
+      "retrievedAtUTC": "2026-10-13T06:25:16.904605+00:00",
+      "failure": "HTTP 200 carrier was CAPTCHA request-access page, not regulation text",
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+      "readBounds": "FDA IND introduction: calendar-day unit and institutional review/informed consent paragraphs",
+      "retrievedAtUTC": "2026-10-13T06:25:17.083589+00:00",
+      "failure": null,
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs",
+      "readBounds": "FDA IRB overview: selected consent and emergency notification paragraph, 5 working days from emergency use",
+      "retrievedAtUTC": "2026-10-13T06:25:17.841654+00:00",
+      "failure": null,
+      "fallbackURL": null
+    }
+  ],
+  "codeGeneratorSHA256": "82af9cc5503eebed50bfb602558b6e273d86fce43474bc702a32f2c3e6e737f3",
+  "displayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      {
+        "width": 393,
+        "height": 700
+      },
+      {
+        "width": 1440,
+        "height": 1000
+      }
+    ],
+    "minimumNativeLabelPx": 32,
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "carrierLimits": "Isolated education article using exact pinned renderer, theater, table enhancer and complete CSS; excludes live navigation/header/sidebar and external app data.",
+    "scienceApproval": null,
+    "humanReview": "pending"
+  }
+}

@@ -33,18 +33,9 @@ Picture a small package carrying a set of instructions. The **capsid**, its prot
 
 Recombinant AAV, abbreviated **rAAV**, replaces viral coding material with a designed cassette and regulatory sequences. Capsid design, route and cell biology influence entry and subsequent steps. The DNA must reach the nucleus and become a usable transcription template. RNA production and translation then make protein.
 
-```mermaid
-%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
-flowchart TD
-  A["AAV carries DNA"] --> B["Cell entry<br/>and nuclear delivery"]
-  B --> C["Usable vector DNA"]
-  C --> D["Often outside<br/>chromosomes"]
-  C --> E["Integration<br/>is possible"]
-  D --> F["Measure RNA,<br/>protein and function"]
-  E --> F
-```
+<img src="./images/vector-dna-chromosome-and-expression-v1-light.svg" alt="Vector DNA outside a chromosome and inserted into a chromosome sit inside a nucleus, followed by a separate expression layer." data-theme-pair="./images/vector-dna-chromosome-and-expression-v1-dark.svg" />
 
-*Vector DNA, its physical form and its expressed product are separate measurements.*
+*DNA location and expression are different layers. These example forms do not assign their frequencies, duration or therapeutic effect.*
 
 An **episome** is DNA outside the chromosomes. A study of sampled human muscle found persistent circular vector genomes and tested the expression competence of recovered sequences. This supports that tissue and construct; it is not a guarantee for every cell type. Episomal genomes can be diluted during cell division. Mouse liver-regeneration experiments also showed that extrachromosomal expression and genome persistence differ from a chromosomally integrated control.
 

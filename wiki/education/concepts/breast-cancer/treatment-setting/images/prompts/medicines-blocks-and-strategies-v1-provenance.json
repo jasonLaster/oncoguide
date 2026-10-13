@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch06_author_group3",
+  "createdAtUTC": "2026-10-13T17:00:53.560297+00:00",
+  "method": "original code-authored SVG",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "owner": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+  "task": "Group medicines and planned blocks into strategies within separate early and advanced disease settings.",
+  "fictionAndScope": "Fictional history and illustrative counting convention: no earlier systemic metastatic strategy. Time separation is schematic; no universal switch or maintenance algorithm.",
+  "guardrails": [
+    "No universal algorithm for maintenance, pauses or switches.",
+    "Earlier exposure remains in history even when not a prior metastatic line.",
+    "Later line is not a survival forecast."
+  ],
+  "sources": [
+    {
+      "label": "National Cancer Institute's first-line",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/first-line-therapy"
+    },
+    {
+      "label": "second-line definitions",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/second-line-therapy"
+    },
+    {
+      "label": "Primary report",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33278935/"
+    },
+    {
+      "label": "NCI: Chemotherapy",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"
+    }
+  ],
+  "sourceStatus": "Selected actual source reading for the visual addition; existing teaching source-check scope retained. No scientific approval implied.",
+  "assets": [
+    {
+      "file": "medicines-blocks-and-strategies-v1-light.svg",
+      "sha256": "af6dc1095e7d2d039d7224f28942c6ecd2723e72fc5341cd4094977dadd0c17e"
+    },
+    {
+      "file": "medicines-blocks-and-strategies-v1-dark.svg",
+      "sha256": "92357ec174e38644d07faca02664d82cb3eb5307aa2b87263157cc431299cda7"
+    }
+  ],
+  "promptSHA256": "bba64cb6a549e01d4444e4329d1da4045384aee545ba73090b8cf265b9861097",
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "scienceGrade": null,
+    "pixelGrade": null,
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0
+  },
+  "sourceReadAtUTC": "2026-10-13T17:03:35.928461+00:00",
+  "actualSourceBounds": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/first-line-therapy",
+      "readBounds": "NCI first-line definition read via web retrieval after static HTTP page returned JavaScript shell",
+      "retrievedAtUTC": "2026-10-13T06:25:18.253776+00:00",
+      "failure": "Static HTTP page lacked definition; web tool yielded exact NCI definition",
+      "fallbackURL": null
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/second-line-therapy",
+      "readBounds": "NCI second-line definition read via web retrieval after static HTTP page returned JavaScript shell",
+      "retrievedAtUTC": "2026-10-13T06:25:18.350177+00:00",
+      "failure": "Static HTTP page lacked definition; web tool yielded exact NCI definition",
+      "fallbackURL": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33278935/",
+      "readBounds": "KEYNOTE-355 2020: complete primary abstract via Europe PMC; advanced-disease setting versus earlier neoadjuvant/adjuvant exposure",
+      "retrievedAtUTC": "2026-10-13T06:25:18.147001+00:00",
+      "failure": "HTTP 203 carrier was PubMed browser challenge; primary abstract read from Europe PMC fallback",
+      "fallbackURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33278935%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "readBounds": "Retrieved NCI chemotherapy page; no new visual-specific source claim and no claim of full reread",
+      "retrievedAtUTC": "2026-10-13T06:25:18.499248+00:00",
+      "failure": null,
+      "fallbackURL": null
+    }
+  ],
+  "codeGeneratorSHA256": "82af9cc5503eebed50bfb602558b6e273d86fce43474bc702a32f2c3e6e737f3",
+  "displayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      {
+        "width": 393,
+        "height": 700
+      },
+      {
+        "width": 1440,
+        "height": 1000
+      }
+    ],
+    "minimumNativeLabelPx": 32,
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "carrierLimits": "Isolated education article using exact pinned renderer, theater, table enhancer and complete CSS; excludes live navigation/header/sidebar and external app data.",
+    "scienceApproval": null,
+    "humanReview": "pending"
+  }
+}

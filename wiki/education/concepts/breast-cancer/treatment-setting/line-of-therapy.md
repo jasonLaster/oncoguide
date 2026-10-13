@@ -68,6 +68,14 @@ When a study labels continued treatment as **maintenance**, check whether its co
 
 A fictional plan gives combination A before surgery and medicine B afterward as its planned adjuvant phase. Years later, metastatic disease receives its first systemic regimen. Does the earlier plan automatically make this third-line metastatic treatment?
 
+<img src="./images/medicines-blocks-and-strategies-v1-light.svg" alt="Fictional early-disease plan groups combination A before surgery and medicine B afterward; a later metastatic setting has its first systemic strategy. Earlier exposures remain in history." data-theme-pair="./images/medicines-blocks-and-strategies-v1-dark.svg" />
+
+*Planned phases can belong to one strategy; earlier exposure does not automatically become a prior metastatic line.*
+
+The outline around A, surgery and B groups a fictional planned early-disease strategy. The dashed setting boundary changes the question being counted. In the later metastatic setting, the first systemic strategy is first-line metastatic under this example’s stated convention. Keep A and B in the exposure history even though they are not prior metastatic lines.
+
+*Visual scope: Fictional history and illustrative counting convention: no earlier systemic metastatic strategy. Time separation is schematic; no universal switch or maintenance algorithm.*
+
 **Answer:** No. The earlier treatments must remain in the history, but they were given in another setting. Count advanced-disease lines using the relevant clinical or protocol rule; do not count calendar phases as metastatic lines.
 
 ## Explain it back
@@ -87,6 +95,8 @@ A fictional plan gives combination A before surgery and medicine B afterward as 
 - [Finding a trial](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial)
 
 ## Sources and scope
+
+Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 Source-checked October 10, 2026. General education; the treatment story is fictional. Expert and learner review remain pending. No universal algorithm for counting every switch is asserted.
 

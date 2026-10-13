@@ -37,15 +37,9 @@ A **signal peptide** is an encoded protein-trafficking feature. It can help rout
 
 A helper segment is intended to engage [CD4 helper T cells](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8), often through HLA class II. Processing, the recipient's HLA molecules and available T-cell receptors still matter. A helper sequence is not universally necessary or sufficient for every vaccine. Nor is a multi-target vaccine necessarily one RNA strand: designs can distribute targets across strands.
 
-```mermaid
-%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
-flowchart TD
-  A[Joined windows] --> B[Protein processing]
-  B --> C[HLA display]
-  C --> D[T-cell recognition]
-```
+<img src="./images/encoded-windows-and-boundary-peptides-v1-light.svg" alt="Encoded window A, a spacer and window B create a boundary-spanning candidate peptide, separated from measured HLA display and later function." data-theme-pair="./images/encoded-windows-and-boundary-peptides-v1-dark.svg" />
 
-*Processing can yield intended or unintended fragments. Each measured gate belongs to the tested construct and cell context.*
+*A peptide can cross an encoded boundary. Its presence in the design is not evidence of recovered HLA display, recognition or tumor-cell function.*
 
 ## Why it matters in cancer
 

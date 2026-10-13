@@ -59,6 +59,16 @@ A failed or inadequate test is also a distinct result. It should not silently be
 
 ## How it is checked and measured
 
+<img src="./images/assay-specimen-rule-and-use-v1-light.svg" alt="Four linked intended-use fields for fictional Drug A; a blood expression research result names the same gene but does not match." data-theme-pair="./images/assay-specimen-rule-and-use-v1-dark.svg" />
+
+*A shared gene name cannot replace a matched assay, specimen, alteration rule and treatment use.*
+
+Read the four fields as one intended-use card. The orange research card names the same gene but changes both specimen and measured feature. It therefore cannot supply the fictional tissue-alteration requirement. A valid matched result still would not guarantee benefit.
+
+*Visual scope: Drug A, gene M, and assay T are fictional; no real product pair or cutoff is asserted.*
+
+
+
 There is no universal companion-diagnostic unit. Outputs might be a variant detected, a stain category or an imaging assessment. Use the device-specific method, thresholds and limitations.
 
 Use an intended-use card instead of a shared gene name:
@@ -101,6 +111,8 @@ One answer: “specimen, measured feature and cutoff; the exact intended use and
 [Drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) explains the proposed use. [Clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) connects findings to specific decisions.
 
 ## Sources and scope
+
+Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 U.S. source check: October 10, 2026. The example is fictional; no product interchangeability or patient eligibility is decided. Expert and learner review pending.
 

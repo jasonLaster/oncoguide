@@ -1,0 +1,8 @@
+Original visual brief, authored 2026-10-13T17:00:53.560297+00:00
+Author: agent:/root/batch06_author_group3
+
+Apply a predefined combined response rule only when all required assessments are interpretable.
+Fictional trial checkpoint: MRI criterion met, biopsy inadequate. An AND rule requires both MRI criterion met and an adequate negative biopsy, so the rule is not met. Outcome evidence remains separate.
+Fictional trial, checkpoint and combined rule; no numerical cutoff. Response prediction is distinct from measured surgical pathologic complete response, and branch logic is distinct from long-term strategy benefit.
+Guardrails: ["Fictional protocol literacy, not a treatment-omission instruction.", "Response prediction and measured pCR remain distinct.", "Protocolized branching does not prove long-term benefit or equivalence."]
+Design: original code SVG, paired light/dark palette, 600×900 viewBox, essential labels 32px or larger; read top-to-bottom; literal population and scope labels. No image generation.

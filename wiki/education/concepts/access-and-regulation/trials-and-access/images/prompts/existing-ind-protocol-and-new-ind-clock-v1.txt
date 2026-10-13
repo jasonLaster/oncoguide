@@ -1,0 +1,8 @@
+Original visual brief, authored 2026-10-13T17:00:53.560297+00:00
+Author: agent:/root/batch06_author_group3
+
+Distinguish a new individual IND clock from an individual protocol under an existing active IND.
+Non-emergency new individual IND versus individual protocol under an existing active IND. FDA receipt starts the new IND clock; readiness gates remain separate.
+U.S. drug/biologic rules, April 2026 FDA guidance; diagram covers non-emergency individual-patient routes only.
+Guardrails: "State the exact IND route, clock start and conditional exceptions; supply, consent and review are separate. Do not promise a treatment date or generalize emergency provisions to ordinary requests."
+Design: original code SVG, paired light/dark palette, 600×900 viewBox, essential labels 32px or larger; read top-to-bottom; literal population and scope labels. No image generation.

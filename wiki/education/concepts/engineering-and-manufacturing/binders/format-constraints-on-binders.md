@@ -29,6 +29,12 @@ A comfortable handgrip on a small tool may become awkward on a long lever. The g
 
 ## How it works
 
+<img src="./images/one-binding-module-distinct-format-contexts-v1-light.svg" alt="The same teal recognition module contacts a target as part of a soluble molecule and as a membrane-tethered CAR between two cell surfaces with a spacer and internal signaling tail." data-theme-pair />
+
+*The binding module stays the same; membrane geometry, assembly and signaling add new requirements.*
+
+The teal recognition shape is unchanged in this schematic. In the upper panel it belongs to a soluble molecule. In the lower panel, a chimeric antigen receptor (CAR) connects it through a spacer to the immune-cell membrane and an internal signaling part. The contact now spans two cell surfaces. Each assembled format needs its own tests.
+
 Start with the [binder profile](/wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability): recognition, accessible [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) and properties needed to make a usable product. Then ask how assembly changes the setting of that interaction.
 
 A soluble protein needs to remain sufficiently intact and usable during manufacture, storage and exposure. Adding binding units or a chemical cargo can change its behavior. In a primary [conjugation study](https://pubmed.ncbi.nlm.nih.gov/18641636/), the attachment design affected the properties of a particular antibody-drug conjugate in animal models. That result supports testing the assembled molecule; it does not establish one best attachment method for every product.

@@ -29,6 +29,12 @@ Imagine searching for a key for a complicated lock. You can start with existing 
 
 ## How it works
 
+<img src="./images/selected-display-hit-sequence-and-testing-v1-light.svg" alt="A displayed fictional candidate B binds a target while its gene stays inside the phage; the gene is recovered and sequenced, then a separate protein is made and tested. A separate lane shows prediction followed by experiments." data-theme-pair />
+
+*Keep the displayed hit linked to its gene; selection and computational ranking still need follow-up tests.*
+
+Candidate B is fictional. Its teal binding part and internal gene belong to the same display carrier. Recovering that carrier makes the candidate sequence recoverable; sequencing identifies it. Researchers then make a separate protein and test the target with controls. The lower lane starts from a model score instead of a display-selection result.
+
 Discovery methods connect a candidate's identity to a measurable interaction. The output is a set of testable molecules, not a clinical prediction.
 
 **Hybridoma discovery** combines antibody-producing cells with myeloma cells, which can grow continuously in culture. Cloned hybrid cells can secrete antibodies for screening. The fusion does not select the desired specificity by itself: researchers test what each clone produces. [Köhler and Milstein's primary experiments](https://pubmed.ncbi.nlm.nih.gov/825377/) establish this fusion-and-screening logic.

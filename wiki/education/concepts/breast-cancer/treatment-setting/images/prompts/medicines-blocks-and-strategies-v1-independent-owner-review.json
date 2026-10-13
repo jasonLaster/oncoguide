@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-164",
+  "owner": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+  "author": "agent:/root/batch06_author_group3",
+  "creativeAuthor": "agent:/root/batch06_author_group3",
+  "reviewer": "agent:/root/batch06_review_group3",
+  "independentReviewer": "agent:/root/batch06_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T17:20:31.880Z",
+  "reviewedAtUTC": "2026-10-13T17:20:31.880Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "d4ec977b683b2a060bb6cea40184a7ac499637edbd06bd1565f5fe7fde43bf5d",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/76",
+  "frozenRowSHA256": "ee1981e82944e0abd6b1e9bca83e489b9a92c373946cd40ec600679302ce9b96",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Grouped early-disease strategy contains preoperative A, surgery, postoperative B. Later metastatic setting has its own first systemic strategy under an explicit convention; A/B remain exposure history. No universal maintenance/switch algorithm; later line is separate from survival forecast.",
+    "baselinePageSHA256": "4f5cec500f335536cb3150c668043ef1d7ac5b86175685e8e0b14b000c5a373b",
+    "learnerTask": "Group medicines and planned blocks into strategies within separate early and advanced disease settings.",
+    "gap": "The chapter analogy is good, but the fictional preoperative/postoperative history followed by first advanced-disease therapy would be easier to parse as a timeline with nested regimen blocks and a new setting boundary. Keep its line-count convention explicit.",
+    "accuracyGuardrails": [
+      "No universal algorithm for maintenance, pauses or switches.",
+      "Earlier exposure remains in history even when not a prior metastatic line.",
+      "Later line is not a survival forecast."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-light.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-light.svg",
+      "sha256": "af6dc1095e7d2d039d7224f28942c6ecd2723e72fc5341cd4094977dadd0c17e",
+      "bytes": 2989,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-dark.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-dark.svg",
+      "sha256": "92357ec174e38644d07faca02664d82cb3eb5307aa2b87263157cc431299cda7",
+      "bytes": 2989,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+        "sha256": "d4ec977b683b2a060bb6cea40184a7ac499637edbd06bd1565f5fe7fde43bf5d",
+        "bytes": 8592
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-light.svg",
+        "sha256": "af6dc1095e7d2d039d7224f28942c6ecd2723e72fc5341cd4094977dadd0c17e",
+        "bytes": 2989
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-dark.svg",
+        "sha256": "92357ec174e38644d07faca02664d82cb3eb5307aa2b87263157cc431299cda7",
+        "bytes": 2989
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/prompts/medicines-blocks-and-strategies-v1.txt",
+        "sha256": "bba64cb6a549e01d4444e4329d1da4045384aee545ba73090b8cf265b9861097",
+        "bytes": 952
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/prompts/medicines-blocks-and-strategies-v1-provenance.json",
+        "sha256": "876b746544178519a12740c67f50586e210cac07e1cf46eb9bc8cff62b35ab84",
+        "bytes": 4694
+      }
+    ],
+    "currentCandidateOwnerSHA256": "d4ec977b683b2a060bb6cea40184a7ac499637edbd06bd1565f5fe7fde43bf5d",
+    "currentCandidatePairBound": true,
+    "changedThisCorrection": false,
+    "nativesUnchangedFromOriginalReview": true,
+    "originalTXTAndProvenanceUnchanged": true
+  },
+  "reviewBasis": {
+    "scope": "Original complete seven-owner scientific/math/native/reader/task-fit review inherited for unchanged artifacts, plus finite B06-G3-C1 phrase/custody check. No second whole-package or source/renderer/history review.",
+    "originalWholeReview": {
+      "verdict": "REVISE",
+      "reviewer": "agent:/root/batch06_review_group3",
+      "reviewedAtUTC": "2026-10-13T17:14:43.509Z",
+      "receiptPath": "/tmp/education-next-visual-batch-06/reviews/treatment-strategies-clocks-and-evidence-bridges/review.json",
+      "receiptSHA256": "93e17200e630ec2e66881f680a8d07b390b46949d3b0248236d679ce1bcb16b2",
+      "sealSHA256": "53deea4026a93ddc98624ff885986bd5fe72c66d6ea1495c763bdc04246266e3"
+    },
+    "originalSourceReading": {
+      "path": "/tmp/education-next-visual-batch-06/reviews/treatment-strategies-clocks-and-evidence-bridges/private/source-reading.json",
+      "sha256": "0ca1185bf9a8ce5d43956146760b20516b28ce3b37c5203dae90e667fc73d6e4",
+      "readDepth": "Selected official text plus nine complete primary abstracts; primary-paper/guideline complete reads not claimed. Original carrier, environment and extraction failure limits retained."
+    },
+    "originalPixelInspection": {
+      "path": "/tmp/education-next-visual-batch-06/reviews/treatment-strategies-clocks-and-evidence-bridges/private/personal-pixel-inspection.json",
+      "sha256": "f3e517dc4e4d5de589a4e82cc74fd8938928112072c290c5b025a7f115d7965a",
+      "capturesPersonallyInspected": 70,
+      "displayChecksSHA256": "1d7a491b67c695acffbd37cca9caa4502619dcb1825da1abdd840628b77b4afb",
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "carrierLimits": "Exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater and SmartTableEnhancer with complete actual shared/app CSS. Isolated full-width education article; no app navigation/header/sidebar or external live data. Three literal Tailwind theme utility rules only.",
+      "newCaptures": 0
+    },
+    "correctionCheckAtUTC": "2026-10-13T17:20:31.880Z",
+    "closedFindingIds": [
+      "B06-G3-C1"
+    ],
+    "correctionAuthorReceiptSHA256": "f9917b1c8006fa05e11e1076fc389a486fd74ad87dbe4857e9e935ffd66c916d",
+    "correctionAuthorSealSHA256": "c9f8d43f729eccb2adc5684516f151164cd41bd6197a7e454dc944f036e3dfab",
+    "noNewScienceOrPixelReview": true
+  },
+  "method": "Original code SVG; no image model calls",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch06_author_group3",
+  "createdAtUTC": "2026-10-13T17:00:53.560297+00:00",
+  "method": "original code-authored SVG",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "owner": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+  "task": "Read the whole perioperative randomized strategy across two preoperative blocks, surgery and a postoperative phase.",
+  "fictionAndScope": "Historical trial structure for previously untreated stage II\u2013III TNBC. No dose, interval, appointment calendar or delivery claim. Pembrolizumab arm contrasted with placebo arm, not separate postoperative randomization.",
+  "guardrails": [
+    "No dose, interval or appointment instructions.",
+    "Whole-strategy comparison cannot isolate postoperative component benefit.",
+    "Planned components are not proof of completed delivery."
+  ],
+  "sources": [
+    {
+      "label": "2020 primary report",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+    },
+    {
+      "label": "2024 overall-survival report",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/"
+    },
+    {
+      "label": "July 2026 prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228"
+    }
+  ],
+  "sourceStatus": "Selected actual source reading for the visual addition; existing teaching source-check scope retained. No scientific approval implied.",
+  "assets": [
+    {
+      "file": "whole-perioperative-strategy-v1-light.svg",
+      "sha256": "d0e02d1379ece130c3165e5a33bc461b6e7130ac4e7aecc285fe1f7a9d10e375"
+    },
+    {
+      "file": "whole-perioperative-strategy-v1-dark.svg",
+      "sha256": "aaf23ee1ef07f09ec93e4799bbbbacacfe4e8b6260b703e33d96f1c311434ded"
+    }
+  ],
+  "promptSHA256": "f1dd9dfa24dd78c8c77a0af4957cb962e6ce0119c466d9a49196238863c4a19d",
+  "review": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "scienceGrade": null,
+    "pixelGrade": null,
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0
+  },
+  "sourceReadAtUTC": "2026-10-13T17:03:35.928461+00:00",
+  "actualSourceBounds": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/",
+      "readBounds": "KEYNOTE-522 2020: complete primary abstract via Europe PMC; stage II-III, chemotherapy blocks, surgery and assigned postoperative phase",
+      "retrievedAtUTC": "2026-10-13T06:25:18.154734+00:00",
+      "failure": "HTTP 203 carrier was PubMed browser challenge; primary abstract read from Europe PMC fallback",
+      "fallbackURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32101663%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/",
+      "readBounds": "KEYNOTE-522 2024: complete primary abstract via Europe PMC; whole perioperative randomized strategy and overall-survival follow-up",
+      "retrievedAtUTC": "2026-10-13T06:25:18.350090+00:00",
+      "failure": "HTTP 203 carrier was PubMed browser challenge; primary abstract read from Europe PMC fallback",
+      "fallbackURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39282906%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228",
+      "readBounds": "DailyMed explicit version 228: selected section 14.20 study arms and statement that phase-specific benefit was not isolated; selected early-TNBC safety paragraph. No dosing content reproduced in candidates",
+      "retrievedAtUTC": "2026-10-13T06:25:20.313464+00:00",
+      "failure": null,
+      "fallbackURL": null
+    }
+  ],
+  "codeGeneratorSHA256": "82af9cc5503eebed50bfb602558b6e273d86fce43474bc702a32f2c3e6e737f3",
+  "displayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      {
+        "width": 393,
+        "height": 700
+      },
+      {
+        "width": 1440,
+        "height": 1000
+      }
+    ],
+    "minimumNativeLabelPx": 32,
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "carrierLimits": "Isolated education article using exact pinned renderer, theater, table enhancer and complete CSS; excludes live navigation/header/sidebar and external app data.",
+    "scienceApproval": null,
+    "humanReview": "pending"
+  }
+}

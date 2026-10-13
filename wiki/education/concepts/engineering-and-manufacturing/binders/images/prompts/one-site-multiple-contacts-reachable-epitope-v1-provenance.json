@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "Original code-drawn educational SVG pair",
+  "receipt": {
+    "author": "agent:/root/batch06_author_group2",
+    "role": "creative content and artwork author",
+    "createdAtUTC": "2026-10-13T17:02:45.545520+00:00"
+  },
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+  "learnerTask": "Distinguish single-site affinity, multiple-contact avidity and a reachable epitope.",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourcePreimageSHA256": "51ba98814caf7050c46eb6a20ad0fd469268f933b2d716683d386c2a3d0cb31b",
+  "generation": {
+    "method": "Original Python code writes SVG primitives; typography/shapes/colors composed by named author",
+    "model": null,
+    "imageModelCalls": 0,
+    "codeSHA256": "899edaafe07c8a1e1d61f9613b4d72aa55909082f8d71ba4d6f8dd5f8b0b31c2",
+    "originalBrief": "one-site-multiple-contacts-reachable-epitope-v1.txt",
+    "originalBriefSHA256": "a858485d2b9e12af25a2b290c38554d386a06bf6c2198c48c91b3ab0f675590e"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-light.svg",
+      "sha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8",
+      "bytes": 12587,
+      "theme": "light",
+      "width": 600,
+      "height": 950
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-dark.svg",
+      "sha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf",
+      "bytes": 12587,
+      "theme": "dark",
+      "width": 600,
+      "height": 950
+    }
+  ],
+  "scientificScope": "Separate single-site affinity, multivalent avidity and native epitope accessibility. Stronger binding in one assay does not prove better delivery, specificity, developability or clinical benefit.",
+  "sourcesRead": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3077882/",
+      "readDepth": "Selected primary text: abstract, introduction, methods including xenograft/penetration measurements, initial results; web reader lines118–169. Not the complete manuscript or supplement.",
+      "version": "Cancer Research2011 author manuscript",
+      "failure": "Direct retrieval returned challenge; web reader supplied selected primary text.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://doi.org/10.1073/pnas.1616408114",
+      "readDepth": "Primary indexed discussion excerpts only, including multi-assay interpretation and no definitive single-assay prediction; full methods not read.",
+      "version": "Jain2017 primary article",
+      "failure": "DOI403; PMC5293111 challenge; primary indexed search supplied discussion excerpts.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://www.fda.gov/media/71510/download",
+      "readDepth": "Selected official PDF sections I.C scope, II.A characterization/biological activity and impurity/aggregate context via web reader. FullPDF retrieved; not read cover-to-cover.",
+      "version": "Q6B1999",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    }
+  ],
+  "assumptions": [
+    "Schematic mechanism; objects not atomic structures and drawings not to biological scale.",
+    "No new quantitative study result, dosage, risk estimate or universal cutoff; original fictional practice and citations preserved."
+  ],
+  "authorDisplayChecks": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "smallestMobileInlineLabelPx": 18.6125,
+    "smallestMobileDefaultPreviewLabelPx": 18.4,
+    "minTextContrastRatio": 7.135,
+    "carrier": "Private copied actual server formatter, ImageTheater, WikiMarkdownFrame, SmartTableEnhancer and CSS; full education article. Actual live site/navigation/browser chrome and physical device not claimed.",
+    "personalInspection": "Original native and inline/default-preview PNGs in both themes; 393×700 and1440×1000 CSSviewports; author inspection only."
+  },
+  "status": {
+    "independentReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "liveDelivery": "not performed"
+  }
+}

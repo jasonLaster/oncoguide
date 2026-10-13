@@ -1,0 +1,8 @@
+Original visual brief, authored 2026-10-13T17:00:53.560297+00:00
+Author: agent:/root/batch06_author_group3
+
+Read the whole perioperative randomized strategy across two preoperative blocks, surgery and a postoperative phase.
+Previously untreated stage II–III TNBC trial strategy: paclitaxel/carboplatin, anthracycline/cyclophosphamide, surgery, postoperative assigned immune treatment. Pembrolizumab versus placebo assignment spans preoperative and postoperative phases.
+Historical trial structure for previously untreated stage II–III TNBC. No dose, interval, appointment calendar or delivery claim. Pembrolizumab arm contrasted with placebo arm, not separate postoperative randomization.
+Guardrails: ["No dose, interval or appointment instructions.", "Whole-strategy comparison cannot isolate postoperative component benefit.", "Planned components are not proof of completed delivery."]
+Design: original code SVG, paired light/dark palette, 600×900 viewBox, essential labels 32px or larger; read top-to-bottom; literal population and scope labels. No image generation.

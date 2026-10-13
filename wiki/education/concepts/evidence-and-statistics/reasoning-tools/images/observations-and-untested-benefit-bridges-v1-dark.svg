@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Which claims have support?</title><desc id="desc">Fictional variant-based claim map: sequence supported; activating interpretation untested; growth dependence not demonstrated; drug lowers a pathway signal while growth is unchanged; matched clinical benefit untested. Dashed outlines mark inference gaps.</desc><rect width="600" height="900" rx="20" fill="#101b28"/>
+<text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#f1f6fa">Which claims</text>
+<text x="28" y="91" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#f1f6fa">have support?</text>
+<text x="28" y="145" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#bed0de">Fictional claim map</text>
+<rect x="28" y="175" width="544" height="110" rx="16" fill="#183e40" stroke="#648399" stroke-width="2"/>
+<text x="48" y="215" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">Sequence finding</text>
+<text x="48" y="255" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Supported observation</text>
+<rect x="28" y="301" width="544" height="110" rx="16" fill="#1b2c3e" stroke="#648399" stroke-width="2" stroke-dasharray="9 7"/>
+<text x="48" y="341" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">Activating interpretation</text>
+<text x="48" y="381" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Untested in this report</text>
+<rect x="28" y="427" width="544" height="110" rx="16" fill="#1b2c3e" stroke="#648399" stroke-width="2" stroke-dasharray="9 7"/>
+<text x="48" y="467" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">Cancer growth dependence</text>
+<text x="48" y="507" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Not demonstrated here</text>
+<rect x="28" y="553" width="544" height="148" rx="16" fill="#183e40" stroke="#648399" stroke-width="2"/>
+<text x="48" y="593" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">Drug experiment in model</text>
+<text x="48" y="633" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Signal ↓; growth unchanged</text>
+<text x="48" y="672" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">Biochemical effect observed</text>
+<rect x="28" y="717" width="544" height="110" rx="16" fill="#1b2c3e" stroke="#648399" stroke-width="2" stroke-dasharray="9 7"/>
+<text x="48" y="757" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#74dfce">Matched clinical benefit</text>
+<text x="48" y="797" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#f1f6fa">No clinical comparison supplied</text>
+<text x="28" y="879" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#bed0de">Questions, not required test steps.</text>
+</svg>

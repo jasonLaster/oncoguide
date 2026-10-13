@@ -33,6 +33,16 @@ The analogy stops at biology. There is no single mandatory experimental sequence
 
 ## How it works
 
+<img src="./images/observations-and-untested-benefit-bridges-v1-light.svg" alt="Fictional variant-based claim map: sequence supported; activating interpretation untested; growth dependence not demonstrated; drug lowers a pathway signal while growth is unchanged; matched clinical benefit untested. Dashed outlines mark inference gaps." data-theme-pair="./images/observations-and-untested-benefit-bridges-v1-dark.svg" />
+
+*A supported sequence and lower pathway signal leave biological, dependence and clinical-benefit bridges unresolved.*
+
+Solid cards name the fictional report’s supported observations. Dashed cards name claims it has not established. A reduced pathway signal is a biochemical drug effect in that model; it does not by itself verify action on the intended target. Unchanged cell growth does not show growth dependence or settle every possible effect. The order organizes questions, not a mandatory experimental sequence.
+
+*Visual scope: Fictional model and report only. No variant, product or patient claim. Qualitative observations; no effect size, exposure or clinical estimate invented.*
+
+
+
 A variant is a change in [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) sequence relative to a reference. [Variant calling](/wiki/education/concepts/measurement/sequencing-basics/variant-calling) supports the observation. [Effect prediction](/wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction) supplies a model-based hypothesis. Neither automatically demonstrates what the altered gene product does in the tumor.
 
 | Link to examine | What would strengthen it | What remains separate |
@@ -85,6 +95,8 @@ A fictional report calls a variant activating. The sequence is well supported. A
 [Dependency mapping](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) tests requirements in specified models. [Absence of evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence) keeps an untested or uninformative link distinct from evidence against it.
 
 ## Sources and scope
+
+Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 Source check: October 10, 2026. General reasoning, with a fictional model. Functional variant classification and cancer drug actionability are distinct frameworks. Expert and learner review pending.
 

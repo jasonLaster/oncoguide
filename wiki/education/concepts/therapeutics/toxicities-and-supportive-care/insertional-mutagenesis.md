@@ -41,14 +41,9 @@ When a malignancy follows engineered-cell therapy, investigators must establish 
 
 A post-treatment cancer is therefore a safety signal, not automatic proof of insertional causation. One deeply investigated secondary T-cell lymphoma after CAR-T therapy lacked evidence of oncogenic vector integration. [The investigation](https://pubmed.ncbi.nlm.nih.gov/38865660/) illustrates the value of molecular attribution alongside clinical reporting.
 
-```mermaid
-flowchart TD
-  A["Map the insertion"] --> B["Assess its<br/>biological effect"]
-  B --> C["Investigate<br/>clonal growth"]
-  C --> D["Separate diagnosis<br/>from causal attribution"]
-```
+<img src="./images/integration-location-clone-and-diagnosis-v1-light.svg" alt="Three insertion locations show no depicted gene effect, gene interruption and altered regulation, followed by fictional clone descendants without assuming cancer." data-theme-pair="./images/integration-location-clone-and-diagnosis-v1-dark.svg" />
 
-*Integration, clonal expansion and malignancy are distinct observations; causation needs more than temporal order.*
+*Location can alter a gene or its regulation, but an insertion or an expanding clone alone does not establish malignancy or insertion-driven causation.*
 
 ## Why it matters in cancer
 

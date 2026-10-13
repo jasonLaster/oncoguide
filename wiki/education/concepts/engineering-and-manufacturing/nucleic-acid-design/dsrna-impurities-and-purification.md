@@ -37,15 +37,9 @@ Innate sensing depends on RNA length, structure, chemistry, delivery and cell co
 
 Chromatographic separation and selective binding are examples of cleanup strategies. Baiersdörfer and colleagues tested cellulose binding of dsRNA under specified conditions, with measurements of recovered message, integrity and cellular effects. Their method did not remove every tested short duplex equally. A purification improvement must therefore consider the structures removed, intended RNA recovered and other remaining contaminants; published method performance is not a clinical impurity limit.
 
-```mermaid
-%%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
-flowchart TD
-  A[Synthesize RNA] --> B[Purify]
-  B --> C[Measure impurities]
-  C --> D[Check integrity]
-```
+<img src="./images/paired-byproducts-folds-and-truncations-v1-light.svg" alt="Three panels distinguish two paired RNA strands, a shorter single strand, and a fold within one RNA message, with separate pairing and integrity questions." data-theme-pair="./images/paired-byproducts-folds-and-truncations-v1-dark.svg" />
 
-*Lower dsRNA signal does not establish full-length RNA or absence of other contaminants. Independent checks remain necessary.*
+*Pairing, transcript length and folding within a message are distinct questions. Each assay sees only its characterized scope.*
 
 ## Why it matters in cancer
 

@@ -72,6 +72,14 @@ Follow-up matters. Some people die before a brain event can occur: death is a **
 
 **Fictional complete two-year follow-up:** Among 100 enrolled patients, 20 develop a recurrence; five of those have brain involvement. A summary says the two-year patient risk of brain involvement was 25%. Is that arithmetic answering the right question?
 
+<img src="./images/patient-event-denominators-and-clocks-v1-light.svg" alt="Fictional group of 100 enrolled patients followed completely for two years from enrollment. Twenty recur, and five of those have brain involvement. Nested dot categories show five among twenty and five among one hundred." data-theme-pair="./images/patient-event-denominators-and-clocks-v1-dark.svg" />
+
+*Five among the 20 patients who recur is 25%; five among all 100 enrolled is 5%. These raw fractions answer different questions.*
+
+Each dot represents one fictional patient. Read the total group first, then the recurrence subset inside it. The five orange dots belong to both denominators. Both fractions describe the two years after enrollment in this example. Restarting the clock at recurrence would ask a different question.
+
+*Visual scope: Fictional complete two-year follow-up from enrollment. Assumed: one dot per patient, 20 patients recur, five of those have brain involvement, no losses to follow-up. Raw fractions only, not competing-risk estimates or personal forecasts.*
+
 **Answer:** Five divided by 20 is 25% of the patients who recurred. Five divided by all 100 is 5% of the enrolled group. These are raw fractions in this simplified complete-follow-up example, not a method for handling censored real-world data. The group, period and event definition still belong beside either number.
 
 ## Explain it back
@@ -88,6 +96,8 @@ Keep the cohort and clock attached to the number; a brain-risk headline is not a
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
 
 ## Sources
+
+Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 Source check: October 10, 2026. The arithmetic exercise is fictional; historical cohorts illustrate evidence boundaries. Expert and learner review remain pending.
 

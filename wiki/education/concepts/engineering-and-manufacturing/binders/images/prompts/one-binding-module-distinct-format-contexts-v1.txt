@@ -1,0 +1,8 @@
+ORIGINAL ART BRIEF
+Author: agent:/root/batch06_author_group2
+Task: See why the same binding module changes its contact and signaling context in a soluble format versus a membrane CAR.
+
+Keep an identical teal binder shape and target in soluble and membrane-CAR scenes. Soluble molecular assembly has no intracellular receptor tail. CAR spans opposing cell surfaces, with continuous recognition-module-to-spacer-to-membrane-to-internal-signal connection. Show contact geometry, expression and clustering questions; no universal best architecture/affinity, safety or efficacy ranking.
+
+Style: original code-drawn molecular cartoon, 600×950, vertically ordered mechanism panels, warm light theme and deep navy dark theme; identical layout/labels/objects in both. Essential labels ≥32 native pixels. Teal recognition/chain, orange chemical/site emphasis, explicit direction arrows and text. Spatial shapes are schematic, not atomic structures or scale measurements. No study quantities, individual case, treatment recommendation or universal cutoff. No image-model calls.
+Guard: Keep the same recognition module while changing format, geometry and signaling context. Do not infer that one architecture or affinity is universally safer, more active or more effective.

@@ -34,6 +34,12 @@ Imagine choosing a clip. You care about its grip, whether it reaches the edge, a
 
 ## How it works
 
+<img src="./images/one-site-multiple-contacts-reachable-epitope-v1-light.svg" alt="Three panels separate a single binder contact, linked contacts to nearby cell-surface targets, and a blocked epitope on a folded target." data-theme-pair />
+
+*One contact measures affinity; multiple contacts create avidity; an inaccessible site can defeat either.*
+
+Follow the teal binder in each panel. The first tests one interaction. The second adds linked contacts to nearby targets. The third changes access to the site. Stability, aggregation and unwanted binding still need their own tests.
+
 **Affinity** describes an individual binding interaction under specified conditions. For a simple one-to-one equilibrium, a lower dissociation constant, **K<sub>D</sub>**, means tighter binding. It is a concentration, often reported in nanomolar units. Association and dissociation rates describe how quickly binding forms and breaks. Predicted binding still needs experimental testing.
 
 **Avidity** describes the combined strength of multiple interactions. A molecule with several binding sites may repeatedly reconnect to nearby targets. Target density, spacing and the number of binding sites can therefore change apparent binding. A cell-binding result for a multivalent product is not automatically its single-site affinity.

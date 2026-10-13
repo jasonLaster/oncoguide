@@ -1,0 +1,8 @@
+ORIGINAL ART BRIEF
+Author: agent:/root/batch06_author_group2
+Task: Understand how a selected display hit retains the candidate's genetic identity while predicted scores require tests.
+
+Show a cutaway phage display carrier with candidate B on the surface and gene B inside, the intended target retaining it while other hits wash away, recovery and sequencing of B, making separate protein B and testing target/tag/negative controls. Place model ranking in a distinct lane with make-and-measure follow-up. No universal recovery rate or validated efficacy.
+
+Style: original code-drawn molecular cartoon, 600×950, vertically ordered mechanism panels, warm light theme and deep navy dark theme; identical layout/labels/objects in both. Essential labels ≥32 native pixels. Teal recognition/chain, orange chemical/site emphasis, explicit direction arrows and text. Spatial shapes are schematic, not atomic structures or scale measurements. No study quantities, individual case, treatment recommendation or universal cutoff. No image-model calls.
+Guard: Preserve the link between a selected display candidate and its recoverable sequence identity. Enrichment and model ranking are not measured binding, a universal recovery rate or clinical validation.

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-provenance",
+  "author": "agent:/root/batch06_author_group1",
+  "integrationAuthor": "root",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+  "learnerTask": "Locate cap, UTRs, coding region and tail, including start-context overlap.",
+  "constructedAtUTC": "2026-10-13T13:09:41.994267+00:00",
+  "medium": "original editable SVG code",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "referenceImages": [],
+  "sourceOfArtwork": "Author-drawn geometry and text; no traced or copied source figures.",
+  "codeSHA256": "c611a758c9d6a344f15832239b3c1bae19f384529b49628e7b9f4faf82fb1760",
+  "prompt": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/cap-start-context-and-tail-v1.txt",
+    "sha256": "99cb725883ef5509734419c48690b247aeb822ba30ac0355bfd84da7db818c14"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-light.svg",
+      "sha256": "96421cb38d9dc93b36894452d36460975c20e8b8b1dcc073c0ed8c2018f7c937",
+      "bytes": 5295,
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-dark.svg",
+      "sha256": "8258de1481922c36a004c217cee85c1acc5b89d767b5eb3a3247eca8208bb0c7",
+      "bytes": 5295,
+      "theme": "dark"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9849/",
+      "label": "Cooper, The Cell: translation of mRNA, including ends and UTRs",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "readDepth": "Access attempt only: NCBI browser challenge. Textbook citation retained from preimage; no new read claimed.",
+      "accessFailure": "Web tool returned reCAPTCHA challenge."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3943125/",
+      "label": "Kozak, 1986: start-context mutagenesis in a preproinsulin construct",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "3943125",
+      "title": "Point mutations define a sequence flanking the AUG initiator codon that modulates translation by eukaryotic ribosomes.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00",
+      "accessFailure": "Initial web HTML returned client challenge, inaccessible redirect or empty PubMed HHS footer. NCBI E-utilities XML provided the primary abstract as recorded."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1682219/",
+      "label": "Gallie, 1991: cap/poly(A) interaction in tested cell systems",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "1682219",
+      "title": "The cap and poly(A) tail function synergistically to regulate mRNA translational efficiency.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16940422/",
+      "label": "Holtkamp et al., 2006: antigen-RNA 3\u2032 features in dendritic-cell experiments",
+      "readDateUTC": "2026-10-13",
+      "sourceVersion": "publication identified by URL; source publication date retained in label",
+      "scope": "Existing public-owner citation retained. Supports its stated experimental system; not a clinical specification.",
+      "pubmedId": "16940422",
+      "title": "Modification of antigen-encoding RNA increases stability, translational efficacy, and T-cell stimulatory capacity of dendritic cells.",
+      "readDepth": "PubMed primary abstract and bibliographic record; no claim of full-text review",
+      "retrievedDateUTC": "2026-10-13T00:58:15.912503+00:00"
+    }
+  ],
+  "assumptions": "Schematic not to scale. Object counts, positions and clone descendants are illustrative; no risk, dose, time or population estimate. Fictional practice examples in the owner remain unchanged.",
+  "themeConsistency": "Same coordinates, labels, objects and relationships; palette changes only.",
+  "authorChecks": {
+    "nativeThemesInspected": [
+      "light",
+      "dark"
+    ],
+    "nativeMinimumTextFontPx": 32,
+    "pinnedReader": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileMinimumInlineLabelPx": 18.6125,
+    "mobileMinimumDefaultPreviewLabelPx": 18.4,
+    "personallyInspectedCaptureCount": 10,
+    "pageErrors": 0,
+    "keyboardEnterAndEscapeChecked": true,
+    "captionAndDescriptiveAltPresent": true,
+    "qualification": "Author mechanical and visual observations only; no scientific or pixel grade.",
+    "fixtureLimits": "Exact pinned rendering/components/shared app CSS in isolated full-width article. Excludes app navigation, auth and live deployment; not production verification.",
+    "checkedAtUTC": "2026-10-13T17:07:26.775933+00:00"
+  },
+  "review": {
+    "independentPeer": "Original whole-package REVISE; B6-G1-C1 corrected by author; focused same-reviewer addendum pending.",
+    "expert": "pending",
+    "learner": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  },
+  "originalCodeSHA256": "c20915766c7d10a7b64667ee2c9eeeb4d5c7135161adfeacf9815c590fd145e6",
+  "correctionCodeQualification": "Current code hash is the focused literal replacement applied to original sealed SVGs; originalCodeSHA256 retains initial construction-code custody.",
+  "correctedAtUTC": "2026-10-13T17:07:26.775933+00:00",
+  "correction": {
+    "id": "B6-G1-C1",
+    "originalWholeReviewVerdict": "REVISE",
+    "originalWholeReviewSealedAtUTC": "2026-10-13T17:04:24.153Z",
+    "originalWholeReviewHandoffSHA256": "5cf038b2b5ac94612bf6023c68e27b3c16e91a028dfa2b762dda109c3ebf2d86",
+    "reviewer": "agent:/root/batch06_review_group1",
+    "oldLabel": "Placement alone proves no output.",
+    "newLabel": "Placement does not prove output.",
+    "scope": "One literal label per theme; no geometry, owner Markdown, scientific claims, source scope or prompt change."
+  }
+}

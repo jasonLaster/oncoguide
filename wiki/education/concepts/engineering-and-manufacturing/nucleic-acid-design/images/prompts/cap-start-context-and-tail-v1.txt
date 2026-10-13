@@ -1,0 +1,9 @@
+Original illustration brief — mRNA construct anatomy
+Author: agent:/root/batch06_author_group1
+Learner task: Locate cap, UTRs, coding region and tail, including start-context overlap.
+Draw original code-authored SVGs at 600 × 1000, paired light and dark. Keep geometry and words identical. Use high-contrast ink, blue RNA/vector DNA, warm orange for alternative material/inserts where the specific diagram labels its role, and explicit object/compartment labels. All labels at least 32 SVG pixels; verify actual mobile inline and default-preview effective sizes.
+Scene: A schematic mRNA locates cap, untranslated regions, coding start and stop, and tail; an enlarged start boundary shows overlapping start context.
+Takeaway: The start context crosses the untranslated/coding boundary. It is a sequence neighborhood, not a separate feature inserted between them.
+Guardrails: Show cap, untranslated regions, coding region and tail schematically, with start-context overlap rather than falsely disjoint boxes. Feature placement is not a universal construct recipe or proof of expression.
+Schematic, not to scale. Counts/positions are illustrative rather than empirical frequencies. No patient, dosing, protocol, risk percentage or clinical prediction. Preserve ambiguity and show no guaranteed outcome.
+Construction: editable SVG code written by the named author. No image-model generation requested or used (model=null, image calls=0).

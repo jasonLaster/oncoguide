@@ -1,0 +1,8 @@
+ORIGINAL ART BRIEF
+Author: agent:/root/batch06_author_group2
+Task: Follow the resin-bound chain through protection removal, coupling, washing and final release.
+
+Draw a schematic conventional carboxyl-end-to-resin tether consistently at right, peptide extension at the amino end to left, terminal protection removed then next protected amino acid coupled then soluble leftovers washed away. Return arrow repeats remove/couple/wash; resin still attached. Separate final cleavage and side-chain deprotection (explained in body), purification, identity/quality checks, product release. No quantities, timings, reagents, complete-coupling claim or manufacturing recipe.
+
+Style: original code-drawn molecular cartoon, 600×950, vertically ordered mechanism panels, warm light theme and deep navy dark theme; identical layout/labels/objects in both. Essential labels ≥32 native pixels. Teal recognition/chain, orange chemical/site emphasis, explicit direction arrows and text. Spatial shapes are schematic, not atomic structures or scale measurements. No study quantities, individual case, treatment recommendation or universal cutoff. No image-model calls.
+Guard: Locate resin attachment and the repeated protection/coupling/washing cycle schematically. Final cleavage, purification, identity and release are separate; do not imply complete coupling or a manufacturing recipe.

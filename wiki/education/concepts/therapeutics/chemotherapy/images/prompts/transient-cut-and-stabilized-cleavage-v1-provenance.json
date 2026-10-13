@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "Original code-drawn educational SVG pair",
+  "receipt": {
+    "author": "agent:/root/batch06_author_group2",
+    "role": "creative content and artwork author",
+    "createdAtUTC": "2026-10-13T17:02:45.548255+00:00"
+  },
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+  "learnerTask": "See normal topoisomerase cut/reseal versus a stabilized cleavage complex",
+  "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6",
+  "sourcePreimageSHA256": "31c05ba6945b36451ee7c06d5cbbc779d1ceda543fbe4225ab9d06e6c9d4ee2f",
+  "generation": {
+    "method": "Original Python code writes SVG primitives; typography/shapes/colors composed by named author",
+    "model": null,
+    "imageModelCalls": 0,
+    "codeSHA256": "899edaafe07c8a1e1d61f9613b4d72aa55909082f8d71ba4d6f8dd5f8b0b31c2",
+    "originalBrief": "transient-cut-and-stabilized-cleavage-v1.txt",
+    "originalBriefSHA256": "136cc94b3a1f713cdab2e32b83944da9a7ceb3f6cf8a9685e046c2609e9ed884"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-light.svg",
+      "sha256": "bc2fe6e4a55ae094a8766a6ea72ac4f87bdf30ce04c0c2f9b889a8cac1b71784",
+      "bytes": 8906,
+      "theme": "light",
+      "width": 600,
+      "height": 950
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-dark.svg",
+      "sha256": "2f57537437d4e0077837b0390e5a5a62e4e6ae467f70d334989291955fdfd5f1",
+      "bytes": 8906,
+      "theme": "dark",
+      "width": 600,
+      "height": 950
+    }
+  ],
+  "scientificScope": "Do not depict simply switching enzyme off; multiple mechanisms; no efficacy/cardiac-risk prediction",
+  "sourcesRead": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/doxorubicin-hydrochloride",
+      "readDepth": "Complete official mechanism dictionary entry read in web reader; navigation excluded.",
+      "version": "Current retrieved NCIentryOctober13UTC2026",
+      "failure": "DirectHTML did not supply entry; web reader did.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/epirubicin-hydrochloride",
+      "readDepth": "Complete official mechanism dictionary entry read in web reader; navigation excluded.",
+      "version": "Current retrieved NCIentryOctober13UTC2026",
+      "failure": "DirectHTML did not supply entry; web reader did.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6093249/",
+      "readDepth": "Complete primary abstract read from exact PMID EuropePMC core record; full paper/methods not read.",
+      "version": "Tewey1984",
+      "failure": "DirectPubMed challenge203; recovered abstract.",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/050467s077lbl.pdf",
+      "readDepth": "Selected official PDFsections5.1 Cardiomyopathy and12.1 Mechanism read from pdftotext; fullPDF retrieved, not full prescribing instructions read.",
+      "version": "FDA2019labelReferenceID4475028, expressly dated and not claimed latest",
+      "checkedAtUTC": "2026-10-13T17:06:41.237062+00:00"
+    }
+  ],
+  "assumptions": [
+    "Schematic mechanism; objects not atomic structures and drawings not to biological scale.",
+    "No new quantitative study result, dosage, risk estimate or universal cutoff; original fictional practice and citations preserved."
+  ],
+  "authorDisplayChecks": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "smallestMobileInlineLabelPx": 18.6125,
+    "smallestMobileDefaultPreviewLabelPx": 18.4,
+    "minTextContrastRatio": 7.135,
+    "carrier": "Private copied actual server formatter, ImageTheater, WikiMarkdownFrame, SmartTableEnhancer and CSS; full education article. Actual live site/navigation/browser chrome and physical device not claimed.",
+    "personalInspection": "Original native and inline/default-preview PNGs in both themes; 393×700 and1440×1000 CSSviewports; author inspection only."
+  },
+  "status": {
+    "independentReview": "pending",
+    "expertReview": "pending",
+    "learnerReview": "pending",
+    "canonicalAdoption": "pending",
+    "coverageCredit": 0,
+    "liveDelivery": "not performed"
+  }
+}

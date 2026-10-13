@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-155",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+  "author": "agent:/root/batch06_author_group2",
+  "creativeAuthor": "agent:/root/batch06_author_group2",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/batch06_review_group2",
+  "independentReviewer": "agent:/root/batch06_review_group2",
+  "reviewedAtUTC": "2026-10-13T17:21:55.000Z",
+  "timePrecision": "UTC clock tool whole seconds, zero-filled three fractional digits",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "4ff78d5a39741c21e1de951289f868ebfc56f765ca798d9f3f12581f94259acf",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-light.svg",
+      "sha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8",
+      "bytes": 12587,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-dark.svg",
+      "sha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf",
+      "bytes": 12587,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 950,
+        "viewBox": "0 0 600 950"
+      }
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "51ba98814caf7050c46eb6a20ad0fd469268f933b2d716683d386c2a3d0cb31b",
+    "learnerTask": "Distinguish single-site affinity, multiple-contact avidity and a reachable epitope.",
+    "gap": "The grip analogy and assay table do not show multiple contacts or an inaccessible native binding site.",
+    "accuracyGuardrails": "Separate single-site affinity, multivalent avidity and native epitope accessibility. Stronger binding in one assay does not prove better delivery, specificity, developability or clinical benefit.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The same schematic binding shape makes one individual contact, two linked contacts at nearby membrane targets, and fails to access an occluded site. Affinity is defined under one-to-one conditions, avidity depends on geometry/reconnection, and native access remains a separate test. Neither the schematic nor its caption promotes higher affinity to better tumor delivery or clinical benefit; stability and unwanted recognition remain separate. The fictional A/B example correctly identifies 1 nM as tighter than 10 nM under the same single-site assay while declining a treatment ranking. No physical scale, experimental yield or outcome quantity is encoded in the drawing.",
+    "humanReview": "pending"
+  },
+  "frozenTask": {
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/123",
+    "originalTaskRowSHA256": "b64637172ad810cbc85098b3e7cbc41fbece39ddf32467a6301bd1617e2761f5",
+    "sourceBaseCommit": "afe15cdbbdf23c9d6ee29b074a96bbd81c0970e6"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+        "sha256": "4ff78d5a39741c21e1de951289f868ebfc56f765ca798d9f3f12581f94259acf",
+        "bytes": 9245
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-light.svg",
+        "sha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8",
+        "bytes": 12587
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-dark.svg",
+        "sha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf",
+        "bytes": 12587
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/one-site-multiple-contacts-reachable-epitope-v1.txt",
+        "sha256": "a858485d2b9e12af25a2b290c38554d386a06bf6c2198c48c91b3ab0f675590e",
+        "bytes": 1157
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/one-site-multiple-contacts-reachable-epitope-v1-provenance.json",
+        "sha256": "a43f7c5d77cc8642c1796f8d218537cd5546f4d6e7e8c66ccf07ec5f69a4ed8a",
+        "bytes": 4347
+      }
+    ],
+    "originalEntireOwnerPreserved": true,
+    "authorManifestSHA256": "03de0707c0fb4487966808a2eb05d5727656fd3ba062be1f5266195361a438d8",
+    "originalBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "model": null,
+    "imageModelCalls": 0
+  },
+  "sourceReview": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21406401/",
+      "version": "Rudnick 2011",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/21406401.json",
+        "sha256": "738575618aae45de9297b5c39754b893c50cf2e3cea568c01952e2ff3d372056"
+      }
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28096333/",
+      "version": "Jain 2017",
+      "readDepth": "Complete primary abstract independently retrieved and read from EuropePMC exact PMID core result; full manuscript, methods and supplement not read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "retrievedSourceCustody": {
+        "path": "private/sources/28096333.json",
+        "sha256": "b3a41b21a7113fd488925a2f8b27bd52d7d0d236e8fe375c48f277797fb43183"
+      }
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3077882/",
+      "version": "Rudnick 2011 author manuscript",
+      "readDepth": "Primary indexed abstract excerpts read; full-text web open returned challenge. Complete abstract separately retrieved from exact PMID. No full-methods review claimed.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "accessFailuresAndLimits": [
+        "Direct web open and reopened indexed result: reCAPTCHA; EuropePMC fullTextXML HTTP 500."
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5293111/",
+      "version": "Jain 2017",
+      "readDepth": "Primary indexed discussion excerpt read concerning no single assay definitively predicting failure and multi-assay assessment. Complete abstract independently read.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2",
+      "accessFailuresAndLimits": [
+        "EuropePMC fullTextXML HTTP 500; full paper methods not read."
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/71510/download",
+      "version": "Q6B August 1999",
+      "readDepth": "Selected official PDF sections II.A characterization, biological activity, immunochemical affinity/avidity, purity/impurities and degradation terminology read through web text. Full document not read cover to cover.",
+      "checkedAtUTC": "2026-10-13T17:21:55.000Z",
+      "timePrecision": "clock tool provided whole seconds; milliseconds zero-filled",
+      "independentReader": "agent:/root/batch06_review_group2"
+    }
+  ],
+  "displayReview": {
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "actualPinFilesIndependentlyVerified": 87,
+    "freshOriginalPNGsPersonallyInspected": 10,
+    "captures": [
+      {
+        "path": "private/captures/next-gap-155-dark-desktop-default-preview.png",
+        "sha256": "b3f159977a7bc4b42a8f75e21ea37d0b206be54b2baaeebef00fc37959454a52",
+        "bytes": 148307,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-dark-desktop-inline.png",
+        "sha256": "b181c24be363fb604441de873a03abc451e1ba20a9564d6a2f9cccdcc438ed8e",
+        "bytes": 116003,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-dark-mobile-default-preview.png",
+        "sha256": "671e3d8cf7d3903979fc0e233c6772dceb5e640c0ca0af02f6bf081878632496",
+        "bytes": 75633,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-dark-mobile-inline.png",
+        "sha256": "ac3b0da578a783ab9cd7c01d14eae676fabad919f788219f759b857f699d9a7a",
+        "bytes": 80340,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-dark-native.png",
+        "sha256": "19493112b0678fc8b643b4f53138c4c644d1910062327a9990271d039c5eb057",
+        "bytes": 103865,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-light-desktop-default-preview.png",
+        "sha256": "948a92b01af9b995537d3e48ad600dc02661341063aa73899c7d9d2c998e29ae",
+        "bytes": 148391,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-light-desktop-inline.png",
+        "sha256": "1a3b6136090d82ec3fbe6bf867bcf35f6a576bfe7744512f21d67478b4a560c8",
+        "bytes": 114241,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-light-mobile-default-preview.png",
+        "sha256": "074f135ef61e4164d1e2920856b3e19c20e579334bc914f296514f749fa0cbe3",
+        "bytes": 75804,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-light-mobile-inline.png",
+        "sha256": "3ebc4fc0f67214aedc7bdfe2ad1678c9a06889f29eb24d5aef2fb7ec172c5734",
+        "bytes": 79285,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      },
+      {
+        "path": "private/captures/next-gap-155-light-native.png",
+        "sha256": "01df949ba733c1c895b626f2777fdc0a1487d1818d52781dd68cd204b0306724",
+        "bytes": 101823,
+        "personallyInspectedBy": "agent:/root/batch06_review_group2",
+        "inspectionCompletedAtUTC": "2026-10-13T17:21:55.000Z",
+        "method": "view_image of fresh original PNG; no crop, edit or composite",
+        "observation": "One/linked/blocked contacts are distinct; no text collisions or cropped required labels; affinity-to-benefit warning visible.",
+        "viewportLimit": "Inline screenshot is one document-scroll position; some lower edge requires ordinary scrolling. Default preview contains full art. Headless CSSviewport does not establish physical-device or live-app rendering."
+      }
+    ],
+    "minMobileInlineLabelPx": 18.6125,
+    "minMobileDefaultPreviewLabelPx": 18.4,
+    "nativeWidth": 600,
+    "nativeHeight": 950,
+    "carrierLimits": "Private full education article with exact formatter/ImageTheater/Frame/SmartTableEnhancer and copied full shared/app CSS; three literal Tailwind hidden/dark theme utility rules. App header/sidebar/navigation, live data and physical device not represented.",
+    "labelAndArrowAssessment": "Clear and readable; no observed artwork text overlap or clipping. Ordinal panel numbers are ordering labels, not measured quantities."
+  },
+  "requiredCorrections": [],
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignmentAdoption": "pending",
+  "delivery": "pending",
+  "sourceFitCreditGrantedNow": 0,
+  "coverageCreditGrantedNow": 0,
+  "liveDeliveryCreditGrantedNow": 0
+}

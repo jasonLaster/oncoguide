@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Count strategies within their setting</title><desc id="desc">Fictional early-disease plan groups combination A before surgery and medicine B afterward; a later metastatic setting has its first systemic strategy. Earlier exposures remain in history.</desc><rect width="600" height="900" rx="20" fill="#f6f8fb"/>
+<text x="28" y="48" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#153044">Count strategies</text>
+<text x="28" y="91" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#153044">within their setting</text>
+<text x="28" y="145" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#3d5970">Fictional planned history</text>
+<rect x="28" y="180" width="544" height="310" rx="16" fill="#e0f3ee" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="223" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">Early-disease strategy</text>
+<rect x="48" y="250" width="504" height="68" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="64" y="295" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">Before surgery: combination A</text>
+<path d="M300 321v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<text x="64" y="377" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#153044">Surgery</text>
+<path d="M300 388v16m-10-10 10 10 10-10" fill="none" stroke="#6d879b" stroke-width="3"/>
+<text x="64" y="455" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">After surgery: medicine B</text>
+<path d="M28 526H572" stroke="#6d879b" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="28" y="569" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#3d5970">Later: metastatic setting</text>
+<rect x="28" y="600" width="544" height="140" rx="16" fill="#ffffff" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="640" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#007968">First systemic strategy here</text>
+<text x="48" y="680" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">First-line metastatic</text>
+<text x="48" y="719" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">under this example’s rule</text>
+<rect x="28" y="765" width="544" height="110" rx="16" fill="#fff0db" stroke="#6d879b" stroke-width="2"/>
+<text x="48" y="805" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#8b4900">Earlier A + B remain</text>
+<text x="48" y="845" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#153044">in the exposure history.</text>
+</svg>

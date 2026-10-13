@@ -68,6 +68,14 @@ There is no universal response percentage that safely triggers treatment omissio
 
 In a fictional trial, early surgery requires both a specified MRI result and an adequate negative biopsy. The scan meets its criterion, but the biopsy is inadequate. Has the participant met the study's early-surgery rule?
 
+<img src="./images/predefined-rule-and-interpretable-inputs-v1-light.svg" alt="Fictional trial checkpoint: MRI criterion met, biopsy inadequate. An AND rule requires both MRI criterion met and an adequate negative biopsy, so the rule is not met. Outcome evidence remains separate." data-theme-pair="./images/predefined-rule-and-interpretable-inputs-v1-dark.svg" />
+
+*A favorable scan cannot replace an inadequate biopsy; reading a branch rule does not prove the branch improves outcomes.*
+
+Apply only the stated fictional rule. The magnetic resonance imaging (MRI) input meets its criterion, but the biopsy cannot be interpreted adequately. Because the rule requires both an appropriate scan and an adequate negative biopsy, this participant has not met it. This is protocol literacy, not an instruction to omit treatment or choose surgery.
+
+*Visual scope: Fictional trial, checkpoint and combined rule; no numerical cutoff. Response prediction is distinct from measured surgical pathologic complete response, and branch logic is distinct from long-term strategy benefit.*
+
 **Answer:** No. One favorable result cannot replace the missing assessment. This tells us how to read the fictional protocol, not what a clinician should prescribe outside it.
 
 ## Explain it back
@@ -88,6 +96,8 @@ In a fictional trial, early surgery requires both a specified MRI result and an 
 - [Randomization and trial phases](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization)
 
 ## Sources and scope
+
+Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 Source-checked October 10, 2026. General education; the practice trial is fictional. Expert and learner review remain pending. The cited studies illustrate defined strategies, not individual treatment instructions.
 

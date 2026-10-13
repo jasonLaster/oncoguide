@@ -1,0 +1,8 @@
+Original visual brief, authored 2026-10-13T17:00:53.560297+00:00
+Author: agent:/root/batch06_author_group3
+
+Identify supported observations and untested bridges from exact variant to clinical benefit.
+Fictional variant-based claim map: sequence supported; activating interpretation untested; growth dependence not demonstrated; drug lowers a pathway signal while growth is unchanged; matched clinical benefit untested. Dashed outlines mark inference gaps.
+Fictional model and report only. No variant, product or patient claim. Qualitative observations; no effect size, exposure or clinical estimate invented.
+Guardrails: "Mark measured observations versus untested inference bridges without implying a mandatory experimental sequence. Variant, target, perturbation, product activity and clinical benefit require separately scoped support."
+Design: original code SVG, paired light/dark palette, 600×900 viewBox, essential labels 32px or larger; read top-to-bottom; literal population and scope labels. No image generation.
