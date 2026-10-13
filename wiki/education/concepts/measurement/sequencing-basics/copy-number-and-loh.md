@@ -7,7 +7,7 @@ glossary_anchor: "loh"
 aliases: ["copy number", "allele-specific copy number", "copy-neutral LOH", "loss of heterozygosity", "LOH"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/allele-and-zygosity]]", "[[wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage]]", "[[wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
+used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]","[[wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-10-10"
@@ -112,4 +112,5 @@ Source check: October 10, 2026. General copy-state education; examples are ficti
 
 - [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
 - [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
+- [Test a copy-aware clone model](/wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model)
 <!-- END GENERATED USED IN -->

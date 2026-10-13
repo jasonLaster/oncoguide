@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-072",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+  "author": "root",
+  "authorRole": "Canonical integration of finite optional navigation and maintained generated metadata only; no new artwork or original medical-writing attribution.",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-13T00:27:25.522Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "cb4b62626cdc235d790d9f96dba4b2aaf0bde70c5dba848aad926d0700ddd43d",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+      "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+      "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "c78b26a3689a519055bda36e632f5b5f3cea6c6e48b2693c0f16bc0be9e1f9e9",
+    "learnerTask": "Compare branching ancestry with changing absolute cell counts and relative fractions.",
+    "gap": "Neither an ancestry tree nor a population-size visual is present. The 900A/100B to 90A/90B exercise is an unusually strong reproducible chart opportunity: absolute counts and proportional shares can be shown together so relative enrichment is not drawn as expansion.",
+    "accuracyGuardrails": [
+      "Direct fictional counts, not VAF or CCF.",
+      "No inference of selection versus drift/sampling from snapshots alone.",
+      "Do not draw evolution as a ladder of improving cells."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the entire exact previously credited owner and current owner. Removing only the maintained used_by metadata and marked GENERATED USED IN navigation block makes them byte-identical. The finite new routes name the independently approved08optional advanced exercise and current guide navigation; they leave all original definitions, scientific explanations, examples/exercises, source citations, alt/caption/theme attributes and native-image embed bytes unchanged. I independently bound the exact original frozen learner task/gap/accuracy guardrails, selected prior PASS review and verified release, and both unchanged selected native hashes/byte lengths. The original adequate owner-task fit is inherited by this exact current owner. No scientific-source lookup, medical/source-depth review, native/pixel inspection, human grade, coverage or new-gap acceptance is added.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1-independent-owner-review.json",
+      "sha256": "9e8807c75a50e41a0fb61b8ce374803efbe6c93751517d227ab72ca915881515"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "custody": {
+    "scope": "Exact current navigation-only owner and unchanged previously credited native pair; all original scientific/artwork custody and old review/release receipts remain preserved.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+        "sha256": "cb4b62626cdc235d790d9f96dba4b2aaf0bde70c5dba848aad926d0700ddd43d",
+        "bytes": 9230
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c",
+        "bytes": 7566
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998",
+        "bytes": 7566
+      }
+    ]
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "5c4031634c742cd56b67b34ee0ec79431cf05c0b",
+    "observedCanonicalContextCommit": "039a3b6eab9893068b5a9349200dab9c2ae5675b",
+    "previousOwnerSHA256": "3651da70fcca606d8bba0143b5fb306faaf7e34361f6e290ef5fd1dc9a15327c",
+    "currentOwnerSHA256": "cb4b62626cdc235d790d9f96dba4b2aaf0bde70c5dba848aad926d0700ddd43d",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      9067,
+      9230
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "unchangedNativePair": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c",
+        "bytes": 7566
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998",
+        "bytes": 7566
+      }
+    ],
+    "priorReviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+    "priorReviewActualTime": "2026-10-12T21:23:04.804Z",
+    "sourceFitInheritance": "The exact prior accepted source-fit judgment and its original scientific/source-access/depth/pixel/REVISE/human/delivery limitations remain under the unchanged selected original review/release refs. This is a new narrow current-owner metadata-continuity decision only.",
+    "originalCreativeAuthor": {
+      "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "role": "original creative content, source qualification and SVG producer"
+    },
+    "oldReceiptsUnmodified": true,
+    "newMedicalSourceOrNativeReview": false,
+    "actualFutureTeachingOrReportSourceCommit": null,
+    "finalBaselineRebindingRequiredAfterCurrentReport": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

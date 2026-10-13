@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "c2fc64acf2d4f7d7b73eeed33bafa58dbb01fa16",
+  "reviewedSourceCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -258,7 +258,7 @@
       "sha256": "c4ea94892ecec7047a20f6486dae39134f60388d5940d1b609c5de3333ba395b",
       "bytes": 4603,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -268,7 +268,7 @@
       "sha256": "14a12d914276f4b425c0a55f3d5f16ef57e00c1c857a908d8d294e25a186aa53",
       "bytes": 1355,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -278,7 +278,7 @@
       "sha256": "9b209eba685b3fe0cdcd7d82530175ff563cc9788168974c8ee094ba6606c058",
       "bytes": 1340,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -288,7 +288,7 @@
       "sha256": "82cc43118d7808bf2078c36c95897b76bcb826366a6495e67915327412d61a0d",
       "bytes": 1327,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
       "artworkSha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
       "contentClass": "source-owned-public-custody"
@@ -298,7 +298,7 @@
       "sha256": "227e41464029e0683fb0e37b61373a6cbf9f7aa35034fa081e38a23789d64d3e",
       "bytes": 6661,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -308,7 +308,7 @@
       "sha256": "f6d5131198a756fc23b787ec39f9f2a6012e13aab0f3785e8ca75801458d3d82",
       "bytes": 19364,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -2508,7 +2508,7 @@
       "sha256": "e6552983f1052a71947b630ea043d0d3e8b0b7e607d2b651c3a782805903cca4",
       "bytes": 3092,
       "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
-      "ownerSha256": "3651da70fcca606d8bba0143b5fb306faaf7e34361f6e290ef5fd1dc9a15327c",
+      "ownerSha256": "cb4b62626cdc235d790d9f96dba4b2aaf0bde70c5dba848aad926d0700ddd43d",
       "artworks": [
         {
           "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
@@ -2526,7 +2526,7 @@
       "sha256": "9e8807c75a50e41a0fb61b8ce374803efbe6c93751517d227ab72ca915881515",
       "bytes": 6385,
       "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
-      "ownerSha256": "3651da70fcca606d8bba0143b5fb306faaf7e34361f6e290ef5fd1dc9a15327c",
+      "ownerSha256": "cb4b62626cdc235d790d9f96dba4b2aaf0bde70c5dba848aad926d0700ddd43d",
       "artworks": [
         {
           "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
@@ -3157,7 +3157,7 @@
       "contentClass": "source-owned-public-custody",
       "sha256": "464d0ec5c993f24499e40b9cf8bbfd22ddc494dab3ccba412a3df5525ec38a2e",
       "bytes": 5086,
-      "ownerSha256": "0c0a5535a760fdf521c21bd1d927d83c0968d526f93b84a98c2ec716c31323da",
+      "ownerSha256": "04d3731e9befb19222640a8e13b2ed4f16b3d86a76ad39e0eb30d03ea9f4fcf5",
       "artworks": [
         {
           "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-light.svg",
@@ -3890,7 +3890,7 @@
       "sha256": "0eb07f0d894b59c1a2b1942d35ebf989fd7b20dafc2023aedd2d5eeb3898402d",
       "bytes": 3272,
       "owner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
-      "ownerSha256": "df07cfd3b3b1380ac8863d905823c66cbcc84b6db2331e8a6d775eecba096b2c",
+      "ownerSha256": "bbb4d190165518101595e3ee417aa0781e4e9f818be6734a6768101dc0378ed5",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
@@ -3908,7 +3908,7 @@
       "sha256": "d19dc4c38e1a1e9784a02db105d903df3f047646a35ad91440df1bb809e526ae",
       "bytes": 6520,
       "owner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
-      "ownerSha256": "df07cfd3b3b1380ac8863d905823c66cbcc84b6db2331e8a6d775eecba096b2c",
+      "ownerSha256": "bbb4d190165518101595e3ee417aa0781e4e9f818be6734a6768101dc0378ed5",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
@@ -5573,6 +5573,78 @@
         {
           "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-dark.svg",
           "sha256": "79ec6d3af288c3e49417fa3c1406d825ef1e457629f4eb9ab0254ae944434b74"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/next-gap-010-copy-aware-practice-current-owner-continuity.json",
+      "sha256": "a68dd5bf82800e51aae036f054ae579b10e20fcaa6e8ddec711fa044b6fdc834",
+      "bytes": 6302,
+      "owner": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+      "ownerSha256": "04d3731e9befb19222640a8e13b2ed4f16b3d86a76ad39e0eb30d03ea9f4fcf5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-light.svg",
+          "sha256": "e5707924e3c5d8c474767e85d60871b42770638b3879740310bb1855fd363062"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-dark.svg",
+          "sha256": "8cfd99e979c09f0e5fd5bf29e2e59a96ccb6a7755b897b246461d5344a530776"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/next-gap-035-copy-aware-practice-current-owner-continuity.json",
+      "sha256": "f225947fdcabdfd460e4bd6049b81cb81c82e32ec83e3aeede61e701a665558e",
+      "bytes": 6160,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+          "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+          "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/next-gap-072-copy-aware-practice-current-owner-continuity.json",
+      "sha256": "2610cc6c5ad5b028ae39decfc9881b6e2b7b9107e0e8d0b77a684f62b4cf012a",
+      "bytes": 6420,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+      "ownerSha256": "cb4b62626cdc235d790d9f96dba4b2aaf0bde70c5dba848aad926d0700ddd43d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+          "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+          "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/next-gap-101-copy-aware-practice-current-owner-continuity.json",
+      "sha256": "b6895586ec19a3e72e73297e8dc7610b021514f1c1355473ace7b592b22631b8",
+      "bytes": 6198,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+      "ownerSha256": "bbb4d190165518101595e3ee417aa0781e4e9f818be6734a6768101dc0378ed5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+          "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+          "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3"
         }
       ],
       "contentClass": "source-owned-public-custody"

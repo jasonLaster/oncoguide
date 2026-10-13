@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-101",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+  "author": "root",
+  "authorRole": "Canonical integration of finite optional navigation and maintained generated metadata only; no new artwork or original medical-writing attribution.",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-13T00:27:25.691Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "bbb4d190165518101595e3ee417aa0781e4e9f818be6734a6768101dc0378ed5",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+      "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+      "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "f77a1258d4a44548447a70848917b6ef357131e6f19d9f23730404cf09034904",
+    "learnerTask": "See copy count versus retained sequence versions",
+    "gap": "Table is precise but no physical copy/version schematic",
+    "accuracyGuardrails": "Distinguish total copies from allelic versions with the1+1 versus2+0 fiction. Copy-neutral LOH is not zero copies or automatic functional loss; major/minor labels need not identify a parental allele.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the entire exact previously credited owner and current owner. Removing only the maintained used_by metadata and marked GENERATED USED IN navigation block makes them byte-identical. The finite new routes name the independently approved08optional advanced exercise and current guide navigation; they leave all original definitions, scientific explanations, examples/exercises, source citations, alt/caption/theme attributes and native-image embed bytes unchanged. I independently bound the exact original frozen learner task/gap/accuracy guardrails, selected prior PASS review and verified release, and both unchanged selected native hashes/byte lengths. The original adequate owner-task fit is inherited by this exact current owner. No scientific-source lookup, medical/source-depth review, native/pixel inspection, human grade, coverage or new-gap acceptance is added.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/copy-count-and-version-states-v1-independent-owner-review.json",
+      "sha256": "d19dc4c38e1a1e9784a02db105d903df3f047646a35ad91440df1bb809e526ae"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259"
+    }
+  },
+  "custody": {
+    "scope": "Exact current navigation-only owner and unchanged previously credited native pair; all original scientific/artwork custody and old review/release receipts remain preserved.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+        "sha256": "bbb4d190165518101595e3ee417aa0781e4e9f818be6734a6768101dc0378ed5",
+        "bytes": 9019
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+        "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6",
+        "bytes": 10687
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+        "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3",
+        "bytes": 10687
+      }
+    ]
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "5c4031634c742cd56b67b34ee0ec79431cf05c0b",
+    "observedCanonicalContextCommit": "039a3b6eab9893068b5a9349200dab9c2ae5675b",
+    "previousOwnerSHA256": "df07cfd3b3b1380ac8863d905823c66cbcc84b6db2331e8a6d775eecba096b2c",
+    "currentOwnerSHA256": "bbb4d190165518101595e3ee417aa0781e4e9f818be6734a6768101dc0378ed5",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      8833,
+      9019
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "unchangedNativePair": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+        "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6",
+        "bytes": 10687
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+        "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3",
+        "bytes": 10687
+      }
+    ],
+    "priorReviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+    "priorReviewActualTime": "2026-10-12T22:42:15.263Z",
+    "sourceFitInheritance": "The exact prior accepted source-fit judgment and its original scientific/source-access/depth/pixel/REVISE/human/delivery limitations remain under the unchanged selected original review/release refs. This is a new narrow current-owner metadata-continuity decision only.",
+    "originalCreativeAuthor": {
+      "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "role": "original creative/scientific content and code-SVG producer"
+    },
+    "oldReceiptsUnmodified": true,
+    "newMedicalSourceOrNativeReview": false,
+    "actualFutureTeachingOrReportSourceCommit": null,
+    "finalBaselineRebindingRequiredAfterCurrentReport": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

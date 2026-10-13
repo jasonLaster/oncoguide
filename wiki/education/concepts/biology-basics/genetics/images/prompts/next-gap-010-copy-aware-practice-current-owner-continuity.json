@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-010",
+  "owner": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+  "author": "root",
+  "authorRole": "Canonical integration of finite optional navigation and maintained generated metadata only; no new artwork or original medical-writing attribution.",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-13T00:27:25.182Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "04d3731e9befb19222640a8e13b2ed4f16b3d86a76ad39e0eb30d03ea9f4fcf5",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-light.svg",
+      "sha256": "e5707924e3c5d8c474767e85d60871b42770638b3879740310bb1855fd363062"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-dark.svg",
+      "sha256": "8cfd99e979c09f0e5fd5bf29e2e59a96ccb6a7755b897b246461d5344a530776"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "bb945859cb2ac9711d82c53b4163ea4b26f1e7a6259837d5e32ece6a52746917",
+    "learnerTask": "Compare edit classes and a coding frame before assigning an RNA/protein consequence.",
+    "gap": "The change-class table is useful, but a novice must mentally assemble base substitution, in-frame deletion, frameshift and rearranged segments. A compact annotated sequence diagram can expose preserved versus shifted downstream triplets and keep observed DNA separate from predicted products.",
+    "accuracyGuardrails": [
+      "Label toy coding sequence/reference, retain transcript/frame assumptions, allow overlapping structural/copy classes, and show RNA/protein production as unmeasured rather than guaranteed by DNA fusion."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the entire exact previously credited owner and current owner. Removing only the maintained used_by metadata and marked GENERATED USED IN navigation block makes them byte-identical. The finite new routes name the independently approved08optional advanced exercise and current guide navigation; they leave all original definitions, scientific explanations, examples/exercises, source citations, alt/caption/theme attributes and native-image embed bytes unchanged. I independently bound the exact original frozen learner task/gap/accuracy guardrails, selected prior PASS review and verified release, and both unchanged selected native hashes/byte lengths. The original adequate owner-task fit is inherited by this exact current owner. No scientific-source lookup, medical/source-depth review, native/pixel inspection, human grade, coverage or new-gap acceptance is added.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/next-gap-010-generated-owner-metadata-continuity.json",
+      "sha256": "464d0ec5c993f24499e40b9cf8bbfd22ddc494dab3ccba412a3df5525ec38a2e"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eleven-owner-curriculum-corrections-2026-10-12-owner-continuity.json",
+      "sha256": "888e75f468e9f5cb7b09e863fd817ff1ec6ad905e1cf48203a7a507d1902e2ce"
+    }
+  },
+  "custody": {
+    "scope": "Exact current navigation-only owner and unchanged previously credited native pair; all original scientific/artwork custody and old review/release receipts remain preserved.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+        "sha256": "04d3731e9befb19222640a8e13b2ed4f16b3d86a76ad39e0eb30d03ea9f4fcf5",
+        "bytes": 9299
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-light.svg",
+        "sha256": "e5707924e3c5d8c474767e85d60871b42770638b3879740310bb1855fd363062",
+        "bytes": 26551
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-dark.svg",
+        "sha256": "8cfd99e979c09f0e5fd5bf29e2e59a96ccb6a7755b897b246461d5344a530776",
+        "bytes": 26551
+      }
+    ]
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "5c4031634c742cd56b67b34ee0ec79431cf05c0b",
+    "observedCanonicalContextCommit": "039a3b6eab9893068b5a9349200dab9c2ae5675b",
+    "previousOwnerSHA256": "0c0a5535a760fdf521c21bd1d927d83c0968d526f93b84a98c2ec716c31323da",
+    "currentOwnerSHA256": "04d3731e9befb19222640a8e13b2ed4f16b3d86a76ad39e0eb30d03ea9f4fcf5",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      9113,
+      9299
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "unchangedNativePair": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-light.svg",
+        "sha256": "e5707924e3c5d8c474767e85d60871b42770638b3879740310bb1855fd363062",
+        "bytes": 26551
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/mutation-edit-and-reading-frame-v1-dark.svg",
+        "sha256": "8cfd99e979c09f0e5fd5bf29e2e59a96ccb6a7755b897b246461d5344a530776",
+        "bytes": 26551
+      }
+    ],
+    "priorReviewer": "agent:/root/review_correction_composition",
+    "priorReviewActualTime": "2026-10-12T22:35:45.638Z",
+    "sourceFitInheritance": "The exact prior accepted source-fit judgment and its original scientific/source-access/depth/pixel/REVISE/human/delivery limitations remain under the unchanged selected original review/release refs. This is a new narrow current-owner metadata-continuity decision only.",
+    "originalCreativeAuthor": null,
+    "oldReceiptsUnmodified": true,
+    "newMedicalSourceOrNativeReview": false,
+    "actualFutureTeachingOrReportSourceCommit": null,
+    "finalBaselineRebindingRequiredAfterCurrentReport": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

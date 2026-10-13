@@ -113,6 +113,10 @@ New to the words? Read steps 1–5 before jumping to an assay. Reading a splice 
 
 These shortcuts save time while keeping the prerequisites available. They are learning routes, rather than testing recommendations.
 
+## Optional advanced practice: test the model
+
+For definitions, use [clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) and [variant allele fraction versus cancer cell fraction](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction). After step 5, [Test a copy-aware clone model](/wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model) adds a 12-minute optional exercise in multiplicity, inverse fits and co-occurrence limits. It extends the practice; it does not replace those concept owners or add a required step to the path.
+
 ## Explore the tumor after treatment
 
 [[wiki/education/molecular-profiling/08-profile-residual-tumor|Read single-cell data after treatment]] is a supplementary 12-minute lesson. It connects the RNA and immune-recognition foundations to a new question: which cancer-cell states and potential targets are present in the sampled residual tissue? Work through a fictional sample-yield example, then choose the protein, spatial or functional measurement that would address the remaining gap.

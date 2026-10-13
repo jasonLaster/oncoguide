@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-035",
+  "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+  "author": "root",
+  "authorRole": "Canonical integration of finite optional navigation and maintained generated metadata only; no new artwork or original medical-writing attribution.",
+  "reviewer": "agent:/root/review_correction_composition",
+  "reviewedAt": "2026-10-13T00:27:25.354Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+      "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+      "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "01b54ff10d2ee1866bf2d804230ac9e93273a784c17d82cc6dd751a69194090f",
+    "learnerTask": "Locate bases/backbones, complementary antiparallel strands and DNA packaging without confusing a molecule, gene and chromosome.",
+    "gap": "The packaging/replication/transcription branch map effectively separates processes, but gives no molecular or packaging geometry. A simple editable structure-to-packaging diagram would support several later variant, chromatin and delivery explanations.",
+    "accuracyGuardrails": [
+      "Illustrative base pairs and packaging levels; not literal genome length, chromosome copy number or a map of active genes. Keep nuclear/mitochondrial context and copying versus reading separate."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the entire exact previously credited owner and current owner. Removing only the maintained used_by metadata and marked GENERATED USED IN navigation block makes them byte-identical. The finite new routes name the independently approved08optional advanced exercise and current guide navigation; they leave all original definitions, scientific explanations, examples/exercises, source citations, alt/caption/theme attributes and native-image embed bytes unchanged. I independently bound the exact original frozen learner task/gap/accuracy guardrails, selected prior PASS review and verified release, and both unchanged selected native hashes/byte lengths. The original adequate owner-task fit is inherited by this exact current owner. No scientific-source lookup, medical/source-depth review, native/pixel inspection, human grade, coverage or new-gap acceptance is added.",
+    "humanReview": "pending"
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-035-final-review.json",
+      "sha256": "b48088774776fb50bd6fa11e83dead3d33373544a1852194c125f0b298369c4f"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-wave12-release.json",
+      "sha256": "4a3aaf416891b4fd618d061f585a77c764b8dd1d39599a145a953c466f7d6ea5"
+    }
+  },
+  "custody": {
+    "scope": "Exact current navigation-only owner and unchanged previously credited native pair; all original scientific/artwork custody and old review/release receipts remain preserved.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/dna.md",
+        "sha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+        "bytes": 7842
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+        "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+        "bytes": 1954340
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+        "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
+        "bytes": 1838962
+      }
+    ]
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "5c4031634c742cd56b67b34ee0ec79431cf05c0b",
+    "observedCanonicalContextCommit": "039a3b6eab9893068b5a9349200dab9c2ae5675b",
+    "previousOwnerSHA256": "2478b676c31f5e2bc77bc1a0eece1a5bfd3078c729fc4b0458647e6613eb32d3",
+    "currentOwnerSHA256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      7656,
+      7842
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "unchangedNativePair": [
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+        "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+        "bytes": 1954340
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+        "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
+        "bytes": 1838962
+      }
+    ],
+    "priorReviewer": "immune_foundations",
+    "priorReviewActualTime": "2026-10-12T02:30:35.721102+00:00",
+    "sourceFitInheritance": "The exact prior accepted source-fit judgment and its original scientific/source-access/depth/pixel/REVISE/human/delivery limitations remain under the unchanged selected original review/release refs. This is a new narrow current-owner metadata-continuity decision only.",
+    "originalCreativeAuthor": null,
+    "oldReceiptsUnmodified": true,
+    "newMedicalSourceOrNativeReview": false,
+    "actualFutureTeachingOrReportSourceCommit": null,
+    "finalBaselineRebindingRequiredAfterCurrentReport": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

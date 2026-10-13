@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 sensitive: false
 tags: [education, cancer-biology]
 updated: 2026-10-10
@@ -108,4 +108,5 @@ Source-checked October 10, 2026. General evolutionary interpretation and fiction
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
+- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->
