@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"
   - "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self]]"
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]"]
 sensitive: false
 tags: [education]
 updated: 2026-10-10
@@ -112,4 +112,5 @@ Source-checked October 10, 2026. General recognition biology; animal and human e
 ## Used in
 
 - [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
+- [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison)
 <!-- END GENERATED USED IN -->

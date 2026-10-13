@@ -7,7 +7,7 @@ aliases: [functional cytotoxicity assays, cytotoxicity assay, killing assay, tar
 glossary_anchor: "functional-cytotoxicity-assays"
 level: advanced
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"]
-used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 sensitive: false
 tags: [education, measurement]
 updated: "2026-10-09"
@@ -99,6 +99,7 @@ Source-checked October 9, 2026. Laboratory function and a fictional interpretati
 - [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
 - [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
 <!-- END GENERATED USED IN -->

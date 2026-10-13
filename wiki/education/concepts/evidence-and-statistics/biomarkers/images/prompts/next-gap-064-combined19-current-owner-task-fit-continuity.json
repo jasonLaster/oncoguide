@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-064",
+  "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "f861da205c692dca64f3d49443670adb406e84aa4049091380b2ab2dc0de15b8",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+      "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89",
+      "bytes": 17906
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+      "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18",
+      "bytes": 17906
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "94001c50b7d33b97428149785d7d8945eac228127aa8aa7cc80689b7c10b7206",
+    "learnerTask": "Separate background, probabilistic detection and reliable quantitation from a clinical cutoff.",
+    "gap": "No plot shows why detection near a limit is probabilistic and detected values may remain below LoQ.",
+    "accuracyGuardrails": "Separate background, probabilistic detection, quantitative performance and clinical cutoff. Any curve is explicitly fictional/assay-specific; do not prescribe universal spacing or turn detection into reliable quantitation.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-independent-owner-review.json",
+      "sha256": "0d6d127e7b0161830608cfeb3fb0b793105c0897c978d0db5889f2b20ab308af"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/fifteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "cd9874459627eb0c7bc9bd775170c116ca21c4cef162610f487aa26bee529c72"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+        "sha256": "f861da205c692dca64f3d49443670adb406e84aa4049091380b2ab2dc0de15b8",
+        "bytes": 8451
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+        "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89",
+        "bytes": 17906
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+        "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18",
+        "bytes": 17906
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1.txt",
+        "sha256": "b3a71da565b4cee24f92fab81cb602ccc18f8bbfb280f154953f9dfb5ea51c50",
+        "bytes": 1192
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-provenance.json",
+        "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109",
+        "bytes": 3141
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "a9c43eb34f83a98477081e7d2a2b2d67390b37374c9919599d35082ca93bce4c",
+    "currentOwnerSHA256": "f861da205c692dca64f3d49443670adb406e84aa4049091380b2ab2dc0de15b8",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      8314,
+      8451
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "a4bf0dc4df23a9b9bcbb17a7e5ae23b5d2f7b7b35603b52020ab94560a71dc4c",
+    "originalCreativeAuthor": {
+      "author": "Codex evidence-package author; sealed handoff 5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+      "role": "Original educational writing and code SVG generation",
+      "identityQualification": "Original author is identified by the sealed evidence-package handoff. Personal, chat and model identifiers were not recorded; no original generation or medical writing is attributed to root.",
+      "sealedHandoffSHA256": "5cb41e2e3acd80460bf8e5a8aeaffdb9930bba53e783d73aaa00a7c32622a217",
+      "ordinaryProvenance": {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-provenance.json",
+        "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109",
+        "bytes": 3141
+      }
+    },
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "Codex independent evidence-package reviewer; sealed decision 62987d78f546d831dd216bdfbc9f195fa3b02a16f0b70f06c96bb74f5744db66",
+    "priorReviewActualTime": "2026-10-12T20:14:31Z",
+    "priorReleaseSourceCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+    "priorReleaseCompanionCommit": "dda084dd2be9eba3d6bdd8487c1020e7dc964b43",
+    "preservedOriginalQualificationFields": {},
+    "registryNoteQualification": "Delivered in package fifteen-owner-visuals-2026-10-12 at 2026-10-12T20:46:30.906Z. Current task and native bindings are verified; expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

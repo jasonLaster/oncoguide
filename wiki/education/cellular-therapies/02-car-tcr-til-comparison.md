@@ -3,7 +3,7 @@ title: "Compare immune-cell recognition systems"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-10
+updated: 2026-10-13
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -35,7 +35,7 @@ The guide has separated target, delivery, behavior and safety. The family names 
 | [CAR natural killer (NK) cells](/wiki/education/concepts/therapeutics/cell-therapies/car-nk) | Engineered recognition plus endogenous NK signals | How do target binding, inhibitory inputs and cell persistence interact? |
 | [Gamma-delta T cells, with or without a CAR](/wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells) | Diverse stress, metabolic or nonclassical recognition systems | Which recognition mechanism does the actual product use? |
 
-Conventional alpha-beta TCR approaches depend on their presenting HLA. CAR recognition often avoids that particular requirement. NK and gamma-delta biology cannot be reduced to a single universal “HLA-independent” switch. Natural killer T cells are also a distinct family, rather than another name for NK cells.
+Conventional alpha-beta TCR approaches depend on their presenting HLA. CAR recognition often avoids that particular requirement. NK and gamma-delta biology cannot be reduced to a single universal “HLA-independent” switch. [Natural killer T (NKT) cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells) are also a distinct family, rather than another name for NK cells.
 
 ## Ask what was installed and what was expanded
 
@@ -66,7 +66,7 @@ A surface-target CAR can avoid the affected display route, but still requires a 
 
 ## Target and cell platform are different axes
 
-The same accessible antigen can be pursued with a CAR in different cell types, an antibody or an antibody-linked payload. Those formats differ in distribution, amplification, persistence and toxicity. A useful target does not establish which format has the best clinical evidence.
+The [target-versus-therapeutic-format comparison](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis) follows the same accessible antigen across a CAR in different cell types, an antibody or an antibody-linked payload. A useful target does not establish which format has the best clinical evidence.
 
 Conversely, the same cell platform can receive different receptors. Each new target introduces its own healthy-tissue distribution, recognition and validation questions. One successful product cannot validate every target on that platform.
 
@@ -88,6 +88,15 @@ A cell is harvested from a tumor. Does that prove its receptor recognizes cancer
 
 **Answer:** No. It supports activity for that preparation and target under those conditions. Native-route controls, other tumor targets, relevant healthy tissue and clinical evaluation remain necessary.
 
+**Read three sparse abstracts:** These descriptions are fictional.
+
+- A: “A selected receptor was installed in T cells.”
+- B: “A mixture harvested from tumor tissue was expanded.”
+- C: “A CAR was added to NK cells.”
+
+What recognition and identity facts are still missing?
+
+**Answer:** A needs the receptor's identity and type; if it is a conventional TCR, the exact peptide–HLA requirement and paired receptor identity matter. “Installed” alone does not name the target or demonstrate expression and function. B describes origin and expansion, but leaves cell identities, receptor mixture and measured tumor reactivity open; bystanders may be present. C names the added receptor family and starting cell family, but leaves the CAR's target, construct and native NK inputs unspecified. Each needs evidence from the actual preparation and relevant targets. Family labels do not supply a safety ranking, universal HLA independence or clinical suitability.
 ## Explain it back
 
 “The family name tells me ___, but suitability still needs ___.” One answer: “a recognition and cell strategy; target, safety, clinical evidence and access assessment.”

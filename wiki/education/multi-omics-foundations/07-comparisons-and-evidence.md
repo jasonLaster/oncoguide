@@ -8,7 +8,7 @@ objectives: ["Interpret fold change and percentiles with their reference groups.
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: "2026-10-09"
+updated: 2026-10-13
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -31,7 +31,7 @@ A **fold change** is a ratio under the method's normalization. A base-two logari
 
 A **percentile** describes position in a reference distribution. The 90th percentile does not mean 90% of cells express the target. Ask which tumors, preparations and disease settings formed the distribution.
 
-A **batch effect** is a systematic difference linked to processing, run or site. Capture chemistry can recover some genes differently. A global scaling correction may not fix gene-specific biases. Treatment exposure, tissue site and cell mixture can create biological differences as well.
+[**Batch effects**](/wiki/education/concepts/measurement/transcriptomics/batch-effects) can distort this comparison: capture chemistry can recover some genes differently, and global scaling may not fix gene-specific biases. Treatment exposure, tissue site and cell mixture can create biological differences as well.
 
 ## Choose the comparator that fits the claim
 
@@ -42,11 +42,15 @@ A **batch effect** is a systematic difference linked to processing, run or site.
 | A drug caused a model response | Vehicle and mechanism controls, replicated | Clinical relevance and toxicity |
 | A test selects treatment benefit | Appropriate treated and comparison groups | Applicability outside the study setting |
 
-A **p-value** evaluates compatibility with a stated null model under assumptions. It is not the chance that a proposed target is useful. A **false discovery rate (FDR)** procedure addresses multiple testing under its framework. Statistical thresholds cannot rescue an inappropriate normal comparator or an unmodeled preparation difference.
+Read the [**p-value**](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) with its stated null model and the [**false discovery rate (FDR)** procedure](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate) with its tested family and assumptions. Neither gives the chance that a proposed target is useful. Statistical thresholds cannot rescue an inappropriate normal comparator or an unmodeled preparation difference.
 
 ## A worked target example
 
 In a fictional experiment, receptor R is high in malignant cells, low in fibroblasts and similarly high in normal epithelial cells. The cancer-versus-fibroblast contrast is real. It does not establish tumor selectivity.
+
+**Choose the reference:** Suppose that contrast also passes the stated statistical threshold. To assess whether R distinguishes malignant epithelium from its normal counterpart, would you choose fibroblasts or matched normal epithelial cells, measured compatibly?
+
+**Answer:** Matched normal epithelial cells fit that claim. Here R is similarly high in that group, so significance against fibroblasts cannot establish the proposed epithelial selectivity. Fibroblasts answer a different comparison. Even the better reference leaves other normal organs, states and accessibility untested.
 
 Tissue staining places R on cancer-cell membranes. That adds localization, but normal-organ access and expression still matter. In a model, blocking R has little effect on growth. R may be a possible delivery address for an antibody–drug conjugate, a medicine that carries a payload through an antibody. It has not demonstrated itself as a growth dependency.
 

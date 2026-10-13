@@ -3,7 +3,7 @@ title: "Cell therapies as living drugs"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-10
+updated: 2026-10-13
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -45,12 +45,12 @@ A [natural killer (NK) cell](/wiki/education/concepts/immunology/innate-and-unco
 
 | Question | Alternatives | What the answer establishes |
 |---|---|---|
-| Whose cells? | Autologous: patient-derived; allogeneic: donor-derived | Cell source, not target specificity |
-| Where are cells engineered? | Ex vivo: outside the body; in vivo: inside it | Engineering location |
+| Whose cells? | [Autologous or allogeneic source](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy) | Cell source, not target specificity |
+| Where are cells engineered? | [Ex vivo or in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) | Engineering location |
 | What is administered? | Manufactured cells or a genetic delivery product | The intervention whose dose and quality must be defined |
 | What recognizes the target? | Selected native receptors or engineered receptors | A recognition strategy that still needs validation |
 
-[Autologous versus allogeneic source](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy) and [ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) remain separate. An off-the-shelf carrier may engineer the patient’s own cells. A donor-derived cell product can be prepared in advance. Those are different meanings of an immediately available product.
+Use [autologous versus allogeneic source](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy) for whose cells and [ex vivo versus in vivo engineering](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) for where they receive instructions. These axes remain separate. An off-the-shelf carrier may engineer the patient’s own cells. A donor-derived cell product can be prepared in advance. Those are different meanings of an immediately available product.
 
 ## A worked example
 
@@ -80,6 +80,9 @@ A vial is off the shelf and creates engineered cells inside the patient. Must th
 
 **Answer:** A comparable absolute viable-cell count with the same parent population and volume. It still would not prove tumor entry, useful function or clinical benefit.
 
+**Compare two product cards:** Both descriptions are fictional. Card A says, “A ready-made carrier is administered to supply receptor instructions to the recipient's own T cells inside the body.” Card B says, “A vial of donor-derived T cells, already engineered outside the body, is administered.” Name the source, engineering location and administered object for each.
+
+**Answer:** A has recipient-derived downstream cells, in vivo engineering and a carrier as the administered object. B has donor-derived cells, ex vivo engineering and manufactured cells as the administered object. “Ready-made” does not make A's cells donor-derived. In A, carrier input still needs downstream evidence of cell-specific delivery, receptor expression and function. In B, cell-lot measurements do not establish later survival, location or function. Neither description establishes availability, benefit or an interchangeable dose.
 ## Explain it back
 
 “Source tells me ___; engineering location tells me ___.” One answer: “whose cells; where genetic changes are introduced.”

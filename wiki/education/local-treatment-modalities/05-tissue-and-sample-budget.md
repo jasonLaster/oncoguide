@@ -8,7 +8,7 @@ objectives: ["Distinguish anatomical response, tissue measurements and functiona
 prerequisites: ["[[wiki/education/local-treatment-modalities/04-decision-questions]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
 sensitive: false
 tags: [education, local-treatment, measurement]
-updated: "2026-10-10"
+updated: "2026-10-13"
 source_checked: "2026-10-10"
 reviewed: pending
 reviewed_by: ""
@@ -29,12 +29,12 @@ First name the claim: “The treated site is controlled,” “immune cells ente
 
 | Measurement | Useful question | What it cannot establish alone |
 |---|---|---|
-| Anatomical imaging, such as computed tomography or magnetic resonance imaging | Where is disease detected, and how does a lesion change? | Which immune mechanism caused the change |
+| Anatomical imaging, such as [computed tomography (CT)](/wiki/education/concepts/measurement/imaging/pet-ct) or [magnetic resonance imaging (MRI)](/wiki/education/concepts/measurement/imaging/breast-mri) | Where is disease detected, and how does a lesion change? | Which immune mechanism caused the change |
 | [Positron emission tomography with computed tomography (PET/CT)](/wiki/education/concepts/measurement/imaging/pet-ct), with a specified tracer | Where was that tracer detected under the scan conditions? | Effective therapeutic radiation dose or complete coverage of unseen disease |
 | Immunohistochemistry | Which cells stain for a selected protein, where, and using what scoring method? | Whole-body expression or T-cell killing capacity |
 | Bulk RNA sequencing | Which messages were captured from this tissue mixture? | Accessible surface protein or the activity of each individual cell |
 | [T-cell receptor sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) | Which sampled receptor sequences are present and change in abundance? | Which target every sequence recognizes or whether those cells can kill |
-| A specified functional immune assay | Can sampled cells perform the tested recognition or killing activity? | That the same activity occurs throughout the person's tumors |
+| A specified functional immune assay, such as a [target-cell killing assay](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) | Can sampled cells perform the tested recognition or killing activity? | That the same activity occurs throughout the person's tumors |
 
 RNA is ribonucleic acid; it participates in the [path from genetic information to protein](/wiki/education/concepts/biology-basics/genetics/central-dogma). RNA abundance, protein staining and accessible binding sites are related but different measurements.
 
@@ -49,6 +49,17 @@ For a [radioligand](/wiki/education/local-treatment-modalities/06-comparisons), 
 The immune-cell fraction rose from 20% to 50%, but the immune-cell count stayed at 10. Loss of other cells can explain the fraction change without additional immune-cell entry. The conclusion is narrower than “treatment recruited more immune cells.”
 
 Now suppose the second sample came from a different lesion or a different-sized area. Even the count comparison needs more caution. Ask about site, viable tissue area, timing and assay comparability. This exercise uses a simple cell fraction; it is not the clinical [stromal tumor-infiltrating lymphocyte scoring method](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring), which has a different denominator.
+
+**Choose the comparable report.** All counts, areas and locations here are invented. Suppose the assay identifies the same immune-cell class with the same counting method. The baseline count is **10 cells in 1 mm² of viable edge from lesion L**. Both follow-up reports use the same later timepoint.
+
+| Follow-up report | Raw count and sampled area | Comparison available |
+|---|---|---|
+| A | 10 cells in 1 mm² of viable edge from lesion L | Matched site, region, area, timepoint convention and method |
+| B | 10 cells in 0.2 mm² from the injured center of lesion M | Different lesion, tissue region and area |
+
+Which baseline/follow-up pair can support a sampled density comparison? Does either establish recruitment or function?
+
+**Answer:** Baseline plus A supports the more comparable description: `10 ÷ 1 = 10 cells/mm²` at both times, assuming the stated sampling and method match. B yields `10 ÷ 0.2 = 50 cells/mm²`, but its different place and region do not establish an increase within L. Equal area does not make separate tissue pieces identical, and matched sampling still cannot by itself establish recruitment causation. Density, the cell fraction above, tumor-specific recognition and killing are different quantities. A [functional cytotoxicity assay](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) would address specified killing under its own conditions, not prove function throughout every tumor.
 
 ## How tissue planning changes the answer
 
@@ -89,6 +100,8 @@ Keep the sample's location, timing, handling and denominator beside the result. 
 Next: [compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons).
 
 ## Sources and scope
+
+Focused sampling exercise: October 13, 2026; the linked public denominator, stromal-score and functional-assay concepts distinguish these readouts. Earlier primary-source checks remain as dated below. Expert and learner review remain pending.
 
 Source check: 2026-10-10. All counting numbers and practice studies are fictional; expert and learner review pending.
 

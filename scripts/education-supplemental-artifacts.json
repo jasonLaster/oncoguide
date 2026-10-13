@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "reviewedSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -258,7 +258,7 @@
       "sha256": "c4ea94892ecec7047a20f6486dae39134f60388d5940d1b609c5de3333ba395b",
       "bytes": 4603,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -268,7 +268,7 @@
       "sha256": "14a12d914276f4b425c0a55f3d5f16ef57e00c1c857a908d8d294e25a186aa53",
       "bytes": 1355,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -278,7 +278,7 @@
       "sha256": "9b209eba685b3fe0cdcd7d82530175ff563cc9788168974c8ee094ba6606c058",
       "bytes": 1340,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -288,7 +288,7 @@
       "sha256": "82cc43118d7808bf2078c36c95897b76bcb826366a6495e67915327412d61a0d",
       "bytes": 1327,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
       "artworkSha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
       "contentClass": "source-owned-public-custody"
@@ -298,7 +298,7 @@
       "sha256": "227e41464029e0683fb0e37b61373a6cbf9f7aa35034fa081e38a23789d64d3e",
       "bytes": 6661,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -308,7 +308,7 @@
       "sha256": "f6d5131198a756fc23b787ec39f9f2a6012e13aab0f3785e8ca75801458d3d82",
       "bytes": 19364,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
       "artwork": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
       "artworkSha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
       "contentClass": "source-owned-public-custody"
@@ -1128,7 +1128,7 @@
     {
       "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/immune-barriers-tissue-v2.json",
       "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
-      "ownerSha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+      "ownerSha256": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
       "contentClass": "source-owned-public-custody",
       "artworks": [
         {
@@ -1859,7 +1859,7 @@
       "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/comparison-next-gap-043-current-owner-continuity.json",
       "sha256": "7271c025747c346e1be4f0d24454077120d69cd7e11421f201f4f3887a88c202",
       "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
-      "ownerSha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+      "ownerSha256": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
       "artworks": [
         {
           "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
@@ -2004,7 +2004,7 @@
       "sha256": "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93",
       "bytes": 7376,
       "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
-      "ownerSha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+      "ownerSha256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
       "artworks": [
         {
           "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
@@ -2022,7 +2022,7 @@
       "sha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
       "bytes": 3488,
       "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
-      "ownerSha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+      "ownerSha256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
       "artworks": [
         {
           "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
@@ -2292,7 +2292,7 @@
       "sha256": "0d6d127e7b0161830608cfeb3fb0b793105c0897c978d0db5889f2b20ab308af",
       "bytes": 6835,
       "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
-      "ownerSha256": "a9c43eb34f83a98477081e7d2a2b2d67390b37374c9919599d35082ca93bce4c",
+      "ownerSha256": "f861da205c692dca64f3d49443670adb406e84aa4049091380b2ab2dc0de15b8",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
@@ -2310,7 +2310,7 @@
       "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109",
       "bytes": 3141,
       "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
-      "ownerSha256": "a9c43eb34f83a98477081e7d2a2b2d67390b37374c9919599d35082ca93bce4c",
+      "ownerSha256": "f861da205c692dca64f3d49443670adb406e84aa4049091380b2ab2dc0de15b8",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
@@ -2904,7 +2904,7 @@
       "sha256": "a365f661ef89a7390cedb3a0fd300ee52636b691223dad19a917032ae34d9a45",
       "bytes": 2747,
       "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
-      "ownerSha256": "8425b6fe1f4c76860ad2d90418431df7731d3372f0137924a3c6897c5d3cc5ab",
+      "ownerSha256": "a808d9ec84d0623ba449b66ea7c7bfc51943f6d77c9a27a0215e60ae148674b9",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
@@ -2922,7 +2922,7 @@
       "sha256": "e0b71fede199242ad0ac2c9f4f36f30366f4ea42dc4576b693af9123a3d250a2",
       "bytes": 9880,
       "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
-      "ownerSha256": "8425b6fe1f4c76860ad2d90418431df7731d3372f0137924a3c6897c5d3cc5ab",
+      "ownerSha256": "a808d9ec84d0623ba449b66ea7c7bfc51943f6d77c9a27a0215e60ae148674b9",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
@@ -3085,7 +3085,7 @@
       "contentClass": "source-owned-public-custody",
       "sha256": "5e10e70b358f3cd4641d62e95a60a7a5d98656406ad7ac3d23b5cc17034ff9a9",
       "bytes": 5452,
-      "ownerSha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+      "ownerSha256": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
       "artworks": [
         {
           "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
@@ -3309,7 +3309,7 @@
       "contentClass": "source-owned-public-custody",
       "sha256": "ff2e66bbaac1525b66efe4299c86f062db264400c32e13fd16315a2d113b7bf7",
       "bytes": 4908,
-      "ownerSha256": "8425b6fe1f4c76860ad2d90418431df7731d3372f0137924a3c6897c5d3cc5ab",
+      "ownerSha256": "a808d9ec84d0623ba449b66ea7c7bfc51943f6d77c9a27a0215e60ae148674b9",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
@@ -3434,7 +3434,7 @@
       "sha256": "79e2cc5ecd521b0ae0a21b22372f8525558c620916ef962496796a0f7a9d9044",
       "bytes": 3001,
       "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
-      "ownerSha256": "b6b131dd6076cf2d24ae3a17bb4ad3ad54e0d3841fef5a9a4fd168cf9ab715cf",
+      "ownerSha256": "2ce1c4b5ce818a9b804a93951f9d742105b475015df068f31d464fc7257282c7",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
@@ -3452,7 +3452,7 @@
       "sha256": "1f76974a22b9695bc2f663e91e99e6a677f75437d6bb094de4066c639f9238ba",
       "bytes": 8869,
       "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
-      "ownerSha256": "b6b131dd6076cf2d24ae3a17bb4ad3ad54e0d3841fef5a9a4fd168cf9ab715cf",
+      "ownerSha256": "2ce1c4b5ce818a9b804a93951f9d742105b475015df068f31d464fc7257282c7",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
@@ -3470,7 +3470,7 @@
       "sha256": "853869add162b3fec4587d30fef06ef183cea5212ab961515fd03c52e114e193",
       "bytes": 3012,
       "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
-      "ownerSha256": "6590b63cd4c28cba6d9e1c15c7497775f3a9f621b398e50b380a8ff61a70db8f",
+      "ownerSha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
@@ -3488,7 +3488,7 @@
       "sha256": "eed890ce0b20ce39849da2f2de042af6aa23e45ad0309dfdda12fcedc3d4d046",
       "bytes": 9319,
       "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
-      "ownerSha256": "6590b63cd4c28cba6d9e1c15c7497775f3a9f621b398e50b380a8ff61a70db8f",
+      "ownerSha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
@@ -4430,7 +4430,7 @@
       "sha256": "a1ca27d91e62391e9f84a0a2603c1e64478efaaec641023a95570506a84e5c50",
       "bytes": 4760,
       "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
-      "ownerSha256": "dd9f7fe0f291e9781b675b8ad01587c4c8ad520a0d7cf4b854561628d43cd67e",
+      "ownerSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
@@ -4448,7 +4448,7 @@
       "sha256": "0641f5fb2a77da415faa9ac1be659155d04d225abb97162de79519886c1cedc3",
       "bytes": 4229,
       "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
-      "ownerSha256": "dd9f7fe0f291e9781b675b8ad01587c4c8ad520a0d7cf4b854561628d43cd67e",
+      "ownerSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
@@ -4862,7 +4862,7 @@
       "sha256": "d4e8b735b5767ebdaf2d4149ead0413cce666bc2e92e10de25d179d1c5218d14",
       "bytes": 5654,
       "owner": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
-      "ownerSha256": "a7c217d2e124a8a00fbf7259cd91a86083d1cf0ddedb41478b511d89eb2fdd4b",
+      "ownerSha256": "ca288c0b182ec98b4885a7084a96db6a0d01546854c3228bcad63a784d58ee1e",
       "artworks": [
         {
           "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
@@ -4880,7 +4880,7 @@
       "sha256": "ce323d1cf0f16cd389bb0c854c60bbbc48f1fb7b5938865812af2394d64fc209",
       "bytes": 3336,
       "owner": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
-      "ownerSha256": "a7c217d2e124a8a00fbf7259cd91a86083d1cf0ddedb41478b511d89eb2fdd4b",
+      "ownerSha256": "ca288c0b182ec98b4885a7084a96db6a0d01546854c3228bcad63a784d58ee1e",
       "artworks": [
         {
           "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
@@ -5600,7 +5600,7 @@
       "sha256": "f225947fdcabdfd460e4bd6049b81cb81c82e32ec83e3aeede61e701a665558e",
       "bytes": 6160,
       "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
-      "ownerSha256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
       "artworks": [
         {
           "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
@@ -7085,6 +7085,240 @@
         {
           "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
           "sha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/visual-031-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "93c6f7bf0d8136a6b6e00e7429e19d244d3dcc168723bcdea3545dd6575e4da9",
+      "bytes": 8307,
+      "owner": "wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis.md",
+      "ownerSha256": "5a5a3e7eaa1f1e36976270f7a597e4631295f78e52c82e01d023c23ebec6a125",
+      "artworks": [
+        {
+          "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-light.png",
+          "sha256": "d8d7cdd9ccd27b16e594ed92225806b7b634a1a59f973008d7600737b8cb3577"
+        },
+        {
+          "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-dark.png",
+          "sha256": "e90ac359e47e5c6c834ab0f05b4768e2a109d9bc58ae53dcbd70366fa086aa59"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/next-gap-128-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "de6e5225a88172abcc13dfdfd4e52f4fda0e41e14b9f370e1da9789b7d2d3083",
+      "bytes": 7678,
+      "owner": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
+      "ownerSha256": "ca288c0b182ec98b4885a7084a96db6a0d01546854c3228bcad63a784d58ee1e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
+          "sha256": "09c99bb0edcd68a3877db39239640df3674ed28df8ef0cc4271e3dfc3fd9e28c"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-dark.svg",
+          "sha256": "d40362390a436bac4e651d3cbe51ee6d5b322774f0b36c78379468456b38bed7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/next-gap-035-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "7906b006afbc078118f27fcce5852053d41624ddb2617579e107f0bb7b82ac25",
+      "bytes": 9532,
+      "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "ownerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+          "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+          "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/next-gap-077-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "1c43c4dbe0e14843c64c7dde0b3f702afd4e6af661d67ae2abeb267fefd3ee8a",
+      "bytes": 7778,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+      "ownerSha256": "a808d9ec84d0623ba449b66ea7c7bfc51943f6d77c9a27a0215e60ae148674b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+          "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+          "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/next-gap-121-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "1086f4fcaffe201d30fb9f614ff5136db102049a90a3a59e36caaf0d95b151ea",
+      "bytes": 7346,
+      "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ownerSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+          "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+          "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/next-gap-059-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "ca19b77468ea042e9a95414db5afe9d9ddb8816018f24f302479966b6354f933",
+      "bytes": 7980,
+      "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+      "ownerSha256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+          "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+          "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/next-gap-064-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "a3c54835e8646c615788f096ac7b4120fc3805c81d7c8bbd6a564817eadae604",
+      "bytes": 8350,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+      "ownerSha256": "f861da205c692dca64f3d49443670adb406e84aa4049091380b2ab2dc0de15b8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+          "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+          "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/next-gap-089-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "2e8a799132de932b4c8031c89dda4fb7d3298854b07c7929e2696f9ee151f1df",
+      "bytes": 9734,
+      "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+      "ownerSha256": "2ce1c4b5ce818a9b804a93951f9d742105b475015df068f31d464fc7257282c7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+          "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+          "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/next-gap-024-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "216355febb2b31b6efd78b604099c9dab47f34f2b12cdc9727b2221f22b26566",
+      "bytes": 7760,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+      "ownerSha256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+          "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+          "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "3fa6d4defce32afc2c7d2569d44d0b168ab0dc6cbb5c2858c65287fc09eff4b9",
+      "bytes": 10239,
+      "owner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+      "ownerSha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-dark.svg",
+          "sha256": "7e85285a6e0be5564d8671454898ada0573022430c081e5861565387038a4a28"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
+          "sha256": "95540b30a9aa9d0b6e8e3e839721a8c68c8b581b0c0687fc30b6677fc38eb8ef"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/next-gap-011-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "6ef6e8c3ef5101e232a040ad4c607d4601f30e01db3065c8fb908fab8d59a1ad",
+      "bytes": 7660,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ownerSha256": "0310a9d512914b521018a9848fa9108d7a09555a68f3cdac08bfae1a4aca3c85",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-dark.svg",
+          "sha256": "95a7227841e21a3aa9af1f37fde0632a779717310e283b40429b49e4abdc2a63"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-light.svg",
+          "sha256": "088536bdf1926ff41fe539b0f5fc0079d17a857e5d7374e2085343448311fa2c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/next-gap-047-combined19-current-owner-task-fit-continuity.json",
+      "sha256": "0f8491fb0a8bc46475109c3f00ac769e0bee5a4268c5dc60d70a06fc907e732f",
+      "bytes": 8912,
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "ownerSha256": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+          "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+          "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/next-gap-043-combined19-row17-current-owner-task-fit-continuity.json",
+      "sha256": "0e89a0cb6aa466339a9fb764571e9aaf541f602eaca76257dea61e682e56b048",
+      "bytes": 11262,
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "ownerSha256": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+          "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+          "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564"
         }
       ],
       "contentClass": "source-owned-public-custody"

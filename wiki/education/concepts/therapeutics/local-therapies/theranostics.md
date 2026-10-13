@@ -9,7 +9,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging]]"
   - "[[wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy]]"
-used_by: ["[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-10"
@@ -102,5 +102,6 @@ Source-checked October 10, 2026. Expert and learner review remain pending. The a
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
 <!-- END GENERATED USED IN -->

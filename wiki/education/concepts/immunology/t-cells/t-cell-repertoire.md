@@ -7,7 +7,7 @@ glossary_anchor: "t-cell-repertoire"
 aliases: ["T-cell repertoire", "repertoire", "clonotype"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -87,6 +87,7 @@ Source check: October 10, 2026. General repertoire dynamics; no cell-banking rec
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)

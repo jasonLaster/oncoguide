@@ -8,7 +8,7 @@ objectives: ["Distinguish physical tumor injury from an antigen-specific immune 
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
 sensitive: false
 tags: [education, local-treatment, immunology]
-updated: 2026-10-09
+updated: "2026-10-13"
 source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
@@ -37,7 +37,7 @@ The useful sequence is conditional:
 2. Cells such as [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) collect and process that material. [Cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) can display acquired protein fragments on class-I HLA.
 3. [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) requires recognition and supporting activation signals; displaying a fragment alone is insufficient.
 4. Activated cells must reach other tumors and function there.
-5. A distant cancer cell must display a recognizable fragment. Antigen-specific CD8 T cells, a T-cell population carrying the CD8 coreceptor, recognize a peptide–HLA combination rather than loose tumor debris.
+5. A distant cancer cell must display a recognizable fragment. Antigen-specific [cluster of differentiation 8 (CD8) T cells](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) recognize a peptide–HLA combination rather than loose tumor debris.
 
 [Immunogenic cell death](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death) is defined by the ability of dying cells to provoke an adaptive immune response in an appropriate setting. A danger signal or a dead-cell stain is evidence about part of that process, not proof of the full response. The consensus guidance on detecting it makes this distinction explicit. [Galluzzi and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/32209603/).
 
@@ -49,19 +49,30 @@ The useful sequence is conditional:
 
 That supports local activity and a measured immune change. It does not yet establish that those cells entered the untreated tumor or recognized its cancer cells. Suppose the untreated tumor has lost the relevant HLA display. Local treatment could still injure the first tumor while antigen-specific T cells struggle to recognize the second.
 
-Now imagine the untreated tumor also shrinks while Leah receives a systemic drug. That is a distant response worth studying. A comparison is still needed to estimate how much adding local treatment contributed beyond the drug. For radiation, an [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect) concerns a response outside the irradiated field. For ablation, describe the distant response and name the procedure; calling it abscopal-like still leaves its cause unresolved. Shrinkage of the treated lesion is a local response. Local control concerns keeping that site from progressing during follow-up.
+Now imagine the untreated tumor also shrinks while Leah receives a systemic drug. That is a distant response worth studying. A comparison is still needed to estimate how much adding local treatment contributed beyond the drug. For radiation, interpret the untreated site's response with the [abscopal-effect concept](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect), keeping the irradiated field attached. For ablation, describe the distant response and name the procedure; calling it abscopal-like still leaves its cause unresolved. Shrinkage of the treated lesion is a local response. Local control concerns keeping that site from progressing during follow-up.
 
 ## Where the story can break
 
 Material can be released without useful presentation. T cells can be primed without reaching a tumor. A tumor can be reached without being recognized. Physical treatment can also damage nearby normal tissue or immune cells. These are different failure modes, so “more injury” is a poor substitute for measuring the relevant gate.
 
-In experimental cell and mouse models, sufficiently high single radiation doses induced a DNA-degrading enzyme that reduced a DNA-sensing immune signal. Here DNA means deoxyribonucleic acid. Thresholds varied across models. This is a reason to test schedules, not a universal clinical dose ceiling or proof that one schedule best stimulates immunity. [Vanpouille-Box and colleagues, 2017](https://pubmed.ncbi.nlm.nih.gov/28598415/).
+In experimental cell and mouse models, sufficiently high single radiation doses induced an enzyme that degrades [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna), reducing a DNA-sensing immune signal. Thresholds varied across models. This is a reason to test schedules, not a universal clinical dose ceiling or proof that one schedule best stimulates immunity. [Vanpouille-Box and colleagues, 2017](https://pubmed.ncbi.nlm.nih.gov/28598415/).
 
 ## Try it
 
 A study reports complete destruction of a treated lesion and increased danger signals in that tissue. Has it demonstrated a systemic antitumor immune response? Name two observations that would strengthen the claim.
 
 **Answer:** No. It demonstrated local injury and measured signals. Useful additional evidence could include tumor-specific T-cell function and response at untreated sites, with controls that help distinguish local treatment's contribution from concurrent drugs. Even these observations need appropriate sampling and follow-up.
+
+**Match the gate:** four fictional reports arrive from the same study. Match each to injury signals, presentation, stimulated recognition or distant activity. Which later claim remains unearned?
+
+| Observation | Matched gate and earned claim | Unearned claim |
+|---|---|---|
+| A danger marker rises in treated tissue | Injury signals: that marker changed in this sample | The dying cells provoked adaptive immunity |
+| Dendritic cells display a tumor-derived peptide–HLA pair after taking up tumor material | Presentation: acquired material reached a measured display | T cells were usefully primed or distant cancer cells display that pair |
+| Blood T cells respond when the peptide is added in an assay | Stimulated recognition: a response occurred under those assay conditions | Recognition of naturally presenting cancer cells, tumor entry or killing |
+| An untreated lesion shrinks during systemic treatment | Distant activity: a response at that site and time | Local treatment caused it through immunity or improved survival |
+
+**Reasoning:** these are four different observations, not four interchangeable proofs. Added peptide can bypass natural processing. Even a distant response needs a comparison for attribution; patient benefit and harms need their own endpoints. Keep the [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle) beside the observations to locate what remains unmeasured.
 
 ## Explain it back
 
@@ -74,6 +85,8 @@ Local control, immune learning and distant tumor response are separate achieveme
 Next: [put the disease setting before the timing question](/wiki/education/local-treatment-modalities/02-timing).
 
 ## Sources and scope
+
+Focused gate exercise: October 13, 2026; the primary Galluzzi and Chen/Mellman abstracts were checked alongside the linked public concepts, not newly read in full. Expert and learner review remain pending.
 
 Source check: 2026-10-09. Leah and her measurements are fictional. Mechanisms do not establish a clinical regimen; expert and learner review pending.
 

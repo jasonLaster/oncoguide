@@ -8,7 +8,7 @@ objectives: ["Trace target windows into the final encoded protein.", "Separate s
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]", "[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs]]"]
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-10"
+updated: "2026-10-13"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -50,7 +50,10 @@ Messenger ribonucleic acid (**mRNA**) is the instruction molecule. A ribosome tr
 | [Order and spacers](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs) | Combined protein and new boundaries | Inspect processing predictions, unintended junctions and relevant display evidence |
 | [Codon optimization](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization) | RNA sequence with the same intended amino acids | Confirm full protein-sequence equivalence and test message behavior |
 | [Modified nucleosides](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides) | Chemical building blocks | Assess sensing and expression in matched, product-relevant conditions |
+| Kozak start context | RNA sequence around the start codon | Keep evidence about starting translation separate from evidence about target display |
 | Cap, untranslated regions and poly(A) features | RNA stability and translation | Record the specification and measure the relevant quality and functional properties |
+
+**[Kozak context](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy#how-it-works)** means the sequence neighborhood around the start codon, where protein translation begins. The surrounding bases influence how readily a ribosome starts at that site. The context spans the untranslated/coding boundary. [Kozak's start-context experiments](https://pubmed.ncbi.nlm.nih.gov/3943125/) support this role in the tested preproinsulin construct; they do not establish a universally best vaccine sequence. Initiation remains separate from the later processing and display of target fragments.
 
 **Synonymous** codons specify the same amino acid. Changing them can still affect RNA lifetime or structure. A changed spacer, by contrast, changes the combined protein sequence. These revisions ask different review questions. “Optimized” describes an intention until the relevant improvement is measured.
 
@@ -98,9 +101,10 @@ One answer: “the RNA sequence while preserving the intended amino acids; the c
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. The worked example is fictional. These sources explain design mechanisms and specific study methods; they do not prescribe a clinical construct.
+Source check: October 9, 2026; Kozak clarification checked October 13, 2026. Expert and learner review pending. The worked example is fictional. These sources explain design mechanisms and specific study methods; they do not prescribe a clinical construct.
 
 - [Schubert and Kohlbacher, 2016: computational spacer design](https://doi.org/10.1186/s13073-016-0263-6).
 - [Wu et al., 2019: codon-dependent RNA stability in human cells](https://elifesciences.org/articles/45396).
 - [Karikó et al., 2005: nucleoside modification and innate sensing](https://pubmed.ncbi.nlm.nih.gov/16111635/).
 - [Rojas et al., 2023: primary personalized RNA-vaccine methods](https://www.nature.com/articles/s41586-023-06063-y).
+- [Kozak, 1986: start-context mutagenesis in a preproinsulin construct](https://pubmed.ncbi.nlm.nih.gov/3943125/).

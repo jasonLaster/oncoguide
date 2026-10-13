@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "visual-031",
+  "owner": "wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis.md",
+  "author": "agent:/root/canonical_definition_cleanup",
+  "authorRole": "Actual focused canonical-definition content author; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "5a5a3e7eaa1f1e36976270f7a597e4631295f78e52c82e01d023c23ebec6a125",
+  "outputs": [
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-light.png",
+      "sha256": "d8d7cdd9ccd27b16e594ed92225806b7b634a1a59f973008d7600737b8cb3577",
+      "bytes": 2154505
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-dark.png",
+      "sha256": "e90ac359e47e5c6c834ab0f05b4768e2a109d9bc58ae53dcbd70366fa086aa59",
+      "bytes": 2062088
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "ee39cfc5c46e32b54c2e6653b04de8d5767e3a3ee00590dd4887864284eb24b8",
+    "learnerTask": "Distinguish static accumulation, completed cargo flow and an unperformed dependence test.",
+    "gap": "Visual-031 supports the analogy well, but checked experiment boxes can suggest the dependence experiment is already done; theme bag geometry also varies.",
+    "accuracyGuardrails": "Equal snapshots do not imply equal flux; blocked clearance needs controls; downstream process is not target engagement or clinical benefit.",
+    "currentVisualFit": "adequate",
+    "reasoning": "My preserved focused04 PASS covers this exact final content hash. The only local definition replacement routes protein-form and turnover foundations to existing canonical owners; the recycling-center intuition, amount/flow/dependence teaching, unperformed-test interpretation, controls and entire native embed/caption remain byte-identical outside that replacement. This does not change the frozen distinction between a static accumulation snapshot, completed cargo flow and an unperformed dependence test or its guards. The unchanged native pair retains its prior adequate task fit, including enlargement/readability qualifications; no pixel/source review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-031-review.json",
+      "sha256": "269fe5d2f24272bc1814e631fdf35301d7564222bf5000d5167e7076c6f3a973"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/production-wave3-release.json",
+      "sha256": "374559eaef0a8c48f949a19472218409ed49ebf6568fd446fc00a9b7237582ed"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis.md",
+        "sha256": "5a5a3e7eaa1f1e36976270f7a597e4631295f78e52c82e01d023c23ebec6a125",
+        "bytes": 8925
+      },
+      {
+        "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-light.png",
+        "sha256": "d8d7cdd9ccd27b16e594ed92225806b7b634a1a59f973008d7600737b8cb3577",
+        "bytes": 2154505
+      },
+      {
+        "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-dark.png",
+        "sha256": "e90ac359e47e5c6c834ab0f05b4768e2a109d9bc58ae53dcbd70366fa086aa59",
+        "bytes": 2062088
+      },
+      {
+        "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2.txt",
+        "sha256": "aba4b4c1f375b7588ad0434d33f21c3f1cf1f2f58911963c249696e715cc301f",
+        "bytes": 3982
+      },
+      {
+        "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2-light-call.txt",
+        "sha256": "19eb3049ad5acda16ccc6b2f4f9656873393d8a546f40df723efe02f1d2aeea2",
+        "bytes": 4303
+      },
+      {
+        "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2-dark-call.txt",
+        "sha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26",
+        "bytes": 540
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "a0ea23c0426b9d98264d0625de116f4a864ac4ea0ea8249d5bd527912e97c6fd",
+    "currentOwnerSHA256": "5a5a3e7eaa1f1e36976270f7a597e4631295f78e52c82e01d023c23ebec6a125",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      8997,
+      8925
+    ],
+    "generatedUsedByAndUsedInOnly": false,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": null,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": true,
+    "exactDeltaSHA256": "326641b688b9af92c8042473e070121cf1a7827c5bf9c50dfeae3ca5ade95349",
+    "originalCreativeAuthor": "multiomics",
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "claims_access",
+    "priorReviewActualTime": null,
+    "priorReleaseSourceCommit": "0cfbbdf62da38014c5464c18c916cc80d112729e",
+    "priorReleaseCompanionCommit": "187ce73e2f5980abf659ad8476ec35a8e4375ca1",
+    "preservedOriginalQualificationFields": {
+      "scope": "Independent narrow depicted-source, actual both-theme native, actual CUA ordinary local preview and bounded owner-delta/custody review.",
+      "limitations": [
+        "Fine clipboard and decorative background labels require enlargement. Main task is carried by readable ordinary headings and complete caption.",
+        "No full2021guideline access claim. Selected2012flux/LC3 passages were actually read byreviewer; author failures remainhonest.",
+        "IsolatedpreviewdarkHTMLheading says031light, but actualimageloads exactdarknative; this preview-only title doesnotaffect owner/art.",
+        "Local previews do not certify deployed reader/theme/viewer/keyboard.",
+        "Selected source passages and abstracts only; no whole bibliography or human review certification."
+      ]
+    },
+    "registryNoteQualification": "Exact source-bound native pair and bounded owner changes independently reviewed and verified on both sites. Fine detail benefits from enlargement; expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

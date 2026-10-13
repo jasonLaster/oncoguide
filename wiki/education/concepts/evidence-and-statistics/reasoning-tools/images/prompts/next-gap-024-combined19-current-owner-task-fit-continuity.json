@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-024",
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "bytes": 11341
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "bytes": 11340
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "3cb38a548ac0389394d8a92f73d50f95a73d3fe92e2d664a3cb853f63a52e075",
+    "learnerTask": "Track the same5 observed responses through enrolled20, treated14 and evaluable10 denominators.",
+    "gap": "No nested population graphic shows the doorway change or unknown outcomes.",
+    "accuracyGuardrails": "Keep enrolled, treated and evaluable populations and missing outcomes visible. Do not recode unobserved outcomes as nonresponse or compare percentages after silently changing the denominator.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-next-content-next-gap-024-canonical-binding.json",
+      "sha256": "47b92f1ec5dcaeeb6eb29c77dfa91ae72cd5cf2a7bba0c67e026aee419fb5e32"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/curriculum-next-content-release.json",
+      "sha256": "72ff3aa46777ebb7fb5284d19a9357205fd1a1128965595504f86f51992f56f5"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+        "sha256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+        "bytes": 8904
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+        "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+        "bytes": 11341
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+        "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+        "bytes": 11340
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt",
+        "sha256": "33098e9122dca10505b7e6bf4d7911af87bc17a6c38170b6587293c39ef09e56",
+        "bytes": 52817
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "bf84af0749620883598447a3a957ffbc5219f8ee48b24844d35640f89f880cb6",
+    "currentOwnerSHA256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      8711,
+      8904
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "ffd535f91417c27b8ca71335dbe7ccf2dc5c4b78d63a83b22ae9afbe5670e50d",
+    "originalCreativeAuthor": "sequencing-author",
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "root",
+    "priorReviewActualTime": null,
+    "priorReleaseSourceCommit": "e9bdf325ac581ce2a8b49a8fea334b0e9a133672",
+    "priorReleaseCompanionCommit": "71268dbb5d3254ff55d8cb5b6170aad6098b5259",
+    "preservedOriginalQualificationFields": {
+      "scope": "Actual clean committed canonical whole-file/dependency bindings to separately identified genuine independent prospective task-fit decisions. No new primary-source, pixel, live-reader or human recertification."
+    },
+    "registryNoteQualification": "Exact canonical task review and recorded both-site content/native delivery, scoped reader checks, companion CI and zero drift pass. Actual evidence scopes and failures are retained in the release proof; expert and learner review pending. Escape focus restoration fails to BODY and remains a separate open reader repair; no overall reader PASS. Current lesson-byte binding is qualified in the new release proof: source normalized publication and companion CI pass; automated Diana CI failed on runner disk space. Reader focus and expert/learner review remain open; no new coverage credit.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

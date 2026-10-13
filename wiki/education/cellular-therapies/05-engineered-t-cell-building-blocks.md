@@ -12,7 +12,7 @@ source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: 2026-10-10
+updated: "2026-10-13"
 ---
 
 # Building an engineered T cell
@@ -51,9 +51,9 @@ A conventional alpha-beta TCR usually reads a peptide displayed by [human leukoc
 | Binding region | Target feature, binding strength and unwanted recognition | Target and healthy-tissue binding; finished receptor behavior |
 | Hinge or spacer | Reach, flexibility and contact geometry | Accessible recognition for the actual epitope |
 | Membrane-spanning region | Receptor assembly, expression and interactions | Surface expression and signaling |
-| Internal signaling regions | Activation and costimulatory responses | Useful function, baseline activity and repeated stimulation |
+| Internal signaling regions | Activation and [costimulatory responses](/wiki/education/concepts/immunology/t-cells/costimulation) | Useful function, baseline activity and repeated stimulation |
 
-Many binding regions use a [single-chain variable fragment (scFv)](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies). It joins antibody heavy- and light-chain variable domains with a linker. Another option is a nanobody based on the variable domain of a heavy-chain-only antibody (VHH). The [binder concept](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies) separates these architectures from measured specificity, affinity and whole-product performance.
+Many binding regions use a [single-chain variable fragment (scFv)](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies). Others use a heavy-chain-only antibody variable domain (VHH) nanobody; naming the architecture does not measure its performance. The [binder concept](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies) separates these architectures from measured specificity, affinity and whole-product performance.
 
 An [**epitope**](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) is the particular molecular feature recognized. The hinge positions the binder relative to the cell. A membrane-proximal epitope may need different reach from a distant one. A longer spacer is not always better. Primary experiments also found that some antibody-derived spacers created unwanted interactions with immune-cell receptors. Read the binder, epitope and spacer as one contact design. [Hudecek et al.](https://pubmed.ncbi.nlm.nih.gov/25212991/).
 
@@ -73,7 +73,19 @@ A clean comparison changes one design feature while keeping other relevant featu
 
 ## Where companies fit
 
-**A labeled architecture example:** Novartis's Kymriah, or tisagenlecleucel, is an autologous CD19-directed CAR-T product. Section 11 of the [FDA-linked label, revised June 2025](https://www.fda.gov/media/107296/download), specifies a murine scFv, a cluster of differentiation 8 (CD8) hinge and transmembrane region, and internal 4-1BB plus CD3-zeta domains. This ties the component map to one real product. It does not show that substituting its parts into a new solid-tumor receptor reproduces its clinical results.
+**A labeled architecture example:** Novartis's Kymriah, or tisagenlecleucel, is an autologous CD19-directed CAR-T product. Section 11 of the [FDA-linked label, revised June 2025](https://www.fda.gov/media/107296/download), specifies a murine scFv, a [cluster of differentiation 8 (CD8)](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8)-derived hinge and transmembrane region, and internal 4-1BB plus CD3-zeta domains. This ties the component map to one real product. It does not show that substituting its parts into a new solid-tumor receptor reproduces its clinical results.
+
+**Read the architecture card:** keep these three labels on different lines.
+
+| Label in the example | What it names | What it does not establish |
+|---|---|---|
+| CD8-derived hinge and membrane region | The origin of receptor parts | That every cell carrying the CAR belongs to the CD8 T-cell population |
+| Autologous T cells | Cells obtained from the same person who receives the product | A specified [cluster of differentiation 4 (CD4)/CD8 mixture](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) or each cell's function |
+| Internal 4-1BB and CD3-zeta regions | The receptor's signaling architecture | Guaranteed persistence or benefit from another product borrowing those parts |
+
+**Transfer check:** a fictional report says, “Our different receptor uses Kymriah's hinge and 4-1BB region, so it is a CD8-cell product with the same persistence.” What can the reader carry over?
+
+**Answer:** Only the stated component origins, assuming that parts list is accurate. Cell identity needs its own characterization; CD4/CD8 names populations, not borrowed receptor parts. The new binder, receptor and source-cell context need whole-product evidence. Neither a shared part nor a label transfers the finished product's behavior.
 
 ## Worked example: find the broken link
 
@@ -106,6 +118,8 @@ Two fictional constructs differ only in hinge length. Both bind purified X, but 
 **Next:** [Deliver the instructions](/wiki/education/cellular-therapies/06-in-vivo-delivery).
 
 ## Sources and scope
+
+Focused architecture reading: October 13, 2026, FDA label section 11. Earlier experimental-source scope remains as dated below. Expert and learner review remain pending.
 
 Source check: October 10, 2026; expert and learner review pending. The worked scenarios are fictional. The product box illustrates labeled architecture without comparing efficacy or advising treatment.
 

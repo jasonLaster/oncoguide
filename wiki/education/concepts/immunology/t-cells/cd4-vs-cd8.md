@@ -7,7 +7,7 @@ glossary_anchor: cd4-vs-cd8
 aliases: ["CD4","CD8"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 sensitive: false
 tags: [education, immunology]
 updated: 2026-10-10
@@ -109,8 +109,11 @@ Source-checked October 10, 2026. The counts are fictional. Classical receptor re
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
 - [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
+- [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
 - [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)

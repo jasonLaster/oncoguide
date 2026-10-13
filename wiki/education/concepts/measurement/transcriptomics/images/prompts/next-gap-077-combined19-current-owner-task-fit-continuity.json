@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-077",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "a808d9ec84d0623ba449b66ea7c7bfc51943f6d77c9a27a0215e60ae148674b9",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+      "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81",
+      "bytes": 11177
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+      "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32",
+      "bytes": 11177
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "e46be04478405c92c9be610e3acd99e198bf04253184295d85d8567e117d9c9e",
+    "learnerTask": "See complete versus crossed group–batch confounding",
+    "gap": "Current causal map does not show the sample allocation matrix",
+    "accuracyGuardrails": "Keep group assignment and processing batches explicit, including missing group–batch cells. Correction cannot create unobserved contrasts or prove removal of all confounding.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/next-gap-077-generated-owner-metadata-continuity.json",
+      "sha256": "ff2e66bbaac1525b66efe4299c86f062db264400c32e13fd16315a2d113b7bf7"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eleven-owner-curriculum-corrections-2026-10-12-owner-continuity.json",
+      "sha256": "888e75f468e9f5cb7b09e863fd817ff1ec6ad905e1cf48203a7a507d1902e2ce"
+    },
+    "upstreamSelectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2-independent-owner-review.json",
+      "sha256": "e0b71fede199242ad0ac2c9f4f36f30366f4ea42dc4576b693af9123a3d250a2"
+    },
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+        "sha256": "a808d9ec84d0623ba449b66ea7c7bfc51943f6d77c9a27a0215e60ae148674b9",
+        "bytes": 7816
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+        "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81",
+        "bytes": 11177
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+        "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32",
+        "bytes": 11177
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2.txt",
+        "sha256": "ecfe92b1f56836fa99d93ab425fe72b83657cec426e4053693541c32edb4f4c4",
+        "bytes": 1002
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/group-laboratory-missing-contrasts-v2-provenance.json",
+        "sha256": "a365f661ef89a7390cedb3a0fd300ee52636b691223dad19a917032ae34d9a45",
+        "bytes": 2747
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "8425b6fe1f4c76860ad2d90418431df7731d3372f0137924a3c6897c5d3cc5ab",
+    "currentOwnerSHA256": "a808d9ec84d0623ba449b66ea7c7bfc51943f6d77c9a27a0215e60ae148674b9",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      7617,
+      7816
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "08dda0d2a26357214386cd18ae03faaa79de9f8fe121ae6b3b97cbf5a979c769",
+    "originalCreativeAuthor": {
+      "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+      "role": "Original educational writing, source qualification, SVG generation and narrow boundary-color successor",
+      "rootOriginalGenerationOrMedicalWritingAttribution": false
+    },
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "agent:/root/review_correction_composition",
+    "priorReviewActualTime": "2026-10-12T22:35:46.275Z",
+    "priorReleaseSourceCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+    "priorReleaseCompanionCommit": "83673db0295bc6a804334c7e3eb49253045817b3",
+    "preservedOriginalQualificationFields": {},
+    "registryNoteQualification": "Delivered in package eighteen-owner-visuals-2026-10-12 at 2026-10-12T22:00:46.835Z; selected task, source fit and both-site content/native delivery verified. Expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

@@ -7,7 +7,7 @@ glossary_anchor: protein-and-peptide
 aliases: ["protein", "peptide", "polypeptide", "amino acid", "peptide bond"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]"]
-used_by: ["[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]"]
+used_by: ["[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -106,5 +106,6 @@ Source check: October 9, 2026. General molecules and measurement boundaries; the
 ## Used in
 
 - [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
+- [Autophagy and proteostasis: amount, flow, and dependence](/wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis)
 - [Start with genes, RNA and protein](/wiki/education/multi-omics-foundations/00-genes-rna-and-protein)
 <!-- END GENERATED USED IN -->

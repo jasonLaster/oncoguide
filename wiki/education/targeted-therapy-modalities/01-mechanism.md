@@ -8,7 +8,7 @@ objectives: ["Distinguish an accessible surface target from a peptide–HLA targ
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-10"
+updated: "2026-10-13"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -45,7 +45,7 @@ An antibody can recognize an exposed part of an intact surface protein. The prot
 
 A different route recognizes a short protein fragment displayed in a peptide–HLA complex. The source protein can be intracellular, but the presented complex must be accessible at the surface. A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes the paired peptide and HLA, rather than the source protein alone.
 
-This distinction cuts across product formats. The [TCR-mimic and engager explanation](/wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers) separates an antibody-derived peptide–HLA binder from an engineered soluble TCR, and shows how either can be joined to a T-cell-recruiting arm. An antibody-like mimic is not automatically an engager. [TCR-engineered T cells](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t) instead carry a receptor on living cells. Tebentafusp illustrates a dosed TCR/CD3 protein: its target arm recognizes a specific peptide–HLA-A*02:01 complex while its CD3 arm recruits T cells. Changing the product format does not remove that recognition requirement.
+This distinction cuts across product formats. The [TCR-mimic and engager explanation](/wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers) separates an antibody-derived peptide–HLA binder from an engineered soluble TCR, and shows how either can be joined to a T-cell-recruiting arm. An antibody-like mimic is not automatically an engager. [TCR-engineered T cells](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t) instead carry a receptor on living cells. Tebentafusp illustrates a dosed TCR/[cluster of differentiation 3 (CD3)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) protein: its target arm recognizes a specific peptide–HLA-A*02:01 complex while its CD3 arm recruits T cells. Changing the product format does not remove that recognition requirement.
 
 A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) usually recognizes an intact surface target and contains its own intracellular signaling design. A surface-target engager instead recruits the T cell through CD3. Neither requires that cell's native TCR to recognize the tumor peptide, but both still depend on immune-cell function.
 
@@ -61,6 +61,10 @@ Now consider four proposed products made around that antibody:
 - **A radiolabeled product:** investigators must measure distribution over time and absorbed radiation dose in tumor and vulnerable tissues. Binding alone supplies neither.
 
 Suppose only binding has been measured. All four remain mechanistic proposals beyond binding. [Binder discovery](/wiki/education/concepts/engineering-and-manufacturing/binders/binder-discovery) has found a candidate; [format-specific constraints](/wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders) now determine the next tests. Attach the unanswered question to each product.
+
+**Transfer check, still fictional:** the M-directed ADC still binds living M-positive cells in the tested model, but processing produces little active chemical payload. A report proposes moving the same binder into a T-cell engager. Does changing the action solve the problem?
+
+**Answer:** The observation supports an accessible M address and binding by the tested ADC in that model. It also locates a problem in its chemical-action route. An engager would use a different action, so this result does not show that the same chemical-processing failure applies to it. But the new format has not yet earned binding or productive T-cell contact. Its geometry, immune-cell function, healthy-tissue recognition and clinical benefit require their own evidence. A plausible change of mechanism is a new proposal, not demonstrated rescue.
 
 ## What can go wrong at this step
 
@@ -91,6 +95,8 @@ Complete: “The binder tells me ______. The format tells me ______. A binding a
 **Next:** [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing).
 
 ## Sources and scope
+
+Focused transfer revision: October 13, 2026; FDA ADC component guidance and tebentafusp mechanism section checked for the address/action distinction. Expert and learner review remain pending.
 
 Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General mechanisms with fictional exercises; expert and learner review remain pending. This lesson does not establish treatment selection or access.
 

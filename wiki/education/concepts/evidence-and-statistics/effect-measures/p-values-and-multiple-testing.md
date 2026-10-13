@@ -7,7 +7,7 @@ glossary_anchor: "p-value"
 aliases: ["p-value", "p value", "multiple testing", "multiplicity"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
 updated: 2026-10-10
@@ -105,4 +105,5 @@ Source check: October 10, 2026. Hypothetical arithmetic; expert and learner revi
 
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
 <!-- END GENERATED USED IN -->

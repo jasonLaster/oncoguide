@@ -8,7 +8,7 @@ objectives: ["Locate immune failure at target, display, access or cell function.
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self]]", "[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
+updated: 2026-10-13
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -25,7 +25,7 @@ A treatment mechanism can sound elegant and still meet a roadblock. That is frus
 
 ## Where this step sits
 
-This is lesson 6 of [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). We use the earlier steps to interpret failure rather than treating “resistance” as one mechanism.
+This is lesson 6 of [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). We use the earlier steps to interpret failure rather than treating [drug resistance](/wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance) as one mechanism.
 
 **Target → display → recognition → access and function → possible killing.**
 
@@ -92,6 +92,9 @@ Three target peptides are added to a design. All require the same HLA allele, wh
 
 **Answer:** No. The three candidates share a display dependency. Broader effective coverage would require validated targets using a functioning recognition route, not merely more entries on a list.
 
+**Compare two failures:** In two fictional cancer-cell models, compare earlier and later samples with compatible assays and matched drug exposure. In model A, the source antigen, peptide–HLA display and recognition by the tested TCR remain intact, but the same cytotoxic drug causes less cell death. In model B, the required peptide–HLA display is lost, while the measured response to that drug is unchanged. Where did each route fail?
+
+**Answer:** A supports reduced drug response under those conditions. Intact recognition does not explain the drug failure; drug handling or downstream death responses remain causal questions. B supports failure of the tested immune recognition route, without showing resistance to the drug. The observations locate different requirements. They do not identify a complete mechanism, establish every immune route's behavior or select a replacement treatment.
 ## Explain it back
 
 “A proposed bypass must show ___, then ___.”

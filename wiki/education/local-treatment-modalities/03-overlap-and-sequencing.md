@@ -8,7 +8,7 @@ objectives: ["Keep a combination trial's population, treatment sequence and endp
 prerequisites: ["[[wiki/education/local-treatment-modalities/02-timing]]", "[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
 sensitive: false
 tags: [education, local-treatment, evidence]
-updated: 2026-10-09
+updated: "2026-10-13"
 source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
@@ -27,7 +27,7 @@ A promising result is like a parcel addressed to a particular setting. Changing 
 
 ## Four study cards
 
-Here progression-free survival means time to the study's defined progression event or death; overall survival concerns death from any cause. Read each protocol's starting time and assessment rules.
+Use the [survival-endpoint concept](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) to check each clock, event rule and assessment. A [cross-trial comparison](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) must also carry differences in populations and methods; these cards cannot rank technologies from separate headlines.
 
 | Study | Population and comparison | What the result supports | Boundary to carry with it |
 |---|---|---|---|
@@ -44,7 +44,11 @@ The cards summarize the primary reports linked below. In NRG-BR002, “metastasi
 
 For radiation, an [abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect) concerns tumor response outside the irradiated field. For ablation, describe a distant or abscopal-like response and name the procedure. When a systemic drug is also being given, that observation alone cannot isolate local treatment's added contribution.
 
-For example, Ho and colleagues' single-arm study of radiation plus pembrolizumab in metastatic triple-negative breast cancer reported responses in unirradiated lesions. Without a randomized drug-only group, it could not establish how much radiation added. The denominator also mattered: three responses among all 17 enrolled participants differed from three among nine assessed at week 13. Eight participants died from progression before that assessment. These are descriptions of one small study, not a general response rate. [Ho and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/31747077/).
+For example, [Ho and colleagues' 2020 single-arm study](https://pubmed.ncbi.nlm.nih.gov/31747077/) of radiation plus pembrolizumab in metastatic triple-negative breast cancer reported responses in unirradiated lesions. The primary endpoint was response at week 13. There were three responses among all 17 enrolled participants and three among nine assessed then. Eight participants died from progression before that assessment. Without a randomized drug-only group, it could not establish how much radiation added.
+
+**Calculate, then explain:** use the [denominator concept](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability) to calculate `3 ÷ 17 × 100` and `3 ÷ 9 × 100`. Which group does each fraction describe? Has the treatment become more effective when the denominator changes?
+
+**Answer:** The fractions are **17.6% of all enrolled participants** and **33.3% of those assessed at week 13**, rounded to one decimal place. They describe the same three responses in different groups within one small study. Restricting the denominator to those assessed leaves out eight early progression deaths. It changes the question, not the treatment's effect. The larger percentage cannot replace the enrolled-participant result or estimate radiation's added benefit; the missing randomized comparator remains missing.
 
 A [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1) may show what happened to one person. An [observational comparison](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding) can be distorted by who was selected for local treatment. [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) can explain why to test a strategy. These designs answer useful but different questions.
 
@@ -75,6 +79,8 @@ Keep local control, distant response and patient outcomes separate. A combinatio
 Next: [read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions).
 
 ## Sources and scope
+
+Focused denominator check: October 13, 2026; Ho’s primary abstract read via Europe PMC after PubMed access failed. No new full-text reading is claimed; the other study cards retain their earlier source-check scope. Expert and learner review remain pending.
 
 Source check: 2026-10-09. The worked study is fictional; the named clinical trials are real. Expert and learner review pending.
 

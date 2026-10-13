@@ -3,7 +3,7 @@ title: "T-cell receptors and TCR sequencing"
 type: guide-lesson
 sensitive: false
 tags: [education]
-updated: 2026-10-09
+updated: 2026-10-13
 source_checked: 2026-10-09
 minutes: 10
 review_status: source-checked; expert and learner review pending
@@ -23,7 +23,7 @@ reviewed_by: ""
 
 ## Recognition is a three-part contact
 
-Most conventional T cells use a receptor made from an alpha and a beta chain. The receptor contacts both the peptide and its human leukocyte antigen (HLA) molecule. The **peptide sits in the HLA binding groove**; the TCR does not hold it in a separate peptide pocket. The receptor works with CD3 signaling proteins and, often, a CD4 or CD8 co-receptor.
+Most conventional T cells use a receptor made from an alpha and a beta chain. The receptor contacts both the peptide and its human leukocyte antigen (HLA) molecule. The **peptide sits in the HLA binding groove**; the TCR does not hold it in a separate peptide pocket. The receptor works with CD3 signaling proteins and, often, a [CD4 or CD8 co-receptor](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8).
 
 A receptor can cross-recognize multiple peptide–HLA complexes. A clone means cells descended from the same T cell, usually carrying the same receptor sequence. Neither a sequence match nor binding alone proves safe tumor killing. Receptor affinity, peptide density, cell state and signaling all matter.
 
@@ -58,7 +58,7 @@ Blood and tumor are different compartments. A clone abundant in blood might resp
 
 Invented numbers for learning: a clone rises from 0.1% to 2% of sampled blood receptors after vaccination. That is relative enrichment in those samples. It does not alone prove absolute expansion: other clones could have declined. Compatible cell counts, sampling and assay denominators are needed for the absolute-number claim. [Clonality metrics](/wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics) describe the distribution. A paired functional assay against the intended peptide can strengthen a specificity claim. Tumor-cell killing and clinical benefit require further evidence.
 
-Extracting and expanding native antigen-reactive T cells is **adoptive transfer of selected cells**. Engineering cells to express a selected receptor is **engineered TCR-T**. They can share discovery assays, but differ in manufacturing, safety checks and regulatory requirements. Banking is neither a universal prerequisite nor a guarantee that a future product can be made.
+Extracting and expanding native antigen-reactive T cells is **adoptive transfer of selected cells**. Engineering cells to express a selected receptor is [**engineered T-cell receptor therapy (TCR-T)**](/wiki/education/concepts/therapeutics/cell-therapies/tcr-t). They can share discovery assays, but differ in manufacturing, safety checks and regulatory requirements. Banking is neither a universal prerequisite nor a guarantee that a future product can be made.
 
 ## What can go wrong
 
@@ -70,6 +70,9 @@ A clone expands after dosing but fails the intended-peptide stimulation test. Ca
 
 **Answer:** No. Expansion identifies a candidate; failed or inconclusive specificity testing leaves its target unresolved.
 
+**Can you join these results?** In a fictional report, bulk beta-chain sequencing finds sequence B more frequently in blood. A separately prepared, peptide-stimulated cell mixture releases a cytokine. No alpha/beta pairing or link between B and the responding cells is reported. Has one full receptor been assigned specificity?
+
+**Answer:** No. The beta-chain result identifies an enriched sequence under that assay's denominator; the response belongs to the separately tested mixture. To connect them, evidence must link compatible alpha/beta identity, specimen and responding cells, then attribute the controlled response to that receptor and its peptide–HLA requirement. Pairing alone is still identity evidence. A tested specificity also does not exclude cross-reactivity, prove tumor killing or establish clinical benefit.
 ## Explain it back
 
 “Sequencing tells me ___; a functional experiment is needed to establish ___.” One answer: “which receptors were sampled; what they recognize and do.”

@@ -8,7 +8,7 @@ objectives: ["State a local treatment's goal before asking when to deliver it.",
 prerequisites: ["[[wiki/education/local-treatment-modalities/01-mechanism]]", "[[wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant]]"]
 sensitive: false
 tags: [education, local-treatment, treatment-setting]
-updated: 2026-10-09
+updated: "2026-10-13"
 source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
@@ -27,7 +27,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Name the disease setting
 
-These terms describe patterns; each study supplies its own eligibility definition:
+These [oligometastatic and related setting labels](/wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease) describe patterns; each study supplies its own eligibility definition:
 
 | Setting | What the label describes | What it leaves unanswered |
 |---|---|---|
@@ -47,6 +47,17 @@ A blood signal also differs from a mapped lesion. [Circulating tumor DNA (ctDNA)
 All three might hear the word “radiation.” Their studies, goals and clocks are different. An immune signal measured in Jo's study would not establish the benefit of Maya's postoperative treatment. Ravi's pain improvement would be meaningful even without shrinkage of untreated tumors.
 
 Notice what we have not chosen: a dose, modality or date. First we have identified what a timing decision needs to accomplish.
+
+**Read two scan cards. All counts and histories below are fictional.** Both current lung-cancer reports map two lesions; the previous reports differ.
+
+| Card | Before the current scan | Current scan |
+|---|---|---|
+| A | Eight detected lesions before checkpoint treatment | Two remain after a broader response; neither is growing |
+| B | Two detected lesions during systemic treatment | One has grown; the other remains controlled |
+
+Which history belongs beside a residual-disease question, and which belongs beside a progression question? Use the named study's definition: [CURB](https://pubmed.ncbi.nlm.nih.gov/38104577/) defined oligoprogression as no more than five progressive lesions after at least first-line systemic therapy. [BOOSTER](https://pubmed.ncbi.nlm.nih.gov/41213939/) studied oligo-residual lung cancer after a checkpoint-treatment response.
+
+**Answer:** A suggests an induced limited residual pattern; B suggests limited progression during treatment. Their equal current counts do not make them the same population. These cards lack other entry requirements and do not establish eligibility for either study, an optimal treatment or a timing rule. A different scan date can also change what is detected; [lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) explains why an earlier clock does not itself show improved outcomes.
 
 ## How timing and fractionation interact with the goal
 
@@ -79,6 +90,8 @@ Start with the goal and disease history. Timing belongs to a tested treatment st
 Next: [read the combination-trial evidence](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing).
 
 ## Sources and scope
+
+Focused scan-card revision: October 13, 2026; CURB and BOOSTER primary abstracts checked for the named setting distinctions. The cards do not reproduce full eligibility rules. Expert and learner review remain pending.
 
 Source check: 2026-10-09. All people and proposals above are fictional; expert and learner review pending.
 

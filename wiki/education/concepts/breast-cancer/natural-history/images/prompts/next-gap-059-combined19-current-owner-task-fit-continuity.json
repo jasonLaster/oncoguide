@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-059",
+  "owner": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+      "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a",
+      "bytes": 7936
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+      "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8",
+      "bytes": 7936
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+    "learnerTask": "Compare identical current lesion counts with different prior burden and progression histories.",
+    "gap": "The three fictional histories are well differentiated in prose but all end with two relevant lesions. Three short timelines would make the lost history visible and show why count alone does not identify a study population.",
+    "accuracyGuardrails": [
+      "Visible lesions are detected burden, not every cancer cell.",
+      "No universal count threshold, cure promise or trial eligibility inference.",
+      "Do not imply all limited visible disease hides widespread spread."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1-independent-owner-review.json",
+      "sha256": "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/fifteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "cd9874459627eb0c7bc9bd775170c116ca21c4cef162610f487aa26bee529c72"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+        "sha256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
+        "bytes": 9039
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-dark.svg",
+        "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a",
+        "bytes": 7936
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/oligo-histories-v1-light.svg",
+        "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8",
+        "bytes": 7936
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.json",
+        "sha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
+        "bytes": 3488
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.txt",
+        "sha256": "782ba85c1e74898e13e0b2a4854677a8c5976e801a5a17c0ea2cfc52b044edc5",
+        "bytes": 1296
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+    "currentOwnerSHA256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      8882,
+      9039
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "65d1bd477a0d2aa81aad2eed71270c6ce8e9c2ad3a25b058c592fa10acd62beb",
+    "originalCreativeAuthor": {
+      "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "title": "Cartoon planning: molecular measurements",
+      "role": "Producer of the four original SVG pairs, briefs/provenance and focused candidate additions; historical owner writing retains its original custody. Root is not attributed original image construction, source review or medical writing.",
+      "identityEvidence": "Actual root author dispatch and completed producer chat handoff for the exact breast packet; existing provenance files remain byte-identical."
+    },
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "curriculum-study-interpretation; independent from package author",
+    "priorReviewActualTime": "2026-10-12T20:12:41.797626Z",
+    "priorReleaseSourceCommit": "fa82b6a41e9e3f797af96372cf2ecd137f7372c1",
+    "priorReleaseCompanionCommit": "dda084dd2be9eba3d6bdd8487c1020e7dc964b43",
+    "preservedOriginalQualificationFields": {},
+    "registryNoteQualification": "Delivered in package fifteen-owner-visuals-2026-10-12 at 2026-10-12T20:46:30.906Z. Current task and native bindings are verified; expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

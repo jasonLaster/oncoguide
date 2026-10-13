@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-043",
+  "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+  "author": "agent:/root/combined19_release_freeze",
+  "reviewer": "agent:/root/original_row17_routing_review",
+  "actualReviewerAgent": "/root/original_row17_routing_review",
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "phase": "PRIVATE_PROSPECTIVE_GENERATED_NAVIGATION_CORRECTION_BEFORE_ACTUAL_RELEASE",
+  "verdict": "PASS",
+  "passed": true,
+  "reviewedAtUTC": "2026-10-13T21:17:04.079719+00:00",
+  "observedCurrentTeachingSourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "observedCurrentRegistryCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+  "currentOwnerSha256": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+  "currentOwnerBytes": 9780,
+  "preimageOwnerSha256": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+  "preimageOwnerBytes": 9572,
+  "futureActualReleaseCommit": null,
+  "scope": "Focused exact generated navigation-only continuity. Existing adequate frozen task fit and qualified native/scientific/source grades are inherited, not re-reviewed.",
+  "sourceFitAssessment": {
+    "learnerTask": "Compare immune-cell location inside cancer-cell regions, at their boundary and scarce across a sampled section without assigning target specificity or cause.",
+    "gap": "The pattern table and building analogy are clear, but the defining idea is spatial and no tissue diagram is present. Three matched field views with consistent region boundaries and cell symbols would explain location more directly than a workflow map.",
+    "accuracyGuardrails": [
+      "Use specified T-cell symbols and labeled cancer/stroma boundaries, not every immune population interchangeably.",
+      "Exclusion is distribution, not proof of a collagen wall or other causal barrier.",
+      "Label illustrative fields, no normal-count cutoff, patient-wide classification or treatment-response promise."
+    ],
+    "baselinePageSHA256": "69c5d0b9c78c93cddc1e56adce6e3e67e2f427c3fc358073448ee37eb2f339a8",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Independent focused continuity check: removing only the added used_by item and generated Used-in route reproduces every byte of the previously accepted owner. The matched-tissue-fields light and dark natives, image/caption, task explanation, answered exercise, evidence distinctions and source/human-review qualifiers therefore remain exact. The new backlink leads to the already independently reviewed public immune-presence lesson and changes navigation only. Adequate fit for the original spatial-comparison task is inherited from the actual selected prior review and release, without a new medical, pixel, source-access, live-reader or human approval."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+        "sha256": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+        "bytes": 9780,
+        "role": "prospective-current-owner"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+        "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+        "bytes": 4834,
+        "role": "unchanged-original-native-output"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+        "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+        "bytes": 4834,
+        "role": "unchanged-original-native-output"
+      }
+    ],
+    "originalSharedConstructionReceipt": {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/provenance/immune-barriers-shared-v2.json",
+      "sha256": "38b9de2539112ff2af48350cb4fe951529a8de35b863c1d1ba06ab84a7dc4a9e",
+      "bytes": 17236
+    },
+    "carrierDerivedCustodyReceipt": {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/immune-barriers-tissue-v2.json",
+      "sha256": "7be48b6064eacbb54d9a6110bb1f7fe806d8d2cc624d290158ad0f2a7c8a8fdb",
+      "bytes": 7953
+    }
+  },
+  "nativeOutputs": [
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+      "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+      "bytes": 4834,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600.0,
+        "height": 1500.0,
+        "viewBox": "0 0 600 1500",
+        "measurement": "SVG intrinsic viewBox; explicit width/height attributes absent"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+      "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+      "bytes": 4834,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600.0,
+        "height": 1500.0,
+        "viewBox": "0 0 600 1500",
+        "measurement": "SVG intrinsic viewBox; explicit width/height attributes absent"
+      }
+    }
+  ],
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/comparison-next-gap-043-current-owner-continuity.json",
+      "sha256": "7271c025747c346e1be4f0d24454077120d69cd7e11421f201f4f3887a88c202"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-comparisons-2026-10-12-owner-continuity.json",
+      "sha256": "99c0aad4cee9cd178f3cdd375d868e9583475a9a46d01fa4bc4923329e09059c"
+    },
+    "historicalSelectionUnchanged": true,
+    "originalNativeGradePreserved": true,
+    "originalReviewAndReleaseBytesUnchanged": true,
+    "selectedPriorTaskAuthor": "root",
+    "individualOriginalNativeCreator": null,
+    "originalCreationQualification": "Current task selected author root, old draftAuthor and immune_foundations derivationAuthor remain their original roles; retained construction receipt identifies no individual original SVG creator. Do not assign original artwork creation to this navigation generator actor or routing reviewer."
+  },
+  "continuityChecks": {
+    "completeOwnerByteComparison": true,
+    "exactFrozenTaskAndGuardrails": true,
+    "originalNativeOutputHashesExact": true,
+    "originalImageTagAndCaptionUnchanged": true,
+    "originalTryItAndSourcesUnchanged": true,
+    "actualRegistryAssignmentAndSelectedRefsVerified": true,
+    "generatedNavigationOnly": true,
+    "strippingExactTwoAdditionsRecoversAllPreimageBytes": true,
+    "newBacklinkTargetsReviewedPublicLesson": true,
+    "newMedicalOrNativeReviewPerformed": false
+  },
+  "inputSealSha256": "ba52455560dcb0e7ef54a4748e91c90b7a64dcebcae58890734c89f3749752c3",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "canonicalWrites": 0,
+  "GitWrites": 0,
+  "publishing": false,
+  "limitations": [
+    "Prospective private owner bytes only; Root must bind actual integration/release after delivery.",
+    "Actual selected prior review/release hashes and native bytes were checked; no historical release replay was run.",
+    "Original BODY focus, source-depth/access, reader and human-review qualifications remain open.",
+    "Original individual SVG creator remains unknown; current task author, derivation actor, generator actor and reviewer retain their separate roles."
+  ],
+  "supplementalContinuity": {
+    "beforeCount": 415,
+    "afterCountBeforeNewReceipt": 415,
+    "orderedArtifactsUnchangedExceptExactlyFourOwnerSha256Fields": true,
+    "changedFields": [
+      {
+        "index": 77,
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/immune-barriers-tissue-v2.json",
+        "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+        "before": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+        "after": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+        "field": "ownerSha256",
+        "artifactSha256": "7be48b6064eacbb54d9a6110bb1f7fe806d8d2cc624d290158ad0f2a7c8a8fdb",
+        "artifactBytes": 7953
+      },
+      {
+        "index": 114,
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/comparison-next-gap-043-current-owner-continuity.json",
+        "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+        "before": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+        "after": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+        "field": "ownerSha256",
+        "artifactSha256": "7271c025747c346e1be4f0d24454077120d69cd7e11421f201f4f3887a88c202",
+        "artifactBytes": 5703
+      },
+      {
+        "index": 182,
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/matched-tissue-fields-v2-current-owner-continuity.json",
+        "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+        "before": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+        "after": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+        "field": "ownerSha256",
+        "artifactSha256": "5e10e70b358f3cd4641d62e95a60a7a5d98656406ad7ac3d23b5cc17034ff9a9",
+        "artifactBytes": 5452
+      },
+      {
+        "index": 414,
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/next-gap-047-combined19-current-owner-task-fit-continuity.json",
+        "owner": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+        "before": "5a004175257a5f4031a6ad48fa35b576d2b912ad1e5bd6b715037ef3a9814f3c",
+        "after": "f3013eabc16af24a2688508c5cb4fd554ee116fe3bafd87e2bc4258c3512fa0c",
+        "field": "ownerSha256",
+        "artifactSha256": "0f8491fb0a8bc46475109c3f00ac769e0bee5a4268c5dc60d70a06fc907e732f",
+        "artifactBytes": 8912
+      }
+    ],
+    "receiptJsonBytesBasenamesArtworksAndSemanticsUnchanged": true,
+    "nextGap047SharedCarrierOwnerHashUpdateIncluded": true,
+    "previousSupplementalSha256": "2a6c35a14865d4fb8eeb4b56792e67f41699b516321a38db5c885f65bec27815",
+    "correctedSupplementalSha256": "0a78bd4f7b17c5ba62627c6580f309f00159fb0cad274b82bcd65bdf88d40da1",
+    "fieldDeltaInventorySha256": "dab45974b3072106041b19499e6c23b424e99ddb4bce3612712a33b15b9231a1",
+    "finalCountAfterAddingThisReceipt": null,
+    "qualification": "This acceptance covers only the four carrier ownerSha256 field updates. Existing 12 genuine continuity JSON file bytes and basenames remain exact; their carrier metadata values are not all unchanged. Root/preparer must derive final counts after adding this new receipt."
+  }
+}

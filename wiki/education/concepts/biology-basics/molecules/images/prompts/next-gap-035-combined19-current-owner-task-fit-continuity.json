@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-035",
+  "owner": "wiki/education/concepts/biology-basics/molecules/dna.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+      "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+      "bytes": 1954340
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+      "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
+      "bytes": 1838962
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "01b54ff10d2ee1866bf2d804230ac9e93273a784c17d82cc6dd751a69194090f",
+    "learnerTask": "Locate bases/backbones, complementary antiparallel strands and DNA packaging without confusing a molecule, gene and chromosome.",
+    "gap": "The packaging/replication/transcription branch map effectively separates processes, but gives no molecular or packaging geometry. A simple editable structure-to-packaging diagram would support several later variant, chromatin and delivery explanations.",
+    "accuracyGuardrails": [
+      "Illustrative base pairs and packaging levels; not literal genome length, chromosome copy number or a map of active genes. Keep nuclear/mitochondrial context and copying versus reading separate."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/next-gap-035-copy-aware-practice-current-owner-continuity.json",
+      "sha256": "f225947fdcabdfd460e4bd6049b81cb81c82e32ec83e3aeede61e701a665558e"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/copy-aware-optional-practice-2026-10-13-owner-continuity.json",
+      "sha256": "1b3b5c2d03191fb3c624f29474e5eac9e7c1a077b52cc12de10f0c4e4564945f"
+    },
+    "upstreamSelectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-035-final-review.json",
+      "sha256": "b48088774776fb50bd6fa11e83dead3d33373544a1852194c125f0b298369c4f"
+    },
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/dna.md",
+        "sha256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
+        "bytes": 8007
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-light.png",
+        "sha256": "89055ccdf3474a8902b000ba0ef66b73c58c954aefbfe7efdeecd5b69f0f59aa",
+        "bytes": 1954340
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/dna-structure-packaging-v1-dark.png",
+        "sha256": "650c68e7a40eff1cac9edee5e78cd8f8e6f3078c094d7a38f88dd5b0b9a5432b",
+        "bytes": 1838962
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1.txt",
+        "sha256": "d380f4440860be19baa0c3aaecfe677b9948da62139a175cbc8737f134913db8",
+        "bytes": 4499
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-attempt-1-call.txt",
+        "sha256": "c4ea94892ecec7047a20f6486dae39134f60388d5940d1b609c5de3333ba395b",
+        "bytes": 4603
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-attempt-1-tool-return.json",
+        "sha256": "14a12d914276f4b425c0a55f3d5f16ef57e00c1c857a908d8d294e25a186aa53",
+        "bytes": 1355
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-call.txt",
+        "sha256": "b7e3cf04f509ac64aeadbdbd491e9c8e01bad7f23febd0211ed9a28e278f773a",
+        "bytes": 1425
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-light-tool-return.json",
+        "sha256": "9b209eba685b3fe0cdcd7d82530175ff563cc9788168974c8ee094ba6606c058",
+        "bytes": 1340
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-dark-call.txt",
+        "sha256": "811e4956ace130ecfcdf90449b991227675a6ee1faa8a0d39b73128bac7c4f04",
+        "bytes": 1941
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-dark-tool-return.json",
+        "sha256": "82cc43118d7808bf2078c36c95897b76bcb826366a6495e67915327412d61a0d",
+        "bytes": 1327
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-source-review.json",
+        "sha256": "227e41464029e0683fb0e37b61373a6cbf9f7aa35034fa081e38a23789d64d3e",
+        "bytes": 6661
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/dna-structure-packaging-v1-provenance.json",
+        "sha256": "f6d5131198a756fc23b787ec39f9f2a6012e13aab0f3785e8ca75801458d3d82",
+        "bytes": 19364
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "dcb08d2aa9d2b9d9cb1927280819fd029f669515f1dfa92c5ce9c54da9d4bf8f",
+    "currentOwnerSHA256": "e6c7c9091a3fc050955ee129c0b80efe9bfc16b892186ac5be26ef9d206d4139",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      7842,
+      8007
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "5df2928ebbb304b3b1fe5c80f1a13f8fa62c6aa2052151b6129603b2e20eaece",
+    "originalCreativeAuthor": "energy-signaling-review",
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "agent:/root/review_correction_composition",
+    "priorReviewActualTime": "2026-10-13T00:27:25.354Z",
+    "priorReleaseSourceCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+    "priorReleaseCompanionCommit": "f7dcbd95548d059b6f70c49bc66b12a81306319b",
+    "preservedOriginalQualificationFields": {},
+    "registryNoteQualification": "Actual whole-owner review and bounded24-context both-site teaching/native release verified. One owner-task source-fit credit only;48BODY dismissal failures and four unsuccessful source attempts remain open. Human review pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

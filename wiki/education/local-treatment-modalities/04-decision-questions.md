@@ -8,7 +8,7 @@ objectives: ["Turn a local-treatment proposal into a goal, evidence question and
 prerequisites: ["[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]", "[[wiki/education/concepts/therapeutics/local-therapies/ablation]]", "[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]"]
 sensitive: false
 tags: [education, local-treatment, evidence]
-updated: 2026-10-09
+updated: "2026-10-13"
 source_checked: 2026-10-09
 reviewed: pending
 reviewed_by: ""
@@ -45,7 +45,7 @@ Size matters, but a single size cutoff is not universal across organs, devices, 
 
 ## 4. What does exposure mean for benefit and harm?
 
-For [radioligand therapy](/wiki/education/local-treatment-modalities/06-comparisons), a binding molecule carries a radioactive component through the body. Ask what evidence supports tumor uptake, retention and absorbed radiation dose, and which normal tissues also receive exposure. Dosimetry estimates absorbed dose; an uptake image is not the same measurement.
+For [radioligand therapy](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy), follow the finished product through the body. Ask what evidence supports tumor uptake, retention and absorbed radiation dose, and which normal tissues also receive exposure. Dosimetry estimates absorbed dose; an uptake image is not the same measurement.
 
 A diagnostic tracer and its therapeutic counterpart may differ in amount, kinetics or other properties. Visible tracer uptake supports a distribution observation under that scan's conditions. It does not by itself prove an effective therapeutic dose, complete coverage of unseen disease or safety. The Food and Drug Administration's radiopharmaceutical guidance treats biodistribution and organ exposure as specific development questions. [FDA, 2019](https://www.fda.gov/media/129547/download).
 
@@ -60,6 +60,18 @@ Ask what happens with systemic treatment alone, another local approach, observat
 **Fictional example.** A presentation shows two tumors of similar diameter. One is next to a sensitive airway; the other has a more accessible approach. It labels both “ideal for ablation” because they are small.
 
 Sam, the reader, rewrites the claim: “Their sizes are similar. We still need organ-specific feasibility, access, margin and safety assessment, plus evidence for the intended clinical goal.” Sam has not chosen radiation instead. He has identified what the size label omitted.
+
+**Carry one proposal through all five questions.** This deliberately fictional proposal says: “The lesion is small, its tracer scan is positive, and local treatment should train immunity against the rest.” Rewrite it as a proposal whose missing facts a reader can inspect.
+
+**One possible rewrite:**
+
+1. **Goal:** “Name the local outcome and the hoped-for immune outcome separately, with a measurement for each.” Shrinkage at this site cannot stand in for survival or distant response.
+2. **Matched evidence:** “Identify the cancer, disease history, complete combination and relevant comparison.” What did adding the procedure change relative to that comparator?
+3. **Anatomical coverage:** “Describe the intended site and the unresolved access, boundary, motion and nearby-structure questions.” Small diameter alone answers none of these fully.
+4. **Exposure:** “State which tracer and therapeutic product were used, and what is known about retention, absorbed dose and normal-tissue exposure.” A [theranostic relationship](/wiki/education/concepts/therapeutics/local-therapies/theranostics) needs evidence connecting the products; uptake alone is insufficient.
+5. **Alternatives and uncertainty:** “Name the alternative being compared, burdens and harms, and label the immune effect as a hypothesis awaiting evidence.” A target signal does not establish [clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability).
+
+This rewrite has exposed missing facts. It has not selected a procedure, established feasibility or authorized treatment.
 
 ## Common failure modes
 
@@ -82,6 +94,8 @@ A useful proposal makes its intended outcome and assumptions inspectable. Techno
 Next: [match measurements to claims](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget).
 
 ## Sources and scope
+
+Focused proposal exercise: October 13, 2026; FDA radiopharmaceutical guidance section IV checked for product-specific distribution and exposure scope. Expert and learner review remain pending.
 
 Source check: 2026-10-09. Sam and the proposals are fictional; expert and learner review pending.
 

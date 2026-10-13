@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-047",
+  "owner": "wiki/education/reading-a-tumor/immune-hot-vs-cold.md",
+  "author": "agent:/root/canonical_definition_cleanup",
+  "authorRole": "Actual focused canonical-definition content author; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "e1e69d91d324a57a29072990ef0bbdc70e5bda1c094fdc5a7266d32bdaf7dbfc",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+      "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+      "bytes": 4834
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+      "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+      "bytes": 4834
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "fda30d89c857a5a68f927cd576496a2bece2b2765a256f6d7905dc15231eed09",
+    "learnerTask": "Compare immune-rich stroma with entry into cancer nests under a stated tissue and scoring denominator.",
+    "gap": "A lesson titled an immune map currently offers tables and prose but no actual tissue map. The existing canonical hot/excluded/cold illustration can make this worked observation visible without implying a treatment recommendation.",
+    "accuracyGuardrails": "Preserve sampling boundaries, equal count versus different distribution, stromal-area denominator and unknown receptor/function. Do not infer a causal collagen barrier, label native lymph-node follicles as TLS, or map hot/excluded directly to a drug.",
+    "currentVisualFit": "adequate",
+    "reasoning": "My preserved focused04 PASS covers this exact final content hash. Hot gains a first-use canonical link and duplicate pattern definitions become a point-of-use canonical route; the request to disambiguate cold stays local. The exact native embed/caption, equal-count/different-distribution teaching, stated tissue/stromal-area denominator, unknown receptor/function, site/time/method limits, native-lymph-node/TLS distinction and original exercises are unchanged outside the bounded replacement. None of the frozen sampling, causal-barrier or treatment guards changes. The unchanged selected SVG pair therefore retains its prior adequate owner-task fit without fresh pixel/source review.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/matched-tissue-fields-v2-current-owner-continuity.json",
+      "sha256": "5e10e70b358f3cd4641d62e95a60a7a5d98656406ad7ac3d23b5cc17034ff9a9"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eleven-owner-curriculum-corrections-2026-10-12-owner-continuity.json",
+      "sha256": "888e75f468e9f5cb7b09e863fd817ff1ec6ad905e1cf48203a7a507d1902e2ce"
+    },
+    "upstreamSelectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-047-final-review.json",
+      "sha256": "8f67cba82208b88e7a728b22906cd66f15452011d142e3d195ac557236831891"
+    },
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/reading-a-tumor/immune-hot-vs-cold.md",
+        "sha256": "e1e69d91d324a57a29072990ef0bbdc70e5bda1c094fdc5a7266d32bdaf7dbfc",
+        "bytes": 11103
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+        "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+        "bytes": 4834
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+        "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+        "bytes": 4834
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/provenance/immune-barriers-shared-v2.json",
+        "sha256": "38b9de2539112ff2af48350cb4fe951529a8de35b863c1d1ba06ab84a7dc4a9e",
+        "bytes": 17236
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "db8ca9d27fa69f892da3ca82928aba4d4b1304aba03a49dbec4db0e45e4923d4",
+    "currentOwnerSHA256": "e1e69d91d324a57a29072990ef0bbdc70e5bda1c094fdc5a7266d32bdaf7dbfc",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      11157,
+      11103
+    ],
+    "generatedUsedByAndUsedInOnly": false,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": null,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": true,
+    "exactDeltaSHA256": "f46596cadea5c375af409bfb35e3031e4d88f2ef19cb9ca0af72f30e16d12ed9",
+    "originalCreativeAuthor": {
+      "identity": null,
+      "recordedConstruction": "Original editable SVGs authored in code; no image-model call or model identity recorded.",
+      "provenance": {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/provenance/immune-barriers-shared-v2.json",
+        "sha256": "38b9de2539112ff2af48350cb4fe951529a8de35b863c1d1ba06ab84a7dc4a9e",
+        "bytes": 17236
+      },
+      "plannedStatusAuthor": "coverage_accounting_independent",
+      "plannedStatusAuthorIsOriginalArtworkAuthor": false
+    },
+    "originalCreativeAuthorQualification": "The exact prior review distinguishes accounting assignment from native creation; original provenance records construction but no individual creator identity. No creator is invented.",
+    "priorReviewer": "review_legacy_reading_tumor",
+    "priorReviewActualTime": "2026-10-12T21:15:00.532700+00:00",
+    "priorReleaseSourceCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+    "priorReleaseCompanionCommit": "83673db0295bc6a804334c7e3eb49253045817b3",
+    "preservedOriginalQualificationFields": {
+      "scope": "Frozen visual-task preservation for this exact private lesson candidate only; root integration remains prospective. No new scientific, pixel, human, coverage or production approval.",
+      "limitations": [
+        "Exact private candidate byte binding only; root must integrate unchanged accepted bytes and bind the actual subsequent delivery independently.",
+        "All selected prior scientific-source/access/correction-body, native-pixel, qualified reader/focus, expert, learner and human limitations remain unchanged.",
+        "BODY focus and universal UI/device/theme/accessibility judgments remain open; historical scoped delivery is not this candidate production verification.",
+        "No original disposition, visual gap, coverage or named-entry credit is granted; historical cartoon decisions remain unresolved."
+      ]
+    },
+    "registryNoteQualification": "Exact original owner-task assessment and qualified two-site teaching release accepted. Current plan and integration-author corrections have separate genuine receipts. BODY focus, expert/learner review and source-depth limitations remain open.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

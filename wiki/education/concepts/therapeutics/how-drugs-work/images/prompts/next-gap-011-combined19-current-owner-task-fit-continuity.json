@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-011",
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "0310a9d512914b521018a9848fa9108d7a09555a68f3cdac08bfae1a4aca3c85",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-dark.svg",
+      "sha256": "95a7227841e21a3aa9af1f37fde0632a779717310e283b40429b49e4abdc2a63",
+      "bytes": 7529
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-light.svg",
+      "sha256": "088536bdf1926ff41fe539b0f5fc0079d17a857e5d7374e2085343448311fa2c",
+      "bytes": 7529
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "ee84286f476771b97a09378cb362d079db4739f798cc11a1a9aeb46009474d56",
+    "learnerTask": "Compare absolute resistant count with its changing fraction after selection",
+    "gap": "Investigation flow does not depict fixed ten resistant cells against a smaller denominator",
+    "accuracyGuardrails": "Fictional counts no division; new detection not new mutation; mechanism-specific resistance",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-next-gap-011-final-review.json",
+      "sha256": "cc8fdda705954ab615901cdc7c448027f62d0a1b15d7b2066f38705068447385"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/gap-wave4-release.json",
+      "sha256": "38d135a6ac44d1470d2aee4efebf4f96ebc1cd12751f232ea0c8ad72ccc7aa29"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+        "sha256": "0310a9d512914b521018a9848fa9108d7a09555a68f3cdac08bfae1a4aca3c85",
+        "bytes": 8701
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-dark.svg",
+        "sha256": "95a7227841e21a3aa9af1f37fde0632a779717310e283b40429b49e4abdc2a63",
+        "bytes": 7529
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-light.svg",
+        "sha256": "088536bdf1926ff41fe539b0f5fc0079d17a857e5d7374e2085343448311fa2c",
+        "bytes": 7529
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/same-ten-smaller-total-v1.txt",
+        "sha256": "09d0ed46b0ddc06fc95788b6516d4bff787b22d50a98d32a086fe6ae4661c206",
+        "bytes": 23066
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "a440c980d30ce55faf42b0b6aa5a4f1720df43c99d1b81dcf9b1f96bb9f8e8fa",
+    "currentOwnerSHA256": "0310a9d512914b521018a9848fa9108d7a09555a68f3cdac08bfae1a4aca3c85",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      8639,
+      8701
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "88cf3fca010f881100f23623d8aaebbfa1cdbb8ad539d7ba7074c2741a382add",
+    "originalCreativeAuthor": "claims_access",
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "multiomics",
+    "priorReviewActualTime": null,
+    "priorReleaseSourceCommit": "185335ef5c5ffb945f7e83423d56a060df888c96",
+    "priorReleaseCompanionCommit": "2c002c52db7f15f035e5cb64995a958a02631a96",
+    "preservedOriginalQualificationFields": {
+      "limits": [
+        "Actual canonical insertion/copies are accepted; production reader, native GET, CI, publication/zero and release-based source-fit credit are separate pending gates.",
+        "Source access remains selected NCI text and complete primary abstracts, with prior full-text access failures/depth limits preserved.",
+        "Earlier narrow desktop capture remains an excluded diagnostic; accepted phone contexts are actual 390-pixel documents with 312-pixel charts.",
+        "Original owner clinical passages are retained; this does not certify a universal resistance mechanism, new mutation, safe drug holiday or treatment rescue."
+      ],
+      "sourceAccess": "Scoped fresh NCI selected source text and Hata/Sharma complete primary abstracts retained in the prior source review; no full Methods, clinical or whole-owner science recertification added here."
+    },
+    "registryNoteQualification": "Independent exact task/source/pixel review and recorded both-site content/native, reader, CI and zero checks passed. Expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

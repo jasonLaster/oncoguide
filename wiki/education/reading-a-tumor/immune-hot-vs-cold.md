@@ -19,9 +19,9 @@ review_status: "Source-checked; expert and learner review pending"
 
 **An immune map tells you where cells were seen in sampled tissue. It does not, by itself, tell you what they recognize or which treatment will help.**
 
-“Hot” sounds encouraging; “cold” sounds discouraging. The words are memorable, but a useful report needs something more concrete: which cells, which region, which specimen and which method?
+“[Hot](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor#how-it-works)” sounds encouraging; “cold” sounds discouraging. The words are memorable, but a useful report needs something more concrete: which cells, which region, which specimen and which method?
 
-**Before you start:** [Hot, excluded and cold patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor) defines the labels. [Stromal tumor-infiltrating lymphocyte (sTIL) scoring](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring) explains one pathology measurement. [The cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle) shows where access sits.
+**Before you start:** Read the immune-pattern definitions linked above. [Stromal tumor-infiltrating lymphocyte (sTIL) scoring](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring) explains one pathology measurement. [The cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle) shows where access sits.
 
 ## Where this step sits
 
@@ -33,7 +33,7 @@ This is lesson 4 of [the immune-system guide](/wiki/education/guides/how-the-imm
 
 Imagine a map showing people inside a building, gathered outside or scarce throughout. Location tells you about access. It does not reveal whether they came for the task you care about. Tissue patterns deserve the same careful reading.
 
-A report may use **inflamed** or **hot** for cells within tumor regions. **Excluded** describes a concentration outside cancer-cell regions. **Desert** describes scarcity in examined regions. “Cold” sometimes includes both excluded and desert patterns. Ask the author what the word means rather than assuming everyone uses it the same way.
+Use the [canonical inflamed, excluded and desert definitions](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor#how-it-works) when reading the map. Ask the author what “cold” means in that report rather than assuming everyone uses it the same way.
 
 A map can also show a mixed pattern. One edge may contain many cells while another region has few. Different disease sites can differ. Sampling one region does not erase the rest of the map. The [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment) places these cells alongside vessels, support cells and extracellular material.
 

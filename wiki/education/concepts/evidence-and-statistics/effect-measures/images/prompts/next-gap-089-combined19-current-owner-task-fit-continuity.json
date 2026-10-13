@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-089",
+  "owner": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "2ce1c4b5ce818a9b804a93951f9d742105b475015df068f31d464fc7257282c7",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+      "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627",
+      "bytes": 9942
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+      "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48",
+      "bytes": 9942
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "aea842105db82f3a338afa3bc9d41849b14ee72db1f05eefd74d047ebaf0bee0",
+    "learnerTask": "See how a larger search changes the probability of at least one false rejection under explicit independence.",
+    "gap": "No visualization locates the family of tests or separates selected findings from all tests.",
+    "accuracyGuardrails": "State the toy independence/null assumptions for family-wise calculations. At least one false rejection, false-discovery rate and probability that an individual finding is false are distinct quantities.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1-independent-owner-review.json",
+      "sha256": "1f76974a22b9695bc2f663e91e99e6a677f75437d6bb094de4066c639f9238ba"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+        "sha256": "2ce1c4b5ce818a9b804a93951f9d742105b475015df068f31d464fc7257282c7",
+        "bytes": 7686
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+        "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627",
+        "bytes": 9942
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+        "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48",
+        "bytes": 9942
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1.txt",
+        "sha256": "4b56e49f4d5f5c6829dc529ffcb1d4d655b4cee7239753494b33f4bc97859a8a",
+        "bytes": 1217
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/prompts/tested-family-and-any-false-rejection-v1-provenance.json",
+        "sha256": "79e2cc5ecd521b0ae0a21b22372f8525558c620916ef962496796a0f7a9d9044",
+        "bytes": 3001
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "b6b131dd6076cf2d24ae3a17bb4ad3ad54e0d3841fef5a9a4fd168cf9ab715cf",
+    "currentOwnerSHA256": "2ce1c4b5ce818a9b804a93951f9d742105b475015df068f31d464fc7257282c7",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      7487,
+      7686
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "6a0747262da8d74e1da79ead09149a626fcf66e9d5205dcf618f36bec88bfce5",
+    "originalCreativeAuthor": {
+      "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+      "role": "original educational writing, source qualification and original code-generated SVG production",
+      "rootArtworkOrMedicalWritingAttribution": false
+    },
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+    "priorReviewActualTime": "2026-10-12T22:31:26Z",
+    "priorReleaseSourceCommit": "34024e11fb6fc710cdd9ac0daff1fa68057f1f7e",
+    "priorReleaseCompanionCommit": "fab6a223d06c86620e12546880823c53552db8fd",
+    "preservedOriginalQualificationFields": {
+      "sourceReadScope": [
+        {
+          "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+          "depth": "Official2016 press-release principles, PDFpages1–2; not a whole accompanying journal statement/discussion review."
+        },
+        {
+          "url": "https://www.fda.gov/media/162416/download",
+          "depth": "Selected2022 guidance TypeI error and multiplicity sections, printed pages4–6; not all29pages or current regulatory advice. The author’s5% all-null toy is its own calculation, separate from FDA’s directional2.5% examples."
+        }
+      ],
+      "sourceAccessLimits": {
+        "originalAuthorQualification": {
+          "actualRead": "ASA official press release pp1–2 principles; FDA2022 multiple-endpoint guidance selected Introduction, TypeI error and Multiplicity sections, official diagnostic guidance selected reference/performance definitions.",
+          "webReceipts": [
+            "sourcesA.web.json",
+            "sourcesB.web.json"
+          ],
+          "limits": "Selected passages only; full PDFs acquired but not all29pages read. Independence arithmetic is fictional."
+        },
+        "originalAuthorLimits": [
+          "Examples/geometry/counts are fictional; no source figures or study datasets copied.",
+          "Existing exact source wording and review dates remain preserved; no full-paper access inferred from downloads, metadata or abstract availability.",
+          "No scientific/human approval, patient interpretation, image-model calls or coverage credit."
+        ],
+        "independentFailuresAndMetadataLimits": "See the exact bounded per-owner sourceReadScope. No complete-paper/body read is inferred from metadata, downloads, challenge or failed XML. No source timestamp invented.",
+        "noSourceFiguresOrDatasetsCopied": true,
+        "noUniversalScientificClinicalOrRegulatoryApproval": true
+      },
+      "deliveryReview": "pending"
+    },
+    "registryNoteQualification": "Delivered in package twenty-owner-visuals-2026-10-12 at 2026-10-12T23:26:57.823Z; selected task, source fit and both-site content/native delivery verified. Expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

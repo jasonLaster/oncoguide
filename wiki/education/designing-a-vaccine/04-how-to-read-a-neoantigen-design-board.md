@@ -3,7 +3,7 @@ title: "Read a neoantigen design board"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-10
+updated: 2026-10-13
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -78,7 +78,7 @@ These rows are invented. Use them to practise asking questions, not to compute a
 | I | Event 8 | HLA allele Z | Strong computational rank | Predictor validation for this allele is limited |
 | J | Event 9 | HLA allele X | Controlled tumor-cell recognition | Healthy-tissue specificity and durability |
 
-Start by grouping shared dependencies. A and B come from one event and use one allele. C and J use that allele too. If allele X is lost, adding B does not rescue that branch. Y and Z diversify allele dependence, but class-I routes can still share B2M and processing requirements.
+Start by grouping shared dependencies. A and B come from one event and use one allele. C and J use that allele too. If allele X is lost, adding B does not rescue that branch. [HLA loss of heterozygosity](/wiki/education/concepts/measurement/sequencing-basics/hla-loh) explains this allele-specific finding. Y and Z diversify allele dependence, but class-I routes can still share B2M and processing requirements.
 
 Next ask which uncertainty the next assay should reduce. D suggests a natural tumor-recognition experiment. C needs cell-of-origin and recognition evidence. H needs [self-similarity and tolerance](/wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance) work: a tumor-specific sequence does not establish receptor selectivity over healthy targets. E and F raise expression and tumor-coverage questions before any automatic rank can be trusted.
 
@@ -100,6 +100,9 @@ A board adds ten peptide windows, all from one alteration and all restricted to 
 
 **Answer:** The candidate count increased, but the added targets still share the missing display route. Count and independent biological coverage differ.
 
+**Re-read A–J after a changed report:** For this fictional comparison, assume X, Y and Z are classical HLA class-I alleles. Report 1 finds loss of X in the tested tumor population. Report 2 instead finds impaired B2M-supported class-I display across X, Y and Z. Which rows need reassessment for the reported failure in each case?
+
+**Answer:** Report 1 directly challenges A, B, C and J, which depend on X. It does not establish failure of the Y or Z routes. Report 2 challenges every class-I row: A–F and H–J. Diversifying those alleles does not remove their shared display requirement. G uses a [class-II route](/wiki/education/concepts/immunology/antigen-presentation/hla), so its dependency must be assessed separately, including which cells present the peptide and its helper response. G is not an established rescue for the product. Neither report closes any row's original open question or supplies a clinical ranking.
 ## Explain it back
 
 “A candidate’s evidence establishes ___ while leaving ___ unresolved.” One answer: “a named measurement or prediction; the later steps not tested.”

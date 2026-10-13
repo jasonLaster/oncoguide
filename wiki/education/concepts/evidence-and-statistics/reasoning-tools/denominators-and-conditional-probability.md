@@ -7,7 +7,7 @@ glossary_anchor: denominators-and-conditional-probability
 aliases: ["denominators-and-conditional-probability", "conditional probability", "denominator"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -100,5 +100,6 @@ Source check: October 10, 2026. General probability and denominator education; a
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 - [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->

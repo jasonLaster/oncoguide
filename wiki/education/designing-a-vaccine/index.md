@@ -3,7 +3,7 @@ title: "Why a personalized cancer vaccine can help"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-08"
+updated: 2026-10-13
 source_checked: "2026-10-08"
 reviewed: "pending"
 reviewed_by: ""
@@ -27,7 +27,7 @@ First understand recognition. Then identify credible tumor-specific sequences, s
 
 ## The intuition: expand a matching reader
 
-The body contains many T cells with different receptors. A useful receptor may already exist at low frequency. An antigen delivered in a suitable context can select matching cells to activate and expand. The vaccine can therefore generate more responding cells without inventing a new receptor in each mature cell.
+The [T-cell repertoire](/wiki/education/concepts/immunology/t-cells/t-cell-repertoire) contains many T cells with different receptors. A useful receptor may already exist at low frequency. An antigen delivered in a suitable context can select matching cells to activate and expand. The vaccine can therefore generate more responding cells without inventing a new receptor in each mature cell.
 
 Adult receptor diversity is maintained through several processes, including continued but declining thymic output. “The repertoire is fixed at age 20” is inaccurate. A pre-dose sample is a comparison point, not a complete archive of every receptor.
 
@@ -50,9 +50,9 @@ flowchart TD
 
 ## A worked example
 
-In a fictional study, a peptide-reactive population expands in blood after vaccination. This supports a response in the sampled compartment. It does not establish that the cells enter the tumor, recognize naturally processed antigen or prevent recurrence.
+In a fictional study, a peptide-reactive population expands in blood after vaccination. This supports a response in the sampled compartment. It does not establish that the cells enter the tumor, recognize naturally processed antigen or prevent recurrence. The [immunogenicity-versus-efficacy comparison](/wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy) keeps the immune readout and clinical outcome separate.
 
-The next experiments should match the unresolved question: peptide specificity, recognition of appropriate tumor cells, functional killing or clinical outcomes. Repeating the blood count cannot settle every rung.
+Follow the unresolved question: a repeated blood count cannot establish natural tumor recognition or the added clinical effect described in that comparison.
 
 ## What can go wrong at this step
 
@@ -62,8 +62,11 @@ A matching population may be rare or unavailable. Antigen may reach the wrong ce
 
 A vaccine causes a tenfold rise in one sampled receptor sequence. Has a new receptor specificity been created?
 
-**Answer:** The observation shows expansion of that sampled sequence. Specificity needs testing. Expansion does not show that the vaccine rewrote the receptor or that the cells kill cancer.
+**Answer:** The observation shows increased representation of that sampled sequence. Specificity needs testing. Expansion does not show that the vaccine rewrote the receptor or that the cells kill cancer.
 
+**First detection or new specificity?** A fictional pre-dose blood report detects no clone Q. Its [detection-limit statement](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) says the assay cannot reliably detect Q below 0.1% of sampled receptor units. A compatible post-dose report measures Q at 1% of those units. A separate peptide-stimulation test shows a response, without linking it to Q. What has been earned: first detection, expansion, natural tumor recognition or benefit?
+
+**Answer:** Q was first detected in these samples. Earlier non-detection does not prove absence. The later frequency is consistent with enrichment, but lacks a measured baseline for an exact fold change and compatible absolute-cell counts for expansion. The mixture's peptide response has not been assigned to Q. No natural tumor-recognition or clinical outcome comparison is supplied. Neither first detection nor that response proves receptor rewriting. These numbers and assay limits are invented, with comparable sampling and methods assumed.
 ## Explain it back
 
 “A vaccine can increase ___, while the tumor still needs to ___.” One possible answer: “useful responding cells; display a target they recognize.”

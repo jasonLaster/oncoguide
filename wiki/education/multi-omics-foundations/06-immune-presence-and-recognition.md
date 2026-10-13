@@ -8,7 +8,7 @@ objectives: ["Distinguish immune abundance, peptide presentation and specific re
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: 2026-10-10
+updated: 2026-10-13
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -47,11 +47,13 @@ The tumor must make a suitable source product, generate a peptide, load it and d
 
 ## What an immune-rich sample can mean
 
-**Stromal tumor-infiltrating lymphocytes (sTILs)** are scored using the relevant stromal-area denominator. The score is not the fraction of all cells that are CD8 T cells. **Plasma cells** make antibodies. Antibody-class RNA identifies a kind of message, not what the antibodies recognize.
+[**Stromal tumor-infiltrating lymphocytes (sTILs)**](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring) are scored using the relevant stromal-area denominator. The score is not the fraction of all cells that are CD8 T cells. A plasma-cell or [antibody-class](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) RNA signal in mixed tissue does not assign those messages to malignant cells or reveal what the antibodies recognize.
 
 A [T-cell state](/wiki/education/concepts/immunology/t-cells/t-cell-states) inferred from an RNA program describes features under a classification method. A cytotoxic-looking program or progenitor-like marker does not identify the receptor target or prove killing.
 
-Likewise, a **chemokine** signal can suggest a recruitment or positioning process. Measuring its RNA does not show where responding cells moved. Cell abundance, spatial access and function need the corresponding observations.
+A [**chemokine**](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) RNA signal can suggest recruitment or positioning, but cell abundance, spatial access and function still need their own observations.
+
+For a closer look at location, read [hot, excluded and cold tumor patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor). To choose the measurement for each question, continue with [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement). [The immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index) connects these lessons and has a separate section for case application.
 
 ## A worked example: an apparent disagreement
 
@@ -75,6 +77,9 @@ A tissue contains many T cells and an expressed tumor mutation. Has the report e
 
 **Answer:** No. Processing, presentation and a specific immune response still need evidence. Presence and expression make useful starting points.
 
+**Read the paired report:** A fictional mixed-tissue specimen has high immune RNA, including antibody-class messages. A stain places most measured T cells outside malignant nests. A separate blood sample contains many T cells. No peptide-display or receptor-specific functional result is supplied. Which claims can you carry forward?
+
+**Answer:** The tissue RNA and stain support an immune signal and the measured cells' location in that section. Bulk RNA does not identify which cells contributed each message; the blood count does not establish tissue entry or matching receptor specificity. No result here establishes a naturally displayed tumor peptide, a receptor that recognizes it or tumor-cell killing. These are missing measurements, not contradictions in the report.
 ## Explain it back
 
 “Presence tells us ______. Presentation tells us ______. Recognition tells us ______.”

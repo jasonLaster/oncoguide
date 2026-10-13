@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-128",
+  "owner": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "ca288c0b182ec98b4885a7084a96db6a0d01546854c3228bcad63a784d58ee1e",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
+      "sha256": "09c99bb0edcd68a3877db39239640df3674ed28df8ef0cc4271e3dfc3fd9e28c",
+      "bytes": 9830
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-dark.svg",
+      "sha256": "d40362390a436bac4e651d3cbe51ee6d5b322774f0b36c78379468456b38bed7",
+      "bytes": 9830
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "8df9cbce3075927dc15f3e327ac87f15c242998e5e7939b42ca9bb841ee0e5e7",
+    "learnerTask": "Recognize linked amino-acid chain, folded/processed protein and measured fragments as different physical forms.",
+    "gap": "The form/function/fragments map is a good assay-boundary reminder but does not show the chain folding or a fragment shared by two different intact products. A short reusable molecule-to-fragments diagram would make the fictional detection exercise tangible.",
+    "accuracyGuardrails": [
+      "No universal peptide-length boundary, intact-protein inference from shared fragments, or displayed-HLA inference from a possible peptide sequence; illustrative residue icons are not measured counts."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/chain-fold-processing-and-shared-fragment-v1-independent-owner-review.json",
+      "sha256": "d4e8b735b5767ebdaf2d4149ead0413cce666bc2e92e10de25d179d1c5218d14"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-batch05-2026-10-12-owner-continuity.json",
+      "sha256": "cc31801a43c0b11794e644eccbdd077c9f38778d177f9a8213123a5dae7d5b41"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
+        "sha256": "ca288c0b182ec98b4885a7084a96db6a0d01546854c3228bcad63a784d58ee1e",
+        "bytes": 7924
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
+        "sha256": "09c99bb0edcd68a3877db39239640df3674ed28df8ef0cc4271e3dfc3fd9e28c",
+        "bytes": 9830
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-dark.svg",
+        "sha256": "d40362390a436bac4e651d3cbe51ee6d5b322774f0b36c78379468456b38bed7",
+        "bytes": 9830
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/chain-fold-processing-and-shared-fragment-v1.txt",
+        "sha256": "85016771ffa81d496058f6fc11c9e66ecf8adc68b3e35aa9fdcce4d2e11071f3",
+        "bytes": 1552
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/chain-fold-processing-and-shared-fragment-v1-provenance.json",
+        "sha256": "ce323d1cf0f16cd389bb0c854c60bbbc48f1fb7b5938865812af2394d64fc209",
+        "bytes": 3336
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "a7c217d2e124a8a00fbf7259cd91a86083d1cf0ddedb41478b511d89eb2fdd4b",
+    "currentOwnerSHA256": "ca288c0b182ec98b4885a7084a96db6a0d01546854c3228bcad63a784d58ee1e",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      7697,
+      7924
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "93b52546d4f07b5935efb57475058431c287051df446129f64481d584e494a0c",
+    "originalCreativeAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+    "priorReviewActualTime": "2026-10-13T00:37:43.551564+00:00",
+    "priorReleaseSourceCommit": "c2fc64acf2d4f7d7b73eeed33bafa58dbb01fa16",
+    "priorReleaseCompanionCommit": "052e26fb048d4c1397e708aefe28229b0be6564a",
+    "preservedOriginalQualificationFields": {},
+    "registryNoteQualification": "Delivered in package twenty-owner-visuals-batch05-2026-10-12 at 2026-10-13T05:32:33.374Z; selected task, source fit and both-site content/native delivery verified. Expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

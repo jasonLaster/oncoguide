@@ -7,7 +7,7 @@ glossary_anchor: "antibody-structure"
 aliases: ["antibody", "Fab", "Fc", "immunoglobulin"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/index]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/index]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -104,6 +104,7 @@ Source-checked October 10, 2026. Typical IgG architecture and format limits; fic
 
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [Ask what happens after binding](/wiki/education/oncology-101/1-ligands)
 - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)

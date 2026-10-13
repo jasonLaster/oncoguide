@@ -29,9 +29,7 @@ This is the first lesson in [the pathway library](/wiki/education/molecular-prof
 
 Imagine arriving at a recycling center and seeing bags stacked to the ceiling. You would want to know whether trucks are arriving quickly, whether the processing machine has stopped, and whether the center can function without that machine. These are three different questions.
 
-In cells, **proteostasis** means maintaining a workable balance of protein production, folding, and removal. Folding is the process by which a protein adopts its working structure. Both damaged proteins and ordinary working proteins can require controlled removal.
-
-The **proteasome** cuts suitable protein cargo into small pieces. Ubiquitin tags help control which proteins reach it, but not all ubiquitin signals mean destruction. **Autophagy** can deliver proteins and larger cargo, including damaged organelles, to a **lysosome**, a compartment containing breakdown enzymes. The routes have different machinery and can interact. Their overlap does not prove that blocking both will selectively harm cancer cells.
+For the protein-handling foundations behind proteostasis, use [protein production and folding](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide#how-it-works), [ubiquitin–proteasome turnover](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome#how-it-works), and [autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy#how-it-works). For proposed protein or damaged-organelle cargo, test the specified handling route. The routes have different machinery and can interact. Their overlap does not prove that blocking both will selectively harm cancer cells.
 
 ## Separate three measurements
 

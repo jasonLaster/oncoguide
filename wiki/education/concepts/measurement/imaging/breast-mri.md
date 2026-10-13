@@ -7,7 +7,7 @@ summary: "Breast MRI uses magnetic fields and radio waves to characterize breast
 glossary_anchor: "breast-mri"
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy]]"]
-used_by: ["[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
 source_checked: "2026-10-10"
@@ -105,5 +105,6 @@ Source check: October 10, 2026. General imaging and a fictional exercise; expert
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
 - [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
 <!-- END GENERATED USED IN -->

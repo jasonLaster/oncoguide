@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-121",
+  "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+  "author": "agent:/root/batch07_integration_inventory",
+  "authorRole": "Actual one-time maintained-generator actor for navigation-only change; Root sole integrator; no new native authorship.",
+  "reviewer": "agent:/root/focused_curriculum_review",
+  "reviewedAt": "2026-10-13T20:19:28.348949+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece",
+      "bytes": 8642
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186",
+      "bytes": 8642
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "508a90e56a2afc1a3984cdda08f2ae3cb9a02425994f2f151e6f29dc0d5a1119",
+    "learnerTask": "Distinguish enhancement pattern, span and rule-selected voxel volume",
+    "gap": "BPE, NME and FTV are explained only in text",
+    "accuracyGuardrails": "Separate enhancement, normal background enhancement, non-mass pattern/span and method-selected functional tumor volume. Length and voxel volume are different units; enhancement is not histology, viable-cell count or guaranteed absence/presence of cancer.",
+    "currentVisualFit": "adequate",
+    "reasoning": "I compared the exact source98 preimage and final private owner. Removing only used_by frontmatter and the marked generated Used in block makes the entire remaining teaching byte-identical. The reviewed finite navigation additions leave all scientific prose, original tasks, exercises, diagrams, native embeds, alt/caption/theme markup and cited-source text unchanged. The exact frozen learner task, gap, guardrails, selected prior PASS review/release and unchanged native hashes remain bound. The prior adequate task fit therefore remains applicable to this exact final owner. No scientific-source or native/pixel review is repeated.",
+    "humanReview": "pending",
+    "assessmentScope": "Current-owner task-fit continuity only; inherited original source/science/native/access/carrier/theater/focus qualifications, no fresh approval."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1-independent-owner-review.json",
+      "sha256": "a1ca27d91e62391e9f84a0a2603c1e64478efaaec641023a95570506a84e5c50"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-batch04-2026-10-12-owner-continuity.json",
+      "sha256": "968095b793bf2ebf8e53d251f770f6ba1da4733316ceeaf356184489e5d395b6"
+    },
+    "upstreamSelectedSourceFitReview": null,
+    "selectionRegistry": {
+      "path": "project-management/audits/2026-10-08-education-content-audit/task-registry.json",
+      "sha256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "sourceCommit": "558b759995531342665a9f46044b153c41c4c32b"
+    },
+    "originalSelectedReviewSourceFitAssessmentPreserved": true,
+    "oldReviewReleaseBytesUnmodified": true
+  },
+  "custody": {
+    "scope": "Exact proposed owner, unchanged selected native pair and original prompt/provenance custody. Byte identity only; no new pixel or source inspection.",
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+        "sha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+        "bytes": 9499
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+        "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece",
+        "bytes": 8642
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+        "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186",
+        "bytes": 8642
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1.txt",
+        "sha256": "3a88e5f926063f3a41de64a297a33dcd82ea3d57fe32f82302d4f0d6ad11d1b2",
+        "bytes": 1700
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1.json",
+        "sha256": "0641f5fb2a77da415faa9ac1be659155d04d225abb97162de79519886c1cedc3",
+        "bytes": 4229
+      }
+    ],
+    "actualNativePairViewedForContinuity": false,
+    "nativePixelReviewRepeated": false,
+    "savedPromptBodiesRead": false,
+    "selectedNativeIdentityMatchedRegistryAndSource98": true
+  },
+  "metadataContinuity": {
+    "teachingContentBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "currentCreditedEvidenceCheckpoint": "558b759995531342665a9f46044b153c41c4c32b",
+    "previousOwnerSHA256": "dd9f7fe0f291e9781b675b8ad01587c4c8ad520a0d7cf4b854561628d43cd67e",
+    "currentOwnerSHA256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+    "beforeAndAfterWholeOwnerByteLengths": [
+      9311,
+      9499
+    ],
+    "generatedUsedByAndUsedInOnly": true,
+    "wholeTeachingOutsideGeneratedNavigationByteIdentical": true,
+    "boundedTeachingRevisionPreviouslyIndependentlyReviewed": false,
+    "exactDeltaSHA256": "ee140860d17a9c1ecd27cb06d421925dc965d90dc5a88f02b67f47ac218c242a",
+    "originalCreativeAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "originalCreativeAuthorQualification": "Original native creator identity retained from selected immutable native review or its upstream source-fit review, separate from this new content/generator actor.",
+    "priorReviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+    "priorReviewActualTime": "2026-10-12T23:35:08.399Z",
+    "priorReleaseSourceCommit": "5c4031634c742cd56b67b34ee0ec79431cf05c0b",
+    "priorReleaseCompanionCommit": "089cdad2ced8abc1a9b8cc859a4ee7c6527368b1",
+    "preservedOriginalQualificationFields": {},
+    "registryNoteQualification": "Delivered in package twenty-owner-visuals-batch04-2026-10-12 at 2026-10-13T00:09:56.576Z; selected task, source fit and both-site content/native delivery verified. Expert and learner review remain pending.",
+    "originalReceiptHashesRetainAllAdditionalQualifications": true,
+    "scienceReviewRepeated": false,
+    "pixelReviewRepeated": false,
+    "originalFocused04PASSUnmodified": true,
+    "futureExecutableSourceCommit": null,
+    "futureExecutableDestinationCommit": null,
+    "RootFinalBaselineRebindingRequired": true
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newGradeCredit": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

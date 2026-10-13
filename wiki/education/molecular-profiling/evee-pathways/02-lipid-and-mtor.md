@@ -29,13 +29,13 @@ This supporting lesson follows recycling in [the pathway library](/wiki/educatio
 
 Picture a workshop deciding whether to order supplies and whether to begin a large build. A supply sensor and a production controller can interact, but their readings mean different things.
 
-Cells obtain lipids through production, uptake, and recycling. Cholesterol is one membrane component. **SCAP** helps regulate transport of **sterol regulatory element-binding proteins (SREBPs)** from the endoplasmic reticulum to the Golgi when sterol conditions permit it. Processing releases a fragment that can act in the nucleus. The SREBP family regulates overlapping lipid programs; SREBP-2 is especially associated with cholesterol supply. [Radhakrishnan 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2652870/).
+Cells obtain lipids through production, uptake, and recycling. Use the [SCAP–SREBP mechanism](/wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp#how-it-works) for the sterol-sensing and processing sequence. Here, ask whether the regulator reaches the nucleus under the tested supply conditions. [Radhakrishnan 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2652870/).
 
 The relevant signal is more specific than “total cellular cholesterol.” Sterol location and processing state matter. Measuring nuclear SREBP and its precursor can therefore add information beyond a list of lipid-related RNA messages.
 
 ## Growth signaling adds another layer
 
-**mTOR** is a kinase, an enzyme that adds phosphate groups to proteins. It works in distinct complexes. mTORC1 regulates protein production and parts of autophagy initiation. mTORC2 contributes to AKT regulation and other functions. A compound's effects on one complex do not automatically describe the other. [Sarbassov 2005](https://pubmed.ncbi.nlm.nih.gov/15718470/), [Ganley 2009](https://pubmed.ncbi.nlm.nih.gov/19258318/).
+Use the [mTORC1 and mTORC2 mechanism](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor#how-it-works) to distinguish the complexes. A compound's effects on one complex do not automatically describe the other. [Sarbassov 2005](https://pubmed.ncbi.nlm.nih.gov/15718470/), [Ganley 2009](https://pubmed.ncbi.nlm.nih.gov/19258318/).
 
 Energy state supplies another input. [AMP-activated protein kinase (AMPK)](/wiki/education/concepts/cancer-biology/metabolism-and-stress/nutrient-sensing-ampk) can restrain mTORC1 through defined molecular steps. That restraint can reduce expensive cellular work. It does not make AMPK activation a universal death signal: stress adaptation and slower growth can coexist.
 
