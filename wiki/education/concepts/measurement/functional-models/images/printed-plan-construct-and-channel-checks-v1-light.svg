@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Printing is the starting plan</title><desc id="desc">Three stages show planned cell-containing ink and a temporary channel path, a constructed gel with an empty channel, then separate geometry, cell-health, flow and barrier checks. A lined channel is shown beside a bare channel; neither the plan nor a channel alone proves an organ or clinical prediction.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52667b" /></marker></defs>
+<rect x="14" y="8" width="572" height="55" rx="12" fill="#f1f6fa" /><text x="24" y="48" fill="#182b40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Printing is the starting plan</tspan></text>
+<rect x="24" y="80" width="552" height="210" rx="16" fill="#f1f6fa" />
+<text x="42" y="120" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">1  Planned layout</tspan></text>
+<path d="M 55 161 H 264" fill="none" stroke="#1874af" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 55 201 H 264" fill="none" stroke="#1874af" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 55 241 H 264" fill="none" stroke="#1874af" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 95 154 V 252 M 220 154 V 252" fill="none" stroke="#b8670b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+<text x="298" y="178" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="298" dy="0">Cell ink</tspan><tspan x="298" dy="38">Temporary</tspan><tspan x="298" dy="38">channel path</tspan></text>
+<rect x="24" y="312" width="552" height="210" rx="16" fill="#f1f6fa" />
+<text x="42" y="352" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">2  Actual construct</tspan></text>
+<rect x="52" y="377" width="220" height="116" rx="6" fill="#f1f6fa" stroke="#1874af" stroke-width="3" />
+<circle cx="74" cy="402" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="69" cy="405" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 69.2 397.5 Q 74 394.5 78.8 397.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="141" cy="402" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="136" cy="405" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 136.2 397.5 Q 141 394.5 145.8 397.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="245" cy="402" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="240" cy="405" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 240.2 397.5 Q 245 394.5 249.8 397.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="74" cy="438" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="69" cy="441" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 69.2 433.5 Q 74 430.5 78.8 433.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="141" cy="438" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="136" cy="441" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 136.2 433.5 Q 141 430.5 145.8 433.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="245" cy="438" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="240" cy="441" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 240.2 433.5 Q 245 430.5 249.8 433.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="74" cy="474" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="69" cy="477" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 69.2 469.5 Q 74 466.5 78.8 469.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="141" cy="474" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="136" cy="477" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 136.2 469.5 Q 141 466.5 145.8 469.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="245" cy="474" r="10" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="240" cy="477" r="3.4000000000000004" fill="#7753a6" />
+<path d="M 240.2 469.5 Q 245 466.5 249.8 469.5" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="171" y="382" width="24" height="106" rx="0" fill="#ffffff" stroke="#b8670b" stroke-width="3" />
+<text x="299" y="413" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="299" dy="0">Gel + cells</tspan><tspan x="299" dy="38">Ink removed:</tspan><tspan x="299" dy="38">empty channel</tspan></text>
+<rect x="24" y="544" width="552" height="220" rx="16" fill="#f1f6fa" />
+<text x="42" y="584" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">3  Separate checks</tspan></text>
+<circle cx="104" cy="650" r="37" fill="none" stroke="#b8670b" stroke-width="4" />
+<circle cx="236" cy="650" r="37" fill="none" stroke="#b8670b" stroke-width="4" />
+<circle cx="211" cy="627" r="9" fill="#0b805f" />
+<circle cx="258" cy="628" r="9" fill="#0b805f" />
+<circle cx="212" cy="674" r="9" fill="#0b805f" />
+<circle cx="258" cy="674" r="9" fill="#0b805f" />
+<text x="48" y="732" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Bare / lined</tspan></text>
+<text x="306" y="626" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="306" dy="0">Geometry</tspan><tspan x="306" dy="38">Cell health</tspan><tspan x="306" dy="38">Flow + barrier</tspan></text>
+<rect x="24" y="784" width="552" height="100" rx="12" fill="#f1f6fa" stroke="#52667b" stroke-width="3" stroke-dasharray="8 6" />
+<text x="42" y="824" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">A printed channel alone</tspan><tspan x="42" dy="38">does not establish a vessel.</tspan></text>
+</svg>

@@ -1,0 +1,7 @@
+ORIGINAL CODE-SVG INTENT
+Creator: agent:/root/batch07_author_group2
+Created: 2026-10-13T18:16:58.068633+00:00
+Learner task: Locate live receptor-positive cells inside live cells and all counted cells.
+A fictional 100-cell sample contains 80 live cells, including 60 live receptor-positive cells and 20 other live cells; 20 cells are nonlive. The three percentages are 60 over 80 equals 75 percent receptor positivity among live cells, 80 over 100 equals 80 percent viability, and 60 over 100 equals 60 percent live receptor-positive cells among all counted cells.
+Each dot is one counted cell in an invented sample. The teal block contains 60 live receptor-positive cells; amber contains 20 other live cells; gray contains 20 nonlive cells. The live bracket contains the first two blocks. Receptor status of the nonlive cells is not specified. These counts describe expression and viability under stated gates; they provide neither a potency result nor authorization to release the lot.
+Style: transparent-margin/gutter600x780 source-codeSVG pair with filled semantic content cards, system-ui text minimum34px, teal donor/intended/live subset, amber recipient/other/recoverednonlive as named locally, gray nonlive/missing as named locally. Same positions and object identities in light/dark; theme palette only. Readable native and actual pinned reader393x700 inline/defaultpreview. No universal criteria, protocol, clinical advice, eligibility or safety ranking. Model null; imagegenerationcalls0.

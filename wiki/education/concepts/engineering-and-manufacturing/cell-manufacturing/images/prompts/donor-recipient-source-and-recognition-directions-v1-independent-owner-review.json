@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-175",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+  "author": "agent:/root/batch07_author_group2",
+  "creativeAuthor": "agent:/root/batch07_author_group2",
+  "reviewer": "agent:/root/batch07_review_group2",
+  "independentReviewer": "agent:/root/batch07_review_group2",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:28:33.044972+00:00",
+  "reviewedAtUTC": "2026-10-13T18:28:33.044972+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "aca049716af80bdeddb2f58a49a889f77304910d36cbdef11bf80d95cabf0d5b",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/128",
+  "frozenRowSHA256": "1b85706df3fd7c8259563007fb4e6ab210ee4ba8f57d84926688ecdd73f7ecb6",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The fixed teal donor and amber recipient positions make the two attack arrows run in opposite directions. Labels explicitly name the attacking immune cells and recipient tissue versus donor cells. A separate source panel names recipient-derived versus donor-derived cells, and the location panel plus the preserved comparison section distinguish outside/inside engineering. The prose states that arrows describe possibilities rather than incidence and that neither axis establishes universal safety. This directly repairs the missing directionality task without a product ranking.",
+    "baselinePageSHA256": "bf06fcf2c83033af50de757cb140246c27b8ce598559412ca0adae3f8326d36e",
+    "frozenPageSHA256": "bf06fcf2c83033af50de757cb140246c27b8ce598559412ca0adae3f8326d36e",
+    "learnerTask": "Separate donor immune attack on recipient from recipient rejection of donor cells, and source from engineering location.",
+    "gap": "No visual distinguishes the opposite directions of immune recognition.",
+    "accuracyGuardrails": "Label donor-to-recipient immune attack and recipient-to-donor rejection as opposite directions. Source category and engineering location are separate axes and do not create a universal safety ranking."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-light.svg",
+      "sha256": "2b5783fa0b2811c004d1375f6ebe78adfbe81e0fd12f22ec929baf5700165400",
+      "bytes": 3700,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 780,
+        "viewBox": "0 0 600 780"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-dark.svg",
+      "sha256": "723c54d9eb0f15d29866709411aa524e5b6778a438e4c07f98dfc36816a3274c",
+      "bytes": 3700,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 780,
+        "viewBox": "0 0 600 780"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+        "sha256": "aca049716af80bdeddb2f58a49a889f77304910d36cbdef11bf80d95cabf0d5b",
+        "bytes": 8362
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-light.svg",
+        "sha256": "2b5783fa0b2811c004d1375f6ebe78adfbe81e0fd12f22ec929baf5700165400",
+        "bytes": 3700
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-dark.svg",
+        "sha256": "723c54d9eb0f15d29866709411aa524e5b6778a438e4c07f98dfc36816a3274c",
+        "bytes": 3700
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/donor-recipient-source-and-recognition-directions-v1.txt",
+        "sha256": "b2cd2b078f48c6246270237194cfac055f81fc91658b5fa76587789f2987d27f",
+        "bytes": 1371
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/donor-recipient-source-and-recognition-directions-v1-provenance.json",
+        "sha256": "eea8b47989040bad668dcbc99ccf36506571c701768d9c35387770772d9b24dd",
+        "bytes": 2202
+      }
+    ],
+    "currentCandidateOwnerSHA256": "aca049716af80bdeddb2f58a49a889f77304910d36cbdef11bf80d95cabf0d5b",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "608a3837ec1f3494c77c5e7d7f97fd108694d4a0829498342ec6b4f4897a4e12"
+  },
+  "reviewBasis": {
+    "scope": "Whole independent review of six assigned conceptual education/cartoon tasks; source reading, original nativeSVG and fresh pinned-reader desktop/mobile inline/default preview.",
+    "sourceReadingReceiptSHA256": "09f75124082ebdb36f2742806fc5515f3c83cedab8388737f27cec6d039a2c57",
+    "independentPixelInspectionSHA256": "fe19d0bfecbd32a2aaddd30e69195153f131b6c9b591fd924e510e7bd6ac9d3b",
+    "nativeInspectionReceiptSHA256": "edb19e4fd8e771a97b97809e65b35d684a6030aa9b41cfa62e180f6589faf544",
+    "readerInspectionReceiptSHA256": "073f67d81430e3cae7adeb447ceab12c8b358ee91a03b509a3682ffb990b4397",
+    "displayChecksSHA256": "00efa9c2dd2dca916fa45722be674a54d83d08bdfb4fcc900edd37b23fca7a09",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Bounded official guidance and relevant primary abstracts/selected full-text sections; inaccessible/unread sources retain explicit limitations in private receipt.",
+    "limits": [
+      "Native capture uses original SVG bytes in HTML img carrier over theme background; raw XML text bounds measured separately.",
+      "Reader fixture is isolated full-width complete education article with exact pinned frame/theater/table components and shared/app CSS; excludes app header/sidebar/live backend/navigation.",
+      "Transparent margin/gutters show dimmed article in preview; no essential text depends on backdrop contrast.",
+      "Known renderer focus-return limitation remains qualified; Enter/Escape checks do not certify focus restoration.",
+      "No human, clinical, expert, learner competence, adoption, coverage, publication or live-delivery approval."
+    ]
+  },
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

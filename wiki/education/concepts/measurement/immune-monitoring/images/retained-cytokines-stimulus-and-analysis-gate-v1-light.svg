@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Retain, stain, then count</title><desc id="desc">A stimulated cell contains retained green cytokine molecules because a transport-inhibition barrier interrupts outward transport. A separate fixed, permeable cell allows fluorescent antibody entry. A conceptual flow gate counts cytokine-positive cells within a named parent population; the fixed-cell readout does not measure secretion or target-cell killing.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52667b" /></marker></defs>
+<rect x="14" y="8" width="572" height="55" rx="12" fill="#f1f6fa" /><text x="24" y="48" fill="#182b40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Retain, stain, then count</tspan></text>
+<rect x="24" y="80" width="552" height="291" rx="16" fill="#f1f6fa" />
+<text x="42" y="122" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">1  Stimulus + time window</tspan></text>
+<circle cx="175" cy="244" r="87" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="170" cy="247" r="29.580000000000002" fill="#7753a6" />
+<path d="M 133.24 204.85 Q 175 178.75 216.76 204.85" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="145" cy="206" r="8" fill="#0b805f" />
+<circle cx="214" cy="231" r="8" fill="#0b805f" />
+<circle cx="138" cy="274" r="8" fill="#0b805f" />
+<circle cx="191" cy="287" r="8" fill="#0b805f" />
+<circle cx="214" cy="270" r="8" fill="#0b805f" />
+<path d="M 250 238 H 312" fill="none" stroke="#0b805f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 302 206 V 276" fill="none" stroke="#b34559" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<text x="337" y="221" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="337" dy="0">Transport</tspan><tspan x="337" dy="38">inhibited</tspan></text>
+<text x="45" y="357" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="45" dy="0">Cytokines retained inside</tspan></text>
+<rect x="24" y="394" width="552" height="170" rx="16" fill="#f1f6fa" />
+<text x="42" y="433" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">2  Fix, permeabilize + stain</tspan></text>
+<circle cx="113" cy="505" r="40" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="100" cy="493" r="5" fill="#0b805f" />
+<path d="M 100 498.6 L 100 493 M 100 493 L 95.1 488.1 M 100 493 L 104.9 488.1" fill="none" stroke="#b8670b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="132" cy="505" r="5" fill="#0b805f" />
+<path d="M 132 510.6 L 132 505 M 132 505 L 127.1 500.1 M 132 505 L 136.9 500.1" fill="none" stroke="#b8670b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="100" cy="519" r="5" fill="#0b805f" />
+<path d="M 100 524.6 L 100 519 M 100 519 L 95.1 514.1 M 100 519 L 104.9 514.1" fill="none" stroke="#b8670b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="185" y="492" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="185" dy="0">Antibodies reach</tspan><tspan x="185" dy="38">retained molecules</tspan></text>
+<rect x="24" y="586" width="552" height="178" rx="16" fill="#f1f6fa" />
+<text x="42" y="627" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">3  Flow analysis + controls</tspan></text>
+<rect x="50" y="647" width="120" height="93" rx="0" fill="#ffffff" stroke="#52667b" stroke-width="3" />
+<rect x="120" y="651" width="44" height="40" rx="0" fill="none" stroke="#0b805f" stroke-width="3" stroke-dasharray="8 6" />
+<circle cx="75" cy="705" r="4" fill="#b8670b" />
+<circle cx="94" cy="720" r="4" fill="#b8670b" />
+<circle cx="81" cy="696" r="4" fill="#b8670b" />
+<circle cx="109" cy="704" r="4" fill="#b8670b" />
+<circle cx="100" cy="687" r="4" fill="#b8670b" />
+<circle cx="131" cy="664" r="4" fill="#b8670b" />
+<circle cx="151" cy="678" r="4" fill="#b8670b" />
+<text x="198" y="682" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="198" dy="0">Positive / parent gate</tspan><tspan x="198" dy="38">Stain rule is assay-specific</tspan></text>
+<rect x="24" y="784" width="552" height="100" rx="12" fill="#f1f6fa" stroke="#52667b" stroke-width="3" stroke-dasharray="8 6" />
+<text x="42" y="824" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Retention is not secretion</tspan><tspan x="42" dy="38">or measured target-cell death.</tspan></text>
+</svg>

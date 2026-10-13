@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "creator": "agent:/root/batch07_author_group1",
+  "receipt": {
+    "author": "agent:/root/batch07_author_group1"
+  },
+  "model": null,
+  "imageGenerationCalls": 0,
+  "createdAtUTC": "2026-10-13T18:18:14.016491+00:00",
+  "task": "next-gap-172",
+  "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+  "sourcePreimageSHA256": "fbd9b3787dd2068bf0fd5bb62471e7c2a0f136c3f8f621fd4da7e61e3f616f2d",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "currentSourceCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "medium": "hand-authored SVG source code",
+  "geometry": "480x850; transparent canvas margins/gutters; opaque theme-colored semantic panels keep original text legible in the unchanged dark theater; all labels >=28 source px; theme geometry identical",
+  "fictionalData": true,
+  "assignedFiles": [
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/coexisting-macrophage-programs-v1.txt",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/coexisting-macrophage-programs-v1-provenance.json"
+  ],
+  "assets": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+      "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+      "bytes": 5547
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+      "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+      "bytes": 5547
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/coexisting-macrophage-programs-v1.txt",
+      "sha256": "70d4a6901372c1238e0e3b93a739bb4e1dc29277dbb4edd65f45c8efe55705cb",
+      "bytes": 2052
+    }
+  ],
+  "sourceScope": "General public education only; exact owner metadata checked before body; no signed-care or sensitive source bodies read",
+  "review": {
+    "independentReviewer": "prospective agent:/root/batch07_review_group1",
+    "independentReviewPerformed": false,
+    "humanExpertReview": "pending",
+    "learnerReview": "pending"
+  },
+  "release": {
+    "canonical187": "pending",
+    "adoption": "pending",
+    "liveApproval": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  },
+  "scopeLimits": [
+    "Axes are selected measured programs, not independent freely adjustable controls.",
+    "Use fictional profiles without universal M1/M2 cutoffs.",
+    "Changing proportions does not establish conversion of the same cells."
+  ],
+  "authoringStartSourceCommit": "90730c2373cf82c51b17270a6c02086d94d07bcf",
+  "sourcePlanningCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "code": {
+    "language": "Python-authored original SVG XML",
+    "sha256": "1d83eda6baf834113b1d15c035bd5350394785cc8c6469070920371435f464c2",
+    "geometryFunctions": "vdj, icd, tolerance, gamma, macro, inflam, binding"
+  },
+  "sourcesCheckedAtUTC": "2026-10-13T18:23:04.178192+00:00",
+  "sourceReadBounds": [
+    {
+      "key": "xue",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24530056/",
+      "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24530056&resultType=core&format=json",
+      "kind": "primary experiment abstract",
+      "readBounds": "Title, bibliographic metadata and complete abstractText from official EuropePMC core record; no full methods or original figures inspected.",
+      "supported": "Primary human macrophage stimulation data support a spectrum of expression programs. No fictional score treated as source measurement."
+    }
+  ],
+  "authorChecks": {
+    "scope": "Author inspection only, not independent scientific or pixel PASS",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "480x850 native contextual background",
+      "393x700 mobile inline and default preview",
+      "1440x1000 desktop inline and default preview"
+    ],
+    "minSourceLabelPx": 28,
+    "minMobileInlineLabelPx": 20.357421875,
+    "minMobileDefaultPreviewLabelPx": 19.896470588235292,
+    "nativeClippedLabelCount": 0,
+    "actualThemeSourcesVerified": true,
+    "transparentCanvas": "Transparent margins and gutters; discrete opaque semantic panels behind content for the actual theater contrast",
+    "independentReviewPending": true
+  }
+}

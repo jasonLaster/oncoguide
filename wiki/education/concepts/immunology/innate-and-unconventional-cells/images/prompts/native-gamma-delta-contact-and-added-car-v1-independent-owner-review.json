@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-171",
+  "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+  "author": "agent:/root/batch07_author_group1",
+  "creativeAuthor": "agent:/root/batch07_author_group1",
+  "reviewer": "agent:/root/batch07_review_group1",
+  "independentReviewer": "agent:/root/batch07_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:32:04.635180+00:00",
+  "reviewedAtUTC": "2026-10-13T18:32:04.635180+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "b9253060568bffd7b6ac2b7343eb80a9af5f73159f95ed5bbb8080b17feab78d",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/213",
+  "frozenRowSHA256": "50dbb38845299db73d1bdd0f5350a79244238817b98bfad2e11562b5ca0e9799",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "checkedCommittedPreimageAt": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Vγ9Vδ2 labeling bounds the native BTN2A1/BTN3A1 contact; intracellular phosphoantigen dots do not occupy an HLA groove. Solid versus dashed contact and accompanying prose qualify schematic receptor engagement. Separate CAR/target-X panel keeps engineered recognition distinct; function remains a test, with original subset/HLA caveats preserved.",
+    "frozenPageSHA256": "52034d36d884959744d86962e0bfd82c89ee64967d1e02447469404357b9be45",
+    "baselinePageSHA256": "52034d36d884959744d86962e0bfd82c89ee64967d1e02447469404357b9be45",
+    "learnerTask": "Distinguish a subset-specific native recognition contact from an added CAR binding its own surface target.",
+    "gap": "The route fork is a good boundary map, but it does not depict the metabolite/butyrophilin-linked native contact described in the mechanism. A bounded paired recognition sketch can clarify the route without turning all gamma-delta cells into one sensor type.",
+    "accuracyGuardrails": [
+      "Label the depicted Vγ9Vδ2 example; do not generalize it to Vδ1 or every gamma-delta TCR.",
+      "Phosphoantigen recognition is not a free metabolite in a conventional peptide-HLA groove.",
+      "HLA independence and useful native killing are not universal; added CAR needs its own target."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+      "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+      "bytes": 5040,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+      "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+      "bytes": 5040,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+        "sha256": "b9253060568bffd7b6ac2b7343eb80a9af5f73159f95ed5bbb8080b17feab78d",
+        "bytes": 10751
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+        "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+        "bytes": 5040
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+        "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+        "bytes": 5040
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/native-gamma-delta-contact-and-added-car-v1.txt",
+        "sha256": "06d89db3228cc2f0d88adc64a3cf021c662c7586817fe6feb96acbafe8dd94fa",
+        "bytes": 1879
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/native-gamma-delta-contact-and-added-car-v1-provenance.json",
+        "sha256": "39c39c34fa67a8e7d57d6c6eafb6c799dc889c2c22d99148b91f76896947fd55",
+        "bytes": 5019
+      }
+    ],
+    "currentCandidateOwnerSHA256": "b9253060568bffd7b6ac2b7343eb80a9af5f73159f95ed5bbb8080b17feab78d",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "64dee892b16e425577b4d7481d6a25c4b390d37ca75f256e7944d57e41e3fe31",
+    "exactFivePublicFiles": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, arithmetic, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Complete official abstracts plus bounded official docs and selected ICD/model-paper sections; no invented complete-paper/figure/method reading.",
+    "freshCaptureCountForOwner": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated pinned full-width article/frame/theater/table-enhancer and actual CSS; no live site navigation, sidebar or external data. Transparent margins/gutters show dim underlying content; essential content is on opaque semantic panels. Focus returns BODY after Escape in one-owner probe across both themes/viewports. No complete a11y or touch certification."
+  },
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

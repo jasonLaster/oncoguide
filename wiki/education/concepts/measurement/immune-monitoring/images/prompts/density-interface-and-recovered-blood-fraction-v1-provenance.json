@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-education-visual",
+  "author": "agent:/root/batch07_author_group3",
+  "integrator": "Root",
+  "createdAtUTC": "2026-10-13T18:13:46.838097+00:00",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original SVG source authored through a private Python drawing script; no generated bitmap and no traced/reproduced source figure",
+  "learnerTask": "Locate the recovered blood fraction and excluded populations",
+  "inferenceGuardrails": "Mark the recovered density fraction, possible contaminants and excluded populations. PBMC recovery is not all blood cells, a complete immune census or tumor sampling.",
+  "sourcePreimageSHA256": "e53fa1e32b8d53d39b0884b3940c38123f76a683b9d36be13d3bb7c37d3d2cb5",
+  "sources": [
+    {
+      "url": "https://cdn.cytivalifesciences.com/api/public/content/digi-16156-pdf",
+      "readBounds": "Official Cytiva 21-page PDF pp.4,6\u20137 (zero-based3,5\u20136): introduction and separation principle; no processing instructions adopted; Bull primary abstract via Europe PMC; B\u00f6yum metadata only, no abstract available",
+      "checkedDate": "2026-10-13"
+    }
+  ],
+  "files": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+      "sha256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+      "bytes": 8981
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+      "sha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb",
+      "bytes": 4592
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+      "sha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c",
+      "bytes": 4592
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/density-interface-and-recovered-blood-fraction-v1.txt",
+      "sha256": "ea0da42882b906e1f52f8bf9d44daa94dc91a100ef55c6d456bcf625f4d7b972",
+      "bytes": 2232
+    }
+  ],
+  "fictionalData": false,
+  "reviewStatus": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "human": "pending"
+  },
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "deliveryCredit": 0,
+  "liveApproval": false,
+  "graphicsRevision": {
+    "dateUTC": "2026-10-13T18:24:07.996656+00:00",
+    "reason": "Personal native inspection: arrow/heading overlap, TCR chart unit-scale mismatch and exterior theme labels required graphical corrections. No new biological claims or protocol."
+  }
+}

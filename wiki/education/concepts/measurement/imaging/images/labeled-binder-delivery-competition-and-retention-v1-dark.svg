@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Follow the labeled binder</title><desc id="desc">A radiolabeled Y-shaped binder travels from blood to tissue, where it competes with an unlabeled binder for targets. Text notes that clearance and retained label alter signal over time. Signal includes blood delivery, access, binding and retention at a specified imaging time.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b3c7d9" /></marker></defs>
+<rect x="14" y="8" width="572" height="103" rx="12" fill="#172a3c" /><rect x="24" y="306" width="552" height="47" rx="12" fill="#172a3c" /><text x="24" y="48" fill="#eef5fc" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Follow the labeled binder</tspan></text>
+<text x="24" y="98" fill="#c1d0de" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="24" dy="0">Conceptual distribution</tspan></text>
+<rect x="24" y="122" width="552" height="169" rx="16" fill="#172a3c" />
+<text x="42" y="162" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Blood delivery</tspan></text>
+<path d="M 46 190 H 546 M 46 268 H 546" fill="none" stroke="#ff99ac" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 100 241 L 100 225 M 100 225 L 86 211 M 100 225 L 114 211" fill="none" stroke="#72bfff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="100" cy="241" r="6" fill="#f6ba68" />
+<path d="M 280 241 L 280 225 M 280 225 L 266 211 M 280 225 L 294 211" fill="none" stroke="#72bfff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="280" cy="241" r="6" fill="#f6ba68" />
+<path d="M 450 241 L 450 225 M 450 225 L 436 211 M 450 225 L 464 211" fill="none" stroke="#72bfff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="450" cy="241" r="6" fill="#f6ba68" />
+<text x="40" y="337" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="40" dy="0">Tissue access + competition</tspan></text>
+<rect x="24" y="370" width="552" height="250" rx="16" fill="#172a3c" stroke="#b3c7d9" stroke-width="3" />
+<path d="M 540 284 V 398" fill="none" stroke="#b3c7d9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="216" y="412" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="216" dy="0">Unlabeled binder</tspan></text>
+<path d="M 150 472 L 150 456 M 150 456 L 136 442 M 150 456 L 164 442" fill="none" stroke="#72bfff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="150" cy="472" r="6" fill="#f6ba68" />
+<path d="M 330 472 L 330 456 M 330 456 L 316 442 M 330 456 L 344 442" fill="none" stroke="#c1d0de" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 150 477 V 521 M 330 477 V 521" fill="none" stroke="#b3c7d9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 70 562 H 535" fill="none" stroke="#c7a2f3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 132 537 L 150 518 L 168 537 L 150 558 Z" fill="#c7a2f3" stroke="#c7a2f3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 312 537 L 330 518 L 348 537 L 330 558 Z" fill="#c7a2f3" stroke="#c7a2f3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 442 537 L 460 518 L 478 537 L 460 558 Z" fill="#c7a2f3" stroke="#c7a2f3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="44" y="604" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="44" dy="0">Target sites on tissue cells</tspan></text>
+<rect x="24" y="642" width="552" height="121" rx="16" fill="#172a3c" />
+<text x="42" y="684" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Clearance + retained label</tspan><tspan x="42" dy="38">alter signal over time.</tspan></text>
+<rect x="24" y="784" width="552" height="100" rx="12" fill="#172a3c" stroke="#b3c7d9" stroke-width="3" stroke-dasharray="8 6" />
+<text x="42" y="824" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Name binder, isotope and time.</tspan><tspan x="42" dy="38">Uptake is not benefit.</tspan></text>
+</svg>

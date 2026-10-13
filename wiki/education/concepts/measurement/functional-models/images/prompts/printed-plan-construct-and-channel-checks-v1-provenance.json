@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-education-visual",
+  "author": "agent:/root/batch07_author_group3",
+  "integrator": "Root",
+  "createdAtUTC": "2026-10-13T18:13:46.838097+00:00",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original SVG source authored through a private Python drawing script; no generated bitmap and no traced/reproduced source figure",
+  "learnerTask": "Separate planned printed layout, actual construct and checked cell/channel function.",
+  "inferenceGuardrails": "Label planned layout, actual construct and measured cell/channel function separately. A printed channel is not automatically a perfused living vessel, organ or validated personal-response model.",
+  "sourcePreimageSHA256": "b08aeed05676a1abe46e078d2568dbcb06b7c2bebc79db6c400ade47b8d373a5",
+  "sources": [
+    {
+      "url": "https://lewisgroup.seas.harvard.edu/sites/g/files/omnuum11526/files/lewis-lab/files/three-dimensional_bioprinting_of_thick_vascularized_tissues.pdf",
+      "readBounds": "2016 PDF pp.1\u20133; fabrication text and Fig.1/2 legends; Fig.1/2 screenshots requested; full six-page text retrieved but not read end-to-end",
+      "checkedDate": "2026-10-13"
+    }
+  ],
+  "files": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+      "sha256": "40b3f170a8b23b29d0443ee6b6b57c9023c9a71f232b3ba4c5ae956b88570ad2",
+      "bytes": 8800
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+      "sha256": "e844c4079ab1e2afce6c3be5a7f303db2582063cd40b92baf2f0f67764a89258",
+      "bytes": 6704
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+      "sha256": "a862006b238de3d71c3a433e1bdec55a4efb8821429f740c24e3159150194163",
+      "bytes": 6704
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/printed-plan-construct-and-channel-checks-v1.txt",
+      "sha256": "0f39741e64636c92ff2bd8c73e4470084c12c17478e858eb537ce8654b973cac",
+      "bytes": 2235
+    }
+  ],
+  "fictionalData": false,
+  "reviewStatus": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "human": "pending"
+  },
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "deliveryCredit": 0,
+  "liveApproval": false,
+  "graphicsRevision": {
+    "dateUTC": "2026-10-13T18:24:07.993544+00:00",
+    "reason": "Personal native inspection: arrow/heading overlap, TCR chart unit-scale mismatch and exterior theme labels required graphical corrections. No new biological claims or protocol."
+  }
+}

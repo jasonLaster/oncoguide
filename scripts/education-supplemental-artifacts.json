@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "3822a8a52247ac6b479229ec3769ba5334dc5ac2",
+  "reviewedSourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -6365,6 +6365,726 @@
         {
           "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
           "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/stored-segments-selected-joins-and-receptor-generation-v1-provenance.json",
+      "sha256": "d63758cb45594ea053e6f6b56e8ee3d1b5d4ba1e9d237c29605c5e1d0f811ce1",
+      "bytes": 5236,
+      "owner": "wiki/education/concepts/biology-basics/genetics/vdj-recombination.md",
+      "ownerSha256": "e228fe8628ac9553c0872b8d80c37d3bcd32a61898beef625c661f854527d69b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-light.svg",
+          "sha256": "9c4a5340844825425e185205f823f447462ca0d4e550f6ecf1289a80171a4ec0"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-dark.svg",
+          "sha256": "fc6a4983e75dab5ba1151b39faecc6168c515f7ebb3f8c94082529c5a267f1e7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/stored-segments-selected-joins-and-receptor-generation-v1-independent-owner-review.json",
+      "sha256": "0c253c93345c60b0c805419fdbabe9c4ca4ae8666887294b4ea3e58bb5879e1f",
+      "bytes": 6663,
+      "owner": "wiki/education/concepts/biology-basics/genetics/vdj-recombination.md",
+      "ownerSha256": "e228fe8628ac9553c0872b8d80c37d3bcd32a61898beef625c661f854527d69b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-light.svg",
+          "sha256": "9c4a5340844825425e185205f823f447462ca0d4e550f6ecf1289a80171a4ec0"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-dark.svg",
+          "sha256": "fc6a4983e75dab5ba1151b39faecc6168c515f7ebb3f8c94082529c5a267f1e7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/danger-signals-host-learning-and-challenge-v1-provenance.json",
+      "sha256": "acf435ab4ba899b4ad7b23331df215aff4b455845f9d5837013f9418d972ec41",
+      "bytes": 5004,
+      "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+      "ownerSha256": "66135565f32526d429ceb3c39556d1691a39dd8501da17e7e6d6070b2c7e7593",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+          "sha256": "85958b20d6a0170b888a6eabd12006ed1517f8618e67f40eaac25d066ccab13c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+          "sha256": "66a5b03febd22eb25a978b6c37ac743eb9b17ae601777bb8c03b9d4d75e28b05"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/danger-signals-host-learning-and-challenge-v1-independent-owner-review.json",
+      "sha256": "a8769dbd9fc75f430dbafaddca2e1b63e46dea63ee8ace70e1f023e85f10659f",
+      "bytes": 6840,
+      "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+      "ownerSha256": "66135565f32526d429ceb3c39556d1691a39dd8501da17e7e6d6070b2c7e7593",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+          "sha256": "85958b20d6a0170b888a6eabd12006ed1517f8618e67f40eaac25d066ccab13c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+          "sha256": "66a5b03febd22eb25a978b6c37ac743eb9b17ae601777bb8c03b9d4d75e28b05"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/matched-mutant-normal-peptide-responses-v1-provenance.json",
+      "sha256": "9ade1fe4eeaf742f31470d023588fbe044b829465e47ac40478268032fbb4059",
+      "bytes": 4795,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+      "ownerSha256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+          "sha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-dark.svg",
+          "sha256": "37d75662d4a46f85dc4a648fa60a3ae67ba0b3c1ec291f909b3400fe768946e5"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/matched-mutant-normal-peptide-responses-v1-independent-owner-review.json",
+      "sha256": "2d1c9c0d937a09f1b044523a27ee2f32817ac4f980c19b241be8933cac19e91b",
+      "bytes": 6686,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+      "ownerSha256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+          "sha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-dark.svg",
+          "sha256": "37d75662d4a46f85dc4a648fa60a3ae67ba0b3c1ec291f909b3400fe768946e5"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/native-gamma-delta-contact-and-added-car-v1-provenance.json",
+      "sha256": "39c39c34fa67a8e7d57d6c6eafb6c799dc889c2c22d99148b91f76896947fd55",
+      "bytes": 5019,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+      "ownerSha256": "b9253060568bffd7b6ac2b7343eb80a9af5f73159f95ed5bbb8080b17feab78d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+          "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+          "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/native-gamma-delta-contact-and-added-car-v1-independent-owner-review.json",
+      "sha256": "8a657944e32445a66a33835999e7b6d2c7772ed7df7f37db7050bd4e3b6b8cf9",
+      "bytes": 6820,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+      "ownerSha256": "b9253060568bffd7b6ac2b7343eb80a9af5f73159f95ed5bbb8080b17feab78d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+          "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+          "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/coexisting-macrophage-programs-v1-provenance.json",
+      "sha256": "7b0eb2f9f61da56829494ead09ce49aa67bc8e32027817e7d459c802ec8a74d3",
+      "bytes": 4850,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+      "ownerSha256": "7492bd4463f60d6452b43ed7f128eb459bc3a8108e1d20e5af54456cecdbe81d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+          "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+          "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/coexisting-macrophage-programs-v1-independent-owner-review.json",
+      "sha256": "c767d1e632e02a5db0c575670b4be9fd48d28c778005a28a0932f2fe593f76e9",
+      "bytes": 6660,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+      "ownerSha256": "7492bd4463f60d6452b43ed7f128eb459bc3a8108e1d20e5af54456cecdbe81d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+          "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+          "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/prompts/signals-vessels-and-recruited-cells-v1-provenance.json",
+      "sha256": "47a166faf5f00b94e51a94f51ba6fb77d16c061ce3599599c37e51ce9a438701",
+      "bytes": 4786,
+      "owner": "wiki/education/concepts/immunology/the-immune-system/inflammation.md",
+      "ownerSha256": "25804cd3b33b2f256da512c648353601c9e482c01dbe3129fca94ee6ee50a9d4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+          "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+          "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/prompts/signals-vessels-and-recruited-cells-v1-independent-owner-review.json",
+      "sha256": "d4d610179a464401c30571e009d60a60a674a61021830084117c01853f10a7d9",
+      "bytes": 6571,
+      "owner": "wiki/education/concepts/immunology/the-immune-system/inflammation.md",
+      "ownerSha256": "25804cd3b33b2f256da512c648353601c9e482c01dbe3129fca94ee6ee50a9d4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+          "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+          "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-provenance.json",
+      "sha256": "116d88635f8394077c550865414463e7b78949da3c91dd3626947156121ef4e3",
+      "bytes": 5004,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+      "ownerSha256": "b74f1983b4d6100eb4f7c3750b12681da41035b8d841b7cf187da729d5dc455c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+          "sha256": "ce4ab6197a73efed1e755779bcc15efec208fba9f3fbdfcdb9fa5664ffb2d645"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+          "sha256": "3f6ce993c7973b8c8396b35032d3978428dee23bd442e46ed953878623ae4dd4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-independent-owner-review.json",
+      "sha256": "b46636e2a42f419c0fc0de5b942cbc10cf876143be11d5c9a4aa79492b8e8be8",
+      "bytes": 6556,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+      "ownerSha256": "b74f1983b4d6100eb4f7c3750b12681da41035b8d841b7cf187da729d5dc455c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+          "sha256": "ce4ab6197a73efed1e755779bcc15efec208fba9f3fbdfcdb9fa5664ffb2d645"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+          "sha256": "3f6ce993c7973b8c8396b35032d3978428dee23bd442e46ed953878623ae4dd4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/donor-recipient-source-and-recognition-directions-v1-provenance.json",
+      "sha256": "eea8b47989040bad668dcbc99ccf36506571c701768d9c35387770772d9b24dd",
+      "bytes": 2202,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+      "ownerSha256": "aca049716af80bdeddb2f58a49a889f77304910d36cbdef11bf80d95cabf0d5b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-light.svg",
+          "sha256": "2b5783fa0b2811c004d1375f6ebe78adfbe81e0fd12f22ec929baf5700165400"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-dark.svg",
+          "sha256": "723c54d9eb0f15d29866709411aa524e5b6778a438e4c07f98dfc36816a3274c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/donor-recipient-source-and-recognition-directions-v1-independent-owner-review.json",
+      "sha256": "bb4eb6f44740aa937c9cbd77821e43f34b962c4d9ed5cd06f8c21b1db72b8fff",
+      "bytes": 7666,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+      "ownerSha256": "aca049716af80bdeddb2f58a49a889f77304910d36cbdef11bf80d95cabf0d5b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-light.svg",
+          "sha256": "2b5783fa0b2811c004d1375f6ebe78adfbe81e0fd12f22ec929baf5700165400"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-dark.svg",
+          "sha256": "723c54d9eb0f15d29866709411aa524e5b6778a438e4c07f98dfc36816a3274c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/branching-identity-and-custody-records-v1-provenance.json",
+      "sha256": "decaa0251b699a6646020d88aa7c3e5d2ad1f20b2c7d4357ccd295e8db704231",
+      "bytes": 2161,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+      "ownerSha256": "a5ffbb285d654ae5d680f816d0b4cf673dc0fd4c98fed78789faa7ed29d76d48",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-light.svg",
+          "sha256": "93ee957d57d80192a6d804640fd751ff7602fad683944a4eb420e1a28842fef6"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-dark.svg",
+          "sha256": "8e9db57503bd304958f1a24238cbcb1c67fcbbebb600a1dda8fc5b0a5c21cb32"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/branching-identity-and-custody-records-v1-independent-owner-review.json",
+      "sha256": "087616a6f1317614c3c52f81a383a710e78913b7effb08a62695226fa53a657c",
+      "bytes": 7469,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+      "ownerSha256": "a5ffbb285d654ae5d680f816d0b4cf673dc0fd4c98fed78789faa7ed29d76d48",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-light.svg",
+          "sha256": "93ee957d57d80192a6d804640fd751ff7602fad683944a4eb420e1a28842fef6"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-dark.svg",
+          "sha256": "8e9db57503bd304958f1a24238cbcb1c67fcbbebb600a1dda8fc5b0a5c21cb32"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/recovered-viability-and-input-recovery-v1-provenance.json",
+      "sha256": "40c2d85a947e4a6f1ef3ceef1a8af8442f0ec14c041f71966819f6038d101e78",
+      "bytes": 2150,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+      "ownerSha256": "aa2b6c1e68d0474df5a29239015bb519b18d169515ad010a7e8eac6cf5a632f2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-light.svg",
+          "sha256": "d33e29f4a0e4fd1425ce8f41fa67f1d1ca2205e13c77ff8cbc77a6df024f99ea"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-dark.svg",
+          "sha256": "197239c962bacfa79c2cc41bb56536ac452611f67bf0d49221b9c3a36cbfc16a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/recovered-viability-and-input-recovery-v1-independent-owner-review.json",
+      "sha256": "31f789cc8bac37d9feddb47459586b4933e3279c0ee9d7de8d7cb9b70a3610d8",
+      "bytes": 7410,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+      "ownerSha256": "aa2b6c1e68d0474df5a29239015bb519b18d169515ad010a7e8eac6cf5a632f2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-light.svg",
+          "sha256": "d33e29f4a0e4fd1425ce8f41fa67f1d1ca2205e13c77ff8cbc77a6df024f99ea"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-dark.svg",
+          "sha256": "197239c962bacfa79c2cc41bb56536ac452611f67bf0d49221b9c3a36cbfc16a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/enrichment-expansion-and-activation-v1-provenance.json",
+      "sha256": "aea0c967fdb6da044bfe5a90f73dba4807f4f22f1dc99257e7a33442040816f1",
+      "bytes": 2145,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+      "ownerSha256": "d04a7877338bdfecaa5a46074d01416c5119054d5600139f6b9ed69f1ec2a729",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-light.svg",
+          "sha256": "30a398773ce8e32481c64621a8754cb160155fe15b7ca5b713f4d2aa68112096"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-dark.svg",
+          "sha256": "7f1edd808d9d04ce0f7fa87c7eab6af352f08bc35139e49133e3d42f7024341d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/enrichment-expansion-and-activation-v1-independent-owner-review.json",
+      "sha256": "c9162f328391cf17bdf86b70ff122b4312741b86c4e153d9812c596ce9d49837",
+      "bytes": 7406,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+      "ownerSha256": "d04a7877338bdfecaa5a46074d01416c5119054d5600139f6b9ed69f1ec2a729",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-light.svg",
+          "sha256": "30a398773ce8e32481c64621a8754cb160155fe15b7ca5b713f4d2aa68112096"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-dark.svg",
+          "sha256": "7f1edd808d9d04ce0f7fa87c7eab6af352f08bc35139e49133e3d42f7024341d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/nested-live-and-receptor-positive-denominators-v1-provenance.json",
+      "sha256": "442a11d75de6dcb9d4290f7daafdb94db1b5dc7ee6877c381df9313c270db9e3",
+      "bytes": 2191,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/release-testing-for-cell-products.md",
+      "ownerSha256": "beb598c129c511d17b3917bc1d9ee4bd8acb896625e4b7cb268585af54285afd",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-light.svg",
+          "sha256": "5c3e805d61e3c4daf2b0e78a4affe75ec50c1fd2b1777bc36334af351cca9980"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-dark.svg",
+          "sha256": "2498d27df92876655655b5575ba25039d54aedb117f4987a4ef2b9eb515c664d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/nested-live-and-receptor-positive-denominators-v1-independent-owner-review.json",
+      "sha256": "daf96f665fe07f6a9ac39cf949678120a1d13699cf864b7baa425f7d91e5ee10",
+      "bytes": 7518,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/release-testing-for-cell-products.md",
+      "ownerSha256": "beb598c129c511d17b3917bc1d9ee4bd8acb896625e4b7cb268585af54285afd",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-light.svg",
+          "sha256": "5c3e805d61e3c4daf2b0e78a4affe75ec50c1fd2b1777bc36334af351cca9980"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-dark.svg",
+          "sha256": "2498d27df92876655655b5575ba25039d54aedb117f4987a4ef2b9eb515c664d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/collection-infusion-and-culture-clocks-v1-provenance.json",
+      "sha256": "c08d64cbd448c0169701d118dac50bcf92990502e9c8662403f58b36ddd1c9b1",
+      "bytes": 2149,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time.md",
+      "ownerSha256": "06ba0866b045d9e14ee0c64c45fec6e406f290b928114bd64cd78d9e4da4c82e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-light.svg",
+          "sha256": "3009c1120bac3084d940c475c3ef81c12611c25c4972b7b222df9a61988b7f9f"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-dark.svg",
+          "sha256": "88c4e0107a696ce79761553fdd64d2067fe23960445257a3a7eb1b722a6d4a08"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/collection-infusion-and-culture-clocks-v1-independent-owner-review.json",
+      "sha256": "8fbd6697dc32767060794cac3c4a7e4174a18a2eab26ed2754d772b9291551a4",
+      "bytes": 7501,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time.md",
+      "ownerSha256": "06ba0866b045d9e14ee0c64c45fec6e406f290b928114bd64cd78d9e4da4c82e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-light.svg",
+          "sha256": "3009c1120bac3084d940c475c3ef81c12611c25c4972b7b222df9a61988b7f9f"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-dark.svg",
+          "sha256": "88c4e0107a696ce79761553fdd64d2067fe23960445257a3a7eb1b722a6d4a08"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/printed-plan-construct-and-channel-checks-v1-provenance.json",
+      "sha256": "bf6dc5fcf242a297cfabf5706ae224939945b44462884be2abee0e9ba5c96cf5",
+      "bytes": 2717,
+      "owner": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+      "ownerSha256": "40b3f170a8b23b29d0443ee6b6b57c9023c9a71f232b3ba4c5ae956b88570ad2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+          "sha256": "e844c4079ab1e2afce6c3be5a7f303db2582063cd40b92baf2f0f67764a89258"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+          "sha256": "a862006b238de3d71c3a433e1bdec55a4efb8821429f740c24e3159150194163"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/printed-plan-construct-and-channel-checks-v1-independent-owner-review.json",
+      "sha256": "94981ac8b020443d959d55554431f46b068d4fe4ef60015bc9461d1a9d850c06",
+      "bytes": 6636,
+      "owner": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+      "ownerSha256": "40b3f170a8b23b29d0443ee6b6b57c9023c9a71f232b3ba4c5ae956b88570ad2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+          "sha256": "e844c4079ab1e2afce6c3be5a7f303db2582063cd40b92baf2f0f67764a89258"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+          "sha256": "a862006b238de3d71c3a433e1bdec55a4efb8821429f740c24e3159150194163"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/labeled-binder-delivery-competition-and-retention-v1-provenance.json",
+      "sha256": "1d1abd440fafc7c7f5fcebc025649e93eae65db8d33a4df7d85de0db4436174a",
+      "bytes": 2995,
+      "owner": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ownerSha256": "97920f73e69a489efb8965594795338b291ed068a3ac7590afb1e0bc3e494fa6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+          "sha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+          "sha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/labeled-binder-delivery-competition-and-retention-v1-independent-owner-review.json",
+      "sha256": "6c6a2748c4a2cae1aacffedb8dd955be2ed545908b30a5df1b7b6d0890f12430",
+      "bytes": 8480,
+      "owner": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ownerSha256": "97920f73e69a489efb8965594795338b291ed068a3ac7590afb1e0bc3e494fa6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+          "sha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+          "sha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/secretion-membrane-spots-and-controls-v1-provenance.json",
+      "sha256": "3d31bdc2c2ccf55f2160f161ae06baa3b384109847f4cb5d2ed5818855a5a089",
+      "bytes": 2585,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/elispot.md",
+      "ownerSha256": "879215797eba9f1dd759cb18a254619ac7d0c97c549c69b8ffee73939cae3e9b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-light.svg",
+          "sha256": "330cd03622856c79dd5ba3742f154e04090cd028cc60e8d67c9361da40e22f5b"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-dark.svg",
+          "sha256": "b03024677b75c00fa8fc8f879f2413a23bce1b14332c7d46b33dffbf765c5bf7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/secretion-membrane-spots-and-controls-v1-independent-owner-review.json",
+      "sha256": "b0fd69021c795b7125c5ebd02b849588cf2b5ebace8bd246fa893a17a414907f",
+      "bytes": 6501,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/elispot.md",
+      "ownerSha256": "879215797eba9f1dd759cb18a254619ac7d0c97c549c69b8ffee73939cae3e9b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-light.svg",
+          "sha256": "330cd03622856c79dd5ba3742f154e04090cd028cc60e8d67c9361da40e22f5b"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-dark.svg",
+          "sha256": "b03024677b75c00fa8fc8f879f2413a23bce1b14332c7d46b33dffbf765c5bf7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/retained-cytokines-stimulus-and-analysis-gate-v1-provenance.json",
+      "sha256": "6b86f27f322fa4b71366dd1f98b2317142fcce95b2ebe563692b13e03a9ef948",
+      "bytes": 2667,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+      "ownerSha256": "644fcdf708e2672038e45b2609a23dfdb0f01e9c3e84a78cede3d2aafba63143",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-light.svg",
+          "sha256": "2b47cc45d083b6352d08e68c518e7758366d909a3af09088f4835eff9893ec72"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-dark.svg",
+          "sha256": "e05b10d8ee4c5d549b8301b8aa3e8d0ee09003533f19dcf18d202b17b1745d97"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/retained-cytokines-stimulus-and-analysis-gate-v1-independent-owner-review.json",
+      "sha256": "d7c9037bfc26da472b865f0ec44d25c7ec8881dbfea8c1d530c6bb4941d483a3",
+      "bytes": 6737,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+      "ownerSha256": "644fcdf708e2672038e45b2609a23dfdb0f01e9c3e84a78cede3d2aafba63143",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-light.svg",
+          "sha256": "2b47cc45d083b6352d08e68c518e7758366d909a3af09088f4835eff9893ec72"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-dark.svg",
+          "sha256": "e05b10d8ee4c5d549b8301b8aa3e8d0ee09003533f19dcf18d202b17b1745d97"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peptide-hla-multimer-and-cell-receptor-v1-provenance.json",
+      "sha256": "6f13ae7e2171a2f04fe56ba27edcd7f91872491399cf26dad131573ec50c4b7f",
+      "bytes": 2643,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+      "ownerSha256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+          "sha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+          "sha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peptide-hla-multimer-and-cell-receptor-v1-independent-owner-review.json",
+      "sha256": "72788163de1e9da61b79003a32106fa354d9d832876138e00a9f5e4e8b3a4a60",
+      "bytes": 6686,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+      "ownerSha256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+          "sha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+          "sha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/density-interface-and-recovered-blood-fraction-v1-provenance.json",
+      "sha256": "2fc412af894b8848f566dea5975a01f5b09267c8e464fea33bf83b348f51a446",
+      "bytes": 2707,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+      "ownerSha256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+          "sha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+          "sha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/density-interface-and-recovered-blood-fraction-v1-independent-owner-review.json",
+      "sha256": "3344a4008d2b2a61c6a46925b176a69b45b3988fb0477502be3e40954dd6a089",
+      "bytes": 6688,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+      "ownerSha256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+          "sha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+          "sha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/richness-evenness-and-relative-enrichment-v1-provenance.json",
+      "sha256": "71f3c9a2b7598277e2924010202b8e367a5cb50eb443b2258a131a18162b17ca",
+      "bytes": 2713,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+      "ownerSha256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+          "sha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+          "sha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/richness-evenness-and-relative-enrichment-v1-independent-owner-review.json",
+      "sha256": "bc12087549110a798c046285e0fff0f67c68c348feab9f0df93e13739d3000d8",
+      "bytes": 6727,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+      "ownerSha256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+          "sha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+          "sha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a"
         }
       ],
       "contentClass": "source-owned-public-custody"

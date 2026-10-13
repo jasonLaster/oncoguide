@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-185",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+  "author": "agent:/root/batch07_author_group3",
+  "creativeAuthor": "agent:/root/batch07_author_group3",
+  "reviewer": "agent:/root/batch07_review_group3",
+  "independentReviewer": "agent:/root/batch07_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:35:45.946425+00:00",
+  "reviewedAtUTC": "2026-10-13T18:35:45.946425+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/271",
+  "frozenRowSHA256": "4f6e901389d12677f73b80ef44903fae9ea828792de99397a7504c4a34c5ea15",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "verifiedCanonicalPreimageCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Four paired peptide/HLA copies on a labeled scaffold contact receptors on a sampled T-cell surface, clearly separated from a tumor. Peptide P is an invented identifier; HLA-A*02:01 is a named illustrative allele. The drawing teaches multivalency/avidity without implying natural tumor processing/display, functional recognition or killing. Preserved denominator practice gives 1 percent of gated CD8 cells versus 0.25 percent of acquired viable cells.",
+    "frozenPageSHA256": "7c0d50e3bf673a7c67f392385fbb975c441c67ce82c64a953e2f7f50e418389b",
+    "baselinePageSHA256": "7c0d50e3bf673a7c67f392385fbb975c441c67ce82c64a953e2f7f50e418389b",
+    "learnerTask": "Recognize a paired peptide\u2013HLA multimer reagent rather than a tumor cell",
+    "gap": "No multivalent reagent/receptor drawing",
+    "accuracyGuardrails": "Specify the peptide, HLA allele and multivalent reagent rather than a tumor cell. Reagent binding/avidity is not evidence that tumor displays that pair or is recognized/killed functionally."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+      "sha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b",
+      "bytes": 4691,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+      "sha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc",
+      "bytes": 4691,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+        "sha256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+        "bytes": 8363
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+        "sha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b",
+        "bytes": 4691
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+        "sha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc",
+        "bytes": 4691
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peptide-hla-multimer-and-cell-receptor-v1.txt",
+        "sha256": "c5102d9d37391b2457a9e02304372cff5d0d5e132182fc80b2b7a0a2d44d3a1e",
+        "bytes": 2174
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peptide-hla-multimer-and-cell-receptor-v1-provenance.json",
+        "sha256": "6f13ae7e2171a2f04fe56ba27edcd7f91872491399cf26dad131573ec50c4b7f",
+        "bytes": 2643
+      }
+    ],
+    "currentCandidateOwnerSHA256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+    "currentCandidatePairBound": true,
+    "originalContentMetadataCitationsPracticeAndNavigationPreserved": true
+  },
+  "reviewBasis": {
+    "scope": "Current original independent scientific/math/native/fresh pinned-reader/task-fit review; prospective agent quality review only.",
+    "inputAuthorSealSHA256": "03fbabfa89495087516f51afbc7ac63cb34428e8cbd19cba6b81983b3bbbcc92",
+    "sourceReadingManifestSHA256": "3b1bd29734dd535d121648aac8bbd6555887b5cecd61d98cc9839f701d9d1632",
+    "pixelInspectionSHA256": "eff0ed61c82c609946a1c31139159efada31321953f2134d68be4dff5ab28e3d",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "readingQualification": "Selected primary/official text plus complete primary abstracts; full-paper reads, inherited historical approvals and supplements not claimed.",
+    "carrierLimits": "Exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater and SmartTableEnhancer with complete actual shared/app CSS. Isolated full-width education article; no app navigation/header/sidebar or external live data. Three literal Tailwind theme utility rules only.",
+    "focusReturn": "Known pinned limitation; not certified."
+  },
+  "method": "Original code SVG; no image model calls",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

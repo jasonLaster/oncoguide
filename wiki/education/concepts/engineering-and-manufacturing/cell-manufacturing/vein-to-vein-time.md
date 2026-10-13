@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cell-ma
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-09"
+updated: "2026-10-13"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -67,6 +67,12 @@ Also ask how many people started the pathway, how many received product and why 
 
 In a fictional workflow, cells are collected on day 0. Culture ends on day 7, release occurs on day 12 and infusion occurs on day 18.
 
+<img src="./images/collection-infusion-and-culture-clocks-v1-light.svg" alt="A fictional elapsed-day timeline runs from collection at day 0 to infusion at day 18. Its culture interval runs from day 0 to day 7; release is day 12. A separate fictional cohort contains 10 people who start collection, 8 who reach infusion, and 2 who never reach infusion." data-theme-pair />
+
+*The 7-day culture interval sits inside an 18-day collection-to-infusion interval. People never infused need a separate outcome.*
+
+The upper axis uses elapsed days, with proportional event positions at 0, 7, 12 and 18. For this invented example only, culture starts at collection and ends on day 7; other workflows can start culture later. The lower dots depict a separate invented cohort. Infused-only timing cannot assign an infusion duration to the two people never infused. Report the follow-up window and reasons separately; these counts and dates promise no turnaround time.
+
 **Try it:** Is vein-to-vein time seven days?
 
 **Answer:** No. It is 18 elapsed days for this example. Seven days describes the stated culture interval. The other steps remain part of the treatment calendar.
@@ -94,6 +100,9 @@ Source check: October 9, 2026; expert and learner review pending. The timeline i
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy) — collection, manufacture and treatment preparation.
 - [FDA final chimeric antigen receptor (CAR) T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — manufacturing logistics, failures and clinical-study considerations.
 - [Ghassemi et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30030295/) — shortened culture as one process change; it does not establish a universal end-to-end interval.
+
+
+Visual relationship check: October 13, 2026. The new illustration was checked against the relevant FDA CAR T-cell guidance sections; invented arithmetic is teaching data. Existing paper citations retain their stated scope. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

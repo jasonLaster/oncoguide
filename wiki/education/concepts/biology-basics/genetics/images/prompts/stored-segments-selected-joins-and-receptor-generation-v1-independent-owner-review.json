@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-168",
+  "owner": "wiki/education/concepts/biology-basics/genetics/vdj-recombination.md",
+  "author": "agent:/root/batch07_author_group1",
+  "creativeAuthor": "agent:/root/batch07_author_group1",
+  "reviewer": "agent:/root/batch07_review_group1",
+  "independentReviewer": "agent:/root/batch07_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:32:04.635180+00:00",
+  "reviewedAtUTC": "2026-10-13T18:32:04.635180+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "e228fe8628ac9553c0872b8d80c37d3bcd32a61898beef625c661f854527d69b",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/30",
+  "frozenRowSHA256": "d3705d8992c9ee7447dcce10905281a5e97803583d5ec0a853163a5601d61961",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "checkedCommittedPreimageAt": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Underlined V2/D1/J3 alternatives become linked DNA segments; the labeled VJ example lacks D. Developing-lymphocyte context and expression/selection/later encounter sequence distinguish receptor generation from antigen-directed design. Caption explains schematic counts and chain scope; original mixed-sample practice remains intact.",
+    "frozenPageSHA256": "5fbe2d3ee59eca8956dc6de48a4289bbf015ee265185c43cd38fdc6f26c1dc01",
+    "baselinePageSHA256": "5fbe2d3ee59eca8956dc6de48a4289bbf015ee265185c43cd38fdc6f26c1dc01",
+    "learnerTask": "Understand selection and joining of V/(D)/J segments as a physical receptor-gene assembly before selection and antigen encounter.",
+    "gap": "The current cut→repair→gene→selection sequence is useful, but stored choices and optional D remain only prose. A small segment-strip diagram can show multiple alternatives, selected joins and VJ versus VDJ without adding an image to each downstream immune page.",
+    "accuracyGuardrails": [
+      "Rearrangement occurs in developing lymphocytes; generation is not deliberate antigen targeting. Distinguish chain contexts and do not infer epithelial-cell recombination from a mixed-sample RAG variant."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-light.svg",
+      "sha256": "9c4a5340844825425e185205f823f447462ca0d4e550f6ecf1289a80171a4ec0",
+      "bytes": 6278,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-light.svg",
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-dark.svg",
+      "sha256": "fc6a4983e75dab5ba1151b39faecc6168c515f7ebb3f8c94082529c5a267f1e7",
+      "bytes": 6278,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-dark.svg",
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/vdj-recombination.md",
+        "sha256": "e228fe8628ac9553c0872b8d80c37d3bcd32a61898beef625c661f854527d69b",
+        "bytes": 8349
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-light.svg",
+        "sha256": "9c4a5340844825425e185205f823f447462ca0d4e550f6ecf1289a80171a4ec0",
+        "bytes": 6278
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/stored-segments-selected-joins-and-receptor-generation-v1-dark.svg",
+        "sha256": "fc6a4983e75dab5ba1151b39faecc6168c515f7ebb3f8c94082529c5a267f1e7",
+        "bytes": 6278
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/stored-segments-selected-joins-and-receptor-generation-v1.txt",
+        "sha256": "e8bef00c8608858578a243e2daa2ec65fd87c80973033747abae0330ff77d50d",
+        "bytes": 1785
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/stored-segments-selected-joins-and-receptor-generation-v1-provenance.json",
+        "sha256": "d63758cb45594ea053e6f6b56e8ee3d1b5d4ba1e9d237c29605c5e1d0f811ce1",
+        "bytes": 5236
+      }
+    ],
+    "currentCandidateOwnerSHA256": "e228fe8628ac9553c0872b8d80c37d3bcd32a61898beef625c661f854527d69b",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "64dee892b16e425577b4d7481d6a25c4b390d37ca75f256e7944d57e41e3fe31",
+    "exactFivePublicFiles": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, arithmetic, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Complete official abstracts plus bounded official docs and selected ICD/model-paper sections; no invented complete-paper/figure/method reading.",
+    "freshCaptureCountForOwner": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated pinned full-width article/frame/theater/table-enhancer and actual CSS; no live site navigation, sidebar or external data. Transparent margins/gutters show dim underlying content; essential content is on opaque semantic panels. Focus returns BODY after Escape in one-owner probe across both themes/viewports. No complete a11y or touch certification."
+  },
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

@@ -1,0 +1,7 @@
+ORIGINAL CODE-SVG INTENT
+Creator: agent:/root/batch07_author_group2
+Created: 2026-10-13T18:16:58.068633+00:00
+Learner task: Distinguish enrichment, expansion and activation using counts and fractions.
+Independent fictional examples, in millions of viable cells: a starting mixture of 20 intended and 80 other cells is 20 percent intended; enrichment retains 20 intended and 5 other cells, giving 80 percent intended without an increase in intended cells. A separate culture expands a defined viable population from 20 to 100 million, giving five-fold expansion. Activation and killing require separate measurements.
+The first two bars share one scale: each full width represents 100 million viable cells. Teal is the intended population and amber is other cells. The enriched population has fewer other cells, not more intended cells. The lower example is a separate culture, measured on the same viable-cell basis at start and end. No culture duration or growth rate is implied. Activation state and target-cell killing are not supplied by these counts.
+Style: transparent-margin/gutter600x780 source-codeSVG pair with filled semantic content cards, system-ui text minimum34px, teal donor/intended/live subset, amber recipient/other/recoverednonlive as named locally, gray nonlive/missing as named locally. Same positions and object identities in light/dark; theme palette only. Readable native and actual pinned reader393x700 inline/defaultpreview. No universal criteria, protocol, clinical advice, eligibility or safety ranking. Model null; imagegenerationcalls0.

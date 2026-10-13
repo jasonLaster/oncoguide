@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-education-visual",
+  "author": "agent:/root/batch07_author_group3",
+  "integrator": "Root",
+  "createdAtUTC": "2026-10-13T18:13:46.838097+00:00",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original SVG source authored through a private Python drawing script; no generated bitmap and no traced/reproduced source figure",
+  "learnerTask": "Recognize a paired peptide\u2013HLA multimer reagent rather than a tumor cell",
+  "inferenceGuardrails": "Specify the peptide, HLA allele and multivalent reagent rather than a tumor cell. Reagent binding/avidity is not evidence that tumor displays that pair or is recognized/killed functionally.",
+  "sourcePreimageSHA256": "7c0d50e3bf673a7c67f392385fbb975c441c67ce82c64a953e2f7f50e418389b",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8810254/",
+      "readBounds": "1996 metadata and complete abstract through Europe PMC core API; paired HLA-A2/peptides and multimerization; 2006 production-method abstract PMID17187819; no full-text methods read",
+      "checkedDate": "2026-10-13"
+    }
+  ],
+  "files": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+      "sha256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+      "bytes": 8363
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+      "sha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b",
+      "bytes": 4691
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+      "sha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc",
+      "bytes": 4691
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peptide-hla-multimer-and-cell-receptor-v1.txt",
+      "sha256": "c5102d9d37391b2457a9e02304372cff5d0d5e132182fc80b2b7a0a2d44d3a1e",
+      "bytes": 2174
+    }
+  ],
+  "fictionalData": true,
+  "reviewStatus": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "human": "pending"
+  },
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "deliveryCredit": 0,
+  "liveApproval": false,
+  "graphicsRevision": {
+    "dateUTC": "2026-10-13T18:24:07.995600+00:00",
+    "reason": "Personal native inspection: arrow/heading overlap, TCR chart unit-scale mismatch and exterior theme labels required graphical corrections. No new biological claims or protocol."
+  }
+}

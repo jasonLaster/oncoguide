@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="850" viewBox="0 0 480 850" role="img" aria-labelledby="title desc"><title id="title">Describe several measured programs together; test the relevant function separately.</title><desc id="desc">Invented 24-hour macrophage RNA program scores compare profiles A and B on interferon, lipid handling and antigen-display axes. Several programs coexist; a program score is neither an independent control nor a measured function.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#9bafc2"/></marker></defs>
+<rect x="4" y="8" width="472" height="134" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<rect x="4" y="170" width="472" height="585" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<rect x="4" y="763" width="472" height="85" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<text x="20" y="38" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Several programs at once</text>
+<text x="20" y="92" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Fictional cultured macrophages</text>
+<text x="20" y="127" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">RNA scores at 24 hours</text>
+<text x="20" y="188" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Selected program scores</text>
+<text x="20" y="235" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="400">0–1, arbitrary normalized units</text>
+<text x="20" y="270" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="400">Same scoring method for A / B</text>
+<path d="M91 330 C83 295, 126 281, 155 300 C175 317, 170 363, 135 365 C91 373, 81 350, 91 330Z" fill="#1c3044" stroke="#62d6d1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="126" cy="330" r="10" fill="#62d6d1" stroke="#62d6d1" stroke-width="2"/>
+<path d="M319 330 C311 295, 354 281, 383 300 C403 317, 398 363, 363 365 C319 373, 309 350, 319 330Z" fill="#1c3044" stroke="#c1a4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="354" cy="330" r="10" fill="#c1a4ff" stroke="#c1a4ff" stroke-width="2"/>
+<text x="126" y="402" font-family="Arial, sans-serif" font-size="28" fill="#62d6d1" text-anchor="middle" font-weight="700">Profile A</text>
+<text x="354" y="402" font-family="Arial, sans-serif" font-size="28" fill="#c1a4ff" text-anchor="middle" font-weight="700">Profile B</text>
+<text x="20" y="439" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Interferon</text>
+<rect x="24" y="456" width="185" height="29" rx="8" fill="#1c3044" stroke="#9bafc2" stroke-width="2"/>
+<rect x="24" y="456" width="148.0" height="29" rx="4" fill="#62d6d1" stroke="#62d6d1" stroke-width="2"/>
+<text x="116" y="515" font-family="Arial, sans-serif" font-size="28" fill="#62d6d1" text-anchor="middle" font-weight="700">0.80</text>
+<rect x="252" y="456" width="185" height="29" rx="8" fill="#1c3044" stroke="#9bafc2" stroke-width="2"/>
+<rect x="252" y="456" width="83.25" height="29" rx="4" fill="#c1a4ff" stroke="#c1a4ff" stroke-width="2"/>
+<text x="344" y="515" font-family="Arial, sans-serif" font-size="28" fill="#c1a4ff" text-anchor="middle" font-weight="700">0.45</text>
+<text x="20" y="550" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Lipid handling</text>
+<rect x="24" y="567" width="185" height="29" rx="8" fill="#1c3044" stroke="#9bafc2" stroke-width="2"/>
+<rect x="24" y="567" width="64.75" height="29" rx="4" fill="#62d6d1" stroke="#62d6d1" stroke-width="2"/>
+<text x="116" y="626" font-family="Arial, sans-serif" font-size="28" fill="#62d6d1" text-anchor="middle" font-weight="700">0.35</text>
+<rect x="252" y="567" width="185" height="29" rx="8" fill="#1c3044" stroke="#9bafc2" stroke-width="2"/>
+<rect x="252" y="567" width="157.25" height="29" rx="4" fill="#c1a4ff" stroke="#c1a4ff" stroke-width="2"/>
+<text x="344" y="626" font-family="Arial, sans-serif" font-size="28" fill="#c1a4ff" text-anchor="middle" font-weight="700">0.85</text>
+<text x="20" y="661" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Antigen display</text>
+<rect x="24" y="678" width="185" height="29" rx="8" fill="#1c3044" stroke="#9bafc2" stroke-width="2"/>
+<rect x="24" y="678" width="120.25" height="29" rx="4" fill="#62d6d1" stroke="#62d6d1" stroke-width="2"/>
+<text x="116" y="737" font-family="Arial, sans-serif" font-size="28" fill="#62d6d1" text-anchor="middle" font-weight="700">0.65</text>
+<rect x="252" y="678" width="185" height="29" rx="8" fill="#1c3044" stroke="#9bafc2" stroke-width="2"/>
+<rect x="252" y="678" width="101.75000000000001" height="29" rx="4" fill="#c1a4ff" stroke="#c1a4ff" stroke-width="2"/>
+<text x="344" y="737" font-family="Arial, sans-serif" font-size="28" fill="#c1a4ff" text-anchor="middle" font-weight="700">0.55</text>
+<text x="20" y="781" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Measured scores, not switches.</text>
+<text x="20" y="816" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Markers do not prove function.</text>
+</svg>

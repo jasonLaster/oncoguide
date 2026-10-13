@@ -31,6 +31,13 @@ Imagine building many different keys from a shared box of parts. Developing lymp
 
 ## How it works: from gene pieces to a receptor
 
+<img src="./images/stored-segments-selected-joins-and-receptor-generation-v1-light.svg" alt="Selected V2, D1 and J3 gene segments form a VDJ receptor-gene join in a developing lymphocyte; a separate VJ example has no D segment. Expression and selection precede later antigen encounter." data-theme-pair />
+
+*Choose and join receptor-gene pieces before asking what the finished receptor recognizes.*
+
+The colored strips show a **simplified gene-assembly example**, not the number or spacing of real segments. Underlining marks the selected alternatives: V2, D1 and J3. RAG-mediated cutting and repair-mediated joining make a rearranged DNA sequence; joining can also change bases at the boundaries. The second strip contrasts a VJ chain, which has no D segment. These chain examples are antibody heavy/TCR beta versus antibody light/TCR alpha, rather than a claim about every receptor chain. Expression, developmental selection and later antigen encounter are separate steps. [Official chain definitions](https://scirpy.scverse.org/en/latest/glossary.html#v-d-j)
+
+
 The letters mean **variable (V), diversity (D) and joining (J)**. These segments sit in receptor-gene regions of DNA, deoxyribonucleic acid. Antibody heavy chains and conventional T-cell receptor beta chains use V, D and J segments. Antibody light chains and T-cell receptor alpha chains use V and J. The parentheses remind us that a D segment is not part of every chain. [Official chain definitions](https://scirpy.scverse.org/en/latest/glossary.html#v-d-j)
 
 Proteins encoded by **recombination-activating genes 1 and 2 (RAG1 and RAG2)** recognize nearby DNA signs called **recombination signal sequences**. The RAG complex cuts DNA at the boundaries between a chosen coding segment and its signal. The reaction creates hairpin-shaped coding ends and separate signal ends. Purified RAG proteins reproduced these cutting steps in biochemical experiments. [McBlane et al. 1995](https://doi.org/10.1016/0092-8674(95)90116-7)

@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and
 used_by: []
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-10"
+updated: "2026-10-13"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -70,6 +70,12 @@ These examples are not a product's acceptance specification. [A COA](/wiki/educa
 
 In a fictional laboratory teaching sample, 100 counted cells include 80 live cells. Of those 80 live cells, 60 express the intended receptor. The live fraction is 80%; receptor positivity among live cells is 75%. The 60 live receptor-positive cells are 60% of all counted cells. These are different denominators, not three conflicting results.
 
+<img src="./images/nested-live-and-receptor-positive-denominators-v1-light.svg" alt="A fictional 100-cell sample contains 80 live cells, including 60 live receptor-positive cells and 20 other live cells; 20 cells are nonlive. The three percentages are 60 over 80 equals 75 percent receptor positivity among live cells, 80 over 100 equals 80 percent viability, and 60 over 100 equals 60 percent live receptor-positive cells among all counted cells." data-theme-pair />
+
+*All three percentages are correct because they count different sets.*
+
+Each dot is one counted cell in an invented sample. The teal block contains 60 live receptor-positive cells; amber contains 20 other live cells; gray contains 20 nonlive cells. The live bracket contains the first two blocks. Receptor status of the nonlive cells is not specified. These counts describe expression and viability under stated gates; they provide neither a potency result nor authorization to release the lot.
+
 **Try it:** Does this establish potency or a complete release decision?
 
 <details><summary>One possible answer</summary>
@@ -105,6 +111,9 @@ Source check: October 10, 2026. General cell-product quality education, with chi
 - [FDA: CAR T-cell product-development guidance, January 2024](https://www.fda.gov/media/156896/download), analytical testing, microbiological controls and in-use stability sections.
 - [FDA: potency tests for cellular and gene therapy products, January 2011](https://www.fda.gov/media/79856/download), product-specific potency testing and acceptance-criteria limits.
 - [FDA: gene-therapy CMC information for investigational applications, January 2020](https://www.fda.gov/media/113760/download), product control and stability sections.
+
+
+Visual relationship check: October 13, 2026. The new illustration was checked against the relevant FDA CAR T-cell guidance sections; invented arithmetic is teaching data. Existing paper citations retain their stated scope. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

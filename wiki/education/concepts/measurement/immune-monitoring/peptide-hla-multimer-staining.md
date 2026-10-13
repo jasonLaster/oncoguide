@@ -37,6 +37,14 @@ The peptide sequence and HLA allele define what was tested. A mismatched allele 
 
 Staining can be combined with cell-state markers or receptor sequencing. That links a binding observation to the sampled cell's identity. It still does not prove functional activation, persistence or recognition of naturally processed antigen on cancer cells.
 
+### Read the visual
+
+<img src="./images/peptide-hla-multimer-and-cell-receptor-v1-light.svg" alt="A labeled scaffold carries four schematic copies of peptide P held by HLA-A*02:01. Two copies contact receptors on a sampled T cell, showing multivalent attachment. An identity key distinguishes peptide, HLA and label; binding does not show that tumor cells naturally display that pair or are killed. Peptide P is invented." data-theme-pair="./images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg" />
+
+*Multimer binding belongs to the specified peptide–HLA reagent and assay conditions.*
+
+Peptide P is an invented identifier, and HLA-A*02:01 is the named example allele. Each purple holder carries the same orange peptide. Multiple copies attach to the labeled scaffold, helping the reagent remain associated with matching receptors through multivalent contact, or avidity. This reagent is not a tumor cell. An observed stain identifies binding under the tested conditions; it does not show natural processing and display of that pair by a tumor. Functional activation and target-cell killing need suitable, separate tests. [Altman primary tetramer study](https://pubmed.ncbi.nlm.nih.gov/8810254/).
+
 ## Why it matters in cancer
 
 Multimers can help count or isolate candidate antigen-reactive cells in a vaccine or receptor-discovery experiment. They are most informative when used alongside controlled functional studies. Different assays answer neighboring questions; agreement helps connect the chain, while disagreement can reveal a missing step.

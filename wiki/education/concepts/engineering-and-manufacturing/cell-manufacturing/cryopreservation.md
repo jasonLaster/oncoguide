@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-09"
+updated: "2026-10-13"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -69,6 +69,12 @@ The sample timing matters. A primary study by Wang and colleagues found that fun
 
 A fictional sample starts with 100 million viable cells. After thaw, 80 million total cells are recovered and 90% test viable.
 
+<img src="./images/recovered-viability-and-input-recovery-v1-light.svg" alt="Fictional counts in millions: 100 viable cells before freezing, 80 total recovered after thaw, consisting of 72 live and 8 nonlive. Viability is 72 divided by 80, or 90 percent; viable recovery is 72 divided by 100, or 72 percent." data-theme-pair />
+
+*The same 72 million live cells can be 90% of what was recovered and 72% of what went in.*
+
+Each dot stands for one million cells in this invented counting example. Teal dots are recovered live cells; amber dots are recovered nonlive cells; outlined dots represent input cells not recovered in the count. They do not identify the mechanism of loss. The two bars change the denominator while keeping 72 million recovered live cells as the numerator. Neither bar measures potency.
+
 **Try it:** Is viable recovery 90%?
 
 **Answer:** No. There are 72 million recovered viable cells, giving 72% viable recovery relative to the stated input. The 90% value is viability among recovered cells. Neither number proves useful tumor recognition.
@@ -97,6 +103,9 @@ Source check: October 9, 2026; expert and learner review pending. This is not a 
 - [Panch et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31178392/) — primary study of autologous CAR T-cell cryopreservation.
 - [Wang et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30910382/) — product-specific post-thaw functional-assay conditions.
 - [FDA final CAR T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — preservation, shipping, stability and in-use handling.
+
+
+Visual relationship check: October 13, 2026. The new illustration was checked against the relevant FDA CAR T-cell guidance sections; invented arithmetic is teaching data. Existing paper citations retain their stated scope. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

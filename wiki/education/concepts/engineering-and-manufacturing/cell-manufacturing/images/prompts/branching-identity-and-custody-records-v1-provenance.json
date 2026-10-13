@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-educational-code-svg",
+  "creator": "agent:/root/batch07_author_group2",
+  "actualCreativeRole": "agent:/root/batch07_author_group2",
+  "createdAtUTC": "2026-10-13T18:16:58.068633+00:00",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+  "prospectiveTaskId": "next-gap-176",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original hand-authored SVG source through private Python serializer",
+  "originalIntentFile": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/branching-identity-and-custody-records-v1.txt",
+  "originalIntentSHA256": "a4a1e0e2f3fe197e9e60b3b080c2b2c1d2dca55f4c2b1a01f053376a53f0a9f4",
+  "sourcePreimageSHA256": "a9937ba5103bc7128ea65d7812fae9b6a46e2bc4d970a2d18e73f82dbe91a525",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-light.svg",
+      "sha256": "93ee957d57d80192a6d804640fd751ff7602fad683944a4eb420e1a28842fef6",
+      "bytes": 4719
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-dark.svg",
+      "sha256": "8e9db57503bd304958f1a24238cbcb1c67fcbbebb600a1dda8fc5b0a5c21cb32",
+      "bytes": 4719
+    }
+  ],
+  "independentPeer": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "liveApproval": false,
+  "authorDisplayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "393x700",
+      "1440x1000"
+    ],
+    "nativeSize": "600x780",
+    "minEssentialMobileInlinePx": 19.77578125,
+    "minEssentialMobileDefaultPreviewPx": 19.55,
+    "inspection": "Actual named creative author personally inspected original light/dark native and inline/default-preview PNGs. Author check only; independent peer and human review pending.",
+    "transparentBackground": "SVGoutermargin/gutters transparent;theme-colored semanticcards support readabletheaterpreview."
+  }
+}

@@ -31,6 +31,13 @@ The analogy has limits: inflammation has many triggers, locations and time cours
 
 ## How it works
 
+<img src="./images/signals-vessels-and-recruited-cells-v1-light.svg" alt="A tissue cross-section locates a blood vessel, recruited white cells, fluid and proteins, and signals near damaged tissue. The response can support containment and repair or persist and injure; permeability is not angiogenesis." data-theme-pair />
+
+*Locate signals, vessel changes and responders before interpreting whether inflammation helps.*
+
+Locate the compartments before reading the outcome. Local signals near injured or stressed tissue can affect a nearby vessel and recruit circulating cells. The arrow across the vessel wall depicts **cell entry**, while the separate fluid/protein arrow depicts increased permeability. It does not depict a new vessel growing. Responders may support containment and repair; persistent signaling may accompany further injury. The sketch is schematic, with no measured time course or inevitable outcome, and infection is only one possible trigger. None of these tissue changes establishes tumor-specific recognition or useful cancer control. [Inflammation physiology](https://pubmed.ncbi.nlm.nih.gov/18650913/)
+
+
 Cells sense infection, injury and stress through several pathways, including [pattern-recognition receptors](/wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps). Infection is one trigger. **Sterile inflammation** develops without an initiating infection, for example after some forms of tissue injury.
 
 Local cells release signaling molecules. [Cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) can change nearby cell behavior and recruit white blood cells. Blood vessels can change permeability and cell trafficking, allowing fluid, proteins and responders into tissue. Heat, swelling, redness or pain may accompany this process, but a sampled molecular program and a person's symptoms are different observations.

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-172",
+  "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+  "author": "agent:/root/batch07_author_group1",
+  "creativeAuthor": "agent:/root/batch07_author_group1",
+  "reviewer": "agent:/root/batch07_review_group1",
+  "independentReviewer": "agent:/root/batch07_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:32:04.635180+00:00",
+  "reviewedAtUTC": "2026-10-13T18:32:04.635180+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "7492bd4463f60d6452b43ed7f128eb459bc3a8108e1d20e5af54456cecdbe81d",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/214",
+  "frozenRowSHA256": "281c2ef1a25a588463bc7fdfced9dc56bc94933053e6f7f899adaadeb917e723",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "checkedCommittedPreimageAt": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Equal-length tracks show fictional expression-program scores for profiles A/B using one 0–1 normalized method at 24 hours. Coexisting interferon, lipid-handling and antigen-display programs replace a binary state diagram. Caption and artwork distinguish scores from function, cell fractions and independent controls; repeated samples do not imply same-cell conversion.",
+    "frozenPageSHA256": "fbd9b3787dd2068bf0fd5bb62471e7c2a0f136c3f8f621fd4da7e61e3f616f2d",
+    "baselinePageSHA256": "fbd9b3787dd2068bf0fd5bb62471e7c2a0f136c3f8f621fd4da7e61e3f616f2d",
+    "learnerTask": "Compare several measured macrophage programs without sorting cells into permanent M1-good/M2-bad boxes.",
+    "gap": "The reading-sequence map identifies context but does not show the multidimensional mixer analogy. A small explicitly fictional program matrix or slider comparison would explain coexisting activities and separate state from lineage.",
+    "accuracyGuardrails": [
+      "Axes are selected measured programs, not independent freely adjustable controls.",
+      "Use fictional profiles without universal M1/M2 cutoffs.",
+      "Changing proportions does not establish conversion of the same cells."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+      "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+      "bytes": 5547,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+      "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+      "bytes": 5547,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+        "sha256": "7492bd4463f60d6452b43ed7f128eb459bc3a8108e1d20e5af54456cecdbe81d",
+        "bytes": 8996
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+        "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+        "bytes": 5547
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+        "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+        "bytes": 5547
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/coexisting-macrophage-programs-v1.txt",
+        "sha256": "70d4a6901372c1238e0e3b93a739bb4e1dc29277dbb4edd65f45c8efe55705cb",
+        "bytes": 2052
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/coexisting-macrophage-programs-v1-provenance.json",
+        "sha256": "7b0eb2f9f61da56829494ead09ce49aa67bc8e32027817e7d459c802ec8a74d3",
+        "bytes": 4850
+      }
+    ],
+    "currentCandidateOwnerSHA256": "7492bd4463f60d6452b43ed7f128eb459bc3a8108e1d20e5af54456cecdbe81d",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "64dee892b16e425577b4d7481d6a25c4b390d37ca75f256e7944d57e41e3fe31",
+    "exactFivePublicFiles": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, arithmetic, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Complete official abstracts plus bounded official docs and selected ICD/model-paper sections; no invented complete-paper/figure/method reading.",
+    "freshCaptureCountForOwner": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated pinned full-width article/frame/theater/table-enhancer and actual CSS; no live site navigation, sidebar or external data. Transparent margins/gutters show dim underlying content; essential content is on opaque semantic panels. Focus returns BODY after Escape in one-owner probe across both themes/viewports. No complete a11y or touch certification."
+  },
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

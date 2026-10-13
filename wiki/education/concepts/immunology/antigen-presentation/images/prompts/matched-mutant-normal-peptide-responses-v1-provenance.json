@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "creator": "agent:/root/batch07_author_group1",
+  "receipt": {
+    "author": "agent:/root/batch07_author_group1"
+  },
+  "model": null,
+  "imageGenerationCalls": 0,
+  "createdAtUTC": "2026-10-13T18:18:14.016491+00:00",
+  "task": "next-gap-170",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+  "sourcePreimageSHA256": "bfa9108a1361a39b84635c654b8c55b514d67a9b86a102bc95cd01180ca4e17f",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "currentSourceCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "medium": "hand-authored SVG source code",
+  "geometry": "480x850; transparent canvas margins/gutters; opaque theme-colored semantic panels keep original text legible in the unchanged dark theater; all labels >=28 source px; theme geometry identical",
+  "fictionalData": true,
+  "assignedFiles": [
+    "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+    "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-dark.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/prompts/matched-mutant-normal-peptide-responses-v1.txt",
+    "wiki/education/concepts/immunology/antigen-presentation/images/prompts/matched-mutant-normal-peptide-responses-v1-provenance.json"
+  ],
+  "assets": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+      "sha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2",
+      "bytes": 5783
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-dark.svg",
+      "sha256": "37d75662d4a46f85dc4a648fa60a3ae67ba0b3c1ec291f909b3400fe768946e5",
+      "bytes": 5783
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/matched-mutant-normal-peptide-responses-v1.txt",
+      "sha256": "164531f2c2f10ca308cbe42c535672a56341dc2a81db575141577d75d888ae21",
+      "bytes": 2045
+    }
+  ],
+  "sourceScope": "General public education only; exact owner metadata checked before body; no signed-care or sensitive source bodies read",
+  "review": {
+    "independentReviewer": "prospective agent:/root/batch07_review_group1",
+    "independentReviewPerformed": false,
+    "humanExpertReview": "pending",
+    "learnerReview": "pending"
+  },
+  "release": {
+    "canonical187": "pending",
+    "adoption": "pending",
+    "liveApproval": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  },
+  "scopeLimits": [
+    "Invented response curves must be labeled fictional and assay-specific.",
+    "Artificial loading leaves natural processing open.",
+    "No universal identity, concentration or patient-safety threshold."
+  ],
+  "authoringStartSourceCommit": "90730c2373cf82c51b17270a6c02086d94d07bcf",
+  "sourcePlanningCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "code": {
+    "language": "Python-authored original SVG XML",
+    "sha256": "1d83eda6baf834113b1d15c035bd5350394785cc8c6469070920371435f464c2",
+    "geometryFunctions": "vdj, icd, tolerance, gamma, macro, inflam, binding"
+  },
+  "sourcesCheckedAtUTC": "2026-10-13T18:23:04.178192+00:00",
+  "sourceReadBounds": [
+    {
+      "key": "cameron",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23926201/",
+      "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23926201&resultType=core&format=json",
+      "kind": "primary experiment abstract",
+      "readBounds": "Title, bibliographic metadata and complete abstractText from official EuropePMC core record; no full methods or original figures inspected.",
+      "supported": "Broader receptor cross-reactivity despite favorable preclinical screening; invented chart not source data."
+    }
+  ],
+  "authorChecks": {
+    "scope": "Author inspection only, not independent scientific or pixel PASS",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "480x850 native contextual background",
+      "393x700 mobile inline and default preview",
+      "1440x1000 desktop inline and default preview"
+    ],
+    "minSourceLabelPx": 28,
+    "minMobileInlineLabelPx": 20.357421875,
+    "minMobileDefaultPreviewLabelPx": 19.896470588235292,
+    "nativeClippedLabelCount": 0,
+    "actualThemeSourcesVerified": true,
+    "transparentCanvas": "Transparent margins and gutters; discrete opaque semantic panels behind content for the actual theater contrast",
+    "independentReviewPending": true
+  }
+}

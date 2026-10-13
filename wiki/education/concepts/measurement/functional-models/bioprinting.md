@@ -45,6 +45,14 @@ Kolesky and colleagues combined cell-containing inks with a removable **sacrific
 
 Bioprinting describes **fabrication**. A [tumor-on-chip](./tumor-on-chip) describes an engineered culture device and its controlled conditions. They can combine. Yi and colleagues reported a printed glioblastoma-on-chip with tumor cells, endothelial cells and brain-derived matrix material. That particular research model does not validate every printed tumor as a personal treatment selector. [Primary study abstract](https://www.nature.com/articles/s41551-019-0363-x).
 
+### Read the visual
+
+<img src="./images/printed-plan-construct-and-channel-checks-v1-light.svg" alt="Three stages show planned cell-containing ink and a temporary channel path, a constructed gel with an empty channel, then separate geometry, cell-health, flow and barrier checks. A lined channel is shown beside a bare channel; neither the plan nor a channel alone proves an organ or clinical prediction." data-theme-pair="./images/printed-plan-construct-and-channel-checks-v1-dark.svg" />
+
+*A channel path, a finished construct and measured biological function are different pieces of evidence.*
+
+Follow the same blue cell-containing material and orange channel path through the drawing. The design tells the printer where to place them. The finished gel must be inspected: material can shift and cells can remodel it. Removing a temporary ink leaves a channel; lining it, establishing fluid flow and measuring a barrier are separate observations. In Kolesky’s engineered tissues, these later checks supported specific channel functions. They did not turn printing into proof of a whole organ or patient benefit. [Kolesky primary study, fabrication and barrier checks](https://lewisgroup.seas.harvard.edu/sites/g/files/omnuum11526/files/lewis-lab/files/three-dimensional_bioprinting_of_thick_vascularized_tissues.pdf).
+
 ## Why it matters in cancer
 
 A planned layout lets researchers ask whether distance, cell arrangement or a material changes a response. Comparing the same cells in different controlled layouts can investigate environmental contributions that a tumor-only flat culture omits. More detailed fabrication also introduces more variables. If matrix composition and cell arrangement both change, an observed difference cannot automatically be attributed to arrangement.

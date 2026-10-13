@@ -49,6 +49,14 @@ flowchart TD
 
 Preparing PBMCs is a sample-processing step. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry), [intracellular cytokine staining](/wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining) and [enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot) then ask different questions of that material.
 
+### Read the visual
+
+<img src="./images/density-interface-and-recovered-blood-fraction-v1-light.svg" alt="A conceptual density-separated blood tube shows plasma above a recovered mononuclear-cell interface, density medium below it, and red cells with many conventional granulocytes near the bottom. A separate recovered mixture contains lymphocytes and monocytes with possible contaminants. It samples blood, not tumor or lymph node." data-theme-pair="./images/density-interface-and-recovered-blood-fraction-v1-dark.svg" />
+
+*PBMC preparation selects a recoverable blood fraction whose composition still needs checking.*
+
+The narrow interface is the fraction collected in this common density-separation approach. Lymphocytes and monocytes concentrate there; red cells and many conventional granulocytes separate lower down. Platelets and other contaminants can remain, including low-density granulocytes in some samples. Check recovery, viability and population composition before assigning aliquots to an assay. The tube drawing is a compartment map, not a processing protocol. Even a clean recovered blood fraction does not sample tumor tissue or provide a complete immune census. [Official density-separation principle handbook](https://cdn.cytivalifesciences.com/api/public/content/digi-16156-pdf).
+
 ## Why it matters in cancer
 
 Repeated blood sampling can support immune monitoring without repeatedly obtaining tumor tissue. But blood and tumor are different compartments. A blood response may not reach the cancer; an important tumor-localized response may be missed in blood.

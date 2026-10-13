@@ -1,0 +1,10 @@
+Original code-SVG intent brief
+Author: agent:/root/batch07_author_group1
+Task: next-gap-171
+Learner task: Distinguish a subset-specific native recognition contact from an added CAR binding its own surface target.
+Design: original 480×850 SVG with transparent margins/gutters and discrete theme-colored semantic panels, paired native light/dark colors, identical biological geometry and data. All visible labels are at least 28 native pixels; actual carrier readability requires verification.
+Alt: Subset-limited Vγ9Vδ2 contact shows BTN2A1 engaging native TCR with BTN3A1-linked target-cell phosphoantigen sensing, and a separate engineered contact shows a CAR binding its surface target X.
+Caption: A native subset-specific contact and an added CAR have different target requirements.
+Teaching details: The upper contact is a **Vγ9Vδ2 example**: BTN2A1 directly engages part of the native receptor, while BTN3A1 participates in linking target-cell phosphoantigens to activation. The dashed contact denotes additional receptor engagement in a simplified mechanism, rather than a resolved atomic structure. The small metabolites are inside the target-cell compartment; they are not a free peptide in an HLA groove. The lower contact asks a separate question: does an added CAR have its own surface target X? Native recognition varies across subsets, including Vδ1, and either route still needs activation and function tests. [Rigau et al.: molecular evidence](https://pubmed.ncbi.nlm.nih.gov/31919129/)
+Guards: ['Label the depicted Vγ9Vδ2 example; do not generalize it to Vδ1 or every gamma-delta TCR.', 'Phosphoantigen recognition is not a free metabolite in a conventional peptide-HLA groove.', 'HLA independence and useful native killing are not universal; added CAR needs its own target.']
+No generated raster assets or image-model calls. No review or release claim.

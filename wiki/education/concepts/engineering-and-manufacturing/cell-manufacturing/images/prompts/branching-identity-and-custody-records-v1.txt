@@ -1,0 +1,7 @@
+ORIGINAL CODE-SVG INTENT
+Creator: agent:/root/batch07_author_group2
+Created: 2026-10-13T18:16:58.068633+00:00
+Learner task: Track identity relationships across split lots and samples while separately checking handoffs.
+A fictional source A and intended recipient A are linked to collection A, lot A, two doses A1 and A2, and test sample S. A separate custody lane records collection-site to manufacturer to clinic handoffs. Recipient matching, quality review and administration or other disposition remain separate checks.
+Trace the teal lines from collection A to lot A, then to each dose and sample. The amber lane answers who held material at each transfer. Its entries must point to the same material records. A complete transfer history alone establishes neither the intended recipient match nor a released product.
+Style: transparent-margin/gutter600x780 source-codeSVG pair with filled semantic content cards, system-ui text minimum34px, teal donor/intended/live subset, amber recipient/other/recoverednonlive as named locally, gray nonlive/missing as named locally. Same positions and object identities in light/dark; theme palette only. Readable native and actual pinned reader393x700 inline/defaultpreview. No universal criteria, protocol, clinical advice, eligibility or safety ranking. Model null; imagegenerationcalls0.

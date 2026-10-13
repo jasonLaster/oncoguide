@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="850" viewBox="0 0 480 850" role="img" aria-labelledby="title desc"><title id="title">A sequence difference does not guarantee a selective receptor response.</title><desc id="desc">Invented loaded-peptide concentration-response chart: at the same 1, 10, 100 and 1000 nanomolar concentrations, one receptor responds to both mutant and normal peptides after 24 hours. Natural processing and clinical safety remain untested.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#9bafc2"/></marker></defs>
+<rect x="4" y="8" width="472" height="166" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<rect x="4" y="192" width="472" height="522" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<rect x="4" y="727" width="472" height="121" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<text x="20" y="38" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Same concentration,</text>
+<text x="20" y="73" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">different receptor responses</text>
+<text x="20" y="124" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Fictional loaded-peptide assay</text>
+<text x="20" y="159" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Same HLA; 24-hour readout</text>
+<text x="20" y="214" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">% activated responder cells</text>
+<path d="M70 260V520H438" fill="none" stroke="#9bafc2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="54" y="529" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="end" font-weight="400">0</text>
+<path d="M70 520H438" fill="none" stroke="#9bafc2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<text x="54" y="404" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="end" font-weight="400">50</text>
+<path d="M70 395H438" fill="none" stroke="#9bafc2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<text x="54" y="279" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="end" font-weight="400">100</text>
+<path d="M70 270H438" fill="none" stroke="#9bafc2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<path d="M105 520v8" fill="none" stroke="#9bafc2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="105" y="562" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="middle" font-weight="400">1</text>
+<path d="M205 520v8" fill="none" stroke="#9bafc2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="205" y="562" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="middle" font-weight="400">10</text>
+<path d="M305 520v8" fill="none" stroke="#9bafc2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="305" y="562" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="middle" font-weight="400">100</text>
+<path d="M405 520v8" fill="none" stroke="#9bafc2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="405" y="562" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="middle" font-weight="400">1000</text>
+<path d="M105 507.5L205 450.0L305 345.0L405 295.0" fill="none" stroke="#8ebdff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="105" cy="507.5" r="6" fill="#8ebdff" stroke="#8ebdff" stroke-width="2"/>
+<circle cx="205" cy="450.0" r="6" fill="#8ebdff" stroke="#8ebdff" stroke-width="2"/>
+<circle cx="305" cy="345.0" r="6" fill="#8ebdff" stroke="#8ebdff" stroke-width="2"/>
+<circle cx="405" cy="295.0" r="6" fill="#8ebdff" stroke="#8ebdff" stroke-width="2"/>
+<path d="M105 512.5L205 475.0L305 367.5L405 305.0" fill="none" stroke="#ffa3b0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="105" cy="512.5" r="6" fill="#ffa3b0" stroke="#ffa3b0" stroke-width="2"/>
+<circle cx="205" cy="475.0" r="6" fill="#ffa3b0" stroke="#ffa3b0" stroke-width="2"/>
+<circle cx="305" cy="367.5" r="6" fill="#ffa3b0" stroke="#ffa3b0" stroke-width="2"/>
+<circle cx="405" cy="305.0" r="6" fill="#ffa3b0" stroke="#ffa3b0" stroke-width="2"/>
+<text x="65" y="605" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="400">Loaded peptide (nM; log scale)</text>
+<path d="M28 642H74" fill="none" stroke="#8ebdff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="651" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="400">Mutant peptide M</text>
+<path d="M28 685H74" fill="none" stroke="#ffa3b0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="694" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="400">Normal peptide N</text>
+<text x="20" y="746" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Both curves rise: this receptor</text>
+<text x="20" y="781" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">also responds to normal peptide.</text>
+<text x="20" y="816" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Natural display / safety: open.</text>
+</svg>

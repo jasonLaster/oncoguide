@@ -31,6 +31,13 @@ For a vaccine candidate, the “key” is a peptide and the “lock” is a part
 
 ## How it works
 
+<img src="./images/score-distribution-rank-and-predicted-concentration-v1-light.svg" alt="Fictional NetMHCpan-4.1-style EL reference histogram has 1000 peptide scores and a four-peptide stronger-scoring tail illustrating 0.4 percent rank. Predicted binding IC50 of 40 nanomolar is a separate BA output, not observed presentation." data-theme-pair />
+
+*A percentile rank locates a model score; a predicted concentration describes another output.*
+
+The picture uses **fictional numbers** to explain the reference-distribution idea documented for NetMHCpan-4.1. It is labeled as an EL (eluted-ligand) example for HLA-A*02:01 and 9-mer peptides, rather than a completed model run. Its invented reference contains 1,000 scores with bin counts 250, 240, 200, 130, 80, 50, 30, 16 and 4 from lower to higher score; no candidate ties are assumed. In this toy distribution, four reference peptides score beyond the candidate: 4 ÷ 1,000 × 100 = 0.4%. The raw EL score is unitless. Actual software ranks use that model's own reference construction; this toy count does not reconstruct its calibration. A separately labeled, invented BA (binding-affinity) output of 40 nanomolar predicts competitive-binding IC50. Rank and concentration have different meanings, and neither is a probability or observation of presentation. [Official NetMHCpan-4.1 output documentation](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/)
+
+
 Peptide–HLA models learn relationships from experimental data. Some outputs predict [binding affinity](/wiki/education/concepts/biology-basics/molecules/enzymes-and-binding); others predict likelihood of naturally eluted ligands, using presentation datasets. These related tasks have different labels and training data. An eluted-ligand score is not simply a binding measurement with another name.
 
 **Half-maximal inhibitory concentration (IC50)** describes the concentration producing half inhibition of the named assay response. In a peptide–HLA competitive-binding assay, the response concerns displacement of a reference ligand. A model can estimate that assay value; it has not performed the experiment. IC50 is not automatically the equilibrium **dissociation constant (Kd)**, and a cell-growth IC50 describes another endpoint entirely.

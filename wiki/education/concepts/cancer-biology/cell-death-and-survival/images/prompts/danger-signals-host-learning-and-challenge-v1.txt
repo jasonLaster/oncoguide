@@ -1,0 +1,10 @@
+Original code-SVG intent brief
+Author: agent:/root/batch07_author_group1
+Task: next-gap-169
+Learner task: Distinguish danger-signal measurements from compatible-host adaptive learning and functional protection.
+Design: original 480×850 SVG with transparent margins/gutters and discrete theme-colored semantic panels, paired native light/dark colors, identical biological geometry and data. All visible labels are at least 28 native pixels; actual carrier readability requires verification.
+Alt: Dying tumor cells and danger signals lead to a functional mouse-model test: remove inducer, add no separate adjuvant, vaccinate a compatible immune-competent host, then compare matched living-tumor challenges and specificity controls.
+Caption: Measure danger signals, host learning and functional protection as separate claims.
+Teaching details: Follow the two stages in the picture. First measure what the dying preparation contains and remove any inducing chemical; the depicted vaccination test adds no separate immune adjuvant. Then ask whether a compatible, immune-competent host resists a later challenge with living cells of the same tumor. Compare vaccinated and unvaccinated hosts under matched challenge conditions; an unrelated but compatible tumor challenge helps test specificity. Tumor incidence and growth are functional readouts. The illustration supplies no dosing or handling protocol and no assumed protective result. This model test is distinct from measuring DAMPs, and it does not establish distant clinical benefit. [Consensus: in-vivo models and interpretation](https://pmc.ncbi.nlm.nih.gov/articles/PMC7064135/)
+Guards: ['Model-bound functional test, no clinical regimen recommendation.', 'Remove inducer/no added adjuvant in the described test; specify comparison groups.', 'DAMPs are not tumor antigens or proof of distant benefit.']
+No generated raster assets or image-model calls. No review or release claim.

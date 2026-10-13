@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-174",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+  "author": "agent:/root/batch07_author_group1",
+  "creativeAuthor": "agent:/root/batch07_author_group1",
+  "reviewer": "agent:/root/batch07_review_group1",
+  "independentReviewer": "agent:/root/batch07_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:32:04.635180+00:00",
+  "reviewedAtUTC": "2026-10-13T18:32:04.635180+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "b74f1983b4d6100eb4f7c3750b12681da41035b8d841b7cf187da729d5dc455c",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/242",
+  "frozenRowSHA256": "1029fd0d3b3b9421527e9f024b11df2b9239093dc10f25d5a10cf17c577c2fea",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "checkedCommittedPreimageAt": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Equal-width count bars sum to 1,000; candidate boundary leaves the four-count stronger-scoring tail, yielding 0.4 percent. Count y scale and unitless increasing EL-score direction agree with geometry. Model/version, HLA allele and length are attached; separate fictional 40 nM BA IC50 is not treated as rank, probability, measured display or immunogenicity.",
+    "frozenPageSHA256": "dcdba13047e7d4d267e07cd8a5fbd6a29043bf747f56e0f43495b0bf7f99e017",
+    "baselinePageSHA256": "dcdba13047e7d4d267e07cd8a5fbd6a29043bf747f56e0f43495b0bf7f99e017",
+    "learnerTask": "Read percentile rank as a model reference-distribution position, distinct from predicted assay concentration.",
+    "gap": "No reference-score distribution shows what0.4%rank means.",
+    "accuracyGuardrails": "Bind predicted concentration and percentile rank to the actual model/reference distribution and units. Rank is not binding probability, concentration or observed presentation; do not compare unlike model outputs as one scale."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+      "sha256": "ce4ab6197a73efed1e755779bcc15efec208fba9f3fbdfcdb9fa5664ffb2d645",
+      "bytes": 5172,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+      "sha256": "3f6ce993c7973b8c8396b35032d3978428dee23bd442e46ed953878623ae4dd4",
+      "bytes": 5172,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+        "sha256": "b74f1983b4d6100eb4f7c3750b12681da41035b8d841b7cf187da729d5dc455c",
+        "bytes": 8969
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+        "sha256": "ce4ab6197a73efed1e755779bcc15efec208fba9f3fbdfcdb9fa5664ffb2d645",
+        "bytes": 5172
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+        "sha256": "3f6ce993c7973b8c8396b35032d3978428dee23bd442e46ed953878623ae4dd4",
+        "bytes": 5172
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1.txt",
+        "sha256": "d387fee440374852d4c519bc53ff2a397a20a53dcb5cc25b8e9a1b3cf7cba57f",
+        "bytes": 2143
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-provenance.json",
+        "sha256": "116d88635f8394077c550865414463e7b78949da3c91dd3626947156121ef4e3",
+        "bytes": 5004
+      }
+    ],
+    "currentCandidateOwnerSHA256": "b74f1983b4d6100eb4f7c3750b12681da41035b8d841b7cf187da729d5dc455c",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "64dee892b16e425577b4d7481d6a25c4b390d37ca75f256e7944d57e41e3fe31",
+    "exactFivePublicFiles": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, arithmetic, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Complete official abstracts plus bounded official docs and selected ICD/model-paper sections; no invented complete-paper/figure/method reading.",
+    "freshCaptureCountForOwner": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated pinned full-width article/frame/theater/table-enhancer and actual CSS; no live site navigation, sidebar or external data. Transparent margins/gutters show dim underlying content; essential content is on opaque semantic panels. Focus returns BODY after Escape in one-owner probe across both themes/viewports. No complete a11y or touch certification."
+  },
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

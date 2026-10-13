@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "creator": "agent:/root/batch07_author_group1",
+  "receipt": {
+    "author": "agent:/root/batch07_author_group1"
+  },
+  "model": null,
+  "imageGenerationCalls": 0,
+  "createdAtUTC": "2026-10-13T18:18:14.016491+00:00",
+  "task": "next-gap-169",
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+  "sourcePreimageSHA256": "7e11d0b8753d00beff39bcfcc3a551328b6be2e65833f261f5cb1b6cd4f2d336",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "currentSourceCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "medium": "hand-authored SVG source code",
+  "geometry": "480x850; transparent canvas margins/gutters; opaque theme-colored semantic panels keep original text legible in the unchanged dark theater; all labels >=28 source px; theme geometry identical",
+  "fictionalData": false,
+  "assignedFiles": [
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/danger-signals-host-learning-and-challenge-v1.txt",
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/danger-signals-host-learning-and-challenge-v1-provenance.json"
+  ],
+  "assets": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+      "sha256": "85958b20d6a0170b888a6eabd12006ed1517f8618e67f40eaac25d066ccab13c",
+      "bytes": 5662
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+      "sha256": "66a5b03febd22eb25a978b6c37ac743eb9b17ae601777bb8c03b9d4d75e28b05",
+      "bytes": 5662
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/danger-signals-host-learning-and-challenge-v1.txt",
+      "sha256": "998a39af979f870dc665ff686e7eaecdbcd68e704f9e796af19edba702daadab",
+      "bytes": 1934
+    }
+  ],
+  "sourceScope": "General public education only; exact owner metadata checked before body; no signed-care or sensitive source bodies read",
+  "review": {
+    "independentReviewer": "prospective agent:/root/batch07_review_group1",
+    "independentReviewPerformed": false,
+    "humanExpertReview": "pending",
+    "learnerReview": "pending"
+  },
+  "release": {
+    "canonical187": "pending",
+    "adoption": "pending",
+    "liveApproval": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  },
+  "scopeLimits": [
+    "Model-bound functional test, no clinical regimen recommendation.",
+    "Remove inducer/no added adjuvant in the described test; specify comparison groups.",
+    "DAMPs are not tumor antigens or proof of distant benefit."
+  ],
+  "authoringStartSourceCommit": "90730c2373cf82c51b17270a6c02086d94d07bcf",
+  "sourcePlanningCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "code": {
+    "language": "Python-authored original SVG XML",
+    "sha256": "1d83eda6baf834113b1d15c035bd5350394785cc8c6469070920371435f464c2",
+    "geometryFunctions": "vdj, icd, tolerance, gamma, macro, inflam, binding"
+  },
+  "sourcesCheckedAtUTC": "2026-10-13T18:23:04.178192+00:00",
+  "sourceReadBounds": [
+    {
+      "key": "icd",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7064135/",
+      "kind": "consensus full-text article, not a primary experiment",
+      "readBounds": "Stored text lines 827\u2013902 definition/host context plus 1366\u20131446 In vivo models, Figure 2 caption, Interpretation of ICD. Original Figure 2 pixels not inspected. Remaining full text stored privately but not read end-to-end.",
+      "supported": "Removal of exogenous chemical/no added adjuvant in prophylactic vaccination test; matched live tumor challenge; compatible immune-competent host; functional incidence/growth; specificity control; marker and clinical inference limits."
+    }
+  ],
+  "authorChecks": {
+    "scope": "Author inspection only, not independent scientific or pixel PASS",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "480x850 native contextual background",
+      "393x700 mobile inline and default preview",
+      "1440x1000 desktop inline and default preview"
+    ],
+    "minSourceLabelPx": 28,
+    "minMobileInlineLabelPx": 20.357421875,
+    "minMobileDefaultPreviewLabelPx": 19.896470588235292,
+    "nativeClippedLabelCount": 0,
+    "actualThemeSourcesVerified": true,
+    "transparentCanvas": "Transparent margins and gutters; discrete opaque semantic panels behind content for the actual theater contrast",
+    "independentReviewPending": true
+  }
+}

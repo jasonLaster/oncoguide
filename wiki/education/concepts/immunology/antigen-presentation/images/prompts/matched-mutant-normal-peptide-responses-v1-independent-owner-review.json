@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-170",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+  "author": "agent:/root/batch07_author_group1",
+  "creativeAuthor": "agent:/root/batch07_author_group1",
+  "reviewer": "agent:/root/batch07_review_group1",
+  "independentReviewer": "agent:/root/batch07_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:32:04.635180+00:00",
+  "reviewedAtUTC": "2026-10-13T18:32:04.635180+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/205",
+  "frozenRowSHA256": "c6b0966b50f7ab5996008ec6dd52e4472ba098e5950d43cbc1253635b794ff2f",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "checkedCommittedPreimageAt": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Two labeled fictional peptide curves share concentrations, HLA, responder and 24-hour endpoint; logarithmic x spacing and percent scale match the stated values. Caption supplies viable-responder denominator and 2 percent background. Response to normal peptide directly counters tumor-exclusive recognition; natural processing, broader cross-reactivity and safety remain open.",
+    "frozenPageSHA256": "bfa9108a1361a39b84635c654b8c55b514d67a9b86a102bc95cd01180ca4e17f",
+    "baselinePageSHA256": "bfa9108a1361a39b84635c654b8c55b514d67a9b86a102bc95cd01180ca4e17f",
+    "learnerTask": "Compare receptor responses to mutant and normal peptides at matched concentrations without converting sequence difference into safety.",
+    "gap": "The worked experiment is clear but a fictional concentration-response contrast would make receptor specificity versus sequence specificity visibly different. This is a measured-response chart, not a similarity-score threshold or universal safety diagram.",
+    "accuracyGuardrails": [
+      "Invented response curves must be labeled fictional and assay-specific.",
+      "Artificial loading leaves natural processing open.",
+      "No universal identity, concentration or patient-safety threshold."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+      "sha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2",
+      "bytes": 5783,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-dark.svg",
+      "sha256": "37d75662d4a46f85dc4a648fa60a3ae67ba0b3c1ec291f909b3400fe768946e5",
+      "bytes": 5783,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-dark.svg",
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+        "sha256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+        "bytes": 8191
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+        "sha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2",
+        "bytes": 5783
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-dark.svg",
+        "sha256": "37d75662d4a46f85dc4a648fa60a3ae67ba0b3c1ec291f909b3400fe768946e5",
+        "bytes": 5783
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/matched-mutant-normal-peptide-responses-v1.txt",
+        "sha256": "164531f2c2f10ca308cbe42c535672a56341dc2a81db575141577d75d888ae21",
+        "bytes": 2045
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/matched-mutant-normal-peptide-responses-v1-provenance.json",
+        "sha256": "9ade1fe4eeaf742f31470d023588fbe044b829465e47ac40478268032fbb4059",
+        "bytes": 4795
+      }
+    ],
+    "currentCandidateOwnerSHA256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "64dee892b16e425577b4d7481d6a25c4b390d37ca75f256e7944d57e41e3fe31",
+    "exactFivePublicFiles": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, arithmetic, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Complete official abstracts plus bounded official docs and selected ICD/model-paper sections; no invented complete-paper/figure/method reading.",
+    "freshCaptureCountForOwner": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated pinned full-width article/frame/theater/table-enhancer and actual CSS; no live site navigation, sidebar or external data. Transparent margins/gutters show dim underlying content; essential content is on opaque semantic panels. Focus returns BODY after Escape in one-owner probe across both themes/viewports. No complete a11y or touch certification."
+  },
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

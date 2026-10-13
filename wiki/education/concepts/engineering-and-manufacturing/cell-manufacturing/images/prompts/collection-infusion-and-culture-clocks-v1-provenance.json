@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-educational-code-svg",
+  "creator": "agent:/root/batch07_author_group2",
+  "actualCreativeRole": "agent:/root/batch07_author_group2",
+  "createdAtUTC": "2026-10-13T18:16:58.068633+00:00",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time.md",
+  "prospectiveTaskId": "next-gap-180",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original hand-authored SVG source through private Python serializer",
+  "originalIntentFile": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/collection-infusion-and-culture-clocks-v1.txt",
+  "originalIntentSHA256": "2cbd65edba606036bfb95ad0c38a17deafbc634f0f7c679467764ac979fbd68f",
+  "sourcePreimageSHA256": "b744ea635ada2eabf9fdb559da6255b396b7ba2c583d81f54201b4f238173b68",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-light.svg",
+      "sha256": "3009c1120bac3084d940c475c3ef81c12611c25c4972b7b222df9a61988b7f9f",
+      "bytes": 4736
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-dark.svg",
+      "sha256": "88c4e0107a696ce79761553fdd64d2067fe23960445257a3a7eb1b722a6d4a08",
+      "bytes": 4736
+    }
+  ],
+  "independentPeer": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "liveApproval": false,
+  "authorDisplayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "393x700",
+      "1440x1000"
+    ],
+    "nativeSize": "600x780",
+    "minEssentialMobileInlinePx": 19.77578125,
+    "minEssentialMobileDefaultPreviewPx": 19.55,
+    "inspection": "Actual named creative author personally inspected original light/dark native and inline/default-preview PNGs. Author check only; independent peer and human review pending.",
+    "transparentBackground": "SVGoutermargin/gutters transparent;theme-colored semanticcards support readabletheaterpreview."
+  }
+}

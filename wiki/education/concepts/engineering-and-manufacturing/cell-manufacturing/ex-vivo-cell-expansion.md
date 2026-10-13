@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-09"
+updated: "2026-10-13"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -32,6 +32,12 @@ The analogy stops at function: counting plants cannot tell us whether immune cel
 ## How it works
 
 A manufacturer begins with collected cells, which may undergo selection or activation. **Selection** enriches a population; **activation** provides signals that stimulate its behavior. Neither necessarily increases the total cell number.
+
+<img src="./images/enrichment-expansion-and-activation-v1-light.svg" alt="Independent fictional examples, in millions of viable cells: a starting mixture of 20 intended and 80 other cells is 20 percent intended; enrichment retains 20 intended and 5 other cells, giving 80 percent intended without an increase in intended cells. A separate culture expands a defined viable population from 20 to 100 million, giving five-fold expansion. Activation and killing require separate measurements." data-theme-pair />
+
+*Enrichment can raise a fraction while the intended-cell count stays fixed. Expansion increases a defined population count.*
+
+The first two bars share one scale: each full width represents 100 million viable cells. Teal is the intended population and amber is other cells. The enriched population has fewer other cells, not more intended cells. The lower example is a separate culture, measured on the same viable-cell basis at start and end. No culture duration or growth rate is implied. Activation state and target-cell killing are not supplied by these counts.
 
 Cells then divide in culture with controlled medium, nutrients and signals. [Cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) can support growth or change cell state. Density, gas exchange, temperature and time all influence the culture.
 
@@ -96,6 +102,9 @@ Source check: October 9, 2026; expert and learner review pending. This is proces
 - [NCI T-cell transfer therapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy) — growing selected cells for treatment.
 - [Ghassemi et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30030295/) — culture-duration experiments and leukemia mouse-model comparisons, not universal clinical equivalence.
 - [FDA final CAR T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — in-process monitoring, composition, harvest and testing.
+
+
+Visual relationship check: October 13, 2026. The new illustration was checked against the relevant FDA CAR T-cell guidance sections; invented arithmetic is teaching data. Existing paper citations retain their stated scope. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

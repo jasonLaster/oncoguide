@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-173",
+  "owner": "wiki/education/concepts/immunology/the-immune-system/inflammation.md",
+  "author": "agent:/root/batch07_author_group1",
+  "creativeAuthor": "agent:/root/batch07_author_group1",
+  "reviewer": "agent:/root/batch07_review_group1",
+  "independentReviewer": "agent:/root/batch07_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:32:04.635180+00:00",
+  "reviewedAtUTC": "2026-10-13T18:32:04.635180+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "25804cd3b33b2f256da512c648353601c9e482c01dbe3129fca94ee6ee50a9d4",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/231",
+  "frozenRowSHA256": "e2a67560041f67b3fd815c211afddcfff51858d98826d2cf84f1a560591f4faf",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "checkedCommittedPreimageAt": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Vessel lumen, white-cell crossing, fluid/protein entry and local tissue signals are placed in separate compartments. A bounded outcome fork supports containment/repair or persistence/injury. Caption distinguishes permeability from vessel growth and observed inflammation from tumor-specific recognition; schematic arrows imply no measured kinetics or cancer benefit.",
+    "frozenPageSHA256": "4d2388e1e9faa1f78456ca7c6ad8b0201d182bc5e2e34a32c96a8b12bb1e29d1",
+    "baselinePageSHA256": "4d2388e1e9faa1f78456ca7c6ad8b0201d182bc5e2e34a32c96a8b12bb1e29d1",
+    "learnerTask": "Locate tissue signals, vascular changes and recruited cells while distinguishing containment/repair from persistence or injury.",
+    "gap": "The outcome fork is a useful boundary map, but it compresses the physical tissue response into one text box. A restrained tissue scene could make permeability and recruitment visible; it should not imply that every inflammatory response follows one fixed sequence.",
+    "accuracyGuardrails": [
+      "Infection is one trigger, not the definition.",
+      "Vascular permeability is not angiogenesis.",
+      "Inflammation is not demonstrated tumor-specific recognition or useful cancer control."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+      "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+      "bytes": 5868,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+      "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+      "bytes": 5868,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/the-immune-system/inflammation.md",
+        "sha256": "25804cd3b33b2f256da512c648353601c9e482c01dbe3129fca94ee6ee50a9d4",
+        "bytes": 7796
+      },
+      {
+        "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+        "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+        "bytes": 5868
+      },
+      {
+        "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+        "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+        "bytes": 5868
+      },
+      {
+        "path": "wiki/education/concepts/immunology/the-immune-system/images/prompts/signals-vessels-and-recruited-cells-v1.txt",
+        "sha256": "74cac1b0e275882d6c07b5f4ac00c2e273d4c5fc32e29aec74c9b04f9f5e1d62",
+        "bytes": 1845
+      },
+      {
+        "path": "wiki/education/concepts/immunology/the-immune-system/images/prompts/signals-vessels-and-recruited-cells-v1-provenance.json",
+        "sha256": "47a166faf5f00b94e51a94f51ba6fb77d16c061ce3599599c37e51ce9a438701",
+        "bytes": 4786
+      }
+    ],
+    "currentCandidateOwnerSHA256": "25804cd3b33b2f256da512c648353601c9e482c01dbe3129fca94ee6ee50a9d4",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "64dee892b16e425577b4d7481d6a25c4b390d37ca75f256e7944d57e41e3fe31",
+    "exactFivePublicFiles": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, arithmetic, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Complete official abstracts plus bounded official docs and selected ICD/model-paper sections; no invented complete-paper/figure/method reading.",
+    "freshCaptureCountForOwner": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated pinned full-width article/frame/theater/table-enhancer and actual CSS; no live site navigation, sidebar or external data. Transparent margins/gutters show dim underlying content; essential content is on opaque semantic panels. Focus returns BODY after Escape in one-owner probe across both themes/viewports. No complete a11y or touch certification."
+  },
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

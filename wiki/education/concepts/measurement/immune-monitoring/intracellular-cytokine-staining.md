@@ -48,6 +48,14 @@ flowchart TD
 
 Measuring several cytokines can identify **polyfunctional** cells: cells meeting the assay's rules for multiple measured functions. That word always needs the panel and stimulus attached. Three positive cytokine stains are not a universal rank of antitumor effectiveness.
 
+### Read the visual
+
+<img src="./images/retained-cytokines-stimulus-and-analysis-gate-v1-light.svg" alt="A stimulated cell contains retained green cytokine molecules because a transport-inhibition barrier interrupts outward transport. A separate fixed, permeable cell allows fluorescent antibody entry. A conceptual flow gate counts cytokine-positive cells within a named parent population; the fixed-cell readout does not measure secretion or target-cell killing." data-theme-pair="./images/retained-cytokines-stimulus-and-analysis-gate-v1-dark.svg" />
+
+*Intracellular cytokine staining measures retained molecules in selected cells under tested conditions.*
+
+The green molecules stay inside the blue cell during the specified transport-inhibition window. Fixing the cell and making its membrane permeable lets staining antibodies reach those molecules. Analysis then asks which events meet the cytokine-stain rule within a named parent gate. The drawn gate is conceptual; it has no universal fluorescence boundary. Always carry the stimulus, timing, viability selection and parent population into the result. Intracellular retention, secretion into a well and death of a target cell are distinct readouts. [Maecker primary standardization study](https://pmc.ncbi.nlm.nih.gov/articles/PMC1184077/).
+
 ## Why it matters in cancer
 
 ICS can help ask which sampled immune populations respond to a vaccine antigen or other stimulus. It complements [enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot), which records secretion-associated spots. Standard ICS does not identify a responding cell's receptor sequence. Linking that response to a particular receptor requires an additional compatible identification strategy.

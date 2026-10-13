@@ -31,6 +31,13 @@ Cells do not recognize every dangerous-looking tumor. Recognition depends on mol
 
 ## How it works
 
+<img src="./images/native-gamma-delta-contact-and-added-car-v1-light.svg" alt="Subset-limited Vγ9Vδ2 contact shows BTN2A1 engaging native TCR with BTN3A1-linked target-cell phosphoantigen sensing, and a separate engineered contact shows a CAR binding its surface target X." data-theme-pair />
+
+*A native subset-specific contact and an added CAR have different target requirements.*
+
+The upper contact is a **Vγ9Vδ2 example**: BTN2A1 directly engages part of the native receptor, while BTN3A1 participates in linking target-cell phosphoantigens to activation. The dashed contact denotes additional receptor engagement in a simplified mechanism, rather than a resolved atomic structure. The small metabolites are inside the target-cell compartment; they are not a free peptide in an HLA groove. The lower contact asks a separate question: does an added CAR have its own surface target X? Native recognition varies across subsets, including Vδ1, and either route still needs activation and function tests. [Rigau et al.: molecular evidence](https://pubmed.ncbi.nlm.nih.gov/31919129/)
+
+
 The [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) contains either alpha and beta chains or gamma and delta chains. Gamma-delta cells also carry other activating and inhibitory receptors. They remain T cells, distinct from [natural killer (NK) cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self).
 
 Names such as **Vδ1** and **Vγ9Vδ2** describe receptor variable regions. Vδ1 populations are prominent in several tissues, including breast tissue. Vγ9Vδ2 populations are often prominent among circulating gamma-delta cells. A **polyclonal** product contains multiple clones; it is not automatically broader or more effective. Location and receptor names do not prescribe cancer-killing ability.

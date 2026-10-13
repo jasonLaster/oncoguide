@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-181",
+  "owner": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+  "author": "agent:/root/batch07_author_group3",
+  "creativeAuthor": "agent:/root/batch07_author_group3",
+  "reviewer": "agent:/root/batch07_review_group3",
+  "independentReviewer": "agent:/root/batch07_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:35:45.946425+00:00",
+  "reviewedAtUTC": "2026-10-13T18:35:45.946425+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "40b3f170a8b23b29d0443ee6b6b57c9023c9a71f232b3ba4c5ae956b88570ad2",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/249",
+  "frozenRowSHA256": "0542f414a6681729a7bbfa205df4ec43ea10328847482a0067c32b55fb057a5b",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "verifiedCanonicalPreimageCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The staged layout, constructed gel and separate geometry/cell-health/flow/barrier checks fill the missing physical-layout gap. The bare versus lined channel distinction is explicit and agrees with the bounded Kolesky fabrication and permeability observations. Printing is not presented as proof of a living vessel, organ or personal-response validation.",
+    "frozenPageSHA256": "b08aeed05676a1abe46e078d2568dbcb06b7c2bebc79db6c400ade47b8d373a5",
+    "baselinePageSHA256": "b08aeed05676a1abe46e078d2568dbcb06b7c2bebc79db6c400ade47b8d373a5",
+    "learnerTask": "Separate planned printed layout, actual construct and checked cell/channel function.",
+    "gap": "No physical layout shows deposited material or a channel distinct from a living vessel.",
+    "accuracyGuardrails": "Label planned layout, actual construct and measured cell/channel function separately. A printed channel is not automatically a perfused living vessel, organ or validated personal-response model."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+      "sha256": "e844c4079ab1e2afce6c3be5a7f303db2582063cd40b92baf2f0f67764a89258",
+      "bytes": 6704,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+      "sha256": "a862006b238de3d71c3a433e1bdec55a4efb8821429f740c24e3159150194163",
+      "bytes": 6704,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+        "sha256": "40b3f170a8b23b29d0443ee6b6b57c9023c9a71f232b3ba4c5ae956b88570ad2",
+        "bytes": 8800
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+        "sha256": "e844c4079ab1e2afce6c3be5a7f303db2582063cd40b92baf2f0f67764a89258",
+        "bytes": 6704
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+        "sha256": "a862006b238de3d71c3a433e1bdec55a4efb8821429f740c24e3159150194163",
+        "bytes": 6704
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/printed-plan-construct-and-channel-checks-v1.txt",
+        "sha256": "0f39741e64636c92ff2bd8c73e4470084c12c17478e858eb537ce8654b973cac",
+        "bytes": 2235
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/printed-plan-construct-and-channel-checks-v1-provenance.json",
+        "sha256": "bf6dc5fcf242a297cfabf5706ae224939945b44462884be2abee0e9ba5c96cf5",
+        "bytes": 2717
+      }
+    ],
+    "currentCandidateOwnerSHA256": "40b3f170a8b23b29d0443ee6b6b57c9023c9a71f232b3ba4c5ae956b88570ad2",
+    "currentCandidatePairBound": true,
+    "originalContentMetadataCitationsPracticeAndNavigationPreserved": true
+  },
+  "reviewBasis": {
+    "scope": "Current original independent scientific/math/native/fresh pinned-reader/task-fit review; prospective agent quality review only.",
+    "inputAuthorSealSHA256": "03fbabfa89495087516f51afbc7ac63cb34428e8cbd19cba6b81983b3bbbcc92",
+    "sourceReadingManifestSHA256": "3b1bd29734dd535d121648aac8bbd6555887b5cecd61d98cc9839f701d9d1632",
+    "pixelInspectionSHA256": "eff0ed61c82c609946a1c31139159efada31321953f2134d68be4dff5ab28e3d",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "readingQualification": "Selected primary/official text plus complete primary abstracts; full-paper reads, inherited historical approvals and supplements not claimed.",
+    "carrierLimits": "Exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater and SmartTableEnhancer with complete actual shared/app CSS. Isolated full-width education article; no app navigation/header/sidebar or external live data. Three literal Tailwind theme utility rules only.",
+    "focusReturn": "Known pinned limitation; not certified."
+  },
+  "method": "Original code SVG; no image model calls",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

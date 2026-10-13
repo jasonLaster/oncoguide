@@ -1,0 +1,10 @@
+Original code-SVG intent brief
+Author: agent:/root/batch07_author_group1
+Task: next-gap-172
+Learner task: Compare several measured macrophage programs without sorting cells into permanent M1-good/M2-bad boxes.
+Design: original 480×850 SVG with transparent margins/gutters and discrete theme-colored semantic panels, paired native light/dark colors, identical biological geometry and data. All visible labels are at least 28 native pixels; actual carrier readability requires verification.
+Alt: Invented 24-hour macrophage RNA program scores compare profiles A and B on interferon, lipid handling and antigen-display axes. Several programs coexist; a program score is neither an independent control nor a measured function.
+Caption: Describe several measured programs together; test the relevant function separately.
+Teaching details: The comparison is **fictional**, with selected RNA program scores normalized to 0–1 arbitrary units using one invented method at 24 hours after two unspecified culture exposures. Profile A has interferon/lipid-handling/antigen-display scores of 0.80/0.35/0.65; B has 0.45/0.85/0.55. These are average expression-program scores in identified macrophages, not fractions of cells, independent knobs or universal M1/M2 boundaries. Both profiles combine programs. Actual source, stimulus, sampling time and identification rules belong beside real results. A presentation-associated RNA program does not demonstrate functional antigen presentation, and changing profile proportions in repeated samples would not prove conversion of the same cells. Human stimulation experiments support considering multiple programs; these illustrative values are not their data. [Xue et al.](https://pubmed.ncbi.nlm.nih.gov/24530056/)
+Guards: ['Axes are selected measured programs, not independent freely adjustable controls.', 'Use fictional profiles without universal M1/M2 cutoffs.', 'Changing proportions does not establish conversion of the same cells.']
+No generated raster assets or image-model calls. No review or release claim.

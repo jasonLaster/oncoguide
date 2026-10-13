@@ -1,0 +1,10 @@
+Original code-SVG intent brief
+Author: agent:/root/batch07_author_group1
+Task: next-gap-170
+Learner task: Compare receptor responses to mutant and normal peptides at matched concentrations without converting sequence difference into safety.
+Design: original 480×850 SVG with transparent margins/gutters and discrete theme-colored semantic panels, paired native light/dark colors, identical biological geometry and data. All visible labels are at least 28 native pixels; actual carrier readability requires verification.
+Alt: Invented loaded-peptide concentration-response chart: at the same 1, 10, 100 and 1000 nanomolar concentrations, one receptor responds to both mutant and normal peptides after 24 hours. Natural processing and clinical safety remain untested.
+Caption: A sequence difference does not guarantee a selective receptor response.
+Teaching details: Read each pair of points at the **same loaded-peptide concentration**. These curves are invented: mutant M gives 5%, 28%, 70% and 90% activated responder cells; normal N gives 3%, 18%, 61% and 86% at 1, 10, 100 and 1,000 nanomolar. Both use the same responder and matching HLA, a 24-hour activation readout, and an invented no-peptide background of 2%. Percent means activated cells divided by viable responder cells in each assay condition. The horizontal axis is logarithmic; the lines only connect example points. This receptor responds to both sequences under artificial loading, so tumor-specific sequence has not produced tumor-exclusive response. Neither curve is a safety threshold or evidence of natural processing. A broader cross-reactivity problem is documented in the primary [Cameron study](https://pubmed.ncbi.nlm.nih.gov/23926201/); its results are not the invented numbers here.
+Guards: ['Invented response curves must be labeled fictional and assay-specific.', 'Artificial loading leaves natural processing open.', 'No universal identity, concentration or patient-safety threshold.']
+No generated raster assets or image-model calls. No review or release claim.

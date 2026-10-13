@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "creator": "agent:/root/batch07_author_group1",
+  "receipt": {
+    "author": "agent:/root/batch07_author_group1"
+  },
+  "model": null,
+  "imageGenerationCalls": 0,
+  "createdAtUTC": "2026-10-13T18:18:14.016491+00:00",
+  "task": "next-gap-171",
+  "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+  "sourcePreimageSHA256": "52034d36d884959744d86962e0bfd82c89ee64967d1e02447469404357b9be45",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "currentSourceCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "medium": "hand-authored SVG source code",
+  "geometry": "480x850; transparent canvas margins/gutters; opaque theme-colored semantic panels keep original text legible in the unchanged dark theater; all labels >=28 source px; theme geometry identical",
+  "fictionalData": false,
+  "assignedFiles": [
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/native-gamma-delta-contact-and-added-car-v1.txt",
+    "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/native-gamma-delta-contact-and-added-car-v1-provenance.json"
+  ],
+  "assets": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+      "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+      "bytes": 5040
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+      "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+      "bytes": 5040
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/native-gamma-delta-contact-and-added-car-v1.txt",
+      "sha256": "06d89db3228cc2f0d88adc64a3cf021c662c7586817fe6feb96acbafe8dd94fa",
+      "bytes": 1879
+    }
+  ],
+  "sourceScope": "General public education only; exact owner metadata checked before body; no signed-care or sensitive source bodies read",
+  "review": {
+    "independentReviewer": "prospective agent:/root/batch07_review_group1",
+    "independentReviewPerformed": false,
+    "humanExpertReview": "pending",
+    "learnerReview": "pending"
+  },
+  "release": {
+    "canonical187": "pending",
+    "adoption": "pending",
+    "liveApproval": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  },
+  "scopeLimits": [
+    "Label the depicted V\u03b39V\u03b42 example; do not generalize it to V\u03b41 or every gamma-delta TCR.",
+    "Phosphoantigen recognition is not a free metabolite in a conventional peptide-HLA groove.",
+    "HLA independence and useful native killing are not universal; added CAR needs its own target."
+  ],
+  "authoringStartSourceCommit": "90730c2373cf82c51b17270a6c02086d94d07bcf",
+  "sourcePlanningCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "code": {
+    "language": "Python-authored original SVG XML",
+    "sha256": "1d83eda6baf834113b1d15c035bd5350394785cc8c6469070920371435f464c2",
+    "geometryFunctions": "vdj, icd, tolerance, gamma, macro, inflam, binding"
+  },
+  "sourcesCheckedAtUTC": "2026-10-13T18:23:04.178192+00:00",
+  "sourceReadBounds": [
+    {
+      "key": "rigau",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31919129/",
+      "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31919129&resultType=core&format=json",
+      "kind": "primary experiment abstract",
+      "readBounds": "Title, bibliographic metadata and complete abstractText from official EuropePMC core record; no full methods or original figures inspected.",
+      "supported": "BTN2A1 binding V\u03b39, association with BTN3A1, phosphoantigen response; second receptor engagement described as unresolved, diagram schematic."
+    }
+  ],
+  "authorChecks": {
+    "scope": "Author inspection only, not independent scientific or pixel PASS",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "480x850 native contextual background",
+      "393x700 mobile inline and default preview",
+      "1440x1000 desktop inline and default preview"
+    ],
+    "minSourceLabelPx": 28,
+    "minMobileInlineLabelPx": 20.357421875,
+    "minMobileDefaultPreviewLabelPx": 19.896470588235292,
+    "nativeClippedLabelCount": 0,
+    "actualThemeSourcesVerified": true,
+    "transparentCanvas": "Transparent margins and gutters; discrete opaque semantic panels behind content for the actual theater contrast",
+    "independentReviewPending": true
+  }
+}

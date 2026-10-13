@@ -1,0 +1,7 @@
+ORIGINAL CODE-SVG INTENT
+Creator: agent:/root/batch07_author_group2
+Created: 2026-10-13T18:16:58.068633+00:00
+Learner task: Separate donor immune attack on recipient from recipient rejection of donor cells, and source from engineering location.
+Donor immune cells attack recipient tissue in graft-versus-host disease; recipient immune cells attack donor cells in host rejection. A separate source panel distinguishes recipient-derived from donor-derived cells, and a separate location panel distinguishes engineering outside from inside the body.
+In the two recognition panels, teal marks donor cells and amber marks recipient cells. The arrows describe possible immune directions, not rates or inevitable events. The source panel asks whose cells do the work; the location panel asks where they are changed. Neither axis supplies a universal safety ranking.
+Style: transparent-margin/gutter600x780 source-codeSVG pair with filled semantic content cards, system-ui text minimum34px, teal donor/intended/live subset, amber recipient/other/recoverednonlive as named locally, gray nonlive/missing as named locally. Same positions and object identities in light/dark; theme palette only. Readable native and actual pinned reader393x700 inline/defaultpreview. No universal criteria, protocol, clinical advice, eligibility or safety ranking. Model null; imagegenerationcalls0.

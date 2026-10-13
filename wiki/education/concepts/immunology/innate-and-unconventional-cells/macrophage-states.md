@@ -25,6 +25,13 @@ Macrophage states are patterns of activity shaped by a macrophage's origin, tiss
 
 ## The intuition
 
+<img src="./images/coexisting-macrophage-programs-v1-light.svg" alt="Invented 24-hour macrophage RNA program scores compare profiles A and B on interferon, lipid handling and antigen-display axes. Several programs coexist; a program score is neither an independent control nor a measured function." data-theme-pair />
+
+*Describe several measured programs together; test the relevant function separately.*
+
+The comparison is **fictional**, with selected RNA program scores normalized to 0–1 arbitrary units using one invented method at 24 hours after two unspecified culture exposures. Profile A has interferon/lipid-handling/antigen-display scores of 0.80/0.35/0.65; B has 0.45/0.85/0.55. These are average expression-program scores in identified macrophages, not fractions of cells, independent knobs or universal M1/M2 boundaries. Both profiles combine programs. Actual source, stimulus, sampling time and identification rules belong beside real results. A presentation-associated RNA program does not demonstrate functional antigen presentation, and changing profile proportions in repeated samples would not prove conversion of the same cells. Human stimulation experiments support considering multiple programs; these illustrative values are not their data. [Xue et al.](https://pubmed.ncbi.nlm.nih.gov/24530056/)
+
+
 Think of a sound mixer with several sliders: engulfment, inflammatory signaling, repair and antigen presentation can vary independently. One “on/off” switch cannot describe the whole panel.
 
 The analogy helps replace a binary picture with several programs. It breaks if it suggests that every slider is independent or freely reversible. Cell origin, previous exposures and lasting regulatory changes can constrain what a macrophage does next.

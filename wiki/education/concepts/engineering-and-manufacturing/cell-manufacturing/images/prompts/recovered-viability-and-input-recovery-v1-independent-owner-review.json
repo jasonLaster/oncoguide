@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-177",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+  "author": "agent:/root/batch07_author_group2",
+  "creativeAuthor": "agent:/root/batch07_author_group2",
+  "reviewer": "agent:/root/batch07_review_group2",
+  "independentReviewer": "agent:/root/batch07_review_group2",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:28:33.044972+00:00",
+  "reviewedAtUTC": "2026-10-13T18:28:33.044972+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "aa2b6c1e68d0474df5a29239015bb519b18d169515ad010a7e8eac6cf5a632f2",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/130",
+  "frozenRowSHA256": "dc1159450aa93aa383449f8ade182fc7264ad1db946a5c99f4ad0da1d619fcfd",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The 100-unit input grid contains exactly 72 live, 8 recovered nonlive and 20 outlined not-recovered units. The 80 recovered units contain 72 live, so 72/80=90%; the input denominator gives 72/100=72%. Bar lengths are 90% and 72% on their explicitly named denominator sets. Captions and alt text label counts as invented millions, do not assert the cause of missing cells, and exclude potency or a preservation recipe. The same numerator with different populations directly teaches the allocated task.",
+    "baselinePageSHA256": "6ae9d422caccbbfdfef28719a9d10c8eebc5975ab2a1dac3d061b1ca27bfc447",
+    "frozenPageSHA256": "6ae9d422caccbbfdfef28719a9d10c8eebc5975ab2a1dac3d061b1ca27bfc447",
+    "learnerTask": "Calculate viability among recovered cells separately from viable recovery against input.",
+    "gap": "Process map does not show the two denominators in 72 live of 80 recovered versus 100 input.",
+    "accuracyGuardrails": "Preserve 72 live/80 recovered versus 72 live/100 input as different denominators. The example is not a freezing recipe, potency test or universal recovery claim."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-light.svg",
+      "sha256": "d33e29f4a0e4fd1425ce8f41fa67f1d1ca2205e13c77ff8cbc77a6df024f99ea",
+      "bytes": 11619,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 780,
+        "viewBox": "0 0 600 780"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-dark.svg",
+      "sha256": "197239c962bacfa79c2cc41bb56536ac452611f67bf0d49221b9c3a36cbfc16a",
+      "bytes": 11619,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 780,
+        "viewBox": "0 0 600 780"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+        "sha256": "aa2b6c1e68d0474df5a29239015bb519b18d169515ad010a7e8eac6cf5a632f2",
+        "bytes": 7849
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-light.svg",
+        "sha256": "d33e29f4a0e4fd1425ce8f41fa67f1d1ca2205e13c77ff8cbc77a6df024f99ea",
+        "bytes": 11619
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-dark.svg",
+        "sha256": "197239c962bacfa79c2cc41bb56536ac452611f67bf0d49221b9c3a36cbfc16a",
+        "bytes": 11619
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/recovered-viability-and-input-recovery-v1.txt",
+        "sha256": "3db40d9f3deed81d6ad336de7e9f41253330629f2ea251a54e6de139fd01f68f",
+        "bytes": 1343
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/recovered-viability-and-input-recovery-v1-provenance.json",
+        "sha256": "40c2d85a947e4a6f1ef3ceef1a8af8442f0ec14c041f71966819f6038d101e78",
+        "bytes": 2150
+      }
+    ],
+    "currentCandidateOwnerSHA256": "aa2b6c1e68d0474df5a29239015bb519b18d169515ad010a7e8eac6cf5a632f2",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "608a3837ec1f3494c77c5e7d7f97fd108694d4a0829498342ec6b4f4897a4e12"
+  },
+  "reviewBasis": {
+    "scope": "Whole independent review of six assigned conceptual education/cartoon tasks; source reading, original nativeSVG and fresh pinned-reader desktop/mobile inline/default preview.",
+    "sourceReadingReceiptSHA256": "09f75124082ebdb36f2742806fc5515f3c83cedab8388737f27cec6d039a2c57",
+    "independentPixelInspectionSHA256": "fe19d0bfecbd32a2aaddd30e69195153f131b6c9b591fd924e510e7bd6ac9d3b",
+    "nativeInspectionReceiptSHA256": "edb19e4fd8e771a97b97809e65b35d684a6030aa9b41cfa62e180f6589faf544",
+    "readerInspectionReceiptSHA256": "073f67d81430e3cae7adeb447ceab12c8b358ee91a03b509a3682ffb990b4397",
+    "displayChecksSHA256": "00efa9c2dd2dca916fa45722be674a54d83d08bdfb4fcc900edd37b23fca7a09",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Bounded official guidance and relevant primary abstracts/selected full-text sections; inaccessible/unread sources retain explicit limitations in private receipt.",
+    "limits": [
+      "Native capture uses original SVG bytes in HTML img carrier over theme background; raw XML text bounds measured separately.",
+      "Reader fixture is isolated full-width complete education article with exact pinned frame/theater/table components and shared/app CSS; excludes app header/sidebar/live backend/navigation.",
+      "Transparent margin/gutters show dimmed article in preview; no essential text depends on backdrop contrast.",
+      "Known renderer focus-return limitation remains qualified; Enter/Escape checks do not certify focus restoration.",
+      "No human, clinical, expert, learner competence, adoption, coverage, publication or live-delivery approval."
+    ]
+  },
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

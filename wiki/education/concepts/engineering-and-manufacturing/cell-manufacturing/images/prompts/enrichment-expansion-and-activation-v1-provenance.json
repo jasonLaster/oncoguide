@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-educational-code-svg",
+  "creator": "agent:/root/batch07_author_group2",
+  "actualCreativeRole": "agent:/root/batch07_author_group2",
+  "createdAtUTC": "2026-10-13T18:16:58.068633+00:00",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+  "prospectiveTaskId": "next-gap-178",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original hand-authored SVG source through private Python serializer",
+  "originalIntentFile": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/enrichment-expansion-and-activation-v1.txt",
+  "originalIntentSHA256": "9e9c4aafcdcc08d6dab187e857ff4710595f0c8f0f794e075ea7c8446ffc9d87",
+  "sourcePreimageSHA256": "95fc1c60ba5aab3909c22d95c727e74ff3f3613714fe88a39be514bcf04f84e3",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-light.svg",
+      "sha256": "30a398773ce8e32481c64621a8754cb160155fe15b7ca5b713f4d2aa68112096",
+      "bytes": 3722
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-dark.svg",
+      "sha256": "7f1edd808d9d04ce0f7fa87c7eab6af352f08bc35139e49133e3d42f7024341d",
+      "bytes": 3722
+    }
+  ],
+  "independentPeer": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "liveApproval": false,
+  "authorDisplayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "393x700",
+      "1440x1000"
+    ],
+    "nativeSize": "600x780",
+    "minEssentialMobileInlinePx": 19.77578125,
+    "minEssentialMobileDefaultPreviewPx": 19.55,
+    "inspection": "Actual named creative author personally inspected original light/dark native and inline/default-preview PNGs. Author check only; independent peer and human review pending.",
+    "transparentBackground": "SVGoutermargin/gutters transparent;theme-colored semanticcards support readabletheaterpreview."
+  }
+}

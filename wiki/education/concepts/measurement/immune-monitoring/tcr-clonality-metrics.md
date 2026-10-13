@@ -75,6 +75,14 @@ In a fictional sample, clonotype A contributes 30 of 100 measured molecules. Lat
 
 **Answer:** Its relative frequency rose from 30% to 60%; its measured molecule count did not increase. The other measured identities declined. These molecule counts also do not automatically equal absolute cell counts in blood.
 
+### Read the visual
+
+<img src="./images/richness-evenness-and-relative-enrichment-v1-light.svg" alt="Invented molecule distributions show four clonotypes with equal weights (25,25,25,25) and four with unequal weights (70,10,10,10), both totaling 100. A separate before/later comparison keeps clonotype A at 30 molecules while other identities fall from 70 to 20; A rises from 30 percent to 60 percent of the sample without increasing its molecule count." data-theme-pair="./images/richness-evenness-and-relative-enrichment-v1-dark.svg" />
+
+*Richness counts identities; evenness describes weights; a larger share can follow a smaller denominator.*
+
+The first pair uses the same four clonotypes and the same total of 100 measured molecules. Richness stays at four, but the weights become uneven. A sample with only A and B, each at 50 molecules, would instead have richness two and equal weights. The lower pair matches the fictional exercise: A remains at 30 molecules while the other measured identities decline. Its share rises from 30% to 60% because the total falls from 100 to 50. These are invented measured molecules, not verified absolute cell counts. Compare compartment, abundance units, chain definition, assay and depth before interpreting a change. Neither dominance nor enrichment identifies the antigen target. [VDJtools authors’ diversity documentation](https://vdjtools-doc.readthedocs.io/en/master/diversity.html).
+
 ## Common confusions
 
 - **Richness is not evenness:** many identities can coexist with strong dominance.

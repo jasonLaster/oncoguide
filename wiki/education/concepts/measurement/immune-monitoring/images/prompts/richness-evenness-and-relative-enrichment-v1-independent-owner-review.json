@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-187",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+  "author": "agent:/root/batch07_author_group3",
+  "creativeAuthor": "agent:/root/batch07_author_group3",
+  "reviewer": "agent:/root/batch07_review_group3",
+  "independentReviewer": "agent:/root/batch07_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:35:45.946425+00:00",
+  "reviewedAtUTC": "2026-10-13T18:35:45.946425+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/273",
+  "frozenRowSHA256": "475731e04f36f70a64df7decd78d60e9c05de5cccb5ec23363529f07f89dbec2",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "verifiedCanonicalPreimageCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Equal and unequal invented molecule distributions retain four identities and a total of 100 each, isolating evenness. Top bars share 1.5 SVG px per molecule. The separately labeled before/later comparison shares 4.8 px per molecule: A stays at 30 and others fall from 70 to 20, so 30 percent becomes 60 percent without measured-count growth. Molecules do not become absolute cells, and enrichment/dominance do not identify an antigen or prove tumor specificity.",
+    "frozenPageSHA256": "dadb3a8791e311af92c17ab1e53b89d3df0c803d69bfe49b8a69297f367fb366",
+    "baselinePageSHA256": "dadb3a8791e311af92c17ab1e53b89d3df0c803d69bfe49b8a69297f367fb366",
+    "learnerTask": "Distinguish richness, evenness and relative enrichment",
+    "gap": "The workflow does not show contrasting abundance distributions",
+    "accuracyGuardrails": "Use matched count/proportion distributions and separate richness, evenness and relative enrichment. A rising proportion can follow loss of other clones and does not by itself prove expansion or tumor specificity."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+      "sha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb",
+      "bytes": 6582,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+      "sha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a",
+      "bytes": 6582,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+        "sha256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+        "bytes": 9735
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+        "sha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb",
+        "bytes": 6582
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+        "sha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a",
+        "bytes": 6582
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/richness-evenness-and-relative-enrichment-v1.txt",
+        "sha256": "72e545198da9c9c141d8454e60a18744b9ed2b0fc8931195131f3cc7540b339b",
+        "bytes": 2432
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/richness-evenness-and-relative-enrichment-v1-provenance.json",
+        "sha256": "71f3c9a2b7598277e2924010202b8e367a5cb50eb443b2258a131a18162b17ca",
+        "bytes": 2713
+      }
+    ],
+    "currentCandidateOwnerSHA256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+    "currentCandidatePairBound": true,
+    "originalContentMetadataCitationsPracticeAndNavigationPreserved": true
+  },
+  "reviewBasis": {
+    "scope": "Current original independent scientific/math/native/fresh pinned-reader/task-fit review; prospective agent quality review only.",
+    "inputAuthorSealSHA256": "03fbabfa89495087516f51afbc7ac63cb34428e8cbd19cba6b81983b3bbbcc92",
+    "sourceReadingManifestSHA256": "3b1bd29734dd535d121648aac8bbd6555887b5cecd61d98cc9839f701d9d1632",
+    "pixelInspectionSHA256": "eff0ed61c82c609946a1c31139159efada31321953f2134d68be4dff5ab28e3d",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "readingQualification": "Selected primary/official text plus complete primary abstracts; full-paper reads, inherited historical approvals and supplements not claimed.",
+    "carrierLimits": "Exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater and SmartTableEnhancer with complete actual shared/app CSS. Isolated full-width education article; no app navigation/header/sidebar or external live data. Three literal Tailwind theme utility rules only.",
+    "focusReturn": "Known pinned limitation; not certified."
+  },
+  "method": "Original code SVG; no image model calls",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

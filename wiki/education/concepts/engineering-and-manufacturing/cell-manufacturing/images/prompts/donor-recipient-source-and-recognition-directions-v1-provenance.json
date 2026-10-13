@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-educational-code-svg",
+  "creator": "agent:/root/batch07_author_group2",
+  "actualCreativeRole": "agent:/root/batch07_author_group2",
+  "createdAtUTC": "2026-10-13T18:16:58.068633+00:00",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+  "prospectiveTaskId": "next-gap-175",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original hand-authored SVG source through private Python serializer",
+  "originalIntentFile": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/donor-recipient-source-and-recognition-directions-v1.txt",
+  "originalIntentSHA256": "b2cd2b078f48c6246270237194cfac055f81fc91658b5fa76587789f2987d27f",
+  "sourcePreimageSHA256": "bf06fcf2c83033af50de757cb140246c27b8ce598559412ca0adae3f8326d36e",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-light.svg",
+      "sha256": "2b5783fa0b2811c004d1375f6ebe78adfbe81e0fd12f22ec929baf5700165400",
+      "bytes": 3700
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-dark.svg",
+      "sha256": "723c54d9eb0f15d29866709411aa524e5b6778a438e4c07f98dfc36816a3274c",
+      "bytes": 3700
+    }
+  ],
+  "independentPeer": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "liveApproval": false,
+  "authorDisplayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "393x700",
+      "1440x1000"
+    ],
+    "nativeSize": "600x780",
+    "minEssentialMobileInlinePx": 19.77578125,
+    "minEssentialMobileDefaultPreviewPx": 19.55,
+    "inspection": "Actual named creative author personally inspected original light/dark native and inline/default-preview PNGs. Author check only; independent peer and human review pending.",
+    "transparentBackground": "SVGoutermargin/gutters transparent;theme-colored semanticcards support readabletheaterpreview."
+  }
+}

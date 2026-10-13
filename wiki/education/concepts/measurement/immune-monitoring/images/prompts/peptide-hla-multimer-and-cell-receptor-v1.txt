@@ -1,0 +1,10 @@
+Original code-SVG intent — A reagent tests a paired target
+Author: agent:/root/batch07_author_group3
+Written: 2026-10-13T18:13:46.838097+00:00
+Learner task: Recognize a paired peptide–HLA multimer reagent rather than a tumor cell
+Scene: A labeled scaffold carries four schematic copies of peptide P held by HLA-A*02:01. Two copies contact receptors on a sampled T cell, showing multivalent attachment. An identity key distinguishes peptide, HLA and label; binding does not show that tumor cells naturally display that pair or are killed. Peptide P is invented.
+Caption: Multimer binding belongs to the specified peptide–HLA reagent and assay conditions.
+Explain: Peptide P is an invented identifier, and HLA-A*02:01 is the named example allele. Each purple holder carries the same orange peptide. Multiple copies attach to the labeled scaffold, helping the reagent remain associated with matching receptors through multivalent contact, or avidity. This reagent is not a tumor cell. An observed stain identifies binding under the tested conditions; it does not show natural processing and display of that pair by a tumor. Functional activation and target-cell killing need suitable, separate tests.
+Science guards: Specify the peptide, HLA allele and multivalent reagent rather than a tumor cell. Reagent binding/avidity is not evidence that tumor displays that pair or is recognized/killed functionally.
+Keep existing body, navigation, citations and all unique practice. Transparent 600x900 SVG; minimum 32px source text; mobile essential-label rendered minimum 16px must be verified in pinned reader. Same geometry/object identity across themes; blue cells/binders, purple holders/capture elements, green cytokines or recovered fraction, orange label/peptide/channel role local to each diagram. No image-generation calls; model null. Numbers are explicitly invented. Do not infer clinical benefit, eligibility or treatment choice.
+Evidence: https://pubmed.ncbi.nlm.nih.gov/8810254/ — 1996 metadata and complete abstract through Europe PMC core API; paired HLA-A2/peptides and multimerization; 2006 production-method abstract PMID17187819; no full-text methods read

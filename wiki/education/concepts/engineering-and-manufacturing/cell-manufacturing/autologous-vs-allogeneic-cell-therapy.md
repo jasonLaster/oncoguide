@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/cell-ther
 used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-09"
+updated: "2026-10-13"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -36,6 +36,12 @@ An autologous workflow commonly collects a person's cells by [leukapheresis](/wi
 An allogeneic workflow uses donor-derived cells. Depending on the platform, the source may be blood, cord blood or a donor-derived cell bank. Some processes can manufacture multiple doses in advance. A banked product still needs release, distribution and recipient eligibility.
 
 Two immune directions matter. **Graft-versus-host disease** means donor immune cells attack the recipient's tissues. **Host rejection** means the recipient's immune system attacks donor cells. Those are different events.
+
+<img src="./images/donor-recipient-source-and-recognition-directions-v1-light.svg" alt="Donor immune cells attack recipient tissue in graft-versus-host disease; recipient immune cells attack donor cells in host rejection. A separate source panel distinguishes recipient-derived from donor-derived cells, and a separate location panel distinguishes engineering outside from inside the body." data-theme-pair />
+
+*Follow the arrow from the attacking immune cells to the cells or tissues they recognize. Source and engineering location answer different questions.*
+
+In the two recognition panels, teal marks donor cells and amber marks recipient cells. The arrows describe possible immune directions, not rates or inevitable events. The source panel asks whose cells do the work; the location panel asks where they are changed. Neither axis supplies a universal safety ranking.
 
 Conventional donor T cells can recognize foreign [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). Particular products may use selection or genetic changes to reduce harmful recognition. The resulting risks depend on the actual cells and engineering; “allogeneic” does not establish safety.
 
@@ -94,6 +100,9 @@ Source check: October 9, 2026; expert and learner review pending. These are sour
 - [NCI dictionary: allogeneic](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/allogeneic).
 - [FDA final CAR T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — source-specific manufacturing and clinical considerations.
 - [NCI stem-cell transplantation](https://www.cancer.gov/about-cancer/treatment/types/stem-cell-transplant) — graft-versus-host disease; transplant risks should not be numerically transferred to every engineered cell product.
+
+
+Visual relationship check: October 13, 2026. The new illustration was checked against the relevant FDA CAR T-cell guidance sections; invented arithmetic is teaching data. Existing paper citations retain their stated scope. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

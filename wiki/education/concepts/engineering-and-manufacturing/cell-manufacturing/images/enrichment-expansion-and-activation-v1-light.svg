@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="780" viewBox="0 0 600 780" role="img" aria-labelledby="title desc">
+<title id="title">Enrichment or expansion?</title><desc id="desc">Independent fictional examples, in millions of viable cells: a starting mixture of 20 intended and 80 other cells is 20 percent intended; enrichment retains 20 intended and 5 other cells, giving 80 percent intended without an increase in intended cells. A separate culture expands a defined viable population from 20 to 100 million, giving five-fold expansion. Activation and killing require separate measurements.</desc>
+<defs><marker id="teal" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#076f66"/></marker><marker id="amber" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#925006"/></marker><marker id="line" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#819ca8"/></marker></defs>
+<rect x="12" y="2" width="576" height="100" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<rect x="12" y="109" width="576" height="172" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<rect x="12" y="294" width="576" height="211" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<rect x="12" y="678" width="576" height="90" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="24" y="44" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#182a37" text-anchor="start">Enrichment or expansion?</text>
+<text x="24" y="92" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#485d6b" text-anchor="start">Invented • viable cells, millions</text>
+<text x="24" y="143" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">START: 20 intended + 80 other</text>
+<rect x="24" y="166" width="110.4" height="50" fill="#076f66"/>
+<rect x="134.4" y="166" width="441.6" height="50" fill="#925006"/>
+<text x="24" y="261" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">20 / 100 = 20% intended</text>
+<text x="24" y="322" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">ENRICH: 20 intended + 5 other</text>
+<rect x="24" y="344" width="110.4" height="50" fill="#076f66"/>
+<rect x="134.4" y="344" width="27.6" height="50" fill="#925006"/>
+<text x="24" y="439" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">20 / 25 = 80% intended</text>
+<text x="24" y="490" font-family="system-ui, sans-serif" font-size="34" font-weight="700" fill="#076f66" text-anchor="start">Same 20 intended cells</text>
+<rect x="24" y="516" width="552" height="145" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="46" y="558" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">SEPARATE CULTURE</text>
+<text x="46" y="604" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">20 → 100 million viable</text>
+<text x="46" y="646" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">100 / 20 = 5-fold expansion</text>
+<text x="24" y="708" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">Activation? Measure cell state.</text>
+<text x="24" y="754" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">Killing? Measure activity.</text>
+</svg>

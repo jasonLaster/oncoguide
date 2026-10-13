@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-182",
+  "owner": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+  "author": "agent:/root/batch07_author_group3",
+  "creativeAuthor": "agent:/root/batch07_author_group3",
+  "reviewer": "agent:/root/batch07_review_group3",
+  "independentReviewer": "agent:/root/batch07_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:40:30.476464+00:00",
+  "reviewedAtUTC": "2026-10-13T18:40:30.476464+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "97920f73e69a489efb8965594795338b291ed068a3ac7590afb1e0bc3e494fa6",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/262",
+  "frozenRowSHA256": "fe7851766034d9446c014adb744bdc215816fe5ab458fbc07a9c3191766bb3a6",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "verifiedCanonicalPreimageCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Original independent science/pixel review found the blood/tissue compartments, labeled/unlabeled competition and stated clearance/retention/time limits adequate for the frozen task. B07-G3-C1 now closes: alt, both SVG desc elements, saved prompt Scene and private-plan alt say clearance/retention are noted in text, matching the existing drawing. The exact description-only substitution leaves all rendered geometry, text and colors unchanged; scientific/read-depth/carrier/focus-return limits remain inherited. Uptake is not target abundance alone, a therapeutic dose or benefit.",
+    "frozenPageSHA256": "1e99b35de0fc12fef2e9e7c2e11b3cf9eb5e48d4e42bd33b33a13038415c40ac",
+    "baselinePageSHA256": "1e99b35de0fc12fef2e9e7c2e11b3cf9eb5e48d4e42bd33b33a13038415c40ac",
+    "learnerTask": "Separate labeled binder delivery, competition and retention from target abundance",
+    "gap": "No compartment or labeled/unlabeled competition schematic",
+    "accuracyGuardrails": "Match isotope, binder format and imaging time to the claim. Delivery, competition/blocking, clearance and retention affect uptake; tracer signal is not target abundance alone, therapeutic dose or benefit."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/corrections-01/prospective/wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "sha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac",
+      "bytes": 4799,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/corrections-01/prospective/wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "sha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf",
+      "bytes": 4799,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+        "sha256": "97920f73e69a489efb8965594795338b291ed068a3ac7590afb1e0bc3e494fa6",
+        "bytes": 9526
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+        "sha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac",
+        "bytes": 4799
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+        "sha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf",
+        "bytes": 4799
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/labeled-binder-delivery-competition-and-retention-v1.txt",
+        "sha256": "d819c7e555dc114f0d5a943a44abb570ecf03c780ecd07d4cba5a635a2e4bf9c",
+        "bytes": 2192
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/labeled-binder-delivery-competition-and-retention-v1-provenance.json",
+        "sha256": "1d1abd440fafc7c7f5fcebc025649e93eae65db8d33a4df7d85de0db4436174a",
+        "bytes": 2995
+      }
+    ],
+    "currentCandidateOwnerSHA256": "97920f73e69a489efb8965594795338b291ed068a3ac7590afb1e0bc3e494fa6",
+    "currentCandidatePairBound": true,
+    "originalContentMetadataCitationsPracticeAndNavigationPreserved": true,
+    "changedThisCorrection": true,
+    "renderedSVGBytesUnchangedExcludingDesc": true
+  },
+  "reviewBasis": {
+    "scope": "Focused B07-G3-C1 correction-text/custody closure only; no new science/source/native/reader/whole-package review.",
+    "originalWholeReview": {
+      "verdict": "REVISE",
+      "reviewer": "agent:/root/batch07_review_group3",
+      "reviewedAtUTC": "2026-10-13T18:35:45.946425+00:00",
+      "receiptPath": "/tmp/education-next-visual-batch-07/reviews/constructs-compartments-and-assay-readouts/review.json",
+      "receiptSHA256": "8ea66c511893b05f66f9f12265a5d186ee41311b289f296c931aea1b184196d8",
+      "sealSHA256": "cc7f380547550dc86e2098fae5a4b5abcbf1e31436b85c98c9fee1747d5cbd49",
+      "scientificMathVerdict": "PASS",
+      "nativeAndFreshReaderPixelVerdict": "PASS"
+    },
+    "originalSourceReading": {
+      "path": "/tmp/education-next-visual-batch-07/reviews/constructs-compartments-and-assay-readouts/private/source-reading.json",
+      "sha256": "3b1bd29734dd535d121648aac8bbd6555887b5cecd61d98cc9839f701d9d1632",
+      "readDepth": "Original selected primary/official text and complete primary abstracts retained. Immuno-PET: complete Dijkers, Keyaerts and Bensch abstracts via Europe PMC; full-text imaging methods not read. All inherited source bodies were not rechecked. Original PubMed empty-body/internal-error and other access-failure records remain preserved."
+    },
+    "originalPixelInspection": {
+      "path": "/tmp/education-next-visual-batch-07/reviews/constructs-compartments-and-assay-readouts/private/personal-pixel-inspection.json",
+      "sha256": "eff0ed61c82c609946a1c31139159efada31321953f2134d68be4dff5ab28e3d",
+      "capturesPersonallyInspected": 70,
+      "nativeOriginalSVGCaptures": 14,
+      "freshReaderCaptures": 56,
+      "displayChecksSHA256": "7272c4acecd8367f735b9f0ae2dffe910e9beace90f41de1aafe0118d689a4f9",
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "carrierLimits": "Exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater and SmartTableEnhancer with complete actual shared/app CSS. Isolated full-width education article; no app navigation/header/sidebar or external live data. Three literal Tailwind theme utility rules only.",
+      "focusReturn": "Known pinned-renderer limitation remains qualified; not independently certified.",
+      "newCaptures": 0,
+      "renderedSVGGeometryUnchangedExcludingDesc": true
+    },
+    "correctionCheckAtUTC": "2026-10-13T18:40:30.476464+00:00",
+    "closedFindingIds": [
+      "B07-G3-C1"
+    ],
+    "correctionAuthorReceiptSHA256": "2bef09cacb89e53a0f3722a543362580e403c350ec375aa9553e431b4ea89a3b",
+    "correctionAuthorSealSHA256": "49314b12ce4a3671782e0768b09b9d654054e9aa41775ba79799a949ff2f54e4",
+    "noNewScienceSourceOrPixelReview": true
+  },
+  "method": "Original code SVG; no image model calls",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

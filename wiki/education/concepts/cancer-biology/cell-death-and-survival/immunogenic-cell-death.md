@@ -47,6 +47,13 @@ flowchart TD
 
 ## Why it matters in cancer
 
+<img src="./images/danger-signals-host-learning-and-challenge-v1-light.svg" alt="Dying tumor cells and danger signals lead to a functional mouse-model test: remove inducer, add no separate adjuvant, vaccinate a compatible immune-competent host, then compare matched living-tumor challenges and specificity controls." data-theme-pair />
+
+*Measure danger signals, host learning and functional protection as separate claims.*
+
+Follow the two stages in the picture. First measure what the dying preparation contains and remove any inducing chemical; the depicted vaccination test adds no separate immune adjuvant. Then ask whether a compatible, immune-competent host resists a later challenge with living cells of the same tumor. Compare vaccinated and unvaccinated hosts under matched challenge conditions; an unrelated but compatible tumor challenge helps test specificity. Tumor incidence and growth are functional readouts. The illustration supplies no dosing or handling protocol and no assumed protective result. This model test is distinct from measuring DAMPs, and it does not establish distant clinical benefit. [Consensus: in-vivo models and interpretation](https://pmc.ncbi.nlm.nih.gov/articles/PMC7064135/)
+
+
 ICD offers a way to investigate how local injury might support broader immune recognition. DAMP measurements alone cannot demonstrate tumor-specific immune memory, distant control or patient benefit.
 
 A recognized functional test uses treated, dying tumor cells as a vaccine in compatible immune-competent mice, then challenges them with living matched tumor cells. The consensus describes removing the inducing chemical and adding no separate immune adjuvant. Protection and specificity are tested with appropriate comparison groups. This addresses immunogenicity in that model; it does not validate a clinical regimen. Comparing immune-competent and immune-deficient hosts alone may reveal immune involvement without isolating ICD from other immunostimulation.

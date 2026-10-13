@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="850" viewBox="0 0 480 850" role="img" aria-labelledby="title desc"><title id="title">A native subset-specific contact and an added CAR have different target requirements.</title><desc id="desc">Subset-limited Vγ9Vδ2 contact shows BTN2A1 engaging native TCR with BTN3A1-linked target-cell phosphoantigen sensing, and a separate engineered contact shows a CAR binding its surface target X.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#9bafc2"/></marker></defs>
+<rect x="4" y="8" width="472" height="46" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<rect x="4" y="70" width="472" height="414" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<rect x="4" y="506" width="472" height="239" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<rect x="4" y="754" width="472" height="94" rx="12" fill="#142538" stroke="#142538" stroke-width="2"/>
+<text x="20" y="38" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Two contacts, two questions</text>
+<text x="20" y="96" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Native Vγ9Vδ2 example</text>
+<path d="M30 176H450" fill="none" stroke="#62d6d1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="149" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="400">Gamma-delta cell</text>
+<path d="M245 178V222M245 222L221 254M245 222L267 254" fill="none" stroke="#c1a4ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="325" y="225" font-family="Arial, sans-serif" font-size="28" fill="#c1a4ff" text-anchor="start" font-weight="400">TCR</text>
+<path d="M30 328H450" fill="none" stroke="#ffc277" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="189" y="277" width="35" height="52" rx="8" fill="#1c3044" stroke="#ffc277" stroke-width="2"/>
+<rect x="267" y="275" width="35" height="54" rx="8" fill="#1c3044" stroke="#62d6d1" stroke-width="2"/>
+<path d="M221 254L209 278" fill="none" stroke="#c1a4ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M267 254L284 275" fill="none" stroke="#c1a4ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<text x="20" y="300" font-family="Arial, sans-serif" font-size="28" fill="#ffc277" text-anchor="start" font-weight="400">BTN2A1</text>
+<text x="325" y="300" font-family="Arial, sans-serif" font-size="28" fill="#62d6d1" text-anchor="start" font-weight="400">BTN3A1</text>
+<circle cx="224" cy="363" r="6" fill="#ffc277" stroke="#ffc277" stroke-width="2"/>
+<circle cx="267" cy="385" r="6" fill="#ffc277" stroke="#ffc277" stroke-width="2"/>
+<circle cx="190" cy="388" r="6" fill="#ffc277" stroke="#ffc277" stroke-width="2"/>
+<path d="M272 369L284 340" fill="none" stroke="#ffc277" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="7 7"/>
+<text x="20" y="433" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Target-cell phosphoantigens</text>
+<text x="20" y="468" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">signal through butyrophilins.</text>
+<text x="20" y="527" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="700">Added CAR: target X</text>
+<path d="M30 594H450" fill="none" stroke="#62d6d1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="565" font-family="Arial, sans-serif" font-size="28" fill="#eff7ff" text-anchor="start" font-weight="400">Engineered gamma-delta cell</text>
+<path d="M235 594V633" fill="none" stroke="#8ebdff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M215 636Q235 659 255 636" fill="none" stroke="#8ebdff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="310" y="635" font-family="Arial, sans-serif" font-size="28" fill="#8ebdff" text-anchor="start" font-weight="400">CAR</text>
+<path d="M30 723H450" fill="none" stroke="#ffc277" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M235 723V677" fill="none" stroke="#ffa3b0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="235" cy="669" r="12" fill="#ffa3b0" stroke="#ffa3b0" stroke-width="2"/>
+<text x="305" y="696" font-family="Arial, sans-serif" font-size="28" fill="#ffa3b0" text-anchor="start" font-weight="400">Target X</text>
+<text x="20" y="775" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">Native route varies by subset.</text>
+<text x="20" y="810" font-family="Arial, sans-serif" font-size="28" fill="#bfd0df" text-anchor="start" font-weight="400">CAR needs X; test function.</text>
+</svg>

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-169",
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+  "author": "agent:/root/batch07_author_group1",
+  "creativeAuthor": "agent:/root/batch07_author_group1",
+  "reviewer": "agent:/root/batch07_review_group1",
+  "independentReviewer": "agent:/root/batch07_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:32:04.635180+00:00",
+  "reviewedAtUTC": "2026-10-13T18:32:04.635180+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "66135565f32526d429ceb3c39556d1691a39dd8501da17e7e6d6070b2c7e7593",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/83",
+  "frozenRowSHA256": "8ae5337eaf1cd7afc222219829c756bdc1c2671c90c3a4732dda50789ea039ae",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "checkedCommittedPreimageAt": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Preparation and compatible-host challenge panels bridge marker readouts to a controlled functional model test. Removal of inducer, absence of added adjuvant, vaccinated/unvaccinated comparisons, unrelated compatible tumor specificity control, and incidence/growth are explicit. No protection result or patient benefit is assumed; original practice separates ATP from adaptive learning.",
+    "frozenPageSHA256": "7e11d0b8753d00beff39bcfcc3a551328b6be2e65833f261f5cb1b6cd4f2d336",
+    "baselinePageSHA256": "7e11d0b8753d00beff39bcfcc3a551328b6be2e65833f261f5cb1b6cd4f2d336",
+    "learnerTask": "Distinguish danger-signal measurements from compatible-host adaptive learning and functional protection.",
+    "gap": "The requirement-chain Mermaid correctly says outcomes are not guaranteed. The distinctive functional vaccination/challenge test remains prose-only; a short two-stage model diagram with washed dying cells, compatible host and matched challenge would make the evidence leap testable rather than showing another generic alarm cartoon.",
+    "accuracyGuardrails": [
+      "Model-bound functional test, no clinical regimen recommendation.",
+      "Remove inducer/no added adjuvant in the described test; specify comparison groups.",
+      "DAMPs are not tumor antigens or proof of distant benefit."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+      "sha256": "85958b20d6a0170b888a6eabd12006ed1517f8618e67f40eaac25d066ccab13c",
+      "bytes": 5662,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+      "sha256": "66a5b03febd22eb25a978b6c37ac743eb9b17ae601777bb8c03b9d4d75e28b05",
+      "bytes": 5662,
+      "candidatePath": "/tmp/education-next-visual-batch-07/receptor-assembly-signals-and-model-readouts/prospective/wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 480,
+        "height": 850,
+        "viewBox": "0 0 480 850"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+        "sha256": "66135565f32526d429ceb3c39556d1691a39dd8501da17e7e6d6070b2c7e7593",
+        "bytes": 8903
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+        "sha256": "85958b20d6a0170b888a6eabd12006ed1517f8618e67f40eaac25d066ccab13c",
+        "bytes": 5662
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+        "sha256": "66a5b03febd22eb25a978b6c37ac743eb9b17ae601777bb8c03b9d4d75e28b05",
+        "bytes": 5662
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/danger-signals-host-learning-and-challenge-v1.txt",
+        "sha256": "998a39af979f870dc665ff686e7eaecdbcd68e704f9e796af19edba702daadab",
+        "bytes": 1934
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/danger-signals-host-learning-and-challenge-v1-provenance.json",
+        "sha256": "acf435ab4ba899b4ad7b23331df215aff4b455845f9d5837013f9418d972ec41",
+        "bytes": 5004
+      }
+    ],
+    "currentCandidateOwnerSHA256": "66135565f32526d429ceb3c39556d1691a39dd8501da17e7e6d6070b2c7e7593",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "64dee892b16e425577b4d7481d6a25c4b390d37ca75f256e7944d57e41e3fe31",
+    "exactFivePublicFiles": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, arithmetic, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Complete official abstracts plus bounded official docs and selected ICD/model-paper sections; no invented complete-paper/figure/method reading.",
+    "freshCaptureCountForOwner": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated pinned full-width article/frame/theater/table-enhancer and actual CSS; no live site navigation, sidebar or external data. Transparent margins/gutters show dim underlying content; essential content is on opaque semantic panels. Focus returns BODY after Escape in one-owner probe across both themes/viewports. No complete a11y or touch certification."
+  },
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

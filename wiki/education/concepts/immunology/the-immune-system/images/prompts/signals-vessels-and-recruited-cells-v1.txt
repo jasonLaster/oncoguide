@@ -1,0 +1,10 @@
+Original code-SVG intent brief
+Author: agent:/root/batch07_author_group1
+Task: next-gap-173
+Learner task: Locate tissue signals, vascular changes and recruited cells while distinguishing containment/repair from persistence or injury.
+Design: original 480×850 SVG with transparent margins/gutters and discrete theme-colored semantic panels, paired native light/dark colors, identical biological geometry and data. All visible labels are at least 28 native pixels; actual carrier readability requires verification.
+Alt: A tissue cross-section locates a blood vessel, recruited white cells, fluid and proteins, and signals near damaged tissue. The response can support containment and repair or persist and injure; permeability is not angiogenesis.
+Caption: Locate signals, vessel changes and responders before interpreting whether inflammation helps.
+Teaching details: Locate the compartments before reading the outcome. Local signals near injured or stressed tissue can affect a nearby vessel and recruit circulating cells. The arrow across the vessel wall depicts **cell entry**, while the separate fluid/protein arrow depicts increased permeability. It does not depict a new vessel growing. Responders may support containment and repair; persistent signaling may accompany further injury. The sketch is schematic, with no measured time course or inevitable outcome, and infection is only one possible trigger. None of these tissue changes establishes tumor-specific recognition or useful cancer control. [Inflammation physiology](https://pubmed.ncbi.nlm.nih.gov/18650913/)
+Guards: ['Infection is one trigger, not the definition.', 'Vascular permeability is not angiogenesis.', 'Inflammation is not demonstrated tumor-specific recognition or useful cancer control.']
+No generated raster assets or image-model calls. No review or release claim.

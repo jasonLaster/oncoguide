@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-educational-code-svg",
+  "creator": "agent:/root/batch07_author_group2",
+  "actualCreativeRole": "agent:/root/batch07_author_group2",
+  "createdAtUTC": "2026-10-13T18:16:58.068633+00:00",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+  "prospectiveTaskId": "next-gap-177",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original hand-authored SVG source through private Python serializer",
+  "originalIntentFile": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/recovered-viability-and-input-recovery-v1.txt",
+  "originalIntentSHA256": "3db40d9f3deed81d6ad336de7e9f41253330629f2ea251a54e6de139fd01f68f",
+  "sourcePreimageSHA256": "6ae9d422caccbbfdfef28719a9d10c8eebc5975ab2a1dac3d061b1ca27bfc447",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-light.svg",
+      "sha256": "d33e29f4a0e4fd1425ce8f41fa67f1d1ca2205e13c77ff8cbc77a6df024f99ea",
+      "bytes": 11619
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-dark.svg",
+      "sha256": "197239c962bacfa79c2cc41bb56536ac452611f67bf0d49221b9c3a36cbfc16a",
+      "bytes": 11619
+    }
+  ],
+  "independentPeer": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "liveApproval": false,
+  "authorDisplayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "393x700",
+      "1440x1000"
+    ],
+    "nativeSize": "600x780",
+    "minEssentialMobileInlinePx": 19.77578125,
+    "minEssentialMobileDefaultPreviewPx": 19.55,
+    "inspection": "Actual named creative author personally inspected original light/dark native and inline/default-preview PNGs. Author check only; independent peer and human review pending.",
+    "transparentBackground": "SVGoutermargin/gutters transparent;theme-colored semanticcards support readabletheaterpreview."
+  }
+}

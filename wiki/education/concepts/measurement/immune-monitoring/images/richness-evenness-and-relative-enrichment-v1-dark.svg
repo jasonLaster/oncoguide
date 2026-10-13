@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Read the distribution first</title><desc id="desc">Invented molecule distributions show four clonotypes with equal weights (25,25,25,25) and four with unequal weights (70,10,10,10), both totaling 100. A separate before/later comparison keeps clonotype A at 30 molecules while other identities fall from 70 to 20; A rises from 30 percent to 60 percent of the sample without increasing its molecule count.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b3c7d9" /></marker></defs>
+<rect x="14" y="8" width="572" height="103" rx="12" fill="#172a3c" /><text x="24" y="48" fill="#eef5fc" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Read the distribution first</tspan></text>
+<text x="24" y="98" fill="#c1d0de" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="24" dy="0">Invented measured molecules</tspan></text>
+<rect x="24" y="122" width="552" height="336" rx="16" fill="#172a3c" />
+<text x="42" y="164" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Same richness: four identities</tspan></text>
+<text x="42" y="210" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Even</tspan></text>
+<text x="316" y="210" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="316" dy="0">Uneven</tspan></text>
+<text x="42" y="260" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">A</tspan></text>
+<rect x="77" y="236" width="37.5" height="25" rx="0" fill="#72bfff" />
+<text x="148" y="260" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="148" dy="0">25</tspan></text>
+<text x="316" y="260" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="316" dy="0">A</tspan></text>
+<rect x="350" y="236" width="105.0" height="25" rx="0" fill="#72bfff" />
+<text x="466" y="260" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="466" dy="0">70</tspan></text>
+<text x="42" y="307" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">B</tspan></text>
+<rect x="77" y="283" width="37.5" height="25" rx="0" fill="#69d6b0" />
+<text x="148" y="307" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="148" dy="0">25</tspan></text>
+<text x="316" y="307" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="316" dy="0">B</tspan></text>
+<rect x="350" y="283" width="15.0" height="25" rx="0" fill="#69d6b0" />
+<text x="466" y="307" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="466" dy="0">10</tspan></text>
+<text x="42" y="354" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">C</tspan></text>
+<rect x="77" y="330" width="37.5" height="25" rx="0" fill="#c7a2f3" />
+<text x="148" y="354" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="148" dy="0">25</tspan></text>
+<text x="316" y="354" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="316" dy="0">C</tspan></text>
+<rect x="350" y="330" width="15.0" height="25" rx="0" fill="#c7a2f3" />
+<text x="466" y="354" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="466" dy="0">10</tspan></text>
+<text x="42" y="401" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">D</tspan></text>
+<rect x="77" y="377" width="37.5" height="25" rx="0" fill="#f6ba68" />
+<text x="148" y="401" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="148" dy="0">25</tspan></text>
+<text x="316" y="401" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="316" dy="0">D</tspan></text>
+<rect x="350" y="377" width="15.0" height="25" rx="0" fill="#f6ba68" />
+<text x="466" y="401" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="466" dy="0">10</tspan></text>
+<text x="44" y="447" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="44" dy="0">100 total each; weights differ</tspan></text>
+<rect x="24" y="480" width="552" height="283" rx="16" fill="#172a3c" />
+<text x="42" y="524" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Separate before / later example</tspan></text>
+<text x="42" y="566" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Before: A = 30 of 100 = 30%</tspan></text>
+<rect x="44" y="587" width="144" height="36" rx="0" fill="#72bfff" />
+<rect x="188" y="587" width="336" height="36" rx="0" fill="#c1d0de" />
+<text x="42" y="668" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Later: A = 30 of 50 = 60%</tspan></text>
+<rect x="44" y="690" width="144" height="36" rx="0" fill="#72bfff" />
+<rect x="188" y="690" width="96" height="36" rx="0" fill="#c1d0de" />
+<text x="42" y="753" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Blue A unchanged; others fall</tspan></text>
+<rect x="24" y="784" width="552" height="100" rx="12" fill="#172a3c" stroke="#b3c7d9" stroke-width="3" stroke-dasharray="8 6" />
+<text x="42" y="824" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Larger share ≠ more cells</tspan><tspan x="42" dy="38">or known tumor specificity.</tspan></text>
+</svg>

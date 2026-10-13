@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="850" viewBox="0 0 480 850" role="img" aria-labelledby="title desc"><title id="title">Choose and join receptor-gene pieces before asking what the finished receptor recognizes.</title><desc id="desc">Selected V2, D1 and J3 gene segments form a VDJ receptor-gene join in a developing lymphocyte; a separate VJ example has no D segment. Expression and selection precede later antigen encounter.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#607789"/></marker></defs>
+<rect x="4" y="8" width="472" height="132" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="4" y="157" width="472" height="459" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="4" y="630" width="472" height="218" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<text x="20" y="38" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">Build first, recognize later</text>
+<text x="20" y="85" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">Developing lymphocyte</text>
+<text x="20" y="120" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">Simplified DNA segment strips</text>
+<text x="20" y="177" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">VDJ: antibody heavy / TCR β</text>
+<path d="M28 231H450" fill="none" stroke="#607789" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="44" y="208" width="104" height="46" rx="8" fill="#edf5f8" stroke="#087f8c" stroke-width="2"/>
+<text x="96" y="240" font-family="Arial, sans-serif" font-size="28" fill="#087f8c" text-anchor="middle" font-weight="400">V1</text>
+<rect x="179" y="208" width="104" height="46" rx="8" fill="#edf5f8" stroke="#087f8c" stroke-width="2"/>
+<text x="231" y="240" font-family="Arial, sans-serif" font-size="28" fill="#087f8c" text-anchor="middle" font-weight="700">V2</text>
+<path d="M182 260h98" fill="none" stroke="#087f8c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="314" y="208" width="104" height="46" rx="8" fill="#edf5f8" stroke="#087f8c" stroke-width="2"/>
+<text x="366" y="240" font-family="Arial, sans-serif" font-size="28" fill="#087f8c" text-anchor="middle" font-weight="400">V3</text>
+<path d="M28 301H450" fill="none" stroke="#607789" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="44" y="278" width="104" height="46" rx="8" fill="#edf5f8" stroke="#9a5500" stroke-width="2"/>
+<text x="96" y="310" font-family="Arial, sans-serif" font-size="28" fill="#9a5500" text-anchor="middle" font-weight="700">D1</text>
+<path d="M47 330h98" fill="none" stroke="#9a5500" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="179" y="278" width="104" height="46" rx="8" fill="#edf5f8" stroke="#9a5500" stroke-width="2"/>
+<text x="231" y="310" font-family="Arial, sans-serif" font-size="28" fill="#9a5500" text-anchor="middle" font-weight="400">D2</text>
+<path d="M28 371H450" fill="none" stroke="#607789" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="44" y="348" width="104" height="46" rx="8" fill="#edf5f8" stroke="#744fc3" stroke-width="2"/>
+<text x="96" y="380" font-family="Arial, sans-serif" font-size="28" fill="#744fc3" text-anchor="middle" font-weight="400">J1</text>
+<rect x="179" y="348" width="104" height="46" rx="8" fill="#edf5f8" stroke="#744fc3" stroke-width="2"/>
+<text x="231" y="380" font-family="Arial, sans-serif" font-size="28" fill="#744fc3" text-anchor="middle" font-weight="400">J2</text>
+<rect x="314" y="348" width="104" height="46" rx="8" fill="#edf5f8" stroke="#744fc3" stroke-width="2"/>
+<text x="366" y="380" font-family="Arial, sans-serif" font-size="28" fill="#744fc3" text-anchor="middle" font-weight="700">J3</text>
+<path d="M317 400h98" fill="none" stroke="#744fc3" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="446" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">Selected segments join:</text>
+<rect x="40" y="468" width="124" height="55" rx="8" fill="#edf5f8" stroke="#087f8c" stroke-width="2"/>
+<text x="102" y="505" font-family="Arial, sans-serif" font-size="28" fill="#087f8c" text-anchor="middle" font-weight="700">V2</text>
+<rect x="174" y="468" width="124" height="55" rx="8" fill="#edf5f8" stroke="#9a5500" stroke-width="2"/>
+<text x="236" y="505" font-family="Arial, sans-serif" font-size="28" fill="#9a5500" text-anchor="middle" font-weight="700">D1</text>
+<rect x="308" y="468" width="124" height="55" rx="8" fill="#edf5f8" stroke="#744fc3" stroke-width="2"/>
+<text x="370" y="505" font-family="Arial, sans-serif" font-size="28" fill="#744fc3" text-anchor="middle" font-weight="700">J3</text>
+<path d="M164 496H174M298 496H308" fill="none" stroke="#607789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="562" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">RAG cuts → repair joins</text>
+<text x="20" y="597" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">DNA sequence varies at joins</text>
+<text x="20" y="658" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">VJ: light chain / TCR α</text>
+<rect x="40" y="680" width="164" height="55" rx="8" fill="#edf5f8" stroke="#087f8c" stroke-width="2"/>
+<text x="122" y="717" font-family="Arial, sans-serif" font-size="28" fill="#087f8c" text-anchor="middle" font-weight="700">V + J</text>
+<text x="230" y="715" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">No D segment</text>
+<text x="20" y="780" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">Expression → selection</text>
+<text x="20" y="815" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">→ later antigen encounter</text>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-educational-code-svg",
+  "creator": "agent:/root/batch07_author_group2",
+  "actualCreativeRole": "agent:/root/batch07_author_group2",
+  "createdAtUTC": "2026-10-13T18:16:58.068633+00:00",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/release-testing-for-cell-products.md",
+  "prospectiveTaskId": "next-gap-179",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original hand-authored SVG source through private Python serializer",
+  "originalIntentFile": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/nested-live-and-receptor-positive-denominators-v1.txt",
+  "originalIntentSHA256": "b77e9c3d250c9d40e25990e34ec61e7d91a37732509bf58d8e3e5b7994777b62",
+  "sourcePreimageSHA256": "1f42ab5764d6df54722a71da632694f1611710003d10e64ab13c3a62a6bf8c21",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-light.svg",
+      "sha256": "5c3e805d61e3c4daf2b0e78a4affe75ec50c1fd2b1777bc36334af351cca9980",
+      "bytes": 11821
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-dark.svg",
+      "sha256": "2498d27df92876655655b5575ba25039d54aedb117f4987a4ef2b9eb515c664d",
+      "bytes": 11821
+    }
+  ],
+  "independentPeer": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "liveApproval": false,
+  "authorDisplayCheck": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "393x700",
+      "1440x1000"
+    ],
+    "nativeSize": "600x780",
+    "minEssentialMobileInlinePx": 19.77578125,
+    "minEssentialMobileDefaultPreviewPx": 19.55,
+    "inspection": "Actual named creative author personally inspected original light/dark native and inline/default-preview PNGs. Author check only; independent peer and human review pending.",
+    "transparentBackground": "SVGoutermargin/gutters transparent;theme-colored semanticcards support readabletheaterpreview."
+  }
+}

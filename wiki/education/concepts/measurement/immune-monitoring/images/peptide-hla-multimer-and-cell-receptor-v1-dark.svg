@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">A reagent tests a paired target</title><desc id="desc">A labeled scaffold carries four schematic copies of peptide P held by HLA-A*02:01. Two copies contact receptors on a sampled T cell, showing multivalent attachment. An identity key distinguishes peptide, HLA and label; binding does not show that tumor cells naturally display that pair or are killed. Peptide P is invented.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b3c7d9" /></marker></defs>
+<rect x="14" y="8" width="572" height="103" rx="12" fill="#172a3c" /><text x="24" y="48" fill="#eef5fc" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="24" dy="0">A reagent tests a paired target</tspan></text>
+<text x="24" y="98" fill="#c1d0de" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="24" dy="0">Peptide P is invented</tspan></text>
+<rect x="24" y="122" width="552" height="450" rx="16" fill="#172a3c" />
+<text x="44" y="163" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="44" dy="0">Four paired copies on</tspan><tspan x="44" dy="38">a labeled scaffold</tspan></text>
+<circle cx="288" cy="279" r="22" fill="#72bfff" />
+<circle cx="310" cy="260" r="7" fill="#f6ba68" />
+<path d="M 288 279 L 156 265" fill="none" stroke="#72bfff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="128" y="249" width="56" height="28" rx="8" fill="#c7a2f3" />
+<path d="M 140 259 H 172" fill="none" stroke="#f6ba68" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 288 279 L 420 265" fill="none" stroke="#72bfff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="392" y="249" width="56" height="28" rx="8" fill="#c7a2f3" />
+<path d="M 404 259 H 436" fill="none" stroke="#f6ba68" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 288 279 L 216 405" fill="none" stroke="#72bfff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="188" y="389" width="56" height="28" rx="8" fill="#c7a2f3" />
+<path d="M 200 399 H 232" fill="none" stroke="#f6ba68" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 288 279 L 360 405" fill="none" stroke="#72bfff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="332" y="389" width="56" height="28" rx="8" fill="#c7a2f3" />
+<path d="M 344 399 H 376" fill="none" stroke="#f6ba68" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 72 534 Q 288 453 525 534" fill="none" stroke="#72bfff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 216 494 V 442 M 216 444 L 196 420 M 216 444 L 236 420" fill="none" stroke="#72bfff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 360 494 V 442 M 360 444 L 340 420 M 360 444 L 380 420" fill="none" stroke="#72bfff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<text x="135" y="556" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="135" dy="0">Sampled T-cell surface</tspan></text>
+<rect x="24" y="594" width="552" height="169" rx="16" fill="#172a3c" />
+<path d="M 49 632 H 76" fill="none" stroke="#f6ba68" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<text x="96" y="642" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="96" dy="0">Peptide P</tspan></text>
+<rect x="45" y="660" width="35" height="21" rx="6" fill="#c7a2f3" />
+<text x="96" y="686" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="96" dy="0">HLA-A*02:01 holder</tspan></text>
+<circle cx="61" cy="722" r="10" fill="#72bfff" />
+<text x="96" y="734" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="96" dy="0">Scaffold + detectable label</tspan></text>
+<rect x="24" y="784" width="552" height="100" rx="12" fill="#172a3c" stroke="#b3c7d9" stroke-width="3" stroke-dasharray="8 6" />
+<text x="42" y="824" fill="#eef5fc" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">Binding ≠ natural tumor display</tspan><tspan x="42" dy="38">≠ functional tumor killing.</tspan></text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="850" viewBox="0 0 480 850" role="img" aria-labelledby="title desc"><title id="title">Measure danger signals, host learning and functional protection as separate claims.</title><desc id="desc">Dying tumor cells and danger signals lead to a functional mouse-model test: remove inducer, add no separate adjuvant, vaccinate a compatible immune-competent host, then compare matched living-tumor challenges and specificity controls.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#607789"/></marker></defs>
+<rect x="4" y="8" width="472" height="78" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="4" y="102" width="472" height="230" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="4" y="352" width="472" height="260" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="4" y="642" width="472" height="206" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<text x="20" y="38" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">Test the learning, not just</text>
+<text x="20" y="73" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">the danger signals</text>
+<text x="20" y="124" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">1  Prepare dying tumor cells</text>
+<path d="M40 180 C32 150, 70 136, 94 155 C114 172, 109 208, 79 210 C40 218, 30 200, 40 180Z" fill="#edf5f8" stroke="#087f8c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="180" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<path d="M50 160L90 200M90 160L50 200" fill="none" stroke="#bb4052" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M125 180 C117 150, 155 136, 179 155 C199 172, 194 208, 164 210 C125 218, 115 200, 125 180Z" fill="#edf5f8" stroke="#087f8c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="155" cy="180" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<path d="M135 160L175 200M175 160L135 200" fill="none" stroke="#bb4052" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M210 180 C202 150, 240 136, 264 155 C284 172, 279 208, 249 210 C210 218, 200 200, 210 180Z" fill="#edf5f8" stroke="#087f8c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240" cy="180" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<path d="M220 160L260 200M260 160L220 200" fill="none" stroke="#bb4052" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="305" cy="167" r="5" fill="#9a5500" stroke="#9a5500" stroke-width="2"/>
+<circle cx="335" cy="204" r="5" fill="#9a5500" stroke="#9a5500" stroke-width="2"/>
+<circle cx="290" cy="210" r="5" fill="#9a5500" stroke="#9a5500" stroke-width="2"/>
+<text x="20" y="254" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">Measure death and signals.</text>
+<text x="20" y="289" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">Remove inducing chemical;</text>
+<text x="20" y="324" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">no added immune adjuvant.</text>
+<path d="M240 348V380" fill="none" stroke="#607789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M200 426C200 402,259 399,277 416L298 427L274 438C237 451,206 449,200 426Z" fill="#edf5f8" stroke="#607789" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="265" cy="408" r="10" fill="#edf5f8" stroke="#607789" stroke-width="2"/>
+<circle cx="288" cy="425" r="2" fill="#607789" stroke="#607789" stroke-width="2"/>
+<path d="M201 427C171 432,181 462,161 448" fill="none" stroke="#607789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="493" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">2  Compatible, immune-</text>
+<text x="20" y="528" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">competent mouse: vaccinate,</text>
+<text x="20" y="563" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">then challenge with living</text>
+<text x="20" y="598" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">cells of the same tumor.</text>
+<text x="20" y="660" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">Compare matched groups</text>
+<text x="20" y="703" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">Vaccinated vs unvaccinated;</text>
+<text x="20" y="738" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">other compatible tumor cells</text>
+<text x="20" y="773" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">test specificity. Track tumor</text>
+<text x="20" y="808" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">incidence and growth.</text>
+<text x="20" y="840" font-family="Arial, sans-serif" font-size="28" fill="#bb4052" text-anchor="start" font-weight="400">Model protection ≠ patient benefit</text>
+</svg>

@@ -38,6 +38,14 @@ The isotope must suit the binder's biological time course. Zirconium-89 (**89Zr*
 
 **Protein mass matters as well as radioactivity.** Unlabeled antibody or an ongoing therapeutic antibody can compete for binding sites, alter distribution or affect background. Less uptake after such exposure may reflect blocking or changed access; it does not automatically establish target loss. [Primary trastuzumab feasibility study](https://pubmed.ncbi.nlm.nih.gov/20357763/).
 
+### Read the visual
+
+<img src="./images/labeled-binder-delivery-competition-and-retention-v1-light.svg" alt="A radiolabeled Y-shaped binder travels from blood to tissue, where it competes with an unlabeled binder for targets. Text notes that clearance and retained label alter signal over time. Signal includes blood delivery, access, binding and retention at a specified imaging time." data-theme-pair="./images/labeled-binder-delivery-competition-and-retention-v1-dark.svg" />
+
+*An uptake image records the tested tracer’s distribution at a particular time.*
+
+The orange dot marks the radioactive label; the blue Y is the binder. A gray, unlabeled binder can occupy the same target without adding PET signal. Delivery from blood, access to tissue, competition, clearance and retention all shape the recorded distribution. The diagram is conceptual and does not assign uptake values. Record the isotope and binder format together with protein mass, activity and time. For example, the trastuzumab feasibility study tested a full antibody labeled with zirconium-89 over a multi-day imaging window; the gallium-68 nanobody study used a different binder and earlier scans. Their timing is study-specific, not an interchangeable imaging rule. [Dijkers primary feasibility study](https://pubmed.ncbi.nlm.nih.gov/20357763/).
+
 ## Why it matters in cancer
 
 Immuno-PET can investigate how an antibody-based product distributes among visible lesions and normal tissues. It adds distribution information without recreating histology or removing detection limits.

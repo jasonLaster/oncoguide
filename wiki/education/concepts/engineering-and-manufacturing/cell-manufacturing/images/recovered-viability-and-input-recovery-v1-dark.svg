@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="780" viewBox="0 0 600 780" role="img" aria-labelledby="title desc">
+<title id="title">Same live cells, two denominators</title><desc id="desc">Fictional counts in millions: 100 viable cells before freezing, 80 total recovered after thaw, consisting of 72 live and 8 nonlive. Viability is 72 divided by 80, or 90 percent; viable recovery is 72 divided by 100, or 72 percent.</desc>
+<defs><marker id="teal" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#4ed3c1"/></marker><marker id="amber" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#ffc66b"/></marker><marker id="line" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64818d"/></marker></defs>
+<rect x="12" y="2" width="576" height="100" rx="18" fill="#182d3a" stroke="#64818d" stroke-width="2"/>
+<rect x="12" y="108" width="576" height="339" rx="18" fill="#182d3a" stroke="#64818d" stroke-width="2"/>
+<rect x="12" y="454" width="576" height="145" rx="18" fill="#182d3a" stroke="#64818d" stroke-width="2"/>
+<rect x="12" y="614" width="576" height="153" rx="18" fill="#182d3a" stroke="#64818d" stroke-width="2"/>
+<text x="24" y="44" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#f1f5f9" text-anchor="start">Same live cells, two denominators</text>
+<text x="24" y="92" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#b8c8d5" text-anchor="start">Invented • counts in millions</text>
+<text x="24" y="143" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#f1f5f9" text-anchor="start">Input: 100 viable</text>
+<text x="24" y="190" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#f1f5f9" text-anchor="start">Recovered: 80 total</text>
+<circle cx="42" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="111" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="134" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="157" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="180" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="203" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="226" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="249" cy="232" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="42" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="111" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="134" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="157" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="180" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="203" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="226" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="249" cy="254" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="42" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="111" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="134" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="157" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="180" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="203" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="226" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="249" cy="276" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="42" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="111" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="134" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="157" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="180" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="203" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="226" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="249" cy="298" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="42" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="111" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="134" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="157" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="180" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="203" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="226" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="249" cy="320" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="42" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="111" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="134" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="157" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="180" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="203" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="226" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="249" cy="342" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="42" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="111" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="134" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="157" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="180" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="203" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="226" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="249" cy="364" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="42" cy="386" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="65" cy="386" r="8" fill="#4ed3c1" stroke="#4ed3c1" stroke-width="3"/>
+<circle cx="88" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="111" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="134" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="157" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="180" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="203" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="226" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="249" cy="386" r="8" fill="#ffc66b" stroke="#ffc66b" stroke-width="3"/>
+<circle cx="42" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="65" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="88" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="111" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="134" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="157" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="180" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="203" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="226" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="249" cy="408" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="42" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="65" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="88" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="111" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="134" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="157" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="180" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="203" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="226" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<circle cx="249" cy="430" r="8" fill="#182d3a" stroke="#94a7b5" stroke-width="3"/>
+<text x="294" y="264" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#4ed3c1" text-anchor="start">72 live</text>
+<text x="294" y="319" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#ffc66b" text-anchor="start">8 nonlive</text>
+<text x="294" y="374" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#b8c8d5" text-anchor="start">20 not</text>
+<text x="294" y="418" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#b8c8d5" text-anchor="start">recovered</text>
+<text x="24" y="487" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#f1f5f9" text-anchor="start">Viability: recovered set</text>
+<rect x="24" y="507" width="496.8" height="28" fill="#4ed3c1"/>
+<rect x="520.8" y="507" width="55.2" height="28" fill="#ffc66b"/>
+<text x="24" y="581" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="#4ed3c1" text-anchor="start">72 / 80 = 90%</text>
+<text x="24" y="645" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#f1f5f9" text-anchor="start">Viable recovery: input set</text>
+<rect x="24" y="665" width="397.44" height="28" fill="#4ed3c1"/>
+<rect x="421.44" y="665" width="154.56" height="28" fill="#94a7b5"/>
+<text x="24" y="750" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="#4ed3c1" text-anchor="start">72 / 100 = 72%</text>
+</svg>

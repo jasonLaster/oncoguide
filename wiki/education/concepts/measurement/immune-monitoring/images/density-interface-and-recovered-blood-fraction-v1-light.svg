@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Recover a blood fraction</title><desc id="desc">A conceptual density-separated blood tube shows plasma above a recovered mononuclear-cell interface, density medium below it, and red cells with many conventional granulocytes near the bottom. A separate recovered mixture contains lymphocytes and monocytes with possible contaminants. It samples blood, not tumor or lymph node.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52667b" /></marker></defs>
+<rect x="14" y="8" width="572" height="103" rx="12" fill="#f1f6fa" /><text x="24" y="48" fill="#182b40" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Recover a blood fraction</tspan></text>
+<text x="24" y="98" fill="#465b72" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="24" dy="0">Conceptual density separation</tspan></text>
+<rect x="24" y="122" width="552" height="410" rx="16" fill="#f1f6fa" />
+<path d="M 70 150 V 447 Q 70 499 195 499 Q 251 499 251 447 V 150" fill="none" stroke="#52667b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="76" y="161" width="169" height="119" rx="0" fill="#f1f6fa" />
+<rect x="76" y="285" width="169" height="42" rx="0" fill="#0b805f" />
+<rect x="76" y="332" width="169" height="93" rx="0" fill="#7753a6" />
+<rect x="82" y="433" width="157" height="55" rx="14" fill="#b34559" />
+<circle cx="106" cy="305" r="10" fill="#ffffff" />
+<circle cx="103" cy="305" r="4" fill="#7753a6" />
+<circle cx="159" cy="305" r="10" fill="#ffffff" />
+<circle cx="156" cy="305" r="4" fill="#7753a6" />
+<circle cx="214" cy="305" r="10" fill="#ffffff" />
+<circle cx="211" cy="305" r="4" fill="#7753a6" />
+<path d="M 250 306 H 285" fill="none" stroke="#0b805f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="289" y="199" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="289" dy="0">Plasma</tspan></text>
+<text x="289" y="286" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="289" dy="0">Recovered</tspan><tspan x="289" dy="38">interface</tspan></text>
+<text x="289" y="387" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="289" dy="0">Density</tspan><tspan x="289" dy="38">medium</tspan></text>
+<text x="289" y="459" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="289" dy="0">Red cells +</tspan><tspan x="289" dy="38">granulocytes</tspan></text>
+<rect x="24" y="554" width="552" height="209" rx="16" fill="#f1f6fa" />
+<text x="42" y="595" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Recovered mix: check quality</tspan></text>
+<circle cx="84" cy="655" r="29" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="79" cy="658" r="9.860000000000001" fill="#7753a6" />
+<path d="M 70.08 641.95 Q 84 633.25 97.92 641.95" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="175" cy="655" r="39" fill="none" stroke="#1874af" stroke-width="4" />
+<circle cx="170" cy="658" r="13.260000000000002" fill="#7753a6" />
+<path d="M 156.28 637.45 Q 175 625.75 193.72 637.45" fill="none" stroke="#1874af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="252" cy="655" r="7" fill="#b8670b" />
+<text x="300" y="645" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="300" dy="0">Lymphocytes</tspan><tspan x="300" dy="38">+ monocytes</tspan></text>
+<text x="44" y="742" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="44" dy="0">Possible contaminants remain</tspan></text>
+<rect x="24" y="784" width="552" height="100" rx="12" fill="#f1f6fa" stroke="#52667b" stroke-width="3" stroke-dasharray="8 6" />
+<text x="42" y="824" fill="#182b40" font-family="Arial, sans-serif" font-size="32" font-weight="400" text-anchor="start"><tspan x="42" dy="0">This samples a blood fraction.</tspan><tspan x="42" dy="38">It does not sample the tumor.</tspan></text>
+</svg>

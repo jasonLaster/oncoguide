@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="850" viewBox="0 0 480 850" role="img" aria-labelledby="title desc"><title id="title">A percentile rank locates a model score; a predicted concentration describes another output.</title><desc id="desc">Fictional NetMHCpan-4.1-style EL reference histogram has 1000 peptide scores and a four-peptide stronger-scoring tail illustrating 0.4 percent rank. Predicted binding IC50 of 40 nanomolar is a separate BA output, not observed presentation.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#607789"/></marker></defs>
+<rect x="4" y="8" width="472" height="216" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="4" y="244" width="472" height="464" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="4" y="728" width="472" height="120" rx="12" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<text x="20" y="38" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">Where does 0.4% sit?</text>
+<text x="20" y="92" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">NetMHCpan-4.1 EL example</text>
+<text x="20" y="127" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">HLA-A*02:01; 9-mer peptides</text>
+<text x="20" y="181" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">Fictional reference: 1,000 scores</text>
+<text x="20" y="216" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">Random-natural-peptide concept</text>
+<text x="20" y="267" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="700">Reference peptide count</text>
+<path d="M66 302V485H438" fill="none" stroke="#607789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="55" y="494" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="end" font-weight="400">0</text>
+<text x="55" y="411" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="end" font-weight="400">150</text>
+<text x="55" y="327" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="end" font-weight="400">300</text>
+<rect x="78" y="347.5" width="30" height="137.5" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="117" y="353.0" width="30" height="132.0" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="156" y="375.0" width="30" height="110.00000000000001" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="195" y="413.5" width="30" height="71.5" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="234" y="441.0" width="30" height="44.0" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="273" y="457.5" width="30" height="27.500000000000004" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="312" y="468.5" width="30" height="16.5" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="351" y="476.2" width="30" height="8.8" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<rect x="390" y="482.8" width="30" height="2.2" rx="2" fill="#2363a6" stroke="#2363a6" stroke-width="2"/>
+<path d="M78 496H431" fill="none" stroke="#607789" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="85" y="536" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">Lower</text>
+<text x="270" y="536" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">Higher</text>
+<text x="20" y="584" font-family="Arial, sans-serif" font-size="28" fill="#17283b" text-anchor="start" font-weight="400">EL model score (unitless)</text>
+<path d="M385 302V485" fill="none" stroke="#bb4052" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<path d="M385 490V613" fill="none" stroke="#bb4052" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="20" y="614" font-family="Arial, sans-serif" font-size="28" fill="#bb4052" text-anchor="start" font-weight="400">Candidate boundary</text>
+<text x="20" y="651" font-family="Arial, sans-serif" font-size="28" fill="#bb4052" text-anchor="start" font-weight="700">Tail beyond candidate: 4 / 1,000</text>
+<text x="20" y="686" font-family="Arial, sans-serif" font-size="28" fill="#bb4052" text-anchor="start" font-weight="700">Illustrated rank = 0.4%</text>
+<text x="20" y="755" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">Separate BA output: 40 nM</text>
+<text x="20" y="790" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">predicted binding IC50.</text>
+<text x="20" y="825" font-family="Arial, sans-serif" font-size="28" fill="#40576a" text-anchor="start" font-weight="400">Neither is observed display.</text>
+</svg>

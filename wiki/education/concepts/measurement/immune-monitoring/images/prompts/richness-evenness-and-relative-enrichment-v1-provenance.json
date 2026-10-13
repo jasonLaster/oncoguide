@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-education-visual",
+  "author": "agent:/root/batch07_author_group3",
+  "integrator": "Root",
+  "createdAtUTC": "2026-10-13T18:13:46.838097+00:00",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original SVG source authored through a private Python drawing script; no generated bitmap and no traced/reproduced source figure",
+  "learnerTask": "Distinguish richness, evenness and relative enrichment",
+  "inferenceGuardrails": "Use matched count/proportion distributions and separate richness, evenness and relative enrichment. A rising proportion can follow loss of other clones and does not by itself prove expansion or tumor specificity.",
+  "sourcePreimageSHA256": "dadb3a8791e311af92c17ab1e53b89d3df0c803d69bfe49b8a69297f367fb366",
+  "sources": [
+    {
+      "url": "https://vdjtools-doc.readthedocs.io/en/master/diversity.html",
+      "readBounds": "master/SNAPSHOT version retrieved 2026-10-13, PlotQuantileStats, RarefactionPlot and CalcDiversityStats explanations and tables; primary Zhang full-text XML Methods diversity/dynamics and Fig.1/5 legends; equations checked in XML",
+      "checkedDate": "2026-10-13"
+    }
+  ],
+  "files": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+      "sha256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+      "bytes": 9735
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+      "sha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb",
+      "bytes": 6582
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+      "sha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a",
+      "bytes": 6582
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/richness-evenness-and-relative-enrichment-v1.txt",
+      "sha256": "72e545198da9c9c141d8454e60a18744b9ed2b0fc8931195131f3cc7540b339b",
+      "bytes": 2432
+    }
+  ],
+  "fictionalData": true,
+  "reviewStatus": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "human": "pending"
+  },
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "deliveryCredit": 0,
+  "liveApproval": false,
+  "graphicsRevision": {
+    "dateUTC": "2026-10-13T18:24:07.995033+00:00",
+    "reason": "Personal native inspection: arrow/heading overlap, TCR chart unit-scale mismatch and exterior theme labels required graphical corrections. No new biological claims or protocol."
+  }
+}

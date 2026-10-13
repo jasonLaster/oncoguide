@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="780" viewBox="0 0 600 780" role="img" aria-labelledby="title desc">
+<title id="title">One identity, branching material</title><desc id="desc">A fictional source A and intended recipient A are linked to collection A, lot A, two doses A1 and A2, and test sample S. A separate custody lane records collection-site to manufacturer to clinic handoffs. Recipient matching, quality review and administration or other disposition remain separate checks.</desc>
+<defs><marker id="teal" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#076f66"/></marker><marker id="amber" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#925006"/></marker><marker id="line" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#819ca8"/></marker></defs>
+<rect x="12" y="2" width="576" height="100" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<rect x="12" y="106" width="576" height="396" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<rect x="12" y="506" width="576" height="157" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<rect x="12" y="675" width="576" height="94" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="24" y="44" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#182a37" text-anchor="start">One identity, branching material</text>
+<text x="24" y="91" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#485d6b" text-anchor="start">Fictional identifiers</text>
+<rect x="115" y="111" width="370" height="60" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="300" y="153" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="middle">Source A / recipient A</text>
+<path d="M300 172 L300 195" fill="none" stroke="#076f66" stroke-width="5" marker-end="url(#teal)"/>
+<rect x="130" y="203" width="340" height="62" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="300" y="245" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="middle">Collection A</text>
+<path d="M300 266 L300 292" fill="none" stroke="#076f66" stroke-width="5" marker-end="url(#teal)"/>
+<rect x="175" y="300" width="250" height="62" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="300" y="342" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="middle">Lot A</text>
+<path d="M300 363 L300 390" fill="none" stroke="#076f66" stroke-width="5"/>
+<path d="M80 390 L520 390" fill="none" stroke="#076f66" stroke-width="5"/>
+<path d="M106 390 L106 420" fill="none" stroke="#076f66" stroke-width="5" marker-end="url(#teal)"/>
+<rect x="24" y="430" width="164" height="62" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="106" y="472" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="middle">Dose A1</text>
+<path d="M300 390 L300 420" fill="none" stroke="#076f66" stroke-width="5" marker-end="url(#teal)"/>
+<rect x="218" y="430" width="164" height="62" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="300" y="472" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="middle">Dose A2</text>
+<path d="M494 390 L494 420" fill="none" stroke="#076f66" stroke-width="5" marker-end="url(#teal)"/>
+<rect x="412" y="430" width="164" height="62" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="494" y="472" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="middle">Sample S</text>
+<text x="24" y="540" font-family="system-ui, sans-serif" font-size="34" font-weight="700" fill="#925006" text-anchor="start">CUSTODY: who / when?</text>
+<rect x="24" y="558" width="552" height="98" rx="18" fill="#eef4f6" stroke="#819ca8" stroke-width="2"/>
+<text x="46" y="598" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">Collection site → maker</text>
+<text x="46" y="642" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">Maker → clinic + timestamps</text>
+<text x="24" y="708" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">Match recipient + review lot</text>
+<text x="24" y="754" font-family="system-ui, sans-serif" font-size="34" font-weight="500" fill="#182a37" text-anchor="start">Administer / other disposition</text>
+</svg>

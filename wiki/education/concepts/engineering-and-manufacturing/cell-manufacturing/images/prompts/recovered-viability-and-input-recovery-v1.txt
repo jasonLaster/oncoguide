@@ -1,0 +1,7 @@
+ORIGINAL CODE-SVG INTENT
+Creator: agent:/root/batch07_author_group2
+Created: 2026-10-13T18:16:58.068633+00:00
+Learner task: Calculate viability among recovered cells separately from viable recovery against input.
+Fictional counts in millions: 100 viable cells before freezing, 80 total recovered after thaw, consisting of 72 live and 8 nonlive. Viability is 72 divided by 80, or 90 percent; viable recovery is 72 divided by 100, or 72 percent.
+Each dot stands for one million cells in this invented counting example. Teal dots are recovered live cells; amber dots are recovered nonlive cells; outlined dots represent input cells not recovered in the count. They do not identify the mechanism of loss. The two bars change the denominator while keeping 72 million recovered live cells as the numerator. Neither bar measures potency.
+Style: transparent-margin/gutter600x780 source-codeSVG pair with filled semantic content cards, system-ui text minimum34px, teal donor/intended/live subset, amber recipient/other/recoverednonlive as named locally, gray nonlive/missing as named locally. Same positions and object identities in light/dark; theme palette only. Readable native and actual pinned reader393x700 inline/defaultpreview. No universal criteria, protocol, clinical advice, eligibility or safety ranking. Model null; imagegenerationcalls0.

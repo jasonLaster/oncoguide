@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-09"
+updated: "2026-10-13"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -37,15 +37,11 @@ As material is sampled, processed or divided, new container or batch identifiers
 
 **Chain of identity (COI)** preserves that association. **Chain of custody (COC)** documents guardianship and handoffs: who released material, who received it, when and under what recorded conditions. Checks compare physical labels with the authorized records.
 
-```mermaid
-flowchart TD
-  A[Source collection and intended recipient] --> B[Linked manufacturing lot and samples]
-  B --> C[Released dose and transport records]
-  C --> D[Receipt label and recipient checks]
-  D --> E[Documented administration or other disposition]
-```
+<img src="./images/branching-identity-and-custody-records-v1-light.svg" alt="A fictional source A and intended recipient A are linked to collection A, lot A, two doses A1 and A2, and test sample S. A separate custody lane records collection-site to manufacturer to clinic handoffs. Recipient matching, quality review and administration or other disposition remain separate checks." data-theme-pair />
 
-*Identity follows the biological relationships; custody follows the handling.*
+*A split creates new material identifiers without erasing the parent relationship. The custody lane records handlers, not biological identity.*
+
+Trace the teal lines from collection A to lot A, then to each dose and sample. The amber lane answers who held material at each transfer. Its entries must point to the same material records. A complete transfer history alone establishes neither the intended recipient match nor a released product.
 
 The records also connect applicable sequence or engineering versions to the lot. For a personalized RNA vaccine, a correctly delivered vial must still match the intended construct and recipient. That product is not a cell collection, but the traceability problem is closely related.
 
@@ -95,6 +91,9 @@ Source check: October 9, 2026; expert and learner review pending. The scenario i
 - [ICCBBA implementation guide IG-050](https://iccbba.org/wp-content/uploads/2025/08/1a7593_badfaf3c48d443f78006340096a671e0.pdf) — communicating identifiers across the supply chain; this edition has a stated scenario scope.
 - [FDA final chimeric antigen receptor (CAR) T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — documented tracking, label and recipient checks.
 - [FDA 2024 CMC town-hall transcript](https://www.fda.gov/media/180664/download) — starting-material control, transport and traceability.
+
+
+Visual relationship check: October 13, 2026. The new illustration was checked against the relevant FDA CAR T-cell guidance sections; invented arithmetic is teaching data. Existing paper citations retain their stated scope. Expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

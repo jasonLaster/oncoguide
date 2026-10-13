@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-education-visual",
+  "author": "agent:/root/batch07_author_group3",
+  "integrator": "Root",
+  "createdAtUTC": "2026-10-13T18:13:46.838097+00:00",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original SVG source authored through a private Python drawing script; no generated bitmap and no traced/reproduced source figure",
+  "learnerTask": "Distinguish retained intracellular cytokine from secretion and killing",
+  "inferenceGuardrails": "Locate intracellular retention and transport inhibition separately from secretion. Cytokine-positive frequency depends on stimulation/gates and does not establish tumor recognition or killing.",
+  "sourcePreimageSHA256": "89d506c035018171096c1b88a52d1062166bec0f5dab44a1e46e5fbe4046f22b",
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1184077/",
+      "readBounds": "2005 primary full-text XML: abstract, Results experiments1/4, background section, Methods PBMC preparation and dynamic gating; Fig.2/8 legends, no supplementary protocols read",
+      "checkedDate": "2026-10-13"
+    }
+  ],
+  "files": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+      "sha256": "644fcdf708e2672038e45b2609a23dfdb0f01e9c3e84a78cede3d2aafba63143",
+      "bytes": 9162
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-light.svg",
+      "sha256": "2b47cc45d083b6352d08e68c518e7758366d909a3af09088f4835eff9893ec72",
+      "bytes": 5157
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-dark.svg",
+      "sha256": "e05b10d8ee4c5d549b8301b8aa3e8d0ee09003533f19dcf18d202b17b1745d97",
+      "bytes": 5157
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/retained-cytokines-stimulus-and-analysis-gate-v1.txt",
+      "sha256": "a4916b0379b8725116644535905007b586cc226632b66d4ab9ecc0aa7c95898d",
+      "bytes": 2236
+    }
+  ],
+  "fictionalData": false,
+  "reviewStatus": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "human": "pending"
+  },
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "deliveryCredit": 0,
+  "liveApproval": false,
+  "graphicsRevision": {
+    "dateUTC": "2026-10-13T18:24:07.996134+00:00",
+    "reason": "Personal native inspection: arrow/heading overlap, TCR chart unit-scale mismatch and exterior theme labels required graphical corrections. No new biological claims or protocol."
+  }
+}

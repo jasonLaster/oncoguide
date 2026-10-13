@@ -1,0 +1,10 @@
+Original code-SVG intent brief
+Author: agent:/root/batch07_author_group1
+Task: next-gap-168
+Learner task: Understand selection and joining of V/(D)/J segments as a physical receptor-gene assembly before selection and antigen encounter.
+Design: original 480×850 SVG with transparent margins/gutters and discrete theme-colored semantic panels, paired native light/dark colors, identical biological geometry and data. All visible labels are at least 28 native pixels; actual carrier readability requires verification.
+Alt: Selected V2, D1 and J3 gene segments form a VDJ receptor-gene join in a developing lymphocyte; a separate VJ example has no D segment. Expression and selection precede later antigen encounter.
+Caption: Choose and join receptor-gene pieces before asking what the finished receptor recognizes.
+Teaching details: The colored strips show a **simplified gene-assembly example**, not the number or spacing of real segments. Underlining marks the selected alternatives: V2, D1 and J3. RAG-mediated cutting and repair-mediated joining make a rearranged DNA sequence; joining can also change bases at the boundaries. The second strip contrasts a VJ chain, which has no D segment. These chain examples are antibody heavy/TCR beta versus antibody light/TCR alpha, rather than a claim about every receptor chain. Expression, developmental selection and later antigen encounter are separate steps. [Official chain definitions](https://scirpy.scverse.org/en/latest/glossary.html#v-d-j)
+Guards: ['Rearrangement occurs in developing lymphocytes; generation is not deliberate antigen targeting. Distinguish chain contexts and do not infer epithelial-cell recombination from a mixed-sample RAG variant.']
+No generated raster assets or image-model calls. No review or release claim.

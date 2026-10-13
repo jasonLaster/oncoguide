@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "creator": "agent:/root/batch07_author_group1",
+  "receipt": {
+    "author": "agent:/root/batch07_author_group1"
+  },
+  "model": null,
+  "imageGenerationCalls": 0,
+  "createdAtUTC": "2026-10-13T18:18:14.016491+00:00",
+  "task": "next-gap-174",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+  "sourcePreimageSHA256": "dcdba13047e7d4d267e07cd8a5fbd6a29043bf747f56e0f43495b0bf7f99e017",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "currentSourceCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "medium": "hand-authored SVG source code",
+  "geometry": "480x850; transparent canvas margins/gutters; opaque theme-colored semantic panels keep original text legible in the unchanged dark theater; all labels >=28 source px; theme geometry identical",
+  "fictionalData": true,
+  "assignedFiles": [
+    "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+    "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+    "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+    "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1.txt",
+    "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-provenance.json"
+  ],
+  "assets": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+      "sha256": "ce4ab6197a73efed1e755779bcc15efec208fba9f3fbdfcdb9fa5664ffb2d645",
+      "bytes": 5172
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+      "sha256": "3f6ce993c7973b8c8396b35032d3978428dee23bd442e46ed953878623ae4dd4",
+      "bytes": 5172
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1.txt",
+      "sha256": "d387fee440374852d4c519bc53ff2a397a20a53dcb5cc25b8e9a1b3cf7cba57f",
+      "bytes": 2143
+    }
+  ],
+  "sourceScope": "General public education only; exact owner metadata checked before body; no signed-care or sensitive source bodies read",
+  "review": {
+    "independentReviewer": "prospective agent:/root/batch07_review_group1",
+    "independentReviewPerformed": false,
+    "humanExpertReview": "pending",
+    "learnerReview": "pending"
+  },
+  "release": {
+    "canonical187": "pending",
+    "adoption": "pending",
+    "liveApproval": "pending",
+    "coverageCredit": 0,
+    "deliveryCredit": 0
+  },
+  "scopeLimits": "Bind predicted concentration and percentile rank to the actual model/reference distribution and units. Rank is not binding probability, concentration or observed presentation; do not compare unlike model outputs as one scale.",
+  "authoringStartSourceCommit": "90730c2373cf82c51b17270a6c02086d94d07bcf",
+  "sourcePlanningCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "code": {
+    "language": "Python-authored original SVG XML",
+    "sha256": "1d83eda6baf834113b1d15c035bd5350394785cc8c6469070920371435f464c2",
+    "geometryFunctions": "vdj, icd, tolerance, gamma, macro, inflam, binding"
+  },
+  "sourcesCheckedAtUTC": "2026-10-13T18:23:04.178192+00:00",
+  "sourceReadBounds": [
+    {
+      "key": "netmhc",
+      "url": "https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/",
+      "version": "NetMHCpan-4.1 documented example",
+      "kind": "official documentation",
+      "readBounds": "Web lines 121\u2013216 input, additional configuration, sample output and output descriptions, plus 348\u2013356 version/task distinctions. Stored TXT matching definitions around 22599\u201322694. No actual prediction submitted or source data downloaded.",
+      "supported": "Rank relative to random-natural-peptide score distribution; distinct EL/BA outputs; fictional reference and concentration bound to this model example/allele/length."
+    }
+  ],
+  "authorChecks": {
+    "scope": "Author inspection only, not independent scientific or pixel PASS",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      "480x850 native contextual background",
+      "393x700 mobile inline and default preview",
+      "1440x1000 desktop inline and default preview"
+    ],
+    "minSourceLabelPx": 28,
+    "minMobileInlineLabelPx": 20.357421875,
+    "minMobileDefaultPreviewLabelPx": 19.896470588235292,
+    "nativeClippedLabelCount": 0,
+    "actualThemeSourcesVerified": true,
+    "transparentCanvas": "Transparent margins and gutters; discrete opaque semantic panels behind content for the actual theater contrast",
+    "independentReviewPending": true
+  }
+}

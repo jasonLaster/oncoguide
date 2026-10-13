@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-178",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+  "author": "agent:/root/batch07_author_group2",
+  "creativeAuthor": "agent:/root/batch07_author_group2",
+  "reviewer": "agent:/root/batch07_review_group2",
+  "independentReviewer": "agent:/root/batch07_review_group2",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:28:33.044972+00:00",
+  "reviewedAtUTC": "2026-10-13T18:28:33.044972+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "d04a7877338bdfecaa5a46074d01416c5119054d5600139f6b9ed69f1ec2a729",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/131",
+  "frozenRowSHA256": "d72b73a254437a4caa8c39f5b2923595e7785c979f305de99af1a684484c5795",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The shared count scale shows the intended population at 20 million in both bars while other cells fall from 80 to 5 million. The total widths fall from 100 to 25 million; fractions correctly change from 20/100=20% to 20/25=80%. The separate culture example uses the same viable-cell convention and 100/20=5-fold. Activation state and killing require their own measurements. Absolute widths, fractions and the preserved practice separate enrichment from expansion without implying a culture rate or activity from counts.",
+    "baselinePageSHA256": "95fc1c60ba5aab3909c22d95c727e74ff3f3613714fe88a39be514bcf04f84e3",
+    "frozenPageSHA256": "95fc1c60ba5aab3909c22d95c727e74ff3f3613714fe88a39be514bcf04f84e3",
+    "learnerTask": "Distinguish enrichment, expansion and activation using counts and fractions.",
+    "gap": "Generic manufacturing sequence does not show how fraction can rise without population expansion.",
+    "accuracyGuardrails": "Show absolute counts as well as fractions; enrichment can occur without expansion. Activation, accumulation and functional killing require distinct measurements."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-light.svg",
+      "sha256": "30a398773ce8e32481c64621a8754cb160155fe15b7ca5b713f4d2aa68112096",
+      "bytes": 3722,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 780,
+        "viewBox": "0 0 600 780"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-dark.svg",
+      "sha256": "7f1edd808d9d04ce0f7fa87c7eab6af352f08bc35139e49133e3d42f7024341d",
+      "bytes": 3722,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 780,
+        "viewBox": "0 0 600 780"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+        "sha256": "d04a7877338bdfecaa5a46074d01416c5119054d5600139f6b9ed69f1ec2a729",
+        "bytes": 8122
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-light.svg",
+        "sha256": "30a398773ce8e32481c64621a8754cb160155fe15b7ca5b713f4d2aa68112096",
+        "bytes": 3722
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-dark.svg",
+        "sha256": "7f1edd808d9d04ce0f7fa87c7eab6af352f08bc35139e49133e3d42f7024341d",
+        "bytes": 3722
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/enrichment-expansion-and-activation-v1.txt",
+        "sha256": "9e9c4aafcdcc08d6dab187e857ff4710595f0c8f0f794e075ea7c8446ffc9d87",
+        "bytes": 1567
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/enrichment-expansion-and-activation-v1-provenance.json",
+        "sha256": "aea0c967fdb6da044bfe5a90f73dba4807f4f22f1dc99257e7a33442040816f1",
+        "bytes": 2145
+      }
+    ],
+    "currentCandidateOwnerSHA256": "d04a7877338bdfecaa5a46074d01416c5119054d5600139f6b9ed69f1ec2a729",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "608a3837ec1f3494c77c5e7d7f97fd108694d4a0829498342ec6b4f4897a4e12"
+  },
+  "reviewBasis": {
+    "scope": "Whole independent review of six assigned conceptual education/cartoon tasks; source reading, original nativeSVG and fresh pinned-reader desktop/mobile inline/default preview.",
+    "sourceReadingReceiptSHA256": "09f75124082ebdb36f2742806fc5515f3c83cedab8388737f27cec6d039a2c57",
+    "independentPixelInspectionSHA256": "fe19d0bfecbd32a2aaddd30e69195153f131b6c9b591fd924e510e7bd6ac9d3b",
+    "nativeInspectionReceiptSHA256": "edb19e4fd8e771a97b97809e65b35d684a6030aa9b41cfa62e180f6589faf544",
+    "readerInspectionReceiptSHA256": "073f67d81430e3cae7adeb447ceab12c8b358ee91a03b509a3682ffb990b4397",
+    "displayChecksSHA256": "00efa9c2dd2dca916fa45722be674a54d83d08bdfb4fcc900edd37b23fca7a09",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Bounded official guidance and relevant primary abstracts/selected full-text sections; inaccessible/unread sources retain explicit limitations in private receipt.",
+    "limits": [
+      "Native capture uses original SVG bytes in HTML img carrier over theme background; raw XML text bounds measured separately.",
+      "Reader fixture is isolated full-width complete education article with exact pinned frame/theater/table components and shared/app CSS; excludes app header/sidebar/live backend/navigation.",
+      "Transparent margin/gutters show dimmed article in preview; no essential text depends on backdrop contrast.",
+      "Known renderer focus-return limitation remains qualified; Enter/Escape checks do not certify focus restoration.",
+      "No human, clinical, expert, learner competence, adoption, coverage, publication or live-delivery approval."
+    ]
+  },
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg-education-visual",
+  "author": "agent:/root/batch07_author_group3",
+  "integrator": "Root",
+  "createdAtUTC": "2026-10-13T18:13:46.838097+00:00",
+  "model": null,
+  "imageGenerationCalls": 0,
+  "method": "Original SVG source authored through a private Python drawing script; no generated bitmap and no traced/reproduced source figure",
+  "learnerTask": "Separate labeled binder delivery, competition and retention from target abundance",
+  "inferenceGuardrails": "Match isotope, binder format and imaging time to the claim. Delivery, competition/blocking, clearance and retention affect uptake; tracer signal is not target abundance alone, therapeutic dose or benefit.",
+  "sourcePreimageSHA256": "1e99b35de0fc12fef2e9e7c2e11b3cf9eb5e48d4e42bd33b33a13038415c40ac",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20357763/",
+      "readBounds": "2010 metadata and complete abstract through Europe PMC core API; no full-text methods read",
+      "checkedDate": "2026-10-13"
+    }
+  ],
+  "files": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "sha256": "97920f73e69a489efb8965594795338b291ed068a3ac7590afb1e0bc3e494fa6",
+      "bytes": 9526
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "sha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac",
+      "bytes": 4799
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "sha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf",
+      "bytes": 4799
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/labeled-binder-delivery-competition-and-retention-v1.txt",
+      "sha256": "d819c7e555dc114f0d5a943a44abb570ecf03c780ecd07d4cba5a635a2e4bf9c",
+      "bytes": 2192
+    }
+  ],
+  "fictionalData": false,
+  "reviewStatus": {
+    "independentPeer": "pending",
+    "expert": "pending",
+    "learner": "pending",
+    "human": "pending"
+  },
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "deliveryCredit": 0,
+  "liveApproval": false,
+  "graphicsRevision": {
+    "dateUTC": "2026-10-13T18:24:07.994290+00:00",
+    "reason": "Personal native inspection: arrow/heading overlap, TCR chart unit-scale mismatch and exterior theme labels required graphical corrections. No new biological claims or protocol."
+  },
+  "accessibilityDescriptionCorrection": {
+    "requestId": "B07-G3-C1",
+    "author": "agent:/root/batch07_author_group3",
+    "correctedAtUTC": "2026-10-13T18:38:07.617127+00:00",
+    "scope": "Replace only the inaccurate separate-paths sentence in owner alt, SVG desc and saved prompt Scene. Visible art and scientific teaching unchanged. Original model and generation-call declarations retained.",
+    "focusedIndependentCheck": "pending"
+  }
+}

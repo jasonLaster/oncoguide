@@ -58,6 +58,13 @@ The prediction did not establish mutant-specific recognition. The next questions
 
 ## Read the specificity experiment
 
+<img src="./images/matched-mutant-normal-peptide-responses-v1-light.svg" alt="Invented loaded-peptide concentration-response chart: at the same 1, 10, 100 and 1000 nanomolar concentrations, one receptor responds to both mutant and normal peptides after 24 hours. Natural processing and clinical safety remain untested." data-theme-pair />
+
+*A sequence difference does not guarantee a selective receptor response.*
+
+Read each pair of points at the **same loaded-peptide concentration**. These curves are invented: mutant M gives 5%, 28%, 70% and 90% activated responder cells; normal N gives 3%, 18%, 61% and 86% at 1, 10, 100 and 1,000 nanomolar. Both use the same responder and matching HLA, a 24-hour activation readout, and an invented no-peptide background of 2%. Percent means activated cells divided by viable responder cells in each assay condition. The horizontal axis is logarithmic; the lines only connect example points. This receptor responds to both sequences under artificial loading, so tumor-specific sequence has not produced tumor-exclusive response. Neither curve is a safety threshold or evidence of natural processing. A broader cross-reactivity problem is documented in the primary [Cameron study](https://pubmed.ncbi.nlm.nih.gov/23926201/); its results are not the invented numbers here.
+
+
 A peptide-concentration series can compare responses to mutant and normal sequences using the same HLA and responder. Keep concentration units, background and activation endpoint attached: a response threshold in this experiment is not a patient safety threshold. Artificial peptide loading also leaves natural processing open. Similarity models can identify candidates for these tests; they cannot certify an entire healthy proteome as safe.
 
 ## Try it

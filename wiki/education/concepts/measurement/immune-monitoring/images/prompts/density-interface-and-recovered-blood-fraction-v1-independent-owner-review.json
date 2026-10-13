@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-186",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+  "author": "agent:/root/batch07_author_group3",
+  "creativeAuthor": "agent:/root/batch07_author_group3",
+  "reviewer": "agent:/root/batch07_review_group3",
+  "independentReviewer": "agent:/root/batch07_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T18:35:45.946425+00:00",
+  "reviewedAtUTC": "2026-10-13T18:35:45.946425+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/272",
+  "frozenRowSHA256": "0ce199bd02a6e8a1a98ff17c906ef3978379e5f3be11a199efad44ccbf8be3e5",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "82a55bef3a6d16a1686cf99f0885d2b1224e7e4c",
+  "verifiedCanonicalPreimageCommit": "344c7601a72a93fd1f1973ce028338853df9e541",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The recovered plasma/density-medium interface and lower red-cell/granulocyte compartment fill the density-fraction gap. Recovered lymphocytes/monocytes, possible contaminants and quality checks are shown; nearby text explicitly qualifies conventional versus low-density granulocytes. Sampling blood does not become tumor sampling, a complete immune census or a functional test.",
+    "frozenPageSHA256": "e53fa1e32b8d53d39b0884b3940c38123f76a683b9d36be13d3bb7c37d3d2cb5",
+    "baselinePageSHA256": "e53fa1e32b8d53d39b0884b3940c38123f76a683b9d36be13d3bb7c37d3d2cb5",
+    "learnerTask": "Locate the recovered blood fraction and excluded populations",
+    "gap": "Current workflow omits the density-separation interface and sampling compartments",
+    "accuracyGuardrails": "Mark the recovered density fraction, possible contaminants and excluded populations. PBMC recovery is not all blood cells, a complete immune census or tumor sampling."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+      "sha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb",
+      "bytes": 4592,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+      "candidatePath": "/tmp/education-next-visual-batch-07/constructs-compartments-and-assay-readouts/prospective/wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+      "sha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c",
+      "bytes": 4592,
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+        "sha256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+        "bytes": 8981
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+        "sha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb",
+        "bytes": 4592
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+        "sha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c",
+        "bytes": 4592
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/density-interface-and-recovered-blood-fraction-v1.txt",
+        "sha256": "ea0da42882b906e1f52f8bf9d44daa94dc91a100ef55c6d456bcf625f4d7b972",
+        "bytes": 2232
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/density-interface-and-recovered-blood-fraction-v1-provenance.json",
+        "sha256": "2fc412af894b8848f566dea5975a01f5b09267c8e464fea33bf83b348f51a446",
+        "bytes": 2707
+      }
+    ],
+    "currentCandidateOwnerSHA256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+    "currentCandidatePairBound": true,
+    "originalContentMetadataCitationsPracticeAndNavigationPreserved": true
+  },
+  "reviewBasis": {
+    "scope": "Current original independent scientific/math/native/fresh pinned-reader/task-fit review; prospective agent quality review only.",
+    "inputAuthorSealSHA256": "03fbabfa89495087516f51afbc7ac63cb34428e8cbd19cba6b81983b3bbbcc92",
+    "sourceReadingManifestSHA256": "3b1bd29734dd535d121648aac8bbd6555887b5cecd61d98cc9839f701d9d1632",
+    "pixelInspectionSHA256": "eff0ed61c82c609946a1c31139159efada31321953f2134d68be4dff5ab28e3d",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumMobileInlineLabelPx": 18.613333333333333,
+    "minimumMobileDefaultPreviewLabelPx": 18.4,
+    "readingQualification": "Selected primary/official text plus complete primary abstracts; full-paper reads, inherited historical approvals and supplements not claimed.",
+    "carrierLimits": "Exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater and SmartTableEnhancer with complete actual shared/app CSS. Isolated full-width education article; no app navigation/header/sidebar or external live data. Three literal Tailwind theme utility rules only.",
+    "focusReturn": "Known pinned limitation; not certified."
+  },
+  "method": "Original code SVG; no image model calls",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

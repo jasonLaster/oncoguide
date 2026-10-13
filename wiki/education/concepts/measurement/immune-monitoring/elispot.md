@@ -35,6 +35,14 @@ For antigen testing, cells may receive a candidate peptide or peptide pool. A ne
 
 A conventional mixed-cell assay does not identify every responding cell. Sorting or additional measurements may be needed to assign a response to a cell type. Spot size and intensity are not a direct meter of tumor killing.
 
+### Read the visual
+
+<img src="./images/secretion-membrane-spots-and-controls-v1-light.svg" alt="Cells in a well release green cytokine dots toward capture antibodies on a membrane. After the cells are removed, developed spots remain. Invented matched wells have 100,000 input cells each: vehicle 5 spots, peptide 30 spots, and a separate positive control. Arithmetic gives 250 background-subtracted spot-forming units per million input cells, without a positivity or killing claim." data-theme-pair="./images/secretion-membrane-spots-and-controls-v1-dark.svg" />
+
+*Spots are secretion readouts with an input denominator and controls.*
+
+Look below the cells: capture antibodies hold the released molecule near the membrane. After the cells are removed, detection makes localized deposits visible. The plate records secretion during the chosen stimulation window, rather than filming target-cell death. The pictured spots are schematic. The invented counts match the exercise below: 30 stimulated spots minus 5 background spots, each from 100,000 input cells, gives 250 spot-forming units per million input cells. A suitable positive control is checked separately, alongside replicates and assay-specific rules. That arithmetic does not establish positivity, a T-cell subset frequency or tumor recognition. [Official ELISpot principle documentation](https://www.mabtech.com/knowledge-hub/elispot).
+
 ## Why it matters in cancer
 
 A vaccine study can compare responses before and after dosing under a consistent protocol. A rise supports increased activity against the test stimulus, within the assay's limits. [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) displays the naturally processed peptide. Artificial peptide addition can bypass the tumor's natural processing and presentation. A response to a peptide therefore needs a separate bridge to recognition of actual tumor cells.
