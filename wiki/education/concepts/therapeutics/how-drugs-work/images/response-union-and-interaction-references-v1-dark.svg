@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Why combine cancer treatments?</title><desc id="desc">See overlapping response groups and compare synergy reference models. Schematic objects or explicitly fictional quantitative teaching examples, not clinical outcomes.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#f5efdd"/></marker><radialGradient id="cell"><stop offset="0" stop-color="#f4c4ca"/><stop offset="1" stop-color="#d88b9b"/></radialGradient></defs><rect width="600" height="1000" fill="#112432"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f5efdd" text-anchor="start">Coverage and interaction differ</text>
+<text x="28" y="80" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Original ten-tumor model: all invented</text>
+<circle cx="72" cy="154" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="63" cy="148" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="81" cy="159" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="65" cy="167" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="45" y="187" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="72" y="214" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">A</text>
+<text x="72" y="118" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">1</text>
+<circle cx="185" cy="154" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="176" cy="148" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="194" cy="159" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="178" cy="167" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="158" y="187" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="185" y="214" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">A</text>
+<text x="185" y="118" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">2</text>
+<circle cx="298" cy="154" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="289" cy="148" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="307" cy="159" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="291" cy="167" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="271" y="187" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="298" y="214" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">AB</text>
+<text x="298" y="118" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">3</text>
+<circle cx="411" cy="154" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="402" cy="148" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="420" cy="159" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="404" cy="167" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="384" y="187" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="411" y="214" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">AB</text>
+<text x="411" y="118" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">4</text>
+<circle cx="524" cy="154" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="515" cy="148" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="533" cy="159" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="517" cy="167" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="497" y="187" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="524" y="214" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">B</text>
+<text x="524" y="118" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">5</text>
+<circle cx="72" cy="298" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="63" cy="292" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="81" cy="303" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="65" cy="311" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="45" y="331" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="72" y="358" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">B</text>
+<text x="72" y="262" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">6</text>
+<circle cx="185" cy="298" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="176" cy="292" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="194" cy="303" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="178" cy="311" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="158" y="331" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="185" y="358" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">—</text>
+<text x="185" y="262" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">7</text>
+<circle cx="298" cy="298" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="289" cy="292" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="307" cy="303" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="291" cy="311" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="271" y="331" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="298" y="358" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">—</text>
+<text x="298" y="262" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">8</text>
+<circle cx="411" cy="298" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="402" cy="292" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="420" cy="303" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="404" cy="311" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="384" y="331" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="411" y="358" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">—</text>
+<text x="411" y="262" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">9</text>
+<circle cx="524" cy="298" r="27" fill="url(#cell)" stroke="#18333e" stroke-width="2"/>
+<circle cx="515" cy="292" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="533" cy="303" r="10" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="517" cy="311" r="7" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<rect x="497" y="331" width="54" height="33" rx="6" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="524" y="358" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">—</text>
+<text x="524" y="262" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">10</text>
+<text x="28" y="401" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">A: 4 · B: 4 · both: 2 · union: 6</text>
+<text x="28" y="444" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Better-component assumption; not synergy</text>
+<path d="M28 473 L572 473" fill="none" stroke="#8ba7b2" stroke-width="2" stroke-linecap="round"/>
+<text x="28" y="519" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Separate fictional laboratory example</text>
+<text x="28" y="561" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">At one dose pair: A 20%, B 30%</text>
+<text x="28" y="603" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Defined inhibition readout at 72 hours</text>
+<text x="28" y="680" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">HSA</text>
+<rect x="169" y="653" width="94.5" height="33" rx="2" fill="#95c0db" stroke="#18333e" stroke-width="2"/>
+<text x="272.5" y="680" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">30%</text>
+<text x="28" y="743" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Bliss</text>
+<rect x="169" y="716" width="138.6" height="33" rx="2" fill="#e4bd74" stroke="#18333e" stroke-width="2"/>
+<text x="316.6" y="743" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">44%</text>
+<text x="28" y="806" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Observed</text>
+<rect x="169" y="779" width="126.0" height="33" rx="2" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<text x="304.0" y="806" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">40%</text>
+<path d="M169 638 L169 813" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<path d="M169 818 L484.0 818" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<path d="M169.0 818 L169.0 824" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="169.0" y="858" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">0</text>
+<path d="M326.5 818 L326.5 824" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="326.5" y="858" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">50</text>
+<path d="M484.0 818 L484.0 824" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="484.0" y="858" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">100</text>
+<text x="28" y="904" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Inhibition (%) · reference models differ</text>
+<text x="28" y="946" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Loewe also needs single-drug dose curves.</text>
+<text x="28" y="980" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">A point comparison is not clinical proof.</text>
+</svg>

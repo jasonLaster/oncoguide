@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells.md",
+  "privateProspectiveTaskId": "next-gap-109",
+  "canonicalAdoption": "pending",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/18",
+  "frozenRowPointer": "/18",
+  "frozenRowSHA256": "57f7035706e856c3b05b66b579096d871871d790b9c9681a6620a6b3a8e43d10",
+  "originalFrozenTask": {
+    "learnerTask": "Interpret smaller net population growth without converting a control-treatment count difference into measured killing.",
+    "gap": "The generic exposure\u2192disruption\u2192measure\u2192outcomes map is a sound boundary reminder, but does not visualize the numerical 1000\u21921200 versus1000\u21922000 example or the unmeasured contributions of births and deaths.",
+    "accuracyGuardrails": [
+      "Two equal baselines, separate final counts; label division/death contributions unknown and never depict the800 difference as killed cells. Nondividing vulnerability remains in ordinary prose."
+    ]
+  },
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "baselinePageSHA256": "f75d10b591dc59c3f7fc262c36c9db0ef3559cdf41e82cafd004c15b94a9112e",
+  "construction": "Original code-generated SVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "generator": "private/construct.py",
+  "generatorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+  "generatorCustody": "Original generator privately retained, not publicly delivered; editable SVG without an executable reproduction-package promise.",
+  "briefSHA256": "57c2efa9c3121997c0021886845aacd75e7688640374c5da679a623e116088a3",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-light.svg",
+      "theme": "light",
+      "sha256": "960a6c0a7da1d275720fee6fc9cee7f1d5d44c877e6c5ef26770b5f5687acafd",
+      "bytes": 6113,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "9960f1e4efa16ca8e41f89304f405a2c82b1fa2d0a12c1f29a2f1868867f1786",
+      "bytes": 6113,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+    "https://doi.org/10.1038/nmeth.3853",
+    "https://pubmed.ncbi.nlm.nih.gov/27894788/"
+  ],
+  "sourceDepth": "Actual primary abstracts and selected primary/official passages; exact per-owner private lookup/depth/failure/custody receipts. No whole-paper/clinical/scientific approval implied.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Exact shared geometry and wording, palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

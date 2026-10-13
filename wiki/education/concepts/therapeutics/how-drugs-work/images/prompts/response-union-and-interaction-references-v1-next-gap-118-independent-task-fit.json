@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-118",
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale.md",
+  "author": "root",
+  "authorRole": "Prospective canonical integration role only, not medical teaching or artwork production; exact identity binding requires actual127 adoption.",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T23:40:23.418Z",
+  "reviewedAtLocal": "2026-10-12T16:40:23.418-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "53ea205e7334cee98623e10108b77c33e40e518b14e0d07511da5c8e1f9a4dff",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-light.svg",
+      "sha256": "93372b1a8fdce81fb023d0a46d6e96d5507f70d3d20a7b5fc819043fcd5faa28",
+      "bytes": 11972
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-dark.svg",
+      "sha256": "45ee374d397f5a2bf5aebb6542d57f3fdd5ff443a5257392f8e95c9719e3e908",
+      "bytes": 11972
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "97d96bc95b886a8109fe3e2c5ba3ed1e52126e85c12683552a622825a4afe9e2",
+    "learnerTask": "See overlapping response groups and compare synergy reference models",
+    "gap": "Workflow does not visualize union of responders or within-model interaction",
+    "accuracyGuardrails": "Fictional 4+4−2 union; independent action assumption not statistical independence; no regimen recommendation",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "All ten fictional tumor IDs preserve four A responders, four B responders and two overlapping cases: six in the union, four in neither under better-component/no-extra-interaction/no-added-toxicity assumptions. A separate72-hour viable-cell endpoint example distinguishes HSA30%, Bliss44% and observed40%; Loewe requires dose-response information not supplied by these points. Independent action is not statistical independence, endpoint inhibition is not death, and no significance or regimen claim is inferred. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/348",
+    "originalTaskRowSHA256": "63e41b2305be8d2a55135f553d9bb4441e88f56afe895d931a71affc5424a3bb",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale.md",
+        "sha256": "53ea205e7334cee98623e10108b77c33e40e518b14e0d07511da5c8e1f9a4dff",
+        "bytes": 9480
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-light.svg",
+        "sha256": "93372b1a8fdce81fb023d0a46d6e96d5507f70d3d20a7b5fc819043fcd5faa28",
+        "bytes": 11972
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-dark.svg",
+        "sha256": "45ee374d397f5a2bf5aebb6542d57f3fdd5ff443a5257392f8e95c9719e3e908",
+        "bytes": 11972
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/response-union-and-interaction-references-v1.txt",
+        "sha256": "1254d232cf927cd3095dc125b2a2178a7d503350ca6b6dddfcb368a9d7afb2f1",
+        "bytes": 1025
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/response-union-and-interaction-references-v1-provenance.json",
+        "sha256": "d6342d88722089e7f27c0a2b693630f57de0160ac5d5323928b8e61cd6d4f354",
+        "bytes": 3969
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "Palmer",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29245013%20AND%20SRC:MED&format=json&resultType=core",
+      "sourceKind": "primary analysis abstract",
+      "actualReadDepth": "Complete primary analysis abstract; selected frozen full-text intro1–2 and Figure1 caption text read separately",
+      "supportsAndLimits": "Better-component independent-action framing; patient-to-patient heterogeneity can explain population combination effects under that model.",
+      "accessLimits": "Abstract is not the entire paper; selected full-text passages are separately recorded. Ten tumors and response assignments are wholly fictional and preserve the original owner example."
+    },
+    {
+      "source": "Ianevski-full",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5554616/fullTextXML",
+      "sourceKind": "primary methods selected full text",
+      "actualReadDepth": "Fresh selected Methods2.2 and2.3 complete paragraphs; original introduction selected passages read separately",
+      "supportsAndLimits": "Reference-model distinction and control/dose-matrix requirements.",
+      "accessLimits": "Selected sections, not whole article/supplements or original figure pixels; point arithmetic is not a statistical synergy finding."
+    },
+    {
+      "source": "SynergyFinder-doc",
+      "url": "https://www.bioconductor.org/packages/release/bioc/vignettes/synergyfinder/inst/doc/User_tutorual_of_the_SynergyFinder_plus.html",
+      "sourceKind": "official authors method documentation",
+      "actualReadDepth": "Selected official authors-documentation HSA/Bliss/Loewe passages; original frozen text personally read. Fresh rendered documentation route was not fully acquired.",
+      "supportsAndLimits": "HSA=max(A,B), Bliss=A+B−AB and Loewe equal-effect dose/monotherapy-curve requirements.",
+      "accessLimits": "Selected method documentation only, not full vignette; no package version assumed, numerical solver run or dataset reproduced."
+    },
+    {
+      "source": "SynergyFinderPlus-primary",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9801064/fullTextXML",
+      "sourceKind": "primary methods selected full text",
+      "actualReadDepth": "Fresh Synergy models for high-order drug combinations complete three paragraphs/equations only",
+      "supportsAndLimits": "Named reference assumptions and HSA/Bliss/Loewe frameworks, applied to two-agent fictional arithmetic.",
+      "accessLimits": "Selected section only, not entire paper, figures or supplements; no experiment/result from the paper used as the displayed fictional data."
+    },
+    {
+      "source": "Palmer-html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5741091/",
+      "sourceKind": "primary analysis selected full text",
+      "actualReadDepth": "Selected frozen Palmer introduction paragraphs and Figure1 caption TEXT from original acquired HTML; fresh abstract verified separately.",
+      "supportsAndLimits": "Individual response equals better monotherapy under no pharmacological interaction; response correlation is a separate modeled property.",
+      "accessLimits": "Selected passages and caption text only; original figure pixels, complete methods, clinical source data and supplements not read. No statistical independence requirement or treatment recommendation."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "Fresh actual pinned client React renderer, image theater/modal and relevant wiki-shell/application CSS; original native pairs and mobile393×700/defaultpreview, desktop1280×900/defaultpreview and settled instant nested-scroll top/middle/bottom viewport captures. Explicit isolated hierarchy/runtime assumptions; no source/server-pipeline or full live-route parity claimed.",
+    "limitations": [
+      "Isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with pinned wiki-shell theme, education/app CSS; no header/sidebar/auth/router/backend or maintained/live deployment.",
+      "Author carrier uses static compiled HTML/WikiMarkdownFrame/ImageTheater; independent carrier uses actual client React renderer. The source epoch is identical; server-compilation/app route parity is not claimed.",
+      "The application CSS import content is supplied locally; no general Tailwind build. Only exact hidden/dark:block/dark:hidden semantics appended; no palette, font, article or table override. External existing React/esbuild runtime dependencies are not a pinned full application build.",
+      "Desktop inline820x1367 requires actual vertical scroll. Accepted top/middle/bottom captures are actual1280x900 viewports; failed element capture explicitly excluded. Mobile inline349x582 and preview345x575; desktop preview482.4x804 fits complete image.",
+      "All12 natives,24mobile inline/defaultpreview,12desktopdefaultpreview and36validdesktopscroll views personally inspected. Actual text bounding boxes remain within600x1000 viewBox. Visual contrast/readability only; no WCAG or colour-vision certification.",
+      "Escape closed all24 previews; no broad keyboard/download/table-overlay/focus restoration approval. Existing tables were inventoried but not accepted as fully readable or tested interactively.",
+      "Science/source depth, example arithmetic/model appropriateness and learner/human acceptance remain separate reviewer scopes. No new clinical claims, source grades, publication or registry changes."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective115–120 only; no127 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

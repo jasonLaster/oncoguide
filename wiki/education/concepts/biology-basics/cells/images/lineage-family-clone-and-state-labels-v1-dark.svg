@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Ancestry, cell family, clone and activity are separate labels</title><desc id="desc">One fictional cell carries separate L1 ancestry, epithelial-family, C1 genetic-clone and cycling-state labels; the same clone occupies two activity states, and two RNA-state groups each contain C1 and C2 tags. The cell labels are stipulated independently in this fictional example, rather than inferred from appearance or RNA (ribonucleic acid). L1 denotes an ancestry label, epithelial a broad family, C1 a genetic tumor-clone label, and cycling a state. One family/clone contains different states, while state-based RNA groups can contain different clone labels. No snapshot establishes ancestry, malignancy or permanent commitment.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f1ecd9"/></marker></defs><rect width="760" height="1320" fill="#152630"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="start">One cell carries different labels</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Fictional identities; separate evidence</text>
+<rect x="24" y="142" width="712" height="311" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Ancestry is not today’s activity</text>
+<rect x="102" y="253" width="144" height="144" rx="15" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="171" cy="329" r="27.36" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<rect x="129" y="336" width="89" height="54" rx="8" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="174" y="376" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">C1</text>
+<text x="310" y="247" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Lineage: L1</text>
+<text x="310" y="298" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Family: epithelial</text>
+<text x="310" y="349" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Genetic clone: C1</text>
+<text x="310" y="400" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">State: cycling</text>
+<rect x="24" y="473" width="712" height="306" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="526" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Same family and clone; two states</text>
+<rect x="148" y="586" width="94" height="94" rx="15" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="192" cy="637" r="17.86" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<rect x="150" y="651" width="90" height="49" rx="7" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="195" y="689" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">C1</text>
+<text x="195" y="749" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Cycling</text>
+<rect x="513" y="586" width="94" height="94" rx="15" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="557" cy="637" r="17.86" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<rect x="515" y="651" width="90" height="49" rx="7" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="560" y="689" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">C1</text>
+<text x="560" y="749" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Noncycling</text>
+<rect x="24" y="799" width="712" height="368" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="852" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">RNA groups can mix clone labels</text>
+<ellipse cx="200" cy="974" rx="132" ry="84" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<rect x="109" y="925" width="60" height="60" rx="15" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="136" cy="959" r="11.4" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<text x="139" y="1033" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">C1</text>
+<rect x="231" y="925" width="60" height="60" rx="15" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="258" cy="959" r="11.4" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<text x="261" y="1033" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">C2</text>
+<text x="200" y="1126" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Cycling RNA</text>
+<ellipse cx="562" cy="974" rx="132" ry="84" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<rect x="471" y="925" width="60" height="60" rx="15" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="498" cy="959" r="11.4" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<text x="501" y="1033" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">C1</text>
+<rect x="593" y="925" width="60" height="60" rx="15" fill="#e5a0ab" stroke="#293743" stroke-width="2" />
+<circle cx="620" cy="959" r="11.4" fill="#bfa9db" stroke="#293743" stroke-width="2" />
+<text x="623" y="1033" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">C2</text>
+<text x="562" y="1126" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="middle">Noncycling RNA</text>
+<text x="48" y="1236" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Clone tags require their own evidence.</text>
+<text x="38" y="1300" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">RNA similarity does not record ancestry.</text>
+</svg>

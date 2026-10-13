@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Platinum agents</title><desc id="desc">Compare a base attachment, same-strand link, opposite-strand link and break. Schematic objects or explicitly fictional quantitative teaching examples, not clinical outcomes.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#f5efdd"/></marker><radialGradient id="cell"><stop offset="0" stop-color="#f4c4ca"/><stop offset="1" stop-color="#d88b9b"/></radialGradient></defs><rect width="600" height="1000" fill="#112432"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#f5efdd" text-anchor="start">Attachments and breaks differ</text>
+<text x="28" y="86" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Four schematics; not lesion frequencies</text>
+<text x="28" y="142" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">1 · Single-base attachment</text>
+<path d="M82 180 L532 180" fill="none" stroke="#a4c9df" stroke-width="4" stroke-linecap="round"/>
+<path d="M82 262 L532 262" fill="none" stroke="#e4bd74" stroke-width="4" stroke-linecap="round"/>
+<circle cx="135" cy="180" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="135" cy="262" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M135 180 L135 199" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M135 243 L135 262" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="119" y="192" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="119" y="222" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="135" y="216" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<text x="135" y="246" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<circle cx="230" cy="180" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="230" cy="262" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M230 180 L230 199" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M230 243 L230 262" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="214" y="192" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="214" y="222" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="230" y="216" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<text x="230" y="246" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<circle cx="340" cy="180" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="340" cy="262" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M340 180 L340 199" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 243 L340 262" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="324" y="192" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="324" y="222" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="340" y="216" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<text x="340" y="246" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<circle cx="440" cy="180" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="440" cy="262" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M440 180 L440 199" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M440 243 L440 262" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="424" y="192" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="424" y="222" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="440" y="216" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<text x="440" y="246" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<circle cx="283" cy="221" r="23" fill="#e4bd74" stroke="#18333e" stroke-width="2"/>
+<text x="283" y="231" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">Pt</text>
+<path d="M263 213 L246 205" fill="none" stroke="#f5efdd" stroke-width="3" stroke-linecap="round"/>
+<text x="28" y="323" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">2 · Same-strand link</text>
+<path d="M82 361 L532 361" fill="none" stroke="#a4c9df" stroke-width="4" stroke-linecap="round"/>
+<path d="M82 443 L532 443" fill="none" stroke="#e4bd74" stroke-width="4" stroke-linecap="round"/>
+<circle cx="135" cy="361" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="135" cy="443" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M135 361 L135 380" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M135 424 L135 443" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="119" y="373" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="119" y="403" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="135" y="397" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<text x="135" y="427" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<circle cx="230" cy="361" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="230" cy="443" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M230 361 L230 380" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M230 424 L230 443" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="214" y="373" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="214" y="403" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="230" y="397" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<text x="230" y="427" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<circle cx="340" cy="361" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="340" cy="443" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M340 361 L340 380" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 424 L340 443" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="324" y="373" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="324" y="403" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="340" y="397" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<text x="340" y="427" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<circle cx="440" cy="361" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="440" cy="443" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M440 361 L440 380" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M440 424 L440 443" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="424" y="373" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="424" y="403" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="440" y="397" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<text x="440" y="427" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<circle cx="283" cy="402" r="23" fill="#e4bd74" stroke="#18333e" stroke-width="2"/>
+<text x="283" y="412" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">Pt</text>
+<path d="M263 394 L246 386" fill="none" stroke="#f5efdd" stroke-width="3" stroke-linecap="round"/>
+<path d="M303 394 L324 386" fill="none" stroke="#f5efdd" stroke-width="3" stroke-linecap="round"/>
+<text x="28" y="504" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">3 · Opposite-strand link</text>
+<path d="M82 542 L532 542" fill="none" stroke="#a4c9df" stroke-width="4" stroke-linecap="round"/>
+<path d="M82 624 L532 624" fill="none" stroke="#e4bd74" stroke-width="4" stroke-linecap="round"/>
+<circle cx="135" cy="542" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="135" cy="624" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M135 542 L135 561" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M135 605 L135 624" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="119" y="554" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="119" y="584" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="135" y="578" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<text x="135" y="608" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<circle cx="230" cy="542" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="230" cy="624" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M230 542 L230 561" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M230 605 L230 624" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="214" y="554" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="214" y="584" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="230" y="578" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<text x="230" y="608" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<circle cx="340" cy="542" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="340" cy="624" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M340 542 L340 561" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 605 L340 624" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="324" y="554" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="324" y="584" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="340" y="578" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<text x="340" y="608" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<circle cx="440" cy="542" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="440" cy="624" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M440 542 L440 561" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M440 605 L440 624" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="424" y="554" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="424" y="584" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="440" y="578" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<text x="440" y="608" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<circle cx="283" cy="583" r="23" fill="#e4bd74" stroke="#18333e" stroke-width="2"/>
+<text x="283" y="593" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">Pt</text>
+<path d="M263 575 L246 567" fill="none" stroke="#f5efdd" stroke-width="3" stroke-linecap="round"/>
+<path d="M303 591 L324 598" fill="none" stroke="#f5efdd" stroke-width="3" stroke-linecap="round"/>
+<text x="28" y="685" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">4 · Double-strand break</text>
+<path d="M82 723 L275 723" fill="none" stroke="#a4c9df" stroke-width="4" stroke-linecap="round"/>
+<path d="M312 723 L532 723" fill="none" stroke="#a4c9df" stroke-width="4" stroke-linecap="round"/>
+<path d="M82 805 L275 805" fill="none" stroke="#e4bd74" stroke-width="4" stroke-linecap="round"/>
+<path d="M312 805 L532 805" fill="none" stroke="#e4bd74" stroke-width="4" stroke-linecap="round"/>
+<circle cx="135" cy="723" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="135" cy="805" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M135 723 L135 742" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M135 786 L135 805" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="119" y="735" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="119" y="765" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="135" y="759" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<text x="135" y="789" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<circle cx="230" cy="723" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="230" cy="805" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M230 723 L230 742" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M230 786 L230 805" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="214" y="735" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="214" y="765" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="230" y="759" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<text x="230" y="789" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<circle cx="340" cy="723" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="340" cy="805" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M340 723 L340 742" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 786 L340 805" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="324" y="735" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="324" y="765" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="340" y="759" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">G</text>
+<text x="340" y="789" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">C</text>
+<circle cx="440" cy="723" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="440" cy="805" r="4" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M440 723 L440 742" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<path d="M440 786 L440 805" fill="none" stroke="#f5efdd" stroke-width="2" stroke-linecap="round"/>
+<rect x="424" y="735" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="424" y="765" width="32" height="29" rx="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="440" y="759" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">T</text>
+<text x="440" y="789" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">A</text>
+<path d="M282 714 L291 727 L281 740 M305 789 L293 802 L304 815" fill="none" stroke="#e4bd74" stroke-width="3" stroke-linecap="round"/>
+<text x="28" y="894" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Pt = platinum center; ligands omitted.</text>
+<text x="28" y="938" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">A DNA attachment is not a backbone cut.</text>
+<text x="28" y="978" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Lesions alone do not prove sensitivity.</text>
+</svg>

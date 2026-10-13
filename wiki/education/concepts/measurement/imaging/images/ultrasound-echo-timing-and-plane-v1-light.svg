@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1320" viewBox="0 0 780 1320" role="img" aria-labelledby="title desc"><title id="title">Ultrasound: echoes construct a selected plane</title><desc id="desc">One fictional probe emits sound pulses through gel and receives echoes from two boundaries. Under a common assumed sound speed, the earlier return maps to a shallower boundary and the later return to a deeper boundary. Echo amplitudes are illustrative, not malignancy labels. A two-dimensional plane leaves surrounding tissue unobserved.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#4e6564"/></marker></defs>
+<rect x="0" y="0" width="780" height="1320" rx="0" fill="#faf4e9" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Follow the returning echoes</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Fictional boundaries; no diagnosis</tspan></text>
+<rect x="24" y="145" width="732" height="370" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">1. Sound in; boundary echoes return</tspan></text>
+<rect x="72" y="252" width="305" height="186" rx="12" fill="#c7dce4" stroke="#47798f" stroke-width="2" />
+<path d="M73 310 Q173 285 242 312 T376 310" fill="none" stroke="#47798f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M73 396 Q188 364 265 395 T376 394" fill="none" stroke="#47798f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="73" y="240" width="305" height="13" rx="3" fill="#bdd8ca" stroke="#315f51" stroke-width="2" />
+<rect x="171" y="215" width="114" height="24" rx="8" fill="#315f51" stroke="#293c40" stroke-width="2" />
+<path d="M221 258 L221 383" fill="none" stroke="#9a6825" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M259 392 L259 260" fill="none" stroke="#86415b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M185 302 L185 260" fill="none" stroke="#86415b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="429" y="261" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="429" dy="0">Probe + gel</tspan><tspan x="429" dy="66">Sound goes in</tspan><tspan x="429" dy="66">Echoes return</tspan></text>
+<text x="72" y="487" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="72" dy="0">Two boundaries; not two cell types.</tspan></text>
+<rect x="24" y="540" width="732" height="320" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="595" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">2. Return time maps to depth</tspan></text>
+<path d="M78 728 L690 728" fill="none" stroke="#4e6564" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M80 728 H209 L220 668 L231 728 H469 L480 668 L491 728 H680" fill="none" stroke="#315f51" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="220" y="636" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="220" dy="0">Earlier</tspan></text>
+<text x="480" y="636" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="480" dy="0">Later</tspan></text>
+<text x="78" y="805" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="78" dy="0">Shallower</tspan></text>
+<text x="454" y="805" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="454" dy="0">Deeper</tspan></text>
+<text x="607" y="773" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="607" dy="0">Time →</tspan></text>
+<rect x="24" y="885" width="732" height="285" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="940" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">3. One selected image plane</tspan></text>
+<rect x="76" y="997" width="305" height="112" rx="5" fill="#fffdf7" stroke="#47798f" stroke-width="2" />
+<path d="M77 1020 Q171 1005 243 1022 T380 1020" fill="none" stroke="#4e6564" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M77 1081 Q193 1065 271 1083 T380 1081" fill="none" stroke="#4e6564" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="434" y="1020" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="434" dy="0">Echo-derived</tspan><tspan x="434" dy="46">boundaries</tspan></text>
+<text x="434" y="1121" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="434" dy="0">Elsewhere: ?</tspan></text>
+<text x="40" y="1246" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Image boundaries do not supply histology.</tspan><tspan x="40" dy="46">One view cannot exclude all disease.</tspan></text>
+</svg>

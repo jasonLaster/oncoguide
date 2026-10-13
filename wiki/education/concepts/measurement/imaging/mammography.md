@@ -36,6 +36,12 @@ Conventional digital mammography produces projection images. **Digital breast to
 
 A **screening** examination looks for suspicious findings before symptoms prompt evaluation. A **diagnostic** examination addresses a finding or symptom and may use additional views. These names describe the clinical question and examination, not whether cancer has already been proved.
 
+<img src="./images/mammography-projection-and-reconstructed-sections-v1-light.svg" alt="Two fictional structures at different depths overlap in a compressed X-ray projection; several view angles support computed sections, which are contrasted with a cut and stained tissue section." width="780" height="1340" data-theme-pair>
+
+*Several depths contribute to one projection. Tomosynthesis uses multiple X-ray views to reconstruct sections with less overlap; those sections remain imaging evidence. The shapes are fictional and do not identify cancer or prove complete detection.*
+
+[Open the light diagram](./images/mammography-projection-and-reconstructed-sections-v1-light.svg) · [Open the dark diagram](./images/mammography-projection-and-reconstructed-sections-v1-dark.svg)
+
 ## Why it matters in cancer
 
 A **mass** is a space-occupying finding. **Calcifications** are calcium deposits visible on the image. Their pattern and distribution can be informative, but calcium is not itself a diagnosis of cancer. Neither a persistent calcification nor a smaller mass directly measures how many viable cancer cells remain after treatment.
@@ -60,6 +66,8 @@ There is no universal image threshold that establishes the absence of microscopi
 - **A negative mammogram versus zero disease:** the scan did not identify suspicious evidence under its conditions; it cannot count every cell.
 
 ## Try it
+
+What separates reconstructed section A from the stained tissue picture? **Answer:** Section A is computed from X-ray projections. The stained picture represents physically sampled and prepared tissue; neither observation supplies a complete census of disease.
 
 A fictional report describes a 24 mm calcification span and no discrete mass. A learner concludes, “There are 24 mm of invasive cancer, and ultrasound will show its exact size.” Which parts go beyond the observation?
 

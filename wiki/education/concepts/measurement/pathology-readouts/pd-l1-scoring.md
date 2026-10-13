@@ -79,6 +79,12 @@ A clinical cutoff belongs to a defined assay, population and treatment setting. 
 
 ## Try it
 
+<img src="./images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg" alt="Grouped fictional inventories show 200 viable tumor cells with 20 staining, 40 eligible stained lymphocytes and 20 eligible stained macrophages, yielding CPS 40 and tumor-cell percentage 10%." width="780" height="1360" data-theme-pair>
+
+*The exact original fictional counts yield CPS 40 and a tumor-cell percentage of 10%. Tumor inventories include 180 unstained cells; immune cells add only to the CPS numerator. These are grouped counting cartoons, not slide coordinates. Eligibility, controls and assay/indication rules remain necessary, and TPS arithmetic applies only under its own rules.*
+
+[Open the light diagram](./images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg) · [Open the dark diagram](./images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg)
+
 A fictional eligible section contains 200 viable invasive tumor cells. Twenty tumor cells stain; 40 eligible lymphocytes and 20 eligible macrophages also stain. What are CPS and the illustrative tumor-cell percentage?
 
 **Answer:** CPS = `100 × (20 + 40 + 20) / 200 = 40`. The tumor-cell percentage is `100 × 20 / 200 = 10%`, corresponding to TPS arithmetic if those cells satisfy its assay rules. These different values do not authorize switching algorithms or choosing treatment. All counts are fictional.

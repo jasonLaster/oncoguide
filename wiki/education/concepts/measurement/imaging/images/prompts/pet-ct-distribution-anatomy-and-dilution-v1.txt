@@ -1,0 +1,9 @@
+Original code-generated native SVG construction brief. Image-model calls:0. Scientific-model executions:0.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/264
+Learner task: Separate tracer distribution, CT anatomy and small-lesion dilution
+Exact guardrails: Match the tracer and separate PET distribution from CT anatomy. Partial-volume dilution and normal/inflammatory uptake affect interpretation; brightness is not a cancer-specific or viable-cell census.
+
+Use original matched conceptual axial outlines for CT anatomy versus18F-FDG distribution, with identical landmark locations and no diagnosed lesions. In a separate common-grid schematic, a small high-activity region is reconstructed as broader lower-peak signal; finite resolution and image elements dilute apparent concentration. Keep the qualitative contrast explicitly uncalibrated, without invented SUV, activity totals, lesion-size cutoffs or a scanner simulation. Show normal, inflammatory and malignant tissue as possible uptake sources with the same generic activity glyph; not a cancer-specific marker. CT purpose/settings remain unspecified.
+
+Use a restrained warm friendly cartoon palette, rounded panels and original shapes. Native780-unit width; essential labels37or larger; height≤1360 for roughly16px at393×700 unchanged default theater. Light/dark pairs retain exact geometry/counts/text. Save this exact original construction brief; no invented model IDs, tool calls or approval. Private scripts, source bodies, source/read receipts and render fixtures are private aids outside prospective public payload. Independent scientific/creative, human-expert and learner review remain pending.

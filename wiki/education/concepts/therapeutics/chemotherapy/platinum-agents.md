@@ -39,6 +39,14 @@ Platinum drugs are often grouped with “alkylating-like” chemotherapy because
 
 Response also depends on uptake, removal, lesion repair and survival responses. [Homologous recombination and its deficiency](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) explain one part of the DNA-repair picture. A historical repair scar does not guarantee present platinum sensitivity, and resistance to one product cannot be summarized by one repair gene alone.
 
+<img src="./images/base-links-versus-backbone-break-v1-light.svg" alt="Four DNA schematics contrast a platinum attachment to one guanine, a link between two guanines on one strand, a link between guanines on opposite strands, and gaps in both DNA backbones" data-theme-pair width="600" height="1000">
+
+*A chemical link and a broken backbone are different lesions.*
+
+Look at where each connector ends. G means guanine and C means its complementary cytosine base. A platinum center attaches to one base in the first picture. The next two pictures distinguish a link within one strand from a link between strands. The fourth has physical gaps in both backbones. The metal circle omits its other chemical partners; the positions illustrate connectivity, not atomic bond angles. These are separate categories, not a reaction sequence or a distribution of lesions made by a product. [NCI cisplatin definition](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cisplatin), [NCI platinum-history discussion](https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf).
+
+**Read the DNA:** Which picture shows a double-strand break? **Answer:** The fourth. The attachments in the other pictures do not by themselves show a severed backbone or prove drug sensitivity.
+
 ## Why it matters in cancer
 
 Platinum agents are components of several cancer treatments. Their common DNA-damage theme does not make their indications, combinations or toxicity profiles interchangeable. Clinical usefulness needs evidence for the actual regimen and disease setting.

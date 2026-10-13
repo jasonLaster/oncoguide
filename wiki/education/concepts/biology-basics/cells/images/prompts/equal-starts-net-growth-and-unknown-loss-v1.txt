@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Zero image-model calls; model null.
+
+Draw two equal 1,000-cell baselines with final untreated 2,000 and treated 1,200 counts. Use proportional endpoint bars, with net increases +1,000 and +200. Do not interpolate a growth history or draw 800 killed cells. Mark production and loss as unknown. Keep nondividing vulnerability in the original prose, with no exposure, regimen or patient-benefit inference.
+
+Frozen learner task: Interpret smaller net population growth without converting a control-treatment count difference into measured killing.
+Frozen gap: The generic exposure→disruption→measure→outcomes map is a sound boundary reminder, but does not visualize the numerical 1000→1200 versus1000→2000 example or the unmeasured contributions of births and deaths.
+Frozen accuracy guardrails (exact original JSON type): ["Two equal baselines, separate final counts; label division/death contributions unknown and never depict the800 difference as killed cells. Nondividing vulnerability remains in ordinary prose."]
+
+Friendly restrained physical glyphs, detailed meaningful geometry. Both themes share exact objects/labels/quantities; essential labels at least36 nativepx for roughly16px at393px reader/default preview. Source bodies, original construction code/call/render/read-depth receipts stay private. Editable native SVGs are delivered without an executable reproduction-package promise.

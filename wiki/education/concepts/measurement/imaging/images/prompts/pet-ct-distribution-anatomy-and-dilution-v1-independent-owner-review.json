@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-124",
+  "owner": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+  "currentOwnerSha256": "0646228e814ad869c4c296b11e73383cb143606dff03a05e0e013a9f5f7a460a",
+  "author": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "authorRole": "original scientific and creative author; code-generated SVG producer",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-12T23:35:08.399Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/264",
+  "frozenRowSHA256": "643dc4beccc98de61df20b7f671ae64c383edbaf56bc2ee33320a56c0dda8ac2",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "8a2df7287dfeee8d70a32635fb60c758cafe065d5a1d00cb978d466b9d0a13d7",
+    "learnerTask": "Separate tracer distribution, CT anatomy and small-lesion dilution",
+    "gap": "No paired distribution/anatomy or partial-volume schematic",
+    "accuracyGuardrails": "Match the tracer and separate PET distribution from CT anatomy. Partial-volume dilution and normal/inflammatory uptake affect interpretation; brightness is not a cancer-specific or viable-cell census.",
+    "reasoning": "Matched landmarks link CT anatomy to named 18F-FDG distribution without equating the signals. A separate small-source cartoon depicts broader lower-peak appearance with uncalibrated graded fills and opaque outlines. It provides no SUV, preserved activity total, scanner model, numeric bias or cutoff. Normal, inflammatory and malignant sources share a generic activity glyph. The lesson and negative-scan caveat avoid a cancer-specific signal or viable-cell census."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "sha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "sha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+        "sha256": "0646228e814ad869c4c296b11e73383cb143606dff03a05e0e013a9f5f7a460a"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+        "sha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+        "sha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/pet-ct-distribution-anatomy-and-dilution-v1.txt",
+        "sha256": "e3932e6e1bead09a1016fae1a188c2bcabba145f2dc5676134b81694b1e75621"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/pet-ct-distribution-anatomy-and-dilution-v1.json",
+        "sha256": "6939feb225769832cf28a1f05221c10a298494ce30327ce801bf3f59314c75ca"
+      }
+    ],
+    "originalLessonExactlyPreserved": true,
+    "pairGeometryCountsAndTextIdentical": true
+  },
+  "visualReview": {
+    "nativeLightDarkPersonallyInspected": true,
+    "mobileInlineWithCaptionPersonallyInspected": true,
+    "desktopAndMobileDefaultPreviewsPersonallyInspected": true,
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1280,
+      700
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "conditionalThemeAndEscapeVerified": true,
+    "minimumInlineLabelPx": 16.365384615384617,
+    "minimumDefaultPreviewLabelPx": 16.365384615384613,
+    "scope": "Private rebuilt fixture with actual copied pinned React viewer, full shared theme/styles and reset; no production routing/API/live certification."
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "canonicalAdoption": "pending",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

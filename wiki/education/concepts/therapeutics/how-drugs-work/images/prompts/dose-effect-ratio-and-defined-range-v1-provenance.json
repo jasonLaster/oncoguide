@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index.md",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceOwnerPreimageSHA256": "f0492b8f692a80c18c51ed84ea44a4e909b21469240290230b8e1da980bd912e",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "dose-effect-ratio-and-defined-range-v1.txt",
+    "sha256": "60b662d56459731be67bc91a0e43a102effb1e2de5ca1720d29f2136dcd3fe3a",
+    "bytes": 1111,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "dose-effect-ratio-and-defined-range-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "1e73a86139a1eb09bd92b6eb89955c86f8bf84798a1c8d0036aff548e2be7c60",
+      "bytes": 10655
+    },
+    {
+      "file": "dose-effect-ratio-and-defined-range-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "44481455b6ca530c616f84e8fadd930f1bb149fc1f56d067cd5499fd65add48c",
+      "bytes": 10655
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Optimizing the Dosage of Human Prescription Drugs and Biological Products for the Treatment of Oncologic Diseases",
+      "url": "https://www.fda.gov/media/164555/download",
+      "scope": "Not a dose-intensity calculation standard or personal dose recommendation. Explicit scope exclusions for certain modalities, pediatric and first-in-human development retained as limits. No full-guidance reading claim."
+    },
+    {
+      "title": "Therapeutic Index, Drug",
+      "url": "https://www.ncbi.nlm.nih.gov/mesh/2023303",
+      "scope": "Definition supports the ratio concept only; chosen50% endpoints and compatible units in the figure are declared author-created math, not an asserted universal clinical rule."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

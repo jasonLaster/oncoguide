@@ -39,6 +39,14 @@ Microtubules also support transport and organization in cells that are not divid
 
 The drug molecule and its **formulation**, the product used to deliver it, are separate details. Solvent-based paclitaxel and albumin-bound paclitaxel carry the same active molecule through different products. Albumin is a blood protein used in the latter formulation. Their administration instructions and safety considerations are not interchangeable.
 
+<img src="./images/microtubule-dynamics-and-cellular-jobs-v1-light.svg" alt="An intact microtubule exchanges tubulin subunits above, while a taxane-bound intact tube has suppressed dynamics below; separate spindle and vesicle-transport scenes show two cellular jobs" data-theme-pair width="600" height="1000">
+
+*Stabilizing a microtubule can interfere with jobs that require it to reorganize.*
+
+The hollow tube remains present in both large panels. Paired subunits illustrate its wall; the drawing shows a simplified surface patch, not every protein in a full cross-section. The upper connectors represent addition and loss of subunits. The lower binding symbols indicate taxane exposure, with suppressed normal dynamics rather than tube destruction or permanent freezing. The small scenes show division machinery and cargo transport, both of which depend on microtubules. They are not measurements of transport speed, chromosome counts or a universal drug-treated phenotype. [Prescribing-information mechanism, section 12.1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6), [Cellular structures and jobs](https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton).
+
+**Read the tubes:** What remains in the taxane panel? **Answer:** The tube. Its normal dynamics are suppressed; the picture does not say that all transport stops or that a tumor is responding.
+
 ## Why it matters in cancer
 
 Taxanes appear in several cancer regimens, including breast-cancer treatment. The disease, setting, other medicines and schedule determine which clinical evidence applies. Knowing the drug class helps explain its job; it does not establish that every taxane or formulation fits the same situation.

@@ -57,6 +57,14 @@ Rapidly renewing healthy tissues are also vulnerable. The [therapeutic index](/w
 
 Dose is not concentration at every cell. [Pharmacokinetics](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) connects delivery to exposure. A rest interval does not mean every biological effect has ended. Uptake, repair and survival pathways also differ between [tumor populations](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity).
 
+<img src="./images/five-cellular-mechanism-locations-v1-light.svg" alt="A schematic cell locates five chemotherapy families at platinum and alkylating DNA attachments, topoisomerase-related cut-and-reseal handling, nucleotide and RNA processes, and cytoplasmic microtubules" data-theme-pair width="600" height="1000">
+
+*Different drug families disturb different jobs in shared cellular machinery.*
+
+Follow each number from the legend back into the cell. The DNA attachments in 1 and 2 involve different chemistry. The protein-held DNA ends in 3 represent topoisomerase-related cut-and-reseal handling. Number 4 connects nucleotide handling with an RNA example; number 5 points to a microtubule. These are selected examples, not complete drug structures, binding pockets or a map of every cellular drug concentration. Susceptible normal cells use this machinery too. [Primary topoisomerase experiment](https://pubmed.ncbi.nlm.nih.gov/6093249/), [Paclitaxel mechanism, section 12.1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6), [Fluorouracil mechanism, section 12.1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14).
+
+**Read the cell:** Is every example a DNA mechanism? **Answer:** No. Nucleotide and RNA biology, and microtubule organization, also appear. Seeing a disturbance does not establish growth arrest or death.
+
 ## Why it matters in cancer
 
 Treatment can aim to shrink disease before local treatment, reduce recurrence risk afterward, control disease or relieve symptoms. A mechanism diagram cannot establish which purpose has clinical evidence in a given setting.

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-109",
+  "owner": "wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells.md",
+  "author": "root",
+  "authorRole": "Sole canonical integration author only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "actor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Actual artwork and learner-facing creative author"
+  },
+  "artworkAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrMedicalWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "passedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "currentOwnerSha256": "eff2e1bbabf2396854127486b851567c183bccc61dca0bbb47ba84b072f00084",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Equal starts and proportionate endpoints separate +1000 and +200 net changes from the800 endpoint gap. Production/loss remain unknown; no800-death depiction; original nondividing vulnerability explanation retained.",
+    "baselinePageSHA256": "f75d10b591dc59c3f7fc262c36c9db0ef3559cdf41e82cafd004c15b94a9112e",
+    "learnerTask": "Interpret smaller net population growth without converting a control-treatment count difference into measured killing.",
+    "gap": "The generic exposure→disruption→measure→outcomes map is a sound boundary reminder, but does not visualize the numerical 1000→1200 versus1000→2000 example or the unmeasured contributions of births and deaths.",
+    "accuracyGuardrails": [
+      "Two equal baselines, separate final counts; label division/death contributions unknown and never depict the800 difference as killed cells. Nondividing vulnerability remains in ordinary prose."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/18",
+  "frozenRowSHA256": "57f7035706e856c3b05b66b579096d871871d790b9c9681a6620a6b3a8e43d10",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-light.svg",
+      "sha256": "960a6c0a7da1d275720fee6fc9cee7f1d5d44c877e6c5ef26770b5f5687acafd"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-dark.svg",
+      "sha256": "9960f1e4efa16ca8e41f89304f405a2c82b1fa2d0a12c1f29a2f1868867f1786"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells.md",
+        "sha256": "eff2e1bbabf2396854127486b851567c183bccc61dca0bbb47ba84b072f00084",
+        "bytes": 8092
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-light.svg",
+        "sha256": "960a6c0a7da1d275720fee6fc9cee7f1d5d44c877e6c5ef26770b5f5687acafd",
+        "bytes": 6113
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-dark.svg",
+        "sha256": "9960f1e4efa16ca8e41f89304f405a2c82b1fa2d0a12c1f29a2f1868867f1786",
+        "bytes": 6113
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/prompts/equal-starts-net-growth-and-unknown-loss-v1.txt",
+        "sha256": "57c2efa9c3121997c0021886845aacd75e7688640374c5da679a623e116088a3",
+        "bytes": 1456
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/prompts/equal-starts-net-growth-and-unknown-loss-v1-provenance.json",
+        "sha256": "115ae3020c40ee3eb0512fd1766969ab04e4e1504d9bc630d3a36490a388e090",
+        "bytes": 3090
+      }
+    ]
+  },
+  "reviewLineage": {
+    "originalWholePackageReviewSHA256": "b19e1b6f3c205020e2382bb55e7e903e8c6703fdb3f39a39575486e62940762a",
+    "originalWholePackageReviewTimeUTC": "2026-10-12T23:36:07.932590+00:00",
+    "originalVerdict": "REVISE",
+    "originalReviewManifestSHA256": "204a0fc5af483665bc5ca992c9fd2020c2b45c5c2ae592059f162d5d0f943fd7",
+    "originalReviewSealSHA256": "d90869d4959bdd499d93b7e85c47918809b5c47bab40173404c97e76788c1233",
+    "originalAuthorHandoffSHA256": "d1f39bd79067a3c8b6a54fbf072c88cf52da2b3502caef86fd5a632a2e6671f3",
+    "originalAuthorSealSHA256": "aca09e7ef76aec0b70823a0a6d753eed50399e7d46b2ddeedb2c0ae86c40a339",
+    "correctionAuthorHandoffSHA256": "f8ccc6010f33aeb32e1172543bde9fabe5178a1a044575d2ba80e386961525c6",
+    "correctionAuthorManifestSHA256": "b03a871e415aa14370c344952c760b5c0c4fb7921fb0f0b115911092e8330b56",
+    "correctionAuthorSealSHA256": "58d010eb137163e14b32d40374a46aecb397479976af52de7816dc6867bb0929",
+    "correctionReviewSHA256": "e345af8b72444a2cb1a51a7e3fb0f7f7e1618e3fcdb10ecf2784095a791debe0",
+    "correctionReviewTimeUTC": "2026-10-12T23:44:52.362959+00:00",
+    "basis": "Original complete independent scientific/visual review plus actual correction-only recheck; no grades derived from hash comparison alone",
+    "originalScientificTaskFit": "PASS",
+    "originalVisualTaskFit": "PASS",
+    "currentVisualTaskFit": "PASS",
+    "newFullMedicalOrPixelReview": false
+  },
+  "sourceReview": {
+    "inherited": true,
+    "newSourceLookups": 0,
+    "sourceURLs": [
+      "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "https://doi.org/10.1038/nmeth.3853",
+      "https://pubmed.ncbi.nlm.nih.gov/27894788/"
+    ],
+    "actualReadDepth": "Inherited qualified original full returned abstracts and selected primary/official passages; access failures preserved in original sealed private review. No whole-paper or expert approval."
+  },
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical127Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

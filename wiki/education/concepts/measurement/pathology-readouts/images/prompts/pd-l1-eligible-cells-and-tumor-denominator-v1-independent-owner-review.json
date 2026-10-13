@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-127",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+  "currentOwnerSha256": "7e9aa22cf68f574fb646ccb267451b0e8bae389d70c554cbeb15f2bbd0372d9d",
+  "author": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "authorRole": "original scientific and creative author; code-generated SVG producer",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-12T23:35:08.399Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/288",
+  "frozenRowSHA256": "f637d51314328b5d199ef52596653a129703b6a7c6fb43e7752aae8d19c0a155",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "076fd1c87c0cda7645c569617cead0c8c1409d85b177f9c11a91442e5aa97395",
+    "learnerTask": "Keep CPS eligible immune numerator and viable tumor denominator separate",
+    "gap": "Current branching map does not show the actual counted populations",
+    "accuracyGuardrails": "Keep CPS eligible immune-cell numerator, viable-tumor denominator and tumor-cell-only proportion distinct. Eligibility, staining/control rules, assay and indication matter; do not invent a treatment cutoff or count all immune cells indiscriminately.",
+    "reasoning": "The native inventory contains exactly 200 viable tumor glyphs: 20 membrane-positive and 180 unstained, plus 40 eligible stained lymphocytes and 20 eligible stained macrophages. CPS is 100*(20+40+20)/200 = 40; the tumor-cell percentage is 10%, with TPS use conditional on assay rules. Grouped inventories do not simulate microscopic spatial eligibility. The original adequacy, controls, exclusion rules, cap and indication context remain; no arbitrary immune population, treatment cutoff, eligibility or guaranteed benefit is added."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+      "sha256": "0373248af4ae44df34e0efcff61fb837980a38f4bd48f5d4e1f5e6e2891785ab"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+      "sha256": "67b0a988f98ef11b744a084c1e043e8105c78eb5003d127b449c15aa982433e2"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+        "sha256": "7e9aa22cf68f574fb646ccb267451b0e8bae389d70c554cbeb15f2bbd0372d9d"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+        "sha256": "0373248af4ae44df34e0efcff61fb837980a38f4bd48f5d4e1f5e6e2891785ab"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+        "sha256": "67b0a988f98ef11b744a084c1e043e8105c78eb5003d127b449c15aa982433e2"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/pd-l1-eligible-cells-and-tumor-denominator-v1.txt",
+        "sha256": "d69e1de7b60e09f30cdab6464e756eaafb0c8e66537423790e49d277da2804ba"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/pd-l1-eligible-cells-and-tumor-denominator-v1.json",
+        "sha256": "1b69c47e6b70f72ed9be6a7c4a753e69af18712937469e1db2a971b7053bcdaf"
+      }
+    ],
+    "originalLessonExactlyPreserved": true,
+    "pairGeometryCountsAndTextIdentical": true
+  },
+  "visualReview": {
+    "nativeLightDarkPersonallyInspected": true,
+    "mobileInlineWithCaptionPersonallyInspected": true,
+    "desktopAndMobileDefaultPreviewsPersonallyInspected": true,
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1280,
+      700
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "conditionalThemeAndEscapeVerified": true,
+    "minimumInlineLabelPx": 16.365384615384617,
+    "minimumDefaultPreviewLabelPx": 16.365384615384613,
+    "scope": "Private rebuilt fixture with actual copied pinned React viewer, full shared theme/styles and reset; no production routing/API/live certification."
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "canonicalAdoption": "pending",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

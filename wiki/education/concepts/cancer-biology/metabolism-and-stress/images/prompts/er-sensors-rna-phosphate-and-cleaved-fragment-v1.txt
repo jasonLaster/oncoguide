@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Zero image-model calls; model null.
+
+Place IRE1, PERK and ATF6 across a schematic ER membrane with luminal and cytosolic domains. Show IRE1-associated XBP1 RNA splice forms without literal nucleotide counts, DNA change or attributing every joining reaction to IRE1. Show PERK phosphorylation of eIF2α while acknowledging other kinases. Route ATF6 from ER to Golgi processing, then a released cytosolic N-terminal fragment to the nucleus; full-length membrane-bound ATF6 does not enter the nucleus. Total XBP1 differs from a splice-form fraction; the three readouts are not interchangeable. Do not infer inevitable death or dependence.
+
+Frozen learner task: Distinguish three UPR sensors and their different RNA, phosphorylation and cleavage readouts.
+Frozen gap: The existing generic branches/adaptation/death map adequately separates response from failure, but collapses IRE1, PERK and ATF6 into one box. A compact parallel-mechanism diagram located at the ER would make the three assay outputs intelligible without implying interchangeable tests.
+Frozen accuracy guardrails (exact original JSON type): ["A selected branch is not the entire UPR.", "Total XBP1 differs from spliced XBP1; eIF2α phosphorylation has other possible causes.", "Stress response is not inevitable death or dependency."]
+
+Friendly restrained physical glyphs, detailed meaningful geometry. Both themes share exact objects/labels/quantities; essential labels at least36 nativepx for roughly16px at393px reader/default preview. Source bodies, original construction code/call/render/read-depth receipts stay private. Editable native SVGs are delivered without an executable reproduction-package promise.

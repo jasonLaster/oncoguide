@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Zero image-model calls; model null.
+
+Draw a directed G1 → S → G2 → M → G1 sequence with an optional G0 side branch and conditional return. Do not use equal-duration sectors or a universal timetable. Show schematic nuclear DNA, with M as one cell containing two segregated nuclei before cytokinesis. Add a separate relative-DNA key: G0/G1 at baseline, S between baseline and double, G2/M near double before cell separation. A snapshot fraction is not a division rate; DNA alone cannot distinguish the paired groups.
+
+Frozen learner task: Track G1→S→G2→M, optional noncycling status and DNA amount without mistaking phase percentage for a rate.
+Frozen gap: The current sequence map and caption explain phase order and optional G0 well. A compact cycle with a G0 side branch plus a separate DNA-content key would clarify return/noncycling and the measurement exercise; no physical cartoon is essential.
+Frozen accuracy guardrails (exact original JSON type): ["No equal-duration sectors, universal timetable or DNA-content proof distinguishing G0/G1 and G2/M."]
+
+Friendly restrained physical glyphs, detailed meaningful geometry. Both themes share exact objects/labels/quantities; essential labels at least36 nativepx for roughly16px at393px reader/default preview. Source bodies, original construction code/call/render/read-depth receipts stay private. Editable native SVGs are delivered without an executable reproduction-package promise.

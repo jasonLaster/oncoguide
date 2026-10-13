@@ -29,6 +29,15 @@ Your family tree, your training and what you are doing this afternoon tell diffe
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/lineage-family-clone-and-state-labels-v1-light.svg" width="760" height="1320" alt="One fictional cell carries separate L1 ancestry, epithelial-family, C1 genetic-clone and cycling-state labels; the same clone occupies two activity states, and two RNA-state groups each contain C1 and C2 tags." data-theme-pair>
+<p class="cartoon-caption">The cell labels are stipulated independently in this fictional example, rather than inferred from appearance or RNA (ribonucleic acid). L1 denotes an ancestry label, epithelial a broad family, C1 a genetic tumor-clone label, and cycling a state. One family/clone contains different states, while state-based RNA groups can contain different clone labels. No snapshot establishes ancestry, malignancy or permanent commitment.</p>
+</div>
+
+**Read the clone labels:** Does putting C1 cells in two RNA-state groups create two genetic clones?
+
+**Answer:** No. The stipulated clone identity stays C1. The RNA grouping describes measured similarity or state, not a new ancestry or genetic relationship.
+
 During development and tissue renewal, cells produce descendants. **Lineage** refers to those ancestry relationships. In sample descriptions, a “lineage” label may instead name a broad family, such as epithelial or immune cells. That classification is useful, but it does not reconstruct an individual cell's family tree.
 
 **Differentiation** involves acquiring specialized features: the structures, molecular programs and functions that support a particular job. A blood-forming stem cell can produce descendants that become distinct blood-cell types. **Stem cells** can renew themselves and generate other cells within a defined biological context. **Progenitor cells** are descendants with more restricted developmental potential. These words do not imply that every stem or progenitor can produce any tissue.

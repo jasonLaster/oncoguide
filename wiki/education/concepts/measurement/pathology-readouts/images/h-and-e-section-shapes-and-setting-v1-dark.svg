@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1330" viewBox="0 0 780 1330" role="img" aria-labelledby="title desc"><title id="title">H&amp;E: morphology in a represented section</title><desc id="desc">A fictional tissue block and selected thin section lead to a schematic cell cluster beside pink extracellular matrix. Blue-purple nuclei and pink cytoplasm/matrix reflect broad H&amp;E stain classes, not gene activity or named-protein abundance. The scene does not classify invasion, malignancy or cell viability. Nearby depth can contain a different arrangement and tissue outside the represented section remains unobserved.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c0d0ca"/></marker></defs>
+<rect x="0" y="0" width="780" height="1330" rx="0" fill="#192b2f" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Read the represented slice</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Fictional tissue; shapes and surroundings</tspan></text>
+<rect x="24" y="145" width="732" height="295" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">1. A thin section samples one depth</tspan></text>
+<path d="M80 254 L246 254 L299 216 L132 216 Z" fill="#614e6d" stroke="#c4a2d5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M80 254 H246 V352 H80 Z" fill="#62424e" stroke="#efb7cc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M246 254 L299 216 V314 L246 352 Z" fill="#62424e" stroke="#efb7cc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M87 274 L240 274" fill="none" stroke="#e4bd7c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M324 275 L391 275" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="430" y="248" width="245" height="96" rx="5" fill="#62424e" stroke="#efb7cc" stroke-width="2" />
+<ellipse cx="464.6" cy="273.2" rx="5" ry="4" fill="#c4a2d5"/>
+<ellipse cx="491.24" cy="270.96" rx="5" ry="4" fill="#c4a2d5"/>
+<ellipse cx="517.14" cy="282.8" rx="5" ry="4" fill="#c4a2d5"/>
+<ellipse cx="462.38" cy="296.24" rx="5" ry="4" fill="#c4a2d5"/>
+<ellipse cx="489.76" cy="296.88" rx="5" ry="4" fill="#c4a2d5"/>
+<ellipse cx="510.85" cy="313.2" rx="5" ry="4" fill="#c4a2d5"/>
+<path d="M565 269.04 Q594 262.04 615 270.04 T660 269.04" fill="none" stroke="#efb7cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M565 287.92 Q594 280.92 615 288.92 T660 287.92" fill="none" stroke="#efb7cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M565 306.8 Q594 299.8 615 307.8 T660 306.8" fill="none" stroke="#efb7cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M565 325.68 Q594 318.68 615 326.68 T660 325.68" fill="none" stroke="#efb7cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="430" y="397" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="430" dy="0">Selected section</tspan></text>
+<rect x="24" y="465" width="732" height="440" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="520" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">2. Cells have an architectural setting</tspan></text>
+<path d="M99 616 Q158 554 243 577 Q345 565 372 661 Q381 749 308 771 Q193 816 116 758 Q67 701 99 616 Z" fill="#62424e" stroke="#efb7cc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="160" cy="625" rx="29" ry="23" fill="#6b4c5a" stroke="#efb7cc" stroke-width="3"/>
+<ellipse cx="157" cy="625" rx="11.600000000000001" ry="12.65" fill="#c4a2d5"/>
+<ellipse cx="232" cy="618" rx="32" ry="26" fill="#6b4c5a" stroke="#efb7cc" stroke-width="3"/>
+<ellipse cx="229" cy="618" rx="12.8" ry="14.3" fill="#c4a2d5"/>
+<ellipse cx="302" cy="655" rx="27" ry="30" fill="#6b4c5a" stroke="#efb7cc" stroke-width="3"/>
+<ellipse cx="299" cy="655" rx="10.8" ry="16.5" fill="#c4a2d5"/>
+<ellipse cx="154" cy="697" rx="32" ry="28" fill="#6b4c5a" stroke="#efb7cc" stroke-width="3"/>
+<ellipse cx="151" cy="697" rx="12.8" ry="15.400000000000002" fill="#c4a2d5"/>
+<ellipse cx="228" cy="699" rx="34" ry="29" fill="#6b4c5a" stroke="#efb7cc" stroke-width="3"/>
+<ellipse cx="225" cy="699" rx="13.600000000000001" ry="15.950000000000001" fill="#c4a2d5"/>
+<ellipse cx="285" cy="750" rx="26" ry="20" fill="#6b4c5a" stroke="#efb7cc" stroke-width="3"/>
+<ellipse cx="282" cy="750" rx="10.4" ry="11.0" fill="#c4a2d5"/>
+<path d="M434 612 Q502 591 554 615 T692 612" fill="none" stroke="#efb7cc" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M434 671 Q502 650 554 674 T692 671" fill="none" stroke="#efb7cc" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M434 730 Q502 709 554 733 T692 730" fill="none" stroke="#efb7cc" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M434 789 Q502 768 554 792 T692 789" fill="none" stroke="#efb7cc" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<text x="96" y="862" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="96" dy="0">Cell cluster</tspan></text>
+<text x="430" y="862" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="430" dy="0">Matrix</tspan></text>
+<rect x="24" y="930" width="732" height="240" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="985" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">3. Colors reveal broad stain classes</tspan></text>
+<circle cx="84" cy="1030" r="16" fill="#c4a2d5" />
+<text x="124" y="1042" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="124" dy="0">Blue-purple: nuclei</tspan></text>
+<circle cx="84" cy="1096" r="16" fill="#62424e" stroke="#efb7cc" stroke-width="3" />
+<text x="124" y="1108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="124" dy="0">Pink: cytoplasm and matrix</tspan></text>
+<text x="40" y="1235" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Appearance is not a molecular census.</tspan><tspan x="40" dy="46">Nearby depth can show a different mixture.</tspan></text>
+</svg>

@@ -30,6 +30,11 @@ The analogy stops at intention: the cell has no team captain reading an instruct
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/branched-relay-roles-and-separate-readouts-v1-light.svg" width="760" height="1320" alt="A membrane receptor branches toward a RAS molecular switch and a scaffold holding partners, with a kinase phosphate-transfer example kept separate from the fictional 30-minute phosphosite response and two-day unchanged cell count." data-theme-pair>
+<p class="cartoon-caption">This is a generic possible circuit, not measured wiring in a tumor. RAS is a GTP-regulated switch; a scaffold holds partners; a kinase can transfer phosphate from ATP to a substrate, leaving ADP. The fictional site X designation adds no measured residue identity: its lower signal after 30 minutes and the unchanged cell number after two days are separate readouts. The cell icons symbolize a count assay, not three measured cells. A phosphate does not universally activate a protein, and either result leaves growth dependence unresolved.</p>
+</div>
+
 A signal received through a [receptor](/wiki/education/concepts/biology-basics/signaling/receptor-types) can change nearby proteins, generate small internal messengers or alter gene regulation. These mechanisms can intersect. The resulting response may involve movement, metabolism, growth, survival or [differentiation](/wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation), the development of a specialized cellular state.
 
 A **kinase** is an [enzyme](/wiki/education/concepts/biology-basics/molecules/enzymes-and-binding) that transfers a phosphate group to a **substrate**, the molecule being modified. Many protein kinases use **adenosine triphosphate (ATP)** as the donor and leave adenosine diphosphate, or ADP. They commonly modify particular serine, threonine or tyrosine positions in a [protein](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide).

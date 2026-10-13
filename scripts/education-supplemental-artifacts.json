@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "34024e11fb6fc710cdd9ac0daff1fa68057f1f7e",
+  "reviewedSourceCommit": "5c4031634c742cd56b67b34ee0ec79431cf05c0b",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -4133,6 +4133,726 @@
         {
           "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
           "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/contacts-polarity-and-hybrid-feature-combinations-v1-independent-owner-review.json",
+      "sha256": "5b634eb75f6e5c6a08df020350ec83a81e66cfe2a864ee882db6d0056475d076",
+      "bytes": 6402,
+      "owner": "wiki/education/concepts/biology-basics/cells/epithelial-mesenchymal-transition.md",
+      "ownerSha256": "624fbbc10cf96ae5789667f55745b70e7a95bb54991af5cc297b202271c7d505",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-light.svg",
+          "sha256": "b6b0a27be54e4e731b7d90f4728e6e9aef2077dc6d5be5f5d51e88a173c594f0"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-dark.svg",
+          "sha256": "bd2dc1b8a3104b84ad127f302ec72ca7e043751a9af9381aa21085cfe23eb288"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/contacts-polarity-and-hybrid-feature-combinations-v1-provenance.json",
+      "sha256": "459886a3b3db3d0388bb6257cf21d2c0a928d10805630b0479d1563b7838a8d9",
+      "bytes": 3064,
+      "owner": "wiki/education/concepts/biology-basics/cells/epithelial-mesenchymal-transition.md",
+      "ownerSha256": "624fbbc10cf96ae5789667f55745b70e7a95bb54991af5cc297b202271c7d505",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-light.svg",
+          "sha256": "b6b0a27be54e4e731b7d90f4728e6e9aef2077dc6d5be5f5d51e88a173c594f0"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-dark.svg",
+          "sha256": "bd2dc1b8a3104b84ad127f302ec72ca7e043751a9af9381aa21085cfe23eb288"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/cycle-optional-g0-and-relative-dna-v1-independent-owner-review.json",
+      "sha256": "ec51060ca392187460f6c202f60d870edad84cd6d5894a0c7aee5fb7bd868c97",
+      "bytes": 6141,
+      "owner": "wiki/education/concepts/biology-basics/cells/cell-cycle.md",
+      "ownerSha256": "1ad4b4534170a727ae3148874113944d081dea403703baddaa3870aa884ecf10",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/cycle-optional-g0-and-relative-dna-v1-light.svg",
+          "sha256": "bcff53632e056b91cf6256914ad46191ac8fa618129c426f74a633257037b43f"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/cycle-optional-g0-and-relative-dna-v1-dark.svg",
+          "sha256": "07be403bcaa5e6e447c78dc5f47a63cf36bfe85d304096dc2de6b2e516a89126"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/cycle-optional-g0-and-relative-dna-v1-provenance.json",
+      "sha256": "a9def150357a575bc8fd584de8fff5be08051edd2a326109b1676c15801b5a36",
+      "bytes": 2919,
+      "owner": "wiki/education/concepts/biology-basics/cells/cell-cycle.md",
+      "ownerSha256": "1ad4b4534170a727ae3148874113944d081dea403703baddaa3870aa884ecf10",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/cycle-optional-g0-and-relative-dna-v1-light.svg",
+          "sha256": "bcff53632e056b91cf6256914ad46191ac8fa618129c426f74a633257037b43f"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/cycle-optional-g0-and-relative-dna-v1-dark.svg",
+          "sha256": "07be403bcaa5e6e447c78dc5f47a63cf36bfe85d304096dc2de6b2e516a89126"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/equal-starts-net-growth-and-unknown-loss-v1-independent-owner-review.json",
+      "sha256": "ae884e10fbcaf19de4b7527ecb461a220ddb355718e36c07ee0114eabff0ab64",
+      "bytes": 6386,
+      "owner": "wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells.md",
+      "ownerSha256": "eff2e1bbabf2396854127486b851567c183bccc61dca0bbb47ba84b072f00084",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-light.svg",
+          "sha256": "960a6c0a7da1d275720fee6fc9cee7f1d5d44c877e6c5ef26770b5f5687acafd"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-dark.svg",
+          "sha256": "9960f1e4efa16ca8e41f89304f405a2c82b1fa2d0a12c1f29a2f1868867f1786"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/equal-starts-net-growth-and-unknown-loss-v1-provenance.json",
+      "sha256": "115ae3020c40ee3eb0512fd1766969ab04e4e1504d9bc630d3a36490a388e090",
+      "bytes": 3090,
+      "owner": "wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells.md",
+      "ownerSha256": "eff2e1bbabf2396854127486b851567c183bccc61dca0bbb47ba84b072f00084",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-light.svg",
+          "sha256": "960a6c0a7da1d275720fee6fc9cee7f1d5d44c877e6c5ef26770b5f5687acafd"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/equal-starts-net-growth-and-unknown-loss-v1-dark.svg",
+          "sha256": "9960f1e4efa16ca8e41f89304f405a2c82b1fa2d0a12c1f29a2f1868867f1786"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/lineage-family-clone-and-state-labels-v1-independent-owner-review.json",
+      "sha256": "32d85fa4cf0326a664dd328c5465a39505b272b17fe4c0b05cdf2e11cf500045",
+      "bytes": 6374,
+      "owner": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+      "ownerSha256": "0d6f11b639c53b94748bd158b2396e5dbd44d038afd4df020727d693f29f6ada",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-light.svg",
+          "sha256": "5d5ad085a85139e37479de93ac43d62acbfe7d8e7d6f3ae4ed0eeab32ea21fe2"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-dark.svg",
+          "sha256": "8ead5fccba36e1841c4f96ba3fd4427e20df30006789639f6f321fcc1da190f1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/lineage-family-clone-and-state-labels-v1-provenance.json",
+      "sha256": "bb26a2fd95655856bd9cfe2311eee9a42e36b1b8d0e24b9513e2586b446194c9",
+      "bytes": 3081,
+      "owner": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+      "ownerSha256": "0d6f11b639c53b94748bd158b2396e5dbd44d038afd4df020727d693f29f6ada",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-light.svg",
+          "sha256": "5d5ad085a85139e37479de93ac43d62acbfe7d8e7d6f3ae4ed0eeab32ea21fe2"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-dark.svg",
+          "sha256": "8ead5fccba36e1841c4f96ba3fd4427e20df30006789639f6f321fcc1da190f1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/reversible-binding-catalysis-and-half-occupancy-v1-independent-owner-review.json",
+      "sha256": "6e15d0381b290536009534c9851419bc4177f84c977f4c7cebc4fcc5427bd7aa",
+      "bytes": 6569,
+      "owner": "wiki/education/concepts/biology-basics/molecules/enzymes-and-binding.md",
+      "ownerSha256": "df8f2de37964f0def6ee573fa4e5043d8915002d28123e2d61b373f778bc3067",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-light.svg",
+          "sha256": "0b64c4cd1a741dca917f3bc7e43dcc1725f77161335dc0f0f7ebb011655d4317"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-dark.svg",
+          "sha256": "b2f6660da9ad9ea6be12c6601d7c0a6a87eb90e26b3356769ec2997779befee6"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/reversible-binding-catalysis-and-half-occupancy-v1-provenance.json",
+      "sha256": "870b08b096da4762428526bb812d1508781f93ebc5c86e6cf43610ac62d9241d",
+      "bytes": 3184,
+      "owner": "wiki/education/concepts/biology-basics/molecules/enzymes-and-binding.md",
+      "ownerSha256": "df8f2de37964f0def6ee573fa4e5043d8915002d28123e2d61b373f778bc3067",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-light.svg",
+          "sha256": "0b64c4cd1a741dca917f3bc7e43dcc1725f77161335dc0f0f7ebb011655d4317"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-dark.svg",
+          "sha256": "b2f6660da9ad9ea6be12c6601d7c0a6a87eb90e26b3356769ec2997779befee6"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/branched-relay-roles-and-separate-readouts-v1-independent-owner-review.json",
+      "sha256": "e88451d1b0ca1b62341c889bb5670865b6ffc39baeb80270d01fe358979d7707",
+      "bytes": 6530,
+      "owner": "wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases.md",
+      "ownerSha256": "8644e356c0a49818046b915ae8ad496a4965286e1ed55792d9c21ed0594c7856",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-light.svg",
+          "sha256": "1d250a7f03e07af14813f4c94f0622a4e57bef7ca83147394bb2a9fe092ccf6b"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-dark.svg",
+          "sha256": "e2bf2316ba86900812cd8d4a7afe7cc2c5521d243fab0e5680c1bd6d1e6622cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/branched-relay-roles-and-separate-readouts-v1-provenance.json",
+      "sha256": "4a0baf5576c5366df8bb4467d82af53ecee9f926790f48e0efb9066e857784ff",
+      "bytes": 3188,
+      "owner": "wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases.md",
+      "ownerSha256": "8644e356c0a49818046b915ae8ad496a4965286e1ed55792d9c21ed0594c7856",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-light.svg",
+          "sha256": "1d250a7f03e07af14813f4c94f0622a4e57bef7ca83147394bb2a9fe092ccf6b"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-dark.svg",
+          "sha256": "e2bf2316ba86900812cd8d4a7afe7cc2c5521d243fab0e5680c1bd6d1e6622cf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1-independent-owner-review.json",
+      "sha256": "a2743cd9987e90f534f64da2a517cec3b6386e468bde0e3cbfc8cc5cbd9ba9b2",
+      "bytes": 6946,
+      "owner": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+      "ownerSha256": "282be3383832ae4dba0933cb927bebe09c385844a53693456a280d3fa18a4f76",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+          "sha256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+          "sha256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1-provenance.json",
+      "sha256": "630f655f45d01ab37c8bd42a152c5f2e7f65af067d4576e2af58a4c316453d0c",
+      "bytes": 5193,
+      "owner": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+      "ownerSha256": "282be3383832ae4dba0933cb927bebe09c385844a53693456a280d3fa18a4f76",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+          "sha256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+          "sha256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/mammography-projection-and-reconstructed-sections-v1-independent-owner-review.json",
+      "sha256": "49f009963aaf8902f66fb1e9f56b4f53481ffef54d2148db71d013ec7afa36ee",
+      "bytes": 4727,
+      "owner": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ownerSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+          "sha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+          "sha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/mammography-projection-and-reconstructed-sections-v1.json",
+      "sha256": "02df7203bb3f25362cd66659604e9d57414e0df42f14eb9d003cf5b7836fe57e",
+      "bytes": 3584,
+      "owner": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ownerSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+          "sha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+          "sha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1-independent-owner-review.json",
+      "sha256": "a1ca27d91e62391e9f84a0a2603c1e64478efaaec641023a95570506a84e5c50",
+      "bytes": 4760,
+      "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ownerSha256": "dd9f7fe0f291e9781b675b8ad01587c4c8ad520a0d7cf4b854561628d43cd67e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+          "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+          "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1.json",
+      "sha256": "0641f5fb2a77da415faa9ac1be659155d04d225abb97162de79519886c1cedc3",
+      "bytes": 4229,
+      "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ownerSha256": "dd9f7fe0f291e9781b675b8ad01587c4c8ad520a0d7cf4b854561628d43cd67e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+          "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+          "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/pet-ct-distribution-anatomy-and-dilution-v1-independent-owner-review.json",
+      "sha256": "e1fd1f18ca3fc505c7be74ca1db09d65ff2db09805e9f2fd6abd5e8336f895c0",
+      "bytes": 4666,
+      "owner": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ownerSha256": "0646228e814ad869c4c296b11e73383cb143606dff03a05e0e013a9f5f7a460a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+          "sha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+          "sha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/pet-ct-distribution-anatomy-and-dilution-v1.json",
+      "sha256": "6939feb225769832cf28a1f05221c10a298494ce30327ce801bf3f59314c75ca",
+      "bytes": 4284,
+      "owner": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ownerSha256": "0646228e814ad869c4c296b11e73383cb143606dff03a05e0e013a9f5f7a460a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+          "sha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+          "sha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/response-baseline-nadir-and-outside-sum-v1-independent-owner-review.json",
+      "sha256": "65d9667b3113f4c676644615fdcc7bd8a988afcb5ac862071065aa90f16c8e34",
+      "bytes": 4749,
+      "owner": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+      "ownerSha256": "39e0e8e03d145ea781b705da437cc60ff39530155a0285ef9dd146eee015da21",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-light.svg",
+          "sha256": "83e311ef6936fbe05cb57528e0e496b3d96148cf0b2a3c2208e055b8b10ec5c5"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-dark.svg",
+          "sha256": "37eda88019b8340aa654b75a879f49b5372ddd76b1cb5c9423ce6da93a748060"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/response-baseline-nadir-and-outside-sum-v1.json",
+      "sha256": "a95eba413e286a711f497dea953998434a759e3a8123b1757d4abed779054834",
+      "bytes": 3361,
+      "owner": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+      "ownerSha256": "39e0e8e03d145ea781b705da437cc60ff39530155a0285ef9dd146eee015da21",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-light.svg",
+          "sha256": "83e311ef6936fbe05cb57528e0e496b3d96148cf0b2a3c2208e055b8b10ec5c5"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-dark.svg",
+          "sha256": "37eda88019b8340aa654b75a879f49b5372ddd76b1cb5c9423ce6da93a748060"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/ultrasound-echo-timing-and-plane-v1-independent-owner-review.json",
+      "sha256": "fc46732d00425abb60791cd81e6d7e82d02b15ce8a70b38371fc93d303953b39",
+      "bytes": 4640,
+      "owner": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ownerSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+          "sha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+          "sha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/ultrasound-echo-timing-and-plane-v1.json",
+      "sha256": "a7f9be3f4f5080d002087d07f01e77b9e4859dcd27a6341f7b823ee11de2c8aa",
+      "bytes": 3233,
+      "owner": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ownerSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+          "sha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+          "sha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/h-and-e-section-shapes-and-setting-v1-independent-owner-review.json",
+      "sha256": "e3316f14aba9b2d6d121547b2f56f835356333e4771e4df1a6aa302841e497c1",
+      "bytes": 4743,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+      "ownerSha256": "4c16af89c63587bc73d98291518a1ede351859be02c992be54c316d58913ad1b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+          "sha256": "3b2b2b6cb0a9231def57c14cc7c82d8e280d555b5ebdfcabd2bf7563d51436be"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+          "sha256": "cb1eb9491aa7805d361aefd4b6552cbead916a5579c75342b15940c54cb9bb3b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/h-and-e-section-shapes-and-setting-v1.json",
+      "sha256": "9cbe4541c2377256a252f1d18c6e9aba7e06df63505766581abeee20131c1b37",
+      "bytes": 3364,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+      "ownerSha256": "4c16af89c63587bc73d98291518a1ede351859be02c992be54c316d58913ad1b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+          "sha256": "3b2b2b6cb0a9231def57c14cc7c82d8e280d555b5ebdfcabd2bf7563d51436be"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+          "sha256": "cb1eb9491aa7805d361aefd4b6552cbead916a5579c75342b15940c54cb9bb3b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/pd-l1-eligible-cells-and-tumor-denominator-v1-independent-owner-review.json",
+      "sha256": "e33ee3982888fc7179a33d94048541d6980079dea7089877f250dcf9a1b24cb2",
+      "bytes": 4909,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+      "ownerSha256": "7e9aa22cf68f574fb646ccb267451b0e8bae389d70c554cbeb15f2bbd0372d9d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+          "sha256": "0373248af4ae44df34e0efcff61fb837980a38f4bd48f5d4e1f5e6e2891785ab"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+          "sha256": "67b0a988f98ef11b744a084c1e043e8105c78eb5003d127b449c15aa982433e2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/pd-l1-eligible-cells-and-tumor-denominator-v1.json",
+      "sha256": "1b69c47e6b70f72ed9be6a7c4a753e69af18712937469e1db2a971b7053bcdaf",
+      "bytes": 3533,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+      "ownerSha256": "7e9aa22cf68f574fb646ccb267451b0e8bae389d70c554cbeb15f2bbd0372d9d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+          "sha256": "0373248af4ae44df34e0efcff61fb837980a38f4bd48f5d4e1f5e6e2891785ab"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+          "sha256": "67b0a988f98ef11b744a084c1e043e8105c78eb5003d127b449c15aa982433e2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1-next-gap-116-independent-task-fit.json",
+      "sha256": "4900dbaefcd6a9b1451377cf45e60db9b11c5ceb4ff102215d0266accde0b4c7",
+      "bytes": 9003,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+      "ownerSha256": "dd441605695e868370c473f0a038822aebafe1443fee1e18b414b0593697d0ab",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+          "sha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+          "sha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1-provenance.json",
+      "sha256": "f1c110dfd14465ed16a0843362a8c99c4c8b9beb355056f20aa4e3fbefe1e655",
+      "bytes": 2779,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+      "ownerSha256": "dd441605695e868370c473f0a038822aebafe1443fee1e18b414b0593697d0ab",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+          "sha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+          "sha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/five-cellular-mechanism-locations-v1-next-gap-115-independent-task-fit.json",
+      "sha256": "c40718ec49ca9cb51534624de689784b9a925b458edcbbb9ad7717c31f79540c",
+      "bytes": 12003,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+      "ownerSha256": "1372a8ebc57b61ba701db463b01ba2bd8739fb1ea2b531ae695fbaf9cd5eca04",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-light.svg",
+          "sha256": "071b4572c7580ffced65f9d7465a77eb095365cf8640470ccadbf59a67d3d167"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-dark.svg",
+          "sha256": "e5034656cf90192dfe941f9d3cce59f81a95f4ce1838605e8246d9668d8529be"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/five-cellular-mechanism-locations-v1-provenance.json",
+      "sha256": "3b0d17181037d1873a070d0459a22f9cdfad3e2738c006a7aa067fe95673e809",
+      "bytes": 4577,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+      "ownerSha256": "1372a8ebc57b61ba701db463b01ba2bd8739fb1ea2b531ae695fbaf9cd5eca04",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-light.svg",
+          "sha256": "071b4572c7580ffced65f9d7465a77eb095365cf8640470ccadbf59a67d3d167"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-dark.svg",
+          "sha256": "e5034656cf90192dfe941f9d3cce59f81a95f4ce1838605e8246d9668d8529be"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/microtubule-dynamics-and-cellular-jobs-v1-next-gap-117-independent-task-fit.json",
+      "sha256": "763af46a226e4aa214f985789ae9e299d5e3c6b9ba8189f78677e830fa623753",
+      "bytes": 9047,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+      "ownerSha256": "4e85c880a51e5914bbf2ec01bf83ded9eb1e20dfd31ca1aca63810407f4748ce",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-light.svg",
+          "sha256": "1251bc83a80fcabd594c7fb83e568095c8005be6d27b101aff35432764ad5930"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-dark.svg",
+          "sha256": "bc5a67ba2093483cf553a59bfad2fcf3d983269455bf63b94c6f4c1a147ee18b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/microtubule-dynamics-and-cellular-jobs-v1-provenance.json",
+      "sha256": "763cde3aa0362aadf6103b3fe0f60c6c9a34dde9468adbcb74764df40decd49f",
+      "bytes": 2404,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+      "ownerSha256": "4e85c880a51e5914bbf2ec01bf83ded9eb1e20dfd31ca1aca63810407f4748ce",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-light.svg",
+          "sha256": "1251bc83a80fcabd594c7fb83e568095c8005be6d27b101aff35432764ad5930"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-dark.svg",
+          "sha256": "bc5a67ba2093483cf553a59bfad2fcf3d983269455bf63b94c6f4c1a147ee18b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/dose-effect-ratio-and-defined-range-v1-next-gap-120-independent-task-fit.json",
+      "sha256": "b1d9c2c68de7ddf89b9ce37b11c28caf93179174fd3e2cc5ea7e4fc122b5bb11",
+      "bytes": 8878,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index.md",
+      "ownerSha256": "f1bac87cd696b969f4400c4f47961be5534b89cc300b685374e6f4480a37ef73",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/dose-effect-ratio-and-defined-range-v1-light.svg",
+          "sha256": "1e73a86139a1eb09bd92b6eb89955c86f8bf84798a1c8d0036aff548e2be7c60"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/dose-effect-ratio-and-defined-range-v1-dark.svg",
+          "sha256": "44481455b6ca530c616f84e8fadd930f1bb149fc1f56d067cd5499fd65add48c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/dose-effect-ratio-and-defined-range-v1-provenance.json",
+      "sha256": "18f7e00490617d4aafd854ed5d5223e0d90d41eaa4c5e552e8959c40bad0ac71",
+      "bytes": 2437,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index.md",
+      "ownerSha256": "f1bac87cd696b969f4400c4f47961be5534b89cc300b685374e6f4480a37ef73",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/dose-effect-ratio-and-defined-range-v1-light.svg",
+          "sha256": "1e73a86139a1eb09bd92b6eb89955c86f8bf84798a1c8d0036aff548e2be7c60"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/dose-effect-ratio-and-defined-range-v1-dark.svg",
+          "sha256": "44481455b6ca530c616f84e8fadd930f1bb149fc1f56d067cd5499fd65add48c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1-next-gap-119-independent-task-fit.json",
+      "sha256": "0a0a2e4d125b45bb1f26eaf25c84fbaba1d7bd3cb9476a99776293df8f7c567d",
+      "bytes": 8902,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+      "ownerSha256": "7626751684091f6fae07202e5f9ac743cbc63ba8bff8312f0da6bdfa30945bcf",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+          "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+          "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1-provenance.json",
+      "sha256": "454bc02bbdd4cdcd6c95e3ff0e27b942d1aed59137f3d07240e8b29b065872de",
+      "bytes": 2802,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+      "ownerSha256": "7626751684091f6fae07202e5f9ac743cbc63ba8bff8312f0da6bdfa30945bcf",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+          "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+          "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/response-union-and-interaction-references-v1-next-gap-118-independent-task-fit.json",
+      "sha256": "e6aa4ee839351c8f6a69b0129cf88651fab814ce8d008e525ef65622f46f8641",
+      "bytes": 11217,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale.md",
+      "ownerSha256": "53ea205e7334cee98623e10108b77c33e40e518b14e0d07511da5c8e1f9a4dff",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-light.svg",
+          "sha256": "93372b1a8fdce81fb023d0a46d6e96d5507f70d3d20a7b5fc819043fcd5faa28"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-dark.svg",
+          "sha256": "45ee374d397f5a2bf5aebb6542d57f3fdd5ff443a5257392f8e95c9719e3e908"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/response-union-and-interaction-references-v1-provenance.json",
+      "sha256": "d6342d88722089e7f27c0a2b693630f57de0160ac5d5323928b8e61cd6d4f354",
+      "bytes": 3969,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale.md",
+      "ownerSha256": "53ea205e7334cee98623e10108b77c33e40e518b14e0d07511da5c8e1f9a4dff",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-light.svg",
+          "sha256": "93372b1a8fdce81fb023d0a46d6e96d5507f70d3d20a7b5fc819043fcd5faa28"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-dark.svg",
+          "sha256": "45ee374d397f5a2bf5aebb6542d57f3fdd5ff443a5257392f8e95c9719e3e908"
         }
       ],
       "contentClass": "source-owned-public-custody"

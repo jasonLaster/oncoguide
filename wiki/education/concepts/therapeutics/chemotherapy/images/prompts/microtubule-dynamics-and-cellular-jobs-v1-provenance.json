@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceOwnerPreimageSHA256": "ea34509d740e7f5a7c2e945dbbcac77d557ba9a1f925dd3d7470bc947b7ec244",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "microtubule-dynamics-and-cellular-jobs-v1.txt",
+    "sha256": "5a63b624418856ca8f0a5022ffaeb1326359bcb1441c832889526abfdf6ca4b3",
+    "bytes": 894,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "microtubule-dynamics-and-cellular-jobs-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "1251bc83a80fcabd594c7fb83e568095c8005be6d27b101aff35432764ad5930",
+      "bytes": 16862
+    },
+    {
+      "file": "microtubule-dynamics-and-cellular-jobs-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "bc5a67ba2093483cf553a59bfad2fcf3d983269455bf63b94c6f4c1a147ee18b",
+      "bytes": 16862
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "PACLITAXEL injection, powder, lyophilized, for suspension",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6",
+      "scope": "Label is albumin-bound paclitaxel; selected mechanism section only, not whole prescribing information; no dosing/formulation interchangeability or personal benefit claim."
+    },
+    {
+      "title": "Biology2e:4.5 The Cytoskeleton",
+      "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+      "scope": "Selected textbook paragraphs only; original figure not copied. Simplified surface patches do not represent full protofilament counts or drug-treated transport speed."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

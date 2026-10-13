@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale.md",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceOwnerPreimageSHA256": "97d96bc95b886a8109fe3e2c5ba3ed1e52126e85c12683552a622825a4afe9e2",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "response-union-and-interaction-references-v1.txt",
+    "sha256": "1254d232cf927cd3095dc125b2a2178a7d503350ca6b6dddfcb368a9d7afb2f1",
+    "bytes": 1025,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "response-union-and-interaction-references-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "93372b1a8fdce81fb023d0a46d6e96d5507f70d3d20a7b5fc819043fcd5faa28",
+      "bytes": 11972
+    },
+    {
+      "file": "response-union-and-interaction-references-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "45ee374d397f5a2bf5aebb6542d57f3fdd5ff443a5257392f8e95c9719e3e908",
+      "bytes": 11972
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Combination Cancer Therapy Can Confer Benefit via Patient-to-Patient Variability without Drug Additivity or Synergy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29245013/",
+      "scope": "Abstract is not the entire paper; selected full-text passages are separately recorded. Ten tumors and response assignments are wholly fictional and preserve the original owner example."
+    },
+    {
+      "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28379339/",
+      "scope": "Abstract only at this acquisition; selected article sections separately recorded. No software execution, measured synergy score or patient outcome inferred."
+    },
+    {
+      "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5554616/",
+      "scope": "Selected sections, not whole article/supplements or original figure pixels; point arithmetic is not a statistical synergy finding."
+    },
+    {
+      "title": "User tutorial of the SynergyFinder Plus",
+      "url": "https://www.bioconductor.org/packages/release/bioc/vignettes/synergyfinder/inst/doc/User_tutorual_of_the_SynergyFinder_plus.html",
+      "scope": "Selected method documentation only, not full vignette; no package version assumed, numerical solver run or dataset reproduced."
+    },
+    {
+      "title": "SynergyFinder Plus: Toward Better Interpretation and Annotation of Drug Combination Screening Datasets",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9801064/",
+      "scope": "Selected section only, not entire paper, figures or supplements; no experiment/result from the paper used as the displayed fictional data."
+    },
+    {
+      "title": "Combination Cancer Therapy Can Confer Benefit via Patient-to-Patient Variability without Drug Additivity or Synergy.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5741091/",
+      "scope": "Selected passages and caption text only; original figure pixels, complete methods, clinical source data and supplements not read. No statistical independence requirement or treatment recommendation."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

@@ -29,6 +29,11 @@ Picture a team loosening some of its connections and changing how its members mo
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/contacts-polarity-and-hybrid-feature-combinations-v1-light.svg" width="760" height="1320" alt="Three separate sketches show linked cells with organized polarity, elongated hybrid cells retaining contacts, and more elongated cells with fewer contacts, without transition arrows or a malignancy label." data-theme-pair>
+<p class="cartoon-caption">These independent cell sketches illustrate combinations of contacts, polarity and shape, including a contact-retaining hybrid example. They are not a filmed transition, a universal marker test, or a ranking by invasion or drug resistance. Similar programs can occur in normal development and repair; cellular movement, malignancy and reversibility require their own evidence.</p>
+</div>
+
 Start with [epithelium and stroma](/wiki/education/concepts/biology-basics/cells/epithelium-and-stroma). Epithelial cells often maintain connections with neighbors and an organized orientation, called **polarity**. **Mesenchymal features** can include altered shape, attachments and movement. This term describes properties; it does not mean that every cell with one such feature has become a fibroblast.
 
 **Epithelial–mesenchymal transition (EMT)** involves coordinated changes in cellular organization and behavior. Signals influence proteins that regulate gene activity and the machinery governing cell connections, shape and movement. The particular program depends on the tissue and conditions. No one signal or marker defines every version.

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-116",
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+  "author": "root",
+  "authorRole": "Prospective canonical integration role only, not medical teaching or artwork production; exact identity binding requires actual127 adoption.",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T23:40:23.418Z",
+  "reviewedAtLocal": "2026-10-12T16:40:23.418-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "dd441605695e868370c473f0a038822aebafe1443fee1e18b414b0593697d0ab",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+      "sha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa",
+      "bytes": 18222
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+      "sha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33",
+      "bytes": 18222
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "9763d876a7b42b3107e19be14322b241e0e8bde182f11707b94895899d375305",
+    "learnerTask": "Compare a base attachment, same-strand link, opposite-strand link and break",
+    "gap": "Key lesion distinctions are explained without DNA geometry",
+    "accuracyGuardrails": "Illustrative not product-frequency distribution; platinum not alkyl transfer; adduct not proven sensitivity",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Separate base attachment, same-strand and opposite-strand connectors retain continuous complementary DNA backbones, while the fourth separate category shows actual gaps in both backbones. Guanine/cytosine and omitted ligands/atomic geometry are explicit. These are connectivity categories, not a reaction or frequency distribution, alkyl transfer or evidence of drug sensitivity; answered practice distinguishes the double-strand break. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/345",
+    "originalTaskRowSHA256": "0f1a60a4c94ec05c3fbdb4497dcff03e4581d63271e05a0153a740ba1e307a7c",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+        "sha256": "dd441605695e868370c473f0a038822aebafe1443fee1e18b414b0593697d0ab",
+        "bytes": 7700
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+        "sha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa",
+        "bytes": 18222
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+        "sha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33",
+        "bytes": 18222
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+        "sha256": "97d5e9ae2952f4260029c079a9c5935e60f9c21cfd3a534e7ba2f5d1be1c5d7c",
+        "bytes": 835
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1-provenance.json",
+        "sha256": "f1c110dfd14465ed16a0843362a8c99c4c8b9beb355056f20aa4e3fbefe1e655",
+        "bytes": 2779
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "NCI-cisplatin",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cisplatin",
+      "sourceKind": "official drug dictionary",
+      "actualReadDepth": "Complete displayed definition line12; not a trial or primary chemistry experiment",
+      "supportsAndLimits": "Platinum complexes/base-binding and intra/interstrand links; no personal-sensitivity or lesion-frequency conclusion from the picture.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    },
+    {
+      "source": "NCI-Kohn",
+      "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf",
+      "sourceKind": "official historical author account of cited experiments; not newly read primary experiment",
+      "actualReadDepth": "Selected PDF passages page1 lines15–31, page2 lines39–46, page5 lines117–131, page9 lines247–264; no full book or original figure pixels",
+      "supportsAndLimits": "Platinum-centered chemistry and guanine attachment; intra/interstrand distinctions; selected first base bond. Frequency statements in source are not adopted into art.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "Fresh actual pinned client React renderer, image theater/modal and relevant wiki-shell/application CSS; original native pairs and mobile393×700/defaultpreview, desktop1280×900/defaultpreview and settled instant nested-scroll top/middle/bottom viewport captures. Explicit isolated hierarchy/runtime assumptions; no source/server-pipeline or full live-route parity claimed.",
+    "limitations": [
+      "Isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with pinned wiki-shell theme, education/app CSS; no header/sidebar/auth/router/backend or maintained/live deployment.",
+      "Author carrier uses static compiled HTML/WikiMarkdownFrame/ImageTheater; independent carrier uses actual client React renderer. The source epoch is identical; server-compilation/app route parity is not claimed.",
+      "The application CSS import content is supplied locally; no general Tailwind build. Only exact hidden/dark:block/dark:hidden semantics appended; no palette, font, article or table override. External existing React/esbuild runtime dependencies are not a pinned full application build.",
+      "Desktop inline820x1367 requires actual vertical scroll. Accepted top/middle/bottom captures are actual1280x900 viewports; failed element capture explicitly excluded. Mobile inline349x582 and preview345x575; desktop preview482.4x804 fits complete image.",
+      "All12 natives,24mobile inline/defaultpreview,12desktopdefaultpreview and36validdesktopscroll views personally inspected. Actual text bounding boxes remain within600x1000 viewBox. Visual contrast/readability only; no WCAG or colour-vision certification.",
+      "Escape closed all24 previews; no broad keyboard/download/table-overlay/focus restoration approval. Existing tables were inventoried but not accepted as fully readable or tested interactively.",
+      "Science/source depth, example arithmetic/model appropriateness and learner/human acceptance remain separate reviewer scopes. No new clinical claims, source grades, publication or registry changes."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective115–120 only; no127 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

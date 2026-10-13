@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-123",
+  "owner": "wiki/education/concepts/measurement/imaging/mammography.md",
+  "currentOwnerSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+  "author": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "authorRole": "original scientific and creative author; code-generated SVG producer",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-12T23:35:08.399Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/263",
+  "frozenRowSHA256": "b91b119c3366a6c8a0f360cb3e149fb4711392359ae1872809c9f85ff637e119",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "ef4ac72925f5a2171da8bf87e41f4a19ed6720139e25e93b909b00e63a0ff340",
+    "learnerTask": "Distinguish projection overlap from reconstructed sections and histology",
+    "gap": "No compressed projection/angle schematic",
+    "accuracyGuardrails": "Distinguish compressed projection overlap from tomosynthesis reconstruction and tissue histology. Schematic sections are not pathology or complete detection, and negative imaging does not establish biological absence.",
+    "reasoning": "Two fictional structures at distinct depths share a projected location; multiple viewing angles lead to conceptual reconstructed sections while sampled cut-and-stained histology is explicitly separate. The three rays are illustrative, not a complete reconstruction algorithm. The original 24 mm calcification-span example and its tissue-evidence limits remain intact. No lesion diagnosis, guaranteed detection or biological absence follows from these icons."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "sha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "sha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+        "sha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+        "sha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+        "sha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/mammography-projection-and-reconstructed-sections-v1.txt",
+        "sha256": "108bd5cd472f011fdc8c668c406fd21ab46f45948e1ec22e729f7719eb4814ac"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/mammography-projection-and-reconstructed-sections-v1.json",
+        "sha256": "02df7203bb3f25362cd66659604e9d57414e0df42f14eb9d003cf5b7836fe57e"
+      }
+    ],
+    "originalLessonExactlyPreserved": true,
+    "pairGeometryCountsAndTextIdentical": true
+  },
+  "visualReview": {
+    "nativeLightDarkPersonallyInspected": true,
+    "mobileInlineWithCaptionPersonallyInspected": true,
+    "desktopAndMobileDefaultPreviewsPersonallyInspected": true,
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1280,
+      700
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "conditionalThemeAndEscapeVerified": true,
+    "minimumInlineLabelPx": 16.365384615384617,
+    "minimumDefaultPreviewLabelPx": 16.365384615384613,
+    "scope": "Private rebuilt fixture with actual copied pinned React viewer, full shared theme/styles and reset; no production routing/API/live certification."
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "canonicalAdoption": "pending",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

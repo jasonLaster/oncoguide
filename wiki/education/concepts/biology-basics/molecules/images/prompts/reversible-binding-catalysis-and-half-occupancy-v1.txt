@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Zero image-model calls; model null.
+
+Draw the same unchanged ligand free and bound, with reversible bind/release arrows. Separately show a schematic bond-cleavage reaction with substrate atoms retained in products and enzyme reused. For a one-site equilibrium model with free L = Kd = 10 nM, show a 0.5 fraction with five illustrative occupied sites of ten. This is not a guaranteed sample realization or cell-death count. State identical independent sites, no competitor and free rather than total added ligand. Preserve Kd, Km and IC50 as distinct quantities; affinity is not selectivity.
+
+Frozen learner task: Separate reversible binding, catalytic transformation and a downstream cellular effect; read half occupancy without inferring death.
+Frozen gap: The current independent binding/reaction input map is scientifically useful, but both operations are represented as abstract labels. A small paired molecular schematic would show an unchanged ligand bound/released versus substrate converted to product, while the formula remains ordinary text.
+Frozen accuracy guardrails (exact original JSON type): ["Do not equate Kd, Km or IC50; affinity is not selectivity, binding occupancy is not cell death, and the simple one-site/free-ligand assumptions must remain beside arithmetic."]
+
+Friendly restrained physical glyphs, detailed meaningful geometry. Both themes share exact objects/labels/quantities; essential labels at least36 nativepx for roughly16px at393px reader/default preview. Source bodies, original construction code/call/render/read-depth receipts stay private. Editable native SVGs are delivered without an executable reproduction-package promise.

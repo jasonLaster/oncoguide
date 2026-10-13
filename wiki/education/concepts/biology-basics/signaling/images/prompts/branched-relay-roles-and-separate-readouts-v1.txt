@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Zero image-model calls; model null.
+
+Draw a generic branched connection map, not measured tumor wiring. Show membrane-associated RAS as a GTP-on/GDP-off switch, a noncatalytic scaffold holding partners, and a kinase transferring phosphate from ATP to a substrate with ADP left over. Do not imply universal activation by phosphorylation or phosphatase regeneration of ATP. Keep the fictional 30-minute site-X signal decrease separate from a two-day unchanged count. The cell glyphs symbolize a count assay, not three literal measured cells. Neither readout proves target engagement, growth dependence or patient benefit.
+
+Frozen learner task: Trace a branched signaling relay while distinguishing kinases, switches and scaffolds from measured downstream effects.
+Frozen gap: The relay analogy is useful but no map shows the branching circuit or the distinction between a named phosphosite response and later cell-count response. A compact causal map would make the non-kinase RAS example and disconnected inference clearer.
+Frozen accuracy guardrails (exact original JSON type): ["Do not draw every relay as a kinase or every phosphate as activating.", "A generic circuit is a possible connection map, not measured wiring in every tumor.", "A biochemical response does not establish growth dependence."]
+
+Friendly restrained physical glyphs, detailed meaningful geometry. Both themes share exact objects/labels/quantities; essential labels at least36 nativepx for roughly16px at393px reader/default preview. Source bodies, original construction code/call/render/read-depth receipts stay private. Editable native SVGs are delivered without an executable reproduction-package promise.

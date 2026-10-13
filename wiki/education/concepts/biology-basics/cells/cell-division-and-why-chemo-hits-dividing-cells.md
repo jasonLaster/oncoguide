@@ -70,6 +70,11 @@ Document the cell population, concentration, exposure duration, untreated compar
 
 ## Try it
 
+<div class="cartoon-frame">
+<img src="./images/equal-starts-net-growth-and-unknown-loss-v1-light.svg" width="760" height="1320" alt="Two equal 1,000-cell starts lead to separate 2,000 and 1,200 endpoint bars, with net increases and a final gap distinguished from unknown cell-production and cell-loss contributions." data-theme-pair>
+<p class="cartoon-caption">Both fictional cultures start at 1,000 cells, with final counts of 2,000 untreated and 1,200 treated. The bars show endpoints, not an observed growth trajectory. The final 800-cell difference leaves production and loss unresolved; the icons ask about those processes rather than record events. The nondividing-cell vulnerability discussed above remains a separate point.</p>
+</div>
+
 A fictional culture starts with 1,000 cells. After treatment it contains 1,200; the untreated culture contains 2,000. Has treatment proved that 800 cells were killed?
 
 **Answer:** No. The difference could involve reduced production, increased loss or both. Track division and death over time, then test whether surviving cells regrow.

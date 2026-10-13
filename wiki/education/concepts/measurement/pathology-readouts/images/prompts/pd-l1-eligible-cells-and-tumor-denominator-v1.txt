@@ -1,0 +1,9 @@
+Original code-generated native SVG construction brief. Image-model calls:0. Scientific-model executions:0.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/288
+Learner task: Keep CPS eligible immune numerator and viable tumor denominator separate
+Exact guardrails: Keep CPS eligible immune-cell numerator, viable-tumor denominator and tumor-cell-only proportion distinct. Eligibility, staining/control rules, assay and indication matter; do not invent a treatment cutoff or count all immune cells indiscriminately.
+
+Render exact200 viable invasive tumor cells in20 columns×10rows:20 membrane-positive tumor glyphs and180 unstained glyphs. Render40 eligible stained lymphocytes as10×4 and20 eligible stained macrophages as5×4. Inventories are counting cartoons, not histology fields or the spatial eligibility decision. Brown membrane outline marks qualifying tumor staining; eligible immune staining can be membrane and/or cytoplasmic. Keep tumor-cell attribution, adequacy/controls and exclusions attached in originaltext/caption; never count all stained immune cells. ComputeCPS100×(20+40+20)/200=40 and tumor-cell100×20/200=10%, TPS arithmetic only if its assay rules hold. No treatment cutoff, eligibility or response guarantee is added.
+
+Use a restrained warm friendly cartoon palette, rounded panels and original shapes. Native780-unit width; essential labels37or larger; height≤1360 for roughly16px at393×700 unchanged default theater. Light/dark pairs retain exact geometry/counts/text. Save this exact original construction brief; no invented model IDs, tool calls or approval. Private scripts, source bodies, source/read receipts and render fixtures are private aids outside prospective public payload. Independent scientific/creative, human-expert and learner review remain pending.

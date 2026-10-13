@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">A branched connection map is not measured dependence</title><desc id="desc">A membrane receptor branches toward a RAS molecular switch and a scaffold holding partners, with a kinase phosphate-transfer example kept separate from the fictional 30-minute phosphosite response and two-day unchanged cell count. This is a generic possible circuit, not measured wiring in a tumor. RAS is a GTP-regulated switch; a scaffold holds partners; a kinase can transfer phosphate from ATP to a substrate, leaving ADP. The fictional site X designation adds no measured residue identity: its lower signal after 30 minutes and the unchanged cell number after two days are separate readouts. The cell icons symbolize a count assay, not three measured cells. A phosphate does not universally activate a protein, and either result leaves growth dependence unresolved.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker></defs><rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">Different jobs in a branched relay</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Schematic connections; verify the wiring</text>
+<rect x="24" y="142" width="712" height="738" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Relay roles</text>
+<text x="48" y="250" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Outside</text>
+<text x="524" y="357" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Cytosol</text>
+<rect x="178" y="269" width="527" height="38" rx="10" fill="#d9c29b" stroke="#293743" stroke-width="2" />
+<rect x="396" y="236" width="32" height="103" rx="6" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="413" cy="226" r="31" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="413" cy="171" r="14" fill="#976729" stroke="#293743" stroke-width="2" />
+<text x="477" y="244" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Receptor</text>
+<path d="M396 337 L340 368" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M434 367 L572 443" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<ellipse cx="220" cy="368" rx="116" ry="50" fill="#e8e0d3" stroke="#293743" stroke-width="2" />
+<path d="M220 316 L220 307" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M220 307 L220 287" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="220" cy="287" r="6" fill="#976729" stroke="#293743" stroke-width="2" />
+<text x="220" y="380" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">RAS switch</text>
+<text x="74" y="455" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">GTP on / GDP off</text>
+<rect x="503" y="473" width="163" height="69" rx="14" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<g transform="translate(522 493) scale(0.33)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#806a9c" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g transform="translate(620 493) scale(0.33)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#bd7480" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="584" y="583" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">Scaffold</text>
+<text x="459" y="641" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Holds partners</text>
+<path d="M220 486 L220 666" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<g transform="translate(220 738) scale(0.68)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#4f7999" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="48" y="856" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Kinase</text>
+<text x="358" y="739" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">ATP → ADP</text>
+<ellipse cx="556" cy="813" rx="44" ry="30" fill="#e8e0d3" stroke="#293743" stroke-width="2" />
+<circle cx="586" cy="792" r="23" fill="#976729" stroke="#293743" stroke-width="2" />
+<text x="586" y="805" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">P</text>
+<path d="M278 761 L479 812" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="456" y="857" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Substrate + P</text>
+<rect x="24" y="900" width="712" height="321" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="953" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Measure these outputs separately</text>
+<circle cx="102" cy="1030" r="29" fill="#e8e0d3" stroke="#293743" stroke-width="2" />
+<text x="102" y="1043" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="middle">P</text>
+<text x="164" y="1012" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">30 min: site X</text>
+<text x="164" y="1057" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">signal decreases</text>
+<circle cx="527" cy="1043" r="19" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="524" cy="1047" r="7.22" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="585" cy="1043" r="19" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="582" cy="1047" r="7.22" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="643" cy="1043" r="19" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="640" cy="1047" r="7.22" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<text x="459" y="1114" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">2 days: count</text>
+<text x="459" y="1159" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">unchanged</text>
+<text x="48" y="1196" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">A modification is not universal activation.</text>
+<text x="38" y="1258" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">A biochemical change alone</text>
+<text x="38" y="1303" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">does not prove growth dependence.</text>
+</svg>

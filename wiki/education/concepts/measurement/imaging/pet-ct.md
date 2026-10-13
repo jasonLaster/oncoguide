@@ -38,6 +38,12 @@ A common cancer tracer is fluorine-18 fluorodeoxyglucose (**18F-FDG**), a glucos
 
 **The tracer name belongs with the scan name.** [Target-directed PET](/wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging) asks about a particular molecular interaction. A result from FDG cannot substitute for a result from an antibody or another targeted tracer.
 
+<img src="./images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg" alt="Matched fictional sections distinguish CT boundaries from named 18F-FDG distribution; a small activity region becomes a broader lower-peak image signal, and uptake has several possible tissue sources." width="780" height="1340" data-theme-pair>
+
+*The named FDG tracer and CT anatomy contribute different evidence. A small region can have its apparent peak reduced as signal spreads at finite resolution; this uncalibrated cartoon is not an uptake simulation or a cell count. Normal and inflammatory tissue may also be avid.*
+
+[Open the light diagram](./images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg) · [Open the dark diagram](./images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg)
+
 ## Why it matters in cancer
 
 PET-CT can contribute to detection, staging and response assessment in appropriate settings. The CT and PET findings should be interpreted together: a structural abnormality may lack FDG uptake, and an avid region may be nonmalignant.
@@ -62,6 +68,8 @@ Uptake time after injection, blood glucose for FDG, calibration, reconstruction 
 - **No avid lesion versus no cancer:** a method can miss small or low-uptake disease.
 
 ## Try it
+
+Does the lower-looking peak in the small-region cartoon prove less tracer in the original region? **Answer:** No. Finite-resolution spreading changes the apparent image concentration; the picture provides no calibrated activity estimate. Brightness also does not establish whether the region contains cancer.
 
 A fictional FDG scan shows an avid lymph node shortly after inflammation in its drainage region. A learner calls it a proven metastasis. What is the more precise statement?
 

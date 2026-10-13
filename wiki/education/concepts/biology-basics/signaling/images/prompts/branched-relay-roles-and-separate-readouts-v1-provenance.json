@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases.md",
+  "privateProspectiveTaskId": "next-gap-113",
+  "canonicalAdoption": "pending",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/42",
+  "frozenRowPointer": "/42",
+  "frozenRowSHA256": "17be06664881d7ffbae5255d698effe64ab97df8223fe49f3a7db44babc6d0b6",
+  "originalFrozenTask": {
+    "learnerTask": "Trace a branched signaling relay while distinguishing kinases, switches and scaffolds from measured downstream effects.",
+    "gap": "The relay analogy is useful but no map shows the branching circuit or the distinction between a named phosphosite response and later cell-count response. A compact causal map would make the non-kinase RAS example and disconnected inference clearer.",
+    "accuracyGuardrails": [
+      "Do not draw every relay as a kinase or every phosphate as activating.",
+      "A generic circuit is a possible connection map, not measured wiring in every tumor.",
+      "A biochemical response does not establish growth dependence."
+    ]
+  },
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "baselinePageSHA256": "077c1dafee4e8a333d9881940683d23f523ef585d9c456310d3b63244981820c",
+  "construction": "Original code-generated SVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "generator": "private/construct.py",
+  "generatorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+  "generatorCustody": "Original generator privately retained, not publicly delivered; editable SVG without an executable reproduction-package promise.",
+  "briefSHA256": "d93c501086193bdf3d683bd16a0d3d3a6c48987792dddb51fb50a16161bea59b",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-light.svg",
+      "theme": "light",
+      "sha256": "1d250a7f03e07af14813f4c94f0622a4e57bef7ca83147394bb2a9fe092ccf6b",
+      "bytes": 7782,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "e2bf2316ba86900812cd8d4a7afe7cc2c5521d243fab0e5680c1bd6d1e6622cf",
+      "bytes": 7782,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK9870/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK9923/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK26813/",
+    "https://pubmed.ncbi.nlm.nih.gov/16777603/"
+  ],
+  "sourceDepth": "Actual primary abstracts and selected primary/official passages; exact per-owner private lookup/depth/failure/custody receipts. No whole-paper/clinical/scientific approval implied.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Exact shared geometry and wording, palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

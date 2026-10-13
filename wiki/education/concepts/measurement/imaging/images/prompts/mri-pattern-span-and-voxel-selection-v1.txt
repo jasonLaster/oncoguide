@@ -1,0 +1,9 @@
+Original code-generated native SVG construction brief. Image-model calls:0. Scientific-model executions:0.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/260
+Learner task: Distinguish enhancement pattern, span and rule-selected voxel volume
+Exact guardrails: Separate enhancement, normal background enhancement, non-mass pattern/span and method-selected functional tumor volume. Length and voxel volume are different units; enhancement is not histology, viable-cell count or guaranteed absence/presence of cancer.
+
+Draw original DCE before/early/later schematic images, without an implied universal kinetic curve. Separate normal background parenchymal enhancement from a non-mass pattern; show the exact original NME span60mm with a length bracket. Show a separately defined research selection grid and report FTV0.6mL. The symbolic grid is not a literal inventory, voxel-size estimate or an assertion that each tile contributes a known fraction of0.6mL. Preserve BPE/NME/FTV/DCE distinctions, length/volume units, selected-region/threshold dependence and no histology/viable-cell inference.
+
+Use a restrained warm friendly cartoon palette, rounded panels and original shapes. Native780-unit width; essential labels37or larger; height≤1360 for roughly16px at393×700 unchanged default theater. Light/dark pairs retain exact geometry/counts/text. Save this exact original construction brief; no invented model IDs, tool calls or approval. Private scripts, source bodies, source/read receipts and render fixtures are private aids outside prospective public payload. Independent scientific/creative, human-expert and learner review remain pending.

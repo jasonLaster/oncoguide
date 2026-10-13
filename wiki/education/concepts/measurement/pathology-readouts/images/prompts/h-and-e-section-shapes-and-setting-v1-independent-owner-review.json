@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-126",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+  "currentOwnerSha256": "4c16af89c63587bc73d98291518a1ede351859be02c992be54c316d58913ad1b",
+  "author": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "authorRole": "original scientific and creative author; code-generated SVG producer",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-12T23:35:08.399Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/286",
+  "frozenRowSHA256": "20bba553689ef5e020dc4a888d0d9d8b20d10033129f2389a71d85c8b5fdbe3b",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "dd01ceb5391fd62cb6f9d9a15b2edcb906adc7b9eea7dc33d659e4c073053910",
+    "learnerTask": "Locate morphology in a represented tissue section rather than a molecular census",
+    "gap": "The generic stain workflow does not show cells and architecture",
+    "accuracyGuardrails": "Show represented section morphology and architecture with sampling-depth limits. Stain intensity and cell appearance are not molecule counts, complete tissue coverage or a stand-alone molecular assay.",
+    "reasoning": "A selected cut of a fictional tissue block leads to represented section morphology and an architectural setting. Blue-purple nuclei and broad pink cytoplasm/matrix are stain classes. Nearby-depth variation and limited representation remain explicit. The generic cluster assigns no malignancy, invasion, viability, named molecule abundance or gene activity. All original distinctions between appearance, tissue coverage and molecular assays remain."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+      "sha256": "3b2b2b6cb0a9231def57c14cc7c82d8e280d555b5ebdfcabd2bf7563d51436be"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+      "sha256": "cb1eb9491aa7805d361aefd4b6552cbead916a5579c75342b15940c54cb9bb3b"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+        "sha256": "4c16af89c63587bc73d98291518a1ede351859be02c992be54c316d58913ad1b"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+        "sha256": "3b2b2b6cb0a9231def57c14cc7c82d8e280d555b5ebdfcabd2bf7563d51436be"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+        "sha256": "cb1eb9491aa7805d361aefd4b6552cbead916a5579c75342b15940c54cb9bb3b"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/h-and-e-section-shapes-and-setting-v1.txt",
+        "sha256": "8ac1af3651cc4ca0511c5c149bb405b6573bf3d4615af9510e080cf248c1a0f7"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/h-and-e-section-shapes-and-setting-v1.json",
+        "sha256": "9cbe4541c2377256a252f1d18c6e9aba7e06df63505766581abeee20131c1b37"
+      }
+    ],
+    "originalLessonExactlyPreserved": true,
+    "pairGeometryCountsAndTextIdentical": true
+  },
+  "visualReview": {
+    "nativeLightDarkPersonallyInspected": true,
+    "mobileInlineWithCaptionPersonallyInspected": true,
+    "desktopAndMobileDefaultPreviewsPersonallyInspected": true,
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1280,
+      700
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "conditionalThemeAndEscapeVerified": true,
+    "minimumInlineLabelPx": 16.365384615384617,
+    "minimumDefaultPreviewLabelPx": 16.365384615384613,
+    "scope": "Private rebuilt fixture with actual copied pinned React viewer, full shared theme/styles and reset; no production routing/API/live certification."
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "canonicalAdoption": "pending",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

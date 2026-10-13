@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/288",
+  "learnerTask": "Keep CPS eligible immune numerator and viable tumor denominator separate",
+  "accuracyGuardrails": "Keep CPS eligible immune-cell numerator, viable-tumor denominator and tumor-cell-only proportion distinct. Eligibility, staining/control rules, assay and indication matter; do not invent a treatment cutoff or count all immune cells indiscriminately.",
+  "creationMethod": "Original code-generated native SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecutions": 0,
+  "creationCommit": null,
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "ownerPreimageSHA256": "076fd1c87c0cda7645c569617cead0c8c1409d85b177f9c11a91442e5aa97395",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/pd-l1-eligible-cells-and-tumor-denominator-v1.txt",
+    "sha256": "d69e1de7b60e09f30cdab6464e756eaafb0c8e66537423790e49d277da2804ba"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+      "sha256": "0373248af4ae44df34e0efcff61fb837980a38f4bd48f5d4e1f5e6e2891785ab",
+      "bytes": 30426,
+      "nativeWidth": 780,
+      "nativeHeight": 1360,
+      "format": "SVG"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+      "sha256": "67b0a988f98ef11b744a084c1e043e8105c78eb5003d127b449c15aa982433e2",
+      "bytes": 30426,
+      "nativeWidth": 780,
+      "nativeHeight": 1360,
+      "format": "SVG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.agilent.com/cs/library/usermanuals/public/29440-d67159-pdl1-ihc-22C3-pharmdx-tnbc-interpretation-manual-eu.pdf",
+      "readDepth": "selected official web-tool PDF passages",
+      "sectionsRead": "Printed pp18,24–26: adequacy, CPS formula/cap, tumor/immune staining and Tables1–2 eligibility; selected excluded-cell passages in separate web-find receipt",
+      "supports": "Viable invasive tumor denominator includes unstained cells; only defined eligible stained immune populations enter CPS numerator.",
+      "limits": "Direct HTTP download403; selected complete-page text and table footnotes were available through web. Not a full92-page manual review or a US authorization document."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150013S016B.pdf",
+      "readDepth": "selected official assay definition",
+      "sectionsRead": "SSED p2: TPS definition in NSCLC context",
+      "supports": "Tumor proportion uses viable tumor-cell membrane staining and excludes immune numerator.",
+      "limits": "Disease-context-specific definition; no interchangeability with breast CPS."
+    }
+  ],
+  "scope": "Teaching fiction; no real scan/slide/model execution, diagnosis, clinical eligibility or benefit claim. Exact original examples and existing source/review metadata preserved.",
+  "privateAids": "Source bodies, access/read-depth receipts, copied renderer, scripts and QA captures remain private and are excluded from prospective public payload.",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

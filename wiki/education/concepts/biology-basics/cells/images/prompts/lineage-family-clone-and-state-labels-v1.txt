@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Zero image-model calls; model null.
+
+Give fictional cells independently stipulated ancestry L1, epithelial family, genetic clone C1 and cycling state labels. Show the same C1 family in cycling and noncycling states. Put independently stipulated C1 and C2 tags in both RNA-state groups. Do not infer developmental trajectories, genetic relationships, malignancy or permanent commitment from an RNA group or cell shape.
+
+Frozen learner task: Separate developmental ancestry, broad cell identity and reversible activity state from genetic tumor-clone relationships.
+Frozen gap: The three-question Mermaid and caption name the axes, but its sequential boxes do not show one cell family/clone containing cycling and noncycling states or why an RNA cluster cannot reconstruct ancestry.
+Frozen accuracy guardrails (exact original JSON type): ["Use explicitly fictional cells with independently labeled lineage, clone and state; avoid a developmental trajectory inferred from markers or a claim of permanent commitment."]
+
+Friendly restrained physical glyphs, detailed meaningful geometry. Both themes share exact objects/labels/quantities; essential labels at least36 nativepx for roughly16px at393px reader/default preview. Source bodies, original construction code/call/render/read-depth receipts stay private. Editable native SVGs are delivered without an executable reproduction-package promise.

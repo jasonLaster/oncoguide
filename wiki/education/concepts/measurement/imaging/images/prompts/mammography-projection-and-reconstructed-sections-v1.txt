@@ -1,0 +1,9 @@
+Original code-generated native SVG construction brief. Image-model calls:0. Scientific-model executions:0.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/263
+Learner task: Distinguish projection overlap from reconstructed sections and histology
+Exact guardrails: Distinguish compressed projection overlap from tomosynthesis reconstruction and tissue histology. Schematic sections are not pathology or complete detection, and negative imaging does not establish biological absence.
+
+Construct compressed tissue between plates, a source and detector, and two arbitrary shapes at different depths sharing one projected position. The single projection overlays them. Multiple source angles interrogate the same fictional structures and lead to conceptual computed sectionsA/B with reduced overlap. Do not imply three views exactly recover all3D anatomy, draw excised tissue as DBT output, classify the shapes as cancer or claim negative imaging establishes absence. A separate physically cut/stained histology icon answers a different question.
+
+Use a restrained warm friendly cartoon palette, rounded panels and original shapes. Native780-unit width; essential labels37or larger; height≤1360 for roughly16px at393×700 unchanged default theater. Light/dark pairs retain exact geometry/counts/text. Save this exact original construction brief; no invented model IDs, tool calls or approval. Private scripts, source bodies, source/read receipts and render fixtures are private aids outside prospective public payload. Independent scientific/creative, human-expert and learner review remain pending.

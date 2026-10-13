@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/cells/cell-cycle.md",
+  "privateProspectiveTaskId": "next-gap-108",
+  "canonicalAdoption": "pending",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/17",
+  "frozenRowPointer": "/17",
+  "frozenRowSHA256": "cb8cd4edbaa6476422198452e06985853b61a80679d5aaea8421ee60f3503f33",
+  "originalFrozenTask": {
+    "learnerTask": "Track G1\u2192S\u2192G2\u2192M, optional noncycling status and DNA amount without mistaking phase percentage for a rate.",
+    "gap": "The current sequence map and caption explain phase order and optional G0 well. A compact cycle with a G0 side branch plus a separate DNA-content key would clarify return/noncycling and the measurement exercise; no physical cartoon is essential.",
+    "accuracyGuardrails": [
+      "No equal-duration sectors, universal timetable or DNA-content proof distinguishing G0/G1 and G2/M."
+    ]
+  },
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "baselinePageSHA256": "9c87ee1a52a4a48ceb1f1dbfb26a608ff2cc579c57b983f255299c2c90e92251",
+  "construction": "Original code-generated SVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "generator": "private/construct.py",
+  "generatorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+  "generatorCustody": "Original generator privately retained, not publicly delivered; editable SVG without an executable reproduction-package promise.",
+  "briefSHA256": "6d50fd654d345cfb2ed8f9666b746e50f2478653e354c94edcada4d409fcfb87",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/cycle-optional-g0-and-relative-dna-v1-light.svg",
+      "theme": "light",
+      "sha256": "bcff53632e056b91cf6256914ad46191ac8fa618129c426f74a633257037b43f",
+      "bytes": 9171,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/cycle-optional-g0-and-relative-dna-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "07be403bcaa5e6e447c78dc5f47a63cf36bfe85d304096dc2de6b2e516a89126",
+      "bytes": 9171,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+    "https://pubmed.ncbi.nlm.nih.gov/26131851/"
+  ],
+  "sourceDepth": "Actual primary abstracts and selected primary/official passages; exact per-owner private lookup/depth/failure/custody receipts. No whole-paper/clinical/scientific approval implied.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Exact shared geometry and wording, palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

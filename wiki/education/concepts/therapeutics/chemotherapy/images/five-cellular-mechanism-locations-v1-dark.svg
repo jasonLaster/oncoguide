@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Chemotherapy: disrupting cell survival and division</title><desc id="desc">Locate DNA handling, RNA building blocks and microtubule targets in one cell. Schematic objects or explicitly fictional quantitative teaching examples, not clinical outcomes.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#f5efdd"/></marker><radialGradient id="cell"><stop offset="0" stop-color="#f4c4ca"/><stop offset="1" stop-color="#d88b9b"/></radialGradient></defs><rect width="600" height="1000" fill="#112432"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#f5efdd" text-anchor="start">Five drug families, one cell</text>
+<text x="28" y="86" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Example locations; shared with normal cells</text>
+<ellipse cx="300" cy="359" rx="250" ry="237" fill="#dce8e9" stroke="#8ba7b2" stroke-width="3"/>
+<ellipse cx="300" cy="359" rx="241" ry="229" fill="none" stroke="#8ba7b2" stroke-width="2"/>
+<ellipse cx="300" cy="271" rx="187" ry="143" fill="#c4b6d4" stroke="#18333e" stroke-width="3"/>
+<ellipse cx="300" cy="271" rx="177" ry="134" fill="none" stroke="#18333e" stroke-width="1"/>
+<text x="208" y="166" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="start">Nucleus</text>
+<circle cx="147" cy="214" r="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<circle cx="170" cy="161" r="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<circle cx="450" cy="211" r="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<circle cx="436" cy="345" r="5" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<path d="M149 223 L248 223" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M149 258 L248 258" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<rect x="155.0" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="159.0" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="159.0" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="174.75" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="178.75" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="178.75" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="194.5" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="198.5" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="198.5" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="214.25" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="218.25" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="218.25" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="234.0" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="238.0" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="238.0" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="196" cy="201" r="19" fill="#e4bd74" stroke="#18333e" stroke-width="2"/>
+<text x="196" y="211" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">Pt</text>
+<path d="M184 214 L173 233" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round"/>
+<path d="M208 214 L206 233" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round"/>
+<circle cx="121" cy="254" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="121" y="264" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">1</text>
+<path d="M326 223 L429 223" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M326 258 L429 258" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<rect x="332.0" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="336.0" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="336.0" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="352.75" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="356.75" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="356.75" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="373.5" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="377.5" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="377.5" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="394.25" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="398.25" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="398.25" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="415.0" y="230" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="419.0" cy="223" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="419.0" cy="258" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<polygon points="382.0,205.0 376.0,215.39230484541326 364.0,215.39230484541326 358.0,205.0 364.0,194.60769515458674 376.0,194.60769515458674" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<path d="M370 217 L370 236" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round"/>
+<circle cx="462" cy="254" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="462" y="264" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">2</text>
+<path d="M185 325 L248 325" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M185 360 L248 360" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<rect x="191.0" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="195.0" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="195.0" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="201.75" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="205.75" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="205.75" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="212.5" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="216.5" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="216.5" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="223.25" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="227.25" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="227.25" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="234.0" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="238.0" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="238.0" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<path d="M294 325 L357 325" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M294 360 L357 360" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<rect x="300.0" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="304.0" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="304.0" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="310.75" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="314.75" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="314.75" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="321.5" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="325.5" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="325.5" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="332.25" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="336.25" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="336.25" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<rect x="343.0" y="332" width="8" height="21" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="347.0" cy="325" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<circle cx="347.0" cy="360" r="3" fill="#dce8e9" stroke="#18333e" stroke-width="1"/>
+<ellipse cx="258" cy="342" rx="28" ry="32" fill="#95c0db" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="282" cy="342" rx="28" ry="32" fill="#95c0db" stroke="#18333e" stroke-width="2"/>
+<path d="M243 325 L252 325" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M286 325 L297 325" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M243 360 L252 360" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<path d="M286 360 L297 360" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<polygon points="309.0,326.0 304.0,334.66025403784437 294.0,334.66025403784437 289.0,326.0 294.0,317.33974596215563 304.0,317.33974596215563" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<circle cx="350" cy="383" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="350" y="393" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">3</text>
+<path d="M394 293 C412 280 427 301 442 288" fill="none" stroke="#18333e" stroke-width="3" stroke-linecap="round"/>
+<rect x="399" y="299" width="7" height="13" rx="1" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<rect x="415" y="298" width="7" height="13" rx="1" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<rect x="430" y="299" width="7" height="13" rx="1" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<rect x="442" y="295" width="7" height="13" rx="1" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<polygon points="424.0,313.0 420.0,319.9282032302755 412.0,319.9282032302755 408.0,313.0 412.0,306.0717967697245 420.0,306.0717967697245" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<rect x="126" y="457" width="25" height="28" rx="4" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<rect x="164" y="457" width="25" height="28" rx="4" fill="#95c0db" stroke="#18333e" stroke-width="2"/>
+<rect x="201" y="457" width="25" height="28" rx="4" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<path d="M202 444 L392 318" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round" stroke-dasharray="6 7"/>
+<circle cx="107" cy="505" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="107" y="515" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">4</text>
+<text x="190" y="560" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="start">Cytoplasm</text>
+<rect x="327" y="460" width="171" height="58" rx="22" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="327" cy="489" rx="13" ry="29" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="327" cy="489" rx="7" ry="20" fill="#18333e" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="498" cy="489" rx="13" ry="29" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="498" cy="489" rx="7" ry="20" fill="#18333e" stroke="#18333e" stroke-width="2"/>
+<circle cx="350" cy="471" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="364" cy="471" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="383" cy="471" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="397" cy="471" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="416" cy="471" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="430" cy="471" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="449" cy="471" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="463" cy="471" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="350" cy="488" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="364" cy="488" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="383" cy="488" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="397" cy="488" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="416" cy="488" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="430" cy="488" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="449" cy="488" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="463" cy="488" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="350" cy="505" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="364" cy="505" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="383" cy="505" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="397" cy="505" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="416" cy="505" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="430" cy="505" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<circle cx="449" cy="505" r="7" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="463" cy="505" r="7" fill="#b6c8a9" stroke="#18333e" stroke-width="1"/>
+<polygon points="383.0,455.0 377.5,464.52627944162884 366.5,464.52627944162884 361.0,455.0 366.5,445.47372055837116 377.5,445.47372055837116" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<polygon points="453.0,455.0 447.5,464.52627944162884 436.5,464.52627944162884 431.0,455.0 436.5,445.47372055837116 447.5,445.47372055837116" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<circle cx="498" cy="560" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="498" y="570" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">5</text>
+<circle cx="49" cy="637" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="49" y="647" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">1</text>
+<text x="83" y="647" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Platinum: DNA links</text>
+<circle cx="49" cy="694" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="49" y="704" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">2</text>
+<text x="83" y="704" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Alkylating: DNA attachments</text>
+<circle cx="49" cy="751" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="49" y="761" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">3</text>
+<text x="83" y="761" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Anthracyclines: DNA cut/reseal</text>
+<circle cx="49" cy="808" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="49" y="818" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">4</text>
+<text x="83" y="818" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Fluoropyrimidines: nucleotides / RNA</text>
+<circle cx="49" cy="865" r="21" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="49" y="875" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#18333e" text-anchor="middle">5</text>
+<text x="83" y="875" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Taxanes: microtubule dynamics</text>
+<text x="28" y="935" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Schematic objects and locations, not scale.</text>
+<text x="28" y="977" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Growth arrest and death need separate tests.</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1360" viewBox="0 0 780 1360" role="img" aria-labelledby="title desc"><title id="title">MRI: pattern, span and selected voxel volume</title><desc id="desc">Original fictional MRI reports NME span 60 mm and research FTV 0.6 mL. DCE is a sequence of contrast-dependent images, BPE is normal background enhancement, NME is a distinguishable non-mass pattern. Voxel selection is a symbolic cartoon, without the voxel sizes/counts needed to recalculate the reported volume. Brightness does not establish histology or viable-cell count.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#4e6564"/></marker></defs>
+<rect x="0" y="0" width="780" height="1360" rx="0" fill="#faf4e9" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Name the MRI observation</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">Fictional report: 60 mm and 0.6 mL</tspan></text>
+<rect x="24" y="145" width="732" height="260" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">1. DCE: follow signal over time</tspan></text>
+<ellipse cx="162" cy="284" rx="76" ry="62" fill="#c7dce4" stroke="#47798f" stroke-width="3"/>
+<circle cx="137" cy="267" r="10" fill="#fffdf7" stroke="#47798f" stroke-width="2" />
+<circle cx="177" cy="280" r="10" fill="#fffdf7" stroke="#47798f" stroke-width="2" />
+<circle cx="154" cy="308" r="10" fill="#fffdf7" stroke="#47798f" stroke-width="2" />
+<text x="162" y="386" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="162" dy="0">Before</tspan></text>
+<ellipse cx="390" cy="284" rx="76" ry="62" fill="#c7dce4" stroke="#47798f" stroke-width="3"/>
+<circle cx="365" cy="267" r="10" fill="#9a6825" />
+<circle cx="405" cy="280" r="10" fill="#9a6825" />
+<circle cx="382" cy="308" r="10" fill="#9a6825" />
+<text x="390" y="386" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="390" dy="0">Early</tspan></text>
+<ellipse cx="618" cy="284" rx="76" ry="62" fill="#c7dce4" stroke="#47798f" stroke-width="3"/>
+<circle cx="593" cy="267" r="10" fill="#86415b" />
+<circle cx="633" cy="280" r="10" fill="#86415b" />
+<circle cx="610" cy="308" r="10" fill="#86415b" />
+<text x="618" y="386" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="618" dy="0">Later</tspan></text>
+<path d="M251 281 L288 281" fill="none" stroke="#4e6564" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M481 281 L518 281" fill="none" stroke="#4e6564" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="24" y="430" width="732" height="390" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="485" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">2. BPE and NME name patterns</tspan></text>
+<text x="65" y="538" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="65" dy="0">BPE</tspan></text>
+<text x="420" y="538" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="420" dy="0">NME</tspan></text>
+<ellipse cx="210" cy="640" rx="137" ry="80" fill="#c7dce4" stroke="#47798f" stroke-width="3"/>
+<ellipse cx="573" cy="640" rx="137" ry="80" fill="#c7dce4" stroke="#47798f" stroke-width="3"/>
+<circle cx="125" cy="625" r="13" fill="#9a6825" />
+<circle cx="161" cy="672" r="13" fill="#9a6825" />
+<circle cx="201" cy="611" r="13" fill="#9a6825" />
+<circle cx="237" cy="659" r="13" fill="#9a6825" />
+<circle cx="287" cy="625" r="13" fill="#9a6825" />
+<ellipse cx="476" cy="652" rx="15" ry="10" fill="#86415b"/>
+<ellipse cx="512" cy="628" rx="15" ry="10" fill="#86415b"/>
+<ellipse cx="548" cy="648" rx="15" ry="10" fill="#86415b"/>
+<ellipse cx="585" cy="613" rx="15" ry="10" fill="#86415b"/>
+<ellipse cx="620" cy="642" rx="15" ry="10" fill="#86415b"/>
+<ellipse cx="664" cy="619" rx="15" ry="10" fill="#86415b"/>
+<path d="M461 738 L679 738" fill="none" stroke="#86415b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M461 726 L461 750" fill="none" stroke="#86415b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M679 726 L679 750" fill="none" stroke="#86415b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="570" y="797" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="middle"><tspan x="570" dy="0">Span: 60 mm</tspan></text>
+<text x="61" y="759" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="61" dy="0">Normal tissue</tspan><tspan x="61" dy="43">can enhance.</tspan></text>
+<rect x="24" y="845" width="732" height="335" rx="18" fill="#fffdf7" stroke="#c8d0c5" stroke-width="2" />
+<text x="47" y="900" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="47" dy="0">3. FTV: add selected voxel volumes</tspan></text>
+<rect x="78" y="950" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="125" y="950" width="37" height="37" rx="4" fill="#9a6825" stroke="#4e6564" stroke-width="2" data-role="selected-voxel"/>
+<rect x="172" y="950" width="37" height="37" rx="4" fill="#9a6825" stroke="#4e6564" stroke-width="2" data-role="selected-voxel"/>
+<rect x="219" y="950" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="266" y="950" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="313" y="950" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="360" y="950" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="78" y="997" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="125" y="997" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="172" y="997" width="37" height="37" rx="4" fill="#9a6825" stroke="#4e6564" stroke-width="2" data-role="selected-voxel"/>
+<rect x="219" y="997" width="37" height="37" rx="4" fill="#9a6825" stroke="#4e6564" stroke-width="2" data-role="selected-voxel"/>
+<rect x="266" y="997" width="37" height="37" rx="4" fill="#9a6825" stroke="#4e6564" stroke-width="2" data-role="selected-voxel"/>
+<rect x="313" y="997" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="360" y="997" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="78" y="1044" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="125" y="1044" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="172" y="1044" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="219" y="1044" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<rect x="266" y="1044" width="37" height="37" rx="4" fill="#9a6825" stroke="#4e6564" stroke-width="2" data-role="selected-voxel"/>
+<rect x="313" y="1044" width="37" height="37" rx="4" fill="#9a6825" stroke="#4e6564" stroke-width="2" data-role="selected-voxel"/>
+<rect x="360" y="1044" width="37" height="37" rx="4" fill="#fffdf7" stroke="#4e6564" stroke-width="2" />
+<text x="440" y="986" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="440" dy="0">Selection</tspan><tspan x="440" dy="46">by rules</tspan></text>
+<text x="78" y="1150" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#293c40" text-anchor="start"><tspan x="78" dy="0">Report FTV: 0.6 mL</tspan></text>
+<text x="40" y="1250" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#293c40" text-anchor="start"><tspan x="40" dy="0">mm is length; mL is volume.</tspan><tspan x="40" dy="46">Neither number counts viable cancer cells.</tspan></text>
+</svg>

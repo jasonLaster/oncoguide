@@ -29,6 +29,11 @@ Imagine preparing a shared document, making a complete copy and distributing the
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/cycle-optional-g0-and-relative-dna-v1-light.svg" width="760" height="1320" alt="A non-clock G1–S–G2–M loop has an optional G0 exit and conditional return, alongside a separate relative nuclear-DNA key grouping G0/G1 and G2/M without identifying either from DNA alone." data-theme-pair>
+<p class="cartoon-caption">DNA (deoxyribonucleic acid) glyphs show relative nuclear material, not a human chromosome count or microscopy image. G0 is an optional noncycling condition; return depends on context. The separate per-cell key applies before cell separation: G0/G1 share a baseline, S lies between baseline and roughly double, and G2/M share roughly double. Neither the drawing’s spacing nor a measured phase fraction is a division rate.</p>
+</div>
+
 Begin with [organelles](/wiki/education/concepts/biology-basics/cells/organelles-overview), including the nucleus. In a typical dividing human cell, **DNA (deoxyribonucleic acid)** must be copied before its packages, called chromosomes, separate into daughter nuclei.
 
 | Phase | Main task |

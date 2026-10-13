@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1360" viewBox="0 0 780 1360" role="img" aria-labelledby="title desc"><title id="title">PD-L1: eligible stained cells and viable tumor denominator</title><desc id="desc">Exact original fictional eligible section: 200 viable invasive tumor cells, 20 with qualifying membrane staining, 40 eligible stained lymphocytes and 20 eligible stained macrophages. The tumor inventory is 20 columns by 10 rows, with one row of 20 positive and nine rows of 180 unstained cells. Immune inventories contain 40 and 20 cells, respectively. Inventories are grouped counting cartoons, not slide coordinates or a substitute for adequacy/controls/cell attribution. CPS is 100 times 80/200 = 40; tumor-cell proportion is 100 times 20/200 = 10 percent, TPS arithmetic only if its rules apply. No clinical cutoff or eligibility inferred.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c0d0ca"/></marker></defs>
+<rect x="0" y="0" width="780" height="1360" rx="0" fill="#192b2f" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Keep the counted populations</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Exact fictional eligible section</tspan></text>
+<rect x="24" y="145" width="732" height="420" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">1. Viable tumor denominator: 200</tspan></text>
+<circle cx="76" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="109" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="142" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="175" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="208" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="241" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="274" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="307" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="340" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="373" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="406" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="439" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="472" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="505" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="538" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="571" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="604" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="637" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="670" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="703" cy="243" r="7" fill="#223a3e" stroke="#e2b07b" stroke-width="3" data-role="positive-tumor"/>
+<circle cx="76" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="266" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="289" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="312" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="335" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="358" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="381" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="404" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="427" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="76" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="109" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="142" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="175" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="208" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="241" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="274" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="307" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="340" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="373" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="406" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="439" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="472" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="505" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="538" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="571" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="604" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="637" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="670" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<circle cx="703" cy="450" r="7" fill="#223a3e" stroke="#9fcadd" stroke-width="3" data-role="unstained-tumor"/>
+<text x="48" y="503" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Brown rings: 20 stained cells</tspan><tspan x="48" dy="46">Blue rings: 180 unstained cells</tspan></text>
+<rect x="24" y="590" width="732" height="325" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="645" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">2. Eligible stained immune cells</tspan></text>
+<circle cx="84" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="111" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="138" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="165" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="192" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="219" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="246" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="273" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="300" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="327" cy="752" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<ellipse cx="507" cy="752" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="541" cy="752" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="575" cy="752" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="609" cy="752" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="643" cy="752" rx="10" ry="8" fill="#e2b07b"/>
+<circle cx="84" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="111" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="138" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="165" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="192" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="219" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="246" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="273" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="300" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="327" cy="781" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<ellipse cx="507" cy="781" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="541" cy="781" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="575" cy="781" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="609" cy="781" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="643" cy="781" rx="10" ry="8" fill="#e2b07b"/>
+<circle cx="84" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="111" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="138" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="165" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="192" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="219" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="246" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="273" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="300" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="327" cy="810" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<ellipse cx="507" cy="810" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="541" cy="810" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="575" cy="810" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="609" cy="810" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="643" cy="810" rx="10" ry="8" fill="#e2b07b"/>
+<circle cx="84" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="111" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="138" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="165" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="192" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="219" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="246" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="273" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="300" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<circle cx="327" cy="839" r="8" fill="#e2b07b" data-role="eligible-lymphocyte"/>
+<ellipse cx="507" cy="839" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="541" cy="839" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="575" cy="839" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="609" cy="839" rx="10" ry="8" fill="#e2b07b"/>
+<ellipse cx="643" cy="839" rx="10" ry="8" fill="#e2b07b"/>
+<text x="64" y="699" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="64" dy="0">40 lymphocytes</tspan></text>
+<text x="436" y="699" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="436" dy="0">20 macrophages</tspan></text>
+<text x="48" y="890" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Immune cells add to the CPS numerator.</tspan></text>
+<rect x="24" y="940" width="732" height="265" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="995" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">3. Compare the two numerators</tspan></text>
+<text x="48" y="1049" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">CPS: 100 × (20 + 40 + 20) / 200 = 40</tspan></text>
+<text x="48" y="1147" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="48" dy="0">Tumor-cell %: 100 × 20 / 200 = 10%</tspan></text>
+<text x="40" y="1260" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Eligibility and staining rules still matter.</tspan><tspan x="40" dy="46">TPS arithmetic needs its assay context.</tspan></text>
+</svg>

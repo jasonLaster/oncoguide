@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Illustrative feature combinations, not a compulsory route</title><desc id="desc">Three separate sketches show linked cells with organized polarity, elongated hybrid cells retaining contacts, and more elongated cells with fewer contacts, without transition arrows or a malignancy label. These independent cell sketches illustrate combinations of contacts, polarity and shape, including a contact-retaining hybrid example. They are not a filmed transition, a universal marker test, or a ranking by invasion or drug resistance. Similar programs can occur in normal development and repair; cellular movement, malignancy and reversibility require their own evidence.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker></defs><rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">Look at combinations of features</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Illustrations, not observed cell histories</text>
+<rect x="24" y="142" width="712" height="291" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Epithelial features</text>
+<rect x="59" y="257" width="86" height="86" rx="15" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="99" cy="304" r="16.34" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<path d="M67 260 L137 260" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M69 340 L135 340" fill="none" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="159" y="257" width="86" height="86" rx="15" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="199" cy="304" r="16.34" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<path d="M167 260 L237 260" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M169 340 L235 340" fill="none" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="259" y="257" width="86" height="86" rx="15" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="299" cy="304" r="16.34" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<path d="M267 260 L337 260" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M269 340 L335 340" fill="none" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="142" y="280" width="10" height="43" rx="2" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<rect x="242" y="280" width="10" height="43" rx="2" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<path d="M57 355 L350 355" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="426" y="282" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Contacts</text>
+<text x="426" y="327" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Polarity</text>
+<text x="48" y="407" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Neighbors linked; sides organized</text>
+<rect x="24" y="453" width="712" height="291" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="506" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Hybrid feature example</text>
+<path d="M58 598 Q69 555 121 556 L196 575 L176 597 L200 629 L128 644 Q67 649 58 598 Z" fill="#bd7480" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="121" cy="596" r="18" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<path d="M82 564 L135 564" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M189 598 Q200 555 252 556 L327 575 L307 597 L331 629 L259 644 Q198 649 189 598 Z" fill="#bd7480" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="252" cy="596" r="18" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<path d="M213 564 L266 564" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="186" y="585" width="13" height="38" rx="2" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<text x="426" y="580" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Contact +</text>
+<text x="426" y="625" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">shape mix</text>
+<text x="48" y="718" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Some contacts remain as shape differs.</text>
+<rect x="24" y="764" width="712" height="291" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="817" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">More mesenchymal features</text>
+<path d="M60 905 Q130 852 233 901 Q166 952 60 905 Z" fill="#bd7480" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="147" cy="905" rx="24" ry="16" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<path d="M200 965 Q270 912 373 961 Q306 1012 200 965 Z" fill="#bd7480" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="287" cy="965" rx="24" ry="16" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<text x="426" y="890" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Elongated</text>
+<text x="426" y="935" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Fewer contacts</text>
+<text x="48" y="1029" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Shape does not identify malignancy.</text>
+<text x="48" y="1141" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Normal development and repair can</text>
+<text x="48" y="1188" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">also involve these programs.</text>
+<text x="38" y="1300" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">A snapshot does not demonstrate transition.</text>
+</svg>

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/cells/epithelial-mesenchymal-transition.md",
+  "privateProspectiveTaskId": "next-gap-111",
+  "canonicalAdoption": "pending",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/20",
+  "frozenRowPointer": "/20",
+  "frozenRowSHA256": "1cfce8fed0b373d75f51ef31e948db9a6b884d05713e97113d9e61c76312fa4b",
+  "originalFrozenTask": {
+    "learnerTask": "See epithelial, hybrid and more mesenchymal properties as feature combinations, without inferring an observed transition or malignancy.",
+    "gap": "The non-arrow continuum and explicit caption avoid a compulsory trajectory and are a useful existing visual. It still represents properties only as names; small cell-shape/contact/polarity sketches would make hybrid combinations concrete for a novice.",
+    "accuracyGuardrails": [
+      "Show illustrative feature combinations, not a universal marker test, fixed trajectory, metastatic route or resistant-cell ranking; normal repair/development remain possible contexts."
+    ]
+  },
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "baselinePageSHA256": "09fbf6c6b601a4c0e1535a88ee031d8755258c0d69acce7f7e850737e5950061",
+  "construction": "Original code-generated SVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "generator": "private/construct.py",
+  "generatorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+  "generatorCustody": "Original generator privately retained, not publicly delivered; editable SVG without an executable reproduction-package promise.",
+  "briefSHA256": "51876b21f02145849aa2cfde245d3a5161ae0eba8884beac546e0b377c7e47ba",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-light.svg",
+      "theme": "light",
+      "sha256": "b6b0a27be54e4e731b7d90f4728e6e9aef2077dc6d5be5f5d51e88a173c594f0",
+      "bytes": 6991,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "bd2dc1b8a3104b84ad127f302ec72ca7e043751a9af9381aa21085cfe23eb288",
+      "bytes": 6991,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7250738/",
+    "https://pubmed.ncbi.nlm.nih.gov/29670281/"
+  ],
+  "sourceDepth": "Actual primary abstracts and selected primary/official passages; exact per-owner private lookup/depth/failure/custody receipts. No whole-paper/clinical/scientific approval implied.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Exact shared geometry and wording, palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

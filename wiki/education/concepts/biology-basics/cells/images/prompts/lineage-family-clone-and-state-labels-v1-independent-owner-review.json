@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-110",
+  "owner": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+  "author": "root",
+  "authorRole": "Sole canonical integration author only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "actor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Actual artwork and learner-facing creative author"
+  },
+  "artworkAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrMedicalWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "passedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "currentOwnerSha256": "0d6f11b639c53b94748bd158b2396e5dbd44d038afd4df020727d693f29f6ada",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Independently stipulated L1 ancestry, epithelial family, C1 clone and activity-state labels keep evidence axes separate. Both RNA-state groups contain C1/C2; no RNA-derived lineage, genetic-clone call or permanence claim.",
+    "baselinePageSHA256": "a7f7d89798511fbb543c593d2ba0d55cb14dc18b13790cdfc8d45afe40c628b9",
+    "learnerTask": "Separate developmental ancestry, broad cell identity and reversible activity state from genetic tumor-clone relationships.",
+    "gap": "The three-question Mermaid and caption name the axes, but its sequential boxes do not show one cell family/clone containing cycling and noncycling states or why an RNA cluster cannot reconstruct ancestry.",
+    "accuracyGuardrails": [
+      "Use explicitly fictional cells with independently labeled lineage, clone and state; avoid a developmental trajectory inferred from markers or a claim of permanent commitment."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/19",
+  "frozenRowSHA256": "db3b17bb6b34b4867a37c329e1bf89714743be12b119832c193799cdbc8cc12d",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-light.svg",
+      "sha256": "5d5ad085a85139e37479de93ac43d62acbfe7d8e7d6f3ae4ed0eeab32ea21fe2"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-dark.svg",
+      "sha256": "8ead5fccba36e1841c4f96ba3fd4427e20df30006789639f6f321fcc1da190f1"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+        "sha256": "0d6f11b639c53b94748bd158b2396e5dbd44d038afd4df020727d693f29f6ada",
+        "bytes": 8710
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-light.svg",
+        "sha256": "5d5ad085a85139e37479de93ac43d62acbfe7d8e7d6f3ae4ed0eeab32ea21fe2",
+        "bytes": 6484
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-dark.svg",
+        "sha256": "8ead5fccba36e1841c4f96ba3fd4427e20df30006789639f6f321fcc1da190f1",
+        "bytes": 6484
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/prompts/lineage-family-clone-and-state-labels-v1.txt",
+        "sha256": "ab82d1037bf6655c47c1c7bd56e9bb2a87ed725c4734e9dc88fafa033d846554",
+        "bytes": 1445
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/prompts/lineage-family-clone-and-state-labels-v1-provenance.json",
+        "sha256": "bb26a2fd95655856bd9cfe2311eee9a42e36b1b8d0e24b9513e2586b446194c9",
+        "bytes": 3081
+      }
+    ]
+  },
+  "reviewLineage": {
+    "originalWholePackageReviewSHA256": "b19e1b6f3c205020e2382bb55e7e903e8c6703fdb3f39a39575486e62940762a",
+    "originalWholePackageReviewTimeUTC": "2026-10-12T23:36:07.932590+00:00",
+    "originalVerdict": "REVISE",
+    "originalReviewManifestSHA256": "204a0fc5af483665bc5ca992c9fd2020c2b45c5c2ae592059f162d5d0f943fd7",
+    "originalReviewSealSHA256": "d90869d4959bdd499d93b7e85c47918809b5c47bab40173404c97e76788c1233",
+    "originalAuthorHandoffSHA256": "d1f39bd79067a3c8b6a54fbf072c88cf52da2b3502caef86fd5a632a2e6671f3",
+    "originalAuthorSealSHA256": "aca09e7ef76aec0b70823a0a6d753eed50399e7d46b2ddeedb2c0ae86c40a339",
+    "correctionAuthorHandoffSHA256": "f8ccc6010f33aeb32e1172543bde9fabe5178a1a044575d2ba80e386961525c6",
+    "correctionAuthorManifestSHA256": "b03a871e415aa14370c344952c760b5c0c4fb7921fb0f0b115911092e8330b56",
+    "correctionAuthorSealSHA256": "58d010eb137163e14b32d40374a46aecb397479976af52de7816dc6867bb0929",
+    "correctionReviewSHA256": "e345af8b72444a2cb1a51a7e3fb0f7f7e1618e3fcdb10ecf2784095a791debe0",
+    "correctionReviewTimeUTC": "2026-10-12T23:44:52.362959+00:00",
+    "basis": "Original complete independent scientific/visual review plus actual correction-only recheck; no grades derived from hash comparison alone",
+    "originalScientificTaskFit": "PASS",
+    "originalVisualTaskFit": "PASS",
+    "currentVisualTaskFit": "PASS",
+    "newFullMedicalOrPixelReview": false
+  },
+  "sourceReview": {
+    "inherited": true,
+    "newSourceLookups": 0,
+    "sourceURLs": [
+      "https://www.nigms.nih.gov/biobeat/2024/11/what-are-stem-cells",
+      "https://pubmed.ncbi.nlm.nih.gov/31974159/",
+      "https://pubmed.ncbi.nlm.nih.gov/37380767/",
+      "https://pubmed.ncbi.nlm.nih.gov/34493872/"
+    ],
+    "actualReadDepth": "Inherited qualified original full returned abstracts and selected primary/official passages; access failures preserved in original sealed private review. No whole-paper or expert approval."
+  },
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical127Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

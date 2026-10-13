@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-125",
+  "owner": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+  "currentOwnerSha256": "39e0e8e03d145ea781b705da437cc60ff39530155a0285ef9dd146eee015da21",
+  "author": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "authorRole": "original scientific and creative author; code-generated SVG producer",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-12T23:35:08.399Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/265",
+  "frozenRowSHA256": "3ef9caa49cbd1b25a7fe2ec6b4e3d0a58bfd5ae0cd3064fef836804a9e8e702d",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "f7390236d8be543d28130880ff904f5aa8942508525f1cebd0edb784930cdbbb",
+    "learnerTask": "Apply baseline versus nadir with findings outside the target sum",
+    "gap": "The 100 to 60 to 73 mm series has no reference plot",
+    "accuracyGuardrails": "Preserve baseline versus nadir and the exact target-sum units, with non-target/new-lesion assessment separate. Do not turn a plotted target sum alone into patient-level RECIST/iRECIST status or automatic permission to continue treatment.",
+    "reasoning": "The zero-based linear plot preserves 100, 60 and 73 mm at 2.25 native units per mm; visits have no invented dates. Relative change is -27% from baseline, approximately +21.7% from nadir, with a 13 mm absolute rise. The target progression arithmetic is satisfied under the original comparability and absent new/non-target progression assumptions. Findings outside the sum stay visible, and no patient-level RECIST/iRECIST classification or permission to continue treatment is inferred from the plot alone."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-light.svg",
+      "sha256": "83e311ef6936fbe05cb57528e0e496b3d96148cf0b2a3c2208e055b8b10ec5c5"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-dark.svg",
+      "sha256": "37eda88019b8340aa654b75a879f49b5372ddd76b1cb5c9423ce6da93a748060"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+        "sha256": "39e0e8e03d145ea781b705da437cc60ff39530155a0285ef9dd146eee015da21"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-light.svg",
+        "sha256": "83e311ef6936fbe05cb57528e0e496b3d96148cf0b2a3c2208e055b8b10ec5c5"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-dark.svg",
+        "sha256": "37eda88019b8340aa654b75a879f49b5372ddd76b1cb5c9423ce6da93a748060"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/response-baseline-nadir-and-outside-sum-v1.txt",
+        "sha256": "94185a8e81c937894aedeeb29337ce71b34ebe394422c34beb834728d2ba4f22"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/response-baseline-nadir-and-outside-sum-v1.json",
+        "sha256": "a95eba413e286a711f497dea953998434a759e3a8123b1757d4abed779054834"
+      }
+    ],
+    "originalLessonExactlyPreserved": true,
+    "pairGeometryCountsAndTextIdentical": true
+  },
+  "visualReview": {
+    "nativeLightDarkPersonallyInspected": true,
+    "mobileInlineWithCaptionPersonallyInspected": true,
+    "desktopAndMobileDefaultPreviewsPersonallyInspected": true,
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1280,
+      700
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "conditionalThemeAndEscapeVerified": true,
+    "minimumInlineLabelPx": 16.365384615384617,
+    "minimumDefaultPreviewLabelPx": 16.365384615384613,
+    "scope": "Private rebuilt fixture with actual copied pinned React viewer, full shared theme/styles and reset; no production routing/API/live certification."
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "canonicalAdoption": "pending",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-115",
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+  "author": "root",
+  "authorRole": "Prospective canonical integration role only, not medical teaching or artwork production; exact identity binding requires actual127 adoption.",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T23:40:23.418Z",
+  "reviewedAtLocal": "2026-10-12T16:40:23.418-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "1372a8ebc57b61ba701db463b01ba2bd8739fb1ea2b531ae695fbaf9cd5eca04",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-light.svg",
+      "sha256": "071b4572c7580ffced65f9d7465a77eb095365cf8640470ccadbf59a67d3d167",
+      "bytes": 17344
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-dark.svg",
+      "sha256": "e5034656cf90192dfe941f9d3cce59f81a95f4ce1838605e8246d9668d8529be",
+      "bytes": 17344
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "ccbbaa1d3707559ef3f3f6c4b0a305b1d0d6bccfbf8b51088d5dd825adfd6c38",
+    "learnerTask": "Locate DNA handling, RNA building blocks and microtubule targets in one cell",
+    "gap": "Generic exposure flow lacks five mechanism locations",
+    "accuracyGuardrails": "No cancer-only interaction or fast-division guarantee; growth arrest and death separate; no regimen ranking",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Five numbered loci connect the original five-family table to shared cellular machinery: distinct DNA attachments, topoisomerase-related cut/reseal handling, nucleotide/RNA processes and cytoplasmic microtubules. The caption limits objects and concentrations, retains normal-cell susceptibility and rejects arrest-to-death inference; the answered task rejects an exclusively DNA-based or cancer-only mechanism. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/343",
+    "originalTaskRowSHA256": "75da4ade1a69e2d101703865b948813aebe6728937e47fafcce95130a7b13348",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+        "sha256": "1372a8ebc57b61ba701db463b01ba2bd8739fb1ea2b531ae695fbaf9cd5eca04",
+        "bytes": 11247
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-light.svg",
+        "sha256": "071b4572c7580ffced65f9d7465a77eb095365cf8640470ccadbf59a67d3d167",
+        "bytes": 17344
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-dark.svg",
+        "sha256": "e5034656cf90192dfe941f9d3cce59f81a95f4ce1838605e8246d9668d8529be",
+        "bytes": 17344
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/five-cellular-mechanism-locations-v1.txt",
+        "sha256": "7c1bb414e78ac5188b1ffbdaaa5bdbdaf97565287e1a5ef38eed06ef21715ad9",
+        "bytes": 1092
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/five-cellular-mechanism-locations-v1-provenance.json",
+        "sha256": "3b0d17181037d1873a070d0459a22f9cdfad3e2738c006a7aa067fe95673e809",
+        "bytes": 4577
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "Paclitaxel-label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6",
+      "sourceKind": "official prescribing information",
+      "actualReadDepth": "Complete section12.1 lines864–866 plus product/label identity; selected section2.1 formulation distinction seen; not whole prescribing information",
+      "supportsAndLimits": "Assembly/stabilization/prevention of depolymerization; suppressed normal dynamics in interphase and mitosis. Selected conceptual drawing not exact binding pocket, dynamics rate or class-wide dose rule.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    },
+    {
+      "source": "Fluorouracil-label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14",
+      "sourceKind": "official prescribing information",
+      "actualReadDepth": "Complete section12.1 lines538–540; not full label",
+      "supportsAndLimits": "Distinct metabolite effects in nucleotide synthesis and RNA/DNA incorporation; selected glyph, not full metabolism/distribution model.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    },
+    {
+      "source": "Tewey",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6093249/",
+      "sourceKind": "primary experiment",
+      "actualReadDepth": "Complete primary abstract only lines230–232; no full article/figure pixels",
+      "supportsAndLimits": "Doxorubicin/topoisomerase-mediated laboratory DNA damage and protein-associated broken bonds; no atom-level binding geometry or clinical death guarantee.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    },
+    {
+      "source": "NCI-cisplatin",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cisplatin",
+      "sourceKind": "official drug dictionary",
+      "actualReadDepth": "Complete displayed definition line12; not a trial or primary chemistry experiment",
+      "supportsAndLimits": "Platinum complexes/base-binding and intra/interstrand links; no personal-sensitivity or lesion-frequency conclusion from the picture.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    },
+    {
+      "source": "NCI-cyclophosphamide",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cyclophosphamide",
+      "sourceKind": "official drug dictionary",
+      "actualReadDepth": "Complete displayed definition line12",
+      "supportsAndLimits": "Active metabolites bind DNA; depiction does not reconstruct activation/whole chemistry.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    },
+    {
+      "source": "NCI-Kohn",
+      "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf",
+      "sourceKind": "official historical author account of cited experiments; not newly read primary experiment",
+      "actualReadDepth": "Selected PDF passages page1 lines15–31, page2 lines39–46, page5 lines117–131, page9 lines247–264; no full book or original figure pixels",
+      "supportsAndLimits": "Platinum-centered chemistry and guanine attachment; intra/interstrand distinctions; selected first base bond. Frequency statements in source are not adopted into art.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    },
+    {
+      "source": "NCI-chemo",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "sourceKind": "official education",
+      "actualReadDepth": "Selected complete normal-cell paragraph line46 and side-effect versus efficacy paragraph line124; not whole page/clinical review",
+      "supportsAndLimits": "Susceptible normal cells and separate toxicity/benefit; no fast-division guarantee.",
+      "reviewAcquisition": "Fresh web tool passages; capture times are actual receipt capture times, not reconstructed request timestamps."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "Fresh actual pinned client React renderer, image theater/modal and relevant wiki-shell/application CSS; original native pairs and mobile393×700/defaultpreview, desktop1280×900/defaultpreview and settled instant nested-scroll top/middle/bottom viewport captures. Explicit isolated hierarchy/runtime assumptions; no source/server-pipeline or full live-route parity claimed.",
+    "limitations": [
+      "Isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with pinned wiki-shell theme, education/app CSS; no header/sidebar/auth/router/backend or maintained/live deployment.",
+      "Author carrier uses static compiled HTML/WikiMarkdownFrame/ImageTheater; independent carrier uses actual client React renderer. The source epoch is identical; server-compilation/app route parity is not claimed.",
+      "The application CSS import content is supplied locally; no general Tailwind build. Only exact hidden/dark:block/dark:hidden semantics appended; no palette, font, article or table override. External existing React/esbuild runtime dependencies are not a pinned full application build.",
+      "Desktop inline820x1367 requires actual vertical scroll. Accepted top/middle/bottom captures are actual1280x900 viewports; failed element capture explicitly excluded. Mobile inline349x582 and preview345x575; desktop preview482.4x804 fits complete image.",
+      "All12 natives,24mobile inline/defaultpreview,12desktopdefaultpreview and36validdesktopscroll views personally inspected. Actual text bounding boxes remain within600x1000 viewBox. Visual contrast/readability only; no WCAG or colour-vision certification.",
+      "Escape closed all24 previews; no broad keyboard/download/table-overlay/focus restoration approval. Existing tables were inventoried but not accepted as fully readable or tested interactively.",
+      "Science/source depth, example arithmetic/model appropriateness and learner/human acceptance remain separate reviewer scopes. No new clinical claims, source grades, publication or registry changes."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective115–120 only; no127 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

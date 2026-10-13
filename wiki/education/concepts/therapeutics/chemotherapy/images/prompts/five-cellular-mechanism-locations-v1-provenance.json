@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceOwnerPreimageSHA256": "ccbbaa1d3707559ef3f3f6c4b0a305b1d0d6bccfbf8b51088d5dd825adfd6c38",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "five-cellular-mechanism-locations-v1.txt",
+    "sha256": "7c1bb414e78ac5188b1ffbdaaa5bdbdaf97565287e1a5ef38eed06ef21715ad9",
+    "bytes": 1092,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "five-cellular-mechanism-locations-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "071b4572c7580ffced65f9d7465a77eb095365cf8640470ccadbf59a67d3d167",
+      "bytes": 17344
+    },
+    {
+      "file": "five-cellular-mechanism-locations-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "e5034656cf90192dfe941f9d3cce59f81a95f4ce1838605e8246d9668d8529be",
+      "bytes": 17344
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Chemotherapy to Treat Cancer",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "scope": "Normal-cell susceptibility is not exclusive tumor binding or a guarantee based on division rate; no universal regimen interval."
+    },
+    {
+      "title": "PACLITAXEL injection, powder, lyophilized, for suspension",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6",
+      "scope": "Label is albumin-bound paclitaxel; selected mechanism section only, not whole prescribing information; no dosing/formulation interchangeability or personal benefit claim."
+    },
+    {
+      "title": "FLUOROURACIL injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14",
+      "scope": "Selected mechanism only, not full label; source metadata dates retained as received without inference; no model of the full metabolic pathway or intracellular drug distribution."
+    },
+    {
+      "title": "The Platinum Story: From Imagination to a New Anticancer Drug",
+      "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf",
+      "scope": "Historical author narrative of cited experiments, not a newly read primary trial; no full-book, atom geometry, lesion-frequency distribution or clinical-regimen ranking claim."
+    },
+    {
+      "title": "Adriamycin-induced DNA damage mediated by mammalian DNA topoisomerase II.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6093249/",
+      "scope": "Abstract only; original full article, figures and exact drug-binding pocket were not read. New glyph is conceptual protein-held cut/reseal handling, not atom-level reconstruction or clinical death guarantee."
+    },
+    {
+      "title": "Definition of cisplatin - NCI Drug Dictionary",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cisplatin",
+      "scope": "Definition only; no mechanism-to-personal-response guarantee or comparative efficacy/toxicity ranking. Cyclophosphamide activation pathway not reconstructed in the art."
+    },
+    {
+      "title": "Definition of carboplatin - NCI Drug Dictionary",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/carboplatin",
+      "scope": "Definition only; no mechanism-to-personal-response guarantee or comparative efficacy/toxicity ranking. Cyclophosphamide activation pathway not reconstructed in the art."
+    },
+    {
+      "title": "Definition of cyclophosphamide - NCI Drug Dictionary",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cyclophosphamide",
+      "scope": "Definition only; no mechanism-to-personal-response guarantee or comparative efficacy/toxicity ranking. Cyclophosphamide activation pathway not reconstructed in the art."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/261",
+  "learnerTask": "Connect echo timing and tissue boundaries to a selected image plane",
+  "accuracyGuardrails": "Show a selected probe/image plane and echo-derived signal schematically. Ultrasound boundaries are not histology or a whole-body census; a negative sampled view does not prove absence of disease.",
+  "creationMethod": "Original code-generated native SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecutions": 0,
+  "creationCommit": null,
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "ownerPreimageSHA256": "3464758c9568a48bf17a29e8e907688968621454c78d33ed2cfad5aceea3ad29",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/imaging/images/prompts/ultrasound-echo-timing-and-plane-v1.txt",
+    "sha256": "dc5ea18cb65a327cee39bf07a8eff1887ad4b6036596541de3819ad9fc0f4b21"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+      "sha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38",
+      "bytes": 5755,
+      "nativeWidth": 780,
+      "nativeHeight": 1320,
+      "format": "SVG"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "sha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966",
+      "bytes": 5755,
+      "nativeWidth": 780,
+      "nativeHeight": 1320,
+      "format": "SVG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.nibib.nih.gov/science-education/science-topics/ultrasound",
+      "readDepth": "selected official explanation",
+      "sectionsRead": "Diagnostic/anatomical/functional definitions; How does it work section including boundaries, echo time and sound speed; gel explanation",
+      "supports": "Echo timing under an assumed sound speed supplies distance information; a selected-plane view differs from histology.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    },
+    {
+      "url": "https://www.radiologyinfo.org/en/info/breastus",
+      "readDepth": "selected official limitations",
+      "sectionsRead": "Limitations: cancers and modality-specific findings can be invisible; biopsy provides tissue evidence",
+      "supports": "A sampled negative view does not establish whole-body or microscopic absence.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    }
+  ],
+  "scope": "Teaching fiction; no real scan/slide/model execution, diagnosis, clinical eligibility or benefit claim. Exact original examples and existing source/review metadata preserved.",
+  "privateAids": "Source bodies, access/read-depth receipts, copied renderer, scripts and QA captures remain private and are excluded from prospective public payload.",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

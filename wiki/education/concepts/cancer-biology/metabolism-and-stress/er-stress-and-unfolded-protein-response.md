@@ -29,6 +29,17 @@ Imagine a workshop's finishing room accumulating more unfinished products than i
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg" width="760" height="1320" alt="Three ER-spanning sensors lead to different outputs: IRE1 toward XBP1 RNA splice forms, PERK toward a phosphate on eIF2α, and ATF6 through Golgi cleavage to a released fragment in the nucleus, with compartment boundaries shown." data-theme-pair>
+<p class="cartoon-caption">The unfolded protein response (UPR) includes distinct sensors in the endoplasmic reticulum (ER). The sketches separate IRE1-associated XBP1 RNA processing, PERK-associated eIF2α phosphorylation, and ATF6 transport to Golgi processing followed by nuclear entry of a released fragment. RNA segments and molecular shapes are schematic. Total XBP1 is not its splice-form fraction, other kinases can phosphorylate eIF2α, and one branch does not establish the whole response, cell death or dependency.</p>
+</div>
+
+**Read the three outputs:** Would more total XBP1 RNA answer the same question as an XBP1 splice-form fraction?
+
+**Answer:** No. Total message amount and the fraction in a processed form are different readouts. Keep the isoform-specific assay and its controls explicit; neither establishes cell death.
+
+The ATF6 compartment route is supported by the [original ER-to-Golgi transport study](https://pubmed.ncbi.nlm.nih.gov/11821395/), read here at abstract depth; the cartoon is a new schematic, not a source figure.
+
 The **endoplasmic reticulum (ER)** is a membrane network where many secreted and cell-surface proteins fold and assemble. Protein helpers called **chaperones** assist this work. An imbalance between demand and capacity is ER stress. It does not mean every protein in the cell is unfolded.
 
 The **unfolded protein response (UPR)** coordinates adjustment through several sensors. Its three familiar branches are useful landmarks, not interchangeable tests:

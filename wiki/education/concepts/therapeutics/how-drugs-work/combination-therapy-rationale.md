@@ -61,6 +61,16 @@ An **invented response model** contains ten hypothetical tumors. Four are assign
 
 The union is `4 + 4 − 2 = 6`. Under those assumptions, six tumors have a modeled response to at least one component. This is a counting example, not a measured clinical response rate. The combination itself still needs testing; changing correlation, exposure, schedule or toxicity can change the result.
 
+<img src="./images/response-union-and-interaction-references-v1-light.svg" alt="Ten numbered fictional tumors show A-only, overlapping A-and-B, B-only and neither groups; a separate fictional laboratory chart compares 30 percent HSA and 44 percent Bliss expectations with a 40 percent observed readout" data-theme-pair width="600" height="1000">
+
+*Covering different responders and exceeding a laboratory reference model are separate ideas.*
+
+Count the badges above: A marks tumors 1–4; B marks 3–6. The overlap is counted once, leaving six in the union and four in neither group. This retains the original better-component model, including its no-extra-interaction and no-added-toxicity assumptions. Independent drug action is not a requirement that the two response groups be statistically independent. [Primary independent-action analysis](https://pubmed.ncbi.nlm.nih.gov/29245013/).
+
+The lower chart is a separate invented experiment in one cultured tumor-cell model at 72 hours. Inhibition means reduction in a vehicle-normalized viable-cell endpoint count; it is not a direct death measurement. At the chosen fixed dose pair, A gives 20%, B gives 30%, and the combination gives 40%. Highest single agent (HSA) expects the larger single effect, 30%. Bliss expects `0.20 + 0.30 − 0.20 × 0.30 = 0.44`, or 44%. Loewe needs single-drug dose-response curves to compare doses giving the same effect; these three values are insufficient. No uncertainty or statistical test is supplied. [Reference-model method](https://pubmed.ncbi.nlm.nih.gov/28379339/), [Authors’ reference-model documentation](https://www.bioconductor.org/packages/release/bioc/vignettes/synergyfinder/inst/doc/User_tutorual_of_the_SynergyFinder_plus.html).
+
+**Read the references:** Does 40% exceeding HSA establish excess over every model? **Answer:** No. It is below the 44% Bliss expectation. A broader synergy claim still needs appropriate data and uncertainty.
+
 ## How it is measured
 
 Laboratory interaction analysis needs suitable single-drug dose-response data, combination conditions, controls and variation estimates. Clinical trials instead compare treatment strategies and meaningful outcomes. A group survival advantage does not by itself measure a cell-level synergy mechanism.

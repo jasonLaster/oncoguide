@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Zero image-model calls; model null.
+
+Draw three independent feature combinations: linked polarized epithelial cells; a hybrid with retained contacts and elongated shape; and more elongated cells with fewer contacts. Use contrasting tissue boundaries in both themes. Add no transition arrows, measured movement, universal marker test, metastatic route or resistance ranking. Normal development and repair remain possible contexts; shape does not establish malignancy.
+
+Frozen learner task: See epithelial, hybrid and more mesenchymal properties as feature combinations, without inferring an observed transition or malignancy.
+Frozen gap: The non-arrow continuum and explicit caption avoid a compulsory trajectory and are a useful existing visual. It still represents properties only as names; small cell-shape/contact/polarity sketches would make hybrid combinations concrete for a novice.
+Frozen accuracy guardrails (exact original JSON type): ["Show illustrative feature combinations, not a universal marker test, fixed trajectory, metastatic route or resistant-cell ranking; normal repair/development remain possible contexts."]
+
+Friendly restrained physical glyphs, detailed meaningful geometry. Both themes share exact objects/labels/quantities; essential labels at least36 nativepx for roughly16px at393px reader/default preview. Source bodies, original construction code/call/render/read-depth receipts stay private. Editable native SVGs are delivered without an executable reproduction-package promise.

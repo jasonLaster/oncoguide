@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1340" viewBox="0 0 780 1340" role="img" aria-labelledby="title desc"><title id="title">PET-CT: named tracer, anatomy and signal spreading</title><desc id="desc">Matched fictional schematic sections compare CT structural boundaries with 18F-FDG PET distribution. A separate high-activity small region is shown as a broader and lower-peak PET image, illustrating finite-resolution dilution without numeric calibration or a simulated scanner run. Uptake can arise from normal tissue, inflammation or malignant tissue; brightness does not identify the cells.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c0d0ca"/></marker></defs>
+<rect x="0" y="0" width="780" height="1340" rx="0" fill="#192b2f" />
+<text x="40" y="61" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Locate the named tracer</tspan></text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">PET distribution and CT anatomy differ</tspan></text>
+<rect x="24" y="145" width="732" height="335" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="200" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">1. Match location; retain the signal</tspan></text>
+<ellipse cx="210" cy="342" rx="126" ry="70" fill="#405d6c" stroke="#9fcadd" stroke-width="3"/>
+<ellipse cx="165" cy="345" rx="24" ry="38" fill="#223a3e" stroke="#9fcadd" stroke-width="3"/>
+<circle cx="257" cy="349" r="14" fill="#223a3e" stroke="#9fcadd" stroke-width="3" />
+<ellipse cx="570" cy="342" rx="126" ry="70" fill="#405d6c" stroke="#9fcadd" stroke-width="3"/>
+<ellipse cx="525" cy="345" rx="24" ry="38" fill="#223a3e" stroke="#9fcadd" stroke-width="3"/>
+<circle cx="617" cy="349" r="14" fill="#223a3e" stroke="#9fcadd" stroke-width="3" />
+<ellipse cx="525" cy="345" rx="25" ry="38" fill="#e4bd7c"/>
+<circle cx="617" cy="349" r="19" fill="#e4bd7c" />
+<text x="210" y="251" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="210" dy="0">CT anatomy</tspan></text>
+<text x="570" y="251" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="570" dy="0">18F-FDG PET</tspan></text>
+<path d="M353 340 L427 340" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 7"/>
+<text x="78" y="450" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="78" dy="0">Paired anatomy helps locate uptake.</tspan></text>
+<rect x="24" y="505" width="732" height="415" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="560" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">2. A small region can look diluted</tspan></text>
+<rect x="78" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="466" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="78" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="466" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="78" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="466" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="78" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="466" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="122" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="510" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="122" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="510" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="122" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="510" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="122" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="510" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="166" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="554" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="166" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="554" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="166" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="554" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="166" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="554" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="210" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="598" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="210" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="598" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="210" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="598" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="210" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="598" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="254" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="642" y="631" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="254" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="642" y="675" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="254" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="642" y="719" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="254" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<rect x="642" y="763" width="38" height="38" rx="2" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<circle cx="187" cy="697" r="13" fill="#e4bd7c" />
+<circle cx="577" cy="697" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.65"/>
+<circle cx="533" cy="697" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.28"/>
+<circle cx="621" cy="697" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.28"/>
+<circle cx="577" cy="653" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.28"/>
+<circle cx="577" cy="741" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.28"/>
+<circle cx="533" cy="653" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.1"/>
+<circle cx="621" cy="653" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.1"/>
+<circle cx="533" cy="741" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.1"/>
+<circle cx="621" cy="741" r="18" fill="#e4bd7c" stroke="#e4bd7c" stroke-width="2" fill-opacity="0.1"/>
+<path d="M321 697 L410 697" fill="none" stroke="#c0d0ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="78" y="612" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="78" dy="0">Small source</tspan></text>
+<text x="466" y="612" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="466" dy="0">PET image</tspan></text>
+<text x="76" y="853" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="76" dy="0">Signal spreads; apparent peak can fall.</tspan><tspan x="76" dy="46">Uncalibrated image schematic.</tspan></text>
+<rect x="24" y="945" width="732" height="245" rx="18" fill="#223a3e" stroke="#66827a" stroke-width="2" />
+<text x="47" y="1000" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#f5eddd" text-anchor="start"><tspan x="47" dy="0">3. Uptake is not a cancer label</tspan></text>
+<ellipse cx="161" cy="1080" rx="45" ry="26" fill="#405d6c" stroke="#9fcadd" stroke-width="3"/>
+<circle cx="161" cy="1080" r="13" fill="#e4bd7c" />
+<text x="161" y="1150" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="161" dy="0">Normal</tspan></text>
+<ellipse cx="388" cy="1080" rx="45" ry="26" fill="#405d6c" stroke="#9fcadd" stroke-width="3"/>
+<circle cx="388" cy="1080" r="13" fill="#e4bd7c" />
+<text x="388" y="1150" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="388" dy="0">Inflamed</tspan></text>
+<ellipse cx="622" cy="1080" rx="45" ry="26" fill="#405d6c" stroke="#9fcadd" stroke-width="3"/>
+<circle cx="622" cy="1080" r="13" fill="#e4bd7c" />
+<text x="622" y="1150" font-family="Arial, sans-serif" font-size="37" font-weight="700" fill="#f5eddd" text-anchor="middle"><tspan x="622" dy="0">Malignant</tspan></text>
+<text x="40" y="1262" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#f5eddd" text-anchor="start"><tspan x="40" dy="0">Possible sources need other evidence.</tspan><tspan x="40" dy="46">A negative scan cannot count every cell.</tspan></text>
+</svg>

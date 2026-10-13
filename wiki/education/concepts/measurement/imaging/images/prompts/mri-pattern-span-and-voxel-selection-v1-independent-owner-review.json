@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-121",
+  "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+  "currentOwnerSha256": "dd9f7fe0f291e9781b675b8ad01587c4c8ad520a0d7cf4b854561628d43cd67e",
+  "author": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "authorRole": "original scientific and creative author; code-generated SVG producer",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-12T23:35:08.399Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/260",
+  "frozenRowSHA256": "1df41d9213d99833c199de666267f4170aec32beead68fd4756ae8e8dee2d976",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "508a90e56a2afc1a3984cdda08f2ae3cb9a02425994f2f151e6f29dc0d5a1119",
+    "learnerTask": "Distinguish enhancement pattern, span and rule-selected voxel volume",
+    "gap": "BPE, NME and FTV are explained only in text",
+    "accuracyGuardrails": "Separate enhancement, normal background enhancement, non-mass pattern/span and method-selected functional tumor volume. Length and voxel volume are different units; enhancement is not histology, viable-cell count or guaranteed absence/presence of cancer.",
+    "reasoning": "The three panels separate a contrast-time observation, background versus non-mass enhancement pattern and length, and method-selected voxel volume. The 60 mm span and 0.6 mL report preserve the original fictional exercise. The seven colored tiles are symbolic selections, not calibrated voxel sizes or an arithmetic derivation of 0.6 mL. No kinetic curve, histology, viable-cell census, diagnostic exclusion or personal prognostic claim is introduced. The original FTV association and practice remain in their stated research context."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+        "sha256": "dd9f7fe0f291e9781b675b8ad01587c4c8ad520a0d7cf4b854561628d43cd67e"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+        "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+        "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1.txt",
+        "sha256": "3a88e5f926063f3a41de64a297a33dcd82ea3d57fe32f82302d4f0d6ad11d1b2"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1.json",
+        "sha256": "0641f5fb2a77da415faa9ac1be659155d04d225abb97162de79519886c1cedc3"
+      }
+    ],
+    "originalLessonExactlyPreserved": true,
+    "pairGeometryCountsAndTextIdentical": true
+  },
+  "visualReview": {
+    "nativeLightDarkPersonallyInspected": true,
+    "mobileInlineWithCaptionPersonallyInspected": true,
+    "desktopAndMobileDefaultPreviewsPersonallyInspected": true,
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1280,
+      700
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "conditionalThemeAndEscapeVerified": true,
+    "minimumInlineLabelPx": 16.365384615384617,
+    "minimumDefaultPreviewLabelPx": 16.365384615384613,
+    "scope": "Private rebuilt fixture with actual copied pinned React viewer, full shared theme/styles and reset; no production routing/API/live certification."
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "canonicalAdoption": "pending",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

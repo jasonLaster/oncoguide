@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+  "privateProspectiveTaskId": "next-gap-114",
+  "canonicalAdoption": "pending",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/95",
+  "frozenRowPointer": "/95",
+  "frozenRowSHA256": "61d23c4f4b98695f104c458e97f9357fa68e5a7f5a7577fd14bc22fac047a113",
+  "originalFrozenTask": {
+    "learnerTask": "Distinguish three UPR sensors and their different RNA, phosphorylation and cleavage readouts.",
+    "gap": "The existing generic branches/adaptation/death map adequately separates response from failure, but collapses IRE1, PERK and ATF6 into one box. A compact parallel-mechanism diagram located at the ER would make the three assay outputs intelligible without implying interchangeable tests.",
+    "accuracyGuardrails": [
+      "A selected branch is not the entire UPR.",
+      "Total XBP1 differs from spliced XBP1; eIF2\u03b1 phosphorylation has other possible causes.",
+      "Stress response is not inevitable death or dependency."
+    ]
+  },
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "baselinePageSHA256": "2d6e62f359c069cfe3f965df23a2ab351825b5f0b80f984048562f565d73d556",
+  "construction": "Original code-generated SVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "generator": "private/construct.py",
+  "generatorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+  "generatorCustody": "Original generator privately retained, not publicly delivered; editable SVG without an executable reproduction-package promise.",
+  "briefSHA256": "ede09100a9493652fce1f31153d1d507b6d0f236be59d58a18fbb8870177d721",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+      "theme": "light",
+      "sha256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c",
+      "bytes": 8959,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3",
+      "bytes": 8959,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/22116877/",
+    "https://pubmed.ncbi.nlm.nih.gov/11779464/",
+    "https://pubmed.ncbi.nlm.nih.gov/9930704/",
+    "https://pubmed.ncbi.nlm.nih.gov/10564271/",
+    "https://pubmed.ncbi.nlm.nih.gov/11821395/"
+  ],
+  "sourceDepth": "Actual primary abstracts and selected primary/official passages; exact per-owner private lookup/depth/failure/custody receipts. No whole-paper/clinical/scientific approval implied.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Exact shared geometry and wording, palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "corrections": [
+    {
+      "kind": "independent-review label clearance correction",
+      "originalReviewTimeUTC": "2026-10-12T23:36:07.932590+00:00",
+      "originalVerdict": "REVISE",
+      "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+      "originalReviewSHA256": "b19e1b6f3c205020e2382bb55e7e903e8c6703fdb3f39a39575486e62940762a",
+      "baseGeneratorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+      "baseGeneratorMeaning": "Retained exact original SVG construction; corrected outputs require the separately retained narrow transform.",
+      "correctionTransform": "private/relocate-perk.py",
+      "correctionTransformSHA256": "f0e65fc5a4fa936ee4163f03407e95a2aeac5d43b524d043c75d561343360975",
+      "imageModelCalls": 0,
+      "actualImageModelCalls": [],
+      "model": null,
+      "delta": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+          "beforeSHA256": "125ea6c4b443c61cce576c8527c36736f5648d62fc849d957513554c1e725b0b",
+          "afterSHA256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c",
+          "exactDelta": "PERK text x82 \u2192 x48; y773/font38/text/fill and all other bytes unchanged. No other label, sensor or mechanism edited."
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+          "beforeSHA256": "5218a51c15d3fdee8e605722f9f66d54a0ad0cea0ca553e8c49477c9e107a520",
+          "afterSHA256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3",
+          "exactDelta": "PERK text x82 \u2192 x48; y773/font38/text/fill and all other bytes unchanged. No other label, sensor or mechanism edited."
+        }
+      ],
+      "independentCorrectionRecheck": "pending"
+    }
+  ]
+}

@@ -44,6 +44,12 @@ The analogy stops at a visible pattern. A bright region is not a photograph of c
 
 DCE names acquisition and signal behavior; BPE names background enhancement; NME names a finding's morphology; FTV names a calculation. Seeing all four in a report need not mean four competing estimates of the same quantity.
 
+<img src="./images/mri-pattern-span-and-voxel-selection-v1-light.svg" alt="A fictional MRI diagram separates contrast-dependent images, normal background enhancement, a 60 mm non-mass pattern span and a symbolic selected-voxel calculation reported as 0.6 mL." width="780" height="1360" data-theme-pair>
+
+*The original 60 mm span and 0.6 mL FTV can coexist: length and method-selected volume describe different quantities. The grid is a selection cartoon without voxel counts or sizes for recalculating FTV; enhancement does not establish histology or viable-cell number.*
+
+[Open the light diagram](./images/mri-pattern-span-and-voxel-selection-v1-light.svg) · [Open the dark diagram](./images/mri-pattern-span-and-voxel-selection-v1-dark.svg)
+
 ## Why it matters in cancer
 
 MRI can help evaluate extent and changes during treatment. A change in enhancement can be informative without proving [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr). Residual cancer may not produce a conspicuous qualifying image signal, and enhancement may reflect nonmalignant processes.

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/265",
+  "learnerTask": "Apply baseline versus nadir with findings outside the target sum",
+  "accuracyGuardrails": "Preserve baseline versus nadir and the exact target-sum units, with non-target/new-lesion assessment separate. Do not turn a plotted target sum alone into patient-level RECIST/iRECIST status or automatic permission to continue treatment.",
+  "creationMethod": "Original code-generated native SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecutions": 0,
+  "creationCommit": null,
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "ownerPreimageSHA256": "f7390236d8be543d28130880ff904f5aa8942508525f1cebd0edb784930cdbbb",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/imaging/images/prompts/response-baseline-nadir-and-outside-sum-v1.txt",
+    "sha256": "94185a8e81c937894aedeeb29337ce71b34ebe394422c34beb834728d2ba4f22"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-light.svg",
+      "sha256": "83e311ef6936fbe05cb57528e0e496b3d96148cf0b2a3c2208e055b8b10ec5c5",
+      "bytes": 5797,
+      "nativeWidth": 780,
+      "nativeHeight": 1360,
+      "format": "SVG"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/imaging/images/response-baseline-nadir-and-outside-sum-v1-dark.svg",
+      "sha256": "37eda88019b8340aa654b75a879f49b5372ddd76b1cb5c9423ce6da93a748060",
+      "bytes": 5797,
+      "nativeWidth": 780,
+      "nativeHeight": 1360,
+      "format": "SVG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf",
+      "readDepth": "selected primary guideline sections and page pixels",
+      "sectionsRead": "Printed pp232–233, PDF pages5–6: baseline documentation, target PR/PD and non-target response; local page PNGs inspected",
+      "supports": "Baseline versus nadir and the20%/5mm target progression rule; selected-target sum excludes other findings.",
+      "limits": "Not a full20-page guideline appraisal; exact100→60→73mm and assumptions come from the owner exercise."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5648544/",
+      "readDepth": "selected primary sections",
+      "sectionsRead": "Introduction separating trial-data rules from treatment decisions; new-lesion assessment and clinical-stability passages",
+      "supports": "iRECIST and treatment decisions remain separate from a plotted target sum.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    }
+  ],
+  "scope": "Teaching fiction; no real scan/slide/model execution, diagnosis, clinical eligibility or benefit claim. Exact original examples and existing source/review metadata preserved.",
+  "privateAids": "Source bodies, access/read-depth receipts, copied renderer, scripts and QA captures remain private and are excluded from prospective public payload.",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

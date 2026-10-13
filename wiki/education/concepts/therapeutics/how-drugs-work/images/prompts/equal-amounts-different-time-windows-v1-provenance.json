@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceOwnerPreimageSHA256": "b36bd080b2eba3e2083c2c9f73673a379c2cac8bdf0a583206954c1dea2dd48c",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "equal-amounts-different-time-windows-v1.txt",
+    "sha256": "c469e43f35d1f0c5396ca473806a270fc1a8851fbd45ac2d878bacbc0872383b",
+    "bytes": 763,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "equal-amounts-different-time-windows-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d",
+      "bytes": 6591
+    },
+    {
+      "file": "equal-amounts-different-time-windows-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905",
+      "bytes": 6591
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Chemotherapy to Treat Cancer",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "scope": "Normal-cell susceptibility is not exclusive tumor binding or a guarantee based on division rate; no universal regimen interval."
+    },
+    {
+      "title": "Optimizing the Dosage of Human Prescription Drugs and Biological Products for the Treatment of Oncologic Diseases",
+      "url": "https://www.fda.gov/media/164555/download",
+      "scope": "Not a dose-intensity calculation standard or personal dose recommendation. Explicit scope exclusions for certain modalities, pediatric and first-in-human development retained as limits. No full-guidance reading claim."
+    },
+    {
+      "title": "Dose intensity in cancer chemotherapy: definition, average relative dose intensity and effective dose intensity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7626852/",
+      "scope": "Abstract only; full1995 article not read. No general numeric clinical threshold adopted; the arbitrary DrugZ doses, intervals and reference are author-created."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

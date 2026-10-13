@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/imaging/mammography.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/263",
+  "learnerTask": "Distinguish projection overlap from reconstructed sections and histology",
+  "accuracyGuardrails": "Distinguish compressed projection overlap from tomosynthesis reconstruction and tissue histology. Schematic sections are not pathology or complete detection, and negative imaging does not establish biological absence.",
+  "creationMethod": "Original code-generated native SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecutions": 0,
+  "creationCommit": null,
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "ownerPreimageSHA256": "ef4ac72925f5a2171da8bf87e41f4a19ed6720139e25e93b909b00e63a0ff340",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/imaging/images/prompts/mammography-projection-and-reconstructed-sections-v1.txt",
+    "sha256": "108bd5cd472f011fdc8c668c406fd21ab46f45948e1ec22e729f7719eb4814ac"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "sha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520",
+      "bytes": 6480,
+      "nativeWidth": 780,
+      "nativeHeight": 1340,
+      "format": "SVG"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "sha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014",
+      "bytes": 6480,
+      "nativeWidth": 780,
+      "nativeHeight": 1340,
+      "format": "SVG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.cancer.gov/types/breast/screening/mammograms",
+      "readDepth": "selected official passages",
+      "sectionsRead": "What happens during mammogram; DBT reconstructed thin-section description",
+      "supports": "Compressed projection imaging differs from computed sections and sampled histology.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    },
+    {
+      "url": "https://www.radiologyinfo.org/en/info/mammo",
+      "readDepth": "selected official passages",
+      "sectionsRead": "DBT definition describing several angles and reconstructed image set",
+      "supports": "Multiple angles support reconstructed imaging sections; the three drawn rays are illustrative, not an exact reconstruction recipe.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    },
+    {
+      "url": "https://www.cancer.gov/types/breast/breast-changes/dense-breasts",
+      "readDepth": "selected official masking passage",
+      "sectionsRead": "Dense tissue and abnormalities both can appear white, reducing visibility",
+      "supports": "Projection appearance is not a complete disease census.",
+      "limits": "No new screening recommendation."
+    }
+  ],
+  "scope": "Teaching fiction; no real scan/slide/model execution, diagnosis, clinical eligibility or benefit claim. Exact original examples and existing source/review metadata preserved.",
+  "privateAids": "Source bodies, access/read-depth receipts, copied renderer, scripts and QA captures remain private and are excluded from prospective public payload.",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

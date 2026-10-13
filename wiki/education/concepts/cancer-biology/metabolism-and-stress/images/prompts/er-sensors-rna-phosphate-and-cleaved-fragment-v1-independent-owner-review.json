@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-114",
+  "owner": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+  "author": "root",
+  "authorRole": "Sole canonical integration author only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "actor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Actual artwork and learner-facing creative author"
+  },
+  "artworkAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrMedicalWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "passedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "currentOwnerSha256": "282be3383832ae4dba0933cb927bebe09c385844a53693456a280d3fa18a4f76",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "ER-spanning IRE1, PERK and ATF6 lead to distinct RNA, phosphate and Golgi-cleavage/nuclear-fragment outputs. Spliced-versus-total XBP1, other eIF2alpha kinases, branch-versus-UPR and adaptation-versus-death limits are preserved. Scientific task fit inherited from original complete review. The actual narrow correction inspection confirms PERK now clears the membrane by25.421875 nativepx while retaining its sensor association and readability in both themes and mobile/default-preview sizes.",
+    "baselinePageSHA256": "2d6e62f359c069cfe3f965df23a2ab351825b5f0b80f984048562f565d73d556",
+    "learnerTask": "Distinguish three UPR sensors and their different RNA, phosphorylation and cleavage readouts.",
+    "gap": "The existing generic branches/adaptation/death map adequately separates response from failure, but collapses IRE1, PERK and ATF6 into one box. A compact parallel-mechanism diagram located at the ER would make the three assay outputs intelligible without implying interchangeable tests.",
+    "accuracyGuardrails": [
+      "A selected branch is not the entire UPR.",
+      "Total XBP1 differs from spliced XBP1; eIF2α phosphorylation has other possible causes.",
+      "Stress response is not inevitable death or dependency."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/95",
+  "frozenRowSHA256": "61d23c4f4b98695f104c458e97f9357fa68e5a7f5a7577fd14bc22fac047a113",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+      "sha256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+      "sha256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+        "sha256": "282be3383832ae4dba0933cb927bebe09c385844a53693456a280d3fa18a4f76",
+        "bytes": 8490
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+        "sha256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c",
+        "bytes": 8959
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+        "sha256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3",
+        "bytes": 8959
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1.txt",
+        "sha256": "ede09100a9493652fce1f31153d1d507b6d0f236be59d58a18fbb8870177d721",
+        "bytes": 1730
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1-provenance.json",
+        "sha256": "630f655f45d01ab37c8bd42a152c5f2e7f65af067d4576e2af58a4c316453d0c",
+        "bytes": 5193
+      }
+    ]
+  },
+  "reviewLineage": {
+    "originalWholePackageReviewSHA256": "b19e1b6f3c205020e2382bb55e7e903e8c6703fdb3f39a39575486e62940762a",
+    "originalWholePackageReviewTimeUTC": "2026-10-12T23:36:07.932590+00:00",
+    "originalVerdict": "REVISE",
+    "originalReviewManifestSHA256": "204a0fc5af483665bc5ca992c9fd2020c2b45c5c2ae592059f162d5d0f943fd7",
+    "originalReviewSealSHA256": "d90869d4959bdd499d93b7e85c47918809b5c47bab40173404c97e76788c1233",
+    "originalAuthorHandoffSHA256": "d1f39bd79067a3c8b6a54fbf072c88cf52da2b3502caef86fd5a632a2e6671f3",
+    "originalAuthorSealSHA256": "aca09e7ef76aec0b70823a0a6d753eed50399e7d46b2ddeedb2c0ae86c40a339",
+    "correctionAuthorHandoffSHA256": "f8ccc6010f33aeb32e1172543bde9fabe5178a1a044575d2ba80e386961525c6",
+    "correctionAuthorManifestSHA256": "b03a871e415aa14370c344952c760b5c0c4fb7921fb0f0b115911092e8330b56",
+    "correctionAuthorSealSHA256": "58d010eb137163e14b32d40374a46aecb397479976af52de7816dc6867bb0929",
+    "correctionReviewSHA256": "e345af8b72444a2cb1a51a7e3fb0f7f7e1618e3fcdb10ecf2784095a791debe0",
+    "correctionReviewTimeUTC": "2026-10-12T23:44:52.362959+00:00",
+    "basis": "Original complete independent scientific/visual review plus actual correction-only recheck; no grades derived from hash comparison alone",
+    "originalScientificTaskFit": "PASS",
+    "originalVisualTaskFit": "REVISE",
+    "currentVisualTaskFit": "PASS",
+    "newFullMedicalOrPixelReview": false
+  },
+  "sourceReview": {
+    "inherited": true,
+    "newSourceLookups": 0,
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/22116877/",
+      "https://pubmed.ncbi.nlm.nih.gov/11779464/",
+      "https://pubmed.ncbi.nlm.nih.gov/9930704/",
+      "https://pubmed.ncbi.nlm.nih.gov/10564271/",
+      "https://pubmed.ncbi.nlm.nih.gov/11821395/"
+    ],
+    "actualReadDepth": "Inherited qualified original full returned abstracts and selected primary/official passages; access failures preserved in original sealed private review. No whole-paper or expert approval."
+  },
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical127Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

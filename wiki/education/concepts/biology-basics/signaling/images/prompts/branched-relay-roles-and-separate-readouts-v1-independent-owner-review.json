@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-113",
+  "owner": "wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases.md",
+  "author": "root",
+  "authorRole": "Sole canonical integration author only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "actor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Actual artwork and learner-facing creative author"
+  },
+  "artworkAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrMedicalWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "passedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "currentOwnerSha256": "8644e356c0a49818046b915ae8ad496a4965286e1ed55792d9c21ed0594c7856",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Generic membrane receptor branches to a GTP/GDP-regulated RAS switch and partner-holding scaffold. Separate kinase transfer and30-minute/site-X versus two-day count outputs do not imply universal phosphate activation or dependence.",
+    "baselinePageSHA256": "077c1dafee4e8a333d9881940683d23f523ef585d9c456310d3b63244981820c",
+    "learnerTask": "Trace a branched signaling relay while distinguishing kinases, switches and scaffolds from measured downstream effects.",
+    "gap": "The relay analogy is useful but no map shows the branching circuit or the distinction between a named phosphosite response and later cell-count response. A compact causal map would make the non-kinase RAS example and disconnected inference clearer.",
+    "accuracyGuardrails": [
+      "Do not draw every relay as a kinase or every phosphate as activating.",
+      "A generic circuit is a possible connection map, not measured wiring in every tumor.",
+      "A biochemical response does not establish growth dependence."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/42",
+  "frozenRowSHA256": "17be06664881d7ffbae5255d698effe64ab97df8223fe49f3a7db44babc6d0b6",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-light.svg",
+      "sha256": "1d250a7f03e07af14813f4c94f0622a4e57bef7ca83147394bb2a9fe092ccf6b"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-dark.svg",
+      "sha256": "e2bf2316ba86900812cd8d4a7afe7cc2c5521d243fab0e5680c1bd6d1e6622cf"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases.md",
+        "sha256": "8644e356c0a49818046b915ae8ad496a4965286e1ed55792d9c21ed0594c7856",
+        "bytes": 8969
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-light.svg",
+        "sha256": "1d250a7f03e07af14813f4c94f0622a4e57bef7ca83147394bb2a9fe092ccf6b",
+        "bytes": 7782
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/branched-relay-roles-and-separate-readouts-v1-dark.svg",
+        "sha256": "e2bf2316ba86900812cd8d4a7afe7cc2c5521d243fab0e5680c1bd6d1e6622cf",
+        "bytes": 7782
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/branched-relay-roles-and-separate-readouts-v1.txt",
+        "sha256": "d93c501086193bdf3d683bd16a0d3d3a6c48987792dddb51fb50a16161bea59b",
+        "bytes": 1734
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/branched-relay-roles-and-separate-readouts-v1-provenance.json",
+        "sha256": "4a0baf5576c5366df8bb4467d82af53ecee9f926790f48e0efb9066e857784ff",
+        "bytes": 3188
+      }
+    ]
+  },
+  "reviewLineage": {
+    "originalWholePackageReviewSHA256": "b19e1b6f3c205020e2382bb55e7e903e8c6703fdb3f39a39575486e62940762a",
+    "originalWholePackageReviewTimeUTC": "2026-10-12T23:36:07.932590+00:00",
+    "originalVerdict": "REVISE",
+    "originalReviewManifestSHA256": "204a0fc5af483665bc5ca992c9fd2020c2b45c5c2ae592059f162d5d0f943fd7",
+    "originalReviewSealSHA256": "d90869d4959bdd499d93b7e85c47918809b5c47bab40173404c97e76788c1233",
+    "originalAuthorHandoffSHA256": "d1f39bd79067a3c8b6a54fbf072c88cf52da2b3502caef86fd5a632a2e6671f3",
+    "originalAuthorSealSHA256": "aca09e7ef76aec0b70823a0a6d753eed50399e7d46b2ddeedb2c0ae86c40a339",
+    "correctionAuthorHandoffSHA256": "f8ccc6010f33aeb32e1172543bde9fabe5178a1a044575d2ba80e386961525c6",
+    "correctionAuthorManifestSHA256": "b03a871e415aa14370c344952c760b5c0c4fb7921fb0f0b115911092e8330b56",
+    "correctionAuthorSealSHA256": "58d010eb137163e14b32d40374a46aecb397479976af52de7816dc6867bb0929",
+    "correctionReviewSHA256": "e345af8b72444a2cb1a51a7e3fb0f7f7e1618e3fcdb10ecf2784095a791debe0",
+    "correctionReviewTimeUTC": "2026-10-12T23:44:52.362959+00:00",
+    "basis": "Original complete independent scientific/visual review plus actual correction-only recheck; no grades derived from hash comparison alone",
+    "originalScientificTaskFit": "PASS",
+    "originalVisualTaskFit": "PASS",
+    "currentVisualTaskFit": "PASS",
+    "newFullMedicalOrPixelReview": false
+  },
+  "sourceReview": {
+    "inherited": true,
+    "newSourceLookups": 0,
+    "sourceURLs": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK9870/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK9923/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK26813/",
+      "https://pubmed.ncbi.nlm.nih.gov/16777603/"
+    ],
+    "actualReadDepth": "Inherited qualified original full returned abstracts and selected primary/official passages; access failures preserved in original sealed private review. No whole-paper or expert approval."
+  },
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical127Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

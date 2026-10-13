@@ -36,6 +36,12 @@ Ordinary grayscale imaging describes structures. **Doppler ultrasound** uses fre
 
 A radiologist considers several features together: shape, orientation, margins, internal echoes and behavior of sound behind a finding. Ultrasound can help distinguish a simple fluid-filled cyst from a solid or complex finding. “Solid” does not mean malignant, and not every fluid-containing finding is a simple cyst.
 
+<img src="./images/ultrasound-echo-timing-and-plane-v1-light.svg" alt="A fictional ultrasound probe sends and receives sound at two tissue boundaries; earlier and later echo returns map to shallow and deep image boundaries within one selected plane." width="780" height="1320" data-theme-pair>
+
+*At an assumed common sound speed, return time helps locate a boundary; echo strength helps form the image. Boundary shapes and surrounding tissue are schematic, and a selected plane supplies neither histology nor a whole-body census.*
+
+[Open the light diagram](./images/ultrasound-echo-timing-and-plane-v1-light.svg) · [Open the dark diagram](./images/ultrasound-echo-timing-and-plane-v1-dark.svg)
+
 ## Why it matters in cancer
 
 Ultrasound can examine a focal breast finding, look at selected nearby [lymph nodes](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla), and guide a needle toward a visible target. During an ultrasound-guided [core needle biopsy](/wiki/education/concepts/measurement/specimens/core-needle-biopsy), the image guides sampling; the sampled tissue supplies a different kind of evidence.
@@ -60,6 +66,8 @@ Probe angle, compression, settings and the chosen boundary can affect a measurem
 - **A smaller diameter versus pathological response:** geometry and removed-tissue findings answer different questions.
 
 ## Try it
+
+In the echo picture, which return maps to the deeper boundary? **Answer:** The later return, under the common sound-speed assumption. That location does not identify a cell type or establish what lies outside the selected plane.
 
 In a fictional comparison, a finding is measured as 18 mm in one plane and 15 mm at the next visit. A colleague says, “Exactly one-sixth of the cancer cells have disappeared.” What would you keep and what would you question?
 

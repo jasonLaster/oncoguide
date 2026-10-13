@@ -1,0 +1,9 @@
+Original code-generated native SVG construction brief. Image-model calls:0. Scientific-model executions:0.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/265
+Learner task: Apply baseline versus nadir with findings outside the target sum
+Exact guardrails: Preserve baseline versus nadir and the exact target-sum units, with non-target/new-lesion assessment separate. Do not turn a plotted target sum alone into patient-level RECIST/iRECIST status or automatic permission to continue treatment.
+
+Plot exact original target-sum100→60→73mm on a linear zero-based mm axis. Visits have no invented dates or asserted equal elapsed intervals. Show baseline calculation(73−100)/100=−27%, nadir calculation(73−60)/60≈+21.7% and absoluteincrease13mm. The original assumptions are comparable measurements, no new lesions and no non-target progression. Target-lesion RECIST1.1PD arithmetic≥20% and≥5mm is met, but the plotted sum alone is not overall patient RECIST/iRECIST status or permission to continue treatment. Keep outside-sum findings and protocol-specific context visible.
+
+Use a restrained warm friendly cartoon palette, rounded panels and original shapes. Native780-unit width; essential labels37or larger; height≤1360 for roughly16px at393×700 unchanged default theater. Light/dark pairs retain exact geometry/counts/text. Save this exact original construction brief; no invented model IDs, tool calls or approval. Private scripts, source bodies, source/read receipts and render fixtures are private aids outside prospective public payload. Independent scientific/creative, human-expert and learner review remain pending.

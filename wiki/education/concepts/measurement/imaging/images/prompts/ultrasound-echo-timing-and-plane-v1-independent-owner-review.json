@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-122",
+  "owner": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+  "currentOwnerSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+  "author": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "authorRole": "original scientific and creative author; code-generated SVG producer",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-12T23:35:08.399Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/261",
+  "frozenRowSHA256": "a5fac6e5abe4231fb19cfb83df64b775e86badbdc5ec7a5176172fe9ca12d943",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "3464758c9568a48bf17a29e8e907688968621454c78d33ed2cfad5aceea3ad29",
+    "learnerTask": "Connect echo timing and tissue boundaries to a selected image plane",
+    "gap": "No probe/echo/image-plane schematic",
+    "accuracyGuardrails": "Show a selected probe/image plane and echo-derived signal schematically. Ultrasound boundaries are not histology or a whole-body census; a negative sampled view does not prove absence of disease.",
+    "reasoning": "The probe and coupling layer, outgoing sound and two returning boundary echoes lead to an earlier/shallow and later/deep trace and a selected image plane. Equal pulse heights carry no pathology or numerical depth inference; depth ordering assumes common sound speed. The elsewhere question and preserved limitations keep a sampled view separate from histology or total disease coverage. The original 18 mm versus 15 mm practice is intact and does not imply an equivalent loss of viable cells."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+      "sha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "sha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+        "sha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+        "sha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+        "sha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/ultrasound-echo-timing-and-plane-v1.txt",
+        "sha256": "dc5ea18cb65a327cee39bf07a8eff1887ad4b6036596541de3819ad9fc0f4b21"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/ultrasound-echo-timing-and-plane-v1.json",
+        "sha256": "a7f9be3f4f5080d002087d07f01e77b9e4859dcd27a6341f7b823ee11de2c8aa"
+      }
+    ],
+    "originalLessonExactlyPreserved": true,
+    "pairGeometryCountsAndTextIdentical": true
+  },
+  "visualReview": {
+    "nativeLightDarkPersonallyInspected": true,
+    "mobileInlineWithCaptionPersonallyInspected": true,
+    "desktopAndMobileDefaultPreviewsPersonallyInspected": true,
+    "mobileViewport": [
+      393,
+      700
+    ],
+    "desktopViewport": [
+      1280,
+      700
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "conditionalThemeAndEscapeVerified": true,
+    "minimumInlineLabelPx": 16.365384615384617,
+    "minimumDefaultPreviewLabelPx": 16.365384615384613,
+    "scope": "Private rebuilt fixture with actual copied pinned React viewer, full shared theme/styles and reset; no production routing/API/live certification."
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "canonicalAdoption": "pending",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/286",
+  "learnerTask": "Locate morphology in a represented tissue section rather than a molecular census",
+  "accuracyGuardrails": "Show represented section morphology and architecture with sampling-depth limits. Stain intensity and cell appearance are not molecule counts, complete tissue coverage or a stand-alone molecular assay.",
+  "creationMethod": "Original code-generated native SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecutions": 0,
+  "creationCommit": null,
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "ownerPreimageSHA256": "dd01ceb5391fd62cb6f9d9a15b2edcb906adc7b9eea7dc33d659e4c073053910",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/h-and-e-section-shapes-and-setting-v1.txt",
+    "sha256": "8ac1af3651cc4ca0511c5c149bb405b6573bf3d4615af9510e080cf248c1a0f7"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+      "sha256": "3b2b2b6cb0a9231def57c14cc7c82d8e280d555b5ebdfcabd2bf7563d51436be",
+      "bytes": 7020,
+      "nativeWidth": 780,
+      "nativeHeight": 1330,
+      "format": "SVG"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+      "sha256": "cb1eb9491aa7805d361aefd4b6552cbead916a5579c75342b15940c54cb9bb3b",
+      "bytes": 7020,
+      "nativeWidth": 780,
+      "nativeHeight": 1330,
+      "format": "SVG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=21356829,35857659&retmode=xml",
+      "readDepth": "complete primary abstract for PMID21356829",
+      "sectionsRead": "Fischer: Hematoxylin and eosin staining of tissue and cell sections, complete abstract",
+      "supports": "Blue-purple nuclear/nucleic-acid and broad pink protein/cytoplasm/matrix staining supports morphology, not a named molecule census.",
+      "limits": "Abstract only, not full staining protocol or validation. No microscopy classification was executed."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "readDepth": "selected official sections",
+      "sectionsRead": "Pathology report introduction and microscopic-description section",
+      "supports": "Cell shapes and architecture require represented tissue and interpretive context.",
+      "limits": "No full diagnostic-method review; no invasion, viability or receptor result assigned."
+    }
+  ],
+  "scope": "Teaching fiction; no real scan/slide/model execution, diagnosis, clinical eligibility or benefit claim. Exact original examples and existing source/review metadata preserved.",
+  "privateAids": "Source bodies, access/read-depth receipts, copied renderer, scripts and QA captures remain private and are excluded from prospective public payload.",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

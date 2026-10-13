@@ -28,6 +28,11 @@ Holding an ingredient and transforming it are different jobs. A molecular partne
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/reversible-binding-catalysis-and-half-occupancy-v1-light.svg" width="760" height="1320" alt="An unchanged ligand reversibly binds a partner, a separate enzyme sketch converts a bonded substrate into products, and five occupied schematic sites out of ten illustrate half occupancy under explicit free-ligand assumptions without a cell-death claim." data-theme-pair>
+<p class="cartoon-caption">The ligand stays unchanged when it binds and releases; the separate catalytic sketch changes a substrate bond and reuses the enzyme. Kd is the dissociation constant and nM means nanomolar. Under the stated one-site equilibrium assumptions, free ligand 10 nM and Kd 10 nM predict one-half occupancy. Five of ten illustrated sites visualize that fraction, not an exact observed sample or cell deaths. Binding, Km and IC50 remain different quantities.</p>
+</div>
+
 **Catalysis** speeds a chemical reaction by lowering its activation barrier. The catalyst is regenerated through the reaction cycle; it does not supply an unlimited energy source. Many enzymes are proteins, while some RNAs also catalyze reactions. An enzyme's **active site** brings relevant groups together for chemistry. Other binding sites can influence its behavior. [Protein function](https://www.ncbi.nlm.nih.gov/books/NBK26911/).
 
 **Affinity** describes an interaction's binding strength under specified conditions. **Specificity** concerns which partners or substrates are favored. A molecule can bind one partner tightly while also binding others. Tight binding alone therefore does not establish tumor selectivity.

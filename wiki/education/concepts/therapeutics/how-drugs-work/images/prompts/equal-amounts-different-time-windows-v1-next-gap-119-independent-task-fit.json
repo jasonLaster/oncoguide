@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-119",
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+  "author": "root",
+  "authorRole": "Prospective canonical integration role only, not medical teaching or artwork production; exact identity binding requires actual127 adoption.",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-12T23:40:23.418Z",
+  "reviewedAtLocal": "2026-10-12T16:40:23.418-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "7626751684091f6fae07202e5f9ac743cbc63ba8bff8312f0da6bdfa30945bcf",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+      "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d",
+      "bytes": 6591
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+      "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905",
+      "bytes": 6591
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "b36bd080b2eba3e2083c2c9f73673a379c2cac8bdf0a583206954c1dea2dd48c",
+    "learnerTask": "Compare per-dose, cumulative and per-time amounts with explicit windows",
+    "gap": "Units table cannot show equal totals on different schedules",
+    "accuracyGuardrails": "Fictional units/reference; final-cycle window declared; intensity not benefit probability",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Four ten-unit administrations of one fictional drug/formulation retain equal per-dose10 and cumulative40 arbitrary units. One common week axis and explicit windows including nominal final intervals give40/4=10 and40/8=5 units/week; B/A=50% intensity. No endpoint dose is added, and the ratio is neither exposure nor benefit probability. The original separate80% exercise remains preserved. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/349",
+    "originalTaskRowSHA256": "68bbf09dcd63266b423849a5dc4d83b431dab3bb8e0f1ad3b5a1f61bf55ae66a",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+        "sha256": "7626751684091f6fae07202e5f9ac743cbc63ba8bff8312f0da6bdfa30945bcf",
+        "bytes": 7895
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+        "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d",
+        "bytes": 6591
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+        "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905",
+        "bytes": 6591
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1.txt",
+        "sha256": "c469e43f35d1f0c5396ca473806a270fc1a8851fbd45ac2d878bacbc0872383b",
+        "bytes": 763
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1-provenance.json",
+        "sha256": "454bc02bbdd4cdcd6c95e3ff0e27b942d1aed59137f3d07240e8b29b065872de",
+        "bytes": 2802
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "FDA-dose",
+      "url": "https://www.fda.gov/media/164555/download",
+      "sourceKind": "official final guidance",
+      "actualReadDepth": "Fresh official FDA selected pages4–6: dose/dosage, scope and MTD/exposure/activity context; not full guidance.",
+      "supportsAndLimits": "Amount versus schedule; dosage optimization considers exposure, activity, safety and tolerability.",
+      "accessLimits": "Not a dose-intensity calculation standard or personal dose recommendation. Explicit scope exclusions for certain modalities, pediatric and first-in-human development retained as limits. No full-guidance reading claim."
+    },
+    {
+      "source": "Alberto",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:7626852%20AND%20SRC:MED&format=json&resultType=core",
+      "sourceKind": "primary review abstract",
+      "actualReadDepth": "Complete primary review abstract only; no full1995 article",
+      "supportsAndLimits": "Amount per time and relative intensity terminology; intensity does not map linearly to benefit.",
+      "accessLimits": "Abstract only; full1995 article not read. No general numeric clinical threshold adopted; the arbitrary DrugZ doses, intervals and reference are author-created."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "Fresh actual pinned client React renderer, image theater/modal and relevant wiki-shell/application CSS; original native pairs and mobile393×700/defaultpreview, desktop1280×900/defaultpreview and settled instant nested-scroll top/middle/bottom viewport captures. Explicit isolated hierarchy/runtime assumptions; no source/server-pipeline or full live-route parity claimed.",
+    "limitations": [
+      "Isolated actual React WikiMarkdownRenderer/TheaterImage/ImageTheaterModal/SmartTable with pinned wiki-shell theme, education/app CSS; no header/sidebar/auth/router/backend or maintained/live deployment.",
+      "Author carrier uses static compiled HTML/WikiMarkdownFrame/ImageTheater; independent carrier uses actual client React renderer. The source epoch is identical; server-compilation/app route parity is not claimed.",
+      "The application CSS import content is supplied locally; no general Tailwind build. Only exact hidden/dark:block/dark:hidden semantics appended; no palette, font, article or table override. External existing React/esbuild runtime dependencies are not a pinned full application build.",
+      "Desktop inline820x1367 requires actual vertical scroll. Accepted top/middle/bottom captures are actual1280x900 viewports; failed element capture explicitly excluded. Mobile inline349x582 and preview345x575; desktop preview482.4x804 fits complete image.",
+      "All12 natives,24mobile inline/defaultpreview,12desktopdefaultpreview and36validdesktopscroll views personally inspected. Actual text bounding boxes remain within600x1000 viewBox. Visual contrast/readability only; no WCAG or colour-vision certification.",
+      "Escape closed all24 previews; no broad keyboard/download/table-overlay/focus restoration approval. Existing tables were inventoried but not accepted as fully readable or tested interactively.",
+      "Science/source depth, example arithmetic/model appropriateness and learner/human acceptance remain separate reviewer scopes. No new clinical claims, source grades, publication or registry changes."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective115–120 only; no127 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

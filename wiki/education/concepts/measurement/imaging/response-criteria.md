@@ -69,6 +69,12 @@ Record the framework and version, selected lesions, baseline sum, nadir, current
 
 ## Try it
 
+<img src="./images/response-baseline-nadir-and-outside-sum-v1-light.svg" alt="The exact fictional target sums 100, 60 and 73 mm are plotted on a zero-based scale, with separate calculations from baseline and nadir and original assumptions for findings outside the sum." width="780" height="1360" data-theme-pair>
+
+*The final 73 mm is 27% below baseline but 13 mm, about 21.7%, above the 60 mm nadir. RECIST 1.1 target-progression arithmetic uses nadir and requires both the relative and absolute increase. The original exercise assumes comparable measurements, no new lesions and no non-target progression; overall/iRECIST assessment and treatment decisions remain separate.*
+
+[Open the light diagram](./images/response-baseline-nadir-and-outside-sum-v1-light.svg) · [Open the dark diagram](./images/response-baseline-nadir-and-outside-sum-v1-dark.svg)
+
 In a fictional trial, the target sum starts at 100 mm, falls to 60 mm, then rises to 73 mm. Assume comparable measurements, no new lesions and no non-target progression. Is “still 27% below baseline” enough to rule out target-lesion PD?
 
 **Answer:** No. The rise from the nadir is 13 mm, or 13/60 ≈ 21.7%. It meets both the 20% relative and 5 mm absolute RECIST target-progression requirements. This arithmetic illustrates classification; it supplies no treatment decision. A different question—PR—would use baseline.

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceOwnerPreimageSHA256": "9763d876a7b42b3107e19be14322b241e0e8bde182f11707b94895899d375305",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "base-links-versus-backbone-break-v1.txt",
+    "sha256": "97d5e9ae2952f4260029c079a9c5935e60f9c21cfd3a534e7ba2f5d1be1c5d7c",
+    "bytes": 835,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "base-links-versus-backbone-break-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa",
+      "bytes": 18222
+    },
+    {
+      "file": "base-links-versus-backbone-break-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33",
+      "bytes": 18222
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "The Platinum Story: From Imagination to a New Anticancer Drug",
+      "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf",
+      "scope": "Historical author narrative of cited experiments, not a newly read primary trial; no full-book, atom geometry, lesion-frequency distribution or clinical-regimen ranking claim."
+    },
+    {
+      "title": "Definition of cisplatin - NCI Drug Dictionary",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cisplatin",
+      "scope": "Definition only; no mechanism-to-personal-response guarantee or comparative efficacy/toxicity ranking. Cyclophosphamide activation pathway not reconstructed in the art."
+    },
+    {
+      "title": "Definition of carboplatin - NCI Drug Dictionary",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/carboplatin",
+      "scope": "Definition only; no mechanism-to-personal-response guarantee or comparative efficacy/toxicity ranking. Cyclophosphamide activation pathway not reconstructed in the art."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

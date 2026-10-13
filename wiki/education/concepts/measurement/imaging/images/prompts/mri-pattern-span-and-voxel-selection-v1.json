@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/260",
+  "learnerTask": "Distinguish enhancement pattern, span and rule-selected voxel volume",
+  "accuracyGuardrails": "Separate enhancement, normal background enhancement, non-mass pattern/span and method-selected functional tumor volume. Length and voxel volume are different units; enhancement is not histology, viable-cell count or guaranteed absence/presence of cancer.",
+  "creationMethod": "Original code-generated native SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecutions": 0,
+  "creationCommit": null,
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "ownerPreimageSHA256": "508a90e56a2afc1a3984cdda08f2ae3cb9a02425994f2f151e6f29dc0d5a1119",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/imaging/images/prompts/mri-pattern-span-and-voxel-selection-v1.txt",
+    "sha256": "3a88e5f926063f3a41de64a297a33dcd82ea3d57fe32f82302d4f0d6ad11d1b2"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece",
+      "bytes": 8642,
+      "nativeWidth": 780,
+      "nativeHeight": 1360,
+      "format": "SVG"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186",
+      "bytes": 8642,
+      "nativeWidth": 780,
+      "nativeHeight": 1360,
+      "format": "SVG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.radiologyinfo.org/en/info/breastmr",
+      "readDepth": "selected official explanation",
+      "sectionsRead": "What is breast MRI; contrast/acquisition passages",
+      "supports": "MRI uses magnetic fields/radiofrequency; contrast-dependent images can describe tissue behavior.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5831266/",
+      "readDepth": "selected primary abstract and Introduction",
+      "sectionsRead": "Abstract excerpts; Introduction defining normal background parenchymal enhancement",
+      "supports": "BPE is background normal-tissue enhancement, separate from tumor amount.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    },
+    {
+      "url": "https://www.uclahealth.org/departments/radiology/education/breast-imaging-teaching-resources/birads/breast-mri-findings-non-mass-enhancement-nme",
+      "readDepth": "selected official academic teaching passages",
+      "sectionsRead": "NME definition; distribution and internal-pattern categories; overlapping benign/high-risk/malignant outcomes",
+      "supports": "Non-mass pattern is distinguishable from BPE but is not histology.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5214452/",
+      "readDepth": "selected primary abstract and image-analysis Methods",
+      "sectionsRead": "Abstract; ROI definition; Figure2 caption and image-analysis voxel-summing paragraph",
+      "supports": "FTV sums selected voxel volumes under ROI/enhancement/connectedness rules.",
+      "limits": "No full-paper or predictive-performance appraisal; the symbolic grid supplies neither voxel size nor a reconstruction of the exact0.6mL."
+    }
+  ],
+  "scope": "Teaching fiction; no real scan/slide/model execution, diagnosis, clinical eligibility or benefit claim. Exact original examples and existing source/review metadata preserved.",
+  "privateAids": "Source bodies, access/read-depth receipts, copied renderer, scripts and QA captures remain private and are excluded from prospective public payload.",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

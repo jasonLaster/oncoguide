@@ -39,6 +39,12 @@ A thin tissue section is stained and examined by light microscopy, or scanned fo
 
 For a breast lesion, assessing [[wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane|duct boundaries and their supporting layers]] can help distinguish in-situ from invasive growth where the relevant interface is represented. Difficult questions may need additional stains and clinical information. The color of one pixel or the size of one nucleus cannot make the whole diagnosis.
 
+<img src="./images/h-and-e-section-shapes-and-setting-v1-light.svg" alt="A fictional tissue block yields one selected section showing a cell cluster and surrounding matrix, with blue-purple nuclei and pink broad tissue staining rather than a named molecule count." width="780" height="1330" data-theme-pair>
+
+*H&E shows represented cell forms and architecture. Blue-purple and pink are broad stain classes, with simplified colors here; the picture does not diagnose the cells, quantify a named molecule or represent all nearby tissue. A different depth can contain a different mixture.*
+
+[Open the light diagram](./images/h-and-e-section-shapes-and-setting-v1-light.svg) · [Open the dark diagram](./images/h-and-e-section-shapes-and-setting-v1-dark.svg)
+
 ```mermaid
 flowchart TD
     A[Thin tissue section] --> B[Hematoxylin and eosin stains]
@@ -74,6 +80,8 @@ A nearby section used for another assay may contain a different mixture because 
 - Predicting an RNA profile from H&E is computational inference, not directly sequencing that section's RNA.
 
 ## Try it
+
+What does the cluster’s pink setting reveal, and what remains unmeasured? **Answer:** It shows a represented architectural setting under broad H&E staining. It does not identify receptor R or count its molecules, and tissue outside this section remains unsampled by the picture.
 
 A fictional H&E slide shows tumor nests surrounded by pink material. A learner says, “The pink stain proves that the tumor expresses receptor R.” What test distinction was missed?
 

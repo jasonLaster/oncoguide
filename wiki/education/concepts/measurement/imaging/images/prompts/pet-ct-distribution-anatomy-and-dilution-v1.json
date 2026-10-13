@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "status": "private candidate; independent review pending",
+  "owner": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/264",
+  "learnerTask": "Separate tracer distribution, CT anatomy and small-lesion dilution",
+  "accuracyGuardrails": "Match the tracer and separate PET distribution from CT anatomy. Partial-volume dilution and normal/inflammatory uptake affect interpretation; brightness is not a cancer-specific or viable-cell census.",
+  "creationMethod": "Original code-generated native SVG",
+  "imageModelCalls": 0,
+  "imageModel": null,
+  "imageModelCallRecords": [],
+  "scientificModelExecutions": 0,
+  "creationCommit": null,
+  "sourceBaseCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "ownerPreimageSHA256": "8a2df7287dfeee8d70a32635fb60c758cafe065d5a1d00cb978d466b9d0a13d7",
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/imaging/images/prompts/pet-ct-distribution-anatomy-and-dilution-v1.txt",
+    "sha256": "e3932e6e1bead09a1016fae1a188c2bcabba145f2dc5676134b81694b1e75621"
+  },
+  "themes": {
+    "light": {
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "sha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531",
+      "bytes": 10580,
+      "nativeWidth": 780,
+      "nativeHeight": 1340,
+      "format": "SVG"
+    },
+    "dark": {
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "sha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7",
+      "bytes": 10580,
+      "nativeWidth": 780,
+      "nativeHeight": 1340,
+      "format": "SVG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.nibib.nih.gov/science-education/science-topics/nuclear-medicine",
+      "readDepth": "selected official explanation",
+      "sectionsRead": "Radiopharmaceutical choice and integrated PET/CT introductory context",
+      "supports": "The administered tracer and CT anatomy contribute different evidence.",
+      "limits": "No new modality performance estimate or protocol specified."
+    },
+    {
+      "url": "https://www.radiologyinfo.org/en/info/pet",
+      "readDepth": "selected official explanation",
+      "sectionsRead": "PET/CT definition, FDG/tracer distribution, inflammation and CT anatomical information",
+      "supports": "Named FDG distribution can reflect normal/inflammatory/malignant sources; CT describes anatomy.",
+      "limits": "Selected passages only; no full-paper or full-guideline review claimed."
+    },
+    {
+      "url": "https://snmmi.org/common/Uploaded%20files/Web/Clinical%20Practice/Procedure%20Standards/2018/2015_GL_PET_CT_TumorImaging_V2.pdf",
+      "readDepth": "selected official guideline passages",
+      "sectionsRead": "CT localization/attenuation correction definitions; small-lesion partial-volume and inflammatory confounding in reporting; detection-contrast limits",
+      "supports": "Small-lesion resolution and inflammatory uptake affect interpretation.",
+      "limits": "Version2.0 technical definitions only; not claimed latest or a full-guideline appraisal."
+    },
+    {
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1605_web.pdf",
+      "readDepth": "selected official web-tool PDF passages",
+      "sectionsRead": "Section6.4, printed p43, PDF index54: spatial blurring, object-size/background dependence, spill-out/spill-in",
+      "supports": "Finite resolution can spread signal and change apparent concentration.",
+      "limits": "Direct HTTP download403; web text passages were accessible and read. No local full PDF, calibrated uptake values, numerical bias claims or executed correction model."
+    }
+  ],
+  "scope": "Teaching fiction; no real scan/slide/model execution, diagnosis, clinical eligibility or benefit claim. Exact original examples and existing source/review metadata preserved.",
+  "privateAids": "Source bodies, access/read-depth receipts, copied renderer, scripts and QA captures remain private and are excluded from prospective public payload.",
+  "expertReview": "pending",
+  "learnerReview": "pending"
+}

@@ -1,0 +1,9 @@
+Original code-generated native SVG construction brief. Image-model calls:0. Scientific-model executions:0.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/286
+Learner task: Locate morphology in a represented tissue section rather than a molecular census
+Exact guardrails: Show represented section morphology and architecture with sampling-depth limits. Stain intensity and cell appearance are not molecule counts, complete tissue coverage or a stand-alone molecular assay.
+
+Draw an original3D tissue block with a selected thin cut and a separate fictional2D cell cluster surrounded by extracellular fibers. Use blue-purple for nuclei and pink for broad cytoplasm/matrix while keeping theme geometry identical. These are broad H&E chemistry classes with interpretation limits, not receptorR abundance, gene activation, cell viability or a diagnostic invasion map. No anatomical/myoepithelial boundary is asserted from this generic cluster. Preserve finite represented-section and nearby-depth sampling limits, not a full tissue or molecular census.
+
+Use a restrained warm friendly cartoon palette, rounded panels and original shapes. Native780-unit width; essential labels37or larger; height≤1360 for roughly16px at393×700 unchanged default theater. Light/dark pairs retain exact geometry/counts/text. Save this exact original construction brief; no invented model IDs, tool calls or approval. Private scripts, source bodies, source/read receipts and render fixtures are private aids outside prospective public payload. Independent scientific/creative, human-expert and learner review remain pending.

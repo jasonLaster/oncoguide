@@ -41,6 +41,14 @@ Medicines are more complicated than packages. Equal administered amounts can pro
 
 [Pharmacokinetics](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) asks another question: what concentration reaches a compartment over time? Organ function, metabolism, route and interactions can make the same dose produce different exposure. Neither dose intensity nor exposure is itself a clinical outcome.
 
+<img src="./images/equal-amounts-different-time-windows-v1-light.svg" alt="Four fictional 10-unit administrations over a 0-to-4-week window and four over a 0-to-8-week window have equal per-dose and cumulative amounts but intensities 10 and 5 units per week" data-theme-pair width="600" height="1000">
+
+*Equal total amounts can have different amounts per week.*
+
+Follow the vial positions on the shared week scale. Both schedules contain four administrations of 10 arbitrary units of the same fictional Drug Z and formulation. Their cumulative amounts are both 40. Here, each window includes one nominal final interval after the last administration: A runs from week 0 up to week 4, and B from week 0 up to week 8. No dose is shown at either right endpoint. This declared teaching convention makes the intensities `40/4 = 10` and `40/8 = 5` units per week. Other reporting conventions need their own definitions. [Dose-intensity definitions, primary abstract](https://pubmed.ncbi.nlm.nih.gov/7626852/), [FDA dose and dosage guidance](https://www.fda.gov/media/164555/download).
+
+**Read the quantities:** With A as the reference, what does B’s 50% mean? **Answer:** Half the delivered intensity under these windows. It does not mean half the benefit, exposure or safety. The separate 80% arithmetic exercise below retains its own reference.
+
 ## Why it matters in cancer
 
 These measures help readers compare protocol delivery with actual administration. They can clarify whether a study changed amount, timing, sequence or several features together.

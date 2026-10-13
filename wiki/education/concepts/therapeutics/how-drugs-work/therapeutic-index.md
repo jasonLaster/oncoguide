@@ -41,6 +41,16 @@ The related **therapeutic window** usually describes a range of doses or concent
 
 Formulation, tissue distribution, schedule and drug combinations can alter the relationship. A tumor assay and a normal-cell assay may also use different conditions, which can make a laboratory “margin” difficult to transfer into people.
 
+<img src="./images/dose-effect-ratio-and-defined-range-v1-light.svg" alt="Two hypothetical model-organism dose-effect curves reach 50 percent at doses 2 and 6, giving a dimensionless ratio 3; a separate zoomed dose axis shows a criterion-defined range around 2.8 to3.5 arbitrary dose units" data-theme-pair width="600" height="1000">
+
+*An index is a ratio; a window describes a range under stated effect criteria.*
+
+Read the vertical axis as the percentage of fictional experimental units from the same model-organism population meeting each specified day-14 readout after one administration of fictional Agent Q. The useful readout is a decrease of at least two points on an invented 0-to-10 symptom score; the toxic readout is an organ-injury marker at least twice its pre-dose baseline. Both rules are invented endpoint definitions. These are constructed curves, not observations or fitted clinical data. Their chosen 50% points occur at two and six compatible dose units, giving `6/2 = 3` without units. [Formal ratio definition](https://www.ncbi.nlm.nih.gov/mesh/2023303).
+
+For contrast, the lower axis zooms from two to four dose units. The arbitrarily chosen criteria—at least 80% meeting the useful readout and at most 10% meeting the toxic readout—give a range of about 2.83 to 3.46 dose units. Those criteria do not define acceptable clinical harm or a personal safe zone. Sampling uncertainty has not been estimated, and a different effect, time, population or criterion could change the range. [FDA benefit, exposure and tolerability context](https://www.fda.gov/media/164555/download).
+
+**Read the two summaries:** Is the index value 3 a dose range? **Answer:** No. It is a dimensionless ratio. The separate range keeps dose units and its selected criteria.
+
 ## Why it matters in cancer
 
 Cancer treatments often affect processes shared with normal cells. Dose selection therefore asks about activity and tolerability together. The highest tolerable dose in a short study is not automatically the best dose for long treatment.

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-111",
+  "owner": "wiki/education/concepts/biology-basics/cells/epithelial-mesenchymal-transition.md",
+  "author": "root",
+  "authorRole": "Sole canonical integration author only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "actor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Actual artwork and learner-facing creative author"
+  },
+  "artworkAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrMedicalWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "passedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "currentOwnerSha256": "624fbbc10cf96ae5789667f55745b70e7a95bb54991af5cc297b202271c7d505",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Separate contact/polarity/shape combinations include a hybrid retaining contacts. No transition arrows, marker test, malignant label, metastasis route or resistant-state ranking. Normal development/repair remain explicit.",
+    "baselinePageSHA256": "09fbf6c6b601a4c0e1535a88ee031d8755258c0d69acce7f7e850737e5950061",
+    "learnerTask": "See epithelial, hybrid and more mesenchymal properties as feature combinations, without inferring an observed transition or malignancy.",
+    "gap": "The non-arrow continuum and explicit caption avoid a compulsory trajectory and are a useful existing visual. It still represents properties only as names; small cell-shape/contact/polarity sketches would make hybrid combinations concrete for a novice.",
+    "accuracyGuardrails": [
+      "Show illustrative feature combinations, not a universal marker test, fixed trajectory, metastatic route or resistant-cell ranking; normal repair/development remain possible contexts."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/20",
+  "frozenRowSHA256": "1cfce8fed0b373d75f51ef31e948db9a6b884d05713e97113d9e61c76312fa4b",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-light.svg",
+      "sha256": "b6b0a27be54e4e731b7d90f4728e6e9aef2077dc6d5be5f5d51e88a173c594f0"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-dark.svg",
+      "sha256": "bd2dc1b8a3104b84ad127f302ec72ca7e043751a9af9381aa21085cfe23eb288"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/epithelial-mesenchymal-transition.md",
+        "sha256": "624fbbc10cf96ae5789667f55745b70e7a95bb54991af5cc297b202271c7d505",
+        "bytes": 8843
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-light.svg",
+        "sha256": "b6b0a27be54e4e731b7d90f4728e6e9aef2077dc6d5be5f5d51e88a173c594f0",
+        "bytes": 6991
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/contacts-polarity-and-hybrid-feature-combinations-v1-dark.svg",
+        "sha256": "bd2dc1b8a3104b84ad127f302ec72ca7e043751a9af9381aa21085cfe23eb288",
+        "bytes": 6991
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/prompts/contacts-polarity-and-hybrid-feature-combinations-v1.txt",
+        "sha256": "51876b21f02145849aa2cfde245d3a5161ae0eba8884beac546e0b377c7e47ba",
+        "bytes": 1562
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/cells/images/prompts/contacts-polarity-and-hybrid-feature-combinations-v1-provenance.json",
+        "sha256": "459886a3b3db3d0388bb6257cf21d2c0a928d10805630b0479d1563b7838a8d9",
+        "bytes": 3064
+      }
+    ]
+  },
+  "reviewLineage": {
+    "originalWholePackageReviewSHA256": "b19e1b6f3c205020e2382bb55e7e903e8c6703fdb3f39a39575486e62940762a",
+    "originalWholePackageReviewTimeUTC": "2026-10-12T23:36:07.932590+00:00",
+    "originalVerdict": "REVISE",
+    "originalReviewManifestSHA256": "204a0fc5af483665bc5ca992c9fd2020c2b45c5c2ae592059f162d5d0f943fd7",
+    "originalReviewSealSHA256": "d90869d4959bdd499d93b7e85c47918809b5c47bab40173404c97e76788c1233",
+    "originalAuthorHandoffSHA256": "d1f39bd79067a3c8b6a54fbf072c88cf52da2b3502caef86fd5a632a2e6671f3",
+    "originalAuthorSealSHA256": "aca09e7ef76aec0b70823a0a6d753eed50399e7d46b2ddeedb2c0ae86c40a339",
+    "correctionAuthorHandoffSHA256": "f8ccc6010f33aeb32e1172543bde9fabe5178a1a044575d2ba80e386961525c6",
+    "correctionAuthorManifestSHA256": "b03a871e415aa14370c344952c760b5c0c4fb7921fb0f0b115911092e8330b56",
+    "correctionAuthorSealSHA256": "58d010eb137163e14b32d40374a46aecb397479976af52de7816dc6867bb0929",
+    "correctionReviewSHA256": "e345af8b72444a2cb1a51a7e3fb0f7f7e1618e3fcdb10ecf2784095a791debe0",
+    "correctionReviewTimeUTC": "2026-10-12T23:44:52.362959+00:00",
+    "basis": "Original complete independent scientific/visual review plus actual correction-only recheck; no grades derived from hash comparison alone",
+    "originalScientificTaskFit": "PASS",
+    "originalVisualTaskFit": "PASS",
+    "currentVisualTaskFit": "PASS",
+    "newFullMedicalOrPixelReview": false
+  },
+  "sourceReview": {
+    "inherited": true,
+    "newSourceLookups": 0,
+    "sourceURLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7250738/",
+      "https://pubmed.ncbi.nlm.nih.gov/29670281/"
+    ],
+    "actualReadDepth": "Inherited qualified original full returned abstracts and selected primary/official passages; access failures preserved in original sealed private review. No whole-paper or expert approval."
+  },
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical127Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

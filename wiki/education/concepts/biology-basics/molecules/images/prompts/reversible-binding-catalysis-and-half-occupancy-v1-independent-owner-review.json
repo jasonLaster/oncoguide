@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-112",
+  "owner": "wiki/education/concepts/biology-basics/molecules/enzymes-and-binding.md",
+  "author": "root",
+  "authorRole": "Sole canonical integration author only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "actor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "Actual artwork and learner-facing creative author"
+  },
+  "artworkAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrMedicalWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "passedAtUTC": "2026-10-12T23:44:52.362959+00:00",
+  "currentOwnerSha256": "df8f2de37964f0def6ee573fa4e5043d8915002d28123e2d61b373f778bc3067",
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Same-radius unchanged ligand binds/releases; distinct schematic substrate bond splits into retained product glyphs. Painted five occupied sites among ten match0.5 under stated assumptions, not death; original Kd/Km/IC50 and affinity/specificity distinctions preserved.",
+    "baselinePageSHA256": "164ae910404c2c6ee6f8b13d39ed951e84fea4afa233a8be909c4209cf540a1e",
+    "learnerTask": "Separate reversible binding, catalytic transformation and a downstream cellular effect; read half occupancy without inferring death.",
+    "gap": "The current independent binding/reaction input map is scientifically useful, but both operations are represented as abstract labels. A small paired molecular schematic would show an unchanged ligand bound/released versus substrate converted to product, while the formula remains ordinary text.",
+    "accuracyGuardrails": [
+      "Do not equate Kd, Km or IC50; affinity is not selectivity, binding occupancy is not cell death, and the simple one-site/free-ligand assumptions must remain beside arithmetic."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/32",
+  "frozenRowSHA256": "9c84ae1a911bec746c8810de49cf99950c59c8de4cc2527f500b0b5210ec81af",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-light.svg",
+      "sha256": "0b64c4cd1a741dca917f3bc7e43dcc1725f77161335dc0f0f7ebb011655d4317"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-dark.svg",
+      "sha256": "b2f6660da9ad9ea6be12c6601d7c0a6a87eb90e26b3356769ec2997779befee6"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/enzymes-and-binding.md",
+        "sha256": "df8f2de37964f0def6ee573fa4e5043d8915002d28123e2d61b373f778bc3067",
+        "bytes": 7650
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-light.svg",
+        "sha256": "0b64c4cd1a741dca917f3bc7e43dcc1725f77161335dc0f0f7ebb011655d4317",
+        "bytes": 9010
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-dark.svg",
+        "sha256": "b2f6660da9ad9ea6be12c6601d7c0a6a87eb90e26b3356769ec2997779befee6",
+        "bytes": 9010
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/reversible-binding-catalysis-and-half-occupancy-v1.txt",
+        "sha256": "fab08d29fdb8c44a317cf0a0b66d44469f7dcc0877deb483bd80f8700aade4f5",
+        "bytes": 1717
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/reversible-binding-catalysis-and-half-occupancy-v1-provenance.json",
+        "sha256": "870b08b096da4762428526bb812d1508781f93ebc5c86e6cf43610ac62d9241d",
+        "bytes": 3184
+      }
+    ]
+  },
+  "reviewLineage": {
+    "originalWholePackageReviewSHA256": "b19e1b6f3c205020e2382bb55e7e903e8c6703fdb3f39a39575486e62940762a",
+    "originalWholePackageReviewTimeUTC": "2026-10-12T23:36:07.932590+00:00",
+    "originalVerdict": "REVISE",
+    "originalReviewManifestSHA256": "204a0fc5af483665bc5ca992c9fd2020c2b45c5c2ae592059f162d5d0f943fd7",
+    "originalReviewSealSHA256": "d90869d4959bdd499d93b7e85c47918809b5c47bab40173404c97e76788c1233",
+    "originalAuthorHandoffSHA256": "d1f39bd79067a3c8b6a54fbf072c88cf52da2b3502caef86fd5a632a2e6671f3",
+    "originalAuthorSealSHA256": "aca09e7ef76aec0b70823a0a6d753eed50399e7d46b2ddeedb2c0ae86c40a339",
+    "correctionAuthorHandoffSHA256": "f8ccc6010f33aeb32e1172543bde9fabe5178a1a044575d2ba80e386961525c6",
+    "correctionAuthorManifestSHA256": "b03a871e415aa14370c344952c760b5c0c4fb7921fb0f0b115911092e8330b56",
+    "correctionAuthorSealSHA256": "58d010eb137163e14b32d40374a46aecb397479976af52de7816dc6867bb0929",
+    "correctionReviewSHA256": "e345af8b72444a2cb1a51a7e3fb0f7f7e1618e3fcdb10ecf2784095a791debe0",
+    "correctionReviewTimeUTC": "2026-10-12T23:44:52.362959+00:00",
+    "basis": "Original complete independent scientific/visual review plus actual correction-only recheck; no grades derived from hash comparison alone",
+    "originalScientificTaskFit": "PASS",
+    "originalVisualTaskFit": "PASS",
+    "currentVisualTaskFit": "PASS",
+    "newFullMedicalOrPixelReview": false
+  },
+  "sourceReview": {
+    "inherited": true,
+    "newSourceLookups": 0,
+    "sourceURLs": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK26911/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6708923/",
+      "https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_one_site_specific.htm"
+    ],
+    "actualReadDepth": "Inherited qualified original full returned abstracts and selected primary/official passages; access failures preserved in original sealed private review. No whole-paper or expert approval."
+  },
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical127Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

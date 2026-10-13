@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">ER sensors lead to different molecular readouts</title><desc id="desc">Three ER-spanning sensors lead to different outputs: IRE1 toward XBP1 RNA splice forms, PERK toward a phosphate on eIF2α, and ATF6 through Golgi cleavage to a released fragment in the nucleus, with compartment boundaries shown. The unfolded protein response (UPR) includes distinct sensors in the endoplasmic reticulum (ER). The sketches separate IRE1-associated XBP1 RNA processing, PERK-associated eIF2α phosphorylation, and ATF6 transport to Golgi processing followed by nuclear entry of a released fragment. RNA segments and molecular shapes are schematic. Total XBP1 is not its splice-form fraction, other kinases can phosphorylate eIF2α, and one branch does not establish the whole response, cell death or dependency.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker></defs><rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">Three sensors; three kinds of output</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Selected UPR branches</text>
+<text x="48" y="169" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">ER lumen</text>
+<text x="242" y="169" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Cytosol</text>
+<rect x="179" y="195" width="21" height="927" rx="3" fill="#d9c29b" stroke="#293743" stroke-width="2" />
+<path d="M48 238 q5.6 -10.5 11.2 0 t11.2 0 t11.2 0" fill="none" stroke="#806a9c" stroke-width="2.0999999999999996" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M48 510 q5.6 -10.5 11.2 0 t11.2 0 t11.2 0" fill="none" stroke="#806a9c" stroke-width="2.0999999999999996" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M48 550 q5.6 -10.5 11.2 0 t11.2 0 t11.2 0" fill="none" stroke="#806a9c" stroke-width="2.0999999999999996" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M48 880 q5.6 -10.5 11.2 0 t11.2 0 t11.2 0" fill="none" stroke="#806a9c" stroke-width="2.0999999999999996" stroke-linecap="round" stroke-linejoin="round" />
+<text x="48" y="1212" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Folding</text>
+<text x="48" y="1257" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">load</text>
+<rect x="178" y="272" width="24" height="109" rx="8" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="169" cy="313" r="29" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="211" cy="346" r="24" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<text x="82" y="443" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">IRE1</text>
+<path d="M249 349 L327 349" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="270" y="254" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">RNA processing</text>
+<text x="340" y="322" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">XBP1u</text>
+<text x="563" y="322" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">XBP1s</text>
+<path d="M340 366 L552 366" fill="none" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="340" y="352" width="64" height="28" rx="3" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<rect x="414" y="352" width="64" height="28" rx="3" fill="#976729" stroke="#293743" stroke-width="2" />
+<rect x="488" y="352" width="64" height="28" rx="3" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<path d="M565 366 L703 366" fill="none" stroke="#293743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="565" y="352" width="64" height="28" rx="3" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<rect x="639" y="352" width="64" height="28" rx="3" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<path d="M405 393 Q475 450 566 393" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="308" y="476" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Splice form ≠ total XBP1</text>
+<rect x="178" y="602" width="24" height="109" rx="8" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="169" cy="643" r="29" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="211" cy="676" r="24" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<text x="48" y="773" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">PERK</text>
+<path d="M249 678 L391 678" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="270" y="578" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Phosphorylation</text>
+<g transform="translate(500 683) scale(0.74)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#4f7999" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<circle cx="551" cy="662" r="24" fill="#976729" stroke="#293743" stroke-width="2" />
+<text x="551" y="675" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">P</text>
+<text x="446" y="788" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">eIF2α</text>
+<text x="270" y="833" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Other kinases can also</text>
+<text x="270" y="878" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">phosphorylate eIF2α.</text>
+<rect x="178" y="943" width="24" height="109" rx="8" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="169" cy="984" r="29" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="211" cy="1017" r="24" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<text x="82" y="1114" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">ATF6</text>
+<path d="M251 999 L320 999" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="276" y="925" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Traffic and cleavage</text>
+<path d="M349 972 Q395 948 439 972" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M349 994 Q395 970 439 994" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M349 1016 Q395 992 439 1016" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="391" y="965" width="15" height="62" rx="4" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="412" cy="1004" r="13" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<text x="361" y="1103" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Golgi</text>
+<path d="M459 1002 L546 1002" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<ellipse cx="640" cy="1007" rx="63" ry="67" fill="#e8e0d3" stroke="#293743" stroke-width="2" />
+<circle cx="627" cy="1007" r="16" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<text x="584" y="1103" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Nucleus</text>
+<text x="250" y="1146" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Released fragment;</text>
+<text x="250" y="1191" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">full-length stays anchored.</text>
+<text x="250" y="1246" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">One branch ≠ whole UPR</text>
+<text x="38" y="1300" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">A stress response does not prove death.</text>
+</svg>

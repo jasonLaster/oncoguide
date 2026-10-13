@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+  "privateProspectiveTaskId": "next-gap-110",
+  "canonicalAdoption": "pending",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/19",
+  "frozenRowPointer": "/19",
+  "frozenRowSHA256": "db3b17bb6b34b4867a37c329e1bf89714743be12b119832c193799cdbc8cc12d",
+  "originalFrozenTask": {
+    "learnerTask": "Separate developmental ancestry, broad cell identity and reversible activity state from genetic tumor-clone relationships.",
+    "gap": "The three-question Mermaid and caption name the axes, but its sequential boxes do not show one cell family/clone containing cycling and noncycling states or why an RNA cluster cannot reconstruct ancestry.",
+    "accuracyGuardrails": [
+      "Use explicitly fictional cells with independently labeled lineage, clone and state; avoid a developmental trajectory inferred from markers or a claim of permanent commitment."
+    ]
+  },
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "baselinePageSHA256": "a7f7d89798511fbb543c593d2ba0d55cb14dc18b13790cdfc8d45afe40c628b9",
+  "construction": "Original code-generated SVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "generator": "private/construct.py",
+  "generatorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+  "generatorCustody": "Original generator privately retained, not publicly delivered; editable SVG without an executable reproduction-package promise.",
+  "briefSHA256": "ab82d1037bf6655c47c1c7bd56e9bb2a87ed725c4734e9dc88fafa033d846554",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-light.svg",
+      "theme": "light",
+      "sha256": "5d5ad085a85139e37479de93ac43d62acbfe7d8e7d6f3ae4ed0eeab32ea21fe2",
+      "bytes": 6484,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/lineage-family-clone-and-state-labels-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "8ead5fccba36e1841c4f96ba3fd4427e20df30006789639f6f321fcc1da190f1",
+      "bytes": 6484,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.nigms.nih.gov/biobeat/2024/11/what-are-stem-cells",
+    "https://pubmed.ncbi.nlm.nih.gov/31974159/",
+    "https://pubmed.ncbi.nlm.nih.gov/37380767/",
+    "https://pubmed.ncbi.nlm.nih.gov/34493872/"
+  ],
+  "sourceDepth": "Actual primary abstracts and selected primary/official passages; exact per-owner private lookup/depth/failure/custody receipts. No whole-paper/clinical/scientific approval implied.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Exact shared geometry and wording, palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}

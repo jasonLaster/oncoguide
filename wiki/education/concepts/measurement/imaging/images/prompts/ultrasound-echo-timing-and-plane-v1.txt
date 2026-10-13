@@ -1,0 +1,9 @@
+Original code-generated native SVG construction brief. Image-model calls:0. Scientific-model executions:0.
+
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/261
+Learner task: Connect echo timing and tissue boundaries to a selected image plane
+Exact guardrails: Show a selected probe/image plane and echo-derived signal schematically. Ultrasound boundaries are not histology or a whole-body census; a negative sampled view does not prove absence of disease.
+
+Create an original probe, coupling-gel layer, tissue slab with two boundaries, outgoing and returning arrows, return-time trace and selected-plane echo image. Earlier return corresponds to shallower boundary and later return to deeper boundary under common assumed speed; no numerical depths/times or cancer inference from amplitude. This is one selected2D plane, not coverage of all surrounding tissue. Show both echo-derived boundaries and the unobserved region explicitly.
+
+Use a restrained warm friendly cartoon palette, rounded panels and original shapes. Native780-unit width; essential labels37or larger; height≤1360 for roughly16px at393×700 unchanged default theater. Light/dark pairs retain exact geometry/counts/text. Save this exact original construction brief; no invented model IDs, tool calls or approval. Private scripts, source bodies, source/read receipts and render fixtures are private aids outside prospective public payload. Independent scientific/creative, human-expert and learner review remain pending.

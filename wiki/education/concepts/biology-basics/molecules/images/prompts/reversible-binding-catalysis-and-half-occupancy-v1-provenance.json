@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/molecules/enzymes-and-binding.md",
+  "privateProspectiveTaskId": "next-gap-112",
+  "canonicalAdoption": "pending",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/32",
+  "frozenRowPointer": "/32",
+  "frozenRowSHA256": "9c84ae1a911bec746c8810de49cf99950c59c8de4cc2527f500b0b5210ec81af",
+  "originalFrozenTask": {
+    "learnerTask": "Separate reversible binding, catalytic transformation and a downstream cellular effect; read half occupancy without inferring death.",
+    "gap": "The current independent binding/reaction input map is scientifically useful, but both operations are represented as abstract labels. A small paired molecular schematic would show an unchanged ligand bound/released versus substrate converted to product, while the formula remains ordinary text.",
+    "accuracyGuardrails": [
+      "Do not equate Kd, Km or IC50; affinity is not selectivity, binding occupancy is not cell death, and the simple one-site/free-ligand assumptions must remain beside arithmetic."
+    ]
+  },
+  "sourceObservedCommit": "34d29878a300ee6a52382f5d84f8c5ac5e351185",
+  "baselinePageSHA256": "164ae910404c2c6ee6f8b13d39ed951e84fea4afa233a8be909c4209cf540a1e",
+  "construction": "Original code-generated SVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "generator": "private/construct.py",
+  "generatorSHA256": "6bf7f800e86b043eae486d35ec3936d86b07aa27632eb97d46fcc18082c4df33",
+  "generatorCustody": "Original generator privately retained, not publicly delivered; editable SVG without an executable reproduction-package promise.",
+  "briefSHA256": "fab08d29fdb8c44a317cf0a0b66d44469f7dcc0877deb483bd80f8700aade4f5",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-light.svg",
+      "theme": "light",
+      "sha256": "0b64c4cd1a741dca917f3bc7e43dcc1725f77161335dc0f0f7ebb011655d4317",
+      "bytes": 9010,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/reversible-binding-catalysis-and-half-occupancy-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "b2f6660da9ad9ea6be12c6601d7c0a6a87eb90e26b3356769ec2997779befee6",
+      "bytes": 9010,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK26911/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6708923/",
+    "https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_one_site_specific.htm"
+  ],
+  "sourceDepth": "Actual primary abstracts and selected primary/official passages; exact per-owner private lookup/depth/failure/custody receipts. No whole-paper/clinical/scientific approval implied.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Exact shared geometry and wording, palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0
+}
