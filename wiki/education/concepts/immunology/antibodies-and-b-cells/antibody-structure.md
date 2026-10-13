@@ -31,6 +31,11 @@ This analogy is limited: an antibody is a flexible molecular structure, not a ri
 
 ## How it works
 
+
+<img src="./images/typical-igg-domains-binding-and-partners-v1-light.svg" alt="A typical IgG antibody with two heavy and two light chains; variable and constant domains are labeled, Fab includes both types and Fc contains CH2 and CH3 domains from both heavy chains." data-theme-pair />
+
+*A typical IgG arm includes variable and constant domains; target binding and conditional partner interactions remain different jobs.*
+
 A typical **immunoglobulin G (IgG)** antibody has two heavy chains and two light chains. They associate through molecular interactions and disulfide bonds. At each arm's tip, variable regions from a heavy and light chain together form a binding site. Sequence and three-dimensional shape influence what that site recognizes.
 
 An **[epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope)** is the molecular feature recognized. It can involve a folded protein surface or another accessible feature; it need not be a short protein fragment displayed by [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). Antibody recognition differs from a conventional [T-cell receptor's peptide–human leukocyte antigen recognition](/wiki/education/concepts/immunology/t-cells/t-cell-receptor).

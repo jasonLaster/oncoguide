@@ -45,6 +45,10 @@ Broader recognition could help address heterogeneous tumors, but its detection i
 
 ## Worked example
 
+<img src="./images/encoded-targets-and-detected-specificities-v1-light.svg" alt="A fixed encoded A and B set is compared with baseline and follow-up target-specific assay readouts, where unencoded C becomes newly detectable." data-theme-pair />
+
+*The fictional vaccine encodes A and B throughout. A newly detected response to unencoded C adds a specificity; a larger A response alone does not. A-cell icons are qualitative, not assay counts. Matched baseline and follow-up assays are needed, and newly detected C does not prove a newly created receptor, vaccine causation or clinical benefit.*
+
 A fictional vaccine contains A and B. At follow-up, controlled assays detect responses to A, B and an unencoded target C. Baseline C was undetectable. This supports a newly detectable C response consistent with spreading.
 
 Before attributing it to vaccination, ask whether the assay conditions were matched, whether C recognition is distinct from cross-reactivity, and whether other treatment or tumor injury occurred. Even if the interpretation holds, a separate outcome study is needed to establish clinical benefit.

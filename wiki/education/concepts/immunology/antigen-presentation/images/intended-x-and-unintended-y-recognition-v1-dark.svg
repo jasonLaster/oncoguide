@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Tumor-associated antigen</title><desc id="desc">Two fictional comparisons separate intended X recognition on tumor and healthy cells by a CAR from an X-directed T-cell receptor that also recognizes peptide Y.</desc>
+<rect x="12" y="12" width="576" height="100" rx="24" fill="#182c42"/>
+<text x="32" y="54" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="start" fill="#fffaf0">Two recognition hazards</text>
+<text x="32" y="96" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#d7e4ed">Fictional X/Y examples; no rates</text>
+<rect x="12" y="124" width="576" height="323" rx="24" fill="#182c42"/>
+<text x="32" y="169" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">1  Intended X in healthy tissue</text>
+<ellipse cx="163" cy="303" rx="110" ry="54" fill="#29455d" stroke="#8ad1b4" stroke-width="4"/>
+<ellipse cx="151" cy="317" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<ellipse cx="175" cy="317" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<path d="M153 329 Q163 337 173 329" fill="none" stroke="#d7e4ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M163 282 v-10" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="135" y="232" width="56" height="40" rx="7" fill="#513e31" stroke="#f4b888" stroke-width="3"/>
+<path d="M163 185 V218 M141 205 L163 225 L185 205" fill="none" stroke="#86c8f5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58" y="213" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">CAR</text>
+<text x="163" y="264" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#fffaf0">X</text>
+<text x="163" y="393" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="middle" fill="#fffaf0">Tumor</text>
+<ellipse cx="443" cy="303" rx="110" ry="54" fill="#29455d" stroke="#8ad1b4" stroke-width="4"/>
+<ellipse cx="431" cy="317" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<ellipse cx="455" cy="317" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<path d="M433 329 Q443 337 453 329" fill="none" stroke="#d7e4ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M443 282 v-10" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="415" y="232" width="56" height="40" rx="7" fill="#513e31" stroke="#f4b888" stroke-width="3"/>
+<path d="M443 185 V218 M421 205 L443 225 L465 205" fill="none" stroke="#86c8f5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="338" y="213" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">CAR</text>
+<text x="443" y="264" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#fffaf0">X</text>
+<text x="443" y="393" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="middle" fill="#fffaf0">Healthy</text>
+<text x="32" y="435" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">On-target, off-tumor recognition</text>
+<rect x="12" y="459" width="576" height="304" rx="24" fill="#182c42"/>
+<text x="32" y="504" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">2  Same TCR also recognizes Y</text>
+<path d="M163 542 V575 M141 562 L163 582 L185 562" fill="none" stroke="#86c8f5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M105 604 Q163 652 221 604" fill="#29455d" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M163 628 L163 674" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121 599 Q141 581 163 596 T205 599" fill="none" stroke="#f4b888" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66 683 L260 683" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="163" y="551" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="middle" fill="#86c8f5">Same TCR</text>
+<text x="163" y="625" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#fffaf0">X</text>
+<path d="M443 542 V575 M421 562 L443 582 L465 562" fill="none" stroke="#86c8f5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M385 604 Q443 652 501 604" fill="#29455d" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M443 628 L443 674" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M401 599 Q421 581 443 596 T485 599" fill="none" stroke="#f4b888" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M346 683 L540 683" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="443" y="551" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="middle" fill="#86c8f5">Same TCR</text>
+<text x="443" y="625" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#fffaf0">Y</text>
+<text x="32" y="746" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">Off-target cross-reactivity</text>
+<rect x="12" y="775" width="576" height="113" rx="24" fill="#182c42"/>
+<text x="32" y="819" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">Less X does not prove safety.</text>
+<text x="32" y="860" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">Removing X does not remove Y.</text>
+</svg>

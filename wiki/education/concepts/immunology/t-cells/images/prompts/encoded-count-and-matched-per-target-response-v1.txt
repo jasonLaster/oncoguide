@@ -1,0 +1,10 @@
+Original SVG creative brief actually used by agent:/root/batch08_author_group2.
+Task: next-gap-199
+Owner: wiki/education/concepts/immunology/t-cells/immunodominance.md
+Frozen learner task: Compare encoded target count with the unequal matched per-target response distribution and the background denominator.
+Frozen gap: The fictional arithmetic is reproducible but a compact three-bar chart can immediately contrast three encoded targets with 40, 6 and 0 background-adjusted spots per 200,000 plated cells. Show the matched background separately; do not turn this into a target-ranking formula.
+Scene: Three background-adjusted bars show 40, 6 and 0 spots for A, B and C with separate matched background of 5 and raw counts of 45, 11 and 5.
+Caption and interpretation: In the fictional matched assay, subtracting 5 background spots from raw counts of 45, 11 and 5 gives 40, 6 and 0 spots per 200,000 plated peripheral blood mononuclear cells. Three encoded targets yield an uneven measured response; zero adjusted spots do not prove absent tumor display. These are invented teaching values, not patient data or a universal ranking.
+Accuracy guardrails: Values and positivity rules are fictional and assay-specific. | Zero adjusted spots do not prove absent tumor display. | No clone-pruning, marker requirement or universal target ranking.
+Design: 600x960 source-code SVG, original independent geometry, identical geometry/text/data across paired themes; separate solid theme-colored panels with transparent gutters, Arial minimum 36 SVG units, no clinical-benefit axis, no patient data. Direct source-code authorship; no image tool invocation, no model invocation recorded.
+Preserve source owner prose, all citations and math and current metadata; insert only embed and caption after frozen section heading.

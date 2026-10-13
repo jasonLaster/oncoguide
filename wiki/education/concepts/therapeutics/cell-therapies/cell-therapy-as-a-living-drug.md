@@ -60,6 +60,11 @@ Compare the same compartment and method at stated times. Persistence of a detect
 
 ## Worked example and practice
 
+<img src="./images/living-cells-blood-tissue-and-count-denominators-v1-light.svg" alt="Fictional same-method blood samples: twenty percent of one hundred viable T cells per microliter and ten percent of two hundred both give twenty receptor-positive cells per microliter. Blood sampling does not establish tumor access or useful function." data-theme-pair>
+
+*Fictional blood counts: 20% of 100 and 10% of 200 viable T cells per microliter both give 20 receptor-positive cells per microliter. These are concentrations in sampled blood, not total-body cell counts, tumor entry or useful function. The two bars share a scale; their equal green segments show the same receptor-positive concentration.*
+
+
 A fictional carrier creates receptor-positive T cells inside the patient. The blood count rises, but a tumor sample contains few engineered cells.
 
 **Try it:** Does the rising count establish successful tumor treatment?

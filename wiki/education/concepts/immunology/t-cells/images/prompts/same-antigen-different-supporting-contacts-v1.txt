@@ -1,0 +1,22 @@
+Original source-code SVG brief. Actual author: agent:/root/batch08_author_group1.
+{
+  "title": "Costimulation",
+  "learnerTask": "Compare identical peptide-HLA recognition with different supporting ligand contacts and distinguish separate receptor jobs.",
+  "exactGap": "The map compresses several contacts into one text box. A two-cell contact diagram would clarify that the TCR and CD28 contact different partners and that CTLA-4 can change ligand availability. Reuse checkpoint/priming physical contacts rather than drawing a permission button.",
+  "accuracyGuardrails": [
+    "CD28 is an example, not all costimulation.",
+    "Signal two is not a universal binary threshold.",
+    "Supporting signaling does not change antigen specificity or establish benefit."
+  ],
+  "scene": "The same peptide\u2013HLA recognition is compared with present and absent CD80/CD86 support for CD28; a separate scene shows CTLA-4 can remove shared ligands.",
+  "composition": "600 \u00d7 900, original molecular/cell contact geometry; warm continuous panels; transparent outer gutters; physically separate target recognition and outcomes; same labels/geometry in light and dark; minimum SVG label 34px, to verify actual 390px reader paint size. No actual dataset, rates, scales or cell counts; all schematic qualitative and X/Y fictional examples.",
+  "theme": "Light ivory + navy ink; dark navy + ivory ink; blue recognition, purple support/light chains, green display, orange antigen/cytokine cues. No color-only distinction.",
+  "caption": "Identical peptide\u2013HLA recognition can occur with different supporting contacts. CD28 is one costimulation example; CTLA-4 can reduce shared ligand availability.",
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1847722%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read; binding and support in controlled cell systems.",
+    "https://pubmed.ncbi.nlm.nih.gov/21474713/",
+    "Abstract and figure captions 1\u20134 read through web tool; no figure pixels or complete article read. EuropePMC abstract saved."
+  ],
+  "humanReview": "expert/clinician and learner review pending"
+}

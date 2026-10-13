@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-code-svg-authorship",
+  "author": "agent:/root/batch08_author_group2",
+  "createdAtUTC": "2026-10-13T19:55:39.468450+00:00",
+  "model": null,
+  "imageCalls": 0,
+  "owner": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+  "prospectiveTaskId": "next-gap-199",
+  "frozenLearnerTask": "Compare encoded target count with the unequal matched per-target response distribution and the background denominator.",
+  "frozenGap": "The fictional arithmetic is reproducible but a compact three-bar chart can immediately contrast three encoded targets with 40, 6 and 0 background-adjusted spots per 200,000 plated cells. Show the matched background separately; do not turn this into a target-ranking formula.",
+  "accuracyGuardrails": [
+    "Values and positivity rules are fictional and assay-specific.",
+    "Zero adjusted spots do not prove absent tumor display.",
+    "No clone-pruning, marker requirement or universal target ranking."
+  ],
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "selectionBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "ownerPreimageSHA256": "5b8d960cca245885cc15e510c30b84b868f8907a96dd48085e0e55c6ba6cdc62",
+  "ownerAfterSHA256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+  "publicMetadataClassifiedBeforeBody": true,
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18641351/",
+      "readDepth": "Abstract",
+      "supports": "Context-specific response hierarchy, not strict prediction from binding or universal ranking; fictional chart arithmetic comes from owner exercise."
+    }
+  ],
+  "limitations": "Author checks only. Clinician/domain-expert and learner review pending; adoption and Oncoguide delivery pending; no coverage credit.",
+  "coverageCredit": 0,
+  "svgFiles": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-light.svg",
+      "sha256": "dd8febf82e8fe6032c430dbe9608f595cd802bd15e85d0ee96b5dbe3a40c1783"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-dark.svg",
+      "sha256": "6e52119dee0c55b2db454b3997c720b326bcec820968c0b707767f0f9d68ad10"
+    }
+  ],
+  "promptSHA256": "eeb7b4b87aee1bee6f3d4683441c2157907476e6e1ac7140a95c6e06df76c6a8",
+  "sourceChecksPerformedAtUTC": "2026-10-13T20:03:31.378028+00:00",
+  "humanReview": "Clinician/domain-expert and actual learner review pending",
+  "independentReview": "Pending assignment by root after author seal",
+  "delivery": "This Batch08 candidate is private only; no release/adoption/coverage credit."
+}

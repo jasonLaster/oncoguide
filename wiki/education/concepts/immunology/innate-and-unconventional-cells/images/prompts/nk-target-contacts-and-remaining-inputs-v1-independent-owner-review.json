@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-191",
+  "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+  "author": "agent:/root/batch08_author_group1",
+  "creativeAuthor": "agent:/root/batch08_author_group1",
+  "reviewer": "agent:/root/batch08_review_group1",
+  "independentReviewer": "agent:/root/batch08_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:11:04.014268+00:00",
+  "reviewedAtUTC": "2026-10-13T20:11:04.014268+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "See that removing one inhibitory contact changes an integrated recognition context rather than issuing an automatic killing command.",
+  "learnerTask": "See that removing one inhibitory contact changes an integrated recognition context rather than issuing an automatic killing command.",
+  "gap": "The text and security analogy correctly resist an automatic rule, but a two-target contact comparison would make remaining inhibition and activating inputs visible. A physical contact diagram is more useful than a balance scale implying numerical weights.",
+  "accuracyGuardrails": [
+    "Loss of one allele is not loss of all class I.",
+    "Show activating inputs and other inhibitory contacts as separate requirements, not quantitative weights.",
+    "Observed killing requires the actual tested NK-target pair and controls."
+  ],
+  "currentOwnerSha256": "d84212dd81f1a9af7e36cbe9d974db38efb002e39aaf04baf992ed6154352f1a",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/215",
+  "frozenRowSHA256": "5a358e97509be75afb41857e08473b235b4af7cabfbe2218f3d8b6ef5f4bd0cb",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The two NK-target contact scenes retain inhibitory B and the activating contact while only inhibitory A loses its counterpart. This allows a learner to identify the changed restraint and remaining inputs without a numerical balance or automatic death arrow. Caption qualifies HLA A/B as illustrative class-I contacts, while source context and actual-pair testing remain explicit.",
+    "frozenPageSHA256": "795b51ac01fb794298ab5051da2433eeb4ab931a55fe6d3fcf691231ed992689",
+    "baselinePageSHA256": "795b51ac01fb794298ab5051da2433eeb4ab931a55fe6d3fcf691231ed992689",
+    "learnerTask": "See that removing one inhibitory contact changes an integrated recognition context rather than issuing an automatic killing command.",
+    "gap": "The text and security analogy correctly resist an automatic rule, but a two-target contact comparison would make remaining inhibition and activating inputs visible. A physical contact diagram is more useful than a balance scale implying numerical weights.",
+    "accuracyGuardrails": [
+      "Loss of one allele is not loss of all class I.",
+      "Show activating inputs and other inhibitory contacts as separate requirements, not quantitative weights.",
+      "Observed killing requires the actual tested NK-target pair and controls."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+      "bytes": 9201,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+      "bytes": 9201,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+        "sha256": "d84212dd81f1a9af7e36cbe9d974db38efb002e39aaf04baf992ed6154352f1a",
+        "bytes": 7453
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+        "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+        "bytes": 9201
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+        "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+        "bytes": 9201
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1.txt",
+        "sha256": "999c9788473565ab3d2730da96699d8413c4b8dfd25304d8e66c7279dce6e10f",
+        "bytes": 2423
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-provenance.json",
+        "sha256": "d0d74132cc289855e761f2edfb5afbfc365fd7c78a905d5861bf6980ee52b605",
+        "bytes": 2644
+      }
+    ],
+    "currentCandidateOwnerSHA256": "d84212dd81f1a9af7e36cbe9d974db38efb002e39aaf04baf992ed6154352f1a",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "24a063fd640379817187616f9b5c4cb2ea953050fd84830739c85b33e88d9e59",
+    "exactFivePublicFiles": true,
+    "sourceOwnerOriginalRecovered": true,
+    "preservationCheck": "Removing exact authored insertion with its trailing newline recovers the source bytes. Prose, metadata, citations, navigation, Mermaid and existing art remain unchanged."
+  },
+  "sourceaccess": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:3951539%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "3951539",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19701893%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "19701893",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    }
+  ],
+  "sourceAccessLimits": "Direct independent PubMed opens returned429, empty pages or an HHS-only footer for several cited papers; no complete-paper or source-figure reading is claimed. Source evidence remains bounded to the retrieved text.",
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, data/math, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Full public owner bodies after metadata gate; source access as listed.",
+    "freshCaptureCountForOwner": 10,
+    "authorCaptureCountInspectedSeparately": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumInlineEssentialLabelPx": 19.606666666666666,
+    "minimumTheaterEssentialLabelPx": 19.38,
+    "nativeMinimumFontPx": 34,
+    "minimumNativeTextContrast": 4.8654988464439874,
+    "themeGeometryAndTextIdentical": true,
+    "carrierLimits": "Private exact pinned article/frame/theater/table-enhancer plus actual CSS; no live app navigation/sidebar/data. Transparent gutters reveal dim underlying page. Enter opens and Escape closes; focus returns BODY after Escape. No full app/accessibility or touch certification."
+  },
+  "mathAndInference": "No measured data, statistical claim, scale, denominator or outcome rate is generated. Task190 fictional X/Y are explicitly labeled. Numbered priming categories and qualitative division/cytokine icons are schematic, not measured counts.",
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

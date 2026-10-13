@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-authored-education-svg",
+  "author": "agent:/root/batch08_author_group3",
+  "model": null,
+  "imageCalls": 0,
+  "sourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourcePreimageSHA256": "4f99bf857d1b11948835e361977be2af11966f7b4110b27b1e46f2f0923f91f0",
+  "task": {
+    "prospectiveTaskId": "next-gap-202",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/239",
+    "frozenRowSHA256": "1e32c1561dfd1c03759d9d96f172ef3df5a78c3056b09991402f68877899c124",
+    "owner": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+    "learnerTask": "Trace tumor material through presenting cells and lymph-node priming to a distant lesion",
+    "gap": "The conditional flow names steps but omits physical compartments and distinct local versus distant measurements",
+    "accuracyGuardrails": "Label uninjected site rather than untreated; every arrow conditional; no guaranteed systemic vaccination",
+    "targetSection": "## How it works"
+  },
+  "drawnWith": "original SVG source code",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "adoption": "pending",
+  "coverageCredit": 0,
+  "sourceReadScope": "complete public owner, after frontmatter classification; source read depth in private evidence manifest",
+  "caption": "Tumor material may connect an injected site to presenting cells, lymph-node priming and an uninjected lesion. Every dashed route is conditional; local change, immune learning and distant outcome need distinct measurements. An uninjected lesion can still receive other treatments.",
+  "themeInvariant": "geometry, labels and data identical; semantic colors only",
+  "fictionalData": false
+}

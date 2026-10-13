@@ -1,0 +1,20 @@
+Original source-code SVG brief. Actual author: agent:/root/batch08_author_group1.
+{
+  "title": "Antibody structure",
+  "learnerTask": "Locate heavy/light chains, variable/constant domains and the Fab/Fc regions on a typical IgG molecule, then separate target binding from partner interactions.",
+  "exactGap": "The current map separates Fab binding and Fc interactions well, but does not show how the named regions sit on the molecule. A physical reference would make the structure labels reusable across isotype and binder lessons.",
+  "accuracyGuardrails": [
+    "Label a typical IgG; do not imply every immunoglobulin or engineered binder has the same Y shape.",
+    "Fab includes constant domains; Fc is a structural fragment, not a synonym for every constant region.",
+    "Show partner interactions as conditional, not guaranteed killing."
+  ],
+  "scene": "A typical IgG antibody with two heavy and two light chains; variable and constant domains are labeled, Fab includes both types and Fc contains CH2 and CH3 domains from both heavy chains.",
+  "composition": "600 \u00d7 900, original molecular/cell contact geometry; warm continuous panels; transparent outer gutters; physically separate target recognition and outcomes; same labels/geometry in light and dark; minimum SVG label 34px, to verify actual 390px reader paint size. No actual dataset, rates, scales or cell counts; all schematic qualitative and X/Y fictional examples.",
+  "theme": "Light ivory + navy ink; dark navy + ivory ink; blue recognition, purple support/light chains, green display, orange antigen/cytokine cues. No color-only distinction.",
+  "caption": "A typical IgG arm includes variable and constant domains; target binding and conditional partner interactions remain different jobs.",
+  "sourceReadBounds": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK27144/",
+    "Search-returned chapter sections 3-1, 3-2, 3-3 and summary read; direct open captcha; no figure pixels read."
+  ],
+  "humanReview": "expert/clinician and learner review pending"
+}

@@ -1,0 +1,11 @@
+Original SVG creative brief actually used by agent:/root/batch08_author_group2.
+Task: next-gap-198
+Owner: wiki/education/concepts/immunology/t-cells/epitope-spreading.md
+Frozen learner task: Compare the encoded target set with newly detected specificities over time, separating a larger response from a broader response.
+Frozen gap: The A/B/C example is an ideal small set/time contrast, but there is no visual showing the initially encoded set and separate follow-up detection set. An explicitly fictional matrix can show that C was undetected, not proven nonexistent.
+Scene: A fixed encoded A and B set is compared with baseline and follow-up target-specific assay readouts, where unencoded C becomes newly detectable.
+Caption and interpretation: The fictional vaccine encodes A and B throughout. A newly detected response to unencoded C adds a specificity; a larger A response alone does not. Matched baseline and follow-up assays are needed, and newly detected C does not prove a newly created receptor, vaccine causation or clinical benefit.
+Accuracy guardrails: Use detected/undetected, not absent/newly created. | TCR sequence changes do not identify target specificity. | Additional specificity does not establish vaccine causation or clinical benefit.
+Design: 600x960 source-code SVG, original independent geometry, identical geometry/text/data across paired themes; separate solid theme-colored panels with transparent gutters, Arial minimum 36 SVG units, no clinical-benefit axis, no patient data. Direct source-code authorship; no image tool invocation, no model invocation recorded.
+Preserve source owner prose, all citations and math and current metadata; insert only embed and caption after frozen section heading.
+Author revision used: show encoded targets as outlined tags, and a separate qualitative one-to-many same-A cell scene to teach expansion without adding a specificity; icons are not assay counts.

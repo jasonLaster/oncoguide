@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1060" viewBox="0 0 600 1060" role="img" aria-labelledby="title desc"><title id="title">Where does the added support act?</title><desc id="desc">Four conceptual armoring patterns: continuous secretion, activation-induced secretion, surface-held cytokine support and a dominant-negative receptor variant, with no universal protection.</desc><defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="3" markerHeight="3" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a5cddd" stroke-width="2"/></marker></defs>
+<rect x="12" y="6" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="42" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">Where does added</text>
+<text x="24" y="82" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">support act?</text>
+<rect x="12" y="110" width="576" height="194" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<rect x="12" y="318" width="576" height="194" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<rect x="12" y="526" width="576" height="194" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<rect x="12" y="734" width="576" height="194" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="30" y="150" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Continuous secretion</text>
+<circle cx="102" cy="226" r="37" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="93" cy="229" rx="13.32" ry="16.650000000000002" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="109.4" cy="218.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="120.5" cy="218.6" r="2.7" fill="#f0f6fb"/>
+<path d="M110.325 229.7 q4.625 4.625 10.175 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<rect x="88" y="215" width="26" height="20" rx="5" fill="#ffd381"/>
+<circle cx="167" cy="217" r="7" fill="#ffd381"/>
+<circle cx="210" cy="235" r="7" fill="#ffd381"/>
+<circle cx="257" cy="219" r="7" fill="#ffd381"/>
+<circle cx="297" cy="258" r="7" fill="#ffd381"/>
+<path d="M144 226 L312 226" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<circle cx="355" cy="226" r="30" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="346" cy="229" rx="10.799999999999999" ry="13.5" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="361.0" cy="220.0" r="2.7" fill="#f0f6fb"/>
+<circle cx="370.0" cy="220.0" r="2.7" fill="#f0f6fb"/>
+<path d="M361.75 229.0 q3.75 3.75 8.25 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<text x="405" y="209" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Made by</text>
+<text x="405" y="249" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">the cell</text>
+<text x="30" y="358" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Activation-induced secretion</text>
+<circle cx="102" cy="434" r="37" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="93" cy="437" rx="13.32" ry="16.650000000000002" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="109.4" cy="426.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="120.5" cy="426.6" r="2.7" fill="#f0f6fb"/>
+<path d="M110.325 437.7 q4.625 4.625 10.175 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="225" cy="434" r="37" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="216" cy="437" rx="13.32" ry="16.650000000000002" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="232.4" cy="426.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="243.5" cy="426.6" r="2.7" fill="#f0f6fb"/>
+<path d="M233.325 437.7 q4.625 4.625 10.175 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M138 434 L166 434" fill="none" stroke="#6ee3c4" stroke-width="4"/>
+<path d="M166 421 L166 447" fill="none" stroke="#6ee3c4" stroke-width="4"/>
+<text x="186" y="445" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#6ee3c4" text-anchor="middle">A</text>
+<circle cx="321" cy="414" r="7" fill="#ffd381"/>
+<circle cx="359" cy="442" r="7" fill="#ffd381"/>
+<circle cx="400" cy="420" r="7" fill="#ffd381"/>
+<circle cx="450" cy="439" r="7" fill="#ffd381"/>
+<circle cx="531" cy="420" r="7" fill="#ffd381"/>
+<path d="M290 433 L550 433" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<text x="30" y="494" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Local trigger; spread may follow</text>
+<text x="30" y="566" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Surface-held cytokine</text>
+<circle cx="148" cy="642" r="43" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="139" cy="645" rx="15.479999999999999" ry="19.35" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="156.6" cy="633.4" r="2.7" fill="#f0f6fb"/>
+<circle cx="169.5" cy="633.4" r="2.7" fill="#f0f6fb"/>
+<path d="M157.675 646.3 q5.375 5.375 11.825 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="279" cy="642" r="43" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="270" cy="645" rx="15.479999999999999" ry="19.35" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="287.6" cy="633.4" r="2.7" fill="#f0f6fb"/>
+<circle cx="300.5" cy="633.4" r="2.7" fill="#f0f6fb"/>
+<path d="M288.675 646.3 q5.375 5.375 11.825 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M185 623 L205 623" fill="none" stroke="#ffd381" stroke-width="4"/>
+<circle cx="212" cy="623" r="9" fill="#ffd381"/>
+<path d="M185 653 L205 653" fill="none" stroke="#ffd381" stroke-width="4"/>
+<circle cx="212" cy="653" r="9" fill="#ffd381"/>
+<text x="356" y="627" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Held near</text>
+<text x="356" y="667" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">the surface</text>
+<text x="30" y="774" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Receptor-response change</text>
+<circle cx="165" cy="844" r="44" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="156" cy="847" rx="15.84" ry="19.8" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="173.8" cy="835.2" r="2.7" fill="#f0f6fb"/>
+<circle cx="187.0" cy="835.2" r="2.7" fill="#f0f6fb"/>
+<path d="M174.9 848.4 q5.5 5.5 12.1 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M206 844 L234 844" fill="none" stroke="#cbb2ff" stroke-width="4"/>
+<path d="M234 831 L234 857" fill="none" stroke="#cbb2ff" stroke-width="4"/>
+<text x="254" y="855" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#cbb2ff" text-anchor="middle"></text>
+<circle cx="269" cy="844" r="10" fill="#cbb2ff"/>
+<path d="M270 844 L317 844" fill="none" stroke="#cbb2ff" stroke-width="4" stroke-dasharray="9 8"/>
+<path d="M332 819 L332 869" fill="none" stroke="#cbb2ff" stroke-width="4"/>
+<text x="369" y="829" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Variant</text>
+<text x="369" y="869" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">≠ deletion</text>
+<rect x="12" y="941" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="977" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Support is not universal armor.</text>
+<text x="24" y="1017" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Measure exposure and harms.</text>
+</svg>

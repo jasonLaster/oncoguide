@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-204",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+  "author": "agent:/root/batch08_author_group3",
+  "creativeAuthor": "agent:/root/batch08_author_group3",
+  "reviewer": "agent:/root/batch08_review_group3",
+  "independentReviewer": "agent:/root/batch08_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:53:45.657053+00:00",
+  "reviewedAtUTC": "2026-10-13T20:53:45.657053+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "3618a9a259dbafe0284545f001eb2e06b313800d171cca0bf4f664e9f8639840",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/335",
+  "frozenRowSHA256": "f66fafefbda52ff05c4cf38211adb03eae74dd4e903d3d2a4e1dde0fdd4609b5",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The blood bars share one absolute scale: denominator lengths250 and500 correspond to100 and200 viable T cells per microliter; both receptor-positive segments are50, representing20 per microliter. The arithmetic20 percent times100 and10 percent times200 is correct. Time, fictional status, denominator and output unit are adjacent. A separate tumor compartment with a question mark blocks inference from blood concentration to tumor entry. Delivery is distinguished from active cells, and persistence from function. No cell icon count is a total-body estimate.",
+    "baselinePageSHA256": "57a2d33e58a45b35214d97ea52b8bd0edd3a9fa75b8759a707d2363eddb650af",
+    "frozenPageSHA256": "57a2d33e58a45b35214d97ea52b8bd0edd3a9fa75b8759a707d2363eddb650af",
+    "learnerTask": "Compare percentage and absolute blood count while tracking tissue location",
+    "gap": "Flow omits blood/tumor compartments and denominator change with same absolute concentration",
+    "accuracyGuardrails": "Fictional counts not total-body abundance; persistence not function; delivery product differs from active cells",
+    "targetSection": "## Worked example and practice"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-light.svg",
+      "sha256": "681317c10bee9074e51e4d9f73b6c63440482c200bc93a3348d249630df8e399",
+      "bytes": 7254,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-dark.svg",
+      "sha256": "d92ef92ea5920f0b219d8a00fab24ec89fee5111028990b017cccac4e4b88db1",
+      "bytes": 7254,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+        "sha256": "3618a9a259dbafe0284545f001eb2e06b313800d171cca0bf4f664e9f8639840",
+        "bytes": 8482
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-light.svg",
+        "sha256": "681317c10bee9074e51e4d9f73b6c63440482c200bc93a3348d249630df8e399",
+        "bytes": 7254
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-dark.svg",
+        "sha256": "d92ef92ea5920f0b219d8a00fab24ec89fee5111028990b017cccac4e4b88db1",
+        "bytes": 7254
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/living-cells-blood-tissue-and-count-denominators-v1.txt",
+        "sha256": "f08f2a4d9a730a1dcfa8572ba7f2e6d0c9427a1cdd022ada11689c08d3096999",
+        "bytes": 2079
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/living-cells-blood-tissue-and-count-denominators-v1-provenance.json",
+        "sha256": "a874ddd14bdb2b8743c7c68b66e36f0a8940ebff59a742ab57e3b1ee84966478",
+        "bytes": 1827
+      }
+    ],
+    "currentCandidateOwnerSHA256": "3618a9a259dbafe0284545f001eb2e06b313800d171cca0bf4f664e9f8639840",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "0b42babea08da7087f71ddc54bcc0835cb5d7e1ca6b4c4b40098839219ad42d9",
+    "authorInventorySHA256": "d5972271ec7beda5fc8cf1840052fc638f5eb26559950f8c5ddbbb016d953b70",
+    "verifiedAuthorArtifacts": 537,
+    "sourceAndThemeCheckSHA256": "aa6a78e3b4ddef0073d400492834b25e798d386f137b2596da8b02dc98871e0a"
+  },
+  "reviewBasis": {
+    "scope": "One independent whole science/task/native review of six assigned prospective tasks.",
+    "sourceReadingReceiptSHA256": "45f73bfa20d16e909f1ee953768fb6f69fe46aba74c4d564db4b62a90866cbe4",
+    "independentPixelInspectionSHA256": "535b617258553d7245f5dea64b2fdabfaddf74a6f8f256dcd1400b7bd24016ee",
+    "displayChecksSHA256": "4139a763f76d0f92c08e9f8503937e62be910e359e5f3249df4d88ab9bb2f8c0",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Complete public owner, primary abstracts and bounded selected primary/official text; no full methods/supplement/full-figure approval.",
+    "primaryPMIDs": [
+      "32023374"
+    ],
+    "limits": [
+      "Native browser img carrier; isolated complete article fixture lacks app header/sidebar/live data/navigation.",
+      "Desktop portrait inline capture requires scrolling; whole art inspected native and theater.",
+      "Known theater focus-return false remains qualified; Enter/Escape work.",
+      "Current source ownership and terminal baseline must be rebound by Root before integration.",
+      "No human/expert/clinician/learner competence/adoption/coverage/publication/live-delivery approval."
+    ]
+  },
+  "requiredCorrections": [],
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

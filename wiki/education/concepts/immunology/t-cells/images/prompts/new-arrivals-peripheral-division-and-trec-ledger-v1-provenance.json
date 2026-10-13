@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-code-svg-authorship",
+  "author": "agent:/root/batch08_author_group2",
+  "createdAtUTC": "2026-10-13T19:55:39.468450+00:00",
+  "model": null,
+  "imageCalls": 0,
+  "owner": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+  "prospectiveTaskId": "next-gap-201",
+  "frozenLearnerTask": "Separate new thymic arrivals from peripheral maintenance and see how cell division dilutes a nonreplicating per-cell TREC marker.",
+  "frozenGap": "The pool-input map is adequate for maintenance mechanisms, but it does not show the denominator-specific dilution underlying the measurement warning. A tiny fictional before/after cell-and-circle ledger would explain why per-cell content can fall without proving zero output.",
+  "accuracyGuardrails": [
+    "TREC molecules do not replicate with chromosomes; allocation across individual daughters is not necessarily even.",
+    "Label illustrative counts and retain total copies versus copies per cell.",
+    "No age cutoff, immune-age score or daily output inference."
+  ],
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "selectionBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "ownerPreimageSHA256": "7a9f655c53597bc59f9599f02bcb73852363cff484ff2a413c95fb1c3c37231c",
+  "ownerAfterSHA256": "f106e753cb5de291ab81d9aba3b87089ef339295370863708f3066bc9dc1d27b",
+  "publicMetadataClassifiedBeforeBody": true,
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10973325/",
+      "readDepth": "Abstract",
+      "supports": "Per-cell TREC content depends on division and is only indirectly related to thymic output."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/",
+      "readDepth": "Abstract",
+      "supports": "Peripheral maintenance and thymic input are distinct."
+    },
+    {
+      "url": "https://theory.bio.uu.nl/immbio/pdf/Hazenberg_NatMed2000%20%28TREC%29.pdf",
+      "readDepth": "Primary-paper introduction excerpt shown by web search, covering episomal/nonreplication/dilution statement; PDF full retrieval unavailable",
+      "supports": "TREC circles do not replicate in mitosis; dilution is denominator-dependent, not an unqualified output rate.",
+      "accessFailure": "Web PDF fetch timed out; Python trust-store certificate validation failed; curl reported hostname certificate mismatch. No verification bypass used."
+    }
+  ],
+  "limitations": "Author checks only. Clinician/domain-expert and learner review pending; adoption and Oncoguide delivery pending; no coverage credit.",
+  "coverageCredit": 0,
+  "svgFiles": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg",
+      "sha256": "1e8f43e1b8936340e8a87e113e1b7c8bfa8b062982b5d1153fb97fc301a725e1"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-dark.svg",
+      "sha256": "ea9cbd86d7b4189e0789f21a2243b04ba386d675deb1f55c7ef8af0da1c37f97"
+    }
+  ],
+  "promptSHA256": "06c4b0f5841307cc10acf7c8d13cb6f98bd7fbdd2855d2f9d3e76f092562f536",
+  "sourceChecksPerformedAtUTC": "2026-10-13T20:03:31.378028+00:00",
+  "humanReview": "Clinician/domain-expert and actual learner review pending",
+  "independentReview": "Pending assignment by root after author seal",
+  "delivery": "This Batch08 candidate is private only; no release/adoption/coverage credit."
+}

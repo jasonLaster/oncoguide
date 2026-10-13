@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-200",
+  "owner": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+  "author": "agent:/root/batch08_author_group2",
+  "creativeAuthor": "agent:/root/batch08_author_group2",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:09:45.767545+00:00",
+  "reviewedAtUTC": "2026-10-13T22:09:45.767545+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "5d49056518bdb6f0d7b872f513bd4773f6bb41e3264a4be69d52ff88201b18e5",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/226",
+  "frozenRowSHA256": "a5def3bf04911adee8baeb8a58c109be1c64f700729af59c0ebc629845709f81",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Two identical rows each retain ten equally sized clonotype-A cells. Common-width fraction tracks are 5.4/540 and 54/540, matching 1%/10% from denominators 1000/100. The caption, exercise and answer keep these sampled counts distinct from calibrated blood/tissue or whole-body expansion, and neither fraction identifies an antigen.",
+    "frozenPageSHA256": "35248d7a0341c3c26933d55bb4adcf7ba4f7f1f6e869e52dac16d396630908ce",
+    "baselinePageSHA256": "35248d7a0341c3c26933d55bb4adcf7ba4f7f1f6e869e52dac16d396630908ce",
+    "learnerTask": "Compare the same sampled clone count against different sampled population sizes and see why a higher frequency need not be absolute expansion.",
+    "gap": "The 10/1,000 versus 10/100 exercise supplies a clear quantitative contrast that two aligned count-and-fraction displays would make memorable. Show the fixed numerator explicitly; do not use differently sized clone icons as if the clone grew.",
+    "accuracyGuardrails": [
+      "Sampled counts are not automatically calibrated whole-body or tissue absolute counts.",
+      "Operational clonotype definitions depend on chain/assay.",
+      "Frequency does not identify antigen specificity."
+    ],
+    "targetSection": "## Try it",
+    "currentCanonicalAdoption": "pending",
+    "currentCanonicalOwnerStillPreimage": true,
+    "assessmentEvidence": "Inherited genuine whole task-fit PASS for exact unchanged non-navigation body; this new review only verifies navigation and current owner/artifact hashes."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+      "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd",
+      "bytes": 7677,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-dark.svg",
+      "sha256": "46245c96dcaca8b1f0250e96e25e1e8274edb8b0111b0439d6e21bf5580b679d",
+      "bytes": 7677,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+        "sha256": "5d49056518bdb6f0d7b872f513bd4773f6bb41e3264a4be69d52ff88201b18e5",
+        "bytes": 7087
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+        "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd",
+        "bytes": 7677
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-dark.svg",
+        "sha256": "46245c96dcaca8b1f0250e96e25e1e8274edb8b0111b0439d6e21bf5580b679d",
+        "bytes": 7677
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/fixed-clone-count-changing-sample-denominator-v1.txt",
+        "sha256": "8879d2378f3c6100fd481bd9e9467abd1bb3189ad8e2aef3d877cbced3cee13a",
+        "bytes": 1719
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/fixed-clone-count-changing-sample-denominator-v1-provenance.json",
+        "sha256": "24ea8e7c07db4e48b9884437f7f3c29d80cf73357bc89f6d1a533fe87ecc766c",
+        "bytes": 3011
+      }
+    ],
+    "currentCandidateOwnerSHA256": "5d49056518bdb6f0d7b872f513bd4773f6bb41e3264a4be69d52ff88201b18e5",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "c32b678f6034530cfe9e0e11bb2a211cea3c27a6d9175ea10e79a87fa95b1ffe",
+    "exactFivePublicFiles": true,
+    "sourcePreimageSHA256": "7a0b0329136ff95cd7e880e234ffb7d6c7013e0c922d4a3c7ee0987961f02351",
+    "insertOnlyPreimageRecovery": "Removing the original existing visual insertion/caption from final navigation-rebased owner recovers exact public baseline bytes at actual b8c381d6ad94c0377939ee2bc4e54ff4088c70ea.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "originalAuthorPackageQualification": "Author seal binds original owner, art and provenance history; it does not claim the new mechanically rebased owner was authored or sealed in that original package.",
+    "focusedNavigationMappingSHA256": "9f053545f195890fd094c98ca1cf86529621b5421efa535f687485fa1ec013be",
+    "originalWholeReviewReceiptSHA256": "adfb220ab810453e4f337f8ddd54c98b4549fcabd08bd154432b8b033348cd78"
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.nature.com/articles/ncomms9081",
+      "primary": true,
+      "readDepth": "Publisher search-indexed abstract/introduction excerpt; independently retrieved primary full-text XML via Europe PMC and personally read abstract plus four emitted selected paragraphs on cDNA/chain sequencing, sensitivity and convergent recombination. Complete XML retrieved is not complete-paper review.",
+      "alternateRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4569693/fullTextXML",
+      "supports": "Receptor-chain sequence identities and convergent recombination are assay-defined. Fraction/count comparison itself is independently checked toy arithmetic, not a calibrated biological expansion result.",
+      "population": "Human sampled TCR repertoires; no antigen specificity assigned to fictional clonotype A.",
+      "accessStatus": "Direct publisher open internal error; direct PMC showed browser challenge; Europe PMC web open internal error; official Europe PMC XML retrieved successfully.",
+      "evidenceMode": "Inherited unchanged original bounded source reading; not re-browsed during focused navigation review.",
+      "actualOriginalReviewAtUTC": "2026-10-13T20:18:51.254889+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/",
+      "primary": true,
+      "readDepth": "Complete PubMed abstract.",
+      "supports": "Thymic input and peripheral division are distinct, and mouse/human maintenance cannot be freely equated.",
+      "population": "Human/mouse kinetic, thymectomy, marker and modeling comparison.",
+      "accessStatus": "Retrieved abstract; no full-paper approval.",
+      "evidenceMode": "Inherited unchanged original bounded source reading; not re-browsed during focused navigation review.",
+      "actualOriginalReviewAtUTC": "2026-10-13T20:18:51.254889+00:00"
+    }
+  ],
+  "mathAssessment": {
+    "invented": true,
+    "numerators": [
+      10,
+      10
+    ],
+    "denominators": [
+      1000,
+      100
+    ],
+    "fractions": [
+      0.01,
+      0.1
+    ],
+    "icons": [
+      10,
+      10
+    ],
+    "commonTrackWidth": 540,
+    "fillWidths": [
+      5.4,
+      54
+    ]
+  },
+  "reviewBasis": {
+    "scope": "Focused same-peer navigation-only final owner/artifact/baseline hash binding; reviewType retained for compatible independent-new-owner-task-fit selection. Original whole science/task/native review is inherited explicitly, not rerun.",
+    "sourceReadDepth": "No new scientific sources read. Read mapping/HANDOFF and two public metadata/navigation deltas; mechanically compared selected committed baseline/candidate bytes. Original source/access/population/math/native/focus/human bounds retained through exact original receipt history.",
+    "freshCaptureCountForOwner": 0,
+    "personallyInspectedCountForOwner": 0,
+    "originalNativePairPersonallyInspectedThisFocusedReview": false,
+    "inheritedOriginalCaptureCountForOwner": 10,
+    "inheritedOriginalNativePairReviewed": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review.",
+    "sciencePixelRerun": false
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      960
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 20.7590625,
+    "minMobileDefaultPreviewLabelPx": 20.52,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 12.36376232234401,
+    "allTextContrastChecksPassed": true,
+    "lowestTextContrast": 12.36376232234401,
+    "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested.",
+    "evidenceMode": "Inherited unchanged original native/pixel PASS; no fresh inspection or capture in this navigation-only review.",
+    "actualOriginalReviewAtUTC": "2026-10-13T20:18:51.254889+00:00"
+  },
+  "freshCaptures": [],
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "originalWholeReviewEvidence": {
+    "reviewType": "independent-new-owner-task-fit",
+    "path": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns/task-bindings/fixed-clone-count-changing-sample-denominator-v1-independent-owner-review.json",
+    "sha256": "adfb220ab810453e4f337f8ddd54c98b4549fcabd08bd154432b8b033348cd78",
+    "sealPath": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns/seal.json",
+    "sealSHA256": "191b24fdf231d3942aeaf9385a5ef4ae770bc6bb1ae76b6c98b56f6fd7d4bb8e",
+    "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00",
+    "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "originalCurrentOwnerSha256": "62432747e9babee221e272cb513efe0842005994071b18092db52763441d98d1",
+    "reviewBasis": {
+      "scope": "One whole independent scientific/conceptual, source-bound, arithmetic, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+      "sourceReadDepth": "Each source entry records actual bounded independent reading and access failures. Retrieved XML does not imply full-paper approval. Unchanged ancillary citations not individually recertified.",
+      "freshCaptureCountForOwner": 10,
+      "personallyInspectedCountForOwner": 10,
+      "originalNativePairPersonallyInspected": true,
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "pinnedFilesComparedToGitCommit": 45,
+      "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review."
+    },
+    "nativePixelAssessment": {
+      "nativeSourceDimensions": [
+        600,
+        960
+      ],
+      "mobileViewport": [
+        390,
+        844
+      ],
+      "desktopViewport": [
+        1440,
+        1000
+      ],
+      "minMobileInlineLabelPx": 20.7590625,
+      "minMobileDefaultPreviewLabelPx": 20.52,
+      "nativeTextOutsideViewBox": 0,
+      "browserPageErrors": 0,
+      "mobileHorizontalOverflow": false,
+      "ordinaryTextMinContrast": 12.36376232234401,
+      "allTextContrastChecksPassed": true,
+      "lowestTextContrast": 12.36376232234401,
+      "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+      "keyboardEnterOpened": true,
+      "escapeClosed": true,
+      "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested."
+    },
+    "freshCaptures": [
+      {
+        "mode": "native",
+        "theme": "light",
+        "path": "private/captures/next-gap-200-light-native.png",
+        "sha256": "8cd2d203ca8d1a6e8f7cad3768bfd22460b48f5861871d23cea78560b64afe25"
+      },
+      {
+        "mode": "native",
+        "theme": "dark",
+        "path": "private/captures/next-gap-200-dark-native.png",
+        "sha256": "d8ad1e18057f2f4741f547ab27900846cca83d16a96205af756764d677dad194"
+      },
+      {
+        "mode": "mobile-inline",
+        "theme": "light",
+        "path": "private/captures/next-gap-200-light-mobile-inline.png",
+        "sha256": "acf303068954cb2eb873bc3c203af6ad024347a457ae95decd43a76f5f9dcfe9"
+      },
+      {
+        "mode": "mobile-default-preview",
+        "theme": "light",
+        "path": "private/captures/next-gap-200-light-mobile-default-preview.png",
+        "sha256": "dd95c8f8f11aab19a74610f9785668e55d10614ca9cd7dc3c22a74770b121784"
+      },
+      {
+        "mode": "desktop-inline",
+        "theme": "light",
+        "path": "private/captures/next-gap-200-light-desktop-inline.png",
+        "sha256": "cc1339b093ddf723449bd464b8b328d1d5355def9729840d7c12f7daecf03006"
+      },
+      {
+        "mode": "desktop-default-preview",
+        "theme": "light",
+        "path": "private/captures/next-gap-200-light-desktop-default-preview.png",
+        "sha256": "ef4f2684c3d4dc576905bc1fe8fd3f578be941862cc4bf4f5da19a3b1dc35b05"
+      },
+      {
+        "mode": "mobile-inline",
+        "theme": "dark",
+        "path": "private/captures/next-gap-200-dark-mobile-inline.png",
+        "sha256": "21279159d828007ad7453220646d0b061d325b2458e49a359c50f23f3894ed29"
+      },
+      {
+        "mode": "mobile-default-preview",
+        "theme": "dark",
+        "path": "private/captures/next-gap-200-dark-mobile-default-preview.png",
+        "sha256": "da95c02af2afdbf11a10945440266a53bf7acbeb5497db118f74a86dbe0981a4"
+      },
+      {
+        "mode": "desktop-inline",
+        "theme": "dark",
+        "path": "private/captures/next-gap-200-dark-desktop-inline.png",
+        "sha256": "5644463c5855934377283ee0c07166fb684868dc268f378a78142711212681b2"
+      },
+      {
+        "mode": "desktop-default-preview",
+        "theme": "dark",
+        "path": "private/captures/next-gap-200-dark-desktop-default-preview.png",
+        "sha256": "c306c12b79198d07b9d63429e955d7069c9adbb9d2a54c989b61d42bc5dcbdd9"
+      }
+    ],
+    "capturePathBase": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns",
+    "allOriginalEvidenceUnmodified": true,
+    "status": "Original genuine whole PASS retained as historical scientific/task/native evidence; not re-executed."
+  },
+  "reviewScope": "focused-navigation-only-compatible-current-binding",
+  "focusedNavigationAssessment": {
+    "id": "next-gap-200",
+    "owner": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+    "metadataPublicBeforeBodyComparison": true,
+    "finalOwnerSHA256": "5d49056518bdb6f0d7b872f513bd4773f6bb41e3264a4be69d52ff88201b18e5",
+    "originalReviewedOwnerSHA256": "62432747e9babee221e272cb513efe0842005994071b18092db52763441d98d1",
+    "actualSourceBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualSourceBaselineSHA256": "7a0b0329136ff95cd7e880e234ffb7d6c7013e0c922d4a3c7ee0987961f02351",
+    "actualDestinationBaselineCommit": "4738f1ca428eaf5fc4e4b81d3fb932a6f99b9e31",
+    "actualDestinationBaselineSHA256": "7a0b0329136ff95cd7e880e234ffb7d6c7013e0c922d4a3c7ee0987961f02351",
+    "NandODCommittedBaselineBytesIdentical": true,
+    "inverseNavigationGraftRecoversOriginalExact": true,
+    "strippingNavigationRecoversOriginalReviewedBodyExact": true,
+    "baselineDeltaFromOriginalSourceNavigationOnly": true,
+    "removeExistingVisualInsertionRecoversActualCommittedBaselineExact": true,
+    "onlyUsedByAndGeneratedUsedInChanged": true,
+    "addedTarget": {
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "title": "Why a personalized cancer vaccine can help",
+      "publicMetadata": true,
+      "committedExistenceAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea"
+    },
+    "unchangedArtPromptProvenance": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+        "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd",
+        "bytes": 7677,
+        "byteExactOriginal": true
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-dark.svg",
+        "sha256": "46245c96dcaca8b1f0250e96e25e1e8274edb8b0111b0439d6e21bf5580b679d",
+        "bytes": 7677,
+        "byteExactOriginal": true
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/fixed-clone-count-changing-sample-denominator-v1.txt",
+        "sha256": "8879d2378f3c6100fd481bd9e9467abd1bb3189ad8e2aef3d877cbced3cee13a",
+        "bytes": 1719,
+        "byteExactOriginal": true
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/fixed-clone-count-changing-sample-denominator-v1-provenance.json",
+        "sha256": "24ea8e7c07db4e48b9884437f7f3c29d80cf73357bc89f6d1a533fe87ecc766c",
+        "bytes": 3011,
+        "byteExactOriginal": true
+      }
+    ],
+    "originalGenuineReceipt": {
+      "path": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns/task-bindings/fixed-clone-count-changing-sample-denominator-v1-independent-owner-review.json",
+      "sha256": "adfb220ab810453e4f337f8ddd54c98b4549fcabd08bd154432b8b033348cd78",
+      "bytes": 12250,
+      "reviewType": "independent-new-owner-task-fit",
+      "reviewer": "agent:/root/batch08_review_group2",
+      "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00"
+    },
+    "originalWholeReviewSealSHA256": "191b24fdf231d3942aeaf9385a5ef4ae770bc6bb1ae76b6c98b56f6fd7d4bb8e",
+    "originalWholeSealFilesUnchanged": 150,
+    "actualMechanicalNavigationPreparer": "agent:/root/combined19_release_freeze",
+    "unifiedDiff": "--- original-reviewed-owner\n+++ final-navigation-rebase\n@@ -7,7 +7,7 @@\n aliases: [\"T-cell repertoire\", \"repertoire\", \"clonotype\"]\n level: \"intermediate\"\n prerequisites: [\"[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]\"]\n-used_by: [\"[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]\",\"[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]\",\"[[wiki/education/oncology-101/3-t-cell-states]]\",\"[[wiki/education/oncology-101/index]]\"]\n+used_by: [\"[[wiki/education/designing-a-vaccine/index]]\",\"[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]\",\"[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]\",\"[[wiki/education/oncology-101/3-t-cell-states]]\",\"[[wiki/education/oncology-101/index]]\"]\n sensitive: false\n tags: [\"education\", \"immunology\"]\n updated: 2026-10-10\n@@ -91,6 +91,7 @@\n <!-- BEGIN GENERATED USED IN -->\n ## Used in\n \n+- [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)\n - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)\n - [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)\n - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)\n",
+    "verdict": "PASS",
+    "reviewer": "agent:/root/batch08_review_group2",
+    "checkedAtUTC": "2026-10-13T22:09:45.767545+00:00",
+    "requiredCorrections": []
+  },
+  "inheritedVerdicts": {
+    "scienceVerdict": "PASS",
+    "taskFitVerdict": "PASS",
+    "originalNativeVerdict": "PASS",
+    "freshReaderPixelVerdict": "PASS",
+    "basis": "Exact unchanged reviewed scientific body and art; historical original whole review only."
+  },
+  "wholeReviewCount": 1,
+  "newWholeReviewCount": 0,
+  "focusedCorrectionReviewCount": 1,
+  "actualBaselineCompanionCommit": "4738f1ca428eaf5fc4e4b81d3fb932a6f99b9e31",
+  "candidateSourceCommit": null,
+  "candidateCompanionCommit": null,
+  "candidateDelivered": false,
+  "actualMechanicalNavigationPreparer": "agent:/root/combined19_release_freeze"
+}

@@ -33,6 +33,11 @@ The analogy has a limit: teaching recognition does not guarantee that responders
 
 ## How it works
 
+<img src="./images/vaccine-purpose-target-selection-and-delivery-v1-light.svg" alt="Purpose, target selection and delivery are separate classification axes. A fictional shared-antigen RNA vaccine after surgery is therapeutic; a personalized vaccine can use peptides; no platform ranking." data-theme-pair>
+
+*Purpose, target selection and delivery answer different questions. The shared-antigen RNA example after surgery is fictional and therapeutic. Personalization can use peptides or other material; the axes neither rank platforms nor establish immune or clinical success.*
+
+
 First ask **what the vaccine is trying to prevent or treat**. Preventive vaccines against human papillomavirus (HPV) or hepatitis B virus reduce infection-related cancer risk. They do not thereby treat an established tumor. Therapeutic cancer vaccines seek responses against cancer-related antigens. A therapeutic study can also enroll people after visible cancer has been removed, aiming to reduce recurrence; the absence of a measurable mass does not turn it into an infection-prevention vaccine. [NCI's prevention overview](https://www.cancer.gov/about-cancer/causes-prevention/patient-prevention-overview-pdq) and [treatment-vaccine explanation](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines) describe the different purposes.
 
 Next ask **how antigens are selected**. A personalized vaccine is tailored using a person's tumor information or material. A shared-antigen vaccine uses targets found across multiple people's cancers. Shared targets can include [tumor-associated antigens](/wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen) or recurring mutation-derived [neoantigens](/wiki/education/concepts/immunology/antigen-presentation/neoantigen). A personalized product can include shared targets, too. Neither label proves that every cancer cell carries or presents the target.

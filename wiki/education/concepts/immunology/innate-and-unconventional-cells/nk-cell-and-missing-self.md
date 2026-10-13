@@ -29,6 +29,11 @@ A security check can ask both “Is something suspicious present?” and “Is a
 
 ## How it works
 
+
+<img src="./images/nk-target-contacts-and-remaining-inputs-v1-light.svg" alt="Two illustrative NK–target contact scenes differ by one inhibitory HLA contact; another inhibitory contact and an activating input remain." data-theme-pair />
+
+*Removing one inhibitory contact leaves other inputs in place. The actual NK–target pair still needs a controlled functional test. “Inhib.” labels inhibitory receptors; HLA A/B represent illustrative class I contacts, not a measured profile.*
+
 **Natural killer (NK)** cells are lymphocytes with innate recognition systems. Unlike conventional T cells, they do not rely on a rearranged antigen-specific [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor). Their surface receptors instead integrate signals from several partners.
 
 Some inhibitory receptors recognize particular [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) class I molecules. When those expected self signals are reduced, inhibition can weaken. This is called **missing-self recognition**. The original experiments used mouse lymphoma cells missing mouse display molecules; they established a principle, not a guarantee for all human tumors. [Kärre and colleagues’ primary study](https://pubmed.ncbi.nlm.nih.gov/3951539/) makes that context explicit.

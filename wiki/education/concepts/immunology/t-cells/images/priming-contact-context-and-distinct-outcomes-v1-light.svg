@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">T-cell priming and the three-signal model</title><desc id="desc">One naive T-cell priming encounter locates peptide–HLA recognition, CD28 support and local cytokine exposure, with division kept separate from cytolytic function.</desc>
+<rect x="12" y="12" width="576" height="100" rx="24" fill="#fffaf0"/>
+<text x="32" y="54" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="start" fill="#182c42">One priming encounter</text>
+<text x="32" y="96" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#344b60">A naive T cell already has its TCR</text>
+<rect x="12" y="124" width="576" height="481" rx="24" fill="#fffaf0"/>
+<text x="32" y="167" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">Antigen-presenting cell → T cell</text>
+<rect x="25" y="187" width="164" height="363" rx="60" fill="#f6e5cf"/>
+<rect x="411" y="187" width="164" height="363" rx="60" fill="#e5eef4"/>
+<path d="M198 200 L198 552" fill="none" stroke="#23684f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 200 L402 552" fill="none" stroke="#176599" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 270 L245 270" fill="none" stroke="#23684f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M245 255 Q265 270 245 285" fill="none" stroke="#23684f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 270 L355 270" fill="none" stroke="#176599" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M355 255 Q335 270 355 285" fill="none" stroke="#176599" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M267 270 L333 270" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="32" y="238" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#23684f">p–HLA</text>
+<text x="427" y="238" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#176599">TCR</text>
+<path d="M198 376 L245 376" fill="none" stroke="#23684f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M245 361 Q265 376 245 391" fill="none" stroke="#23684f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 376 L355 376" fill="none" stroke="#704697" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M355 361 Q335 376 355 391" fill="none" stroke="#704697" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M267 376 L333 376" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="32" y="344" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#23684f">CD80/86</text>
+<text x="427" y="344" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#704697">CD28</text>
+<ellipse cx="280" cy="458" rx="11" ry="11" fill="#984413" stroke="#984413" stroke-width="3"/>
+<ellipse cx="315" cy="482" rx="11" ry="11" fill="#984413" stroke="#984413" stroke-width="3"/>
+<ellipse cx="273" cy="506" rx="11" ry="11" fill="#984413" stroke="#984413" stroke-width="3"/>
+<path d="M302 467 Q340 442 386 467 M371 451 L386 467 L367 470" fill="none" stroke="#984413" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<path d="M402 472 h-19 v-18 M383 472 v18" fill="none" stroke="#984413" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="300" cy="225" rx="23" ry="23" fill="#182c42" stroke="#182c42" stroke-width="3"/>
+<text x="300" y="237" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#fffaf0">1</text>
+<ellipse cx="300" cy="329" rx="23" ry="23" fill="#182c42" stroke="#182c42" stroke-width="3"/>
+<text x="300" y="341" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#fffaf0">2</text>
+<ellipse cx="349" cy="515" rx="23" ry="23" fill="#182c42" stroke="#182c42" stroke-width="3"/>
+<text x="349" y="527" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#fffaf0">3</text>
+<text x="32" y="578" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">3  Local cytokines, e.g. IL-12</text>
+<rect x="12" y="617" width="576" height="155" rx="24" fill="#fffaf0"/>
+<text x="32" y="657" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="start" fill="#182c42">Measure distinct outcomes</text>
+<ellipse cx="67" cy="699" rx="16" ry="16" fill="#e5eef4" stroke="#176599" stroke-width="3"/>
+<ellipse cx="113" cy="699" rx="16" ry="16" fill="#e5eef4" stroke="#176599" stroke-width="3"/>
+<ellipse cx="159" cy="699" rx="16" ry="16" fill="#e5eef4" stroke="#176599" stroke-width="3"/>
+<text x="203" y="711" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Division</text>
+<text x="32" y="752" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Test cytolytic function separately.</text>
+<rect x="12" y="785" width="576" height="103" rx="24" fill="#fffaf0"/>
+<text x="32" y="829" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">A teaching model; no checklist.</text>
+<text x="32" y="870" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">Access &amp; benefit need evidence.</text>
+</svg>

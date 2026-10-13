@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-194",
+  "owner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+  "author": "agent:/root/batch08_author_group1",
+  "creativeAuthor": "agent:/root/batch08_author_group1",
+  "reviewer": "agent:/root/batch08_review_group1",
+  "independentReviewer": "agent:/root/batch08_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:11:04.014268+00:00",
+  "reviewedAtUTC": "2026-10-13T20:11:04.014268+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Locate antigen-specific contact, supporting receptor contact and cytokine exposure in one priming encounter while keeping proliferation and function separate.",
+  "learnerTask": "Locate antigen-specific contact, supporting receptor contact and cytokine exposure in one priming encounter while keeping proliferation and function separate.",
+  "gap": "The current three-input text box preserves the integration boundary but does not show three different kinds of biological interaction. A small two-cell contact scene with a local cytokine cue would teach the framework more concretely without implying three independent buttons.",
+  "accuracyGuardrails": [
+    "A naive cell already has its receptor.",
+    "The three signals are a teaching framework, not a universal binary checklist.",
+    "Division, cytolytic function, tumor access and clinical benefit remain distinct."
+  ],
+  "currentOwnerSha256": "66d9467b56367c2ac5085b35b9556fa7ccf7d5f9f9c04993f5a89a029bcdc953",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/224",
+  "frozenRowSHA256": "39e9de511c04e6ef95c1d7e655316cd0cb8ecbe908cafe898b9a65f84225dd10",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "One bounded encounter places peptide-HLA opposite the already-present TCR, CD80/86 opposite CD28, and local cytokine exposure near a separate receptor. Numbered locations teach the framework while the bottom wording rejects a binary checklist. Division is pictured separately from cytolytic function; the adjacent caption/prose retains distinct access and benefit requirements.",
+    "frozenPageSHA256": "35b90326164b8e34f582dd9c48cfc5862ee90657b7d4c25938f6b5fe191a0517",
+    "baselinePageSHA256": "35b90326164b8e34f582dd9c48cfc5862ee90657b7d4c25938f6b5fe191a0517",
+    "learnerTask": "Locate antigen-specific contact, supporting receptor contact and cytokine exposure in one priming encounter while keeping proliferation and function separate.",
+    "gap": "The current three-input text box preserves the integration boundary but does not show three different kinds of biological interaction. A small two-cell contact scene with a local cytokine cue would teach the framework more concretely without implying three independent buttons.",
+    "accuracyGuardrails": [
+      "A naive cell already has its receptor.",
+      "The three signals are a teaching framework, not a universal binary checklist.",
+      "Division, cytolytic function, tumor access and clinical benefit remain distinct."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+      "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f",
+      "bytes": 6056,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-dark.svg",
+      "sha256": "2ad2eb8cff2e79376af2536b48795c8668a6b1a33d615dd6f80932869c98ddca",
+      "bytes": 6056,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+        "sha256": "66d9467b56367c2ac5085b35b9556fa7ccf7d5f9f9c04993f5a89a029bcdc953",
+        "bytes": 8828
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+        "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f",
+        "bytes": 6056
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-dark.svg",
+        "sha256": "2ad2eb8cff2e79376af2536b48795c8668a6b1a33d615dd6f80932869c98ddca",
+        "bytes": 6056
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/priming-contact-context-and-distinct-outcomes-v1.txt",
+        "sha256": "43dd5b924fe671a423544d32d529029321a97eeb1a07243dc674025e73d8d9a3",
+        "bytes": 2470
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/priming-contact-context-and-distinct-outcomes-v1-provenance.json",
+        "sha256": "454fdbf48aa64ba52a972398407f0a3a6609458f2012dfb80768c8a21ab92580",
+        "bytes": 2657
+      }
+    ],
+    "currentCandidateOwnerSHA256": "66d9467b56367c2ac5085b35b9556fa7ccf7d5f9f9c04993f5a89a029bcdc953",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "24a063fd640379817187616f9b5c4cb2ea953050fd84830739c85b33e88d9e59",
+    "exactFivePublicFiles": true,
+    "sourceOwnerOriginalRecovered": true,
+    "preservationCheck": "Removing exact authored insertion with its trailing newline recovers the source bytes. Prose, metadata, citations, navigation, Mermaid and existing art remain unchanged."
+  },
+  "sourceaccess": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12732656%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "12732656",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1847722%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "1847722",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    }
+  ],
+  "sourceAccessLimits": "Direct independent PubMed opens returned429, empty pages or an HHS-only footer for several cited papers; no complete-paper or source-figure reading is claimed. Source evidence remains bounded to the retrieved text.",
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, data/math, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Full public owner bodies after metadata gate; source access as listed.",
+    "freshCaptureCountForOwner": 10,
+    "authorCaptureCountInspectedSeparately": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumInlineEssentialLabelPx": 19.606666666666666,
+    "minimumTheaterEssentialLabelPx": 19.38,
+    "nativeMinimumFontPx": 34,
+    "minimumNativeTextContrast": 4.8654988464439874,
+    "themeGeometryAndTextIdentical": true,
+    "carrierLimits": "Private exact pinned article/frame/theater/table-enhancer plus actual CSS; no live app navigation/sidebar/data. Transparent gutters reveal dim underlying page. Enter opens and Escape closes; focus returns BODY after Escape. No full app/accessibility or touch certification."
+  },
+  "mathAndInference": "No measured data, statistical claim, scale, denominator or outcome rate is generated. Task190 fictional X/Y are explicitly labeled. Numbered priming categories and qualitative division/cytokine icons are schematic, not measured counts.",
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

@@ -31,6 +31,10 @@ Think of a temporary neighborhood workshop rather than a crowd in a square. Orga
 
 ## How it works
 
+<img src="./images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg" alt="Three tissue scenes distinguish mixed T and B cells, separate T and B regions, and a B-cell follicle containing a germinal center." data-theme-pair />
+
+*Three tissue arrangements, not a required developmental sequence: a loose aggregate, organized T/B regions, and a follicle with a demonstrated germinal center. Study-specific architecture and marker criteria determine maturity; counts alone establish neither maturity nor treatment benefit.*
+
 **Tertiary lymphoid structures (TLS)** can form in inflamed tissues, including around or within tumors. “Tertiary” describes their location outside native lymphoid organs; it does not mean a third cancer stage.
 
 Organization can include distinct B-cell and T-cell regions, supporting stromal cells and specialized vessels. Not every observed structure has all features or the same maturity. A **lymphoid aggregate** describes a gathering; an organized **B-cell follicle** is a further architectural feature; a **germinal center** is a specialized site of B-cell proliferation and selection within a follicle. These labels are not interchangeable.

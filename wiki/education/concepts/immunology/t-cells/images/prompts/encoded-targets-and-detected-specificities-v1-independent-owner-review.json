@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-198",
+  "owner": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+  "author": "agent:/root/batch08_author_group2",
+  "creativeAuthor": "agent:/root/batch08_author_group2",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T20:18:51.254889+00:00",
+  "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/221",
+  "frozenRowSHA256": "6d7dd8b8d5d5c1871f77bd5d4f4ce3b1dcc76997d42e9adbf2929a28fbfa7bce",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Outlined A/B encoded tags remain fixed. A matched baseline/follow-up matrix keeps A/B positive and C not detected then positive, with ND explicitly defined. A separate one-to-many same-A scene makes magnitude different from additional specificity. Caption/body retain target-assay, baseline, cross-reactivity, causal and outcome limits; receptor sequence changes are not target proof.",
+    "frozenPageSHA256": "9749001db099ba035da4362d04770c103028c04e0009088c1607b1f5aac81e5a",
+    "baselinePageSHA256": "9749001db099ba035da4362d04770c103028c04e0009088c1607b1f5aac81e5a",
+    "learnerTask": "Compare the encoded target set with newly detected specificities over time, separating a larger response from a broader response.",
+    "gap": "The A/B/C example is an ideal small set/time contrast, but there is no visual showing the initially encoded set and separate follow-up detection set. An explicitly fictional matrix can show that C was undetected, not proven nonexistent.",
+    "accuracyGuardrails": [
+      "Use detected/undetected, not absent/newly created.",
+      "TCR sequence changes do not identify target specificity.",
+      "Additional specificity does not establish vaccine causation or clinical benefit."
+    ],
+    "targetSection": "## Worked example",
+    "currentCanonicalAdoption": "pending",
+    "currentCanonicalOwnerStillPreimage": true
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-light.svg",
+      "sha256": "2b2220af3c67f57526760688bac30f84862b25bf31d3b4c5d401d2118e8a9529",
+      "bytes": 4771,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-dark.svg",
+      "sha256": "8c2485f76082335337f1917ca6d5a7b5daffaf43ad3e149691574357c571f804",
+      "bytes": 4771,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+        "sha256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+        "bytes": 6768
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-light.svg",
+        "sha256": "2b2220af3c67f57526760688bac30f84862b25bf31d3b4c5d401d2118e8a9529",
+        "bytes": 4771
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-dark.svg",
+        "sha256": "8c2485f76082335337f1917ca6d5a7b5daffaf43ad3e149691574357c571f804",
+        "bytes": 4771
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-targets-and-detected-specificities-v1.txt",
+        "sha256": "6a4030a2e9914d6755ae625e2eb599eebff943f46665ea4766ed9281f3038d86",
+        "bytes": 1925
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-targets-and-detected-specificities-v1-provenance.json",
+        "sha256": "068962a3f3944c021b0d5431d41075119a137ced3185aa6686a52a906070c579",
+        "bytes": 2782
+      }
+    ],
+    "currentCandidateOwnerSHA256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "c32b678f6034530cfe9e0e11bb2a211cea3c27a6d9175ea10e79a87fa95b1ffe",
+    "exactFivePublicFiles": true,
+    "sourcePreimageSHA256": "9749001db099ba035da4362d04770c103028c04e0009088c1607b1f5aac81e5a",
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after removing only new section image and caption.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8273876/",
+      "primary": true,
+      "readDepth": "Search-indexed primary abstract, selected epitope-spreading Results paragraphs and Figure 6 legend excerpt, including non-vaccine targets, pre/post comparison and additional responses after pembrolizumab. No full-paper, complete Figure 6 legend, Extended Data 9 legend or method reading claimed.",
+      "supports": "Additional target-specific recognition differs from persistence or clonotype diversification, and baseline nondetection plus accompanying treatment require bounded causal interpretation.",
+      "population": "Eight surgically resected melanoma participants in personalized long-peptide vaccine follow-up; spreading assays in a smaller available-sample subset.",
+      "accessStatus": "Primary text excerpt recovered by independent web search; direct PMC open/find showed browser challenge. PubMed subsequent open/find degraded to one-line response; publisher and Europe PMC web open returned internal errors; Europe PMC fullTextXML returned HTTP 500. No challenge or certificate bypass."
+    }
+  ],
+  "mathAssessment": {
+    "invented": true,
+    "encodedSet": [
+      "A",
+      "B"
+    ],
+    "Cbaseline": "not detected",
+    "Cfollowup": "detected",
+    "sameAicons": "Qualitative expansion; no response-count measurement."
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, source-bound, arithmetic, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Each source entry records actual bounded independent reading and access failures. Retrieved XML does not imply full-paper approval. Unchanged ancillary citations not individually recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 45,
+    "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      960
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 20.7590625,
+    "minMobileDefaultPreviewLabelPx": 20.52,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 12.36376232234401,
+    "allTextContrastChecksPassed": true,
+    "lowestTextContrast": 4.457660991268963,
+    "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-198-light-native.png",
+      "sha256": "962d6d384d35203e906db2937fcedfb5e811bc6dd4eaab9a67f01f05cb6a377c"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-198-dark-native.png",
+      "sha256": "402711644c40bb6210d3e08a677f3cdf250a3430f6724490bc2fa51ef1150dc8"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-198-light-mobile-inline.png",
+      "sha256": "bed2e549e8db9ae78d1af0902c3802c861487bdd82764e4b450bdbfe15f92f27"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-198-light-mobile-default-preview.png",
+      "sha256": "2f60e93f9e9f2634ef959dd16fa6e6a187edab06b31caa6b76ba5dca94bb5b68"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-198-light-desktop-inline.png",
+      "sha256": "cae58d07dcfcc7c43baccf6e8141a43060b32eeddacafb6e621312b0631e8fab"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-198-light-desktop-default-preview.png",
+      "sha256": "c8defd3081f755bc6b2adb67f4d9c7c8b7cc901ea37d77907857b882ce331590"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-198-dark-mobile-inline.png",
+      "sha256": "071393fbfe29e3c269bfd54fae71b82849692e7aa8f9287f0a71e9a767af0568"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-198-dark-mobile-default-preview.png",
+      "sha256": "a6d1308a9ca98dc679f5e90e2e6e696103e1d75eb7fdd23632fd94b0c0dbcc2a"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-198-dark-desktop-inline.png",
+      "sha256": "af47d97abf30db9123c550643c1b77b382bbb33474e81a51a17352fec4671ddd"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-198-dark-desktop-default-preview.png",
+      "sha256": "172c5791eab92e1288fc872632d5850683f4a4a48aee4ca161ebf8622e87a5de"
+    }
+  ],
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "requiredCorrections": [],
+  "findings": []
+}

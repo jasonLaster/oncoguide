@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1060" viewBox="0 0 600 1060" role="img" aria-labelledby="title desc"><title id="title">Describe a vaccine with three independent questions</title><desc id="desc">Purpose, target selection and delivery are separate classification axes. A fictional shared-antigen RNA vaccine after surgery is therapeutic; a personalized vaccine can use peptides; no platform ranking.</desc><defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="3" markerHeight="3" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a5cddd" stroke-width="2"/></marker></defs>
+<rect x="12" y="6" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="42" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">Three questions.</text>
+<text x="24" y="82" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">One vaccine description.</text>
+<rect x="12" y="110" width="576" height="247" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="155" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">1  What is the purpose?</text>
+<path d="M50 197 L106 177 L162 197 L154 248 Q109 286 58 248 Z" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<circle cx="200" cy="203" r="11" fill="#cbb2ff"/>
+<circle cx="241" cy="219" r="11" fill="#cbb2ff"/>
+<circle cx="216" cy="254" r="11" fill="#cbb2ff"/>
+<text x="304" y="204" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Prevent an</text>
+<text x="304" y="244" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">infection, or</text>
+<text x="304" y="284" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">treat cancer?</text>
+<rect x="12" y="374" width="576" height="247" rx="28" fill="#382e57" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="419" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">2  How are targets selected?</text>
+<circle cx="98" cy="494" r="29" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="89" cy="497" rx="10.44" ry="13.05" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="103.8" cy="488.2" r="2.7" fill="#f0f6fb"/>
+<circle cx="112.5" cy="488.2" r="2.7" fill="#f0f6fb"/>
+<path d="M104.525 496.9 q3.625 3.625 7.975 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="197" cy="494" r="29" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="188" cy="497" rx="10.44" ry="13.05" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="202.8" cy="488.2" r="2.7" fill="#f0f6fb"/>
+<circle cx="211.5" cy="488.2" r="2.7" fill="#f0f6fb"/>
+<path d="M203.525 496.9 q3.625 3.625 7.975 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="250" cy="543" r="21" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="241" cy="546" rx="7.56" ry="9.450000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="254.2" cy="538.8" r="2.7" fill="#f0f6fb"/>
+<circle cx="260.5" cy="538.8" r="2.7" fill="#f0f6fb"/>
+<path d="M254.725 545.1 q2.625 2.625 5.775 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M120 494 L164 494" fill="none" stroke="#ff9fb4" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<text x="307" y="484" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Personalized</text>
+<text x="307" y="524" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">or shared</text>
+<text x="307" y="564" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">target choice?</text>
+<rect x="12" y="638" width="576" height="247" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="683" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">3  How is material supplied?</text>
+<circle cx="70" cy="754" r="10" fill="#ffd381"/>
+<circle cx="94" cy="769" r="10" fill="#ffd381"/>
+<circle cx="118" cy="754" r="10" fill="#ffd381"/>
+<circle cx="142" cy="769" r="10" fill="#ffd381"/>
+<path d="M67 813 Q84 790 100 813 T134 813 T168 813" fill="none" stroke="#cbb2ff" stroke-width="5"/>
+<circle cx="235" cy="780" r="27" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="226" cy="783" rx="9.719999999999999" ry="12.15" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="240.4" cy="774.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="248.5" cy="774.6" r="2.7" fill="#f0f6fb"/>
+<path d="M241.075 782.7 q3.375 3.375 7.425 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<text x="304" y="739" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Peptide, RNA,</text>
+<text x="304" y="779" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">cells, or</text>
+<text x="304" y="819" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">in-situ supply?</text>
+<rect x="12" y="900" width="576" height="128" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="936" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Fictional: shared + RNA +</text>
+<text x="24" y="976" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">after surgery = therapeutic.</text>
+<text x="24" y="1016" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Personalized ≠ RNA.</text>
+</svg>

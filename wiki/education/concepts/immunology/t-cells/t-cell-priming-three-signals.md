@@ -31,6 +31,11 @@ It is a teaching model, rather than a literal three-button machine. Signals over
 
 ## How it works
 
+
+<img src="./images/priming-contact-context-and-distinct-outcomes-v1-light.svg" alt="One naive T-cell priming encounter locates peptide–HLA recognition, CD28 support and local cytokine exposure, with division kept separate from cytolytic function." data-theme-pair />
+
+*Recognition, support and cytokine context occur in one encounter; division, cytolytic function, tumor access and clinical benefit need separate evidence. TCR means T-cell receptor; p–HLA means peptide–human leukocyte antigen; IL-12 means interleukin 12.*
+
 **Signal one** is recognition of a peptide–human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) complex by a [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor). A naive cell already has that receptor; the encounter selects a responsive cell rather than creating a receptor designed for this tumor.
 
 **Signal two** includes [costimulatory interactions](/wiki/education/concepts/immunology/t-cells/costimulation). One established example is cluster of differentiation 80/86 (CD80/CD86) on an antigen-presenting cell engaging CD28 on a T cell. Inhibitory inputs also shape the combined response. “More support” is not a general instruction to remove every brake.

@@ -33,6 +33,11 @@ Conventional T cells mainly inspect displayed protein fragments; NKT cells inspe
 
 ## How it works
 
+
+<img src="./images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg" alt="An illustrative iNKT T-cell receptor contacts lipid displayed by CD1d, compared with a conventional T-cell receptor contacting peptide displayed by HLA." data-theme-pair />
+
+*An iNKT example uses CD1d to display a lipid-based target; conventional peptide-directed T cells use peptide–HLA. NKT and NK are distinct families. Lipid-tail placement follows the [human CD1d structural study](https://pubmed.ncbi.nlm.nih.gov/16007090/), checked at the abstract level on October 13, 2026.*
+
 **Natural killer T (NKT)** cells are T cells, not a mixture of an NK cell and a conventional T cell. They carry a rearranged TCR. Some also express receptors associated with NK cells, but an NK-associated surface marker alone does not define the family.
 
 **CD1d**, a member of the cluster of differentiation 1 protein family, displays lipid and glycolipid antigens. Glycolipids contain both lipid and sugar components. Recognition of a suitable CD1d–antigen complex can stimulate an NKT receptor. Kawano and colleagues established CD1d-dependent recognition of a defined glycosylceramide in mouse NKT experiments. [Kawano 1997](https://pubmed.ncbi.nlm.nih.gov/9374463/).

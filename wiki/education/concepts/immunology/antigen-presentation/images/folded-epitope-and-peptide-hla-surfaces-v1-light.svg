@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Antigen and epitope</title><desc id="desc">The same protein supplies an accessible folded antibody epitope and a processed peptide held by HLA for recognition by a conventional T-cell receptor.</desc>
+<rect x="12" y="12" width="576" height="100" rx="24" fill="#fffaf0"/>
+<text x="32" y="54" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="start" fill="#182c42">One protein, two surfaces</text>
+<text x="32" y="96" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#344b60">Illustrative molecular shapes</text>
+<rect x="12" y="124" width="576" height="324" rx="24" fill="#fffaf0"/>
+<text x="32" y="169" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">Antibody: accessible folded site</text>
+<path d="M70 250 C110 205 145 280 175 238 S240 210 252 260 S210 330 169 300 S88 340 70 287 Z" fill="#e5eef4" stroke="#176599" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M172 238 l21 4 M214 220 l15 13 M245 254 l-3 20" fill="none" stroke="#984413" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M349 255 H310 M310 233 Q284 244 296 255 Q284 266 310 277" fill="none" stroke="#176599" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M280 255 L258 255" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="368" y="244" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Antibody</text>
+<text x="368" y="285" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">binding tip</text>
+<text x="32" y="374" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Distant sequence pieces can</text>
+<text x="32" y="415" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">meet when the protein folds.</text>
+<rect x="12" y="460" width="576" height="304" rx="24" fill="#fffaf0"/>
+<text x="32" y="505" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">TCR: peptide + HLA surface</text>
+<path d="M40 701 L560 701" fill="none" stroke="#23684f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M234 625 Q292 673 350 625" fill="#e5eef4" stroke="#23684f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292 649 L292 695" fill="none" stroke="#23684f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 620 Q270 602 292 617 T334 620" fill="none" stroke="#984413" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292 566 V599 M270 586 L292 606 L314 586" fill="none" stroke="#176599" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="577" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#176599">TCR</text>
+<path d="M101 575 L265 579" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="402" y="600" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#984413">Peptide</text>
+<path d="M391 588 L333 612" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="418" y="653" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#23684f">HLA</text>
+<path d="M407 642 L353 642" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="745" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Fragment from that same protein</text>
+<rect x="12" y="776" width="576" height="112" rx="24" fill="#fffaf0"/>
+<text x="32" y="821" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">Same source ≠ same surface.</text>
+<text x="32" y="862" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">Recognition ≠ a killing result.</text>
+</svg>

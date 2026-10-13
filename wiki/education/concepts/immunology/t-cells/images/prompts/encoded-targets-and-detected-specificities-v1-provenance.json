@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-code-svg-authorship",
+  "author": "agent:/root/batch08_author_group2",
+  "createdAtUTC": "2026-10-13T19:55:39.468450+00:00",
+  "model": null,
+  "imageCalls": 0,
+  "owner": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+  "prospectiveTaskId": "next-gap-198",
+  "frozenLearnerTask": "Compare the encoded target set with newly detected specificities over time, separating a larger response from a broader response.",
+  "frozenGap": "The A/B/C example is an ideal small set/time contrast, but there is no visual showing the initially encoded set and separate follow-up detection set. An explicitly fictional matrix can show that C was undetected, not proven nonexistent.",
+  "accuracyGuardrails": [
+    "Use detected/undetected, not absent/newly created.",
+    "TCR sequence changes do not identify target specificity.",
+    "Additional specificity does not establish vaccine causation or clinical benefit."
+  ],
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "selectionBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "ownerPreimageSHA256": "9749001db099ba035da4362d04770c103028c04e0009088c1607b1f5aac81e5a",
+  "ownerAfterSHA256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+  "publicMetadataClassifiedBeforeBody": true,
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33479501/",
+      "readDepth": "Abstract, Figure 6 legend and Extended Data Figure 9 legend; baseline and non-vaccine target assay comparison; no full-paper or clinical efficacy approval",
+      "supports": "Epitope spreading is distinct from persistence and clonotype diversification; diagram is a fictional conceptual comparison."
+    }
+  ],
+  "limitations": "Author checks only. Clinician/domain-expert and learner review pending; adoption and Oncoguide delivery pending; no coverage credit.",
+  "coverageCredit": 0,
+  "svgFiles": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-light.svg",
+      "sha256": "2b2220af3c67f57526760688bac30f84862b25bf31d3b4c5d401d2118e8a9529"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-dark.svg",
+      "sha256": "8c2485f76082335337f1917ca6d5a7b5daffaf43ad3e149691574357c571f804"
+    }
+  ],
+  "promptSHA256": "6a4030a2e9914d6755ae625e2eb599eebff943f46665ea4766ed9281f3038d86",
+  "sourceChecksPerformedAtUTC": "2026-10-13T20:03:31.378028+00:00",
+  "humanReview": "Clinician/domain-expert and actual learner review pending",
+  "independentReview": "Pending assignment by root after author seal",
+  "delivery": "This Batch08 candidate is private only; no release/adoption/coverage credit."
+}

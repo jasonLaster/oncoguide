@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-authored-education-svg",
+  "author": "agent:/root/batch08_author_group3",
+  "model": null,
+  "imageCalls": 0,
+  "sourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourcePreimageSHA256": "6fc113d52858db02a789cdbaed0017ca4b387cf65ff326aa9fd48eecb1a9bd8d",
+  "task": {
+    "prospectiveTaskId": "next-gap-207",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/355",
+    "frozenRowSHA256": "1a6709d0eb08e89751393be6496aa1ebe3448fc76dbb6623b80ed9955c05eaba",
+    "owner": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+    "learnerTask": "Classify purpose, target selection and delivery as independent axes",
+    "gap": "Conditional mechanism flow does not disentangle three classification axes",
+    "accuracyGuardrails": "Postoperative therapeutic not infection preventive; personalized not RNA; no platform ranking",
+    "targetSection": "## How it works"
+  },
+  "drawnWith": "original SVG source code",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "adoption": "pending",
+  "coverageCredit": 0,
+  "sourceReadScope": "complete public owner, after frontmatter classification; source read depth in private evidence manifest",
+  "caption": "Purpose, target selection and delivery answer different questions. The shared-antigen RNA example after surgery is fictional and therapeutic. Personalization can use peptides or other material; the axes neither rank platforms nor establish immune or clinical success.",
+  "themeInvariant": "geometry, labels and data identical; semantic colors only",
+  "fictionalData": true
+}

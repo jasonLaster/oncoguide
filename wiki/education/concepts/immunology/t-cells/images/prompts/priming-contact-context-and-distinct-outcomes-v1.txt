@@ -1,0 +1,22 @@
+Original source-code SVG brief. Actual author: agent:/root/batch08_author_group1.
+{
+  "title": "T-cell priming and the three-signal model",
+  "learnerTask": "Locate antigen-specific contact, supporting receptor contact and cytokine exposure in one priming encounter while keeping proliferation and function separate.",
+  "exactGap": "The current three-input text box preserves the integration boundary but does not show three different kinds of biological interaction. A small two-cell contact scene with a local cytokine cue would teach the framework more concretely without implying three independent buttons.",
+  "accuracyGuardrails": [
+    "A naive cell already has its receptor.",
+    "The three signals are a teaching framework, not a universal binary checklist.",
+    "Division, cytolytic function, tumor access and clinical benefit remain distinct."
+  ],
+  "scene": "One naive T-cell priming encounter locates peptide\u2013HLA recognition, CD28 support and local cytokine exposure, with division kept separate from cytolytic function.",
+  "composition": "600 \u00d7 900, original molecular/cell contact geometry; warm continuous panels; transparent outer gutters; physically separate target recognition and outcomes; same labels/geometry in light and dark; minimum SVG label 34px, to verify actual 390px reader paint size. No actual dataset, rates, scales or cell counts; all schematic qualitative and X/Y fictional examples.",
+  "theme": "Light ivory + navy ink; dark navy + ivory ink; blue recognition, purple support/light chains, green display, orange antigen/cytokine cues. No color-only distinction.",
+  "caption": "Recognition, support and cytokine context occur in one encounter; division, cytolytic function, tumor access and clinical benefit need separate evidence. TCR means T-cell receptor; p\u2013HLA means peptide\u2013human leukocyte antigen; IL-12 means interleukin 12.",
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12732656%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read; defined naive CD8 experiments, no general cytokine prescription; PMC direct captcha.",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1847722%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read; CD28/B7 support. No article methods or figure pixels read."
+  ],
+  "humanReview": "expert/clinician and learner review pending"
+}

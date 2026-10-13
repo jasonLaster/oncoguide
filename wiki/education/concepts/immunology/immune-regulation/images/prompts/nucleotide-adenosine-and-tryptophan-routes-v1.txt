@@ -1,0 +1,10 @@
+Original SVG creative brief actually used by agent:/root/batch08_author_group2.
+Task: next-gap-196
+Owner: wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md
+Frozen learner task: Follow extracellular nucleotide conversion and receptor signaling separately from tryptophan breakdown and its possible local immune effects.
+Frozen gap: The current fork names the two routes but does not teach their chemistry, location or receptor-versus-enzyme distinction. A two-lane mechanistic diagram can show CD39/CD73 and adenosine receptor separately from IDO1 and tryptophan/metabolites.
+Scene: Extracellular ATP and ADP pass through CD39 and CD73 to adenosine and a cell-surface receptor; a separate intracellular IDO1 route starts tryptophan breakdown.
+Caption and interpretation: Follow the chemistry and the location: surface enzymes generate extracellular adenosine for a receptor, while intracellular IDO1 starts tryptophan breakdown. The kynurenine-pathway arrow summarizes several downstream steps. Component expression does not establish local activity or inhibitor benefit.
+Accuracy guardrails: Enzyme/component expression is not measured local activity. | Normal tissue restraint and tumor mechanisms are context-dependent. | No inhibitor-benefit inference from either route.
+Design: 600x960 source-code SVG, original independent geometry, identical geometry/text/data across paired themes; separate solid theme-colored panels with transparent gutters, Arial minimum 36 SVG units, no clinical-benefit axis, no patient data. Direct source-code authorship; no image tool invocation, no model invocation recorded.
+Preserve source owner prose, all citations and math and current metadata; insert only embed and caption after frozen section heading.

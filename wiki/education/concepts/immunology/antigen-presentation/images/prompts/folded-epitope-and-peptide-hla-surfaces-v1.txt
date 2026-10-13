@@ -1,0 +1,22 @@
+Original source-code SVG brief. Actual author: agent:/root/batch08_author_group1.
+{
+  "title": "Antigen and epitope",
+  "learnerTask": "Distinguish a folded antibody epitope from a processed peptide-HLA recognition surface derived from the same protein.",
+  "exactGap": "The prose explains an inherently three-dimensional distinction, but there is no molecular or cell-surface picture. A two-route comparison would make folding, accessibility and the peptide-plus-HLA surface concrete.",
+  "accuracyGuardrails": [
+    "An epitope can be discontinuous in linear sequence.",
+    "Conventional peptide-directed TCRs inspect peptide together with HLA, not free peptide.",
+    "Binding does not establish activation, killing or immunogenicity."
+  ],
+  "scene": "The same protein supplies an accessible folded antibody epitope and a processed peptide held by HLA for recognition by a conventional T-cell receptor.",
+  "composition": "600 \u00d7 900, original molecular/cell contact geometry; warm continuous panels; transparent outer gutters; physically separate target recognition and outcomes; same labels/geometry in light and dark; minimum SVG label 34px, to verify actual 390px reader paint size. No actual dataset, rates, scales or cell counts; all schematic qualitative and X/Y fictional examples.",
+  "theme": "Light ivory + navy ink; dark navy + ivory ink; blue recognition, purple support/light chains, green display, orange antigen/cytokine cues. No color-only distinction.",
+  "caption": "The same source protein can supply different recognition surfaces: an accessible folded epitope or a peptide\u2013HLA complex. The displayed T-cell contact follows [Janeway\u2019s peptide\u2013MHC recognition chapter](https://www.ncbi.nlm.nih.gov/sites/books/NBK27098/), checked through its search-returned text on October 13, 2026.",
+  "sourceReadBounds": [
+    "https://www.ncbi.nlm.nih.gov/sites/books/NBK27160/",
+    "Search-returned conformational/discontinuous epitope passage read; direct open captcha; no full chapter or figure pixels.",
+    "https://www.ncbi.nlm.nih.gov/sites/books/NBK27098/",
+    "Search-returned peptide\u2013MHC/TCR interaction description read; no full chapter read."
+  ],
+  "humanReview": "expert/clinician and learner review pending"
+}

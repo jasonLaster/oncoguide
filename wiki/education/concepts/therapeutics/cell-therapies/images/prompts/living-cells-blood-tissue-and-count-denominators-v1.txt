@@ -1,0 +1,11 @@
+Original paired SVG creative brief actually used by agent:/root/batch08_author_group3.
+Task: next-gap-204
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/335
+Frozen row SHA256: f66fafefbda52ff05c4cf38211adb03eae74dd4e903d3d2a4e1dde0fdd4609b5
+Owner: wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md
+Learner question/task: Compare percentage and absolute blood count while tracking tissue location
+Exact gap: Flow omits blood/tumor compartments and denominator change with same absolute concentration
+Exact accuracy guards: Fictional counts not total-body abundance; persistence not function; delivery product differs from active cells
+Scene: Fictional same-method blood samples: twenty percent of one hundred viable T cells per microliter and ten percent of two hundred both give twenty receptor-positive cells per microliter. Blood sampling does not establish tumor access or useful function.
+Takeaway caption: Fictional blood counts: 20% of 100 and 10% of 200 viable T cells per microliter both give 20 receptor-positive cells per microliter. These are concentrations in sampled blood, not total-body cell counts, tumor entry or useful function. The two bars share a scale; their equal green segments show the same receptor-positive concentration.
+Create original personable teaching art with large readable type and native biological compartments. Schematic cells, receptors and material, never engineering instructions. Keep all geometry, labels and data identical across themes; only semantic colors change. Transparent gutters. Each arrow is an intended or conditional relationship, never a result. No platform ranking, clinical guarantee, construct sequence, operational handling protocol or treatment recommendation. All invented numbers explicitly fictional, with time, unit and denominator adjacent. Preserve original owner teaching, formulas, citations, metadata, practice and art. Expert and learner review pending. The actual author drew SVG source code; model=null, imageCalls=0.

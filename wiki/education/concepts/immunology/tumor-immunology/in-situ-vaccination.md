@@ -29,6 +29,11 @@ In-situ vaccination is a strategy that uses tumor material within the body as an
 
 ## How it works
 
+<img src="./images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg" alt="Conditional tumor material collection, lymph-node priming and access to an uninjected lesion; local and distant outcomes are independent measurements." data-theme-pair>
+
+*Tumor material may connect an injected site to presenting cells, lymph-node priming and an uninjected lesion. Every dashed route is conditional; local change, immune learning and distant outcome need distinct measurements. An uninjected lesion can still receive other treatments.*
+
+
 An **in-situ vaccination (ISV)** strategy has several jobs. Tumor material must supply relevant [antigens](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope). Presenting cells, often [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells), must be available and suitably activated. Processing and [cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) can connect that material to responding T cells. Appropriate [priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) may involve draining lymph nodes. Responders must then reach cancer, recognize its naturally displayed targets and sustain useful function.
 
 ```mermaid

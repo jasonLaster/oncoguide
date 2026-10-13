@@ -1,0 +1,22 @@
+Original source-code SVG brief. Actual author: agent:/root/batch08_author_group1.
+{
+  "title": "Natural killer T (NKT) cells",
+  "learnerTask": "Compare a CD1d\u2013lipid recognition surface with a conventional peptide\u2013HLA surface while keeping NKT separate from NK.",
+  "exactGap": "The table names the recognition systems well, but no image shows lipid-based display and the TCR contact. A two-display molecular diagram would teach the distinctive target form; the existing table can continue to handle the NK-family contrast.",
+  "accuracyGuardrails": [
+    "CD1d display is a requirement, not recognition without a holder.",
+    "NKT are T cells; an NK-associated marker alone does not identify them.",
+    "A depicted iNKT ligand does not represent every type-II target or function."
+  ],
+  "scene": "An illustrative iNKT T-cell receptor contacts lipid displayed by CD1d, compared with a conventional T-cell receptor contacting peptide displayed by HLA.",
+  "composition": "600 \u00d7 900, original molecular/cell contact geometry; warm continuous panels; transparent outer gutters; physically separate target recognition and outcomes; same labels/geometry in light and dark; minimum SVG label 34px, to verify actual 390px reader paint size. No actual dataset, rates, scales or cell counts; all schematic qualitative and X/Y fictional examples.",
+  "theme": "Light ivory + navy ink; dark navy + ivory ink; blue recognition, purple support/light chains, green display, orange antigen/cytokine cues. No color-only distinction.",
+  "caption": "An iNKT example uses CD1d to display a lipid-based target; conventional peptide-directed T cells use peptide\u2013HLA. NKT and NK are distinct families. Lipid-tail placement follows the [human CD1d structural study](https://pubmed.ncbi.nlm.nih.gov/16007090/), checked at the abstract level on October 13, 2026.",
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16007090%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read: human CD1d structural study.",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9374463%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read: mouse NKT glycosylceramide model. No full article or figure pixels read."
+  ],
+  "humanReview": "expert/clinician and learner review pending"
+}

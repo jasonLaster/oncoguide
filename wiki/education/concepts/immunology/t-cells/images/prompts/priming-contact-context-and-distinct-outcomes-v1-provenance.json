@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch08_author_group1",
+  "method": "Original source-code SVG authored by agent; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "createdAtUTC": "2026-10-13T20:04:30.394462+00:00",
+  "status": "private prospective candidate; independent review and canonical adoption pending",
+  "learnerTask": "Locate antigen-specific contact, supporting receptor contact and cytokine exposure in one priming encounter while keeping proliferation and function separate.",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/224",
+  "frozenRowSHA256": "39e9de511c04e6ef95c1d7e655316cd0cb8ecbe908cafe898b9a65f84225dd10",
+  "sourcePreimageSHA256": "35b90326164b8e34f582dd9c48cfc5862ee90657b7d4c25938f6b5fe191a0517",
+  "sourceCommitVerified": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "promptFile": "priming-contact-context-and-distinct-outcomes-v1.txt",
+  "promptSHA256": "43dd5b924fe671a423544d32d529029321a97eeb1a07243dc674025e73d8d9a3",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+      "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f",
+      "bytes": 6056
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-dark.svg",
+      "sha256": "2ad2eb8cff2e79376af2536b48795c8668a6b1a33d615dd6f80932869c98ddca",
+      "bytes": 6056
+    }
+  ],
+  "scientificScope": "Qualitative teaching schematics; no molecule coordinates, assay data, clinical rate, numerical signaling weights or treatment instruction. Illustrative icons are not population measurements.",
+  "claimsChecked": [
+    "In controlled naive CD8 systems, cytokine context can separate expansion from development of cytolytic function; three signals are a teaching framework."
+  ],
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12732656%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read; defined naive CD8 experiments, no general cytokine prescription; PMC direct captcha.",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1847722%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read; CD28/B7 support. No article methods or figure pixels read."
+  ],
+  "sourceCheckedUTC": "2026-10-13T20:04:30.394462+00:00",
+  "reviewed": "pending",
+  "reviewed_by": "",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "coverageCredit": 0
+}

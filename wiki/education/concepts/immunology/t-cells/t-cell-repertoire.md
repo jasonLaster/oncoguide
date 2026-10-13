@@ -58,6 +58,10 @@ A fictional blood sample becomes dominated by a few clones after a recent infect
 
 ## Try it
 
+<img src="./images/fixed-clone-count-changing-sample-denominator-v1-light.svg" alt="Two identical rows of ten clonotype A cells accompany sampled denominators of 1000 and 100 and fractions of 1 and 10 percent." data-theme-pair />
+
+*The fictional sampled count of clonotype A stays at 10, while the sampled denominator falls from 1,000 to 100. Its fraction rises from 1% to 10% without a larger sampled count. These are not patient data or calibrated whole-body counts, and the fraction does not identify an antigen.*
+
 A fictional paired-receptor sample contains 10 cells of clonotype A among 1,000 sampled T cells at baseline, and 10 among 100 at follow-up. Has the sampled number of A cells increased tenfold?
 
 **Answer:** No. A's measured fraction rose from 1% to 10%, while its sampled count stayed at 10. The changed denominator creates the frequency increase. Estimating absolute expansion in blood or tissue needs comparable sampling and calibrated cell counts; neither fraction identifies A's target.

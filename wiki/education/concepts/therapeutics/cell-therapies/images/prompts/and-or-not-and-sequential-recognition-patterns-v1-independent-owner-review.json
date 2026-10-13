@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-205",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars.md",
+  "author": "agent:/root/batch08_author_group3",
+  "creativeAuthor": "agent:/root/batch08_author_group3",
+  "reviewer": "agent:/root/batch08_review_group3",
+  "independentReviewer": "agent:/root/batch08_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:53:45.657053+00:00",
+  "reviewedAtUTC": "2026-10-13T20:53:45.657053+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "da5006cbeb058bfb147ac6588e9ceff4e2bc0be036e88eb8d105905b41b4fcd9",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/336",
+  "frozenRowSHA256": "22d0a9f619c3ef2092cfa5b32df255fbd4b5e6cfab2a91b51cbefe7b13ac78ed",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The panels distinguish tuned activation plus support (AND-like), either recognition route (OR-like), an inhibitory B input restraining A-driven activity (NOT-like), and two time-separated sequential encounters. The sequential A sensor faces the A target; the later cell has B recognition, with persistence after A stated explicitly. The caption explains induced B-receptor expression and the two-active-CARs caveat. The original raster and all teaching remain. The rule names are intended patterns, not perfect truth tables or safety proof; no specific kinetic value or human result is added.",
+    "baselinePageSHA256": "f79c09de03926b1ca80b0ef647511ae55088a50855554eb69120d7e83bb00b89",
+    "frozenPageSHA256": "f79c09de03926b1ca80b0ef647511ae55088a50855554eb69120d7e83bb00b89",
+    "learnerTask": "Compare AND/OR/NOT and sequential priming with time-dependent residual recognition",
+    "gap": "Existing cartoon explains rule-vs-evidence but not the four physical implementation patterns",
+    "accuracyGuardrails": "Two active CARs not AND; sequential receptor can persist; not perfect truth tables; no safety proof",
+    "targetSection": "## How it works"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-light.svg",
+      "sha256": "36925c0c152582aed5a5fff7e1f76faf6f77180a539b7f4a99537e0d32eaaeae",
+      "bytes": 10341,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1120,
+        "viewBox": "0 0 600 1120"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-dark.svg",
+      "sha256": "be952e5b0d20a9065779396af63ca654fa08814740e733d2263457f098bc07a8",
+      "bytes": 10341,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1120,
+        "viewBox": "0 0 600 1120"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars.md",
+        "sha256": "da5006cbeb058bfb147ac6588e9ceff4e2bc0be036e88eb8d105905b41b4fcd9",
+        "bytes": 9547
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-light.svg",
+        "sha256": "36925c0c152582aed5a5fff7e1f76faf6f77180a539b7f4a99537e0d32eaaeae",
+        "bytes": 10341
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-dark.svg",
+        "sha256": "be952e5b0d20a9065779396af63ca654fa08814740e733d2263457f098bc07a8",
+        "bytes": 10341
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/and-or-not-and-sequential-recognition-patterns-v1.txt",
+        "sha256": "755cc9b27f2b4efd138cc0fdc9619a451e7920f127a97fdcc5f8431d17809a3f",
+        "bytes": 2105
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/and-or-not-and-sequential-recognition-patterns-v1-provenance.json",
+        "sha256": "73e03ff512e1c52c18224a5acbbe9ccbee276768723a720dfded802a0670ce6e",
+        "bytes": 1849
+      }
+    ],
+    "currentCandidateOwnerSHA256": "da5006cbeb058bfb147ac6588e9ceff4e2bc0be036e88eb8d105905b41b4fcd9",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "0b42babea08da7087f71ddc54bcc0835cb5d7e1ca6b4c4b40098839219ad42d9",
+    "authorInventorySHA256": "d5972271ec7beda5fc8cf1840052fc638f5eb26559950f8c5ddbbb016d953b70",
+    "verifiedAuthorArtifacts": 537,
+    "sourceAndThemeCheckSHA256": "aa6a78e3b4ddef0073d400492834b25e798d386f137b2596da8b02dc98871e0a"
+  },
+  "reviewBasis": {
+    "scope": "One independent whole science/task/native review of six assigned prospective tasks.",
+    "sourceReadingReceiptSHA256": "45f73bfa20d16e909f1ee953768fb6f69fe46aba74c4d564db4b62a90866cbe4",
+    "independentPixelInspectionSHA256": "535b617258553d7245f5dea64b2fdabfaddf74a6f8f256dcd1400b7bd24016ee",
+    "displayChecksSHA256": "4139a763f76d0f92c08e9f8503937e62be910e359e5f3249df4d88ab9bb2f8c0",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Complete public owner, primary abstracts and bounded selected primary/official text; no full methods/supplement/full-figure approval.",
+    "primaryPMIDs": [
+      "23242161",
+      "27059623",
+      "24337479",
+      "26830879"
+    ],
+    "limits": [
+      "Native browser img carrier; isolated complete article fixture lacks app header/sidebar/live data/navigation.",
+      "Desktop portrait inline capture requires scrolling; whole art inspected native and theater.",
+      "Known theater focus-return false remains qualified; Enter/Escape work.",
+      "Current source ownership and terminal baseline must be rebound by Root before integration.",
+      "No human/expert/clinician/learner competence/adoption/coverage/publication/live-delivery approval."
+    ]
+  },
+  "requiredCorrections": [],
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

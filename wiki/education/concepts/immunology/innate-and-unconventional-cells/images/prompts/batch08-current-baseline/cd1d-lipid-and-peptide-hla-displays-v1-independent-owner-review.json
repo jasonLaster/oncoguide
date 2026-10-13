@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-192",
+  "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md",
+  "author": "agent:/root/batch08_author_group1",
+  "creativeAuthor": "agent:/root/batch08_author_group1",
+  "reviewer": "agent:/root/batch08_review_group1",
+  "independentReviewer": "agent:/root/batch08_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T22:09:23.059327+00:00",
+  "reviewedAtUTC": "2026-10-13T22:09:23.059327+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Compare a CD1d\u2013lipid recognition surface with a conventional peptide\u2013HLA surface while keeping NKT separate from NK.",
+  "learnerTask": "Compare a CD1d\u2013lipid recognition surface with a conventional peptide\u2013HLA surface while keeping NKT separate from NK.",
+  "gap": "The table names the recognition systems well, but no image shows lipid-based display and the TCR contact. A two-display molecular diagram would teach the distinctive target form; the existing table can continue to handle the NK-family contrast.",
+  "accuracyGuardrails": [
+    "CD1d display is a requirement, not recognition without a holder.",
+    "NKT are T cells; an NK-associated marker alone does not identify them.",
+    "A depicted iNKT ligand does not represent every type-II target or function."
+  ],
+  "currentOwnerSha256": "a89f55ac0b4f1ec4306ec290fe0307b1c1b35748eed39b114e5bd2caca51913f",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/216",
+  "frozenRowSHA256": "671184c189bc31ad2da64859212cfcb5ac64f5a60f551fc7d67d00d2791318f6",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "PASS for navigation-only correction. Inverse replacement of used_by and the generated Used-in block recovers the exact original reviewed owner; scientific prose, captions, alt, art and task guardrails remain byte-identical. The added Used-in target is a public delivered lesson, with matching title and an existing route to this concept. Original genuine science/native PASS remains applicable by exact body and asset continuity.",
+    "frozenPageSHA256": "9f899eac03c1950262d9249d51a0f9e5d23f9c3d4de6ad6f17e58da52dab3c3d",
+    "baselinePageSHA256": "9f899eac03c1950262d9249d51a0f9e5d23f9c3d4de6ad6f17e58da52dab3c3d",
+    "learnerTask": "Compare a CD1d\u2013lipid recognition surface with a conventional peptide\u2013HLA surface while keeping NKT separate from NK.",
+    "gap": "The table names the recognition systems well, but no image shows lipid-based display and the TCR contact. A two-display molecular diagram would teach the distinctive target form; the existing table can continue to handle the NK-family contrast.",
+    "accuracyGuardrails": [
+      "CD1d display is a requirement, not recognition without a holder.",
+      "NKT are T cells; an NK-associated marker alone does not identify them.",
+      "A depicted iNKT ligand does not represent every type-II target or function."
+    ],
+    "inheritedOriginalScientificReasoning": "The iNKT example places lipid tails within CD1d and an exposed head group under a TCR; the comparison places peptide in an HLA holder. Explicit NKT-as-T-cell and NK-distinct wording prevents family conflation. One iNKT example is not every NKT cell, and original type-II and marker-identification limits remain in reading context.",
+    "reviewScope": "Focused current-owner binding after exact correction checks; inherits genuine unchanged original whole science/native review. No full review rerun."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+      "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+      "bytes": 5298,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+      "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+      "bytes": 5298,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md",
+        "sha256": "a89f55ac0b4f1ec4306ec290fe0307b1c1b35748eed39b114e5bd2caca51913f",
+        "bytes": 9354
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+        "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+        "bytes": 5298
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+        "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+        "bytes": 5298
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/cd1d-lipid-and-peptide-hla-displays-v1.txt",
+        "sha256": "094fcffaea2d327cce900f786f1ce1bfdd8eccf3e5519bd60c1c416c3c7470d3",
+        "bytes": 2396
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/cd1d-lipid-and-peptide-hla-displays-v1-provenance.json",
+        "sha256": "95fe16cc7c57aa73299717015a0e2a8c23bbaf74dbc4bbf244488dc7643dcd2c",
+        "bytes": 2593
+      }
+    ],
+    "currentCandidateOwnerSHA256": "a89f55ac0b4f1ec4306ec290fe0307b1c1b35748eed39b114e5bd2caca51913f",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "24a063fd640379817187616f9b5c4cb2ea953050fd84830739c85b33e88d9e59",
+    "exactFivePublicFiles": true,
+    "sourceOwnerOriginalRecovered": true,
+    "preservationCheck": "Exact inverse correction recovers the original reviewed B8 owner. Stripping the unchanged authored SVG insertion recovers the actual delivered baseline;190 additionally removes its exact reviewed heading/paragraph. All four original art/brief/provenance files remain unchanged.",
+    "actualSourcePreimageSHA256": "58905d7fbc6f35365f72d7f106c17d40dd697f0cad7fb7992dd9f0d0b27662d2",
+    "actualSourceBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualDestinationBaselineCommit": "4738f1ca428eaf5fc4e4b81d3fb932a6f99b9e31",
+    "currentSourceAndDestinationAndWorkingPreimageIdentical": true,
+    "originalReviewEvidencePreserved": true,
+    "focusedCorrectionAndOriginalNativeContinuity": true
+  },
+  "sourceaccess": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16007090%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "16007090",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9374463%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "9374463",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    }
+  ],
+  "sourceAccessLimits": "Direct independent PubMed opens returned429, empty pages or an HHS-only footer for several cited papers; no complete-paper or source-figure reading is claimed. Source evidence remains bounded to the retrieved text.",
+  "reviewBasis": {
+    "scope": "Focused current-owner binding after exact correction checks; inherits genuine unchanged original whole science/native review. No full review rerun.",
+    "sourceReadDepth": "No fresh scientific-source reading in this binding turn. Historical personal source reads and exact limits are retained in genuine original whole review and focused190 addendum. Current checks are assigned public metadata, baseline/candidate byte identities and navigation-route presence.",
+    "freshCaptureCountForOwner": 0,
+    "authorCaptureCountInspectedSeparately": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumInlineEssentialLabelPx": 19.606666666666666,
+    "minimumTheaterEssentialLabelPx": 19.38,
+    "nativeMinimumFontPx": 34,
+    "minimumNativeTextContrast": 6.011073839298084,
+    "themeGeometryAndTextIdentical": true,
+    "carrierLimits": "Private exact pinned article/frame/theater/table-enhancer plus actual CSS; no live app navigation/sidebar/data. Transparent gutters reveal dim underlying page. Enter opens and Escape closes; focus returns BODY after Escape. No full app/accessibility or touch certification.",
+    "inheritedOriginalFreshCaptureCountForOwner": 10,
+    "sourceAndNativeEvidenceDateUTC": "2026-10-13T20:11:04.014268+00:00",
+    "currentBaselineSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "currentBaselineDestinationCommit": "4738f1ca428eaf5fc4e4b81d3fb932a6f99b9e31",
+    "nativeMeasurementsQualification": "All paint sizes/contrast/renderer/capture statements are inherited from the personally performed original whole review; no fresh renderer capture or measurement is claimed."
+  },
+  "mathAndInference": "No measured data, statistical claim, scale, denominator or outcome rate is generated. Task190 fictional X/Y are explicitly labeled. Numbered priming categories and qualitative division/cytokine icons are schematic, not measured counts.",
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "reviewScope": "Focused current-owner binding after exact correction checks; inherits genuine unchanged original whole science/native review. No full review rerun.",
+  "actualDestinationBaselineCommit": "4738f1ca428eaf5fc4e4b81d3fb932a6f99b9e31",
+  "sourceFixtureCommitHistorical": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "originalReviewSourceBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "nativeCreator": "agent:/root/batch08_author_group1",
+  "newB8ReleaseSourceCommit": null,
+  "newB8ReleaseDestinationCommit": null,
+  "fullPackageReviewRerunCount": 0,
+  "scientificSourceReviewRerunCount": 0,
+  "nativeReviewRerunCount": 0,
+  "mechanicalNavigationPreparer": "agent:/root/combined19_release_freeze",
+  "reviewEvidence": [
+    {
+      "kind": "genuine-original-whole-task-fit",
+      "path": "/tmp/education-next-visual-batch-08/reviews/recognition-at-molecular-and-cell-contacts/task-bindings/cd1d-lipid-and-peptide-hla-displays-v1-independent-owner-review.json",
+      "sha256": "841fb5be726749e1e970600d83e6e2f74c85c520de21cd8910026399afbdb181",
+      "reviewedAtUTC": "2026-10-13T20:11:04.014268+00:00",
+      "reviewer": "agent:/root/batch08_review_group1",
+      "currentOwnerSha256AtThatReview": "837317e26a462bc3670565e7faa418f8d37c9e9734c2036c90f6c141d5d44969"
+    },
+    {
+      "kind": "genuine-original-whole-packet",
+      "path": "/tmp/education-next-visual-batch-08/reviews/recognition-at-molecular-and-cell-contacts/review.json",
+      "sha256": "cd4f7ab3d8626c5a73c1af503473fcd5a13dc797bbe6a13bb8320fc4f2052c93",
+      "sealSHA256": "4926b65c417c01a8aaa1e144079e62c4c4c476c9949a27b5bf2823f60f7a6710"
+    }
+  ],
+  "baselineQualification": "The actual prior19 source/destination baseline is verified, not a guessed future commit. B8 adoption/release commits remain unknown null."
+}

@@ -29,6 +29,11 @@ Recognizing the right task is not the same as receiving support to undertake it.
 
 ## How it works
 
+
+<img src="./images/same-antigen-different-supporting-contacts-v1-light.svg" alt="The same peptide–HLA recognition is compared with present and absent CD80/CD86 support for CD28; a separate scene shows CTLA-4 can remove shared ligands." data-theme-pair />
+
+*Identical peptide–HLA recognition can occur with different supporting contacts. CD28 is one costimulation example; CTLA-4 can reduce shared ligand availability.*
+
 A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a particular peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) combination. This supplies antigen specificity. Costimulatory receptors engage additional partners that alter activation, survival, division or differentiation. They do not substitute a different antigen into the receptor's recognition rule.
 
 A well-studied example is **CD28**, a receptor on many T cells. Its partners **CD80 and CD86**, sometimes called B7 molecules, can be displayed by antigen-presenting cells. Linsley and colleagues demonstrated CD28-dependent support for proliferation and interleukin-2 responses in controlled experiments. Interleukin 2 is a [cytokine](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine), a signaling protein.

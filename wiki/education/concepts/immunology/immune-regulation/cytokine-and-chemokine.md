@@ -63,6 +63,10 @@ Specify fluid or tissue, collection time, stimulation, assay calibration and det
 
 ## Try it: an average is not a gradient
 
+<img src="./images/same-bulk-average-different-spatial-signals-v1-light.svg" alt="Two equal-sized compartment pairs show 0 and 20 versus 10 and 10 pg/mL, both averaging 10, beside a compatible receptor and traversable route." data-theme-pair />
+
+*Both fictional preparations average 10 pg/mL across equal-sized compartments, but only A has a concentration difference. Dots illustrate the pattern, not individual molecules or a physiological gradient. Receptors, signal presentation and traversable routes still matter; these values are not patient data or a dose.*
+
 Two fictional preparations have equal-sized compartments. In A, chemokine concentrations are 0 and 20 pg/mL; in B, both are 10 pg/mL. Each average is (0 + 20)/2 or (10 + 10)/2 = 10 pg/mL. Does that make the spatial information or movement equivalent?
 
 **Answer:** No. A has a concentration difference; B does not. This simplified two-compartment example is not a physiological gradient or an optimal-dose claim. Whether cells move depends on the actual spatial pattern, receptor system and other conditions. Equal averages do not establish equal function.

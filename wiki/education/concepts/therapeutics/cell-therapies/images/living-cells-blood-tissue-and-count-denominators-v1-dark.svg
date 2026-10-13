@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1060" viewBox="0 0 600 1060" role="img" aria-labelledby="title desc"><title id="title">The percentage changes; the concentration does not</title><desc id="desc">Fictional same-method blood samples: twenty percent of one hundred viable T cells per microliter and ten percent of two hundred both give twenty receptor-positive cells per microliter. Blood sampling does not establish tumor access or useful function.</desc><defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="3" markerHeight="3" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a5cddd" stroke-width="2"/></marker></defs>
+<rect x="12" y="6" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="42" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">A living drug moves.</text>
+<text x="24" y="82" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">A sample sees one place.</text>
+<rect x="12" y="110" width="576" height="213" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="155" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Delivery ≠ active cells</text>
+<rect x="47" y="181" width="69" height="71" rx="12" fill="#382e57" stroke="#cbb2ff" stroke-width="3"/>
+<path d="M57 192 L104 192" fill="none" stroke="#cbb2ff" stroke-width="4"/>
+<path d="M135 218 L211 218" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<circle cx="260" cy="218" r="33" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="251" cy="221" rx="11.879999999999999" ry="14.85" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="266.6" cy="211.4" r="2.7" fill="#f0f6fb"/>
+<circle cx="276.5" cy="211.4" r="2.7" fill="#f0f6fb"/>
+<path d="M267.425 221.3 q4.125 4.125 9.075 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M305 218 L378 218" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<circle cx="427" cy="198" r="24" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="418" cy="201" rx="8.64" ry="10.8" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="431.8" cy="193.2" r="2.7" fill="#f0f6fb"/>
+<circle cx="439.0" cy="193.2" r="2.7" fill="#f0f6fb"/>
+<path d="M432.4 200.4 q3.0 3.0 6.6 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="491" cy="242" r="24" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="482" cy="245" rx="8.64" ry="10.8" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="495.8" cy="237.2" r="2.7" fill="#f0f6fb"/>
+<circle cx="503.0" cy="237.2" r="2.7" fill="#f0f6fb"/>
+<path d="M496.4 244.4 q3.0 3.0 6.6 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<text x="32" y="298" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Generation, division, loss, travel</text>
+<rect x="12" y="340" width="576" height="387" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="385" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Fictional blood counts</text>
+<text x="32" y="433" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Time 1: 20% × 100 = 20</text>
+<text x="32" y="550" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Time 2: 10% × 200 = 20</text>
+<rect x="32" y="450" width="250" height="30" rx="5" fill="#382e57" stroke="#cbb2ff" stroke-width="2"/>
+<rect x="32" y="450" width="50" height="30" rx="5" fill="#6ee3c4"/>
+<rect x="32" y="567" width="500" height="30" rx="5" fill="#382e57" stroke="#cbb2ff" stroke-width="2"/>
+<rect x="32" y="567" width="50" height="30" rx="5" fill="#6ee3c4"/>
+<text x="300" y="494" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#6ee3c4" text-anchor="start">Green = receptor+</text>
+<text x="32" y="638" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Denominator: viable T cells/µL</text>
+<text x="32" y="678" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Result: receptor+ cells/µL</text>
+<text x="32" y="718" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Same concentration; lower %.</text>
+<rect x="12" y="744" width="576" height="200" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="787" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">Tumor is another compartment</text>
+<circle cx="111" cy="862" r="32" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="102" cy="865" rx="11.52" ry="14.4" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="117.4" cy="855.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="127.0" cy="855.6" r="2.7" fill="#f0f6fb"/>
+<path d="M118.2 865.2 q4.0 4.0 8.8 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M160 862 L299 862" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<text x="228" y="843" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">?</text>
+<circle cx="374" cy="847" r="27" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="365" cy="850" rx="9.719999999999999" ry="12.15" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="379.4" cy="841.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="387.5" cy="841.6" r="2.7" fill="#f0f6fb"/>
+<path d="M380.075 849.7 q3.375 3.375 7.425 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="430" cy="865" r="27" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="421" cy="868" rx="9.719999999999999" ry="12.15" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="435.4" cy="859.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="443.5" cy="859.6" r="2.7" fill="#f0f6fb"/>
+<path d="M436.075 867.7 q3.375 3.375 7.425 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="488" cy="834" r="27" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="479" cy="837" rx="9.719999999999999" ry="12.15" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="493.4" cy="828.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="501.5" cy="828.6" r="2.7" fill="#f0f6fb"/>
+<path d="M494.075 836.7 q3.375 3.375 7.425 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<rect x="12" y="957" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="993" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Blood count ≠ total-body count.</text>
+<text x="24" y="1033" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Persistence ≠ useful function.</text>
+</svg>

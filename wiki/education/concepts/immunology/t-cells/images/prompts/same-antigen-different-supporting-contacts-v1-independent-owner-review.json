@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-193",
+  "owner": "wiki/education/concepts/immunology/t-cells/costimulation.md",
+  "author": "agent:/root/batch08_author_group1",
+  "creativeAuthor": "agent:/root/batch08_author_group1",
+  "reviewer": "agent:/root/batch08_review_group1",
+  "independentReviewer": "agent:/root/batch08_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:11:04.014268+00:00",
+  "reviewedAtUTC": "2026-10-13T20:11:04.014268+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Compare identical peptide-HLA recognition with different supporting ligand contacts and distinguish separate receptor jobs.",
+  "learnerTask": "Compare identical peptide-HLA recognition with different supporting ligand contacts and distinguish separate receptor jobs.",
+  "gap": "The map compresses several contacts into one text box. A two-cell contact diagram would clarify that the TCR and CD28 contact different partners and that CTLA-4 can change ligand availability. Reuse checkpoint/priming physical contacts rather than drawing a permission button.",
+  "accuracyGuardrails": [
+    "CD28 is an example, not all costimulation.",
+    "Signal two is not a universal binary threshold.",
+    "Supporting signaling does not change antigen specificity or establish benefit."
+  ],
+  "currentOwnerSha256": "b87082275814f1e3fffd7cb4e048a4cad5ff6aed7c0ebeba285f3a3ef3d233e1",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/220",
+  "frozenRowSHA256": "2e53b86bf96b9ccf58cedfab61086c1b644732db2930ffb8ed67a170f623b823",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Identical peptide-HLA/TCR contact geometry in A and B makes antigen recognition stable while the extra supporting contact is present or absent. The two jobs are named separately; original prose identifies CD28 as one example. A separate CTLA-4 removal scene shows shared ligand depletion with an inward direction, with measured response required. B depicts an absent supporting interaction, without inferring receptor-expression status.",
+    "frozenPageSHA256": "6d06c047c9d0de68bb2ad0ed400c007746ed11be3b0128af2067d7e2614a639c",
+    "baselinePageSHA256": "6d06c047c9d0de68bb2ad0ed400c007746ed11be3b0128af2067d7e2614a639c",
+    "learnerTask": "Compare identical peptide-HLA recognition with different supporting ligand contacts and distinguish separate receptor jobs.",
+    "gap": "The map compresses several contacts into one text box. A two-cell contact diagram would clarify that the TCR and CD28 contact different partners and that CTLA-4 can change ligand availability. Reuse checkpoint/priming physical contacts rather than drawing a permission button.",
+    "accuracyGuardrails": [
+      "CD28 is an example, not all costimulation.",
+      "Signal two is not a universal binary threshold.",
+      "Supporting signaling does not change antigen specificity or establish benefit."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-light.svg",
+      "sha256": "75aa5ca482736385e36ae46ef6800b368db5e8b4921e48f3f0b12db6c873b5b3",
+      "bytes": 8012,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-dark.svg",
+      "sha256": "f7bc3f07e51304f5843765261f04edba61f089016d76f00887f958f1f0b3fdc9",
+      "bytes": 8012,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/costimulation.md",
+        "sha256": "b87082275814f1e3fffd7cb4e048a4cad5ff6aed7c0ebeba285f3a3ef3d233e1",
+        "bytes": 7817
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-light.svg",
+        "sha256": "75aa5ca482736385e36ae46ef6800b368db5e8b4921e48f3f0b12db6c873b5b3",
+        "bytes": 8012
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-dark.svg",
+        "sha256": "f7bc3f07e51304f5843765261f04edba61f089016d76f00887f958f1f0b3fdc9",
+        "bytes": 8012
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/same-antigen-different-supporting-contacts-v1.txt",
+        "sha256": "ef69bbc8d5a07a2ca4cec3b41fe23f75dd6223bbbe1c5c793c956d2aaf842170",
+        "bytes": 2192
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/same-antigen-different-supporting-contacts-v1-provenance.json",
+        "sha256": "bd98ef3a7aa20a1e72f382ca1e77b6caacc080d2e0527aaabc40cd1debc63ed8",
+        "bytes": 2494
+      }
+    ],
+    "currentCandidateOwnerSHA256": "b87082275814f1e3fffd7cb4e048a4cad5ff6aed7c0ebeba285f3a3ef3d233e1",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "24a063fd640379817187616f9b5c4cb2ea953050fd84830739c85b33e88d9e59",
+    "exactFivePublicFiles": true,
+    "sourceOwnerOriginalRecovered": true,
+    "preservationCheck": "Removing exact authored insertion with its trailing newline recovers the source bytes. Prose, metadata, citations, navigation, Mermaid and existing art remain unchanged."
+  },
+  "sourceaccess": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1847722%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "1847722",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21474713%20AND%20SRC:MED&format=json&resultType=core",
+      "pmid": "21474713",
+      "depth": "Independently retrieved complete official EuropePMC abstract and metadata only; no article methods/results or figure pixels."
+    }
+  ],
+  "sourceAccessLimits": "Direct independent PubMed opens returned429, empty pages or an HHS-only footer for several cited papers; no complete-paper or source-figure reading is claimed. Source evidence remains bounded to the retrieved text.",
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, data/math, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Full public owner bodies after metadata gate; source access as listed.",
+    "freshCaptureCountForOwner": 10,
+    "authorCaptureCountInspectedSeparately": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumInlineEssentialLabelPx": 19.606666666666666,
+    "minimumTheaterEssentialLabelPx": 19.38,
+    "nativeMinimumFontPx": 34,
+    "minimumNativeTextContrast": 4.8654988464439874,
+    "themeGeometryAndTextIdentical": true,
+    "carrierLimits": "Private exact pinned article/frame/theater/table-enhancer plus actual CSS; no live app navigation/sidebar/data. Transparent gutters reveal dim underlying page. Enter opens and Escape closes; focus returns BODY after Escape. No full app/accessibility or touch certification."
+  },
+  "mathAndInference": "No measured data, statistical claim, scale, denominator or outcome rate is generated. Task190 fictional X/Y are explicitly labeled. Numbered priming categories and qualitative division/cytokine icons are schematic, not measured counts.",
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

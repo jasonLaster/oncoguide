@@ -33,6 +33,11 @@ Logic-gated chimeric antigen receptor systems combine multiple recognition input
 
 ## How it works
 
+<img src="./images/and-or-not-and-sequential-recognition-patterns-v1-light.svg" alt="Schematic T cells with AND-like split activation and support inputs, OR-like recognition of either antigen, NOT-like inhibitory input and sequential A priming followed by a persistent B receptor. Intended patterns require experimental tests." data-theme-pair>
+
+*These are physical examples of intended rules: split activation and support for AND-like recognition, either target for OR-like recognition, an inhibitory input for NOT-like recognition, and A-induced expression of a B receptor over time. Two fully activating CARs are not AND. Persistent B recognition, imperfect thresholds and tissue movement still need testing; this is no safety proof.*
+
+
 A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) can recognize a target also found on healthy tissue. Combining recognition inputs aims to distinguish a useful tumor pattern from less useful or harmful patterns. Different designs implement those combinations differently.
 
 An **AND-like system** aims to require two inputs. One implementation splits activation and costimulation between receptors, with signaling tuned so either input alone is insufficient under tested conditions. A [primary engineered-cell study](https://pubmed.ncbi.nlm.nih.gov/23242161/) demonstrated this principle in tumor models. Simply coexpressing two fully activating CARs does not create an AND requirement.

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-authored-education-svg",
+  "author": "agent:/root/batch08_author_group3",
+  "model": null,
+  "imageCalls": 0,
+  "sourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourcePreimageSHA256": "f79c09de03926b1ca80b0ef647511ae55088a50855554eb69120d7e83bb00b89",
+  "task": {
+    "prospectiveTaskId": "next-gap-205",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/336",
+    "frozenRowSHA256": "22d0a9f619c3ef2092cfa5b32df255fbd4b5e6cfab2a91b51cbefe7b13ac78ed",
+    "owner": "wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars.md",
+    "learnerTask": "Compare AND/OR/NOT and sequential priming with time-dependent residual recognition",
+    "gap": "Existing cartoon explains rule-vs-evidence but not the four physical implementation patterns",
+    "accuracyGuardrails": "Two active CARs not AND; sequential receptor can persist; not perfect truth tables; no safety proof",
+    "targetSection": "## How it works"
+  },
+  "drawnWith": "original SVG source code",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "adoption": "pending",
+  "coverageCredit": 0,
+  "sourceReadScope": "complete public owner, after frontmatter classification; source read depth in private evidence manifest",
+  "caption": "These are physical examples of intended rules: split activation and support for AND-like recognition, either target for OR-like recognition, an inhibitory input for NOT-like recognition, and A-induced expression of a B receptor over time. Two fully activating CARs are not AND. Persistent B recognition, imperfect thresholds and tissue movement still need testing; this is no safety proof.",
+  "themeInvariant": "geometry, labels and data identical; semantic colors only",
+  "fictionalData": false
+}

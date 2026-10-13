@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-197",
+  "owner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+  "author": "agent:/root/batch08_author_group2",
+  "creativeAuthor": "agent:/root/batch08_author_group2",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:09:45.767545+00:00",
+  "reviewedAtUTC": "2026-10-13T22:09:45.767545+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "e18799fb37bf9fed2454a1f46ca0f0f8f3ad59c8fdc451c91b44390080ecf1e4",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/208",
+  "frozenRowSHA256": "95817fe79b7ee90da10f83159f6e1db9ec0097b7e6af22b0d57d1f28b08c675f",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Equal-area compartment pairs depict 0/20 and 10/10 pg/mL, each with mean 10. The native warns the values are fictional; the caption limits dots to pattern illustration and denies a physiological gradient/dose. A compatible receptor and route are attached to the movement question, while the owner retains matrix/surface presentation context.",
+    "frozenPageSHA256": "51f9ec8fe8175f7e543f779bef28faa6b5cd7208b7441635629eda84d62ec3a4",
+    "baselinePageSHA256": "51f9ec8fe8175f7e543f779bef28faa6b5cd7208b7441635629eda84d62ec3a4",
+    "learnerTask": "See how equal bulk averages can conceal different spatial signal patterns and why the receiving cell still matters.",
+    "gap": "The chain correctly names source, pattern, receiver and effect, but a paired spatial field would make the 0/20 versus 10/10 fictional example immediately inspectable. Add receiver/receptor context rather than depicting chemokine as a universal magnet.",
+    "accuracyGuardrails": [
+      "The two compartments are a toy example, not a physiological gradient or dose.",
+      "Signal availability can be matrix/surface-associated.",
+      "Movement needs compatible receptors and traversable routes, not concentration alone."
+    ],
+    "targetSection": "## Try it: an average is not a gradient",
+    "currentCanonicalAdoption": "pending",
+    "currentCanonicalOwnerStillPreimage": true,
+    "assessmentEvidence": "Inherited genuine whole task-fit PASS for exact unchanged non-navigation body; this new review only verifies navigation and current owner/artifact hashes."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "bytes": 7183,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "bytes": 7183,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+        "sha256": "e18799fb37bf9fed2454a1f46ca0f0f8f3ad59c8fdc451c91b44390080ecf1e4",
+        "bytes": 8345
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+        "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+        "bytes": 7183
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+        "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+        "bytes": 7183
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1.txt",
+        "sha256": "494f6d9da2c9b7a1ade14114bf3ef5286d883f6287ac7b39a4875a111ea9cbdd",
+        "bytes": 1792
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1-provenance.json",
+        "sha256": "f5f50ad873f062e5782b97b51195990833ec8981fbf1b1f727880082817d6687",
+        "bytes": 2688
+      }
+    ],
+    "currentCandidateOwnerSHA256": "e18799fb37bf9fed2454a1f46ca0f0f8f3ad59c8fdc451c91b44390080ecf1e4",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "c32b678f6034530cfe9e0e11bb2a211cea3c27a6d9175ea10e79a87fa95b1ffe",
+    "exactFivePublicFiles": true,
+    "sourcePreimageSHA256": "437b5e2dcae5ecdbf6c5d85de49b9e4e3dfe2c949a49fff69c8563268ea8257a",
+    "insertOnlyPreimageRecovery": "Removing the original existing visual insertion/caption from final navigation-rebased owner recovers exact public baseline bytes at actual b8c381d6ad94c0377939ee2bc4e54ff4088c70ea.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "originalAuthorPackageQualification": "Author seal binds original owner, art and provenance history; it does not claim the new mechanically rebased owner was authored or sealed in that original package.",
+    "focusedNavigationMappingSHA256": "9f053545f195890fd094c98ca1cf86529621b5421efa535f687485fa1ec013be",
+    "originalWholeReviewReceiptSHA256": "3831c5c6ef0214031b61b8f8f35fb53b34c3b64b4f6e04b2515f41911a8dc823"
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23329049/",
+      "primary": true,
+      "readDepth": "Complete PubMed abstract.",
+      "supports": "Spatial CCL21 availability includes immobilized heparan-sulfate presentation; delocalization/swamping changes dendritic-cell guidance. Toy means are independently checked arithmetic, not measured physiology.",
+      "population": "Mouse-skin dendritic-cell migration toward lymphatic vessels.",
+      "accessStatus": "Retrieved abstract; no full-paper/figure methods approval.",
+      "evidenceMode": "Inherited unchanged original bounded source reading; not re-browsed during focused navigation review.",
+      "actualOriginalReviewAtUTC": "2026-10-13T20:18:51.254889+00:00"
+    }
+  ],
+  "mathAssessment": {
+    "invented": true,
+    "equalVolumes": true,
+    "Amean": 10.0,
+    "Bmean": 10.0,
+    "dots": "Not measured molecule counts or physiology."
+  },
+  "reviewBasis": {
+    "scope": "Focused same-peer navigation-only final owner/artifact/baseline hash binding; reviewType retained for compatible independent-new-owner-task-fit selection. Original whole science/task/native review is inherited explicitly, not rerun.",
+    "sourceReadDepth": "No new scientific sources read. Read mapping/HANDOFF and two public metadata/navigation deltas; mechanically compared selected committed baseline/candidate bytes. Original source/access/population/math/native/focus/human bounds retained through exact original receipt history.",
+    "freshCaptureCountForOwner": 0,
+    "personallyInspectedCountForOwner": 0,
+    "originalNativePairPersonallyInspectedThisFocusedReview": false,
+    "inheritedOriginalCaptureCountForOwner": 10,
+    "inheritedOriginalNativePairReviewed": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review.",
+    "sciencePixelRerun": false
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      960
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 20.7590625,
+    "minMobileDefaultPreviewLabelPx": 20.52,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 8.195454597542245,
+    "allTextContrastChecksPassed": true,
+    "lowestTextContrast": 8.195454597542245,
+    "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested.",
+    "evidenceMode": "Inherited unchanged original native/pixel PASS; no fresh inspection or capture in this navigation-only review.",
+    "actualOriginalReviewAtUTC": "2026-10-13T20:18:51.254889+00:00"
+  },
+  "freshCaptures": [],
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "originalWholeReviewEvidence": {
+    "reviewType": "independent-new-owner-task-fit",
+    "path": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns/task-bindings/same-bulk-average-different-spatial-signals-v1-independent-owner-review.json",
+    "sha256": "3831c5c6ef0214031b61b8f8f35fb53b34c3b64b4f6e04b2515f41911a8dc823",
+    "sealPath": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns/seal.json",
+    "sealSHA256": "191b24fdf231d3942aeaf9385a5ef4ae770bc6bb1ae76b6c98b56f6fd7d4bb8e",
+    "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00",
+    "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+    "originalCurrentOwnerSha256": "7d7eff0f18bc95d023877d1eb75d31c4f767011ca3ab14948bb0086a27a30401",
+    "reviewBasis": {
+      "scope": "One whole independent scientific/conceptual, source-bound, arithmetic, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+      "sourceReadDepth": "Each source entry records actual bounded independent reading and access failures. Retrieved XML does not imply full-paper approval. Unchanged ancillary citations not individually recertified.",
+      "freshCaptureCountForOwner": 10,
+      "personallyInspectedCountForOwner": 10,
+      "originalNativePairPersonallyInspected": true,
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "pinnedFilesComparedToGitCommit": 45,
+      "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review."
+    },
+    "nativePixelAssessment": {
+      "nativeSourceDimensions": [
+        600,
+        960
+      ],
+      "mobileViewport": [
+        390,
+        844
+      ],
+      "desktopViewport": [
+        1440,
+        1000
+      ],
+      "minMobileInlineLabelPx": 20.7590625,
+      "minMobileDefaultPreviewLabelPx": 20.52,
+      "nativeTextOutsideViewBox": 0,
+      "browserPageErrors": 0,
+      "mobileHorizontalOverflow": false,
+      "ordinaryTextMinContrast": 8.195454597542245,
+      "allTextContrastChecksPassed": true,
+      "lowestTextContrast": 8.195454597542245,
+      "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+      "keyboardEnterOpened": true,
+      "escapeClosed": true,
+      "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested."
+    },
+    "freshCaptures": [
+      {
+        "mode": "native",
+        "theme": "light",
+        "path": "private/captures/next-gap-197-light-native.png",
+        "sha256": "cb884b6c7b438d582784457abdd33b361b59fcc680f2838855585ebebbade998"
+      },
+      {
+        "mode": "native",
+        "theme": "dark",
+        "path": "private/captures/next-gap-197-dark-native.png",
+        "sha256": "4e687fd33c3a928a8237d3071d851c808e05dd67581500cd20c47f271117fdc9"
+      },
+      {
+        "mode": "mobile-inline",
+        "theme": "light",
+        "path": "private/captures/next-gap-197-light-mobile-inline.png",
+        "sha256": "82d79ca688675702d2d03f3bce4df6aaee5851e91cafbc4e944ae4660cc2f918"
+      },
+      {
+        "mode": "mobile-default-preview",
+        "theme": "light",
+        "path": "private/captures/next-gap-197-light-mobile-default-preview.png",
+        "sha256": "8087c048f8a62befceab336705efbb073bfc8bb7adcd89a9e5a0ae526caba7d1"
+      },
+      {
+        "mode": "desktop-inline",
+        "theme": "light",
+        "path": "private/captures/next-gap-197-light-desktop-inline.png",
+        "sha256": "e83302776a00154808fffa510a9a429fb5f21e79453f6ac2af059fb633f912d0"
+      },
+      {
+        "mode": "desktop-default-preview",
+        "theme": "light",
+        "path": "private/captures/next-gap-197-light-desktop-default-preview.png",
+        "sha256": "d2b21887c979b7ef8503c464e87016831d4ad04bd33c766e9bb87cbc35b0cdca"
+      },
+      {
+        "mode": "mobile-inline",
+        "theme": "dark",
+        "path": "private/captures/next-gap-197-dark-mobile-inline.png",
+        "sha256": "85108dfd2f0de12c1456b098790d1ae39b8aaf9d86820bf8649582cb6017726e"
+      },
+      {
+        "mode": "mobile-default-preview",
+        "theme": "dark",
+        "path": "private/captures/next-gap-197-dark-mobile-default-preview.png",
+        "sha256": "45d51ebbd5133d934cb876d1caffac83d1d12ed06dc2a2a545cbe318ffb920aa"
+      },
+      {
+        "mode": "desktop-inline",
+        "theme": "dark",
+        "path": "private/captures/next-gap-197-dark-desktop-inline.png",
+        "sha256": "9372fff10b75bb7da05a39e8711f6eec1c03d6135d68f8e76deba39f7f14df79"
+      },
+      {
+        "mode": "desktop-default-preview",
+        "theme": "dark",
+        "path": "private/captures/next-gap-197-dark-desktop-default-preview.png",
+        "sha256": "5551274403560e20f9be7ebabad4f772c893f8a3522ebc27715a064c712abfe7"
+      }
+    ],
+    "capturePathBase": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns",
+    "allOriginalEvidenceUnmodified": true,
+    "status": "Original genuine whole PASS retained as historical scientific/task/native evidence; not re-executed."
+  },
+  "reviewScope": "focused-navigation-only-compatible-current-binding",
+  "focusedNavigationAssessment": {
+    "id": "next-gap-197",
+    "owner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+    "metadataPublicBeforeBodyComparison": true,
+    "finalOwnerSHA256": "e18799fb37bf9fed2454a1f46ca0f0f8f3ad59c8fdc451c91b44390080ecf1e4",
+    "originalReviewedOwnerSHA256": "7d7eff0f18bc95d023877d1eb75d31c4f767011ca3ab14948bb0086a27a30401",
+    "actualSourceBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualSourceBaselineSHA256": "437b5e2dcae5ecdbf6c5d85de49b9e4e3dfe2c949a49fff69c8563268ea8257a",
+    "actualDestinationBaselineCommit": "4738f1ca428eaf5fc4e4b81d3fb932a6f99b9e31",
+    "actualDestinationBaselineSHA256": "437b5e2dcae5ecdbf6c5d85de49b9e4e3dfe2c949a49fff69c8563268ea8257a",
+    "NandODCommittedBaselineBytesIdentical": true,
+    "inverseNavigationGraftRecoversOriginalExact": true,
+    "strippingNavigationRecoversOriginalReviewedBodyExact": true,
+    "baselineDeltaFromOriginalSourceNavigationOnly": true,
+    "removeExistingVisualInsertionRecoversActualCommittedBaselineExact": true,
+    "onlyUsedByAndGeneratedUsedInChanged": true,
+    "addedTarget": {
+      "path": "wiki/education/multi-omics-foundations/06-immune-presence-and-recognition.md",
+      "title": "Separate immune presence from tumor recognition",
+      "publicMetadata": true,
+      "committedExistenceAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea"
+    },
+    "unchangedArtPromptProvenance": [
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+        "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+        "bytes": 7183,
+        "byteExactOriginal": true
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+        "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+        "bytes": 7183,
+        "byteExactOriginal": true
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1.txt",
+        "sha256": "494f6d9da2c9b7a1ade14114bf3ef5286d883f6287ac7b39a4875a111ea9cbdd",
+        "bytes": 1792,
+        "byteExactOriginal": true
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1-provenance.json",
+        "sha256": "f5f50ad873f062e5782b97b51195990833ec8981fbf1b1f727880082817d6687",
+        "bytes": 2688,
+        "byteExactOriginal": true
+      }
+    ],
+    "originalGenuineReceipt": {
+      "path": "/tmp/education-next-visual-batch-08/reviews/immune-organization-signals-and-response-patterns/task-bindings/same-bulk-average-different-spatial-signals-v1-independent-owner-review.json",
+      "sha256": "3831c5c6ef0214031b61b8f8f35fb53b34c3b64b4f6e04b2515f41911a8dc823",
+      "bytes": 11306,
+      "reviewType": "independent-new-owner-task-fit",
+      "reviewer": "agent:/root/batch08_review_group2",
+      "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00"
+    },
+    "originalWholeReviewSealSHA256": "191b24fdf231d3942aeaf9385a5ef4ae770bc6bb1ae76b6c98b56f6fd7d4bb8e",
+    "originalWholeSealFilesUnchanged": 150,
+    "actualMechanicalNavigationPreparer": "agent:/root/combined19_release_freeze",
+    "unifiedDiff": "--- original-reviewed-owner\n+++ final-navigation-rebase\n@@ -7,7 +7,7 @@\n aliases: [\"cytokine\", \"chemokine\", \"interleukin\"]\n level: \"foundation\"\n prerequisites: [\"[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]\"]\n-used_by: [\"[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]\",\"[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]\",\"[[wiki/education/oncology-101/2-dendritic-cells]]\",\"[[wiki/education/oncology-101/index]]\"]\n+used_by: [\"[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]\",\"[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]\",\"[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]\",\"[[wiki/education/oncology-101/2-dendritic-cells]]\",\"[[wiki/education/oncology-101/index]]\"]\n sensitive: false\n tags: [\"education\", \"immunology\"]\n updated: 2026-10-10\n@@ -104,6 +104,7 @@\n \n - [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)\n - [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)\n+- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)\n - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)\n - [Oncology 101: immune foundations](/wiki/education/oncology-101/index)\n <!-- END GENERATED USED IN -->\n",
+    "verdict": "PASS",
+    "reviewer": "agent:/root/batch08_review_group2",
+    "checkedAtUTC": "2026-10-13T22:09:45.767545+00:00",
+    "requiredCorrections": []
+  },
+  "inheritedVerdicts": {
+    "scienceVerdict": "PASS",
+    "taskFitVerdict": "PASS",
+    "originalNativeVerdict": "PASS",
+    "freshReaderPixelVerdict": "PASS",
+    "basis": "Exact unchanged reviewed scientific body and art; historical original whole review only."
+  },
+  "wholeReviewCount": 1,
+  "newWholeReviewCount": 0,
+  "focusedCorrectionReviewCount": 1,
+  "actualBaselineCompanionCommit": "4738f1ca428eaf5fc4e4b81d3fb932a6f99b9e31",
+  "candidateSourceCommit": null,
+  "candidateCompanionCommit": null,
+  "candidateDelivered": false,
+  "actualMechanicalNavigationPreparer": "agent:/root/combined19_release_freeze"
+}

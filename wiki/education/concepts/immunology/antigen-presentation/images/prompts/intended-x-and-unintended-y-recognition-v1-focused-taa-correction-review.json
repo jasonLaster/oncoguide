@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-focused-scientific-task-fit-correction-addendum",
+  "id": "next-gap-190",
+  "originalDataRow": 42,
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+  "verdict": "PASS",
+  "passed": true,
+  "reviewer": "agent:/root/batch08_review_group1",
+  "independentReviewer": "agent:/root/batch08_review_group1",
+  "reviewedAtUTC": "2026-10-13T21:20:14.972094+00:00",
+  "originalCreativeAuthor": "agent:/root/batch08_author_group1",
+  "nativeCreator": "agent:/root/batch08_author_group1",
+  "paragraphContributor": "agent:/root/original_custody_rows18_42",
+  "canonicalIntegrator": "root",
+  "scope": "One exact added heading and paragraph only: shared vaccine target coverage, HLA-display dependence and non-guaranteed epitope spreading. Original seven-page/native review remains immutable.",
+  "currentOwnerSha256": "b9b457204fe53053ea8561380bb26179978c183bea5fab4fc229d705a343c1ef",
+  "candidateOwnerBytes": 7903,
+  "originalOwnerSha256": "1a5cf67b6b11d42495f82cd3900ff0b821119be379380a28909691737ab1db72",
+  "paragraphSha256": "8f175077e1a8bc633455084e3841bdf3a077b361d0185cdf4ac09de69ee796f1",
+  "originalWholeReviewSealSHA256": "4926b65c417c01a8aaa1e144079e62c4c4c476c9949a27b5bf2823f60f7a6710",
+  "originalWholeReviewSHA256": "cd4f7ab3d8626c5a73c1af503473fcd5a13dc797bbe6a13bb8320fc4f2052c93",
+  "originalTaskReviewSHA256": "c6e01d21cfa48f70ce31dd34ddfc5c1015c907e2d47be98e7fdd2cfb5fe172a8",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/206",
+  "frozenRowSHA256": "fcf5ec37783fcc665a88b6cd1228fb8d743aa97279c691addd6b9797e98b77a4",
+  "learnerTask": "Distinguish intended target in healthy tissue from recognition of a different target by the same receptor.",
+  "accuracyGuardrails": [
+    "Lower healthy-tissue expression does not guarantee protection.",
+    "On-target off-tumor and off-target cross-reactivity are distinct.",
+    "Do not draw every shared antigen as unsafe or every neoantigen as safe."
+  ],
+  "sourceFitAssessment": {
+    "verdict": "PASS for exact correction only",
+    "reasoning": "The new explanation directly corrects the row42 HLA-loss insurance misconception: a new source antigen does not restore a missing restricting allele, and TAA versus neoantigen origin does not itself make a conventional peptide-specific vaccine response independent of HLA. The conditional same-allele statement avoids claiming loss of one allele removes every display route. Coverage is labeled a hypothesis rather than added clinical benefit. Surface-directed antibody/CAR recognition is explicitly differentiated. Epitope spreading remains separate and unguaranteed. The colorectal cell-transfer example is accurately bounded; no TNBC vaccine effect is extrapolated.",
+    "originalTaskContinuity": "The existing fictional X/Y image still teaches intended-target healthy-tissue recognition versus cross-reactivity. The new paragraph changes neither target forms nor the image/caption/alt and introduces no conflict with the original safety guards. It adds a display-route boundary before the preserved Worked example; it does not replace native teaching.",
+    "canonicalTerminology": "The public epitope-spreading owner supports the linked definition and distinct measurement/benefit lane."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+      "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9",
+      "bytes": 6343,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-dark.svg",
+      "sha256": "ca22e0be2fd78cb0ab76b260ea080b0a9ab333e3965c43b6dfa1ebd5421dd402",
+      "bytes": 6343,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    }
+  ],
+  "custody": {
+    "exactInsertionOnly": true,
+    "sourceMetadataPublicBeforeBody": true,
+    "original35AuthoredFilesUnchanged": true,
+    "originalWholeReviewChecksumEntriesUnchanged": true,
+    "taaArtPromptProvenanceUnchanged": [
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+        "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9",
+        "bytes": 6343
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-dark.svg",
+        "sha256": "ca22e0be2fd78cb0ab76b260ea080b0a9ab333e3965c43b6dfa1ebd5421dd402",
+        "bytes": 6343
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/intended-x-and-unintended-y-recognition-v1.txt",
+        "sha256": "4d3a5cf3f699203fa4e05c88656d8aa962692795f533b2389b4d064b3166a925",
+        "bytes": 2043
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/intended-x-and-unintended-y-recognition-v1-provenance.json",
+        "sha256": "ccd577aee8759485d816701aec75de4fef59ca6b0549b018f1bd61a7d0006776",
+        "bytes": 2381
+      }
+    ],
+    "originalNativeCapturesUnchanged": true,
+    "freshNativeReviewRerun": false,
+    "freshCaptureCount": 0,
+    "sourceFixtureCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a"
+  },
+  "sourceaccess": [
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines",
+      "access": "Independent live official-page open succeeded. Treatment-vaccine mechanism and shared-TAA approach text personally read (page lines19\u201327).",
+      "supports": "Shared antigens are vaccine candidates. The low-private-target/partial-coverage design application is an explicit hypothesis, not a reported comparative benefit."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27959684/",
+      "doi": "10.1056/NEJMoa1609279",
+      "access": "Independent live PubMed open succeeded. Complete abstract and HLA-loss figure3 caption text personally read. No full-paper methods/results or figure pixels inspected.",
+      "supports": "A colorectal-cancer adoptive-cell-transfer case identified escape through loss of the HLA-C*08:02-encoding haplotype. It does not estimate vaccine efficacy in breast cancer."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-10004-2",
+      "access": "Independent primary article rendered text retrieved despite cookie-error query redirect. Personally read shared-TAA bridging paragraph, presentation-loss results and discussion/limitations, and trial-design scope. No supplements, raw data or figure pixels inspected.",
+      "supports": "Corroborating context: reported neoantigen vaccine arm and presentation-loss escape remain distinct from the small preceding shared-TAA bridging subset; no additional trial-effect claim is imported into the paragraph."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33479501/",
+      "doi": "10.1038/s41591-020-01206-4",
+      "access": "Independent live PubMed open succeeded in this focused review; complete abstract personally read. This differs from contributor reported HHS-footer-only access. No full paper or figure pixels inspected.",
+      "supports": "Observed epitope spreading in a specific melanoma peptide-vaccine follow-up does not make spreading automatic after shared-antigen inclusion."
+    },
+    {
+      "owner": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+      "sourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+      "access": "Source metadata checked public before the canonical owner body was read. Definition, original assay boundaries and scope personally read; inherited full-source checks not upgraded.",
+      "supports": "Spreading is additional detected specificity beyond the original target set; including more targets initially does not demonstrate spreading."
+    }
+  ],
+  "futureExecutableTerminalBase": null,
+  "reviewedSourceCommit": null,
+  "finalAdoptedOwnerSha256": null,
+  "pendingTerminalBinding": "Root must bind the correction to the actual future19 release baseline before adoption; this receipt binds the prospective exact corrected candidate only.",
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "publication": "not performed",
+  "wholeOriginalRowAcceptance": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "fullPackageReviewRerunCount": 0,
+  "findings": []
+}

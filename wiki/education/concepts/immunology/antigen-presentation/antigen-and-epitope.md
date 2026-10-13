@@ -31,6 +31,11 @@ The analogy has a limit: receptors recognize molecular shapes and chemical inter
 
 ## How it works
 
+
+<img src="./images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg" alt="The same protein supplies an accessible folded antibody epitope and a processed peptide held by HLA for recognition by a conventional T-cell receptor." data-theme-pair />
+
+*The same source protein can supply different recognition surfaces: an accessible folded epitope or a peptide–HLA complex. The displayed T-cell contact follows [Janeway’s peptide–MHC recognition chapter](https://www.ncbi.nlm.nih.gov/sites/books/NBK27098/), checked through its search-returned text on October 13, 2026.*
+
 An [antibody or B-cell receptor](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) can recognize an accessible part of a molecule directly. Its epitope may be a continuous stretch of sequence or a surface formed by folding. Accessibility matters: binding an isolated protein does not establish that the same site is reachable on an intact cell.
 
 A conventional peptide-directed T-cell receptor ([TCR](/wiki/education/concepts/immunology/t-cells/t-cell-receptor)) recognizes a peptide together with a human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) molecule. The source protein must be processed, and a suitable fragment displayed. For this kind of T-cell target, record the peptide **and** the restricting HLA molecule. The same peptide on another HLA molecule is a different recognition surface.

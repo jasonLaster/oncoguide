@@ -1,0 +1,12 @@
+Original SVG creative brief actually used by agent:/root/batch08_author_group2.
+Task: next-gap-195
+Owner: wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md
+Frozen learner task: Distinguish a loose immune-cell aggregate from organized T/B regions and a structure with a demonstrated germinal center.
+Frozen gap: The assessment sequence is useful but does not depict the spatial organization that defines the concept. A comparison of tissue arrangements would show why aggregate counts alone do not establish maturity.
+Scene: Three tissue scenes distinguish mixed T and B cells, separate T and B regions, and a B-cell follicle containing a germinal center.
+Caption and interpretation: Three tissue arrangements, not a required developmental sequence: a loose aggregate, organized T/B regions, and a follicle with a demonstrated germinal center. Study-specific architecture and marker criteria determine maturity; counts alone establish neither maturity nor treatment benefit.
+Accuracy guardrails: TLS occur outside conventional lymphoid organs; not every aggregate is a TLS. | Maturity and marker definitions are study-specific. | No response or treatment-benefit conclusion from density alone.
+Design: 600x960 source-code SVG, original independent geometry, identical geometry/text/data across paired themes; separate solid theme-colored panels with transparent gutters, Arial minimum 36 SVG units, no clinical-benefit axis, no patient data. Direct source-code authorship; no image tool invocation, no model invocation recorded.
+Preserve source owner prose, all citations and math and current metadata; insert only embed and caption after frozen section heading.
+Author revision used: add schematic B cells and follicular support branches inside the germinal-center region; position GC label clear of cell shapes.
+Final author clearance revision: compact tissue lower boundaries, cell rows and GC vertical extent to leave clear label space beneath each spatial scene.

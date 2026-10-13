@@ -47,6 +47,10 @@ Counting vaccine slots can overstate functional breadth. A design with many enco
 
 ## Worked example
 
+<img src="./images/encoded-count-and-matched-per-target-response-v1-light.svg" alt="Three background-adjusted bars show 40, 6 and 0 spots for A, B and C with separate matched background of 5 and raw counts of 45, 11 and 5." data-theme-pair />
+
+*In the fictional matched assay, subtracting 5 background spots from raw counts of 45, 11 and 5 gives 40, 6 and 0 spots per 200,000 plated peripheral blood mononuclear cells. Three encoded targets yield an uneven measured response; zero adjusted spots do not prove absent tumor display. These are invented teaching values, not patient data or a universal ranking.*
+
 A fictional vaccine encodes A, B and C. Using matched enzyme-linked immunospot ([ELISpot](/wiki/education/concepts/measurement/immune-monitoring/elispot)) conditions, mean interferon-gamma spot counts are 45 for A, 11 for B and 5 for C per 200,000 plated [peripheral blood mononuclear cells](/wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells). Matched background is 5 spots, giving background-adjusted counts of 40, 6 and 0. The fictional protocol's replicate and positivity rules classify C as undetectable. A dominates this measured response.
 
 It would be premature to conclude that C is absent from the tumor or useless in every person. Processing, display, the sampled repertoire and assay sensitivity are possible explanations. It would also be premature to call the product three equally effective immune defenses merely because it contains three sequences.

@@ -1,0 +1,10 @@
+Original SVG creative brief actually used by agent:/root/batch08_author_group2.
+Task: next-gap-200
+Owner: wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md
+Frozen learner task: Compare the same sampled clone count against different sampled population sizes and see why a higher frequency need not be absolute expansion.
+Frozen gap: The 10/1,000 versus 10/100 exercise supplies a clear quantitative contrast that two aligned count-and-fraction displays would make memorable. Show the fixed numerator explicitly; do not use differently sized clone icons as if the clone grew.
+Scene: Two identical rows of ten clonotype A cells accompany sampled denominators of 1000 and 100 and fractions of 1 and 10 percent.
+Caption and interpretation: The fictional sampled count of clonotype A stays at 10, while the sampled denominator falls from 1,000 to 100. Its fraction rises from 1% to 10% without a larger sampled count. These are not patient data or calibrated whole-body counts, and the fraction does not identify an antigen.
+Accuracy guardrails: Sampled counts are not automatically calibrated whole-body or tissue absolute counts. | Operational clonotype definitions depend on chain/assay. | Frequency does not identify antigen specificity.
+Design: 600x960 source-code SVG, original independent geometry, identical geometry/text/data across paired themes; separate solid theme-colored panels with transparent gutters, Arial minimum 36 SVG units, no clinical-benefit axis, no patient data. Direct source-code authorship; no image tool invocation, no model invocation recorded.
+Preserve source owner prose, all citations and math and current metadata; insert only embed and caption after frozen section heading.

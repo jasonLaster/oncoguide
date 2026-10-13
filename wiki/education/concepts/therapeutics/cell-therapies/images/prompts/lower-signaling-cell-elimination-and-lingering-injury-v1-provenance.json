@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-authored-education-svg",
+  "author": "agent:/root/batch08_author_group3",
+  "model": null,
+  "imageCalls": 0,
+  "sourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourcePreimageSHA256": "05467349d2c0831cbd85125589124c61c9525e5f68ff9b371fb7378e1483b980",
+  "task": {
+    "prospectiveTaskId": "next-gap-206",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/337",
+    "frozenRowSHA256": "c7ba91c39fb3f9681ea041f292913b30dea2e96e919b0edfe191eeda059516ab",
+    "owner": "wiki/education/concepts/therapeutics/cell-therapies/safety-switches.md",
+    "learnerTask": "Separate lower signaling, cell elimination and injury resolution",
+    "gap": "Current review flow cannot show viable residual cells or lingering effects",
+    "accuracyGuardrails": "Named switch and trigger; no instantaneous complete rescue; surviving cells can regrow",
+    "targetSection": "## Worked example and practice"
+  },
+  "drawnWith": "original SVG source code",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "adoption": "pending",
+  "coverageCredit": 0,
+  "sourceReadScope": "complete public owner, after frontmatter classification; source read depth in private evidence manifest",
+  "caption": "Lower signaling, eliminating cells and resolving injury are separate outcomes. The signal and viable-cell numbers are fictional illustrations of the page\u2019s activity-switch example, not results for iCasp9. Inducible caspase-9 (iCasp9) with the dimerizing trigger AP1903 illustrates a different, cell-elimination mechanism studied in donor T cells after transplantation. Reduction may leave survivors, released signals and injury; no instantaneous complete rescue is implied.",
+  "themeInvariant": "geometry, labels and data identical; semantic colors only",
+  "fictionalData": true
+}

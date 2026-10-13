@@ -1,0 +1,11 @@
+Original paired SVG creative brief actually used by agent:/root/batch08_author_group3.
+Task: next-gap-207
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/355
+Frozen row SHA256: 1a6709d0eb08e89751393be6496aa1ebe3448fc76dbb6623b80ed9955c05eaba
+Owner: wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md
+Learner question/task: Classify purpose, target selection and delivery as independent axes
+Exact gap: Conditional mechanism flow does not disentangle three classification axes
+Exact accuracy guards: Postoperative therapeutic not infection preventive; personalized not RNA; no platform ranking
+Scene: Purpose, target selection and delivery are separate classification axes. A fictional shared-antigen RNA vaccine after surgery is therapeutic; a personalized vaccine can use peptides; no platform ranking.
+Takeaway caption: Purpose, target selection and delivery answer different questions. The shared-antigen RNA example after surgery is fictional and therapeutic. Personalization can use peptides or other material; the axes neither rank platforms nor establish immune or clinical success.
+Create original personable teaching art with large readable type and native biological compartments. Schematic cells, receptors and material, never engineering instructions. Keep all geometry, labels and data identical across themes; only semantic colors change. Transparent gutters. Each arrow is an intended or conditional relationship, never a result. No platform ranking, clinical guarantee, construct sequence, operational handling protocol or treatment recommendation. All invented numbers explicitly fictional, with time, unit and denominator adjacent. Preserve original owner teaching, formulas, citations, metadata, practice and art. Expert and learner review pending. The actual author drew SVG source code; model=null, imageCalls=0.

@@ -1,0 +1,11 @@
+Original paired SVG creative brief actually used by agent:/root/batch08_author_group3.
+Task: next-gap-203
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/332
+Frozen row SHA256: f252c17e6f34e8863a00e3eff6d291f536b694402b65eede24fd91605aaf33cc
+Owner: wiki/education/concepts/therapeutics/cell-therapies/armoring.md
+Learner question/task: Compare continuous, induced and surface-held cytokine support with receptor-response modification
+Exact gap: Evaluation flow cannot show where support is made, acts or spreads
+Exact accuracy guards: Armoring not universal protection; receptor variant differs from deletion; local triggering not local-only exposure
+Scene: Four conceptual armoring patterns: continuous secretion, activation-induced secretion, surface-held cytokine support and a dominant-negative receptor variant, with no universal protection.
+Takeaway caption: Cytokine support can be continuous, activation-induced or held near a cell surface; changing a receptor response is a different mechanism. Local triggering does not establish local-only exposure, and a receptor variant is not a gene deletion. None provides universal protection.
+Create original personable teaching art with large readable type and native biological compartments. Schematic cells, receptors and material, never engineering instructions. Keep all geometry, labels and data identical across themes; only semantic colors change. Transparent gutters. Each arrow is an intended or conditional relationship, never a result. No platform ranking, clinical guarantee, construct sequence, operational handling protocol or treatment recommendation. All invented numbers explicitly fictional, with time, unit and denominator adjacent. Preserve original owner teaching, formulas, citations, metadata, practice and art. Expert and learner review pending. The actual author drew SVG source code; model=null, imageCalls=0.

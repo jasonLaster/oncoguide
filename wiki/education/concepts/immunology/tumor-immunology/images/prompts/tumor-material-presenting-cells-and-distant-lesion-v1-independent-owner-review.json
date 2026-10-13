@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-202",
+  "owner": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+  "author": "agent:/root/batch08_author_group3",
+  "creativeAuthor": "agent:/root/batch08_author_group3",
+  "reviewer": "agent:/root/batch08_review_group3",
+  "independentReviewer": "agent:/root/batch08_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:53:45.657053+00:00",
+  "reviewedAtUTC": "2026-10-13T20:53:45.657053+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "54b55fd2320ea457999b11b8a55885d15dcd906220e511dc57fa7e6fd78fd7a2",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/239",
+  "frozenRowSHA256": "1e32c1561dfd1c03759d9d96f172ef3df5a78c3056b09991402f68877899c124",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The three compartment panels put tumor material, the presenting cell, lymph-node priming and the uninjected lesion into a traceable physical route. Every route is dashed and qualified by may or still need tests. Local size and distant size are separate labels; the caption explains that uninjected does not exclude other treatment. The source table and practice remain intact. The visual supplies no systemic-vaccination result, obligatory route, breast-cancer efficacy transfer or inferred effect size.",
+    "baselinePageSHA256": "4f99bf857d1b11948835e361977be2af11966f7b4110b27b1e46f2f0923f91f0",
+    "frozenPageSHA256": "4f99bf857d1b11948835e361977be2af11966f7b4110b27b1e46f2f0923f91f0",
+    "learnerTask": "Trace tumor material through presenting cells and lymph-node priming to a distant lesion",
+    "gap": "The conditional flow names steps but omits physical compartments and distinct local versus distant measurements",
+    "accuracyGuardrails": "Label uninjected site rather than untreated; every arrow conditional; no guaranteed systemic vaccination",
+    "targetSection": "## How it works"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg",
+      "sha256": "67f480e97ac5f94ee267289b6a9f7453ffff117467de7378a6355cc3a132946f",
+      "bytes": 9246,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-dark.svg",
+      "sha256": "a15abfdf0683c373199729986560bf76e0963b4070f6ac1893c5646be4e4fcdd",
+      "bytes": 9246,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+        "sha256": "54b55fd2320ea457999b11b8a55885d15dcd906220e511dc57fa7e6fd78fd7a2",
+        "bytes": 8951
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg",
+        "sha256": "67f480e97ac5f94ee267289b6a9f7453ffff117467de7378a6355cc3a132946f",
+        "bytes": 9246
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-dark.svg",
+        "sha256": "a15abfdf0683c373199729986560bf76e0963b4070f6ac1893c5646be4e4fcdd",
+        "bytes": 9246
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/tumor-material-presenting-cells-and-distant-lesion-v1.txt",
+        "sha256": "fd30906cf11eeb45d0abdac6bcc37e57e68e55482819ed1818cc878b32d6da31",
+        "bytes": 1937
+      },
+      {
+        "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/tumor-material-presenting-cells-and-distant-lesion-v1-provenance.json",
+        "sha256": "9d6377917e172a4a2d73c1dd8f7129f4fddb86c332293d1a9a88dfc4f0636b2e",
+        "bytes": 1772
+      }
+    ],
+    "currentCandidateOwnerSHA256": "54b55fd2320ea457999b11b8a55885d15dcd906220e511dc57fa7e6fd78fd7a2",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "0b42babea08da7087f71ddc54bcc0835cb5d7e1ca6b4c4b40098839219ad42d9",
+    "authorInventorySHA256": "d5972271ec7beda5fc8cf1840052fc638f5eb26559950f8c5ddbbb016d953b70",
+    "verifiedAuthorArtifacts": 537,
+    "sourceAndThemeCheckSHA256": "aa6a78e3b4ddef0073d400492834b25e798d386f137b2596da8b02dc98871e0a"
+  },
+  "reviewBasis": {
+    "scope": "One independent whole science/task/native review of six assigned prospective tasks.",
+    "sourceReadingReceiptSHA256": "45f73bfa20d16e909f1ee953768fb6f69fe46aba74c4d564db4b62a90866cbe4",
+    "independentPixelInspectionSHA256": "535b617258553d7245f5dea64b2fdabfaddf74a6f8f256dcd1400b7bd24016ee",
+    "displayChecksSHA256": "4139a763f76d0f92c08e9f8503937e62be910e359e5f3249df4d88ab9bb2f8c0",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Complete public owner, primary abstracts and bounded selected primary/official text; no full methods/supplement/full-figure approval.",
+    "primaryPMIDs": [
+      "20697067",
+      "30962585"
+    ],
+    "limits": [
+      "Native browser img carrier; isolated complete article fixture lacks app header/sidebar/live data/navigation.",
+      "Desktop portrait inline capture requires scrolling; whole art inspected native and theater.",
+      "Known theater focus-return false remains qualified; Enter/Escape work.",
+      "Current source ownership and terminal baseline must be rebound by Root before integration.",
+      "No human/expert/clinician/learner competence/adoption/coverage/publication/live-delivery approval."
+    ]
+  },
+  "requiredCorrections": [],
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

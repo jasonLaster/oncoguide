@@ -1,0 +1,11 @@
+Original paired SVG creative brief actually used by agent:/root/batch08_author_group3.
+Task: next-gap-205
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/336
+Frozen row SHA256: 22d0a9f619c3ef2092cfa5b32df255fbd4b5e6cfab2a91b51cbefe7b13ac78ed
+Owner: wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars.md
+Learner question/task: Compare AND/OR/NOT and sequential priming with time-dependent residual recognition
+Exact gap: Existing cartoon explains rule-vs-evidence but not the four physical implementation patterns
+Exact accuracy guards: Two active CARs not AND; sequential receptor can persist; not perfect truth tables; no safety proof
+Scene: Schematic T cells with AND-like split activation and support inputs, OR-like recognition of either antigen, NOT-like inhibitory input and sequential A priming followed by a persistent B receptor. Intended patterns require experimental tests.
+Takeaway caption: These are physical examples of intended rules: split activation and support for AND-like recognition, either target for OR-like recognition, an inhibitory input for NOT-like recognition, and A-induced expression of a B receptor over time. Two fully activating CARs are not AND. Persistent B recognition, imperfect thresholds and tissue movement still need testing; this is no safety proof.
+Create original personable teaching art with large readable type and native biological compartments. Schematic cells, receptors and material, never engineering instructions. Keep all geometry, labels and data identical across themes; only semantic colors change. Transparent gutters. Each arrow is an intended or conditional relationship, never a result. No platform ranking, clinical guarantee, construct sequence, operational handling protocol or treatment recommendation. All invented numbers explicitly fictional, with time, unit and denominator adjacent. Preserve original owner teaching, formulas, citations, metadata, practice and art. Expert and learner review pending. The actual author drew SVG source code; model=null, imageCalls=0.

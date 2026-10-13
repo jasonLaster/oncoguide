@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-authored-education-svg",
+  "author": "agent:/root/batch08_author_group3",
+  "model": null,
+  "imageCalls": 0,
+  "sourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourcePreimageSHA256": "b3cfed06ab0aa8148298e2dea42713d26692e9affdf1d4a7d9c99cfece1c0333",
+  "task": {
+    "prospectiveTaskId": "next-gap-203",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/332",
+    "frozenRowSHA256": "f252c17e6f34e8863a00e3eff6d291f536b694402b65eede24fd91605aaf33cc",
+    "owner": "wiki/education/concepts/therapeutics/cell-therapies/armoring.md",
+    "learnerTask": "Compare continuous, induced and surface-held cytokine support with receptor-response modification",
+    "gap": "Evaluation flow cannot show where support is made, acts or spreads",
+    "accuracyGuardrails": "Armoring not universal protection; receptor variant differs from deletion; local triggering not local-only exposure",
+    "targetSection": "## How it works"
+  },
+  "drawnWith": "original SVG source code",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "adoption": "pending",
+  "coverageCredit": 0,
+  "sourceReadScope": "complete public owner, after frontmatter classification; source read depth in private evidence manifest",
+  "caption": "Cytokine support can be continuous, activation-induced or held near a cell surface; changing a receptor response is a different mechanism. Local triggering does not establish local-only exposure, and a receptor variant is not a gene deletion. None provides universal protection.",
+  "themeInvariant": "geometry, labels and data identical; semantic colors only",
+  "fictionalData": false
+}

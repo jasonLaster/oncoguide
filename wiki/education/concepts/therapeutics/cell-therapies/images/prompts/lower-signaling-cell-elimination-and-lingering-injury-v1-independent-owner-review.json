@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-206",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/safety-switches.md",
+  "author": "agent:/root/batch08_author_group3",
+  "creativeAuthor": "agent:/root/batch08_author_group3",
+  "reviewer": "agent:/root/batch08_review_group3",
+  "independentReviewer": "agent:/root/batch08_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:53:45.657053+00:00",
+  "reviewedAtUTC": "2026-10-13T20:53:45.657053+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "0660088503c76b712e2d9a9bb94b37e405a73985d45278e61e48cb6be1ca4fc5",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/337",
+  "frozenRowSHA256": "c7ba91c39fb3f9681ea041f292913b30dea2e96e919b0edfe191eeda059516ab",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The one-to0.2 signal bars have the correct5:1 height ratio and explicitly leave cells present. A separate iCasp9/AP1903 panel names a cell-elimination mechanism and leaves a survivor; injury and released signals have their own panel. The caption explicitly assigns the invented1-to0.2 and100-to80 numbers to the existing activity-switch exercise, not to iCasp9 experimental results. The surviving-cell and injury caveats rule out instantaneous complete rescue. The actual iCasp9 clinical context remains donor T cells after transplantation, without transfer to all CAR-T toxicity.",
+    "baselinePageSHA256": "05467349d2c0831cbd85125589124c61c9525e5f68ff9b371fb7378e1483b980",
+    "frozenPageSHA256": "05467349d2c0831cbd85125589124c61c9525e5f68ff9b371fb7378e1483b980",
+    "learnerTask": "Separate lower signaling, cell elimination and injury resolution",
+    "gap": "Current review flow cannot show viable residual cells or lingering effects",
+    "accuracyGuardrails": "Named switch and trigger; no instantaneous complete rescue; surviving cells can regrow",
+    "targetSection": "## Worked example and practice"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-light.svg",
+      "sha256": "06f31a7e75996d286dc7e9e19e5e92d24b4287fe3b01d2d2388f85d1da8540a3",
+      "bytes": 6453,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-dark.svg",
+      "sha256": "6e6f139ce0de01e0b9ae208f8bd3142b22b88cb668958b27f0347f94c77a4588",
+      "bytes": 6453,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/safety-switches.md",
+        "sha256": "0660088503c76b712e2d9a9bb94b37e405a73985d45278e61e48cb6be1ca4fc5",
+        "bytes": 9291
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-light.svg",
+        "sha256": "06f31a7e75996d286dc7e9e19e5e92d24b4287fe3b01d2d2388f85d1da8540a3",
+        "bytes": 6453
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-dark.svg",
+        "sha256": "6e6f139ce0de01e0b9ae208f8bd3142b22b88cb668958b27f0347f94c77a4588",
+        "bytes": 6453
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/lower-signaling-cell-elimination-and-lingering-injury-v1.txt",
+        "sha256": "adec6cbc537bb4fa821accf5c008d7570c423363fa2ba157dac0706c6ef76ed4",
+        "bytes": 2113
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/lower-signaling-cell-elimination-and-lingering-injury-v1-provenance.json",
+        "sha256": "1a1ffcdd46336985ce7d1dc3c2e9b1efd98d50da90690984420eaeecb2f2dd52",
+        "bytes": 1902
+      }
+    ],
+    "currentCandidateOwnerSHA256": "0660088503c76b712e2d9a9bb94b37e405a73985d45278e61e48cb6be1ca4fc5",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "0b42babea08da7087f71ddc54bcc0835cb5d7e1ca6b4c4b40098839219ad42d9",
+    "authorInventorySHA256": "d5972271ec7beda5fc8cf1840052fc638f5eb26559950f8c5ddbbb016d953b70",
+    "verifiedAuthorArtifacts": 537,
+    "sourceAndThemeCheckSHA256": "aa6a78e3b4ddef0073d400492834b25e798d386f137b2596da8b02dc98871e0a"
+  },
+  "reviewBasis": {
+    "scope": "One independent whole science/task/native review of six assigned prospective tasks.",
+    "sourceReadingReceiptSHA256": "45f73bfa20d16e909f1ee953768fb6f69fe46aba74c4d564db4b62a90866cbe4",
+    "independentPixelInspectionSHA256": "535b617258553d7245f5dea64b2fdabfaddf74a6f8f256dcd1400b7bd24016ee",
+    "displayChecksSHA256": "4139a763f76d0f92c08e9f8503937e62be910e359e5f3249df4d88ab9bb2f8c0",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Complete public owner, primary abstracts and bounded selected primary/official text; no full methods/supplement/full-figure approval.",
+    "primaryPMIDs": [
+      "22047558",
+      "26405231",
+      "24753538"
+    ],
+    "limits": [
+      "Native browser img carrier; isolated complete article fixture lacks app header/sidebar/live data/navigation.",
+      "Desktop portrait inline capture requires scrolling; whole art inspected native and theater.",
+      "Known theater focus-return false remains qualified; Enter/Escape work.",
+      "Current source ownership and terminal baseline must be rebound by Root before integration.",
+      "No human/expert/clinician/learner competence/adoption/coverage/publication/live-delivery approval."
+    ]
+  },
+  "requiredCorrections": [],
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Costimulation</title><desc id="desc">The same peptide–HLA recognition is compared with present and absent CD80/CD86 support for CD28; a separate scene shows CTLA-4 can remove shared ligands.</desc>
+<rect x="12" y="12" width="576" height="100" rx="24" fill="#182c42"/>
+<text x="32" y="54" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="start" fill="#fffaf0">Same antigen; new support</text>
+<text x="32" y="96" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#d7e4ed">Separate receptor jobs</text>
+<rect x="12" y="124" width="576" height="254" rx="24" fill="#182c42"/>
+<text x="32" y="166" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">A  TCR contact + CD28 support</text>
+<rect x="24" y="188" width="164" height="162" rx="60" fill="#29455d"/>
+<rect x="412" y="188" width="164" height="162" rx="60" fill="#513e31"/>
+<path d="M198 198 L198 340" fill="none" stroke="#86c8f5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 198 L402 340" fill="none" stroke="#8ad1b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="79" cy="307" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<ellipse cx="103" cy="307" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<path d="M81 319 Q91 327 101 319" fill="none" stroke="#d7e4ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="497" cy="307" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<ellipse cx="521" cy="307" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<path d="M499 319 Q509 327 519 319" fill="none" stroke="#d7e4ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 229 L250 229" fill="none" stroke="#86c8f5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 213 Q270 229 250 245" fill="none" stroke="#86c8f5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 229 L350 229" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 213 Q330 229 350 245" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 229 L330 229" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="209" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">TCR</text>
+<text x="421" y="209" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">p–HLA</text>
+<path d="M198 317 L250 317" fill="none" stroke="#c7a9e5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 301 Q270 317 250 333" fill="none" stroke="#c7a9e5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 317 L350 317" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 301 Q330 317 350 333" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 317 L330 317" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="297" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#c7a9e5">CD28</text>
+<text x="421" y="297" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">CD80/86</text>
+<rect x="12" y="391" width="576" height="205" rx="24" fill="#182c42"/>
+<text x="32" y="434" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">B  TCR contact; support absent</text>
+<rect x="24" y="453" width="164" height="118" rx="60" fill="#29455d"/>
+<rect x="412" y="453" width="164" height="118" rx="60" fill="#513e31"/>
+<path d="M198 463 L198 561" fill="none" stroke="#86c8f5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 463 L402 561" fill="none" stroke="#8ad1b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="79" cy="528" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<ellipse cx="103" cy="528" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<path d="M81 540 Q91 548 101 540" fill="none" stroke="#d7e4ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="497" cy="528" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<ellipse cx="521" cy="528" rx="3" ry="3" fill="#d7e4ed" stroke="#d7e4ed" stroke-width="3"/>
+<path d="M499 540 Q509 548 519 540" fill="none" stroke="#d7e4ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 503 L250 503" fill="none" stroke="#86c8f5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 487 Q270 503 250 519" fill="none" stroke="#86c8f5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 503 L350 503" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 487 Q330 503 350 519" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 503 L330 503" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="483" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">TCR</text>
+<text x="421" y="483" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">p–HLA</text>
+<text x="32" y="584" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">p–HLA: peptide–HLA, same in A/B</text>
+<rect x="12" y="609" width="576" height="279" rx="24" fill="#182c42"/>
+<text x="32" y="652" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">CTLA-4 can remove CD80/CD86.</text>
+<rect x="30" y="676" width="164" height="117" rx="55" fill="#29455d"/>
+<rect x="412" y="676" width="164" height="117" rx="55" fill="#513e31"/>
+<path d="M198 686 L198 780" fill="none" stroke="#86c8f5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 686 L402 780" fill="none" stroke="#8ad1b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 721 h44 q15 -22 33 0 q-18 22 -33 0" fill="none" stroke="#c7a9e5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="324" cy="721" rx="13" ry="13" fill="#8ad1b4" stroke="#8ad1b4" stroke-width="3"/>
+<path d="M304 721 H224 l10 -10 M224 721 l10 10" fill="none" stroke="#d7e4ed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<ellipse cx="138" cy="722" rx="13" ry="13" fill="#8ad1b4" stroke="#8ad1b4" stroke-width="3"/>
+<path d="M324 740 L145 757" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="38" y="824" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#c7a9e5">CTLA-4 cell</text>
+<text x="408" y="824" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">Presenter</text>
+<text x="32" y="869" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">Response needs measurement.</text>
+</svg>

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-203",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/armoring.md",
+  "author": "agent:/root/batch08_author_group3",
+  "creativeAuthor": "agent:/root/batch08_author_group3",
+  "reviewer": "agent:/root/batch08_review_group3",
+  "independentReviewer": "agent:/root/batch08_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:53:45.657053+00:00",
+  "reviewedAtUTC": "2026-10-13T20:53:45.657053+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "6923a94821becf1c101d002c23256c6b07be47ee0cc194367a31e05916107d43",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/332",
+  "frozenRowSHA256": "f252c17e6f34e8863a00e3eff6d291f536b694402b65eede24fd91605aaf33cc",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Four panels distinguish secreted support made by a cell, activation-induced release with possible spread, surface-held cytokine, and a receptor-response variant. The induced panel has actual receptor/target contact, then released material; it does not imply cytokine effects remain local. Variant is explicitly unequal to deletion, and the takeaway denies universal armor. These physical locations answer where support is made, held and can act. The schematic neither isolates a cytokine contribution to a combined clinical product nor supplies improved healthy-tissue safety.",
+    "baselinePageSHA256": "b3cfed06ab0aa8148298e2dea42713d26692e9affdf1d4a7d9c99cfece1c0333",
+    "frozenPageSHA256": "b3cfed06ab0aa8148298e2dea42713d26692e9affdf1d4a7d9c99cfece1c0333",
+    "learnerTask": "Compare continuous, induced and surface-held cytokine support with receptor-response modification",
+    "gap": "Evaluation flow cannot show where support is made, acts or spreads",
+    "accuracyGuardrails": "Armoring not universal protection; receptor variant differs from deletion; local triggering not local-only exposure",
+    "targetSection": "## How it works"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-light.svg",
+      "sha256": "da23a23ca50e3b98f847d9c0edae55fe68c39fc5b9308ac6dbb8d4d8564ab228",
+      "bytes": 8153,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-dark.svg",
+      "sha256": "282e6671f98d3dedfb56b70c8f410d07f94d414f2672b6e53da93332139e3d8d",
+      "bytes": 8153,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/armoring.md",
+        "sha256": "6923a94821becf1c101d002c23256c6b07be47ee0cc194367a31e05916107d43",
+        "bytes": 9627
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-light.svg",
+        "sha256": "da23a23ca50e3b98f847d9c0edae55fe68c39fc5b9308ac6dbb8d4d8564ab228",
+        "bytes": 8153
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-dark.svg",
+        "sha256": "282e6671f98d3dedfb56b70c8f410d07f94d414f2672b6e53da93332139e3d8d",
+        "bytes": 8153
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/cytokine-support-location-and-receptor-modification-v1.txt",
+        "sha256": "001b055945c2ec5aedadeaebfa0c60d3818ae58cde1461bdbb720c1411dbdb3d",
+        "bytes": 1938
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/cytokine-support-location-and-receptor-modification-v1-provenance.json",
+        "sha256": "bcf3aa4ac2e7a6722139600c891ff1409aad6c125614287905c188aaad7ab348",
+        "bytes": 1735
+      }
+    ],
+    "currentCandidateOwnerSHA256": "6923a94821becf1c101d002c23256c6b07be47ee0cc194367a31e05916107d43",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "0b42babea08da7087f71ddc54bcc0835cb5d7e1ca6b4c4b40098839219ad42d9",
+    "authorInventorySHA256": "d5972271ec7beda5fc8cf1840052fc638f5eb26559950f8c5ddbbb016d953b70",
+    "verifiedAuthorArtifacts": 537,
+    "sourceAndThemeCheckSHA256": "aa6a78e3b4ddef0073d400492834b25e798d386f137b2596da8b02dc98871e0a"
+  },
+  "reviewBasis": {
+    "scope": "One independent whole science/task/native review of six assigned prospective tasks.",
+    "sourceReadingReceiptSHA256": "45f73bfa20d16e909f1ee953768fb6f69fe46aba74c4d564db4b62a90866cbe4",
+    "independentPixelInspectionSHA256": "535b617258553d7245f5dea64b2fdabfaddf74a6f8f256dcd1400b7bd24016ee",
+    "displayChecksSHA256": "4139a763f76d0f92c08e9f8503937e62be910e359e5f3249df4d88ab9bb2f8c0",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Complete public owner, primary abstracts and bounded selected primary/official text; no full methods/supplement/full-figure approval.",
+    "primaryPMIDs": [
+      "21742772",
+      "25695689",
+      "35314843",
+      "32023374",
+      "27849617"
+    ],
+    "limits": [
+      "Native browser img carrier; isolated complete article fixture lacks app header/sidebar/live data/navigation.",
+      "Desktop portrait inline capture requires scrolling; whole art inspected native and theater.",
+      "Known theater focus-return false remains qualified; Enter/Escape work.",
+      "Current source ownership and terminal baseline must be rebound by Root before integration.",
+      "No human/expert/clinician/learner competence/adoption/coverage/publication/live-delivery approval."
+    ]
+  },
+  "requiredCorrections": [],
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

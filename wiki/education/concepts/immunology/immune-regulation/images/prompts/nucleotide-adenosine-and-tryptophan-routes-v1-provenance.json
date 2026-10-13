@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-code-svg-authorship",
+  "author": "agent:/root/batch08_author_group2",
+  "createdAtUTC": "2026-10-13T19:55:39.468450+00:00",
+  "model": null,
+  "imageCalls": 0,
+  "owner": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+  "prospectiveTaskId": "next-gap-196",
+  "frozenLearnerTask": "Follow extracellular nucleotide conversion and receptor signaling separately from tryptophan breakdown and its possible local immune effects.",
+  "frozenGap": "The current fork names the two routes but does not teach their chemistry, location or receptor-versus-enzyme distinction. A two-lane mechanistic diagram can show CD39/CD73 and adenosine receptor separately from IDO1 and tryptophan/metabolites.",
+  "accuracyGuardrails": [
+    "Enzyme/component expression is not measured local activity.",
+    "Normal tissue restraint and tumor mechanisms are context-dependent.",
+    "No inhibitor-benefit inference from either route."
+  ],
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "selectionBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "ownerPreimageSHA256": "a4b6790f0a58ea88aba2934dd6128f2324ee16f8cd3d44b6621c5fba551a0c88",
+  "ownerAfterSHA256": "797307ae7ba3b512baf81116994d920ed6292e61359b8be7652792b91aefdf28",
+  "publicMetadataClassifiedBeforeBody": true,
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17502665/",
+      "readDepth": "Abstract and figure legends 3 and 4",
+      "supports": "CD39/CD73-dependent extracellular nucleotide conversion and A2A receptor distinction in tested mouse systems."
+    },
+    {
+      "url": "https://www.jci.org/articles/view/21583",
+      "readDepth": "Abstract and discussion paragraphs on tryptophan depletion versus downstream metabolites",
+      "supports": "IDO is an enzyme-mediated route distinct from receptor signaling; local immune effects are conditional."
+    }
+  ],
+  "limitations": "Author checks only. Clinician/domain-expert and learner review pending; adoption and Oncoguide delivery pending; no coverage credit.",
+  "coverageCredit": 0,
+  "svgFiles": [
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+      "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+      "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85"
+    }
+  ],
+  "promptSHA256": "d08d063720d088639af2bed3d7b6a195d94d8d214019989c0ff2cf0f42e415d2",
+  "sourceChecksPerformedAtUTC": "2026-10-13T20:03:31.378028+00:00",
+  "humanReview": "Clinician/domain-expert and actual learner review pending",
+  "independentReview": "Pending assignment by root after author seal",
+  "delivery": "This Batch08 candidate is private only; no release/adoption/coverage credit."
+}

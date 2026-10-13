@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-code-svg-authorship",
+  "author": "agent:/root/batch08_author_group2",
+  "createdAtUTC": "2026-10-13T19:55:39.468450+00:00",
+  "model": null,
+  "imageCalls": 0,
+  "owner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+  "prospectiveTaskId": "next-gap-197",
+  "frozenLearnerTask": "See how equal bulk averages can conceal different spatial signal patterns and why the receiving cell still matters.",
+  "frozenGap": "The chain correctly names source, pattern, receiver and effect, but a paired spatial field would make the 0/20 versus 10/10 fictional example immediately inspectable. Add receiver/receptor context rather than depicting chemokine as a universal magnet.",
+  "accuracyGuardrails": [
+    "The two compartments are a toy example, not a physiological gradient or dose.",
+    "Signal availability can be matrix/surface-associated.",
+    "Movement needs compatible receptors and traversable routes, not concentration alone."
+  ],
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "selectionBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "ownerPreimageSHA256": "51f9ec8fe8175f7e543f779bef28faa6b5cd7208b7441635629eda84d62ec3a4",
+  "ownerAfterSHA256": "7d7eff0f18bc95d023877d1eb75d31c4f767011ca3ab14948bb0086a27a30401",
+  "publicMetadataClassifiedBeforeBody": true,
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23329049/",
+      "readDepth": "Abstract",
+      "supports": "Mouse-skin CCL21 immobilized to heparan sulfates and directed dendritic-cell migration; distribution matters."
+    }
+  ],
+  "limitations": "Author checks only. Clinician/domain-expert and learner review pending; adoption and Oncoguide delivery pending; no coverage credit.",
+  "coverageCredit": 0,
+  "svgFiles": [
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94"
+    }
+  ],
+  "promptSHA256": "494f6d9da2c9b7a1ade14114bf3ef5286d883f6287ac7b39a4875a111ea9cbdd",
+  "sourceChecksPerformedAtUTC": "2026-10-13T20:03:31.378028+00:00",
+  "humanReview": "Clinician/domain-expert and actual learner review pending",
+  "independentReview": "Pending assignment by root after author seal",
+  "delivery": "This Batch08 candidate is private only; no release/adoption/coverage credit."
+}

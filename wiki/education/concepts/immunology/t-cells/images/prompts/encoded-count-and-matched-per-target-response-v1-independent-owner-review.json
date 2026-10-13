@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-199",
+  "owner": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+  "author": "agent:/root/batch08_author_group2",
+  "creativeAuthor": "agent:/root/batch08_author_group2",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T20:18:51.254889+00:00",
+  "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/222",
+  "frozenRowSHA256": "eedcce416358cbb40fb789e3baf7cc170580fe39b2bfa70943027013997e6a6d",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "A/B/C adjusted bars use common baseline and scale: 320/48/0 source-unit widths correspond to 40/6/0 spots, with C rendered as a zero baseline marker. Raw-minus-background arithmetic and the separate matched five-spot background share the 200000 plated-cell denominator. Caption names PBMCs, fictional values and assay-specific interpretation; no tumor-display or universal ranking claim follows C zero.",
+    "frozenPageSHA256": "5b8d960cca245885cc15e510c30b84b868f8907a96dd48085e0e55c6ba6cdc62",
+    "baselinePageSHA256": "5b8d960cca245885cc15e510c30b84b868f8907a96dd48085e0e55c6ba6cdc62",
+    "learnerTask": "Compare encoded target count with the unequal matched per-target response distribution and the background denominator.",
+    "gap": "The fictional arithmetic is reproducible but a compact three-bar chart can immediately contrast three encoded targets with 40, 6 and 0 background-adjusted spots per 200,000 plated cells. Show the matched background separately; do not turn this into a target-ranking formula.",
+    "accuracyGuardrails": [
+      "Values and positivity rules are fictional and assay-specific.",
+      "Zero adjusted spots do not prove absent tumor display.",
+      "No clone-pruning, marker requirement or universal target ranking."
+    ],
+    "targetSection": "## Worked example",
+    "currentCanonicalAdoption": "pending",
+    "currentCanonicalOwnerStillPreimage": true
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-light.svg",
+      "sha256": "dd8febf82e8fe6032c430dbe9608f595cd802bd15e85d0ee96b5dbe3a40c1783",
+      "bytes": 3486,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-dark.svg",
+      "sha256": "6e52119dee0c55b2db454b3997c720b326bcec820968c0b707767f0f9d68ad10",
+      "bytes": 3486,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+        "sha256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+        "bytes": 8241
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-light.svg",
+        "sha256": "dd8febf82e8fe6032c430dbe9608f595cd802bd15e85d0ee96b5dbe3a40c1783",
+        "bytes": 3486
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-dark.svg",
+        "sha256": "6e52119dee0c55b2db454b3997c720b326bcec820968c0b707767f0f9d68ad10",
+        "bytes": 3486
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-count-and-matched-per-target-response-v1.txt",
+        "sha256": "eeb7b4b87aee1bee6f3d4683441c2157907476e6e1ac7140a95c6e06df76c6a8",
+        "bytes": 1809
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-count-and-matched-per-target-response-v1-provenance.json",
+        "sha256": "2377dcbb8724481d3e28fd3cf5c9fbf479bdf02e6423c0dc099dc47f5b4a23fd",
+        "bytes": 2685
+      }
+    ],
+    "currentCandidateOwnerSHA256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "c32b678f6034530cfe9e0e11bb2a211cea3c27a6d9175ea10e79a87fa95b1ffe",
+    "exactFivePublicFiles": true,
+    "sourcePreimageSHA256": "5b8d960cca245885cc15e510c30b84b868f8907a96dd48085e0e55c6ba6cdc62",
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after removing only new section image and caption.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18641351/",
+      "primary": true,
+      "readDepth": "Complete PubMed abstract, Figure 1/2 legend text. PMC page retrieval was available but no full-paper/figure-image reading claimed.",
+      "supports": "Measured response hierarchy depends on presenting context and precursor availability; binding alone does not strictly predict it. No universal target-ranking or pruning instruction.",
+      "population": "C57BL/6J mouse LCMV experiments; neither the toy ELISpot numbers nor personalized-cancer-vaccine predictions are empirical data from this paper.",
+      "accessStatus": "Abstract and bounded legends retrieved."
+    }
+  ],
+  "mathAssessment": {
+    "invented": true,
+    "raw": [
+      45,
+      11,
+      5
+    ],
+    "background": 5,
+    "adjusted": [
+      40,
+      6,
+      0
+    ],
+    "denominator": 200000,
+    "barWidths": [
+      320,
+      48,
+      0
+    ],
+    "scaleUnitsPerSpot": 8,
+    "zero": "Baseline marker, not positive bar."
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, source-bound, arithmetic, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Each source entry records actual bounded independent reading and access failures. Retrieved XML does not imply full-paper approval. Unchanged ancillary citations not individually recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 45,
+    "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      960
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 20.7590625,
+    "minMobileDefaultPreviewLabelPx": 20.52,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 12.36376232234401,
+    "allTextContrastChecksPassed": true,
+    "lowestTextContrast": 12.36376232234401,
+    "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-199-light-native.png",
+      "sha256": "dc0366de46cd15dedea9959b2d89a015fecccfcd3bf51adec6b38335b9f16fe0"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-199-dark-native.png",
+      "sha256": "7e52728c8242004c29de4811cb9f81d1505fa2c39a73bc032c0a0854eb3f5097"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-199-light-mobile-inline.png",
+      "sha256": "4accdcffb3e614383747e7ab847523eda2a1f19769fe0d02ff3b9fcc451827c7"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-199-light-mobile-default-preview.png",
+      "sha256": "88083488415de0399ee149b420c0b5105d358a845dd2127229d59cab7b68a852"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-199-light-desktop-inline.png",
+      "sha256": "d319e3c7ac05214f7d2b4219147b12e06ce473a07280b8a43a9b2da00a8742c1"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-199-light-desktop-default-preview.png",
+      "sha256": "982801073399dcdf63bea57718be87125ae35931f92373e2dad0ae616fe0bb60"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-199-dark-mobile-inline.png",
+      "sha256": "a8dbd759aeb85018d8d67f955b4fccebcd1e14f4715f002dda7f2dfdfb8aaf6d"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-199-dark-mobile-default-preview.png",
+      "sha256": "040aff0d6485666d519bb07895c7b8589fc4345cfd80efad5eba579c315e6c26"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-199-dark-desktop-inline.png",
+      "sha256": "996c3375f86b6887271653254c4a5f24de52f89dc49e84c625dd4147d4500ba4"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-199-dark-desktop-default-preview.png",
+      "sha256": "16dd6afe1a4ee2ad0ad7c95738a4b3f15e631cef03f0b023f0587eea4d74e2e5"
+    }
+  ],
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "requiredCorrections": [],
+  "findings": []
+}

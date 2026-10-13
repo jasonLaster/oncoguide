@@ -68,6 +68,11 @@ Drug concentration may be reported in nanomoles/L or mass/volume, while eliminat
 
 ## Worked example and practice
 
+<img src="./images/lower-signaling-cell-elimination-and-lingering-injury-v1-light.svg" alt="Fictional signaling and cell count example, a named inducible caspase-9/AP1903 elimination mechanism and tissue effects that can linger. Surviving cells may regrow. No complete or instantaneous rescue is promised." data-theme-pair>
+
+*Lower signaling, eliminating cells and resolving injury are separate outcomes. The signal and viable-cell numbers are fictional illustrations of the page’s activity-switch example, not results for iCasp9. Inducible caspase-9 (iCasp9) with the dimerizing trigger AP1903 illustrates a different, cell-elimination mechanism studied in donor T cells after transplantation. Reduction may leave survivors, released signals and injury; no instantaneous complete rescue is implied.*
+
+
 A fictional drug controls a growth receptor. After withdrawal, its signaling readout falls to one-fifth of its earlier value. Of 100 viable engineered cells at the start, 80 remain viable at the next measurement, and those survivors still kill targets in a separate assay.
 
 **Try it:** Which claim is supported: reduced signaling, complete cell elimination or reversal of injury?

@@ -57,6 +57,10 @@ Vaccines generally recruit and expand suitable existing mature T cells; they do 
 
 ## How it is measured
 
+<img src="./images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg" alt="A thymic-arrival and peripheral-maintenance sketch is followed by a fictional two-cell to four-cell ledger retaining four total TREC circles while average copies per cell fall." data-theme-pair />
+
+*In this invented closed ledger, 2 cells carrying 4 total T-cell receptor excision circles (TRECs) divide into 4 cells with the same 4 circles: the average falls from 2 to 1 copy per cell. The left daughter pair carries 2 and 0 circles; the right pair carries 1 and 1. Each pair retains its parent’s 2 circles. This uneven allocation is one illustration. The ledger isolates division; it does not measure ongoing thymic arrivals, immune age or daily output.*
+
 **T-cell receptor excision circles (TRECs)** are circular DNA by-products of receptor rearrangement. They do not replicate with the chromosome during cell division. Measured TREC content can therefore be diluted when cells divide, even without an equivalent change in new output.
 
 A quantitative DNA assay may report copies per specified number of cells or per blood volume. Those denominators answer different questions. Hazenberg and colleagues demonstrated the importance of peripheral division when interpreting TREC changes in human infection studies.

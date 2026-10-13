@@ -1,0 +1,11 @@
+Original paired SVG creative brief actually used by agent:/root/batch08_author_group3.
+Task: next-gap-202
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/239
+Frozen row SHA256: 1e32c1561dfd1c03759d9d96f172ef3df5a78c3056b09991402f68877899c124
+Owner: wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md
+Learner question/task: Trace tumor material through presenting cells and lymph-node priming to a distant lesion
+Exact gap: The conditional flow names steps but omits physical compartments and distinct local versus distant measurements
+Exact accuracy guards: Label uninjected site rather than untreated; every arrow conditional; no guaranteed systemic vaccination
+Scene: Conditional tumor material collection, lymph-node priming and access to an uninjected lesion; local and distant outcomes are independent measurements.
+Takeaway caption: Tumor material may connect an injected site to presenting cells, lymph-node priming and an uninjected lesion. Every dashed route is conditional; local change, immune learning and distant outcome need distinct measurements. An uninjected lesion can still receive other treatments.
+Create original personable teaching art with large readable type and native biological compartments. Schematic cells, receptors and material, never engineering instructions. Keep all geometry, labels and data identical across themes; only semantic colors change. Transparent gutters. Each arrow is an intended or conditional relationship, never a result. No platform ranking, clinical guarantee, construct sequence, operational handling protocol or treatment recommendation. All invented numbers explicitly fictional, with time, unit and denominator adjacent. Preserve original owner teaching, formulas, citations, metadata, practice and art. Expert and learner review pending. The actual author drew SVG source code; model=null, imageCalls=0.

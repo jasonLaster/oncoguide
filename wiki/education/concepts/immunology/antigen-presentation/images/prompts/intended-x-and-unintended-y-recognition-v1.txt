@@ -1,0 +1,20 @@
+Original source-code SVG brief. Actual author: agent:/root/batch08_author_group1.
+{
+  "title": "Tumor-associated antigen",
+  "learnerTask": "Distinguish intended target in healthy tissue from recognition of a different target by the same receptor.",
+  "exactGap": "The X/Y example contains a concrete two-hazard contrast that a compact paired cell/receptor scene would clarify. Show intended-X recognition across tissues separately from unintended-Y cross-reactivity; a generic target-expression map would not resolve it.",
+  "accuracyGuardrails": [
+    "Lower healthy-tissue expression does not guarantee protection.",
+    "On-target off-tumor and off-target cross-reactivity are distinct.",
+    "Do not draw every shared antigen as unsafe or every neoantigen as safe."
+  ],
+  "scene": "Two fictional comparisons separate intended X recognition on tumor and healthy cells by a CAR from an X-directed T-cell receptor that also recognizes peptide Y.",
+  "composition": "600 \u00d7 900, original molecular/cell contact geometry; warm continuous panels; transparent outer gutters; physically separate target recognition and outcomes; same labels/geometry in light and dark; minimum SVG label 34px, to verify actual 390px reader paint size. No actual dataset, rates, scales or cell counts; all schematic qualitative and X/Y fictional examples.",
+  "theme": "Light ivory + navy ink; dark navy + ivory ink; blue recognition, purple support/light chains, green display, orange antigen/cytokine cues. No color-only distinction.",
+  "caption": "Fictional X/Y scenes distinguish intended-target recognition in healthy tissue from recognition of a different molecular target. Neither scene assigns a toxicity rate.",
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23926201%20AND%20SRC:MED&format=json&resultType=core",
+    "Full returned abstract and metadata read; no article methods/results/figure pixels read. PubMed direct 429."
+  ],
+  "humanReview": "expert/clinician and learner review pending"
+}

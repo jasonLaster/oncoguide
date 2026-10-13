@@ -1,0 +1,11 @@
+Original SVG creative brief actually used by agent:/root/batch08_author_group2.
+Task: next-gap-201
+Owner: wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md
+Frozen learner task: Separate new thymic arrivals from peripheral maintenance and see how cell division dilutes a nonreplicating per-cell TREC marker.
+Frozen gap: The pool-input map is adequate for maintenance mechanisms, but it does not show the denominator-specific dilution underlying the measurement warning. A tiny fictional before/after cell-and-circle ledger would explain why per-cell content can fall without proving zero output.
+Scene: A thymic-arrival and peripheral-maintenance sketch is followed by a fictional two-cell to four-cell ledger retaining four total TREC circles while average copies per cell fall.
+Caption and interpretation: In this invented closed ledger, 2 cells carrying 4 total T-cell receptor excision circles (TRECs) divide into 4 cells with the same 4 circles: the average falls from 2 to 1 copy per cell. The uneven allocation shown is one illustration. The ledger isolates division; it does not measure ongoing thymic arrivals, immune age or daily output.
+Accuracy guardrails: TREC molecules do not replicate with chromosomes; allocation across individual daughters is not necessarily even. | Label illustrative counts and retain total copies versus copies per cell. | No age cutoff, immune-age score or daily output inference.
+Design: 600x960 source-code SVG, original independent geometry, identical geometry/text/data across paired themes; separate solid theme-colored panels with transparent gutters, Arial minimum 36 SVG units, no clinical-benefit axis, no patient data. Direct source-code authorship; no image tool invocation, no model invocation recorded.
+Preserve source owner prose, all citations and math and current metadata; insert only embed and caption after frozen section heading.
+Final custody correction used: two parents each contain 2 circles; left daughters allocate 2/0 and right daughters 1/1. Conserve copies within each parent lineage, not merely population-wide.

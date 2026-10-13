@@ -43,7 +43,16 @@ Normal-tissue expression can create **on-target, off-tumor** harm: the receptor 
 
 A shared antigen can support a treatment intended for more than one person's cancer. The tradeoff is that tumor coverage and healthy-tissue exposure need careful measurement. Expression prevalence in a cohort is not proof of a safe recognition threshold for an individual product.
 
+### Why a shared target does not repair a lost display route
+
+For vaccine-elicited, peptide-specific T cells, a shared antigen offers another candidate to test when credible private targets are few or cover only part of a tumor. This is a coverage hypothesis, not demonstrated added benefit. [NCI describes the shared-target vaccine approach](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines). A TAA-derived peptide and a neoantigen-derived peptide may still depend on the same HLA allele: changing the antigen does not restore a missing display route. [A primary colorectal-cancer cell-transfer case documented escape after loss of the restricting HLA allele](https://pubmed.ncbi.nlm.nih.gov/27959684/); it does not estimate vaccine benefit in breast cancer. Conventional surface-antigen-directed antibodies and CARs have different recognition requirements. [Epitope spreading](/wiki/education/concepts/immunology/t-cells/epitope-spreading) is a separate widening of detected recognition, not something guaranteed by adding a shared antigen.
+
 ## Worked example
+
+
+<img src="./images/intended-x-and-unintended-y-recognition-v1-light.svg" alt="Two fictional comparisons separate intended X recognition on tumor and healthy cells by a CAR from an X-directed T-cell receptor that also recognizes peptide Y." data-theme-pair />
+
+*Fictional X/Y scenes distinguish intended-target recognition in healthy tissue from recognition of a different molecular target. Neither scene assigns a toxicity rate.*
 
 Suppose fictional protein X is abundant on most sampled tumor cells and present at lower levels in a healthy organ. A CAR kills X-high cells in a dish. That result does not establish that the healthy organ is protected: its cells may still cross the receptor's activation threshold, and the experimental conditions may differ from the body.
 

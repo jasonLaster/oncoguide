@@ -31,6 +31,10 @@ The analogy ends at the chemistry. Cells have several receptors and metabolic pa
 
 ## How it works
 
+<img src="./images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg" alt="Extracellular ATP and ADP pass through CD39 and CD73 to adenosine and a cell-surface receptor; a separate intracellular IDO1 route starts tryptophan breakdown." data-theme-pair />
+
+*Follow the chemistry and the location: surface enzymes generate extracellular adenosine for a receptor, while intracellular IDO1 starts tryptophan breakdown. The kynurenine-pathway arrow summarizes several downstream steps. Component expression does not establish local activity or inhibitor benefit.*
+
 **Adenosine** is a small molecule that can signal through cell-surface receptors. Outside cells, enzymes including **CD39** and **CD73** can help generate it: CD39 converts extracellular [adenosine triphosphate (ATP)](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) and adenosine diphosphate (ADP) to adenosine monophosphate (AMP), and CD73 converts AMP to adenosine. These enzymes can be expressed by immune, cancer or other tissue cells; the relevant source must be measured rather than assumed.
 
 **A2A** is one adenosine receptor through which signals can restrain T-cell activity. Adenosine signaling also helps limit inflammatory tissue damage. Mouse studies of CD39/CD73-dependent regulatory T-cell function and A2A-dependent antitumor responses support those mechanisms under their tested conditions. [Deaglio et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17502665/), [Ohta et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16916931/).

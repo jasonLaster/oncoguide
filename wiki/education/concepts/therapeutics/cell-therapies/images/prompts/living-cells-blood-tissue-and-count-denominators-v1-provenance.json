@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-authored-education-svg",
+  "author": "agent:/root/batch08_author_group3",
+  "model": null,
+  "imageCalls": 0,
+  "sourceCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourcePreimageSHA256": "57a2d33e58a45b35214d97ea52b8bd0edd3a9fa75b8759a707d2363eddb650af",
+  "task": {
+    "prospectiveTaskId": "next-gap-204",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/335",
+    "frozenRowSHA256": "f66fafefbda52ff05c4cf38211adb03eae74dd4e903d3d2a4e1dde0fdd4609b5",
+    "owner": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+    "learnerTask": "Compare percentage and absolute blood count while tracking tissue location",
+    "gap": "Flow omits blood/tumor compartments and denominator change with same absolute concentration",
+    "accuracyGuardrails": "Fictional counts not total-body abundance; persistence not function; delivery product differs from active cells",
+    "targetSection": "## Worked example and practice"
+  },
+  "drawnWith": "original SVG source code",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "adoption": "pending",
+  "coverageCredit": 0,
+  "sourceReadScope": "complete public owner, after frontmatter classification; source read depth in private evidence manifest",
+  "caption": "Fictional blood counts: 20% of 100 and 10% of 200 viable T cells per microliter both give 20 receptor-positive cells per microliter. These are concentrations in sampled blood, not total-body cell counts, tumor entry or useful function. The two bars share a scale; their equal green segments show the same receptor-positive concentration.",
+  "themeInvariant": "geometry, labels and data identical; semantic colors only",
+  "fictionalData": true
+}

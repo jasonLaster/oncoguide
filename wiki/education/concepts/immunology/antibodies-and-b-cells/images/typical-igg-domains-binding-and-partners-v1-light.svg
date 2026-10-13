@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Antibody structure</title><desc id="desc">A typical IgG antibody with two heavy and two light chains; variable and constant domains are labeled, Fab includes both types and Fc contains CH2 and CH3 domains from both heavy chains.</desc>
+<rect x="12" y="12" width="576" height="100" rx="24" fill="#fffaf0"/>
+<text x="32" y="54" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="start" fill="#182c42">A typical IgG molecule</text>
+<text x="32" y="96" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#344b60">Two binding tips; a partner region</text>
+<rect x="12" y="124" width="576" height="510" rx="24" fill="#fffaf0"/>
+<text x="32" y="169" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="start" fill="#182c42">2 heavy + 2 light chains</text>
+<path d="M209 224 L245 307 L275 390 L252 443 L257 534" fill="none" stroke="#176599" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M147 235 L185 318" fill="none" stroke="#704697" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="209" cy="224" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="209" y="235" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">VH</text>
+<ellipse cx="245" cy="307" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="245" y="318" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CH1</text>
+<ellipse cx="252" cy="443" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="252" y="454" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CH2</text>
+<ellipse cx="257" cy="534" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="257" y="545" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CH3</text>
+<ellipse cx="147" cy="235" rx="39" ry="29" fill="#f6e5cf" stroke="#704697" stroke-width="4"/>
+<text x="147" y="246" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">VL</text>
+<ellipse cx="185" cy="318" rx="39" ry="29" fill="#f6e5cf" stroke="#704697" stroke-width="4"/>
+<text x="185" y="329" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CL</text>
+<path d="M172 244 L192 255" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M205 316 L225 321" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M391 224 L355 307 L325 390 L348 443 L343 534" fill="none" stroke="#176599" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M453 235 L415 318" fill="none" stroke="#704697" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="391" cy="224" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="391" y="235" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">VH</text>
+<ellipse cx="355" cy="307" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="355" y="318" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CH1</text>
+<ellipse cx="348" cy="443" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="348" y="454" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CH2</text>
+<ellipse cx="343" cy="534" rx="43" ry="29" fill="#e5eef4" stroke="#176599" stroke-width="4"/>
+<text x="343" y="545" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CH3</text>
+<ellipse cx="453" cy="235" rx="39" ry="29" fill="#f6e5cf" stroke="#704697" stroke-width="4"/>
+<text x="453" y="246" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">VL</text>
+<ellipse cx="415" cy="318" rx="39" ry="29" fill="#f6e5cf" stroke="#704697" stroke-width="4"/>
+<text x="415" y="329" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#182c42">CL</text>
+<path d="M428 244 L408 255" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M395 316 L375 321" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M274 385 L326 385" fill="none" stroke="#344b60" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M274 396 L326 396" fill="none" stroke="#344b60" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="39" y="390" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="start" fill="#182c42">Fab</text>
+<path d="M116 378 L180 350" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="421" y="440" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Hinge</text>
+<path d="M412 426 L332 391" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="461" y="535" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="start" fill="#182c42">Fc</text>
+<path d="M450 522 L384 496" fill="none" stroke="#344b60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="603" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">V: variable     C: constant</text>
+<rect x="12" y="648" width="576" height="240" rx="24" fill="#fffaf0"/>
+<text x="32" y="692" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#182c42">Fab contains V and C domains.</text>
+<path d="M54 730 L98 730" fill="none" stroke="#176599" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="113" y="742" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#176599">Heavy chain</text>
+<path d="M339 730 L378 730" fill="none" stroke="#704697" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="390" y="742" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#704697">Light chain</text>
+<text x="32" y="790" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Fc: heavy-chain CH2 + CH3.</text>
+<text x="32" y="838" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">Fc partners may engage;</text>
+<text x="32" y="879" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#182c42">binding does not guarantee killing.</text>
+</svg>

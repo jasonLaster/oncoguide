@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1060" viewBox="0 0 600 1060" role="img" aria-labelledby="title desc"><title id="title">Can a local treatment teach a distant response?</title><desc id="desc">Conditional tumor material collection, lymph-node priming and access to an uninjected lesion; local and distant outcomes are independent measurements.</desc><defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="3" markerHeight="3" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a5cddd" stroke-width="2"/></marker></defs>
+<rect x="12" y="6" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="42" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">Can local material teach</text>
+<text x="24" y="82" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">a distant response?</text>
+<rect x="12" y="110" width="576" height="228" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="155" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">1  Injected tumor</text>
+<circle cx="75" cy="215" r="25" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="66" cy="218" rx="9.0" ry="11.25" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="80.0" cy="210.0" r="2.7" fill="#f0f6fb"/>
+<circle cx="87.5" cy="210.0" r="2.7" fill="#f0f6fb"/>
+<path d="M80.625 217.5 q3.125 3.125 6.875 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="126" cy="239" r="25" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="117" cy="242" rx="9.0" ry="11.25" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="131.0" cy="234.0" r="2.7" fill="#f0f6fb"/>
+<circle cx="138.5" cy="234.0" r="2.7" fill="#f0f6fb"/>
+<path d="M131.625 241.5 q3.125 3.125 6.875 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="88" cy="281" r="25" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="79" cy="284" rx="9.0" ry="11.25" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="93.0" cy="276.0" r="2.7" fill="#f0f6fb"/>
+<circle cx="100.5" cy="276.0" r="2.7" fill="#f0f6fb"/>
+<path d="M93.625 283.5 q3.125 3.125 6.875 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="184" cy="214" r="8" fill="#ff9fb4"/>
+<circle cx="208" cy="246" r="8" fill="#ff9fb4"/>
+<circle cx="177" cy="277" r="8" fill="#ff9fb4"/>
+<path d="M146 247 L272 247" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<polygon points="366.0,247.0 347.1,253.5 360.2,268.5 340.6,264.6 344.5,284.2 329.5,271.1 323.0,290.0 316.5,271.1 301.5,284.2 305.4,264.6 285.8,268.5 298.9,253.5 280.0,247.0 298.9,240.5 285.8,225.5 305.4,229.4 301.5,209.8 316.5,222.9 323.0,204.0 329.5,222.9 344.5,209.8 340.6,229.4 360.2,225.5 347.1,240.5" fill="#382e57" stroke="#cbb2ff" stroke-width="3"/>
+<circle cx="323" cy="247" r="12" fill="none" stroke="#cbb2ff" stroke-width="3"/>
+<text x="32" y="329" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Local size</text>
+<text x="308" y="329" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#cbb2ff" text-anchor="start">Presenting cell</text>
+<text x="385" y="219" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Material</text>
+<text x="385" y="259" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">may be</text>
+<text x="385" y="299" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">collected</text>
+<path d="M554 345 L554 398" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<rect x="12" y="348" width="500" height="50" rx="15" fill="#142e3d"/>
+<text x="32" y="385" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">May reach draining node</text>
+<rect x="12" y="410" width="576" height="222" rx="28" fill="#382e57" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="455" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">2  Lymph-node priming</text>
+<path d="M54 485 Q280 450 545 500 Q505 595 310 597 Q150 607 54 485" fill="none" stroke="#cbb2ff" stroke-width="3"/>
+<polygon points="197.0,533.0 179.4,539.0 191.6,553.0 173.4,549.4 177.0,567.6 163.0,555.4 157.0,573.0 151.0,555.4 137.0,567.6 140.6,549.4 122.4,553.0 134.6,539.0 117.0,533.0 134.6,527.0 122.4,513.0 140.6,516.6 137.0,498.4 151.0,510.6 157.0,493.0 163.0,510.6 177.0,498.4 173.4,516.6 191.6,513.0 179.4,527.0" fill="#382e57" stroke="#cbb2ff" stroke-width="3"/>
+<circle cx="157" cy="533" r="12" fill="none" stroke="#cbb2ff" stroke-width="3"/>
+<circle cx="332" cy="533" r="40" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="323" cy="536" rx="14.399999999999999" ry="18.0" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="340.0" cy="525.0" r="2.7" fill="#f0f6fb"/>
+<circle cx="352.0" cy="525.0" r="2.7" fill="#f0f6fb"/>
+<path d="M341.0 537.0 q5.0 5.0 11.0 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M207 533 L283 533" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<circle cx="216" cy="513" r="7" fill="#ff9fb4"/>
+<text x="389" y="518" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">T cells</text>
+<text x="389" y="558" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">may learn</text>
+<path d="M554 640 L554 692" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<rect x="12" y="643" width="500" height="50" rx="15" fill="#142e3d"/>
+<text x="32" y="680" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">May travel, enter, recognize</text>
+<rect x="12" y="704" width="576" height="222" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="749" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">3  Uninjected lesion</text>
+<circle cx="438" cy="812" r="26" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="429" cy="815" rx="9.36" ry="11.700000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="443.2" cy="806.8" r="2.7" fill="#f0f6fb"/>
+<circle cx="451.0" cy="806.8" r="2.7" fill="#f0f6fb"/>
+<path d="M443.85 814.6 q3.25 3.25 7.15 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="486" cy="839" r="26" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="477" cy="842" rx="9.36" ry="11.700000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="491.2" cy="833.8" r="2.7" fill="#f0f6fb"/>
+<circle cx="499.0" cy="833.8" r="2.7" fill="#f0f6fb"/>
+<path d="M491.85 841.6 q3.25 3.25 7.15 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="431" cy="861" r="26" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="422" cy="864" rx="9.36" ry="11.700000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="436.2" cy="855.8" r="2.7" fill="#f0f6fb"/>
+<circle cx="444.0" cy="855.8" r="2.7" fill="#f0f6fb"/>
+<path d="M436.85 863.6 q3.25 3.25 7.15 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<circle cx="279" cy="833" r="37" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="270" cy="836" rx="13.32" ry="16.650000000000002" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="286.4" cy="825.6" r="2.7" fill="#f0f6fb"/>
+<circle cx="297.5" cy="825.6" r="2.7" fill="#f0f6fb"/>
+<path d="M287.325 836.7 q4.625 4.625 10.175 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M325 833 L388 833" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<text x="32" y="804" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Access and</text>
+<text x="32" y="844" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">function</text>
+<text x="32" y="884" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">still need tests</text>
+<text x="354" y="918" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Distant size</text>
+<rect x="12" y="939" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="975" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Measure each lesion separately.</text>
+<text x="24" y="1015" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Dashed routes: conditional.</text>
+</svg>

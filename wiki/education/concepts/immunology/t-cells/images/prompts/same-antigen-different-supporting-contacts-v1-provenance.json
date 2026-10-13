@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch08_author_group1",
+  "method": "Original source-code SVG authored by agent; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "createdAtUTC": "2026-10-13T20:04:30.394462+00:00",
+  "status": "private prospective candidate; independent review and canonical adoption pending",
+  "learnerTask": "Compare identical peptide-HLA recognition with different supporting ligand contacts and distinguish separate receptor jobs.",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/220",
+  "frozenRowSHA256": "2e53b86bf96b9ccf58cedfab61086c1b644732db2930ffb8ed67a170f623b823",
+  "sourcePreimageSHA256": "6d06c047c9d0de68bb2ad0ed400c007746ed11be3b0128af2067d7e2614a639c",
+  "sourceCommitVerified": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "promptFile": "same-antigen-different-supporting-contacts-v1.txt",
+  "promptSHA256": "ef69bbc8d5a07a2ca4cec3b41fe23f75dd6223bbbe1c5c793c956d2aaf842170",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-light.svg",
+      "sha256": "75aa5ca482736385e36ae46ef6800b368db5e8b4921e48f3f0b12db6c873b5b3",
+      "bytes": 8012
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-dark.svg",
+      "sha256": "f7bc3f07e51304f5843765261f04edba61f089016d76f00887f958f1f0b3fdc9",
+      "bytes": 8012
+    }
+  ],
+  "scientificScope": "Qualitative teaching schematics; no molecule coordinates, assay data, clinical rate, numerical signaling weights or treatment instruction. Illustrative icons are not population measurements.",
+  "claimsChecked": [
+    "CD28\u2013B7 contacts supply costimulation; CTLA-4 can capture CD80/CD86 from opposing cells and reduce support."
+  ],
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1847722%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read; binding and support in controlled cell systems.",
+    "https://pubmed.ncbi.nlm.nih.gov/21474713/",
+    "Abstract and figure captions 1\u20134 read through web tool; no figure pixels or complete article read. EuropePMC abstract saved."
+  ],
+  "sourceCheckedUTC": "2026-10-13T20:04:30.394462+00:00",
+  "reviewed": "pending",
+  "reviewed_by": "",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "coverageCredit": 0
+}

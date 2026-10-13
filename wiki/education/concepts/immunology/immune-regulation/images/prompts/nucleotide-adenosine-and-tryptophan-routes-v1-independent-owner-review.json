@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-196",
+  "owner": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+  "author": "agent:/root/batch08_author_group2",
+  "creativeAuthor": "agent:/root/batch08_author_group2",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T20:18:51.254889+00:00",
+  "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "797307ae7ba3b512baf81116994d920ed6292e61359b8be7652792b91aefdf28",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/207",
+  "frozenRowSHA256": "63dee82904e175f668779f8988a654ed8712182eeab2f09b4fe96b40d070ace9",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The extracellular ATP/ADP → AMP via CD39 → adenosine via CD73 route ends at a labeled A2A membrane receptor. A separate intracellular producing-cell lane shows IDO1 initiation of tryptophan breakdown and the kynurenine pathway. The caption identifies the downstream-step summary; local activity, immune effects and inhibitor benefit remain separate questions.",
+    "frozenPageSHA256": "a4b6790f0a58ea88aba2934dd6128f2324ee16f8cd3d44b6621c5fba551a0c88",
+    "baselinePageSHA256": "a4b6790f0a58ea88aba2934dd6128f2324ee16f8cd3d44b6621c5fba551a0c88",
+    "learnerTask": "Follow extracellular nucleotide conversion and receptor signaling separately from tryptophan breakdown and its possible local immune effects.",
+    "gap": "The current fork names the two routes but does not teach their chemistry, location or receptor-versus-enzyme distinction. A two-lane mechanistic diagram can show CD39/CD73 and adenosine receptor separately from IDO1 and tryptophan/metabolites.",
+    "accuracyGuardrails": [
+      "Enzyme/component expression is not measured local activity.",
+      "Normal tissue restraint and tumor mechanisms are context-dependent.",
+      "No inhibitor-benefit inference from either route."
+    ],
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "currentCanonicalOwnerStillPreimage": true
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+      "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+      "bytes": 3591,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+      "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+      "bytes": 3591,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+        "sha256": "797307ae7ba3b512baf81116994d920ed6292e61359b8be7652792b91aefdf28",
+        "bytes": 8810
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+        "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+        "bytes": 3591
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+        "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+        "bytes": 3591
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/nucleotide-adenosine-and-tryptophan-routes-v1.txt",
+        "sha256": "d08d063720d088639af2bed3d7b6a195d94d8d214019989c0ff2cf0f42e415d2",
+        "bytes": 1767
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/nucleotide-adenosine-and-tryptophan-routes-v1-provenance.json",
+        "sha256": "85939f69924d1294929c2d955ba0014c339dbf3937c04f0cddb130fb8704bd95",
+        "bytes": 2991
+      }
+    ],
+    "currentCandidateOwnerSHA256": "797307ae7ba3b512baf81116994d920ed6292e61359b8be7652792b91aefdf28",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "c32b678f6034530cfe9e0e11bb2a211cea3c27a6d9175ea10e79a87fa95b1ffe",
+    "exactFivePublicFiles": true,
+    "sourcePreimageSHA256": "a4b6790f0a58ea88aba2934dd6128f2324ee16f8cd3d44b6621c5fba551a0c88",
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after removing only new section image and caption.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17502665/",
+      "primary": true,
+      "readDepth": "Complete PubMed abstract and Figure 3/4 legends. Independently fetched primary full-text XML via Europe PMC, personally read abstract and three selected paragraphs on extracellular chemistry and suppressive function, not full paper.",
+      "alternateRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2118603/fullTextXML",
+      "supports": "CD39 extracellular ATP/ADP conversion toward AMP, CD73 generation of adenosine, distinct A2A receptor signaling; activity and perturbation are separate from expression.",
+      "population": "Mouse T-cell in vitro and allograft systems; no human inhibitor benefit.",
+      "accessStatus": "PubMed and XML retrieved."
+    },
+    {
+      "url": "https://www.jci.org/articles/view/21583",
+      "primary": true,
+      "readDepth": "Complete JCI abstract and selected introduction/discussion paragraphs on tryptophan breakdown, depletion and downstream metabolites. No full methods or figure-image review.",
+      "supports": "IDO enzyme route is distinct from adenosine receptor signaling, and local functional effects depend on setting.",
+      "population": "Mouse tumor-draining-node experiments; separate human observational component not adopted as mechanism proof.",
+      "accessStatus": "Retrieved bounded publisher HTML."
+    }
+  ],
+  "mathAssessment": {
+    "qualitative": true,
+    "notToScale": true,
+    "IDOArrow": "Summary of early and downstream kynurenine-pathway steps, caption-qualified."
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, source-bound, arithmetic, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Each source entry records actual bounded independent reading and access failures. Retrieved XML does not imply full-paper approval. Unchanged ancillary citations not individually recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 45,
+    "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      960
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 20.7590625,
+    "minMobileDefaultPreviewLabelPx": 20.52,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 8.195454597542245,
+    "allTextContrastChecksPassed": true,
+    "lowestTextContrast": 8.195454597542245,
+    "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-196-light-native.png",
+      "sha256": "ce588780b0c18f72d55b20e078b9baa354cd284509405d1f295dddc7fd929a0e"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-196-dark-native.png",
+      "sha256": "0cb687c0b5946c3f22a057a3c16d0e86b209d61de1cf36d98311b6973a3605f6"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-196-light-mobile-inline.png",
+      "sha256": "0ee257fdb55c28c1407cbd8e49dac2c46c2890d02cd7b236e20733151f0385c5"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-196-light-mobile-default-preview.png",
+      "sha256": "54373733d7bc3c4fcfd94d6d2e2ec17fa10b719e8659ee9fc503e801a72ffedf"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-196-light-desktop-inline.png",
+      "sha256": "2688bd56fa05586b96c7bcffc5d7e49a6f6852a9da8c9897bc2760668bd7d7ef"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-196-light-desktop-default-preview.png",
+      "sha256": "319c56f349c4f4f49e5d7403c8905f1233cbf758982a1730584a000e67bd6348"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-196-dark-mobile-inline.png",
+      "sha256": "f603c71587177bef6f044aaa0b577a62d1378dbe785cd9bf32f70782533e5e26"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-196-dark-mobile-default-preview.png",
+      "sha256": "4abd7465c3770ebe958e5a4a55218a70c9cbad0ecdba3968eac4c254719ca3ca"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-196-dark-desktop-inline.png",
+      "sha256": "67723977d88d41b5fba78294b215119eb5fb8175347fd27b0577569584da6978"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-196-dark-desktop-default-preview.png",
+      "sha256": "2de8fc08dc460edecd64b9d62e1e6ac932eafd8661108985179c8e76ea23868c"
+    }
+  ],
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "requiredCorrections": [],
+  "findings": []
+}

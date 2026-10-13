@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-code-svg-authorship",
+  "author": "agent:/root/batch08_author_group2",
+  "createdAtUTC": "2026-10-13T19:55:39.468450+00:00",
+  "model": null,
+  "imageCalls": 0,
+  "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+  "prospectiveTaskId": "next-gap-195",
+  "frozenLearnerTask": "Distinguish a loose immune-cell aggregate from organized T/B regions and a structure with a demonstrated germinal center.",
+  "frozenGap": "The assessment sequence is useful but does not depict the spatial organization that defines the concept. A comparison of tissue arrangements would show why aggregate counts alone do not establish maturity.",
+  "accuracyGuardrails": [
+    "TLS occur outside conventional lymphoid organs; not every aggregate is a TLS.",
+    "Maturity and marker definitions are study-specific.",
+    "No response or treatment-benefit conclusion from density alone."
+  ],
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "selectionBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "ownerPreimageSHA256": "e86e940f987bd78b0f89ed42974a528654d561d4bcc8e6aa893ab5d7218b249f",
+  "ownerAfterSHA256": "8d5a2775e9d4016e1026617cf787a7ab0a07e04cde4fcd2a4a1c89cda7f5c7fc",
+  "publicMetadataClassifiedBeforeBody": true,
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35118423/",
+      "readDepth": "PubMed abstract; publisher abstract/preview, figure titles, not full methods",
+      "supports": "Method-defined maturity has a separate interpretation from counts; retrospective treated cohort association does not demonstrate treatment causation."
+    },
+    {
+      "url": "https://www.jci.org/articles/view/67428",
+      "readDepth": "Abstract, Results architecture paragraph and discussion describing adjacent T zones/B follicles, GC features; no full-paper claim",
+      "supports": "Primary breast-tissue spatial architecture, with marker-defined germinal centers distinct from loose aggregates."
+    }
+  ],
+  "limitations": "Author checks only. Clinician/domain-expert and learner review pending; adoption and Oncoguide delivery pending; no coverage credit.",
+  "coverageCredit": 0,
+  "svgFiles": [
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+      "sha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-dark.svg",
+      "sha256": "739102d26115180847f20ae1f1a40293c3fa2b6ab21491bcf46a25f1b38cdb73"
+    }
+  ],
+  "promptSHA256": "331727d99e1c7d0fd8662f8a512d74dd44528edeee55819a23ae09eea37a5f9c",
+  "sourceChecksPerformedAtUTC": "2026-10-13T20:03:31.378028+00:00",
+  "humanReview": "Clinician/domain-expert and actual learner review pending",
+  "independentReview": "Pending assignment by root after author seal",
+  "delivery": "This Batch08 candidate is private only; no release/adoption/coverage credit."
+}

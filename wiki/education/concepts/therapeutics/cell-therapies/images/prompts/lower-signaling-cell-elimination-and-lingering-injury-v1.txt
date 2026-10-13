@@ -1,0 +1,11 @@
+Original paired SVG creative brief actually used by agent:/root/batch08_author_group3.
+Task: next-gap-206
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/337
+Frozen row SHA256: c7ba91c39fb3f9681ea041f292913b30dea2e96e919b0edfe191eeda059516ab
+Owner: wiki/education/concepts/therapeutics/cell-therapies/safety-switches.md
+Learner question/task: Separate lower signaling, cell elimination and injury resolution
+Exact gap: Current review flow cannot show viable residual cells or lingering effects
+Exact accuracy guards: Named switch and trigger; no instantaneous complete rescue; surviving cells can regrow
+Scene: Fictional signaling and cell count example, a named inducible caspase-9/AP1903 elimination mechanism and tissue effects that can linger. Surviving cells may regrow. No complete or instantaneous rescue is promised.
+Takeaway caption: Lower signaling, eliminating cells and resolving injury are separate outcomes. The signal and viable-cell numbers are fictional illustrations of the page’s activity-switch example, not results for iCasp9. Inducible caspase-9 (iCasp9) with the dimerizing trigger AP1903 illustrates a different, cell-elimination mechanism studied in donor T cells after transplantation. Reduction may leave survivors, released signals and injury; no instantaneous complete rescue is implied.
+Create original personable teaching art with large readable type and native biological compartments. Schematic cells, receptors and material, never engineering instructions. Keep all geometry, labels and data identical across themes; only semantic colors change. Transparent gutters. Each arrow is an intended or conditional relationship, never a result. No platform ranking, clinical guarantee, construct sequence, operational handling protocol or treatment recommendation. All invented numbers explicitly fictional, with time, unit and denominator adjacent. Preserve original owner teaching, formulas, citations, metadata, practice and art. Expert and learner review pending. The actual author drew SVG source code; model=null, imageCalls=0.

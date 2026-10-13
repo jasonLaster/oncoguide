@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-189",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+  "author": "agent:/root/batch08_author_group1",
+  "creativeAuthor": "agent:/root/batch08_author_group1",
+  "reviewer": "agent:/root/batch08_review_group1",
+  "independentReviewer": "agent:/root/batch08_review_group1",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:11:04.014268+00:00",
+  "reviewedAtUTC": "2026-10-13T20:11:04.014268+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Distinguish a folded antibody epitope from a processed peptide-HLA recognition surface derived from the same protein.",
+  "learnerTask": "Distinguish a folded antibody epitope from a processed peptide-HLA recognition surface derived from the same protein.",
+  "gap": "The prose explains an inherently three-dimensional distinction, but there is no molecular or cell-surface picture. A two-route comparison would make folding, accessibility and the peptide-plus-HLA surface concrete.",
+  "accuracyGuardrails": [
+    "An epitope can be discontinuous in linear sequence.",
+    "Conventional peptide-directed TCRs inspect peptide together with HLA, not free peptide.",
+    "Binding does not establish activation, killing or immunogenicity."
+  ],
+  "currentOwnerSha256": "80c3eaa84ce75de5c51bb50361727dc2509dcfbe0edc3f425c2bae020acc3a19",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/197",
+  "frozenRowSHA256": "99258ed5a68313ceeac23451b858d803e5db6ba907eefc8b8f6321e821533425",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Separated folded-protein patches and the accessible antibody tip contrast with peptide held in HLA beneath a TCR. The same-source caption and processed-fragment prose connect the routes without equating their molecular surfaces. The drawing names peptide plus HLA, not free-peptide recognition; recognition is explicitly not a killing result.",
+    "frozenPageSHA256": "8d7d122f7935413171a012ca487fe297f8b85a4c5eb09c2b54e70ff68b691b49",
+    "baselinePageSHA256": "8d7d122f7935413171a012ca487fe297f8b85a4c5eb09c2b54e70ff68b691b49",
+    "learnerTask": "Distinguish a folded antibody epitope from a processed peptide-HLA recognition surface derived from the same protein.",
+    "gap": "The prose explains an inherently three-dimensional distinction, but there is no molecular or cell-surface picture. A two-route comparison would make folding, accessibility and the peptide-plus-HLA surface concrete.",
+    "accuracyGuardrails": [
+      "An epitope can be discontinuous in linear sequence.",
+      "Conventional peptide-directed TCRs inspect peptide together with HLA, not free peptide.",
+      "Binding does not establish activation, killing or immunogenicity."
+    ]
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+      "sha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96",
+      "bytes": 4577,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-dark.svg",
+      "sha256": "ddfd34ed952194e1c5393025c165bd174a0e42e5378de81c6598875b1ea9ea74",
+      "bytes": 4577,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 900,
+        "viewBox": "0 0 600 900"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+        "sha256": "80c3eaa84ce75de5c51bb50361727dc2509dcfbe0edc3f425c2bae020acc3a19",
+        "bytes": 7954
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+        "sha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96",
+        "bytes": 4577
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-dark.svg",
+        "sha256": "ddfd34ed952194e1c5393025c165bd174a0e42e5378de81c6598875b1ea9ea74",
+        "bytes": 4577
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/folded-epitope-and-peptide-hla-surfaces-v1.txt",
+        "sha256": "699cd3c4066193cb28729fd0236f3a858f0298fd354a20a80205f581ff02abca",
+        "bytes": 2264
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/folded-epitope-and-peptide-hla-surfaces-v1-provenance.json",
+        "sha256": "73415cf2fcc0702b4b631ab5571aa7013db174345ca64ebc4c5031dd52820f0c",
+        "bytes": 2473
+      }
+    ],
+    "currentCandidateOwnerSHA256": "80c3eaa84ce75de5c51bb50361727dc2509dcfbe0edc3f425c2bae020acc3a19",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "24a063fd640379817187616f9b5c4cb2ea953050fd84830739c85b33e88d9e59",
+    "exactFivePublicFiles": true,
+    "sourceOwnerOriginalRecovered": true,
+    "preservationCheck": "Removing exact authored insertion with its trailing newline recovers the source bytes. Prose, metadata, citations, navigation, Mermaid and existing art remain unchanged."
+  },
+  "sourceaccess": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK27160/",
+      "depth": "Official search-returned conformational/discontinuous epitope passage; no complete chapter or source figure pixels."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK27098/",
+      "depth": "Official search-returned peptide-MHC/TCR interaction passage and caption text; no source figure pixels."
+    }
+  ],
+  "sourceAccessLimits": "Direct independent PubMed opens returned429, empty pages or an HHS-only footer for several cited papers; no complete-paper or source-figure reading is claimed. Source evidence remains bounded to the retrieved text.",
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, data/math, source-bound, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Full public owner bodies after metadata gate; source access as listed.",
+    "freshCaptureCountForOwner": 10,
+    "authorCaptureCountInspectedSeparately": 10,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "minimumInlineEssentialLabelPx": 19.606666666666666,
+    "minimumTheaterEssentialLabelPx": 19.38,
+    "nativeMinimumFontPx": 34,
+    "minimumNativeTextContrast": 6.011073839298084,
+    "themeGeometryAndTextIdentical": true,
+    "carrierLimits": "Private exact pinned article/frame/theater/table-enhancer plus actual CSS; no live app navigation/sidebar/data. Transparent gutters reveal dim underlying page. Enter opens and Escape closes; focus returns BODY after Escape. No full app/accessibility or touch certification."
+  },
+  "mathAndInference": "No measured data, statistical claim, scale, denominator or outcome rate is generated. Task190 fictional X/Y are explicitly labeled. Numbered priming categories and qualitative division/cytokine icons are schematic, not measured counts.",
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

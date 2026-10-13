@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1060" viewBox="0 0 600 1060" role="img" aria-labelledby="title desc"><title id="title">Turning down, removing cells and resolving injury are separate</title><desc id="desc">Fictional signaling and cell count example, a named inducible caspase-9/AP1903 elimination mechanism and tissue effects that can linger. Surviving cells may regrow. No complete or instantaneous rescue is promised.</desc><defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="3" markerHeight="3" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#a5cddd" stroke-width="2"/></marker></defs>
+<rect x="12" y="6" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="42" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">Three outcomes to</text>
+<text x="24" y="82" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#f0f6fb" text-anchor="start">measure separately</text>
+<rect x="12" y="110" width="576" height="245" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="155" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">1  Lower signaling</text>
+<circle cx="92" cy="231" r="38" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="83" cy="234" rx="13.68" ry="17.1" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="99.6" cy="223.4" r="2.7" fill="#f0f6fb"/>
+<circle cx="111.0" cy="223.4" r="2.7" fill="#f0f6fb"/>
+<path d="M100.55 234.8 q4.75 4.75 10.45 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M130 231 L158 231" fill="none" stroke="#6ee3c4" stroke-width="4"/>
+<path d="M158 218 L158 244" fill="none" stroke="#6ee3c4" stroke-width="4"/>
+<text x="178" y="242" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#6ee3c4" text-anchor="middle"></text>
+<rect x="237" y="183" width="46" height="95" rx="7" fill="#6ee3c4"/>
+<rect x="371" y="259" width="46" height="19" rx="7" fill="#6ee3c4"/>
+<path d="M300 226 L350 226" fill="none" stroke="#a5cddd" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+<text x="260" y="317" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="middle">Fictional signal: 1 → 0.2</text>
+<text x="438" y="213" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Cells</text>
+<text x="438" y="253" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">remain</text>
+<rect x="12" y="372" width="576" height="246" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="417" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">2  Cell elimination</text>
+<text x="32" y="459" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#cbb2ff" text-anchor="start">iCasp9 + AP1903</text>
+<circle cx="113" cy="524" r="35" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="104" cy="527" rx="12.6" ry="15.75" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="120.0" cy="517.0" r="2.7" fill="#f0f6fb"/>
+<circle cx="130.5" cy="517.0" r="2.7" fill="#f0f6fb"/>
+<path d="M120.875 527.5 q4.375 4.375 9.625 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<path d="M178 496 l25 27 -25 29 m40 -56 l25 27 -25 29" fill="none" stroke="#cbb2ff" stroke-width="4"/>
+<circle cx="290" cy="507" r="9" fill="#6ee3c4"/>
+<circle cx="324" cy="535" r="9" fill="#6ee3c4"/>
+<circle cx="301" cy="561" r="9" fill="#6ee3c4"/>
+<circle cx="420" cy="530" r="30" fill="#174f49" stroke="#6ee3c4" stroke-width="4"/>
+<ellipse cx="411" cy="533" rx="10.799999999999999" ry="13.5" fill="none" stroke="#6ee3c4" stroke-width="3"/>
+<circle cx="426.0" cy="524.0" r="2.7" fill="#f0f6fb"/>
+<circle cx="435.0" cy="524.0" r="2.7" fill="#f0f6fb"/>
+<path d="M426.75 533.0 q3.75 3.75 8.25 0" fill="none" stroke="#f0f6fb" stroke-width="2"/>
+<text x="32" y="595" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Survivors may regrow</text>
+<rect x="12" y="635" width="576" height="276" rx="28" fill="#542c3a" stroke="#a5cddd" stroke-width="2"/>
+<text x="32" y="680" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f0f6fb" text-anchor="start">3  Injury may linger</text>
+<path d="M48 748 Q140 704 242 745 T440 745 L440 812 Q335 775 244 815 T48 809 Z" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<circle cx="95" cy="767" r="21" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="86" cy="770" rx="7.56" ry="9.450000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="170" cy="778" r="21" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="161" cy="781" rx="7.56" ry="9.450000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="290" cy="777" r="21" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="281" cy="780" rx="7.56" ry="9.450000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="375" cy="787" r="21" fill="#542c3a" stroke="#ff9fb4" stroke-width="4"/>
+<ellipse cx="366" cy="790" rx="7.56" ry="9.450000000000001" fill="none" stroke="#ff9fb4" stroke-width="3"/>
+<circle cx="87" cy="719" r="9" fill="#ffd381"/>
+<circle cx="250" cy="728" r="9" fill="#ffd381"/>
+<circle cx="480" cy="751" r="9" fill="#ffd381"/>
+<circle cx="520" cy="816" r="9" fill="#ffd381"/>
+<text x="32" y="861" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">Released signals + tissue damage</text>
+<text x="32" y="901" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#f0f6fb" text-anchor="start">need separate assessment</text>
+<rect x="12" y="933" width="576" height="88" rx="28" fill="#142e3d" stroke="#a5cddd" stroke-width="2"/>
+<text x="24" y="969" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">Fictional: 100 → 80 viable cells</text>
+<text x="24" y="1009" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="500" fill="#c1d4df" text-anchor="start">does not mean complete rescue.</text>
+</svg>

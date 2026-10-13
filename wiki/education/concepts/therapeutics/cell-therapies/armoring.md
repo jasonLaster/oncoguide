@@ -29,6 +29,11 @@ Think of adding a tool for one obstacle: a better signal receiver or a way to re
 
 ## How it works
 
+<img src="./images/cytokine-support-location-and-receptor-modification-v1-light.svg" alt="Four conceptual armoring patterns: continuous secretion, activation-induced secretion, surface-held cytokine support and a dominant-negative receptor variant, with no universal protection." data-theme-pair>
+
+*Cytokine support can be continuous, activation-induced or held near a cell surface; changing a receptor response is a different mechanism. Local triggering does not establish local-only exposure, and a receptor variant is not a gene deletion. None provides universal protection.*
+
+
 A basic [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) connects recognition to signaling. **Armoring** usually describes additional functions, such as cytokine production or resistance to a suppressive pathway. Usage varies across studies, so read the actual engineered change rather than relying on the label.
 
 One approach adds support from [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine), signaling proteins that influence immune behavior. Interleukin-15 support was included in one engineered [natural killer (NK)-cell](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self) clinical construct. The construct had several features; its outcomes do not isolate the contribution of the cytokine component. [The primary study](https://pubmed.ncbi.nlm.nih.gov/32023374/) makes the combined design explicit.

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-code-svg-authorship",
+  "author": "agent:/root/batch08_author_group2",
+  "createdAtUTC": "2026-10-13T19:55:39.468450+00:00",
+  "model": null,
+  "imageCalls": 0,
+  "owner": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+  "prospectiveTaskId": "next-gap-200",
+  "frozenLearnerTask": "Compare the same sampled clone count against different sampled population sizes and see why a higher frequency need not be absolute expansion.",
+  "frozenGap": "The 10/1,000 versus 10/100 exercise supplies a clear quantitative contrast that two aligned count-and-fraction displays would make memorable. Show the fixed numerator explicitly; do not use differently sized clone icons as if the clone grew.",
+  "accuracyGuardrails": [
+    "Sampled counts are not automatically calibrated whole-body or tissue absolute counts.",
+    "Operational clonotype definitions depend on chain/assay.",
+    "Frequency does not identify antigen specificity."
+  ],
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "selectionBaseCommit": "cbb748dd5fe88f444a580f3e874062d9e15bd855",
+  "ownerPreimageSHA256": "35248d7a0341c3c26933d55bb4adcf7ba4f7f1f6e869e52dac16d396630908ce",
+  "ownerAfterSHA256": "62432747e9babee221e272cb513efe0842005994071b18092db52763441d98d1",
+  "publicMetadataClassifiedBeforeBody": true,
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/",
+      "readDepth": "Abstract",
+      "supports": "Peripheral division and thymic output are distinct maintenance mechanisms, and human/mouse extrapolation is constrained."
+    },
+    {
+      "url": "https://www.nature.com/articles/ncomms9081",
+      "readDepth": "Publisher record retrieved; later body/find attempts returned internal error; no full sequence-definition method claim from this check",
+      "supports": "Owner citation preserved; numerator/denominator visual is elementary arithmetic from frozen exercise."
+    }
+  ],
+  "limitations": "Author checks only. Clinician/domain-expert and learner review pending; adoption and Oncoguide delivery pending; no coverage credit.",
+  "coverageCredit": 0,
+  "svgFiles": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+      "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-dark.svg",
+      "sha256": "46245c96dcaca8b1f0250e96e25e1e8274edb8b0111b0439d6e21bf5580b679d"
+    }
+  ],
+  "promptSHA256": "8879d2378f3c6100fd481bd9e9467abd1bb3189ad8e2aef3d877cbced3cee13a",
+  "sourceChecksPerformedAtUTC": "2026-10-13T20:03:31.378028+00:00",
+  "humanReview": "Clinician/domain-expert and actual learner review pending",
+  "independentReview": "Pending assignment by root after author seal",
+  "delivery": "This Batch08 candidate is private only; no release/adoption/coverage credit."
+}

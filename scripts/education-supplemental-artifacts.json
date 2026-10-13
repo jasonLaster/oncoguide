@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "reviewedSourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -7319,6 +7319,744 @@
         {
           "path": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
           "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/batch08-current-baseline/typical-igg-domains-binding-and-partners-v1-independent-owner-review.json",
+      "sha256": "e39fa07868071961826e650cf97c2c29f85c07df98ed411f987881f4b60883de",
+      "bytes": 12023,
+      "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+      "ownerSha256": "009309b971bf2b537e8908c065f3dbee9c8af7c57075cf3c99ad4dc3906c82a9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-light.svg",
+          "sha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-dark.svg",
+          "sha256": "a3f15d9cb1a0d6b5aba3bc22d87a06f24c0988471243c2a9c96cb118cb1d77be"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/immune-aggregate-organized-regions-and-germinal-center-v1-independent-owner-review.json",
+      "sha256": "e24cbd39723389d913583fc7c92c15d65331ffddb15ca8b7812e044878c744a7",
+      "bytes": 11998,
+      "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+      "ownerSha256": "8d5a2775e9d4016e1026617cf787a7ab0a07e04cde4fcd2a4a1c89cda7f5c7fc",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+          "sha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-dark.svg",
+          "sha256": "739102d26115180847f20ae1f1a40293c3fa2b6ab21491bcf46a25f1b38cdb73"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/immune-aggregate-organized-regions-and-germinal-center-v1-provenance.json",
+      "sha256": "e2b118fb5eba11872d4021fda798710fae5855e5235e66022b91cd952de72ee2",
+      "bytes": 3130,
+      "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+      "ownerSha256": "8d5a2775e9d4016e1026617cf787a7ab0a07e04cde4fcd2a4a1c89cda7f5c7fc",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+          "sha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-dark.svg",
+          "sha256": "739102d26115180847f20ae1f1a40293c3fa2b6ab21491bcf46a25f1b38cdb73"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/typical-igg-domains-binding-and-partners-v1-provenance.json",
+      "sha256": "8f9c7198076dfd59cd52d7194394f680aef2a61c53b30421dd68976cbff2766e",
+      "bytes": 2368,
+      "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+      "ownerSha256": "009309b971bf2b537e8908c065f3dbee9c8af7c57075cf3c99ad4dc3906c82a9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-light.svg",
+          "sha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-dark.svg",
+          "sha256": "a3f15d9cb1a0d6b5aba3bc22d87a06f24c0988471243c2a9c96cb118cb1d77be"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/batch08-current-baseline/intended-x-and-unintended-y-recognition-v1-independent-owner-review.json",
+      "sha256": "7fe5ef391dd33ddf6320cf85dca717c92c46c8f972972da7d86042177a9f5819",
+      "bytes": 18908,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+      "ownerSha256": "b9b457204fe53053ea8561380bb26179978c183bea5fab4fc229d705a343c1ef",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+          "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-dark.svg",
+          "sha256": "ca22e0be2fd78cb0ab76b260ea080b0a9ab333e3965c43b6dfa1ebd5421dd402"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/folded-epitope-and-peptide-hla-surfaces-v1-independent-owner-review.json",
+      "sha256": "eb5f1e669fbf2118ee6767fe29290cbae86bead53eb80e10b9b57d03eb5afb9e",
+      "bytes": 8178,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+      "ownerSha256": "80c3eaa84ce75de5c51bb50361727dc2509dcfbe0edc3f425c2bae020acc3a19",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+          "sha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-dark.svg",
+          "sha256": "ddfd34ed952194e1c5393025c165bd174a0e42e5378de81c6598875b1ea9ea74"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/folded-epitope-and-peptide-hla-surfaces-v1-provenance.json",
+      "sha256": "73415cf2fcc0702b4b631ab5571aa7013db174345ca64ebc4c5031dd52820f0c",
+      "bytes": 2473,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+      "ownerSha256": "80c3eaa84ce75de5c51bb50361727dc2509dcfbe0edc3f425c2bae020acc3a19",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+          "sha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-dark.svg",
+          "sha256": "ddfd34ed952194e1c5393025c165bd174a0e42e5378de81c6598875b1ea9ea74"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/intended-x-and-unintended-y-recognition-v1-focused-taa-correction-review.json",
+      "sha256": "85ceb0ea729f09348c03389057ef0b80b924adbbdafcbadfef912fd612687af4",
+      "bytes": 8984,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+      "ownerSha256": "b9b457204fe53053ea8561380bb26179978c183bea5fab4fc229d705a343c1ef",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+          "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-dark.svg",
+          "sha256": "ca22e0be2fd78cb0ab76b260ea080b0a9ab333e3965c43b6dfa1ebd5421dd402"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/intended-x-and-unintended-y-recognition-v1-provenance.json",
+      "sha256": "ccd577aee8759485d816701aec75de4fef59ca6b0549b018f1bd61a7d0006776",
+      "bytes": 2381,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+      "ownerSha256": "b9b457204fe53053ea8561380bb26179978c183bea5fab4fc229d705a343c1ef",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+          "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-dark.svg",
+          "sha256": "ca22e0be2fd78cb0ab76b260ea080b0a9ab333e3965c43b6dfa1ebd5421dd402"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/batch08-current-baseline/same-bulk-average-different-spatial-signals-v1-independent-owner-review.json",
+      "sha256": "f4a8a9b40f77d6c84a574cbb3bb55cf9ec7f15eaf3b28c7c562c89397ee69e91",
+      "bytes": 21849,
+      "owner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+      "ownerSha256": "e18799fb37bf9fed2454a1f46ca0f0f8f3ad59c8fdc451c91b44390080ecf1e4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+          "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+          "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/nucleotide-adenosine-and-tryptophan-routes-v1-independent-owner-review.json",
+      "sha256": "0b3ca8f696a98f717ae5121553f7b711c83f0f34f67a5c749d68af881a921fd6",
+      "bytes": 12130,
+      "owner": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+      "ownerSha256": "797307ae7ba3b512baf81116994d920ed6292e61359b8be7652792b91aefdf28",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+          "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+          "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/nucleotide-adenosine-and-tryptophan-routes-v1-provenance.json",
+      "sha256": "85939f69924d1294929c2d955ba0014c339dbf3937c04f0cddb130fb8704bd95",
+      "bytes": 2991,
+      "owner": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+      "ownerSha256": "797307ae7ba3b512baf81116994d920ed6292e61359b8be7652792b91aefdf28",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+          "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+          "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1-provenance.json",
+      "sha256": "f5f50ad873f062e5782b97b51195990833ec8981fbf1b1f727880082817d6687",
+      "bytes": 2688,
+      "owner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+      "ownerSha256": "e18799fb37bf9fed2454a1f46ca0f0f8f3ad59c8fdc451c91b44390080ecf1e4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+          "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+          "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/batch08-current-baseline/cd1d-lipid-and-peptide-hla-displays-v1-independent-owner-review.json",
+      "sha256": "b58909a8509e79184316e95cc2ac2de42a5e7cc8e31038240bfec8ada6fe1106",
+      "bytes": 12259,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md",
+      "ownerSha256": "a89f55ac0b4f1ec4306ec290fe0307b1c1b35748eed39b114e5bd2caca51913f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+          "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+          "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/cd1d-lipid-and-peptide-hla-displays-v1-provenance.json",
+      "sha256": "95fe16cc7c57aa73299717015a0e2a8c23bbaf74dbc4bbf244488dc7643dcd2c",
+      "bytes": 2593,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md",
+      "ownerSha256": "a89f55ac0b4f1ec4306ec290fe0307b1c1b35748eed39b114e5bd2caca51913f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+          "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+          "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-independent-owner-review.json",
+      "sha256": "6cf5c73eaa8f182efdff41c388707672df35d80769dc25f1baa149feecfa4055",
+      "bytes": 8701,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+      "ownerSha256": "d84212dd81f1a9af7e36cbe9d974db38efb002e39aaf04baf992ed6154352f1a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+          "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+          "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-provenance.json",
+      "sha256": "d0d74132cc289855e761f2edfb5afbfc365fd7c78a905d5861bf6980ee52b605",
+      "bytes": 2644,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+      "ownerSha256": "d84212dd81f1a9af7e36cbe9d974db38efb002e39aaf04baf992ed6154352f1a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+          "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+          "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/batch08-current-baseline/fixed-clone-count-changing-sample-denominator-v1-independent-owner-review.json",
+      "sha256": "9c36e7108984d7e82379d72b30dab7e131013e50e6527ebd6588229f584b5938",
+      "bytes": 22722,
+      "owner": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+      "ownerSha256": "5d49056518bdb6f0d7b872f513bd4773f6bb41e3264a4be69d52ff88201b18e5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+          "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-dark.svg",
+          "sha256": "46245c96dcaca8b1f0250e96e25e1e8274edb8b0111b0439d6e21bf5580b679d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-count-and-matched-per-target-response-v1-independent-owner-review.json",
+      "sha256": "5c446495565e7a6632c9af843b4a135bcf3d2a2061fa1c380e0eeac137c306d0",
+      "bytes": 11556,
+      "owner": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+      "ownerSha256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-light.svg",
+          "sha256": "dd8febf82e8fe6032c430dbe9608f595cd802bd15e85d0ee96b5dbe3a40c1783"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-dark.svg",
+          "sha256": "6e52119dee0c55b2db454b3997c720b326bcec820968c0b707767f0f9d68ad10"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-count-and-matched-per-target-response-v1-provenance.json",
+      "sha256": "2377dcbb8724481d3e28fd3cf5c9fbf479bdf02e6423c0dc099dc47f5b4a23fd",
+      "bytes": 2685,
+      "owner": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+      "ownerSha256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-light.svg",
+          "sha256": "dd8febf82e8fe6032c430dbe9608f595cd802bd15e85d0ee96b5dbe3a40c1783"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-dark.svg",
+          "sha256": "6e52119dee0c55b2db454b3997c720b326bcec820968c0b707767f0f9d68ad10"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-targets-and-detected-specificities-v1-independent-owner-review.json",
+      "sha256": "513cfe589cfd159f6869c19a48517677de3ed4101a3a2a7a578bd5d6621cc03d",
+      "bytes": 11853,
+      "owner": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+      "ownerSha256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-light.svg",
+          "sha256": "2b2220af3c67f57526760688bac30f84862b25bf31d3b4c5d401d2118e8a9529"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-dark.svg",
+          "sha256": "8c2485f76082335337f1917ca6d5a7b5daffaf43ad3e149691574357c571f804"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/encoded-targets-and-detected-specificities-v1-provenance.json",
+      "sha256": "068962a3f3944c021b0d5431d41075119a137ced3185aa6686a52a906070c579",
+      "bytes": 2782,
+      "owner": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+      "ownerSha256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-light.svg",
+          "sha256": "2b2220af3c67f57526760688bac30f84862b25bf31d3b4c5d401d2118e8a9529"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-dark.svg",
+          "sha256": "8c2485f76082335337f1917ca6d5a7b5daffaf43ad3e149691574357c571f804"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/fixed-clone-count-changing-sample-denominator-v1-provenance.json",
+      "sha256": "24ea8e7c07db4e48b9884437f7f3c29d80cf73357bc89f6d1a533fe87ecc766c",
+      "bytes": 3011,
+      "owner": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+      "ownerSha256": "5d49056518bdb6f0d7b872f513bd4773f6bb41e3264a4be69d52ff88201b18e5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+          "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-dark.svg",
+          "sha256": "46245c96dcaca8b1f0250e96e25e1e8274edb8b0111b0439d6e21bf5580b679d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/new-arrivals-peripheral-division-and-trec-ledger-v1-independent-owner-review.json",
+      "sha256": "e845fcba03ed1f940c57fd297f74c03a4006666859a16d1d12325382ecc8dfb1",
+      "bytes": 12538,
+      "owner": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+      "ownerSha256": "f106e753cb5de291ab81d9aba3b87089ef339295370863708f3066bc9dc1d27b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg",
+          "sha256": "1e8f43e1b8936340e8a87e113e1b7c8bfa8b062982b5d1153fb97fc301a725e1"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-dark.svg",
+          "sha256": "ea9cbd86d7b4189e0789f21a2243b04ba386d675deb1f55c7ef8af0da1c37f97"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/new-arrivals-peripheral-division-and-trec-ledger-v1-provenance.json",
+      "sha256": "9b3d23d7d72de059cc97db0309df7cee48a9b253f6817535bc89ed415d285d2d",
+      "bytes": 3463,
+      "owner": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+      "ownerSha256": "f106e753cb5de291ab81d9aba3b87089ef339295370863708f3066bc9dc1d27b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg",
+          "sha256": "1e8f43e1b8936340e8a87e113e1b7c8bfa8b062982b5d1153fb97fc301a725e1"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-dark.svg",
+          "sha256": "ea9cbd86d7b4189e0789f21a2243b04ba386d675deb1f55c7ef8af0da1c37f97"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/priming-contact-context-and-distinct-outcomes-v1-independent-owner-review.json",
+      "sha256": "464c786568e940f58be3577d454ff0a64dec5ebfa4274880b9e0b0d13870d681",
+      "bytes": 8619,
+      "owner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+      "ownerSha256": "66d9467b56367c2ac5085b35b9556fa7ccf7d5f9f9c04993f5a89a029bcdc953",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+          "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-dark.svg",
+          "sha256": "2ad2eb8cff2e79376af2536b48795c8668a6b1a33d615dd6f80932869c98ddca"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/priming-contact-context-and-distinct-outcomes-v1-provenance.json",
+      "sha256": "454fdbf48aa64ba52a972398407f0a3a6609458f2012dfb80768c8a21ab92580",
+      "bytes": 2657,
+      "owner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+      "ownerSha256": "66d9467b56367c2ac5085b35b9556fa7ccf7d5f9f9c04993f5a89a029bcdc953",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+          "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-dark.svg",
+          "sha256": "2ad2eb8cff2e79376af2536b48795c8668a6b1a33d615dd6f80932869c98ddca"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/same-antigen-different-supporting-contacts-v1-independent-owner-review.json",
+      "sha256": "08d40df1a7061832ca317f5a1dec2c0ca9633e1c3adf3835d8657d9acbb4bd8a",
+      "bytes": 8467,
+      "owner": "wiki/education/concepts/immunology/t-cells/costimulation.md",
+      "ownerSha256": "b87082275814f1e3fffd7cb4e048a4cad5ff6aed7c0ebeba285f3a3ef3d233e1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-light.svg",
+          "sha256": "75aa5ca482736385e36ae46ef6800b368db5e8b4921e48f3f0b12db6c873b5b3"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-dark.svg",
+          "sha256": "f7bc3f07e51304f5843765261f04edba61f089016d76f00887f958f1f0b3fdc9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/same-antigen-different-supporting-contacts-v1-provenance.json",
+      "sha256": "bd98ef3a7aa20a1e72f382ca1e77b6caacc080d2e0527aaabc40cd1debc63ed8",
+      "bytes": 2494,
+      "owner": "wiki/education/concepts/immunology/t-cells/costimulation.md",
+      "ownerSha256": "b87082275814f1e3fffd7cb4e048a4cad5ff6aed7c0ebeba285f3a3ef3d233e1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-light.svg",
+          "sha256": "75aa5ca482736385e36ae46ef6800b368db5e8b4921e48f3f0b12db6c873b5b3"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-dark.svg",
+          "sha256": "f7bc3f07e51304f5843765261f04edba61f089016d76f00887f958f1f0b3fdc9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/tumor-material-presenting-cells-and-distant-lesion-v1-independent-owner-review.json",
+      "sha256": "c019f649c0ae4ccdf06d46f4faf0e89882739ecefae9456d89ef56f27bca8eee",
+      "bytes": 7148,
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+      "ownerSha256": "54b55fd2320ea457999b11b8a55885d15dcd906220e511dc57fa7e6fd78fd7a2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg",
+          "sha256": "67f480e97ac5f94ee267289b6a9f7453ffff117467de7378a6355cc3a132946f"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-dark.svg",
+          "sha256": "a15abfdf0683c373199729986560bf76e0963b4070f6ac1893c5646be4e4fcdd"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/tumor-material-presenting-cells-and-distant-lesion-v1-provenance.json",
+      "sha256": "9d6377917e172a4a2d73c1dd8f7129f4fddb86c332293d1a9a88dfc4f0636b2e",
+      "bytes": 1772,
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+      "ownerSha256": "54b55fd2320ea457999b11b8a55885d15dcd906220e511dc57fa7e6fd78fd7a2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg",
+          "sha256": "67f480e97ac5f94ee267289b6a9f7453ffff117467de7378a6355cc3a132946f"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-dark.svg",
+          "sha256": "a15abfdf0683c373199729986560bf76e0963b4070f6ac1893c5646be4e4fcdd"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/and-or-not-and-sequential-recognition-patterns-v1-independent-owner-review.json",
+      "sha256": "dd29bd8a459c8f41ddfa52dbf491ee818ef5ee037d291a65b049068490b7afce",
+      "bytes": 7209,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars.md",
+      "ownerSha256": "da5006cbeb058bfb147ac6588e9ceff4e2bc0be036e88eb8d105905b41b4fcd9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-light.svg",
+          "sha256": "36925c0c152582aed5a5fff7e1f76faf6f77180a539b7f4a99537e0d32eaaeae"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-dark.svg",
+          "sha256": "be952e5b0d20a9065779396af63ca654fa08814740e733d2263457f098bc07a8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/and-or-not-and-sequential-recognition-patterns-v1-provenance.json",
+      "sha256": "73e03ff512e1c52c18224a5acbbe9ccbee276768723a720dfded802a0670ce6e",
+      "bytes": 1849,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars.md",
+      "ownerSha256": "da5006cbeb058bfb147ac6588e9ceff4e2bc0be036e88eb8d105905b41b4fcd9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-light.svg",
+          "sha256": "36925c0c152582aed5a5fff7e1f76faf6f77180a539b7f4a99537e0d32eaaeae"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/and-or-not-and-sequential-recognition-patterns-v1-dark.svg",
+          "sha256": "be952e5b0d20a9065779396af63ca654fa08814740e733d2263457f098bc07a8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/cytokine-support-location-and-receptor-modification-v1-independent-owner-review.json",
+      "sha256": "d923d3257632573068062bc104e9e9477148feed8806ec1dc907951e02c589ce",
+      "bytes": 7236,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/armoring.md",
+      "ownerSha256": "6923a94821becf1c101d002c23256c6b07be47ee0cc194367a31e05916107d43",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-light.svg",
+          "sha256": "da23a23ca50e3b98f847d9c0edae55fe68c39fc5b9308ac6dbb8d4d8564ab228"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-dark.svg",
+          "sha256": "282e6671f98d3dedfb56b70c8f410d07f94d414f2672b6e53da93332139e3d8d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/cytokine-support-location-and-receptor-modification-v1-provenance.json",
+      "sha256": "bcf3aa4ac2e7a6722139600c891ff1409aad6c125614287905c188aaad7ab348",
+      "bytes": 1735,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/armoring.md",
+      "ownerSha256": "6923a94821becf1c101d002c23256c6b07be47ee0cc194367a31e05916107d43",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-light.svg",
+          "sha256": "da23a23ca50e3b98f847d9c0edae55fe68c39fc5b9308ac6dbb8d4d8564ab228"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/cytokine-support-location-and-receptor-modification-v1-dark.svg",
+          "sha256": "282e6671f98d3dedfb56b70c8f410d07f94d414f2672b6e53da93332139e3d8d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/living-cells-blood-tissue-and-count-denominators-v1-independent-owner-review.json",
+      "sha256": "dcd5bdcfa3097954371c05c13dd5cf670db8503318bbb6afbf9920fb8c6c7923",
+      "bytes": 7178,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+      "ownerSha256": "3618a9a259dbafe0284545f001eb2e06b313800d171cca0bf4f664e9f8639840",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-light.svg",
+          "sha256": "681317c10bee9074e51e4d9f73b6c63440482c200bc93a3348d249630df8e399"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-dark.svg",
+          "sha256": "d92ef92ea5920f0b219d8a00fab24ec89fee5111028990b017cccac4e4b88db1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/living-cells-blood-tissue-and-count-denominators-v1-provenance.json",
+      "sha256": "a874ddd14bdb2b8743c7c68b66e36f0a8940ebff59a742ab57e3b1ee84966478",
+      "bytes": 1827,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+      "ownerSha256": "3618a9a259dbafe0284545f001eb2e06b313800d171cca0bf4f664e9f8639840",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-light.svg",
+          "sha256": "681317c10bee9074e51e4d9f73b6c63440482c200bc93a3348d249630df8e399"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/living-cells-blood-tissue-and-count-denominators-v1-dark.svg",
+          "sha256": "d92ef92ea5920f0b219d8a00fab24ec89fee5111028990b017cccac4e4b88db1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/lower-signaling-cell-elimination-and-lingering-injury-v1-independent-owner-review.json",
+      "sha256": "4afaee8bebfb5a421b3effa2d2df6302d846eac33175d1d3a1bbc726bec7a541",
+      "bytes": 7195,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/safety-switches.md",
+      "ownerSha256": "0660088503c76b712e2d9a9bb94b37e405a73985d45278e61e48cb6be1ca4fc5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-light.svg",
+          "sha256": "06f31a7e75996d286dc7e9e19e5e92d24b4287fe3b01d2d2388f85d1da8540a3"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-dark.svg",
+          "sha256": "6e6f139ce0de01e0b9ae208f8bd3142b22b88cb668958b27f0347f94c77a4588"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/lower-signaling-cell-elimination-and-lingering-injury-v1-provenance.json",
+      "sha256": "1a1ffcdd46336985ce7d1dc3c2e9b1efd98d50da90690984420eaeecb2f2dd52",
+      "bytes": 1902,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/safety-switches.md",
+      "ownerSha256": "0660088503c76b712e2d9a9bb94b37e405a73985d45278e61e48cb6be1ca4fc5",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-light.svg",
+          "sha256": "06f31a7e75996d286dc7e9e19e5e92d24b4287fe3b01d2d2388f85d1da8540a3"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/lower-signaling-cell-elimination-and-lingering-injury-v1-dark.svg",
+          "sha256": "6e6f139ce0de01e0b9ae208f8bd3142b22b88cb668958b27f0347f94c77a4588"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/vaccine-purpose-target-selection-and-delivery-v1-independent-owner-review.json",
+      "sha256": "ed630aeff85f896e109d27a4b833f6ea5e6680b570e9cd88d1c7086bd22ebf45",
+      "bytes": 7087,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ownerSha256": "9b4e2beba72e1a2128ee934aaa07ee0f254807f741b8288de3d27e0d7b236025",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+          "sha256": "44e5b157813b360b575d04ff2ea1379fd90bf6c22bad8ddbac6a9e56ca083537"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+          "sha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/vaccine-purpose-target-selection-and-delivery-v1-provenance.json",
+      "sha256": "f8162f4ff9897a7035386206750f54bbca5c6b0e4eac55c9d3807a76ed6e9151",
+      "bytes": 1693,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ownerSha256": "9b4e2beba72e1a2128ee934aaa07ee0f254807f741b8288de3d27e0d7b236025",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+          "sha256": "44e5b157813b360b575d04ff2ea1379fd90bf6c22bad8ddbac6a9e56ca083537"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+          "sha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262"
         }
       ],
       "contentClass": "source-owned-public-custody"

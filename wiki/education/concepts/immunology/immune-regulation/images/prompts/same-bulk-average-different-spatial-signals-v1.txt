@@ -1,0 +1,10 @@
+Original SVG creative brief actually used by agent:/root/batch08_author_group2.
+Task: next-gap-197
+Owner: wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md
+Frozen learner task: See how equal bulk averages can conceal different spatial signal patterns and why the receiving cell still matters.
+Frozen gap: The chain correctly names source, pattern, receiver and effect, but a paired spatial field would make the 0/20 versus 10/10 fictional example immediately inspectable. Add receiver/receptor context rather than depicting chemokine as a universal magnet.
+Scene: Two equal-sized compartment pairs show 0 and 20 versus 10 and 10 pg/mL, both averaging 10, beside a compatible receptor and traversable route.
+Caption and interpretation: Both fictional preparations average 10 pg/mL across equal-sized compartments, but only A has a concentration difference. Dots illustrate the pattern, not individual molecules or a physiological gradient. Receptors, signal presentation and traversable routes still matter; these values are not patient data or a dose.
+Accuracy guardrails: The two compartments are a toy example, not a physiological gradient or dose. | Signal availability can be matrix/surface-associated. | Movement needs compatible receptors and traversable routes, not concentration alone.
+Design: 600x960 source-code SVG, original independent geometry, identical geometry/text/data across paired themes; separate solid theme-colored panels with transparent gutters, Arial minimum 36 SVG units, no clinical-benefit axis, no patient data. Direct source-code authorship; no image tool invocation, no model invocation recorded.
+Preserve source owner prose, all citations and math and current metadata; insert only embed and caption after frozen section heading.

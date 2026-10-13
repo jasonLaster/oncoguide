@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc"><title id="title">Natural killer cells and missing-self recognition</title><desc id="desc">Two illustrative NK–target contact scenes differ by one inhibitory HLA contact; another inhibitory contact and an activating input remain.</desc>
+<rect x="12" y="12" width="576" height="100" rx="24" fill="#182c42"/>
+<text x="32" y="54" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="start" fill="#fffaf0">One restraint can disappear</text>
+<text x="32" y="96" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#d7e4ed">NK: natural killer; no signal weights</text>
+<rect x="12" y="124" width="576" height="312" rx="24" fill="#182c42"/>
+<text x="32" y="168" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="start" fill="#fffaf0">Some expected self contacts</text>
+<rect x="24" y="209" width="164" height="163" rx="60" fill="#29455d"/>
+<rect x="412" y="209" width="164" height="163" rx="60" fill="#513e31"/>
+<path d="M198 219 L198 362" fill="none" stroke="#86c8f5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 219 L402 362" fill="none" stroke="#8ad1b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 241 L250 241" fill="none" stroke="#c7a9e5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 225 Q270 241 250 257" fill="none" stroke="#c7a9e5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 241 L350 241" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 225 Q330 241 350 257" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 241 L330 241" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="221" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#c7a9e5">Inhib. A</text>
+<text x="421" y="221" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">HLA A</text>
+<path d="M198 314 L250 314" fill="none" stroke="#c7a9e5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 298 Q270 314 250 330" fill="none" stroke="#c7a9e5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 314 L350 314" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 298 Q330 314 350 330" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 314 L330 314" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="294" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#c7a9e5">Inhib. B</text>
+<text x="421" y="294" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">HLA B</text>
+<path d="M198 372 L198 397" fill="none" stroke="#86c8f5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 372 L402 397" fill="none" stroke="#8ad1b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 387 L250 387" fill="none" stroke="#86c8f5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 371 Q270 387 250 403" fill="none" stroke="#86c8f5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 387 L350 387" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 371 Q330 387 350 403" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 387 L330 387" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="367" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">Activating</text>
+<text x="421" y="367" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">Ligand</text>
+<text x="46" y="420" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">NK cell</text>
+<text x="438" y="420" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#8ad1b4">Target</text>
+<rect x="12" y="449" width="576" height="312" rx="24" fill="#182c42"/>
+<text x="32" y="493" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="start" fill="#fffaf0">One contact missing</text>
+<rect x="24" y="534" width="164" height="163" rx="60" fill="#29455d"/>
+<rect x="412" y="534" width="164" height="163" rx="60" fill="#513e31"/>
+<path d="M198 544 L198 687" fill="none" stroke="#86c8f5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 544 L402 687" fill="none" stroke="#8ad1b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 566 L250 566" fill="none" stroke="#c7a9e5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 550 Q270 566 250 582" fill="none" stroke="#c7a9e5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 566 L350 566" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<path d="M344 552 L365 580" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M365 552 L344 580" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="31" y="546" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#c7a9e5">Inhib. A</text>
+<text x="421" y="546" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">HLA A</text>
+<path d="M198 639 L250 639" fill="none" stroke="#c7a9e5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 623 Q270 639 250 655" fill="none" stroke="#c7a9e5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 639 L350 639" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 623 Q330 639 350 655" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 639 L330 639" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="619" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#c7a9e5">Inhib. B</text>
+<text x="421" y="619" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">HLA B</text>
+<path d="M198 697 L198 722" fill="none" stroke="#86c8f5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 697 L402 722" fill="none" stroke="#8ad1b4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198 712 L250 712" fill="none" stroke="#86c8f5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250 696 Q270 712 250 728" fill="none" stroke="#86c8f5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 712 L350 712" fill="none" stroke="#8ad1b4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350 696 Q330 712 350 728" fill="none" stroke="#8ad1b4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 712 L330 712" fill="none" stroke="#d7e4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="31" y="692" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">Activating</text>
+<text x="421" y="692" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#fffaf0">Ligand</text>
+<text x="46" y="745" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#86c8f5">NK cell</text>
+<text x="438" y="745" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" text-anchor="start" fill="#8ad1b4">Target</text>
+<rect x="12" y="774" width="576" height="114" rx="24" fill="#182c42"/>
+<text x="32" y="817" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">Other inputs remain.</text>
+<text x="32" y="858" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#fffaf0">Test the actual NK–target pair.</text>
+</svg>

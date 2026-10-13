@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch08_author_group1",
+  "method": "Original source-code SVG authored by agent; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "createdAtUTC": "2026-10-13T20:04:30.394462+00:00",
+  "status": "private prospective candidate; independent review and canonical adoption pending",
+  "learnerTask": "Locate heavy/light chains, variable/constant domains and the Fab/Fc regions on a typical IgG molecule, then separate target binding from partner interactions.",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/193",
+  "frozenRowSHA256": "5c7e3bd662275dc3ac55fac39cef0627225221c6d82496098bf07db38960d7ea",
+  "sourcePreimageSHA256": "44e1c6bd8e0ce46ed2317bd0c580042356d04130176236ecf5ff59811962737c",
+  "sourceCommitVerified": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "promptFile": "typical-igg-domains-binding-and-partners-v1.txt",
+  "promptSHA256": "9c0752732ff1e3bff90df38406fb1f07ab25be2dbb4028022f23375873c41eab",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-light.svg",
+      "sha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35",
+      "bytes": 7439
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-dark.svg",
+      "sha256": "a3f15d9cb1a0d6b5aba3bc22d87a06f24c0988471243c2a9c96cb118cb1d77be",
+      "bytes": 7439
+    }
+  ],
+  "scientificScope": "Qualitative teaching schematics; no molecule coordinates, assay data, clinical rate, numerical signaling weights or treatment instruction. Illustrative icons are not population measurements.",
+  "claimsChecked": [
+    "Typical IgG has two heavy and two light chains; VH/VL form binding sites; Fab includes constant domains; Fc comprises CH2 and CH3 domains from both heavy chains."
+  ],
+  "sourceReadBounds": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK27144/",
+    "Search-returned chapter sections 3-1, 3-2, 3-3 and summary read; direct open captcha; no figure pixels read."
+  ],
+  "sourceCheckedUTC": "2026-10-13T20:04:30.394462+00:00",
+  "reviewed": "pending",
+  "reviewed_by": "",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "coverageCredit": 0
+}

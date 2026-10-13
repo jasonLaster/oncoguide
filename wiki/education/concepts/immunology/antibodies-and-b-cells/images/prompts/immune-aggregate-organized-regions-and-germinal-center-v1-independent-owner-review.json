@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-195",
+  "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+  "author": "agent:/root/batch08_author_group2",
+  "creativeAuthor": "agent:/root/batch08_author_group2",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T20:18:51.254889+00:00",
+  "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "8d5a2775e9d4016e1026617cf787a7ab0a07e04cde4fcd2a4a1c89cda7f5c7fc",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/196",
+  "frozenRowSHA256": "106038ab3c54b01add421e2ba2934695ea59595c7a26304ffa756b561293eb45",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Three separate scenes make mixed T/B cells, organized T and B regions, and a GC-bearing follicle inspectable. Shape-coded identities and the GC outline do not encode abundance as maturity. The caption explicitly denies a compulsory developmental sequence and ties maturity to study-specific criteria; the owner explains extralymphoid location and denies treatment benefit from counts.",
+    "frozenPageSHA256": "e86e940f987bd78b0f89ed42974a528654d561d4bcc8e6aa893ab5d7218b249f",
+    "baselinePageSHA256": "e86e940f987bd78b0f89ed42974a528654d561d4bcc8e6aa893ab5d7218b249f",
+    "learnerTask": "Distinguish a loose immune-cell aggregate from organized T/B regions and a structure with a demonstrated germinal center.",
+    "gap": "The assessment sequence is useful but does not depict the spatial organization that defines the concept. A comparison of tissue arrangements would show why aggregate counts alone do not establish maturity.",
+    "accuracyGuardrails": [
+      "TLS occur outside conventional lymphoid organs; not every aggregate is a TLS.",
+      "Maturity and marker definitions are study-specific.",
+      "No response or treatment-benefit conclusion from density alone."
+    ],
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "currentCanonicalOwnerStillPreimage": true
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+      "sha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9",
+      "bytes": 6491,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-dark.svg",
+      "sha256": "739102d26115180847f20ae1f1a40293c3fa2b6ab21491bcf46a25f1b38cdb73",
+      "bytes": 6491,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+        "sha256": "8d5a2775e9d4016e1026617cf787a7ab0a07e04cde4fcd2a4a1c89cda7f5c7fc",
+        "bytes": 8292
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+        "sha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9",
+        "bytes": 6491
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-dark.svg",
+        "sha256": "739102d26115180847f20ae1f1a40293c3fa2b6ab21491bcf46a25f1b38cdb73",
+        "bytes": 6491
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/immune-aggregate-organized-regions-and-germinal-center-v1.txt",
+        "sha256": "331727d99e1c7d0fd8662f8a512d74dd44528edeee55819a23ae09eea37a5f9c",
+        "bytes": 2007
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/immune-aggregate-organized-regions-and-germinal-center-v1-provenance.json",
+        "sha256": "e2b118fb5eba11872d4021fda798710fae5855e5235e66022b91cd952de72ee2",
+        "bytes": 3130
+      }
+    ],
+    "currentCandidateOwnerSHA256": "8d5a2775e9d4016e1026617cf787a7ab0a07e04cde4fcd2a4a1c89cda7f5c7fc",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "c32b678f6034530cfe9e0e11bb2a211cea3c27a6d9175ea10e79a87fa95b1ffe",
+    "exactFivePublicFiles": true,
+    "sourcePreimageSHA256": "e86e940f987bd78b0f89ed42974a528654d561d4bcc8e6aa893ab5d7218b249f",
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after removing only new section image and caption.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.jci.org/articles/view/67428",
+      "primary": true,
+      "readDepth": "JCI abstract passages and selected Results architecture paragraph plus Figure 10 introduction/legend text. Adjacent CD3 T zone/CD20 B follicle, CD23 FDC/Bcl6/Ki67 germinal-center features. No full methods, figure-image or full-paper review.",
+      "supports": "Schematic spatial T/B architecture and a demonstrated germinal center are distinct from an unorganized aggregate.",
+      "population": "Primary breast-cancer tissue observations; no treatment-selection extrapolation.",
+      "accessStatus": "Retrieved bounded publisher HTML."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35118423/",
+      "primary": true,
+      "readDepth": "Complete PubMed abstract and selected extended-data legends mentioning CD23 morphology and marker panel.",
+      "supports": "Method-defined mature TLS and retrospective treated-cohort associations; no universal maturity criteria or causal treatment benefit.",
+      "population": "Three retrospective solid-tumor cohorts treated with anti-PD1/PD-L1.",
+      "accessStatus": "Retrieved abstract and legends; no full methods approval."
+    }
+  ],
+  "mathAssessment": {
+    "qualitative": true,
+    "notToScale": true,
+    "practiceDensity": "2/4 = 0.5 structures/mm²"
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, source-bound, arithmetic, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Each source entry records actual bounded independent reading and access failures. Retrieved XML does not imply full-paper approval. Unchanged ancillary citations not individually recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 45,
+    "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      960
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 20.7590625,
+    "minMobileDefaultPreviewLabelPx": 20.52,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 12.36376232234401,
+    "allTextContrastChecksPassed": true,
+    "lowestTextContrast": 12.36376232234401,
+    "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-195-light-native.png",
+      "sha256": "b813b0e75a75e51a9ed71948b1cb7d555294628acce06d6aefc717031a8e2e13"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-195-dark-native.png",
+      "sha256": "efffff7f53e730c9af363a30c8703487284ea275296e8fd5aaa2fffe9441d156"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-195-light-mobile-inline.png",
+      "sha256": "84becbe9cb00e1a07b542a32ecb8991f45a631e5c3c09b148b017fb6b6918d75"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-195-light-mobile-default-preview.png",
+      "sha256": "25c50a07e930b09b9d1aa6efcfded56495f9adb3e856d47b49b6180a6cda67c8"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-195-light-desktop-inline.png",
+      "sha256": "72acbb28c26b297c4960a84ba17c16ac7104da3b8ee841b9e93d5ec761ad455f"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-195-light-desktop-default-preview.png",
+      "sha256": "4c4114e33fa55bbf33a3bc53664701354d339a96d98b5a5a1c885e74a7113ec4"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-195-dark-mobile-inline.png",
+      "sha256": "3882432969c550857324663d259ff8b0a97c602a353adefef482828c76416075"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-195-dark-mobile-default-preview.png",
+      "sha256": "f5087f3a32f7a576ae6157033060c5afd91ec947f34c5787e8b4bf45a62ab9e0"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-195-dark-desktop-inline.png",
+      "sha256": "a5523a3e341111ff399c6ab7606d823cc233def4a77ef985f9adebccb144f187"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-195-dark-desktop-default-preview.png",
+      "sha256": "f2ac56e6a69075221c835a12dea69799062dde296f158d4f197456332d0b5599"
+    }
+  ],
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "requiredCorrections": [],
+  "findings": []
+}

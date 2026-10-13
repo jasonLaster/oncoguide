@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-201",
+  "owner": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+  "author": "agent:/root/batch08_author_group2",
+  "creativeAuthor": "agent:/root/batch08_author_group2",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T20:18:51.254889+00:00",
+  "reviewedAtUTC": "2026-10-13T20:18:51.254889+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "f106e753cb5de291ab81d9aba3b87089ef339295370863708f3066bc9dc1d27b",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/229",
+  "frozenRowSHA256": "09e3233689e7c3ca394053dc235396a6000d21a4b175fb96a81885879563c3c1",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "checkedCommittedPreimageAt": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "New thymic arrivals and peripheral survival/division are distinct above an invented closed ledger. Each parent has two circles; left daughters carry 2/0 and right daughters 1/1, conserving each lineage and four total copies. Two cells become four, so average content falls 2→1. The caption/footer deny daily output, immune age and a necessary zero-output conclusion.",
+    "frozenPageSHA256": "7a9f655c53597bc59f9599f02bcb73852363cff484ff2a413c95fb1c3c37231c",
+    "baselinePageSHA256": "7a9f655c53597bc59f9599f02bcb73852363cff484ff2a413c95fb1c3c37231c",
+    "learnerTask": "Separate new thymic arrivals from peripheral maintenance and see how cell division dilutes a nonreplicating per-cell TREC marker.",
+    "gap": "The pool-input map is adequate for maintenance mechanisms, but it does not show the denominator-specific dilution underlying the measurement warning. A tiny fictional before/after cell-and-circle ledger would explain why per-cell content can fall without proving zero output.",
+    "accuracyGuardrails": [
+      "TREC molecules do not replicate with chromosomes; allocation across individual daughters is not necessarily even.",
+      "Label illustrative counts and retain total copies versus copies per cell.",
+      "No age cutoff, immune-age score or daily output inference."
+    ],
+    "targetSection": "## How it is measured",
+    "currentCanonicalAdoption": "pending",
+    "currentCanonicalOwnerStillPreimage": true
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg",
+      "sha256": "1e8f43e1b8936340e8a87e113e1b7c8bfa8b062982b5d1153fb97fc301a725e1",
+      "bytes": 4991,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-dark.svg",
+      "sha256": "ea9cbd86d7b4189e0789f21a2243b04ba386d675deb1f55c7ef8af0da1c37f97",
+      "bytes": 4991,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 960,
+        "viewBox": "0 0 600 960"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+        "sha256": "f106e753cb5de291ab81d9aba3b87089ef339295370863708f3066bc9dc1d27b",
+        "bytes": 7458
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg",
+        "sha256": "1e8f43e1b8936340e8a87e113e1b7c8bfa8b062982b5d1153fb97fc301a725e1",
+        "bytes": 4991
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-dark.svg",
+        "sha256": "ea9cbd86d7b4189e0789f21a2243b04ba386d675deb1f55c7ef8af0da1c37f97",
+        "bytes": 4991
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/new-arrivals-peripheral-division-and-trec-ledger-v1.txt",
+        "sha256": "06c4b0f5841307cc10acf7c8d13cb6f98bd7fbdd2855d2f9d3e76f092562f536",
+        "bytes": 2100
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/new-arrivals-peripheral-division-and-trec-ledger-v1-provenance.json",
+        "sha256": "9b3d23d7d72de059cc97db0309df7cee48a9b253f6817535bc89ed415d285d2d",
+        "bytes": 3463
+      }
+    ],
+    "currentCandidateOwnerSHA256": "f106e753cb5de291ab81d9aba3b87089ef339295370863708f3066bc9dc1d27b",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "c32b678f6034530cfe9e0e11bb2a211cea3c27a6d9175ea10e79a87fa95b1ffe",
+    "exactFivePublicFiles": true,
+    "sourcePreimageSHA256": "7a9f655c53597bc59f9599f02bcb73852363cff484ff2a413c95fb1c3c37231c",
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after removing only new section image and caption.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10973325/",
+      "primary": true,
+      "readDepth": "Complete PubMed abstract.",
+      "supports": "TREC content is indirectly related to output and affected by peripheral division.",
+      "population": "Human healthy/infection observations and modeling; no immune-age or daily-export forecast.",
+      "accessStatus": "Retrieved abstract."
+    },
+    {
+      "url": "https://theory.bio.uu.nl/rdb/pdf/Hazenberg_nm00.pdf",
+      "primary": true,
+      "readDepth": "Independent search-indexed primary introduction excerpt explicitly stating episomal TREC nonreplication and dilution during division. No complete PDF or methods reading.",
+      "supports": "Nonreplication underlying the invented closed-circle ledger.",
+      "population": "Same human primary paper; illustrative circle counts are invented.",
+      "accessStatus": "Search excerpt read; direct PDF open returned 502. Earlier alternate university PDF open failed; publisher DOI page redirected to inaccessible identity service. No access bypass."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/",
+      "primary": true,
+      "readDepth": "Complete PubMed abstract.",
+      "supports": "Peripheral maintenance and new thymic arrivals contribute differently across human and mouse populations.",
+      "population": "Human/mouse primary study; no adult shutdown cutoff.",
+      "accessStatus": "Retrieved abstract."
+    }
+  ],
+  "mathAssessment": {
+    "invented": true,
+    "parents": [
+      2,
+      2
+    ],
+    "daughterPairs": [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "lineageCopyConserved": [
+      true,
+      true
+    ],
+    "totalCopies": [
+      4,
+      4
+    ],
+    "cellCounts": [
+      2,
+      4
+    ],
+    "averageCopiesPerCell": [
+      2.0,
+      1.0
+    ],
+    "noArrivalsDeathOrDegradationModeled": true
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific/conceptual, source-bound, arithmetic, task-fit, original-preservation, SVG/theme and fresh pinned-reader pixel review.",
+    "sourceReadDepth": "Each source entry records actual bounded independent reading and access failures. Retrieved XML does not imply full-paper approval. Unchanged ancillary citations not individually recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 45,
+    "carrierLimits": "Isolated actual pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS, with only literal Tailwind theme utility rules. No live app navigation/header/sidebar/backend, physical mobile, cross-browser/touch or complete accessibility certification. Transparent gutters show dim underlying content in theater; essential content is on opaque panels. Known unchanged focus-return issue remains open; not freshly tested/certified in this review."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      960
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 20.7590625,
+    "minMobileDefaultPreviewLabelPx": 20.52,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 12.36376232234401,
+    "allTextContrastChecksPassed": true,
+    "lowestTextContrast": 12.36376232234401,
+    "targetTagQualification": "Where lower than 4.5, bold target tags are >=20.52 px in smallest tested preview and meet AA-large 3.0 contrast threshold; no blanket 4.5 failure.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Known unchanged renderer issue remains open; not freshly re-tested."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-201-light-native.png",
+      "sha256": "7106b86ebfde796fb69146190e9e248ab17d8db9d54a9db9e25f25a78d0beed6"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-201-dark-native.png",
+      "sha256": "ccc0880980da43bcf125d0ac8e287b73a98eaf5cff9be8546c169962ab840105"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-201-light-mobile-inline.png",
+      "sha256": "c193d4ec4a40fcdcaa7b524f839ceec115c8dcbcf764a66ff2e602d74336c3dd"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-201-light-mobile-default-preview.png",
+      "sha256": "8c8b489e313201adad447d5aa2e798082f842716c1a6db316644e3de368ae754"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-201-light-desktop-inline.png",
+      "sha256": "1e10eff3a85a13f333e8538d595d8c2796ac49958cb8ad2d2691fb8081f69ac9"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "light",
+      "path": "private/captures/next-gap-201-light-desktop-default-preview.png",
+      "sha256": "0fe1667bfee385a81c34b0c2e9b39959275484c2f681ca62db7249fbcc6cf42d"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-201-dark-mobile-inline.png",
+      "sha256": "54d020f357ed50836d323d772bfacb77c68b64c30071d89e0ce200775d3ad9d5"
+    },
+    {
+      "mode": "mobile-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-201-dark-mobile-default-preview.png",
+      "sha256": "39f318dd619a4a59a657e8128fd2b895c0ef3add662aa8a62fbc72e316ee5fad"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-201-dark-desktop-inline.png",
+      "sha256": "bf88772ff2529f93df8d0f5be53623ce2e1d493f79a6ba0618dd835c18985b37"
+    },
+    {
+      "mode": "desktop-default-preview",
+      "theme": "dark",
+      "path": "private/captures/next-gap-201-dark-desktop-default-preview.png",
+      "sha256": "2b92ed5981493fd9bb8b5092bc764603f8d5a131eb84549100f3df9f54d793ab"
+    }
+  ],
+  "method": "Original code SVG",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical187": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "requiredCorrections": [],
+  "findings": []
+}

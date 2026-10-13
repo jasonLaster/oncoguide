@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch08_author_group1",
+  "method": "Original source-code SVG authored by agent; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "createdAtUTC": "2026-10-13T20:04:30.394462+00:00",
+  "status": "private prospective candidate; independent review and canonical adoption pending",
+  "learnerTask": "Distinguish intended target in healthy tissue from recognition of a different target by the same receptor.",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/206",
+  "frozenRowSHA256": "fcf5ec37783fcc665a88b6cd1228fb8d743aa97279c691addd6b9797e98b77a4",
+  "sourcePreimageSHA256": "a6a894a30af6a896b5ea564520acd38aa64a30258ebc4a6cffa782b576a2c77a",
+  "sourceCommitVerified": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "promptFile": "intended-x-and-unintended-y-recognition-v1.txt",
+  "promptSHA256": "4d3a5cf3f699203fa4e05c88656d8aa962692795f533b2389b4d064b3166a925",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+      "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9",
+      "bytes": 6343
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-dark.svg",
+      "sha256": "ca22e0be2fd78cb0ab76b260ea080b0a9ab333e3965c43b6dfa1ebd5421dd402",
+      "bytes": 6343
+    }
+  ],
+  "scientificScope": "Qualitative teaching schematics; no molecule coordinates, assay data, clinical rate, numerical signaling weights or treatment instruction. Illustrative icons are not population measurements.",
+  "claimsChecked": [
+    "On-target off-tumor and off-target cross-reactivity are distinct; receptor recognition of an alternative peptide is not excluded by intended-antigen absence."
+  ],
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23926201%20AND%20SRC:MED&format=json&resultType=core",
+    "Full returned abstract and metadata read; no article methods/results/figure pixels read. PubMed direct 429."
+  ],
+  "sourceCheckedUTC": "2026-10-13T20:04:30.394462+00:00",
+  "reviewed": "pending",
+  "reviewed_by": "",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "coverageCredit": 0
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-207",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+  "author": "agent:/root/batch08_author_group3",
+  "creativeAuthor": "agent:/root/batch08_author_group3",
+  "reviewer": "agent:/root/batch08_review_group3",
+  "independentReviewer": "agent:/root/batch08_review_group3",
+  "canonicalIntegrator": "root",
+  "reviewedAt": "2026-10-13T20:53:45.657053+00:00",
+  "reviewedAtUTC": "2026-10-13T20:53:45.657053+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "9b4e2beba72e1a2128ee934aaa07ee0f254807f741b8288de3d27e0d7b236025",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/355",
+  "frozenRowSHA256": "1a6709d0eb08e89751393be6496aa1ebe3448fc76dbb6623b80ed9955c05eaba",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Three question panels independently ask purpose, target selection and material supply. The fictional shared plus RNA plus after-surgery example is therapeutic; personalized is explicitly unequal to RNA. The source caption and prose preserve that personalized products can include shared targets, so the target choices are descriptors rather than a mutually exclusive ontology. Peptide, RNA, cells and in-situ material do not form a platform ranking. The axes classify a strategy and do not claim immunogenicity, tumor recognition or recurrence benefit.",
+    "baselinePageSHA256": "6fc113d52858db02a789cdbaed0017ca4b387cf65ff326aa9fd48eecb1a9bd8d",
+    "frozenPageSHA256": "6fc113d52858db02a789cdbaed0017ca4b387cf65ff326aa9fd48eecb1a9bd8d",
+    "learnerTask": "Classify purpose, target selection and delivery as independent axes",
+    "gap": "Conditional mechanism flow does not disentangle three classification axes",
+    "accuracyGuardrails": "Postoperative therapeutic not infection preventive; personalized not RNA; no platform ranking",
+    "targetSection": "## How it works"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "sha256": "44e5b157813b360b575d04ff2ea1379fd90bf6c22bad8ddbac6a9e56ca083537",
+      "bytes": 6064,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "sha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262",
+      "bytes": 6064,
+      "type": "svg",
+      "candidatePath": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1060,
+        "viewBox": "0 0 600 1060"
+      },
+      "theme": "dark"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+        "sha256": "9b4e2beba72e1a2128ee934aaa07ee0f254807f741b8288de3d27e0d7b236025",
+        "bytes": 8697
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+        "sha256": "44e5b157813b360b575d04ff2ea1379fd90bf6c22bad8ddbac6a9e56ca083537",
+        "bytes": 6064
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+        "sha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262",
+        "bytes": 6064
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/vaccine-purpose-target-selection-and-delivery-v1.txt",
+        "sha256": "d4ba8d1633c611db39397c7427d2e892c61e38a411e31d29c190d4351ab09328",
+        "bytes": 1912
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/vaccine-purpose-target-selection-and-delivery-v1-provenance.json",
+        "sha256": "f8162f4ff9897a7035386206750f54bbca5c6b0e4eac55c9d3807a76ed6e9151",
+        "bytes": 1693
+      }
+    ],
+    "currentCandidateOwnerSHA256": "9b4e2beba72e1a2128ee934aaa07ee0f254807f741b8288de3d27e0d7b236025",
+    "currentCandidatePairBound": true,
+    "originalTXTAndProvenanceUnchanged": true,
+    "authorSealedHandoffSHA256": "0b42babea08da7087f71ddc54bcc0835cb5d7e1ca6b4c4b40098839219ad42d9",
+    "authorInventorySHA256": "d5972271ec7beda5fc8cf1840052fc638f5eb26559950f8c5ddbbb016d953b70",
+    "verifiedAuthorArtifacts": 537,
+    "sourceAndThemeCheckSHA256": "aa6a78e3b4ddef0073d400492834b25e798d386f137b2596da8b02dc98871e0a"
+  },
+  "reviewBasis": {
+    "scope": "One independent whole science/task/native review of six assigned prospective tasks.",
+    "sourceReadingReceiptSHA256": "45f73bfa20d16e909f1ee953768fb6f69fe46aba74c4d564db4b62a90866cbe4",
+    "independentPixelInspectionSHA256": "535b617258553d7245f5dea64b2fdabfaddf74a6f8f256dcd1400b7bd24016ee",
+    "displayChecksSHA256": "4139a763f76d0f92c08e9f8503937e62be910e359e5f3249df4d88ab9bb2f8c0",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "freshCapturesForOwner": 10,
+    "actualPixelInspection": true,
+    "sourceDepth": "Complete public owner, primary abstracts and bounded selected primary/official text; no full methods/supplement/full-figure approval.",
+    "primaryPMIDs": [
+      "28678778",
+      "20697067"
+    ],
+    "limits": [
+      "Native browser img carrier; isolated complete article fixture lacks app header/sidebar/live data/navigation.",
+      "Desktop portrait inline capture requires scrolling; whole art inspected native and theater.",
+      "Known theater focus-return false remains qualified; Enter/Escape work.",
+      "Current source ownership and terminal baseline must be rebound by Root before integration.",
+      "No human/expert/clinician/learner competence/adoption/coverage/publication/live-delivery approval."
+    ]
+  },
+  "requiredCorrections": [],
+  "method": "Independent conceptual-task/source-fit and pixel review; original codeSVG",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

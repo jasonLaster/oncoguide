@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch08_author_group1",
+  "method": "Original source-code SVG authored by agent; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "createdAtUTC": "2026-10-13T20:04:30.394462+00:00",
+  "status": "private prospective candidate; independent review and canonical adoption pending",
+  "learnerTask": "Distinguish a folded antibody epitope from a processed peptide-HLA recognition surface derived from the same protein.",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/197",
+  "frozenRowSHA256": "99258ed5a68313ceeac23451b858d803e5db6ba907eefc8b8f6321e821533425",
+  "sourcePreimageSHA256": "8d7d122f7935413171a012ca487fe297f8b85a4c5eb09c2b54e70ff68b691b49",
+  "sourceCommitVerified": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "promptFile": "folded-epitope-and-peptide-hla-surfaces-v1.txt",
+  "promptSHA256": "699cd3c4066193cb28729fd0236f3a858f0298fd354a20a80205f581ff02abca",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+      "sha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96",
+      "bytes": 4577
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-dark.svg",
+      "sha256": "ddfd34ed952194e1c5393025c165bd174a0e42e5378de81c6598875b1ea9ea74",
+      "bytes": 4577
+    }
+  ],
+  "scientificScope": "Qualitative teaching schematics; no molecule coordinates, assay data, clinical rate, numerical signaling weights or treatment instruction. Illustrative icons are not population measurements.",
+  "claimsChecked": [
+    "A conformational epitope may combine separated sequence pieces; conventional TCR recognition depends on peptide together with its HLA holder."
+  ],
+  "sourceReadBounds": [
+    "https://www.ncbi.nlm.nih.gov/sites/books/NBK27160/",
+    "Search-returned conformational/discontinuous epitope passage read; direct open captcha; no full chapter or figure pixels.",
+    "https://www.ncbi.nlm.nih.gov/sites/books/NBK27098/",
+    "Search-returned peptide\u2013MHC/TCR interaction description read; no full chapter read."
+  ],
+  "sourceCheckedUTC": "2026-10-13T20:04:30.394462+00:00",
+  "reviewed": "pending",
+  "reviewed_by": "",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "coverageCredit": 0
+}

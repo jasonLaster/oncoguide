@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch08_author_group1",
+  "method": "Original source-code SVG authored by agent; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "createdAtUTC": "2026-10-13T20:04:30.394462+00:00",
+  "status": "private prospective candidate; independent review and canonical adoption pending",
+  "learnerTask": "Compare a CD1d\u2013lipid recognition surface with a conventional peptide\u2013HLA surface while keeping NKT separate from NK.",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/216",
+  "frozenRowSHA256": "671184c189bc31ad2da64859212cfcb5ac64f5a60f551fc7d67d00d2791318f6",
+  "sourcePreimageSHA256": "9f899eac03c1950262d9249d51a0f9e5d23f9c3d4de6ad6f17e58da52dab3c3d",
+  "sourceCommitVerified": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "promptFile": "cd1d-lipid-and-peptide-hla-displays-v1.txt",
+  "promptSHA256": "094fcffaea2d327cce900f786f1ce1bfdd8eccf3e5519bd60c1c416c3c7470d3",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+      "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+      "bytes": 5298
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+      "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+      "bytes": 5298
+    }
+  ],
+  "scientificScope": "Qualitative teaching schematics; no molecule coordinates, assay data, clinical rate, numerical signaling weights or treatment instruction. Illustrative icons are not population measurements.",
+  "claimsChecked": [
+    "Human CD1d can accommodate alpha-galactosylceramide lipid chains in pockets; displayed CD1d\u2013lipid is an iNKT example, not every NKT target."
+  ],
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16007090%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read: human CD1d structural study.",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9374463%20AND%20SRC:MED&format=json&resultType=core",
+    "Full abstract and metadata read: mouse NKT glycosylceramide model. No full article or figure pixels read."
+  ],
+  "sourceCheckedUTC": "2026-10-13T20:04:30.394462+00:00",
+  "reviewed": "pending",
+  "reviewed_by": "",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "coverageCredit": 0
+}

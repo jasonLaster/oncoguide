@@ -1,0 +1,22 @@
+Original source-code SVG brief. Actual author: agent:/root/batch08_author_group1.
+{
+  "title": "Natural killer cells and missing-self recognition",
+  "learnerTask": "See that removing one inhibitory contact changes an integrated recognition context rather than issuing an automatic killing command.",
+  "exactGap": "The text and security analogy correctly resist an automatic rule, but a two-target contact comparison would make remaining inhibition and activating inputs visible. A physical contact diagram is more useful than a balance scale implying numerical weights.",
+  "accuracyGuardrails": [
+    "Loss of one allele is not loss of all class I.",
+    "Show activating inputs and other inhibitory contacts as separate requirements, not quantitative weights.",
+    "Observed killing requires the actual tested NK-target pair and controls."
+  ],
+  "scene": "Two illustrative NK\u2013target contact scenes differ by one inhibitory HLA contact; another inhibitory contact and an activating input remain.",
+  "composition": "600 \u00d7 900, original molecular/cell contact geometry; warm continuous panels; transparent outer gutters; physically separate target recognition and outcomes; same labels/geometry in light and dark; minimum SVG label 34px, to verify actual 390px reader paint size. No actual dataset, rates, scales or cell counts; all schematic qualitative and X/Y fictional examples.",
+  "theme": "Light ivory + navy ink; dark navy + ivory ink; blue recognition, purple support/light chains, green display, orange antigen/cytokine cues. No color-only distinction.",
+  "caption": "Removing one inhibitory contact leaves other inputs in place. The actual NK\u2013target pair still needs a controlled functional test. \u201cInhib.\u201d labels inhibitory receptors; HLA A/B represent illustrative class I contacts, not a measured profile.",
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:3951539%20AND%20SRC:MED&format=json&resultType=core",
+    "Full returned abstract and metadata read; mouse lymphoma principle only, not human guarantee.",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19701893%20AND%20SRC:MED&format=json&resultType=core",
+    "Full returned abstract and metadata read; defined NK receptor/cytokine context. No methods or figure pixels read."
+  ],
+  "humanReview": "expert/clinician and learner review pending"
+}

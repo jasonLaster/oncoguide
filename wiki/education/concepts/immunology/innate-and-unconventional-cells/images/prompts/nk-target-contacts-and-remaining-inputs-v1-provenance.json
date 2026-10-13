@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "author": "agent:/root/batch08_author_group1",
+  "method": "Original source-code SVG authored by agent; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "createdAtUTC": "2026-10-13T20:04:30.394462+00:00",
+  "status": "private prospective candidate; independent review and canonical adoption pending",
+  "learnerTask": "See that removing one inhibitory contact changes an integrated recognition context rather than issuing an automatic killing command.",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/215",
+  "frozenRowSHA256": "5a358e97509be75afb41857e08473b235b4af7cabfbe2218f3d8b6ef5f4bd0cb",
+  "sourcePreimageSHA256": "795b51ac01fb794298ab5051da2433eeb4ab931a55fe6d3fcf691231ed992689",
+  "sourceCommitVerified": "98a29eb7de6a72feaae885579d388b4613ddf90a",
+  "promptFile": "nk-target-contacts-and-remaining-inputs-v1.txt",
+  "promptSHA256": "999c9788473565ab3d2730da96699d8413c4b8dfd25304d8e66c7279dce6e10f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+      "bytes": 9201
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+      "bytes": 9201
+    }
+  ],
+  "scientificScope": "Qualitative teaching schematics; no molecule coordinates, assay data, clinical rate, numerical signaling weights or treatment instruction. Illustrative icons are not population measurements.",
+  "claimsChecked": [
+    "Missing self may remove a particular inhibitory input; NK competence and functional response depend on receptor and other signal context."
+  ],
+  "sourceReadBounds": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:3951539%20AND%20SRC:MED&format=json&resultType=core",
+    "Full returned abstract and metadata read; mouse lymphoma principle only, not human guarantee.",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19701893%20AND%20SRC:MED&format=json&resultType=core",
+    "Full returned abstract and metadata read; defined NK receptor/cytokine context. No methods or figure pixels read."
+  ],
+  "sourceCheckedUTC": "2026-10-13T20:04:30.394462+00:00",
+  "reviewed": "pending",
+  "reviewed_by": "",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "coverageCredit": 0
+}
