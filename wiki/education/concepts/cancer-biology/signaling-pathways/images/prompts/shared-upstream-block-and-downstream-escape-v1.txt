@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Model null; zero image-model calls.
+
+Compare the two fictional cultures from the original worked example under the same upstream ligand-secretion block. In A, intact destruction control continues and nuclear β-catenin signal falls. In B, a stipulated downstream escape retains the nuclear output. Keep membrane input, destruction control and nucleus separate; use an upstream blockade bar with no ligand pictured at the receptor; show qualitative symbols without measured protein counts or drug selection. Only canonical Wnt is depicted; total β-catenin also includes adhesion. Target/pathway response does not prove selective killing or clinical benefit.
+
+Frozen learner task: Compare ligand-dependent β-catenin stabilization with downstream escape that can persist after upstream blockade.
+Frozen gap: The existing Wnt-to-nuclear-output sequence correctly depicts one route but not the two cultures' different response to the same upstream intervention. A small two-context diagram with destruction control intact versus bypassed would clarify the mechanistic branch without showing a drug choice.
+Frozen accuracy guardrails (exact original JSON type): ["Only canonical Wnt is depicted.", "Total β-catenin also includes adhesion roles.", "No assumed selective killing after target engagement."]
+
+Shared geometry, labels and quantities in both themes; palette substitutions only. Essential native labels at least36px for at least16px in393px inline/default preview. Raw source/retrieval/code/render evidence stays private. Editable native SVGs, not an executable reproduction-package promise.

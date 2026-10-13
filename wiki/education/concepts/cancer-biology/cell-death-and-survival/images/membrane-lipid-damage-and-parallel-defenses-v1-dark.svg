@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Ferroptosis: death through uncontrolled lipid oxidation</title><desc id="desc">A schematic lipid bilayer patch contains illustrative oxidized tails, with GPX4/glutathione and FSP1/coenzyme-Q defenses shown as separate examples rather than a complete ferroptosis diagnosis. A selected membrane patch locates oxidized lipid tails; the icons do not specify an actual lipid composition, atom count or assay signal. Here OOH marks a lipid hydroperoxide and OH its alcohol product. GPX4 with glutathione can reduce lipid hydroperoxides, while FSP1 regenerates reduced coenzyme Q as a parallel radical-trapping defense. These are examples within a larger protection network. General ROS, protein abundance or the sketch alone cannot diagnose ferroptosis or predict compound sensitivity.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#f1ecd9"/></marker></defs><rect width="760" height="1320" fill="#152630"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f1ecd9" text-anchor="start">The vulnerable material is lipid</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Membrane patch; illustrative molecules</text>
+<rect x="24" y="142" width="712" height="468" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Damage can spread through lipid tails</text>
+<rect x="53" y="333" width="642" height="136" rx="8" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<circle cx="81" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="81" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M71 322 L71 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M71 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M71 480 L71 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M71 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M91 322 L91 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M91 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M91 480 L91 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M91 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="164" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="164" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M154 322 L154 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M154 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M154 480 L154 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M154 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M174 322 L174 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M174 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M174 480 L174 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M174 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="247" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="247" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M237 322 L237 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M237 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M237 480 L237 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M237 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M257 322 L257 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M257 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M257 480 L257 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M257 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="330" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="330" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M320 322 L320 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M320 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M320 480 L320 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M320 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M340 322 L340 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M340 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M340 480 L340 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M340 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="413" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="413" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M403 322 L403 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M403 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M403 480 L403 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M403 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M423 322 L423 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M423 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M423 480 L423 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M423 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="496" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="496" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M486 322 L486 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M486 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M486 480 L486 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M486 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M506 322 L506 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M506 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M506 480 L506 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M506 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="579" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="579" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M569 322 L569 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M569 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M569 480 L569 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M569 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M589 322 L589 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M589 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M589 480 L589 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M589 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="662" cy="303" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<circle cx="662" cy="499" r="19" fill="#8fbedc" stroke="#293743" stroke-width="2" />
+<path d="M652 322 L652 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M652 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M652 480 L652 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M652 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M672 322 L672 333" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M672 333 l-9 16 l18 15 l-18 16 l9 12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M672 480 L672 469" fill="none" stroke="#f1ecd9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M672 469 l9 -16 l-18 -15 l18 -16 l-9 -12" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="330" cy="377" r="24" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="330" y="390" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">O</text>
+<circle cx="413" cy="377" r="24" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="413" y="390" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">O</text>
+<text x="48" y="254" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Iron can amplify the chemistry</text>
+<text x="48" y="570" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Tail oxidation ≠ general ROS signal</text>
+<rect x="24" y="630" width="712" height="416" rx="16" fill="#213944" stroke="#a8bcc0" stroke-width="2" />
+<text x="48" y="683" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f1ecd9" text-anchor="start">Two parallel protective examples</text>
+<text x="57" y="733" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">GPX4 +</text>
+<text x="57" y="778" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">glutathione</text>
+<text x="48" y="828" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Lipid-OOH</text>
+<g transform="translate(159 890) scale(0.62)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#b0c395" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<path d="M235 890 L281 890" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<circle cx="314" cy="890" r="28" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<text x="314" y="903" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">OH</text>
+<text x="48" y="986" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Reduce to</text>
+<text x="48" y="1031" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">lipid alcohol</text>
+<path d="M373 726 L373 1006" fill="none" stroke="#a8bcc0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="424" y="733" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f1ecd9" text-anchor="start">FSP1 + CoQ</text>
+<g transform="translate(506 884) scale(0.58)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#b0c395" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<circle cx="629" cy="887" r="29" fill="#dfc79f" stroke="#293743" stroke-width="2" />
+<path d="M550 887 L591 887" fill="none" stroke="#f1ecd9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="424" y="986" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Regenerate a</text>
+<text x="424" y="1031" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">radical trap</text>
+<text x="48" y="1110" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">These are examples, not every defense.</text>
+<text x="38" y="1237" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">Test lipid damage, timing, death and rescue.</text>
+<text x="38" y="1290" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#f1ecd9" text-anchor="start">The sketch is not a ferroptosis diagnosis.</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade.md",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceOwnerPreimageSHA256": "5c895a412092bd8df2e42d14b14196b310a49598f24138ae2c47a6bda35c6a50",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "three-microscopic-features-before-grade-v1.txt",
+    "sha256": "f0ced7a31951c37a44b8396d111383cb85d4731d440df845e66d5bfaa1377996",
+    "bytes": 757,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "three-microscopic-features-before-grade-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "c56ca428524bcd59389d1918a918ee1030f8be562f94d8a46bbae2177ae10d7d",
+      "bytes": 7764
+    },
+    {
+      "file": "three-microscopic-features-before-grade-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "019fa337da2583ef1564381875d8e96e6b8146b421fa0a8273495bdf54bc105a",
+      "bytes": 7764
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Protocol for the Examination of Resection Specimens from Patients with Invasive Carcinoma of the Breast,4.11.0.0,June2026",
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "scope": "Selected source passages, not all43pages, diagnostic training, atom-scale reconstruction, stage assignment or individual surgery advice. No source scoring-table cutoffs are reproduced in new artwork."
+    },
+    {
+      "title": "Tumor Grade",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade",
+      "scope": "Selected explanatory text only, no whole-page or personal prognosis/treatment implication."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

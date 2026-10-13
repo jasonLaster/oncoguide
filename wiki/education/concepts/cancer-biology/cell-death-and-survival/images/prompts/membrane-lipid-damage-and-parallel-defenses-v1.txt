@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Model null; zero image-model calls.
+
+Show a physical membrane bilayer patch with hydrophilic heads and inward lipid tails, highlighting damage to vulnerable tails without a literal lipid or atom inventory. Iron can amplify lipid oxidation. For GPX4, illustrate lipid-OOH reduction to lipid-OH without an atom inventory. Keep GPX4/glutathione hydroperoxide reduction distinct from FSP1 regeneration of reduced CoQ radical trapping. These are parallel examples, not the whole system. General ROS is not membrane-lipid damage or a death diagnosis. Retain converging timing/death/iron/rescue tests and no compound-sensitivity or patient-benefit inference.
+
+Frozen learner task: Locate vulnerable membrane lipids and understand parallel protective systems without treating general ROS as a death diagnosis.
+Frozen gap: The existing damage/death and parallel-defense map appropriately avoids expression-as-function inference. It never shows the membrane lipid substrate that defines ferroptosis; a small labeled membrane-damage inset would add physical meaning, while preserving converging-test requirements in prose.
+Frozen accuracy guardrails (exact original JSON type): ["General oxidation is not ferroptosis.", "GPX4 and FSP1 are parallel example defenses, not the whole system.", "No compound sensitivity or patient benefit inferred from a schematic."]
+
+Shared geometry, labels and quantities in both themes; palette substitutions only. Essential native labels at least36px for at least16px in393px inline/default preview. Raw source/retrieval/code/render evidence stays private. Editable native SVGs, not an executable reproduction-package promise.

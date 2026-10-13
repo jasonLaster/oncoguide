@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Model null; zero image-model calls.
+
+Draw a linked heterogeneous amino-acid chain, a reordered-in-space fold preserving residue order, and schematic processing that removes a terminal segment. Distinguish those physical forms from a measured shared peptide. Two fictional R forms share the same depicted fragment but one lacks a region. Residue counts and molecular geometries are illustrative. Do not introduce a peptide-length cutoff, infer intact protein or activity from a shared fragment, or infer HLA display from a possible sequence.
+
+Frozen learner task: Recognize linked amino-acid chain, folded/processed protein and measured fragments as different physical forms.
+Frozen gap: The form/function/fragments map is a good assay-boundary reminder but does not show the chain folding or a fragment shared by two different intact products. A short reusable molecule-to-fragments diagram would make the fictional detection exercise tangible.
+Frozen accuracy guardrails (exact original JSON type): ["No universal peptide-length boundary, intact-protein inference from shared fragments, or displayed-HLA inference from a possible peptide sequence; illustrative residue icons are not measured counts."]
+
+Shared geometry, labels and quantities in both themes; palette substitutions only. Essential native labels at least36px for at least16px in393px inline/default preview. Raw source/retrieval/code/render evidence stays private. Editable native SVGs, not an executable reproduction-package promise.

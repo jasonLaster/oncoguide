@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Wnt–β-catenin: signaling through controlled protein stability</title><desc id="desc">Two fictional canonical-Wnt contexts receive the same upstream secretion block; intact destruction control accompanies lower nuclear signal in A, while downstream control bypass accompanies persistent nuclear signal in B. The same hypothetical Wnt-secretion block is applied to both fictional cultures. With destruction control intact, nuclear β-catenin signal can fall; a stipulated downstream escape can retain the output despite loss of upstream ligand. Symbols stand for qualitative readouts, not protein counts, a universal mechanism or a real drug-response dataset. Only canonical Wnt is shown; total β-catenin also includes adhesion roles, and a pathway change does not establish selective killing.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker></defs><rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">One upstream block; two contexts</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Canonical Wnt; two fictional cultures</text>
+<text x="48" y="179" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Both: block Wnt ligand secretion</text>
+<rect x="24" y="217" width="712" height="437" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="270" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">A: destruction control intact</text>
+<rect x="67" y="349" width="624" height="26" rx="4" fill="#d9c29b" stroke="#293743" stroke-width="2" />
+<rect x="128" y="324" width="24" height="78" rx="5" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<rect x="171" y="329" width="16" height="68" rx="4" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<path d="M114 296 L187 296" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="250" y="345" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Input removed</text>
+<rect x="76" y="429" width="265" height="102" rx="10" fill="#e8e0d3" stroke="#293743" stroke-width="2" />
+<text x="91" y="472" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Destruction</text>
+<text x="91" y="515" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">continues</text>
+<path d="M359 483 L420 483" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<circle cx="566" cy="479" r="69" fill="#e8e0d3" stroke="#293743" stroke-width="2" />
+<text x="438" y="600" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Nuclear signal</text>
+<text x="438" y="643" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">decreases</text>
+<rect x="24" y="683" width="712" height="437" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="736" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">B: downstream escape</text>
+<rect x="67" y="815" width="624" height="26" rx="4" fill="#d9c29b" stroke="#293743" stroke-width="2" />
+<rect x="128" y="790" width="24" height="78" rx="5" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<rect x="171" y="795" width="16" height="68" rx="4" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<path d="M114 762 L187 762" fill="none" stroke="#293743" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="250" y="811" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Input removed</text>
+<rect x="76" y="895" width="265" height="102" rx="10" fill="#e8e0d3" stroke="#293743" stroke-width="2" stroke-dasharray="9 7" />
+<text x="91" y="938" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Bypassed</text>
+<text x="91" y="981" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">in this model</text>
+<path d="M359 949 L420 949" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<circle cx="566" cy="945" r="69" fill="#e8e0d3" stroke="#293743" stroke-width="2" />
+<circle cx="566" cy="945" r="25" fill="#d9c29b" stroke="#293743" stroke-width="2" />
+<text x="566" y="957" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">β</text>
+<text x="438" y="1066" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Nuclear signal</text>
+<text x="438" y="1109" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">persists</text>
+<text x="48" y="1180" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Symbols are readouts, not protein counts.</text>
+<text x="38" y="1250" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Total β-catenin includes adhesion roles.</text>
+<text x="38" y="1295" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Pathway response does not prove killing.</text>
+</svg>

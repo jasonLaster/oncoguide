@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">N categories and nodal burden: location, size, count, and timing</title><desc id="desc">Distinguish node count from individual deposit size, basin and assessment timing. Original schematics and explicitly fictional teaching examples; not diagnostic source slides or patient findings.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#18333e"/></marker><radialGradient id="cell"><stop offset="0" stop-color="#f4c4ca"/><stop offset="1" stop-color="#d88b9b"/></radialGradient></defs><rect width="600" height="1000" fill="#fbf7ed"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#18333e" text-anchor="start">Three nodes need more context</text>
+<text x="28" y="84" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">Fictional surgery-first cases · axilla I/II</text>
+<text x="28" y="127" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">No other regional finding identified</text>
+<rect x="22" y="156" width="556" height="297" rx="12" fill="#fffdf8" stroke="#879fa9" stroke-width="2"/>
+<text x="42" y="198" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">A · three 0.8-mm deposits</text>
+<path d="M63 266 C49 218 161 213 173 274 C183 338 115 348 63 317 Q90 293 63 266Z" fill="none" stroke="#315769" stroke-width="3" stroke-linecap="round"/>
+<circle cx="123" cy="286" r="8.0" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<text x="118" y="384" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">0.8 mm</text>
+<path d="M245 266 C231 218 343 213 355 274 C365 338 297 348 245 317 Q272 293 245 266Z" fill="none" stroke="#315769" stroke-width="3" stroke-linecap="round"/>
+<circle cx="305" cy="286" r="8.0" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<text x="300" y="384" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">0.8 mm</text>
+<path d="M427 266 C413 218 525 213 537 274 C547 338 479 348 427 317 Q454 293 427 266Z" fill="none" stroke="#315769" stroke-width="3" stroke-linecap="round"/>
+<circle cx="487" cy="286" r="8.0" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<text x="482" y="384" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">0.8 mm</text>
+<text x="42" y="428" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">Micrometastases only → pN1mi</text>
+<rect x="22" y="480" width="556" height="320" rx="12" fill="#fffdf8" stroke="#879fa9" stroke-width="2"/>
+<text x="42" y="522" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">B · one 4-mm deposit among three</text>
+<path d="M63 604 C49 556 161 551 173 612 C183 676 115 686 63 655 Q90 631 63 604Z" fill="none" stroke="#315769" stroke-width="3" stroke-linecap="round"/>
+<text x="123" y="636" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#18333e" text-anchor="middle">?</text>
+<path d="M245 604 C231 556 343 551 355 612 C365 676 297 686 245 655 Q272 631 245 604Z" fill="none" stroke="#315769" stroke-width="3" stroke-linecap="round"/>
+<text x="305" y="636" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#18333e" text-anchor="middle">?</text>
+<path d="M427 604 C413 556 525 551 537 612 C547 676 479 686 427 655 Q454 631 427 604Z" fill="none" stroke="#315769" stroke-width="3" stroke-linecap="round"/>
+<circle cx="487" cy="624" r="40" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<circle cx="472" cy="614" r="6" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="499" cy="611" r="6" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="480" cy="639" r="6" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="502" cy="636" r="6" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<text x="482" y="724" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">4 mm</text>
+<text x="209" y="724" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="middle">Other sizes unspecified</text>
+<text x="42" y="775" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#18333e" text-anchor="start">Includes a macrometastasis → pN1a</text>
+<text x="28" y="853" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">Known deposit diameters share one scale.</text>
+<text x="28" y="896" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">Node outlines are illustrative, not node sizes.</text>
+<text x="28" y="939" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">ITC-only nodes have separate counting rules.</text>
+<text x="28" y="981" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#18333e" text-anchor="start">These icons cannot establish overall stage.</text>
+</svg>

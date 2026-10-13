@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Read the spatial map</title><desc id="desc">External-beam schematic</desc>
+<rect x="0" y="0" width="600" height="1000" rx="0" fill="#f8f5ef"/>
+<text x="32" y="56" fill="#173d46" font-family="Arial, sans-serif" font-size="42" font-weight="700" text-anchor="start">Read the spatial map</text>
+<text x="32" y="101" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">External-beam schematic</text>
+<rect x="24" y="130" width="552" height="485" rx="22" fill="#ffffff"/>
+<path d="M215 200 C187 213 170 269 167 306 L155 504 C210 548 388 548 445 504 L433 306 C430 260 411 216 382 200 L359 203 L359 218 Q300 255 241 218 L241 203 Z" fill="#d6eeeb" stroke="#acbec2" stroke-width="4" opacity="1"/>
+<path d="M227 289 C192 315 189 399 232 433 C253 441 268 418 264 381 L260 300 Z" fill="#ffffff" stroke="#007e80" stroke-width="3" opacity="1"/>
+<path d="M373 289 C407 315 410 399 367 433 C347 441 332 418 336 381 L340 300 Z" fill="#ffffff" stroke="#007e80" stroke-width="3" opacity="1"/>
+<path d="M270 390 C278 368 314 359 328 392 C346 420 319 443 298 453 C272 432 258 415 270 390 Z" fill="#f4d8de" stroke="#a74460" stroke-width="3" opacity="1"/>
+<path d="M82 233 L320 319 L309 393 L84 264 Z" fill="#f9e7c4" stroke="#95601d" stroke-width="3" opacity="0.7"/>
+<rect x="38" y="187" width="72" height="77" rx="10" fill="#ffffff" stroke="#95601d" stroke-width="3"/>
+<path d="M68 203 L85 245" fill="none" stroke="#95601d" stroke-width="8" opacity="1"/>
+<path d="M249 285 C273 265 339 271 365 298 C388 333 372 405 338 412 C293 425 246 397 238 350 C231 323 233 305 249 285 Z" fill="none" stroke="#675198" stroke-width="6" opacity="1" stroke-dasharray="9 7"/>
+<text x="45" y="171" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Beam source</text>
+<text x="43" y="568" fill="#007e80" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Normal tissues</text>
+<path d="M195 522 L230 427" fill="none" stroke="#007e80" stroke-width="4" opacity="1"/>
+<text x="321" y="489" fill="#675198" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Target</text>
+<path d="M352 455 L349 397" fill="none" stroke="#675198" stroke-width="4" opacity="1"/>
+<rect x="24" y="637" width="552" height="243" rx="22" fill="#ffffff"/>
+<text x="44" y="685" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Target: tissue at risk.</text>
+<text x="44" y="727" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">A mass need not be visible.</text>
+<text x="44" y="769" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Normal tissues also receive</text>
+<text x="44" y="811" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">some radiation exposure.</text>
+<text x="32" y="919" fill="#42616a" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">No dose plan or sharp cutoff.</text>
+<text x="32" y="961" fill="#42616a" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Gy measures energy per mass.</text>
+</svg>

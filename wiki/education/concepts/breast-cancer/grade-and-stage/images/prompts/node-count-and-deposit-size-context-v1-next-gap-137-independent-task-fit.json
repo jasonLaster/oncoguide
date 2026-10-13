@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-137",
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden.md",
+  "author": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "authorRole": "Actual creative author of this owner/native package.",
+  "integrationAuthor": "root",
+  "integrationAuthorIdentity": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-13T00:26:08.824Z",
+  "reviewedAtLocal": "2026-10-12T17:26:08.824-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "07b252ef899c9f92dbc5762a264ccbe9fe25ae492a7ec5e2a2a7bcc150b799ff",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-light.svg",
+      "sha256": "11c592e320f671d67ae084ffd8a6b55793877153db6dab8c71bb7e580fca1222",
+      "bytes": 5567
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-dark.svg",
+      "sha256": "25bf734469418c0710f2767635b37e5c9f3d02a1953cc961212555b2d6fdb57f",
+      "bytes": 5567
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "a704826e794f6434d4560a85f06cb6a42e3ef04355931d8ee1d9e29ad6d0724d",
+    "learnerTask": "Distinguish node count from individual deposit size, basin and assessment timing.",
+    "gap": "The context/location/size/count Mermaid is a sound reading checklist, but does not visualize why three 0.8-mm deposits differ from a three-node set containing a 4-mm deposit. A two-case deposit-size schematic can teach the worked contrast; it should not become a full staging calculator.",
+    "accuracyGuardrails": [
+      "The two fictional cases assume surgery-first level I/II axillary context and no other regional finding.",
+      "Do not imply ITC-only nodes enter every involved-node count.",
+      "Node icons cannot show every unsampled node or establish overall stage."
+    ],
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Both fictional cases keep surgery-first ipsilateral level I/II axillary context, three involved nodes and no other identified regional finding. All three known 0.8mm deposits fit micrometastases-only pN1mi; one known 4mm deposit in the three-node set fits pN1a. Diameter 16:80px = 1:5 preserves 0.8:4mm; two unspecified case B deposits remain unknown. Node outlines do not measure node size, unsampled disease or overall stage; ITC-only counting remains separate. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/52",
+    "originalTaskRowSHA256": "0e3e38a744f726604ed4c8405ac8bdb3452a2780fa8e72e4eb8025bc52333e21",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden.md",
+        "sha256": "07b252ef899c9f92dbc5762a264ccbe9fe25ae492a7ec5e2a2a7bcc150b799ff",
+        "bytes": 9902
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-light.svg",
+        "sha256": "11c592e320f671d67ae084ffd8a6b55793877153db6dab8c71bb7e580fca1222",
+        "bytes": 5567
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-dark.svg",
+        "sha256": "25bf734469418c0710f2767635b37e5c9f3d02a1953cc961212555b2d6fdb57f",
+        "bytes": 5567
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/node-count-and-deposit-size-context-v1.txt",
+        "sha256": "185cc5835d5c290ed59cc5112657c28af3af3eecd2d62b0bc6fdd435c54ad1c9",
+        "bytes": 826
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/node-count-and-deposit-size-context-v1-provenance.json",
+        "sha256": "4ddd51a1c1765f2942a996ddd40b6a6d8793833894f239dc973f6b0747bd5dec",
+        "bytes": 2545
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "CAP-resection",
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "sourceKind": "official protocol",
+      "version": "4.11.0.0, postedJune2026; front matter specifies required-useMarch2027 and AJCC8. No accreditation-current-use certification.",
+      "actualReadDepth": "Selected PDF text: title/version page1; grade template pages6–7 lines194–225; NoteE page23 lines893–904; pN table page16 lines625–654; counting notes page13 lines502–517 and page38 lines1444–1453; selected posttherapy text page42 lines1576–1584. Not all43pages or source figure pixels.",
+      "supportsAndLimits": "Component names/sum mapping/method limits; deposit categories/count rules and treatment-timing scope.",
+      "reviewerAgent": "/root/models_science_svg",
+      "accessLimits": "Selected passages only; no entire source, supplements or source figure pixels. Fresh sources accessible; historic failed acquisitions preserved."
+    },
+    {
+      "source": "NCI-PDQ",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+      "sourceKind": "official professional staging summary",
+      "version": "Health Professional PDQ; selected tables explicitly reprint AJCC8(2017). Accessed current page, not a new edition assessment.",
+      "actualReadDepth": "Selected TNM context372–375, clinical basins392–410 and pathological table411–433. Not full PDQ or treatment sections.",
+      "supportsAndLimits": "Regional basin/prefix/timing and exact case thresholds; no whole stage/treatment assignment.",
+      "reviewerAgent": "/root/models_science_svg",
+      "accessLimits": "Selected passages only; no entire source, supplements or source figure pixels. Fresh sources accessible; historic failed acquisitions preserved."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "PASS for all six new native pairs and insertion task fit in both themes:84 personally inspected fresh browser captures comprise12native600×1000,12mobile393×700inline viewports,12mobile default previews,12desktop1280×900default previews and36settled desktop top/middle/bottom nested-scroll viewports. Actual client React source-pinned carrier and60byte-verified source copies from5cb06c95f00ceb74ab86b1f46f5face9d49497e0; same scientific objects/text in both themes. Root separately personally inspected all12freshnatives and14otherrepresentatives.",
+    "limitations": [
+      "PASS applies only to six new native pairs and their insertion task fit in this isolated source-pinned carrier. No clinical scoring, scientific/source-grade, human-grade, canonical adoption or publication approval is supplied.",
+      "Actual client React WikiMarkdownRenderer, TheaterImage, ImageTheaterModal and SmartTable were built from independently git-show-verified pin5cb06c95f00ceb74ab86b1f46f5face9d49497e0 copies. Producer static compiled-HTML/frame pipeline differs from this client Markdown pipeline; neither is the complete live reader.",
+      "The carrier uses education-app/main/article hierarchy and concatenated exact pinned shell/theme, renderer, smart-table, education and app CSS. Only supplied-local import declarations are removed and exact hidden/dark variant utilities appended. No header/sidebar, routing, auth, backend, complete server rendering or actual deployment was exercised.",
+      "All screenshots are original browser pixels, no photoediting, composites or resizing. Native viewport600x1000; mobile393x700; desktop1280x900; DPR1; defaultzoom1. Source/theme is bound in available DOM rows and original scripts; original first-two DOM row data was lost when the hung attempt was stopped, so its mobile/preview capture times and DOM dimensions are not reconstructed.",
+      "First-two mobile/native/default-preview pixels are personally inspected and source-bound through retained scripts, native bounds and exact producer/source hashes. Their filesystem times are labelled metadata only. Remaining-four16 rows persist actual source/theme/sizes/times/browser151.0.7922.34. All-six36 desktop instant-scroll rows persist source/theme/width/timing.",
+      "Desktop tall inline figures are820x1366.65625, requiring nested main scrolling. Top/middle/bottom actual1280x900 viewport union was personally inspected at unchanged width after instant scroll and two animation frames. No single viewport contains the whole tall figure; no desktop full-element image is accepted or generated in batch05.",
+      "The inherited scope string in desktop-scroll-instant-observations.json mentions earlier failed complete-element captures from the reusable batch04 script. That sentence does not describe batch05. Batch05 has zero attempted desktop full-element screenshots, and this verdict explicitly supersedes that inherited scope wording.",
+      "The interrupted capture waited for a loading=lazy image below the viewport before scrolling. The third-owner image had naturalWidth0 and was4267.875px below view. Diagnostic scroll loaded it; capture order was corrected for remaining four owners. No missing failed screenshot is invented, no native defect is inferred. Preserved diagnostic images are not figure-grade evidence.",
+      "Exact application CSS variables now exist in this carrier, including dark --sidebar-bg#161625, --surface-muted#2d2d44 and --foreground#e5e5e5. This does not upgrade previous batches or accept inherited page/table readability. Table DOM inventories are recorded for context only; horizontal scroll, cell readability, keyboard table behavior, general contrast and full-owner delivery acceptance were not graded.",
+      "Escape close success is recorded only for remaining-four16 DOM rows. No universal keyboard/focus/dialog interaction PASS is inferred for all owners. No raster model identity or source-science grade is assigned by this display review.",
+      "Own original blocked process was stopped; successful browser/server closures are recorded. Cleanup found no owned Node process matching review prefix and no listener on checked capture ports. No unrelated process was changed."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective135–140 only; no147 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

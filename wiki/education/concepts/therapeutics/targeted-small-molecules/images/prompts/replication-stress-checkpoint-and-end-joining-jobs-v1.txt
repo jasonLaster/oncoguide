@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Model null; zero image-model calls.
+
+Draw three parallel physical/topological jobs rather than a single mandatory DDR pipeline: a stalled DNA-copying fork with ATR-associated stress signaling; WEE1 applying inhibitory phosphate to a CDK for cycle control; POLθ supporting joining of exposed DNA ends with short matching sequences. Inhibition bars locate the targets, not doses or guaranteed outcomes. Do not claim error-free end joining, historical scar equals current repair function, every PARP-resistant model is POLθ sensitive, or TP53-based treatment selection. Preserve model-specific resistance boundaries and current-state tests.
+
+Frozen learner task: Locate stress signaling, cycle checkpoint and end joining as different DDR jobs
+Frozen gap: No physical or topological map separates ATR/WEE1/POLθ interventions
+Frozen accuracy guardrails (exact original JSON type): "Simplified network; repair state not historical scar; PARP resistance not universal POLθ sensitivity"
+
+Shared geometry, labels and quantities in both themes; palette substitutions only. Essential native labels at least36px for at least16px in393px inline/default preview. Raw source/retrieval/code/render evidence stays private. Editable native SVGs, not an executable reproduction-package promise.

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-136",
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/ki-67.md",
+  "author": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "authorRole": "Actual creative author of this owner/native package.",
+  "integrationAuthor": "root",
+  "integrationAuthorIdentity": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-13T00:26:08.824Z",
+  "reviewedAtLocal": "2026-10-12T17:26:08.824-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "110acf029afb128c1258cc29dda93f2545d0c4309c1d7f65cea36a7ff01efca9",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-light.svg",
+      "sha256": "68d2e21ea9db282097a645985b4ff663c790d6be4978d7aa7d93e379f1826ca9",
+      "bytes": 5551
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-dark.svg",
+      "sha256": "6be0e6dc1202d508c4f2d0b835394732ff89157c1ef966fe52deeece91d1ceb6",
+      "bytes": 5551
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "d2f1572ac7601178d573df65ce4fe009f6c32b60ad8f0b98b362045fae185fee",
+    "learnerTask": "Compare pooled nuclei, unweighted field percentages and a selected hotspot while stating each denominator.",
+    "gap": "The count-process Mermaid correctly names eligible nuclei and reporting context but does not expose why the 900-nucleus and 100-nucleus fields yield 14%, 30% and 50%. A small weighted-bars/count diagram would show the unequal contributions using the existing reproducible exercise.",
+    "accuracyGuardrails": [
+      "Use the fictional pooled-count example only, not the IKWG weighted-global algorithm.",
+      "Do not translate percentage into doubling time, cell killing or a TNBC cutoff.",
+      "All displayed fractions must use eligible evaluated tumor nuclei."
+    ],
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The displayed denominators are eligible evaluated tumor nuclei: 90/900 = 10%, 50/100 = 50%, 140/1000 = 14%; the unweighted field mean is (10 + 50)/2 = 30% and selected hotspot B is 50%. Count bars contribute 900:100 = 9:1, with positive lengths 45.9 and 25.5 of 510 totaling 14%; common 272px percentage bars 38.08/81.6/136 correspond to 14/30/50%. Count-scale aggregation is distinct from area weighting and the IKWG weighted-global procedure; no TNBC cutoff or biological rate is inferred. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/51",
+    "originalTaskRowSHA256": "840d2c6849335603028d3cf33125f90fae549cdaae0bc8e12bd09dfe04d82f5c",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/ki-67.md",
+        "sha256": "110acf029afb128c1258cc29dda93f2545d0c4309c1d7f65cea36a7ff01efca9",
+        "bytes": 8748
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-light.svg",
+        "sha256": "68d2e21ea9db282097a645985b4ff663c790d6be4978d7aa7d93e379f1826ca9",
+        "bytes": 5551
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-dark.svg",
+        "sha256": "6be0e6dc1202d508c4f2d0b835394732ff89157c1ef966fe52deeece91d1ceb6",
+        "bytes": 5551
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/eligible-nuclei-and-three-estimators-v1.txt",
+        "sha256": "6a79c587b36929b44869c913b1df16b50be37585e4349ecae1bad91865707ca1",
+        "bytes": 779
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/eligible-nuclei-and-three-estimators-v1-provenance.json",
+        "sha256": "cca2a158fffbdc8260351e44372af17645eec817b5b1794a97fe04fffb7f8022",
+        "bytes": 2136
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "IKWG2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487652/",
+      "sourceKind": "primary authors’ recommendations/method-validation account",
+      "version": "Nielsen etal., JNCI, DOI10.1093/jnci/djaa201; collectionJuly2021; acceptedNov2020.",
+      "actualReadDepth": "Selected full-text Box1 all5steps lines321–330 and Table1 nuclear eligibility/denominator/intensity/sampling rows351–355; surrounding methods limits331–334. Not entire paper, supplements or source figure pixels.",
+      "supportsAndLimits": "Actual weighted-global method uses area estimates/field types, calibration and directed counts; fictional pooled counts deliberately separate.",
+      "reviewerAgent": "/root/models_science_svg",
+      "accessLimits": "Selected passages only; no entire source, supplements or source figure pixels. Fresh sources accessible; historic failed acquisitions preserved."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "PASS for all six new native pairs and insertion task fit in both themes:84 personally inspected fresh browser captures comprise12native600×1000,12mobile393×700inline viewports,12mobile default previews,12desktop1280×900default previews and36settled desktop top/middle/bottom nested-scroll viewports. Actual client React source-pinned carrier and60byte-verified source copies from5cb06c95f00ceb74ab86b1f46f5face9d49497e0; same scientific objects/text in both themes. Root separately personally inspected all12freshnatives and14otherrepresentatives.",
+    "limitations": [
+      "PASS applies only to six new native pairs and their insertion task fit in this isolated source-pinned carrier. No clinical scoring, scientific/source-grade, human-grade, canonical adoption or publication approval is supplied.",
+      "Actual client React WikiMarkdownRenderer, TheaterImage, ImageTheaterModal and SmartTable were built from independently git-show-verified pin5cb06c95f00ceb74ab86b1f46f5face9d49497e0 copies. Producer static compiled-HTML/frame pipeline differs from this client Markdown pipeline; neither is the complete live reader.",
+      "The carrier uses education-app/main/article hierarchy and concatenated exact pinned shell/theme, renderer, smart-table, education and app CSS. Only supplied-local import declarations are removed and exact hidden/dark variant utilities appended. No header/sidebar, routing, auth, backend, complete server rendering or actual deployment was exercised.",
+      "All screenshots are original browser pixels, no photoediting, composites or resizing. Native viewport600x1000; mobile393x700; desktop1280x900; DPR1; defaultzoom1. Source/theme is bound in available DOM rows and original scripts; original first-two DOM row data was lost when the hung attempt was stopped, so its mobile/preview capture times and DOM dimensions are not reconstructed.",
+      "First-two mobile/native/default-preview pixels are personally inspected and source-bound through retained scripts, native bounds and exact producer/source hashes. Their filesystem times are labelled metadata only. Remaining-four16 rows persist actual source/theme/sizes/times/browser151.0.7922.34. All-six36 desktop instant-scroll rows persist source/theme/width/timing.",
+      "Desktop tall inline figures are820x1366.65625, requiring nested main scrolling. Top/middle/bottom actual1280x900 viewport union was personally inspected at unchanged width after instant scroll and two animation frames. No single viewport contains the whole tall figure; no desktop full-element image is accepted or generated in batch05.",
+      "The inherited scope string in desktop-scroll-instant-observations.json mentions earlier failed complete-element captures from the reusable batch04 script. That sentence does not describe batch05. Batch05 has zero attempted desktop full-element screenshots, and this verdict explicitly supersedes that inherited scope wording.",
+      "The interrupted capture waited for a loading=lazy image below the viewport before scrolling. The third-owner image had naturalWidth0 and was4267.875px below view. Diagnostic scroll loaded it; capture order was corrected for remaining four owners. No missing failed screenshot is invented, no native defect is inferred. Preserved diagnostic images are not figure-grade evidence.",
+      "Exact application CSS variables now exist in this carrier, including dark --sidebar-bg#161625, --surface-muted#2d2d44 and --foreground#e5e5e5. This does not upgrade previous batches or accept inherited page/table readability. Table DOM inventories are recorded for context only; horizontal scroll, cell readability, keyboard table behavior, general contrast and full-owner delivery acceptance were not graded.",
+      "Escape close success is recorded only for remaining-four16 DOM rows. No universal keyboard/focus/dialog interaction PASS is inferred for all owners. No raster model identity or source-science grade is assigned by this display review.",
+      "Own original blocked process was stopped; successful browser/server closures are recorded. Cleanup found no owned Node process matching review prefix and no listener on checked capture ports. No unrelated process was changed."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective135–140 only; no147 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

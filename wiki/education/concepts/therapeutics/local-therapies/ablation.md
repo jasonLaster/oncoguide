@@ -29,6 +29,14 @@ Ablation treats a place. Imagine a three-dimensional treatment zone surrounding 
 
 ## How it works
 
+<img src="./images/boundary-readouts-v1-light.svg" alt="Irregular visible ice zone, target outline, nearby vessel and applicator separated from lethal-exposure and probe-temperature readouts." data-theme-pair />
+
+*The visible ice edge, the probe reading and lethal tissue exposure answer different questions. Violet shading only sketches possible lethal exposure; it is not measured cell death. The dashed pink line outlines the target. This cryoablation sketch specifies no size, temperature or margin.*
+
+**Read the illustration:** In the sketch, which readout comes from the applicator, and which edge comes from imaging?
+
+**Answer:** Probe temperature is the applicator reading. The outer ice-zone boundary is visible on imaging. Neither directly maps lethal exposure everywhere in the target.
+
 Many procedures place an applicator near or within a lesion under imaging guidance; others use focused ultrasound. The [international consensus](https://pubmed.ncbi.nlm.nih.gov/25442132/) distinguishes thermal, chemical and other methods. Name the actual technique when comparing studies.
 
 | Method | How injury is produced | What the name does not guarantee |

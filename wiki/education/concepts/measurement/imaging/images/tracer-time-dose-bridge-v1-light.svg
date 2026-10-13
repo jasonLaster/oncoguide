@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc">
+<title id="title">An image is one time point</title><desc id="desc">Fictional target-M products</desc>
+<rect x="0" y="0" width="600" height="1000" rx="0" fill="#f8f5ef"/>
+<text x="32" y="56" fill="#173d46" font-family="Arial, sans-serif" font-size="42" font-weight="700" text-anchor="start">An image is one time point</text>
+<text x="32" y="101" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Fictional target-M products</text>
+<rect x="24" y="132" width="552" height="218" rx="22" fill="#ffffff"/>
+<text x="44" y="178" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Imaging: small vector + A</text>
+<circle cx="108" cy="252" r="38" fill="#d6eeeb" stroke="#007e80" stroke-width="3"/>
+<rect x="132" y="245" width="28" height="14" rx="2" fill="#007e80"/>
+<circle cx="174" cy="252" r="17" fill="#95601d" stroke="#95601d" stroke-width="1"/>
+<rect x="353" y="205" width="148" height="106" rx="13" fill="#173d46"/>
+<circle cx="413" cy="256" r="20" fill="#95601d" stroke="#ffffff" stroke-width="4"/>
+<circle cx="469" cy="271" r="9" fill="#007e80" stroke="#ffffff" stroke-width="4"/>
+<text x="227" y="271" fill="#173d46" font-family="Arial, sans-serif" font-size="42" font-weight="400" text-anchor="start">→</text>
+<rect x="24" y="376" width="552" height="285" rx="22" fill="#ffffff"/>
+<text x="44" y="424" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Therapy: antibody + B</text>
+<path d="M81 485 L109 511 L138 483 M109 511 L109 548" fill="none" stroke="#675198" stroke-width="14" opacity="1"/>
+<circle cx="155" cy="484" r="15" fill="#a74460" stroke="#a74460" stroke-width="3"/>
+<path d="M213 584 L525 584" fill="none" stroke="#acbec2" stroke-width="4" opacity="1"/>
+<path d="M213 455 L213 584" fill="none" stroke="#acbec2" stroke-width="4" opacity="1"/>
+<path d="M214 564 C240 492 261 466 285 497 C320 541 368 566 516 577" fill="none" stroke="#a74460" stroke-width="5" opacity="1"/>
+<path d="M214 564 C240 492 261 466 285 497 C320 541 368 566 516 577 L516 584 L214 584 Z" fill="#f4d8de" stroke="none" stroke-width="0" opacity="1"/>
+<path d="M214 564 C240 492 261 466 285 497 C320 541 368 566 516 577" fill="none" stroke="#a74460" stroke-width="5" opacity="1"/>
+<text x="234" y="632" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Activity over time</text>
+<rect x="24" y="687" width="552" height="187" rx="22" fill="#ffffff"/>
+<text x="44" y="735" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Dose needs product data,</text>
+<text x="44" y="777" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">time + a dose model.</text>
+<text x="44" y="819" fill="#173d46" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Benefit needs outcome data.</text>
+<text x="32" y="919" fill="#42616a" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Curves have no numeric scale.</text>
+<text x="32" y="961" fill="#42616a" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Brightness ≠ dose or benefit.</text>
+</svg>

@@ -29,6 +29,11 @@ A workshop can pause a damaged production line, stabilize unfinished work, or re
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/replication-stress-checkpoint-and-end-joining-jobs-v1-light.svg" width="760" height="1320" alt="Three distinct DDR sketches show a stalled copying fork and ATR stress signaling, WEE1 inhibitory phosphorylation of a CDK, and POLθ-associated short-match end joining, with possible inhibition sites kept separate." data-theme-pair>
+<p class="cartoon-caption">Three parallel sketches locate different DDR jobs: ATR-associated signaling at replication stress, WEE1 delivery of an inhibitory phosphate to a cyclin-dependent kinase, and POLθ-supported joining of exposed DNA ends through short matching sequences. DNA strokes and matches are schematic, not literal bases or a complete network. Bars mark possible target-blocking sites, not clinical doses or guaranteed effects. Current repair function needs testing; a historical scar or PARP resistance alone does not establish POLθ sensitivity.</p>
+</div>
+
 **DNA damage response (DDR)** includes more than repair enzymes. DNA means deoxyribonucleic acid, the information-bearing molecule described in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma). Replication stress means difficulty copying DNA; the moving copying machinery can slow or stall.
 
 Different inhibitors interrupt different jobs:

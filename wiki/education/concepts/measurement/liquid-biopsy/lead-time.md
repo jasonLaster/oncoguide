@@ -69,6 +69,14 @@ Do not rank assays from unrelated lead-time medians. Cohort, recurrence sites, s
 
 ## Try it
 
+<img src="./images/six-person-sampling-timelines-v1-light.svg" alt="Six fictional people sampled every two months from months zero to twelve; four first positive samples precede recurrence by two, four, six and eight months, while two recurrences have no prior detection." data-theme-pair />
+
+*All six fictional cases recur at month 12. Open dots show scheduled blood draws every two months; filled teal dots show first qualifying positives. A–D have completed earlier-positive intervals of 2, 4, 6 and 8 months. E and F have no earlier positive. The selected median is (4 + 6) ÷ 2 = 5 months among four cases; it excludes the two detection failures. These numbers are invented teaching data, not a study estimate or future prediction.*
+
+**Read the illustration:** Which two rows are left out of the five-month median, and does the highlighted gap locate biological onset?
+
+**Answer:** E and F are left out because neither has an earlier qualifying positive. The highlighted intervals start at observed blood draws; intermittent sampling cannot locate the biological onset. This selected median establishes neither improved outcomes nor benefit from treating on the signal.
+
 In a fictional cohort, six people recur. Four have prior positive blood tests, with gaps of 2, 4, 6 and 8 months. Two recur without a prior positive test. What does the five-month median describe?
 
 **Answer:** Only the four people with measurable earlier-positive-to-recurrence intervals. The two without prior detection must be reported separately; a five-month median does not mean every recurrence was detected five months early.

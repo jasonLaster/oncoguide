@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "integrationAuthor": "root",
+  "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "sourceRetrievalNote": "Original retrieval history belongs to the original research author. The successor read already-retrieved bytes during this run; original retrieval times are not claimed as successor reading times.",
+  "prospectiveTaskId": "next-gap-143",
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+  "nativeSize": {
+    "width": 600,
+    "height": 1000
+  },
+  "imageGeneration": {
+    "model": null,
+    "calls": 0
+  },
+  "construction": {
+    "language": "Python emitting SVG",
+    "invocation": "python3 private/create-candidates.py",
+    "scriptSHA256": "7a3711676b4466cec4cf759514004b07e545ca5796eb557085f109a76ae49e41"
+  },
+  "originalBrief": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1.txt",
+    "sha256": "d2a27f3c55caccaf42b785670b87abeb1daf06d25a16fc8804cae32a76cf10b3"
+  },
+  "artwork": [
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-light.svg",
+      "sha256": "0a6c0f5945cb941fffcf2e5a1340efb6be5fd71cd431021be2faef44584a246c",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-dark.svg",
+      "sha256": "baa0fcfab12b68f0bf97b302b9a6a8e13992401a227fcec299cb77c8a37ed1d3",
+      "theme": "dark"
+    }
+  ],
+  "assumptionsAndLimits": "A target can be tissue at risk without a visible mass. Dashed target boundaries are planning concepts, not perfect dose cutoffs. The body and organs are schematic; no dose distribution, anatomy-specific prescription or cell-killing percentage is shown.",
+  "sourceURLs": [
+    "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+    "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+    "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+  ],
+  "scientificApproval": false,
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceAccessQualifications": [
+    {
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+      "title": "International Atomic Energy Agency, 2005: Radiation Oncology Physics",
+      "successorReadDepth": "Same saved IAEA PDF/text as hypofractionation; selected absorbed-dose and fractionation passages read.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+      "title": "NCI: radiation therapy mechanisms, delivery methods, purposes and normal-tissue effects",
+      "successorReadDepth": "NCI radiation mechanisms, delivery types, treatment goals and normal-tissue effects main text read.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+      "title": "NCI: external-beam radiation, planning, positioning and treatment schedules",
+      "successorReadDepth": "Same saved NCI external-beam article as hypofractionation; selected planning/simulation and fractionation passages read.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    }
+  ],
+  "sourceReadingRecord": {
+    "recordedAtUTC": "2026-10-13T00:16:25.084436+00:00",
+    "meaning": "Successor read already-retrieved bytes during this run. This is record creation time, not a reconstructed earlier reading time."
+  }
+}

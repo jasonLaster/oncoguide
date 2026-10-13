@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging.md",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceOwnerPreimageSHA256": "c00a8d97363a5eec5dc8d431841840845236c43108eab4a212001e91a572085f",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "specimen-collection-and-later-addendum-v1.txt",
+    "sha256": "5acbbb4328b728fbe12eb59edffcdfe1750dffda938c103e17f0956c402dffd9",
+    "bytes": 808,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "specimen-collection-and-later-addendum-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "641ae9bc74902ed222658604da2aadf2ce10427594d1db295d15edf255586a49",
+      "bytes": 5792
+    },
+    {
+      "file": "specimen-collection-and-later-addendum-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "7cd9752ec1af9ba717d8bd43f1fa42bfd771f0f333747ad0b076dc20fd2aaa40",
+      "bytes": 5792
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Protocol for the Examination of Resection Specimens from Patients with Invasive Carcinoma of the Breast,4.11.0.0,June2026",
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "scope": "Selected source passages, not all43pages, diagnostic training, atom-scale reconstruction, stage assignment or individual surgery advice. No source scoring-table cutoffs are reproduced in new artwork."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

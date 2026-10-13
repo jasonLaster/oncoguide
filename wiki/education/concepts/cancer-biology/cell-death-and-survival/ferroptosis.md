@@ -29,6 +29,11 @@ Picture a fire spreading through a cell's oily membrane. Fire prevention, the ma
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/membrane-lipid-damage-and-parallel-defenses-v1-light.svg" width="760" height="1320" alt="A schematic lipid bilayer patch contains illustrative oxidized tails, with GPX4/glutathione and FSP1/coenzyme-Q defenses shown as separate examples rather than a complete ferroptosis diagnosis." data-theme-pair>
+<p class="cartoon-caption">A selected membrane patch locates oxidized lipid tails; the icons do not specify an actual lipid composition, atom count or assay signal. Here OOH marks a lipid hydroperoxide and OH its alcohol product. GPX4 with glutathione can reduce lipid hydroperoxides, while FSP1 regenerates reduced coenzyme Q as a parallel radical-trapping defense. These are examples within a larger protection network. General ROS, protein abundance or the sketch alone cannot diagnose ferroptosis or predict compound sensitivity.</p>
+</div>
+
 **Lipid peroxidation** is oxidative damage to lipids. Some membrane lipids are especially vulnerable because their fatty-acid chains contain several double bonds. Iron participates in chemistry that can amplify damage. If damage exceeds defenses, the membrane system fails and the cell can die.
 
 One protective enzyme is **glutathione peroxidase 4 (GPX4)**. It reduces lipid hydroperoxides, damaged lipid products, using the antioxidant molecule glutathione. This is one important defense, not the only defense. **Ferroptosis suppressor protein 1 (FSP1)** supplies a parallel defense by regenerating reduced coenzyme Q, which can trap lipid radicals. Primary experiments showed why resistance to GPX4 disruption varies across models. [Bersuker 2019](https://pubmed.ncbi.nlm.nih.gov/31634900/). [Yang 2014](https://pubmed.ncbi.nlm.nih.gov/24439385/).

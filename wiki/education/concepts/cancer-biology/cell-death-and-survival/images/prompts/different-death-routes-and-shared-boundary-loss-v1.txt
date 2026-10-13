@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Model null; zero image-model calls.
+
+Draw three independently labeled example histories converging on a common physically broken cell boundary: severe accidental injury; regulated RIPK3/MLKL necroptosis; earlier apoptosis followed by inadequate clearance. The shared late appearance or dye entry identifies membrane compromise rather than the cause. Do not equate necrosis with necroptosis, suppress the possibility of earlier apoptosis, infer immune vaccination or whole-tumor clearance, or imply a universal time sequence.
+
+Frozen learner task: Recognize membrane breakdown as a convergent observation rather than the identity of one death pathway.
+Frozen gap: The observation/evidence table is clear, but a short routes-converge-on-membrane-loss diagram would make accidental injury, regulated routes and secondary necrosis visibly different causes of a similar late appearance. It should reuse physical cell-boundary imagery, not present morphology as mechanistic proof.
+Frozen accuracy guardrails (exact original JSON type): ["Necrosis is broader than necroptosis.", "Late membrane loss can conceal an earlier apoptotic phase.", "No inflammation-to-vaccine or death-to-whole-tumor-clearance inference."]
+
+Shared geometry, labels and quantities in both themes; palette substitutions only. Essential native labels at least36px for at least16px in393px inline/default preview. Raw source/retrieval/code/render evidence stays private. Editable native SVGs, not an executable reproduction-package promise.

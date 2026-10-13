@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-132",
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "creativeAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "passedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "currentOwnerSha256": "ce5afa6f37f5b60ba2927e86e3ecb4bc7ba1512fb9cd596b43a114010ad6fd53",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Both fictional cultures have the same stipulated upstream Wnt-secretion block with input removed. A keeps destruction control and shows decreased qualitative nuclear output; B stipulates a downstream bypass and persistent output. The schematic concerns canonical Wnt, preserves beta-catenin adhesion-role caveats and separates pathway effects from selective killing or clinical response.",
+    "baselinePageSHA256": "6492a744d014d859c8f9140be60681ee4f517f06617b1923c472a39c883811c6",
+    "learnerTask": "Compare ligand-dependent β-catenin stabilization with downstream escape that can persist after upstream blockade.",
+    "gap": "The existing Wnt-to-nuclear-output sequence correctly depicts one route but not the two cultures' different response to the same upstream intervention. A small two-context diagram with destruction control intact versus bypassed would clarify the mechanistic branch without showing a drug choice.",
+    "accuracyGuardrails": [
+      "Only canonical Wnt is depicted.",
+      "Total β-catenin also includes adhesion roles.",
+      "No assumed selective killing after target engagement."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/108",
+  "frozenRowSHA256": "7e998c2cb1dcf882e26a6c0265c23581ed6b4a896557afe0cbe117ec40abcf74",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg",
+      "sha256": "c3911082bacbf6732aa1fed4605584d9b963df45c02a015026e2168fb9a611e9"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg",
+      "sha256": "eee90785df87e1952a598f92368673d815617a1448465cf0166d861d59fd6d9f"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+        "sha256": "ce5afa6f37f5b60ba2927e86e3ecb4bc7ba1512fb9cd596b43a114010ad6fd53",
+        "bytes": 8211
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg",
+        "sha256": "c3911082bacbf6732aa1fed4605584d9b963df45c02a015026e2168fb9a611e9",
+        "bytes": 5875
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg",
+        "sha256": "eee90785df87e1952a598f92368673d815617a1448465cf0166d861d59fd6d9f",
+        "bytes": 5875
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/shared-upstream-block-and-downstream-escape-v1.txt",
+        "sha256": "9a3d349116823b7756a8369bdcb2e8f6eeb01f09946cd5d17b7b7795d84cfd97",
+        "bytes": 1650
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/shared-upstream-block-and-downstream-escape-v1-provenance.json",
+        "sha256": "67f7018135459574dfad8f1ba81ba59d2451192755c2c22bf1e0faf5b357fa26",
+        "bytes": 3323
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewSHA256": "aabc07e138ca6b259ca8110ccba7fa10d613b7eb054394a78380eb05eb7ccf75",
+    "wholePackageReviewTimeUTC": "2026-10-13T00:37:43.551564+00:00",
+    "authorHandoffSHA256": "73a35ca4c1b20e353aa198068349f6ccd5bb9be436fa52f6b4a1a6930048a47c",
+    "authorManifestSHA256": "5ef242d7856e80faa39aa583b7ba54dca04a60598eccc01bd1bd0dfaca5b7c8f",
+    "authorSealSHA256": "1863d43a8236aad95f3fdda7bf45da496c67cecc828ae642c85c861c8d86a3d9",
+    "basis": "Genuine complete independent source/scientific/math/task-fit/pixel review with preserved finite custody; not inferred from hashes or another agent QA",
+    "sourceReadDepth": "Complete returned abstracts and selected primary/official/XML/indexed/PDF passages; exact access failures retained privately. No whole-paper/human/clinical approval.",
+    "freshSourceLookupPerformed": true
+  },
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/11955436/",
+    "https://pubmed.ncbi.nlm.nih.gov/33941878/",
+    "https://pubmed.ncbi.nlm.nih.gov/11029007/",
+    "https://pubmed.ncbi.nlm.nih.gov/11834740/",
+    "https://pubmed.ncbi.nlm.nih.gov/17141155/"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical147Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

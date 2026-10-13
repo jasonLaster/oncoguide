@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-143",
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+  "currentOwnerSha256": "d6ee3d32517b5f0d66220724969e149771878594e2fa9cfcb7c89d1b90694040",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "originalSourceResearchAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-13T00:31:01.394Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/364",
+  "frozenRowSHA256": "fd7305641acd4112673fdbbacbe717e1b8f98a05ad0a3c8c816aa134517eb179",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "2763a77245a84442f2f238123e1df53f40742519de37d4b5d76eab9ed8d5f556",
+    "learnerTask": "Locate beam/source, target-at-risk volume and nearby organs",
+    "gap": "Goal flow cannot show three-dimensional exposure, microscopic target or nonzero neighboring dose",
+    "accuracyGuardrails": "Schematic not dose plan; Gy not killing percent; no perfect beam boundary; normal tissues exposed",
+    "reasoning": "The external source, schematic body/normal organs and dashed at-risk target are visually separated. The caption permits microscopic-risk tissue without a visible mass and disclaims sharp dose cutoffs. The beam wedge is illustrative; no dose values/distribution or killing percentage is supplied. Gy remains deposited energy per mass and normal tissue exposure remains nonzero."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-light.svg",
+      "sha256": "0a6c0f5945cb941fffcf2e5a1340efb6be5fd71cd431021be2faef44584a246c"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-dark.svg",
+      "sha256": "baa0fcfab12b68f0bf97b302b9a6a8e13992401a227fcec299cb77c8a37ed1d3"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+        "sha256": "d6ee3d32517b5f0d66220724969e149771878594e2fa9cfcb7c89d1b90694040"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-light.svg",
+        "sha256": "0a6c0f5945cb941fffcf2e5a1340efb6be5fd71cd431021be2faef44584a246c"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-dark.svg",
+        "sha256": "baa0fcfab12b68f0bf97b302b9a6a8e13992401a227fcec299cb77c8a37ed1d3"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1.txt",
+        "sha256": "d2a27f3c55caccaf42b785670b87abeb1daf06d25a16fc8804cae32a76cf10b3"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1-provenance.json",
+        "sha256": "25e97f8d9cf08a57564e53357d9492356a9217d7a464a027affe1f93b5686e2f"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "d6ee3d32517b5f0d66220724969e149771878594e2fa9cfcb7c89d1b90694040",
+    "currentCandidatePairBound": true,
+    "originalMDAndTXTUnchanged": true
+  },
+  "reviewBasis": {
+    "scope": "Original genuine whole scientific/math/native/visual/task-fit review plus limited closure of its three visual findings; current exact-candidate task-fit disposition. No new full-seven review or new source reading.",
+    "originalWholeReview": {
+      "reviewType": "independent-complete-package-review",
+      "verdict": "REVISE",
+      "reviewedAt": "2026-10-13T00:23:23.574Z",
+      "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+      "reviewReceiptSHA256": "fead4e9069c9855c1d99f247205eb6196bd19e268a285b399f5d4869efec0c1f",
+      "reviewSealSHA256": "2cef158d615bccde1690f2ecc3ce43aae2f371c675107cf846ed74106feb28c3",
+      "findingsSHA256": "3a29536f7ba35cd08849c5c21a7c6357b65f52d5618a8dcbfcb8d85d43cef7f4"
+    },
+    "scientificMathAndFullOwnerReviewAt": "2026-10-13T00:23:23.574Z",
+    "visualPixelsReviewAt": "2026-10-13T00:23:23.574Z",
+    "visualPixelsScopeThisPass": "No new pixel review; original five-owner visual judgment inherited after exact-byte identity verification.",
+    "correctionRecheckAt": null,
+    "closedFindingIds": [],
+    "correctionInputHandoffSHA256": "89832a109a24443fa6eab60f48ae1f357ca53c8c1f7d7765c997a31611daecee",
+    "correctionInputSealSHA256": "94634e65dbe08f9e02d45cf9d211124d9cfe30b0d6d66baf7eebdcc26cd2292e"
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical147Adoption": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "deliveryCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

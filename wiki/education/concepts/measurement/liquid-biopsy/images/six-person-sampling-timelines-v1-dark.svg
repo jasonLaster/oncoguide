@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Who enters the median?</title><desc id="desc">Six fictional recurrence cases</desc>
+<rect x="0" y="0" width="600" height="1000" rx="0" fill="#111f29"/>
+<text x="32" y="56" fill="#eef4f3" font-family="Arial, sans-serif" font-size="42" font-weight="700" text-anchor="start">Who enters the median?</text>
+<text x="32" y="101" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Six fictional recurrence cases</text>
+<rect x="24" y="132" width="552" height="561" rx="22" fill="#1a303b"/>
+<text x="45" y="178" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Months after study entry</text>
+<text x="112" y="226" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="middle">0</text>
+<text x="240" y="226" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="middle">4</text>
+<text x="368" y="226" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="middle">8</text>
+<text x="496" y="226" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="middle">12</text>
+<text x="46" y="280" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">A</text>
+<path d="M112 269 L496 269" fill="none" stroke="#69858f" stroke-width="3" opacity="1"/>
+<circle cx="112" cy="269" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="176" cy="269" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="240" cy="269" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="304" cy="269" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="368" cy="269" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="432" cy="269" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="496" cy="269" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<path d="M432 269 L496 269" fill="none" stroke="#72d7c9" stroke-width="9" opacity="1"/>
+<circle cx="432" cy="269" r="11" fill="#72d7c9" stroke="#72d7c9" stroke-width="1"/>
+<text x="422" y="253" fill="#72d7c9" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="end">2 mo</text>
+<path d="M487 257 L505 257 L505 281 L487 281 Z" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1" opacity="1"/>
+<text x="46" y="349" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">B</text>
+<path d="M112 338 L496 338" fill="none" stroke="#69858f" stroke-width="3" opacity="1"/>
+<circle cx="112" cy="338" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="176" cy="338" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="240" cy="338" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="304" cy="338" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="368" cy="338" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="432" cy="338" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="496" cy="338" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<path d="M368 338 L496 338" fill="none" stroke="#72d7c9" stroke-width="9" opacity="1"/>
+<circle cx="368" cy="338" r="11" fill="#72d7c9" stroke="#72d7c9" stroke-width="1"/>
+<text x="358" y="322" fill="#72d7c9" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="end">4 mo</text>
+<path d="M487 326 L505 326 L505 350 L487 350 Z" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1" opacity="1"/>
+<text x="46" y="418" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">C</text>
+<path d="M112 407 L496 407" fill="none" stroke="#69858f" stroke-width="3" opacity="1"/>
+<circle cx="112" cy="407" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="176" cy="407" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="240" cy="407" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="304" cy="407" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="368" cy="407" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="432" cy="407" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="496" cy="407" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<path d="M304 407 L496 407" fill="none" stroke="#72d7c9" stroke-width="9" opacity="1"/>
+<circle cx="304" cy="407" r="11" fill="#72d7c9" stroke="#72d7c9" stroke-width="1"/>
+<text x="294" y="391" fill="#72d7c9" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="end">6 mo</text>
+<path d="M487 395 L505 395 L505 419 L487 419 Z" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1" opacity="1"/>
+<text x="46" y="487" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">D</text>
+<path d="M112 476 L496 476" fill="none" stroke="#69858f" stroke-width="3" opacity="1"/>
+<circle cx="112" cy="476" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="176" cy="476" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="240" cy="476" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="304" cy="476" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="368" cy="476" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="432" cy="476" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="496" cy="476" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<path d="M240 476 L496 476" fill="none" stroke="#72d7c9" stroke-width="9" opacity="1"/>
+<circle cx="240" cy="476" r="11" fill="#72d7c9" stroke="#72d7c9" stroke-width="1"/>
+<text x="230" y="460" fill="#72d7c9" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="end">8 mo</text>
+<path d="M487 464 L505 464 L505 488 L487 488 Z" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1" opacity="1"/>
+<text x="46" y="556" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">E</text>
+<path d="M112 545 L496 545" fill="none" stroke="#69858f" stroke-width="3" opacity="1"/>
+<circle cx="112" cy="545" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="176" cy="545" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="240" cy="545" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="304" cy="545" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="368" cy="545" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="432" cy="545" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="496" cy="545" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<path d="M487 533 L505 533 L505 557 L487 557 Z" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1" opacity="1"/>
+<text x="46" y="625" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">F</text>
+<path d="M112 614 L496 614" fill="none" stroke="#69858f" stroke-width="3" opacity="1"/>
+<circle cx="112" cy="614" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="176" cy="614" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="240" cy="614" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="304" cy="614" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="368" cy="614" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="432" cy="614" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<circle cx="496" cy="614" r="7" fill="#1a303b" stroke="#c0d1d7" stroke-width="2"/>
+<path d="M487 602 L505 602 L505 626 L487 626 Z" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1" opacity="1"/>
+<text x="97" y="687" fill="#ffa9ba" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">E, F: no earlier positive</text>
+<text x="32" y="740" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">○ Blood draw   ● First positive</text>
+<text x="32" y="782" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">■ Recurrence; same time here.</text>
+<rect x="24" y="821" width="552" height="74" rx="22" fill="#244d50"/>
+<text x="44" y="868" fill="#72d7c9" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Median of A–D = 5 months</text>
+<text x="32" y="919" fill="#c0d1d7" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">2, 4, 6, 8 → middle two: 4, 6.</text>
+<text x="32" y="961" fill="#c0d1d7" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">E, F excluded; no benefit claim.</text>
+</svg>

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "integrationAuthor": "root",
+  "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "sourceRetrievalNote": "Original retrieval history belongs to the original research author. The successor read already-retrieved bytes during this run; original retrieval times are not claimed as successor reading times.",
+  "prospectiveTaskId": "next-gap-145",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells.md",
+  "nativeSize": {
+    "width": 600,
+    "height": 1000
+  },
+  "imageGeneration": {
+    "model": null,
+    "calls": 0
+  },
+  "construction": {
+    "language": "Python emitting SVG",
+    "invocation": "python3 private/create-candidates.py",
+    "scriptSHA256": "7a3711676b4466cec4cf759514004b07e545ca5796eb557085f109a76ae49e41"
+  },
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/marker-recovery-and-free-dna-v1.txt",
+    "sha256": "f657edc3fb8d3e02e6d536cb50d195f813a83e4219a57772384ed1d3b88409dc"
+  },
+  "artwork": [
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/marker-recovery-and-free-dna-v1-light.svg",
+      "sha256": "c42d47c91ac3834c5d8a8e2d5ff881517faa2ec81316306bf3cd36e4c1fd5ff3",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/marker-recovery-and-free-dna-v1-dark.svg",
+      "sha256": "301b6ce303143f7c99a5365ab265b1581671a74ac7254d3801a0f2c640f71cb5",
+      "theme": "dark"
+    }
+  ],
+  "assumptionsAndLimits": "This cartoon shows one marker-dependent workflow, not universal recovery rules or a measured proportion. Additional identification rules follow enrichment. Cells that are not selected and free DNA fragments remain distinct; absence from the recovered set does not prove absence from circulation.",
+  "sourceURLs": [
+    "https://www.accessdata.fda.gov/cdrh_docs/reviews/K031588.pdf",
+    "https://doi.org/10.1158/1078-0432.CCR-04-0378",
+    "https://doi.org/10.1056/NEJMoa040766",
+    "https://doi.org/10.1200/JCO.2014.56.2561"
+  ],
+  "scientificApproval": false,
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceAccessQualifications": [
+    {
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K031588.pdf",
+      "title": "FDA K031588 decision summary",
+      "successorReadDepth": "Selected FDA decision-summary intended-use and test-principle passages read, including marker enrichment followed by separate classification.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1158/1078-0432.CCR-04-0378",
+      "title": "Allard et al. 2004: enumeration performance",
+      "successorReadDepth": "Complete primary abstract recovered via saved PubMed XML; direct publisher access originally failed with HTTP 403.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa040766",
+      "title": "Cristofanilli et al. 2004: CTCs and outcomes",
+      "successorReadDepth": "Complete primary abstract recovered via saved PubMed XML; direct publisher access originally failed with HTTP 403.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1200/JCO.2014.56.2561",
+      "title": "Smerage et al. 2014: SWOG S0500",
+      "successorReadDepth": "Complete primary SWOG S0500 abstract recovered via saved PubMed XML; direct publisher access originally failed with HTTP 403.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    }
+  ],
+  "sourceReadingRecord": {
+    "recordedAtUTC": "2026-10-13T00:16:25.084436+00:00",
+    "meaning": "Successor read already-retrieved bytes during this run. This is record creation time, not a reconstructed earlier reading time."
+  }
+}

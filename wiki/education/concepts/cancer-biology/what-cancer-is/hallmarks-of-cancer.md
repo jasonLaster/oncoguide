@@ -35,6 +35,11 @@ The hallmarks framework makes similar distinctions in cancer biology. Its analog
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/2022-capabilities-enablers-and-tissue-participants-v1-light.svg" width="760" height="1320" alt="An original 2022 framework map separates capabilities, enabling characteristics and tissue participants, with selected core examples and visibly labeled provisional proposals at the appropriate explanatory levels." data-theme-pair>
+<p class="cartoon-caption">This original map organizes the 2022 framework by explanatory level. Eight core capabilities are retained in the nearby table; the image gives selected examples. Genome instability/mutation and tumor-promoting inflammation are established enabling characteristics in that version. Dashed boxes keep the 2022 proposals or emphasis attached to their level: phenotypic plasticity, nonmutational epigenetic reprogramming, microbiomes and senescent tissue participants. They are not four equivalent established hallmarks, a diagnostic checklist, or proof that every cell carries every capability.</p>
+</div>
+
 **Keep the framework's version attached.** The original 2000 proposal described six capabilities. The 2011 update retained those six, proposed two emerging capabilities, and distinguished two enabling characteristics. In the 2022 account, the earlier emerging capabilities had joined the core set. The 2022 paper also proposed additional dimensions for investigation. These are developments in a conceptual framework, not successive clinical test standards. [2011](https://pubmed.ncbi.nlm.nih.gov/21376230/), [2022](https://doi.org/10.1158/2159-8290.CD-21-1059).
 
 The eight core capabilities in the 2022 account can be expressed as questions:

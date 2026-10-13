@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-140",
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection.md",
+  "author": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "authorRole": "Actual creative author of this owner/native package.",
+  "integrationAuthor": "root",
+  "integrationAuthorIdentity": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-13T00:26:08.824Z",
+  "reviewedAtLocal": "2026-10-12T17:26:08.824-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "bf3a31e3c546351e3f24e737f64ecc3c8d1e7bfcc3a5d62b69d5aaef431cf31a",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-light.svg",
+      "sha256": "6b1348e410ca8c76d114b84ed5b01760d530a511fa5254c7050b9ffaf60434f8",
+      "bytes": 5389
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-dark.svg",
+      "sha256": "28e416ad6f66a5bec097f3280fcebd12ad83d2bd460448ab0a61d6567e95b53a",
+      "bytes": 5389
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "99983f1129cfd5b1126f4ac14b8f99736394e4f0cd5d7295f48fa52947be4b40",
+    "learnerTask": "Distinguish tracer-identified sentinel nodes, a previously marked node and a broader axillary tissue sample.",
+    "gap": "The SLNB/ALND comparison map adequately separates acquisition strategies but cannot show that a clipped node and a mapped sentinel node can overlap or differ. A small shared regional-node sketch with separate marks would directly support the missing-retrieval exercise.",
+    "accuracyGuardrails": [
+      "Tracer routes are not a replay of cancer spread.",
+      "No fixed node yield or universal false-negative rate.",
+      "Nodes examined are not every node that exists."
+    ],
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Mapped A/B identities and marked C identity are visibly distinct in one arbitrary example, with a separate possible overlap example and a broader partial axillary tissue packet. The clip indicates marked identity, not ongoing cancer or automatic retrieval; negative sampled A/B cannot settle C. The owner keeps 0/3 confined to examined nodes and preserves post-neoadjuvant studied TAD context without universal yields, false-negative rate or recommendations. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/71",
+    "originalTaskRowSHA256": "54c01b453736bc9c56c830d832693b426892b110e748b1c962509b8be59290fe",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection.md",
+        "sha256": "bf3a31e3c546351e3f24e737f64ecc3c8d1e7bfcc3a5d62b69d5aaef431cf31a",
+        "bytes": 9091
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-light.svg",
+        "sha256": "6b1348e410ca8c76d114b84ed5b01760d530a511fa5254c7050b9ffaf60434f8",
+        "bytes": 5389
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-dark.svg",
+        "sha256": "28e416ad6f66a5bec097f3280fcebd12ad83d2bd460448ab0a61d6567e95b53a",
+        "bytes": 5389
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/mapped-marked-and-broader-node-sample-v1.txt",
+        "sha256": "575174c298493c611fcdb1bb1d320a2663161aeab53f693938c462a3908100e6",
+        "bytes": 910
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/mapped-marked-and-broader-node-sample-v1-provenance.json",
+        "sha256": "6c051cf7c26d1810efe72e64e77eaf5998ed73c3a1c69a2b26759e8e9d30b327",
+        "bytes": 2618
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "NCI-sentinel",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
+      "sourceKind": "Official procedure education",
+      "version": "NCI official current page",
+      "actualReadDepth": "Fresh mapping/removal/examination paragraphs/caption text lines38–43 and72–73; original selected source text read. Source diagram pixels and clinical trial results not reviewed.",
+      "supportsAndLimits": "Fresh NCI mapping/removal/examination prose and complete Caudle2016 primary abstract. TAD source concerns previously biopsy-positive marked nodes after neoadjuvant treatment; new schematic transfers identity/recovery distinction only. No full paper, source figure pixels, study rates, universal accuracy, surgical recommendation or all-nodes claim.",
+      "reviewerAgent": "/root/models_raster_review",
+      "accessLimits": "Selected official passages; no source figure pixels, fullsource or clinical recommendation."
+    },
+    {
+      "source": "Caudle",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/",
+      "sourceKind": "Primary prospective study abstract",
+      "version": "Caudle2016 PMID26811528 DOI10.1200/jco.2015.64.0094",
+      "actualReadDepth": "Fresh complete primary prospective-study abstract only",
+      "supportsAndLimits": "Fresh NCI mapping/removal/examination prose and complete Caudle2016 primary abstract. TAD source concerns previously biopsy-positive marked nodes after neoadjuvant treatment; new schematic transfers identity/recovery distinction only. No full paper, source figure pixels, study rates, universal accuracy, surgical recommendation or all-nodes claim.",
+      "reviewerAgent": "/root/models_raster_review",
+      "accessLimits": "Direct PubMed26811528 web tool response omitted scientific body; alternative EuropePMC primary core record HTTP200 supplied full abstract. Official sources accessible."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "PASS for all six new native pairs and insertion task fit in both themes:84 personally inspected fresh browser captures comprise12native600×1000,12mobile393×700inline viewports,12mobile default previews,12desktop1280×900default previews and36settled desktop top/middle/bottom nested-scroll viewports. Actual client React source-pinned carrier and60byte-verified source copies from5cb06c95f00ceb74ab86b1f46f5face9d49497e0; same scientific objects/text in both themes. Root separately personally inspected all12freshnatives and14otherrepresentatives.",
+    "limitations": [
+      "PASS applies only to six new native pairs and their insertion task fit in this isolated source-pinned carrier. No clinical scoring, scientific/source-grade, human-grade, canonical adoption or publication approval is supplied.",
+      "Actual client React WikiMarkdownRenderer, TheaterImage, ImageTheaterModal and SmartTable were built from independently git-show-verified pin5cb06c95f00ceb74ab86b1f46f5face9d49497e0 copies. Producer static compiled-HTML/frame pipeline differs from this client Markdown pipeline; neither is the complete live reader.",
+      "The carrier uses education-app/main/article hierarchy and concatenated exact pinned shell/theme, renderer, smart-table, education and app CSS. Only supplied-local import declarations are removed and exact hidden/dark variant utilities appended. No header/sidebar, routing, auth, backend, complete server rendering or actual deployment was exercised.",
+      "All screenshots are original browser pixels, no photoediting, composites or resizing. Native viewport600x1000; mobile393x700; desktop1280x900; DPR1; defaultzoom1. Source/theme is bound in available DOM rows and original scripts; original first-two DOM row data was lost when the hung attempt was stopped, so its mobile/preview capture times and DOM dimensions are not reconstructed.",
+      "First-two mobile/native/default-preview pixels are personally inspected and source-bound through retained scripts, native bounds and exact producer/source hashes. Their filesystem times are labelled metadata only. Remaining-four16 rows persist actual source/theme/sizes/times/browser151.0.7922.34. All-six36 desktop instant-scroll rows persist source/theme/width/timing.",
+      "Desktop tall inline figures are820x1366.65625, requiring nested main scrolling. Top/middle/bottom actual1280x900 viewport union was personally inspected at unchanged width after instant scroll and two animation frames. No single viewport contains the whole tall figure; no desktop full-element image is accepted or generated in batch05.",
+      "The inherited scope string in desktop-scroll-instant-observations.json mentions earlier failed complete-element captures from the reusable batch04 script. That sentence does not describe batch05. Batch05 has zero attempted desktop full-element screenshots, and this verdict explicitly supersedes that inherited scope wording.",
+      "The interrupted capture waited for a loading=lazy image below the viewport before scrolling. The third-owner image had naturalWidth0 and was4267.875px below view. Diagnostic scroll loaded it; capture order was corrected for remaining four owners. No missing failed screenshot is invented, no native defect is inferred. Preserved diagnostic images are not figure-grade evidence.",
+      "Exact application CSS variables now exist in this carrier, including dark --sidebar-bg#161625, --surface-muted#2d2d44 and --foreground#e5e5e5. This does not upgrade previous batches or accept inherited page/table readability. Table DOM inventories are recorded for context only; horizontal scroll, cell readability, keyboard table behavior, general contrast and full-owner delivery acceptance were not graded.",
+      "Escape close success is recorded only for remaining-four16 DOM rows. No universal keyboard/focus/dialog interaction PASS is inferred for all owners. No raster model identity or source-science grade is assigned by this display review.",
+      "Own original blocked process was stopped; successful browser/server closures are recorded. Cleanup found no owned Node process matching review prefix and no listener on checked capture ports. No unrelated process was changed."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective135–140 only; no147 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

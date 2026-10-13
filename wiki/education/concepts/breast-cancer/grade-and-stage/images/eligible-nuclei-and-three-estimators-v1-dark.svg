@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Ki-67 proliferation index</title><desc id="desc">Compare pooled nuclei, unweighted field percentages and a selected hotspot while stating each denominator. Original schematics and explicitly fictional teaching examples; not diagnostic source slides or patient findings.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#f5efdd"/></marker><radialGradient id="cell"><stop offset="0" stop-color="#f4c4ca"/><stop offset="1" stop-color="#d88b9b"/></radialGradient></defs><rect width="600" height="1000" fill="#112432"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Same nuclei, different summaries</text>
+<text x="28" y="85" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Fictional eligible evaluated tumor nuclei</text>
+<rect x="22" y="115" width="556" height="225" rx="12" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="157" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Field A: 90 / 900 = 10%</text>
+<text x="42" y="201" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Field B: 50 / 100 = 50%</text>
+<text x="42" y="247" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Pooled: 140 / 1,000 = 14%</text>
+<text x="42" y="303" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Positive / all eligible nuclei evaluated</text>
+<text x="28" y="392" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">How much each field contributes</text>
+<rect x="45" y="422" width="459" height="64" rx="0" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="45" y="422" width="45.9" height="64" rx="0" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<rect x="504" y="422" width="51" height="64" rx="0" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<rect x="504" y="422" width="25.5" height="64" rx="0" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<text x="270" y="525" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="middle">A: 900</text>
+<text x="529" y="525" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="middle">B: 100</text>
+<text x="28" y="570" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Length = count · warm fill = positive nuclei</text>
+<text x="28" y="622" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Three estimators on a 0–100% scale</text>
+<text x="28" y="685" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Pooled</text>
+<rect x="204" y="658" width="38.080000000000005" height="33" rx="2" fill="#95c0db" stroke="#18333e" stroke-width="2"/>
+<text x="251.08" y="685" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">14%</text>
+<text x="28" y="749" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Field mean</text>
+<rect x="204" y="722" width="81.60000000000001" height="33" rx="2" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<text x="294.6" y="749" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">30%</text>
+<text x="28" y="813" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Hotspot B</text>
+<rect x="204" y="786" width="136.0" height="33" rx="2" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<text x="349.0" y="813" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">50%</text>
+<path d="M204 835 L476 835" fill="none" stroke="#8ba7b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M204.0 835 L204.0 842" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="204.0" y="873" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">0</text>
+<path d="M340.0 835 L340.0 842" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="340.0" y="873" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">50</text>
+<path d="M476.0 835 L476.0 842" fill="none" stroke="#8ba7b2" stroke-width="1" stroke-linecap="round"/>
+<text x="476.0" y="873" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="middle">100</text>
+<text x="28" y="925" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Field mean gives each field equal weight.</text>
+<text x="28" y="975" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Not the IKWG weighted-global algorithm.</text>
+</svg>

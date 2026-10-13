@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "privateProspectiveTaskId": "next-gap-130",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/84",
+  "frozenRowPointer": "/84",
+  "frozenRowSHA256": "e8d3cc27408890e959716ebf384bea0e5e89b5af6e5d788478ad5943dcba8bab",
+  "originalFrozenTask": {
+    "learnerTask": "Recognize membrane breakdown as a convergent observation rather than the identity of one death pathway.",
+    "gap": "The observation/evidence table is clear, but a short routes-converge-on-membrane-loss diagram would make accidental injury, regulated routes and secondary necrosis visibly different causes of a similar late appearance. It should reuse physical cell-boundary imagery, not present morphology as mechanistic proof.",
+    "accuracyGuardrails": [
+      "Necrosis is broader than necroptosis.",
+      "Late membrane loss can conceal an earlier apoptotic phase.",
+      "No inflammation-to-vaccine or death-to-whole-tumor-clearance inference."
+    ]
+  },
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "baselinePageSHA256": "3b5d89cc14d73fb4cb55a947a9f64042bf2456998914abbc07e1c1f06c2b98a6",
+  "construction": "Original code-generated SVG",
+  "generator": "private/construct.py",
+  "generatorSHA256": "8f040078dd0fe65e5d5c0ee2b18557bc3e391d50c219f4da958e36312399f765",
+  "generatorCustody": "Actual original generator retained privately; editable native SVG, not an executable reproduction-package promise.",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "briefSHA256": "a2fe8723dfb35c10491bf0f41238c3933217c0957d4db153ada54cc34525fcff",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-light.svg",
+      "theme": "light",
+      "sha256": "4bcbf22ae138b1ff04a856ed6039710e5df40b2b00825e7ee42b57e505c3605a",
+      "bytes": 5274,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "2289247905a17afa9a7b5e03a224ed859ba8d8fdf9df53397f7370f1c2e98c12",
+      "bytes": 5274,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.nature.com/articles/s41418-017-0012-4",
+    "https://pubmed.ncbi.nlm.nih.gov/22265413/",
+    "https://pubmed.ncbi.nlm.nih.gov/12110890/",
+    "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+  ],
+  "sourceDepth": "Actual complete returned abstracts and named selected original/official passages; exact URL/time/hash/access-depth/failure receipts privately retained. No whole-paper or human/clinical approval.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Same geometry and words; palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending"
+}

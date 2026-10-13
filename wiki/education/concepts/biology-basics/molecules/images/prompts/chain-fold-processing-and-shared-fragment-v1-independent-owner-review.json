@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-128",
+  "owner": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "creativeAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "passedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "currentOwnerSha256": "a7c217d2e124a8a00fbf7259cd91a86083d1cf0ddedb41478b511d89eb2fdd4b",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The linked illustrative residue chain folds without reordering its colors or adding an end-to-end backbone link. Processing conserves the depicted retained/removal segments. Two fictional R forms retain/lose a region while converging on one shared peptide. Intact form, activity and HLA display remain separate questions; no peptide-length boundary or measured residue count is introduced.",
+    "baselinePageSHA256": "8df9cbce3075927dc15f3e327ac87f15c242998e5e7939b42ca9bb841ee0e5e7",
+    "learnerTask": "Recognize linked amino-acid chain, folded/processed protein and measured fragments as different physical forms.",
+    "gap": "The form/function/fragments map is a good assay-boundary reminder but does not show the chain folding or a fragment shared by two different intact products. A short reusable molecule-to-fragments diagram would make the fictional detection exercise tangible.",
+    "accuracyGuardrails": [
+      "No universal peptide-length boundary, intact-protein inference from shared fragments, or displayed-HLA inference from a possible peptide sequence; illustrative residue icons are not measured counts."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/34",
+  "frozenRowSHA256": "10b4a8691eec24709fcfeab59aeea4c45df258060a6b8c32cef40184b1566e08",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
+      "sha256": "09c99bb0edcd68a3877db39239640df3674ed28df8ef0cc4271e3dfc3fd9e28c"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-dark.svg",
+      "sha256": "d40362390a436bac4e651d3cbe51ee6d5b322774f0b36c78379468456b38bed7"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
+        "sha256": "a7c217d2e124a8a00fbf7259cd91a86083d1cf0ddedb41478b511d89eb2fdd4b",
+        "bytes": 7697
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
+        "sha256": "09c99bb0edcd68a3877db39239640df3674ed28df8ef0cc4271e3dfc3fd9e28c",
+        "bytes": 9830
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-dark.svg",
+        "sha256": "d40362390a436bac4e651d3cbe51ee6d5b322774f0b36c78379468456b38bed7",
+        "bytes": 9830
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/chain-fold-processing-and-shared-fragment-v1.txt",
+        "sha256": "85016771ffa81d496058f6fc11c9e66ecf8adc68b3e35aa9fdcce4d2e11071f3",
+        "bytes": 1552
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/chain-fold-processing-and-shared-fragment-v1-provenance.json",
+        "sha256": "ce323d1cf0f16cd389bb0c854c60bbbc48f1fb7b5938865812af2394d64fc209",
+        "bytes": 3336
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewSHA256": "aabc07e138ca6b259ca8110ccba7fa10d613b7eb054394a78380eb05eb7ccf75",
+    "wholePackageReviewTimeUTC": "2026-10-13T00:37:43.551564+00:00",
+    "authorHandoffSHA256": "73a35ca4c1b20e353aa198068349f6ccd5bb9be436fa52f6b4a1a6930048a47c",
+    "authorManifestSHA256": "5ef242d7856e80faa39aa583b7ba54dca04a60598eccc01bd1bd0dfaca5b7c8f",
+    "authorSealSHA256": "1863d43a8236aad95f3fdda7bf45da496c67cecc828ae642c85c861c8d86a3d9",
+    "basis": "Genuine complete independent source/scientific/math/task-fit/pixel review with preserved finite custody; not inferred from hashes or another agent QA",
+    "sourceReadDepth": "Complete returned abstracts and selected primary/official/XML/indexed/PDF passages; exact access failures retained privately. No whole-paper/human/clinical approval.",
+    "freshSourceLookupPerformed": true
+  },
+  "sourceURLs": [
+    "https://www.genome.gov/genetics-glossary/Protein",
+    "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/peptide",
+    "https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+    "https://pubmed.ncbi.nlm.nih.gov/16009968/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical147Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

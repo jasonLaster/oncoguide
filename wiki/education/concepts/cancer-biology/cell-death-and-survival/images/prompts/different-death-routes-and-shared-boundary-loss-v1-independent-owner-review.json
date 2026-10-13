@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-130",
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "creativeAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "passedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "currentOwnerSha256": "1e30acb41120b65bea722a6e094d0aa32a5a24754b517c00991b446c07aa9e74",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Three independently labeled histories—overwhelming injury, a RIPK3/MLKL regulated example and prior apoptosis with inadequate clearance—converge on one late broken cell boundary. Necrosis remains broader than necroptosis; dye positivity or released generic material does not identify the pathway, immune learning or whole-tumor clearance.",
+    "baselinePageSHA256": "3b5d89cc14d73fb4cb55a947a9f64042bf2456998914abbc07e1c1f06c2b98a6",
+    "learnerTask": "Recognize membrane breakdown as a convergent observation rather than the identity of one death pathway.",
+    "gap": "The observation/evidence table is clear, but a short routes-converge-on-membrane-loss diagram would make accidental injury, regulated routes and secondary necrosis visibly different causes of a similar late appearance. It should reuse physical cell-boundary imagery, not present morphology as mechanistic proof.",
+    "accuracyGuardrails": [
+      "Necrosis is broader than necroptosis.",
+      "Late membrane loss can conceal an earlier apoptotic phase.",
+      "No inflammation-to-vaccine or death-to-whole-tumor-clearance inference."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/84",
+  "frozenRowSHA256": "e8d3cc27408890e959716ebf384bea0e5e89b5af6e5d788478ad5943dcba8bab",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-light.svg",
+      "sha256": "4bcbf22ae138b1ff04a856ed6039710e5df40b2b00825e7ee42b57e505c3605a"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-dark.svg",
+      "sha256": "2289247905a17afa9a7b5e03a224ed859ba8d8fdf9df53397f7370f1c2e98c12"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+        "sha256": "1e30acb41120b65bea722a6e094d0aa32a5a24754b517c00991b446c07aa9e74",
+        "bytes": 8883
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-light.svg",
+        "sha256": "4bcbf22ae138b1ff04a856ed6039710e5df40b2b00825e7ee42b57e505c3605a",
+        "bytes": 5274
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-dark.svg",
+        "sha256": "2289247905a17afa9a7b5e03a224ed859ba8d8fdf9df53397f7370f1c2e98c12",
+        "bytes": 5274
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/different-death-routes-and-shared-boundary-loss-v1.txt",
+        "sha256": "a2fe8723dfb35c10491bf0f41238c3933217c0957d4db153ada54cc34525fcff",
+        "bytes": 1558
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/different-death-routes-and-shared-boundary-loss-v1-provenance.json",
+        "sha256": "0afc43be2fd5503504cf3a56df1e60bbf5236948dc0419713df6c8c004e30f8e",
+        "bytes": 3328
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewSHA256": "aabc07e138ca6b259ca8110ccba7fa10d613b7eb054394a78380eb05eb7ccf75",
+    "wholePackageReviewTimeUTC": "2026-10-13T00:37:43.551564+00:00",
+    "authorHandoffSHA256": "73a35ca4c1b20e353aa198068349f6ccd5bb9be436fa52f6b4a1a6930048a47c",
+    "authorManifestSHA256": "5ef242d7856e80faa39aa583b7ba54dca04a60598eccc01bd1bd0dfaca5b7c8f",
+    "authorSealSHA256": "1863d43a8236aad95f3fdda7bf45da496c67cecc828ae642c85c861c8d86a3d9",
+    "basis": "Genuine complete independent source/scientific/math/task-fit/pixel review with preserved finite custody; not inferred from hashes or another agent QA",
+    "sourceReadDepth": "Complete returned abstracts and selected primary/official/XML/indexed/PDF passages; exact access failures retained privately. No whole-paper/human/clinical approval.",
+    "freshSourceLookupPerformed": true
+  },
+  "sourceURLs": [
+    "https://www.nature.com/articles/s41418-017-0012-4",
+    "https://pubmed.ncbi.nlm.nih.gov/22265413/",
+    "https://pubmed.ncbi.nlm.nih.gov/12110890/",
+    "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical147Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

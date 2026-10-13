@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "privateProspectiveTaskId": "next-gap-134",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/370",
+  "frozenRowPointer": "/370",
+  "frozenRowSHA256": "264e7bcfca0532a6e46bc9fe2a09ff6c99ce5e60d8b23f47a7ad08247819ac76",
+  "originalFrozenTask": {
+    "learnerTask": "Locate stress signaling, cycle checkpoint and end joining as different DDR jobs",
+    "gap": "No physical or topological map separates ATR/WEE1/POL\u03b8 interventions",
+    "accuracyGuardrails": "Simplified network; repair state not historical scar; PARP resistance not universal POL\u03b8 sensitivity"
+  },
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "baselinePageSHA256": "cb0ca82273ba009553599c78b3d2b0345deff783f38a857d5617ce6caa2595f2",
+  "construction": "Original code-generated SVG",
+  "generator": "private/construct.py",
+  "generatorSHA256": "8f040078dd0fe65e5d5c0ee2b18557bc3e391d50c219f4da958e36312399f765",
+  "generatorCustody": "Actual original generator retained privately; editable native SVG, not an executable reproduction-package promise.",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "briefSHA256": "104d326f506b295744a9df84bdc36cacabc5ede027ef647d84d44f8e36c9c44f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-light.svg",
+      "theme": "light",
+      "sha256": "1b06d98fb5857cdcff13ccf3bfe76faa3e74a9130423f918eb6bdb8e9bdb29ef",
+      "bytes": 7922,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "79ec6d3af288c3e49417fa3c1406d825ef1e457629f4eb9ab0254ae944434b74",
+      "bytes": 7922,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/ceralasertib",
+    "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/adavosertib",
+    "https://pubmed.ncbi.nlm.nih.gov/34140467/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8224818/"
+  ],
+  "sourceDepth": "Actual complete returned abstracts and named selected original/official passages; exact URL/time/hash/access-depth/failure receipts privately retained. No whole-paper or human/clinical approval.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Same geometry and words; palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending"
+}

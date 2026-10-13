@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "integrationAuthor": "root",
+  "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "sourceRetrievalNote": "Original retrieval history belongs to the original research author. The successor read already-retrieved bytes during this run; original retrieval times are not claimed as successor reading times.",
+  "prospectiveTaskId": "next-gap-146",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation.md",
+  "nativeSize": {
+    "width": 600,
+    "height": 1000
+  },
+  "imageGeneration": {
+    "model": null,
+    "calls": 0
+  },
+  "construction": {
+    "language": "Python emitting SVG",
+    "invocation": "python3 private/create-candidates.py",
+    "scriptSHA256": "7a3711676b4466cec4cf759514004b07e545ca5796eb557085f109a76ae49e41"
+  },
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/measured-features-model-inference-v1.txt",
+    "sha256": "296280b22a9dd7f1243910720eaec53b38a47555b85b7ecc1c5f3ce42baff69c"
+  },
+  "artwork": [
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-light.svg",
+      "sha256": "6cc7add0c6a71455992b699f9339bc93916da1ac4785d67ec97accf50152bb12",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-dark.svg",
+      "sha256": "f0c307688caa2e7a08594d5fc7b7e89f78039a1bd4514c5791d1bcd1cd7e3a63",
+      "theme": "dark"
+    }
+  ],
+  "assumptionsAndLimits": "Colors separate schematic fragments for readability, not known cell identities. Dots indicate chemical marks rather than cancer labels. Fragment measurements feed a defined model; normal-source mixtures, handling and missing reference cell types can affect interpretation. The output is not a direct cell census.",
+  "sourceURLs": [
+    "https://doi.org/10.1016/j.cell.2015.11.050",
+    "https://doi.org/10.1038/s41467-018-07466-6",
+    "https://doi.org/10.1038/s41586-019-1272-6",
+    "https://doi.org/10.1093/clinchem/hvac029",
+    "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/bebp/bebp-cfdna.pdf"
+  ],
+  "scientificApproval": false,
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceAccessQualifications": [
+    {
+      "url": "https://doi.org/10.1016/j.cell.2015.11.050",
+      "title": "Snyder et al. 2016: nucleosome footprints",
+      "successorReadDepth": "Complete primary abstract recovered via saved PubMed XML; original publisher response was a landing page, not full text.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-018-07466-6",
+      "title": "Moss et al. 2018: methylation atlas",
+      "successorReadDepth": "Selected abstract/introduction/reference-atlas passages in saved article text; no full study review or universal normal-source proportions.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-019-1272-6",
+      "title": "Cristiano et al. 2019: genome-wide fragmentation",
+      "successorReadDepth": "Complete accessible primary abstract and selected preview discussion; publisher full text paywalled. No classifier performance transferred to other populations.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1093/clinchem/hvac029",
+      "title": "Van der Pol et al. 2022: preanalytical variables",
+      "successorReadDepth": "Complete primary abstract recovered via saved PubMed XML; publisher access originally failed with HTTP 403.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/bebp/bebp-cfdna.pdf",
+      "title": "NCI cfDNA collection and processing practices",
+      "successorReadDepth": "Selected NCI purpose/definitions and processing/contamination passages from saved PDF extraction; no new laboratory protocol.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    }
+  ],
+  "sourceReadingRecord": {
+    "recordedAtUTC": "2026-10-13T00:16:25.084436+00:00",
+    "meaning": "Successor read already-retrieved bytes during this run. This is record creation time, not a reconstructed earlier reading time."
+  }
+}

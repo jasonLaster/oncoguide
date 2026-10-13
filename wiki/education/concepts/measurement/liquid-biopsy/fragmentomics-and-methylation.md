@@ -33,6 +33,14 @@ The analogy stops at certainty. No fragment has a printed “cancer” address. 
 
 ## How it works
 
+<img src="./images/measured-features-model-inference-v1-light.svg" alt="Schematic plasma DNA fragments with chemical-mark dots, followed by measured features, a reference/model step and an inferred source estimate or score." data-theme-pair />
+
+*Colors separate schematic fragments for readability, not known cell identities. Dots indicate chemical marks rather than cancer labels. Fragment measurements feed a defined model; normal-source mixtures, handling and missing reference cell types can affect interpretation. The output is not a direct cell census.*
+
+**Read the illustration:** Does a mark on one fragment reveal that it came from a cancer cell in a specific organ?
+
+**Answer:** No. Normal cells also carry methylation marks. Source inference depends on patterns across the mixture and the reference/model; an inferred organ contribution can also reflect normal tissue injury. No universal tissue-of-origin validation is implied.
+
 [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|Cell-free DNA (cfDNA)]] includes fragments from many cell types. **Fragmentomics** studies their lengths, breakpoints, end sequences and distributions across the genome. DNA wrapped around proteins can be protected differently from exposed DNA. A **nucleosome** is DNA wrapped around histone proteins; its positioning helps leave a footprint in recovered fragments. Snyder and colleagues tested this connection experimentally.
 
 **[[wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation|DNA methylation]]** adds chemical marks to DNA bases without changing their sequence. Many assays examine marked cytosines next to guanine, called **CpG sites**. Methylation patterns can differ among normal cell types and in cancer. Some methods chemically convert DNA to distinguish marked from unmarked bases; others use different measurement technologies.

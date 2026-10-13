@@ -54,6 +54,11 @@ A fall in a pathway-responsive transcript can establish a biochemical response. 
 
 ## A worked example
 
+<div class="cartoon-frame">
+<img src="./images/shared-upstream-block-and-downstream-escape-v1-light.svg" width="760" height="1320" alt="Two fictional canonical-Wnt contexts receive the same upstream secretion block; intact destruction control accompanies lower nuclear signal in A, while downstream control bypass accompanies persistent nuclear signal in B." data-theme-pair>
+<p class="cartoon-caption">The same hypothetical Wnt-secretion block is applied to both fictional cultures. With destruction control intact, nuclear β-catenin signal can fall; a stipulated downstream escape can retain the output despite loss of upstream ligand. Symbols stand for qualitative readouts, not protein counts, a universal mechanism or a real drug-response dataset. Only canonical Wnt is shown; total β-catenin also includes adhesion roles, and a pathway change does not establish selective killing.</p>
+</div>
+
 Two fictional cultures have nuclear β-catenin. Culture A loses the signal when Wnt ligand secretion is blocked. Culture B retains it because a downstream control is disrupted in the model.
 
 A supports an upstream ligand-dependent hypothesis. B points toward a different source of activation. Neither finding alone demonstrates selective killing. Measuring viability and using independent controls remain separate tasks.

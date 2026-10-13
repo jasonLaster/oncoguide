@@ -96,6 +96,13 @@ In two fictional surgery-first cases, three level I/II axillary nodes are involv
 
 **Answer:** No: A has pN1mi, while B has pN1a. Count alone misses the deposit-size distinction. This does not assign either patient's overall stage or treatment.
 
+
+<img src="./images/node-count-and-deposit-size-context-v1-light.svg" alt="Two fictional surgery-first axillary cases each have three involved nodes; case A shows three point-eight-millimeter deposits, while case B shows one four-millimeter deposit and leaves the other sizes unspecified" data-theme-pair width="600" height="1000">
+
+*Three involved nodes can carry different deposit-size information.*
+
+Try reading the size labels before the node count. The known deposit diameters use one graphical scale; the node outlines do not represent measured node sizes. Case B’s question marks leave the other deposit sizes unspecified, as in the exercise. Both cases assume surgery first, same-side level I/II axillary involvement and no other identified regional finding. Isolated-tumor-cell-only nodes have their own counting rules. Neither the icons nor this comparison survey unsampled nodes or establish an overall stage. [Pathological N definitions](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq).
+
 ## Explain it back
 
 What is missing from “three positive nodes”?

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-139",
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+  "author": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "authorRole": "Actual creative author of this owner/native package.",
+  "integrationAuthor": "root",
+  "integrationAuthorIdentity": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-13T00:26:08.824Z",
+  "reviewedAtLocal": "2026-10-12T17:26:08.824-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "452d0e8bda1d58c3debf285ba7703349884ad42e36dbab98d2d50b2189a8e37a",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-light.svg",
+      "sha256": "17d67485dbb2bf1c009fd2e51e8aeeefeb282e27c49b1132b4f58b3717328593",
+      "bytes": 11132
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-dark.svg",
+      "sha256": "3c2185de44e8a7f2f828ac006aacb7385acc3a8d7b9b1a74b57d73b0a176a426",
+      "bytes": 11132
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "d097c79ca58a9f8ecf83c3fb53abe3ac090b9cbfd70f0b779071a467db149ec3",
+    "learnerTask": "Compare the extent of removed glandular tissue with retained outer structures while keeping nodal procedures separate.",
+    "gap": "The lumpectomy/mastectomy branch map names the operation alternatives but cannot show tissue extent or skin/nipple preservation versus retained gland. A two-panel anatomical excision sketch would answer the intuition's physical question without ranking procedures.",
+    "accuracyGuardrails": [
+      "Not an individual surgical plan or reconstruction outcome.",
+      "No automatic identical radiation or axillary dissection after an operation.",
+      "Show variable illustrative extent rather than standard amount removed."
+    ],
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The conceptual tissue maps show a variable local gland excision versus one explicitly nipple-sparing mastectomy example removing underlying gland. Skin, nipple and posterior chest wall are labeled separately, with variant and non-postoperative-shape limits adjacent. Nodal procedure, radiation and systemic therapy remain separate decisions; no exact excision fraction, complete-clearance guarantee or operation recommendation is conveyed. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/68",
+    "originalTaskRowSHA256": "8dd9d3d9ed5d804b9cc1a26618a74db840a8cb0d6963deabafa6f2642f43f58c",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+        "sha256": "452d0e8bda1d58c3debf285ba7703349884ad42e36dbab98d2d50b2189a8e37a",
+        "bytes": 9126
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-light.svg",
+        "sha256": "17d67485dbb2bf1c009fd2e51e8aeeefeb282e27c49b1132b4f58b3717328593",
+        "bytes": 11132
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-dark.svg",
+        "sha256": "3c2185de44e8a7f2f828ac006aacb7385acc3a8d7b9b1a74b57d73b0a176a426",
+        "bytes": 11132
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1.txt",
+        "sha256": "e4cf6cc67f4a4fa5817f0b23d79f181d508e760e66f7817858364e396f5250bb",
+        "bytes": 905
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1-provenance.json",
+        "sha256": "6154e8e65dae0dac0ba4fb6f1568d7a3b7da2a7d451836cdb365643e753ebbe2",
+        "bytes": 2293
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "NCI-lumpectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+      "sourceKind": "Official surgery education",
+      "version": "NCI official current page",
+      "actualReadDepth": "Fresh definition/selected extent, alternate-name and shape paragraphs, lines42–56 and68–69; selected original prose read. No source diagram pixels.",
+      "supportsAndLimits": "Selected official definitions/types; no procedure selection, individual plan, reconstructed shape, radiation schedule, survival or eligibility conclusion. Radical surgery is a different variant; retained chest wall in the chosen drawings is illustrative.",
+      "reviewerAgent": "/root/models_raster_review",
+      "accessLimits": "Selected official passages; no source figure pixels, fullsource or clinical recommendation."
+    },
+    {
+      "source": "NCI-mastectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+      "sourceKind": "Official surgery education",
+      "version": "NCI official current page",
+      "actualReadDepth": "Fresh Types of mastectomy paragraphs lines56–67, especially total/skin/nipple-sparing versus radical/chest-wall distinctions; original selected operation prose read. No clinical eligibility/benefit recommendation.",
+      "supportsAndLimits": "Selected official definitions/types; no procedure selection, individual plan, reconstructed shape, radiation schedule, survival or eligibility conclusion. Radical surgery is a different variant; retained chest wall in the chosen drawings is illustrative.",
+      "reviewerAgent": "/root/models_raster_review",
+      "accessLimits": "Selected official passages; no source figure pixels, fullsource or clinical recommendation."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "PASS for all six new native pairs and insertion task fit in both themes:84 personally inspected fresh browser captures comprise12native600×1000,12mobile393×700inline viewports,12mobile default previews,12desktop1280×900default previews and36settled desktop top/middle/bottom nested-scroll viewports. Actual client React source-pinned carrier and60byte-verified source copies from5cb06c95f00ceb74ab86b1f46f5face9d49497e0; same scientific objects/text in both themes. Root separately personally inspected all12freshnatives and14otherrepresentatives.",
+    "limitations": [
+      "PASS applies only to six new native pairs and their insertion task fit in this isolated source-pinned carrier. No clinical scoring, scientific/source-grade, human-grade, canonical adoption or publication approval is supplied.",
+      "Actual client React WikiMarkdownRenderer, TheaterImage, ImageTheaterModal and SmartTable were built from independently git-show-verified pin5cb06c95f00ceb74ab86b1f46f5face9d49497e0 copies. Producer static compiled-HTML/frame pipeline differs from this client Markdown pipeline; neither is the complete live reader.",
+      "The carrier uses education-app/main/article hierarchy and concatenated exact pinned shell/theme, renderer, smart-table, education and app CSS. Only supplied-local import declarations are removed and exact hidden/dark variant utilities appended. No header/sidebar, routing, auth, backend, complete server rendering or actual deployment was exercised.",
+      "All screenshots are original browser pixels, no photoediting, composites or resizing. Native viewport600x1000; mobile393x700; desktop1280x900; DPR1; defaultzoom1. Source/theme is bound in available DOM rows and original scripts; original first-two DOM row data was lost when the hung attempt was stopped, so its mobile/preview capture times and DOM dimensions are not reconstructed.",
+      "First-two mobile/native/default-preview pixels are personally inspected and source-bound through retained scripts, native bounds and exact producer/source hashes. Their filesystem times are labelled metadata only. Remaining-four16 rows persist actual source/theme/sizes/times/browser151.0.7922.34. All-six36 desktop instant-scroll rows persist source/theme/width/timing.",
+      "Desktop tall inline figures are820x1366.65625, requiring nested main scrolling. Top/middle/bottom actual1280x900 viewport union was personally inspected at unchanged width after instant scroll and two animation frames. No single viewport contains the whole tall figure; no desktop full-element image is accepted or generated in batch05.",
+      "The inherited scope string in desktop-scroll-instant-observations.json mentions earlier failed complete-element captures from the reusable batch04 script. That sentence does not describe batch05. Batch05 has zero attempted desktop full-element screenshots, and this verdict explicitly supersedes that inherited scope wording.",
+      "The interrupted capture waited for a loading=lazy image below the viewport before scrolling. The third-owner image had naturalWidth0 and was4267.875px below view. Diagnostic scroll loaded it; capture order was corrected for remaining four owners. No missing failed screenshot is invented, no native defect is inferred. Preserved diagnostic images are not figure-grade evidence.",
+      "Exact application CSS variables now exist in this carrier, including dark --sidebar-bg#161625, --surface-muted#2d2d44 and --foreground#e5e5e5. This does not upgrade previous batches or accept inherited page/table readability. Table DOM inventories are recorded for context only; horizontal scroll, cell readability, keyboard table behavior, general contrast and full-owner delivery acceptance were not graded.",
+      "Escape close success is recorded only for remaining-four16 DOM rows. No universal keyboard/focus/dialog interaction PASS is inferred for all owners. No raster model identity or source-science grade is assigned by this display review.",
+      "Own original blocked process was stopped; successful browser/server closures are recorded. Cleanup found no owned Node process matching review prefix and no listener on checked capture ports. No unrelated process was changed."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective135–140 only; no147 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

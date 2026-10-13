@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "integrationAuthor": "root",
+  "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "sourceRetrievalNote": "Original retrieval history belongs to the original research author. The successor read already-retrieved bytes during this run; original retrieval times are not claimed as successor reading times.",
+  "prospectiveTaskId": "next-gap-144",
+  "owner": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+  "nativeSize": {
+    "width": 600,
+    "height": 1000
+  },
+  "imageGeneration": {
+    "model": null,
+    "calls": 0
+  },
+  "construction": {
+    "language": "Python emitting SVG",
+    "invocation": "python3 private/create-candidates.py",
+    "scriptSHA256": "7a3711676b4466cec4cf759514004b07e545ca5796eb557085f109a76ae49e41"
+  },
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1.txt",
+    "sha256": "0e102ef0f2200fceaa4f54b92884465e3ae4be65521dac8d6b3ec32c2884dde0"
+  },
+  "artwork": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+      "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+      "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa",
+      "theme": "dark"
+    }
+  ],
+  "assumptionsAndLimits": "The fictional vector-plus-A scan is one observation. Antibody-plus-B is a different product with its own time course. The unscaled curve is illustrative, and its area is not absorbed dose by itself: emissions and an appropriate tissue-dose model are also needed. This sketch uses no real isotope, patient result or efficacy value.",
+  "sourceURLs": [
+    "https://doi.org/10.1007/s00259-022-06089-w",
+    "https://doi.org/10.1007/s00259-023-06255-8",
+    "https://www.fda.gov/media/129547/download"
+  ],
+  "scientificApproval": false,
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceAccessQualifications": [
+    {
+      "url": "https://doi.org/10.1007/s00259-022-06089-w",
+      "title": "Fendler et al. (2023), PSMA PET guideline 2.0",
+      "successorReadDepth": "Selected guideline passages about differing products, distribution and interpretation pitfalls; full-article review not claimed.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1007/s00259-023-06255-8",
+      "title": "Kratochwil et al. (2023), PSMA radioligand-therapy guideline",
+      "successorReadDepth": "Selected guideline passages about different pharmacokinetics/radiation characteristics and the dosimetry section; no current approval inventory or protocol recommendation.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://www.fda.gov/media/129547/download",
+      "title": "FDA (2019), Oncology therapeutic radiopharmaceuticals: nonclinical studies and labeling",
+      "successorReadDepth": "Selected FDA 2019 nonclinical biodistribution and time-integrated-activity passages; guidance is nonbinding and is not a clinical protocol.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    }
+  ],
+  "sourceReadingRecord": {
+    "recordedAtUTC": "2026-10-13T00:16:25.084436+00:00",
+    "meaning": "Successor read already-retrieved bytes during this run. This is record creation time, not a reconstructed earlier reading time."
+  },
+  "correctionHistory": [
+    {
+      "kind": "code-svg-visual-correction",
+      "author": "agent:/root/batch05_local_treatment_author",
+      "recordedAtUTC": "2026-10-13T00:26:41.034578+00:00",
+      "priorProvenanceSHA256": "3fcabedcfc49052b2fcc5f9ce96dfe94ee10b2d43fe7e63a90d8c13f2d853865",
+      "priorAuthorSealSHA256": "6609c00eeae44e5b6e5c0d8b8d0aca04af04abd9efe607c85f2060fe4a0b0692",
+      "reviewFindingsSHA256": "3a29536f7ba35cd08849c5c21a7c6357b65f52d5618a8dcbfcb8d85d43cef7f4",
+      "findingIds": [
+        "B05-LTM-V3"
+      ],
+      "transformScriptSHA256": "df3a05a326b5878848b70210a2c0c7b1d221c83e5045956d3ced506e514bcbc5",
+      "invocation": "python3 private/apply-corrections.py",
+      "operations": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+          "findings": [
+            "B05-LTM-V3"
+          ],
+          "beforeSHA256": "f7ef182e921666c7e91b909f307c2061ea76fe93e3fad7d017d122245565d116",
+          "afterSHA256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462",
+          "operations": [
+            "Give both image uptake dots a 4px theme-card-colored outline against the existing image carrier. Centers, radii, fill colors, product drawings, labels and unscaled curve unchanged."
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+          "findings": [
+            "B05-LTM-V3"
+          ],
+          "beforeSHA256": "4e5e816ba868cfc56afbb31504461e347466f83ea034d178f9db00713bcd17ad",
+          "afterSHA256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa",
+          "operations": [
+            "Give both image uptake dots a 4px theme-card-colored outline against the existing image carrier. Centers, radii, fill colors, product drawings, labels and unscaled curve unchanged."
+          ]
+        }
+      ],
+      "scientificContentChanged": false,
+      "originalBriefChanged": false,
+      "imageGeneration": {
+        "model": null,
+        "calls": 0
+      },
+      "peerCorrectionRecheck": "pending"
+    }
+  ]
+}

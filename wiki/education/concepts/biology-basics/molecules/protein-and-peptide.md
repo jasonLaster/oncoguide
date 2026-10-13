@@ -28,6 +28,11 @@ Imagine building with a chain of pieces that have different chemical personaliti
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/chain-fold-processing-and-shared-fragment-v1-light.svg" width="760" height="1320" alt="Linked residue icons form a chain, fold and undergo illustrative segment removal. Two fictional intact protein R forms, one retaining a region and one lacking it, can produce the same shared peptide fragment." data-theme-pair>
+<p class="cartoon-caption">The residue icons and shapes are illustrative, not measured sequence lengths or atomic structures. A chain can fold or be processed into another form. In the fictional protein R example, forms A and B share a peptide while only A retains the indicated region; a shared fragment cannot establish which intact form or activity is present. A possible sequence also does not establish HLA presentation.</p>
+</div>
+
 An **amino acid** is a building block. When amino acids join through **peptide bonds**, they form a chain called a **polypeptide**. Within a chain, each linked amino acid is often called a **residue**. Cells make these chains by translating [messenger RNA](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna). [NHGRI protein](https://www.genome.gov/genetics-glossary/Protein).
 
 “Peptide” often refers to a shorter chain or a fragment; “protein” commonly refers to a larger biological product. These names overlap. There is no single length boundary that explains every usage, and size alone does not establish a molecule's function. A small peptide can carry a signal, while a large protein can provide structure. [NCI peptide](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/peptide).

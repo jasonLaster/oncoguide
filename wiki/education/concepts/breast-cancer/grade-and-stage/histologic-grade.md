@@ -55,6 +55,15 @@ flowchart TD
 
 The map summarizes scoring. It does not turn grade into [tumor, node and metastasis (TNM) categories](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging).
 
+
+<img src="./images/three-microscopic-features-before-grade-v1-light.svg" alt="Three schematic microscope-feature panels show cells organized around a lumen, variable nuclei, and recognizable division; a separate assigned-score example adds two plus three plus three to eight" data-theme-pair width="600" height="1000">
+
+*Look for three different features before you look at their sum.*
+
+Start with the objects: a hollow center surrounded by cells, nuclei that vary in appearance, and a visibly dividing cell. These sketches introduce the component names; they supply neither diagnostic slides nor scoring cutoffs. The score line uses the separate fictional report in the worked example; its numbers are not inferred from these drawings. Counting mitotic figures still needs the specified field area and method. [Component definitions](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true).
+
+**Read the features:** Would a dark nucleus alone identify a mitotic figure? **Answer:** No. Darkness can have other causes; the figure must be recognizable as division under the counting method.
+
 ## Why it matters in cancer
 
 Grade adds prognostic information: across patient groups, tumors with different grades can have different outcomes. It is part of an assessment with stage, receptor findings and clinical context. It is not a personal forecast or a standalone treatment rule.

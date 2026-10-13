@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/ki-67.md",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceOwnerPreimageSHA256": "d2f1572ac7601178d573df65ce4fe009f6c32b60ad8f0b98b362045fae185fee",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "eligible-nuclei-and-three-estimators-v1.txt",
+    "sha256": "6a79c587b36929b44869c913b1df16b50be37585e4349ecae1bad91865707ca1",
+    "bytes": 779,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "eligible-nuclei-and-three-estimators-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "68d2e21ea9db282097a645985b4ff663c790d6be4978d7aa7d93e379f1826ca9",
+      "bytes": 5551
+    },
+    {
+      "file": "eligible-nuclei-and-three-estimators-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "6be0e6dc1202d508c4f2d0b835394732ff89157c1ef966fe52deeece91d1ceb6",
+      "bytes": 5551
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Assessment of Ki67 in Breast Cancer: Updated Recommendations From the International Ki67 in Breast Cancer Working Group",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487652/",
+      "scope": "Selected full-text section/list, not entire paper/supplements/source figures. Toy900/100 fields and14/30/50 percentages are author arithmetic preserved from owner, not measured IKWG results or a TNBC clinical cutoff."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

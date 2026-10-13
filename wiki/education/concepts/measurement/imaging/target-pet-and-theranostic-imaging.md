@@ -38,6 +38,14 @@ Uptake reflects delivery, accessible target, binding and retention together with
 
 ## From imaging to theranostics
 
+<img src="./images/tracer-time-dose-bridge-v1-light.svg" alt="Fictional target-M imaging product with a single image and a distinct antibody therapy with a schematic activity-over-time curve leading to product-specific dose and outcome questions." data-theme-pair />
+
+*The fictional vector-plus-A scan is one observation. Antibody-plus-B is a different product with its own time course. The unscaled curve is illustrative, and its area is not absorbed dose by itself: emissions and an appropriate tissue-dose model are also needed. This sketch uses no real isotope, patient result or efficacy value.*
+
+**Read the illustration:** If the scan is bright, can its brightness fill in the antibody’s activity-over-time curve?
+
+**Answer:** No. Product, target interaction, administered mass, timing, distribution and retention need to fit the proposed use. A single image of a different product cannot supply the therapeutic time course, absorbed dose or benefit evidence.
+
 [Theranostics](/wiki/education/concepts/therapeutics/local-therapies/theranostics) connects a diagnostic result to a related therapeutic strategy. The therapeutic owner explains that bridge; here the question is what the particular image can establish. In [radioligand therapy](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy), the treatment delivers radiation from its chosen radionuclide.
 
 For a concrete mechanism example, gallium-68-labeled PSMA ligands can produce PET images, while lutetium-177-labeled PSMA ligands deliver mainly beta-particle radiation. **PSMA** means prostate-specific membrane antigen. That example concerns a particular target and studied prostate-cancer setting; the name does not establish a breast-cancer therapy or access route.

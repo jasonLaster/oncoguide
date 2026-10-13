@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceOwnerPreimageSHA256": "d097c79ca58a9f8ecf83c3fb53abe3ac090b9cbfd70f0b779071a467db149ec3",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "gland-removal-and-outer-structures-v1.txt",
+    "sha256": "e4cf6cc67f4a4fa5817f0b23d79f181d508e760e66f7817858364e396f5250bb",
+    "bytes": 905,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "gland-removal-and-outer-structures-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "17d67485dbb2bf1c009fd2e51e8aeeefeb282e27c49b1132b4f58b3717328593",
+      "bytes": 11132
+    },
+    {
+      "file": "gland-removal-and-outer-structures-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "3c2185de44e8a7f2f828ac006aacb7385acc3a8d7b9b1a74b57d73b0a176a426",
+      "bytes": 11132
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Lumpectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+      "scope": "Selected paragraphs, not fullpage or operation/radiation comparison recommendation; no source figure pixels examined/copied."
+    },
+    {
+      "title": "Mastectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+      "scope": "Selected prose only, no fullarticle, reconstructive outcome or survival/eligibility recommendation; illustration is a conceptual tissue map, not final postoperative anatomy."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

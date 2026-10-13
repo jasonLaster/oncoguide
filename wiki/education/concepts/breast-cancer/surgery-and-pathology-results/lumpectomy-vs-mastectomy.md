@@ -43,6 +43,15 @@ flowchart TD
 
 *The comparison concerns breast tissue. Nodal procedures, reconstruction and other treatment are separate parts of the plan.*
 
+
+<img src="./images/gland-removal-and-outer-structures-v1-light.svg" alt="Two original breast tissue sketches contrast a limited lumpectomy excision with removal of underlying gland in one nipple-sparing mastectomy example; outer envelope and posterior chest wall are shown separately" data-theme-pair width="600" height="1000">
+
+*A retained outer envelope and retained glandular tissue are different things.*
+
+Imagine tracing the warm tissue marked for removal. In the upper sketch it is a local piece around the lesion; much of the gland remains. In the lower sketch it marks the underlying gland in one nipple-sparing mastectomy example. The outer profile represents selected retained structures, not a promise of postoperative shape or reconstruction. These extents are illustrative and variable. No nodal operation is drawn into either breast excision; that procedure needs its own name. Radiation and other treatment remain separate questions. [Lumpectomy terminology](https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy), [Mastectomy variants](https://www.cancer.gov/types/breast/treatment/surgery/mastectomy).
+
+**Trace the tissues:** Does keeping skin and a nipple mean keeping the whole gland? **Answer:** No. The retained outer structures and the removed underlying breast tissue are different parts of the sketch.
+
 ## Why it matters in cancer
 
 **Breast-conserving treatment** commonly combines surgery with [radiation](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics). It should not be reduced to “lumpectomy alone.” Selected settings may permit omission or different radiation approaches, while others require broader treatment. The operation name does not establish that everyone receives the same radiation field, dose or schedule.

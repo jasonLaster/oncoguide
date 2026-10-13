@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-144",
+  "owner": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+  "currentOwnerSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "originalSourceResearchAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-13T00:31:01.394Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/266",
+  "frozenRowSHA256": "ba2330fc0798ea00a14b010456f6e0d93bf7254cf8061f72e080dbdd1d321fec",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "e63061721d19931718a8e0bdcf1aca30835f23fa70541f69a136bd6347298008",
+    "learnerTask": "Separate tracer observation from product-specific time-integrated dose and benefit",
+    "gap": "No imaging-to-product evidence bridge",
+    "accuracyGuardrails": "Match the imaging and therapeutic products, target, time and dose model. Uptake brightness is not time-integrated absorbed dose, target availability alone, clinical efficacy or a treatment recommendation.",
+    "reasoning": "Fictional vector+A imaging and antibody+B therapy are distinct products. The unscaled activity-time curve has no quantitative or patient-level kinetic meaning. Its area alone is not absorbed dose; product behavior, emissions and tissue-dose modeling remain required. Clinical outcome evidence is separate. Correction V3 now passes: both uptake dots have contrasting outlines; positions, fills, products and unscaled curve are unchanged. No scientific claim change was made."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+      "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+      "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+        "sha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+        "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+        "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1.txt",
+        "sha256": "0e102ef0f2200fceaa4f54b92884465e3ae4be65521dac8d6b3ec32c2884dde0"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1-provenance.json",
+        "sha256": "73084143760ac455e4f40e550500b8b2dd3805b5d13f0b4fa274025ba3c0dba8"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+    "currentCandidatePairBound": true,
+    "originalMDAndTXTUnchanged": true
+  },
+  "reviewBasis": {
+    "scope": "Original genuine whole scientific/math/native/visual/task-fit review plus limited closure of its three visual findings; current exact-candidate task-fit disposition. No new full-seven review or new source reading.",
+    "originalWholeReview": {
+      "reviewType": "independent-complete-package-review",
+      "verdict": "REVISE",
+      "reviewedAt": "2026-10-13T00:23:23.574Z",
+      "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+      "reviewReceiptSHA256": "fead4e9069c9855c1d99f247205eb6196bd19e268a285b399f5d4869efec0c1f",
+      "reviewSealSHA256": "2cef158d615bccde1690f2ecc3ce43aae2f371c675107cf846ed74106feb28c3",
+      "findingsSHA256": "3a29536f7ba35cd08849c5c21a7c6357b65f52d5618a8dcbfcb8d85d43cef7f4"
+    },
+    "scientificMathAndFullOwnerReviewAt": "2026-10-13T00:23:23.574Z",
+    "visualPixelsReviewAt": "2026-10-13T00:31:01.394Z",
+    "visualPixelsScopeThisPass": "Affected native and mobile/desktop inline/default-preview captures personally inspected.",
+    "correctionRecheckAt": "2026-10-13T00:31:01.394Z",
+    "closedFindingIds": [
+      "B05-LTM-V3"
+    ],
+    "correctionInputHandoffSHA256": "89832a109a24443fa6eab60f48ae1f357ca53c8c1f7d7765c997a31611daecee",
+    "correctionInputSealSHA256": "94634e65dbe08f9e02d45cf9d211124d9cfe30b0d6d66baf7eebdcc26cd2292e"
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical147Adoption": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "deliveryCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

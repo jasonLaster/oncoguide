@@ -1,0 +1,14 @@
+Original construction brief — next-gap-142
+Owner: wiki/education/concepts/therapeutics/local-therapies/hypofractionation.md
+Actual creative author: agent:/root/batch05_local_treatment_author
+Medium: original SVG authored through private Python construction code; no image-model invocation.
+Learner task (frozen): Compare dose size, count, total and course time of stated trial schedules
+Gap (frozen): Flow lacks fraction tiles/calendar for 50/25 versus 40/15
+Guardrails (frozen): "Named dated START-B illustration not recommendation; totals not biological equivalence; no invented immune optimum"
+Design: consistent 600 × 1000 portrait light/dark native illustrations. Essential visible labels use at least 34 native pixels; check actual pinned 393 × 700 default preview before handoff. Concrete geometry distinguishes observation, physical process and inference.
+Content: Two START-B schedules showing 25 versus 15 fraction icons and each schedule’s dose size, total dose and elapsed weeks.
+Caption and assumption bounds: START-B compared 50 Gy in 25 fractions over five weeks with 40 Gy in 15 fractions over three weeks after primary surgery for early breast cancer. Icons count fractions and do not represent dose or calendar days. This is a 2013 trial-report illustration, not a replacement plan.
+Answered practice: Which schedule has the larger dose per fraction, and which lasts longer?
+Answer: 40 ÷ 15 is about 2.67 Gy per fraction, compared with 50 ÷ 25 = 2 Gy. The 25-fraction study schedule lasts five weeks; the 15-fraction schedule lasts three. Arithmetic alone does not establish biological equivalence or an immune optimum.
+Execution: python3 private/create-candidates.py in this private successor packet.
+Image generation model: null. Image generation calls: 0.

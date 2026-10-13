@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-141",
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/ablation.md",
+  "currentOwnerSha256": "81ea4d116a7cc1c4273b2bb4535d0bc79aaff466ad0308e467adf65c0e0562c0",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "originalSourceResearchAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-13T00:31:01.394Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/361",
+  "frozenRowSHA256": "2d7ea074c6db6dc518aefc6e2f7ea57dd2f58ffa1fdcbe51109cde7454f45dc9",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "a07872dfd31ae554040cf6566a1444cb97b38b077ed521631e4de6bfa18d4ccb",
+    "learnerTask": "Distinguish applicator temperature, visible zone and lethal exposure across an irregular boundary",
+    "gap": "Planning flow cannot show sensitive neighbors, perfusion cooling or iceball/nonlethal rim",
+    "accuracyGuardrails": "No universal margin/size/temp; no method ranking; local destruction not systemic immune benefit",
+    "reasoning": "An irregular image-defined ice zone, schematically possible lethal-exposure region and local applicator reading remain distinct. Caption states that the purple region is illustrative, not observed cell death; the dashed target and vessel provide boundary context. No temperature, length/margin rule, method ranking or distant immune benefit is assigned. Corrections V1/V2 now pass: the rerouted vessel leader clears the target label and the applicator has sufficient contrast; the original target/vessel associations and scientific wording remain unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-light.svg",
+      "sha256": "9392f40cf78ce2993cb718d853636465db31f1918c6ffb78afa91eccf8e2d001"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-dark.svg",
+      "sha256": "424bb8ef380760d673e6ebfbade1ceca627d9e83062168f936190ab210546210"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/ablation.md",
+        "sha256": "81ea4d116a7cc1c4273b2bb4535d0bc79aaff466ad0308e467adf65c0e0562c0"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-light.svg",
+        "sha256": "9392f40cf78ce2993cb718d853636465db31f1918c6ffb78afa91eccf8e2d001"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-dark.svg",
+        "sha256": "424bb8ef380760d673e6ebfbade1ceca627d9e83062168f936190ab210546210"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/boundary-readouts-v1.txt",
+        "sha256": "706a473ffed24ce7cd2efe19c9899312cdafa3a458c949e88e79e6725e1cd50d"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/boundary-readouts-v1-provenance.json",
+        "sha256": "a5ff5724a9434c21b3cc4d7c7c9c9edcfff6057f649fec175ab3bce5f08d7e0b"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "81ea4d116a7cc1c4273b2bb4535d0bc79aaff466ad0308e467adf65c0e0562c0",
+    "currentCandidatePairBound": true,
+    "originalMDAndTXTUnchanged": true
+  },
+  "reviewBasis": {
+    "scope": "Original genuine whole scientific/math/native/visual/task-fit review plus limited closure of its three visual findings; current exact-candidate task-fit disposition. No new full-seven review or new source reading.",
+    "originalWholeReview": {
+      "reviewType": "independent-complete-package-review",
+      "verdict": "REVISE",
+      "reviewedAt": "2026-10-13T00:23:23.574Z",
+      "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+      "reviewReceiptSHA256": "fead4e9069c9855c1d99f247205eb6196bd19e268a285b399f5d4869efec0c1f",
+      "reviewSealSHA256": "2cef158d615bccde1690f2ecc3ce43aae2f371c675107cf846ed74106feb28c3",
+      "findingsSHA256": "3a29536f7ba35cd08849c5c21a7c6357b65f52d5618a8dcbfcb8d85d43cef7f4"
+    },
+    "scientificMathAndFullOwnerReviewAt": "2026-10-13T00:23:23.574Z",
+    "visualPixelsReviewAt": "2026-10-13T00:31:01.394Z",
+    "visualPixelsScopeThisPass": "Affected native and mobile/desktop inline/default-preview captures personally inspected.",
+    "correctionRecheckAt": "2026-10-13T00:31:01.394Z",
+    "closedFindingIds": [
+      "B05-LTM-V1",
+      "B05-LTM-V2"
+    ],
+    "correctionInputHandoffSHA256": "89832a109a24443fa6eab60f48ae1f357ca53c8c1f7d7765c997a31611daecee",
+    "correctionInputSealSHA256": "94634e65dbe08f9e02d45cf9d211124d9cfe30b0d6d66baf7eebdcc26cd2292e"
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical147Adoption": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "deliveryCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

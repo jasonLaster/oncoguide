@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "privateProspectiveTaskId": "next-gap-132",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/108",
+  "frozenRowPointer": "/108",
+  "frozenRowSHA256": "7e998c2cb1dcf882e26a6c0265c23581ed6b4a896557afe0cbe117ec40abcf74",
+  "originalFrozenTask": {
+    "learnerTask": "Compare ligand-dependent \u03b2-catenin stabilization with downstream escape that can persist after upstream blockade.",
+    "gap": "The existing Wnt-to-nuclear-output sequence correctly depicts one route but not the two cultures' different response to the same upstream intervention. A small two-context diagram with destruction control intact versus bypassed would clarify the mechanistic branch without showing a drug choice.",
+    "accuracyGuardrails": [
+      "Only canonical Wnt is depicted.",
+      "Total \u03b2-catenin also includes adhesion roles.",
+      "No assumed selective killing after target engagement."
+    ]
+  },
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "baselinePageSHA256": "6492a744d014d859c8f9140be60681ee4f517f06617b1923c472a39c883811c6",
+  "construction": "Original code-generated SVG",
+  "generator": "private/construct.py",
+  "generatorSHA256": "8f040078dd0fe65e5d5c0ee2b18557bc3e391d50c219f4da958e36312399f765",
+  "generatorCustody": "Actual original generator retained privately; editable native SVG, not an executable reproduction-package promise.",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "briefSHA256": "9a3d349116823b7756a8369bdcb2e8f6eeb01f09946cd5d17b7b7795d84cfd97",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg",
+      "theme": "light",
+      "sha256": "c3911082bacbf6732aa1fed4605584d9b963df45c02a015026e2168fb9a611e9",
+      "bytes": 5875,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "eee90785df87e1952a598f92368673d815617a1448465cf0166d861d59fd6d9f",
+      "bytes": 5875,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/11955436/",
+    "https://pubmed.ncbi.nlm.nih.gov/33941878/",
+    "https://pubmed.ncbi.nlm.nih.gov/11029007/",
+    "https://pubmed.ncbi.nlm.nih.gov/11834740/",
+    "https://pubmed.ncbi.nlm.nih.gov/17141155/"
+  ],
+  "sourceDepth": "Actual complete returned abstracts and named selected original/official passages; exact URL/time/hash/access-depth/failure receipts privately retained. No whole-paper or human/clinical approval.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Same geometry and words; palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending"
+}

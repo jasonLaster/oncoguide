@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Lumpectomy versus mastectomy: the extent of breast surgery</title><desc id="desc">Compare the extent of removed glandular tissue with retained outer structures while keeping nodal procedures separate. Original schematics and explicitly fictional teaching examples; not diagnostic source slides or patient findings.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#f5efdd"/></marker><radialGradient id="cell"><stop offset="0" stop-color="#f4c4ca"/><stop offset="1" stop-color="#d88b9b"/></radialGradient></defs><rect width="600" height="1000" fill="#112432"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">Tissue extent and outer structures</text>
+<text x="28" y="85" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Variable illustrations, not an operation plan</text>
+<rect x="22" y="116" width="556" height="360" rx="12" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="157" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Lumpectomy · one excision example</text>
+<rect x="68" y="192" width="24" height="182" rx="0" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<path d="M68 199 L92 207" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 219 L92 227" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 239 L92 247" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 259 L92 267" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 279 L92 287" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 299 L92 307" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 319 L92 327" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 339 L92 347" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 359 L92 367" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M104 187 C222 174 358 203 398 261 L425 269 Q442 280 425 295 L398 302 C368 365 230 393 104 376Z" fill="none" stroke="#a4c9df" stroke-width="5" stroke-linecap="round"/>
+<path d="M399 281 Q320 228 174 228" fill="none" stroke="#a4c9df" stroke-width="2" stroke-linecap="round"/>
+<circle cx="165" cy="223" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="183" cy="223" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="174" cy="238" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<path d="M399 281 Q320 227 224 227" fill="none" stroke="#a4c9df" stroke-width="2" stroke-linecap="round"/>
+<circle cx="215" cy="222" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="233" cy="222" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="224" cy="237" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<path d="M399 281 Q320 240 276 240" fill="none" stroke="#a4c9df" stroke-width="2" stroke-linecap="round"/>
+<circle cx="267" cy="235" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="285" cy="235" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="276" cy="250" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<path d="M399 281 Q320 280 178 280" fill="none" stroke="#a4c9df" stroke-width="2" stroke-linecap="round"/>
+<circle cx="169" cy="275" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="187" cy="275" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="178" cy="290" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<path d="M399 281 Q320 287 246 287" fill="none" stroke="#a4c9df" stroke-width="2" stroke-linecap="round"/>
+<circle cx="237" cy="282" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="255" cy="282" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="246" cy="297" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<path d="M399 281 Q320 334 193 334" fill="none" stroke="#a4c9df" stroke-width="2" stroke-linecap="round"/>
+<circle cx="184" cy="329" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="202" cy="329" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="193" cy="344" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<path d="M399 281 Q320 330 291 330" fill="none" stroke="#a4c9df" stroke-width="2" stroke-linecap="round"/>
+<circle cx="282" cy="325" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="300" cy="325" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<circle cx="291" cy="340" r="13" fill="#95c0db" stroke="#18333e" stroke-width="1"/>
+<ellipse cx="250" cy="251" rx="49" ry="39" fill="#d8bd8b" stroke="#e4bd74" stroke-width="2"/>
+<circle cx="243" cy="244" r="10" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="245" cy="243" rx="4" ry="3.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="259" cy="247" r="10" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="261" cy="246" rx="4" ry="3.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="251" cy="261" r="10" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="253" cy="260" rx="4" ry="3.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<path d="M198 218 Q252 195 298 231 Q319 288 251 298 Q199 288 198 218Z" fill="none" stroke="#e4bd74" stroke-width="3" stroke-linecap="round"/>
+<text x="49" y="410" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Chest wall</text>
+<text x="280" y="410" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Outer envelope</text>
+<text x="42" y="453" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Warm area removed · much gland retained</text>
+<rect x="22" y="506" width="556" height="365" rx="12" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="547" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f5efdd" text-anchor="start">Nipple-sparing mastectomy example</text>
+<rect x="68" y="584" width="24" height="182" rx="0" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<path d="M68 591 L92 599" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 611 L92 619" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 631 L92 639" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 651 L92 659" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 671 L92 679" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 691 L92 699" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 711 L92 719" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 731 L92 739" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M68 751 L92 759" fill="none" stroke="#18333e" stroke-width="1" stroke-linecap="round"/>
+<path d="M104 579 C222 566 358 595 398 653 L425 661 Q442 672 425 687 L398 694 C368 757 230 785 104 768Z" fill="none" stroke="#a4c9df" stroke-width="5" stroke-linecap="round"/>
+<path d="M399 673 Q320 620 174 620" fill="none" stroke="#e4bd74" stroke-width="2" stroke-linecap="round"/>
+<circle cx="165" cy="615" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="183" cy="615" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="174" cy="630" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<path d="M399 673 Q320 619 224 619" fill="none" stroke="#e4bd74" stroke-width="2" stroke-linecap="round"/>
+<circle cx="215" cy="614" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="233" cy="614" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="224" cy="629" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<path d="M399 673 Q320 632 276 632" fill="none" stroke="#e4bd74" stroke-width="2" stroke-linecap="round"/>
+<circle cx="267" cy="627" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="285" cy="627" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="276" cy="642" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<path d="M399 673 Q320 672 178 672" fill="none" stroke="#e4bd74" stroke-width="2" stroke-linecap="round"/>
+<circle cx="169" cy="667" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="187" cy="667" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="178" cy="682" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<path d="M399 673 Q320 679 246 679" fill="none" stroke="#e4bd74" stroke-width="2" stroke-linecap="round"/>
+<circle cx="237" cy="674" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="255" cy="674" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="246" cy="689" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<path d="M399 673 Q320 726 193 726" fill="none" stroke="#e4bd74" stroke-width="2" stroke-linecap="round"/>
+<circle cx="184" cy="721" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="202" cy="721" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="193" cy="736" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<path d="M399 673 Q320 722 291 722" fill="none" stroke="#e4bd74" stroke-width="2" stroke-linecap="round"/>
+<circle cx="282" cy="717" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="300" cy="717" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<circle cx="291" cy="732" r="13" fill="#d8bd8b" stroke="#18333e" stroke-width="1"/>
+<text x="49" y="802" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Chest wall</text>
+<text x="280" y="802" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Outer envelope</text>
+<text x="42" y="848" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Gland removed · outer structures kept</text>
+<text x="28" y="924" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">A kept skin envelope is not a kept gland.</text>
+<text x="28" y="976" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Name the nodal procedure separately.</text>
+</svg>

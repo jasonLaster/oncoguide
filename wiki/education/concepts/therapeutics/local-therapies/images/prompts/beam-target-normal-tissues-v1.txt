@@ -1,0 +1,14 @@
+Original construction brief — next-gap-143
+Owner: wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md
+Actual creative author: agent:/root/batch05_local_treatment_author
+Medium: original SVG authored through private Python construction code; no image-model invocation.
+Learner task (frozen): Locate beam/source, target-at-risk volume and nearby organs
+Gap (frozen): Goal flow cannot show three-dimensional exposure, microscopic target or nonzero neighboring dose
+Guardrails (frozen): "Schematic not dose plan; Gy not killing percent; no perfect beam boundary; normal tissues exposed"
+Design: consistent 600 × 1000 portrait light/dark native illustrations. Essential visible labels use at least 34 native pixels; check actual pinned 393 × 700 default preview before handoff. Concrete geometry distinguishes observation, physical process and inference.
+Content: External beam passing through a schematic body toward a dashed target region, with nearby normal tissues also on the exposure path.
+Caption and assumption bounds: A target can be tissue at risk without a visible mass. Dashed target boundaries are planning concepts, not perfect dose cutoffs. The body and organs are schematic; no dose distribution, anatomy-specific prescription or cell-killing percentage is shown.
+Answered practice: Does being outside the dashed target prove that a nearby normal tissue receives no radiation?
+Answer: No. The target defines an intended treatment volume, while the beam path, scatter and actual dose distribution can expose normal tissues. Gray describes energy deposited per tissue mass; it is not the percentage of cells killed.
+Execution: python3 private/create-candidates.py in this private successor packet.
+Image generation model: null. Image generation calls: 0.

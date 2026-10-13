@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-138",
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging.md",
+  "author": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "authorRole": "Actual creative author of this owner/native package.",
+  "integrationAuthor": "root",
+  "integrationAuthorIdentity": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-13T00:26:08.824Z",
+  "reviewedAtLocal": "2026-10-12T17:26:08.824-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "8e5d25c39fce775ddc4e400f853b799365186038d67c60e727a6a4b7382c5fae",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-light.svg",
+      "sha256": "641ae9bc74902ed222658604da2aadf2ce10427594d1db295d15edf255586a49",
+      "bytes": 5792
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-dark.svg",
+      "sha256": "7cd9752ec1af9ba717d8bd43f1fa42bfd771f0f333747ad0b076dc20fd2aaa40",
+      "bytes": 5792
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "c00a8d97363a5eec5dc8d431841840845236c43108eab4a212001e91a572085f",
+    "learnerTask": "Attach specimen collection and treatment timing to clinical and pathological prefixes rather than a later report date.",
+    "gap": "The prefix table and late-addendum exercise carry the distinction in prose, but a short timeline with separate collection and issue markers would directly reveal why a pretreatment sample does not become yp when its addendum arrives later.",
+    "accuracyGuardrails": [
+      "Keep pretreatment and residual measurements separate.",
+      "No pM0 or mixing T/N from different time points.",
+      "This is evidence timing, not a self-staging or treatment schedule."
+    ],
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The branching specimen/history diagram ties c/p/yc/yp to clinical/pathological assessment and treatment context. A later addendum refers back to the pretreatment biopsy B; issue date does not change its specimen collection into residual post-treatment pathology. The full owner preserves cT3 versus T4 and separate baseline/posttherapy records, and does not fabricate pM0, overall stage or a preferred treatment sequence. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/53",
+    "originalTaskRowSHA256": "0b6c72b5d562e71cf06da42e4f5f21b7a53128aa55ba14a03fdee6ca5b8cc423",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging.md",
+        "sha256": "8e5d25c39fce775ddc4e400f853b799365186038d67c60e727a6a4b7382c5fae",
+        "bytes": 9111
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-light.svg",
+        "sha256": "641ae9bc74902ed222658604da2aadf2ce10427594d1db295d15edf255586a49",
+        "bytes": 5792
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-dark.svg",
+        "sha256": "7cd9752ec1af9ba717d8bd43f1fa42bfd771f0f333747ad0b076dc20fd2aaa40",
+        "bytes": 5792
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/specimen-collection-and-later-addendum-v1.txt",
+        "sha256": "5acbbb4328b728fbe12eb59edffcdfe1750dffda938c103e17f0956c402dffd9",
+        "bytes": 808
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/specimen-collection-and-later-addendum-v1-provenance.json",
+        "sha256": "149678c84cf6dd0fa425636acc13686ca62da9058ac6fdb5b11b8ac449cff4f1",
+        "bytes": 2187
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "CAP-resection",
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "sourceKind": "Official pathology protocol",
+      "version": "4.11.0.0",
+      "actualReadDepth": "Fresh title/version/AJCC8 context; selected NoteK paragraph PDFpage33, NoteN pM/y classification paragraphs PDFpages41–42. Frozen corresponding source paragraphs read for context. Not all43pages.",
+      "supportsAndLimits": "Selected current CAP4.11 June2026 NotesK/N and version context; no full43-page review, new individual stage assignment, revised category table or clinical schedule. Protocol posting and future required-use date are distinct.",
+      "reviewerAgent": "/root/models_raster_review",
+      "accessLimits": "Selected official passages; no source figure pixels, fullsource or clinical recommendation."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "PASS for all six new native pairs and insertion task fit in both themes:84 personally inspected fresh browser captures comprise12native600×1000,12mobile393×700inline viewports,12mobile default previews,12desktop1280×900default previews and36settled desktop top/middle/bottom nested-scroll viewports. Actual client React source-pinned carrier and60byte-verified source copies from5cb06c95f00ceb74ab86b1f46f5face9d49497e0; same scientific objects/text in both themes. Root separately personally inspected all12freshnatives and14otherrepresentatives.",
+    "limitations": [
+      "PASS applies only to six new native pairs and their insertion task fit in this isolated source-pinned carrier. No clinical scoring, scientific/source-grade, human-grade, canonical adoption or publication approval is supplied.",
+      "Actual client React WikiMarkdownRenderer, TheaterImage, ImageTheaterModal and SmartTable were built from independently git-show-verified pin5cb06c95f00ceb74ab86b1f46f5face9d49497e0 copies. Producer static compiled-HTML/frame pipeline differs from this client Markdown pipeline; neither is the complete live reader.",
+      "The carrier uses education-app/main/article hierarchy and concatenated exact pinned shell/theme, renderer, smart-table, education and app CSS. Only supplied-local import declarations are removed and exact hidden/dark variant utilities appended. No header/sidebar, routing, auth, backend, complete server rendering or actual deployment was exercised.",
+      "All screenshots are original browser pixels, no photoediting, composites or resizing. Native viewport600x1000; mobile393x700; desktop1280x900; DPR1; defaultzoom1. Source/theme is bound in available DOM rows and original scripts; original first-two DOM row data was lost when the hung attempt was stopped, so its mobile/preview capture times and DOM dimensions are not reconstructed.",
+      "First-two mobile/native/default-preview pixels are personally inspected and source-bound through retained scripts, native bounds and exact producer/source hashes. Their filesystem times are labelled metadata only. Remaining-four16 rows persist actual source/theme/sizes/times/browser151.0.7922.34. All-six36 desktop instant-scroll rows persist source/theme/width/timing.",
+      "Desktop tall inline figures are820x1366.65625, requiring nested main scrolling. Top/middle/bottom actual1280x900 viewport union was personally inspected at unchanged width after instant scroll and two animation frames. No single viewport contains the whole tall figure; no desktop full-element image is accepted or generated in batch05.",
+      "The inherited scope string in desktop-scroll-instant-observations.json mentions earlier failed complete-element captures from the reusable batch04 script. That sentence does not describe batch05. Batch05 has zero attempted desktop full-element screenshots, and this verdict explicitly supersedes that inherited scope wording.",
+      "The interrupted capture waited for a loading=lazy image below the viewport before scrolling. The third-owner image had naturalWidth0 and was4267.875px below view. Diagnostic scroll loaded it; capture order was corrected for remaining four owners. No missing failed screenshot is invented, no native defect is inferred. Preserved diagnostic images are not figure-grade evidence.",
+      "Exact application CSS variables now exist in this carrier, including dark --sidebar-bg#161625, --surface-muted#2d2d44 and --foreground#e5e5e5. This does not upgrade previous batches or accept inherited page/table readability. Table DOM inventories are recorded for context only; horizontal scroll, cell readability, keyboard table behavior, general contrast and full-owner delivery acceptance were not graded.",
+      "Escape close success is recorded only for remaining-four16 DOM rows. No universal keyboard/focus/dialog interaction PASS is inferred for all owners. No raster model identity or source-science grade is assigned by this display review.",
+      "Own original blocked process was stopped; successful browser/server closures are recorded. Cleanup found no owned Node process matching review prefix and no listener on checked capture ports. No unrelated process was changed."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective135–140 only; no147 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

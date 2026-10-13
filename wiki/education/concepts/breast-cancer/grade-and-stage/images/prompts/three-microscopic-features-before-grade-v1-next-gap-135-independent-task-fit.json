@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-135",
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade.md",
+  "author": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "authorRole": "Actual creative author of this owner/native package.",
+  "integrationAuthor": "root",
+  "integrationAuthorIdentity": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "canonicalIntegrationAuthor": "thread:01a11cc7-6817-75c1-88d7-80eec55221cc",
+  "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "medicalAndArtworkAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+  "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+  "reviewedAtUTC": "2026-10-13T00:26:08.824Z",
+  "reviewedAtLocal": "2026-10-12T17:26:08.824-07:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "f2b3e769f846a3bd8833a0227357fa0f499ebbe079b6353f295ab7f650bf3a00",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-light.svg",
+      "sha256": "c56ca428524bcd59389d1918a918ee1030f8be562f94d8a46bbae2177ae10d7d",
+      "bytes": 7764
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-dark.svg",
+      "sha256": "019fa337da2583ef1564381875d8e96e6b8146b421fa0a8273495bdf54bc105a",
+      "bytes": 7764
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "5c895a412092bd8df2e42d14b14196b310a49598f24138ae2c47a6bda35c6a50",
+    "learnerTask": "Recognize the three distinct microscopic features that are scored before their sum becomes a Nottingham grade.",
+    "gap": "The Mermaid is adequate for score addition and separation from extent, but the tubule/nuclear/mitotic features remain purely verbal. Three schematic microscope-feature panels could help a learner understand what the component labels refer to without pretending to train diagnosis.",
+    "accuracyGuardrails": [
+      "Schematic examples are not scoring cutoffs or diagnostic slides.",
+      "Mitotic counts require field area and a specified method.",
+      "Nuclear darkness or damage is not necessarily mitosis; grade is not stage."
+    ],
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The three distinct object panels name tubule formation, nuclear appearance and mitotic figures before an explicitly separate fictional report sum. Independently, 2 + 3 + 3 = 8 fits the retained 8–9 grade 3 range. Panel glyphs provide component recognition rather than diagnostic scoring, and field-area/counting-method, darkness and stage cautions are visible. Both original themes are readable in fresh pinned React native/mobile393×700/default-preview and desktop viewport scroll captures. Caption limits remain adjacent in the article."
+  },
+  "frozenTask": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/50",
+    "originalTaskRowSHA256": "ebd7e21035b114d5dc85b668e3f6d3d778b2dc586c2b4dbf78418e7bee31cfd5",
+    "fingerprintEncoding": "UTF8 JSON recursively sorted keys, compact separators, ensure_ascii=false"
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade.md",
+        "sha256": "f2b3e769f846a3bd8833a0227357fa0f499ebbe079b6353f295ab7f650bf3a00",
+        "bytes": 8868
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-light.svg",
+        "sha256": "c56ca428524bcd59389d1918a918ee1030f8be562f94d8a46bbae2177ae10d7d",
+        "bytes": 7764
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-dark.svg",
+        "sha256": "019fa337da2583ef1564381875d8e96e6b8146b421fa0a8273495bdf54bc105a",
+        "bytes": 7764
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/three-microscopic-features-before-grade-v1.txt",
+        "sha256": "f0ced7a31951c37a44b8396d111383cb85d4731d440df845e66d5bfaa1377996",
+        "bytes": 757
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/three-microscopic-features-before-grade-v1-provenance.json",
+        "sha256": "003740fbef54653f1901ac21063382c48e6ecf5cd58dc25eef4f84f080dba1f3",
+        "bytes": 2438
+      }
+    ],
+    "originalConstructionBriefPreserved": true,
+    "originalProvenancePreserved": true,
+    "construction": "Original code-generated native SVG pair",
+    "imageModelCalls": 0,
+    "reportedImageModel": null,
+    "modelReporting": "No image-generation model used; no image model IDs inferred"
+  },
+  "sourceReview": [
+    {
+      "source": "CAP-resection",
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "sourceKind": "official protocol",
+      "version": "4.11.0.0, postedJune2026; front matter specifies required-useMarch2027 and AJCC8. No accreditation-current-use certification.",
+      "actualReadDepth": "Selected PDF text: title/version page1; grade template pages6–7 lines194–225; NoteE page23 lines893–904; pN table page16 lines625–654; counting notes page13 lines502–517 and page38 lines1444–1453; selected posttherapy text page42 lines1576–1584. Not all43pages or source figure pixels.",
+      "supportsAndLimits": "Component names/sum mapping/method limits; deposit categories/count rules and treatment-timing scope.",
+      "reviewerAgent": "/root/models_science_svg",
+      "accessLimits": "Selected passages only; no entire source, supplements or source figure pixels. Fresh sources accessible; historic failed acquisitions preserved."
+    },
+    {
+      "source": "NCI-grade",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade",
+      "sourceKind": "official education",
+      "version": "Displayed updatedAugust1,2022.",
+      "actualReadDepth": "Selected grade-vs-stage explanation lines17–25; source art not viewed/copied; no full page review.",
+      "supportsAndLimits": "Microscopic description differs from extent.",
+      "reviewerAgent": "/root/models_science_svg",
+      "accessLimits": "Selected passages only; no entire source, supplements or source figure pixels. Fresh sources accessible; historic failed acquisitions preserved."
+    }
+  ],
+  "sourceScope": "Actual selected primary/official passages with specific access/depth limits; unchanged teaching and historical source_checked grades not re-approved.",
+  "retainedTeaching": {
+    "completeInverseRestoresOriginalOwnerBytes": true,
+    "metadataExampleExerciseSourcesPreserved": true
+  },
+  "displayReview": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "viewports": [
+      [
+        393,
+        700
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "DPR": 1,
+    "defaultZoom": 1,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "scope": "PASS for all six new native pairs and insertion task fit in both themes:84 personally inspected fresh browser captures comprise12native600×1000,12mobile393×700inline viewports,12mobile default previews,12desktop1280×900default previews and36settled desktop top/middle/bottom nested-scroll viewports. Actual client React source-pinned carrier and60byte-verified source copies from5cb06c95f00ceb74ab86b1f46f5face9d49497e0; same scientific objects/text in both themes. Root separately personally inspected all12freshnatives and14otherrepresentatives.",
+    "limitations": [
+      "PASS applies only to six new native pairs and their insertion task fit in this isolated source-pinned carrier. No clinical scoring, scientific/source-grade, human-grade, canonical adoption or publication approval is supplied.",
+      "Actual client React WikiMarkdownRenderer, TheaterImage, ImageTheaterModal and SmartTable were built from independently git-show-verified pin5cb06c95f00ceb74ab86b1f46f5face9d49497e0 copies. Producer static compiled-HTML/frame pipeline differs from this client Markdown pipeline; neither is the complete live reader.",
+      "The carrier uses education-app/main/article hierarchy and concatenated exact pinned shell/theme, renderer, smart-table, education and app CSS. Only supplied-local import declarations are removed and exact hidden/dark variant utilities appended. No header/sidebar, routing, auth, backend, complete server rendering or actual deployment was exercised.",
+      "All screenshots are original browser pixels, no photoediting, composites or resizing. Native viewport600x1000; mobile393x700; desktop1280x900; DPR1; defaultzoom1. Source/theme is bound in available DOM rows and original scripts; original first-two DOM row data was lost when the hung attempt was stopped, so its mobile/preview capture times and DOM dimensions are not reconstructed.",
+      "First-two mobile/native/default-preview pixels are personally inspected and source-bound through retained scripts, native bounds and exact producer/source hashes. Their filesystem times are labelled metadata only. Remaining-four16 rows persist actual source/theme/sizes/times/browser151.0.7922.34. All-six36 desktop instant-scroll rows persist source/theme/width/timing.",
+      "Desktop tall inline figures are820x1366.65625, requiring nested main scrolling. Top/middle/bottom actual1280x900 viewport union was personally inspected at unchanged width after instant scroll and two animation frames. No single viewport contains the whole tall figure; no desktop full-element image is accepted or generated in batch05.",
+      "The inherited scope string in desktop-scroll-instant-observations.json mentions earlier failed complete-element captures from the reusable batch04 script. That sentence does not describe batch05. Batch05 has zero attempted desktop full-element screenshots, and this verdict explicitly supersedes that inherited scope wording.",
+      "The interrupted capture waited for a loading=lazy image below the viewport before scrolling. The third-owner image had naturalWidth0 and was4267.875px below view. Diagnostic scroll loaded it; capture order was corrected for remaining four owners. No missing failed screenshot is invented, no native defect is inferred. Preserved diagnostic images are not figure-grade evidence.",
+      "Exact application CSS variables now exist in this carrier, including dark --sidebar-bg#161625, --surface-muted#2d2d44 and --foreground#e5e5e5. This does not upgrade previous batches or accept inherited page/table readability. Table DOM inventories are recorded for context only; horizontal scroll, cell readability, keyboard table behavior, general contrast and full-owner delivery acceptance were not graded.",
+      "Escape close success is recorded only for remaining-four16 DOM rows. No universal keyboard/focus/dialog interaction PASS is inferred for all owners. No raster model identity or source-science grade is assigned by this display review.",
+      "Own original blocked process was stopped; successful browser/server closures are recorded. Cleanup found no owned Node process matching review prefix and no listener on checked capture ports. No unrelated process was changed."
+    ]
+  },
+  "requiredCorrections": [],
+  "canonicalAssignmentAdoption": "pending; private prospective135–140 only; no147 planning/adoption grade inferred",
+  "delivery": {
+    "sourceCommit": null,
+    "companionCommit": null,
+    "liveAt": null,
+    "status": "pending"
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "deliveryReview": "pending",
+  "productionReview": "pending",
+  "coverageCreditGrantedNow": 0
+}

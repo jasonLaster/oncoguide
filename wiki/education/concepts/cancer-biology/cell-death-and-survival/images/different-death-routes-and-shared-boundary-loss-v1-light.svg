@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Necrosis</title><desc id="desc">Overwhelming injury, an example regulated RIPK3–MLKL route, and earlier apoptosis with inadequate clearance converge toward a schematic cell with a broken membrane and escaping material. Three illustrative histories can lead to a similar late membrane-loss observation: overwhelming injury, a regulated route such as RIPK3–MLKL necroptosis, or apoptosis followed by inadequate clearance. These are examples, not every death route or a universal timetable. The broken boundary depicts a convergent appearance, not pathway attribution, immune memory, treatment success or clearance of an entire tumor.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker></defs><rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">A failed boundary has many routes</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Possible causes; a shared late observation</text>
+<rect x="24" y="142" width="712" height="565" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Different histories can converge</text>
+<circle cx="99" cy="283" r="32" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="94" cy="288" r="11.84" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="99" cy="466" r="32" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="94" cy="471" r="11.84" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="99" cy="641" r="32" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="94" cy="646" r="11.84" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<text x="159" y="265" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Overwhelming injury</text>
+<text x="159" y="310" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Physical / chemical damage</text>
+<text x="159" y="448" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Regulated route: example</text>
+<text x="159" y="493" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">RIPK3 → MLKL</text>
+<text x="159" y="618" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Earlier apoptosis</text>
+<text x="159" y="663" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Then inadequate clearance</text>
+<path d="M655 283 L697 283 L697 781" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M655 466 L697 466 L697 781" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M655 641 L697 641 L697 781" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="24" y="738" width="712" height="343" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="791" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Observe membrane breakdown</text>
+<path d="M697 707 L697 812 L469 854" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M305 827 C210 802 122 875 145 967 C162 1030 238 1062 300 1019" fill="#bd7480" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="223" cy="931" r="38" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="343" cy="891" r="17" fill="#d9c29b" stroke="#293743" stroke-width="2" />
+<circle cx="378" cy="944" r="13" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="327" cy="1004" r="12" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<text x="424" y="907" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Boundary lost</text>
+<text x="424" y="952" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Material can</text>
+<text x="424" y="997" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">escape</text>
+<text x="48" y="1146" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Dye entry tests the boundary, not the route.</text>
+<text x="38" y="1242" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Necrosis is broader than necroptosis.</text>
+<text x="38" y="1291" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Breakdown does not prove immune learning.</text>
+</svg>

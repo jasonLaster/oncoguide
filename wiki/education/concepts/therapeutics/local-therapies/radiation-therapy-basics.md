@@ -29,6 +29,14 @@ A radiation plan is a three-dimensional map of where energy should go. It has a 
 
 ## How it works
 
+<img src="./images/beam-target-normal-tissues-v1-light.svg" alt="External beam passing through a schematic body toward a dashed target region, with nearby normal tissues also on the exposure path." data-theme-pair />
+
+*A target can be tissue at risk without a visible mass. Dashed target boundaries are planning concepts, not perfect dose cutoffs. The body and organs are schematic; no dose distribution, anatomy-specific prescription or cell-killing percentage is shown.*
+
+**Read the illustration:** Does being outside the dashed target prove that a nearby normal tissue receives no radiation?
+
+**Answer:** No. The target defines an intended treatment volume, while the beam path, scatter and actual dose distribution can expose normal tissues. Gray describes energy deposited per tissue mass; it is not the percentage of cells killed.
+
 **Ionizing** radiation can remove electrons from atoms or molecules. Energy is deposited through physical interactions in tissue; photons transfer energy to charged particles that deposit energy along their paths. Radiation can damage [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) directly or indirectly through reactive molecules formed mainly from water.
 
 Cells can repair some damage. Unrepaired or incorrectly repaired damage can prevent sustained division or cause death; immediate death is not the only possible response. Oxygen, cell state and repair capacity affect the result. A completed session is therefore an exposure, not an immediate count of dead cells. The [International Atomic Energy Agency handbook](https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf) separates these physical, chemical and biological steps.

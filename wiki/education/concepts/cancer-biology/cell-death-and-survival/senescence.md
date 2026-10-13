@@ -27,6 +27,11 @@ Cellular senescence is a state in which living cells develop a durable arrest of
 
 ## The intuition
 
+<div class="cartoon-frame">
+<img src="./images/living-arrest-metabolism-and-contextual-secretions-v1-light.svg" width="760" height="1320" alt="An intact living cell has separate division-arrest, metabolism and variable-secretion branches, followed by a distinct contextual-neighbor panel with no fixed secreted mixture or prescribed outcome." data-theme-pair>
+<p class="cartoon-caption">This conceptual living cell separates arrested division, continuing metabolism and possible secretions. It is not a marker-defined specimen or a claim that every senescent cell releases the same mixture. The neighboring cells represent separate context-dependent tests of the actual signals, cell identities and timing. Low proliferation with p21 alone does not establish durable senescence, harmful secretions or inevitable relapse; no universal arrest duration is specified.</p>
+</div>
+
 Imagine a workshop that has stopped producing new copies of its product but still uses energy and sends messages to its neighbors. Senescence can look like that. The cell is alive, and stopping division does not stop every activity. The analogy has limits: the arrest and message mixture arise from biology, vary across cells, and are not always permanent under every condition.
 
 **Before you start:** [The cell cycle](/wiki/education/concepts/biology-basics/cells/cell-cycle) organizes copying and division. [Oncogenes and tumor suppressors](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor) help explain why uncontrolled growth can also provoke protective responses.

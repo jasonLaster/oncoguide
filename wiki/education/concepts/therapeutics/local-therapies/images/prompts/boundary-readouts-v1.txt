@@ -1,0 +1,14 @@
+Original construction brief — next-gap-141
+Owner: wiki/education/concepts/therapeutics/local-therapies/ablation.md
+Actual creative author: agent:/root/batch05_local_treatment_author
+Medium: original SVG authored through private Python construction code; no image-model invocation.
+Learner task (frozen): Distinguish applicator temperature, visible zone and lethal exposure across an irregular boundary
+Gap (frozen): Planning flow cannot show sensitive neighbors, perfusion cooling or iceball/nonlethal rim
+Guardrails (frozen): "No universal margin/size/temp; no method ranking; local destruction not systemic immune benefit"
+Design: consistent 600 × 1000 portrait light/dark native illustrations. Essential visible labels use at least 34 native pixels; check actual pinned 393 × 700 default preview before handoff. Concrete geometry distinguishes observation, physical process and inference.
+Content: Irregular visible ice zone, target outline, nearby vessel and applicator separated from lethal-exposure and probe-temperature readouts.
+Caption and assumption bounds: The visible ice edge, the probe reading and lethal tissue exposure answer different questions. Violet shading only sketches possible lethal exposure; it is not measured cell death. The dashed pink line outlines the target. This cryoablation sketch specifies no size, temperature or margin.
+Answered practice: In the sketch, which readout comes from the applicator, and which edge comes from imaging?
+Answer: Probe temperature is the applicator reading. The outer ice-zone boundary is visible on imaging. Neither directly maps lethal exposure everywhere in the target.
+Execution: python3 private/create-candidates.py in this private successor packet.
+Image generation model: null. Image generation calls: 0.

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "privateProspectiveTaskId": "next-gap-128",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/34",
+  "frozenRowPointer": "/34",
+  "frozenRowSHA256": "10b4a8691eec24709fcfeab59aeea4c45df258060a6b8c32cef40184b1566e08",
+  "originalFrozenTask": {
+    "learnerTask": "Recognize linked amino-acid chain, folded/processed protein and measured fragments as different physical forms.",
+    "gap": "The form/function/fragments map is a good assay-boundary reminder but does not show the chain folding or a fragment shared by two different intact products. A short reusable molecule-to-fragments diagram would make the fictional detection exercise tangible.",
+    "accuracyGuardrails": [
+      "No universal peptide-length boundary, intact-protein inference from shared fragments, or displayed-HLA inference from a possible peptide sequence; illustrative residue icons are not measured counts."
+    ]
+  },
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "baselinePageSHA256": "8df9cbce3075927dc15f3e327ac87f15c242998e5e7939b42ca9bb841ee0e5e7",
+  "construction": "Original code-generated SVG",
+  "generator": "private/construct.py",
+  "generatorSHA256": "8f040078dd0fe65e5d5c0ee2b18557bc3e391d50c219f4da958e36312399f765",
+  "generatorCustody": "Actual original generator retained privately; editable native SVG, not an executable reproduction-package promise.",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "briefSHA256": "85016771ffa81d496058f6fc11c9e66ecf8adc68b3e35aa9fdcce4d2e11071f3",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-light.svg",
+      "theme": "light",
+      "sha256": "09c99bb0edcd68a3877db39239640df3674ed28df8ef0cc4271e3dfc3fd9e28c",
+      "bytes": 9830,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/chain-fold-processing-and-shared-fragment-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "d40362390a436bac4e651d3cbe51ee6d5b322774f0b36c78379468456b38bed7",
+      "bytes": 9830,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.genome.gov/genetics-glossary/Protein",
+    "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/peptide",
+    "https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+    "https://pubmed.ncbi.nlm.nih.gov/16009968/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+  ],
+  "sourceDepth": "Actual complete returned abstracts and named selected original/official passages; exact URL/time/hash/access-depth/failure receipts privately retained. No whole-paper or human/clinical approval.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Same geometry and words; palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending"
+}

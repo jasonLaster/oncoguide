@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection.md",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceOwnerPreimageSHA256": "99983f1129cfd5b1126f4ac14b8f99736394e4f0cd5d7295f48fa52947be4b40",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "mapped-marked-and-broader-node-sample-v1.txt",
+    "sha256": "575174c298493c611fcdb1bb1d320a2663161aeab53f693938c462a3908100e6",
+    "bytes": 910,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "mapped-marked-and-broader-node-sample-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "6b1348e410ca8c76d114b84ed5b01760d530a511fa5254c7050b9ffaf60434f8",
+      "bytes": 5389
+    },
+    {
+      "file": "mapped-marked-and-broader-node-sample-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "28e416ad6f66a5bec097f3280fcebd12ad83d2bd460448ab0a61d6567e95b53a",
+      "bytes": 5389
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Sentinel Lymph Node Biopsy",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
+      "scope": "Selected procedure description/caption text only; original source image pixels not read or copied. The schematic is not cancer-spread chronology, universal accuracy or a fixed node count."
+    },
+    {
+      "title": "Improved Axillary Evaluation Following Neoadjuvant Therapy for Patients With Node-Positive Breast Cancer Using Selective Evaluation of Clipped Nodes: Implementation of Targeted Axillary Dissection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/",
+      "scope": "Abstract only; original fullpaper/figures not read. No study rate, patient count, false-negative threshold or clinical recommendation is reused. New node identities/counts are explicit arbitrary schematics."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

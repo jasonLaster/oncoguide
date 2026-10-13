@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-129",
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "creativeAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "passedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "currentOwnerSha256": "d3cda171dd049512c142fa6d201e56e58d811822d26c8535a4f8a54f7c5cdec1",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The bilayer locates opposing heads and inward tails with schematic oxidized-tail markers. GPX4/glutathione reduction of lipid hydroperoxide to lipid alcohol and FSP1 regeneration of reduced CoQ remain separate example protections. Caption/prose require converging lipid-damage/timing/death/iron/rescue evidence; general ROS or protein amount alone establishes neither ferroptosis nor compound sensitivity.",
+    "baselinePageSHA256": "0463240986ad0d16667bff0644f5a938a7e451452e28f75dc00de5a90f952fba",
+    "learnerTask": "Locate vulnerable membrane lipids and understand parallel protective systems without treating general ROS as a death diagnosis.",
+    "gap": "The existing damage/death and parallel-defense map appropriately avoids expression-as-function inference. It never shows the membrane lipid substrate that defines ferroptosis; a small labeled membrane-damage inset would add physical meaning, while preserving converging-test requirements in prose.",
+    "accuracyGuardrails": [
+      "General oxidation is not ferroptosis.",
+      "GPX4 and FSP1 are parallel example defenses, not the whole system.",
+      "No compound sensitivity or patient benefit inferred from a schematic."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/82",
+  "frozenRowSHA256": "dd4cb4cff1eb845d4da6f7efdbb2b4b556eef8cc2f0898357db14c04bfb86b14",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-light.svg",
+      "sha256": "cce611f06e366b84feb7869c4b4af5eb4376b5481a74f6479a1131c55511047f"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-dark.svg",
+      "sha256": "d18262b270aafda1437e0d2a71136ab967f1f02c0bd65453c99ac4c87bf48a27"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+        "sha256": "d3cda171dd049512c142fa6d201e56e58d811822d26c8535a4f8a54f7c5cdec1",
+        "bytes": 8616
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-light.svg",
+        "sha256": "cce611f06e366b84feb7869c4b4af5eb4376b5481a74f6479a1131c55511047f",
+        "bytes": 15649
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-dark.svg",
+        "sha256": "d18262b270aafda1437e0d2a71136ab967f1f02c0bd65453c99ac4c87bf48a27",
+        "bytes": 15649
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/membrane-lipid-damage-and-parallel-defenses-v1.txt",
+        "sha256": "a72e15578f4d82900b560c0166e39d5a1a3b00b84d43f7b519304a297bd63c87",
+        "bytes": 1701
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/membrane-lipid-damage-and-parallel-defenses-v1-provenance.json",
+        "sha256": "aa86f78bdf4300401aef4a303164f7c68f666d9a3becf3602a6ed6a85ec035a1",
+        "bytes": 3333
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewSHA256": "aabc07e138ca6b259ca8110ccba7fa10d613b7eb054394a78380eb05eb7ccf75",
+    "wholePackageReviewTimeUTC": "2026-10-13T00:37:43.551564+00:00",
+    "authorHandoffSHA256": "73a35ca4c1b20e353aa198068349f6ccd5bb9be436fa52f6b4a1a6930048a47c",
+    "authorManifestSHA256": "5ef242d7856e80faa39aa583b7ba54dca04a60598eccc01bd1bd0dfaca5b7c8f",
+    "authorSealSHA256": "1863d43a8236aad95f3fdda7bf45da496c67cecc828ae642c85c861c8d86a3d9",
+    "basis": "Genuine complete independent source/scientific/math/task-fit/pixel review with preserved finite custody; not inferred from hashes or another agent QA",
+    "sourceReadDepth": "Complete returned abstracts and selected primary/official/XML/indexed/PDF passages; exact access failures retained privately. No whole-paper/human/clinical approval.",
+    "freshSourceLookupPerformed": true
+  },
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/31634900/",
+    "https://pubmed.ncbi.nlm.nih.gov/24439385/",
+    "https://pubmed.ncbi.nlm.nih.gov/22632970/",
+    "https://pubmed.ncbi.nlm.nih.gov/27506793/"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical147Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

@@ -33,6 +33,14 @@ But a captured cell is not necessarily alive, able to form a metastasis or repre
 
 ## How it works
 
+<img src="./images/marker-recovery-and-free-dna-v1-light.svg" alt="Fictional mixed blood sample split by marker enrichment into recovered qualifying cells and a separate unselected set containing cells and free DNA fragments." data-theme-pair />
+
+*This cartoon shows one marker-dependent workflow, not universal recovery rules or a measured proportion. Additional identification rules follow enrichment. Cells that are not selected and free DNA fragments remain distinct; absence from the recovered set does not prove absence from circulation.*
+
+**Read the illustration:** Why are DNA fragments drawn outside the recovered-cell count?
+
+**Answer:** A circulating tumor cell is a cell classified under that workflow’s rules. Free DNA fragments are another analyte. Neither a recovered-cell count nor a negative capture dictates a circulating tumor DNA result.
+
 Blood contains many ordinary blood cells and sometimes rare cells shed from a solid tumor. A circulating tumor-cell assay must find candidate cells, distinguish them from other events and apply a reproducible definition. This differs from measuring [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|circulating tumor DNA (ctDNA)]] in plasma.
 
 **Enrichment** concentrates candidate cells before identification. Some methods capture a surface protein. One established epithelial-cell method uses **epithelial cell adhesion molecule (EpCAM)**, then checks cell shape, a nucleus, cytokeratin proteins and absence of the white-blood-cell marker CD45. That is one operational definition, not a universal rule for all CTCs or all tumor types.

@@ -33,6 +33,11 @@ A building's collapsed walls tell you that its structure failed. They do not tel
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/different-death-routes-and-shared-boundary-loss-v1-light.svg" width="760" height="1320" alt="Overwhelming injury, an example regulated RIPK3–MLKL route, and earlier apoptosis with inadequate clearance converge toward a schematic cell with a broken membrane and escaping material." data-theme-pair>
+<p class="cartoon-caption">Three illustrative histories can lead to a similar late membrane-loss observation: overwhelming injury, a regulated route such as RIPK3–MLKL necroptosis, or apoptosis followed by inadequate clearance. These are examples, not every death route or a universal timetable. The broken boundary depicts a convergent appearance, not pathway attribution, immune memory, treatment success or clearance of an entire tumor.</p>
+</div>
+
 Necrotic cells commonly swell, lose membrane integrity and release intracellular material. In tissue, nuclei and normal architecture can be lost as breakdown proceeds. A pathologist interprets these features together with the specimen and clinical context. “Necrosis present” is not the name of one molecular pathway.
 
 **Accidental cell death** follows overwhelming physical or chemical injury that disrupts vital structures. **Regulated cell death** depends on molecular machinery that can, under suitable conditions, be changed experimentally. Regulated mechanisms can also end in necrotic morphology. This is why “necrosis means unregulated death” is too narrow. [Galluzzi 2018](https://www.nature.com/articles/s41418-017-0012-4).

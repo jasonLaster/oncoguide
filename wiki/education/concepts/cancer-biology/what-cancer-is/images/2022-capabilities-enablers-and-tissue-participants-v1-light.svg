@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Hallmarks of cancer: capabilities and enabling processes</title><desc id="desc">An original 2022 framework map separates capabilities, enabling characteristics and tissue participants, with selected core examples and visibly labeled provisional proposals at the appropriate explanatory levels. This original map organizes the 2022 framework by explanatory level. Eight core capabilities are retained in the nearby table; the image gives selected examples. Genome instability/mutation and tumor-promoting inflammation are established enabling characteristics in that version. Dashed boxes keep the 2022 proposals or emphasis attached to their level: phenotypic plasticity, nonmutational epigenetic reprogramming, microbiomes and senescent tissue participants. They are not four equivalent established hallmarks, a diagnostic checklist, or proof that every cell carries every capability.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker></defs><rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">Three levels of explanation</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Hanahan 2022; proposals stay provisional</text>
+<rect x="24" y="142" width="712" height="347" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">1  Population capabilities</text>
+<text x="48" y="255" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Eight core capabilities</text>
+<text x="48" y="306" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Examples: growth,</text>
+<text x="48" y="351" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">survival, vessel access</text>
+<rect x="440" y="231" width="273" height="211" rx="12" fill="#e8e0d3" stroke="#293743" stroke-width="2" stroke-dasharray="9 7" />
+<text x="460" y="281" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Proposed</text>
+<text x="460" y="335" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Phenotypic</text>
+<text x="460" y="380" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">plasticity</text>
+<rect x="24" y="509" width="712" height="397" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="562" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">2  Enabling processes</text>
+<text x="48" y="622" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Established examples</text>
+<text x="48" y="671" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Genome instability</text>
+<text x="48" y="716" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">and mutation</text>
+<text x="48" y="785" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Tumor-promoting</text>
+<text x="48" y="830" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">inflammation</text>
+<rect x="440" y="598" width="273" height="267" rx="12" fill="#e8e0d3" stroke="#293743" stroke-width="2" stroke-dasharray="9 7" />
+<text x="460" y="648" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Proposed</text>
+<text x="460" y="699" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Nonmutational</text>
+<text x="460" y="744" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">epigenetic</text>
+<text x="460" y="789" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">reprogramming</text>
+<text x="460" y="846" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Microbiomes</text>
+<rect x="24" y="926" width="712" height="257" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="979" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">3  Tissue participants</text>
+<text x="48" y="1035" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Cancer, stromal</text>
+<text x="48" y="1080" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">and immune cells</text>
+<rect x="440" y="1006" width="273" height="156" rx="12" fill="#e8e0d3" stroke="#293743" stroke-width="2" stroke-dasharray="9 7" />
+<text x="460" y="1052" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">Emphasized</text>
+<text x="460" y="1099" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Senescent</text>
+<text x="460" y="1144" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">cells</text>
+<text x="38" y="1250" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Not every cell carries every capability.</text>
+<text x="38" y="1295" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">A framework is not a diagnostic checklist.</text>
+</svg>

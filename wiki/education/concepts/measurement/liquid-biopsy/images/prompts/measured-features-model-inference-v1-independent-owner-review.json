@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-146",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation.md",
+  "currentOwnerSha256": "a26a2f213af6f31453c869c4f90ec2e43e082a596b8d2dcb9717a1a515a27cb9",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "originalSourceResearchAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "canonicalIntegrator": "root",
+  "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+  "reviewedAt": "2026-10-13T00:31:01.394Z",
+  "passed": true,
+  "verdict": "PASS",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/280",
+  "frozenRowSHA256": "713651fc49b27b92db5ba99a40064b33f74684a1ae366c60dd21287f44918984",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "8b65e697a31da279e79e51b4275806e93b01b081d9da02c3e4c768c5e2ccafc7",
+    "learnerTask": "Distinguish directly measured fragment/mark features from model inference",
+    "gap": "Current flow does not depict the features or normal source mixture",
+    "accuracyGuardrails": "Separate measured fragment/chemical-mark features from model-derived source inference and normal-source mixtures. A methylation/fragment classifier is not a direct cell census or universally validated tissue-of-origin result.",
+    "reasoning": "Schematic fragment lengths/end/genomic-site/chemical-mark features precede a reference/model and inferred source score. Colors do not label malignant identities, and marks are not cancer addresses. Normal-source mixtures, collection conditions and missing references remain attached. No calibrated classifier score, measured proportions, cell census, diagnosis or universally validated origin claim is made."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-light.svg",
+      "sha256": "6cc7add0c6a71455992b699f9339bc93916da1ac4785d67ec97accf50152bb12"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-dark.svg",
+      "sha256": "f0c307688caa2e7a08594d5fc7b7e89f78039a1bd4514c5791d1bcd1cd7e3a63"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation.md",
+        "sha256": "a26a2f213af6f31453c869c4f90ec2e43e082a596b8d2dcb9717a1a515a27cb9"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-light.svg",
+        "sha256": "6cc7add0c6a71455992b699f9339bc93916da1ac4785d67ec97accf50152bb12"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-dark.svg",
+        "sha256": "f0c307688caa2e7a08594d5fc7b7e89f78039a1bd4514c5791d1bcd1cd7e3a63"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/measured-features-model-inference-v1.txt",
+        "sha256": "296280b22a9dd7f1243910720eaec53b38a47555b85b7ecc1c5f3ce42baff69c"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/measured-features-model-inference-v1-provenance.json",
+        "sha256": "efd916cbb8488ffc6904bde1b62f1efdb3522365b2f80356b7cee5b246a0d02e"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "a26a2f213af6f31453c869c4f90ec2e43e082a596b8d2dcb9717a1a515a27cb9",
+    "currentCandidatePairBound": true,
+    "originalMDAndTXTUnchanged": true
+  },
+  "reviewBasis": {
+    "scope": "Original genuine whole scientific/math/native/visual/task-fit review plus limited closure of its three visual findings; current exact-candidate task-fit disposition. No new full-seven review or new source reading.",
+    "originalWholeReview": {
+      "reviewType": "independent-complete-package-review",
+      "verdict": "REVISE",
+      "reviewedAt": "2026-10-13T00:23:23.574Z",
+      "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+      "reviewReceiptSHA256": "fead4e9069c9855c1d99f247205eb6196bd19e268a285b399f5d4869efec0c1f",
+      "reviewSealSHA256": "2cef158d615bccde1690f2ecc3ce43aae2f371c675107cf846ed74106feb28c3",
+      "findingsSHA256": "3a29536f7ba35cd08849c5c21a7c6357b65f52d5618a8dcbfcb8d85d43cef7f4"
+    },
+    "scientificMathAndFullOwnerReviewAt": "2026-10-13T00:23:23.574Z",
+    "visualPixelsReviewAt": "2026-10-13T00:23:23.574Z",
+    "visualPixelsScopeThisPass": "No new pixel review; original five-owner visual judgment inherited after exact-byte identity verification.",
+    "correctionRecheckAt": null,
+    "closedFindingIds": [],
+    "correctionInputHandoffSHA256": "89832a109a24443fa6eab60f48ae1f357ca53c8c1f7d7765c997a31611daecee",
+    "correctionInputSealSHA256": "94634e65dbe08f9e02d45cf9d211124d9cfe30b0d6d66baf7eebdcc26cd2292e"
+  },
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "canonical147Adoption": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "deliveryCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null
+}

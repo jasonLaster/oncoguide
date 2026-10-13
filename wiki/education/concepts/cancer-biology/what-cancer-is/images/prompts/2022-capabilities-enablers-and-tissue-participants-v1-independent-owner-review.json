@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-133",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "creativeAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "passedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "currentOwnerSha256": "845fb96ba564bdb35a974e713abedc4e7eeeb8342db72ceb7293c497eb9f5d5a",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The original2022 map separates population capabilities, enabling processes and tissue participants. Eight core capabilities remain in the preserved table; the art uses selected examples. Phenotypic plasticity is proposed at the capability level, epigenetic reprogramming/microbiomes at the enabling level and senescent cells as emphasized participants. Version/provisional status, mutation/inflammation qualifications and absence of an every-cell diagnostic checklist remain explicit.",
+    "baselinePageSHA256": "7f7d55448ec661846da9c7fffeecb3f251442b8643cfeff2a582b0e87df3a34f",
+    "learnerTask": "Organize capabilities, enabling processes and tissue participants as different explanatory levels in a specified framework version.",
+    "gap": "The eight-question table is helpful but there is no visual organization for the distinct 2022 levels. A restrained concept map separating capabilities from enabling processes and participants could prevent a flat twelve-equivalent-hallmarks reading; decorative hallmark icons are not needed.",
+    "accuracyGuardrails": [
+      "State the version and provisional status of additions.",
+      "Not a diagnostic checklist or proof every cell carries every capability.",
+      "All inflammation and mutations are not uniformly tumor-promoting."
+    ]
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/118",
+  "frozenRowSHA256": "476a7075c5031e5d341aecc9e92b1fc04c3080f7cce408649748fe001a340688",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-light.svg",
+      "sha256": "07e7f5f7a54629e54ca0036b7d1a1737dd14f72fbcc55eba25fba94fa59cb070"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-dark.svg",
+      "sha256": "04c8283b8007f2c9f86e006005a0f25a6b0929ac5dee0bad19b9b5c7220addf9"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer.md",
+        "sha256": "845fb96ba564bdb35a974e713abedc4e7eeeb8342db72ceb7293c497eb9f5d5a",
+        "bytes": 9121
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-light.svg",
+        "sha256": "07e7f5f7a54629e54ca0036b7d1a1737dd14f72fbcc55eba25fba94fa59cb070",
+        "bytes": 6078
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-dark.svg",
+        "sha256": "04c8283b8007f2c9f86e006005a0f25a6b0929ac5dee0bad19b9b5c7220addf9",
+        "bytes": 6078
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/2022-capabilities-enablers-and-tissue-participants-v1.txt",
+        "sha256": "003a0514ef56cb5e3e14f58c5ad5063c3e764afdccdd86737c31a53e48a5adca",
+        "bytes": 1736
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/2022-capabilities-enablers-and-tissue-participants-v1-provenance.json",
+        "sha256": "9ca15f841d2942ea0a592be5632ee505ef41978cdd66fe0019b45c01bba5893f",
+        "bytes": 3322
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewSHA256": "aabc07e138ca6b259ca8110ccba7fa10d613b7eb054394a78380eb05eb7ccf75",
+    "wholePackageReviewTimeUTC": "2026-10-13T00:37:43.551564+00:00",
+    "authorHandoffSHA256": "73a35ca4c1b20e353aa198068349f6ccd5bb9be436fa52f6b4a1a6930048a47c",
+    "authorManifestSHA256": "5ef242d7856e80faa39aa583b7ba54dca04a60598eccc01bd1bd0dfaca5b7c8f",
+    "authorSealSHA256": "1863d43a8236aad95f3fdda7bf45da496c67cecc828ae642c85c861c8d86a3d9",
+    "basis": "Genuine complete independent source/scientific/math/task-fit/pixel review with preserved finite custody; not inferred from hashes or another agent QA",
+    "sourceReadDepth": "Complete returned abstracts and selected primary/official/XML/indexed/PDF passages; exact access failures retained privately. No whole-paper/human/clinical approval.",
+    "freshSourceLookupPerformed": true
+  },
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/21376230/",
+    "https://doi.org/10.1158/2159-8290.CD-21-1059",
+    "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical147Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

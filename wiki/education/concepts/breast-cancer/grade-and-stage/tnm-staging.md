@@ -51,6 +51,13 @@ Post-treatment categories complement the original assessment. Do not splice a pr
 
 The M field has its own rules: **pM0 is not a valid designation**. Examining breast and regional nodes cannot pathologically certify that all distant sites are clear; M0 is clinical. Record the actual assigned categories rather than filling a missing field yourself.
 
+
+<img src="./images/specimen-collection-and-later-addendum-v1-light.svg" alt="A pretreatment biopsy labeled B appears before separate surgery-first and neoadjuvant paths; a later addendum still points to that original biopsy while clinical and pathological prefix labels remain attached to their assessment contexts" data-theme-pair width="600" height="1000">
+
+*Follow the specimen back to collection, even when its report arrives later.*
+
+The jar marked B and the later page marked B refer to the same old biopsy. A report issued after treatment can still describe pretreatment material. The two middle paths contrast surgery-first pathological assessment with clinical reassessment and surgical tissue assessment after neoadjuvant treatment. They are illustrative orders, not durations or a personal schedule. A prefix belongs to the full assessment context; the jar alone does not assign a category. Keep pretreatment and residual T/N records separate. Examining breast and regional nodes cannot supply pM0. [Timing and classification context](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true).
+
 ### A category is not the whole stage group
 
 Anatomic grouping combines TNM. [American Joint Committee on Cancer (AJCC) prognostic staging](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging) also uses grade and receptor information. The applicable table matters: a surgery-first pathological prognostic table cannot simply be reused for a post-neoadjuvant record.

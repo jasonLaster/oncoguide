@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "integrationAuthor": "root",
+  "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "sourceRetrievalNote": "Original retrieval history belongs to the original research author. The successor read already-retrieved bytes during this run; original retrieval times are not claimed as successor reading times.",
+  "prospectiveTaskId": "next-gap-147",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/lead-time.md",
+  "nativeSize": {
+    "width": 600,
+    "height": 1000
+  },
+  "imageGeneration": {
+    "model": null,
+    "calls": 0
+  },
+  "construction": {
+    "language": "Python emitting SVG",
+    "invocation": "python3 private/create-candidates.py",
+    "scriptSHA256": "7a3711676b4466cec4cf759514004b07e545ca5796eb557085f109a76ae49e41"
+  },
+  "originalBrief": {
+    "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/six-person-sampling-timelines-v1.txt",
+    "sha256": "4a79861edbb2cb4175317131d7bf958bd8dbfd48f9a7c3bfaf4d4c37aaf73751"
+  },
+  "artwork": [
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/six-person-sampling-timelines-v1-light.svg",
+      "sha256": "7dc07b220d957b712bba861a371a2b7ade52a36329140e2f32500db95dc33cfb",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/six-person-sampling-timelines-v1-dark.svg",
+      "sha256": "2de566fd94946baa908d8390a91376aebd5ae3f641f02d3f6bb143ed0df46256",
+      "theme": "dark"
+    }
+  ],
+  "assumptionsAndLimits": "All six fictional cases recur at month 12. Open dots show scheduled blood draws every two months; filled teal dots show first qualifying positives. A–D have completed earlier-positive intervals of 2, 4, 6 and 8 months. E and F have no earlier positive. The selected median is (4 + 6) ÷ 2 = 5 months among four cases; it excludes the two detection failures. These numbers are invented teaching data, not a study estimate or future prediction.",
+  "sourceURLs": [
+    "https://doi.org/10.1001/jamaoncol.2019.1838",
+    "https://doi.org/10.1016/j.annonc.2022.11.005",
+    "https://www.fda.gov/media/183874/download",
+    "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean"
+  ],
+  "scientificApproval": false,
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceAccessQualifications": [
+    {
+      "url": "https://doi.org/10.1001/jamaoncol.2019.1838",
+      "title": "García-Murillas et al. 2019",
+      "successorReadDepth": "Complete primary abstract recovered via saved PubMed XML; direct publisher access originally failed with HTTP 403. Selected summary gives study population and sampling schedule; no complete full-text review.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://doi.org/10.1016/j.annonc.2022.11.005",
+      "title": "Turner et al. 2023 c-TRAK TN",
+      "successorReadDepth": "Complete primary c-TRAK TN abstract recovered via saved PubMed XML; publisher response was a landing page. Detection failures and recurrence at staging retained as bounds.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://www.fda.gov/media/183874/download",
+      "title": "FDA 2024 circulating tumor DNA (ctDNA) drug-development guidance",
+      "successorReadDepth": "Selected FDA 2024 scope, outcome-endpoint and actual sampling-considerations section read; nonbinding drug-development guidance.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean",
+      "title": "NCI explanation of screening statistics",
+      "successorReadDepth": "Selected NCI lead-time-bias explanation read; screening example used only to explain timing versus benefit.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    }
+  ],
+  "sourceReadingRecord": {
+    "recordedAtUTC": "2026-10-13T00:16:25.084436+00:00",
+    "meaning": "Successor read already-retrieved bytes during this run. This is record creation time, not a reconstructed earlier reading time."
+  }
+}

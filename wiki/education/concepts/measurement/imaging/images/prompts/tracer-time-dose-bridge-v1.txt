@@ -1,0 +1,14 @@
+Original construction brief — next-gap-144
+Owner: wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md
+Actual creative author: agent:/root/batch05_local_treatment_author
+Medium: original SVG authored through private Python construction code; no image-model invocation.
+Learner task (frozen): Separate tracer observation from product-specific time-integrated dose and benefit
+Gap (frozen): No imaging-to-product evidence bridge
+Guardrails (frozen): "Match the imaging and therapeutic products, target, time and dose model. Uptake brightness is not time-integrated absorbed dose, target availability alone, clinical efficacy or a treatment recommendation."
+Design: consistent 600 × 1000 portrait light/dark native illustrations. Essential visible labels use at least 34 native pixels; check actual pinned 393 × 700 default preview before handoff. Concrete geometry distinguishes observation, physical process and inference.
+Content: Fictional target-M imaging product with a single image and a distinct antibody therapy with a schematic activity-over-time curve leading to product-specific dose and outcome questions.
+Caption and assumption bounds: The fictional vector-plus-A scan is one observation. Antibody-plus-B is a different product with its own time course. The unscaled curve is illustrative, and its area is not absorbed dose by itself: emissions and an appropriate tissue-dose model are also needed. This sketch uses no real isotope, patient result or efficacy value.
+Answered practice: If the scan is bright, can its brightness fill in the antibody’s activity-over-time curve?
+Answer: No. Product, target interaction, administered mass, timing, distribution and retention need to fit the proposed use. A single image of a different product cannot supply the therapeutic time course, absorbed dose or benefit evidence.
+Execution: python3 private/create-candidates.py in this private successor packet.
+Image generation model: null. Image generation calls: 0.

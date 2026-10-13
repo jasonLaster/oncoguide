@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320" viewBox="0 0 760 1320" role="img" aria-labelledby="title desc"><title id="title">Proteins and peptides: amino-acid molecules</title><desc id="desc">Linked residue icons form a chain, fold and undergo illustrative segment removal. Two fictional intact protein R forms, one retaining a region and one lacking it, can produce the same shared peptide fragment. The residue icons and shapes are illustrative, not measured sequence lengths or atomic structures. A chain can fold or be processed into another form. In the fictional protein R example, forms A and B share a peptide while only A retains the indicated region; a shared fragment cannot establish which intact form or activity is present. A possible sequence also does not establish HLA presentation.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#293743"/></marker></defs><rect width="760" height="1320" fill="#fcf8f1"/>
+<text x="38" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#293743" text-anchor="start">A chain, a fold, a shared fragment</text>
+<text x="38" y="107" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Fictional protein R; schematic residues</text>
+<rect x="24" y="142" width="712" height="310" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="195" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">A chain can fold</text>
+<path d="M80 305 L129 305" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M129 305 L178 305" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M178 305 L227 305" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M227 305 L276 305" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M276 305 L325 305" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="80" cy="305" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="129" cy="305" r="18" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="178" cy="305" r="18" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<circle cx="227" cy="305" r="18" fill="#976729" stroke="#293743" stroke-width="2" />
+<circle cx="276" cy="305" r="18" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="325" cy="305" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<path d="M366 305 L420 305" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M476 278 L528 253" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M528 253 L577 282" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M577 282 L552 331" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M552 331 L495 339" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M495 339 L474 301" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="476" cy="278" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="528" cy="253" r="18" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="577" cy="282" r="18" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<circle cx="552" cy="331" r="18" fill="#976729" stroke="#293743" stroke-width="2" />
+<circle cx="495" cy="339" r="18" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="474" cy="301" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<text x="178" y="413" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">Chain</text>
+<text x="531" y="413" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="middle">Fold</text>
+<rect x="24" y="472" width="712" height="325" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="525" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Processing can remove a segment</text>
+<path d="M82 626 L130 626" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M130 626 L178 626" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M178 626 L226 626" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M226 626 L274 626" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M274 626 L322 626" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="82" cy="626" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="130" cy="626" r="18" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="178" cy="626" r="18" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<circle cx="226" cy="626" r="18" fill="#976729" stroke="#293743" stroke-width="2" />
+<circle cx="274" cy="626" r="18" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="322" cy="626" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<path d="M153 586 L153 668" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 7" />
+<path d="M375 626 L437 626" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M479 604 L526 604" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M526 604 L573 604" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M573 604 L620 604" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="479" cy="604" r="18" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<circle cx="526" cy="604" r="18" fill="#976729" stroke="#293743" stroke-width="2" />
+<circle cx="573" cy="604" r="18" fill="#806a9c" stroke="#293743" stroke-width="2" />
+<circle cx="620" cy="604" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<path d="M547 712 L594 712" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="547" cy="712" r="18" fill="#4f7999" stroke="#293743" stroke-width="2" />
+<circle cx="594" cy="712" r="18" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<text x="48" y="760" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">A new form; function still needs testing</text>
+<rect x="24" y="817" width="712" height="352" rx="16" fill="#fffdf8" stroke="#969e9e" stroke-width="2" />
+<text x="48" y="870" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#293743" text-anchor="start">Two forms can share a fragment</text>
+<g transform="translate(153 1000) scale(0.8)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#4f7999" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<circle cx="220" cy="958" r="23" fill="#d9c29b" stroke="#293743" stroke-width="2" />
+<g transform="translate(605 1000) scale(0.8)">
+<path d="M55 -55 C-30 -90 -80 -5 -45 40 C-8 90 60 55 55 25 L15 25 L15 -5 L55 -5 Z" fill="#4f7999" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="76" y="930" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">R form A</text>
+<text x="513" y="930" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#293743" text-anchor="start">R form B</text>
+<text x="48" y="1120" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Region retained</text>
+<text x="465" y="1120" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Region absent</text>
+<path d="M329 1014 L375 1014" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M375 1014 L421 1014" fill="none" stroke="#293743" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="329" cy="1014" r="16" fill="#bd7480" stroke="#293743" stroke-width="2" />
+<circle cx="375" cy="1014" r="16" fill="#5f7d58" stroke="#293743" stroke-width="2" />
+<circle cx="421" cy="1014" r="16" fill="#976729" stroke="#293743" stroke-width="2" />
+<path d="M230 1025 L293 1016" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M535 1025 L455 1016" fill="none" stroke="#293743" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<text x="375" y="1080" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="middle">Shared</text>
+<text x="38" y="1235" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">A shared peptide cannot choose the form.</text>
+<text x="38" y="1290" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#293743" text-anchor="start">Sequence alone does not show HLA display.</text>
+</svg>

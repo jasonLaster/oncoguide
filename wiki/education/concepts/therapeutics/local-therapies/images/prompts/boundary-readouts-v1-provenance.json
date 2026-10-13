@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-code-svg",
+  "author": "agent:/root/batch05_local_treatment_author",
+  "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+  "integrationAuthor": "root",
+  "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+  "sourceRetrievalNote": "Original retrieval history belongs to the original research author. The successor read already-retrieved bytes during this run; original retrieval times are not claimed as successor reading times.",
+  "prospectiveTaskId": "next-gap-141",
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/ablation.md",
+  "nativeSize": {
+    "width": 600,
+    "height": 1000
+  },
+  "imageGeneration": {
+    "model": null,
+    "calls": 0
+  },
+  "construction": {
+    "language": "Python emitting SVG",
+    "invocation": "python3 private/create-candidates.py",
+    "scriptSHA256": "7a3711676b4466cec4cf759514004b07e545ca5796eb557085f109a76ae49e41"
+  },
+  "originalBrief": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/boundary-readouts-v1.txt",
+    "sha256": "706a473ffed24ce7cd2efe19c9899312cdafa3a458c949e88e79e6725e1cd50d"
+  },
+  "artwork": [
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-light.svg",
+      "sha256": "9392f40cf78ce2993cb718d853636465db31f1918c6ffb78afa91eccf8e2d001",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-dark.svg",
+      "sha256": "424bb8ef380760d673e6ebfbade1ceca627d9e83062168f936190ab210546210",
+      "theme": "dark"
+    }
+  ],
+  "assumptionsAndLimits": "The visible ice edge, the probe reading and lethal tissue exposure answer different questions. Violet shading only sketches possible lethal exposure; it is not measured cell death. The dashed pink line outlines the target. This cryoablation sketch specifies no size, temperature or margin.",
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/25442132/",
+    "https://pubmed.ncbi.nlm.nih.gov/22933102/",
+    "https://pubmed.ncbi.nlm.nih.gov/25738477/",
+    "https://www.cancer.gov/about-cancer/treatment/types/surgery/cryosurgery",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/"
+  ],
+  "scientificApproval": false,
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceAccessQualifications": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25442132/",
+      "title": "Ahmed et al., 2014: international consensus on ablation methods, terminology and reporting",
+      "successorReadDepth": "Complete primary consensus abstract via saved PubMed XML. Original PubMed HTML was an interstitial, not a source-body read.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22933102/",
+      "title": "Georgiades et al., 2013: the visible ice ball and nonlethal margin in normal swine kidney tissue",
+      "successorReadDepth": "Complete primary animal-experiment abstract via saved PubMed XML; normal swine kidney only. No numerical margin transferred to people.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25738477/",
+      "title": "Pillai et al., 2015: the cooling effect of flow during radiofrequency and microwave ablation in an ex-vivo calf liver model",
+      "successorReadDepth": "Complete primary ex-vivo calf-liver experiment abstract via saved PubMed XML; no universal device ranking inferred.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/surgery/cryosurgery",
+      "title": "NCI: cryosurgery mechanisms, local targeting and normal-tissue risks",
+      "successorReadDepth": "NCI cryosurgery article main text read from saved extraction; no artwork reused.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/",
+      "title": "Lubner et al., 2010: microwave and radiofrequency heating mechanisms",
+      "successorReadDepth": "Selected mechanism passages in saved author-manuscript HTML/text; historical device inventory not used.",
+      "originalRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "successorReader": "agent:/root/batch05_local_treatment_author",
+      "fullTextReviewClaimed": false
+    }
+  ],
+  "sourceReadingRecord": {
+    "recordedAtUTC": "2026-10-13T00:16:25.084436+00:00",
+    "meaning": "Successor read already-retrieved bytes during this run. This is record creation time, not a reconstructed earlier reading time."
+  },
+  "correctionHistory": [
+    {
+      "kind": "code-svg-visual-correction",
+      "author": "agent:/root/batch05_local_treatment_author",
+      "recordedAtUTC": "2026-10-13T00:26:41.034578+00:00",
+      "priorProvenanceSHA256": "f4f624512cd099e69c711a1a6d2bb867a0e7a160425dabc9b0bf5db427676d0f",
+      "priorAuthorSealSHA256": "6609c00eeae44e5b6e5c0d8b8d0aca04af04abd9efe607c85f2060fe4a0b0692",
+      "reviewFindingsSHA256": "3a29536f7ba35cd08849c5c21a7c6357b65f52d5618a8dcbfcb8d85d43cef7f4",
+      "findingIds": [
+        "B05-LTM-V1",
+        "B05-LTM-V2"
+      ],
+      "transformScriptSHA256": "df3a05a326b5878848b70210a2c0c7b1d221c83e5045956d3ced506e514bcbc5",
+      "invocation": "python3 private/apply-corrections.py",
+      "operations": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-light.svg",
+          "findings": [
+            "B05-LTM-V1",
+            "B05-LTM-V2"
+          ],
+          "beforeSHA256": "e34eb9e622c2f4be6442a867b7fdd25fbf1d87e950f6b398c883b57f5fe34471",
+          "afterSHA256": "9392f40cf78ce2993cb718d853636465db31f1918c6ffb78afa91eccf8e2d001",
+          "operations": [
+            "Route nearby-vessel leader down to y502, then right to x540 and back up to its unchanged vessel endpoint, clearing the Target text and its leader.",
+            "Change applicator and Probe association-leader strokes to theme ink for contrast across card and zones. Positions, widths and semantic text unchanged."
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/boundary-readouts-v1-dark.svg",
+          "findings": [
+            "B05-LTM-V1",
+            "B05-LTM-V2"
+          ],
+          "beforeSHA256": "3694edf5299106cf1786f065098529f701b448d6d55b246c7c2dce6c313df4d4",
+          "afterSHA256": "424bb8ef380760d673e6ebfbade1ceca627d9e83062168f936190ab210546210",
+          "operations": [
+            "Route nearby-vessel leader down to y502, then right to x540 and back up to its unchanged vessel endpoint, clearing the Target text and its leader.",
+            "Change applicator and Probe association-leader strokes to theme ink for contrast across card and zones. Positions, widths and semantic text unchanged."
+          ]
+        }
+      ],
+      "scientificContentChanged": false,
+      "originalBriefChanged": false,
+      "imageGeneration": {
+        "model": null,
+        "calls": 0
+      },
+      "peerCorrectionRecheck": "pending"
+    }
+  ]
+}

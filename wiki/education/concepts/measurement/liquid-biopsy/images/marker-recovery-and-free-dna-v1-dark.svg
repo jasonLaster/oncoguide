@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc">
+<title id="title">A capture is a selection</title><desc id="desc">Fictional blood-sample sketch</desc>
+<rect x="0" y="0" width="600" height="1000" rx="0" fill="#111f29"/>
+<text x="32" y="56" fill="#eef4f3" font-family="Arial, sans-serif" font-size="42" font-weight="700" text-anchor="start">A capture is a selection</text>
+<text x="32" y="101" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Fictional blood-sample sketch</text>
+<rect x="24" y="132" width="552" height="226" rx="22" fill="#1a303b"/>
+<text x="44" y="179" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Sample: cells + fragments</text>
+<circle cx="80" cy="248" r="27" fill="#244d50" stroke="#72d7c9" stroke-width="3"/>
+<circle cx="77" cy="250" r="8.1" fill="#72d7c9" stroke="#72d7c9" stroke-width="3"/>
+<rect x="76" y="217" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="99.49" y="257.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="52.510000000000005" y="257.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<circle cx="202" cy="241" r="27" fill="#244d50" stroke="#72d7c9" stroke-width="3"/>
+<circle cx="199" cy="243" r="8.1" fill="#72d7c9" stroke="#72d7c9" stroke-width="3"/>
+<rect x="198" y="210" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="221.49" y="250.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="174.51" y="250.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<circle cx="325" cy="248" r="27" fill="#403758" stroke="#c5b7f2" stroke-width="3"/>
+<circle cx="322" cy="250" r="8.1" fill="#c5b7f2" stroke="#c5b7f2" stroke-width="3"/>
+<circle cx="476" cy="244" r="27" fill="#563646" stroke="#ffa9ba" stroke-width="3"/>
+<circle cx="473" cy="246" r="8.1" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="3"/>
+<path d="M95 316 Q111.75 300 128.5 316 T162 316" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M95 330 Q111.75 346 128.5 330 T162 330" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M95.0 319 L95.0 329" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M108.4 319 L108.4 329" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M121.8 319 L121.8 329" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M135.2 319 L135.2 329" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M148.6 319 L148.6 329" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M162.0 319 L162.0 329" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M267 312 Q292.0 296 317.0 312 T367 312" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M267 326 Q292.0 342 317.0 326 T367 326" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M267.0 315 L267.0 325" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M287.0 315 L287.0 325" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M307.0 315 L307.0 325" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M327.0 315 L327.0 325" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M347.0 315 L347.0 325" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M367.0 315 L367.0 325" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M419 308 Q434.25 292 449.5 308 T480 308" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M419 322 Q434.25 338 449.5 322 T480 322" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M419.0 311 L419.0 321" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M431.2 311 L431.2 321" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M443.4 311 L443.4 321" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M455.6 311 L455.6 321" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M467.8 311 L467.8 321" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M480.0 311 L480.0 321" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M300 368 L300 399" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M291 387 L300 399 L309 387" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<rect x="24" y="409" width="552" height="94" rx="22" fill="#244d50"/>
+<text x="44" y="451" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Select by a surface marker</text>
+<text x="44" y="490" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Then apply cell-ID rules</text>
+<path d="M173 508 L173 549" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M164 537 L173 549 L182 537" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M443 508 L443 549" fill="none" stroke="#c5b7f2" stroke-width="5" opacity="1"/>
+<path d="M434 537 L443 549 L452 537" fill="none" stroke="#c5b7f2" stroke-width="5" opacity="1"/>
+<rect x="24" y="567" width="269" height="215" rx="22" fill="#1a303b"/>
+<rect x="307" y="567" width="269" height="215" rx="22" fill="#403758"/>
+<text x="44" y="610" fill="#72d7c9" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Recovered</text>
+<circle cx="90" cy="666" r="27" fill="#244d50" stroke="#72d7c9" stroke-width="3"/>
+<circle cx="87" cy="668" r="8.1" fill="#72d7c9" stroke="#72d7c9" stroke-width="3"/>
+<rect x="86" y="635" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="109.49" y="675.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="62.510000000000005" y="675.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<circle cx="205" cy="666" r="27" fill="#244d50" stroke="#72d7c9" stroke-width="3"/>
+<circle cx="202" cy="668" r="8.1" fill="#72d7c9" stroke="#72d7c9" stroke-width="3"/>
+<rect x="201" y="635" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="224.49" y="675.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<rect x="177.51" y="675.5" width="8" height="8" rx="2" fill="#72d7c9"/>
+<text x="44" y="738" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Qualifying</text>
+<text x="44" y="780" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">cells counted</text>
+<text x="327" y="610" fill="#c5b7f2" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Not selected</text>
+<circle cx="354" cy="666" r="27" fill="#403758" stroke="#c5b7f2" stroke-width="3"/>
+<circle cx="351" cy="668" r="8.1" fill="#c5b7f2" stroke="#c5b7f2" stroke-width="3"/>
+<circle cx="485" cy="666" r="27" fill="#563646" stroke="#ffa9ba" stroke-width="3"/>
+<circle cx="482" cy="668" r="8.1" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="3"/>
+<path d="M360 724 Q381.25 708 402.5 724 T445 724" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M360 738 Q381.25 754 402.5 738 T445 738" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M360.0 727 L360.0 737" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M377.0 727 L377.0 737" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M394.0 727 L394.0 737" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M411.0 727 L411.0 737" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M428.0 727 L428.0 737" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M445.0 727 L445.0 737" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<text x="327" y="771" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Cells + DNA</text>
+<text x="32" y="837" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Other cell types may be missed.</text>
+<text x="32" y="879" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Free DNA is a separate analyte.</text>
+<text x="32" y="919" fill="#c0d1d7" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Icons are not cell proportions.</text>
+<text x="32" y="961" fill="#c0d1d7" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Zero capture ≠ zero CTCs.</text>
+</svg>

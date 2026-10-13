@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Measure, then infer</title><desc id="desc">A mixture of normal + tumor DNA</desc>
+<rect x="0" y="0" width="600" height="1000" rx="0" fill="#111f29"/>
+<text x="32" y="56" fill="#eef4f3" font-family="Arial, sans-serif" font-size="42" font-weight="700" text-anchor="start">Measure, then infer</text>
+<text x="32" y="101" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">A mixture of normal + tumor DNA</text>
+<rect x="24" y="133" width="552" height="215" rx="22" fill="#1a303b"/>
+<text x="44" y="178" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Recovered plasma fragments</text>
+<path d="M57 223 Q92.75 207 128.5 223 T200 223" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M57 237 Q92.75 253 128.5 237 T200 237" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M57.0 226 L57.0 236" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M85.6 226 L85.6 236" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M114.2 226 L114.2 236" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M142.8 226 L142.8 236" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M171.4 226 L171.4 236" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M200.0 226 L200.0 236" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<circle cx="85.6" cy="208" r="7" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1"/>
+<circle cx="149.95" cy="208" r="7" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1"/>
+<path d="M295 223 Q347.5 207 400.0 223 T505 223" fill="none" stroke="#c5b7f2" stroke-width="5" opacity="1"/>
+<path d="M295 237 Q347.5 253 400.0 237 T505 237" fill="none" stroke="#c5b7f2" stroke-width="5" opacity="1"/>
+<path d="M295.0 226 L295.0 236" fill="none" stroke="#c5b7f2" stroke-width="2" opacity="1"/>
+<path d="M337.0 226 L337.0 236" fill="none" stroke="#c5b7f2" stroke-width="2" opacity="1"/>
+<path d="M379.0 226 L379.0 236" fill="none" stroke="#c5b7f2" stroke-width="2" opacity="1"/>
+<path d="M421.0 226 L421.0 236" fill="none" stroke="#c5b7f2" stroke-width="2" opacity="1"/>
+<path d="M463.0 226 L463.0 236" fill="none" stroke="#c5b7f2" stroke-width="2" opacity="1"/>
+<path d="M505.0 226 L505.0 236" fill="none" stroke="#c5b7f2" stroke-width="2" opacity="1"/>
+<circle cx="337.0" cy="208" r="7" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1"/>
+<circle cx="431.5" cy="208" r="7" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1"/>
+<path d="M107 289 Q161.25 273 215.5 289 T324 289" fill="none" stroke="#ffa9ba" stroke-width="5" opacity="1"/>
+<path d="M107 303 Q161.25 319 215.5 303 T324 303" fill="none" stroke="#ffa9ba" stroke-width="5" opacity="1"/>
+<path d="M107.0 292 L107.0 302" fill="none" stroke="#ffa9ba" stroke-width="2" opacity="1"/>
+<path d="M150.4 292 L150.4 302" fill="none" stroke="#ffa9ba" stroke-width="2" opacity="1"/>
+<path d="M193.8 292 L193.8 302" fill="none" stroke="#ffa9ba" stroke-width="2" opacity="1"/>
+<path d="M237.2 292 L237.2 302" fill="none" stroke="#ffa9ba" stroke-width="2" opacity="1"/>
+<path d="M280.6 292 L280.6 302" fill="none" stroke="#ffa9ba" stroke-width="2" opacity="1"/>
+<path d="M324.0 292 L324.0 302" fill="none" stroke="#ffa9ba" stroke-width="2" opacity="1"/>
+<path d="M380 294 Q405.25 278 430.5 294 T481 294" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M380 308 Q405.25 324 430.5 308 T481 308" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M380.0 297 L380.0 307" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M400.2 297 L400.2 307" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M420.4 297 L420.4 307" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M440.6 297 L440.6 307" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M460.8 297 L460.8 307" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<path d="M481.0 297 L481.0 307" fill="none" stroke="#72d7c9" stroke-width="2" opacity="1"/>
+<circle cx="400.2" cy="279" r="7" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1"/>
+<circle cx="445.65" cy="279" r="7" fill="#ffa9ba" stroke="#ffa9ba" stroke-width="1"/>
+<path d="M300 359 L300 390" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M291 378 L300 390 L309 378" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<rect x="24" y="401" width="552" height="156" rx="22" fill="#244d50"/>
+<text x="44" y="445" fill="#72d7c9" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">Measured features</text>
+<text x="44" y="489" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Length, ends, genomic sites,</text>
+<text x="44" y="531" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">chemical marks at sites.</text>
+<path d="M300 569 L300 595" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M291 583 L300 595 L309 583" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<rect x="24" y="609" width="552" height="132" rx="22" fill="#403758"/>
+<text x="44" y="654" fill="#c5b7f2" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">Reference + model</text>
+<text x="44" y="702" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Collection conditions matter.</text>
+<path d="M300 751 L300 777" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<path d="M291 765 L300 777 L309 765" fill="none" stroke="#72d7c9" stroke-width="5" opacity="1"/>
+<rect x="24" y="789" width="552" height="96" rx="22" fill="#1a303b"/>
+<text x="44" y="830" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Source estimate or score</text>
+<text x="44" y="870" fill="#eef4f3" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Inference ≠ a cell census</text>
+<text x="32" y="919" fill="#c0d1d7" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">Marks and lengths are schematic.</text>
+<text x="32" y="961" fill="#c0d1d7" font-family="Arial, sans-serif" font-size="34" font-weight="400" text-anchor="start">A source is not a cancer address.</text>
+</svg>

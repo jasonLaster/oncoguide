@@ -45,6 +45,15 @@ flowchart TD
 
 *The diagram compares tissue acquisition. It does not choose a procedure or show that either surveys every drainage route.*
 
+
+<img src="./images/mapped-marked-and-broader-node-sample-v1-light.svg" alt="One regional node sketch distinguishes tracer-mapped A and B from a separately clipped C, a second example shows a mapped node with a clip, and a tissue-packet sketch shows broader axillary sampling" data-theme-pair width="600" height="1000">
+
+*A mapped identity and a previously marked identity can overlap, but need not.*
+
+Follow the tracer lines from the illustrative drainage territory to A and B. The clip on C is a separate identifying mark; the sketch leaves its pathology and retrieval unresolved. The next example puts mapping and a clip on the same node. The packet outline represents broader axillary tissue sampling, without fixing its node yield or proving that a particular marker was recovered. The lines describe mapping, not the past route of cancer spread. The node pictures are partial, and the submitted tissue still needs pathological examination. [Mapping description](https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet), [Primary marked-node study](https://pubmed.ncbi.nlm.nih.gov/26811528/).
+
+**Read the marks:** Do negative mapped-node results alone establish the status of C? **Answer:** No. Its identity, recovery and pathological result need their own documentation, just as in the exercise below.
+
 ## Why it matters in cancer
 
 Nodal procedures can provide staging information and contribute to regional treatment. Their interpretation depends on the pretreatment nodal findings, whether surgery occurs before or after systemic treatment, mapping method and the complete local-treatment plan. Finding a positive sentinel node does not establish one universal next operation.

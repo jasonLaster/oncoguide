@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc"><title id="title">Histologic grade</title><desc id="desc">Recognize the three distinct microscopic features that are scored before their sum becomes a Nottingham grade. Original schematics and explicitly fictional teaching examples; not diagnostic source slides or patient findings.</desc><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#f5efdd"/></marker><radialGradient id="cell"><stop offset="0" stop-color="#f4c4ca"/><stop offset="1" stop-color="#d88b9b"/></radialGradient></defs><rect width="600" height="1000" fill="#112432"/>
+<text x="28" y="44" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f5efdd" text-anchor="start">Three features before the sum</text>
+<text x="28" y="85" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Schematics, not diagnostic slides or cutoffs</text>
+<rect x="22" y="116" width="556" height="222" rx="12" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="157" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">1 · Tubule formation</text>
+<rect x="22" y="354" width="556" height="222" rx="12" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="395" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">2 · Nuclear appearance</text>
+<rect x="22" y="592" width="556" height="222" rx="12" fill="#1d3643" stroke="#8ba7b2" stroke-width="2"/>
+<text x="42" y="633" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">3 · Mitotic figures</text>
+<circle cx="203.0" cy="243.0" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="205.0" cy="242.0" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="190.60035548530584" cy="277.0677433133866" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="192.60035548530584" cy="276.0677433133866" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="159.2033534163473" cy="295.194810909647" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="161.2033534163473" cy="294.194810909647" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="123.5" cy="288.89934640057527" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="125.5" cy="287.89934640057527" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="100.19629109834686" cy="261.1270675962605" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="102.19629109834686" cy="260.1270675962605" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="100.19629109834685" cy="224.87293240373955" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="102.19629109834685" cy="223.87293240373955" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="123.49999999999997" cy="197.10065359942476" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="125.49999999999997" cy="196.10065359942476" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="159.20335341634728" cy="190.80518909035297" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="161.20335341634728" cy="189.80518909035297" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="190.60035548530584" cy="208.9322566866134" r="22" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="192.60035548530584" cy="207.9322566866134" rx="9" ry="7.2" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<ellipse cx="150" cy="243" rx="25" ry="24" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<text x="278" y="210" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Cells around a lumen</text>
+<text x="278" y="249" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Gland-like structure</text>
+<text x="278" y="295" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Amount assessed</text>
+<circle cx="83" cy="471" r="23" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="85" cy="470" rx="8" ry="6.4" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="146" cy="477" r="24" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="148" cy="476" rx="14" ry="11.200000000000001" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="216" cy="480" r="29" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="218" cy="479" rx="20" ry="16.0" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="114" cy="519" r="20" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="116" cy="518" rx="10" ry="8.0" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<circle cx="187" cy="527" r="25" fill="#e6a0aa" stroke="#18333e" stroke-width="2"/>
+<ellipse cx="189" cy="526" rx="18" ry="14.4" fill="#c4b6d4" stroke="#18333e" stroke-width="1"/>
+<text x="278" y="451" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Variation in nuclei</text>
+<text x="278" y="490" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Size and appearance</text>
+<text x="278" y="536" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Darkness alone ≠ score</text>
+<ellipse cx="151" cy="714" rx="83" ry="54" fill="#dce8e9" stroke="#18333e" stroke-width="2"/>
+<circle cx="90" cy="714" r="6" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<circle cx="212" cy="714" r="6" fill="#d8bd8b" stroke="#18333e" stroke-width="2"/>
+<path d="M90 714 Q151 690 212 714" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round"/>
+<path d="M90 714 Q151 714 212 714" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round"/>
+<path d="M90 714 Q151 738 212 714" fill="none" stroke="#18333e" stroke-width="2" stroke-linecap="round"/>
+<path d="M123 701 L137 727 M137 701 L123 727" fill="none" stroke="#18333e" stroke-width="4" stroke-linecap="round"/>
+<path d="M163 701 L177 727 M177 701 L163 727" fill="none" stroke="#18333e" stroke-width="4" stroke-linecap="round"/>
+<text x="278" y="690" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Recognizable division</text>
+<text x="278" y="731" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Area + counting method</text>
+<text x="42" y="792" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Darkness alone does not identify mitosis.</text>
+<text x="28" y="867" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">A separate fictional report assigns scores:</text>
+<text x="28" y="912" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f5efdd" text-anchor="start">2 + 3 + 3 = 8 → Nottingham grade 3</text>
+<text x="28" y="975" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f5efdd" text-anchor="start">Grade does not supply anatomic stage.</text>
+</svg>

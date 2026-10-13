@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden.md",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceOwnerPreimageSHA256": "a704826e794f6434d4560a85f06cb6a42e3ef04355931d8ee1d9e29ad6d0724d",
+  "construction": "Original code-generated SVG pair",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "constructionBrief": {
+    "file": "node-count-and-deposit-size-context-v1.txt",
+    "sha256": "185cc5835d5c290ed59cc5112657c28af3af3eecd2d62b0bc6fdd435c54ad1c9",
+    "bytes": 826,
+    "kind": "Exact final original code-construction brief; no image-generation API call"
+  },
+  "outputs": [
+    {
+      "file": "node-count-and-deposit-size-context-v1-light.svg",
+      "theme": "light",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "11c592e320f671d67ae084ffd8a6b55793877153db6dab8c71bb7e580fca1222",
+      "bytes": 5567
+    },
+    {
+      "file": "node-count-and-deposit-size-context-v1-dark.svg",
+      "theme": "dark",
+      "mediaType": "image/svg+xml",
+      "dimensions": [
+        600,
+        1000
+      ],
+      "sha256": "25bf734469418c0710f2767635b37e5c9f3d02a1953cc961212555b2d6fdb57f",
+      "bytes": 5567
+    }
+  ],
+  "themePairMeaning": "Geometry, words, numbers and scientific content identical; theme colors vary.",
+  "visualScope": "Original schematic objects, or explicitly fictional quantitative teaching examples. Source figure pixels not copied.",
+  "publicReferences": [
+    {
+      "title": "Protocol for the Examination of Resection Specimens from Patients with Invasive Carcinoma of the Breast,4.11.0.0,June2026",
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "scope": "Selected source passages, not all43pages, diagnostic training, atom-scale reconstruction, stage assignment or individual surgery advice. No source scoring-table cutoffs are reproduced in new artwork."
+    },
+    {
+      "title": "Breast Cancer Treatment(PDQ), Health Professional Version",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+      "scope": "Selected table text only, not full2826-line PDQ or clinical treatment recommendations. No table is republished; new two-case diagrams retain fictional original cases."
+    }
+  ],
+  "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+}

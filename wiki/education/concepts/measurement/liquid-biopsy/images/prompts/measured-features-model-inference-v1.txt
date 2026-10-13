@@ -1,0 +1,14 @@
+Original construction brief — next-gap-146
+Owner: wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation.md
+Actual creative author: agent:/root/batch05_local_treatment_author
+Medium: original SVG authored through private Python construction code; no image-model invocation.
+Learner task (frozen): Distinguish directly measured fragment/mark features from model inference
+Gap (frozen): Current flow does not depict the features or normal source mixture
+Guardrails (frozen): "Separate measured fragment/chemical-mark features from model-derived source inference and normal-source mixtures. A methylation/fragment classifier is not a direct cell census or universally validated tissue-of-origin result."
+Design: consistent 600 × 1000 portrait light/dark native illustrations. Essential visible labels use at least 34 native pixels; check actual pinned 393 × 700 default preview before handoff. Concrete geometry distinguishes observation, physical process and inference.
+Content: Schematic plasma DNA fragments with chemical-mark dots, followed by measured features, a reference/model step and an inferred source estimate or score.
+Caption and assumption bounds: Colors separate schematic fragments for readability, not known cell identities. Dots indicate chemical marks rather than cancer labels. Fragment measurements feed a defined model; normal-source mixtures, handling and missing reference cell types can affect interpretation. The output is not a direct cell census.
+Answered practice: Does a mark on one fragment reveal that it came from a cancer cell in a specific organ?
+Answer: No. Normal cells also carry methylation marks. Source inference depends on patterns across the mixture and the reference/model; an inferred organ contribution can also reflect normal tissue injury. No universal tissue-of-origin validation is implied.
+Execution: python3 private/create-candidates.py in this private successor packet.
+Image generation model: null. Image generation calls: 0.

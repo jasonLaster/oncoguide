@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-134",
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "creativeAuthor": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+  "rootArtworkOrScienceWritingAttribution": false,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "passedAtUTC": "2026-10-13T00:37:43.551564+00:00",
+  "currentOwnerSha256": "94c82a3c13ee594f1b45834fe36e2e80cc35350dda37482166d818c8cfd0774c",
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Three parallel jobs distinguish ATR replication-stress signaling, WEE1 inhibitory CDK phosphorylation and POLtheta-supported end joining of opposing exposed strands with illustrative short matching patches. Inhibition bars are possible target locations, not doses or universal outcomes. Scar-versus-current-function and PARP-resistance-mechanism limits remain. Selected original novobiocin body passages specifically confirm BRCA2-reverted PEO4/CAPAN1-CR resistance; ART558 53BP1/Shieldin scope is retained separately.",
+    "baselinePageSHA256": "cb0ca82273ba009553599c78b3d2b0345deff783f38a857d5617ce6caa2595f2",
+    "learnerTask": "Locate stress signaling, cycle checkpoint and end joining as different DDR jobs",
+    "gap": "No physical or topological map separates ATR/WEE1/POLθ interventions",
+    "accuracyGuardrails": "Simplified network; repair state not historical scar; PARP resistance not universal POLθ sensitivity"
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/370",
+  "frozenRowSHA256": "264e7bcfca0532a6e46bc9fe2a09ff6c99ce5e60d8b23f47a7ad08247819ac76",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-light.svg",
+      "sha256": "1b06d98fb5857cdcff13ccf3bfe76faa3e74a9130423f918eb6bdb8e9bdb29ef"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-dark.svg",
+      "sha256": "79ec6d3af288c3e49417fa3c1406d825ef1e457629f4eb9ab0254ae944434b74"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+        "sha256": "94c82a3c13ee594f1b45834fe36e2e80cc35350dda37482166d818c8cfd0774c",
+        "bytes": 7824
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-light.svg",
+        "sha256": "1b06d98fb5857cdcff13ccf3bfe76faa3e74a9130423f918eb6bdb8e9bdb29ef",
+        "bytes": 7922
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-dark.svg",
+        "sha256": "79ec6d3af288c3e49417fa3c1406d825ef1e457629f4eb9ab0254ae944434b74",
+        "bytes": 7922
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/replication-stress-checkpoint-and-end-joining-jobs-v1.txt",
+        "sha256": "104d326f506b295744a9df84bdc36cacabc5ede027ef647d84d44f8e36c9c44f",
+        "bytes": 1332
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/replication-stress-checkpoint-and-end-joining-jobs-v1-provenance.json",
+        "sha256": "1e52df3d715c550e6c8c52b8975f885cc23a8620581df4acb51622f7999058a6",
+        "bytes": 3053
+      }
+    ]
+  },
+  "reviewLineage": {
+    "wholePackageReviewSHA256": "aabc07e138ca6b259ca8110ccba7fa10d613b7eb054394a78380eb05eb7ccf75",
+    "wholePackageReviewTimeUTC": "2026-10-13T00:37:43.551564+00:00",
+    "authorHandoffSHA256": "73a35ca4c1b20e353aa198068349f6ccd5bb9be436fa52f6b4a1a6930048a47c",
+    "authorManifestSHA256": "5ef242d7856e80faa39aa583b7ba54dca04a60598eccc01bd1bd0dfaca5b7c8f",
+    "authorSealSHA256": "1863d43a8236aad95f3fdda7bf45da496c67cecc828ae642c85c861c8d86a3d9",
+    "basis": "Genuine complete independent source/scientific/math/task-fit/pixel review with preserved finite custody; not inferred from hashes or another agent QA",
+    "sourceReadDepth": "Complete returned abstracts and selected primary/official/XML/indexed/PDF passages; exact access failures retained privately. No whole-paper/human/clinical approval.",
+    "freshSourceLookupPerformed": true
+  },
+  "sourceURLs": [
+    "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/ceralasertib",
+    "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/adavosertib",
+    "https://pubmed.ncbi.nlm.nih.gov/34140467/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8224818/"
+  ],
+  "model": null,
+  "imageModelCalls": 0,
+  "canonical147Adoption": "pending",
+  "canonicalAssignment": "pending",
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending",
+  "liveReader": "pending",
+  "delivery": "pending",
+  "release": "pending",
+  "coverageCreditAwarded": false,
+  "coverageCredit": 0,
+  "newCredit": 0,
+  "selfCredit": 0,
+  "releaseAccepted": false,
+  "productionVerified": false
+}

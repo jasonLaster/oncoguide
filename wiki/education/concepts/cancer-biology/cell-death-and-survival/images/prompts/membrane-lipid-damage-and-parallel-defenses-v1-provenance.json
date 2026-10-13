@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+  "author": "thread:01a12e5c-5791-73b2-8da1-571207558038",
+  "integrationAuthor": "root",
+  "privateProspectiveTaskId": "next-gap-129",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/82",
+  "frozenRowPointer": "/82",
+  "frozenRowSHA256": "dd4cb4cff1eb845d4da6f7efdbb2b4b556eef8cc2f0898357db14c04bfb86b14",
+  "originalFrozenTask": {
+    "learnerTask": "Locate vulnerable membrane lipids and understand parallel protective systems without treating general ROS as a death diagnosis.",
+    "gap": "The existing damage/death and parallel-defense map appropriately avoids expression-as-function inference. It never shows the membrane lipid substrate that defines ferroptosis; a small labeled membrane-damage inset would add physical meaning, while preserving converging-test requirements in prose.",
+    "accuracyGuardrails": [
+      "General oxidation is not ferroptosis.",
+      "GPX4 and FSP1 are parallel example defenses, not the whole system.",
+      "No compound sensitivity or patient benefit inferred from a schematic."
+    ]
+  },
+  "sourceObservedCommit": "64923746ef83e34e16b442a09cf4c618438e46a1",
+  "baselinePageSHA256": "0463240986ad0d16667bff0644f5a938a7e451452e28f75dc00de5a90f952fba",
+  "construction": "Original code-generated SVG",
+  "generator": "private/construct.py",
+  "generatorSHA256": "8f040078dd0fe65e5d5c0ee2b18557bc3e391d50c219f4da958e36312399f765",
+  "generatorCustody": "Actual original generator retained privately; editable native SVG, not an executable reproduction-package promise.",
+  "model": null,
+  "imageModelCalls": 0,
+  "actualImageModelCalls": [],
+  "briefSHA256": "a72e15578f4d82900b560c0166e39d5a1a3b00b84d43f7b519304a297bd63c87",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-light.svg",
+      "theme": "light",
+      "sha256": "cce611f06e366b84feb7869c4b4af5eb4376b5481a74f6479a1131c55511047f",
+      "bytes": 15649,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "d18262b270aafda1437e0d2a71136ab967f1f02c0bd65453c99ac4c87bf48a27",
+      "bytes": 15649,
+      "nativeDimensions": [
+        760,
+        1320
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/31634900/",
+    "https://pubmed.ncbi.nlm.nih.gov/24439385/",
+    "https://pubmed.ncbi.nlm.nih.gov/22632970/",
+    "https://pubmed.ncbi.nlm.nih.gov/27506793/"
+  ],
+  "sourceDepth": "Actual complete returned abstracts and named selected original/official passages; exact URL/time/hash/access-depth/failure receipts privately retained. No whole-paper or human/clinical approval.",
+  "sourceFiguresCopied": false,
+  "geometrySchematic": true,
+  "themeMethod": "Same geometry and words; palette substitutions only",
+  "minimumNativeFontPx": 36,
+  "independentReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "humanReview": "pending"
+}

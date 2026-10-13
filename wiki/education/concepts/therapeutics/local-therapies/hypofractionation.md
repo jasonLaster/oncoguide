@@ -66,6 +66,14 @@ No universal fraction-size boundary defines moderate or ultra schedules across a
 
 ## Worked example and practice
 
+<img src="./images/start-b-schedule-fields-v1-light.svg" alt="Two START-B schedules showing 25 versus 15 fraction icons and each schedule’s dose size, total dose and elapsed weeks." data-theme-pair />
+
+*START-B compared 50 Gy in 25 fractions over five weeks with 40 Gy in 15 fractions over three weeks after primary surgery for early breast cancer. Icons count fractions and do not represent dose or calendar days. This is a 2013 trial-report illustration, not a replacement plan.*
+
+**Read the illustration:** Which schedule has the larger dose per fraction, and which lasts longer?
+
+**Answer:** 40 ÷ 15 is about 2.67 Gy per fraction, compared with 50 ÷ 25 = 2 Gy. The 25-fraction study schedule lasts five weeks; the 15-fraction schedule lasts three. Arithmetic alone does not establish biological equivalence or an immune optimum.
+
 **Fictional reader:** Rin compares two published START-B study cards. Their real schedules provide a numerical illustration: 50 Gy in 25 fractions gives 2 Gy per fraction; 40 Gy in 15 fractions gives about 2.67 Gy per fraction. These are trial schedules, not recommendations for an individual. The second has a lower total dose but a larger fraction size.
 
 Can subtraction alone establish that the second delivers too little treatment?

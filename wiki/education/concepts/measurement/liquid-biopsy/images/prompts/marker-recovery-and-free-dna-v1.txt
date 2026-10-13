@@ -1,0 +1,14 @@
+Original construction brief — next-gap-145
+Owner: wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells.md
+Actual creative author: agent:/root/batch05_local_treatment_author
+Medium: original SVG authored through private Python construction code; no image-model invocation.
+Learner task (frozen): See marker-selected cells versus unselected cells and DNA fragments
+Gap (frozen): The workflow does not show the capture bias it explains
+Guardrails (frozen): "Show marker-selected/recovered cells separately from missed populations and free DNA fragments. Capture bias and sampling affect counts; absence from the recovered set does not prove no circulating tumor cells."
+Design: consistent 600 × 1000 portrait light/dark native illustrations. Essential visible labels use at least 34 native pixels; check actual pinned 393 × 700 default preview before handoff. Concrete geometry distinguishes observation, physical process and inference.
+Content: Fictional mixed blood sample split by marker enrichment into recovered qualifying cells and a separate unselected set containing cells and free DNA fragments.
+Caption and assumption bounds: This cartoon shows one marker-dependent workflow, not universal recovery rules or a measured proportion. Additional identification rules follow enrichment. Cells that are not selected and free DNA fragments remain distinct; absence from the recovered set does not prove absence from circulation.
+Answered practice: Why are DNA fragments drawn outside the recovered-cell count?
+Answer: A circulating tumor cell is a cell classified under that workflow’s rules. Free DNA fragments are another analyte. Neither a recovered-cell count nor a negative capture dictates a circulating tumor DNA result.
+Execution: python3 private/create-candidates.py in this private successor packet.
+Image generation model: null. Image generation calls: 0.

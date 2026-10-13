@@ -1,0 +1,9 @@
+Original deterministic scientific SVG construction. Model null; zero image-model calls.
+
+Create a restrained original conceptual map of Hanahan2022, not a copy of a published hallmark wheel. Separate what a cancer population can do, processes enabling those abilities, and participating tissue cells. Preserve the original eight-capability table and label image examples as selected. Keep phenotypic plasticity a proposed capability; nonmutational epigenetic reprogramming and microbiomes proposed enabling characteristics; senescent cells emphasized tissue participants. Keep status/version explicit. Not a diagnostic checklist or every-cell requirement; all mutations and inflammation are not uniformly tumor promoting.
+
+Frozen learner task: Organize capabilities, enabling processes and tissue participants as different explanatory levels in a specified framework version.
+Frozen gap: The eight-question table is helpful but there is no visual organization for the distinct 2022 levels. A restrained concept map separating capabilities from enabling processes and participants could prevent a flat twelve-equivalent-hallmarks reading; decorative hallmark icons are not needed.
+Frozen accuracy guardrails (exact original JSON type): ["State the version and provisional status of additions.", "Not a diagnostic checklist or proof every cell carries every capability.", "All inflammation and mutations are not uniformly tumor-promoting."]
+
+Shared geometry, labels and quantities in both themes; palette substitutions only. Essential native labels at least36px for at least16px in393px inline/default preview. Raw source/retrieval/code/render evidence stays private. Editable native SVGs, not an executable reproduction-package promise.
