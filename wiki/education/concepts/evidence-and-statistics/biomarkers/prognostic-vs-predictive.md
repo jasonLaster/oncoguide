@@ -66,6 +66,13 @@ The positive group has worse outcomes under the comparator, supplying prognostic
 
 Real estimates have uncertainty. A statistically significant effect in one subgroup and a nonsignificant effect in another do not establish that effects differ. The interaction comparison itself must be evaluated, with uncertainty and multiple-testing considerations. See [absolute versus relative effects](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt).
 
+
+### A closer look
+
+<img src="./images/matched-marker-risks-and-treatment-effect-scales-b10-v1-light.svg" alt="A fictional randomized trial plots bad-outcome risks by two years on a 0 to 100 percent axis. Marker-positive risks are 40 percent with comparator and 20 percent with treatment; marker-negative risks are 20 and 10 percent. Named absolute reductions are 20 and 10 percentage points, while both named treatment-to-comparator risk ratios equal 0.5. Exact invented quantities lack sampling uncertainty; separate subgroup significance is not an interaction test." width="600" height="1000" data-theme-pair>
+
+*Same halving, different absolute gaps: in this fictional two-year trial, 40% → 20% and 20% → 10% mean 20- and 10-point reductions but equal 0.5 risk ratios. Real interaction comparisons need uncertainty; subgroup significance alone cannot settle them.*
+
 ## Why it matters in cancer
 
 A recurrence-associated blood signal may identify a higher-risk group without identifying which added treatment helps. A marker of drug response in one disease or regimen may not transfer to a different treatment setting. [Clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) asks a further question: does using the marker to guide decisions improve outcomes enough to justify harms?

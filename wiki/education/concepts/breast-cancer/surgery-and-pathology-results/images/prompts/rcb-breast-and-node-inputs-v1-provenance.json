@@ -1,0 +1,70 @@
+{
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "sourceOwnerPreimageSHA256": "558b9e1f2e70aa2762bff4d7b26d2fa04ad54cc87cc88b1a2ded4dc3125b05bb",
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "technique": "Original source-code SVG pair constructed directly in private Python authoring script",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "exactBrief": {
+    "file": "rcb-breast-and-node-inputs-v1.txt",
+    "sha256": "56c5b8aba484a2b0197cf4bb29a7243ce232dc4c892dcece20ab44fd186c200b"
+  },
+  "outputs": [
+    {
+      "file": "rcb-breast-and-node-inputs-v1-light.svg",
+      "theme": "light",
+      "sha256": "fdffe8ee25b48503dbdcd5d85851a71560e6d619da706f72ce34bc500be5067d"
+    },
+    {
+      "file": "rcb-breast-and-node-inputs-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "f1689ba11f239e6034a6add8ed8301b541a7bd4234111d44e240e0259288a0f1"
+    }
+  ],
+  "candidateOwnerSHA256": "3d27768a0c215da705305bca81dfdef6732f7bce42ec4c70bf3fffd47d3ecb83",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+    "pageSHA256": "527f11e565b2fe8cea954212b30917d1fea49d33a1da03ef2530435635e6add6",
+    "targetSection": "## How it works",
+    "learnerTask": "Keep tumor-bed area, cancer-only in-situ share and nodal contribution distinct before combining an RCB score.",
+    "gap": "The equations and reproducible numeric example teach score arithmetic, but there is no physical denominator visual. Reuse the tumor-bed-cellularity owner's area-denominator illustration and add a compact input grouping if needed; this avoids a competing RCB cartoon or self-scoring tool.",
+    "accuracyGuardrails": [
+      "RCB dimensions and percentages belong to the protocol, not sequencing purity.",
+      "Nodal contribution remains separate; no personal recurrence percentage.",
+      "Do not apply the method to neoadjuvant endocrine therapy."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/70",
+    "oneBasedRow": 71,
+    "originalTaskRowSHA256": "31e14650967f5975db967b316695bcf76a1911d68acd8642693a2ff1b68ccbc0",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+  "reuseExtensionRationale": "Existing area-denominator art is reused unchanged; this extension separates additional breast dimensions from regional-node inputs absent from it.",
+  "reviewStatus": "Independent scientific/native/task-fit review pending; human expert and learner review pending; no review credit",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "canonicalAssignment": false,
+  "publication": "not started",
+  "publicReferences": [
+    {
+      "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf",
+      "readScope": "web full extracted seven-page method and selected grouping passages read; no copied source figure",
+      "supports": "breast bed dimensions and separate area fractions, node count and metastasis diameter"
+    },
+    {
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "readScope": "Version metadata and note K selected text read through web extract, pages 33-34; not a full protocol review",
+      "supports": "RCB not validated/designed for neoadjuvant endocrine treatment; breast and regional-node quantities distinct"
+    }
+  ]
+}

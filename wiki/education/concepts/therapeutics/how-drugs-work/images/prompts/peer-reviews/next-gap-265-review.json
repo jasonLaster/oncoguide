@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-265",
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+  "author": "agent:/root/batch11_pathology_symptoms_author",
+  "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+  "reviewedAtUTC": "2026-10-14T20:04:57.258Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "04505107c7bfa4e753dfabdce587d2ca2b2e414d915293cced883d932932d1c4",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "preimageOwnerSHA256": "8ab299ff01e36de9ff5e631dd5e7bc68224db1e7fe0768595fd2ec8a99aa08ec",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "pageSHA256": "8ab299ff01e36de9ff5e631dd5e7bc68224db1e7fe0768595fd2ec8a99aa08ec",
+    "targetSection": "## Try it",
+    "learnerTask": "Compare equal dose/total at two cycle intervals",
+    "gap": "Calendar arithmetic is entirely prose, despite being inherently visual",
+    "accuracyGuardrails": "Fictional schedules; actual delivered vs planned; no safe interval or benefit claim",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/344",
+    "oneBasedRow": 345,
+    "originalTaskRowSHA256": "6597bdcf9ded1bfee375dd237007902ca9ad3c39a1eb2d99c1d340f3a2a4a594",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+      "theme": "light",
+      "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Only the exact pre-existing selected equal-amount/different-window light/dark pair is reused. Four equal fictional 10-unit administrations and a 40-unit total appear on a shared week scale; the declared final-interval convention yields 40/4 versus 40/8. The added context explicitly distinguishes that reused 4/8-week window from the existing 3/2-week example and separates planned intensity from actual delivery, safety and benefit. The native pair and all original support are unchanged; the current author receives reuse-assessment attribution only, with no new-illustration credit and original creator UNKNOWN where unestablished.",
+    "baselinePageSHA256": "8ab299ff01e36de9ff5e631dd5e7bc68224db1e7fe0768595fd2ec8a99aa08ec",
+    "learnerTask": "Compare equal dose/total at two cycle intervals",
+    "gap": "Calendar arithmetic is entirely prose, despite being inherently visual",
+    "accuracyGuardrails": "Fictional schedules; actual delivered vs planned; no safe interval or benefit claim",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md"
+  },
+  "reviewScope": "Independent scientific, native, selected learner-task, attribution and bounded custody assessment of exact private candidate. Not final package, release or human approval.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "guards/preimage/wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+        "sha256": "8ab299ff01e36de9ff5e631dd5e7bc68224db1e7fe0768595fd2ec8a99aa08ec",
+        "bytes": 6383,
+        "reviewCopy": "input/preimages/wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+        "sha256": "04505107c7bfa4e753dfabdce587d2ca2b2e414d915293cced883d932932d1c4",
+        "bytes": 7364,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+        "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905",
+        "bytes": 6591,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+        "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d",
+        "bytes": 6591,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1-next-gap-119-independent-task-fit.json",
+        "sha256": "0a0a2e4d125b45bb1f26eaf25c84fbaba1d7bd3cb9476a99776293df8f7c567d",
+        "bytes": 8902,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1-next-gap-119-independent-task-fit.json",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1-provenance.json",
+        "sha256": "454bc02bbdd4cdcd6c95e3ff0e27b942d1aed59137f3d07240e8b29b065872de",
+        "bytes": 2802,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1-provenance.json",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1.txt",
+        "sha256": "c469e43f35d1f0c5396ca473806a270fc1a8851fbd45ac2d878bacbc0872383b",
+        "bytes": 763,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/equal-amounts-different-time-windows-v1.txt",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "guards/frozen-audit.json",
+        "sha256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+        "bytes": 924329,
+        "reviewCopy": "input/guards/frozen-audit.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/exact-selection.json",
+        "sha256": "f4b5143cd83f929351ac16254285e27b41584766f53c00698e29b16078b3bf83",
+        "bytes": 45755,
+        "reviewCopy": "input/guards/exact-selection.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/shared-owner/wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+        "sha256": "7626751684091f6fae07202e5f9ac743cbc63ba8bff8312f0da6bdfa30945bcf",
+        "bytes": 7895,
+        "reviewCopy": "input/shared-owners/wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+        "role": "retained shared-owner guard"
+      }
+    ],
+    "frozenAndCurrentProof": "frozen-and-current-proof.json",
+    "insertOnlyProof": "custody-checks.json"
+  },
+  "nativeAndReaderReview": {
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinFilesIndependentlyVerified": 87,
+    "fixtureHTMLFreshCompilationMatchesOwnCandidate": true,
+    "nativeThemeCount": 2,
+    "completeArticleThemeViewportCount": 4,
+    "inlineCount": 4,
+    "theaterCount": 4,
+    "freshCaptures": [
+      {
+        "path": "captures/next-gap-265-equal-amounts-different-time-windows-v1-light.svg.png",
+        "sha256": "91fdbbf72e916248ebbd71860f201bf19320f0a87c2306ab47616e2aee9275cc",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-265-equal-amounts-different-time-windows-v1-dark.svg.png",
+        "sha256": "61192b55a80f6a8a63e8e9d58e824f0e87d2de82310441acbc252f771d23f1b9",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-265-light-mobile-page.png",
+        "sha256": "be3f014d248e9985fe15d842d7bb7972b95aee94dd9a32908d7eb4820ec24984",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 4699
+        }
+      },
+      {
+        "path": "captures/next-gap-265-light-mobile-image0.png",
+        "sha256": "213a73dbc1d0d7035801a8627c8453d6049e02b6fbd47dae2588ce66f0dcab07",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-265-light-mobile-theater0.png",
+        "sha256": "f81e917772d11d63e5a2bec945f09cc234c471419037c9472967c8268ed73bc4",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-265-light-desktop-page.png",
+        "sha256": "8acfb4a83bf9a42de81f943b2e214cb67f1607fa7fac0add7a195d19eea64234",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 3868
+        }
+      },
+      {
+        "path": "captures/next-gap-265-light-desktop-image0.png",
+        "sha256": "221be33685d988c1c9fe005174aed86afe4af14a04da0552bf9196e17c3f98c8",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-265-light-desktop-theater0.png",
+        "sha256": "7af3cac2591d19341485c32086c5349c33298e96ed9a1755e19171840b7b1d37",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-265-dark-mobile-page.png",
+        "sha256": "a2e176d1f4150b9b640994dc7077a4cf7777da25ea86bc6be843741489a59dc1",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 4699
+        }
+      },
+      {
+        "path": "captures/next-gap-265-dark-mobile-image0.png",
+        "sha256": "4a9334aa657552eee7c25d385859a3ca4d67df9be0d6c64d4b46318ab52d1157",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-265-dark-mobile-theater0.png",
+        "sha256": "313096494aa36f8c01b90613a3d73c941cc2f8f8b920391dcdfbeb24418f9718",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-265-dark-desktop-page.png",
+        "sha256": "f409cdf8e7cd648e632404c60eab33dca422b8d1029bda126ff1517dc37850e3",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 3868
+        }
+      },
+      {
+        "path": "captures/next-gap-265-dark-desktop-image0.png",
+        "sha256": "513ccd9208be407e4c5fe7dd186540fa316eb5098dad0c8a50870c217bff2a35",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-265-dark-desktop-theater0.png",
+        "sha256": "51bc5048b6c5cf9d54f5e597305eeebb72cfa960bebba47a5d818d09a165c93c",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      }
+    ],
+    "actualPixelInspection": "All owner native themes, complete-page layout boards, inline/theater views, and mobile/wide section-context crops personally inspected; boards are derived convenience views, actual captures retained.",
+    "limits": [
+      "Original creative author is unestablished in this retained timing provenance; UNKNOWN is preserved. This worker created no timing illustration.",
+      "Known pinned renderer defect independently reproduced: Enter opens and Escape closes; focus returns to BODY instead of invoking image in every inspected view. No overall accessibility approval.",
+      "Private article/theater fixture only; no production navigation/authentication or live delivery verification."
+    ]
+  },
+  "sourceReview": {
+    "id": "next-gap-265",
+    "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+    "reviewedAtUTC": "2026-10-14T20:04:57.220Z",
+    "readScope": "Alberto 1995 complete abstract defines dose intensity as drug amount per unit time and distinguishes actual from prescribed intensity; the abstract was freshly retrieved through Europe PMC after PubMed returned no substantive body. EBCTCG 2019 complete abstract describes specified early-breast-cancer randomized strategies, with broadly comparable total usage and supportive care context. Neither source turns this invented calendar into a safe interval, dose or treatment-benefit estimate. Full papers were not read.",
+    "evidence": [
+      {
+        "file": "sources/primary-30739743.json",
+        "sha256": "eae5f9ecf879989219c2e1ebae8e256c716a94525e5e86eabae342e5b91b668f",
+        "bytes": 24370
+      },
+      {
+        "file": "sources/primary-7626852.json",
+        "sha256": "f19fb127be04cad099d19eeb928db54767acdd7d74b0f29c747e53a9a03d57c9",
+        "bytes": 4162
+      }
+    ],
+    "humanExpertReview": "pending",
+    "fullPrimaryPaperReadingClaim": false
+  },
+  "creativeAuthor": null,
+  "newIllustrationCreated": false,
+  "reuseOnly": true,
+  "originalCreatorStatus": "Exact original support preserved. Historical attribution is not promoted; UNKNOWN where unestablished, including task 265 timing pair.",
+  "rootSoleIntegratorPublisher": true,
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "publication": "not started",
+  "delivery": "not started",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0
+}

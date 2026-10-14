@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-231",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md",
+  "author": "agent:/root/batch10_author_group1",
+  "authorRole": "Actual direct SVG creative author",
+  "creativeAuthor": "agent:/root/batch10_author_group1",
+  "originalCreator": null,
+  "artworkCreatorStatus": "Actual named agent author; no image-model call",
+  "reviewer": "agent:/root/batch10_review_group1",
+  "independentReviewer": "agent:/root/batch10_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "actualReviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAtUTC": "2026-10-14T00:06:48.454718+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "scienceScope": "Bounded visual mechanism and learner task; not comprehensive whole-owner medical or guideline certification",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "kind": "new-pair-candidate",
+  "newArtworkPairsCount": 1,
+  "currentOwnerSha256": "48641eef74d1cdd94a21de19c84f4d1391744fa507d9a7953cb82d7a152b2917",
+  "baselinePageSHA256": "d3edff0894ce233e181738a4ba28243bbffba5d8cfb1a5d16d28ece0db56ac36",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/381",
+  "frozenRowSHA256": "46a8b437eea88d082e49cb406b6b62820a6d6de8724f88dacdf5b402500d11c5",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "The first two scenes keep the same labeled square X and receptor contact while the target cell changes from tumor to healthy tissue. The third uses a differently shaped Y on an X-negative healthy cell, with no X present. This makes molecular identity and tissue selectivity separate visible comparisons. Recognition contact is not drawn as measured killing or injury; living accessibility, injury testing, fictional status and absence of incidence or safety certification are explicit. Morgan and Linette are scoped to their distinct case and cross-reactivity evidence; the generic scene is not represented as their literal CAR or peptide-HLA molecular structure.",
+    "frozenPageSHA256": "d3edff0894ce233e181738a4ba28243bbffba5d8cfb1a5d16d28ece0db56ac36",
+    "baselinePageSHA256": "d3edff0894ce233e181738a4ba28243bbffba5d8cfb1a5d16d28ece0db56ac36",
+    "actualTeachingPreimageSHA256": "144d91418e1186b2f621966b6c86c84cc45aa7c3d342f9f5f09272f3684cc65b",
+    "learnerTask": "Compare intended X on tumor/healthy tissue with unintended Y recognition",
+    "gap": "No paired physical scene makes molecular specificity vs tissue selectivity memorable",
+    "accuracyGuardrails": "Same intended target vs cross-reactivity; accessibility not staining alone; fictional no incidence or safety certificate",
+    "targetSection": "## Worked example",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Original frozen audit baseline remains distinct from current immutable teaching preimage and candidate owner SHA; no accounting or adoption update."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-light.svg",
+      "sha256": "f11f9a17e1879795255a9c212fec67e64491bac196d0b29aaf25b6d723122012",
+      "bytes": 7496,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1420,
+        "viewBox": "0 0 780 1420"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-dark.svg",
+      "sha256": "929b754fd642f847a018db29d7a376fcc958638c634a229258ae156ec457db36",
+      "bytes": 7496,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1420,
+        "viewBox": "0 0 780 1420"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-dark.svg",
+        "sha256": "929b754fd642f847a018db29d7a376fcc958638c634a229258ae156ec457db36",
+        "bytes": 7496
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-light.svg",
+        "sha256": "f11f9a17e1879795255a9c212fec67e64491bac196d0b29aaf25b6d723122012",
+        "bytes": 7496
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/intended-x-and-unintended-y-recognition-b10-v1-provenance.json",
+        "sha256": "6e2e54e68ee99138e76c0ed2505fe26f258c99270841955e1c8c3bc14518bb67",
+        "bytes": 1753
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/intended-x-and-unintended-y-recognition-b10-v1.txt",
+        "sha256": "55afa1efc73f119bd1708ba04bab103b52964cd23d74375df70d3c9181017712",
+        "bytes": 941
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md",
+        "sha256": "48641eef74d1cdd94a21de19c84f4d1391744fa507d9a7953cb82d7a152b2917",
+        "bytes": 9255
+      }
+    ],
+    "currentCandidateOwnerSHA256": "48641eef74d1cdd94a21de19c84f4d1391744fa507d9a7953cb82d7a152b2917",
+    "sourcePreimageSHA256": "144d91418e1186b2f621966b6c86c84cc45aa7c3d342f9f5f09272f3684cc65b",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "fab511118fc5c8fc642e6e0572cb2240b0c929f41191ee25e17093ce57f75483",
+    "authorManifestSHA256": "2fe37a704735a3bb096bfb1cd6afb2417a6ea129f08cf99c52fbc7167e20c5dc",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "authorChecksumEntriesVerified": 772,
+    "publicInventoryFilesVerified": 38,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalsByteExact": true,
+    "retainedZIPIntegrityChecked": false,
+    "insertOnlyPreimageRecovery": true,
+    "currentWorkingOwnerPreimageExact": true,
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "rejectedDrafts01Through03Preserved": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "unrelatedOwnerBodiesRead": false
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20179677/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20179677%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/20179677.json",
+      "sha256": "aa67498af3a3be938b534955c851ca01a95d89c2aa839254a6b3e38930db0f8a",
+      "supports": "A single ERBB2 CAR T case reported fatal respiratory toxicity; lung ERBB2 recognition was explicitly proposed, not established universal causality or class incidence."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23770775/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23770775%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/23770775.json",
+      "sha256": "c8f87f811e9658710605911b9a882be435eb284052ffc9ead36c09eef727015e",
+      "supports": "An affinity-enhanced MAGE-A3 TCR recognized an unrelated titin peptide in functional cardiomyocyte testing; unintended recognition differs from intended target on healthy tissue."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Independent seven-owner scientific/task-fit, source-depth, custody, both native themes and fresh reader capture review; no historical approval inherited.",
+    "sourceReadDepth": "Actual independent reads are listed. Ancillary retained owner citations are not all recertified; no comprehensive guideline, entire owner science, human or source-fit adoption certification.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Unchanged private pinned author-built fixture served at 4711, independently captured by reviewer. No production backend/header/navigation, physical mobile, cross-browser, touch or whole-page accessibility certification. Native images were emitted individually; mobile captures inspected in literal-size sheets, desktop inline/theater paint in context sheets that display tools may downscale. Full reader captures retained as context, not whole-page approval. Initial server unavailable; reviewer started unchanged server only."
+  },
+  "nativePixelAssessment": {
+    "assessment": "X versus Y, tumor versus healthy labels, no-X third scene and all four lower limitation lines remain readable; Same X labels sit close to the first two panel bottoms but do not clip or collide.",
+    "mobileReadability": "Read every task-relevant label and lower guard line at actual 390px capture scale; small text is legible in this inspection, human learner acceptance pending.",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.420378521126763,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Failed in all four owner theme/size checks; independent additional check confirmed BODY. Known pinned renderer defect retained; no runtime changes or overall accessibility approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-231-light-reading.png",
+      "sha256": "7dfcb4f3d426bf6941c10bdb405b61985131759f6d66534a6177fa415c080dcf"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-231-dark-reading.png",
+      "sha256": "396b3ef7142ee6baacc8f826ef532f1d09d3efdc60bc114fd8d32999b19df7ae"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-231-light-mobile-inline.png",
+      "sha256": "21b26f09179a64814012691a7e706487f84c2c7b0b0192232dacc686c9c61469"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-231-light-mobile-theater.png",
+      "sha256": "893455d95029f2645e24ac1a5db6fa88d631bf10689e6d4b41d1a459dee205bd"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-231-light-desktop-inline.png",
+      "sha256": "86b1d1020b75cd22caa57c6dc8689374ce1655d7e69fd602d05119a8543e0224"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-231-light-desktop-theater.png",
+      "sha256": "729d4117148b9f9c6bd163f6fbc8c735d230651c51dc70f9a90252c838cb84b3"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-231-dark-mobile-inline.png",
+      "sha256": "a160b729cd189a2f5d48452a01087cb12c7d80885554e93860fc0a916fe6e8e2"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-231-dark-mobile-theater.png",
+      "sha256": "9342c0de6656a48da068215f591cbfcfc2174d917b13dbc66bf655be85eb6559"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-231-dark-desktop-inline.png",
+      "sha256": "090eb9447b43d18e55eade4c178406b794927b8916f394f6f9d5303cc179fec4"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-231-dark-desktop-theater.png",
+      "sha256": "87699fbd9a2485d937238e013b1eb2f61c4f9587fc5c13f30a9dd31f5969633c"
+    }
+  ],
+  "method": "New pairs directly authored SVG; historical reuse authorship remains unknown. This review made no artwork edits.",
+  "imageModelCalls": 0,
+  "imageModelCallsScope": "Current review only; historical generation is not reconstructed.",
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "existing-renderer-accessibility-defect",
+      "finding": "Escape closes the viewer but restores focus to BODY rather than the invoking image.",
+      "blocksArtworkTaskFit": false,
+      "overallAccessibilityApproval": false
+    }
+  ]
+}

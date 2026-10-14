@@ -1,0 +1,10 @@
+Actual original authored SVG direction
+Author: agent:/root/batch10_author_group2
+Tool: local Python SVG authoring; no image model call.
+Source: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: Attach RUO to intended purpose, CLIA to a laboratory and authorization to a product/use.
+Scene: Three distinct objects carry their own labels: RUO belongs to the intended research purpose of a product, CLIA certification attaches to a laboratory building, and authorization attaches to the product and intended-use record. Separate scenes have no ladder or progression arrows. A note identifies an LDT by its development and use within a laboratory, not by approval status. Badges alone do not establish clinical utility, patient benefit or payment.
+Accuracy guardrails, verbatim: Attach RUO, laboratory certification and product/use authorization to their different objects. Do not arrange them as a permission ladder or infer clinical validity, utility or payer coverage from a badge.
+Both themes: identical geometry, objects, labels, connectors; warm pale ground and dark ink versus quiet deep ground and pale ink. Arial/Helvetica, minimum label 28 px; native 600 x 1000. All drawings schematic; no measured quantities.
+Renderer: 5cb06c95f00ceb74ab86b1f46f5face9d49497e0.
+Clinical and learner review pending. Original creators of retained art remain unknown unless already documented.

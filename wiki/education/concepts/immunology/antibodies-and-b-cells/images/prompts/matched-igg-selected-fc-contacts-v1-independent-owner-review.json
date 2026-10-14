@@ -1,0 +1,869 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-248",
+  "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "learnerTask": "Compare unchanged target-binding regions with changed Fc interactions and understand why silencing selected interactions does not turn every antibody function off.",
+    "gap": "The map and practice correctly separate binding and selected Fc interactions, but a matched-molecule structural comparison would clarify what changes and what stays the same. Reuse the antibody-structure reference rather than inventing an all-or-nothing Fc switch.",
+    "accuracyGuardrails": [
+      "Class switching and affinity maturation are distinct processes.",
+      "Keep Fc receptor/complement interactions distinct from FcRn recycling.",
+      "No universal half-life or safety inference from Fc silencing."
+    ],
+    "baselinePageSHA256": "85ed5c448c2295d4ab0a455d0e325cd341c097a130fc7414de4c5e1408e2f9f1",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The matched IgG silhouettes hold both green recognition tips constant while changing the Fc-colored region. Separate receptor/complement contacts and the FcRn vesicle prevent an all-or-nothing Fc switch or a half-life inference from effector attenuation. The retained canonical domain map supplies anatomy; this addition supplies the matched comparison missing from the frozen task. Class switching versus affinity maturation remains distinct in the unchanged prose. The caption and question ask the learner to identify what is held constant and which measurement is still missing."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+      "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+      "theme": "light",
+      "bytes": 5472
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-dark.svg",
+      "sha256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631",
+      "theme": "dark",
+      "bytes": 5472
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+        "sha256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+        "qualification": "reviewed proposed current owner"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+        "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-dark.svg",
+        "sha256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/matched-igg-selected-fc-contacts-v1.txt",
+        "sha256": "d4c45657d6a13aa496c971ed9510fdb2e451973700e0a2745115eb850e6d374d",
+        "qualification": "new extension saved brief"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/matched-igg-selected-fc-contacts-v1-provenance.json",
+        "sha256": "c6f8a62b22aa99b472b0fdd9461484c134ad6acd7ca939df9eb105238d51acda",
+        "qualification": "new extension author provenance"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/matched-igg-selected-fc-contacts-v1-independent-source-guard.json",
+        "sha256": "adf48f252ced0240d41d6212cf03572561537c9887e5a5d4dda54d41c23d2cc9",
+        "qualification": "independent source guard"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/batch08-current-baseline/typical-igg-domains-binding-and-partners-v1-independent-owner-review.json",
+        "sha256": "e39fa07868071961826e650cf97c2c29f85c07df98ed411f987881f4b60883de",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/typical-igg-domains-binding-and-partners-v1-provenance.json",
+        "sha256": "8f9c7198076dfd59cd52d7194394f680aef2a61c53b30421dd68976cbff2766e",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/typical-igg-domains-binding-and-partners-v1.txt",
+        "sha256": "9c0752732ff1e3bff90df38406fb1f07ab25be2dbb4028022f23375873c41eab",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-dark.svg",
+        "sha256": "a3f15d9cb1a0d6b5aba3bc22d87a06f24c0988471243c2a9c96cb118cb1d77be",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-light.svg",
+        "sha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      }
+    ],
+    "authorCandidateSeal": {
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/seal.json",
+      "sha256": "b800ed4bf84b8cbc32aa8945fd4c4a778a7b2f22e9fa779a5145470d7fae3f2e"
+    },
+    "originalAttribution": "Historical creators and UNKNOWN creator values retained verbatim; reviewer claims no creative authorship of retained assets.",
+    "retainedSupportNotOutputs": true
+  },
+  "reviewScope": "Seven selected G1 task-fit reviews only; this receipt covers this owner and its exact two new natives. No canonical adoption, delivery or release approval.",
+  "checks": {
+    "exactInverseInsertion": true,
+    "metadataAndOriginalProseAndMermaidPreserved": true,
+    "frozenTaskWordingAndSharedOwnerPreserved": true,
+    "sameGeometryAndLabelsAcrossThemes": true,
+    "sharedArtRetainedAtCanonicalLocation": true,
+    "focusedExtensionBeyondRetainedDiagram": true,
+    "native": [
+      {
+        "key": "next-gap-248",
+        "theme": "light",
+        "nativeSHA256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-reading.png",
+        "captureSHA256": "b809808e1d42cb7d17f4d4a66964a54959e35ab62b187b31de2554968a1eb751",
+        "viewBox": "0 0 600 1100",
+        "textCount": 20,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Same tips, different contacts",
+            "x": 28,
+            "y": 14,
+            "width": 427.265625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "A matched IgG comparison",
+            "x": 28,
+            "y": 59,
+            "width": 311.734375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Hold recognition constant",
+            "x": 78,
+            "y": 130,
+            "width": 338.53125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Comparison",
+            "x": 82.921875,
+            "y": 170,
+            "width": 140.15625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Selected change",
+            "x": 342.609375,
+            "y": 170,
+            "width": 192.78125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Same green target-binding tips",
+            "x": 121.5703125,
+            "y": 379,
+            "width": 356.859375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 473,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Ask which contact changed",
+            "x": 78,
+            "y": 470,
+            "width": 361.46875,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Fc gamma",
+            "x": 45,
+            "y": 529,
+            "width": 119.328125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "receptor",
+            "x": 45,
+            "y": 561,
+            "width": 96.890625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Complement",
+            "x": 325,
+            "y": 529,
+            "width": 148.609375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "C1q",
+            "x": 325,
+            "y": 561,
+            "width": 45.484375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Reduced is a tested comparison",
+            "x": 116.890625,
+            "y": 675,
+            "width": 366.21875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 773,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Recycling is a separate job",
+            "x": 78,
+            "y": 770,
+            "width": 345.484375,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "FcRn in a vesicle",
+            "x": 235,
+            "y": 839,
+            "width": 188.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Binding? Exposure?",
+            "x": 235,
+            "y": 871,
+            "width": 226.875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Measure separately.",
+            "x": 235,
+            "y": 903,
+            "width": 229.625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Schematic contacts; no safety ranking",
+            "x": 81.6328125,
+            "y": 1040,
+            "width": 436.734375,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      },
+      {
+        "key": "next-gap-248",
+        "theme": "dark",
+        "nativeSHA256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-reading.png",
+        "captureSHA256": "6ec82c90b251d9350e7e3944d7832cafcdee2250507d49de455f45d35199cede",
+        "viewBox": "0 0 600 1100",
+        "textCount": 20,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Same tips, different contacts",
+            "x": 28,
+            "y": 14,
+            "width": 427.265625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "A matched IgG comparison",
+            "x": 28,
+            "y": 59,
+            "width": 311.734375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Hold recognition constant",
+            "x": 78,
+            "y": 130,
+            "width": 338.53125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Comparison",
+            "x": 82.921875,
+            "y": 170,
+            "width": 140.15625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Selected change",
+            "x": 342.609375,
+            "y": 170,
+            "width": 192.78125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Same green target-binding tips",
+            "x": 121.5703125,
+            "y": 379,
+            "width": 356.859375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 473,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Ask which contact changed",
+            "x": 78,
+            "y": 470,
+            "width": 361.46875,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Fc gamma",
+            "x": 45,
+            "y": 529,
+            "width": 119.328125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "receptor",
+            "x": 45,
+            "y": 561,
+            "width": 96.890625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Complement",
+            "x": 325,
+            "y": 529,
+            "width": 148.609375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "C1q",
+            "x": 325,
+            "y": 561,
+            "width": 45.484375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Reduced is a tested comparison",
+            "x": 116.890625,
+            "y": 675,
+            "width": 366.21875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 773,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Recycling is a separate job",
+            "x": 78,
+            "y": 770,
+            "width": 345.484375,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "FcRn in a vesicle",
+            "x": 235,
+            "y": 839,
+            "width": 188.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Binding? Exposure?",
+            "x": 235,
+            "y": 871,
+            "width": 226.875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Measure separately.",
+            "x": 235,
+            "y": 903,
+            "width": 229.625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Schematic contacts; no safety ranking",
+            "x": 81.6328125,
+            "y": 1040,
+            "width": 436.734375,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      }
+    ],
+    "articleAndTheater": [
+      {
+        "key": "next-gap-248",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+        "candidateSHA256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 104.515625,
+            "width": 345.984375,
+            "height": 634.328125
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 634.3046875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 627
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-mobile-inline.png",
+            "sha256": "cd49194f001a163536ed8e156bf0006859d058a6188145ef5910892931f2fea4",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "2e3a3466f6c97b3caf7b582da902d7fd20cc1668282d09460fdc7ec929b3e98b",
+            "crop": {
+              "x": 22,
+              "y": 105,
+              "width": 346,
+              "height": 634
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-mobile-theater.png",
+            "sha256": "a2f486a4e84f2a77eaee01b3f472ab454d962f3aacb03f7fe67110aad0997ee9"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-mobile-zoom150.png",
+          "sha256": "a7d046bd2b112970681964487a3fe92191e65eb923da3027aa60b624d9fafc21"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-248",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+        "candidateSHA256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 599.953125,
+            "width": 600,
+            "height": 1100
+          },
+          "paint": {
+            "width": 600,
+            "height": 1100
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 493.09090909090907,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.723636363636363,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-desktop-inline.png",
+            "sha256": "7c7a28b1cb40847f14a0df0545f4b1968f5db64ec7918e71969cc2f9703d91cc",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "5fe61d7502fe3f83684835f687c379d727132780a0a65cf22d5a02893337afd8",
+            "crop": {
+              "x": 310,
+              "y": 600,
+              "width": 600,
+              "height": 1100
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-desktop-theater.png",
+            "sha256": "ef791bd70bf71eca2c9e6d17acd0399fbf15e3bc7e99b7dcc3ff1c3c6f210fd5"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-desktop-zoom150.png",
+          "sha256": "82a35cd5a3b39ad499a70b9cfb2237a9f9fb3983003d70c976ca47c2cd5d743f"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-248",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631",
+        "candidateSHA256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 104.515625,
+            "width": 345.984375,
+            "height": 634.328125
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 634.3046875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 627
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-mobile-inline.png",
+            "sha256": "488fc0b0fa54aaf1ab596b048d625343d8188eac6d8acd92267b3fbf124a228e",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "e50ce6816394912e310b53bc931223de0c7922b7800e1fb342e1e97684c73449",
+            "crop": {
+              "x": 22,
+              "y": 105,
+              "width": 346,
+              "height": 634
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-mobile-theater.png",
+            "sha256": "96b41a06fa509def9f1618b80fcf04ec9207df556fe426bb39a94229c61068ed"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-mobile-zoom150.png",
+          "sha256": "1a89387f59f12e3a02e71e9bd151345e1219d1e14f5cafeeec913807c68099b2"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-248",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631",
+        "candidateSHA256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 599.953125,
+            "width": 600,
+            "height": 1100
+          },
+          "paint": {
+            "width": 600,
+            "height": 1100
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 493.09090909090907,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantibodies-and-b-cells%2Fimages%2Fmatched-igg-selected-fc-contacts-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.723636363636363,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-desktop-inline.png",
+            "sha256": "5789969e46fee074fc372470fae8133d80d286fcfb9342309a9512c7e874b8d6",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "a1b80eea7ac532f923002b2c2c66965e5787cc01dd6636c9f37276811155b56e",
+            "crop": {
+              "x": 310,
+              "y": 600,
+              "width": 600,
+              "height": 1100
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-desktop-theater.png",
+            "sha256": "026c075b18343a9dc44e45dec973cd792bf259aa0bb803df8776712420dff137"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-desktop-zoom150.png",
+          "sha256": "9bd6705d8a0d58be31b96296d543fbc1c9ffa53e0157afd1ae57ccf63df49837"
+        },
+        "pageErrors": []
+      }
+    ],
+    "nativeZoom200": [
+      {
+        "id": "next-gap-248",
+        "theme": "light",
+        "scale": 2,
+        "nativeSHA256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-light-native-zoom200.png",
+        "captureSHA256": "2d454eb05b240d1394d8d69586432ce1b01ad33ec32aa85bf11dceb1fa628e3d",
+        "width": 1200,
+        "height": 2200
+      },
+      {
+        "id": "next-gap-248",
+        "theme": "dark",
+        "scale": 2,
+        "nativeSHA256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-248-dark-native-zoom200.png",
+        "captureSHA256": "64d17e62c5a3f6bcbacf921037c36f47bb28dcabd4330d245a5a29620ba51048",
+        "width": 1200,
+        "height": 2200
+      }
+    ],
+    "personalPixelInspection": "Both native themes, both 390px article themes with captions and immediate context, both wide article themes, plus 200 percent full native SVG captures personally inspected. Synthetic CSS-zoom stress also inspected and separately qualified.",
+    "fixture": "87 verified exact 5cb06c95f00ceb74ab86b1f46f5face9d49497e0 Git blobs; reviewer copy on :4821; private pinned article and ImageTheater only, not full production application.",
+    "focusQualification": "Enter opens and Escape closes. Escape returns focus to BODY rather than the triggering image; known retained renderer defect, not fixed or certified as conforming.",
+    "zoomQualification": "Full native SVG at 200 percent remains legible and contains all labels. Synthetic root CSS zoom 150 percent on the modal can push lower content outside the viewport; this stress is not actual browser zoom and provides no blanket application zoom certification."
+  },
+  "sourceGuard": {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/matched-igg-selected-fc-contacts-v1-independent-source-guard.json",
+    "sha256": "adf48f252ced0240d41d6212cf03572561537c9887e5a5d4dda54d41c23d2cc9"
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "pending",
+  "publication": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "findings": [],
+  "correctionIds": []
+}

@@ -47,6 +47,10 @@ Affinity tuning, recognition logic and control switches may help particular desi
 
 ## Worked example
 
+<img src="./images/intended-x-and-unintended-y-recognition-b10-v1-light.svg" alt="Three stacked fictional scenes show a blue engineered cell recognizing square X on a rose tumor cell, the same X on a sage healthy cell, and a differently shaped unintended Y on an X-negative healthy cell. Surface contact is shown; injury, accessibility and safety need separate evidence." width="780" height="1420" data-theme-pair="./images/intended-x-and-unintended-y-recognition-b10-v1-dark.svg" />
+
+*Molecular specificity and tissue selectivity answer different questions. In these fictional scenes, the intended X is shared by tumor and healthy tissue; unintended Y is a separate recognition problem. Contact is not a measured injury, and staining alone cannot settle living accessibility or safety. [Morgan 2010, case report](https://pubmed.ncbi.nlm.nih.gov/20179677/); [Linette 2013, cross-reactivity experiments](https://pubmed.ncbi.nlm.nih.gov/23770775/).*
+
 A fictional receptor kills X-positive tumor cells. In a separate test it also kills normal airway cells carrying the same X. Another normal-cell population lacks X but is still killed; investigators find binding to a different protein, Y.
 
 **Try it:** Which observation is on-target, off-tumor, and which is off-target? Has a low tumor/normal staining ratio settled safety?

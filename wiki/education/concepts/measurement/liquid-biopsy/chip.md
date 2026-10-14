@@ -33,6 +33,17 @@ The analogy ends at cause: a larger clone is not automatically cancer, and a mut
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg" width="600" height="1290" alt="Parallel schematic blood-cell and solid-tumor compartments release DNA into a shared plasma pool. In a separate fictional comparison the same generic variant V is detected in plasma and blood-cell DNA, but not detected in the sampled tumor material. The final panel says this supports a blood-cell contribution while tumor non-detection remains bounded by sampling and assay limits." data-theme-pair>
+<p class="cartoon-caption">Compare the same variant across compartments: a blood-cell match supports a contribution, while a tumor non-detection needs its own sampling and assay limits.</p>
+</div>
+
+The [cfDNA and ctDNA diagram](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) explains the difference between defining a source class and assigning an unknown fragment.
+
+**Read the comparison:** The same V is detected in blood cells but not in the sampled tumor. Is every possible tumor contribution excluded?
+
+**Answer:** No. The blood match supports a blood-cell contribution. Tumor non-detection remains limited by coverage, sensitivity, timing and the region sampled.
+
 **Clonal hematopoiesis (CH)** is the broader phenomenon of blood-cell clones carrying acquired genetic changes. CHIP names one defined category within it. The National Cancer Institute's definition requires a mutation in a blood-cancer-associated gene at a [[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction|variant allele fraction (VAF)]] of at least 2%, without detectable hematologic cancer. VAF counts variant alleles among evaluated alleles; it is not automatically the percentage of cells.
 
 A smaller blood-cell clone can still contribute a real mutation to plasma. Falling below CHIP's conventional threshold does not make that mutation tumor-derived or a sequencing error.

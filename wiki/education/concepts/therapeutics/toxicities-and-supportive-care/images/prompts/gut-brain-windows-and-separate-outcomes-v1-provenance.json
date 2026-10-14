@@ -1,0 +1,71 @@
+{
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea.md",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "sourceOwnerPreimageSHA256": "6d3bec1980a6dace3e47ce3768d01a52ba05e13733c5d9fc28f36a4900236ccb",
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "technique": "Original source-code SVG pair constructed directly in private Python authoring script",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "exactBrief": {
+    "file": "gut-brain-windows-and-separate-outcomes-v1.txt",
+    "sha256": "6b86001a76b36a1828df3c635f7d4474de097d8b46591448cc21f81854728f99"
+  },
+  "outputs": [
+    {
+      "file": "gut-brain-windows-and-separate-outcomes-v1-light.svg",
+      "theme": "light",
+      "sha256": "47b559e38cd8d7203a52f229b4c31f5fdd68789aeae1bf19235ab8b88cba59ff"
+    },
+    {
+      "file": "gut-brain-windows-and-separate-outcomes-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "28dc7021dc42e106ae55ecab47b3b0dc96a1c755c6a6dcf46f9c958c5294e350"
+    }
+  ],
+  "candidateOwnerSHA256": "2711ef83671c709af717b737f25ff6c333e3ec2433e30bd92cc191d5158c5f30",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea.md",
+    "pageSHA256": "6d3bec1980a6dace3e47ce3768d01a52ba05e13733c5d9fc28f36a4900236ccb",
+    "targetSection": "## How it works",
+    "learnerTask": "Follow overlapping gut/brain inputs and separate nausea from vomiting endpoints",
+    "gap": "Generic flow lacks signal anatomy and overlapping observation windows",
+    "accuracyGuardrails": "Concept map not diagnosis/medication algorithm; subjective nausea real; no exclusive transmitter timing",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/374",
+    "oneBasedRow": 375,
+    "originalTaskRowSHA256": "1d86530851effd17c802ed2d8fc63c1893c1fae1fff9ef6ca168db3e79ebe8a8",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea.md",
+  "reuseExtensionRationale": "Current canonical owner has a generic Mermaid only; anatomical signaling and separate outcome windows are absent from it.",
+  "reviewStatus": "Independent scientific/native/task-fit review pending; human expert and learner review pending; no review credit",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "canonicalAssignment": false,
+  "publication": "not started",
+  "publicReferences": [
+    {
+      "pmid": "12736106",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12736106+AND+SRC%3AMED&format=json&resultType=core",
+      "readScope": "title and complete returned abstract only; not full paper"
+    },
+    {
+      "pmid": "27410922",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27410922+AND+SRC%3AMED&format=json&resultType=core",
+      "readScope": "title and complete returned abstract only; not full paper"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nausea/nausea-hp-pdq",
+      "readScope": "NCI page opened; body selected mechanism and timing paragraphs only",
+      "supports": "gut/brain signaling and overlapping pathways; concepts only"
+    }
+  ]
+}

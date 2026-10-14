@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-242",
+  "owner": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+  "author": "agent:/root/batch10_author_group3",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "authorRole": "Actual new-pair vector author; retained task243 original creator remains unknown",
+  "reviewer": "agent:/root/batch10_review_group3",
+  "independentReviewer": "agent:/root/batch10_review_group3",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:07:23.461780+00:00",
+  "reviewedAtUTC": "2026-10-14T00:07:23.461780+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/54",
+  "frozenRowSHA256": "5918ecf26161f0c1bbe80111a3f036e732ae52bc417b925d10350bb459376c25",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The two explicitly timed tumor samples keep cause, history and functional evidence aligned. Identical scar symbols persist while the later sample acquires a possible restoration mechanism and RAD51 foci. This closes the persistent-history-versus-current-state gap without adding a prevalence, assay cutoff, inherited diagnosis or response probability. Assay conditions and sample time remain explicit. The schematic cell/foci counts are symbolic rather than a scoring protocol.",
+    "frozenPageSHA256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+    "baselinePageSHA256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+    "actualTeachingPreimageSHA256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+    "learnerTask": "Separate repair cause, historical genomic marks and current repair activity when they disagree.",
+    "gap": "The three-layer table is clear, but the central hard idea is persistent genomic scars after a change in repair state. A two-time-point causal diagram could show an old history signal remaining while current functional evidence changes, without implying a frequency or a drug-response probability.",
+    "accuracyGuardrails": [
+      "A selected resistance-study mechanism is a possible transition, not universal restoration.",
+      "Scores and RAD51 assays retain method/time conditions.",
+      "Do not infer inheritance or guaranteed drug response."
+    ],
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Immutable original audit page hash is baselinePageSHA256; current committed teaching preimage is separately bound. Frozen task fields unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-light.svg",
+      "sha256": "611c0b265f7c5dbf551cde365abf5fd611ca9efa8cdaba1d8f64adf7973f7b4b",
+      "bytes": 5765,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-dark.svg",
+      "sha256": "e1710aeeee086cc84fedf60fb97f6f080376d8effde83353086a68699c018e21",
+      "bytes": 5765,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-light.svg",
+        "sha256": "611c0b265f7c5dbf551cde365abf5fd611ca9efa8cdaba1d8f64adf7973f7b4b",
+        "bytes": 5765,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-dark.svg",
+        "sha256": "e1710aeeee086cc84fedf60fb97f6f080376d8effde83353086a68699c018e21",
+        "bytes": 5765,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/persistent-scar-and-current-repair-state-b10-v1.txt",
+        "sha256": "e0b24b46a4d46b07c5d8ed110f389874d2373e819330b7a701ab7d882f4b5710",
+        "bytes": 1922,
+        "kind": "new-creative-brief"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/persistent-scar-and-current-repair-state-b10-v1-provenance.json",
+        "sha256": "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7",
+        "bytes": 3820,
+        "kind": "new-author-provenance"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+        "sha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+        "bytes": 8867,
+        "kind": "body-plus-additive-insertion"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+    "authorHandoffSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+    "authorInventorySHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+    "sourcePreimageSHA256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+    "exactFiveNewPublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalCreator": null,
+    "insertOnlyPreimageRecovery": "Independently removed exact single saved insertion and recovered b3704 committed bytes byte-for-byte. Existing prose, source-depth statements, metadata and navigation preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "noUnrelatedOrRestrictedBodiesRead": true,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently read via Europe PMC core service; no full paper.",
+      "supports": "A selected eight-patient paired resistance cohort acquired restoration mechanisms and post-resistance RAD51 foci; no population-frequency inference.",
+      "accessStatus": "Direct PubMed returned only disclosure text; direct PMC CAPTCHA; Europe PMC fullTextXML500. Core abstract successfully retrieved and retained.",
+      "population": "Eight selected BRCA1/2-mutant metastatic breast-cancer patients after PARP inhibitor or platinum resistance."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5961353/fullTextXML",
+      "primary": true,
+      "readDepth": "Selected Cruz primary introduction, results and patient-sample paragraphs read; XML accessible but not full-paper or figure/supplement review.",
+      "supports": "Historical genomic scars can persist after HRR restoration; RAD51 foci are a conditional surrogate rather than a universal treatment rule.",
+      "accessStatus": "PMC primary search extraction and Europe PMC XML retrieved.",
+      "population": "gBRCA-derived PDXs and retrospective clinical tumor samples; no universal calibration claimed."
+    }
+  ],
+  "mathAssessment": {
+    "numericEmpiricalEstimatesIntroduced": false
+  },
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, custody and personally inspected native plus fresh pinned-reader pixel review of assigned candidate; retained task243 context also inspected.",
+    "sourceReadDepth": "Actual bounded independent primary/official reading and access failures recorded. Preserved ancillary citations and historical source-depth statements are not each recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own copied private fixture rebuilt with exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. New native600px, desktop1440×1000 inline/theater and mobile390×844 inline/theater personally seen. For tall245/247 diagrams, additional complete desktop1440×1700 inline captures inspected. Retained243 pair native780×1100 plus desktop1440×1700/mobile390×844 inline/theater inspected. Original1000px desktop245/247 snapshots are viewport crops; supplementary captures establish complete inline geometry. No production header/sidebar/backend/navigation, physical mobile, cross-browser/touch or whole-page/nontext accessibility certification. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "supplementaryDesktopViewport": null,
+    "minMobileInlineLabelPx": 13.839749999999997,
+    "minMobileDefaultTheaterLabelPx": 13.68,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.1018862591077,
+    "allNewTextContrastChecksPassed": true,
+    "contrastScope": "Fresh computed SVG text fill against preceding opaque enclosing rectangle; both new themes. Nontext graphics and retained text contrast are not certified by this calculation.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but does not restore image focus. Independent mobile check for each task observes BODY. This unchanged pinned runtime defect remains qualified; no runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "captures/next-gap-242-light-reading.png",
+      "sha256": "a975720157f7f90a84455e5eee03a19b9f8f6c69742dad438656d672c7fe7bc2"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "captures/next-gap-242-dark-reading.png",
+      "sha256": "8f79e7fae70af1d3e46e34caa2d168220b2a5bc4263cbeabfa87093a6d35f1c2"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "captures/next-gap-242-light-mobile-inline.png",
+      "sha256": "ba163ef4fff4572f231dc99b51ff3294e9ceaa8c2601079be787a892f4ae501a"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "captures/next-gap-242-light-mobile-theater.png",
+      "sha256": "a24acedb50f5838367fefca59f06712d265e76b115fa83cdbe92bda128c39fc9"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "captures/next-gap-242-light-desktop-inline.png",
+      "sha256": "1500bd4bfdd110f57b624c3320c18b765298055dc9b98796670af9f24ce0119b"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "captures/next-gap-242-light-desktop-theater.png",
+      "sha256": "c14322e9ecfe014085055f76e6a47cfbb13af6b1ce0057bfcf80b2e873568d0c"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-242-dark-mobile-inline.png",
+      "sha256": "f6fc7ba065858eb7ae54b28d47cc103484895063cdfa31cfeac82ac469b223f8"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-242-dark-mobile-theater.png",
+      "sha256": "1a88b8524dd418cd589b9e2f7beab34d8357a558f08b7b3542100a30b7384f2a"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-242-dark-desktop-inline.png",
+      "sha256": "bfd38c4cc7bddcf7e269323b902a406dc0bf8d3cc4deb4eb675d6176d5c6c172"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-242-dark-desktop-theater.png",
+      "sha256": "675b8b44b9b8aeb8fd6a6b0ca2e58f1083b3f172b4435252a078f0dbfefd2256"
+    }
+  ],
+  "method": "Original hand-authored editable SVG via local Python serialization; no image model invocation claimed",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "qualified-renderer-limitation",
+      "decisionImpact": "No new artwork revision; prevents full keyboard/accessibility approval",
+      "detail": "Unchanged Escape closes ImageTheater then leaves BODY focused."
+    }
+  ]
+}

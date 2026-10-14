@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-228",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+  "author": "agent:/root/batch10_author_group1",
+  "authorRole": "Prospective custody/reuse assessor; not historical creative author",
+  "creativeAuthor": null,
+  "originalCreator": null,
+  "artworkCreatorStatus": "UNKNOWN; retained historical art byte exact",
+  "reviewer": "agent:/root/batch10_review_group1",
+  "independentReviewer": "agent:/root/batch10_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "actualReviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAtUTC": "2026-10-14T00:06:48.454718+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "scienceScope": "Bounded visual mechanism and learner task; not comprehensive whole-owner medical or guideline certification",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "kind": "existing-art-reuse-assessment",
+  "newArtworkPairsCount": 0,
+  "currentOwnerSha256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+  "baselinePageSHA256": "afc5258ac0afcd3b5010824cc7ed0e994b8833a9d436d7ef70d6473481e59349",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/88",
+  "frozenRowSHA256": "d037e3a607abb2578cafd90230627be77bbdd46e85aed457c6aaa9d730ab20af",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "The retained native pair gives four physically different problems: an altered base attached to an otherwise continuous ladder, a bulky adduct with local distortion, a visibly labeled A/G mismatch, and a gap through both backbones. Selected BER, NER, MMR and HR/end-joining jobs remain distinct from the lower sensor-to-pause scene. The lower warning explicitly withholds repair outcome; the caption distinguishes lesion from lasting mutation and withholds HRD and drug-sensitivity inference. This directly resolves the frozen physical-lesion gap in the current owner. Reuse is adequate without inventing new art or authorship.",
+    "frozenPageSHA256": "afc5258ac0afcd3b5010824cc7ed0e994b8833a9d436d7ef70d6473481e59349",
+    "baselinePageSHA256": "afc5258ac0afcd3b5010824cc7ed0e994b8833a9d436d7ef70d6473481e59349",
+    "actualTeachingPreimageSHA256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+    "learnerTask": "Distinguish physical lesion types and their repair jobs from the separate checkpoint/damage-response signal.",
+    "gap": "The recognition/repair/checkpoint map correctly distinguishes response branches but shows every lesion as one box. Four small DNA sketches for altered base, bulky lesion, copying mismatch and double-strand break would give the route table physical meaning without claiming exhaustive pathway specificity.",
+    "accuracyGuardrails": [
+      "Damage is not a lasting mutation.",
+      "A pathway sketch is a selected overview, not exclusive lesion-to-route rules.",
+      "No γH2AX-to-HRD or drug-sensitivity inference."
+    ],
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Original frozen audit baseline remains distinct from current immutable teaching preimage and candidate owner SHA; no accounting or adoption update."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+      "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b",
+      "bytes": 29823,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1440,
+        "viewBox": "0 0 780 1440"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+      "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03",
+      "bytes": 29823,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1440,
+        "viewBox": "0 0 780 1440"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+        "sha256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+        "bytes": 8392
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+        "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03",
+        "bytes": 29823
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+        "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b",
+        "bytes": 29823
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1-provenance.json",
+        "sha256": "c46c67a0fc9e98c6699293a702ece41b1f082efe71359e2a0d68593d0f6509cd",
+        "bytes": 2965
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1-provenance.zip",
+        "sha256": "40d48cb016c4c028cb8e7f2bddc59ae3482b4d2400486c6bf085837954815db4",
+        "bytes": 9820
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1.txt",
+        "sha256": "21d061bec5e753cf5d1bbf022b585efc69bd591405b7f33040245e78a2c2f246",
+        "bytes": 1377
+      }
+    ],
+    "currentCandidateOwnerSHA256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+    "sourcePreimageSHA256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "fab511118fc5c8fc642e6e0572cb2240b0c929f41191ee25e17093ce57f75483",
+    "authorManifestSHA256": "2fe37a704735a3bb096bfb1cd6afb2417a6ea129f08cf99c52fbc7167e20c5dc",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "authorChecksumEntriesVerified": 772,
+    "publicInventoryFilesVerified": 38,
+    "preservedExistingCustodyFileCount": 5,
+    "retainedOriginalsByteExact": true,
+    "retainedZIPIntegrityChecked": true,
+    "insertOnlyPreimageRecovery": true,
+    "currentWorkingOwnerPreimageExact": true,
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "rejectedDrafts01Through03Preserved": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "unrelatedOwnerBodiesRead": false
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4610583/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:4610583%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/4610583.json",
+      "sha256": "512cda2576eb4472af1a1ffad44a65c5730f27030e9c4c5b912598024e234216",
+      "supports": "Purified bacterial uracil glycosidase releases an altered base without cutting the DNA backbone; this is a selected base-removal job, not an exclusive human pathway rule."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6380755/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:6380755%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/6380755.json",
+      "sha256": "d8ab948e0d897a157493b2681e1874e248bfa02a7969fecc183ba4ed1d1088ff",
+      "supports": "Purified bacterial UvrABC excision cuts on both sides of damaged DNA and removes a damaged stretch."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2665076/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:2665076%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/2665076.json",
+      "sha256": "798c657830ac23d0d36bb8dfad4527961a1f13edbfde6aae4cc5d7b51f0537f7",
+      "supports": "A reconstituted bacterial system corrects noncomplementary base pairs in a strand-specific reaction."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12791985/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12791985%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/12791985.json",
+      "sha256": "0e7af8d9270a35b630e4423f8985d1e7510174ca4c307f3bdb9f6b294c3b3cf8",
+      "supports": "RPA-coated single-stranded DNA recruits ATR/ATRIP and initiates checkpoint signaling; no repair outcome or dependency certificate follows."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9488723/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9488723%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/9488723.json",
+      "sha256": "0a2629c50344643dda9c2c9a1f2758e21421ba73da8c9b96235383a4c3ef31e2",
+      "supports": "Experimentally induced double-strand breaks elicit H2AX phosphorylation, a cellular response around damage rather than an HRD or drug-response test."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Independent seven-owner scientific/task-fit, source-depth, custody, both native themes and fresh reader capture review; no historical approval inherited.",
+    "sourceReadDepth": "Actual independent reads are listed. Ancillary retained owner citations are not all recertified; no comprehensive guideline, entire owner science, human or source-fit adoption certification.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Unchanged private pinned author-built fixture served at 4711, independently captured by reviewer. No production backend/header/navigation, physical mobile, cross-browser, touch or whole-page accessibility certification. Native images were emitted individually; mobile captures inspected in literal-size sheets, desktop inline/theater paint in context sheets that display tools may downscale. Full reader captures retained as context, not whole-page approval. Initial server unavailable; reviewer started unchanged server only."
+  },
+  "nativePixelAssessment": {
+    "assessment": "All four lesion identities, A/G letters, gap through both backbones, lower pause glyph and repair-outcome warning remain readable at mobile size.",
+    "mobileReadability": "Read every task-relevant label and lower guard line at actual 390px capture scale; small text is legible in this inspection, human learner acceptance pending.",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 14.194791666666667,
+    "minMobileDefaultPreviewLabelPx": 14.03076923076923,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Failed in all four owner theme/size checks; independent additional check confirmed BODY. Known pinned renderer defect retained; no runtime changes or overall accessibility approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-228-light-reading.png",
+      "sha256": "077c1ff895724d07583ca901d58edec27b256fdb4b8b784c23311f0b765a5d8d"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-228-dark-reading.png",
+      "sha256": "69bcfb808c7fbfa6536a8e401cb1d2456c3e1c796d8ccd03ff1ff38200559074"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-228-light-mobile-inline.png",
+      "sha256": "f71c043f1603684d3a878280384e8a8cd8f9d2e04f0686411f167575fe6fe9b3"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-228-light-mobile-theater.png",
+      "sha256": "8a357ee563932526e46a603f13396da92af82414668b0f927376904726f026ca"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-228-light-desktop-inline.png",
+      "sha256": "c0515be43c3e2a9b156f3d63a78557f8d1dc4edf1041eb4491f9b95e7fe1952f"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-228-light-desktop-theater.png",
+      "sha256": "eef48dc85dc51c52fec4fbbee61af50463887670b0881d97ad7eac3bbf6fa4bd"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-228-dark-mobile-inline.png",
+      "sha256": "1db19867404ce4e753c48da9df020f930961c3699130161cda00fd2160425573"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-228-dark-mobile-theater.png",
+      "sha256": "975d9fad4fef58cd1bdf53099b8c77af1872da3b082c8ef72e4c23925aafe6bd"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-228-dark-desktop-inline.png",
+      "sha256": "63f9d0ce12f9a3254919e4ebf2fb1bc6f3b969faa14e94d49325efbe9ecd8529"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-228-dark-desktop-theater.png",
+      "sha256": "c83a92555824f0db1fee8950d300ba9c5250cc588f60889606b9ae02cd22b5c5"
+    }
+  ],
+  "method": "New pairs directly authored SVG; historical reuse authorship remains unknown. This review made no artwork edits.",
+  "imageModelCalls": 0,
+  "imageModelCallsScope": "Current review only; historical generation is not reconstructed.",
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "existing-renderer-accessibility-defect",
+      "finding": "Escape closes the viewer but restores focus to BODY rather than the invoking image.",
+      "blocksArtworkTaskFit": false,
+      "overallAccessibilityApproval": false
+    }
+  ]
+}

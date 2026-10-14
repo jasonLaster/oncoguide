@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "authored-vector-education-art",
+  "taskId": "next-gap-247",
+  "owner": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+  "sourceTeachingAnchor": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenPageSHA256": "d63fb2e6ae5b09391323722233488c79097ee8bafd4d659187cc0489a9912ab7",
+  "currentSourcePreimageSHA256": "d63fb2e6ae5b09391323722233488c79097ee8bafd4d659187cc0489a9912ab7",
+  "finalCandidateSHA256": "62661eb9ff405bb328991b334421611a5913491cba906d2981342a2f8b5d7352",
+  "frozenRowSHA256": "8219a5da9e6f9ac787050b6b2dde7248cebfec8f50cb7b034d62aa01e67fec2d",
+  "learnerTask": "Track line identity through passage history while separating authentication, contamination and phenotype.",
+  "gap": "No history map locates source, passage and independent quality checks.",
+  "accuracyGuardrails": "Keep source, passage history, authentication, contamination and phenotype as separate checks. A shared line name does not guarantee identical biology; do not invent universal drift rates.",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "originalCreator": null,
+  "method": "Precise SVG manually authored by agent; Python serialization; no image model call",
+  "toolCall": null,
+  "promptSHA256": "c4e06ac52f099f4a67bc0c2dc298289832d6f4acee8a3fd900b8a13f4964f08d",
+  "nativeFiles": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg",
+      "sha256": "5b3c619e1566760b331f3a8dfcc8bfe2cd8432a6e132687cadfa57bc90a79f56",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-dark.svg",
+      "sha256": "6c8e3efb103f8d93729597bf09b51269dd0539bbc7bd90ff93312caeafe8de95",
+      "theme": "dark"
+    }
+  ],
+  "sourceReadBounds": [
+    {
+      "url": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide",
+      "depth": "Selected official passage versus population doubling, medium adaptation and mycoplasma-testing sections read; not full guide."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/",
+      "depth": "Direct request hit reCAPTCHA; not read in this author turn. Existing original source attribution is preserved, not recertified."
+    }
+  ],
+  "sourceScope": "Only the new illustration was source-checked in this turn; all existing body/source-depth statements preserved verbatim, not recertified. Fictional quantities are arithmetic from the preserved owner example.",
+  "clinicalPrediction": false,
+  "humanReview": "Clinician/domain expert and learner review pending",
+  "independentReview": null,
+  "adoption": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

@@ -1,0 +1,87 @@
+{
+  "kind": "original-authored-source-code-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch11_measurement_author",
+  "actualMethod": "Python source-code SVG authored in build-art.py",
+  "imageModelCalled": false,
+  "model": null,
+  "imageGenerationCall": null,
+  "originalRetainedCreators": "Retained reference assets retain existing attribution; unknown when not recorded. This agent assessed but did not create the reused references.",
+  "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "currentOwnerPreimageSHA256": "d0631a624d3add000de2c241553da3ff862c454230eb85796a9972e936daeffb",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+    "pageSHA256": "d0631a624d3add000de2c241553da3ff862c454230eb85796a9972e936daeffb",
+    "targetSection": "Try it",
+    "learnerTask": "Distinguish relative immune composition from whole-sample cell fractions",
+    "gap": "Current model flow does not depict the different denominators",
+    "accuracyGuardrails": "Separate measured pooled RNA, reference/model estimates and each composition denominator. Relative immune fractions are not automatically whole-sample cell fractions or direct cell counts; reference mismatch and identifiability remain visible.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/323",
+    "oneBasedRow": 324,
+    "originalTaskRowSHA256": "ef03866ebee832a162670ddd67a6a5cdd87276aef7e9d80b12be67cead22b668",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+  "reuseFirstAssessment": "The canonical bulk diagram explains changed pooled RNA from mixture. This page-specific extension adds two explicit immune-subset versus whole-sample denominators while keeping pooled RNA/model inference separate.",
+  "originalNativeSupportPreserved": true,
+  "outputs": [
+    {
+      "key": "next-gap-255",
+      "owner": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+      "relativePath": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+      "sha256": "bd70fac8f8e8421b5e28186019c1779e591ae1b02ccd01b748aeb97dac4d1184",
+      "width": 600,
+      "height": 1430
+    },
+    {
+      "key": "next-gap-255",
+      "owner": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+      "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708",
+      "width": 600,
+      "height": 1430
+    }
+  ],
+  "briefSHA256": "8288855c48704f48c6c78e687b4844f2c6b843ec248e732ea3bed0403bb3f12d",
+  "finalOwnerSHA256": "72ab5b71154898d87a765e224a664e53d9d1b014e6e82a5b1f0aad3df0287e54",
+  "sourceCheckScope": "New visual claims plus public target/shared conceptual bodies only; no restricted case reads; no full page clinical recertification.",
+  "primarySourceChecks": [
+    {
+      "pmid": "25822800",
+      "title": "Robust enumeration of cell subsets from tissue expression profiles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25822800/",
+      "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+      "retrievedAbstract": true,
+      "localEvidence": "primary-reference-abstracts.xml"
+    }
+  ],
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "delivery": "not started",
+  "publication": "not started",
+  "integrationAuthor": "root",
+  "actualFutureExecutionSourceCommit": null,
+  "actualSourceCheckDepth": "Complete assigned primary abstract retained/read; selected supplementary abstract/indexed passages where listed. No complete-paper, clinical, current-platform or patient-specific validation claimed.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "generatorSHA256": "ed1658f8581a384eca3fc044586913478b7e3d9fef00b9d2d0eb3ec928153e17",
+  "generatorCustody": "Original construction script, source-depth receipts and browser captures retained in private handoff; no executable reproduction package delivered in public payload."
+}

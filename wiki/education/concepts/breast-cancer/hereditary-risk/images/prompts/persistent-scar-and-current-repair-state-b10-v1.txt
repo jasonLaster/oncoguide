@@ -1,0 +1,12 @@
+Actual authored vector brief
+BRCAness: a resemblance that needs evidence
+
+Central learner task: Separate repair cause, historical genomic marks and current repair activity when they disagree.
+Original gap: The three-layer table is clear, but the central hard idea is persistent genomic scars after a change in repair state. A two-time-point causal diagram could show an old history signal remaining while current functional evidence changes, without implying a frequency or a drug-response probability.
+Frozen accuracyGuardrails (verbatim): ["A selected resistance-study mechanism is a possible transition, not universal restoration.", "Scores and RAD51 assays retain method/time conditions.", "Do not infer inheritance or guaranteed drug response."]
+
+Composition: Two explicitly labeled tumor-sample time points separate cause, history and function. Earlier repair disruption accompanies historical scar marks and assay evidence of impairment. A possible transition during tumor evolution leads to a later restoration mechanism and current RAD51 foci, while the identical old scar marks remain. This is a possible selected-study transition, not a universal frequency; scores and functional assays retain method and time conditions and do not establish inheritance or guaranteed drug response.
+
+Create exact parallel light and dark 600-pixel-wide SVG scenes, with large readable Arial labels, concrete laboratory objects where relevant, consistent geometry and no invented empirical findings. Theme changes only palette. Numeric examples are invented teaching data, not measurements. Retained assets remain byte-identical with unknown original creator.
+
+Actual production: agent:/root/batch10_author_group3 manually specified SVG geometry and text via a local Python serializer. No image model or raster-generation tool was called. This brief is the actual creative design input, not a claim of an external model request.

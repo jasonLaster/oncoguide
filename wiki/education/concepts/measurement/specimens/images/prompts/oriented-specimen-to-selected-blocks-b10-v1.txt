@@ -1,0 +1,10 @@
+Actual original authored SVG direction
+Author: agent:/root/batch10_author_group2
+Tool: local Python SVG authoring; no image model call.
+Source: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: Connect oriented outer surfaces and selected blocks to a result
+Scene: A fictional oriented specimen has keyed superior and lateral outer surfaces, a selected central region A and surface region B, and visible unselected space. Each selected region connects to its own labeled tissue block. A fictional test result is attached only to block A, while block B and unselected tissue remain outside that result. The local ink key is invented and no margin-clearance claim is made.
+Accuracy guardrails, verbatim: Preserve specimen orientation, outer surfaces and selected block identity. A central block result cannot be assigned to an unsampled margin or every region; maps are fictional and not clearance claims.
+Both themes: identical geometry, objects, labels, connectors; warm pale ground and dark ink versus quiet deep ground and pale ink. Arial/Helvetica, minimum label 28 px; native 600 x 1000. All drawings schematic; no measured quantities.
+Renderer: 5cb06c95f00ceb74ab86b1f46f5face9d49497e0.
+Clinical and learner review pending. Original creators of retained art remain unknown unless already documented.

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1400" viewBox="0 0 780 1400" role="img"><title>Same snapshot, different history</title>
+<rect width="780" height="1400" fill="#15202b"/>
+<text x="38" y="52" fill="#eff4f8" font-family="Arial,sans-serif" font-size="34" font-weight="700">Same snapshot, different history</text>
+<text x="38" y="98" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Fictional ANC curves — not patient results</text>
+<rect x="28" y="150" width="724" height="482" rx="24" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="48" y="197" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">A  Brief dip</text>
+<text x="78" y="246" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">ANC (×10⁹/L)</text>
+<path d="M132,274 L132,510" fill="none" stroke="#eff4f8" stroke-width="3"/>
+<path d="M132,510 L700,510" fill="none" stroke="#eff4f8" stroke-width="3"/>
+<text x="72" y="519" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">0</text>
+<path d="M132,510 L690,510" fill="none" stroke="#c3cfda" stroke-width="1"/>
+<text x="72" y="419" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">1</text>
+<path d="M132,410 L690,410" fill="none" stroke="#c3cfda" stroke-width="1"/>
+<text x="72" y="319" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">2</text>
+<path d="M132,310 L690,310" fill="none" stroke="#c3cfda" stroke-width="1"/>
+<text x="125" y="549" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">0</text>
+<text x="213" y="549" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">1</text>
+<text x="301" y="549" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">2</text>
+<text x="389" y="549" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">3</text>
+<text x="477" y="549" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">4</text>
+<text x="565" y="549" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">5</text>
+<text x="653" y="549" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">6</text>
+<path d="M132,310 L220,310 L308,340.0 L396,460.0 L484,360.0 L572,310 L660,310" fill="none" stroke="#77b9e0" stroke-width="7" stroke-linejoin="round"/>
+<path d="M396,276 L396,510" fill="none" stroke="#e8c374" stroke-width="3" stroke-dasharray="10 8"/>
+<circle cx="396" cy="460.0" r="9" fill="#e8c374" stroke="#c3cfda" stroke-width="3"/>
+<text x="431" y="249" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="700">Day 3:</text>
+<text x="431" y="288" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="700">0.5 ×10⁹/L</text>
+<text x="534" y="594" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Day</text>
+<rect x="28" y="661" width="724" height="482" rx="24" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="48" y="708" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">B  Prolonged dip</text>
+<text x="78" y="757" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">ANC (×10⁹/L)</text>
+<path d="M132,785 L132,1021" fill="none" stroke="#eff4f8" stroke-width="3"/>
+<path d="M132,1021 L700,1021" fill="none" stroke="#eff4f8" stroke-width="3"/>
+<text x="72" y="1030" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">0</text>
+<path d="M132,1021 L690,1021" fill="none" stroke="#c3cfda" stroke-width="1"/>
+<text x="72" y="930" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">1</text>
+<path d="M132,921 L690,921" fill="none" stroke="#c3cfda" stroke-width="1"/>
+<text x="72" y="830" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">2</text>
+<path d="M132,821 L690,821" fill="none" stroke="#c3cfda" stroke-width="1"/>
+<text x="125" y="1060" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">0</text>
+<text x="213" y="1060" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">1</text>
+<text x="301" y="1060" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">2</text>
+<text x="389" y="1060" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">3</text>
+<text x="477" y="1060" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">4</text>
+<text x="565" y="1060" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">5</text>
+<text x="653" y="1060" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">6</text>
+<path d="M132,821 L220,891.0 L308,971.0 L396,971.0 L484,971.0 L572,921 L660,861.0" fill="none" stroke="#b69bd3" stroke-width="7" stroke-linejoin="round"/>
+<path d="M396,787 L396,1021" fill="none" stroke="#e8c374" stroke-width="3" stroke-dasharray="10 8"/>
+<circle cx="396" cy="971.0" r="9" fill="#e8c374" stroke="#c3cfda" stroke-width="3"/>
+<text x="431" y="760" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="700">Day 3:</text>
+<text x="431" y="799" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="700">0.5 ×10⁹/L</text>
+<text x="534" y="1105" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Day</text>
+<text x="38" y="1208" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="700">The dot matches. Duration does not.</text>
+<text x="38" y="1257" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">No infection probability or G-CSF threshold.</text>
+<text x="38" y="1306" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Fever still needs clinical assessment.</text>
+<text x="38" y="1355" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Supportive-care response ≠ tumor response.</text>
+</svg>

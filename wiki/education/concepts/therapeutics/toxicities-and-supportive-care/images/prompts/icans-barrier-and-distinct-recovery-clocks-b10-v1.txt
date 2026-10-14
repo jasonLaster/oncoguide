@@ -1,0 +1,10 @@
+Actual authored SVG brief
+Creator: agent:/root/batch10_author_group1
+Method: hand-authored SVG via private author.py; no image-model invocation.
+Source revision: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: Locate blood–brain barrier hypothesis and separate cognitive tool from syndrome domains
+Scene: A blood-side field of signal dots sits above a row of vascular lining cells and the brain side. A dashed arrow marks implicated barrier disruption and signal entry, not a universal mechanism. ICE cognition and broader domains independently feed clinical assessment, including awareness, seizures, motor findings and swelling. Separate fictional CRS and neurologic timelines have different endpoints without specifying typical durations.
+Theme: warm pale ground/dark ink and quiet deep ground/pale ink; identical objects, positions, quantities, labels and arrows.
+Output: 780 x 1630 SVG.
+Accuracy guardrails (frozen): "Association not full universal mechanism; ICE not diagnosis; grading version named; CRS recovery separate"
+Clinician/domain-expert and learner review pending.

@@ -1,0 +1,12 @@
+Learning question: Locate B2M in a class-I assembly and compare losing one allele with a shared assembly defect affecting multiple class-I targets.
+Frozen gap: The support-piece analogy and text are strong, but no picture locates B2M or contrasts the breadth of these two defects. Reuse the existing APM/HLA physical reference with a small allele-versus-shared-dependency comparison rather than a separate elaborate image.
+Reuse first: wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md
+Extension rationale: The shared processing figure already locates B2M. The focused extension enlarges that assembly and compares defect breadth without treating a reported variant as functional loss.
+Technique: original source-code SVG, authored by agent:/root/batch11_immune_address_author; no image-model call.
+Panels: One support, many displays; exact visible labels and geometry in ../b2m-location-and-shared-dependency-v1-light.svg.
+["A variant does not establish complete functional loss.", "Class II does not share this B2M dependency.", "Reduced class I is not sufficient proof of NK killing."]
+Style: flat outlined cell/protein cartoon; 600px vertical figure; 26px minimum body labels; identical light/dark geometry.
+High-level education only. Icons and counts are schematic, not molecular coordinates or measured data. No sequences, engineering methods, doses, regimens or optimization.
+Alt: A class-I membrane complex locates peptide, heavy chain and separate B2M; illustrative allele 1 loss leaves 2 and 3, while a shared functional assembly defect can affect several displays. Class II has a different dependency.
+Caption: Losing one allele and losing a shared class-I assembly function can affect different sets of targets.
+Exercise: Which panel affects a shared support? **Answer:** The lower comparison does. A B2M variant alone does not establish that functional defect.

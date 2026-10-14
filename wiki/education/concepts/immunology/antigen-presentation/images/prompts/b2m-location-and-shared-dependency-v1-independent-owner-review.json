@@ -1,0 +1,926 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-249",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "learnerTask": "Locate B2M in a class-I assembly and compare losing one allele with a shared assembly defect affecting multiple class-I targets.",
+    "gap": "The support-piece analogy and text are strong, but no picture locates B2M or contrasts the breadth of these two defects. Reuse the existing APM/HLA physical reference with a small allele-versus-shared-dependency comparison rather than a separate elaborate image.",
+    "accuracyGuardrails": [
+      "A variant does not establish complete functional loss.",
+      "Class II does not share this B2M dependency.",
+      "Reduced class I is not sufficient proof of NK killing."
+    ],
+    "baselinePageSHA256": "c5d193b9402f0004f368d64ecd2399aeb7cf598525f73b82d127149b81a0f362",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The enlarged membrane complex explicitly puts peptide in the heavy-chain groove and B2M beside, rather than through, the membrane. Repeated illustrative alleles make one-allele loss visibly different from a shared assembly defect. Dashed impaired complexes are a conditional schematic, not a claimed frequency or diagnosis from a variant. The Class-II sentence and variant warning prevent extending the class-I dependency or equating sequence with functional loss. Reusing the processing diagram supplies the broader route; the extension supplies dependency breadth and local anatomy."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+      "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+      "theme": "light",
+      "bytes": 20682
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+      "sha256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+      "theme": "dark",
+      "bytes": 20682
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+        "sha256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+        "qualification": "reviewed proposed current owner"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+        "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+        "sha256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1.txt",
+        "sha256": "787a63aef477ca0f75daadbb67ecaee71114fc639f5a3441cfc6ae66439158a3",
+        "qualification": "new extension saved brief"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1-provenance.json",
+        "sha256": "03231c08e26b951f9f94fb18102c5b97c5cf83a3b35a4a92a4e9a41cb176ae25",
+        "qualification": "new extension author provenance"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1-independent-source-guard.json",
+        "sha256": "8326a45d000d9dabbb2afbfb3201911a483324a53051838b57ce19407835481f",
+        "qualification": "independent source guard"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-dark.png",
+        "sha256": "c6a7be6ab9414b7bf7cd6132aee4350d0cffb569222948e3160e0609c15da9ea",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-light.png",
+        "sha256": "f87a8d934d35e10f8d5f7a88412379b82d792333ab42493ba3c2fae7b14e4915",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-dark.png",
+        "sha256": "dd165910509bbf0d5b92894b74b53c358aa719be856d20a63351196e58dddc23",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+        "sha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-calls.json",
+        "sha256": "94dcbb3893b840b53733d3a8a2c7ac340ead0470a0bd6956d29165d250555b74",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-dark-call.txt",
+        "sha256": "d9da59e313dbe2e653f36f43a004a159af64397d90041120322a82e018083ebc",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-generation-receipt.json",
+        "sha256": "e65af1d87fc33e729244f6582e0d863d58a666b809ae9b31eaa5712f04c84abf",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-light-call.txt",
+        "sha256": "d59a55986949d6111d87b68fd99b131ff92ca843d1e910abf0c2dbdc8310bfc4",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2.txt",
+        "sha256": "b4197141a5369b637bd8c826f15e8bc8dabc98b415fc8707be963a5b60e3f8b4",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition.txt",
+        "sha256": "e0c67acd8c978fa236e77b7a574219fe310e2adbfbf9e17bf6f5e6deaf2f9c59",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      }
+    ],
+    "authorCandidateSeal": {
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/seal.json",
+      "sha256": "b800ed4bf84b8cbc32aa8945fd4c4a778a7b2f22e9fa779a5145470d7fae3f2e"
+    },
+    "originalAttribution": "Historical creators and UNKNOWN creator values retained verbatim; reviewer claims no creative authorship of retained assets.",
+    "retainedSupportNotOutputs": true
+  },
+  "reviewScope": "Seven selected G1 task-fit reviews only; this receipt covers this owner and its exact two new natives. No canonical adoption, delivery or release approval.",
+  "checks": {
+    "exactInverseInsertion": true,
+    "metadataAndOriginalProseAndMermaidPreserved": true,
+    "frozenTaskWordingAndSharedOwnerPreserved": true,
+    "sameGeometryAndLabelsAcrossThemes": true,
+    "sharedArtRetainedAtCanonicalLocation": true,
+    "focusedExtensionBeyondRetainedDiagram": true,
+    "native": [
+      {
+        "key": "next-gap-249",
+        "theme": "light",
+        "nativeSHA256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-reading.png",
+        "captureSHA256": "dd0a3c81bd4abab5b090128983154019e7851690d8be11661a45bdb4543526c0",
+        "viewBox": "0 0 600 1150",
+        "textCount": 22,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "One support, many displays",
+            "x": 28,
+            "y": 14,
+            "width": 412.296875,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Compare the breadth of a defect",
+            "x": 28,
+            "y": 59,
+            "width": 371.375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Locate the support piece",
+            "x": 78,
+            "y": 130,
+            "width": 324.765625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Peptide",
+            "x": 52,
+            "y": 175,
+            "width": 87.984375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Heavy",
+            "x": 364,
+            "y": 220,
+            "width": 73.3125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "chain",
+            "x": 364,
+            "y": 252,
+            "width": 62.71875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "B2M",
+            "x": 364,
+            "y": 310,
+            "width": 53.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "B2M does not span the membrane",
+            "x": 103.2578125,
+            "y": 393,
+            "width": 393.484375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 493,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "One allele lost",
+            "x": 78,
+            "y": 490,
+            "width": 183.515625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "1",
+            "x": 135.9375,
+            "y": 660,
+            "width": 12.125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 292.328125,
+            "y": 660,
+            "width": 15.34375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 449.984375,
+            "y": 660,
+            "width": 16.03125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Illustrative alleles",
+            "x": 201.71875,
+            "y": 684,
+            "width": 196.5625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 763,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Shared assembly impaired",
+            "x": 78,
+            "y": 760,
+            "width": 345.53125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "1",
+            "x": 135.9375,
+            "y": 933,
+            "width": 12.125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 292.328125,
+            "y": 933,
+            "width": 15.34375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 449.984375,
+            "y": 933,
+            "width": 16.03125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Class II uses a different assembly.",
+            "x": 38,
+            "y": 1020,
+            "width": 384.234375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "A variant alone does not prove loss.",
+            "x": 38,
+            "y": 1052,
+            "width": 403.296875,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      },
+      {
+        "key": "next-gap-249",
+        "theme": "dark",
+        "nativeSHA256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-reading.png",
+        "captureSHA256": "c714a932019945fc840023bc956d0a3b20fa96ec76fcca1666155be9a150b9c0",
+        "viewBox": "0 0 600 1150",
+        "textCount": 22,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "One support, many displays",
+            "x": 28,
+            "y": 14,
+            "width": 412.296875,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Compare the breadth of a defect",
+            "x": 28,
+            "y": 59,
+            "width": 371.375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Locate the support piece",
+            "x": 78,
+            "y": 130,
+            "width": 324.765625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Peptide",
+            "x": 52,
+            "y": 175,
+            "width": 87.984375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Heavy",
+            "x": 364,
+            "y": 220,
+            "width": 73.3125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "chain",
+            "x": 364,
+            "y": 252,
+            "width": 62.71875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "B2M",
+            "x": 364,
+            "y": 310,
+            "width": 53.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "B2M does not span the membrane",
+            "x": 103.2578125,
+            "y": 393,
+            "width": 393.484375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 493,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "One allele lost",
+            "x": 78,
+            "y": 490,
+            "width": 183.515625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "1",
+            "x": 135.9375,
+            "y": 660,
+            "width": 12.125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 292.328125,
+            "y": 660,
+            "width": 15.34375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 449.984375,
+            "y": 660,
+            "width": 16.03125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Illustrative alleles",
+            "x": 201.71875,
+            "y": 684,
+            "width": 196.5625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 763,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Shared assembly impaired",
+            "x": 78,
+            "y": 760,
+            "width": 345.53125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "1",
+            "x": 135.9375,
+            "y": 933,
+            "width": 12.125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 292.328125,
+            "y": 933,
+            "width": 15.34375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 449.984375,
+            "y": 933,
+            "width": 16.03125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Class II uses a different assembly.",
+            "x": 38,
+            "y": 1020,
+            "width": 384.234375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "A variant alone does not prove loss.",
+            "x": 38,
+            "y": 1052,
+            "width": 403.296875,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      }
+    ],
+    "articleAndTheater": [
+      {
+        "key": "next-gap-249",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+        "candidateSHA256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 90.1875,
+            "width": 345.984375,
+            "height": 663.15625
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 663.13671875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 655.5
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-mobile-inline.png",
+            "sha256": "2877014405a2f9451556463070f0afaea1aa4d8977e56ca8c5e042a69a93b6c7",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "040c34b133a22e3568229f2ce2dfc645514efebfabf722de4e2f3aedb11d2f5f",
+            "crop": {
+              "x": 22,
+              "y": 90,
+              "width": 346,
+              "height": 663
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-mobile-theater.png",
+            "sha256": "0b3dbcae5b0690f7c58f5edcd35c0186645a59e3aac37195997e19e3414177f9"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-mobile-zoom150.png",
+          "sha256": "4df5cc130ba0d4a82ee9e0bb0649adfbf75e95dadc861a506caff28bb10e1453"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-249",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+        "candidateSHA256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 550.109375,
+            "width": 600,
+            "height": 1150
+          },
+          "paint": {
+            "width": 600,
+            "height": 1150
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 471.65217391304344,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 18.866086956521738,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-desktop-inline.png",
+            "sha256": "34462c82b0f24d5a0cd9c0de54822c75ff929943e7d2f7e175a484e5e8234827",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "b2c4c71e61ff201b3620e40305a5691ef588cdb9608b7cc68713165205fc7735",
+            "crop": {
+              "x": 310,
+              "y": 550,
+              "width": 600,
+              "height": 1150
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-desktop-theater.png",
+            "sha256": "1eaf931fe4623a99beed600babbaf160c3581d998fc876fedb883ac3e9dd852a"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-desktop-zoom150.png",
+          "sha256": "cb1a55cf31e58cdfc22d406d701208ba7fb15b5ee175a564993b36267233c846"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-249",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+        "candidateSHA256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 90.1875,
+            "width": 345.984375,
+            "height": 663.15625
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 663.13671875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 655.5
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-mobile-inline.png",
+            "sha256": "f60a714eec38e494392f4761f21f514891646e0b2e9ff06a7cfa80c0eaa23f5d",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "8ceaf438e9231eb3f425e00fa6c619be539ed63b30e38a3f620c155e98ab5286",
+            "crop": {
+              "x": 22,
+              "y": 90,
+              "width": 346,
+              "height": 663
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-mobile-theater.png",
+            "sha256": "29b9289564ad39430f68508715eba6de2172dbfed520c8e00065990ce5baed53"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-mobile-zoom150.png",
+          "sha256": "eaebff2f8a3a386b8e29c26ac43cd53d7315a12dba9dad7f87fd318abb9d7b0c"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-249",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+        "candidateSHA256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 550.109375,
+            "width": 600,
+            "height": 1150
+          },
+          "paint": {
+            "width": 600,
+            "height": 1150
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 471.65217391304344,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1150,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Fb2m-location-and-shared-dependency-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 18.866086956521738,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-desktop-inline.png",
+            "sha256": "a7ea86cec05f12b6fb04164cd41bc45da175e4568346a903b4acb0893d2dfdc7",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "2c8bd862ff7d982682df88de00940db7c5886810f8cec7d0ac83b12b1720af62",
+            "crop": {
+              "x": 310,
+              "y": 550,
+              "width": 600,
+              "height": 1150
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-desktop-theater.png",
+            "sha256": "964f716954d05be223ac54609f0534469e41e5d8e99884c5972db70e6ea84f29"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-desktop-zoom150.png",
+          "sha256": "2f62be02d282dee23edf7431def9bfef983d59eafcf09631b40b88f4dd87b542"
+        },
+        "pageErrors": []
+      }
+    ],
+    "nativeZoom200": [
+      {
+        "id": "next-gap-249",
+        "theme": "light",
+        "scale": 2,
+        "nativeSHA256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-light-native-zoom200.png",
+        "captureSHA256": "ab2f18f1a0df732d99438845aebedc912209b3b811f04eeac20127f222192b98",
+        "width": 1200,
+        "height": 2300
+      },
+      {
+        "id": "next-gap-249",
+        "theme": "dark",
+        "scale": 2,
+        "nativeSHA256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-249-dark-native-zoom200.png",
+        "captureSHA256": "059e04ecec15bc209cd4e33d448b8ff88a152596893522733ab9743eac452ae5",
+        "width": 1200,
+        "height": 2300
+      }
+    ],
+    "personalPixelInspection": "Both native themes, both 390px article themes with captions and immediate context, both wide article themes, plus 200 percent full native SVG captures personally inspected. Synthetic CSS-zoom stress also inspected and separately qualified.",
+    "fixture": "87 verified exact 5cb06c95f00ceb74ab86b1f46f5face9d49497e0 Git blobs; reviewer copy on :4821; private pinned article and ImageTheater only, not full production application.",
+    "focusQualification": "Enter opens and Escape closes. Escape returns focus to BODY rather than the triggering image; known retained renderer defect, not fixed or certified as conforming.",
+    "zoomQualification": "Full native SVG at 200 percent remains legible and contains all labels. Synthetic root CSS zoom 150 percent on the modal can push lower content outside the viewport; this stress is not actual browser zoom and provides no blanket application zoom certification."
+  },
+  "sourceGuard": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1-independent-source-guard.json",
+    "sha256": "8326a45d000d9dabbb2afbfb3201911a483324a53051838b57ce19407835481f"
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "pending",
+  "publication": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "findings": [],
+  "correctionIds": []
+}

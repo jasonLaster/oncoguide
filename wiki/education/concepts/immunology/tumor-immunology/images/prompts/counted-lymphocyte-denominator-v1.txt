@@ -1,0 +1,5 @@
+Original source-code SVG construction brief. No image-generation call.
+Actual creative author: agent:/root/batch11_pathology_symptoms_author
+A ten-by-ten array of exactly 100 fictional counted lymphocytes. First three rows blue = 30 CD8 T cells, remaining seven purple = 70 other counted lymphocytes. Distinct object shapes/caption from stromal-area assessment. It does not represent all tissue cells, antigen specificity or killing. Reuse canonical stromal-compartment artwork alongside this count-only extension.
+Frozen learner task: Distinguish stromal area from counted-cell fractions in one specimen
+Guardrails: "Fictional geometry and values; 20% area differs from 30% counted lymphocytes; presence does not mean specificity"

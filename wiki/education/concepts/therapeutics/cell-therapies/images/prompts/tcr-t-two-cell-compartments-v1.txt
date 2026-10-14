@@ -1,0 +1,12 @@
+Learning question: Trace receptor instructions into T cells and source protein into peptide–HLA on tumor
+Frozen gap: Converging flow omits receptor/CD3 assembly and compartment boundaries
+Reuse first: wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers.md
+Extension rationale: The shared format comparison distinguishes living TCR-T from soluble proteins. This extension enlarges only the living two-cell contact and the separate instruction and source-protein compartments.
+Technique: original source-code SVG, authored by agent:/root/batch11_immune_address_author; no image-model call.
+Panels: Two cells, one contact; exact visible labels and geometry in ../tcr-t-two-cell-compartments-v1-light.svg.
+"No receptor entry into tumor; exact peptide–HLA; natural processing and safety independent"
+Style: flat outlined cell/protein cartoon; 600px vertical figure; 26px minimum body labels; identical light/dark geometry.
+High-level education only. Icons and counts are schematic, not molecular coordinates or measured data. No sequences, engineering methods, doses, regimens or optimization.
+Alt: An abstract instruction card points only into a T cell; its surface paired TCR with adjacent CD3 meets peptide–HLA across a gap. Inside the tumor cell, source protein processing supplies the displayed fragment; the receptor never enters the tumor.
+Caption: Receptor instructions belong in the T cell; tumor processing supplies the separate peptide–HLA address across the contact.
+Exercise: Which cell receives the receptor instructions? **Answer:** The T cell. The tumor must separately display the required peptide–HLA target.

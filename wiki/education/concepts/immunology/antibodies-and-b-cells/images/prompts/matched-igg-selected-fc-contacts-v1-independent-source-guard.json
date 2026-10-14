@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-248",
+  "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+  "scope": "Independent high-level mechanism and native task-fit source guard; no clinical result recertification, individual treatment inference, methods, sequences, constructs, protocols or dosing guidance.",
+  "metadataGate": {
+    "candidate": "sensitive:false; no sensitive tag or redacted metadata; checked before body",
+    "publicOwnerRead": "entire assigned public owner, including authored teaching and inserted visual; generated navigation recognized separately",
+    "linkedRestrictedCaseBodiesRead": false
+  },
+  "sourceReadDepth": "Fresh indexed primary abstracts and bibliographic records, read in full; no full-paper methods read",
+  "primarySources": [
+    {
+      "pmid": "28077575",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28077575/",
+      "supportAndLimit": "Selective Fc receptor/complement attenuation is product-, assay- and species-dependent; typical rodent pharmacokinetics can coexist with effector attenuation. Abstract supports the separation, not all-human safety or a universal FcRn result.",
+      "title": "Effector-attenuating Substitutions That Maintain Antibody Stability and Reduce Toxicity in Mice.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    }
+  ],
+  "accessLimits": [],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+    "pageSHA256": "85ed5c448c2295d4ab0a455d0e325cd341c097a130fc7414de4c5e1408e2f9f1",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare unchanged target-binding regions with changed Fc interactions and understand why silencing selected interactions does not turn every antibody function off.",
+    "gap": "The map and practice correctly separate binding and selected Fc interactions, but a matched-molecule structural comparison would clarify what changes and what stays the same. Reuse the antibody-structure reference rather than inventing an all-or-nothing Fc switch.",
+    "accuracyGuardrails": [
+      "Class switching and affinity maturation are distinct processes.",
+      "Keep Fc receptor/complement interactions distinct from FcRn recycling.",
+      "No universal half-life or safety inference from Fc silencing."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+      "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+      "theme": "light",
+      "bytes": 5472
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-dark.svg",
+      "sha256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631",
+      "theme": "dark",
+      "bytes": 5472
+    }
+  ],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0
+}

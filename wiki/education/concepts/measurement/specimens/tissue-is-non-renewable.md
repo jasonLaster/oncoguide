@@ -32,6 +32,10 @@ Think of a library with one original manuscript. You can reuse a photograph many
 
 ## How it works
 
+<img src="./images/finite-tissue-use-and-reusable-data-b10-v1-light.svg" alt="A finite tissue block becomes a smaller remaining block as sections are allocated to slides and extraction. One-way arrows carry physical material into those uses; stored slides can remain, while extraction changes the material and loses its original architecture. A separate digital dataset branches into two copies with no reverse arrow to the original block. No universal section thickness, test count or allocation is prescribed." data-theme-pair>
+
+*Material used for a section or extraction has left the block. Stored data can branch into copies, but none of those arrows refill the original specimen; record what remains.*
+
 A paraffin block contains a finite volume of tissue. Cutting sections moves material from that block onto slides. Further levels may expose different cells because tissue composition changes with depth. Extracting DNA, RNA or protein uses a portion and removes its original architecture. The resulting dataset can often be reanalyzed, but reanalysis does not return the tissue.
 
 An **aliquot** is an allocated portion of a specimen. A useful inventory connects each portion to its site, date, treatment context, preservation, location within the specimen, quantity, previous use and remaining material. A block list alone does not establish which blocks contain the cells needed for a particular test.

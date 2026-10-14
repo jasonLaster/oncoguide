@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-244",
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+  "author": "agent:/root/batch10_author_group3",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "authorRole": "Actual new-pair vector author; retained task243 original creator remains unknown",
+  "reviewer": "agent:/root/batch10_review_group3",
+  "independentReviewer": "agent:/root/batch10_review_group3",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:07:23.461780+00:00",
+  "reviewedAtUTC": "2026-10-14T00:07:23.461780+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/171",
+  "frozenRowSHA256": "d7f50abe80ba8c2f8f4c2cae28fa42b3d15f4fc80d05117bbc4b7f66dbb808b3",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The invented within-group response counts and rates are shown next to each group weight, with overall counts and rates below. A is 50/20 percent within groups while B is 60/30 percent; weights 80/20 versus20/80 percent yield 44 versus36 percent overall. This visibly closes the composition-reversal gap. The caution expressly preserves between-study confounding and makes no adjusted superiority or causal cross-trial claim.",
+    "frozenPageSHA256": "390dd0365b687a50716b14c8dcbc26a397639daa2a8aa7628ee0c0b56a8137b2",
+    "baselinePageSHA256": "390dd0365b687a50716b14c8dcbc26a397639daa2a8aa7628ee0c0b56a8137b2",
+    "actualTeachingPreimageSHA256": "da2c095038ba69b5afcab3bc804f2adba93148e00707bd973235e6ba0949d6e1",
+    "learnerTask": "See how group composition reverses the overall response-rate ranking.",
+    "gap": "The Simpson-type mixture example is only a table.",
+    "accuracyGuardrails": "Display within-group rates, group weights and overall rates together. Composition-induced reversals do not establish adjusted treatment superiority or justify an informal causal cross-trial comparison.",
+    "targetSection": "## A fictional example: population mix changes the headline",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Immutable original audit page hash is baselinePageSHA256; current committed teaching preimage is separately bound. Frozen task fields unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "bytes": 6075,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "bytes": 6075,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "bytes": 6075,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "bytes": 6075,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt",
+        "sha256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+        "bytes": 1634,
+        "kind": "new-creative-brief"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+        "sha256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+        "bytes": 2943,
+        "kind": "new-author-provenance"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+        "sha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+        "bytes": 9657,
+        "kind": "body-plus-additive-insertion"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+    "authorHandoffSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+    "authorInventorySHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+    "sourcePreimageSHA256": "da2c095038ba69b5afcab3bc804f2adba93148e00707bd973235e6ba0949d6e1",
+    "exactFiveNewPublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalCreator": null,
+    "insertOnlyPreimageRecovery": "Independently removed exact single saved insertion and recovered b3704 committed bytes byte-for-byte. Existing prose, source-depth statements, metadata and navigation preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "noUnrelatedOrRestrictedBodiesRead": true,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.fda.gov/media/71195/download",
+      "primary": true,
+      "readDepth": "Selected December2018 official guidance scope and overall-survival discussion, PDF printed page7/web lines367–379, read; not full19-page document.",
+      "supports": "External-control outcome differences may arise from patient selection, imaging or supportive care rather than drug effect.",
+      "accessStatus": "FDA PDF text accessible. No assertion of current regulatory requirements.",
+      "population": "General oncology endpoint guidance; invented response-rate arithmetic is not guidance study data."
+    }
+  ],
+  "mathAssessment": {
+    "favorableResponseCounts": [
+      40,
+      12
+    ],
+    "favorableDenominators": [
+      80,
+      20
+    ],
+    "unfavorableResponseCounts": [
+      4,
+      24
+    ],
+    "unfavorableDenominators": [
+      20,
+      80
+    ],
+    "overallResponseCounts": [
+      44,
+      36
+    ],
+    "overallDenominators": [
+      100,
+      100
+    ],
+    "fictionalQuantities": true,
+    "adjustedSuperiorityInferred": false
+  },
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, custody and personally inspected native plus fresh pinned-reader pixel review of assigned candidate; retained task243 context also inspected.",
+    "sourceReadDepth": "Actual bounded independent primary/official reading and access failures recorded. Preserved ancillary citations and historical source-depth statements are not each recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own copied private fixture rebuilt with exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. New native600px, desktop1440×1000 inline/theater and mobile390×844 inline/theater personally seen. For tall245/247 diagrams, additional complete desktop1440×1700 inline captures inspected. Retained243 pair native780×1100 plus desktop1440×1700/mobile390×844 inline/theater inspected. Original1000px desktop245/247 snapshots are viewport crops; supplementary captures establish complete inline geometry. No production header/sidebar/backend/navigation, physical mobile, cross-browser/touch or whole-page/nontext accessibility certification. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "supplementaryDesktopViewport": null,
+    "minMobileInlineLabelPx": 13.839749999999997,
+    "minMobileDefaultTheaterLabelPx": 13.68,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.089472715883854,
+    "allNewTextContrastChecksPassed": true,
+    "contrastScope": "Fresh computed SVG text fill against preceding opaque enclosing rectangle; both new themes. Nontext graphics and retained text contrast are not certified by this calculation.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but does not restore image focus. Independent mobile check for each task observes BODY. This unchanged pinned runtime defect remains qualified; no runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "captures/next-gap-244-light-reading.png",
+      "sha256": "6c834b9ea7b5b7d3f14effe235a72f50e51c5423d3387b4b9d0740a547999319"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "captures/next-gap-244-dark-reading.png",
+      "sha256": "9ad12101261c09efd76351819d3177a070a9f8f7e24d4ec00387bdf3410e2510"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "captures/next-gap-244-light-mobile-inline.png",
+      "sha256": "fd002ed17789763b8d953ba57119338a4832f1939efff65339025191378caf61"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "captures/next-gap-244-light-mobile-theater.png",
+      "sha256": "e8278927d76cfd8dce70e93e6f6f6d94451c98add641f931338df8c336934b6d"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "captures/next-gap-244-light-desktop-inline.png",
+      "sha256": "22b03d98c34ff09d18d1e94c20b1922a5f29752b656622249e62763f6c00fb45"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "captures/next-gap-244-light-desktop-theater.png",
+      "sha256": "4c3d5be8e6bf06c49df633f890268199676b8b3c8a6916d3acf5eb72e9821376"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-244-dark-mobile-inline.png",
+      "sha256": "4f1ee09005a43d50033aefdd54bf2624647fd742c16b9c1058ef43cd9e7e3d30"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-244-dark-mobile-theater.png",
+      "sha256": "5dae3f8aa2e03ae8d3a04b1e07b391af0ad0bd7927c193eae6943a660ec51b63"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-244-dark-desktop-inline.png",
+      "sha256": "1c9bfff5839e00708df718f6efa6e92d11d2ab219a50d49e7ecf0064fbfe282d"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-244-dark-desktop-theater.png",
+      "sha256": "ebc4b9c3a64d78ec076124424b614fbd0bc7a39695f6b11ceee6e706e3ce3013"
+    }
+  ],
+  "method": "Original hand-authored editable SVG via local Python serialization; no image model invocation claimed",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "qualified-renderer-limitation",
+      "decisionImpact": "No new artwork revision; prevents full keyboard/accessibility approval",
+      "detail": "Unchanged Escape closes ImageTheater then leaves BODY focused."
+    }
+  ]
+}

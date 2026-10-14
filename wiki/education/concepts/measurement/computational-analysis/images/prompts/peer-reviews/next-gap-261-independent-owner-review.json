@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-261",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+  "author": "agent:/root/batch11_measurement_author",
+  "reviewer": "agent:/root/batch11_measurement_review",
+  "reviewedAtUTC": "2026-10-14T20:03:33.778Z",
+  "currentOwnerSha256": "c06002d6b28d16e44f7d53ed19083bb43b2d3c5246bd934938dbd93cfb1d044e",
+  "passed": true,
+  "verdict": "PASS",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+      "sha256": "977bdcbd9640ae3b4011c862f5888e4740cb21854a50b07960850f769fbe6e43"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+      "sha256": "838e4b09103e824e9cdac5a0c3801a373c8357da81efdf8d55f6ae1c9a21abd5"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "432abdf9f61d28a6c4600f5ce7e05de51508da1b959015670a4b4515841a2513",
+    "learnerTask": "Distinguish filling a missing measurement from predicting a never-tested intervention.",
+    "gap": "No side-by-side task map shows the different inputs, references and held-out units.",
+    "accuracyGuardrails": "Distinguish imputing a missing observation from predicting an untested intervention. A simulated response is computed, not measured; reference population and held-out units must match the claim.",
+    "reasoning": "The first task uses paired image/RNA references and a held-out donor whose masked RNA is completed as a computed diamond, with evaluation against measured RNA. The second uses familiar intervention X to forecast Y while Y responses remain outside development and reserved for later comparison. The reference population, computed output and held-out unit are stated. Donor transfer, intervention transfer and untested cell-type portability remain different claims, with meaningful baselines required. This addresses the frozen comparison without claiming that imputation validates intervention response.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "canonicalOwnerPreserved": true,
+    "reuseFirstAssessment": "The retained validation image distinguishes cell/donor/intervention splits; the owner extension maps those units to imputation versus unseen-intervention prediction.",
+    "actualSourceConsultation": {
+      "id": "next-gap-261",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40759747/",
+      "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines.",
+      "sourceType": "primary research bibliographic record and complete abstract",
+      "actualConsultation": "Independently retrieved NCBI EFetch record and complete abstract; personally read in this review",
+      "retrievedEvidence": "sources/independently-retrieved-primary-abstracts.xml",
+      "assessment": "Ahlmann-Eltze primary abstract compares perturbation-prediction models against simple baselines and supports critical task-specific benchmarking. The missing-observation and reserved-intervention scenes are illustrative, with no claimed model performance.",
+      "wholePaperRead": false,
+      "sourceFigureCopied": false
+    }
+  },
+  "nativeAndDisplayReview": {
+    "nativeBothThemes": "Personally inspected fresh independent native screenshots",
+    "pageWidths": [
+      1100,
+      390
+    ],
+    "pageBothThemes": "Personally inspected fresh independent figure/caption article screenshots",
+    "theaterBothThemesBothWidths": "Personally inspected fresh independent theater screenshots; all 28 combinations open",
+    "capturedImageAndCaptionFit": true,
+    "descriptiveAltMatchesNative": true,
+    "noHorizontalDocumentOverflow": true,
+    "nativeTextOutOfBounds": 0,
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererVerifiedExactBlobCount": 87,
+    "fixtureScope": "Private article/theater/theme fixture, not full app, authentication, navigation or live delivery",
+    "knownInheritedReaderIssue": "Escape closes theater but activeElement returns to BODY; no focus-return repair or full accessibility approval claimed",
+    "inspectionBoards": [
+      "inspection-boards/261.png",
+      "inspection-boards/page-261.png",
+      "inspection-boards/theater-261.png"
+    ]
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+        "sha256": "c06002d6b28d16e44f7d53ed19083bb43b2d3c5246bd934938dbd93cfb1d044e"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+        "sha256": "977bdcbd9640ae3b4011c862f5888e4740cb21854a50b07960850f769fbe6e43"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+        "sha256": "838e4b09103e824e9cdac5a0c3801a373c8357da81efdf8d55f6ae1c9a21abd5"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/missing-observation-versus-unseen-intervention-b11-v1.txt",
+        "sha256": "1fb9c83a57df7315a702ccd34fc758811236548b73048348b78d380011378504"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/missing-observation-versus-unseen-intervention-b11-v1-provenance.json",
+        "sha256": "cdc8f8a93e5c7cb7127e064db3c56fe0048b6829745008677e4eec234facd380"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+        "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+        "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+        "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1.txt",
+        "sha256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+        "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/independently-retrieved-primary-abstracts.xml",
+        "sha256": "65b6ec11f7ab47f8aa709c33f54ce08b6b7b3507fa6a22d7f9720db2e2cd0b51"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/retrieval.json",
+        "sha256": "396a2bcf463e156fccc3e70dfc8af7c7300093ef7c97e2b11369ab4c04472a8c"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/source-consultation.private.json",
+        "sha256": "2a2b295e2b9791753df8281aed41afe0d3dbe68d8a699da791b72bc5afb43005"
+      }
+    ],
+    "retainedGuards": {
+      "sharedOwner": {
+        "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+        "sha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471"
+      },
+      "assetsAndSupport": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+          "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+          "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+          "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1.txt",
+          "sha256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+          "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa"
+        }
+      ],
+      "scope": "Exact retained native/support references verified against read-only source checkout; creator attribution not replaced"
+    },
+    "sourcePreimageSHA256": "432abdf9f61d28a6c4600f5ce7e05de51508da1b959015670a4b4515841a2513",
+    "sourcePreimageCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "inverseInsertionVerified": true,
+    "authorManifestSHA256": "357b3c22b3351e7fb10304433607e7195a0ecc68420c529e3cc0e004d7f4cf90",
+    "reviewedPublicFilesExactCount": 5,
+    "allPublicCandidateFilesExactCount": 35
+  },
+  "issues": [],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "publication": "not started",
+  "delivery": "not started",
+  "rootSoleIntegratorPublisher": true
+}

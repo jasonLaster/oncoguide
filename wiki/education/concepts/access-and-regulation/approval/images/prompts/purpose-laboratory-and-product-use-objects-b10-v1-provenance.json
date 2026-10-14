@@ -1,0 +1,90 @@
+{
+  "kind": "original-authored-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch10_author_group2",
+  "originalRetainedCreators": "Unknown; no retained artwork paths were selected for these owners. Existing source authorship is preserved, not attributed to this agent.",
+  "model": null,
+  "imageModelCalled": false,
+  "method": "Python-authored SVG",
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "currentOwnerPreimageSHA256": "f71d5e4a8af1631a1d4de328c2b3fb13435470192b7fa7cdcbf4c0fd166efcce",
+  "frozenPageSHA256": "f71d5e4a8af1631a1d4de328c2b3fb13435470192b7fa7cdcbf4c0fd166efcce",
+  "frozenRowSHA256": "6be78dde84364762377ea355d8338fe965eef60494a785632ff4defc8f5d82f2",
+  "learnerTask": "Attach RUO to intended purpose, CLIA to a laboratory and authorization to a product/use.",
+  "gap": "Four sequential question boxes may be mistaken for tiers despite the accurate caption; the distinct objects are not visually represented.",
+  "accuracyGuardrails": "Attach RUO, laboratory certification and product/use authorization to their different objects. Do not arrange them as a permission ladder or infer clinical validity, utility or payer coverage from a badge.",
+  "finalOwnerSHA256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+  "currentBodySHA256": "3fb6f6696dd352db6f5c5ccdf0a135b3a64c3400c9aa7b07bc477dcbdab57d18",
+  "finalBodySHA256": "226afc1f2819b4fac2066fea6ce7007b9b89d067e77a4fd6cf35d14dba6e7133",
+  "outputs": [
+    {
+      "key": "next-gap-241",
+      "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/prospective/wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+      "sha256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f"
+    },
+    {
+      "key": "next-gap-241",
+      "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/prospective/wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+      "sha256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e"
+    }
+  ],
+  "promptSHA256": "60a7391081117c24b9c6e0db104d280b5333ac186ec121390a04904fd658e9d9",
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": false,
+  "published": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "primarySourceChecks": [
+    {
+      "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+      "readLevel": "official parsed HTML About CLIA lines 710-722",
+      "supports": "laboratory-quality scope and separate payment responsibilities"
+    },
+    {
+      "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf",
+      "readLevel": "selected parsed 2013 PDF: overview and clinical-validity distinction, pages 1-2",
+      "supports": "laboratory analytical oversight versus clinical claim",
+      "limit": "Old FDA authority/enforcement language not used as current LDT law"
+    },
+    {
+      "url": "https://www.fda.gov/media/87374/download",
+      "readLevel": "selected parsed PDF sections III.A and IV.A.1, printed pages 7-8",
+      "supports": "RUO intended research purpose and labeling limits",
+      "limit": "No legal determination for a particular test"
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests",
+      "readLevel": "official parsed HTML current notice line 65",
+      "supports": "May 2024 rule vacatur and September 2025 restoration",
+      "limit": "Date-specific notice only; no individual test authorization assessed"
+    }
+  ],
+  "sourceCheckScope": "New illustration claims only; current teaching body retained byte-for-byte after inverse insertion. No full-page recertification.",
+  "focusedCorrection": {
+    "author": "agent:/root/batch10_author_group2",
+    "rejectedAuthorSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "rejectedProvenanceSHA256": "335879f53043b4c35574bf8c8d45898ccf7a053b23f4fdb6692d9930cf3dbd7d",
+    "requester": "agent:/root/batch10_review_group2",
+    "independentCorrectionReview": "pending",
+    "scope": [
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+        "operation": "Widen only green lab-quality badge by 28 native px",
+        "before": "x=\"248\" y=\"449\" width=\"295\" height=\"48\"",
+        "after": "x=\"248\" y=\"449\" width=\"323\" height=\"48\""
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+        "operation": "Widen only green lab-quality badge by 28 native px",
+        "before": "x=\"248\" y=\"449\" width=\"295\" height=\"48\"",
+        "after": "x=\"248\" y=\"449\" width=\"323\" height=\"48\""
+      }
+    ]
+  }
+}

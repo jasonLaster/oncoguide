@@ -1,0 +1,64 @@
+{
+  "kind": "original-authored-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch10_author_group2",
+  "originalRetainedCreators": "Unknown; no retained artwork paths were selected for these owners. Existing source authorship is preserved, not attributed to this agent.",
+  "model": null,
+  "imageModelCalled": false,
+  "method": "Python-authored SVG",
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "currentOwnerPreimageSHA256": "71d7174482b6e4e225ecc273f9dd007c8971fd9be6021422688b67f0fa57198f",
+  "frozenPageSHA256": "aafcd572e4d2ddb59b00ff06d9e0179556a9656c76d7ea33de368ff1fef0c400",
+  "frozenRowSHA256": "b4fb2d5772c752f5352edd3477b31f0065b5e0b7100a4a5ce6003b366ea2cbb8",
+  "learnerTask": "Compare properties preserved and living-cell options not guaranteed by labels",
+  "gap": "Current question flow does not contrast the three physical inputs",
+  "accuracyGuardrails": "Contrast properties preserved by preparation without assuming frozen means viable. Compatibility, recovery and quality remain assay-specific; no universal ranking or guarantee of living-cell options.",
+  "finalOwnerSHA256": "44fee1c4d559f01a9163b7de6ac06f0826dc93d9a3b0d02e5e44f5e39d9667f6",
+  "currentBodySHA256": "52d30b42e2a1bbedfeb6651280c195085c7e00f0b25f8666aa003b896b4a830d",
+  "finalBodySHA256": "2d849b7a3446480b0ad3ac7699b9c2ba2b72648d26f601eb96da8b5eedeee8f0",
+  "outputs": [
+    {
+      "key": "next-gap-237",
+      "owner": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+      "sha256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7"
+    },
+    {
+      "key": "next-gap-237",
+      "owner": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+      "sha256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770"
+    }
+  ],
+  "promptSHA256": "c584cca53977084dbadb6e0a2def7bbd24175046c75e9c4fc7cc7f72365da468",
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": false,
+  "published": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "primarySourceChecks": [
+    {
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf",
+      "readLevel": "selected parsed PDF first page Scope and definitions; revision 1.0 (2025)",
+      "supports": "molecular-analysis scope; viability/culture excluded; allocated pieces",
+      "limit": "Not a viability recovery protocol"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10536153/",
+      "readLevel": "PubMed abstract only, lines 241-244",
+      "supports": "fixation changes RNA chemistry and assay behavior",
+      "limit": "Full paper not read; no modern clinical assay-performance estimate"
+    },
+    {
+      "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf",
+      "readLevel": "selected parsed six-page excerpt: orientation/inking, mapped sections and section-code records",
+      "supports": "local ink/orientation keys and region-to-block identity",
+      "limit": "Fictional map, not patient-specific or a clearance/measurement rule"
+    }
+  ],
+  "sourceCheckScope": "New illustration claims only; current teaching body retained byte-for-byte after inverse insertion. No full-page recertification."
+}

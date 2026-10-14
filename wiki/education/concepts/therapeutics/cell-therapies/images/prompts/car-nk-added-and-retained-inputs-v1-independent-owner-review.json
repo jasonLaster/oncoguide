@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-252",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "learnerTask": "Distinguish an added CAR from retained native NK activating/inhibitory inputs",
+    "gap": "Converging arrows teach integration but not cell-surface contacts",
+    "accuracyGuardrails": "HLA loss not guaranteed killing; no NK/T safety ranking; exact construct matters",
+    "baselinePageSHA256": "d210bbab3631e5224c17bac8a72b9d1c4bdf8ecdd1307d2f815d6c0d151415db",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The membrane-to-membrane view preserves three simultaneous generic contacts: the added CAR, native activating input and native inhibitory input. The separate whole-cell response panel requires state/environment, function and harms to be assessed. Retained NK missing-self artwork supplies the original input contrast, while this extension supplies the additional CAR contact without changing ownership. HLA loss is explicitly not guaranteed killing, and there is no NK-versus-T safety ranking or receptor engineering specification."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+      "sha256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+      "theme": "light",
+      "bytes": 13725
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+      "sha256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+      "theme": "dark",
+      "bytes": 13725
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+        "sha256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+        "qualification": "reviewed proposed current owner"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+        "sha256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+        "sha256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1.txt",
+        "sha256": "1ffce936c231779235e3c020f95e33a5ef17e5953ec38e4a84a6c1eccf55e839",
+        "qualification": "new extension saved brief"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1-provenance.json",
+        "sha256": "bef149c29a5fb80b5ce51d8de899f768c9ce2f976ecb16b24ea73d800e98b664",
+        "qualification": "new extension author provenance"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1-independent-source-guard.json",
+        "sha256": "803eb4b9da541dcfd3ea8b53818504206564b7c2025fd383f16ba465dc714e0a",
+        "qualification": "independent source guard"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+        "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+        "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-independent-owner-review.json",
+        "sha256": "6cf5c73eaa8f182efdff41c388707672df35d80769dc25f1baa149feecfa4055",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-provenance.json",
+        "sha256": "d0d74132cc289855e761f2edfb5afbfc365fd7c78a905d5861bf6980ee52b605",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1.txt",
+        "sha256": "999c9788473565ab3d2730da96699d8413c4b8dfd25304d8e66c7279dce6e10f",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      }
+    ],
+    "authorCandidateSeal": {
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/seal.json",
+      "sha256": "b800ed4bf84b8cbc32aa8945fd4c4a778a7b2f22e9fa779a5145470d7fae3f2e"
+    },
+    "originalAttribution": "Historical creators and UNKNOWN creator values retained verbatim; reviewer claims no creative authorship of retained assets.",
+    "retainedSupportNotOutputs": true
+  },
+  "reviewScope": "Seven selected G1 task-fit reviews only; this receipt covers this owner and its exact two new natives. No canonical adoption, delivery or release approval.",
+  "checks": {
+    "exactInverseInsertion": true,
+    "metadataAndOriginalProseAndMermaidPreserved": true,
+    "frozenTaskWordingAndSharedOwnerPreserved": true,
+    "sameGeometryAndLabelsAcrossThemes": true,
+    "sharedArtRetainedAtCanonicalLocation": true,
+    "focusedExtensionBeyondRetainedDiagram": true,
+    "native": [
+      {
+        "key": "next-gap-252",
+        "theme": "light",
+        "nativeSHA256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-reading.png",
+        "captureSHA256": "24a9cb6224585bf2975ed9b4caaa57f77ec944e48d7a40e47e3643e8232e7c28",
+        "viewBox": "0 0 600 1120",
+        "textCount": 20,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "An added input, a whole cell",
+            "x": 28,
+            "y": 14,
+            "width": 412.890625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "A CAR joins native NK regulation",
+            "x": 28,
+            "y": 59,
+            "width": 371.03125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Keep all three contacts in view",
+            "x": 78,
+            "y": 130,
+            "width": 394.796875,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "NK cell",
+            "x": 259.78125,
+            "y": 180,
+            "width": 80.4375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Target cell",
+            "x": 241.234375,
+            "y": 637,
+            "width": 117.53125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Added",
+            "x": 79.8515625,
+            "y": 429,
+            "width": 76.296875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CAR",
+            "x": 92.1484375,
+            "y": 461,
+            "width": 51.703125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Native",
+            "x": 261.2109375,
+            "y": 429,
+            "width": 73.578125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "activating",
+            "x": 241.453125,
+            "y": 461,
+            "width": 113.09375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Native",
+            "x": 437.2109375,
+            "y": 429,
+            "width": 73.578125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "inhibitory",
+            "x": 420.078125,
+            "y": 461,
+            "width": 107.84375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Schematic surface partners",
+            "x": 141.6015625,
+            "y": 548,
+            "width": 316.796875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 763,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "The living cell integrates",
+            "x": 78,
+            "y": 760,
+            "width": 317.140625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "State + environment",
+            "x": 274,
+            "y": 825,
+            "width": 232.34375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Function to measure",
+            "x": 274,
+            "y": 857,
+            "width": 234.015625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Harms to assess",
+            "x": 274,
+            "y": 889,
+            "width": 189.1875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "HLA loss does not guarantee killing.",
+            "x": 38,
+            "y": 1025,
+            "width": 408.375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "No NK-versus-T safety ranking.",
+            "x": 38,
+            "y": 1057,
+            "width": 358.625,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      },
+      {
+        "key": "next-gap-252",
+        "theme": "dark",
+        "nativeSHA256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-reading.png",
+        "captureSHA256": "17f2abdac26428c553cbb9b1bec37306c688d82fd81e09e38c0a0b629c413664",
+        "viewBox": "0 0 600 1120",
+        "textCount": 20,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "An added input, a whole cell",
+            "x": 28,
+            "y": 14,
+            "width": 412.890625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "A CAR joins native NK regulation",
+            "x": 28,
+            "y": 59,
+            "width": 371.03125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Keep all three contacts in view",
+            "x": 78,
+            "y": 130,
+            "width": 394.796875,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "NK cell",
+            "x": 259.78125,
+            "y": 180,
+            "width": 80.4375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Target cell",
+            "x": 241.234375,
+            "y": 637,
+            "width": 117.53125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Added",
+            "x": 79.8515625,
+            "y": 429,
+            "width": 76.296875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CAR",
+            "x": 92.1484375,
+            "y": 461,
+            "width": 51.703125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Native",
+            "x": 261.2109375,
+            "y": 429,
+            "width": 73.578125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "activating",
+            "x": 241.453125,
+            "y": 461,
+            "width": 113.09375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Native",
+            "x": 437.2109375,
+            "y": 429,
+            "width": 73.578125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "inhibitory",
+            "x": 420.078125,
+            "y": 461,
+            "width": 107.84375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Schematic surface partners",
+            "x": 141.6015625,
+            "y": 548,
+            "width": 316.796875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 763,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "The living cell integrates",
+            "x": 78,
+            "y": 760,
+            "width": 317.140625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "State + environment",
+            "x": 274,
+            "y": 825,
+            "width": 232.34375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Function to measure",
+            "x": 274,
+            "y": 857,
+            "width": 234.015625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Harms to assess",
+            "x": 274,
+            "y": 889,
+            "width": 189.1875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "HLA loss does not guarantee killing.",
+            "x": 38,
+            "y": 1025,
+            "width": 408.375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "No NK-versus-T safety ranking.",
+            "x": 38,
+            "y": 1057,
+            "width": 358.625,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      }
+    ],
+    "articleAndTheater": [
+      {
+        "key": "next-gap-252",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+        "candidateSHA256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 99.125,
+            "width": 345.984375,
+            "height": 645.859375
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 645.8375
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 638.4
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-mobile-inline.png",
+            "sha256": "1ce7acf145c0ada2c33cf8ca56400487cab8245fe78b364bd17c354966720f78",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "85225931bd1b2d659daa607d18cbea8b5014c2cfa16b1b9a28e8442c3e2ad17e",
+            "crop": {
+              "x": 22,
+              "y": 99,
+              "width": 346,
+              "height": 646
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-mobile-theater.png",
+            "sha256": "917911edd01f5d9ab6faceced02ca3d69cb84aa95e5f7d5448f1b7f8175bdcd1"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-mobile-zoom150.png",
+          "sha256": "38609675a11ef9ea128779105d5546d8d4fa86fbf6b298e48a5db377172c1f04"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-252",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+        "candidateSHA256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 580.34375,
+            "width": 600,
+            "height": 1120
+          },
+          "paint": {
+            "width": 600,
+            "height": 1120
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 484.2857142857143,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.37142857142857,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-desktop-inline.png",
+            "sha256": "aeee3e19ede4293e1d0c23d046ae98ab05c535ba6d1f09d8e678a999ab1c5eee",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "730ed2d0d3cb6ea984618338bac154e014229e17f43d2cf6535b5977509a696b",
+            "crop": {
+              "x": 310,
+              "y": 580,
+              "width": 600,
+              "height": 1120
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-desktop-theater.png",
+            "sha256": "9c9ee086351c055e10ab55ea53ef4013d5f2102d7c99251162e9fe4ac91352e1"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-desktop-zoom150.png",
+          "sha256": "934bdeb17686eceba088de0339db8d83533afa4f2b60aee89091d4600d7a3414"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-252",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+        "candidateSHA256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 99.125,
+            "width": 345.984375,
+            "height": 645.859375
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 645.8375
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 638.4
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-mobile-inline.png",
+            "sha256": "3724995fd3fdd867a0d02b311bfe51a7c9783b8cca644375f9d67d12484a9688",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "880fe643cc254d42a701e96f9d5b31ddbc3916f4412df1d6753859823000d6cc",
+            "crop": {
+              "x": 22,
+              "y": 99,
+              "width": 346,
+              "height": 646
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-mobile-theater.png",
+            "sha256": "7b8441c9aa8723b7619ec130f3eb930965f936d317b91439d4b954f7a086b442"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-mobile-zoom150.png",
+          "sha256": "de2578724c722e681b6a0202b14d3eae06fa445781bcb1c8e22eac8d2d2ef14a"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-252",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+        "candidateSHA256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 580.34375,
+            "width": 600,
+            "height": 1120
+          },
+          "paint": {
+            "width": 600,
+            "height": 1120
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 484.2857142857143,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1120,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Fcar-nk-added-and-retained-inputs-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.37142857142857,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-desktop-inline.png",
+            "sha256": "c3b60098df18824b37d347e429befcaec5af39773af15b59230974d440dc9865",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "ed5fb4f997a54611eef5655aa0c9fc6c2bf9a30968abb0e9b21854d5e17f9445",
+            "crop": {
+              "x": 310,
+              "y": 580,
+              "width": 600,
+              "height": 1120
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-desktop-theater.png",
+            "sha256": "bddaf006fa576f0e28bc32282bfcfc2a8e0cc28865a4d00125bdd525650cfeab"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-desktop-zoom150.png",
+          "sha256": "8e10206cc905635a5bf94310cf9c6b8f22c2051f7ac158055aed600c4ddda39a"
+        },
+        "pageErrors": []
+      }
+    ],
+    "nativeZoom200": [
+      {
+        "id": "next-gap-252",
+        "theme": "light",
+        "scale": 2,
+        "nativeSHA256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-light-native-zoom200.png",
+        "captureSHA256": "5f0fd09dd107a76b6361163cea87a326bc8b0b249f7e1a9f48753c75f39d6d04",
+        "width": 1200,
+        "height": 2240
+      },
+      {
+        "id": "next-gap-252",
+        "theme": "dark",
+        "scale": 2,
+        "nativeSHA256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-252-dark-native-zoom200.png",
+        "captureSHA256": "f2faa8226dd312298bdef7b0b5d9ad866532384683345bbe95ac0b9ec55a21cd",
+        "width": 1200,
+        "height": 2240
+      }
+    ],
+    "personalPixelInspection": "Both native themes, both 390px article themes with captions and immediate context, both wide article themes, plus 200 percent full native SVG captures personally inspected. Synthetic CSS-zoom stress also inspected and separately qualified.",
+    "fixture": "87 verified exact 5cb06c95f00ceb74ab86b1f46f5face9d49497e0 Git blobs; reviewer copy on :4821; private pinned article and ImageTheater only, not full production application.",
+    "focusQualification": "Enter opens and Escape closes. Escape returns focus to BODY rather than the triggering image; known retained renderer defect, not fixed or certified as conforming.",
+    "zoomQualification": "Full native SVG at 200 percent remains legible and contains all labels. Synthetic root CSS zoom 150 percent on the modal can push lower content outside the viewport; this stress is not actual browser zoom and provides no blanket application zoom certification."
+  },
+  "sourceGuard": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1-independent-source-guard.json",
+    "sha256": "803eb4b9da541dcfd3ea8b53818504206564b7c2025fd383f16ba465dc714e0a"
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "pending",
+  "publication": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "findings": [],
+  "correctionIds": []
+}

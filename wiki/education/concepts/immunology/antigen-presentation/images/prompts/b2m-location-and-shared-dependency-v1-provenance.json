@@ -1,0 +1,200 @@
+{
+  "id": "next-gap-249",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+  "title": "B2M (beta-2 microglobulin)",
+  "group": 1,
+  "priority": "P2",
+  "recommendedMedium": "diagram",
+  "targetSection": "## How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+  "learnerTask": "Locate B2M in a class-I assembly and compare losing one allele with a shared assembly defect affecting multiple class-I targets.",
+  "gap": "The support-piece analogy and text are strong, but no picture locates B2M or contrasts the breadth of these two defects. Reuse the existing APM/HLA physical reference with a small allele-versus-shared-dependency comparison rather than a separate elaborate image.",
+  "accuracyGuardrails": [
+    "A variant does not establish complete functional loss.",
+    "Class II does not share this B2M dependency.",
+    "Reduced class I is not sufficient proof of NK killing."
+  ],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "pageSHA256": "c5d193b9402f0004f368d64ecd2399aeb7cf598525f73b82d127149b81a0f362",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate B2M in a class-I assembly and compare losing one allele with a shared assembly defect affecting multiple class-I targets.",
+    "gap": "The support-piece analogy and text are strong, but no picture locates B2M or contrasts the breadth of these two defects. Reuse the existing APM/HLA physical reference with a small allele-versus-shared-dependency comparison rather than a separate elaborate image.",
+    "accuracyGuardrails": [
+      "A variant does not establish complete functional loss.",
+      "Class II does not share this B2M dependency.",
+      "Reduced class I is not sufficient proof of NK killing."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/199",
+    "oneBasedRow": 200,
+    "originalTaskRowSHA256": "744a8ab14ff4e25751bdf91e39d18599a1bc8cf38301f18ce11d2d9eae75d184",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/199",
+  "currentOwnerActual": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "sha256": "c5d193b9402f0004f368d64ecd2399aeb7cf598525f73b82d127149b81a0f362",
+    "bytes": 6825,
+    "observedAtUTC": "2026-10-14T19:39:58.539557+00:00",
+    "immutableCommittedObservation": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "committedAndCurrentWorkingPreimagesEqual": true,
+    "metadataGate": "sensitive: false; no sensitive tag or redacted metadata; public concept only",
+    "bodyReadScope": "public authored mechanism and worked-example sections plus sources; no linked restricted case body",
+    "privatePreimage": "/tmp/education-next-visual-batch-11/selection/owner-preimages/wiki/education/concepts/immunology/antigen-presentation/b2m.md"
+  },
+  "actualTargetHeading": "## How it works",
+  "reuseRequirement": {
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "policy": "Preserve frozen shared owner exactly. Reuse existing diagram before creating any addition; justify only the page-specific view missing here. Do not claim a new canonical source-fit owner or credit from an added embed.",
+    "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "ownerSHA256": "117fbd145b564eb1e8d4c21cbebf4fe76d0a886036daba1f72ca53b8f6949ae1",
+    "privatePublicReference": "/tmp/education-next-visual-batch-11/selection/shared-owner-references/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "existingCanonicalAssignmentId": null,
+    "existingEmbeds": [
+      "<img src=\"./images/processing-display-recognition-v2-light.png\" alt=\"Five schematic panels show a common class-I route from protein fragments through TAP into the endoplasmic reticulum, loading with HLA-I and separate B2M, surface peptide–HLA display, and conditional contact with a compatible CD8 T-cell receptor.\" data-theme-pair>"
+    ]
+  },
+  "suggestedVisual": "Class-I membrane assembly locating heavy chain, peptide and B2M, beside one-allele loss versus shared assembly impairment; class-II shown as a separate dependency.",
+  "existingPrimaryReference": {
+    "pmid": "27433843",
+    "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27433843/",
+    "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+    "retrievedAbstract": true,
+    "localEvidence": "primary-reference-abstracts.xml"
+  },
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": null,
+  "creativeAuthor": "agent:/root/batch11_immune_address_author",
+  "originalCreator": "agent:/root/batch11_immune_address_author",
+  "originalCreatorStatus": "new source-code SVG only; reused artwork creators retained in untouched receipts",
+  "integrationAuthor": "root",
+  "stage": "private selection proposal",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "delivery": "pending",
+  "publication": "pending",
+  "creditNow": 0,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "assessorOfReusedArt": "agent:/root/batch11_immune_address_author",
+  "createdAtUTC": "2026-10-14T19:51:18.977178+00:00",
+  "method": "original source-code SVG; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+      "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+      "bytes": 20682,
+      "theme": "light"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+      "sha256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+      "bytes": 20682,
+      "theme": "dark"
+    }
+  ],
+  "briefPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1.txt",
+  "briefSHA256": "787a63aef477ca0f75daadbb67ecaee71114fc639f5a3441cfc6ae66439158a3",
+  "reusedArtAndSupport": [
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-dark.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-dark.png",
+      "sha256": "c6a7be6ab9414b7bf7cd6132aee4350d0cffb569222948e3160e0609c15da9ea",
+      "bytes": 1635697,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-light.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-light.png",
+      "sha256": "f87a8d934d35e10f8d5f7a88412379b82d792333ab42493ba3c2fae7b14e4915",
+      "bytes": 1513467,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-dark.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-dark.png",
+      "sha256": "dd165910509bbf0d5b92894b74b53c358aa719be856d20a63351196e58dddc23",
+      "bytes": 1700399,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+      "sha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+      "bytes": 1830505,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-calls.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-calls.json",
+      "sha256": "94dcbb3893b840b53733d3a8a2c7ac340ead0470a0bd6956d29165d250555b74",
+      "bytes": 13826,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-dark-call.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-dark-call.txt",
+      "sha256": "d9da59e313dbe2e653f36f43a004a159af64397d90041120322a82e018083ebc",
+      "bytes": 739,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-generation-receipt.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-generation-receipt.json",
+      "sha256": "e65af1d87fc33e729244f6582e0d863d58a666b809ae9b31eaa5712f04c84abf",
+      "bytes": 27565,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-light-call.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-light-call.txt",
+      "sha256": "d59a55986949d6111d87b68fd99b131ff92ca843d1e910abf0c2dbdc8310bfc4",
+      "bytes": 605,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2.txt",
+      "sha256": "b4197141a5369b637bd8c826f15e8bc8dabc98b415fc8707be963a5b60e3f8b4",
+      "bytes": 3308,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition.txt",
+      "sha256": "e0c67acd8c978fa236e77b7a574219fe310e2adbfbf9e17bf6f5e6deaf2f9c59",
+      "bytes": 4619,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    }
+  ],
+  "reuseExtensionRationale": "The shared processing figure already locates B2M. The focused extension enlarges that assembly and compares defect breadth without treating a reported variant as functional loss.",
+  "sourceReadDepth": "gated public owner/shared mechanism sections and sources; selected complete PubMed primary abstracts, no full methods",
+  "independentReview": "pending"
+}

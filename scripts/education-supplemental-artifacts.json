@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "6ef2b16c11999c6c58325748c10a5ebd46b77c61",
+  "reviewedSourceCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -1770,7 +1770,7 @@
       "sha256": "a1c467f8fcbda40a305984a9068bfed90fd681589e10508246945614cdde7ce6",
       "bytes": 2340,
       "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
-      "ownerSha256": "8d11ef4098993c366e6b040404e06a6b4c5c4ee7322fd1a0d2a3b694ca8e28ef",
+      "ownerSha256": "33b57565922e6800650630c0c17cf2c1c013602cfd5c86eb1d245c62db9ffcf7",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prognostic-vs-predictive-comparison-roles-v1-light.svg",
@@ -8759,6 +8759,1500 @@
         {
           "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
           "sha256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/crs-multicell-amplification-and-clinical-effects-b10-v1-provenance.json",
+      "sha256": "50ebdc90d8cfe3203b944eedd8238003a562061b6ab9880cde43089b2a95e9db",
+      "bytes": 1777,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+      "ownerSha256": "cf5cf4be84c39a9d340b31ff51b7ceeb217db83b97f7f9dad63313fbf74069d1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-light.svg",
+          "sha256": "b3c1c988bd72582bcfdd96ce3df361f2f83882eed4b881861d40bcbf026e6eb2"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-dark.svg",
+          "sha256": "0058c568c4a333ddf2688612c32ac1c211acf0cdfae8f7b87c3782153c5ed5e9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/icans-barrier-and-distinct-recovery-clocks-b10-v1-provenance.json",
+      "sha256": "e56930322af1185438a2433dd5104d90c8f1688853ffdd3dc9132035bef23ba5",
+      "bytes": 1739,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+      "ownerSha256": "2b2ff71dd7f4a03c8bb89033d8e9ba4a6fd7cc1afa145d5a89c872362ba19658",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-light.svg",
+          "sha256": "4863557bf89ff2f618dd0847844572b9b61321e2dd0c1894723d8670b014aa10"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-dark.svg",
+          "sha256": "cb3afe0e17c50e653b03170d057ebb9a54eebdfda26aa3a42bcaa21a95fcf920"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/intended-x-and-unintended-y-recognition-b10-v1-provenance.json",
+      "sha256": "6e2e54e68ee99138e76c0ed2505fe26f258c99270841955e1c8c3bc14518bb67",
+      "bytes": 1753,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md",
+      "ownerSha256": "48641eef74d1cdd94a21de19c84f4d1391744fa507d9a7953cb82d7a152b2917",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-light.svg",
+          "sha256": "f11f9a17e1879795255a9c212fec67e64491bac196d0b29aaf25b6d723122012"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-dark.svg",
+          "sha256": "929b754fd642f847a018db29d7a376fcc958638c634a229258ae156ec457db36"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/matched-anc-snapshot-and-duration-b10-v1-provenance.json",
+      "sha256": "6362562c15bc6d6c96bfe5bdb5ef07870c42112a3fe1c5a3a06052a03227a24f",
+      "bytes": 1728,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md",
+      "ownerSha256": "2e83626b5d45caaa23146a09974c935c5ccc27758ecbb11570e788ef3fd27d95",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-light.svg",
+          "sha256": "5614f4258e3c4ecf78057c0ec510661949840637c6e4784b21a49c4a885960d9"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-dark.svg",
+          "sha256": "8964c09d98a8591a63afea6875fd1580de88b907907fb2b03a978798518a456b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/leukapheresis-collection-and-return-streams-b10-v1-provenance.json",
+      "sha256": "11aefb93494daef6ef471519606d7ae5401d1f266b66033d53a0baf65c31667e",
+      "bytes": 6134,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+      "ownerSha256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+          "sha256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+          "sha256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/old-new-lots-and-evidence-bridge-b10-v1-provenance.json",
+      "sha256": "85546322741dc4f54dd2a649319ea19ca436930f26df5af1b7ee0e48d6c9961e",
+      "bytes": 3809,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "ownerSha256": "e7e838c4ae28d3f3df26305db71952a026d4b25f37313fcbb123544b5bc7c98f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-light.svg",
+          "sha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-dark.svg",
+          "sha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/fixed-frozen-viable-preserved-properties-b10-v1-provenance.json",
+      "sha256": "05c2be2ccec0bef99cd0daaa520e871472c8167fe5e1dedfde61e5e0e2dec2ed",
+      "bytes": 3824,
+      "owner": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "ownerSha256": "44fee1c4d559f01a9163b7de6ac06f0826dc93d9a3b0d02e5e44f5e39d9667f6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+          "sha256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+          "sha256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/oriented-specimen-to-selected-blocks-b10-v1-provenance.json",
+      "sha256": "54034dd61a0c06f2186d4f6e57b93327b370fef29e1e1c22d36ab2564e9a572b",
+      "bytes": 3162,
+      "owner": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "ownerSha256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+          "sha256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+          "sha256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/finite-tissue-use-and-reusable-data-b10-v1-provenance.json",
+      "sha256": "8389d9b8e25c41012d2b268d2fa2d31c69b181302338b066812e53494cdf0bc9",
+      "bytes": 6490,
+      "owner": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "ownerSha256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+          "sha256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+          "sha256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/expedited-support-versus-approval-decision-b10-v1-provenance.json",
+      "sha256": "5c1cb36aa98a8fe41f22496932ae75359916b0fad317244195bccbf69aa0d477",
+      "bytes": 3561,
+      "owner": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "ownerSha256": "2c73f15e3d15e749372f1dc4a63f42c49897e46595010b6aa5ccec6ce0fba2a0",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-light.svg",
+          "sha256": "28d94cf6f4b7baaf9152e64f4a413c90f46cdb8e9b957257ae4ffdc64d0753d9"
+        },
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-dark.svg",
+          "sha256": "3414126b43abe3794ab51551dd61d2daef35415830cc1ee42e9ed984e3f7bccb"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/purpose-laboratory-and-product-use-objects-b10-v1-provenance.json",
+      "sha256": "0208b399a8682a2de2aaef42e988039c4f1b9a1d33f957c2d8865f90e785bdfd",
+      "bytes": 5397,
+      "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+      "ownerSha256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+          "sha256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f"
+        },
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+          "sha256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/persistent-scar-and-current-repair-state-b10-v1-provenance.json",
+      "sha256": "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7",
+      "bytes": 3820,
+      "owner": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+      "ownerSha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-light.svg",
+          "sha256": "611c0b265f7c5dbf551cde365abf5fd611ca9efa8cdaba1d8f64adf7973f7b4b"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-dark.svg",
+          "sha256": "e1710aeeee086cc84fedf60fb97f6f080376d8effde83353086a68699c018e21"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/matched-marker-risks-and-treatment-effect-scales-b10-v1-provenance.json",
+      "sha256": "459f72e5b7b7265b95cd3bc71d54d57fcf87652ae2256b74b35ef56106730c5f",
+      "bytes": 3564,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+      "ownerSha256": "33b57565922e6800650630c0c17cf2c1c013602cfd5c86eb1d245c62db9ffcf7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-light.svg",
+          "sha256": "74e85b3431650a474ba8de33be42948ac7dd17b22802f872761e9a3522d4551c"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-dark.svg",
+          "sha256": "11c1c4505fb6e5eb182d0652f039087f5cf303283a481a9b83e1932e5a88dcde"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+      "sha256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+      "bytes": 2943,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "ownerSha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+          "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+          "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+      "bytes": 2946,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "ownerSha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+          "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+          "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+      "bytes": 3713,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "ownerSha256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+          "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+          "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cell-line-history-and-independent-quality-checks-b10-v1-provenance.json",
+      "sha256": "d4f90b4c0065b9fecc6881bbfa0d0539b47f9d960827a284ac8baf90d5c6b914",
+      "bytes": 2912,
+      "owner": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+      "ownerSha256": "62661eb9ff405bb328991b334421611a5913491cba906d2981342a2f8b5d7352",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg",
+          "sha256": "5b3c619e1566760b331f3a8dfcc8bfe2cd8432a6e132687cadfa57bc90a79f56"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-dark.svg",
+          "sha256": "6c8e3efb103f8d93729597bf09b51269dd0539bbc7bd90ff93312caeafe8de95"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/peer-reviews/next-gap-228-independent-owner-review.json",
+      "sha256": "855c4840d19d5ac7869de1e2fd1b1d6d87036df0c5c0a720dc639cb87d503c4f",
+      "bytes": 16587,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+      "ownerSha256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+          "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+          "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/peer-reviews/next-gap-229-independent-owner-review.json",
+      "sha256": "f90404987709d7310fe360011e0273fe2ae6088301d3b073f40dd55cc259115d",
+      "bytes": 14981,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+      "ownerSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+          "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+          "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/peer-reviews/next-gap-230-independent-owner-review.json",
+      "sha256": "e7b3e2cb401ec070cdc046a58899bdd12b2b86628091ab933d987799272bd3d0",
+      "bytes": 14102,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "ownerSha256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+          "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+          "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/peer-reviews/next-gap-231-independent-owner-review.json",
+      "sha256": "4bf668409479fe9b78c6e1483f19d5de5a04eca7f041a0552909461df4f9ae6a",
+      "bytes": 14076,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md",
+      "ownerSha256": "48641eef74d1cdd94a21de19c84f4d1391744fa507d9a7953cb82d7a152b2917",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-light.svg",
+          "sha256": "f11f9a17e1879795255a9c212fec67e64491bac196d0b29aaf25b6d723122012"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-dark.svg",
+          "sha256": "929b754fd642f847a018db29d7a376fcc958638c634a229258ae156ec457db36"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/peer-reviews/next-gap-232-independent-owner-review.json",
+      "sha256": "f751750bde29492e1bc8eb9b5f7069b7b99e5c2dfd9fab8f149957832608561b",
+      "bytes": 15650,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+      "ownerSha256": "cf5cf4be84c39a9d340b31ff51b7ceeb217db83b97f7f9dad63313fbf74069d1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-light.svg",
+          "sha256": "b3c1c988bd72582bcfdd96ce3df361f2f83882eed4b881861d40bcbf026e6eb2"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-dark.svg",
+          "sha256": "0058c568c4a333ddf2688612c32ac1c211acf0cdfae8f7b87c3782153c5ed5e9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/peer-reviews/next-gap-233-independent-owner-review.json",
+      "sha256": "27433ce2e3473436442a2d404d1deaf3f5f53ff5091d02a51a2a5bc194a8dfed",
+      "bytes": 15785,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+      "ownerSha256": "2b2ff71dd7f4a03c8bb89033d8e9ba4a6fd7cc1afa145d5a89c872362ba19658",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-light.svg",
+          "sha256": "4863557bf89ff2f618dd0847844572b9b61321e2dd0c1894723d8670b014aa10"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-dark.svg",
+          "sha256": "cb3afe0e17c50e653b03170d057ebb9a54eebdfda26aa3a42bcaa21a95fcf920"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/peer-reviews/next-gap-234-independent-owner-review.json",
+      "sha256": "d33df836083e7824e77e72ca1c4ac4e22919bcfaa3cd7a6b6e6ebff7b54a9871",
+      "bytes": 13433,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md",
+      "ownerSha256": "2e83626b5d45caaa23146a09974c935c5ccc27758ecbb11570e788ef3fd27d95",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-light.svg",
+          "sha256": "5614f4258e3c4ecf78057c0ec510661949840637c6e4784b21a49c4a885960d9"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-dark.svg",
+          "sha256": "8964c09d98a8591a63afea6875fd1580de88b907907fb2b03a978798518a456b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/peer-reviews/next-gap-235-independent-owner-review.json",
+      "sha256": "a4f776fc64b70695160a5e11cb2d98b45d33225299770190369715750d5cc698",
+      "bytes": 19399,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+      "ownerSha256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+          "sha256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+          "sha256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/peer-reviews/next-gap-236-independent-owner-review.json",
+      "sha256": "adab6f5809c71ebabaab318295f3b6095b9c63dc7f92741d8a3fc5d3602a8476",
+      "bytes": 14092,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "ownerSha256": "e7e838c4ae28d3f3df26305db71952a026d4b25f37313fcbb123544b5bc7c98f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-light.svg",
+          "sha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-dark.svg",
+          "sha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/peer-reviews/next-gap-237-independent-owner-review.json",
+      "sha256": "c04a8559a7f5d403f2d758cc38d1f120d2e30c583585a3652b3b5191045421a3",
+      "bytes": 13726,
+      "owner": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "ownerSha256": "44fee1c4d559f01a9163b7de6ac06f0826dc93d9a3b0d02e5e44f5e39d9667f6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+          "sha256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+          "sha256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/peer-reviews/next-gap-238-independent-owner-review.json",
+      "sha256": "759e0b4ac67d469e45f7cb24d6be2ff755292a571f080074f596df7cb4e06d83",
+      "bytes": 13324,
+      "owner": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "ownerSha256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+          "sha256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+          "sha256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/peer-reviews/next-gap-239-independent-owner-review.json",
+      "sha256": "7dbb966405d8116ad4b0cb5bedf06b0cc0590ec95b8659abd4b4a046bcc98300",
+      "bytes": 18523,
+      "owner": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "ownerSha256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+          "sha256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+          "sha256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/peer-reviews/next-gap-240-independent-owner-review.json",
+      "sha256": "d8a63b99c7e467e50a4d7c55e3e9a5c0c06aa3390b2b7452e12cbe2e7a6edb57",
+      "bytes": 13878,
+      "owner": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "ownerSha256": "2c73f15e3d15e749372f1dc4a63f42c49897e46595010b6aa5ccec6ce0fba2a0",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-light.svg",
+          "sha256": "28d94cf6f4b7baaf9152e64f4a413c90f46cdb8e9b957257ae4ffdc64d0753d9"
+        },
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-dark.svg",
+          "sha256": "3414126b43abe3794ab51551dd61d2daef35415830cc1ee42e9ed984e3f7bccb"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/peer-reviews/next-gap-241-independent-owner-review.json",
+      "sha256": "b5328e779368911bf7e9cc0688dd2591da659df9d9df6a34d802496f30029558",
+      "bytes": 19746,
+      "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+      "ownerSha256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+          "sha256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f"
+        },
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+          "sha256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/peer-reviews/next-gap-242-independent-owner-review.json",
+      "sha256": "7674ed4a7b23b9f554e5cb2e1ee179470d781a5af309cd8b30b063a6a929ca0b",
+      "bytes": 13855,
+      "owner": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+      "ownerSha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-light.svg",
+          "sha256": "611c0b265f7c5dbf551cde365abf5fd611ca9efa8cdaba1d8f64adf7973f7b4b"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-dark.svg",
+          "sha256": "e1710aeeee086cc84fedf60fb97f6f080376d8effde83353086a68699c018e21"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/peer-reviews/next-gap-243-independent-owner-review.json",
+      "sha256": "682a30bcc89e19a00e8d0ecb1c8f50e06c2475620a9109c420e20a8ca783ded5",
+      "bytes": 17767,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+      "ownerSha256": "33b57565922e6800650630c0c17cf2c1c013602cfd5c86eb1d245c62db9ffcf7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-light.svg",
+          "sha256": "74e85b3431650a474ba8de33be42948ac7dd17b22802f872761e9a3522d4551c"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-dark.svg",
+          "sha256": "11c1c4505fb6e5eb182d0652f039087f5cf303283a481a9b83e1932e5a88dcde"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-244-independent-owner-review.json",
+      "sha256": "00ccf40b013ad9d3f2a61c07ed07f25397acee630c7cdff4ae9aa92c2524c767",
+      "bytes": 13324,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "ownerSha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+          "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+          "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-245-focused-pair-binding-successor.json",
+      "sha256": "1fd6edfd5215b1888c2117482245b03285f64c2fa2a42583666a5edd4816fc57",
+      "bytes": 16869,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "ownerSha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+          "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+          "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-246-focused-pair-binding-successor.json",
+      "sha256": "bff80155e917a092bb3daa27357c184c666277bd68c551f96a69f3102da34d24",
+      "bytes": 16471,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "ownerSha256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+          "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+          "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/peer-reviews/next-gap-247-independent-owner-review.json",
+      "sha256": "6f8a8c40cc07b1f325fe403e7256c1ff5444ef8d0cd98c92b08d34f67bee39e9",
+      "bytes": 13960,
+      "owner": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+      "ownerSha256": "62661eb9ff405bb328991b334421611a5913491cba906d2981342a2f8b5d7352",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg",
+          "sha256": "5b3c619e1566760b331f3a8dfcc8bfe2cd8432a6e132687cadfa57bc90a79f56"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-dark.svg",
+          "sha256": "6c8e3efb103f8d93729597bf09b51269dd0539bbc7bd90ff93312caeafe8de95"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/matched-igg-selected-fc-contacts-v1-provenance.json",
+      "sha256": "c6f8a62b22aa99b472b0fdd9461484c134ad6acd7ca939df9eb105238d51acda",
+      "bytes": 11274,
+      "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+      "ownerSha256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+          "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-dark.svg",
+          "sha256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1-provenance.json",
+      "sha256": "03231c08e26b951f9f94fb18102c5b97c5cf83a3b35a4a92a4e9a41cb176ae25",
+      "bytes": 13979,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+      "ownerSha256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+          "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+          "sha256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1-provenance.json",
+      "sha256": "c584e167cb87950810649c3f15fdb2556d4543d2e39f5c1b6601477791059041",
+      "bytes": 14116,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "ownerSha256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+          "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+          "sha256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1-provenance.json",
+      "sha256": "96d6992b6415fac4418b9b6c13fabee685f96459c95e588f2be4f96e4d81b506",
+      "bytes": 10308,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ownerSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+          "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+          "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1-provenance.json",
+      "sha256": "bef149c29a5fb80b5ce51d8de899f768c9ce2f976ecb16b24ea73d800e98b664",
+      "bytes": 10320,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+      "ownerSha256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+          "sha256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+          "sha256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1-provenance.json",
+      "sha256": "12dfabc93f28384864e4ca610122d6c053e896101e32aa8b6525cf968432fda7",
+      "bytes": 10192,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+      "ownerSha256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+          "sha256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+          "sha256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1-provenance.json",
+      "sha256": "21987359ac0f526d20fbf5089b6a225b833c583c7279d141f6a94532e400aeb9",
+      "bytes": 10169,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ownerSha256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+          "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+          "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/missing-observation-versus-unseen-intervention-b11-v1-provenance.json",
+      "sha256": "cdc8f8a93e5c7cb7127e064db3c56fe0048b6829745008677e4eec234facd380",
+      "bytes": 5560,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+      "ownerSha256": "c06002d6b28d16e44f7d53ed19083bb43b2d3c5246bd934938dbd93cfb1d044e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+          "sha256": "977bdcbd9640ae3b4011c862f5888e4740cb21854a50b07960850f769fbe6e43"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+          "sha256": "838e4b09103e824e9cdac5a0c3801a373c8357da81efdf8d55f6ae1c9a21abd5"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cell-boundary-mitochondria-and-priming-b11-v1-provenance.json",
+      "sha256": "5cc8ff21096119f810f6d9c280f913ae54f7a4210529f4a3164968d725dbbe0c",
+      "bytes": 5565,
+      "owner": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "ownerSha256": "032d89ec8d887aced2ddb308b3cfa0ac52eff812683476ab88aa8da6a6108b1b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+          "sha256": "be62c763f166c6d17efcb726de835e2078286133bb6b1ebafc8a21d6f1cdf57e"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+          "sha256": "aa923cd6d78c746d2b42589f9de7b503d76f15cbbb0ab62014fd256371025227"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/plasma-variant-and-parallel-source-comparisons-b11-v1-provenance.json",
+      "sha256": "8e50371618ab200c247fb0fb8e49dbdda020fd8cad04dfb1f9d27b84268f6e2f",
+      "bytes": 5360,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+      "ownerSha256": "60e2af6ed56a15efe332114488ee6cc22a6cea2ae2f8a5fd568e81aadd911e63",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+          "sha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+          "sha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/channels-masks-and-two-distance-rulers-b11-v1-provenance.json",
+      "sha256": "b421488ec039bb150939df1b47e06705d749ff9c2ee890e1a3933465b7374232",
+      "bytes": 5449,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+      "ownerSha256": "55c317c2435c29c5b2338d385c9ec1188f59e09a24b6b965023737d6e99f5cf6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg",
+          "sha256": "40b77aaf1f53d3d187a5c030d0e114ac66da0dc8c2bcb3121c661a987255fd23"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+          "sha256": "b05374637b3bef3fa7dd74cb5c33aaa357c000a696d31a40fffdcf84e6ca902b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-response-and-reportable-range-b11-v1-provenance.json",
+      "sha256": "f8951b909d92d965d5388d3f5d4fd9cadb9199498f54dcf7bd0ca2c393d5d1ae",
+      "bytes": 6628,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "ownerSha256": "467d4b84bd1b6dacda90f52a6f2323d3391289cb913bf528fc1b2d5c6f884d23",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+          "sha256": "e3fec6565ac27d6cf652e43188908fff53d5bf04ad004bed5a886e9648be43e7"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+          "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/hla-dna-expression-and-b2m-contrast-b11-v1-provenance.json",
+      "sha256": "e812bd7d4e1ec5c51e517651a781f4a079de332b8e3393e63ee44d3c2b9457c4",
+      "bytes": 5290,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md",
+      "ownerSha256": "41a804109c0a64f3008c5e9acfc679f47952eb15b9b25bd0251b2ebeecbc3357",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-light.svg",
+          "sha256": "155009c921b13102d82d5c7a0d81a631e0cfb3e17ed878886d70fdafd086cdef"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-dark.svg",
+          "sha256": "065ff10d32f521ffe951cdfa07deba7283f9d385b12162eeec883a3176607ff7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/immune-subset-and-whole-sample-b11-v1-provenance.json",
+      "sha256": "3f7623b9d00ee7767252b96868a8b701056e99747b52197541eb3af31f5d685c",
+      "bytes": 5340,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+      "ownerSha256": "72ab5b71154898d87a765e224a664e53d9d1b014e6e82a5b1f0aad3df0287e54",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+          "sha256": "bd70fac8f8e8421b5e28186019c1779e591ae1b02ccd01b748aeb97dac4d1184"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+          "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/rcb-breast-and-node-inputs-v1-provenance.json",
+      "sha256": "d21a1156dc5e134e463b763d00a568acd83c050682c9bffdfe69ba712b2c921e",
+      "bytes": 4147,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+      "ownerSha256": "3d27768a0c215da705305bca81dfdef6732f7bce42ec4c70bf3fffd47d3ecb83",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-light.svg",
+          "sha256": "fdffe8ee25b48503dbdcd5d85851a71560e6d619da706f72ce34bc500be5067d"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-dark.svg",
+          "sha256": "f1689ba11f239e6034a6add8ed8301b541a7bd4234111d44e240e0259288a0f1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/counted-lymphocyte-denominator-v1-provenance.json",
+      "sha256": "f7d6a3ec8f20362cd607f40f4dbb5679a404507fb8b40a424ea6ac62b142c202",
+      "bytes": 3388,
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes.md",
+      "ownerSha256": "7ba8c9d031769c28d0c22a9d153d8f9f142a7fea304e0c3ebe39358a4a1c1348",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/counted-lymphocyte-denominator-v1-light.svg",
+          "sha256": "3a6f8f22590580cbc8f46f52478599c769841141c0ec662965d79076cdd8a58a"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/counted-lymphocyte-denominator-v1-dark.svg",
+          "sha256": "c7b2827251dda3208d98a30cd90db787b812b2742f2794d52114ce937214590b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/alkyl-attachments-and-prodrug-activation-v1-provenance.json",
+      "sha256": "b79f0a3ec2723e2b9433142a49c5cf50d1fe2f70768f969bf124d03605c33ccf",
+      "bytes": 3597,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+      "ownerSha256": "fdfefe875c39a57a2f656e162a52b2c357ccaffdf0ca974f767ca1cb9aa8bbf8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-light.svg",
+          "sha256": "90160f48d42f89f0746e335fbdee3e0cc973d2a9b4d83bf40f134f068177eb64"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+          "sha256": "0c499e21404a496f0c1a0e7d04bed9f344ddc4c2e635c566f3a912931072d58f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1-provenance.json",
+      "sha256": "d00a4a166e1bc5eb15aedb7369cac66b91ff56367c2cb96b02d263483338c12a",
+      "bytes": 3950,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ownerSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+          "sha256": "6c41e5354367f7cf96ccaa4cf66b1eda025d1e3c6e07be7a11ec22ebaae6f240"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+          "sha256": "7e4a3dda74d8a4b35fde790a5655ee3bf616366cef6bf1c0efd73bed1d66726e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/gut-brain-windows-and-separate-outcomes-v1-provenance.json",
+      "sha256": "f9a4e1a1c2fccf6d7c926a14cff579fb53fda43ccfc281bc249cea6b00580688",
+      "bytes": 3814,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea.md",
+      "ownerSha256": "2711ef83671c709af717b737f25ff6c333e3ec2433e30bd92cc191d5158c5f30",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/gut-brain-windows-and-separate-outcomes-v1-light.svg",
+          "sha256": "47b559e38cd8d7203a52f229b4c31f5fdd68789aeae1bf19235ab8b88cba59ff"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/gut-brain-windows-and-separate-outcomes-v1-dark.svg",
+          "sha256": "28dc7021dc42e106ae55ecab47b3b0dc96a1c755c6a6dcf46f9c958c5294e350"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/matched-igg-selected-fc-contacts-v1-independent-source-guard.json",
+      "sha256": "adf48f252ced0240d41d6212cf03572561537c9887e5a5d4dda54d41c23d2cc9",
+      "bytes": 3684,
+      "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+      "ownerSha256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+          "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-dark.svg",
+          "sha256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/prompts/matched-igg-selected-fc-contacts-v1-independent-owner-review.json",
+      "sha256": "6f2a09f8c3d982efb9c5e5d4355879a499ba7007d7cee648ad8ef90712d8599e",
+      "bytes": 31936,
+      "owner": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+      "ownerSha256": "9a9935bf387ac042c838a782149b7d35d566c90fabc8a88deeb01a5980cfa0ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+          "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-dark.svg",
+          "sha256": "68c1bf88bf981afc9049c55153646a17821d18ed97570e721cf98a353d75d631"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1-independent-source-guard.json",
+      "sha256": "8326a45d000d9dabbb2afbfb3201911a483324a53051838b57ce19407835481f",
+      "bytes": 4935,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+      "ownerSha256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+          "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+          "sha256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/b2m-location-and-shared-dependency-v1-independent-owner-review.json",
+      "sha256": "12677b71369bb788fd3cb9b84639bd0fb5197cb8287fcaecba4757571f7ccd1e",
+      "bytes": 33957,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+      "ownerSha256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+          "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+          "sha256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1-independent-source-guard.json",
+      "sha256": "0fe8d4ed73124ffba2ded07ecfc11845a05093d566a64fc24999cc7d277a0167",
+      "bytes": 3586,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "ownerSha256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+          "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+          "sha256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1-independent-owner-review.json",
+      "sha256": "3991c07b87a709beafd4e4699b37eedecc992fab22ccc34bc73ded101f2ee941",
+      "bytes": 32025,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "ownerSha256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+          "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+          "sha256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1-independent-source-guard.json",
+      "sha256": "c38c919b231b4ea6bf59bdae46ea525f85a7472e78a5d24cacb2dc246fc65c98",
+      "bytes": 3907,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ownerSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+          "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+          "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1-independent-owner-review.json",
+      "sha256": "eb6978aa2332823ba88fa96f1e597a6c2d687d3f1c505ee231cff4834e0251d8",
+      "bytes": 30726,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ownerSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+          "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+          "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1-independent-source-guard.json",
+      "sha256": "803eb4b9da541dcfd3ea8b53818504206564b7c2025fd383f16ba465dc714e0a",
+      "bytes": 3785,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+      "ownerSha256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+          "sha256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+          "sha256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1-independent-owner-review.json",
+      "sha256": "d80c48df25b429a1a48dfcf01d7ec1590e75757331bfd9c8387c8e02bfedf72c",
+      "bytes": 31314,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+      "ownerSha256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+          "sha256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+          "sha256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1-independent-source-guard.json",
+      "sha256": "6884163aab588d3d824c3a52080bb6d6c556915cc48f6bf32b0d2dbdb41b6464",
+      "bytes": 3702,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+      "ownerSha256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+          "sha256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+          "sha256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1-independent-owner-review.json",
+      "sha256": "17d226f77d023b1190419196a370a1daabce8a9ea585d63fcacae3b42d000ddb",
+      "bytes": 31553,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+      "ownerSha256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+          "sha256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+          "sha256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1-independent-source-guard.json",
+      "sha256": "c5ec0f1f3e5926d3142936e4c716f8d7254ab253356e2997fa2d094c8ca5cd0b",
+      "bytes": 4886,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ownerSha256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+          "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+          "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1-independent-owner-review.json",
+      "sha256": "9f021d98a81fa56bfd88e158b199db5ea219d7d4aac1a333ae69962b8faadb34",
+      "bytes": 34754,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ownerSha256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+          "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+          "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/rcb-breast-and-node-inputs-v1-task-fit-review.json",
+      "sha256": "28aa731fab79c37d8f74d0f4eaed9ce09aefb2b9c9e4ed41901910e8628bb458",
+      "bytes": 21224,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+      "ownerSha256": "3d27768a0c215da705305bca81dfdef6732f7bce42ec4c70bf3fffd47d3ecb83",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-light.svg",
+          "sha256": "fdffe8ee25b48503dbdcd5d85851a71560e6d619da706f72ce34bc500be5067d"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-dark.svg",
+          "sha256": "f1689ba11f239e6034a6add8ed8301b541a7bd4234111d44e240e0259288a0f1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/prompts/counted-lymphocyte-denominator-v1-task-fit-review.json",
+      "sha256": "d1503cb105ea01228751f00c292ef51aa1ee1e2529506a7cc606dfebb8b45ee8",
+      "bytes": 20024,
+      "owner": "wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes.md",
+      "ownerSha256": "7ba8c9d031769c28d0c22a9d153d8f9f142a7fea304e0c3ebe39358a4a1c1348",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/counted-lymphocyte-denominator-v1-light.svg",
+          "sha256": "3a6f8f22590580cbc8f46f52478599c769841141c0ec662965d79076cdd8a58a"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/tumor-immunology/images/counted-lymphocyte-denominator-v1-dark.svg",
+          "sha256": "c7b2827251dda3208d98a30cd90db787b812b2742f2794d52114ce937214590b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/alkyl-attachments-and-prodrug-activation-v1-task-fit-review.json",
+      "sha256": "93ca9bea99f933bdef716a46d5d561c1061938e6ca685da5138dfd49f42e833e",
+      "bytes": 20275,
+      "owner": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+      "ownerSha256": "fdfefe875c39a57a2f656e162a52b2c357ccaffdf0ca974f767ca1cb9aa8bbf8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-light.svg",
+          "sha256": "90160f48d42f89f0746e335fbdee3e0cc973d2a9b4d83bf40f134f068177eb64"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+          "sha256": "0c499e21404a496f0c1a0e7d04bed9f344ddc4c2e635c566f3a912931072d58f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/peer-reviews/next-gap-265-review.json",
+      "sha256": "ac3de368adc21fa1cbec42eeaaca83df42f8abe8d5d25b6493c75ce80f656e50",
+      "bytes": 15470,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+      "ownerSha256": "7626751684091f6fae07202e5f9ac743cbc63ba8bff8312f0da6bdfa30945bcf",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+          "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+          "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1-task-fit-review.json",
+      "sha256": "b878dcaeaafc6ffed98f981f9a3630992d95b9f3d9493d67634061c8c93d6b4c",
+      "bytes": 15045,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ownerSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+          "sha256": "6c41e5354367f7cf96ccaa4cf66b1eda025d1e3c6e07be7a11ec22ebaae6f240"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+          "sha256": "7e4a3dda74d8a4b35fde790a5655ee3bf616366cef6bf1c0efd73bed1d66726e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/gut-brain-windows-and-separate-outcomes-v1-task-fit-review.json",
+      "sha256": "3b4e25f22be110e0c0274a951ff8fe91f4535329c1fc1a6f55f8473f1f3bb362",
+      "bytes": 15101,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea.md",
+      "ownerSha256": "2711ef83671c709af717b737f25ff6c333e3ec2433e30bd92cc191d5158c5f30",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/gut-brain-windows-and-separate-outcomes-v1-light.svg",
+          "sha256": "47b559e38cd8d7203a52f229b4c31f5fdd68789aeae1bf19235ab8b88cba59ff"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/gut-brain-windows-and-separate-outcomes-v1-dark.svg",
+          "sha256": "28dc7021dc42e106ae55ecab47b3b0dc96a1c755c6a6dcf46f9c958c5294e350"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/peer-reviews/next-gap-255-independent-owner-review.json",
+      "sha256": "157f663891a59eb7d0ca5407969fecddb9c6da59dd5509eeac360e42581e5097",
+      "bytes": 9907,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+      "ownerSha256": "72ab5b71154898d87a765e224a664e53d9d1b014e6e82a5b1f0aad3df0287e54",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+          "sha256": "bd70fac8f8e8421b5e28186019c1779e591ae1b02ccd01b748aeb97dac4d1184"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+          "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-256-independent-owner-review.json",
+      "sha256": "f0d8b9c6b7e7c21d4cd522edae1157662b64157cf4a7381e48bec5e3ca646305",
+      "bytes": 9962,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+      "ownerSha256": "55c317c2435c29c5b2338d385c9ec1188f59e09a24b6b965023737d6e99f5cf6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg",
+          "sha256": "40b77aaf1f53d3d187a5c030d0e114ac66da0dc8c2bcb3121c661a987255fd23"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+          "sha256": "b05374637b3bef3fa7dd74cb5c33aaa357c000a696d31a40fffdcf84e6ca902b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/peer-reviews/next-gap-258-independent-owner-review.json",
+      "sha256": "4c676232adef981ff747843a567584eb2751a912139d03452a668d3562c35a70",
+      "bytes": 9732,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md",
+      "ownerSha256": "41a804109c0a64f3008c5e9acfc679f47952eb15b9b25bd0251b2ebeecbc3357",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-light.svg",
+          "sha256": "155009c921b13102d82d5c7a0d81a631e0cfb3e17ed878886d70fdafd086cdef"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-dark.svg",
+          "sha256": "065ff10d32f521ffe951cdfa07deba7283f9d385b12162eeec883a3176607ff7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/peer-reviews/next-gap-259-independent-owner-review.json",
+      "sha256": "bd218da546caab97900a18f2cfaf5e30ff27b3291c8087d21391fba0dbfc01b2",
+      "bytes": 9898,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+      "ownerSha256": "60e2af6ed56a15efe332114488ee6cc22a6cea2ae2f8a5fd568e81aadd911e63",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+          "sha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+          "sha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/peer-reviews/next-gap-260-independent-owner-review.json",
+      "sha256": "eb8187b7741fdb2969437bb3315a72a0371119542b0148bb1b940367a73be663",
+      "bytes": 10162,
+      "owner": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "ownerSha256": "032d89ec8d887aced2ddb308b3cfa0ac52eff812683476ab88aa8da6a6108b1b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+          "sha256": "be62c763f166c6d17efcb726de835e2078286133bb6b1ebafc8a21d6f1cdf57e"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+          "sha256": "aa923cd6d78c746d2b42589f9de7b503d76f15cbbb0ab62014fd256371025227"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/peer-reviews/next-gap-261-independent-owner-review.json",
+      "sha256": "62de16c0e86cc7bf112f77bf9d6f3a0bfea4391c62d2b1aaacee2439897cd984",
+      "bytes": 10245,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+      "ownerSha256": "c06002d6b28d16e44f7d53ed19083bb43b2d3c5246bd934938dbd93cfb1d044e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+          "sha256": "977bdcbd9640ae3b4011c862f5888e4740cb21854a50b07960850f769fbe6e43"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+          "sha256": "838e4b09103e824e9cdac5a0c3801a373c8357da81efdf8d55f6ae1c9a21abd5"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-257-independent-owner-review.json",
+      "sha256": "8ba5021414d48bc12b2e09802ce044dad77ac6c8e49226bac80672b5cffc6500",
+      "bytes": 13937,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "ownerSha256": "467d4b84bd1b6dacda90f52a6f2323d3391289cb913bf528fc1b2d5c6f884d23",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+          "sha256": "e3fec6565ac27d6cf652e43188908fff53d5bf04ad004bed5a886e9648be43e7"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+          "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5"
         }
       ],
       "contentClass": "source-owned-public-custody"

@@ -31,6 +31,18 @@ The analogy breaks at “off.” Fc silencing is not one universal switch. A mol
 
 ## How it works
 
+<img src="./images/typical-igg-domains-binding-and-partners-v1-light.svg" alt="A typical IgG antibody with two heavy and two light chains; variable and constant domains are labeled, Fab includes both types and Fc contains CH2 and CH3 domains from both heavy chains." data-theme-pair />
+
+*Reference anatomy from the shared concept. The focused comparison below asks a different question.*
+
+<img src="./images/matched-igg-selected-fc-contacts-v1-light.svg" alt="Matched IgG sketches retain the same green target-binding tips while selected Fc receptor and complement contacts are reduced; a separate vesicle asks about FcRn recycling." data-theme-pair />
+
+*Matched recognition regions can stay the same while selected Fc interactions change; FcRn recycling needs its own evidence.*
+
+**Read the picture:** Point to the part held constant. Does weaker Fc receptor binding tell you the half-life? **Answer:** The tips are held constant; half-life needs separate evidence.
+
+
+
 [Antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) separates recognition regions from the constant regions. An **isotype** is a heavy-chain class: immunoglobulin M, D, G, A or E, abbreviated **IgM, IgD, IgG, IgA and IgE**. Human IgG also has the subclasses IgG1, IgG2, IgG3 and IgG4. These categories help describe architecture, distribution and potential effector interactions.
 
 A B-cell lineage can undergo **class switching**, changing its heavy-chain constant region while retaining the rearranged variable-region sequence. This is different from the mutations that can change antibody affinity during a response. Neither the class name nor a switch establishes what antigen an antibody recognizes.

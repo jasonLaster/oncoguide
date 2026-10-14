@@ -1,0 +1,5 @@
+Original source-code SVG construction brief. No image-generation call.
+Actual creative author: agent:/root/batch11_pathology_symptoms_author
+Two rounded panels. Breast footprint contains sparse cancer shapes, dimension brackets and separate named denominators. Regional bean-shaped lymph nodes retain count and metastasis size as different measurements. No numeric specimen or prognostic calculator; not for neoadjuvant endocrine therapy.
+Frozen learner task: Keep tumor-bed area, cancer-only in-situ share and nodal contribution distinct before combining an RCB score.
+Guardrails: ["RCB dimensions and percentages belong to the protocol, not sequencing purity.", "Nodal contribution remains separate; no personal recurrence percentage.", "Do not apply the method to neoadjuvant endocrine therapy."]

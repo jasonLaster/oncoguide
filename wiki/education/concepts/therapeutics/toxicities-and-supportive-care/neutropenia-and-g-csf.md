@@ -71,6 +71,10 @@ During cancer treatment, fever or signs of infection need prompt contact with th
 
 ## Try it
 
+<img src="./images/matched-anc-snapshot-and-duration-b10-v1-light.svg" alt="Two fictional ANC-versus-day charts use the same axes, from day zero to six and zero to two times ten to the ninth neutrophils per liter. Both mark day three at 0.5 times ten to the ninth per liter. Curve A has a brief dip; curve B remains at that illustrative value from days two through four. No infection probability, intervention threshold or tumor-response claim is shown." width="780" height="1400" data-theme-pair="./images/matched-anc-snapshot-and-duration-b10-v1-dark.svg" />
+
+*One absolute neutrophil count (ANC) is a snapshot. These invented curves share day 3 at 0.5 ×10⁹/L, but their durations differ. The curves do not predict infection or select a granulocyte colony-stimulating factor (G-CSF) threshold. New fever still requires clinical assessment; supportive care and tumor response remain distinct outcomes. [NCI: infection and neutropenia](https://www.cancer.gov/about-cancer/treatment/side-effects/infection); [ASCO 2026 guideline](https://pubmed.ncbi.nlm.nih.gov/41740078/).*
+
 Fictional learners compare two treatment records with the same low ANC on one date. One has a brief dip; the other has a prolonged low count and new fever. Can the matching number establish matching risk?
 
 **Answer:** No. Duration, symptoms, treatment and other clinical factors differ. The fever needs clinical assessment; the count alone cannot establish or exclude infection.

@@ -1,0 +1,52 @@
+{
+  "kind": "original-authored-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch10_author_group2",
+  "originalRetainedCreators": "Unknown; no retained artwork paths were selected for these owners. Existing source authorship is preserved, not attributed to this agent.",
+  "model": null,
+  "imageModelCalled": false,
+  "method": "Python-authored SVG",
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "currentOwnerPreimageSHA256": "9e05837c23be6b6ed3b9ebe1af789b5e77fb276cd9fa8963c3a813c68e6e1cf3",
+  "frozenPageSHA256": "9e05837c23be6b6ed3b9ebe1af789b5e77fb276cd9fa8963c3a813c68e6e1cf3",
+  "frozenRowSHA256": "f648c0d3d08cabced8218ad078a5a36292a8644df44191fffa003a97fa0ad252",
+  "learnerTask": "Connect oriented outer surfaces and selected blocks to a result",
+  "gap": "Current flow does not show a specimen-to-block map",
+  "accuracyGuardrails": "Preserve specimen orientation, outer surfaces and selected block identity. A central block result cannot be assigned to an unsampled margin or every region; maps are fictional and not clearance claims.",
+  "finalOwnerSHA256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+  "currentBodySHA256": "bdb0a0f6b6ea602e726e1bbe42ee703cc6037e585e5613fda0b35ea5c0f1a146",
+  "finalBodySHA256": "5d26916479bb1b450b239a6ab28846d8b66a55d7fd2609253b9506fb393b60e5",
+  "outputs": [
+    {
+      "key": "next-gap-238",
+      "owner": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+      "sha256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4"
+    },
+    {
+      "key": "next-gap-238",
+      "owner": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+      "sha256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e"
+    }
+  ],
+  "promptSHA256": "194795c93defaa7f0e1ef4b438a0513baab94803cd8410508343867c19bcdc7e",
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": false,
+  "published": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "primarySourceChecks": [
+    {
+      "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf",
+      "readLevel": "selected parsed six-page excerpt: orientation/inking, mapped sections and section-code records",
+      "supports": "local ink/orientation keys and region-to-block identity",
+      "limit": "Fictional map, not patient-specific or a clearance/measurement rule"
+    }
+  ],
+  "sourceCheckScope": "New illustration claims only; current teaching body retained byte-for-byte after inverse insertion. No full-page recertification."
+}

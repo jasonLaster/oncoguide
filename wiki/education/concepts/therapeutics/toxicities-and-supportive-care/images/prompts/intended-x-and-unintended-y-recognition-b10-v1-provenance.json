@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch10_author_group1",
+  "method": "direct SVG authoring",
+  "imageModel": null,
+  "imageModelInvoked": false,
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md",
+  "currentSourcePreimageSHA256": "144d91418e1186b2f621966b6c86c84cc45aa7c3d342f9f5f09272f3684cc65b",
+  "candidateOwnerSHA256": "48641eef74d1cdd94a21de19c84f4d1391744fa507d9a7953cb82d7a152b2917",
+  "frozenPageSHA256": "d3edff0894ce233e181738a4ba28243bbffba5d8cfb1a5d16d28ece0db56ac36",
+  "frozenRowSHA256": "46a8b437eea88d082e49cb406b6b62820a6d6de8724f88dacdf5b402500d11c5",
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-light.svg",
+      "sha256": "f11f9a17e1879795255a9c212fec67e64491bac196d0b29aaf25b6d723122012",
+      "bytes": 7496
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-dark.svg",
+      "sha256": "929b754fd642f847a018db29d7a376fcc958638c634a229258ae156ec457db36",
+      "bytes": 7496
+    }
+  ],
+  "creativeTXT": {
+    "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/intended-x-and-unintended-y-recognition-b10-v1.txt",
+    "sha256": "55afa1efc73f119bd1708ba04bab103b52964cd23d74375df70d3c9181017712"
+  },
+  "clinicalAndLearnerReview": "pending",
+  "independentReview": "pending",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

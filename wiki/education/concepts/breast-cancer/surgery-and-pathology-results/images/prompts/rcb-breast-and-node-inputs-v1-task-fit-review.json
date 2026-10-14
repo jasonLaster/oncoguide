@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-262",
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+  "author": "agent:/root/batch11_pathology_symptoms_author",
+  "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+  "reviewedAtUTC": "2026-10-14T20:04:57.235Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "3d27768a0c215da705305bca81dfdef6732f7bce42ec4c70bf3fffd47d3ecb83",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "preimageOwnerSHA256": "558b9e1f2e70aa2762bff4d7b26d2fa04ad54cc87cc88b1a2ded4dc3125b05bb",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+    "pageSHA256": "527f11e565b2fe8cea954212b30917d1fea49d33a1da03ef2530435635e6add6",
+    "targetSection": "## How it works",
+    "learnerTask": "Keep tumor-bed area, cancer-only in-situ share and nodal contribution distinct before combining an RCB score.",
+    "gap": "The equations and reproducible numeric example teach score arithmetic, but there is no physical denominator visual. Reuse the tumor-bed-cellularity owner's area-denominator illustration and add a compact input grouping if needed; this avoids a competing RCB cartoon or self-scoring tool.",
+    "accuracyGuardrails": [
+      "RCB dimensions and percentages belong to the protocol, not sequencing purity.",
+      "Nodal contribution remains separate; no personal recurrence percentage.",
+      "Do not apply the method to neoadjuvant endocrine therapy."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/70",
+    "oneBasedRow": 71,
+    "originalTaskRowSHA256": "31e14650967f5975db967b316695bcf76a1911d68acd8642693a2ff1b68ccbc0",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-light.svg",
+      "theme": "light",
+      "sha256": "fdffe8ee25b48503dbdcd5d85851a71560e6d619da706f72ce34bc500be5067d"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "f1689ba11f239e6034a6add8ed8301b541a7bd4234111d44e240e0259288a0f1"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The unchanged tumor-bed area pair supplies the whole-bed versus cancer-only denominators. The added breast/node grouping supplies the separate dimensions, positive-node count and metastasis-size questions absent from that shared art. The 25% in-situ reused example is explicitly separated from the original 50% specimen. Caption, alt and answered practice preserve protocol context, endocrine-treatment exclusion, sequencing-purity distinction and absence of a personal recurrence prediction. At 390px the inherited raster has small detail labels, so adequacy applies to the combined figure, enlarged/native view and adjacent explanation rather than blanket mobile raster legibility.",
+    "baselinePageSHA256": "527f11e565b2fe8cea954212b30917d1fea49d33a1da03ef2530435635e6add6",
+    "learnerTask": "Keep tumor-bed area, cancer-only in-situ share and nodal contribution distinct before combining an RCB score.",
+    "gap": "The equations and reproducible numeric example teach score arithmetic, but there is no physical denominator visual. Reuse the tumor-bed-cellularity owner's area-denominator illustration and add a compact input grouping if needed; this avoids a competing RCB cartoon or self-scoring tool.",
+    "accuracyGuardrails": [
+      "RCB dimensions and percentages belong to the protocol, not sequencing purity.",
+      "Nodal contribution remains separate; no personal recurrence percentage.",
+      "Do not apply the method to neoadjuvant endocrine therapy."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md"
+  },
+  "reviewScope": "Independent scientific, native, selected learner-task, attribution and bounded custody assessment of exact private candidate. Not final package, release or human approval.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "guards/preimage/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+        "sha256": "558b9e1f2e70aa2762bff4d7b26d2fa04ad54cc87cc88b1a2ded4dc3125b05bb",
+        "bytes": 8697,
+        "reviewCopy": "input/preimages/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/rcb-breast-and-node-inputs-v1-provenance.json",
+        "sha256": "d21a1156dc5e134e463b763d00a568acd83c050682c9bffdfe69ba712b2c921e",
+        "bytes": 4147,
+        "reviewCopy": "input/prospective/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/rcb-breast-and-node-inputs-v1-provenance.json",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/rcb-breast-and-node-inputs-v1.txt",
+        "sha256": "56c5b8aba484a2b0197cf4bb29a7243ce232dc4c892dcece20ab44fd186c200b",
+        "bytes": 800,
+        "reviewCopy": "input/prospective/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/rcb-breast-and-node-inputs-v1.txt",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-dark.svg",
+        "sha256": "f1689ba11f239e6034a6add8ed8301b541a7bd4234111d44e240e0259288a0f1",
+        "bytes": 4254,
+        "reviewCopy": "input/prospective/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-dark.svg",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-light.svg",
+        "sha256": "fdffe8ee25b48503dbdcd5d85851a71560e6d619da706f72ce34bc500be5067d",
+        "bytes": 4254,
+        "reviewCopy": "input/prospective/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-light.svg",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+        "sha256": "3d27768a0c215da705305bca81dfdef6732f7bce42ec4c70bf3fffd47d3ecb83",
+        "bytes": 9906,
+        "reviewCopy": "input/prospective/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators-dark-call.txt",
+        "sha256": "fa750a36d3ebbb15c050a4b34e21e0114e05aef3a719c9c1d367ff40d5172f19",
+        "bytes": 3536,
+        "reviewCopy": "input/reused/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators-dark-call.txt",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators-light-call.txt",
+        "sha256": "6cbf529860bc9537ae3ae61eb1193b9b1110d2841d98400a9b879d06b76904dc",
+        "bytes": 3472,
+        "reviewCopy": "input/reused/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators-light-call.txt",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators.txt",
+        "sha256": "809242707099e06b94b1575d54fa9befbc04998327f8a3e5c5c557b7f3feca2c",
+        "bytes": 3263,
+        "reviewCopy": "input/reused/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators.txt",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-dark.png",
+        "sha256": "eaedf5d8d9cd5beaf2d625bc2c30c92d1e5fa396b8139c90b97990a7eb6d3abf",
+        "bytes": 1444306,
+        "reviewCopy": "input/reused/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-dark.png",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-light.png",
+        "sha256": "9202f8eefc28cc10b101623b6c5a26a93456ab5a4aa2e46c9211a28bb3f2a05c",
+        "bytes": 1418927,
+        "reviewCopy": "input/reused/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-light.png",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "guards/frozen-audit.json",
+        "sha256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+        "bytes": 924329,
+        "reviewCopy": "input/guards/frozen-audit.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/exact-selection.json",
+        "sha256": "f4b5143cd83f929351ac16254285e27b41584766f53c00698e29b16078b3bf83",
+        "bytes": 45755,
+        "reviewCopy": "input/guards/exact-selection.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/shared-owner/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+        "sha256": "521a10903f2580d9917689dc0e2eaf8af3c7778a44df6c8ceebd4944f83ea2ad",
+        "bytes": 9168,
+        "reviewCopy": "input/shared-owners/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+        "role": "retained shared-owner guard"
+      }
+    ],
+    "frozenAndCurrentProof": "frozen-and-current-proof.json",
+    "insertOnlyProof": "custody-checks.json"
+  },
+  "nativeAndReaderReview": {
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinFilesIndependentlyVerified": 87,
+    "fixtureHTMLFreshCompilationMatchesOwnCandidate": true,
+    "nativeThemeCount": 4,
+    "completeArticleThemeViewportCount": 4,
+    "inlineCount": 8,
+    "theaterCount": 8,
+    "freshCaptures": [
+      {
+        "path": "captures/next-gap-262-rcb-breast-and-node-inputs-v1-light.svg.png",
+        "sha256": "e7842c41faf68aaa520a2354f59cbcaea2b169b6926e8de63aad8c8ea4e6c289",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-262-rcb-breast-and-node-inputs-v1-dark.svg.png",
+        "sha256": "187d318d41c2f3ecf812bfb18ba9c345ac3ac3c7d3dc552487aa252d146c83c3",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-262-tumor-bed-area-denominators-light.png.png",
+        "sha256": "8585fccc91cb6fc232ebaa1fab08436fb5dc1f2656e850bb66554abf91d16c6a",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-262-tumor-bed-area-denominators-dark.png.png",
+        "sha256": "15756e8d577c608f179a9fff03c1f1cc114aeea5128db9daa209654829f06206",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-262-light-mobile-page.png",
+        "sha256": "1122eb2eaad4f4d9ebd2f48dc96322e49426aa2da9addd8798a8cf84a799a37a",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 5720
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-mobile-image0.png",
+        "sha256": "905fda75bfc45d220a7c4a948e0c31e4f3edea8903a3fcd18a4ad612248d94d9",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-mobile-theater0.png",
+        "sha256": "bc728085a77a0fc63c02f49fbeb864f4133f36e1252bed8badc8daf1ca27c0b9",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-mobile-image1.png",
+        "sha256": "ba3b550ff240f4148d05cf7053b48977f7ecdba31e0096b0c9fb5d8c1f9d5e82",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-mobile-theater1.png",
+        "sha256": "ba95bb09706d9ac70f5500a1005daea4c704977b1f66c007e385a70dccfa5786",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-desktop-page.png",
+        "sha256": "dfee0859985f22e375d0af6457fa2484b607dd5f03572555e42f5aea9cf7132b",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 5232
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-desktop-image0.png",
+        "sha256": "b511e371e3fbdcc96263733a5b3e8f0b7ecc6ca338048225b20b61df3d3b4f85",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-desktop-theater0.png",
+        "sha256": "43391c9cb9e5d282f3d2bf61f293a2f528acefcb8fb0198117d6784f670573f7",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-desktop-image1.png",
+        "sha256": "9696a7c7c7460df7fed01c1010f05d6c37e82e892424b13b352d7e4112dac037",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-262-light-desktop-theater1.png",
+        "sha256": "10409fe7bac84f361fc708f6a00efd6b3300ca128c03acdb21baf444d2ceb7af",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-mobile-page.png",
+        "sha256": "a54f0ff319e71e98ab1aacf326c9ae0bd16c551648fd31604e63ee33bf5f9240",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 5720
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-mobile-image0.png",
+        "sha256": "f5fe77595237ab95396e7c1a2b3bf94347d1fad05b3d6cc44492a1138a611cfe",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-mobile-theater0.png",
+        "sha256": "ad8589374cb5bb4c766146f2235cccbb07bf25e7ef725a5adc21d6d4ba50c4b7",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-mobile-image1.png",
+        "sha256": "f63700e3568f23f9ca70cae6eb914f0a68abad16893e9260a53a8b9308a5d3a2",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-mobile-theater1.png",
+        "sha256": "290975d0bb768b985b3a1a5d94561eab52f62a6475fe6e1b1ce97a6859319c85",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-desktop-page.png",
+        "sha256": "64c5d7f0fea7973c7b7ae09fb637731e543627b15c3abc88847feb68515376b2",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 5232
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-desktop-image0.png",
+        "sha256": "887ad93182b6949e9ffe7f89acf76ae871a7e1d67683aaf7ad00051eed3d4975",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-desktop-theater0.png",
+        "sha256": "94a7e0766396edc3ce7db6bda9d2b06e860d293300f5f0a207ba3a534012cd8b",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-desktop-image1.png",
+        "sha256": "c596b725765254c225cacfaae6bd2e3d548523677c618fc99e9c140f7c08e0cb",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-262-dark-desktop-theater1.png",
+        "sha256": "ca3c7dec7398ac2a9d05bdc45b5cbf99f9c4d0d3d2fe7462f081204ff6fd0855",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      }
+    ],
+    "actualPixelInspection": "All owner native themes, complete-page layout boards, inline/theater views, and mobile/wide section-context crops personally inspected; boards are derived convenience views, actual captures retained.",
+    "limits": [
+      "Inherited tumor-bed raster detail labels are small at 346px inline and 342px fit-to-screen theater; larger native view and adjacent prose/alt carry detail. No blanket mobile-raster-label approval.",
+      "Known pinned renderer defect independently reproduced: Enter opens and Escape closes; focus returns to BODY instead of invoking image in every inspected view. No overall accessibility approval.",
+      "Private article/theater fixture only; no production navigation/authentication or live delivery verification."
+    ]
+  },
+  "sourceReview": {
+    "id": "next-gap-262",
+    "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+    "reviewedAtUTC": "2026-10-14T20:04:57.218Z",
+    "readScope": "MD Anderson method pages 1\u20134 separates tumor-bed dimensions and two area fractions from nodal count and largest metastasis. CAP June 2026 version 4.11.0.0, note K, excludes an RCB score/class after neoadjuvant endocrine treatment. Only these selected CAP passages and version metadata were reviewed. The new shapes are illustrative rather than a numeric score.",
+    "evidence": [
+      {
+        "file": "sources/rcb-method.pdf",
+        "sha256": "e33f33f569be0337f22d8dfb6526791648133d7c6785090c6f8d08c9c3f1c8e5",
+        "bytes": 765946
+      },
+      {
+        "file": "sources/cap-breast-web-selected-notes.md",
+        "sha256": "b210f675a3d32716e6d2aaca5c411a22f29d2a21af40f38d9550a2ebde3e17a3",
+        "bytes": 490
+      }
+    ],
+    "humanExpertReview": "pending",
+    "fullPrimaryPaperReadingClaim": false
+  },
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "newIllustrationCreated": true,
+  "reuseOnly": false,
+  "originalCreatorStatus": "Exact original support preserved. Historical attribution is not promoted; UNKNOWN where unestablished, including task 265 timing pair.",
+  "rootSoleIntegratorPublisher": true,
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "publication": "not started",
+  "delivery": "not started",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0
+}

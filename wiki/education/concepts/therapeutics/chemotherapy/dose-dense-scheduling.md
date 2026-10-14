@@ -62,6 +62,14 @@ A shortened treatment phase does not necessarily shorten the entire treatment co
 
 ## Try it
 
+<img src="../how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg" alt="Two fictional windows show four equal 10-unit administrations in four weeks or eight weeks, keeping each amount and total equal while average planned intensity differs. Arbitrary units teach arithmetic and do not specify a drug dose or a safe regimen." width="600" height="1000" data-theme-pair />
+
+*Equal per-administration amount and equal total can still mean different amounts per unit time.*
+
+This reused illustration uses arbitrary 10-unit amounts and 4- versus 8-week windows. It is a separate teaching calendar from the three- versus two-week comparison below, and does not select a clinical interval. Actual delivered timing can change through delays, reductions or omissions.
+
+**Read the marks:** Does the shorter window by itself establish safety or benefit? **Answer:** No. It changes the planned time denominator; clinical evidence and actual delivery are separate questions.
+
 In a fictional calendar, four equal doses of Drug A are scheduled every three weeks. Another calendar schedules the same four doses every two weeks. What changed?
 
 **Answer:** The planned interval and dose intensity changed. The amount per dose and total cumulative amount did not. This arithmetic alone establishes neither safety nor better cancer outcomes.

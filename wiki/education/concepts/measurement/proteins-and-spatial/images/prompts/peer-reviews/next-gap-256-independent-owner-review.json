@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-256",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+  "author": "agent:/root/batch11_measurement_author",
+  "reviewer": "agent:/root/batch11_measurement_review",
+  "reviewedAtUTC": "2026-10-14T20:03:33.776Z",
+  "currentOwnerSha256": "55c317c2435c29c5b2338d385c9ec1188f59e09a24b6b965023737d6e99f5cf6",
+  "passed": true,
+  "verdict": "PASS",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg",
+      "sha256": "40b77aaf1f53d3d187a5c030d0e114ac66da0dc8c2bcb3121c661a987255fd23"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+      "sha256": "b05374637b3bef3fa7dd74cb5c33aaa357c000a696d31a40fffdcf84e6ca902b"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "da20d6900df0070ade7830b8a60531e61e2829c32db4514167044711acdbe1a8",
+    "learnerTask": "Separate measured channels, estimated cell boundaries and distance definitions",
+    "gap": "Current flow omits overlays and center-versus-boundary distance",
+    "accuracyGuardrails": "Separate measured/registered channels, estimated cell masks and the chosen distance definition. Apparent colocalization or proximity is not automatic same-cell expression, physical interaction or functional signaling.",
+    "reasoning": "The same synthetic marker locations are retained in the two registered channels and the enlarged overlay. Dashed masks label estimated pixel assignments. Projection lines distinguish the center-to-center span through cell interiors from the shorter boundary gap. Measured light channels, estimated masks and calculated distance remain separate, and proximity is not elevated into contact, recognition or killing. This directly supplies the overlay and distance comparison missing from the frozen task.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+    "canonicalOwnerPreserved": true,
+    "reuseFirstAssessment": "The retained segmentation image demonstrates mask errors and marker assignment; the new extension specifically adds registered channel/overlay correspondence and two distance definitions.",
+    "actualSourceConsultation": {
+      "id": "next-gap-256",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34266881/",
+      "title": "Multi-institutional TSA-amplified Multiplexed Immunofluorescence Reproducibility Evaluation (MITRE) Study.",
+      "sourceType": "primary research bibliographic record and complete abstract",
+      "actualConsultation": "Independently retrieved NCBI EFetch record and complete abstract; personally read in this review",
+      "retrievedEvidence": "sources/independently-retrieved-primary-abstracts.xml",
+      "assessment": "MITRE primary abstract evaluates a specified multiplex panel, densities, coexpression and proximity reproducibility. It supports measured channels and panel-specific spatial analysis; the two-ruler geometry is a fictional definition comparison.",
+      "wholePaperRead": false,
+      "sourceFigureCopied": false
+    }
+  },
+  "nativeAndDisplayReview": {
+    "nativeBothThemes": "Personally inspected fresh independent native screenshots",
+    "pageWidths": [
+      1100,
+      390
+    ],
+    "pageBothThemes": "Personally inspected fresh independent figure/caption article screenshots",
+    "theaterBothThemesBothWidths": "Personally inspected fresh independent theater screenshots; all 28 combinations open",
+    "capturedImageAndCaptionFit": true,
+    "descriptiveAltMatchesNative": true,
+    "noHorizontalDocumentOverflow": true,
+    "nativeTextOutOfBounds": 0,
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererVerifiedExactBlobCount": 87,
+    "fixtureScope": "Private article/theater/theme fixture, not full app, authentication, navigation or live delivery",
+    "knownInheritedReaderIssue": "Escape closes theater but activeElement returns to BODY; no focus-return repair or full accessibility approval claimed",
+    "inspectionBoards": [
+      "inspection-boards/256.png",
+      "inspection-boards/page-256.png",
+      "inspection-boards/theater-256.png"
+    ]
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+        "sha256": "55c317c2435c29c5b2338d385c9ec1188f59e09a24b6b965023737d6e99f5cf6"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg",
+        "sha256": "40b77aaf1f53d3d187a5c030d0e114ac66da0dc8c2bcb3121c661a987255fd23"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+        "sha256": "b05374637b3bef3fa7dd74cb5c33aaa357c000a696d31a40fffdcf84e6ca902b"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/channels-masks-and-two-distance-rulers-b11-v1.txt",
+        "sha256": "25a74fccf7a83f3e9cec86c009e6bdbe9cd913bf11f7590faff0871f09b3cba9"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/channels-masks-and-two-distance-rulers-b11-v1-provenance.json",
+        "sha256": "b421488ec039bb150939df1b47e06705d749ff9c2ee890e1a3933465b7374232"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+        "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+        "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-independent-owner-review.json",
+        "sha256": "820bf1089f78fbf506b7c9712e0824bfa57338104c83bdac442848e10e7c9efb"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-provenance.json",
+        "sha256": "7d0a5788590812fb3b1f9a1140e2c470feebb5496d85223d5cb906082ab70071"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2.txt",
+        "sha256": "9250acbf193c9547bfd0f6233ce924b1a2fc25e72b3aaa32d26a0881b5332216"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/independently-retrieved-primary-abstracts.xml",
+        "sha256": "65b6ec11f7ab47f8aa709c33f54ce08b6b7b3507fa6a22d7f9720db2e2cd0b51"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/retrieval.json",
+        "sha256": "396a2bcf463e156fccc3e70dfc8af7c7300093ef7c97e2b11369ab4c04472a8c"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/source-consultation.private.json",
+        "sha256": "2a2b295e2b9791753df8281aed41afe0d3dbe68d8a699da791b72bc5afb43005"
+      }
+    ],
+    "retainedGuards": {
+      "sharedOwner": {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+        "sha256": "118a1310b12c76fe392c608918f1dcceb355db597ff91e247e54535f8dfc8462"
+      },
+      "assetsAndSupport": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+          "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+          "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-independent-owner-review.json",
+          "sha256": "820bf1089f78fbf506b7c9712e0824bfa57338104c83bdac442848e10e7c9efb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-provenance.json",
+          "sha256": "7d0a5788590812fb3b1f9a1140e2c470feebb5496d85223d5cb906082ab70071"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2.txt",
+          "sha256": "9250acbf193c9547bfd0f6233ce924b1a2fc25e72b3aaa32d26a0881b5332216"
+        }
+      ],
+      "scope": "Exact retained native/support references verified against read-only source checkout; creator attribution not replaced"
+    },
+    "sourcePreimageSHA256": "6359b906e2d11687fdcf94683a1a979b772d1d6c1a5298f8456371c990632ae4",
+    "sourcePreimageCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "inverseInsertionVerified": true,
+    "authorManifestSHA256": "357b3c22b3351e7fb10304433607e7195a0ecc68420c529e3cc0e004d7f4cf90",
+    "reviewedPublicFilesExactCount": 5,
+    "allPublicCandidateFilesExactCount": 35
+  },
+  "issues": [],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "publication": "not started",
+  "delivery": "not started",
+  "rootSoleIntegratorPublisher": true
+}

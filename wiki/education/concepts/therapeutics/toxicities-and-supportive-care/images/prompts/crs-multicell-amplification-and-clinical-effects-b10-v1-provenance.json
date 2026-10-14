@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch10_author_group1",
+  "method": "direct SVG authoring",
+  "imageModel": null,
+  "imageModelInvoked": false,
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+  "currentSourcePreimageSHA256": "561e9d63c5a8f40deab5321fd769694a5ece9fcbefc4be7d855ea07076edeb76",
+  "candidateOwnerSHA256": "cf5cf4be84c39a9d340b31ff51b7ceeb217db83b97f7f9dad63313fbf74069d1",
+  "frozenPageSHA256": "94ea9dd663e9cf137b8a3ff34bba186d032330bc8fe50a5157d460039605c985",
+  "frozenRowSHA256": "30f69eb6a97b049d6d0eae16401fcdccfba6ef5f74d58a9ff9fec83d708ed354",
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-light.svg",
+      "sha256": "b3c1c988bd72582bcfdd96ce3df361f2f83882eed4b881861d40bcbf026e6eb2",
+      "bytes": 7118
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-dark.svg",
+      "sha256": "0058c568c4a333ddf2688612c32ac1c211acf0cdfae8f7b87c3782153c5ed5e9",
+      "bytes": 7118
+    }
+  ],
+  "creativeTXT": {
+    "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/crs-multicell-amplification-and-clinical-effects-b10-v1.txt",
+    "sha256": "ff27e09e7ecd47b5c487201260c3bc2a87200132973708ed9e43c13409f9e8f6"
+  },
+  "clinicalAndLearnerReview": "pending",
+  "independentReview": "pending",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

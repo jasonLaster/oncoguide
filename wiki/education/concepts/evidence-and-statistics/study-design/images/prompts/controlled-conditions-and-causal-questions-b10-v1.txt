@@ -1,0 +1,12 @@
+Actual authored vector brief
+Controlled perturbation: change one thing and test the response
+
+Central learner task: Identify vehicle, positive, independent mechanism and rescue controls as different questions.
+Original gap: No experiment schematic shows what each condition changes.
+Frozen accuracyGuardrails (verbatim): "Identify what each control changes and which causal question it supports. Slowdown is not death, rescue is context dependent and no one control alone proves target-specific mechanism or clinical relevance."
+
+Composition: Matched culture wells distinguish vehicle with carrier only, a known-response positive control, an independent disruption of the same function, and a perturbation plus restoration rescue. Each asks a distinct carrier, detection, mechanism or reversal question. Invented direct counts show 100 at baseline, 200 with vehicle and 100 with treatment, so half the endpoint count does not measure 50 percent killing. Rescue is context dependent and no one control proves target specificity or clinical relevance.
+
+Create exact parallel light and dark 600-pixel-wide SVG scenes, with large readable Arial labels, concrete laboratory objects where relevant, consistent geometry and no invented empirical findings. Theme changes only palette. Numeric examples are invented teaching data, not measurements. Retained assets remain byte-identical with unknown original creator.
+
+Actual production: agent:/root/batch10_author_group3 manually specified SVG geometry and text via a local Python serializer. No image model or raster-generation tool was called. This brief is the actual creative design input, not a claim of an external model request.

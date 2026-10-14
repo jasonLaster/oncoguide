@@ -1,0 +1,14 @@
+Source-code SVG design brief, not an image-model prompt or call.
+{
+  "id": "next-gap-261",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+  "targetSection": "## How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+  "learnerTask": "Distinguish filling a missing measurement from predicting a never-tested intervention.",
+  "gap": "No side-by-side task map shows the different inputs, references and held-out units.",
+  "accuracyGuardrails": "Distinguish imputing a missing observation from predicting an untested intervention. A simulated response is computed, not measured; reference population and held-out units must match the claim."
+}
+The canonical validation art compares cell, donor and intervention partitions. This extension uses those distinct holdout units to contrast measurement completion with a never-seen intervention response and marks every model output as computed.
+Two fictional task panels show training/reference pairs and reserved tests. In measurement completion, an image from a held-out donor has missing RNA filled with a computed diamond. In intervention prediction, measured responses to familiar X inform a prediction for Y whose response was withheld from development. A final panel says donor and intervention holdouts test different claims, and computed outputs must be compared with independent measurements.
+Caption: Filling a missing observation and forecasting an unseen intervention are different tasks. The reference population and reserved test must match the claim.
+Flat outlined scientific shapes, rounded panels, repeated toy objects, sans-serif 26px body labels. Theme geometry and data identical. No protocol, optimization, therapeutic design, sequence or dose.

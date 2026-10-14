@@ -31,6 +31,10 @@ The analogy breaks because drug review evaluates benefits, risks and manufacturi
 
 ## How it works
 
+<img src="./images/expedited-support-versus-approval-decision-b10-v1-light.svg" alt="Two separate document scenes distinguish development and review support from an actual FDA approval decision. Support documents list fast track, breakthrough therapy and priority review without an approval stamp or progression arrow. The separate decision document identifies the product and specified use, with traditional and accelerated approval as approval pathways; accelerated approval retains required benefit confirmation. A footer says that support does not guarantee approval, timing, superiority or individual access." data-theme-pair>
+
+*An expedited designation can support the work or its review. Look separately for an actual approval and its specified use; accelerated approval is an approval with benefit confirmation required.*
+
 The **Food and Drug Administration (FDA)** evaluates a drug for a defined indication and conditions of use. Read the current [drug label](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use), including disease, biomarker, treatment setting and combination requirements.
 
 **Traditional approval**, often called full approval, and **accelerated approval** are approval pathways. Traditional approval can rely on direct clinical benefit or a validated [surrogate endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints). A surrogate substitutes for the clinical outcome of interest; its evidentiary role depends on context. Traditional approval does not always require a demonstrated survival increase.

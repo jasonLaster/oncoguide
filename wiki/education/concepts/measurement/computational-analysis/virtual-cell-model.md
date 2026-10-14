@@ -29,6 +29,13 @@ A weather model can explore tomorrow's conditions without creating tomorrow's we
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/missing-observation-versus-unseen-intervention-b11-v1-light.svg" width="600" height="1380" alt="Two fictional task panels show training/reference pairs and reserved tests. In measurement completion, an image from a held-out donor has missing RNA filled with a computed diamond. In intervention prediction, measured responses to familiar X inform a prediction for Y whose response was withheld from development. A final panel says donor and intervention holdouts test different claims, and computed outputs must be compared with independent measurements." data-theme-pair>
+<p class="cartoon-caption">Filling a missing observation and forecasting an unseen intervention are different tasks. The reference population and reserved test must match the claim.</p>
+</div>
+
+The [model-validation comparison](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) shows why holding out cells, donors and interventions tests different claims.
+
 Some models use equations describing mechanisms. Others learn statistical relationships from measured data, including machine learning. These approaches can be combined. A [foundation model](/wiki/education/concepts/measurement/computational-analysis/foundation-models) learns a representation for reuse across tasks. That training approach does not itself specify a virtual-cell intervention task or validate its clinical use. “Virtual cell” names an ambition or model category; it does not establish one architecture or a complete simulation of life.
 
 The **task** defines what the output means. Predicting a missing RNA value from an image, estimating a drug response and predicting a gene-disruption response are different tasks. Success at filling a measurement gap does not validate an intervention prediction.

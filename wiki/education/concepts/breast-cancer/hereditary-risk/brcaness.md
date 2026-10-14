@@ -47,6 +47,13 @@ These layers can disagree for a biological reason. Repair may be restored during
 
 **Homologous recombination deficiency (HRD)** describes a repair deficit. BRCAness is broader historical shorthand for a BRCA-like phenotype. Neither word identifies a universal test, cutoff or proven response rate. Naming the actual measurement is more helpful than stacking these labels.
 
+
+### A closer look
+
+<img src="./images/persistent-scar-and-current-repair-state-b10-v1-light.svg" alt="Two explicitly labeled tumor-sample time points separate cause, history and function. Earlier repair disruption accompanies historical scar marks and assay evidence of impairment. A possible transition during tumor evolution leads to a later restoration mechanism and current RAD51 foci, while the identical old scar marks remain. This is a possible selected-study transition, not a universal frequency; scores and functional assays retain method and time conditions and do not establish inheritance or guaranteed drug response." width="600" height="1000" data-theme-pair>
+
+*Keep the old marks and the current test side by side: repair can change while scars persist. This is a possible transition illustrated by selected resistance research, not a frequency or response prediction; method and sampling time stay attached.*
+
 ## Why it matters in cancer
 
 A BRCA-like pattern can motivate research into a tumor's repair biology. It cannot establish [germline origin](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic). It also cannot turn every alteration in a repair-pathway gene into an equivalent result.

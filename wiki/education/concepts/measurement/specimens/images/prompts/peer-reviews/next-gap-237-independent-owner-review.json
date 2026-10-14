@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-237",
+  "owner": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+  "author": "agent:/root/batch10_author_group2",
+  "authorRole": "Actual seven-new-illustration private packet author",
+  "creativeAuthor": "agent:/root/batch10_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author; retained source text and Mermaid creators unknown",
+  "reviewer": "agent:/root/batch10_review_group2",
+  "independentReviewer": "agent:/root/batch10_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:03:41.450993+00:00",
+  "reviewedAtUTC": "2026-10-14T00:03:41.450993+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "44fee1c4d559f01a9163b7de6ac06f0826dc93d9a3b0d02e5e44f5e39d9667f6",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/312",
+  "frozenRowSHA256": "b4fb2d5772c752f5352edd3477b31f0065b5e0b7100a4a5ce6003b366ea2cbb8",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Three physical input scenes compare block/section architecture, frozen tissue analytes and viable aliquot recovery/identity/function checks. The labels explicitly withhold viability from snap-frozen material and culture success from viable material. No universal ranking, tumor content inference or clinical accuracy guarantee is added.",
+    "frozenPageSHA256": "aafcd572e4d2ddb59b00ff06d9e0179556a9656c76d7ea33de368ff1fef0c400",
+    "baselinePageSHA256": "aafcd572e4d2ddb59b00ff06d9e0179556a9656c76d7ea33de368ff1fef0c400",
+    "actualTeachingPreimageSHA256": "71d7174482b6e4e225ecc273f9dd007c8971fd9be6021422688b67f0fa57198f",
+    "learnerTask": "Compare properties preserved and living-cell options not guaranteed by labels",
+    "gap": "Current question flow does not contrast the three physical inputs",
+    "accuracyGuardrails": "Contrast properties preserved by preparation without assuming frozen means viable. Compatibility, recovery and quality remain assay-specific; no universal ranking or guarantee of living-cell options.",
+    "targetSection": "How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 remains the immutable original audit page anchor; current b370 teaching preimage is separately verified. Frozen task/row unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+      "sha256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7",
+      "nativeSHA256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7",
+      "bytes": 4816,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+      "sha256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770",
+      "nativeSHA256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770",
+      "bytes": 4816,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+        "sha256": "44fee1c4d559f01a9163b7de6ac06f0826dc93d9a3b0d02e5e44f5e39d9667f6",
+        "bytes": 8691
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+        "sha256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7",
+        "bytes": 4816
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+        "sha256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770",
+        "bytes": 4816
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/fixed-frozen-viable-preserved-properties-b10-v1.txt",
+        "sha256": "c584cca53977084dbadb6e0a2def7bbd24175046c75e9c4fc7cc7f72365da468",
+        "bytes": 1372
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/fixed-frozen-viable-preserved-properties-b10-v1-provenance.json",
+        "sha256": "05c2be2ccec0bef99cd0daaa520e871472c8167fe5e1dedfde61e5e0e2dec2ed",
+        "bytes": 3824
+      }
+    ],
+    "currentCandidateOwnerSHA256": "44fee1c4d559f01a9163b7de6ac06f0826dc93d9a3b0d02e5e44f5e39d9667f6",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "authorInventorySHA256": "fef032f31ae192fe67da7fc9c84a379a76a3b41963f2cc8a19989297d6811624",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "sourcePreimageSHA256": "71d7174482b6e4e225ecc273f9dd007c8971fd9be6021422688b67f0fa57198f",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Exact recovery after removing only inserted img and caption; metadata, prose, references, exercises and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf",
+      "readDepth": "Revision1.0 February2025 parsed first-page purpose, scope and definitions lines0-32 personally read.",
+      "supports": "Molecular scope excludes viability/culture endpoints; allocation from organ to aliquot.",
+      "accessStatus": "Accessible",
+      "limit": "Not a viable-cell recovery protocol",
+      "primary": true
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10536153/",
+      "readDepth": "PubMed abstract only, lines241-244 personally read.",
+      "supports": "Fixation changes RNA chemistry and molecular assay behavior.",
+      "accessStatus": "Accessible",
+      "limit": "Full paper not read; no modern clinical performance or effect-size estimate",
+      "primary": true
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, source-depth, custody and fresh native/inline/theater pixel review of this owner and exact new pair.",
+    "sourceReadDepth": "Actual independent selected primary parsed sections and one PubMed abstract. No full-paper or every preserved ancillary citation recertification. No access errors/403 encountered.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own fresh screenshots via read-only server copy of author sealed fixture at4623; server was initially unavailable. Article fixture uses pinned compiler/frame/ImageTheater/SmartTableEnhancer/shared and app CSS. No production navigation/header/backend, physical mobile, touch, cross-browser or whole-page accessibility certification. Native pairs and mobile full screenshots viewed; desktop image-region contact sheets resized by tool to2048px but labels/relations remained readable. Original full captures retained."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 16.1459375,
+    "minMobileDefaultPreviewLabelPx": 15.96,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but returns focus to BODY rather than image trigger; unchanged pinned runtime defect. No runtime repair or complete keyboard accessibility approval.",
+    "contrastScope": "Both themes visually inspected for legibility; no numerical whole-page/nontext contrast certification claimed.",
+    "observedLayoutIssues": []
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-light-reading.png",
+      "sha256": "a05847b897a05188fd0e3cb9272c2d820373df28253c5505d256f2a81701183c"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-dark-reading.png",
+      "sha256": "649541650f4819650e2df03321358345a62a4d088ca1df40f150e5b718b518f7"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-light-mobile-inline.png",
+      "sha256": "15f767c76fa8fd66505c1abae5bd158cf14aef853e0357594d59f215453e786f"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-light-mobile-theater.png",
+      "sha256": "000782671f07dd701ab7d0ef83abe6cfd5df975480fafb8e3ff0ea88cced2745"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-light-desktop-inline.png",
+      "sha256": "bde7ff44daf78ec1b1a9f00a920d7d09697b77e92ba8d34eae94f3c69849f1c2"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-light-desktop-theater.png",
+      "sha256": "4918d5ab2bb0521acc21539ed8b9c167971abbe1d3f3a062e1905644dde2e538"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-dark-mobile-inline.png",
+      "sha256": "bd7175dbace23796fe95c7e457bdf4f49e1203b4650821f2c61063e0ff85b463"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-dark-mobile-theater.png",
+      "sha256": "cbe7cd914e0a7630bd5c473b5acdf1ac7410573bf1da9fdd79ecaac88743e9a4"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-dark-desktop-inline.png",
+      "sha256": "f3f27ed57fee5162f63583e7dc83afa2dcf419fa3eab3604ef20a65bcbd791f6"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-237-dark-desktop-theater.png",
+      "sha256": "449670fcb9a040c8551e8db6842479447f2453b6103a2faf01036a6d527bfde0"
+    }
+  ],
+  "inspectionBoards": [
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/237-native.png",
+      "sha256": "43d56a799792e3f5985d315a533a28059ec43fb962324f05ec6acc89514f4e75",
+      "mode": "native",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/237-mobile.png",
+      "sha256": "f061c9c3d73747756482983fcb085376c26b63fb678fc060f7a1ffe7ffd6ab57",
+      "mode": "mobile",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/237-desktop.png",
+      "sha256": "48a041bdb1ca701bafc7c0fad933d054d10e4359408ef14554462ff010b9c839",
+      "mode": "desktop",
+      "personallyInspected": true
+    }
+  ],
+  "method": "Original Python-authored editable SVG; independent review used fresh Playwright captures",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": []
+}

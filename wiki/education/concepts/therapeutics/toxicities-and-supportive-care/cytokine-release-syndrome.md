@@ -29,6 +29,10 @@ An immune response uses chemical messages to coordinate cells. In cytokine relea
 
 ## How it works
 
+<img src="./images/crs-multicell-amplification-and-clinical-effects-b10-v1-light.svg" alt="A blue T cell contacts a rose target cell; signal dots lead to a violet macrophage. A lower cutaway locates blood inside a vessel and its vascular lining, with dashed arrows to possible blood-pressure and oxygenation consequences. Clinical attribution and a named ASTCT version supply grading; cytokine concentration does not." width="780" height="1430" data-theme-pair="./images/crs-multicell-amplification-and-clinical-effects-b10-v1-dark.svg" />
+
+*CRS can involve a conversation among cells. Recipient macrophages were causal amplifiers in the Giavridis mouse CAR T model; the drawing does not assign identical contributions to every human product. Vessel and organ effects are possible consequences, shown by dashed arrows. Fever has competing causes, and a cytokine concentration does not assign a clinical grade. Name the ASTCT version used; this is not a management algorithm. [Giavridis 2018](https://pubmed.ncbi.nlm.nih.gov/29808005/); [ASTCT 2019](https://pubmed.ncbi.nlm.nih.gov/30592986/); [ASTCT 2026](https://pubmed.ncbi.nlm.nih.gov/42711241/).*
+
 [Chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) cells and some [T-cell engagers](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager) can activate immune cells strongly. [Cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) carry signals among the activated cells and other cells in the body. The treatment need not contain a cytokine payload to set this response in motion.
 
 Myeloid cells, including macrophages, can amplify the response. Giavridis and colleagues demonstrated a causal role for recipient macrophage signals in a mouse model of CAR T-cell-induced CRS. That supports a multicell mechanism; it does not prove identical sources or contributions in every human product. [Giavridis et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29808005/).

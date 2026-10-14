@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-229",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+  "author": "agent:/root/batch10_author_group1",
+  "authorRole": "Prospective custody/reuse assessor; not historical creative author",
+  "creativeAuthor": null,
+  "originalCreator": null,
+  "artworkCreatorStatus": "UNKNOWN; retained historical art byte exact",
+  "reviewer": "agent:/root/batch10_review_group1",
+  "independentReviewer": "agent:/root/batch10_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "actualReviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAtUTC": "2026-10-14T00:06:48.454718+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "scienceScope": "Bounded visual mechanism and learner task; not comprehensive whole-owner medical or guideline certification",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "kind": "existing-art-reuse-assessment",
+  "newArtworkPairsCount": 0,
+  "currentOwnerSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+  "baselinePageSHA256": "c05a3601c078801095f088b0a28b9cf825f19bf3532b6ab7d92f0edcaea4ca39",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/93",
+  "frozenRowSHA256": "29439da84acba571b179243716007a7b9f9221da1e097b1092416dccc0776cac",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "The retained fork points into the parental duplex; new strands visibly trail behind, including a discontinuous simplified strand. Equal first IdU pulses precede two different second CldU tracks. Actual track geometry has a 2:1 second-pulse length ratio, with both 30-minute pulses and 2 kb/µm calibration printed. The toy rates are 15×2/30=1 and 7.5×2/30=0.5 kb/min. Caption, guard text and exercise separate selected molecule rate from S-phase fraction, damage, recovery, survival and checkpoint dependence. This meets the exact frozen fork-and-measurement task; the lengths remain fictional.",
+    "frozenPageSHA256": "c05a3601c078801095f088b0a28b9cf825f19bf3532b6ab7d92f0edcaea4ca39",
+    "baselinePageSHA256": "c05a3601c078801095f088b0a28b9cf825f19bf3532b6ab7d92f0edcaea4ca39",
+    "actualTeachingPreimageSHA256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+    "learnerTask": "Locate a replication fork and interpret pulse-labeled track length separately from damage, recovery and cell-cycle composition.",
+    "gap": "The stall/recovery/damage map is mechanistically useful but no fork or sequentially labeled molecule is drawn. A physical fork inset plus two timed label tracks could connect the assay's kilobases-per-minute readout to copying rather than generic proliferation or γH2AX.",
+    "accuracyGuardrails": [
+      "Track examples need specified pulse time and stretching calibration.",
+      "Stalling does not necessarily mean a break or death.",
+      "No checkpoint-dependence or clinical sensitivity inference from track length."
+    ],
+    "targetSection": "## Assay card",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Original frozen audit baseline remains distinct from current immutable teaching preimage and candidate owner SHA; no accounting or adoption update."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92",
+      "bytes": 8297,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1500,
+        "viewBox": "0 0 780 1500"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4",
+      "bytes": 8297,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1500,
+        "viewBox": "0 0 780 1500"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1-provenance.json",
+        "sha256": "cac754c54a8dbd18cdd4c8a5571f23440385735b45251a2992f22bfaa69ee8da",
+        "bytes": 2961
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1-provenance.zip",
+        "sha256": "6d8c36155cb20a786f19a6d463fd9af2ab60e1c6d894d54bc0a86ae8389bbc0e",
+        "bytes": 7665
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1.txt",
+        "sha256": "de6773137ea92eb4a94c74f435af1daa2952d1ba8f729849cd44888536917cb7",
+        "bytes": 1609
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+        "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4",
+        "bytes": 8297
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+        "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92",
+        "bytes": 8297
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+        "sha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+        "bytes": 9939
+      }
+    ],
+    "currentCandidateOwnerSHA256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+    "sourcePreimageSHA256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "fab511118fc5c8fc642e6e0572cb2240b0c929f41191ee25e17093ce57f75483",
+    "authorManifestSHA256": "2fe37a704735a3bb096bfb1cd6afb2417a6ea129f08cf99c52fbc7167e20c5dc",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "authorChecksumEntriesVerified": 772,
+    "publicInventoryFilesVerified": 38,
+    "preservedExistingCustodyFileCount": 5,
+    "retainedOriginalsByteExact": true,
+    "retainedZIPIntegrityChecked": true,
+    "insertOnlyPreimageRecovery": true,
+    "currentWorkingOwnerPreimageExact": true,
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "rejectedDrafts01Through03Preserved": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "unrelatedOwnerBodiesRead": false
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12791985/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12791985%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/12791985.json",
+      "sha256": "0e7af8d9270a35b630e4423f8985d1e7510174ca4c307f3bdb9f6b294c3b3cf8",
+      "supports": "RPA-coated single-stranded DNA recruits ATR/ATRIP and initiates checkpoint signaling; no repair outcome or dependency certificate follows."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9488723/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9488723%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/9488723.json",
+      "sha256": "0a2629c50344643dda9c2c9a1f2758e21421ba73da8c9b96235383a4c3ef31e2",
+      "supports": "Experimentally induced double-strand breaks elicit H2AX phosphorylation, a cellular response around damage rather than an HRD or drug-response test."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3740329/",
+      "primary": true,
+      "readDepth": "Independent NCBI BioC retrieval; molecular-combing methods and selected results passages read, not complete paper or supplements.",
+      "sha256": "59554516e87f7f125237e9a2875576b2e9248feeae853d53df27ac4cb47c34dc",
+      "supports": "Actual method uses IdU then CldU for 30 minutes each and 1 µm=2 kb stretching conversion. Printed toy lengths and rates are invented."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Independent seven-owner scientific/task-fit, source-depth, custody, both native themes and fresh reader capture review; no historical approval inherited.",
+    "sourceReadDepth": "Actual independent reads are listed. Ancillary retained owner citations are not all recertified; no comprehensive guideline, entire owner science, human or source-fit adoption certification.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Unchanged private pinned author-built fixture served at 4711, independently captured by reviewer. No production backend/header/navigation, physical mobile, cross-browser, touch or whole-page accessibility certification. Native images were emitted individually; mobile captures inspected in literal-size sheets, desktop inline/theater paint in context sheets that display tools may downscale. Full reader captures retained as context, not whole-page approval. Initial server unavailable; reviewer started unchanged server only."
+  },
+  "nativePixelAssessment": {
+    "assessment": "IdU/CldU order, 30-minute labels, second-pulse brackets, 15/7.5 µm arithmetic, calibration and separate-outcome guard text remain readable.",
+    "mobileReadability": "Read every task-relevant label and lower guard line at actual 390px capture scale; small text is legible in this inspection, human learner acceptance pending.",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 14.194666666666667,
+    "minMobileDefaultPreviewLabelPx": 14.03076923076923,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Failed in all four owner theme/size checks; independent additional check confirmed BODY. Known pinned renderer defect retained; no runtime changes or overall accessibility approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-229-light-reading.png",
+      "sha256": "9b8d9d7087d3b1f7dda449f4f0c0b9ffdcca61801090f1eee98040358e9a87f3"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-229-dark-reading.png",
+      "sha256": "c4909a04cd1ebf609cdbfc1f2790fbc6a241115ff961890129889be3457b6120"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-229-light-mobile-inline.png",
+      "sha256": "0804aabc2983102987f0fc3da31eda8e98742a05ddbf9fd685c1ed4ff75831d6"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-229-light-mobile-theater.png",
+      "sha256": "4fe3a7b7e68f82ebb583a50e99bb6c40f68bc5cf452f1466774f2abf3f73817e"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-229-light-desktop-inline.png",
+      "sha256": "7bcfe56ce1b3cdee4864639e606d2c0fd10df8c836d4cea49e47d24a81ece516"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-229-light-desktop-theater.png",
+      "sha256": "aac95e7d53ea7f9877bf13c2ae8b46337d6a8d92e6fab57e36db2fd2aa24e6cc"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-229-dark-mobile-inline.png",
+      "sha256": "51ccbc0645e9d3d2ef3c6f85de26be6834073f9468135eb043e2a17b0f173861"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-229-dark-mobile-theater.png",
+      "sha256": "c9d5a3112929086e0a95299e53df6e8d2b8628ba8855c5aca0a36051e2dd5715"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-229-dark-desktop-inline.png",
+      "sha256": "a8514065cf35d17d0df19cf06850760b7c1723774454e7865ebe6b6100702e9f"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-229-dark-desktop-theater.png",
+      "sha256": "0ccb63c5fe519a5831879cd6fd9c993875b4701ee698db62381e73e9e7f4eb9c"
+    }
+  ],
+  "method": "New pairs directly authored SVG; historical reuse authorship remains unknown. This review made no artwork edits.",
+  "imageModelCalls": 0,
+  "imageModelCallsScope": "Current review only; historical generation is not reconstructed.",
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "existing-renderer-accessibility-defect",
+      "finding": "Escape closes the viewer but restores focus to BODY rather than the invoking image.",
+      "blocksArtworkTaskFit": false,
+      "overallAccessibilityApproval": false
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-250",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "learnerTask": "Connect a specific normal-versus-altered sequence to a candidate peptide while retaining separate presentation and recognition evidence.",
+    "gap": "The evidence table distinguishes the gates well but does not show how an altered sequence changes a candidate fragment. A small normal/altered sequence inset can reuse the antigen-processing owner rather than duplicating its full pathway.",
+    "accuracyGuardrails": [
+      "An alteration can yield several candidates or none useful.",
+      "An unusual transcript is not automatically tumor-exclusive.",
+      "Sequence-specific novelty does not establish recognition, safety or benefit."
+    ],
+    "baselinePageSHA256": "cde2f028b44b347c03513a64be3e10dfcb5ff107062b3f2263ad01017d32dcce",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Matched normal and altered abstract protein strips differ at one marked block, and the smaller candidate includes that block. Display and compatible receptor response are independently posed as questions, with dashed transition and an explicit no-benefit/no-safety limit. The retained processing diagram supplies the common route; the new comparison supplies the normal-versus-altered view and evidence gaps missing from the frozen task. No actual sequence or mutation selection instructions are supplied."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+      "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+      "theme": "light",
+      "bytes": 16940
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+      "sha256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+      "theme": "dark",
+      "bytes": 16940
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+        "sha256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+        "qualification": "reviewed proposed current owner"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+        "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+        "sha256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1.txt",
+        "sha256": "294be1a538546dd99b02d2db66f186b937f4447d02ebfb2b67618e2bd2885b99",
+        "qualification": "new extension saved brief"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1-provenance.json",
+        "sha256": "c584e167cb87950810649c3f15fdb2556d4543d2e39f5c1b6601477791059041",
+        "qualification": "new extension author provenance"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1-independent-source-guard.json",
+        "sha256": "0fe8d4ed73124ffba2ded07ecfc11845a05093d566a64fc24999cc7d277a0167",
+        "qualification": "independent source guard"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-dark.png",
+        "sha256": "c6a7be6ab9414b7bf7cd6132aee4350d0cffb569222948e3160e0609c15da9ea",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-light.png",
+        "sha256": "f87a8d934d35e10f8d5f7a88412379b82d792333ab42493ba3c2fae7b14e4915",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-dark.png",
+        "sha256": "dd165910509bbf0d5b92894b74b53c358aa719be856d20a63351196e58dddc23",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+        "sha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-calls.json",
+        "sha256": "94dcbb3893b840b53733d3a8a2c7ac340ead0470a0bd6956d29165d250555b74",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-dark-call.txt",
+        "sha256": "d9da59e313dbe2e653f36f43a004a159af64397d90041120322a82e018083ebc",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-generation-receipt.json",
+        "sha256": "e65af1d87fc33e729244f6582e0d863d58a666b809ae9b31eaa5712f04c84abf",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-light-call.txt",
+        "sha256": "d59a55986949d6111d87b68fd99b131ff92ca843d1e910abf0c2dbdc8310bfc4",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2.txt",
+        "sha256": "b4197141a5369b637bd8c826f15e8bc8dabc98b415fc8707be963a5b60e3f8b4",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition.txt",
+        "sha256": "e0c67acd8c978fa236e77b7a574219fe310e2adbfbf9e17bf6f5e6deaf2f9c59",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      }
+    ],
+    "authorCandidateSeal": {
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/seal.json",
+      "sha256": "b800ed4bf84b8cbc32aa8945fd4c4a778a7b2f22e9fa779a5145470d7fae3f2e"
+    },
+    "originalAttribution": "Historical creators and UNKNOWN creator values retained verbatim; reviewer claims no creative authorship of retained assets.",
+    "retainedSupportNotOutputs": true
+  },
+  "reviewScope": "Seven selected G1 task-fit reviews only; this receipt covers this owner and its exact two new natives. No canonical adoption, delivery or release approval.",
+  "checks": {
+    "exactInverseInsertion": true,
+    "metadataAndOriginalProseAndMermaidPreserved": true,
+    "frozenTaskWordingAndSharedOwnerPreserved": true,
+    "sameGeometryAndLabelsAcrossThemes": true,
+    "sharedArtRetainedAtCanonicalLocation": true,
+    "focusedExtensionBeyondRetainedDiagram": true,
+    "native": [
+      {
+        "key": "next-gap-250",
+        "theme": "light",
+        "nativeSHA256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-reading.png",
+        "captureSHA256": "886ef590adeee270ef431a6c51d6cc856d74b375696532d1fd328dc34bbf083a",
+        "viewBox": "0 0 600 1130",
+        "textCount": 16,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "A changed block is a start",
+            "x": 28,
+            "y": 14,
+            "width": 382.625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Keep the evidence gaps visible",
+            "x": 28,
+            "y": 59,
+            "width": 352.84375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Compare with normal",
+            "x": 78,
+            "y": 130,
+            "width": 279.515625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Normal",
+            "x": 45,
+            "y": 185,
+            "width": 83.578125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Altered",
+            "x": 45,
+            "y": 266,
+            "width": 83.125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Abstract blocks; not a real sequence",
+            "x": 92.6796875,
+            "y": 354,
+            "width": 414.640625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 453,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Candidate does not mean display",
+            "x": 78,
+            "y": 450,
+            "width": 433.625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Naturally processed and displayed?",
+            "x": 96.046875,
+            "y": 648,
+            "width": 407.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 743,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Display does not mean recognition",
+            "x": 78,
+            "y": 740,
+            "width": 450.15625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "?",
+            "x": 444,
+            "y": 853,
+            "width": 21.71875,
+            "height": 47,
+            "font": 40
+          },
+          {
+            "text": "Compatible receptor response?",
+            "x": 119.5859375,
+            "y": 953,
+            "width": 360.828125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Each question needs its own evidence.",
+            "x": 38,
+            "y": 1015,
+            "width": 442.296875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "No clinical benefit or safety inferred.",
+            "x": 38,
+            "y": 1047,
+            "width": 410.4375,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      },
+      {
+        "key": "next-gap-250",
+        "theme": "dark",
+        "nativeSHA256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-reading.png",
+        "captureSHA256": "ce9cc52c5a5b4fa1e26e9f4297328737c4a8f50a1cf47d6a92c9ff5b6dfb455f",
+        "viewBox": "0 0 600 1130",
+        "textCount": 16,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "A changed block is a start",
+            "x": 28,
+            "y": 14,
+            "width": 382.625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Keep the evidence gaps visible",
+            "x": 28,
+            "y": 59,
+            "width": 352.84375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Compare with normal",
+            "x": 78,
+            "y": 130,
+            "width": 279.515625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Normal",
+            "x": 45,
+            "y": 185,
+            "width": 83.578125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Altered",
+            "x": 45,
+            "y": 266,
+            "width": 83.125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Abstract blocks; not a real sequence",
+            "x": 92.6796875,
+            "y": 354,
+            "width": 414.640625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 453,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Candidate does not mean display",
+            "x": 78,
+            "y": 450,
+            "width": 433.625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Naturally processed and displayed?",
+            "x": 96.046875,
+            "y": 648,
+            "width": 407.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 743,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Display does not mean recognition",
+            "x": 78,
+            "y": 740,
+            "width": 450.15625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "?",
+            "x": 444,
+            "y": 853,
+            "width": 21.71875,
+            "height": 47,
+            "font": 40
+          },
+          {
+            "text": "Compatible receptor response?",
+            "x": 119.5859375,
+            "y": 953,
+            "width": 360.828125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Each question needs its own evidence.",
+            "x": 38,
+            "y": 1015,
+            "width": 442.296875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "No clinical benefit or safety inferred.",
+            "x": 38,
+            "y": 1047,
+            "width": 410.4375,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      }
+    ],
+    "articleAndTheater": [
+      {
+        "key": "next-gap-250",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+        "candidateSHA256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 96.1875,
+            "width": 345.984375,
+            "height": 651.625
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 651.6039062499999
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 644.0999999999999
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-mobile-inline.png",
+            "sha256": "f9058f70500b1b9376bd8800fe4c3b5d0ef05cc268b34cea6d41e8aedaab3730",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "65eb84717e28c364ad1e2f38eedbb7fd3d027b0d597f4f7c1abe31e3be5b7940",
+            "crop": {
+              "x": 22,
+              "y": 96,
+              "width": 346,
+              "height": 652
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-mobile-theater.png",
+            "sha256": "af321488d59a73ba9f963646f108926f99bd16ba27117ffa28183044f78ae5ac"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-mobile-zoom150.png",
+          "sha256": "ac265dc61cdeda57b8028849849affe7ed7461483530d6daa6a53aa7a4dd63f3"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-250",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+        "candidateSHA256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 570.109375,
+            "width": 600,
+            "height": 1130
+          },
+          "paint": {
+            "width": 600,
+            "height": 1130
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 480.00000000000006,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.200000000000003,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-desktop-inline.png",
+            "sha256": "c10f6c1eecb5f53d36e5f0a9a2d789f4415888dedd944d9f3c161d60292eb02c",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "f128a7b21dc76c70919bc6b2684decdb8d6adf85f56493e2e84581a6ee1ec52c",
+            "crop": {
+              "x": 310,
+              "y": 570,
+              "width": 600,
+              "height": 1130
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-desktop-theater.png",
+            "sha256": "a204a75974265298eacb259edafd6c05377493907963066622ba98db225d3fce"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-desktop-zoom150.png",
+          "sha256": "01ee342671afa64bfaab0911b09a772f8959cf86c1a4f8e98df704096341b298"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-250",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+        "candidateSHA256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 96.1875,
+            "width": 345.984375,
+            "height": 651.625
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 651.6039062499999
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 644.0999999999999
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-mobile-inline.png",
+            "sha256": "01d60da75a6582ec5cd66f22d1690dbe1aa40e3e866018ce6788278c32474bf4",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "51510f605129979cf391780498dfb75f9af8968cf7bbe7f4ffd8b6af586796f6",
+            "crop": {
+              "x": 22,
+              "y": 96,
+              "width": 346,
+              "height": 652
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-mobile-theater.png",
+            "sha256": "04123f045dc6d6447c27993b6c094edcd3fd4bccadcff301c2b21299dd70ba9c"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-mobile-zoom150.png",
+          "sha256": "948065a3cd7457c16eae21f408d86fbf3830ec4a9afcedf396a6b7d5985069d8"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-250",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+        "candidateSHA256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 570.109375,
+            "width": 600,
+            "height": 1130
+          },
+          "paint": {
+            "width": 600,
+            "height": 1130
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 480.00000000000006,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1130,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Fimmunology%2Fantigen-presentation%2Fimages%2Faltered-protein-candidate-evidence-gates-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.200000000000003,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-desktop-inline.png",
+            "sha256": "1252a5f89efb4e846e1b28f246623503563b74431be8877168e8fb4a52019a75",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "552dc546189a102f0d2ce1fc01f9f95f163fb22a52c472440d9178fd5bbb8c38",
+            "crop": {
+              "x": 310,
+              "y": 570,
+              "width": 600,
+              "height": 1130
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-desktop-theater.png",
+            "sha256": "2af993d2b3e0f1ab70bdfb46b007a998cfee460f2fe85f8c7377de77a03feadb"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-desktop-zoom150.png",
+          "sha256": "394bd4bf262e6a5a2d305b5810d53572c7c9e8bd769a49f09e290c8e4dfbdb01"
+        },
+        "pageErrors": []
+      }
+    ],
+    "nativeZoom200": [
+      {
+        "id": "next-gap-250",
+        "theme": "light",
+        "scale": 2,
+        "nativeSHA256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-light-native-zoom200.png",
+        "captureSHA256": "9e9a7445a1a92f3c917f6d9aac9088dbf218d5a74d62bfad8b2feb8d9199d2af",
+        "width": 1200,
+        "height": 2260
+      },
+      {
+        "id": "next-gap-250",
+        "theme": "dark",
+        "scale": 2,
+        "nativeSHA256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-250-dark-native-zoom200.png",
+        "captureSHA256": "036b778d8213b3e12e475f388d7602aaaa853abadb19b28dfad24d716011d45c",
+        "width": 1200,
+        "height": 2260
+      }
+    ],
+    "personalPixelInspection": "Both native themes, both 390px article themes with captions and immediate context, both wide article themes, plus 200 percent full native SVG captures personally inspected. Synthetic CSS-zoom stress also inspected and separately qualified.",
+    "fixture": "87 verified exact 5cb06c95f00ceb74ab86b1f46f5face9d49497e0 Git blobs; reviewer copy on :4821; private pinned article and ImageTheater only, not full production application.",
+    "focusQualification": "Enter opens and Escape closes. Escape returns focus to BODY rather than the triggering image; known retained renderer defect, not fixed or certified as conforming.",
+    "zoomQualification": "Full native SVG at 200 percent remains legible and contains all labels. Synthetic root CSS zoom 150 percent on the modal can push lower content outside the viewport; this stress is not actual browser zoom and provides no blanket application zoom certification."
+  },
+  "sourceGuard": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1-independent-source-guard.json",
+    "sha256": "0fe8d4ed73124ffba2ded07ecfc11845a05093d566a64fc24999cc7d277a0167"
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "pending",
+  "publication": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "findings": [],
+  "correctionIds": []
+}

@@ -50,6 +50,13 @@ Some studies combine phases. Phase is a development purpose, not a fixed sample-
 
 Researchers should report how assignment was performed and how outcomes were analyzed. Ask whether participants were analyzed in their original assigned groups, and retain the reasons for exclusions. Dropout, missing assessments, treatment changes and unequal follow-up can complicate the result even after a sound assignment process.
 
+
+### A closer look
+
+<img src="./images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg" alt="The study phase and development purpose sit above a separated participant assignment pathway. Eligible consenting people enter concealed chance assignment, with the next assignment hidden, then branch into groups A and B. Optional blinding is labeled after assignment as a separate feature when feasible. Phase numbers imply neither a benefit ladder nor fixed sample sizes nor proof of effectiveness." width="600" height="1000" data-theme-pair>
+
+*Read the study purpose, the chance assignment and blinding separately. Concealment protects the next assignment; blinding can follow it. A phase label promises neither a fixed sample size nor personal benefit nor efficacy.*
+
 ## Why it matters in cancer
 
 A patient may enter a randomized trial without being assigned the experimental treatment. The control could be standard care, standard care plus a placebo, or another specified approach. Read the protocol rather than assuming the control means no treatment.

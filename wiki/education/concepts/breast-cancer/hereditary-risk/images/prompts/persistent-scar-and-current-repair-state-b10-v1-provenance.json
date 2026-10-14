@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "authored-vector-education-art",
+  "taskId": "next-gap-242",
+  "owner": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+  "sourceTeachingAnchor": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenPageSHA256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+  "currentSourcePreimageSHA256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+  "finalCandidateSHA256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+  "frozenRowSHA256": "5918ecf26161f0c1bbe80111a3f036e732ae52bc417b925d10350bb459376c25",
+  "learnerTask": "Separate repair cause, historical genomic marks and current repair activity when they disagree.",
+  "gap": "The three-layer table is clear, but the central hard idea is persistent genomic scars after a change in repair state. A two-time-point causal diagram could show an old history signal remaining while current functional evidence changes, without implying a frequency or a drug-response probability.",
+  "accuracyGuardrails": [
+    "A selected resistance-study mechanism is a possible transition, not universal restoration.",
+    "Scores and RAD51 assays retain method/time conditions.",
+    "Do not infer inheritance or guaranteed drug response."
+  ],
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "originalCreator": null,
+  "method": "Precise SVG manually authored by agent; Python serialization; no image model call",
+  "toolCall": null,
+  "promptSHA256": "e0b24b46a4d46b07c5d8ed110f389874d2373e819330b7a701ab7d882f4b5710",
+  "nativeFiles": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-light.svg",
+      "sha256": "611c0b265f7c5dbf551cde365abf5fd611ca9efa8cdaba1d8f64adf7973f7b4b",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/persistent-scar-and-current-repair-state-b10-v1-dark.svg",
+      "sha256": "e1710aeeee086cc84fedf60fb97f6f080376d8effde83353086a68699c018e21",
+      "theme": "dark"
+    }
+  ],
+  "sourceReadBounds": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/",
+      "depth": "Abstract and displayed methods/results; paired selected eight-patient resistance cohort; not a prevalence estimate."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7946408/",
+      "depth": "Selected abstract/introduction/cohort sections read; full article was accessible but not read in full."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28288110/",
+      "depth": "Primary HRDetect abstract read, classifier rather than patient response probability; not full paper."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5961353/",
+      "depth": "Direct PMC request hit reCAPTCHA. Primary Cruz paper search extraction via its UAB author-repository copy states scars may persist after restoration; that selected extracted passage was read. UAB direct PDF then denied access; no full-paper read."
+    },
+    {
+      "url": "https://ddd.uab.cat/pub/artpub/2018/pmc_29635390/pmc_29635390.pdf",
+      "depth": "Primary paper repository search extraction only; direct request returned Anubis access denied."
+    }
+  ],
+  "sourceScope": "Only the new illustration was source-checked in this turn; all existing body/source-depth statements preserved verbatim, not recertified. Fictional quantities are arithmetic from the preserved owner example.",
+  "clinicalPrediction": false,
+  "humanReview": "Clinician/domain expert and learner review pending",
+  "independentReview": null,
+  "adoption": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

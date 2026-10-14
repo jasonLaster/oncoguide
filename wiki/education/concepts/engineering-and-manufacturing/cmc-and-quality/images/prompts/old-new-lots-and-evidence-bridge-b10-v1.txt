@@ -1,0 +1,10 @@
+Actual original authored SVG direction
+Author: agent:/root/batch10_author_group2
+Tool: local Python SVG authoring; no image model call.
+Source: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: Connect a changed process to affected attributes and the earlier evidence it may or may not bridge.
+Scene: One cellular starting sample splits, where suitable, between old and new manufacturing processes. Paired lot vials lead to matched comparisons of identity, composition, activity, impurities and stability. A dashed conditional connector links those comparisons to earlier quality, safety and efficacy evidence, with additional evidence shown as an open question. Similar readouts alone do not establish clinical equivalence or authorization.
+Accuracy guardrails, verbatim: Specify old/new materials, measured attributes and which evidence the change may affect. Similar results do not automatically prove equivalence, clinical comparability or authorization.
+Both themes: identical geometry, objects, labels, connectors; warm pale ground and dark ink versus quiet deep ground and pale ink. Arial/Helvetica, minimum label 28 px; native 600 x 1000. All drawings schematic; no measured quantities.
+Renderer: 5cb06c95f00ceb74ab86b1f46f5face9d49497e0.
+Clinical and learner review pending. Original creators of retained art remain unknown unless already documented.

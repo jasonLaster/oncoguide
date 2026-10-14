@@ -29,6 +29,17 @@ Recognizing a faint voice is easier than measuring its loudness accurately. A ta
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/peptide-response-and-reportable-range-b11-v1-light.svg" width="600" height="1220" alt="A fictional calibration plot has blank/background, detected-below-quantification, validated quantification and upper-saturation regions, with scattered replicate response dots and no transferable concentration values. A second panel keys those reporting regions; a third contrasts a measured peptide in an extract with an unresolved cell-surface location. Replicate dispersion appears as dots on the calibration curve." data-theme-pair>
+<p class="cartoon-caption">Report the peptide and its validated range: a detected signal below quantification or beyond upper saturation does not support a dependable amount.</p>
+</div>
+
+The [limits example](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) separates background, detection and dependable quantification.
+
+**Read the upper curve:** If the response has flattened beyond the validated range, does the plotted signal support a dependable amount?
+
+**Answer:** No. Keep the upper-range qualification; a saturated response cannot distinguish larger inputs reliably. The curve is fictional and supplies no transferable cutoff.
+
 In common targeted [mass spectrometry (MS) proteomics](/wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics), extracted proteins are digested into [peptides](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). The instrument monitors selected peptide ions and their fragments. **Multiple reaction monitoring (MRM)** follows predefined precursor-to-fragment transitions; other targeted approaches collect different fragmentation information. Identity, interference and quantitative performance need checking for each peptide. [Carr 2014](https://pubmed.ncbi.nlm.nih.gov/24443746/).
 
 A selected peptide is a proxy for its source protein. It may be shared by several protein forms, and digestion does not preserve the complete molecule. Measuring that peptide cannot automatically identify an intact receptor or count accessible copies on a cancer cell.

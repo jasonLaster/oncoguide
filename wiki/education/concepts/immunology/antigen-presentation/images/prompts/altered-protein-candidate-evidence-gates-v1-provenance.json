@@ -1,0 +1,200 @@
+{
+  "id": "next-gap-250",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+  "title": "Neoantigen",
+  "group": 1,
+  "priority": "P2",
+  "recommendedMedium": "diagram",
+  "targetSection": "## How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+  "learnerTask": "Connect a specific normal-versus-altered sequence to a candidate peptide while retaining separate presentation and recognition evidence.",
+  "gap": "The evidence table distinguishes the gates well but does not show how an altered sequence changes a candidate fragment. A small normal/altered sequence inset can reuse the antigen-processing owner rather than duplicating its full pathway.",
+  "accuracyGuardrails": [
+    "An alteration can yield several candidates or none useful.",
+    "An unusual transcript is not automatically tumor-exclusive.",
+    "Sequence-specific novelty does not establish recognition, safety or benefit."
+  ],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+    "pageSHA256": "cde2f028b44b347c03513a64be3e10dfcb5ff107062b3f2263ad01017d32dcce",
+    "targetSection": "## How it works",
+    "learnerTask": "Connect a specific normal-versus-altered sequence to a candidate peptide while retaining separate presentation and recognition evidence.",
+    "gap": "The evidence table distinguishes the gates well but does not show how an altered sequence changes a candidate fragment. A small normal/altered sequence inset can reuse the antigen-processing owner rather than duplicating its full pathway.",
+    "accuracyGuardrails": [
+      "An alteration can yield several candidates or none useful.",
+      "An unusual transcript is not automatically tumor-exclusive.",
+      "Sequence-specific novelty does not establish recognition, safety or benefit."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/204",
+    "oneBasedRow": 205,
+    "originalTaskRowSHA256": "274c1ebd983d3a5cc9acae297147728ab0520f1cd643338a7e9e9ee5440efac3",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/204",
+  "currentOwnerActual": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+    "sha256": "cde2f028b44b347c03513a64be3e10dfcb5ff107062b3f2263ad01017d32dcce",
+    "bytes": 6810,
+    "observedAtUTC": "2026-10-14T19:39:58.539557+00:00",
+    "immutableCommittedObservation": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "committedAndCurrentWorkingPreimagesEqual": true,
+    "metadataGate": "sensitive: false; no sensitive tag or redacted metadata; public concept only",
+    "bodyReadScope": "public authored mechanism and worked-example sections plus sources; no linked restricted case body",
+    "privatePreimage": "/tmp/education-next-visual-batch-11/selection/owner-preimages/wiki/education/concepts/immunology/antigen-presentation/neoantigen.md"
+  },
+  "actualTargetHeading": "## How it works",
+  "reuseRequirement": {
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "policy": "Preserve frozen shared owner exactly. Reuse existing diagram before creating any addition; justify only the page-specific view missing here. Do not claim a new canonical source-fit owner or credit from an added embed.",
+    "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "ownerSHA256": "117fbd145b564eb1e8d4c21cbebf4fe76d0a886036daba1f72ca53b8f6949ae1",
+    "privatePublicReference": "/tmp/education-next-visual-batch-11/selection/shared-owner-references/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "existingCanonicalAssignmentId": null,
+    "existingEmbeds": [
+      "<img src=\"./images/processing-display-recognition-v2-light.png\" alt=\"Five schematic panels show a common class-I route from protein fragments through TAP into the endoplasmic reticulum, loading with HLA-I and separate B2M, surface peptide–HLA display, and conditional contact with a compatible CD8 T-cell receptor.\" data-theme-pair>"
+    ]
+  },
+  "suggestedVisual": "Normal versus altered conceptual protein strips, candidate fragment and separate display/recognition evidence gates. Use abstract colored blocks, no real amino-acid sequence or design recommendation.",
+  "existingPrimaryReference": {
+    "pmid": "33038342",
+    "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/",
+    "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+    "retrievedAbstract": true,
+    "localEvidence": "primary-reference-abstracts.xml"
+  },
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": null,
+  "creativeAuthor": "agent:/root/batch11_immune_address_author",
+  "originalCreator": "agent:/root/batch11_immune_address_author",
+  "originalCreatorStatus": "new source-code SVG only; reused artwork creators retained in untouched receipts",
+  "integrationAuthor": "root",
+  "stage": "private selection proposal",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "delivery": "pending",
+  "publication": "pending",
+  "creditNow": 0,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "assessorOfReusedArt": "agent:/root/batch11_immune_address_author",
+  "createdAtUTC": "2026-10-14T19:51:18.977178+00:00",
+  "method": "original source-code SVG; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+      "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+      "bytes": 16940,
+      "theme": "light"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+      "sha256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+      "bytes": 16940,
+      "theme": "dark"
+    }
+  ],
+  "briefPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/altered-protein-candidate-evidence-gates-v1.txt",
+  "briefSHA256": "294be1a538546dd99b02d2db66f186b937f4447d02ebfb2b67618e2bd2885b99",
+  "reusedArtAndSupport": [
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-dark.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-dark.png",
+      "sha256": "c6a7be6ab9414b7bf7cd6132aee4350d0cffb569222948e3160e0609c15da9ea",
+      "bytes": 1635697,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-light.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-light.png",
+      "sha256": "f87a8d934d35e10f8d5f7a88412379b82d792333ab42493ba3c2fae7b14e4915",
+      "bytes": 1513467,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-dark.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-dark.png",
+      "sha256": "dd165910509bbf0d5b92894b74b53c358aa719be856d20a63351196e58dddc23",
+      "bytes": 1700399,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+      "sha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+      "bytes": 1830505,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-calls.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-calls.json",
+      "sha256": "94dcbb3893b840b53733d3a8a2c7ac340ead0470a0bd6956d29165d250555b74",
+      "bytes": 13826,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-dark-call.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-dark-call.txt",
+      "sha256": "d9da59e313dbe2e653f36f43a004a159af64397d90041120322a82e018083ebc",
+      "bytes": 739,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-generation-receipt.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-generation-receipt.json",
+      "sha256": "e65af1d87fc33e729244f6582e0d863d58a666b809ae9b31eaa5712f04c84abf",
+      "bytes": 27565,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-light-call.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2-light-call.txt",
+      "sha256": "d59a55986949d6111d87b68fd99b131ff92ca843d1e910abf0c2dbdc8310bfc4",
+      "bytes": 605,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition-v2.txt",
+      "sha256": "b4197141a5369b637bd8c826f15e8bc8dabc98b415fc8707be963a5b60e3f8b4",
+      "bytes": 3308,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/antigen-presentation/images/prompts/processing-display-recognition.txt",
+      "sha256": "e0c67acd8c978fa236e77b7a574219fe310e2adbfbf9e17bf6f5e6deaf2f9c59",
+      "bytes": 4619,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    }
+  ],
+  "reuseExtensionRationale": "Reuse the shared processing/display route. This extension supplies the normal-versus-altered comparison and makes the two unproven gates explicit.",
+  "sourceReadDepth": "gated public owner/shared mechanism sections and sources; selected complete PubMed primary abstracts, no full methods",
+  "independentReview": "pending"
+}

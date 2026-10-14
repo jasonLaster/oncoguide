@@ -29,6 +29,18 @@ Imagine describing what is left using both its footprint and how much of that fo
 
 ## How it works
 
+<img src="./images/tumor-bed-area-denominators-light.png" alt="Two fictional area diagrams distinguish a whole 100-unit tumor bed with 20 cancer units from the cancer-only area, of which 25 percent is in situ; invasive cancer is 15 percent of this example bed." width="1536" height="1024" data-theme-pair />
+
+*First name the area you are dividing by: the whole bed and the cancer-only area are different denominators.*
+
+This reused area example has 25% in situ cancer. It is a separate fictional example from the 50% in situ specimen below.
+
+<img src="./images/rcb-breast-and-node-inputs-v1-light.svg" alt="Two schematic panels group breast-bed dimensions and its two area fractions separately from positive-node count and largest metastasis; illustrative shapes do not calculate a patient score." width="600" height="755" data-theme-pair />
+
+*Breast inputs describe the tumor bed; node inputs describe regional nodal disease.*
+
+**Read the compartments:** Can a sparse breast bed tell you the nodal contribution? **Answer:** No. Node count and largest metastasis remain separate protocol inputs. These schematics do not calculate a personal prognosis; RCB is not validated for neoadjuvant endocrine therapy.
+
 The method is not validated for neoadjuvant endocrine therapy. The College of American Pathologists' June 2026 breast-resection protocol advises against reporting an RCB score or class in that setting, even though individual [tumor-bed cellularity observations](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) may still describe remaining disease. [CAP version 4.11.0.0, note K](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true).
 
 The calculation uses two tumor-bed dimensions, overall [cancer cellularity](/about/Terminology#tumor-cellularity) and the proportion that is in situ, plus the number of involved nodes and the largest nodal metastasis. These are pathology measurements obtained under the scoring protocol, rather than values inferred from an imaging report or the longest invasive focus alone.

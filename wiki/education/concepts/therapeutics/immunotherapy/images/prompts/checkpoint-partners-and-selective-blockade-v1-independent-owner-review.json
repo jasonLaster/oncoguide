@@ -1,0 +1,1009 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-254",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "learnerTask": "Compare PD-1/PD-L1/PD-L2 with CD28/CTLA-4 shared-ligand contacts",
+    "gap": "Table and outcome flow omit distinct molecular contacts and nonexclusive sites",
+    "accuracyGuardrails": "blocking PD-L1 not PD-L2; no HLA restoration or all-cell awakening; tissue injury possible",
+    "baselinePageSHA256": "897599158cfddce62e1b257773b563fe1f82b74d94d15602aa23a9a0899850e9",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "PD-1 is drawn with PD-L1 and PD-L2 as distinct partners. The selected PD-L1 contact alone is crossed out, while PD-L2 remains directly unblocked. A separate pair shows CD28 and CTLA-4 sharing CD80/CD86, labeled supporting versus limiting signals. The original capture/signaling artwork remains retained; this extension adds partner inventory and contact-specific blockade without redrawing capture. Overlapping sites, absent HLA restoration, lack of universal awakening and possible tissue injury are stated next to the visual. These meet the frozen molecular-contact task without implying interchangeable drugs or guaranteed response."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+      "theme": "light",
+      "bytes": 7670
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+      "theme": "dark",
+      "bytes": 7670
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+        "sha256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+        "qualification": "reviewed proposed current owner"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+        "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+        "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1.txt",
+        "sha256": "61b1ee11aba45b5ec41fdb658be1d35d8870ae276589dcac98e00f93310544f3",
+        "qualification": "new extension saved brief"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1-provenance.json",
+        "sha256": "21987359ac0f526d20fbf5089b6a225b833c583c7279d141f6a94532e400aeb9",
+        "qualification": "new extension author provenance"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1-independent-source-guard.json",
+        "sha256": "c5ec0f1f3e5926d3142936e4c716f8d7254ab253356e2997fa2d094c8ca5cd0b",
+        "qualification": "independent source guard"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+        "sha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+        "sha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1-calls.json",
+        "sha256": "fb41a48079ad11ec0a5a457e28f9b4cd55df79a6babd41dac06d73d776857d67",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1-provenance.json",
+        "sha256": "81494bc919ace21a594c7b4e3c032b2d6b71c719e284116da2034a31df42d3db",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1.txt",
+        "sha256": "bdeb4bbee10f58da4a7723c547c563a22b02709d2aa77ca8c927b7ed063dff6f",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      }
+    ],
+    "authorCandidateSeal": {
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/seal.json",
+      "sha256": "b800ed4bf84b8cbc32aa8945fd4c4a778a7b2f22e9fa779a5145470d7fae3f2e"
+    },
+    "originalAttribution": "Historical creators and UNKNOWN creator values retained verbatim; reviewer claims no creative authorship of retained assets.",
+    "retainedSupportNotOutputs": true
+  },
+  "reviewScope": "Seven selected G1 task-fit reviews only; this receipt covers this owner and its exact two new natives. No canonical adoption, delivery or release approval.",
+  "checks": {
+    "exactInverseInsertion": true,
+    "metadataAndOriginalProseAndMermaidPreserved": true,
+    "frozenTaskWordingAndSharedOwnerPreserved": true,
+    "sameGeometryAndLabelsAcrossThemes": true,
+    "sharedArtRetainedAtCanonicalLocation": true,
+    "focusedExtensionBeyondRetainedDiagram": true,
+    "native": [
+      {
+        "key": "next-gap-254",
+        "theme": "light",
+        "nativeSHA256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-reading.png",
+        "captureSHA256": "1ea62a6a1f98e9826de54fd04afd3a22d39856e80ac210b0616a767fca9fa722",
+        "viewBox": "0 0 600 1260",
+        "textCount": 29,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Block a particular contact",
+            "x": 28,
+            "y": 14,
+            "width": 380.640625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Partner identity changes what is blocked",
+            "x": 28,
+            "y": 59,
+            "width": 464.078125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "PD-1 has two named partners",
+            "x": 78,
+            "y": 130,
+            "width": 385.328125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 224,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L1",
+            "x": 455,
+            "y": 224,
+            "width": 70.421875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 308,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L2",
+            "x": 455,
+            "y": 308,
+            "width": 74.890625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "T cell",
+            "x": 64.5,
+            "y": 171,
+            "width": 61,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell gap",
+            "x": 253.1171875,
+            "y": 171,
+            "width": 93.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Neighbor",
+            "x": 442.546875,
+            "y": 171,
+            "width": 106.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 423,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Block PD-L1 specifically",
+            "x": 78,
+            "y": 420,
+            "width": 312.421875,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 516,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L1",
+            "x": 455,
+            "y": 516,
+            "width": 70.421875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 604,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L2",
+            "x": 455,
+            "y": 604,
+            "width": 74.890625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L2 contact not directly blocked",
+            "x": 100.4609375,
+            "y": 660,
+            "width": 399.078125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 743,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Different receptors share partners",
+            "x": 78,
+            "y": 740,
+            "width": 445.0625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "CD28",
+            "x": 79.828125,
+            "y": 836,
+            "width": 68.171875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CD80/86",
+            "x": 455,
+            "y": 836,
+            "width": 109.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CTLA-4",
+            "x": 55.828125,
+            "y": 926,
+            "width": 92.171875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CD80/86",
+            "x": 455,
+            "y": 926,
+            "width": 109.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Supporting vs limiting signals",
+            "x": 131.75,
+            "y": 785,
+            "width": 336.5,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Sites of action overlap.",
+            "x": 38,
+            "y": 1045,
+            "width": 258.734375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "No restored HLA or universal awakening.",
+            "x": 38,
+            "y": 1077,
+            "width": 463.484375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cancer activity and tissue injury",
+            "x": 38,
+            "y": 1109,
+            "width": 365.1875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "both remain possible.",
+            "x": 38,
+            "y": 1141,
+            "width": 245.28125,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      },
+      {
+        "key": "next-gap-254",
+        "theme": "dark",
+        "nativeSHA256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-reading.png",
+        "captureSHA256": "2650d4485199d8f4a9d2f342604f4baf44a9fa53642f538135b0877abe645ded",
+        "viewBox": "0 0 600 1260",
+        "textCount": 29,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Block a particular contact",
+            "x": 28,
+            "y": 14,
+            "width": 380.640625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Partner identity changes what is blocked",
+            "x": 28,
+            "y": 59,
+            "width": 464.078125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "PD-1 has two named partners",
+            "x": 78,
+            "y": 130,
+            "width": 385.328125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 224,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L1",
+            "x": 455,
+            "y": 224,
+            "width": 70.421875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 308,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L2",
+            "x": 455,
+            "y": 308,
+            "width": 74.890625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "T cell",
+            "x": 64.5,
+            "y": 171,
+            "width": 61,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell gap",
+            "x": 253.1171875,
+            "y": 171,
+            "width": 93.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Neighbor",
+            "x": 442.546875,
+            "y": 171,
+            "width": 106.90625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 423,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Block PD-L1 specifically",
+            "x": 78,
+            "y": 420,
+            "width": 312.421875,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 516,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L1",
+            "x": 455,
+            "y": 516,
+            "width": 70.421875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-1",
+            "x": 91.0625,
+            "y": 604,
+            "width": 56.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L2",
+            "x": 455,
+            "y": 604,
+            "width": 74.890625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "PD-L2 contact not directly blocked",
+            "x": 100.4609375,
+            "y": 660,
+            "width": 399.078125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "3",
+            "x": 40.3203125,
+            "y": 743,
+            "width": 15.359375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Different receptors share partners",
+            "x": 78,
+            "y": 740,
+            "width": 445.0625,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "CD28",
+            "x": 79.828125,
+            "y": 836,
+            "width": 68.171875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CD80/86",
+            "x": 455,
+            "y": 836,
+            "width": 109.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CTLA-4",
+            "x": 55.828125,
+            "y": 926,
+            "width": 92.171875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "CD80/86",
+            "x": 455,
+            "y": 926,
+            "width": 109.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Supporting vs limiting signals",
+            "x": 131.75,
+            "y": 785,
+            "width": 336.5,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Sites of action overlap.",
+            "x": 38,
+            "y": 1045,
+            "width": 258.734375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "No restored HLA or universal awakening.",
+            "x": 38,
+            "y": 1077,
+            "width": 463.484375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cancer activity and tissue injury",
+            "x": 38,
+            "y": 1109,
+            "width": 365.1875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "both remain possible.",
+            "x": 38,
+            "y": 1141,
+            "width": 245.28125,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      }
+    ],
+    "articleAndTheater": [
+      {
+        "key": "next-gap-254",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+        "candidateSHA256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 58.921875,
+            "width": 345.984375,
+            "height": 726.59375
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 726.5671875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 718.2
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-mobile-inline.png",
+            "sha256": "b428562cbae33271227d99086af5dba5415f3ef3da3dfa27e0b0882d6ca08d48",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "53d527fd7c618b3785c5f678c207819b9383c26e47a994971f15bf904c663574",
+            "crop": {
+              "x": 22,
+              "y": 59,
+              "width": 346,
+              "height": 727
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-mobile-theater.png",
+            "sha256": "77a1fd363d26473e75b743377e64ccf9a55a84f708d9aa17b4fee9153edab4f9"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-mobile-zoom150.png",
+          "sha256": "cc265e08d72060cbac4e61b07327ff57e9ebc96f79f00fd0f779a679208f1065"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-254",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+        "candidateSHA256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 219.953125,
+            "width": 600,
+            "height": 1260
+          },
+          "paint": {
+            "width": 600,
+            "height": 1260
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 430.4761904761904,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 17.21904761904762,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-desktop-inline.png",
+            "sha256": "5dd6e9d06b7618668c6f85378a247dc0ac70cbcba7aaecefedafdb29c7934973",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "28920a71a0e492f0aaef9b74c3169e18250994f833b7d28d2de05b926f57e279",
+            "crop": {
+              "x": 310,
+              "y": 220,
+              "width": 600,
+              "height": 1260
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-desktop-theater.png",
+            "sha256": "c733f6940f5447c7e6ac897704bdb565d03073d6ab59546565d5d2524505c18f"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-desktop-zoom150.png",
+          "sha256": "ec8882df7b1f29cfe7bdb1570f7853757f97c633d6ddfa807281a84519b387fb"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-254",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+        "candidateSHA256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 58.921875,
+            "width": 345.984375,
+            "height": 726.59375
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 726.5671875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 718.2
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-mobile-inline.png",
+            "sha256": "b289f5ae50612499803dbf2315f3a49dab6a9a9d71684121c355c9c9ff7179d6",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "604b1553bcf4c741debbba351979f5f9f38a50f45744b80d78fa3127b04b0b4b",
+            "crop": {
+              "x": 22,
+              "y": 59,
+              "width": 346,
+              "height": 727
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-mobile-theater.png",
+            "sha256": "6c77de748d965b8b13b8e0e3e0442158acdcd532d94b8a98c731f270f822f895"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-mobile-zoom150.png",
+          "sha256": "677bef3768af462ea58bd3777d965da179603ad42bf82fe0eb82af066ab926d6"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-254",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+        "candidateSHA256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 219.953125,
+            "width": 600,
+            "height": 1260
+          },
+          "paint": {
+            "width": 600,
+            "height": 1260
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 430.4761904761904,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1260,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcheckpoint-partners-and-selective-blockade-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 17.21904761904762,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-desktop-inline.png",
+            "sha256": "bbd41485faad54a6a16cb2f5ed9da389cde8fd89029573a2a98b70dffd9d264d",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "b62d98e00de7b690ec7013c3db701e6f934e9b23ea9ce3e40a401ce550d6bc95",
+            "crop": {
+              "x": 310,
+              "y": 220,
+              "width": 600,
+              "height": 1260
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-desktop-theater.png",
+            "sha256": "0e822f5c5a460c8abe88f367abd8b5ca808b64b36d312ca9977f4cf3c928e78b"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-desktop-zoom150.png",
+          "sha256": "35b4c546e1d3079f8207765191b4f93f7df60ba370ae7b08a32b367fba01301f"
+        },
+        "pageErrors": []
+      }
+    ],
+    "nativeZoom200": [
+      {
+        "id": "next-gap-254",
+        "theme": "light",
+        "scale": 2,
+        "nativeSHA256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-light-native-zoom200.png",
+        "captureSHA256": "0a86fbd2b188af0cfa5bcdfccbfa523c788cf8c3f790ab7ac1a6f9d7830913f5",
+        "width": 1200,
+        "height": 2520
+      },
+      {
+        "id": "next-gap-254",
+        "theme": "dark",
+        "scale": 2,
+        "nativeSHA256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-254-dark-native-zoom200.png",
+        "captureSHA256": "0ded3887b24db73eff95416fc1b62489e2f5f9e38120b8ed15e0e55600bbe84d",
+        "width": 1200,
+        "height": 2520
+      }
+    ],
+    "personalPixelInspection": "Both native themes, both 390px article themes with captions and immediate context, both wide article themes, plus 200 percent full native SVG captures personally inspected. Synthetic CSS-zoom stress also inspected and separately qualified.",
+    "fixture": "87 verified exact 5cb06c95f00ceb74ab86b1f46f5face9d49497e0 Git blobs; reviewer copy on :4821; private pinned article and ImageTheater only, not full production application.",
+    "focusQualification": "Enter opens and Escape closes. Escape returns focus to BODY rather than the triggering image; known retained renderer defect, not fixed or certified as conforming.",
+    "zoomQualification": "Full native SVG at 200 percent remains legible and contains all labels. Synthetic root CSS zoom 150 percent on the modal can push lower content outside the viewport; this stress is not actual browser zoom and provides no blanket application zoom certification."
+  },
+  "sourceGuard": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1-independent-source-guard.json",
+    "sha256": "c5ec0f1f3e5926d3142936e4c716f8d7254ab253356e2997fa2d094c8ca5cd0b"
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "pending",
+  "publication": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "findings": [],
+  "correctionIds": []
+}

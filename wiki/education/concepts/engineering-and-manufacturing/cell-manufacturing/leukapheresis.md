@@ -31,6 +31,10 @@ A concentrated collection is often called a **leukopak**. That names starting ma
 
 ## How it works
 
+<img src="./images/leukapheresis-collection-and-return-streams-b10-v1-light.svg" alt="A simplified blood circuit connects circulation to a separator. One arrow collects a mixed white-cell fraction into a leukopak; a separate return arrow brings other blood components back to circulation. The bag contains circular cell symbols of different colors and sizes representing lymphocytes and monocytes, rather than a pure T-cell population. Named streams are schematic, with no recovery percentages or universal protocol." data-theme-pair>
+
+*Follow both streams: the leukopak is mixed starting material, and other blood components return. The circuit is simplified; composition and recovery depend on the collection protocol.*
+
 Blood passes through an apheresis circuit. A separator collects selected white-cell fractions, while other components return to the circulation. Access may use peripheral veins or a suitable catheter, depending on the procedure.
 
 A collection for immune-cell manufacture often contains lymphocytes and monocytes. The [immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster) explains those populations. Their proportions, condition and abundance vary. A manufacturer may later select T cells and perform [ex vivo cell expansion](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion).

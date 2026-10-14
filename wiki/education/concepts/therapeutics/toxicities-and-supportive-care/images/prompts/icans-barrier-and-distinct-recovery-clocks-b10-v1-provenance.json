@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch10_author_group1",
+  "method": "direct SVG authoring",
+  "imageModel": null,
+  "imageModelInvoked": false,
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+  "currentSourcePreimageSHA256": "a16c824817d1dfc67c4220bfe9b68a64391c222163ba6ecd33b69647a5aa78e7",
+  "candidateOwnerSHA256": "2b2ff71dd7f4a03c8bb89033d8e9ba4a6fd7cc1afa145d5a89c872362ba19658",
+  "frozenPageSHA256": "7afa6fa9a727bcbf92cb86646adf1f265ec28878886cd7a3059e8a04d982a650",
+  "frozenRowSHA256": "8e26adff402a0a7f42e4adbe606866a25f7b8099dcf5b24b4d2c28d7efc1f86d",
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-light.svg",
+      "sha256": "4863557bf89ff2f618dd0847844572b9b61321e2dd0c1894723d8670b014aa10",
+      "bytes": 6327
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-dark.svg",
+      "sha256": "cb3afe0e17c50e653b03170d057ebb9a54eebdfda26aa3a42bcaa21a95fcf920",
+      "bytes": 6327
+    }
+  ],
+  "creativeTXT": {
+    "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/icans-barrier-and-distinct-recovery-clocks-b10-v1.txt",
+    "sha256": "92070f82cab250fb7502760229f1ea0152cce9e826aff3828a3029cb7caa3fde"
+  },
+  "clinicalAndLearnerReview": "pending",
+  "independentReview": "pending",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

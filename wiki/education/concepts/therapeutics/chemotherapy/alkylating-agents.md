@@ -31,6 +31,16 @@ That picture helps distinguish a chemical attachment from a missing page. Cells 
 
 ## How it works
 
+<img src="./images/base-links-versus-backbone-break-v1-light.svg" alt="The reused platinum schematic shows an attachment to one base, a link within one strand, a link between strands, and broken DNA backbones. It is a connectivity comparison for platinum, whose chemistry differs from classic alkylation." width="600" height="1000" data-theme-pair />
+
+*Reuse the connectivity comparison, then keep the chemistry clear: platinum does not transfer an alkyl group.*
+
+<img src="./images/alkyl-attachments-and-prodrug-activation-v1-light.svg" alt="Three schematic panels show an alkyl attachment to DNA, illustrative links within a strand or between two strands, and parent cyclophosphamide separated from active metabolites by metabolism. Continuous DNA backbones remain distinct from a break." width="600" height="1110" data-theme-pair />
+
+*Classic alkylation changes a chemical attachment; prodrug activation changes which species can make it.*
+
+**Follow the parent:** Is administered cyclophosphamide the same quantity as active-metabolite exposure? **Answer:** No. Metabolism lies between them. Not every alkylating agent makes the illustrated cross-links, and DNA damage does not guarantee cell death.
+
 An **alkyl group** is a small carbon-containing chemical group. Classic alkylating drugs can transfer reactive groups to molecules in cells. Important targets include [DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/genetics/central-dogma), which stores genetic information.
 
 A drug or active metabolite with two reactive sites can form **cross-links**, connecting sites within or between DNA strands. These lesions interfere with copying and other DNA functions. Alkylating agents are a varied class: not every member has the same activation pathway, lesion pattern or clinical use.

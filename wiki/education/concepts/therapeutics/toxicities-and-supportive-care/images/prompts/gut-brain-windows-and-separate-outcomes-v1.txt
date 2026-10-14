@@ -1,0 +1,5 @@
+Original source-code SVG construction brief. No image-generation call.
+Actual creative author: agent:/root/batch11_pathology_symptoms_author
+Three rounded teaching panels with abstract gut loop and brain outline, oriented gut-to-brain nerve arrow and a second input arrow. 5-HT3 and NK1 label pathway contributors without exclusive transmitter timing. Timeline is reporting convention only, not repeated dosing or a medication schedule. Separate outcome cards distinguish subjective real nausea from physical vomiting. Preserve the existing Mermaid and clinical communication text. No diagnosis, triage or antiemetic-selection algorithm.
+Frozen learner task: Follow overlapping gut/brain inputs and separate nausea from vomiting endpoints
+Guardrails: "Concept map not diagnosis/medication algorithm; subjective nausea real; no exclusive transmitter timing"

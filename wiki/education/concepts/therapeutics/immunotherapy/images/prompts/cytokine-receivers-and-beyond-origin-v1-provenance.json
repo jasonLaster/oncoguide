@@ -1,0 +1,152 @@
+{
+  "id": "next-gap-251",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+  "title": "Cytokine therapy",
+  "group": 1,
+  "priority": "P2",
+  "recommendedMedium": "cartoon",
+  "targetSection": "## How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+  "learnerTask": "Compare one cytokine contacting distinct cell types and distributing beyond its origin",
+  "gap": "Flow lacks physical receivers and local-versus-systemic spread",
+  "accuracyGuardrails": "No fight-cancer instruction; receptor/state dependent; local production can spread; class not one indication",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+    "pageSHA256": "9cbdc936230de197c25509cb50341e050d629ff9858b2ad377fc2c38bdd97c23",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare one cytokine contacting distinct cell types and distributing beyond its origin",
+    "gap": "Flow lacks physical receivers and local-versus-systemic spread",
+    "accuracyGuardrails": "No fight-cancer instruction; receptor/state dependent; local production can spread; class not one indication",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/356",
+    "oneBasedRow": 357,
+    "originalTaskRowSHA256": "9a2e2d4f4ab1480df3fb1b01307b9a2f4112d9893339029f23416e686ecf8dce",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/356",
+  "currentOwnerActual": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+    "sha256": "9cbdc936230de197c25509cb50341e050d629ff9858b2ad377fc2c38bdd97c23",
+    "bytes": 8497,
+    "observedAtUTC": "2026-10-14T19:39:58.539557+00:00",
+    "immutableCommittedObservation": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "committedAndCurrentWorkingPreimagesEqual": true,
+    "metadataGate": "sensitive: false; no sensitive tag or redacted metadata; public concept only",
+    "bodyReadScope": "public authored mechanism and worked-example sections plus sources; no linked restricted case body",
+    "privatePreimage": "/tmp/education-next-visual-batch-11/selection/owner-preimages/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md"
+  },
+  "actualTargetHeading": "## How it works",
+  "reuseRequirement": {
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+    "policy": "Preserve frozen shared owner exactly. Reuse existing diagram before creating any addition; justify only the page-specific view missing here. Do not claim a new canonical source-fit owner or credit from an added embed.",
+    "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "ownerSHA256": "e18799fb37bf9fed2454a1f46ca0f0f8f3ad59c8fdc451c91b44390080ecf1e4",
+    "privatePublicReference": "/tmp/education-next-visual-batch-11/selection/shared-owner-references/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+    "existingCanonicalAssignmentId": "next-gap-197",
+    "existingEmbeds": [
+      "<img src=\"./images/same-bulk-average-different-spatial-signals-v1-light.svg\" alt=\"Two equal-sized compartment pairs show 0 and 20 versus 10 and 10 pg/mL, both averaging 10, beside a compatible receptor and traversable route.\" data-theme-pair />"
+    ]
+  },
+  "suggestedVisual": "One generic cytokine signal reaching two cell types with different receptor/state contexts; local-origin plume reaches another tissue. No construct, delivery design, dose or regimen.",
+  "existingPrimaryReference": {
+    "pmid": "16484453",
+    "title": "Selective stimulation of T cell subsets with antibody-cytokine immune complexes.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16484453/",
+    "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+    "retrievedAbstract": true,
+    "localEvidence": "primary-reference-abstracts.xml"
+  },
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": null,
+  "creativeAuthor": "agent:/root/batch11_immune_address_author",
+  "originalCreator": "agent:/root/batch11_immune_address_author",
+  "originalCreatorStatus": "new source-code SVG only; reused artwork creators retained in untouched receipts",
+  "integrationAuthor": "root",
+  "stage": "private selection proposal",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "delivery": "pending",
+  "publication": "pending",
+  "creditNow": 0,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "assessorOfReusedArt": "agent:/root/batch11_immune_address_author",
+  "createdAtUTC": "2026-10-14T19:51:18.977178+00:00",
+  "method": "original source-code SVG; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+      "bytes": 5046,
+      "theme": "light"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+      "bytes": 5046,
+      "theme": "dark"
+    }
+  ],
+  "briefPath": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1.txt",
+  "briefSHA256": "7128a9bb1a7596426c08160ac9fd9d6249392fe4ddfb0131f6f4cb58a9191ade",
+  "reusedArtAndSupport": [
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/prompts/batch08-current-baseline/same-bulk-average-different-spatial-signals-v1-independent-owner-review.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/prompts/batch08-current-baseline/same-bulk-average-different-spatial-signals-v1-independent-owner-review.json",
+      "sha256": "f4a8a9b40f77d6c84a574cbb3bb55cf9ec7f15eaf3b28c7c562c89397ee69e91",
+      "bytes": 21849,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1-provenance.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1-provenance.json",
+      "sha256": "f5f50ad873f062e5782b97b51195990833ec8981fbf1b1f727880082817d6687",
+      "bytes": 2688,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1.txt",
+      "sha256": "494f6d9da2c9b7a1ade14114bf3ef5286d883f6287ac7b39a4875a111ea9cbdd",
+      "bytes": 1792,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "bytes": 7183,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "bytes": 7183,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    }
+  ],
+  "reuseExtensionRationale": "The shared figure teaches spatial averaging. This extension compares individual receivers and distinguishes the origin from the tissues exposed.",
+  "sourceReadDepth": "gated public owner/shared mechanism sections and sources; selected complete PubMed primary abstracts, no full methods",
+  "independentReview": "pending"
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "kind": "authored-vector-education-art",
+  "taskId": "next-gap-246",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+  "sourceTeachingAnchor": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenPageSHA256": "a24bc3df545fac1cdfd5040017f8a733fe80c290571cc708b65a4ed22fce2543",
+  "currentSourcePreimageSHA256": "eb01650547c20b2eed87604141a3622c0112ec2b9f36af6709ad02cbe6189287",
+  "finalCandidateSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+  "frozenRowSHA256": "9e50a8ed8f911cc0cdd3000feb3e5cc585af93576be950b8aa609327256eaa46",
+  "learnerTask": "Separate development purpose from assignment, concealment and blinding.",
+  "gap": "No visual shows eligible participants assigned by chance while phase remains a separate study property.",
+  "accuracyGuardrails": "Separate phase purpose from randomized assignment, allocation concealment and blinding. Phase numbers are not a benefit ladder, fixed sample sizes or proof of effectiveness.",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "originalCreator": null,
+  "method": "Precise SVG manually authored by agent; Python serialization; no image model call",
+  "toolCall": null,
+  "promptSHA256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+  "nativeFiles": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "theme": "dark"
+    }
+  ],
+  "sourceReadBounds": [
+    {
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "depth": "Official eligibility, phases, randomized/blinded design sections read; page updated November 8 2024."
+    },
+    {
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004587",
+      "depth": "CONSORT 2025 statement accessible; selected main-changes excerpt read; concealment search returned no match. Expanded image checklist was not read. This does not certify full checklist content."
+    },
+    {
+      "url": "https://www.consort-spirit.org/spiriteande22/item-22-allocation-concealment-mechanism",
+      "depth": "Official SPIRIT 2025 Item 22 explanation read: unpredictability plus concealment until assignment, distinct from blinding."
+    },
+    {
+      "url": "https://www.consort-spirit.org/spiriteande24a/item-3c-role-of-sponsor-and-funders",
+      "depth": "Official SPIRIT 2025 Item 24a body (URL slug differs from its displayed content) read: blinding after assignment and feasible groups; not full guideline."
+    },
+    {
+      "url": "https://www.bmj.com/content/bmj/389/bmj-2024-081124.full.pdf",
+      "depth": "CONSORT 2025 explanation direct PDF request 403; no full read."
+    }
+  ],
+  "sourceScope": "Only the new illustration was source-checked in this turn; all existing body/source-depth statements preserved verbatim, not recertified. Fictional quantities are arithmetic from the preserved owner example.",
+  "clinicalPrediction": false,
+  "humanReview": "Clinician/domain expert and learner review pending",
+  "independentReview": null,
+  "adoption": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

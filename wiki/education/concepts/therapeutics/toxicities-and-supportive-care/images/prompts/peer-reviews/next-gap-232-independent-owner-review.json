@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-232",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+  "author": "agent:/root/batch10_author_group1",
+  "authorRole": "Actual direct SVG creative author",
+  "creativeAuthor": "agent:/root/batch10_author_group1",
+  "originalCreator": null,
+  "artworkCreatorStatus": "Actual named agent author; no image-model call",
+  "reviewer": "agent:/root/batch10_review_group1",
+  "independentReviewer": "agent:/root/batch10_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "actualReviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAtUTC": "2026-10-14T00:06:48.454718+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "scienceScope": "Bounded visual mechanism and learner task; not comprehensive whole-owner medical or guideline certification",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "kind": "new-pair-candidate",
+  "newArtworkPairsCount": 1,
+  "currentOwnerSha256": "cf5cf4be84c39a9d340b31ff51b7ceeb217db83b97f7f9dad63313fbf74069d1",
+  "baselinePageSHA256": "94ea9dd663e9cf137b8a3ff34bba186d032330bc8fe50a5157d460039605c985",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/375",
+  "frozenRowSHA256": "30f69eb6a97b049d6d0eae16401fcdccfba6ef5f74d58a9ff9fec83d708ed354",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Physical T-cell/target contact precedes signal dots toward a macrophage, followed by a vessel cutaway locating blood and vascular lining. The scope text places macrophage causality in the mouse model and permits different human contributions. Dashed clinical-consequence arrows and the lower panel keep biological signaling distinct from attributed blood-pressure/oxygenation findings, other fever causes and a named clinical reporting version. No concentration-to-grade rule or management algorithm is encoded. This replaces the frozen one-cell-dumping reading with a selected multicell mechanism.",
+    "frozenPageSHA256": "94ea9dd663e9cf137b8a3ff34bba186d032330bc8fe50a5157d460039605c985",
+    "baselinePageSHA256": "94ea9dd663e9cf137b8a3ff34bba186d032330bc8fe50a5157d460039605c985",
+    "actualTeachingPreimageSHA256": "561e9d63c5a8f40deab5321fd769694a5ece9fcbefc4be7d855ea07076edeb76",
+    "learnerTask": "See activated lymphocytes, myeloid amplification and vessel/organ effects",
+    "gap": "Generic sequence misses multicell signaling; could be read as one-cell cytokine dumping",
+    "accuracyGuardrails": "Mouse causal example scoped; fever other causes; cytokine concentration not grade; no management algorithm",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Original frozen audit baseline remains distinct from current immutable teaching preimage and candidate owner SHA; no accounting or adoption update."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-light.svg",
+      "sha256": "b3c1c988bd72582bcfdd96ce3df361f2f83882eed4b881861d40bcbf026e6eb2",
+      "bytes": 7118,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1430,
+        "viewBox": "0 0 780 1430"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-dark.svg",
+      "sha256": "0058c568c4a333ddf2688612c32ac1c211acf0cdfae8f7b87c3782153c5ed5e9",
+      "bytes": 7118,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1430,
+        "viewBox": "0 0 780 1430"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+        "sha256": "cf5cf4be84c39a9d340b31ff51b7ceeb217db83b97f7f9dad63313fbf74069d1",
+        "bytes": 9674
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-dark.svg",
+        "sha256": "0058c568c4a333ddf2688612c32ac1c211acf0cdfae8f7b87c3782153c5ed5e9",
+        "bytes": 7118
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-light.svg",
+        "sha256": "b3c1c988bd72582bcfdd96ce3df361f2f83882eed4b881861d40bcbf026e6eb2",
+        "bytes": 7118
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/crs-multicell-amplification-and-clinical-effects-b10-v1-provenance.json",
+        "sha256": "50ebdc90d8cfe3203b944eedd8238003a562061b6ab9880cde43089b2a95e9db",
+        "bytes": 1777
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/crs-multicell-amplification-and-clinical-effects-b10-v1.txt",
+        "sha256": "ff27e09e7ecd47b5c487201260c3bc2a87200132973708ed9e43c13409f9e8f6",
+        "bytes": 966
+      }
+    ],
+    "currentCandidateOwnerSHA256": "cf5cf4be84c39a9d340b31ff51b7ceeb217db83b97f7f9dad63313fbf74069d1",
+    "sourcePreimageSHA256": "561e9d63c5a8f40deab5321fd769694a5ece9fcbefc4be7d855ea07076edeb76",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "fab511118fc5c8fc642e6e0572cb2240b0c929f41191ee25e17093ce57f75483",
+    "authorManifestSHA256": "2fe37a704735a3bb096bfb1cd6afb2417a6ea129f08cf99c52fbc7167e20c5dc",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "authorChecksumEntriesVerified": 772,
+    "publicInventoryFilesVerified": 38,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalsByteExact": true,
+    "retainedZIPIntegrityChecked": false,
+    "insertOnlyPreimageRecovery": true,
+    "currentWorkingOwnerPreimageExact": true,
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "rejectedDrafts01Through03Preserved": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "unrelatedOwnerBodiesRead": false
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29808005/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29808005%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/29808005.json",
+      "sha256": "a45d3ed9010c435803f7614035ea3ab654a8c1322890df1a31334077a8fd1aef",
+      "supports": "Recipient macrophage-derived signals mediated severity in a particular murine CAR T CRS model; the primary model does not establish identical human contributions."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30592986/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30592986%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/30592986.json",
+      "sha256": "401d31c9a58da74124f0007e77d3ca76704b7557ef29cb4205a7c690c44414d8",
+      "supports": "The 2019 primary consensus abstract establishes a uniform reporting framework for CRS and neurotoxicity; detailed tables were not available through the attempted BioC endpoint."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42711241/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42711241%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/42711241.json",
+      "sha256": "15d042aeaa9f4762a56bf2ca850127b03a4fea32ca745228916bce8c990d1b35",
+      "supports": "The current ASTCT update adds and clarifies immune-effector toxicity reporting definitions; its abstract alone does not verify detailed ICE instructions or grading tables."
+    },
+    {
+      "url": "https://www.astctjournal.org/article/S2666-6367%2826%2900363-5/fulltext",
+      "primary": true,
+      "readDepth": "Independent official-publisher indexed text returned by web search: ICE monitoring rather than diagnosis, broader domains, version refinement and modified tools. Direct full-text open returned 403. Full grading tables and detailed current ICE/M-ICE instructions remain unverified. 2019 BioC full-text retrieval also failed.",
+      "supports": "A cognitive tool is one monitoring input and does not mandate ICANS diagnosis; broader domains and version specification remain necessary.",
+      "full2026ICEInstructionsVerified": false
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Independent seven-owner scientific/task-fit, source-depth, custody, both native themes and fresh reader capture review; no historical approval inherited.",
+    "sourceReadDepth": "Actual independent reads are listed. Ancillary retained owner citations are not all recertified; no comprehensive guideline, entire owner science, human or source-fit adoption certification.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Unchanged private pinned author-built fixture served at 4711, independently captured by reviewer. No production backend/header/navigation, physical mobile, cross-browser, touch or whole-page accessibility certification. Native images were emitted individually; mobile captures inspected in literal-size sheets, desktop inline/theater paint in context sheets that display tools may downscale. Full reader captures retained as context, not whole-page approval. Initial server unavailable; reviewer started unchanged server only."
+  },
+  "nativePixelAssessment": {
+    "assessment": "Cell identities, mouse-model qualification, vessel-lumen/lining labels, dashed consequences and clinical-grading limitation lines remain readable.",
+    "mobileReadability": "Read every task-relevant label and lower guard line at actual 390px capture scale; small text is legible in this inspection, human learner acceptance pending.",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.420410839160839,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Failed in all four owner theme/size checks; independent additional check confirmed BODY. Known pinned renderer defect retained; no runtime changes or overall accessibility approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-232-light-reading.png",
+      "sha256": "e3858e40e268dbc18bb636d55ffa66e38ed146be18b191633d036a5d0876a75d"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-232-dark-reading.png",
+      "sha256": "9d3aae37527dd3655c4aac4f864fc543c4323b49e9b7e15f5a64fee48833ea27"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-232-light-mobile-inline.png",
+      "sha256": "f1711fd4910f2f75004bff36f72efad2d61fd83220268105b9aba184d2b5c7e2"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-232-light-mobile-theater.png",
+      "sha256": "761b704b2fe874df2c015fa246e650a59cb4c707fcb47529df81d60163179fc8"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-232-light-desktop-inline.png",
+      "sha256": "19ce7480f6feb8b7580e2b5c8fd3988adcec816bc0a31561eb0c320bd65ca3a4"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-232-light-desktop-theater.png",
+      "sha256": "129453612488893cd58347516ac755cbb6b2b3f9a5d5846fb66f2d743a96c234"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-232-dark-mobile-inline.png",
+      "sha256": "e57d6561d58bfa464a8ab4ad29a160e5ae7716fe1339287cad7689eec3ddd911"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-232-dark-mobile-theater.png",
+      "sha256": "fcf9a84aa5f1ed3a76f46d71936335c365a76ddbdd3ad5909ae253b32055492c"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-232-dark-desktop-inline.png",
+      "sha256": "9efcfaeed08ffd83a37c837ee663486518cdc10ed240012b776e733586c66458"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-232-dark-desktop-theater.png",
+      "sha256": "aba4408e5607357ba64268851842bdcaad3af853ca485e6e89f6f2d25b08ff03"
+    }
+  ],
+  "method": "New pairs directly authored SVG; historical reuse authorship remains unknown. This review made no artwork edits.",
+  "imageModelCalls": 0,
+  "imageModelCallsScope": "Current review only; historical generation is not reconstructed.",
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "existing-renderer-accessibility-defect",
+      "finding": "Escape closes the viewer but restores focus to BODY rather than the invoking image.",
+      "blocksArtworkTaskFit": false,
+      "overallAccessibilityApproval": false
+    },
+    {
+      "kind": "source-read-limit",
+      "finding": "Full 2026 ICE/M-ICE instructions and all grading tables remain unverified; this PASS covers the generic bounded visual task and is not whole-owner guideline certification."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Source-code SVG design brief, not an image-model prompt or call.
+{
+  "id": "next-gap-256",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+  "targetSection": "Worked example",
+  "sharedCanonicalOwner": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+  "learnerTask": "Separate measured channels, estimated cell boundaries and distance definitions",
+  "gap": "Current flow omits overlays and center-versus-boundary distance",
+  "accuracyGuardrails": "Separate measured/registered channels, estimated cell masks and the chosen distance definition. Apparent colocalization or proximity is not automatic same-cell expression, physical interaction or functional signaling."
+}
+The canonical segmentation art teaches merged, split and displaced masks. This extension keeps those distinctions and adds center-versus-boundary rulers on the same fixed geometry.
+Separate synthetic blue and rose marker channels are aligned to one fictional tissue field. An overlay adds dashed estimated cell boundaries and two different rulers: center-to-center crosses the cells, while boundary-to-boundary spans only the gap. The bottom panel separates measured channels, estimated masks and calculated distances without claiming contact or recognition.
+Caption: A distance needs a definition: channels are measured, masks are estimated, and proximity alone does not establish recognition.
+Flat outlined scientific shapes, rounded panels, repeated toy objects, sans-serif 26px body labels. Theme geometry and data identical. No protocol, optimization, therapeutic design, sequence or dose.

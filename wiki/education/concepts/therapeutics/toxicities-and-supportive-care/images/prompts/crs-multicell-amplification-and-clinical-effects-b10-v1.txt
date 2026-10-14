@@ -1,0 +1,10 @@
+Actual authored SVG brief
+Creator: agent:/root/batch10_author_group1
+Method: hand-authored SVG via private author.py; no image-model invocation.
+Source revision: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: See activated lymphocytes, myeloid amplification and vessel/organ effects
+Scene: A blue T cell contacts a rose target cell; signal dots lead to a violet macrophage. A lower cutaway locates blood inside a vessel and its vascular lining, with dashed arrows to possible blood-pressure and oxygenation consequences. Clinical attribution and a named ASTCT version supply grading; cytokine concentration does not.
+Theme: warm pale ground/dark ink and quiet deep ground/pale ink; identical objects, positions, quantities, labels and arrows.
+Output: 780 x 1430 SVG.
+Accuracy guardrails (frozen): "Mouse causal example scoped; fever other causes; cytokine concentration not grade; no management algorithm"
+Clinician/domain-expert and learner review pending.

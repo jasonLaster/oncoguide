@@ -1,0 +1,152 @@
+{
+  "id": "next-gap-253",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+  "title": "Engineered T-cell receptor therapy (TCR-T)",
+  "group": 1,
+  "priority": "P1",
+  "recommendedMedium": "schematic",
+  "targetSection": "## How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers.md",
+  "learnerTask": "Trace receptor instructions into T cells and source protein into peptide–HLA on tumor",
+  "gap": "Converging flow omits receptor/CD3 assembly and compartment boundaries",
+  "accuracyGuardrails": "No receptor entry into tumor; exact peptide–HLA; natural processing and safety independent",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+    "pageSHA256": "3dab337b37e1d4d53f162d35982fcf0194e05c8b35d38c758e0ba2658f40b0ea",
+    "targetSection": "## How it works",
+    "learnerTask": "Trace receptor instructions into T cells and source protein into peptide–HLA on tumor",
+    "gap": "Converging flow omits receptor/CD3 assembly and compartment boundaries",
+    "accuracyGuardrails": "No receptor entry into tumor; exact peptide–HLA; natural processing and safety independent",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/338",
+    "oneBasedRow": 339,
+    "originalTaskRowSHA256": "34dc0c9812c6f66947446d245a2cea12f738a224cec1a427a1df74977f7c577a",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/338",
+  "currentOwnerActual": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+    "sha256": "7b5286a5d62cbf3cefaadeb21db9ae3ec3f29d87c84e0871b6e7818a82acd1a6",
+    "bytes": 8765,
+    "observedAtUTC": "2026-10-14T19:39:58.539557+00:00",
+    "immutableCommittedObservation": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "committedAndCurrentWorkingPreimagesEqual": true,
+    "metadataGate": "sensitive: false; no sensitive tag or redacted metadata; public concept only",
+    "bodyReadScope": "public authored mechanism and worked-example sections plus sources; no linked restricted case body",
+    "privatePreimage": "/tmp/education-next-visual-batch-11/selection/owner-preimages/wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md"
+  },
+  "actualTargetHeading": "## How it works",
+  "reuseRequirement": {
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers.md",
+    "policy": "Preserve frozen shared owner exactly. Reuse existing diagram before creating any addition; justify only the page-specific view missing here. Do not claim a new canonical source-fit owner or credit from an added embed.",
+    "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "ownerSHA256": "d3d5c18cbcefa62d09d52754c51623eca1771965b7fdb14a1dccc58cfcf96972",
+    "privatePublicReference": "/tmp/education-next-visual-batch-11/selection/shared-owner-references/wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers.md",
+    "existingCanonicalAssignmentId": null,
+    "existingEmbeds": [
+      "<img src=\"./images/same-displayed-target-different-products-light.png\" alt=\"Three panels compare an antibody-derived peptide–HLA/CD3 protein, a soluble TCR/CD3 protein and a living TCR-T cell recognizing the same displayed complex.\" data-theme-pair>"
+    ]
+  },
+  "suggestedVisual": "T-cell membrane with generic paired TCR/CD3 at peptide-HLA contact across the tumor membrane, with source-protein processing upstream. Instructions are an abstract concept, no sequence/vector/process details.",
+  "existingPrimaryReference": {
+    "pmid": "16946036",
+    "title": "Cancer regression in patients after transfer of genetically engineered lymphocytes.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16946036/",
+    "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+    "retrievedAbstract": true,
+    "localEvidence": "primary-reference-abstracts.xml"
+  },
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": null,
+  "creativeAuthor": "agent:/root/batch11_immune_address_author",
+  "originalCreator": "agent:/root/batch11_immune_address_author",
+  "originalCreatorStatus": "new source-code SVG only; reused artwork creators retained in untouched receipts",
+  "integrationAuthor": "root",
+  "stage": "private selection proposal",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "delivery": "pending",
+  "publication": "pending",
+  "creditNow": 0,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "assessorOfReusedArt": "agent:/root/batch11_immune_address_author",
+  "createdAtUTC": "2026-10-14T19:51:18.977178+00:00",
+  "method": "original source-code SVG; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+      "sha256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+      "bytes": 14945,
+      "theme": "light"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+      "sha256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+      "bytes": 14945,
+      "theme": "dark"
+    }
+  ],
+  "briefPath": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1.txt",
+  "briefSHA256": "818a250cd8f1be4c4a42ab118484986c2cf5c0196af9b6f3c596c97ebda7987c",
+  "reusedArtAndSupport": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products-dark-call.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products-dark-call.txt",
+      "sha256": "2c502aed9309d251f3ea1d751cff6a646110f0acd707c3549d7dd9398e8b3ed4",
+      "bytes": 5286,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products-light-call.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products-light-call.txt",
+      "sha256": "0ea6e476521029796e66236bd7143d3dc00c492feb015ab73ecc00f0219d2a78",
+      "bytes": 5283,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products.txt",
+      "sha256": "5b8bce38c5c9e9780a826ef561218b612361113dc152f4f061968a951c34db78",
+      "bytes": 4993,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/antibody-based/images/same-displayed-target-different-products-dark.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/therapeutics/antibody-based/images/same-displayed-target-different-products-dark.png",
+      "sha256": "b663ab877e470e550d914e99dab454801d4a23e329c2847378d925d14807157a",
+      "bytes": 1840041,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/antibody-based/images/same-displayed-target-different-products-light.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/therapeutics/antibody-based/images/same-displayed-target-different-products-light.png",
+      "sha256": "be7201a8ec2f02a76d03b884e2ac010249fdbd211ea904423e5c30fed27dc014",
+      "bytes": 1748205,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    }
+  ],
+  "reuseExtensionRationale": "The shared format comparison distinguishes living TCR-T from soluble proteins. This extension enlarges only the living two-cell contact and the separate instruction and source-protein compartments.",
+  "sourceReadDepth": "gated public owner/shared mechanism sections and sources; selected complete PubMed primary abstracts, no full methods",
+  "independentReview": "pending"
+}

@@ -1,0 +1,881 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-253",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "learnerTask": "Trace receptor instructions into T cells and source protein into peptide–HLA on tumor",
+    "gap": "Converging flow omits receptor/CD3 assembly and compartment boundaries",
+    "accuracyGuardrails": "No receptor entry into tumor; exact peptide–HLA; natural processing and safety independent",
+    "baselinePageSHA256": "3dab337b37e1d4d53f162d35982fcf0194e05c8b35d38c758e0ba2658f40b0ea",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The instruction arrow ends in the T cell, while the source protein and processing/loading remain inside the separate tumor compartment. A paired TCR and adjacent schematic CD3 meet an exact peptide-HLA address across two membranes; the receptor never enters the tumor. The retained three-format comparison supplies product context, while this extension supplies the living-cell contact and compartment boundary missing from the frozen task. The footer and caption keep natural presentation, recognition, killing and safety independent. The drawing is a simplified relationship map, not atomic stoichiometry or a construct recipe."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+      "sha256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+      "theme": "light",
+      "bytes": 14945
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+      "sha256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+      "theme": "dark",
+      "bytes": 14945
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+        "sha256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+        "qualification": "reviewed proposed current owner"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+        "sha256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+        "sha256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1.txt",
+        "sha256": "818a250cd8f1be4c4a42ab118484986c2cf5c0196af9b6f3c596c97ebda7987c",
+        "qualification": "new extension saved brief"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1-provenance.json",
+        "sha256": "12dfabc93f28384864e4ca610122d6c053e896101e32aa8b6525cf968432fda7",
+        "qualification": "new extension author provenance"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1-independent-source-guard.json",
+        "sha256": "6884163aab588d3d824c3a52080bb6d6c556915cc48f6bf32b0d2dbdb41b6464",
+        "qualification": "independent source guard"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products-dark-call.txt",
+        "sha256": "2c502aed9309d251f3ea1d751cff6a646110f0acd707c3549d7dd9398e8b3ed4",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products-light-call.txt",
+        "sha256": "0ea6e476521029796e66236bd7143d3dc00c492feb015ab73ecc00f0219d2a78",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/same-displayed-target-different-products.txt",
+        "sha256": "5b8bce38c5c9e9780a826ef561218b612361113dc152f4f061968a951c34db78",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/same-displayed-target-different-products-dark.png",
+        "sha256": "b663ab877e470e550d914e99dab454801d4a23e329c2847378d925d14807157a",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/same-displayed-target-different-products-light.png",
+        "sha256": "be7201a8ec2f02a76d03b884e2ac010249fdbd211ea904423e5c30fed27dc014",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      }
+    ],
+    "authorCandidateSeal": {
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/seal.json",
+      "sha256": "b800ed4bf84b8cbc32aa8945fd4c4a778a7b2f22e9fa779a5145470d7fae3f2e"
+    },
+    "originalAttribution": "Historical creators and UNKNOWN creator values retained verbatim; reviewer claims no creative authorship of retained assets.",
+    "retainedSupportNotOutputs": true
+  },
+  "reviewScope": "Seven selected G1 task-fit reviews only; this receipt covers this owner and its exact two new natives. No canonical adoption, delivery or release approval.",
+  "checks": {
+    "exactInverseInsertion": true,
+    "metadataAndOriginalProseAndMermaidPreserved": true,
+    "frozenTaskWordingAndSharedOwnerPreserved": true,
+    "sameGeometryAndLabelsAcrossThemes": true,
+    "sharedArtRetainedAtCanonicalLocation": true,
+    "focusedExtensionBeyondRetainedDiagram": true,
+    "native": [
+      {
+        "key": "next-gap-253",
+        "theme": "light",
+        "nativeSHA256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-reading.png",
+        "captureSHA256": "f5a1a2824f2f7a8c7f2af971d19883f8bd10af3457b4d81daf5734311a6e61d5",
+        "viewBox": "0 0 600 1180",
+        "textCount": 21,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Two cells, one contact",
+            "x": 28,
+            "y": 14,
+            "width": 328.265625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Instructions and target take different paths",
+            "x": 28,
+            "y": 59,
+            "width": 486.984375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Put instructions in the right cell",
+            "x": 78,
+            "y": 130,
+            "width": 405.125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Receptor",
+            "x": 79.6171875,
+            "y": 222,
+            "width": 104.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "instructions",
+            "x": 64.203125,
+            "y": 254,
+            "width": 135.59375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "T cell",
+            "x": 400.5,
+            "y": 235,
+            "width": 61,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 398,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Meet across two membranes",
+            "x": 78,
+            "y": 395,
+            "width": 376.25,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "T-cell interior",
+            "x": 55,
+            "y": 445,
+            "width": 151.921875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Paired TCR",
+            "x": 400,
+            "y": 445,
+            "width": 126.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "+ CD3",
+            "x": 400,
+            "y": 477,
+            "width": 74.546875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell gap",
+            "x": 55,
+            "y": 581,
+            "width": 93.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Peptide–HLA",
+            "x": 394,
+            "y": 621,
+            "width": 152.65625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "at surface",
+            "x": 394,
+            "y": 653,
+            "width": 113.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Tumor-cell interior",
+            "x": 55,
+            "y": 734,
+            "width": 210.40625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Source protein",
+            "x": 56.25,
+            "y": 878,
+            "width": 167.5,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Processing + loading",
+            "x": 290,
+            "y": 918,
+            "width": 240,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Required peptide + required HLA.",
+            "x": 38,
+            "y": 1015,
+            "width": 381.65625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Recognition, killing and safety",
+            "x": 38,
+            "y": 1047,
+            "width": 340.046875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "remain separate questions.",
+            "x": 38,
+            "y": 1079,
+            "width": 309.234375,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      },
+      {
+        "key": "next-gap-253",
+        "theme": "dark",
+        "nativeSHA256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-reading.png",
+        "captureSHA256": "c054303899d8f8a118feaa21d7dce4d7e562e2b973976a1035f662ab4add8d41",
+        "viewBox": "0 0 600 1180",
+        "textCount": 21,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Two cells, one contact",
+            "x": 28,
+            "y": 14,
+            "width": 328.265625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "Instructions and target take different paths",
+            "x": 28,
+            "y": 59,
+            "width": 486.984375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Put instructions in the right cell",
+            "x": 78,
+            "y": 130,
+            "width": 405.125,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Receptor",
+            "x": 79.6171875,
+            "y": 222,
+            "width": 104.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "instructions",
+            "x": 64.203125,
+            "y": 254,
+            "width": 135.59375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "T cell",
+            "x": 400.5,
+            "y": 235,
+            "width": 61,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 398,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Meet across two membranes",
+            "x": 78,
+            "y": 395,
+            "width": 376.25,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "T-cell interior",
+            "x": 55,
+            "y": 445,
+            "width": 151.921875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Paired TCR",
+            "x": 400,
+            "y": 445,
+            "width": 126.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "+ CD3",
+            "x": 400,
+            "y": 477,
+            "width": 74.546875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell gap",
+            "x": 55,
+            "y": 581,
+            "width": 93.765625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Peptide–HLA",
+            "x": 394,
+            "y": 621,
+            "width": 152.65625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "at surface",
+            "x": 394,
+            "y": 653,
+            "width": 113.9375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Tumor-cell interior",
+            "x": 55,
+            "y": 734,
+            "width": 210.40625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Source protein",
+            "x": 56.25,
+            "y": 878,
+            "width": 167.5,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Processing + loading",
+            "x": 290,
+            "y": 918,
+            "width": 240,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Required peptide + required HLA.",
+            "x": 38,
+            "y": 1015,
+            "width": 381.65625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Recognition, killing and safety",
+            "x": 38,
+            "y": 1047,
+            "width": 340.046875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "remain separate questions.",
+            "x": 38,
+            "y": 1079,
+            "width": 309.234375,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      }
+    ],
+    "articleAndTheater": [
+      {
+        "key": "next-gap-253",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+        "candidateSHA256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 81.921875,
+            "width": 345.984375,
+            "height": 680.453125
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 680.4359375
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 672.6
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-mobile-inline.png",
+            "sha256": "e5856244ed50938cd5c871867784ab80c3aa8108d7fbbc30164cf9e2c67527c5",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "6a610b2525f59e136e595c7438eb2a6e343759489df7b7cc7b673a3bdbf2fd5a",
+            "crop": {
+              "x": 22,
+              "y": 82,
+              "width": 346,
+              "height": 680
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-mobile-theater.png",
+            "sha256": "e681e55e890e0a512533841f1edcb8d761c0e94ebcd570f5d1c98ccbd0c735c5"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-mobile-zoom150.png",
+          "sha256": "b25477b34c1f194120a8cbde20eaf152e2d69f60acfbccb0c3688a6252cd37a1"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-253",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+        "candidateSHA256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 519.953125,
+            "width": 600,
+            "height": 1180
+          },
+          "paint": {
+            "width": 600,
+            "height": 1180
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 459.6610169491525,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 18.3864406779661,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-desktop-inline.png",
+            "sha256": "0a833beae38c5f26e2d6d8d3dcf8fe6cead03df20caccde562a962807e5dabed",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "7a7bdf0bf8688b834883c50ffdf2dcd49ae05ffb6871de801286c596d6b63d6e",
+            "crop": {
+              "x": 310,
+              "y": 520,
+              "width": 600,
+              "height": 1180
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-desktop-theater.png",
+            "sha256": "df4ad42bf58093d063bd3249b7cb044030fd14262aeb6fc8fe25d996f33ca2df"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-desktop-zoom150.png",
+          "sha256": "59df158b4a2a18c9ea648fe0e9be42a6bb8a71b3f2a4e03bab120df517a3f813"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-253",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+        "candidateSHA256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 81.921875,
+            "width": 345.984375,
+            "height": 680.453125
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 680.4359375
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 672.6
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-mobile-inline.png",
+            "sha256": "c007ef9e075bb05fcf206eb82ecd51117cd3d05d3a93d4762ed9531fac3c8dfb",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "bc577d2da863a553f19e5019ba3a2dce804bb706f24f6b9c02f6db71c8449199",
+            "crop": {
+              "x": 22,
+              "y": 82,
+              "width": 346,
+              "height": 680
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-mobile-theater.png",
+            "sha256": "9f550af89b4dadaecd3ebeb167b2666dcc661add0762091fca8e8cc2de5fb369"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-mobile-zoom150.png",
+          "sha256": "52afce62b71c4c99d596342c5fadf3621a65bd56551dfe5e0471d9aa24e86471"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-253",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+        "candidateSHA256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 519.953125,
+            "width": 600,
+            "height": 1180
+          },
+          "paint": {
+            "width": 600,
+            "height": 1180
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 459.6610169491525,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1180,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fcell-therapies%2Fimages%2Ftcr-t-two-cell-compartments-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 18.3864406779661,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-desktop-inline.png",
+            "sha256": "16223ae9b6414b3ecd223830bd7abc0ada2e858e6a6ca3b41e1af72177843ed5",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "e7d9307a04a5f5762641a8b723accb77a04c8c9386728597b8d03ab439f85f0a",
+            "crop": {
+              "x": 310,
+              "y": 520,
+              "width": 600,
+              "height": 1180
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-desktop-theater.png",
+            "sha256": "5f2c3572536e6fa30079db1e9176b7e69f77b961c0646e1247cbdc28b46d1bd1"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-desktop-zoom150.png",
+          "sha256": "8382f071c11de84ea32f4fe6db64fd9905461d45fdbb3eb8a04a506a6f7fb70d"
+        },
+        "pageErrors": []
+      }
+    ],
+    "nativeZoom200": [
+      {
+        "id": "next-gap-253",
+        "theme": "light",
+        "scale": 2,
+        "nativeSHA256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-light-native-zoom200.png",
+        "captureSHA256": "cebb476d3b9f67d75e2c03bda4e0edd796ffc27ea7f63bb5f8d5d2ef9be79e9b",
+        "width": 1200,
+        "height": 2360
+      },
+      {
+        "id": "next-gap-253",
+        "theme": "dark",
+        "scale": 2,
+        "nativeSHA256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-253-dark-native-zoom200.png",
+        "captureSHA256": "9fdab4b0090e105e8f7a1db6c07743d85b459a82e00c493b59f4a8be718a793c",
+        "width": 1200,
+        "height": 2360
+      }
+    ],
+    "personalPixelInspection": "Both native themes, both 390px article themes with captions and immediate context, both wide article themes, plus 200 percent full native SVG captures personally inspected. Synthetic CSS-zoom stress also inspected and separately qualified.",
+    "fixture": "87 verified exact 5cb06c95f00ceb74ab86b1f46f5face9d49497e0 Git blobs; reviewer copy on :4821; private pinned article and ImageTheater only, not full production application.",
+    "focusQualification": "Enter opens and Escape closes. Escape returns focus to BODY rather than the triggering image; known retained renderer defect, not fixed or certified as conforming.",
+    "zoomQualification": "Full native SVG at 200 percent remains legible and contains all labels. Synthetic root CSS zoom 150 percent on the modal can push lower content outside the viewport; this stress is not actual browser zoom and provides no blanket application zoom certification."
+  },
+  "sourceGuard": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/tcr-t-two-cell-compartments-v1-independent-source-guard.json",
+    "sha256": "6884163aab588d3d824c3a52080bb6d6c556915cc48f6bf32b0d2dbdb41b6464"
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "pending",
+  "publication": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "findings": [],
+  "correctionIds": []
+}

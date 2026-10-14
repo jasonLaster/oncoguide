@@ -1,0 +1,90 @@
+{
+  "kind": "original-authored-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch10_author_group2",
+  "originalRetainedCreators": "Unknown; no retained artwork paths were selected for these owners. Existing source authorship is preserved, not attributed to this agent.",
+  "model": null,
+  "imageModelCalled": false,
+  "method": "Python-authored SVG",
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "currentOwnerPreimageSHA256": "f21d1de9b6ea596fac83a2b26f01e9b964213302000a0a5baf3deced3ef138a7",
+  "frozenPageSHA256": "158278f0d5c3a0737fb7d7b2ee71a49f5e52f2b0afeecb0a8f27cdd846f1e6e7",
+  "frozenRowSHA256": "8dbc126919f4640422175c2c1a8cb7d38dda5339439a252071a29901e5057917",
+  "learnerTask": "See which blood components are collected versus returned and why a leukopak remains a mixed starting material.",
+  "gap": "Text describes a separation circuit without a compartment or flow sketch.",
+  "accuracyGuardrails": "Show collection and return streams as a simplified circuit and the leukopak as mixed material. Do not imply complete recovery of a selected population or a universal collection protocol.",
+  "finalOwnerSHA256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+  "currentBodySHA256": "15ac1f324a1e4b647c9109fe07298854bd9534ec5f0ce7d51c7a41f8abe35cdb",
+  "finalBodySHA256": "89be326efb4b477ab5095f01c1f8395f7d5c1b3e98f96f825ce670607ae737b7",
+  "outputs": [
+    {
+      "key": "next-gap-235",
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/prospective/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+      "sha256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629"
+    },
+    {
+      "key": "next-gap-235",
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/prospective/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+      "sha256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412"
+    }
+  ],
+  "promptSHA256": "10e2e0318fdf4a86e608af4217544db6127ad66ec37c908c86ca73ab89decdf8",
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": false,
+  "published": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "primarySourceChecks": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/leukapheresis",
+      "readLevel": "official definition, parsed HTML lines 9-15",
+      "supports": "collection and return streams"
+    },
+    {
+      "url": "https://www.fda.gov/media/156896/download",
+      "readLevel": "selected parsed full-document sections: IV.B printed pages 7-8; IV.D.2 pages 18-19, including split starting material",
+      "supports": "mixed cellular starting material, variability, paired old/new process comparison and broader characterization",
+      "limit": "No clinical or process validation inferred; other guidance sections not newly audited"
+    }
+  ],
+  "sourceCheckScope": "New illustration claims only; current teaching body retained byte-for-byte after inverse insertion. No full-page recertification.",
+  "focusedCorrection": {
+    "author": "agent:/root/batch10_author_group2",
+    "rejectedAuthorSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "rejectedProvenanceSHA256": "70bdc02051d19d9ca4a642498fdb1fd4d4c602e13fe637ff5a0c114d46f631d8",
+    "requester": "agent:/root/batch10_review_group2",
+    "independentCorrectionReview": "pending",
+    "scope": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+        "operation": "Literal alt/description correction only",
+        "before": "The bag contains differently shaped lymphocyte and monocyte symbols, rather than a pure T-cell population.",
+        "after": "The bag contains circular cell symbols of different colors and sizes representing lymphocytes and monocytes, rather than a pure T-cell population."
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+        "operation": "Literal alt/description correction only",
+        "before": "The bag contains differently shaped lymphocyte and monocyte symbols, rather than a pure T-cell population.",
+        "after": "The bag contains circular cell symbols of different colors and sizes representing lymphocytes and monocytes, rather than a pure T-cell population."
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+        "operation": "Literal alt/description correction only",
+        "before": "The bag contains differently shaped lymphocyte and monocyte symbols, rather than a pure T-cell population.",
+        "after": "The bag contains circular cell symbols of different colors and sizes representing lymphocytes and monocytes, rather than a pure T-cell population."
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/leukapheresis-collection-and-return-streams-b10-v1.txt",
+        "operation": "Literal alt/description correction only",
+        "before": "The bag contains differently shaped lymphocyte and monocyte symbols, rather than a pure T-cell population.",
+        "after": "The bag contains circular cell symbols of different colors and sizes representing lymphocytes and monocytes, rather than a pure T-cell population."
+      }
+    ]
+  }
+}

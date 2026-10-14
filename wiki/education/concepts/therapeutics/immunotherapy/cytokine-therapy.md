@@ -33,6 +33,18 @@ The analogy has limits: cytokines do not carry a literal instruction to “fight
 
 ## How it works
 
+<img src="../../immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg" alt="Two equal-sized compartment pairs show 0 and 20 versus 10 and 10 pg/mL, both averaging 10, beside a compatible receptor and traversable route." data-theme-pair />
+
+*Reference anatomy from the shared concept. The focused comparison below asks a different question.*
+
+<img src="./images/cytokine-receivers-and-beyond-origin-v1-light.svg" alt="Identical cytokine symbols reach two cells with different receptors and internal states; a second scene follows signal symbols from a local origin through circulation toward a distant tissue." data-theme-pair />
+
+*A cytokine name does not specify one cell response, and a local origin does not guarantee local confinement.*
+
+**Read the picture:** Could two receiving cell types respond differently to the same signal? **Answer:** Yes. Receptors, cell state and exposure matter; location alone does not prove confinement.
+
+
+
 Cytokine treatments have different jobs. Interleukin-2 (IL-2) can influence lymphocyte growth and activity. [Interferons](/wiki/education/concepts/immunology/the-immune-system/interferons) engage different receptor systems and can affect immune responses and cancer-cell behavior. Hematopoietic growth factors support blood-cell production; “hematopoietic” means related to making blood cells. Their supportive-care purpose must be distinguished from a cancer-directed intervention. [NCI's immune-system-modulator overview](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/immune-system-modulators) describes these roles.
 
 The receiver matters. IL-2 can support both responding lymphocytes and [regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells), which help restrain immune responses. Cells differ in receptor composition, sensitivity and prior state. In mouse experiments, different IL-2–antibody complexes preferentially expanded different T-cell populations. That is evidence that formulation can change biological activity, not proof that a particular engineered version benefits people with every cancer. [Boyman and colleagues](https://pubmed.ncbi.nlm.nih.gov/16484453/).

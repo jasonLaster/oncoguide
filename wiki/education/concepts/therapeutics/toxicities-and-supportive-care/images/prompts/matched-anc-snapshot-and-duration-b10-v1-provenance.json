@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch10_author_group1",
+  "method": "direct SVG authoring",
+  "imageModel": null,
+  "imageModelInvoked": false,
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md",
+  "currentSourcePreimageSHA256": "c7a51c6a6a0fefe8e843d80f6321fb31f8a44f10eeb4ac0465d2bfd760f3e0d9",
+  "candidateOwnerSHA256": "2e83626b5d45caaa23146a09974c935c5ccc27758ecbb11570e788ef3fd27d95",
+  "frozenPageSHA256": "d07258559085afff0b6b172e4120aa86646bc10bfd85f9e253d48aec039d0217",
+  "frozenRowSHA256": "f73bfc07533205b455bde733d73e941e6c444551aa878d70e320ef9653be09cb",
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-light.svg",
+      "sha256": "5614f4258e3c4ecf78057c0ec510661949840637c6e4784b21a49c4a885960d9",
+      "bytes": 6134
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-dark.svg",
+      "sha256": "8964c09d98a8591a63afea6875fd1580de88b907907fb2b03a978798518a456b",
+      "bytes": 6134
+    }
+  ],
+  "creativeTXT": {
+    "repositoryPath": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/matched-anc-snapshot-and-duration-b10-v1.txt",
+    "sha256": "35043be285fffbb8df34089c293e55e39775348b7fd4b4b03e97bab633faa4f0"
+  },
+  "clinicalAndLearnerReview": "pending",
+  "independentReview": "pending",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

@@ -1,0 +1,152 @@
+{
+  "id": "next-gap-252",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+  "title": "Chimeric antigen receptor natural killer (CAR-NK) cells",
+  "group": 1,
+  "priority": "P2",
+  "recommendedMedium": "cartoon",
+  "targetSection": "## How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+  "learnerTask": "Distinguish an added CAR from retained native NK activating/inhibitory inputs",
+  "gap": "Converging arrows teach integration but not cell-surface contacts",
+  "accuracyGuardrails": "HLA loss not guaranteed killing; no NK/T safety ranking; exact construct matters",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+    "pageSHA256": "d210bbab3631e5224c17bac8a72b9d1c4bdf8ecdd1307d2f815d6c0d151415db",
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish an added CAR from retained native NK activating/inhibitory inputs",
+    "gap": "Converging arrows teach integration but not cell-surface contacts",
+    "accuracyGuardrails": "HLA loss not guaranteed killing; no NK/T safety ranking; exact construct matters",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/334",
+    "oneBasedRow": 335,
+    "originalTaskRowSHA256": "f2f390c8285b11fb628c95a400ca7ed4c13603d737ca3bcf1360348c392436cd",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/334",
+  "currentOwnerActual": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+    "sha256": "d210bbab3631e5224c17bac8a72b9d1c4bdf8ecdd1307d2f815d6c0d151415db",
+    "bytes": 7863,
+    "observedAtUTC": "2026-10-14T19:39:58.539557+00:00",
+    "immutableCommittedObservation": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "committedAndCurrentWorkingPreimagesEqual": true,
+    "metadataGate": "sensitive: false; no sensitive tag or redacted metadata; public concept only",
+    "bodyReadScope": "public authored mechanism and worked-example sections plus sources; no linked restricted case body",
+    "privatePreimage": "/tmp/education-next-visual-batch-11/selection/owner-preimages/wiki/education/concepts/therapeutics/cell-therapies/car-nk.md"
+  },
+  "actualTargetHeading": "## How it works",
+  "reuseRequirement": {
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+    "policy": "Preserve frozen shared owner exactly. Reuse existing diagram before creating any addition; justify only the page-specific view missing here. Do not claim a new canonical source-fit owner or credit from an added embed.",
+    "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "ownerSHA256": "d84212dd81f1a9af7e36cbe9d974db38efb002e39aaf04baf992ed6154352f1a",
+    "privatePublicReference": "/tmp/education-next-visual-batch-11/selection/shared-owner-references/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+    "existingCanonicalAssignmentId": "next-gap-191",
+    "existingEmbeds": [
+      "<img src=\"./images/nk-target-contacts-and-remaining-inputs-v1-light.svg\" alt=\"Two illustrative NK–target contact scenes differ by one inhibitory HLA contact; another inhibitory contact and an activating input remain.\" data-theme-pair />"
+    ]
+  },
+  "suggestedVisual": "NK-cell membrane with added generic CAR contact and retained native activating/inhibitory contacts, with separate test/effect question. No receptor engineering recipe.",
+  "existingPrimaryReference": {
+    "pmid": "32023374",
+    "title": "Use of CAR-Transduced Natural Killer Cells in CD19-Positive Lymphoid Tumors.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32023374/",
+    "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+    "retrievedAbstract": true,
+    "localEvidence": "primary-reference-abstracts.xml"
+  },
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": null,
+  "creativeAuthor": "agent:/root/batch11_immune_address_author",
+  "originalCreator": "agent:/root/batch11_immune_address_author",
+  "originalCreatorStatus": "new source-code SVG only; reused artwork creators retained in untouched receipts",
+  "integrationAuthor": "root",
+  "stage": "private selection proposal",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "delivery": "pending",
+  "publication": "pending",
+  "creditNow": 0,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "assessorOfReusedArt": "agent:/root/batch11_immune_address_author",
+  "createdAtUTC": "2026-10-14T19:51:18.977178+00:00",
+  "method": "original source-code SVG; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+      "sha256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+      "bytes": 13725,
+      "theme": "light"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+      "sha256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+      "bytes": 13725,
+      "theme": "dark"
+    }
+  ],
+  "briefPath": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-nk-added-and-retained-inputs-v1.txt",
+  "briefSHA256": "1ffce936c231779235e3c020f95e33a5ef17e5953ec38e4a84a6c1eccf55e839",
+  "reusedArtAndSupport": [
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+      "bytes": 9201,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+      "bytes": 9201,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-independent-owner-review.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-independent-owner-review.json",
+      "sha256": "6cf5c73eaa8f182efdff41c388707672df35d80769dc25f1baa149feecfa4055",
+      "bytes": 8701,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-provenance.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1-provenance.json",
+      "sha256": "d0d74132cc289855e761f2edfb5afbfc365fd7c78a905d5861bf6980ee52b605",
+      "bytes": 2644,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/nk-target-contacts-and-remaining-inputs-v1.txt",
+      "sha256": "999c9788473565ab3d2730da96699d8413c4b8dfd25304d8e66c7279dce6e10f",
+      "bytes": 2423,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    }
+  ],
+  "reuseExtensionRationale": "The shared NK figure supplies the native input comparison. This extension adds only a generic CAR contact while retaining both native input types.",
+  "sourceReadDepth": "gated public owner/shared mechanism sections and sources; selected complete PubMed primary abstracts, no full methods",
+  "independentReview": "pending"
+}

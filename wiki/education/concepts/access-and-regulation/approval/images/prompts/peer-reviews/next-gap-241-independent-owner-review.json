@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-241",
+  "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+  "author": "agent:/root/batch10_author_group2",
+  "authorRole": "Actual seven-new-illustration private packet author",
+  "creativeAuthor": "agent:/root/batch10_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author; retained source text and Mermaid creators unknown",
+  "reviewer": "agent:/root/batch10_review_group2",
+  "independentReviewer": "agent:/root/batch10_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:09:17.553273+00:00",
+  "reviewedAtUTC": "2026-10-14T00:09:17.553273+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/10",
+  "frozenRowSHA256": "6be78dde84364762377ea355d8338fe965eef60494a785632ff4defc8f5d82f2",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Focused correction PASS: only the lab-quality badge width changed from295 to323px. Both fresh native themes show19.59375px right padding beyond the complete unchanged28px text. Native/mobile/inline/theater inspection confirms badge containment, while purpose/laboratory/product-use distinctions and no-badge-to-benefit caveats remain unchanged.",
+    "frozenPageSHA256": "f71d5e4a8af1631a1d4de328c2b3fb13435470192b7fa7cdcbf4c0fd166efcce",
+    "baselinePageSHA256": "f71d5e4a8af1631a1d4de328c2b3fb13435470192b7fa7cdcbf4c0fd166efcce",
+    "actualTeachingPreimageSHA256": "f71d5e4a8af1631a1d4de328c2b3fb13435470192b7fa7cdcbf4c0fd166efcce",
+    "learnerTask": "Attach RUO to intended purpose, CLIA to a laboratory and authorization to a product/use.",
+    "gap": "Four sequential question boxes may be mistaken for tiers despite the accurate caption; the distinct objects are not visually represented.",
+    "accuracyGuardrails": "Attach RUO, laboratory certification and product/use authorization to their different objects. Do not arrange them as a permission ladder or infer clinical validity, utility or payer coverage from a badge.",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 remains the immutable original audit page anchor; current b370 teaching preimage is separately verified. Frozen task/row unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+      "sha256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f",
+      "nativeSHA256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f",
+      "bytes": 4977,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+      "sha256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e",
+      "nativeSHA256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e",
+      "bytes": 4977,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+        "sha256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+        "bytes": 9914
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+        "sha256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f",
+        "bytes": 4977
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+        "sha256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e",
+        "bytes": 4977
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/purpose-laboratory-and-product-use-objects-b10-v1.txt",
+        "sha256": "60a7391081117c24b9c6e0db104d280b5333ac186ec121390a04904fd658e9d9",
+        "bytes": 1387
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/purpose-laboratory-and-product-use-objects-b10-v1-provenance.json",
+        "sha256": "0208b399a8682a2de2aaef42e988039c4f1b9a1d33f957c2d8865f90e785bdfd",
+        "bytes": 5397
+      }
+    ],
+    "currentCandidateOwnerSHA256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "193d1ef2ba2eb15ae6a0fbb4eee0c1801d95c286e8608202710dcad88f878b73",
+    "authorInventorySHA256": "fb5b489a3b0343e53ef9eb62a29e6f03fb0a85b95bd27ed7cf0c449c92eb7bc3",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "sourcePreimageSHA256": "f71d5e4a8af1631a1d4de328c2b3fb13435470192b7fa7cdcbf4c0fd166efcce",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Original inverse-preservation proof remains in predecessor; semantic diff verifies correction235 changes only inserted alt, while239/241 owner MD unchanged. No full original-body re-review.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "predecessorAuthorSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "focused11FileDeltaBound": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+      "readDepth": "Parsed About CLIA lines710-722 personally read.",
+      "supports": "Laboratory quality framework and separate payment responsibilities.",
+      "accessStatus": "Accessible",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    },
+    {
+      "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf",
+      "readDepth": "2013 FAQ parsed first two pages selected analytical/clinical distinction and laboratory-developed definition lines0-68 personally read.",
+      "supports": "CLIA analytical requirements do not supply all clinical claims.",
+      "accessStatus": "Accessible",
+      "limit": "Historical FDA authority/enforcement language not used as current law",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    },
+    {
+      "url": "https://www.fda.gov/media/87374/download",
+      "readDepth": "November2013 guidance selected parsed intended-use statements164-203 and RUO labeling218-236 personally read.",
+      "supports": "RUO attaches to research product purpose and is not clinical utility.",
+      "accessStatus": "Accessible",
+      "limit": "No individual test legal determination",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests",
+      "readDepth": "Current official notice line65 personally read.",
+      "supports": "Retained dated vacatur/restoration note verified.",
+      "accessStatus": "Accessible",
+      "limit": "No individual laboratory test authorization reviewed",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Focused correction-only independent semantic/dependent-custody and fresh corrected native/inline/theater/mobile390/desktop pixel assessment. Four unaffected PASS decisions and full predecessor science remain unchanged.",
+    "sourceReadDepth": "No new sources accessed. Original selected primary parsed sections and one abstract are preserved with their original read bounds; no new full-source/full-paper/history re-review.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 0,
+    "carrierLimits": "Own fresh screenshots via read-only copied successor server at4643, initially unavailable. Successor CSS/main identical; compiled JS/app differ only source-directory comments after normalization. Original pin verification inherited, not rerun. No production navigation/header/backend, physical mobile, touch, cross-browser, numerical contrast or whole-page accessibility certification. Native/mobile boards fully viewed; desktop image-region boards tool-resized to2048px remain readable. Full captures preserved."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 16.1459375,
+    "minMobileDefaultPreviewLabelPx": 15.96,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but returns focus to BODY rather than image trigger; unchanged pinned runtime defect. No runtime repair or complete keyboard accessibility approval.",
+    "contrastScope": "Both themes visually inspected for legibility; no numerical whole-page/nontext contrast certification claimed.",
+    "observedLayoutIssues": []
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-light-reading.png",
+      "sha256": "b837a4e33b14684d73a129fb60f1615c7c5ff13e8d14cb71f7547aa8d9cf7ac1"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-dark-reading.png",
+      "sha256": "caf258123515bb0f9bdd89a86577ef66777da5dcf3c63e04a9742870a418079b"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-light-mobile-inline.png",
+      "sha256": "67b8b1afc2272d56c6910dac12a0df66aaba7c6f35a51329690daede6052d478"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-light-mobile-theater.png",
+      "sha256": "b31cd7d29a8a79e87573d0b49632fab1dc40aa9da1b2a2d38ed3d2e878e8a293"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-light-desktop-inline.png",
+      "sha256": "53a63a1a77f5c05049c06f9ab2ce749a598fba4c9095cc1974bcfb210e9e6635"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-light-desktop-theater.png",
+      "sha256": "4b41b81990b9ba43f5a15ab9cbbc8f28ed46b68c462e9928a5c03f92ceb7658c"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-dark-mobile-inline.png",
+      "sha256": "ef844a1623c75e9b8e146820c650f9ee365d9cc3143be288bdd49c08f82de750"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-dark-mobile-theater.png",
+      "sha256": "85918f9f110e56e5fec5a23574b46a003077606abe35561a13a01b33ff0aa8ba"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-dark-desktop-inline.png",
+      "sha256": "ecdf9bfd0ef9c91fcbd4a7b795f03d36dbd55e3babd8fb5b05bf20c16e289463"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-241-dark-desktop-theater.png",
+      "sha256": "81cf2422094fc95756c246d80984c00f2184c7b8f162371bc72d95ded1f23122"
+    }
+  ],
+  "inspectionBoards": [
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/241-native.png",
+      "sha256": "845ea51298454864384b713a98a57530fe5f8b304fc313990a46e499cc54bf98",
+      "mode": "native",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/241-mobile.png",
+      "sha256": "7bfd2421c73c2d03f59b22ea089ba102c198b9e0cb10bdca4052d625c838833f",
+      "mode": "mobile",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/241-desktop.png",
+      "sha256": "2e411e9215411a975696d32bb75ac6496aaea358c23e898d2c92c7c1900f787d",
+      "mode": "desktop",
+      "personallyInspected": true
+    }
+  ],
+  "method": "Original Python-authored editable SVG; independent review used fresh Playwright captures",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "focusedCorrectionReview": {
+    "kind": "same-independent-reviewer-focused-successor-assessment",
+    "onlyAffectedCorrectionSpansReviewed": true,
+    "predecessorReceiptPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/task-bindings/next-gap-241-independent-owner-review.json",
+    "predecessorReceiptSHA256": "003ab773857ddd6701f43757e2fb3721cfe5e20616fb492dac67a85e2573909d",
+    "predecessorVerdict": "REVISE",
+    "wholeREVISESummaryPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/review-summary.json",
+    "wholeREVISESummarySHA256": "21fc453df092bf17637afcfbd034c37c7aceb96df3136562f59521d62ccdf12e",
+    "wholeREVISESealPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/seal.json",
+    "wholeREVISESealSHA256": "cdf28278ba45e092aecfe0254028263e09eb0b5cfeda29250675fed2496c7326",
+    "rejectedFindingsPreserved": [
+      {
+        "kind": "badge-overflow",
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-{light,dark}.svg",
+        "node": "Lab quality standards text and green badge",
+        "evidence": "Text bbox x262,y457,width289.40625,height31 ends551.40625; badge x248,width295 ends543; overrun8.40625px in both themes.",
+        "requested": "Fit complete label inside badge with padding by widening/repositioning badge or shortening label; keep at least28px labels and laboratory-quality meaning."
+      }
+    ],
+    "correctionDisposition": "resolved",
+    "actualPixelChange": true,
+    "descriptionOnlyNativeChange": false,
+    "sourceScienceReviewRerun": false,
+    "noNewMedicalClaims": true,
+    "predecessorScienceVerdict": "PASS",
+    "scienceQualification": "Original bounded science/source reading remains the basis; focused review verifies no new claims. No new full-source, full-paper, whole-owner, or unaffected-task review.",
+    "authorSuccessorSealPath": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/seal.json",
+    "authorSuccessorSealSHA256": "193d1ef2ba2eb15ae6a0fbb4eee0c1801d95c286e8608202710dcad88f878b73",
+    "correctedCompositeInventorySHA256": "fb5b489a3b0343e53ef9eb62a29e6f03fb0a85b95bd27ed7cf0c449c92eb7bc3",
+    "exactChangedPublicFileCount": 11,
+    "changedFilesForTask": [
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/purpose-laboratory-and-product-use-objects-b10-v1-provenance.json",
+        "rejectedPreimageSHA256": "335879f53043b4c35574bf8c8d45898ccf7a053b23f4fdb6692d9930cf3dbd7d",
+        "successorSHA256": "0208b399a8682a2de2aaef42e988039c4f1b9a1d33f957c2d8865f90e785bdfd",
+        "bytes": 5397
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+        "rejectedPreimageSHA256": "305a21d96d870832b5377b3775b2e4ff87d12e75f2b076ac9ea6748989ec94af",
+        "successorSHA256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e",
+        "bytes": 4977
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+        "rejectedPreimageSHA256": "ce83db91966f2bee7b5e632f27e6962d915ab2488e3ba35339ec5093a862dd39",
+        "successorSHA256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f",
+        "bytes": 4977
+      }
+    ],
+    "targetedActualMeasurements": [
+      {
+        "id": "next-gap-241",
+        "theme": "light",
+        "actualBadgeTextRightPaddingNativePx": 19.59375
+      },
+      {
+        "id": "next-gap-241",
+        "theme": "dark",
+        "actualBadgeTextRightPaddingNativePx": 19.59375
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-238",
+  "owner": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+  "author": "agent:/root/batch10_author_group2",
+  "authorRole": "Actual seven-new-illustration private packet author",
+  "creativeAuthor": "agent:/root/batch10_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author; retained source text and Mermaid creators unknown",
+  "reviewer": "agent:/root/batch10_review_group2",
+  "independentReviewer": "agent:/root/batch10_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:03:41.450993+00:00",
+  "reviewedAtUTC": "2026-10-14T00:03:41.450993+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/315",
+  "frozenRowSHA256": "f648c0d3d08cabced8218ad078a5a36292a8644df44191fffa003a97fa0ad252",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Fictional superior/lateral keyed outer surfaces and two selected regions retain distinct A/B connectors to distinct blocks. The report is assigned only to regionA, with B/unselected tissue excluded and no clearance claim. This supplies the region-to-result map missing from the baseline reading flow.",
+    "frozenPageSHA256": "9e05837c23be6b6ed3b9ebe1af789b5e77fb276cd9fa8963c3a813c68e6e1cf3",
+    "baselinePageSHA256": "9e05837c23be6b6ed3b9ebe1af789b5e77fb276cd9fa8963c3a813c68e6e1cf3",
+    "actualTeachingPreimageSHA256": "9e05837c23be6b6ed3b9ebe1af789b5e77fb276cd9fa8963c3a813c68e6e1cf3",
+    "learnerTask": "Connect oriented outer surfaces and selected blocks to a result",
+    "gap": "Current flow does not show a specimen-to-block map",
+    "accuracyGuardrails": "Preserve specimen orientation, outer surfaces and selected block identity. A central block result cannot be assigned to an unsampled margin or every region; maps are fictional and not clearance claims.",
+    "targetSection": "How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 remains the immutable original audit page anchor; current b370 teaching preimage is separately verified. Frozen task/row unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+      "sha256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4",
+      "nativeSHA256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4",
+      "bytes": 4698,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+      "sha256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e",
+      "nativeSHA256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e",
+      "bytes": 4698,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+        "sha256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+        "bytes": 7607
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+        "sha256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4",
+        "bytes": 4698
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+        "sha256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e",
+        "bytes": 4698
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/oriented-specimen-to-selected-blocks-b10-v1.txt",
+        "sha256": "194795c93defaa7f0e1ef4b438a0513baab94803cd8410508343867c19bcdc7e",
+        "bytes": 1310
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/oriented-specimen-to-selected-blocks-b10-v1-provenance.json",
+        "sha256": "54034dd61a0c06f2186d4f6e57b93327b370fef29e1e1c22d36ab2564e9a572b",
+        "bytes": 3162
+      }
+    ],
+    "currentCandidateOwnerSHA256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "authorInventorySHA256": "fef032f31ae192fe67da7fc9c84a379a76a3b41963f2cc8a19989297d6811624",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "sourcePreimageSHA256": "9e05837c23be6b6ed3b9ebe1af789b5e77fb276cd9fa8963c3a813c68e6e1cf3",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Exact recovery after removing only inserted img and caption; metadata, prose, references, exercises and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf",
+      "readDepth": "Parsed selected breast grossing excerpt orientation/ink lines50-90; sampling109-115; documented code164-198, plus returned surrounding text. Not full textbook or every page.",
+      "supports": "Local keys, sampled region/block mapping and finite selected tissue.",
+      "accessStatus": "Accessible",
+      "limit": "Fictional geometry; no clinical margin cutoff or clearance claim",
+      "primary": true
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, source-depth, custody and fresh native/inline/theater pixel review of this owner and exact new pair.",
+    "sourceReadDepth": "Actual independent selected primary parsed sections and one PubMed abstract. No full-paper or every preserved ancillary citation recertification. No access errors/403 encountered.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own fresh screenshots via read-only server copy of author sealed fixture at4623; server was initially unavailable. Article fixture uses pinned compiler/frame/ImageTheater/SmartTableEnhancer/shared and app CSS. No production navigation/header/backend, physical mobile, touch, cross-browser or whole-page accessibility certification. Native pairs and mobile full screenshots viewed; desktop image-region contact sheets resized by tool to2048px but labels/relations remained readable. Original full captures retained."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 16.1459375,
+    "minMobileDefaultPreviewLabelPx": 15.96,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but returns focus to BODY rather than image trigger; unchanged pinned runtime defect. No runtime repair or complete keyboard accessibility approval.",
+    "contrastScope": "Both themes visually inspected for legibility; no numerical whole-page/nontext contrast certification claimed.",
+    "observedLayoutIssues": []
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-light-reading.png",
+      "sha256": "8731a6d0f0072b4b9e586f1a0918af947dd9e13d5711608f7bc58223922f1289"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-dark-reading.png",
+      "sha256": "839f28a3a5e1dc9567df8742261fe6736a78751af7fab87310aeb36328091357"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-light-mobile-inline.png",
+      "sha256": "1dbbf94c441d84900f7c7f60419cf4f0dac04b4f0c476f9d7d16d3f822301684"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-light-mobile-theater.png",
+      "sha256": "f9294c4d6af2a79c75f4c93e9dbc461bcda352cd04485055e63912170aa1daeb"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-light-desktop-inline.png",
+      "sha256": "4fcad3c4bd7d24532c22a8ec53bd328d52526c25b431300af2a43e6fc037aaf1"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-light-desktop-theater.png",
+      "sha256": "ff919a47046d065a8880ff430555e6623a28ad55d331d5265f606e5cfb96eb7d"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-dark-mobile-inline.png",
+      "sha256": "4512848b6862b9ae394f96404519fc1962bb2849138a33e99715cce305a5549c"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-dark-mobile-theater.png",
+      "sha256": "b670354d1f42f0e3b01520617db2e949fd51255591816aa0a8c99bb5b8c7984a"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-dark-desktop-inline.png",
+      "sha256": "c4f65c90739f7164fa54e931ebf2a0c7cc59e59fcbcbaed2e82478940cb1dcfe"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-238-dark-desktop-theater.png",
+      "sha256": "47ba2d98f3943e4e1d29a9f1aa60651ae4097bd0decb0d1b5105dccb125d53d4"
+    }
+  ],
+  "inspectionBoards": [
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/238-native.png",
+      "sha256": "0158b255e7d3d0e5d577692fa7de277f41db41fe4fb6a090d9587b84f4162e63",
+      "mode": "native",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/238-mobile.png",
+      "sha256": "6ebf24220e238c341671c3b0b2e58ac1a66cdb812a93c2fa81b4b8727193f6e1",
+      "mode": "mobile",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/238-desktop.png",
+      "sha256": "901c20052e8102b2def0c28cc7c593e5c0ac3645f00bf1c4562a286b31232d48",
+      "mode": "desktop",
+      "personallyInspected": true
+    }
+  ],
+  "method": "Original Python-authored editable SVG; independent review used fresh Playwright captures",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": []
+}

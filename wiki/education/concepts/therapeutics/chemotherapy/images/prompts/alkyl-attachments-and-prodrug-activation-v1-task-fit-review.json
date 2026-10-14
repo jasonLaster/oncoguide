@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-264",
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+  "author": "agent:/root/batch11_pathology_symptoms_author",
+  "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+  "reviewedAtUTC": "2026-10-14T20:04:57.252Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "fdfefe875c39a57a2f656e162a52b2c357ccaffdf0ca974f767ca1cb9aa8bbf8",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "preimageOwnerSHA256": "1b406eb0dd3374dfca7d90ce8df382428fac2768c6ee1c2d0ea08de58f0be0c6",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "pageSHA256": "1b406eb0dd3374dfca7d90ce8df382428fac2768c6ee1c2d0ea08de58f0be0c6",
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish alkyl attachment, intra/interstrand links and prodrug activation",
+    "gap": "No picture shows lesion geometry or parent/active metabolite distinction",
+    "accuracyGuardrails": "Not every alkylator crosslinks; platinum is different chemistry; damage not inevitable death",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/340",
+    "oneBasedRow": 341,
+    "originalTaskRowSHA256": "4d152d23eb96392dc28568a3bbcd8b68b947dac66b82f3da550d73be0614f4a3",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-light.svg",
+      "theme": "light",
+      "sha256": "90160f48d42f89f0746e335fbdee3e0cc973d2a9b4d83bf40f134f068177eb64"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "0c499e21404a496f0c1a0e7d04bed9f344ddc4c2e635c566f3a912931072d58f"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The retained platinum pair is explicitly labeled as a connectivity comparator using different chemistry. The new attachment and intra/interstrand connections keep continuous backbones distinct from a break, then separate parent cyclophosphamide from an active species through metabolism. This supplies the parent/active-metabolite distinction not present in the shared illustration. The figure, caption and practice retain not-every-alkylator-crosslinks and damage-does-not-ensure-death limits. No chemical recipe, exposure or activation procedure is provided.",
+    "baselinePageSHA256": "1b406eb0dd3374dfca7d90ce8df382428fac2768c6ee1c2d0ea08de58f0be0c6",
+    "learnerTask": "Distinguish alkyl attachment, intra/interstrand links and prodrug activation",
+    "gap": "No picture shows lesion geometry or parent/active metabolite distinction",
+    "accuracyGuardrails": "Not every alkylator crosslinks; platinum is different chemistry; damage not inevitable death",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md"
+  },
+  "reviewScope": "Independent scientific, native, selected learner-task, attribution and bounded custody assessment of exact private candidate. Not final package, release or human approval.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "guards/preimage/wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+        "sha256": "1b406eb0dd3374dfca7d90ce8df382428fac2768c6ee1c2d0ea08de58f0be0c6",
+        "bytes": 6580,
+        "reviewCopy": "input/preimages/wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+        "sha256": "fdfefe875c39a57a2f656e162a52b2c357ccaffdf0ca974f767ca1cb9aa8bbf8",
+        "bytes": 7784,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+        "sha256": "0c499e21404a496f0c1a0e7d04bed9f344ddc4c2e635c566f3a912931072d58f",
+        "bytes": 7843,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-light.svg",
+        "sha256": "90160f48d42f89f0746e335fbdee3e0cc973d2a9b4d83bf40f134f068177eb64",
+        "bytes": 7843,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-light.svg",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/alkyl-attachments-and-prodrug-activation-v1-provenance.json",
+        "sha256": "b79f0a3ec2723e2b9433142a49c5cf50d1fe2f70768f969bf124d03605c33ccf",
+        "bytes": 3597,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/chemotherapy/images/prompts/alkyl-attachments-and-prodrug-activation-v1-provenance.json",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/alkyl-attachments-and-prodrug-activation-v1.txt",
+        "sha256": "69ac8ee6cb3e767a6192c8946878d25a9829b33730c072fea883f52ebe28a51c",
+        "bytes": 895,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/chemotherapy/images/prompts/alkyl-attachments-and-prodrug-activation-v1.txt",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+        "sha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33",
+        "bytes": 18222,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+        "sha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa",
+        "bytes": 18222,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1-next-gap-116-independent-task-fit.json",
+        "sha256": "4900dbaefcd6a9b1451377cf45e60db9b11c5ceb4ff102215d0266accde0b4c7",
+        "bytes": 9003,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1-next-gap-116-independent-task-fit.json",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1-provenance.json",
+        "sha256": "f1c110dfd14465ed16a0843362a8c99c4c8b9beb355056f20aa4e3fbefe1e655",
+        "bytes": 2779,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1-provenance.json",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+        "sha256": "97d5e9ae2952f4260029c079a9c5935e60f9c21cfd3a534e7ba2f5d1be1c5d7c",
+        "bytes": 835,
+        "reviewCopy": "input/reused/wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "guards/frozen-audit.json",
+        "sha256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+        "bytes": 924329,
+        "reviewCopy": "input/guards/frozen-audit.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/exact-selection.json",
+        "sha256": "f4b5143cd83f929351ac16254285e27b41584766f53c00698e29b16078b3bf83",
+        "bytes": 45755,
+        "reviewCopy": "input/guards/exact-selection.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/shared-owner/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+        "sha256": "dd441605695e868370c473f0a038822aebafe1443fee1e18b414b0593697d0ab",
+        "bytes": 7700,
+        "reviewCopy": "input/shared-owners/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+        "role": "retained shared-owner guard"
+      }
+    ],
+    "frozenAndCurrentProof": "frozen-and-current-proof.json",
+    "insertOnlyProof": "custody-checks.json"
+  },
+  "nativeAndReaderReview": {
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinFilesIndependentlyVerified": 87,
+    "fixtureHTMLFreshCompilationMatchesOwnCandidate": true,
+    "nativeThemeCount": 4,
+    "completeArticleThemeViewportCount": 4,
+    "inlineCount": 8,
+    "theaterCount": 8,
+    "freshCaptures": [
+      {
+        "path": "captures/next-gap-264-alkyl-attachments-and-prodrug-activation-v1-light.svg.png",
+        "sha256": "f02c12418012cb6878e780163f5bfdddbda6dcd9d688a037e77d1ffbe5b7737e",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-264-alkyl-attachments-and-prodrug-activation-v1-dark.svg.png",
+        "sha256": "1512f436fe7e217ab3356865f58bb72a6454dccdafe3711a8acde9cc2cb8a990",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-264-base-links-versus-backbone-break-v1-light.svg.png",
+        "sha256": "e3456cdbe8c3ae7fd62b01462416e086513643c6f18a96f478794a1410ea72c0",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-264-base-links-versus-backbone-break-v1-dark.svg.png",
+        "sha256": "d9798b477ed8db89f4ee28d3be9af444a43859c34b74e42f49f59a59c9ae502b",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-264-light-mobile-page.png",
+        "sha256": "d50d00c7c8ba7fa8555a49fa23d88b4c455689a91fc89d1e070d5f2d387a8c0e",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 5361
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-mobile-image0.png",
+        "sha256": "07f8da0799251f559fe0fcc794170965fca78fd0243eb586ee31a82e5b77c5bc",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-mobile-theater0.png",
+        "sha256": "2208f1a39a1d44f1d5f64ea054482369520cb4a66a58780e5957e2d4ebaaeecb",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-mobile-image1.png",
+        "sha256": "2eb303cccd1123e19c90481cff36e273602f10afc5336c8623586d50b77e4985",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-mobile-theater1.png",
+        "sha256": "76c195bd97d7d2249329ec73ae6902dc5abb6aba9e8b32d00cb8b5d7032ce63d",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-desktop-page.png",
+        "sha256": "5e4936889c6d98ac0f9384730cfc4279cdd9e207687ed29c5316eac22e0bb285",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 4974
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-desktop-image0.png",
+        "sha256": "e2063c5d034241ac1d44ae6196c18f1e4d8a4cc6aa61a60e73ebc399335bbfd3",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-desktop-theater0.png",
+        "sha256": "62b66304be80205cab2fb65c6974f76b7fd6c174771df066c23af25d83f0678b",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-desktop-image1.png",
+        "sha256": "efa4cf80d5fd26b770141ef027d745d7e77190a9e22e716893ef168e38208a62",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-264-light-desktop-theater1.png",
+        "sha256": "b9afadb635219ed7f94df4ebeb820c30cba3ec2c33fe635ade83d1ef1baa65e9",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-mobile-page.png",
+        "sha256": "241467241c85ac3ac3dda5622f790731f96973fda05718e9851664c11167dcf1",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 5361
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-mobile-image0.png",
+        "sha256": "41f5a334703fb8c1edbe38b60233bfdf83b92ce0e43fdd9117f0d1705c16b869",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-mobile-theater0.png",
+        "sha256": "7c81e0c5d21e2f376ffab8455b6a21204e75d99373d41ca7e74568bf5509919e",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-mobile-image1.png",
+        "sha256": "3bcef11cfa6a9ee9ba2bed5f644e0fa14bd1a6a5bbb23431fc12c3b058aef2ac",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-mobile-theater1.png",
+        "sha256": "cb31ed746053c40c13e3ebfb51979a9747bfbc94a1f68f517489cbe3ea156a88",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-desktop-page.png",
+        "sha256": "cffc35f5fdfeb524d192b418908cc8ad35553050c7f265d8d07b9e77a5e6b18a",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 4974
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-desktop-image0.png",
+        "sha256": "931b3c46c535ac647fedb2c9795e3cf102071b96e697472cea94a2f2320319c2",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-desktop-theater0.png",
+        "sha256": "fc06ef65e3cdfdbfc829fd003e71e721a689015b183da19289d76cc748075e33",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-desktop-image1.png",
+        "sha256": "eee58e49b01f79b285e4c6eacaa8efaa4f579a6444385085eebf7f22263a565b",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-264-dark-desktop-theater1.png",
+        "sha256": "6464969307ca33c41d70b737cad3e0d069a819b563c9f61338224255af892967",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      }
+    ],
+    "actualPixelInspection": "All owner native themes, complete-page layout boards, inline/theater views, and mobile/wide section-context crops personally inspected; boards are derived convenience views, actual captures retained.",
+    "limits": [
+      "Schematics encode connectivity and intervention stages, not molecular structures, lesion frequencies, activation instructions or a reaction protocol.",
+      "Known pinned renderer defect independently reproduced: Enter opens and Escape closes; focus returns to BODY instead of invoking image in every inspected view. No overall accessibility approval.",
+      "Private article/theater fixture only; no production navigation/authentication or live delivery verification."
+    ]
+  },
+  "sourceReview": {
+    "id": "next-gap-264",
+    "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+    "reviewedAtUTC": "2026-10-14T20:04:57.220Z",
+    "readScope": "NCI cyclophosphamide definition and the dated FDA label sections 12.1 and selected 12.3 support active alkylating metabolites and prodrug metabolism. FDA text was available through web extraction while direct download returned 404. Kohn NCI chapter 3 selected attachment/cross-link comparison passages, including text lines 178\u2013245, support the conceptual chemistry contrast; this is an author history of cited experiments, not a newly read primary trial or full-book review.",
+    "evidence": [
+      {
+        "file": "sources/cyclophosphamide-fda-web-selected-notes.md",
+        "sha256": "b10c8a6cb32d73a08651ab1ef55c127898b4875b7196d5aa189075b7d75865f2",
+        "bytes": 451
+      },
+      {
+        "file": "sources/nci-cyclophosphamide.html",
+        "sha256": "bddff2727f935b7b97006888ce668d37b84de9c50b25463321b0a8d7921197f7",
+        "bytes": 28599
+      },
+      {
+        "file": "sources/nci-alkyl-chemistry.pdf",
+        "sha256": "cac82dd1b5908595e4cd8e8b97ab235349bedf019e2079f5e658a5acd04177d6",
+        "bytes": 3233975
+      }
+    ],
+    "humanExpertReview": "pending",
+    "fullPrimaryPaperReadingClaim": false
+  },
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "newIllustrationCreated": true,
+  "reuseOnly": false,
+  "originalCreatorStatus": "Exact original support preserved. Historical attribution is not promoted; UNKNOWN where unestablished, including task 265 timing pair.",
+  "rootSoleIntegratorPublisher": true,
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "publication": "not started",
+  "delivery": "not started",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0
+}

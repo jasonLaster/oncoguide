@@ -1,0 +1,10 @@
+Actual authored SVG brief
+Creator: agent:/root/batch10_author_group1
+Method: hand-authored SVG via private author.py; no image-model invocation.
+Source revision: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: Compare brief and prolonged ANC dips with the same one-time value
+Scene: Two fictional ANC-versus-day charts use the same axes, from day zero to six and zero to two times ten to the ninth neutrophils per liter. Both mark day three at 0.5 times ten to the ninth per liter. Curve A has a brief dip; curve B remains at that illustrative value from days two through four. No infection probability, intervention threshold or tumor-response claim is shown.
+Theme: warm pale ground/dark ink and quiet deep ground/pale ink; identical objects, positions, quantities, labels and arrows.
+Output: 780 x 1400 SVG.
+Accuracy guardrails (frozen): "Illustrative not infection prediction or G-CSF threshold; fever assessment; supportive care not tumor response"
+Clinician/domain-expert and learner review pending.

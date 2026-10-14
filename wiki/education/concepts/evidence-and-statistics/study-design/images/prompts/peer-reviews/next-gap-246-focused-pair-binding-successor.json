@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-246",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+  "author": "agent:/root/batch10_author_group3",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "authorRole": "Actual new-pair vector author; retained task243 original creator remains unknown",
+  "reviewer": "agent:/root/batch10_review_group3",
+  "independentReviewer": "agent:/root/batch10_review_group3",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:23:33.055612+00:00",
+  "reviewedAtUTC": "2026-10-14T00:23:33.055612+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/186",
+  "frozenRowSHA256": "9e50a8ed8f911cc0cdd3000feb3e5cc585af93576be950b8aa609327256eaa46",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The phase-purpose panel is physically separated from the eligible/consenting participant pathway. Chance assignment hides the next allocation before groups form; optional blinding is labeled after assignment. This closes the separate-purpose-versus-assignment gap. The diagram and caption deny a phase benefit ladder, fixed sample-size guarantee or proof of efficacy; the equal symbolic people icons do not claim guaranteed balance.",
+    "frozenPageSHA256": "a24bc3df545fac1cdfd5040017f8a733fe80c290571cc708b65a4ed22fce2543",
+    "baselinePageSHA256": "a24bc3df545fac1cdfd5040017f8a733fe80c290571cc708b65a4ed22fce2543",
+    "actualTeachingPreimageSHA256": "eb01650547c20b2eed87604141a3622c0112ec2b9f36af6709ad02cbe6189287",
+    "learnerTask": "Separate development purpose from assignment, concealment and blinding.",
+    "gap": "No visual shows eligible participants assigned by chance while phase remains a separate study property.",
+    "accuracyGuardrails": "Separate phase purpose from randomized assignment, allocation concealment and blinding. Phase numbers are not a benefit ladder, fixed sample sizes or proof of effectiveness.",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Immutable original audit page hash is baselinePageSHA256; current committed teaching preimage is separately bound. Frozen task fields unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "bytes": 5328,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "bytes": 5328,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+        "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+        "bytes": 5328,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+        "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+        "bytes": 5328,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+        "sha256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+        "bytes": 1530,
+        "kind": "new-creative-brief"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+        "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+        "bytes": 3713,
+        "kind": "new-author-provenance"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+        "sha256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+        "bytes": 10178,
+        "kind": "body-plus-additive-insertion"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+    "authorHandoffSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+    "authorInventorySHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+    "sourcePreimageSHA256": "eb01650547c20b2eed87604141a3622c0112ec2b9f36af6709ad02cbe6189287",
+    "exactFiveNewPublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalCreator": null,
+    "insertOnlyPreimageRecovery": "Independently removed exact single saved insertion and recovered b3704 committed bytes byte-for-byte. Existing prose, source-depth statements, metadata and navigation preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "noUnrelatedOrRestrictedBodiesRead": true,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "primary": true,
+      "readDepth": "Official eligibility, phase-purpose and randomized comparison sections read, web lines23–71; not every ancillary source on owner page.",
+      "supports": "Phase describes development questions; chance assignment prevents selection choices.",
+      "accessStatus": "Official NCI text accessible; displayed update November8,2024.",
+      "population": null
+    },
+    {
+      "url": "https://www.consort-spirit.org/spiriteande22/item-22-allocation-concealment-mechanism",
+      "primary": true,
+      "readDepth": "Official SPIRIT2025 Item22 explanation, lines164–188 read; not entire guideline.",
+      "supports": "Unpredictable sequence plus concealment until irreversible assignment; concealment differs from blinding.",
+      "accessStatus": "Official explanation accessible.",
+      "population": null
+    },
+    {
+      "url": "https://www.consort-spirit.org/spiriteande24a/item-3c-role-of-sponsor-and-funders",
+      "primary": true,
+      "readDepth": "Official SPIRIT2025 displayed Item24a explanation obtained in substantive search extraction and read; URL slug does not match displayed topic.",
+      "supports": "Blinding hides study group after allocation, and groups/feasibility must be specified.",
+      "accessStatus": "Official indexed extraction accessible; no expanded CONSORT image checklist recertification.",
+      "population": null
+    }
+  ],
+  "mathAssessment": {
+    "numericEmpiricalEstimatesIntroduced": false
+  },
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, custody and personally inspected native plus fresh pinned-reader pixel review of assigned candidate; retained task243 context also inspected.",
+    "sourceReadDepth": "Actual bounded independent primary/official reading and access failures recorded. Preserved ancillary citations and historical source-depth statements are not each recertified.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own copied private fixture rebuilt with exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. New native600px, desktop1440×1000 inline/theater and mobile390×844 inline/theater personally seen. For tall245/247 diagrams, additional complete desktop1440×1700 inline captures inspected. Retained243 pair native780×1100 plus desktop1440×1700/mobile390×844 inline/theater inspected. Original1000px desktop245/247 snapshots are viewport crops; supplementary captures establish complete inline geometry. No production header/sidebar/backend/navigation, physical mobile, cross-browser/touch or whole-page/nontext accessibility certification. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "supplementaryDesktopViewport": null,
+    "minMobileInlineLabelPx": 13.839749999999997,
+    "minMobileDefaultTheaterLabelPx": 13.68,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.089472715883854,
+    "allNewTextContrastChecksPassed": true,
+    "contrastScope": "Fresh computed SVG text fill against preceding opaque enclosing rectangle; both new themes. Nontext graphics and retained text contrast are not certified by this calculation.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but does not restore image focus. Independent mobile check for each task observes BODY. This unchanged pinned runtime defect remains qualified; no runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "../captures/next-gap-246-light-reading.png",
+      "sha256": "89a24b6c1a60def2352eee47177b8bbecb88890a06d7d325766c9b175d89ce5f"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "../captures/next-gap-246-dark-reading.png",
+      "sha256": "1f5bd5ee0e9545b9c4893b5b804b7a6b3dc6f244014b2acb8b33b0cd3b38812b"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "../captures/next-gap-246-light-mobile-inline.png",
+      "sha256": "ccd7b2e550da0c812f930437c413da1c1f2d3f8e829a33f4f2eb94ad98d434f8"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "../captures/next-gap-246-light-mobile-theater.png",
+      "sha256": "17f9ed030cadff2d6a232904908f1982d3f4563da24aa97e166784c481d34dad"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "../captures/next-gap-246-light-desktop-inline.png",
+      "sha256": "be1f22ed2b4e0f290a52c8889b054556a1266126355db5ddb9be93a408eac634"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "../captures/next-gap-246-light-desktop-theater.png",
+      "sha256": "f8f5ed59815518890a874959674f11b7c21922d57d6823b3e0f564a60e511590"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "../captures/next-gap-246-dark-mobile-inline.png",
+      "sha256": "0f627673f8cb9e4e46191ee223a664772534688af0959580b14eac75afd74118"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "../captures/next-gap-246-dark-mobile-theater.png",
+      "sha256": "1dbb6719709afec1448fa0d1308f32841dee4bdc7a8f7515e15051386c65df6f"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "../captures/next-gap-246-dark-desktop-inline.png",
+      "sha256": "54f7aa2d7df42bbf43d1be849bbe73724de103334708fa6ea5e36f74e44cb8c4"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "../captures/next-gap-246-dark-desktop-theater.png",
+      "sha256": "782af0ab6cbc5e8c2eae8d9806fd7b0ed9218950581f35041dbc569bcf407bab"
+    }
+  ],
+  "method": "Original hand-authored editable SVG via local Python serialization; no image model invocation claimed",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "qualified-renderer-limitation",
+      "decisionImpact": "No new artwork revision; prevents full keyboard/accessibility approval",
+      "detail": "Unchanged Escape closes ImageTheater then leaves BODY focused."
+    }
+  ],
+  "originalReviewedAt": "2026-10-14T00:07:23.461780+00:00",
+  "focusedCorrection": {
+    "kind": "same-peer-narrow-literal-pair-binding-successor",
+    "correctedAtUTC": "2026-10-14T00:23:33.055612+00:00",
+    "reviewer": "agent:/root/batch10_review_group3",
+    "originalReceiptPath": "../task-bindings/next-gap-246-independent-owner-review.json",
+    "originalReceiptSHA256": "78301bf582033aa4579f2dd6eb900434e3e1e3d49162d32c6ea55092ff30febb",
+    "originalWholeReviewReviewedAtUTC": "2026-10-14T00:07:23.461780+00:00",
+    "originalWholeVerdictPreserved": "PASS",
+    "originalFormalLiteralBindingVerdict": "REVISE",
+    "currentFormalLiteralBindingVerdict": "PASS",
+    "reviewScope": "Checked exact owner embed and public inventory; verified original task-keyed native/display hashes and source/task evidence; personally re-inspected the original light/dark native captures for this task. Narrowed four overinclusive outputs to the exact owned pair and nine overinclusive custody paths to the exact owned five. Corrected dependent task246 native height1100 to1000. Existing complete scientific/native/task review is inherited, not repeated.",
+    "newCapturesGenerated": 0,
+    "originalNativeCapturesPersonallyReinspected": 2,
+    "unchangedFourTaskReceiptsReReviewed": false,
+    "sourceFitFieldsChanged": false,
+    "sourceChecksChanged": false,
+    "newScientificClaims": false,
+    "sourceAccessBoundsPreserved": true,
+    "humanPendingAndCreditsPreserved": true,
+    "escapeBodyQualificationPreserved": true,
+    "proofPaths": {
+      "authorInventory": "/private/tmp/education-next-visual-batch-10/experimental-histories-comparative-evidence/public-inventory.private.json",
+      "originalDisplayChecks": "../display-checks.private.json",
+      "originalSourceAndTaskEvidence": "../task-bindings/next-gap-246-independent-owner-review.json"
+    },
+    "correctPairAndFiveCustodyPaths": [
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md"
+    ]
+  }
+}

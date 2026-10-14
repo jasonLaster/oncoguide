@@ -1,0 +1,87 @@
+{
+  "kind": "original-authored-source-code-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch11_measurement_author",
+  "actualMethod": "Python source-code SVG authored in build-art.py",
+  "imageModelCalled": false,
+  "model": null,
+  "imageGenerationCall": null,
+  "originalRetainedCreators": "Retained reference assets retain existing attribution; unknown when not recorded. This agent assessed but did not create the reused references.",
+  "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "currentOwnerPreimageSHA256": "88f0eb9834e84fe75ac3b3faf3647651ef014651f1b888e532d04af13c7fd97b",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+    "pageSHA256": "88f0eb9834e84fe75ac3b3faf3647651ef014651f1b888e532d04af13c7fd97b",
+    "targetSection": "## How it works: a peptide challenge tests the death pathway",
+    "learnerTask": "Locate the permeabilized cell membrane versus mitochondrial membrane and interpret priming separately from death.",
+    "gap": "Matched-exposure flow does not show the compartment challenged or cytochrome-c readout.",
+    "accuracyGuardrails": "Show cell-membrane permeabilization separately from mitochondrial outer-membrane response. Priming/cytochrome-c readouts are assay-specific and do not themselves prove intact-cell killing or patient sensitivity.",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/248",
+    "oneBasedRow": 249,
+    "originalTaskRowSHA256": "197347872e4ff59a42900b1d3bce3f81796b8110c533db15a1f9a06ff2913f08",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+  "reuseFirstAssessment": "The canonical apoptosis art shows the mitochondrial outer-membrane pore. This extension locates that membrane inside the separately permeabilized cell boundary and contrasts assay-specific readout with independent death and clinical endpoints.",
+  "originalNativeSupportPreserved": true,
+  "outputs": [
+    {
+      "key": "next-gap-260",
+      "owner": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+      "relativePath": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+      "sha256": "be62c763f166c6d17efcb726de835e2078286133bb6b1ebafc8a21d6f1cdf57e",
+      "width": 600,
+      "height": 1270
+    },
+    {
+      "key": "next-gap-260",
+      "owner": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+      "sha256": "aa923cd6d78c746d2b42589f9de7b503d76f15cbbb0ab62014fd256371025227",
+      "width": 600,
+      "height": 1270
+    }
+  ],
+  "briefSHA256": "dca16ae9e2e79739291291e2a0687b79ef6c8e9d78228afcc495339fd2921eb6",
+  "finalOwnerSHA256": "032d89ec8d887aced2ddb308b3cfa0ac52eff812683476ab88aa8da6a6108b1b",
+  "sourceCheckScope": "New visual claims plus public target/shared conceptual bodies only; no restricted case reads; no full page clinical recertification.",
+  "primarySourceChecks": [
+    {
+      "pmid": "25723171",
+      "title": "Drug-induced death signaling strategy rapidly predicts cancer response to chemotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25723171/",
+      "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+      "retrievedAbstract": true,
+      "localEvidence": "additional-primary-reference-abstracts.xml"
+    }
+  ],
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "delivery": "not started",
+  "publication": "not started",
+  "integrationAuthor": "root",
+  "actualFutureExecutionSourceCommit": null,
+  "actualSourceCheckDepth": "Complete assigned primary abstract retained/read; selected supplementary abstract/indexed passages where listed. No complete-paper, clinical, current-platform or patient-specific validation claimed.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "generatorSHA256": "ed1658f8581a384eca3fc044586913478b7e3d9fef00b9d2d0eb3ec928153e17",
+  "generatorCustody": "Original construction script, source-depth receipts and browser captures retained in private handoff; no executable reproduction package delivered in public payload."
+}

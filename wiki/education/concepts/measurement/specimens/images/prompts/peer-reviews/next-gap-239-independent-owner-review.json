@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-239",
+  "owner": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+  "author": "agent:/root/batch10_author_group2",
+  "authorRole": "Actual seven-new-illustration private packet author",
+  "creativeAuthor": "agent:/root/batch10_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author; retained source text and Mermaid creators unknown",
+  "reviewer": "agent:/root/batch10_review_group2",
+  "independentReviewer": "agent:/root/batch10_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:09:17.553273+00:00",
+  "reviewedAtUTC": "2026-10-14T00:09:17.553273+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/316",
+  "frozenRowSHA256": "c5d95baa98aeb974acbc9741b53a56628a9db1551f7b0d909ee44a9d542f36ea",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Focused correction PASS: only the digital-panel coordinates changed. Both fresh native themes have10.6865234375px between heading bbox and the nearest Copy label bbox. The28px labels, meaningful document identity and two outward copy arrows remain intact; native/mobile/inline/theater inspection confirms the former overlap is resolved with no new label collision.",
+    "frozenPageSHA256": "7c8459aa5d03641f2a2e5366763a12339b8ca29b5bf8c3551a23df79031b1af9",
+    "baselinePageSHA256": "7c8459aa5d03641f2a2e5366763a12339b8ca29b5bf8c3551a23df79031b1af9",
+    "actualTeachingPreimageSHA256": "90708c7282f8c2113106adda7b8bf83c009544e63b7f5bc8ec68d4dc3223ba0b",
+    "learnerTask": "Distinguish consuming tissue from copying data",
+    "gap": "Current arrows describe reuse but do not show the irreversible allocation",
+    "accuracyGuardrails": "Separate physically consumed sections/material from reusable digital copies. Tissue budgets, section thickness and remaining analyte depend on the archive; do not prescribe universal allocation or imply the original material can be regenerated.",
+    "targetSection": "How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 remains the immutable original audit page anchor; current b370 teaching preimage is separately verified. Frozen task/row unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+      "sha256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d",
+      "nativeSHA256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d",
+      "bytes": 5818,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+      "sha256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d",
+      "nativeSHA256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d",
+      "bytes": 5818,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+        "sha256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+        "bytes": 7963
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "sha256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d",
+        "bytes": 5818
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "sha256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d",
+        "bytes": 5818
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/finite-tissue-use-and-reusable-data-b10-v1.txt",
+        "sha256": "939974f5d0b1a16a6e0690fe123cc2a7f54c66c466ddf12238313e160415ef1c",
+        "bytes": 1364
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/finite-tissue-use-and-reusable-data-b10-v1-provenance.json",
+        "sha256": "8389d9b8e25c41012d2b268d2fa2d31c69b181302338b066812e53494cdf0bc9",
+        "bytes": 6490
+      }
+    ],
+    "currentCandidateOwnerSHA256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "193d1ef2ba2eb15ae6a0fbb4eee0c1801d95c286e8608202710dcad88f878b73",
+    "authorInventorySHA256": "fb5b489a3b0343e53ef9eb62a29e6f03fb0a85b95bd27ed7cf0c449c92eb7bc3",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "sourcePreimageSHA256": "90708c7282f8c2113106adda7b8bf83c009544e63b7f5bc8ec68d4dc3223ba0b",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Original inverse-preservation proof remains in predecessor; semantic diff verifies correction235 changes only inserted alt, while239/241 owner MD unchanged. No full original-body re-review.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "predecessorAuthorSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "focused11FileDeltaBound": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf",
+      "readDepth": "Parsed selected breast grossing excerpt orientation/ink lines50-90; sampling109-115; documented code164-198, plus returned surrounding text. Not full textbook or every page.",
+      "supports": "Local keys, sampled region/block mapping and finite selected tissue.",
+      "accessStatus": "Accessible",
+      "limit": "Fictional geometry; no clinical margin cutoff or clearance claim",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    },
+    {
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf",
+      "readDepth": "Revision1.0 February2025 parsed first-page purpose, scope and definitions lines0-32 personally read.",
+      "supports": "Molecular scope excludes viability/culture endpoints; allocation from organ to aliquot.",
+      "accessStatus": "Accessible",
+      "limit": "Not a viable-cell recovery protocol",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Focused correction-only independent semantic/dependent-custody and fresh corrected native/inline/theater/mobile390/desktop pixel assessment. Four unaffected PASS decisions and full predecessor science remain unchanged.",
+    "sourceReadDepth": "No new sources accessed. Original selected primary parsed sections and one abstract are preserved with their original read bounds; no new full-source/full-paper/history re-review.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 0,
+    "carrierLimits": "Own fresh screenshots via read-only copied successor server at4643, initially unavailable. Successor CSS/main identical; compiled JS/app differ only source-directory comments after normalization. Original pin verification inherited, not rerun. No production navigation/header/backend, physical mobile, touch, cross-browser, numerical contrast or whole-page accessibility certification. Native/mobile boards fully viewed; desktop image-region boards tool-resized to2048px remain readable. Full captures preserved."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 16.1459375,
+    "minMobileDefaultPreviewLabelPx": 15.96,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but returns focus to BODY rather than image trigger; unchanged pinned runtime defect. No runtime repair or complete keyboard accessibility approval.",
+    "contrastScope": "Both themes visually inspected for legibility; no numerical whole-page/nontext contrast certification claimed.",
+    "observedLayoutIssues": []
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-light-reading.png",
+      "sha256": "aa8b9ad7d6b8e077f08f6a466f7fa5f0102deee0c55785e9a5f1f486fc75c707"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-dark-reading.png",
+      "sha256": "c1302cbf79eff7ffa133b8279fb079b30e7b74b2b5c2da32b3361afffc8d4119"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-light-mobile-inline.png",
+      "sha256": "2c3ae2022d0b42e6b9b50363fbcfc835a0b6100d828893855d367153edace964"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-light-mobile-theater.png",
+      "sha256": "ebe8d5a8913d6a3305182f37a1facaf35e63304c030095d0efd5ec924926a5bd"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-light-desktop-inline.png",
+      "sha256": "e6222d570c669e953bba999645ef45c3eee61fc4a302252ef42fb36c71b8624f"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-light-desktop-theater.png",
+      "sha256": "2934746909c0a73c7a7331dc467645560a0ea634e3ff45f3d23dcdfd379855c3"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-dark-mobile-inline.png",
+      "sha256": "df5bcd737d7570de5b9248da22ecead9d908054e38701982b152aa1ee7c40561"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-dark-mobile-theater.png",
+      "sha256": "71ac9b1dbaa6b1a2df4c0dcfa40667a32b8c473816df7fead8208d5e526d11a6"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-dark-desktop-inline.png",
+      "sha256": "ac95ac312ee0de9af3724b0db155542808c60548817f4b610e3515eaea448784"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-239-dark-desktop-theater.png",
+      "sha256": "5f7a26aabb50b80853081b0d398b92acea6849fb99cc2228145ee32fe64d88a5"
+    }
+  ],
+  "inspectionBoards": [
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/239-native.png",
+      "sha256": "23d5c29f21f2ef9f5a22c481c52c86e1b82309cfddee7e7496ab190b36a6eb1f",
+      "mode": "native",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/239-mobile.png",
+      "sha256": "f7335f4b7a6355c9de613317fda018afb6883323055204443f0e20ac25bfbdf3",
+      "mode": "mobile",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/239-desktop.png",
+      "sha256": "3fdf04214ffd8c169c0c7a28af3bc6efec7258420bcbbf705d0ccb53122559c7",
+      "mode": "desktop",
+      "personallyInspected": true
+    }
+  ],
+  "method": "Original Python-authored editable SVG; independent review used fresh Playwright captures",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "focusedCorrectionReview": {
+    "kind": "same-independent-reviewer-focused-successor-assessment",
+    "onlyAffectedCorrectionSpansReviewed": true,
+    "predecessorReceiptPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/task-bindings/next-gap-239-independent-owner-review.json",
+    "predecessorReceiptSHA256": "0f290bc654ba1aabcfffed6a8fa59e8660fbbe70655bf2daab4b654ed25648e4",
+    "predecessorVerdict": "REVISE",
+    "wholeREVISESummaryPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/review-summary.json",
+    "wholeREVISESummarySHA256": "21fc453df092bf17637afcfbd034c37c7aceb96df3136562f59521d62ccdf12e",
+    "wholeREVISESealPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/seal.json",
+    "wholeREVISESealSHA256": "cdf28278ba45e092aecfe0254028263e09eb0b5cfeda29250675fed2496c7326",
+    "rejectedFindingsPreserved": [
+      {
+        "kind": "text-overlap",
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-{light,dark}.svg",
+        "node": "Digital result: reusable copies heading vs Copy/Data labels",
+        "evidence": "Heading bbox x32,y703,width426.796875,height33.3134765625 intersects Copy y725,height31 and Data y726,height31 in both native themes; also visible in mobile/theater.",
+        "requested": "Separate heading and object labels vertically with clear whitespace; retain labels at least28px and preserve arrow relationships."
+      }
+    ],
+    "correctionDisposition": "resolved",
+    "actualPixelChange": true,
+    "descriptionOnlyNativeChange": false,
+    "sourceScienceReviewRerun": false,
+    "noNewMedicalClaims": true,
+    "predecessorScienceVerdict": "PASS",
+    "scienceQualification": "Original bounded science/source reading remains the basis; focused review verifies no new claims. No new full-source, full-paper, whole-owner, or unaffected-task review.",
+    "authorSuccessorSealPath": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/seal.json",
+    "authorSuccessorSealSHA256": "193d1ef2ba2eb15ae6a0fbb4eee0c1801d95c286e8608202710dcad88f878b73",
+    "correctedCompositeInventorySHA256": "fb5b489a3b0343e53ef9eb62a29e6f03fb0a85b95bd27ed7cf0c449c92eb7bc3",
+    "exactChangedPublicFileCount": 11,
+    "changedFilesForTask": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "rejectedPreimageSHA256": "a34febdf6bc9b1e5ac14bcf1b54ae2b3431e11aa4bd6557c3fa852006da69855",
+        "successorSHA256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d",
+        "bytes": 5818
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "rejectedPreimageSHA256": "6eaf2edf2100b05412e4fd051c943da322394436bb7f2a9f31cc8f239b46ecb7",
+        "successorSHA256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d",
+        "bytes": 5818
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/finite-tissue-use-and-reusable-data-b10-v1-provenance.json",
+        "rejectedPreimageSHA256": "c1774029f261ac5e7e992b60ddc9d7124e20cd2e35c4d8c305f7af29cb0fd839",
+        "successorSHA256": "8389d9b8e25c41012d2b268d2fa2d31c69b181302338b066812e53494cdf0bc9",
+        "bytes": 6490
+      }
+    ],
+    "targetedActualMeasurements": [
+      {
+        "id": "next-gap-239",
+        "theme": "light",
+        "actualHeadingLabelGapNativePx": 10.6865234375
+      },
+      {
+        "id": "next-gap-239",
+        "theme": "dark",
+        "actualHeadingLabelGapNativePx": 10.6865234375
+      }
+    ]
+  }
+}

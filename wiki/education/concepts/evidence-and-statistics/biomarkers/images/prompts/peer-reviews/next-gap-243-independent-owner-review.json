@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-243",
+  "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+  "author": "agent:/root/batch10_author_group3",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "authorRole": "Actual new-pair vector author; retained task243 original creator remains unknown",
+  "reviewer": "agent:/root/batch10_review_group3",
+  "independentReviewer": "agent:/root/batch10_review_group3",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:07:23.461780+00:00",
+  "reviewedAtUTC": "2026-10-14T00:07:23.461780+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "33b57565922e6800650630c0c17cf2c1c013602cfd5c86eb1d245c62db9ffcf7",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/161",
+  "frozenRowSHA256": "979bdca87fca8b06ab5932909a0b9a8e0df92bfa1f711a4a233b6f9febe2665b",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The new common 0–100 percent outcome axis plots all four invented risks, then separates the named absolute reductions of 20 and 10 percentage points from equal treatment/comparator risk ratios of 0.5. The retained question map remains intact with unknown creator and is complementary. Outcome level is therefore visible separately from treatment contrast; explicit fictional-data and uncertainty language prevents subgroup significance from becoming an interaction claim.",
+    "frozenPageSHA256": "e0dc67101d1089b517e9401f5fd2cd60016a0416ae4843844fec931533e26220",
+    "baselinePageSHA256": "e0dc67101d1089b517e9401f5fd2cd60016a0416ae4843844fec931533e26220",
+    "actualTeachingPreimageSHA256": "8d11ef4098993c366e6b040404e06a6b4c5c4ee7322fd1a0d2a3b694ca8e28ef",
+    "learnerTask": "Compare marker groups on absolute and relative treatment-effect scales.",
+    "gap": "The 40/20 and20/10 table is not plotted, so outcome level and treatment contrast can be conflated.",
+    "accuracyGuardrails": "Show outcome levels and treatment contrasts on named absolute/relative scales. Equal relative effects can coexist with different absolute differences; separate subgroup significance is not an interaction test.",
+    "targetSection": "## Worked example",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Immutable original audit page hash is baselinePageSHA256; current committed teaching preimage is separately bound. Frozen task fields unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-light.svg",
+      "sha256": "74e85b3431650a474ba8de33be42948ac7dd17b22802f872761e9a3522d4551c",
+      "bytes": 5260,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-dark.svg",
+      "sha256": "11c1c4505fb6e5eb182d0652f039087f5cf303283a481a9b83e1932e5a88dcde",
+      "bytes": 5260,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prognostic-vs-predictive-comparison-roles-v1-light.svg",
+        "sha256": "afe323ca395c66433996e86fe41ebcf24bee998d515730eabe33ae48b985ae8f",
+        "bytes": 3738,
+        "kind": "retained-original"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prognostic-vs-predictive-comparison-roles-v1-dark.svg",
+        "sha256": "b1b77eaeba10c57631deb512e19afdbeeccc8660944e98e326f5e4ed63a69828",
+        "bytes": 3738,
+        "kind": "retained-original"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/prognostic-vs-predictive-comparison-roles-v1.txt",
+        "sha256": "41c44e86b27caa1c2aa00ed3b3a29bd82ae46fe10c89433f10341464ccca5735",
+        "bytes": 1495,
+        "kind": "retained-original"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/prognostic-vs-predictive-comparison-roles-v1-native-provenance.json",
+        "sha256": "a1c467f8fcbda40a305984a9068bfed90fd681589e10508246945614cdde7ce6",
+        "bytes": 2340,
+        "kind": "retained-original"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/next-gap-064-combined19-current-owner-task-fit-continuity.json",
+        "sha256": "a3c54835e8646c615788f096ac7b4120fc3805c81d7c8bbd6a564817eadae604",
+        "bytes": 8350,
+        "kind": "retained-original"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-light.svg",
+        "sha256": "74e85b3431650a474ba8de33be42948ac7dd17b22802f872761e9a3522d4551c",
+        "bytes": 5260,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-dark.svg",
+        "sha256": "11c1c4505fb6e5eb182d0652f039087f5cf303283a481a9b83e1932e5a88dcde",
+        "bytes": 5260,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/matched-marker-risks-and-treatment-effect-scales-b10-v1.txt",
+        "sha256": "383c031e1ad75882bdd0feabceecd35e4288f5f2c48456bda204443625e69f67",
+        "bytes": 1627,
+        "kind": "new-creative-brief"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/matched-marker-risks-and-treatment-effect-scales-b10-v1-provenance.json",
+        "sha256": "459f72e5b7b7265b95cd3bc71d54d57fcf87652ae2256b74b35ef56106730c5f",
+        "bytes": 3564,
+        "kind": "new-author-provenance"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+        "sha256": "33b57565922e6800650630c0c17cf2c1c013602cfd5c86eb1d245c62db9ffcf7",
+        "bytes": 13146,
+        "kind": "body-plus-additive-insertion"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "33b57565922e6800650630c0c17cf2c1c013602cfd5c86eb1d245c62db9ffcf7",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+    "authorHandoffSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+    "authorInventorySHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+    "sourcePreimageSHA256": "8d11ef4098993c366e6b040404e06a6b4c5c4ee7322fd1a0d2a3b694ca8e28ef",
+    "exactFiveNewPublicFiles": true,
+    "preservedExistingCustodyFileCount": 5,
+    "retainedOriginalCreator": null,
+    "insertOnlyPreimageRecovery": "Independently removed exact single saved insertion and recovered b3704 committed bytes byte-for-byte. Existing prose, source-depth statements, metadata and navigation preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "noUnrelatedOrRestrictedBodiesRead": true,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK402284/",
+      "primary": true,
+      "readDepth": "Official FDA–NIH BEST primary section obtained in search extraction, including comparator, both-roles and interaction explanations; no direct full-text opening.",
+      "supports": "Generally compare treatment with control in marker-positive and marker-negative groups; both roles can coexist.",
+      "accessStatus": "Direct page CAPTCHA; substantive official indexed extraction read.",
+      "population": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1125071/",
+      "primary": true,
+      "readDepth": "Primary Altman/Bland methodological article text obtained as search extraction; interaction discussion and concluding P-value comparison warning read. Tables not independently examined.",
+      "supports": "Different subgroup significance labels do not test the difference between effects.",
+      "accessStatus": "Direct PMC CAPTCHA; Europe PMC XML500; substantive primary indexed extraction read.",
+      "population": "Methodological independent-effect comparison. The numeric plot is original fictional arithmetic."
+    }
+  ],
+  "mathAssessment": {
+    "markerPositiveComparatorRisk": 0.4,
+    "markerPositiveTreatmentRisk": 0.2,
+    "markerNegativeComparatorRisk": 0.2,
+    "markerNegativeTreatmentRisk": 0.1,
+    "absoluteReductionsPercentagePoints": [
+      20,
+      10
+    ],
+    "riskRatios": [
+      0.5,
+      0.5
+    ],
+    "fictionalExactQuantities": true,
+    "samplingUncertaintyProvided": false
+  },
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, custody and personally inspected native plus fresh pinned-reader pixel review of assigned candidate; retained task243 context also inspected.",
+    "sourceReadDepth": "Actual bounded independent primary/official reading and access failures recorded. Preserved ancillary citations and historical source-depth statements are not each recertified.",
+    "freshCaptureCountForOwner": 20,
+    "personallyInspectedCountForOwner": 20,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own copied private fixture rebuilt with exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. New native600px, desktop1440×1000 inline/theater and mobile390×844 inline/theater personally seen. For tall245/247 diagrams, additional complete desktop1440×1700 inline captures inspected. Retained243 pair native780×1100 plus desktop1440×1700/mobile390×844 inline/theater inspected. Original1000px desktop245/247 snapshots are viewport crops; supplementary captures establish complete inline geometry. No production header/sidebar/backend/navigation, physical mobile, cross-browser/touch or whole-page/nontext accessibility certification. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "supplementaryDesktopViewport": [
+      1440,
+      1700
+    ],
+    "minMobileInlineLabelPx": 13.839749999999997,
+    "minMobileDefaultTheaterLabelPx": 13.68,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.089472715883854,
+    "allNewTextContrastChecksPassed": true,
+    "contrastScope": "Fresh computed SVG text fill against preceding opaque enclosing rectangle; both new themes. Nontext graphics and retained text contrast are not certified by this calculation.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but does not restore image focus. Independent mobile check for each task observes BODY. This unchanged pinned runtime defect remains qualified; no runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "captures/next-gap-243-light-reading.png",
+      "sha256": "b1f22e06b8aa7d278f5d77c370311852959b0638bc4502c59087ff67fdb94855"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "captures/next-gap-243-dark-reading.png",
+      "sha256": "0f62b3d515cb52e1f351e3b2552c99f3accf1aae38c41e9d4df140fd24c98d10"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "captures/next-gap-243-light-mobile-inline.png",
+      "sha256": "34bdc5dc1b23280f64609cc8559c14f428c5d766621dba76e9740f43a98fc2c4"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "captures/next-gap-243-light-mobile-theater.png",
+      "sha256": "037019d5051a1160f2c0f646c9ba1f6b6403d6f2a8a01404caa44a288941943c"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "captures/next-gap-243-light-desktop-inline.png",
+      "sha256": "084df3e9b8ba5efbaa27fa5aad7f0f1f3e528cb09cefe1903431397e98eb4121"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "captures/next-gap-243-light-desktop-theater.png",
+      "sha256": "6a87e7359d8ac0615375cd9803b4803e273e599a035b14f491b65ca5e12933f4"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-243-dark-mobile-inline.png",
+      "sha256": "d735533bf64789510925fb42eefa034e357c08a36a26c7dcabf91967219d7465"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-243-dark-mobile-theater.png",
+      "sha256": "b1eff7fef7d5a478a0d35f708520a1845195556983c2883187cc3bf394ed74fa"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-243-dark-desktop-inline.png",
+      "sha256": "7f21781e2ee7b3754647efa5e8c069deb8c0fa26a587080518a670c53716e6fc"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-243-dark-desktop-theater.png",
+      "sha256": "991a2ec6ec550ef3f921b7787f031c4052894c70109774eaf33ec675e04b6acd"
+    },
+    {
+      "theme": "light",
+      "mode": "retained-native",
+      "path": "captures/next-gap-243-retained-light-reading.png",
+      "sha256": "dc106bc43ca79d9f6ada3c42ff546031212493029e84da5f414e8095a4c5f14d"
+    },
+    {
+      "theme": "light",
+      "mode": "retained-mobile-inline",
+      "path": "captures/next-gap-243-retained-light-mobile-inline.png",
+      "sha256": "b2ac05b3225721562fac60cd1f2beef39eebb6da667299f853c2e73d79c9b0a6"
+    },
+    {
+      "theme": "light",
+      "mode": "retained-mobile-theater",
+      "path": "captures/next-gap-243-retained-light-mobile-theater.png",
+      "sha256": "db33c0f6ebac127b35f63f24643de7eb4bd3bd6987db69d51809b5ed8b222269"
+    },
+    {
+      "theme": "light",
+      "mode": "retained-desktop-inline",
+      "path": "captures/next-gap-243-retained-light-desktop-inline.png",
+      "sha256": "74197399af8690ae69b47620e263b3f9592ad5578de5fc182e7bb6ee92d388dd"
+    },
+    {
+      "theme": "light",
+      "mode": "retained-desktop-theater",
+      "path": "captures/next-gap-243-retained-light-desktop-theater.png",
+      "sha256": "d3bb22b3be72995c8f7123159891ee14ca809b7f8c333c645cb1f2d18f4877c7"
+    },
+    {
+      "theme": "dark",
+      "mode": "retained-native",
+      "path": "captures/next-gap-243-retained-dark-reading.png",
+      "sha256": "5c568aa037231a66a3ce0884426df2b6004d875e590cf02505544ab913f89b75"
+    },
+    {
+      "theme": "dark",
+      "mode": "retained-mobile-inline",
+      "path": "captures/next-gap-243-retained-dark-mobile-inline.png",
+      "sha256": "d3689714c92c06ada60cf5808a470298d4d6590af542938a1957c030e1bba404"
+    },
+    {
+      "theme": "dark",
+      "mode": "retained-mobile-theater",
+      "path": "captures/next-gap-243-retained-dark-mobile-theater.png",
+      "sha256": "5361488cad50d728783e27b2f1ebf2b2d07a131356e009f9d6351231479587c1"
+    },
+    {
+      "theme": "dark",
+      "mode": "retained-desktop-inline",
+      "path": "captures/next-gap-243-retained-dark-desktop-inline.png",
+      "sha256": "09a6987017ca9522acd7393fae10beb476a52a7312b7d36af4565778f58de278"
+    },
+    {
+      "theme": "dark",
+      "mode": "retained-desktop-theater",
+      "path": "captures/next-gap-243-retained-dark-desktop-theater.png",
+      "sha256": "df5a974550a017361c29cb49bedafd990269c98524b74ccf10213428ca8bf02a"
+    }
+  ],
+  "method": "Original hand-authored editable SVG via local Python serialization; no image model invocation claimed",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "qualified-renderer-limitation",
+      "decisionImpact": "No new artwork revision; prevents full keyboard/accessibility approval",
+      "detail": "Unchanged Escape closes ImageTheater then leaves BODY focused."
+    }
+  ]
+}

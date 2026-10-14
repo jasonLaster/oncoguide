@@ -1,0 +1,73 @@
+{
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "sourceOwnerPreimageSHA256": "7ecd191e394fae2f773548cc5be7e664ac94ef1dc3ceec3f94810ec4dcc6be2b",
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "technique": "Original source-code SVG pair constructed directly in private Python authoring script",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "exactBrief": {
+    "file": "ar-intervention-locations-v1.txt",
+    "sha256": "0343de5a9a2cfb6a834b518dbfeb4ec465ab13fdd582726ff845ada1faf75d3d"
+  },
+  "outputs": [
+    {
+      "file": "ar-intervention-locations-v1-light.svg",
+      "theme": "light",
+      "sha256": "6c41e5354367f7cf96ccaa4cf66b1eda025d1e3c6e07be7a11ec22ebaae6f240"
+    },
+    {
+      "file": "ar-intervention-locations-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "7e4a3dda74d8a4b35fde790a5655ee3bf616366cef6bf1c0efd73bed1d66726e"
+    }
+  ],
+  "candidateOwnerSHA256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+    "pageSHA256": "7ecd191e394fae2f773548cc5be7e664ac94ef1dc3ceec3f94810ec4dcc6be2b",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare hormone supply, AR binding and nuclear transcription",
+    "gap": "No membrane/nuclear or ligand-domain scene supports distinctions",
+    "accuracyGuardrails": "expression not dependence; variants alter binding; no cross-disease benefit",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/367",
+    "oneBasedRow": 368,
+    "originalTaskRowSHA256": "8e80d46d224dc86ce6f23fc17b97ed12c860456aa06f9733cf61292c5f61d4f0",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+  "reuseExtensionRationale": "Shared canonical owner has no existing visual; bounded intervention-location view is needed by this AR-antagonist page. No canonical reassignment.",
+  "reviewStatus": "Independent scientific/native/task-fit review pending; human expert and learner review pending; no review credit",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "canonicalAssignment": false,
+  "publication": "not started",
+  "publicReferences": [
+    {
+      "pmid": "19359544",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19359544+AND+SRC%3AMED&format=json&resultType=core",
+      "readScope": "title and complete returned abstract only; not full paper"
+    },
+    {
+      "pmid": "19117982",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19117982+AND+SRC%3AMED&format=json&resultType=core",
+      "readScope": "complete returned abstract only; not full paper",
+      "supports": "variant-domain or expression/dependence limit; original disease/model remains prostate or trial-specific TNBC; no clinical transfer"
+    },
+    {
+      "pmid": "31822498",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31822498+AND+SRC%3AMED&format=json&resultType=core",
+      "readScope": "complete returned abstract only; not full paper",
+      "supports": "variant-domain or expression/dependence limit; original disease/model remains prostate or trial-specific TNBC; no clinical transfer"
+    }
+  ]
+}

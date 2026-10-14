@@ -1,0 +1,58 @@
+{
+  "kind": "original-authored-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch10_author_group2",
+  "originalRetainedCreators": "Unknown; no retained artwork paths were selected for these owners. Existing source authorship is preserved, not attributed to this agent.",
+  "model": null,
+  "imageModelCalled": false,
+  "method": "Python-authored SVG",
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "currentOwnerPreimageSHA256": "a5a908967015b0ca3b16c8435ff26fe1417cbd5075f63a3738b9434893508732",
+  "frozenPageSHA256": "b8c949086d5f320293727ca37154679f701bd10982681109387171bbaf503fe7",
+  "frozenRowSHA256": "d55cf5d0db5c1ff0660618bd46f70dcd23135e837b5bc97bc1299242e9314d31",
+  "learnerTask": "Connect a changed process to affected attributes and the earlier evidence it may or may not bridge.",
+  "gap": "The generic linear review sequence does not show paired old/new lots or the evidence bridge.",
+  "accuracyGuardrails": "Specify old/new materials, measured attributes and which evidence the change may affect. Similar results do not automatically prove equivalence, clinical comparability or authorization.",
+  "finalOwnerSHA256": "e7e838c4ae28d3f3df26305db71952a026d4b25f37313fcbb123544b5bc7c98f",
+  "currentBodySHA256": "b4ce389126c4317a7da6b3226341b96fe882b55670edde625cb7adf8ac3d715c",
+  "finalBodySHA256": "9011a245f6d1aecdbd0c8c3a5b36f17a0bc9d00afd390ed1e4f05ecaa578c09d",
+  "outputs": [
+    {
+      "key": "next-gap-236",
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-light.svg",
+      "sha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f"
+    },
+    {
+      "key": "next-gap-236",
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-dark.svg",
+      "sha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2"
+    }
+  ],
+  "promptSHA256": "a1762683b97fe6f645d79a4d106115971a0f3f42a85399b5b97518a0aac36e94",
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": false,
+  "published": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "primarySourceChecks": [
+    {
+      "url": "https://www.fda.gov/media/71489/download",
+      "readLevel": "selected parsed PDF sections: General Principles printed pages 3-4 and analytical/specification discussion pages 6-8",
+      "supports": "conditional comparability bridge to earlier quality, safety and efficacy evidence",
+      "limit": "General biological-product framework; product-specific scope still requires assessment"
+    },
+    {
+      "url": "https://www.fda.gov/media/156896/download",
+      "readLevel": "selected parsed full-document sections: IV.B printed pages 7-8; IV.D.2 pages 18-19, including split starting material",
+      "supports": "mixed cellular starting material, variability, paired old/new process comparison and broader characterization",
+      "limit": "No clinical or process validation inferred; other guidance sections not newly audited"
+    }
+  ],
+  "sourceCheckScope": "New illustration claims only; current teaching body retained byte-for-byte after inverse insertion. No full-page recertification."
+}

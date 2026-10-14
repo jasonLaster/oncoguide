@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-240",
+  "owner": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+  "author": "agent:/root/batch10_author_group2",
+  "authorRole": "Actual seven-new-illustration private packet author",
+  "creativeAuthor": "agent:/root/batch10_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author; retained source text and Mermaid creators unknown",
+  "reviewer": "agent:/root/batch10_review_group2",
+  "independentReviewer": "agent:/root/batch10_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:03:41.450993+00:00",
+  "reviewedAtUTC": "2026-10-14T00:03:41.450993+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "2c73f15e3d15e749372f1dc4a63f42c49897e46595010b6aa5ccec6ce0fba2a0",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/9",
+  "frozenRowSHA256": "c63c9cfc80c976a30f6eee45b6b2ee2cbd0b575aa9e6dfd08dd8dd62846bcedf",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Development/review support and actual product-plus-use approval are separate document scenes with no ladder/progression connector. Traditional and accelerated approval are actual approval pathways; benefit confirmation remains attached to accelerated approval. No timing, superiority, access or personal-benefit guarantee is supplied.",
+    "frozenPageSHA256": "94357ae31b8c04137d438df2d6f90216a449415353704a717eef80058bec65e5",
+    "baselinePageSHA256": "94357ae31b8c04137d438df2d6f90216a449415353704a717eef80058bec65e5",
+    "actualTeachingPreimageSHA256": "94357ae31b8c04137d438df2d6f90216a449415353704a717eef80058bec65e5",
+    "learnerTask": "Distinguish expedited development/review support from an actual approval decision.",
+    "gap": "The reading-sequence diagram does not represent designation versus approval; the table currently carries the contrast alone.",
+    "accuracyGuardrails": "Draw designation/review support separately from approval and its intended use. No expedited program guarantees approval, a fixed timeline, superiority or individual access.",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 remains the immutable original audit page anchor; current b370 teaching preimage is separately verified. Frozen task/row unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-light.svg",
+      "sha256": "28d94cf6f4b7baaf9152e64f4a413c90f46cdb8e9b957257ae4ffdc64d0753d9",
+      "nativeSHA256": "28d94cf6f4b7baaf9152e64f4a413c90f46cdb8e9b957257ae4ffdc64d0753d9",
+      "bytes": 4248,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-dark.svg",
+      "sha256": "3414126b43abe3794ab51551dd61d2daef35415830cc1ee42e9ed984e3f7bccb",
+      "nativeSHA256": "3414126b43abe3794ab51551dd61d2daef35415830cc1ee42e9ed984e3f7bccb",
+      "bytes": 4248,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+        "sha256": "2c73f15e3d15e749372f1dc4a63f42c49897e46595010b6aa5ccec6ce0fba2a0",
+        "bytes": 9418
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-light.svg",
+        "sha256": "28d94cf6f4b7baaf9152e64f4a413c90f46cdb8e9b957257ae4ffdc64d0753d9",
+        "bytes": 4248
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-dark.svg",
+        "sha256": "3414126b43abe3794ab51551dd61d2daef35415830cc1ee42e9ed984e3f7bccb",
+        "bytes": 4248
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/expedited-support-versus-approval-decision-b10-v1.txt",
+        "sha256": "f1fa352b21bb595a02aebb54874037a1e36e14dcf3fbd33adbf08be0deddc90f",
+        "bytes": 1423
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/expedited-support-versus-approval-decision-b10-v1-provenance.json",
+        "sha256": "5c1cb36aa98a8fe41f22496932ae75359916b0fad317244195bccbf69aa0d477",
+        "bytes": 3561
+      }
+    ],
+    "currentCandidateOwnerSHA256": "2c73f15e3d15e749372f1dc4a63f42c49897e46595010b6aa5ccec6ce0fba2a0",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "authorInventorySHA256": "fef032f31ae192fe67da7fc9c84a379a76a3b41963f2cc8a19989297d6811624",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "sourcePreimageSHA256": "94357ae31b8c04137d438df2d6f90216a449415353704a717eef80058bec65e5",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Exact recovery after removing only inserted img and caption; metadata, prose, references, exercises and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+      "readDepth": "Parsed official page main body lines58-83 personally read.",
+      "supports": "Development/review support distinguished from approval.",
+      "accessStatus": "Accessible",
+      "limit": "No individual product/status/time-to-access verification",
+      "primary": true
+    },
+    {
+      "url": "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program",
+      "readDepth": "Parsed official program main body lines61-63 personally read; indication records not opened.",
+      "supports": "Accelerated approval is approval with benefit confirmation required.",
+      "accessStatus": "Accessible",
+      "limit": "No individual indication reviewed",
+      "primary": true
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, source-depth, custody and fresh native/inline/theater pixel review of this owner and exact new pair.",
+    "sourceReadDepth": "Actual independent selected primary parsed sections and one PubMed abstract. No full-paper or every preserved ancillary citation recertification. No access errors/403 encountered.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own fresh screenshots via read-only server copy of author sealed fixture at4623; server was initially unavailable. Article fixture uses pinned compiler/frame/ImageTheater/SmartTableEnhancer/shared and app CSS. No production navigation/header/backend, physical mobile, touch, cross-browser or whole-page accessibility certification. Native pairs and mobile full screenshots viewed; desktop image-region contact sheets resized by tool to2048px but labels/relations remained readable. Original full captures retained."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 16.1459375,
+    "minMobileDefaultPreviewLabelPx": 15.96,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but returns focus to BODY rather than image trigger; unchanged pinned runtime defect. No runtime repair or complete keyboard accessibility approval.",
+    "contrastScope": "Both themes visually inspected for legibility; no numerical whole-page/nontext contrast certification claimed.",
+    "observedLayoutIssues": []
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-light-reading.png",
+      "sha256": "f201da692ca1d2f1057a9880c8cd90aa500728f55f9e61d5eef42d2dec0f8d4d"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-dark-reading.png",
+      "sha256": "4b86987cfde8beb825d4718256094721b51174196a840aece327bc1e005caa7c"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-light-mobile-inline.png",
+      "sha256": "5ec87f23a1137427a675229e3ca1dd65a30f6deed2f2ad8dc6e693b1d3d1c92f"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-light-mobile-theater.png",
+      "sha256": "a4ca1876504dee2ad9508708a1504bd09decf058758d222f278cbcda6414911a"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-light-desktop-inline.png",
+      "sha256": "76aa4237a0284020795105412f132f4353c19cd60845604f97d725b34106ad09"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-light-desktop-theater.png",
+      "sha256": "ddd6eea1169ebc330e6d85efe52ef3ca0d715be4ee723a28a35d1ff417d19855"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-dark-mobile-inline.png",
+      "sha256": "6c28db24e74075d1d07d555b28f78b62f1447c791533ae145f877dbf07112139"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-dark-mobile-theater.png",
+      "sha256": "a442081f0800eda47853ec769c9854eb01520f23ef11f685e360a0ee48cc262e"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-dark-desktop-inline.png",
+      "sha256": "e75b65428603a6b1d9e9e35329d293e70108824dee81db46482e0ca11e950987"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-240-dark-desktop-theater.png",
+      "sha256": "76689abaa7776a68944c499c387c4d17e02f841e83864fcba753c903943a83ec"
+    }
+  ],
+  "inspectionBoards": [
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/240-native.png",
+      "sha256": "76dac3d64172f031b98f58594b16175e8b2415e7eac598f6cd5c2c0b383518a8",
+      "mode": "native",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/240-mobile.png",
+      "sha256": "a377c948ba72765b1fd6c4b6cf2c5a5be80817acb36ba405c5b3eb057874280e",
+      "mode": "mobile",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/240-desktop.png",
+      "sha256": "92ba84f30bff9b8f600aff985fe3d5628e630d84e78c0c62cb1bb1746dea98e4",
+      "mode": "desktop",
+      "personallyInspected": true
+    }
+  ],
+  "method": "Original Python-authored editable SVG; independent review used fresh Playwright captures",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": []
+}

@@ -1,0 +1,66 @@
+{
+  "owner": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "sourceOwnerPreimageSHA256": "1b406eb0dd3374dfca7d90ce8df382428fac2768c6ee1c2d0ea08de58f0be0c6",
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "technique": "Original source-code SVG pair constructed directly in private Python authoring script",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "exactBrief": {
+    "file": "alkyl-attachments-and-prodrug-activation-v1.txt",
+    "sha256": "69ac8ee6cb3e767a6192c8946878d25a9829b33730c072fea883f52ebe28a51c"
+  },
+  "outputs": [
+    {
+      "file": "alkyl-attachments-and-prodrug-activation-v1-light.svg",
+      "theme": "light",
+      "sha256": "90160f48d42f89f0746e335fbdee3e0cc973d2a9b4d83bf40f134f068177eb64"
+    },
+    {
+      "file": "alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "0c499e21404a496f0c1a0e7d04bed9f344ddc4c2e635c566f3a912931072d58f"
+    }
+  ],
+  "candidateOwnerSHA256": "fdfefe875c39a57a2f656e162a52b2c357ccaffdf0ca974f767ca1cb9aa8bbf8",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "pageSHA256": "1b406eb0dd3374dfca7d90ce8df382428fac2768c6ee1c2d0ea08de58f0be0c6",
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish alkyl attachment, intra/interstrand links and prodrug activation",
+    "gap": "No picture shows lesion geometry or parent/active metabolite distinction",
+    "accuracyGuardrails": "Not every alkylator crosslinks; platinum is different chemistry; damage not inevitable death",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/340",
+    "oneBasedRow": 341,
+    "originalTaskRowSHA256": "4d152d23eb96392dc28568a3bbcd8b68b947dac66b82f3da550d73be0614f4a3",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+  "reuseExtensionRationale": "Existing platinum lesion geometry is reused as a labeled comparator; extension teaches different alkyl chemistry and parent/active-species distinction absent from it.",
+  "reviewStatus": "Independent scientific/native/task-fit review pending; human expert and learner review pending; no review credit",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "canonicalAssignment": false,
+  "publication": "not started",
+  "publicReferences": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cyclophosphamide",
+      "readScope": "NCI definition via web; selected mechanism paragraph only",
+      "supports": "liver generation of active alkylating metabolites; no laboratory activation instructions"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/210735s002lbl.pdf",
+      "readScope": "Dated FDA label sections 12.1 and selected 12.3 metabolism text read through web extract only; not current prescribing instruction",
+      "supports": "prodrug and active metabolites; DNA cross-linking at conceptual level only"
+    }
+  ]
+}

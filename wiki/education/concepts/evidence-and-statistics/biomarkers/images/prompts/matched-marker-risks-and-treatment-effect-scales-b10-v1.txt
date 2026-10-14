@@ -1,0 +1,12 @@
+Actual authored vector brief
+Prognostic versus predictive biomarkers
+
+Central learner task: Compare marker groups on absolute and relative treatment-effect scales.
+Original gap: The 40/20 and20/10 table is not plotted, so outcome level and treatment contrast can be conflated.
+Frozen accuracyGuardrails (verbatim): "Show outcome levels and treatment contrasts on named absolute/relative scales. Equal relative effects can coexist with different absolute differences; separate subgroup significance is not an interaction test."
+
+Composition: A fictional randomized trial plots bad-outcome risks by two years on a 0 to 100 percent axis. Marker-positive risks are 40 percent with comparator and 20 percent with treatment; marker-negative risks are 20 and 10 percent. Named absolute reductions are 20 and 10 percentage points, while both named treatment-to-comparator risk ratios equal 0.5. Exact invented quantities lack sampling uncertainty; separate subgroup significance is not an interaction test.
+
+Create exact parallel light and dark 600-pixel-wide SVG scenes, with large readable Arial labels, concrete laboratory objects where relevant, consistent geometry and no invented empirical findings. Theme changes only palette. Numeric examples are invented teaching data, not measurements. Retained assets remain byte-identical with unknown original creator.
+
+Actual production: agent:/root/batch10_author_group3 manually specified SVG geometry and text via a local Python serializer. No image model or raster-generation tool was called. This brief is the actual creative design input, not a claim of an external model request.

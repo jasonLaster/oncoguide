@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-260",
+  "owner": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+  "author": "agent:/root/batch11_measurement_author",
+  "reviewer": "agent:/root/batch11_measurement_review",
+  "reviewedAtUTC": "2026-10-14T20:03:33.777Z",
+  "currentOwnerSha256": "032d89ec8d887aced2ddb308b3cfa0ac52eff812683476ab88aa8da6a6108b1b",
+  "passed": true,
+  "verdict": "PASS",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+      "sha256": "be62c763f166c6d17efcb726de835e2078286133bb6b1ebafc8a21d6f1cdf57e"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+      "sha256": "aa923cd6d78c746d2b42589f9de7b503d76f15cbbb0ab62014fd256371025227"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "88f0eb9834e84fe75ac3b3faf3647651ef014651f1b888e532d04af13c7fd97b",
+    "learnerTask": "Locate the permeabilized cell membrane versus mitochondrial membrane and interpret priming separately from death.",
+    "gap": "Matched-exposure flow does not show the compartment challenged or cytochrome-c readout.",
+    "accuracyGuardrails": "Show cell-membrane permeabilization separately from mitochondrial outer-membrane response. Priming/cytochrome-c readouts are assay-specific and do not themselves prove intact-cell killing or patient sensitivity.",
+    "reasoning": "The first cutaway places a separately permeabilized cell boundary around a mitochondrion. The zoom distinguishes its outer and inner membranes, locates cytochrome c between them before release and shows possible passage through the outer membrane into cytosol. The final panel keeps challenge-dependent mitochondrial priming, separately measured intact-cell fate and clinical benefit as three endpoints. This high-level diagram adds the assay compartment and readout missing from the frozen task without introducing an operational protocol or treating priming as measured drug killing.",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "canonicalOwnerPreserved": true,
+    "reuseFirstAssessment": "The retained apoptosis cutaway locates mitochondrial outer-membrane pores; the owner extension adds the separately permeabilized cell boundary and assay/death/benefit endpoint comparison.",
+    "actualSourceConsultation": {
+      "id": "next-gap-260",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25723171/",
+      "title": "Drug-induced death signaling strategy rapidly predicts cancer response to chemotherapy.",
+      "sourceType": "primary research bibliographic record and complete abstract",
+      "actualConsultation": "Independently retrieved NCBI EFetch record and complete abstract; personally read in this review",
+      "retrievedEvidence": "sources/independently-retrieved-primary-abstracts.xml",
+      "assessment": "Montero primary abstract identifies early mitochondrial priming as a measured death-signaling endpoint. Ryan primary methods abstract identifies mitochondrial outer-membrane response. Selected Fraser primary introduction/caption passages support permeabilized-cell context and cytochrome-c release; no assay settings are reproduced.",
+      "wholePaperRead": false,
+      "sourceFigureCopied": false
+    }
+  },
+  "nativeAndDisplayReview": {
+    "nativeBothThemes": "Personally inspected fresh independent native screenshots",
+    "pageWidths": [
+      1100,
+      390
+    ],
+    "pageBothThemes": "Personally inspected fresh independent figure/caption article screenshots",
+    "theaterBothThemesBothWidths": "Personally inspected fresh independent theater screenshots; all 28 combinations open",
+    "capturedImageAndCaptionFit": true,
+    "descriptiveAltMatchesNative": true,
+    "noHorizontalDocumentOverflow": true,
+    "nativeTextOutOfBounds": 0,
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererVerifiedExactBlobCount": 87,
+    "fixtureScope": "Private article/theater/theme fixture, not full app, authentication, navigation or live delivery",
+    "knownInheritedReaderIssue": "Escape closes theater but activeElement returns to BODY; no focus-return repair or full accessibility approval claimed",
+    "inspectionBoards": [
+      "inspection-boards/260.png",
+      "inspection-boards/page-260.png",
+      "inspection-boards/theater-260.png"
+    ]
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+        "sha256": "032d89ec8d887aced2ddb308b3cfa0ac52eff812683476ab88aa8da6a6108b1b"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+        "sha256": "be62c763f166c6d17efcb726de835e2078286133bb6b1ebafc8a21d6f1cdf57e"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+        "sha256": "aa923cd6d78c746d2b42589f9de7b503d76f15cbbb0ab62014fd256371025227"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cell-boundary-mitochondria-and-priming-b11-v1.txt",
+        "sha256": "dca16ae9e2e79739291291e2a0687b79ef6c8e9d78228afcc495339fd2921eb6"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cell-boundary-mitochondria-and-priming-b11-v1-provenance.json",
+        "sha256": "5cc8ff21096119f810f6d9c280f913ae54f7a4210529f4a3164968d725dbbe0c"
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+        "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99"
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+        "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b"
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1-independent-owner-review.json",
+        "sha256": "7dcdf5e5af47c5263017bf4137e74ed68ed46a0a98a784b89950b198b9d74fa0"
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1.txt",
+        "sha256": "296ce609ca6f8b9e979e8d5bc333a593d1fe0331320b423ea75213d24a613d6c"
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1.provenance.json",
+        "sha256": "12e107e518ea4dd043795b9e419cb8782609cc36d5a99b0a09b80537b0c8597b"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/independently-retrieved-primary-abstracts.xml",
+        "sha256": "65b6ec11f7ab47f8aa709c33f54ce08b6b7b3507fa6a22d7f9720db2e2cd0b51"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/retrieval.json",
+        "sha256": "396a2bcf463e156fccc3e70dfc8af7c7300093ef7c97e2b11369ab4c04472a8c"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/source-consultation.private.json",
+        "sha256": "2a2b295e2b9791753df8281aed41afe0d3dbe68d8a699da791b72bc5afb43005"
+      }
+    ],
+    "retainedGuards": {
+      "sharedOwner": {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+        "sha256": "250fc7cf1be4409694f7b6e012727c874c7dbcc9078f647fef4989ea90da3219"
+      },
+      "assetsAndSupport": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+          "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+          "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1-independent-owner-review.json",
+          "sha256": "7dcdf5e5af47c5263017bf4137e74ed68ed46a0a98a784b89950b198b9d74fa0"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1.txt",
+          "sha256": "296ce609ca6f8b9e979e8d5bc333a593d1fe0331320b423ea75213d24a613d6c"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/apoptosis-outer-membrane-v1.provenance.json",
+          "sha256": "12e107e518ea4dd043795b9e419cb8782609cc36d5a99b0a09b80537b0c8597b"
+        }
+      ],
+      "scope": "Exact retained native/support references verified against read-only source checkout; creator attribution not replaced"
+    },
+    "sourcePreimageSHA256": "88f0eb9834e84fe75ac3b3faf3647651ef014651f1b888e532d04af13c7fd97b",
+    "sourcePreimageCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "inverseInsertionVerified": true,
+    "authorManifestSHA256": "357b3c22b3351e7fb10304433607e7195a0ecc68420c529e3cc0e004d7f4cf90",
+    "reviewedPublicFilesExactCount": 5,
+    "allPublicCandidateFilesExactCount": 35
+  },
+  "issues": [],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "publication": "not started",
+  "delivery": "not started",
+  "rootSoleIntegratorPublisher": true
+}

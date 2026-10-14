@@ -31,6 +31,10 @@ Biological products make this harder: living cells and complex formulations vary
 
 ## How it works
 
+<img src="./images/old-new-lots-and-evidence-bridge-b10-v1-light.svg" alt="One cellular starting sample splits, where suitable, between old and new manufacturing processes. Paired lot vials lead to matched comparisons of identity, composition, activity, impurities and stability. A dashed conditional connector links those comparisons to earlier quality, safety and efficacy evidence, with additional evidence shown as an open question. Similar readouts alone do not establish clinical equivalence or authorization." data-theme-pair>
+
+*Compare the old and new lots against the properties the change could affect. Matching one readout leaves the evidence bridge open; more evidence may be needed.*
+
 A change may affect a manufacturing site, material, equipment, scale, culture conditions, formulation or preservation step. First describe what changed and what product properties it might alter.
 
 Those important properties are often called **critical quality attributes**. They may include identity, cell composition, impurity levels or relevant biological activity. The right set depends on the product and mechanism.

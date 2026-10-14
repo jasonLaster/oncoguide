@@ -1,0 +1,10 @@
+Actual original authored SVG direction
+Author: agent:/root/batch10_author_group2
+Tool: local Python SVG authoring; no image model call.
+Source: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: Distinguish consuming tissue from copying data
+Scene: A finite tissue block becomes a smaller remaining block as sections are allocated to slides and extraction. One-way arrows carry physical material into those uses; stored slides can remain, while extraction changes the material and loses its original architecture. A separate digital dataset branches into two copies with no reverse arrow to the original block. No universal section thickness, test count or allocation is prescribed.
+Accuracy guardrails, verbatim: Separate physically consumed sections/material from reusable digital copies. Tissue budgets, section thickness and remaining analyte depend on the archive; do not prescribe universal allocation or imply the original material can be regenerated.
+Both themes: identical geometry, objects, labels, connectors; warm pale ground and dark ink versus quiet deep ground and pale ink. Arial/Helvetica, minimum label 28 px; native 600 x 1000. All drawings schematic; no measured quantities.
+Renderer: 5cb06c95f00ceb74ab86b1f46f5face9d49497e0.
+Clinical and learner review pending. Original creators of retained art remain unknown unless already documented.

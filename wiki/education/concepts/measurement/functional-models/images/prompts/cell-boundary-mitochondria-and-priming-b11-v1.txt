@@ -1,0 +1,14 @@
+Source-code SVG design brief, not an image-model prompt or call.
+{
+  "id": "next-gap-260",
+  "owner": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+  "targetSection": "## How it works: a peptide challenge tests the death pathway",
+  "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+  "learnerTask": "Locate the permeabilized cell membrane versus mitochondrial membrane and interpret priming separately from death.",
+  "gap": "Matched-exposure flow does not show the compartment challenged or cytochrome-c readout.",
+  "accuracyGuardrails": "Show cell-membrane permeabilization separately from mitochondrial outer-membrane response. Priming/cytochrome-c readouts are assay-specific and do not themselves prove intact-cell killing or patient sensitivity."
+}
+The canonical apoptosis art shows the mitochondrial outer-membrane pore. This extension locates that membrane inside the separately permeabilized cell boundary and contrasts assay-specific readout with independent death and clinical endpoints.
+A high-level cell cutaway shows a gapped, permeabilized cell boundary around a mitochondrion. A separate mitochondrial zoom distinguishes outer and inner membranes, cytochrome c initially between them, and possible release into cytosol. A final comparison separates mitochondrial priming readout, intact-cell death measurement and clinical benefit without a protocol or experimental settings.
+Caption: The assay opens access through the cell boundary, then reads a mitochondrial response. Priming, intact-cell death and clinical benefit remain separate endpoints.
+Flat outlined scientific shapes, rounded panels, repeated toy objects, sans-serif 26px body labels. Theme geometry and data identical. No protocol, optimization, therapeutic design, sequence or dose.

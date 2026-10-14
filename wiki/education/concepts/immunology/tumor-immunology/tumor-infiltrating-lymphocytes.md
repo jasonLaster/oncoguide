@@ -78,6 +78,18 @@ Different lymphocytes can support, restrain or accompany a response. Presence ca
 
 ## Worked example and try it
 
+<img src="../../measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg" alt="A fictional tissue schematic excludes malignant nests from eligible stroma, then pools five equal stromal-area units containing one occupied unit to show 20 percent stromal-area infiltration. This is an area estimate, not a cell count." width="780" height="1450" data-theme-pair />
+
+*Eligible stroma supplies an area denominator; malignant nests are a separate compartment.*
+
+The reused diagram pools fictional regions to reach 20%. The example below uses 0.4/2 mm² to reach the same area percentage; neither diagram is a required pixel-counting workflow. Now switch questions to a separate marker-based count:
+
+<img src="./images/counted-lymphocyte-denominator-v1-light.svg" alt="A fictional ten-by-ten array contains 100 counted lymphocytes, of which 30 blue circles are CD8 T cells and 70 purple circles are other lymphocytes. The 30% counted-cell fraction differs from the stromal-area percentage in the reused diagram." width="600" height="700" data-theme-pair />
+
+*Thirty CD8 cells among 100 counted lymphocytes means 30% of that counted population.*
+
+**Read the denominator:** Which figure measures a fraction of all cells in the tumor? **Answer:** Neither. The first uses eligible stromal area; the second uses counted lymphocytes. Neither establishes cancer specificity or useful killing.
+
 A fictional breast section has 2 mm² of eligible tumor-associated stroma, with an estimated 0.4 mm² occupied by mononuclear inflammatory cells. A separate marker-based count identifies 30 CD8 T cells among 100 counted lymphocytes. Are both “30% TILs”?
 
 **Answer:** No. The illustrative stromal-area calculation is 0.4/2 × 100 = **20%**. The CD8 fraction is 30/100 = **30% of the counted lymphocytes**. Neither is the fraction of all cells in the tumor. The breast [stromal-TIL scoring method](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring) is a semiquantitative area assessment that includes lymphocytes and plasma cells, not a CD8 count. [Salgado et al., Table 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6267863/).

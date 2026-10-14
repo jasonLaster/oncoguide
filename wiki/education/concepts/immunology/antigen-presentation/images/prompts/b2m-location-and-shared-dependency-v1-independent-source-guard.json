@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-249",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "d9966972f98de63790c969c1e99166ac79252d55fb106a79c991a00627842591",
+  "scope": "Independent high-level mechanism and native task-fit source guard; no clinical result recertification, individual treatment inference, methods, sequences, constructs, protocols or dosing guidance.",
+  "metadataGate": {
+    "candidate": "sensitive:false; no sensitive tag or redacted metadata; checked before body",
+    "publicOwnerRead": "entire assigned public owner, including authored teaching and inserted visual; generated navigation recognized separately",
+    "linkedRestrictedCaseBodiesRead": false
+  },
+  "sourceReadDepth": "Fresh indexed primary abstracts and bibliographic records, read in full; no full-paper methods read",
+  "primarySources": [
+    {
+      "pmid": "27433843",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27433843/",
+      "supportAndLimit": "One metastatic-melanoma relapse linked a truncating B2M alteration to lost class-I surface expression; this supports a possible functional mechanism, not any-variant loss or a breast-cancer frequency.",
+      "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    },
+    {
+      "pmid": "3309677",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3309677/",
+      "supportAndLimit": "Primary HLA-A2 structure supports distinct membrane-proximal assembly and peptide-binding groove. The visual is schematic, not an atomic model.",
+      "title": "Structure of the human class I histocompatibility antigen, HLA-A2.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/hla-structure-primary-abstract.xml",
+      "sourceXMLSHA256": "73566578bb3a0e68018f9b91ecd3f735b0cacfda283113df3d713256fb5299a6"
+    },
+    {
+      "pmid": "8316295",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8316295/",
+      "supportAndLimit": "Primary HLA-DR1 structure identifies class-II alpha/beta heterodimers; this supports the different assembly boundary, not a universal claim about every antigen-presentation pathway.",
+      "title": "Three-dimensional structure of the human class II histocompatibility antigen HLA-DR1.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/class-ii-primary-abstract.xml",
+      "sourceXMLSHA256": "dbebb33a21fbff9506bdeb54847e410b0f824c06f1c9f998efb7bff8c6875690"
+    }
+  ],
+  "accessLimits": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459467/",
+      "result": "NCBI browser-check/reCAPTCHA; chapter body not available through web open; no chapter full-text credit claimed"
+    }
+  ],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "pageSHA256": "c5d193b9402f0004f368d64ecd2399aeb7cf598525f73b82d127149b81a0f362",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate B2M in a class-I assembly and compare losing one allele with a shared assembly defect affecting multiple class-I targets.",
+    "gap": "The support-piece analogy and text are strong, but no picture locates B2M or contrasts the breadth of these two defects. Reuse the existing APM/HLA physical reference with a small allele-versus-shared-dependency comparison rather than a separate elaborate image.",
+    "accuracyGuardrails": [
+      "A variant does not establish complete functional loss.",
+      "Class II does not share this B2M dependency.",
+      "Reduced class I is not sufficient proof of NK killing."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+      "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+      "theme": "light",
+      "bytes": 20682
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-dark.svg",
+      "sha256": "74126139b76eca7cb57cc66bc8ca87440d6fb3fd4063dd2656e5de21eee76f7a",
+      "theme": "dark",
+      "bytes": 20682
+    }
+  ],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0
+}

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1420" viewBox="0 0 780 1420" role="img"><title>Same target, different tissue</title>
+<rect width="780" height="1420" fill="#15202b"/>
+<text x="38" y="52" fill="#eff4f8" font-family="Arial,sans-serif" font-size="34" font-weight="700">Same target, different tissue</text>
+<text x="38" y="98" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Fictional recognition comparison</text>
+<rect x="28" y="135" width="724" height="330" rx="24" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="50" y="182" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">1  Intended X on tumor</text>
+<circle cx="182" cy="311" r="62" fill="#406e8e" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="170" cy="316" r="21.7" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="154.1" cy="286.2" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="213.0" cy="329.6" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="203.7" cy="276.9" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="549" cy="311" r="85" fill="#a35372" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="537" cy="316" r="29.749999999999996" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="510.75" cy="277.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="591.5" cy="336.5" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="578.75" cy="264.25" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<path d="M244,311 L315,311" fill="none" stroke="#406e8e" stroke-width="12"/>
+<path d="M315,311 L342,281" fill="none" stroke="#406e8e" stroke-width="10"/>
+<path d="M315,311 L342,341" fill="none" stroke="#406e8e" stroke-width="10"/>
+<path d="M464,311 L399,311" fill="none" stroke="#a35372" stroke-width="12"/>
+<rect x="344" y="281" width="55" height="60" rx="10" fill="#e8c374" stroke="#c3cfda" stroke-width="2"/>
+<text x="350" y="322" fill="#243343" font-family="Arial,sans-serif" font-size="30" font-weight="700">X</text>
+<text x="61" y="427" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Engineered cell</text>
+<text x="453" y="427" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Tumor cell</text>
+<text x="300" y="247" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Recognition</text>
+<text x="50" y="458" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Same X</text>
+<rect x="28" y="490" width="724" height="330" rx="24" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="50" y="537" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">2  Intended X on healthy tissue</text>
+<circle cx="182" cy="666" r="62" fill="#406e8e" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="170" cy="671" r="21.7" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="154.1" cy="641.2" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="213.0" cy="684.6" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="203.7" cy="631.9" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="549" cy="666" r="85" fill="#698f80" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="537" cy="671" r="29.749999999999996" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="510.75" cy="632.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="591.5" cy="691.5" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="578.75" cy="619.25" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<path d="M244,666 L315,666" fill="none" stroke="#406e8e" stroke-width="12"/>
+<path d="M315,666 L342,636" fill="none" stroke="#406e8e" stroke-width="10"/>
+<path d="M315,666 L342,696" fill="none" stroke="#406e8e" stroke-width="10"/>
+<path d="M464,666 L399,666" fill="none" stroke="#698f80" stroke-width="12"/>
+<rect x="344" y="636" width="55" height="60" rx="10" fill="#e8c374" stroke="#c3cfda" stroke-width="2"/>
+<text x="350" y="677" fill="#243343" font-family="Arial,sans-serif" font-size="30" font-weight="700">X</text>
+<text x="61" y="782" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Engineered cell</text>
+<text x="453" y="782" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Healthy cell</text>
+<text x="300" y="602" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Recognition</text>
+<text x="50" y="813" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Same X</text>
+<rect x="28" y="845" width="724" height="330" rx="24" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="50" y="892" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">3  Unintended Y, no X present</text>
+<circle cx="182" cy="1021" r="62" fill="#406e8e" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="170" cy="1026" r="21.7" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="154.1" cy="996.2" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="213.0" cy="1039.6" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="203.7" cy="986.9" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="549" cy="1021" r="85" fill="#698f80" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="537" cy="1026" r="29.749999999999996" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="510.75" cy="987.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="591.5" cy="1046.5" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="578.75" cy="974.25" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<path d="M244,1021 L315,1021" fill="none" stroke="#406e8e" stroke-width="12"/>
+<path d="M315,1021 L342,991" fill="none" stroke="#406e8e" stroke-width="10"/>
+<path d="M315,1021 L342,1051" fill="none" stroke="#406e8e" stroke-width="10"/>
+<path d="M464,1021 L399,1021" fill="none" stroke="#698f80" stroke-width="12"/>
+<path d="M344 991 L399 1005 L399 1037 L344 1051 Z" fill="#796398" stroke="#eff4f8" stroke-width="3"/>
+<text x="350" y="1032" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="700">Y</text>
+<text x="61" y="1137" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Engineered cell</text>
+<text x="453" y="1137" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Healthy cell</text>
+<text x="300" y="957" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Recognition</text>
+<text x="50" y="1168" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Different molecular feature: Y</text>
+<text x="38" y="1230" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Contact can lead to injury; injury needs testing.</text>
+<text x="38" y="1277" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Staining alone does not show living accessibility.</text>
+<text x="38" y="1324" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">No incidence estimate or safety certificate.</text>
+<text x="38" y="1371" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Shapes show identity; they are not structures.</text>
+</svg>

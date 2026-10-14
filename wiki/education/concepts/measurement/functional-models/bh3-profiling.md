@@ -31,6 +31,17 @@ Imagine testing how easily a safety catch releases when you apply a standard pus
 
 ## How it works: a peptide challenge tests the death pathway
 
+<div class="cartoon-frame">
+<img src="./images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg" width="600" height="1270" alt="A high-level cell cutaway shows a gapped, permeabilized cell boundary around a mitochondrion. A separate mitochondrial zoom distinguishes outer and inner membranes, cytochrome c initially between them, and possible release into cytosol. A final comparison separates mitochondrial priming readout, intact-cell death measurement and clinical benefit without a protocol or experimental settings." data-theme-pair>
+<p class="cartoon-caption">The assay opens access through the cell boundary, then reads a mitochondrial response. Priming, intact-cell death and clinical benefit remain separate endpoints.</p>
+</div>
+
+The [apoptosis cutaway](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family) locates cytochrome c between the mitochondrial membranes before release.
+
+**Read the cutaway:** Which boundary provides assay access, and which membrane gives the mitochondrial readout?
+
+**Answer:** The outer cell boundary is permeabilized for assay access. The mitochondrial outer membrane can release cytochrome c from between the mitochondrial membranes into the cytosol. That response is distinct from a separately measured intact-cell death endpoint.
+
 **BH3** means **BCL-2 homology 3**, a protein region involved in death signaling. BCL-2 names one member of a larger protein family. Some members oppose apoptosis, including BCL-2, BCL-XL and MCL-1. Others promote it. Protein abundance alone misses these interactions. [Ryan and Letai 2013](https://doi.org/10.1016/j.ymeth.2013.04.006)
 
 When sufficiently activated, the pore-forming proteins BAX and BAK can make the mitochondrial outer membrane permeable. This releases **cytochrome c**, a mitochondrial protein that helps start downstream death machinery. **Priming** describes how close this system is to the apoptotic threshold. A larger response to the same defined challenge can indicate greater priming. [Fraser et al. 2019](https://doi.org/10.1007/978-1-4939-8861-7_4)

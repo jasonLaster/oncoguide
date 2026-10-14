@@ -1,0 +1,12 @@
+Learning question: Compare PD-1/PD-L1/PD-L2 with CD28/CTLA-4 shared-ligand contacts
+Frozen gap: Table and outcome flow omit distinct molecular contacts and nonexclusive sites
+Reuse first: wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md
+Extension rationale: The shared checkpoint figure explains intracellular regulation and ligand capture. This extension adds the missing partner inventory and contact-specific blockade contrast; it does not redraw the capture mechanism.
+Technique: original source-code SVG, authored by agent:/root/batch11_immune_address_author; no image-model call.
+Panels: Block a particular contact; exact visible labels and geometry in ../checkpoint-partners-and-selective-blockade-v1-light.svg.
+"blocking PD-L1 not PD-L2; no HLA restoration or all-cell awakening; tissue injury possible"
+Style: flat outlined cell/protein cartoon; 600px vertical figure; 26px minimum body labels; identical light/dark geometry.
+High-level education only. Icons and counts are schematic, not molecular coordinates or measured data. No sequences, engineering methods, doses, regimens or optimization.
+Alt: PD-1 contacts PD-L1 or PD-L2; a PD-L1-blockade scene interrupts only the PD-L1 contact. A separate comparison shows CD28 and CTLA-4 sharing CD80/CD86 partners. The figure does not assign exclusive sites or guarantee response.
+Caption: Blocking PD-L1 leaves the PD-1–PD-L2 contact unblocked directly; CTLA-4 shares different partners with CD28.
+Exercise: Does a PD-L1 blocker directly block PD-L2? **Answer:** No. Partner identity matters, and checkpoint blockade does not restore missing HLA.

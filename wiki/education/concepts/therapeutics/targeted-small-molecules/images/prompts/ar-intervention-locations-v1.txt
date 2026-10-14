@@ -1,0 +1,5 @@
+Original source-code SVG construction brief. No image-generation call.
+Actual creative author: agent:/root/batch11_pathology_symptoms_author
+Four panels follow spatial state: hormone outside, receptor inside boundary, receptor interacting at DNA within a nuclear circle, variant silhouette with dashed missing binding region. Antagonist is a different shape from hormone. Generic functional map, not molecular binding structure. Effect varies by product/receptor/context; expression not dependence, variants alter binding, no cross-disease benefit. No new clinical outcome claims.
+Frozen learner task: Compare hormone supply, AR binding and nuclear transcription
+Guardrails: "expression not dependence; variants alter binding; no cross-disease benefit"

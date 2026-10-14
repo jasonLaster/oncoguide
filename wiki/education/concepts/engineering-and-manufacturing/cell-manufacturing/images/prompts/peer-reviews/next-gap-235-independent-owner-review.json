@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-235",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+  "author": "agent:/root/batch10_author_group2",
+  "authorRole": "Actual seven-new-illustration private packet author",
+  "creativeAuthor": "agent:/root/batch10_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author; retained source text and Mermaid creators unknown",
+  "reviewer": "agent:/root/batch10_review_group2",
+  "independentReviewer": "agent:/root/batch10_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:09:17.553273+00:00",
+  "reviewedAtUTC": "2026-10-14T00:09:17.553273+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/133",
+  "frozenRowSHA256": "8dbc126919f4640422175c2c1a8cb7d38dda5339439a252071a29901e5057917",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Focused correction PASS: inserted owner alt, native descriptions and TXT now accurately name circular cell symbols of differing colors/sizes. Both fresh native theme captures are SHA-identical to their predecessor pixel captures. Mixed starting-material meaning and all existing task guards remain unchanged; no new scientific claim was added.",
+    "frozenPageSHA256": "158278f0d5c3a0737fb7d7b2ee71a49f5e52f2b0afeecb0a8f27cdd846f1e6e7",
+    "baselinePageSHA256": "158278f0d5c3a0737fb7d7b2ee71a49f5e52f2b0afeecb0a8f27cdd846f1e6e7",
+    "actualTeachingPreimageSHA256": "f21d1de9b6ea596fac83a2b26f01e9b964213302000a0a5baf3deced3ef138a7",
+    "learnerTask": "See which blood components are collected versus returned and why a leukopak remains a mixed starting material.",
+    "gap": "Text describes a separation circuit without a compartment or flow sketch.",
+    "accuracyGuardrails": "Show collection and return streams as a simplified circuit and the leukopak as mixed material. Do not imply complete recovery of a selected population or a universal collection protocol.",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 remains the immutable original audit page anchor; current b370 teaching preimage is separately verified. Frozen task/row unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+      "sha256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629",
+      "nativeSHA256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629",
+      "bytes": 5048,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+      "sha256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412",
+      "nativeSHA256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412",
+      "bytes": 5048,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+        "sha256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+        "bytes": 7812
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+        "sha256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629",
+        "bytes": 5048
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+        "sha256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412",
+        "bytes": 5048
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/leukapheresis-collection-and-return-streams-b10-v1.txt",
+        "sha256": "10e2e0318fdf4a86e608af4217544db6127ad66ec37c908c86ca73ab89decdf8",
+        "bytes": 1367
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/leukapheresis-collection-and-return-streams-b10-v1-provenance.json",
+        "sha256": "11aefb93494daef6ef471519606d7ae5401d1f266b66033d53a0baf65c31667e",
+        "bytes": 6134
+      }
+    ],
+    "currentCandidateOwnerSHA256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "193d1ef2ba2eb15ae6a0fbb4eee0c1801d95c286e8608202710dcad88f878b73",
+    "authorInventorySHA256": "fb5b489a3b0343e53ef9eb62a29e6f03fb0a85b95bd27ed7cf0c449c92eb7bc3",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "sourcePreimageSHA256": "f21d1de9b6ea596fac83a2b26f01e9b964213302000a0a5baf3deced3ef138a7",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Original inverse-preservation proof remains in predecessor; semantic diff verifies correction235 changes only inserted alt, while239/241 owner MD unchanged. No full original-body re-review.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "predecessorAuthorSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "focused11FileDeltaBound": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/leukapheresis",
+      "readDepth": "Parsed official dictionary definition, lines9-15 personally read.",
+      "supports": "Collection and return circuit.",
+      "accessStatus": "Accessible",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    },
+    {
+      "url": "https://www.fda.gov/media/156896/download",
+      "readDepth": "January2024 guidance selected parsed IV.B lines332-379 and IV.D.2 lines781-816, plus starting-material lines207-211; not full guidance.",
+      "supports": "Mixed cellular input and variability; same input old/new comparison when possible; broader characterization beyond release criteria.",
+      "accessStatus": "Accessible",
+      "limit": "No product process validation or clinical inference",
+      "primary": true,
+      "focusedReviewQualification": "Inherited actual bounded independent reading from predecessor receipt; source not fetched or recertified in focused correction review."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Focused correction-only independent semantic/dependent-custody and fresh corrected native/inline/theater/mobile390/desktop pixel assessment. Four unaffected PASS decisions and full predecessor science remain unchanged.",
+    "sourceReadDepth": "No new sources accessed. Original selected primary parsed sections and one abstract are preserved with their original read bounds; no new full-source/full-paper/history re-review.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 0,
+    "carrierLimits": "Own fresh screenshots via read-only copied successor server at4643, initially unavailable. Successor CSS/main identical; compiled JS/app differ only source-directory comments after normalization. Original pin verification inherited, not rerun. No production navigation/header/backend, physical mobile, touch, cross-browser, numerical contrast or whole-page accessibility certification. Native/mobile boards fully viewed; desktop image-region boards tool-resized to2048px remain readable. Full captures preserved."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 16.1459375,
+    "minMobileDefaultPreviewLabelPx": 15.96,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but returns focus to BODY rather than image trigger; unchanged pinned runtime defect. No runtime repair or complete keyboard accessibility approval.",
+    "contrastScope": "Both themes visually inspected for legibility; no numerical whole-page/nontext contrast certification claimed.",
+    "observedLayoutIssues": []
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-light-reading.png",
+      "sha256": "9b44357d30faabc1ca65177e402dd109508c259d48285736548a121c5d07ec10"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-dark-reading.png",
+      "sha256": "f077032ebf454a6af3623f37e6c4b0bd9c2b6241bc48a1a114d4034bb7595fb3"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-light-mobile-inline.png",
+      "sha256": "7ad010a08962e0190028f14cb55fff84599fd34f149589efc931b1264953d3c0"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-light-mobile-theater.png",
+      "sha256": "b042958cad4bfb3a16c10cff05eb0e8da8bbcaa9d9671f1fa05cad3d8ef3bf23"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-light-desktop-inline.png",
+      "sha256": "188ce38a4828171f96dfb21b85e73e5aa6328ed6e70d7de9f0a448dacdc56129"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-light-desktop-theater.png",
+      "sha256": "78301907097b7476aafcc6b6b3c37bd009090246962d8dc966d234cb57108070"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-dark-mobile-inline.png",
+      "sha256": "90ab6f8983ab71c3445dc361375f7038893147b131305b03bb608116243a3c64"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-dark-mobile-theater.png",
+      "sha256": "8bf24e10807829af1e34a85bcb31a0ae551f234dd918c3ebd49ba124abc2d1ee"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-dark-desktop-inline.png",
+      "sha256": "2ff52fd3233d171dc4514525450d0813c5c7547038f67b95994866afdd1bffbf"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/captures/next-gap-235-dark-desktop-theater.png",
+      "sha256": "33c82b818d8d9e3ac89299b2d988fff0bdef65fc80d31bbbd0ee26b59cef12d6"
+    }
+  ],
+  "inspectionBoards": [
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/235-native.png",
+      "sha256": "a1534866d3eaf6bd86c055a113db1960782b81258520145c44de441e238f5666",
+      "mode": "native",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/235-mobile.png",
+      "sha256": "39800af98b341a334cab45599b7081770df1b69e1a77af044ccc4efd6891c9a6",
+      "mode": "mobile",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/focused-successor-01/inspection-boards/235-desktop.png",
+      "sha256": "f03299513d49de2a6cad40f90dae09ccd72fe4457130e0d45fb9c470d15c83c5",
+      "mode": "desktop",
+      "personallyInspected": true
+    }
+  ],
+  "method": "Original Python-authored editable SVG; independent review used fresh Playwright captures",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "focusedCorrectionReview": {
+    "kind": "same-independent-reviewer-focused-successor-assessment",
+    "onlyAffectedCorrectionSpansReviewed": true,
+    "predecessorReceiptPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/task-bindings/next-gap-235-independent-owner-review.json",
+    "predecessorReceiptSHA256": "b606b2db783f6b87608af2239b0817d4df37a4cdb3622f676c9a058fea4d1f28",
+    "predecessorVerdict": "REVISE",
+    "wholeREVISESummaryPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/review-summary.json",
+    "wholeREVISESummarySHA256": "21fc453df092bf17637afcfbd034c37c7aceb96df3136562f59521d62ccdf12e",
+    "wholeREVISESealPath": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/seal.json",
+    "wholeREVISESealSHA256": "cdf28278ba45e092aecfe0254028263e09eb0b5cfeda29250675fed2496c7326",
+    "rejectedFindingsPreserved": [
+      {
+        "kind": "alt-native-mismatch",
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+        "node": "New inserted img alt: differently shaped lymphocyte and monocyte symbols",
+        "evidence": "Both native themes show same circular outline cells with different colors/sizes.",
+        "requested": "Describe schematic colored cell symbols or change shapes; preserve mixed collection interpretation and unrelated body. Update corresponding creative direction if needed."
+      }
+    ],
+    "correctionDisposition": "resolved",
+    "actualPixelChange": false,
+    "descriptionOnlyNativeChange": true,
+    "sourceScienceReviewRerun": false,
+    "noNewMedicalClaims": true,
+    "predecessorScienceVerdict": "PASS",
+    "scienceQualification": "Original bounded science/source reading remains the basis; focused review verifies no new claims. No new full-source, full-paper, whole-owner, or unaffected-task review.",
+    "authorSuccessorSealPath": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/seal.json",
+    "authorSuccessorSealSHA256": "193d1ef2ba2eb15ae6a0fbb4eee0c1801d95c286e8608202710dcad88f878b73",
+    "correctedCompositeInventorySHA256": "fb5b489a3b0343e53ef9eb62a29e6f03fb0a85b95bd27ed7cf0c449c92eb7bc3",
+    "exactChangedPublicFileCount": 11,
+    "changedFilesForTask": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+        "rejectedPreimageSHA256": "9d5a9de60dd75cdfb9e01a9a3f0e6a7bfdd42f67af6032a3154328a3f58cd8a6",
+        "successorSHA256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412",
+        "bytes": 5048
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+        "rejectedPreimageSHA256": "123afbe50fe0107960a9700a89795f354f1f3b1bc8960503c0a199f92376dc79",
+        "successorSHA256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629",
+        "bytes": 5048
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/leukapheresis-collection-and-return-streams-b10-v1-provenance.json",
+        "rejectedPreimageSHA256": "70bdc02051d19d9ca4a642498fdb1fd4d4c602e13fe637ff5a0c114d46f631d8",
+        "successorSHA256": "11aefb93494daef6ef471519606d7ae5401d1f266b66033d53a0baf65c31667e",
+        "bytes": 6134
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/leukapheresis-collection-and-return-streams-b10-v1.txt",
+        "rejectedPreimageSHA256": "5594f3dd0d8e25683bcab2261c17fd0bddad69da6fd5bc3c9d959f7e5ad52c9b",
+        "successorSHA256": "10e2e0318fdf4a86e608af4217544db6127ad66ec37c908c86ca73ab89decdf8",
+        "bytes": 1367
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+        "rejectedPreimageSHA256": "1d5645e0a76916150f9414c6167b33983f12bffb23d62f3d1dabc3b17e717afa",
+        "successorSHA256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+        "bytes": 7812
+      }
+    ],
+    "targetedActualMeasurements": [
+      {
+        "id": "next-gap-235",
+        "theme": "light",
+        "pixelsIdenticalToPredecessor": true
+      },
+      {
+        "id": "next-gap-235",
+        "theme": "dark",
+        "pixelsIdenticalToPredecessor": true
+      }
+    ]
+  }
+}

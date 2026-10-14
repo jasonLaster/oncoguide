@@ -1,0 +1,12 @@
+Actual authored vector brief
+Cell lines: a maintained culture with a history
+
+Central learner task: Track line identity through passage history while separating authentication, contamination and phenotype.
+Original gap: No history map locates source, passage and independent quality checks.
+Frozen accuracyGuardrails (verbatim): "Keep source, passage history, authentication, contamination and phenotype as separate checks. A shared line name does not guarantee identical biology; do not invent universal drift rates."
+
+Composition: A documented bank vial leads through transfer into a new culture vessel and then two illustrative passage branches. Each branch records passage and culture conditions. Three independent checks ask about authentication identity, contamination purity and relevant phenotype. A shared cell-line name does not guarantee identical biology; passage counts transfers and gives no universal division or drift rate.
+
+Create exact parallel light and dark 600-pixel-wide SVG scenes, with large readable Arial labels, concrete laboratory objects where relevant, consistent geometry and no invented empirical findings. Theme changes only palette. Numeric examples are invented teaching data, not measurements. Retained assets remain byte-identical with unknown original creator.
+
+Actual production: agent:/root/batch10_author_group3 manually specified SVG geometry and text via a local Python serializer. No image model or raster-generation tool was called. This brief is the actual creative design input, not a claim of an external model request.

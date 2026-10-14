@@ -1,0 +1,58 @@
+{
+  "kind": "original-authored-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch10_author_group2",
+  "originalRetainedCreators": "Unknown; no retained artwork paths were selected for these owners. Existing source authorship is preserved, not attributed to this agent.",
+  "model": null,
+  "imageModelCalled": false,
+  "method": "Python-authored SVG",
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "currentOwnerPreimageSHA256": "94357ae31b8c04137d438df2d6f90216a449415353704a717eef80058bec65e5",
+  "frozenPageSHA256": "94357ae31b8c04137d438df2d6f90216a449415353704a717eef80058bec65e5",
+  "frozenRowSHA256": "c63c9cfc80c976a30f6eee45b6b2ee2cbd0b575aa9e6dfd08dd8dd62846bcedf",
+  "learnerTask": "Distinguish expedited development/review support from an actual approval decision.",
+  "gap": "The reading-sequence diagram does not represent designation versus approval; the table currently carries the contrast alone.",
+  "accuracyGuardrails": "Draw designation/review support separately from approval and its intended use. No expedited program guarantees approval, a fixed timeline, superiority or individual access.",
+  "finalOwnerSHA256": "2c73f15e3d15e749372f1dc4a63f42c49897e46595010b6aa5ccec6ce0fba2a0",
+  "currentBodySHA256": "30ec13b885122ec9ea185717860ef7c1a5d73add6aeca201c72b55b11094f255",
+  "finalBodySHA256": "e6bb67dd8ed1d6ff79f53737e516d1d4148c4d6c1e7dfe3a906e93ffa721b526",
+  "outputs": [
+    {
+      "key": "next-gap-240",
+      "owner": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-light.svg",
+      "sha256": "28d94cf6f4b7baaf9152e64f4a413c90f46cdb8e9b957257ae4ffdc64d0753d9"
+    },
+    {
+      "key": "next-gap-240",
+      "owner": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status/prospective/wiki/education/concepts/access-and-regulation/approval/images/expedited-support-versus-approval-decision-b10-v1-dark.svg",
+      "sha256": "3414126b43abe3794ab51551dd61d2daef35415830cc1ee42e9ed984e3f7bccb"
+    }
+  ],
+  "promptSHA256": "f1fa352b21bb595a02aebb54874037a1e36e14dcf3fbd33adbf08be0deddc90f",
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": false,
+  "published": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "primarySourceChecks": [
+    {
+      "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+      "readLevel": "official parsed HTML main body lines 58-83",
+      "supports": "development and review program distinctions",
+      "limit": "No individual product status, deadline or access certification"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program",
+      "readLevel": "official parsed HTML main body lines 61-63",
+      "supports": "accelerated approval and benefit confirmation",
+      "limit": "No actual indication records inspected"
+    }
+  ],
+  "sourceCheckScope": "New illustration claims only; current teaching body retained byte-for-byte after inverse insertion. No full-page recertification."
+}

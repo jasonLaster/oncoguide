@@ -29,6 +29,18 @@ A shared support piece can affect many display cases. B2M is not the antigen bei
 
 ## How it works
 
+<img src="./images/processing-display-recognition-v2-light.png" alt="Five schematic panels show a common class-I route from protein fragments through TAP into the endoplasmic reticulum, loading with HLA-I and separate B2M, surface peptide–HLA display, and conditional contact with a compatible CD8 T-cell receptor." data-theme-pair>
+
+*Reference anatomy from the shared concept. The focused comparison below asks a different question.*
+
+<img src="./images/b2m-location-and-shared-dependency-v1-light.svg" alt="A class-I membrane complex locates peptide, heavy chain and separate B2M; illustrative allele 1 loss leaves 2 and 3, while a shared functional assembly defect can affect several displays. Class II has a different dependency." data-theme-pair />
+
+*Losing one allele and losing a shared class-I assembly function can affect different sets of targets.*
+
+**Read the picture:** Which panel affects a shared support? **Answer:** The lower comparison does. A B2M variant alone does not establish that functional defect.
+
+
+
 Classical [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) class I contains a heavy chain, a peptide and beta-2 microglobulin (B2M). Functional B2M supports normal assembly and surface expression. Many conventional CD8 T-cell responses depend on this display system.
 
 Loss of functional B2M can impair many class-I targets at once. That differs from losing a single HLA allele, which may leave other presenting alleles usable. Class-II presentation does not use B2M by the same mechanism.

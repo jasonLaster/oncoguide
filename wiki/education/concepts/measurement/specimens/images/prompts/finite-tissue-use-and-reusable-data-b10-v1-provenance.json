@@ -1,0 +1,159 @@
+{
+  "kind": "original-authored-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch10_author_group2",
+  "originalRetainedCreators": "Unknown; no retained artwork paths were selected for these owners. Existing source authorship is preserved, not attributed to this agent.",
+  "model": null,
+  "imageModelCalled": false,
+  "method": "Python-authored SVG",
+  "sourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "currentOwnerPreimageSHA256": "90708c7282f8c2113106adda7b8bf83c009544e63b7f5bc8ec68d4dc3223ba0b",
+  "frozenPageSHA256": "7c8459aa5d03641f2a2e5366763a12339b8ca29b5bf8c3551a23df79031b1af9",
+  "frozenRowSHA256": "c5d95baa98aeb974acbc9741b53a56628a9db1551f7b0d909ee44a9d542f36ea",
+  "learnerTask": "Distinguish consuming tissue from copying data",
+  "gap": "Current arrows describe reuse but do not show the irreversible allocation",
+  "accuracyGuardrails": "Separate physically consumed sections/material from reusable digital copies. Tissue budgets, section thickness and remaining analyte depend on the archive; do not prescribe universal allocation or imply the original material can be regenerated.",
+  "finalOwnerSHA256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+  "currentBodySHA256": "72fb6e63d898d66751c50ff3961053fe6ffb4024877547e357bdba23cc750b16",
+  "finalBodySHA256": "b8e8b5cb0029ba561545e3344d28410b3e46671b3d4f10cb2321938d1da276ff",
+  "outputs": [
+    {
+      "key": "next-gap-239",
+      "owner": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/prospective/wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+      "sha256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d"
+    },
+    {
+      "key": "next-gap-239",
+      "owner": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/specimen-custody-product-status-successor-01/prospective/wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+      "sha256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d"
+    }
+  ],
+  "promptSHA256": "939974f5d0b1a16a6e0690fe123cc2a7f54c66c466ddf12238313e160415ef1c",
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "canonicalAdoption": false,
+  "published": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "primarySourceChecks": [
+    {
+      "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf",
+      "readLevel": "selected parsed six-page excerpt: orientation/inking, mapped sections and section-code records",
+      "supports": "local ink/orientation keys and region-to-block identity",
+      "limit": "Fictional map, not patient-specific or a clearance/measurement rule"
+    },
+    {
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf",
+      "readLevel": "selected parsed PDF first page Scope and definitions; revision 1.0 (2025)",
+      "supports": "molecular-analysis scope; viability/culture excluded; allocated pieces",
+      "limit": "Not a viability recovery protocol"
+    }
+  ],
+  "sourceCheckScope": "New illustration claims only; current teaching body retained byte-for-byte after inverse insertion. No full-page recertification.",
+  "focusedCorrection": {
+    "author": "agent:/root/batch10_author_group2",
+    "rejectedAuthorSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "rejectedProvenanceSHA256": "c1774029f261ac5e7e992b60ddc9d7124e20cd2e35c4d8c305f7af29cb0fd839",
+    "requester": "agent:/root/batch10_review_group2",
+    "independentCorrectionReview": "pending",
+    "scope": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "operation": "Digital result panel and labels separated vertically, minimum font unchanged",
+        "literalReplacements": [
+          [
+            "x=\"12\" y=\"691\" width=\"576\" height=\"199\"",
+            "x=\"12\" y=\"679\" width=\"576\" height=\"211\""
+          ],
+          [
+            "x=\"32\" y=\"730\"",
+            "x=\"32\" y=\"718\""
+          ],
+          [
+            "x=\"46\" y=\"754\"",
+            "x=\"46\" y=\"770\""
+          ],
+          [
+            "x=\"254\" y=\"754\"",
+            "x=\"254\" y=\"770\""
+          ],
+          [
+            "x=\"445\" y=\"754\"",
+            "x=\"445\" y=\"770\""
+          ],
+          [
+            "M243 806L150 806",
+            "M243 822L150 822"
+          ],
+          [
+            "M357 806L432 806",
+            "M357 822L432 822"
+          ],
+          [
+            "x=\"300\" y=\"751\"",
+            "x=\"300\" y=\"761\""
+          ],
+          [
+            "x=\"92\" y=\"750\"",
+            "x=\"92\" y=\"760\""
+          ],
+          [
+            "x=\"491\" y=\"750\"",
+            "x=\"491\" y=\"760\""
+          ]
+        ]
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "operation": "Digital result panel and labels separated vertically, minimum font unchanged",
+        "literalReplacements": [
+          [
+            "x=\"12\" y=\"691\" width=\"576\" height=\"199\"",
+            "x=\"12\" y=\"679\" width=\"576\" height=\"211\""
+          ],
+          [
+            "x=\"32\" y=\"730\"",
+            "x=\"32\" y=\"718\""
+          ],
+          [
+            "x=\"46\" y=\"754\"",
+            "x=\"46\" y=\"770\""
+          ],
+          [
+            "x=\"254\" y=\"754\"",
+            "x=\"254\" y=\"770\""
+          ],
+          [
+            "x=\"445\" y=\"754\"",
+            "x=\"445\" y=\"770\""
+          ],
+          [
+            "M243 806L150 806",
+            "M243 822L150 822"
+          ],
+          [
+            "M357 806L432 806",
+            "M357 822L432 822"
+          ],
+          [
+            "x=\"300\" y=\"751\"",
+            "x=\"300\" y=\"761\""
+          ],
+          [
+            "x=\"92\" y=\"750\"",
+            "x=\"92\" y=\"760\""
+          ],
+          [
+            "x=\"491\" y=\"750\"",
+            "x=\"491\" y=\"760\""
+          ]
+        ]
+      }
+    ]
+  }
+}

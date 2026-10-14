@@ -1,0 +1,14 @@
+Source-code SVG design brief, not an image-model prompt or call.
+{
+  "id": "next-gap-258",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md",
+  "targetSection": "Common confusions",
+  "sharedCanonicalOwner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+  "learnerTask": "Distinguish one-allele DNA loss from expression or B2M failure",
+  "gap": "No paired DNA/display mechanism contrast",
+  "accuracyGuardrails": "Separate allele-specific DNA loss, lower expression and B2M/processing failure. Loss of one HLA allele is not loss of all class-I display or guaranteed immune escape/function/response."
+}
+The canonical copy-number diagram contrasts copy counts and sequence versions. This extension places allele-specific DNA evidence alongside possible surface consequences and distinguishes expression and B2M support.
+Three fictional mechanism panels pair HLA-A DNA tiles with schematic surface display: loss of placeholder allele A1 while A2 remains; retained A1 and A2 with reduced expression; and retained HLA-A tiles with impaired B2M support. Dashed links mark display effects as requiring separate measurement; other class-I alleles may remain after one allele is lost.
+Caption: An allele-specific DNA loss, reduced expression and impaired B2M support are different mechanisms. Measure current display separately.
+Flat outlined scientific shapes, rounded panels, repeated toy objects, sans-serif 26px body labels. Theme geometry and data identical. No protocol, optimization, therapeutic design, sequence or dose.

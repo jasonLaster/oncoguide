@@ -1,0 +1,152 @@
+{
+  "id": "next-gap-254",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+  "title": "Immune checkpoint inhibitor",
+  "group": 1,
+  "priority": "P1",
+  "recommendedMedium": "schematic",
+  "targetSection": "## How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+  "learnerTask": "Compare PD-1/PD-L1/PD-L2 with CD28/CTLA-4 shared-ligand contacts",
+  "gap": "Table and outcome flow omit distinct molecular contacts and nonexclusive sites",
+  "accuracyGuardrails": "blocking PD-L1 not PD-L2; no HLA restoration or all-cell awakening; tissue injury possible",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+    "pageSHA256": "897599158cfddce62e1b257773b563fe1f82b74d94d15602aa23a9a0899850e9",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare PD-1/PD-L1/PD-L2 with CD28/CTLA-4 shared-ligand contacts",
+    "gap": "Table and outcome flow omit distinct molecular contacts and nonexclusive sites",
+    "accuracyGuardrails": "blocking PD-L1 not PD-L2; no HLA restoration or all-cell awakening; tissue injury possible",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/357",
+    "oneBasedRow": 358,
+    "originalTaskRowSHA256": "4ff571cf2219d8194882e87ffd4bfe40a8949d8f74a05c6d7e9d1a9fe88bddce",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/357",
+  "currentOwnerActual": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+    "sha256": "adf6a75964c5c626a995d6f498b90bc0edb1b852e5442d65c863033d52c98de6",
+    "bytes": 10065,
+    "observedAtUTC": "2026-10-14T19:39:58.539557+00:00",
+    "immutableCommittedObservation": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "committedAndCurrentWorkingPreimagesEqual": true,
+    "metadataGate": "sensitive: false; no sensitive tag or redacted metadata; public concept only",
+    "bodyReadScope": "public authored mechanism and worked-example sections plus sources; no linked restricted case body",
+    "privatePreimage": "/tmp/education-next-visual-batch-11/selection/owner-preimages/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md"
+  },
+  "actualTargetHeading": "## How it works",
+  "reuseRequirement": {
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+    "policy": "Preserve frozen shared owner exactly. Reuse existing diagram before creating any addition; justify only the page-specific view missing here. Do not claim a new canonical source-fit owner or credit from an added embed.",
+    "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "ownerSHA256": "a22a449f0a983e3fd15264c022065f3de6bece4c7780aae74d91942da8610f50",
+    "privatePublicReference": "/tmp/education-next-visual-batch-11/selection/shared-owner-references/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+    "existingCanonicalAssignmentId": "next-gap-027",
+    "existingEmbeds": [
+      "<img src=\"./images/checkpoint-contact-capture-v1-light.png\" alt=\"Three scenes compare PD-1 regulation of CD28 signaling inside a T cell with CTLA-4 contact and subsequent capture of CD86 from a neighboring cell into a T-cell vesicle\" width=\"1024\" height=\"1536\" data-theme-pair>"
+    ]
+  },
+  "suggestedVisual": "Contact-specific contrast for PD-1 with PD-L1/PD-L2 and CD28/CTLA-4 sharing CD80/CD86; blockade is contact interruption, not restored HLA or guaranteed response.",
+  "existingPrimaryReference": {
+    "pmid": "28280247",
+    "title": "T cell costimulatory receptor CD28 is a primary target for PD-1-mediated inhibition.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28280247/",
+    "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+    "retrievedAbstract": true,
+    "localEvidence": "primary-reference-abstracts.xml"
+  },
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": null,
+  "creativeAuthor": "agent:/root/batch11_immune_address_author",
+  "originalCreator": "agent:/root/batch11_immune_address_author",
+  "originalCreatorStatus": "new source-code SVG only; reused artwork creators retained in untouched receipts",
+  "integrationAuthor": "root",
+  "stage": "private selection proposal",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "delivery": "pending",
+  "publication": "pending",
+  "creditNow": 0,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "assessorOfReusedArt": "agent:/root/batch11_immune_address_author",
+  "createdAtUTC": "2026-10-14T19:51:18.977178+00:00",
+  "method": "original source-code SVG; no image model invocation",
+  "model": null,
+  "imageCalls": 0,
+  "outputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+      "bytes": 7670,
+      "theme": "light"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/prospective/wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+      "bytes": 7670,
+      "theme": "dark"
+    }
+  ],
+  "briefPath": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/checkpoint-partners-and-selective-blockade-v1.txt",
+  "briefSHA256": "61b1ee11aba45b5ec41fdb658be1d35d8870ae276589dcac98e00f93310544f3",
+  "reusedArtAndSupport": [
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "sha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "bytes": 1659218,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "sha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "bytes": 1718880,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1-calls.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1-calls.json",
+      "sha256": "fb41a48079ad11ec0a5a457e28f9b4cd55df79a6babd41dac06d73d776857d67",
+      "bytes": 24708,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1-provenance.json",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1-provenance.json",
+      "sha256": "81494bc919ace21a594c7b4e3c032b2d6b71c719e284116da2034a31df42d3db",
+      "bytes": 6265,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1.txt",
+      "privatePath": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/private/retained/wiki/education/concepts/immunology/immune-regulation/images/prompts/checkpoint-contact-capture-v1.txt",
+      "sha256": "bdeb4bbee10f58da4a7723c547c563a22b02709d2aa77ca8c927b7ed063dff6f",
+      "bytes": 24906,
+      "action": "retain byte-for-byte; never integrate as new art",
+      "creator": "preserve existing receipt; UNKNOWN if absent"
+    }
+  ],
+  "reuseExtensionRationale": "The shared checkpoint figure explains intracellular regulation and ligand capture. This extension adds the missing partner inventory and contact-specific blockade contrast; it does not redraw the capture mechanism.",
+  "sourceReadDepth": "gated public owner/shared mechanism sections and sources; selected complete PubMed primary abstracts, no full methods",
+  "independentReview": "pending"
+}

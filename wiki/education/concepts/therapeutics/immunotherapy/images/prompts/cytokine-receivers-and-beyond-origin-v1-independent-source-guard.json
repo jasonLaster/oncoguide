@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-251",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+  "scope": "Independent high-level mechanism and native task-fit source guard; no clinical result recertification, individual treatment inference, methods, sequences, constructs, protocols or dosing guidance.",
+  "metadataGate": {
+    "candidate": "sensitive:false; no sensitive tag or redacted metadata; checked before body",
+    "publicOwnerRead": "entire assigned public owner, including authored teaching and inserted visual; generated navigation recognized separately",
+    "linkedRestrictedCaseBodiesRead": false
+  },
+  "sourceReadDepth": "Fresh indexed primary abstracts and bibliographic records, read in full; no full-paper methods read",
+  "primarySources": [
+    {
+      "pmid": "16484453",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16484453/",
+      "supportAndLimit": "Mouse experiments show different cytokine-antibody formulations can favor distinct T-cell populations; this supports receiver/formulation dependence, not universal clinical benefit.",
+      "title": "Selective stimulation of T cell subsets with antibody-cytokine immune complexes.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    },
+    {
+      "pmid": "25695689",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25695689/",
+      "supportAndLimit": "A specified engineered-TIL study reported serum cytokine exposure and toxicity despite intended local secretion; this supports local origin not guaranteeing confinement, not identical behavior of every cytokine product.",
+      "title": "Tumor-infiltrating lymphocytes genetically engineered with an inducible gene encoding interleukin-12 for the immunotherapy of metastatic melanoma.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    }
+  ],
+  "accessLimits": [],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+    "pageSHA256": "9cbdc936230de197c25509cb50341e050d629ff9858b2ad377fc2c38bdd97c23",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare one cytokine contacting distinct cell types and distributing beyond its origin",
+    "gap": "Flow lacks physical receivers and local-versus-systemic spread",
+    "accuracyGuardrails": "No fight-cancer instruction; receptor/state dependent; local production can spread; class not one indication",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+      "theme": "light",
+      "bytes": 5046
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+      "theme": "dark",
+      "bytes": 5046
+    }
+  ],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0
+}

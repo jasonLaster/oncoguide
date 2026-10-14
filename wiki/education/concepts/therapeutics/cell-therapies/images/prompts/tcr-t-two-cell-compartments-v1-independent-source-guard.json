@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-253",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "1ab5a92195333c158c18a6e221064876edec4ca34961ca3ce6c0acb012ebb292",
+  "scope": "Independent high-level mechanism and native task-fit source guard; no clinical result recertification, individual treatment inference, methods, sequences, constructs, protocols or dosing guidance.",
+  "metadataGate": {
+    "candidate": "sensitive:false; no sensitive tag or redacted metadata; checked before body",
+    "publicOwnerRead": "entire assigned public owner, including authored teaching and inserted visual; generated navigation recognized separately",
+    "linkedRestrictedCaseBodiesRead": false
+  },
+  "sourceReadDepth": "Fresh indexed primary abstracts and bibliographic records, read in full; no full-paper methods read",
+  "primarySources": [
+    {
+      "pmid": "16946036",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16946036/",
+      "supportAndLimit": "Early receptor-transfer study supports receptor instructions going into therapeutic lymphocytes, not the tumor.",
+      "title": "Cancer regression in patients after transfer of genetically engineered lymphocytes.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    },
+    {
+      "pmid": "31461748",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/",
+      "supportAndLimit": "Primary TCR-CD3 structure establishes paired alpha/beta recognition receptor associated with CD3 signaling assembly. The extension uses generic shapes and makes no stoichiometric/atomic claim.",
+      "title": "Structural basis of assembly of the human T cell receptor-CD3 complex.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/extra-primary-abstracts.xml",
+      "sourceXMLSHA256": "73ecf617115e13cd945d23f2302b4c50863fe6d40105fab82ea548883b274c07"
+    }
+  ],
+  "accessLimits": [],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+    "pageSHA256": "3dab337b37e1d4d53f162d35982fcf0194e05c8b35d38c758e0ba2658f40b0ea",
+    "targetSection": "## How it works",
+    "learnerTask": "Trace receptor instructions into T cells and source protein into peptide–HLA on tumor",
+    "gap": "Converging flow omits receptor/CD3 assembly and compartment boundaries",
+    "accuracyGuardrails": "No receptor entry into tumor; exact peptide–HLA; natural processing and safety independent",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-light.svg",
+      "sha256": "7d97a650f713b31b39aba7f4a28d3d849929ef63c006e1d13e829105f72e9ff5",
+      "theme": "light",
+      "bytes": 14945
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/tcr-t-two-cell-compartments-v1-dark.svg",
+      "sha256": "9b9f5a3ffdadd969f7f33d105faaf3bf5e6d20175e2bf70b5bcce49dd799b42d",
+      "theme": "dark",
+      "bytes": 14945
+    }
+  ],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0
+}

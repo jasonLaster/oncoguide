@@ -29,6 +29,12 @@ Imagine several routes feeding into an alarm system: signals from the gut, the b
 
 ## How it works
 
+<img src="./images/gut-brain-windows-and-separate-outcomes-v1-light.svg" alt="Three panels show abstract gut-to-brain nerve signaling alongside blood-borne and learned inputs, early and later reporting windows with overlapping biology, and separate nausea and vomiting outcomes. No vomiting does not establish absence of nausea." width="600" height="1210" data-theme-pair />
+
+*Several inputs can contribute; nausea and vomiting still need separate questions and measurements.*
+
+**Read the two outcomes:** Does no vomiting mean there was no nausea? **Answer:** No. Nausea is a real patient-reported experience. Acute and delayed labels describe observation windows, not exclusive transmitters or a medicine-selection rule.
+
 [Chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) can activate signaling between the gut and brain. **Nausea** is the unpleasant sensation; **vomiting** is the physical expulsion of stomach contents. They often occur together, but one can occur without the other. **Chemotherapy-induced nausea and vomiting (CINV)** is the combined term used in many studies.
 
 Serotonin released in the gut can stimulate nerves through **5-hydroxytryptamine type 3 (5-HT₃) receptors**. **Substance P** acts through **neurokinin-1 receptors** in relevant neural pathways. Other transmitters and brain regions contribute. Medicines that block different receptors can therefore have complementary roles. [NCI's professional summary](https://www.cancer.gov/about-cancer/treatment/side-effects/nausea/nausea-hp-pdq).

@@ -1,0 +1,87 @@
+{
+  "kind": "original-authored-source-code-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch11_measurement_author",
+  "actualMethod": "Python source-code SVG authored in build-art.py",
+  "imageModelCalled": false,
+  "model": null,
+  "imageGenerationCall": null,
+  "originalRetainedCreators": "Retained reference assets retain existing attribution; unknown when not recorded. This agent assessed but did not create the reused references.",
+  "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "currentOwnerPreimageSHA256": "14f548f0b40d74797ed6742ca3b0222c3d01c8fdce63e206b3eac38857081eda",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md",
+    "pageSHA256": "49f95b350757a6a9ebb891a02fed7399ad164a2a0ba6687844f3ba19e5940fd1",
+    "targetSection": "Common confusions",
+    "learnerTask": "Distinguish one-allele DNA loss from expression or B2M failure",
+    "gap": "No paired DNA/display mechanism contrast",
+    "accuracyGuardrails": "Separate allele-specific DNA loss, lower expression and B2M/processing failure. Loss of one HLA allele is not loss of all class-I display or guaranteed immune escape/function/response.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/300",
+    "oneBasedRow": 301,
+    "originalTaskRowSHA256": "4e54a17236de9a4b8f0099067867f82e62925586c6a10915bcae7108cf340e0d",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+  "reuseFirstAssessment": "The canonical copy-number diagram contrasts copy counts and sequence versions. This extension places allele-specific DNA evidence alongside possible surface consequences and distinguishes expression and B2M support.",
+  "originalNativeSupportPreserved": true,
+  "outputs": [
+    {
+      "key": "next-gap-258",
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-light.svg",
+      "relativePath": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-light.svg",
+      "sha256": "155009c921b13102d82d5c7a0d81a631e0cfb3e17ed878886d70fdafd086cdef",
+      "width": 600,
+      "height": 1330
+    },
+    {
+      "key": "next-gap-258",
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-dark.svg",
+      "sha256": "065ff10d32f521ffe951cdfa07deba7283f9d385b12162eeec883a3176607ff7",
+      "width": 600,
+      "height": 1330
+    }
+  ],
+  "briefSHA256": "16c313e1464b923d57a758ab3c6985edee57ed40d7953c18e7f71fa72b1783c3",
+  "finalOwnerSHA256": "41a804109c0a64f3008c5e9acfc679f47952eb15b9b25bd0251b2ebeecbc3357",
+  "sourceCheckScope": "New visual claims plus public target/shared conceptual bodies only; no restricted case reads; no full page clinical recertification.",
+  "primarySourceChecks": [
+    {
+      "pmid": "29107330",
+      "title": "Allele-Specific HLA Loss and Immune Escape in Lung Cancer Evolution.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29107330/",
+      "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+      "retrievedAbstract": true,
+      "localEvidence": "additional-primary-reference-abstracts.xml"
+    }
+  ],
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "delivery": "not started",
+  "publication": "not started",
+  "integrationAuthor": "root",
+  "actualFutureExecutionSourceCommit": null,
+  "actualSourceCheckDepth": "Complete assigned primary abstract retained/read; selected supplementary abstract/indexed passages where listed. No complete-paper, clinical, current-platform or patient-specific validation claimed.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "generatorSHA256": "ed1658f8581a384eca3fc044586913478b7e3d9fef00b9d2d0eb3ec928153e17",
+  "generatorCustody": "Original construction script, source-depth receipts and browser captures retained in private handoff; no executable reproduction package delivered in public payload."
+}

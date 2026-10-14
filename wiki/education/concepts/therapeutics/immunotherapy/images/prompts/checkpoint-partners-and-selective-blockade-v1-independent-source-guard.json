@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-254",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "ff0b07fbac061e913eae7fc9aae1d8a446871ae2dd1fcaaf447067ba4f32264c",
+  "scope": "Independent high-level mechanism and native task-fit source guard; no clinical result recertification, individual treatment inference, methods, sequences, constructs, protocols or dosing guidance.",
+  "metadataGate": {
+    "candidate": "sensitive:false; no sensitive tag or redacted metadata; checked before body",
+    "publicOwnerRead": "entire assigned public owner, including authored teaching and inserted visual; generated navigation recognized separately",
+    "linkedRestrictedCaseBodiesRead": false
+  },
+  "sourceReadDepth": "Fresh indexed primary abstracts and bibliographic records, read in full; no full-paper methods read",
+  "primarySources": [
+    {
+      "pmid": "28280247",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28280247/",
+      "supportAndLimit": "Biochemical and cellular study supports PD-1 regulation including CD28, not uniform clinical benefit.",
+      "title": "T cell costimulatory receptor CD28 is a primary target for PD-1-mediated inhibition.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    },
+    {
+      "pmid": "21474713",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21474713/",
+      "supportAndLimit": "Primary CTLA-4 study supports CD80/CD86 shared with CD28 and ligand capture; capture is supplied by the retained artwork, not replaced.",
+      "title": "Trans-endocytosis of CD80 and CD86: a molecular basis for the cell-extrinsic function of CTLA-4.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    },
+    {
+      "pmid": "11224527",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11224527/",
+      "supportAndLimit": "Primary study identifies PD-L2 as a second PD-1 ligand and demonstrates overlapping regulatory functions.",
+      "title": "PD-L2 is a second ligand for PD-1 and inhibits T cell activation.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/extra-primary-abstracts.xml",
+      "sourceXMLSHA256": "73ecf617115e13cd945d23f2302b4c50863fe6d40105fab82ea548883b274c07"
+    },
+    {
+      "pmid": "20587542",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20587542/",
+      "supportAndLimit": "Primary binding study supports distinct PD-L1/PD-L2 interactions and PD-1 blockade affecting both; a PD-L1-specific blocker does not directly target PD-L2. No full ligand network is claimed.",
+      "title": "PD-L1 and PD-L2 differ in their molecular mechanisms of interaction with PD-1.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/extra-primary-abstracts.xml",
+      "sourceXMLSHA256": "73ecf617115e13cd945d23f2302b4c50863fe6d40105fab82ea548883b274c07"
+    }
+  ],
+  "accessLimits": [],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+    "pageSHA256": "897599158cfddce62e1b257773b563fe1f82b74d94d15602aa23a9a0899850e9",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare PD-1/PD-L1/PD-L2 with CD28/CTLA-4 shared-ligand contacts",
+    "gap": "Table and outcome flow omit distinct molecular contacts and nonexclusive sites",
+    "accuracyGuardrails": "blocking PD-L1 not PD-L2; no HLA restoration or all-cell awakening; tissue injury possible",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+      "theme": "light",
+      "bytes": 7670
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+      "theme": "dark",
+      "bytes": 7670
+    }
+  ],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0
+}

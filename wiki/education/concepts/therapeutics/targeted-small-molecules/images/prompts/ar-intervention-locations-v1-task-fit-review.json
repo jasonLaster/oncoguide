@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-266",
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+  "author": "agent:/root/batch11_pathology_symptoms_author",
+  "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+  "reviewedAtUTC": "2026-10-14T20:04:57.264Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "preimageOwnerSHA256": "7ecd191e394fae2f773548cc5be7e664ac94ef1dc3ceec3f94810ec4dcc6be2b",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+    "pageSHA256": "7ecd191e394fae2f773548cc5be7e664ac94ef1dc3ceec3f94810ec4dcc6be2b",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare hormone supply, AR binding and nuclear transcription",
+    "gap": "No membrane/nuclear or ligand-domain scene supports distinctions",
+    "accuracyGuardrails": "expression not dependence; variants alter binding; no cross-disease benefit",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/367",
+    "oneBasedRow": 368,
+    "originalTaskRowSHA256": "8e80d46d224dc86ce6f23fc17b97ed12c860456aa06f9733cf61292c5f61d4f0",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+      "theme": "light",
+      "sha256": "6c41e5354367f7cf96ccaa4cf66b1eda025d1e3c6e07be7a11ec22ebaae6f240"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "7e4a3dda74d8a4b35fde790a5655ee3bf616366cef6bf1c0efd73bed1d66726e"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The preserved shared AR-signaling owner has no existing artwork. The focused new view therefore adds hormone supply outside a cell, intracellular receptor engagement, nuclear DNA regulation/RNA output and an altered binding-region schematic. These are the distinct intervention locations needed by the antagonist page. Caption and practice preserve expression-versus-dependence and disease-specific clinical utility. Variant geometry is explicitly schematic and does not imply that all variants lack the same domain or respond identically.",
+    "baselinePageSHA256": "7ecd191e394fae2f773548cc5be7e664ac94ef1dc3ceec3f94810ec4dcc6be2b",
+    "learnerTask": "Compare hormone supply, AR binding and nuclear transcription",
+    "gap": "No membrane/nuclear or ligand-domain scene supports distinctions",
+    "accuracyGuardrails": "expression not dependence; variants alter binding; no cross-disease benefit",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md"
+  },
+  "reviewScope": "Independent scientific, native, selected learner-task, attribution and bounded custody assessment of exact private candidate. Not final package, release or human approval.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "guards/preimage/wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+        "sha256": "7ecd191e394fae2f773548cc5be7e664ac94ef1dc3ceec3f94810ec4dcc6be2b",
+        "bytes": 6980,
+        "reviewCopy": "input/preimages/wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+        "role": "unchanged custody/preimage reference"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+        "sha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+        "bytes": 7760,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+        "sha256": "7e4a3dda74d8a4b35fde790a5655ee3bf616366cef6bf1c0efd73bed1d66726e",
+        "bytes": 7052,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+        "sha256": "6c41e5354367f7cf96ccaa4cf66b1eda025d1e3c6e07be7a11ec22ebaae6f240",
+        "bytes": 7052,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1-provenance.json",
+        "sha256": "d00a4a166e1bc5eb15aedb7369cac66b91ff56367c2cb96b02d263483338c12a",
+        "bytes": 3950,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1-provenance.json",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1.txt",
+        "sha256": "0343de5a9a2cfb6a834b518dbfeb4ec465ab13fdd582726ff845ada1faf75d3d",
+        "bytes": 753,
+        "reviewCopy": "input/prospective/wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1.txt",
+        "role": "changed public candidate"
+      },
+      {
+        "path": "guards/frozen-audit.json",
+        "sha256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+        "bytes": 924329,
+        "reviewCopy": "input/guards/frozen-audit.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/exact-selection.json",
+        "sha256": "f4b5143cd83f929351ac16254285e27b41584766f53c00698e29b16078b3bf83",
+        "bytes": 45755,
+        "reviewCopy": "input/guards/exact-selection.json",
+        "role": "retained frozen guard"
+      },
+      {
+        "path": "guards/shared-owner/wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+        "sha256": "4d2acd50a22dcc7323eac95b03f8b9d292f74a62d95001bc425fecbde4c93c73",
+        "bytes": 6997,
+        "reviewCopy": "input/shared-owners/wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+        "role": "retained shared-owner guard"
+      }
+    ],
+    "frozenAndCurrentProof": "frozen-and-current-proof.json",
+    "insertOnlyProof": "custody-checks.json"
+  },
+  "nativeAndReaderReview": {
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinFilesIndependentlyVerified": 87,
+    "fixtureHTMLFreshCompilationMatchesOwnCandidate": true,
+    "nativeThemeCount": 2,
+    "completeArticleThemeViewportCount": 4,
+    "inlineCount": 4,
+    "theaterCount": 4,
+    "freshCaptures": [
+      {
+        "path": "captures/next-gap-266-ar-intervention-locations-v1-light.svg.png",
+        "sha256": "ad9891943083e7d0ddbffcfd72656dc995efd5a6e8872eaaf07b8fa24830862a",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-266-ar-intervention-locations-v1-dark.svg.png",
+        "sha256": "53be61ccd950ed9a8fdb6541ab137ed8ae4e3ba1b303a3f6c36ff6c4eff3ad0c",
+        "kind": "native"
+      },
+      {
+        "path": "captures/next-gap-266-light-mobile-page.png",
+        "sha256": "3bf5b3c14b36f61d5ba3632b9be3bbd9ddb340b9e56eab0e68e9ad63ef2a4978",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 5025
+        }
+      },
+      {
+        "path": "captures/next-gap-266-light-mobile-image0.png",
+        "sha256": "5ac64bf06c302ab28b2cd997d0db007ee8c3dddbfa95b52d955aa85908a800b8",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-266-light-mobile-theater0.png",
+        "sha256": "1be7a2693c39d1f60eaf3aa58142084bfd9c8b01d2b7ee7bb7d26b5c5fd34936",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-266-light-desktop-page.png",
+        "sha256": "ce3e3255f7662fde131341f5c5a1e54048765b2938d8f92ba63d3f514eb13db2",
+        "kind": "complete scrolling article",
+        "theme": "light",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 4357
+        }
+      },
+      {
+        "path": "captures/next-gap-266-light-desktop-image0.png",
+        "sha256": "328a358fd9596d562a7d9872effdd37d2ef589de4621258ab11fe04b7bcee4c9",
+        "kind": "inline",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-266-light-desktop-theater0.png",
+        "sha256": "5e80ae577273feebc4939e988672e12b35339ab612d38d89d5cd3b799560f4dd",
+        "kind": "theater",
+        "theme": "light",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-266-dark-mobile-page.png",
+        "sha256": "e3951060ecc9b55a69c2ccdc7539b13e424ca778172d588b590977a8a5a7311a",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "captureViewport": {
+          "width": 390,
+          "height": 5025
+        }
+      },
+      {
+        "path": "captures/next-gap-266-dark-mobile-image0.png",
+        "sha256": "ad259742cced3c49d2591cd4573e886da299e06fa84010b7751b2c9c76fdd48f",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-266-dark-mobile-theater0.png",
+        "sha256": "e25aa2b695128bdbeebd939ea236c623a99d2de38b6c9f4bbd47135a6a9eebab",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      {
+        "path": "captures/next-gap-266-dark-desktop-page.png",
+        "sha256": "b6bfe17f55337227accc1a890286d1cbcdcb73ae8f3f828238f6acea3746a2e6",
+        "kind": "complete scrolling article",
+        "theme": "dark",
+        "ordinaryViewport": {
+          "width": 1440,
+          "height": 1800
+        },
+        "captureViewport": {
+          "width": 1440,
+          "height": 4357
+        }
+      },
+      {
+        "path": "captures/next-gap-266-dark-desktop-image0.png",
+        "sha256": "451057c1c59add0c514eab07599857ebafcab340f0325daea76e691ace474696",
+        "kind": "inline",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      },
+      {
+        "path": "captures/next-gap-266-dark-desktop-theater0.png",
+        "sha256": "5a6ff218a8c7b14768e992e078db6bae4a10acb64727d9a24b26f3247cc1c844",
+        "kind": "theater",
+        "theme": "dark",
+        "viewport": {
+          "width": 1440,
+          "height": 1800
+        }
+      }
+    ],
+    "actualPixelInspection": "All owner native themes, complete-page layout boards, inline/theater views, and mobile/wide section-context crops personally inspected; boards are derived convenience views, actual captures retained.",
+    "limits": [
+      "Shapes are a conceptual location map, not a protein binding structure or clinical selection rule.",
+      "Known pinned renderer defect independently reproduced: Enter opens and Escape closes; focus returns to BODY instead of invoking image in every inspected view. No overall accessibility approval.",
+      "Private article/theater fixture only; no production navigation/authentication or live delivery verification."
+    ]
+  },
+  "sourceReview": {
+    "id": "next-gap-266",
+    "reviewer": "agent:/root/batch11_pathology_symptoms_review",
+    "reviewedAtUTC": "2026-10-14T20:04:57.221Z",
+    "readScope": "Tran 2009 complete abstract supports receptor binding, nuclear-translocation and DNA/coactivator effects in tested prostate systems. Hu 2009 complete abstract describes variants lacking ligand-binding-domain reading frames in prostate contexts. TBCRC032 complete abstract distinguishes AR protein expression from AR dependence in trial-specific metastatic breast-cancer populations. Abstract access does not establish all-paper reading or clinical transfer from prostate to breast. No clinical percentages were added.",
+    "evidence": [
+      {
+        "file": "sources/primary-19359544.json",
+        "sha256": "4222004bb2c19a24a68556ce2e40e471dcccee9b5dcd05568de0f728ae9e16ab",
+        "bytes": 11449
+      },
+      {
+        "file": "sources/primary-19117982.json",
+        "sha256": "51f3245398b2169b4e2e88683aa92d23fde5f0d428f93ebd3d690f8a85cd352d",
+        "bytes": 8083
+      },
+      {
+        "file": "sources/primary-31822498.json",
+        "sha256": "41ec5181b173941f8eeb5943140bc68db5919debcf0030ba0e83089d95571a76",
+        "bytes": 15472
+      }
+    ],
+    "humanExpertReview": "pending",
+    "fullPrimaryPaperReadingClaim": false
+  },
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "newIllustrationCreated": true,
+  "reuseOnly": false,
+  "originalCreatorStatus": "Exact original support preserved. Historical attribution is not promoted; UNKNOWN where unestablished, including task 265 timing pair.",
+  "rootSoleIntegratorPublisher": true,
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "publication": "not started",
+  "delivery": "not started",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0
+}

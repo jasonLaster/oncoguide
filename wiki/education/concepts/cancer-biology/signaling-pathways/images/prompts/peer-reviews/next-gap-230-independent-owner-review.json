@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-230",
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+  "author": "agent:/root/batch10_author_group1",
+  "authorRole": "Prospective custody/reuse assessor; not historical creative author",
+  "creativeAuthor": null,
+  "originalCreator": null,
+  "artworkCreatorStatus": "UNKNOWN; retained historical art byte exact",
+  "reviewer": "agent:/root/batch10_review_group1",
+  "independentReviewer": "agent:/root/batch10_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "actualReviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAtUTC": "2026-10-14T00:06:48.454718+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "scienceScope": "Bounded visual mechanism and learner task; not comprehensive whole-owner medical or guideline certification",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "kind": "existing-art-reuse-assessment",
+  "newArtworkPairsCount": 0,
+  "currentOwnerSha256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+  "baselinePageSHA256": "26063f43d97f4d9fbef70c361a56eabb4dcd52c080b4510de4f3edd43b011618",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/101",
+  "frozenRowSHA256": "0b29e923a207bcf3aa52b5f0c2b2ec9d9762e996797e00a64308d333dda2c8da",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "The retained histone/DNA object keeps its acetyl mark attached across all three scenes. A connected generic BET protein visibly retains BD1, BD2 and ET after one representative pocket is occupied; the third scene uses a dashed outline and less-protein label for a separate depletion perturbation. The caption disclaims single-domain inhibitor selectivity and does not guarantee remaining function. Reader versus writer, family differences and absence of BRD3-to-BRD4 or clinical-response inference are explicit. The frozen molecular-interaction gap is adequately addressed by reuse.",
+    "frozenPageSHA256": "26063f43d97f4d9fbef70c361a56eabb4dcd52c080b4510de4f3edd43b011618",
+    "baselinePageSHA256": "26063f43d97f4d9fbef70c361a56eabb4dcd52c080b4510de4f3edd43b011618",
+    "actualTeachingPreimageSHA256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+    "learnerTask": "Separate an acetyl mark, its BET reader and pocket inhibition from removing all protein functions.",
+    "gap": "The mark-to-RNA map captures sequence but not the mark on a histone/protein, the reader pocket or its remaining domains. A compact molecular interaction sketch can expose why reader versus writer and pocket inhibition versus depletion are different operations.",
+    "accuracyGuardrails": [
+      "Not every bromodomain is BET or every family member interchangeable.",
+      "Do not show pocket occupation as destruction of the whole protein.",
+      "No BRD3-variant-to-BRD4-dependence or drug-response promise."
+    ],
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Original frozen audit baseline remains distinct from current immutable teaching preimage and candidate owner SHA; no accounting or adoption update."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+      "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+      "bytes": 9874,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1540,
+        "viewBox": "0 0 780 1540"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+      "bytes": 9874,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1540,
+        "viewBox": "0 0 780 1540"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+        "sha256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+        "bytes": 9161
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+        "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+        "bytes": 9874
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+        "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+        "bytes": 9874
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1-provenance.json",
+        "sha256": "c4cddb1d1dba7bde448a74eaa4fb33e7c64fc2735a9b18ae8bdc2aec2622f647",
+        "bytes": 2892
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1-provenance.zip",
+        "sha256": "315f286ad4f259ae100350dc89ae544ffab4295705087bc19f404be111380a43",
+        "bytes": 8209
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1.txt",
+        "sha256": "d01810d979a822c420584d27da7185f1bea5e4d8fedafe2ca3ad02cd9af7646d",
+        "bytes": 1736
+      }
+    ],
+    "currentCandidateOwnerSHA256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+    "sourcePreimageSHA256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "fab511118fc5c8fc642e6e0572cb2240b0c929f41191ee25e17093ce57f75483",
+    "authorManifestSHA256": "2fe37a704735a3bb096bfb1cd6afb2417a6ea129f08cf99c52fbc7167e20c5dc",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "authorChecksumEntriesVerified": 772,
+    "publicInventoryFilesVerified": 38,
+    "preservedExistingCustodyFileCount": 5,
+    "retainedOriginalsByteExact": true,
+    "retainedZIPIntegrityChecked": true,
+    "insertOnlyPreimageRecovery": true,
+    "currentWorkingOwnerPreimageExact": true,
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "rejectedDrafts01Through03Preserved": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "unrelatedOwnerBodiesRead": false
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20871596/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20871596%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/20871596.json",
+      "sha256": "3a3371011aa07f3933bbe230ea116f19c415cafcb466741f21482b508512f262",
+      "supports": "JQ1 competes for acetyl-lysine recognition pockets in BET bromodomains; occupancy does not amount to removal of every protein region."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4854653/",
+      "primary": true,
+      "readDepth": "Independent NCBI BioC retrieval; abstract and selected BRD4 knockdown, resistance and mutant-rescue result passages read; not complete paper or supplements.",
+      "sha256": "9e502475adb502821a545072bc9ad6604ac4e0f0811b155f910f8cdcba2844ea",
+      "supports": "Resistant TNBC models remain BRD4 dependent through bromodomain-independent recruitment, supporting distinct pocket-inhibition and protein-perturbation questions."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Independent seven-owner scientific/task-fit, source-depth, custody, both native themes and fresh reader capture review; no historical approval inherited.",
+    "sourceReadDepth": "Actual independent reads are listed. Ancillary retained owner citations are not all recertified; no comprehensive guideline, entire owner science, human or source-fit adoption certification.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Unchanged private pinned author-built fixture served at 4711, independently captured by reviewer. No production backend/header/navigation, physical mobile, cross-browser, touch or whole-page accessibility certification. Native images were emitted individually; mobile captures inspected in literal-size sheets, desktop inline/theater paint in context sheets that display tools may downscale. Full reader captures retained as context, not whole-page approval. Initial server unavailable; reviewer started unchanged server only."
+  },
+  "nativePixelAssessment": {
+    "assessment": "BD1, BD2, ET, the occupied pocket, attached mark, depletion outline and family/non-equivalence guard text remain readable.",
+    "mobileReadability": "Read every task-relevant label and lower guard line at actual 390px capture scale; small text is legible in this inspection, human learner acceptance pending.",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 14.194805194805193,
+    "minMobileDefaultPreviewLabelPx": 14.03076923076923,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Failed in all four owner theme/size checks; independent additional check confirmed BODY. Known pinned renderer defect retained; no runtime changes or overall accessibility approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-230-light-reading.png",
+      "sha256": "a4af2d1a82bb985cb087ae0c766e33685b4ce0f43169b8674f7fd63e7904b31f"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-230-dark-reading.png",
+      "sha256": "a821577ec68954d1a9ae4f2d40e3026a00fa3206492b924eb560763c8d343acd"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-230-light-mobile-inline.png",
+      "sha256": "d9db3b3ecfbb8e971592b2a6d4204171b890d8fb3307b2a6cabb9e49eaff5816"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-230-light-mobile-theater.png",
+      "sha256": "74347cfe673e102b7a6f19cfa988a570c722640e5dce63717ddfd8bfa033bb97"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-230-light-desktop-inline.png",
+      "sha256": "c021939d6f2792d0f4055cafe33c45f0d9e8168aeb5d22f2ccb5ab66e5b20a1a"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-230-light-desktop-theater.png",
+      "sha256": "cd131de5e0701fdbd41818eeefba54e7926fc12cff2f798f66ceabd7abf064ad"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-230-dark-mobile-inline.png",
+      "sha256": "141561f98a0dfa9312a602695dd84e32f97503a552a6fd0022469501daa6ce6c"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-230-dark-mobile-theater.png",
+      "sha256": "28d51da3cd46e9979671d7fdd6ec66ea45ebf95e9d7abca33b04c63fbc7c8cd5"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-230-dark-desktop-inline.png",
+      "sha256": "004fc147174589b817af3b15f732f40979b5d64820550623948859c6af812850"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-230-dark-desktop-theater.png",
+      "sha256": "705c817796e8618c05585f1c5a684319bdd2a306a9311bb4fdcf18fc88723669"
+    }
+  ],
+  "method": "New pairs directly authored SVG; historical reuse authorship remains unknown. This review made no artwork edits.",
+  "imageModelCalls": 0,
+  "imageModelCallsScope": "Current review only; historical generation is not reconstructed.",
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "existing-renderer-accessibility-defect",
+      "finding": "Escape closes the viewer but restores focus to BODY rather than the invoking image.",
+      "blocksArtworkTaskFit": false,
+      "overallAccessibilityApproval": false
+    }
+  ]
+}

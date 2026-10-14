@@ -1,0 +1,87 @@
+{
+  "kind": "original-authored-source-code-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch11_measurement_author",
+  "actualMethod": "Python source-code SVG authored in build-art.py",
+  "imageModelCalled": false,
+  "model": null,
+  "imageGenerationCall": null,
+  "originalRetainedCreators": "Retained reference assets retain existing attribution; unknown when not recorded. This agent assessed but did not create the reused references.",
+  "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "currentOwnerPreimageSHA256": "f8923b46b5b2c2fb25af5146a364aff2f9065deba6e61f9b786ebed54249ad2b",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+    "pageSHA256": "f8923b46b5b2c2fb25af5146a364aff2f9065deba6e61f9b786ebed54249ad2b",
+    "targetSection": "How it works",
+    "learnerTask": "Trace the same variant through blood-cell and tumor comparisons",
+    "gap": "The source flow is useful but omits parallel source compartments",
+    "accuracyGuardrails": "Show blood-cell and tumor evidence as parallel source comparisons. A plasma variant can originate outside tumor; matching one compartment or using a CHIP label does not resolve every source/function question.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/276",
+    "oneBasedRow": 277,
+    "originalTaskRowSHA256": "a0eb11af12595e5b180506be1528dcbe69115ced2b0508f9b1026fded1981533",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+  "reuseFirstAssessment": "The canonical cfDNA/ctDNA diagram leaves an unknown fragment unassigned. This extension shows matched variant evidence in parallel blood-cell and tumor specimens without turning either comparison into an infallible source filter.",
+  "originalNativeSupportPreserved": true,
+  "outputs": [
+    {
+      "key": "next-gap-259",
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+      "relativePath": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+      "sha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611",
+      "width": 600,
+      "height": 1290
+    },
+    {
+      "key": "next-gap-259",
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+      "sha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f",
+      "width": 600,
+      "height": 1290
+    }
+  ],
+  "briefSHA256": "904b429b7e8eaf870c1d59a0d4a4f1a07186d534324abe57cc88ec35782fe097",
+  "finalOwnerSHA256": "60e2af6ed56a15efe332114488ee6cc22a6cea2ae2f8a5fd568e81aadd911e63",
+  "sourceCheckScope": "New visual claims plus public target/shared conceptual bodies only; no restricted case reads; no full page clinical recertification.",
+  "primarySourceChecks": [
+    {
+      "pmid": "31768066",
+      "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/",
+      "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+      "retrievedAbstract": true,
+      "localEvidence": "additional-primary-reference-abstracts.xml"
+    }
+  ],
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "delivery": "not started",
+  "publication": "not started",
+  "integrationAuthor": "root",
+  "actualFutureExecutionSourceCommit": null,
+  "actualSourceCheckDepth": "Complete assigned primary abstract retained/read; selected supplementary abstract/indexed passages where listed. No complete-paper, clinical, current-platform or patient-specific validation claimed.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "generatorSHA256": "ed1658f8581a384eca3fc044586913478b7e3d9fef00b9d2d0eb3ec928153e17",
+  "generatorCustody": "Original construction script, source-depth receipts and browser captures retained in private handoff; no executable reproduction package delivered in public payload."
+}

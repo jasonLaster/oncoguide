@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-236",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+  "author": "agent:/root/batch10_author_group2",
+  "authorRole": "Actual seven-new-illustration private packet author",
+  "creativeAuthor": "agent:/root/batch10_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author; retained source text and Mermaid creators unknown",
+  "reviewer": "agent:/root/batch10_review_group2",
+  "independentReviewer": "agent:/root/batch10_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:03:41.450993+00:00",
+  "reviewedAtUTC": "2026-10-14T00:03:41.450993+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "e7e838c4ae28d3f3df26305db71952a026d4b25f37313fcbb123544b5bc7c98f",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/141",
+  "frozenRowSHA256": "d55cf5d0db5c1ff0660618bd46f70dcd23135e837b5bc97bc1299242e9314d31",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "A common input branches into old/new process lots where suitable. Paired lots sit above affected identity/composition/activity/impurity/stability comparisons; a dashed bridge question names earlier quality, safety and efficacy evidence, with more evidence explicitly open. This teaches a conditional evidence argument without statistical nonsignificance, clinical equivalence or authorization claims.",
+    "frozenPageSHA256": "b8c949086d5f320293727ca37154679f701bd10982681109387171bbaf503fe7",
+    "baselinePageSHA256": "b8c949086d5f320293727ca37154679f701bd10982681109387171bbaf503fe7",
+    "actualTeachingPreimageSHA256": "a5a908967015b0ca3b16c8435ff26fe1417cbd5075f63a3738b9434893508732",
+    "learnerTask": "Connect a changed process to affected attributes and the earlier evidence it may or may not bridge.",
+    "gap": "The generic linear review sequence does not show paired old/new lots or the evidence bridge.",
+    "accuracyGuardrails": "Specify old/new materials, measured attributes and which evidence the change may affect. Similar results do not automatically prove equivalence, clinical comparability or authorization.",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 remains the immutable original audit page anchor; current b370 teaching preimage is separately verified. Frozen task/row unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-light.svg",
+      "sha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f",
+      "nativeSHA256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f",
+      "bytes": 4859,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-dark.svg",
+      "sha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2",
+      "nativeSHA256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2",
+      "bytes": 4859,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1000,
+        "viewBox": "0 0 600 1000"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+        "sha256": "e7e838c4ae28d3f3df26305db71952a026d4b25f37313fcbb123544b5bc7c98f",
+        "bytes": 8701
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-light.svg",
+        "sha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f",
+        "bytes": 4859
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-dark.svg",
+        "sha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2",
+        "bytes": 4859
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/old-new-lots-and-evidence-bridge-b10-v1.txt",
+        "sha256": "a1762683b97fe6f645d79a4d106115971a0f3f42a85399b5b97518a0aac36e94",
+        "bytes": 1365
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/old-new-lots-and-evidence-bridge-b10-v1-provenance.json",
+        "sha256": "85546322741dc4f54dd2a649319ea19ca436930f26df5af1b7ee0e48d6c9961e",
+        "bytes": 3809
+      }
+    ],
+    "currentCandidateOwnerSHA256": "e7e838c4ae28d3f3df26305db71952a026d4b25f37313fcbb123544b5bc7c98f",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "956a2a46eb92e48b10922bd0689564864bbcd231c46790913e340d435a4cd65a",
+    "authorInventorySHA256": "fef032f31ae192fe67da7fc9c84a379a76a3b41963f2cc8a19989297d6811624",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "sourcePreimageSHA256": "a5a908967015b0ca3b16c8435ff26fe1417cbd5075f63a3738b9434893508732",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Exact recovery after removing only inserted img and caption; metadata, prose, references, exercises and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.fda.gov/media/71489/download",
+      "readDepth": "Q5E General Principles parsed lines138-168 and search-returned stability discussion350-375; not full guidance.",
+      "supports": "Conditional comparability through affected attributes; extra evidence can be needed.",
+      "accessStatus": "Accessible",
+      "limit": "General framework; no specific product equivalence",
+      "primary": true
+    },
+    {
+      "url": "https://www.fda.gov/media/156896/download",
+      "readDepth": "January2024 guidance selected parsed IV.B lines332-379 and IV.D.2 lines781-816, plus starting-material lines207-211; not full guidance.",
+      "supports": "Mixed cellular input and variability; same input old/new comparison when possible; broader characterization beyond release criteria.",
+      "accessStatus": "Accessible",
+      "limit": "No product process validation or clinical inference",
+      "primary": true
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, source-depth, custody and fresh native/inline/theater pixel review of this owner and exact new pair.",
+    "sourceReadDepth": "Actual independent selected primary parsed sections and one PubMed abstract. No full-paper or every preserved ancillary citation recertification. No access errors/403 encountered.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own fresh screenshots via read-only server copy of author sealed fixture at4623; server was initially unavailable. Article fixture uses pinned compiler/frame/ImageTheater/SmartTableEnhancer/shared and app CSS. No production navigation/header/backend, physical mobile, touch, cross-browser or whole-page accessibility certification. Native pairs and mobile full screenshots viewed; desktop image-region contact sheets resized by tool to2048px but labels/relations remained readable. Original full captures retained."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 16.1459375,
+    "minMobileDefaultPreviewLabelPx": 15.96,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but returns focus to BODY rather than image trigger; unchanged pinned runtime defect. No runtime repair or complete keyboard accessibility approval.",
+    "contrastScope": "Both themes visually inspected for legibility; no numerical whole-page/nontext contrast certification claimed.",
+    "observedLayoutIssues": []
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-light-reading.png",
+      "sha256": "230107d1b2e253546a365b2ecb63d6a457d55b3cedf886dbb842e5ce1b78c531"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-dark-reading.png",
+      "sha256": "d044ba0368464a544d146db077afb47b033f304dabc0378583282d3b6f0f0d53"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-light-mobile-inline.png",
+      "sha256": "b9049dbdc1510d11dade37f47852948c38e9a13a7418962cca7d788a4e97174c"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-light-mobile-theater.png",
+      "sha256": "1e5582151b02e8088497f6eb01970507ccdafc20ac7c7e5dd9af9b9da2ee74f5"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-light-desktop-inline.png",
+      "sha256": "7729a0839189290b4de962a24d66625781ffa624abf0acdba9986d293df222d0"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-light-desktop-theater.png",
+      "sha256": "cb56a60738d83d743661dc66608640eb45703679c4b2ce951bb9fecb7b0398b8"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-dark-mobile-inline.png",
+      "sha256": "25b807d53a9bee4d2cbe6f42cb3d039ee71d821c13d2781f865e4ec27c5d4883"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-dark-mobile-theater.png",
+      "sha256": "bdd51aab730db68530bfbbf830f05d3aae5730ed07d341be869e5a806a7ab950"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-dark-desktop-inline.png",
+      "sha256": "2843d635b2de85b539566533c3b68257bd37a4dfd14742593bdbb019bea26d37"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/captures/next-gap-236-dark-desktop-theater.png",
+      "sha256": "2fef3a5895afd71991d3955ad92cd2e7eeaa44fc3f1c78c8d6b2830648e2af90"
+    }
+  ],
+  "inspectionBoards": [
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/236-native.png",
+      "sha256": "e9d35a861db7712b0d0fcf81eb1845809f0b261a98dfe875de6983799316558e",
+      "mode": "native",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/236-mobile.png",
+      "sha256": "cb8cefe7ea8b330eed361ac82b6fe0909ced045c824ca3b305626bf0c4c5190e",
+      "mode": "mobile",
+      "personallyInspected": true
+    },
+    {
+      "path": "/tmp/education-next-visual-batch-10/reviews/specimen-custody-product-status/inspection-boards/236-desktop.png",
+      "sha256": "824a2820f6b32b31696f0f25728401e348a547ba7b5b7be33774199ab24e9a52",
+      "mode": "desktop",
+      "personallyInspected": true
+    }
+  ],
+  "method": "Original Python-authored editable SVG; independent review used fresh Playwright captures",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": []
+}

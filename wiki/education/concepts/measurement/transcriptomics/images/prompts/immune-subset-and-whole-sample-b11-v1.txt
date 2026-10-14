@@ -1,0 +1,14 @@
+Source-code SVG design brief, not an image-model prompt or call.
+{
+  "id": "next-gap-255",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+  "targetSection": "Try it",
+  "sharedCanonicalOwner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+  "learnerTask": "Distinguish relative immune composition from whole-sample cell fractions",
+  "gap": "Current model flow does not depict the different denominators",
+  "accuracyGuardrails": "Separate measured pooled RNA, reference/model estimates and each composition denominator. Relative immune fractions are not automatically whole-sample cell fractions or direct cell counts; reference mismatch and identifiability remain visible."
+}
+The canonical bulk diagram explains changed pooled RNA from mixture. This page-specific extension adds two explicit immune-subset versus whole-sample denominators while keeping pooled RNA/model inference separate.
+Four panels use stipulated 100-cell samples: A has 10 T cells among 20 immune cells, B has 30 among 60. Both immune-subset fractions are 50 percent, while whole-sample T-cell fractions are 10 and 30 percent. A separate pooled RNA and reference-model scene labels RNA contribution as different evidence from these supplied cell counts.
+Caption: Name the denominator first: the same relative immune fraction can accompany very different whole-sample fractions. Counts here are supplied for teaching, not recovered by deconvolution.
+Flat outlined scientific shapes, rounded panels, repeated toy objects, sans-serif 26px body labels. Theme geometry and data identical. No protocol, optimization, therapeutic design, sequence or dose.

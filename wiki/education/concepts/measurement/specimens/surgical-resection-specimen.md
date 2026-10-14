@@ -30,6 +30,10 @@ Think of a map delivered with pieces cut out for closer inspection. The pieces a
 
 ## How it works
 
+<img src="./images/oriented-specimen-to-selected-blocks-b10-v1-light.svg" alt="A fictional oriented specimen has keyed superior and lateral outer surfaces, a selected central region A and surface region B, and visible unselected space. Each selected region connects to its own labeled tissue block. A fictional test result is attached only to block A, while block B and unselected tissue remain outside that result. The local ink key is invented and no margin-clearance claim is made." data-theme-pair>
+
+*Keep the map with the result. A test on central block A belongs to that region; it cannot stand in for block B, every region or an unsampled margin. The map and color key are fictional.*
+
 The laboratory receives the specimen with its site, procedure and relevant clinical history. **Orientation** establishes which surfaces correspond to which directions, using documented sutures, clips or other communication. An unfamiliar stitch or ink color has no universal meaning; the team's recorded key supplies that meaning.
 
 A **margin** is a boundary of the removed tissue. Ink can mark a surface so its relationship to tumor is recognizable on microscopic sections. Ink that seeps into a crack can create an apparent internal “edge,” so gross handling and microscopic interpretation must agree. Separately submitted margin pieces also need a clear relationship to the main specimen.

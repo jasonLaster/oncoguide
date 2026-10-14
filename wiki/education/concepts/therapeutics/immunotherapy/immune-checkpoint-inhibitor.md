@@ -29,6 +29,18 @@ Think of a workshop with several safety controls. Releasing one control may let 
 
 ## How it works
 
+<img src="../../immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png" alt="Three scenes compare PD-1 regulation of CD28 signaling inside a T cell with CTLA-4 contact and subsequent capture of CD86 from a neighboring cell into a T-cell vesicle" width="1024" height="1536" data-theme-pair>
+
+*Reference anatomy from the shared concept. The focused comparison below asks a different question.*
+
+<img src="./images/checkpoint-partners-and-selective-blockade-v1-light.svg" alt="PD-1 contacts PD-L1 or PD-L2; a PD-L1-blockade scene interrupts only the PD-L1 contact. A separate comparison shows CD28 and CTLA-4 sharing CD80/CD86 partners. The figure does not assign exclusive sites or guarantee response." data-theme-pair />
+
+*Blocking PD-L1 leaves the PD-1–PD-L2 contact unblocked directly; CTLA-4 shares different partners with CD28.*
+
+**Read the picture:** Does a PD-L1 blocker directly block PD-L2? **Answer:** No. Partner identity matters, and checkpoint blockade does not restore missing HLA.
+
+
+
 Immune checkpoint inhibitors, often shortened to **ICIs**, include [antibodies](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) that interrupt particular [receptor–partner interactions](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor). The target matters:
 
 | Target | What the pathway normally does | What blocking it changes |

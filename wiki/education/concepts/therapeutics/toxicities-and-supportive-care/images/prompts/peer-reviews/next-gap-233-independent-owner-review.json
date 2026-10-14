@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-233",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+  "author": "agent:/root/batch10_author_group1",
+  "authorRole": "Actual direct SVG creative author",
+  "creativeAuthor": "agent:/root/batch10_author_group1",
+  "originalCreator": null,
+  "artworkCreatorStatus": "Actual named agent author; no image-model call",
+  "reviewer": "agent:/root/batch10_review_group1",
+  "independentReviewer": "agent:/root/batch10_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "actualReviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAtUTC": "2026-10-14T00:06:48.454718+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "scienceScope": "Bounded visual mechanism and learner task; not comprehensive whole-owner medical or guideline certification",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "kind": "new-pair-candidate",
+  "newArtworkPairsCount": 1,
+  "currentOwnerSha256": "2b2ff71dd7f4a03c8bb89033d8e9ba4a6fd7cc1afa145d5a89c872362ba19658",
+  "baselinePageSHA256": "7afa6fa9a727bcbf92cb86646adf1f265ec28878886cd7a3059e8a04d982a650",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/376",
+  "frozenRowSHA256": "8e26adff402a0a7f42e4adbe606866a25f7b8099dcf5b24b4d2c28d7efc1f86d",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "The boundary scene labels blood above and brain below a row of vascular-lining cells; a dashed crossing is explicitly implicated disruption and signal entry, with association separated from a universal complete mechanism. ICE cognition and broader neurologic domains feed assessment independently, with baseline and competing causes named. Distinct fictional CRS and neurologic endpoints demonstrate separate recovery accounting without typical order or duration. This meets the frozen barrier-hypothesis and tool-versus-domain task. Generic tool/domain distinctions are supported by independent primary publisher excerpts; full 2026 tables, detailed ICE/M-ICE administration and complete current-owner guideline certification remain unverified.",
+    "frozenPageSHA256": "7afa6fa9a727bcbf92cb86646adf1f265ec28878886cd7a3059e8a04d982a650",
+    "baselinePageSHA256": "7afa6fa9a727bcbf92cb86646adf1f265ec28878886cd7a3059e8a04d982a650",
+    "actualTeachingPreimageSHA256": "a16c824817d1dfc67c4220bfe9b68a64391c222163ba6ecd33b69647a5aa78e7",
+    "learnerTask": "Locate blood–brain barrier hypothesis and separate cognitive tool from syndrome domains",
+    "gap": "Assessment flow adequate for reporting but not vascular biology or distinct recovery clocks",
+    "accuracyGuardrails": "Association not full universal mechanism; ICE not diagnosis; grading version named; CRS recovery separate",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Original frozen audit baseline remains distinct from current immutable teaching preimage and candidate owner SHA; no accounting or adoption update."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-light.svg",
+      "sha256": "4863557bf89ff2f618dd0847844572b9b61321e2dd0c1894723d8670b014aa10",
+      "bytes": 6327,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1630,
+        "viewBox": "0 0 780 1630"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-dark.svg",
+      "sha256": "cb3afe0e17c50e653b03170d057ebb9a54eebdfda26aa3a42bcaa21a95fcf920",
+      "bytes": 6327,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1630,
+        "viewBox": "0 0 780 1630"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+        "sha256": "2b2ff71dd7f4a03c8bb89033d8e9ba4a6fd7cc1afa145d5a89c872362ba19658",
+        "bytes": 10086
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-dark.svg",
+        "sha256": "cb3afe0e17c50e653b03170d057ebb9a54eebdfda26aa3a42bcaa21a95fcf920",
+        "bytes": 6327
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-light.svg",
+        "sha256": "4863557bf89ff2f618dd0847844572b9b61321e2dd0c1894723d8670b014aa10",
+        "bytes": 6327
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/icans-barrier-and-distinct-recovery-clocks-b10-v1-provenance.json",
+        "sha256": "e56930322af1185438a2433dd5104d90c8f1688853ffdd3dc9132035bef23ba5",
+        "bytes": 1739
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/icans-barrier-and-distinct-recovery-clocks-b10-v1.txt",
+        "sha256": "92070f82cab250fb7502760229f1ea0152cce9e826aff3828a3029cb7caa3fde",
+        "bytes": 1091
+      }
+    ],
+    "currentCandidateOwnerSHA256": "2b2ff71dd7f4a03c8bb89033d8e9ba4a6fd7cc1afa145d5a89c872362ba19658",
+    "sourcePreimageSHA256": "a16c824817d1dfc67c4220bfe9b68a64391c222163ba6ecd33b69647a5aa78e7",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "fab511118fc5c8fc642e6e0572cb2240b0c929f41191ee25e17093ce57f75483",
+    "authorManifestSHA256": "2fe37a704735a3bb096bfb1cd6afb2417a6ea129f08cf99c52fbc7167e20c5dc",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "authorChecksumEntriesVerified": 772,
+    "publicInventoryFilesVerified": 38,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalsByteExact": true,
+    "retainedZIPIntegrityChecked": false,
+    "insertOnlyPreimageRecovery": true,
+    "currentWorkingOwnerPreimageExact": true,
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "rejectedDrafts01Through03Preserved": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "unrelatedOwnerBodiesRead": false
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29025771/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29025771%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/29025771.json",
+      "sha256": "b15b4431e53295d79e846ff4c8f2006e5f60dd882cc198c8d9fcfbeade7465eb",
+      "supports": "The adult CD19 CAR T cohort associated severe neurotoxicity with endothelial activation and increased blood-brain-barrier permeability; the drawing appropriately remains a bounded hypothesis."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30592986/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30592986%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/30592986.json",
+      "sha256": "401d31c9a58da74124f0007e77d3ca76704b7557ef29cb4205a7c690c44414d8",
+      "supports": "The 2019 primary consensus abstract establishes a uniform reporting framework for CRS and neurotoxicity; detailed tables were not available through the attempted BioC endpoint."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42711241/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42711241%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/42711241.json",
+      "sha256": "15d042aeaa9f4762a56bf2ca850127b03a4fea32ca745228916bce8c990d1b35",
+      "supports": "The current ASTCT update adds and clarifies immune-effector toxicity reporting definitions; its abstract alone does not verify detailed ICE instructions or grading tables."
+    },
+    {
+      "url": "https://www.astctjournal.org/article/S2666-6367%2826%2900363-5/fulltext",
+      "primary": true,
+      "readDepth": "Independent official-publisher indexed text returned by web search: ICE monitoring rather than diagnosis, broader domains, version refinement and modified tools. Direct full-text open returned 403. Full grading tables and detailed current ICE/M-ICE instructions remain unverified. 2019 BioC full-text retrieval also failed.",
+      "supports": "A cognitive tool is one monitoring input and does not mandate ICANS diagnosis; broader domains and version specification remain necessary.",
+      "full2026ICEInstructionsVerified": false
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Independent seven-owner scientific/task-fit, source-depth, custody, both native themes and fresh reader capture review; no historical approval inherited.",
+    "sourceReadDepth": "Actual independent reads are listed. Ancillary retained owner citations are not all recertified; no comprehensive guideline, entire owner science, human or source-fit adoption certification.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Unchanged private pinned author-built fixture served at 4711, independently captured by reviewer. No production backend/header/navigation, physical mobile, cross-browser, touch or whole-page accessibility certification. Native images were emitted individually; mobile captures inspected in literal-size sheets, desktop inline/theater paint in context sheets that display tools may downscale. Full reader captures retained as context, not whole-page approval. Initial server unavailable; reviewer started unchanged server only."
+  },
+  "nativePixelAssessment": {
+    "assessment": "Blood/brain side labels, boundary relation, ICE and other-domain text, separate recovery tracks and fictional/no-diagnostic-substitution guards remain readable.",
+    "mobileReadability": "Read every task-relevant label and lower guard line at actual 390px capture scale; small text is legible in this inspection, human learner acceptance pending.",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.420437116564417,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Failed in all four owner theme/size checks; independent additional check confirmed BODY. Known pinned renderer defect retained; no runtime changes or overall accessibility approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-233-light-reading.png",
+      "sha256": "aee5af24aee4bc8ef9874b1e42e61c1ae15ecc21468109b5329b8cfab4c84609"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-233-dark-reading.png",
+      "sha256": "710d1a526c3d150b5e1d04f74921d03ec7253292224da45bc0205f0cec697cc7"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-233-light-mobile-inline.png",
+      "sha256": "1bb850705f56f510aa596d8dea15c2b1985eff0405df187755cd7145c298cc14"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-233-light-mobile-theater.png",
+      "sha256": "ef2c71735e6c152c9b2bcd5f51593e2f2193f4b29791c0b00735f6d4f2dc8e26"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-233-light-desktop-inline.png",
+      "sha256": "eaf453ebf0dda71142d1671c8cd0dfbcadda870167d9fd12dab6a2aacade9d7f"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-233-light-desktop-theater.png",
+      "sha256": "9241cafa7abd2ce3741c357db8e891a868ca9c91ac913e1c7497be4fdac6f55d"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-233-dark-mobile-inline.png",
+      "sha256": "b308316e12eec58ca25021491dc64550936725bf6b81763540b7c72e89cf9eef"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-233-dark-mobile-theater.png",
+      "sha256": "e935a0c8fc2ee92c411df893f8586317e3668f0b4a74cda9858b71762f98f741"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-233-dark-desktop-inline.png",
+      "sha256": "801fd57771d215d7bf90a2a6179d3923bd448d97eea7ff0e863fe30662ab14ce"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-233-dark-desktop-theater.png",
+      "sha256": "fa503f0a9038d5faed6c85ae03da6836090751f5cf28e48a690dacc0406a03e6"
+    }
+  ],
+  "method": "New pairs directly authored SVG; historical reuse authorship remains unknown. This review made no artwork edits.",
+  "imageModelCalls": 0,
+  "imageModelCallsScope": "Current review only; historical generation is not reconstructed.",
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "existing-renderer-accessibility-defect",
+      "finding": "Escape closes the viewer but restores focus to BODY rather than the invoking image.",
+      "blocksArtworkTaskFit": false,
+      "overallAccessibilityApproval": false
+    },
+    {
+      "kind": "source-read-limit",
+      "finding": "Full 2026 ICE/M-ICE instructions and all grading tables remain unverified; this PASS covers the generic bounded visual task and is not whole-owner guideline certification."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Source-code SVG design brief, not an image-model prompt or call.
+{
+  "id": "next-gap-259",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+  "targetSection": "How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+  "learnerTask": "Trace the same variant through blood-cell and tumor comparisons",
+  "gap": "The source flow is useful but omits parallel source compartments",
+  "accuracyGuardrails": "Show blood-cell and tumor evidence as parallel source comparisons. A plasma variant can originate outside tumor; matching one compartment or using a CHIP label does not resolve every source/function question."
+}
+The canonical cfDNA/ctDNA diagram leaves an unknown fragment unassigned. This extension shows matched variant evidence in parallel blood-cell and tumor specimens without turning either comparison into an infallible source filter.
+Parallel schematic blood-cell and solid-tumor compartments release DNA into a shared plasma pool. In a separate fictional comparison the same generic variant V is detected in plasma and blood-cell DNA, but not detected in the sampled tumor material. The final panel says this supports a blood-cell contribution while tumor non-detection remains bounded by sampling and assay limits.
+Caption: Compare the same variant across compartments: a blood-cell match supports a contribution, while a tumor non-detection needs its own sampling and assay limits.
+Flat outlined scientific shapes, rounded panels, repeated toy objects, sans-serif 26px body labels. Theme geometry and data identical. No protocol, optimization, therapeutic design, sequence or dose.

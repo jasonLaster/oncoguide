@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-251",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+  "passed": true,
+  "verdict": "PASS",
+  "sourceFitAssessment": {
+    "learnerTask": "Compare one cytokine contacting distinct cell types and distributing beyond its origin",
+    "gap": "Flow lacks physical receivers and local-versus-systemic spread",
+    "accuracyGuardrails": "No fight-cancer instruction; receptor/state dependent; local production can spread; class not one indication",
+    "baselinePageSHA256": "9cbdc936230de197c25509cb50341e050d629ff9858b2ad377fc2c38bdd97c23",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Two cells receive the same generic cytokine symbols but differ in surface receivers and labeled internal state. A second scene follows conditional circulation toward another tissue, explicitly requiring arrival and persistence. This supplements, rather than duplicates, the retained spatial-average diagram. The caption and practice separate cell response from molecular identity and local origin from confinement; the footer keeps receptor engagement separate from tumor killing. No exposure recipe, regimen or benefit ranking is inferred."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+      "theme": "light",
+      "bytes": 5046
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+      "theme": "dark",
+      "bytes": 5046
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+        "sha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+        "qualification": "reviewed proposed current owner"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+        "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+        "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+        "qualification": "selected NEW extension native"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1.txt",
+        "sha256": "7128a9bb1a7596426c08160ac9fd9d6249392fe4ddfb0131f6f4cb58a9191ade",
+        "qualification": "new extension saved brief"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1-provenance.json",
+        "sha256": "96d6992b6415fac4418b9b6c13fabee685f96459c95e588f2be4f96e4d81b506",
+        "qualification": "new extension author provenance"
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1-independent-source-guard.json",
+        "sha256": "c38c919b231b4ea6bf59bdae46ea525f85a7472e78a5d24cacb2dc246fc65c98",
+        "qualification": "independent source guard"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/batch08-current-baseline/same-bulk-average-different-spatial-signals-v1-independent-owner-review.json",
+        "sha256": "f4a8a9b40f77d6c84a574cbb3bb55cf9ec7f15eaf3b28c7c562c89397ee69e91",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1-provenance.json",
+        "sha256": "f5f50ad873f062e5782b97b51195990833ec8981fbf1b1f727880082817d6687",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/prompts/same-bulk-average-different-spatial-signals-v1.txt",
+        "sha256": "494f6d9da2c9b7a1ade14114bf3ef5286d883f6287ac7b39a4875a111ea9cbdd",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+        "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      },
+      {
+        "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+        "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+        "qualification": "retained shared canonical native/support; not a new output or reattribution"
+      }
+    ],
+    "authorCandidateSeal": {
+      "path": "/tmp/education-next-visual-batch-11/authors/immune-recognition-and-signaling/seal.json",
+      "sha256": "b800ed4bf84b8cbc32aa8945fd4c4a778a7b2f22e9fa779a5145470d7fae3f2e"
+    },
+    "originalAttribution": "Historical creators and UNKNOWN creator values retained verbatim; reviewer claims no creative authorship of retained assets.",
+    "retainedSupportNotOutputs": true
+  },
+  "reviewScope": "Seven selected G1 task-fit reviews only; this receipt covers this owner and its exact two new natives. No canonical adoption, delivery or release approval.",
+  "checks": {
+    "exactInverseInsertion": true,
+    "metadataAndOriginalProseAndMermaidPreserved": true,
+    "frozenTaskWordingAndSharedOwnerPreserved": true,
+    "sameGeometryAndLabelsAcrossThemes": true,
+    "sharedArtRetainedAtCanonicalLocation": true,
+    "focusedExtensionBeyondRetainedDiagram": true,
+    "native": [
+      {
+        "key": "next-gap-251",
+        "theme": "light",
+        "nativeSHA256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-reading.png",
+        "captureSHA256": "315278bf2e8ae6959f2da6ea453e8cf0c0d05f3c23ac12c39e7eceaa6eef77c2",
+        "viewBox": "0 0 600 1100",
+        "textCount": 18,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Same signal, different receivers",
+            "x": 28,
+            "y": 14,
+            "width": 466.5625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "The cell and the exposure both matter",
+            "x": 28,
+            "y": 59,
+            "width": 433.328125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Look at the receiver",
+            "x": 78,
+            "y": 130,
+            "width": 256.359375,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Receiver A",
+            "x": 98.6640625,
+            "y": 450,
+            "width": 122.671875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell state A",
+            "x": 94.7890625,
+            "y": 482,
+            "width": 130.421875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Receiver B",
+            "x": 379.140625,
+            "y": 450,
+            "width": 121.71875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell state B",
+            "x": 375.265625,
+            "y": 482,
+            "width": 129.46875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "One generic cytokine signal",
+            "x": 141.4296875,
+            "y": 170,
+            "width": 317.140625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 588,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Follow where it can go",
+            "x": 78,
+            "y": 585,
+            "width": 288.484375,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Local",
+            "x": 92.109375,
+            "y": 666,
+            "width": 61.78125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "origin",
+            "x": 90.5859375,
+            "y": 698,
+            "width": 64.828125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Distant",
+            "x": 434.8125,
+            "y": 666,
+            "width": 82.375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "tissue",
+            "x": 441.5625,
+            "y": 698,
+            "width": 68.875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "If it reaches circulation and persists",
+            "x": 98.1328125,
+            "y": 865,
+            "width": 403.734375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Receptor engagement is not tumor killing.",
+            "x": 38,
+            "y": 955,
+            "width": 476.109375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Measure activity and unwanted effects.",
+            "x": 38,
+            "y": 987,
+            "width": 448.96875,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      },
+      {
+        "key": "next-gap-251",
+        "theme": "dark",
+        "nativeSHA256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+        "capture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-reading.png",
+        "captureSHA256": "01efb4dab00b36f2de931ac530572131121908d4b1800fc48ddf49cf73de6471",
+        "viewBox": "0 0 600 1100",
+        "textCount": 18,
+        "minFont": 24,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Same signal, different receivers",
+            "x": 28,
+            "y": 14,
+            "width": 466.5625,
+            "height": 38,
+            "font": 32
+          },
+          {
+            "text": "The cell and the exposure both matter",
+            "x": 28,
+            "y": 59,
+            "width": 433.328125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "1",
+            "x": 42.1328125,
+            "y": 133,
+            "width": 11.734375,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Look at the receiver",
+            "x": 78,
+            "y": 130,
+            "width": 256.359375,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Receiver A",
+            "x": 98.6640625,
+            "y": 450,
+            "width": 122.671875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell state A",
+            "x": 94.7890625,
+            "y": 482,
+            "width": 130.421875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Receiver B",
+            "x": 379.140625,
+            "y": 450,
+            "width": 121.71875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Cell state B",
+            "x": 375.265625,
+            "y": 482,
+            "width": 129.46875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "One generic cytokine signal",
+            "x": 141.4296875,
+            "y": 170,
+            "width": 317.140625,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "2",
+            "x": 40.640625,
+            "y": 588,
+            "width": 14.71875,
+            "height": 28,
+            "font": 24
+          },
+          {
+            "text": "Follow where it can go",
+            "x": 78,
+            "y": 585,
+            "width": 288.484375,
+            "height": 33,
+            "font": 28
+          },
+          {
+            "text": "Local",
+            "x": 92.109375,
+            "y": 666,
+            "width": 61.78125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "origin",
+            "x": 90.5859375,
+            "y": 698,
+            "width": 64.828125,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Distant",
+            "x": 434.8125,
+            "y": 666,
+            "width": 82.375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "tissue",
+            "x": 441.5625,
+            "y": 698,
+            "width": 68.875,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "If it reaches circulation and persists",
+            "x": 98.1328125,
+            "y": 865,
+            "width": 403.734375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Receptor engagement is not tumor killing.",
+            "x": 38,
+            "y": 955,
+            "width": 476.109375,
+            "height": 30,
+            "font": 26
+          },
+          {
+            "text": "Measure activity and unwanted effects.",
+            "x": 38,
+            "y": 987,
+            "width": 448.96875,
+            "height": 30,
+            "font": 26
+          }
+        ]
+      }
+    ],
+    "articleAndTheater": [
+      {
+        "key": "next-gap-251",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+        "candidateSHA256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 105.296875,
+            "width": 345.984375,
+            "height": 634.328125
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 634.3046875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 627
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-mobile-inline.png",
+            "sha256": "75ecbd7ccf8075ce3a2c4aedaf2af4ed834765e9bac5d574f792beeaa98b32ba",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "cfa6da1a8ffa77c321c8b20fecce48030ddff6c0f7b6bc1957daa65df0a4b643",
+            "crop": {
+              "x": 22,
+              "y": 105,
+              "width": 346,
+              "height": 634
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-mobile-theater.png",
+            "sha256": "7147db2e066f761cf2c58ed10e319a9721018ddeba48e8335a87ef37f9604282"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-mobile-zoom150.png",
+          "sha256": "e07726940bcea85e58af27539a2d38fde702be3c38f9031dab03c375daf7906a"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-251",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+        "candidateSHA256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 599.953125,
+            "width": 600,
+            "height": 1100
+          },
+          "paint": {
+            "width": 600,
+            "height": 1100
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 493.09090909090907,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.723636363636363,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-desktop-inline.png",
+            "sha256": "64775e1d9e511c20411f7aa61b17fbf9dffc27de7e7e7db6c1b4edf7cf9a9f9e",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "25b82573a33aad377b4cd1a2771ec06d81e2bf57f65616ab25ff071184bd7ce6",
+            "crop": {
+              "x": 310,
+              "y": 600,
+              "width": 600,
+              "height": 1100
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-desktop-theater.png",
+            "sha256": "dae1e744110b9b4557568fe89a56f9cbd4c49488da7414de72a3fe66b56eb4c8"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-desktop-zoom150.png",
+          "sha256": "9b8bd6408bb57fbc3616e47f8072aeaceda23a0f911ef687850fbac91040d41d"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-251",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "inlineViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theaterViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+        "candidateSHA256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 105.296875,
+            "width": 345.984375,
+            "height": 634.328125
+          },
+          "paint": {
+            "width": 345.984375,
+            "height": 634.3046875
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 627
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 13.839375,
+        "minTheaterLabelPx": 13.68,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-mobile-inline.png",
+            "sha256": "6ef895f0d41fed7d9ffa0ca264afd87e5972f92ab22467720fb571a1f57ec89b",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-mobile-reader-full.png",
+            "sourceFullReaderSHA256": "d6201416d5680bc25e337e6cbf65acf2d82b414c61c3969eaf9c056ea9ad9a2e",
+            "crop": {
+              "x": 22,
+              "y": 105,
+              "width": 346,
+              "height": 634
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-mobile-theater.png",
+            "sha256": "3eae8fe76b1e7fc521de9a059e27792bab61ee5b01c8c80a0bf5775e0fc6f8bb"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-mobile-zoom150.png",
+          "sha256": "a5ffc6576d447e3f1b181615107781282cf2aa8485c4fe97905bee1d165616d1"
+        },
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-251",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "inlineViewport": {
+          "width": 1440,
+          "height": 1700
+        },
+        "theaterViewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+        "candidateSHA256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 599.953125,
+            "width": 600,
+            "height": 1100
+          },
+          "paint": {
+            "width": 600,
+            "height": 1100
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 493.09090909090907,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 1100,
+          "src": "http://127.0.0.1:4821/api/file?path=wiki%2Feducation%2Fconcepts%2Ftherapeutics%2Fimmunotherapy%2Fimages%2Fcytokine-receivers-and-beyond-origin-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 24,
+        "minTheaterLabelPx": 19.723636363636363,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-desktop-inline.png",
+            "sha256": "bdc7da183beb94f632fa8f93927fac4d323459a774d14f5c08038c0d0c6227f8",
+            "sourceFullReaderCapture": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-desktop-reader-full.png",
+            "sourceFullReaderSHA256": "5ffd69604d61d40828e725063fb206d997a6bc216215c87db078e8aeacb00cbe",
+            "crop": {
+              "x": 310,
+              "y": 600,
+              "width": 600,
+              "height": 1100
+            }
+          },
+          {
+            "mode": "theater",
+            "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-desktop-theater.png",
+            "sha256": "696cbef2e6f611e50c11089cb5e2bf34572b0917e64b65112edcd8c420486610"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "zoom": {
+          "zoom": "1.5",
+          "dialogOpen": true,
+          "width": 1440,
+          "scrollWidth": 1440
+        },
+        "zoomCapture": {
+          "path": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-desktop-zoom150.png",
+          "sha256": "7c633d756252dc5859fc1eb808b172f92cde8d9cf1515d647214deffb31a6de2"
+        },
+        "pageErrors": []
+      }
+    ],
+    "nativeZoom200": [
+      {
+        "id": "next-gap-251",
+        "theme": "light",
+        "scale": 2,
+        "nativeSHA256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-light-native-zoom200.png",
+        "captureSHA256": "a1d72c1b1aa6df068866fbaaa83680ce703f6962aba12dd73b6add843672337a",
+        "width": 1200,
+        "height": 2200
+      },
+      {
+        "id": "next-gap-251",
+        "theme": "dark",
+        "scale": 2,
+        "nativeSHA256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+        "capture": "/private/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/captures/next-gap-251-dark-native-zoom200.png",
+        "captureSHA256": "32f28bd86800f5b6b14392265dd2563a46d0418092dac4a50e036c00a611ec36",
+        "width": 1200,
+        "height": 2200
+      }
+    ],
+    "personalPixelInspection": "Both native themes, both 390px article themes with captions and immediate context, both wide article themes, plus 200 percent full native SVG captures personally inspected. Synthetic CSS-zoom stress also inspected and separately qualified.",
+    "fixture": "87 verified exact 5cb06c95f00ceb74ab86b1f46f5face9d49497e0 Git blobs; reviewer copy on :4821; private pinned article and ImageTheater only, not full production application.",
+    "focusQualification": "Enter opens and Escape closes. Escape returns focus to BODY rather than the triggering image; known retained renderer defect, not fixed or certified as conforming.",
+    "zoomQualification": "Full native SVG at 200 percent remains legible and contains all labels. Synthetic root CSS zoom 150 percent on the modal can push lower content outside the viewport; this stress is not actual browser zoom and provides no blanket application zoom certification."
+  },
+  "sourceGuard": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/cytokine-receivers-and-beyond-origin-v1-independent-source-guard.json",
+    "sha256": "c38c919b231b4ea6bf59bdae46ea525f85a7472e78a5d24cacb2dc246fc65c98"
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "pending",
+  "publication": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "findings": [],
+  "correctionIds": []
+}

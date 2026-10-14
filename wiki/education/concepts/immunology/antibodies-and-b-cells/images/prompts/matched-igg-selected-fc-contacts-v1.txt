@@ -1,0 +1,12 @@
+Learning question: Compare unchanged target-binding regions with changed Fc interactions and understand why silencing selected interactions does not turn every antibody function off.
+Frozen gap: The map and practice correctly separate binding and selected Fc interactions, but a matched-molecule structural comparison would clarify what changes and what stays the same. Reuse the antibody-structure reference rather than inventing an all-or-nothing Fc switch.
+Reuse first: wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md
+Extension rationale: The shared IgG domain map supplies the anatomy. This extension compares matched recognition tips and separates selected effector contacts from recycling.
+Technique: original source-code SVG, authored by agent:/root/batch11_immune_address_author; no image-model call.
+Panels: Same tips, different contacts; exact visible labels and geometry in ../matched-igg-selected-fc-contacts-v1-light.svg.
+["Class switching and affinity maturation are distinct processes.", "Keep Fc receptor/complement interactions distinct from FcRn recycling.", "No universal half-life or safety inference from Fc silencing."]
+Style: flat outlined cell/protein cartoon; 600px vertical figure; 26px minimum body labels; identical light/dark geometry.
+High-level education only. Icons and counts are schematic, not molecular coordinates or measured data. No sequences, engineering methods, doses, regimens or optimization.
+Alt: Matched IgG sketches retain the same green target-binding tips while selected Fc receptor and complement contacts are reduced; a separate vesicle asks about FcRn recycling.
+Caption: Matched recognition regions can stay the same while selected Fc interactions change; FcRn recycling needs its own evidence.
+Exercise: Point to the part held constant. Does weaker Fc receptor binding tell you the half-life? **Answer:** The tips are held constant; half-life needs separate evidence.

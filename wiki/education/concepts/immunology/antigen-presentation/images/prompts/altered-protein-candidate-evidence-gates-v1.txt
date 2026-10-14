@@ -1,0 +1,12 @@
+Learning question: Connect a specific normal-versus-altered sequence to a candidate peptide while retaining separate presentation and recognition evidence.
+Frozen gap: The evidence table distinguishes the gates well but does not show how an altered sequence changes a candidate fragment. A small normal/altered sequence inset can reuse the antigen-processing owner rather than duplicating its full pathway.
+Reuse first: wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md
+Extension rationale: Reuse the shared processing/display route. This extension supplies the normal-versus-altered comparison and makes the two unproven gates explicit.
+Technique: original source-code SVG, authored by agent:/root/batch11_immune_address_author; no image-model call.
+Panels: A changed block is a start; exact visible labels and geometry in ../altered-protein-candidate-evidence-gates-v1-light.svg.
+["An alteration can yield several candidates or none useful.", "An unusual transcript is not automatically tumor-exclusive.", "Sequence-specific novelty does not establish recognition, safety or benefit."]
+Style: flat outlined cell/protein cartoon; 600px vertical figure; 26px minimum body labels; identical light/dark geometry.
+High-level education only. Icons and counts are schematic, not molecular coordinates or measured data. No sequences, engineering methods, doses, regimens or optimization.
+Alt: Abstract normal and altered protein strips differ at one marked block; a fragment containing that block is a candidate, followed by separate questions about HLA display and T-cell recognition. No real amino-acid sequence is shown.
+Caption: A sequence change can create a candidate fragment; natural display and receptor recognition remain separate questions.
+Exercise: Does the changed block prove recognition? **Answer:** No. The candidate must be naturally displayed and recognized in the claimed system.

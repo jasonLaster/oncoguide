@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-259",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+  "author": "agent:/root/batch11_measurement_author",
+  "reviewer": "agent:/root/batch11_measurement_review",
+  "reviewedAtUTC": "2026-10-14T20:03:33.777Z",
+  "currentOwnerSha256": "60e2af6ed56a15efe332114488ee6cc22a6cea2ae2f8a5fd568e81aadd911e63",
+  "passed": true,
+  "verdict": "PASS",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+      "sha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+      "sha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "f8923b46b5b2c2fb25af5146a364aff2f9065deba6e61f9b786ebed54249ad2b",
+    "learnerTask": "Trace the same variant through blood-cell and tumor comparisons",
+    "gap": "The source flow is useful but omits parallel source compartments",
+    "accuracyGuardrails": "Show blood-cell and tumor evidence as parallel source comparisons. A plasma variant can originate outside tumor; matching one compartment or using a CHIP label does not resolve every source/function question.",
+    "reasoning": "The blood-cell clone and solid tumor enter the plasma pool through parallel paths. A distinct comparison lists the same generic V in plasma and blood-cell DNA, with V not detected in sampled tumor material. This supports a blood-cell contribution without excluding every tumor contribution; assay limits, sampling and shared variants remain explicit. It does not equate a source clue with formal CHIP classification or a clinical risk forecast. The extension supplies the precise compartment comparison absent from the original flow.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+    "canonicalOwnerPreserved": true,
+    "reuseFirstAssessment": "The retained cfDNA graphic defines source classes and leaves unknown fragment source unresolved; the owner extension compares the same variant in three specimens.",
+    "actualSourceConsultation": {
+      "id": "next-gap-259",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/",
+      "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+      "sourceType": "primary research bibliographic record and complete abstract",
+      "actualConsultation": "Independently retrieved NCBI EFetch record and complete abstract; personally read in this review",
+      "retrievedEvidence": "sources/independently-retrieved-primary-abstracts.xml",
+      "assessment": "Razavi primary abstract studies paired plasma, white-blood-cell and contemporaneous tumor samples and emphasizes blood-cell contributions to cfDNA variants. The generic V scenario is constructed, with non-detection bounded by sampling and assay sensitivity.",
+      "wholePaperRead": false,
+      "sourceFigureCopied": false
+    }
+  },
+  "nativeAndDisplayReview": {
+    "nativeBothThemes": "Personally inspected fresh independent native screenshots",
+    "pageWidths": [
+      1100,
+      390
+    ],
+    "pageBothThemes": "Personally inspected fresh independent figure/caption article screenshots",
+    "theaterBothThemesBothWidths": "Personally inspected fresh independent theater screenshots; all 28 combinations open",
+    "capturedImageAndCaptionFit": true,
+    "descriptiveAltMatchesNative": true,
+    "noHorizontalDocumentOverflow": true,
+    "nativeTextOutOfBounds": 0,
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererVerifiedExactBlobCount": 87,
+    "fixtureScope": "Private article/theater/theme fixture, not full app, authentication, navigation or live delivery",
+    "knownInheritedReaderIssue": "Escape closes theater but activeElement returns to BODY; no focus-return repair or full accessibility approval claimed",
+    "inspectionBoards": [
+      "inspection-boards/259.png",
+      "inspection-boards/page-259.png",
+      "inspection-boards/theater-259.png"
+    ]
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+        "sha256": "60e2af6ed56a15efe332114488ee6cc22a6cea2ae2f8a5fd568e81aadd911e63"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+        "sha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+        "sha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/plasma-variant-and-parallel-source-comparisons-b11-v1.txt",
+        "sha256": "904b429b7e8eaf870c1d59a0d4a4f1a07186d534324abe57cc88ec35782fe097"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/plasma-variant-and-parallel-source-comparisons-b11-v1-provenance.json",
+        "sha256": "8e50371618ab200c247fb0fb8e49dbdda020fd8cad04dfb1f9d27b84268f6e2f"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+        "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+        "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.zip",
+        "sha256": "b92956f67902ad1d1c1d5a9e86fa37c5a00bbfc83ac0c159ff00610d62cf9e90"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.json",
+        "sha256": "43de3acf8e1b041cd5b9980c29de35393c0454105060805da2c03c7372e40f86"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1.txt",
+        "sha256": "41c13aa6cc16a12a743142c3feff1433287d7aaf5ca93b6d31391bbb6e930e1e"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/independently-retrieved-primary-abstracts.xml",
+        "sha256": "65b6ec11f7ab47f8aa709c33f54ce08b6b7b3507fa6a22d7f9720db2e2cd0b51"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/retrieval.json",
+        "sha256": "396a2bcf463e156fccc3e70dfc8af7c7300093ef7c97e2b11369ab4c04472a8c"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/source-consultation.private.json",
+        "sha256": "2a2b295e2b9791753df8281aed41afe0d3dbe68d8a699da791b72bc5afb43005"
+      }
+    ],
+    "retainedGuards": {
+      "sharedOwner": {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+        "sha256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7"
+      },
+      "assetsAndSupport": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+          "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+          "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.zip",
+          "sha256": "b92956f67902ad1d1c1d5a9e86fa37c5a00bbfc83ac0c159ff00610d62cf9e90"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.json",
+          "sha256": "43de3acf8e1b041cd5b9980c29de35393c0454105060805da2c03c7372e40f86"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1.txt",
+          "sha256": "41c13aa6cc16a12a743142c3feff1433287d7aaf5ca93b6d31391bbb6e930e1e"
+        }
+      ],
+      "scope": "Exact retained native/support references verified against read-only source checkout; creator attribution not replaced"
+    },
+    "sourcePreimageSHA256": "f8923b46b5b2c2fb25af5146a364aff2f9065deba6e61f9b786ebed54249ad2b",
+    "sourcePreimageCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "inverseInsertionVerified": true,
+    "authorManifestSHA256": "357b3c22b3351e7fb10304433607e7195a0ecc68420c529e3cc0e004d7f4cf90",
+    "reviewedPublicFilesExactCount": 5,
+    "allPublicCandidateFilesExactCount": 35
+  },
+  "issues": [],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "publication": "not started",
+  "delivery": "not started",
+  "rootSoleIntegratorPublisher": true
+}

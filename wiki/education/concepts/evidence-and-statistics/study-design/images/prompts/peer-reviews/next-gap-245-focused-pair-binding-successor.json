@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-245",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+  "author": "agent:/root/batch10_author_group3",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "authorRole": "Actual new-pair vector author; retained task243 original creator remains unknown",
+  "reviewer": "agent:/root/batch10_review_group3",
+  "independentReviewer": "agent:/root/batch10_review_group3",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:23:33.055612+00:00",
+  "reviewedAtUTC": "2026-10-14T00:23:33.055612+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/184",
+  "frozenRowSHA256": "8f2fbaf7f5f9bde6cec7605a157f3f93d30a268713569d51870184d0fe9c694e",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Four matched schematic wells label the changed condition and distinct carrier, assay-detection, independent-mechanism and restoration question. The separate direct-count example shows 100 at start, vehicle200 and treated100, preserving net count rather than equating a relative endpoint deficit with death. The rescue question is local/contextual, and the visible caution withholds specificity and clinical benefit conclusions from a single control. No illustrated reagent symbol is presented as a universal protocol.",
+    "frozenPageSHA256": "3032371ecfb33560a7c0b6ded72cec15849ea561a303db19924e5f6fca165e13",
+    "baselinePageSHA256": "3032371ecfb33560a7c0b6ded72cec15849ea561a303db19924e5f6fca165e13",
+    "actualTeachingPreimageSHA256": "6b9310613042bd82a22400ee9379343778cc792b345c9f466282a1ea82a820ff",
+    "learnerTask": "Identify vehicle, positive, independent mechanism and rescue controls as different questions.",
+    "gap": "No experiment schematic shows what each condition changes.",
+    "accuracyGuardrails": "Identify what each control changes and which causal question it supports. Slowdown is not death, rescue is context dependent and no one control alone proves target-specific mechanism or clinical relevance.",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Immutable original audit page hash is baselinePageSHA256; current committed teaching preimage is separately bound. Frozen task fields unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "bytes": 7851,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1100,
+        "viewBox": "0 0 600 1100"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "bytes": 7851,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1100,
+        "viewBox": "0 0 600 1100"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+        "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+        "bytes": 7851,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+        "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+        "bytes": 7851,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+        "sha256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+        "bytes": 1678,
+        "kind": "new-creative-brief"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+        "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+        "bytes": 2946,
+        "kind": "new-author-provenance"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+        "sha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+        "bytes": 6711,
+        "kind": "body-plus-additive-insertion"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+    "authorHandoffSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+    "authorInventorySHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+    "sourcePreimageSHA256": "6b9310613042bd82a22400ee9379343778cc792b345c9f466282a1ea82a820ff",
+    "exactFiveNewPublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalCreator": null,
+    "insertOnlyPreimageRecovery": "Independently removed exact single saved insertion and recovered b3704 committed bytes byte-for-byte. Existing prose, source-depth statements, metadata and navigation preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "noUnrelatedOrRestrictedBodiesRead": true,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4887336/fullTextXML",
+      "primary": true,
+      "readDepth": "Selected Hafner primary results paragraphs on simulated cytostasis, endpoint-versus-initial counts, growth-rate estimates and limits read; full XML acquired but not complete-paper/figures/supplement review.",
+      "supports": "Endpoint relative cell count can vary with division rate; cytostatic arrest and killing are distinct.",
+      "accessStatus": "Direct PMC CAPTCHA; indexed primary introduction and Europe PMC XML accessible.",
+      "population": "In-vitro drug-response experiments and simulations; toy100/200/100 counts are invented."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK144065/",
+      "primary": true,
+      "readDepth": "Not independently read.",
+      "supports": "Ancillary preserved owner guidance is not recertified; distinct control questions were checked conceptually against the unchanged owner explanation.",
+      "accessStatus": "Author recorded CAPTCHA; independent targeted indexed search supplied no substantive applicable passage. No complete-protocol validation claimed.",
+      "population": null
+    }
+  ],
+  "mathAssessment": {
+    "baselineCount": 100,
+    "vehicleEndpointCount": 200,
+    "treatedEndpointCount": 100,
+    "relativeEndpointFraction": 0.5,
+    "netTreatedCountChange": 0,
+    "deathFractionMeasured": false,
+    "fictionalQuantities": true
+  },
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, custody and personally inspected native plus fresh pinned-reader pixel review of assigned candidate; retained task243 context also inspected.",
+    "sourceReadDepth": "Actual bounded independent primary/official reading and access failures recorded. Preserved ancillary citations and historical source-depth statements are not each recertified.",
+    "freshCaptureCountForOwner": 12,
+    "personallyInspectedCountForOwner": 12,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own copied private fixture rebuilt with exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. New native600px, desktop1440×1000 inline/theater and mobile390×844 inline/theater personally seen. For tall245/247 diagrams, additional complete desktop1440×1700 inline captures inspected. Retained243 pair native780×1100 plus desktop1440×1700/mobile390×844 inline/theater inspected. Original1000px desktop245/247 snapshots are viewport crops; supplementary captures establish complete inline geometry. No production header/sidebar/backend/navigation, physical mobile, cross-browser/touch or whole-page/nontext accessibility certification. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1100
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "supplementaryDesktopViewport": [
+      1440,
+      1700
+    ],
+    "minMobileInlineLabelPx": 13.839886363636364,
+    "minMobileDefaultTheaterLabelPx": 13.68,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.089472715883854,
+    "allNewTextContrastChecksPassed": true,
+    "contrastScope": "Fresh computed SVG text fill against preceding opaque enclosing rectangle; both new themes. Nontext graphics and retained text contrast are not certified by this calculation.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but does not restore image focus. Independent mobile check for each task observes BODY. This unchanged pinned runtime defect remains qualified; no runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "../captures/next-gap-245-light-reading.png",
+      "sha256": "468bd8a1b02f05d99a45726ff358750ef6baf4216e409dd0370a40886c839ed2"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "../captures/next-gap-245-dark-reading.png",
+      "sha256": "4274b853f26904170510266a96d023a67ccdc344450872868c579e8acc64278f"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "../captures/next-gap-245-light-mobile-inline.png",
+      "sha256": "d51147a3dfc8c3c686eb3356160039e35f0fff5dff4e0b49d4cc5dbf4e5c5730"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "../captures/next-gap-245-light-mobile-theater.png",
+      "sha256": "e61fbb5dccea6ec5f758766ac36fa366443e19329d6aa868609c6b9e1b1d662b"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "../captures/next-gap-245-light-desktop-inline.png",
+      "sha256": "cd4ba9dd38d6479732f320c674ce75c6f704b9140d1655a6b9312753ff6d88e8"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "../captures/next-gap-245-light-desktop-theater.png",
+      "sha256": "9120199253061f16c152850da2577c199cdbed8dad4985468176e083ed3ebd9a"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "../captures/next-gap-245-dark-mobile-inline.png",
+      "sha256": "d572d3efe15908ad5ad6633bb9d0f89822b075a5093cfe874e7335d744682124"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "../captures/next-gap-245-dark-mobile-theater.png",
+      "sha256": "b5d1b71bee44a0e3a115f6338d2f8010b5f1a3cee4d172c8a0ddaa9870ae3227"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "../captures/next-gap-245-dark-desktop-inline.png",
+      "sha256": "9c4c535d24e9f1e2ca1b83473375d9735181c8e52aac0a84aba128e31363d6e3"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "../captures/next-gap-245-dark-desktop-theater.png",
+      "sha256": "eff136ebbdad6f0d96f01c7162bc0d9eeaeec3bc7e4adc270754904ebe7638ee"
+    },
+    {
+      "theme": "light",
+      "mode": "desktop1700-inline",
+      "path": "../captures/next-gap-245-light-desktop1700-inline.png",
+      "sha256": "78d784163289a0e782f3cf81ea9ac82a9483cd7adc63d7c414cafe6a3e303d19"
+    },
+    {
+      "theme": "dark",
+      "mode": "desktop1700-inline",
+      "path": "../captures/next-gap-245-dark-desktop1700-inline.png",
+      "sha256": "7119748c72a7e0c95f86bf376947c21fc5423f3c41ce9ea339f34c6d4a54fb9c"
+    }
+  ],
+  "method": "Original hand-authored editable SVG via local Python serialization; no image model invocation claimed",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "qualified-renderer-limitation",
+      "decisionImpact": "No new artwork revision; prevents full keyboard/accessibility approval",
+      "detail": "Unchanged Escape closes ImageTheater then leaves BODY focused."
+    }
+  ],
+  "originalReviewedAt": "2026-10-14T00:07:23.461780+00:00",
+  "focusedCorrection": {
+    "kind": "same-peer-narrow-literal-pair-binding-successor",
+    "correctedAtUTC": "2026-10-14T00:23:33.055612+00:00",
+    "reviewer": "agent:/root/batch10_review_group3",
+    "originalReceiptPath": "../task-bindings/next-gap-245-independent-owner-review.json",
+    "originalReceiptSHA256": "901a2b01734b85590e5540316a579e0891cfe29ab91bbd4ae797ecbde70a7024",
+    "originalWholeReviewReviewedAtUTC": "2026-10-14T00:07:23.461780+00:00",
+    "originalWholeVerdictPreserved": "PASS",
+    "originalFormalLiteralBindingVerdict": "REVISE",
+    "currentFormalLiteralBindingVerdict": "PASS",
+    "reviewScope": "Checked exact owner embed and public inventory; verified original task-keyed native/display hashes and source/task evidence; personally re-inspected the original light/dark native captures for this task. Narrowed four overinclusive outputs to the exact owned pair and nine overinclusive custody paths to the exact owned five. Corrected dependent task246 native height1100 to1000. Existing complete scientific/native/task review is inherited, not repeated.",
+    "newCapturesGenerated": 0,
+    "originalNativeCapturesPersonallyReinspected": 2,
+    "unchangedFourTaskReceiptsReReviewed": false,
+    "sourceFitFieldsChanged": false,
+    "sourceChecksChanged": false,
+    "newScientificClaims": false,
+    "sourceAccessBoundsPreserved": true,
+    "humanPendingAndCreditsPreserved": true,
+    "escapeBodyQualificationPreserved": true,
+    "proofPaths": {
+      "authorInventory": "/private/tmp/education-next-visual-batch-10/experimental-histories-comparative-evidence/public-inventory.private.json",
+      "originalDisplayChecks": "../display-checks.private.json",
+      "originalSourceAndTaskEvidence": "../task-bindings/next-gap-245-independent-owner-review.json"
+    },
+    "correctPairAndFiveCustodyPaths": [
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md"
+    ]
+  }
+}

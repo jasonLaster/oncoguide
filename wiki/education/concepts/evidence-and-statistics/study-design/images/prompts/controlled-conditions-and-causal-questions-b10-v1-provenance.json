@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "authored-vector-education-art",
+  "taskId": "next-gap-245",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+  "sourceTeachingAnchor": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenPageSHA256": "3032371ecfb33560a7c0b6ded72cec15849ea561a303db19924e5f6fca165e13",
+  "currentSourcePreimageSHA256": "6b9310613042bd82a22400ee9379343778cc792b345c9f466282a1ea82a820ff",
+  "finalCandidateSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+  "frozenRowSHA256": "8f2fbaf7f5f9bde6cec7605a157f3f93d30a268713569d51870184d0fe9c694e",
+  "learnerTask": "Identify vehicle, positive, independent mechanism and rescue controls as different questions.",
+  "gap": "No experiment schematic shows what each condition changes.",
+  "accuracyGuardrails": "Identify what each control changes and which causal question it supports. Slowdown is not death, rescue is context dependent and no one control alone proves target-specific mechanism or clinical relevance.",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "originalCreator": null,
+  "method": "Precise SVG manually authored by agent; Python serialization; no image model call",
+  "toolCall": null,
+  "promptSHA256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+  "nativeFiles": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "theme": "dark"
+    }
+  ],
+  "sourceReadBounds": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/",
+      "depth": "Selected primary before/after count, growth-rate and methods passages (relative counts and GR values) read; not full article."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK144065/",
+      "depth": "NIH Assay Guidance Manual direct request hit reCAPTCHA; not read. Control roles retain the original public owner explanation; no new universal assay protocol is claimed."
+    }
+  ],
+  "sourceScope": "Only the new illustration was source-checked in this turn; all existing body/source-depth statements preserved verbatim, not recertified. Fictional quantities are arithmetic from the preserved owner example.",
+  "clinicalPrediction": false,
+  "humanReview": "Clinician/domain expert and learner review pending",
+  "independentReview": null,
+  "adoption": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

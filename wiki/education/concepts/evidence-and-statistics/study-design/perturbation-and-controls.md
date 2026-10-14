@@ -39,6 +39,13 @@ A **positive control** creates a known relevant response and checks that the sys
 
 Specify timing, concentration, assignment of samples and replicate structure. Repeated wells help measure technical variation. Independently obtained biological samples address a different source of variation. Neither repetition nor a small statistical value repairs a missing comparison.
 
+
+### A closer look
+
+<img src="./images/controlled-conditions-and-causal-questions-b10-v1-light.svg" alt="Matched culture wells distinguish vehicle with carrier only, a known-response positive control, an independent disruption of the same function, and a perturbation plus restoration rescue. Each asks a distinct carrier, detection, mechanism or reversal question. Invented direct counts show 100 at baseline, 200 with vehicle and 100 with treatment, so half the endpoint count does not measure 50 percent killing. Rescue is context dependent and no one control proves target specificity or clinical relevance." width="600" height="1100" data-theme-pair>
+
+*Give each control its own question. In the invented count example, 100 → 100 is no net decline while the vehicle reaches 200; that does not measure 50% killing. Rescue depends on context, and no one control establishes specificity or patient benefit.*
+
 ## Why it matters in cancer
 
 Controls make a drug-response result interpretable. They help distinguish slowed growth, cell death and a measured molecular change. A response can be real without proving the proposed target is responsible or that treatment benefits patients.

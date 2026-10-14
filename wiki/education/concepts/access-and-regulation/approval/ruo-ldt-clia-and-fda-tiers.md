@@ -31,6 +31,10 @@ This is a memory aid. Actual rules depend on the test, jurisdiction and intended
 
 ## How it works
 
+<img src="./images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg" alt="Three distinct objects carry their own labels: RUO belongs to the intended research purpose of a product, CLIA certification attaches to a laboratory building, and authorization attaches to the product and intended-use record. Separate scenes have no ladder or progression arrows. A note identifies an LDT by its development and use within a laboratory, not by approval status. Badges alone do not establish clinical utility, patient benefit or payment." data-theme-pair>
+
+*Ask what the label belongs to: purpose, laboratory or product and use. These objects can have overlapping statuses; a badge alone cannot supply evidence of useful treatment selection or payment.*
+
 **Research use only (RUO)** is an intended-use label on a research product. For an in vitro diagnostic product, it identifies a research purpose, not established clinical diagnostic suitability. The actual intended use and distribution matter; printing RUO does not settle every applicable requirement. A research result may motivate a question without becoming a validated treatment-selection report.
 
 A **laboratory-developed test (LDT)** describes a test developed and used within a laboratory. It describes the test's origin rather than its usefulness. LDT does not mean research-only, and does not mean the Food and Drug Administration (FDA) approved it. A laboratory test can have more than one relevant status; these labels are not sequential stages.

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1430" viewBox="0 0 780 1430" role="img"><title>An inflammatory conversation</title>
+<rect width="780" height="1430" fill="#15202b"/>
+<text x="38" y="52" fill="#eff4f8" font-family="Arial,sans-serif" font-size="34" font-weight="700">An inflammatory conversation</text>
+<text x="38" y="98" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">A selected multicell mechanism</text>
+<rect x="28" y="135" width="724" height="415" rx="24" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="48" y="181" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">1  Activation can recruit amplification</text>
+<circle cx="155" cy="325" r="62" fill="#406e8e" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="143" cy="330" r="21.7" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="127.1" cy="300.2" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="186.0" cy="343.6" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="176.7" cy="290.9" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="313" cy="325" r="70" fill="#a35372" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="301" cy="330" r="24.5" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="281.5" cy="297.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="348.0" cy="346.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="337.5" cy="286.5" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="620" cy="325" r="80" fill="#796398" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="608" cy="330" r="28.0" fill="#223342" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="584.0" cy="293.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="660.0" cy="349.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="648.0" cy="281.0" r="4" fill="#c3cfda" stroke="#c3cfda" stroke-width="3"/>
+<path d="M217,325 L243,325" fill="none" stroke="#e8c374" stroke-width="12"/>
+<text x="69" y="447" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">T cell</text>
+<text x="251" y="447" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Target cell</text>
+<text x="537" y="447" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Macrophage</text>
+<path d="M401,296 L527,296" fill="none" stroke="#eff4f8" stroke-width="4"/>
+<path d="M527,296 L513.8362615716444,303.19138307906303" fill="none" stroke="#eff4f8" stroke-width="4"/>
+<path d="M527,296 L513.8362615716444,288.80861692093697" fill="none" stroke="#eff4f8" stroke-width="4"/>
+<text x="424" y="265" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Signals</text>
+<circle cx="423" cy="335" r="8" fill="#e8c374" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="464" cy="365" r="8" fill="#e8c374" stroke="#c3cfda" stroke-width="3"/>
+<circle cx="497" cy="339" r="8" fill="#e8c374" stroke="#c3cfda" stroke-width="3"/>
+<text x="49" y="495" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Recipient macrophages were causal in a mouse</text>
+<text x="49" y="532" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">CAR T model; human contributions can differ.</text>
+<rect x="28" y="583" width="724" height="445" rx="24" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="48" y="629" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">2  Vessels and organs can be affected</text>
+<rect x="90" y="688" width="592" height="123" rx="32" fill="#d89a88" stroke="#c3cfda" stroke-width="2"/>
+<rect x="105" y="694" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="105" y="768" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="200" y="694" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="200" y="768" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="295" y="694" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="295" y="768" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="390" y="694" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="390" y="768" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="485" y="694" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="485" y="768" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="580" y="694" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<rect x="580" y="768" width="90" height="35" rx="12" fill="#223342" stroke="#c3cfda" stroke-width="2"/>
+<text x="166" y="759" fill="#243343" font-family="Arial,sans-serif" font-size="30" font-weight="400">Blood inside a vessel</text>
+<text x="120" y="852" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Vascular lining</text>
+<path d="M180,824 L165,800" fill="none" stroke="#eff4f8" stroke-width="3"/>
+<path d="M236,885 L236,932" fill="none" stroke="#eff4f8" stroke-width="4" stroke-dasharray="10 8"/>
+<path d="M236,932 L228.80861692093694,918.8362615716444" fill="none" stroke="#eff4f8" stroke-width="4"/>
+<path d="M236,932 L243.19138307906303,918.8362615716444" fill="none" stroke="#eff4f8" stroke-width="4"/>
+<path d="M547,885 L547,932" fill="none" stroke="#eff4f8" stroke-width="4" stroke-dasharray="10 8"/>
+<path d="M547,932 L539.808616920937,918.8362615716444" fill="none" stroke="#eff4f8" stroke-width="4"/>
+<path d="M547,932 L554.191383079063,918.8362615716444" fill="none" stroke="#eff4f8" stroke-width="4"/>
+<text x="86" y="978" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Blood pressure</text>
+<text x="469" y="978" fill="#eff4f8" font-family="Arial,sans-serif" font-size="30" font-weight="400">Oxygenation</text>
+<text x="48" y="1091" fill="#eff4f8" font-family="Arial,sans-serif" font-size="32" font-weight="700">3  Clinical assessment supplies the grade</text>
+<text x="48" y="1141" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Fever can have other causes, including infection.</text>
+<text x="48" y="1191" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Cytokine concentration does not assign a grade.</text>
+<text x="48" y="1241" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Name the ASTCT reporting version (2019 / 2026).</text>
+<text x="48" y="1300" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">Dashed arrows: possible clinical consequences.</text>
+<text x="48" y="1361" fill="#eff4f8" font-family="Arial,sans-serif" font-size="28" font-weight="400">This scene is not a management algorithm.</text>
+</svg>

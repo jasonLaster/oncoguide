@@ -1,0 +1,5 @@
+Original source-code SVG construction brief. No image-generation call.
+Actual creative author: agent:/root/batch11_pathology_symptoms_author
+Three original cartoon panels. DNA ladder uses continuous outlined backbones. Red circle denotes transferred alkyl group without molecular formula or atomic geometry. Generic two-ended connections highlight intrastrand and interstrand connectivity; not every alkylator cross-links. Simple parent circle, abstract metabolism organ silhouette, active-species circle is a conceptual example, not a laboratory activation method. Reuse existing platinum comparator with explicit chemistry difference. No exposure, synthesis, protocol or clinical dosing.
+Frozen learner task: Distinguish alkyl attachment, intra/interstrand links and prodrug activation
+Guardrails: "Not every alkylator crosslinks; platinum is different chemistry; damage not inevitable death"

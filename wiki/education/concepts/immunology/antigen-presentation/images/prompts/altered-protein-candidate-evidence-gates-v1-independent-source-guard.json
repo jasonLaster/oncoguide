@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-250",
+  "owner": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "598816ce1db55abec093530404e0bb9d7e562b3b6634b30172e4dd6f9801f7bb",
+  "scope": "Independent high-level mechanism and native task-fit source guard; no clinical result recertification, individual treatment inference, methods, sequences, constructs, protocols or dosing guidance.",
+  "metadataGate": {
+    "candidate": "sensitive:false; no sensitive tag or redacted metadata; checked before body",
+    "publicOwnerRead": "entire assigned public owner, including authored teaching and inserted visual; generated navigation recognized separately",
+    "linkedRestrictedCaseBodiesRead": false
+  },
+  "sourceReadDepth": "Fresh indexed primary abstracts and bibliographic records, read in full; no full-paper methods read",
+  "primarySources": [
+    {
+      "pmid": "33038342",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/",
+      "supportAndLimit": "Primary consortium benchmark distinguishes prediction features related to presentation and measured patient-matched T-cell recognition. No performance number is transferred to this diagram.",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    }
+  ],
+  "accessLimits": [],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+    "pageSHA256": "cde2f028b44b347c03513a64be3e10dfcb5ff107062b3f2263ad01017d32dcce",
+    "targetSection": "## How it works",
+    "learnerTask": "Connect a specific normal-versus-altered sequence to a candidate peptide while retaining separate presentation and recognition evidence.",
+    "gap": "The evidence table distinguishes the gates well but does not show how an altered sequence changes a candidate fragment. A small normal/altered sequence inset can reuse the antigen-processing owner rather than duplicating its full pathway.",
+    "accuracyGuardrails": [
+      "An alteration can yield several candidates or none useful.",
+      "An unusual transcript is not automatically tumor-exclusive.",
+      "Sequence-specific novelty does not establish recognition, safety or benefit."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+      "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+      "theme": "light",
+      "bytes": 16940
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-dark.svg",
+      "sha256": "2e22defea76f176a9638f5e3426edf4163e9697e70ec6bdf973757597c2ae834",
+      "theme": "dark",
+      "bytes": 16940
+    }
+  ],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0
+}

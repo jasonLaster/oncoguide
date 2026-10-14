@@ -29,6 +29,12 @@ A message reader can be present even when the cell does not depend on its messag
 
 ## How it works
 
+<img src="./images/ar-intervention-locations-v1-light.svg" alt="Four cartoon panels separate androgen supply, intracellular androgen receptor binding with an antagonist symbol, nuclear DNA regulation and RNA output, and a variant receptor missing a binding region. AR expression alone does not establish dependence or clinical benefit." width="600" height="1300" data-theme-pair />
+
+*Hormone supply, receptor engagement and nuclear gene regulation are different intervention locations.*
+
+**Follow the signal:** Would reducing hormone production and blocking receptor function be the same action? **Answer:** No. They act at different locations. A variant can change the available binding region, and AR expression alone does not establish dependence or benefit in breast cancer.
+
 The [androgen receptor (AR)](/wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling) is a hormone-responsive transcription factor. **Androgens**, including testosterone and dihydrotestosterone, are hormones that can bind it. AR can then regulate RNA instructions from DNA, as explained in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma). RNA means ribonucleic acid; DNA means deoxyribonucleic acid.
 
 An **antagonist** interferes with receptor signaling; [ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) distinguishes antagonists from activating partners. AR antagonists such as bicalutamide and enzalutamide interact with its ligand-binding region. Primary development work showed that enzalutamide's precursor designation, MDV3100, affected nuclear movement, DNA binding, and recruitment of partner proteins in the tested prostate-cancer systems.

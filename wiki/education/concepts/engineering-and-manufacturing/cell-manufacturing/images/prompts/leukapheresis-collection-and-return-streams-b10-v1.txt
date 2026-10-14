@@ -1,0 +1,10 @@
+Actual original authored SVG direction
+Author: agent:/root/batch10_author_group2
+Tool: local Python SVG authoring; no image model call.
+Source: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: See which blood components are collected versus returned and why a leukopak remains a mixed starting material.
+Scene: A simplified blood circuit connects circulation to a separator. One arrow collects a mixed white-cell fraction into a leukopak; a separate return arrow brings other blood components back to circulation. The bag contains circular cell symbols of different colors and sizes representing lymphocytes and monocytes, rather than a pure T-cell population. Named streams are schematic, with no recovery percentages or universal protocol.
+Accuracy guardrails, verbatim: Show collection and return streams as a simplified circuit and the leukopak as mixed material. Do not imply complete recovery of a selected population or a universal collection protocol.
+Both themes: identical geometry, objects, labels, connectors; warm pale ground and dark ink versus quiet deep ground and pale ink. Arial/Helvetica, minimum label 28 px; native 600 x 1000. All drawings schematic; no measured quantities.
+Renderer: 5cb06c95f00ceb74ab86b1f46f5face9d49497e0.
+Clinical and learner review pending. Original creators of retained art remain unknown unless already documented.

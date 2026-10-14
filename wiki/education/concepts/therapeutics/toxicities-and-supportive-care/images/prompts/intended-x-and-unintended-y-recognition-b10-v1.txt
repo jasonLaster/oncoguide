@@ -1,0 +1,10 @@
+Actual authored SVG brief
+Creator: agent:/root/batch10_author_group1
+Method: hand-authored SVG via private author.py; no image-model invocation.
+Source revision: b3704aa23e9b47cef418dcfe72c49d6c368bd820
+Learner task: Compare intended X on tumor/healthy tissue with unintended Y recognition
+Scene: Three stacked fictional scenes show a blue engineered cell recognizing square X on a rose tumor cell, the same X on a sage healthy cell, and a differently shaped unintended Y on an X-negative healthy cell. Surface contact is shown; injury, accessibility and safety need separate evidence.
+Theme: warm pale ground/dark ink and quiet deep ground/pale ink; identical objects, positions, quantities, labels and arrows.
+Output: 780 x 1420 SVG.
+Accuracy guardrails (frozen): "Same intended target vs cross-reactivity; accessibility not staining alone; fictional no incidence or safety certificate"
+Clinician/domain-expert and learner review pending.

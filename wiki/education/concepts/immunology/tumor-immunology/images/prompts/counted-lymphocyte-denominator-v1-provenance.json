@@ -1,0 +1,61 @@
+{
+  "owner": "wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes.md",
+  "sourceObservedCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "sourceOwnerPreimageSHA256": "d21a7c81fc1c2c4755b9cf6c8203cb097e4ebb04896b3dce76df45ed694181c2",
+  "creativeAuthor": "agent:/root/batch11_pathology_symptoms_author",
+  "technique": "Original source-code SVG pair constructed directly in private Python authoring script",
+  "imageModelCalls": 0,
+  "reportedModel": null,
+  "imageModelCallIds": [],
+  "exactBrief": {
+    "file": "counted-lymphocyte-denominator-v1.txt",
+    "sha256": "d0d43479e8ec88e304bee2aae5b37f1acbb8b391ee70a5f3888d14b061de8a65"
+  },
+  "outputs": [
+    {
+      "file": "counted-lymphocyte-denominator-v1-light.svg",
+      "theme": "light",
+      "sha256": "3a6f8f22590580cbc8f46f52478599c769841141c0ec662965d79076cdd8a58a"
+    },
+    {
+      "file": "counted-lymphocyte-denominator-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "c7b2827251dda3208d98a30cd90db787b812b2742f2794d52114ce937214590b"
+    }
+  ],
+  "candidateOwnerSHA256": "7ba8c9d031769c28d0c22a9d153d8f9f142a7fea304e0c3ebe39358a4a1c1348",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes.md",
+    "pageSHA256": "d21a7c81fc1c2c4755b9cf6c8203cb097e4ebb04896b3dce76df45ed694181c2",
+    "targetSection": "## Worked example and try it",
+    "learnerTask": "Distinguish stromal area from counted-cell fractions in one specimen",
+    "gap": "Current measurement map does not show stroma/nests or denominators in the worked calculation",
+    "accuracyGuardrails": "Fictional geometry and values; 20% area differs from 30% counted lymphocytes; presence does not mean specificity",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/240",
+    "oneBasedRow": 241,
+    "originalTaskRowSHA256": "88fc9d70fd3d5ea98b155ed649be2350f2881ca17d4a5d64eec1db330e726dd9",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+  "reuseExtensionRationale": "Existing stromal geometry is reused unchanged; extension adds the separate counted CD8/lymphocyte denominator absent from it.",
+  "reviewStatus": "Independent scientific/native/task-fit review pending; human expert and learner review pending; no review credit",
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "canonicalAssignment": false,
+  "publication": "not started",
+  "publicReferences": [
+    {
+      "url": "https://www.tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf",
+      "readScope": "Full source downloaded; selected Table 2 and surrounding denominator/compartment passages personally read only; no all-paper read claim",
+      "supports": "eligible stromal area; mononuclear infiltrate including lymphocytes/plasma cells; area rather than counted-cell denominator"
+    }
+  ]
+}

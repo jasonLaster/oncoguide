@@ -54,6 +54,17 @@ A [neoantigen](/wiki/education/concepts/immunology/antigen-presentation/neoantig
 
 ## Common confusions
 
+<div class="cartoon-frame">
+<img src="./images/hla-dna-expression-and-b2m-contrast-b11-v1-light.svg" width="600" height="1330" alt="Three fictional mechanism panels pair HLA-A DNA tiles with schematic surface display: loss of placeholder allele A1 while A2 remains; retained A1 and A2 with reduced expression; and retained HLA-A tiles with impaired B2M support. Dashed links mark display effects as requiring separate measurement; other class-I alleles may remain after one allele is lost." data-theme-pair>
+<p class="cartoon-caption">An allele-specific DNA loss, reduced expression and impaired B2M support are different mechanisms. Measure current display separately.</p>
+</div>
+
+The [copy-number example](/wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh) explains why total copies and retained sequence versions are different questions.
+
+**Read the comparison:** If HLA-A DNA is retained but class-I display is reduced, has allele-specific loss been shown?
+
+**Answer:** No. Retention, expression and B2M support are different evidence questions. Current surface display and function need separate measurements.
+
 - **LOH versus low expression:** losing DNA and making less RNA or protein are different mechanisms.
 - **One allele versus the entire system:** other alleles may remain; B2M disruption has a different scope.
 - **Negative versus uninformative:** insufficient usable tumor evidence cannot exclude loss.

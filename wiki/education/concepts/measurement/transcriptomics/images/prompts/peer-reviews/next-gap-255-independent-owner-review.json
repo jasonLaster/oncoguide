@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-255",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+  "author": "agent:/root/batch11_measurement_author",
+  "reviewer": "agent:/root/batch11_measurement_review",
+  "reviewedAtUTC": "2026-10-14T20:03:33.775Z",
+  "currentOwnerSha256": "72ab5b71154898d87a765e224a664e53d9d1b014e6e82a5b1f0aad3df0287e54",
+  "passed": true,
+  "verdict": "PASS",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+      "sha256": "bd70fac8f8e8421b5e28186019c1779e591ae1b02ccd01b748aeb97dac4d1184"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+      "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "d0631a624d3add000de2c241553da3ff862c454230eb85796a9972e936daeffb",
+    "learnerTask": "Distinguish relative immune composition from whole-sample cell fractions",
+    "gap": "Current model flow does not depict the different denominators",
+    "accuracyGuardrails": "Separate measured pooled RNA, reference/model estimates and each composition denominator. Relative immune fractions are not automatically whole-sample cell fractions or direct cell counts; reference mismatch and identifiability remain visible.",
+    "reasoning": "The two supplied 100-cell specimens contain 10/20 and 30/60 T/immune cells. Both immune-subset fractions equal 50%, while the separately shown whole-sample fractions equal 10% and 30%. Equal-length bars use explicitly different denominators. The fourth panel keeps measured pooled RNA separate from a reference/model estimate and states that RNA share differs from cell share. Missing references and similarly fitting mixtures remain explicit. Counts are teaching inputs rather than inferred cell counts, so the extension answers the frozen learner task without promoting the reconstruction to observed cell composition.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+    "canonicalOwnerPreserved": true,
+    "reuseFirstAssessment": "The retained bulk-mixture image teaches pooled signals from different cell mixtures; it does not compare an immune-subset denominator with the whole-sample denominator.",
+    "actualSourceConsultation": {
+      "id": "next-gap-255",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25822800/",
+      "title": "Robust enumeration of cell subsets from tissue expression profiles.",
+      "sourceType": "primary research bibliographic record and complete abstract",
+      "actualConsultation": "Independently retrieved NCBI EFetch record and complete abstract; personally read in this review",
+      "retrievedEvidence": "sources/independently-retrieved-primary-abstracts.xml",
+      "assessment": "Primary abstract describes reference-based cell-composition reconstruction from expression mixtures; PubMed Figure 1 caption specifies relative leukocyte fractions. This supports the model/reference lane. Arithmetic is stipulated teaching data.",
+      "wholePaperRead": false,
+      "sourceFigureCopied": false
+    }
+  },
+  "nativeAndDisplayReview": {
+    "nativeBothThemes": "Personally inspected fresh independent native screenshots",
+    "pageWidths": [
+      1100,
+      390
+    ],
+    "pageBothThemes": "Personally inspected fresh independent figure/caption article screenshots",
+    "theaterBothThemesBothWidths": "Personally inspected fresh independent theater screenshots; all 28 combinations open",
+    "capturedImageAndCaptionFit": true,
+    "descriptiveAltMatchesNative": true,
+    "noHorizontalDocumentOverflow": true,
+    "nativeTextOutOfBounds": 0,
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererVerifiedExactBlobCount": 87,
+    "fixtureScope": "Private article/theater/theme fixture, not full app, authentication, navigation or live delivery",
+    "knownInheritedReaderIssue": "Escape closes theater but activeElement returns to BODY; no focus-return repair or full accessibility approval claimed",
+    "inspectionBoards": [
+      "inspection-boards/255.png",
+      "inspection-boards/page-255.png",
+      "inspection-boards/theater-255.png"
+    ]
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+        "sha256": "72ab5b71154898d87a765e224a664e53d9d1b014e6e82a5b1f0aad3df0287e54"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+        "sha256": "bd70fac8f8e8421b5e28186019c1779e591ae1b02ccd01b748aeb97dac4d1184"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+        "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/immune-subset-and-whole-sample-b11-v1.txt",
+        "sha256": "8288855c48704f48c6c78e687b4844f2c6b843ec248e732ea3bed0403bb3f12d"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/immune-subset-and-whole-sample-b11-v1-provenance.json",
+        "sha256": "3f7623b9d00ee7767252b96868a8b701056e99747b52197541eb3af31f5d685c"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+        "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+        "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-provenance.json",
+        "sha256": "312233f42c2a5cafb0c8e3a528d0262f621bcfd1bc4e947a9eaad475393a922c"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2.txt",
+        "sha256": "061b8aad3f2af8279b15cc497df96666f2dc1f933cbe24cf8d9d5579a8a4cea4"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-independent-owner-review.json",
+        "sha256": "6f08b2295fc4e675be551225090476af6e32be978a8e64a7c60613290d3e9aaf"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/independently-retrieved-primary-abstracts.xml",
+        "sha256": "65b6ec11f7ab47f8aa709c33f54ce08b6b7b3507fa6a22d7f9720db2e2cd0b51"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/retrieval.json",
+        "sha256": "396a2bcf463e156fccc3e70dfc8af7c7300093ef7c97e2b11369ab4c04472a8c"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/source-consultation.private.json",
+        "sha256": "2a2b295e2b9791753df8281aed41afe0d3dbe68d8a699da791b72bc5afb43005"
+      }
+    ],
+    "retainedGuards": {
+      "sharedOwner": {
+        "path": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+        "sha256": "4fa3d02b66492e933f9ac307799c30fe4f88128d368a4066f13dc57c8a81f001"
+      },
+      "assetsAndSupport": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+          "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+          "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-provenance.json",
+          "sha256": "312233f42c2a5cafb0c8e3a528d0262f621bcfd1bc4e947a9eaad475393a922c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2.txt",
+          "sha256": "061b8aad3f2af8279b15cc497df96666f2dc1f933cbe24cf8d9d5579a8a4cea4"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/bulk-mixture-and-pooled-messages-v2-independent-owner-review.json",
+          "sha256": "6f08b2295fc4e675be551225090476af6e32be978a8e64a7c60613290d3e9aaf"
+        }
+      ],
+      "scope": "Exact retained native/support references verified against read-only source checkout; creator attribution not replaced"
+    },
+    "sourcePreimageSHA256": "d0631a624d3add000de2c241553da3ff862c454230eb85796a9972e936daeffb",
+    "sourcePreimageCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "inverseInsertionVerified": true,
+    "authorManifestSHA256": "357b3c22b3351e7fb10304433607e7195a0ecc68420c529e3cc0e004d7f4cf90",
+    "reviewedPublicFilesExactCount": 5,
+    "allPublicCandidateFilesExactCount": 35
+  },
+  "issues": [],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "publication": "not started",
+  "delivery": "not started",
+  "rootSoleIntegratorPublisher": true
+}

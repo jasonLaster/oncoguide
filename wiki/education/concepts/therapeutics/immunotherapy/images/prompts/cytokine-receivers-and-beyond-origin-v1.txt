@@ -1,0 +1,12 @@
+Learning question: Compare one cytokine contacting distinct cell types and distributing beyond its origin
+Frozen gap: Flow lacks physical receivers and local-versus-systemic spread
+Reuse first: wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md
+Extension rationale: The shared figure teaches spatial averaging. This extension compares individual receivers and distinguishes the origin from the tissues exposed.
+Technique: original source-code SVG, authored by agent:/root/batch11_immune_address_author; no image-model call.
+Panels: Same signal, different receivers; exact visible labels and geometry in ../cytokine-receivers-and-beyond-origin-v1-light.svg.
+"No fight-cancer instruction; receptor/state dependent; local production can spread; class not one indication"
+Style: flat outlined cell/protein cartoon; 600px vertical figure; 26px minimum body labels; identical light/dark geometry.
+High-level education only. Icons and counts are schematic, not molecular coordinates or measured data. No sequences, engineering methods, doses, regimens or optimization.
+Alt: Identical cytokine symbols reach two cells with different receptors and internal states; a second scene follows signal symbols from a local origin through circulation toward a distant tissue.
+Caption: A cytokine name does not specify one cell response, and a local origin does not guarantee local confinement.
+Exercise: Could two receiving cell types respond differently to the same signal? **Answer:** Yes. Receptors, cell state and exposure matter; location alone does not prove confinement.

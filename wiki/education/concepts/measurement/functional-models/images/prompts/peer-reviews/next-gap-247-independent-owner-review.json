@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-247",
+  "owner": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+  "author": "agent:/root/batch10_author_group3",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "authorRole": "Actual new-pair vector author; retained task243 original creator remains unknown",
+  "reviewer": "agent:/root/batch10_review_group3",
+  "independentReviewer": "agent:/root/batch10_review_group3",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-14T00:07:23.461780+00:00",
+  "reviewedAtUTC": "2026-10-14T00:07:23.461780+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "62661eb9ff405bb328991b334421611a5913491cba906d2981342a2f8b5d7352",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/250",
+  "frozenRowSHA256": "8219a5da9e6f9ac787050b6b2dde7248cebfec8f50cb7b034d62aa01e67fec2d",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "checkedCommittedPreimageAt": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The bank/source vial and starting identity precede transfers and two illustrative culture branches. Each branch records passage and conditions, followed by separate identity, contamination and relevant-phenotype questions. This closes the history-map gap without treating authentication as purity or unchanged behavior. The bottom caution explicitly denies identical biology from a shared name and avoids a universal division or drift rate.",
+    "frozenPageSHA256": "d63fb2e6ae5b09391323722233488c79097ee8bafd4d659187cc0489a9912ab7",
+    "baselinePageSHA256": "d63fb2e6ae5b09391323722233488c79097ee8bafd4d659187cc0489a9912ab7",
+    "actualTeachingPreimageSHA256": "d63fb2e6ae5b09391323722233488c79097ee8bafd4d659187cc0489a9912ab7",
+    "learnerTask": "Track line identity through passage history while separating authentication, contamination and phenotype.",
+    "gap": "No history map locates source, passage and independent quality checks.",
+    "accuracyGuardrails": "Keep source, passage history, authentication, contamination and phenotype as separate checks. A shared line name does not guarantee identical biology; do not invent universal drift rates.",
+    "targetSection": "## How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Immutable original audit page hash is baselinePageSHA256; current committed teaching preimage is separately bound. Frozen task fields unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg",
+      "sha256": "5b3c619e1566760b331f3a8dfcc8bfe2cd8432a6e132687cadfa57bc90a79f56",
+      "bytes": 6944,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1125,
+        "viewBox": "0 0 600 1125"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-dark.svg",
+      "sha256": "6c8e3efb103f8d93729597bf09b51269dd0539bbc7bd90ff93312caeafe8de95",
+      "bytes": 6944,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 600,
+        "height": 1125,
+        "viewBox": "0 0 600 1125"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg",
+        "sha256": "5b3c619e1566760b331f3a8dfcc8bfe2cd8432a6e132687cadfa57bc90a79f56",
+        "bytes": 6944,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-dark.svg",
+        "sha256": "6c8e3efb103f8d93729597bf09b51269dd0539bbc7bd90ff93312caeafe8de95",
+        "bytes": 6944,
+        "kind": "new-native-art"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cell-line-history-and-independent-quality-checks-b10-v1.txt",
+        "sha256": "c4e06ac52f099f4a67bc0c2dc298289832d6f4acee8a3fd900b8a13f4964f08d",
+        "bytes": 1568,
+        "kind": "new-creative-brief"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/cell-line-history-and-independent-quality-checks-b10-v1-provenance.json",
+        "sha256": "d4f90b4c0065b9fecc6881bbfa0d0539b47f9d960827a284ac8baf90d5c6b914",
+        "bytes": 2912,
+        "kind": "new-author-provenance"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+        "sha256": "62661eb9ff405bb328991b334421611a5913491cba906d2981342a2f8b5d7352",
+        "bytes": 8649,
+        "kind": "body-plus-additive-insertion"
+      }
+    ],
+    "currentCandidateOwnerSHA256": "62661eb9ff405bb328991b334421611a5913491cba906d2981342a2f8b5d7352",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+    "authorHandoffSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+    "authorInventorySHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+    "sourcePreimageSHA256": "d63fb2e6ae5b09391323722233488c79097ee8bafd4d659187cc0489a9912ab7",
+    "exactFiveNewPublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalCreator": null,
+    "insertOnlyPreimageRecovery": "Independently removed exact single saved insertion and recovered b3704 committed bytes byte-for-byte. Existing prose, source-depth statements, metadata and navigation preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "noUnrelatedOrRestrictedBodiesRead": true,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide",
+      "primary": true,
+      "readDepth": "Selected official passage/population-doubling and medium-adaptation passages, lines145–179, plus microbial contamination and STR identity discussion, lines595–626 read; not full guide.",
+      "supports": "Passage counts transfers, changed conditions can alter cultures, identity and contamination require distinct checks.",
+      "accessStatus": "Official ATCC text accessible.",
+      "population": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/",
+      "primary": true,
+      "readDepth": "Primary Ben-David abstract and selected cross-laboratory comparison passage obtained in search extraction and read; not full paper, figures or supplements.",
+      "supports": "Versions of the same line can differ genetically and in drug response, with condition-sensitive clonal selection.",
+      "accessStatus": "Substantive primary indexed extraction accessible.",
+      "population": "106 cross-laboratory cell lines and selected MCF7/additional strains; these data establish neither a universal drift rate nor patient prediction."
+    }
+  ],
+  "mathAssessment": {
+    "numericEmpiricalEstimatesIntroduced": false
+  },
+  "reviewBasis": {
+    "scope": "Whole independent scientific, conceptual, frozen task, custody and personally inspected native plus fresh pinned-reader pixel review of assigned candidate; retained task243 context also inspected.",
+    "sourceReadDepth": "Actual bounded independent primary/official reading and access failures recorded. Preserved ancillary citations and historical source-depth statements are not each recertified.",
+    "freshCaptureCountForOwner": 12,
+    "personallyInspectedCountForOwner": 12,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own copied private fixture rebuilt with exact pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. New native600px, desktop1440×1000 inline/theater and mobile390×844 inline/theater personally seen. For tall245/247 diagrams, additional complete desktop1440×1700 inline captures inspected. Retained243 pair native780×1100 plus desktop1440×1700/mobile390×844 inline/theater inspected. Original1000px desktop245/247 snapshots are viewport crops; supplementary captures establish complete inline geometry. No production header/sidebar/backend/navigation, physical mobile, cross-browser/touch or whole-page/nontext accessibility certification. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      600,
+      1125
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "supplementaryDesktopViewport": [
+      1440,
+      1700
+    ],
+    "minMobileInlineLabelPx": 13.84,
+    "minMobileDefaultTheaterLabelPx": 13.68,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.089472715883854,
+    "allNewTextContrastChecksPassed": true,
+    "contrastScope": "Fresh computed SVG text fill against preceding opaque enclosing rectangle; both new themes. Nontext graphics and retained text contrast are not certified by this calculation.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closes dialog but does not restore image focus. Independent mobile check for each task observes BODY. This unchanged pinned runtime defect remains qualified; no runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "captures/next-gap-247-light-reading.png",
+      "sha256": "fa024882e170693d78b2da697efae2bf7c9f0a3f4ad8e1c60c39148326f52e14"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "captures/next-gap-247-dark-reading.png",
+      "sha256": "c1fd10c7b9dee2a7d056738d4a957f1b93df64f42a94a8aa3ab1334fe9782a39"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "captures/next-gap-247-light-mobile-inline.png",
+      "sha256": "a2e6bf9a76eba672f25b9c25430db2759ec76290079058c937f74f8e210e4922"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "captures/next-gap-247-light-mobile-theater.png",
+      "sha256": "3759f629f25b5765ed9e3027ce33dc35757dc447054f904eb0c79e7957ceced7"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "captures/next-gap-247-light-desktop-inline.png",
+      "sha256": "cb0b33e490cbb7b503f89282b3059ea3197a2aaa48b83696bf724c8bb12f781f"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "captures/next-gap-247-light-desktop-theater.png",
+      "sha256": "bc14a46c5eb8f2bdb207b4dbf04b02e67f734a95e50a54833d21b34771b0fcab"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-247-dark-mobile-inline.png",
+      "sha256": "c94289cceb1f0af4a2476d8f047015944f84abe23f4f0035f5fdf8888685ce62"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-247-dark-mobile-theater.png",
+      "sha256": "b5155de1b6129df82928a996b6ccf1f7dcb3127e5cdbae3f442eb9113df6a0b2"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "captures/next-gap-247-dark-desktop-inline.png",
+      "sha256": "1b6cebed050c0a0dced51f6b471f103d7324b21c2ebc03a5fcd935b0e2f762e7"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "captures/next-gap-247-dark-desktop-theater.png",
+      "sha256": "3b06c55083ea70797afbf94fe6a6bf6ca3cc17887bc71eec10df00c6b89c15f6"
+    },
+    {
+      "theme": "light",
+      "mode": "desktop1700-inline",
+      "path": "captures/next-gap-247-light-desktop1700-inline.png",
+      "sha256": "099c398ddd1951b35e8ac671a16df1862bb32db946b445aa7ad6f2f85d51f7a7"
+    },
+    {
+      "theme": "dark",
+      "mode": "desktop1700-inline",
+      "path": "captures/next-gap-247-dark-desktop1700-inline.png",
+      "sha256": "8c0b429210508de1e2e9c3ba80edd170818922d25653486be947525d86649cbf"
+    }
+  ],
+  "method": "Original hand-authored editable SVG via local Python serialization; no image model invocation claimed",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "published": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "qualified-renderer-limitation",
+      "decisionImpact": "No new artwork revision; prevents full keyboard/accessibility approval",
+      "detail": "Unchanged Escape closes ImageTheater then leaves BODY focused."
+    }
+  ]
+}

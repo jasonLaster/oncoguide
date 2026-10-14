@@ -68,6 +68,13 @@ These observations can support biological hypotheses or context-specific biomark
 
 ## Worked example
 
+<div class="cartoon-frame">
+<img src="./images/channels-masks-and-two-distance-rulers-b11-v1-light.svg" width="600" height="1220" alt="Separate synthetic blue and rose marker channels are aligned to one fictional tissue field. An overlay adds dashed estimated cell boundaries and two different rulers: center-to-center crosses the cells, while boundary-to-boundary spans only the gap. The bottom panel separates measured channels, estimated masks and calculated distances without claiming contact or recognition." data-theme-pair>
+<p class="cartoon-caption">A distance needs a definition: channels are measured, masks are estimated, and proximity alone does not establish recognition.</p>
+</div>
+
+The [cell-segmentation example](/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation) shows how a misplaced mask can change marker assignments.
+
 A fictional image labels a T cell next to a cancer cell. Their estimated centers are close, but their boundaries do not touch. Has the image shown immune recognition?
 
 **Answer:** It shows proximity under a defined distance rule. Even visible contact would not establish receptor specificity or successful killing. Check the boundaries and connect the question to a suitable functional experiment.

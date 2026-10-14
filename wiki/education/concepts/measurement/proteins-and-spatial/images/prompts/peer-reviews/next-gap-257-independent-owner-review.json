@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-257",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+  "author": "agent:/root/batch11_measurement_author",
+  "reviewer": "agent:/root/batch11_measurement_review",
+  "reviewedAtUTC": "2026-10-14T20:17:50.338Z",
+  "currentOwnerSha256": "467d4b84bd1b6dacda90f52a6f2323d3391289cb913bf528fc1b2d5c6f884d23",
+  "passed": true,
+  "verdict": "PASS",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+      "sha256": "e3fec6565ac27d6cf652e43188908fff53d5bf04ad004bed5a886e9648be43e7"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+      "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5"
+    }
+  ],
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "baselinePageSHA256": "151dbc6288c0cdf7625f79b36b1ab81e52922bc6f186c5e8f00e1d016e14b297",
+    "learnerTask": "Locate detection below quantification and upper saturation",
+    "gap": "Current yes/no flow omits calibration and dispersion",
+    "accuracyGuardrails": "Keep analyte-specific blank/detection/quantitation/calibration range and saturation explicit. Detection below LoQ is not reliable quantity; universal limit spacing or transferable concentration cutoffs must not be invented.",
+    "reasoning": "The fictional calibration curve includes replicate response dots with visible dispersion, an analyte-specific background region, a detected-below-LLOQ region, a validated range and a flattening upper response. Arbitrary spacing is explicitly illustrative, with no transferable concentrations. The new upper-curve question has the correct bounded answer. Peptide measurement is separated from cell source/location, and tight repeats are not equated with freedom from bias. The corrected owner alt, design brief and both SVG descriptions now match those actual panels. Scientific/native fit and source consultation are inherited from the original genuine review; exact non-description native bytes are unchanged.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+    "canonicalOwnerPreserved": true,
+    "reuseFirstAssessment": "The retained generic limits graphic separates blank, detection and quantification. The owner extension adds peptide calibration, dispersion and upper saturation.",
+    "actualSourceConsultation": {
+      "id": "next-gap-257",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19561596/",
+      "title": "Multi-site assessment of the precision and reproducibility of multiple reaction monitoring-based measurements of proteins in plasma.",
+      "sourceType": "primary research bibliographic record and complete abstract",
+      "actualConsultation": "Inherited from original independent review /tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/receipts/next-gap-257-independent-owner-review.json at 2026-10-14T20:03:33.776Z; complete primary abstract retrieved and read in that review. No source reread or new source access claimed for this focused correction.",
+      "retrievedEvidence": "sources/independently-retrieved-primary-abstracts.xml",
+      "assessment": "Addona primary abstract evaluates MRM reproducibility, recovery, dynamic range and detection/quantification limits. Carr primary consensus abstract supports fit-for-purpose analytical characterization. Neither supplies the fictional curve spacing or a universal cutoff.",
+      "wholePaperRead": false,
+      "sourceFigureCopied": false
+    }
+  },
+  "nativeAndDisplayReview": {
+    "nativeBothThemes": "Inherited original genuine independent inspection: Personally inspected fresh independent native screenshots. Exact SVG non-desc bytes are unchanged; no fresh capture or visual rerun claimed.",
+    "pageWidths": [
+      1100,
+      390
+    ],
+    "pageBothThemes": "Inherited original genuine independent inspection: Personally inspected fresh independent figure/caption article screenshots. Exact SVG non-desc bytes are unchanged; no fresh capture or visual rerun claimed.",
+    "theaterBothThemesBothWidths": "Inherited original genuine independent inspection: Personally inspected fresh independent theater screenshots; all 28 combinations open. Exact SVG non-desc bytes are unchanged; no fresh capture or visual rerun claimed.",
+    "capturedImageAndCaptionFit": true,
+    "descriptiveAltMatchesNative": true,
+    "noHorizontalDocumentOverflow": true,
+    "nativeTextOutOfBounds": 0,
+    "fixturePin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "rendererVerifiedExactBlobCount": 87,
+    "fixtureScope": "Private article/theater/theme fixture, not full app, authentication, navigation or live delivery",
+    "knownInheritedReaderIssue": "Escape closes theater but activeElement returns to BODY; no focus-return repair or full accessibility approval claimed",
+    "inspectionBoards": [
+      "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/inspection-boards/257.png",
+      "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/inspection-boards/page-257.png",
+      "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/inspection-boards/theater-257.png"
+    ],
+    "newPixelCaptures": false,
+    "descriptionOnlyEquivalenceEvidence": {
+      "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/corrections/task257-alt-01/independent-focused-checks.json",
+      "sha256": "7b3a3e14d679f04961af059b4aeff5e4e43053526e13fc4eef6b4296d3f4fa50"
+    }
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+        "sha256": "467d4b84bd1b6dacda90f52a6f2323d3391289cb913bf528fc1b2d5c6f884d23"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+        "sha256": "e3fec6565ac27d6cf652e43188908fff53d5bf04ad004bed5a886e9648be43e7"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+        "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-response-and-reportable-range-b11-v1.txt",
+        "sha256": "8cc510f874e6b50ac4b4e63a6cc98b28940c225179ed118d1c10e59762e0bc18"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-response-and-reportable-range-b11-v1-provenance.json",
+        "sha256": "f8951b909d92d965d5388d3f5d4fd9cadb9199498f54dcf7bd0ca2c393d5d1ae"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+        "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+        "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-provenance.json",
+        "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-independent-owner-review.json",
+        "sha256": "0d6d127e7b0161830608cfeb3fb0b793105c0897c978d0db5889f2b20ab308af"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1.txt",
+        "sha256": "b3a71da565b4cee24f92fab81cb602ccc18f8bbfb280f154953f9dfb5ea51c50"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/independently-retrieved-primary-abstracts.xml",
+        "sha256": "65b6ec11f7ab47f8aa709c33f54ce08b6b7b3507fa6a22d7f9720db2e2cd0b51"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/retrieval.json",
+        "sha256": "396a2bcf463e156fccc3e70dfc8af7c7300093ef7c97e2b11369ab4c04472a8c"
+      },
+      {
+        "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/sources/source-consultation.private.json",
+        "sha256": "2a2b295e2b9791753df8281aed41afe0d3dbe68d8a699da791b72bc5afb43005"
+      }
+    ],
+    "retainedGuards": {
+      "sharedOwner": {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+        "sha256": "f861da205c692dca64f3d49443670adb406e84aa4049091380b2ab2dc0de15b8"
+      },
+      "assetsAndSupport": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-light.svg",
+          "sha256": "0b4134a4906c5dc72d82c4e9e8ccf142b844da1a1e1b66608b87c8259d790b89"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/blank-detection-quantitation-v1-dark.svg",
+          "sha256": "f007abb9082b6391190de6de84ed3f8188525dd619c964dc6ef5d1e95634bf18"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-provenance.json",
+          "sha256": "22b3e7f42b8cf555e02ea713eced0ca7d70f4d59dd431eeb7497c31ff66ad109"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1-independent-owner-review.json",
+          "sha256": "0d6d127e7b0161830608cfeb3fb0b793105c0897c978d0db5889f2b20ab308af"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/blank-detection-quantitation-v1.txt",
+          "sha256": "b3a71da565b4cee24f92fab81cb602ccc18f8bbfb280f154953f9dfb5ea51c50"
+        }
+      ],
+      "scope": "Exact retained native/support references verified against read-only source checkout; creator attribution not replaced"
+    },
+    "sourcePreimageSHA256": "8763d2c47e9b87e477fe2f07aedc899876542faa9bbeeebfdf43c6f85ddf11ee",
+    "sourcePreimageCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+    "inverseInsertionVerified": true,
+    "authorManifestSHA256": "357b3c22b3351e7fb10304433607e7195a0ecc68420c529e3cc0e004d7f4cf90",
+    "reviewedPublicFilesExactCount": 5,
+    "allPublicCandidateFilesExactCount": 35,
+    "successorAuthorManifestSHA256": "78163b0c355d6ce1fc128dd9edd5ec997cd0cd9e9491296d94248a0b31de1b27",
+    "successorAuthorSealSHA256": "4c0bc8a532bccfca4db825507c3e52ad8f1daa75fcfaadd3bd7f448d1f13fd3f",
+    "originalIndependentReviewReceipt": {
+      "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/receipts/next-gap-257-independent-owner-review.json",
+      "sha256": "e81f011c05efd8cfb120b802b2f19560d4ce14ceeb4095f148ebb6281a4ed6c0",
+      "verdict": "REVISE"
+    },
+    "focusedChecks": {
+      "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/corrections/task257-alt-01/independent-focused-checks.json",
+      "sha256": "7b3a3e14d679f04961af059b4aeff5e4e43053526e13fc4eef6b4296d3f4fa50"
+    }
+  },
+  "issues": [],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "publication": "not started",
+  "delivery": "not started",
+  "rootSoleIntegratorPublisher": true,
+  "resolvedIssues": [
+    {
+      "severity": "required correction",
+      "taskId": "next-gap-257",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "line": 33,
+      "finding": "Alt text claims separate panels contrasting wide versus tight repeat responses. Native panels instead show a calibration curve with replicate dots, a region key, and peptide/location interpretation.",
+      "requiredChange": "Correct alt text to describe the actual calibration replicate dots and dispersion; remove the nonexistent separate-panel comparison. Correct the dependent handoff description in a sealed author successor. Preserve scientific/native geometry and frozen task bindings.",
+      "nativeChangeRequired": false
+    }
+  ],
+  "correctionReview": {
+    "revision": "task257-alt-01",
+    "scope": "Focused description/hash/custody correction only. Two SVG desc accessibility metadata replacements change native hashes while exact geometry/style/label bytes and pixels are preserved.",
+    "originalDecisionPreserved": "REVISE",
+    "originalReviewSeal": {
+      "path": "/tmp/education-next-visual-batch-11/reviews/measurement-and-model-interpretation/seal.json",
+      "sha256": "f54c7e693ccbe2e440245b9589b9a15a2d773d593030dba908dbb60ba13a991d"
+    },
+    "newSourceConsultation": false,
+    "newPixelCaptures": false,
+    "noFullSevenRerun": true,
+    "actualMethod": "Independently compared old/new bytes and descriptions, recomputed hashes, checked frozen task/current preimages and dependent provenance/maps/seals. Inherited previously performed source/scientific/native/article/theater inspections after exact non-desc equivalence verification."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "kind": "original-authored-source-code-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch11_measurement_author",
+  "actualMethod": "Python source-code SVG authored in build-art.py",
+  "imageModelCalled": false,
+  "model": null,
+  "imageGenerationCall": null,
+  "originalRetainedCreators": "Retained reference assets retain existing attribution; unknown when not recorded. This agent assessed but did not create the reused references.",
+  "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "currentOwnerPreimageSHA256": "8763d2c47e9b87e477fe2f07aedc899876542faa9bbeeebfdf43c6f85ddf11ee",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+    "pageSHA256": "151dbc6288c0cdf7625f79b36b1ab81e52922bc6f186c5e8f00e1d016e14b297",
+    "targetSection": "How it works",
+    "learnerTask": "Locate detection below quantification and upper saturation",
+    "gap": "Current yes/no flow omits calibration and dispersion",
+    "accuracyGuardrails": "Keep analyte-specific blank/detection/quantitation/calibration range and saturation explicit. Detection below LoQ is not reliable quantity; universal limit spacing or transferable concentration cutoffs must not be invented.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/298",
+    "oneBasedRow": 299,
+    "originalTaskRowSHA256": "82a28fe8ea3bb5c312e6c3f5475e4ad2664f6dc5d684ed3675472e25c5131b44",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+  "reuseFirstAssessment": "The canonical limits diagram explains blank, detection and quantitation. This extension adds the upper calibration boundary, replicate dispersion and the targeted-peptide versus surface-location inference.",
+  "originalNativeSupportPreserved": true,
+  "outputs": [
+    {
+      "key": "next-gap-257",
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/corrections/task257-alt-01/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+      "relativePath": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+      "sha256": "e3fec6565ac27d6cf652e43188908fff53d5bf04ad004bed5a886e9648be43e7",
+      "width": 600,
+      "height": 1220
+    },
+    {
+      "key": "next-gap-257",
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/corrections/task257-alt-01/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+      "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5",
+      "width": 600,
+      "height": 1220
+    }
+  ],
+  "briefSHA256": "8cc510f874e6b50ac4b4e63a6cc98b28940c225179ed118d1c10e59762e0bc18",
+  "finalOwnerSHA256": "467d4b84bd1b6dacda90f52a6f2323d3391289cb913bf528fc1b2d5c6f884d23",
+  "sourceCheckScope": "New visual claims plus public target/shared conceptual bodies only; no restricted case reads; no full page clinical recertification.",
+  "primarySourceChecks": [
+    {
+      "pmid": "19561596",
+      "title": "Multi-site assessment of the precision and reproducibility of multiple reaction monitoring-based measurements of proteins in plasma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19561596/",
+      "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+      "retrievedAbstract": true,
+      "localEvidence": "primary-reference-abstracts.xml"
+    }
+  ],
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "delivery": "not started",
+  "publication": "not started",
+  "integrationAuthor": "root",
+  "actualFutureExecutionSourceCommit": null,
+  "actualSourceCheckDepth": "Complete assigned primary abstract retained/read; selected supplementary abstract/indexed passages where listed. No complete-paper, clinical, current-platform or patient-specific validation claimed.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "generatorSHA256": "1bd4d5e980db84899ce4cad02908e6aaa2786c77687cdd5252fa272df6246e21",
+  "generatorCustody": "Original geometry construction is privately retained in the sealed predecessor. A description-corrected copy of that helper is privately retained in this successor and was not executed. No image generation or pixel regeneration occurred.",
+  "focusedCorrection": {
+    "taskId": "next-gap-257",
+    "revision": "task257-alt-01",
+    "author": "agent:/root/batch11_measurement_author",
+    "requester": "agent:/root",
+    "originalAuthorSealSHA256": "2c78e60c5984482245a200e72fb6560298cd089a6819cf8ac1a38a2787c5e363",
+    "originalIndependentReviewSealSHA256": "f54c7e693ccbe2e440245b9589b9a15a2d773d593030dba908dbb60ba13a991d",
+    "priorIndependentDecision": "REVISE for alt/brief depiction mismatch; original history unchanged",
+    "independentCorrectionReview": "pending",
+    "scope": "Owner alt, public brief, native SVG desc accessibility text and exact dependent hashes/maps only. Pixel-identical metadata-only native revisions; six other packages unchanged.",
+    "originalProvenanceSHA256": "a8c869ed5420f5d1fb8460f305efb2fb5ebe568a65dac85f2745b8ad3b5e5b6d",
+    "originalGeneratorSHA256": "ed1658f8581a384eca3fc044586913478b7e3d9fef00b9d2d0eb3ec928153e17",
+    "imageModelCalls": 0,
+    "nativePixelRegeneration": false
+  }
+}

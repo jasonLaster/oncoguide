@@ -55,6 +55,13 @@ Study A has the higher overall rate, although Study B has the higher rate within
 
 This arithmetic does **not** establish that B is better: participants were not randomized between studies, and other differences remain. It demonstrates why the crude ranking can mislead. Adjusting for one measured feature does not resolve every bias.
 
+
+### A closer look
+
+<img src="./images/within-group-rates-and-mixture-reversal-b10-v1-light.svg" alt="Invented Study A and Study B each enroll 100 people. In the favorable group A has 40 responses among 80 people, 50 percent, versus B 12 among 20, 60 percent; group weights are 80 and 20 percent. In the unfavorable group A has 4 among 20, 20 percent, versus B 24 among 80, 30 percent; weights are 20 and 80 percent. Overall A has 44 among 100, 44 percent, versus B 36 among 100, 36 percent. The within-group ranking reverses overall because of composition; this establishes no adjusted treatment superiority or causal cross-trial comparison." width="600" height="1000" data-theme-pair>
+
+*Count who entered each study before ranking the headlines. These invented mixtures reverse the overall ranking, but neither that reversal nor adjustment for one feature proves treatment superiority.*
+
 ## Why it matters in cancer
 
 An early-stage postoperative study and a heavily pretreated metastatic study ask different questions. Immune responses, [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), imaging response and survival are also different endpoints. A percentage from one cannot become a treatment-effect estimate for another setting.

@@ -76,6 +76,13 @@ Compare estimates with suitable [flow cytometry](/wiki/education/concepts/measur
 
 ## Try it
 
+<div class="cartoon-frame">
+<img src="./images/immune-subset-and-whole-sample-b11-v1-light.svg" width="600" height="1430" alt="Four panels use stipulated 100-cell samples: A has 10 T cells among 20 immune cells, B has 30 among 60. Both immune-subset fractions are 50 percent, while whole-sample T-cell fractions are 10 and 30 percent. A separate pooled RNA and reference-model scene labels RNA contribution as different evidence from these supplied cell counts." data-theme-pair>
+<p class="cartoon-caption">Name the denominator first: the same relative immune fraction can accompany very different whole-sample fractions. Counts here are supplied for teaching, not recovered by deconvolution.</p>
+</div>
+
+The [bulk RNA example](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) shows why a pooled signal can change when the cell mixture changes.
+
 Two fictional samples each contain 100 cells. Sample A has 20 immune cells, including 10 T cells. Sample B has 60 immune cells, including 30 T cells. A report gives only the T-cell fraction within the immune population. What changes?
 
 **Answer:** Both fractions are 50%: 10/20 and 30/60. The known whole-sample T-cell fractions differ, 10% and 30%. A relative 50% estimate alone cannot recover those totals, locations or functions. Here the true counts were supplied for teaching; they are not guaranteed by deconvolution.

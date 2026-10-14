@@ -44,6 +44,13 @@ A line captures selected [cell-lineage properties](/wiki/education/concepts/biol
 
 **Authentication** checks that a culture matches its expected identity. Human lines are commonly compared using short tandem repeat patterns: repeated stretches of [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna). Identity testing does not establish freedom from contamination or unchanged behavior. Mycoplasma testing checks for a particular bacterial contaminant; relevant phenotype checks ask whether the properties needed for the experiment remain present. [ATCC authentication recommendations](https://www.atcc.org/-/media/resources/technical-documents/cell-line-authentication-test-recommendations.pdf?rev=7664fa886e5948018dfe198d484bb4eb).
 
+
+### A closer look
+
+<img src="./images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg" alt="A documented bank vial leads through transfer into a new culture vessel and then two illustrative passage branches. Each branch records passage and culture conditions. Three independent checks ask about authentication identity, contamination purity and relevant phenotype. A shared cell-line name does not guarantee identical biology; passage counts transfers and gives no universal division or drift rate." width="600" height="1125" data-theme-pair>
+
+*Follow the culture’s history, then check identity, contamination and phenotype separately. A familiar line name does not promise identical biology, and a passage number is no universal clock for divisions or drift.*
+
 ## Why it matters in cancer
 
 Cell lines help isolate mechanisms, compare many perturbations and repeat experiments. A simple model can be excellent for a focused question. A tumor-only line cannot test an immune interaction without the appropriate added cells. Missing architecture, host drug handling and normal-tissue toxicity also limit what a response means. [Co-culture](./co-culture) and [organoids](./organoid) change particular model ingredients; neither creates a universal hierarchy of reliability.

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "kind": "authored-vector-education-art",
+  "taskId": "next-gap-243",
+  "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+  "sourceTeachingAnchor": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenPageSHA256": "e0dc67101d1089b517e9401f5fd2cd60016a0416ae4843844fec931533e26220",
+  "currentSourcePreimageSHA256": "8d11ef4098993c366e6b040404e06a6b4c5c4ee7322fd1a0d2a3b694ca8e28ef",
+  "finalCandidateSHA256": "33b57565922e6800650630c0c17cf2c1c013602cfd5c86eb1d245c62db9ffcf7",
+  "frozenRowSHA256": "979bdca87fca8b06ab5932909a0b9a8e0df92bfa1f711a4a233b6f9febe2665b",
+  "learnerTask": "Compare marker groups on absolute and relative treatment-effect scales.",
+  "gap": "The 40/20 and20/10 table is not plotted, so outcome level and treatment contrast can be conflated.",
+  "accuracyGuardrails": "Show outcome levels and treatment contrasts on named absolute/relative scales. Equal relative effects can coexist with different absolute differences; separate subgroup significance is not an interaction test.",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "originalCreator": null,
+  "method": "Precise SVG manually authored by agent; Python serialization; no image model call",
+  "toolCall": null,
+  "promptSHA256": "383c031e1ad75882bdd0feabceecd35e4288f5f2c48456bda204443625e69f67",
+  "nativeFiles": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-light.svg",
+      "sha256": "74e85b3431650a474ba8de33be42948ac7dd17b22802f872761e9a3522d4551c",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/matched-marker-risks-and-treatment-effect-scales-b10-v1-dark.svg",
+      "sha256": "11c1c4505fb6e5eb182d0652f039087f5cf303283a481a9b83e1932e5a88dcde",
+      "theme": "dark"
+    }
+  ],
+  "sourceReadBounds": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK402283/",
+      "depth": "Official BEST explanation returned in search extraction; selected explanation including comparative treatment-effect requirement read. Direct open and PDF hit reCAPTCHA; not a full-text read."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK402284/",
+      "depth": "Direct request hit reCAPTCHA; not read."
+    },
+    {
+      "url": "https://www.bmj.com/content/326/7382/219",
+      "depth": "403 access failure. No full text claim."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1134660/",
+      "depth": "Primary methodological article search extraction states effect-measure dependence of interactions. Direct full-text request hit reCAPTCHA."
+    },
+    {
+      "url": "https://pfeifer.phas.ubc.ca/refbase/files/Altman-BMJ-2003-326-219.pdf",
+      "depth": "Selected extracted primary Altman/Bland methodological example read in web search: unlike subgroup P values do not establish interaction. Direct open failed; not a full paper read."
+    }
+  ],
+  "sourceScope": "Only the new illustration was source-checked in this turn; all existing body/source-depth statements preserved verbatim, not recertified. Fictional quantities are arithmetic from the preserved owner example.",
+  "clinicalPrediction": false,
+  "humanReview": "Clinician/domain expert and learner review pending",
+  "independentReview": null,
+  "adoption": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

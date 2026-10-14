@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "authored-vector-education-art",
+  "taskId": "next-gap-244",
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+  "sourceTeachingAnchor": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenPageSHA256": "390dd0365b687a50716b14c8dcbc26a397639daa2a8aa7628ee0c0b56a8137b2",
+  "currentSourcePreimageSHA256": "da2c095038ba69b5afcab3bc804f2adba93148e00707bd973235e6ba0949d6e1",
+  "finalCandidateSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+  "frozenRowSHA256": "d7f50abe80ba8c2f8f4c2cae28fa42b3d15f4fc80d05117bbc4b7f66dbb808b3",
+  "learnerTask": "See how group composition reverses the overall response-rate ranking.",
+  "gap": "The Simpson-type mixture example is only a table.",
+  "accuracyGuardrails": "Display within-group rates, group weights and overall rates together. Composition-induced reversals do not establish adjusted treatment superiority or justify an informal causal cross-trial comparison.",
+  "creativeAuthor": "agent:/root/batch10_author_group3",
+  "originalCreator": null,
+  "method": "Precise SVG manually authored by agent; Python serialization; no image model call",
+  "toolCall": null,
+  "promptSHA256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+  "nativeFiles": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "theme": "dark"
+    }
+  ],
+  "sourceReadBounds": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9250266/",
+      "depth": "Direct request returned no substantive article; format request inaccessible. Not read."
+    },
+    {
+      "url": "https://www.fda.gov/media/71195/download",
+      "depth": "December 2018 FDA PDF accessible; selected scope, endpoints and overall-survival externally controlled comparison passage read, including patient selection/imaging/supportive care limits; not full document. No current regulatory requirement newly asserted."
+    }
+  ],
+  "sourceScope": "Only the new illustration was source-checked in this turn; all existing body/source-depth statements preserved verbatim, not recertified. Fictional quantities are arithmetic from the preserved owner example.",
+  "clinicalPrediction": false,
+  "humanReview": "Clinician/domain expert and learner review pending",
+  "independentReview": null,
+  "adoption": false,
+  "coverageCredit": 0,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null
+}

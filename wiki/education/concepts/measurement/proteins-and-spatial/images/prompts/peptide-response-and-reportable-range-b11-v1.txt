@@ -1,0 +1,14 @@
+Source-code SVG design brief, not an image-model prompt or call.
+{
+  "id": "next-gap-257",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+  "targetSection": "How it works",
+  "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+  "learnerTask": "Locate detection below quantification and upper saturation",
+  "gap": "Current yes/no flow omits calibration and dispersion",
+  "accuracyGuardrails": "Keep analyte-specific blank/detection/quantitation/calibration range and saturation explicit. Detection below LoQ is not reliable quantity; universal limit spacing or transferable concentration cutoffs must not be invented."
+}
+The canonical limits diagram explains blank, detection and quantitation. This extension adds the upper calibration boundary, replicate dispersion and the targeted-peptide versus surface-location inference.
+A fictional calibration plot has blank/background, detected-below-quantification, validated quantification and upper-saturation regions, with scattered replicate response dots and no transferable concentration values. A second panel keys those reporting regions; a third contrasts a measured peptide in an extract with an unresolved cell-surface location. Replicate dispersion appears as dots on the calibration curve.
+Caption: Report the peptide and its validated range: a detected signal below quantification or beyond upper saturation does not support a dependable amount.
+Flat outlined scientific shapes, rounded panels, repeated toy objects, sans-serif 26px body labels. Theme geometry and data identical. No protocol, optimization, therapeutic design, sequence or dose.

@@ -29,6 +29,18 @@ Instead of searching a mixed crowd for a useful reader, researchers give cells t
 
 ## How it works
 
+<img src="../antibody-based/images/same-displayed-target-different-products-light.png" alt="Three panels compare an antibody-derived peptide–HLA/CD3 protein, a soluble TCR/CD3 protein and a living TCR-T cell recognizing the same displayed complex." data-theme-pair>
+
+*Reference anatomy from the shared concept. The focused comparison below asks a different question.*
+
+<img src="./images/tcr-t-two-cell-compartments-v1-light.svg" alt="An abstract instruction card points only into a T cell; its surface paired TCR with adjacent CD3 meets peptide–HLA across a gap. Inside the tumor cell, source protein processing supplies the displayed fragment; the receptor never enters the tumor." data-theme-pair />
+
+*Receptor instructions belong in the T cell; tumor processing supplies the separate peptide–HLA address across the contact.*
+
+**Read the picture:** Which cell receives the receptor instructions? **Answer:** The T cell. The tumor must separately display the required peptide–HLA target.
+
+
+
 For conventional alpha-beta [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) therapy, researchers select or develop paired alpha and beta receptor chains. Researchers can **clone** the paired coding sequences: make genetic copies of a selected receptor's instructions. Here, cloning a receptor does not mean copying an entire person or proving a receptor's specificity from one sequenced chain.
 
 Genetic engineering introduces those instructions into therapeutic T cells. **Transduction** means transfer using a viral vector; other delivery or gene-editing methods may be used. Receptor engineering is not one universal manufacturing process. This is different from merely expanding naturally reactive cells: the recognition receptor has been installed. [The early receptor-transfer study](https://pubmed.ncbi.nlm.nih.gov/16946036/) demonstrated this principle in metastatic melanoma.

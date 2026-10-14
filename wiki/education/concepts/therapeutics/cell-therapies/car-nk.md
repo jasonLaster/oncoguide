@@ -29,6 +29,18 @@ Adding a sensor does not replace the whole responder. A natural killer cell can 
 
 ## How it works
 
+<img src="../../immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg" alt="Two illustrative NK–target contact scenes differ by one inhibitory HLA contact; another inhibitory contact and an activating input remain." data-theme-pair />
+
+*Reference anatomy from the shared concept. The focused comparison below asks a different question.*
+
+<img src="./images/car-nk-added-and-retained-inputs-v1-light.svg" alt="Across an NK-cell and target-cell membrane, an added CAR contacts a surface target while native activating and inhibitory contacts remain; cell state and environment feed a separate functional test." data-theme-pair />
+
+*A CAR adds a recognition input while native activating and inhibitory contacts still shape the NK cell’s response.*
+
+**Read the picture:** If the CAR binds, are native inhibitory contacts gone? **Answer:** No. The cell integrates its inputs, and activity needs a functional test.
+
+
+
 **Natural killer (NK)** cells integrate native activating and inhibitory signals. A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) adds another recognition route, commonly for an accessible surface antigen. The resulting cell is called a CAR-NK cell. Its response depends on the complete construct and the NK cell that carries it.
 
 Some inhibitory NK receptors recognize particular [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) class I molecules. Reduced self-display can weaken inhibition: [missing-self recognition](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self). Activating signals, prior NK education and the environment still matter. HLA loss does not guarantee killing by any NK product.

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-252",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+  "author": "agent:/root/batch11_immune_address_author",
+  "reviewer": "agent:/root/batch11_immune_address_review",
+  "reviewedAtUTC": "2026-10-14T20:01:46.777Z",
+  "currentOwnerSha256": "9a7ce1b07ace5d11aa540c51d750737160c8d60aff33ce9c6230498d20c309d7",
+  "scope": "Independent high-level mechanism and native task-fit source guard; no clinical result recertification, individual treatment inference, methods, sequences, constructs, protocols or dosing guidance.",
+  "metadataGate": {
+    "candidate": "sensitive:false; no sensitive tag or redacted metadata; checked before body",
+    "publicOwnerRead": "entire assigned public owner, including authored teaching and inserted visual; generated navigation recognized separately",
+    "linkedRestrictedCaseBodiesRead": false
+  },
+  "sourceReadDepth": "Fresh indexed primary abstracts and bibliographic records, read in full; no full-paper methods read",
+  "primarySources": [
+    {
+      "pmid": "32023374",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32023374/",
+      "supportAndLimit": "One defined cord-blood CAR-NK product in CD19-positive lymphoid cancers shows adding a CAR to NK cells; trial results are not generalized as universal safety or solid-tumor benefit.",
+      "title": "Use of CAR-Transduced Natural Killer Cells in CD19-Positive Lymphoid Tumors.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    },
+    {
+      "pmid": "3951539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3951539/",
+      "supportAndLimit": "Primary mouse missing-self study supports a native NK recognition route. It does not establish guaranteed killing after human HLA loss or the net output of all inputs in any CAR-NK product.",
+      "title": "Selective rejection of H-2-deficient lymphoma variants suggests alternative immune defence strategy.",
+      "sourceXML": "/tmp/education-next-visual-batch-11/reviews/immune-recognition-and-signaling/sources/fresh-primary-abstracts.xml",
+      "sourceXMLSHA256": "80d46c5323d66581d5e005e8c5ceb28a2a010322c7ea489863885f9d38c4a8fb"
+    }
+  ],
+  "accessLimits": [],
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+    "pageSHA256": "d210bbab3631e5224c17bac8a72b9d1c4bdf8ecdd1307d2f815d6c0d151415db",
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish an added CAR from retained native NK activating/inhibitory inputs",
+    "gap": "Converging arrows teach integration but not cell-surface contacts",
+    "accuracyGuardrails": "HLA loss not guaranteed killing; no NK/T safety ranking; exact construct matters",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-light.svg",
+      "sha256": "bb85db2c7081e229601ff070756ba6172847737800421f163b774ad9868812b5",
+      "theme": "light",
+      "bytes": 13725
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-nk-added-and-retained-inputs-v1-dark.svg",
+      "sha256": "3a36f2b20922bd0d376ef1d3707cc7b272bdb74cfcc16c865eb3e00bd8ebcec8",
+      "theme": "dark",
+      "bytes": 13725
+    }
+  ],
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0
+}

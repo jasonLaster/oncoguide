@@ -1,0 +1,12 @@
+Learning question: Distinguish an added CAR from retained native NK activating/inhibitory inputs
+Frozen gap: Converging arrows teach integration but not cell-surface contacts
+Reuse first: wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md
+Extension rationale: The shared NK figure supplies the native input comparison. This extension adds only a generic CAR contact while retaining both native input types.
+Technique: original source-code SVG, authored by agent:/root/batch11_immune_address_author; no image-model call.
+Panels: An added input, a whole cell; exact visible labels and geometry in ../car-nk-added-and-retained-inputs-v1-light.svg.
+"HLA loss not guaranteed killing; no NK/T safety ranking; exact construct matters"
+Style: flat outlined cell/protein cartoon; 600px vertical figure; 26px minimum body labels; identical light/dark geometry.
+High-level education only. Icons and counts are schematic, not molecular coordinates or measured data. No sequences, engineering methods, doses, regimens or optimization.
+Alt: Across an NK-cell and target-cell membrane, an added CAR contacts a surface target while native activating and inhibitory contacts remain; cell state and environment feed a separate functional test.
+Caption: A CAR adds a recognition input while native activating and inhibitory contacts still shape the NK cell’s response.
+Exercise: If the CAR binds, are native inhibitory contacts gone? **Answer:** No. The cell integrates its inputs, and activity needs a functional test.

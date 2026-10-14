@@ -1,0 +1,87 @@
+{
+  "kind": "original-authored-source-code-svg-pair",
+  "actualCreativeAuthor": "agent:/root/batch11_measurement_author",
+  "actualMethod": "Python source-code SVG authored in build-art.py",
+  "imageModelCalled": false,
+  "model": null,
+  "imageGenerationCall": null,
+  "originalRetainedCreators": "Retained reference assets retain existing attribution; unknown when not recorded. This agent assessed but did not create the reused references.",
+  "sourceCommit": "edefa1cb3b98756b69eef4701178290d21be65a8",
+  "currentOwnerPreimageSHA256": "432abdf9f61d28a6c4600f5ce7e05de51508da1b959015670a4b4515841a2513",
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+    "pageSHA256": "432abdf9f61d28a6c4600f5ce7e05de51508da1b959015670a4b4515841a2513",
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish filling a missing measurement from predicting a never-tested intervention.",
+    "gap": "No side-by-side task map shows the different inputs, references and held-out units.",
+    "accuracyGuardrails": "Distinguish imputing a missing observation from predicting an untested intervention. A simulated response is computed, not measured; reference population and held-out units must match the claim.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/247",
+    "oneBasedRow": 248,
+    "originalTaskRowSHA256": "9720d8f8f1a438810ab9c552470507b3e5e49ce3118d1b99152dd261bc3d87a8",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+  "reuseFirstAssessment": "The canonical validation art compares cell, donor and intervention partitions. This extension uses those distinct holdout units to contrast measurement completion with a never-seen intervention response and marks every model output as computed.",
+  "originalNativeSupportPreserved": true,
+  "outputs": [
+    {
+      "key": "next-gap-261",
+      "owner": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+      "relativePath": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+      "sha256": "977bdcbd9640ae3b4011c862f5888e4740cb21854a50b07960850f769fbe6e43",
+      "width": 600,
+      "height": 1380
+    },
+    {
+      "key": "next-gap-261",
+      "owner": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-11/authors/measurement-and-model-interpretation/prospective/wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+      "sha256": "838e4b09103e824e9cdac5a0c3801a373c8357da81efdf8d55f6ae1c9a21abd5",
+      "width": 600,
+      "height": 1380
+    }
+  ],
+  "briefSHA256": "1fb9c83a57df7315a702ccd34fc758811236548b73048348b78d380011378504",
+  "finalOwnerSHA256": "c06002d6b28d16e44f7d53ed19083bb43b2d3c5246bd934938dbd93cfb1d044e",
+  "sourceCheckScope": "New visual claims plus public target/shared conceptual bodies only; no restricted case reads; no full page clinical recertification.",
+  "primarySourceChecks": [
+    {
+      "pmid": "40759747",
+      "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40759747/",
+      "access": "primary-paper bibliographic record and abstract retrieved through NCBI EFetch",
+      "retrievedAbstract": true,
+      "localEvidence": "additional-primary-reference-abstracts.xml"
+    }
+  ],
+  "independentReview": "pending",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "coverageCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "delivery": "not started",
+  "publication": "not started",
+  "integrationAuthor": "root",
+  "actualFutureExecutionSourceCommit": null,
+  "actualSourceCheckDepth": "Complete assigned primary abstract retained/read; selected supplementary abstract/indexed passages where listed. No complete-paper, clinical, current-platform or patient-specific validation claimed.",
+  "sourceFiguresCopied": false,
+  "fictionalGeometryAndQuantities": true,
+  "generatorSHA256": "ed1658f8581a384eca3fc044586913478b7e3d9fef00b9d2d0eb3ec928153e17",
+  "generatorCustody": "Original construction script, source-depth receipts and browser captures retained in private handoff; no executable reproduction package delivered in public payload."
+}

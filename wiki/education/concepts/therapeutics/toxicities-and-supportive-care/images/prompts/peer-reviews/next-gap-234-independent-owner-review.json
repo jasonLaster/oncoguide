@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-234",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md",
+  "author": "agent:/root/batch10_author_group1",
+  "authorRole": "Actual direct SVG creative author",
+  "creativeAuthor": "agent:/root/batch10_author_group1",
+  "originalCreator": null,
+  "artworkCreatorStatus": "Actual named agent author; no image-model call",
+  "reviewer": "agent:/root/batch10_review_group1",
+  "independentReviewer": "agent:/root/batch10_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "actualReviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAt": "2026-10-14T00:06:48.454718+00:00",
+  "reviewedAtUTC": "2026-10-14T00:06:48.454718+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "scienceScope": "Bounded visual mechanism and learner task; not comprehensive whole-owner medical or guideline certification",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "kind": "new-pair-candidate",
+  "newArtworkPairsCount": 1,
+  "currentOwnerSha256": "2e83626b5d45caaa23146a09974c935c5ccc27758ecbb11570e788ef3fd27d95",
+  "baselinePageSHA256": "d07258559085afff0b6b172e4120aa86646bc10bfd85f9e253d48aec039d0217",
+  "sourceBaseCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/380",
+  "frozenRowSHA256": "f73bfc07533205b455bde733d73e941e6c444551aa878d70e320ef9653be09cb",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "adequateFit": true,
+    "humanReview": "pending",
+    "reasoning": "Both fictional ANC graphs use identical day 0–6 and ANC 0–2 ×10⁹/L axes. Their marked day-3 points are both 0.5 ×10⁹/L, while the first has a brief dip and the second visibly plateaus from days 2 through 4. Duration differs despite the matched snapshot, exactly meeting the frozen task. No infection probability, clinical intervention line or G-CSF cutoff is plotted; fever assessment and supportive-care versus tumor response remain explicit. The owner exercise adds clinical context without making the curves patient data.",
+    "frozenPageSHA256": "d07258559085afff0b6b172e4120aa86646bc10bfd85f9e253d48aec039d0217",
+    "baselinePageSHA256": "d07258559085afff0b6b172e4120aa86646bc10bfd85f9e253d48aec039d0217",
+    "actualTeachingPreimageSHA256": "c7a51c6a6a0fefe8e843d80f6321fb31f8a44f10eeb4ac0465d2bfd760f3e0d9",
+    "learnerTask": "Compare brief and prolonged ANC dips with the same one-time value",
+    "gap": "Assessment flow misses depth/duration and snapshot limits",
+    "accuracyGuardrails": "Illustrative not infection prediction or G-CSF threshold; fever assessment; supportive care not tumor response",
+    "targetSection": "## Try it",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "Original frozen audit baseline remains distinct from current immutable teaching preimage and candidate owner SHA; no accounting or adoption update."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-light.svg",
+      "sha256": "5614f4258e3c4ecf78057c0ec510661949840637c6e4784b21a49c4a885960d9",
+      "bytes": 6134,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1400,
+        "viewBox": "0 0 780 1400"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-dark.svg",
+      "sha256": "8964c09d98a8591a63afea6875fd1580de88b907907fb2b03a978798518a456b",
+      "bytes": 6134,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1400,
+        "viewBox": "0 0 780 1400"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-dark.svg",
+        "sha256": "8964c09d98a8591a63afea6875fd1580de88b907907fb2b03a978798518a456b",
+        "bytes": 6134
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-light.svg",
+        "sha256": "5614f4258e3c4ecf78057c0ec510661949840637c6e4784b21a49c4a885960d9",
+        "bytes": 6134
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/matched-anc-snapshot-and-duration-b10-v1-provenance.json",
+        "sha256": "6362562c15bc6d6c96bfe5bdb5ef07870c42112a3fe1c5a3a06052a03227a24f",
+        "bytes": 1728
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/matched-anc-snapshot-and-duration-b10-v1.txt",
+        "sha256": "35043be285fffbb8df34089c293e55e39775348b7fd4b4b03e97bab633faa4f0",
+        "bytes": 1013
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md",
+        "sha256": "2e83626b5d45caaa23146a09974c935c5ccc27758ecbb11570e788ef3fd27d95",
+        "bytes": 8831
+      }
+    ],
+    "currentCandidateOwnerSHA256": "2e83626b5d45caaa23146a09974c935c5ccc27758ecbb11570e788ef3fd27d95",
+    "sourcePreimageSHA256": "c7a51c6a6a0fefe8e843d80f6321fb31f8a44f10eeb4ac0465d2bfd760f3e0d9",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "fab511118fc5c8fc642e6e0572cb2240b0c929f41191ee25e17093ce57f75483",
+    "authorManifestSHA256": "2fe37a704735a3bb096bfb1cd6afb2417a6ea129f08cf99c52fbc7167e20c5dc",
+    "rosterSHA256": "e36024416858ec2ddce1cda0eacd55620fa2e7488dc6ff799da94060e4d6cea9",
+    "authorChecksumEntriesVerified": 772,
+    "publicInventoryFilesVerified": 38,
+    "preservedExistingCustodyFileCount": 0,
+    "retainedOriginalsByteExact": true,
+    "retainedZIPIntegrityChecked": false,
+    "insertOnlyPreimageRecovery": true,
+    "currentWorkingOwnerPreimageExact": true,
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true,
+    "rejectedDrafts01Through03Preserved": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "redactionGatePassed": true,
+    "casePrivateSourceBodiesRead": false,
+    "unrelatedOwnerBodiesRead": false
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41740078/",
+      "actualRetrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41740078%20AND%20SRC:MED&format=json&resultType=core",
+      "primary": true,
+      "readDepth": "Complete primary abstract independently retrieved through Europe PMC core record; no full article, figure or supplement review claimed.",
+      "retainedResponse": "private/sources/41740078.json",
+      "sha256": "f04024cd9b87cf0a6d379160812636b926da261dca8f5140567d121d820c639d",
+      "supports": "The adult ASCO guideline considers chemotherapy febrile-neutropenia risk and patient factors; the invented ANC curves contain neither clinical threshold nor predicted infection probability."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection",
+      "primary": true,
+      "readDepth": "Official patient-education page independently opened and read; not a numeric risk model.",
+      "supports": "Low neutrophils increase infection risk in clinical context; new infection signs require prompt clinical attention."
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Independent seven-owner scientific/task-fit, source-depth, custody, both native themes and fresh reader capture review; no historical approval inherited.",
+    "sourceReadDepth": "Actual independent reads are listed. Ancillary retained owner citations are not all recertified; no comprehensive guideline, entire owner science, human or source-fit adoption certification.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Unchanged private pinned author-built fixture served at 4711, independently captured by reviewer. No production backend/header/navigation, physical mobile, cross-browser, touch or whole-page accessibility certification. Native images were emitted individually; mobile captures inspected in literal-size sheets, desktop inline/theater paint in context sheets that display tools may downscale. Full reader captures retained as context, not whole-page approval. Initial server unavailable; reviewer started unchanged server only."
+  },
+  "nativePixelAssessment": {
+    "assessment": "Both axes, every day label, shared day-3 0.5 value, flat days-2–4 segment and lower threshold/infection/tumor-response guards remain readable.",
+    "mobileReadability": "Read every task-relevant label and lower guard line at actual 390px capture scale; small text is legible in this inspection, human learner acceptance pending.",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.4203125,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Failed in all four owner theme/size checks; independent additional check confirmed BODY. Known pinned renderer defect retained; no runtime changes or overall accessibility approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-234-light-reading.png",
+      "sha256": "30f6c6cca85cd8e08841c3f1edaa5de18ceabffe5e597ac5a56b7bec414109af"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-234-dark-reading.png",
+      "sha256": "029eec7968030acbdb0c8cce3d6e021c9ae0bed23b9a06f28cea2f20e88362be"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-234-light-mobile-inline.png",
+      "sha256": "9747d3666957c452b9d0ea0c0904f1b2c7f2e9bb84be21bbf25090863173d259"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-234-light-mobile-theater.png",
+      "sha256": "2b3d93a2b2a19dfc2c23b49e794468e011a3356361cbd3b009dd5190007bad9c"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-234-light-desktop-inline.png",
+      "sha256": "e05e3260d27197351676ef641e4cf3478d84d70b413afc5909e92e48b12ab833"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-234-light-desktop-theater.png",
+      "sha256": "26ec3da3775640765b3b0ab18e192cd6c88f37dd5ba005804cf312ca5d387685"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-234-dark-mobile-inline.png",
+      "sha256": "0b397d8d06fb139176b450f1dc7207ab3448a002107658c148054a66864afeae"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-234-dark-mobile-theater.png",
+      "sha256": "58f23337b5fa1bd1aa318c93ce759f2c41ec071a8b63da1b1fa89a5c7cfd6ae4"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-234-dark-desktop-inline.png",
+      "sha256": "0f8dfafece45767104d1888751bd1c452a1875cd9757ec44521a4e15d5c502e8"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-234-dark-desktop-theater.png",
+      "sha256": "570aee4ce99b1755245ed4cf09cd948cb98423793dea714c2b6893e988bee4c3"
+    }
+  ],
+  "method": "New pairs directly authored SVG; historical reuse authorship remains unknown. This review made no artwork edits.",
+  "imageModelCalls": 0,
+  "imageModelCallsScope": "Current review only; historical generation is not reconstructed.",
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureExecutableBatchRef": null,
+  "requiredCorrections": [],
+  "findings": [
+    {
+      "kind": "existing-renderer-accessibility-defect",
+      "finding": "Escape closes the viewer but restores focus to BODY rather than the invoking image.",
+      "blocksArtworkTaskFit": false,
+      "overallAccessibilityApproval": false
+    }
+  ]
+}

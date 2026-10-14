@@ -34,6 +34,10 @@ A photograph, a preserved ingredient and a living plant can all come from the sa
 
 ## How it works
 
+<img src="./images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg" alt="Three aligned preparation scenes show a fixed wax block and thin section, a snap-frozen tissue piece with a molecular-analysis symbol, and a viable cell aliquot beside a recovery and identity check. Fixed material preserves architecture but cannot recover original living cells; frozen material preserves analytes without guaranteeing viability; viable material needs workflow-specific recovery and function checks. There is no universal best preparation." data-theme-pair>
+
+*Pick the question first, then check what the preparation actually preserves. A frozen label does not promise living-cell recovery, and a viable label does not guarantee a useful culture.*
+
 **Formalin-fixed, paraffin-embedded (FFPE)** tissue is chemically stabilized, processed and embedded in wax for thin sections. It supports detailed [[wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology|morphology]], many [[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry|immunohistochemistry]] assays and molecular tests validated for that input. Fixation changes molecular chemistry; extracting measurable DNA or RNA does not restore a living cell. [Masuda et al.](https://pubmed.ncbi.nlm.nih.gov/10536153/) demonstrated RNA chemical modifications and assay effects in an experimental fixation study.
 
 **Fresh-frozen tissue** is tissue frozen without prior formalin fixation, often to preserve molecules for analysis. Snap-freezing for DNA, RNA or protein measurement is not automatically a procedure for recovering viable cells. The [NCI snap-freezing protocol](https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf) explicitly places viability, cell sorting, culture and drug-sensitivity applications outside its scope.

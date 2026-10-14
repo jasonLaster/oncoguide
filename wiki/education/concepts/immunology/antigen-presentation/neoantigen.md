@@ -29,6 +29,18 @@ A changed sentence may create a new fragment a reader can notice. The tumor alte
 
 ## How it works
 
+<img src="./images/processing-display-recognition-v2-light.png" alt="Five schematic panels show a common class-I route from protein fragments through TAP into the endoplasmic reticulum, loading with HLA-I and separate beta-2 microglobulin (B2M), surface peptide–HLA display, and conditional contact with a compatible CD8 T-cell receptor." data-theme-pair>
+
+*Reference anatomy from the shared concept. The focused comparison below asks a different question.*
+
+<img src="./images/altered-protein-candidate-evidence-gates-v1-light.svg" alt="Abstract normal and altered protein strips differ at one marked block; a fragment containing that block is a candidate, followed by separate questions about HLA display and T-cell recognition. No real amino-acid sequence is shown." data-theme-pair />
+
+*A sequence change can create a candidate fragment; natural display and receptor recognition remain separate questions.*
+
+**Read the picture:** Does the changed block prove recognition? **Answer:** No. The candidate must be naturally displayed and recognized in the claimed system.
+
+
+
 A [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) substitution, insertion, deletion or rearrangement can change a protein sequence. Altered [ribonucleic acid (RNA) splicing](/wiki/education/concepts/biology-basics/genetics/splicing) can also create candidate sequences. Compare the actual altered sequence with its normal counterpart: a mutation label alone does not specify a peptide, and not every unusual transcript is tumor-exclusive. A candidate must be expressed and processed before a conventional T cell can inspect it as a peptide displayed by human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)).
 
 The [T-cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes the combined peptide–HLA surface. Different HLA alleles can present different fragments from the same altered sequence. One tumor alteration can therefore yield several candidate targets, or none that are useful.
