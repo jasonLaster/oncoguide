@@ -1,0 +1,107 @@
+{
+  "prospectiveTaskId": "next-gap-216",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "c31846294315b68a3e37c4e898d24d6825f4c62530f4c43986b3300bf9503763",
+  "preimageBytes": 8831,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/269",
+  "frozenRowSHA256": "78e35b00bb7c0d5f666b78dafe01f62de6c49ec3cc9a1511b179f6e5594c19e1",
+  "learnerTask": "Separate spontaneous target death from effector-associated excess",
+  "gap": "The current workflow names controls but does not depict their comparison",
+  "accuracyGuardrails": "Keep spontaneous target death, effector-associated excess, target identity and timing separate. Raw dead-cell fraction is not all attributable killing or a validated patient-response prediction.",
+  "targetSection": "Worked example",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-237",
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+      "ownerSHA256": "b28112dc35c28ce0e463885f48cbb7ff5aadfe55c02923c4c00cf5ac37ac7e8a",
+      "status": "planned",
+      "rowSHA256": "07441a00e1887d717e00a076deed7cdd91b788373f9ee5cfb1e11aec7d169d14",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    },
+    {
+      "id": "brief-238",
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+      "ownerSHA256": "b28112dc35c28ce0e463885f48cbb7ff5aadfe55c02923c4c00cf5ac37ac7e8a",
+      "status": "planned",
+      "rowSHA256": "1a9c6ed8d532a17dcd5d3492a7bf5b810ff1b221c4c9ce717ff08d8af689fd2f",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    }
+  ],
+  "schemaVersion": 1,
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "integrator": "agent:/root",
+  "method": "Original hand-authored editable SVG from Python primitives; no raster image-generation invocation",
+  "imageGenerationInvocation": null,
+  "generatorModel": null,
+  "sourceBodiesRead": "Complete actual b8 public owner body personally read after metadata gate; six gaps remain unresolved before additions",
+  "baselineTextPreservation": "Exact byte equality after removing only inserted image and caption block",
+  "publicMetadataClassification": {
+    "frontmatterSHA256": "e9f3f308db33460959e2ade3c1b8d607219c3fdcbbd9a1a69633ffd72d501ac1",
+    "data": {
+      "title": "Functional cytotoxicity assays",
+      "type": "concept",
+      "domain": "measurement/immune-monitoring",
+      "summary": "Functional cytotoxicity assays test whether effector cells cause death of specified target cells under controlled laboratory conditions.",
+      "aliases": [
+        "functional cytotoxicity assays",
+        "cytotoxicity assay",
+        "killing assay",
+        "target-cell killing",
+        "cell-mediated cytotoxicity"
+      ],
+      "glossary_anchor": "functional-cytotoxicity-assays",
+      "level": "advanced",
+      "prerequisites": [
+        "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]",
+        "[[wiki/education/concepts/immunology/antigen-presentation/hla]]",
+        "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"
+      ],
+      "used_by": [
+        "[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]",
+        "[[wiki/education/cellular-therapies/06-in-vivo-delivery]]",
+        "[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]",
+        "[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]",
+        "[[wiki/education/guides/personalized-cancer-vaccine/index]]",
+        "[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]",
+        "[[wiki/education/oncology-101/3-t-cell-states]]",
+        "[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"
+      ],
+      "sensitive": false,
+      "tags": [
+        "education",
+        "measurement"
+      ],
+      "updated": "2026-10-09",
+      "source_checked": "2026-10-09",
+      "reviewed": "pending",
+      "reviewed_by": "",
+      "review_status": "Source-checked; expert and learner review pending"
+    },
+    "classificationBeforeBodyExtraction": true,
+    "maintainedPublicGatePassed": true,
+    "redactionGatePassed": true
+  },
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6891822/",
+      "readBounds": "Abstract and introduction lines 145\u2013165 actually read; indexed methods specific-lysis equation obtained by targeted search, not whole article or supplement.",
+      "supports": "Target/effector identity and death must be distinguished; spontaneous death enters correction. Invented raw-fraction subtraction is not the study normalized-lysis formula."
+    }
+  ],
+  "toyData": "All sample counts, identities, timing, proportions and area geometry invented; not Diana data or thresholds",
+  "altText": "Two invented wells are measured at the same fictional 2-hour endpoint with the same identifiable target definition: target-only has 30 dead target events out of 100 and targets plus effectors has 40 out of 100. Each target glyph summarizes 10 target events; these are aggregate illustrations rather than individual fates. Matched bars show 30% and 40%, a 10 percentage-point effector-associated excess. Effectors remain outside the target denominator. The subtraction does not identify which individual deaths effectors caused, establish a normalized-lysis value or predict patient response.",
+  "caption": "In this invented comparison, 40% raw target death exceeds the 30% target-only background by 10 percentage points; keep the target denominator and timing matched.",
+  "nativeCaptureReview": "Author personally read final 10 fresh capture variants per owner (native light/dark; inline mobile 390\u00d7844 and desktop 1440\u00d71700; theater mobile390\u00d7844 and desktop1440\u00d71000). Author self-check only; independent review pending. See display-checks.private.json and personal-inspection.private.json. Enter/Escape work; inherited focus-return false.",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "independentReviewer": null,
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "status": "private prospective creative draft; no canonical adoption/live approval",
+  "coverageCredit": 0
+}

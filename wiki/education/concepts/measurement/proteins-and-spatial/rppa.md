@@ -29,6 +29,10 @@ Imagine placing a drop of each mixed soup on a card, then testing all drops for 
 
 ## How it works
 
+<img src="./images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg" alt="Invented cells from a defined specimen are disrupted into a tube containing mixed protein shapes. A printed array uses rows for samples A and B and columns for toy dilutions 1, one-half and one-quarter; every spot retains mixed protein symbols. Two replicate array layouts receive separate antibodies for R and phospho-R. Print addresses are sample/dilution labels rather than cell positions. Specificity, calibration and loading normalization remain assay-specific; this is not all-protein or single-cell spatial measurement." width="600" height="900" data-theme-pair />
+
+*Follow the lysate into every printed spot: the address tracks sample and dilution, not a cell’s former tissue position. The dilution design is invented. Separate antibodies need their own specificity, calibration and normalization; the array is not an all-protein or single-cell spatial census.*
+
 A laboratory extracts proteins from a defined specimen into a **lysate**, the mixture released from disrupted cells. Dilutions and replicate spots are printed onto a surface. The original method immobilized the sample's protein mixture, then applied a detecting antibody. This is the “reverse” arrangement relative to arrays that immobilize capture probes. [Paweletz 2001](https://home.ccr.cancer.gov/ncifdaproteomics/pdf/reverse_phase_prostate.pdf).
 
 A typical array is probed for one selected epitope. Separate replicate arrays receive different antibodies to build a panel. An antibody may recognize a total protein, a particular form, or a specified [phosphorylation site](/wiki/education/concepts/biology-basics/signaling/phosphorylation). The spot's address identifies the printed sample; it is not the original coordinate of a cell in tissue.

@@ -31,6 +31,10 @@ The analogy stops at measurement: plasma assays may estimate quantities through 
 
 ## How it works
 
+<img src="./images/ctdna-concentration-and-background-fractions-v1-light.svg" alt="Equal invented 1 mL plasma aliquots each contain four tumor-attributed molecule symbols. A has 16 background symbols and 20 total; B has 36 background symbols and 40 total. Four molecules per mL stays equal while the recovered-molecule share drops from 4/20, or 20%, to 4/40, or 10%. These toy molecule shares are not automatically variant allele fraction, an assay-estimated tumor fraction or MTM/mL; those quantities require their stated method and model." width="780" height="1450" data-theme-pair />
+
+*Equal invented volumes retain four tumor-attributed molecules each, so concentration stays constant while added background halves this toy molecule fraction.*
+
 [Circulating tumor DNA (ctDNA)](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) can be reported in several ways:
 
 | Report quantity | Meaning | Boundary |

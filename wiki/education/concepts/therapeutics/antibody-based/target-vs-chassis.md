@@ -30,6 +30,10 @@ Imagine a destination served by different vehicles. Sharing the destination does
 
 ## How it works
 
+<img src="./images/shared-target-five-therapeutic-formats-v1-light.svg" alt="Five rows show different machinery recognizing invented surface protein M: an antibody, antibody-drug conjugate, T-cell engager, CAR-bearing T cell and radiopharmaceutical. Target markers show different possible epitopes; healthy cells may share the protein. Rows are not ranked." data-theme-pair="./images/shared-target-five-therapeutic-formats-v1-dark.svg" />
+
+*A shared target name leaves each format with different delivery and action requirements. It need not mean the same epitope or tumor-exclusive recognition, and no row ranks efficacy.*
+
 Keep three questions separate:
 
 | Question | What answers it? | What remains open? |

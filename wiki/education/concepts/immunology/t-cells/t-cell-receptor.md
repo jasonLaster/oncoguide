@@ -31,6 +31,10 @@ The reader analogy has a limit: one receptor can recognize more than one peptide
 
 ## How it works
 
+<img src="./images/tcr-paired-chains-and-cd3-contact-v1-light.svg" alt="A cutaway shows paired TCR alpha and beta recognition chains crossing the T-cell membrane beside separate CD3 signaling partners. Rose CDR3 and other contact loops face a peptide held by HLA on the target cell; no TCR peptide pocket is shown. Contact is not a safety or killing test." data-theme-pair="./images/tcr-paired-chains-and-cd3-contact-v1-dark.svg" />
+
+*The paired TCR contacts peptide and HLA together, while CD3 carries signals. Both chains and other contact regions matter; this schematic is not a cross-reactivity or safety test.*
+
 Most conventional [T cells](/wiki/education/concepts/immunology/t-cells/t-cell) carry an **alpha** and a **beta** chain. Each contributes a variable region near the binding surface and a constant region closer to the membrane. Together, the two chains form the recognition surface; testing or sequencing one chain does not reproduce the complete receptor.
 
 The variable regions contain **complementarity-determining regions (CDRs)**, loops involved in contact with the displayed target. The third region, **CDR3**, is highly variable because it spans gene-segment junctions formed during [V(D)J recombination](/wiki/education/concepts/biology-basics/genetics/vdj-recombination). CDR3 is important for peptide contacts, but its sequence alone is not a complete specificity code: other receptor regions, the partner chain and the HLA context also matter.

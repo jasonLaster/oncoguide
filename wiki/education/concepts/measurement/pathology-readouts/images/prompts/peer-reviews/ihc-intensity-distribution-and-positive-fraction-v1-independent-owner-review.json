@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-220",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+  "author": "agent:/root/batch09_author_group2",
+  "authorRole": "Actual six-new-illustration packet author",
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:57:26.767736+00:00",
+  "reviewedAtUTC": "2026-10-13T22:57:26.767736+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/287",
+  "frozenRowSHA256": "1134501944d6dc677d1830861f03be1db0d269cd325f87968c5a59d0ac224523",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Exactly100 fictional eligible-cell circles contain50 unstained,10 weak,20 moderate and20 strong; category rows are not tissue geography. A common denominator yields50% positive, while intensity weighting yields10+40+60=110. The separate Allred example remains categorical and no molecule count, universal cutoff or treatment prediction is implied.",
+    "frozenPageSHA256": "dc4a94b9441935a5e2ab1470e47f2c9382e47eaf4ed970ba0028339a04694d1d",
+    "baselinePageSHA256": "dc4a94b9441935a5e2ab1470e47f2c9382e47eaf4ed970ba0028339a04694d1d",
+    "actualTeachingPreimageSHA256": "977b4d6af10d98155cba64b93c7e457bf4ebf450398365c7b4e178b16a6712e3",
+    "learnerTask": "Distinguish intensity-weighted index from positive-cell percentage",
+    "gap": "The generic scoring flow does not show the intensity distribution",
+    "accuracyGuardrails": "Preserve intensity categories and their denominator: fictional H-score110 is distinct from50% positive. Allred is a separate categorical scale; neither is molecule count, a universal cutoff or interchangeable assay output.",
+    "targetSection": "Two scores combine different information",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 is the immutable original audit page anchor required by maintained source-fit accounting; actual b8 teaching bytes are separately bound and were fully read. Frozen task is unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+      "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733",
+      "bytes": 16652,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+      "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7",
+      "bytes": 16652,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+        "sha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+        "bytes": 9906
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733",
+        "bytes": 16652
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7",
+        "bytes": 16652
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/ihc-intensity-distribution-and-positive-fraction-v1.txt",
+        "sha256": "bead3f371f9ae220e6e290af9f1d9e25c0708972602f71307f13502565c22d55",
+        "bytes": 2270
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/ihc-intensity-distribution-and-positive-fraction-v1-provenance.json",
+        "sha256": "c6d91d3afa1b193f4658dc4a2c721346f13e856e746434491f628c4a0dbef59f",
+        "bytes": 6015
+      }
+    ],
+    "currentCandidateOwnerSHA256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "3590da1e10fc88079e4bc1e074d49474a8289b395c6e086de370225c83dcb3e2",
+    "authorInventorySHA256": "e9452748cef77e8d79677059c0268de5fef755034167182c0f05f0750c01b953",
+    "authorCustodyZipSHA256": "f1e14bfd1be9734930a570bb1ec3465a0b6141173468b9741217ecf9b9923f79",
+    "sourcePreimageSHA256": "977b4d6af10d98155cba64b93c7e457bf4ebf450398365c7b4e178b16a6712e3",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after stripping only inserted image and caption; original frontmatter, navigation, prose, sources and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://documents.cap.org/protocols/cp-breast-18biomarker-1201.pdf",
+      "primary": true,
+      "readDepth": "Official indexed Table2/3 scoring text personally read through targeted primary retrieval; not whole archived protocol.",
+      "supports": "H-score intensity weights differ from positive-cell fraction; Allred proportion plus intensity categories are a separate arithmetic example.",
+      "accessStatus": "Direct archived PDF failed DNS/502; official indexed table text available. Historical positivity labels not adopted.",
+      "population": "Historical breast biomarker scoring conventions only; no current clinical cutoff, assay equivalence or treatment rule certified."
+    }
+  ],
+  "mathAssessment": {
+    "eligibleCircles": 100,
+    "categories": [
+      50,
+      10,
+      20,
+      20
+    ],
+    "weights": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "Hscore": 110,
+    "positivePercent": 50,
+    "separateAllredProportionCategory": 3,
+    "separateAllredIntensity": 2,
+    "separateAllredScore": 5
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific, conceptual, original-native, frozen task, source-depth, custody and fresh pinned-reader pixel review; task218 explicit existing-art reuse.",
+    "sourceReadDepth": "Entries record actual bounded independent primary reading and failures; preserved ancillary owner citations are not each recertified. No study statistics or patient treatment conclusions introduced.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own isolated pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. No production header/sidebar/backend/navigation, physical mobile or cross-browser/touch certification; no whole-page/nontext accessibility certification. Own full-reader screenshots support inline crops. Initial author server4692 unavailable; own private copied/pin-verified fixture built and served4692. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      780,
+      1450
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.420474137931034,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.322398239900442,
+    "allTextContrastChecksPassed": true,
+    "contrastScope": "Fresh actual SVG DOM computed fill and preceding opaque enclosing rectangle over each text bbox; both themes. Nontext graphics not certified.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closed the dialog but focus did not return to image (BODY); unchanged pinned runtime defect remains qualified. No runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-220-light-reading.png",
+      "sha256": "a2908584c1fa3ad64934f011869b7a8963ead129f5c8731920136e39ed186fb0"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-220-dark-reading.png",
+      "sha256": "e09b083e4fce2194795eeb454b517a4ad283db825cf5add142fa98c0480f390e"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-220-light-mobile-inline.png",
+      "sha256": "4d8f0951dbb19efbb23ad13cb115978e84f4156f73fac1310f2cdf04321139c7"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-220-light-mobile-theater.png",
+      "sha256": "eb0749269ba682d488e71c600d3e9ad001d07f7f0e68678203fa28d91527863e"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-220-light-desktop-inline.png",
+      "sha256": "c76993820d48120ef8581acc4bed73ada4e6fc360636094eb31fec423241082c"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-220-light-desktop-theater.png",
+      "sha256": "a5b697b300f88cbc6b4e44949c800303b1af175df13ad7587ea3cb288a2a14f0"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-220-dark-mobile-inline.png",
+      "sha256": "bd29744f9c9ee201d25cf12b301ff61bdf1edf8517f6674a46a91b4f79730e20"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-220-dark-mobile-theater.png",
+      "sha256": "6d4c8702b2c9e17d2016567e57c1ecf30ea336f6326f7ce8fa35e79c3ab583a5"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-220-dark-desktop-inline.png",
+      "sha256": "54d6965143e1ce4597f8201ca6fa20a980123d7921f4d2e8f623c4331608034b"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-220-dark-desktop-theater.png",
+      "sha256": "9fba989299ed5ffa4e786445ddca0cd22435d6d9bce146e84d4acef925977e5d"
+    }
+  ],
+  "method": "Original hand-authored editable SVG from Python primitives; no raster generator invocation",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "imageModelCallsScope": "This independent review/prospective work; historical218 authorship or tool invocation is not reconstructed."
+}

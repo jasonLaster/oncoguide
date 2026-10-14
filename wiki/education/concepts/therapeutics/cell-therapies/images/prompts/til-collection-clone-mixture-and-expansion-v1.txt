@@ -1,0 +1,25 @@
+Original hand-authored educational SVG design brief
+Actual creative author: agent:/root/batch09_author_group1
+Teaching baseline: b8c381d6ad94c0377939ee2bc4e54ff4088c70ea
+Prospective task: next-gap-214
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/339
+Frozen row SHA256: 78e58bd26a686e6b2455ded93b6c453b35427efaca0725923524d6597741ca7b
+Canonical owner: wiki/education/concepts/therapeutics/cell-therapies/til-therapy.md
+Target section: ## Worked example and practice
+Learner task: Track different native clones from tumor collection to uneven expansion
+Exact gap: Manufacturing flow names stages without showing changed clone mixture or bystanders
+Guardrails verbatim: "Tumor origin not specificity; population size not potency; whole treatment package not cells alone"
+
+Design: Original 600 x 900 canvas with transparent outer margins and an inset rounded teaching card. The filled card keeps all labels readable against the ImageTheater backdrop; vertically stacked physical scenes sit within it. Consistent folded domain outlines, peptide/linker paths, membrane beads, cell boundaries and nuclei, labelled callouts and restrained accents. Rounded friendly geometry without implying molecules consciously choose cells. Blue/teal/purple domains and rose contact or cargo marks are repeated with textual labels; color is not the sole identity. All source geometry and text are identical across themes; only palette tokens change. Minimum essential text 26 SVG units. Native browser plus private pinned reader inline/theater checks required at 390px mobile and 1440px desktop.
+
+Scene alt: An invented tumor-tissue snapshot contains six T cells: two each from native clones A, B and C. After culture, twelve cells include two A, eight virus-reactive bystander B and two unknown C. Each lettered cell is one counted cell; changed mixture and yield do not prove potency. A complete treatment regimen includes more than these cells.
+Caption: In this invented example, clone B grows from 2/6 collected T cells to 8/12 cultured T cells while A and C each remain two cells. No elapsed culture time is specified; tumor origin is not specificity and yield is not potency. Whole-regimen evidence cannot be attributed to the cells alone.
+
+Scope: Add only the image/caption to the exact target section; preserve original teaching, diagrams, source list, metadata and navigation byte-for-byte after removing this insertion. All sizes/contact/track shapes are schematic, not atomic coordinates. TIL toy units: each lettered symbol is one counted T cell. Before/after culture endpoint snapshots; 6 to 12 cells, A2 B2 C2 to A2 B8 C2. No elapsed time, percentages, death or clinical potency estimate.
+
+Method: Hand-authored source-code SVG; image generator calls 0; image model null. No source figure was copied. Prior Mermaid authors unknown, preserved as prior teaching. Independent science/source-fit and pixel review pending; clinician/domain-expert and learner review pending; integration, future execution, adoption, delivery and live approval pending. No coverage credit.
+
+Primary/official read bounds:
+{"url": "https://pubmed.ncbi.nlm.nih.gov/29769722/", "retrievedAt": "2026-10-13", "readBounds": "Europe PMC MED complete abstract read.", "supports": "Human lung/colorectal infiltrates can contain virus-specific bystanders.", "limitations": ["Toy A/B/C counts are invented, not patient data or reported prevalence."]}
+{"url": "https://pubmed.ncbi.nlm.nih.gov/36477031/", "retrievedAt": "2026-10-13", "readBounds": "Europe PMC MED abstract, complete Methods and remaining abstract read.", "supports": "Specific TIL regimen includes lymphodepletion, cells and cytokine support.", "limitations": ["No treatment instructions or transfer of melanoma benefit to another setting."]}
+{"url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy", "retrievedAt": "2026-10-13", "readBounds": "Official How does T-cell transfer therapy work, collection/expansion paragraphs.", "supports": "Collected T cells expanded ex vivo; distinct TIL and engineered routes.", "limitations": ["Culture depiction is an invented endpoint example; no time or efficacy estimate."]}

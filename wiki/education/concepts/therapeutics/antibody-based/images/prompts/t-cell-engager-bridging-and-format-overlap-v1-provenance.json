@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-hand-authored-educational-svg",
+  "actualCreativeAuthor": "agent:/root/batch09_author_group1",
+  "integrator": "agent:/root",
+  "method": "hand-authored source-code SVG",
+  "model": null,
+  "imageCalls": 0,
+  "prospectiveTaskId": "next-gap-211",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/329",
+  "frozenRowSHA256": "38d948694afabad086ed799b34f856607f86d141c1ee241a5b8405f7e8aa0673",
+  "canonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/t-cell-engager.md",
+  "teachingBaseline": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "learnerTask": "See two-cell contact and overlapping compact/Fc/half-life design labels",
+  "gap": "Flow omits physical bridging geometry; table alone can imply exclusive format categories",
+  "accuracyGuardrails": "CD3 not tumor-specific native TCR; binding and cytokines not killing; HLE can overlap architectures",
+  "before": {
+    "sha256": "bc97ac9ae678a537523605bf6beddf0c010c037b80196ff5454c99439de9cab2",
+    "bytes": 9483
+  },
+  "bodyPreservation": "Remove exact illustration/caption insertion to recover baseline bytes; existing frontmatter, prose, diagrams, citations, practice and navigation retained.",
+  "priorVisuals": {
+    "mermaid": [
+      {
+        "section": "### Format labels answer different questions",
+        "sourceSHA256": "ec7ac3a6e3bd9d4b1c14320fda8b0116feef776551215b78eb5d72e6ec1e5738",
+        "source": "%%{init: {\"htmlLabels\":false,\"flowchart\":{\"htmlLabels\":false,\"padding\":8,\"nodeSpacing\":25}}}%%\nflowchart TD\n A[\"Bind target + CD3\"] --> B[\"Productive cell contact\"]\n B --> C[\"T-cell response\"]\n C --> D[\"Test target-cell death\"]\n",
+        "creativeAuthor": null,
+        "attributionQualification": "Mermaid creator unknown; no authorship inference."
+      }
+    ],
+    "rasterEmbeds": [],
+    "interactive": false,
+    "svg": false,
+    "table": false
+  },
+  "priorCreativeAuthors": "unknown unless roster states otherwise; no borrowed identity",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7624362/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Europe PMC MED record complete abstract read.",
+      "supports": "Tandem scFv recognizes CD3 and other-cell target.",
+      "limitations": [
+        "Specified construct and cell assays; not general patient benefit."
+      ],
+      "retrievalUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:7624362%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://aacrjournals.org/clincancerres/article/27/5/1526/267119/AMG-757-a-Half-Life-Extended-DLL3-Targeted",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Publisher indexed introduction paragraphs concerning tandem scFv core plus Fc read; direct page failed 403. Europe PMC abstract read separately.",
+      "supports": "HLE BiTE can be made by fusing Fc to BiTE core.",
+      "limitations": [
+        "Only bounded indexed introduction and abstract; no full-paper claim or safety/exposure ranking."
+      ]
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Official page How do monoclonal antibodies work, paragraphs 1–4.",
+      "supports": "CD3-to-target-cell bridging.",
+      "limitations": [
+        "No current approval inventory used."
+      ]
+    }
+  ],
+  "caption": "The bridge makes two contacts, but function needs its own measurements. CD3 is separate from native TCR specificity; Fc-containing BiTE-derived and IgG-like designs can both carry half-life-extension features.",
+  "alt": "An engager bridges CD3 on a T cell to target M on another cell, with native TCR separate. Below, a compact BiTE core and a BiTE core joined to Fc show that half-life-extension labels can overlap architecture. Contact or cytokines alone do not establish killing.",
+  "canvas": {
+    "width": 600,
+    "height": 900,
+    "transparent": true,
+    "transparencyScope": "outer margin around inset filled teaching card; no full-canvas background rectangle",
+    "essentialMinFontUnits": 26,
+    "themeGeometry": "Identical source geometry and wording; palette-only substitutions"
+  },
+  "toyData": null,
+  "independentReview": "pending",
+  "humanExpertAndLearnerReview": "pending",
+  "canonicalAdoption": false,
+  "delivery": "pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "frozenOriginalOwnerSHA256": "5a24a2e932e7f0c4f1a8ec0c58c977979bd0e13a0ba17d0628719253ab382cd3",
+  "frozenOriginalOwnerDifferentFromTeachingPreimage": true,
+  "targetSection": "### Format labels answer different questions",
+  "authorInspection": {
+    "status": "completed, author observation only",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeCanvas": [
+      600,
+      900
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "captureCount": 10,
+    "minMobileInlineLabelPx": 14.993333333333334,
+    "minMobileTheaterLabelPx": 14.82,
+    "lightTheaterContrast": "Inset filled teaching card; transparent outer margins remain.",
+    "keyboard": "Enter opened and Escape closed; focus return failure observed on unchanged renderer; unresolved.",
+    "independentReview": "pending",
+    "humanReview": "pending"
+  },
+  "artifactIdentities": [
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/t-cell-engager.md",
+      "sha256": "7ae57c4540849373b2c2bd7804ebae3ffbff95cd569df5d21f60033b5f1884d4",
+      "bytes": 10126
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/t-cell-engager-bridging-and-format-overlap-v1-light.svg",
+      "sha256": "1a087aa0fbf71383d83aee2e9859c35d0f61e6fa68853547b62a0eafb5c96e15",
+      "bytes": 9961
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/t-cell-engager-bridging-and-format-overlap-v1-dark.svg",
+      "sha256": "f4be59c37ccc70b9b71c81a63b291d5e2018c3bc6179e27359d2b41519aba716",
+      "bytes": 9961
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/t-cell-engager-bridging-and-format-overlap-v1.txt",
+      "sha256": "dbbb9b4238cfb8da8d1fa424703eec9212ee6a610e270027de07cee617f8d143",
+      "bytes": 3951
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Original hand-authored SVG teaching brief
+Author: agent:/root/batch09_author_group3
+Private prospective only; actual execution source/destination null.
+Owner: wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md
+Task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/291
+Frozen row SHA256: 317042d1d59863f787fb8280c31577957a6fcddbf4492290186c1ff001598925
+Learner task: Connect metal-tagged markers, sampled coordinates and reconstructed images
+Gap: The sequence lacks a spatial sampling and channel schematic
+Accuracy guardrails (verbatim): Match metal-tagged antibody channels to sampled coordinates and reconstructed images. Destructive spatial sampling is distinct from suspension measurement and does not survey every protein or guarantee segmentation accuracy.
+Creative plan: An invented tissue grid is stained by two metal-tagged antibody types labelled A and B. A laser removes material at recorded address x2,y1 and directs it to metal detection. Two reconstructed channel grids preserve the same x,y layout and highlight that address. A dotted estimated cell boundary illustrates segmentation uncertainty; warning text states that suspension cells lose the original tissue arrangement. Selected channels are not a survey of every protein. Geometry and signals are schematic, not patient data.
+Takeaway: Keep the recorded tissue address attached to each metal-tag channel. These invented maps illustrate destructive spatial sampling; suspension measurements lose the original arrangement. The chosen panel and estimated cell borders still limit interpretation.
+Visual style: three linked filled inset teaching cards; transparent outer canvas; restrained hand-drawn cell, compartment and assay glyphs; personable teaching questions; large labels.
+No image model/service used. No patient measurements or therapeutic efficacy depicted. All toy values, shapes and arrangements invented. Preserve baseline text, old art and navigation. Domain-expert, clinician and learner review pending.

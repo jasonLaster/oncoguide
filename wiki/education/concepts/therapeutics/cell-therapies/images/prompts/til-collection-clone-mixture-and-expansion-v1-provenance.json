@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-hand-authored-educational-svg",
+  "actualCreativeAuthor": "agent:/root/batch09_author_group1",
+  "integrator": "agent:/root",
+  "method": "hand-authored source-code SVG",
+  "model": null,
+  "imageCalls": 0,
+  "prospectiveTaskId": "next-gap-214",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/339",
+  "frozenRowSHA256": "78e58bd26a686e6b2455ded93b6c453b35427efaca0725923524d6597741ca7b",
+  "canonicalOwner": "wiki/education/concepts/therapeutics/cell-therapies/til-therapy.md",
+  "teachingBaseline": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "learnerTask": "Track different native clones from tumor collection to uneven expansion",
+  "gap": "Manufacturing flow names stages without showing changed clone mixture or bystanders",
+  "accuracyGuardrails": "Tumor origin not specificity; population size not potency; whole treatment package not cells alone",
+  "before": {
+    "sha256": "7242cb6991325169925eb9aa0067e9759d9a042c6be412b810785b222ee90c14",
+    "bytes": 7977
+  },
+  "bodyPreservation": "Remove exact illustration/caption insertion to recover baseline bytes; existing frontmatter, prose, diagrams, citations, practice and navigation retained.",
+  "priorVisuals": {
+    "mermaid": [
+      {
+        "section": "## How it works",
+        "sourceSHA256": "3499321fd8cec93d5d0cecae8c48310e847b19b4348d4536ae22e6ad229561ce",
+        "source": "flowchart TD\n  A[\"Mixed lymphocytes<br/>in tumor tissue\"] --> B[\"Recover<br/>and culture\"]\n  B --> C[\"Protocol-specific<br/>selection and expansion\"]\n  C --> D[\"Characterize<br/>finished cells\"]\n  D --> E[\"Specified<br/>treatment regimen\"]\n  E --> F[\"Measure function<br/>and patient outcomes\"]\n",
+        "creativeAuthor": null,
+        "attributionQualification": "Mermaid creator unknown; no authorship inference."
+      }
+    ],
+    "rasterEmbeds": [],
+    "interactive": false,
+    "svg": false,
+    "table": false
+  },
+  "priorCreativeAuthors": "unknown unless roster states otherwise; no borrowed identity",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Europe PMC MED complete abstract read.",
+      "supports": "Human lung/colorectal infiltrates can contain virus-specific bystanders.",
+      "limitations": [
+        "Toy A/B/C counts are invented, not patient data or reported prevalence."
+      ],
+      "retrievalUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29769722%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36477031/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Europe PMC MED abstract, complete Methods and remaining abstract read.",
+      "supports": "Specific TIL regimen includes lymphodepletion, cells and cytokine support.",
+      "limitations": [
+        "No treatment instructions or transfer of melanoma benefit to another setting."
+      ],
+      "retrievalUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36477031%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Official How does T-cell transfer therapy work, collection/expansion paragraphs.",
+      "supports": "Collected T cells expanded ex vivo; distinct TIL and engineered routes.",
+      "limitations": [
+        "Culture depiction is an invented endpoint example; no time or efficacy estimate."
+      ]
+    }
+  ],
+  "caption": "In this invented example, clone B grows from 2/6 collected T cells to 8/12 cultured T cells while A and C each remain two cells. No elapsed culture time is specified; tumor origin is not specificity and yield is not potency. Whole-regimen evidence cannot be attributed to the cells alone.",
+  "alt": "An invented tumor-tissue snapshot contains six T cells: two each from native clones A, B and C. After culture, twelve cells include two A, eight virus-reactive bystander B and two unknown C. Each lettered cell is one counted cell; changed mixture and yield do not prove potency. A complete treatment regimen includes more than these cells.",
+  "canvas": {
+    "width": 600,
+    "height": 900,
+    "transparent": true,
+    "transparencyScope": "outer margin around inset filled teaching card; no full-canvas background rectangle",
+    "essentialMinFontUnits": 26,
+    "themeGeometry": "Identical source geometry and wording; palette-only substitutions"
+  },
+  "toyData": {
+    "invented": true,
+    "countedUnit": "one T cell",
+    "before": {
+      "A": 2,
+      "B": 2,
+      "C": 2,
+      "total": 6
+    },
+    "after": {
+      "A": 2,
+      "B": 8,
+      "C": 2,
+      "total": 12
+    },
+    "time": "before/after culture endpoint snapshots, no elapsed duration"
+  },
+  "independentReview": "pending",
+  "humanExpertAndLearnerReview": "pending",
+  "canonicalAdoption": false,
+  "delivery": "pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "frozenOriginalOwnerSHA256": "869ab2ead3aa0f7cd06fe2c9f24dd9fec6eca50793776760bfaaa0365cae8ce5",
+  "frozenOriginalOwnerDifferentFromTeachingPreimage": true,
+  "targetSection": "## Worked example and practice",
+  "authorInspection": {
+    "status": "completed, author observation only",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeCanvas": [
+      600,
+      900
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "captureCount": 10,
+    "minMobileInlineLabelPx": 14.993333333333334,
+    "minMobileTheaterLabelPx": 14.82,
+    "lightTheaterContrast": "Inset filled teaching card; transparent outer margins remain.",
+    "keyboard": "Enter opened and Escape closed; focus return failure observed on unchanged renderer; unresolved.",
+    "independentReview": "pending",
+    "humanReview": "pending"
+  },
+  "artifactIdentities": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/til-therapy.md",
+      "sha256": "288550a4c0e12347c17b3271d6f296f9c0bb8d82ad55f1b1dbe0a8bb8f47d6ee",
+      "bytes": 8777
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/til-collection-clone-mixture-and-expansion-v1-light.svg",
+      "sha256": "aea00139c86e41bfa91a8e0e62c1f6d9269e95e8e0bc3fc1c6c4b1b9895afcfb",
+      "bytes": 13695
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/til-collection-clone-mixture-and-expansion-v1-dark.svg",
+      "sha256": "ca42a8fe9983855147d1cf74ecf6f165d30bd7bbcd8656610c65f6485bcfd8fe",
+      "bytes": 13695
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/til-collection-clone-mixture-and-expansion-v1.txt",
+      "sha256": "f598f4486baf5f5888c7deefd2a0f800668fe976d708186618fc6839247873b0",
+      "bytes": 4235
+    }
+  ]
+}

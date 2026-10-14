@@ -1,0 +1,23 @@
+HAND-AUTHORED SVG SOURCE BRIEF (not an image-generator prompt invocation)
+
+Which population is the parent?
+Learner task: Read nested gates and their denominators
+Exact frozen gap: Current linear workflow does not show nested population counts
+Target: Worked example
+Guardrails (verbatim): Show each nested gate and its parent denominator, with exclusions/quality controls visible. Percentages are not absolute concentration or whole-body counts, and marker identity is not function.
+
+Geometry/alt: Nested invented gate boxes show 12,000 recorded events, 10,000 quality-selected recovered cells, 1,000 T-cell events and 100 reagent-binding events. Debris, pairs and dead-cell events are excluded before the recovered-cell denominator. The same 100 binding events are 10% of 1,000 T cells and 1% of 10,000 recovered cells. Box areas are not proportional. No concentration, whole-body count or killing result is inferred.
+Caption: The same 100 binding events are 10% of the selected T-cell parent and 1% of recovered cells; the nested invented counts define each denominator.
+
+Style: warm personable schematic cells and specimens, 780 by 1450; same geometry/counts across themes; labels 28–38 px; cream light and slate dark. Original editable SVG authored with Python string primitives; no image-generation tool invoked. Six illustrations added only, all baseline text/frontmatter/navigation retained. Original creators of earlier diagrams unknown.
+
+Sources/read bounds:
+[
+  {
+    "url": "https://www.thermofisher.com/dk/en/home/life-science/cell-analysis/flow-cytometry/flow-cytometry-learning-center/flow-cytometry-resource-library/flow-cytometry-methods/spectral-flow-cytometry-panel-design.html",
+    "readBounds": "Official page, hierarchical gating section lines 178\u2013203; controls/viability and singlets only. Cossarizza full text blocked (403); no claim of full guideline review.",
+    "supports": "Debris, aggregate and dead-cell exclusions; nested parent arithmetic is invented."
+  }
+]
+
+Private prospective baseline b8c381d6ad94c0377939ee2bc4e54ff4088c70ea; execution refs null; canonical adoption, clinician/domain-expert and learner review, production delivery, and coverage credit pending.

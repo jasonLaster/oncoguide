@@ -66,6 +66,10 @@ These assays help characterize candidate immune cells and targets. They compleme
 
 ## Worked example
 
+<img src="./images/target-death-controls-and-associated-excess-v1-light.svg" alt="Two invented wells are measured at the same fictional 2-hour endpoint with the same identifiable target definition: target-only has 30 dead target events out of 100 and targets plus effectors has 40 out of 100. Each target glyph summarizes 10 target events; these are aggregate illustrations rather than individual fates. Matched bars show 30% and 40%, a 10 percentage-point effector-associated excess. Effectors remain outside the target denominator. The subtraction does not identify which individual deaths effectors caused, establish a normalized-lysis value or predict patient response." width="780" height="1450" data-theme-pair />
+
+*In this invented comparison, 40% raw target death exceeds the 30% target-only background by 10 percentage points; keep the target denominator and timing matched.*
+
 A fictional assay records 40% target death with effectors and 30% in target-only wells. A reader calls this “40% immune killing.” Is that justified?
 
 **Answer:** No. Much of the death occurs without effectors. An excess-death calculation and a control-normalized lysis formula give different quantities; report the method rather than treating raw death as attributable killing. High baseline death may also make the experiment unsuitable.

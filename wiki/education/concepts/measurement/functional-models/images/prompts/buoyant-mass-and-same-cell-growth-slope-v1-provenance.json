@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "status": "private prospective author artifact",
+  "creativeAuthor": "agent:/root/batch09_author_group3",
+  "integrator": "agent:/root",
+  "owner": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/258",
+  "frozenRowSHA256": "b5d6e54c27f32d22a732fc17f476e568b25135b537afc2452010d59420976221",
+  "frozenRowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "4ec28154dd6960d28eba13321bc0c602a4fa2ad0531ef1b614c76a106c7d61f2",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "sourceGapFit": "Author personally read full b8 public body after metadata gate; native existing visuals inspected. Exact physical gap remains. This is author assessment, not independent source-fit approval.",
+  "learnerTask": "Distinguish buoyant mass from a repeated same-cell growth slope",
+  "gap": "No physical-measurement inset or mass-versus-time plot",
+  "accuracyGuardrails": "Distinguish buoyant mass from a same-cell mass-versus-time slope and state the assay units. A fractional growth-rate reduction is not equivalent to shrinkage, death or patient response.",
+  "targetSection": "How it works",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-228",
+      "owner": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+      "ownerSHA256": "d7bc40994e420df97463eef969838285bd379c7e292343d8195714b2f1577591",
+      "status": "planned",
+      "rowSHA256": "60d9419b814b999e8f2fb6eb4868c53075e3dad1b4910fc244d02575d36955ed",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    }
+  ],
+  "priorCreators": "Unknown unless explicitly recorded in frozen roster; no attribution inferred.",
+  "medium": "editable hand-authored SVG",
+  "imageGeneration": {
+    "used": false,
+    "model": null,
+    "provider": null,
+    "calls": []
+  },
+  "geometry": "schematic",
+  "toyData": "All graphic counts, labels, values and recovery scenarios invented; no specimen/patient measurements.",
+  "bodyPreservation": "Removing only the exact new image/caption block restores the b8 owner bytes; no corrections or navigation edits.",
+  "independentReview": "pending",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "caption": "Follow the same cell through repeated calibrated readings to estimate a slope, in picograms per hour. The toy values are invented: a fall from 2 to 0.5 pg/h is a 75% lower positive rate, not a killed-cell fraction, shrinkage or patient response.",
+  "alt": "A fluid-filled channel loops inside a suspended vibrating beam; a passing cell shifts its frequency, calibrated to buoyant mass. An invented graph follows the same toy cell at 0, 0.5 and 1 hour with masses of 10, 11 and 12 picograms; slope is 2 picograms per hour. A separate invented matched-group rate comparison of 2 versus 0.5 picograms per hour yields a 75 percent lower positive rate. Neither reduced rate nor buoyant mass alone demonstrates shrinkage, death or patient response.",
+  "sourceReadsReference": "source-claim-mapping.private.json; author source-read bounds and access limits, not scientific approval",
+  "originalFrozenOwnerSHA256": "d7bc40994e420df97463eef969838285bd379c7e292343d8195714b2f1577591",
+  "frozenVsBaselineQualification": "Original frozen audit page differs from b8 teaching page; both hashes retained. Frozen task identity verified from the pinned Git audit row. Author gap confirmation is prospective and not independent approval.",
+  "sourceReads": [
+    {
+      "tasks": [
+        "next-gap-223"
+      ],
+      "url": "https://groverlab.org/assets/cell-growth.pdf",
+      "title": "Godin et al. 2010 author-hosted primary paper",
+      "readBounds": "PDF page 1 lines 12\u201340; page 2 lines 86\u2013135; PubMed abstract and Figure 1 caption read separately",
+      "supports": "Buoyant mass relative to displaced fluid; fluid channel in suspended resonator; frequency shifts; repeated same-cell observations and fitted mass slope.",
+      "limits": "Official PMC webpage returned reCAPTCHA. Author PDF method paragraphs read, not all supplementary material. Toy plotted masses/time are invented."
+    },
+    {
+      "tasks": [
+        "next-gap-223"
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5064867/fullTextXML",
+      "title": "Cermak et al. 2016 primary manuscript via Europe PMC",
+      "readBounds": "Actual downloaded XML Device design and Device design and fabrication sections read; publisher abstract read",
+      "supports": "Serial resonators can weigh a tracked cell repeatedly; readings/time interval determine growth-rate estimation.",
+      "limits": "Original PMC rendered page returned reCAPTCHA; no complete manuscript read asserted. Downloaded XML retained under sources/."
+    }
+  ],
+  "authorNativeInspection": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "captureCount": 10,
+    "personallyInspected": true,
+    "modes": "Both themes, native SVG reading and 390px mobile/1440px desktop inline and theater",
+    "minimumMobileNormalTextContrast": 5.218849426096166,
+    "smallestMobileInlineLabelPx": 16.14666666666667,
+    "smallestMobileTheaterLabelPx": 15.96,
+    "scope": "Private pinned article fixture; author QA only; no live app/full navigation certification.",
+    "knownIssue": "Enter opens and Escape closes; focus did not return to opener in 24/24 display cases. No runtime change."
+  }
+}

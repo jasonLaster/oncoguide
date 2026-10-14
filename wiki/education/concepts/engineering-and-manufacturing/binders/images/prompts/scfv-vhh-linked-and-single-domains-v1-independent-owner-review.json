@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-208",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+  "author": "agent:/root/batch09_author_group1",
+  "creativeAuthor": "agent:/root/batch09_author_group1",
+  "reviewer": "agent:/root/batch09_review_group1",
+  "independentReviewer": "agent:/root/batch09_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:47:46.385613+00:00",
+  "reviewedAtUTC": "2026-10-13T22:47:46.385613+00:00",
+  "schemaBoundAtUTC": "2026-10-13T23:12:19.315963+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Recognize two linked variable domains in an scFv versus one VHH domain, distinct from a whole antibody or cell.",
+  "learnerTask": "Recognize two linked variable domains in an scFv versus one VHH domain, distinct from a whole antibody or cell.",
+  "gap": "The current boxes name architectures but do not depict the paired domains and linker.",
+  "accuracyGuardrails": "Depict an scFv as two variable domains plus linker and VHH as one variable domain; distinguish both from a whole antibody or cell. Molecular size, scale and therapeutic performance are schematic, not comparative evidence.",
+  "currentOwnerSha256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/127",
+  "frozenRowSHA256": "b20f34a98759c884587ae09ba599693d2b54a2d354c43bcaeba89ec6bcb30890",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Linked VH/VL plus peptide linker versus one VHH; whole antibody and cell remain distinct; no scale/performance comparison. Original preimage is recovered exactly by inverse insertion, preserving prior Mermaid, prose, source attribution and navigation. All original frozen task guards are retained. Twelve light-label contrast defects in the package were corrected by the same author; this owner\u2019s listed light text fills only were independently checked and pass normalAA, without geometry, dark artwork or scientific claim changes.",
+    "baselinePageSHA256": "fe77f0c4e38f7ed88c8cb771db47363a7246ef55f446a94b5f6fedd64f723b54",
+    "frozenPageSHA256": "fe77f0c4e38f7ed88c8cb771db47363a7246ef55f446a94b5f6fedd64f723b54",
+    "actualTeachingPreimageSHA256": "1dcd432bed7009683c43ac2c0d88ce14c641e32012d602ee3adf601ac84ae863",
+    "learnerTask": "Recognize two linked variable domains in an scFv versus one VHH domain, distinct from a whole antibody or cell.",
+    "gap": "The current boxes name architectures but do not depict the paired domains and linker.",
+    "accuracyGuardrails": "Depict an scFv as two variable domains plus linker and VHH as one variable domain; distinguish both from a whole antibody or cell. Molecular size, scale and therapeutic performance are schematic, not comparative evidence.",
+    "targetSection": "## How it works",
+    "baselineQualification": "baselinePageSHA256 is the original immutable frozen audit page hash. Actual b8 teaching preimage differs and is bound separately. No equality between frozen and b8 owner bytes is asserted.",
+    "reviewScope": "Schema-only binding of actual original whole review and prior focused correction acceptance; no scientific/native rereview or decision change."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-light.svg",
+      "sha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "bytes": 6519,
+      "type": "svg",
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-dark.svg",
+      "sha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "bytes": 6519,
+      "type": "svg",
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+        "sha256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+        "bytes": 8839
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-light.svg",
+        "sha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+        "bytes": 6519
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-dark.svg",
+        "sha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+        "bytes": 6519
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/scfv-vhh-linked-and-single-domains-v1.txt",
+        "sha256": "afa420e07fb2a413e3a48026eec17f60aa1ba93747fe31aba184588ad79b8b9b",
+        "bytes": 3829
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/scfv-vhh-linked-and-single-domains-v1-provenance.json",
+        "sha256": "6f15597bcd51850e4fc5978adefbf8e61c4ae50232b66226a49e13b728637f39",
+        "bytes": 6323
+      }
+    ],
+    "currentCandidateOwnerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+    "currentCandidatePairBound": true,
+    "exactFivePublicFiles": true,
+    "authorOriginalPackageSealSHA256": "8424f4eaf6a1c3d5ea94672181e14822e4d8e3f2de8b4986c68de3dd651f8206",
+    "authorCurrentPackageSealSHA256": "378e5a2371750d9d6acfca08fae59319e9aa2bea1a54a7d6cd82a9a9b03af582",
+    "originalReviewEvidencePreserved": true,
+    "actualSourcePreimageSHA256": "1dcd432bed7009683c43ac2c0d88ce14c641e32012d602ee3adf601ac84ae863",
+    "actualTeachingBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualFutureExecutionSourceCommit": null,
+    "actualFutureExecutionDestination": null,
+    "preservationCheck": "Original source owner is recoverable by removing only the exact illustration/caption insertion. Correction changed only12 designated light text-fill values across4 owners and4 dependent provenance hashes;27 other public files remain unchanged."
+  },
+  "sourceAccess": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3045807/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:3045807%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "9300263cd390a508fe677dd88b5ac3f08a4e8ff4030906b7eaabb3f35247e017",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "Linked VH/VL plus peptide linker versus one VHH; whole antibody and cell remain distinct; no scale/performance comparison."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8502296/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:8502296%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Naturally occurring antibodies devoid of light chains.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "2a57f5c992dd3a8f096e278ee6e5c9cbd354e7aa0f6e6b1cfbbea30c05322b0b",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "Linked VH/VL plus peptide linker versus one VHH; whole antibody and cell remain distinct; no scale/performance comparison."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8784355/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:8784355%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Crystal structure of a camel single-domain VH antibody fragment in complex with lysozyme.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "3eea1f4817fd146d748f759ac914387f89636c936a31c798902dff973507a197",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "Linked VH/VL plus peptide linker versus one VHH; whole antibody and cell remain distinct; no scale/performance comparison."
+    }
+  ],
+  "sourceAccessLimits": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+  "accessFailures": [
+    "Nature publisher cookie-authorize redirect prevented full-paper access",
+    "AMG757 publisher403",
+    "NCBI book recaptcha",
+    "Some direct PubMed opens footer-only; EuropePMC primary abstract fallback used"
+  ],
+  "reviewEvidence": [
+    {
+      "kind": "genuine-original-whole-task-fit",
+      "file": "next-gap-208-task-fit.json",
+      "sha256": "602cbd4d67c75d08e13d7f352f798296caae5fa72cfb263964ca6fce77748a06",
+      "verdict": "REVISE",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9"
+    },
+    {
+      "kind": "genuine-current-predecessor-task-fit",
+      "file": "next-gap-208-task-fit.json",
+      "sha256": "4f68acc5bcd1c598d2958fe764cd59e49f4283947599bf15597fc324206efa43",
+      "verdict": "PASS",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "focusedAAAcceptance": true
+    },
+    {
+      "kind": "genuine-original-whole-review",
+      "file": "receipt.json",
+      "sha256": "9b133842939e18e59fd1a8ea1310c704d701e6e636144b30d2665309592d0655",
+      "sealSHA256": "38cbc2aa50690d860506a02083ed9a9fe772042d5eb9e1b68dbbb2af2f8d2443",
+      "verdict": "REVISE",
+      "scope": "One whole seven-owner review, original12 light-label findings preserved."
+    },
+    {
+      "kind": "genuine-focused-AA-correction-acceptance",
+      "file": "focused-light-text-aa-01/receipt.json",
+      "sha256": "87681503c4d3fb74dda0b0dbf1d22e54d3b61f9b2ddc2078365377d3426ae52b",
+      "sealSHA256": "61fb3bd5a71c40a2a20c0dd4f60c83e101020ee65927de4cd9b5c6df771268e1",
+      "verdict": "PASS"
+    }
+  ],
+  "captureLineage": [
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-208-light-reading.png",
+      "sha256": "7061e5ce25ed3bc1aa5904e0ee53d98056a4e67ad805af845147fd533d20d79e",
+      "nativeSHA256": "4ac14f5ae399ead89ed412005859befc42d0f135e641e8a506273e1bb967ce61",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-208-dark-reading.png",
+      "sha256": "b5616b96d6121bbbdabf37df085098497a034b330b196d0a827e94fa52dd8f6d",
+      "nativeSHA256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-208-light-mobile-inline.png",
+      "sha256": "40ecb00fd0b7d2ba740e9f3a6231f3c62c9e36d2ff6af02e50213fffe6477c5e",
+      "nativeSHA256": "4ac14f5ae399ead89ed412005859befc42d0f135e641e8a506273e1bb967ce61",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-208-light-mobile-theater.png",
+      "sha256": "cf226ad7b7f564fce416853d106b81df76b0764580acd8012608a0d095fdfd15",
+      "nativeSHA256": "4ac14f5ae399ead89ed412005859befc42d0f135e641e8a506273e1bb967ce61",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-208-light-desktop-inline.png",
+      "sha256": "6b4bf8ea4a2005ff1393c2f8b29d37d3367971c28b7771de82f9a95ad6c87db2",
+      "nativeSHA256": "4ac14f5ae399ead89ed412005859befc42d0f135e641e8a506273e1bb967ce61",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-208-light-desktop-theater.png",
+      "sha256": "495f988dcd5e0712367715e24c58a1770820e28be8f8a5815186377b6628074a",
+      "nativeSHA256": "4ac14f5ae399ead89ed412005859befc42d0f135e641e8a506273e1bb967ce61",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-208-dark-mobile-inline.png",
+      "sha256": "fd4e0be92a79ef5a095054e99872ae7e2abfa13f64c24e0efa0f4cec4805692f",
+      "nativeSHA256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-208-dark-mobile-theater.png",
+      "sha256": "0b8c376436e1263dc17e6ceef1629e17e1a1fd40a1e2a6f4bb18ddeb1460adf3",
+      "nativeSHA256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-208-dark-desktop-inline.png",
+      "sha256": "5f0cf82453e0ba54447db756b362bd00e0855641d3c5c172b78d3436a85c4085",
+      "nativeSHA256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-208-dark-desktop-theater.png",
+      "sha256": "6e6a685bde373743bcd617b4efd8c98f1757ef2afcc8603ad87fe49a29257f16",
+      "nativeSHA256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-208-light-reading.png",
+      "sha256": "09b0da3cb58f558f6cbc925c6d89437876eb7877e8bf41b38d00e173f08ae94d",
+      "nativeSHA256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-208-light-mobile-inline.png",
+      "sha256": "2934c0089c710645cb9d4a8299ccb7ea324ae74629b5942f7fac2d08f87abcf5",
+      "nativeSHA256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-208-light-mobile-theater.png",
+      "sha256": "2ca58cbd42999a449ca9f8e9b1bd593e541073575dee969222324fdc30c013a3",
+      "nativeSHA256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-208-light-desktop-inline.png",
+      "sha256": "b1a2a43dc3665b7222a501d16fded76d570d6484db5984aa43de7b9f06c955b6",
+      "nativeSHA256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-208-light-desktop-theater.png",
+      "sha256": "c34c1fbea9d7ef1bcc32e19dbb61d86b2e375dcbc0a21f211d9ce58fed1edbae",
+      "nativeSHA256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "ownerSHA256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9"
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Schema-only collector projection using this same independent reviewer\u2019s genuine sealed evidence. No review rerun, new capture, decision reversal or renaming/relabeling of originals.",
+    "freshCaptureCountThisTurn": 0,
+    "scientificSourceReadsThisTurn": 0,
+    "inheritedOriginalOwnFreshCaptureCountForOwner": 10,
+    "inheritedFocusedOwnFreshCaptureCountForOwner": 5,
+    "actualPixelInspectionPreviouslyPerformed": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeDimensions": [
+      600,
+      900
+    ],
+    "minimumInlineEssentialLabelPx": 14.993333333333334,
+    "minimumTheaterEssentialLabelPx": 14.82,
+    "minimumCorrectedLabelContrast": 10.655082496091248,
+    "carrierLimits": "Native600x900 pairs, all390x844 mobile inline/theater originals at1x via aggregate board; all1440x1000 desktop inline/theater originals viewed at0.5x via board. Article/image/modal only; no whole-app or live navigation claim.",
+    "keyboardQualification": "BODY after Escape persists in both fresh light viewport variants; original dark observations carried. Qualified shared-renderer/integration issue; no runtime approval.",
+    "sourceReadDepth": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+    "allLabelInspectionQualification": "All original labels personally viewed at native/mobile1x and desktop0.5x boards. For affected owners, all changed light labels personally viewed in5 fresh focused captures. These are predecessor observations, not fresh capture claims in this schema-only turn."
+  },
+  "caption": "An scFv links two variable domains in one chain; a VHH is one domain. Both are modules, distinct from a whole antibody or cell, and schematic size does not rank performance.",
+  "alt": "Two linked folded variable domains, VH and VL, form the scFv, while one folded VHH forms a nanobody; a whole antibody and a whole cell are drawn as separate objects. Molecular scale and performance are not compared.",
+  "requiredCorrections": [],
+  "unknownPriorCreators": "Prior Mermaid creative authors remain unknown; no original creator/model identity is invented.",
+  "nativeCreator": "agent:/root/batch09_author_group1",
+  "method": "Original hand-authored source-code SVG; independent review and later schema-only projection.",
+  "authorshipQualification": "Author declares original hand-authored SVG, model=null and imageCalls=0; reviewer observed source SVG and made no model/image calls. Historical Mermaid authors remain unknown. No invented creator or model call.",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "schemaProjectionOnly": true,
+  "wholeReviewRerunCountThisTurn": 0,
+  "scientificSourceReviewRerunCountThisTurn": 0,
+  "nativeReviewRerunCountThisTurn": 0
+}

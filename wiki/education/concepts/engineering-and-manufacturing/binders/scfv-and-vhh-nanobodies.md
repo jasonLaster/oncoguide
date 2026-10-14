@@ -29,6 +29,10 @@ Researchers can reuse the gripping part of an antibody without carrying the whol
 
 ## How it works
 
+<img src="./images/scfv-vhh-linked-and-single-domains-v1-light.svg" alt="Two linked folded variable domains, VH and VL, form the scFv, while one folded VHH forms a nanobody; a whole antibody and a whole cell are drawn as separate objects. Molecular scale and performance are not compared." data-theme-pair="./images/scfv-vhh-linked-and-single-domains-v1-dark.svg" />
+
+*An scFv links two variable domains in one chain; a VHH is one domain. Both are modules, distinct from a whole antibody or cell, and schematic size does not rank performance.*
+
 A conventional [antibody](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) uses paired heavy- and light-chain variable domains to form a binding site. **Variable** means the sequence differs across antibodies and helps determine recognition. A **single-chain variable fragment (scFv)** joins these two domains with a peptide linker into one protein chain. “Single-chain” does not mean one variable domain.
 
 The [early engineered scFv study](https://pubmed.ncbi.nlm.nih.gov/3045807/) showed that linked domains could recover specific binding after folding. That does not mean every domain order or linker works equally well. Expression, folding, aggregation and target binding must be tested for the actual sequence and format.

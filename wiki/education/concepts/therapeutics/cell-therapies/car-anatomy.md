@@ -31,6 +31,10 @@ The analogy breaks if the sensor sounds like a guaranteed command. Contact can t
 
 ## How it works
 
+<img src="./images/car-membrane-topology-and-domain-strips-v1-light.svg" alt="A CAR binding region and spacer extend outside the engineered cell, an anchor crosses its membrane, and costimulatory and CD3-zeta activation domains lie inside. Aligned generation strips keep activation in the same position and add zero, one or two costimulatory domains without ranking. Receptor, gene and cell differ; some CARs bind peptide-HLA." data-theme-pair="./images/car-membrane-topology-and-domain-strips-v1-dark.svg" />
+
+*The binding region faces outward and signaling domains face inward across one membrane. Generation labels count common signaling arrangements; extra domains do not rank benefit, and specialized peptide–HLA CARs exist.*
+
 **CAR-T** means a T cell carrying a CAR. The receptor is a protein; the cell is the living treatment component. A CAR can also be installed in other immune-cell families. Cell family, receptor architecture and [engineering location](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering) answer different questions.
 
 A common antibody-derived CAR has four connected parts:

@@ -29,6 +29,10 @@ Think of a small workshop that preserves some of a factory's layout. You can tes
 
 ## How it works
 
+<img src="./images/organoid-retained-missing-and-added-cells-v1-light.svg" alt="Three schematic cards trace a mixed source specimen to a selected epithelial organoid in matrix and then an optional co-culture. Blue round epithelial cells organize around a lumen; rose immune cells and gold spindle-shaped stromal cells are missing from the pictured epithelial culture. Separate added immune and stromal cells enter a new experiment. Shapes and counts are invented, not measured composition. Self-organization does not recreate complete tissue, host immunity or rank model performance." width="600" height="900" data-theme-pair />
+
+*Look inside the culture before asking it to answer an immune question. This invented epithelial example retains selected cells, omits immune and stromal neighbors, and treats deliberate additions as a new experiment. Specialized retention is method-specific; organization is not complete tissue or host immunity.*
+
 Cells are grown under conditions that support organization, often within a gel-like matrix. The medium supplies nutrients and signals. Researchers may begin with normal adult tissue, tumor tissue or stem cells. A patient-derived tumor organoid is one member of this broader family.
 
 The starting material and growth conditions select which cells survive. Some cancer populations expand well; others disappear. Normal epithelial cells can also grow. Comparing identity and relevant molecular features with the source specimen helps establish what the culture contains.

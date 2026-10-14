@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-217",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+  "author": "agent:/root/batch09_author_group2",
+  "authorRole": "Actual six-new-illustration packet author",
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:57:26.767736+00:00",
+  "reviewedAtUTC": "2026-10-13T22:57:26.767736+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "3312577cc318539c216858a007846dda0e2a37f9fa843bb0a66e8bbd1761939a",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/274",
+  "frozenRowSHA256": "a979431a1ba5c89b3259f6efa951f696fa559752a65c3b456d7c2c4693cc60e4",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Pooled beta identities B,B,C lose the alpha linkage, while three sampled-cell boxes retain X/B,Y/B,Z/C pairs. Shared beta B visibly conceals two alpha identities. The simplified one-pair-per-cell convention is named; pairing and read abundance establish neither antigen specificity, body-wide cell number nor function.",
+    "frozenPageSHA256": "37aef9926cb60eba7abcde98cd623ea62fa7e3f3dcab8b1a1a4ef94344c0221c",
+    "baselinePageSHA256": "37aef9926cb60eba7abcde98cd623ea62fa7e3f3dcab8b1a1a4ef94344c0221c",
+    "actualTeachingPreimageSHA256": "3ce4a877ab9f2c5550e028173051ed343778bf017b58ee000038b3dc83f15b3a",
+    "learnerTask": "Compare one-chain bulk identity with paired-cell receptor identity",
+    "gap": "No chain-pairing or sampled-unit schematic",
+    "accuracyGuardrails": "Distinguish one-chain sequence identity from paired alpha/beta identity and sampled-cell linkage. Shared beta sequence alone does not establish the same complete receptor, antigen specificity or function.",
+    "targetSection": "How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 is the immutable original audit page anchor required by maintained source-fit accounting; actual b8 teaching bytes are separately bound and were fully read. Frozen task is unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-light.svg",
+      "sha256": "d84fc5fcef1e11cbb962761ef64c16522571843b81a44d1c53bf70edf61c11d2",
+      "bytes": 8356,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-dark.svg",
+      "sha256": "bf5de144dd9928dabcd30509b34385a3246e4539920fe49da2d2cf7e46e03faf",
+      "bytes": 8356,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+        "sha256": "3312577cc318539c216858a007846dda0e2a37f9fa843bb0a66e8bbd1761939a",
+        "bytes": 8594
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-light.svg",
+        "sha256": "d84fc5fcef1e11cbb962761ef64c16522571843b81a44d1c53bf70edf61c11d2",
+        "bytes": 8356
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-dark.svg",
+        "sha256": "bf5de144dd9928dabcd30509b34385a3246e4539920fe49da2d2cf7e46e03faf",
+        "bytes": 8356
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/bulk-chain-and-paired-cell-identities-v1.txt",
+        "sha256": "25f9658e755aece123ce5a9ccfca50fe53db6226d6862351159247b7c076cc19",
+        "bytes": 2172
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/bulk-chain-and-paired-cell-identities-v1-provenance.json",
+        "sha256": "9a741a5f88ea6d488bca4615c1f1bc70fd3ccfb88308059ef5c09bf9c6bc8d2e",
+        "bytes": 5883
+      }
+    ],
+    "currentCandidateOwnerSHA256": "3312577cc318539c216858a007846dda0e2a37f9fa843bb0a66e8bbd1761939a",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "3590da1e10fc88079e4bc1e074d49474a8289b395c6e086de370225c83dcb3e2",
+    "authorInventorySHA256": "e9452748cef77e8d79677059c0268de5fef755034167182c0f05f0750c01b953",
+    "authorCustodyZipSHA256": "f1e14bfd1be9734930a570bb1ec3465a0b6141173468b9741217ecf9b9923f79",
+    "sourcePreimageSHA256": "3ce4a877ab9f2c5550e028173051ed343778bf017b58ee000038b3dc83f15b3a",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after stripping only inserted image and caption; original frontmatter, navigation, prose, sources and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4337815/",
+      "primary": true,
+      "readDepth": "Complete primary abstract via indexed PMC and independently retrieved Europe PMC core record; selected introduction, phenotyping discussion and single-cell sorting methods excerpts. Not complete paper, figure pixels or supplements.",
+      "supports": "Alpha/beta pairing preserves cell-linked receptor identity and enables later functional tests; sequence pairing alone does not establish recognition or killing.",
+      "accessStatus": "Initial PubMed opening returned footer-only; Nature redirect failed; official indexed PMC text and Europe PMC abstract available.",
+      "population": "Han et al. single-cell T-cell assays including colorectal TILs; fictional X/B and Y/B identifiers are not reported sequences."
+    }
+  ],
+  "mathAssessment": {
+    "bulkBeta": [
+      "B",
+      "B",
+      "C"
+    ],
+    "cellLinkedPairs": [
+      [
+        "X",
+        "B"
+      ],
+      [
+        "Y",
+        "B"
+      ],
+      [
+        "Z",
+        "C"
+      ]
+    ],
+    "identitiesFictional": true,
+    "universalSingleAlphaRuleClaimed": false
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific, conceptual, original-native, frozen task, source-depth, custody and fresh pinned-reader pixel review; task218 explicit existing-art reuse.",
+    "sourceReadDepth": "Entries record actual bounded independent primary reading and failures; preserved ancillary owner citations are not each recertified. No study statistics or patient treatment conclusions introduced.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own isolated pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. No production header/sidebar/backend/navigation, physical mobile or cross-browser/touch certification; no whole-page/nontext accessibility certification. Own full-reader screenshots support inline crops. Initial author server4692 unavailable; own private copied/pin-verified fixture built and served4692. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      780,
+      1450
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.420474137931034,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.322398239900442,
+    "allTextContrastChecksPassed": true,
+    "contrastScope": "Fresh actual SVG DOM computed fill and preceding opaque enclosing rectangle over each text bbox; both themes. Nontext graphics not certified.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closed the dialog but focus did not return to image (BODY); unchanged pinned runtime defect remains qualified. No runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-217-light-reading.png",
+      "sha256": "7c22780400026fb99a93c5d77bce416b06bc77fcbcdfaa4f190fa69700205bf7"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-217-dark-reading.png",
+      "sha256": "d3bb3e4182fb3ba72dc94b6695a85a35e0f9a6225a102fd67c09ee86ad49bb8b"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-217-light-mobile-inline.png",
+      "sha256": "800f18a11f23a6384ef4f3b158ca96c1745688660e2e20e99aaa3cb236fb3203"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-217-light-mobile-theater.png",
+      "sha256": "f715832b41ce64f8328ef0a7ad3aeedc9c149cd39fb1f40857fd5caa7d9e0102"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-217-light-desktop-inline.png",
+      "sha256": "b87f5d222225647f28142f446598a9a762de6c7dabc90c7eab6524e348fa857d"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-217-light-desktop-theater.png",
+      "sha256": "49c534fdfe24393a0632f23b321aba34ee83e94968bbcdeeccd3b09802839336"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-217-dark-mobile-inline.png",
+      "sha256": "7f51b84eb9a477299dedd442c258be55ca44817b7351ca23ca418eb0a0a3df65"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-217-dark-mobile-theater.png",
+      "sha256": "0b8404353c4b4bb5e4a4394b2ecaf35f97610eb051aceaab19122f9aa536169d"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-217-dark-desktop-inline.png",
+      "sha256": "0434915af77fbaae9eec12093b7ebdc651829caf99350413d632bcb489e281c1"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-217-dark-desktop-theater.png",
+      "sha256": "981d1bb65fca0d8e0e74e52f05202a0d0bab37539b0302f6ded825e8879c15ee"
+    }
+  ],
+  "method": "Original hand-authored editable SVG from Python primitives; no raster generator invocation",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "imageModelCallsScope": "This independent review/prospective work; historical218 authorship or tool invocation is not reconstructed."
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "status": "private prospective author artifact",
+  "creativeAuthor": "agent:/root/batch09_author_group3",
+  "integrator": "agent:/root",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/303",
+  "frozenRowSHA256": "ff46383757099c54de0787566fd8b3ebea4ebe02e286924a29a50961829b1dae",
+  "frozenRowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "0d759d0fac9e7f725c0c97f2c81ee747e134d3b442905c0e7d1c7a98f89f975d",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "sourceGapFit": "Author personally read full b8 public body after metadata gate; native existing visuals inspected. Exact physical gap remains. This is author assessment, not independent source-fit approval.",
+  "learnerTask": "Compare assay territory without turning breadth into sensitivity",
+  "gap": "Table names regions but does not show gaps or uneven depth",
+  "accuracyGuardrails": "Show selected territories and uneven/local depth as different dimensions. Broader assay scope is not uniformly better sensitivity, all-variant detection, or clinical utility.",
+  "targetSection": "How it works",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-257",
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+      "ownerSHA256": "21f8f4ed4c6d19f69927b1d8c2b0eb968571b016d94261bfd292dd151b54106e",
+      "status": "planned",
+      "rowSHA256": "6fd9b44a7d75e0d984d7f954b318f9d922f704b014ef215b8e8c45ca17de8d20",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": [
+        {
+          "id": "sequencing-territory-and-depth",
+          "reviewer": "measurement-gap-review.json",
+          "productionStatus": null
+        }
+      ]
+    }
+  ],
+  "priorCreators": "Unknown unless explicitly recorded in frozen roster; no attribution inferred.",
+  "medium": "editable hand-authored SVG",
+  "imageGeneration": {
+    "used": false,
+    "model": null,
+    "provider": null,
+    "calls": []
+  },
+  "geometry": "schematic",
+  "toyData": "All graphic counts, labels, values and recovery scenarios invented; no specimen/patient measurements.",
+  "bodyPreservation": "Removing only the exact new image/caption block restores the b8 owner bytes; no corrections or navigation edits.",
+  "independentReview": "pending",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "caption": "Count usable aligned reads at the position of interest; do not substitute the assay\u2019s breadth or average depth. The toy 4\u00d7, 2\u00d7 and 0\u00d7 values are invented teaching values, not clinical thresholds. Broader territory guarantees neither uniform local sensitivity, all-variant detection nor clinical utility.",
+  "alt": "A toy assay marks a selected DNA territory and a region outside its design. A local zoom aligns four invented reads across position P and two across position Q, giving depths of 4\u00d7 and 2\u00d7 at those specific positions. A second targeted region R has no usable aligned reads despite being included in the design. The schematic complements the preserved panel/exome/genome territory illustration; it is not a category ranking, coverage threshold, variant-detection probability or clinical-utility claim.",
+  "sourceReadsReference": "source-claim-mapping.private.json; author source-read bounds and access limits, not scientific approval",
+  "originalFrozenOwnerSHA256": "21f8f4ed4c6d19f69927b1d8c2b0eb968571b016d94261bfd292dd151b54106e",
+  "frozenVsBaselineQualification": "Original frozen audit page differs from b8 teaching page; both hashes retained. Frozen task identity verified from the pinned Git audit row. Author gap confirmation is prospective and not independent approval.",
+  "sourceReads": [
+    {
+      "tasks": [
+        "next-gap-226"
+      ],
+      "url": "https://source.yiboshi.com/20170414/1492164501690573109.pdf",
+      "title": "AMP/CAP 2017 guideline, mirrored publisher proof",
+      "readBounds": "Downloaded PDF extracted text lines 709\u2013755 (Establishing Criteria for Depth of Sequencing) and 1514\u20131539 (depth, uniformity, GC bias table)",
+      "supports": "Depth counts aligned reads at a nucleotide position; adequate evidence and uniformity are local and assay-specific. Toy local counts are not thresholds or detection probabilities.",
+      "limits": "Secondary hosting of primary guideline proof, identified in PDF. Official PMC and PubMed pages could not provide body; Europe PMC request HTTP 500. Proof may differ from final version; no guideline cutoff, recommendation or clinical threshold imported. Source PDF and text retained."
+    },
+    {
+      "tasks": [
+        "next-gap-226"
+      ],
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+      "title": "NHGRI DNA Sequencing Fact Sheet",
+      "readBounds": "Definition and sequence/base ordering lines 8\u201318",
+      "supports": "Sequencing measures base order in DNA; no breadth/performance ranking.",
+      "limits": "Other pricing/current-practice sections were returned but unused."
+    }
+  ],
+  "authorNativeInspection": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "captureCount": 10,
+    "personallyInspected": true,
+    "modes": "Both themes, native SVG reading and 390px mobile/1440px desktop inline and theater",
+    "minimumMobileNormalTextContrast": 5.218849426096166,
+    "smallestMobileInlineLabelPx": 16.14666666666667,
+    "smallestMobileTheaterLabelPx": 15.96,
+    "scope": "Private pinned article fixture; author QA only; no live app/full navigation certification.",
+    "knownIssue": "Enter opens and Escape closes; focus did not return to opener in 24/24 display cases. No runtime change."
+  }
+}

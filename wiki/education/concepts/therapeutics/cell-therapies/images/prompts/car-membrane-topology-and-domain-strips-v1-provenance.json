@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-hand-authored-educational-svg",
+  "actualCreativeAuthor": "agent:/root/batch09_author_group1",
+  "integrator": "agent:/root",
+  "method": "hand-authored source-code SVG",
+  "model": null,
+  "imageCalls": 0,
+  "prospectiveTaskId": "next-gap-213",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/333",
+  "frozenRowSHA256": "3b59c096630b5bc785d351e912718442b39a97d6d1d2a6c5c72c01e6a7ebfe43",
+  "canonicalOwner": "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md",
+  "teachingBaseline": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "learnerTask": "Locate binding region, spacer, anchor and signaling domains across a membrane",
+  "gap": "Component flow omits receptor topology; architectural generations need aligned domain strips",
+  "accuracyGuardrails": "Receptor vs gene vs cell distinct; extra domains not ranking; specialized peptide–HLA CARs exist",
+  "before": {
+    "sha256": "1a5f35396b70a5b32c12b43db69471e55acde5cde8772f68a14a6fb562e1352a",
+    "bytes": 12033
+  },
+  "bodyPreservation": "Remove exact illustration/caption insertion to recover baseline bytes; existing frontmatter, prose, diagrams, citations, practice and navigation retained.",
+  "priorVisuals": {
+    "mermaid": [
+      {
+        "section": "### Generations describe architecture, not a league table",
+        "sourceSHA256": "2916dad9c00cf37189e97b13648cdd0abda8f44104e93763f3121f1dbf3b83e7",
+        "source": "flowchart TD\n  A[\"External target<br/>and binder\"] --> B[\"Hinge plus<br/>membrane anchor\"]\n  B --> C[\"Activation plus<br/>specified support\"]\n  C --> D[\"Measure finished<br/>cell behavior\"]\n",
+        "creativeAuthor": null,
+        "attributionQualification": "Mermaid creator unknown; no authorship inference."
+      }
+    ],
+    "rasterEmbeds": [],
+    "interactive": false,
+    "svg": false,
+    "table": false
+  },
+  "priorCreativeAuthors": "unknown unless roster states otherwise; no borrowed identity",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8421711/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "PubMed complete abstract read.",
+      "supports": "Antibody binding domains linked to signal-transducing regions in surface receptor.",
+      "limitations": [
+        "Specified early constructs; drawing not a product blueprint."
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30309819/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Europe PMC MED complete abstract read.",
+      "supports": "Second-generation CD28 and third-generation CD28 plus 4-1BB architectures.",
+      "limitations": [
+        "Co-infused specified products; no universal comparative-benefit inference."
+      ],
+      "retrievalUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30309819%20AND%20SRC:MED&format=json&resultType=core"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Official A living drug section paragraphs 1–3.",
+      "supports": "Encoded receptor protein and engineered cell are distinct objects.",
+      "limitations": [
+        "No gene delivery instructions."
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27924074/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "PubMed indexed complete abstract read.",
+      "supports": "Specialized CAR can recognize a peptide in HLA context.",
+      "limitations": [
+        "Bounded proof-of-concept, no clinical-benefit generalization."
+      ]
+    }
+  ],
+  "caption": "The binding region faces outward and signaling domains face inward across one membrane. Generation labels count common signaling arrangements; extra domains do not rank benefit, and specialized peptide–HLA CARs exist.",
+  "alt": "A CAR binding region and spacer extend outside the engineered cell, an anchor crosses its membrane, and costimulatory and CD3-zeta activation domains lie inside. Aligned generation strips keep activation in the same position and add zero, one or two costimulatory domains without ranking. Receptor, gene and cell differ; some CARs bind peptide-HLA.",
+  "canvas": {
+    "width": 600,
+    "height": 900,
+    "transparent": true,
+    "transparencyScope": "outer margin around inset filled teaching card; no full-canvas background rectangle",
+    "essentialMinFontUnits": 26,
+    "themeGeometry": "Identical source geometry and wording; palette-only substitutions"
+  },
+  "toyData": null,
+  "independentReview": "pending",
+  "humanExpertAndLearnerReview": "pending",
+  "canonicalAdoption": false,
+  "delivery": "pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "frozenOriginalOwnerSHA256": "891dc9f82f59cfa59bc55900c3de206cadd99b205eae0a0d930d8454bb3ef93c",
+  "frozenOriginalOwnerDifferentFromTeachingPreimage": true,
+  "targetSection": "## How it works",
+  "authorInspection": {
+    "status": "completed, author observation only",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeCanvas": [
+      600,
+      900
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "captureCount": 10,
+    "minMobileInlineLabelPx": 14.993333333333334,
+    "minMobileTheaterLabelPx": 14.82,
+    "lightTheaterContrast": "Inset filled teaching card; transparent outer margins remain.",
+    "keyboard": "Enter opened and Escape closed; focus return failure observed on unchanged renderer; unresolved.",
+    "independentReview": "pending",
+    "humanReview": "pending"
+  },
+  "artifactIdentities": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md",
+      "sha256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "bytes": 12767
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-light.svg",
+      "sha256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5",
+      "bytes": 13748
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-dark.svg",
+      "sha256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+      "bytes": 13748
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-membrane-topology-and-domain-strips-v1.txt",
+      "sha256": "21ca6dff4c3c99ceeada484c18355ae08fc6df14ecddf5e361660a869cb2b0b9",
+      "bytes": 4158
+    }
+  ]
+}

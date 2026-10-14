@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-219",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+  "author": "agent:/root/batch09_author_group2",
+  "authorRole": "Actual six-new-illustration packet author",
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:57:26.767736+00:00",
+  "reviewedAtUTC": "2026-10-13T22:57:26.767736+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "79e5c1098ae84a9a216111c5f0b08bd363a91e17ce7587828df37d1c6b1615f6",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/279",
+  "frozenRowSHA256": "180a117cf9a05bbbf80ae8a85ccbbcc248957010da640b65e5244d55ffd0b3e6",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Two equal1mL aliquots keep four tumor-attributed molecules constant while background grows16to36. Explicit20/40 totals and4/20 versus4/40 arithmetic make unchanged4molecules/mL contrast with20%to10% toy share. The footer and caption preserve the boundary from VAF, assay-estimated tumor fraction and MTM/mL.",
+    "frozenPageSHA256": "ff40a3f0d7ea4486968a06e20146ef5c40de363ec8e0556830934f37b74cd7e8",
+    "baselinePageSHA256": "ff40a3f0d7ea4486968a06e20146ef5c40de363ec8e0556830934f37b74cd7e8",
+    "actualTeachingPreimageSHA256": "3b0be0c33d4263eb6fad0f56115b673f61d7433c357ab49e0fec22ee6ab69f69",
+    "learnerTask": "Distinguish concentration from fractions under changed background",
+    "gap": "Units table does not show dilution without amount change",
+    "accuracyGuardrails": "Keep volume, tumor-attributed molecule amount and background denominator explicit. Copies per volume, allele fraction and tumor fraction are not directly convertible without method/model assumptions.",
+    "targetSection": "How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 is the immutable original audit page anchor required by maintained source-fit accounting; actual b8 teaching bytes are separately bound and were fully read. Frozen task is unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-light.svg",
+      "sha256": "a7b5799fbac716f8d1b4b3d527a9683deb7c0df81c580ff601e9b0ec652868d3",
+      "bytes": 27454,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-dark.svg",
+      "sha256": "e62d1cfe8faa81f5ca6c63e4df34d44fef8e88e35fc50a073346e3777cd1b86f",
+      "bytes": 27454,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+        "sha256": "79e5c1098ae84a9a216111c5f0b08bd363a91e17ce7587828df37d1c6b1615f6",
+        "bytes": 8124
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-light.svg",
+        "sha256": "a7b5799fbac716f8d1b4b3d527a9683deb7c0df81c580ff601e9b0ec652868d3",
+        "bytes": 27454
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-dark.svg",
+        "sha256": "e62d1cfe8faa81f5ca6c63e4df34d44fef8e88e35fc50a073346e3777cd1b86f",
+        "bytes": 27454
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/ctdna-concentration-and-background-fractions-v1.txt",
+        "sha256": "5f01d206e3857b8c50471e7baece16ab8a963d0654187153222d8cd7e7438933",
+        "bytes": 2141
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/ctdna-concentration-and-background-fractions-v1-provenance.json",
+        "sha256": "8bd64c86984f5bf5c1687b9b9ca8e069275d83302878c66a02a6646ce9e8f324",
+        "bytes": 6175
+      }
+    ],
+    "currentCandidateOwnerSHA256": "79e5c1098ae84a9a216111c5f0b08bd363a91e17ce7587828df37d1c6b1615f6",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "3590da1e10fc88079e4bc1e074d49474a8289b395c6e086de370225c83dcb3e2",
+    "authorInventorySHA256": "e9452748cef77e8d79677059c0268de5fef755034167182c0f05f0750c01b953",
+    "authorCustodyZipSHA256": "f1e14bfd1be9734930a570bb1ec3465a0b6141173468b9741217ecf9b9923f79",
+    "sourcePreimageSHA256": "3b0be0c33d4263eb6fad0f56115b673f61d7433c357ab49e0fec22ee6ab69f69",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after stripping only inserted image and caption; original frontmatter, navigation, prose, sources and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.fda.gov/media/183874/download",
+      "primary": true,
+      "readDepth": "Official PDF selected sampling and analytical-validation text, web lines343–434 personally read; not whole guidance or a regulatory assessment.",
+      "supports": "Sample handling can alter background DNA and assay measurements; intended analyte, thresholds and validation matter. Toy molecular shares do not certify assay conversions.",
+      "accessStatus": "Official PDF available through web.",
+      "population": "Early-stage solid-tumor trial biomarker context; toy amounts are invented, not clinical assay outputs."
+    }
+  ],
+  "mathAssessment": {
+    "volumeML": [
+      1,
+      1
+    ],
+    "tumorAttributedSymbols": [
+      4,
+      4
+    ],
+    "backgroundSymbols": [
+      16,
+      36
+    ],
+    "totals": [
+      20,
+      40
+    ],
+    "toyShares": [
+      0.2,
+      0.1
+    ],
+    "concentrationEach": 4,
+    "clinicalConversionClaimed": false
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific, conceptual, original-native, frozen task, source-depth, custody and fresh pinned-reader pixel review; task218 explicit existing-art reuse.",
+    "sourceReadDepth": "Entries record actual bounded independent primary reading and failures; preserved ancillary owner citations are not each recertified. No study statistics or patient treatment conclusions introduced.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own isolated pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. No production header/sidebar/backend/navigation, physical mobile or cross-browser/touch certification; no whole-page/nontext accessibility certification. Own full-reader screenshots support inline crops. Initial author server4692 unavailable; own private copied/pin-verified fixture built and served4692. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      780,
+      1450
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 13.307650862068964,
+    "minMobileDefaultPreviewLabelPx": 13.153846153846153,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.322398239900442,
+    "allTextContrastChecksPassed": true,
+    "contrastScope": "Fresh actual SVG DOM computed fill and preceding opaque enclosing rectangle over each text bbox; both themes. Nontext graphics not certified.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closed the dialog but focus did not return to image (BODY); unchanged pinned runtime defect remains qualified. No runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-219-light-reading.png",
+      "sha256": "1fe7e9c9af034a5d9b8b5a3d814b92a2f0f6076b11aee8ea777741e34e1594d4"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-219-dark-reading.png",
+      "sha256": "f464a22415555e7aceb7b0642a1e6b67f265ba77a8a3b034b4e8ee829a56c0e8"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-219-light-mobile-inline.png",
+      "sha256": "8f2b01a43a7639b725fa7ca6481b048cac2af6d4c052664c49a5dffc23a32b71"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-219-light-mobile-theater.png",
+      "sha256": "4d65bbabb0d6823fddba97fe393e5470353110c5a95fd98effc72c4a21e40634"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-219-light-desktop-inline.png",
+      "sha256": "efc0da009dab0f602bbb7c68df17bfca68f72ea40a97f21d357c4d5889368719"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-219-light-desktop-theater.png",
+      "sha256": "defd142710390525c5d08e7056509680b2e77544b626861bc36dc728f940b00a"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-219-dark-mobile-inline.png",
+      "sha256": "07906ceaacf67311d3cc00c72b8be9d2c19b13c02bf2da413a0bf51bf89098f0"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-219-dark-mobile-theater.png",
+      "sha256": "b71b279b903ee03fce250255306d1584b061fbfa5fca232801c0915e1e8f956f"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-219-dark-desktop-inline.png",
+      "sha256": "b37546696841eb3652f8eb8da07b7e24a0867adce3a260deb6a14926c3cab8e4"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-219-dark-desktop-theater.png",
+      "sha256": "eec2f213c9d2bbbde6a4fca11d2d457209fe9f6008d3ef04303b6029a8449fec"
+    }
+  ],
+  "method": "Original hand-authored editable SVG from Python primitives; no raster generator invocation",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "imageModelCallsScope": "This independent review/prospective work; historical218 authorship or tool invocation is not reconstructed."
+}

@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-223",
+  "owner": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+  "author": "agent:/root/batch09_author_group3",
+  "reviewer": "agent:/root/batch09_review_group3",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+      "sha256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3",
+      "bytes": 5343,
+      "theme": "dark"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+      "sha256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463",
+      "bytes": 5343,
+      "theme": "light"
+    }
+  ],
+  "sourceFitAssessment": {
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/258",
+    "frozenRowSHA256": "b5d6e54c27f32d22a732fc17f476e568b25135b537afc2452010d59420976221",
+    "baselinePageSHA256": "d7bc40994e420df97463eef969838285bd379c7e292343d8195714b2f1577591",
+    "learnerTask": "Distinguish buoyant mass from a repeated same-cell growth slope",
+    "gap": "No physical-measurement inset or mass-versus-time plot",
+    "accuracyGuardrails": "Distinguish buoyant mass from a same-cell mass-versus-time slope and state the assay units. A fractional growth-rate reduction is not equivalent to shrinkage, death or patient response.",
+    "targetSection": "How it works",
+    "currentVisualFit": "adequate",
+    "reasoning": "The fluid channel is physically inside a supported vibrating beam. The same-cell invented 10,11,12 pg at 0,0.5,1 h has 2 pg/h slope. A separate matched-group 2 to 0.5 pg/h comparison is 75 percent lower but positive, without implying shrinkage, death or response.",
+    "humanReview": "pending",
+    "assessmentQualification": "Existing bounded independent agent task-fit decision, serialized for maintained collector; no new assessment or credit."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+        "sha256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+        "bytes": 8704
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+        "sha256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463",
+        "bytes": 5343
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+        "sha256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3",
+        "bytes": 5343
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/buoyant-mass-and-same-cell-growth-slope-v1.txt",
+        "sha256": "d50725b09ca1c15b57d7074559293f132780166b9792123611ace2682c3b65b8",
+        "bytes": 1955
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/buoyant-mass-and-same-cell-growth-slope-v1-provenance.json",
+        "sha256": "29420eec5d5389cf684b9f5f65ee6d8dda6b30132d1b1923ca17098f7739f42c",
+        "bytes": 5814
+      }
+    ],
+    "currentPrivatePaths": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/buoyant-mass-and-same-cell-growth-slope-v1.txt",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/functional-models/images/prompts/buoyant-mass-and-same-cell-growth-slope-v1.txt"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/buoyant-mass-and-same-cell-growth-slope-v1-provenance.json",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/functional-models/images/prompts/buoyant-mass-and-same-cell-growth-slope-v1-provenance.json"
+      }
+    ],
+    "authorPredecessorSealSHA256": "f5b7ab7806db927d0163a55ebf1e786f3500193156f40afe9242fb924147463f",
+    "authorFocusedCorrectionSealSHA256": "7935800577f1c99bc45830b28faf137104724c51c9c81f6802ac1a1e933ede8d",
+    "currentAuthorCompositeInventorySHA256": "c8c52d2e2fedccfadf3b96ab0fd124e6a947cfe29a7544941cc218fdf33c56b0",
+    "originalWholeReviewSealSHA256": "9e39c39e89b16ac581858cd0a36b9fa61700ef40d1383455e4258335185ed494",
+    "focusedReviewSealSHA256": "d045d4f86c6c196c776807d5c1b983ebaba7e389d2a7255b433560620809f3e2"
+  },
+  "reviewerIndependentOfCreativeAuthor": true,
+  "integrator": "agent:/root",
+  "schemaProjectionAtUTC": "2026-10-13T23:14:43.253866+00:00",
+  "basisDecision": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-223-independent-new-owner-task-fit.json",
+    "sha256": "85a7000c6d3303485cdd67cd46cbcff3503ed4d02420a0a5587bc80781e1f382",
+    "status": "PASS",
+    "noNewReview": true
+  },
+  "teachingSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "teachingPreimageSHA256": "4ec28154dd6960d28eba13321bc0c602a4fa2ad0531ef1b614c76a106c7d61f2",
+  "captureEvidence": {
+    "priorWholeTaskReceipt": {
+      "path": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-223-independent-new-owner-task-fit.json",
+      "sha256": "85a7000c6d3303485cdd67cd46cbcff3503ed4d02420a0a5587bc80781e1f382",
+      "status": "PASS"
+    },
+    "priorNativeCaptures": [
+      {
+        "key": "next-gap-223",
+        "theme": "light",
+        "nativeSHA256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-light-reading.png",
+        "captureSHA256": "f2938b546daf8e89cca822d2cf7b9ee27090dcd793460048b661ced70fe3208f",
+        "viewBox": "0 0 600 900",
+        "textCount": 21,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "One weighing is mass.",
+            "x": 32,
+            "y": 20,
+            "width": 344.984375,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Repeated weighs give a rate.",
+            "x": 32,
+            "y": 56,
+            "width": 437.5,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Weigh a cell relative to fluid",
+            "x": 32,
+            "y": 136,
+            "width": 419.5625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Shift \u2192",
+            "x": 425,
+            "y": 180,
+            "width": 91.8125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "mass",
+            "x": 425,
+            "y": 216,
+            "width": 66.90625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Buoyant mass = cell \u2212 displaced fluid",
+            "x": 32,
+            "y": 290,
+            "width": 460.703125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Track the same cell over time",
+            "x": 32,
+            "y": 362,
+            "width": 441.921875,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Mass (pg)",
+            "x": 300,
+            "y": 399,
+            "width": 124.46875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "10",
+            "x": 54.84375,
+            "y": 518,
+            "width": 31.15625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "11",
+            "x": 56.921875,
+            "y": 468,
+            "width": 29.078125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "12",
+            "x": 54.84375,
+            "y": 418,
+            "width": 31.15625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "0",
+            "x": 147.2109375,
+            "y": 564,
+            "width": 15.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "0.5",
+            "x": 290.53125,
+            "y": 564,
+            "width": 38.9375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "1",
+            "x": 457.2109375,
+            "y": 564,
+            "width": 15.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Time (h)",
+            "x": 420,
+            "y": 583,
+            "width": 103.1875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy slope: 2 pg/h",
+            "x": 151,
+            "y": 438,
+            "width": 211.703125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  A lower rate can stay positive",
+            "x": 32,
+            "y": 648,
+            "width": 444.625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Toy matched groups: 2 \u2192 0.5 pg/h",
+            "x": 32,
+            "y": 685,
+            "width": 428.03125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "(2 \u2212 0.5) / 2 = 75% lower rate",
+            "x": 32,
+            "y": 721,
+            "width": 362.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Invented values; not a death fraction.",
+            "x": 32,
+            "y": 801,
+            "width": 459.203125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "No shrinkage or patient response shown.",
+            "x": 32,
+            "y": 835,
+            "width": 508.96875,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      },
+      {
+        "key": "next-gap-223",
+        "theme": "dark",
+        "nativeSHA256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-dark-reading.png",
+        "captureSHA256": "ed21e26141db6c240dbad30b13fb5f4233b88fb7b3984e6449d9b049b3ad8844",
+        "viewBox": "0 0 600 900",
+        "textCount": 21,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "One weighing is mass.",
+            "x": 32,
+            "y": 20,
+            "width": 344.984375,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Repeated weighs give a rate.",
+            "x": 32,
+            "y": 56,
+            "width": 437.5,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Weigh a cell relative to fluid",
+            "x": 32,
+            "y": 136,
+            "width": 419.5625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Shift \u2192",
+            "x": 425,
+            "y": 180,
+            "width": 91.8125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "mass",
+            "x": 425,
+            "y": 216,
+            "width": 66.90625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Buoyant mass = cell \u2212 displaced fluid",
+            "x": 32,
+            "y": 290,
+            "width": 460.703125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Track the same cell over time",
+            "x": 32,
+            "y": 362,
+            "width": 441.921875,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Mass (pg)",
+            "x": 300,
+            "y": 399,
+            "width": 124.46875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "10",
+            "x": 54.84375,
+            "y": 518,
+            "width": 31.15625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "11",
+            "x": 56.921875,
+            "y": 468,
+            "width": 29.078125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "12",
+            "x": 54.84375,
+            "y": 418,
+            "width": 31.15625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "0",
+            "x": 147.2109375,
+            "y": 564,
+            "width": 15.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "0.5",
+            "x": 290.53125,
+            "y": 564,
+            "width": 38.9375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "1",
+            "x": 457.2109375,
+            "y": 564,
+            "width": 15.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Time (h)",
+            "x": 420,
+            "y": 583,
+            "width": 103.1875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy slope: 2 pg/h",
+            "x": 151,
+            "y": 438,
+            "width": 211.703125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  A lower rate can stay positive",
+            "x": 32,
+            "y": 648,
+            "width": 444.625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Toy matched groups: 2 \u2192 0.5 pg/h",
+            "x": 32,
+            "y": 685,
+            "width": 428.03125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "(2 \u2212 0.5) / 2 = 75% lower rate",
+            "x": 32,
+            "y": 721,
+            "width": 362.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Invented values; not a death fraction.",
+            "x": 32,
+            "y": 801,
+            "width": 459.203125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "No shrinkage or patient response shown.",
+            "x": 32,
+            "y": 835,
+            "width": 508.96875,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      }
+    ],
+    "priorDisplayCaptures": [
+      {
+        "key": "next-gap-223",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463",
+        "candidateSHA256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 325.328125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-light-mobile-inline.png",
+            "sha256": "7ad019b710ff85d75ad884b390517dd8480d6836a6d6169505cb245d1a3e5ecb"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-light-mobile-theater.png",
+            "sha256": "f4175ecb08b5fd94c5d66440e02360048d32491dc0b93985cdfa3c502ffba525"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-223",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463",
+        "candidateSHA256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 99.84375,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-light-desktop-inline.png",
+            "sha256": "6cfa8cd22222d6b357be55edc844ccc4593c97de37e2d391dc055f8275d8f58f"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-light-desktop-theater.png",
+            "sha256": "0e0fe19a1946b23424db093354dbc3f59e3b250486d710b98f2c653d172cddcf"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-223",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3",
+        "candidateSHA256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 325.328125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-dark-mobile-inline.png",
+            "sha256": "fda795d4da7f9a0bb97a74531d1054bcac6c91e8e3015a21a718b4aa4f72a149"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-dark-mobile-theater.png",
+            "sha256": "3f63e731c9bc1c41e78c4167a357ec6a19a06ad517d5418f5aeedaffa818e450"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-223",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3",
+        "candidateSHA256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 99.84375,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fbuoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-dark-desktop-inline.png",
+            "sha256": "1e478af0a38e596b3d707cfa13d957fba056cf1f1dc4487499773ed42dbfece8"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-223-dark-desktop-theater.png",
+            "sha256": "c3f6ad9a520a1776457ab71702c01f3b582a6b5383921faf47f3c9f91ceb941e"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      }
+    ],
+    "newCaptures": 0,
+    "newScientificReads": 0,
+    "qualification": "Existing genuinely personally inspected capture evidence remains byte-bound to its original SVG and owner hashes. No new current-hash capture asserted during schema projection."
+  },
+  "primarySourceEvidence": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/independent-source-read-receipt.json",
+    "sha256": "013b60b7df73c2d0a78b7fa4219bf310c9368881ecc7c281a411407af545ef0e",
+    "sources": [
+      {
+        "tasks": [
+          223
+        ],
+        "url": "https://groverlab.org/assets/cell-growth.pdf",
+        "title": "Godin 2010 author-hosted primary method paper",
+        "readBounds": "PDF page 1 lines 21-40; page 2 lines 86-140 and Figure 1 caption lines 184-192",
+        "supports": "Buoyant mass relative to displaced fluid; embedded channel in suspended vibrating beam; repeated same-cell observations and linear fitted rate.",
+        "access": "Actual PDF method paragraphs/caption; complete paper or supplementary read not claimed.",
+        "limitations": "Native plot and 75 percent rate arithmetic are invented; no experimental number, death or patient-response inference.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      },
+      {
+        "tasks": [
+          223
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5064867/fullTextXML",
+        "title": "Cermak 2016 primary manuscript",
+        "readBounds": "Device design and Device design and fabrication section paragraphs from independently downloaded XML",
+        "supports": "Serial resonators yield repeated tracked-cell mass readings; rate resolution depends on readings/time.",
+        "access": "Named manuscript sections; not entire paper.",
+        "limitations": "No source instrument dimensions or operational protocol imported into artwork.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      }
+    ],
+    "qualification": "Original actual bounded primary reads and original access limits retained. No new retrieval, science read or full-paper/expert approval."
+  },
+  "qualifications": [
+    "Pinned renderer keyboard Enter opens and Escape closes in all tested cases; focus returns to opener in 0/24 across the group. Unchanged runtime observation remains unresolved; no accessibility approval.",
+    "Public article fixture uses exact pinned compiler/components/shared CSS with literal theme utility rules; no full app/live data or routing approval.",
+    "Future source and destination null; Root must rebind actual owner bytes and ownership before adoption.",
+    "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+    "The shared pinned renderer BODY-focus observation remains qualified. This reviewer independently measured opener return in 0/24, without recording activeElement tag; no additional BODY check occurred during schema projection.",
+    "This is schema-only serialization of existing genuine same-reviewer decisions, with no source, pixel, scientific or native rerun. It is not adoption, completed delivery, clinical/domain-expert or learner approval.",
+    "SourceFitAssessment adequate is bounded agent assessment of the exact frozen learner task, not source-fit coverage credit or human approval."
+  ],
+  "metadataReadSequencingDisclosure": "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+  "knownRendererFocusReturn": {
+    "returned": 0,
+    "cases": 24,
+    "BODYQualification": "Shared known observation retained; independent review measured opener return only. No full accessibility approval."
+  },
+  "inverseBodyPreservation": true,
+  "originalCreatorsRemainUnknown": true,
+  "allToyGraphicNumbersAndCountsInvented": true,
+  "humanReview": "pending",
+  "learnerReview": "pending",
+  "scientificExpertApproval": false,
+  "sourceFitApproval": false,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "canonicalAdoption": false,
+  "liveApproval": false,
+  "delivery": "pending",
+  "release": "pending",
+  "repoGitRegistryPipelineRuntimePublisherCacheWrites": false
+}

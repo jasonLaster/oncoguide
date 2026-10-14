@@ -77,6 +77,10 @@ Additional stains can identify subtypes and location, but change the measurement
 
 ## Try it
 
+<img src="./images/stromal-area-and-pooled-region-weighting-v1-light.svg" alt="A schematic pretend pretreatment section distinguishes excluded malignant nests and eligible stroma inside invasive-tumor borders. Separate invented area blocks show region A with four equal units of eligible stroma and 0.4 units occupied by infiltrate, and B with one equal unit of stroma and 0.6 occupied units. At the same scale, the pooled-area fraction is 1/5, or 20%; the unweighted regional mean is 35%. Area, not cell count, is the denominator. This toy geometry is not a mandated pixel workflow; pretreatment and residual-bed methods remain distinct." width="780" height="1450" data-theme-pair />
+
+*With invented eligible areas of four and one units, pooling occupied area gives 20%; an unweighted 35% mean gives the smaller region too much weight.*
+
 For a fictional area map, region A contains 4 units of eligible stroma and 0.4 units of infiltrate; region B contains 1 unit and 0.6 units. What is the pooled-area fraction? Is it the simple average of 10% and 60%?
 
 **Answer:** `(0.4+0.6)/(4+1) = 20%`. The unweighted mean is **35%**, giving unequal regions equal weight. These invented areas illustrate the denominator. They are **not** a mandated pixel-measurement workflow for actual semiquantitative scoring, nor independent patient observations.

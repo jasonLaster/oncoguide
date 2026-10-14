@@ -1,0 +1,13 @@
+Original hand-authored SVG teaching brief
+Author: agent:/root/batch09_author_group3
+Private prospective only; actual execution source/destination null.
+Owner: wiki/education/concepts/measurement/proteins-and-spatial/rppa.md
+Task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/296
+Frozen row SHA256: 0802ecc55f7d1ee577bba802b62f93523edfecffda4493af593c876f20701a0c
+Learner task: Understand that each array spot is a mixed lysate, not a tissue coordinate
+Gap: Current marker-branch diagram does not show printed mixture/dilutions
+Accuracy guardrails (verbatim): Show printed sample/dilution addresses as mixed lysates, not tissue coordinates. Probe specificity, calibration and normalization remain assay-specific; RPPA is not an all-protein or single-cell spatial census.
+Creative plan: Invented cells from a defined specimen are disrupted into a tube containing mixed protein shapes. A printed array uses rows for samples A and B and columns for toy dilutions 1, one-half and one-quarter; every spot retains mixed protein symbols. Two replicate array layouts receive separate antibodies for R and phospho-R. Print addresses are sample/dilution labels rather than cell positions. Specificity, calibration and loading normalization remain assay-specific; this is not all-protein or single-cell spatial measurement.
+Takeaway: Follow the lysate into every printed spot: the address tracks sample and dilution, not a cell’s former tissue position. The dilution design is invented. Separate antibodies need their own specificity, calibration and normalization; the array is not an all-protein or single-cell spatial census.
+Visual style: three linked filled inset teaching cards; transparent outer canvas; restrained hand-drawn cell, compartment and assay glyphs; personable teaching questions; large labels.
+No image model/service used. No patient measurements or therapeutic efficacy depicted. All toy values, shapes and arrangements invented. Preserve baseline text, old art and navigation. Domain-expert, clinician and learner review pending.

@@ -1,0 +1,13 @@
+Original hand-authored SVG teaching brief
+Author: agent:/root/batch09_author_group3
+Private prospective only; actual execution source/destination null.
+Owner: wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md
+Task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/325
+Frozen row SHA256: 1099cc0fe737df0b7227697733b34d8d1a3ca7dd1eee72839426e92394e7e5e9
+Learner task: See whole-cell versus nuclear compartment and recovered barcode limits
+Gap: Current branches do not depict cytosolic/nuclear RNA or doublets
+Accuracy guardrails (verbatim): Show whole-cell and nuclear RNA compartments, recovery/barcode units and possible doublets. Preparation/capture bias affects the recovered set; absence of a cell/state is not biological absence, and barcodes are not automatically one pure cell.
+Creative plan: A whole-cell cartoon contains nuclear and cytoplasmic RNA, while an isolated nucleus contains nuclear RNA including unfinished transcripts. In a droplet example, barcode A receives one cell, B one nucleus, and C two cells, showing that a barcode labels a reaction compartment rather than certifying one pure cell. An invented source-to-recovery cartoon drops one cell type during preparation/capture and shows ambient RNA outside a cell. Shapes, barcodes and recovery are invented; missing recovered cells or states do not establish biological absence.
+Takeaway: The compartment changes the RNA available to capture, and a barcode still needs identity checks. This invented droplet example includes a doublet and selective loss; preparation and capture shape the recovered set. An unobserved cell or state is not proof that it was absent from the tissue.
+Visual style: three linked filled inset teaching cards; transparent outer canvas; restrained hand-drawn cell, compartment and assay glyphs; personable teaching questions; large labels.
+No image model/service used. No patient measurements or therapeutic efficacy depicted. All toy values, shapes and arrangements invented. Preserve baseline text, old art and navigation. Domain-expert, clinician and learner review pending.

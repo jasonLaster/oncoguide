@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-210",
+  "owner": "wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy.md",
+  "author": "agent:/root/batch09_author_group1",
+  "creativeAuthor": "agent:/root/batch09_author_group1",
+  "reviewer": "agent:/root/batch09_review_group1",
+  "independentReviewer": "agent:/root/batch09_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:42:52.291128+00:00",
+  "reviewedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+  "schemaBoundAtUTC": "2026-10-13T23:12:19.315963+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Compare vector, attachment and isotope; locate short and longer particle tracks",
+  "learnerTask": "Compare vector, attachment and isotope; locate short and longer particle tracks",
+  "gap": "No image shows crossfire, healthy-tissue uptake or microscopic paths",
+  "accuracyGuardrails": "Lengths illustrative not quantitative dose; alpha/beta not ranking; chelator not universal",
+  "currentOwnerSha256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/328",
+  "frozenRowSHA256": "525f861e90cb98a49e87be76b1f5934d8550d153cec87cfb617f016efc17de95",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Separate vector/attachment/isotope; illustrative short alpha and longer beta-minus tracks with tumor crossfire and healthy-tissue exposure; no quantitative dose, ranking or universal chelator. Original preimage is recovered exactly by inverse insertion, preserving prior Mermaid, prose, source attribution and navigation. All original frozen task guards are retained. This owner passed the original independent whole review and remained byte-identical in the later focused correction.",
+    "baselinePageSHA256": "6e10b3db486c32bc060b4c18eb6af674688df0884cb3f5e0447aac0814fd8736",
+    "frozenPageSHA256": "6e10b3db486c32bc060b4c18eb6af674688df0884cb3f5e0447aac0814fd8736",
+    "actualTeachingPreimageSHA256": "0c8c5d4c2dac4e172a7b6c0e6534ed6bea24efbc2215480c3c55c12ffc3ad33e",
+    "learnerTask": "Compare vector, attachment and isotope; locate short and longer particle tracks",
+    "gap": "No image shows crossfire, healthy-tissue uptake or microscopic paths",
+    "accuracyGuardrails": "Lengths illustrative not quantitative dose; alpha/beta not ranking; chelator not universal",
+    "targetSection": "## How it works",
+    "baselineQualification": "baselinePageSHA256 is the original immutable frozen audit page hash. Actual b8 teaching preimage differs and is bound separately. No equality between frozen and b8 owner bytes is asserted.",
+    "reviewScope": "Schema-only binding of actual original whole review and prior focused correction acceptance; no scientific/native rereview or decision change."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-light.svg",
+      "sha256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+      "bytes": 7908,
+      "type": "svg",
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-dark.svg",
+      "sha256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+      "bytes": 7908,
+      "type": "svg",
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy.md",
+        "sha256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+        "bytes": 9107
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-light.svg",
+        "sha256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+        "bytes": 7908
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-dark.svg",
+        "sha256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+        "bytes": 7908
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/radioligand-components-and-particle-paths-v1.txt",
+        "sha256": "d4d9d10046009b92ebb34db3785491a904c19dcccbd688aa17fb7173cf8e3f76",
+        "bytes": 3664
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/radioligand-components-and-particle-paths-v1-provenance.json",
+        "sha256": "141049f4b52722df740d3db308c5bbbfd52e09b8a4c795b158a570e34f5de458",
+        "bytes": 5432
+      }
+    ],
+    "currentCandidateOwnerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+    "currentCandidatePairBound": true,
+    "exactFivePublicFiles": true,
+    "authorOriginalPackageSealSHA256": "8424f4eaf6a1c3d5ea94672181e14822e4d8e3f2de8b4986c68de3dd651f8206",
+    "authorCurrentPackageSealSHA256": "378e5a2371750d9d6acfca08fae59319e9aa2bea1a54a7d6cd82a9a9b03af582",
+    "originalReviewEvidencePreserved": true,
+    "actualSourcePreimageSHA256": "0c8c5d4c2dac4e172a7b6c0e6534ed6bea24efbc2215480c3c55c12ffc3ad33e",
+    "actualTeachingBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualFutureExecutionSourceCommit": null,
+    "actualFutureExecutionDestination": null,
+    "preservationCheck": "Original source owner is recoverable by removing only the exact illustration/caption insertion. Correction changed only12 designated light text-fill values across4 owners and4 dependent provenance hashes;27 other public files remain unchanged."
+  },
+  "sourceAccess": [
+    {
+      "url": "https://www.fda.gov/media/129547/download",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "August2019 PDF Background and animal biodistribution/dosimetry text on PDF pages4\u20136; no dosing instruction.",
+      "supports": "Separate vector/attachment/isotope; illustrative short alpha and longer beta-minus tracks with tumor crossfire and healthy-tissue exposure; no quantitative dose, ranking or universal chelator.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680544/",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "Rendered full article available; targeted introduction, alpha particle radiobiology/LET, particle physics, range tables3\u20134, Case for Microdosimetry and criterion passages personally read. Availability not complete-paper read; no copied figure.",
+      "supports": "Separate vector/attachment/isotope; illustrative short alpha and longer beta-minus tracks with tumor crossfire and healthy-tissue exposure; no quantitative dose, ranking or universal chelator.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    }
+  ],
+  "sourceAccessLimits": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+  "accessFailures": [
+    "Nature publisher cookie-authorize redirect prevented full-paper access",
+    "AMG757 publisher403",
+    "NCBI book recaptcha",
+    "Some direct PubMed opens footer-only; EuropePMC primary abstract fallback used"
+  ],
+  "reviewEvidence": [
+    {
+      "kind": "genuine-original-whole-task-fit",
+      "file": "next-gap-210-task-fit.json",
+      "sha256": "34a95559e1f8a47944181e0a7dab1aee741b8adbae16ab6d88954a2cd34b1f33",
+      "verdict": "PASS",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a"
+    },
+    {
+      "kind": "genuine-current-predecessor-task-fit",
+      "file": "next-gap-210-task-fit.json",
+      "sha256": "34a95559e1f8a47944181e0a7dab1aee741b8adbae16ab6d88954a2cd34b1f33",
+      "verdict": "PASS",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "focusedAAAcceptance": false
+    },
+    {
+      "kind": "genuine-original-whole-review",
+      "file": "receipt.json",
+      "sha256": "9b133842939e18e59fd1a8ea1310c704d701e6e636144b30d2665309592d0655",
+      "sealSHA256": "38cbc2aa50690d860506a02083ed9a9fe772042d5eb9e1b68dbbb2af2f8d2443",
+      "verdict": "REVISE",
+      "scope": "One whole seven-owner review, original12 light-label findings preserved."
+    }
+  ],
+  "captureLineage": [
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-210-light-reading.png",
+      "sha256": "3fbb114ad1c6c17b5cff1e8e11134c05cd0e38903cd6eef8aa721400ab690b6d",
+      "nativeSHA256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-210-dark-reading.png",
+      "sha256": "685798488c784a7701f28a2ece8609f1f6914ca165e82c08e91dfa25cc328af8",
+      "nativeSHA256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-210-light-mobile-inline.png",
+      "sha256": "140d528b94ba26b53ff173db2400ec80553afdbbcd7c6e0501d38e3c905d1d32",
+      "nativeSHA256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-210-light-mobile-theater.png",
+      "sha256": "861e1d209796d10c2b146b61a90e1c8cab2c6032c46b4291dd404e64cdc68e47",
+      "nativeSHA256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-210-light-desktop-inline.png",
+      "sha256": "da91311c2097af4e985c9457be802f55252b55da5c1e5c6577ae463c4cd62a38",
+      "nativeSHA256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-210-light-desktop-theater.png",
+      "sha256": "f3e4d1a1122aa2d341fe6ad04b19d7d9c613ffddaae9ec64f2378474fe4ea50a",
+      "nativeSHA256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-210-dark-mobile-inline.png",
+      "sha256": "d34ff0a50589a0b5f76080969b90a08dea0f161c497d08c5b06955c36b42e31e",
+      "nativeSHA256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-210-dark-mobile-theater.png",
+      "sha256": "13ac36e20d512cbf528ada32430196050b147747e8ab30ede5072ad25c171fa2",
+      "nativeSHA256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-210-dark-desktop-inline.png",
+      "sha256": "6d158620077dac609deafb632223f13bd789644e8a4f8710f0ca9ebfcf3cf92e",
+      "nativeSHA256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-210-dark-desktop-theater.png",
+      "sha256": "134e3681aee1ee259d417f56e21eaf7161d197b03e609c76b424bca511680b57",
+      "nativeSHA256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+      "ownerSHA256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "supersededByFocusedLight": false
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Schema-only collector projection using this same independent reviewer\u2019s genuine sealed evidence. No review rerun, new capture, decision reversal or renaming/relabeling of originals.",
+    "freshCaptureCountThisTurn": 0,
+    "scientificSourceReadsThisTurn": 0,
+    "inheritedOriginalOwnFreshCaptureCountForOwner": 10,
+    "inheritedFocusedOwnFreshCaptureCountForOwner": 0,
+    "actualPixelInspectionPreviouslyPerformed": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeDimensions": [
+      600,
+      900
+    ],
+    "minimumInlineEssentialLabelPx": 14.993333333333334,
+    "minimumTheaterEssentialLabelPx": 14.82,
+    "minimumCorrectedLabelContrast": null,
+    "carrierLimits": "Native600x900 pairs, all390x844 mobile inline/theater originals at1x via aggregate board; all1440x1000 desktop inline/theater originals viewed at0.5x via board. Article/image/modal only; no whole-app or live navigation claim.",
+    "keyboardQualification": "BODY in all four display variants; known unchanged pinned ImageTheater shared-renderer/integration accessibility failure remains pending. Artwork PASS does not approve runtime accessibility.",
+    "sourceReadDepth": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+    "allLabelInspectionQualification": "All original labels personally viewed at native/mobile1x and desktop0.5x boards. For affected owners, all changed light labels personally viewed in5 fresh focused captures. These are predecessor observations, not fresh capture claims in this schema-only turn."
+  },
+  "caption": "Vector, attachment and isotope are different parts. Illustrated particle paths can reach neighboring or healthy cells; they are not dose estimates or an alpha-versus-beta ranking, and chelators are not universal.",
+  "alt": "A targeting vector, attachment with a chelator shown as one example, and radioisotope sit above tumor and healthy cell neighborhoods. A short alpha track and a longer beta-minus track illustrate exposure and crossfire without a dose scale or treatment ranking.",
+  "requiredCorrections": [],
+  "unknownPriorCreators": "Prior Mermaid creative authors remain unknown; no original creator/model identity is invented.",
+  "nativeCreator": "agent:/root/batch09_author_group1",
+  "method": "Original hand-authored source-code SVG; independent review and later schema-only projection.",
+  "authorshipQualification": "Author declares original hand-authored SVG, model=null and imageCalls=0; reviewer observed source SVG and made no model/image calls. Historical Mermaid authors remain unknown. No invented creator or model call.",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "schemaProjectionOnly": true,
+  "wholeReviewRerunCountThisTurn": 0,
+  "scientificSourceReviewRerunCountThisTurn": 0,
+  "nativeReviewRerunCountThisTurn": 0
+}

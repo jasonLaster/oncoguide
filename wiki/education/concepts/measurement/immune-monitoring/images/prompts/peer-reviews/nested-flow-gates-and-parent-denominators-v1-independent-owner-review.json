@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-215",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/flow-cytometry.md",
+  "author": "agent:/root/batch09_author_group2",
+  "authorRole": "Actual six-new-illustration packet author",
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:57:26.767736+00:00",
+  "reviewedAtUTC": "2026-10-13T22:57:26.767736+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "e3e2c95e72044c4f966ce3389cfc5836751bd1025c731265f48a9373baba597f",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/268",
+  "frozenRowSHA256": "6cffb86a5d22f7228e5794f68ae1dedf3c55860661d7585888badfa18bf0455d",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The invented nested boxes physically place 100 binding events inside the 1000-event T-cell parent and 10000 quality-selected recovered-cell parent. The matched 10% versus1% readouts expose denominator choice; upstream exclusions/controls are visible and box area is explicitly nonproportional. Reagent binding establishes neither killing nor a whole-body census.",
+    "frozenPageSHA256": "8d1c3a84fca1a3e7d699cb8a3dd3dc9bb5abbef56805995d4f205fc9d9d45108",
+    "baselinePageSHA256": "8d1c3a84fca1a3e7d699cb8a3dd3dc9bb5abbef56805995d4f205fc9d9d45108",
+    "actualTeachingPreimageSHA256": "1bcfc72739f4a5c55305fd55ff8fab7b202a93bfe8a427b9c85a3f781a5c8ea7",
+    "learnerTask": "Read nested gates and their denominators",
+    "gap": "Current linear workflow does not show nested population counts",
+    "accuracyGuardrails": "Show each nested gate and its parent denominator, with exclusions/quality controls visible. Percentages are not absolute concentration or whole-body counts, and marker identity is not function.",
+    "targetSection": "Worked example",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 is the immutable original audit page anchor required by maintained source-fit accounting; actual b8 teaching bytes are separately bound and were fully read. Frozen task is unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-light.svg",
+      "sha256": "e93249a9cfd6f0357420c88d01b519050a0a7826485e2508ce70d7df88ee0715",
+      "bytes": 5063,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-dark.svg",
+      "sha256": "7273252fa7f3c0bdd4a0bda3eb6e4a31dd5924e6cf22ab409a782ea2f305f782",
+      "bytes": 5063,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/flow-cytometry.md",
+        "sha256": "e3e2c95e72044c4f966ce3389cfc5836751bd1025c731265f48a9373baba597f",
+        "bytes": 8689
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-light.svg",
+        "sha256": "e93249a9cfd6f0357420c88d01b519050a0a7826485e2508ce70d7df88ee0715",
+        "bytes": 5063
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-dark.svg",
+        "sha256": "7273252fa7f3c0bdd4a0bda3eb6e4a31dd5924e6cf22ab409a782ea2f305f782",
+        "bytes": 5063
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/nested-flow-gates-and-parent-denominators-v1.txt",
+        "sha256": "cd3b3398c166dcef15281914f65ad0893bbf9b227fc8a0955e518a7672c3f20d",
+        "bytes": 2206
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/nested-flow-gates-and-parent-denominators-v1-provenance.json",
+        "sha256": "fe024a60d5f5832cec323a5ecc6a23279cce34df8906ca8f1bd6e0587c43afe6",
+        "bytes": 5797
+      }
+    ],
+    "currentCandidateOwnerSHA256": "e3e2c95e72044c4f966ce3389cfc5836751bd1025c731265f48a9373baba597f",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "3590da1e10fc88079e4bc1e074d49474a8289b395c6e086de370225c83dcb3e2",
+    "authorInventorySHA256": "e9452748cef77e8d79677059c0268de5fef755034167182c0f05f0750c01b953",
+    "authorCustodyZipSHA256": "f1e14bfd1be9734930a570bb1ec3465a0b6141173468b9741217ecf9b9923f79",
+    "sourcePreimageSHA256": "1bcfc72739f4a5c55305fd55ff8fab7b202a93bfe8a427b9c85a3f781a5c8ea7",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after stripping only inserted image and caption; original frontmatter, navigation, prose, sources and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://assets.thermofisher.com/TFS-Assets/BID/Reference-Materials/spectral-flow-cytometry-expanding-research-spectrum-article.pdf",
+      "primary": true,
+      "readDepth": "Selected primary Jensen/Wnek research article section 3.2, Figure 2/3 legend text and section 3.3.1 (web lines 1879–1974); not complete 77-page compilation, visual figure examination or supplements.",
+      "supports": "Upstream debris/doublet exclusions, sample-dependent viability gating, control-guided boundaries and percent of parent reporting support this invented nested example.",
+      "accessStatus": "Official-hosted PDF retrieved; original manufacturer learning-page opening failed.",
+      "population": "Healthy-donor blood/fresh or cryopreserved PBMC method examples; toy counts do not reproduce their results."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11746088/",
+      "primary": true,
+      "readDepth": "Complete primary abstract only; no full paper.",
+      "supports": "Controls and compensation artifacts matter; gates are not arbitrary function certificates.",
+      "accessStatus": "PubMed abstract retrieved.",
+      "population": "Methodological compensation/control analysis; no toy measurements taken from it."
+    }
+  ],
+  "mathAssessment": {
+    "recorded": 12000,
+    "qualitySelected": 10000,
+    "TcellParent": 1000,
+    "bindingEvents": 100,
+    "parentFractions": [
+      0.1,
+      0.01
+    ],
+    "boxAreaProportional": false
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific, conceptual, original-native, frozen task, source-depth, custody and fresh pinned-reader pixel review; task218 explicit existing-art reuse.",
+    "sourceReadDepth": "Entries record actual bounded independent primary reading and failures; preserved ancillary owner citations are not each recertified. No study statistics or patient treatment conclusions introduced.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own isolated pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. No production header/sidebar/backend/navigation, physical mobile or cross-browser/touch certification; no whole-page/nontext accessibility certification. Own full-reader screenshots support inline crops. Initial author server4692 unavailable; own private copied/pin-verified fixture built and served4692. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      780,
+      1450
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 13.307650862068964,
+    "minMobileDefaultPreviewLabelPx": 13.153846153846153,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.322398239900442,
+    "allTextContrastChecksPassed": true,
+    "contrastScope": "Fresh actual SVG DOM computed fill and preceding opaque enclosing rectangle over each text bbox; both themes. Nontext graphics not certified.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closed the dialog but focus did not return to image (BODY); unchanged pinned runtime defect remains qualified. No runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-215-light-reading.png",
+      "sha256": "0a5e69e957b5c5389054d2c4ed37ea8817870048ff4b4f32b6e39fd16417e4f0"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-215-dark-reading.png",
+      "sha256": "6944ab790d73e0fd4615354f00dd4e2c54cb978e38ded87853d1549ccd82c3f0"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-215-light-mobile-inline.png",
+      "sha256": "db31951e942867b6c1f3e87b601677817b6878e390401230d478e2dbc9de6207"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-215-light-mobile-theater.png",
+      "sha256": "50abc60375bcc8e057ea2d41cec3bd285233dc4d4e7d09c1a56bc939b7aaf075"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-215-light-desktop-inline.png",
+      "sha256": "d1755b7fdfebc311a030e7b5396549a358cc7456b38762e82713f49e498c788a"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-215-light-desktop-theater.png",
+      "sha256": "11c32c62528b0b0be776cb9c02918e51ed84cb6845e0d5829c2a0c3d877a1ed1"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-215-dark-mobile-inline.png",
+      "sha256": "94fc28e2b141d7eb71dc9a0ec933ef6fd7779005e15d2e614379025941fdd2c3"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-215-dark-mobile-theater.png",
+      "sha256": "ccdbe2c5dfa0dc5b2b93d97f98a3ae920656e5dcf3246792bcb9643e5977d6cc"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-215-dark-desktop-inline.png",
+      "sha256": "610eafc05e8ae6fa9ed27220e2571c95d0feaabec92bf195d884a66211d0793d"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-215-dark-desktop-theater.png",
+      "sha256": "610b2f749d792bc3ac9bc1a152bee3422ae84ed2b86e9fc5b928a8667a7e0c39"
+    }
+  ],
+  "method": "Original hand-authored editable SVG from Python primitives; no raster generator invocation",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "imageModelCallsScope": "This independent review/prospective work; historical218 authorship or tool invocation is not reconstructed."
+}

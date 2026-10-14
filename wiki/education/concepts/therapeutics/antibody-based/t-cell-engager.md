@@ -35,6 +35,10 @@ A surface-target engager can redirect T cells without their native [T-cell recep
 
 ### Format labels answer different questions
 
+<img src="./images/t-cell-engager-bridging-and-format-overlap-v1-light.svg" alt="An engager bridges CD3 on a T cell to target M on another cell, with native TCR separate. Below, a compact BiTE core and a BiTE core joined to Fc show that half-life-extension labels can overlap architecture. Contact or cytokines alone do not establish killing." data-theme-pair="./images/t-cell-engager-bridging-and-format-overlap-v1-dark.svg" />
+
+*The bridge makes two contacts, but function needs its own measurements. CD3 is separate from native TCR specificity; Fc-containing BiTE-derived and IgG-like designs can both carry half-life-extension features.*
+
 | Label | What it describes | What it does not settle |
 |---|---|---|
 | Compact BiTE (bispecific T-cell engager) | A familiar tandem design with two linked [single-chain variable fragments (scFvs)](/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies), without an Fc region | Tissue access, killing or safe exposure |

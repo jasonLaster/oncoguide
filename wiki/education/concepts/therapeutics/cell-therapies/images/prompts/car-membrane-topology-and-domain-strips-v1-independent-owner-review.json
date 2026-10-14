@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-213",
+  "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md",
+  "author": "agent:/root/batch09_author_group1",
+  "creativeAuthor": "agent:/root/batch09_author_group1",
+  "reviewer": "agent:/root/batch09_review_group1",
+  "independentReviewer": "agent:/root/batch09_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:47:46.385613+00:00",
+  "reviewedAtUTC": "2026-10-13T22:47:46.385613+00:00",
+  "schemaBoundAtUTC": "2026-10-13T23:12:19.315963+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Locate binding region, spacer, anchor and signaling domains across a membrane",
+  "learnerTask": "Locate binding region, spacer, anchor and signaling domains across a membrane",
+  "gap": "Component flow omits receptor topology; architectural generations need aligned domain strips",
+  "accuracyGuardrails": "Receptor vs gene vs cell distinct; extra domains not ranking; specialized peptide\u2013HLA CARs exist",
+  "currentOwnerSha256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/333",
+  "frozenRowSHA256": "3b59c096630b5bc785d351e912718442b39a97d6d1d2a6c5c72c01e6a7ebfe43",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "External binder/spacer, membrane-crossing anchor and internal costimulation/activation; aligned zero/one/two costimulatory-domain strips; receptor/gene/cell distinctions and peptide-HLA exception. Original preimage is recovered exactly by inverse insertion, preserving prior Mermaid, prose, source attribution and navigation. All original frozen task guards are retained. Twelve light-label contrast defects in the package were corrected by the same author; this owner\u2019s listed light text fills only were independently checked and pass normalAA, without geometry, dark artwork or scientific claim changes.",
+    "baselinePageSHA256": "891dc9f82f59cfa59bc55900c3de206cadd99b205eae0a0d930d8454bb3ef93c",
+    "frozenPageSHA256": "891dc9f82f59cfa59bc55900c3de206cadd99b205eae0a0d930d8454bb3ef93c",
+    "actualTeachingPreimageSHA256": "1a5f35396b70a5b32c12b43db69471e55acde5cde8772f68a14a6fb562e1352a",
+    "learnerTask": "Locate binding region, spacer, anchor and signaling domains across a membrane",
+    "gap": "Component flow omits receptor topology; architectural generations need aligned domain strips",
+    "accuracyGuardrails": "Receptor vs gene vs cell distinct; extra domains not ranking; specialized peptide\u2013HLA CARs exist",
+    "targetSection": "## How it works",
+    "baselineQualification": "baselinePageSHA256 is the original immutable frozen audit page hash. Actual b8 teaching preimage differs and is bound separately. No equality between frozen and b8 owner bytes is asserted.",
+    "reviewScope": "Schema-only binding of actual original whole review and prior focused correction acceptance; no scientific/native rereview or decision change."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-light.svg",
+      "sha256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5",
+      "bytes": 13748,
+      "type": "svg",
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-dark.svg",
+      "sha256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+      "bytes": 13748,
+      "type": "svg",
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md",
+        "sha256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+        "bytes": 12767
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-light.svg",
+        "sha256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5",
+        "bytes": 13748
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-dark.svg",
+        "sha256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+        "bytes": 13748
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-membrane-topology-and-domain-strips-v1.txt",
+        "sha256": "21ca6dff4c3c99ceeada484c18355ae08fc6df14ecddf5e361660a869cb2b0b9",
+        "bytes": 4158
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-membrane-topology-and-domain-strips-v1-provenance.json",
+        "sha256": "d7870b901a533450eb4aa45e6675a14c323b9ab2aa000047009a23af14f8cff8",
+        "bytes": 6714
+      }
+    ],
+    "currentCandidateOwnerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+    "currentCandidatePairBound": true,
+    "exactFivePublicFiles": true,
+    "authorOriginalPackageSealSHA256": "8424f4eaf6a1c3d5ea94672181e14822e4d8e3f2de8b4986c68de3dd651f8206",
+    "authorCurrentPackageSealSHA256": "378e5a2371750d9d6acfca08fae59319e9aa2bea1a54a7d6cd82a9a9b03af582",
+    "originalReviewEvidencePreserved": true,
+    "actualSourcePreimageSHA256": "1a5f35396b70a5b32c12b43db69471e55acde5cde8772f68a14a6fb562e1352a",
+    "actualTeachingBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualFutureExecutionSourceCommit": null,
+    "actualFutureExecutionDestination": null,
+    "preservationCheck": "Original source owner is recoverable by removing only the exact illustration/caption insertion. Correction changed only12 designated light text-fill values across4 owners and4 dependent provenance hashes;27 other public files remain unchanged."
+  },
+  "sourceAccess": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8421711/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:8421711%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Specific activation and targeting of cytotoxic lymphocytes through chimeric single chains consisting of antibody-binding domains and the gamma or zeta subunits of the immunoglobulin and T-cell receptors.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "f84997c9c87404b1b90f936f63d9ce3dbea1c2ea4932ef883e95d3d10588d14b",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "External binder/spacer, membrane-crossing anchor and internal costimulation/activation; aligned zero/one/two costimulatory-domain strips; receptor/gene/cell distinctions and peptide-HLA exception."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30309819/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30309819%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "In\u00a0Vivo Fate and Activity of Second- versus Third-Generation CD19-Specific CAR-T Cells in B Cell Non-Hodgkin's Lymphomas.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "3e82774fdfcc75fcb61c9c0b5374dd9b472bf6aa7e9b4871929088d73efa5555",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "External binder/spacer, membrane-crossing anchor and internal costimulation/activation; aligned zero/one/two costimulatory-domain strips; receptor/gene/cell distinctions and peptide-HLA exception."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27924074/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27924074%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Optimized T-cell receptor-mimic chimeric antigen receptor T cells directed toward the intracellular Wilms Tumor 1 antigen.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "2b2d76ae4edd68679a7d063d9e58c5489531a16f6c71af46775d71e739342e83",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "External binder/spacer, membrane-crossing anchor and internal costimulation/activation; aligned zero/one/two costimulatory-domain strips; receptor/gene/cell distinctions and peptide-HLA exception."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "Official A living drug paragraphs and solid-tumor target/normal-cell barrier paragraphs; no approval or current therapeutic recommendation.",
+      "supports": "External binder/spacer, membrane-crossing anchor and internal costimulation/activation; aligned zero/one/two costimulatory-domain strips; receptor/gene/cell distinctions and peptide-HLA exception.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    }
+  ],
+  "sourceAccessLimits": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+  "accessFailures": [
+    "Nature publisher cookie-authorize redirect prevented full-paper access",
+    "AMG757 publisher403",
+    "NCBI book recaptcha",
+    "Some direct PubMed opens footer-only; EuropePMC primary abstract fallback used"
+  ],
+  "reviewEvidence": [
+    {
+      "kind": "genuine-original-whole-task-fit",
+      "file": "next-gap-213-task-fit.json",
+      "sha256": "56c7f7e778ec80fbcfd17c1a9d0dad4c56e24699463e0e689364f26d41edae7d",
+      "verdict": "REVISE",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b"
+    },
+    {
+      "kind": "genuine-current-predecessor-task-fit",
+      "file": "next-gap-213-task-fit.json",
+      "sha256": "8d4b662b46d31ea161e41416d999c8b17f63841a287366dfd6f75b540aa9e0d9",
+      "verdict": "PASS",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "focusedAAAcceptance": true
+    },
+    {
+      "kind": "genuine-original-whole-review",
+      "file": "receipt.json",
+      "sha256": "9b133842939e18e59fd1a8ea1310c704d701e6e636144b30d2665309592d0655",
+      "sealSHA256": "38cbc2aa50690d860506a02083ed9a9fe772042d5eb9e1b68dbbb2af2f8d2443",
+      "verdict": "REVISE",
+      "scope": "One whole seven-owner review, original12 light-label findings preserved."
+    },
+    {
+      "kind": "genuine-focused-AA-correction-acceptance",
+      "file": "focused-light-text-aa-01/receipt.json",
+      "sha256": "87681503c4d3fb74dda0b0dbf1d22e54d3b61f9b2ddc2078365377d3426ae52b",
+      "sealSHA256": "61fb3bd5a71c40a2a20c0dd4f60c83e101020ee65927de4cd9b5c6df771268e1",
+      "verdict": "PASS"
+    }
+  ],
+  "captureLineage": [
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-213-light-reading.png",
+      "sha256": "1769d8c836a0bc3add778ba34adf00e8613f5a6516e39a4ed96dc79a05092dac",
+      "nativeSHA256": "17d3dfd2d79b7ed70730f57a6b66a3fefa31d2c8ae622b627695c7f3fc2c861d",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-213-dark-reading.png",
+      "sha256": "5758ac2e3482e9d4aa1a4d98d4b4f5c0a12ab11a390c29f178ddd4c6a9edb93d",
+      "nativeSHA256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-213-light-mobile-inline.png",
+      "sha256": "095c69f64799ac24ebac6ff554803f936996b9944921caadc1052e36a0219384",
+      "nativeSHA256": "17d3dfd2d79b7ed70730f57a6b66a3fefa31d2c8ae622b627695c7f3fc2c861d",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-213-light-mobile-theater.png",
+      "sha256": "8362e884815a53d0176f47158438d45147e2c9bcdcfe3338e8d3f0e1c0585bbc",
+      "nativeSHA256": "17d3dfd2d79b7ed70730f57a6b66a3fefa31d2c8ae622b627695c7f3fc2c861d",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-213-light-desktop-inline.png",
+      "sha256": "f48e6fe7cfd88bb3c5943e4d7e96e082b4290c298d4ec5b2a2dc4aebecabc077",
+      "nativeSHA256": "17d3dfd2d79b7ed70730f57a6b66a3fefa31d2c8ae622b627695c7f3fc2c861d",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-213-light-desktop-theater.png",
+      "sha256": "cd8fb78c6e806ccf5b90da26fe659ffbac8488a2787b6ece31291146b76ee508",
+      "nativeSHA256": "17d3dfd2d79b7ed70730f57a6b66a3fefa31d2c8ae622b627695c7f3fc2c861d",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-213-dark-mobile-inline.png",
+      "sha256": "dbf0e1cd80fc82a326919214c7b5034f427263fcb017d17fe274cd355a79dc2a",
+      "nativeSHA256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-213-dark-mobile-theater.png",
+      "sha256": "a6cd07059152a43847b08d605cefd97cc97ea4ac59db1b01fdd2ec375bf58607",
+      "nativeSHA256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-213-dark-desktop-inline.png",
+      "sha256": "a721e30ad2dd8c70852f34d2fe24ce9766459d4bb4f81f4938d273d924ca61e1",
+      "nativeSHA256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-213-dark-desktop-theater.png",
+      "sha256": "55fc69b9fd36d3a13848b2f25b0b7fce631d0917a2dbe416d4b9c599284bdf4c",
+      "nativeSHA256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-213-light-reading.png",
+      "sha256": "27d8aaa5e6305947a4872e3f465fb7950cb51a08b3d337a6b8c660adb6ce9829",
+      "nativeSHA256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-213-light-mobile-inline.png",
+      "sha256": "8184c156bb7c41be2dda3ed018d6458120310e456a84262f528d213a17f51dc0",
+      "nativeSHA256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-213-light-mobile-theater.png",
+      "sha256": "6d9e113669fcbb606f4f1e7963c0ddca6598c0eb59700fc7cc5e4e0c12a76363",
+      "nativeSHA256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-213-light-desktop-inline.png",
+      "sha256": "df11c5bf7692b04aad12e3f4378ae7f7d50bf1c4d316d386b03de52d42695098",
+      "nativeSHA256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-213-light-desktop-theater.png",
+      "sha256": "8c3b833704686991733e132b3211241f5d36383f2ad763e0077dbca6cf69a5e4",
+      "nativeSHA256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5",
+      "ownerSHA256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b"
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Schema-only collector projection using this same independent reviewer\u2019s genuine sealed evidence. No review rerun, new capture, decision reversal or renaming/relabeling of originals.",
+    "freshCaptureCountThisTurn": 0,
+    "scientificSourceReadsThisTurn": 0,
+    "inheritedOriginalOwnFreshCaptureCountForOwner": 10,
+    "inheritedFocusedOwnFreshCaptureCountForOwner": 5,
+    "actualPixelInspectionPreviouslyPerformed": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeDimensions": [
+      600,
+      900
+    ],
+    "minimumInlineEssentialLabelPx": 14.993333333333334,
+    "minimumTheaterEssentialLabelPx": 14.82,
+    "minimumCorrectedLabelContrast": 10.655082496091248,
+    "carrierLimits": "Native600x900 pairs, all390x844 mobile inline/theater originals at1x via aggregate board; all1440x1000 desktop inline/theater originals viewed at0.5x via board. Article/image/modal only; no whole-app or live navigation claim.",
+    "keyboardQualification": "BODY after Escape persists in both fresh light viewport variants; original dark observations carried. Qualified shared-renderer/integration issue; no runtime approval.",
+    "sourceReadDepth": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+    "allLabelInspectionQualification": "All original labels personally viewed at native/mobile1x and desktop0.5x boards. For affected owners, all changed light labels personally viewed in5 fresh focused captures. These are predecessor observations, not fresh capture claims in this schema-only turn."
+  },
+  "caption": "The binding region faces outward and signaling domains face inward across one membrane. Generation labels count common signaling arrangements; extra domains do not rank benefit, and specialized peptide\u2013HLA CARs exist.",
+  "alt": "A CAR binding region and spacer extend outside the engineered cell, an anchor crosses its membrane, and costimulatory and CD3-zeta activation domains lie inside. Aligned generation strips keep activation in the same position and add zero, one or two costimulatory domains without ranking. Receptor, gene and cell differ; some CARs bind peptide-HLA.",
+  "requiredCorrections": [],
+  "unknownPriorCreators": "Prior Mermaid creative authors remain unknown; no original creator/model identity is invented.",
+  "nativeCreator": "agent:/root/batch09_author_group1",
+  "method": "Original hand-authored source-code SVG; independent review and later schema-only projection.",
+  "authorshipQualification": "Author declares original hand-authored SVG, model=null and imageCalls=0; reviewer observed source SVG and made no model/image calls. Historical Mermaid authors remain unknown. No invented creator or model call.",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "schemaProjectionOnly": true,
+  "wholeReviewRerunCountThisTurn": 0,
+  "scientificSourceReviewRerunCountThisTurn": 0,
+  "nativeReviewRerunCountThisTurn": 0
+}

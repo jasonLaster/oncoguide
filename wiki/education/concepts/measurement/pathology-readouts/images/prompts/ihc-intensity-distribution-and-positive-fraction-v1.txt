@@ -1,0 +1,23 @@
+HAND-AUTHORED SVG SOURCE BRIEF (not an image-generator prompt invocation)
+
+110 and 50% ask different questions
+Learner task: Distinguish intensity-weighted index from positive-cell percentage
+Exact frozen gap: The generic scoring flow does not show the intensity distribution
+Target: Two scores combine different information
+Guardrails (verbatim): Preserve intensity categories and their denominator: fictional H-score110 is distinct from50% positive. Allred is a separate categorical scale; neither is molecule count, a universal cutoff or interchangeable assay output.
+
+Geometry/alt: One hundred invented eligible cells are represented by 100 circles grouped by staining intensity: 50 unstained, 10 weak, 20 moderate and 20 strong. The same 100-cell denominator gives 50% positive cells, whereas intensity weights one, two and three give H-score 10 plus 40 plus 60 equals 110. Category rows are an explanatory grouping, not tissue geography. Allred is a separate categorical system. Neither quantity is a molecule count, a universal clinical cutoff or an interchangeable assay output.
+Caption: In the same invented 100-cell set, 50% positive counts stained cells while H-score 110 weights their intensity; Allred remains a separate categorical scale.
+
+Style: warm personable schematic cells and specimens, 780 by 1450; same geometry/counts across themes; labels 28–38 px; cream light and slate dark. Original editable SVG authored with Python string primitives; no image-generation tool invoked. Six illustrations added only, all baseline text/frontmatter/navigation retained. Original creators of earlier diagrams unknown.
+
+Sources/read bounds:
+[
+  {
+    "url": "https://documents.cap.org/protocols/cp-breast-18biomarker-1201.pdf",
+    "readBounds": "Official indexed Tables 2\u20133 returned by targeted web search and personally read. Direct PDF retrieval failed DNS/502. Historical scoring arithmetic only; no historical positivity labels adopted.",
+    "supports": "H-score intensity weighting and separate Allred proportion/intensity categories."
+  }
+]
+
+Private prospective baseline b8c381d6ad94c0377939ee2bc4e54ff4088c70ea; execution refs null; canonical adoption, clinician/domain-expert and learner review, production delivery, and coverage credit pending.

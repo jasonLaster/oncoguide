@@ -29,6 +29,10 @@ A whole cell is like a house; its nucleus is one room. Reading papers from the r
 
 ## How it works
 
+<img src="./images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg" alt="A whole-cell cartoon contains nuclear and cytoplasmic RNA, while an isolated nucleus contains nuclear RNA including unfinished transcripts. In a droplet example, barcode A receives one cell, B one nucleus, and C two cells, showing that a barcode labels a reaction compartment rather than certifying one pure cell. An invented source-to-recovery cartoon drops one cell type during preparation/capture and shows ambient RNA outside a cell. Shapes, barcodes and recovery are invented; missing recovered cells or states do not establish biological absence." width="600" height="900" data-theme-pair />
+
+*The compartment changes the RNA available to capture, and a barcode still needs identity checks. This invented droplet example includes a doublet and selective loss; preparation and capture shape the recovered set. An unobserved cell or state is not proof that it was absent from the tissue.*
+
 In many single-cell RNA sequencing workflows, separated cells enter small reaction compartments. A **barcode** labels material from a compartment. A **unique molecular identifier (UMI)** helps distinguish captured molecules from their amplified copies. Sequencing and analysis produce a gene-by-barcode count table. A barcode does not guarantee that exactly one intact cell contributed material. [Zheng 2017](https://pubmed.ncbi.nlm.nih.gov/28091601/).
 
 Single-nucleus RNA sequencing starts with isolated nuclei. It samples nuclear RNA, including unfinished transcripts with **introns**, regions normally removed during [RNA splicing](/wiki/education/concepts/biology-basics/genetics/splicing). Whole-cell methods also capture cytoplasmic messages. A matched mouse-cortex study found different gene recovery between these compartments. Its results explain why comparing methods needs care; they do not prove nuclei are better for every tumor. [Bakken 2018](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0209648).

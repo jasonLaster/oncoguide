@@ -1,0 +1,95 @@
+{
+  "prospectiveTaskId": "next-gap-217",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "3ce4a877ab9f2c5550e028173051ed343778bf017b58ee000038b3dc83f15b3a",
+  "preimageBytes": 7829,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/274",
+  "frozenRowSHA256": "a979431a1ba5c89b3259f6efa951f696fa559752a65c3b456d7c2c4693cc60e4",
+  "learnerTask": "Compare one-chain bulk identity with paired-cell receptor identity",
+  "gap": "No chain-pairing or sampled-unit schematic",
+  "accuracyGuardrails": "Distinguish one-chain sequence identity from paired alpha/beta identity and sampled-cell linkage. Shared beta sequence alone does not establish the same complete receptor, antigen specificity or function.",
+  "targetSection": "How it works",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-243",
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+      "ownerSHA256": "37aef9926cb60eba7abcde98cd623ea62fa7e3f3dcab8b1a1a4ef94344c0221c",
+      "status": "planned",
+      "rowSHA256": "88bf75439b5155155490418e207cc27ff4b38ebe0743c5b743fee9587b38ed70",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    }
+  ],
+  "schemaVersion": 1,
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "integrator": "agent:/root",
+  "method": "Original hand-authored editable SVG from Python primitives; no raster image-generation invocation",
+  "imageGenerationInvocation": null,
+  "generatorModel": null,
+  "sourceBodiesRead": "Complete actual b8 public owner body personally read after metadata gate; six gaps remain unresolved before additions",
+  "baselineTextPreservation": "Exact byte equality after removing only inserted image and caption block",
+  "publicMetadataClassification": {
+    "frontmatterSHA256": "73620722a97b72c92c5a73658e5c2a353b4c88277e74914a5e9090b5673119ef",
+    "data": {
+      "title": "T-cell receptor sequencing",
+      "type": "concept",
+      "domain": "measurement/immune-monitoring",
+      "summary": "T-cell receptor sequencing identifies sampled receptor sequences and their measured abundances, allowing immune populations to be compared across samples.",
+      "glossary_anchor": "tcr-seq",
+      "aliases": [
+        "TCR-seq",
+        "TCR sequencing",
+        "scTCR-seq"
+      ],
+      "level": "intermediate",
+      "prerequisites": [
+        "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]",
+        "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]"
+      ],
+      "used_by": [
+        "[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]",
+        "[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]",
+        "[[wiki/education/guides/personalized-cancer-vaccine/index]]",
+        "[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]",
+        "[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]",
+        "[[wiki/education/oncology-101/3-t-cell-states]]",
+        "[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]",
+        "[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]",
+        "[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"
+      ],
+      "sensitive": false,
+      "tags": [
+        "education",
+        "measurement"
+      ],
+      "updated": "2026-10-10T00:00:00.000Z",
+      "source_checked": "2026-10-10T00:00:00.000Z",
+      "reviewed": "pending",
+      "reviewed_by": "",
+      "review_status": "Source-checked; expert and learner review pending"
+    },
+    "classificationBeforeBodyExtraction": true,
+    "maintainedPublicGatePassed": true,
+    "redactionGatePassed": true
+  },
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/",
+      "readBounds": "Primary abstract returned by web search actually read; Nature redirect and PMC opening blocked. Indexed PMC selected methods snippet read. No complete paper/supplement read.",
+      "supports": "Single-cell alpha/beta pairing preserves pair linkage, enabling later functional study; specificity is not inferred here."
+    }
+  ],
+  "toyData": "All sample counts, identities, timing, proportions and area geometry invented; not Diana data or thresholds",
+  "altText": "Three invented sampled T cells carry simplified alpha/beta pairs X/B, Y/B and Z/C. The bulk beta-chain view pools B, B and C without alpha linkage. In the paired-cell view separate sampled-cell boxes link each alpha and beta chain, exposing two different alpha identities behind shared beta B. Labels are fictional identities, not sequence or cell-count results. Read abundance is not automatically cell abundance; pairing does not establish antigen specificity, function or killing.",
+  "caption": "A shared beta label can hide different alpha chains; this invented cell-linked schematic distinguishes one-chain identity from a paired receptor identity.",
+  "nativeCaptureReview": "Author personally read final 10 fresh capture variants per owner (native light/dark; inline mobile 390\u00d7844 and desktop 1440\u00d71700; theater mobile390\u00d7844 and desktop1440\u00d71000). Author self-check only; independent review pending. See display-checks.private.json and personal-inspection.private.json. Enter/Escape work; inherited focus-return false.",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "independentReviewer": null,
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "status": "private prospective creative draft; no canonical adoption/live approval",
+  "coverageCredit": 0
+}

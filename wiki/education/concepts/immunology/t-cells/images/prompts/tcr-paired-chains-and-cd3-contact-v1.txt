@@ -1,0 +1,26 @@
+Original hand-authored educational SVG design brief
+Actual creative author: agent:/root/batch09_author_group1
+Teaching baseline: b8c381d6ad94c0377939ee2bc4e54ff4088c70ea
+Prospective task: next-gap-209
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/225
+Frozen row SHA256: a5006768ba20bd91eb5362646fb45a9ed75b45b9a8d7d3ba7456140eb9a429c5
+Canonical owner: wiki/education/concepts/immunology/t-cells/t-cell-receptor.md
+Target section: ## How it works
+Learner task: Locate the paired recognition chains, variable contact loops and separate CD3 signaling complex at a peptide-HLA encounter.
+Exact gap: The chain separates recognition from response but does not show the structural pairing or CDR3 location. A compact contact cutaway would support understanding why beta-only sequence and CDR3 alone are incomplete identities.
+Guardrails verbatim: ["HLA holds the peptide; do not draw a peptide pocket in TCR.", "Both chains and other regions contribute to specificity.", "A schematic contact is not an exhaustive cross-reactivity or safety test."]
+
+Design: Original 600 x 900 canvas with transparent outer margins and an inset rounded teaching card. The filled card keeps all labels readable against the ImageTheater backdrop; vertically stacked physical scenes sit within it. Consistent folded domain outlines, peptide/linker paths, membrane beads, cell boundaries and nuclei, labelled callouts and restrained accents. Rounded friendly geometry without implying molecules consciously choose cells. Blue/teal/purple domains and rose contact or cargo marks are repeated with textual labels; color is not the sole identity. All source geometry and text are identical across themes; only palette tokens change. Minimum essential text 26 SVG units. Native browser plus private pinned reader inline/theater checks required at 390px mobile and 1440px desktop.
+
+Scene alt: A cutaway shows paired TCR alpha and beta recognition chains crossing the T-cell membrane beside separate CD3 signaling partners. Rose CDR3 and other contact loops face a peptide held by HLA on the target cell; no TCR peptide pocket is shown. Contact is not a safety or killing test.
+Caption: The paired TCR contacts peptide and HLA together, while CD3 carries signals. Both chains and other contact regions matter; this schematic is not a cross-reactivity or safety test.
+
+Scope: Add only the image/caption to the exact target section; preserve original teaching, diagrams, source list, metadata and navigation byte-for-byte after removing this insertion. All sizes/contact/track shapes are schematic, not atomic coordinates. No numerical efficacy comparison or dosing claim.
+
+Method: Hand-authored source-code SVG; image generator calls 0; image model null. No source figure was copied. Prior Mermaid authors unknown, preserved as prior teaching. Independent science/source-fit and pixel review pending; clinician/domain-expert and learner review pending; integration, future execution, adoption, delivery and live approval pending. No coverage credit.
+
+Primary/official read bounds:
+{"url": "https://pubmed.ncbi.nlm.nih.gov/31461748/", "retrievedAt": "2026-10-13", "readBounds": "PubMed indexed abstract, complete abstract read; publisher full-text fetch failed.", "supports": "TCR alpha/beta and associated CD3 assembly.", "limitations": ["CD3 partners cartoon is symbolic, not stoichiometric or atomic."]}
+{"url": "https://pubmed.ncbi.nlm.nih.gov/8906788/", "retrievedAt": "2026-10-13", "readBounds": "PubMed indexed abstract, complete abstract read.", "supports": "Variable loops contact peptide-HLA surface.", "limitations": ["One complex; contact geometries are schematic."]}
+{"url": "https://www.ncbi.nlm.nih.gov/books/NBK27145/", "retrievedAt": "2026-10-13", "readBounds": "Official textbook indexed section on CDR3 center and other loops; direct page returned challenge.", "supports": "CDR3 loops from both chains at binding face with other CDR regions.", "limitations": ["Bounded indexed text, no full chapter access."]}
+{"url": "https://pubmed.ncbi.nlm.nih.gov/17559580/", "retrievedAt": "2026-10-13", "readBounds": "Europe PMC MED record abstract, complete abstract read.", "supports": "A particular TCR can cross-react with peptide-HLA complexes.", "limitations": ["No exhaustive cross-reactivity or safety test."]}

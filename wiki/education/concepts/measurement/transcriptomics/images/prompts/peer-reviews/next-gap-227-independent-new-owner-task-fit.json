@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-227",
+  "owner": "wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md",
+  "author": "agent:/root/batch09_author_group3",
+  "reviewer": "agent:/root/batch09_review_group3",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+      "sha256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+      "bytes": 7316,
+      "theme": "dark"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+      "sha256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265",
+      "bytes": 7316,
+      "theme": "light"
+    }
+  ],
+  "sourceFitAssessment": {
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/325",
+    "frozenRowSHA256": "1099cc0fe737df0b7227697733b34d8d1a3ca7dd1eee72839426e92394e7e5e9",
+    "baselinePageSHA256": "257628a3eb836f7030be2c9503225120da4b8072c535b6efc15948d3fce5610b",
+    "learnerTask": "See whole-cell versus nuclear compartment and recovered barcode limits",
+    "gap": "Current branches do not depict cytosolic/nuclear RNA or doublets",
+    "accuracyGuardrails": "Show whole-cell and nuclear RNA compartments, recovery/barcode units and possible doublets. Preparation/capture bias affects the recovered set; absence of a cell/state is not biological absence, and barcodes are not automatically one pure cell.",
+    "targetSection": "How it works",
+    "currentVisualFit": "adequate",
+    "reasoning": "Whole-cell drawing contains nuclear and cytoplasmic RNA, isolated nucleus only nuclear RNA; A/B droplet examples and two-cell C doublet show compartment barcode limits. Source/recovery geometry loses one toy population and includes ambient RNA; missing recovery is not biological absence.",
+    "humanReview": "pending",
+    "assessmentQualification": "Existing bounded independent agent task-fit decision, serialized for maintained collector; no new assessment or credit."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md",
+        "sha256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+        "bytes": 9777
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+        "sha256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265",
+        "bytes": 7316
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+        "sha256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+        "bytes": 7316
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/cell-nucleus-rna-and-recovery-barcodes-v1.txt",
+        "sha256": "01117e3ba69b94ad2ac7ca46f1498b90b444e21415382c58e35e058cb0a59ae1",
+        "bytes": 2157
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/cell-nucleus-rna-and-recovery-barcodes-v1-provenance.json",
+        "sha256": "6083e2352d401ac79d938fbdb04470807c79f680e483338d6085f75a40f283d2",
+        "bytes": 6302
+      }
+    ],
+    "currentPrivatePaths": [
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/cell-nucleus-rna-and-recovery-barcodes-v1.txt",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/transcriptomics/images/prompts/cell-nucleus-rna-and-recovery-barcodes-v1.txt"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/cell-nucleus-rna-and-recovery-barcodes-v1-provenance.json",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/transcriptomics/images/prompts/cell-nucleus-rna-and-recovery-barcodes-v1-provenance.json"
+      }
+    ],
+    "authorPredecessorSealSHA256": "f5b7ab7806db927d0163a55ebf1e786f3500193156f40afe9242fb924147463f",
+    "authorFocusedCorrectionSealSHA256": "7935800577f1c99bc45830b28faf137104724c51c9c81f6802ac1a1e933ede8d",
+    "currentAuthorCompositeInventorySHA256": "c8c52d2e2fedccfadf3b96ab0fd124e6a947cfe29a7544941cc218fdf33c56b0",
+    "originalWholeReviewSealSHA256": "9e39c39e89b16ac581858cd0a36b9fa61700ef40d1383455e4258335185ed494",
+    "focusedReviewSealSHA256": "d045d4f86c6c196c776807d5c1b983ebaba7e389d2a7255b433560620809f3e2"
+  },
+  "reviewerIndependentOfCreativeAuthor": true,
+  "integrator": "agent:/root",
+  "schemaProjectionAtUTC": "2026-10-13T23:14:43.253866+00:00",
+  "basisDecision": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-227-independent-new-owner-task-fit.json",
+    "sha256": "d8fcbf0968429d8eca867ebc4a5d636e07fecd463d19500a4b6c8511d9d2bb15",
+    "status": "PASS",
+    "noNewReview": true
+  },
+  "teachingSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "teachingPreimageSHA256": "035d2ff02aa11b6f14592bedd6bd9fa6985f52af2b344cfa130c5812b7e05ab1",
+  "captureEvidence": {
+    "priorWholeTaskReceipt": {
+      "path": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-227-independent-new-owner-task-fit.json",
+      "sha256": "d8fcbf0968429d8eca867ebc4a5d636e07fecd463d19500a4b6c8511d9d2bb15",
+      "status": "PASS"
+    },
+    "priorNativeCaptures": [
+      {
+        "key": "next-gap-227",
+        "theme": "light",
+        "nativeSHA256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-light-reading.png",
+        "captureSHA256": "4ac8da970c47e8bf4f246b49d32e25c53da2bc75f29aea21f2afdba09a08b3ff",
+        "viewBox": "0 0 600 900",
+        "textCount": 15,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Which RNA was recovered?",
+            "x": 32,
+            "y": 20,
+            "width": 423.8125,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Which barcode holds it?",
+            "x": 32,
+            "y": 56,
+            "width": 371.5625,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  RNA comes from compartments",
+            "x": 32,
+            "y": 136,
+            "width": 482.34375,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Whole cell",
+            "x": 58,
+            "y": 175,
+            "width": 138.46875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Nucleus",
+            "x": 357,
+            "y": 175,
+            "width": 108.9375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Nuclear + cytoplasmic",
+            "x": 39,
+            "y": 305,
+            "width": 274.65625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Nuclear RNA",
+            "x": 354,
+            "y": 305,
+            "width": 163.419921875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  A barcode labels a droplet",
+            "x": 32,
+            "y": 380,
+            "width": 397.90625,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "A",
+            "x": 96.8828125,
+            "y": 538,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "B",
+            "x": 289.8828125,
+            "y": 538,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "C: doublet",
+            "x": 423.7890625,
+            "y": 538,
+            "width": 138.421875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  Recovery filters the starting set",
+            "x": 32,
+            "y": 618,
+            "width": 473.515625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Lost in recovery does not mean absent.",
+            "x": 32,
+            "y": 728,
+            "width": 490.296875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy cells + barcodes; capture is partial.",
+            "x": 32,
+            "y": 801,
+            "width": 483.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Ambient RNA and identity need checks.",
+            "x": 31.958984375,
+            "y": 835,
+            "width": 491.884765625,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      },
+      {
+        "key": "next-gap-227",
+        "theme": "dark",
+        "nativeSHA256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-dark-reading.png",
+        "captureSHA256": "8eee4e1e067696671ef8e83e8b9f7fba10d471af4168e74a66751b149bf530fe",
+        "viewBox": "0 0 600 900",
+        "textCount": 15,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Which RNA was recovered?",
+            "x": 32,
+            "y": 20,
+            "width": 423.8125,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Which barcode holds it?",
+            "x": 32,
+            "y": 56,
+            "width": 371.5625,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  RNA comes from compartments",
+            "x": 32,
+            "y": 136,
+            "width": 482.34375,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Whole cell",
+            "x": 58,
+            "y": 175,
+            "width": 138.46875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Nucleus",
+            "x": 357,
+            "y": 175,
+            "width": 108.9375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Nuclear + cytoplasmic",
+            "x": 39,
+            "y": 305,
+            "width": 274.65625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Nuclear RNA",
+            "x": 354,
+            "y": 305,
+            "width": 163.419921875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  A barcode labels a droplet",
+            "x": 32,
+            "y": 380,
+            "width": 397.90625,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "A",
+            "x": 96.8828125,
+            "y": 538,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "B",
+            "x": 289.8828125,
+            "y": 538,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "C: doublet",
+            "x": 423.7890625,
+            "y": 538,
+            "width": 138.421875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  Recovery filters the starting set",
+            "x": 32,
+            "y": 618,
+            "width": 473.515625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Lost in recovery does not mean absent.",
+            "x": 32,
+            "y": 728,
+            "width": 490.296875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy cells + barcodes; capture is partial.",
+            "x": 32,
+            "y": 801,
+            "width": 483.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Ambient RNA and identity need checks.",
+            "x": 31.958984375,
+            "y": 835,
+            "width": 491.884765625,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      }
+    ],
+    "priorDisplayCaptures": [
+      {
+        "key": "next-gap-227",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265",
+        "candidateSHA256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 325.328125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-light-mobile-inline.png",
+            "sha256": "fad13cd9b7b4e504ab091360aab7877e1135b653db7563161248228e1503f850"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-light-mobile-theater.png",
+            "sha256": "57b5e8b79ad76783a959a37fd5619a062a0cfaa77c3d085d4605e3b9a3a16f43"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-227",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265",
+        "candidateSHA256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 100.453125,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-light-desktop-inline.png",
+            "sha256": "9e96e5ab4180901b5450cb2a62afe0450907bf7c2cb3b18d8c70f4027b62918d"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-light-desktop-theater.png",
+            "sha256": "8bb703f0080130a263e0a61baebdc47a166c6aeeb122fd9eff20e78ce83f6d17"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-227",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+        "candidateSHA256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 325.328125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-dark-mobile-inline.png",
+            "sha256": "8df67643483ea8a251489577e8f199e6dba19f4408df892783b1a8718450d30b"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-dark-mobile-theater.png",
+            "sha256": "7c3fc6a8d8ff6d244f6714f63e7996247849311c24eac057ff78a12e9e1d29b3"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-227",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+        "candidateSHA256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 100.453125,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ftranscriptomics%2Fimages%2Fcell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-dark-desktop-inline.png",
+            "sha256": "b8d1bb1eca8cb71cd3b82f34a06890bd8a4404bef153113b0a9f0fa8c8d4063b"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-227-dark-desktop-theater.png",
+            "sha256": "108a7fc142b169d570356df0f7e0c762f37426635c797b5f72804ee7db77db9f"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      }
+    ],
+    "newCaptures": 0,
+    "newScientificReads": 0,
+    "qualification": "Existing genuinely personally inspected capture evidence remains byte-bound to its original SVG and owner hashes. No new current-hash capture asserted during schema projection."
+  },
+  "primarySourceEvidence": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/independent-source-read-receipt.json",
+    "sha256": "013b60b7df73c2d0a78b7fa4219bf310c9368881ecc7c281a411407af545ef0e",
+    "sources": [
+      {
+        "tasks": [
+          227
+        ],
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0209648",
+        "title": "Bakken 2018 primary mouse cortical comparison",
+        "readBounds": "Abstract lines 291-294; intronic/exonic result paragraphs lines 336-358 and compartment discussion lines 390-398",
+        "supports": "Whole-cell and nuclear compartments differ; nuclear intronic material and method-dependent recovered profiles.",
+        "access": "Named full-text paragraphs; not complete paper.",
+        "limitations": "Mouse cortex; no universal tumor ranking or quantitative recovery claim.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      },
+      {
+        "tasks": [
+          227
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5241818/fullTextXML",
+        "title": "Zheng 2017 primary droplet study",
+        "readBounds": "Introductory system paragraph, GemCode technology paragraph and Figure 1 caption in independently retrieved XML",
+        "supports": "GEM barcode labels compartment, UMI labels molecules, limiting loading reduces multiple-cell occurrence.",
+        "access": "Actual named primary manuscript paragraphs/caption; publisher cookie error limits rendered access; not complete paper.",
+        "limitations": "Does not certify one pure cell per barcode or cover every RNA chemistry.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      },
+      {
+        "tasks": [
+          227
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7763177/fullTextXML",
+        "title": "Young and Behjati 2020 SoupX primary study",
+        "readBounds": "Abstract closing paragraph and first two Introduction paragraphs describing doublets, empty droplets and cell-free RNA",
+        "supports": "Ambient RNA and multiple-cell droplets violate pure one-cell assumptions.",
+        "access": "Actual independently retrieved manuscript paragraphs; not complete study.",
+        "limitations": "No correction guarantee or operational filter threshold imported.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      }
+    ],
+    "qualification": "Original actual bounded primary reads and original access limits retained. No new retrieval, science read or full-paper/expert approval."
+  },
+  "qualifications": [
+    "Pinned renderer keyboard Enter opens and Escape closes in all tested cases; focus returns to opener in 0/24 across the group. Unchanged runtime observation remains unresolved; no accessibility approval.",
+    "Public article fixture uses exact pinned compiler/components/shared CSS with literal theme utility rules; no full app/live data or routing approval.",
+    "Future source and destination null; Root must rebind actual owner bytes and ownership before adoption.",
+    "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+    "The shared pinned renderer BODY-focus observation remains qualified. This reviewer independently measured opener return in 0/24, without recording activeElement tag; no additional BODY check occurred during schema projection.",
+    "This is schema-only serialization of existing genuine same-reviewer decisions, with no source, pixel, scientific or native rerun. It is not adoption, completed delivery, clinical/domain-expert or learner approval.",
+    "SourceFitAssessment adequate is bounded agent assessment of the exact frozen learner task, not source-fit coverage credit or human approval."
+  ],
+  "metadataReadSequencingDisclosure": "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+  "knownRendererFocusReturn": {
+    "returned": 0,
+    "cases": 24,
+    "BODYQualification": "Shared known observation retained; independent review measured opener return only. No full accessibility approval."
+  },
+  "inverseBodyPreservation": true,
+  "originalCreatorsRemainUnknown": true,
+  "allToyGraphicNumbersAndCountsInvented": true,
+  "humanReview": "pending",
+  "learnerReview": "pending",
+  "scientificExpertApproval": false,
+  "sourceFitApproval": false,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "canonicalAdoption": false,
+  "liveApproval": false,
+  "delivery": "pending",
+  "release": "pending",
+  "repoGitRegistryPipelineRuntimePublisherCacheWrites": false
+}

@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-226",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+  "author": "agent:/root/batch09_author_group3",
+  "reviewer": "agent:/root/batch09_review_group3",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+      "sha256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+      "bytes": 4814,
+      "theme": "dark"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg",
+      "sha256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a",
+      "bytes": 4814,
+      "theme": "light"
+    }
+  ],
+  "sourceFitAssessment": {
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/303",
+    "frozenRowSHA256": "ff46383757099c54de0787566fd8b3ebea4ebe02e286924a29a50961829b1dae",
+    "baselinePageSHA256": "21f8f4ed4c6d19f69927b1d8c2b0eb968571b016d94261bfd292dd151b54106e",
+    "learnerTask": "Compare assay territory without turning breadth into sensitivity",
+    "gap": "Table names regions but does not show gaps or uneven depth",
+    "accuracyGuardrails": "Show selected territories and uneven/local depth as different dimensions. Broader assay scope is not uniformly better sensitivity, all-variant detection, or clinical utility.",
+    "targetSection": "How it works",
+    "currentVisualFit": "adequate",
+    "reasoning": "Preserved old native art supplies category territory and potential evidence gaps but explicitly leaves depth unspecified. Complementary aligned-read inset counts four reads at P, two at Q and zero usable reads at targeted R. Selection and local evidence are separate; breadth does not rank sensitivity.",
+    "humanReview": "pending",
+    "assessmentQualification": "Existing bounded independent agent task-fit decision, serialized for maintained collector; no new assessment or credit."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+        "sha256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+        "bytes": 10190
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg",
+        "sha256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a",
+        "bytes": 4814
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+        "sha256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+        "bytes": 4814
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/sequencing-territory-and-local-depth-v1.txt",
+        "sha256": "815cf01d5c3537dde26824f0e9360df3ab6b2461aa1e4ce2d9c7a379b7a24a65",
+        "bytes": 2023
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/sequencing-territory-and-local-depth-v1-provenance.json",
+        "sha256": "721942a8d0f9f49ee17cc46b886c9df32353783d32a12f3239e1d6a937981688",
+        "bytes": 6118
+      }
+    ],
+    "currentPrivatePaths": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/sequencing-territory-and-local-depth-v1.txt",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/sequencing-basics/images/prompts/sequencing-territory-and-local-depth-v1.txt"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/sequencing-territory-and-local-depth-v1-provenance.json",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/sequencing-basics/images/prompts/sequencing-territory-and-local-depth-v1-provenance.json"
+      }
+    ],
+    "authorPredecessorSealSHA256": "f5b7ab7806db927d0163a55ebf1e786f3500193156f40afe9242fb924147463f",
+    "authorFocusedCorrectionSealSHA256": "7935800577f1c99bc45830b28faf137104724c51c9c81f6802ac1a1e933ede8d",
+    "currentAuthorCompositeInventorySHA256": "c8c52d2e2fedccfadf3b96ab0fd124e6a947cfe29a7544941cc218fdf33c56b0",
+    "originalWholeReviewSealSHA256": "9e39c39e89b16ac581858cd0a36b9fa61700ef40d1383455e4258335185ed494",
+    "focusedReviewSealSHA256": "d045d4f86c6c196c776807d5c1b983ebaba7e389d2a7255b433560620809f3e2"
+  },
+  "reviewerIndependentOfCreativeAuthor": true,
+  "integrator": "agent:/root",
+  "schemaProjectionAtUTC": "2026-10-13T23:14:43.253866+00:00",
+  "basisDecision": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-226-independent-new-owner-task-fit.json",
+    "sha256": "040d7a26130b6a1d5523aec89d4daaae733852dbf8ed7d73a043650103e597dd",
+    "status": "PASS",
+    "noNewReview": true
+  },
+  "teachingSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "teachingPreimageSHA256": "0d759d0fac9e7f725c0c97f2c81ee747e134d3b442905c0e7d1c7a98f89f975d",
+  "captureEvidence": {
+    "priorWholeTaskReceipt": {
+      "path": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-226-independent-new-owner-task-fit.json",
+      "sha256": "040d7a26130b6a1d5523aec89d4daaae733852dbf8ed7d73a043650103e597dd",
+      "status": "PASS"
+    },
+    "priorNativeCaptures": [
+      {
+        "key": "next-gap-226",
+        "theme": "light",
+        "nativeSHA256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-light-reading.png",
+        "captureSHA256": "2704815568d1573427b0f23c56b978c435c2096d5250b03f1278f58ca9bac13b",
+        "viewBox": "0 0 600 900",
+        "textCount": 14,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Territory asks \u201cwhere?\u201d",
+            "x": 32,
+            "y": 20,
+            "width": 362.21875,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Depth asks \u201chow many?\u201d",
+            "x": 32,
+            "y": 56,
+            "width": 387.640625,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Mark the intended territory",
+            "x": 32,
+            "y": 136,
+            "width": 405.09375,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Selected region",
+            "x": 108,
+            "y": 208,
+            "width": 194.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Outside this design \u2260 measured zero.",
+            "x": 32,
+            "y": 259,
+            "width": 463.609375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Count reads at a local position",
+            "x": 32,
+            "y": 352,
+            "width": 461.75,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Invented aligned reads",
+            "x": 60,
+            "y": 386,
+            "width": 283.328125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "P: 4\u00d7",
+            "x": 190.1484375,
+            "y": 543,
+            "width": 67.703125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Q: 2\u00d7",
+            "x": 385.59375,
+            "y": 543,
+            "width": 70.8125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  A targeted position can have a gap",
+            "x": 32,
+            "y": 626,
+            "width": 519.578125,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "R",
+            "x": 299.8828125,
+            "y": 680,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "R: 0\u00d7 usable reads in this toy example.",
+            "x": 42,
+            "y": 727,
+            "width": 483.265625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "These values are not clinical thresholds.",
+            "x": 32,
+            "y": 801,
+            "width": 498.046875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Breadth alone does not rank sensitivity.",
+            "x": 32,
+            "y": 835,
+            "width": 486.65625,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      },
+      {
+        "key": "next-gap-226",
+        "theme": "dark",
+        "nativeSHA256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-dark-reading.png",
+        "captureSHA256": "3ee0eb4a89f342c4cb16fb6270e4b286d64a80fed308984cee79453eb3cabc26",
+        "viewBox": "0 0 600 900",
+        "textCount": 14,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Territory asks \u201cwhere?\u201d",
+            "x": 32,
+            "y": 20,
+            "width": 362.21875,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Depth asks \u201chow many?\u201d",
+            "x": 32,
+            "y": 56,
+            "width": 387.640625,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Mark the intended territory",
+            "x": 32,
+            "y": 136,
+            "width": 405.09375,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Selected region",
+            "x": 108,
+            "y": 208,
+            "width": 194.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Outside this design \u2260 measured zero.",
+            "x": 32,
+            "y": 259,
+            "width": 463.609375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Count reads at a local position",
+            "x": 32,
+            "y": 352,
+            "width": 461.75,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Invented aligned reads",
+            "x": 60,
+            "y": 386,
+            "width": 283.328125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "P: 4\u00d7",
+            "x": 190.1484375,
+            "y": 543,
+            "width": 67.703125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Q: 2\u00d7",
+            "x": 385.59375,
+            "y": 543,
+            "width": 70.8125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  A targeted position can have a gap",
+            "x": 32,
+            "y": 626,
+            "width": 519.578125,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "R",
+            "x": 299.8828125,
+            "y": 680,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "R: 0\u00d7 usable reads in this toy example.",
+            "x": 42,
+            "y": 727,
+            "width": 483.265625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "These values are not clinical thresholds.",
+            "x": 32,
+            "y": 801,
+            "width": 498.046875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Breadth alone does not rank sensitivity.",
+            "x": 32,
+            "y": 835,
+            "width": 486.65625,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      }
+    ],
+    "priorDisplayCaptures": [
+      {
+        "key": "next-gap-226",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a",
+        "candidateSHA256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 325.328125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-light-mobile-inline.png",
+            "sha256": "7687323bd50073519502d03beee763c24e2cfd80bdec15fe371c148dc2104c5a"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-light-mobile-theater.png",
+            "sha256": "add89aa548cb7ffa4a82d94dd03cab5f39c9ffc68cbaaea909367f0120b8ecc6"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-226",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a",
+        "candidateSHA256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 100.34375,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-light-desktop-inline.png",
+            "sha256": "6b4760a75e7074bbe6f5032968004048731b7e03070707cc1ba77f0d325c0a1f"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-light-desktop-theater.png",
+            "sha256": "0cc5a03294e0973c38973c60f8a07b6be0edadb7476948583c908f40861470b8"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-226",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+        "candidateSHA256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 325.328125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-dark-mobile-inline.png",
+            "sha256": "646bc60b4c15338962c0f93b16687bf59f8bada5be4d4b27bc736f2d3fc10afa"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-dark-mobile-theater.png",
+            "sha256": "a32996e28347e5fb87b054b469d6ca294d3ec8af696a95a3422c379d57962400"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-226",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+        "candidateSHA256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 100.34375,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Fsequencing-territory-and-local-depth-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-dark-desktop-inline.png",
+            "sha256": "01087fffda11a6762dabc3714080a77464c0b2aa4b4d2a6b8cef48c5b01ca507"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-226-dark-desktop-theater.png",
+            "sha256": "7cdb3851cb585f971c7f1dc8fdc21a59bb85ce58a77ed8771272c601ce2b3e8d"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      }
+    ],
+    "newCaptures": 0,
+    "newScientificReads": 0,
+    "qualification": "Existing genuinely personally inspected capture evidence remains byte-bound to its original SVG and owner hashes. No new current-hash capture asserted during schema projection."
+  },
+  "primarySourceEvidence": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/independent-source-read-receipt.json",
+    "sha256": "013b60b7df73c2d0a78b7fa4219bf310c9368881ecc7c281a411407af545ef0e",
+    "sources": [
+      {
+        "tasks": [
+          226
+        ],
+        "url": "https://source.yiboshi.com/20170414/1492164501690573109.pdf",
+        "title": "AMP/CAP 2017 mirrored publisher proof",
+        "readBounds": "Independently downloaded PDF text Establishing Criteria for Depth of Sequencing lines 714-756; depth/uniformity/GC table lines 1514-1535",
+        "supports": "Depth counts aligned reads containing a nucleotide position; usable depth and uniformity are local and assay-dependent.",
+        "access": "Actual primary guideline proof via secondary host; official PMC yielded reCAPTCHA and web mirror open failed, direct retrieval succeeded.",
+        "limitations": "PDF identifies JMDI589_proof dated 21 March 2017. May differ from final version. No guideline cutoff, recommendation, probability or clinical threshold adopted.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      }
+    ],
+    "qualification": "Original actual bounded primary reads and original access limits retained. No new retrieval, science read or full-paper/expert approval."
+  },
+  "qualifications": [
+    "Pinned renderer keyboard Enter opens and Escape closes in all tested cases; focus returns to opener in 0/24 across the group. Unchanged runtime observation remains unresolved; no accessibility approval.",
+    "Public article fixture uses exact pinned compiler/components/shared CSS with literal theme utility rules; no full app/live data or routing approval.",
+    "Future source and destination null; Root must rebind actual owner bytes and ownership before adoption.",
+    "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+    "The shared pinned renderer BODY-focus observation remains qualified. This reviewer independently measured opener return in 0/24, without recording activeElement tag; no additional BODY check occurred during schema projection.",
+    "This is schema-only serialization of existing genuine same-reviewer decisions, with no source, pixel, scientific or native rerun. It is not adoption, completed delivery, clinical/domain-expert or learner approval.",
+    "SourceFitAssessment adequate is bounded agent assessment of the exact frozen learner task, not source-fit coverage credit or human approval.",
+    "AMP/CAP local-depth support was actually read via a secondary-hosted 21 March 2017 publisher proof, potentially different from the final version; no guideline threshold or recommendation imported."
+  ],
+  "metadataReadSequencingDisclosure": "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+  "knownRendererFocusReturn": {
+    "returned": 0,
+    "cases": 24,
+    "BODYQualification": "Shared known observation retained; independent review measured opener return only. No full accessibility approval."
+  },
+  "inverseBodyPreservation": true,
+  "originalCreatorsRemainUnknown": true,
+  "allToyGraphicNumbersAndCountsInvented": true,
+  "humanReview": "pending",
+  "learnerReview": "pending",
+  "scientificExpertApproval": false,
+  "sourceFitApproval": false,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "canonicalAdoption": false,
+  "liveApproval": false,
+  "delivery": "pending",
+  "release": "pending",
+  "repoGitRegistryPipelineRuntimePublisherCacheWrites": false,
+  "preservedOriginal226Art": {
+    "custodyReceipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/original226-custody.json",
+    "sha256": "f018aa70d6d24136f8c681dbf2579f8280b24354481d1ca686b6c6a8f12518f7",
+    "fiveOriginalFiles": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-light.svg",
+        "sha256": "1cf32ad6e08258d3aa933490c0886ad7eec5db3df11f5f3e81aea95d68b465c2",
+        "bytes": 7082,
+        "creator": null,
+        "archiveContentsRead": false
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
+        "sha256": "b31bf9536033df6eb073f9260895737a227bdefe481675cd03e18cba52e888f2",
+        "bytes": 7082,
+        "creator": null,
+        "archiveContentsRead": false
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/panel-exome-genome-comparison-territory-v1.txt",
+        "sha256": "704d81f10eadb69bc0aec513e744fef58585be12ca26878f6ae1be4b857453d7",
+        "bytes": 2313,
+        "creator": null,
+        "archiveContentsRead": false
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/panel-exome-genome-comparison-territory-v1-provenance.json",
+        "sha256": "f7c42665c3ed97bea39844dd5dcf80d7284f9ead4a77285a3c0e6b379da8aeed",
+        "bytes": 4041,
+        "creator": null,
+        "archiveContentsRead": false
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/panel-exome-genome-comparison-territory-v1-provenance.zip",
+        "sha256": "aac5e6378a483a011bca0220896e2ce9bf9578e90dab3b9e15e74322ab87472f",
+        "bytes": 7886,
+        "creator": null,
+        "archiveContentsRead": false
+      }
+    ],
+    "creativeAuthor": null,
+    "attribution": "UNKNOWN creator remains unknown; prior art and approvals not attributed to this new author or reviewer.",
+    "qualification": "The old territory illustration explicitly leaves depth unspecified; the new inset complements it. Source and human credit not inherited."
+  }
+}

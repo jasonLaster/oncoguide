@@ -45,6 +45,10 @@ flowchart TD
 
 ### Two scores combine different information
 
+<img src="./images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg" alt="One hundred invented eligible cells are represented by 100 circles grouped by staining intensity: 50 unstained, 10 weak, 20 moderate and 20 strong. The same 100-cell denominator gives 50% positive cells, whereas intensity weights one, two and three give H-score 10 plus 40 plus 60 equals 110. Category rows are an explanatory grouping, not tissue geography. Allred is a separate categorical system. Neither quantity is a molecule count, a universal clinical cutoff or an interchangeable assay output." width="780" height="1450" data-theme-pair />
+
+*In the same invented 100-cell set, 50% positive counts stained cells while H-score 110 weights their intensity; Allred remains a separate categorical scale.*
+
 An **H-score** weights each intensity category by its percentage of eligible cells: `1 × weak% + 2 × moderate% + 3 × strong%`. Unstained cells contribute zero. Under this convention the scale is **0–300**, not 0–100%. It is an index, not a protein molecule count.
 
 Historically used for breast hormone-receptor staining, an **Allred score** adds a proportion category to an intensity score. The conventional proportion bins are 0 for no positive cells, 1 for less than 1%, 2 for 1–10%, 3 for 11–33%, 4 for 34–66% and 5 for at least 67%. Intensity contributes 0 for absent staining, or 1/2/3 for weak/moderate/strong staining. Possible totals are **0 and 2–8**. Name the convention; a composite score does not replace marker-specific interpretation.

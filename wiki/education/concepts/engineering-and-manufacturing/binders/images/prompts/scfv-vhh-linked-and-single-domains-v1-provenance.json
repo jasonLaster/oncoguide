@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-hand-authored-educational-svg",
+  "actualCreativeAuthor": "agent:/root/batch09_author_group1",
+  "integrator": "agent:/root",
+  "method": "hand-authored source-code SVG",
+  "model": null,
+  "imageCalls": 0,
+  "prospectiveTaskId": "next-gap-208",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/127",
+  "frozenRowSHA256": "b20f34a98759c884587ae09ba599693d2b54a2d354c43bcaeba89ec6bcb30890",
+  "canonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+  "teachingBaseline": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "learnerTask": "Recognize two linked variable domains in an scFv versus one VHH domain, distinct from a whole antibody or cell.",
+  "gap": "The current boxes name architectures but do not depict the paired domains and linker.",
+  "accuracyGuardrails": "Depict an scFv as two variable domains plus linker and VHH as one variable domain; distinguish both from a whole antibody or cell. Molecular size, scale and therapeutic performance are schematic, not comparative evidence.",
+  "before": {
+    "sha256": "1dcd432bed7009683c43ac2c0d88ce14c641e32012d602ee3adf601ac84ae863",
+    "bytes": 8294
+  },
+  "bodyPreservation": "Remove exact illustration/caption insertion to recover baseline bytes; existing frontmatter, prose, diagrams, citations, practice and navigation retained.",
+  "priorVisuals": {
+    "mermaid": [
+      {
+        "section": "## How it works",
+        "sourceSHA256": "64b026bfccedfad52f316e2ddd36f5b58b3e4756dfe9336054eef0b9abb7eb39",
+        "source": "%%{init: {\"htmlLabels\":false,\"flowchart\":{\"htmlLabels\":false,\"padding\":8,\"nodeSpacing\":25}}}%%\nflowchart TD\n  A[\"Antibody-derived<br/>binding region\"] --> B[\"scFv<br/>two domains<br/>+ linker\"]\n  A --> C[\"VHH<br/>one domain\"]\n  B --> D[\"Specified<br/>therapy format\"]\n  C --> D\n  D --> E[\"Test binding<br/>and cell behavior\"]\n",
+        "creativeAuthor": null,
+        "attributionQualification": "Mermaid creator unknown; no authorship inference."
+      }
+    ],
+    "rasterEmbeds": [],
+    "interactive": false,
+    "svg": false,
+    "table": false
+  },
+  "priorCreativeAuthors": "unknown unless roster states otherwise; no borrowed identity",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3045807/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "PubMed indexed abstract, complete abstract read; direct open initially returned footer only.",
+      "supports": "scFv VH and VL linked in one polypeptide.",
+      "limitations": [
+        "No full-paper read or generic performance comparison."
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/363446a0",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Publisher abstract paragraphs only; subscription body not accessed.",
+      "supports": "Camelid heavy-chain antibodies lack light chains.",
+      "limitations": [
+        "Whole antibody differs from isolated VHH."
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nsb0996-803",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Publisher abstract only, paragraphs 1–2.",
+      "supports": "One camel antibody variable domain binds lysozyme.",
+      "limitations": [
+        "One structural example; no universal affinity or size claim."
+      ]
+    }
+  ],
+  "caption": "An scFv links two variable domains in one chain; a VHH is one domain. Both are modules, distinct from a whole antibody or cell, and schematic size does not rank performance.",
+  "alt": "Two linked folded variable domains, VH and VL, form the scFv, while one folded VHH forms a nanobody; a whole antibody and a whole cell are drawn as separate objects. Molecular scale and performance are not compared.",
+  "canvas": {
+    "width": 600,
+    "height": 900,
+    "transparent": true,
+    "transparencyScope": "outer margin around inset filled teaching card; no full-canvas background rectangle",
+    "essentialMinFontUnits": 26,
+    "themeGeometry": "Identical source geometry and wording; palette-only substitutions"
+  },
+  "toyData": null,
+  "independentReview": "pending",
+  "humanExpertAndLearnerReview": "pending",
+  "canonicalAdoption": false,
+  "delivery": "pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "frozenOriginalOwnerSHA256": "fe77f0c4e38f7ed88c8cb771db47363a7246ef55f446a94b5f6fedd64f723b54",
+  "frozenOriginalOwnerDifferentFromTeachingPreimage": true,
+  "targetSection": "## How it works",
+  "authorInspection": {
+    "status": "completed, author observation only",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeCanvas": [
+      600,
+      900
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "captureCount": 10,
+    "minMobileInlineLabelPx": 14.993333333333334,
+    "minMobileTheaterLabelPx": 14.82,
+    "lightTheaterContrast": "Inset filled teaching card; transparent outer margins remain.",
+    "keyboard": "Enter opened and Escape closed; focus return failure observed on unchanged renderer; unresolved.",
+    "independentReview": "pending",
+    "humanReview": "pending"
+  },
+  "artifactIdentities": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "sha256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "bytes": 8839
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-light.svg",
+      "sha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "bytes": 6519
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-dark.svg",
+      "sha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "bytes": 6519
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/scfv-vhh-linked-and-single-domains-v1.txt",
+      "sha256": "afa420e07fb2a413e3a48026eec17f60aa1ba93747fe31aba184588ad79b8b9b",
+      "bytes": 3829
+    }
+  ]
+}

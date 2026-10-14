@@ -1,0 +1,119 @@
+{
+  "prospectiveTaskId": "next-gap-221",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "6f030f1a9a3471679aaf282d0c589dd69df28bf6dc771b2b80fae213fddf29c1",
+  "preimageBytes": 8160,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/289",
+  "frozenRowSHA256": "1e9023d969d39694923065dc633622c8cd07261960aa69602ce542f4c1c4a818",
+  "learnerTask": "Distinguish eligible stromal area from cell percentage and pooled from unweighted regions",
+  "gap": "The current flow names region selection but never shows its area",
+  "accuracyGuardrails": "Use eligible stromal area, not all tissue or tumor-cell percentage, and show pooled-area weighting. The toy pixel/area arithmetic is not a mandated workflow; pretreatment and residual-bed methods are distinct.",
+  "targetSection": "Try it",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-091",
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+      "ownerSHA256": "c3bfd3f2c11e7d1010d009a7c20cec1af62a57403c985f5a297c2cf4c65362ae",
+      "status": "planned",
+      "rowSHA256": "7a24f39de88029a428f2d08504d14657dec78c4ddeb1a54e9f664a20c4558d4d",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": [
+        {
+          "id": "stromal-area-denominator",
+          "reviewer": "measurement-gap-review.json",
+          "productionStatus": null
+        }
+      ]
+    },
+    {
+      "id": "brief-092",
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+      "ownerSHA256": "c3bfd3f2c11e7d1010d009a7c20cec1af62a57403c985f5a297c2cf4c65362ae",
+      "status": "planned",
+      "rowSHA256": "e4871f5e1810c8ee3656453709f7d66135de8ebe6f45516114e3ce507336dac3",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": [
+        {
+          "id": "stromal-area-denominator",
+          "reviewer": "measurement-gap-review.json",
+          "productionStatus": null
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "integrator": "agent:/root",
+  "method": "Original hand-authored editable SVG from Python primitives; no raster image-generation invocation",
+  "imageGenerationInvocation": null,
+  "generatorModel": null,
+  "sourceBodiesRead": "Complete actual b8 public owner body personally read after metadata gate; six gaps remain unresolved before additions",
+  "baselineTextPreservation": "Exact byte equality after removing only inserted image and caption block",
+  "publicMetadataClassification": {
+    "frontmatterSHA256": "6868849ac5ea0cd2f8d3d6c83dc6689daed5bef6854cbc6c5b77ed8d2c2a8ae3",
+    "data": {
+      "title": "Stromal TIL scoring: what the percentage counts",
+      "type": "concept",
+      "domain": "measurement/pathology-readouts",
+      "summary": "A stromal tumor-infiltrating lymphocyte score estimates the percentage of eligible tumor-associated stromal area occupied by mononuclear inflammatory cells.",
+      "glossary_anchor": "stil-scoring",
+      "aliases": [
+        "sTIL",
+        "sTILs",
+        "stils",
+        "stromal TIL",
+        "stromal tumor-infiltrating lymphocytes"
+      ],
+      "level": "foundation",
+      "sensitive": false,
+      "tags": [
+        "education",
+        "measurement"
+      ],
+      "updated": "2026-10-10T00:00:00.000Z",
+      "source_checked": "2026-10-10T00:00:00.000Z",
+      "reviewed": "pending",
+      "reviewed_by": "",
+      "review_status": "Source-checked; expert and learner review pending",
+      "prerequisites": [
+        "[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"
+      ],
+      "used_by": [
+        "[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]",
+        "[[wiki/education/molecular-profiling/04-spatial-biology]]",
+        "[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]",
+        "[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]",
+        "[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"
+      ]
+    },
+    "classificationBeforeBodyExtraction": true,
+    "maintainedPublicGatePassed": true,
+    "redactionGatePassed": true
+  },
+  "sources": [
+    {
+      "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf",
+      "readBounds": "Downloaded primary working-group PDF, selected scoring/exclusion paragraphs and text lines 395\u2013440, 686\u2013709 read; not all clinical association sections or supplements. Additional Table 2 text lines 365\u2013389 personally read.",
+      "supports": "Eligible stromal area, mononuclear infiltrate, overall semiquantitative assessment and exclusions. Pooled toy arithmetic is not mandated clinical method."
+    },
+    {
+      "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/10/Suppl-File-3-Recommendations-for-assessing-tumor-infiltrating-lymphocytes-TILs-in-RD.pdf",
+      "readBounds": "Direct PDF downloaded; extracted section 1, and sections 4\u20135 text lines 1\u201334 and 93\u2013119 personally read. Web opening blocked; no complete supplement review.",
+      "supports": "Residual-bed regional definition differs from the pretreatment invasive-tumor setting; stromal denominator retained."
+    }
+  ],
+  "toyData": "All sample counts, identities, timing, proportions and area geometry invented; not Diana data or thresholds",
+  "altText": "A schematic pretend pretreatment section distinguishes excluded malignant nests and eligible stroma inside invasive-tumor borders. Separate invented area blocks show region A with four equal units of eligible stroma and 0.4 units occupied by infiltrate, and B with one equal unit of stroma and 0.6 occupied units. At the same scale, the pooled-area fraction is 1/5, or 20%; the unweighted regional mean is 35%. Area, not cell count, is the denominator. This toy geometry is not a mandated pixel workflow; pretreatment and residual-bed methods remain distinct.",
+  "caption": "With invented eligible areas of four and one units, pooling occupied area gives 20%; an unweighted 35% mean gives the smaller region too much weight.",
+  "nativeCaptureReview": "Author personally read final 10 fresh capture variants per owner (native light/dark; inline mobile 390\u00d7844 and desktop 1440\u00d71700; theater mobile390\u00d7844 and desktop1440\u00d71000). Author self-check only; independent review pending. See display-checks.private.json and personal-inspection.private.json. Enter/Escape work; inherited focus-return false.",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "independentReviewer": null,
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "status": "private prospective creative draft; no canonical adoption/live approval",
+  "coverageCredit": 0
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "status": "private prospective author artifact",
+  "creativeAuthor": "agent:/root/batch09_author_group3",
+  "integrator": "agent:/root",
+  "owner": "wiki/education/concepts/measurement/functional-models/organoid.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/256",
+  "frozenRowSHA256": "3dff75c7c79dea9a83b26b266cb935ae955ef3611a3844141ae9c2dc51d4e68c",
+  "frozenRowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "54355925aa022593c54b79e7edf37ae03591b030854b5f5299b312d73a991d8f",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "sourceGapFit": "Author personally read full b8 public body after metadata gate; native existing visuals inspected. Exact physical gap remains. This is author assessment, not independent source-fit approval.",
+  "learnerTask": "Identify selected organoid cells and absent or added immune/stromal components.",
+  "gap": "No model schematic shows what self-organization retains versus omits.",
+  "accuracyGuardrails": "Identify retained, selected, missing and deliberately added cell populations. Organoid self-organization does not imply complete source-tissue composition, host immunity or a universal complexity/performance ranking.",
+  "targetSection": "## How it works",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-226",
+      "owner": "wiki/education/concepts/measurement/functional-models/organoid.md",
+      "ownerSHA256": "d840b8a8fab6a699aba53545cb35b5cff1288954afcabf04417e28606ecc5f09",
+      "status": "planned",
+      "rowSHA256": "575733c12de5beac14ca6a8bd82d61632a78bcbb08ab3557b40fab48596d8a89",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    }
+  ],
+  "priorCreators": "Unknown unless explicitly recorded in frozen roster; no attribution inferred.",
+  "medium": "editable hand-authored SVG",
+  "imageGeneration": {
+    "used": false,
+    "model": null,
+    "provider": null,
+    "calls": []
+  },
+  "geometry": "schematic",
+  "toyData": "All graphic counts, labels, values and recovery scenarios invented; no specimen/patient measurements.",
+  "bodyPreservation": "Removing only the exact new image/caption block restores the b8 owner bytes; no corrections or navigation edits.",
+  "independentReview": "pending",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "caption": "Look inside the culture before asking it to answer an immune question. This invented epithelial example retains selected cells, omits immune and stromal neighbors, and treats deliberate additions as a new experiment. Specialized retention is method-specific; organization is not complete tissue or host immunity.",
+  "alt": "Three schematic cards trace a mixed source specimen to a selected epithelial organoid in matrix and then an optional co-culture. Blue round epithelial cells organize around a lumen; rose immune cells and gold spindle-shaped stromal cells are missing from the pictured epithelial culture. Separate added immune and stromal cells enter a new experiment. Shapes and counts are invented, not measured composition. Self-organization does not recreate complete tissue, host immunity or rank model performance.",
+  "sourceReadsReference": "source-claim-mapping.private.json; author source-read bounds and access limits, not scientific approval",
+  "originalFrozenOwnerSHA256": "d840b8a8fab6a699aba53545cb35b5cff1288954afcabf04417e28606ecc5f09",
+  "frozenVsBaselineQualification": "Original frozen audit page differs from b8 teaching page; both hashes retained. Frozen task identity verified from the pinned Git audit row. Author gap confirmation is prospective and not independent approval.",
+  "sourceReads": [
+    {
+      "tasks": [
+        "next-gap-222"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30550791/",
+      "title": "Neal et al. 2018, Organoid Modeling of the Tumor Immune Microenvironment",
+      "readBounds": "Rendered primary-study abstract lines 258\u2013261; displayed figure captions 280\u2013305",
+      "supports": "Conventional epithelial preparations can omit immune/stromal neighbors; specialized air-liquid-interface systems retain selected neighbors. No all-organoid retention or ranking claim.",
+      "limits": "No complete paper or supplementary method read asserted; selected populations depend on system."
+    },
+    {
+      "tasks": [
+        "next-gap-222"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30100188/",
+      "title": "Dijkstra et al. 2018",
+      "readBounds": "Abstract lines 256\u2013260 and displayed Figure 1 caption 280\u2013283",
+      "supports": "Deliberate organoid\u2013lymphocyte co-culture is a separate experimental setup; selected tissue-like organization.",
+      "limits": "Colorectal/lung primary experiments, not universal tumor performance or clinical benefit."
+    }
+  ],
+  "authorNativeInspection": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "captureCount": 10,
+    "personallyInspected": true,
+    "modes": "Both themes, native SVG reading and 390px mobile/1440px desktop inline and theater",
+    "minimumMobileNormalTextContrast": 5.218849426096166,
+    "smallestMobileInlineLabelPx": 16.14666666666667,
+    "smallestMobileTheaterLabelPx": 15.96,
+    "scope": "Private pinned article fixture; author QA only; no live app/full navigation certification.",
+    "knownIssue": "Enter opens and Escape closes; focus did not return to opener in 24/24 display cases. No runtime change."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-hand-authored-educational-svg",
+  "actualCreativeAuthor": "agent:/root/batch09_author_group1",
+  "integrator": "agent:/root",
+  "method": "hand-authored source-code SVG",
+  "model": null,
+  "imageCalls": 0,
+  "prospectiveTaskId": "next-gap-209",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/225",
+  "frozenRowSHA256": "a5006768ba20bd91eb5362646fb45a9ed75b45b9a8d7d3ba7456140eb9a429c5",
+  "canonicalOwner": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+  "teachingBaseline": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "learnerTask": "Locate the paired recognition chains, variable contact loops and separate CD3 signaling complex at a peptide-HLA encounter.",
+  "gap": "The chain separates recognition from response but does not show the structural pairing or CDR3 location. A compact contact cutaway would support understanding why beta-only sequence and CDR3 alone are incomplete identities.",
+  "accuracyGuardrails": [
+    "HLA holds the peptide; do not draw a peptide pocket in TCR.",
+    "Both chains and other regions contribute to specificity.",
+    "A schematic contact is not an exhaustive cross-reactivity or safety test."
+  ],
+  "before": {
+    "sha256": "d35ae09460321c362de74a30788d2f6ba73fefc9ede2475b7ab42ebc603cd3e8",
+    "bytes": 10848
+  },
+  "bodyPreservation": "Remove exact illustration/caption insertion to recover baseline bytes; existing frontmatter, prose, diagrams, citations, practice and navigation retained.",
+  "priorVisuals": {
+    "mermaid": [
+      {
+        "section": "## How it works",
+        "sourceSHA256": "9f4844ff21ef42a43e6f32b421c8cd9aad9ece9d11ac8516d58612df64b02ebb",
+        "source": "flowchart TD\n  A[\"Peptide plus HLA\"] --> B[\"Paired alpha-beta<br/>recognition surface\"]\n  B --> C[\"CD3 signaling<br/>with cellular context\"]\n  C --> D[\"Measure the response\"]\n",
+        "creativeAuthor": null,
+        "attributionQualification": "Mermaid creator unknown; no authorship inference."
+      }
+    ],
+    "rasterEmbeds": [],
+    "interactive": false,
+    "svg": false,
+    "table": false
+  },
+  "priorCreativeAuthors": "unknown unless roster states otherwise; no borrowed identity",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "PubMed indexed abstract, complete abstract read; publisher full-text fetch failed.",
+      "supports": "TCR alpha/beta and associated CD3 assembly.",
+      "limitations": [
+        "CD3 partners cartoon is symbolic, not stoichiometric or atomic."
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8906788/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "PubMed indexed abstract, complete abstract read.",
+      "supports": "Variable loops contact peptide-HLA surface.",
+      "limitations": [
+        "One complex; contact geometries are schematic."
+      ]
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK27145/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Official textbook indexed section on CDR3 center and other loops; direct page returned challenge.",
+      "supports": "CDR3 loops from both chains at binding face with other CDR regions.",
+      "limitations": [
+        "Bounded indexed text, no full chapter access."
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17559580/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Europe PMC MED record abstract, complete abstract read.",
+      "supports": "A particular TCR can cross-react with peptide-HLA complexes.",
+      "limitations": [
+        "No exhaustive cross-reactivity or safety test."
+      ],
+      "retrievalUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17559580%20AND%20SRC:MED&format=json&resultType=core"
+    }
+  ],
+  "caption": "The paired TCR contacts peptide and HLA together, while CD3 carries signals. Both chains and other contact regions matter; this schematic is not a cross-reactivity or safety test.",
+  "alt": "A cutaway shows paired TCR alpha and beta recognition chains crossing the T-cell membrane beside separate CD3 signaling partners. Rose CDR3 and other contact loops face a peptide held by HLA on the target cell; no TCR peptide pocket is shown. Contact is not a safety or killing test.",
+  "canvas": {
+    "width": 600,
+    "height": 900,
+    "transparent": true,
+    "transparencyScope": "outer margin around inset filled teaching card; no full-canvas background rectangle",
+    "essentialMinFontUnits": 26,
+    "themeGeometry": "Identical source geometry and wording; palette-only substitutions"
+  },
+  "toyData": null,
+  "independentReview": "pending",
+  "humanExpertAndLearnerReview": "pending",
+  "canonicalAdoption": false,
+  "delivery": "pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "frozenOriginalOwnerSHA256": "24bbe574227d08117f69a623424a3b9875e46115313f505d9326a6dacc478c33",
+  "frozenOriginalOwnerDifferentFromTeachingPreimage": true,
+  "targetSection": "## How it works",
+  "authorInspection": {
+    "status": "completed, author observation only",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeCanvas": [
+      600,
+      900
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "captureCount": 10,
+    "minMobileInlineLabelPx": 14.993333333333334,
+    "minMobileTheaterLabelPx": 14.82,
+    "lightTheaterContrast": "Inset filled teaching card; transparent outer margins remain.",
+    "keyboard": "Enter opened and Escape closed; focus return failure observed on unchanged renderer; unresolved.",
+    "independentReview": "pending",
+    "humanReview": "pending"
+  },
+  "artifactIdentities": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+      "sha256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "bytes": 11465
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-light.svg",
+      "sha256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+      "bytes": 21250
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-dark.svg",
+      "sha256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+      "bytes": 21250
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/tcr-paired-chains-and-cd3-contact-v1.txt",
+      "sha256": "4a4d446297e3d4180647c50637d1563de20f5dd638ce335277ee4a41cf4a0209",
+      "bytes": 4342
+    }
+  ]
+}

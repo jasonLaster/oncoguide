@@ -31,6 +31,10 @@ The analogy stops at two important details. The machine detects ions rather than
 
 ## How it works
 
+<img src="./images/metal-tag-channels-and-spatial-sampling-v1-light.svg" alt="An invented tissue grid is stained by two metal-tagged antibody types labelled A and B. A laser removes material at recorded address x2,y1 and directs it to metal detection. Two reconstructed channel grids preserve the same x,y layout and highlight that address. A dotted estimated cell boundary illustrates segmentation uncertainty; warning text states that suspension cells lose the original tissue arrangement. Selected channels are not a survey of every protein. Geometry and signals are schematic, not patient data." width="600" height="900" data-theme-pair />
+
+*Keep the recorded tissue address attached to each metal-tag channel. These invented maps illustrate destructive spatial sampling; suspension measurements lose the original arrangement. The chosen panel and estimated cell borders still limit interpretation.*
+
 A laboratory stains a compatible tissue section using a panel of [antibodies](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) carrying distinguishable metal-isotope tags. The panel selects what can be measured. A laser removes small areas in sequence, preserving their recorded coordinates. The sampled material enters a mass cytometer, where it is ionized and the metal signals are separated by mass.
 
 The measured coordinates and signals become image channels. **Imaging mass cytometry (IMC)** can therefore retain tissue geography. **Suspension mass cytometry** measures prepared cells individually after they have been removed from their original arrangement. The shared detection principle does not make every mass-cytometry experiment spatial.

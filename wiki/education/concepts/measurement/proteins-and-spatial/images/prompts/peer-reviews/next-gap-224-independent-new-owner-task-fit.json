@@ -1,0 +1,787 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-224",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+  "author": "agent:/root/batch09_author_group3",
+  "reviewer": "agent:/root/batch09_review_group3",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "193a9c8eef0f2e8de55df54a438fb5da334bc77e5f280e1acf8e82fb668c6935",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+      "sha256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea",
+      "bytes": 7287,
+      "theme": "dark"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+      "sha256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183",
+      "bytes": 7287,
+      "theme": "light"
+    }
+  ],
+  "sourceFitAssessment": {
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/291",
+    "frozenRowSHA256": "317042d1d59863f787fb8280c31577957a6fcddbf4492290186c1ff001598925",
+    "baselinePageSHA256": "d742a101cf0f2cf9404ac3aae3dc4ed45bddb20775bffe6b004f54b625df1c27",
+    "learnerTask": "Connect metal-tagged markers, sampled coordinates and reconstructed images",
+    "gap": "The sequence lacks a spatial sampling and channel schematic",
+    "accuracyGuardrails": "Match metal-tagged antibody channels to sampled coordinates and reconstructed images. Destructive spatial sampling is distinct from suspension measurement and does not survey every protein or guarantee segmentation accuracy.",
+    "targetSection": "How it works",
+    "currentVisualFit": "adequate",
+    "reasoning": "Metal-tag A/B antibody symbols, outlined x2,y1 sampled tile and both reconstructed channel grids keep the same address. Material removal and uncertain dotted cell boundaries distinguish physical sampling, channel reconstruction and segmentation. The focused same-reviewer check resolved the unseen-vial description by five literal replacements. Current alt, brief, provenance and both SVG desc fields now identify the actual visible suspension warning. Painted geometry and labels are unchanged.",
+    "humanReview": "pending",
+    "assessmentQualification": "Existing bounded independent agent task-fit decision, serialized for maintained collector; no new assessment or credit."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+        "sha256": "193a9c8eef0f2e8de55df54a438fb5da334bc77e5f280e1acf8e82fb668c6935",
+        "bytes": 8332
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+        "sha256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183",
+        "bytes": 7287
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+        "sha256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea",
+        "bytes": 7287
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1.txt",
+        "sha256": "d7270e2d27671847c10d5a52735afe77d68762acd54a04e0b3aa657b7450d172",
+        "bytes": 2058
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1-provenance.json",
+        "sha256": "33e10de580e1fc87b52ca1fa0e41e183d14f2f22f7454b663145a58f5d075cd3",
+        "bytes": 5218
+      }
+    ],
+    "currentPrivatePaths": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/corrections/task-224-description-v1/prospective/wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/corrections/task-224-description-v1/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/corrections/task-224-description-v1/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1.txt",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/corrections/task-224-description-v1/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1.txt"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1-provenance.json",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/corrections/task-224-description-v1/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1-provenance.json"
+      }
+    ],
+    "authorPredecessorSealSHA256": "f5b7ab7806db927d0163a55ebf1e786f3500193156f40afe9242fb924147463f",
+    "authorFocusedCorrectionSealSHA256": "7935800577f1c99bc45830b28faf137104724c51c9c81f6802ac1a1e933ede8d",
+    "currentAuthorCompositeInventorySHA256": "c8c52d2e2fedccfadf3b96ab0fd124e6a947cfe29a7544941cc218fdf33c56b0",
+    "originalWholeReviewSealSHA256": "9e39c39e89b16ac581858cd0a36b9fa61700ef40d1383455e4258335185ed494",
+    "focusedReviewSealSHA256": "d045d4f86c6c196c776807d5c1b983ebaba7e389d2a7255b433560620809f3e2"
+  },
+  "reviewerIndependentOfCreativeAuthor": true,
+  "integrator": "agent:/root",
+  "schemaProjectionAtUTC": "2026-10-13T23:14:43.253866+00:00",
+  "basisDecision": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/focused-task224-description-v1/next-gap-224-current-independent-new-owner-task-fit.json",
+    "sha256": "792620ffd1eadd46417743f39cb621a592a86aad92e3ed9eda63a317c4c05fc4",
+    "status": "PASS",
+    "noNewReview": true
+  },
+  "teachingSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "teachingPreimageSHA256": "32c6a6908e90fb3e556e11f909ec0739c06082284cf4946035d564fa8cd2b3b7",
+  "captureEvidence": {
+    "priorWholeTaskReceipt": {
+      "path": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-224-independent-new-owner-task-fit.json",
+      "sha256": "d23884407e4966dd6bcb02cd4916b1ea87cfe8a4dece6faa3e05fedc53e63627",
+      "status": "REVISE"
+    },
+    "priorNativeCaptures": [
+      {
+        "key": "next-gap-224",
+        "theme": "light",
+        "nativeSHA256": "e9f76f7a2eeb9c1f77326c8533574c2ff391462ac5cb9e628954da33b6156f91",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-light-reading.png",
+        "captureSHA256": "fb3dac20e88fc5e8a5bae14610708a2f1b314c0cb4fe239808dea8452cb089e4",
+        "viewBox": "0 0 600 900",
+        "textCount": 17,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Each sampled address",
+            "x": 32,
+            "y": 20,
+            "width": 346.828125,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "feeds each marker map.",
+            "x": 32,
+            "y": 56,
+            "width": 364.640625,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Stain, then sample an address",
+            "x": 32,
+            "y": 136,
+            "width": 456.828125,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "A: blue \u00b7 B: rose",
+            "x": 282.958984375,
+            "y": 168,
+            "width": 200.806640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Laser \u2192 metal",
+            "x": 283,
+            "y": 207,
+            "width": 182.078125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "detection",
+            "x": 283,
+            "y": 242,
+            "width": 113.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "x2, y1 recorded; material removed.",
+            "x": 48,
+            "y": 294,
+            "width": 432.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Rebuild channels on one grid",
+            "x": 32,
+            "y": 360,
+            "width": 445.0625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Channel A",
+            "x": 48,
+            "y": 399,
+            "width": 137.421875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Channel B",
+            "x": 325,
+            "y": 399,
+            "width": 138.46875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Outlined tile: same x2, y1 address.",
+            "x": 32,
+            "y": 530,
+            "width": 429.546875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  Check estimated cell borders",
+            "x": 32,
+            "y": 600,
+            "width": 441.859375,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Estimated borders",
+            "x": 211,
+            "y": 647,
+            "width": 227.21875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "need checking.",
+            "x": 211,
+            "y": 682,
+            "width": 188.359375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Suspension cells lose this arrangement.",
+            "x": 32,
+            "y": 731,
+            "width": 494.9375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy grid; selected markers only.",
+            "x": 32,
+            "y": 801,
+            "width": 391.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "No all-protein or segmentation guarantee.",
+            "x": 32,
+            "y": 835,
+            "width": 516.765625,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      },
+      {
+        "key": "next-gap-224",
+        "theme": "dark",
+        "nativeSHA256": "80c0e06be2e9bab442230bd51e07e1b8e3b18c003bb562a0d64da00b1a4523df",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-dark-reading.png",
+        "captureSHA256": "b330e9f9577946725562e2d23ad1394202a71733045a3e1ba953222cb283677a",
+        "viewBox": "0 0 600 900",
+        "textCount": 17,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "Each sampled address",
+            "x": 32,
+            "y": 20,
+            "width": 346.828125,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "feeds each marker map.",
+            "x": 32,
+            "y": 56,
+            "width": 364.640625,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Stain, then sample an address",
+            "x": 32,
+            "y": 136,
+            "width": 456.828125,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "A: blue \u00b7 B: rose",
+            "x": 282.958984375,
+            "y": 168,
+            "width": 200.806640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Laser \u2192 metal",
+            "x": 283,
+            "y": 207,
+            "width": 182.078125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "detection",
+            "x": 283,
+            "y": 242,
+            "width": 113.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "x2, y1 recorded; material removed.",
+            "x": 48,
+            "y": 294,
+            "width": 432.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Rebuild channels on one grid",
+            "x": 32,
+            "y": 360,
+            "width": 445.0625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Channel A",
+            "x": 48,
+            "y": 399,
+            "width": 137.421875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Channel B",
+            "x": 325,
+            "y": 399,
+            "width": 138.46875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Outlined tile: same x2, y1 address.",
+            "x": 32,
+            "y": 530,
+            "width": 429.546875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  Check estimated cell borders",
+            "x": 32,
+            "y": 600,
+            "width": 441.859375,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "Estimated borders",
+            "x": 211,
+            "y": 647,
+            "width": 227.21875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "need checking.",
+            "x": 211,
+            "y": 682,
+            "width": 188.359375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Suspension cells lose this arrangement.",
+            "x": 32,
+            "y": 731,
+            "width": 494.9375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy grid; selected markers only.",
+            "x": 32,
+            "y": 801,
+            "width": 391.640625,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "No all-protein or segmentation guarantee.",
+            "x": 32,
+            "y": 835,
+            "width": 516.765625,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      }
+    ],
+    "priorDisplayCaptures": [
+      {
+        "key": "next-gap-224",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "e9f76f7a2eeb9c1f77326c8533574c2ff391462ac5cb9e628954da33b6156f91",
+        "candidateSHA256": "60462583d041749f25ace48233f9bc6226aaf1a228f7cc1b2dbc3ae6d9863cf7",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 324.921875,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-light-mobile-inline.png",
+            "sha256": "0ff06c2bde9192be828e4470e0834b6634809256d122d7917eedadd3e1a4c5f4"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-light-mobile-theater.png",
+            "sha256": "af78722d3335a4ec9231d2beacb21bca5a005376803986df10e1c5a53ce24c19"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-224",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "e9f76f7a2eeb9c1f77326c8533574c2ff391462ac5cb9e628954da33b6156f91",
+        "candidateSHA256": "60462583d041749f25ace48233f9bc6226aaf1a228f7cc1b2dbc3ae6d9863cf7",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 99.953125,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-light-desktop-inline.png",
+            "sha256": "e20867f115936c8489f5dd085b4648e7aed04895e55b894cca816fc55006606d"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-light-desktop-theater.png",
+            "sha256": "5e09a1aeb756d2e0f4d32d0a359cce587115642fbff171e7a57c7e6aef7dde78"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-224",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "80c0e06be2e9bab442230bd51e07e1b8e3b18c003bb562a0d64da00b1a4523df",
+        "candidateSHA256": "60462583d041749f25ace48233f9bc6226aaf1a228f7cc1b2dbc3ae6d9863cf7",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 324.921875,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-dark-mobile-inline.png",
+            "sha256": "590306daf4ac60b0a6fad32db202ef09c6e932912e06f708d95e556b71b60b3f"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-dark-mobile-theater.png",
+            "sha256": "91f88273b5e0e0db001c08042edcc55d258617bc71ecf4633eb6df55affe0616"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-224",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "80c0e06be2e9bab442230bd51e07e1b8e3b18c003bb562a0d64da00b1a4523df",
+        "candidateSHA256": "60462583d041749f25ace48233f9bc6226aaf1a228f7cc1b2dbc3ae6d9863cf7",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 99.953125,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Fmetal-tag-channels-and-spatial-sampling-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-dark-desktop-inline.png",
+            "sha256": "3b226a69decab7c5ac94011642f3cda562afc8691fabcc87ef083185b07b3602"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-dark-desktop-theater.png",
+            "sha256": "667ccc7094647f7274b2e36c40aa840a848cd3bd92dd6309eb415dd37af6b97d"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      }
+    ],
+    "newCaptures": 0,
+    "newScientificReads": 0,
+    "qualification": "Existing genuinely personally inspected capture evidence remains byte-bound to its original SVG and owner hashes. No new current-hash capture asserted during schema projection.",
+    "focusedCorrectionReceipt": {
+      "path": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/focused-task224-description-v1/next-gap-224-current-independent-new-owner-task-fit.json",
+      "sha256": "792620ffd1eadd46417743f39cb621a592a86aad92e3ed9eda63a317c4c05fc4"
+    },
+    "descriptionOnlyGeometryProof": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+        "predecessorNativeSHA256": "e9f76f7a2eeb9c1f77326c8533574c2ff391462ac5cb9e628954da33b6156f91",
+        "currentNativeSHA256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183",
+        "descriptionNormalizedTreeSHA256": "f26afe136ecd1c3fc3a815ea32ce493f640588b858f44d3aa99df0e90d9494f6",
+        "paintAndLabelTreeIdentical": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+        "predecessorNativeSHA256": "80c0e06be2e9bab442230bd51e07e1b8e3b18c003bb562a0d64da00b1a4523df",
+        "currentNativeSHA256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea",
+        "descriptionNormalizedTreeSHA256": "440d530abf56bee2273e20bc660b742b7936f34519bf0fde7bd46263fdd3cd28",
+        "paintAndLabelTreeIdentical": true
+      }
+    ],
+    "currentAndPredecessorNativeHashDistinction": [
+      {
+        "theme": "light",
+        "currentNativeSHA256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183",
+        "predecessorNativeSHA256": "e9f76f7a2eeb9c1f77326c8533574c2ff391462ac5cb9e628954da33b6156f91",
+        "previousPersonallyInspectedNativeCapture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-light-reading.png",
+        "previousCaptureSHA256": "fb3dac20e88fc5e8a5bae14610708a2f1b314c0cb4fe239808dea8452cb089e4",
+        "currentByteHashCapture": false,
+        "qualification": "No fresh corrected-native capture. Description-only tree identity establishes unchanged painted geometry; predecessor captures retain their original source hashes. Both prior native captures were personally re-viewed for this focused warning-description check."
+      },
+      {
+        "theme": "dark",
+        "currentNativeSHA256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea",
+        "predecessorNativeSHA256": "80c0e06be2e9bab442230bd51e07e1b8e3b18c003bb562a0d64da00b1a4523df",
+        "previousPersonallyInspectedNativeCapture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-224-dark-reading.png",
+        "previousCaptureSHA256": "b330e9f9577946725562e2d23ad1394202a71733045a3e1ba953222cb283677a",
+        "currentByteHashCapture": false,
+        "qualification": "No fresh corrected-native capture. Description-only tree identity establishes unchanged painted geometry; predecessor captures retain their original source hashes. Both prior native captures were personally re-viewed for this focused warning-description check."
+      }
+    ],
+    "currentHashNativeCaptureExists": false
+  },
+  "primarySourceEvidence": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/independent-source-read-receipt.json",
+    "sha256": "013b60b7df73c2d0a78b7fa4219bf310c9368881ecc7c281a411407af545ef0e",
+    "sources": [
+      {
+        "tasks": [
+          224
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24584193&resultType=core&format=json",
+        "title": "Giesen 2014 primary-study abstract via Europe PMC",
+        "readBounds": "Complete abstractText in independently retrieved giesen-core.json",
+        "supports": "Metal-tagged antibody reporters and spatial laser ablation contrast with suspension cytometry.",
+        "access": "Actual abstract; PubMed follow-up failed; full publisher methods not read.",
+        "limitations": "Toy grid does not claim resolution, signal calibration or guaranteed segmentation.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      },
+      {
+        "tasks": [
+          224
+        ],
+        "url": "https://bodenmillergroup.github.io/IMCDataAnalysis/processing.html",
+        "title": "Windhager and collaborators primary workflow documentation",
+        "readBounds": "Author workflow landing lines 7-25 and processing chapter lines 12-21; independently retrieved protocol abstract in windhager-core.json",
+        "supports": "Cell masks are inferred from selected channels/classification or learned models; image features depend on masks.",
+        "access": "Named official author-documentation paragraphs and protocol abstract; publisher full text failed through identity redirect.",
+        "limitations": "Estimated boundary is a teaching schematic; no model accuracy threshold or complete segmentation review.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      }
+    ],
+    "qualification": "Original actual bounded primary reads and original access limits retained. No new retrieval, science read or full-paper/expert approval."
+  },
+  "qualifications": [
+    "Pinned renderer keyboard Enter opens and Escape closes in all tested cases; focus returns to opener in 0/24 across the group. Unchanged runtime observation remains unresolved; no accessibility approval.",
+    "Public article fixture uses exact pinned compiler/components/shared CSS with literal theme utility rules; no full app/live data or routing approval.",
+    "Future source and destination null; Root must rebind actual owner bytes and ownership before adoption.",
+    "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+    "The shared pinned renderer BODY-focus observation remains qualified. This reviewer independently measured opener return in 0/24, without recording activeElement tag; no additional BODY check occurred during schema projection.",
+    "This is schema-only serialization of existing genuine same-reviewer decisions, with no source, pixel, scientific or native rerun. It is not adoption, completed delivery, clinical/domain-expert or learner approval.",
+    "SourceFitAssessment adequate is bounded agent assessment of the exact frozen learner task, not source-fit coverage credit or human approval.",
+    "Task224 current SVG byte hashes change solely through desc text. Predecessor capture hashes remain predecessor evidence; current paint/geometry equivalence is established by normalized-tree identity, not a fresh native render."
+  ],
+  "metadataReadSequencingDisclosure": "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+  "knownRendererFocusReturn": {
+    "returned": 0,
+    "cases": 24,
+    "BODYQualification": "Shared known observation retained; independent review measured opener return only. No full accessibility approval."
+  },
+  "inverseBodyPreservation": true,
+  "originalCreatorsRemainUnknown": true,
+  "allToyGraphicNumbersAndCountsInvented": true,
+  "humanReview": "pending",
+  "learnerReview": "pending",
+  "scientificExpertApproval": false,
+  "sourceFitApproval": false,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "canonicalAdoption": false,
+  "liveApproval": false,
+  "delivery": "pending",
+  "release": "pending",
+  "repoGitRegistryPipelineRuntimePublisherCacheWrites": false
+}

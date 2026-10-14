@@ -29,6 +29,10 @@ You can proofread selected pages, most recipe sections or an entire book. Broade
 
 ## How it works
 
+<img src="./images/sequencing-territory-and-local-depth-v1-light.svg" alt="A toy assay marks a selected DNA territory and a region outside its design. A local zoom aligns four invented reads across position P and two across position Q, giving depths of 4× and 2× at those specific positions. A second targeted region R has no usable aligned reads despite being included in the design. The schematic complements the preserved panel/exome/genome territory illustration; it is not a category ranking, coverage threshold, variant-detection probability or clinical-utility claim." width="600" height="900" data-theme-pair />
+
+*Count usable aligned reads at the position of interest; do not substitute the assay’s breadth or average depth. The toy 4×, 2× and 0× values are invented teaching values, not clinical thresholds. Broader territory guarantees neither uniform local sensitivity, all-variant detection nor clinical utility.*
+
 [DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/molecules/dna) sequencing measures the order of bases in prepared molecules. **Next-generation sequencing** usually reads many molecules in parallel. The library design selects the territory; preparation, measurement and analysis determine what evidence is usable.
 
 | Design | Intended territory | What still needs checking |

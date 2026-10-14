@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-221",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+  "author": "agent:/root/batch09_author_group2",
+  "authorRole": "Actual six-new-illustration packet author",
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:57:26.767736+00:00",
+  "reviewedAtUTC": "2026-10-13T22:57:26.767736+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "3a9bfb2453b6b9c7d00c347e00db6f648b102520b1c2506c547e1fb95af26d66",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/289",
+  "frozenRowSHA256": "1e9023d969d39694923065dc633622c8cd07261960aa69602ce542f4c1c4a818",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The first compartment excludes malignant nests and names eligible stroma/exclusions. Four equal regionA units with10% occupied area and one equal regionB unit with60% occupied area show common scale and pooling:1/5=20%, unlike35% unweighted mean. Captions distinguish area from tumor-cell count, toy geometry from a mandated workflow, and pretreatment from residual-bed methods.",
+    "frozenPageSHA256": "c3bfd3f2c11e7d1010d009a7c20cec1af62a57403c985f5a297c2cf4c65362ae",
+    "baselinePageSHA256": "c3bfd3f2c11e7d1010d009a7c20cec1af62a57403c985f5a297c2cf4c65362ae",
+    "actualTeachingPreimageSHA256": "6f030f1a9a3471679aaf282d0c589dd69df28bf6dc771b2b80fae213fddf29c1",
+    "learnerTask": "Distinguish eligible stromal area from cell percentage and pooled from unweighted regions",
+    "gap": "The current flow names region selection but never shows its area",
+    "accuracyGuardrails": "Use eligible stromal area, not all tissue or tumor-cell percentage, and show pooled-area weighting. The toy pixel/area arithmetic is not a mandated workflow; pretreatment and residual-bed methods are distinct.",
+    "targetSection": "Try it",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 is the immutable original audit page anchor required by maintained source-fit accounting; actual b8 teaching bytes are separately bound and were fully read. Frozen task is unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+      "sha256": "0b567058de73ac1b6ca4f4b3be472a1cab028fbe9b5dc3ee3ac06e6a3279bb89",
+      "bytes": 6316,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+      "sha256": "7159682de69aa6177e8304172470d771cbeb633686d30544716133a36c5e6212",
+      "bytes": 6316,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+        "sha256": "3a9bfb2453b6b9c7d00c347e00db6f648b102520b1c2506c547e1fb95af26d66",
+        "bytes": 8999
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+        "sha256": "0b567058de73ac1b6ca4f4b3be472a1cab028fbe9b5dc3ee3ac06e6a3279bb89",
+        "bytes": 6316
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+        "sha256": "7159682de69aa6177e8304172470d771cbeb633686d30544716133a36c5e6212",
+        "bytes": 6316
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/stromal-area-and-pooled-region-weighting-v1.txt",
+        "sha256": "c84f15cdb61923fdad66113e8df1624e79ee0a3c0a4d0984305adff7994c0ce0",
+        "bytes": 2904
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/stromal-area-and-pooled-region-weighting-v1-provenance.json",
+        "sha256": "8fd9c92c6ede43a43793434632d24a3b3fab33f4568cebc02e8ced987414c5b4",
+        "bytes": 7181
+      }
+    ],
+    "currentCandidateOwnerSHA256": "3a9bfb2453b6b9c7d00c347e00db6f648b102520b1c2506c547e1fb95af26d66",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "3590da1e10fc88079e4bc1e074d49474a8289b395c6e086de370225c83dcb3e2",
+    "authorInventorySHA256": "e9452748cef77e8d79677059c0268de5fef755034167182c0f05f0750c01b953",
+    "authorCustodyZipSHA256": "f1e14bfd1be9734930a570bb1ec3465a0b6141173468b9741217ecf9b9923f79",
+    "sourcePreimageSHA256": "6f030f1a9a3471679aaf282d0c589dd69df28bf6dc771b2b80fae213fddf29c1",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after stripping only inserted image and caption; original frontmatter, navigation, prose, sources and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf",
+      "primary": true,
+      "readDepth": "Downloaded primary PDF and extracted text: Table2 all11 scoring recommendations plus selected stromal denominator, averaging, hotspot and semiquantitative paragraphs; not whole clinical-association sections or supplements.",
+      "supports": "Eligible intratumoral stromal area, mononuclear infiltrate, excluded regions and overall assessment support the visual. Area pooling is teaching arithmetic rather than a mandated pixel workflow.",
+      "accessStatus": "Web opening failed; independent HTTPS download and pdftotext succeeded.",
+      "population": "Pretreatment breast-cancer scoring recommendations; toy regions are not patient observations."
+    },
+    {
+      "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/10/Suppl-File-3-Recommendations-for-assessing-tumor-infiltrating-lymphocytes-TILs-in-RD.pdf",
+      "primary": true,
+      "readDepth": "Downloaded primary supplement text sections1,4,5 on residual region, compartments and continuous/overall assessment; no complete supplement or visual figure review.",
+      "supports": "Residual-bed region definition differs from pretreatment invasive-tumor stroma; the visual preserves that boundary.",
+      "accessStatus": "Web open failed; independent HTTPS download and text extraction succeeded.",
+      "population": "Post-neoadjuvant residual disease recommendations, not automatically interchangeable with pretreatment scoring."
+    }
+  ],
+  "mathAssessment": {
+    "eligibleAreas": [
+      4,
+      1
+    ],
+    "occupiedAreas": [
+      0.4,
+      0.6
+    ],
+    "unitRectangle": [
+      135,
+      110
+    ],
+    "AoccupiedWidthEach": 13.5,
+    "BoccupiedWidth": 81,
+    "pooledPercent": 20,
+    "unweightedPercent": 35,
+    "mandatedPixelWorkflowClaimed": false
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific, conceptual, original-native, frozen task, source-depth, custody and fresh pinned-reader pixel review; task218 explicit existing-art reuse.",
+    "sourceReadDepth": "Entries record actual bounded independent primary reading and failures; preserved ancillary owner citations are not each recertified. No study statistics or patient treatment conclusions introduced.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own isolated pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. No production header/sidebar/backend/navigation, physical mobile or cross-browser/touch certification; no whole-page/nontext accessibility certification. Own full-reader screenshots support inline crops. Initial author server4692 unavailable; own private copied/pin-verified fixture built and served4692. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      780,
+      1450
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.420474137931034,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.322398239900442,
+    "allTextContrastChecksPassed": true,
+    "contrastScope": "Fresh actual SVG DOM computed fill and preceding opaque enclosing rectangle over each text bbox; both themes. Nontext graphics not certified.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closed the dialog but focus did not return to image (BODY); unchanged pinned runtime defect remains qualified. No runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-221-light-reading.png",
+      "sha256": "1f305e07c951f6ce8c3f08f24f14d10a104e94cb260fdef26e0880cc12eaf424"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-221-dark-reading.png",
+      "sha256": "1daa4a46babeb64c1752eeed9a02210763b69c6bfcfc0be07b0212add883895b"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-221-light-mobile-inline.png",
+      "sha256": "b5f9fff80f1aa48117ec7f487781962fae5ad5585be59a9fb576e9425a3ae133"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-221-light-mobile-theater.png",
+      "sha256": "d1e4c14e7e6c0eb566b33b5ecebe8396557f277e0528a06f9af7617ca01ee1f4"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-221-light-desktop-inline.png",
+      "sha256": "6cc1d6d4f6a9f2c7e58beceadc24835470172e7f8b83683149cd2bac7354b007"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-221-light-desktop-theater.png",
+      "sha256": "a9754e6cf66deb42e51d36834e2819c67b18e0012c27cd5996e63bab1bc76025"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-221-dark-mobile-inline.png",
+      "sha256": "cb4579bd1ec287d57487a2474eb3951d992e6b0a43d5db2c0cc40859ea4584de"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-221-dark-mobile-theater.png",
+      "sha256": "9a6b9009c10110492d3e27322b3a8b7113da7856eb5582a6eeac54c9cdef8064"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-221-dark-desktop-inline.png",
+      "sha256": "cf187f8b2647f293b38e41bbadcae2b0d332b0f150da2651529b0e015f50e335"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-221-dark-desktop-theater.png",
+      "sha256": "c28ca79fdfa6ff47ae46a58c57dd2f90b5615df3213053e7f76ab5f06be96243"
+    }
+  ],
+  "method": "Original hand-authored editable SVG from Python primitives; no raster generator invocation",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "imageModelCallsScope": "This independent review/prospective work; historical218 authorship or tool invocation is not reconstructed."
+}

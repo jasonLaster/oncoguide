@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-hand-authored-educational-svg",
+  "actualCreativeAuthor": "agent:/root/batch09_author_group1",
+  "integrator": "agent:/root",
+  "method": "hand-authored source-code SVG",
+  "model": null,
+  "imageCalls": 0,
+  "prospectiveTaskId": "next-gap-210",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/328",
+  "frozenRowSHA256": "525f861e90cb98a49e87be76b1f5934d8550d153cec87cfb617f016efc17de95",
+  "canonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy.md",
+  "teachingBaseline": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "learnerTask": "Compare vector, attachment and isotope; locate short and longer particle tracks",
+  "gap": "No image shows crossfire, healthy-tissue uptake or microscopic paths",
+  "accuracyGuardrails": "Lengths illustrative not quantitative dose; alpha/beta not ranking; chelator not universal",
+  "before": {
+    "sha256": "0c8c5d4c2dac4e172a7b6c0e6534ed6bea24efbc2215480c3c55c12ffc3ad33e",
+    "bytes": 8464
+  },
+  "bodyPreservation": "Remove exact illustration/caption insertion to recover baseline bytes; existing frontmatter, prose, diagrams, citations, practice and navigation retained.",
+  "priorVisuals": {
+    "mermaid": [],
+    "rasterEmbeds": [],
+    "interactive": false,
+    "svg": false,
+    "table": false
+  },
+  "priorCreativeAuthors": "unknown unless roster states otherwise; no borrowed identity",
+  "sources": [
+    {
+      "url": "https://www.fda.gov/media/129547/download",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "August 2019 PDF text, Background and biodistribution/dosimetry, PDF pages 4–6.",
+      "supports": "Targeting moiety, radioactive product distribution and healthy-organ exposure.",
+      "limitations": [
+        "Not dosing guidance used here; no universal chelator assertion."
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680544/",
+      "retrievedAt": "2026-10-13",
+      "readBounds": "Official NCBI BioC XML full article retrieved; targeted Introduction, particle physics/LET, microdosimetry passages read. Browser challenged and Europe PMC XML failed 500.",
+      "supports": "Densely ionizing short alpha paths; typical beta particles and microscopic nonuniformity.",
+      "limitations": [
+        "Full article retrieval is not full article read; no quantitative track or dose geometry."
+      ]
+    }
+  ],
+  "caption": "Vector, attachment and isotope are different parts. Illustrated particle paths can reach neighboring or healthy cells; they are not dose estimates or an alpha-versus-beta ranking, and chelators are not universal.",
+  "alt": "A targeting vector, attachment with a chelator shown as one example, and radioisotope sit above tumor and healthy cell neighborhoods. A short alpha track and a longer beta-minus track illustrate exposure and crossfire without a dose scale or treatment ranking.",
+  "canvas": {
+    "width": 600,
+    "height": 900,
+    "transparent": true,
+    "transparencyScope": "outer margin around inset filled teaching card; no full-canvas background rectangle",
+    "essentialMinFontUnits": 26,
+    "themeGeometry": "Identical source geometry and wording; palette-only substitutions"
+  },
+  "toyData": null,
+  "independentReview": "pending",
+  "humanExpertAndLearnerReview": "pending",
+  "canonicalAdoption": false,
+  "delivery": "pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "frozenOriginalOwnerSHA256": "6e10b3db486c32bc060b4c18eb6af674688df0884cb3f5e0447aac0814fd8736",
+  "frozenOriginalOwnerDifferentFromTeachingPreimage": true,
+  "targetSection": "## How it works",
+  "authorInspection": {
+    "status": "completed, author observation only",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeCanvas": [
+      600,
+      900
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "captureCount": 10,
+    "minMobileInlineLabelPx": 14.993333333333334,
+    "minMobileTheaterLabelPx": 14.82,
+    "lightTheaterContrast": "Inset filled teaching card; transparent outer margins remain.",
+    "keyboard": "Enter opened and Escape closed; focus return failure observed on unchanged renderer; unresolved.",
+    "independentReview": "pending",
+    "humanReview": "pending"
+  },
+  "artifactIdentities": [
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy.md",
+      "sha256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "bytes": 9107
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-light.svg",
+      "sha256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe",
+      "bytes": 7908
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-dark.svg",
+      "sha256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e",
+      "bytes": 7908
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/radioligand-components-and-particle-paths-v1.txt",
+      "sha256": "d4d9d10046009b92ebb34db3785491a904c19dcccbd688aa17fb7173cf8e3f76",
+      "bytes": 3664
+    }
+  ]
+}

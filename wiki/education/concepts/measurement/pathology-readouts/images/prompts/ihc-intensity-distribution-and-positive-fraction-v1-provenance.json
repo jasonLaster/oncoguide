@@ -1,0 +1,97 @@
+{
+  "prospectiveTaskId": "next-gap-220",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "977b4d6af10d98155cba64b93c7e457bf4ebf450398365c7b4e178b16a6712e3",
+  "preimageBytes": 9111,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/287",
+  "frozenRowSHA256": "1134501944d6dc677d1830861f03be1db0d269cd325f87968c5a59d0ac224523",
+  "learnerTask": "Distinguish intensity-weighted index from positive-cell percentage",
+  "gap": "The generic scoring flow does not show the intensity distribution",
+  "accuracyGuardrails": "Preserve intensity categories and their denominator: fictional H-score110 is distinct from50% positive. Allred is a separate categorical scale; neither is molecule count, a universal cutoff or interchangeable assay output.",
+  "targetSection": "Two scores combine different information",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-251",
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+      "ownerSHA256": "dc4a94b9441935a5e2ab1470e47f2c9382e47eaf4ed970ba0028339a04694d1d",
+      "status": "planned",
+      "rowSHA256": "09802745332d1ccda0e2a390cc437b8c2c1d2bdf1104e323349ab4d6c3d866e8",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    }
+  ],
+  "schemaVersion": 1,
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "integrator": "agent:/root",
+  "method": "Original hand-authored editable SVG from Python primitives; no raster image-generation invocation",
+  "imageGenerationInvocation": null,
+  "generatorModel": null,
+  "sourceBodiesRead": "Complete actual b8 public owner body personally read after metadata gate; six gaps remain unresolved before additions",
+  "baselineTextPreservation": "Exact byte equality after removing only inserted image and caption block",
+  "publicMetadataClassification": {
+    "frontmatterSHA256": "596c3d0e57215741243e22c390d877a686a7a9bf70aa104fcda202f46b8363e4",
+    "data": {
+      "title": "Immunohistochemistry: protein staining in tissue",
+      "type": "concept",
+      "domain": "measurement/pathology-readouts",
+      "summary": "Immunohistochemistry uses antibodies to visualize selected proteins in tissue while preserving information about the stained cells and their location.",
+      "glossary_anchor": "immunohistochemistry",
+      "aliases": [
+        "IHC",
+        "ihc",
+        "immunohistochemistry",
+        "H-score",
+        "Allred score",
+        "Allred"
+      ],
+      "level": "foundation",
+      "sensitive": false,
+      "tags": [
+        "education",
+        "measurement"
+      ],
+      "updated": "2026-10-10T00:00:00.000Z",
+      "source_checked": "2026-10-10T00:00:00.000Z",
+      "reviewed": "pending",
+      "reviewed_by": "",
+      "review_status": "Source-checked; expert and learner review pending",
+      "prerequisites": [
+        "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
+      ],
+      "used_by": [
+        "[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]",
+        "[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]",
+        "[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]",
+        "[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]",
+        "[[wiki/education/molecular-profiling/04-spatial-biology]]",
+        "[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]",
+        "[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]",
+        "[[wiki/education/reading-a-tumor/omics-and-multi-omics]]",
+        "[[wiki/education/targeted-therapy-modalities/01-mechanism]]"
+      ]
+    },
+    "classificationBeforeBodyExtraction": true,
+    "maintainedPublicGatePassed": true,
+    "redactionGatePassed": true
+  },
+  "sources": [
+    {
+      "url": "https://documents.cap.org/protocols/cp-breast-18biomarker-1201.pdf",
+      "readBounds": "Official indexed Tables 2\u20133 returned by targeted web search and personally read. Direct PDF retrieval failed DNS/502. Historical scoring arithmetic only; no historical positivity labels adopted.",
+      "supports": "H-score intensity weighting and separate Allred proportion/intensity categories."
+    }
+  ],
+  "toyData": "All sample counts, identities, timing, proportions and area geometry invented; not Diana data or thresholds",
+  "altText": "One hundred invented eligible cells are represented by 100 circles grouped by staining intensity: 50 unstained, 10 weak, 20 moderate and 20 strong. The same 100-cell denominator gives 50% positive cells, whereas intensity weights one, two and three give H-score 10 plus 40 plus 60 equals 110. Category rows are an explanatory grouping, not tissue geography. Allred is a separate categorical system. Neither quantity is a molecule count, a universal clinical cutoff or an interchangeable assay output.",
+  "caption": "In the same invented 100-cell set, 50% positive counts stained cells while H-score 110 weights their intensity; Allred remains a separate categorical scale.",
+  "nativeCaptureReview": "Author personally read final 10 fresh capture variants per owner (native light/dark; inline mobile 390\u00d7844 and desktop 1440\u00d71700; theater mobile390\u00d7844 and desktop1440\u00d71000). Author self-check only; independent review pending. See display-checks.private.json and personal-inspection.private.json. Enter/Escape work; inherited focus-return false.",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "independentReviewer": null,
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "status": "private prospective creative draft; no canonical adoption/live approval",
+  "coverageCredit": 0
+}

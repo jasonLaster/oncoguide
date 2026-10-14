@@ -29,6 +29,10 @@ Sequencing reads labels on sampled cells. It can tell you that a label became mo
 
 ## How it works
 
+<img src="./images/bulk-chain-and-paired-cell-identities-v1-light.svg" alt="Three invented sampled T cells carry simplified alpha/beta pairs X/B, Y/B and Z/C. The bulk beta-chain view pools B, B and C without alpha linkage. In the paired-cell view separate sampled-cell boxes link each alpha and beta chain, exposing two different alpha identities behind shared beta B. Labels are fictional identities, not sequence or cell-count results. Read abundance is not automatically cell abundance; pairing does not establish antigen specificity, function or killing." width="780" height="1450" data-theme-pair />
+
+*A shared beta label can hide different alpha chains; this invented cell-linked schematic distinguishes one-chain identity from a paired receptor identity.*
+
 Many assays read variable regions of a [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), especially the **complementarity-determining region 3 (CDR3)**. An analysis groups sequences into clonotypes using stated rules. Rules may use nucleotide or amino-acid sequence, gene segments, one chain or paired chains.
 
 **Bulk TCR sequencing (TCR-seq)** profiles a mixed sample, often one receptor chain. **Single-cell TCR sequencing (scTCR-seq)** can pair alpha and beta chains from individual conventional T cells. Compatible methods can also measure gene expression in the same cells. Paired identity plus an expression program is more context; it is still not direct evidence of the receptor’s antigen. [Primary single-cell methods](https://www.nature.com/articles/nbt.2938) established this linkage.

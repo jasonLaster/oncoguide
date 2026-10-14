@@ -64,6 +64,10 @@ A percentage responding to one test target does not describe every clone or ever
 
 ## Worked example and practice
 
+<img src="./images/til-collection-clone-mixture-and-expansion-v1-light.svg" alt="An invented tumor-tissue snapshot contains six T cells: two each from native clones A, B and C. After culture, twelve cells include two A, eight virus-reactive bystander B and two unknown C. Each lettered cell is one counted cell; changed mixture and yield do not prove potency. A complete treatment regimen includes more than these cells." data-theme-pair="./images/til-collection-clone-mixture-and-expansion-v1-dark.svg" />
+
+*In this invented example, clone B grows from 2/6 collected T cells to 8/12 cultured T cells while A and C each remain two cells. No elapsed culture time is specified; tumor origin is not specificity and yield is not potency. Whole-regimen evidence cannot be attributed to the cells alone.*
+
 A fictional culture contains many cells whose receptors recognize a common virus, plus a smaller tumor-reactive population. The virus-reactive cells expand fastest.
 
 **Try it:** Does a large final cell count establish a strong antitumor product?

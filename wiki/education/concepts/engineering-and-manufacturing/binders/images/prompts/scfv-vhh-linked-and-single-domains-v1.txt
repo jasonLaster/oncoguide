@@ -1,0 +1,25 @@
+Original hand-authored educational SVG design brief
+Actual creative author: agent:/root/batch09_author_group1
+Teaching baseline: b8c381d6ad94c0377939ee2bc4e54ff4088c70ea
+Prospective task: next-gap-208
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/127
+Frozen row SHA256: b20f34a98759c884587ae09ba599693d2b54a2d354c43bcaeba89ec6bcb30890
+Canonical owner: wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md
+Target section: ## How it works
+Learner task: Recognize two linked variable domains in an scFv versus one VHH domain, distinct from a whole antibody or cell.
+Exact gap: The current boxes name architectures but do not depict the paired domains and linker.
+Guardrails verbatim: "Depict an scFv as two variable domains plus linker and VHH as one variable domain; distinguish both from a whole antibody or cell. Molecular size, scale and therapeutic performance are schematic, not comparative evidence."
+
+Design: Original 600 x 900 canvas with transparent outer margins and an inset rounded teaching card. The filled card keeps all labels readable against the ImageTheater backdrop; vertically stacked physical scenes sit within it. Consistent folded domain outlines, peptide/linker paths, membrane beads, cell boundaries and nuclei, labelled callouts and restrained accents. Rounded friendly geometry without implying molecules consciously choose cells. Blue/teal/purple domains and rose contact or cargo marks are repeated with textual labels; color is not the sole identity. All source geometry and text are identical across themes; only palette tokens change. Minimum essential text 26 SVG units. Native browser plus private pinned reader inline/theater checks required at 390px mobile and 1440px desktop.
+
+Scene alt: Two linked folded variable domains, VH and VL, form the scFv, while one folded VHH forms a nanobody; a whole antibody and a whole cell are drawn as separate objects. Molecular scale and performance are not compared.
+Caption: An scFv links two variable domains in one chain; a VHH is one domain. Both are modules, distinct from a whole antibody or cell, and schematic size does not rank performance.
+
+Scope: Add only the image/caption to the exact target section; preserve original teaching, diagrams, source list, metadata and navigation byte-for-byte after removing this insertion. All sizes/contact/track shapes are schematic, not atomic coordinates. No numerical efficacy comparison or dosing claim.
+
+Method: Hand-authored source-code SVG; image generator calls 0; image model null. No source figure was copied. Prior Mermaid authors unknown, preserved as prior teaching. Independent science/source-fit and pixel review pending; clinician/domain-expert and learner review pending; integration, future execution, adoption, delivery and live approval pending. No coverage credit.
+
+Primary/official read bounds:
+{"url": "https://pubmed.ncbi.nlm.nih.gov/3045807/", "retrievedAt": "2026-10-13", "readBounds": "PubMed indexed abstract, complete abstract read; direct open initially returned footer only.", "supports": "scFv VH and VL linked in one polypeptide.", "limitations": ["No full-paper read or generic performance comparison."]}
+{"url": "https://www.nature.com/articles/363446a0", "retrievedAt": "2026-10-13", "readBounds": "Publisher abstract paragraphs only; subscription body not accessed.", "supports": "Camelid heavy-chain antibodies lack light chains.", "limitations": ["Whole antibody differs from isolated VHH."]}
+{"url": "https://www.nature.com/articles/nsb0996-803", "retrievedAt": "2026-10-13", "readBounds": "Publisher abstract only, paragraphs 1–2.", "supports": "One camel antibody variable domain binds lysozyme.", "limitations": ["One structural example; no universal affinity or size claim."]}

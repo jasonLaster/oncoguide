@@ -1,0 +1,25 @@
+Original hand-authored educational SVG design brief
+Actual creative author: agent:/root/batch09_author_group1
+Teaching baseline: b8c381d6ad94c0377939ee2bc4e54ff4088c70ea
+Prospective task: next-gap-211
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/329
+Frozen row SHA256: 38d948694afabad086ed799b34f856607f86d141c1ee241a5b8405f7e8aa0673
+Canonical owner: wiki/education/concepts/therapeutics/antibody-based/t-cell-engager.md
+Target section: ### Format labels answer different questions
+Learner task: See two-cell contact and overlapping compact/Fc/half-life design labels
+Exact gap: Flow omits physical bridging geometry; table alone can imply exclusive format categories
+Guardrails verbatim: "CD3 not tumor-specific native TCR; binding and cytokines not killing; HLE can overlap architectures"
+
+Design: Original 600 x 900 canvas with transparent outer margins and an inset rounded teaching card. The filled card keeps all labels readable against the ImageTheater backdrop; vertically stacked physical scenes sit within it. Consistent folded domain outlines, peptide/linker paths, membrane beads, cell boundaries and nuclei, labelled callouts and restrained accents. Rounded friendly geometry without implying molecules consciously choose cells. Blue/teal/purple domains and rose contact or cargo marks are repeated with textual labels; color is not the sole identity. All source geometry and text are identical across themes; only palette tokens change. Minimum essential text 26 SVG units. Native browser plus private pinned reader inline/theater checks required at 390px mobile and 1440px desktop.
+
+Scene alt: An engager bridges CD3 on a T cell to target M on another cell, with native TCR separate. Below, a compact BiTE core and a BiTE core joined to Fc show that half-life-extension labels can overlap architecture. Contact or cytokines alone do not establish killing.
+Caption: The bridge makes two contacts, but function needs its own measurements. CD3 is separate from native TCR specificity; Fc-containing BiTE-derived and IgG-like designs can both carry half-life-extension features.
+
+Scope: Add only the image/caption to the exact target section; preserve original teaching, diagrams, source list, metadata and navigation byte-for-byte after removing this insertion. All sizes/contact/track shapes are schematic, not atomic coordinates. No numerical efficacy comparison or dosing claim.
+
+Method: Hand-authored source-code SVG; image generator calls 0; image model null. No source figure was copied. Prior Mermaid authors unknown, preserved as prior teaching. Independent science/source-fit and pixel review pending; clinician/domain-expert and learner review pending; integration, future execution, adoption, delivery and live approval pending. No coverage credit.
+
+Primary/official read bounds:
+{"url": "https://pubmed.ncbi.nlm.nih.gov/7624362/", "retrievedAt": "2026-10-13", "readBounds": "Europe PMC MED record complete abstract read.", "supports": "Tandem scFv recognizes CD3 and other-cell target.", "limitations": ["Specified construct and cell assays; not general patient benefit."]}
+{"url": "https://aacrjournals.org/clincancerres/article/27/5/1526/267119/AMG-757-a-Half-Life-Extended-DLL3-Targeted", "retrievedAt": "2026-10-13", "readBounds": "Publisher indexed introduction paragraphs concerning tandem scFv core plus Fc read; direct page failed 403. Europe PMC abstract read separately.", "supports": "HLE BiTE can be made by fusing Fc to BiTE core.", "limitations": ["Only bounded indexed introduction and abstract; no full-paper claim or safety/exposure ranking."]}
+{"url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies", "retrievedAt": "2026-10-13", "readBounds": "Official page How do monoclonal antibodies work, paragraphs 1–4.", "supports": "CD3-to-target-cell bridging.", "limitations": ["No current approval inventory used."]}

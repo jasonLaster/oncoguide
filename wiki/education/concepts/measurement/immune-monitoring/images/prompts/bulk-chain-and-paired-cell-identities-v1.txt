@@ -1,0 +1,23 @@
+HAND-AUTHORED SVG SOURCE BRIEF (not an image-generator prompt invocation)
+
+A beta match can hide another alpha
+Learner task: Compare one-chain bulk identity with paired-cell receptor identity
+Exact frozen gap: No chain-pairing or sampled-unit schematic
+Target: How it works
+Guardrails (verbatim): Distinguish one-chain sequence identity from paired alpha/beta identity and sampled-cell linkage. Shared beta sequence alone does not establish the same complete receptor, antigen specificity or function.
+
+Geometry/alt: Three invented sampled T cells carry simplified alpha/beta pairs X/B, Y/B and Z/C. The bulk beta-chain view pools B, B and C without alpha linkage. In the paired-cell view separate sampled-cell boxes link each alpha and beta chain, exposing two different alpha identities behind shared beta B. Labels are fictional identities, not sequence or cell-count results. Read abundance is not automatically cell abundance; pairing does not establish antigen specificity, function or killing.
+Caption: A shared beta label can hide different alpha chains; this invented cell-linked schematic distinguishes one-chain identity from a paired receptor identity.
+
+Style: warm personable schematic cells and specimens, 780 by 1450; same geometry/counts across themes; labels 28–38 px; cream light and slate dark. Original editable SVG authored with Python string primitives; no image-generation tool invoked. Six illustrations added only, all baseline text/frontmatter/navigation retained. Original creators of earlier diagrams unknown.
+
+Sources/read bounds:
+[
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/",
+    "readBounds": "Primary abstract returned by web search actually read; Nature redirect and PMC opening blocked. Indexed PMC selected methods snippet read. No complete paper/supplement read.",
+    "supports": "Single-cell alpha/beta pairing preserves pair linkage, enabling later functional study; specificity is not inferred here."
+  }
+]
+
+Private prospective baseline b8c381d6ad94c0377939ee2bc4e54ff4088c70ea; execution refs null; canonical adoption, clinician/domain-expert and learner review, production delivery, and coverage credit pending.

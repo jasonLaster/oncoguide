@@ -1,0 +1,25 @@
+HAND-AUTHORED SVG SOURCE BRIEF (not an image-generator prompt invocation)
+
+A larger region carries more area
+Learner task: Distinguish eligible stromal area from cell percentage and pooled from unweighted regions
+Exact frozen gap: The current flow names region selection but never shows its area
+Target: Try it
+Guardrails (verbatim): Use eligible stromal area, not all tissue or tumor-cell percentage, and show pooled-area weighting. The toy pixel/area arithmetic is not a mandated workflow; pretreatment and residual-bed methods are distinct.
+
+Geometry/alt: A schematic pretend pretreatment section distinguishes excluded malignant nests and eligible stroma inside invasive-tumor borders. Separate invented area blocks show region A with four equal units of eligible stroma and 0.4 units occupied by infiltrate, and B with one equal unit of stroma and 0.6 occupied units. At the same scale, the pooled-area fraction is 1/5, or 20%; the unweighted regional mean is 35%. Area, not cell count, is the denominator. This toy geometry is not a mandated pixel workflow; pretreatment and residual-bed methods remain distinct.
+Caption: With invented eligible areas of four and one units, pooling occupied area gives 20%; an unweighted 35% mean gives the smaller region too much weight.
+
+Style: warm personable schematic cells and specimens, 780 by 1450; same geometry/counts across themes; labels 28–38 px; cream light and slate dark. Original editable SVG authored with Python string primitives; no image-generation tool invoked. Six illustrations added only, all baseline text/frontmatter/navigation retained. Original creators of earlier diagrams unknown.
+
+Sources/read bounds:
+[
+  {
+    "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf",
+    "readBounds": "Downloaded primary working-group PDF, selected scoring/exclusion paragraphs and text lines 395\u2013440, 686\u2013709 read; not all clinical association sections or supplements.",
+    "supports": "Eligible stromal area, mononuclear infiltrate, overall semiquantitative assessment and exclusions. Pooled toy arithmetic is not mandated clinical method."
+  }
+]
+
+Private prospective baseline b8c381d6ad94c0377939ee2bc4e54ff4088c70ea; execution refs null; canonical adoption, clinician/domain-expert and learner review, production delivery, and coverage credit pending.
+
+Additional primary source read after draft: {"url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/10/Suppl-File-3-Recommendations-for-assessing-tumor-infiltrating-lymphocytes-TILs-in-RD.pdf", "readBounds": "Direct PDF downloaded; extracted section 1, and sections 4\u20135 text lines 1\u201334 and 93\u2013119 personally read. Web opening blocked; no complete supplement review.", "supports": "Residual-bed regional definition differs from the pretreatment invasive-tumor setting; stromal denominator retained."}

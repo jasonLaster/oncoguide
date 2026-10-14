@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-218",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+  "author": "agent:/root/batch09_author_group2",
+  "authorRole": "Prospective packet author and existing-art reuse assessor; NOT original artwork creator",
+  "creativeAuthor": null,
+  "artworkCreatorStatus": "UNKNOWN",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:57:26.767736+00:00",
+  "reviewedAtUTC": "2026-10-13T22:57:26.767736+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/275",
+  "frozenRowSHA256": "9eba42f668820ca78656948bae440c1053fa2a9cfda305e70a5927b0e56c46b7",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The preserved pair supplies actual tumor/non-tumor contribution geometry and a separate plasma-fragment attribution task. Its upper source classes define possible tumor-derived membership, while lower dashed routes leave the unknown fragment unassigned. Symbols and regions are explicitly nonquantitative; yield is recovered DNA amount rather than source evidence or a living-cell count. Together with the unchanged WBC-matched VariantQ exercise this resolves the frozen gap without redundant art.",
+    "frozenPageSHA256": "8403b61d2cf0de9f86b80bb2c43d961ad34002b40efb65eba26933d55190e73b",
+    "baselinePageSHA256": "8403b61d2cf0de9f86b80bb2c43d961ad34002b40efb65eba26933d55190e73b",
+    "actualTeachingPreimageSHA256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+    "learnerTask": "Distinguish plasma DNA material from its possible source",
+    "gap": "No tumor/blood-cell contribution drawing",
+    "accuracyGuardrails": "Separate plasma DNA material from tumor and non-tumor source attribution. DNA fragments are not whole circulating tumor cells or direct cell counts; a variant signal does not identify its source by itself.",
+    "targetSection": "How it works",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 is the immutable original audit page anchor required by maintained source-fit accounting; actual b8 teaching bytes are separately bound and were fully read. Frozen task is unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+      "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e",
+      "bytes": 13937,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1430,
+        "viewBox": "0 0 780 1430"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+      "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2",
+      "bytes": 13937,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1430,
+        "viewBox": "0 0 780 1430"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+        "sha256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+        "bytes": 9876
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+        "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e",
+        "bytes": 13937
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+        "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2",
+        "bytes": 13937
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1.txt",
+        "sha256": "41c13aa6cc16a12a743142c3feff1433287d7aaf5ca93b6d31391bbb6e930e1e",
+        "bytes": 3290
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.json",
+        "sha256": "43de3acf8e1b041cd5b9980c29de35393c0454105060805da2c03c7372e40f86",
+        "bytes": 5630
+      },
+      {
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/cfdna-vs-ctdna-comparison-pool-and-source-v1-provenance.zip",
+        "sha256": "b92956f67902ad1d1c1d5a9e86fa37c5a00bbfc83ac0c159ff00610d62cf9e90",
+        "bytes": 10449
+      }
+    ],
+    "currentCandidateOwnerSHA256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "3590da1e10fc88079e4bc1e074d49474a8289b395c6e086de370225c83dcb3e2",
+    "authorInventorySHA256": "e9452748cef77e8d79677059c0268de5fef755034167182c0f05f0750c01b953",
+    "authorCustodyZipSHA256": "f1e14bfd1be9734930a570bb1ec3465a0b6141173468b9741217ecf9b9923f79",
+    "sourcePreimageSHA256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+    "exactFivePublicFiles": false,
+    "preservedExistingCustodyFileCount": 6,
+    "insertOnlyPreimageRecovery": "Exact unchanged existing owner",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061455/",
+      "primary": true,
+      "readDepth": "Complete indexed abstract and selected Study Design, Characterization of WBC variants, Figure5 legend and discussion excerpts; no whole article, figure pixels or supplement.",
+      "supports": "Matched blood-cell and tumor comparisons can resolve plasma-variant origins; a real sequence signal need not be tumor-derived.",
+      "accessStatus": "Direct PMC open challenged by reCAPTCHA; targeted official indexed primary text available.",
+      "population": "Metastatic-cancer and control cohorts; no empirical proportion copied into artwork, clinical instruction or individual source assignment."
+    },
+    {
+      "url": "https://www.fda.gov/media/183874/download",
+      "primary": true,
+      "readDepth": "Official PDF selected sampling and analytical-validation text, web lines343–434 personally read; not whole guidance or a regulatory assessment.",
+      "supports": "Sample handling can alter background DNA and assay measurements; intended analyte, thresholds and validation matter. Toy molecular shares do not certify assay conversions.",
+      "accessStatus": "Official PDF available through web.",
+      "population": "Early-stage solid-tumor trial biomarker context; toy amounts are invented, not clinical assay outputs."
+    }
+  ],
+  "mathAssessment": {
+    "quantitative": false,
+    "sourceRoutesUnassigned": true,
+    "cellCensusClaimed": false
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific, conceptual, original-native, frozen task, source-depth, custody and fresh pinned-reader pixel review; task218 explicit existing-art reuse.",
+    "sourceReadDepth": "Entries record actual bounded independent primary reading and failures; preserved ancillary owner citations are not each recertified. No study statistics or patient treatment conclusions introduced.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own isolated pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. No production header/sidebar/backend/navigation, physical mobile or cross-browser/touch certification; no whole-page/nontext accessibility certification. Own full-reader screenshots support inline crops. Initial author server4692 unavailable; own private copied/pin-verified fixture built and served4692. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      780,
+      1430
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 14.194755244755244,
+    "minMobileDefaultPreviewLabelPx": 14.03076923076923,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.574637270408513,
+    "allTextContrastChecksPassed": true,
+    "contrastScope": "Fresh actual SVG DOM computed fill and preceding opaque enclosing rectangle over each text bbox; both themes. Nontext graphics not certified.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closed the dialog but focus did not return to image (BODY); unchanged pinned runtime defect remains qualified. No runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-218-light-reading.png",
+      "sha256": "f281e8e6e2fd7e24457d9c21ee91e2a554c0b7c0d15fc308371aecf896af3c05"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-218-dark-reading.png",
+      "sha256": "6bfa015a23ee7bc808c9bb931a7cb38e0dfa8dd27663fef328d9ab939841e2e8"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-218-light-mobile-inline.png",
+      "sha256": "1286adc9a98dfeb9417d72913b6fcf78a8ee59d5ba9f4ca71c0f47f922b081f4"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-218-light-mobile-theater.png",
+      "sha256": "bce212778b19bacf6877775e5c5cf922fec9531c1e6e031150cc418a68980cc2"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-218-light-desktop-inline.png",
+      "sha256": "cf836a2edd9d2cf8a1878b755d5dcb418fc8b86127274f20ea11d14dc459fbc0"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-218-light-desktop-theater.png",
+      "sha256": "e5870068f4fc2351e86b4e0bec20866e2f59d297f0a584ae246b109b7f71e00b"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-218-dark-mobile-inline.png",
+      "sha256": "5b4caab9288a111e22265936190da3c7c928a53b75b93010913f45b3ed513274"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-218-dark-mobile-theater.png",
+      "sha256": "04099c2d2cdb6d3f5a56544ca58cc85505959731b964bf722b0310d907b76ea7"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-218-dark-desktop-inline.png",
+      "sha256": "58903ef8a942e84799441d6f6467843d3554c509cd943e6ed171752a31f39b0f"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-218-dark-desktop-theater.png",
+      "sha256": "724b915b3183b2a1eabe222b984622c91689e4d1a464da93e66b0ef4a579193b"
+    }
+  ],
+  "method": "Preserved existing original editable SVG pair; no new art",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "imageModelCallsScope": "This independent review/prospective work; historical218 authorship or tool invocation is not reconstructed.",
+  "existingArtReuse": {
+    "reuse": true,
+    "newArtCreated": false,
+    "newIllustrationCount": 0,
+    "originalArtworkCreator": null,
+    "originalArtworkCreatorStatus": "UNKNOWN",
+    "attributionQualification": "author names the actual prospective reuse task/custody assessor, required as a nonempty task identity by maintained collector. creativeAuthor remains null; neither author nor reviewer is credited with creating original art. No prior science/pixel approval inherited.",
+    "exactOwnerCaptionAltAndProvenancePreserved": true,
+    "originalArchiveSHA256": "b92956f67902ad1d1c1d5a9e86fa37c5a00bbfc83ac0c159ff00610d62cf9e90",
+    "independentDecision": "existing-art-reuse-decision.json"
+  }
+}

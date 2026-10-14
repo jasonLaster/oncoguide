@@ -33,6 +33,10 @@ Think of a delivery vehicle carrying an energy source. The vehicle influences wh
 
 ## How it works
 
+<img src="./images/radioligand-components-and-particle-paths-v1-light.svg" alt="A targeting vector, attachment with a chelator shown as one example, and radioisotope sit above tumor and healthy cell neighborhoods. A short alpha track and a longer beta-minus track illustrate exposure and crossfire without a dose scale or treatment ranking." data-theme-pair="./images/radioligand-components-and-particle-paths-v1-dark.svg" />
+
+*Vector, attachment and isotope are different parts. Illustrated particle paths can reach neighboring or healthy cells; they are not dose estimates or an alpha-versus-beta ranking, and chelators are not universal.*
+
 Three design questions help you unpack a product:
 
 | Part | Job | Question to ask |

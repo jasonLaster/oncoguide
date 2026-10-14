@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "status": "private prospective author artifact",
+  "creativeAuthor": "agent:/root/batch09_author_group3",
+  "integrator": "agent:/root",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/296",
+  "frozenRowSHA256": "0802ecc55f7d1ee577bba802b62f93523edfecffda4493af593c876f20701a0c",
+  "frozenRowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "e4220ea523010d062c63c94f1d3a327463316160c6e78fb59f9776511f97228e",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "sourceGapFit": "Author personally read full b8 public body after metadata gate; native existing visuals inspected. Exact physical gap remains. This is author assessment, not independent source-fit approval.",
+  "learnerTask": "Understand that each array spot is a mixed lysate, not a tissue coordinate",
+  "gap": "Current marker-branch diagram does not show printed mixture/dilutions",
+  "accuracyGuardrails": "Show printed sample/dilution addresses as mixed lysates, not tissue coordinates. Probe specificity, calibration and normalization remain assay-specific; RPPA is not an all-protein or single-cell spatial census.",
+  "targetSection": "How it works",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-254",
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "ownerSHA256": "b4f2392bfde6b2b06ca6d58cdd9a1abfd4528193627318d208352374ff8093a4",
+      "status": "planned",
+      "rowSHA256": "98c79697f1ccc158ecaa23818bac280fee5c975df5221f6662b940c204b9424b",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    }
+  ],
+  "priorCreators": "Unknown unless explicitly recorded in frozen roster; no attribution inferred.",
+  "medium": "editable hand-authored SVG",
+  "imageGeneration": {
+    "used": false,
+    "model": null,
+    "provider": null,
+    "calls": []
+  },
+  "geometry": "schematic",
+  "toyData": "All graphic counts, labels, values and recovery scenarios invented; no specimen/patient measurements.",
+  "bodyPreservation": "Removing only the exact new image/caption block restores the b8 owner bytes; no corrections or navigation edits.",
+  "independentReview": "pending",
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "liveApproval": false,
+  "coverageCredit": 0,
+  "caption": "Follow the lysate into every printed spot: the address tracks sample and dilution, not a cell\u2019s former tissue position. The dilution design is invented. Separate antibodies need their own specificity, calibration and normalization; the array is not an all-protein or single-cell spatial census.",
+  "alt": "Invented cells from a defined specimen are disrupted into a tube containing mixed protein shapes. A printed array uses rows for samples A and B and columns for toy dilutions 1, one-half and one-quarter; every spot retains mixed protein symbols. Two replicate array layouts receive separate antibodies for R and phospho-R. Print addresses are sample/dilution labels rather than cell positions. Specificity, calibration and loading normalization remain assay-specific; this is not all-protein or single-cell spatial measurement.",
+  "sourceReadsReference": "source-claim-mapping.private.json; author source-read bounds and access limits, not scientific approval",
+  "originalFrozenOwnerSHA256": "b4f2392bfde6b2b06ca6d58cdd9a1abfd4528193627318d208352374ff8093a4",
+  "frozenVsBaselineQualification": "Original frozen audit page differs from b8 teaching page; both hashes retained. Frozen task identity verified from the pinned Git audit row. Author gap confirmation is prospective and not independent approval.",
+  "sourceReads": [
+    {
+      "tasks": [
+        "next-gap-225"
+      ],
+      "url": "https://home.ccr.cancer.gov/ncifdaproteomics/pdf/reverse_phase_prostate.pdf",
+      "title": "Paweletz et al. 2001 NCI-hosted primary PDF",
+      "readBounds": "Page 2 method/results paragraphs lines 103\u2013139; Figure 1 caption page 3 lines 220\u2013222; Figure 4 caption page 5 lines 281\u2013284",
+      "supports": "Whole protein lysate printed at known addresses, serial dilutions, separate slides probed by antibodies. Mixed proteins do not retain cell coordinates even after selected-region microdissection.",
+      "limits": "Read method paragraphs and indicated figure captions, not complete 9-page paper. Toy dilution fractions chosen for teaching. Mannsperger PubMed retrieval failed; its baseline text preserved without new validation claims."
+    }
+  ],
+  "authorNativeInspection": {
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "captureCount": 10,
+    "personallyInspected": true,
+    "modes": "Both themes, native SVG reading and 390px mobile/1440px desktop inline and theater",
+    "minimumMobileNormalTextContrast": 5.218849426096166,
+    "smallestMobileInlineLabelPx": 16.14666666666667,
+    "smallestMobileTheaterLabelPx": 15.96,
+    "scope": "Private pinned article fixture; author QA only; no live app/full navigation certification.",
+    "knownIssue": "Enter opens and Escape closes; focus did not return to opener in 24/24 display cases. No runtime change."
+  }
+}

@@ -1,0 +1,26 @@
+Original hand-authored educational SVG design brief
+Actual creative author: agent:/root/batch09_author_group1
+Teaching baseline: b8c381d6ad94c0377939ee2bc4e54ff4088c70ea
+Prospective task: next-gap-213
+Frozen task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/333
+Frozen row SHA256: 3b59c096630b5bc785d351e912718442b39a97d6d1d2a6c5c72c01e6a7ebfe43
+Canonical owner: wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md
+Target section: ## How it works
+Learner task: Locate binding region, spacer, anchor and signaling domains across a membrane
+Exact gap: Component flow omits receptor topology; architectural generations need aligned domain strips
+Guardrails verbatim: "Receptor vs gene vs cell distinct; extra domains not ranking; specialized peptide–HLA CARs exist"
+
+Design: Original 600 x 900 canvas with transparent outer margins and an inset rounded teaching card. The filled card keeps all labels readable against the ImageTheater backdrop; vertically stacked physical scenes sit within it. Consistent folded domain outlines, peptide/linker paths, membrane beads, cell boundaries and nuclei, labelled callouts and restrained accents. Rounded friendly geometry without implying molecules consciously choose cells. Blue/teal/purple domains and rose contact or cargo marks are repeated with textual labels; color is not the sole identity. All source geometry and text are identical across themes; only palette tokens change. Minimum essential text 26 SVG units. Native browser plus private pinned reader inline/theater checks required at 390px mobile and 1440px desktop.
+
+Scene alt: A CAR binding region and spacer extend outside the engineered cell, an anchor crosses its membrane, and costimulatory and CD3-zeta activation domains lie inside. Aligned generation strips keep activation in the same position and add zero, one or two costimulatory domains without ranking. Receptor, gene and cell differ; some CARs bind peptide-HLA.
+Caption: The binding region faces outward and signaling domains face inward across one membrane. Generation labels count common signaling arrangements; extra domains do not rank benefit, and specialized peptide–HLA CARs exist.
+
+Scope: Add only the image/caption to the exact target section; preserve original teaching, diagrams, source list, metadata and navigation byte-for-byte after removing this insertion. All sizes/contact/track shapes are schematic, not atomic coordinates. No numerical efficacy comparison or dosing claim.
+
+Method: Hand-authored source-code SVG; image generator calls 0; image model null. No source figure was copied. Prior Mermaid authors unknown, preserved as prior teaching. Independent science/source-fit and pixel review pending; clinician/domain-expert and learner review pending; integration, future execution, adoption, delivery and live approval pending. No coverage credit.
+
+Primary/official read bounds:
+{"url": "https://pubmed.ncbi.nlm.nih.gov/8421711/", "retrievedAt": "2026-10-13", "readBounds": "PubMed complete abstract read.", "supports": "Antibody binding domains linked to signal-transducing regions in surface receptor.", "limitations": ["Specified early constructs; drawing not a product blueprint."]}
+{"url": "https://pubmed.ncbi.nlm.nih.gov/30309819/", "retrievedAt": "2026-10-13", "readBounds": "Europe PMC MED complete abstract read.", "supports": "Second-generation CD28 and third-generation CD28 plus 4-1BB architectures.", "limitations": ["Co-infused specified products; no universal comparative-benefit inference."]}
+{"url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells", "retrievedAt": "2026-10-13", "readBounds": "Official A living drug section paragraphs 1–3.", "supports": "Encoded receptor protein and engineered cell are distinct objects.", "limitations": ["No gene delivery instructions."]}
+{"url": "https://pubmed.ncbi.nlm.nih.gov/27924074/", "retrievedAt": "2026-10-13", "readBounds": "PubMed indexed complete abstract read.", "supports": "Specialized CAR can recognize a peptide in HLA context.", "limitations": ["Bounded proof-of-concept, no clinical-benefit generalization."]}

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "b3704aa23e9b47cef418dcfe72c49d6c368bd820",
+  "reviewedSourceCommit": "6ef2b16c11999c6c58325748c10a5ebd46b77c61",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -1698,7 +1698,7 @@
       "sha256": "f7c42665c3ed97bea39844dd5dcf80d7284f9ead4a77285a3c0e6b379da8aeed",
       "bytes": 4041,
       "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
-      "ownerSha256": "0d759d0fac9e7f725c0c97f2c81ee747e134d3b442905c0e7d1c7a98f89f975d",
+      "ownerSha256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
@@ -1716,7 +1716,7 @@
       "sha256": "aac5e6378a483a011bca0220896e2ce9bf9578e90dab3b9e15e74322ab87472f",
       "bytes": 7886,
       "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
-      "ownerSha256": "0d759d0fac9e7f725c0c97f2c81ee747e134d3b442905c0e7d1c7a98f89f975d",
+      "ownerSha256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
@@ -8057,6 +8057,708 @@
         {
           "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
           "sha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/scfv-vhh-linked-and-single-domains-v1-provenance.json",
+      "sha256": "6f15597bcd51850e4fc5978adefbf8e61c4ae50232b66226a49e13b728637f39",
+      "bytes": 6323,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "ownerSha256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-light.svg",
+          "sha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-dark.svg",
+          "sha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/tcr-paired-chains-and-cd3-contact-v1-provenance.json",
+      "sha256": "f526a3c0eb08ee7d37ec4a761026256313037aee2b3df985b7143906aa7eded2",
+      "bytes": 6807,
+      "owner": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+      "ownerSha256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-light.svg",
+          "sha256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-dark.svg",
+          "sha256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/radioligand-components-and-particle-paths-v1-provenance.json",
+      "sha256": "141049f4b52722df740d3db308c5bbbfd52e09b8a4c795b158a570e34f5de458",
+      "bytes": 5432,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy.md",
+      "ownerSha256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-light.svg",
+          "sha256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-dark.svg",
+          "sha256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/t-cell-engager-bridging-and-format-overlap-v1-provenance.json",
+      "sha256": "bb68bac5785740844d93202e03a2bf97e55fc2d06ee8dc7b07bf354e3407ad7b",
+      "bytes": 6494,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/t-cell-engager.md",
+      "ownerSha256": "7ae57c4540849373b2c2bd7804ebae3ffbff95cd569df5d21f60033b5f1884d4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/t-cell-engager-bridging-and-format-overlap-v1-light.svg",
+          "sha256": "1a087aa0fbf71383d83aee2e9859c35d0f61e6fa68853547b62a0eafb5c96e15"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/t-cell-engager-bridging-and-format-overlap-v1-dark.svg",
+          "sha256": "f4be59c37ccc70b9b71c81a63b291d5e2018c3bc6179e27359d2b41519aba716"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/shared-target-five-therapeutic-formats-v1-provenance.json",
+      "sha256": "0b23773e328b13e387ee8e78618eeb18da68b0ec1396b884d505e9b88a02f81e",
+      "bytes": 6425,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+      "ownerSha256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-light.svg",
+          "sha256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-dark.svg",
+          "sha256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-membrane-topology-and-domain-strips-v1-provenance.json",
+      "sha256": "d7870b901a533450eb4aa45e6675a14c323b9ab2aa000047009a23af14f8cff8",
+      "bytes": 6714,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md",
+      "ownerSha256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-light.svg",
+          "sha256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-dark.svg",
+          "sha256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/til-collection-clone-mixture-and-expansion-v1-provenance.json",
+      "sha256": "b71e45774ca62840a176cc6d2e6d0079187076bb49bdaf3a31b8625223dce390",
+      "bytes": 7099,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/til-therapy.md",
+      "ownerSha256": "288550a4c0e12347c17b3271d6f296f9c0bb8d82ad55f1b1dbe0a8bb8f47d6ee",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/til-collection-clone-mixture-and-expansion-v1-light.svg",
+          "sha256": "aea00139c86e41bfa91a8e0e62c1f6d9269e95e8e0bc3fc1c6c4b1b9895afcfb"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/til-collection-clone-mixture-and-expansion-v1-dark.svg",
+          "sha256": "ca42a8fe9983855147d1cf74ecf6f165d30bd7bbcd8656610c65f6485bcfd8fe"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/nested-flow-gates-and-parent-denominators-v1-provenance.json",
+      "sha256": "fe024a60d5f5832cec323a5ecc6a23279cce34df8906ca8f1bd6e0587c43afe6",
+      "bytes": 5797,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/flow-cytometry.md",
+      "ownerSha256": "e3e2c95e72044c4f966ce3389cfc5836751bd1025c731265f48a9373baba597f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-light.svg",
+          "sha256": "e93249a9cfd6f0357420c88d01b519050a0a7826485e2508ce70d7df88ee0715"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-dark.svg",
+          "sha256": "7273252fa7f3c0bdd4a0bda3eb6e4a31dd5924e6cf22ab409a782ea2f305f782"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/target-death-controls-and-associated-excess-v1-provenance.json",
+      "sha256": "e8ab152e64d40b94370401fbee7b021820eb3fb3435d7104db8b84bc47aaff24",
+      "bytes": 6701,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+      "ownerSha256": "51f939f5e408bb11c6b949764465ab71fcdeccfca76e007d95ec002a6aabfc42",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-light.svg",
+          "sha256": "b47b6b2add5fad6a9aaef4255ed4939ebe24cf9fc7850214c1159296e489d8e3"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-dark.svg",
+          "sha256": "942c39b61ae28fc17c69f7327b101557e8a51811f86196ea2675c029b43fe1af"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/bulk-chain-and-paired-cell-identities-v1-provenance.json",
+      "sha256": "9a741a5f88ea6d488bca4615c1f1bc70fd3ccfb88308059ef5c09bf9c6bc8d2e",
+      "bytes": 5883,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+      "ownerSha256": "3312577cc318539c216858a007846dda0e2a37f9fa843bb0a66e8bbd1761939a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-light.svg",
+          "sha256": "d84fc5fcef1e11cbb962761ef64c16522571843b81a44d1c53bf70edf61c11d2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-dark.svg",
+          "sha256": "bf5de144dd9928dabcd30509b34385a3246e4539920fe49da2d2cf7e46e03faf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/ctdna-concentration-and-background-fractions-v1-provenance.json",
+      "sha256": "8bd64c86984f5bf5c1687b9b9ca8e069275d83302878c66a02a6646ce9e8f324",
+      "bytes": 6175,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+      "ownerSha256": "79e5c1098ae84a9a216111c5f0b08bd363a91e17ce7587828df37d1c6b1615f6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-light.svg",
+          "sha256": "a7b5799fbac716f8d1b4b3d527a9683deb7c0df81c580ff601e9b0ec652868d3"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-dark.svg",
+          "sha256": "e62d1cfe8faa81f5ca6c63e4df34d44fef8e88e35fc50a073346e3777cd1b86f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/ihc-intensity-distribution-and-positive-fraction-v1-provenance.json",
+      "sha256": "c6d91d3afa1b193f4658dc4a2c721346f13e856e746434491f628c4a0dbef59f",
+      "bytes": 6015,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+      "ownerSha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+          "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+          "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/stromal-area-and-pooled-region-weighting-v1-provenance.json",
+      "sha256": "8fd9c92c6ede43a43793434632d24a3b3fab33f4568cebc02e8ced987414c5b4",
+      "bytes": 7181,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+      "ownerSha256": "3a9bfb2453b6b9c7d00c347e00db6f648b102520b1c2506c547e1fb95af26d66",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+          "sha256": "0b567058de73ac1b6ca4f4b3be472a1cab028fbe9b5dc3ee3ac06e6a3279bb89"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+          "sha256": "7159682de69aa6177e8304172470d771cbeb633686d30544716133a36c5e6212"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/organoid-retained-missing-and-added-cells-v1-provenance.json",
+      "sha256": "e6df05fb0767e0f0455ef5b973258adc1fde990c82ce132a28aa8bc1b71de0f4",
+      "bytes": 5792,
+      "owner": "wiki/education/concepts/measurement/functional-models/organoid.md",
+      "ownerSha256": "39d37ae1e05c6f784ee90fc57878322e14ab9897d0172a148d31c2f61fef99c2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-dark.svg",
+          "sha256": "1c5a84f77800692fef1b7558519d29dbaa0f08afc1d8e57d6c387c0ebd237de8"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-light.svg",
+          "sha256": "df744095d44ef593640823d2b4f1fc3b4d56b0b1b94348d5fc3492d06c8b0823"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/buoyant-mass-and-same-cell-growth-slope-v1-provenance.json",
+      "sha256": "29420eec5d5389cf684b9f5f65ee6d8dda6b30132d1b1923ca17098f7739f42c",
+      "bytes": 5814,
+      "owner": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+      "ownerSha256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+          "sha256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+          "sha256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1-provenance.json",
+      "sha256": "33e10de580e1fc87b52ca1fa0e41e183d14f2f22f7454b663145a58f5d075cd3",
+      "bytes": 5218,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+      "ownerSha256": "193a9c8eef0f2e8de55df54a438fb5da334bc77e5f280e1acf8e82fb668c6935",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+          "sha256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+          "sha256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1-provenance.json",
+      "sha256": "5a047fe8e92b5c73d43aa4a882f55e3e9b4e7f29965b3eb6242e4a2ffa02be0d",
+      "bytes": 5477,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "ownerSha256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+          "sha256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+          "sha256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/sequencing-territory-and-local-depth-v1-provenance.json",
+      "sha256": "721942a8d0f9f49ee17cc46b886c9df32353783d32a12f3239e1d6a937981688",
+      "bytes": 6118,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+      "ownerSha256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+          "sha256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg",
+          "sha256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/cell-nucleus-rna-and-recovery-barcodes-v1-provenance.json",
+      "sha256": "6083e2352d401ac79d938fbdb04470807c79f680e483338d6085f75a40f283d2",
+      "bytes": 6302,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md",
+      "ownerSha256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "sha256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "sha256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/scfv-vhh-linked-and-single-domains-v1-independent-owner-review.json",
+      "sha256": "cbd1764c63a5871e893e21597aa71f6f19a663025597f87b475d7f8f3e6ad78e",
+      "bytes": 21945,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "ownerSha256": "316382996c3aadbda3972c3eb6a17183ab9bdd0c4cf2057880c97e76888103f9",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-light.svg",
+          "sha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-dark.svg",
+          "sha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/prompts/tcr-paired-chains-and-cd3-contact-v1-independent-owner-review.json",
+      "sha256": "81ea660b78916f4775e394222800e9c0e45d1b9f033fd3e75e210e68cde45004",
+      "bytes": 23114,
+      "owner": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+      "ownerSha256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-light.svg",
+          "sha256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-dark.svg",
+          "sha256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/radioligand-components-and-particle-paths-v1-independent-owner-review.json",
+      "sha256": "5b4657c578fe8c8e18f96f4efbceec95aa79ee854f510405e9f81e5a713aae7b",
+      "bytes": 17584,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy.md",
+      "ownerSha256": "85762ca9bb32d5099ae3aa954148d12f6914898ea9dc0d1dda26a390fe95493a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-light.svg",
+          "sha256": "aa5db49265e5c34d763d94b1cbc4da18a44812f6294e3f01c0c87d2e4a3334fe"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/radioligand-components-and-particle-paths-v1-dark.svg",
+          "sha256": "99b3ee21120ce8b580987932d5b3332ab6cfe38f96dd14844690183bc179de8e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/t-cell-engager-bridging-and-format-overlap-v1-independent-owner-review.json",
+      "sha256": "2ecbd9ea7f1a355c554a86f3bc3467b510b2d663bb4ad4238798f0933220c198",
+      "bytes": 19608,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/t-cell-engager.md",
+      "ownerSha256": "7ae57c4540849373b2c2bd7804ebae3ffbff95cd569df5d21f60033b5f1884d4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/t-cell-engager-bridging-and-format-overlap-v1-light.svg",
+          "sha256": "1a087aa0fbf71383d83aee2e9859c35d0f61e6fa68853547b62a0eafb5c96e15"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/t-cell-engager-bridging-and-format-overlap-v1-dark.svg",
+          "sha256": "f4be59c37ccc70b9b71c81a63b291d5e2018c3bc6179e27359d2b41519aba716"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/shared-target-five-therapeutic-formats-v1-independent-owner-review.json",
+      "sha256": "848c0364ae006aaec1389317a4188c2d55ba6eae8e3b068b94aff1ad7c92788d",
+      "bytes": 18610,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+      "ownerSha256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-light.svg",
+          "sha256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-dark.svg",
+          "sha256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/car-membrane-topology-and-domain-strips-v1-independent-owner-review.json",
+      "sha256": "878f70bc7a4e325734748b269c111268940b2e13d620a52ef371743a3bd30a4b",
+      "bytes": 22826,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md",
+      "ownerSha256": "0ec80bceadfe52560d8816bc0efe7c3d5409fcea2fa778233803e1c32548ff4b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-light.svg",
+          "sha256": "97b11c7155c307c0fd3c9de94ae291f7a0099b078f0514ffbcabc1a55a67c1a5"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/car-membrane-topology-and-domain-strips-v1-dark.svg",
+          "sha256": "c514d66bb82fea213e18c6e3611c43054df45e488744af751aef698841e7edbc"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/images/prompts/til-collection-clone-mixture-and-expansion-v1-independent-owner-review.json",
+      "sha256": "c92d2751e4213b1b3e14d9f894d1d60369e7cc04e1553495e18ce31dc35c7854",
+      "bytes": 21657,
+      "owner": "wiki/education/concepts/therapeutics/cell-therapies/til-therapy.md",
+      "ownerSha256": "288550a4c0e12347c17b3271d6f296f9c0bb8d82ad55f1b1dbe0a8bb8f47d6ee",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/til-collection-clone-mixture-and-expansion-v1-light.svg",
+          "sha256": "aea00139c86e41bfa91a8e0e62c1f6d9269e95e8e0bc3fc1c6c4b1b9895afcfb"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/images/til-collection-clone-mixture-and-expansion-v1-dark.svg",
+          "sha256": "ca42a8fe9983855147d1cf74ecf6f165d30bd7bbcd8656610c65f6485bcfd8fe"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peer-reviews/nested-flow-gates-and-parent-denominators-v1-independent-owner-review.json",
+      "sha256": "c53e58b3c44edffb8b6b49d12f2a14fe0a25420119925f01dcdb77a67edd8a63",
+      "bytes": 12925,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/flow-cytometry.md",
+      "ownerSha256": "e3e2c95e72044c4f966ce3389cfc5836751bd1025c731265f48a9373baba597f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-light.svg",
+          "sha256": "e93249a9cfd6f0357420c88d01b519050a0a7826485e2508ce70d7df88ee0715"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-dark.svg",
+          "sha256": "7273252fa7f3c0bdd4a0bda3eb6e4a31dd5924e6cf22ab409a782ea2f305f782"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peer-reviews/target-death-controls-and-associated-excess-v1-independent-owner-review.json",
+      "sha256": "11ad368ea3cc9aa025591a6063d7095ef0487df1850bff15047ce01e20366bfe",
+      "bytes": 12645,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+      "ownerSha256": "51f939f5e408bb11c6b949764465ab71fcdeccfca76e007d95ec002a6aabfc42",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-light.svg",
+          "sha256": "b47b6b2add5fad6a9aaef4255ed4939ebe24cf9fc7850214c1159296e489d8e3"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-dark.svg",
+          "sha256": "942c39b61ae28fc17c69f7327b101557e8a51811f86196ea2675c029b43fe1af"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/peer-reviews/bulk-chain-and-paired-cell-identities-v1-independent-owner-review.json",
+      "sha256": "72952206df42c2c3a5dd964b5bfbbd5c72abde2b674576350a1a6e5d1fb82315",
+      "bytes": 12552,
+      "owner": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+      "ownerSha256": "3312577cc318539c216858a007846dda0e2a37f9fa843bb0a66e8bbd1761939a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-light.svg",
+          "sha256": "d84fc5fcef1e11cbb962761ef64c16522571843b81a44d1c53bf70edf61c11d2"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-dark.svg",
+          "sha256": "bf5de144dd9928dabcd30509b34385a3246e4539920fe49da2d2cf7e46e03faf"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/peer-reviews/cfdna-vs-ctdna-comparison-pool-and-source-v1-independent-owner-review.json",
+      "sha256": "a3965f73b01bb823168ddf78458ce5df1095325d596c8c057596295f8e650be4",
+      "bytes": 13865,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+      "ownerSha256": "b54f6de0b8ef13a2b3a6ad05f373f1be91cd7b031061bc6f86bf8806337491c7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+          "sha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+          "sha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/prompts/peer-reviews/ctdna-concentration-and-background-fractions-v1-independent-owner-review.json",
+      "sha256": "41ad7f5a884a2a6b82b10e5a3a650570d92e7048cff049babf3142f08f76fc51",
+      "bytes": 12372,
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+      "ownerSha256": "79e5c1098ae84a9a216111c5f0b08bd363a91e17ce7587828df37d1c6b1615f6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-light.svg",
+          "sha256": "a7b5799fbac716f8d1b4b3d527a9683deb7c0df81c580ff601e9b0ec652868d3"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-dark.svg",
+          "sha256": "e62d1cfe8faa81f5ca6c63e4df34d44fef8e88e35fc50a073346e3777cd1b86f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/peer-reviews/ihc-intensity-distribution-and-positive-fraction-v1-independent-owner-review.json",
+      "sha256": "a40278e6439e0005d0ce3c1e5c56bf18a4fe36b21e368a807203f9c877074597",
+      "bytes": 12628,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+      "ownerSha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+          "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+          "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/peer-reviews/stromal-area-and-pooled-region-weighting-v1-independent-owner-review.json",
+      "sha256": "c0d50aaf1e8c4c55774d66e5c2e48ad0bf622ba7f8b60e1fb9adb2de2f4cad36",
+      "bytes": 13432,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+      "ownerSha256": "3a9bfb2453b6b9c7d00c347e00db6f648b102520b1c2506c547e1fb95af26d66",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+          "sha256": "0b567058de73ac1b6ca4f4b3be472a1cab028fbe9b5dc3ee3ac06e6a3279bb89"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+          "sha256": "7159682de69aa6177e8304172470d771cbeb633686d30544716133a36c5e6212"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/peer-reviews/next-gap-222-independent-new-owner-task-fit.json",
+      "sha256": "78cd3d39ddb9f0252cebc3e95880368e33f60475f04720e30bd8905fff79c46a",
+      "bytes": 29274,
+      "owner": "wiki/education/concepts/measurement/functional-models/organoid.md",
+      "ownerSha256": "39d37ae1e05c6f784ee90fc57878322e14ab9897d0172a148d31c2f61fef99c2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-dark.svg",
+          "sha256": "1c5a84f77800692fef1b7558519d29dbaa0f08afc1d8e57d6c387c0ebd237de8"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-light.svg",
+          "sha256": "df744095d44ef593640823d2b4f1fc3b4d56b0b1b94348d5fc3492d06c8b0823"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/peer-reviews/next-gap-223-independent-new-owner-task-fit.json",
+      "sha256": "56e46af467d915cb8fb9ed326d338138217cc7234482f3b8dba5837a2ec2b04d",
+      "bytes": 30833,
+      "owner": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+      "ownerSha256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+          "sha256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+          "sha256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-224-independent-new-owner-task-fit.json",
+      "sha256": "e927c903f3ec516277bbbd5b581b8a23df4d5221f684e1cfc7ad084159209576",
+      "bytes": 33578,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+      "ownerSha256": "193a9c8eef0f2e8de55df54a438fb5da334bc77e5f280e1acf8e82fb668c6935",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+          "sha256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+          "sha256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-225-independent-new-owner-task-fit.json",
+      "sha256": "bedb44b5d2bb2f62781752c351799522e6cf28ff5f1866589d9af960860165fb",
+      "bytes": 28989,
+      "owner": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "ownerSha256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+          "sha256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+          "sha256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/peer-reviews/next-gap-226-independent-new-owner-task-fit.json",
+      "sha256": "5f08949a3df4981ecbf0583be46cf88d2bd6318a80fe4b7055bf1ba11da209d1",
+      "bytes": 30101,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+      "ownerSha256": "188f04a31ebc52762878e125440b8cb718986604b028234b8b3d674a2a5c42ac",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+          "sha256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg",
+          "sha256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/images/prompts/peer-reviews/next-gap-227-independent-new-owner-task-fit.json",
+      "sha256": "b6dd7e05b6fcb067fa1ff88e135c1c87ac422b3c9a7720628fca7215487f0320",
+      "bytes": 29511,
+      "owner": "wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md",
+      "ownerSha256": "17e8ac1adcaf01389f045f5396cc65b9bcf2fd722a5b98d65ebd9e1c219aab38",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "sha256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "sha256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265"
         }
       ],
       "contentClass": "source-owned-public-custody"

@@ -1,0 +1,13 @@
+Original hand-authored SVG teaching brief
+Author: agent:/root/batch09_author_group3
+Private prospective only; actual execution source/destination null.
+Owner: wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md
+Task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/258
+Frozen row SHA256: b5d6e54c27f32d22a732fc17f476e568b25135b537afc2452010d59420976221
+Learner task: Distinguish buoyant mass from a repeated same-cell growth slope
+Gap: No physical-measurement inset or mass-versus-time plot
+Accuracy guardrails (verbatim): Distinguish buoyant mass from a same-cell mass-versus-time slope and state the assay units. A fractional growth-rate reduction is not equivalent to shrinkage, death or patient response.
+Creative plan: A fluid-filled channel loops inside a suspended vibrating beam; a passing cell shifts its frequency, calibrated to buoyant mass. An invented graph follows the same toy cell at 0, 0.5 and 1 hour with masses of 10, 11 and 12 picograms; slope is 2 picograms per hour. A separate invented matched-group rate comparison of 2 versus 0.5 picograms per hour yields a 75 percent lower positive rate. Neither reduced rate nor buoyant mass alone demonstrates shrinkage, death or patient response.
+Takeaway: Follow the same cell through repeated calibrated readings to estimate a slope, in picograms per hour. The toy values are invented: a fall from 2 to 0.5 pg/h is a 75% lower positive rate, not a killed-cell fraction, shrinkage or patient response.
+Visual style: three linked filled inset teaching cards; transparent outer canvas; restrained hand-drawn cell, compartment and assay glyphs; personable teaching questions; large labels.
+No image model/service used. No patient measurements or therapeutic efficacy depicted. All toy values, shapes and arrangements invented. Preserve baseline text, old art and navigation. Domain-expert, clinician and learner review pending.

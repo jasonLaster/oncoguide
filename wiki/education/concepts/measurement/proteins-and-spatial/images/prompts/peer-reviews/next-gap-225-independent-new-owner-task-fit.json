@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-225",
+  "owner": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+  "author": "agent:/root/batch09_author_group3",
+  "reviewer": "agent:/root/batch09_review_group3",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+      "sha256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177",
+      "bytes": 8037,
+      "theme": "dark"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+      "sha256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943",
+      "bytes": 8037,
+      "theme": "light"
+    }
+  ],
+  "sourceFitAssessment": {
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/296",
+    "frozenRowSHA256": "0802ecc55f7d1ee577bba802b62f93523edfecffda4493af593c876f20701a0c",
+    "baselinePageSHA256": "b4f2392bfde6b2b06ca6d58cdd9a1abfd4528193627318d208352374ff8093a4",
+    "learnerTask": "Understand that each array spot is a mixed lysate, not a tissue coordinate",
+    "gap": "Current marker-branch diagram does not show printed mixture/dilutions",
+    "accuracyGuardrails": "Show printed sample/dilution addresses as mixed lysates, not tissue coordinates. Probe specificity, calibration and normalization remain assay-specific; RPPA is not an all-protein or single-cell spatial census.",
+    "targetSection": "How it works",
+    "currentVisualFit": "adequate",
+    "reasoning": "Cells are disrupted into a protein mixture, which appears in every A/B by 1,1/2,1/4 sample/dilution spot. Replicate arrays ask separate R/phospho-R questions, avoiding tissue-position or all-protein interpretation.",
+    "humanReview": "pending",
+    "assessmentQualification": "Existing bounded independent agent task-fit decision, serialized for maintained collector; no new assessment or credit."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+        "sha256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+        "bytes": 9057
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+        "sha256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943",
+        "bytes": 8037
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+        "sha256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177",
+        "bytes": 8037
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1.txt",
+        "sha256": "bca660bdca5044ec64c6b855bba15c60bf8ef41413f98e6c2ead76aed2bd068b",
+        "bytes": 2082
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1-provenance.json",
+        "sha256": "5a047fe8e92b5c73d43aa4a882f55e3e9b4e7f29965b3eb6242e4a2ffa02be0d",
+        "bytes": 5477
+      }
+    ],
+    "currentPrivatePaths": [
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/proteins-and-spatial/rppa.md"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1.txt",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1.txt"
+      },
+      {
+        "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1-provenance.json",
+        "privatePath": "/tmp/education-next-visual-batch-09/assay-geometry-and-recovered-material/prospective/wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1-provenance.json"
+      }
+    ],
+    "authorPredecessorSealSHA256": "f5b7ab7806db927d0163a55ebf1e786f3500193156f40afe9242fb924147463f",
+    "authorFocusedCorrectionSealSHA256": "7935800577f1c99bc45830b28faf137104724c51c9c81f6802ac1a1e933ede8d",
+    "currentAuthorCompositeInventorySHA256": "c8c52d2e2fedccfadf3b96ab0fd124e6a947cfe29a7544941cc218fdf33c56b0",
+    "originalWholeReviewSealSHA256": "9e39c39e89b16ac581858cd0a36b9fa61700ef40d1383455e4258335185ed494",
+    "focusedReviewSealSHA256": "d045d4f86c6c196c776807d5c1b983ebaba7e389d2a7255b433560620809f3e2"
+  },
+  "reviewerIndependentOfCreativeAuthor": true,
+  "integrator": "agent:/root",
+  "schemaProjectionAtUTC": "2026-10-13T23:14:43.253866+00:00",
+  "basisDecision": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-225-independent-new-owner-task-fit.json",
+    "sha256": "db466dda94c932bf85f24974c16cd5f2124631a8f8cb9b220a709648944f1eea",
+    "status": "PASS",
+    "noNewReview": true
+  },
+  "teachingSourceCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "teachingPreimageSHA256": "e4220ea523010d062c63c94f1d3a327463316160c6e78fb59f9776511f97228e",
+  "captureEvidence": {
+    "priorWholeTaskReceipt": {
+      "path": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/next-gap-225-independent-new-owner-task-fit.json",
+      "sha256": "db466dda94c932bf85f24974c16cd5f2124631a8f8cb9b220a709648944f1eea",
+      "status": "PASS"
+    },
+    "priorNativeCaptures": [
+      {
+        "key": "next-gap-225",
+        "theme": "light",
+        "nativeSHA256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-light-reading.png",
+        "captureSHA256": "bd9bd4199bb3752f289424b8d6b51a7e0f0c9ef82e235b2081ef26358d073ce9",
+        "viewBox": "0 0 600 900",
+        "textCount": 18,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "A printed spot is a mixture.",
+            "x": 32,
+            "y": 20,
+            "width": 411.328125,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Its address names a sample.",
+            "x": 32,
+            "y": 56,
+            "width": 434,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Disrupt cells into mixed lysate",
+            "x": 32,
+            "y": 136,
+            "width": 456.828125,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Protein mixture",
+            "x": 348,
+            "y": 189,
+            "width": 188.296875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "in one tube.",
+            "x": 348,
+            "y": 223,
+            "width": 146.34375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Location is lost.",
+            "x": 348,
+            "y": 257,
+            "width": 193,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Print sample \u00d7 dilution addresses",
+            "x": 32,
+            "y": 352,
+            "width": 504.34375,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "1",
+            "x": 152.2109375,
+            "y": 396,
+            "width": 15.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "\u00bd",
+            "x": 278.3203125,
+            "y": 396,
+            "width": 23.359375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "\u00bc",
+            "x": 408.3203125,
+            "y": 396,
+            "width": 23.359375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "A",
+            "x": 44,
+            "y": 433,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "B",
+            "x": 44,
+            "y": 489,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy dilutions; each spot is still mixed.",
+            "x": 32,
+            "y": 534,
+            "width": 457.53125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  Separate probes on replicate arrays",
+            "x": 32,
+            "y": 600,
+            "width": 535.265625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "R",
+            "x": 75,
+            "y": 730,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "phospho-R",
+            "x": 358,
+            "y": 730,
+            "width": 147.75,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Validate each antibody and signal scale.",
+            "x": 32,
+            "y": 801,
+            "width": 497.609375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Not all proteins or a single-cell map.",
+            "x": 32,
+            "y": 835,
+            "width": 445.09375,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      },
+      {
+        "key": "next-gap-225",
+        "theme": "dark",
+        "nativeSHA256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177",
+        "capture": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-dark-reading.png",
+        "captureSHA256": "e06ceee9653305d71dbdf705366ff9174efc77344f8f4eb686c087a2864713ae",
+        "viewBox": "0 0 600 900",
+        "textCount": 18,
+        "minFont": 28,
+        "outside": [],
+        "texts": [
+          {
+            "text": "A printed spot is a mixture.",
+            "x": 32,
+            "y": 20,
+            "width": 411.328125,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "Its address names a sample.",
+            "x": 32,
+            "y": 56,
+            "width": 434,
+            "height": 36,
+            "font": 32
+          },
+          {
+            "text": "1  Disrupt cells into mixed lysate",
+            "x": 32,
+            "y": 136,
+            "width": 456.828125,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "Protein mixture",
+            "x": 348,
+            "y": 189,
+            "width": 188.296875,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "in one tube.",
+            "x": 348,
+            "y": 223,
+            "width": 146.34375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Location is lost.",
+            "x": 348,
+            "y": 257,
+            "width": 193,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "2  Print sample \u00d7 dilution addresses",
+            "x": 32,
+            "y": 352,
+            "width": 504.34375,
+            "height": 33,
+            "font": 30
+          },
+          {
+            "text": "1",
+            "x": 152.2109375,
+            "y": 396,
+            "width": 15.578125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "\u00bd",
+            "x": 278.3203125,
+            "y": 396,
+            "width": 23.359375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "\u00bc",
+            "x": 408.3203125,
+            "y": 396,
+            "width": 23.359375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "A",
+            "x": 44,
+            "y": 433,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "B",
+            "x": 44,
+            "y": 489,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Toy dilutions; each spot is still mixed.",
+            "x": 32,
+            "y": 534,
+            "width": 457.53125,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "3  Separate probes on replicate arrays",
+            "x": 32,
+            "y": 600,
+            "width": 535.265625,
+            "height": 33.3134765625,
+            "font": 30
+          },
+          {
+            "text": "R",
+            "x": 75,
+            "y": 730,
+            "width": 20.234375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "phospho-R",
+            "x": 358,
+            "y": 730,
+            "width": 147.75,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Validate each antibody and signal scale.",
+            "x": 32,
+            "y": 801,
+            "width": 497.609375,
+            "height": 31,
+            "font": 28
+          },
+          {
+            "text": "Not all proteins or a single-cell map.",
+            "x": 32,
+            "y": 835,
+            "width": 445.09375,
+            "height": 31,
+            "font": 28
+          }
+        ]
+      }
+    ],
+    "priorDisplayCaptures": [
+      {
+        "key": "next-gap-225",
+        "theme": "light",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943",
+        "candidateSHA256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 324.53125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-light-mobile-inline.png",
+            "sha256": "78c7aefa8875bebeec1a5fa06bb0c454c7f45adf1309a08af5fe35a540b2ee79"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-light-mobile-theater.png",
+            "sha256": "d1fc5f79e81d1a26e6b5fef7f0c66073da28560886391f8ca33a895e5d986918"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-225",
+        "theme": "light",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943",
+        "candidateSHA256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 100.453125,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-light-desktop-inline.png",
+            "sha256": "940ed7b1c58d088df6b2964d62c860deb39118bcbeadf86faf93456fe8fe5b42"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-light-desktop-theater.png",
+            "sha256": "dd22c90317dce888ba284867a967f2841e8ac543db0c56635640cc6d01148a74"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-225",
+        "theme": "dark",
+        "size": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "nativeSHA256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177",
+        "candidateSHA256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+        "inline": {
+          "box": {
+            "x": 22,
+            "y": 324.53125,
+            "width": 346,
+            "height": 519
+          },
+          "paint": {
+            "width": 346,
+            "height": 519
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 342,
+            "height": 748
+          },
+          "paint": {
+            "width": 342,
+            "height": 513
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 390,
+          "viewportWidth": 390
+        },
+        "minInlineLabelPx": 16.14666666666667,
+        "minTheaterLabelPx": 15.96,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-dark-mobile-inline.png",
+            "sha256": "075ce341726c1e65231f8b772e5cd9221b012a95e866a8184369ad49140b9a4a"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-dark-mobile-theater.png",
+            "sha256": "9f7ab372e3d416e591231ce714dbdb89ec36e488576d18f62e459fe299a721e6"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      },
+      {
+        "key": "next-gap-225",
+        "theme": "dark",
+        "size": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "nativeSHA256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177",
+        "candidateSHA256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+        "inline": {
+          "box": {
+            "x": 310,
+            "y": 100.453125,
+            "width": 600,
+            "height": 900
+          },
+          "paint": {
+            "width": 600,
+            "height": 900
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+          "objectFit": "fill",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "modal": {
+          "box": {
+            "x": 24,
+            "y": 64,
+            "width": 1392,
+            "height": 904
+          },
+          "paint": {
+            "width": 602.6666666666666,
+            "height": 904
+          },
+          "naturalWidth": 600,
+          "naturalHeight": 900,
+          "src": "http://127.0.0.1:4713/api/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fproteins-and-spatial%2Fimages%2Frppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+          "objectFit": "contain",
+          "documentWidth": 1440,
+          "viewportWidth": 1440
+        },
+        "minInlineLabelPx": 28,
+        "minTheaterLabelPx": 28.12444444444444,
+        "captures": [
+          {
+            "mode": "inline",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-dark-desktop-inline.png",
+            "sha256": "2d9ff84d2d728822191003fa16e9f81e47bdd6cbbd0295df2341a79dfe20906b"
+          },
+          {
+            "mode": "theater",
+            "path": "/private/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/captures/next-gap-225-dark-desktop-theater.png",
+            "sha256": "5cc8e72325e58d3d1e78ca614f3c0c273e3535ed1065a82e20b1455c83983f30"
+          }
+        ],
+        "keyboardEnterOpened": true,
+        "escapeClosed": true,
+        "focusReturned": false,
+        "pageErrors": []
+      }
+    ],
+    "newCaptures": 0,
+    "newScientificReads": 0,
+    "qualification": "Existing genuinely personally inspected capture evidence remains byte-bound to its original SVG and owner hashes. No new current-hash capture asserted during schema projection."
+  },
+  "primarySourceEvidence": {
+    "receipt": "/tmp/education-next-visual-batch-09/reviews/assay-geometry-and-recovered-material/independent-source-read-receipt.json",
+    "sha256": "013b60b7df73c2d0a78b7fa4219bf310c9368881ecc7c281a411407af545ef0e",
+    "sources": [
+      {
+        "tasks": [
+          225
+        ],
+        "url": "https://home.ccr.cancer.gov/ncifdaproteomics/pdf/reverse_phase_prostate.pdf",
+        "title": "Paweletz 2001 NCI-hosted primary paper",
+        "readBounds": "Page 2 lines 103-139 and 168-187; Figure 1 caption page 3 lines 220-224; Figure 4 caption page 5 lines 281-288",
+        "supports": "Lysates printed at known sample/dilution addresses; antibody-probed replicate slides; specificity, normalization and dynamic range are assay-specific.",
+        "access": "Named method/results paragraphs and figure captions; not all nine pages.",
+        "limitations": "No toy dilution fraction or cell glyph count is source data; mixture means proteins, even if input region was microdissected.",
+        "retrievedAtUTC": "2026-10-13T23:01:39.386175+00:00",
+        "reviewer": "agent:/root/batch09_review_group3",
+        "scientificExpertApproval": false
+      }
+    ],
+    "qualification": "Original actual bounded primary reads and original access limits retained. No new retrieval, science read or full-paper/expert approval."
+  },
+  "qualifications": [
+    "Pinned renderer keyboard Enter opens and Escape closes in all tested cases; focus returns to opener in 0/24 across the group. Unchanged runtime observation remains unresolved; no accessibility approval.",
+    "Public article fixture uses exact pinned compiler/components/shared CSS with literal theme utility rules; no full app/live data or routing approval.",
+    "Future source and destination null; Root must rebind actual owner bytes and ownership before adoption.",
+    "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+    "The shared pinned renderer BODY-focus observation remains qualified. This reviewer independently measured opener return in 0/24, without recording activeElement tag; no additional BODY check occurred during schema projection.",
+    "This is schema-only serialization of existing genuine same-reviewer decisions, with no source, pixel, scientific or native rerun. It is not adoption, completed delivery, clinical/domain-expert or learner approval.",
+    "SourceFitAssessment adequate is bounded agent assessment of the exact frozen learner task, not source-fit coverage credit or human approval."
+  ],
+  "metadataReadSequencingDisclosure": "Final immutable public metadata and redaction gates pass. Initial previews of candidate222/223 preceded successful immutable programmatic gate due Git path-prefix error; their visible metadata was nonsensitive. No restricted body was accessed. All six immutable gates completed before subsequent body/capture review.",
+  "knownRendererFocusReturn": {
+    "returned": 0,
+    "cases": 24,
+    "BODYQualification": "Shared known observation retained; independent review measured opener return only. No full accessibility approval."
+  },
+  "inverseBodyPreservation": true,
+  "originalCreatorsRemainUnknown": true,
+  "allToyGraphicNumbersAndCountsInvented": true,
+  "humanReview": "pending",
+  "learnerReview": "pending",
+  "scientificExpertApproval": false,
+  "sourceFitApproval": false,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "canonicalAdoption": false,
+  "liveApproval": false,
+  "delivery": "pending",
+  "release": "pending",
+  "repoGitRegistryPipelineRuntimePublisherCacheWrites": false
+}

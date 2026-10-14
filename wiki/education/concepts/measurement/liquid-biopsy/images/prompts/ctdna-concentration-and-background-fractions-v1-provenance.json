@@ -1,0 +1,104 @@
+{
+  "prospectiveTaskId": "next-gap-219",
+  "owner": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "preimageSHA256": "3b0be0c33d4263eb6fad0f56115b673f61d7433c357ab49e0fec22ee6ab69f69",
+  "preimageBytes": 7375,
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/279",
+  "frozenRowSHA256": "180a117cf9a05bbbf80ae8a85ccbbcc248957010da640b65e5244d55ffd0b3e6",
+  "learnerTask": "Distinguish concentration from fractions under changed background",
+  "gap": "Units table does not show dilution without amount change",
+  "accuracyGuardrails": "Keep volume, tumor-attributed molecule amount and background denominator explicit. Copies per volume, allele fraction and tumor fraction are not directly convertible without method/model assumptions.",
+  "targetSection": "How it works",
+  "earlierBriefCollisions": [
+    {
+      "id": "brief-246",
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+      "ownerSHA256": "ff40a3f0d7ea4486968a06e20146ef5c40de363ec8e0556830934f37b74cd7e8",
+      "status": "planned",
+      "rowSHA256": "afc92836c896c58e8e2c2e281c4903c2ae47903cb25d8e77764cd850233ad005",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    },
+    {
+      "id": "brief-247",
+      "owner": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+      "ownerSHA256": "ff40a3f0d7ea4486968a06e20146ef5c40de363ec8e0556830934f37b74cd7e8",
+      "status": "planned",
+      "rowSHA256": "2d8e0dd55135b0093e6daa1054eb658c95ae1dc3b0b7be64a1e201e57749b97a",
+      "rowCanonicalization": "recursive lexicographic key sort; UTF-8 JSON; compact separators",
+      "creativeAuthor": null,
+      "reviewerProposals": []
+    }
+  ],
+  "schemaVersion": 1,
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "integrator": "agent:/root",
+  "method": "Original hand-authored editable SVG from Python primitives; no raster image-generation invocation",
+  "imageGenerationInvocation": null,
+  "generatorModel": null,
+  "sourceBodiesRead": "Complete actual b8 public owner body personally read after metadata gate; six gaps remain unresolved before additions",
+  "baselineTextPreservation": "Exact byte equality after removing only inserted image and caption block",
+  "publicMetadataClassification": {
+    "frontmatterSHA256": "c4345cdbf44e4f735a3fee57279cc2f96e7fa08ecdc153aef635189734d66cf0",
+    "data": {
+      "title": "ctDNA units: concentration, fractions and reporting rules",
+      "type": "concept",
+      "domain": "measurement/liquid-biopsy",
+      "summary": "A circulating tumor DNA number is meaningful only with the assay\u2019s measured quantity, units and detection criteria.",
+      "glossary_anchor": "ctdna-units",
+      "aliases": [
+        "ctdna-units",
+        "MTM/mL",
+        "mean tumor molecules per milliliter",
+        "ctDNA PPM"
+      ],
+      "prerequisites": [
+        "[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]",
+        "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"
+      ],
+      "reviewed": "pending",
+      "reviewed_by": "",
+      "level": "foundation",
+      "sensitive": false,
+      "tags": [
+        "education",
+        "measurement"
+      ],
+      "used_by": [
+        "[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]",
+        "[[wiki/education/guides/monitoring-residual-disease/index]]",
+        "[[wiki/education/index]]",
+        "[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]",
+        "[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]",
+        "[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]",
+        "[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"
+      ],
+      "updated": "2026-10-10",
+      "source_checked": "2026-10-10",
+      "review_status": "Source-checked; expert and learner review pending"
+    },
+    "classificationBeforeBodyExtraction": true,
+    "maintainedPublicGatePassed": true,
+    "redactionGatePassed": true
+  },
+  "sources": [
+    {
+      "url": "https://www.fda.gov/media/183874/download",
+      "readBounds": "Downloaded official PDF; web lines 343\u2013434 on sampling/background and assay validation actually read. No regulatory recommendations authored.",
+      "supports": "Background and ctDNA preanalytics need control; illustrative amount/fraction division is arithmetic, not calibrated clinical conversion."
+    }
+  ],
+  "toyData": "All sample counts, identities, timing, proportions and area geometry invented; not Diana data or thresholds",
+  "altText": "Equal invented 1 mL plasma aliquots each contain four tumor-attributed molecule symbols. A has 16 background symbols and 20 total; B has 36 background symbols and 40 total. Four molecules per mL stays equal while the recovered-molecule share drops from 4/20, or 20%, to 4/40, or 10%. These toy molecule shares are not automatically variant allele fraction, an assay-estimated tumor fraction or MTM/mL; those quantities require their stated method and model.",
+  "caption": "Equal invented volumes retain four tumor-attributed molecules each, so concentration stays constant while added background halves this toy molecule fraction.",
+  "nativeCaptureReview": "Author personally read final 10 fresh capture variants per owner (native light/dark; inline mobile 390\u00d7844 and desktop 1440\u00d71700; theater mobile390\u00d7844 and desktop1440\u00d71000). Author self-check only; independent review pending. See display-checks.private.json and personal-inspection.private.json. Enter/Escape work; inherited focus-return false.",
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "independentReviewer": null,
+  "humanReview": "clinician/domain-expert and learner review pending",
+  "status": "private prospective creative draft; no canonical adoption/live approval",
+  "coverageCredit": 0
+}

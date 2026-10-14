@@ -1,0 +1,13 @@
+Original hand-authored SVG teaching brief
+Author: agent:/root/batch09_author_group3
+Private prospective only; actual execution source/destination null.
+Owner: wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md
+Task: project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/303
+Frozen row SHA256: ff46383757099c54de0787566fd8b3ebea4ebe02e286924a29a50961829b1dae
+Learner task: Compare assay territory without turning breadth into sensitivity
+Gap: Table names regions but does not show gaps or uneven depth
+Accuracy guardrails (verbatim): Show selected territories and uneven/local depth as different dimensions. Broader assay scope is not uniformly better sensitivity, all-variant detection, or clinical utility.
+Creative plan: A toy assay marks a selected DNA territory and a region outside its design. A local zoom aligns four invented reads across position P and two across position Q, giving depths of 4× and 2× at those specific positions. A second targeted region R has no usable aligned reads despite being included in the design. The schematic complements the preserved panel/exome/genome territory illustration; it is not a category ranking, coverage threshold, variant-detection probability or clinical-utility claim.
+Takeaway: Count usable aligned reads at the position of interest; do not substitute the assay’s breadth or average depth. The toy 4×, 2× and 0× values are invented teaching values, not clinical thresholds. Broader territory guarantees neither uniform local sensitivity, all-variant detection nor clinical utility.
+Visual style: three linked filled inset teaching cards; transparent outer canvas; restrained hand-drawn cell, compartment and assay glyphs; personable teaching questions; large labels.
+No image model/service used. No patient measurements or therapeutic efficacy depicted. All toy values, shapes and arrangements invented. Preserve baseline text, old art and navigation. Domain-expert, clinician and learner review pending.

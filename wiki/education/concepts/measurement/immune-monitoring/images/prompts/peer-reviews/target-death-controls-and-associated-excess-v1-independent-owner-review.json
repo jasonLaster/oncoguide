@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-216",
+  "owner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+  "author": "agent:/root/batch09_author_group2",
+  "authorRole": "Actual six-new-illustration packet author",
+  "creativeAuthor": "agent:/root/batch09_author_group2",
+  "artworkCreatorStatus": "Explicit actual agent author",
+  "reviewer": "agent:/root/batch08_review_group2",
+  "independentReviewer": "agent:/root/batch08_review_group2",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:57:26.767736+00:00",
+  "reviewedAtUTC": "2026-10-13T22:57:26.767736+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "scienceVerdict": "PASS",
+  "taskFitVerdict": "PASS",
+  "originalNativeVerdict": "PASS",
+  "freshReaderPixelVerdict": "PASS",
+  "currentOwnerSha256": "51f939f5e408bb11c6b949764465ab71fcdeccfca76e007d95ec002a6aabfc42",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/269",
+  "frozenRowSHA256": "78e35b00bb7c0d5f666b78dafe01f62de6c49ec3cc9a1511b179f6e5594c19e1",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Two matched wells and common-scale30%/40% bars separate target-only background from a10-percentage-point effector-associated excess at one fictional2-hour endpoint. The30/100 and40/100 targets remain distinct from effectors, and glyphs summarize10 events rather than identified individual fates. Neither all40% raw deaths nor the10-point subtraction becomes attributable killing, normalized lysis or patient response.",
+    "frozenPageSHA256": "b28112dc35c28ce0e463885f48cbb7ff5aadfe55c02923c4c00cf5ac37ac7e8a",
+    "baselinePageSHA256": "b28112dc35c28ce0e463885f48cbb7ff5aadfe55c02923c4c00cf5ac37ac7e8a",
+    "actualTeachingPreimageSHA256": "c31846294315b68a3e37c4e898d24d6825f4c62530f4c43986b3300bf9503763",
+    "learnerTask": "Separate spontaneous target death from effector-associated excess",
+    "gap": "The current workflow names controls but does not depict their comparison",
+    "accuracyGuardrails": "Keep spontaneous target death, effector-associated excess, target identity and timing separate. Raw dead-cell fraction is not all attributable killing or a validated patient-response prediction.",
+    "targetSection": "Worked example",
+    "currentCanonicalAdoption": "pending",
+    "auditVsTeachingQualification": "baselinePageSHA256 is the immutable original audit page anchor required by maintained source-fit accounting; actual b8 teaching bytes are separately bound and were fully read. Frozen task is unchanged."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-light.svg",
+      "sha256": "b47b6b2add5fad6a9aaef4255ed4939ebe24cf9fc7850214c1159296e489d8e3",
+      "bytes": 9840,
+      "theme": "light",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-dark.svg",
+      "sha256": "942c39b61ae28fc17c69f7327b101557e8a51811f86196ea2675c029b43fe1af",
+      "bytes": 9840,
+      "theme": "dark",
+      "nativeDimensions": {
+        "width": 780,
+        "height": 1450,
+        "viewBox": "0 0 780 1450"
+      }
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+        "sha256": "51f939f5e408bb11c6b949764465ab71fcdeccfca76e007d95ec002a6aabfc42",
+        "bytes": 9717
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-light.svg",
+        "sha256": "b47b6b2add5fad6a9aaef4255ed4939ebe24cf9fc7850214c1159296e489d8e3",
+        "bytes": 9840
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-dark.svg",
+        "sha256": "942c39b61ae28fc17c69f7327b101557e8a51811f86196ea2675c029b43fe1af",
+        "bytes": 9840
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/target-death-controls-and-associated-excess-v1.txt",
+        "sha256": "059571d0197e81b109a91c09ba952d15c96c4a4cc84e49c9c17de743e418100c",
+        "bytes": 2352
+      },
+      {
+        "path": "wiki/education/concepts/measurement/immune-monitoring/images/prompts/target-death-controls-and-associated-excess-v1-provenance.json",
+        "sha256": "e8ab152e64d40b94370401fbee7b021820eb3fb3435d7104db8b84bc47aaff24",
+        "bytes": 6701
+      }
+    ],
+    "currentCandidateOwnerSHA256": "51f939f5e408bb11c6b949764465ab71fcdeccfca76e007d95ec002a6aabfc42",
+    "currentCandidatePairBound": true,
+    "authorPackageSealSHA256": "3590da1e10fc88079e4bc1e074d49474a8289b395c6e086de370225c83dcb3e2",
+    "authorInventorySHA256": "e9452748cef77e8d79677059c0268de5fef755034167182c0f05f0750c01b953",
+    "authorCustodyZipSHA256": "f1e14bfd1be9734930a570bb1ec3465a0b6141173468b9741217ecf9b9923f79",
+    "sourcePreimageSHA256": "c31846294315b68a3e37c4e898d24d6825f4c62530f4c43986b3300bf9503763",
+    "exactFivePublicFiles": true,
+    "preservedExistingCustodyFileCount": 0,
+    "insertOnlyPreimageRecovery": "Verified byte-for-byte after stripping only inserted image and caption; original frontmatter, navigation, prose, sources and Mermaid preserved.",
+    "frozenRowRecomputed": true,
+    "themeGeometryTextDataIdentical": true,
+    "authorPreimagesAndPacketUnedited": true
+  },
+  "privacy": {
+    "metadataBeforeBodies": true,
+    "selectedOwnersPublic": true,
+    "sensitiveFalse": true,
+    "sensitiveTagAbsent": true,
+    "casePrivateSourceBodiesRead": false,
+    "publicSafeReceipt": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6891822/",
+      "primary": true,
+      "readDepth": "Complete abstract and selected introduction paragraphs from targeted official indexed retrieval; no complete methods, normalized-lysis equation or supplement independently read.",
+      "supports": "Distinct target/effector and live/dead measurements support matched target-only controls. Raw fraction difference is reviewed as arithmetic, not certified normalized lysis.",
+      "accessStatus": "Direct PMC opening returned reCAPTCHA; targeted primary indexed text available; Europe PMC fullTextXML returned HTTP500.",
+      "population": "In-vitro assay validation across NK-92, CAR-T and TIL examples; no patient-response inference."
+    }
+  ],
+  "mathAssessment": {
+    "targetDenominatorEach": 100,
+    "deadTargets": [
+      30,
+      40
+    ],
+    "glyphTargetEvents": 10,
+    "glyphDeadCounts": [
+      3,
+      4
+    ],
+    "rawFractions": [
+      0.3,
+      0.4
+    ],
+    "excessPercentagePoints": 10,
+    "normalizedLysisClaimed": false
+  },
+  "reviewBasis": {
+    "scope": "One whole independent scientific, conceptual, original-native, frozen task, source-depth, custody and fresh pinned-reader pixel review; task218 explicit existing-art reuse.",
+    "sourceReadDepth": "Entries record actual bounded independent primary reading and failures; preserved ancillary owner citations are not each recertified. No study statistics or patient treatment conclusions introduced.",
+    "freshCaptureCountForOwner": 10,
+    "personallyInspectedCountForOwner": 10,
+    "originalNativePairPersonallyInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedFilesComparedToGitCommit": 87,
+    "carrierLimits": "Own isolated pinned renderWikiMarkdownHtml, WikiMarkdownFrame, ImageTheater, SmartTableEnhancer and shared/app CSS; literal theme utility rules only. No production header/sidebar/backend/navigation, physical mobile or cross-browser/touch certification; no whole-page/nontext accessibility certification. Own full-reader screenshots support inline crops. Initial author server4692 unavailable; own private copied/pin-verified fixture built and served4692. No author captures borrowed."
+  },
+  "nativePixelAssessment": {
+    "nativeSourceDimensions": [
+      780,
+      1450
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopInlineViewport": [
+      1440,
+      1700
+    ],
+    "desktopTheaterViewport": [
+      1440,
+      1000
+    ],
+    "minMobileInlineLabelPx": 12.420474137931034,
+    "minMobileDefaultPreviewLabelPx": 12.276923076923078,
+    "nativeTextOutsideViewBox": 0,
+    "browserPageErrors": 0,
+    "mobileHorizontalOverflow": false,
+    "ordinaryTextMinContrast": 6.322398239900442,
+    "allTextContrastChecksPassed": true,
+    "contrastScope": "Fresh actual SVG DOM computed fill and preceding opaque enclosing rectangle over each text bbox; both themes. Nontext graphics not certified.",
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusReturn": "Escape closed the dialog but focus did not return to image (BODY); unchanged pinned runtime defect remains qualified. No runtime modification or complete keyboard approval."
+  },
+  "freshCaptures": [
+    {
+      "mode": "native",
+      "theme": "light",
+      "path": "private/captures/next-gap-216-light-reading.png",
+      "sha256": "a16294ffb4475707308fda3ff846f1d1a3e53b5d5289ddd73b8851eddc91aed9"
+    },
+    {
+      "mode": "native",
+      "theme": "dark",
+      "path": "private/captures/next-gap-216-dark-reading.png",
+      "sha256": "481d3509fe32c4f599338a2ebf37f2e02fb5439b2fd76cf0d1b9248724830f8a"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-216-light-mobile-inline.png",
+      "sha256": "1d79601bd58d2798c67241bbecae4946e9427430c45034d2a714d76b800157c8"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-216-light-mobile-theater.png",
+      "sha256": "6e77d03023dca10c1b464cd97f1d9d0b0daed71c548db65d38f1634e405fdb7b"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "light",
+      "path": "private/captures/next-gap-216-light-desktop-inline.png",
+      "sha256": "2f234d2f7ab8c125eb3cd02c9a1b79d7d271732b055869688c1932801403f85c"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "light",
+      "path": "private/captures/next-gap-216-light-desktop-theater.png",
+      "sha256": "22653223e8cbfcea5944c049bf00f4e38f826aad75017ebc647d701d5de6a6c9"
+    },
+    {
+      "mode": "mobile-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-216-dark-mobile-inline.png",
+      "sha256": "e7578d1d4c21412a480d51f43962a97b3d719fbf9952d084f1249f2a47f4f99d"
+    },
+    {
+      "mode": "mobile-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-216-dark-mobile-theater.png",
+      "sha256": "d40bd34e9c27c16b93963c45ae55463b8c9666b5de698c08994a033b8ca49295"
+    },
+    {
+      "mode": "desktop-inline",
+      "theme": "dark",
+      "path": "private/captures/next-gap-216-dark-desktop-inline.png",
+      "sha256": "08d54127a87cc2cd1cf620b23d154f423658ff8130aab761820e0fdec6eec824"
+    },
+    {
+      "mode": "desktop-theater",
+      "theme": "dark",
+      "path": "private/captures/next-gap-216-dark-desktop-theater.png",
+      "sha256": "7b124d77a3d1bf11084f98cfed1e6cf21e14e0e3fbf1c20794f1cd8138c117ad"
+    }
+  ],
+  "method": "Original hand-authored editable SVG from Python primitives; no raster generator invocation",
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "reviewerModelIdentityClaimed": null,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitCredit": 0,
+  "coverageCredit": 0,
+  "currentCoverageCredit": 0,
+  "newCoverageCredit": 0,
+  "gradeCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "actualFutureBatch08DeliveredSourceCommit": null,
+  "requiredCorrections": [],
+  "findings": [],
+  "imageModelCallsScope": "This independent review/prospective work; historical218 authorship or tool invocation is not reconstructed."
+}

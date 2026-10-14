@@ -1,0 +1,23 @@
+HAND-AUTHORED SVG SOURCE BRIEF (not an image-generator prompt invocation)
+
+Same amount, different fraction
+Learner task: Distinguish concentration from fractions under changed background
+Exact frozen gap: Units table does not show dilution without amount change
+Target: How it works
+Guardrails (verbatim): Keep volume, tumor-attributed molecule amount and background denominator explicit. Copies per volume, allele fraction and tumor fraction are not directly convertible without method/model assumptions.
+
+Geometry/alt: Equal invented 1 mL plasma aliquots each contain four tumor-attributed molecule symbols. A has 16 background symbols and 20 total; B has 36 background symbols and 40 total. Four molecules per mL stays equal while the recovered-molecule share drops from 4/20, or 20%, to 4/40, or 10%. These toy molecule shares are not automatically variant allele fraction, an assay-estimated tumor fraction or MTM/mL; those quantities require their stated method and model.
+Caption: Equal invented volumes retain four tumor-attributed molecules each, so concentration stays constant while added background halves this toy molecule fraction.
+
+Style: warm personable schematic cells and specimens, 780 by 1450; same geometry/counts across themes; labels 28–38 px; cream light and slate dark. Original editable SVG authored with Python string primitives; no image-generation tool invoked. Six illustrations added only, all baseline text/frontmatter/navigation retained. Original creators of earlier diagrams unknown.
+
+Sources/read bounds:
+[
+  {
+    "url": "https://www.fda.gov/media/183874/download",
+    "readBounds": "Downloaded official PDF; web lines 343\u2013434 on sampling/background and assay validation actually read. No regulatory recommendations authored.",
+    "supports": "Background and ctDNA preanalytics need control; illustrative amount/fraction division is arithmetic, not calibrated clinical conversion."
+  }
+]
+
+Private prospective baseline b8c381d6ad94c0377939ee2bc4e54ff4088c70ea; execution refs null; canonical adoption, clinician/domain-expert and learner review, production delivery, and coverage credit pending.

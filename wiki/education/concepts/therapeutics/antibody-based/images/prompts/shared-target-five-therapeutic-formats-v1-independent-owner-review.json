@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-212",
+  "owner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+  "author": "agent:/root/batch09_author_group1",
+  "creativeAuthor": "agent:/root/batch09_author_group1",
+  "reviewer": "agent:/root/batch09_review_group1",
+  "independentReviewer": "agent:/root/batch09_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:42:52.291128+00:00",
+  "reviewedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+  "schemaBoundAtUTC": "2026-10-13T23:12:19.315963+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Compare the same address across five therapeutic formats",
+  "learnerTask": "Compare the same address across five therapeutic formats",
+  "gap": "Physical recognition/action differences are listed but not pictured",
+  "accuracyGuardrails": "Same protein need not mean same epitope; no efficacy ranking; healthy cells can share target",
+  "currentOwnerSha256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/330",
+  "frozenRowSHA256": "e012c8d821c7763cb3d7e2ed9ac5f6cd305855f8b4c96c81f843bf6a3e842c42",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Five machinery rows preserve invented target M with possible epitope variation; antibody, ADC, engager, CAR-bearing cell and radioactive conjugate show distinct objects/actions without ranking. Original preimage is recovered exactly by inverse insertion, preserving prior Mermaid, prose, source attribution and navigation. All original frozen task guards are retained. This owner passed the original independent whole review and remained byte-identical in the later focused correction.",
+    "baselinePageSHA256": "518821409aacfc765bd0c4403cc9d8b05189bad5d75635850ad2a73fd5a73adc",
+    "frozenPageSHA256": "518821409aacfc765bd0c4403cc9d8b05189bad5d75635850ad2a73fd5a73adc",
+    "actualTeachingPreimageSHA256": "2b009a5f3c48fd9261b16d7938523d4980bf9f86e0644a846402ceae99097a2e",
+    "learnerTask": "Compare the same address across five therapeutic formats",
+    "gap": "Physical recognition/action differences are listed but not pictured",
+    "accuracyGuardrails": "Same protein need not mean same epitope; no efficacy ranking; healthy cells can share target",
+    "targetSection": "## How it works",
+    "baselineQualification": "baselinePageSHA256 is the original immutable frozen audit page hash. Actual b8 teaching preimage differs and is bound separately. No equality between frozen and b8 owner bytes is asserted.",
+    "reviewScope": "Schema-only binding of actual original whole review and prior focused correction acceptance; no scientific/native rereview or decision change."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-light.svg",
+      "sha256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+      "bytes": 13319,
+      "type": "svg",
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-dark.svg",
+      "sha256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+      "bytes": 13319,
+      "type": "svg",
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+        "sha256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+        "bytes": 8881
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-light.svg",
+        "sha256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+        "bytes": 13319
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-dark.svg",
+        "sha256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+        "bytes": 13319
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/shared-target-five-therapeutic-formats-v1.txt",
+        "sha256": "7143362bab1b134a27ebee1b50cd5f8a19607bf5b20bb6db81979f46353b9b13",
+        "bytes": 4035
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/shared-target-five-therapeutic-formats-v1-provenance.json",
+        "sha256": "0b23773e328b13e387ee8e78618eeb18da68b0ec1396b884d505e9b88a02f81e",
+        "bytes": 6425
+      }
+    ],
+    "currentCandidateOwnerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+    "currentCandidatePairBound": true,
+    "exactFivePublicFiles": true,
+    "authorOriginalPackageSealSHA256": "8424f4eaf6a1c3d5ea94672181e14822e4d8e3f2de8b4986c68de3dd651f8206",
+    "authorCurrentPackageSealSHA256": "378e5a2371750d9d6acfca08fae59319e9aa2bea1a54a7d6cd82a9a9b03af582",
+    "originalReviewEvidencePreserved": true,
+    "actualSourcePreimageSHA256": "2b009a5f3c48fd9261b16d7938523d4980bf9f86e0644a846402ceae99097a2e",
+    "actualTeachingBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualFutureExecutionSourceCommit": null,
+    "actualFutureExecutionDestination": null,
+    "preservationCheck": "Original source owner is recoverable by removing only the exact illustration/caption insertion. Correction changed only12 designated light text-fill values across4 owners and4 dependent provenance hashes;27 other public files remain unchanged."
+  },
+  "sourceAccess": [
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "Official How do monoclonal antibodies work section, immune marking and CD19/CD3 bridging paragraphs; no approval inventory reviewed.",
+      "supports": "Five machinery rows preserve invented target M with possible epitope variation; antibody, ADC, engager, CAR-bearing cell and radioactive conjugate show distinct objects/actions without ranking.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    },
+    {
+      "url": "https://www.fda.gov/media/155997/download",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "March2024 PDF page4 Background A and constituent terminology; no dosing/exposure comparison.",
+      "supports": "Five machinery rows preserve invented target M with possible epitope variation; antibody, ADC, engager, CAR-bearing cell and radioactive conjugate show distinct objects/actions without ranking.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "Official A living drug paragraphs and solid-tumor target/normal-cell barrier paragraphs; no approval or current therapeutic recommendation.",
+      "supports": "Five machinery rows preserve invented target M with possible epitope variation; antibody, ADC, engager, CAR-bearing cell and radioactive conjugate show distinct objects/actions without ranking.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    },
+    {
+      "url": "https://www.fda.gov/media/129547/download",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "August2019 PDF Background and animal biodistribution/dosimetry text on PDF pages4\u20136; no dosing instruction.",
+      "supports": "Five machinery rows preserve invented target M with possible epitope variation; antibody, ADC, engager, CAR-bearing cell and radioactive conjugate show distinct objects/actions without ranking.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    }
+  ],
+  "sourceAccessLimits": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+  "accessFailures": [
+    "Nature publisher cookie-authorize redirect prevented full-paper access",
+    "AMG757 publisher403",
+    "NCBI book recaptcha",
+    "Some direct PubMed opens footer-only; EuropePMC primary abstract fallback used"
+  ],
+  "reviewEvidence": [
+    {
+      "kind": "genuine-original-whole-task-fit",
+      "file": "next-gap-212-task-fit.json",
+      "sha256": "7fa4d9b04c1d752aa31c6d01d4ca6a42f09cdf95b846a7cf188451b276375561",
+      "verdict": "PASS",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e"
+    },
+    {
+      "kind": "genuine-current-predecessor-task-fit",
+      "file": "next-gap-212-task-fit.json",
+      "sha256": "7fa4d9b04c1d752aa31c6d01d4ca6a42f09cdf95b846a7cf188451b276375561",
+      "verdict": "PASS",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "focusedAAAcceptance": false
+    },
+    {
+      "kind": "genuine-original-whole-review",
+      "file": "receipt.json",
+      "sha256": "9b133842939e18e59fd1a8ea1310c704d701e6e636144b30d2665309592d0655",
+      "sealSHA256": "38cbc2aa50690d860506a02083ed9a9fe772042d5eb9e1b68dbbb2af2f8d2443",
+      "verdict": "REVISE",
+      "scope": "One whole seven-owner review, original12 light-label findings preserved."
+    }
+  ],
+  "captureLineage": [
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-212-light-reading.png",
+      "sha256": "df74cf0480b10923dc9a70856dc3eb542d0f8556b6c9822260a7b9ac4dd15c04",
+      "nativeSHA256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-212-dark-reading.png",
+      "sha256": "97393abb9da7daf73eead1a7d661553afd68607d411a2394ccd7a6f1f78b07b4",
+      "nativeSHA256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-212-light-mobile-inline.png",
+      "sha256": "0f4c747e5279dbce368e712f7d04e32cca83ae8beb89e0d1fb1ca9c76a8d228b",
+      "nativeSHA256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-212-light-mobile-theater.png",
+      "sha256": "ae2445f9e3397df3fbf711827b2faf691d4f1bc935faff26b5821c55ffebd0b2",
+      "nativeSHA256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-212-light-desktop-inline.png",
+      "sha256": "f225d14531bf15281483cd0fa2df8629d57212ed4cfccfb20b89d652b844f2b8",
+      "nativeSHA256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-212-light-desktop-theater.png",
+      "sha256": "f0002aaf37e91d88a49c9a0c72785fabf13d49a372536ec4f41e97439e9f9c4f",
+      "nativeSHA256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-212-dark-mobile-inline.png",
+      "sha256": "481a892db71ba798c965424a8cf1b62e9589f1955741e32ba4e3fac068dcb3c3",
+      "nativeSHA256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-212-dark-mobile-theater.png",
+      "sha256": "66726ee1f4dbf9646ef65215bfdfdb8c190120a317e86b3c5f1e1977889b35f2",
+      "nativeSHA256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-212-dark-desktop-inline.png",
+      "sha256": "f27d81266bf639a47cf0f172c5c5bfad2563eb7b823fc1474ecbdf5d284c9d78",
+      "nativeSHA256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-212-dark-desktop-theater.png",
+      "sha256": "214064418d20493a2d618c611fb6c3f1f4269813f5c3c2c5c441b298fbc66345",
+      "nativeSHA256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+      "ownerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+      "supersededByFocusedLight": false
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Schema-only collector projection using this same independent reviewer\u2019s genuine sealed evidence. No review rerun, new capture, decision reversal or renaming/relabeling of originals.",
+    "freshCaptureCountThisTurn": 0,
+    "scientificSourceReadsThisTurn": 0,
+    "inheritedOriginalOwnFreshCaptureCountForOwner": 10,
+    "inheritedFocusedOwnFreshCaptureCountForOwner": 0,
+    "actualPixelInspectionPreviouslyPerformed": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeDimensions": [
+      600,
+      900
+    ],
+    "minimumInlineEssentialLabelPx": 14.993333333333334,
+    "minimumTheaterEssentialLabelPx": 14.82,
+    "minimumCorrectedLabelContrast": null,
+    "carrierLimits": "Native600x900 pairs, all390x844 mobile inline/theater originals at1x via aggregate board; all1440x1000 desktop inline/theater originals viewed at0.5x via board. Article/image/modal only; no whole-app or live navigation claim.",
+    "keyboardQualification": "BODY in all four display variants; known unchanged pinned ImageTheater shared-renderer/integration accessibility failure remains pending. Artwork PASS does not approve runtime accessibility.",
+    "sourceReadDepth": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+    "allLabelInspectionQualification": "All original labels personally viewed at native/mobile1x and desktop0.5x boards. For affected owners, all changed light labels personally viewed in5 fresh focused captures. These are predecessor observations, not fresh capture claims in this schema-only turn."
+  },
+  "caption": "A shared target name leaves each format with different delivery and action requirements. It need not mean the same epitope or tumor-exclusive recognition, and no row ranks efficacy.",
+  "alt": "Five rows show different machinery recognizing invented surface protein M: an antibody, antibody-drug conjugate, T-cell engager, CAR-bearing T cell and radiopharmaceutical. Target markers show different possible epitopes; healthy cells may share the protein. Rows are not ranked.",
+  "requiredCorrections": [],
+  "unknownPriorCreators": "Prior Mermaid creative authors remain unknown; no original creator/model identity is invented.",
+  "nativeCreator": "agent:/root/batch09_author_group1",
+  "method": "Original hand-authored source-code SVG; independent review and later schema-only projection.",
+  "authorshipQualification": "Author declares original hand-authored SVG, model=null and imageCalls=0; reviewer observed source SVG and made no model/image calls. Historical Mermaid authors remain unknown. No invented creator or model call.",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "schemaProjectionOnly": true,
+  "wholeReviewRerunCountThisTurn": 0,
+  "scientificSourceReviewRerunCountThisTurn": 0,
+  "nativeReviewRerunCountThisTurn": 0
+}

@@ -66,6 +66,10 @@ A percentage must name its parent population. â€œPositive among sampled T cellsâ
 
 ## Worked example
 
+<img src="./images/nested-flow-gates-and-parent-denominators-v1-light.svg" alt="Nested invented gate boxes show 12,000 recorded events, 10,000 quality-selected recovered cells, 1,000 T-cell events and 100 reagent-binding events. Debris, pairs and dead-cell events are excluded before the recovered-cell denominator. The same 100 binding events are 10% of 1,000 T cells and 1% of 10,000 recovered cells. Box areas are not proportional. No concentration, whole-body count or killing result is inferred." width="780" height="1450" data-theme-pair />
+
+*The same 100 binding events are 10% of the selected T-cell parent and 1% of recovered cells; the nested invented counts define each denominator.*
+
 In a fictional sample, 100 of 1,000 gated T cells bind a reagent, among 10,000 recovered cells. Which percentage describes binding among T cells?
 
 **Answer:** 10%. The same events are 1% of all recovered cells. Both calculations can be correct, but exchanging their denominators would change the claim. Neither percentage proves killing.

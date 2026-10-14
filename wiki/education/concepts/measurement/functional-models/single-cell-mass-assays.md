@@ -39,6 +39,10 @@ Something weighed in water appears lighter because it displaces water. A **buoya
 
 ## How it works
 
+<img src="./images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg" alt="A fluid-filled channel loops inside a suspended vibrating beam; a passing cell shifts its frequency, calibrated to buoyant mass. An invented graph follows the same toy cell at 0, 0.5 and 1 hour with masses of 10, 11 and 12 picograms; slope is 2 picograms per hour. A separate invented matched-group rate comparison of 2 versus 0.5 picograms per hour yields a 75 percent lower positive rate. Neither reduced rate nor buoyant mass alone demonstrates shrinkage, death or patient response." width="600" height="900" data-theme-pair />
+
+*Follow the same cell through repeated calibrated readings to estimate a slope, in picograms per hour. The toy values are invented: a fall from 2 to 0.5 pg/h is a 75% lower positive rate, not a killed-cell fraction, shrinkage or patient response.*
+
 One approach uses a **suspended microchannel resonator (SMR)**: a tiny fluid-filled channel inside a vibrating beam. As a cell passes through, its buoyant mass changes the beam's vibration frequency. Calibration converts the shift into mass units. Conceptually, buoyant mass equals the cell's total mass minus the mass of displaced fluid; it depends on cell volume and the densities of cell and fluid. [Godin et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2862099/).
 
 Repeated measurements of the same cell can estimate **mass accumulation rate (MAR)**, the slope of its mass over time. Some instruments recirculate a cell; others use successive sensors along a channel. The time interval, fluid conditions and tracking method determine what growth was observed. Cermak and colleagues developed a serial-sensor approach to increase throughput. [Primary method](https://pmc.ncbi.nlm.nih.gov/articles/PMC5064867/).

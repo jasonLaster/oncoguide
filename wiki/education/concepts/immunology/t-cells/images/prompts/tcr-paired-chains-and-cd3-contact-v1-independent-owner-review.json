@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-209",
+  "owner": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+  "author": "agent:/root/batch09_author_group1",
+  "creativeAuthor": "agent:/root/batch09_author_group1",
+  "reviewer": "agent:/root/batch09_review_group1",
+  "independentReviewer": "agent:/root/batch09_review_group1",
+  "canonicalIntegrator": "agent:/root",
+  "reviewedAt": "2026-10-13T22:47:46.385613+00:00",
+  "reviewedAtUTC": "2026-10-13T22:47:46.385613+00:00",
+  "schemaBoundAtUTC": "2026-10-13T23:12:19.315963+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "task": "Locate the paired recognition chains, variable contact loops and separate CD3 signaling complex at a peptide-HLA encounter.",
+  "learnerTask": "Locate the paired recognition chains, variable contact loops and separate CD3 signaling complex at a peptide-HLA encounter.",
+  "gap": "The chain separates recognition from response but does not show the structural pairing or CDR3 location. A compact contact cutaway would support understanding why beta-only sequence and CDR3 alone are incomplete identities.",
+  "accuracyGuardrails": [
+    "HLA holds the peptide; do not draw a peptide pocket in TCR.",
+    "Both chains and other regions contribute to specificity.",
+    "A schematic contact is not an exhaustive cross-reactivity or safety test."
+  ],
+  "currentOwnerSha256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+  "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/225",
+  "frozenRowSHA256": "a5006768ba20bd91eb5362646fb45a9ed75b45b9a8d7d3ba7456140eb9a429c5",
+  "frozenAuditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+  "sourceBaseCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "checkedCommittedPreimageAt": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+  "sourceFitAssessment": {
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Two recognition chains with variable/constant domains, CDR3 and other contact loops face peptide held in HLA; CD3 signaling partners separate. Symbolic assembly rather than stoichiometric reconstruction. Original preimage is recovered exactly by inverse insertion, preserving prior Mermaid, prose, source attribution and navigation. All original frozen task guards are retained. Twelve light-label contrast defects in the package were corrected by the same author; this owner\u2019s listed light text fills only were independently checked and pass normalAA, without geometry, dark artwork or scientific claim changes.",
+    "baselinePageSHA256": "24bbe574227d08117f69a623424a3b9875e46115313f505d9326a6dacc478c33",
+    "frozenPageSHA256": "24bbe574227d08117f69a623424a3b9875e46115313f505d9326a6dacc478c33",
+    "actualTeachingPreimageSHA256": "d35ae09460321c362de74a30788d2f6ba73fefc9ede2475b7ab42ebc603cd3e8",
+    "learnerTask": "Locate the paired recognition chains, variable contact loops and separate CD3 signaling complex at a peptide-HLA encounter.",
+    "gap": "The chain separates recognition from response but does not show the structural pairing or CDR3 location. A compact contact cutaway would support understanding why beta-only sequence and CDR3 alone are incomplete identities.",
+    "accuracyGuardrails": [
+      "HLA holds the peptide; do not draw a peptide pocket in TCR.",
+      "Both chains and other regions contribute to specificity.",
+      "A schematic contact is not an exhaustive cross-reactivity or safety test."
+    ],
+    "targetSection": "## How it works",
+    "baselineQualification": "baselinePageSHA256 is the original immutable frozen audit page hash. Actual b8 teaching preimage differs and is bound separately. No equality between frozen and b8 owner bytes is asserted.",
+    "reviewScope": "Schema-only binding of actual original whole review and prior focused correction acceptance; no scientific/native rereview or decision change."
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-light.svg",
+      "sha256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+      "bytes": 21250,
+      "type": "svg",
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-dark.svg",
+      "sha256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+      "bytes": 21250,
+      "type": "svg",
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        900
+      ]
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+        "sha256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+        "bytes": 11465
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-light.svg",
+        "sha256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+        "bytes": 21250
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-dark.svg",
+        "sha256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+        "bytes": 21250
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/tcr-paired-chains-and-cd3-contact-v1.txt",
+        "sha256": "4a4d446297e3d4180647c50637d1563de20f5dd638ce335277ee4a41cf4a0209",
+        "bytes": 4342
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/tcr-paired-chains-and-cd3-contact-v1-provenance.json",
+        "sha256": "f526a3c0eb08ee7d37ec4a761026256313037aee2b3df985b7143906aa7eded2",
+        "bytes": 6807
+      }
+    ],
+    "currentCandidateOwnerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+    "currentCandidatePairBound": true,
+    "exactFivePublicFiles": true,
+    "authorOriginalPackageSealSHA256": "8424f4eaf6a1c3d5ea94672181e14822e4d8e3f2de8b4986c68de3dd651f8206",
+    "authorCurrentPackageSealSHA256": "378e5a2371750d9d6acfca08fae59319e9aa2bea1a54a7d6cd82a9a9b03af582",
+    "originalReviewEvidencePreserved": true,
+    "actualSourcePreimageSHA256": "d35ae09460321c362de74a30788d2f6ba73fefc9ede2475b7ab42ebc603cd3e8",
+    "actualTeachingBaselineCommit": "b8c381d6ad94c0377939ee2bc4e54ff4088c70ea",
+    "actualFutureExecutionSourceCommit": null,
+    "actualFutureExecutionDestination": null,
+    "preservationCheck": "Original source owner is recoverable by removing only the exact illustration/caption insertion. Correction changed only12 designated light text-fill values across4 owners and4 dependent provenance hashes;27 other public files remain unchanged."
+  },
+  "sourceAccess": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31461748%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Structural basis of assembly of the human T cell receptor-CD3 complex.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "7efc14483279242a379a8965fef9ef01a8d1fad0c159b2586c4cd8bcb708ab33",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "Two recognition chains with variable/constant domains, CDR3 and other contact loops face peptide held in HLA; CD3 signaling partners separate. Symbolic assembly rather than stoichiometric reconstruction."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8906788/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:8906788%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Structure of the complex between human T-cell receptor, viral peptide and HLA-A2.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "bc4f7840f9b2029177791767f8ff5419b91babd552f8258f5600b1f7c8b24d53",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "Two recognition chains with variable/constant domains, CDR3 and other contact loops face peptide held in HLA; CD3 signaling partners separate. Symbolic assembly rather than stoichiometric reconstruction."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17559580/",
+      "retrievalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17559580%20AND%20SRC:MED&format=json&resultType=core",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "title": "Extraordinary cross-reactivity of an autoimmune T-cell receptor recognizing specific peptides both on autologous and on allogeneic HLA class II molecules.",
+      "readBounds": "Complete returned primary-study abstract personally read; abstract only, no full-paper or source-figure read claimed.",
+      "sha256": "280946d0774142f13a0a10e67bf98805c644ac72cad83273fb0261613dd23641",
+      "limitations": "Study/construct/population-specific evidence. No clinical benefit, universal performance or safety inference.",
+      "supports": "Two recognition chains with variable/constant domains, CDR3 and other contact loops face peptide held in HLA; CD3 signaling partners separate. Symbolic assembly rather than stoichiometric reconstruction."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK27145/",
+      "retrievedAtUTC": "2026-10-13T22:42:52.291128+00:00",
+      "readBounds": "Indexed official section4-12 and Figure4.14 descriptive text read; direct chapter returned recaptcha. Full-chapter access not claimed.",
+      "supports": "Two recognition chains with variable/constant domains, CDR3 and other contact loops face peptide held in HLA; CD3 signaling partners separate. Symbolic assembly rather than stoichiometric reconstruction.",
+      "limitations": "Mechanism support only; no current treatment choice or exhaustive validation."
+    }
+  ],
+  "sourceAccessLimits": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+  "accessFailures": [
+    "Nature publisher cookie-authorize redirect prevented full-paper access",
+    "AMG757 publisher403",
+    "NCBI book recaptcha",
+    "Some direct PubMed opens footer-only; EuropePMC primary abstract fallback used"
+  ],
+  "reviewEvidence": [
+    {
+      "kind": "genuine-original-whole-task-fit",
+      "file": "next-gap-209-task-fit.json",
+      "sha256": "d3337de2bf7dbe8bce658e2d4741f47fb4dd355e4e12e22843fce0b8369e7eeb",
+      "verdict": "REVISE",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832"
+    },
+    {
+      "kind": "genuine-current-predecessor-task-fit",
+      "file": "next-gap-209-task-fit.json",
+      "sha256": "6ef452d19e9de071bcb9210cce891710cac5def6cf0d955e42854db859061829",
+      "verdict": "PASS",
+      "reviewer": "agent:/root/batch09_review_group1",
+      "focusedAAAcceptance": true
+    },
+    {
+      "kind": "genuine-original-whole-review",
+      "file": "receipt.json",
+      "sha256": "9b133842939e18e59fd1a8ea1310c704d701e6e636144b30d2665309592d0655",
+      "sealSHA256": "38cbc2aa50690d860506a02083ed9a9fe772042d5eb9e1b68dbbb2af2f8d2443",
+      "verdict": "REVISE",
+      "scope": "One whole seven-owner review, original12 light-label findings preserved."
+    },
+    {
+      "kind": "genuine-focused-AA-correction-acceptance",
+      "file": "focused-light-text-aa-01/receipt.json",
+      "sha256": "87681503c4d3fb74dda0b0dbf1d22e54d3b61f9b2ddc2078365377d3426ae52b",
+      "sealSHA256": "61fb3bd5a71c40a2a20c0dd4f60c83e101020ee65927de4cd9b5c6df771268e1",
+      "verdict": "PASS"
+    }
+  ],
+  "captureLineage": [
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-209-light-reading.png",
+      "sha256": "c6f804a547f4e1ed7a4cd4ed9c06592a62f0fbcc6c5f69edf12fff6a4c80a73e",
+      "nativeSHA256": "bff6061a45110eb9724706148b4d312147e5d62b0ebef92de7cf0214500958e4",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-209-dark-reading.png",
+      "sha256": "e5f0b01cd8dbc48e16cb9bb69d2b8d06c395a76fbd8d08d71e58b445b015224c",
+      "nativeSHA256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-209-light-mobile-inline.png",
+      "sha256": "1f69a60fcef96c5f22c74614794720e98c83b4a4f100c740e8a5d23e817ab255",
+      "nativeSHA256": "bff6061a45110eb9724706148b4d312147e5d62b0ebef92de7cf0214500958e4",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-209-light-mobile-theater.png",
+      "sha256": "b8118ed999d025b1472e23a38305c3a2bd81d0fa5556d3ee252709b22da8d7e6",
+      "nativeSHA256": "bff6061a45110eb9724706148b4d312147e5d62b0ebef92de7cf0214500958e4",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-209-light-desktop-inline.png",
+      "sha256": "50a4dc99df993876830dd0259aff7f0dea925b6193b74eb7a30c3856cdd73756",
+      "nativeSHA256": "bff6061a45110eb9724706148b4d312147e5d62b0ebef92de7cf0214500958e4",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-209-light-desktop-theater.png",
+      "sha256": "a03244545051d2c27cfd6250d889be8ce44b93451a409f111c5d7f9e576b4446",
+      "nativeSHA256": "bff6061a45110eb9724706148b4d312147e5d62b0ebef92de7cf0214500958e4",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": true
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-209-dark-mobile-inline.png",
+      "sha256": "2d55695836bb8d856cf172c9e6001cdf4c9336d297c4e1e1641c5b84b98a28cf",
+      "nativeSHA256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-209-dark-mobile-theater.png",
+      "sha256": "a4cdf0a52f06775c217173b0ffa6022a1372fcad23b6db9f7dceee282d4f568a",
+      "nativeSHA256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-209-dark-desktop-inline.png",
+      "sha256": "fbea8d329be95fc39eff701d5619ff6b462f6e211ceb10c45aafc6c2cb4fc451",
+      "nativeSHA256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "original-whole-review",
+      "theme": "dark",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-209-dark-desktop-theater.png",
+      "sha256": "a1d0b1dc2878598cfd92b7ff9de22f68ec77e103195cab5a657f0c3fa66f820b",
+      "nativeSHA256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832",
+      "supersededByFocusedLight": false
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "native",
+      "viewport": [
+        600,
+        900
+      ],
+      "path": "next-gap-209-light-reading.png",
+      "sha256": "b782f691fba6342bceeb3da5d9e6932748a48db1e4afe19f81ca0cf03e7558ac",
+      "nativeSHA256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-209-light-mobile-inline.png",
+      "sha256": "57b0f3e79644d9b3ba6bdd224469982b334b61fbabb667f1461a1416683a832d",
+      "nativeSHA256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "next-gap-209-light-mobile-theater.png",
+      "sha256": "a11c937712350e624ebe28f911a8087f31bbdb915c3fbd43590878dc20c3b7d5",
+      "nativeSHA256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "inline",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-209-light-desktop-inline.png",
+      "sha256": "c3c78281de488127b29d7ae880d8e8ef1cd6fa0598e1d0671b658cd36d892079",
+      "nativeSHA256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832"
+    },
+    {
+      "phase": "focused-AA-correction",
+      "theme": "light",
+      "mode": "theater",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "next-gap-209-light-desktop-theater.png",
+      "sha256": "22013b2b3fe0323fdc2b205f718c2109b097d2ea77648df3aef0a9c807df6936",
+      "nativeSHA256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+      "ownerSHA256": "2ceef9e8dd04e635f14c3da8c05a17e01a3c75960916031622292e733e05a832"
+    }
+  ],
+  "reviewBasis": {
+    "scope": "Schema-only collector projection using this same independent reviewer\u2019s genuine sealed evidence. No review rerun, new capture, decision reversal or renaming/relabeling of originals.",
+    "freshCaptureCountThisTurn": 0,
+    "scientificSourceReadsThisTurn": 0,
+    "inheritedOriginalOwnFreshCaptureCountForOwner": 10,
+    "inheritedFocusedOwnFreshCaptureCountForOwner": 5,
+    "actualPixelInspectionPreviouslyPerformed": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeDimensions": [
+      600,
+      900
+    ],
+    "minimumInlineEssentialLabelPx": 14.993333333333334,
+    "minimumTheaterEssentialLabelPx": 14.82,
+    "minimumCorrectedLabelContrast": 10.655082496091248,
+    "carrierLimits": "Native600x900 pairs, all390x844 mobile inline/theater originals at1x via aggregate board; all1440x1000 desktop inline/theater originals viewed at0.5x via board. Article/image/modal only; no whole-app or live navigation claim.",
+    "keyboardQualification": "BODY after Escape persists in both fresh light viewport variants; original dark observations carried. Qualified shared-renderer/integration issue; no runtime approval.",
+    "sourceReadDepth": "Fresh independent primary abstracts plus bounded official/methodological/publisher passages. Unchanged baseline citations were preserved; no independent full-paper revalidation of every baseline prose claim.",
+    "allLabelInspectionQualification": "All original labels personally viewed at native/mobile1x and desktop0.5x boards. For affected owners, all changed light labels personally viewed in5 fresh focused captures. These are predecessor observations, not fresh capture claims in this schema-only turn."
+  },
+  "caption": "The paired TCR contacts peptide and HLA together, while CD3 carries signals. Both chains and other contact regions matter; this schematic is not a cross-reactivity or safety test.",
+  "alt": "A cutaway shows paired TCR alpha and beta recognition chains crossing the T-cell membrane beside separate CD3 signaling partners. Rose CDR3 and other contact loops face a peptide held by HLA on the target cell; no TCR peptide pocket is shown. Contact is not a safety or killing test.",
+  "requiredCorrections": [],
+  "unknownPriorCreators": "Prior Mermaid creative authors remain unknown; no original creator/model identity is invented.",
+  "nativeCreator": "agent:/root/batch09_author_group1",
+  "method": "Original hand-authored source-code SVG; independent review and later schema-only projection.",
+  "authorshipQualification": "Author declares original hand-authored SVG, model=null and imageCalls=0; reviewer observed source SVG and made no model/image calls. Historical Mermaid authors remain unknown. No invented creator or model call.",
+  "model": null,
+  "imageModelCalls": 0,
+  "scientificModelExecutions": 0,
+  "humanReview": "pending",
+  "clinicianReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "liveApproval": "pending",
+  "coverageCredit": 0,
+  "gradeCredit": 0,
+  "sourceFitCredit": 0,
+  "adoptionCredit": 0,
+  "deliveryCredit": 0,
+  "liveCredit": 0,
+  "delivered": false,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestination": null,
+  "schemaProjectionOnly": true,
+  "wholeReviewRerunCountThisTurn": 0,
+  "scientificSourceReviewRerunCountThisTurn": 0,
+  "nativeReviewRerunCountThisTurn": 0
+}
