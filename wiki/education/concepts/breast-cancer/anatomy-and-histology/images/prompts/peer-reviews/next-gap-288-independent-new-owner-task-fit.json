@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-288",
+  "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_tissue_reach_author",
+  "authorRole": "Source-code author for two new SVG pairs; three current-owner insertions; reuse assessor for retained art",
+  "reviewer": "agent:/root/batch13_tissue_reach_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:32:02.242543Z",
+  "currentOwnerSha256": "f07296c4a3892dea7fae3630d25ebb9cc13dfd1887a8aa95e6f5c5e25841f710",
+  "currentOwnerFieldMeaning": "Exact prospective final candidate bytes; actual source preimage is separately bound. No canonical adoption or delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/peer-reviews/next-gap-288-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+      "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd",
+      "bytes": 3255945,
+      "theme": "dark",
+      "nativeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+      "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f",
+      "bytes": 2702289,
+      "theme": "light",
+      "nativeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "a304eaf055338ece64961b1e856dfa717ce949266a5b89c6a2210569e12ec9c9",
+    "learnerTask": "Locate an in-situ component inside its tissue boundary and distinguish it from a coexisting invasive component.",
+    "gap": "The room analogy and answered coexistence example are clear, but there is no depiction of abnormal epithelial cells within a duct and cells outside the boundary. A shared tissue-boundary diagram would teach the defining spatial distinction without suggesting inevitable progression.",
+    "accuracyGuardrails": [
+      "Do not turn in situ to invasive into an inevitable timeline.",
+      "Grade is not spread, and coexisting DCIS does not cancel invasion."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The current paired image places rose abnormal cells within a complete duct boundary and a separate rose invasive cluster outside it in stroma. Distinct living green myoepithelial cells and a thin extracellular blue basement membrane remain recognizable without treating either as a diagnostic stain. The title explicitly permits coexistence; no arrow or time axis implies inevitable progression. The owner caption and worked example distinguish component, grade and stage. At actual346px article width, the primary inside/outside relation and its primary labels remain usable. Secondary layer names and the small disclaimer are dense; the readable caption names the layers and limits. This is a qualified task-fit PASS, not a claim that every fine label is comfortable on a phone.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+    "pageSHA256": "a304eaf055338ece64961b1e856dfa717ce949266a5b89c6a2210569e12ec9c9",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate an in-situ component inside its tissue boundary and distinguish it from a coexisting invasive component.",
+    "gap": "The room analogy and answered coexistence example are clear, but there is no depiction of abnormal epithelial cells within a duct and cells outside the boundary. A shared tissue-boundary diagram would teach the defining spatial distinction without suggesting inevitable progression.",
+    "accuracyGuardrails": [
+      "Do not turn in situ to invasive into an inevitable timeline.",
+      "Grade is not spread, and coexisting DCIS does not cancel invasion."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "recommendedMedium": "diagram",
+    "priority": "P1"
+  },
+  "frozenTaskIdentitySHA256": "e61e736f640326b5608559e6e92d8b4601b5b16dfd7472f71595053d864940aa",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/44",
+    "oneBasedRow": 45,
+    "originalTaskRowSHA256": "23946567991aa09c5af4355d252cf2ed70672a7efa03da6e78b5afb1396ad017",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "/root/batch13_tissue_reach_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+      "pageSHA256": "a304eaf055338ece64961b1e856dfa717ce949266a5b89c6a2210569e12ec9c9",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate an in-situ component inside its tissue boundary and distinguish it from a coexisting invasive component.",
+      "gap": "The room analogy and answered coexistence example are clear, but there is no depiction of abnormal epithelial cells within a duct and cells outside the boundary. A shared tissue-boundary diagram would teach the defining spatial distinction without suggesting inevitable progression.",
+      "accuracyGuardrails": [
+        "Do not turn in situ to invasive into an inevitable timeline.",
+        "Grade is not spread, and coexisting DCIS does not cancel invasion."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+      "recommendedMedium": "diagram",
+      "priority": "P1"
+    },
+    "reuseRationale": "Reuse the existing DCIS coexisting-components pair unchanged: it explicitly separates the intact duct boundary and external invasive cluster. The frozen shared myoepithelial-layer art supplies normal nested anatomy but does not add the abnormal inside/outside contrast. No missing view remains if native and current article checks confirm fit; no new native or shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-288",
+    "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+    "author": "agent:/root/batch13_tissue_reach_author",
+    "actualDecisionAuthorLiteral": "/root/batch13_tissue_reach_author",
+    "reviewer": "agent:/root/batch13_tissue_reach_review",
+    "decisionSHA256": "a4d63c501851cbb5851c6eb9d3f4c3e09c4a1121ceda275cf89bd790484ffdd3",
+    "decisionFileSHA256": "6dd4afcb4ed760f697142fa91bfcc91e2abc2275f86a8fe2ebc14c1a8204066c",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept direct reuse of the existing owner pair. Normal shared duct layers supply reference anatomy, while the current coexisting-components image already adds the exact abnormal inside/outside distinction. The mobile density qualification does not prevent that selected learner task. No new native or shared-owner write is warranted.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "reviewedAt": "2026-10-14T21:32:02.242543Z",
+    "implementationGate": "Root must bind this exact genuine decision/acceptance into the actual maintained planning contract and execution baseline; this peer acceptance is not canonical adoption or code approval."
+  },
+  "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "actualAuthorOwnerPreimageSHA256": "f07296c4a3892dea7fae3630d25ebb9cc13dfd1887a8aa95e6f5c5e25841f710",
+  "sourceChecks": [
+    {
+      "key": "nci-dcis",
+      "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis",
+      "depth": "Fresh official page retrieval; definition, diagnosis and naming passages personally read. Not a full-page clinical recertification.",
+      "scope": "Duct-confined versus invasion distinction; no prognosis number or personal care claim."
+    },
+    {
+      "key": "gusterson",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/",
+      "depth": "Complete primary human-breast-tissue abstract read through indexed PubMed search; no complete paper read.",
+      "scope": "Living myoepithelial cells and basement-membrane proteins are distinct; drawing is not a diagnostic stain criterion."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both themes of final task-native pairs, retained shared reference variants, and fresh390/1440px current-owner article plus theater.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named source files independently matched to pinned Git blobs before review captures.",
+    "scope": "Private pinned article/ImageTheater fixture; external installed dependencies, no full-app or production certification.",
+    "findings": "Correct current theme and theater source in all32 cases; no document horizontal overflow. Task geometry, labels, captions and alt text agree. Enter opens and Escape closes.",
+    "limits": [
+      "Escape returns focus to BODY and Tab leaves dialog in32/32 observed cases. No focus trap or full-app accessibility approval.",
+      "DCIS secondary layer labels are dense at346px article width. Primary inside/outside spatial contrast and main labels plus readable owner caption meet task288; comfortable reading of every fine label is not claimed.",
+      "Tall FNA/VAB originals fit theater height and appear narrower on wide viewports; article scrolling provides the larger complete teaching view."
+    ],
+    "denseDCISAdjudication": "The current paired image places rose abnormal cells within a complete duct boundary and a separate rose invasive cluster outside it in stroma. Distinct living green myoepithelial cells and a thin extracellular blue basement membrane remain recognizable without treating either as a diagnostic stain. The title explicitly permits coexistence; no arrow or time axis implies inevitable progression. The owner caption and worked example distinguish component, grade and stage. At actual346px article width, the primary inside/outside relation and its primary labels remain usable. Secondary layer names and the small disclaimer are dense; the readable caption names the layers and limits. This is a qualified task-fit PASS, not a claim that every fine label is comfortable on a phone."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "UNKNOWN as newly independently established creative person/model identity; retained literal provenance is separate",
+    "sourceCodeAuthor": null,
+    "creationMethod": "Exact retained native reuse; no new artwork or image-model invocation in this task",
+    "imageModelCallsThisTask": 0,
+    "retainedLiteralAttribution": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1-generation-provenance.json",
+        "sha256": "7c19f600bdcc523a13c2a58ac59cf9557f740b62004ad0461109945bea700492",
+        "literalFields": {
+          "model": null,
+          "modelReported": false
+        },
+        "interpretation": "Existing literal provenance only; no new verification of historical dispatch, creative person/model/invocation. Unknown fields remain UNKNOWN."
+      }
+    ],
+    "unverifiedHistoricalFields": "UNKNOWN unless retained literal provenance establishes a specific claim; this reviewer does not re-verify old dispatch or model invocation.",
+    "prospectiveMarkersPreserved": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+        "sha256": "f07296c4a3892dea7fae3630d25ebb9cc13dfd1887a8aa95e6f5c5e25841f710",
+        "bytes": 6762
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+        "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd",
+        "bytes": 3255945
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+        "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f",
+        "bytes": 2702289
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+        "sha256": "db9645c50afbe4691455da06e86865f60cf3e3d0868c322867adbb19ec03fb9a",
+        "bytes": 8325
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1-dark-call.json",
+        "sha256": "d3fee58f06a4ae7dd61e3c11a4042fb043540f444a6d8b377cb06027d3de2cba",
+        "bytes": 1800
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1-generation-provenance.json",
+        "sha256": "7c19f600bdcc523a13c2a58ac59cf9557f740b62004ad0461109945bea700492",
+        "bytes": 5772
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1-light-call.json",
+        "sha256": "423fd0a4f4b70d5ee901e65a93f23ce2b85e5748c9eba275044d7bb7fc26f819",
+        "bytes": 3964
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/dcis-coexisting-components-v1.txt",
+        "sha256": "5b2d5e82614668d40ec77a0f7ef5ad7cf50a609dd193fa2977762a3d156b3b0b",
+        "bytes": 3381
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-dark.svg",
+        "sha256": "6fafdc5985a471a02f0c9ef7f0b5ff77dcdc7b7cb047e4aa6133c4313cddf3cc",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-light.svg",
+        "sha256": "a47ad7a5ffc2e23663f9a3b822a7b18ed1976371c6c1e69a97004151bb190df6",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/myoepithelial-layers-v1.txt",
+        "sha256": "e7bfac94bb4965320f3ea84c28407ebd2539e0f16a6a012ad5a79de43050f658",
+        "bytes": 16292
+      }
+    ],
+    "scope": "Exact candidate, selected native outputs, new support where applicable, and bounded shared/current native/support guards.",
+    "originalAuthorSealSHA256": "2d2fbd29624e3666faf668d6193953444d7c345ade067329be0819e31f951563",
+    "originalAuthorManifestSHA256": "6f3cad116d3f12035885a0b5baa82ca531b14783af854bdcc89529764f286c26",
+    "inverseInsertionExact": true,
+    "retainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "One actual independent agent review of the selected visual, insertion and owner-task fit using recorded source access; not human clinical expertise or full unchanged-page recertification.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "actualFutureExecutionSourceCommit": null,
+  "rootSoleIntegratorAndPublisher": true
+}

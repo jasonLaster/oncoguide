@@ -1,0 +1,9 @@
+Original SVG source-code creation brief
+
+I inspected both retained living-drug SVG themes and current public owner/reference text. Its common-scale concentration bars teach 20% of 100 and 10% of 200 giving equal receptor-positive concentration. I reuse that denominator grammar, with explicit per-volume units, rather than replacing this task with the different numerical example. This exact owner needs 20% of 2000 equals 400 versus 40% of 500 equals 200 lymphocytes per microliter. I choose a narrow concept-owner comparison with common zero/scale and an unchanged whole-regimen attribution boundary, avoiding empty slots or depletion-as-tumor-killing. No shared-owner or old-native/support writes.
+
+Common-scale bars show fictional white-cell concentrations of 2000 then 500 per microliter. Teal lymphocyte portions are 400 then 200 per microliter, although the fractions rise from 20% to 40%. Separate notes retain whole-regimen attribution and distinguish counts from tumor killing.
+
+Both bars use the same zero and concentration scale. The denominator falls fourfold, so a doubled percentage still gives fewer lymphocytes per microliter: 400, then 200. This fictional arithmetic does not identify the cause of a count change or measure cancer killing. Conditioning, transferred cells and support form a whole regimen whose activity and harms need their own attribution.
+
+No model call was made. This is not a clinical protocol, efficacy claim or individual prediction.

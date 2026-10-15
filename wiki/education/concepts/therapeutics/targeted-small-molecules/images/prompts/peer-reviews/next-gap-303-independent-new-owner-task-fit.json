@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-303",
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+  "author": "/root/batch13_evidence_reading_author",
+  "reviewer": "agent:/root/batch13_evidence_reading_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:34:01.871388+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-light.svg",
+      "sha256": "2f8f8c38bfd032cc537ca668b99ae5bb445deb0764f795e544ca69121b4bdba4",
+      "bytes": 5233,
+      "nativeDimensions": [
+        760,
+        1490
+      ],
+      "theme": "light",
+      "method": "original SVG source code, zero image model calls"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-dark.svg",
+      "sha256": "01c73d208d7414953b8af3f3376ec3c0d619109a36fd184ab7c39631fa44c580",
+      "bytes": 5233,
+      "nativeDimensions": [
+        760,
+        1490
+      ],
+      "theme": "dark",
+      "method": "original SVG source code, zero image model calls"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "526976ecc877bb2fe4322d735853bb3c06b6651663beda0f56b8827a89d41613",
+    "learnerTask": "Locate membrane lipid signaling and downstream kinase nodes with feedback",
+    "gap": "Table and wire analogy omit membrane location and compensatory loop",
+    "accuracyGuardrails": "phosphosite not universal activity; adjacent drugs not interchangeable; no variant-to-benefit promise",
+    "targetSection": "## How it works",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "PIP2 to PIP3 conversion is positioned at the membrane with the opposing PTEN direction. PIP3 recruitment leads to AKT below it, then an explicitly indirect relation to mTORC1. The returning dashed brake is identified as indirect negative feedback, with release possible rather than universal. The fictional phosphosite change cannot identify that wiring, dependence or benefit. The retained shared two-complex map supplies molecular detail but lacks the returning loop and distinct inhibitor overview; this narrow extension does not replace it."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+    "pageSHA256": "526976ecc877bb2fe4322d735853bb3c06b6651663beda0f56b8827a89d41613",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate membrane lipid signaling and downstream kinase nodes with feedback",
+    "gap": "Table and wire analogy omit membrane location and compensatory loop",
+    "accuracyGuardrails": "phosphosite not universal activity; adjacent drugs not interchangeable; no variant-to-benefit promise",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/373",
+    "oneBasedRow": 374,
+    "originalTaskRowSHA256": "1be35c4c9882a26586f36980f535eb3dee556532a39fb37c8a22cbcda18a3602",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-303",
+    "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+    "reviewer": "agent:/root/batch13_evidence_reading_review",
+    "decisionSHA256": "d17cb32225b65685c9c441651e35e2263830c823cdea529e68c4682ad0b45669",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "PIP2 to PIP3 conversion is positioned at the membrane with the opposing PTEN direction. PIP3 recruitment leads to AKT below it, then an explicitly indirect relation to mTORC1. The returning dashed brake is identified as indirect negative feedback, with release possible rather than universal. The fictional phosphosite change cannot identify that wiring, dependence or benefit. The retained shared two-complex map supplies molecular detail but lacks the returning loop and distinct inhibitor overview; this narrow extension does not replace it."
+  },
+  "scientificSourceReview": {
+    "scope": "Independent agent targeted source review of new visual claims and shared-art fit. Existing source_checked dates retained; no recertification of every historical clinical claim.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16452206/",
+        "type": "primary experimental/pharmacodynamic paper",
+        "actualReadDepth": "Fresh indexed original abstract plus indexed conceptual introduction excerpt; indirect feedback through IRS1/receptor input and AKT activation in studied models/patient samples. Not full paper or treatment-selection evidence."
+      }
+    ],
+    "failedAccess": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/",
+        "result": "Direct recaptcha; indexed original PubMed abstract and conceptual excerpt used instead."
+      }
+    ],
+    "sourceFiguresCopied": false,
+    "verbatimSourceWords": 0
+  },
+  "visualReview": {
+    "personallyInspectedExactNewOrReusedNativeThemes": true,
+    "sharedReferenceBothNativeThemesInspected": true,
+    "task306AdditionalReference": null,
+    "themeWordAndGeometryParity": true,
+    "articleAndTheaterInspected": true,
+    "viewportWidthPx": [
+      390,
+      1440
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "independentlyMatchedRendererFiles": 87,
+    "displayCases": 4,
+    "noHorizontalOverflowObserved": true,
+    "pageErrors": [],
+    "EnterOpensTheater": true,
+    "TabFocus": "Observed link outside Dialog in all cases; focus trap not certified",
+    "EscapeFocus": "Closes Dialog and leaves BODY focused, not originating image",
+    "altCaptionAndPracticeMatched": true,
+    "limits": "Private bounded pinned reader fixture; no live data/navigation/runtime/full-app/comprehensive accessibility or actual learner-readability certification. Small secondary labels remain supplemented by full-size native, prose caption and alt. Retained references were preserved, not given blanket visual repair or creative attribution."
+  },
+  "custody": {
+    "sourceCommitObservedByAuthor": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "currentOwnerPreimageSHA256": "526976ecc877bb2fe4322d735853bb3c06b6651663beda0f56b8827a89d41613",
+    "prospectiveOwnerSHA256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+    "insertionInverseExact": true,
+    "ownedProspectiveFiles": [
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-dark.svg",
+        "sha256": "01c73d208d7414953b8af3f3376ec3c0d619109a36fd184ab7c39631fa44c580",
+        "bytes": 5233
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-light.svg",
+        "sha256": "2f8f8c38bfd032cc537ca668b99ae5bb445deb0764f795e544ca69121b4bdba4",
+        "bytes": 5233
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/pi3k-membrane-nodes-and-feedback-b13-v1-provenance.json",
+        "sha256": "02f1ef0c3d6b58022b36f9cad07f2148cb6855e8c40f3e27f4731624c7a076f2",
+        "bytes": 3890
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/pi3k-membrane-nodes-and-feedback-b13-v1.txt",
+        "sha256": "00e7beba53a6d58a4024f9939cf10bb75074f4f6355c1186a564dc9b0d87fe09",
+        "bytes": 1689
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+        "sha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+        "bytes": 8816
+      }
+    ],
+    "newArtworkCreativeAuthor": "/root/batch13_evidence_reading_author",
+    "retainedAttribution": "Retained literal original support unchanged; UNKNOWN where unproved. Existing living-drug provenance names agent:/root/batch08_author_group3; no reassignment."
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "productionVerifiedByThisReview": false,
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0
+}

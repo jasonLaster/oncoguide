@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1270" viewBox="0 0 600 1270" role="img" aria-labelledby="title desc"><title id="title">Topic + immune context</title><desc id="desc">Two jobs before the T-cell encounter</desc><rect width="600" height="1270" rx="22" fill="#fffaf2"/>
+<text x="28" y="48" fill="#203442" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">Topic + immune context</text>
+<text x="28" y="88" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Two jobs before the T-cell encounter</text>
+<rect x="20" y="125" width="270" height="210" rx="22" fill="#d6edf3" stroke="#247a9b" stroke-width="2" />
+<text x="42" y="169" fill="#247a9b" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Antigen material</text>
+<path d="M80 202L110 254H50Z" fill="#247a9b"/>
+<text x="42" y="300" fill="#203442" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">What to recognize</text>
+<rect x="310" y="125" width="270" height="210" rx="22" fill="#fae5c2" stroke="#a9661f" stroke-width="2" />
+<text x="330" y="169" fill="#a9661f" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Support input</text>
+<circle cx="363" cy="230" r="25" fill="#fae5c2" stroke="#a9661f" stroke-width="3"/>
+<text x="330" y="300" fill="#203442" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Response context</text>
+<path d="M150 348L150 449" fill="none" stroke="#247a9b" stroke-width="4" stroke-linecap="round" />
+<path d="M150 449L143.91048252244278 436.39374056706254" fill="none" stroke="#247a9b" stroke-width="4" stroke-linecap="round" />
+<path d="M150 449L156.08951747755722 436.39374056706254" fill="none" stroke="#247a9b" stroke-width="4" stroke-linecap="round" />
+<path d="M440 348L440 449" fill="none" stroke="#a9661f" stroke-width="4" stroke-linecap="round" />
+<path d="M440 449L433.91048252244275 436.39374056706254" fill="none" stroke="#a9661f" stroke-width="4" stroke-linecap="round" />
+<path d="M440 449L446.08951747755725 436.39374056706254" fill="none" stroke="#a9661f" stroke-width="4" stroke-linecap="round" />
+<text x="28" y="399" fill="#247a9b" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Acquisition</text>
+<text x="329" y="379" fill="#a9661f" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Example</text>
+<text x="329" y="413" fill="#a9661f" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">sensing</text>
+<rect x="20" y="465" width="560" height="375" rx="85" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<text x="40" y="511" fill="#267e68" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Antigen-presenting</text>
+<text x="40" y="547" fill="#267e68" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">cell</text>
+<circle cx="130" cy="595" r="48" fill="#d6edf3" stroke="#247a9b" stroke-width="3"/>
+<path d="M130 575L145 602H115Z" fill="#247a9b"/>
+<text x="53" y="673" fill="#247a9b" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Antigen handling</text>
+<path d="M440 468L440 541" fill="none" stroke="#a9661f" stroke-width="8" stroke-linecap="round" />
+<path d="M419 466Q440 497 461 466" fill="none" stroke="#a9661f" stroke-width="7"/>
+<text x="341" y="589" fill="#a9661f" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Sensor example</text>
+<circle cx="288" cy="656" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<circle cx="312" cy="656" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<path d="M289 669q11 9 22 0" fill="none" stroke="#203442" stroke-width="2"/>
+<text x="45" y="735" fill="#203442" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Inputs can affect different cells.</text>
+<text x="45" y="778" fill="#203442" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">No universal adjuvant pathway.</text>
+<path d="M300 853L300 906" fill="none" stroke="#267e68" stroke-width="4" stroke-linecap="round" />
+<path d="M300 906L293.91048252244275 893.3937405670625" fill="none" stroke="#267e68" stroke-width="4" stroke-linecap="round" />
+<path d="M300 906L306.08951747755725 893.3937405670625" fill="none" stroke="#267e68" stroke-width="4" stroke-linecap="round" />
+<rect x="20" y="923" width="560" height="181" rx="22" fill="#e9dff1" stroke="#80579c" stroke-width="2" />
+<text x="40" y="968" fill="#203442" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">Then: a priming encounter</text>
+<text x="40" y="1013" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">Display + supporting signals</text>
+<text x="40" y="1060" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">A T-cell response still needs testing.</text>
+<text x="28" y="1154" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Delivery ≠ priming ≠ tumor control.</text>
+<text x="28" y="1195" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Inflammation alone proves none.</text>
+</svg>

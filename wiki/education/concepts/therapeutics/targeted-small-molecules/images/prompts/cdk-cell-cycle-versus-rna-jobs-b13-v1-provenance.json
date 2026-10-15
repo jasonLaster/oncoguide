@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-302",
+  "actualSourceCodeAuthor": "/root/batch13_evidence_reading_author",
+  "creativeMethod": "Original SVG source code personally authored with geometric glyphs and text. No generative raster model called.",
+  "authorDecisionSHA256": "d311696ec39e09df482c8d427f7f978d4397b499408d24a2192e960beb40ddb2",
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+    "pageSHA256": "db26c4eacd56e087692b3f63c2e99033653d2f3463c8df021d63bd350c203d91",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate cell-cycle checkpoints from transcription initiation/elongation jobs",
+    "gap": "Table names CDKs but cannot locate their distinct jobs",
+    "accuracyGuardrails": "RB presence not intact function; arrest not death; myeloprotection not cancer response",
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/cells/cell-cycle.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "selectedOwnerCurrentSHA256": "db26c4eacd56e087692b3f63c2e99033653d2f3463c8df021d63bd350c203d91",
+  "selectedOwnerProspectiveSHA256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+  "sharedReferenceCurrentSHA256": "1ad4b4534170a727ae3148874113944d081dea403703baddaa3870aa884ecf10",
+  "retainedCreator": "UNKNOWN unless literal original support proves otherwise; no creator reassignment",
+  "creationBrief": "I inspected both retained cell-cycle SVG themes and current public owner/reference text. The old art locates G1/S/G2/M and optional G0 with a separate DNA-content key, which I retain unchanged and reuse through the existing linked phase reference. It does not locate CDK4/6 and CDK2 against CDK7 initiation and CDK9 elongation jobs. I choose a narrow concept-owner extension with two explicitly different tracks, a cross-role note for CDK7, and arrest/death and marrow/tumor endpoint distinctions. No shared-owner or old-native/support writes.",
+  "actualScript": "author-art.py in private author workspace",
+  "themes": "paired semantic palette; identical geometry and wording",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "delivery": "pending",
+  "publication": "pending",
+  "sourceAccess": [
+    {
+      "ids": [
+        302
+      ],
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/palbociclib",
+      "type": "official NCI definition",
+      "actualDepth": "Fresh readable mechanism definition; CDK4/6, RB phosphorylation and G1 arrest. No clinical benefit inference."
+    },
+    {
+      "ids": [
+        302
+      ],
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/samuraciclib",
+      "type": "official NCI definition",
+      "actualDepth": "Fresh readable mechanism definition; CDK7 roles in transcription and cell-cycle control. Does not establish clinical effectiveness."
+    },
+    {
+      "ids": [
+        302
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23064645/",
+      "type": "primary experimental paper",
+      "actualDepth": "Fresh indexed primary abstract and selected figure descriptions through web search; initiation-to-elongation handoff, CDK7 cross-roles, CDK9 pause release. Not a full-paper read.",
+      "failedAccess": "Direct open returned a one-line HHS footer; alternate pubmed format direct fetch errored. Indexed abstract/figure excerpts were readable separately."
+    },
+    {
+      "ids": [
+        302
+      ],
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cdk9-inhibitor-gfh009",
+      "type": "official NCI definition",
+      "actualDepth": "Fresh readable definition, especially CDK9 elongation role. Broader tumor-dependence language was not generalized into art."
+    }
+  ],
+  "actualClaimScope": "Only public primary or official source material relevant to added geometry/captions. Existing clinical examples in original Markdown are preserved, not independently recertified. No private case/vendor/meeting bodies or historical page bodies read or hashed."
+}

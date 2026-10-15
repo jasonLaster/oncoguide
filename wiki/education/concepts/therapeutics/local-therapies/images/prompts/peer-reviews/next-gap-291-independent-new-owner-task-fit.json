@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-291",
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_tissue_reach_author",
+  "authorRole": "Source-code author for two new SVG pairs; three current-owner insertions; reuse assessor for retained art",
+  "reviewer": "agent:/root/batch13_tissue_reach_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:32:02.242543Z",
+  "currentOwnerSha256": "06f61a9e918a0439956beacb22d015a97bea748d467daf93040b713c2f0ec6b2",
+  "currentOwnerFieldMeaning": "Exact prospective final candidate bytes; actual source preimage is separately bound. No canonical adoption or delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/peer-reviews/next-gap-291-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-dark.svg",
+      "sha256": "4705ce801a27db6ea6bd929887ce92b72e8e2fb4ec53a5bd8c837e1fe53d5916",
+      "bytes": 4126,
+      "theme": "dark",
+      "nativeDimensions": [
+        600.0,
+        1080.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-light.svg",
+      "sha256": "56dd12ec7e9e69c4b7de3de409581b1fbaf99934637bc15e2e9dca984060c90d",
+      "bytes": 4126,
+      "theme": "light",
+      "nativeDimensions": [
+        600.0,
+        1080.0
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "90fd22204ec1e35560e632d3320aefa759571649b0fcf7ccd306b3dbfc0e2175",
+    "learnerTask": "Separate breast removal, nodal sampling and reconstruction on one anatomy",
+    "gap": "Procedure table lacks physical reach and specimen handoff",
+    "accuracyGuardrails": "conceptual anatomy; removed/sampled not whole body; reconstruction not cancer substitute",
+    "currentVisualFit": "adequate",
+    "reasoning": "One front-view anatomical map locates breast tissue, a local excision example, regional axillary nodes outside the breast and a separate reconstruction-role contour. Numbered descriptions keep the three jobs separate and conditional; the contour is not a reconstruction technique or promised result. The owner explains the removed tissue-to-pathologist handoff, while the picture deliberately does not invent a margin result. Shared lumpectomy/mastectomy art explains variable extent but does not contain the combined nodal and shape-restoration relation. The extension adds that missing task without treating local sampling as a whole-body survey or reconstruction as cancer-control replacement.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+    "pageSHA256": "90fd22204ec1e35560e632d3320aefa759571649b0fcf7ccd306b3dbfc0e2175",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate breast removal, nodal sampling and reconstruction on one anatomy",
+    "gap": "Procedure table lacks physical reach and specimen handoff",
+    "accuracyGuardrails": "conceptual anatomy; removed/sampled not whole body; reconstruction not cancer substitute",
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "0fe685145679476090d49083e788665489296cb474739452351394cf861e8880",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/362",
+    "oneBasedRow": 363,
+    "originalTaskRowSHA256": "36f0a3a8165dbb8b66f27f9c9a27e710a54d8edc1b32193e7f1d0589721c6846",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "/root/batch13_tissue_reach_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+      "pageSHA256": "90fd22204ec1e35560e632d3320aefa759571649b0fcf7ccd306b3dbfc0e2175",
+      "targetSection": "## How it works",
+      "learnerTask": "Separate breast removal, nodal sampling and reconstruction on one anatomy",
+      "gap": "Procedure table lacks physical reach and specimen handoff",
+      "accuracyGuardrails": "conceptual anatomy; removed/sampled not whole body; reconstruction not cancer substitute",
+      "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+      "recommendedMedium": "schematic",
+      "priority": "P2"
+    },
+    "reuseRationale": "Extend only this overview owner: shared gland-removal-and-outer-structures-v1 explains breast excision extent but does not locate nodal sampling and reconstruction on one anatomy. Keep that reference unchanged and create a narrowly scoped three-job anatomical map with breast tissue, axillary nodes and shape-restoration overlay distinguished. No operative steps, mandatory combination, margin or whole-body clearance claim. additionalOwnerWrites remains empty.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-291",
+    "owner": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+    "author": "agent:/root/batch13_tissue_reach_author",
+    "actualDecisionAuthorLiteral": "/root/batch13_tissue_reach_author",
+    "reviewer": "agent:/root/batch13_tissue_reach_review",
+    "decisionSHA256": "61a129564e9d98f1daa23305a316150183ec2531045b49d6a7ff0c80111c92da",
+    "decisionFileSHA256": "8999a37275e557bbbdd3c4fa0fcfbd5a5f7cef3fdf0bf9ae22691abe8056b271",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow owner-only extension. The shared excision-extent pair lacks the three jobs on one anatomy. The new map adds their spatial relationship while keeping reconstruction conditional, sampled reach local, and the specimen handoff in adjacent teaching. Frozen type/shared owner and the empty additional-owner-write boundary remain exact.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+    "reviewedAt": "2026-10-14T21:32:02.242543Z",
+    "implementationGate": "Root must bind this exact genuine decision/acceptance into the actual maintained planning contract and execution baseline; this peer acceptance is not canonical adoption or code approval."
+  },
+  "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "actualAuthorOwnerPreimageSHA256": "90fd22204ec1e35560e632d3320aefa759571649b0fcf7ccd306b3dbfc0e2175",
+  "sourceChecks": [
+    {
+      "key": "nci-pathology",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "depth": "Fresh official page; acquisition, tissue examination, gross and microscopic/margins passages personally read. Not all linked sources read.",
+      "scope": "Removed material provides represented architecture and boundary evidence; no complete-body clearance claim."
+    },
+    {
+      "key": "nci-surgery",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+      "depth": "Fresh official page; removal extent, nodal-procedure distinctions and reconstruction passages personally read.",
+      "scope": "Separate procedure descriptions rather than a recommended combination or sequence."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both themes of final task-native pairs, retained shared reference variants, and fresh390/1440px current-owner article plus theater.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named source files independently matched to pinned Git blobs before review captures.",
+    "scope": "Private pinned article/ImageTheater fixture; external installed dependencies, no full-app or production certification.",
+    "findings": "Correct current theme and theater source in all32 cases; no document horizontal overflow. Task geometry, labels, captions and alt text agree. Enter opens and Escape closes.",
+    "limits": [
+      "Escape returns focus to BODY and Tab leaves dialog in32/32 observed cases. No focus trap or full-app accessibility approval.",
+      "DCIS secondary layer labels are dense at346px article width. Primary inside/outside spatial contrast and main labels plus readable owner caption meet task288; comfortable reading of every fine label is not claimed.",
+      "Tall FNA/VAB originals fit theater height and appear narrower on wide viewports; article scrolling provides the larger complete teaching view."
+    ],
+    "denseDCISAdjudication": null
+  },
+  "creationProvenance": {
+    "creativeAuthor": null,
+    "sourceCodeAuthor": "/root/batch13_tissue_reach_author",
+    "creationMethod": "Actual source-code SVG author; no image-model invocation for this new pair",
+    "imageModelCallsThisTask": 0,
+    "retainedLiteralAttribution": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1-next-gap-139-independent-task-fit.json",
+        "sha256": "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec",
+        "literalFields": {
+          "author": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+          "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac"
+        },
+        "interpretation": "Existing literal provenance only; no new verification of historical dispatch, creative person/model/invocation. Unknown fields remain UNKNOWN."
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1-provenance.json",
+        "sha256": "6154e8e65dae0dac0ba4fb6f1568d7a3b7da2a7d451836cdb365643e753ebbe2",
+        "literalFields": {
+          "imageModelCalls": 0,
+          "imageModelCallIds": [],
+          "reviewStatus": "Prospective candidate; independent scientific/art review and human expert/learner review pending."
+        },
+        "interpretation": "Existing literal provenance only; no new verification of historical dispatch, creative person/model/invocation. Unknown fields remain UNKNOWN."
+      }
+    ],
+    "unverifiedHistoricalFields": "UNKNOWN unless retained literal provenance establishes a specific claim; this reviewer does not re-verify old dispatch or model invocation.",
+    "prospectiveMarkersPreserved": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+        "sha256": "06f61a9e918a0439956beacb22d015a97bea748d467daf93040b713c2f0ec6b2",
+        "bytes": 9097
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-dark.svg",
+        "sha256": "4705ce801a27db6ea6bd929887ce92b72e8e2fb4ec53a5bd8c837e1fe53d5916",
+        "bytes": 4126
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-light.svg",
+        "sha256": "56dd12ec7e9e69c4b7de3de409581b1fbaf99934637bc15e2e9dca984060c90d",
+        "bytes": 4126
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/surgery-three-jobs-v1-provenance.json",
+        "sha256": "93cf97a1af9efb63a9d8a1762645efcd6f6bfba61c08dffaf372c03d3a871593",
+        "bytes": 5605
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/surgery-three-jobs-v1.txt",
+        "sha256": "a0e2142f57c46f21c50728cd089193809cab6ac86f2186bb03a6a4cd1559c37e",
+        "bytes": 1496
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+        "sha256": "452d0e8bda1d58c3debf285ba7703349884ad42e36dbab98d2d50b2189a8e37a",
+        "bytes": 9126
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-dark.svg",
+        "sha256": "3c2185de44e8a7f2f828ac006aacb7385acc3a8d7b9b1a74b57d73b0a176a426",
+        "bytes": 11132
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-light.svg",
+        "sha256": "17d67485dbb2bf1c009fd2e51e8aeeefeb282e27c49b1132b4f58b3717328593",
+        "bytes": 11132
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1-next-gap-139-independent-task-fit.json",
+        "sha256": "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec",
+        "bytes": 12211
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1-provenance.json",
+        "sha256": "6154e8e65dae0dac0ba4fb6f1568d7a3b7da2a7d451836cdb365643e753ebbe2",
+        "bytes": 2293
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1.txt",
+        "sha256": "e4cf6cc67f4a4fa5817f0b23d79f181d508e760e66f7817858364e396f5250bb",
+        "bytes": 905
+      }
+    ],
+    "scope": "Exact candidate, selected native outputs, new support where applicable, and bounded shared/current native/support guards.",
+    "originalAuthorSealSHA256": "2d2fbd29624e3666faf668d6193953444d7c345ade067329be0819e31f951563",
+    "originalAuthorManifestSHA256": "6f3cad116d3f12035885a0b5baa82ca531b14783af854bdcc89529764f286c26",
+    "inverseInsertionExact": true,
+    "retainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "One actual independent agent review of the selected visual, insertion and owner-task fit using recorded source access; not human clinical expertise or full unchanged-page recertification.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "actualFutureExecutionSourceCommit": null,
+  "rootSoleIntegratorAndPublisher": true
+}

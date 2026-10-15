@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch13_molecular_jobs_author",
+  "method": "Original source-code SVG; no image model invocation",
+  "modelsCalled": [],
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+    "pageSHA256": "c98249f1203fcea67ad0ddbd9b51c91f157ed297664885153d28b37e4db01f54",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate outside antibody binding and inside kinase blockade; distinguish payload delivery",
+    "gap": "No receptor membrane cross-section shows intervention sites",
+    "accuracyGuardrails": "staining not activating variant or dependence; antibody/TKI/ADC evidence distinct",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "sharedCanonicalOwnerUnchanged": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+  "decisionSHA256": "27b2e31b6985242f90794b8e3ad33331cef0d4343ff80ae7754402381895cf72",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "allAdoptionDeliveryGradeCoverageCredits": 0,
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+      "theme": "light",
+      "sha256": "8ba8ccf391d6b0bcc7b37c76de152bb68f7e77b69ba5c3848e25c9d78877b095"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "2cc8355e584073136d198976d4831f18d455f21496bb1e2855055e2527778c72"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16777603%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Complete abstract only",
+      "supports": "EGFR has intracellular kinase machinery with a defined activation arrangement. Single cartoon receptor is a location schematic, not activation stoichiometry.",
+      "readUTCDate": "2026-10-14"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "actualReadDepth": "Official types section lines25\u201330 and mechanism list lines49\u201359",
+      "supports": "Inside small-molecule targets, antibody recognition, distinct signaling interruption, immune recruitment and payload actions. Simplified claim of target-negative cells spared in official text was not imported.",
+      "readUTCDate": "2026-10-14"
+    }
+  ]
+}

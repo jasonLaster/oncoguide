@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-306",
+  "owner": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+  "author": "/root/batch13_evidence_reading_author",
+  "reviewer": "agent:/root/batch13_evidence_reading_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:34:01.871388+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+  "outputs": [
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "sha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271",
+      "bytes": 5462,
+      "nativeDimensions": [
+        760,
+        1590
+      ],
+      "theme": "light",
+      "method": "original SVG source code, zero image model calls"
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "sha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74",
+      "bytes": 5462,
+      "nativeDimensions": [
+        760,
+        1590
+      ],
+      "theme": "dark",
+      "method": "original SVG source code, zero image model calls"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "9abaaee85781c23c9ca6efa547c1234157b8742dffdb59c8b4d2904bfcb792d9",
+    "learnerTask": "See why randomization to a whole pre/postoperative sequence cannot isolate its postoperative component.",
+    "gap": "The question card is adequate, but the two sequences and differing event clocks would benefit from a compact timeline.",
+    "accuracyGuardrails": "Same starting clock and explicitly defined events; pCR patient association is not trial-level surrogacy; do not infer component benefit.",
+    "targetSection": "A worked example: a sequence is the tested intervention",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "One chance assignment begins both whole strategies and both endpoint clocks. Study drug versus placebo appears before and after the same surgery with the same chemotherapy. No second postoperative assignment isolates that component. Alex recurrence while alive and Sam death without prior recurrence correctly distinguish combined recurrence-or-death from death-only endpoints. The pCR association caveat does not assert trial-level surrogacy. The now-committed exact shared phase/purpose/concealment/blinding pair still lacks this whole-sequence and same-origin event comparison, so the pre-art decision remains justified. No dose, schedule, effect size or personal treatment claim is supplied."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+    "pageSHA256": "9abaaee85781c23c9ca6efa547c1234157b8742dffdb59c8b4d2904bfcb792d9",
+    "targetSection": "A worked example: a sequence is the tested intervention",
+    "learnerTask": "See why randomization to a whole pre/postoperative sequence cannot isolate its postoperative component.",
+    "gap": "The question card is adequate, but the two sequences and differing event clocks would benefit from a compact timeline.",
+    "accuracyGuardrails": "Same starting clock and explicitly defined events; pCR patient association is not trial-level surrogacy; do not infer component benefit.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/420",
+    "oneBasedRow": 421,
+    "originalTaskRowSHA256": "ab37f22a1e4d7cbd003bd834c882f5531121a4b5151a65357b593db7ca17c1f8",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-306",
+    "owner": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+    "reviewer": "agent:/root/batch13_evidence_reading_review",
+    "decisionSHA256": "21ffecef28b360a6ddf87bcaad960cce3ded0959e6b41d41676b26c87f210f12",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "One chance assignment begins both whole strategies and both endpoint clocks. Study drug versus placebo appears before and after the same surgery with the same chemotherapy. No second postoperative assignment isolates that component. Alex recurrence while alive and Sam death without prior recurrence correctly distinguish combined recurrence-or-death from death-only endpoints. The pCR association caveat does not assert trial-level surrogacy. The now-committed exact shared phase/purpose/concealment/blinding pair still lacks this whole-sequence and same-origin event comparison, so the pre-art decision remains justified. No dose, schedule, effect size or personal treatment claim is supplied."
+  },
+  "scientificSourceReview": {
+    "scope": "Independent agent targeted source review of new visual claims and shared-art fit. Existing source_checked dates retained; no recertification of every historical clinical claim.",
+    "sources": [
+      {
+        "url": "https://www.fda.gov/media/71195/download",
+        "type": "official final FDA guidance",
+        "actualReadDepth": "Fresh selected PDF pages9-11, especially lines368-374 and414-451 on randomization origin, recurrence/death definitions and assessment conduct. Not all19 pages. Fictional strategy logic independently assessed from actual assignment."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/",
+        "type": "original primary pooled analysis",
+        "actualReadDepth": "Fresh indexed original abstract, objectives, trial-level findings and interpretation. Not full Lancet paper or supplemental reanalysis. Supports distinction between patient associations and unvalidated trial-level surrogacy in included trials."
+      }
+    ],
+    "failedAccess": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/",
+        "result": "Direct open returned only HHS footer; separately retrieved indexed original abstract used."
+      }
+    ],
+    "sourceFiguresCopied": false,
+    "verbatimSourceWords": 0
+  },
+  "visualReview": {
+    "personallyInspectedExactNewOrReusedNativeThemes": true,
+    "sharedReferenceBothNativeThemesInspected": false,
+    "task306AdditionalReference": "Original8ec shared has no native; actual532 exact phase/purpose assignment pair personally inspected separately",
+    "themeWordAndGeometryParity": true,
+    "articleAndTheaterInspected": true,
+    "viewportWidthPx": [
+      390,
+      1440
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "independentlyMatchedRendererFiles": 87,
+    "displayCases": 4,
+    "noHorizontalOverflowObserved": true,
+    "pageErrors": [],
+    "EnterOpensTheater": true,
+    "TabFocus": "Observed link outside Dialog in all cases; focus trap not certified",
+    "EscapeFocus": "Closes Dialog and leaves BODY focused, not originating image",
+    "altCaptionAndPracticeMatched": true,
+    "limits": "Private bounded pinned reader fixture; no live data/navigation/runtime/full-app/comprehensive accessibility or actual learner-readability certification. Small secondary labels remain supplemented by full-size native, prose caption and alt. Retained references were preserved, not given blanket visual repair or creative attribution."
+  },
+  "custody": {
+    "sourceCommitObservedByAuthor": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "currentOwnerPreimageSHA256": "9abaaee85781c23c9ca6efa547c1234157b8742dffdb59c8b4d2904bfcb792d9",
+    "prospectiveOwnerSHA256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+    "insertionInverseExact": true,
+    "ownedProspectiveFiles": [
+      {
+        "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+        "sha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+        "bytes": 12015
+      },
+      {
+        "path": "wiki/education/guides/reading-cancer-evidence/images/prompts/whole-sequence-and-same-origin-events-b13-v1-provenance.json",
+        "sha256": "cb08525f366e05445c3ab4acdff29cdafad9ce067539f9edbaee24d3f151de83",
+        "bytes": 4607
+      },
+      {
+        "path": "wiki/education/guides/reading-cancer-evidence/images/prompts/whole-sequence-and-same-origin-events-b13-v1.txt",
+        "sha256": "98b23f03c69ff48c9f16fe7ebec005fcb614f199f020dfe41ba9769a74e1e703",
+        "bytes": 2281
+      },
+      {
+        "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+        "sha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74",
+        "bytes": 5462
+      },
+      {
+        "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+        "sha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271",
+        "bytes": 5462
+      }
+    ],
+    "newArtworkCreativeAuthor": "/root/batch13_evidence_reading_author",
+    "retainedAttribution": "Retained literal original support unchanged; UNKNOWN where unproved. Existing living-drug provenance names agent:/root/batch08_author_group3; no reassignment."
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "productionVerifiedByThisReview": false,
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0,
+  "focusedActualSharedSourceBinding": {
+    "commit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "ownerSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+    "equalsActualAuthorPreArtReference": true,
+    "original8ecDecisionAndHistoryPreserved": true,
+    "scope": "Exact committed shared source/native identity observation; no future batch baseline or both-site delivery claim. No source/art changes."
+  }
+}

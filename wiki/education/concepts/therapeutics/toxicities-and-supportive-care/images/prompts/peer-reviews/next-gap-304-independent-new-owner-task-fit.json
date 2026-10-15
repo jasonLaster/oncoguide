@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-304",
+  "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+  "author": "/root/batch13_evidence_reading_author",
+  "reviewer": "agent:/root/batch13_evidence_reading_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:34:01.871388+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "82ce10f591939081e222fea642eb81f0b1aa9c07d7484f8120e130e6e8f62dc2",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-light.svg",
+      "sha256": "eb743c587b7bf8004e449e18c6277845a284a084ba6a84749d466589652362eb",
+      "bytes": 4460,
+      "nativeDimensions": [
+        760,
+        1310
+      ],
+      "theme": "light",
+      "method": "original SVG source code, zero image model calls"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-dark.svg",
+      "sha256": "9e1bb4bae1df4023d2be136e0d16e37c280f4c1ffb404d1d1a3c240055db538b",
+      "bytes": 4460,
+      "nativeDimensions": [
+        760,
+        1310
+      ],
+      "theme": "dark",
+      "method": "original SVG source code, zero image model calls"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "1c0d8edf45cbf64d8ece17af8677b7c57109b5693c4f00501c658479813ab83c",
+    "learnerTask": "Compare 20% of 2000 versus 40% of 500 and retain whole-regimen context",
+    "gap": "Preparation flow lacks the changing denominator and absolute count",
+    "accuracyGuardrails": "Fictional per-volume counts; not empty physical slots; whole regimen attribution; depletion not tumor killing",
+    "targetSection": "## Worked example and practice",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+    "recommendedMedium": "chart",
+    "priority": "P1",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Common-zero bars correctly encode 2000 and500 white cells per microliter and teal400 and200 lymphocytes per microliter. The lengths and fractions agree:20% times2000 versus40% times500. Per-volume concentration is explicit rather than total-body count or physical space. Whole-regimen outcome and harm attribution and the separation of depletion from tumor killing remain explicit. The shared living-drug pair teaches a different equal-absolute-count example, so the exact selected-owner numerical comparison adds the missing task."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+    "pageSHA256": "1c0d8edf45cbf64d8ece17af8677b7c57109b5693c4f00501c658479813ab83c",
+    "targetSection": "## Worked example and practice",
+    "learnerTask": "Compare 20% of 2000 versus 40% of 500 and retain whole-regimen context",
+    "gap": "Preparation flow lacks the changing denominator and absolute count",
+    "accuracyGuardrails": "Fictional per-volume counts; not empty physical slots; whole regimen attribution; depletion not tumor killing",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/379",
+    "oneBasedRow": 380,
+    "originalTaskRowSHA256": "e6c25a8e46c1fd484893b0ff06f8160ba850718f3a395bf636cea6597af8a7f1",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-304",
+    "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+    "reviewer": "agent:/root/batch13_evidence_reading_review",
+    "decisionSHA256": "58332e1499e0ebf84554a73df7baf503baa6df12a024e06eb1a576de7acdff49",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Common-zero bars correctly encode 2000 and500 white cells per microliter and teal400 and200 lymphocytes per microliter. The lengths and fractions agree:20% times2000 versus40% times500. Per-volume concentration is explicit rather than total-body count or physical space. Whole-regimen outcome and harm attribution and the separation of depletion from tumor killing remain explicit. The shared living-drug pair teaches a different equal-absolute-count example, so the exact selected-owner numerical comparison adds the missing task."
+  },
+  "scientificSourceReview": {
+    "scope": "Independent agent targeted source review of new visual claims and shared-art fit. Existing source_checked dates retained; no recertification of every historical clinical claim.",
+    "sources": [
+      {
+        "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+        "type": "official NCI teaching",
+        "actualReadDepth": "Fresh introductory preparation/transfer paragraphs and associated treatment-harm context; selected passages only. Fictional count products independently recomputed, no protocol details copied."
+      }
+    ],
+    "failedAccess": [],
+    "sourceFiguresCopied": false,
+    "verbatimSourceWords": 0
+  },
+  "visualReview": {
+    "personallyInspectedExactNewOrReusedNativeThemes": true,
+    "sharedReferenceBothNativeThemesInspected": true,
+    "task306AdditionalReference": null,
+    "themeWordAndGeometryParity": true,
+    "articleAndTheaterInspected": true,
+    "viewportWidthPx": [
+      390,
+      1440
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "independentlyMatchedRendererFiles": 87,
+    "displayCases": 4,
+    "noHorizontalOverflowObserved": true,
+    "pageErrors": [],
+    "EnterOpensTheater": true,
+    "TabFocus": "Observed link outside Dialog in all cases; focus trap not certified",
+    "EscapeFocus": "Closes Dialog and leaves BODY focused, not originating image",
+    "altCaptionAndPracticeMatched": true,
+    "limits": "Private bounded pinned reader fixture; no live data/navigation/runtime/full-app/comprehensive accessibility or actual learner-readability certification. Small secondary labels remain supplemented by full-size native, prose caption and alt. Retained references were preserved, not given blanket visual repair or creative attribution."
+  },
+  "custody": {
+    "sourceCommitObservedByAuthor": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "currentOwnerPreimageSHA256": "1c0d8edf45cbf64d8ece17af8677b7c57109b5693c4f00501c658479813ab83c",
+    "prospectiveOwnerSHA256": "82ce10f591939081e222fea642eb81f0b1aa9c07d7484f8120e130e6e8f62dc2",
+    "insertionInverseExact": true,
+    "ownedProspectiveFiles": [
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-dark.svg",
+        "sha256": "9e1bb4bae1df4023d2be136e0d16e37c280f4c1ffb404d1d1a3c240055db538b",
+        "bytes": 4460
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-light.svg",
+        "sha256": "eb743c587b7bf8004e449e18c6277845a284a084ba6a84749d466589652362eb",
+        "bytes": 4460
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/lymphocyte-fraction-and-count-b13-v1-provenance.json",
+        "sha256": "a22e0c3407abc1dad99c991ffe7149fcad6c48b469d373408c178b5d7f30bc0c",
+        "bytes": 3286
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/lymphocyte-fraction-and-count-b13-v1.txt",
+        "sha256": "fccfbb72727c1c9ff86644ead17c154d2331211f282dc487bebab49658cb8ef9",
+        "bytes": 1475
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+        "sha256": "82ce10f591939081e222fea642eb81f0b1aa9c07d7484f8120e130e6e8f62dc2",
+        "bytes": 9695
+      }
+    ],
+    "newArtworkCreativeAuthor": "/root/batch13_evidence_reading_author",
+    "retainedAttribution": "Retained literal original support unchanged; UNKNOWN where unproved. Existing living-drug provenance names agent:/root/batch08_author_group3; no reassignment."
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "productionVerifiedByThisReview": false,
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0
+}

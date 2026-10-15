@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1510" viewBox="0 0 600 1510" role="img" aria-labelledby="title desc"><title id="title">One grip, different jobs</title><desc id="desc">Orange target • green cell surface</desc><rect width="600" height="1510" rx="22" fill="#fffaf2"/>
+<text x="28" y="48" fill="#203442" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">One grip, different jobs</text>
+<text x="28" y="88" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Orange target • green cell surface</text>
+<rect x="20" y="125" width="560" height="290" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="168" fill="#203442" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start">1 • Block an interaction</text>
+<path d="M455 215L455 336" fill="none" stroke="#267e68" stroke-width="10" stroke-linecap="round" />
+<rect x="455" y="215" width="98" height="121" rx="24" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<circle cx="501" cy="270" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<circle cx="525" cy="270" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<path d="M502 283q11 9 22 0" fill="none" stroke="#203442" stroke-width="2"/>
+<path d="M408 265L455 265" fill="none" stroke="#a9661f" stroke-width="9" stroke-linecap="round" />
+<circle cx="400" cy="265" r="11" fill="#fae5c2" stroke="#a9661f" stroke-width="3"/>
+<g transform="translate(377 284) scale(0.8)" fill="none" stroke="#80579c" stroke-width="9" stroke-linecap="round"><path d="M0 36V0L-24 -30M0 0L24 -30"/></g>
+<circle cx="210" cy="237" r="20" fill="#d6edf3" stroke="#247a9b" stroke-width="3"/>
+<path d="M240 237L330 237" fill="none" stroke="#247a9b" stroke-width="4" stroke-linecap="round" />
+<path d="M330 237L317.39374056706254 243.08951747755722" fill="none" stroke="#247a9b" stroke-width="4" stroke-linecap="round" />
+<path d="M330 237L317.39374056706254 230.91048252244278" fill="none" stroke="#247a9b" stroke-width="4" stroke-linecap="round" />
+<path d="M343 219L343 257" fill="none" stroke="#ad526b" stroke-width="6" stroke-linecap="round" />
+<text x="40" y="364" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Ligand contact can be interrupted.</text>
+<rect x="20" y="435" width="560" height="290" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="478" fill="#203442" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start">2 • Recruit an immune cell</text>
+<path d="M455 525L455 646" fill="none" stroke="#267e68" stroke-width="10" stroke-linecap="round" />
+<rect x="455" y="525" width="98" height="121" rx="24" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<circle cx="501" cy="580" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<circle cx="525" cy="580" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<path d="M502 593q11 9 22 0" fill="none" stroke="#203442" stroke-width="2"/>
+<path d="M408 575L455 575" fill="none" stroke="#a9661f" stroke-width="9" stroke-linecap="round" />
+<circle cx="400" cy="575" r="11" fill="#fae5c2" stroke="#a9661f" stroke-width="3"/>
+<circle cx="200" cy="585" r="64" fill="#d6edf3" stroke="#247a9b" stroke-width="3"/>
+<circle cx="182" cy="575" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<circle cx="206" cy="575" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<path d="M183 588q11 9 22 0" fill="none" stroke="#203442" stroke-width="2"/>
+<g transform="translate(377 594) scale(0.8)" fill="none" stroke="#80579c" stroke-width="9" stroke-linecap="round"><path d="M0 36V0L-24 -30M0 0L24 -30"/></g>
+<path d="M265 585L377 623" fill="none" stroke="#247a9b" stroke-width="7" stroke-linecap="round" />
+<text x="107" y="668" fill="#247a9b" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Immune-cell contact</text>
+<text x="40" y="709" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Other antibody regions do a job.</text>
+<rect x="20" y="745" width="560" height="290" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="788" fill="#203442" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start">3 • Carry a payload</text>
+<path d="M455 835L455 956" fill="none" stroke="#267e68" stroke-width="10" stroke-linecap="round" />
+<rect x="455" y="835" width="98" height="121" rx="24" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<circle cx="501" cy="890" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<circle cx="525" cy="890" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<path d="M502 903q11 9 22 0" fill="none" stroke="#203442" stroke-width="2"/>
+<path d="M408 885L455 885" fill="none" stroke="#a9661f" stroke-width="9" stroke-linecap="round" />
+<circle cx="400" cy="885" r="11" fill="#fae5c2" stroke="#a9661f" stroke-width="3"/>
+<g transform="translate(377 904) scale(0.8)" fill="none" stroke="#80579c" stroke-width="9" stroke-linecap="round"><path d="M0 36V0L-24 -30M0 0L24 -30"/></g>
+<path d="M351 933L377 933" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<path d="M330 944L351 933" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<circle cx="351" cy="933" r="11" fill="#f8dce3" stroke="#ad526b" stroke-width="3"/>
+<circle cx="330" cy="944" r="10" fill="#f8dce3" stroke="#ad526b" stroke-width="3"/>
+<path d="M370 950L471 950" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<path d="M471 950L458.39374056706254 956.0895174775573" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<path d="M471 950L458.39374056706254 943.9104825224427" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<text x="40" y="984" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Cargo delivery and action</text>
+<text x="40" y="1016" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">need their own evidence.</text>
+<rect x="20" y="1055" width="560" height="290" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="1098" fill="#203442" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start">4 • Bridge two cells</text>
+<path d="M455 1145L455 1266" fill="none" stroke="#267e68" stroke-width="10" stroke-linecap="round" />
+<rect x="455" y="1145" width="98" height="121" rx="24" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<circle cx="501" cy="1200" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<circle cx="525" cy="1200" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<path d="M502 1213q11 9 22 0" fill="none" stroke="#203442" stroke-width="2"/>
+<path d="M408 1195L455 1195" fill="none" stroke="#a9661f" stroke-width="9" stroke-linecap="round" />
+<circle cx="400" cy="1195" r="11" fill="#fae5c2" stroke="#a9661f" stroke-width="3"/>
+<circle cx="171" cy="1200" r="60" fill="#d6edf3" stroke="#247a9b" stroke-width="3"/>
+<circle cx="159" cy="1191" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<circle cx="183" cy="1191" r="3" fill="#203442" stroke="#203442" stroke-width="1"/>
+<path d="M160 1204q11 9 22 0" fill="none" stroke="#203442" stroke-width="2"/>
+<path d="M231 1198L271 1198" fill="none" stroke="#247a9b" stroke-width="8" stroke-linecap="round" />
+<path d="M287 1198L389 1198" fill="none" stroke="#80579c" stroke-width="8" stroke-linecap="round" />
+<circle cx="279" cy="1198" r="17" fill="#d6edf3" stroke="#247a9b" stroke-width="3"/>
+<circle cx="382" cy="1198" r="17" fill="#e9dff1" stroke="#80579c" stroke-width="3"/>
+<text x="117" y="1288" fill="#247a9b" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">T cell</text>
+<text x="40" y="1329" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Two partners must engage.</text>
+<text x="28" y="1420" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Same target name does not mean</text>
+<text x="28" y="1461" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">same epitope, action or benefit.</text>
+</svg>

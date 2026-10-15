@@ -29,6 +29,19 @@ Imagine printing the same instructions with a different ink. The intended words 
 
 ## How it works
 
+
+<img src="images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg" alt="Three separate cards contrast ordered message blocks, building-block chemistry on a generic RNA strand, and intended RNA alongside unwanted RNA material, followed by separate evidence questions." data-theme-pair />
+
+*Sequence, building-block chemistry and unwanted byproducts answer different questions. The symbols are categories, not chemical structures or a recipe; a chemistry change does not guarantee correct protein, reduced sensing or better immunity.*
+
+The companion [sequence and intended-protein comparison](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization) covers the related shared concept.
+
+**Read the picture:** If two samples share an intended protein, must their chemistry and byproducts also match?
+
+**Answer:** No. Intended coding identity does not settle chemistry, unwanted material or measured translation products.
+
+**Visual source scope:** [Karikó et al. 2005](https://pubmed.ncbi.nlm.nih.gov/16111635/) and [2011](https://pubmed.ncbi.nlm.nih.gov/21890902/) support separating chemistry-related observations from unwanted-material effects in their tested systems.
+
 A **nucleoside** is a base joined to a sugar; a **nucleotide** also includes phosphate. RNA synthesis uses nucleotide building blocks. Pseudouridine (Ψ) and N1-methylpseudouridine (m1Ψ) are alternatives to the ordinary uridine building block. The intended coding message can remain the same while its chemistry changes.
 
 Cells sense RNA through several pathways. Karikó and colleagues tested human Toll-like-receptor systems and dendritic cells, showing that particular modifications reduced the activation they measured. Andries and colleagues compared m1Ψ with Ψ in cell lines and mice. These are defined experimental comparisons, not proof that all modified RNA is invisible to every sensor.

@@ -33,6 +33,19 @@ Imagine making many copies of a tool with the same gripping end. Each copy is de
 
 ## How it works
 
+
+<img src="images/antibody-recognition-and-four-contact-jobs-v1-light.svg" alt="Four cell-surface scenes repeat an antibody grip at a target while separating interrupted ligand contact, immune-cell recruitment through other antibody regions, attached chemical cargo and a two-cell bridge." data-theme-pair />
+
+*A recognition grip can connect to different jobs. Blocking an interaction, recruiting an immune cell, carrying cargo and bridging cells require different contacts and evidence. These are examples of formats, not one interchangeable product or a benefit ranking.*
+
+The companion [target and format comparison](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis) covers the related shared concept.
+
+**Read the picture:** Which scene requires a second cell to contact another antibody region, and which uses a bridge with two recognition partners?
+
+**Answer:** Recruitment uses an immune-cell contact with another antibody region; the bridging example engages both cell partners. Binding alone proves neither action.
+
+**Visual source scope:** [NCI: monoclonal antibodies](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) and [targeted therapies](https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies) distinguish recognition from later actions.
+
 The word *monoclonal* refers to a defined antibody lineage or design. A therapeutic batch contains many molecules made from that design. Manufacturing can still produce molecular variations, so identity and quality need testing. It does not mean that every molecule in a vial is physically identical in every detail.
 
 A conventional antibody recognizes one epitope. Engineering can combine recognition regions into a product that binds different partners. An antibody may recognize a cell-surface target or a soluble molecule. Recognition can support several different [mechanisms of action](/wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism):

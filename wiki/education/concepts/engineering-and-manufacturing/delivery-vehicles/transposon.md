@@ -31,6 +31,19 @@ A transposon system is closer to a filing tool than a shipping container. It can
 
 ## How it works
 
+
+<img src="images/cassette-boundaries-and-separate-insertion-v1-light.svg" alt="A separate delivery panel precedes a cell containing a nucleus with a cargo cassette, marked boundaries and a separate transposase enzyme; an orange segment within a chromosome illustrates insertion as a different job." data-theme-pair />
+
+*Delivery gets components into a cell; transposase recognizes cassette boundaries and supports insertion into cellular DNA. The generic picture omits sequence, insertion sites and methods. It assigns no insertion probabilities, guaranteed persistence or safety ranking.*
+
+The companion [DNA-location scene](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector) covers the related shared concept.
+
+**Read the picture:** Point to the enzyme. Is it the same thing as the delivery method?
+
+**Answer:** Transposase is the enzyme; delivery is a separate job. Evidence of delivery alone does not establish insertion or expression.
+
+**Visual source scope:** [Ivics et al.](https://pubmed.ncbi.nlm.nih.gov/9390559/) establish the boundary-recognition and insertion mechanism in defined experimental systems.
+
 This page concerns engineered **DNA transposons** used for gene insertion, rather than every naturally occurring mobile genetic element. Systems such as Sleeping Beauty and piggyBac use two essential parts:
 
 1. A **cargo cassette** bordered by sequences the insertion machinery recognizes.

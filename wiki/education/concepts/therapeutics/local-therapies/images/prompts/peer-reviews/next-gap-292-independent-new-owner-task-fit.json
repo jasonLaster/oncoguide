@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-292",
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_tissue_reach_author",
+  "authorRole": "Source-code author for two new SVG pairs; three current-owner insertions; reuse assessor for retained art",
+  "reviewer": "agent:/root/batch13_tissue_reach_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:32:02.242543Z",
+  "currentOwnerSha256": "bd2dffb1ac520dd0536cc3461d7899012475b3ed8dc874199498a59314551174",
+  "currentOwnerFieldMeaning": "Exact prospective final candidate bytes; actual source preimage is separately bound. No canonical adoption or delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/peer-reviews/next-gap-292-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-dark.svg",
+      "sha256": "ae8b1c3719a48b240dd593aa5e6ee85b3e2b386d5aebc685a2326595c442f49b",
+      "bytes": 3994,
+      "theme": "dark",
+      "nativeDimensions": [
+        600.0,
+        1080.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-light.svg",
+      "sha256": "4f0ccaa831b620039c0d86e7346650cc3695cf44d2e332b5d7cdd047a6ff02c0",
+      "bytes": 3994,
+      "theme": "light",
+      "nativeDimensions": [
+        600.0,
+        1080.0
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "a361e449cd065f044a647afd38c1c8833cc2104e0433a7e694e724c8314a6f3b",
+    "learnerTask": "See moving target, dose falloff and organ at risk during positioning",
+    "gap": "Delivery workflow omits geometric sensitivity and respiratory motion",
+    "accuracyGuardrails": "Illustrative geometry not safe distance; precision not zero toxicity; local outcome distinct from distant",
+    "currentVisualFit": "adequate",
+    "reasoning": "The conceptual cross-section shows solid and dashed positions of the same target, a motion arrow, fading qualitative dose and a distinct neighboring organ. Text explicitly prevents reading two lesions, a safe boundary, zero normal-tissue exposure or a dose prescription into the illustration. The three linked questions require target position, spatial dose change and organ assessment together. NCI positioning/motion sections and the actual ASTRO safety abstract support that relationship. No distance, timing rule, tolerance or operational radiation plan is supplied; local versus distant outcomes stay separate in the unchanged owner teaching.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+    "pageSHA256": "a361e449cd065f044a647afd38c1c8833cc2104e0433a7e694e724c8314a6f3b",
+    "targetSection": "## How it works",
+    "learnerTask": "See moving target, dose falloff and organ at risk during positioning",
+    "gap": "Delivery workflow omits geometric sensitivity and respiratory motion",
+    "accuracyGuardrails": "Illustrative geometry not safe distance; precision not zero toxicity; local outcome distinct from distant",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "frozenTaskIdentitySHA256": "a41da2a718d9986dbeebe34f18fad56681375edc793a64796fa87b81f6ec412c",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/365",
+    "oneBasedRow": 366,
+    "originalTaskRowSHA256": "c21130bdb176faed071efce828d44bcbadd7c916e6c2614458a37732d13f6a5a",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "/root/batch13_tissue_reach_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+      "pageSHA256": "a361e449cd065f044a647afd38c1c8833cc2104e0433a7e694e724c8314a6f3b",
+      "targetSection": "## How it works",
+      "learnerTask": "See moving target, dose falloff and organ at risk during positioning",
+      "gap": "Delivery workflow omits geometric sensitivity and respiratory motion",
+      "accuracyGuardrails": "Illustrative geometry not safe distance; precision not zero toxicity; local outcome distinct from distant",
+      "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+      "recommendedMedium": "schematic",
+      "priority": "P1"
+    },
+    "reuseRationale": "Extend only this SBRT owner: shared external-radiation art shows beam, target and exposed normal tissue but lacks target motion and nearby organ together with conceptual falloff. Create one nonnumeric cross-section with two possible target positions, qualitative dose bands and a nearby organ requiring its own assessment. No patient geometry, dose, tolerance, safe distance or planning recipe; shared owner/native remain unchanged.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-292",
+    "owner": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+    "author": "agent:/root/batch13_tissue_reach_author",
+    "actualDecisionAuthorLiteral": "/root/batch13_tissue_reach_author",
+    "reviewer": "agent:/root/batch13_tissue_reach_review",
+    "decisionSHA256": "81b0fd83ef2fd6ef082a0b1bc8a52e6ec91944eef42bbcb8e182b8b7ba71f475",
+    "decisionFileSHA256": "b6480283da568a2460845070be517bff222d75fefe778f18be2a06b29ae58f95",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow owner-only extension. Shared beam/normal-tissue art does not show target motion together with falloff and an organ at risk. The new nonnumeric scene supplies that relation without converting illustrative geometry into a safe-distance or planning rule. No shared-owner/native/support change is accepted.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+    "reviewedAt": "2026-10-14T21:32:02.242543Z",
+    "implementationGate": "Root must bind this exact genuine decision/acceptance into the actual maintained planning contract and execution baseline; this peer acceptance is not canonical adoption or code approval."
+  },
+  "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "actualAuthorOwnerPreimageSHA256": "a361e449cd065f044a647afd38c1c8833cc2104e0433a7e694e724c8314a6f3b",
+  "sourceChecks": [
+    {
+      "key": "nci-radiation",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+      "depth": "Fresh official page; external-beam normal-tissue passage, IGRT, SBRT, positioning/motion sections personally read.",
+      "scope": "Motion/geometry and normal-tissue assessment; no numeric dose, timing or safe distance used."
+    },
+    {
+      "key": "astro",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35283342/",
+      "depth": "Fresh direct PubMed record and indexed complete primary consensus abstract personally read. Full white paper not read.",
+      "scope": "Specialized technical/dosimetric quality checks; no clinical planning or safety certification of the fictional scene."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both themes of final task-native pairs, retained shared reference variants, and fresh390/1440px current-owner article plus theater.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named source files independently matched to pinned Git blobs before review captures.",
+    "scope": "Private pinned article/ImageTheater fixture; external installed dependencies, no full-app or production certification.",
+    "findings": "Correct current theme and theater source in all32 cases; no document horizontal overflow. Task geometry, labels, captions and alt text agree. Enter opens and Escape closes.",
+    "limits": [
+      "Escape returns focus to BODY and Tab leaves dialog in32/32 observed cases. No focus trap or full-app accessibility approval.",
+      "DCIS secondary layer labels are dense at346px article width. Primary inside/outside spatial contrast and main labels plus readable owner caption meet task288; comfortable reading of every fine label is not claimed.",
+      "Tall FNA/VAB originals fit theater height and appear narrower on wide viewports; article scrolling provides the larger complete teaching view."
+    ],
+    "denseDCISAdjudication": null
+  },
+  "creationProvenance": {
+    "creativeAuthor": null,
+    "sourceCodeAuthor": "/root/batch13_tissue_reach_author",
+    "creationMethod": "Actual source-code SVG author; no image-model invocation for this new pair",
+    "imageModelCallsThisTask": 0,
+    "retainedLiteralAttribution": [
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1-independent-owner-review.json",
+        "sha256": "31c6a6ab38719abda1a683b1c954f9df636e4740340c0a4857e56cbe72805785",
+        "literalFields": {
+          "author": "agent:/root/batch05_local_treatment_author",
+          "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+          "originalSourceResearchAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+          "imageModelCalls": 0
+        },
+        "interpretation": "Existing literal provenance only; no new verification of historical dispatch, creative person/model/invocation. Unknown fields remain UNKNOWN."
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1-provenance.json",
+        "sha256": "25e97f8d9cf08a57564e53357d9492356a9217d7a464a027affe1f93b5686e2f",
+        "literalFields": {
+          "author": "agent:/root/batch05_local_treatment_author",
+          "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+          "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7"
+        },
+        "interpretation": "Existing literal provenance only; no new verification of historical dispatch, creative person/model/invocation. Unknown fields remain UNKNOWN."
+      }
+    ],
+    "unverifiedHistoricalFields": "UNKNOWN unless retained literal provenance establishes a specific claim; this reviewer does not re-verify old dispatch or model invocation.",
+    "prospectiveMarkersPreserved": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+        "sha256": "bd2dffb1ac520dd0536cc3461d7899012475b3ed8dc874199498a59314551174",
+        "bytes": 10350
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-dark.svg",
+        "sha256": "ae8b1c3719a48b240dd593aa5e6ee85b3e2b386d5aebc685a2326595c442f49b",
+        "bytes": 3994
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-light.svg",
+        "sha256": "4f0ccaa831b620039c0d86e7346650cc3695cf44d2e332b5d7cdd047a6ff02c0",
+        "bytes": 3994
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-motion-falloff-neighbor-v1-provenance.json",
+        "sha256": "f89be8bab4e8f1fcdd3013ba75b936f603caa226b191597d78f5bd64ccc6da07",
+        "bytes": 5533
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-motion-falloff-neighbor-v1.txt",
+        "sha256": "4b9d2ad7f4442a83a7b864d5b1383f2c7fa3001a8cb3eeeb2d93758097f0c396",
+        "bytes": 1479
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+        "sha256": "d6ee3d32517b5f0d66220724969e149771878594e2fa9cfcb7c89d1b90694040",
+        "bytes": 9786
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-dark.svg",
+        "sha256": "baa0fcfab12b68f0bf97b302b9a6a8e13992401a227fcec299cb77c8a37ed1d3",
+        "bytes": 3437
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/beam-target-normal-tissues-v1-light.svg",
+        "sha256": "0a6c0f5945cb941fffcf2e5a1340efb6be5fd71cd431021be2faef44584a246c",
+        "bytes": 3437
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1-independent-owner-review.json",
+        "sha256": "31c6a6ab38719abda1a683b1c954f9df636e4740340c0a4857e56cbe72805785",
+        "bytes": 5378
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1-provenance.json",
+        "sha256": "25e97f8d9cf08a57564e53357d9492356a9217d7a464a027affe1f93b5686e2f",
+        "bytes": 4234
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/beam-target-normal-tissues-v1.txt",
+        "sha256": "d2a27f3c55caccaf42b785670b87abeb1daf06d25a16fc8804cae32a76cf10b3",
+        "bytes": 1797
+      }
+    ],
+    "scope": "Exact candidate, selected native outputs, new support where applicable, and bounded shared/current native/support guards.",
+    "originalAuthorSealSHA256": "2d2fbd29624e3666faf668d6193953444d7c345ade067329be0819e31f951563",
+    "originalAuthorManifestSHA256": "6f3cad116d3f12035885a0b5baa82ca531b14783af854bdcc89529764f286c26",
+    "inverseInsertionExact": true,
+    "retainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "One actual independent agent review of the selected visual, insertion and owner-task fit using recorded source access; not human clinical expertise or full unchanged-page recertification.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "actualFutureExecutionSourceCommit": null,
+  "rootSoleIntegratorAndPublisher": true
+}

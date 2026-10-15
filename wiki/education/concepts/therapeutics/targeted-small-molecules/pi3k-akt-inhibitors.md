@@ -29,6 +29,13 @@ Turning down a receiver differs from turning down the relay after it. Both can r
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/pi3k-membrane-nodes-and-feedback-b13-v1-light.svg" width="760" height="1490" alt="A membrane PIP2-to-PIP3 lipid step by PI3K is opposed by PTEN; PIP3 recruitment leads to AKT below the membrane, then indirectly to mTORC1. PI3K and AKT occupy distinct lipid-kinase and protein-kinase nodes. A dashed indirect feedback brake returns from mTORC1 toward upstream input; a fictional changed phosphosite does not prove this loop or benefit." data-theme-pair>
+<p class="cartoon-caption">Read lipid conversion at the membrane separately from protein-kinase nodes below it. The dashed returning brake summarizes an indirect feedback relation, not a direct phosphorylation arrow or every network branch. Feedback release is a possible response, not a universal rebound. A named phosphosite, target engagement, growth dependence and patient benefit are different claims; neighboring inhibitors are not interchangeable.</p>
+</div>
+
+The [shared concept map](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) supplies the background for this closer comparison.
+
 The [PI3K–AKT–mTOR network](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) links growth signals to survival and resource use. **Phosphoinositide 3-kinase (PI3K)** modifies membrane lipids that help recruit signaling machinery. **AKT**, also called protein kinase B, transfers phosphate groups to proteins. **Mechanistic target of rapamycin (mTOR)** works in distinct downstream complexes.
 
 **PTEN**, phosphatase and tensin homolog, can remove a phosphate from a lipid signal made by PI3K. Loss of this brake is one possible pathway change. A DNA alteration, lower RNA, absent protein staining, and loss of enzymatic function are different observations. DNA and RNA mean deoxyribonucleic acid and ribonucleic acid; the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma) separates these layers.

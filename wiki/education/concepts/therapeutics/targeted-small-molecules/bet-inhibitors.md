@@ -29,6 +29,17 @@ Imagine covering a reader's bookmark sensor. The reader may find fewer passages 
 
 ## How it works
 
+
+<img src="../../cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg" alt="Three scenes retain DNA-wrapped histones and the same acetyl mark while comparing BET recognition, pocket occupancy with other protein regions retained, and a dashed reader after a distinct protein-depletion perturbation." data-theme-pair />
+
+*Reading an acetyl mark, occupying a bromodomain pocket and depleting the protein are different tests. The mark remains in all three scenes. Remaining domains and separately verified depletion prevent a pocket-blockade result from becoming a claim of complete protein loss or benefit.*
+
+**Read the picture:** In the middle scene, which parts remain after the pocket is occupied?
+
+**Answer:** The acetyl mark and the rest of the BET protein remain. A separate depletion experiment and measurement address protein loss.
+
+**Visual source scope:** [Filippakopoulos et al.](https://pubmed.ncbi.nlm.nih.gov/20871596/) establish pocket competition by the experimental probe JQ1; [Shu et al.](https://pubmed.ncbi.nlm.nih.gov/26735014/) distinguish inhibitor response from BRD4 dependence in tested TNBC models.
+
 [Bromodomain and extra-terminal (BET) proteins](/wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins) include BRD2, BRD3, BRD4, and BRDT. A **bromodomain** is a protein region that recognizes acetylated lysines, chemical marks on certain amino acids. BET proteins help coordinate transcription, the production of RNA instructions from DNA described in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma). RNA means ribonucleic acid; DNA means deoxyribonucleic acid.
 
 A bromodomain inhibitor can occupy the recognition pocket and compete with an acetylated binding partner. The experimental compound **JQ1** established that this interaction could be disrupted. It is a [chemical probe](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement), a tool for studying a mechanism, rather than evidence for a personal treatment regimen.

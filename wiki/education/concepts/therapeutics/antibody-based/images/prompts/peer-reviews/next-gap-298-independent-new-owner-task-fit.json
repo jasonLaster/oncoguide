@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-298",
+  "owner": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_molecular_jobs_author",
+  "reviewer": "agent:/root/batch13_molecular_jobs_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:31:21.596142Z",
+  "currentOwnerSha256": "1ee26170f9afb081df2dd7be4a72b31aacc8b84e4f0b3bba0aed906fdbea581a",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; frozen/current baseline owner hashes separately bound. No canonical adoption/delivery is asserted.",
+  "intendedPublicPath": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/peer-reviews/next-gap-298-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-light.svg",
+      "sha256": "bb840c0cddeb7e7fd1de01410a7924e8bcb4cb06be3ab2b4659106f3fc3e3896",
+      "bytes": 8450,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1510
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-dark.svg",
+      "sha256": "0afe3a1e6d023aa401b5e85d99ad5832b5f7830da38b6978c217eec6f07a30c4",
+      "bytes": 8450,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1510
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "fc8f5d50a0cdc32bfd341503ef0a788e68c428a41a2011dabe072290582b4a3f",
+    "learnerTask": "Compare a common recognition grip with blocking, effector recruitment, cargo and cell bridging",
+    "gap": "Table describes four jobs without showing their different contacts and actions",
+    "accuracyGuardrails": "Binding does not imply downstream action; variants exist; shared target does not imply equivalent product",
+    "currentVisualFit": "adequate",
+    "reasoning": "Accept the narrow contact comparison. The retained target/format overview combines antibody blocking and recruitment in one row. Four new scenes preserve target recognition while separately showing blocked ligand contact, another-region immune-cell contact, cargo and a two-cell bridge. They do not assert interchangeable epitopes, products, exclusive cancer recognition or benefit.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+    "pageSHA256": "fc8f5d50a0cdc32bfd341503ef0a788e68c428a41a2011dabe072290582b4a3f",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare a common recognition grip with blocking, effector recruitment, cargo and cell bridging",
+    "gap": "Table describes four jobs without showing their different contacts and actions",
+    "accuracyGuardrails": "Binding does not imply downstream action; variants exist; shared target does not imply equivalent product",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "a6e8fdc499f139a163def8484bccab4f04a93e63fc2f40da8d94b5d2f2674da9",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/327",
+    "oneBasedRow": 328,
+    "originalTaskRowSHA256": "74e0aedc09a9d3361ef2010f8e29418b7e16c59ae959ca756a3ec745d74a6356",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+  "sourceBinding": {
+    "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "baselineOwnerSHA256": "fc8f5d50a0cdc32bfd341503ef0a788e68c428a41a2011dabe072290582b4a3f",
+    "baselineSharedOwnerSHA256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+    "independentObservedHEAD": "8eee2a56a7e55e274339f2b922af95d5296cf8d5",
+    "exactSelectedOwnerSharedPreimagesAtIndependentCheck": true,
+    "futureActualExecutionSourceCommit": null,
+    "laterTeacherRebind": "Stop and rebind if any selected source bytes change before actual execution."
+  },
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+      "pageSHA256": "fc8f5d50a0cdc32bfd341503ef0a788e68c428a41a2011dabe072290582b4a3f",
+      "targetSection": "## How it works",
+      "learnerTask": "Compare a common recognition grip with blocking, effector recruitment, cargo and cell bridging",
+      "gap": "Table describes four jobs without showing their different contacts and actions",
+      "accuracyGuardrails": "Binding does not imply downstream action; variants exist; shared target does not imply equivalent product",
+      "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+      "recommendedMedium": "cartoon",
+      "priority": "P2"
+    },
+    "reuseRationale": "The exact target/chassis scene shows cargo and bridging but combines blocking and recruitment into one antibody row, so it cannot teach their different physical contacts. Retain that canonical format comparison through a contextual link and add only four conceptual contact scenes with repeated target grip, blockade, effector contact, cargo and cell bridge. No product equivalence or shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-298",
+    "owner": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "reviewer": "agent:/root/batch13_molecular_jobs_review",
+    "decisionSHA256": "a9e4e3b10dfb4da11078eddb7cbbe79a51ed1312419e361ca78ef3537fe8a84d",
+    "decisionFileSHA256": "2eea51d54777935169bd0ba22e90c409289cb989d9b341c3de23e7dbd48aa218",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow contact comparison. The retained target/format overview combines antibody blocking and recruitment in one row. Four new scenes preserve target recognition while separately showing blocked ligand contact, another-region immune-cell contact, cargo and a two-cell bridge. They do not assert interchangeable epitopes, products, exclusive cancer recognition or benefit.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+    "reviewedAt": "2026-10-14T21:31:21.596142Z",
+    "implementationGate": "Actual independent author-decision acceptance only; Root must adopt the actual future full task plan and execution bindings. No future baseline, validator run or release is claimed."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies",
+      "actualReadDepth": "Fresh official mechanism section, recognition, immune recruitment and two-cell engagement paragraphs; no complete scientific paper review or copied source figure."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "actualReadDepth": "Fresh official types and mechanism sections: intracellular small molecules, antibody recognition, signaling interference and payload delivery. The source simplification that target-negative cells are spared was not imported."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both selected native variants and all relevant retained shared native variants, plus fresh final current-owner article and theater at390px and1440px in both themes.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 source files independently compared against exact pinned Git blobs. Final served JSON matches the exact compiled current candidate records.",
+    "findings": "Task relation, labels, arrows/compartments/contacts, caption and alt agree. No selected native text-bound overflow, document horizontal overflow or page error in28states. Enter opens/Escape closes.",
+    "scope": "Private article/ImageTheater fixture only; no full-app, production, authentication/navigation or general accessibility certification.",
+    "limits": [
+      "Retained route-raster secondary labels and BET secondary domain labels are small at346px inline; main task contrast, surrounding caption/practice, theater and full-resolution download carry the distinction.",
+      "Escape returned focus to BODY;8-Tab cycles left the dialog in all4supplemental theme/width checks. These known viewer limitations remain, with no runtime edit.",
+      "Existing tables scroll locally and existing Mermaid size is unchanged."
+    ],
+    "inspectionTiming": "Reviewer inspected after final author drafts. This review does not claim author pre-art embedded QA. Author pre-art native/reuse decision timestamps remain literal, not retroactively recreated."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch13_molecular_jobs_author",
+    "creationMethod": "Original source-code SVG by the actual author; no image-model invocation",
+    "imageModelInvocationByCurrentAuthor": false,
+    "attributionLimit": "Existing literal provenance/support bytes remain exact. Direct-reuse creative identity remains UNKNOWN where retained records do not establish it; scientific author, reviewer and integrator identities do not imply original creative authorship."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-dark.svg",
+        "sha256": "0afe3a1e6d023aa401b5e85d99ad5832b5f7830da38b6978c217eec6f07a30c4",
+        "bytes": 8450
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-light.svg",
+        "sha256": "bb840c0cddeb7e7fd1de01410a7924e8bcb4cb06be3ab2b4659106f3fc3e3896",
+        "bytes": 8450
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1-provenance.json",
+        "sha256": "4fa43a90d8e9d8a185f8d75431f3f9ef9c2d0edadca769f257b00f65a2846124",
+        "bytes": 2651
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1.txt",
+        "sha256": "dd9f0e8bf52cc86f50f4fea4d052f80c8f5c151a1c7ba7ef87deb1d2753bea42",
+        "bytes": 645
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+        "sha256": "1ee26170f9afb081df2dd7be4a72b31aacc8b84e4f0b3bba0aed906fdbea581a",
+        "bytes": 9188
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-dark.svg",
+        "sha256": "a650e7435a284e661e7d6ec1786fc3afcf9e9ac43eb97b2da83685ae4b75bb6f",
+        "bytes": 13319
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/shared-target-five-therapeutic-formats-v1-light.svg",
+        "sha256": "cccc8e74ac473927d219d52e4e61c0ba458506bf5768a90a1646584ebc7024b5",
+        "bytes": 13319
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/shared-target-five-therapeutic-formats-v1-independent-owner-review.json",
+        "sha256": "848c0364ae006aaec1389317a4188c2d55ba6eae8e3b068b94aff1ad7c92788d",
+        "bytes": 18610
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/shared-target-five-therapeutic-formats-v1-provenance.json",
+        "sha256": "0b23773e328b13e387ee8e78618eeb18da68b0ec1396b884d505e9b88a02f81e",
+        "bytes": 6425
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/shared-target-five-therapeutic-formats-v1.txt",
+        "sha256": "7143362bab1b134a27ebee1b50cd5f8a19607bf5b20bb6db81979f46353b9b13",
+        "bytes": 4035
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+        "sha256": "dfd748a30e2d5340d3bbc3bf972419db0501692d1c38711a0272b40c8d7f328e",
+        "bytes": 8881
+      }
+    ],
+    "originalAuthorSealSHA256": "e0f3734f8da2ab025aef872430b5c2bf49939c79e4b16f80d6407fbff9ecc4fe",
+    "originalAuthorManifestSHA256": "189800cf5265ab15ddef13d9b60c8d7092a0635817c5cdeef31bbd890100a878",
+    "originalAuthorCustodyZipSHA256": "f48981882d1bae6c9d104b0a0644741f2431199e0de3d325526ca212fbf1e92a",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded insertion/native/current-owner task fit with actual stated source depths; no human domain-expert approval.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch13_molecular_jobs_author",
+  "method": "Original source-code SVG; no image model invocation",
+  "modelsCalled": [],
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+    "pageSHA256": "844b2c41f23bbfe2ef9446fe155f22a57a57dc12807a5d70f3f0b5a85f90d3c1",
+    "targetSection": "## How it works",
+    "learnerTask": "See antigen cargo versus innate-support inputs reaching presenting cells",
+    "gap": "Converging flow does not show distinct cargo and sensor interactions",
+    "accuracyGuardrails": "Not one universal adjuvant pathway; delivery and priming separate; inflammation not efficacy; package attribution",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "sharedCanonicalOwnerUnchanged": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+  "decisionSHA256": "79d07f009f94915d745255a28f128977c7ff0443f21933efe59361dfda4c2b94",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "allAdoptionDeliveryGradeCoverageCredits": 0,
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+      "theme": "light",
+      "sha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17569868%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Complete abstract only",
+      "supports": "One adjuvant/sensor mechanism in mice; does not establish one universal pathway, formulation or safe intervention.",
+      "readUTCDate": "2026-10-14"
+    },
+    {
+      "url": "https://www.cdc.gov/vaccine-safety/about/adjuvants.html",
+      "actualReadDepth": "Official key-points/overview and evaluation discussion lines24\u201341; ingredient table not used",
+      "supports": "Adjuvant as supporting ingredient, immune response and reaction distinct, complete-formulation evaluation; no cancer-efficacy claim",
+      "readUTCDate": "2026-10-14"
+    }
+  ]
+}

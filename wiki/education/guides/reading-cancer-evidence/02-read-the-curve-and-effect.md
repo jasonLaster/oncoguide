@@ -45,6 +45,11 @@ Start with [the five-pass graph method](/wiki/education/concepts/evidence-and-st
 
 ## A small curve you can check by hand
 
+<div class="cartoon-frame">
+<img src="../../concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-light.svg" width="760" height="1200" alt="Fictional recurrence-free Kaplan–Meier curve: one event at month one lowers 100% to 80%; a month-two censor tick has no drop; one event among three at risk at month three lowers the estimate to 8/15, about 53.3%. The graph stops at month three." data-theme-pair>
+<p class="cartoon-caption">The exact five-person example is reused from the Kaplan–Meier concept. Events lower the curve; censoring removes a participant from later risk sets without a downward step. The month-three denominator is three, so 80% × 2/3 ≈ 53.3%. Two observed recurrences among five original people is a raw count, not this probability estimate. No later outcomes, confidence interval or personal forecast are supplied.</p>
+</div>
+
 Five fictional participants are followed from enrollment for first recurrence. No one dies during this example. One recurrence occurs at month one. Another participant leaves observation without recurrence at month two. A second recurrence occurs at month three.
 
 | Moment | What happens | Estimated recurrence-free probability |

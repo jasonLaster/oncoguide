@@ -30,6 +30,14 @@ Read an operation as several jobs. Removing tissue treats a defined area. Examin
 
 ## How it works
 
+### Find the three jobs on one map
+
+<img src="./images/surgery-three-jobs-v1-light.svg" alt="A simplified front-view torso locates one pink local breast excision, green axillary nodes outside the breast and a gold dashed contour marking reconstruction's shape-restoring role on the same breast; three numbered descriptions keep those jobs separate." data-theme-pair width="600" height="1080">
+
+*Follow the numbered locations: breast tissue removal, regional nodal sampling and reconstruction describe different jobs. The pink area is one local excision example, not the extent of every operation; the gold contour shows a role, not a reconstructive technique or promised shape. Anatomy and node counts are schematic. No margin finding or whole-body clearance is shown. [NCI: mastectomy and reconstruction](https://www.cancer.gov/types/breast/treatment/surgery/mastectomy).*
+
+**Trace it:** In a fictional note, “breast-conserving excision, sentinel-node biopsy and reshaping” names how many jobs? **Answer:** Three. Locate the breast tissue, the regional nodes and the reconstructed shape separately. Their combination is an example, not a required sequence.
+
 Start with the **breast procedure**. [Lumpectomy and mastectomy](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy) describe different extents of removal. Their detailed comparison belongs at that concept. The operation's name alone does not specify its nodal procedure, reconstruction or later treatment.
 
 Next name the **regional nodal procedure**, if one is performed. [Sentinel-node biopsy and axillary dissection](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection) differ in how tissue is identified and removed. “Breast surgery” does not mean every node was examined. Location, technique and treatment timing remain part of the result.

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-300",
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_molecular_jobs_author",
+  "reviewer": "agent:/root/batch13_molecular_jobs_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:31:21.596142Z",
+  "currentOwnerSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; frozen/current baseline owner hashes separately bound. No canonical adoption/delivery is asserted.",
+  "intendedPublicPath": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/peer-reviews/next-gap-300-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+      "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+      "bytes": 9874,
+      "theme": "light",
+      "nativeDimensions": [
+        780,
+        1540
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+      "bytes": 9874,
+      "theme": "dark",
+      "nativeDimensions": [
+        780,
+        1540
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "5f8bf9308d116519f8720ac35c0f12f1e17680dd4904d8e6b294d63c9b39a939",
+    "learnerTask": "See a BET pocket reading an acetyl mark, blocked pocket and protein degradation",
+    "gap": "Bookmark analogy lacks retained domains and physical chromatin contact",
+    "accuracyGuardrails": "pocket block not complete protein loss; JQ1 probe; no MYC/BD2 clinical claim",
+    "currentVisualFit": "adequate",
+    "reasoning": "Accept exact canonical reuse. The existing histone/acetyl-mark scene directly contrasts recognition, pocket occupancy with other protein regions retained and separately verified depletion. The added caption and practice preserve the mark and distinguish blockage from protein loss. JQ1 remains a probe, with no new clinical prediction or claim that it exclusively blocks the displayed representative BD1 pocket.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+    "pageSHA256": "5f8bf9308d116519f8720ac35c0f12f1e17680dd4904d8e6b294d63c9b39a939",
+    "targetSection": "## How it works",
+    "learnerTask": "See a BET pocket reading an acetyl mark, blocked pocket and protein degradation",
+    "gap": "Bookmark analogy lacks retained domains and physical chromatin contact",
+    "accuracyGuardrails": "pocket block not complete protein loss; JQ1 probe; no MYC/BD2 clinical claim",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "d63f2b6692ecaf36681bf8437eb3954f67076602118828f0e40bc56eb211029f",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/368",
+    "oneBasedRow": 369,
+    "originalTaskRowSHA256": "f039717968ee15ae8e82d80abde308a8d822585eaec4ec13cca1bfa9bda0953d",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+  "sourceBinding": {
+    "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "baselineOwnerSHA256": "5f8bf9308d116519f8720ac35c0f12f1e17680dd4904d8e6b294d63c9b39a939",
+    "baselineSharedOwnerSHA256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+    "independentObservedHEAD": "8eee2a56a7e55e274339f2b922af95d5296cf8d5",
+    "exactSelectedOwnerSharedPreimagesAtIndependentCheck": true,
+    "futureActualExecutionSourceCommit": null,
+    "laterTeacherRebind": "Stop and rebind if any selected source bytes change before actual execution."
+  },
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "pageSHA256": "5f8bf9308d116519f8720ac35c0f12f1e17680dd4904d8e6b294d63c9b39a939",
+      "targetSection": "## How it works",
+      "learnerTask": "See a BET pocket reading an acetyl mark, blocked pocket and protein degradation",
+      "gap": "Bookmark analogy lacks retained domains and physical chromatin contact",
+      "accuracyGuardrails": "pocket block not complete protein loss; JQ1 probe; no MYC/BD2 clinical claim",
+      "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "recommendedMedium": "schematic",
+      "priority": "P2"
+    },
+    "reuseRationale": "Direct reuse of the exact shared BET pair: three scenes retain the histone acetyl mark while comparing recognition, occupied pocket with remaining BD2/ET regions, and separately verified protein depletion. This directly satisfies the frozen task. JQ1 remains a probe and no treatment/dependence inference follows. No new art or shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-300",
+    "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "reviewer": "agent:/root/batch13_molecular_jobs_review",
+    "decisionSHA256": "0b29a7ebdf8916116773d331cd28dd41c5411caad754b1adfe8e449b635f2556",
+    "decisionFileSHA256": "ea280292e6a795b4be621f19254cc65c85fc3d9fce124ac63dfa42a68a86316e",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept exact canonical reuse. The existing histone/acetyl-mark scene directly contrasts recognition, pocket occupancy with other protein regions retained and separately verified depletion. The added caption and practice preserve the mark and distinguish blockage from protein loss. JQ1 remains a probe, with no new clinical prediction or claim that it exclusively blocks the displayed representative BD1 pocket.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+    "reviewedAt": "2026-10-14T21:31:21.596142Z",
+    "implementationGate": "Actual independent author-decision acceptance only; Root must adopt the actual future full task plan and execution bindings. No future baseline, validator run or release is claimed."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20871596%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "Selective inhibition of BET bromodomains.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26735014%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "Response and resistance to BET bromodomain inhibitors in triple-negative breast cancer.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both selected native variants and all relevant retained shared native variants, plus fresh final current-owner article and theater at390px and1440px in both themes.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 source files independently compared against exact pinned Git blobs. Final served JSON matches the exact compiled current candidate records.",
+    "findings": "Task relation, labels, arrows/compartments/contacts, caption and alt agree. No selected native text-bound overflow, document horizontal overflow or page error in28states. Enter opens/Escape closes.",
+    "scope": "Private article/ImageTheater fixture only; no full-app, production, authentication/navigation or general accessibility certification.",
+    "limits": [
+      "Retained route-raster secondary labels and BET secondary domain labels are small at346px inline; main task contrast, surrounding caption/practice, theater and full-resolution download carry the distinction.",
+      "Escape returned focus to BODY;8-Tab cycles left the dialog in all4supplemental theme/width checks. These known viewer limitations remain, with no runtime edit.",
+      "Existing tables scroll locally and existing Mermaid size is unchanged."
+    ],
+    "inspectionTiming": "Reviewer inspected after final author drafts. This review does not claim author pre-art embedded QA. Author pre-art native/reuse decision timestamps remain literal, not retroactively recreated."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "UNKNOWN",
+    "creationMethod": "Exact unchanged canonical reuse; no new image generation",
+    "imageModelInvocationByCurrentAuthor": false,
+    "attributionLimit": "Existing literal provenance/support bytes remain exact. Direct-reuse creative identity remains UNKNOWN where retained records do not establish it; scientific author, reviewer and integrator identities do not imply original creative authorship."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+        "sha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+        "bytes": 8247
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+        "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+        "bytes": 9874
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+        "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+        "bytes": 9874
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1-provenance.json",
+        "sha256": "c4cddb1d1dba7bde448a74eaa4fb33e7c64fc2735a9b18ae8bdc2aec2622f647",
+        "bytes": 2892
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1-provenance.zip",
+        "sha256": "315f286ad4f259ae100350dc89ae544ffab4295705087bc19f404be111380a43",
+        "bytes": 8209
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/bet-mark-pocket-and-depletion-v1.txt",
+        "sha256": "d01810d979a822c420584d27da7185f1bea5e4d8fedafe2ca3ad02cd9af7646d",
+        "bytes": 1736
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+        "sha256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+        "bytes": 9161
+      }
+    ],
+    "originalAuthorSealSHA256": "e0f3734f8da2ab025aef872430b5c2bf49939c79e4b16f80d6407fbff9ecc4fe",
+    "originalAuthorManifestSHA256": "189800cf5265ab15ddef13d9b60c8d7092a0635817c5cdeef31bbd890100a878",
+    "originalAuthorCustodyZipSHA256": "f48981882d1bae6c9d104b0a0644741f2431199e0de3d325526ca212fbf1e92a",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded insertion/native/current-owner task fit with actual stated source depths; no human domain-expert approval.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

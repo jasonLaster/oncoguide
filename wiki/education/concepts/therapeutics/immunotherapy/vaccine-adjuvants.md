@@ -33,6 +33,19 @@ The analogy stops before “more encouragement is always better.” An adjuvant 
 
 ## How it works
 
+
+<img src="images/antigen-material-and-support-inputs-v1-light.svg" alt="Antigen material enters an antigen-presenting cell by an acquisition path while a distinct support input approaches an example sensor; a later box separates the priming encounter and its supporting signals from tumor control." data-theme-pair />
+
+*Antigen material supplies what can be recognized; support inputs can influence the immune context. The sensor is one example, not a universal adjuvant pathway. Delivery, priming, inflammation and tumor control remain separate claims.*
+
+The companion [three-signal priming encounter](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) covers the related shared concept.
+
+**Read the picture:** Does a support input choose which antigen a T-cell receptor recognizes?
+
+**Answer:** No. It can shape context; antigen recognition depends on the receptor and the displayed material. A larger inflammatory reaction does not establish tumor control.
+
+**Visual source scope:** [CDC: adjuvants and vaccines](https://www.cdc.gov/vaccine-safety/about/adjuvants.html) explains the supporting role and formulation-specific evaluation; this mechanism sketch makes no cancer-efficacy claim.
+
 An antigen can be collected without producing the desired response. [Dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) and other presenting cells need an appropriate activation context. Adjuvants can affect recruitment, antigen availability, cell activation and supporting signals. Different ingredients act through different mechanisms; there is no single “adjuvant pathway.” [CDC's overview](https://www.cdc.gov/vaccine-safety/about/adjuvants.html) distinguishes these immune-supporting ingredients from the antigen itself.
 
 Some adjuvants engage innate sensors. For example, monophosphoryl lipid A is a modified bacterial lipid studied for signaling through Toll-like receptor 4 (TLR4). Mouse experiments showed that modifying a microbial signal could change the balance between immune stimulation and inflammatory toxicity. That specific result does not supply a universal safety rule for all ingredients, routes or people. [Mata-Haro and colleagues](https://pubmed.ncbi.nlm.nih.gov/17569868/).

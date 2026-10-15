@@ -29,6 +29,19 @@ A cell-surface receiver can pass an outside message into the cell. A medicine mi
 
 ## How it works
 
+
+<img src="images/egfr-outside-inside-and-cargo-contacts-v1-light.svg" alt="Three matched EGFR membrane cross-sections locate antibody contact outside the cell, a small molecule at intracellular kinase machinery and a conjugated payload moving into the cell as a separate mechanism." data-theme-pair />
+
+*EGFR-directed formats make different contacts: outside antibody binding, inside kinase blockade or payload delivery. The drawing simplifies receptor arrangement and cargo processing. Protein staining does not establish an activating variant, kinase dependence or benefit, and one format cannot inherit another format’s evidence.*
+
+The companion [receptor-tyrosine-kinase explanation](/wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases) covers the related shared concept.
+
+**Read the picture:** Which scene could deliver a payload without proving that growth depends on EGFR kinase signaling?
+
+**Answer:** The conjugate scene. Target recognition can provide an address for cargo without proving dependence on the receptor’s kinase activity.
+
+**Visual source scope:** [Zhang et al.](https://pubmed.ncbi.nlm.nih.gov/16777603/) address intracellular EGFR kinase machinery; [NCI: targeted therapies](https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies) distinguishes inside small-molecule and outside antibody actions, including payload delivery.
+
 **Epidermal growth factor receptor (EGFR)**, also called HER1 or ERBB1, belongs to the [receptor tyrosine kinase family](/wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases). A **kinase** transfers phosphate groups. A [ligand](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) binding outside the cell can change receptor arrangement and activate intracellular kinase machinery.
 
 EGFR can feed into the [RAS–RAF–MEK–ERK relay](/wiki/education/concepts/cancer-biology/signaling-pathways/mapk-ras-raf), a mitogen-activated protein kinase (MAPK) pathway, and the [PI3K–AKT–mTOR network](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor). These routes influence cell behavior, but an active downstream signal does not uniquely identify its source.

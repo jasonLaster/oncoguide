@@ -78,6 +78,11 @@ A [surrogate endpoint](/wiki/education/concepts/evidence-and-statistics/endpoint
 
 ## A worked example: a sequence is the tested intervention
 
+<div class="cartoon-frame">
+<img src="./images/whole-sequence-and-same-origin-events-b13-v1-light.svg" width="760" height="1590" alt="One randomization starts both fictional strategies: study drug plus the same chemotherapy before the same surgery, then study drug afterward, versus placebo on that sequence. No separate postoperative randomization occurs. Alex’s recurrence and Sam’s death illustrate different event definitions from the same time origin." data-theme-pair>
+<p class="cartoon-caption">The assigned intervention includes both sides of surgery. A difference between these whole strategies cannot isolate the postoperative study-drug contribution. Both outcome clocks begin at randomization: Alex’s recurrence counts for recurrence-or-death but not death alone; Sam’s death counts for both. These are fictional strategies with no effect size, schedule or personal treatment inference.</p>
+</div>
+
 Consider a fictional randomized trial in adults with operable cancer. Both groups receive the same chemotherapy and surgery. Strategy A adds a study drug before surgery and continues it afterward. Strategy B adds placebo on the same schedule. The primary endpoint is time from randomization to the first recurrence or death from any cause.
 
 The study question is: **Does assignment to the entire A sequence change this endpoint compared with the entire B sequence in these participants?**

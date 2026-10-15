@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-304",
+  "actualSourceCodeAuthor": "/root/batch13_evidence_reading_author",
+  "creativeMethod": "Original SVG source code personally authored with geometric glyphs and text. No generative raster model called.",
+  "authorDecisionSHA256": "58332e1499e0ebf84554a73df7baf503baa6df12a024e06eb1a576de7acdff49",
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+    "pageSHA256": "1c0d8edf45cbf64d8ece17af8677b7c57109b5693c4f00501c658479813ab83c",
+    "targetSection": "## Worked example and practice",
+    "learnerTask": "Compare 20% of 2000 versus 40% of 500 and retain whole-regimen context",
+    "gap": "Preparation flow lacks the changing denominator and absolute count",
+    "accuracyGuardrails": "Fictional per-volume counts; not empty physical slots; whole regimen attribution; depletion not tumor killing",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "selectedOwnerCurrentSHA256": "1c0d8edf45cbf64d8ece17af8677b7c57109b5693c4f00501c658479813ab83c",
+  "selectedOwnerProspectiveSHA256": "82ce10f591939081e222fea642eb81f0b1aa9c07d7484f8120e130e6e8f62dc2",
+  "sharedReferenceCurrentSHA256": "3618a9a259dbafe0284545f001eb2e06b313800d171cca0bf4f664e9f8639840",
+  "retainedCreator": "UNKNOWN unless literal original support proves otherwise; no creator reassignment",
+  "creationBrief": "I inspected both retained living-drug SVG themes and current public owner/reference text. Its common-scale concentration bars teach 20% of 100 and 10% of 200 giving equal receptor-positive concentration. I reuse that denominator grammar, with explicit per-volume units, rather than replacing this task with the different numerical example. This exact owner needs 20% of 2000 equals 400 versus 40% of 500 equals 200 lymphocytes per microliter. I choose a narrow concept-owner comparison with common zero/scale and an unchanged whole-regimen attribution boundary, avoiding empty slots or depletion-as-tumor-killing. No shared-owner or old-native/support writes.",
+  "actualScript": "author-art.py in private author workspace",
+  "themes": "paired semantic palette; identical geometry and wording",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "delivery": "pending",
+  "publication": "pending",
+  "sourceAccess": [
+    {
+      "ids": [
+        304
+      ],
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "type": "official NCI teaching source",
+      "actualDepth": "Fresh readable preparation/transfer and harms context. Counts and exact percentage products are fictional arithmetic from current owner; no protocol dose/timing retained."
+    }
+  ],
+  "actualClaimScope": "Only public primary or official source material relevant to added geometry/captions. Existing clinical examples in original Markdown are preserved, not independently recertified. No private case/vendor/meeting bodies or historical page bodies read or hashed."
+}

@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-299",
+  "owner": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_molecular_jobs_author",
+  "reviewer": "agent:/root/batch13_molecular_jobs_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:31:21.596142Z",
+  "currentOwnerSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; frozen/current baseline owner hashes separately bound. No canonical adoption/delivery is asserted.",
+  "intendedPublicPath": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/peer-reviews/next-gap-299-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+      "sha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c",
+      "bytes": 5492,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1270
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+      "sha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92",
+      "bytes": 5492,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1270
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "844b2c41f23bbfe2ef9446fe155f22a57a57dc12807a5d70f3f0b5a85f90d3c1",
+    "learnerTask": "See antigen cargo versus innate-support inputs reaching presenting cells",
+    "gap": "Converging flow does not show distinct cargo and sensor interactions",
+    "accuracyGuardrails": "Not one universal adjuvant pathway; delivery and priming separate; inflammation not efficacy; package attribution",
+    "currentVisualFit": "adequate",
+    "reasoning": "Accept the upstream input comparison. The retained three-signal encounter supplies the later presenting-cell/T-cell context. The new scene separates antigen acquisition from an example innate support contact and links to that canonical encounter; it explicitly rejects a universal adjuvant pathway and equating inflammation, priming or delivery with tumor control.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+    "pageSHA256": "844b2c41f23bbfe2ef9446fe155f22a57a57dc12807a5d70f3f0b5a85f90d3c1",
+    "targetSection": "## How it works",
+    "learnerTask": "See antigen cargo versus innate-support inputs reaching presenting cells",
+    "gap": "Converging flow does not show distinct cargo and sensor interactions",
+    "accuracyGuardrails": "Not one universal adjuvant pathway; delivery and priming separate; inflammation not efficacy; package attribution",
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "d5fcb499f6699dd3d6249360c6190d4f07b4392918895b9763a1282d6cac176e",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/360",
+    "oneBasedRow": 361,
+    "originalTaskRowSHA256": "897466c2ed819dcae0d1fdb0b185df304db252d10178e7382be291bbec616702",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+  "sourceBinding": {
+    "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "baselineOwnerSHA256": "844b2c41f23bbfe2ef9446fe155f22a57a57dc12807a5d70f3f0b5a85f90d3c1",
+    "baselineSharedOwnerSHA256": "66d9467b56367c2ac5085b35b9556fa7ccf7d5f9f9c04993f5a89a029bcdc953",
+    "independentObservedHEAD": "8eee2a56a7e55e274339f2b922af95d5296cf8d5",
+    "exactSelectedOwnerSharedPreimagesAtIndependentCheck": true,
+    "futureActualExecutionSourceCommit": null,
+    "laterTeacherRebind": "Stop and rebind if any selected source bytes change before actual execution."
+  },
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "pageSHA256": "844b2c41f23bbfe2ef9446fe155f22a57a57dc12807a5d70f3f0b5a85f90d3c1",
+      "targetSection": "## How it works",
+      "learnerTask": "See antigen cargo versus innate-support inputs reaching presenting cells",
+      "gap": "Converging flow does not show distinct cargo and sensor interactions",
+      "accuracyGuardrails": "Not one universal adjuvant pathway; delivery and priming separate; inflammation not efficacy; package attribution",
+      "sharedCanonicalOwner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+      "recommendedMedium": "cartoon",
+      "priority": "P2"
+    },
+    "reuseRationale": "The exact shared priming scene teaches recognition, costimulation and cytokine context at the later presenting-cell/T-cell encounter. It does not locate antigen material versus separate innate-support input reaching a presenting cell. Reuse that encounter through a contextual link; add only an upstream conceptual two-input view, with non-universal sensor and outcome qualifications and no formulation, stimulation recipe or delivery instructions. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-299",
+    "owner": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "reviewer": "agent:/root/batch13_molecular_jobs_review",
+    "decisionSHA256": "79d07f009f94915d745255a28f128977c7ff0443f21933efe59361dfda4c2b94",
+    "decisionFileSHA256": "4d012bcf6c11fd3ab56e8c008122def58755f6d14b200428d62dbb99d3dd2d9b",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the upstream input comparison. The retained three-signal encounter supplies the later presenting-cell/T-cell context. The new scene separates antigen acquisition from an example innate support contact and links to that canonical encounter; it explicitly rejects a universal adjuvant pathway and equating inflammation, priming or delivery with tumor control.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+    "reviewedAt": "2026-10-14T21:31:21.596142Z",
+    "implementationGate": "Actual independent author-decision acceptance only; Root must adopt the actual future full task plan and execution bindings. No future baseline, validator run or release is claimed."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17569868%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "The vaccine adjuvant monophosphoryl lipid A as a TRIF-biased agonist of TLR4.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    },
+    {
+      "url": "https://www.cdc.gov/vaccine-safety/about/adjuvants.html",
+      "actualReadDepth": "Fresh official key-points, overview and formulation-specific evaluation paragraphs; ingredient table, composition and protocol details are outside review scope."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both selected native variants and all relevant retained shared native variants, plus fresh final current-owner article and theater at390px and1440px in both themes.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 source files independently compared against exact pinned Git blobs. Final served JSON matches the exact compiled current candidate records.",
+    "findings": "Task relation, labels, arrows/compartments/contacts, caption and alt agree. No selected native text-bound overflow, document horizontal overflow or page error in28states. Enter opens/Escape closes.",
+    "scope": "Private article/ImageTheater fixture only; no full-app, production, authentication/navigation or general accessibility certification.",
+    "limits": [
+      "Retained route-raster secondary labels and BET secondary domain labels are small at346px inline; main task contrast, surrounding caption/practice, theater and full-resolution download carry the distinction.",
+      "Escape returned focus to BODY;8-Tab cycles left the dialog in all4supplemental theme/width checks. These known viewer limitations remain, with no runtime edit.",
+      "Existing tables scroll locally and existing Mermaid size is unchanged."
+    ],
+    "inspectionTiming": "Reviewer inspected after final author drafts. This review does not claim author pre-art embedded QA. Author pre-art native/reuse decision timestamps remain literal, not retroactively recreated."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch13_molecular_jobs_author",
+    "creationMethod": "Original source-code SVG by the actual author; no image-model invocation",
+    "imageModelInvocationByCurrentAuthor": false,
+    "attributionLimit": "Existing literal provenance/support bytes remain exact. Direct-reuse creative identity remains UNKNOWN where retained records do not establish it; scientific author, reviewer and integrator identities do not imply original creative authorship."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+        "sha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92",
+        "bytes": 5492
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+        "sha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c",
+        "bytes": 5492
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1-provenance.json",
+        "sha256": "c61cd5ffd8d47eca7e0e20e2e208dc8bb60876df280d9eb3bcc1918cbeaf72f6",
+        "bytes": 2494
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1.txt",
+        "sha256": "4aac97afca3ea4c6b86366adc8eeeca46331bf96163d266c1ea0b7ce6a406519",
+        "bytes": 631
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+        "sha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+        "bytes": 9355
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-dark.svg",
+        "sha256": "2ad2eb8cff2e79376af2536b48795c8668a6b1a33d615dd6f80932869c98ddca",
+        "bytes": 6056
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+        "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f",
+        "bytes": 6056
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/priming-contact-context-and-distinct-outcomes-v1-independent-owner-review.json",
+        "sha256": "464c786568e940f58be3577d454ff0a64dec5ebfa4274880b9e0b0d13870d681",
+        "bytes": 8619
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/priming-contact-context-and-distinct-outcomes-v1-provenance.json",
+        "sha256": "454fdbf48aa64ba52a972398407f0a3a6609458f2012dfb80768c8a21ab92580",
+        "bytes": 2657
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/images/prompts/priming-contact-context-and-distinct-outcomes-v1.txt",
+        "sha256": "43dd5b924fe671a423544d32d529029321a97eeb1a07243dc674025e73d8d9a3",
+        "bytes": 2470
+      },
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+        "sha256": "66d9467b56367c2ac5085b35b9556fa7ccf7d5f9f9c04993f5a89a029bcdc953",
+        "bytes": 8828
+      }
+    ],
+    "originalAuthorSealSHA256": "e0f3734f8da2ab025aef872430b5c2bf49939c79e4b16f80d6407fbff9ecc4fe",
+    "originalAuthorManifestSHA256": "189800cf5265ab15ddef13d9b60c8d7092a0635817c5cdeef31bbd890100a878",
+    "originalAuthorCustodyZipSHA256": "f48981882d1bae6c9d104b0a0644741f2431199e0de3d325526ca212fbf1e92a",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded insertion/native/current-owner task fit with actual stated source depths; no human domain-expert approval.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

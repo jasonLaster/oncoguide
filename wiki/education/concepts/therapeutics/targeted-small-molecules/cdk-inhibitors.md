@@ -29,6 +29,15 @@ A workshop has both a timetable for moving work between stations and a team that
 
 ## How it works
 
+<div class="cartoon-frame">
+<img src="./images/cdk-cell-cycle-versus-rna-jobs-b13-v1-light.svg" width="760" height="1310" alt="Two selected-job tracks locate CDK4/6 and CDK2 around G1 and DNA copying, separately from CDK7 near transcription initiation and CDK9 during elongation along a gene. A cross-role note states that CDK7 also activates other CDKs; arrest, death, marrow protection and tumor control remain separate." data-theme-pair>
+<p class="cartoon-caption">The family name does not identify the job. This selected-role map separates preparation for DNA copying from initiation and continuation of RNA production; CDK7 has roles across those categories. RB protein presence does not establish an intact arrest circuit. A fictional pause followed by regrowth supports arrest, while death and clinical endpoints need separate evidence.</p>
+</div>
+
+The [shared concept map](/wiki/education/concepts/biology-basics/cells/cell-cycle) supplies the background for this closer comparison.
+
+The transcription comparison also draws on [primary work on the initiation-to-elongation handoff](https://pubmed.ncbi.nlm.nih.gov/23064645/) and the [NCI CDK9 entry](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cdk9-inhibitor-gfh009).
+
 A [kinase](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) transfers phosphate groups to other molecules. **Cyclins** are protein partners that help regulate particular CDKs. These partnerships influence the [cell cycle](/wiki/education/concepts/biology-basics/cells/cell-cycle) and RNA production. DNA means deoxyribonucleic acid; RNA means ribonucleic acid, as explained in the [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma).
 
 | Group | A central role | Mechanism boundary |

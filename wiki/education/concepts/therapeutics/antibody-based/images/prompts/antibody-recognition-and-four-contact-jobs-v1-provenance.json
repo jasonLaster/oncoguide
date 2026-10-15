@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch13_molecular_jobs_author",
+  "method": "Original source-code SVG; no image model invocation",
+  "modelsCalled": [],
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+    "pageSHA256": "fc8f5d50a0cdc32bfd341503ef0a788e68c428a41a2011dabe072290582b4a3f",
+    "targetSection": "## How it works",
+    "learnerTask": "Compare a common recognition grip with blocking, effector recruitment, cargo and cell bridging",
+    "gap": "Table describes four jobs without showing their different contacts and actions",
+    "accuracyGuardrails": "Binding does not imply downstream action; variants exist; shared target does not imply equivalent product",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "sharedCanonicalOwnerUnchanged": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+  "decisionSHA256": "a9e4e3b10dfb4da11078eddb7cbbe79a51ed1312419e361ca78ef3537fe8a84d",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "allAdoptionDeliveryGradeCoverageCredits": 0,
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-light.svg",
+      "theme": "light",
+      "sha256": "bb840c0cddeb7e7fd1de01410a7924e8bcb4cb06be3ab2b4659106f3fc3e3896"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "0afe3a1e6d023aa401b5e85d99ad5832b5f7830da38b6978c217eec6f07a30c4"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies",
+      "actualReadDepth": "Complete mechanism section paragraphs at lines22\u201332; official article text, no source figure traced/copied",
+      "supports": "Defined recognition, immune recruitment and two-cell engagement; no target exclusivity or clinical ranking",
+      "readUTCDate": "2026-10-14"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "actualReadDepth": "Official types section lines25\u201330 and mechanism list lines49\u201359",
+      "supports": "Inside small-molecule targets, antibody recognition, distinct signaling interruption, immune recruitment and payload actions. Simplified claim of target-negative cells spared in official text was not imported.",
+      "readUTCDate": "2026-10-14"
+    }
+  ]
+}

@@ -29,6 +29,14 @@ Think of concentrating a treatment into a tightly planned volume. That concentra
 
 ## How it works
 
+### Keep motion, falloff and the neighbor in view
+
+<img src="./images/sbrt-motion-falloff-neighbor-v1-light.svg" alt="An unscaled fictional body cross-section shows two positions of the same target with a motion arrow, a qualitative dose gradient fading around it and a separate nearby organ; the drawing supplies no prescription, tolerance or safe-distance threshold." data-theme-pair width="600" height="1080">
+
+*The solid and dashed target are two possible positions of one lesion. Fading color represents dose changing with location; its boundaries do not establish zero normal-tissue exposure. The neighboring organ needs its own assessment. This fictional geometry is not a patient scan, dose calculation or planning instruction. [NCI: external-beam radiation and SBRT](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam).*
+
+**Look again:** If a nearby organ lies outside the inner colored region, has its safety been established? **Answer:** No. Position, motion, actual dose distribution and that organ's limits still matter. The unscaled drawing supplies none of those measurements.
+
 Stereotactic body radiation therapy (SBRT) is a form of [external-beam radiation](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics). “Stereotactic” refers to locating the target in three-dimensional space and reproducing the treatment geometry. The related name **stereotactic ablative radiotherapy (SABR)** emphasizes the intended destructive dose. Neither name means a probe is inserted or tissue is removed.
 
 Planning defines the target and nearby organs, models the dose, and accounts for uncertainty. During treatment, immobilization and imaging help reproduce the planned position. For moving targets, such as a lesion affected by breathing, motion assessment and a chosen management method are important parts of the plan. A small positioning error can matter when the dose changes rapidly near a critical structure.

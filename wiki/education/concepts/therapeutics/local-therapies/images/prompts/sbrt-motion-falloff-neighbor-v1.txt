@@ -1,0 +1,10 @@
+Original source-code SVG construction brief — next-gap-292
+Actual source-code author: /root/batch13_tissue_reach_author
+No image-model invocation, model, or call identifier. Both native SVGs are editable source code.
+Frozen learner task: See moving target, dose falloff and organ at risk during positioning
+Current source: 8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f; current owner SHA256: a361e449cd065f044a647afd38c1c8833cc2104e0433a7e694e724c8314a6f3b
+Typed decision SHA256: 81b0fd83ef2fd6ef082a0b1bc8a52e6ec91944eef42bbcb8e182b8b7ba71f475
+Design relation: Extend only this SBRT owner: shared external-radiation art shows beam, target and exposed normal tissue but lacks target motion and nearby organ together with conceptual falloff. Create one nonnumeric cross-section with two possible target positions, qualitative dose bands and a nearby organ requiring its own assessment. No patient geometry, dose, tolerance, safe distance or planning recipe; shared owner/native remain unchanged.
+600 x1080 portrait, paired semantic geometry and palettes. Essential typography25px, supporting labels23px, headings32px. Original geometry, no copied source artwork. Broad conceptual anatomy; fictional shapes/counts/geometry.
+Accuracy: "Illustrative geometry not safe distance; precision not zero toxicity; local outcome distinct from distant"
+Human clinician/domain expert and learner review pending; no canonical adoption, coverage, source-fit, grade, delivery or publication credit.

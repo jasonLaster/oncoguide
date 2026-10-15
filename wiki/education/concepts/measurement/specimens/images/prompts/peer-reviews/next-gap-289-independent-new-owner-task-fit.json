@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-289",
+  "owner": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_tissue_reach_author",
+  "authorRole": "Source-code author for two new SVG pairs; three current-owner insertions; reuse assessor for retained art",
+  "reviewer": "agent:/root/batch13_tissue_reach_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:32:02.242543Z",
+  "currentOwnerSha256": "038eb07a8ab641fdd87eb5444fa0e825d025eabccaf1f690f44284f2c1c167a4",
+  "currentOwnerFieldMeaning": "Exact prospective final candidate bytes; actual source preimage is separately bound. No canonical adoption or delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/measurement/specimens/images/prompts/peer-reviews/next-gap-289-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+      "sha256": "9f45ee1bf67b5c68d23cb683b41974435ccc1e987d1616c9ca25732289fb94b4",
+      "bytes": 12313,
+      "theme": "dark",
+      "nativeDimensions": [
+        780.0,
+        1750.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+      "sha256": "d0a918a7c57c62e62a71353338d8334a8738541b6b0859b9edd4487767a66289",
+      "bytes": 12315,
+      "theme": "light",
+      "nativeDimensions": [
+        780.0,
+        1750.0
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "bc1de4ad32ee782a58812e004c47642396f8ee63cda671331f6aa54f8b72326b",
+    "learnerTask": "Compare recovered cells with preserved local architecture",
+    "gap": "Current preparation branching lacks a physical sampling contrast",
+    "accuracyGuardrails": "Separate recovered cells/fluid/fragments from preserved oriented architecture. Do not depict all FNA material as dispersed single cells or infer complete lesion representation/clearance.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The retained two-panel comparison shows continuous local neighbors in a core versus recovered cells, fluid, a cluster and a small tissue fragment. The optional suitable-cell-block branch retains local useful material without restoring the original map. This directly meets the sampling/architecture contrast rather than reducing every aspirate to isolated cells. Official collection descriptions and the Chen retrospective breast-cohort abstract support the limited distinction and possible additional cell-block studies; no accuracy percentage or universal suitability is inferred. The current owner preserves the prospective/not-adopted comments and exact original art/support custody.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+    "pageSHA256": "bc1de4ad32ee782a58812e004c47642396f8ee63cda671331f6aa54f8b72326b",
+    "targetSection": "How it works",
+    "learnerTask": "Compare recovered cells with preserved local architecture",
+    "gap": "Current preparation branching lacks a physical sampling contrast",
+    "accuracyGuardrails": "Separate recovered cells/fluid/fragments from preserved oriented architecture. Do not depict all FNA material as dispersed single cells or infer complete lesion representation/clearance.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "615e1f6556c0c2d9daad393e504767d73192426ce3a88ac9d1d74a608a22200a",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/313",
+    "oneBasedRow": 314,
+    "originalTaskRowSHA256": "b0e4169c49641c5e1d0bd7950e57d3ac07c4bff3defa27d73f418b991abd44e3",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "/root/batch13_tissue_reach_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+      "pageSHA256": "bc1de4ad32ee782a58812e004c47642396f8ee63cda671331f6aa54f8b72326b",
+      "targetSection": "How it works",
+      "learnerTask": "Compare recovered cells with preserved local architecture",
+      "gap": "Current preparation branching lacks a physical sampling contrast",
+      "accuracyGuardrails": "Separate recovered cells/fluid/fragments from preserved oriented architecture. Do not depict all FNA material as dispersed single cells or infer complete lesion representation/clearance.",
+      "sharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "Reuse the current core-versus-recovered-material-v2 pair unchanged. It contrasts continuous local architecture with fluid, cells, clusters, fragments and optional cell block without recreating the full lesion map. Shared core local-window art remains the sampling reference. Retain pending/not-adopted markers, creator uncertainty and all support bytes. No redundant new art or shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-289",
+    "owner": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+    "author": "agent:/root/batch13_tissue_reach_author",
+    "actualDecisionAuthorLiteral": "/root/batch13_tissue_reach_author",
+    "reviewer": "agent:/root/batch13_tissue_reach_review",
+    "decisionSHA256": "d00acbfe7a6337bb31a57dd25c71d1ee955acbc058e396e66de69b7483743a35",
+    "decisionFileSHA256": "5848e3d3f2b0fa8a6b40b64640021c2c095f247db15d565c7d93c36a55acc112",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept direct reuse of the current recovered-material comparison. It already supplies the missing physical contrast, explicitly including fluid, clusters, fragments and a conditional cell block rather than only single cells. Keep shared core-window reference, all historical custody and prospective markers unchanged.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+    "reviewedAt": "2026-10-14T21:32:02.242543Z",
+    "implementationGate": "Root must bind this exact genuine decision/acceptance into the actual maintained planning contract and execution baseline; this peer acceptance is not canonical adoption or code approval."
+  },
+  "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "actualAuthorOwnerPreimageSHA256": "038eb07a8ab641fdd87eb5444fa0e825d025eabccaf1f690f44284f2c1c167a4",
+  "sourceChecks": [
+    {
+      "key": "acr-rsna",
+      "url": "https://www.radiologyinfo.org/en/info/breastbius",
+      "depth": "Fresh official society page; collection-type distinctions, recovered-material paragraph, concordance and sampling-limit sections personally read. Procedural instructions not copied.",
+      "scope": "Recovered fluid/cells/clusters versus local tissue pieces; sampling can miss or underestimate extent."
+    },
+    {
+      "key": "chen",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35869577/",
+      "depth": "Fresh direct PubMed open returned record, but later focused find returned one-line unavailable body. Complete indexed primary abstract subsequently personally read through PubMed search. Full paper not read.",
+      "scope": "Defined retrospective breast cohort with limited cell-block receptor studies, without transferring its performance estimates."
+    },
+    {
+      "key": "nci-pathology",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "depth": "Fresh official page; acquisition, tissue examination, gross and microscopic/margins passages personally read. Not all linked sources read.",
+      "scope": "Removed material provides represented architecture and boundary evidence; no complete-body clearance claim."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both themes of final task-native pairs, retained shared reference variants, and fresh390/1440px current-owner article plus theater.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named source files independently matched to pinned Git blobs before review captures.",
+    "scope": "Private pinned article/ImageTheater fixture; external installed dependencies, no full-app or production certification.",
+    "findings": "Correct current theme and theater source in all32 cases; no document horizontal overflow. Task geometry, labels, captions and alt text agree. Enter opens and Escape closes.",
+    "limits": [
+      "Escape returns focus to BODY and Tab leaves dialog in32/32 observed cases. No focus trap or full-app accessibility approval.",
+      "DCIS secondary layer labels are dense at346px article width. Primary inside/outside spatial contrast and main labels plus readable owner caption meet task288; comfortable reading of every fine label is not claimed.",
+      "Tall FNA/VAB originals fit theater height and appear narrower on wide viewports; article scrolling provides the larger complete teaching view."
+    ],
+    "denseDCISAdjudication": null
+  },
+  "creationProvenance": {
+    "creativeAuthor": "UNKNOWN as newly independently established creative person/model identity; retained literal provenance is separate",
+    "sourceCodeAuthor": null,
+    "creationMethod": "Exact retained native reuse; no new artwork or image-model invocation in this task",
+    "imageModelCallsThisTask": 0,
+    "retainedLiteralAttribution": [],
+    "unverifiedHistoricalFields": "UNKNOWN unless retained literal provenance establishes a specific claim; this reviewer does not re-verify old dispatch or model invocation.",
+    "prospectiveMarkersPreserved": true
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+        "sha256": "038eb07a8ab641fdd87eb5444fa0e825d025eabccaf1f690f44284f2c1c167a4",
+        "bytes": 8163
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+        "sha256": "9f45ee1bf67b5c68d23cb683b41974435ccc1e987d1616c9ca25732289fb94b4",
+        "bytes": 12313
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+        "sha256": "d0a918a7c57c62e62a71353338d8334a8738541b6b0859b9edd4487767a66289",
+        "bytes": 12315
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+        "sha256": "86c15a065655c90d3738108367bf6d6ad5b28b90e9dcd3ad4a9af36cafed47af",
+        "bytes": 8751
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/core-versus-recovered-material-v2-public-custody.json",
+        "sha256": "4b838e1de86f83d939380585ac4a8aea97afd6f44e4d1cfa961cabcdf3325504",
+        "bytes": 12398
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "sha256": "b66c0712a26a5470ad06d0484f592e8336d52cb574069751265a2d52e9cda22e",
+        "bytes": 8538
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "sha256": "2c29af9b51c4717f01fbc6ce49725c4e7bc4098b951ff6cd37acaa99b713015f",
+        "bytes": 8540
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/core-is-a-local-window-v1-public-custody.json",
+        "sha256": "b5d42c6cecaf7303cc9ce497cb45b87cf8477de06708fec33a94b0763e7ef3e5",
+        "bytes": 10836
+      }
+    ],
+    "scope": "Exact candidate, selected native outputs, new support where applicable, and bounded shared/current native/support guards.",
+    "originalAuthorSealSHA256": "2d2fbd29624e3666faf668d6193953444d7c345ade067329be0819e31f951563",
+    "originalAuthorManifestSHA256": "6f3cad116d3f12035885a0b5baa82ca531b14783af854bdcc89529764f286c26",
+    "inverseInsertionExact": true,
+    "retainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "One actual independent agent review of the selected visual, insertion and owner-task fit using recorded source access; not human clinical expertise or full unchanged-page recertification.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "actualFutureExecutionSourceCommit": null,
+  "rootSoleIntegratorAndPublisher": true
+}

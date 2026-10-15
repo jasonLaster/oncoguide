@@ -1,0 +1,4 @@
+Original conceptual source-code SVG authored by agent:/root/batch13_molecular_jobs_author. No image model call.
+Learning task: Separate sequence choice, building-block chemistry and unwanted byproducts as independent design/quality axes.
+Guardrails: Separate sequence, nucleoside chemistry and byproduct quality axes. Do not imply a universal immune-silencing or expression benefit from a chemical modification; any chemical structure requires source review.
+Broad category mechanism only. No sequence, chemical recipe, vector engineering, construct, protocol, dose, manufacturing conditions or optimization instructions. Geometry and labels identical in both themes; colors change semantic roles only. Friendly rounded compartment cartoons; large legible labels.

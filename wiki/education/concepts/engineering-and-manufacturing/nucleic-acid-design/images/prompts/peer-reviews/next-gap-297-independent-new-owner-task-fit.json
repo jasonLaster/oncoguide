@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-297",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_molecular_jobs_author",
+  "reviewer": "agent:/root/batch13_molecular_jobs_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:31:21.596142Z",
+  "currentOwnerSha256": "64ced29e02ecad52e1b2f44b80875f9e28a79c518d6f7ac6d0b44b40fc2bea9b",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; frozen/current baseline owner hashes separately bound. No canonical adoption/delivery is asserted.",
+  "intendedPublicPath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/peer-reviews/next-gap-297-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+      "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622",
+      "bytes": 4800,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1270
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+      "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6",
+      "bytes": 4800,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1270
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "2db3920afdfda38eae57e848418eb9f9761198b2288d59fd6259773c724a6410",
+    "learnerTask": "Separate sequence choice, building-block chemistry and unwanted byproducts as independent design/quality axes.",
+    "gap": "The chemistry-to-interaction flow does not contrast what is changed versus retained.",
+    "accuracyGuardrails": "Separate sequence, nucleoside chemistry and byproduct quality axes. Do not imply a universal immune-silencing or expression benefit from a chemical modification; any chemical structure requires source review.",
+    "currentVisualFit": "adequate",
+    "reasoning": "Accept the category-only extension. The retained synonymous-coding comparison addresses intended protein and RNA sequence; it cannot show chemistry and unwanted material as independent axes. Three distinct cards add precisely those axes and separate evidence questions without chemical structures, modification choices, sequences, purification methods or optimization instructions.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "pageSHA256": "2db3920afdfda38eae57e848418eb9f9761198b2288d59fd6259773c724a6410",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate sequence choice, building-block chemistry and unwanted byproducts as independent design/quality axes.",
+    "gap": "The chemistry-to-interaction flow does not contrast what is changed versus retained.",
+    "accuracyGuardrails": "Separate sequence, nucleoside chemistry and byproduct quality axes. Do not imply a universal immune-silencing or expression benefit from a chemical modification; any chemical structure requires source review.",
+    "sharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "recommendedMedium": "diagram",
+    "priority": "P3"
+  },
+  "frozenTaskIdentitySHA256": "5bf5465bca442eb6b86bcb5af29eb00f82979a9713d5b68c5693f258021c6f9f",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/155",
+    "oneBasedRow": 156,
+    "originalTaskRowSHA256": "999508a76195f7c5ef3902fc0f23e519734e1c22df6ced36a3cc660a5eef013c",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+  "sourceBinding": {
+    "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "baselineOwnerSHA256": "2db3920afdfda38eae57e848418eb9f9761198b2288d59fd6259773c724a6410",
+    "baselineSharedOwnerSHA256": "674fbb183a5dd728d16247730ba8337d485b7b319e5c6fc8535abc904bbd1b53",
+    "independentObservedHEAD": "8eee2a56a7e55e274339f2b922af95d5296cf8d5",
+    "exactSelectedOwnerSharedPreimagesAtIndependentCheck": true,
+    "futureActualExecutionSourceCommit": null,
+    "laterTeacherRebind": "Stop and rebind if any selected source bytes change before actual execution."
+  },
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "pageSHA256": "2db3920afdfda38eae57e848418eb9f9761198b2288d59fd6259773c724a6410",
+      "targetSection": "## How it works",
+      "learnerTask": "Separate sequence choice, building-block chemistry and unwanted byproducts as independent design/quality axes.",
+      "gap": "The chemistry-to-interaction flow does not contrast what is changed versus retained.",
+      "accuracyGuardrails": "Separate sequence, nucleoside chemistry and byproduct quality axes. Do not imply a universal immune-silencing or expression benefit from a chemical modification; any chemical structure requires source review.",
+      "sharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+      "recommendedMedium": "diagram",
+      "priority": "P3"
+    },
+    "reuseRationale": "The exact codon scene distinguishes synonymous letter sequences from intended protein; it cannot distinguish sequence, building-block chemistry and unwanted material as separate axes. Retain its conceptual role through a contextual link. Add a category-only three-axis scene with no sequences, chemical structures, modification choices, purification methods or optimization instruction. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-297",
+    "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "reviewer": "agent:/root/batch13_molecular_jobs_review",
+    "decisionSHA256": "c3f6c02f3f92c1305f8f3061f9e41d996160ad76d74d075aa9162711f3f95f0e",
+    "decisionFileSHA256": "8fc3ad64848f2e4910a00587a93bec63900c4a565d0b4ac57819c7a6054e7f4a",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the category-only extension. The retained synonymous-coding comparison addresses intended protein and RNA sequence; it cannot show chemistry and unwanted material as independent axes. Three distinct cards add precisely those axes and separate evidence questions without chemical structures, modification choices, sequences, purification methods or optimization instructions.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "reviewedAt": "2026-10-14T21:31:21.596142Z",
+    "implementationGate": "Actual independent author-decision acceptance only; Root must adopt the actual future full task plan and execution bindings. No future baseline, validator run or release is claimed."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16111635%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21890902%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both selected native variants and all relevant retained shared native variants, plus fresh final current-owner article and theater at390px and1440px in both themes.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 source files independently compared against exact pinned Git blobs. Final served JSON matches the exact compiled current candidate records.",
+    "findings": "Task relation, labels, arrows/compartments/contacts, caption and alt agree. No selected native text-bound overflow, document horizontal overflow or page error in28states. Enter opens/Escape closes.",
+    "scope": "Private article/ImageTheater fixture only; no full-app, production, authentication/navigation or general accessibility certification.",
+    "limits": [
+      "Retained route-raster secondary labels and BET secondary domain labels are small at346px inline; main task contrast, surrounding caption/practice, theater and full-resolution download carry the distinction.",
+      "Escape returned focus to BODY;8-Tab cycles left the dialog in all4supplemental theme/width checks. These known viewer limitations remain, with no runtime edit.",
+      "Existing tables scroll locally and existing Mermaid size is unchanged."
+    ],
+    "inspectionTiming": "Reviewer inspected after final author drafts. This review does not claim author pre-art embedded QA. Author pre-art native/reuse decision timestamps remain literal, not retroactively recreated."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch13_molecular_jobs_author",
+    "creationMethod": "Original source-code SVG by the actual author; no image-model invocation",
+    "imageModelInvocationByCurrentAuthor": false,
+    "attributionLimit": "Existing literal provenance/support bytes remain exact. Direct-reuse creative identity remains UNKNOWN where retained records do not establish it; scientific author, reviewer and integrator identities do not imply original creative authorship."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1-provenance.json",
+        "sha256": "8dcf8f37679e9457849c6dcadfc629103beae3ea1eae04034449054f34e148c5",
+        "bytes": 2787
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1.txt",
+        "sha256": "a7ad2914bc9c903c24d2e9c7e3689db1fe2e230a9d178334d639bcf2bfb46234",
+        "bytes": 764
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+        "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6",
+        "bytes": 4800
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+        "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622",
+        "bytes": 4800
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+        "sha256": "64ced29e02ecad52e1b2f44b80875f9e28a79c518d6f7ac6d0b44b40fc2bea9b",
+        "bytes": 9319
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-dark.svg",
+        "sha256": "9d6f2fc3a1e6e4d299bd2c91d924f074337fb42bdfa9d069dcd6cd5212bede90",
+        "bytes": 3731
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-light.svg",
+        "sha256": "fad6db3b3597fe2834c4707f59fa879fbb918bfc980aa5db03faf7bbca54ab91",
+        "bytes": 3731
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/same-protein-distinct-rna-v1-provenance.json",
+        "sha256": "e1b1848e2326f12991f61e0b70ae637a1f2f72e6849301b258bf7010773014d9",
+        "bytes": 5215
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/same-protein-distinct-rna-v1.txt",
+        "sha256": "1c146173d7ee55c5af1177896826038e7efecdf1480b61e7503c888c1d67ff85",
+        "bytes": 1394
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+        "sha256": "674fbb183a5dd728d16247730ba8337d485b7b319e5c6fc8535abc904bbd1b53",
+        "bytes": 7718
+      }
+    ],
+    "originalAuthorSealSHA256": "e0f3734f8da2ab025aef872430b5c2bf49939c79e4b16f80d6407fbff9ecc4fe",
+    "originalAuthorManifestSHA256": "189800cf5265ab15ddef13d9b60c8d7092a0635817c5cdeef31bbd890100a878",
+    "originalAuthorCustodyZipSHA256": "f48981882d1bae6c9d104b0a0644741f2431199e0de3d325526ca212fbf1e92a",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded insertion/native/current-owner task fit with actual stated source depths; no human domain-expert approval.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

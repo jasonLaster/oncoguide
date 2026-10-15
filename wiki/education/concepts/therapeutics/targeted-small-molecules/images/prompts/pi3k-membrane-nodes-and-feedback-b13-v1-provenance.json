@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-303",
+  "actualSourceCodeAuthor": "/root/batch13_evidence_reading_author",
+  "creativeMethod": "Original SVG source code personally authored with geometric glyphs and text. No generative raster model called.",
+  "authorDecisionSHA256": "d17cb32225b65685c9c441651e35e2263830c823cdea529e68c4682ad0b45669",
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+    "pageSHA256": "526976ecc877bb2fe4322d735853bb3c06b6651663beda0f56b8827a89d41613",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate membrane lipid signaling and downstream kinase nodes with feedback",
+    "gap": "Table and wire analogy omit membrane location and compensatory loop",
+    "accuracyGuardrails": "phosphosite not universal activity; adjacent drugs not interchangeable; no variant-to-benefit promise",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "selectedOwnerCurrentSHA256": "526976ecc877bb2fe4322d735853bb3c06b6651663beda0f56b8827a89d41613",
+  "selectedOwnerProspectiveSHA256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+  "sharedReferenceCurrentSHA256": "532a1698de2290272f6e30bffca3f793735ff4e0455bbf5b8393ee5e620d4e23",
+  "retainedCreator": "UNKNOWN unless literal original support proves otherwise; no creator reassignment",
+  "creationBrief": "I inspected both retained PI3K network SVG themes and current public owner/reference text. The old art supplies membrane lipid conversion, recruited AKT, two mTOR complexes and a fictional readout inset. I retain it unchanged and reuse that linked molecular map as the detail reference. Its actual geometry has no returning inhibitory feedback loop and no visibly separate inhibitor nodes. I choose a narrow concept-owner overview that locates membrane PIP2/PIP3 conversion and AKT below it, names distinct inhibited nodes, and draws an indirect feedback brake returning from mTORC1 output to upstream input. A separate fictional observation cannot prove this wiring, universal activity, dependence or clinical benefit. No shared-owner or old-native/support writes.",
+  "actualScript": "author-art.py in private author workspace",
+  "themes": "paired semantic palette; identical geometry and wording",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "delivery": "pending",
+  "publication": "pending",
+  "sourceAccess": [
+    {
+      "ids": [
+        303
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16452206/",
+      "type": "primary experimental and pharmacodynamic paper",
+      "actualDepth": "Fresh indexed primary abstract through web search; selected PMC indexed Discussion excerpt identifying indirect upstream feedback through receptor-associated signaling. Not a full-paper read.",
+      "failedAccess": "Direct PubMed open returned only HHS footer; PMC direct access challenged with checking-browser page. Indexed primary abstract and excerpts remained available."
+    },
+    {
+      "ids": [
+        303
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/",
+      "type": "primary paper mirror",
+      "actualDepth": "Indexed Discussion excerpt only; no claim of complete article access",
+      "failedAccess": "Repeated direct access challenged. Do not treat the challenge as a paper read."
+    }
+  ],
+  "actualClaimScope": "Only public primary or official source material relevant to added geometry/captions. Existing clinical examples in original Markdown are preserved, not independently recertified. No private case/vendor/meeting bodies or historical page bodies read or hashed."
+}

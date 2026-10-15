@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-301",
+  "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_molecular_jobs_author",
+  "reviewer": "agent:/root/batch13_molecular_jobs_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:31:21.596142Z",
+  "currentOwnerSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; frozen/current baseline owner hashes separately bound. No canonical adoption/delivery is asserted.",
+  "intendedPublicPath": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/peer-reviews/next-gap-301-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+      "sha256": "8ba8ccf391d6b0bcc7b37c76de152bb68f7e77b69ba5c3848e25c9d78877b095",
+      "bytes": 7615,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1500
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+      "sha256": "2cc8355e584073136d198976d4831f18d455f21496bb1e2855055e2527778c72",
+      "bytes": 7615,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1500
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "c98249f1203fcea67ad0ddbd9b51c91f157ed297664885153d28b37e4db01f54",
+    "learnerTask": "Locate outside antibody binding and inside kinase blockade; distinguish payload delivery",
+    "gap": "No receptor membrane cross-section shows intervention sites",
+    "accuracyGuardrails": "staining not activating variant or dependence; antibody/TKI/ADC evidence distinct",
+    "currentVisualFit": "adequate",
+    "reasoning": "Accept the location comparison. The exact shared receptor-tyrosine-kinase owner currently provides explanation/flow but no native; no private future RTK scene is treated as adopted. Matched membrane sections place antibody binding outside, kinase blockade inside and payload movement as a separate action. Receptor arrangement/cargo processing are schematic; expression, activating variant, dependence and benefit remain distinct.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+    "pageSHA256": "c98249f1203fcea67ad0ddbd9b51c91f157ed297664885153d28b37e4db01f54",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate outside antibody binding and inside kinase blockade; distinguish payload delivery",
+    "gap": "No receptor membrane cross-section shows intervention sites",
+    "accuracyGuardrails": "staining not activating variant or dependence; antibody/TKI/ADC evidence distinct",
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "eb30376b3273f9610e785997055057fdf02af3ae0845e44da7292109d82803cb",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/371",
+    "oneBasedRow": 372,
+    "originalTaskRowSHA256": "651bf4b7779cd1f073c52ec2698a79ee3e9dc930c1f7c18051423ed200f8a173",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+  "sourceBinding": {
+    "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "baselineOwnerSHA256": "c98249f1203fcea67ad0ddbd9b51c91f157ed297664885153d28b37e4db01f54",
+    "baselineSharedOwnerSHA256": "0bda0c7d836a777f1b500a7512d8af729c37afd9ad0ac31551c1701ecf40a6e1",
+    "independentObservedHEAD": "8eee2a56a7e55e274339f2b922af95d5296cf8d5",
+    "exactSelectedOwnerSharedPreimagesAtIndependentCheck": true,
+    "futureActualExecutionSourceCommit": null,
+    "laterTeacherRebind": "Stop and rebind if any selected source bytes change before actual execution."
+  },
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "pageSHA256": "c98249f1203fcea67ad0ddbd9b51c91f157ed297664885153d28b37e4db01f54",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate outside antibody binding and inside kinase blockade; distinguish payload delivery",
+      "gap": "No receptor membrane cross-section shows intervention sites",
+      "accuracyGuardrails": "staining not activating variant or dependence; antibody/TKI/ADC evidence distinct",
+      "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+      "recommendedMedium": "schematic",
+      "priority": "P2"
+    },
+    "reuseRationale": "The exact shared RTK owner currently has a conceptual flow and no native. Do not assume adoption of any private B12 scene or substitute its canonical identity. Retain its receptor explanation through a contextual link and add a narrow EGFR membrane comparison of outside antibody contact, inside kinase blockade, and separate payload delivery. No clinical selection inference or shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-301",
+    "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "reviewer": "agent:/root/batch13_molecular_jobs_review",
+    "decisionSHA256": "27b2e31b6985242f90794b8e3ad33331cef0d4343ff80ae7754402381895cf72",
+    "decisionFileSHA256": "cafc1708c207f44ff224bbbad475378ab2cb474a62c88b3190b13e2d508a1d2f",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the location comparison. The exact shared receptor-tyrosine-kinase owner currently provides explanation/flow but no native; no private future RTK scene is treated as adopted. Matched membrane sections place antibody binding outside, kinase blockade inside and payload movement as a separate action. Receptor arrangement/cargo processing are schematic; expression, activating variant, dependence and benefit remain distinct.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+    "reviewedAt": "2026-10-14T21:31:21.596142Z",
+    "implementationGate": "Actual independent author-decision acceptance only; Root must adopt the actual future full task plan and execution bindings. No future baseline, validator run or release is claimed."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16777603%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "actualReadDepth": "Fresh official types and mechanism sections: intracellular small molecules, antibody recognition, signaling interference and payload delivery. The source simplification that target-negative cells are spared was not imported."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both selected native variants and all relevant retained shared native variants, plus fresh final current-owner article and theater at390px and1440px in both themes.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 source files independently compared against exact pinned Git blobs. Final served JSON matches the exact compiled current candidate records.",
+    "findings": "Task relation, labels, arrows/compartments/contacts, caption and alt agree. No selected native text-bound overflow, document horizontal overflow or page error in28states. Enter opens/Escape closes.",
+    "scope": "Private article/ImageTheater fixture only; no full-app, production, authentication/navigation or general accessibility certification.",
+    "limits": [
+      "Retained route-raster secondary labels and BET secondary domain labels are small at346px inline; main task contrast, surrounding caption/practice, theater and full-resolution download carry the distinction.",
+      "Escape returned focus to BODY;8-Tab cycles left the dialog in all4supplemental theme/width checks. These known viewer limitations remain, with no runtime edit.",
+      "Existing tables scroll locally and existing Mermaid size is unchanged."
+    ],
+    "inspectionTiming": "Reviewer inspected after final author drafts. This review does not claim author pre-art embedded QA. Author pre-art native/reuse decision timestamps remain literal, not retroactively recreated."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch13_molecular_jobs_author",
+    "creationMethod": "Original source-code SVG by the actual author; no image-model invocation",
+    "imageModelInvocationByCurrentAuthor": false,
+    "attributionLimit": "Existing literal provenance/support bytes remain exact. Direct-reuse creative identity remains UNKNOWN where retained records do not establish it; scientific author, reviewer and integrator identities do not imply original creative authorship."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+        "sha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+        "bytes": 8186
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+        "sha256": "2cc8355e584073136d198976d4831f18d455f21496bb1e2855055e2527778c72",
+        "bytes": 7615
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+        "sha256": "8ba8ccf391d6b0bcc7b37c76de152bb68f7e77b69ba5c3848e25c9d78877b095",
+        "bytes": 7615
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1-provenance.json",
+        "sha256": "6fbad7976dcb02a93c49bc752336afa4aa15b60b557af85779b79486ec4b125c",
+        "bytes": 2644
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1.txt",
+        "sha256": "4b7964e21a2714485cbfda9d47beb151f5e9611b4c339fd6447d1960a267edbc",
+        "bytes": 615
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+        "sha256": "0bda0c7d836a777f1b500a7512d8af729c37afd9ad0ac31551c1701ecf40a6e1",
+        "bytes": 7527
+      }
+    ],
+    "originalAuthorSealSHA256": "e0f3734f8da2ab025aef872430b5c2bf49939c79e4b16f80d6407fbff9ecc4fe",
+    "originalAuthorManifestSHA256": "189800cf5265ab15ddef13d9b60c8d7092a0635817c5cdeef31bbd890100a878",
+    "originalAuthorCustodyZipSHA256": "f48981882d1bae6c9d104b0a0644741f2431199e0de3d325526ca212fbf1e92a",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded insertion/native/current-owner task fit with actual stated source depths; no human domain-expert approval.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

@@ -1,0 +1,9 @@
+Original SVG source-code creation brief
+
+I inspected both retained PI3K network SVG themes and current public owner/reference text. The old art supplies membrane lipid conversion, recruited AKT, two mTOR complexes and a fictional readout inset. I retain it unchanged and reuse that linked molecular map as the detail reference. Its actual geometry has no returning inhibitory feedback loop and no visibly separate inhibitor nodes. I choose a narrow concept-owner overview that locates membrane PIP2/PIP3 conversion and AKT below it, names distinct inhibited nodes, and draws an indirect feedback brake returning from mTORC1 output to upstream input. A separate fictional observation cannot prove this wiring, universal activity, dependence or clinical benefit. No shared-owner or old-native/support writes.
+
+A membrane PIP2-to-PIP3 lipid step by PI3K is opposed by PTEN; PIP3 recruitment leads to AKT below the membrane, then indirectly to mTORC1. PI3K and AKT occupy distinct lipid-kinase and protein-kinase nodes. A dashed indirect feedback brake returns from mTORC1 toward upstream input; a fictional changed phosphosite does not prove this loop or benefit.
+
+Read lipid conversion at the membrane separately from protein-kinase nodes below it. The dashed returning brake summarizes an indirect feedback relation, not a direct phosphorylation arrow or every network branch. Feedback release is a possible response, not a universal rebound. A named phosphosite, target engagement, growth dependence and patient benefit are different claims; neighboring inhibitors are not interchangeable.
+
+No model call was made. This is not a clinical protocol, efficacy claim or individual prediction.

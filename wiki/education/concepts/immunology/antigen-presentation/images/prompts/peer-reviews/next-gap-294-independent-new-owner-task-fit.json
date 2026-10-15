@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-294",
+  "owner": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_tissue_reach_author",
+  "authorRole": "Source-code author for two new SVG pairs; three current-owner insertions; reuse assessor for retained art",
+  "reviewer": "agent:/root/batch13_tissue_reach_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:32:02.242543Z",
+  "currentOwnerSha256": "8d2083db8edb50aad4a6548909dd331b87dac97ed9e9f1c3f01b5c7fe1340c18",
+  "currentOwnerFieldMeaning": "Exact prospective final candidate bytes; actual source preimage is separately bound. No canonical adoption or delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/immunology/t-cells/images/prompts/peer-reviews/next-gap-294-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+      "sha256": "ebc22265f96a3a3dffd2006ac0e3fcb3b3b8bfcbcefa2aa5fc825ee28c40da46",
+      "bytes": 4019,
+      "theme": "dark",
+      "nativeDimensions": [
+        600.0,
+        700.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+      "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+      "bytes": 4019,
+      "theme": "light",
+      "nativeDimensions": [
+        600.0,
+        700.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg",
+      "sha256": "d140a8364c1ff78ded1249ae71e944d402fa08c8cd67dfba76c5e0292503712b",
+      "bytes": 4036,
+      "theme": "dark",
+      "nativeDimensions": [
+        600.0,
+        700.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+      "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+      "bytes": 4036,
+      "theme": "light",
+      "nativeDimensions": [
+        600.0,
+        700.0
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "32be1df5806fb13bad6eea40d43dff2efab7f186ac04452a62b0016dcc52769a",
+    "learnerTask": "Locate the TCR and co-receptor contacts on class-I versus class-II displays without assigning fixed helper/killer functions.",
+    "gap": "The branch map and numerical exercise distinguish population relationships well, but the co-receptor is recognition equipment whose separate contact is not depicted. Reuse the HLA physical assembly comparison with CD4/CD8 contact labels; retain the function and denominator exercise as text.",
+    "accuracyGuardrails": [
+      "TCR specifies the peptide-HLA target; co-receptor does not select the peptide.",
+      "Conventional class relationships have exceptions and do not fix a current function.",
+      "Percentages require their parent gates."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The two exact shared pairs place a TCR against peptide plus HLA, with a separate CD8-to-class-I or CD4-to-class-II lower contact. Class-I heavy-chain/B2M and class-II two-chain membrane anchoring are distinguished. The caption explicitly disclaims atomic docking geometry, signaling and killing, and the owner retains the conventional-relationship and parent-gate denominator limits. The particular Gao class-I/CD8 and Yin class-II/CD4 primary abstracts support separate contacts; they are not universal geometry or function proofs. Both current mobile displays preserve readable contact labels and captions.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+    "pageSHA256": "32be1df5806fb13bad6eea40d43dff2efab7f186ac04452a62b0016dcc52769a",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate the TCR and co-receptor contacts on class-I versus class-II displays without assigning fixed helper/killer functions.",
+    "gap": "The branch map and numerical exercise distinguish population relationships well, but the co-receptor is recognition equipment whose separate contact is not depicted. Reuse the HLA physical assembly comparison with CD4/CD8 contact labels; retain the function and denominator exercise as text.",
+    "accuracyGuardrails": [
+      "TCR specifies the peptide-HLA target; co-receptor does not select the peptide.",
+      "Conventional class relationships have exceptions and do not fix a current function.",
+      "Percentages require their parent gates."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "fb4dfd1b96f8351790b0e0bc8cef353365ba0223549540e6ccf0a382e94b3b96",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/219",
+    "oneBasedRow": 220,
+    "originalTaskRowSHA256": "289aa2e27948eb1880bfd218126d6f465c489b4ec8efe7e04e01d7e0ee6c12b6",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "/root/batch13_tissue_reach_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+      "pageSHA256": "32be1df5806fb13bad6eea40d43dff2efab7f186ac04452a62b0016dcc52769a",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate the TCR and co-receptor contacts on class-I versus class-II displays without assigning fixed helper/killer functions.",
+      "gap": "The branch map and numerical exercise distinguish population relationships well, but the co-receptor is recognition equipment whose separate contact is not depicted. Reuse the HLA physical assembly comparison with CD4/CD8 contact labels; retain the function and denominator exercise as text.",
+      "accuracyGuardrails": [
+        "TCR specifies the peptide-HLA target; co-receptor does not select the peptide.",
+        "Conventional class relationships have exceptions and do not fix a current function.",
+        "Percentages require their parent gates."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "Reuse both class-I/CD8 and class-II/CD4 contact pairs already embedded in this owner unchanged. Distinct TCR and co-receptor contacts and separate membrane anchors directly meet the task. Shared HLA reference is the exact source of those pairs; retain literal attribution/UNKNOWN and all native bytes. No fixed helper/killer jobs, new art or shared writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-294",
+    "owner": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+    "author": "agent:/root/batch13_tissue_reach_author",
+    "actualDecisionAuthorLiteral": "/root/batch13_tissue_reach_author",
+    "reviewer": "agent:/root/batch13_tissue_reach_review",
+    "decisionSHA256": "83446417f1d0e1b53a4a3fb4c9557d76c712073e7977c09b4bcb60ffb1c17765",
+    "decisionFileSHA256": "2c5a4cf23bf1d58f06274274902b19665abc43dc54747010cad25691a05f3bb3",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept exact direct reuse of both already embedded HLA contact pairs. They show the TCR and co-receptor contacts required by the frozen task and do not assign fixed helper/killer function. Preserve the shared source and native bytes; no new art or shared-owner write is warranted.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "reviewedAt": "2026-10-14T21:32:02.242543Z",
+    "implementationGate": "Root must bind this exact genuine decision/acceptance into the actual maintained planning contract and execution baseline; this peer acceptance is not canonical adoption or code approval."
+  },
+  "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "actualAuthorOwnerPreimageSHA256": "8d2083db8edb50aad4a6548909dd331b87dac97ed9e9f1c3f01b5c7fe1340c18",
+  "sourceChecks": [
+    {
+      "key": "yin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22431638/",
+      "depth": "Complete primary structural abstract personally read from fresh PubMed extraction. No whole paper, coordinates, construct or protocol review.",
+      "scope": "Studied TCR/CD4 simultaneous independent contacts with the same pMHC-II; not universal docking geometry."
+    },
+    {
+      "key": "gao",
+      "url": "https://www.nature.com/articles/42523",
+      "depth": "Direct PubMed open returned one line and direct publisher open failed. Complete indexed primary publisher abstract personally read through search. Full paper not read.",
+      "scope": "Studied CD8/HLA-A2 contact separate from peptide/TCR surface. No universal geometry or current function inferred."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both themes of final task-native pairs, retained shared reference variants, and fresh390/1440px current-owner article plus theater.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named source files independently matched to pinned Git blobs before review captures.",
+    "scope": "Private pinned article/ImageTheater fixture; external installed dependencies, no full-app or production certification.",
+    "findings": "Correct current theme and theater source in all32 cases; no document horizontal overflow. Task geometry, labels, captions and alt text agree. Enter opens and Escape closes.",
+    "limits": [
+      "Escape returns focus to BODY and Tab leaves dialog in32/32 observed cases. No focus trap or full-app accessibility approval.",
+      "DCIS secondary layer labels are dense at346px article width. Primary inside/outside spatial contrast and main labels plus readable owner caption meet task288; comfortable reading of every fine label is not claimed.",
+      "Tall FNA/VAB originals fit theater height and appear narrower on wide viewports; article scrolling provides the larger complete teaching view."
+    ],
+    "denseDCISAdjudication": null
+  },
+  "creationProvenance": {
+    "creativeAuthor": "UNKNOWN as newly independently established creative person/model identity; retained literal provenance is separate",
+    "sourceCodeAuthor": null,
+    "creationMethod": "Exact retained native reuse; no new artwork or image-model invocation in this task",
+    "imageModelCallsThisTask": 0,
+    "retainedLiteralAttribution": [],
+    "unverifiedHistoricalFields": "UNKNOWN unless retained literal provenance establishes a specific claim; this reviewer does not re-verify old dispatch or model invocation.",
+    "prospectiveMarkersPreserved": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+        "sha256": "8d2083db8edb50aad4a6548909dd331b87dac97ed9e9f1c3f01b5c7fe1340c18",
+        "bytes": 10070
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+        "sha256": "ebc22265f96a3a3dffd2006ac0e3fcb3b3b8bfcbcefa2aa5fc825ee28c40da46",
+        "bytes": 4019
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+        "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+        "bytes": 4019
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg",
+        "sha256": "d140a8364c1ff78ded1249ae71e944d402fa08c8cd67dfba76c5e0292503712b",
+        "bytes": 4036
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+        "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+        "bytes": 4036
+      },
+      {
+        "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+        "sha256": "69bf1bbdfae347afa4f80f21a9fb955280c66d7898ac3314d7f4f655cb8282b7",
+        "bytes": 14318
+      }
+    ],
+    "scope": "Exact candidate, selected native outputs, new support where applicable, and bounded shared/current native/support guards.",
+    "originalAuthorSealSHA256": "2d2fbd29624e3666faf668d6193953444d7c345ade067329be0819e31f951563",
+    "originalAuthorManifestSHA256": "6f3cad116d3f12035885a0b5baa82ca531b14783af854bdcc89529764f286c26",
+    "inverseInsertionExact": true,
+    "retainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "One actual independent agent review of the selected visual, insertion and owner-task fit using recorded source access; not human clinical expertise or full unchanged-page recertification.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "actualFutureExecutionSourceCommit": null,
+  "rootSoleIntegratorAndPublisher": true
+}

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1500" viewBox="0 0 600 1500" role="img" aria-labelledby="title desc"><title id="title">One receptor, three contacts</title><desc id="desc">EGFR: epidermal growth factor receptor</desc><rect width="600" height="1500" rx="22" fill="#fffaf2"/>
+<text x="28" y="48" fill="#203442" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">One receptor, three contacts</text>
+<text x="28" y="88" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">EGFR: epidermal growth factor receptor</text>
+<rect x="20" y="125" width="560" height="370" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="169" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">1 • Antibody: outside contact</text>
+<text x="40" y="218" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Outside</text>
+<rect x="40" y="315" width="520" height="27" rx="5" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<text x="60" y="336" fill="#267e68" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Membrane</text>
+<text x="40" y="379" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Inside cell</text>
+<path d="M355 272L355 380" fill="none" stroke="#a9661f" stroke-width="12" stroke-linecap="round" />
+<rect x="318" y="230" width="74" height="60" rx="18" fill="#fae5c2" stroke="#a9661f" stroke-width="2" />
+<rect x="319" y="379" width="72" height="53" rx="15" fill="#e9dff1" stroke="#80579c" stroke-width="2" />
+<path d="M393 404L408 404" fill="none" stroke="#80579c" stroke-width="3" stroke-linecap="round" />
+<text x="418" y="413" fill="#80579c" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Kinase</text>
+<g transform="translate(295 265) scale(0.72)" fill="none" stroke="#80579c" stroke-width="9" stroke-linecap="round"><path d="M0 36V0L-24 -30M0 0L24 -30"/></g>
+<path d="M310 247L324 247" fill="none" stroke="#80579c" stroke-width="5" stroke-linecap="round" />
+<text x="45" y="454" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">An outer-region interaction</text>
+<text x="45" y="486" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">can change receptor signaling.</text>
+<rect x="20" y="515" width="560" height="370" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="559" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">2 • Small molecule: inside pocket</text>
+<text x="40" y="608" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Outside</text>
+<rect x="40" y="705" width="520" height="27" rx="5" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<text x="60" y="726" fill="#267e68" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Membrane</text>
+<text x="40" y="769" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Inside cell</text>
+<path d="M355 662L355 770" fill="none" stroke="#a9661f" stroke-width="12" stroke-linecap="round" />
+<rect x="318" y="620" width="74" height="60" rx="18" fill="#fae5c2" stroke="#a9661f" stroke-width="2" />
+<rect x="319" y="769" width="72" height="53" rx="15" fill="#e9dff1" stroke="#80579c" stroke-width="2" />
+<path d="M393 794L408 794" fill="none" stroke="#80579c" stroke-width="3" stroke-linecap="round" />
+<text x="418" y="803" fill="#80579c" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Kinase</text>
+<circle cx="338" cy="794" r="15" fill="#d6edf3" stroke="#247a9b" stroke-width="3"/>
+<text x="45" y="844" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Kinase blockade acts inside.</text>
+<text x="45" y="876" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Receptor is still present.</text>
+<rect x="20" y="905" width="560" height="370" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="949" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">3 • Conjugate: cargo delivery</text>
+<text x="40" y="998" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Outside</text>
+<rect x="40" y="1095" width="520" height="27" rx="5" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<text x="60" y="1116" fill="#267e68" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Membrane</text>
+<text x="40" y="1159" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Inside cell</text>
+<path d="M355 1052L355 1160" fill="none" stroke="#a9661f" stroke-width="12" stroke-linecap="round" />
+<rect x="318" y="1010" width="74" height="60" rx="18" fill="#fae5c2" stroke="#a9661f" stroke-width="2" />
+<rect x="319" y="1159" width="72" height="53" rx="15" fill="#e9dff1" stroke="#80579c" stroke-width="2" />
+<path d="M393 1184L408 1184" fill="none" stroke="#80579c" stroke-width="3" stroke-linecap="round" />
+<text x="418" y="1193" fill="#80579c" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Kinase</text>
+<g transform="translate(295 1045) scale(0.72)" fill="none" stroke="#80579c" stroke-width="9" stroke-linecap="round"><path d="M0 36V0L-24 -30M0 0L24 -30"/></g>
+<path d="M310 1027L324 1027" fill="none" stroke="#80579c" stroke-width="5" stroke-linecap="round" />
+<path d="M267 1071L295 1071" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<path d="M250 1084L267 1071" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<circle cx="267" cy="1071" r="11" fill="#f8dce3" stroke="#ad526b" stroke-width="3"/>
+<circle cx="250" cy="1084" r="9" fill="#f8dce3" stroke="#ad526b" stroke-width="3"/>
+<path d="M257 1106L257 1164" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 7"/>
+<path d="M257 1164L257 1176" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<path d="M257 1176L250.91048252244278 1163.3937405670624" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<path d="M257 1176L263.08951747755725 1163.3937405670624" fill="none" stroke="#ad526b" stroke-width="4" stroke-linecap="round" />
+<circle cx="257" cy="1197" r="16" fill="#f8dce3" stroke="#ad526b" stroke-width="3"/>
+<text x="45" y="1234" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Payload action is a separate job.</text>
+<text x="45" y="1266" fill="#203442" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">It need not prove kinase dependence.</text>
+<text x="28" y="1368" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Expression ≠ activating variant</text>
+<text x="28" y="1408" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">≠ dependence or clinical benefit.</text>
+<text x="28" y="1448" fill="#203442" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Product evidence stays separate.</text>
+</svg>

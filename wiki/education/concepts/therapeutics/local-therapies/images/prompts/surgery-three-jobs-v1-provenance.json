@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-source-code-svg",
+  "sourceCodeAuthor": "/root/batch13_tissue_reach_author",
+  "creativeAuthor": null,
+  "creativeAuthorNote": "Source-code authorship recorded directly; no image-model creative authorship claimed.",
+  "imageGeneration": {
+    "model": null,
+    "calls": 0,
+    "invocationIds": []
+  },
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+  "sourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "currentOwnerPreimage": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+    "sha256": "90fd22204ec1e35560e632d3320aefa759571649b0fcf7ccd306b3dbfc0e2175",
+    "bytes": 7934,
+    "gitBlobId": "46116d23e7764b47795b8fafbec113391426020a",
+    "observedBytesEqualExplicitGitSource": true,
+    "sourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "privatePreimage": "/tmp/education-next-visual-batch-13/selection/owner-preimages/wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+    "metadataGate": "sensitive:false verified before body read",
+    "bodyReadScope": "Full current authored public body; generated navigation inventoried separately, not interpreted",
+    "currentPreimageDiffersFromFrozenAudit": false,
+    "nativeEmbedCount": 0,
+    "actualH2Headings": [
+      "In one sentence",
+      "The intuition",
+      "How it works",
+      "Why it matters in cancer",
+      "How it is assessed",
+      "Common confusions",
+      "Try it",
+      "Explain it back",
+      "Takeaway",
+      "Related concepts",
+      "Sources and scope",
+      "Used in"
+    ],
+    "targetHeadingPresentNow": true
+  },
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+    "pageSHA256": "90fd22204ec1e35560e632d3320aefa759571649b0fcf7ccd306b3dbfc0e2175",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate breast removal, nodal sampling and reconstruction on one anatomy",
+    "gap": "Procedure table lacks physical reach and specimen handoff",
+    "accuracyGuardrails": "conceptual anatomy; removed/sampled not whole body; reconstruction not cancer substitute",
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+    "recommendedMedium": "schematic",
+    "priority": "P2"
+  },
+  "decisionSHA256": "61a129564e9d98f1daa23305a316150183ec2531045b49d6a7ff0c80111c92da",
+  "brief": {
+    "file": "surgery-three-jobs-v1.txt",
+    "sha256": "a0e2142f57c46f21c50728cd089193809cab6ac86f2186bb03a6a4cd1559c37e"
+  },
+  "nativeOutputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-13/authors/tissue-sampling-and-treatment-reach/prospective/wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-light.svg",
+      "sha256": "56dd12ec7e9e69c4b7de3de409581b1fbaf99934637bc15e2e9dca984060c90d",
+      "retained": false
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-13/authors/tissue-sampling-and-treatment-reach/prospective/wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-dark.svg",
+      "sha256": "4705ce801a27db6ea6bd929887ce92b72e8e2fb4ec53a5bd8c837e1fe53d5916",
+      "retained": false
+    }
+  ],
+  "constructionScript": {
+    "privatePath": "/tmp/education-next-visual-batch-13/authors/tissue-sampling-and-treatment-reach/draw-owned-svg.py",
+    "sha256": "8a647eda6c4bac21470e9e893b75af750ffd95830b0e6c409dc4ce9a62aad07a"
+  },
+  "sourceReferences": [
+    {
+      "id": "nci-pathology",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "kind": "official education",
+      "readDepth": "What report is, tissue acquisition, tissue examination and microscopic-description/margins sections read.",
+      "supports": "Cells/tissue/fluid are examined; sections preserve represented architecture; margin result requires examining removed tissue boundaries. Missing wider architecture is an inference from collection geometry, not a universal diagnostic-accuracy claim.",
+      "tasks": [
+        "next-gap-289",
+        "next-gap-290",
+        "next-gap-291"
+      ],
+      "fullTextRead": false,
+      "readBy": "/root/batch13_tissue_reach_author",
+      "sourceBodySHA256": null,
+      "custodyNote": "Read through web extraction; no claim to full response-byte custody, original retrieval time or full-text review."
+    },
+    {
+      "id": "nci-mastectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+      "kind": "official education",
+      "readDepth": "Current types, nodal distinctions and reconstruction sections read.",
+      "supports": "Breast removal extent, regional node procedure and reconstruction are separate descriptions; reconstruction can use implant or own tissue. New illustration does not recommend their combination.",
+      "tasks": [
+        "next-gap-291"
+      ],
+      "fullTextRead": false,
+      "readBy": "/root/batch13_tissue_reach_author",
+      "sourceBodySHA256": null,
+      "custodyNote": "Read through web extraction; no claim to full response-byte custody, original retrieval time or full-text review."
+    }
+  ],
+  "humanReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "coverageCredit": 0
+}

@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-295",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_molecular_jobs_author",
+  "reviewer": "agent:/root/batch13_molecular_jobs_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:31:21.596142Z",
+  "currentOwnerSha256": "8acec9e935080e434ffa34848d650004838004640909ac0dd7b3fb02f20c5ced",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; frozen/current baseline owner hashes separately bound. No canonical adoption/delivery is asserted.",
+  "intendedPublicPath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/prompts/peer-reviews/next-gap-295-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+      "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+      "bytes": 1681421,
+      "theme": "light",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+      "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+      "bytes": 1728795,
+      "theme": "dark",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "35b92ea07a8813fcdc9cd5df329fed09f68e0a72e471e802f15aff0810b700b9",
+    "learnerTask": "Locate engineering before administration versus inside the recipient and identify what is administered.",
+    "gap": "No local visual shows the two routes, although the linked in-vivo lesson already owns a suitable cartoon.",
+    "accuracyGuardrails": "Label what is administered and where engineering occurs on each route. Reuse the route schematic without implying universal delivery specificity, receptor expression, safety or efficacy.",
+    "currentVisualFit": "adequate",
+    "reasoning": "Accept exact canonical reuse. The first three retained route panels locate engineering outside versus inside the recipient and label cells infused versus instructions delivered. The fourth targeting panel remains supplementary. The owner caption and practice bound the inference to product/location, distinguish sampled testing from benefit and reject exclusive delivery. No duplicate artwork is justified.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+    "pageSHA256": "35b92ea07a8813fcdc9cd5df329fed09f68e0a72e471e802f15aff0810b700b9",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate engineering before administration versus inside the recipient and identify what is administered.",
+    "gap": "No local visual shows the two routes, although the linked in-vivo lesson already owns a suitable cartoon.",
+    "accuracyGuardrails": "Label what is administered and where engineering occurs on each route. Reuse the route schematic without implying universal delivery specificity, receptor expression, safety or efficacy.",
+    "sharedCanonicalOwner": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+    "recommendedMedium": "cartoon",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "bda754ea2d7f3bb76bf57ea1ac043bf84060c4364481ec6f7cd32e38ae5c066f",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/132",
+    "oneBasedRow": 133,
+    "originalTaskRowSHA256": "adb606ec9fcc9dc6ac9b7c22cd09dfb440dbab33cec9b146c05be76a449f75be",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+  "sourceBinding": {
+    "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "baselineOwnerSHA256": "3d13bf3d4bed4cff5f3b619a00828ca2166c238dd13f70a391c6419cdbadee36",
+    "baselineSharedOwnerSHA256": "4b72a023dbcc2095010d01f8232cd9a330596474b6aa652e2ddf586ebd0cd228",
+    "independentObservedHEAD": "8eee2a56a7e55e274339f2b922af95d5296cf8d5",
+    "exactSelectedOwnerSharedPreimagesAtIndependentCheck": true,
+    "futureActualExecutionSourceCommit": null,
+    "laterTeacherRebind": "Pending safeP05 shared-owner successor; preserve exact canonical identity and rebind if bytes change."
+  },
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+      "pageSHA256": "35b92ea07a8813fcdc9cd5df329fed09f68e0a72e471e802f15aff0810b700b9",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate engineering before administration versus inside the recipient and identify what is administered.",
+      "gap": "No local visual shows the two routes, although the linked in-vivo lesson already owns a suitable cartoon.",
+      "accuracyGuardrails": "Label what is administered and where engineering occurs on each route. Reuse the route schematic without implying universal delivery specificity, receptor expression, safety or efficacy.",
+      "sharedCanonicalOwner": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+      "recommendedMedium": "cartoon",
+      "priority": "P2"
+    },
+    "reuseRationale": "Direct reuse of the exact shared route pair: its first three panels identify infused cells versus administered instruction carriers and locate engineering. The fourth targeting panel is supplementary and explicitly qualified. No new art or shared-owner write is needed.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-295",
+    "owner": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "reviewer": "agent:/root/batch13_molecular_jobs_review",
+    "decisionSHA256": "99fde2b3aae1868e20158e07987bd36f7205719b0029a480a28448c604b59071",
+    "decisionFileSHA256": "a8e99d6f856638b9595ddc1bb1510d80cbdf96ef7ef3b506e7f02aca7a4584c0",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept exact canonical reuse. The first three retained route panels locate engineering outside versus inside the recipient and label cells infused versus instructions delivered. The fourth targeting panel remains supplementary. The owner caption and practice bound the inference to product/location, distinguish sampled testing from benefit and reject exclusive delivery. No duplicate artwork is justified.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+    "reviewedAt": "2026-10-14T21:31:21.596142Z",
+    "implementationGate": "Actual independent author-decision acceptance only; Root must adopt the actual future full task plan and execution bindings. No future baseline, validator run or release is claimed."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34990237%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "CAR T cells produced in vivo to treat cardiac injury.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+      "actualReadDepth": "Fresh official living-drug conceptual collection/laboratory-engineering/infusion passage and shared-normal-cell target caveat only; no clinical inventory, preparation parameters or regimen certification."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both selected native variants and all relevant retained shared native variants, plus fresh final current-owner article and theater at390px and1440px in both themes.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 source files independently compared against exact pinned Git blobs. Final served JSON matches the exact compiled current candidate records.",
+    "findings": "Task relation, labels, arrows/compartments/contacts, caption and alt agree. No selected native text-bound overflow, document horizontal overflow or page error in28states. Enter opens/Escape closes.",
+    "scope": "Private article/ImageTheater fixture only; no full-app, production, authentication/navigation or general accessibility certification.",
+    "limits": [
+      "Retained route-raster secondary labels and BET secondary domain labels are small at346px inline; main task contrast, surrounding caption/practice, theater and full-resolution download carry the distinction.",
+      "Escape returned focus to BODY;8-Tab cycles left the dialog in all4supplemental theme/width checks. These known viewer limitations remain, with no runtime edit.",
+      "Existing tables scroll locally and existing Mermaid size is unchanged."
+    ],
+    "inspectionTiming": "Reviewer inspected after final author drafts. This review does not claim author pre-art embedded QA. Author pre-art native/reuse decision timestamps remain literal, not retroactively recreated."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "UNKNOWN",
+    "creationMethod": "Exact unchanged canonical reuse; no new image generation",
+    "imageModelInvocationByCurrentAuthor": false,
+    "attributionLimit": "Existing literal provenance/support bytes remain exact. Direct-reuse creative identity remains UNKNOWN where retained records do not establish it; scientific author, reviewer and integrator identities do not imply original creative authorship."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+        "sha256": "8acec9e935080e434ffa34848d650004838004640909ac0dd7b3fb02f20c5ced",
+        "bytes": 9071
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+        "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+        "bytes": 1728795
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+        "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+        "bytes": 1681421
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-calls.json",
+        "sha256": "cd77daf1c840617df78f94b2ead8c65e7e880bddef4a2ef470212914adc7952d",
+        "bytes": 19983
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-dark-call.txt",
+        "sha256": "506382cdd71c552f790d0d123c1e068d01cbcc58012d368d852e568bf14431e8",
+        "bytes": 1088
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-light-call.txt",
+        "sha256": "822efde98e05ccf00bf1ecc3d2a88dc5740121a1c6f9119ed45830544eea32b0",
+        "bytes": 1895
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-receipt.json",
+        "sha256": "eac3a30852f5a554d888a72d1efcae5994db95f017eae5c3ad4ee6a8e9bc744c",
+        "bytes": 9827
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2.txt",
+        "sha256": "b1725d894fb0ccdd143ed7e784549395bb6a7d29b46c92080bb589d8bf7ec2c5",
+        "bytes": 5219
+      },
+      {
+        "path": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+        "sha256": "4b72a023dbcc2095010d01f8232cd9a330596474b6aa652e2ddf586ebd0cd228",
+        "bytes": 17580
+      }
+    ],
+    "originalAuthorSealSHA256": "e0f3734f8da2ab025aef872430b5c2bf49939c79e4b16f80d6407fbff9ecc4fe",
+    "originalAuthorManifestSHA256": "189800cf5265ab15ddef13d9b60c8d7092a0635817c5cdeef31bbd890100a878",
+    "originalAuthorCustodyZipSHA256": "f48981882d1bae6c9d104b0a0644741f2431199e0de3d325526ca212fbf1e92a",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded insertion/native/current-owner task fit with actual stated source depths; no human domain-expert approval.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

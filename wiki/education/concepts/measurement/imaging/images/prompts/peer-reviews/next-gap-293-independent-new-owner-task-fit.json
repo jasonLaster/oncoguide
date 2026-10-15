@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-293",
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_tissue_reach_author",
+  "authorRole": "Source-code author for two new SVG pairs; three current-owner insertions; reuse assessor for retained art",
+  "reviewer": "agent:/root/batch13_tissue_reach_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:32:02.242543Z",
+  "currentOwnerSha256": "ff8704f3f7794f1054f7f2bf91d94e8dcb1678a40a113c6abb49741be7861829",
+  "currentOwnerFieldMeaning": "Exact prospective final candidate bytes; actual source preimage is separately bound. No canonical adoption or delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/peer-reviews/next-gap-293-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+      "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa",
+      "bytes": 3450,
+      "theme": "dark",
+      "nativeDimensions": [
+        600.0,
+        1000.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+      "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462",
+      "bytes": 3450,
+      "theme": "light",
+      "nativeDimensions": [
+        600.0,
+        1000.0
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "75ba9b29012a58be06e07b4ca3244214547c86830e0d54dee2d3553e6397e305",
+    "learnerTask": "Connect diagnostic tracer distribution to separately validated therapy behavior",
+    "gap": "Four-question table lacks a pictured bridge and differing product journeys",
+    "accuracyGuardrails": "Same target not validated pair; tracer uptake not therapy dose/benefit; exact products/context",
+    "currentVisualFit": "adequate",
+    "reasoning": "Exact shared native reuse contrasts one diagnostic vector-plus-A image with a different antibody-plus-B time course, then separates product-specific dose modeling from clinical outcomes. The caption correctly says that the fictional unscaled curve area is not absorbed dose by itself and that one product image cannot fill another product time course. The fictional question makes the product-specific evidence gap explicit. FDA guidance was read for scope and selected distribution/modeling passages; it supports a bounded bridge rather than automatic validation of a diagnostic/therapy pair. The original creator is retained literally from existing provenance, with no new image call or unsupported historical identity claim.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+    "pageSHA256": "75ba9b29012a58be06e07b4ca3244214547c86830e0d54dee2d3553e6397e305",
+    "targetSection": "## How it works",
+    "learnerTask": "Connect diagnostic tracer distribution to separately validated therapy behavior",
+    "gap": "Four-question table lacks a pictured bridge and differing product journeys",
+    "accuracyGuardrails": "Same target not validated pair; tracer uptake not therapy dose/benefit; exact products/context",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "frozenTaskIdentitySHA256": "d25da73d56ac1401d12952c455a2f5fb9ab2a599181d5f0cf3b6ec29acdbde05",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/366",
+    "oneBasedRow": 367,
+    "originalTaskRowSHA256": "80ce445d7d991c9c1d3c77d585f09b9a5c6b2ff6f7f3e7e5e8a1da92ac75fff5",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "/root/batch13_tissue_reach_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+      "pageSHA256": "75ba9b29012a58be06e07b4ca3244214547c86830e0d54dee2d3553e6397e305",
+      "targetSection": "## How it works",
+      "learnerTask": "Connect diagnostic tracer distribution to separately validated therapy behavior",
+      "gap": "Four-question table lacks a pictured bridge and differing product journeys",
+      "accuracyGuardrails": "Same target not validated pair; tracer uptake not therapy dose/benefit; exact products/context",
+      "sharedCanonicalOwner": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "recommendedMedium": "schematic",
+      "priority": "P1"
+    },
+    "reuseRationale": "Reuse the frozen shared target-PET snapshot-versus-time-course pair through a relative embed in this owner. Its diagnostic snapshot, separate therapy activity-time behavior and dosimetry caution meet the test-to-separately-validated-therapy bridge without a new native. Add a task-specific caption and fictional question that require product-specific distribution, dose, safety and outcomes; never infer efficacy from brightness. No shared-owner/native/support writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-293",
+    "owner": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+    "author": "agent:/root/batch13_tissue_reach_author",
+    "actualDecisionAuthorLiteral": "/root/batch13_tissue_reach_author",
+    "reviewer": "agent:/root/batch13_tissue_reach_review",
+    "decisionSHA256": "0f328f2767facac1a1835a53df9fbb60c2a60d0c9ec1f92318200e3686e7bd43",
+    "decisionFileSHA256": "a05e571ef893fa4135d488eb72ce831a03cd2f185de3e809da5f50ff15e188a5",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept exact shared-pair reuse through a new owner-relative embed and task-specific caption/exercise. The existing distinct-product snapshot/time-course comparison already answers the missing bridge. No new art, native/support rewrite, target-to-benefit inference or unsupported creative attribution is needed.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+    "reviewedAt": "2026-10-14T21:32:02.242543Z",
+    "implementationGate": "Root must bind this exact genuine decision/acceptance into the actual maintained planning contract and execution baseline; this peer acceptance is not canonical adoption or code approval."
+  },
+  "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "actualAuthorOwnerPreimageSHA256": "f9ba13060bf3e522a076c50d6dad8b847e9ea884b91f02e0928533e009176e4d",
+  "sourceChecks": [
+    {
+      "key": "fda",
+      "url": "https://www.fda.gov/media/129547/download",
+      "depth": "Fresh official16-page PDF; introduction/scope and selected biodistribution/time-integrated-activity/modeling passages (printed pages1–5) personally read. Not a complete guidance review.",
+      "scope": "Product characteristics, retention and an appropriate model matter. Guidance does not validate a fictional pair or prove clinical benefit."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both themes of final task-native pairs, retained shared reference variants, and fresh390/1440px current-owner article plus theater.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named source files independently matched to pinned Git blobs before review captures.",
+    "scope": "Private pinned article/ImageTheater fixture; external installed dependencies, no full-app or production certification.",
+    "findings": "Correct current theme and theater source in all32 cases; no document horizontal overflow. Task geometry, labels, captions and alt text agree. Enter opens and Escape closes.",
+    "limits": [
+      "Escape returns focus to BODY and Tab leaves dialog in32/32 observed cases. No focus trap or full-app accessibility approval.",
+      "DCIS secondary layer labels are dense at346px article width. Primary inside/outside spatial contrast and main labels plus readable owner caption meet task288; comfortable reading of every fine label is not claimed.",
+      "Tall FNA/VAB originals fit theater height and appear narrower on wide viewports; article scrolling provides the larger complete teaching view."
+    ],
+    "denseDCISAdjudication": null
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch05_local_treatment_author (literal existing provenance; retained)",
+    "sourceCodeAuthor": null,
+    "creationMethod": "Exact retained native reuse; no new artwork or image-model invocation in this task",
+    "imageModelCallsThisTask": 0,
+    "retainedLiteralAttribution": [
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1-independent-owner-review.json",
+        "sha256": "451802e267829d5aa708ac45de118cc261db7c9fdf15f4bb4e3966c53c4acabe",
+        "literalFields": {
+          "author": "agent:/root/batch05_local_treatment_author",
+          "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+          "originalSourceResearchAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7",
+          "imageModelCalls": 0
+        },
+        "interpretation": "Existing literal provenance only; no new verification of historical dispatch, creative person/model/invocation. Unknown fields remain UNKNOWN."
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1-provenance.json",
+        "sha256": "73084143760ac455e4f40e550500b8b2dd3805b5d13f0b4fa274025ba3c0dba8",
+        "literalFields": {
+          "author": "agent:/root/batch05_local_treatment_author",
+          "creativeAuthor": "agent:/root/batch05_local_treatment_author",
+          "originalSourceRetrievalAuthor": "thread:01a12e5c-6865-7142-a98c-5b2187e35fc7"
+        },
+        "interpretation": "Existing literal provenance only; no new verification of historical dispatch, creative person/model/invocation. Unknown fields remain UNKNOWN."
+      }
+    ],
+    "unverifiedHistoricalFields": "UNKNOWN unless retained literal provenance establishes a specific claim; this reviewer does not re-verify old dispatch or model invocation.",
+    "prospectiveMarkersPreserved": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+        "sha256": "ff8704f3f7794f1054f7f2bf91d94e8dcb1678a40a113c6abb49741be7861829",
+        "bytes": 9759
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+        "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa",
+        "bytes": 3450
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+        "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462",
+        "bytes": 3450
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+        "sha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+        "bytes": 9459
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1-independent-owner-review.json",
+        "sha256": "451802e267829d5aa708ac45de118cc261db7c9fdf15f4bb4e3966c53c4acabe",
+        "bytes": 5504
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1-provenance.json",
+        "sha256": "73084143760ac455e4f40e550500b8b2dd3805b5d13f0b4fa274025ba3c0dba8",
+        "bytes": 6342
+      },
+      {
+        "path": "wiki/education/concepts/measurement/imaging/images/prompts/tracer-time-dose-bridge-v1.txt",
+        "sha256": "0e102ef0f2200fceaa4f54b92884465e3ae4be65521dac8d6b3ec32c2884dde0",
+        "bytes": 2003
+      }
+    ],
+    "scope": "Exact candidate, selected native outputs, new support where applicable, and bounded shared/current native/support guards.",
+    "originalAuthorSealSHA256": "2d2fbd29624e3666faf668d6193953444d7c345ade067329be0819e31f951563",
+    "originalAuthorManifestSHA256": "6f3cad116d3f12035885a0b5baa82ca531b14783af854bdcc89529764f286c26",
+    "inverseInsertionExact": true,
+    "retainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "One actual independent agent review of the selected visual, insertion and owner-task fit using recorded source access; not human clinical expertise or full unchanged-page recertification.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "actualFutureExecutionSourceCommit": null,
+  "rootSoleIntegratorAndPublisher": true
+}

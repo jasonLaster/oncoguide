@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "3ff613619e50f5998d2012b57b1506b1e2da10c2",
+  "reviewedSourceCommit": "9f28831eab473b5660339aa1b2c068bae77802c9",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -11027,6 +11027,554 @@
         {
           "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
           "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/peer-reviews/next-gap-288-independent-new-owner-task-fit.json",
+      "sha256": "5f6758818bcb9d2aae8a4d2769d4277d75f3f1ff6669f202e2606d4e42b5b00e",
+      "bytes": 16256,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+      "ownerSha256": "f07296c4a3892dea7fae3630d25ebb9cc13dfd1887a8aa95e6f5c5e25841f710",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+          "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+          "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/prompts/peer-reviews/next-gap-295-independent-new-owner-task-fit.json",
+      "sha256": "15448efa58332163415c27323723585b05ac7c447e31b1ac53712201acfa36fe",
+      "bytes": 13678,
+      "owner": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+      "ownerSha256": "1bcfb810274fefaaa3c5470f751820d908d7e76f9ac0466233abf4414c16afb5",
+      "artworks": [
+        {
+          "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+          "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7"
+        },
+        {
+          "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+          "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1-provenance.json",
+      "sha256": "32dbc4363bd4853ef2265a5dc0fccbde3c86bfa3cdb46fc57f02cb640cb420b0",
+      "bytes": 2325,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+      "ownerSha256": "b268c50da77214a335fb8d2d24bdfe51a10baa0d201c6430c7c1bd0d84dc99b6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+          "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+          "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/peer-reviews/next-gap-296-independent-new-owner-task-fit.json",
+      "sha256": "f12bfb65406b450926717846c19e9d7171545bbaeda982976a8c29cf8ccbd32f",
+      "bytes": 14261,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+      "ownerSha256": "b268c50da77214a335fb8d2d24bdfe51a10baa0d201c6430c7c1bd0d84dc99b6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+          "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+          "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/peer-reviews/next-gap-297-independent-new-owner-task-fit.json",
+      "sha256": "ceddbf9118294163b7812766b336bf0c6c4c4f573bb7bbb926467cf1d56ccabd",
+      "bytes": 14955,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "ownerSha256": "64ced29e02ecad52e1b2f44b80875f9e28a79c518d6f7ac6d0b44b40fc2bea9b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+          "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+          "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1-provenance.json",
+      "sha256": "8dcf8f37679e9457849c6dcadfc629103beae3ea1eae04034449054f34e148c5",
+      "bytes": 2787,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "ownerSha256": "64ced29e02ecad52e1b2f44b80875f9e28a79c518d6f7ac6d0b44b40fc2bea9b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+          "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+          "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/prompts/peer-reviews/next-gap-294-independent-new-owner-task-fit.json",
+      "sha256": "043306df801d5873d73691983c4aef8e3baedb61839c624d75f9d00237c4eae1",
+      "bytes": 14079,
+      "owner": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "ownerSha256": "69bf1bbdfae347afa4f80f21a9fb955280c66d7898ac3314d7f4f655cb8282b7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-dark.svg",
+          "sha256": "ebc22265f96a3a3dffd2006ac0e3fcb3b3b8bfcbcefa2aa5fc825ee28c40da46"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+          "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-dark.svg",
+          "sha256": "d140a8364c1ff78ded1249ae71e944d402fa08c8cd67dfba76c5e0292503712b"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+          "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/peer-reviews/next-gap-289-independent-new-owner-task-fit.json",
+      "sha256": "85f09de1f2055453a2a8b195d2abdda94836d7a19cb179486e88b7d8d01f338b",
+      "bytes": 13695,
+      "owner": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+      "ownerSha256": "038eb07a8ab641fdd87eb5444fa0e825d025eabccaf1f690f44284f2c1c167a4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+          "sha256": "9f45ee1bf67b5c68d23cb683b41974435ccc1e987d1616c9ca25732289fb94b4"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+          "sha256": "d0a918a7c57c62e62a71353338d8334a8738541b6b0859b9edd4487767a66289"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/prompts/peer-reviews/next-gap-290-independent-new-owner-task-fit.json",
+      "sha256": "04baf7fcd6734ad322f6397d9e55c99972c73f806ebc3e983e6cace709477672",
+      "bytes": 13073,
+      "owner": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "ownerSha256": "c8c66367124bf9351496c5ea5e8c8fb8618462e6f77a6d3fd91630d436751170",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+          "sha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+          "sha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1-provenance.json",
+      "sha256": "4fa43a90d8e9d8a185f8d75431f3f9ef9c2d0edadca769f257b00f65a2846124",
+      "bytes": 2651,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+      "ownerSha256": "1ee26170f9afb081df2dd7be4a72b31aacc8b84e4f0b3bba0aed906fdbea581a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-light.svg",
+          "sha256": "bb840c0cddeb7e7fd1de01410a7924e8bcb4cb06be3ab2b4659106f3fc3e3896"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-dark.svg",
+          "sha256": "0afe3a1e6d023aa401b5e85d99ad5832b5f7830da38b6978c217eec6f07a30c4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/peer-reviews/next-gap-298-independent-new-owner-task-fit.json",
+      "sha256": "a54e8d98d5ea6d6112c6697c223478ac86b3ad86542d8b14c65e0ec37e52a81e",
+      "bytes": 14029,
+      "owner": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+      "ownerSha256": "1ee26170f9afb081df2dd7be4a72b31aacc8b84e4f0b3bba0aed906fdbea581a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-light.svg",
+          "sha256": "bb840c0cddeb7e7fd1de01410a7924e8bcb4cb06be3ab2b4659106f3fc3e3896"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-dark.svg",
+          "sha256": "0afe3a1e6d023aa401b5e85d99ad5832b5f7830da38b6978c217eec6f07a30c4"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1-provenance.json",
+      "sha256": "c61cd5ffd8d47eca7e0e20e2e208dc8bb60876df280d9eb3bcc1918cbeaf72f6",
+      "bytes": 2494,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ownerSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+          "sha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+          "sha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/peer-reviews/next-gap-299-independent-new-owner-task-fit.json",
+      "sha256": "30cec3003a46659e6b03cc71334d4e58304c45209f4a114d0e12824a41c4e32b",
+      "bytes": 14003,
+      "owner": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ownerSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+          "sha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+          "sha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/peer-reviews/next-gap-291-independent-new-owner-task-fit.json",
+      "sha256": "278fb6287ec780aacdf1eb1ab55b2ec94da6fba1d354fa9d39b29ec7100136c7",
+      "bytes": 15270,
+      "owner": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+      "ownerSha256": "06f61a9e918a0439956beacb22d015a97bea748d467daf93040b713c2f0ec6b2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-dark.svg",
+          "sha256": "4705ce801a27db6ea6bd929887ce92b72e8e2fb4ec53a5bd8c837e1fe53d5916"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-light.svg",
+          "sha256": "56dd12ec7e9e69c4b7de3de409581b1fbaf99934637bc15e2e9dca984060c90d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/peer-reviews/next-gap-292-independent-new-owner-task-fit.json",
+      "sha256": "f54eb7332c17ef39fd2707f4fa0014fe60fe12b7ba0b93bcafc7209917bff2ec",
+      "bytes": 15075,
+      "owner": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+      "ownerSha256": "bd2dffb1ac520dd0536cc3461d7899012475b3ed8dc874199498a59314551174",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-dark.svg",
+          "sha256": "ae8b1c3719a48b240dd593aa5e6ee85b3e2b386d5aebc685a2326595c442f49b"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-light.svg",
+          "sha256": "4f0ccaa831b620039c0d86e7346650cc3695cf44d2e332b5d7cdd047a6ff02c0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/images/prompts/peer-reviews/next-gap-293-independent-new-owner-task-fit.json",
+      "sha256": "73e6defeb73fff2bf9eb39e9386302d00f1507e251be91a52b6b48dca782abad",
+      "bytes": 13891,
+      "owner": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ownerSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+          "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+          "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-motion-falloff-neighbor-v1-provenance.json",
+      "sha256": "f89be8bab4e8f1fcdd3013ba75b936f603caa226b191597d78f5bd64ccc6da07",
+      "bytes": 5533,
+      "owner": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+      "ownerSha256": "bd2dffb1ac520dd0536cc3461d7899012475b3ed8dc874199498a59314551174",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-dark.svg",
+          "sha256": "ae8b1c3719a48b240dd593aa5e6ee85b3e2b386d5aebc685a2326595c442f49b"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-light.svg",
+          "sha256": "4f0ccaa831b620039c0d86e7346650cc3695cf44d2e332b5d7cdd047a6ff02c0"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/surgery-three-jobs-v1-provenance.json",
+      "sha256": "93cf97a1af9efb63a9d8a1762645efcd6f6bfba61c08dffaf372c03d3a871593",
+      "bytes": 5605,
+      "owner": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+      "ownerSha256": "06f61a9e918a0439956beacb22d015a97bea748d467daf93040b713c2f0ec6b2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-dark.svg",
+          "sha256": "4705ce801a27db6ea6bd929887ce92b72e8e2fb4ec53a5bd8c837e1fe53d5916"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/surgery-three-jobs-v1-light.svg",
+          "sha256": "56dd12ec7e9e69c4b7de3de409581b1fbaf99934637bc15e2e9dca984060c90d"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/cdk-cell-cycle-versus-rna-jobs-b13-v1-provenance.json",
+      "sha256": "33a807b4735fc5bffb7b79ddbe16661ba0ffb07299b9fd91550a91943076ae48",
+      "bytes": 4225,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ownerSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-light.svg",
+          "sha256": "3c6586d9ab8ae257f0b45ce91a5b2345c63d82a14f45cda6ac783723cbefcfcb"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-dark.svg",
+          "sha256": "b8e17855f6116b6b23c712454de5a3d494444c184ad11c79d679052a8a49512e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1-provenance.json",
+      "sha256": "6fbad7976dcb02a93c49bc752336afa4aa15b60b557af85779b79486ec4b125c",
+      "bytes": 2644,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ownerSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+          "sha256": "8ba8ccf391d6b0bcc7b37c76de152bb68f7e77b69ba5c3848e25c9d78877b095"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+          "sha256": "2cc8355e584073136d198976d4831f18d455f21496bb1e2855055e2527778c72"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/peer-reviews/next-gap-300-independent-new-owner-task-fit.json",
+      "sha256": "e631f54eb020a91f1a7f29a9f56c50e675b517d0b0a90f304a01246e6be60178",
+      "bytes": 13092,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "ownerSha256": "bcd1e8e1794d74916716c7501c31fce6afcde8bd3a0d7a6ea30a6a57a1fb209a",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+          "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+          "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/peer-reviews/next-gap-301-independent-new-owner-task-fit.json",
+      "sha256": "35b0d8c7da03a9fba156785cbf09e3f2921275679e50de23751268e398f2e02d",
+      "bytes": 12981,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ownerSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+          "sha256": "8ba8ccf391d6b0bcc7b37c76de152bb68f7e77b69ba5c3848e25c9d78877b095"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+          "sha256": "2cc8355e584073136d198976d4831f18d455f21496bb1e2855055e2527778c72"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/peer-reviews/next-gap-302-independent-new-owner-task-fit.json",
+      "sha256": "0ee21259f1f3c46aee359d091063b915f81b69d38706cdcb6d18c996f94353cd",
+      "bytes": 10033,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ownerSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-light.svg",
+          "sha256": "3c6586d9ab8ae257f0b45ce91a5b2345c63d82a14f45cda6ac783723cbefcfcb"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-dark.svg",
+          "sha256": "b8e17855f6116b6b23c712454de5a3d494444c184ad11c79d679052a8a49512e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/peer-reviews/next-gap-303-independent-new-owner-task-fit.json",
+      "sha256": "df33d5978bdc0bb0bd24b6742c1b9c85cea618ad8a93b365fa123f7f794f50be",
+      "bytes": 9076,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ownerSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-light.svg",
+          "sha256": "2f8f8c38bfd032cc537ca668b99ae5bb445deb0764f795e544ca69121b4bdba4"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-dark.svg",
+          "sha256": "01c73d208d7414953b8af3f3376ec3c0d619109a36fd184ab7c39631fa44c580"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/pi3k-membrane-nodes-and-feedback-b13-v1-provenance.json",
+      "sha256": "02f1ef0c3d6b58022b36f9cad07f2148cb6855e8c40f3e27f4731624c7a076f2",
+      "bytes": 3890,
+      "owner": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ownerSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-light.svg",
+          "sha256": "2f8f8c38bfd032cc537ca668b99ae5bb445deb0764f795e544ca69121b4bdba4"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-dark.svg",
+          "sha256": "01c73d208d7414953b8af3f3376ec3c0d619109a36fd184ab7c39631fa44c580"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/lymphocyte-fraction-and-count-b13-v1-provenance.json",
+      "sha256": "a22e0c3407abc1dad99c991ffe7149fcad6c48b469d373408c178b5d7f30bc0c",
+      "bytes": 3286,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+      "ownerSha256": "82ce10f591939081e222fea642eb81f0b1aa9c07d7484f8120e130e6e8f62dc2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-light.svg",
+          "sha256": "eb743c587b7bf8004e449e18c6277845a284a084ba6a84749d466589652362eb"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-dark.svg",
+          "sha256": "9e1bb4bae1df4023d2be136e0d16e37c280f4c1ffb404d1d1a3c240055db538b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/prompts/peer-reviews/next-gap-304-independent-new-owner-task-fit.json",
+      "sha256": "6320beebc0e7f5dd8250541ad33bdb856e903481a40cf0c63cf98c1214393dc3",
+      "bytes": 8923,
+      "owner": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+      "ownerSha256": "82ce10f591939081e222fea642eb81f0b1aa9c07d7484f8120e130e6e8f62dc2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-light.svg",
+          "sha256": "eb743c587b7bf8004e449e18c6277845a284a084ba6a84749d466589652362eb"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-dark.svg",
+          "sha256": "9e1bb4bae1df4023d2be136e0d16e37c280f4c1ffb404d1d1a3c240055db538b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/images/prompts/peer-reviews/next-gap-306-independent-new-owner-task-fit.json",
+      "sha256": "50a86dfd4325b176a0248a8bea8dfce9973b0d67c2eefeafcc2f8d2663845269",
+      "bytes": 10598,
+      "owner": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ownerSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+      "artworks": [
+        {
+          "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+          "sha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271"
+        },
+        {
+          "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+          "sha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/peer-reviews/next-gap-307-independent-new-owner-task-fit.json",
+      "sha256": "f0fb0d2559d74394b593e307d6c83f844f7efcaf052960cf7ab7229fc16d2958",
+      "bytes": 8171,
+      "owner": "wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md",
+      "ownerSha256": "3e3eb8316bfac258ee1241f6db644792e1e8df6d04741fd066e75e451d3581ee",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-dark.svg",
+          "sha256": "455bebd16d6550ab6d6da8e2b3570872d1a6faa6300b26a5993a82c7ed089ba4"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-light.svg",
+          "sha256": "4bffd8f152ac475de74b9893f274819bd930c9a73c78407ef15bbabb19f5f612"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/images/prompts/whole-sequence-and-same-origin-events-b13-v1-provenance.json",
+      "sha256": "cb08525f366e05445c3ab4acdff29cdafad9ce067539f9edbaee24d3f151de83",
+      "bytes": 4607,
+      "owner": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ownerSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+      "artworks": [
+        {
+          "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+          "sha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271"
+        },
+        {
+          "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+          "sha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74"
         }
       ],
       "contentClass": "source-owned-public-custody"

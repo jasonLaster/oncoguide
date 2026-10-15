@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch13_molecular_jobs_author",
+  "method": "Original source-code SVG; no image model invocation",
+  "modelsCalled": [],
+  "frozenTask": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "pageSHA256": "2db3920afdfda38eae57e848418eb9f9761198b2288d59fd6259773c724a6410",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate sequence choice, building-block chemistry and unwanted byproducts as independent design/quality axes.",
+    "gap": "The chemistry-to-interaction flow does not contrast what is changed versus retained.",
+    "accuracyGuardrails": "Separate sequence, nucleoside chemistry and byproduct quality axes. Do not imply a universal immune-silencing or expression benefit from a chemical modification; any chemical structure requires source review.",
+    "sharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "recommendedMedium": "diagram",
+    "priority": "P3"
+  },
+  "sharedCanonicalOwnerUnchanged": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+  "decisionSHA256": "c3f6c02f3f92c1305f8f3061f9e41d996160ad76d74d075aa9162711f3f95f0e",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "allAdoptionDeliveryGradeCoverageCredits": 0,
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+      "theme": "light",
+      "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21890902%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Complete abstract only",
+      "supports": "Unwanted material can affect observations separately from intended modified RNA; no purification methods carried into artwork.",
+      "readUTCDate": "2026-10-14"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16111635%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Complete abstract only",
+      "supports": "Chemistry changes can affect specified RNA-sensing observations in defined experimental systems; no universal immune-silencing or chemical choice.",
+      "readUTCDate": "2026-10-14"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1160" viewBox="0 0 600 1160" role="img" aria-labelledby="title desc"><title id="title">Delivery ≠ insertion</title><desc id="desc">A conceptual DNA-transposon system</desc><rect width="600" height="1160" rx="22" fill="#fffaf2"/>
+<text x="28" y="48" fill="#203442" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">Delivery ≠ insertion</text>
+<text x="28" y="88" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">A conceptual DNA-transposon system</text>
+<rect x="20" y="115" width="560" height="190" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="154" fill="#203442" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">1 • A separate delivery job</text>
+<circle cx="77" cy="219" r="31" fill="#d6edf3" stroke="#247a9b" stroke-width="3"/>
+<text x="128" y="210" fill="#203442" font-family="Arial, sans-serif" font-size="30" font-weight="400" text-anchor="start">Components enter a cell.</text>
+<text x="128" y="249" fill="#4e6572" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Method not specified.</text>
+<path d="M300 315L300 350" fill="none" stroke="#607986" stroke-width="4" stroke-linecap="round" />
+<path d="M300 350L293.91048252244275 337.39374056706254" fill="none" stroke="#607986" stroke-width="4" stroke-linecap="round" />
+<path d="M300 350L306.08951747755725 337.39374056706254" fill="none" stroke="#607986" stroke-width="4" stroke-linecap="round" />
+<rect x="20" y="365" width="560" height="430" rx="38" fill="#d9efe4" stroke="#267e68" stroke-width="2" />
+<text x="40" y="406" fill="#267e68" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">Inside a cell</text>
+<rect x="40" y="430" width="520" height="340" rx="90" fill="#fffefb" stroke="#80579c" stroke-width="2" />
+<text x="70" y="471" fill="#80579c" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">Nucleus • DNA machinery</text>
+<rect x="80" y="504" width="250" height="67" rx="5" fill="#fae5c2" stroke="#a9661f" stroke-width="2" />
+<rect x="80" y="504" width="18" height="67" rx="0" fill="#a9661f" stroke="#a9661f" stroke-width="2" />
+<rect x="312" y="504" width="18" height="67" rx="0" fill="#a9661f" stroke="#a9661f" stroke-width="2" />
+<text x="205" y="548" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">Cargo cassette</text>
+<text x="72" y="611" fill="#a9661f" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Boundary</text>
+<text x="72" y="643" fill="#a9661f" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">at each end</text>
+<path d="M96 577L96 591" fill="none" stroke="#a9661f" stroke-width="4" stroke-linecap="round" />
+<path d="M320 577L320 591" fill="none" stroke="#a9661f" stroke-width="4" stroke-linecap="round" />
+<circle cx="446" cy="539" r="45" fill="#e9dff1" stroke="#80579c" stroke-width="3"/>
+<text x="446" y="548" fill="#203442" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Enzyme</text>
+<text x="371" y="612" fill="#80579c" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Transposase</text>
+<text x="371" y="644" fill="#80579c" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">recognizes ends</text>
+<path d="M418 661L352 704" fill="none" stroke="#80579c" stroke-width="4" stroke-linecap="round" />
+<path d="M352 704L359.23817037439346 692.0163073457613" fill="none" stroke="#80579c" stroke-width="4" stroke-linecap="round" />
+<path d="M352 704L365.8864677895347 702.2206708201642" fill="none" stroke="#80579c" stroke-width="4" stroke-linecap="round" />
+<path d="M95 714L225 714" fill="none" stroke="#607986" stroke-width="9" stroke-linecap="round" />
+<path d="M225 714L341 714" fill="none" stroke="#a9661f" stroke-width="14" stroke-linecap="round" />
+<path d="M341 714L494 714" fill="none" stroke="#607986" stroke-width="9" stroke-linecap="round" />
+<text x="300" y="755" fill="#203442" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">Cassette within chromosome</text>
+<rect x="20" y="825" width="560" height="220" rx="22" fill="#fffefb" stroke="#607986" stroke-width="2" />
+<text x="40" y="868" fill="#203442" font-family="Arial, sans-serif" font-size="30" font-weight="400" text-anchor="start">2 • Insertion is a different job</text>
+<text x="40" y="912" fill="#203442" font-family="Arial, sans-serif" font-size="30" font-weight="400" text-anchor="start">Expression and function</text>
+<text x="40" y="956" fill="#203442" font-family="Arial, sans-serif" font-size="30" font-weight="400" text-anchor="start">need separate measurements.</text>
+<text x="40" y="1014" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Shapes are not sequence or scale.</text>
+<text x="28" y="1090" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">No equal-site probabilities, promised</text>
+<text x="28" y="1124" fill="#4e6572" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">persistence or safety ranking shown.</text>
+</svg>

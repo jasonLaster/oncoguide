@@ -1,0 +1,9 @@
+Original SVG source-code creation brief
+
+I inspected both retained cell-cycle SVG themes and current public owner/reference text. The old art locates G1/S/G2/M and optional G0 with a separate DNA-content key, which I retain unchanged and reuse through the existing linked phase reference. It does not locate CDK4/6 and CDK2 against CDK7 initiation and CDK9 elongation jobs. I choose a narrow concept-owner extension with two explicitly different tracks, a cross-role note for CDK7, and arrest/death and marrow/tumor endpoint distinctions. No shared-owner or old-native/support writes.
+
+Two selected-job tracks locate CDK4/6 and CDK2 around G1 and DNA copying, separately from CDK7 near transcription initiation and CDK9 during elongation along a gene. A cross-role note states that CDK7 also activates other CDKs; arrest, death, marrow protection and tumor control remain separate.
+
+The family name does not identify the job. This selected-role map separates preparation for DNA copying from initiation and continuation of RNA production; CDK7 has roles across those categories. RB protein presence does not establish an intact arrest circuit. A fictional pause followed by regrowth supports arrest, while death and clinical endpoints need separate evidence.
+
+No model call was made. This is not a clinical protocol, efficacy claim or individual prediction.

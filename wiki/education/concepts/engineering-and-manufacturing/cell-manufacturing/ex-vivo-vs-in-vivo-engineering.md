@@ -31,6 +31,17 @@ Imagine modifying a tool in a workshop, then taking it to the job, versus bringi
 
 ## How it works
 
+
+<img src="../../../cellular-therapies/images/where-cells-are-engineered-v2-light.png" alt="Four scenes compare cells engineered and tested outside the body before infusion with instruction carriers administered for engineering inside the recipient; molecular compartments and separate carrier versus receptor targeting are also shown." data-theme-pair />
+
+*Ex vivo engineering administers cells; in vivo engineering administers a delivery product. The extra panels show broad molecular and targeting distinctions. They do not establish exclusive delivery, expression in every cell, persistence, safety or benefit.*
+
+**Read the picture:** Which route lets a team sample engineered cells before administration?
+
+**Answer:** The ex vivo route. A tested sample still does not inspect every cell or establish clinical benefit.
+
+**Visual source scope:** [Rurik et al.](https://pubmed.ncbi.nlm.nih.gov/34990237/) demonstrate one in vivo route in a mouse cardiac-injury model, rather than a universal clinical route.
+
 In an ex vivo workflow, collected cells receive instructions under controlled laboratory conditions. They can be grown, sampled and tested before administration. In an in vivo workflow, a manufactured delivery product introduces instructions into cells after administration. The resulting engineered-cell population must be measured downstream.
 
 | Question | Ex vivo engineering | In vivo engineering |

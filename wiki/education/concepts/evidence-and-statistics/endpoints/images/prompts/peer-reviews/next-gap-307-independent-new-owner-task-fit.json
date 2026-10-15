@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-307",
+  "owner": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+  "author": "/root/batch13_evidence_reading_author",
+  "reviewer": "agent:/root/batch13_evidence_reading_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:34:01.871388+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "f874dddf1355e1acf6922faf15af75f1e7277224e6bb4ed99f388eba7d8dfe19",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-dark.svg",
+      "sha256": "455bebd16d6550ab6d6da8e2b3570872d1a6faa6300b26a5993a82c7ed089ba4",
+      "bytes": 15338,
+      "nativeDimensions": [
+        960,
+        1380
+      ],
+      "theme": "dark",
+      "method": "unchanged directly reused native; creative author UNKNOWN unless retained literal support establishes otherwise"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-light.svg",
+      "sha256": "4bffd8f152ac475de74b9893f274819bd930c9a73c78407ef15bbabb19f5f612",
+      "bytes": 15338,
+      "nativeDimensions": [
+        960,
+        1380
+      ],
+      "theme": "light",
+      "method": "unchanged directly reused native; creative author UNKNOWN unless retained literal support establishes otherwise"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "b5835d87e6c49e94b0bd76b631aa164023ad1d9f6e0ac64be9c0315e43b45ef7",
+    "learnerTask": "Connect each event step and censoring tick to the five-person risk set and 80% then 53.3% estimate.",
+    "gap": "A lesson explicitly about reading a curve has only arithmetic tables and an orientation map; no actual curve is shown.",
+    "accuracyGuardrails": "Month-two censoring has no downward step; month-three risk set is three; distinguish probability from raw 2/5 count. No invented precision band or personal forecast.",
+    "targetSection": "A small curve you can check by hand",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md",
+    "recommendedMedium": "chart",
+    "priority": "P1",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Direct reuse is adequate because the exact retained native pair already depicts this five-person example: first event among5 gives80%; month2 censor has no drop and leaves subsequent risk sets; month3 event among3 gives(4/5)*(2/3)=8/15, approximately53.3%. Both figures stop at month3 without an invented interval or personal forecast. Native curve coordinates and event cards match the lesson table, caption and practice. The raw2/5 recorded recurrence count is distinguished from the probability estimate; no new art or ownership transfer is needed."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+    "pageSHA256": "b5835d87e6c49e94b0bd76b631aa164023ad1d9f6e0ac64be9c0315e43b45ef7",
+    "targetSection": "A small curve you can check by hand",
+    "learnerTask": "Connect each event step and censoring tick to the five-person risk set and 80% then 53.3% estimate.",
+    "gap": "A lesson explicitly about reading a curve has only arithmetic tables and an orientation map; no actual curve is shown.",
+    "accuracyGuardrails": "Month-two censoring has no downward step; month-three risk set is three; distinguish probability from raw 2/5 count. No invented precision band or personal forecast.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/421",
+    "oneBasedRow": 422,
+    "originalTaskRowSHA256": "77b10d7d10b1573e3ff82262a8ac2b37aeab17878f96a6facb4878fbc3b9ed9f",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-307",
+    "owner": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+    "reviewer": "agent:/root/batch13_evidence_reading_review",
+    "decisionSHA256": "ae84c1145982d368314291a93757647acdfda56caf7186550c3f8cd71b1c54b4",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Direct reuse is adequate because the exact retained native pair already depicts this five-person example: first event among5 gives80%; month2 censor has no drop and leaves subsequent risk sets; month3 event among3 gives(4/5)*(2/3)=8/15, approximately53.3%. Both figures stop at month3 without an invented interval or personal forecast. Native curve coordinates and event cards match the lesson table, caption and practice. The raw2/5 recorded recurrence count is distinguished from the probability estimate; no new art or ownership transfer is needed."
+  },
+  "scientificSourceReview": {
+    "scope": "Independent agent targeted source review of new visual claims and shared-art fit. Existing source_checked dates retained; no recertification of every historical clinical claim.",
+    "sources": [
+      {
+        "url": "https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm",
+        "type": "official NIST methods handbook",
+        "actualReadDepth": "Fresh full short page including calculation lines6-12; applied ordinary product-limit calculation, not its later modified probability-plotting variant. Five-person arithmetic independently recomputed."
+      }
+    ],
+    "failedAccess": [],
+    "sourceFiguresCopied": false,
+    "verbatimSourceWords": 0
+  },
+  "visualReview": {
+    "personallyInspectedExactNewOrReusedNativeThemes": true,
+    "sharedReferenceBothNativeThemesInspected": true,
+    "task306AdditionalReference": null,
+    "themeWordAndGeometryParity": true,
+    "articleAndTheaterInspected": true,
+    "viewportWidthPx": [
+      390,
+      1440
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "independentlyMatchedRendererFiles": 87,
+    "displayCases": 4,
+    "noHorizontalOverflowObserved": true,
+    "pageErrors": [],
+    "EnterOpensTheater": true,
+    "TabFocus": "Observed link outside Dialog in all cases; focus trap not certified",
+    "EscapeFocus": "Closes Dialog and leaves BODY focused, not originating image",
+    "altCaptionAndPracticeMatched": true,
+    "limits": "Private bounded pinned reader fixture; no live data/navigation/runtime/full-app/comprehensive accessibility or actual learner-readability certification. Small secondary labels remain supplemented by full-size native, prose caption and alt. Retained references were preserved, not given blanket visual repair or creative attribution."
+  },
+  "custody": {
+    "sourceCommitObservedByAuthor": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "currentOwnerPreimageSHA256": "b5835d87e6c49e94b0bd76b631aa164023ad1d9f6e0ac64be9c0315e43b45ef7",
+    "prospectiveOwnerSHA256": "f874dddf1355e1acf6922faf15af75f1e7277224e6bb4ed99f388eba7d8dfe19",
+    "insertionInverseExact": true,
+    "ownedProspectiveFiles": [
+      {
+        "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+        "sha256": "f874dddf1355e1acf6922faf15af75f1e7277224e6bb4ed99f388eba7d8dfe19",
+        "bytes": 9912
+      }
+    ],
+    "newArtworkCreativeAuthor": null,
+    "retainedAttribution": "Retained literal original support unchanged; UNKNOWN where unproved. Existing living-drug provenance names agent:/root/batch08_author_group3; no reassignment."
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "productionVerifiedByThisReview": false,
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0
+}

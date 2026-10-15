@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-290",
+  "owner": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_tissue_reach_author",
+  "authorRole": "Source-code author for two new SVG pairs; three current-owner insertions; reuse assessor for retained art",
+  "reviewer": "agent:/root/batch13_tissue_reach_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:32:02.242543Z",
+  "currentOwnerSha256": "c8c66367124bf9351496c5ea5e8c8fb8618462e6f77a6d3fd91630d436751170",
+  "currentOwnerFieldMeaning": "Exact prospective final candidate bytes; actual source preimage is separately bound. No canonical adoption or delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/measurement/specimens/images/prompts/peer-reviews/next-gap-290-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+      "sha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4",
+      "bytes": 11134,
+      "theme": "dark",
+      "nativeDimensions": [
+        780.0,
+        1910.0
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+      "sha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be",
+      "bytes": 11136,
+      "theme": "light",
+      "nativeDimensions": [
+        780.0,
+        1910.0
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "d8147e85a290be3ca34422bb7a9b7553e8fd678129572ad9ec419b0295dd182d",
+    "learnerTask": "Distinguish sampled pieces from an oriented excision boundary",
+    "gap": "The workflow does not depict selected sample locations versus intact margins",
+    "accuracyGuardrails": "Show multiple recovered pieces versus an oriented excision boundary. Sampling is not a complete margin assessment or proof that the lesion was removed/cleared.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The retained drawing connects three selected regions to separate recovered pieces, then contrasts them with a separately documented oriented excision and mapped section. Its labels say the finding still needs examination. The adjacent text explicitly retains deformation, uncertain orientation, ink entering cracks and the absence of a clearance inference. This satisfies selected sample locations versus an intact documented boundary without depicting a negative margin result or a therapeutic removal guarantee. Counts and shapes are fictional, and no collection settings or procedure instructions are introduced.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+    "pageSHA256": "d8147e85a290be3ca34422bb7a9b7553e8fd678129572ad9ec419b0295dd182d",
+    "targetSection": "How it works",
+    "learnerTask": "Distinguish sampled pieces from an oriented excision boundary",
+    "gap": "The workflow does not depict selected sample locations versus intact margins",
+    "accuracyGuardrails": "Show multiple recovered pieces versus an oriented excision boundary. Sampling is not a complete margin assessment or proof that the lesion was removed/cleared.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "992ff64a8da30c1adac402ab05982e40f2a7acc9bdda98945292f219e033103d",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/317",
+    "oneBasedRow": 318,
+    "originalTaskRowSHA256": "b9eb59866b50c1f7b8300ca138381621e950a180828af2978888a9cc8e91efb3",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "/root/batch13_tissue_reach_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "pageSHA256": "d8147e85a290be3ca34422bb7a9b7553e8fd678129572ad9ec419b0295dd182d",
+      "targetSection": "How it works",
+      "learnerTask": "Distinguish sampled pieces from an oriented excision boundary",
+      "gap": "The workflow does not depict selected sample locations versus intact margins",
+      "accuracyGuardrails": "Show multiple recovered pieces versus an oriented excision boundary. Sampling is not a complete margin assessment or proof that the lesion was removed/cleared.",
+      "sharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "Reuse sampled-pieces-versus-oriented-boundary-v2 unchanged. It directly contrasts separate sampled pieces and an oriented, documented excision surface, with handling and clearance caveats. Shared core local-window art explains the selected location, not an oriented excision. Retain prospective/not-adopted markers. No new art or shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-290",
+    "owner": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+    "author": "agent:/root/batch13_tissue_reach_author",
+    "actualDecisionAuthorLiteral": "/root/batch13_tissue_reach_author",
+    "reviewer": "agent:/root/batch13_tissue_reach_review",
+    "decisionSHA256": "559d9b671f2db2e900803819e7c03653c125b031cee19f50564f44ee1d25d31b",
+    "decisionFileSHA256": "58ee8c8bfbdaf981b44af4a184050165d1471c38e6eaf8135ccd18569972a748",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept direct reuse of the current sampled-pieces/oriented-boundary comparison. It supplies the exact difference the frozen task asks for and retains the handling and clearance cautions. A new drawing would duplicate that fit; no shared-owner change is authorized.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+    "reviewedAt": "2026-10-14T21:32:02.242543Z",
+    "implementationGate": "Root must bind this exact genuine decision/acceptance into the actual maintained planning contract and execution baseline; this peer acceptance is not canonical adoption or code approval."
+  },
+  "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "actualAuthorOwnerPreimageSHA256": "c8c66367124bf9351496c5ea5e8c8fb8618462e6f77a6d3fd91630d436751170",
+  "sourceChecks": [
+    {
+      "key": "acr-rsna",
+      "url": "https://www.radiologyinfo.org/en/info/breastbius",
+      "depth": "Fresh official society page; collection-type distinctions, recovered-material paragraph, concordance and sampling-limit sections personally read. Procedural instructions not copied.",
+      "scope": "Recovered fluid/cells/clusters versus local tissue pieces; sampling can miss or underestimate extent."
+    },
+    {
+      "key": "nci-pathology",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "depth": "Fresh official page; acquisition, tissue examination, gross and microscopic/margins passages personally read. Not all linked sources read.",
+      "scope": "Removed material provides represented architecture and boundary evidence; no complete-body clearance claim."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both themes of final task-native pairs, retained shared reference variants, and fresh390/1440px current-owner article plus theater.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named source files independently matched to pinned Git blobs before review captures.",
+    "scope": "Private pinned article/ImageTheater fixture; external installed dependencies, no full-app or production certification.",
+    "findings": "Correct current theme and theater source in all32 cases; no document horizontal overflow. Task geometry, labels, captions and alt text agree. Enter opens and Escape closes.",
+    "limits": [
+      "Escape returns focus to BODY and Tab leaves dialog in32/32 observed cases. No focus trap or full-app accessibility approval.",
+      "DCIS secondary layer labels are dense at346px article width. Primary inside/outside spatial contrast and main labels plus readable owner caption meet task288; comfortable reading of every fine label is not claimed.",
+      "Tall FNA/VAB originals fit theater height and appear narrower on wide viewports; article scrolling provides the larger complete teaching view."
+    ],
+    "denseDCISAdjudication": null
+  },
+  "creationProvenance": {
+    "creativeAuthor": "UNKNOWN as newly independently established creative person/model identity; retained literal provenance is separate",
+    "sourceCodeAuthor": null,
+    "creationMethod": "Exact retained native reuse; no new artwork or image-model invocation in this task",
+    "imageModelCallsThisTask": 0,
+    "retainedLiteralAttribution": [],
+    "unverifiedHistoricalFields": "UNKNOWN unless retained literal provenance establishes a specific claim; this reviewer does not re-verify old dispatch or model invocation.",
+    "prospectiveMarkersPreserved": true
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+        "sha256": "c8c66367124bf9351496c5ea5e8c8fb8618462e6f77a6d3fd91630d436751170",
+        "bytes": 8230
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+        "sha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4",
+        "bytes": 11134
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+        "sha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be",
+        "bytes": 11136
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+        "sha256": "86c15a065655c90d3738108367bf6d6ad5b28b90e9dcd3ad4a9af36cafed47af",
+        "bytes": 8751
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/sampled-pieces-versus-oriented-boundary-v2-public-custody.json",
+        "sha256": "4f686e12f171bddfcad62a118123127fa8135f84282b9a454d35f060f8c56f0a",
+        "bytes": 12626
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "sha256": "b66c0712a26a5470ad06d0484f592e8336d52cb574069751265a2d52e9cda22e",
+        "bytes": 8538
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "sha256": "2c29af9b51c4717f01fbc6ce49725c4e7bc4098b951ff6cd37acaa99b713015f",
+        "bytes": 8540
+      },
+      {
+        "path": "wiki/education/concepts/measurement/specimens/images/prompts/core-is-a-local-window-v1-public-custody.json",
+        "sha256": "b5d42c6cecaf7303cc9ce497cb45b87cf8477de06708fec33a94b0763e7ef3e5",
+        "bytes": 10836
+      }
+    ],
+    "scope": "Exact candidate, selected native outputs, new support where applicable, and bounded shared/current native/support guards.",
+    "originalAuthorSealSHA256": "2d2fbd29624e3666faf668d6193953444d7c345ade067329be0819e31f951563",
+    "originalAuthorManifestSHA256": "6f3cad116d3f12035885a0b5baa82ca531b14783af854bdcc89529764f286c26",
+    "inverseInsertionExact": true,
+    "retainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "One actual independent agent review of the selected visual, insertion and owner-task fit using recorded source access; not human clinical expertise or full unchanged-page recertification.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "actualFutureExecutionSourceCommit": null,
+  "rootSoleIntegratorAndPublisher": true
+}

@@ -70,6 +70,13 @@ The appropriate preparation and recovery thresholds belong to the named protocol
 
 ## Worked example and practice
 
+<div class="cartoon-frame">
+<img src="./images/lymphocyte-fraction-and-count-b13-v1-light.svg" width="760" height="1310" alt="Common-scale bars show fictional white-cell concentrations of 2000 then 500 per microliter. Teal lymphocyte portions are 400 then 200 per microliter, although the fractions rise from 20% to 40%. Separate notes retain whole-regimen attribution and distinguish counts from tumor killing." data-theme-pair>
+<p class="cartoon-caption">Both bars use the same zero and concentration scale. The denominator falls fourfold, so a doubled percentage still gives fewer lymphocytes per microliter: 400, then 200. This fictional arithmetic does not identify the cause of a count change or measure cancer killing. Conditioning, transferred cells and support form a whole regimen whose activity and harms need their own attribution.</p>
+</div>
+
+The [shared concept map](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug) supplies the background for this closer comparison.
+
 Fictional blood results: before preparation, there are 2,000 white cells per microliter and 20% are lymphocytes. Later there are 500 white cells per microliter and 40% are lymphocytes.
 
 **Try it:** Have the lymphocytes increased? Does either result measure cancer killing?

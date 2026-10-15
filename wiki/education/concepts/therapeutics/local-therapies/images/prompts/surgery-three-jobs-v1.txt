@@ -1,0 +1,10 @@
+Original source-code SVG construction brief — next-gap-291
+Actual source-code author: /root/batch13_tissue_reach_author
+No image-model invocation, model, or call identifier. Both native SVGs are editable source code.
+Frozen learner task: Separate breast removal, nodal sampling and reconstruction on one anatomy
+Current source: 8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f; current owner SHA256: 90fd22204ec1e35560e632d3320aefa759571649b0fcf7ccd306b3dbfc0e2175
+Typed decision SHA256: 61a129564e9d98f1daa23305a316150183ec2531045b49d6a7ff0c80111c92da
+Design relation: Extend only this overview owner: shared gland-removal-and-outer-structures-v1 explains breast excision extent but does not locate nodal sampling and reconstruction on one anatomy. Keep that reference unchanged and create a narrowly scoped three-job anatomical map with breast tissue, axillary nodes and shape-restoration overlay distinguished. No operative steps, mandatory combination, margin or whole-body clearance claim. additionalOwnerWrites remains empty.
+600 x1080 portrait, paired semantic geometry and palettes. Essential typography25px, supporting labels23px, headings32px. Original geometry, no copied source artwork. Broad conceptual anatomy; fictional shapes/counts/geometry.
+Accuracy: "conceptual anatomy; removed/sampled not whole body; reconstruction not cancer substitute"
+Human clinician/domain expert and learner review pending; no canonical adoption, coverage, source-fit, grade, delivery or publication credit.

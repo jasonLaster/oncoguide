@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "creator": "agent:/root/batch13_molecular_jobs_author",
+  "method": "Original source-code SVG; no image model invocation",
+  "modelsCalled": [],
+  "frozenTask": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "pageSHA256": "b648d4a74cea0a704a8df315188a908cba9b26058efc8357ad2e2f34cc9144d5",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate cassette boundaries and transposase relative to separate delivery and chromosome insertion.",
+    "gap": "Convergence boxes show component names but not the DNA insertion relationship.",
+    "accuracyGuardrails": "Separate cassette boundaries, transposase activity, delivery and insertion. Do not imply uniform/random-equal insertion probabilities, guaranteed persistence or a universal safety ranking.",
+    "sharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "sharedCanonicalOwnerUnchanged": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+  "decisionSHA256": "9259ef1452a347d5c3b9b0dc8946df802e006beb0b9c80682244ed2116748d71",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "allAdoptionDeliveryGradeCoverageCredits": 0,
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+      "theme": "light",
+      "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+      "theme": "dark",
+      "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9390559%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Complete abstract only",
+      "supports": "Transposase recognizes cassette ends and mediates insertion; no sequence/motif, insertion-site or engineering procedure carried into artwork.",
+      "readUTCDate": "2026-10-14"
+    }
+  ]
+}

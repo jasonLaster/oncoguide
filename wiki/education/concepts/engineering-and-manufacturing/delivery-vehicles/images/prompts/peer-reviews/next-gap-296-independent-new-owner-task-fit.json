@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-296",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+  "type": "concept",
+  "author": "agent:/root/batch13_molecular_jobs_author",
+  "reviewer": "agent:/root/batch13_molecular_jobs_review",
+  "reviewerRole": "Independent agent source/scientific/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:31:21.596142Z",
+  "currentOwnerSha256": "b268c50da77214a335fb8d2d24bdfe51a10baa0d201c6430c7c1bd0d84dc99b6",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; frozen/current baseline owner hashes separately bound. No canonical adoption/delivery is asserted.",
+  "intendedPublicPath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/peer-reviews/next-gap-296-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+      "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4",
+      "bytes": 5444,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1160
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+      "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3",
+      "bytes": 5444,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1160
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "b648d4a74cea0a704a8df315188a908cba9b26058efc8357ad2e2f34cc9144d5",
+    "learnerTask": "Locate cassette boundaries and transposase relative to separate delivery and chromosome insertion.",
+    "gap": "Convergence boxes show component names but not the DNA insertion relationship.",
+    "accuracyGuardrails": "Separate cassette boundaries, transposase activity, delivery and insertion. Do not imply uniform/random-equal insertion probabilities, guaranteed persistence or a universal safety ranking.",
+    "currentVisualFit": "adequate",
+    "reasoning": "Accept the narrow conceptual extension. The shared DNA-location scene already covers episomal/integrated forms and separate expression, but lacks the generic boundary/enzyme relation. The added cell/nucleus view distinguishes a bounded cassette, separate enzyme and chromosome insertion from delivery without specifying sequence, sites, carrier method, probabilities, persistence or safety ranking.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "pageSHA256": "b648d4a74cea0a704a8df315188a908cba9b26058efc8357ad2e2f34cc9144d5",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate cassette boundaries and transposase relative to separate delivery and chromosome insertion.",
+    "gap": "Convergence boxes show component names but not the DNA insertion relationship.",
+    "accuracyGuardrails": "Separate cassette boundaries, transposase activity, delivery and insertion. Do not imply uniform/random-equal insertion probabilities, guaranteed persistence or a universal safety ranking.",
+    "sharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "c5d2b2761a60bf3dac1458387320a85e3f38f0b69a7ac6b65df75d6f65449c87",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/151",
+    "oneBasedRow": 152,
+    "originalTaskRowSHA256": "706303952c03d825fd59a50ca36793c5542ddc1140667a5e43d91084e4d6d6bc",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+  "sourceBinding": {
+    "actualAuthorSourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "baselineOwnerSHA256": "b648d4a74cea0a704a8df315188a908cba9b26058efc8357ad2e2f34cc9144d5",
+    "baselineSharedOwnerSHA256": "6adf65f21f1edf182d3cc90b05d8138d57fb84332e7a5f96399630129050a4df",
+    "independentObservedHEAD": "8eee2a56a7e55e274339f2b922af95d5296cf8d5",
+    "exactSelectedOwnerSharedPreimagesAtIndependentCheck": true,
+    "futureActualExecutionSourceCommit": null,
+    "laterTeacherRebind": "Stop and rebind if any selected source bytes change before actual execution."
+  },
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+      "pageSHA256": "b648d4a74cea0a704a8df315188a908cba9b26058efc8357ad2e2f34cc9144d5",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate cassette boundaries and transposase relative to separate delivery and chromosome insertion.",
+      "gap": "Convergence boxes show component names but not the DNA insertion relationship.",
+      "accuracyGuardrails": "Separate cassette boundaries, transposase activity, delivery and insertion. Do not imply uniform/random-equal insertion probabilities, guaranteed persistence or a universal safety ranking.",
+      "sharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "The exact shared AAV scene distinguishes extra-chromosomal and inserted DNA plus separate expression. It does not locate generic cassette boundaries with a separate transposase enzyme or distinguish their job from delivery. Retain that canonical reference through a contextual link; add only a generic cell/nucleus cassette-enzyme-insertion relationship without sequences, insertion sites, carriers, protocols or safety ranking. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-296",
+    "owner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "author": "agent:/root/batch13_molecular_jobs_author",
+    "reviewer": "agent:/root/batch13_molecular_jobs_review",
+    "decisionSHA256": "9259ef1452a347d5c3b9b0dc8946df802e006beb0b9c80682244ed2116748d71",
+    "decisionFileSHA256": "c02f5135cdcf5a828fe5b38f04debfc9168107dd3052682f8954582ce9de8b93",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow conceptual extension. The shared DNA-location scene already covers episomal/integrated forms and separate expression, but lacks the generic boundary/enzyme relation. The added cell/nucleus view distinguishes a bounded cassette, separate enzyme and chromosome insertion from delivery without specifying sequence, sites, carrier method, probabilities, persistence or safety ranking.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "reviewedAt": "2026-10-14T21:31:21.596142Z",
+    "implementationGate": "Actual independent author-decision acceptance only; Root must adopt the actual future full task plan and execution bindings. No future baseline, validator run or release is claimed."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9390559%20AND%20SRC:MED&format=json&resultType=core",
+      "actualReadDepth": "Fresh complete primary abstract read independently; full paper and methods not read.",
+      "title": "Molecular reconstruction of Sleeping Beauty, a Tc1-like transposon from fish, and its transposition in human cells.",
+      "scope": "Bounded conceptual relation only; tested model/mechanism does not become a clinical treatment claim."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both selected native variants and all relevant retained shared native variants, plus fresh final current-owner article and theater at390px and1440px in both themes.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 source files independently compared against exact pinned Git blobs. Final served JSON matches the exact compiled current candidate records.",
+    "findings": "Task relation, labels, arrows/compartments/contacts, caption and alt agree. No selected native text-bound overflow, document horizontal overflow or page error in28states. Enter opens/Escape closes.",
+    "scope": "Private article/ImageTheater fixture only; no full-app, production, authentication/navigation or general accessibility certification.",
+    "limits": [
+      "Retained route-raster secondary labels and BET secondary domain labels are small at346px inline; main task contrast, surrounding caption/practice, theater and full-resolution download carry the distinction.",
+      "Escape returned focus to BODY;8-Tab cycles left the dialog in all4supplemental theme/width checks. These known viewer limitations remain, with no runtime edit.",
+      "Existing tables scroll locally and existing Mermaid size is unchanged."
+    ],
+    "inspectionTiming": "Reviewer inspected after final author drafts. This review does not claim author pre-art embedded QA. Author pre-art native/reuse decision timestamps remain literal, not retroactively recreated."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch13_molecular_jobs_author",
+    "creationMethod": "Original source-code SVG by the actual author; no image-model invocation",
+    "imageModelInvocationByCurrentAuthor": false,
+    "attributionLimit": "Existing literal provenance/support bytes remain exact. Direct-reuse creative identity remains UNKNOWN where retained records do not establish it; scientific author, reviewer and integrator identities do not imply original creative authorship."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+        "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3",
+        "bytes": 5444
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+        "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4",
+        "bytes": 5444
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1-provenance.json",
+        "sha256": "32dbc4363bd4853ef2265a5dc0fccbde3c86bfa3cdb46fc57f02cb640cb420b0",
+        "bytes": 2325
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1.txt",
+        "sha256": "a91797928629991646ecc0b31931ea33108b107b3707caf62ad86e9291c605f8",
+        "bytes": 732
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+        "sha256": "b268c50da77214a335fb8d2d24bdfe51a10baa0d201c6430c7c1bd0d84dc99b6",
+        "bytes": 9238
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-dark.svg",
+        "sha256": "4d460ee2a3d7e15e9b4e8f281d0ba146056a80418674ba7c2a52d0b56d3d16c9",
+        "bytes": 3983
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-light.svg",
+        "sha256": "d48646c04c3a23964ca4a17423c8f749899fc3c852f4e6426eeab6dedcb5e1fc",
+        "bytes": 3983
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/vector-dna-chromosome-and-expression-v1-provenance.json",
+        "sha256": "09867423f74fd2f31b87d558d6fcd60b65350b4ac5609cb12dd206a56e3aaa60",
+        "bytes": 6451
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/vector-dna-chromosome-and-expression-v1.txt",
+        "sha256": "4375e88d1bf7a286d2cb0d6da83a7b60e48a9dbded9090659e62ac6bf74e0fb3",
+        "bytes": 1417
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+        "sha256": "6adf65f21f1edf182d3cc90b05d8138d57fb84332e7a5f96399630129050a4df",
+        "bytes": 7931
+      }
+    ],
+    "originalAuthorSealSHA256": "e0f3734f8da2ab025aef872430b5c2bf49939c79e4b16f80d6407fbff9ecc4fe",
+    "originalAuthorManifestSHA256": "189800cf5265ab15ddef13d9b60c8d7092a0635817c5cdeef31bbd890100a878",
+    "originalAuthorCustodyZipSHA256": "f48981882d1bae6c9d104b0a0644741f2431199e0de3d325526ca212fbf1e92a",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded insertion/native/current-owner task fit with actual stated source depths; no human domain-expert approval.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

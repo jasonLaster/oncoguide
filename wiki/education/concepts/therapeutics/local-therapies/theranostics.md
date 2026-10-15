@@ -33,6 +33,14 @@ Imagine checking a delivery route before sending a different load along it. The 
 
 ## How it works
 
+### A scan starts the bridge; it does not finish it
+
+<img src="../../measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg" alt="A fictional small-vector imaging product plus label A gives a single image, while a distinct antibody therapy plus label B has a separate unscaled activity-over-time curve; dose requires product-specific data and a tissue-dose model, and benefit requires clinical outcomes." data-theme-pair width="600" height="1000">
+
+*Reuse the same target-M example from [target-directed PET tracers](/wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging). The scan describes the tested imaging product. A different therapeutic product needs evidence for its own distribution and retention, absorbed dose, safety and outcomes. The curve is fictional and unscaled; its area alone is not absorbed dose. Brightness is neither a dose calculation nor proof of benefit. [FDA: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download).*
+
+**Try the bridge:** A bright image from vector-plus-A is offered as proof that antibody-plus-B works. Which evidence is missing? **Answer:** Evidence fitting antibody-plus-B's behavior and dose, safety and clinical outcomes in the relevant setting. Sharing a target does not supply that evidence.
+
 A diagnostic tracer makes a target-related distribution visible. The related therapeutic product carries an isotope suited to treatment. The pair may share a targeting molecule, or use different molecules with a supported relationship to the same target. *Matched* does not necessarily mean chemically identical.
 
 Changing the targeting molecule, chelator, isotope or administered mass can change behavior. A small ligand and an antibody directed at the same protein may have very different clearance and tissue penetration. Even closely related products need evidence appropriate to the claim. [FDA's radiopharmaceutical development guidance](https://www.fda.gov/media/129547/download) discusses biodistribution, time-integrated activity and bridging between related products.

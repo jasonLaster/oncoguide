@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-306",
+  "actualSourceCodeAuthor": "/root/batch13_evidence_reading_author",
+  "creativeMethod": "Original SVG source code personally authored with geometric glyphs and text. No generative raster model called.",
+  "authorDecisionSHA256": "21ffecef28b360a6ddf87bcaad960cce3ded0959e6b41d41676b26c87f210f12",
+  "frozenTask": {
+    "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+    "pageSHA256": "9abaaee85781c23c9ca6efa547c1234157b8742dffdb59c8b4d2904bfcb792d9",
+    "targetSection": "A worked example: a sequence is the tested intervention",
+    "learnerTask": "See why randomization to a whole pre/postoperative sequence cannot isolate its postoperative component.",
+    "gap": "The question card is adequate, but the two sequences and differing event clocks would benefit from a compact timeline.",
+    "accuracyGuardrails": "Same starting clock and explicitly defined events; pCR patient association is not trial-level surrogacy; do not infer component benefit.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "selectedOwnerCurrentSHA256": "9abaaee85781c23c9ca6efa547c1234157b8742dffdb59c8b4d2904bfcb792d9",
+  "selectedOwnerProspectiveSHA256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+  "sharedReferenceCurrentSHA256": "eb01650547c20b2eed87604141a3622c0112ec2b9f36af6709ad02cbe6189287",
+  "retainedCreator": "UNKNOWN unless literal original support proves otherwise; no creator reassignment",
+  "creationBrief": "I read the current public trial-design reference, which has no native art, and the selected lesson. I reuse its random-assignment principle through the existing concept link. I choose a lesson-specific timeline of the exact fictional whole strategies: same chemotherapy and surgery, study drug versus placebo both before and after surgery, one randomization starting clock for both. Endpoint examples distinguish first recurrence/death from death alone without a new starting origin. The postoperative contribution remains unisolated, and no pCR association is elevated to surrogacy. No shared-owner writes. Before creating any new art, Root identified a separately reviewed private 40-page candidate for this exact shared reference. I metadata-gated and read that candidate and inspected both actual proposed native themes: phase purpose above concealed chance assignment branching to A/B, with separate post-assignment blinding. This proposed art supplies the general assignment distinction but no pre/postoperative whole-sequence comparison or event clocks, so the narrow lesson extension remains necessary. Its candidate hash 590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14 is recorded separately; it is not the current owner identity or an adopted source. Frozen nine fields and current explicit 8ec source identity remain exact. Actual post-40 source and delivery binding remain pending.",
+  "actualScript": "author-art.py in private author workspace",
+  "themes": "paired semantic palette; identical geometry and wording",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "delivery": "pending",
+  "publication": "pending",
+  "sourceAccess": [
+    {
+      "ids": [
+        306
+      ],
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics",
+      "type": "official FDA guidance landing page",
+      "actualDepth": "Fresh readable landing-page scope; followed actual final PDF."
+    },
+    {
+      "ids": [
+        306
+      ],
+      "url": "https://www.fda.gov/media/71195/download",
+      "type": "official FDA final guidance PDF December2018",
+      "actualDepth": "Fresh selected text, especially PDF pages9-11: randomization origin, death versus recurrence/death endpoint definitions and assessment bias. Not all19 pages read. Fictional sequence inference additionally follows assignment design in unchanged current lesson; no real trial result inserted."
+    }
+  ],
+  "actualClaimScope": "Only public primary or official source material relevant to added geometry/captions. Existing clinical examples in original Markdown are preserved, not independently recertified. No private case/vendor/meeting bodies or historical page bodies read or hashed."
+}

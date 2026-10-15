@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-source-code-svg",
+  "sourceCodeAuthor": "/root/batch13_tissue_reach_author",
+  "creativeAuthor": null,
+  "creativeAuthorNote": "Source-code authorship recorded directly; no image-model creative authorship claimed.",
+  "imageGeneration": {
+    "model": null,
+    "calls": 0,
+    "invocationIds": []
+  },
+  "owner": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+  "sourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+  "currentOwnerPreimage": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+    "sha256": "a361e449cd065f044a647afd38c1c8833cc2104e0433a7e694e724c8314a6f3b",
+    "bytes": 9224,
+    "gitBlobId": "e337a8ddafdee45537003f451102423272aee984",
+    "observedBytesEqualExplicitGitSource": true,
+    "sourceCommit": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "privatePreimage": "/tmp/education-next-visual-batch-13/selection/owner-preimages/wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+    "metadataGate": "sensitive:false verified before body read",
+    "bodyReadScope": "Full current authored public body; generated navigation inventoried separately, not interpreted",
+    "currentPreimageDiffersFromFrozenAudit": false,
+    "nativeEmbedCount": 0,
+    "actualH2Headings": [
+      "In one sentence",
+      "The intuition",
+      "How it works",
+      "Why it matters in cancer",
+      "How it is measured",
+      "Worked example and practice",
+      "Common confusions",
+      "Explain it back",
+      "Takeaway",
+      "Related concepts",
+      "Sources and scope",
+      "Used in"
+    ],
+    "targetHeadingPresentNow": true
+  },
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+    "pageSHA256": "a361e449cd065f044a647afd38c1c8833cc2104e0433a7e694e724c8314a6f3b",
+    "targetSection": "## How it works",
+    "learnerTask": "See moving target, dose falloff and organ at risk during positioning",
+    "gap": "Delivery workflow omits geometric sensitivity and respiratory motion",
+    "accuracyGuardrails": "Illustrative geometry not safe distance; precision not zero toxicity; local outcome distinct from distant",
+    "sharedCanonicalOwner": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+    "recommendedMedium": "schematic",
+    "priority": "P1"
+  },
+  "decisionSHA256": "81b0fd83ef2fd6ef082a0b1bc8a52e6ec91944eef42bbcb8e182b8b7ba71f475",
+  "brief": {
+    "file": "sbrt-motion-falloff-neighbor-v1.txt",
+    "sha256": "4b9d2ad7f4442a83a7b864d5b1383f2c7fa3001a8cb3eeeb2d93758097f0c396"
+  },
+  "nativeOutputs": [
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-light.svg",
+      "path": "/tmp/education-next-visual-batch-13/authors/tissue-sampling-and-treatment-reach/prospective/wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-light.svg",
+      "sha256": "4f0ccaa831b620039c0d86e7346650cc3695cf44d2e332b5d7cdd047a6ff02c0",
+      "retained": false
+    },
+    {
+      "repositoryPath": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-dark.svg",
+      "path": "/tmp/education-next-visual-batch-13/authors/tissue-sampling-and-treatment-reach/prospective/wiki/education/concepts/therapeutics/local-therapies/images/sbrt-motion-falloff-neighbor-v1-dark.svg",
+      "sha256": "ae8b1c3719a48b240dd593aa5e6ee85b3e2b386d5aebc685a2326595c442f49b",
+      "retained": false
+    }
+  ],
+  "constructionScript": {
+    "privatePath": "/tmp/education-next-visual-batch-13/authors/tissue-sampling-and-treatment-reach/draw-owned-svg.py",
+    "sha256": "8a647eda6c4bac21470e9e893b75af750ffd95830b0e6c409dc4ce9a62aad07a"
+  },
+  "sourceReferences": [
+    {
+      "id": "nci-external-beam",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+      "kind": "official education",
+      "readDepth": "IGRT, SBRT and treatment preparation/positioning sections read; no doses, timing, tolerance or operational prescription borrowed.",
+      "supports": "Body motion can change target position; image guidance and position verification matter; concentrated treatment does not establish zero normal-tissue exposure.",
+      "tasks": [
+        "next-gap-292"
+      ],
+      "fullTextRead": false,
+      "readBy": "/root/batch13_tissue_reach_author",
+      "sourceBodySHA256": null,
+      "custodyNote": "Read through web extraction; no claim to full response-byte custody, original retrieval time or full-text review."
+    },
+    {
+      "id": "astro-safety",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35283342/",
+      "kind": "primary consensus safety white paper abstract",
+      "readDepth": "Direct open returned one-line unavailable body; search retrieval subsequently exposed full abstract, which was read. No full paper read or numerical planning rule used.",
+      "supports": "Specialized technical/dosimetric quality assurance for stereotactic treatment; no safety certification for fictional diagram.",
+      "tasks": [
+        "next-gap-292"
+      ],
+      "fullTextRead": false,
+      "readBy": "/root/batch13_tissue_reach_author",
+      "sourceBodySHA256": null,
+      "custodyNote": "Read through web extraction; no claim to full response-byte custody, original retrieval time or full-text review."
+    }
+  ],
+  "humanReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "coverageCredit": 0
+}
