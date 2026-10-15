@@ -23,6 +23,8 @@ This path begins with the specimen and its treatment context. It then separates 
 
 The lessons focus on breast specimens, particularly after treatment before surgery. A biopsy, a surgery-first specimen and a post-treatment specimen are different settings. Keep that distinction visible rather than treating every pathology label as interchangeable.
 
+Have a report in front of you? Use the [six-question report card](/wiki/education/reading-a-tumor/index#read-the-report-in-this-order) to write down the specimen, measurement, evidence status, comparison, limits and decision question. Its [answered fictional example](/wiki/education/reading-a-tumor/index#work-through-a-fictional-result) shows how to complete the card without turning an observation into a treatment conclusion.
+
 ## The big ideas
 
 1. Collection date, report date and treatment timing provide different information. Read the specimen before the summary label.

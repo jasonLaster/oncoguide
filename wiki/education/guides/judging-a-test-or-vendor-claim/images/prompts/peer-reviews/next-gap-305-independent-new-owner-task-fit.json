@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-305",
+  "owner": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+  "author": "/root/batch13_evidence_reading_author",
+  "reviewer": "agent:/root/batch13_evidence_reading_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:34:01.871388+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "3151d2dd7182e4a5d4531b7c6170f9ce992e6fdaf6d9c1fe296874f5ecd82e3e",
+  "outputs": [
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "sha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca",
+      "bytes": 5193,
+      "nativeDimensions": [
+        760,
+        1495
+      ],
+      "theme": "light",
+      "method": "original SVG source code, zero image model calls"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "sha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f",
+      "bytes": 5193,
+      "nativeDimensions": [
+        760,
+        1495
+      ],
+      "theme": "dark",
+      "method": "original SVG source code, zero image model calls"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "d588116ee5e03ba0328d3add5548324f3fe7452f09b32d2f307d24e38b75d68a",
+    "learnerTask": "See which samples informed tuning and which supplied an independent performance check.",
+    "gap": "The evidence table is strong, but the same-data reuse versus locked external evaluation distinction is only described verbally.",
+    "accuracyGuardrails": "Keep tuning, threshold choice and evaluation separate; external hospital data alone does not prove transportability, calibration or utility.",
+    "targetSection": "Worked example: two fictional validation slides",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "Slide A visibly uses the same Hospital A outcomes for variable and threshold choices and apparent performance. Slide B locks preprocessing, variables and threshold before separate Hospital B evaluation; no B outcome returns to tuning. Failed-test denominators, suitable population, uncertainty, calibration and clinical utility remain separate questions. The shared donor/intervention map explains general independence but does not depict these actual lesson sample roles, so this bounded lesson extension is appropriate."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+    "pageSHA256": "d588116ee5e03ba0328d3add5548324f3fe7452f09b32d2f307d24e38b75d68a",
+    "targetSection": "Worked example: two fictional validation slides",
+    "learnerTask": "See which samples informed tuning and which supplied an independent performance check.",
+    "gap": "The evidence table is strong, but the same-data reuse versus locked external evaluation distinction is only described verbally.",
+    "accuracyGuardrails": "Keep tuning, threshold choice and evaluation separate; external hospital data alone does not prove transportability, calibration or utility.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/406",
+    "oneBasedRow": 407,
+    "originalTaskRowSHA256": "7f1493ba396796694e27f9ceda19e7910d21db582a06cf778f270f5faeacf7fb",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-305",
+    "owner": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+    "reviewer": "agent:/root/batch13_evidence_reading_review",
+    "decisionSHA256": "4674932df811a8f43f783726e19f03fdea8d8e904fdcc8a6a55d88ba1f9979de",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Slide A visibly uses the same Hospital A outcomes for variable and threshold choices and apparent performance. Slide B locks preprocessing, variables and threshold before separate Hospital B evaluation; no B outcome returns to tuning. Failed-test denominators, suitable population, uncertainty, calibration and clinical utility remain separate questions. The shared donor/intervention map explains general independence but does not depict these actual lesson sample roles, so this bounded lesson extension is appropriate."
+  },
+  "scientificSourceReview": {
+    "scope": "Independent agent targeted source review of new visual claims and shared-art fit. Existing source_checked dates retained; no recertification of every historical clinical claim.",
+    "sources": [
+      {
+        "url": "https://www.tripod-statement.org/wp-content/uploads/2023/02/TRIPOD-Cluster-EE.pdf",
+        "type": "original reporting-guideline explanation",
+        "actualReadDepth": "Fresh introduction and PDF page2 Box1 through external evaluation and page3 transportability paragraphs, lines113-210. Not all38 pages. Supports apparent/internal/external performance distinctions and limits of a single new setting."
+      }
+    ],
+    "failedAccess": [],
+    "sourceFiguresCopied": false,
+    "verbatimSourceWords": 0
+  },
+  "visualReview": {
+    "personallyInspectedExactNewOrReusedNativeThemes": true,
+    "sharedReferenceBothNativeThemesInspected": true,
+    "task306AdditionalReference": null,
+    "themeWordAndGeometryParity": true,
+    "articleAndTheaterInspected": true,
+    "viewportWidthPx": [
+      390,
+      1440
+    ],
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "independentlyMatchedRendererFiles": 87,
+    "displayCases": 4,
+    "noHorizontalOverflowObserved": true,
+    "pageErrors": [],
+    "EnterOpensTheater": true,
+    "TabFocus": "Observed link outside Dialog in all cases; focus trap not certified",
+    "EscapeFocus": "Closes Dialog and leaves BODY focused, not originating image",
+    "altCaptionAndPracticeMatched": true,
+    "limits": "Private bounded pinned reader fixture; no live data/navigation/runtime/full-app/comprehensive accessibility or actual learner-readability certification. Small secondary labels remain supplemented by full-size native, prose caption and alt. Retained references were preserved, not given blanket visual repair or creative attribution."
+  },
+  "custody": {
+    "sourceCommitObservedByAuthor": "8ec0ad2acb5b6c0413fe735cb6e4b852497afb2f",
+    "currentOwnerPreimageSHA256": "d588116ee5e03ba0328d3add5548324f3fe7452f09b32d2f307d24e38b75d68a",
+    "prospectiveOwnerSHA256": "3151d2dd7182e4a5d4531b7c6170f9ce992e6fdaf6d9c1fe296874f5ecd82e3e",
+    "insertionInverseExact": true,
+    "ownedProspectiveFiles": [
+      {
+        "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+        "sha256": "3151d2dd7182e4a5d4531b7c6170f9ce992e6fdaf6d9c1fe296874f5ecd82e3e",
+        "bytes": 10624
+      },
+      {
+        "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+        "sha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f",
+        "bytes": 5193
+      },
+      {
+        "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+        "sha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca",
+        "bytes": 5193
+      },
+      {
+        "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1-provenance.json",
+        "sha256": "c0ffd8aab40f614bd0796fb01604044494f1b96040d0232779c181ad669fe703",
+        "bytes": 4164
+      },
+      {
+        "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1.txt",
+        "sha256": "6389c157777ce9fb9fb1a68969e6b5c894192b7036868d465f37469b76616190",
+        "bytes": 1496
+      }
+    ],
+    "newArtworkCreativeAuthor": "/root/batch13_evidence_reading_author",
+    "retainedAttribution": "Retained literal original support unchanged; UNKNOWN where unproved. Existing living-drug provenance names agent:/root/batch08_author_group3; no reassignment."
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "productionVerifiedByThisReview": false,
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0
+}

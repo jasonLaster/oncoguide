@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "next-gap-305",
+  "actualSourceCodeAuthor": "/root/batch13_evidence_reading_author",
+  "creativeMethod": "Original SVG source code personally authored with geometric glyphs and text. No generative raster model called.",
+  "authorDecisionSHA256": "4674932df811a8f43f783726e19f03fdea8d8e904fdcc8a6a55d88ba1f9979de",
+  "frozenTask": {
+    "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+    "pageSHA256": "d588116ee5e03ba0328d3add5548324f3fe7452f09b32d2f307d24e38b75d68a",
+    "targetSection": "Worked example: two fictional validation slides",
+    "learnerTask": "See which samples informed tuning and which supplied an independent performance check.",
+    "gap": "The evidence table is strong, but the same-data reuse versus locked external evaluation distinction is only described verbally.",
+    "accuracyGuardrails": "Keep tuning, threshold choice and evaluation separate; external hospital data alone does not prove transportability, calibration or utility.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "selectedOwnerCurrentSHA256": "d588116ee5e03ba0328d3add5548324f3fe7452f09b32d2f307d24e38b75d68a",
+  "selectedOwnerProspectiveSHA256": "3151d2dd7182e4a5d4531b7c6170f9ce992e6fdaf6d9c1fe296874f5ecd82e3e",
+  "sharedReferenceCurrentSHA256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+  "retainedCreator": "UNKNOWN unless literal original support proves otherwise; no creator reassignment",
+  "creationBrief": "I inspected both retained model-validation SVG themes and current public owner/reference text. The old art explains shared versus held-out donor and intervention identities. I retain it unchanged and reuse the linked independence principle, but it does not show these fictional Hospital A patients selecting variables and threshold, the same A patients rerun, and locked choices evaluated on separate Hospital B patients. I choose a lesson-specific comparison that makes these sample roles and no-tuning-backflow boundary visible. External hospital evaluation alone does not establish transportability, calibration or utility. No shared-owner or old-native/support writes.",
+  "actualScript": "author-art.py in private author workspace",
+  "themes": "paired semantic palette; identical geometry and wording",
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "delivery": "pending",
+  "publication": "pending",
+  "sourceAccess": [
+    {
+      "ids": [
+        305
+      ],
+      "url": "https://www.tripod-statement.org/resources/",
+      "type": "official reporting-guideline resources",
+      "actualDepth": "Fresh readable resource page",
+      "failedAccess": "Linked validation Word checklist could not be fetched by web tool due unsupported application/msword; no checklist-body read claimed."
+    },
+    {
+      "ids": [
+        305
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/",
+      "type": "reporting guideline mirror",
+      "actualDepth": "No body access",
+      "failedAccess": "Checking-browser challenge. Not used as a freshly read full source."
+    },
+    {
+      "ids": [
+        305
+      ],
+      "url": "https://www.tripod-statement.org/wp-content/uploads/2023/02/TRIPOD-Cluster-EE.pdf",
+      "type": "original reporting-guideline explanation and elaboration",
+      "actualDepth": "Fresh readable selected PDF text: introduction and page2 Box1 on development, apparent performance, internal versus external evaluation. Not all38 pages read. Supports same-patient versus outside-development dataset distinction."
+    }
+  ],
+  "actualClaimScope": "Only public primary or official source material relevant to added geometry/captions. Existing clinical examples in original Markdown are preserved, not independently recertified. No private case/vendor/meeting bodies or historical page bodies read or hashed."
+}

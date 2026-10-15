@@ -58,6 +58,10 @@ This method adds experimental presentation evidence to a vaccine candidate board
 
 There is no universal tissue requirement or detection threshold. Those belong to the named laboratory method.
 
+## Preservation needs method-specific validation
+
+**Formalin-fixed, paraffin-embedded (FFPE) tissue cannot be assumed usable for an assay validated on cells or frozen tissue.** Without a validated FFPE workflow, an archived block may be unusable in practice for that assay. Confirm compatibility before consuming scarce tissue or interpreting non-detection. [Sirois and colleagues (2021)](https://www.jove.com/t/63052/immunopeptidomics-isolation-mouse-human-mhc-class-i-ii-associated) demonstrated their method in cell lines and proposed FFPE adaptation; that proposal does not establish routine FFPE performance. [Immunohistochemistry (IHC)](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) and [total-protein profiling](/wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics) answer different questions; their success does not validate recovery of HLA-associated peptides. Preservation compatibility must be established for the named method and input.
+
 ## Worked example
 
 A fictional specimen yields peptide A but not peptide B. A has measured support in that preparation. For B, ask whether the relevant allele was recovered, whether the altered sequence was searchable and whether sensitivity was adequate. “A detected, B absent everywhere” would be a much stronger claim than the experiment supports.
@@ -95,6 +99,8 @@ Source check: October 10, 2026. This page explains a method or mechanism. Expert
 - [Sarkizova et al., primary HLA-associated peptide dataset](https://www.nature.com/articles/s41587-019-0322-9).
 - [Wilhelm et al., 2021](https://www.nature.com/articles/s41467-021-23713-9), identification sensitivity and sequence-assignment limitations.
 - [Chong et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29242379/), class-I/class-II capture and method-specific recovery, not a universal tissue requirement.
+
+Focused source check: October 14, 2026. The preservation addition uses the Sirois 2021 abstract and selected primary discussion, plus the [2022 quantitative tissue study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10130759/)'s selected specimen-description text. The latter separates frozen peptide–HLA analysis from FFPE histology. No universal FFPE feasibility claim or full-paper review is made; expert and learner review remain pending.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

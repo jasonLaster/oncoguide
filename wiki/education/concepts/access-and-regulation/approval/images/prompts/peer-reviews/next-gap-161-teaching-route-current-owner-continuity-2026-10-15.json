@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-161",
+  "owner": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+  "author": "agent:/root/teaching_route_successor_author",
+  "authorRole": "Author of only the two new routing insertions; no earlier prose/art authorship claim.",
+  "reviewer": "agent:/root/teaching_continuity_review",
+  "reviewedAtUTC": "2026-10-15T01:00:32.278328+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "acceptanceScope": "Independent focused task-fit continuity of this exact private route-only current-owner proposal and unchanged selected native pair; no whole-page, science, native-render or release recertification.",
+  "currentOwnerSha256": "1dd66dd84092aead2e84ae64a876d856e24bbb111f8c0b1aaf56ba5ca9f2ae72",
+  "priorCurrentOwnerSha256": "d51415888c8f0e2363f67a7beb237cc737e88b0f47e9ad1a7a44a9a3ba6789a1",
+  "sourceTeachingCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+  "sourceAuditMetadataCommit": "e0d0e529c66b56b6ab79f3a2f45b718073e43716",
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "f5e27ba4ff088cac1c2e9a47cc034a6e533e41ffb8bfef0c31954b48ac0d0f14",
+    "learnerTask": "Keep assay, specimen, result rule and corresponding treatment paired.",
+    "gap": "The current four-box reading sequence does not show why a same-gene research result fails the label-defined match.",
+    "accuracyGuardrails": "Pair the exact assay, specimen, result rule and corresponding treatment/use. A same-gene research result or different analyte cannot be substituted for a label-defined companion diagnostic.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The unchanged intended-use section at lines60–84 preserves the four-field fictional match, the same-gene research mismatch, device-specific interpretation and no-guaranteed-benefit limit. I inherit the unchanged pair's visual and science approval only from the selected genuine receipt. I checked the new Used-in line130 and exact d513108b... destination lines51–55 and65–69: the route point says assay/specimen/result-rule/treatment must match, then the hypothetical companion-use card keeps all those fields attached and rejects changed specimen, analyte or setting as a substitute. The route neither creates real product equivalence nor waives the label-defined match. Exact inverse reconstruction leaves the frozen task section, media and all prior text unchanged, so adequate fit continues for this bounded routing delta."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/assay-specimen-rule-and-use-v1-independent-owner-review.json",
+      "sha256": "2caf3ddd11c5f5a2c53b597ae3d19072d5ff389d5c5ffa21421064699ec1f326"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-batch06-2026-10-13-owner-continuity.json",
+      "sha256": "ebef57ee4c8c1499b9dbb8230457b3f9fabda200eedbe240aa9e4b957f319e23"
+    }
+  },
+  "retainedOriginalActorsLiteral": {
+    "author": "agent:/root/batch06_author_group3",
+    "creativeAuthor": "agent:/root/batch06_author_group3",
+    "reviewer": "agent:/root/batch06_review_group3"
+  },
+  "retainedAttributionFromPreparationLiteral": {
+    "author": "agent:/root/batch06_author_group3",
+    "reviewer": "agent:/root/batch06_review_group3",
+    "integrationAuthor": "root"
+  },
+  "attributionQualification": "Literal actors and historical roles retained without promoting assignments into creative proof. This reviewer authored no current route, original artwork, or Root integration.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+        "sha256": "1dd66dd84092aead2e84ae64a876d856e24bbb111f8c0b1aaf56ba5ca9f2ae72",
+        "bytes": 9068
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
+        "sha256": "e1eed75db09f7d9cdb470b015754c8a01306cb0188fff5b7d7f27c1fc0b3b08f",
+        "bytes": 3229
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-dark.svg",
+        "sha256": "bffdfa78f58472c0e4ada44499a5591144386060a922163124fb6b6775482bc1",
+        "bytes": 3229
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/assay-specimen-rule-and-use-v1.txt",
+        "sha256": "615b2aeb9badead724aa4c50ff8153fe4afe3f1bd42954467ccac24e524584e3",
+        "bytes": 781
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/assay-specimen-rule-and-use-v1-provenance.json",
+        "sha256": "0f7096869f5f377fa5b454b4298a484a5575a19958c2a428dbdbc645bd26be27",
+        "bytes": 4267
+      }
+    ],
+    "unchangedNativeOutputs": [
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
+        "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
+        "sha256": "e1eed75db09f7d9cdb470b015754c8a01306cb0188fff5b7d7f27c1fc0b3b08f",
+        "bytes": 3229,
+        "nativeDimensions": {
+          "width": 600,
+          "height": 900,
+          "viewBox": "0 0 600 900"
+        },
+        "theme": "light"
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-dark.svg",
+        "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-dark.svg",
+        "sha256": "bffdfa78f58472c0e4ada44499a5591144386060a922163124fb6b6775482bc1",
+        "bytes": 3229,
+        "nativeDimensions": {
+          "width": 600,
+          "height": 900,
+          "viewBox": "0 0 600 900"
+        },
+        "theme": "dark"
+      }
+    ],
+    "inheritedOriginalCustodyHashesLiteral": [
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+        "sha256": "d51415888c8f0e2363f67a7beb237cc737e88b0f47e9ad1a7a44a9a3ba6789a1",
+        "bytes": 8869
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
+        "sha256": "e1eed75db09f7d9cdb470b015754c8a01306cb0188fff5b7d7f27c1fc0b3b08f",
+        "bytes": 3229
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-dark.svg",
+        "sha256": "bffdfa78f58472c0e4ada44499a5591144386060a922163124fb6b6775482bc1",
+        "bytes": 3229
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/assay-specimen-rule-and-use-v1.txt",
+        "sha256": "615b2aeb9badead724aa4c50ff8153fe4afe3f1bd42954467ccac24e524584e3",
+        "bytes": 781
+      },
+      {
+        "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/assay-specimen-rule-and-use-v1-provenance.json",
+        "sha256": "0f7096869f5f377fa5b454b4298a484a5575a19958c2a428dbdbc645bd26be27",
+        "bytes": 4267
+      }
+    ],
+    "oldReceiptBytesAndSealsUnmodified": true,
+    "oldCustodyHashVerification": "All selected public old owner/native/TXT/provenance bytes match prior custody and committed532; current candidate owner is separately bound."
+  },
+  "boundedDelta": {
+    "destination": "wiki/education/molecular-profiling/07-from-data-to-care-plan.md",
+    "destinationCandidateSHA256": "d513108b4775cb31c8aed471a0340d8db3497222affd9e48709593fc7079c95a",
+    "exactAddedMetadataFragment": ",\"[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]\"",
+    "exactAddedUsedInBullet": "- [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)\n",
+    "inverseReconstructsExactCommitted532": true,
+    "inverseSHA256": "d51415888c8f0e2363f67a7beb237cc737e88b0f47e9ad1a7a44a9a3ba6789a1",
+    "onlyRoutingInsertions": true,
+    "allOtherBytesPreserved": true,
+    "focusedPersonalInspection": {
+      "ownerLines": [
+        60,
+        84,
+        124,
+        131
+      ],
+      "destinationLines": [
+        51,
+        55,
+        65,
+        69
+      ]
+    },
+    "sourceFitApprovalGrantedByThisReview": false
+  },
+  "inheritedEvidenceLimits": {
+    "priorSourceFitInheritedByExactHash": true,
+    "priorActualDeliveryInheritedByExactHash": true,
+    "selectedReleaseMetadataCommittedAt": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "priorActualDelivery": {
+      "sourceCommit": "3822a8a52247ac6b479229ec3769ba5334dc5ac2",
+      "companionCommit": "f16b6c1882c7930fbea74ea394d2da96a509ea10",
+      "liveAt": "2026-10-13T18:32:19.845Z",
+      "dianaContentAndVisibilityMatch": true,
+      "oncoguideNativeBytesMatch": true,
+      "zeroDrift": true
+    },
+    "newScientificClaimsChecked": false,
+    "nativeOrUIRerun": false,
+    "wholePagePrimaryRecertification": false,
+    "historyRerun": false,
+    "currentProposalDelivered": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newVisualCredit": 0,
+  "newScientificGrade": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newSourceFitApproval": false,
+  "sourceFitApprovedByThisReview": false,
+  "productionVerifiedByThisReview": false,
+  "proposalStatus": "ordinary owner-local peer receipt proposal only; not exported by supplemental helper, adopted, executable, published or registered",
+  "prospectiveOwnerLocalPath": "wiki/education/concepts/access-and-regulation/approval/images/prompts/peer-reviews/next-gap-161-teaching-route-current-owner-continuity-2026-10-15.json",
+  "supplementalExportRun": false,
+  "executionRef": null,
+  "futureDeliveryRef": null,
+  "remainingWork": "Root whole-eleven aggregate acceptance, separate original18 and original7 release acceptance, adoption/executable baseline, actual both-site delivery and later accounting remain unperformed by this reviewer."
+}

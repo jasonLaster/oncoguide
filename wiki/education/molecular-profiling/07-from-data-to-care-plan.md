@@ -48,6 +48,36 @@ For example, a somatic repair-gene finding and a genomic scar are not automatica
 
 The distinction is constructive: the result can support a research hypothesis, a confirmatory test or a trial question even when it does not support the stronger prescription claim.
 
+### Which use is established, and which is research?
+
+Start with the intended decision, not the technology's name. A [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) supplies treatment-linked information within a specified use. Match the assay, specimen, result rule and corresponding treatment context; a shared gene name is not enough.
+
+[Research use only (RUO)](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers), laboratory-developed test (LDT), Clinical Laboratory Improvement Amendments (CLIA) certification and Food and Drug Administration (FDA) authorization describe different objects. RUO describes a product's research purpose; LDT describes development and use within a laboratory. CLIA concerns laboratory standards. FDA authorization concerns a product and intended use. These are separate questions, not stages or a universal evidence score. A CLIA certificate cannot supply missing evidence that a new score improves a treatment decision.
+
+Compare these three cards. None asks you to order a test or choose treatment for a person.
+
+**A. Validated, marker-specific pathology use**
+
+- **Decision:** Establish estrogen receptor (ER) status in invasive breast cancer tissue, for its recognized pathology and endocrine-treatment assessment context.
+- **Test chain:** Validated [immunohistochemistry (IHC)](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) on appropriately handled, formalin-fixed tumor tissue, with staining controls. Retain the fraction of tumor nuclei staining, intensity and the ER-specific interpretation rule. The active **American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP) 2020 guideline** retains an ER low-positive category and its limited-benefit-evidence comment; an inadequate or uninterpretable result is not negative.
+- **Limit:** This established use does not validate a new research RNA score as a substitute. It does not predict one person's benefit or supply every breast-marker classification. [Current guideline and recommendations](https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/).
+
+**B. Hypothetical, label-matched companion use**
+
+- **Decision:** Supply a required biomarker result for fictional Drug A in fictional disease setting S. Assume both hypothetical labels specify this use.
+- **Test chain:** Fictional assay T, version 1, detects qualifying alteration M in formalin-fixed tumor tissue under rule R. The report matches that assay, specimen and rule; the corresponding treatment label specifies setting S.
+- **Limit:** Within the exercise, the stipulated match supplies the required information. Benefit remains uncertain. A different specimen, expression result or treatment setting needs evidence for that changed use. No real product authorization or eligibility is asserted.
+
+**C. Fictional exploratory multi-omics use**
+
+- **Decision:** Explore a hypothesis about pathway P; the report also proposes choosing Drug A.
+- **Test chain:** Research score Q, version 1, combines RNA abundance, spatial cell neighborhoods and a derived culture's functional response. Specimen mapping and algorithm are recorded. Its invented “high” rule has no established treatment-selection validation.
+- **Limit:** Reproducibility and biological support can make Q useful research evidence. They do not show that Q-guided care improves outcomes in a defined population against an appropriate comparator. Laboratory certification would not fill that gap.
+
+**Try it:** Which card describes an established clinical use, which depends on a stipulated label match, and which keeps treatment selection in research? Could all three be sorted by modality or a laboratory badge alone?
+
+**Answer:** A is the established marker-specific pathology example. B supplies a hypothetical label-defined requirement only because every intended-use field matches. C supports a research question; its proposed treatment-selection claim lacks utility evidence. None can be classified by modality or certification alone. Useful research evidence and an established clinical decision can coexist on different parts of the same report.
+
 ## Ask whether the observations are independent
 
 DNA, RNA and protein can strengthen a consequence chain because they inspect different objects. They remain linked biologically. They can also share specimen contamination, wrong cell assignments or the same assumed variant list.
@@ -95,3 +125,10 @@ Source check: October 9, 2026. The examples are fictional and teach interpretati
 - [NCI biomarker testing: assay and treatment context](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).
 - [European Society for Medical Oncology (ESMO) 2022 circulating tumor DNA (ctDNA) recommendations](https://pubmed.ncbi.nlm.nih.gov/35809752/).
 - [[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability|Actionability and clinical evidence]].
+
+Point-of-use worksheet source check: October 13, 2026; original fictional repair ledger and human-review status retained.
+
+- [ASCO/CAP ER/PR guideline, active 2020 update](https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/) and [official recommendations](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf) — marker-specific interpretation, controls and uninterpretable results; one case-neutral pathology example, not a universal testing list.
+- [FDA companion diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics) and [April 2020 labeling guidance](https://www.fda.gov/media/120340/download) — treatment, specimen, alteration and decision-rule context; Card B is entirely hypothetical.
+- [CMS CLIA/LDT questions, 2013](https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf) — laboratory analytical oversight versus clinical validity; historical FDA enforcement discussion is not used as current law.
+- [FDA research-use labeling guidance, November 2013](https://www.fda.gov/media/87374/download) — intended-use sections; not a legal determination about a specific test.

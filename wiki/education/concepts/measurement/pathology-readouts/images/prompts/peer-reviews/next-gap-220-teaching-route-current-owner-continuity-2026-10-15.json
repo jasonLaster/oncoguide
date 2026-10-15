@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-220",
+  "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+  "author": "agent:/root/teaching_route_successor_author",
+  "authorRole": "Author of only the two new routing insertions; no earlier prose/art authorship claim.",
+  "reviewer": "agent:/root/teaching_continuity_review",
+  "reviewedAtUTC": "2026-10-15T01:00:32.278328+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "acceptanceScope": "Independent focused task-fit continuity of this exact private route-only current-owner proposal and unchanged selected native pair; no whole-page, science, native-render or release recertification.",
+  "currentOwnerSha256": "f68dfbdf30f370840a752f22f9519935522dcb7910b542675ebf0b88f472d94e",
+  "priorCurrentOwnerSha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+  "sourceTeachingCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+  "sourceAuditMetadataCommit": "e0d0e529c66b56b6ab79f3a2f45b718073e43716",
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "dc4a94b9441935a5e2ab1470e47f2c9382e47eaf4ed970ba0028339a04694d1d",
+    "learnerTask": "Distinguish intensity-weighted index from positive-cell percentage",
+    "gap": "The generic scoring flow does not show the intensity distribution",
+    "accuracyGuardrails": "Preserve intensity categories and their denominator: fictional H-score110 is distinct from50% positive. Allred is a separate categorical scale; neither is molecule count, a universal cutoff or interchangeable assay output.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The unchanged owner section at lines46–54 still separates a fictional50% positive-cell fraction from intensity-weighted H-score110 with the same100-cell denominator, keeps Allred categorical, and denies molecule counts or universal cutoff interpretation. Pair/native/science adequacy is inherited from the selected genuine review. I checked the new line121 and exact d513108b... destination lines59–63: its pathology example retains fraction, intensity and an ER-specific rule rather than treating a generic composite as a clinical threshold; it keeps inadequate results distinct from negative and does not claim an individual's benefit. This supplies an appropriate use context without changing the frozen distinction. Only the added metadata item and bullet disappear under the inverse, reproducing committed532, so the current adequate fit and guardrails continue."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/peer-reviews/ihc-intensity-distribution-and-positive-fraction-v1-independent-owner-review.json",
+      "sha256": "a40278e6439e0005d0ce3c1e5c56bf18a4fe36b21e368a807203f9c877074597"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-batch09-2026-10-14-owner-continuity.json",
+      "sha256": "da6619b977ab9b0bd21619d0c312929fa2c89e61bd03f3cd88f3d06178fc53e0"
+    }
+  },
+  "retainedOriginalActorsLiteral": {
+    "author": "agent:/root/batch09_author_group2",
+    "creativeAuthor": "agent:/root/batch09_author_group2",
+    "reviewer": "agent:/root/batch08_review_group2"
+  },
+  "retainedAttributionFromPreparationLiteral": {
+    "author": "agent:/root/batch09_author_group2",
+    "reviewer": "agent:/root/batch08_review_group2",
+    "integrationAuthor": "root"
+  },
+  "attributionQualification": "Literal actors and historical roles retained without promoting assignments into creative proof. This reviewer authored no current route, original artwork, or Root integration.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+        "sha256": "f68dfbdf30f370840a752f22f9519935522dcb7910b542675ebf0b88f472d94e",
+        "bytes": 10105
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733",
+        "bytes": 16652
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7",
+        "bytes": 16652
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/ihc-intensity-distribution-and-positive-fraction-v1.txt",
+        "sha256": "bead3f371f9ae220e6e290af9f1d9e25c0708972602f71307f13502565c22d55",
+        "bytes": 2270
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/ihc-intensity-distribution-and-positive-fraction-v1-provenance.json",
+        "sha256": "c6d91d3afa1b193f4658dc4a2c721346f13e856e746434491f628c4a0dbef59f",
+        "bytes": 6015
+      }
+    ],
+    "unchangedNativeOutputs": [
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733",
+        "bytes": 16652,
+        "theme": "light",
+        "nativeDimensions": {
+          "width": 780,
+          "height": 1450,
+          "viewBox": "0 0 780 1450"
+        }
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7",
+        "bytes": 16652,
+        "theme": "dark",
+        "nativeDimensions": {
+          "width": 780,
+          "height": 1450,
+          "viewBox": "0 0 780 1450"
+        }
+      }
+    ],
+    "inheritedOriginalCustodyHashesLiteral": [
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+        "sha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+        "bytes": 9906
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733",
+        "bytes": 16652
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7",
+        "bytes": 16652
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/ihc-intensity-distribution-and-positive-fraction-v1.txt",
+        "sha256": "bead3f371f9ae220e6e290af9f1d9e25c0708972602f71307f13502565c22d55",
+        "bytes": 2270
+      },
+      {
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/ihc-intensity-distribution-and-positive-fraction-v1-provenance.json",
+        "sha256": "c6d91d3afa1b193f4658dc4a2c721346f13e856e746434491f628c4a0dbef59f",
+        "bytes": 6015
+      }
+    ],
+    "oldReceiptBytesAndSealsUnmodified": true,
+    "oldCustodyHashVerification": "All selected public old owner/native/TXT/provenance bytes match prior custody and committed532; current candidate owner is separately bound."
+  },
+  "boundedDelta": {
+    "destination": "wiki/education/molecular-profiling/07-from-data-to-care-plan.md",
+    "destinationCandidateSHA256": "d513108b4775cb31c8aed471a0340d8db3497222affd9e48709593fc7079c95a",
+    "exactAddedMetadataFragment": ",\"[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]\"",
+    "exactAddedUsedInBullet": "- [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)\n",
+    "inverseReconstructsExactCommitted532": true,
+    "inverseSHA256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+    "onlyRoutingInsertions": true,
+    "allOtherBytesPreserved": true,
+    "focusedPersonalInspection": {
+      "ownerLines": [
+        46,
+        54,
+        113,
+        126
+      ],
+      "destinationLines": [
+        59,
+        63
+      ]
+    },
+    "sourceFitApprovalGrantedByThisReview": false
+  },
+  "inheritedEvidenceLimits": {
+    "priorSourceFitInheritedByExactHash": true,
+    "priorActualDeliveryInheritedByExactHash": true,
+    "selectedReleaseMetadataCommittedAt": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "priorActualDelivery": {
+      "sourceCommit": "6ef2b16c11999c6c58325748c10a5ebd46b77c61",
+      "companionCommit": "fa4cada057e6e5660d71074acb5267368063a27a",
+      "liveAt": "2026-10-14T19:32:19.447Z",
+      "dianaContentAndVisibilityMatch": true,
+      "oncoguideNativeBytesMatch": true,
+      "zeroDrift": true
+    },
+    "newScientificClaimsChecked": false,
+    "nativeOrUIRerun": false,
+    "wholePagePrimaryRecertification": false,
+    "historyRerun": false,
+    "currentProposalDelivered": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newVisualCredit": 0,
+  "newScientificGrade": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newSourceFitApproval": false,
+  "sourceFitApprovedByThisReview": false,
+  "productionVerifiedByThisReview": false,
+  "proposalStatus": "ordinary owner-local peer receipt proposal only; not exported by supplemental helper, adopted, executable, published or registered",
+  "prospectiveOwnerLocalPath": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/peer-reviews/next-gap-220-teaching-route-current-owner-continuity-2026-10-15.json",
+  "supplementalExportRun": false,
+  "executionRef": null,
+  "futureDeliveryRef": null,
+  "remainingWork": "Root whole-eleven aggregate acceptance, separate original18 and original7 release acceptance, adoption/executable baseline, actual both-site delivery and later accounting remain unperformed by this reviewer."
+}

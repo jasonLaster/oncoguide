@@ -54,11 +54,13 @@ In a fictional experiment, receptor R is high in malignant cells, low in fibrobl
 
 Tissue staining places R on cancer-cell membranes. That adds localization, but normal-organ access and expression still matter. In a model, blocking R has little effect on growth. R may be a possible delivery address for an antibody–drug conjugate, a medicine that carries a payload through an antibody. It has not demonstrated itself as a growth dependency.
 
-**Enrichment** means higher in the stated comparison. **Selectivity** asks how well the target distinguishes relevant cancer from normal tissue. **Dependency** asks whether perturbing it impairs survival or growth under suitable conditions. These terms should not trade places halfway through the story.
+**Enrichment** means higher in the stated comparison. **Selectivity** asks how well the target distinguishes relevant cancer from normal tissue. [**Dependency**](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) asks whether perturbing it impairs survival or growth under suitable conditions. These terms should not trade places halfway through the story.
+
+The [evidence chain from variant to benefit](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) keeps the supported finding, biological effect, drug response and clinical benefit separate.
 
 ## Audit a variant claim too
 
-A variant caller is software proposing DNA changes. **PASS** means its filters passed. **Consensus** means agreement under a specified rule. Neither is independent confirmation.
+A [variant caller](/wiki/education/concepts/measurement/sequencing-basics/variant-calling) is software proposing DNA changes. **PASS** means its filters passed. **Consensus** means agreement under a specified rule. Neither is independent confirmation.
 
 Paired sequencing reads can come from one original fragment. Counting them as two independent supports inflates confidence. Mapping errors, repetitive sequence and contamination require review. Positive controls show that expected signals can be recovered; they do not make every proposed call correct.
 

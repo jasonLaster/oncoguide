@@ -7,7 +7,7 @@ glossary_anchor: "ruo-ldt-clia-and-fda-tiers"
 aliases: ["RUO", "research use only", "LDT", "laboratory-developed test", "CLIA", "FDA test authorization"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
 updated: "2026-10-10"
@@ -134,4 +134,5 @@ U.S. regulatory source check: October 10, 2026. Expert and learner review remain
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
+- [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)
 <!-- END GENERATED USED IN -->

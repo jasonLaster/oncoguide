@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"
   - "[[wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]"]
 sensitive: false
 tags: [education, evidence-and-statistics]
 updated: 2026-10-10
@@ -110,4 +110,5 @@ Source check: October 10, 2026. General reasoning, with a fictional model. Funct
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
 - [Check clinical evidence and access](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
+- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
 <!-- END GENERATED USED IN -->

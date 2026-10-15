@@ -7,7 +7,7 @@ glossary_anchor: "companion-diagnostics"
 aliases: ["companion diagnostic","CDx"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
 updated: "2026-10-10"
@@ -127,4 +127,5 @@ U.S. source check: October 10, 2026. The example is fictional; no product interc
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
 - [Connect evidence to a decision](/wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
+- [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)
 <!-- END GENERATED USED IN -->

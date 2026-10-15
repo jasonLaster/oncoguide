@@ -1,0 +1,9 @@
+Original SVG source-code creation brief
+
+I inspected both retained model-validation SVG themes and current public owner/reference text. The old art explains shared versus held-out donor and intervention identities. I retain it unchanged and reuse the linked independence principle, but it does not show these fictional Hospital A patients selecting variables and threshold, the same A patients rerun, and locked choices evaluated on separate Hospital B patients. I choose a lesson-specific comparison that makes these sample roles and no-tuning-backflow boundary visible. External hospital evaluation alone does not establish transportability, calibration or utility. No shared-owner or old-native/support writes.
+
+Fictional Slide A uses Hospital A outcomes to select variables and threshold, then reruns the same A patients for performance. Slide B locks all development choices using A before testing on separate Hospital B patients and reports failures; no B outcomes return to tuning.
+
+Ask which patients influenced every choice. Reusing Hospital A can check reproducibility but supplies no new independent population test. Hospital B supports evaluation outside development only when its outcomes did not inform the locked method. The new setting still needs suitable patients, failed-test denominators, uncertainty and calibration; it does not by itself establish useful clinical decisions.
+
+No model call was made. This is not a clinical protocol, efficacy claim or individual prediction.

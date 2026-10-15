@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-167",
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+  "author": "UNKNOWN",
+  "authorRole": "UNKNOWN original routing projection author; source preparation does not establish an actor. Root is canonical integrator only; no creative authorship inferred.",
+  "reviewer": "agent:/root/teaching_continuity_review",
+  "reviewedAtUTC": "2026-10-15T01:00:32.278328+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "acceptanceScope": "Independent focused task-fit continuity of this exact private route-only current-owner proposal and unchanged selected native pair; no whole-page, science, native-render or release recertification.",
+  "currentOwnerSha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+  "priorCurrentOwnerSha256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+  "sourceTeachingCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+  "sourceAuditMetadataCommit": "e0d0e529c66b56b6ab79f3a2f45b718073e43716",
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "ab8ead48b7b4a913e9b41abea00f119d3d17bec79f295fabaadc35e275ec3d91",
+    "learnerTask": "Identify supported observations and untested bridges from exact variant to clinical benefit.",
+    "gap": "The evidence chain has no visual showing which links the worked case actually supports.",
+    "accuracyGuardrails": "Mark measured observations versus untested inference bridges without implying a mandatory experimental sequence. Variant, target, perturbation, product activity and clinical benefit require separately scoped support.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The proposed owner's unchanged How-it-works section at lines34–55 keeps supported fictional observations separate from dashed untested bridges, makes reduced signal distinct from target verification, and expressly denies a mandatory experimental sequence. Existing native/science adequacy is inherited from the exact selected review, without new pixel or scientific-source approval. I checked the added line113 and exact destination candidate a4dbd084... lines51–59: the comparator exercise separates enrichment, selectivity and dependence and the point link explicitly separates finding, biological effect, drug response and benefit. This is compatible task context rather than an assertion that the route closes any untested bridge. Inverse reconstruction proves that only the metadata item and Used-in bullet change; frozen task/guardrails and the prior adequate visual fit remain applicable."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json",
+      "sha256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-batch06-2026-10-13-owner-continuity.json",
+      "sha256": "ebef57ee4c8c1499b9dbb8230457b3f9fabda200eedbe240aa9e4b957f319e23"
+    }
+  },
+  "retainedOriginalActorsLiteral": {
+    "author": "agent:/root/batch06_author_group3",
+    "creativeAuthor": "agent:/root/batch06_author_group3",
+    "reviewer": "agent:/root/batch06_review_group3"
+  },
+  "retainedAttributionFromPreparationLiteral": {
+    "author": "agent:/root/batch06_author_group3",
+    "reviewer": "agent:/root/batch06_review_group3",
+    "integrationAuthor": "root"
+  },
+  "attributionQualification": "Literal actors and historical roles retained without promoting assignments into creative proof. This reviewer authored no current route, original artwork, or Root integration.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+        "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+        "bytes": 9943
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+        "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+        "bytes": 3254
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+        "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+        "bytes": 3254
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+        "sha256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+        "bytes": 1023
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+        "sha256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+        "bytes": 4087
+      }
+    ],
+    "unchangedNativeOutputs": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+        "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+        "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+        "bytes": 3254,
+        "nativeDimensions": {
+          "width": 600,
+          "height": 900,
+          "viewBox": "0 0 600 900"
+        },
+        "theme": "light"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+        "candidatePath": "/tmp/education-next-visual-batch-06/treatment-strategies-clocks-and-evidence-bridges/corrections-01/prospective/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+        "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+        "bytes": 3254,
+        "nativeDimensions": {
+          "width": 600,
+          "height": 900,
+          "viewBox": "0 0 600 900"
+        },
+        "theme": "dark"
+      }
+    ],
+    "inheritedOriginalCustodyHashesLiteral": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+        "sha256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+        "bytes": 9744
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+        "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+        "bytes": 3254
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+        "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+        "bytes": 3254
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+        "sha256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+        "bytes": 1023
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+        "sha256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+        "bytes": 4087
+      }
+    ],
+    "oldReceiptBytesAndSealsUnmodified": true,
+    "oldCustodyHashVerification": "All selected public old owner/native/TXT/provenance bytes match prior custody and committed532; current candidate owner is separately bound."
+  },
+  "boundedDelta": {
+    "destination": "wiki/education/multi-omics-foundations/07-comparisons-and-evidence.md",
+    "destinationCandidateSHA256": "a4dbd0840119e3e9bdd3046d59c71245bccf08979f0752cbf79a7f86e5b005a4",
+    "exactAddedMetadataFragment": ",\"[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]\"",
+    "exactAddedUsedInBullet": "- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)\n",
+    "inverseReconstructsExactCommitted532": true,
+    "inverseSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+    "onlyRoutingInsertions": true,
+    "allOtherBytesPreserved": true,
+    "focusedPersonalInspection": {
+      "ownerLines": [
+        32,
+        55,
+        107,
+        114
+      ],
+      "destinationLines": [
+        51,
+        59
+      ]
+    },
+    "sourceFitApprovalGrantedByThisReview": false
+  },
+  "inheritedEvidenceLimits": {
+    "priorSourceFitInheritedByExactHash": true,
+    "priorActualDeliveryInheritedByExactHash": true,
+    "selectedReleaseMetadataCommittedAt": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "priorActualDelivery": {
+      "sourceCommit": "3822a8a52247ac6b479229ec3769ba5334dc5ac2",
+      "companionCommit": "f16b6c1882c7930fbea74ea394d2da96a509ea10",
+      "liveAt": "2026-10-13T18:32:19.845Z",
+      "dianaContentAndVisibilityMatch": true,
+      "oncoguideNativeBytesMatch": true,
+      "zeroDrift": true
+    },
+    "newScientificClaimsChecked": false,
+    "nativeOrUIRerun": false,
+    "wholePagePrimaryRecertification": false,
+    "historyRerun": false,
+    "currentProposalDelivered": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newVisualCredit": 0,
+  "newScientificGrade": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newSourceFitApproval": false,
+  "sourceFitApprovedByThisReview": false,
+  "productionVerifiedByThisReview": false,
+  "proposalStatus": "ordinary owner-local peer receipt proposal only; not exported by supplemental helper, adopted, executable, published or registered",
+  "prospectiveOwnerLocalPath": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-167-teaching-route-current-owner-continuity-2026-10-15.json",
+  "supplementalExportRun": false,
+  "executionRef": null,
+  "futureDeliveryRef": null,
+  "remainingWork": "Root whole-eleven aggregate acceptance, separate original18 and original7 release acceptance, adoption/executable baseline, actual both-site delivery and later accounting remain unperformed by this reviewer."
+}

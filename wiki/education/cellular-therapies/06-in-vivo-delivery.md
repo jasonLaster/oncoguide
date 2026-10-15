@@ -87,6 +87,38 @@ An administration route cannot be read from a carrier's name. The product's rout
 
 These examples show why route, recipient cell, payload, genetic fate and model belong in the same evidence note. A result from one column cannot fill every other column.
 
+## Two delivery cards: follow the address to the readout
+
+CD3 and CD8 are cell-surface features used as delivery addresses here. The CAR's target is a separate address. These cards describe mouse experiments, not human administration or a comparison of products.
+
+### CD3 card: a targeted viral gene-delivery vector
+
+[Frank et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7686896/) studied this example:
+
+- **Delivery category and address:** A targeted viral vector addressed CD3-bearing recipient cells. The resulting CAR recognized CD19. The delivery address and the CAR's antigen target were different.
+- **Product and model:** The product carried genetic instructions for a CD19-recognizing CAR. The study used immunodeficient mice with human stem-cell-derived immune cells. Human cells in a mouse do not make this human treatment evidence.
+- **Expression readout:** [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) measured CAR-positive cells **within human CD3+CD45+ T cells**, separately from **human CD3−CD45+ non-T cells** and **CD45− mouse cells**. CAR was detected only in the sampled T-cell compartment. Blood expression peaked at weeks 3–4 and returned to baseline after week 5.
+- **Controls and function:** Controls included a group without the CAR-delivery vector. The study also compared vector-exposed groups under different experimental conditions. Blood CD19+ B-cell levels were tracked against each animal's starting level. B-cell depletion and its duration differed between groups.
+
+*The carrier addresses CD3; the expressed CAR recognizes CD19. B-cell depletion is a downstream activity readout, not direct evidence of cancer clearance. These blood gates do not establish absence of engineering in every tissue.*
+
+### CD8 card: a targeted viral gene-delivery vector
+
+[Pfeiffer et al., 2018](https://link.springer.com/article/10.15252/emmm.201809158) studied this example:
+
+- **Delivery category and address:** A targeted viral vector addressed CD8-bearing recipient cells. The resulting CAR recognized CD19. Cell delivery and antigen recognition were separate targeting jobs.
+- **Product and model:** The product carried CD19-CAR instructions. The study used mice with transplanted activated human immune cells; some also had human lymphoma cells. The mouse setting and transplanted-cell state limit transfer to other settings.
+- **Expression and two denominators:** At day 7, flow cytometry split sampled human CD3+ T cells into CD8+ and CD8− fractions. CAR positivity was **30–50% of CD8+ cells** in abdominal fluid, **10–35%** in spleen and **5–30%** in blood; **under 0.5% of CD8− cells** entered the CAR-positive gate.
+- **Controls and function:** Controls included a vehicle group and a comparison vector carrying a detectable reporter rather than CAR instructions. In mice given the CD19-CAR vector, human CD19+ cells were depleted from sampled abdominal fluid, spleen and blood. A separate comparison varied the starting B-cell population. Later CAR-positive fractions differed, showing why expansion can affect an expression readout.
+
+*The carrier addresses CD8; the CAR recognizes CD19. Activated transplanted cells constrain transfer to other settings. CD8− T cells are one unintended population, not an inventory of all other cells or organs.*
+
+### Try it: find the missing bridge
+
+For each card, name the addressed feature, delivery category, payload, measured recipient population and downstream target. Then identify one bridge the experiment leaves open.
+
+**Answer:** The addresses are CD3 and CD8; both products are viral gene-delivery vectors carrying CD19-CAR instructions. The first card measures CAR expression among sampled human T cells and separate non-T/mouse gates. The second compares sampled CD8+ and CD8− T-cell fractions. Both CARs recognize CD19. Neither card follows every contacted carrier through entry to usable expression, or proves safe cancer control in people. A receptor-positive fraction can also rise when engineered cells expand. Keep binding, expression and function as separate measurements.
+
 ## Worked example: one vial, an uncertain population
 
 A fictional vial has a measured amount of RNA and a cell-binding feature. The number of successfully engineered cells is a downstream outcome, not the administered input.
@@ -160,3 +192,5 @@ Source check: October 10, 2026; expert and learner review pending. Examples desc
 - [Tuerxunyiming et al., Scientific Reports, 2026: a targeted lentiviral vector tested in a lymphoma mouse model](https://www.nature.com/articles/s41598-025-17342-1).
 - [FDA, 2020: risk-based long-term follow-up after gene therapy](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/long-term-follow-after-administration-human-gene-therapy-products).
 - [FDA, January 2024: CAR T-cell product development](https://www.fda.gov/media/156896/download) — product-specific functional testing and sampling principles for ex vivo products.
+- [Frank et al., Blood Advances, 2020: CD3-directed lentiviral delivery](https://pmc.ncbi.nlm.nih.gov/articles/PMC7686896/) — recipient populations, readouts and mouse-model scope. High-level educational revision only; whole-task acceptance and clinician/learner review pending.
+- [Pfeiffer et al., EMBO Molecular Medicine, 2018: CD8-directed lentiviral delivery](https://link.springer.com/article/10.15252/emmm.201809158) — recipient populations, readouts and mouse-model scope. High-level educational revision only; whole-task acceptance and clinician/learner review pending.

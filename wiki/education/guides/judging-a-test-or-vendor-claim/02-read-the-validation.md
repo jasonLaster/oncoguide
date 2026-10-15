@@ -57,6 +57,15 @@ For a compound claim, distinguish a [chemical probe and target-engagement experi
 
 ## Worked example: two fictional validation slides
 
+<div class="cartoon-frame">
+<img src="./images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg" width="760" height="1495" alt="Fictional Slide A uses Hospital A outcomes to select variables and threshold, then reruns the same A patients for performance. Slide B locks all development choices using A before testing on separate Hospital B patients and reports failures; no B outcomes return to tuning." data-theme-pair>
+<p class="cartoon-caption">Ask which patients influenced every choice. Reusing Hospital A can check reproducibility but supplies no new independent population test. Hospital B supports evaluation outside development only when its outcomes did not inform the locked method. The new setting still needs suitable patients, failed-test denominators, uncertainty and calibration; it does not by itself establish useful clinical decisions.</p>
+</div>
+
+The [shared concept map](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) supplies the background for this closer comparison.
+
+For the reporting distinction, see the [TRIPOD explanation of development and external evaluation](https://www.tripod-statement.org/wp-content/uploads/2023/02/TRIPOD-Cluster-EE.pdf).
+
 Slide A shows the performance of a risk score on the same patients used to choose its variables and threshold. Slide B evaluates a locked version on a separate hospital's patients, with a defined outcome and failed tests reported.
 
 Slide B answers a more useful question about performance outside development. It still needs careful reading. Perhaps that hospital treated advanced disease while the current request concerns patients after surgery. Perhaps the score ranks patients well but overestimates their risk.

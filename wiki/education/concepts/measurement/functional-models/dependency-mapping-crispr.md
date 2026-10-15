@@ -14,7 +14,7 @@ prerequisites:
   - "[[wiki/education/concepts/biology-basics/molecules/gene]]"
   - "[[wiki/education/concepts/biology-basics/molecules/dna]]"
   - "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]"]
 sensitive: false
 tags:
   - "education"
@@ -124,4 +124,5 @@ Source check: October 10, 2026. Primary screening abstracts and accessible CERES
 - [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
 - [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
+- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
 <!-- END GENERATED USED IN -->

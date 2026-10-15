@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "id": "next-gap-082",
+  "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+  "author": "UNKNOWN",
+  "authorRole": "UNKNOWN original routing projection author; source preparation does not establish an actor. Root is canonical integrator only; no creative authorship inferred.",
+  "reviewer": "agent:/root/teaching_continuity_review",
+  "reviewedAtUTC": "2026-10-15T01:00:32.278328+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "acceptanceScope": "Independent focused task-fit continuity of this exact private route-only current-owner proposal and unchanged selected native pair; no whole-page, science, native-render or release recertification.",
+  "currentOwnerSha256": "d758aa64d80edbe249d0e00706c97ea01c0285375558e9dafb1d340e6c235080",
+  "priorCurrentOwnerSha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+  "sourceTeachingCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+  "sourceAuditMetadataCommit": "e0d0e529c66b56b6ab79f3a2f45b718073e43716",
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "277316f98ef285980c477cfd40700f9ed7c7651b1e463ab87f98e5173e8453be",
+    "learnerTask": "Interpret changed guide representation under pooled screening and separate cutting damage from gene dependence.",
+    "gap": "Existing evidence map begins after guide depletion and omits the population measurement.",
+    "accuracyGuardrails": "Use guide representation as the observed pooled-screen readout and show relevant controls/copy effects. Guide depletion or a fitness score is not a direct death count, universal gene dependence or clinical response.",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The exact proposed owner retains the same pooled-guide figure, barcode-read caption and immediate read-the-chart answer at lines60–64; those distinguish a representation change from a death count and retain copy/cutting confounding. Adequacy of the unchanged native pair and prior science is inherited only from the selected genuine review. I personally checked the added Used-in line127 and the exact destination candidate a4dbd084... at lines51–59: it chooses the relevant comparator, distinguishes enrichment/selectivity/dependency, and describes perturbation under suitable conditions before linking the evidence chain. The added route does not turn the guide-readout illustration into a clinical-response or universal-dependency claim. Removing just the metadata item and this bullet reconstructs committed532 exactly, so the frozen task and current adequate fit continue for this route delta."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1-next-gap-082-independent-task-fit.json",
+      "sha256": "ff5936a7381c3ed969fe77a082f1c57d8855e70c632f168c24fcca8ec4da3397"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/eighteen-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "4c37af0cec0de74a805e27c0e1657d2eca46b0b5a4b32bb39f285d293f53e293"
+    }
+  },
+  "retainedOriginalActorsLiteral": {
+    "author": "root",
+    "creativeAuthor": "thread:01a12e5c-60fd-76a0-870a-ed25333c5cac",
+    "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b"
+  },
+  "retainedAttributionFromPreparationLiteral": {
+    "author": "root",
+    "authorRole": "canonical integration only",
+    "creativeAuthor": {
+      "agent": "Codex",
+      "threadId": "01a12e5c-60fd-76a0-870a-ed25333c5cac",
+      "role": "assigned creative content and artwork author",
+      "assignmentEvidence": "Root current explicit batch02 group assignment; canonical integration is a separate author role.",
+      "completionOrAcceptanceClaim": false
+    },
+    "reviewer": "thread:01a12e5c-95aa-7842-ba9f-d52ca8f7268b",
+    "reviewerRole": "proposed independent reviewer assignment; no acceptance claimed"
+  },
+  "attributionQualification": "Literal actors and historical roles retained without promoting assignments into creative proof. This reviewer authored no current route, original artwork, or Root integration.",
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+        "sha256": "d758aa64d80edbe249d0e00706c97ea01c0285375558e9dafb1d340e6c235080",
+        "bytes": 9603
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+        "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+        "bytes": 13405
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+        "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+        "bytes": 13405
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1.txt",
+        "sha256": "bb2cc6316ea39d0fbb3fd5eaf1e971192aed7d5d8530f93f327e5574aac57097",
+        "bytes": 859
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1-provenance.json",
+        "sha256": "c1ae0ca1cb42480cd4e3b241c7d6d9ad3d690f9d3522050699a7754298885975",
+        "bytes": 1381
+      }
+    ],
+    "unchangedNativeOutputs": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+        "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+        "bytes": 13405
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+        "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+        "bytes": 13405
+      }
+    ],
+    "inheritedOriginalCustodyHashesLiteral": [
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+        "sha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+        "bytes": 9404
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+        "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+        "bytes": 13405
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+        "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+        "bytes": 13405
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1.txt",
+        "sha256": "bb2cc6316ea39d0fbb3fd5eaf1e971192aed7d5d8530f93f327e5574aac57097",
+        "bytes": 859
+      },
+      {
+        "path": "wiki/education/concepts/measurement/functional-models/images/prompts/pooled-guide-representation-and-cutting-effects-v1-provenance.json",
+        "sha256": "c1ae0ca1cb42480cd4e3b241c7d6d9ad3d690f9d3522050699a7754298885975",
+        "bytes": 1381
+      }
+    ],
+    "oldReceiptBytesAndSealsUnmodified": true,
+    "oldCustodyHashVerification": "All selected public old owner/native/TXT/provenance bytes match prior custody and committed532; current candidate owner is separately bound."
+  },
+  "boundedDelta": {
+    "destination": "wiki/education/multi-omics-foundations/07-comparisons-and-evidence.md",
+    "destinationCandidateSHA256": "a4dbd0840119e3e9bdd3046d59c71245bccf08979f0752cbf79a7f86e5b005a4",
+    "exactAddedMetadataFragment": ",\"[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]\"",
+    "exactAddedUsedInBullet": "- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)\n",
+    "inverseReconstructsExactCommitted532": true,
+    "inverseSHA256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+    "onlyRoutingInsertions": true,
+    "allOtherBytesPreserved": true,
+    "focusedPersonalInspection": {
+      "ownerLines": [
+        40,
+        64,
+        120,
+        128
+      ],
+      "destinationLines": [
+        51,
+        59
+      ]
+    },
+    "sourceFitApprovalGrantedByThisReview": false
+  },
+  "inheritedEvidenceLimits": {
+    "priorSourceFitInheritedByExactHash": true,
+    "priorActualDeliveryInheritedByExactHash": true,
+    "selectedReleaseMetadataCommittedAt": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "priorActualDelivery": {
+      "sourceCommit": "4a5fc1b7a2595dacb02cf93a650c6e24703d7d8f",
+      "companionCommit": "c69ee09b332de5fc710ef76279061a4ae49e5542",
+      "liveAt": "2026-10-12T22:00:46.835Z",
+      "dianaContentAndVisibilityMatch": true,
+      "oncoguideNativeBytesMatch": true,
+      "zeroDrift": true
+    },
+    "newScientificClaimsChecked": false,
+    "nativeOrUIRerun": false,
+    "wholePagePrimaryRecertification": false,
+    "historyRerun": false,
+    "currentProposalDelivered": false
+  },
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newVisualCredit": 0,
+  "newScientificGrade": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "newSourceFitApproval": false,
+  "sourceFitApprovedByThisReview": false,
+  "productionVerifiedByThisReview": false,
+  "proposalStatus": "ordinary owner-local peer receipt proposal only; not exported by supplemental helper, adopted, executable, published or registered",
+  "prospectiveOwnerLocalPath": "wiki/education/concepts/measurement/functional-models/images/prompts/peer-reviews/next-gap-082-teaching-route-current-owner-continuity-2026-10-15.json",
+  "supplementalExportRun": false,
+  "executionRef": null,
+  "futureDeliveryRef": null,
+  "remainingWork": "Root whole-eleven aggregate acceptance, separate original18 and original7 release acceptance, adoption/executable baseline, actual both-site delivery and later accounting remain unperformed by this reviewer."
+}

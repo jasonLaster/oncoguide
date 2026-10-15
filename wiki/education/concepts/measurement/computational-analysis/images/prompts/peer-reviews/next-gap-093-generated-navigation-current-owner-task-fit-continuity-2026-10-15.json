@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "continuityScope": "prospective generated-navigation-only",
+  "id": "next-gap-093",
+  "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+  "type": "concept",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+    "role": "original educational writing, source qualification and original code-generated SVG production",
+    "rootArtworkOrMedicalWritingAttribution": false
+  },
+  "reviewer": "agent:/root/batch14_foundations_review",
+  "reviewerRole": "Actual focused generated-navigation/task-fit continuity reviewer; distinct from literal predecessor whole-owner reviewer",
+  "reviewedAtUTC": "2026-10-15T03:10:49.041581+00:00",
+  "passedAtUTC": "2026-10-15T03:10:49.041581+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "prospective": true,
+  "scope": "Only the exact maintained generated used_by/Used-in backlink delta to the genuinely reviewed task305 lesson, and preservation of existing frozen093 learner-task/native/caption/prose identity. No unchanged science/native/pixels/UI/creators reopened and no actual adoption or live release asserted.",
+  "currentOwnerSha256": "5ceb83604f7e8f5968ebc6ddccbdf6496e73e5c4c1b182e80c5333e9e710710b",
+  "currentOwnerFieldMeaning": "Exact original sealed staged-source prospective generated postimage, not an adopted current canonical source/destination or execution baseline.",
+  "priorCurrentOwnerSha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+  "sourceObservationCommit": "2d4973527fda5ffe47f44d4ed0489139de60814f",
+  "sourceObservationMeaning": "Actual observed source2d checkpoint for current551d predecessor identity only, not future execution baseline.",
+  "predecessorReceipt": {
+    "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+    "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da",
+    "bytes": 9219,
+    "reviewType": "independent-new-owner-task-fit",
+    "author": "root",
+    "authorRole": "canonical integration only",
+    "creativeAuthor": {
+      "threadId": "01a12e5c-5791-73b2-8da1-571207558038",
+      "role": "original educational writing, source qualification and original code-generated SVG production",
+      "rootArtworkOrMedicalWritingAttribution": false
+    },
+    "reviewer": "thread:01a12e5c-88eb-7f61-98c7-dff2477fdd9a",
+    "reviewerRole": "independent complete-owner content/source/art/task-fit reviewer",
+    "reviewedAtUTC": "2026-10-12T22:31:26Z",
+    "verdict": "PASS",
+    "currentOwnerSha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+    "literalReceiptUnchanged": true,
+    "meaning": "Existing genuine registry/sourceFitUpdates-bound whole-owner/source/art/task-fit review. Original attribution, bounded source depth and pending human review remain literal. New continuity reviewer is not substituted for it."
+  },
+  "registryBinding": {
+    "sourceFitUpdatePath": "/visual/sourceFitUpdates/updates/97",
+    "record": {
+      "id": "next-gap-093",
+      "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "reviewReceipt": {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+        "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da"
+      },
+      "releaseReceipt": {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+        "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259"
+      }
+    },
+    "existingReleasedStatus": "Existing released093 registry row/source-fit binding observed; this proposal adds no task or credit."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "pageSHA256": "a2a6ff33de82660237044feeed243afa8fb648cdd40093dd304112dbfca9a5c6",
+    "targetSection": "## Try it",
+    "learnerTask": "Distinguish a new-cell split from a new-donor or unseen-intervention test.",
+    "gap": "The training pipeline does not depict donor overlap across partitions.",
+    "accuracyGuardrails": "Track donor/intervention identities across partitions, not merely different cells or files. A held-out-cell split from a shared donor can leak context; it is not evidence for a new-donor or unseen-intervention claim.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+    "recommendedMedium": "diagram",
+    "priority": "P1"
+  },
+  "frozenTaskIdentityUnchanged": true,
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/244",
+    "originalTaskRowSHA256": "8ba8a14574789795e0ededb53685f352d22743f5b571c6f6406e4bd5bda6c844"
+  },
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "a2a6ff33de82660237044feeed243afa8fb648cdd40093dd304112dbfca9a5c6",
+    "learnerTask": "Distinguish a new-cell split from a new-donor or unseen-intervention test.",
+    "gap": "The training pipeline does not depict donor overlap across partitions.",
+    "accuracyGuardrails": "Track donor/intervention identities across partitions, not merely different cells or files. A held-out-cell split from a shared donor can leak context; it is not evidence for a new-donor or unseen-intervention claim.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The sole additions are a used_by metadata entry and its generated Used-in link to the exact new validation lesson. The three paired fitting/tuning-versus-locked-test scenes, shared D1/D2 and reserved D3/D4 donor identities, reserved interventionY-response question, original20-donor exercise and answers are unchanged source bytes. No authored statement, example, source, image node, alt text or caption changes. Thus the already-reviewed distinction among held-out cells, new donors and unseen interventions retains its frozen task fit. The new target actually links back to this concept and is explicitly about independent validation, so the backlink names a genuine reading dependency rather than a new performance or generalization claim.",
+    "humanReview": "pending",
+    "assessmentMeaning": "New focused continuity judgment only; no new full scientific/native/UI approval or source-fit credit."
+  },
+  "generatedDelta": {
+    "actualOriginalSealedStagedCandidate": true,
+    "originalPreparationSealSelectedEntry": {
+      "path": "staged-source/wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "sha256": "5ceb83604f7e8f5968ebc6ddccbdf6496e73e5c4c1b182e80c5333e9e710710b",
+      "bytes": 9355
+    },
+    "originalPreparationSealSHA256": "4ec918a97b93816bff7d06a46b096dd5816a460a1ca2dafdfa5dc512473720fe",
+    "dependencyRecordSHA256": "225e963ef8e2d4787f9c3472e6267de4a3f47b340e9bffe8c79445868d0c602b",
+    "postimageBytes": 9355,
+    "preimageBytes": 9154,
+    "newUsedByEntry": "[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]",
+    "newGeneratedLink": "- [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)",
+    "targetPublicTitle": "Read the validation behind the claim",
+    "newLinkIsInsideGeneratedUsedInBlock": true,
+    "exactInverseRestoresComplete551dSource": true,
+    "allOtherFrontMatterAuthoredBodySourcesImagesAltCaptionsAndExistingNavigationByteExact": true,
+    "actualGeneratorRunByThisReviewer": false
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+      "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+      "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd"
+    }
+  ],
+  "custody": {
+    "predecessorOwnerAndNativeSupport": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+        "sha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+        "bytes": 9154,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+        "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb",
+        "bytes": 11397,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+        "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd",
+        "bytes": 11397,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1.txt",
+        "sha256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891",
+        "bytes": 1144,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+        "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa",
+        "bytes": 3005,
+        "currentGitExact": true
+      }
+    ],
+    "allPriorCustodyMembersAndReceiptMatchActualCurrentGit": true,
+    "selectedNativeOutputCount": 2,
+    "nativeHashVerificationOnly": true,
+    "newPixelInspection": false,
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+        "sha256": "5ceb83604f7e8f5968ebc6ddccbdf6496e73e5c4c1b182e80c5333e9e710710b",
+        "bytes": 9355
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+        "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb",
+        "bytes": 11397
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+        "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd",
+        "bytes": 11397
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1.txt",
+        "sha256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891",
+        "bytes": 1144
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+        "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa",
+        "bytes": 3005
+      },
+      {
+        "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+        "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da",
+        "bytes": 9219
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+        "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259",
+        "bytes": 45414
+      }
+    ],
+    "baselineOwnerHashSeparate": {
+      "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "sha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+      "meaning": "Earlier owner/preimage binding only; never duplicated as current owner in custody.hashes."
+    },
+    "currentCandidateCustodyMeaning": "The unique owner entry binds the unchanged prospective postimage. Ordinary native/brief/provenance and prior review/release metadata guard identities are inherited without re-review."
+  },
+  "related305Dependency": {
+    "owner": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+    "sha256": "3151d2dd7182e4a5d4531b7c6170f9ce992e6fdaf6d9c1fe296874f5ecd82e3e",
+    "peerPublicPath": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/peer-reviews/next-gap-305-independent-new-owner-task-fit.json",
+    "peerSHA256": "9c936f1bda5c9dc657809c05418c096fd0ddf94aa98d746ab3e9b879b4b63fb8",
+    "peerAuthorLiteral": "/root/batch13_evidence_reading_author",
+    "peerReviewerLiteral": "agent:/root/batch13_evidence_reading_review",
+    "peerReviewedAt": "2026-10-14T21:34:01.871388+00:00",
+    "peerPassed": true,
+    "outputs": [
+      {
+        "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+        "sha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca",
+        "bytes": 5193,
+        "meaning": "Identity only; no renewed pixel/source acceptance or task305 credit"
+      },
+      {
+        "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+        "sha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f",
+        "bytes": 5193,
+        "meaning": "Identity only; no renewed pixel/source acceptance or task305 credit"
+      }
+    ],
+    "newCredit": 0,
+    "sourceArtAndPeerBytesPreserved": true,
+    "targetActuallyLinksToModelValidationConcept": true,
+    "targetLinkText": "shared concept map",
+    "acceptanceMeaning": "Actual existing task305 peer identity and exact proposed source/native hashes only, not a new task305 source/science/native review.",
+    "plannedCoDelivery": "Root proposes305 plus093 with the no-new-credit curriculum continuity batch before fullB13. These exact dependency owners must travel together.",
+    "actualDelivery": null,
+    "visualCreditNow": 0,
+    "visualCreditReservedForLaterB13ActualDelivery": true
+  },
+  "diagnosticQualification": "The first lookup used publisher-ownership-fixture and observed the551d pre-generation baseline. Root/preparer identified the exact original retained staged-source5ceb candidate and its selected PREPARATION-SEAL entry. The generated postimage was then directly header-gated/read/hash-verified; no reconstruction, file mutation or generator rerun was needed. Initial observation remains in private custody evidence.",
+  "sourceScienceNativeUIReview": "Not rerun. Prior claims remain tied to their predecessor receipt; unchanged output/hash checks and the focused generated-link judgment do not certify a fresh render, full-app accessibility, performance or clinical validity.",
+  "originalCreatorInference": false,
+  "newImageModelCalls": 0,
+  "newMedicalClaims": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "actualFutureAdoptionCommit": null,
+  "actualFutureCommittedSourceBaseline": null,
+  "actualFutureCommittedDestinationBaseline": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestinationCommit": null,
+  "actualFutureDeliverySourceCommit": null,
+  "actualFutureDeliveryDestinationCommit": null,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "delivery": null,
+  "publication": null,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "newVisualGapCredit": 0,
+  "task305Credit": 0,
+  "currentCredit": 0,
+  "requiredLaterBindings": [
+    "Root must select/adopt the exact5ceb generated owner together with the exact3151 task305 source and its unchanged art/peer dependencies, retaining literal093 predecessor receipt/source/native lineage.",
+    "Actual executable source/destination baselines, release manifest/adoption commits and both-site live owner/route/native verification must be bound later; all are null here.",
+    "Task305 visual accounting remains for its later genuine fullB13 actual delivery, not this no-new-credit curriculum continuity proposal."
+  ],
+  "canonicalGitOncoguidePublisherRuntimeGeneratorWrites": 0,
+  "protectedNarrativesReadHashedOrExported": false,
+  "onlyPrivateReviewDirectoryWritten": true,
+  "rootSoleIntegrator": true,
+  "focusedProspectiveVerdictPreserved": "PASS_PROSPECTIVE_GENERATED_NAVIGATION_CONTINUITY_ONLY",
+  "contentContinuityReviewedAtUTC": "2026-10-15T02:51:25.374376+00:00",
+  "formatCorrectedAtUTC": "2026-10-15T03:10:49.041581+00:00",
+  "formatCorrectionOnly": true,
+  "formatCorrectionOf": {
+    "path": "../prospective-model-validation-093-generated-navigation-continuity.public-safe.json",
+    "sha256": "e21c69e6dd694f4961aa3eb41260c7870f549fc1a374bae67a95502b5ff0ab02",
+    "pathMeaning": "Actual relative file reference from this private compiler-compatible-successors directory to its untouched private predecessor; no historical public adoption is implied."
+  },
+  "formatCorrectionScope": "Receipt interface only: correct recognized type/literal PASS, explicit zero-credit/review-limit flags, exact selected priorRefs, unique current-candidate custody and literal frozen assessment fields. No new content/science/native/UI review or changed source candidate.",
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+      "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259"
+    }
+  },
+  "deliveryCompilerExecution": "pending until actual completed Root delivery; no reconciliation/compiler invoked by this format correction",
+  "formatContractReference": {
+    "path": ".agents/scripts/education-release-continuity.ts",
+    "sha256": "e8e94ed0eebac550562578dab0f19a15f43f2611ea2bc8436333a7d9b552cf69",
+    "readScope": "TYPE constant and reconcileOwnerContinuity field assertions, especially lines205–310. Read-only interface checks only."
+  },
+  "publicationPath": "wiki/education/concepts/measurement/computational-analysis/images/prompts/peer-reviews/next-gap-093-generated-navigation-current-owner-task-fit-continuity-2026-10-15.json"
+}

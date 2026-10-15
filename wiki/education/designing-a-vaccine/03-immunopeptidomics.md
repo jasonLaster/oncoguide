@@ -68,6 +68,10 @@ The [immunopeptidome](/wiki/education/concepts/immunology/antigen-presentation/i
 
 For HLA-associated peptide identification, mixed tissue adds another issue: the peptide may come from cancer, immune or stromal cells. Whole-cell extraction can also recover intracellular HLA complexes. Detection therefore supports the sampled preparation, without proving cancer-cell surface display or tumor exclusivity. Recovery and identification are incomplete, so non-detection needs sensitivity context.
 
+Before interpreting a tissue peptide list, check [preservation compatibility](/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics#preservation-needs-method-specific-validation). A formalin-fixed, paraffin-embedded (FFPE) block is not automatically a usable input for the named assay; retain its validated specimen requirements with the result.
+
+A separate comparison concerns [tumor mutational burden (TMB)](/wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden). In [Barroso-Sousa and colleagues' 2020 analysis](https://pubmed.ncbi.nlm.nih.gov/32067680/) of 3,969 primary or metastatic breast-cancer samples, the triple-negative group had higher median TMB than the other receptor-defined breast subtype groups studied. Here, “high relative to other breast subtypes” describes a group-level mutation-burden comparison. It does not predict an individual's TMB-high category, immunopeptidomics yield, treatment eligibility or treatment benefit. A higher mutation burden also does not establish which altered peptides are naturally displayed.
+
 The [T-cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) is only part of a responding cell. Its state and signaling matter too. A binding reagent can label cells whose functional behavior differs, while a secretion assay may miss cells that use another response program. Naturally presenting cancer-cell tests strengthen the recognition bridge; they still do not establish comprehensive healthy-tissue safety or patient benefit.
 
 ## Worked example: an evidence notebook
@@ -107,6 +111,8 @@ A candidate was not detected by immunopeptidomics, but peptide-loaded cells trig
 ## Sources and scope
 
 Source check: October 10, 2026. Assay teaching and a fictional example; expert and learner review pending.
+
+Focused source check: October 14, 2026. The subtype comparison uses the Barroso-Sousa 2020 primary abstract, retrieved through Europe PMC's official bibliographic API. This is a mixed primary/metastatic, exome/panel cohort comparison; no individual cutoff or treatment conclusion is inferred. Expert and learner review remain pending.
 
 - [HLA-peptide isolation and identification protocol](https://www.nature.com/articles/s41596-019-0133-y).
 - [Primary antigen-specific T-cell labeling study](https://pubmed.ncbi.nlm.nih.gov/8810254/).

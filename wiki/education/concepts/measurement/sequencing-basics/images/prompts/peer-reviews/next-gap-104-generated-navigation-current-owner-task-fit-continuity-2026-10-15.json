@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "continuityScope": "prospective generated-navigation-only",
+  "id": "next-gap-104",
+  "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+  "type": "concept",
+  "author": "root",
+  "authorRole": "canonical integration only",
+  "creativeAuthor": {
+    "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+    "role": "original creative/scientific content and code-SVG producer"
+  },
+  "reviewer": "agent:/root/batch14_foundations_review",
+  "reviewerRole": "Actual focused generated-navigation/task-fit continuity reviewer; distinct from literal predecessor scientific/visual reviewer",
+  "reviewedAtUTC": "2026-10-15T03:10:49.041581+00:00",
+  "passedAtUTC": "2026-10-15T03:10:49.041581+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "prospective": true,
+  "scope": "Only the exact generated used_by/Used-in backlink to the genuine source44-reviewed vaccine lesson and preservation of existing frozen104 learner/source/native identity. No unchanged science/native/pixels/UI or creator inference reopened; no clinical or relative-TMB claim approval, actual adoption or live release asserted.",
+  "currentOwnerSha256": "723f3d85919a504819af1dcf7aeaa5511f8062408fc2ec7e2b1d81ffa6f10106",
+  "currentOwnerFieldMeaning": "Exact actual private staged generated postimage; not an adopted canonical current owner or future execution baseline.",
+  "priorCurrentOwnerSha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+  "sourceObservationCommit": "e3afe0eef203b2fc51f043a25eb6cfc9fd11ab7f",
+  "sourceObservationMeaning": "Observed source checkpoint for exact current dd6 predecessor/Git identity only, not a future execution baseline.",
+  "predecessorReceipt": {
+    "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1-independent-owner-review.json",
+    "sha256": "8903008a8cde5091305023603eaf6184bd96092bdf1dfe9914c57da95c105358",
+    "bytes": 6691,
+    "reviewType": "independent-new-owner-task-fit",
+    "author": "root",
+    "authorRole": "canonical integration only",
+    "creativeAuthor": {
+      "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+      "role": "original creative/scientific content and code-SVG producer"
+    },
+    "reviewer": "thread:01a12e5c-7d6d-7dc1-a1e9-a395770680eb",
+    "reviewerRole": "independent whole-package scientific and visual agent reviewer",
+    "reviewedAtUTC": "2026-10-12T22:42:15.263Z",
+    "verdict": "PASS",
+    "currentOwnerSha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+    "literalReceiptUnchanged": true,
+    "meaning": "Actual registry/sourceFitUpdates-bound prior scientific/visual/task-fit receipt. Its source-read depth, clinical-source qualifications and pending human reviews remain literal; this reviewer is not substituted for its author or peer."
+  },
+  "registryBinding": {
+    "sourceFitUpdatePath": "/visual/sourceFitUpdates/updates/108",
+    "record": {
+      "id": "next-gap-104",
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "reviewReceipt": {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1-independent-owner-review.json",
+        "sha256": "8903008a8cde5091305023603eaf6184bd96092bdf1dfe9914c57da95c105358"
+      },
+      "releaseReceipt": {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+        "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259"
+      }
+    },
+    "existingReleasedStatus": "Existing released104 registry/source-fit lineage observed; no new task or credit is created by this proposal."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+    "pageSHA256": "b9b6685200e6ed20280713871118c3cb98953bc43298114c74294c7672abb17e",
+    "targetSection": "Try it",
+    "learnerTask": "Carry eligible territory into mutation density",
+    "gap": "No numerator/denominator graphic",
+    "accuracyGuardrails": "Keep counted mutation rules and eligible megabase denominator attached to the method.24/2 versus24/1 Mb is density arithmetic, not a clinical threshold, interchangeable TMB assay or response guarantee.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenTaskIdentityUnchanged": true,
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/306",
+    "originalTaskRowSHA256": "b16ad3c2e60c5bb6adbae13569ad7e30620d90531e422b895232d4afd98e6ff8"
+  },
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "b9b6685200e6ed20280713871118c3cb98953bc43298114c74294c7672abb17e",
+    "learnerTask": "Carry eligible territory into mutation density",
+    "gap": "No numerator/denominator graphic",
+    "accuracyGuardrails": "Keep counted mutation rules and eligible megabase denominator attached to the method.24/2 versus24/1 Mb is density arithmetic, not a clinical threshold, interchangeable TMB assay or response guarantee.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The sole additions are one used_by entry and its generated Used-in link. The original24-token inventory, eligible2Mb versus1Mb territory, fictional12 versus24mut/Mb comparison, method-specific counting/calibration caption and answered clinical-limits practice are byte-exactly preserved. Thus the frozen numerator/eligible-denominator learner task retains its existing fit. The newly listed lesson actually links to this canonical TMB concept for a TMB-related comparison, and the generated label matches its exact title. That makes the backlink a correct reading dependency; it adds no numerator rule, threshold, assay-interchangeability claim, individual category, presentation/assay-yield conclusion or response guarantee. The linked lesson comparative wording remains the separate source44 peer’s responsibility.",
+    "humanReview": "pending",
+    "assessmentMeaning": "Actual focused continuity judgment only; no fresh scientific/pixel/UI/clinical approval or source-fit credit."
+  },
+  "generatedDelta": {
+    "actualStagedCandidatePathRole": "full-release-preparation/staged-source/wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+    "generatedCandidateSHA256": "723f3d85919a504819af1dcf7aeaa5511f8062408fc2ec7e2b1d81ffa6f10106",
+    "generatedCandidateBytes": 8262,
+    "preimageSHA256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+    "actualGeneratedClosureRecordSHA256": "a2595ec2819ba4a7ae550fd56c9320410a89224901b775c5d7e652b9122311a0",
+    "newUsedByEntry": "[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]",
+    "newGeneratedLink": "- [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)",
+    "generatedLinkInsideUsedInBlock": true,
+    "exactInverseRestoresCompleteCurrentSource": true,
+    "allOtherFrontMatterAuthoredBodySourcesImagesAltCaptionsAndExistingNavigationByteExact": true,
+    "generatorRunsByThisReviewer": 0
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+      "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+      "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a"
+    }
+  ],
+  "custody": {
+    "predecessorOwnerAndNativeSupport": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+        "sha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+        "bytes": 8095,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+        "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c",
+        "bytes": 8475,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+        "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a",
+        "bytes": 8475,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.txt",
+        "sha256": "4fd102430a2c38ff285d731b4e5e224f0f15c55cb1e7b7bbe8816bac52c1a9fa",
+        "bytes": 1461,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.json",
+        "sha256": "c8f699f667e3d0894523c7ec3712d215e8407ce23ff9fa7a8bd4a3b3efed8edf",
+        "bytes": 3509,
+        "currentGitExact": true
+      }
+    ],
+    "allPriorCustodyMembersAndReceiptMatchActualCurrentGit": true,
+    "selectedNativeOutputCount": 2,
+    "nativeHashVerificationOnly": true,
+    "newPixelInspection": false,
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+        "sha256": "723f3d85919a504819af1dcf7aeaa5511f8062408fc2ec7e2b1d81ffa6f10106",
+        "bytes": 8262
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+        "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c",
+        "bytes": 8475
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+        "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a",
+        "bytes": 8475
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.txt",
+        "sha256": "4fd102430a2c38ff285d731b4e5e224f0f15c55cb1e7b7bbe8816bac52c1a9fa",
+        "bytes": 1461
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1.json",
+        "sha256": "c8f699f667e3d0894523c7ec3712d215e8407ce23ff9fa7a8bd4a3b3efed8edf",
+        "bytes": 3509
+      },
+      {
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1-independent-owner-review.json",
+        "sha256": "8903008a8cde5091305023603eaf6184bd96092bdf1dfe9914c57da95c105358",
+        "bytes": 6691
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+        "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259",
+        "bytes": 45414
+      }
+    ],
+    "baselineOwnerHashSeparate": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "sha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+      "meaning": "Earlier owner/preimage binding only; never duplicated as current owner in custody.hashes."
+    },
+    "currentCandidateCustodyMeaning": "The unique owner entry binds the unchanged prospective postimage. Ordinary native/brief/provenance and prior review/release metadata guard identities are inherited without re-review."
+  },
+  "targetGuideDependency": {
+    "owner": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+    "title": "Measure presentation, binding and response",
+    "candidateSHA256": "2ecb3d815973676d620fad51bd436087c9d91bd602041e0e19db991ce1727fd8",
+    "actualTMBConceptLinkPresent": true,
+    "actualSource44PeerReceiptSHA256": "783224535642b84594a9432accc14aac6ab8e684e463cdfa5ac71f096245c065",
+    "actualSource44PeerAuthor": "agent:/root/original44_preservation_author",
+    "actualSource44PeerReviewer": "agent:/root/original44_45_exact_action_review",
+    "actualSource44PeerReviewedUTC": "2026-10-15T02:03:42.073808+00:00",
+    "actualSource44PeerVerdict": "PASS: genuine public-safe narrow wording and exact-action implementation; conditional prospective acceptance only",
+    "actualSource44PeerOwnerBinding": {
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "preimage_sha256": "ea3aec947a3e7b0bc51266edf5ab5e3bf85c565a5910b839662d7d97115ee7f6",
+      "candidate_sha256": "2ecb3d815973676d620fad51bd436087c9d91bd602041e0e19db991ce1727fd8"
+    },
+    "acceptanceConditionsPreserved": [
+      "Root explicitly adopts these exact candidates against the exact preimages or obtains focused review of later changes.",
+      "Real Root adoption, Diana and Onco delivery, and canonical accounting must be verified before original44 is reported verified.",
+      "Preserve original audit grades/literal action/disposition and pending human clinician/expert and learner review."
+    ],
+    "meaning": "Exact candidate/peer identity and route only. Source44 scientific/relative-TMB wording acceptance remains its genuine named peer’s bounded, conditional responsibility. No source44 whole-row, clinical, native or benefit approval is newly supplied.",
+    "actualDelivery": null,
+    "actualFutureAdoptionCommit": null,
+    "newCredit": 0
+  },
+  "unchangedScientificAndUIReview": "Prior receipt only. No fresh scientific source retrieval, unchanged body recertification, native inspection, renderer/capture/browser test, assay validation, TMB-benefit or presentation claim review was performed.",
+  "originalCreatorInference": false,
+  "newImageModelCalls": 0,
+  "newMedicalClaims": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "actualFutureAdoptionCommit": null,
+  "actualFutureCommittedSourceBaseline": null,
+  "actualFutureCommittedDestinationBaseline": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestinationCommit": null,
+  "actualFutureDeliverySourceCommit": null,
+  "actualFutureDeliveryDestinationCommit": null,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "delivery": null,
+  "publication": null,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "newVisualGapCredit": 0,
+  "source44Credit": 0,
+  "currentCredit": 0,
+  "requiredLaterBindings": [
+    "Root must select/adopt the exact723f generated104 owner together with the exact2ecb guide03 candidate and inherited source44 acceptance/conditions, retaining literal104 predecessor receipt/native/source lineage.",
+    "Actual future source/destination baselines, adoption/release manifest and both-site live owner/route/native delivery must be bound later; all are null here.",
+    "No new current credit or complete original-row44 acceptance follows from this navigation-continuity review. Gallery or wider generated closure accounting is outside this finite104 review."
+  ],
+  "canonicalGitOncoguidePublisherRuntimeGeneratorSelectorWrites": 0,
+  "protectedNarrativesReadHashedOrExported": false,
+  "onlyPrivateReviewDirectoryWritten": true,
+  "existing093ReceiptUnchanged": true,
+  "rootSoleIntegrator": true,
+  "focusedProspectiveVerdictPreserved": "PASS_PROSPECTIVE_GENERATED_NAVIGATION_CONTINUITY_ONLY",
+  "contentContinuityReviewedAtUTC": "2026-10-15T03:02:57.192469+00:00",
+  "formatCorrectedAtUTC": "2026-10-15T03:10:49.041581+00:00",
+  "formatCorrectionOnly": true,
+  "formatCorrectionOf": {
+    "path": "../prospective-tmb-104-generated-navigation-continuity.public-safe.json",
+    "sha256": "aafea57cfb14c70f20924ebb86e3611ecfa83818190c0ba3ec59530a47ed6106",
+    "pathMeaning": "Actual relative file reference from this private compiler-compatible-successors directory to its untouched private predecessor; no historical public adoption is implied."
+  },
+  "formatCorrectionScope": "Receipt interface only: correct recognized type/literal PASS, explicit zero-credit/review-limit flags, exact selected priorRefs, unique current-candidate custody and literal frozen assessment fields. No new content/science/native/UI review or changed source candidate.",
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/tmb-count-and-eligible-territory-v1-independent-owner-review.json",
+      "sha256": "8903008a8cde5091305023603eaf6184bd96092bdf1dfe9914c57da95c105358"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/releases/twenty-owner-visuals-2026-10-12-owner-continuity.json",
+      "sha256": "533f59e84a99deae4c193647d516f570411143c915419967a649f4b5d6eb1259"
+    }
+  },
+  "deliveryCompilerExecution": "pending until actual completed Root delivery; no reconciliation/compiler invoked by this format correction",
+  "formatContractReference": {
+    "path": ".agents/scripts/education-release-continuity.ts",
+    "sha256": "e8e94ed0eebac550562578dab0f19a15f43f2611ea2bc8436333a7d9b552cf69",
+    "readScope": "TYPE constant and reconcileOwnerContinuity field assertions, especially lines205–310. Read-only interface checks only."
+  },
+  "publicationPath": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/peer-reviews/next-gap-104-generated-navigation-current-owner-task-fit-continuity-2026-10-15.json"
+}

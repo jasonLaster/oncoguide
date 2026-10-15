@@ -6,7 +6,7 @@ aliases: ["variant caller", "variant calls", "somatic variant calling"]
 summary: "Variant calling is the computational process of evaluating sequence evidence and error models to identify candidate differences from a reference or comparison sample."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/sequencing-basics/sequencing-reads]]", "[[wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing]]"]
-used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 glossary_anchor: "variant-calling"
 sensitive: false
 tags: ["education", "measurement"]
@@ -94,5 +94,6 @@ Source check: October 9, 2026. Expert and learner review remain pending. Example
 
 - [Read tumor and normal data before choosing targets](/wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data)
 - [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
+- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
 - [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

@@ -6,7 +6,7 @@ aliases: ["TMB", "TMB-H", "tumor mutation burden", "tumor mutational burden"]
 summary: "Tumor mutational burden is the density of eligible somatic DNA mutations reported by a specified assay, usually in mutations per megabase."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]"]
 glossary_anchor: "tmb"
 sensitive: false
 tags: ["education", "measurement"]
@@ -99,5 +99,6 @@ Source check: October 10, 2026. Measurement education and a bounded U.S. label e
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)
 - [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
 <!-- END GENERATED USED IN -->

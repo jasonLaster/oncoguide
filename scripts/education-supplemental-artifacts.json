@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "2d4973527fda5ffe47f44d4ed0489139de60814f",
+  "reviewedSourceCommit": "f5d9ff63ea4cbcae498a0248637109f325901c7b",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -2652,7 +2652,7 @@
       "sha256": "c1ae0ca1cb42480cd4e3b241c7d6d9ad3d690f9d3522050699a7754298885975",
       "bytes": 1381,
       "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
-      "ownerSha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+      "ownerSha256": "d758aa64d80edbe249d0e00706c97ea01c0285375558e9dafb1d340e6c235080",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
@@ -2670,7 +2670,7 @@
       "sha256": "ff5936a7381c3ed969fe77a082f1c57d8855e70c632f168c24fcca8ec4da3397",
       "bytes": 7069,
       "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
-      "ownerSha256": "0837341ed50f91e5b1c4c08f27fc9bfd67247e320825fc9f18d5bed65eac1927",
+      "ownerSha256": "d758aa64d80edbe249d0e00706c97ea01c0285375558e9dafb1d340e6c235080",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
@@ -3578,7 +3578,7 @@
       "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa",
       "bytes": 3005,
       "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
-      "ownerSha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+      "ownerSha256": "5ceb83604f7e8f5968ebc6ddccbdf6496e73e5c4c1b182e80c5333e9e710710b",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
@@ -3596,7 +3596,7 @@
       "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da",
       "bytes": 9219,
       "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
-      "ownerSha256": "551d451cafa67acca26d8b4d5ad417f47aa4efef0472036d534190984c8f7471",
+      "ownerSha256": "5ceb83604f7e8f5968ebc6ddccbdf6496e73e5c4c1b182e80c5333e9e710710b",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
@@ -3998,7 +3998,7 @@
       "sha256": "c8f699f667e3d0894523c7ec3712d215e8407ce23ff9fa7a8bd4a3b3efed8edf",
       "bytes": 3509,
       "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
-      "ownerSha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+      "ownerSha256": "723f3d85919a504819af1dcf7aeaa5511f8062408fc2ec7e2b1d81ffa6f10106",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
@@ -4016,7 +4016,7 @@
       "sha256": "8903008a8cde5091305023603eaf6184bd96092bdf1dfe9914c57da95c105358",
       "bytes": 6691,
       "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
-      "ownerSha256": "dd6cada5185141697071f8c1830a32500c9f7639465e6c5c799f3a19b3043a30",
+      "ownerSha256": "723f3d85919a504819af1dcf7aeaa5511f8062408fc2ec7e2b1d81ffa6f10106",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
@@ -6122,7 +6122,7 @@
       "sha256": "0f7096869f5f377fa5b454b4298a484a5575a19958c2a428dbdbc645bd26be27",
       "bytes": 4267,
       "owner": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
-      "ownerSha256": "d51415888c8f0e2363f67a7beb237cc737e88b0f47e9ad1a7a44a9a3ba6789a1",
+      "ownerSha256": "1dd66dd84092aead2e84ae64a876d856e24bbb111f8c0b1aaf56ba5ca9f2ae72",
       "artworks": [
         {
           "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
@@ -6140,7 +6140,7 @@
       "sha256": "2caf3ddd11c5f5a2c53b597ae3d19072d5ff389d5c5ffa21421064699ec1f326",
       "bytes": 7570,
       "owner": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
-      "ownerSha256": "d51415888c8f0e2363f67a7beb237cc737e88b0f47e9ad1a7a44a9a3ba6789a1",
+      "ownerSha256": "1dd66dd84092aead2e84ae64a876d856e24bbb111f8c0b1aaf56ba5ca9f2ae72",
       "artworks": [
         {
           "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
@@ -6338,7 +6338,7 @@
       "sha256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
       "bytes": 4087,
       "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
-      "ownerSha256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "ownerSha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
@@ -6356,7 +6356,7 @@
       "sha256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b",
       "bytes": 7929,
       "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
-      "ownerSha256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "ownerSha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
       "artworks": [
         {
           "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
@@ -8264,7 +8264,7 @@
       "sha256": "c6d91d3afa1b193f4658dc4a2c721346f13e856e746434491f628c4a0dbef59f",
       "bytes": 6015,
       "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
-      "ownerSha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+      "ownerSha256": "f68dfbdf30f370840a752f22f9519935522dcb7910b542675ebf0b88f472d94e",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
@@ -8624,7 +8624,7 @@
       "sha256": "a40278e6439e0005d0ce3c1e5c56bf18a4fe36b21e368a807203f9c877074597",
       "bytes": 12628,
       "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
-      "ownerSha256": "d6909454906644b17b3b3a4b7a79584cf4764bb6472c80cb5dff85afe8a1b573",
+      "ownerSha256": "f68dfbdf30f370840a752f22f9519935522dcb7910b542675ebf0b88f472d94e",
       "artworks": [
         {
           "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
@@ -8948,7 +8948,7 @@
       "sha256": "0208b399a8682a2de2aaef42e988039c4f1b9a1d33f957c2d8865f90e785bdfd",
       "bytes": 5397,
       "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
-      "ownerSha256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+      "ownerSha256": "62ed0ccc64239c3756cf6915978b2aa96ee6253af57214550387b7b31b2cc739",
       "artworks": [
         {
           "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
@@ -9308,7 +9308,7 @@
       "sha256": "b5328e779368911bf7e9cc0688dd2591da659df9d9df6a34d802496f30029558",
       "bytes": 19746,
       "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
-      "ownerSha256": "de4b68feed7f49111df18bcbd2505faf3c1adf93c9b744d5229ae69e34d0d802",
+      "ownerSha256": "62ed0ccc64239c3756cf6915978b2aa96ee6253af57214550387b7b31b2cc739",
       "artworks": [
         {
           "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
@@ -10829,6 +10829,168 @@
         {
           "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
           "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1-provenance.json",
+      "sha256": "c0ffd8aab40f614bd0796fb01604044494f1b96040d0232779c181ad669fe703",
+      "bytes": 4164,
+      "owner": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ownerSha256": "3151d2dd7182e4a5d4531b7c6170f9ce992e6fdaf6d9c1fe296874f5ecd82e3e",
+      "artworks": [
+        {
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+          "sha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca"
+        },
+        {
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+          "sha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/peer-reviews/next-gap-305-independent-new-owner-task-fit.json",
+      "sha256": "9c936f1bda5c9dc657809c05418c096fd0ddf94aa98d746ab3e9b879b4b63fb8",
+      "bytes": 9137,
+      "owner": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ownerSha256": "3151d2dd7182e4a5d4531b7c6170f9ce992e6fdaf6d9c1fe296874f5ecd82e3e",
+      "artworks": [
+        {
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+          "sha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca"
+        },
+        {
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+          "sha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/images/prompts/peer-reviews/next-gap-082-teaching-route-current-owner-continuity-2026-10-15.json",
+      "sha256": "5e8179068c06c3d2070b5094f0abec389c0bec3f5202df0e83acd55c669eff95",
+      "bytes": 10547,
+      "owner": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "ownerSha256": "d758aa64d80edbe249d0e00706c97ea01c0285375558e9dafb1d340e6c235080",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+          "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+          "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-167-teaching-route-current-owner-continuity-2026-10-15.json",
+      "sha256": "5750493b94c4d6b2ef72bd6cd6d113cbbb0b4ea9e1f05bdb4959e0d54c13f962",
+      "bytes": 11038,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "ownerSha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+          "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+          "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/peer-reviews/next-gap-161-teaching-route-current-owner-continuity-2026-10-15.json",
+      "sha256": "8347d95547d885075243e1f2f7b0d06ccc599149c4c72ad54b389e65d99c8bb3",
+      "bytes": 10555,
+      "owner": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+      "ownerSha256": "1dd66dd84092aead2e84ae64a876d856e24bbb111f8c0b1aaf56ba5ca9f2ae72",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
+          "sha256": "e1eed75db09f7d9cdb470b015754c8a01306cb0188fff5b7d7f27c1fc0b3b08f"
+        },
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-dark.svg",
+          "sha256": "bffdfa78f58472c0e4ada44499a5591144386060a922163124fb6b6775482bc1"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/images/prompts/peer-reviews/next-gap-220-teaching-route-current-owner-continuity-2026-10-15.json",
+      "sha256": "3bff6ad768a6c11acdc79603d0ae50d63307d884579692e77e531ff67a29a3f8",
+      "bytes": 10320,
+      "owner": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+      "ownerSha256": "f68dfbdf30f370840a752f22f9519935522dcb7910b542675ebf0b88f472d94e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+          "sha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+          "sha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/images/prompts/peer-reviews/next-gap-241-teaching-route-current-owner-continuity-2026-10-15.json",
+      "sha256": "966739b748037d88fc421a0785e6804571caacf986982fbddc1fabf7194d858f",
+      "bytes": 10946,
+      "owner": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+      "ownerSha256": "62ed0ccc64239c3756cf6915978b2aa96ee6253af57214550387b7b31b2cc739",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+          "sha256": "53c94578b31c735712c1984674bad56d760fa3ef47576f938cfc4661ead9de9f"
+        },
+        {
+          "path": "wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+          "sha256": "2e5e41ed8e19c27cedceac7c178c0822a3fbd355b0ee3140aa0a23eac7c34e3e"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/peer-reviews/next-gap-093-generated-navigation-current-owner-task-fit-continuity-2026-10-15.json",
+      "sha256": "0bb59169b994c47f91168a7cfb65f9dcb1f0388fe469d8286771354c5c5cb797",
+      "bytes": 19447,
+      "owner": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "ownerSha256": "5ceb83604f7e8f5968ebc6ddccbdf6496e73e5c4c1b182e80c5333e9e710710b",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+          "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+          "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/images/prompts/peer-reviews/next-gap-104-generated-navigation-current-owner-task-fit-continuity-2026-10-15.json",
+      "sha256": "d19543b75f71e51f2c1dd83b654cb2b6cdba90219c66cc0a4a135353f273f369",
+      "bytes": 18302,
+      "owner": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "ownerSha256": "723f3d85919a504819af1dcf7aeaa5511f8062408fc2ec7e2b1d81ffa6f10106",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+          "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c"
+        },
+        {
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+          "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a"
         }
       ],
       "contentClass": "source-owned-public-custody"
