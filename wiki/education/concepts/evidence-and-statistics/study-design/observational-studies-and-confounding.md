@@ -62,6 +62,14 @@ Two groups each contain 100 people. A defined symptom-improvement outcome by six
 
 The combined comparison favors A, although this constructed example has no difference within either category. More people with better baseline health received A. Real studies rarely have just one perfectly measured source of difference, so the table illustrates a problem rather than providing a recipe for correcting every study.
 
+<img src="./images/baseline-mixtures-within-category-and-pooled-v1-light.svg" alt="Two fictional 100-person groups have 80/20 and 20/80 baseline-health mixtures. Within better health both improve at 75%; within poorer health both improve at 25%. Pooled outcomes are 65/100 and 35/100. A common six-week clock and remaining adjustment assumptions stay visible." width="600" height="1220" data-theme-pair />
+
+*Equal within-category rates can coexist with different pooled rates when baseline mixtures differ; the crude contrast alone does not isolate treatment causation.*
+
+The related [cross-trial comparison](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) explains why population mixtures also complicate comparisons between studies.
+
+**Figure check:** Does matching this one baseline factor solve a real observational comparison? **Answer:** No. Other measured or unmeasured differences, outcome measurement, missing follow-up and the starting clock can still matter.
+
 ## Why it matters in cancer
 
 Observational evidence can describe uncommon harms, care patterns and outcomes in people who were underrepresented in trials. A large sample does not remove systematic bias. Ask why the groups received different care, when follow-up began, and which differences the analysis could address.

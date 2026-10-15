@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1390" viewBox="0 0 600 1390" role="img"><title>Oxygen has a local supply budget</title><desc>Conceptual tissue field • no oxygen values</desc>
+<rect x="0" y="0" width="600" height="1390" rx="0" fill="#fbf7ed"/>
+<text x="28" y="49" fill="#19363e" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Oxygen has a local supply budget</text>
+<text x="28" y="89" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Conceptual tissue field • no oxygen values</text>
+<rect x="20" y="125" width="560" height="750" rx="20" fill="#fffdf7" stroke="#b9c8c4" stroke-width="2"/>
+<text x="40" y="168" fill="#19363e" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">Delivery, distance and consumption</text>
+<rect x="42" y="196" width="516" height="565" rx="12" fill="#ecdfc9"/>
+<rect x="64" y="221" width="470" height="64" rx="26" fill="#d87d70"/>
+<rect x="77" y="234" width="444" height="38" rx="18" fill="#fffdf7"/>
+<circle cx="117" cy="253" r="13" fill="#d87d70"/>
+<circle cx="202" cy="253" r="13" fill="#d87d70"/>
+<circle cx="291" cy="253" r="13" fill="#d87d70"/>
+<circle cx="380" cy="253" r="13" fill="#d87d70"/>
+<path d="M432 253 L506 253" fill="none" stroke="#19363e" stroke-width="3" stroke-linecap="round"/>
+<path d="M495.4690092573155 258.75310646325045 L506 253 L495.4690092573155 247.24689353674955" fill="none" stroke="#19363e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="63" y="327" fill="#19363e" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Blood flow supplies oxygen</text>
+<circle cx="114" cy="351" r="6" fill="#c69735"/>
+<circle cx="114" cy="387" r="6" fill="#c69735"/>
+<circle cx="114" cy="421" r="6" fill="#c69735"/>
+<circle cx="178" cy="351" r="6" fill="#c69735"/>
+<circle cx="178" cy="387" r="6" fill="#c69735"/>
+<circle cx="178" cy="421" r="6" fill="#c69735"/>
+<circle cx="270" cy="351" r="6" fill="#c69735"/>
+<circle cx="270" cy="387" r="6" fill="#c69735"/>
+<circle cx="270" cy="421" r="6" fill="#c69735"/>
+<circle cx="373" cy="351" r="6" fill="#c69735"/>
+<circle cx="373" cy="387" r="6" fill="#c69735"/>
+<circle cx="373" cy="421" r="6" fill="#c69735"/>
+<circle cx="474" cy="351" r="6" fill="#c69735"/>
+<circle cx="474" cy="387" r="6" fill="#c69735"/>
+<circle cx="474" cy="421" r="6" fill="#c69735"/>
+<circle cx="150" cy="466" r="6" fill="#c69735"/>
+<circle cx="284" cy="504" r="6" fill="#c69735"/>
+<circle cx="422" cy="480" r="6" fill="#c69735"/>
+<circle cx="124" cy="449" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="121" cy="450" r="7.539999999999999" fill="#354c64"/>
+<circle cx="224" cy="459" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="221" cy="460" r="7.539999999999999" fill="#354c64"/>
+<circle cx="339" cy="447" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="336" cy="448" r="7.539999999999999" fill="#354c64"/>
+<circle cx="468" cy="442" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="465" cy="443" r="7.539999999999999" fill="#354c64"/>
+<circle cx="124" cy="560" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="121" cy="561" r="7.539999999999999" fill="#354c64"/>
+<circle cx="220" cy="573" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="217" cy="574" r="7.539999999999999" fill="#354c64"/>
+<circle cx="330" cy="570" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="327" cy="571" r="7.539999999999999" fill="#354c64"/>
+<circle cx="450" cy="552" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="447" cy="553" r="7.539999999999999" fill="#354c64"/>
+<circle cx="168" cy="669" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="165" cy="670" r="7.539999999999999" fill="#354c64"/>
+<circle cx="281" cy="677" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="278" cy="678" r="7.539999999999999" fill="#354c64"/>
+<circle cx="408" cy="670" r="26" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="405" cy="671" r="7.539999999999999" fill="#354c64"/>
+<path d="M71 358 L71 676" fill="none" stroke="#c69735" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 8"/>
+<path d="M65.24689353674957 665.4690092573155 L71 676 L76.75310646325043 665.4690092573155" fill="none" stroke="#c69735" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="94" y="724" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Longer paths can limit availability</text>
+<text x="57" y="804" fill="#19363e" font-family="Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Dots: oxygen symbols, not a concentration.</text>
+<text x="57" y="844" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Cells consume oxygen along the way.</text>
+<rect x="20" y="909" width="560" height="340" rx="20" fill="#fffdf7" stroke="#b9c8c4" stroke-width="2"/>
+<text x="40" y="952" fill="#19363e" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">The balance can vary across a tumor</text>
+<text x="40" y="999" fill="#19363e" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Supply: flow and delivery to this region</text>
+<text x="40" y="1044" fill="#19363e" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Demand: local oxygen consumption</text>
+<text x="40" y="1098" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">A shortage in one region does not mean</text>
+<text x="40" y="1134" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">every region has the same oxygen level.</text>
+<text x="40" y="1191" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">A HIF response is not an oxygen meter.</text>
+<text x="28" y="1318" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">No universal distance cutoff is depicted.</text>
+<text x="28" y="1357" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">HIF: hypoxia-inducible factor</text>
+</svg>

@@ -39,6 +39,14 @@ Some products use several complementary tests, often called an **assay matrix**.
 
 Assay controls distinguish real biological activity from background, target-independent effects or an invalid test run. Test conditions and reference material make results interpretable between lots. An assay unable to distinguish active from degraded product offers weak protection against loss of function.
 
+<img src="./images/identity-activity-and-clinical-evidence-v1-light.svg" alt="Three panels separate product identity or receptor expression, a product-relevant activity comparison with background and response controls, and the distinct evidence needed for clinical benefit." width="600" height="1200" data-theme-pair />
+
+*Identity and expression help characterize a product; product-relevant activity and clinical benefit require different evidence.*
+
+For the existing background-death comparison, see [functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays).
+
+**Figure check:** Would receptor expression alone settle the activity question? **Answer:** No. A supported surrogate relationship or a relevant functional test is needed; neither establishes patient benefit.
+
 ## Why it matters in cancer
 
 A [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) product can contain living receptor-positive cells without establishing adequate target-specific activity. A vaccine can have the intended RNA sequence without establishing adequate expression of its encoded construct.

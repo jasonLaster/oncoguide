@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-svg-source-provenance",
+  "creativeAuthor": "agent:/root/batch12_tissue_author",
+  "sourceCode": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/private/art.py",
+  "imageModelInvocation": false,
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+  "currentOwnerSHA256": "42bb7183eecf929dac8d2a1c64fb7949278bcb6d553052c86a4f25694ff3da2a",
+  "frozenTaskIdentitySHA256": "558bdd2ca71505b4f11d272f4c0f7a6ef9d9b1522eeffb6319aebf953aae520a",
+  "nativeOutputs": [
+    {
+      "key": "next-gap-275",
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+      "relativePath": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+      "nativeSHA256": "516aec29b9c4c27d4a8edeeacdd60e939429469d1e8b601a53cab2d0dfaf3bb5",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    },
+    {
+      "key": "next-gap-275",
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+      "nativeSHA256": "6c1d565a7305c24b80d4bf36e33daf2e0d6a99466157d8d50e5b0d92c4bcf5cb",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    }
+  ],
+  "scientificSourceLedger": "private/primary-source-read-ledger.json",
+  "reviewStatus": "Author QA only; independent peer, clinician and learner pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "evidenceDeliveryBoundary": "Private source/capture paths are custody locators, not a promise that those files are public or delivered with the article."
+}

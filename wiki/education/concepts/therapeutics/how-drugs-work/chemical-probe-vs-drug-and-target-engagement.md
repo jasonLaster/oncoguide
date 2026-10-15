@@ -72,6 +72,14 @@ The **cellular thermal shift assay (CETSA)** measures compound-associated change
 
 Use independent evidence when the proposed mechanism requires it. Engagement, a biochemical functional change and cell survival may all need separate assays.
 
+<img src="./images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg" alt="Two fictional plots use the same soluble target signal in relative units. First, temperature increases while compound concentration is held fixed, with a compound curve shifted relative to matched control. Second, compound concentration increases at a fixed schematic temperature, with a rising compound curve and matched control baseline. The axes are different. A visible caveat states that indirect stability or protein-complex effects can also alter signal; neither plot directly measures inhibition, percent occupancy, tumor delivery or patient benefit." width="600" height="1410" data-theme-pair />
+
+*Read which x-axis changes: a temperature trace and a concentration trace at fixed temperature ask different bounded questions. Indirect effects remain possible; the schematic signal is not an inhibition or occupancy scale.*
+
+[Controlled perturbation and controls](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls) supplies the separate causal reasoning.
+
+**Figure check:** In panel 2, what changes and what stays fixed? **Answer:** Compound concentration changes; temperature stays fixed. A rising soluble-target signal can support engagement under those conditions, but indirect stability or complex effects remain possible. It is not an inhibition percentage or proof of tumor delivery or benefit.
+
 ## Worked example
 
 A fictional compound lowers cultured-cell viability at 10 micromoles per liter. Engagement and selectivity have not been measured. The supported conclusion is an effect in this culture at this concentration. It does not identify the responsible target or establish that a safe human dose reaches it.

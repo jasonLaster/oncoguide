@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-271",
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+  "author": "agent:/root/batch12_mechanisms_author",
+  "reviewer": "agent:/root/batch12_mechanisms_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:06:27.597611Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "70431e2974e76fbf3eafc66ce30fffd85cf5c1dca8e3ccdeb2d9eb2d0be1437d",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+      "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+      "bytes": 1935562,
+      "theme": "dark",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "bytes": 2314767,
+      "theme": "light",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "targetSection": "## How it works",
+    "learnerTask": "Locate ligand binding outside, membrane spanning and kinase machinery inside a receptor.",
+    "gap": "The existing active-arrangement-to-phosphorylation map handles the functional boundary but has no receptor anatomy. Reuse the receptor-types membrane scene for the common geometry, with a family-specific activation inset only if needed; the page should not receive another generic signaling cartoon.",
+    "accuracyGuardrails": [
+      "Different RTK families activate through different arrangements.",
+      "No universal phosphorylation switch or ligand helper rule.",
+      "Accessible protein, active signal and dependence remain separate."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "baselinePageSHA256": "0bda0c7d836a777f1b500a7512d8af729c37afd9ad0ac31551c1701ecf40a6e1",
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/107",
+    "frozenRowSHA256": "f30721c3f0699585da631622b5aec4e92ae73912daac154d25ad56f8d88fd243",
+    "currentVisualFit": "adequate",
+    "reasoning": "The owner’s unchanged activity-to-phosphorylation map lacked physical topology. The reused cutaway now locates all three required regions, with an owner-specific caption directing the learner to the paired kinase example. Its other family examples do not alter the selected owner or require additional art.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+    "pageSHA256": "0bda0c7d836a777f1b500a7512d8af729c37afd9ad0ac31551c1701ecf40a6e1",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate ligand binding outside, membrane spanning and kinase machinery inside a receptor.",
+    "gap": "The existing active-arrangement-to-phosphorylation map handles the functional boundary but has no receptor anatomy. Reuse the receptor-types membrane scene for the common geometry, with a family-specific activation inset only if needed; the page should not receive another generic signaling cartoon.",
+    "accuracyGuardrails": [
+      "Different RTK families activate through different arrangements.",
+      "No universal phosphorylation switch or ligand helper rule.",
+      "Accessible protein, active signal and dependence remain separate."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "64e5a5a2c0591833354764f83b3164352ad147bcf8cf92ab1db875e9bb2c5f0c",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/107",
+    "oneBasedRow": 108,
+    "originalTaskRowSHA256": "f30721c3f0699585da631622b5aec4e92ae73912daac154d25ad56f8d88fd243",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "taskReuseDecisionAcceptance": {
+    "id": "next-gap-271",
+    "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+    "author": "agent:/root/batch12_mechanisms_author",
+    "reviewer": "agent:/root/batch12_mechanisms_review",
+    "decisionSHA256": "06fb2ef93cc963735e89ab5c42a2891f18d93dd5f02068fc734bbbf35611814e",
+    "decisionFileSHA256": "2b96b3d37581b49e2ebc644fabd84ffdef466604a9f06f44ffc7af986103a3e5",
+    "authorAcknowledgmentSHA256": "7040d3c99e5a0c6d595b79eec7b9f98690665aec2095ad662e62bfc20c789670",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept direct reuse of the exact receptor-family membrane cutaway. The selected task is anatomy: outside binding, membrane span and inside kinase machinery are already visible. A family-specific activation inset is unnecessary for this task and would risk teaching a universal arrangement.",
+    "scope": "Exact author-owned typed planning decision only; separate scientific/native/current-owner findings follow.",
+    "conceptTypeUnchanged": true,
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+    "additionalOwnerWrites": []
+  },
+  "scientificAssessment": {
+    "reasoning": "NCI identifies surface RTKs, while the EGFR primary abstract supports one asymmetric kinase activation mechanism rather than one universal phosphorylation switch. The retained cutaway has a single common membrane, outside ligands and receptor-attached inner kinase domains. The caption explicitly describes one selected arrangement and separates amount, phosphorylation and growth dependence. The neighboring GPCR and intracellular route remain examples, not a complete taxonomy or an AR/ER identity claim.",
+    "sourceScope": "Fresh primary abstracts and official focused definitions/annotations; not full-paper, whole-guideline or clinical treatment review.",
+    "sources": [
+      {
+        "id": "nci-rtk",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/receptor-tyrosine-kinase",
+        "actualReadDepth": "Complete official definition read",
+        "supportedBoundedClaim": "RTKs are cell-surface receptors with distinct amount and functional questions.",
+        "retrievedVia": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/receptor-tyrosine-kinase",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "egfr2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Asymmetric EGFR kinase activation is a defined family mechanism, not a universal switch.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16777603%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "rasmussen2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21772288/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "A defined agonist-bound GPCR complex engages a cytoplasmic heterotrimeric G protein; not a universal receptor geometry.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21772288%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      }
+    ],
+    "authorSourceLedgerSHA256": "fa7728e3c7f803d1fab31a77f941c6ec814f001fa60413f5744e065624bc125e",
+    "noOperationalBiologicalContentAdded": true
+  },
+  "nativeAndCurrentOwnerAssessment": {
+    "reasoning": "Both retained themes show one membrane with the kinase example on its right, ligand side outside and kinase machinery inside. Mobile inline/theater reduce fine labels, but the caption names each anatomical relationship and the pair remains complete. Wide views and native captures are clear; actual learner testing is pending.",
+    "nativeThemesPersonallyInspected": [
+      "light",
+      "dark"
+    ],
+    "currentOwnerInlineTheaterWidths": [
+      390,
+      1100
+    ],
+    "retainedPairReviewed": [
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+        "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+        "bytes": 1935562
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+        "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+        "bytes": 2314767
+      }
+    ],
+    "captionAltAndAuthoredBodyContextRead": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "displayQualification": "Private pinned fixture only. Enter opens and Escape closes; close gets initial focus. Escape returns focus to BODY and a single Tab from close exits role=dialog. No full-app or overall accessibility certification. Smaller auxiliary native labels require human learner review.",
+    "creationProvenance": "Four original editable SVG pairs were authored as source code by the actual author; no image-model calls or generated-call wrappers. Retained creative attribution remains UNKNOWN unless literal retained provenance establishes it.",
+    "productionVerifiedByThisReview": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+        "sha256": "70431e2974e76fbf3eafc66ce30fffd85cf5c1dca8e3ccdeb2d9eb2d0be1437d",
+        "bytes": 8361
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+        "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+        "bytes": 1935562
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+        "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+        "bytes": 2314767
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-dark-call.json",
+        "sha256": "5160f47f7d8ee9063773b98ac466677a1d4dbd9a4d27eaec1ca4a5d9a4adaf37",
+        "bytes": 2060
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-dark-call.txt",
+        "sha256": "20c1348b384ad92d55e063f6dfdaa7bfa489dc695520d3fae4034ed1001d202f",
+        "bytes": 2079
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-light-call.json",
+        "sha256": "d84a891bbabee38c8bcac7399161eabd7d6f0eec6419e4a0b4e74ad0e9ce227f",
+        "bytes": 4972
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-light-call.txt",
+        "sha256": "10bbdd4081a1b227327d9df6f816c53136f277b7abcd7057b39c5e2e18be41d7",
+        "bytes": 4991
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1.generation.json",
+        "sha256": "88f06bdac9ff48fe16620b64deeddeebced5de31b1914674fa65a29dffc4123b",
+        "bytes": 3558
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1.txt",
+        "sha256": "47cbcbfce074100451bd580f229fe3f6f32267be34cc833f54f3141029c1fa50",
+        "bytes": 4485
+      }
+    ],
+    "originalOwnerInverseInsertionExact": true,
+    "sourceBaseCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "authorPackageSealSHA256": "3eff9448752198e5f87b984d17d5c6e1fca3bc72c837391458708c263a5aebd8",
+    "retainedNativeAndSupportBytesUnchanged": true
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "executionRefs": null,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "scopeQualification": "Independent agent task-fit acceptance only. Root must separately adopt the bounded concept-support contract and exact genuine assignments before any release. No owner/type/shared-identity rewrite, human approval, delivery or credit is supplied."
+}

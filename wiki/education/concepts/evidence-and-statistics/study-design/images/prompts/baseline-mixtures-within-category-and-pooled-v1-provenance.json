@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+  "sourceCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+  "ownerPreimageSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+  "frozenTask": {
+    "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+    "pageSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+    "targetSection": "## A worked fictional example",
+    "learnerTask": "See selection change the pooled65%/35% contrast despite equal within-category rates.",
+    "gap": "The causal diagram explains paths but the population-mixture arithmetic remains only a table.",
+    "accuracyGuardrails": "Keep causal paths and the fictional composition counts distinct. Equal within-category rates with unequal mixtures illustrate confounding; stratification/adjustment does not automatically remove all bias.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/183",
+    "oneBasedRow": 184,
+    "originalTaskRowSHA256": "9726702b194ab54878a61bba6a14fcb16aec78e46746e5423b822f1efc9a97ad",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "creativeAuthor": "agent:/root/batch12_evidence_author",
+  "method": "Original personally authored editable SVG source code",
+  "actualImageModelCalls": 0,
+  "imageGenerationInvocation": null,
+  "model": null,
+  "sourceFiguresCopied": false,
+  "toyData": "All chart quantities and geometry invented; no actual cohort or assay results",
+  "planningDecisionSHA256": "e71dbfeff841514cc848d48b48c0381c0bfdb299d7a3d13ccf119276d303fdb2",
+  "outputs": [
+    {
+      "key": "next-gap-286",
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "width": 600,
+      "height": 1220
+    },
+    {
+      "key": "next-gap-286",
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "width": 600,
+      "height": 1220
+    }
+  ],
+  "briefSHA256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+  "minimumNativeFontPx": 25,
+  "themeGeometry": "Identical layout and wording; semantic palette substitution only",
+  "retainedCreatorCustody": "Literal retained support retained privately unchanged; UNKNOWN where creative author not established",
+  "sourceReadDepth": "See private source-ledger.private.json; only original diagram, prompt and provenance proposed as public support",
+  "sourceURLs": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/4832051/"
+  ],
+  "independentReview": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": null,
+  "delivery": null,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "authorInspection": {
+    "author": "agent:/root/batch12_evidence_author",
+    "nativeBothThemes": true,
+    "article390pxAndWideInlineAndTheater": true,
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "qualification": "Enter opens and Escape closes; Escape returns focus to BODY, not trigger. Private article fixture only; no whole-app, live-data, navigation or comprehensive accessibility certification. Mobile labels approximately14.25px minimum in theater; native/theater view and alt/caption/practice are retained, not expert/learner readability certification."
+  }
+}

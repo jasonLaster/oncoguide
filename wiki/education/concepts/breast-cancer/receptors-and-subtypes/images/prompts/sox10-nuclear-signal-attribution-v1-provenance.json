@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-svg-source-provenance",
+  "creativeAuthor": "agent:/root/batch12_tissue_author",
+  "sourceCode": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/private/art.py",
+  "imageModelInvocation": false,
+  "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+  "currentOwnerSHA256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+  "frozenTaskIdentitySHA256": "08ab111e42286ddcffb3f85491d4f353d77cdd72546243ef31f5f4cd564d6c99",
+  "nativeOutputs": [
+    {
+      "key": "next-gap-277",
+      "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-light.svg",
+      "relativePath": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-light.svg",
+      "nativeSHA256": "1ffa617b83e640bd69da6c3f6ae9e71fe736931cbb676241becd5911c9ce8831",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    },
+    {
+      "key": "next-gap-277",
+      "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-dark.svg",
+      "nativeSHA256": "5d3cb0d35e7ccd7cd20ab997f960c079ea2b8c08b114e70038cb529114a70bc2",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    }
+  ],
+  "scientificSourceLedger": "private/primary-source-read-ledger.json",
+  "reviewStatus": "Author QA only; independent peer, clinician and learner pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "evidenceDeliveryBoundary": "Private source/capture paths are custody locators, not a promise that those files are public or delivered with the article."
+}

@@ -28,6 +28,16 @@ A gene is like one useful entry in a large instruction collection. Some entries 
 
 ## How it works
 
+<div data-education-visual="next-gap-268">
+<img src="../genetics/images/which-rna-pieces-are-joined-v1-light.svg" width="600" height="1520" alt="Existing splice-strip diagram shows precursor exons A, B and C, two retained exon combinations and striped untranslated ends; exon retention does not identify the full coding interval." data-theme-pair />
+<p>Start with exon retention: this existing splice view separates joined RNA pieces from untranslated ends. The alignment below adds the DNA and coding-context question; it does not measure which transcript is made.</p>
+</div>
+
+<div data-education-visual="next-gap-268-inset">
+<img src="./images/gene-position-and-coding-context-b12-v1-light.svg" width="600" height="1450" alt="A fictional DNA region has two promoters and three numbered exons. Genomically aligned transcript A uses all three exons, with V in an orange coding interval; transcript B starts downstream and retains exons 2 and 3, with the same V in blue untranslated sequence." data-theme-pair />
+<p>Follow V down the alignment. It lies in the coding interval of transcript A but in retained untranslated sequence of transcript B, which uses a downstream start. Gaps preserve genomic positions in this schematic; a processed RNA is continuous. Promoters, exon widths and coding boundaries are fictional. Keep the exact transcript accession and version; RNA genes can also function without making protein. <a href="https://www.genome.gov/genetics-glossary/Exon">NHGRI exon definition</a>; <a href="https://hgvs-nomenclature.org/stable/background/refseq/">HGVS reference context</a>.</p>
+</div>
+
 Cells **transcribe**, or copy, a gene's [DNA](/wiki/education/concepts/biology-basics/molecules/dna) into [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna). A **protein-coding gene** supplies a message that can be translated into an amino-acid chain. A **noncoding RNA gene** produces an RNA with a role that does not require becoming a protein. Ribosomal RNA, part of the protein-making machinery, is one example. [NHGRI gene](https://www.genome.gov/genetics-glossary/Gene).
 
 A **promoter** is a DNA region where transcription machinery assembles. Other regulatory regions can influence transcription, sometimes from far away. Their effect depends on which regulatory proteins are present and how the DNA is packaged. Finding a gene in a genome therefore differs from finding its RNA product. Different [cell lineages and states](/wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation) can use different parts of the genome. [Transcription machinery](https://www.ncbi.nlm.nih.gov/books/NBK26887/).

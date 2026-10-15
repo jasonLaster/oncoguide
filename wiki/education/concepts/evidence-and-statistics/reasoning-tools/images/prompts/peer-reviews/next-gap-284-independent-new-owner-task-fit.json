@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-284",
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+  "author": "agent:/root/batch12_evidence_author",
+  "reviewer": "agent:/root/batch12_evidence_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T20:55:50.767624+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "bytes": 11885,
+      "nativeDimensions": [
+        600,
+        1230
+      ],
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "bytes": 11885,
+      "nativeDimensions": [
+        600,
+        1230
+      ],
+      "theme": "dark"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+    "learnerTask": "Separate group frequency, model-assigned probability and which individuals experience events.",
+    "gap": "No grouped outcomes show calibration versus individual identity.",
+    "accuracyGuardrails": "Separate population frequencies, model-assigned probabilities and individual outcome identity. Calibration depends on evaluation population and horizon; a group rate is not an individual prediction.",
+    "targetSection": "## A worked example",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+    "recommendedMedium": "chart",
+    "priority": "P2",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The 10 by 10 grid has 100 cohort glyphs and 20 filled event glyphs, a five-year defined event and complete follow-up. Sorted positions are explicitly for counting rather than identity; a separate unknown person blocks inference to a named fate. The next panel keeps a model estimate dependent on inputs, setting and calibration. The current owner example supplies its distinct 10% assigned-risk group, and the linked unchanged calibration pair supplies predicted-versus-observed groups at the same horizon. Together they distinguish observed frequency, model probability and individual outcome identity. Alt, caption and practice do not make a personal forecast."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+    "pageSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+    "targetSection": "## A worked example",
+    "learnerTask": "Separate group frequency, model-assigned probability and which individuals experience events.",
+    "gap": "No grouped outcomes show calibration versus individual identity.",
+    "accuracyGuardrails": "Separate population frequencies, model-assigned probabilities and individual outcome identity. Calibration depends on evaluation population and horizon; a group rate is not an individual prediction.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/175",
+    "oneBasedRow": 176,
+    "originalTaskRowSHA256": "68dba1eecda749389d351b41ed518c225ac642146b0c3b565e43d46b336ac7ea",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-284",
+    "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+    "author": "agent:/root/batch12_evidence_author",
+    "reviewer": "agent:/root/batch12_evidence_review",
+    "decisionSHA256": "f139a933739ee37a7599de9e85aab8afb06566b7ac20bc6de1f7fae957188d1f",
+    "decisionFileSHA256": "57a686b06ec8d1251db0da85bf54c4d75ee0dcd003db941e5f1d1be210c6056b",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accepted exact author decision: retained calibration charts supply group predicted/observed comparisons; they do not depict the fully followed 100-person cohort or unknown individual identity. A separate cohort-versus-person panel is a defensible narrow extension while preserving calibration ownership and its linked role."
+  },
+  "scientificSourceReview": {
+    "scope": "Fresh independent targeted source reading for visual claims; historical owner source_checked metadata unchanged.",
+    "sources": [
+      {
+        "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis",
+        "sourceType": "official NCI education",
+        "actualReadDepth": "Understanding survival-statistics interpretation and limits, group-statistics versus individual prediction paragraphs; not all linked resources.",
+        "supports": "A group frequency does not determine one individual outcome; treatment context and era matter."
+      },
+      {
+        "url": "https://link.springer.com/article/10.1186/s12916-019-1466-7",
+        "sourceType": "authoritative methods opinion, not a validation trial",
+        "actualReadDepth": "Abstract, Background, and discrimination-versus-calibration section through initial examples, lines 48-77; not whole paper.",
+        "supports": "Ranking and agreement of predicted/observed event frequencies are distinct."
+      }
+    ],
+    "failedAccess": [],
+    "quoteWords": 0,
+    "noSourceFiguresCopied": true
+  },
+  "visualReview": {
+    "personallyInspectedBothExactNativeThemes": true,
+    "currentOwnerArticleAndTheaterInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedSourceFilesIndependentlyMatched": 87,
+    "articleWidthPx": [
+      390,
+      1440
+    ],
+    "allNewNativeTextWithinBounds": true,
+    "horizontalOverflowObserved": false,
+    "keyboardEnterOpened": true,
+    "keyboardEscapeClosed": true,
+    "escapeFocus": "BODY, not original trigger",
+    "minimumMobileInlineLabelEstimatePx": 14.416603150406505,
+    "minimumMobileTheaterLabelEstimatePx": 14.25,
+    "limits": "Private exact pinned article fixture; no navigation, live data, runtime, full-app or comprehensive accessibility certification. Approximate small labels remain available with native view, descriptive alt, caption and practice; actual learner readability remains untested.",
+    "altCaptionAndPracticeFit": "Personally read and matched to exact visual and learner task."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+        "sha256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+        "bytes": 9147
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt",
+        "sha256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+        "bytes": 1813
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+        "sha256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+        "bytes": 4761
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+        "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+        "bytes": 11885
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+        "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+        "bytes": 11885
+      }
+    ],
+    "currentOwnerPreimageSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+    "currentOwnerPreimageCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "insertionInverseExact": true,
+    "retainedSharedNativeSupportGuardsUnchanged": true,
+    "newArtworkCreativeAuthor": "agent:/root/batch12_evidence_author",
+    "newArtworkMethod": "Original editable SVG source code; zero image model calls.",
+    "retainedCreativeAuthorship": "Literal existing creativeAuthor retained for cytotoxicity; confidence/calibration creators UNKNOWN where unproved."
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0
+}

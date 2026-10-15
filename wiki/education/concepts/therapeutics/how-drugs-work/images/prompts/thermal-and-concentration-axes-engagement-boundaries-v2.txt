@@ -1,0 +1,9 @@
+Focused correction to next-gap-287 following actual independent REVISE.
+Actual author: agent:/root/batch12_evidence_author. Original editable SVG source code; zero image-model calls.
+Exact frozen learner task: Read CETSA temperature and concentration axes while separating engagement from inhibition
+Shared owner remains wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md; no shared-owner writes.
+Corrected planning decision recorded before art: 2210e43e7a3d8595769d05cd18a82c4008a10358c886c289d42a845fbbd53222
+Show BOTH remaining-soluble-target-signal axes: temperature varying at fixed compound concentration; concentration varying at a fixed schematic temperature. Two original fictional qualitative curves; no empirical series, source figure copy, experimental setting, cutoff, assay optimization, occupancy or inhibition conversion. Indirect protein stability/complex effects visible beside interpretation. Matched control remains explicit. Clinical delivery/benefit remain separate. Identical light/dark geometry with semantic palette substitution.
+Alt: Two fictional plots use the same soluble target signal in relative units. First, temperature increases while compound concentration is held fixed, with a compound curve shifted relative to matched control. Second, compound concentration increases at a fixed schematic temperature, with a rising compound curve and matched control baseline. The axes are different. A visible caveat states that indirect stability or protein-complex effects can also alter signal; neither plot directly measures inhibition, percent occupancy, tumor delivery or patient benefit.
+Caption: Read which x-axis changes: a temperature trace and a concentration trace at fixed temperature ask different bounded questions. Indirect effects remain possible; the schematic signal is not an inhibition or occupancy scale.
+Expert and learner review pending; actual peer correction review pending.

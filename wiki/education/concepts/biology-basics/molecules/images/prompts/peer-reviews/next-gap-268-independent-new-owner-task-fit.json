@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-268",
+  "owner": "wiki/education/concepts/biology-basics/molecules/gene.md",
+  "author": "agent:/root/batch12_mechanisms_author",
+  "reviewer": "agent:/root/batch12_mechanisms_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:06:27.597611Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "6114915445fed820bd0c4152e3fb776aad43e9979ee75e93c81ea17166669bb2",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/gene-position-and-coding-context-b12-v1-dark.svg",
+      "sha256": "9b5c973cdeebcf199fed8686bf324614f27292b6fbb66e438d72a6f34da7fe9e",
+      "bytes": 8247,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1450
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/gene-position-and-coding-context-b12-v1-light.svg",
+      "sha256": "1c9b3da913f204a611bf3a6b1ef20518baad1f0fcf778a5c37da3e1055822987",
+      "bytes": 8247,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1450
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "targetSection": "## How it works",
+    "learnerTask": "Map one genomic region to different retained transcripts and coding regions rather than infer a single product from a gene name.",
+    "gap": "The one-gene/two-message branch map teaches multiplicity, but cannot locate promoter, exons, untranslated sequence or the variant that is coding in one transcript and outside coding in another. Reuse the canonical splice/transcript-strip visual with clearly marked coding intervals.",
+    "accuracyGuardrails": [
+      "Retained exons can be untranslated; noncoding RNA is functional; diagram is fictional and does not replace transcript accession/version or measured products."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/genetics/splicing.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "baselinePageSHA256": "82ab9a6202aa9f3873bd5cc4f61cede873d11fd5fdf83275b9b91652a906bb5f",
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/33",
+    "frozenRowSHA256": "82b6d5af396cb3cb73318d515d298fd5f54b17991fc78e79ccfd38d9d357f75b",
+    "currentVisualFit": "adequate",
+    "reasoning": "The existing one-gene branch map cannot locate a genomic position or coding interval. The retained splice strip supplies exon retention, while the new alignment locates both promoters, numbered exons, introns, untranslated sequence and the same genomic V in two coding contexts. This directly solves the frozen learner task without asserting measured isoforms or protein function.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/biology-basics/molecules/gene.md",
+    "pageSHA256": "82ab9a6202aa9f3873bd5cc4f61cede873d11fd5fdf83275b9b91652a906bb5f",
+    "targetSection": "## How it works",
+    "learnerTask": "Map one genomic region to different retained transcripts and coding regions rather than infer a single product from a gene name.",
+    "gap": "The one-gene/two-message branch map teaches multiplicity, but cannot locate promoter, exons, untranslated sequence or the variant that is coding in one transcript and outside coding in another. Reuse the canonical splice/transcript-strip visual with clearly marked coding intervals.",
+    "accuracyGuardrails": [
+      "Retained exons can be untranslated; noncoding RNA is functional; diagram is fictional and does not replace transcript accession/version or measured products."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/genetics/splicing.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "0b18c496cce4e36b9f2ffeee9a25fd7066fa1e8d113dcaec057729c2dd7caf7d",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/33",
+    "oneBasedRow": 34,
+    "originalTaskRowSHA256": "82b6d5af396cb3cb73318d515d298fd5f54b17991fc78e79ccfd38d9d357f75b",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "taskReuseDecisionAcceptance": {
+    "id": "next-gap-268",
+    "owner": "wiki/education/concepts/biology-basics/molecules/gene.md",
+    "author": "agent:/root/batch12_mechanisms_author",
+    "reviewer": "agent:/root/batch12_mechanisms_review",
+    "decisionSHA256": "e018ab0371f7347427819fe1a150aa3b8cd22aa6d319d86d9d73717ff362aa18",
+    "decisionFileSHA256": "6aba6d2c87ea5052cc19278e94225582305b5eadeb8ef52803d502f29ef14813",
+    "authorAcknowledgmentSHA256": "7040d3c99e5a0c6d595b79eec7b9f98690665aec2095ad662e62bfc20c789670",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the exact splice-pair reuse and narrow gene-coordinate extension. The retained strip already teaches retained exons and untranslated ends but has no promoter-to-DNA alignment. Keeping it and adding only the transcript-specific coding comparison is justified; the shared splicing owner remains untouched.",
+    "scope": "Exact author-owned typed planning decision only; separate scientific/native/current-owner findings follow.",
+    "conceptTypeUnchanged": true,
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/genetics/splicing.md",
+    "additionalOwnerWrites": []
+  },
+  "scientificAssessment": {
+    "reasoning": "The official exon definition explicitly permits untranslated exonic sequence, and HGVS distinguishes continuous transcript references from gapped genomic alignments and requires stable reference identity. The same V marker remains in exon 2 in both transcripts; orange coding coverage includes V only in A. A downstream transcription start and shifted coding start are separate illustrated concepts. The caption explains artificial alignment gaps and continuous processed RNA, labels the example fictional, and retains accession/version and functional RNA boundaries.",
+    "sourceScope": "Fresh primary abstracts and official focused definitions/annotations; not full-paper, whole-guideline or clinical treatment review.",
+    "sources": [
+      {
+        "id": "nhgri-exon",
+        "url": "https://www.genome.gov/genetics-glossary/Exon",
+        "actualReadDepth": "Official definition and relevant narration read",
+        "supportedBoundedClaim": "Retained exonic sequence can be untranslated; the definition is more precise than the simplified narration.",
+        "retrievedVia": "https://www.genome.gov/genetics-glossary/Exon",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "nhgri-promoter",
+        "url": "https://www.genome.gov/genetics-glossary/Promoter",
+        "actualReadDepth": "Official definition and relevant narration read",
+        "supportedBoundedClaim": "Promoter concerns transcription initiation rather than coding start.",
+        "retrievedVia": "https://www.genome.gov/genetics-glossary/Promoter",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "nhgri-gene",
+        "url": "https://www.genome.gov/genetics-glossary/Gene",
+        "actualReadDepth": "Official definition and relevant narration read",
+        "supportedBoundedClaim": "RNA genes can function without a protein product, as explicitly included in narration.",
+        "retrievedVia": "https://www.genome.gov/genetics-glossary/Gene",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "hgvs-ref",
+        "url": "https://hgvs-nomenclature.org/stable/background/refseq/",
+        "actualReadDepth": "Focused definition/reference identity, versions, contiguity and genomic-alignment passages read",
+        "supportedBoundedClaim": "Transcript reference identity and coding context must be retained; alignment gaps do not mean a discontinuous processed RNA.",
+        "retrievedVia": "https://hgvs-nomenclature.org/stable/background/refseq/",
+        "wholePaperOrGuidelineReviewed": false
+      }
+    ],
+    "authorSourceLedgerSHA256": "fa7728e3c7f803d1fab31a77f941c6ec814f001fa60413f5744e065624bc125e",
+    "noOperationalBiologicalContentAdded": true
+  },
+  "nativeAndCurrentOwnerAssessment": {
+    "reasoning": "Both palettes preserve identical geometry and wording. The V marker is visually aligned through all three rows and is inside the orange interval in A and blue interval in B. Mobile inline and theater keep all rows and the legend visible; captions explicitly resolve the gapped alignment convention. Small promoter labels remain a learner-review question.",
+    "nativeThemesPersonallyInspected": [
+      "light",
+      "dark"
+    ],
+    "currentOwnerInlineTheaterWidths": [
+      390,
+      1100
+    ],
+    "retainedPairReviewed": [
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/which-rna-pieces-are-joined-v1-dark.svg",
+        "sha256": "ab091ea82f10e39550fa8742459ccca5ca45f0b5739b219d7d455298cbb2e37a",
+        "bytes": 9841
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/which-rna-pieces-are-joined-v1-light.svg",
+        "sha256": "11fd966b3f08d1d19fdbcc01fbd604f5e955b2c1d6e9217cf59aa922841952a0",
+        "bytes": 9841
+      }
+    ],
+    "captionAltAndAuthoredBodyContextRead": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "displayQualification": "Private pinned fixture only. Enter opens and Escape closes; close gets initial focus. Escape returns focus to BODY and a single Tab from close exits role=dialog. No full-app or overall accessibility certification. Smaller auxiliary native labels require human learner review.",
+    "creationProvenance": "Four original editable SVG pairs were authored as source code by the actual author; no image-model calls or generated-call wrappers. Retained creative attribution remains UNKNOWN unless literal retained provenance establishes it.",
+    "productionVerifiedByThisReview": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/gene.md",
+        "sha256": "6114915445fed820bd0c4152e3fb776aad43e9979ee75e93c81ea17166669bb2",
+        "bytes": 8131
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/gene-position-and-coding-context-b12-v1-dark.svg",
+        "sha256": "9b5c973cdeebcf199fed8686bf324614f27292b6fbb66e438d72a6f34da7fe9e",
+        "bytes": 8247
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/gene-position-and-coding-context-b12-v1-light.svg",
+        "sha256": "1c9b3da913f204a611bf3a6b1ef20518baad1f0fcf778a5c37da3e1055822987",
+        "bytes": 8247
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/gene-position-and-coding-context-b12-v1.txt",
+        "sha256": "70fc0f073ef5bc6656aab5257c6276e57ff7c43c2b8bda058b10bcdbbd15f3cd",
+        "bytes": 2602
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/which-rna-pieces-are-joined-v1-dark.svg",
+        "sha256": "ab091ea82f10e39550fa8742459ccca5ca45f0b5739b219d7d455298cbb2e37a",
+        "bytes": 9841
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/which-rna-pieces-are-joined-v1-light.svg",
+        "sha256": "11fd966b3f08d1d19fdbcc01fbd604f5e955b2c1d6e9217cf59aa922841952a0",
+        "bytes": 9841
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/which-rna-pieces-are-joined-v1.txt",
+        "sha256": "6d6f272f42374341a247442af7c4d0a355f63dc3d0bc2ca0f3598f1ea59c04c7",
+        "bytes": 13634
+      }
+    ],
+    "originalOwnerInverseInsertionExact": true,
+    "sourceBaseCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "authorPackageSealSHA256": "3eff9448752198e5f87b984d17d5c6e1fca3bc72c837391458708c263a5aebd8",
+    "retainedNativeAndSupportBytesUnchanged": true
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "executionRefs": null,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "scopeQualification": "Independent agent task-fit acceptance only. Root must separately adopt the bounded concept-support contract and exact genuine assignments before any release. No owner/type/shared-identity rewrite, human approval, delivery or credit is supplied."
+}

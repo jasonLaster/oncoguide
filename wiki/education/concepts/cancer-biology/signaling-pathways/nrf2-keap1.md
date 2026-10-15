@@ -29,6 +29,16 @@ A cell needs an emergency-response program, but leaving it permanently on change
 
 ## How it works
 
+<div data-education-visual="next-gap-270">
+<img src="../cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png" width="1024" height="1536" alt="Existing selected-cargo cartoon separates E1, E2 and E3 tagging, proteasomal unfolding and fragmentation with ubiquitin recycling, and another tagged protein that remains intact." data-theme-pair />
+<p>Use this existing cargo scene for selection, tagging, destruction and ubiquitin reuse. The inset below names NRF2 as one selected substrate of KEAP1/CUL3 regulation; CUL3 also works with other adaptors and substrates.</p>
+</div>
+
+<div data-education-visual="next-gap-270-inset">
+<img src="./images/nrf2-specific-turnover-inset-b12-v1-light.svg" width="600" height="1130" alt="Two matched regulatory insets show KEAP1 adaptor and CUL3 complex acting on NRF2: unstressed conditions favor tagging and destruction, while stress can reduce tagging and turnover without requiring loss of every interaction." data-theme-pair />
+<p>Read the same regulator and substrate in both conditions. Stress can reduce KEAP1-dependent tagging and NRF2 destruction, making more NRF2 available for nuclear regulation; this need not break every KEAP1–NRF2 interaction. The arrows describe regulation, not creation of NRF2, and neither defense abundance nor a CUL3 variant proves dependence or ferroptosis sensitivity. <a href="https://pubmed.ncbi.nlm.nih.gov/15572695/">Primary redox-regulated ligase study</a>.</p>
+</div>
+
 **Nuclear factor erythroid 2-related factor 2 (NRF2)** is a transcription factor, a protein that helps regulate gene expression. The gene encoding it is named **NFE2L2**. **Kelch-like ECH-associated protein 1 (KEAP1)** serves as an adaptor that links NRF2 to a ubiquitin-ligase complex organized around **cullin 3 (CUL3)**. Under suitable unstressed conditions, this machinery promotes NRF2 turnover through the proteasome. [Kobayashi 2004](https://pubmed.ncbi.nlm.nih.gov/15282312/).
 
 Oxidative or electrophilic stress can alter KEAP1-dependent regulation and reduce NRF2 destruction. Electrophiles are chemicals that react with electron-rich parts of other molecules. More NRF2 can then participate in nuclear gene regulation. This need not mean that KEAP1 physically lets go of every NRF2 molecule. The mechanism concerns altered turnover and regulation, not simply a latch opening. [Zhang 2004](https://pubmed.ncbi.nlm.nih.gov/15572695/).

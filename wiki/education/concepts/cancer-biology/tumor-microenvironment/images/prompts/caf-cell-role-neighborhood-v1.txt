@@ -1,0 +1,8 @@
+Original SVG authored by agent:/root/batch12_tissue_author.
+Creation method: original SVG source code, not an image-model call.
+Learner task: Locate fibroblasts and matrix within broader stroma while separating cell abundance from function and immune positioning.
+Bound owner: wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md
+Current owner SHA256: 21a421fd3c26c1e388374196de0b645646e1bdb6015f2a6cb4724ab9390caac8
+Brief: Fibroblasts sit among matrix, vessels and other cells in the stroma, beside the malignant-cell nest. The arrows depict possible matrix remodeling and signal exchange, not measured movement or uniform effects. Fibroblast abundance alone does not establish immune exclusion.
+Guardrails: ['CAFs are not all stroma and not uniformly cancer-promoting.', 'No one-marker identity or abundance-to-exclusion inference.', 'Pancreatic states do not exhaust breast fibroblast states.']
+Matched theme palette; equal geometry across themes. Not to scale; fictional/schematic examples.

@@ -29,6 +29,16 @@ Imagine a workshop whose deliveries cannot keep up with local demand. Some rooms
 
 ## How it works
 
+<!-- BEGIN next-gap-280 VISUAL -->
+<img src="./images/hypoxia-local-supply-demand-v1-light.svg" alt="A conceptual tissue field shows a flowing vessel, oxygen symbols along paths to nearer and farther cells, and the separate roles of local delivery and oxygen consumption." data-theme-pair>
+
+*Oxygen arrives through blood flow, travels through tissue and is consumed locally. Distance, delivery and demand can create uneven availability. The dots are conceptual symbols, not readings, thresholds or a universal gradient; a HIF response remains an indirect measurement.*
+
+The [vessel-and-flow comparison](/wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis) separates structures from measured delivery. A [primary spatial study in mouse tumor xenografts](https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2019.00397/full) illustrates why perfusion, distance and hypoxia-response markers need separate analysis; it supplies no universal oxygen-distance cutoff.
+
+[Open the light diagram](./images/hypoxia-local-supply-demand-v1-light.svg) · [Open the dark diagram](./images/hypoxia-local-supply-demand-v1-dark.svg)
+<!-- END next-gap-280 VISUAL -->
+
 Oxygen reaches tissue through blood flow and then moves toward cells. Delivery, vessel function, diffusion distance and oxygen consumption together influence local availability. A tumor can contain regions with different oxygen conditions, and those conditions can change over time.
 
 **Hypoxia** does not mean complete absence of oxygen. It is also different from a permanent mitochondrial defect. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) requires oxygen, but a tissue's oxygen shortage may arise from supply, demand or both.

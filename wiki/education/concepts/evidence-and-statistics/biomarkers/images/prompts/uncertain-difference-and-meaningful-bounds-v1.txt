@@ -1,0 +1,12 @@
+Original editable SVG teaching diagram
+Actual creator: agent:/root/batch12_evidence_author
+Method: personally authored source code; no image model call.
+Task: Read a wide effect interval against zero and meaningful equivalence bounds.
+Frozen shared owner: wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md
+Narrow addition: The shared confidence-interval figure teaches coverage and precision. The absence-of-evidence owner still needs its actual fictional −2 with −12 to +8 interval against meaningful-equivalence bounds, separating nonsignificance from equivalence. Do not rebrand the shared coverage example or invent universal clinical margins.
+Guardrails: Name the effect scale, zero and any prespecified meaningful equivalence bounds. A nonsignificant wide interval does not prove no effect or equivalence; fictional plots are not personal forecasts.
+Scientific content: A fictional one-year risk difference of minus 2 percentage points has a 95% confidence interval from minus 12 to plus 8. The same axis marks zero and invented meaningful-equivalence bounds of minus 5 and plus 5; the interval crosses all three lines.
+Style: identical light/dark geometry; palette substitution only; text labels and symbolic shapes; no third-party figure copied. All numerical quantities are fictional; no patient prediction, eligibility determination, protocol or assay optimization.
+Alt: A fictional one-year risk difference of minus 2 percentage points has a 95% confidence interval from minus 12 to plus 8. The same axis marks zero and invented meaningful-equivalence bounds of minus 5 and plus 5; the interval crosses all three lines.
+Caption: The interval includes zero and extends beyond both invented meaningful-effect bounds; nonsignificance does not establish equivalence.
+Expert and learner review pending.

@@ -52,6 +52,14 @@ Suppose a well-conducted invented randomized trial measures recurrence by three 
 
 A target population contains 80% of the first group and 20% of the second. **If** those subgroup effects transport and all relevant differences are addressed, its weighted contrast would be `0.8 × (−5) + 0.2 × (−15) = −7` points. This arithmetic illustrates an assumption, not a personal forecast or proof that the assumption holds. Missing a third important group would leave its contribution unresolved.
 
+<img src="./images/mixture-weighting-and-missing-overlap-v1-light.svg" alt="Fictional trial subgroup risk differences of minus 5 and minus 15 points yield minus 10 with a 50/50 mixture. An 80/20 target mixture yields minus 7 only if the subgroup effects transport; a dashed missing-third-group box keeps absent overlap unresolved." width="600" height="1270" data-theme-pair />
+
+*Changing the mixture changes the conditional average; weighting cannot supply an absent group or validate the bridging assumptions.*
+
+Keep the [cross-trial comparison boundaries](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) attached when comparing settings.
+
+**Figure check:** Does calculating −7 prove transportability or eligibility? **Answer:** No. It follows only if the subgroup effects transport and relevant differences are addressed. Protocol eligibility requires its own assessment.
+
 ## Why it matters in cancer
 
 A metastatic study after several treatments and an early-disease postoperative study can differ in biology, competing risks, treatment tolerance and endpoints. A similar marker or cancer label does not bridge an untested intervention. Relevant evidence can guide reasoning while leaving a specific treatment-effect question open.

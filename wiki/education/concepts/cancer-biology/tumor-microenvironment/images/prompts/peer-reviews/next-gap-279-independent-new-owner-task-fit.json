@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-279",
+  "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+  "type": "concept",
+  "author": "agent:/root/batch12_tissue_author",
+  "authorRole": "Actual author of candidate insertion and six original SVG pairs; reuse steward for task281",
+  "reviewer": "agent:/root/batch12_tissue_review",
+  "reviewerRole": "Independent agent scientific/source/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:03:26.233525Z",
+  "currentOwnerSha256": "25df93cf132f980de87bee79a1d289f898afb2244eb19358a3febf4e59ff8643",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; baseline owner hash is separately frozen below. No delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/peer-reviews/next-gap-279-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+      "sha256": "9d35758fa2bd6bdaa80c9095c08c56c014cbf893cb513b46d267b1185c4238b2",
+      "bytes": 7021,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1330
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+      "sha256": "38b90ec908b401dbfc8d6762cd36ab34356fec34e39a38405e748eca48f55faa",
+      "bytes": 7021,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1330
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "21a421fd3c26c1e388374196de0b645646e1bdb6015f2a6cb4724ab9390caac8",
+    "learnerTask": "Locate fibroblasts and matrix within broader stroma while separating cell abundance from function and immune positioning.",
+    "gap": "The state/matrix/signals map captures distinct outputs but has no actual tissue compartment or fibroblast-produced network. Reuse the TME neighborhood scene for cell roles and the ECM architecture comparison for access; a separate CAF abundance cartoon is unnecessary.",
+    "accuracyGuardrails": [
+      "CAFs are not all stroma and not uniformly cancer-promoting.",
+      "No one-marker identity or abundance-to-exclusion inference.",
+      "Pancreatic states do not exhaust breast fibroblast states."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The scene places spindle-shaped fibroblasts among collagen, a vessel and an immune cell next to malignant cells, making stroma broader than CAFs. Solid matrix-remodeling and dashed signal-exchange arrows are described as possible roles, not measured movement or uniformly harmful effects. The native rejects abundance-to-exclusion inference and labels shapes as teaching roles rather than stain markers. The retained equal-matrix-area comparison remains linked for architecture and movement; pancreatic subtype findings are not drawn as a universal breast map.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+    "pageSHA256": "21a421fd3c26c1e388374196de0b645646e1bdb6015f2a6cb4724ab9390caac8",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate fibroblasts and matrix within broader stroma while separating cell abundance from function and immune positioning.",
+    "gap": "The state/matrix/signals map captures distinct outputs but has no actual tissue compartment or fibroblast-produced network. Reuse the TME neighborhood scene for cell roles and the ECM architecture comparison for access; a separate CAF abundance cartoon is unnecessary.",
+    "accuracyGuardrails": [
+      "CAFs are not all stroma and not uniformly cancer-promoting.",
+      "No one-marker identity or abundance-to-exclusion inference.",
+      "Pancreatic states do not exhaust breast fibroblast states."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "1158713e05e573bfc571d0348e9924a9d408da5504fde5c595ddb70e2dc89776",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/110",
+    "oneBasedRow": 111,
+    "originalTaskRowSHA256": "4f1eeb1f328e62466c06ab306931b4ff91b508f6b0107815e80e4fb45810c440",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch12_tissue_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+      "pageSHA256": "21a421fd3c26c1e388374196de0b645646e1bdb6015f2a6cb4724ab9390caac8",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate fibroblasts and matrix within broader stroma while separating cell abundance from function and immune positioning.",
+      "gap": "The state/matrix/signals map captures distinct outputs but has no actual tissue compartment or fibroblast-produced network. Reuse the TME neighborhood scene for cell roles and the ECM architecture comparison for access; a separate CAF abundance cartoon is unnecessary.",
+      "accuracyGuardrails": [
+        "CAFs are not all stroma and not uniformly cancer-promoting.",
+        "No one-marker identity or abundance-to-exclusion inference.",
+        "Pancreatic states do not exhaust breast fibroblast states."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "I inspected both retained equal-matrix-amount diagrams at native size. I reuse the unchanged canonical architecture comparison by link, preserving its fictional movement example and all original bytes. The selected CAF page still needs cells that produce/remodel matrix in the stroma. I will add only a tissue scene locating fibroblasts, malignant epithelial cells, a vessel, immune cells and collagen with bounded matrix/signaling relations. Cell abundance will not encode immune exclusion or a uniform harmful effect. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-279",
+    "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+    "author": "agent:/root/batch12_tissue_author",
+    "reviewer": "agent:/root/batch12_tissue_review",
+    "decisionSHA256": "6e085d692a59cbd7803619664cee3395f883a74d8bd9d8c55f411cbcd90887bd",
+    "decisionFileSHA256": "d7930a1de90441551ae54b28c78513b306276d7db2a5327f29a3474de8db275a",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow extension. The retained ECM comparison varies architecture at equal amount and intentionally does not map fibroblast roles. A local neighborhood view adds cells and bounded roles while preserving the original comparison and refusing uniform CAF effects or abundance-based exclusion.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+    "reviewedAt": "2026-10-14T21:03:26.233525Z",
+    "implementationGate": "Maintained concept-planning contract adoption is Root’s separate pending gate; this acceptance does not claim the lesson-only validator accepts concept decisions."
+  },
+  "authorAcknowledgment": {
+    "sha256": "2a0b052a941f2d7f9109ffd7c09c5040e9f7ed70478d76e94492bdf8ea821eeb",
+    "actualActor": "agent:/root/batch12_tissue_author",
+    "scope": "Author personally acknowledges creating the typed decisions before artwork; reviewer binds the actual decisions separately from final science/task fit."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28232471/",
+      "accessDepth": "Pancreatic CAF primary study; complete abstract read via fresh Europe PMC retrieval; full paper not read.",
+      "scope": "Supports contextual cell-state heterogeneity; pancreatic spatial subtypes not transferred into a universal breast scheme."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both final selected natives, both variants of every relevant retained shared pair, and fresh current-owner inline/theater at390px and1440px.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named fixture source files independently compared to their exact pinned Git blobs.",
+    "scope": "Private pinned article/ImageTheater fixture only; no full-app or production certification.",
+    "findings": "Labels, geometry, selected theme, owner-specific caption and supplied alt agree with the learner task. No native text crosses the canvas and no document horizontal overflow or page error observed.",
+    "limits": [
+      "Escape closes the theater; all28 image exercises did not restore image focus. Four supplemental theme/width checks observed BODY after Escape, BUTTON on open and Tab to Download link.",
+      "Retained regional-map secondary labels and the dense denominator raster are small at mobile width; direct original-size links and surrounding teaching remain necessary.",
+      "Existing tables and CAF Mermaid scroll inside containers; no renderer, full-app or general accessibility approval."
+    ],
+    "inspectionTiming": "Reviewer inspection occurred after final author drafts. Author native shared-pair inspection preceded decisions/art; author346px shared embed QA occurred after first drafts. No earlier embedded inspection is claimed."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch12_tissue_author",
+    "creationMethod": "Original SVG source code composed by actual author; no image-model invocation",
+    "imageModelInvocation": false,
+    "retainedProducingSessionAttribution": [
+      {
+        "stem": "matrix-equal-area-distinct-architecture-v1",
+        "retainedAttribution": {
+          "agent": "Codex",
+          "chatTitle": "Cartoon planning: immune barriers",
+          "threadId": "01a12e5c-60fd-76a0-870a-ed25333c5cac",
+          "role": "original mechanisms candidate writing and code-SVG construction",
+          "identityEvidence": "Author completion record names this mechanisms package and its exact original manifest hash. Canonical integration is a separate role.",
+          "authorPackageManifestSHA256": "833aec9558c74e01547eeddd2428fac5ee8198b0e45ec46d61f8803df2f80970"
+        },
+        "evidencePath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1-independent-owner-review.json",
+        "evidenceSHA256": "625ff219a61b4688fd998746e59b2b8482868c9007599915072bee878d6deda3",
+        "scope": "Literal retained support claim, preserved without a new verification of the historical dispatch."
+      }
+    ],
+    "attributionLimit": "Retained title/thread-ID metadata is a literal source claim, not newly verified person/model/invocation identity. Other unproved fields remain UNKNOWN.",
+    "sourceProvenanceOwnerHashMeaning": "The author support files’ currentOwnerSHA256 names the frozen pre-insertion baseline; this receipt binds the final candidate separately."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+        "sha256": "25df93cf132f980de87bee79a1d289f898afb2244eb19358a3febf4e59ff8643",
+        "bytes": 8162
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+        "sha256": "9d35758fa2bd6bdaa80c9095c08c56c014cbf893cb513b46d267b1185c4238b2",
+        "bytes": 7021
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+        "sha256": "38b90ec908b401dbfc8d6762cd36ab34356fec34e39a38405e748eca48f55faa",
+        "bytes": 7021
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/caf-cell-role-neighborhood-v1-provenance.json",
+        "sha256": "3a698c106b47d665e8339d511d9591f40129e9031b55969b99fe253ed12223cb",
+        "bytes": 2362
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/caf-cell-role-neighborhood-v1.txt",
+        "sha256": "1906d3be847c016b4a2264d13307d9b52e0f7e2acdc532d84f68a0658b86e96a",
+        "bytes": 1048
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+        "sha256": "607b5c32fb0d3a02719b8cd9f8fd2efef1ab07f1c1624156fd4c5603e9917bdc",
+        "bytes": 8752
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+        "sha256": "762332acdb4fceaebe05d1aa07d5882be741c1a1099e186a25d69ea49ff46537",
+        "bytes": 8752
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1-independent-owner-review.json",
+        "sha256": "625ff219a61b4688fd998746e59b2b8482868c9007599915072bee878d6deda3",
+        "bytes": 7582
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1-provenance.json",
+        "sha256": "6e96f5c276b0bb352dbf75b6f3e68663fd23b563b16167c95d2df06fc3980bee",
+        "bytes": 2039
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/matrix-equal-area-distinct-architecture-v1.txt",
+        "sha256": "1c4123d755af4be4c5283234a86a433ce27859af3b82a8585e95eb41bbf57185",
+        "bytes": 678
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+        "sha256": "323a824f11ca822e18652c333197613cbe9e60c390999a84294aaa74c41d0008",
+        "bytes": 8001
+      }
+    ],
+    "scope": "Exact candidate owner, selected native pair, its new support where applicable, and relevant unchanged shared owner/native/support guards. These are actual members, not fabricated invocation files.",
+    "originalAuthorSealSHA256": "d3de7bfcc301cfbf8224c248b4baef51fe2bc40e47adf2b79d7626a5c16fd984",
+    "originalAuthorManifestSHA256": "c67190ec4340682e9cc0d735f59db95cf0c6cecf785e3ec974b23603280b6748",
+    "originalAuthorCustodyZipSHA256": "3b23334814977bde7468e2298aaf0e4585e783038c573b2b006f82407c1802c6",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded original insertion, native pair and current-owner fit with actual source access depth; human domain expertise remains pending.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

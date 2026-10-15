@@ -1,0 +1,17 @@
+Original editable SVG composition and creation record
+
+Actual creative author: agent:/root/batch12_mechanisms_author
+Method: original authored SVG source code in build-art.py; SVG natives themselves retain editable source. No image-model call or raster generation occurred. Model: null. No copied publisher figure, abstract or source payload.
+Current selected owner: wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md
+Learner task: Locate hormone-responsive receptor binding, nuclear movement and DNA-regulatory interaction separately from measured amount or dependence.
+Frozen shared owner: wiki/education/concepts/biology-basics/signaling/receptor-types.md
+Narrow scope: I reuse the exact receptor-reach-and-relay-v1 canonical pair for intracellular receptor location and its nuclear gene-regulation route. I also inspected the pending combined40 AR-antagonists public candidate: it addresses intervention locations and an altered binding region, rather than the full-length AR domain-to-function relation required here. My narrow SVG pairs a fictional full-length domain strip (ligand-binding versus DNA-binding regions) with a conditional nuclear regulation route and separate measurement questions; it has no antagonist ranking, indication or altered-receptor construct. This is limited to the selected androgen-receptor-signaling owner; no shared or pending combined40 owner/assets are written.
+Guardrails: Context-dependent full-length receptor example, not every AR variant. AR/LAR does not imply ER positivity or transfer a prostate indication. Location and transcription remain distinct from growth dependence.
+Caption: Ligand binding and DNA binding occupy distinct regions of this full-length androgen receptor (AR) example. Hormone-responsive nuclear movement and gene regulation depend on receptor form, partners and accessible DNA; the region strip and small receptor symbols are schematic. AR amount, location, transcription and growth dependence need separate measurements. This is neither an estrogen-receptor label nor a transfer of a prostate-cancer indication. Reviewed receptor annotation; Primary receptor-mechanism work in prostate models.
+Alt: A full-length AR strip separates transcription-regulatory, DNA-binding, linker and ligand-binding regions. A hormone-bound receptor route enters a nucleus with DNA-associated receptor symbols, followed by separate questions about amount, location, transcription and dependence.
+
+Native SHA256 values:
+ar-binding-regions-and-evidence-b12-v1-light.svg 0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9
+ar-binding-regions-and-evidence-b12-v1-dark.svg a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13
+
+Agent author QA, independent peer review, human/domain-expert and learner review, adoption, delivery and coverage are separate. Independent/human review and all adoption/release states remain pending; no coverage/grade credit.

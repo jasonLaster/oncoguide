@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-282",
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+  "author": "agent:/root/batch12_evidence_author",
+  "reviewer": "agent:/root/batch12_evidence_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T20:55:50.767624+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "8de1c8fb3d225c90c77e37d26a593da4d27b512d4669fbfd57fb257acdccb53e",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+      "sha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857",
+      "bytes": 4704,
+      "nativeDimensions": [
+        600,
+        1200
+      ],
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+      "sha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c",
+      "bytes": 4704,
+      "nativeDimensions": [
+        600,
+        1200
+      ],
+      "theme": "dark"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "bdef249b7e6fcc363901437fe68f6ab031e69e62f0d8fac61b593a52ce8db1fa",
+    "learnerTask": "Separate identity/expression from a product-relevant functional challenge and its controls.",
+    "gap": "No visual shows the controlled activity measurement or the missing link from a surrogate.",
+    "accuracyGuardrails": "Label the product-relevant activity, comparator and controls; identity or receptor expression is not functional potency. A surrogate assay needs its own validated relationship to the intended mechanism.",
+    "targetSection": "## How it works",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The identity/expression panel asks whether the right receptor/product is present; the activity panel explicitly compares product plus target with target only and retains background/response controls. The linked unchanged cytotoxicity pair supplies the actual death-readout example with a matched target denominator and background excess. The new panel adds the missing surrogate-to-function relation and keeps clinical outcomes separate, so it closes the selected-owner distinction without duplicating or reassigning the shared owner. The alt, caption and figure practice ask the same bounded question; no universal release cutoff or patient efficacy is inferred."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+    "pageSHA256": "bdef249b7e6fcc363901437fe68f6ab031e69e62f0d8fac61b593a52ce8db1fa",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate identity/expression from a product-relevant functional challenge and its controls.",
+    "gap": "No visual shows the controlled activity measurement or the missing link from a surrogate.",
+    "accuracyGuardrails": "Label the product-relevant activity, comparator and controls; identity or receptor expression is not functional potency. A surrogate assay needs its own validated relationship to the intended mechanism.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/144",
+    "oneBasedRow": 145,
+    "originalTaskRowSHA256": "c2ff5acfe39cdf3eadb998edcd2b4a4f0172010adb82608d44f9188e41fe5823",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-282",
+    "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+    "author": "agent:/root/batch12_evidence_author",
+    "reviewer": "agent:/root/batch12_evidence_review",
+    "decisionSHA256": "855da5e058bd4fc3054b974d1b5387a44946236269005a6a6d90ffc6bb3a01cc",
+    "decisionFileSHA256": "6624cbf9c6ffc7795af4f9fd3040922232f0b7dde6d3dc0ba2b860cea0f95596",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accepted exact author decision after inspecting both retained cytotoxicity themes and the selected owner: the original pair measures background-associated target death, while the proposed addition teaches identity versus supported function versus clinical evidence. Retaining its original role and extending only this owner avoids duplicated shared art and preserves its canonical reference."
+  },
+  "scientificSourceReview": {
+    "scope": "Fresh independent targeted source reading for visual claims; historical owner source_checked metadata unchanged.",
+    "sources": [
+      {
+        "url": "https://www.fda.gov/media/79856/download",
+        "sourceType": "official final guidance",
+        "actualReadDepth": "Introduction and potency/clinical-effectiveness section II.D, III.A-B relevant activity and surrogate passages (PDF printed pages 1, 5-8); targeted retrieved text, not whole guidance.",
+        "supports": "Product-relevant biological activity, controls, supported surrogate relationship and separate clinical evidence."
+      }
+    ],
+    "failedAccess": [],
+    "quoteWords": 0,
+    "noSourceFiguresCopied": true
+  },
+  "visualReview": {
+    "personallyInspectedBothExactNativeThemes": true,
+    "currentOwnerArticleAndTheaterInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedSourceFilesIndependentlyMatched": 87,
+    "articleWidthPx": [
+      390,
+      1440
+    ],
+    "allNewNativeTextWithinBounds": true,
+    "horizontalOverflowObserved": false,
+    "keyboardEnterOpened": true,
+    "keyboardEscapeClosed": true,
+    "escapeFocus": "BODY, not original trigger",
+    "minimumMobileInlineLabelEstimatePx": 14.993333333333334,
+    "minimumMobileTheaterLabelEstimatePx": 14.82,
+    "limits": "Private exact pinned article fixture; no navigation, live data, runtime, full-app or comprehensive accessibility certification. Approximate small labels remain available with native view, descriptive alt, caption and practice; actual learner readability remains untested.",
+    "altCaptionAndPracticeFit": "Personally read and matched to exact visual and learner task."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+        "sha256": "8de1c8fb3d225c90c77e37d26a593da4d27b512d4669fbfd57fb257acdccb53e",
+        "bytes": 8371
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/identity-activity-and-clinical-evidence-v1.txt",
+        "sha256": "4721cb07e896d0e8a863ea1a090c632036e6b5ca5b8ba846d432724aba20bcf0",
+        "bytes": 1791
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/identity-activity-and-clinical-evidence-v1-provenance.json",
+        "sha256": "18bcb9c517633effc14707157ca74a36d9362259a51ca6ab9a17dc75ee2850bb",
+        "bytes": 4775
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+        "sha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857",
+        "bytes": 4704
+      },
+      {
+        "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+        "sha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c",
+        "bytes": 4704
+      }
+    ],
+    "currentOwnerPreimageSHA256": "54d866d9ac981028b46b4435e21a24730e418aed79bf896381c41592baf99218",
+    "currentOwnerPreimageCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "insertionInverseExact": true,
+    "retainedSharedNativeSupportGuardsUnchanged": true,
+    "newArtworkCreativeAuthor": "agent:/root/batch12_evidence_author",
+    "newArtworkMethod": "Original editable SVG source code; zero image model calls.",
+    "retainedCreativeAuthorship": "Literal existing creativeAuthor retained for cytotoxicity; confidence/calibration creators UNKNOWN where unproved."
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0
+}

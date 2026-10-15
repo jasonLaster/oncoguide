@@ -29,6 +29,11 @@ Think of a door sensor connected to several machines inside a workshop. Detectin
 
 ## How it works
 
+<div data-education-visual="next-gap-271">
+<img src="../../biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png" width="1024" height="1536" alt="Existing cell-edge cutaway places an enzyme-linked kinase receptor example across one membrane, with outside ligand clusters, membrane-spanning chains and inside kinase domains; other selected receptor families appear alongside." data-theme-pair />
+<p>Locate the paired kinase example: ligand-binding regions are outside, each chain crosses the cell membrane, and kinase machinery lies inside. This is one selected arrangement; different receptor tyrosine kinase families activate differently. Amount, phosphorylation and growth dependence remain separate observations. <a href="https://pubmed.ncbi.nlm.nih.gov/16777603/">EGFR asymmetric-kinase mechanism</a>.</p>
+</div>
+
 A [ligand](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) is a binding partner. Many receptor tyrosine kinases, often shortened to **RTKs**, have a ligand-binding region outside the cell, a membrane-spanning region, and kinase machinery inside. A **kinase** transfers a phosphate group; a tyrosine kinase acts on tyrosine, one amino acid in proteins.
 
 Ligand binding can bring receptors into an active arrangement. In the **epidermal growth factor receptor (EGFR)** family, an asymmetric interaction between kinase domains helps activate the machinery. Different receptor families use different arrangements. Activation is not simply one universal phosphorylation switch.

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-280",
+  "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+  "type": "concept",
+  "author": "agent:/root/batch12_tissue_author",
+  "authorRole": "Actual author of candidate insertion and six original SVG pairs; reuse steward for task281",
+  "reviewer": "agent:/root/batch12_tissue_review",
+  "reviewerRole": "Independent agent scientific/source/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:03:26.233525Z",
+  "currentOwnerSha256": "4c0b82af25ad19fae72b1e7b15b29b8a8181dfbbc12e4f7edc6c9880fcb24f3f",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; baseline owner hash is separately frozen below. No delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/peer-reviews/next-gap-280-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+      "sha256": "a419bf7dfcd54198b56e6dc0e1ccd4e632901dfe644b5159f6198ff4c357d2ec",
+      "bytes": 6519,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1390
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+      "sha256": "16bd08f3b34550110afbe23b5e5ba1bfd19ad1b9d4000d12d30cee8f85c58d8f",
+      "bytes": 6519,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1390
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "a573a524eeabb4cbe62f79b4e7bd71d1baebf3e06fbf5e9f51f6d1af15317e76",
+    "learnerTask": "Locate local oxygen availability relative to vessel delivery, diffusion distance and cell demand.",
+    "gap": "The supply/demand/HIF map properly separates physiological state from response but has no tissue distances or heterogeneous regions. Reuse the angiogenesis flow/delivery scene with local oxygen annotations rather than generate an independent hypoxia cartoon.",
+    "accuracyGuardrails": [
+      "No exact oxygen concentration inferred from HIF/RNA.",
+      "Illustrative gradients are not all regions of a biopsy or a universal cutoff.",
+      "No oxygen-exposure treatment recommendation."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The conceptual vessel-to-tissue scene adds local distance and consumption to the retained vessel-count/flow lesson. Oxygen dots have no numerical scale, and the native, caption and surrounding article state that neither a HIF response nor a local gradient is an exact oxygen reading or a universal distance threshold. The spatial paper is labeled as mouse-xenograft evidence. No oxygen-exposure intervention or clinical effect follows. The original angiogenesis scene remains unchanged and continues to say that oxygenation there was unmeasured.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+    "pageSHA256": "a573a524eeabb4cbe62f79b4e7bd71d1baebf3e06fbf5e9f51f6d1af15317e76",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate local oxygen availability relative to vessel delivery, diffusion distance and cell demand.",
+    "gap": "The supply/demand/HIF map properly separates physiological state from response but has no tissue distances or heterogeneous regions. Reuse the angiogenesis flow/delivery scene with local oxygen annotations rather than generate an independent hypoxia cartoon.",
+    "accuracyGuardrails": [
+      "No exact oxygen concentration inferred from HIF/RNA.",
+      "Illustrative gradients are not all regions of a biopsy or a universal cutoff.",
+      "No oxygen-exposure treatment recommendation."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "f7fa3cc6f647d679a226fd06215a253d226ab6babc82ab7e67c5218c6e265943",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/112",
+    "oneBasedRow": 113,
+    "originalTaskRowSHA256": "ae245268e1c274944fc0e31844b6edb314761d920c849a24568c5f74018919c7",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch12_tissue_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+      "pageSHA256": "a573a524eeabb4cbe62f79b4e7bd71d1baebf3e06fbf5e9f51f6d1af15317e76",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate local oxygen availability relative to vessel delivery, diffusion distance and cell demand.",
+      "gap": "The supply/demand/HIF map properly separates physiological state from response but has no tissue distances or heterogeneous regions. Reuse the angiogenesis flow/delivery scene with local oxygen annotations rather than generate an independent hypoxia cartoon.",
+      "accuracyGuardrails": [
+        "No exact oxygen concentration inferred from HIF/RNA.",
+        "Illustrative gradients are not all regions of a biopsy or a universal cutoff.",
+        "No oxygen-exposure treatment recommendation."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "I inspected both retained angiogenesis diagrams at native size. I reuse that unchanged flow-and-structure comparison by link, preserving its statement that oxygen was not measured. I will add only a schematic local supply/demand scene with a functioning vessel, nearer and farther cells, diffusion and cellular consumption. All oxygen marks are conceptual with no concentration scale or universal distance cutoff; HIF signatures remain indirect responses rather than oxygen meters. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-280",
+    "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+    "author": "agent:/root/batch12_tissue_author",
+    "reviewer": "agent:/root/batch12_tissue_review",
+    "decisionSHA256": "886c9eea8a408316d05c5edf9f335729f83c3bd5d4cde1507e45dab2ad8886fe",
+    "decisionFileSHA256": "4d88b86af03628454e5b3098ef1ff8e19a2da16b456580cf47386e13ac2e44a1",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow extension. The retained angiogenesis view separates structures, flow and tracer delivery but leaves oxygen unmeasured. A conceptual supply-distance-consumption view fills the local oxygen relation, provided its marks stay uncalibrated and HIF remains indirect, as the final native and caption do.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+    "reviewedAt": "2026-10-14T21:03:26.233525Z",
+    "implementationGate": "Maintained concept-planning contract adoption is Root’s separate pending gate; this acceptance does not claim the lesson-only validator accepts concept decisions."
+  },
+  "authorAcknowledgment": {
+    "sha256": "2a0b052a941f2d7f9109ffd7c09c5040e9f7ed70478d76e94492bdf8ea821eeb",
+    "actualActor": "agent:/root/batch12_tissue_author",
+    "scope": "Author personally acknowledges creating the typed decisions before artwork; reviewer binds the actual decisions separately from final science/task fit."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11292861/",
+      "accessDepth": "HIF regulation primary study; complete abstract read via fresh Europe PMC retrieval; full paper not read.",
+      "scope": "Oxygen-linked protein regulation is a response mechanism, not calibrated tissue oxygen measurement."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7539918/",
+      "accessDepth": "HIF-1 primary study; complete abstract read via fresh Europe PMC retrieval; full paper not read.",
+      "scope": "Transcriptional response mechanism, without experimental settings or intervention detail in the public visual."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2019.00397/full",
+      "accessDepth": "Fresh full text opened; abstract, introduction, discussion and conclusion personally read; mouse KP4 pancreatic xenograft model identified. No whole-methods audit or experimental guidance."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both final selected natives, both variants of every relevant retained shared pair, and fresh current-owner inline/theater at390px and1440px.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named fixture source files independently compared to their exact pinned Git blobs.",
+    "scope": "Private pinned article/ImageTheater fixture only; no full-app or production certification.",
+    "findings": "Labels, geometry, selected theme, owner-specific caption and supplied alt agree with the learner task. No native text crosses the canvas and no document horizontal overflow or page error observed.",
+    "limits": [
+      "Escape closes the theater; all28 image exercises did not restore image focus. Four supplemental theme/width checks observed BODY after Escape, BUTTON on open and Tab to Download link.",
+      "Retained regional-map secondary labels and the dense denominator raster are small at mobile width; direct original-size links and surrounding teaching remain necessary.",
+      "Existing tables and CAF Mermaid scroll inside containers; no renderer, full-app or general accessibility approval."
+    ],
+    "inspectionTiming": "Reviewer inspection occurred after final author drafts. Author native shared-pair inspection preceded decisions/art; author346px shared embed QA occurred after first drafts. No earlier embedded inspection is claimed."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch12_tissue_author",
+    "creationMethod": "Original SVG source code composed by actual author; no image-model invocation",
+    "imageModelInvocation": false,
+    "retainedProducingSessionAttribution": [
+      {
+        "stem": "angiogenesis-structures-flow-and-cooption-v1",
+        "retainedAttribution": {
+          "agent": "Codex",
+          "chatTitle": "Cartoon planning: immune barriers",
+          "threadId": "01a12e5c-60fd-76a0-870a-ed25333c5cac",
+          "role": "original mechanisms candidate writing and code-SVG construction",
+          "identityEvidence": "Author completion record names this mechanisms package and its exact original manifest hash. Canonical integration is a separate role.",
+          "authorPackageManifestSHA256": "833aec9558c74e01547eeddd2428fac5ee8198b0e45ec46d61f8803df2f80970"
+        },
+        "evidencePath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/angiogenesis-structures-flow-and-cooption-v1-independent-owner-review.json",
+        "evidenceSHA256": "3b90fa3d38e2aacb585545599a057e63c9caadc519aba0d383159ff95460c5c0",
+        "scope": "Literal retained support claim, preserved without a new verification of the historical dispatch."
+      }
+    ],
+    "attributionLimit": "Retained title/thread-ID metadata is a literal source claim, not newly verified person/model/invocation identity. Other unproved fields remain UNKNOWN.",
+    "sourceProvenanceOwnerHashMeaning": "The author support files’ currentOwnerSHA256 names the frozen pre-insertion baseline; this receipt binds the final candidate separately."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+        "sha256": "4c0b82af25ad19fae72b1e7b15b29b8a8181dfbbc12e4f7edc6c9880fcb24f3f",
+        "bytes": 8385
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+        "sha256": "a419bf7dfcd54198b56e6dc0e1ccd4e632901dfe644b5159f6198ff4c357d2ec",
+        "bytes": 6519
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+        "sha256": "16bd08f3b34550110afbe23b5e5ba1bfd19ad1b9d4000d12d30cee8f85c58d8f",
+        "bytes": 6519
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/hypoxia-local-supply-demand-v1-provenance.json",
+        "sha256": "3c760f43002b040c3f5af3748e6342aa567ffd6b5774bfb1d92a9a88848e55d9",
+        "bytes": 2267
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/hypoxia-local-supply-demand-v1.txt",
+        "sha256": "850f23d5ccafc1a49fae724dfae6a43c09ebd6551d73677fb5096e55c06ec68e",
+        "bytes": 991
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-dark.svg",
+        "sha256": "8cbc9045f8794a28c92f3f9b5dd095fde3153193ec6934ad84d05bbd32517bb1",
+        "bytes": 11601
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-light.svg",
+        "sha256": "c97a360d8f0827408a7c898d9ca2929fc48bae5f3865628166b700be57b49ca1",
+        "bytes": 11601
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/angiogenesis-structures-flow-and-cooption-v1-independent-owner-review.json",
+        "sha256": "3b90fa3d38e2aacb585545599a057e63c9caadc519aba0d383159ff95460c5c0",
+        "bytes": 7656
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/angiogenesis-structures-flow-and-cooption-v1-provenance.json",
+        "sha256": "96c1518b2d09d50ac06c51dacf06a65671361c830cdf30adc24176ba5933ddbc",
+        "bytes": 2039
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/angiogenesis-structures-flow-and-cooption-v1.txt",
+        "sha256": "c23cc014e3e207cd885af63a968e2371210cab6d3c91cd53578ea160738d248d",
+        "bytes": 675
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+        "sha256": "96fd6dab0753d3f7d227ebb6021f536b4bff1338a97e1bcdbe2aa92255b18d5a",
+        "bytes": 8318
+      }
+    ],
+    "scope": "Exact candidate owner, selected native pair, its new support where applicable, and relevant unchanged shared owner/native/support guards. These are actual members, not fabricated invocation files.",
+    "originalAuthorSealSHA256": "d3de7bfcc301cfbf8224c248b4baef51fe2bc40e47adf2b79d7626a5c16fd984",
+    "originalAuthorManifestSHA256": "c67190ec4340682e9cc0d735f59db95cf0c6cecf785e3ec974b23603280b6748",
+    "originalAuthorCustodyZipSHA256": "3b23334814977bde7468e2298aaf0e4585e783038c573b2b006f82407c1802c6",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded original insertion, native pair and current-owner fit with actual source access depth; human domain expertise remains pending.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

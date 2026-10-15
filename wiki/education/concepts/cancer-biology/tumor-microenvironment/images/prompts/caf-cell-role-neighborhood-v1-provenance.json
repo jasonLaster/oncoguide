@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-svg-source-provenance",
+  "creativeAuthor": "agent:/root/batch12_tissue_author",
+  "sourceCode": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/private/art.py",
+  "imageModelInvocation": false,
+  "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+  "currentOwnerSHA256": "21a421fd3c26c1e388374196de0b645646e1bdb6015f2a6cb4724ab9390caac8",
+  "frozenTaskIdentitySHA256": "1158713e05e573bfc571d0348e9924a9d408da5504fde5c595ddb70e2dc89776",
+  "nativeOutputs": [
+    {
+      "key": "next-gap-279",
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+      "relativePath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+      "nativeSHA256": "9d35758fa2bd6bdaa80c9095c08c56c014cbf893cb513b46d267b1185c4238b2",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    },
+    {
+      "key": "next-gap-279",
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+      "nativeSHA256": "38b90ec908b401dbfc8d6762cd36ab34356fec34e39a38405e748eca48f55faa",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    }
+  ],
+  "scientificSourceLedger": "private/primary-source-read-ledger.json",
+  "reviewStatus": "Author QA only; independent peer, clinician and learner pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "evidenceDeliveryBoundary": "Private source/capture paths are custody locators, not a promise that those files are public or delivered with the article."
+}

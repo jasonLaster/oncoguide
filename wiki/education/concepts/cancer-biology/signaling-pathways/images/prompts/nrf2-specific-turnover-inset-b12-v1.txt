@@ -1,0 +1,17 @@
+Original editable SVG composition and creation record
+
+Actual creative author: agent:/root/batch12_mechanisms_author
+Method: original authored SVG source code in build-art.py; SVG natives themselves retain editable source. No image-model call or raster generation occurred. Model: null. No copied publisher figure, abstract or source payload.
+Current selected owner: wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md
+Learner task: Understand changed substrate turnover rather than a universal KEAP1 latch releasing every NRF2 molecule.
+Frozen shared owner: wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md
+Narrow scope: I reuse the exact ubiquitin-selected-cargo-v5 canonical pair for selection, tagging, proteasomal destruction and ubiquitin recycling. It does not identify KEAP1/CUL3-mediated NRF2 turnover. My small original SVG inset supplies only the regulator/substrate identity and unstressed-versus-stress turnover comparison; it does not redraw a second proteasome or show a universal physical-release latch. It does not infer dependence or ferroptosis sensitivity. Only the selected NRF2 owner receives insertions; no shared owner/assets are written.
+Guardrails: Do not imply every KEAP1–NRF2 interaction breaks apart. CUL3 has other adaptors/substrates. Defense amount is not dependence or ferroptosis sensitivity.
+Caption: Read the same regulator and substrate in both conditions. Stress can reduce KEAP1-dependent tagging and NRF2 destruction, making more NRF2 available for nuclear regulation; this need not break every KEAP1–NRF2 interaction. The arrows describe regulation, not creation of NRF2, and neither defense abundance nor a CUL3 variant proves dependence or ferroptosis sensitivity. Primary redox-regulated ligase study.
+Alt: Two matched regulatory insets show KEAP1 adaptor and CUL3 complex acting on NRF2: unstressed conditions favor tagging and destruction, while stress can reduce tagging and turnover without requiring loss of every interaction.
+
+Native SHA256 values:
+nrf2-specific-turnover-inset-b12-v1-light.svg f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85
+nrf2-specific-turnover-inset-b12-v1-dark.svg c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8
+
+Agent author QA, independent peer review, human/domain-expert and learner review, adoption, delivery and coverage are separate. Independent/human review and all adoption/release states remain pending; no coverage/grade credit.

@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-287",
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+  "author": "agent:/root/batch12_evidence_author",
+  "reviewer": "agent:/root/batch12_evidence_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:39:47.464081+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "cb1c80ba25037951691559061a84d5870cc58a62d0bb392939bbcd87b3a490fa",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg",
+      "sha256": "7ce897a19199429af252d49712af773cd46e0d6c4cc1fa165cfc44d6b780d745",
+      "bytes": 5201,
+      "nativeDimensions": [
+        600,
+        1410
+      ],
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
+      "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b",
+      "bytes": 5201,
+      "nativeDimensions": [
+        600,
+        1410
+      ],
+      "theme": "dark"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "bfb0d1fd1055ab064c031f0871e035aa3bbd67422523aa4f60e3e9add9f3f597",
+    "learnerTask": "Read CETSA temperature and concentration axes while separating engagement from inhibition",
+    "gap": "Evidence flow does not show thermal shift curves or the assay readout",
+    "accuracyGuardrails": "schematic traces not actual occupancy; indirect effects and controls visible",
+    "targetSection": "## How it is measured",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+    "recommendedMedium": "chart",
+    "priority": "P2",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The corrected first panel plots soluble target signal against increasing temperature with compound concentration held fixed; the second changes concentration at fixed schematic temperature. Both use relative signal, matched-control and compound line styles, and explicitly invented curves without experimental settings or cutoffs. A visible interpretation panel retains indirect stability/protein-complex effects and separates engagement from inhibition, occupancy, tumor delivery and patient benefit. The corrected alt, caption and figure practice name what changes and what stays fixed. This closes the exact missing-axis and caveat findings while preserving the entire original current-owner preimage through insertion inversion. Current shared-source delta: The newly committed controls pair visibly distinguishes vehicle, positive-control response, independent-mechanism and rescue questions, then separates 100 to 100 treated counts from a vehicle endpoint of 200. Its caption correctly states that half the endpoint count is not measured 50% killing and that one control does not establish specificity or benefit. It has no soluble-target thermal readout or temperature/concentration axes. The unchanged selected287 v2 pair remains necessary for the exact frozen task; it retains fixed quantities, matched control and indirect stability/complex-effect limits. Accept only this post-artwork source binding while preserving the original REVISE and actual concentration-correction review."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+    "pageSHA256": "bfb0d1fd1055ab064c031f0871e035aa3bbd67422523aa4f60e3e9add9f3f597",
+    "targetSection": "## How it is measured",
+    "learnerTask": "Read CETSA temperature and concentration axes while separating engagement from inhibition",
+    "gap": "Evidence flow does not show thermal shift curves or the assay readout",
+    "accuracyGuardrails": "schematic traces not actual occupancy; indirect effects and controls visible",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/347",
+    "oneBasedRow": 348,
+    "originalTaskRowSHA256": "fc4d466a798dd336d0c1e32f71d31894e79d8b8204eec0a86a3c95a28555399c",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-287",
+    "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+    "author": "agent:/root/batch12_evidence_author",
+    "reviewer": "agent:/root/batch12_evidence_review",
+    "decisionSHA256": "c9d6104ac366f799fd9f1e0d4b1721054c206451a081d61d801d0b8ede4d582f",
+    "decisionFileSHA256": "eca58e2cd8df5abf39f3e45c3ef6a23f84a7e48c199aa7b284c8d9b05470fa68",
+    "accepted": true,
+    "verdict": "PASS",
+    "phase": "post-artwork source-binding delta",
+    "newPreArtDecision": false,
+    "actualCommittedSource": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "reasoning": "The newly committed controls pair visibly distinguishes vehicle, positive-control response, independent-mechanism and rescue questions, then separates 100 to 100 treated counts from a vehicle endpoint of 200. Its caption correctly states that half the endpoint count is not measured 50% killing and that one control does not establish specificity or benefit. It has no soluble-target thermal readout or temperature/concentration axes. The unchanged selected287 v2 pair remains necessary for the exact frozen task; it retains fixed quantities, matched control and indirect stability/complex-effect limits. Accept only this post-artwork source binding while preserving the original REVISE and actual concentration-correction review."
+  },
+  "scientificSourceReview": {
+    "scope": "Substance inherited verbatim from the hash-bound prior review; not repeated or expanded by this source-binding delta. New local public teaching source/caption observations are recorded separately.",
+    "inheritedFromReviewSHA256": "cd6bf1e1bdad04b04d49ef57fb9537829b4c2fc9edd2442a7408b7609c440ac6",
+    "substance": {
+      "scope": "Original scoped scientific review retained; focused source delta only for corrected axis and caveat. No whole-paper or assay validation claim.",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23828940/",
+          "sourceType": "original primary CETSA paper",
+          "actualReadDepth": "Indexed original abstract only; direct PubMed open returned thin empty text. No full Science paper/figures/methods reviewed.",
+          "supports": "Thermal stabilization as bounded evidence of target interaction in cells/tissues."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884524/",
+          "sourceType": "primary assay paper, indexed text",
+          "actualReadDepth": "Indexed Abstract and Introduction passages on remaining soluble protein and stabilization/destabilization. Incidental extended extraction returned methods/results; only conceptual abstract/introduction used; no protocol or optimization incorporated. Direct PMC returned recaptcha.",
+          "supports": "Readout is soluble target signal, and differs from inhibition measurement."
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Marina-Ignatushchenko/publication/245539036_Monitoring_Drug_Target_Engagement_in_Cells_and_Tissues_Using_the_Cellular_Thermal_Shift_Assay/links/558a6bd208ae273b2877009f/Monitoring-Drug-Target-Engagement-in-Cells-and-Tissues-Using-the-Cellular-Thermal-Shift-Assay.pdf",
+          "sourceType": "author-uploaded original primary report, indexed passage",
+          "actualReadDepth": "Only targeted original 2013 concentration-axis passage: a different concentration view keeps temperature fixed. Not whole paper, figures or supplement; no settings copied.",
+          "supports": "Distinct schematic concentration x-axis with fixed temperature."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7021718/",
+          "sourceType": "Ball 2020 primary study, indexed introduction",
+          "actualReadDepth": "Targeted indexed introduction paragraph on downstream and protein-protein-interaction thermal effects. Not whole paper, methods, settings or optimization.",
+          "supports": "Visible indirect stability/complex-effect interpretation caveat."
+        }
+      ],
+      "failedAccess": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23828940/",
+          "result": "Direct open thin/empty; indexed original abstract used."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884524/",
+          "result": "Direct browser recaptcha; targeted indexed conceptual passages used."
+        },
+        {
+          "url": "https://www.nature.com/articles/s42003-020-0795-6",
+          "result": "Failed inaccessible Nature identity redirect; no substantive direct-paper credit."
+        }
+      ],
+      "quoteWords": 0,
+      "noSourceFiguresCopied": true
+    }
+  },
+  "visualReview": {
+    "scope": "Exact selected-native and pinned article/theater findings inherited from prior review; no new UI certification.",
+    "inheritedFromReviewSHA256": "cd6bf1e1bdad04b04d49ef57fb9537829b4c2fc9edd2442a7408b7609c440ac6",
+    "substance": {
+      "personallyInspectedBothExactNativeThemes": true,
+      "currentOwnerArticleAndTheaterInspected": true,
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "pinnedSourceFilesIndependentlyMatched": 87,
+      "articleWidthPx": [
+        390,
+        1440
+      ],
+      "allNewNativeTextWithinBounds": true,
+      "horizontalOverflowObserved": false,
+      "keyboardEnterOpened": true,
+      "keyboardEscapeClosed": true,
+      "escapeFocus": "BODY, directly observed in all four corrected theme/width cases",
+      "minimumMobileInlineLabelEstimatePx": 15.569880319148936,
+      "minimumMobileTheaterLabelEstimatePx": 14.323404255319149,
+      "limits": "Private exact pinned article fixture; no navigation, live data, runtime, full-app or comprehensive accessibility certification. The unchanged Escape-to-BODY limitation remains. Native, alt, caption and practice available; actual learner readability remains untested.",
+      "altCaptionAndPracticeFit": "Personally read and matched to exact visual and learner task.",
+      "captureQualification": "A post-full-page crop initially clipped a title in one evidence image due capture/layout timing. Stable direct-element captures show the complete unchanged native in both themes and widths; the faulty crop is preserved as a capture artifact, not an artwork defect."
+    },
+    "newSharedNativeDelta": {
+      "personallyInspectedBothExactThemes": true,
+      "sourceReadDepth": "Only new added shared image/alt/caption sections and both original shared native renderings; no whole-source scientific recertification or mobile/theater rerun.",
+      "sharedOwner": {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+        "sha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+        "bytes": 6711,
+        "gitBlobId": "4166297c101492953f8a384911627b760362c125"
+      },
+      "outputs": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+          "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+          "bytes": 7851,
+          "gitBlobId": "9be44578450da912056fa52d58b31fcb1358cd05"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+          "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+          "bytes": 7851,
+          "gitBlobId": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3"
+        }
+      ],
+      "reasoning": "The newly committed controls pair visibly distinguishes vehicle, positive-control response, independent-mechanism and rescue questions, then separates 100 to 100 treated counts from a vehicle endpoint of 200. Its caption correctly states that half the endpoint count is not measured 50% killing and that one control does not establish specificity or benefit. It has no soluble-target thermal readout or temperature/concentration axes. The unchanged selected287 v2 pair remains necessary for the exact frozen task; it retains fixed quantities, matched control and indirect stability/complex-effect limits. Accept only this post-artwork source binding while preserving the original REVISE and actual concentration-correction review."
+    }
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+        "sha256": "cb1c80ba25037951691559061a84d5870cc58a62d0bb392939bbcd87b3a490fa",
+        "bytes": 10723
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/thermal-and-concentration-axes-engagement-boundaries-v2.txt",
+        "sha256": "9175c8695f67f5907ca7bb087f96361adb5d35d9f4831781ac0d071fec66386f",
+        "bytes": 1964
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/thermal-and-concentration-axes-engagement-boundaries-v2-provenance.json",
+        "sha256": "4ad9e525476479410f173f1c7528e9a52465cb36212fb49f3118655e2ff90193",
+        "bytes": 5597
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg",
+        "sha256": "7ce897a19199429af252d49712af773cd46e0d6c4cc1fa165cfc44d6b780d745",
+        "bytes": 5201
+      },
+      {
+        "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
+        "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b",
+        "bytes": 5201
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+        "sha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+        "bytes": 6711
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+        "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+        "bytes": 7851
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+        "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+        "bytes": 7851
+      }
+    ],
+    "currentOwnerPreimageSHA256": "79c793397a27032f2a6a06d11e0c7785dd7ebd2cd48faeff9f34165001a34ac9",
+    "currentOwnerPreimageCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "insertionInverseExact": true,
+    "retainedSharedNativeSupportGuardsUnchanged": true,
+    "newArtworkCreativeAuthor": "agent:/root/batch12_evidence_author",
+    "newArtworkMethod": "Original editable SVG source code; zero image model calls.",
+    "retainedCreativeAuthorship": "Original retained creator notes remain preserved in the hash-bound prior review. Newly committed shared artwork bytes are existing observed inputs; creative authorship is UNKNOWN in this focused source-binding scope and is not inferred from custody.",
+    "priorPreimageCommitPreserved": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "insertionInverseExactAtCurrentSource": true,
+    "sourceBindingOnlySelectedPayloadUnchanged": true
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0,
+  "focusedCorrectionAssessment": {
+    "initialReviewSHA256": "fc32de7ccbccd27b7b3214bbdfe5a7c5a844b9f69a6038676a1da6c8afa2483b",
+    "initialVerdict": "REVISE",
+    "originalRejectedDecisionSHA256": "fe371a4ecd21d885efa7deac73e20f43bdfea12f357943508a3604ad11ce9f28",
+    "correctedAcceptedDecisionSHA256": "2210e43e7a3d8595769d05cd18a82c4008a10358c886c289d42a845fbbd53222",
+    "scope": "Only corrected287 insertion, pair, prompt/provenance and delta source/visual/task-fit checks. Other five passed receipts remain unchanged.",
+    "originalAuthorSealSHA256": "61322d234dddc7f0f6b1db950ea3daf66761e5cfadd111cdf2d93a6a946db81f",
+    "correctedAuthorSealSHA256": "71f7cea5bd322bae36c7789edffeaa3280e720f5257acab66ce02acc0dc0cfa2"
+  },
+  "reviewScope": "Focused same-peer current shared-source binding successor for285/286/287 only. Prior scientific/new-native/current-owner review explicitly inherited; no full6, unchanged native, primary-source, history or UI rerun.",
+  "priorAuthorPlanningDecisionReviews": [
+    {
+      "id": "next-gap-287",
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "author": "agent:/root/batch12_evidence_author",
+      "reviewer": "agent:/root/batch12_evidence_review",
+      "decisionSHA256": "2210e43e7a3d8595769d05cd18a82c4008a10358c886c289d42a845fbbd53222",
+      "decisionFileSHA256": "e17ba41ad5899accdaa5d97efb5fec37e6634313a6618acacbef8a0ad67a33fc",
+      "accepted": true,
+      "verdict": "PASS",
+      "reasoning": "Accepted the exact corrected actual-author pre-art decision after the preserved initial rejection. The unchanged frozen task requires both axes: the corrected decision now explicitly preserves soluble signal, fixed quantities, matched control and indirect complex/stability limits. The shared controls owner has no native and remains the same reference; no shared-owner writes, protocol details or canonical transfer are proposed. The original temperature-only decision remains rejected and preserved."
+    }
+  ],
+  "reviewInheritance": {
+    "priorReview": {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/peer-reviews/next-gap-287-independent-new-owner-task-fit.json",
+      "sha256": "cd6bf1e1bdad04b04d49ef57fb9537829b4c2fc9edd2442a7408b7609c440ac6"
+    },
+    "priorFullReviewTime": "2026-10-14T20:59:46.415983+00:00",
+    "inheritedUnchangedScopes": [
+      "scientificSourceReview",
+      "selected current-owner insertion and native-theme task-fit review",
+      "original 390px/wide pinned article/theater display checks",
+      "alt/caption/practice review",
+      "creative authorship and original custody"
+    ],
+    "newScopedReview": [
+      "actual532 public shared added-image and caption sections after header gate",
+      "both newly committed shared native themes at native rendered size",
+      "three actual post-artwork author decision digests",
+      "unchanged candidate/native identities and exact insertion inverse at532"
+    ],
+    "fullScienceReviewRepeated": false,
+    "selectedNativeReviewRepeated": false,
+    "UIReviewRepeated": false
+  },
+  "post40SharedSourceBinding": {
+    "actualCommittedSource": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "sharedOwner": {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "sha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "bytes": 6711,
+      "gitBlobId": "4166297c101492953f8a384911627b760362c125"
+    },
+    "sharedNativePair": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+        "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+        "bytes": 7851,
+        "gitBlobId": "9be44578450da912056fa52d58b31fcb1358cd05"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+        "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+        "bytes": 7851,
+        "gitBlobId": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3"
+      }
+    ],
+    "newSharedArtClosesFrozenTask": false,
+    "selectedCandidateSHA256": "cb1c80ba25037951691559061a84d5870cc58a62d0bb392939bbcd87b3a490fa",
+    "laterAuthorDecisionSHA256": "c9d6104ac366f799fd9f1e0d4b1721054c206451a081d61d801d0b8ede4d582f",
+    "phase": "post-artwork binding; not new pre-artwork",
+    "newScientificApproval": false,
+    "newCandidatePixelApproval": false,
+    "sourceBindingTaskFit": "adequate",
+    "reasoning": "The newly committed controls pair visibly distinguishes vehicle, positive-control response, independent-mechanism and rescue questions, then separates 100 to 100 treated counts from a vehicle endpoint of 200. Its caption correctly states that half the endpoint count is not measured 50% killing and that one control does not establish specificity or benefit. It has no soluble-target thermal readout or temperature/concentration axes. The unchanged selected287 v2 pair remains necessary for the exact frozen task; it retains fixed quantities, matched control and indirect stability/complex-effect limits. Accept only this post-artwork source binding while preserving the original REVISE and actual concentration-correction review."
+  }
+}

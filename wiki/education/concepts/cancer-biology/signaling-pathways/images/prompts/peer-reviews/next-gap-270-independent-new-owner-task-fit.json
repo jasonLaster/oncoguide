@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-270",
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+  "author": "agent:/root/batch12_mechanisms_author",
+  "reviewer": "agent:/root/batch12_mechanisms_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:06:27.597611Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "a1ddf731c54b1d58af7a2591091132040874f120fcdbbbf47f44c59e18db6ed7",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg",
+      "sha256": "c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8",
+      "bytes": 4305,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1130
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg",
+      "sha256": "f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85",
+      "bytes": 4305,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1130
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "targetSection": "## How it works",
+    "learnerTask": "Understand changed substrate turnover rather than a universal KEAP1 latch releasing every NRF2 molecule.",
+    "gap": "The existing control/turnover/availability map and caption appropriately avoid the latch misconception. A physical turnover inset should reuse the ubiquitin–proteasome owner's selected-substrate scene, adding KEAP1/CUL3 only as the page's example rather than a second destruction cartoon.",
+    "accuracyGuardrails": [
+      "Do not imply every KEAP1–NRF2 interaction breaks apart.",
+      "CUL3 has other adaptors/substrates.",
+      "Defense amount is not dependence or ferroptosis sensitivity."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "baselinePageSHA256": "852dde07f0c28a881930da0cf141bc970af8e3777122fcdeeab32f5232334f3a",
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/105",
+    "frozenRowSHA256": "25b36ecf5c9b24993f6165b4ef88121fc64bfb7d5392b5be04fd16f35251a167",
+    "currentVisualFit": "adequate",
+    "reasoning": "The retained scene supplies selected cargo, tagging, destruction and recycling; the new inset teaches that changing turnover changes availability in this one named example. The same KEAP1/CUL3 and NRF2 remain in both conditions, and binding need not be lost is explicit. This addresses the frozen latch misconception while keeping other CUL3 substrates and dependence separate.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+    "pageSHA256": "852dde07f0c28a881930da0cf141bc970af8e3777122fcdeeab32f5232334f3a",
+    "targetSection": "## How it works",
+    "learnerTask": "Understand changed substrate turnover rather than a universal KEAP1 latch releasing every NRF2 molecule.",
+    "gap": "The existing control/turnover/availability map and caption appropriately avoid the latch misconception. A physical turnover inset should reuse the ubiquitin–proteasome owner's selected-substrate scene, adding KEAP1/CUL3 only as the page's example rather than a second destruction cartoon.",
+    "accuracyGuardrails": [
+      "Do not imply every KEAP1–NRF2 interaction breaks apart.",
+      "CUL3 has other adaptors/substrates.",
+      "Defense amount is not dependence or ferroptosis sensitivity."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "44912e207582819a35e72f5899c710b9c44d757ef69468c7338e52b3b838c2df",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/105",
+    "oneBasedRow": 106,
+    "originalTaskRowSHA256": "25b36ecf5c9b24993f6165b4ef88121fc64bfb7d5392b5be04fd16f35251a167",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "taskReuseDecisionAcceptance": {
+    "id": "next-gap-270",
+    "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+    "author": "agent:/root/batch12_mechanisms_author",
+    "reviewer": "agent:/root/batch12_mechanisms_review",
+    "decisionSHA256": "4eeb97e060937d4dc4b3c61b0e1df131634cc53248a53357786b58918f6b0db2",
+    "decisionFileSHA256": "54997ff7c6e91a6f318df0322632d31dd2615757f071dd68d2ffa6f5b252b93c",
+    "authorAcknowledgmentSHA256": "7040d3c99e5a0c6d595b79eec7b9f98690665aec2095ad662e62bfc20c789670",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept retained selected-cargo scene plus the specific KEAP1/CUL3–NRF2 condition inset. Generic tagging/destruction art does not name the regulator/substrate or changed-turnover relation. The inset adds those identities and two conditions without redrawing another proteasome or a universal release latch.",
+    "scope": "Exact author-owned typed planning decision only; separate scientific/native/current-owner findings follow.",
+    "conceptTypeUnchanged": true,
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+    "additionalOwnerWrites": []
+  },
+  "scientificAssessment": {
+    "reasoning": "The Zhang primary abstract supports KEAP1 adaptor function in a CUL3 complex and reduced NRF2 ubiquitination under tested stress conditions without loss of KEAP1–NRF2 association. Independent ubiquitin and proteasome abstracts support the retained E1/E2/E3, cargo unfolding and ubiquitin-recycling distinctions. Matching regulators and substrates in both panels, together with the explicit caption, avoid construing the dashed arrow as physical release or synthesis. The page does not infer NRF2 dependence or ferroptosis sensitivity from abundance or a CUL3 finding.",
+    "sourceScope": "Fresh primary abstracts and official focused definitions/annotations; not full-paper, whole-guideline or clinical treatment review.",
+    "sources": [
+      {
+        "id": "zhang2004",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15572695/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Tested stress changes KEAP1/CUL3-mediated NRF2 ubiquitination without requiring KEAP1/NRF2 dissociation.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15572695%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "hershko1983",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6305978/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "E1/E2/E3 have separate conjugation roles in reticulocyte-extract experiments.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:6305978%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "hershko1987",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3031653/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Ubiquitin recycling and protein-cargo degradation are distinct in the defined reticulocyte system.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:3031653%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "snoberger2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28421184/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Proteasomal ATPase machinery unfolds/translocates suitable cargo; no assay recipe exported.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28421184%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      }
+    ],
+    "authorSourceLedgerSHA256": "fa7728e3c7f803d1fab31a77f941c6ec814f001fa60413f5744e065624bc125e",
+    "noOperationalBiologicalContentAdded": true
+  },
+  "nativeAndCurrentOwnerAssessment": {
+    "reasoning": "The original cargo pair is intact and the new two-condition panel reads consistently in both themes. No condition loses its regulator/substrate box, arrow or explanatory text. Mobile/wide inline/theater show full panels and caution box; caption carries the regulatory-arrow interpretation. Auxiliary labels in the retained raster remain small on mobile.",
+    "nativeThemesPersonallyInspected": [
+      "light",
+      "dark"
+    ],
+    "currentOwnerInlineTheaterWidths": [
+      390,
+      1100
+    ],
+    "retainedPairReviewed": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+        "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+        "bytes": 1964729
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+        "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+        "bytes": 1976767
+      }
+    ],
+    "captionAltAndAuthoredBodyContextRead": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "displayQualification": "Private pinned fixture only. Enter opens and Escape closes; close gets initial focus. Escape returns focus to BODY and a single Tab from close exits role=dialog. No full-app or overall accessibility certification. Smaller auxiliary native labels require human learner review.",
+    "creationProvenance": "Four original editable SVG pairs were authored as source code by the actual author; no image-model calls or generated-call wrappers. Retained creative attribution remains UNKNOWN unless literal retained provenance establishes it.",
+    "productionVerifiedByThisReview": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+        "sha256": "a1ddf731c54b1d58af7a2591091132040874f120fcdbbbf47f44c59e18db6ed7",
+        "bytes": 9252
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg",
+        "sha256": "c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8",
+        "bytes": 4305
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg",
+        "sha256": "f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85",
+        "bytes": 4305
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/nrf2-specific-turnover-inset-b12-v1.txt",
+        "sha256": "85f87709c9a37615e8fd8dc968cfc86b93b4b11ded6f071ebc2d2e9b3c7352e6",
+        "bytes": 2515
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+        "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+        "bytes": 1964729
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+        "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+        "bytes": 1976767
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-dark-call.txt",
+        "sha256": "9d508444381b1c398b33c01b3b3df5da53e5f3a3c97fbae617817e3779d0c6c6",
+        "bytes": 1862
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-dark.txt",
+        "sha256": "fe190106ac231f94a083a74b77736d52f5ea429fda381fd308d34a4b2fbfd100",
+        "bytes": 1880
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light-call.txt",
+        "sha256": "4bb10f5cd8d581e36b61cdb882b1c17b792fc3eb2b47206a13a4638279b3f03b",
+        "bytes": 1589
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light.txt",
+        "sha256": "18406c1f2026e80c675592b5c403b01a66eaae7e5be451dde083010c4da403f9",
+        "bytes": 8621
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5.txt",
+        "sha256": "4905fdf0fc444ca7c2e1665f911c13fca9ec2d4735edafe89af6a8e26b0cfec5",
+        "bytes": 5222
+      }
+    ],
+    "originalOwnerInverseInsertionExact": true,
+    "sourceBaseCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "authorPackageSealSHA256": "3eff9448752198e5f87b984d17d5c6e1fca3bc72c837391458708c263a5aebd8",
+    "retainedNativeAndSupportBytesUnchanged": true
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "executionRefs": null,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "scopeQualification": "Independent agent task-fit acceptance only. Root must separately adopt the bounded concept-support contract and exact genuine assignments before any release. No owner/type/shared-identity rewrite, human approval, delivery or credit is supplied."
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-283",
+  "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+  "author": "agent:/root/batch12_evidence_author",
+  "reviewer": "agent:/root/batch12_evidence_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T20:55:50.767624+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "6546d5a08bcaff8c1a9b0fdb84c67d27dfea35e63e0ac25a5c9da2f4bb106e85",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+      "sha256": "bbe6b79753541a7e49606c85cc4d89655725b39b1063468d9a89b65441c676e2",
+      "bytes": 5429,
+      "nativeDimensions": [
+        600,
+        1200
+      ],
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+      "sha256": "698f2a0a7a5c309139950d9707be9e53777d0b07585467fbf57cbbbee366e75a",
+      "bytes": 5429,
+      "nativeDimensions": [
+        600,
+        1200
+      ],
+      "theme": "dark"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "4aa717f8661cf6c14cc29fbb9ad34b16baf4c1a2aca836472f93147f13c5cbc5",
+    "learnerTask": "Read a wide effect interval against zero and meaningful equivalence bounds.",
+    "gap": "The numerical interval is only prose, leaving nonsignificance versus equivalence abstract.",
+    "accuracyGuardrails": "Name the effect scale, zero and any prespecified meaningful equivalence bounds. A nonsignificant wide interval does not prove no effect or equivalence; fictional plots are not personal forecasts.",
+    "targetSection": "## Try it",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+    "recommendedMedium": "chart",
+    "priority": "P1",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The plotted one-year treatment-minus-control risk difference uses a common percentage-point axis: estimate -2, 95% interval -12 to +8, zero and invented -5/+5 bounds are geometrically consistent. The interval crosses zero and extends outside both bounds. Text explicitly distinguishes a no-difference question from equivalence and disclaims a formal equivalence test, so it does not mistake a 95% illustration for the usual TOST 90% criterion. The unchanged linked confidence pair serves repeated coverage and precision; the new selected-owner view adds this single interval versus meaningful bounds. Caption, alt and practice retain fictional data and context-specific bounds."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+    "pageSHA256": "4aa717f8661cf6c14cc29fbb9ad34b16baf4c1a2aca836472f93147f13c5cbc5",
+    "targetSection": "## Try it",
+    "learnerTask": "Read a wide effect interval against zero and meaningful equivalence bounds.",
+    "gap": "The numerical interval is only prose, leaving nonsignificance versus equivalence abstract.",
+    "accuracyGuardrails": "Name the effect scale, zero and any prespecified meaningful equivalence bounds. A nonsignificant wide interval does not prove no effect or equivalence; fictional plots are not personal forecasts.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/158",
+    "oneBasedRow": 159,
+    "originalTaskRowSHA256": "a31b3483bc4f09009b30d2aba3b0ec911cf9df2bce56674eb0622818b56d7c81",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-283",
+    "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+    "author": "agent:/root/batch12_evidence_author",
+    "reviewer": "agent:/root/batch12_evidence_review",
+    "decisionSHA256": "2f6165fb6d43bf1f92539ce3e12fd08514bd83f4b67532f33fad3e6f904bf1b8",
+    "decisionFileSHA256": "57b434a073ac519a6af2fff2a4c7da11b2a40bf8e2f7248b82f686db55ca661f",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accepted exact author decision: the retained confidence pair explains repeated coverage and sample precision, but does not display this owner's -2 [-12,+8] contrast against meaningful bounds. A bounded single-interval extension is needed, with invented bounds and no formal-equivalence claim."
+  },
+  "scientificSourceReview": {
+    "scope": "Fresh independent targeted source reading for visual claims; historical owner source_checked metadata unchanged.",
+    "sources": [
+      {
+        "url": "https://pure.tue.nl/ws/portalfiles/portal/80918653/lakeequi2017.pdf",
+        "sourceType": "primary methods primer, university-hosted record",
+        "actualReadDepth": "Targeted article pages 355-357 on equivalence bounds, nonsignificance, TOST and 90% versus 95% interval interpretation; not whole paper.",
+        "supports": "Nonsignificance alone is insufficient for equivalence; appropriate analysis and justified bounds are needed."
+      },
+      {
+        "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+        "sourceType": "official statistical handbook",
+        "actualReadDepth": "Definition/interpretation and confidence/precision paragraphs, lines 7-15; not linked examples or entire handbook.",
+        "supports": "Repeated-method coverage and width as precision, not realized-interval probability."
+      }
+    ],
+    "failedAccess": [],
+    "quoteWords": 0,
+    "noSourceFiguresCopied": true
+  },
+  "visualReview": {
+    "personallyInspectedBothExactNativeThemes": true,
+    "currentOwnerArticleAndTheaterInspected": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinnedSourceFilesIndependentlyMatched": 87,
+    "articleWidthPx": [
+      390,
+      1440
+    ],
+    "allNewNativeTextWithinBounds": true,
+    "horizontalOverflowObserved": false,
+    "keyboardEnterOpened": true,
+    "keyboardEscapeClosed": true,
+    "escapeFocus": "BODY, not original trigger",
+    "minimumMobileInlineLabelEstimatePx": 14.993333333333334,
+    "minimumMobileTheaterLabelEstimatePx": 14.82,
+    "limits": "Private exact pinned article fixture; no navigation, live data, runtime, full-app or comprehensive accessibility certification. Approximate small labels remain available with native view, descriptive alt, caption and practice; actual learner readability remains untested.",
+    "altCaptionAndPracticeFit": "Personally read and matched to exact visual and learner task."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+        "sha256": "6546d5a08bcaff8c1a9b0fdb84c67d27dfea35e63e0ac25a5c9da2f4bb106e85",
+        "bytes": 9468
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/uncertain-difference-and-meaningful-bounds-v1.txt",
+        "sha256": "2bd313f1d1dde941aa491d29e508b07814951a3fac9fb0cc6a4eb1485dc7de31",
+        "bytes": 1850
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/uncertain-difference-and-meaningful-bounds-v1-provenance.json",
+        "sha256": "3276c90c83eb1f21927b3da50a036b27cb69abb461b377d0e9d3fd1abb355e46",
+        "bytes": 4772
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+        "sha256": "bbe6b79753541a7e49606c85cc4d89655725b39b1063468d9a89b65441c676e2",
+        "bytes": 5429
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+        "sha256": "698f2a0a7a5c309139950d9707be9e53777d0b07585467fbf57cbbbee366e75a",
+        "bytes": 5429
+      }
+    ],
+    "currentOwnerPreimageSHA256": "4aa717f8661cf6c14cc29fbb9ad34b16baf4c1a2aca836472f93147f13c5cbc5",
+    "currentOwnerPreimageCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "insertionInverseExact": true,
+    "retainedSharedNativeSupportGuardsUnchanged": true,
+    "newArtworkCreativeAuthor": "agent:/root/batch12_evidence_author",
+    "newArtworkMethod": "Original editable SVG source code; zero image model calls.",
+    "retainedCreativeAuthorship": "Literal existing creativeAuthor retained for cytotoxicity; confidence/calibration creators UNKNOWN where unproved."
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0
+}

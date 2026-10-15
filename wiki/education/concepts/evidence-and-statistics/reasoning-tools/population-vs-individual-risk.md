@@ -47,6 +47,14 @@ A model assigns a 10% five-year risk to a smaller group with particular characte
 
 Now imagine someone multiplies the cohort's 20% by a published [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) for a marker and another ratio for a treatment. This does not produce a validated personal probability. The ratios may describe different populations, adjusted comparisons, endpoints and clocks. A hazard ratio is also not a fixed-time risk ratio.
 
+<img src="./images/group-frequency-and-unnamed-person-v1-light.svg" alt="A grid contains 100 fictional people after complete five-year follow-up, with 20 event dots sorted for counting. A separate person marked with a question mark shows that the group event proportion does not identify an individual outcome." width="600" height="1230" data-theme-pair />
+
+*Twenty events among one hundred people describe a group frequency; they do not identify whose event will occur.*
+
+The shared [calibration figure](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration) checks groups of predictions against observed frequencies.
+
+**Figure check:** Does the 20% group proportion mean each person experiences one fifth of an event? **Answer:** No. A probability expresses uncertainty; a model-based estimate still needs relevant inputs, calibration and a defined horizon.
+
 ## Try it
 
 A fictional model ranks outcomes well at Hospital A. Someone proposes using its printed probabilities at Hospital B, where treatment and follow-up differ. What would you ask to see before trusting those probabilities?

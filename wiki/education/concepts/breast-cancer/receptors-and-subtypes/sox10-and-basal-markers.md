@@ -49,6 +49,16 @@ Nielsen and colleagues compared a basal-marker panel with expression-defined bas
 
 ## Why it matters in cancer
 
+<!-- BEGIN next-gap-277 VISUAL -->
+<img src="./images/sox10-nuclear-signal-attribution-v1-light.svg" alt="Paired fictional SOX10 sketches locate brown nuclear signal in benign myoepithelial cells around a duct and in a separate region of labeled malignant cells." data-theme-pair>
+
+*The brown nuclear signal belongs to normal myoepithelial cells around the benign duct in A and to the labeled malignant cells in the separate region in B. These are invented stain sketches, not micrographs or scoring standards. SOX10 alone does not establish breast origin, an RNA subtype or treatment benefit.*
+
+The [normal breast layer diagram](/wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane) locates the myoepithelial layer; its anatomy is not itself a stain result.
+
+[Open the light diagram](./images/sox10-nuclear-signal-attribution-v1-light.svg) · [Open the dark diagram](./images/sox10-nuclear-signal-attribution-v1-dark.svg)
+<!-- END next-gap-277 VISUAL -->
+
 Markers help pathologists interpret a difficult specimen and consider competing diagnoses. The tissue context is essential: SOX10-positive benign myoepithelial nuclei beside a lesion are different from SOX10-positive malignant nuclei within it.
 
 “Basal-like” expression, a basal-marker-positive phenotype, and [triple-negative receptor status](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) overlap without being identical. SOX10 positivity does not assign [Lehmann BL1](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes), prove a precise developmental origin, or predict vaccine benefit. A cohort association with outcome is also different from a treatment-benefit biomarker.

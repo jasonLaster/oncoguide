@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-svg-source-provenance",
+  "creativeAuthor": "agent:/root/batch12_tissue_author",
+  "sourceCode": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/private/art.py",
+  "imageModelInvocation": false,
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+  "currentOwnerSHA256": "3b4829f03e33b2366b83ca9961fdf7430e819781029eb2c41ab0f9a15c627faf",
+  "frozenTaskIdentitySHA256": "6aa87284fba2dce4ae514536836bf19e9ee7c0d5f0e6e98cb3d74f9882b5172e",
+  "nativeOutputs": [
+    {
+      "key": "next-gap-278",
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+      "relativePath": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+      "nativeSHA256": "5413a4483615e642900bad15e20b098fd7e01e7dc81b7b1417d5c331a096b9fc",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    },
+    {
+      "key": "next-gap-278",
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+      "nativeSHA256": "3a47c37c8548d27d4c655720ed454104c166699f164f0ce65adea5d901ec4b09",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    }
+  ],
+  "scientificSourceLedger": "private/primary-source-read-ledger.json",
+  "reviewStatus": "Author QA only; independent peer, clinician and learner pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "evidenceDeliveryBoundary": "Private source/capture paths are custody locators, not a promise that those files are public or delivered with the article."
+}

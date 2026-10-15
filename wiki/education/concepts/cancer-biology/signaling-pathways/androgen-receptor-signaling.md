@@ -29,6 +29,16 @@ Think of a reader that can use a chemical signal to change which instructions a 
 
 ## How it works
 
+<div data-education-visual="next-gap-272">
+<img src="../../biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png" width="1024" height="1536" alt="Existing receptor-family cutaway shows a ligand entering the cell, binding an internal receptor, and an internal route toward DNA regulation in an enclosed nucleus, alongside three surface-receptor examples." data-theme-pair />
+<p>The internal-receptor route in this existing family map shows reception inside the cell and a nuclear gene-regulation route. The AR inset below separates the receptor regions and the measurements needed to interpret that route.</p>
+</div>
+
+<div data-education-visual="next-gap-272-inset">
+<img src="./images/ar-binding-regions-and-evidence-b12-v1-light.svg" width="600" height="1470" alt="A full-length AR strip separates transcription-regulatory, DNA-binding, linker and ligand-binding regions. A hormone-bound receptor route enters a nucleus with DNA-associated receptor symbols, followed by separate questions about amount, location, transcription and dependence." data-theme-pair />
+<p>Ligand binding and DNA binding occupy distinct regions of this full-length androgen receptor (AR) example. Hormone-responsive nuclear movement and gene regulation depend on receptor form, partners and accessible DNA; the region strip and small receptor symbols are schematic. AR amount, location, transcription and growth dependence need separate measurements. This is neither an estrogen-receptor label nor a transfer of a prostate-cancer indication. <a href="https://www.uniprot.org/uniprotkb/P10275/entry">Reviewed receptor annotation</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/19359544/">Primary receptor-mechanism work in prostate models</a>.</p>
+</div>
+
 The **androgen receptor (AR)** is a hormone-responsive transcription factor. A transcription factor helps regulate production of RNA, or ribonucleic acid, from DNA, or deoxyribonucleic acid. The [central dogma](/wiki/education/concepts/biology-basics/genetics/central-dogma) explains these information steps.
 
 **Androgens** are hormones including testosterone and dihydrotestosterone. They can act as [ligands](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor), binding partners for AR. Ligand binding can change the receptor's shape and interactions, promote its movement into the nucleus, and alter its binding to regulatory DNA regions. Partner proteins and accessible DNA help determine which genes respond.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1220" viewBox="0 0 600 1220" role="img"><title>Why the pooled comparison shifts</title><desc>Fictional observational data · arithmetic only</desc>
+<rect width="600" height="1220" fill="#14242e"/>
+<text x="28" y="47" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Why the pooled comparison shifts</text>
+<text x="28" y="86" fill="#ccdae0" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Fictional observational data · arithmetic only</text>
+<rect x="22" y="112" width="556" height="207" rx="18" fill="#1c3541" stroke="#9bb5bf" stroke-width="2"/>
+<text x="42" y="154" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">Fictional groups: 100 people each</text>
+<text x="42" y="193" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">A: 80 better-health / 20 poorer-health</text>
+<rect x="42" y="212" width="516" height="22" rx="0" fill="#f1c576" stroke="#9bb5bf" stroke-width="2"/>
+<rect x="42" y="212" width="412.8" height="22" fill="#8bcdbb"/>
+<path d="M454.8 212 L454.8 234" fill="none" stroke="#f6f0e4" stroke-width="2"/>
+<text x="42" y="264" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">B: 20 better-health / 80 poorer-health</text>
+<rect x="42" y="283" width="516" height="22" rx="0" fill="#f1c576" stroke="#9bb5bf" stroke-width="2"/>
+<rect x="42" y="283" width="103.2" height="22" fill="#8bcdbb"/>
+<path d="M145.2 283 L145.2 305" fill="none" stroke="#f6f0e4" stroke-width="2"/>
+<rect x="22" y="347" width="556" height="307" rx="18" fill="#1c3541" stroke="#9bb5bf" stroke-width="2"/>
+<text x="42" y="389" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">Equal rates within each category</text>
+<text x="42" y="429" fill="#8bcdbb" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">Better baseline health</text>
+<text x="42" y="472" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">A: 60/80 = 75%   B: 15/20 = 75%</text>
+<text x="42" y="547" fill="#f1c576" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">Poorer baseline health</text>
+<text x="42" y="590" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">A: 5/20 = 25%     B: 20/80 = 25%</text>
+<rect x="22" y="680" width="556" height="177" rx="18" fill="#1c3541" stroke="#9bb5bf" stroke-width="2"/>
+<text x="42" y="722" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">Pooled results hide the mixture</text>
+<text x="42" y="760" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">A: 65/100 = 65%   B: 35/100 = 35%</text>
+<text x="42" y="817" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">This contrast alone is not a causal effect.</text>
+<rect x="22" y="883" width="556" height="301" rx="18" fill="#1c3541" stroke="#9bb5bf" stroke-width="2"/>
+<text x="42" y="925" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">Check groups and starting clock</text>
+<path d="M64 1010 L532 1010" fill="none" stroke="#90bfee" stroke-width="4"/>
+<circle cx="80" cy="1010" r="9" fill="#90bfee" stroke="#9bb5bf" stroke-width="2"/>
+<path d="M528 1001 L542 1010" fill="none" stroke="#90bfee" stroke-width="3"/>
+<path d="M528 1019 L542 1010" fill="none" stroke="#90bfee" stroke-width="3"/>
+<text x="55" y="976" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Treatment start</text>
+<text x="379" y="976" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">6 weeks</text>
+<text x="42" y="1064" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Same defined symptom outcome + clock.</text>
+<text x="42" y="1103" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Real studies can have other differences.</text>
+<text x="42" y="1142" fill="#f6f0e4" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Adjustment needs data and assumptions.</text>
+</svg>

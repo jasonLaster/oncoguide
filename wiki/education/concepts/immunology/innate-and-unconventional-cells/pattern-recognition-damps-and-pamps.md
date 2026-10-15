@@ -31,6 +31,11 @@ The analogy stops at one alarm. There are many sensors, compartments and downstr
 
 ## How it works
 
+<div data-education-visual="next-gap-274">
+<img src="images/dna-sensing-and-sting-traffic-v1-light.png" width="1024" height="1536" alt="Existing cell cutaway places accessible DNA and cGAS in cytosol outside the nucleus, cGAMP at membrane-bound STING, and intracellular ER-to-Golgi traffic with a separate downstream gene-response question." data-theme-pair />
+<p>Here, accessible DNA is in the cytosol, outside the nucleus. The picture does not identify its source: microbial DNA or mislocated host DNA can engage this route. Host DNA need not acquire a new sequence to become accessible in an unusual compartment. Membrane-bound STING traffics inside the cell; the dashed nuclear connector represents downstream signaling. Sensing alone proves neither infection nor a tumor-specific adaptive response, immunogenic cell death or benefit. <a href="https://pubmed.ncbi.nlm.nih.gov/23258413/">DNA-sensing mechanism</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/29342134/">Defined models of mislocated host DNA</a>.</p>
+</div>
+
 **Pattern-recognition receptors (PRRs)** are encoded sensing proteins. Unlike a newly rearranged [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), they do not each assemble a unique antigen-recognition sequence during lymphocyte development. They recognize particular molecular features through different sensor systems.
 
 **Pathogen-associated molecular patterns (PAMPs)** are microbial features, such as bacterial lipopolysaccharide or forms of microbial nucleic acid. A feature need not identify one exact species or occur only in a dangerous microbe. **Damage-associated molecular patterns (DAMPs)** are host-derived signals whose release, altered form or unusual location can indicate injury or stress. Host material outside its usual compartment can matter even when its sequence has not changed.

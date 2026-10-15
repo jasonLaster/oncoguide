@@ -34,6 +34,11 @@ Everyone normally carries these genes. “BRCA positive” is incomplete languag
 
 ## How it works
 
+<div data-education-visual="next-gap-269">
+<img src="images/hr-matching-template-route-v1-light.png" width="1024" height="1536" alt="Three matching-template repair scenes show prepared broken DNA with single-stranded ends, BRCA2 helping load RAD51 for pairing to a sister template, and copied information in a repaired stretch." data-theme-pair />
+<p>Follow panel 2: BRCA2 helps RAD51 load on a prepared single-stranded DNA end and pair with matching information. BRCA1 helps coordinate repair but its individual steps are not pictured. A gene variant, its origin, the remaining allele and current repair function still need separate evidence. <a href="https://pubmed.ncbi.nlm.nih.gov/20729832/">Purified-protein mechanism study</a>; <a href="https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet">NCI finding interpretation</a>.</p>
+</div>
+
 [Homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) uses matching genetic information to repair certain kinds of deoxyribonucleic acid (DNA) damage. BRCA1 contributes to coordinating this repair. In an early experiment, Brca1-deficient mouse embryonic stem cells repaired defined chromosome breaks less effectively by HR. This established a repair role in that model, rather than the effect of every human BRCA1 variant. [Moynahan 1999](https://pubmed.ncbi.nlm.nih.gov/10549283/).
 
 BRCA2 helps **RAD51**, a protein that finds matching DNA, assemble on single-stranded DNA. Studies using purified full-length human BRCA2 showed that it helps load and stabilize RAD51 on the appropriate substrate. This is a specific molecular function, not a complete description of everything BRCA2 does in a cell. [Jensen 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2952063/).

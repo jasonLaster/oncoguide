@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+  "sourceCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+  "ownerPreimageSHA256": "79c793397a27032f2a6a06d11e0c7785dd7ebd2cd48faeff9f34165001a34ac9",
+  "frozenTask": {
+    "path": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+    "pageSHA256": "bfb0d1fd1055ab064c031f0871e035aa3bbd67422523aa4f60e3e9add9f3f597",
+    "targetSection": "## How it is measured",
+    "learnerTask": "Read CETSA temperature and concentration axes while separating engagement from inhibition",
+    "gap": "Evidence flow does not show thermal shift curves or the assay readout",
+    "accuracyGuardrails": "schematic traces not actual occupancy; indirect effects and controls visible",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/347",
+    "oneBasedRow": 348,
+    "originalTaskRowSHA256": "fc4d466a798dd336d0c1e32f71d31894e79d8b8204eec0a86a3c95a28555399c",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "creativeAuthor": "agent:/root/batch12_evidence_author",
+  "method": "Original personally authored editable SVG source code",
+  "actualImageModelCalls": 0,
+  "imageGenerationInvocation": null,
+  "model": null,
+  "sourceFiguresCopied": false,
+  "toyData": "All chart quantities and geometry invented; no actual cohort or assay results",
+  "planningDecisionSHA256": "2210e43e7a3d8595769d05cd18a82c4008a10358c886c289d42a845fbbd53222",
+  "outputs": [
+    {
+      "key": "next-gap-287",
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/corrections/task287-concentration-01/prospective/wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg",
+      "repositoryPath": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg",
+      "sha256": "7ce897a19199429af252d49712af773cd46e0d6c4cc1fa165cfc44d6b780d745",
+      "width": 600,
+      "height": 1410
+    },
+    {
+      "key": "next-gap-287",
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/corrections/task287-concentration-01/prospective/wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
+      "repositoryPath": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
+      "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b",
+      "width": 600,
+      "height": 1410
+    }
+  ],
+  "briefSHA256": "9175c8695f67f5907ca7bb087f96361adb5d35d9f4831781ac0d071fec66386f",
+  "minimumNativeFontPx": 27,
+  "themeGeometry": "Identical layout and wording; semantic palette substitution only",
+  "retainedCreatorCustody": "Literal retained support retained privately unchanged; UNKNOWN where creative author not established",
+  "sourceReadDepth": "Focused correction only: new targeted indexed passage of original2013 primary report for fixed-temperature concentration axis; Ball2020 indexed primary introduction for indirect downstream/protein-interaction stability effects. Existing source receipts otherwise unchanged. No complete-paper or supplement review; no raw source text/figure published.",
+  "sourceURLs": [
+    "https://pubmed.ncbi.nlm.nih.gov/23828940/",
+    "https://www.researchgate.net/profile/Marina-Ignatushchenko/publication/245539036_Monitoring_Drug_Target_Engagement_in_Cells_and_Tissues_Using_the_Cellular_Thermal_Shift_Assay/links/558a6bd208ae273b2877009f/Monitoring-Drug-Target-Engagement-in-Cells-and-Tissues-Using-the-Cellular-Thermal-Shift-Assay.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7021718/"
+  ],
+  "independentReview": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": null,
+  "delivery": null,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "authorInspection": {
+    "author": "agent:/root/batch12_evidence_author",
+    "nativeBothThemes": true,
+    "article390pxAndWideInlineAndTheater": true,
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "nativeSHA256": [
+      {
+        "theme": "light",
+        "sha256": "7ce897a19199429af252d49712af773cd46e0d6c4cc1fa165cfc44d6b780d745"
+      },
+      {
+        "theme": "dark",
+        "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b"
+      }
+    ],
+    "qualification": "Pinned private article fixture only; Enter opens/Escape closes, Escape-to-BODY persists. No full-app/comprehensive accessibility certification. Domain-expert/learner review pending."
+  },
+  "revision": "task287-concentration-01",
+  "initialReviseSHA256": "fc32de7ccbccd27b7b3214bbdfe5a7c5a844b9f69a6038676a1da6c8afa2483b"
+}

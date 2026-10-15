@@ -47,6 +47,16 @@ flowchart TD
 
 ## Why it matters in cancer
 
+<!-- BEGIN next-gap-278 VISUAL -->
+<img src="./images/treatment-bed-three-extents-v1-light.svg" alt="One fictional post-treatment tissue map shows a fibrous region, separate residual invasive foci, a bar across the largest contiguous focus and two bars spanning residual invasion for RCB." data-theme-pair>
+
+*The same invented tissue map contains a broad fibrous region and several residual invasive foci. A largest contiguous-focus measurement for ypT and the two-dimensional residual span for RCB serve different jobs. Bar lengths are schematic, with no numerical score or individual staging assignment. Cellularity has its own area denominator.*
+
+The [tumor-bed area example](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) supplies the separate cellularity denominators. Here, [CAP’s measurement guidance](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true) supports the distinction between residual span and a contiguous focus.
+
+[Open the light diagram](./images/treatment-bed-three-extents-v1-light.svg) · [Open the dark diagram](./images/treatment-bed-three-extents-v1-dark.svg)
+<!-- END next-gap-278 VISUAL -->
+
 Keep three measurements distinct:
 
 | Measurement | What it describes |

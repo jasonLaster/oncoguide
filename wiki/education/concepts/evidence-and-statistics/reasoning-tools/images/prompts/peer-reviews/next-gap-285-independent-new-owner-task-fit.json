@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-285",
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+  "author": "agent:/root/batch12_evidence_author",
+  "reviewer": "agent:/root/batch12_evidence_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:39:47.464081+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "bytes": 4351,
+      "nativeDimensions": [
+        600,
+        1270
+      ],
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "bytes": 4351,
+      "nativeDimensions": [
+        600,
+        1270
+      ],
+      "theme": "dark"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+    "learnerTask": "Apply trial subgroup effects to a different target mixture while retaining the transport assumption and missing profiles.",
+    "gap": "The −10 to−7 weighted contrast is only prose.",
+    "accuracyGuardrails": "Keep trial/target weights, subgroup profiles and transport assumptions explicit. A weighted illustrative contrast is not an individual forecast; absent profiles and exchangeability/positivity limits cannot be filled by graphics.",
+    "targetSection": "## A fictional worked example",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+    "recommendedMedium": "chart",
+    "priority": "P2",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The trial and target mixtures use identical subgroup effects on a stated recurrence-risk-difference scale and three-year assignment clock. Equal trial weights give -10 points; 80/20 target weights give -7 points. Bar lengths and formulas match those weights. The transport assumption is explicit immediately above the calculation, and the dashed missing-third-group panel leaves absent overlap unresolved. Eligibility remains a separate protocol question. Alt, caption and practice preserve those limits. Current shared-source delta: The newly committed cross-trial pair has two separate 100-person studies with favorable-group responses 40/80 versus 12/20 and unfavorable responses 4/20 versus 24/80, producing pooled 44/100 versus 36/100. Its unequal mixture reverses the crude ranking but supplies neither the selected trial subgroup risk differences nor a new target population weighting or absent-profile question. Its caption correctly blocks treatment-superiority inference. The unchanged selected285 pair still adds the distinct conditional -10 to -7 standardization with transport and overlap assumptions. Accept the later source-binding decision and retain that exact candidate/pair; no new figure or correction is needed."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+    "pageSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+    "targetSection": "## A fictional worked example",
+    "learnerTask": "Apply trial subgroup effects to a different target mixture while retaining the transport assumption and missing profiles.",
+    "gap": "The −10 to−7 weighted contrast is only prose.",
+    "accuracyGuardrails": "Keep trial/target weights, subgroup profiles and transport assumptions explicit. A weighted illustrative contrast is not an individual forecast; absent profiles and exchangeability/positivity limits cannot be filled by graphics.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/178",
+    "oneBasedRow": 179,
+    "originalTaskRowSHA256": "f0af3c30c634132d13464dc37d6c8a7c1fe9027a4daba21253f96e8fd07a4854",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-285",
+    "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+    "author": "agent:/root/batch12_evidence_author",
+    "reviewer": "agent:/root/batch12_evidence_review",
+    "decisionSHA256": "adfbec79db7ca759f1df6b5ccada039cf0f1d1309110aa398cf5f8436daca36d",
+    "decisionFileSHA256": "dcfa4e8dc36998d6f2a07d7e0c0189db27637fef7048bc1602aafe9f989389ef",
+    "accepted": true,
+    "verdict": "PASS",
+    "phase": "post-artwork source-binding delta",
+    "newPreArtDecision": false,
+    "actualCommittedSource": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "reasoning": "The newly committed cross-trial pair has two separate 100-person studies with favorable-group responses 40/80 versus 12/20 and unfavorable responses 4/20 versus 24/80, producing pooled 44/100 versus 36/100. Its unequal mixture reverses the crude ranking but supplies neither the selected trial subgroup risk differences nor a new target population weighting or absent-profile question. Its caption correctly blocks treatment-superiority inference. The unchanged selected285 pair still adds the distinct conditional -10 to -7 standardization with transport and overlap assumptions. Accept the later source-binding decision and retain that exact candidate/pair; no new figure or correction is needed."
+  },
+  "scientificSourceReview": {
+    "scope": "Substance inherited verbatim from the hash-bound prior review; not repeated or expanded by this source-binding delta. New local public teaching source/caption observations are recorded separately.",
+    "inheritedFromReviewSHA256": "488ee2942bdea78591a22db39c8b4f1c9afba17227b311ffc9952578825e38b1",
+    "substance": {
+      "scope": "Fresh independent targeted source reading for visual claims; historical owner source_checked metadata unchanged.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/1905.07764v1",
+          "sourceType": "author primary-methods preprint v1",
+          "actualReadDepth": "Targeted sections 2.2-2.3 on exchangeability, treatment/participation positivity and eligibility; opening g-formula identification paragraph in section 3. Not whole paper or published-version verification.",
+          "supports": "Target mixture inference requires overlap and bridging assumptions; eligibility is distinct."
+        }
+      ],
+      "failedAccess": [],
+      "quoteWords": 0,
+      "noSourceFiguresCopied": true
+    }
+  },
+  "visualReview": {
+    "scope": "Exact selected-native and pinned article/theater findings inherited from prior review; no new UI certification.",
+    "inheritedFromReviewSHA256": "488ee2942bdea78591a22db39c8b4f1c9afba17227b311ffc9952578825e38b1",
+    "substance": {
+      "personallyInspectedBothExactNativeThemes": true,
+      "currentOwnerArticleAndTheaterInspected": true,
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "pinnedSourceFilesIndependentlyMatched": 87,
+      "articleWidthPx": [
+        390,
+        1440
+      ],
+      "allNewNativeTextWithinBounds": true,
+      "horizontalOverflowObserved": false,
+      "keyboardEnterOpened": true,
+      "keyboardEscapeClosed": true,
+      "escapeFocus": "BODY, not original trigger",
+      "minimumMobileInlineLabelEstimatePx": 15.56984498031496,
+      "minimumMobileTheaterLabelEstimatePx": 15.39,
+      "limits": "Private exact pinned article fixture; no navigation, live data, runtime, full-app or comprehensive accessibility certification. Approximate small labels remain available with native view, descriptive alt, caption and practice; actual learner readability remains untested.",
+      "altCaptionAndPracticeFit": "Personally read and matched to exact visual and learner task."
+    },
+    "newSharedNativeDelta": {
+      "personallyInspectedBothExactThemes": true,
+      "sourceReadDepth": "Only new added shared image/alt/caption sections and both original shared native renderings; no whole-source scientific recertification or mobile/theater rerun.",
+      "sharedOwner": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+        "sha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+        "bytes": 9657,
+        "gitBlobId": "8ea0d860ac51783b5f62ddf46ee14eb2539d8c6c"
+      },
+      "outputs": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+          "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+          "bytes": 6075,
+          "gitBlobId": "ce0645a0aa19b878e922c9e814d8912623c20282"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+          "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+          "bytes": 6075,
+          "gitBlobId": "6f7f8afd983fe14bc43fb2f79807febad6effc5a"
+        }
+      ],
+      "reasoning": "The newly committed cross-trial pair has two separate 100-person studies with favorable-group responses 40/80 versus 12/20 and unfavorable responses 4/20 versus 24/80, producing pooled 44/100 versus 36/100. Its unequal mixture reverses the crude ranking but supplies neither the selected trial subgroup risk differences nor a new target population weighting or absent-profile question. Its caption correctly blocks treatment-superiority inference. The unchanged selected285 pair still adds the distinct conditional -10 to -7 standardization with transport and overlap assumptions. Accept the later source-binding decision and retain that exact candidate/pair; no new figure or correction is needed."
+    }
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+        "sha256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+        "bytes": 9752
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt",
+        "sha256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+        "bytes": 1982
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+        "sha256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+        "bytes": 4816
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+        "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+        "bytes": 4351
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+        "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+        "bytes": 4351
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+        "sha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+        "bytes": 9657
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "bytes": 6075
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "bytes": 6075
+      }
+    ],
+    "currentOwnerPreimageSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+    "currentOwnerPreimageCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "insertionInverseExact": true,
+    "retainedSharedNativeSupportGuardsUnchanged": true,
+    "newArtworkCreativeAuthor": "agent:/root/batch12_evidence_author",
+    "newArtworkMethod": "Original editable SVG source code; zero image model calls.",
+    "retainedCreativeAuthorship": "Original retained creator notes remain preserved in the hash-bound prior review. Newly committed shared artwork bytes are existing observed inputs; creative authorship is UNKNOWN in this focused source-binding scope and is not inferred from custody.",
+    "priorPreimageCommitPreserved": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "insertionInverseExactAtCurrentSource": true,
+    "sourceBindingOnlySelectedPayloadUnchanged": true
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0,
+  "reviewScope": "Focused same-peer current shared-source binding successor for285/286/287 only. Prior scientific/new-native/current-owner review explicitly inherited; no full6, unchanged native, primary-source, history or UI rerun.",
+  "priorAuthorPlanningDecisionReviews": [
+    {
+      "id": "next-gap-285",
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "author": "agent:/root/batch12_evidence_author",
+      "reviewer": "agent:/root/batch12_evidence_review",
+      "decisionSHA256": "c83922fedbbf92f4d08b889db19692e6dd4d7a275e8879d05a65440aa7282ed6",
+      "decisionFileSHA256": "e17cbd9e75730c7802801d5de5cff91f36bb6b44080e88878f7d9f72ecb6853f",
+      "accepted": true,
+      "verdict": "PASS",
+      "reasoning": "Accepted exact author decision: the frozen cross-trial public owner has no native, independently confirmed from its current body. Its within/between-study reasoning remains the reference; only the selected transportability owner needs the -10 to -7 weighted-mixture arithmetic and absent-overlap boundary."
+    }
+  ],
+  "reviewInheritance": {
+    "priorReview": {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+      "sha256": "488ee2942bdea78591a22db39c8b4f1c9afba17227b311ffc9952578825e38b1"
+    },
+    "priorFullReviewTime": "2026-10-14T20:55:50.767624+00:00",
+    "inheritedUnchangedScopes": [
+      "scientificSourceReview",
+      "selected current-owner insertion and native-theme task-fit review",
+      "original 390px/wide pinned article/theater display checks",
+      "alt/caption/practice review",
+      "creative authorship and original custody"
+    ],
+    "newScopedReview": [
+      "actual532 public shared added-image and caption sections after header gate",
+      "both newly committed shared native themes at native rendered size",
+      "three actual post-artwork author decision digests",
+      "unchanged candidate/native identities and exact insertion inverse at532"
+    ],
+    "fullScienceReviewRepeated": false,
+    "selectedNativeReviewRepeated": false,
+    "UIReviewRepeated": false
+  },
+  "post40SharedSourceBinding": {
+    "actualCommittedSource": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "sharedOwner": {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "sha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "bytes": 9657,
+      "gitBlobId": "8ea0d860ac51783b5f62ddf46ee14eb2539d8c6c"
+    },
+    "sharedNativePair": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "bytes": 6075,
+        "gitBlobId": "ce0645a0aa19b878e922c9e814d8912623c20282"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "bytes": 6075,
+        "gitBlobId": "6f7f8afd983fe14bc43fb2f79807febad6effc5a"
+      }
+    ],
+    "newSharedArtClosesFrozenTask": false,
+    "selectedCandidateSHA256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+    "laterAuthorDecisionSHA256": "adfbec79db7ca759f1df6b5ccada039cf0f1d1309110aa398cf5f8436daca36d",
+    "phase": "post-artwork binding; not new pre-artwork",
+    "newScientificApproval": false,
+    "newCandidatePixelApproval": false,
+    "sourceBindingTaskFit": "adequate",
+    "reasoning": "The newly committed cross-trial pair has two separate 100-person studies with favorable-group responses 40/80 versus 12/20 and unfavorable responses 4/20 versus 24/80, producing pooled 44/100 versus 36/100. Its unequal mixture reverses the crude ranking but supplies neither the selected trial subgroup risk differences nor a new target population weighting or absent-profile question. Its caption correctly blocks treatment-superiority inference. The unchanged selected285 pair still adds the distinct conditional -10 to -7 standardization with transport and overlap assumptions. Accept the later source-binding decision and retain that exact candidate/pair; no new figure or correction is needed."
+  }
+}

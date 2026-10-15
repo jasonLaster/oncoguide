@@ -1,0 +1,12 @@
+Original editable SVG teaching diagram
+Actual creator: agent:/root/batch12_evidence_author
+Method: personally authored source code; no image model call.
+Task: Separate group frequency, model-assigned probability and which individuals experience events.
+Frozen shared owner: wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md
+Narrow addition: The shared calibration figure already contrasts grouped predictions and outcomes. The owner still needs the group-frequency versus unidentified-person relation in its 100-person example. Assess direct reuse before a small population-to-individual extension; no personal forecast or hazard-ratio multiplication shortcut.
+Guardrails: Separate population frequencies, model-assigned probabilities and individual outcome identity. Calibration depends on evaluation population and horizon; a group rate is not an individual prediction.
+Scientific content: A grid contains 100 fictional people after complete five-year follow-up, with 20 event dots sorted for counting. A separate person marked with a question mark shows that the group event proportion does not identify an individual outcome.
+Style: identical light/dark geometry; palette substitution only; text labels and symbolic shapes; no third-party figure copied. All numerical quantities are fictional; no patient prediction, eligibility determination, protocol or assay optimization.
+Alt: A grid contains 100 fictional people after complete five-year follow-up, with 20 event dots sorted for counting. A separate person marked with a question mark shows that the group event proportion does not identify an individual outcome.
+Caption: Twenty events among one hundred people describe a group frequency; they do not identify whose event will occur.
+Expert and learner review pending.

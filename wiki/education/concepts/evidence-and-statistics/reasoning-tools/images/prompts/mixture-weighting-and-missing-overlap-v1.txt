@@ -1,0 +1,12 @@
+Original editable SVG teaching diagram
+Actual creator: agent:/root/batch12_evidence_author
+Method: personally authored source code; no image model call.
+Task: Apply trial subgroup effects to a different target mixture while retaining the transport assumption and missing profiles.
+Frozen shared owner: wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md
+Narrow addition: The frozen shared cross-trial owner has no native; its public prose owns within-study versus between-study comparison boundaries. The transportability owner still needs the two subgroup effects and changed target mixture from the existing −10/−7 exercise. A new aligned mixture view must show assumptions and missing overlap, not certify applicability or enrollment.
+Guardrails: Keep trial/target weights, subgroup profiles and transport assumptions explicit. A weighted illustrative contrast is not an individual forecast; absent profiles and exchangeability/positivity limits cannot be filled by graphics.
+Scientific content: Fictional trial subgroup risk differences of minus 5 and minus 15 points yield minus 10 with a 50/50 mixture. An 80/20 target mixture yields minus 7 only if the subgroup effects transport; a dashed missing-third-group box keeps absent overlap unresolved.
+Style: identical light/dark geometry; palette substitution only; text labels and symbolic shapes; no third-party figure copied. All numerical quantities are fictional; no patient prediction, eligibility determination, protocol or assay optimization.
+Alt: Fictional trial subgroup risk differences of minus 5 and minus 15 points yield minus 10 with a 50/50 mixture. An 80/20 target mixture yields minus 7 only if the subgroup effects transport; a dashed missing-third-group box keeps absent overlap unresolved.
+Caption: Changing the mixture changes the conditional average; weighting cannot supply an absent group or validate the bridging assumptions.
+Expert and learner review pending.

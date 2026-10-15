@@ -1,0 +1,8 @@
+Original SVG authored by agent:/root/batch12_tissue_author.
+Creation method: original SVG source code, not an image-model call.
+Learner task: Locate local oxygen availability relative to vessel delivery, diffusion distance and cell demand.
+Bound owner: wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md
+Current owner SHA256: a573a524eeabb4cbe62f79b4e7bd71d1baebf3e06fbf5e9f51f6d1af15317e76
+Brief: Oxygen arrives through blood flow, travels through tissue and is consumed locally. Distance, delivery and demand can create uneven availability. The dots are conceptual symbols, not readings, thresholds or a universal gradient; a HIF response remains an indirect measurement.
+Guardrails: ['No exact oxygen concentration inferred from HIF/RNA.', 'Illustrative gradients are not all regions of a biopsy or a universal cutoff.', 'No oxygen-exposure treatment recommendation.']
+Matched theme palette; equal geometry across themes. Not to scale; fictional/schematic examples.

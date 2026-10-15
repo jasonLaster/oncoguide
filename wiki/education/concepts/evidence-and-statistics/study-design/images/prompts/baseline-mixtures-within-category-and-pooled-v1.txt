@@ -1,0 +1,12 @@
+Original editable SVG teaching diagram
+Actual creator: agent:/root/batch12_evidence_author
+Method: personally authored source code; no image model call.
+Task: See selection change the pooled65%/35% contrast despite equal within-category rates.
+Frozen shared owner: wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md
+Narrow addition: The frozen shared cross-trial owner has no native, so there is no image to copy. Preserve its comparison reasoning as the shared reference. The observational owner still needs the existing 80/20 versus 20/80 mixture with equal within-category outcomes and differing pooled outcomes, with clocks/causal assumptions explicit.
+Guardrails: Keep causal paths and the fictional composition counts distinct. Equal within-category rates with unequal mixtures illustrate confounding; stratification/adjustment does not automatically remove all bias.
+Scientific content: Two fictional 100-person groups have 80/20 and 20/80 baseline-health mixtures. Within better health both improve at 75%; within poorer health both improve at 25%. Pooled outcomes are 65/100 and 35/100. A common six-week clock and remaining adjustment assumptions stay visible.
+Style: identical light/dark geometry; palette substitution only; text labels and symbolic shapes; no third-party figure copied. All numerical quantities are fictional; no patient prediction, eligibility determination, protocol or assay optimization.
+Alt: Two fictional 100-person groups have 80/20 and 20/80 baseline-health mixtures. Within better health both improve at 75%; within poorer health both improve at 25%. Pooled outcomes are 65/100 and 35/100. A common six-week clock and remaining adjustment assumptions stay visible.
+Caption: Equal within-category rates can coexist with different pooled rates when baseline mixtures differ; the crude contrast alone does not isolate treatment causation.
+Expert and learner review pending.

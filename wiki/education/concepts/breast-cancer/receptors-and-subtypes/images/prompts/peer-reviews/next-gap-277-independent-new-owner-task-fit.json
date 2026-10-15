@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-277",
+  "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+  "type": "concept",
+  "author": "agent:/root/batch12_tissue_author",
+  "authorRole": "Actual author of candidate insertion and six original SVG pairs; reuse steward for task281",
+  "reviewer": "agent:/root/batch12_tissue_review",
+  "reviewerRole": "Independent agent scientific/source/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:03:26.233525Z",
+  "currentOwnerSha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; baseline owner hash is separately frozen below. No delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/peer-reviews/next-gap-277-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-light.svg",
+      "sha256": "1ffa617b83e640bd69da6c3f6ae9e71fe736931cbb676241becd5911c9ce8831",
+      "bytes": 5800,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1260
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-dark.svg",
+      "sha256": "5d3cb0d35e7ccd7cd20ab997f960c079ea2b8c08b114e70038cb529114a70bc2",
+      "bytes": 5800,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1260
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+    "learnerTask": "Attribute a positive stain to malignant cells versus neighboring normal supporting cells before interpreting origin or subtype.",
+    "gap": "The stain-to-context Mermaid is sufficient for the inference boundary but does not show the adjacent SOX10-positive myoepithelial cells that make attribution difficult. A reusable annotated tissue sketch could locate signal without treating it as a diagnostic classifier.",
+    "accuracyGuardrails": [
+      "No SOX10-only breast-origin diagnosis or BL1 assignment.",
+      "Staining location is not ancestry or dependence.",
+      "Any representative stain pattern needs its marker/context stated."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The brown nuclear signal is placed in the outer normal myoepithelial layer in A and in a separately labeled malignant-cell region in B. That contrast directly answers attribution before interpretation. The native identifies these as fictional sketches rather than micrographs or positivity standards, and it denies SOX10-only breast-origin, RNA-subtype and treatment conclusions. The unchanged normal-layer view supplies spatial vocabulary without pretending to be a stain result; neither cell shape nor color is a lineage assay.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+    "pageSHA256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+    "targetSection": "## Why it matters in cancer",
+    "learnerTask": "Attribute a positive stain to malignant cells versus neighboring normal supporting cells before interpreting origin or subtype.",
+    "gap": "The stain-to-context Mermaid is sufficient for the inference boundary but does not show the adjacent SOX10-positive myoepithelial cells that make attribution difficult. A reusable annotated tissue sketch could locate signal without treating it as a diagnostic classifier.",
+    "accuracyGuardrails": [
+      "No SOX10-only breast-origin diagnosis or BL1 assignment.",
+      "Staining location is not ancestry or dependence.",
+      "Any representative stain pattern needs its marker/context stated."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "08ab111e42286ddcffb3f85491d4f353d77cdd72546243ef31f5f4cd564d6c99",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/64",
+    "oneBasedRow": 65,
+    "originalTaskRowSHA256": "d25c95dea5b373c0d8e32bac1fabe2e69abffe4146a8a516a5fbed9e36bee079",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch12_tissue_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "pageSHA256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+      "targetSection": "## Why it matters in cancer",
+      "learnerTask": "Attribute a positive stain to malignant cells versus neighboring normal supporting cells before interpreting origin or subtype.",
+      "gap": "The stain-to-context Mermaid is sufficient for the inference boundary but does not show the adjacent SOX10-positive myoepithelial cells that make attribution difficult. A reusable annotated tissue sketch could locate signal without treating it as a diagnostic classifier.",
+      "accuracyGuardrails": [
+        "No SOX10-only breast-origin diagnosis or BL1 assignment.",
+        "Staining location is not ancestry or dependence.",
+        "Any representative stain pattern needs its marker/context stated."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "I inspected both retained normal duct layers at native size. I reuse their unchanged anatomy via the canonical reference, but it is not a stain result. I will add only a fictional paired nuclear-stain sketch: benign myoepithelial nuclei around a duct versus labeled malignant nuclei in a separate lesion. Explicit annotation will identify which cells carry the signal and prohibit origin, RNA-subtype or treatment conclusions from SOX10 alone. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-277",
+    "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+    "author": "agent:/root/batch12_tissue_author",
+    "reviewer": "agent:/root/batch12_tissue_review",
+    "decisionSHA256": "9fc4c23fbadbd6a21e06b05b922bf8005faafa0d5e078f89a22f6cf82e4dfdf7",
+    "decisionFileSHA256": "cd8fee07825b70dae6625c47feae4dd4380883bfbfba5b5779b6a1b5d9092715",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow extension. An unstained anatomical layer drawing cannot teach attribution of a positive nuclear signal. The new fictional contrast adds the missing observation layer and keeps the original anatomy as a reference, with origin, subtype and dependence claims excluded.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "reviewedAt": "2026-10-14T21:03:26.233525Z",
+    "implementationGate": "Maintained concept-planning contract adoption is Root’s separate pending gate; this acceptance does not claim the lesson-only validator accepts concept decisions."
+  },
+  "authorAcknowledgment": {
+    "sha256": "2a0b052a941f2d7f9109ffd7c09c5040e9f7ed70478d76e94492bdf8ea821eeb",
+    "actualActor": "agent:/root/batch12_tissue_author",
+    "scope": "Author personally acknowledges creating the typed decisions before artwork; reviewer binds the actual decisions separately from final science/task fit."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23260325/",
+      "accessDepth": "SOX10 breast-neoplasm primary study; complete abstract read via fresh Europe PMC retrieval; full paper not read.",
+      "scope": "Nuclear signal can occur in benign myoepithelial cells and subsets of breast carcinomas; no universal prevalence or RNA subtype assigned."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both final selected natives, both variants of every relevant retained shared pair, and fresh current-owner inline/theater at390px and1440px.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named fixture source files independently compared to their exact pinned Git blobs.",
+    "scope": "Private pinned article/ImageTheater fixture only; no full-app or production certification.",
+    "findings": "Labels, geometry, selected theme, owner-specific caption and supplied alt agree with the learner task. No native text crosses the canvas and no document horizontal overflow or page error observed.",
+    "limits": [
+      "Escape closes the theater; all28 image exercises did not restore image focus. Four supplemental theme/width checks observed BODY after Escape, BUTTON on open and Tab to Download link.",
+      "Retained regional-map secondary labels and the dense denominator raster are small at mobile width; direct original-size links and surrounding teaching remain necessary.",
+      "Existing tables and CAF Mermaid scroll inside containers; no renderer, full-app or general accessibility approval."
+    ],
+    "inspectionTiming": "Reviewer inspection occurred after final author drafts. Author native shared-pair inspection preceded decisions/art; author346px shared embed QA occurred after first drafts. No earlier embedded inspection is claimed."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch12_tissue_author",
+    "creationMethod": "Original SVG source code composed by actual author; no image-model invocation",
+    "imageModelInvocation": false,
+    "retainedProducingSessionAttribution": [],
+    "attributionLimit": "Retained title/thread-ID metadata is a literal source claim, not newly verified person/model/invocation identity. Other unproved fields remain UNKNOWN.",
+    "sourceProvenanceOwnerHashMeaning": "The author support files’ currentOwnerSHA256 names the frozen pre-insertion baseline; this receipt binds the final candidate separately."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+        "sha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+        "bytes": 8379
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-dark.svg",
+        "sha256": "5d3cb0d35e7ccd7cd20ab997f960c079ea2b8c08b114e70038cb529114a70bc2",
+        "bytes": 5800
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-light.svg",
+        "sha256": "1ffa617b83e640bd69da6c3f6ae9e71fe736931cbb676241becd5911c9ce8831",
+        "bytes": 5800
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/sox10-nuclear-signal-attribution-v1.txt",
+        "sha256": "df48f5db532eb9855fb15ca98d6461653d39c78c1a9af2e013fa3957f85c9717",
+        "bytes": 1067
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/sox10-nuclear-signal-attribution-v1-provenance.json",
+        "sha256": "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4",
+        "bytes": 2328
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-dark.svg",
+        "sha256": "6fafdc5985a471a02f0c9ef7f0b5ff77dcdc7b7cb047e4aa6133c4313cddf3cc",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-light.svg",
+        "sha256": "a47ad7a5ffc2e23663f9a3b822a7b18ed1976371c6c1e69a97004151bb190df6",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/myoepithelial-layers-v1.txt",
+        "sha256": "e7bfac94bb4965320f3ea84c28407ebd2539e0f16a6a012ad5a79de43050f658",
+        "bytes": 16292
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+        "sha256": "db9645c50afbe4691455da06e86865f60cf3e3d0868c322867adbb19ec03fb9a",
+        "bytes": 8325
+      }
+    ],
+    "scope": "Exact candidate owner, selected native pair, its new support where applicable, and relevant unchanged shared owner/native/support guards. These are actual members, not fabricated invocation files.",
+    "originalAuthorSealSHA256": "d3de7bfcc301cfbf8224c248b4baef51fe2bc40e47adf2b79d7626a5c16fd984",
+    "originalAuthorManifestSHA256": "c67190ec4340682e9cc0d735f59db95cf0c6cecf785e3ec974b23603280b6748",
+    "originalAuthorCustodyZipSHA256": "3b23334814977bde7468e2298aaf0e4585e783038c573b2b006f82407c1802c6",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded original insertion, native pair and current-owner fit with actual source access depth; human domain expertise remains pending.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

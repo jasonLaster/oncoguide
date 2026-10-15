@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-svg-source-provenance",
+  "creativeAuthor": "agent:/root/batch12_tissue_author",
+  "sourceCode": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/private/art.py",
+  "imageModelInvocation": false,
+  "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+  "currentOwnerSHA256": "a573a524eeabb4cbe62f79b4e7bd71d1baebf3e06fbf5e9f51f6d1af15317e76",
+  "frozenTaskIdentitySHA256": "f7fa3cc6f647d679a226fd06215a253d226ab6babc82ab7e67c5218c6e265943",
+  "nativeOutputs": [
+    {
+      "key": "next-gap-280",
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+      "relativePath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+      "nativeSHA256": "a419bf7dfcd54198b56e6dc0e1ccd4e632901dfe644b5159f6198ff4c357d2ec",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    },
+    {
+      "key": "next-gap-280",
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+      "nativeSHA256": "16bd08f3b34550110afbe23b5e5ba1bfd19ad1b9d4000d12d30cee8f85c58d8f",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    }
+  ],
+  "scientificSourceLedger": "private/primary-source-read-ledger.json",
+  "reviewStatus": "Author QA only; independent peer, clinician and learner pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "evidenceDeliveryBoundary": "Private source/capture paths are custody locators, not a promise that those files are public or delivered with the article."
+}

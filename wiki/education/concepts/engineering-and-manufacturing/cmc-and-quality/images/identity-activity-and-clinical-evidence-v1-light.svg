@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1200" viewBox="0 0 600 1200" role="img"><title>What does this test establish?</title><desc>Three questions about one biological product</desc>
+<rect width="600" height="1200" fill="#fbf8f1"/>
+<text x="28" y="47" fill="#243944" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">What does this test establish?</text>
+<text x="28" y="86" fill="#47616d" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Three questions about one biological product</text>
+<rect x="22" y="112" width="556" height="252" rx="18" fill="#fffdf8" stroke="#6e8790" stroke-width="2"/>
+<text x="42" y="154" fill="#243944" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">1  Identity / expression</text>
+<rect x="55" y="180" width="100" height="100" rx="24" fill="#e7eee9" stroke="#6e8790" stroke-width="2"/>
+<circle cx="105" cy="230" r="29" fill="#326fa1" stroke="#6e8790" stroke-width="2"/>
+<text x="105" y="240" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="middle">ID</text>
+<text x="185" y="195" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">Right product?</text>
+<text x="185" y="232" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">Receptor present?</text>
+<text x="185" y="269" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">Useful attributes.</text>
+<text x="45" y="335" fill="#b55466" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">These do not establish tested function.</text>
+<rect x="22" y="390" width="556" height="345" rx="18" fill="#fffdf8" stroke="#6e8790" stroke-width="2"/>
+<text x="42" y="432" fill="#243944" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">2  Product-relevant activity</text>
+<rect x="70" y="467" width="130" height="100" rx="35" fill="#e7eee9" stroke="#6e8790" stroke-width="2"/>
+<circle cx="135" cy="515" r="22" fill="#326fa1" stroke="#6e8790" stroke-width="2"/>
+<text x="135" y="610" fill="#243944" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">Product + target</text>
+<rect x="335" y="467" width="130" height="100" rx="35" fill="#e7eee9" stroke="#6e8790" stroke-width="2"/>
+<circle cx="400" cy="515" r="22" fill="#326fa1" stroke="#6e8790" stroke-width="2"/>
+<text x="400" y="610" fill="#243944" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">Target only</text>
+<circle cx="93" cy="490" r="14" fill="#287c73" stroke="#6e8790" stroke-width="2"/>
+<text x="45" y="662" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start">Compare the activity readout.</text>
+<text x="45" y="704" fill="#243944" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Keep background and response controls.</text>
+<rect x="22" y="761" width="556" height="249" rx="18" fill="#fffdf8" stroke="#6e8790" stroke-width="2"/>
+<text x="42" y="803" fill="#243944" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">3  Clinical benefit</text>
+<circle cx="85" cy="842" r="16" fill="#ae7225" stroke="#6e8790" stroke-width="2"/>
+<rect x="65" y="866" width="40" height="50" rx="12" fill="#ae7225" stroke="#6e8790" stroke-width="2"/>
+<text x="85" y="903" fill="#243944" font-family="Arial, sans-serif" font-size="35" font-weight="700" text-anchor="middle">?</text>
+<text x="145" y="844" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">Tissue access, safety,</text>
+<text x="145" y="881" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">persistence and outcomes</text>
+<text x="145" y="918" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">need relevant evidence.</text>
+<path d="M48 1049 L552 1049" fill="none" stroke="#6e8790" stroke-width="3"/>
+<text x="30" y="1094" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">A surrogate needs a supported link</text>
+<text x="30" y="1131" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">to relevant biological activity.</text>
+<text x="30" y="1168" fill="#243944" font-family="Arial, sans-serif" font-size="29" font-weight="400" text-anchor="start">No universal release cutoff.</text>
+</svg>

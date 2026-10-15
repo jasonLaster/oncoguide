@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-276",
+  "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+  "type": "concept",
+  "author": "agent:/root/batch12_tissue_author",
+  "authorRole": "Actual author of candidate insertion and six original SVG pairs; reuse steward for task281",
+  "reviewer": "agent:/root/batch12_tissue_review",
+  "reviewerRole": "Independent agent scientific/source/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:03:26.233525Z",
+  "currentOwnerSha256": "dbf397d0b5796677f74dae9776487bdbd888fc72b57b216e97bea977927caa4c",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; baseline owner hash is separately frozen below. No delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/peer-reviews/next-gap-276-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+      "sha256": "b1ff35d4b5733e2187936cca859f4ed4f71de00fb0ba16443da5808e4c3fb66b",
+      "bytes": 9741,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1390
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+      "sha256": "e4c07d3246e44e00650e1256a423f0ad16a9c6fd0c55dcbc490319fbe2ad566c",
+      "bytes": 9741,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1390
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "ee15b25067dbe4152128e242063ddea77102ecca111dd1b3f973875c03792bad",
+    "learnerTask": "Separate local tissue invasion from histologic type and distant spread.",
+    "gap": "The existing classification map is adequate for the two reporting axes and explicitly avoids inevitable progression. Its within-boundary/into-stroma labels cannot show the physical invasion distinction, which should reuse the shared tissue-boundary visual rather than generate a separate IDC cartoon.",
+    "accuracyGuardrails": [
+      "Do not use ductal naming to identify an ancestral larger-duct cell.",
+      "A physical invasion schematic does not establish subtype, stage or receptor status."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The two breast scenes locate malignant cells inside a boundary versus in surrounding stroma, while explicitly rejecting an inevitable time sequence. A separate text block distinguishes the anatomical invasion question from NST, grade, receptors and stage. The gold basement-membrane band has a visible interruption in the invasive scene, but the native and article say that a cartoon or one supporting stain is not an invasion test. The normal-layer reference remains a useful separate anatomical comparator without being relabeled as this owner.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+    "pageSHA256": "ee15b25067dbe4152128e242063ddea77102ecca111dd1b3f973875c03792bad",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate local tissue invasion from histologic type and distant spread.",
+    "gap": "The existing classification map is adequate for the two reporting axes and explicitly avoids inevitable progression. Its within-boundary/into-stroma labels cannot show the physical invasion distinction, which should reuse the shared tissue-boundary visual rather than generate a separate IDC cartoon.",
+    "accuracyGuardrails": [
+      "Do not use ductal naming to identify an ancestral larger-duct cell.",
+      "A physical invasion schematic does not establish subtype, stage or receptor status."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "b9829ca4d53c753cec0c253191fba894f9513dc15e81246dd16c900213feb92e",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/46",
+    "oneBasedRow": 47,
+    "originalTaskRowSHA256": "650058dcc9f2945850e109c422d0b7acabdd371369f6d02c0098110af2c10000",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch12_tissue_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+      "pageSHA256": "ee15b25067dbe4152128e242063ddea77102ecca111dd1b3f973875c03792bad",
+      "targetSection": "## How it works",
+      "learnerTask": "Separate local tissue invasion from histologic type and distant spread.",
+      "gap": "The existing classification map is adequate for the two reporting axes and explicitly avoids inevitable progression. Its within-boundary/into-stroma labels cannot show the physical invasion distinction, which should reuse the shared tissue-boundary visual rather than generate a separate IDC cartoon.",
+      "accuracyGuardrails": [
+        "Do not use ductal naming to identify an ancestral larger-duct cell.",
+        "A physical invasion schematic does not establish subtype, stage or receptor status."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "I inspected both retained normal duct layers at native size. I reuse the unchanged normal anatomy as a labeled comparator in this selected owner. A narrow second diagram will locate in-situ malignant cells inside a duct boundary versus invasive cells in surrounding stroma, without a time arrow, and separate that relation from the NST histologic label. It will not make loss of one stain a binary invasion test or infer grade, receptors, stage or cell ancestry. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-276",
+    "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+    "author": "agent:/root/batch12_tissue_author",
+    "reviewer": "agent:/root/batch12_tissue_review",
+    "decisionSHA256": "aba6324b9b660782dd440a0cda90751bddd547cc3aa331095004ab6e1a5d0a56",
+    "decisionFileSHA256": "3785295aef90296b7becf98d257272ce60b7ddb4428b387c525a4c9462d61e0b",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow extension. Direct reuse of normal anatomy alone leaves the selected in-situ versus invasive spatial contrast and NST naming axis unanswered. The added scenes and separate naming block resolve both without changing the shared canonical owner or creating an origin/progression claim.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "reviewedAt": "2026-10-14T21:03:26.233525Z",
+    "implementationGate": "Maintained concept-planning contract adoption is Root’s separate pending gate; this acceptance does not claim the lesson-only validator accepts concept decisions."
+  },
+  "authorAcknowledgment": {
+    "sha256": "2a0b052a941f2d7f9109ffd7c09c5040e9f7ed70478d76e94492bdf8ea821eeb",
+    "actualActor": "agent:/root/batch12_tissue_author",
+    "scope": "Author personally acknowledges creating the typed decisions before artwork; reviewer binds the actual decisions separately from final science/task fit."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12502930/",
+      "accessDepth": "Comparative breast-lesion primary study; complete abstract read via fresh Europe PMC retrieval; full paper not read.",
+      "scope": "Supports contextual limits of myoepithelial stains; no one-stain diagnostic rule adopted."
+    },
+    {
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "accessDepth": "Fresh official 43-page PDF opened; histologic-type fields on printed page6 personally read. Not a whole-protocol review."
+    },
+    {
+      "url": "https://training.seer.cancer.gov/breast/types.html",
+      "accessDepth": "Official training page body personally read. Used for naming/anatomic contrast only; simplified inevitable-progression and exact-origin language was not adopted."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both final selected natives, both variants of every relevant retained shared pair, and fresh current-owner inline/theater at390px and1440px.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named fixture source files independently compared to their exact pinned Git blobs.",
+    "scope": "Private pinned article/ImageTheater fixture only; no full-app or production certification.",
+    "findings": "Labels, geometry, selected theme, owner-specific caption and supplied alt agree with the learner task. No native text crosses the canvas and no document horizontal overflow or page error observed.",
+    "limits": [
+      "Escape closes the theater; all28 image exercises did not restore image focus. Four supplemental theme/width checks observed BODY after Escape, BUTTON on open and Tab to Download link.",
+      "Retained regional-map secondary labels and the dense denominator raster are small at mobile width; direct original-size links and surrounding teaching remain necessary.",
+      "Existing tables and CAF Mermaid scroll inside containers; no renderer, full-app or general accessibility approval."
+    ],
+    "inspectionTiming": "Reviewer inspection occurred after final author drafts. Author native shared-pair inspection preceded decisions/art; author346px shared embed QA occurred after first drafts. No earlier embedded inspection is claimed."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch12_tissue_author",
+    "creationMethod": "Original SVG source code composed by actual author; no image-model invocation",
+    "imageModelInvocation": false,
+    "retainedProducingSessionAttribution": [],
+    "attributionLimit": "Retained title/thread-ID metadata is a literal source claim, not newly verified person/model/invocation identity. Other unproved fields remain UNKNOWN.",
+    "sourceProvenanceOwnerHashMeaning": "The author support files’ currentOwnerSHA256 names the frozen pre-insertion baseline; this receipt binds the final candidate separately."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+        "sha256": "dbf397d0b5796677f74dae9776487bdbd888fc72b57b216e97bea977927caa4c",
+        "bytes": 8719
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+        "sha256": "b1ff35d4b5733e2187936cca859f4ed4f71de00fb0ba16443da5808e4c3fb66b",
+        "bytes": 9741
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+        "sha256": "e4c07d3246e44e00650e1256a423f0ad16a9c6fd0c55dcbc490319fbe2ad566c",
+        "bytes": 9741
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/idc-within-boundary-and-stroma-v1.txt",
+        "sha256": "c501a24f6c80e26941754812ee2c233dbffa6a5bddee253a335e487a2ecbc975",
+        "bytes": 995
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/idc-within-boundary-and-stroma-v1-provenance.json",
+        "sha256": "ebd7e0ce07008d6083adab394b48a69696b068abdc3986b904132afbd59d82fd",
+        "bytes": 2319
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-dark.svg",
+        "sha256": "6fafdc5985a471a02f0c9ef7f0b5ff77dcdc7b7cb047e4aa6133c4313cddf3cc",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-light.svg",
+        "sha256": "a47ad7a5ffc2e23663f9a3b822a7b18ed1976371c6c1e69a97004151bb190df6",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/myoepithelial-layers-v1.txt",
+        "sha256": "e7bfac94bb4965320f3ea84c28407ebd2539e0f16a6a012ad5a79de43050f658",
+        "bytes": 16292
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+        "sha256": "db9645c50afbe4691455da06e86865f60cf3e3d0868c322867adbb19ec03fb9a",
+        "bytes": 8325
+      }
+    ],
+    "scope": "Exact candidate owner, selected native pair, its new support where applicable, and relevant unchanged shared owner/native/support guards. These are actual members, not fabricated invocation files.",
+    "originalAuthorSealSHA256": "d3de7bfcc301cfbf8224c248b4baef51fe2bc40e47adf2b79d7626a5c16fd984",
+    "originalAuthorManifestSHA256": "c67190ec4340682e9cc0d735f59db95cf0c6cecf785e3ec974b23603280b6748",
+    "originalAuthorCustodyZipSHA256": "3b23334814977bde7468e2298aaf0e4585e783038c573b2b006f82407c1802c6",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded original insertion, native pair and current-owner fit with actual source access depth; human domain expertise remains pending.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

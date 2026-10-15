@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-269",
+  "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+  "author": "agent:/root/batch12_mechanisms_author",
+  "reviewer": "agent:/root/batch12_mechanisms_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:06:27.597611Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "ea521359a16e6352f895232008065b070f515e70e5e0c8597cc4994da9e67e65",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+      "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "bytes": 1959146,
+      "theme": "dark",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+      "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "bytes": 2207242,
+      "theme": "light",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "targetSection": "## How it works",
+    "learnerTask": "Separate BRCA protein repair jobs from a finding's origin, remaining allele and current function.",
+    "gap": "The existing finding-to-context map is appropriate for variant interpretation, but does not show BRCA2 loading RAD51 on single-stranded DNA or the matching-template repair idea. Reuse a canonical repair-mechanism diagram rather than another BRCA test cartoon.",
+    "accuracyGuardrails": [
+      "BRCA1 and BRCA2 are not interchangeable single tools.",
+      "A VUS or single variant is not established biallelic HR deficiency.",
+      "Model mechanism does not establish every variant's effect or clinical response."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "baselinePageSHA256": "7aef143585b06677cfdc29f0ff81b80d16e9614e8681b78916c5a3808c137e24",
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/87",
+    "frozenRowSHA256": "8ad0c728099d7634be4520265761b2ac12a849ea313d13234e522be28c7dffe9",
+    "currentVisualFit": "adequate",
+    "reasoning": "Panel 2 visibly supplies the missing BRCA2/RAD51 molecular job, while the owner’s unchanged prose and caption retain the finding-versus-function questions. The direct pair reuse therefore fills this owner’s mechanism gap without treating BRCA1 and BRCA2 as interchangeable or making biallelic deficiency or response claims.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+    "pageSHA256": "7aef143585b06677cfdc29f0ff81b80d16e9614e8681b78916c5a3808c137e24",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate BRCA protein repair jobs from a finding's origin, remaining allele and current function.",
+    "gap": "The existing finding-to-context map is appropriate for variant interpretation, but does not show BRCA2 loading RAD51 on single-stranded DNA or the matching-template repair idea. Reuse a canonical repair-mechanism diagram rather than another BRCA test cartoon.",
+    "accuracyGuardrails": [
+      "BRCA1 and BRCA2 are not interchangeable single tools.",
+      "A VUS or single variant is not established biallelic HR deficiency.",
+      "Model mechanism does not establish every variant's effect or clinical response."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "1fe0fc6c44939dfedb607f987f5e3925e5f27a877b6f57759ed96720c7e3d81c",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/87",
+    "oneBasedRow": 88,
+    "originalTaskRowSHA256": "8ad0c728099d7634be4520265761b2ac12a849ea313d13234e522be28c7dffe9",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "taskReuseDecisionAcceptance": {
+    "id": "next-gap-269",
+    "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+    "author": "agent:/root/batch12_mechanisms_author",
+    "reviewer": "agent:/root/batch12_mechanisms_review",
+    "decisionSHA256": "fdf1b92cb9137ab25368f917a7782a296d4e5ea7ebf4b499ca3a27abd489c96e",
+    "decisionFileSHA256": "911e4b28f11c03e500ea709b7429b9590d13f8d992961913efde3324dc9e2fd9",
+    "authorAcknowledgmentSHA256": "7040d3c99e5a0c6d595b79eec7b9f98690665aec2095ad662e62bfc20c789670",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept direct reuse of the exact matching-template repair pair. Its second panel already names BRCA2-assisted RAD51 loading and template pairing, so a new BRCA-specific image would duplicate the selected mechanism. The HR-scar pair is custody/reference only and receives no new output assignment.",
+    "scope": "Exact author-owned typed planning decision only; separate scientific/native/current-owner findings follow.",
+    "conceptTypeUnchanged": true,
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+    "additionalOwnerWrites": []
+  },
+  "scientificAssessment": {
+    "reasoning": "Independent primary abstracts from Jensen and Liu support BRCA2-assisted RAD51 assembly on single-stranded DNA; Moynahan supports a distinct BRCA1 repair role in the defined mouse-cell model. The image is an idealized successful repair route after copying, with an available sister template. Its caption correctly says BRCA1 individual steps are not shown and keeps variant origin, remaining allele and current repair function separate; NCI supports retaining VUS uncertainty.",
+    "sourceScope": "Fresh primary abstracts and official focused definitions/annotations; not full-paper, whole-guideline or clinical treatment review.",
+    "sources": [
+      {
+        "id": "nci-brca",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
+        "actualReadDepth": "Focused inherited/acquired finding and VUS interpretation sections read",
+        "supportedBoundedClaim": "A VUS is unresolved; tumor findings and inheritance are separate.",
+        "retrievedVia": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "liu2010",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20729859/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "BRCA2 promotes RAD51 assembly on prepared single-stranded DNA in the tested biochemical system.",
+        "retrievedVia": "https://pubmed.ncbi.nlm.nih.gov/20729859/",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "jensen2010",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20729832/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Purified BRCA2 supports RAD51 targeting and stable ssDNA filaments; not a finding-specific clinical claim.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20729832%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "moynahan1999",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10549283/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Brca1-deficient mouse cells had impaired homology-directed repair; distinct BRCA1 model role.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:10549283%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      }
+    ],
+    "authorSourceLedgerSHA256": "fa7728e3c7f803d1fab31a77f941c6ec814f001fa60413f5744e065624bc125e",
+    "noOperationalBiologicalContentAdded": true
+  },
+  "nativeAndCurrentOwnerAssessment": {
+    "reasoning": "At native size both palettes label the prepared 3-prime end, BRCA2 loading, RAD51 and matching template clearly. Both inline/theater widths preserve the complete image and caption. Fine molecular labels become small at 346 CSS pixels, so the owner caption repeats the critical panel-2 relation and actual learner review remains pending.",
+    "nativeThemesPersonallyInspected": [
+      "light",
+      "dark"
+    ],
+    "currentOwnerInlineTheaterWidths": [
+      390,
+      1100
+    ],
+    "retainedPairReviewed": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+        "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+        "bytes": 1959146
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+        "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+        "bytes": 2207242
+      }
+    ],
+    "captionAltAndAuthoredBodyContextRead": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "displayQualification": "Private pinned fixture only. Enter opens and Escape closes; close gets initial focus. Escape returns focus to BODY and a single Tab from close exits role=dialog. No full-app or overall accessibility certification. Smaller auxiliary native labels require human learner review.",
+    "creationProvenance": "Four original editable SVG pairs were authored as source code by the actual author; no image-model calls or generated-call wrappers. Retained creative attribution remains UNKNOWN unless literal retained provenance establishes it.",
+    "productionVerifiedByThisReview": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+        "sha256": "ea521359a16e6352f895232008065b070f515e70e5e0c8597cc4994da9e67e65",
+        "bytes": 8774
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+        "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+        "bytes": 1959146
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+        "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+        "bytes": 2207242
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-matching-template-route-v1.txt",
+        "sha256": "ac105abe9d70856572f61d1a535a740a4192cf231bdbe3fa1da3c43cbf02181a",
+        "bytes": 5170
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-scar-and-current-function-v1.txt",
+        "sha256": "43bb665e5cd859f2f967566ecdb6591ff2e61aca2c20dde95ff5a97ada50a1c5",
+        "bytes": 3491
+      }
+    ],
+    "originalOwnerInverseInsertionExact": true,
+    "sourceBaseCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "authorPackageSealSHA256": "3eff9448752198e5f87b984d17d5c6e1fca3bc72c837391458708c263a5aebd8",
+    "retainedNativeAndSupportBytesUnchanged": true
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "executionRefs": null,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "scopeQualification": "Independent agent task-fit acceptance only. Root must separately adopt the bounded concept-support contract and exact genuine assignments before any release. No owner/type/shared-identity rewrite, human approval, delivery or credit is supplied."
+}

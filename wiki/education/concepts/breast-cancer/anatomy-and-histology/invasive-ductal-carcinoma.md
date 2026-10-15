@@ -29,6 +29,16 @@ Think of two labels on a specimen: one says whether cancer is invading surroundi
 
 ## How it works
 
+<!-- BEGIN next-gap-276 VISUAL -->
+<img src="./images/idc-within-boundary-and-stroma-v1-light.svg" alt="Breast tissue cartoons contrast malignant cells contained within a duct boundary with malignant cells entering surrounding stroma; a separate note distinguishes invasion from NST, grade, receptors and stage." data-theme-pair>
+
+*The two scenes contrast a component within a duct boundary with malignant cells in surrounding stroma. They are spatial comparisons, not an inevitable sequence. NST names a histologic category; grade, receptors and stage require separate evidence. Real invasion assessment integrates morphology and supporting tests.*
+
+Compare the [normal breast layer diagram](/wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane) for the living myoepithelial cells and extracellular basement membrane.
+
+[Open the light diagram](./images/idc-within-boundary-and-stroma-v1-light.svg) · [Open the dark diagram](./images/idc-within-boundary-and-stroma-v1-dark.svg)
+<!-- END next-gap-276 VISUAL -->
+
 A **carcinoma** is a malignancy of epithelial cells. In the breast, [ductal carcinoma in situ (DCIS)](/wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis) remains within the duct-lobular tissue boundary. Invasive carcinoma has entered surrounding tissue, including [stroma](/wiki/education/concepts/biology-basics/cells/epithelium-and-stroma). This is local invasion. It does not require a finding of distant metastasis.
 
 **Histologic type** classifies microscopic growth and cell features. **Invasive breast carcinoma of no special type (IBC-NST)** is the commonly used category when the tumor lacks the defining features needed for a special type, such as classic invasive lobular or tubular carcinoma. “No special type” does not mean “unknown primary site,” “no information” or “a tumor without distinctive molecular findings.”

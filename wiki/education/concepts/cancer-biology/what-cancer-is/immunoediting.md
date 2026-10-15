@@ -74,6 +74,16 @@ Apparent antigen loss can reflect sampling, assay detection, gene-expression cha
 
 ## Try it
 
+<div data-education-visual="next-gap-273">
+<img src="images/clonal-counts-and-ancestry-v1-light.svg" width="780" height="1330" alt="Existing clonal-evolution chart uses a common count scale: B falls from 100 to 90 cells while its share rises from 10 percent to 50 percent as the total falls from 1000 to 180 cells." data-theme-pair />
+<p>Read the existing chart first: a population’s share can rise while its absolute count falls. The comparison below adds matched immune-pressure conditions; its numbers are a separate fictional example.</p>
+</div>
+
+<div data-education-visual="next-gap-273-inset">
+<img src="./images/immune-pressure-matched-populations-b12-v1-light.svg" width="600" height="1560" alt="Three bar panels on the same zero-to-200 cell scale show a starting A/B mix of 80/20, later control counts of 160/40, and later counts with A-reactive T cells of 10/40. B exists initially and reaches an 80 percent share only in the pressure arm." data-theme-pair />
+<p>Both arms begin with 80 A cells and 20 B cells. At the same later observation, the control has 160 A and 40 B; the A-reactive T-cell condition has 10 A and 40 B. B’s share rises to 80% in the latter because A falls relative to the control, not because T cells create B. These are invented counts, not study results. Recognition controls and alternative causes remain necessary; no phase is assigned to an individual cancer. <a href="https://pubmed.ncbi.nlm.nih.gov/22318521/">A primary mouse study of pre-existing antigen-distinct clone selection</a>.</p>
+</div>
+
 In a fictional controlled experiment, antigen-A cells and antigen-B cells grow together. With A-reactive T cells, B cells become dominant; without those T cells, the mixture remains similar. B cells were already present initially. What explanation is supported?
 
 **Answer:** The comparison supports immune selection favoring pre-existing B cells in that model. It does not require T cells to create B cells or prove that the same process explains every human relapse. Confirming the recognition route and excluding other differences strengthens the interpretation.

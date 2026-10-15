@@ -1,0 +1,8 @@
+Original SVG authored by agent:/root/batch12_tissue_author.
+Creation method: original SVG source code, not an image-model call.
+Learner task: Attribute a positive stain to malignant cells versus neighboring normal supporting cells before interpreting origin or subtype.
+Bound owner: wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md
+Current owner SHA256: 01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2
+Brief: The brown nuclear signal belongs to normal myoepithelial cells around the benign duct in A and to the labeled malignant cells in the separate region in B. These are invented stain sketches, not micrographs or scoring standards. SOX10 alone does not establish breast origin, an RNA subtype or treatment benefit.
+Guardrails: ['No SOX10-only breast-origin diagnosis or BL1 assignment.', 'Staining location is not ancestry or dependence.', 'Any representative stain pattern needs its marker/context stated.']
+Matched theme palette; equal geometry across themes. Not to scale; fictional/schematic examples.

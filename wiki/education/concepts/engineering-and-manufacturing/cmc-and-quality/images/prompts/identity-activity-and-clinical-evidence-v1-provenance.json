@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+  "sourceCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+  "ownerPreimageSHA256": "54d866d9ac981028b46b4435e21a24730e418aed79bf896381c41592baf99218",
+  "frozenTask": {
+    "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+    "pageSHA256": "bdef249b7e6fcc363901437fe68f6ab031e69e62f0d8fac61b593a52ce8db1fa",
+    "targetSection": "## How it works",
+    "learnerTask": "Separate identity/expression from a product-relevant functional challenge and its controls.",
+    "gap": "No visual shows the controlled activity measurement or the missing link from a surrogate.",
+    "accuracyGuardrails": "Label the product-relevant activity, comparator and controls; identity or receptor expression is not functional potency. A surrogate assay needs its own validated relationship to the intended mechanism.",
+    "sharedCanonicalOwner": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/144",
+    "oneBasedRow": 145,
+    "originalTaskRowSHA256": "c2ff5acfe39cdf3eadb998edcd2b4a4f0172010adb82608d44f9188e41fe5823",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "creativeAuthor": "agent:/root/batch12_evidence_author",
+  "method": "Original personally authored editable SVG source code",
+  "actualImageModelCalls": 0,
+  "imageGenerationInvocation": null,
+  "model": null,
+  "sourceFiguresCopied": false,
+  "toyData": "All chart quantities and geometry invented; no actual cohort or assay results",
+  "planningDecisionSHA256": "855da5e058bd4fc3054b974d1b5387a44946236269005a6a6d90ffc6bb3a01cc",
+  "outputs": [
+    {
+      "key": "next-gap-282",
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+      "repositoryPath": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+      "sha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857",
+      "width": 600,
+      "height": 1200
+    },
+    {
+      "key": "next-gap-282",
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+      "repositoryPath": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+      "sha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c",
+      "width": 600,
+      "height": 1200
+    }
+  ],
+  "briefSHA256": "4721cb07e896d0e8a863ea1a090c632036e6b5ca5b8ba846d432724aba20bcf0",
+  "minimumNativeFontPx": 25,
+  "themeGeometry": "Identical layout and wording; semantic palette substitution only",
+  "retainedCreatorCustody": "Literal retained support retained privately unchanged; UNKNOWN where creative author not established",
+  "sourceReadDepth": "See private source-ledger.private.json; only original diagram, prompt and provenance proposed as public support",
+  "sourceURLs": [
+    "https://www.fda.gov/media/79856/download"
+  ],
+  "independentReview": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": null,
+  "delivery": null,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "authorInspection": {
+    "author": "agent:/root/batch12_evidence_author",
+    "nativeBothThemes": true,
+    "article390pxAndWideInlineAndTheater": true,
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "qualification": "Enter opens and Escape closes; Escape returns focus to BODY, not trigger. Private article fixture only; no whole-app, live-data, navigation or comprehensive accessibility certification. Mobile labels approximately14.25px minimum in theater; native/theater view and alt/caption/practice are retained, not expert/learner readability certification."
+  }
+}

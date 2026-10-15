@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-273",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+  "author": "agent:/root/batch12_mechanisms_author",
+  "reviewer": "agent:/root/batch12_mechanisms_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:06:27.597611Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "37628fdf978e011cba15d86beca1945a422c0cd39eb977d608a4b75bc3ca43be",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-dark.svg",
+      "sha256": "1f4a7ee63018909d25348bd0f3157a6e663502c60253474f4355e3fed36b7285",
+      "bytes": 7638,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1560
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-light.svg",
+      "sha256": "5f42682801ddc527babaf504ee9d8e47d9769435c8d9e78db17429197fa97ed9",
+      "bytes": 7638,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1560
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "targetSection": "## Try it",
+    "learnerTask": "Show pre-existing antigen-distinct populations changing under controlled immune pressure without newly creating the surviving clone.",
+    "gap": "The existing control/selection split correctly rejects a mandatory three-phase calendar. The before/with-versus-without-pressure population contrast remains verbal; a small extension of the clonal-evolution population chart can make selection of pre-existing B cells visible.",
+    "accuracyGuardrails": [
+      "Model comparison, not an individual post-treatment phase assignment.",
+      "No T-cell-created mutation or obligatory elimination-equilibrium-escape timeline.",
+      "Alternative causes and recognition controls remain necessary."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "baselinePageSHA256": "f7fd2646d3578b9b7f6c43634afbf15ba685cde9c66ab9bec6110c9c58c7928c",
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/119",
+    "frozenRowSHA256": "4b55711884a11d4bf0530c67c66012033d4c07d74bac8ec93a120307a2f9edd9",
+    "currentVisualFit": "adequate",
+    "reasoning": "The retained pair first teaches why share and count differ. The extension then makes the owner’s verbal controlled comparison visible on shared 0–200 axes, using equal starting populations and matched later timing. B’s persistence is visible before pressure, directly addressing the frozen learner task and avoiding individual post-treatment phase assignment.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+    "pageSHA256": "f7fd2646d3578b9b7f6c43634afbf15ba685cde9c66ab9bec6110c9c58c7928c",
+    "targetSection": "## Try it",
+    "learnerTask": "Show pre-existing antigen-distinct populations changing under controlled immune pressure without newly creating the surviving clone.",
+    "gap": "The existing control/selection split correctly rejects a mandatory three-phase calendar. The before/with-versus-without-pressure population contrast remains verbal; a small extension of the clonal-evolution population chart can make selection of pre-existing B cells visible.",
+    "accuracyGuardrails": [
+      "Model comparison, not an individual post-treatment phase assignment.",
+      "No T-cell-created mutation or obligatory elimination-equilibrium-escape timeline.",
+      "Alternative causes and recognition controls remain necessary."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "26178fd2395b340d1da56919547fbd3fcfccecc712e9791264cfbabe59bfd1e4",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/119",
+    "oneBasedRow": 120,
+    "originalTaskRowSHA256": "4b55711884a11d4bf0530c67c66012033d4c07d74bac8ec93a120307a2f9edd9",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "taskReuseDecisionAcceptance": {
+    "id": "next-gap-273",
+    "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+    "author": "agent:/root/batch12_mechanisms_author",
+    "reviewer": "agent:/root/batch12_mechanisms_review",
+    "decisionSHA256": "c4b9dca741a1f0471fd0946e2c1da1e84d3ab9cc3988ea46cce6328c46fe4d92",
+    "decisionFileSHA256": "67b67b34cfb339197ce7ecba7d45b67ad2987ab1c61ebb244aef057709c8a91a",
+    "authorAcknowledgmentSHA256": "7040d3c99e5a0c6d595b79eec7b9f98690665aec2095ad662e62bfc20c789670",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept exact retained count/share pair plus matched immune-pressure arms. A single before/later population chart cannot supply the controlled with/without comparison. The extension adds only matched starting mixtures and one common later observation, while leaving shared ancestry art unchanged.",
+    "scope": "Exact author-owned typed planning decision only; separate scientific/native/current-owner findings follow.",
+    "conceptTypeUnchanged": true,
+    "sharedCanonicalOwner": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+    "additionalOwnerWrites": []
+  },
+  "scientificAssessment": {
+    "reasoning": "Matsushita’s primary abstract supports selection of pre-existing antigen-distinct clones under T-cell pressure in a defined mouse model. The new example is explicitly invented: both arms begin 80 A/20 B; later control is 160/40 and pressure is 10/40. Counts, denominators and shares are consistent, with B present initially and 40/50 equal to 80 percent. This shows relative enrichment through a different A outcome, without T-cell-created mutation or a mandatory phase calendar. Recognition controls and alternative causes remain stated.",
+    "sourceScope": "Fresh primary abstracts and official focused definitions/annotations; not full-paper, whole-guideline or clinical treatment review.",
+    "sources": [
+      {
+        "id": "matsushita2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22318521/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "T-cell-dependent selection favors pre-existing antigen-distinct clones in one mouse model; toy counts are not study data.",
+        "retrievedVia": "https://pubmed.ncbi.nlm.nih.gov/22318521/",
+        "wholePaperOrGuidelineReviewed": false
+      }
+    ],
+    "authorSourceLedgerSHA256": "fa7728e3c7f803d1fab31a77f941c6ec814f001fa60413f5744e065624bc125e",
+    "noOperationalBiologicalContentAdded": true
+  },
+  "nativeAndCurrentOwnerAssessment": {
+    "reasoning": "Both themes use identical bar lengths, labels, common axes and arithmetic. The distinction between start, no-A-reactive-T-cell control and pressure arm is legible in mobile inline/theater as well as wide views. The retained chart’s separate fictional numbers are explicitly identified in the caption so datasets are not conflated.",
+    "nativeThemesPersonallyInspected": [
+      "light",
+      "dark"
+    ],
+    "currentOwnerInlineTheaterWidths": [
+      390,
+      1100
+    ],
+    "retainedPairReviewed": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998",
+        "bytes": 7566
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c",
+        "bytes": 7566
+      }
+    ],
+    "captionAltAndAuthoredBodyContextRead": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "displayQualification": "Private pinned fixture only. Enter opens and Escape closes; close gets initial focus. Escape returns focus to BODY and a single Tab from close exits role=dialog. No full-app or overall accessibility certification. Smaller auxiliary native labels require human learner review.",
+    "creationProvenance": "Four original editable SVG pairs were authored as source code by the actual author; no image-model calls or generated-call wrappers. Retained creative attribution remains UNKNOWN unless literal retained provenance establishes it.",
+    "productionVerifiedByThisReview": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+        "sha256": "37628fdf978e011cba15d86beca1945a422c0cd39eb977d608a4b75bc3ca43be",
+        "bytes": 9965
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-dark.svg",
+        "sha256": "1f4a7ee63018909d25348bd0f3157a6e663502c60253474f4355e3fed36b7285",
+        "bytes": 7638
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-light.svg",
+        "sha256": "5f42682801ddc527babaf504ee9d8e47d9769435c8d9e78db17429197fa97ed9",
+        "bytes": 7638
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/immune-pressure-matched-populations-b12-v1.txt",
+        "sha256": "656b073167b9ea7471f447eb8d9d653cd43a97f9406efa7a15349e91a62a375f",
+        "bytes": 2785
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998",
+        "bytes": 7566
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c",
+        "bytes": 7566
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1-independent-owner-review.json",
+        "sha256": "9e8807c75a50e41a0fb61b8ce374803efbe6c93751517d227ab72ca915881515",
+        "bytes": 6385
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1.json",
+        "sha256": "e6552983f1052a71947b630ea043d0d3e8b0b7e607d2b651c3a782805903cca4",
+        "bytes": 3092
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/clonal-counts-and-ancestry-v1.txt",
+        "sha256": "d0ec3f075f6b2274a694cd82d726cdef219db52268b0739e6a552c8386e469cc",
+        "bytes": 1168
+      }
+    ],
+    "originalOwnerInverseInsertionExact": true,
+    "sourceBaseCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "authorPackageSealSHA256": "3eff9448752198e5f87b984d17d5c6e1fca3bc72c837391458708c263a5aebd8",
+    "retainedNativeAndSupportBytesUnchanged": true
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "executionRefs": null,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "scopeQualification": "Independent agent task-fit acceptance only. Root must separately adopt the bounded concept-support contract and exact genuine assignments before any release. No owner/type/shared-identity rewrite, human approval, delivery or credit is supplied."
+}

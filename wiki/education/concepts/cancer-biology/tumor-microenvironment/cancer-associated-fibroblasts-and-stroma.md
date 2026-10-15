@@ -29,6 +29,16 @@ Picture a neighborhood's builders and maintenance workers. They shape paths, rep
 
 ## How it works
 
+<!-- BEGIN next-gap-279 VISUAL -->
+<img src="./images/caf-cell-role-neighborhood-v1-light.svg" alt="A tissue neighborhood locates spindle-shaped fibroblasts, collagen fibers, an immune cell and a blood vessel in the stroma around a malignant-cell nest, with matrix and signal arrows." data-theme-pair>
+
+*Fibroblasts sit among matrix, vessels and other cells in the stroma, beside the malignant-cell nest. The arrows depict possible matrix remodeling and signal exchange, not measured movement or uniform effects. Fibroblast abundance alone does not establish immune exclusion.*
+
+The [matrix comparison](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix) shows why amount, architecture and movement need separate observations. This scene adds cell location and roles.
+
+[Open the light diagram](./images/caf-cell-role-neighborhood-v1-light.svg) · [Open the dark diagram](./images/caf-cell-role-neighborhood-v1-dark.svg)
+<!-- END next-gap-279 VISUAL -->
+
 [Stroma](/wiki/education/concepts/biology-basics/cells/epithelium-and-stroma) is the tissue compartment that contains fibroblasts and other support structures. It includes [extracellular matrix](/wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix), vessels and several cell populations. Stroma is not synonymous with fibroblasts, and a stromal signal is not automatically a malignant-cell signal.
 
 **Fibroblasts** help produce and remodel connective tissue. In tumors, cancer-associated fibroblasts, often shortened to **CAFs**, can deposit matrix, alter its organization and exchange signals with cancer, immune and vascular cells. They are generally distinct from the malignant epithelial cells in many solid tumors.

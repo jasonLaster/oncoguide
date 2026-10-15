@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-275",
+  "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+  "type": "concept",
+  "author": "agent:/root/batch12_tissue_author",
+  "authorRole": "Actual author of candidate insertion and six original SVG pairs; reuse steward for task281",
+  "reviewer": "agent:/root/batch12_tissue_review",
+  "reviewerRole": "Independent agent scientific/source/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:03:26.233525Z",
+  "currentOwnerSha256": "6267ea5413ff46744c624b4269744242a99946da2231c02f5f53f6e597878fa1",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; baseline owner hash is separately frozen below. No delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/peer-reviews/next-gap-275-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+      "sha256": "516aec29b9c4c27d4a8edeeacdd60e939429469d1e8b601a53cab2d0dfaf3bb5",
+      "bytes": 8174,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1210
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+      "sha256": "6c1d565a7305c24b80d4bf36e33daf2e0d6a99466157d8d50e5b0d92c4bcf5cb",
+      "bytes": 8174,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1210
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "42bb7183eecf929dac8d2a1c64fb7949278bcb6d553052c86a4f25694ff3da2a",
+    "learnerTask": "Distinguish altered tissue behavior and invasion from the mere presence of a cancer-associated mutation.",
+    "gap": "The page has no visual, and its key example pairs a normal-appearing sample and an invasive tumor sharing one alteration. Reuse a tissue-boundary schematic with matched molecular labels to show why behavior/context is another evidence layer, avoiding a one-size solid-lump depiction of cancer.",
+    "accuracyGuardrails": [
+      "Illustrative epithelial context is not every cancer, especially blood cancers.",
+      "No single mutation or rapid division defines malignancy.",
+      "Local invasion is not proof of distant spread."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The invented A/B epithelial scenes hold the gene-X observation constant while changing tissue organization and local boundary crossing. This answers the page exercise without presenting the normal-skin study as the depicted experiment. The native and caption separately limit the example to epithelial tissue, distinguish local invasion from distant spread, and reject a mutation-only diagnosis. The unchanged normal-layer scene supplies anatomy by a canonical link; it does not supply the missing matched-alteration comparison.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+    "pageSHA256": "42bb7183eecf929dac8d2a1c64fb7949278bcb6d553052c86a4f25694ff3da2a",
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish altered tissue behavior and invasion from the mere presence of a cancer-associated mutation.",
+    "gap": "The page has no visual, and its key example pairs a normal-appearing sample and an invasive tumor sharing one alteration. Reuse a tissue-boundary schematic with matched molecular labels to show why behavior/context is another evidence layer, avoiding a one-size solid-lump depiction of cancer.",
+    "accuracyGuardrails": [
+      "Illustrative epithelial context is not every cancer, especially blood cancers.",
+      "No single mutation or rapid division defines malignancy.",
+      "Local invasion is not proof of distant spread."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "558bdd2ca71505b4f11d272f4c0f7a6ef9d9b1522eeffb6319aebf953aae520a",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/116",
+    "oneBasedRow": 117,
+    "originalTaskRowSHA256": "dbe44e1cdcbadaf76b7903e394d5fd5dc628b5b8ca469317b7439bd8107c2c2c",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch12_tissue_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+      "pageSHA256": "42bb7183eecf929dac8d2a1c64fb7949278bcb6d553052c86a4f25694ff3da2a",
+      "targetSection": "## How it works",
+      "learnerTask": "Distinguish altered tissue behavior and invasion from the mere presence of a cancer-associated mutation.",
+      "gap": "The page has no visual, and its key example pairs a normal-appearing sample and an invasive tumor sharing one alteration. Reuse a tissue-boundary schematic with matched molecular labels to show why behavior/context is another evidence layer, avoiding a one-size solid-lump depiction of cancer.",
+      "accuracyGuardrails": [
+        "Illustrative epithelial context is not every cancer, especially blood cancers.",
+        "No single mutation or rapid division defines malignancy.",
+        "Local invasion is not proof of distant spread."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "I inspected both retained normal duct layers at native size. I reuse those unchanged normal layers as a breast boundary reference by linking their canonical concept; that reference does not teach the selected cancer page’s fictional matched gene-X observation. I will add only two epithelial tissue scenes carrying the same X label, contrasting normal-appearing organization with local invasion. It is an invented teaching comparison, not a reproduction of the normal-skin study, a mutation classifier, a diagnosis rule or a depiction of every cancer. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-275",
+    "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+    "author": "agent:/root/batch12_tissue_author",
+    "reviewer": "agent:/root/batch12_tissue_review",
+    "decisionSHA256": "53b6048d5961c868c6ca5bf0f4d73203fe83a823e1ac2c06c612110356135f8b",
+    "decisionFileSHA256": "18249a7b4f9255182a94b6aa4ec4caf79f921354ae653a88dfa99289c7e0a63d",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow extension. Normal duct layers explain the boundary but cannot show why identical gene-X findings can accompany different tissue behavior. The new matched-label comparison supplies precisely that relation while retaining the shared owner, concept type and no-additional-owner-writes boundary.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+    "reviewedAt": "2026-10-14T21:03:26.233525Z",
+    "implementationGate": "Maintained concept-planning contract adoption is Root’s separate pending gate; this acceptance does not claim the lesson-only validator accepts concept decisions."
+  },
+  "authorAcknowledgment": {
+    "sha256": "2a0b052a941f2d7f9109ffd7c09c5040e9f7ed70478d76e94492bdf8ea821eeb",
+    "actualActor": "agent:/root/batch12_tissue_author",
+    "scope": "Author personally acknowledges creating the typed decisions before artwork; reviewer binds the actual decisions separately from final science/task fit."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25999502/",
+      "accessDepth": "Normal sun-exposed skin primary study; complete abstract read via fresh Europe PMC retrieval; full paper not read.",
+      "scope": "A defined tissue example that mutation detection is not equivalent to malignancy; the new drawing is fictional."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "accessDepth": "Fresh official page opened; definition, local invasion/distant spread, tissue context and blood-cancer sections personally read. No copied illustration."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both final selected natives, both variants of every relevant retained shared pair, and fresh current-owner inline/theater at390px and1440px.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named fixture source files independently compared to their exact pinned Git blobs.",
+    "scope": "Private pinned article/ImageTheater fixture only; no full-app or production certification.",
+    "findings": "Labels, geometry, selected theme, owner-specific caption and supplied alt agree with the learner task. No native text crosses the canvas and no document horizontal overflow or page error observed.",
+    "limits": [
+      "Escape closes the theater; all28 image exercises did not restore image focus. Four supplemental theme/width checks observed BODY after Escape, BUTTON on open and Tab to Download link.",
+      "Retained regional-map secondary labels and the dense denominator raster are small at mobile width; direct original-size links and surrounding teaching remain necessary.",
+      "Existing tables and CAF Mermaid scroll inside containers; no renderer, full-app or general accessibility approval."
+    ],
+    "inspectionTiming": "Reviewer inspection occurred after final author drafts. Author native shared-pair inspection preceded decisions/art; author346px shared embed QA occurred after first drafts. No earlier embedded inspection is claimed."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch12_tissue_author",
+    "creationMethod": "Original SVG source code composed by actual author; no image-model invocation",
+    "imageModelInvocation": false,
+    "retainedProducingSessionAttribution": [],
+    "attributionLimit": "Retained title/thread-ID metadata is a literal source claim, not newly verified person/model/invocation identity. Other unproved fields remain UNKNOWN.",
+    "sourceProvenanceOwnerHashMeaning": "The author support files’ currentOwnerSHA256 names the frozen pre-insertion baseline; this receipt binds the final candidate separately."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+        "sha256": "6267ea5413ff46744c624b4269744242a99946da2231c02f5f53f6e597878fa1",
+        "bytes": 8901
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+        "sha256": "6c1d565a7305c24b80d4bf36e33daf2e0d6a99466157d8d50e5b0d92c4bcf5cb",
+        "bytes": 8174
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+        "sha256": "516aec29b9c4c27d4a8edeeacdd60e939429469d1e8b601a53cab2d0dfaf3bb5",
+        "bytes": 8174
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/cancer-context-matched-alteration-v1-provenance.json",
+        "sha256": "f5d5ae1341558a39e3b84ca67f941a3f6c525cd7833ed72f8aaedede7cd4692f",
+        "bytes": 2232
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/cancer-context-matched-alteration-v1.txt",
+        "sha256": "7400f1fed98b72ca4cf363271e7c900b746762836a424c56a6dc20f234f53a93",
+        "bytes": 1014
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-dark.svg",
+        "sha256": "6fafdc5985a471a02f0c9ef7f0b5ff77dcdc7b7cb047e4aa6133c4313cddf3cc",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-light.svg",
+        "sha256": "a47ad7a5ffc2e23663f9a3b822a7b18ed1976371c6c1e69a97004151bb190df6",
+        "bytes": 15628
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/myoepithelial-layers-v1.txt",
+        "sha256": "e7bfac94bb4965320f3ea84c28407ebd2539e0f16a6a012ad5a79de43050f658",
+        "bytes": 16292
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+        "sha256": "db9645c50afbe4691455da06e86865f60cf3e3d0868c322867adbb19ec03fb9a",
+        "bytes": 8325
+      }
+    ],
+    "scope": "Exact candidate owner, selected native pair, its new support where applicable, and relevant unchanged shared owner/native/support guards. These are actual members, not fabricated invocation files.",
+    "originalAuthorSealSHA256": "d3de7bfcc301cfbf8224c248b4baef51fe2bc40e47adf2b79d7626a5c16fd984",
+    "originalAuthorManifestSHA256": "c67190ec4340682e9cc0d735f59db95cf0c6cecf785e3ec974b23603280b6748",
+    "originalAuthorCustodyZipSHA256": "3b23334814977bde7468e2298aaf0e4585e783038c573b2b006f82407c1802c6",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded original insertion, native pair and current-owner fit with actual source access depth; human domain expertise remains pending.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

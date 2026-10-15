@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-281",
+  "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes.md",
+  "type": "concept",
+  "author": "agent:/root/batch12_tissue_author",
+  "authorRole": "Actual author of candidate insertion and six original SVG pairs; reuse steward for task281",
+  "reviewer": "agent:/root/batch12_tissue_review",
+  "reviewerRole": "Independent agent scientific/source/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:03:26.233525Z",
+  "currentOwnerSha256": "8a103a341932a813194beb3720b4c70796bdc0017ac4bf892decc3e459e16a60",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; baseline owner hash is separately frozen below. No delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/peer-reviews/next-gap-281-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+      "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9",
+      "bytes": 8437,
+      "theme": "dark",
+      "nativeDimensions": [
+        780,
+        1720
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+      "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43",
+      "bytes": 8437,
+      "theme": "light",
+      "nativeDimensions": [
+        780,
+        1720
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "c1b354c621f40ae6fefb0b1aaf8b552a04d87b29d7383db1513d52eaeec24743",
+    "learnerTask": "Locate internal mammary, intramammary and axillary nodes before attaching evidence and staging context.",
+    "gap": "The two-address Mermaid and three-row table correctly prevent naming confusion. They give verbal addresses but not a torso/breast location, so a shared regional-drainage anatomy diagram could resolve the near-identical names more directly.",
+    "accuracyGuardrails": [
+      "Show side and sternum; internal and intramammary are different groups.",
+      "Do not imply an axillary sample surveys the internal mammary chain or that regional means metastatic."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The exact retained regional map already answers this owner’s location task: a labeled left breast viewed from the front places internal mammary nodes beside the sternum, an intramammary node within breast tissue and axillary nodes laterally. Dashed routes are explicitly possible fluid routes; the inset separates anatomical levels from cancer stage. The new owner caption preserves the axillary-sampling limit. Main locations remain identifiable at mobile width; small secondary inset labels are qualified and the original-size links remain available. No new anatomy, individual stage or treatment is inferred.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes.md",
+    "pageSHA256": "c1b354c621f40ae6fefb0b1aaf8b552a04d87b29d7383db1513d52eaeec24743",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate internal mammary, intramammary and axillary nodes before attaching evidence and staging context.",
+    "gap": "The two-address Mermaid and three-row table correctly prevent naming confusion. They give verbal addresses but not a torso/breast location, so a shared regional-drainage anatomy diagram could resolve the near-identical names more directly.",
+    "accuracyGuardrails": [
+      "Show side and sternum; internal and intramammary are different groups.",
+      "Do not imply an axillary sample surveys the internal mammary chain or that regional means metastatic."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "6adf4b4e5267e4455e7b740926d4f0e3ebf3ed160c32efc00c432d36183aba3a",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/45",
+    "oneBasedRow": 46,
+    "originalTaskRowSHA256": "690a619b6735c0783a733d22f379da5c96025c3348777cdde85ca8d42a139b4c",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch12_tissue_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes.md",
+      "pageSHA256": "c1b354c621f40ae6fefb0b1aaf8b552a04d87b29d7383db1513d52eaeec24743",
+      "targetSection": "## How it works",
+      "learnerTask": "Locate internal mammary, intramammary and axillary nodes before attaching evidence and staging context.",
+      "gap": "The two-address Mermaid and three-row table correctly prevent naming confusion. They give verbal addresses but not a torso/breast location, so a shared regional-drainage anatomy diagram could resolve the near-identical names more directly.",
+      "accuracyGuardrails": [
+        "Show side and sternum; internal and intramammary are different groups.",
+        "Do not imply an axillary sample surveys the internal mammary chain or that regional means metastatic."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "I inspected both retained regional breast maps at native size. Their sternum-adjacent internal mammary chain, intramammary node within breast, axilla and clearly qualified possible fluid routes directly answer this selected owner’s missing location task. I choose direct reuse of the exact existing light/dark native pair with an owner-specific caption. I will create no replacement anatomy. Preserve UNKNOWN original creative authorship unless retained evidence proves it; all original natives and supports stay byte-identical. No shared-owner writes.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-281",
+    "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes.md",
+    "author": "agent:/root/batch12_tissue_author",
+    "reviewer": "agent:/root/batch12_tissue_review",
+    "decisionSHA256": "2d8852f920c21c6fc1ec69dc37ab0d8e789a0ade2e4290851888828752a2064c",
+    "decisionFileSHA256": "88ef580b4912c37f3f81d4860be2e93846ed0d007b131905394646b5ef812455",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept direct reuse. The existing paired regional map already contains all three addresses, side and sternum required by the task. New anatomy would duplicate that fit. Exact native/support bytes and literal prior producing-session attribution are retained, with unverified person/model/invocation fields remaining UNKNOWN.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+    "reviewedAt": "2026-10-14T21:03:26.233525Z",
+    "implementationGate": "Maintained concept-planning contract adoption is Root’s separate pending gate; this acceptance does not claim the lesson-only validator accepts concept decisions."
+  },
+  "authorAcknowledgment": {
+    "sha256": "2a0b052a941f2d7f9109ffd7c09c5040e9f7ed70478d76e94492bdf8ea821eeb",
+    "actualActor": "agent:/root/batch12_tissue_author",
+    "scope": "Author personally acknowledges creating the typed decisions before artwork; reviewer binds the actual decisions separately from final science/task fit."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18043970/",
+      "accessDepth": "Human-cadaver breast lymphatic primary study; complete abstract read via fresh Europe PMC retrieval; full paper not read.",
+      "scope": "Supports existence of ipsilateral internal mammary routes, without promising an individual drainage pattern or recommending sampling."
+    },
+    {
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "accessDepth": "Fresh official PDF; regional-node fields and Note M anatomy paragraph on printed page37 personally read. No individual N category assigned."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both final selected natives, both variants of every relevant retained shared pair, and fresh current-owner inline/theater at390px and1440px.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named fixture source files independently compared to their exact pinned Git blobs.",
+    "scope": "Private pinned article/ImageTheater fixture only; no full-app or production certification.",
+    "findings": "Labels, geometry, selected theme, owner-specific caption and supplied alt agree with the learner task. No native text crosses the canvas and no document horizontal overflow or page error observed.",
+    "limits": [
+      "Escape closes the theater; all28 image exercises did not restore image focus. Four supplemental theme/width checks observed BODY after Escape, BUTTON on open and Tab to Download link.",
+      "Retained regional-map secondary labels and the dense denominator raster are small at mobile width; direct original-size links and surrounding teaching remain necessary.",
+      "Existing tables and CAF Mermaid scroll inside containers; no renderer, full-app or general accessibility approval."
+    ],
+    "inspectionTiming": "Reviewer inspection occurred after final author drafts. Author native shared-pair inspection preceded decisions/art; author346px shared embed QA occurred after first drafts. No earlier embedded inspection is claimed."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "UNKNOWN as independently verified creative person/model identity; literal producing-session attribution retained below",
+    "creationMethod": "Exact retained SVG pair, no new artwork or invocation",
+    "imageModelInvocation": "UNKNOWN for historical creation; none performed in this task",
+    "retainedProducingSessionAttribution": [
+      {
+        "stem": "breast-regional-map-v1",
+        "retainedAttribution": {
+          "threadId": "01a12e5c-6865-7142-a98c-5b2187e35fc7",
+          "title": "Cartoon planning: molecular measurements",
+          "role": "Producer of the four original SVG pairs, briefs/provenance and focused candidate additions; historical owner writing retains its original custody. Root is not attributed original image construction, source review or medical writing.",
+          "identityEvidence": "Actual root author dispatch and completed producer chat handoff for the exact breast packet; existing provenance files remain byte-identical."
+        },
+        "evidencePath": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1-independent-owner-review.json",
+        "evidenceSHA256": "c40f11069e421aca6792b7ae78b7eaa1df59480a7ae5d12bdc1fb9c8324a5119",
+        "scope": "Literal retained support claim, preserved without a new verification of the historical dispatch."
+      }
+    ],
+    "attributionLimit": "Retained title/thread-ID metadata is a literal source claim, not newly verified person/model/invocation identity. Other unproved fields remain UNKNOWN.",
+    "sourceProvenanceOwnerHashMeaning": "The author support files’ currentOwnerSHA256 names the frozen pre-insertion baseline; this receipt binds the final candidate separately."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes.md",
+        "sha256": "8a103a341932a813194beb3720b4c70796bdc0017ac4bf892decc3e459e16a60",
+        "bytes": 8298
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+        "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9",
+        "bytes": 8437
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+        "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43",
+        "bytes": 8437
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1-independent-owner-review.json",
+        "sha256": "c40f11069e421aca6792b7ae78b7eaa1df59480a7ae5d12bdc1fb9c8324a5119",
+        "bytes": 7676
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1.json",
+        "sha256": "21d3d685ad2a02c5deee5f240220ca9b2fa925fb4b7a345ebfdaee5db1dce001",
+        "bytes": 3267
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/breast-regional-map-v1.txt",
+        "sha256": "bc0ef9795c48d8fed66e4523da2a6b342510e65e12a7d323d64c6ddbb839aa7c",
+        "bytes": 1108
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+        "sha256": "e1f2ac2f732441aae7ee3bae61e75808fae3f5fdaea45abf2a8879e799e486f1",
+        "bytes": 7893
+      }
+    ],
+    "scope": "Exact candidate owner, selected native pair, its new support where applicable, and relevant unchanged shared owner/native/support guards. These are actual members, not fabricated invocation files.",
+    "originalAuthorSealSHA256": "d3de7bfcc301cfbf8224c248b4baef51fe2bc40e47adf2b79d7626a5c16fd984",
+    "originalAuthorManifestSHA256": "c67190ec4340682e9cc0d735f59db95cf0c6cecf785e3ec974b23603280b6748",
+    "originalAuthorCustodyZipSHA256": "3b23334814977bde7468e2298aaf0e4585e783038c573b2b006f82407c1802c6",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded original insertion, native pair and current-owner fit with actual source access depth; human domain expertise remains pending.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

@@ -1,0 +1,8 @@
+Original SVG authored by agent:/root/batch12_tissue_author.
+Creation method: original SVG source code, not an image-model call.
+Learner task: Recognize response-related surroundings and residual carcinoma as coexisting findings, with different size definitions.
+Bound owner: wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md
+Current owner SHA256: 3b4829f03e33b2366b83ca9961fdf7430e819781029eb2c41ab0f9a15c627faf
+Brief: The same invented tissue map contains a broad fibrous region and several residual invasive foci. A largest contiguous-focus measurement for ypT and the two-dimensional residual span for RCB serve different jobs. Bar lengths are schematic, with no numerical score or individual staging assignment. Cellularity has its own area denominator.
+Guardrails: ['Fibrosis alone does not prove drug-specific effect or absence of cancer.', 'Do not equate a gross bed, ypT focus and RCB span.', 'Pathologic viable appearance is not a culture assay.']
+Matched theme palette; equal geometry across themes. Not to scale; fictional/schematic examples.

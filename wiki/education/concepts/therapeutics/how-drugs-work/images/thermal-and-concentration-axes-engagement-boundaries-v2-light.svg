@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1410" viewBox="0 0 600 1410" role="img"><title>Two axes, one bounded readout</title><desc>Fictional curves · not an occupancy scale</desc>
+<rect width="600" height="1410" fill="#fbf8f1"/>
+<text x="28" y="47" fill="#243944" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Two axes, one bounded readout</text>
+<text x="28" y="86" fill="#47616d" font-family="Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Fictional curves · not an occupancy scale</text>
+<rect x="22" y="112" width="556" height="381" rx="18" fill="#fffdf8" stroke="#6e8790" stroke-width="2"/>
+<text x="42" y="154" fill="#243944" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">1  Vary temperature</text>
+<text x="42" y="192" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Soluble target signal · relative units</text>
+<path d="M90 388 L530 388" fill="none" stroke="#6e8790" stroke-width="3"/>
+<path d="M90 388 L90 233" fill="none" stroke="#6e8790" stroke-width="3"/>
+<text x="72" y="397" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="end">0</text>
+<text x="72" y="242" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="end">1</text>
+<path d="M95 238 C170 238 212 256 252 313 S340 383 525 386" fill="none" stroke="#326fa1" stroke-width="6" stroke-dasharray="10 6"/>
+<path d="M95 238 C245 238 306 253 350 312 S422 382 525 386" fill="none" stroke="#287c73" stroke-width="6"/>
+<text x="310" y="435" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="middle">Increasing temperature →</text>
+<text x="42" y="475" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Compound concentration held fixed</text>
+<rect x="22" y="519" width="556" height="381" rx="18" fill="#fffdf8" stroke="#6e8790" stroke-width="2"/>
+<text x="42" y="561" fill="#243944" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">2  Vary concentration</text>
+<text x="42" y="599" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Soluble target signal · relative units</text>
+<path d="M90 795 L530 795" fill="none" stroke="#6e8790" stroke-width="3"/>
+<path d="M90 795 L90 640" fill="none" stroke="#6e8790" stroke-width="3"/>
+<text x="72" y="804" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="end">0</text>
+<text x="72" y="649" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="end">1</text>
+<path d="M95 774 L525 774" fill="none" stroke="#326fa1" stroke-width="5" stroke-dasharray="10 6"/>
+<path d="M95 774 C180 774 212 763 250 718 S320 650 525 647" fill="none" stroke="#287c73" stroke-width="6"/>
+<text x="310" y="842" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="middle">Increasing concentration →</text>
+<text x="42" y="882" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Temperature held fixed (schematic)</text>
+<path d="M42 939 L101 939" fill="none" stroke="#326fa1" stroke-width="5" stroke-dasharray="10 6"/>
+<text x="122" y="949" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Matched control</text>
+<path d="M42 990 L101 990" fill="none" stroke="#287c73" stroke-width="5"/>
+<text x="122" y="1000" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">With compound</text>
+<rect x="22" y="1025" width="556" height="320" rx="18" fill="#fffdf8" stroke="#6e8790" stroke-width="2"/>
+<text x="42" y="1067" fill="#243944" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="start">Keep the claim bounded</text>
+<text x="42" y="1104" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Signals can support engagement</text>
+<text x="42" y="1143" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">under the tested conditions.</text>
+<text x="42" y="1182" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Indirect stability or complex effects</text>
+<text x="42" y="1221" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">can also alter the measured signal.</text>
+<text x="42" y="1260" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Not inhibition or percent occupancy;</text>
+<text x="42" y="1299" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">not tumor delivery or patient benefit.</text>
+<text x="30" y="1387" fill="#243944" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="start">Invented curves · no settings or cutoffs</text>
+</svg>

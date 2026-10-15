@@ -1,0 +1,17 @@
+Original editable SVG composition and creation record
+
+Actual creative author: agent:/root/batch12_mechanisms_author
+Method: original authored SVG source code in build-art.py; SVG natives themselves retain editable source. No image-model call or raster generation occurred. Model: null. No copied publisher figure, abstract or source payload.
+Current selected owner: wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md
+Learner task: Show pre-existing antigen-distinct populations changing under controlled immune pressure without newly creating the surviving clone.
+Frozen shared owner: wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md
+Narrow scope: I reuse the exact clonal-counts-and-ancestry-v1 canonical pair for the distinction between absolute counts and within-snapshot shares. It has one changing population, not a matched with-versus-without immune-pressure comparison. My narrow original SVG extension uses identical fictional starting antigen-A and antigen-B populations and common count scales, then compares two conditions at one later observation. B is present from the start; the art does not depict T cells creating B or assign an elimination-equilibrium-escape calendar. Only the immunoediting owner receives insertions, with no shared owner/asset write.
+Guardrails: Model comparison, not an individual post-treatment phase assignment. No T-cell-created mutation or obligatory elimination-equilibrium-escape timeline. Alternative causes and recognition controls remain necessary.
+Caption: Both arms begin with 80 A cells and 20 B cells. At the same later observation, the control has 160 A and 40 B; the A-reactive T-cell condition has 10 A and 40 B. B’s share rises to 80% in the latter because A falls relative to the control, not because T cells create B. These are invented counts, not study results. Recognition controls and alternative causes remain necessary; no phase is assigned to an individual cancer. A primary mouse study of pre-existing antigen-distinct clone selection.
+Alt: Three bar panels on the same zero-to-200 cell scale show a starting A/B mix of 80/20, later control counts of 160/40, and later counts with A-reactive T cells of 10/40. B exists initially and reaches an 80 percent share only in the pressure arm.
+
+Native SHA256 values:
+immune-pressure-matched-populations-b12-v1-light.svg 5f42682801ddc527babaf504ee9d8e47d9769435c8d9e78db17429197fa97ed9
+immune-pressure-matched-populations-b12-v1-dark.svg 1f4a7ee63018909d25348bd0f3157a6e663502c60253474f4355e3fed36b7285
+
+Agent author QA, independent peer review, human/domain-expert and learner review, adoption, delivery and coverage are separate. Independent/human review and all adoption/release states remain pending; no coverage/grade credit.

@@ -35,6 +35,16 @@ The analogy has limits. Cells have no intentions, and cancer is not defined by a
 
 ## How it works
 
+<!-- BEGIN next-gap-275 VISUAL -->
+<img src="./images/cancer-context-matched-alteration-v1-light.svg" alt="Two fictional epithelial scenes carry the same gene-X label; organized cells stay above a boundary in A while cells extend through it into surrounding tissue in B." data-theme-pair>
+
+*Two invented epithelial tissue scenes share a gene-X alteration but differ in organization and local invasion. This illustrates why the alteration alone cannot classify a tissue; it is not a diagnostic checklist or a depiction of every cancer. Local invasion does not establish distant spread.*
+
+The [normal breast layer diagram](/wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane) supplies a separate boundary-anatomy reference; this epithelial example does not represent all cancer types.
+
+[Open the light diagram](./images/cancer-context-matched-alteration-v1-light.svg) · [Open the dark diagram](./images/cancer-context-matched-alteration-v1-dark.svg)
+<!-- END next-gap-275 VISUAL -->
+
 Normal renewal and repair involve cell growth and division. Cancer involves altered control of those processes, together with other changes that help abnormal populations persist. [DNA (deoxyribonucleic acid)](/wiki/education/concepts/biology-basics/molecules/dna) changes can contribute, while [epigenetic regulation](/wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation) changes how information is used without necessarily changing its sequence. The [hallmarks framework](/wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer) organizes capabilities and supporting processes; it is not a diagnostic checklist.
 
 **A tumor is an abnormal tissue growth; it need not be cancer.** A benign tumor lacks the invasive and metastatic behavior of a malignant tumor, although its location or size can still cause harm. Many cancers form solid masses. Leukemias arise in blood-forming tissue and usually do not form a solid lump. Their abnormal populations can disrupt normal blood-cell production. [NCI overview](https://www.cancer.gov/about-cancer/understanding/what-is-cancer).

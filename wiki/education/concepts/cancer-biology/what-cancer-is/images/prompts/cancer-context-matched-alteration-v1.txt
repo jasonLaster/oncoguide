@@ -1,0 +1,8 @@
+Original SVG authored by agent:/root/batch12_tissue_author.
+Creation method: original SVG source code, not an image-model call.
+Learner task: Distinguish altered tissue behavior and invasion from the mere presence of a cancer-associated mutation.
+Bound owner: wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md
+Current owner SHA256: 42bb7183eecf929dac8d2a1c64fb7949278bcb6d553052c86a4f25694ff3da2a
+Brief: Two invented epithelial tissue scenes share a gene-X alteration but differ in organization and local invasion. This illustrates why the alteration alone cannot classify a tissue; it is not a diagnostic checklist or a depiction of every cancer. Local invasion does not establish distant spread.
+Guardrails: ['Illustrative epithelial context is not every cancer, especially blood cancers.', 'No single mutation or rapid division defines malignancy.', 'Local invasion is not proof of distant spread.']
+Matched theme palette; equal geometry across themes. Not to scale; fictional/schematic examples.

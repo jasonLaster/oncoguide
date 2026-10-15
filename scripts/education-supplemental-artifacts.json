@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+  "reviewedSourceCommit": "2d4973527fda5ffe47f44d4ed0489139de60814f",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -10253,6 +10253,582 @@
         {
           "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
           "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/images/prompts/peer-reviews/next-gap-268-independent-new-owner-task-fit.json",
+      "sha256": "51329498bb6111b24e6a5bf45cafe30e00d4d4ad40a90d5a1aee0998251ccf4e",
+      "bytes": 12899,
+      "owner": "wiki/education/concepts/biology-basics/molecules/gene.md",
+      "ownerSha256": "6114915445fed820bd0c4152e3fb776aad43e9979ee75e93c81ea17166669bb2",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/gene-position-and-coding-context-b12-v1-dark.svg",
+          "sha256": "9b5c973cdeebcf199fed8686bf324614f27292b6fbb66e438d72a6f34da7fe9e"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/molecules/images/gene-position-and-coding-context-b12-v1-light.svg",
+          "sha256": "1c9b3da913f204a611bf3a6b1ef20518baad1f0fcf778a5c37da3e1055822987"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/idc-within-boundary-and-stroma-v1-provenance.json",
+      "sha256": "ebd7e0ce07008d6083adab394b48a69696b068abdc3986b904132afbd59d82fd",
+      "bytes": 2319,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+      "ownerSha256": "dbf397d0b5796677f74dae9776487bdbd888fc72b57b216e97bea977927caa4c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+          "sha256": "b1ff35d4b5733e2187936cca859f4ed4f71de00fb0ba16443da5808e4c3fb66b"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+          "sha256": "e4c07d3246e44e00650e1256a423f0ad16a9c6fd0c55dcbc490319fbe2ad566c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/peer-reviews/next-gap-276-independent-new-owner-task-fit.json",
+      "sha256": "5ebefea3d828729c1315dbe90a0fba7b71eda8bcd88faa26b9b75743a3bb3dfe",
+      "bytes": 14875,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+      "ownerSha256": "dbf397d0b5796677f74dae9776487bdbd888fc72b57b216e97bea977927caa4c",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+          "sha256": "b1ff35d4b5733e2187936cca859f4ed4f71de00fb0ba16443da5808e4c3fb66b"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+          "sha256": "e4c07d3246e44e00650e1256a423f0ad16a9c6fd0c55dcbc490319fbe2ad566c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/prompts/peer-reviews/next-gap-281-independent-new-owner-task-fit.json",
+      "sha256": "59c9496bb18e0c6d667c3360139b3fcf7dc130a5a5e988bf4179296210da4fe4",
+      "bytes": 15338,
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes.md",
+      "ownerSha256": "8a103a341932a813194beb3720b4c70796bdc0017ac4bf892decc3e459e16a60",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+          "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+          "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/peer-reviews/next-gap-277-independent-new-owner-task-fit.json",
+      "sha256": "bc1dafae4943ddff6347d56673be839518129757807d942ed680939ba73ad401",
+      "bytes": 14534,
+      "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "ownerSha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-light.svg",
+          "sha256": "1ffa617b83e640bd69da6c3f6ae9e71fe736931cbb676241becd5911c9ce8831"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-dark.svg",
+          "sha256": "5d3cb0d35e7ccd7cd20ab997f960c079ea2b8c08b114e70038cb529114a70bc2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/sox10-nuclear-signal-attribution-v1-provenance.json",
+      "sha256": "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4",
+      "bytes": 2328,
+      "owner": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "ownerSha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-light.svg",
+          "sha256": "1ffa617b83e640bd69da6c3f6ae9e71fe736931cbb676241becd5911c9ce8831"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/sox10-nuclear-signal-attribution-v1-dark.svg",
+          "sha256": "5d3cb0d35e7ccd7cd20ab997f960c079ea2b8c08b114e70038cb529114a70bc2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/peer-reviews/next-gap-278-independent-new-owner-task-fit.json",
+      "sha256": "99c2b18db7d5e786338869d223ba65d9f215b4978a844057b21cc6aa06e82222",
+      "bytes": 15257,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+      "ownerSha256": "79007dc8a1e8ef0b0f944a1481d25028418c8c53f6f8a91b732103f65db4d0e4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+          "sha256": "5413a4483615e642900bad15e20b098fd7e01e7dc81b7b1417d5c331a096b9fc"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+          "sha256": "3a47c37c8548d27d4c655720ed454104c166699f164f0ce65adea5d901ec4b09"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/treatment-bed-three-extents-v1-provenance.json",
+      "sha256": "c2332fd9a8c79b205366e46c369a7ee3f5749f950a96524b67e7359447a29efe",
+      "bytes": 2375,
+      "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+      "ownerSha256": "79007dc8a1e8ef0b0f944a1481d25028418c8c53f6f8a91b732103f65db4d0e4",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+          "sha256": "5413a4483615e642900bad15e20b098fd7e01e7dc81b7b1417d5c331a096b9fc"
+        },
+        {
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+          "sha256": "3a47c37c8548d27d4c655720ed454104c166699f164f0ce65adea5d901ec4b09"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/peer-reviews/next-gap-269-independent-new-owner-task-fit.json",
+      "sha256": "9415825fb8a5daf664946c6ff5027617d478873f37b3e039da43f3a606610bf7",
+      "bytes": 12820,
+      "owner": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+      "ownerSha256": "ea521359a16e6352f895232008065b070f515e70e5e0c8597cc4994da9e67e65",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+          "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+          "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/peer-reviews/next-gap-270-independent-new-owner-task-fit.json",
+      "sha256": "4103b99ae0143b575bfd79f99521e25a498314dde08cf615e178f2e11dffd7f7",
+      "bytes": 14455,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+      "ownerSha256": "a1ddf731c54b1d58af7a2591091132040874f120fcdbbbf47f44c59e18db6ed7",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg",
+          "sha256": "c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg",
+          "sha256": "f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/peer-reviews/next-gap-271-independent-new-owner-task-fit.json",
+      "sha256": "f3036cfb8ea5f30e4bb8978cd56fe53ebd3978acf7ab65bb63e5358ac5a4d562",
+      "bytes": 13133,
+      "owner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+      "ownerSha256": "cea94d2945ee4dea5562f80f8d90cae73398c71fbd484186c4bf5a07fcf7302d",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+          "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e"
+        },
+        {
+          "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+          "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/peer-reviews/next-gap-272-independent-new-owner-task-fit.json",
+      "sha256": "b5a06014c0dab865e361c533d1a7aa366ef53a9282fee9e42951a025092d55eb",
+      "bytes": 14360,
+      "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+      "ownerSha256": "f0e26082978b5caedc7aa178f1fc4019fb0899523ab4163c88ce491cb1a5c239",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg",
+          "sha256": "a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg",
+          "sha256": "0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/caf-cell-role-neighborhood-v1-provenance.json",
+      "sha256": "3a698c106b47d665e8339d511d9591f40129e9031b55969b99fe253ed12223cb",
+      "bytes": 2362,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+      "ownerSha256": "25df93cf132f980de87bee79a1d289f898afb2244eb19358a3febf4e59ff8643",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+          "sha256": "9d35758fa2bd6bdaa80c9095c08c56c014cbf893cb513b46d267b1185c4238b2"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+          "sha256": "38b90ec908b401dbfc8d6762cd36ab34356fec34e39a38405e748eca48f55faa"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/hypoxia-local-supply-demand-v1-provenance.json",
+      "sha256": "3c760f43002b040c3f5af3748e6342aa567ffd6b5774bfb1d92a9a88848e55d9",
+      "bytes": 2267,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+      "ownerSha256": "4c0b82af25ad19fae72b1e7b15b29b8a8181dfbbc12e4f7edc6c9880fcb24f3f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+          "sha256": "a419bf7dfcd54198b56e6dc0e1ccd4e632901dfe644b5159f6198ff4c357d2ec"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+          "sha256": "16bd08f3b34550110afbe23b5e5ba1bfd19ad1b9d4000d12d30cee8f85c58d8f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/peer-reviews/next-gap-279-independent-new-owner-task-fit.json",
+      "sha256": "3f0c2165ccd5ca6bcedddce097d56245973ba4aa1c5e39909d1e0ac31fceb3e9",
+      "bytes": 16231,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+      "ownerSha256": "25df93cf132f980de87bee79a1d289f898afb2244eb19358a3febf4e59ff8643",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+          "sha256": "9d35758fa2bd6bdaa80c9095c08c56c014cbf893cb513b46d267b1185c4238b2"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+          "sha256": "38b90ec908b401dbfc8d6762cd36ab34356fec34e39a38405e748eca48f55faa"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/prompts/peer-reviews/next-gap-280-independent-new-owner-task-fit.json",
+      "sha256": "65a2a74e742894fb2cd83c475d6bd4254b0a8cc967f3659d73b73ae2511672a3",
+      "bytes": 16544,
+      "owner": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+      "ownerSha256": "4c0b82af25ad19fae72b1e7b15b29b8a8181dfbbc12e4f7edc6c9880fcb24f3f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+          "sha256": "a419bf7dfcd54198b56e6dc0e1ccd4e632901dfe644b5159f6198ff4c357d2ec"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+          "sha256": "16bd08f3b34550110afbe23b5e5ba1bfd19ad1b9d4000d12d30cee8f85c58d8f"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/cancer-context-matched-alteration-v1-provenance.json",
+      "sha256": "f5d5ae1341558a39e3b84ca67f941a3f6c525cd7833ed72f8aaedede7cd4692f",
+      "bytes": 2232,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+      "ownerSha256": "6267ea5413ff46744c624b4269744242a99946da2231c02f5f53f6e597878fa1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+          "sha256": "516aec29b9c4c27d4a8edeeacdd60e939429469d1e8b601a53cab2d0dfaf3bb5"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+          "sha256": "6c1d565a7305c24b80d4bf36e33daf2e0d6a99466157d8d50e5b0d92c4bcf5cb"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/peer-reviews/next-gap-273-independent-new-owner-task-fit.json",
+      "sha256": "0d2ec250f90a6ad1ed7370147987c1b626329dc523c564ce0dba5566697c12d4",
+      "bytes": 12273,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+      "ownerSha256": "37628fdf978e011cba15d86beca1945a422c0cd39eb977d608a4b75bc3ca43be",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-dark.svg",
+          "sha256": "1f4a7ee63018909d25348bd0f3157a6e663502c60253474f4355e3fed36b7285"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-light.svg",
+          "sha256": "5f42682801ddc527babaf504ee9d8e47d9769435c8d9e78db17429197fa97ed9"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/prompts/peer-reviews/next-gap-275-independent-new-owner-task-fit.json",
+      "sha256": "6e90ae96db76ecb22e11ac9efb81fe58335814ebff6610e4f1e91cab99b48022",
+      "bytes": 14760,
+      "owner": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+      "ownerSha256": "6267ea5413ff46744c624b4269744242a99946da2231c02f5f53f6e597878fa1",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+          "sha256": "516aec29b9c4c27d4a8edeeacdd60e939429469d1e8b601a53cab2d0dfaf3bb5"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+          "sha256": "6c1d565a7305c24b80d4bf36e33daf2e0d6a99466157d8d50e5b0d92c4bcf5cb"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/identity-activity-and-clinical-evidence-v1-provenance.json",
+      "sha256": "18bcb9c517633effc14707157ca74a36d9362259a51ca6ab9a17dc75ee2850bb",
+      "bytes": 4775,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "ownerSha256": "8de1c8fb3d225c90c77e37d26a593da4d27b512d4669fbfd57fb257acdccb53e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+          "sha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+          "sha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/prompts/peer-reviews/next-gap-282-independent-new-owner-task-fit.json",
+      "sha256": "0ae177d227940323da0e273dfde18371445f81bf1cd1fda4578c64a3d315b9eb",
+      "bytes": 9092,
+      "owner": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "ownerSha256": "8de1c8fb3d225c90c77e37d26a593da4d27b512d4669fbfd57fb257acdccb53e",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+          "sha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+          "sha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/peer-reviews/next-gap-283-independent-new-owner-task-fit.json",
+      "sha256": "85d6ff8735469e32b8aba339890a48cb900b936583a513910a1782c370eaf0ae",
+      "bytes": 9280,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+      "ownerSha256": "6546d5a08bcaff8c1a9b0fdb84c67d27dfea35e63e0ac25a5c9da2f4bb106e85",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+          "sha256": "bbe6b79753541a7e49606c85cc4d89655725b39b1063468d9a89b65441c676e2"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+          "sha256": "698f2a0a7a5c309139950d9707be9e53777d0b07585467fbf57cbbbee366e75a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/prompts/uncertain-difference-and-meaningful-bounds-v1-provenance.json",
+      "sha256": "3276c90c83eb1f21927b3da50a036b27cb69abb461b377d0e9d3fd1abb355e46",
+      "bytes": 4772,
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+      "ownerSha256": "6546d5a08bcaff8c1a9b0fdb84c67d27dfea35e63e0ac25a5c9da2f4bb106e85",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+          "sha256": "bbe6b79753541a7e49606c85cc4d89655725b39b1063468d9a89b65441c676e2"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+          "sha256": "698f2a0a7a5c309139950d9707be9e53777d0b07585467fbf57cbbbee366e75a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+      "sha256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+      "bytes": 4761,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "ownerSha256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+          "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+          "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+      "sha256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+      "bytes": 4816,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "ownerSha256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+          "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+          "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-284-independent-new-owner-task-fit.json",
+      "sha256": "ed7ddb89399e99df10ef7bec641f43f69dd5079ca0a2274424f30148551e21fe",
+      "bytes": 9330,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "ownerSha256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+          "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+          "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+      "sha256": "a9b5c7ac6668f543c51aa14bd885c49c82835198179b52e722c905c3cef61112",
+      "bytes": 18447,
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "ownerSha256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+          "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+          "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+      "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+      "bytes": 4834,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "ownerSha256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+          "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+          "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "sha256": "91582d3aa110774d8f78bce6e279bf5fa81357f7477c66c55a7f8b0b467444ce",
+      "bytes": 17975,
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "ownerSha256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+          "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+          "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/peer-reviews/next-gap-274-independent-new-owner-task-fit.json",
+      "sha256": "f06d43227294e471dfaf07f9b99859b1f87d6ff2a9477a65fb94cffeb7786b7b",
+      "bytes": 13304,
+      "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+      "ownerSha256": "95fad83bae5fcc75b5176f8b034ff27e0e2e81a1d3411513ee53b6959017417f",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+          "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5"
+        },
+        {
+          "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+          "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/peer-reviews/next-gap-287-independent-new-owner-task-fit.json",
+      "sha256": "c31678d28526952804bc081aec03c0a2db5fc880849a75f904ce78711513fac3",
+      "bytes": 21948,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "ownerSha256": "cb1c80ba25037951691559061a84d5870cc58a62d0bb392939bbcd87b3a490fa",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg",
+          "sha256": "7ce897a19199429af252d49712af773cd46e0d6c4cc1fa165cfc44d6b780d745"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
+          "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/prompts/thermal-and-concentration-axes-engagement-boundaries-v2-provenance.json",
+      "sha256": "4ad9e525476479410f173f1c7528e9a52465cb36212fb49f3118655e2ff90193",
+      "bytes": 5597,
+      "owner": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "ownerSha256": "cb1c80ba25037951691559061a84d5870cc58a62d0bb392939bbcd87b3a490fa",
+      "artworks": [
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg",
+          "sha256": "7ce897a19199429af252d49712af773cd46e0d6c4cc1fa165cfc44d6b780d745"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
+          "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b"
         }
       ],
       "contentClass": "source-owned-public-custody"

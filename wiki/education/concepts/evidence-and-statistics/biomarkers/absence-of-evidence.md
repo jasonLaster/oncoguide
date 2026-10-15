@@ -71,6 +71,14 @@ A fictional randomized study estimates the difference in one-year event risk, ne
 
 **Answer:** No. The invented interval includes appreciable benefit and harm, as well as no difference. It does not establish equivalence. A narrower interval could constrain meaningful effects, but the design, prespecified bounds and analysis would still matter. These are illustrative bounds, not a calculation for a patient.
 
+<img src="./images/uncertain-difference-and-meaningful-bounds-v1-light.svg" alt="A fictional one-year risk difference of minus 2 percentage points has a 95% confidence interval from minus 12 to plus 8. The same axis marks zero and invented meaningful-equivalence bounds of minus 5 and plus 5; the interval crosses all three lines." width="600" height="1200" data-theme-pair />
+
+*The interval includes zero and extends beyond both invented meaningful-effect bounds; nonsignificance does not establish equivalence.*
+
+The shared [confidence-interval figure](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) teaches repeated coverage and precision; this view asks what one interval leaves unresolved.
+
+**Figure check:** Do the gold bounds create a universal definition of a trivial effect? **Answer:** No. They are invented for teaching; real bounds require context, justification and an appropriate equivalence analysis.
+
 ## Explain it back
 
 “Nothing was found by ___ under ___; that leaves ___ unresolved.” One answer: “this assay; its sample and detection limits; signals outside those conditions.”

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-278",
+  "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+  "type": "concept",
+  "author": "agent:/root/batch12_tissue_author",
+  "authorRole": "Actual author of candidate insertion and six original SVG pairs; reuse steward for task281",
+  "reviewer": "agent:/root/batch12_tissue_review",
+  "reviewerRole": "Independent agent scientific/source/native/current-owner task-fit reviewer",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "reviewedAt": "2026-10-14T21:03:26.233525Z",
+  "currentOwnerSha256": "79007dc8a1e8ef0b0f944a1481d25028418c8c53f6f8a91b732103f65db4d0e4",
+  "currentOwnerFieldMeaning": "Exact final private candidate article bytes; baseline owner hash is separately frozen below. No delivery asserted.",
+  "intendedPublicPath": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/peer-reviews/next-gap-278-independent-new-owner-task-fit.json",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+      "sha256": "5413a4483615e642900bad15e20b098fd7e01e7dc81b7b1417d5c331a096b9fc",
+      "bytes": 7141,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1370
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+      "sha256": "3a47c37c8548d27d4c655720ed454104c166699f164f0ce65adea5d901ec4b09",
+      "bytes": 7141,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1370
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "3b4829f03e33b2366b83ca9961fdf7430e819781029eb2c41ab0f9a15c627faf",
+    "learnerTask": "Recognize response-related surroundings and residual carcinoma as coexisting findings, with different size definitions.",
+    "gap": "The response-changes/residual-carcinoma branches are adequate for coexistence. The gross bed versus residual-focus versus protocol span distinction is spatial and still unshown; it should reuse a tumor-bed sketch rather than generate another response cartoon.",
+    "accuracyGuardrails": [
+      "Fibrosis alone does not prove drug-specific effect or absence of cancer.",
+      "Do not equate a gross bed, ypT focus and RCB span.",
+      "Pathologic viable appearance is not a culture assay."
+    ],
+    "currentVisualFit": "adequate",
+    "reasoning": "The one invented tissue field contains residual invasive foci within a larger altered fibrous region. The pink contiguous-focus bar and two blue residual-span bars visibly measure different extents, and neither is used to assign a number, stage or RCB score. The surrounding text retains sampling, microscopy, area-denominator and treatment-setting limits. The shared area-tile scene is correctly linked for the different cellularity question; it cannot replace this missing spatial comparison. Scarring is never equated with cancer clearance or a drug-specific effect.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+    "pageSHA256": "3b4829f03e33b2366b83ca9961fdf7430e819781029eb2c41ab0f9a15c627faf",
+    "targetSection": "## Why it matters in cancer",
+    "learnerTask": "Recognize response-related surroundings and residual carcinoma as coexisting findings, with different size definitions.",
+    "gap": "The response-changes/residual-carcinoma branches are adequate for coexistence. The gross bed versus residual-focus versus protocol span distinction is spatial and still unshown; it should reuse a tumor-bed sketch rather than generate another response cartoon.",
+    "accuracyGuardrails": [
+      "Fibrosis alone does not prove drug-specific effect or absence of cancer.",
+      "Do not equate a gross bed, ypT focus and RCB span.",
+      "Pathologic viable appearance is not a culture assay."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "6aa87284fba2dce4ae514536836bf19e9ee7c0d5f0e6e98cb3d74f9882b5172e",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/73",
+    "oneBasedRow": 74,
+    "originalTaskRowSHA256": "12dbdb759d2b3d2934c771533ecac15c74aeb992f8b122d8d0880211cf2274f5",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+  "typedPlanningDecision": {
+    "schemaVersion": 1,
+    "kind": "shared-canonical-concept-visual",
+    "author": "agent:/root/batch12_tissue_author",
+    "frozenTask": {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+      "pageSHA256": "3b4829f03e33b2366b83ca9961fdf7430e819781029eb2c41ab0f9a15c627faf",
+      "targetSection": "## Why it matters in cancer",
+      "learnerTask": "Recognize response-related surroundings and residual carcinoma as coexisting findings, with different size definitions.",
+      "gap": "The response-changes/residual-carcinoma branches are adequate for coexistence. The gross bed versus residual-focus versus protocol span distinction is spatial and still unshown; it should reuse a tumor-bed sketch rather than generate another response cartoon.",
+      "accuracyGuardrails": [
+        "Fibrosis alone does not prove drug-specific effect or absence of cancer.",
+        "Do not equate a gross bed, ypT focus and RCB span.",
+        "Pathologic viable appearance is not a culture assay."
+      ],
+      "sharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+      "recommendedMedium": "diagram",
+      "priority": "P2"
+    },
+    "reuseRationale": "I inspected both retained area-denominator rasters at native size. I reuse that exact denominator teaching reference with its original bytes and qualification via the canonical page. It cannot show the selected treatment-effect page’s distinct spatial extents. I will add one original fictional tissue map with a gross fibrous region, several residual invasive foci, a largest contiguous-focus measurement and a distinct two-dimensional residual span for RCB. No copied CAP form or figure, universal size equation, scarring-as-clearance implication, or shared-owner write.",
+    "additionalOwnerWrites": []
+  },
+  "typedPlanningDecisionAcceptance": {
+    "id": "next-gap-278",
+    "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+    "author": "agent:/root/batch12_tissue_author",
+    "reviewer": "agent:/root/batch12_tissue_review",
+    "decisionSHA256": "d510be4cfbd5db6230bce126a8bfba2f6654a9c68b5a43ac63fae0ba1b68af91",
+    "decisionFileSHA256": "d3507b9e4483b3f96c1bcc4e51ce37b030a90c922b81f762da6c0758ca37e582",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept the narrow extension. The retained denominator tiles answer a percentage question, whereas this selected task requires co-located fibrous bed, contiguous focus and residual span. One tissue map supplies those distinct measurement jobs without copying CAP artwork or treating scar dimensions as residual disease.",
+    "kind": "shared-canonical-concept-visual",
+    "type": "concept",
+    "frozenSharedCanonicalOwner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+    "reviewedAt": "2026-10-14T21:03:26.233525Z",
+    "implementationGate": "Maintained concept-planning contract adoption is Root’s separate pending gate; this acceptance does not claim the lesson-only validator accepts concept decisions."
+  },
+  "authorAcknowledgment": {
+    "sha256": "2a0b052a941f2d7f9109ffd7c09c5040e9f7ed70478d76e94492bdf8ea821eeb",
+    "actualActor": "agent:/root/batch12_tissue_author",
+    "scope": "Author personally acknowledges creating the typed decisions before artwork; reviewer binds the actual decisions separately from final science/task fit."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "accessDepth": "Fresh official PDF; treatment-effect/RCB fields, Note K on printed pages33–35 and residual-focus/span definitions personally read. No form, figure or numerical staging guidance reproduced."
+    }
+  ],
+  "visualReview": {
+    "personallyInspected": "Both final selected natives, both variants of every relevant retained shared pair, and fresh current-owner inline/theater at390px and1440px.",
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "pinCheck": "All87 named fixture source files independently compared to their exact pinned Git blobs.",
+    "scope": "Private pinned article/ImageTheater fixture only; no full-app or production certification.",
+    "findings": "Labels, geometry, selected theme, owner-specific caption and supplied alt agree with the learner task. No native text crosses the canvas and no document horizontal overflow or page error observed.",
+    "limits": [
+      "Escape closes the theater; all28 image exercises did not restore image focus. Four supplemental theme/width checks observed BODY after Escape, BUTTON on open and Tab to Download link.",
+      "Retained regional-map secondary labels and the dense denominator raster are small at mobile width; direct original-size links and surrounding teaching remain necessary.",
+      "Existing tables and CAF Mermaid scroll inside containers; no renderer, full-app or general accessibility approval."
+    ],
+    "inspectionTiming": "Reviewer inspection occurred after final author drafts. Author native shared-pair inspection preceded decisions/art; author346px shared embed QA occurred after first drafts. No earlier embedded inspection is claimed."
+  },
+  "creationProvenance": {
+    "creativeAuthor": "agent:/root/batch12_tissue_author",
+    "creationMethod": "Original SVG source code composed by actual author; no image-model invocation",
+    "imageModelInvocation": false,
+    "retainedProducingSessionAttribution": [],
+    "attributionLimit": "Retained title/thread-ID metadata is a literal source claim, not newly verified person/model/invocation identity. Other unproved fields remain UNKNOWN.",
+    "sourceProvenanceOwnerHashMeaning": "The author support files’ currentOwnerSHA256 names the frozen pre-insertion baseline; this receipt binds the final candidate separately."
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+        "sha256": "79007dc8a1e8ef0b0f944a1481d25028418c8c53f6f8a91b732103f65db4d0e4",
+        "bytes": 9693
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+        "sha256": "3a47c37c8548d27d4c655720ed454104c166699f164f0ce65adea5d901ec4b09",
+        "bytes": 7141
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+        "sha256": "5413a4483615e642900bad15e20b098fd7e01e7dc81b7b1417d5c331a096b9fc",
+        "bytes": 7141
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/treatment-bed-three-extents-v1-provenance.json",
+        "sha256": "c2332fd9a8c79b205366e46c369a7ee3f5749f950a96524b67e7359447a29efe",
+        "bytes": 2375
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/treatment-bed-three-extents-v1.txt",
+        "sha256": "038e09438c9d04518dfd799fcfd1f301d95e4744e43f184528787f6f1391339c",
+        "bytes": 1105
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-dark.png",
+        "sha256": "eaedf5d8d9cd5beaf2d625bc2c30c92d1e5fa396b8139c90b97990a7eb6d3abf",
+        "bytes": 1444306
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-light.png",
+        "sha256": "9202f8eefc28cc10b101623b6c5a26a93456ab5a4aa2e46c9211a28bb3f2a05c",
+        "bytes": 1418927
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators-dark-call.txt",
+        "sha256": "fa750a36d3ebbb15c050a4b34e21e0114e05aef3a719c9c1d367ff40d5172f19",
+        "bytes": 3536
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators-light-call.txt",
+        "sha256": "6cbf529860bc9537ae3ae61eb1193b9b1110d2841d98400a9b879d06b76904dc",
+        "bytes": 3472
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/tumor-bed-area-denominators.txt",
+        "sha256": "809242707099e06b94b1575d54fa9befbc04998327f8a3e5c5c557b7f3feca2c",
+        "bytes": 3263
+      },
+      {
+        "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+        "sha256": "521a10903f2580d9917689dc0e2eaf8af3c7778a44df6c8ceebd4944f83ea2ad",
+        "bytes": 9168
+      }
+    ],
+    "scope": "Exact candidate owner, selected native pair, its new support where applicable, and relevant unchanged shared owner/native/support guards. These are actual members, not fabricated invocation files.",
+    "originalAuthorSealSHA256": "d3de7bfcc301cfbf8224c248b4baef51fe2bc40e47adf2b79d7626a5c16fd984",
+    "originalAuthorManifestSHA256": "c67190ec4340682e9cc0d735f59db95cf0c6cecf785e3ec974b23603280b6748",
+    "originalAuthorCustodyZipSHA256": "3b23334814977bde7468e2298aaf0e4585e783038c573b2b006f82407c1802c6",
+    "inverseInsertionExact": true,
+    "originalRetainedBytesUnchanged": true
+  },
+  "newPixelApproval": true,
+  "newScientificSourceApproval": true,
+  "scientificReviewMeaning": "Independent agent review of the bounded original insertion, native pair and current-owner fit with actual source access depth; human domain expertise remains pending.",
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "productionVerifiedByThisReview": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "rootSoleIntegratorAndPublisher": true
+}

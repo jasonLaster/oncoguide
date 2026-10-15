@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-286",
+  "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+  "author": "agent:/root/batch12_evidence_author",
+  "reviewer": "agent:/root/batch12_evidence_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:39:47.464081+00:00",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "bytes": 4549,
+      "nativeDimensions": [
+        600,
+        1220
+      ],
+      "theme": "light"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "bytes": 4549,
+      "nativeDimensions": [
+        600,
+        1220
+      ],
+      "theme": "dark"
+    }
+  ],
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+    "learnerTask": "See selection change the pooled65%/35% contrast despite equal within-category rates.",
+    "gap": "The causal diagram explains paths but the population-mixture arithmetic remains only a table.",
+    "accuracyGuardrails": "Keep causal paths and the fictional composition counts distinct. Equal within-category rates with unequal mixtures illustrate confounding; stratification/adjustment does not automatically remove all bias.",
+    "targetSection": "## A worked fictional example",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+    "recommendedMedium": "chart",
+    "priority": "P2",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The figure keeps 100 people in each treatment group, with 80/20 versus 20/80 baseline-health mixtures. Both groups have 75% improvement within better health and 25% within poorer health, yielding 60+5=65 and 15+20=35 overall. The displayed bars represent composition rather than causal pathways; the original current-owner causal diagram remains unchanged. A common treatment-start-to-six-week symptom clock is explicit. The visible warning and practice retain measured/unmeasured differences and adjustment assumptions.  Current shared-source delta: The new cross-trial pair uses unequal within-category rates: 50% versus 60% and 20% versus 30%, with a pooled 44%/36% reversal. That supports the shared mixture warning but cannot replace the frozen selected286 task, which requires equal 75% and equal 25% within-category rates, 80/20 versus 20/80 composition, pooled 65%/35%, and the same six-week symptom clock. The unchanged selected286 pair preserves those exact counts and the remaining adjustment/causal limits. Accept the later source binding and retain the exact selected pair without copying or changing shared art."
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+    "pageSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+    "targetSection": "## A worked fictional example",
+    "learnerTask": "See selection change the pooled65%/35% contrast despite equal within-category rates.",
+    "gap": "The causal diagram explains paths but the population-mixture arithmetic remains only a table.",
+    "accuracyGuardrails": "Keep causal paths and the fictional composition counts distinct. Equal within-category rates with unequal mixtures illustrate confounding; stratification/adjustment does not automatically remove all bias.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/183",
+    "oneBasedRow": 184,
+    "originalTaskRowSHA256": "9726702b194ab54878a61bba6a14fcb16aec78e46746e5423b822f1efc9a97ad",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "authorPlanningDecisionReview": {
+    "id": "next-gap-286",
+    "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+    "author": "agent:/root/batch12_evidence_author",
+    "reviewer": "agent:/root/batch12_evidence_review",
+    "decisionSHA256": "b6adb3a01d67864985a445bf3b2392603bbd1d699283e7e454a49b7ed9df4923",
+    "decisionFileSHA256": "e97a0424b5135f18855e9c8d8166abf1fbd04c9665536e96dd7f90599280f927",
+    "accepted": true,
+    "verdict": "PASS",
+    "phase": "post-artwork source-binding delta",
+    "newPreArtDecision": false,
+    "actualCommittedSource": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "reasoning": "The new cross-trial pair uses unequal within-category rates: 50% versus 60% and 20% versus 30%, with a pooled 44%/36% reversal. That supports the shared mixture warning but cannot replace the frozen selected286 task, which requires equal 75% and equal 25% within-category rates, 80/20 versus 20/80 composition, pooled 65%/35%, and the same six-week symptom clock. The unchanged selected286 pair preserves those exact counts and the remaining adjustment/causal limits. Accept the later source binding and retain the exact selected pair without copying or changing shared art."
+  },
+  "scientificSourceReview": {
+    "scope": "Substance inherited verbatim from the hash-bound prior review; not repeated or expanded by this source-binding delta. New local public teaching source/caption observations are recorded separately.",
+    "inheritedFromReviewSHA256": "354afe6afb092b58c050c8ef41f80ae0a84c9d0b07e419043e3f3366181318df",
+    "substance": {
+      "scope": "Fresh independent targeted source reading for visual claims; historical owner source_checked metadata unchanged.",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4832051/",
+          "sourceType": "primary methods paper, indexed excerpts",
+          "actualReadDepth": "Indexed Abstract/introduction, Defining time zero and Assignment procedures passages; not direct full-text reading, full figures or supplement.",
+          "supports": "Align eligibility, treatment strategy and follow-up clocks; confounding control requires adequate information and assumptions."
+        }
+      ],
+      "failedAccess": [],
+      "quoteWords": 0,
+      "noSourceFiguresCopied": true
+    }
+  },
+  "visualReview": {
+    "scope": "Exact selected-native and pinned article/theater findings inherited from prior review; no new UI certification.",
+    "inheritedFromReviewSHA256": "354afe6afb092b58c050c8ef41f80ae0a84c9d0b07e419043e3f3366181318df",
+    "substance": {
+      "personallyInspectedBothExactNativeThemes": true,
+      "currentOwnerArticleAndTheaterInspected": true,
+      "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+      "pinnedSourceFilesIndependentlyMatched": 87,
+      "articleWidthPx": [
+        390,
+        1440
+      ],
+      "allNewNativeTextWithinBounds": true,
+      "horizontalOverflowObserved": false,
+      "keyboardEnterOpened": true,
+      "keyboardEscapeClosed": true,
+      "escapeFocus": "BODY, not original trigger",
+      "minimumMobileInlineLabelEstimatePx": 14.99328893442623,
+      "minimumMobileTheaterLabelEstimatePx": 14.82,
+      "limits": "Private exact pinned article fixture; no navigation, live data, runtime, full-app or comprehensive accessibility certification. Approximate small labels remain available with native view, descriptive alt, caption and practice; actual learner readability remains untested.",
+      "altCaptionAndPracticeFit": "Personally read and matched to exact visual and learner task."
+    },
+    "newSharedNativeDelta": {
+      "personallyInspectedBothExactThemes": true,
+      "sourceReadDepth": "Only new added shared image/alt/caption sections and both original shared native renderings; no whole-source scientific recertification or mobile/theater rerun.",
+      "sharedOwner": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+        "sha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+        "bytes": 9657,
+        "gitBlobId": "8ea0d860ac51783b5f62ddf46ee14eb2539d8c6c"
+      },
+      "outputs": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+          "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+          "bytes": 6075,
+          "gitBlobId": "ce0645a0aa19b878e922c9e814d8912623c20282"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+          "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+          "bytes": 6075,
+          "gitBlobId": "6f7f8afd983fe14bc43fb2f79807febad6effc5a"
+        }
+      ],
+      "reasoning": "The new cross-trial pair uses unequal within-category rates: 50% versus 60% and 20% versus 30%, with a pooled 44%/36% reversal. That supports the shared mixture warning but cannot replace the frozen selected286 task, which requires equal 75% and equal 25% within-category rates, 80/20 versus 20/80 composition, pooled 65%/35%, and the same six-week symptom clock. The unchanged selected286 pair preserves those exact counts and the remaining adjustment/causal limits. Accept the later source binding and retain the exact selected pair without copying or changing shared art."
+    }
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+        "sha256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+        "bytes": 8656
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+        "sha256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+        "bytes": 1948
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+        "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+        "bytes": 4834
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+        "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+        "bytes": 4549
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+        "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+        "bytes": 4549
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+        "sha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+        "bytes": 9657
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "bytes": 6075
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "bytes": 6075
+      }
+    ],
+    "currentOwnerPreimageSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+    "currentOwnerPreimageCommit": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "insertionInverseExact": true,
+    "retainedSharedNativeSupportGuardsUnchanged": true,
+    "newArtworkCreativeAuthor": "agent:/root/batch12_evidence_author",
+    "newArtworkMethod": "Original editable SVG source code; zero image model calls.",
+    "retainedCreativeAuthorship": "Original retained creator notes remain preserved in the hash-bound prior review. Newly committed shared artwork bytes are existing observed inputs; creative authorship is UNKNOWN in this focused source-binding scope and is not inferred from custody.",
+    "priorPreimageCommitPreserved": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "insertionInverseExactAtCurrentSource": true,
+    "sourceBindingOnlySelectedPayloadUnchanged": true
+  },
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "productionVerifiedByThisReview": false,
+  "canonicalAdoption": "pending",
+  "sourceFitAdoption": "pending",
+  "publication": "pending",
+  "delivery": "pending",
+  "newCredit": 0,
+  "sourceFitCreditNow": 0,
+  "coverageCreditApplied": 0,
+  "gradeCredit": 0,
+  "reviewScope": "Focused same-peer current shared-source binding successor for285/286/287 only. Prior scientific/new-native/current-owner review explicitly inherited; no full6, unchanged native, primary-source, history or UI rerun.",
+  "priorAuthorPlanningDecisionReviews": [
+    {
+      "id": "next-gap-286",
+      "owner": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "author": "agent:/root/batch12_evidence_author",
+      "reviewer": "agent:/root/batch12_evidence_review",
+      "decisionSHA256": "e71dbfeff841514cc848d48b48c0381c0bfdb299d7a3d13ccf119276d303fdb2",
+      "decisionFileSHA256": "e24f640299dd9bc9e7ab227256b433ae274db7bc54c85a279910c23a98ea62ac",
+      "accepted": true,
+      "verdict": "PASS",
+      "reasoning": "Accepted exact author decision: the frozen cross-trial owner has no native and its broader comparison reasoning remains linked. The selected observational owner needs its own 80/20 versus 20/80 composition and equal-within-category example; the decision does not replace its causal path diagram or claim adjustment suffices."
+    }
+  ],
+  "reviewInheritance": {
+    "priorReview": {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "sha256": "354afe6afb092b58c050c8ef41f80ae0a84c9d0b07e419043e3f3366181318df"
+    },
+    "priorFullReviewTime": "2026-10-14T20:55:50.767624+00:00",
+    "inheritedUnchangedScopes": [
+      "scientificSourceReview",
+      "selected current-owner insertion and native-theme task-fit review",
+      "original 390px/wide pinned article/theater display checks",
+      "alt/caption/practice review",
+      "creative authorship and original custody"
+    ],
+    "newScopedReview": [
+      "actual532 public shared added-image and caption sections after header gate",
+      "both newly committed shared native themes at native rendered size",
+      "three actual post-artwork author decision digests",
+      "unchanged candidate/native identities and exact insertion inverse at532"
+    ],
+    "fullScienceReviewRepeated": false,
+    "selectedNativeReviewRepeated": false,
+    "UIReviewRepeated": false
+  },
+  "post40SharedSourceBinding": {
+    "actualCommittedSource": "532664994e1c3596b7a17767f214a05f1f18a48f",
+    "sharedOwner": {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "sha256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "bytes": 9657,
+      "gitBlobId": "8ea0d860ac51783b5f62ddf46ee14eb2539d8c6c"
+    },
+    "sharedNativePair": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "bytes": 6075,
+        "gitBlobId": "ce0645a0aa19b878e922c9e814d8912623c20282"
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "bytes": 6075,
+        "gitBlobId": "6f7f8afd983fe14bc43fb2f79807febad6effc5a"
+      }
+    ],
+    "newSharedArtClosesFrozenTask": false,
+    "selectedCandidateSHA256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+    "laterAuthorDecisionSHA256": "b6adb3a01d67864985a445bf3b2392603bbd1d699283e7e454a49b7ed9df4923",
+    "phase": "post-artwork binding; not new pre-artwork",
+    "newScientificApproval": false,
+    "newCandidatePixelApproval": false,
+    "sourceBindingTaskFit": "adequate",
+    "reasoning": "The new cross-trial pair uses unequal within-category rates: 50% versus 60% and 20% versus 30%, with a pooled 44%/36% reversal. That supports the shared mixture warning but cannot replace the frozen selected286 task, which requires equal 75% and equal 25% within-category rates, 80/20 versus 20/80 composition, pooled 65%/35%, and the same six-week symptom clock. The unchanged selected286 pair preserves those exact counts and the remaining adjustment/causal limits. Accept the later source binding and retain the exact selected pair without copying or changing shared art."
+  }
+}

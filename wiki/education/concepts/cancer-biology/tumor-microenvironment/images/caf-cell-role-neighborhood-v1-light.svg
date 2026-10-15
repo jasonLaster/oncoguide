@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1330" viewBox="0 0 600 1330" role="img"><title>Meet the cells in the stroma</title><desc>Illustrative tissue neighborhood • not to scale</desc>
+<rect x="0" y="0" width="600" height="1330" rx="0" fill="#fbf7ed"/>
+<text x="28" y="49" fill="#19363e" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Meet the cells in the stroma</text>
+<text x="28" y="89" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Illustrative tissue neighborhood • not to scale</text>
+<rect x="20" y="125" width="560" height="740" rx="20" fill="#fffdf7" stroke="#b9c8c4" stroke-width="2"/>
+<text x="40" y="168" fill="#19363e" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">Matrix, neighbors and cell roles</text>
+<rect x="40" y="196" width="520" height="555" rx="12" fill="#ecdfc9"/>
+<path d="M55 250.0 q121.0 -15 242.0 0 t242.0 0" fill="none" stroke="#ae956c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 344.0 q121.0 -15 242.0 0 t242.0 0" fill="none" stroke="#ae956c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 438.0 q121.0 -15 242.0 0 t242.0 0" fill="none" stroke="#ae956c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 532.0 q121.0 -15 242.0 0 t242.0 0" fill="none" stroke="#ae956c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 626.0 q121.0 -15 242.0 0 t242.0 0" fill="none" stroke="#ae956c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="248" cy="410" r="29" fill="#d88a9d" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="245" cy="411" r="8.41" fill="#354c64"/>
+<circle cx="288" cy="381" r="29" fill="#d88a9d" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="285" cy="382" r="8.41" fill="#354c64"/>
+<circle cx="328" cy="420" r="29" fill="#d88a9d" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="325" cy="421" r="8.41" fill="#354c64"/>
+<circle cx="271" cy="456" r="29" fill="#d88a9d" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="268" cy="457" r="8.41" fill="#354c64"/>
+<circle cx="317" cy="464" r="29" fill="#d88a9d" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="314" cy="465" r="8.41" fill="#354c64"/>
+<circle cx="361" cy="458" r="29" fill="#d88a9d" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="358" cy="459" r="8.41" fill="#354c64"/>
+<text x="232" y="332" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Malignant cells</text>
+<path d="M317 345 L308 365" fill="none" stroke="#19363e" stroke-width="2" stroke-linecap="round"/>
+<path d="M72 328 Q125 274 195 293 Q139 343 72 328" fill="#97bfa5" stroke="#19363e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="134" cy="311" r="9" fill="#354c64"/>
+<path d="M374 627 Q427 573 497 592 Q441 642 374 627" fill="#97bfa5" stroke="#19363e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="436" cy="610" r="9" fill="#354c64"/>
+<path d="M92 628 Q145 574 215 593 Q159 643 92 628" fill="#97bfa5" stroke="#19363e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="154" cy="611" r="9" fill="#354c64"/>
+<text x="54" y="244" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Fibroblast</text>
+<path d="M113 251 L125 293" fill="none" stroke="#19363e" stroke-width="2" stroke-linecap="round"/>
+<path d="M73 713 Q147 666 210 706 T344 705" fill="none" stroke="#ae956c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="340" y="704" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Collagen</text>
+<circle cx="470" cy="389" r="22" fill="#b7d5e5" stroke="#19363e" stroke-width="1.4"/>
+<circle cx="467" cy="390" r="6.38" fill="#354c64"/>
+<text x="384" y="298" fill="#19363e" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">Immune cell</text>
+<path d="M462 307 L469 367" fill="none" stroke="#19363e" stroke-width="2" stroke-linecap="round"/>
+<rect x="439" y="445" width="47" height="100" rx="20" fill="#d87d70"/>
+<rect x="451" y="454" width="23" height="82" rx="10" fill="#fffdf7"/>
+<text x="410" y="578" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Vessel</text>
+<path d="M169 630 L195 683" fill="none" stroke="#97bfa5" stroke-width="3" stroke-linecap="round"/>
+<path d="M185.19681041084502 676.0791999104812 L195 683 L195.52696652710296 671.0115761553358" fill="none" stroke="#97bfa5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M188 334 L236 389" fill="none" stroke="#97bfa5" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M224.74098066948454 384.84855642997775 L236 389 L233.4100452031496 377.2828273824155" fill="none" stroke="#97bfa5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M232 376 L181 321" fill="none" stroke="#97bfa5" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 7"/>
+<path d="M192.37900702240165 324.8102754735234 L181 321 L183.94186747759827 332.6338048696138" fill="none" stroke="#97bfa5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="52" y="799" fill="#19363e" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Green spindle cells: fibroblasts</text>
+<text x="52" y="839" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Stroma also includes matrix and vessels.</text>
+<rect x="20" y="900" width="560" height="325" rx="20" fill="#fffdf7" stroke="#b9c8c4" stroke-width="2"/>
+<text x="40" y="943" fill="#19363e" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">Possible jobs, not one fixed effect</text>
+<text x="40" y="988" fill="#19363e" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Solid arrow: make or remodel matrix</text>
+<text x="40" y="1033" fill="#19363e" font-family="Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Dashed arrows: exchange signals</text>
+<text x="40" y="1088" fill="#19363e" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">State and context change the outcome.</text>
+<text x="40" y="1133" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">More fibroblasts alone does not prove</text>
+<text x="40" y="1169" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">immune exclusion or a harmful effect.</text>
+<text x="28" y="1298" fill="#19363e" font-family="Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Cartoon shapes identify roles, not stain markers.</text>
+</svg>

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+  "sourceCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+  "ownerPreimageSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+  "frozenTask": {
+    "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+    "pageSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+    "targetSection": "## A fictional worked example",
+    "learnerTask": "Apply trial subgroup effects to a different target mixture while retaining the transport assumption and missing profiles.",
+    "gap": "The −10 to−7 weighted contrast is only prose.",
+    "accuracyGuardrails": "Keep trial/target weights, subgroup profiles and transport assumptions explicit. A weighted illustrative contrast is not an individual forecast; absent profiles and exchangeability/positivity limits cannot be filled by graphics.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/178",
+    "oneBasedRow": 179,
+    "originalTaskRowSHA256": "f0af3c30c634132d13464dc37d6c8a7c1fe9027a4daba21253f96e8fd07a4854",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "creativeAuthor": "agent:/root/batch12_evidence_author",
+  "method": "Original personally authored editable SVG source code",
+  "actualImageModelCalls": 0,
+  "imageGenerationInvocation": null,
+  "model": null,
+  "sourceFiguresCopied": false,
+  "toyData": "All chart quantities and geometry invented; no actual cohort or assay results",
+  "planningDecisionSHA256": "c83922fedbbf92f4d08b889db19692e6dd4d7a275e8879d05a65440aa7282ed6",
+  "outputs": [
+    {
+      "key": "next-gap-285",
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "width": 600,
+      "height": 1270
+    },
+    {
+      "key": "next-gap-285",
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "width": 600,
+      "height": 1270
+    }
+  ],
+  "briefSHA256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+  "minimumNativeFontPx": 25,
+  "themeGeometry": "Identical layout and wording; semantic palette substitution only",
+  "retainedCreatorCustody": "Literal retained support retained privately unchanged; UNKNOWN where creative author not established",
+  "sourceReadDepth": "See private source-ledger.private.json; only original diagram, prompt and provenance proposed as public support",
+  "sourceURLs": [
+    "https://arxiv.org/html/1905.07764v1"
+  ],
+  "independentReview": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": null,
+  "delivery": null,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "authorInspection": {
+    "author": "agent:/root/batch12_evidence_author",
+    "nativeBothThemes": true,
+    "article390pxAndWideInlineAndTheater": true,
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "qualification": "Enter opens and Escape closes; Escape returns focus to BODY, not trigger. Private article fixture only; no whole-app, live-data, navigation or comprehensive accessibility certification. Mobile labels approximately14.25px minimum in theater; native/theater view and alt/caption/practice are retained, not expert/learner readability certification."
+  }
+}

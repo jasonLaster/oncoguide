@@ -29,6 +29,16 @@ Treat a node's name like an address. “Axillary” points toward the armpit; �
 
 ## How it works
 
+<!-- BEGIN next-gap-281 VISUAL -->
+<img src="./images/breast-regional-map-v1-light.svg" alt="Retained breast anatomy map places the internal mammary chain beside the sternum, an intramammary node within the breast and axillary nodes near the armpit; the lower inset locates axillary levels around pectoralis minor." data-theme-pair>
+
+*The front-view map places internal mammary nodes beside the sternum and an intramammary node within breast tissue. Dashed arrows indicate possible fluid routes, not obligatory drainage or cancer involvement. Axillary levels describe anatomy, and an axillary sample does not test every regional chain.*
+
+The [regional lymphatic anatomy map](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla) also shows how axillary levels relate to the pectoralis minor muscle, for comparison.
+
+[Open the light diagram](./images/breast-regional-map-v1-light.svg) · [Open the dark diagram](./images/breast-regional-map-v1-dark.svg)
+<!-- END next-gap-281 VISUAL -->
+
 The **sternum** is the breastbone. Internal mammary nodes lie deep in the front of the chest, beside it, along the **internal thoracic vessels**, historically called internal mammary vessels. “Parasternal” means beside the sternum. This location is different from the breast's milk ducts and lobules.
 
 Breast [lymphatic drainage](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla) can reach these nodes as well as the axilla. Suami and colleagues traced deeper vessels connecting to internal mammary lymphatics in human cadaver specimens. That supports the existence of the route; it does not specify every living person's drainage or a universal likelihood of cancer spread.

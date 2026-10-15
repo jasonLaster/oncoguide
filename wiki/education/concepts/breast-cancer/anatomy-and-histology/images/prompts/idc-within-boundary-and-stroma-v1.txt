@@ -1,0 +1,8 @@
+Original SVG authored by agent:/root/batch12_tissue_author.
+Creation method: original SVG source code, not an image-model call.
+Learner task: Separate local tissue invasion from histologic type and distant spread.
+Bound owner: wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md
+Current owner SHA256: ee15b25067dbe4152128e242063ddea77102ecca111dd1b3f973875c03792bad
+Brief: The two scenes contrast a component within a duct boundary with malignant cells in surrounding stroma. They are spatial comparisons, not an inevitable sequence. NST names a histologic category; grade, receptors and stage require separate evidence. Real invasion assessment integrates morphology and supporting tests.
+Guardrails: ['Do not use ductal naming to identify an ancestral larger-duct cell.', 'A physical invasion schematic does not establish subtype, stage or receptor status.']
+Matched theme palette; equal geometry across themes. Not to scale; fictional/schematic examples.

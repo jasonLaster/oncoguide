@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "original-svg-source-provenance",
+  "creativeAuthor": "agent:/root/batch12_tissue_author",
+  "sourceCode": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/private/art.py",
+  "imageModelInvocation": false,
+  "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+  "currentOwnerSHA256": "ee15b25067dbe4152128e242063ddea77102ecca111dd1b3f973875c03792bad",
+  "frozenTaskIdentitySHA256": "b9829ca4d53c753cec0c253191fba894f9513dc15e81246dd16c900213feb92e",
+  "nativeOutputs": [
+    {
+      "key": "next-gap-276",
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+      "relativePath": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+      "nativeSHA256": "b1ff35d4b5733e2187936cca859f4ed4f71de00fb0ba16443da5808e4c3fb66b",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    },
+    {
+      "key": "next-gap-276",
+      "owner": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/tissue-context-and-regional-anatomy/prospective/wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+      "relativePath": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+      "nativeSHA256": "e4c07d3246e44e00650e1256a423f0ad16a9c6fd0c55dcbc490319fbe2ad566c",
+      "creativeAuthor": "agent:/root/batch12_tissue_author"
+    }
+  ],
+  "scientificSourceLedger": "private/primary-source-read-ledger.json",
+  "reviewStatus": "Author QA only; independent peer, clinician and learner pending",
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "evidenceDeliveryBoundary": "Private source/capture paths are custody locators, not a promise that those files are public or delivered with the article."
+}

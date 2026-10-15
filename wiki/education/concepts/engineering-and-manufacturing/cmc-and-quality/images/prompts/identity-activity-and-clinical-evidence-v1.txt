@@ -1,0 +1,12 @@
+Original editable SVG teaching diagram
+Actual creator: agent:/root/batch12_evidence_author
+Method: personally authored source code; no image model call.
+Task: Separate identity/expression from a product-relevant functional challenge and its controls.
+Frozen shared owner: wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md
+Narrow addition: The shared cytotoxicity scene supplies matched targets, background death and attributed excess. The potency owner still lacks direct activity versus surrogate/product-identity comparison and the missing bridge to clinical benefit. Reuse the relevant function example; add only the product-quality evidence distinction without assay recipes or release cutoffs.
+Guardrails: Label the product-relevant activity, comparator and controls; identity or receptor expression is not functional potency. A surrogate assay needs its own validated relationship to the intended mechanism.
+Scientific content: Three panels separate product identity or receptor expression, a product-relevant activity comparison with background and response controls, and the distinct evidence needed for clinical benefit.
+Style: identical light/dark geometry; palette substitution only; text labels and symbolic shapes; no third-party figure copied. All numerical quantities are fictional; no patient prediction, eligibility determination, protocol or assay optimization.
+Alt: Three panels separate product identity or receptor expression, a product-relevant activity comparison with background and response controls, and the distinct evidence needed for clinical benefit.
+Caption: Identity and expression help characterize a product; product-relevant activity and clinical benefit require different evidence.
+Expert and learner review pending.

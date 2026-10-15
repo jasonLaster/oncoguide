@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-274",
+  "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+  "author": "agent:/root/batch12_mechanisms_author",
+  "reviewer": "agent:/root/batch12_mechanisms_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:06:27.597611Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "95fad83bae5fcc75b5176f8b034ff27e0e2e81a1d3411513ee53b6959017417f",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+      "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+      "bytes": 2182881,
+      "theme": "dark",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+      "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+      "bytes": 2176699,
+      "theme": "light",
+      "nativeDimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish a molecule’s microbial or host origin from the compartment in which a compatible sensor encounters it.",
+    "gap": "The source-to-sensor chain gives the correct inference boundary, but a cell-compartment sketch would show why unchanged host DNA can become a signal in an unusual location. Reuse the cGAS–STING cutaway for that example; a second all-sensors poster is unnecessary.",
+    "accuracyGuardrails": [
+      "Sensing does not establish infection or tumor-specific adaptive recognition.",
+      "A PAMP is a feature, not an entire pathogen.",
+      "DAMP detection is weaker than demonstrated immunogenic cell death."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "baselinePageSHA256": "3f052cf26a57118405bb243902950e79243671ec626f59da212caf55c2665dea",
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/217",
+    "frozenRowSHA256": "3fb412e35412f9c428a04542eb2b437f17d00db351d4ca4549406de3e29a293e",
+    "currentVisualFit": "adequate",
+    "reasoning": "The cutaway visibly places accessible DNA outside the nucleus in the cytosol, making the compartment distinction the original source-to-sensor chain could not show. The caption explains why compatible microbial or misplaced host DNA can engage this route and why the drawing cannot identify the source. Direct reuse adequately fills the exact frozen task.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+    "pageSHA256": "3f052cf26a57118405bb243902950e79243671ec626f59da212caf55c2665dea",
+    "targetSection": "## How it works",
+    "learnerTask": "Distinguish a molecule’s microbial or host origin from the compartment in which a compatible sensor encounters it.",
+    "gap": "The source-to-sensor chain gives the correct inference boundary, but a cell-compartment sketch would show why unchanged host DNA can become a signal in an unusual location. Reuse the cGAS–STING cutaway for that example; a second all-sensors poster is unnecessary.",
+    "accuracyGuardrails": [
+      "Sensing does not establish infection or tumor-specific adaptive recognition.",
+      "A PAMP is a feature, not an entire pathogen.",
+      "DAMP detection is weaker than demonstrated immunogenic cell death."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "afcb263095a27d44d821ec0465864a263a27de36313ddfde04d03b44a0c0b354",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/217",
+    "oneBasedRow": 218,
+    "originalTaskRowSHA256": "3fb412e35412f9c428a04542eb2b437f17d00db351d4ca4549406de3e29a293e",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "taskReuseDecisionAcceptance": {
+    "id": "next-gap-274",
+    "owner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+    "author": "agent:/root/batch12_mechanisms_author",
+    "reviewer": "agent:/root/batch12_mechanisms_review",
+    "decisionSHA256": "a266072524a56ee8b5d4fed2343ff60b5963f8526310cc836e7b66192ce12c59",
+    "decisionFileSHA256": "05ea3353d67d6879ce8729a7a34e2fb2c549b452087632bcf413ca6551ad3e12",
+    "authorAcknowledgmentSHA256": "7040d3c99e5a0c6d595b79eec7b9f98690665aec2095ad662e62bfc20c789670",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept direct reuse of the exact cGAS/STING cutaway. It already provides a cytosolic compartment, accessible DNA, sensor, messenger and separate intracellular trafficking. A caption can add origin-versus-location reasoning without an unnecessary all-sensors poster.",
+    "scope": "Exact author-owned typed planning decision only; separate scientific/native/current-owner findings follow.",
+    "conceptTypeUnchanged": true,
+    "sharedCanonicalOwner": "wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting.md",
+    "additionalOwnerWrites": []
+  },
+  "scientificAssessment": {
+    "reasoning": "Sun’s primary abstract supports cytosolic DNA sensing through cGAS/cGAMP/STING; Bakhoum supports mislocated genomic DNA in defined models, and Mukai supports intracellular ER/Golgi trafficking. The native does not specify DNA origin, which the owner caption correctly states. Host DNA need not change sequence to be misplaced. The image plus unchanged owner text retains that a PAMP is a feature and sensing does not establish infection, tumor-specific adaptive recognition, immunogenic cell death or benefit.",
+    "sourceScope": "Fresh primary abstracts and official focused definitions/annotations; not full-paper, whole-guideline or clinical treatment review.",
+    "sources": [
+      {
+        "id": "sun2013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23258413/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Accessible cytosolic DNA can engage cGAS and messenger-dependent STING signaling; not a DNA-source determination.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23258413%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "mukai2016",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27324217/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "STING ER-to-Golgi movement concerns intracellular signaling in the tested cell system.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27324217%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "bakhoum2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29342134/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Micronuclear rupture can expose host genomic DNA to cytosolic sensing in defined models; signal does not equal useful immunity.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29342134%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      }
+    ],
+    "authorSourceLedgerSHA256": "fa7728e3c7f803d1fab31a77f941c6ec814f001fa60413f5744e065624bc125e",
+    "noOperationalBiologicalContentAdded": true
+  },
+  "nativeAndCurrentOwnerAssessment": {
+    "reasoning": "Both palettes place cGAS/DNA/cGAMP in cytosol and membrane-bound STING at ER and Golgi. The dashed downstream connector is explicitly captioned as signaling. All native components and host-versus-cancer context remain visible in both widths inline/theater; smaller labels and source attribution still need learner review.",
+    "nativeThemesPersonallyInspected": [
+      "light",
+      "dark"
+    ],
+    "currentOwnerInlineTheaterWidths": [
+      390,
+      1100
+    ],
+    "retainedPairReviewed": [
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+        "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+        "bytes": 2182881
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+        "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+        "bytes": 2176699
+      }
+    ],
+    "captionAltAndAuthoredBodyContextRead": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "displayQualification": "Private pinned fixture only. Enter opens and Escape closes; close gets initial focus. Escape returns focus to BODY and a single Tab from close exits role=dialog. No full-app or overall accessibility certification. Smaller auxiliary native labels require human learner review.",
+    "creationProvenance": "Four original editable SVG pairs were authored as source code by the actual author; no image-model calls or generated-call wrappers. Retained creative attribution remains UNKNOWN unless literal retained provenance establishes it.",
+    "productionVerifiedByThisReview": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+        "sha256": "95fad83bae5fcc75b5176f8b034ff27e0e2e81a1d3411513ee53b6959017417f",
+        "bytes": 8213
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+        "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+        "bytes": 2182881
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+        "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+        "bytes": 2176699
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/dna-sensing-and-sting-traffic-v1-dark-call.txt",
+        "sha256": "f68838a5d67ca4fc2170659e622c362288bb1b79a9b2ba813f4051e57f4d5660",
+        "bytes": 2316
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/dna-sensing-and-sting-traffic-v1-dark.txt",
+        "sha256": "e6451b9985c775f04bad3c47424040d2752ee8e64e2821646901bae7e456a7fe",
+        "bytes": 2495
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/dna-sensing-and-sting-traffic-v1-light-call.txt",
+        "sha256": "7e0b60d9fd933a53141c03d1195654e13ea81d19e8d4c6e2bf574e406fd5cfed",
+        "bytes": 3229
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/dna-sensing-and-sting-traffic-v1-light.txt",
+        "sha256": "3ad5ab7dd5b00469966f8ce92c673465818b6e56154fb07808259d03051b6f6d",
+        "bytes": 2453
+      },
+      {
+        "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/prompts/dna-sensing-and-sting-traffic-v1.txt",
+        "sha256": "d9e12003c77d8b918002457c626c38e697072fcf398fb5f87bb714d294c230f5",
+        "bytes": 8105
+      }
+    ],
+    "originalOwnerInverseInsertionExact": true,
+    "sourceBaseCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "authorPackageSealSHA256": "3eff9448752198e5f87b984d17d5c6e1fca3bc72c837391458708c263a5aebd8",
+    "retainedNativeAndSupportBytesUnchanged": true
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "executionRefs": null,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "scopeQualification": "Independent agent task-fit acceptance only. Root must separately adopt the bounded concept-support contract and exact genuine assignments before any release. No owner/type/shared-identity rewrite, human approval, delivery or credit is supplied."
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+  "sourceCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+  "ownerPreimageSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+  "frozenTask": {
+    "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+    "pageSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+    "targetSection": "## A worked example",
+    "learnerTask": "Separate group frequency, model-assigned probability and which individuals experience events.",
+    "gap": "No grouped outcomes show calibration versus individual identity.",
+    "accuracyGuardrails": "Separate population frequencies, model-assigned probabilities and individual outcome identity. Calibration depends on evaluation population and horizon; a group rate is not an individual prediction.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+    "recommendedMedium": "chart",
+    "priority": "P2"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/175",
+    "oneBasedRow": 176,
+    "originalTaskRowSHA256": "68dba1eecda749389d351b41ed518c225ac642146b0c3b565e43d46b336ac7ea",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "creativeAuthor": "agent:/root/batch12_evidence_author",
+  "method": "Original personally authored editable SVG source code",
+  "actualImageModelCalls": 0,
+  "imageGenerationInvocation": null,
+  "model": null,
+  "sourceFiguresCopied": false,
+  "toyData": "All chart quantities and geometry invented; no actual cohort or assay results",
+  "planningDecisionSHA256": "f139a933739ee37a7599de9e85aab8afb06566b7ac20bc6de1f7fae957188d1f",
+  "outputs": [
+    {
+      "key": "next-gap-284",
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "width": 600,
+      "height": 1230
+    },
+    {
+      "key": "next-gap-284",
+      "owner": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "width": 600,
+      "height": 1230
+    }
+  ],
+  "briefSHA256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+  "minimumNativeFontPx": 25,
+  "themeGeometry": "Identical layout and wording; semantic palette substitution only",
+  "retainedCreatorCustody": "Literal retained support retained privately unchanged; UNKNOWN where creative author not established",
+  "sourceReadDepth": "See private source-ledger.private.json; only original diagram, prompt and provenance proposed as public support",
+  "sourceURLs": [
+    "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"
+  ],
+  "independentReview": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": null,
+  "delivery": null,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "authorInspection": {
+    "author": "agent:/root/batch12_evidence_author",
+    "nativeBothThemes": true,
+    "article390pxAndWideInlineAndTheater": true,
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "qualification": "Enter opens and Escape closes; Escape returns focus to BODY, not trigger. Private article fixture only; no whole-app, live-data, navigation or comprehensive accessibility certification. Mobile labels approximately14.25px minimum in theater; native/theater view and alt/caption/practice are retained, not expert/learner readability certification."
+  }
+}

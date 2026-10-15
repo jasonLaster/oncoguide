@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-new-owner-task-fit",
+  "id": "next-gap-272",
+  "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+  "author": "agent:/root/batch12_mechanisms_author",
+  "reviewer": "agent:/root/batch12_mechanisms_review",
+  "independent": true,
+  "reviewedAt": "2026-10-14T21:06:27.597611Z",
+  "passed": true,
+  "verdict": "PASS",
+  "currentOwnerSha256": "f0e26082978b5caedc7aa178f1fc4019fb0899523ab4163c88ce491cb1a5c239",
+  "outputs": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg",
+      "sha256": "a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13",
+      "bytes": 8402,
+      "theme": "dark",
+      "nativeDimensions": [
+        600,
+        1470
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg",
+      "sha256": "0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9",
+      "bytes": 8402,
+      "theme": "light",
+      "nativeDimensions": [
+        600,
+        1470
+      ]
+    }
+  ],
+  "sourceFitAssessment": {
+    "targetSection": "## How it works",
+    "learnerTask": "Locate hormone-responsive receptor binding, nuclear movement and DNA-regulatory interaction separately from measured amount or dependence.",
+    "gap": "The measurement-layer table handles AR staining versus LAR well, but no diagram shows the receptor's ligand/DNA domains or movement toward transcriptional regulation. Reuse the intracellular-receptor scene from receptor-types rather than make a separate AR drug cartoon.",
+    "accuracyGuardrails": [
+      "Context-dependent full-length receptor example, not every AR variant.",
+      "AR/LAR does not imply ER positivity or transfer a prostate indication.",
+      "Location and transcription remain distinct from growth dependence."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2",
+    "baselinePageSHA256": "4d2acd50a22dcc7323eac95b03f8b9d292f74a62d95001bc425fecbde4c93c73",
+    "frozenReviewPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "frozenTaskRef": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json#/100",
+    "frozenRowSHA256": "43ff492fc6968e01816e5a5dba1a502d006bf781c56044e09791e92db6afd705",
+    "currentVisualFit": "adequate",
+    "reasoning": "The retained map locates an internal receptor and nuclear regulation, and the narrow strip supplies the missing domain-to-function relation for one full-length AR example. The last panel keeps evidence questions separate from the route, complementing the unchanged AR/LAR measurement table. This fills the frozen mechanism gap without becoming a drug-comparison image.",
+    "humanReview": "pending"
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+    "pageSHA256": "4d2acd50a22dcc7323eac95b03f8b9d292f74a62d95001bc425fecbde4c93c73",
+    "targetSection": "## How it works",
+    "learnerTask": "Locate hormone-responsive receptor binding, nuclear movement and DNA-regulatory interaction separately from measured amount or dependence.",
+    "gap": "The measurement-layer table handles AR staining versus LAR well, but no diagram shows the receptor's ligand/DNA domains or movement toward transcriptional regulation. Reuse the intracellular-receptor scene from receptor-types rather than make a separate AR drug cartoon.",
+    "accuracyGuardrails": [
+      "Context-dependent full-length receptor example, not every AR variant.",
+      "AR/LAR does not imply ER positivity or transfer a prostate indication.",
+      "Location and transcription remain distinct from growth dependence."
+    ],
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+    "recommendedMedium": "diagram",
+    "priority": "P2"
+  },
+  "frozenTaskIdentitySHA256": "e8a2f8254ea526a5b4649c7f7e94cc6a5c485da3086f165cfcf5260f8aabbb49",
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/100",
+    "oneBasedRow": 101,
+    "originalTaskRowSHA256": "43ff492fc6968e01816e5a5dba1a502d006bf781c56044e09791e92db6afd705",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "taskReuseDecisionAcceptance": {
+    "id": "next-gap-272",
+    "owner": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+    "author": "agent:/root/batch12_mechanisms_author",
+    "reviewer": "agent:/root/batch12_mechanisms_review",
+    "decisionSHA256": "65ad64619dd562b5bb4d39ebb2df57d34bca347c9a011cd79746adf232eccc17",
+    "decisionFileSHA256": "c6400f32e0b837c6869066affa774dcc915c4d4489faf618f8675cf87719a06b",
+    "authorAcknowledgmentSHA256": "7040d3c99e5a0c6d595b79eec7b9f98690665aec2095ad662e62bfc20c789670",
+    "accepted": true,
+    "verdict": "PASS",
+    "reasoning": "Accept retained receptor-family reuse plus the full-length AR region/evidence extension. The generic internal-receptor route does not separate AR ligand- and DNA-binding regions. The independently inspected pending AR-antagonist candidate concerns intervention locations and an altered binding region, so it does not replace the selected full-length domain/evidence task; it remains untouched and unadopted here.",
+    "scope": "Exact author-owned typed planning decision only; separate scientific/native/current-owner findings follow.",
+    "conceptTypeUnchanged": true,
+    "sharedCanonicalOwner": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+    "additionalOwnerWrites": []
+  },
+  "scientificAssessment": {
+    "reasoning": "Reviewed UniProt function, location and domain annotations distinguish AR DNA- and ligand-binding regions and qualify nuclear localization. The Tran primary abstract treats receptor binding, nuclear movement, DNA interaction and partner recruitment as separate observations in prostate systems. The new strip preserves N-to-C ordering, labels schematic/full-length context, and uses a conditional nuclear route. The caption explicitly refuses ER identity or indication transfer, and separates amount, location, transcription and growth dependence.",
+    "sourceScope": "Fresh primary abstracts and official focused definitions/annotations; not full-paper, whole-guideline or clinical treatment review.",
+    "sources": [
+      {
+        "id": "uniprot-ar",
+        "url": "https://www.uniprot.org/uniprotkb/P10275/entry",
+        "actualReadDepth": "Reviewed entry function, subcellular location and DNA-/ligand-binding domain annotations read via official REST JSON; no sequence used",
+        "supportedBoundedClaim": "AR has distinct DNA- and ligand-binding regions, partner regulation and context-dependent location.",
+        "retrievedVia": "https://rest.uniprot.org/uniprotkb/P10275.json",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "tran2009",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19359544/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "Binding, localization, DNA binding and partner recruitment are distinct readouts in tested prostate models; no breast indication transfer.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19359544%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      },
+      {
+        "id": "rasmussen2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21772288/",
+        "actualReadDepth": "Complete primary abstract read; no whole paper or methods review",
+        "supportedBoundedClaim": "A defined agonist-bound GPCR complex engages a cytoplasmic heterotrimeric G protein; not a universal receptor geometry.",
+        "retrievedVia": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21772288%20AND%20SRC:MED&format=json&resultType=core",
+        "wholePaperOrGuidelineReviewed": false
+      }
+    ],
+    "authorSourceLedgerSHA256": "fa7728e3c7f803d1fab31a77f941c6ec814f001fa60413f5744e065624bc125e",
+    "noOperationalBiologicalContentAdded": true
+  },
+  "nativeAndCurrentOwnerAssessment": {
+    "reasoning": "Both palettes preserve the transcription-regulatory, DNA-binding, linker and ligand-binding strip, hormone symbol and conditional same-cell route. Small receptor symbols are explicitly schematic. All sections, caption and measurement questions remain visible at both widths inline/theater. Native/light-dark contrast and arrow direction are clear.",
+    "nativeThemesPersonallyInspected": [
+      "light",
+      "dark"
+    ],
+    "currentOwnerInlineTheaterWidths": [
+      390,
+      1100
+    ],
+    "retainedPairReviewed": [
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+        "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+        "bytes": 1935562
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+        "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+        "bytes": 2314767
+      }
+    ],
+    "captionAltAndAuthoredBodyContextRead": true,
+    "rendererPin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "displayQualification": "Private pinned fixture only. Enter opens and Escape closes; close gets initial focus. Escape returns focus to BODY and a single Tab from close exits role=dialog. No full-app or overall accessibility certification. Smaller auxiliary native labels require human learner review.",
+    "creationProvenance": "Four original editable SVG pairs were authored as source code by the actual author; no image-model calls or generated-call wrappers. Retained creative attribution remains UNKNOWN unless literal retained provenance establishes it.",
+    "productionVerifiedByThisReview": false
+  },
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+        "sha256": "f0e26082978b5caedc7aa178f1fc4019fb0899523ab4163c88ce491cb1a5c239",
+        "bytes": 8743
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg",
+        "sha256": "a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13",
+        "bytes": 8402
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg",
+        "sha256": "0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9",
+        "bytes": 8402
+      },
+      {
+        "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/prompts/ar-binding-regions-and-evidence-b12-v1.txt",
+        "sha256": "96f748160a42ae0682534c6ae56c84eb8e187cef29fd629b45faec8c6c45c761",
+        "bytes": 2963
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+        "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+        "bytes": 1935562
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+        "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+        "bytes": 2314767
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-dark-call.json",
+        "sha256": "5160f47f7d8ee9063773b98ac466677a1d4dbd9a4d27eaec1ca4a5d9a4adaf37",
+        "bytes": 2060
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-dark-call.txt",
+        "sha256": "20c1348b384ad92d55e063f6dfdaa7bfa489dc695520d3fae4034ed1001d202f",
+        "bytes": 2079
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-light-call.json",
+        "sha256": "d84a891bbabee38c8bcac7399161eabd7d6f0eec6419e4a0b4e74ad0e9ce227f",
+        "bytes": 4972
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1-light-call.txt",
+        "sha256": "10bbdd4081a1b227327d9df6f816c53136f277b7abcd7057b39c5e2e18be41d7",
+        "bytes": 4991
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1.generation.json",
+        "sha256": "88f06bdac9ff48fe16620b64deeddeebced5de31b1914674fa65a29dffc4123b",
+        "bytes": 3558
+      },
+      {
+        "path": "wiki/education/concepts/biology-basics/signaling/images/prompts/receptor-reach-and-relay-v1.txt",
+        "sha256": "47cbcbfce074100451bd580f229fe3f6f32267be34cc833f54f3141029c1fa50",
+        "bytes": 4485
+      }
+    ],
+    "originalOwnerInverseInsertionExact": true,
+    "sourceBaseCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+    "authorPackageSealSHA256": "3eff9448752198e5f87b984d17d5c6e1fca3bc72c837391458708c263a5aebd8",
+    "retainedNativeAndSupportBytesUnchanged": true
+  },
+  "humanReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "delivery": "not started",
+  "publication": "not started",
+  "executionRefs": null,
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "gradeCredit": 0,
+  "scopeQualification": "Independent agent task-fit acceptance only. Root must separately adopt the bounded concept-support contract and exact genuine assignments before any release. No owner/type/shared-identity rewrite, human approval, delivery or credit is supplied."
+}

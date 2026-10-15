@@ -1,0 +1,17 @@
+Original editable SVG composition and creation record
+
+Actual creative author: agent:/root/batch12_mechanisms_author
+Method: original authored SVG source code in build-art.py; SVG natives themselves retain editable source. No image-model call or raster generation occurred. Model: null. No copied publisher figure, abstract or source payload.
+Current selected owner: wiki/education/concepts/biology-basics/molecules/gene.md
+Learner task: Map one genomic region to different retained transcripts and coding regions rather than infer a single product from a gene name.
+Frozen shared owner: wiki/education/concepts/biology-basics/genetics/splicing.md
+Narrow scope: I reuse the exact canonical splicing pair in this selected gene owner to teach exon retention and untranslated ends. I inspected both retained themes at 390-pixel display. It lacks a DNA/promoter-to-transcript coordinate alignment and a position that changes coding status between transcripts. My narrow original SVG addition aligns one fictional genomic region and two transcript coding intervals, with no real sequence, measured abundance or product claim. This extends only the selected gene owner; I will not write the splicing shared owner or its assets.
+Guardrails: Retained exons can be untranslated; noncoding RNA is functional; diagram is fictional and does not replace transcript accession/version or measured products.
+Caption: Follow V down the alignment. It lies in the coding interval of transcript A but in retained untranslated sequence of transcript B, which uses a downstream start. Gaps preserve genomic positions in this schematic; a processed RNA is continuous. Promoters, exon widths and coding boundaries are fictional. Keep the exact transcript accession and version; RNA genes can also function without making protein. NHGRI exon definition; HGVS reference context.
+Alt: A fictional DNA region has two promoters and three numbered exons. Genomically aligned transcript A uses all three exons, with V in an orange coding interval; transcript B starts downstream and retains exons 2 and 3, with the same V in blue untranslated sequence.
+
+Native SHA256 values:
+gene-position-and-coding-context-b12-v1-light.svg 1c9b3da913f204a611bf3a6b1ef20518baad1f0fcf778a5c37da3e1055822987
+gene-position-and-coding-context-b12-v1-dark.svg 9b5c973cdeebcf199fed8686bf324614f27292b6fbb66e438d72a6f34da7fe9e
+
+Agent author QA, independent peer review, human/domain-expert and learner review, adoption, delivery and coverage are separate. Independent/human review and all adoption/release states remain pending; no coverage/grade credit.

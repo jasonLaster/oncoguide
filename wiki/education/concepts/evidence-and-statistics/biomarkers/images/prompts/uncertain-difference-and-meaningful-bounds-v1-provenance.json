@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+  "sourceCommit": "cc10ae411b532fa22730cb0a02a7de9477b3d4d3",
+  "ownerPreimageSHA256": "4aa717f8661cf6c14cc29fbb9ad34b16baf4c1a2aca836472f93147f13c5cbc5",
+  "frozenTask": {
+    "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+    "pageSHA256": "4aa717f8661cf6c14cc29fbb9ad34b16baf4c1a2aca836472f93147f13c5cbc5",
+    "targetSection": "## Try it",
+    "learnerTask": "Read a wide effect interval against zero and meaningful equivalence bounds.",
+    "gap": "The numerical interval is only prose, leaving nonsignificance versus equivalence abstract.",
+    "accuracyGuardrails": "Name the effect scale, zero and any prespecified meaningful equivalence bounds. A nonsignificant wide interval does not prove no effect or equivalence; fictional plots are not personal forecasts.",
+    "sharedCanonicalOwner": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+    "recommendedMedium": "chart",
+    "priority": "P1"
+  },
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/158",
+    "oneBasedRow": 159,
+    "originalTaskRowSHA256": "a31b3483bc4f09009b30d2aba3b0ec911cf9df2bce56674eb0622818b56d7c81",
+    "originalTaskRowSerialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false"
+  },
+  "creativeAuthor": "agent:/root/batch12_evidence_author",
+  "method": "Original personally authored editable SVG source code",
+  "actualImageModelCalls": 0,
+  "imageGenerationInvocation": null,
+  "model": null,
+  "sourceFiguresCopied": false,
+  "toyData": "All chart quantities and geometry invented; no actual cohort or assay results",
+  "planningDecisionSHA256": "2f6165fb6d43bf1f92539ce3e12fd08514bd83f4b67532f33fad3e6f904bf1b8",
+  "outputs": [
+    {
+      "key": "next-gap-283",
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+      "theme": "light",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+      "sha256": "bbe6b79753541a7e49606c85cc4d89655725b39b1063468d9a89b65441c676e2",
+      "width": 600,
+      "height": 1200
+    },
+    {
+      "key": "next-gap-283",
+      "owner": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+      "theme": "dark",
+      "path": "/tmp/education-next-visual-batch-12/authors/evidence-interpretation-and-activity/prospective/wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+      "repositoryPath": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+      "sha256": "698f2a0a7a5c309139950d9707be9e53777d0b07585467fbf57cbbbee366e75a",
+      "width": 600,
+      "height": 1200
+    }
+  ],
+  "briefSHA256": "2bd313f1d1dde941aa491d29e508b07814951a3fac9fb0cc6a4eb1485dc7de31",
+  "minimumNativeFontPx": 25,
+  "themeGeometry": "Identical layout and wording; semantic palette substitution only",
+  "retainedCreatorCustody": "Literal retained support retained privately unchanged; UNKNOWN where creative author not established",
+  "sourceReadDepth": "See private source-ledger.private.json; only original diagram, prompt and provenance proposed as public support",
+  "sourceURLs": [
+    "https://pure.tue.nl/ws/portalfiles/portal/80918653/lakeequi2017.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/"
+  ],
+  "independentReview": null,
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAdoption": null,
+  "delivery": null,
+  "gradeCredit": 0,
+  "coverageCredit": 0,
+  "authorInspection": {
+    "author": "agent:/root/batch12_evidence_author",
+    "nativeBothThemes": true,
+    "article390pxAndWideInlineAndTheater": true,
+    "pin": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
+    "qualification": "Enter opens and Escape closes; Escape returns focus to BODY, not trigger. Private article fixture only; no whole-app, live-data, navigation or comprehensive accessibility certification. Mobile labels approximately14.25px minimum in theater; native/theater view and alt/caption/practice are retained, not expert/learner readability certification."
+  }
+}
