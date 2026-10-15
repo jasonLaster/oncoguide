@@ -1,7 +1,7 @@
 {
   "version": 1,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "sourceCommit": "f5d9ff63ea4cbcae498a0248637109f325901c7b",
+  "sourceCommit": "3ff613619e50f5998d2012b57b1506b1e2da10c2",
   "sourcePrefix": "obsidian/",
   "rendererCommit": "5cb06c95f00ceb74ab86b1f46f5face9d49497e0",
   "files": {
@@ -20,6 +20,7 @@
     "wiki/education/cellular-therapies/images/prompts/cytokine-message-and-receptor-v2-light-call.txt": "c3f8696ff0b1727ae1a9bac546277f821f35c35c55722f57edd7c3618eccc9d3",
     "wiki/education/cellular-therapies/images/prompts/cytokine-message-and-receptor-v2.txt": "2c388f22b6085764d2fbca2df97f696d5cd42a97dacf2c44c7f07545b97e40a0",
     "wiki/education/cellular-therapies/images/prompts/instructions-to-car.txt": "8f4c3e7659033d128b56c29295d88a089f5041f143c721e41a802f18e01ee179",
+    "wiki/education/cellular-therapies/images/prompts/peer-reviews/visual-002-current-owner-task-fit-continuity-2026-10-15.json": "eae64e91df25452249cc7ef489df8832be43fcb08b709da917cea0956855cf2d",
     "wiki/education/cellular-therapies/images/prompts/solid-tumor-journey.txt": "92f2ba31de059fdde80dd98e76b703e0b0be49759bcab8bdfee5e8c5f98e36b0",
     "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-dark-call.txt": "506382cdd71c552f790d0d123c1e068d01cbcc58012d368d852e568bf14431e8",
     "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-light-call.txt": "822efde98e05ccf00bf1ecc3d2a88dc5740121a1c6f9119ed45830544eea32b0",
@@ -2052,6 +2053,7 @@
     "wiki/education/designing-a-vaccine/03-immunopeptidomics.md": "2ecb3d815973676d620fad51bd436087c9d91bd602041e0e19db991ce1727fd8",
     "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md": "8d2ceac358c492c34dfb375a9fdec47bb785d64393c943a25baeb2a1debd68d8",
     "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md": "5815437514a44e924b81ac70cc21598d6d35d6bb22f8f6d28a5eef6ee135d3ef",
+    "wiki/education/designing-a-vaccine/images/prompts/peer-reviews/visual-022-current-owner-task-fit-continuity-2026-10-15.json": "ea9c35eab5417f92c94d5c79183bbd98b069fc4b4a0665c18bef0193d32196c7",
     "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d",
     "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-light-call.txt": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
     "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2.txt": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",

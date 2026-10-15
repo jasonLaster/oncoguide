@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sourceRepository": "jasonLaster/diana-tnbc",
-  "reviewedSourceCommit": "f5d9ff63ea4cbcae498a0248637109f325901c7b",
+  "reviewedSourceCommit": "3ff613619e50f5998d2012b57b1506b1e2da10c2",
   "artifacts": [
     {
       "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-generation-call.txt",
@@ -10991,6 +10991,42 @@
         {
           "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
           "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/prompts/peer-reviews/visual-002-current-owner-task-fit-continuity-2026-10-15.json",
+      "sha256": "eae64e91df25452249cc7ef489df8832be43fcb08b709da917cea0956855cf2d",
+      "bytes": 15495,
+      "owner": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+      "ownerSha256": "1bcfb810274fefaaa3c5470f751820d908d7e76f9ac0466233abf4414c16afb5",
+      "artworks": [
+        {
+          "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+          "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7"
+        },
+        {
+          "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+          "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8"
+        }
+      ],
+      "contentClass": "source-owned-public-custody"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/prompts/peer-reviews/visual-022-current-owner-task-fit-continuity-2026-10-15.json",
+      "sha256": "ea9c35eab5417f92c94d5c79183bbd98b069fc4b4a0665c18bef0193d32196c7",
+      "bytes": 27581,
+      "owner": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ownerSha256": "2ecb3d815973676d620fad51bd436087c9d91bd602041e0e19db991ce1727fd8",
+      "artworks": [
+        {
+          "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+          "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0"
+        },
+        {
+          "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+          "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3"
         }
       ],
       "contentClass": "source-owned-public-custody"

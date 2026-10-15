@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "continuityScope": "prospective current-owner textual-insertion continuity for already-released baseline-adequate repair",
+  "id": "visual-022",
+  "owner": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+  "type": "guide-lesson",
+  "author": "agent:/root/original44_preservation_author",
+  "authorRole": "Actual original44 two-insertion revision author; no original lesson/art authorship inferred",
+  "creativeAuthor": {
+    "literalPriorProductionAuthor": "multiomics",
+    "literalPriorProductionReviewer": "claims_access",
+    "provenancePath": "wiki/education/designing-a-vaccine/images/receipts/three-assays-three-questions-v2.json",
+    "model": "UNKNOWN; retained literal null/modelKnown:false in original provenance",
+    "newCreativeAttribution": false
+  },
+  "reviewer": "agent:/root/curriculum17_original_action_acceptance",
+  "reviewerRole": "Actual independent current-owner task-fit continuity reviewer; distinct from revision author, original production author/reviewer and original44 science peer",
+  "reviewedAtUTC": "2026-10-15T18:37:33.381574+00:00",
+  "passedAtUTC": "2026-10-15T18:37:33.381574+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "prospective": true,
+  "scope": "Exact two previously genuinely reviewed text insertions and retained visual-022 task fit only. Both unchanged actual native files personally viewed for contextual continuity; no renewed scientific-source, pixel quality, UI or clinical approval. New receipt requires a later two-repair reconciliation release; it was not part of the original Q17 frozen batch.",
+  "currentOwnerSha256": "2ecb3d815973676d620fad51bd436087c9d91bd602041e0e19db991ce1727fd8",
+  "currentOwnerFieldMeaning": "Exact actually committed/delivered Q17 source owner, unchanged candidate for later two-repair continuity reconciliation.",
+  "priorCurrentOwnerSha256": "ea3aec947a3e7b0bc51266edf5ab5e3bf85c565a5910b839662d7d97115ee7f6",
+  "sourceObservationCommit": "f5d9ff63ea4cbcae498a0248637109f325901c7b",
+  "predecessorReceipt": {
+    "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-022-review.json",
+    "sha256": "e89444e555b436b6245c26090bbc0f4020453984a17e2fc98d6b4de8e6465569",
+    "reviewType": "Independent narrow source/native-pixel/local-preview review; no production or human certification",
+    "currentOwnerSha256": "ea3aec947a3e7b0bc51266edf5ab5e3bf85c565a5910b839662d7d97115ee7f6",
+    "literalReceiptUnchanged": true,
+    "literalRegistryAuthor": "multiomics",
+    "literalRegistryReviewer": "claims_access",
+    "meaning": "Original genuine source/native/local-preview acceptance is inherited with actual source depths and pending human reviews; this reviewer does not replace that reviewer."
+  },
+  "registryBinding": {
+    "productionStatusRepairPath": "/visual/productionStatus/repairs/visual-022",
+    "record": {
+      "stage": "released",
+      "author": "multiomics",
+      "reviewer": "claims_access",
+      "note": "Both versioned variants independently reviewed, integrated, published on both sites and checked against actual native bytes. Viewer and keyboard controls sampled; expert and learner review pending.",
+      "outputs": [
+        {
+          "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+          "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0"
+        },
+        {
+          "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+          "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3"
+        }
+      ],
+      "reviewReceipt": {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-022-review.json",
+        "sha256": "e89444e555b436b6245c26090bbc0f4020453984a17e2fc98d6b4de8e6465569"
+      },
+      "release": {
+        "sourceCommit": "4f758040e7eb54ea0bcf2ffc6929d2b135b65f5e",
+        "companionCommit": "20ee3afbf8b6f4fb6332b45012ab98a3c5248e3c",
+        "dianaContentAndVisibilityMatch": true,
+        "oncoguideNativeBytesMatch": true,
+        "zeroDrift": true,
+        "receipt": {
+          "path": "project-management/audits/2026-10-10-education-visual-audit/production-wave0-release.json",
+          "sha256": "599fab6f995257b8d8a276744b244c605cb5f7f92a3adb710d443a8e69f0deb6"
+        }
+      }
+    },
+    "sourceFitOverlayEntryPresent": false,
+    "baselineAdequate": true,
+    "baselineAdequateRemainsUnchanged": true,
+    "newOverlayEntryCreated": false
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+    "pageSHA256": "38f416bd85d7bf89e4d5c0befa4445fb73379610bf2ec1c1fb42912e51be1cba",
+    "targetSection": "Three assays, three questions",
+    "learnerTask": "Separate peptide identification, reagent binding, secretion and tumor-cell function",
+    "gap": "No additional visual required",
+    "accuracyGuardrails": "Keep peptide identification, multimer binding, secretion and tumor-cell functional assays as different readouts. No single assay proves the whole immune chain or clinical benefit; reuse existing art without changing these boundaries.",
+    "sharedCanonicalOwner": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+    "recommendedMedium": "none",
+    "priority": "none"
+  },
+  "frozenTaskIdentityUnchanged": true,
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/384",
+    "originalTaskRowSHA256": "548be24032ea7a7e705f814da3dd9982e1b8d2db4f96197f2d592d682c5d88b2",
+    "artworkAuditPath": "project-management/audits/2026-10-10-education-visual-audit/artwork-review.json",
+    "artworkAuditSHA256": "de4cc56f09109696de6642d0d7c0e9bf11b445c15fb4e58824ec74a0f6e5e088",
+    "artworkJsonPointer": "/rows/21",
+    "artworkRowSHA256": "7c20532c9d04cdb86353e0ac9fd50cdb8f632ded338c2f0bd173f67fd210ecac"
+  },
+  "sourceFitAssessment": {
+    "baselinePageSHA256": "38f416bd85d7bf89e4d5c0befa4445fb73379610bf2ec1c1fb42912e51be1cba",
+    "learnerTask": "Separate peptide identification, reagent binding, secretion and tumor-cell function",
+    "gap": "No additional visual required",
+    "accuracyGuardrails": "Keep peptide identification, multimer binding, secretion and tumor-cell functional assays as different readouts. No single assay proves the whole immune chain or clinical benefit; reuse existing art without changing these boundaries.",
+    "currentVisualFit": "adequate",
+    "reasoning": "The three native assay scenes retain their separate question headings and endpoints. Current source keeps the exact paired image node, alt text, schematic caption, four-row question table and functional-assay boundary. The two added passages sit later in Natural presentation changes the question and Sources and scope. They retain method-specific sample compatibility and separate group-level TMB context, explicitly disclaiming yield, natural display and individual clinical inference. They do not turn identification, reagent binding or secretion into tumor-cell function or benefit evidence. Removing precisely those recorded insertions reconstructs the exact previously reviewed ea3aec owner; the assay section is byte-identical. Thus the frozen baseline-adequate learner task remains satisfied without another image or coverage promotion.",
+    "humanReview": "pending",
+    "assessmentMeaning": "Actual focused current-owner continuity judgment only; no new science/native/UI approval and no new source-fit overlay credit."
+  },
+  "reviewedDelta": {
+    "candidateFileMapPath": "/tmp/education-original-044-focused-correction/candidate-file-map.json",
+    "candidateFileMapSHA256": "6c33abb8a71189b8188bc98515d8554f9b932567c90424d317695acf3503193d",
+    "insertedSpanCount": 2,
+    "insertedBytes": 1431,
+    "exactInverseRestoresSelectedPriorOwner": true,
+    "assaySectionImageAltCaptionTableByteExact": true,
+    "frontmatterByteExact": true,
+    "existingSourceSciencePeer": {
+      "path": "/tmp/education-original-044-focused-correction/independent-review/receipt.json",
+      "sha256": "783224535642b84594a9432accc14aac6ab8e684e463cdfa5ac71f096245c065",
+      "author": "agent:/root/original44_preservation_author",
+      "reviewer": "agent:/root/original44_45_exact_action_review",
+      "verdict": "PASS: genuine public-safe narrow wording and exact-action implementation; conditional prospective acceptance only",
+      "newScienceReviewByThisReviewer": false
+    }
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+        "sha256": "2ecb3d815973676d620fad51bd436087c9d91bd602041e0e19db991ce1727fd8",
+        "bytes": 12737,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+        "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+        "bytes": 2513836,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+        "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+        "bytes": 2360947,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2.txt",
+        "sha256": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",
+        "bytes": 4278,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-light-call.txt",
+        "sha256": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
+        "bytes": 4451,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+        "sha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d",
+        "bytes": 625,
+        "currentGitExact": true
+      },
+      {
+        "path": "wiki/education/designing-a-vaccine/images/receipts/three-assays-three-questions-v2.json",
+        "sha256": "d41af9e0d6ae7476ce7af5a345178697f7969a145e938b96ad852af560ac8667",
+        "bytes": 11886,
+        "currentGitExact": true
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-022-review.json",
+        "sha256": "e89444e555b436b6245c26090bbc0f4020453984a17e2fc98d6b4de8e6465569",
+        "bytes": 17339,
+        "currentGitExact": true
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/production-wave0-release.json",
+        "sha256": "599fab6f995257b8d8a276744b244c605cb5f7f92a3adb710d443a8e69f0deb6",
+        "bytes": 4440,
+        "currentGitExact": true
+      }
+    ],
+    "uniqueCurrentOwnerEntry": true,
+    "selectedNativeOutputCount": 2,
+    "unchangedNativeOutputHashesMatchSelectedReviewAndRegistry": true,
+    "nativeVariantsPersonallyInspectedForContinuity": 2,
+    "newPixelApproval": false,
+    "priorOwnerHashSeparate": {
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "sha256": "ea3aec947a3e7b0bc51266edf5ab5e3bf85c565a5910b839662d7d97115ee7f6",
+      "meaning": "Prior reviewed owner only; not duplicated as current owner in custody.hashes."
+    },
+    "boundedBriefsAndProvenanceLiteralUnchanged": true
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-022-review.json",
+      "sha256": "e89444e555b436b6245c26090bbc0f4020453984a17e2fc98d6b4de8e6465569"
+    },
+    "selectedProductionReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-022-review.json",
+      "sha256": "e89444e555b436b6245c26090bbc0f4020453984a17e2fc98d6b4de8e6465569"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/production-wave0-release.json",
+      "sha256": "599fab6f995257b8d8a276744b244c605cb5f7f92a3adb710d443a8e69f0deb6"
+    }
+  },
+  "actualPriorQ17Delivery": {
+    "journalPath": "/tmp/education-curriculum-seventeen-owner-actual-release/release-journal.json",
+    "observedStage": "delivery",
+    "status": "done",
+    "liveAt": "2026-10-15T18:31:38.354Z",
+    "sourceCommit": "f5d9ff63ea4cbcae498a0248637109f325901c7b",
+    "destinationCommit": "9ac9f1c2ff2d984642295ed848b909931f1844c0",
+    "evidence": [
+      "https://github.com/jasonLaster/oncoguide/actions/runs/38784711726",
+      "sha256:42ddd0cf869b4cf41c96f2a34bbc12a9a8fce43753def0c693fc68762a84af8e",
+      "https://oncoguide.cc/build-info.json",
+      "https://oncoguide.cc/education-manifest.json",
+      "sha256:2a8f9173d10074e5eb911f3ec7fc81362f3a80748d0ba27abe5cfafbe2492bbc",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fcellular-therapies%2Fimages%2Fwhere-cells-are-engineered-v2-light.png",
+      "https://oncoguide.cc/assets/wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fcellular-therapies%2Fimages%2Fwhere-cells-are-engineered-v2-dark.png",
+      "https://oncoguide.cc/assets/wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fdesigning-a-vaccine%2Fimages%2Fthree-assays-three-questions-v2-light.png",
+      "https://oncoguide.cc/assets/wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fdesigning-a-vaccine%2Fimages%2Fthree-assays-three-questions-v2-dark.png",
+      "https://oncoguide.cc/assets/wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fguides%2Fjudging-a-test-or-vendor-claim%2Fimages%2Fhospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fguides%2Fjudging-a-test-or-vendor-claim%2Fimages%2Fhospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fpurpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fassay-specimen-rule-and-use-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fpurpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/access-and-regulation/approval/images/purpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fassay-specimen-rule-and-use-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/access-and-regulation/approval/images/assay-specimen-rule-and-use-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Ftmb-count-and-eligible-territory-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Ftmb-count-and-eligible-territory-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fpathology-readouts%2Fimages%2Fihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fpathology-readouts%2Fimages%2Fihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fcomputational-analysis%2Fimages%2Fdonors-cells-and-held-out-interventions-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fcomputational-analysis%2Fimages%2Fdonors-cells-and-held-out-interventions-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fpooled-guide-representation-and-cutting-effects-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fpooled-guide-representation-and-cutting-effects-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fevidence-and-statistics%2Freasoning-tools%2Fimages%2Fobservations-and-untested-benefit-bridges-v1-dark.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fevidence-and-statistics%2Freasoning-tools%2Fimages%2Fobservations-and-untested-benefit-bridges-v1-light.svg",
+      "https://oncoguide.cc/assets/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "https://oncoguide.cc/education/cellular-therapies/06-in-vivo-delivery/",
+      "https://oncoguide.cc/education/concepts/access-and-regulation/approval/companion-diagnostics/",
+      "https://oncoguide.cc/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers/",
+      "https://oncoguide.cc/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit/",
+      "https://oncoguide.cc/education/concepts/measurement/computational-analysis/model-validation-basics/",
+      "https://oncoguide.cc/education/concepts/measurement/functional-models/dependency-mapping-crispr/",
+      "https://oncoguide.cc/education/concepts/measurement/pathology-readouts/immunohistochemistry/",
+      "https://oncoguide.cc/education/concepts/measurement/proteins-and-spatial/immunopeptidomics/",
+      "https://oncoguide.cc/education/concepts/measurement/sequencing-basics/tumor-mutational-burden/",
+      "https://oncoguide.cc/education/concepts/measurement/sequencing-basics/variant-calling/",
+      "https://oncoguide.cc/education/designing-a-vaccine/03-immunopeptidomics/",
+      "https://oncoguide.cc/education/guides/engineered-cell-therapy/07-reading-the-safety-plan/",
+      "https://oncoguide.cc/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation/",
+      "https://oncoguide.cc/education/guides/reading-pathology-and-surgery-results/index/",
+      "https://oncoguide.cc/education/images/index/",
+      "https://oncoguide.cc/education/molecular-profiling/07-from-data-to-care-plan/",
+      "https://oncoguide.cc/education/multi-omics-foundations/07-comparisons-and-evidence/",
+      "sha256:c1cdbbc5dd7822330bb6436bee6b0f68c8a0d559d8f451ce0c68187fa26c4cab",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fcellular-therapies%2Fimages%2Fwhere-cells-are-engineered-v2-light.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fcellular-therapies%2Fimages%2Fwhere-cells-are-engineered-v2-dark.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fdesigning-a-vaccine%2Fimages%2Fthree-assays-three-questions-v2-light.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fdesigning-a-vaccine%2Fimages%2Fthree-assays-three-questions-v2-dark.png",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fguides%2Fjudging-a-test-or-vendor-claim%2Fimages%2Fhospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fguides%2Fjudging-a-test-or-vendor-claim%2Fimages%2Fhospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fpurpose-laboratory-and-product-use-objects-b10-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fassay-specimen-rule-and-use-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fpurpose-laboratory-and-product-use-objects-b10-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Faccess-and-regulation%2Fapproval%2Fimages%2Fassay-specimen-rule-and-use-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Ftmb-count-and-eligible-territory-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fsequencing-basics%2Fimages%2Ftmb-count-and-eligible-territory-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fpathology-readouts%2Fimages%2Fihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fpathology-readouts%2Fimages%2Fihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fcomputational-analysis%2Fimages%2Fdonors-cells-and-held-out-interventions-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Fcomputational-analysis%2Fimages%2Fdonors-cells-and-held-out-interventions-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fpooled-guide-representation-and-cutting-effects-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fmeasurement%2Ffunctional-models%2Fimages%2Fpooled-guide-representation-and-cutting-effects-v1-light.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fevidence-and-statistics%2Freasoning-tools%2Fimages%2Fobservations-and-untested-benefit-bridges-v1-dark.svg",
+      "https://diana-tnbc.com/api/education/file?path=wiki%2Feducation%2Fconcepts%2Fevidence-and-statistics%2Freasoning-tools%2Fimages%2Fobservations-and-untested-benefit-bridges-v1-light.svg"
+    ],
+    "qualification": "Root actual Q17 delivery evidence observed; no fresh live/source/native/UI certification by this review. The new continuity receipt and later two-repair reconciliation were not in that frozen batch."
+  },
+  "newReceiptIncludedInOriginalQ17FrozenBatch": false,
+  "originalCreatorInference": false,
+  "newImageModelCalls": 0,
+  "newMedicalClaims": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "clinicianDomainExpertReview": "pending",
+  "learnerReview": "pending",
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "actualFutureAdoptionCommit": null,
+  "actualFutureCommittedSourceBaseline": null,
+  "actualFutureCommittedDestinationBaseline": null,
+  "actualFutureExecutionSourceCommit": null,
+  "actualFutureExecutionDestinationCommit": null,
+  "actualFutureDeliverySourceCommit": null,
+  "actualFutureDeliveryDestinationCommit": null,
+  "sourceCommit": null,
+  "companionCommit": null,
+  "liveAt": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "delivery": null,
+  "publication": null,
+  "coverageCreditAwarded": false,
+  "selfCredit": 0,
+  "newCredit": 0,
+  "sourceFitCredit": 0,
+  "gradeCredit": 0,
+  "newVisualGapCredit": 0,
+  "currentCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "baselineAdequateCountCredit": 0,
+  "newSourceFitOverlayEntry": false,
+  "requiredLaterBindings": [
+    "Root adopts this exact receipt without overwriting the original selected review/release or creative provenance.",
+    "Root runs maintained two-repair baseline-adequate/no-overlay contract reconciliation and actual later release with future executable/delivery refs.",
+    "Original007/018/044 final acceptance/accounting remains pending until the two-repair reconciliation completes."
+  ],
+  "canonicalGitOncoguidePublisherRuntimeGeneratorWrites": 0,
+  "protectedNarrativesReadHashedOrExported": false,
+  "onlyPrivateReviewDirectoryWritten": true,
+  "rootSoleIntegrator": true,
+  "publicationPath": "wiki/education/designing-a-vaccine/images/prompts/peer-reviews/visual-022-current-owner-task-fit-continuity-2026-10-15.json"
+}

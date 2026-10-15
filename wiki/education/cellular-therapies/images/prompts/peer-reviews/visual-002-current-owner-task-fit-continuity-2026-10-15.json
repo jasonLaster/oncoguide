@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-current-owner-task-fit-continuity",
+  "continuityScope": "current revised public teaching text with unchanged baseline-adequate artwork",
+  "id": "visual-002",
+  "owner": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+  "type": "guide-lesson",
+  "author": "agent:/root/flagship_delivery_cards_author",
+  "authorRole": "Literal current high-level teaching revision author, bound by the preserved exact-candidate peer and source-candidate map; original retained-art author identified separately.",
+  "integrationAuthor": "root",
+  "reviewer": "agent:/root/baseline_adequate_repair002_review",
+  "reviewerRole": "Actual independent current-owner and retained-art task-fit continuity reviewer",
+  "reviewedAtUTC": "2026-10-15T18:38:50.782268+00:00",
+  "passedAtUTC": "2026-10-15T18:38:50.782268+00:00",
+  "independent": true,
+  "passed": true,
+  "verdict": "PASS",
+  "scope": "Current public owner text versus exact frozen learner task and unchanged two-native pair. No fresh science-source approval, new pixel approval, human review, curriculum credit, canonical adoption, publication or production verification.",
+  "currentOwnerSha256": "1bcfb810274fefaaa3c5470f751820d908d7e76f9ac0466233abf4414c16afb5",
+  "currentOwnerFieldMeaning": "Exact observed Q17-delivered current source owner; this receipt is new and was not part of the immutable Q17 batch.",
+  "sourceObservationCommit": "f5d9ff63ea4cbcae498a0248637109f325901c7b",
+  "sourceObservationMeaning": "Parent-supplied completed Q17 delivery checkpoint; current owner and native hashes independently checked here. No release verification by this review.",
+  "priorCurrentOwnerSha256": "4b72a023dbcc2095010d01f8232cd9a330596474b6aa652e2ddf586ebd0cd228",
+  "metadataGate": {
+    "method": ".agents/scripts/education-metadata.ts metadata()/restricted() before body read",
+    "sensitive": false,
+    "restricted": false,
+    "type": "guide-lesson",
+    "reviewed": "pending",
+    "reviewed_by": "",
+    "restrictedCaseVendorMeetingHistoricalNarrativesRead": false
+  },
+  "frozenTaskIdentity": {
+    "path": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+    "pageSHA256": "be95588351a4b8da4b9bc1ee03e087817d5148bb173eb87f7f1d76d28cbe50d5",
+    "targetSection": "## Two manufacturing routes",
+    "learnerTask": "Identify administered cells versus administered instructions and the two targeting jobs.",
+    "gap": "No extra image required for the route and downstream measurement chain.",
+    "accuracyGuardrails": "Label the administered material on each route and separate delivery targeting from the later cancer-recognition target. Uptake, productive expression, cell function and benefit remain distinct measurements.",
+    "sharedCanonicalOwner": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "recommendedMedium": "none",
+    "priority": "none"
+  },
+  "frozenTaskIdentityUnchanged": true,
+  "frozenAuditIdentity": {
+    "auditPath": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+    "auditSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+    "jsonPointer": "/3",
+    "originalTaskRowSHA256": "e934e43222dcf3af1a12af2650290ffaa8025aa936f746cdbc0f79aa457036f2"
+  },
+  "sourceFitAssessment": {
+    "learnerTask": "Identify administered cells versus administered instructions and the two targeting jobs.",
+    "gap": "No extra image required for the route and downstream measurement chain.",
+    "accuracyGuardrails": "Label the administered material on each route and separate delivery targeting from the later cancer-recognition target. Uptake, productive expression, cell function and benefit remain distinct measurements.",
+    "baselinePageSHA256": "be95588351a4b8da4b9bc1ee03e087817d5148bb173eb87f7f1d76d28cbe50d5",
+    "currentVisualFit": "adequate",
+    "humanReview": "pending",
+    "reasoning": "The unchanged four-scene pair still identifies engineered cells infused ex vivo versus instruction carriers administered in the two in vivo alternatives, and separates carrier-to-T-cell contact from CAR-to-antigen recognition. Its image/alt/caption/full-size block is byte-identical to the previously reviewed released owner. The current owner adds bounded CD3/CD8 mouse-study cards and practice that explicitly distinguish delivery address, measured expression denominators and downstream function, while rejecting inference to every contacted carrier, every tissue, human cancer control or exclusive targeting. The retained route table, measurement-chain diagram, assay discussion and caption still keep uptake, usable expression, cell function and benefit separate. Thus the frozen learner task remains adequate without an additional image. This judgment concerns current owner/art task fit only; it does not independently approve the added study claims or expand the frozen task."
+  },
+  "priorReviews": {
+    "selectedSourceFitReview": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-002-review.json",
+      "sha256": "85530bd8192a3f70e9d45de7d9643604c92b015626086947106cbcb9add25404"
+    },
+    "selectedRelease": {
+      "path": "project-management/audits/2026-10-10-education-visual-audit/production-wave1-release.json",
+      "sha256": "909efe5ef4d64b1443956cfbbcf35ad06d532146838e5e55b51c96b3b39a101f"
+    }
+  },
+  "predecessorIdentity": {
+    "author": "immune_foundations",
+    "reviewer": "claims_access",
+    "reviewerSubstitutedIntoOldReceipt": false,
+    "literalPriorReviewAndReleaseBytesUnchanged": true,
+    "baselineCurrentVisualFit": "adequate",
+    "existingSourceFitOverlayEntry": false,
+    "originalProductionRelease": {
+      "sourceCommit": "3f916f59e10eed89c4419bf8196c9750c4724689",
+      "companionCommit": "62b2f67725af364e178eb112b8c4b037c73f63bf",
+      "dianaContentAndVisibilityMatch": true,
+      "oncoguideNativeBytesMatch": true,
+      "zeroDrift": true
+    }
+  },
+  "outputs": [
+    {
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+      "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7"
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+      "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8"
+    }
+  ],
+  "custody": {
+    "hashes": [
+      {
+        "path": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+        "sha256": "1bcfb810274fefaaa3c5470f751820d908d7e76f9ac0466233abf4414c16afb5",
+        "bytes": 22288
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+        "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+        "bytes": 1681421
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+        "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+        "bytes": 1728795
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-002-brief.json",
+        "sha256": "e208b10a3c2ac352e74394443039134d7159ba715856b2da04dc18c4faebf998",
+        "bytes": 13545
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-002-author-review.json",
+        "sha256": "fdf49132554277333eb63e8f0e4b7cadf73fc5542dbf8e1438415cdb88476269",
+        "bytes": 9757
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/production-visual-002-review.json",
+        "sha256": "85530bd8192a3f70e9d45de7d9643604c92b015626086947106cbcb9add25404",
+        "bytes": 12650
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/production-wave1-release.json",
+        "sha256": "909efe5ef4d64b1443956cfbbcf35ad06d532146838e5e55b51c96b3b39a101f",
+        "bytes": 6356
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/page-visual-review.json",
+        "sha256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+        "bytes": 924329
+      },
+      {
+        "path": "project-management/audits/2026-10-10-education-visual-audit/artwork-review.json",
+        "sha256": "de4cc56f09109696de6642d0d7c0e9bf11b445c15fb4e58824ec74a0f6e5e088",
+        "bytes": 125005
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2.txt",
+        "sha256": "b1725d894fb0ccdd143ed7e784549395bb6a7d29b46c92080bb589d8bf7ec2c5",
+        "bytes": 5219
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-calls.json",
+        "sha256": "cd77daf1c840617df78f94b2ead8c65e7e880bddef4a2ef470212914adc7952d",
+        "bytes": 19983
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-receipt.json",
+        "sha256": "eac3a30852f5a554d888a72d1efcae5994db95f017eae5c3ad4ee6a8e9bc744c",
+        "bytes": 9827
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-light-call.txt",
+        "sha256": "822efde98e05ccf00bf1ecc3d2a88dc5740121a1c6f9119ed45830544eea32b0",
+        "bytes": 1895
+      },
+      {
+        "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-dark-call.txt",
+        "sha256": "506382cdd71c552f790d0d123c1e068d01cbcc58012d368d852e568bf14431e8",
+        "bytes": 1088
+      }
+    ],
+    "baselineOwnerHashSeparate": {
+      "path": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+      "sha256": "4b72a023dbcc2095010d01f8232cd9a330596474b6aa652e2ddf586ebd0cd228",
+      "meaning": "Earlier selected review/release owner only; not a second current custody owner"
+    },
+    "nativeHashVerificationOnlyForApproval": true,
+    "selectedNativeOutputCount": 2,
+    "currentOwnerEntryCount": 1,
+    "allSelectedPriorReceiptAndOutputHashesMatch": true
+  },
+  "actualTaskFitInspection": {
+    "bothActualNativeOriginalsPersonallyViewed": true,
+    "nativeDimensions": [
+      1024,
+      1536
+    ],
+    "newNativeApproval": false,
+    "localIsolatedEmbedScreenshots": [
+      {
+        "path": "/tmp/education-two-baseline-adequate-repair-continuity/visual-002/light-390-isolated-embed.png",
+        "sha256": "e6a1233b97a159de0f12870dc754f11f6de09f631a575fb4ed850b9373d18320",
+        "theme": "light",
+        "viewportWidth": 390,
+        "imageWidth": 312,
+        "personallyViewed": true
+      },
+      {
+        "path": "/tmp/education-two-baseline-adequate-repair-continuity/visual-002/light-1280-isolated-embed.png",
+        "sha256": "0379ed47f3a03fd23d99b282e8e3f93fb55d8ed2ce63b67c7efc29ddf52537ee",
+        "theme": "light",
+        "viewportWidth": 1280,
+        "imageWidth": 690,
+        "personallyViewed": true
+      },
+      {
+        "path": "/tmp/education-two-baseline-adequate-repair-continuity/visual-002/dark-390-isolated-embed.png",
+        "sha256": "154ef96bc54fb8bc120e9b449763aa081743d343502e0137c7957fe76f2b3869",
+        "theme": "dark",
+        "viewportWidth": 390,
+        "imageWidth": 312,
+        "personallyViewed": true
+      },
+      {
+        "path": "/tmp/education-two-baseline-adequate-repair-continuity/visual-002/dark-1280-isolated-embed.png",
+        "sha256": "13e9b8f5c9f3e65da6d341d122b65db5c1b296a1b110f5e6907922ecb4f32690",
+        "theme": "dark",
+        "viewportWidth": 1280,
+        "imageWidth": 690,
+        "personallyViewed": true
+      }
+    ],
+    "currentCaptionTextUsed": true,
+    "imageAltCaptionFullSizeBlockByteExactToSelectedPriorReleasedOwner": true,
+    "imageAltCaptionFullSizeBlockSHA256": "876f18848fe655c818c3f9c8080b3a3d228db9f0aab3e62b49c47112bc8eaacd",
+    "inspectionMeaning": "Direct diagnostic inspection of retained pixels and current caption for task-fit continuity. Isolated local layouts only; no deployed reader, actual app theme, keyboard, dialog or download verification."
+  },
+  "limitations": [
+    "Fine raster labels still benefit from full-size enlargement at a312px image width; main route headings, administered-product distinction and ordinary16px caption remain readable.",
+    "No refreshed review of study methods, measured numerical claims or new medical-science approval; original and current genuine teaching-source peer scopes remain distinct.",
+    "No new coverage or source-fit credit; the frozen baseline was already adequate.",
+    "Human expert and learner review remain pending."
+  ],
+  "newCredit": 0,
+  "coverageCreditApplied": 0,
+  "sourceFitCreditNow": 0,
+  "newPixelApproval": false,
+  "newScientificSourceApproval": false,
+  "productionVerifiedByThisReview": false,
+  "humanReview": "pending",
+  "expertReview": "pending",
+  "learnerReview": "pending",
+  "newImageModelCalls": 0,
+  "canonicalAssignment": false,
+  "canonicalAdoption": false,
+  "sourceFitAdoption": false,
+  "futureAdoptionCommit": null,
+  "releaseAccepted": false,
+  "productionVerified": false,
+  "publication": null,
+  "canonicalGitPublisherWrites": 0,
+  "onlyPrivateReviewDirectoryWritten": true,
+  "rootSoleIntegrator": true,
+  "requiredLaterBindings": [
+    "Root must adopt this exact new receipt and current owner hash under a successor release, retaining the original frozen learner/gap/guardrail strings and predecessor review/release references.",
+    "Original Q17 receipt and its batch membership stay immutable; this review must never be backdated into it.",
+    "The maintained release contract must explicitly support already-adequate production-repair continuity without inventing a prior sourceFitUpdates overlay or awarding credit. Actual successor commits and both-site delivery verification remain separate."
+  ],
+  "publicationPath": "wiki/education/cellular-therapies/images/prompts/peer-reviews/visual-002-current-owner-task-fit-continuity-2026-10-15.json",
+  "correctionsRequested": [],
+  "originalArtworkAuthor": "immune_foundations",
+  "currentTeachingPeer": {
+    "author": "agent:/root/flagship_delivery_cards_author",
+    "reviewer": "agent:/root/flagship_delivery_cards_review",
+    "exactCurrentOwnerSha256": "1bcfb810274fefaaa3c5470f751820d908d7e76f9ac0466233abf4414c16afb5",
+    "preimageOwnerSha256": "4b72a023dbcc2095010d01f8232cd9a330596474b6aa652e2ddf586ebd0cd228",
+    "genuinePriorReview": {
+      "originalPath": "/tmp/education-flagship-curriculum-improvements/reviews/delivery-cards/successor02-high-level-educational-review/REVIEW.md",
+      "sha256": "980146861baac9b8a0304bf7a5c1fa686d2d32ab148f80ee4f5b8a5a76fcf5c3",
+      "preservedCopy": "/tmp/education-teaching-successor-18-parent05-preparation/receipt-evidence/p05-a1-safe-successor02-REVIEW.md",
+      "scope": "Previously genuine exact candidate acceptance; no new review or delivery acceptance"
+    },
+    "sourceCandidateMap": {
+      "path": "/tmp/education-teaching-successor-18-parent05-preparation/routing-completion-01/source-candidate-file-map.json",
+      "sha256": "5cbf6f888a021d1738063e030dafdefb4f8e1ff6640d47c9dbd7a543079d558a"
+    },
+    "scope": "Existing genuine safe high-level patient-education acceptance only; used as existing attribution and exact-candidate provenance, without reopening science review or claiming fresh medical approval."
+  }
+}
